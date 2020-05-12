@@ -12,6 +12,8 @@ Sample data for evaluation has already been uploaded under the data folder. To u
   ```
 3) The files are named accordingly with the following format: file_1 is from wikipedia, file_2 is from a biography, file_3 is from a non-fiction e-book. The files are in JSON(JavaScript Object Notation) format, which is the equivalent of a dictionary in python. To read from JSON files, use the following code:
   ```
+  import json 
+  
   with open([FILE_NAME.json], encoding='ISO-8859-1') as f:
     data = json.load(f)
   ```
