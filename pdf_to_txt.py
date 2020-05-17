@@ -3,6 +3,8 @@ from pdfminer.converter import TextConverter
 from pdfminer.layout import LAParams
 from pdfminer.pdfpage import PDFPage
 from io import StringIO
+import argparse
+import os
 import io
 
 def convert_pdf_to_txt(path):
@@ -27,9 +29,16 @@ def convert_pdf_to_txt(path):
     device.close()
     retstr.close()
 
-    print(text)
-    with io.open(path+".txt", "w+", encoding="utf-8") as f:
+    filename = path[:-4]
+    with io.open(filename +".txt", "w+", encoding="utf-8") as f:
         f.write(str(text))
 
-fileName = "2.pdf"
-convert_pdf_to_txt(fileName)
+if __name__ == "__main__":
+    parser = argparse.ArgumentParser()
+    parser.add_argument('--input_path', help="Requires the directory to your pdf files")
+    args = parser.parse_args()
+    file_path = args.input_path
+    file_list = os.listdir(file_path)
+    for file in file_list:
+        fileName = os.path.join(file_path, file)
+        convert_pdf_to_txt(fileName)

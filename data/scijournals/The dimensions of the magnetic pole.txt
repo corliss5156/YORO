@@ -1,0 +1,2853 @@
+ 
+
+ 
+
+ 
+
+ 
+
+The dimensions of the magnetic pole: a controversy at the heart of early dimensional
+
+analysis
+Author(s): Sybil G. de Clark
+Source: Archive for History of Exact Sciences, Vol. 70, No. 3 (May 2016), pp. 293-324
+Published by: Springer
+Stable URL: https://www.jstor.org/stable/24913462
+Accessed: 17-05-2020 10:00 UTC
+
+ 
+REFERENCES 
+Linked references are available on JSTOR for this article:
+https://www.jstor.org/stable/24913462?seq=1&cid=pdf-reference#references_tab_contents 
+You may need to log in to JSTOR to access the linked references.
+
+JSTOR is a not-for-profit service that helps scholars, researchers, and students discover, use, and build upon a wide
+
+range of content in a trusted digital archive. We use information technology and tools to increase productivity and
+
+facilitate new forms of scholarship. For more information about JSTOR, please contact support@jstor.org.
+
+Your use of the JSTOR archive indicates your acceptance of the Terms & Conditions of Use, available at
+
+https://about.jstor.org/terms
+
+Springer is collaborating with JSTOR to digitize, preserve and extend access to Archive for
+History of Exact Sciences
+
+This content downloaded from 203.78.15.150 on Sun, 17 May 2020 10:00:04 UTC
+All use subject to https://about.jstor.org/terms
+
+ Arch. Hist. Exact Sei. (2016) 70:293-324
+ DOI 10.1007/s00407-015-0168-6 Ό'
+
+ The dimensions of the magnetic pole: a controversy at
+ the heart of early dimensional analysis
+
+ Sybil G. de Clark1
+
+ Received: 26 August 2015 / Published online: 10 October 2015
+
+ © Springer-Verlag Berlin Heidelberg 2015
+
+ Abstract The rise of dimensional analysis in the latter part of the nineteenth century
+
+ occurred largely in the context of electromagnetism. It soon appeared that the subject,
+
+ albeit seemingly straightforward, was in fact wrought with difficulties. These revealed
+
+ deep conceptual issues regarding the character of physical quantities. Usually, whether
+
+ or not these problems actually constituted inconsistencies was itself a matter of debate.
+
+ In one instance, however, regarding the electrostatic dimensions of the magnetic pole,
+
+ all protagonists agreed that the matter required attention. A controversy ensued in 1882.
+
+ Its resolution partly relied on the realization that it arose from differences between the
+
+ scientific cultures prevalent on the Continent versus in Great Britain. These cultural
+
+ differences concerned the possible relevance of the medium in which interactions
+
+ involving magnetic poles take place, as well as the understanding of permeability in
+
+ Ampere's model of magnetism. The controversy around the electrostatic dimensions
+
+ of the magnetic pole entailed crucial issues that were soon to play just as central a
+
+ part in a wider debate about the dimensions of electromagnetic quantities in different
+
+ systems of units. Why the latter topic was never raised during the 1882 controversy
+
+ provides insights into the early understanding of dimensional analysis.
+
+ Communicated by: J.Z. Buchwald.
+
+ This research was conducted at the University Paris 7, Denis Diderot.
+
+ El Sybil G. de Clark
+
+ declark@physics.arizona.edu
+
+ 1 Department of Physics, University of Arizona, 1118 E. Fourth Street, PO Box 210081, Tucson,
+
+ AZ 85721, USA
+
+This content downloaded from 203.78.15.150 on Sun, 17 May 2020 10:00:04 UTC
+All use subject to https://about.jstor.org/terms
+
+ ® Springer
+
+ 294
+
+ 1 Introduction
+
+ 1.1 What is dimensional analysis
+
+ S. G. de Clark
+
+ Dimensional analysis is a method used in physics and engineering to investigate the
+
+ relations between physical quantities. It first ascribes to the latter so-called dimen
+
+ sions. These can then be compared, notably to ensure that physical equations obey the
+
+ expected rule of "dimensional homogeneity." The key concept, i.e., "dimensions," is
+ related to the concept of units, and indeed dimensional analysis in its modern sense
+
+ arose out of a concern for conversions between different systems of units.
+
+ Physics requires that units be defined for all physical quantities. However, all these
+
+ units are not chosen independently from one another—hence the phrase "system of
+
+ units." Indeed, some quantities are chosen whose units are deemed "fundamental" or
+
+ "base units." All other physical quantities then see their units defined with reference
+ to these fundamental ones, and for this reason, these are referred to as "derived units."
+
+ For instance in the SI system, one of the base units is that of length: the meter.1
+
+ The unit of area is then defined with reference to it as the square meter.
+
+ Base quantities and their units are defined arbitrarily, primarily for reasons of con
+
+ venience and accuracy. In our example, the meter is the distance that light travels in
+ vacuum in a time interval of 1/299,792,458 s.2
+
+ Derived units on the other hand are defined from base units by using physical laws
+
+ that relate the corresponding physical quantities, or to be more precise the values that
+
+ measure these physical quantities. To actually fix the definition of a derived unit can be
+
+ more than a matter of formalism: because concerns for precision involve experimental
+
+ considerations, it may require to have an actual setup in mind in which the physical
+ law can be embodied.3 However, the relationship between a derived unit and the base
+
+ units can be found simply by formal inspection of the chosen physical law. In our
+
+ example, the area of a surface is given by squaring the length of the side of a square
+ surface of the same size, i.e., area = length2, and the same goes for the units of these
+
+ quantities: square meter = (meter)2.
+
+ This is where dimensional analysis comes in. It assigns symbols to the fundamental
+
+ units: notably, L represents the base unit of length, Τ that of time, and Μ that of mass.
+
+ In practice, one would not write "square meter = (meter)2," but instead, using the
+
+ 1 SI stands for "Systeme International d'Unites." The others are the units of: time (the second), mass (the
+
+ kilogram), temperature (the kelvin), electric current (the ampere), light intensity (the candela) and amount
+ of substance (the mole).
+
+ 2 As if to highlight the arbitrary character of its definition, the meter went through several: originally, in
+ 1793, it was defined as one ten-millionth of the distance from the Earth's equator to its North Pole; then
+
+ in 1889 it became the length of a prototype bar, and in 1960 the 11th "Conference G6n6rale des Poids et
+
+ Mesures" (CGPM) redefined this as 1,650,763.73 times the wavelength of the emission line of krypton-86.
+ The current definition has been in use since 1983, since it was decided at the 17th CGPM.
+
+ 3 For example, Wilhelm Weber defined the unit of e.m.f. as follows: "As an absolute unit of measure of
+
+ electromotive force, may be understood that electromotive force which the unit of measure of the earth's
+
+ magnetism exerts upon a closed conductor, if the latter is so turned that the area of its projection on a plane
+ normal to the direction of the earth's magnetism increases or decreases during the unit of time by the unit
+
+ of surface" (Weber and Wilhelm Eduard 1861, p. 227).
+
+ ö Springer
+
+This content downloaded from 203.78.15.150 on Sun, 17 May 2020 10:00:04 UTC
+All use subject to https://about.jstor.org/terms
+
+ The dimensions of the magnetic pole: a controversy at the.
+
+ 295
+
+ language of dimensional analysis: [area] = L2, where the square brackets stand for
+
+ "dimensions of." To take a somewhat less trivial example, the dimensions of force [F]
+ would be derived from Newton's second law as follows. Newton's second law states:
+
+ d2x
+ F = m χ —T
+ di2
+
+ where F stands for the force on the object, m its mass, χ its position and t for time—all
+
+ understood as the physical quantities themselves.4 The quantities on the right-hand
+ side—which I conveniently chose to be base ones—have dimensions: [m] = M, [jc] =
+ L, [/] = T.
+
+ The dimensions of a derivative are the same as that of a normal ratio,5; therefore,
+
+ the dimensions of force are [F] = MLT~2.
+
+ Once the dimensions of all known quantities have been established in this way,
+ dimensional analysis can be used as a check on derivations. Indeed all the terms that
+
+ appear in an equation are required to be "(dimensionally) homogeneous," i.e., to have
+
+ the same dimensions as one another.6 When a result is found by inspection to violate
+
+ this rule, this signals that a mistake must have been made in the course of the derivation.
+
+ This is systematically used as a first check on results, and it seems fair to say that it
+
+ constitutes the most widespread use of dimensional analysis in physics today.7
+
+ In anticipation of the issues that shall be raised below, it is important to point out
+
+ how the relation between dimensions and systems of units is understood nowadays.
+
+ Some common systems of units differ by their base units, yet share the same base
+
+ quantities. For instance, the CGS system differs from the metric system in so far that
+
+ it uses centimeters instead of meters and grams instead of kilograms as the base units
+
+ of length and mass, respectively, but both systems use L, Τ and Μ as base quantities.
+
+ The same is true for the systems of units between which one would typically have
+
+ to convert in everyday life due to their being used to various degrees in different
+ countries: SI (meter, km, kg...), imperial units and US customary units (foot, mile,
+
+ pound..However, different systems of units can also have different base quantities.
+ For instance, particle physics uses the so-called natural units, which use three base
+
+ units (unit of length, the speed of light c and Planck's constant A), three fundamental
+
+ definitions that enable us to relate these to units of length, time and mass,8 and only
+ one dimension, L, because both c and A are considered dimensionless.9
+
+ 4 That is, a numerical value and the unit, such as "4 kg".
+
+ 5 That is, taking a single derivative with respect to a quantity yields the same dimensions as dividing by it,
+
+ and taking the double derivative, the same dimensions as dividing by its square.
+
+ 6 Note that this is trivially the case in the examples given above: there are only two terms, one on each side
+ of the equal sign, and both have the same dimensions.
+
+ 7 It is by no means the only one however. Notably, in quantum field theory dimensional analysis is used to
+ determine what terms can rightfully appear in a theory. See footnote 8 below for more details.
+
+ 8 These relations are:
+
+ - L = ct, where L is the distance traveled by a photon, t its time of travel and c the speed of light in vacuum.
+ - Ε = hf, where Ε is the energy of a photon of frequency /, and h is Planck's constant.
+
+ - Ε = mc2, where £ is the energy of a particle of mass m (and c still the speed of light).
+
+ 9 Both are also given the numerical value of 1. Since L = et, [Z-] = L implies [/] = L. Since Ε = hf
+
+This content downloaded from 203.78.15.150 on Sun, 17 May 2020 10:00:04 UTC
+All use subject to https://about.jstor.org/terms
+
+ £> Springer
+
+ 296
+
+ S. G. de Clark
+
+ As we shall see below, at the time of the controversy which is the topic of the present
+
+ paper, two systems of units were in use in the field of electromagnetism. These had the
+
+ same base quantities (L, Μ and T) and base units. The difference between them lay in
+
+ how they obtained the units of derived quantities: some of the physical relations used
+
+ for this purpose were not the same in the two systems, and the dimensions obtained
+
+ for the derived quantities were not either.
+
+ 1.2 The emergence of dimensional analysis
+
+ Dimensional analysis in its modern sense can be traced back to Jean Baptiste Joseph
+
+ Fourier's Theorie analytique de la chaleur of 1822. Concern over homogeneity, in the
+
+ sense of the conditions required for a relationship between physical quantities to be
+
+ meaningful, had existed since Antiquity. For instance, quantities could only be added
+
+ that were homogeneous, by which was meant, etymologically enough, "of the same
+
+ nature," and Euclid stated something similar for ratios. These quantities were usually
+
+ thought as geometrical—lines or surfaces (Euclid, book 5, lemma 3; see Mueller 1970,
+
+ pp. 1-6). The introduction of derived quantities by Isaac Newton in the seventeenth
+
+ century eventually led to a numerical conception of equations in the eighteenth century
+
+ (see Macagno 1971, p. 392). With all terms and quantities now being pure numbers,
+
+ the issue of homogeneity seemed a moot point.10 In the early nineteenth century,
+
+ however, Fourier recast the issue into a different problematic. If terms represented
+
+ numbers, then what remained of an equation when those numbers were altered by a
+
+ change of units? Under what conditions would an equation remain true independently
+
+ of the system of units considered? Fourier defined these conditions by means of the
+
+ relationship between the conversion factors of the derived quantities and those of a set
+
+ of basic quantities. Terms were homogeneous whose units had the same relationship
+
+ to the base units (Fourier 1822, pp. 154-158).
+
+ Fourier's work did not have an immediate impact, and in the following decades
+
+ before dimensional analysis aroused interest, Wilhelm Eduard Weber introduced three
+
+ systems of units in the context of electromagnetic theory. A same physical quantity
+
+ usually had different dimensions in these different systems of units.
+
+ As well as Carl Friedrich Gauss, Weber wished to define new, stable units for electric
+
+ and magnetic quantities, and developed the notion of absolute measurement.11 The
+
+ Footnote 9 continued
+
+ and / is as always given by inverse of a time, this in turn implies [E] = L . Ε = mc1 then implies
+
+ [Μ] = [E] = L~1. Because particle physics deals more with energies than lengths, it has become customary
+
+ to use Μ rather than L as the base quantity: [L\ = [t] = M-1.
+
+ An important application of this is the following. The action, which is the time integral of an energy, is
+
+ dimensionless: M~'M = M°. The Lagrangian density £ is related to the action 5 by: S = f d4xC, where
+
+ the integral is over spacetime coordinates. Since both time and space have dimension M_I, each term in
+
+ £ must have dimension M4. Taking a scalar theory as an example, that is, a theory where the field, φ, is a
+
+ scalar quantity, one of these terms is y(d,<p)2, which implies that [ψ] — Μ. Knowing this puts constraints
+ on what form the other terms in £ can take, i.e., what functions of the field they can be, since they all are
+
+ required to have dimension M4.
+
+ 10 See notably Roche (1998, pp. 88-190) and Charbonneau (1996, pp. 15-38).
+
+ 11 See Roche (1998, pp. 197-202). The period was characterized by a preoccupation for standards: the
+
+ metric system endured after the Napoleonic wars and motivated several German states to organize reforms
+
+ ö Springer
+
+This content downloaded from 203.78.15.150 on Sun, 17 May 2020 10:00:04 UTC
+All use subject to https://about.jstor.org/terms
+
+ The dimensions of the magnetic pole: a controversy at the.
+
+ 297
+
+ work of Gauss and Weber was based on the mechanist credo that the units of all
+
+ physical quantities, notably electromagnetic ones, could be expressed in terms of the
+
+ units of mechanical quantities. They regarded a few mechanical units as fundamental,
+
+ i.e., length, time and mass, and from these they derived "absolute units" for electric
+
+ and magnetic quantities.12 More specifically, Gauss was interested in defining an
+ absolute unit for magnetic field intensity, and Weber for electrical resistance (Gauss
+ 1833; Weber 1851). This led Weber to define three different "systems of absolute
+
+ units": the "electrostatic, "electromagnetic" and "electrodynamic" systems. The first
+
+ two especially gained wide acceptance. They were notably described by James Clerk
+
+ Maxwell in his famous Treatise on Electricity and Magnetism (Maxwell 1873, Vol. 2,
+
+ chapter 10).
+
+ The defining difference between these two systems was that they were founded on
+
+ different force laws—or equivalently different field laws. The electrostatic system of
+ units was based on Coulomb's law for the force between electrostatic charges:
+
+ / = (i)
+
+ where e stands for charge, / for the force and r for the distance between the two
+
+ charges. In terms of dimensions it implies:
+
+ rl
+
+ [el2
+
+ if] = (2)
+
+ where Τ was the electric field (Maxwell 1873, § 625). This would seem to first require
+
+ finding the dimensions for the field in terms of L, Μ, T. Instead he substituted for [.F]
+
+ Footnote 11 continued
+
+ of weights and measures. To this end, they enlisted the help of scientists, notably Gauss himself who in
+
+ 1836 was put in charge of such a program in Hanover. Defining new standards of measurement called
+
+ for precision instruments, and also the respect of well-defined procedures, both when duplicating material
+
+ standards and when actually making measurements. See notably Olesko (1995) and Olesko (1996).
+
+ 12 Gauss: original Carl Friedrich Gauss, Goettingue, 1833.
+ See Weber (1851).
+
+ 13 See notably Everett (1879), chapters X and XI. An analogous description in terms of units rather than
+
+ dimensions ran as follows: "In the electrostatic system the most important unit, which serves as the basis of
+
+ all the others, is the unit of electricity. This is determined by the following definition: The unit of electricity
+
+ is that amount of electricity which exerts the unit of force upon an equal amount of electricity at the unit of
+
+ distance" (Clausius 1882, p. 383).
+
+This content downloaded from 203.78.15.150 on Sun, 17 May 2020 10:00:04 UTC
+All use subject to https://about.jstor.org/terms
+
+ Springer
+
+ and with [/] = LT~2M this yields:
+
+ [es] = l3/2T_1M1/2, (3)
+
+ where the subscript "s" refers to dimensions in the electrostatic system.13
+
+ As will be discussed in greater detail in Sect. 2.1 below, Maxwell actually used the
+
+ field rather than forces. His defining equation for the electrostatic system was:
+
+ ^=4 (4)
+
+ rz
+
+ 298
+
+ S. G. de Clark
+
+ and [e] relations in terms of T, L, M, e or T, L M, m, which held independently of the
+
+ system concerned—notably in so far that their derivation did not require appealing to
+ Coulomb's force laws.14
+
+ In contrast the electromagnetic system was defined on the basis of Coulomb's law
+
+ between magnetic poles:
+
+ Ι = (5)
+
+ rL
+
+ where m stands for the strength of the pole, and again / for the force and r for
+
+ the distance between the two poles. This relation was then in common use, on the
+
+ same footing as its electrostatic counterpart. The concept of pole used at the time
+
+ corresponded to a pole of an idealized magnet, i.e., uniformly magnetized throughout
+
+ its length, and in the limit that this magnet becomes infinitely long and thin (so its
+
+ ends become point-like).15 Equation 5 leads to the dimensional relation:
+
+ [/]-$. (6)
+
+ and with [/] = LT~2M this results in:
+
+ [mm] = L3/2T-jM1/2, (7)
+
+ where the subscript "m" stands for the electromagnetic system. Comparison with Eq. 3
+
+ shows that Coulomb's law for magnetism yields the same dimensions for m in the
+
+ electromagnetic system as its electrostatic counterpart does for e in the electrostatic
+
+ one—as could indeed be expected from the structural similarity between the two
+ laws.16
+
+ Again, instead of the force law Maxwell actually used:
+
+ K-£ (8)
+
+ 1882, p. 363)
+
+ 16 Again, this can be expressed in terms of units in the following way:
+
+ "The unit of magnetism is that amount of magnetism which exerts upon an equal amount of magnetism at
+
+ the unit of distance the unit of force." (Clausius 1882, p. 384)
+
+ Clausius actually favored referring to this system as the "electrodynamic system," because he agreed with
+
+ Ampere that magnetism arose from microscopic electric currents, hence was electrodynamic in nature, and
+
+ consequently uses the subscript "d" instead of "m"; however, he made clear that it was standardly referred
+
+ to as the electromagnetic system. (Clausius 1882, p. 383)
+
+ 17 What we would now call the auxiliary magnetic field.
+
+ As for the electrodynamic system, it was based on Ampere's law between current elements (Weber 1851).
+
+ Springer
+
+This content downloaded from 203.78.15.150 on Sun, 17 May 2020 10:00:04 UTC
+All use subject to https://about.jstor.org/terms
+
+ as the basis of the electromagnetic system, where Η was the magnetic field (Maxwell
+ 1873, § 625; see Sect. 2.1 below).17
+
+ 14 He naturally attributed to r2 the dimensions L2.
+
+ 15 Maxwell (1873, Vol. 2, chapter 1, § 373). Magnetism was attributed to microscopic electric currents.
+
+ In 1882 (the time when the controversy of interest took place) Lodge believed "universally accepted" that
+
+ "the properties of magnetic substances of all kinds [were] explained by molecular electric currents, and no
+
+ magnets or magnetic substances other than those consisting of current-conveying molecules exist." (Lodge
+
+ The dimensions of the magnetic pole: a controversy at the.
+
+ 299
+
+ Until 1883, no one appears to have expressed dissatisfaction with the fact that a
+
+ quantity generally had different dimensions in different systems of units. However, a
+
+ given physical quantity was expected to have a unique set of dimensions in any given
+
+ system. In 1882, this requirement gave rise to a controversy regarding the dimensions
+
+ of a magnetic pole. The debate took place mostly in Great Britain, in the Philosophical
+
+ Magazine, sparked by a German publication by Rudolf Clausius in March 1882 soon
+
+ translated in the British magazine (Clausius 1882).
+
+ 2 The electrostatic dimensions of the magnetic pole according to
+
+ Maxwell and Clausius
+
+ 2.1 The dimensions of electromagnetic quantities in Maxwell's treatise on
+
+ electricity and magnetism
+
+ In order to appreciate the issues at stake, it is necessary to remember what the British
+
+ viewpoint was at the time, as heralded by James Clerk Maxwell. And indeed it can
+
+ fairly be said that Maxwell's Treatise on Electricity and Magnetism (Maxwell 1873)
+
+ had been responsible for sparking interest in dimensional analysis both in and beyond
+
+ Great Britain: the Treatise had been very influential, and Maxwell had devoted an
+
+ entire chapter of it to the topic (Maxwell 1873, Vol. 2, chapter 10). The importance
+
+ he afforded dimensional analysis can be partly attributed to his general interest in the
+
+ classification of physico-mathematical quantities (Darrigol 2000; Harman 1887), but
+
+ it was also related, once again, to the prevalent concern for measurement standards.
+
+ In fact, ten years earlier Maxwell had co-authored a contribution on the topic to the
+
+ Committee on electrical standards that had been appointed by the British Association
+
+ for the Advancement of Science with the view of establishing a standard of electric
+
+ resistance.18 The wish to improve electromagnetic measurement standards was in turn
+
+ strongly driven by the needs of cable telegraphy.19
+
+ In his treatise, Maxwell focused on relations independent of any system of units. He
+
+ gave fifteen dimensional relations deemed fundamental, either products of quantities
+
+ that had the dimensions of energy (Eq. 9 below), energy density (Eq. 10),20 or ratios
+
+ that led to especially simple dimensions in terms of the base units of time and length
+ (T, L, L2, Eqs.11-13).21
+
+ 18 British Association for the Advancement of Science (1863).
+
+ 19 See notably, Hunt (1994, 1996, 1997, 2003, 2005) and Schaffer (1997) as well as Atten (1992) for the
+ case of France.
+
+ 20 Energy and work have the same dimensions, as required by the work-energy theorem. Since work is
+
+ given by force χ displacement, ithas dimensions: [work] = [force]xL = LT~2MxL = L2T_2M. Energy
+ density then has dimensions: [energy density] = [energy] -h [volume] = L2T-2M L3 = L-1T-2M.
+
+ 21 Following the standard usage I shall use italics for quantities (for instance "e" for quantity of electricity),
+
+ square brackets to denote the dimensions of a derived quantity (such as [e]) and no brackets, nor italics for
+
+ the fundamental quantities in terms of which the dimensions are expressed (for instance "L" for length).
+ (MaxweU 1873, Vol. 2, chapter 10, § 621-622.)
+
+This content downloaded from 203.78.15.150 on Sun, 17 May 2020 10:00:04 UTC
+All use subject to https://about.jstor.org/terms
+
+ <£l Springer
+
+ 300
+
+ S. G. de Clark
+
+ [eE] = [/ηΩ] = [pC] = (9)
+
+ {Vr\ = [BH] = [(ZU] = ^ (10)
+
+ [#] - [i] - Κ] -L
+
+ K]=[§]=[f]=L2
+
+ with e the quantity of electricity; £ the line integral of electromotive intensity; m
+
+ the quantity of magnetism; Ω the magnetic potential; ρ the electrokinetic momentum
+
+ of a circuit; C the electric current; V the electric displacement; Τ the electromotive
+
+ intensity; β the magnetic induction; Ή. the auxiliary magnetic field; C the strength of
+
+ the current at a point; U the vector potential.
+
+ Maxwell did not specify how he reached Eqs. 9 and 10. He appears to have simply
+
+ deemed physically obvious that the products involved had dimensions of energy and
+
+ energy density, respectively. He justified Eq. 11 by the fact that it involved the ratios of
+
+ the time integral of quantities to the quantities themselves. For instance, the quantity
+
+ of electricity e is the time integral of the electric current C. Dimensionally, integrating
+
+ over a quantity entails multiplying by its dimensions, so:
+
+ ΙτΗ  fCdt
+
+ (14)
+
+ Similarly Eqs. 12 and 13 were ratios of, respectively, line and surface integrals to the
+
+ quantities themselves, thereby yielding dimensions of L and L2.
+
+ Maxwell then used these fifteen relations in order to obtain the dimensions of the
+
+ major electric and magnetic quantities. There was a problem however: although these
+
+ relations only involved twelve quantities, they were not all independent, so that in fact
+
+ another one would have been required in order to uniquely determine the dimensions
+
+ of all twelve quantities in terms of L, Μ and Τ alone.
+
+ To deal with this difficulty, Maxwell temporarily added a fourth base unit—or
+
+ rather, a choice of two. He gave a list of dimensions in terms of L, Μ, Τ and the
+
+ unit of static charge e, and another list in terms of L, Μ, Τ and the unit of magnetic
+
+ pole m. Both these sets of dimensions were valid irrespective of the system of units
+
+ considered—electrostatic or electromagnetic system notably.
+
+ Of greatest import in Maxwell's derivation were [e], [m] and the electric field [F]
+
+ for which he found, in terms of e and m, respectively:
+
+ [m] = = m (15)
+
+ eT
+
+ Ö Springer
+
+This content downloaded from 203.78.15.150 on Sun, 17 May 2020 10:00:04 UTC
+All use subject to https://about.jstor.org/terms
+
+ The dimensions of the magnetic pole: a controversy at the.
+
+ [e] = e =
+
+ L/M
+
+ mT
+
+ LM _ m
+ eT2 ~ LT
+
+ 301
+
+ (16)
+
+ (17)
+
+ Importantly, Maxwell did not explain how he obtained these dimensions from the
+
+ fifteen dimensional relationships previously established, and this is the step for which
+
+ disagreements were going to occur regarding the interpretation of his work.
+
+ Furthermore, despite what Maxwell seemed to imply, the dimensions in terms of
+
+ L, Τ, M, e and L, T, M, m of the various electromagnetic quantities that he provided
+
+ cannot all be derived from the fifteen dimensional relations that he gives in the text.
+
+ Some can be and even with far less than his fifteen relations. Notably, the first equality
+
+ in Eq. 17 can be easily obtained from [eE] = ίγρ and = L (see Eqs. 9 and
+
+ 12, respectively), or alternatively from \DT\ = and [^] = L2 (see Eqs. 10 and
+
+ 13). However, in many cases, an additional relation is required. Crucially, this is true
+
+ even for [m] = (Eq. 15) and [e] = Mji (Eq. 16). Either one can been obtained
+
+ directly from the other, simply by solving for either e or m, respectively. However,
+
+ neither can be derived using only the fifteen relations given by Maxwell.22
+
+ For this reason, Clausius later argued that Maxwell used [/?] = [m]. This is con
+
+ ceivable, for it does lead to all the dimensions Maxwell gave, and he indeed wrote
+
+ it explicitly when listing them. However, the way he did so rather suggests that he
+
+ had derived the dimensions of ρ and m independently and happened to find them the
+
+ same.23 In contrast, Maxwell did provide an additional relation in the very section
+
+ where he listed the main fifteen ones, although he only did so in a footnote and offered
+
+ no clue regarding its origin: j = L.24 In combination with the others, this relation
+ (as does [p] = [m])25 indeed yields all the dimensions that Maxwell gave, including
+
+ [m\ = and [e] = Mji-. Using the relation j^j = L instead of [p] = [m]
+
+ 22 Neither can be the second equality in Eq. 17, [T\ = jj. See footnote 26 below.
+ 23 Indeed Maxwell wrote:
+
+ Γ - τ
+
+ (3) and (5) [ρ] = [m] = = [m],
+
+ where the "(3)" and "(5)" refer to the numbering of m and p, respectively, when he listed earlier the
+
+ electromagnetic quantities themselves. Furthermore, he never listed separately (i.e., on different lines)
+
+ quantities that have the same dimensions. The situation occurs for only m and p, and C and Ω , and in both
+
+ cases he presented the results the same way, i.e., again with:
+
+ If [C] = [0] were to be also interpreted as a relation additional to the fifteen he gave explicitly, we would
+
+ now have an abundance of riches, for either [p] = [m] or [C] = [0] is necessary to find all the dimensions,
+
+ but not both (they do yield the same results).
+
+ 24 Neither Maxwell nor Clausius comments on why [p] should be equal to [m], either.
+
+ 25 And as does [C] = [Ω],
+
+ 45} Springer
+
+This content downloaded from 203.78.15.150 on Sun, 17 May 2020 10:00:04 UTC
+All use subject to https://about.jstor.org/terms
+
+ 302
+
+ S. G. de Clark
+
+ however, even the simplest ways to get them require many more equations :
+
+ Ε]-2· M-* [?]
+
+ Τ with
+
+ = L (18)
+
+ In contrast, using [/?] = [m\ they can be obtained from:27
+
+ L2M rni
+
+ [eE] = -ψ-, I^J =T with [p] = [m]. (19)
+
+ This probably explains why Clausius favored [ρ] = [m] as the relation most likely
+ used by Maxwell.
+
+ After listing the dimensions in terms of L, Τ, M, e and L, Τ, M, m of all the
+
+ quantities of interest, Maxwell then derived their dimensions in the electrostatic and
+
+ in the electromagnetic systems of units (hence in terms of L, Μ and Τ only) using either
+
+ of these two lists. He obtained the electrostatic system of units by substituting in either
+
+ list the electrostatic dimensions of the electric charge e and of the magnetic pole m—
+
+ and similarly used their electromagnetic dimensions to get the electromagnetic system.
+
+ The electrostatic dimensions of the magnetic pole thereby affected the electrostatic
+
+ dimensions of all magnetic quantities, as the latter involved m.
+
+ In turn, Maxwell defined the electrostatic dimensions of e and m by comparing the
+ dimensions of the electric field obtained above to those obtained from Coulomb's law
+
+ between electrostatic charges:28
+
+ _ electrostatic charge _ e
+ Τ = £ 7 =» [T] = (20)
+
+ (distance from the charge) L
+
+ Having obtained above [.Fj = ^ and [e] = Mji ,29 this yielded for the electrostatic
+
+ dimensions of the magnetic pole: [m] = LI/'2M,/'2.
+
+ 30
+
+ 26 Again there are many other possible combinations, including another four that involve the same number
+
+ of equations, with ^ j = L. The reason why using J = L as opposed to \ p\ = [m] demands the use
+
+ of more equations for the derivation of the relation between e and m may be related to the fact that three
+
+ of Maxwell's fifteen dimensional relations involve p, whereas only two contain U (both m and Β appear
+ twice).
+
+ The second equality in Eq. 17, [.F] = jj, can be derived equally simply with = L as with [ ρ) = [m]:
+
+ [J-]=L[£] = T· with [p] = [m],
+
+ or: [|] = L2, j = T, with [g] = L.
+
+ 27 There are many other possibilities, most more complicated. To give but one by way of example:
+
+ WF1 = [£] = Τ, [E] = L, [|j] = L2 with [p] = [m].
+ 28 Analogously, the electromagnetic system was based on Coulomb's law for magnetism: Η — , where
+
+ Η was the "magnetic force" on a magnetic pole of unit magnitude.
+
+ 29 See respectively Eqs. 17 and 16.
+
+ 30 CT = j% = 1HT x ΐ7 = mT and = CT imPly ϊπΤ = ET'so,hat = l1/2m1/2·
+
+ Springer
+
+This content downloaded from 203.78.15.150 on Sun, 17 May 2020 10:00:04 UTC
+All use subject to https://about.jstor.org/terms
+
+ The dimensions of the magnetic pole: a controversy at the.
+
+ 303
+
+ ε £
+
+ Fig. 1 Equivalence of a current loop and a magnet
+
+ 2.2 The electrostatic dimensions of the magnetic pole according to Clausius
+
+ Clausius too wished to find the dimensions of all major electric and magnetic quantities
+
+ in both the electrostatic and electromagnetic systems of units. However, his derivation
+
+ differed from Maxwell's and was somewhat more straightforward.
+
+ Clausius first determined the dimensions of the electric charge in the electrostatic
+
+ system and of the magnetic pole in the electromagnetic system, using the relevant
+ Coulomb's law in each case, and attributing to force its usual mechanical dimensions,
+ ML T"2. As discussed above, this led to the dimensions [es] = L /2T~1Μ1 /2 and
+ [mm] = L3/2T_1M1/2, wherein the subscripts "s" and "m" refer to the electrostatic and
+
+ electromagnetic systems, respectively—results that agreed with Maxwell's (Clausius
+ 1882, pp. 382-383).
+
+ In order to find the dimensions of these quantities in the other system, i.e., [em] and
+ [ras], Clausius reasoned that all that was needed was a relationship between e and m
+ that held true in both systems of units. He appealed to Ampere's hypothesis that an
+ electric current loop is equivalent to a magnet—equivalence that Maxwell endorsed,
+ but which he had not used in his dimensional derivations. Clausius posited a plane
+ circuit surrounding a surface of unit area, and a second surface of the same shape,
+
+ parallel to the circuit, separated by an infinitesimal distance e. The two surfaces were
+ deemed to contain the same amount of magnetism, north on the first and south on the
+
+ second, thereby forming the magnet thought equivalent to the current loop (Clausius
+ 1882, pp. 382-383) (Fig. 1).
+
+ For the magnetic sheets to produce forces of the same intensity as the current, the
+
+ physical quantities involved had to satisfy the following relation:31
+
+ magnitude of the magnetism on one sheet χ distance between the two sheets
+ = magnitude of the current χ surface area enclosed by the current loop.
+
+ Footnote 30 continued
+
+ Similarly, having obtained above in Eq. 17 [T] = and using Τ — yielded for the electrostatic
+
+ dimensions of the electric charge: [e] = L3/2M1/2T_1.
+
+ 31 Nowadays this would be expressed as the requirement that the magnet and the circuit must have the
+ same magnetic moments.
+
+ Springer
+
+This content downloaded from 203.78.15.150 on Sun, 17 May 2020 10:00:04 UTC
+All use subject to https://about.jstor.org/terms
+
+ 304
+
+ S. G. de Clark
+
+ Dimensionally, this meant:
+
+ [m\ χ L = [e]T-1 χ L2, (21)
+
+ or W = ^ '' 'n systems of units. Together with [es] = L3^2T_1M1'/2 this result
+ implied [ms] = L5/2T_2M1,/2, at odds with Maxwell's result [ms] = L'/2M1/2.
+
+ Clausius explained his disagreement with Maxwell's results in the following way.
+
+ He believed that Maxwell obtained the relation e = Mji (Eq. 16 above) from:
+
+ L2M rei
+
+ [pC] = ~ψ~ 311(1 LcJeT (22)
+
+ and by then identifying [ρ] and [m].32 Substituting m for p, and multiplying both
+
+ equations one gets [em] = ML2T-1 instead of ^ = LT-1. Clausius judged this
+ reasoning incorrect because, he argued, it implies taking into account the force between
+
+ a magnetic pole and a current. This force is electrodynamic in nature, so it cannot
+
+ rightfully be used to derive electrostatic dimensions, Clausius concluded.
+
+ 3 The controversy: strategies and motivations
+
+ The controversy begun in May 1882 with an article published in the Philosophical
+
+ Magazine by Joseph David Everett, then professor of natural philosophy at Queen's
+
+ College, Belfast (Everett 1882a, pp. 376-377).33 Everett briefly summarized Clau
+
+ sius's reasoning, stating that it was based on the following equation, true in all systems
+ of units:
+
+ Pole χ Length = Current χ (Length)2 , (23)
+
+ hence
+
+ Pole = Current χ Length, (24)
+
+ where the quantities were meant to represent their dimensions. He then noted that the
+ electrostatic dimensions of current were M^2L3//2T~2, obviously from Coulomb's
+
+ electrostatic law, and noted that these two relations implied the electrostatic dimensions
+
+ of the magnetic pole to be M'/2L5/2T~2.34
+
+ 32 As was discussed above in Sect. 2.1 (Maxwell 1873, Vol. 2, chapter 10, § 623).
+
+ 33 Joseph David Everett (1831-1904) had been secretary of the Committee for the selection and nomen
+
+ clature of dynamical and electrical units, which had been appointed by the British Association (British
+
+ Association for the Advancement of Science 1875), and had published two treatises entirely devoted to
+ units and dimensions (Everett 1875, 1879). He was professor of natural philosophy at Queen's College,
+ Belfast for most of his career, from 1867 until 1897.
+
+ 34 From Coulomb's law between electrostatic charges, / = Zjp·, we have in terms of dimensions:
+ [e2] = lf][r2] = Μ L Γ2 χ L2 = Μ L3T~2,
+ i.e.[e] = M1/2L3/2T~1.
+ Current has dimensions of charge divided by time, therefore in the electrostatic system of units: [current]
+ = m'/2l3/2t—2.
+
+ Using the relation Pole = Current χ Length then implies [pole] — Mi /2L5/2T 2.
+
+ <£} Springer
+
+This content downloaded from 203.78.15.150 on Sun, 17 May 2020 10:00:04 UTC
+All use subject to https://about.jstor.org/terms
+
+ The dimensions of the magnetic pole: a controversy at the.
+
+ 305
+
+ Everett deemed Clausius's analysis "unimpeachable" and went on to give another
+
+ argument in its favor. The electromagnetic dimensions of a pole (using the relation
+ for the force between two magnetic poles) are M1/2L3/2T~1 and those of a current
+ M|/2l'/2T~1.35 This again yields [Pole] = [Current] χ [Length]. Finding the same
+ relation in the electromagnetic system as the one reached by Clausius in the electro
+ static system seemed to Everett an argument in Clausius's favor—which may seem
+
+ odd considering that this result is the direct consequence of the equivalence between
+
+ a circuit and a magnet, and therefore independent from the system considered (as
+
+ Everett himself states). More importantly perhaps, Everett declared being unsure how
+
+ Maxwell actually derived the result in his treatise and invited his readers to clarify this
+
+ point.
+
+ Everett's request did not go unheard. The following month, the reactions of three
+
+ scientists were published in the Philosophical Magazine—as well as a translation of
+
+ Clausius's paper: Joseph John Thomson and the Irish theorist Joseph Larmor each
+ provided an article (Thomson 1882a; Larmor 1882), and in addition George Fran
+ cis FitzGerald (then Professor of natural philosophy at Trinity College in Dublin)
+
+ contacted Everett, who discussed Fitzgerald's contribution in his own paper (Everett
+ 1882b).
+
+ In response to Everett's plea, Larmor and Fitzgerald provided derivations of
+
+ Maxwell's result—according to which the electrostatic dimensions of the magnetic
+
+ pole were M1/2L1/2. After discussing their suggestions, Everett compared them to
+
+ Clausius's work, with a view to resolving the contradiction.
+
+ In his article, Larmor had argued in favor of using the dimensional relation for the
+
+ force between a magnet and a current (Larmor 1882, p. 430):36
+
+ current χ L χ pole χ L~2 = force, (25)
+
+ where "current," "pole" and "force" in fact stood for the dimensions of these physical
+
+ quantities. This was the dimensional version of the following relation:
+
+This content downloaded from 203.78.15.150 on Sun, 17 May 2020 10:00:04 UTC
+All use subject to https://about.jstor.org/terms
+
+ Springer
+
+ force = T. (26)
+
+ length of wire χ current χ pole
+
+ (distance between the wire and the pole)2
+
+ 35 These were the electromagnetic dimensions of current given by Maxwell (Maxwell 1873, Vol. 2, chapter
+
+ 10, § 626). In order to obtain them he doubtless divided by Τ the electromagnetic dimensions for the
+
+ electrostatic charge, [em] = M^L1/2. In turn, the latter were derived by taking the dimensional form of
+
+ the expression for the magnetic form of Coulomb's law, i.e., Ή = ρ, and substituting in it the dimensional
+ expressions for [m] and [H] in terms of e valid in all systems of units:
+
+ [m] = Eq. 15 above); [W] = jjj··
+
+ How Maxwell obtained the latter from his fifteen dimensional relations (Eqs. 9-13) is again unclear.
+
+ [H\ = j then led to ^ χ ρ, and solving this for e indeed results in [em] = M^L1/2.
+
+ 36 This force had been discovered by Oersted and studied by Ampere.
+
+ Solving for the pole, and using as the electrostatic dimensions of current the unani
+ mously accepted M1/,2L3/2T-2,37 Larmor obtained Maxwell's result:
+
+ 306 S. G. de Clark
+
+ MLT-2 χ L2 , n L3 ι n , n
+
+ pole = ... ... , = Μ ^ —tt? = M1/2L1/2. (27)
+
+ L χ M1/2L3/2r2 L5/2
+
+ When discussing Larmor's work, Everett gave the more explicit relation but for one
+
+ important difference: for reasons that will soon become clear, he introduced a constant
+
+ *1 (Everett 1882b, pp. 431-432):
+
+ length of wire χ current χ pole
+ force = k\ — : — —7 (28)
+
+ (distance between the wire and the pole)z
+
+ Clausius's criticism that Maxwell used an electrodynamic relation to build the elec
+
+ trostatic system is clearly relevant here. Everett's reaction to this is interesting: this
+
+ may be so, he argued, but so did all other definitions of the unit of magnetic pole in the
+
+ electrostatic system, including the one used by Clausius (Everett 1882b, p. 432). This
+
+ is only partly true: although Clausius did take a current into account in his demonstra
+
+ tion, the resulting equation embodied the equivalence between a circuit and a magnet;
+
+ Larmor, on the other hand, expressed the force between them.
+
+ The second derivation discussed by Everett, which had been sent to him by Fitzger
+
+ ald, another Irish follower of Maxwell's, also yielded M'^L1/2 for the electrostatic
+
+ dimensions of the magnetic pole (Everett 1882b, p. 432). However, it was based on
+
+ yet a different relation: the "magneto-electric law" according to which the e.m.f. due
+
+ to the motion of a conductor in a magnetic field is proportional to the length of the
+
+ conductor, its speed and the field's intensity:
+
+ e.m.f. α L χ ν χ Β. (29)
+
+ If one then appealed to Coulomb's magnetic force law,38 this yielded:
+
+ [e.m.f.] = Lx LT-1 χ [pole] χ L~2, (30)
+
+ (or, according to Everett, [e.m.f.] = [£2] χ L χ LT-1 χ [pole] χ L~2, with ^2 = 1),
+ hence:
+
+ r ι ί [e.m.f.] [e.m.f.]
+ [pole] = 5 ~ :— = [e.m.f.] χ Τ (31)
+ F L χ LT"1 χ L-2 Τ"1
+
+ The e.m.f. being the line integral of the electric field, its dimensions in the electrostatic
+
+ system are M^L^T-1,39 hence, again, Maxwell's result:
+
+ [pole] = M1/2L1/2T_1 χ Τ = M1/2L1/2
+
+ (32)
+
+ 37 From Coulomb's electrostatic law the dimensions of charge in the electrostatic system of units are
+ [e] = (see footnote 30 above), and those of current are simply these divided by T.
+
+ 38 More precisely, the relation that this force law implies for the magnetic intensity, i.e., [B] = [pole] xL~2.
+
+ 39 Recall from Eq. 17 that Maxwell had somehow obtained for the electric field Τ the dimensional
+
+ <£] Springer
+
+This content downloaded from 203.78.15.150 on Sun, 17 May 2020 10:00:04 UTC
+All use subject to https://about.jstor.org/terms
+
+ The dimensions of the magnetic pole: a controversy at the.
+
+ 307
+
+ Together with Clausius's work, these reactions inspired Everett the following com
+ ment:
+
+ the definitions of the unit quantity of electricity, the unit current, the unit electro
+
+ motive force (or difference of potential), and the unit resistance (all of which may
+
+ be called purely electrostatic definitions), are not in question, but are accepted by
+
+ all parties. The divergence begins when we attempt to express magnetic quanti
+
+ ties in an electrostatic system; and different results may be obtained according
+
+ to the particular relation between magnetism and electricity which we select as
+
+ the guiding principle in our definitions. In a strict sense there is no such thing as
+
+ an electrostatic unit of any magnetic quantity; since magnetism and its relations
+
+ to electricity lie outside the domain of electrostatics (Everett 1882b, p. 431).
+
+ Everett compared the derivations offered by Larmor and Fitzgerald to Clausius's
+
+ work, refraining the latter in a way that allowed him to draw his own conclusions
+
+ (Everett 1882b, pp. 432-434). As noted above, in anticipation of his own arguments,
+
+ Everett had introduced multiplicative constants in the equations used by Larmor and
+
+ FitzGerald. He then took the same step with the relation used by Clausius that expressed
+
+ the equivalence between a current loop and a magnet and added to it a constant ky.
+
+ Pole χ Length = ^x Current χ Area (33)
+
+ Everett then attributed the disagreements between on the one hand Larmor and
+
+ Fitzgerald (hence Maxwell), and on the other Clausius, to an incompatibility between
+
+ their implicit choices for the dimensions of these constants:
+
+ [Clausius's result] disagrees with that of the two preceding investigations; and
+
+ hence the two equivalent assumptions k\= 1, ki= 1 are inconsistent with the
+ assumption 1 (Everett 1882b, p. 433).
+
+ In order to obtain consistent results, one had to take either [£3] = L~2T2, in which
+
+ case the dimensions of the pole were M^L1/2, or [&i] = [ki\ — L~2T2, and they
+ then became M'/2L5/2T-2.40 kj in the former case, and k\ and £2 in the latter were
+
+ attributed the dimensions of where ν is the ratio of the unit of electric charge
+
+ in the electromagnetic system of units to its unit in the electrostatic system and has
+
+ Footnote 39 continued
+
+ relation [Τ] = valid in all systems of units. In the electrostatic system charge has dimensions
+
+ [e] = L3/2M'/2T-1 (see footnote 30 notably), so in that system the electric field has dimensions:
+
+ w=L%V'xrL"'/2M'/2r'
+ and therefore the electrostatic dimensions of its line integral are [e.m.f.] = χ L =
+ L1/2M1/2T-1
+
+ 40 [Pole] χ [Length] = [£3] χ [Current] χ [Area] yields in the electrostatic system of units, with [Current] =
+
+ M'/2L3/2T-2 (see notably footnote 37):
+
+ [Pole] χ L = [*3] χ Μ 1/2l3/2T"2 xL24 [Pole] = [k3] χ M1/,2L5/2T~2,
+ so with [^3] = L"2T2 : [Pole] = L"2T2 χ Μ1/2^/2!-2 = Μ'^ί1/2,
+ but when [it!] = [k2] = L~2T2, i.e. [fc3] = 1 : [Pole] = M1/2l5/2T~2.
+
+ Springer
+
+This content downloaded from 203.78.15.150 on Sun, 17 May 2020 10:00:04 UTC
+All use subject to https://about.jstor.org/terms
+
+ 308 S. G. de Clark
+
+ Table 1 Dimensions of the force laws constants
+
+ Constants
+ Constants
+
+ Electrostatic system
+ Electrostatic system
+
+ Electromagnetic
+ Electromagnetic
+
+ Maxwell
+ Clausius
+ Maxwell Clausius
+
+ system
+ system
+
+ Dimensionless
+ Dimensionless
+
+ l-2t2
+ l-2t2
+
+ Dimensionless
+ Dimensionless
+
+ Dimensionless
+ Dimensionless
+
+ l_2t2
+ l_2t2
+
+ Dimensionless
+ Dimensionless
+
+ l-2t2
+ l-2t2
+
+ Dimensionless
+ Dimensionless
+
+ Dimensionless
+ Dimensionless
+
+ l-2x2
+ l-2x2
+
+ l-2 t2
+ L"2T2
+
+ Dimensionless
+ Dimensionless
+
+ q (force between a magnet and a
+ k\ (force between a magnet and a
+
+ current)
+ current)
+
+ k2 (force on a moving conductor in
+ C2 (force on a moving conductor in a
+
+ magnetic field)
+ magnetic field)
+
+ k·} (equivalence between a current
+ £3 (equivalence between a current
+
+ loop and a magnet)
+ loop and a magnet)
+
+ k\ (force between two parallel
+ -.4 (force between two parallel
+
+ currents)
+ currents)
+
+ poles)
+ poles)
+
+ charges)
+ charges)
+
+ [5 (force between two magnetic
+ &5 (force between two magnetic
+
+ l-2x2
+ l-2x2
+
+ l~2t2
+ l-2t2
+
+ Dimensionless
+ Dimensionless
+
+ :g (force between two electric
+ kß (force between two electric
+
+ Dimensionless
+ Dimensionless
+
+ Dimensionless
+ Dimensionless
+
+ L~2T2
+ l-2t2
+
+ dimensions of speed LT-1. Everett favored the former, but only for the practical reason
+ that it was more convenient in calculations.
+
+ Everett did not stop there however: he also discussed the electromagnetic system of
+
+ units, more convenient for electromagnetic calculations. These considerations led him
+
+ to introduce three equations with three other constants (Everett 1882b, pp. 433-434):
+
+ - for the force between two parallel currents in wires of length /:
+
+ F — kn χ (current 1) χ (current 2) χ 2//distance, (34)
+
+ - for the force between two magnetic poles:
+
+ F = k$ x (pole 1) χ (pole 2)/(distance between the poles) , (35)
+
+ - for the force between two electric charges:
+
+ F = x (charge 1) χ (charge 2)/(distance between the charges)2. (36)
+
+ The dimensions of these constants in each system of unit can be summarized as in
+ Table 1).
+
+ Recall that Fourier had introduced dimensional considerations to express the invari
+
+ ance of physical equations. Without actually finding himself at odds with Fourier,
+
+ Everett, by contrast, insisted on the conventional character of dimensional equations:
+
+ although invariant under change of units within a given system, they could differ from
+
+ one system to the next—where "system" here refers to a specific choice of funda
+ mental units and the set of relations used in order to obtain the dimensions of derived
+
+ quantities from these fundamental units (for instance, the electrostatic system), and
+
+ not simply in Fourier's sense of a given set of units for the basic quantities (like L, M,
+
+ Τ in the present context).
+
+ <0 Springer
+
+This content downloaded from 203.78.15.150 on Sun, 17 May 2020 10:00:04 UTC
+All use subject to https://about.jstor.org/terms
+
+ The dimensions of the magnetic pole: a controversy at the...
+
+ 309
+
+ A comparison of the foregoing six equations shows how cautious we ought
+ to be in asserting that a particular dimensional relation "must hold in every
+
+ system of units." The laws of nature which connect dissimilar quantities are
+
+ laws of proportion, and it is only by convention that they can be stated as laws
+
+ of equality.41
+
+ controversy.42
+
+ In other words, physical laws involved proportionality constants which could have
+
+ dimensions. This issue was to become the focus of much attention, beyond the present
+
+ Everett was not alone in inserting potentially dimensioned constants in fundamental
+
+ equations to resolve the question. In the same issue of the Philosophical magazine,
+
+ Joseph John Thomson responded to Everett's first description of Clausius's work by
+
+ appealing to similar considerations (Thomson 1882a).43 Thomson's main point was
+
+ that in the equation:
+
+ Pole χ Length = Current χ (Length)2,
+
+ i.e. magnetic moment = current χ area,
+
+ Clausius should have taken into account the magnetic permeability μ of the material
+ (Thomson 1882a, p. 427):
+
+ magnetic moment = μ χ current χ area.
+
+ Recall that in this relation, the left-hand side refers to a magnetic pole and the right
+
+ hand side to a circuit deemed equivalent, in the sense that it produces the same magnetic
+
+ force as the pole (when acting on another pole of the same strength). Thomson argued
+
+ that the magnetic force due to a current does not depend on the surrounding medium,
+
+ whereas the force due to a pole is inversely proportional to its magnetic permeability
+ of the medium (Thomson 1882a, pp. 42S-429).44 From this he deduced the relation
+
+ he advocated, Eq. 37.45
+
+ (37)
+
+ (38)
+
+ (39)
+
+ 41 Everett (1882b, p. 434). Italics in the original.
+
+ 42 See concluding remarks.
+
+ 43 This article was published in the same issue as Everett's second paper, i.e., Everett (1882b).
+
+ 44 More specifically, Thomson discussed the magnetic force between a current and a pole, and the force
+
+ between two poles. In order to conclude from these considerations their implications regarding Clausius's
+
+ relation, what is at stake is the effect of, respectively, the circuit and of one of the two poles; one could
+
+ describe the other pole involved in these two forces as a "test pole," and what Thomson calls "forces" actually
+
+ corresponds to our field Η—and indeed, the Η generated by a current-carrying wire is independent of the
+ permeability μ.
+
+ 45 Indeed, although Thomson did not make this explicit, his results implied:
+
+ ^current loop a current χ area Fpoie a i χ magnetic moment
+
+ s0 ^current loop = ^pole requires:
+
+ current χ area a i χ magnetic moment,
+
+ which motivated Thomson's modification of the relation magnetic moment = current χ area used by
+ Clausius.
+
+ ö Springer
+
+This content downloaded from 203.78.15.150 on Sun, 17 May 2020 10:00:04 UTC
+All use subject to https://about.jstor.org/terms
+
+ 310
+
+ S. G. de Clark
+
+ Thomson further derived that μ had dimensions L 2T2 (Thomson 1882a, p. 428),
+
+ so that the revised relation he advocated implied:46
+
+ [poles] =
+
+ μ χ current χ area
+
+ length
+
+ L-2T2xM'/2L3/2T-2xL2 = m1/2l1/2j
+
+ (40)
+
+ in agreement with Maxwell's result.47 Thomson therefore recovered what Everett
+
+ deemed necessary to get Maxwell's result with Clausius's approach, namely a constant
+
+ factor of dimensions = L_2T2 (Thomson 1882a, p. 429).
+
+ A few months later, Thomson published a second paper in which he further devel
+
+ oped his argument (Thomson 1882b). He noted that Clausius's assumption implied that
+
+ 46 Thomson's demonstration of this point was somewhat circular, in so far that the way he obtained the
+
+ electrostatic dimensions of the permeability μ required using Μ1/2!.1''2 for the electrostatic dimensions of
+
+ the magnetic pole (Thomson 1882a, p. 428). Indeed, μ is given by the ratio of the "magnetic induction"
+
+ (i.e., our modern B) and the "magnetic force" (our field H, which he represented by F); now Thomson took
+
+ the "magnetic induction" to be given by m/r2, which clearly involves the pole m:
+
+ [μ] =
+
+ Thomson had already derived the electrostatic dimensions of the magnetic pole to be MI/2LI/'2, without
+
+ referring to the relation of interest (i.e., magnetic moment = μ χ currentx area): from the expression for
+
+ the force between a current and a pole, he deduced that the product current χ pole must have dimensions
+
+ of energy. Indeed, he took for what we would now call Η:
+ Η = 2 current
+
+ distance from wire'
+
+ so that the work required to move a magnetic pole along a circle around the wire must be:
+
+ work = Η χ pole χ distance moved = 2 wjre x pole χ 2π χ distance from wire.
+ Hence the dimensions of the product current χ pole must be those of work, i.e., energy: ML2T-2. Since the
+ electrostatic dimensions of current (from the relation between current and charge, and Coulomb's force law
+
+ between electrostatic charges) were M1/'2L3/2T-2, it follows that the pole had electrostatic dimensions:
+ r ι [energy) ML2T"2 »,1/2, 1/2
+ im] - [current] ~ Ml/2L3/2T-2 - M L ■
+ This indeed implied that the dimensions of μ were L-2T-2 as noted in the main text:
+
+ M = Ml-2 = Hnt L-2 = Mg^L-2 = l-2t-2
+
+ L distance from wire J £
+
+ It is worth noting, however, that the dimensions of μ can also be obtained in a way that does not rely upon
+
+ the dimensions of m: in the electrostatic system the dimensions of the force between two charges are £ j,
+
+ and the dimensions of the force between two current-carrying wires are [μι/'], hence [μ^-]. Therefore,
+
+ requiring that these forces have the same dimensions implies [μ^τ] = \^jr\^ = L~2T2.
+
+ 47 Thomson also obtained Μ1/2!.1/2 for the electrostatic dimensions of the magnetic pole without referring
+
+ to the relation of interest (i.e., magnetic moment = μ χ current χ area): from the expression for the force
+
+ between a current and a pole, he deduced that the product current χ pole must have dimensions of energy.
+
+ Indeed, he had found for what we would now call the magnetic field Η (which he called magnetic force F):
+ Η = 2 current
+
+ distance from wire'
+
+ so that the work required to move a magnetic pole a full circle around the wire must be:
+
+ work = Η χ pole χ distance moved = 2 d;stanrc7rom wjre x P°le χ 2π χ distance from wire.
+
+ Hence the dimensions of the product current χ pole must be those of work, i.e., energy: ML2T~2. Since
+
+ the electrostatic dimensions of current (from the relation between current and charge, and Coulomb's force
+
+ law between electrostatic charges) are M1/2L3/'2T~2, it follows that the pole has electrostatic dimensions:
+ fm, _ [energy] _ ML2T~2 _ Ml/2, 1/2
+
+ [current] m1/2L3/2T_2
+
+ Springer
+
+This content downloaded from 203.78.15.150 on Sun, 17 May 2020 10:00:04 UTC
+All use subject to https://about.jstor.org/terms
+
+ The dimensions of the magnetic pole: a controversy at the.
+
+ 311
+
+ the dimensions of the force between poles were different from those of a mechanical
+
+ force: indeed, inserting Clausius's electrostatic dimensions for the pole in Coulomb's
+
+ law yields:
+
+ r^l (MV'LV'T-f _ ΜΛ- _ ml3t_4>
+ L r2 J L1 Lz
+
+ which can only be reconciled with the accepted dimensions of mechanical force
+
+ by inserting a properly dimensioned factor. Thomson commented that Maxwell's
+
+ approach avoided such ad hoc adjustments, since it warranted homogeneity through
+
+ the constants that express the influence of the medium. Indeed, using for the elec
+
+ trostatic force between two charges, where κ is the electric permittivity of the medium,
+
+ and ^ for the force between two poles, where μ is its permeability, resulted in those
+
+ forces having the usual mechanical dimensions, as shown in Table 2.48
+
+ Despite the formal similarity of their analysis, Thomson did not share Everett's
+
+ neutrality toward Clausius's work. In his view, the Maxwellian necessity of the medium
+ decided in favor of Maxwell's choice (Thomson 1882b, p. 429).
+
+ The strategies and motivations of the other protagonists were quite different from
+
+ Everett's and Thomson's. Larmor recovered Maxwell's result without introducing
+
+ any additional factor in the equations (Larmor 1882, pp. 429-430). His strategy was
+
+ dictated by the notion that some relationships are in some sense more fundamental
+
+ and more natural than others. In his view, the relation used by Clausius,
+
+ Magnetic moment = current χ area, (42)
+
+ was inferior in these respects to the expression for the force between a current
+
+ and a magnet—and to Coulomb's force law between magnetic poles (Larmor 1882,
+
+ p. 429). Firstly, Larmor argued, one always made use of these expressions, if only
+ tacitly. Secondly, Clausius's relation relied more on an analogy than on an actual
+
+ phenomenon:
+
+ The somewhat recondite fact that the magnetic action of a small circuit carrying a
+
+ current may be represented as due to two fictitious magnetic poles, does not seem
+
+ to possess any claims to supplant the natural statement of the only fundamental
+
+ relation which makes natural poles play a part in electric theory at all. That
+
+ relation is, of course, itself in its very nature electromagnetic.
+
+ It might be said that the system objected to built up the theory from electric
+
+ foundations, inasmuch as its fundamental magnet is a small electric current. But,
+
+ in reply, it is the existence of actual magnets which introduces the idea of pole at
+
+ all, other than as in Ampere's purely mathematical directrix of electrodynamic
+
+ action (Larmor 1882, p. 430).
+
+ and again:
+
+ 48 "These factors introduce themselves naturally through symbols representing some physical property of
+ the body or medium." (Thomson 1882b, p. 226)
+
+ 4D Springer
+
+This content downloaded from 203.78.15.150 on Sun, 17 May 2020 10:00:04 UTC
+All use subject to https://about.jstor.org/terms
+
+ 312
+
+ S. G. de Clark
+
+ Table 2 Dimensions of the electric and magnetic forces
+
+ <£) Springer
+
+This content downloaded from 203.78.15.150 on Sun, 17 May 2020 10:00:04 UTC
+All use subject to https://about.jstor.org/terms
+
+ The dimensions of the magnetic pole: a controversy at the.
+
+ 313
+
+ The only simple fact of nature which connects pole with current is Oersted's phe
+
+ nomenon (as developed by Ampere) of the existence of a mutual force between
+
+ them [...]. Hence by this relation must we deduce the dimensions of pole already
+ found (Larmor 1882, p. 430).
+
+ Thus Larmor loathed Clausius's choice precisely for the reason that made it legitimate
+
+ in Clausius's eyes: it expressed an equivalence between two distinct situations rather
+
+ than an influence between two entities.49
+
+ Larmor's concerns were largely shared by Charles Kasson Wead, physics Professor
+
+ at the University of Michigan. Wead proposed yet a different derivation of Maxwell's
+ results, which he attributed to Hermann Herwig (Wead 1882, pp. 530-533).50 This
+
+ demonstration was based on the expression for the torque on a magnet placed in an
+
+ external field, as being proportional to the intensity I of the magnetic field and the
+
+ magnetic moment μ μ (Wead simply represented the latter by μ but it is best to avoid
+ his notation since it was used above for permeability):51·52
+
+ torque = / χ μ μ (43)
+
+ and since [μ^] = [m][L], one gets (Wead 1882):
+
+ [„,] = iaül = My2L3/2 χ 1 Ml/2Ll/2 (45)
+
+ L·/ JL
+
+ r„M ι - [torque] _ ML2t~2 _ MV2L3/2 m
+ lms]~ [/.] ~ m1/2L1/2T~2 ~ ' ( '
+
+ Like Larmor, Wead favored his demonstration over Clausius's because of the status
+
+ he conferred to the analogy between current and magnet:
+
+ [According to Clausius mL] must represent a magnet; consequently [the current]
+
+ χ L2 is put equal to a magnet. But the passage of the current ordinarily produces
+
+ effects, such as the movement of a galvanometer-needle, which we explain more
+
+ naturally by saying that the circular current produces a magnetic field at its
+
+ center, than by saying that the current is, or makes, or even is equivalent to,
+
+ a magnet. Herwig's derivation, therefore, in which a magnet placed in a field
+
+ experiences a couple, conforms to the ordinary way of thinking better than the
+
+ way of Clausius, and is the way used in the derivation of the electromagnetic
+ system... It may be noted that, in all discussions except that of Clausius, the
+
+ magnet pole Ρ is introduced into the field. Clausius produces a field by the pole
+ (Wead 1882, p. 531).
+
+ 49 It is also interesting to note that Larmor not only viewed some relations as more fundamental than
+
+ others, but he also deemed the electrostatic system of units, and electrostatic phenomena at large, to be
+
+ more fundamental than their electromagnetic counterparts.
+
+ 50 Herwig was then Professor of physics at Darmstadt.
+
+ 51 The electrostatic dimensions Wead attributed to 1 agreed with those for the field Η in Maxwell's treatise
+ (Maxwell 1873, chapter 10).
+
+ 52 The dimensions of torque are given by: [torque] = [force] χ [lever arm] = MLT~2 χ L = ML2T-2.
+
+This content downloaded from 203.78.15.150 on Sun, 17 May 2020 10:00:04 UTC
+All use subject to https://about.jstor.org/terms
+
+ Springer
+
+ 314
+
+ S. G. de Clark
+
+ Wead deemed that "to write " C χ L2 = Ρ χ L in any consistent system" is simply
+ begging the whole question." (Wead 1882, p. 532)
+
+ In addition to preferring a relation expressing a force law to one based on an
+
+ analogy, Wead also granted special status to two equations concerning magnetism:
+
+ those relating the moment of a magnet suspended in the Earth's magnetic field and
+
+ the horizontal component of the latter field.53 He noted that these equations led to the
+ following dimensional relations:
+
+ ML2 r α μ "iL5 ■,
+
+ [μ*Β] = -r ^j = _=L3 (46)
+
+ So that μ λ/ had dimensions m'/2L5//2T~', and Β had M1'/2L^1//2T~1, in all systems
+
+ of units. Yet Clausius's equations implied that the first was not true, and according to
+
+ Maxwell the second one was not. What motivated Wead to favor the two equations
+
+ on which he based this argument were experimental considerations: "no physical
+
+ formulae are better established" he wrote (Wead 1882, p. 532).
+
+ Wead even presented a third line of reasoning, based on the order in which relations
+
+ were used and the dimensions of quantities were found in the different systems of units.
+
+ In the electromagnetic system the dimensions of the pole m were found first, then from
+
+ them those of the magnetic moment μ μ, then those of the magnetic field Β (using the
+
+ torque), those of the current C, and finally those of the electric charge:
+
+ [m][m] [CIL
+
+ L ij (47)
+
+ [e][e\ [e] [C]L
+ ^ = \F], γ = [C], = [Β], [Β] [μΜ] = [torque], [μΜ] = [m]L. (48)
+
+ The two approaches differed by the physical quantity they took as primary, m or e:
+
+ once the dimensions of either m or e had been obtained, those of the other quantities
+
+ were established in a different order, but using the same equations.
+
+ In contrast, as discussed above in Clausius's version of the electrostatic system,
+
+ the dimensions of the magnetic moment, and hence of the pole, were obtained from a
+
+ 53 : ~ .. υ πΚ ßM 1 y5tan«)-y/5tan4p'
+ -imW) -ff- - 2 ρφτ
+
+ Κ: moment of inertia t: time γ and γ': lengths
+
+ where μ^: magnetic moment of the magnet H . horizontal component of the Earth's magnetic field
+
+ Moment of inertia has dimensions Μ L2. Indeed from the angular version of Newton's second law, torque
+
+ = moment of inertia χ angular acceleration:
+ [moment of inertia] = [torque] χ [angular acceleration]-1 = ML2T-2 χ (Τ-2)-1 = ML2
+ (see previous footnote for the dimensions of torque).
+
+ Therefore the two equations yield the dimensional relations:
+
+ - Γ 1 _ L£1 _ MLi UM. - 1 r5tanr-/StaiV _ ίπ _ L* τ 3
+
+ - pi] - -ψ- -ft- 2 y-i-yri -ψ]-\}
+
+ Springer
+
+This content downloaded from 203.78.15.150 on Sun, 17 May 2020 10:00:04 UTC
+All use subject to https://about.jstor.org/terms
+
+ = [m]L = [ßM] ·, [Β][μΜ] = [torque]; -j-y- = [5]; [e] = [C]T
+
+ In the electrostatic system as advocated by Maxwell, the dimensions of the charge e
+
+ were determined first, then those of the current C, then those of the magnetic field B,
+
+ those of the magnetic moment μ through the torque and finally those of the pole:
+
+ Thus Wead can be said to have favored a solution over the other on the basis of symme
+
+ try between the electrostatic and electromagnetic systems. As he noted, this symmetry
+
+ was reflected in the relations between the dimensions of the primary quantities (Wead
+
+ 1882, p. 532):54
+
+ The dimensions of the magnetic pole: a controversy at the.
+
+ 315
+
+ different equation, CL2 = μ μ—the equivalence of a magnet and a current loop:
+
+ = [Fl l4 = [C], [C]L2 = [um] = ML. (49)
+
+ Lr 1
+
+ ml2t_1
+
+ [em] = -7—-j— (50)
+
+ [ms] = —-—-—, (51)
+
+ [mm]
+ ml2t_1
+
+ [es]
+
+ but this was not the case with Clausius's result,55
+
+ [ms Clausius] = 7 7 · (52)
+
+ L^s Clausius J
+
+ LT"1
+
+ Yet for Wead, regarding some equations as more "natural" or "fundamental" than
+
+ others was largely subjective, so that Clausius's reasoning was not actually incorrect.
+
+ Wead was mostly concerned with practicality and the fact that the electromagnetic
+
+ system is widely used. He argued:
+
+ If Ρ be changed, three other quantities of the twelve that Maxwell discusses
+ must have their dimensions changed, and confusion would be introduced into
+
+ his system, that is based on fifteen equations, in each of which the second member
+
+ is some simple mechanical quantity, as work, time, etc. Until it has been clearly
+
+ shown how this system will be affected by the proposed change, and why the
+
+ new expression is to be preferred to the older one, that has been "unimpeached"
+
+ for some twenty years, is it not clearly better to write Pe = M1/2L1,/2 It is not
+
+ a question merely of correctness, but of consistency, simplicity, and usefulness;
+
+ and on all these grounds Maxwell's expression seems to the writer to deserve
+
+ the preference (Wead 1882, p. 533).
+
+ He even went as far as stating:
+
+ In deducing the dimensions of physical quantities, there is much that is as arbi
+
+ trary as the order in which several numbers shall be multiplied together (Wead
+
+ 1882, p. 533).
+
+ For Wead, in the end the choice was purely one of convenience.
+
+ 54 These two equations can be obtained directly from Maxwell's system-independent relations, which take
+
+ [mm] = m and [es] = e: Eq. 50 is essentially Eq. 16 above, and Eq. 50 corresponds to Eq. 15.
+
+ 55 Since [ms ciausiusl = L5/2T"2M1/2 and [es ciausius] = L3/2T_1M1/2 as usual.
+
+This content downloaded from 203.78.15.150 on Sun, 17 May 2020 10:00:04 UTC
+All use subject to https://about.jstor.org/terms
+
+ <£j Springer
+
+ 316
+
+ S. G. de Clark
+
+ 4 The resolution of the controversy
+
+ The controversy ended in November with the intervention of the Maxwellian exper
+
+ imentalist Oliver Joseph Lodge (Lodge 1882). It was probably largely inspired by
+
+ Thomson's September paper, in which the latter insisted that homogeneity was satis
+ fied through the constants already present in Maxwell's work (Thomson 1882b).56
+
+ Lodge's approach is most interesting, both because it offers a synthetic view of the
+
+ debate and because Lodge attributed the disagreements to the scientific culture of the
+
+ protagonists, largely related to their nationality:
+
+ The discussion which has been carried on in your pages respecting the dimen
+
+ sions of a magnetic pole serves to illustrate the divergency of thought between
+
+ those in this country who have been brought up, electrically, under Faraday and
+
+ Maxwell, and the continental philosophers so eminently represented by Prof.
+
+ Clausius. From one point of view the discussion may be said to have been roused
+
+ by a simple mare's nest constructed by dropping a factor out of one side of an
+
+ equation..but from another point of view it is the natural and inevitable con
+
+ sequence of the different aspects from which these matters can be regarded: the
+
+ English standpoint, in which the medium is recognized as the active agent, and
+
+ is continually present both in the mind and in the formulae; and the continental
+
+ standpoint, from which the medium is perceived as so much empty space, and
+
+ is taken account as such in the formulae (Lodge 1882, p. 357).
+
+ As Thomson had, Lodge argued for the need to take the electric inductive capacity
+
+ Κ into account in the equation for the force between two charges and explained that
+ Coulomb's electrostatic law - developed on the continent—was first meant as a law
+
+ of proportionality. Faraday later established that it held only if the charges remained
+
+ in the same medium and made Coulomb's law an equality by introducing the constant
+ Κ to characterize this medium:
+
+ ee'
+
+ r-jH· (53)
+
+ them from those of e and K. He noted from Eq. 53 that γ has the same dimensions
+
+ as Fr2 in all systems of units so:
+
+ 2
+
+ [e]=L[ KF}1'2. (54)
+
+ Lodge then offered a dimensional demonstration reminiscent of Thomson's, but
+
+ instead of assuming the dimensions of the various quantities to be known, he derived
+
+ The electrostatic system resulted when Κ was arbitrarily taken to be dimensionless
+
+ (Lodge 1882, p. 358).
+
+ 56 Lodge's paper was followed by an article by E.B. Sargant, but the latter mostly expressed his agreement
+
+ with Lodge (Sargant 1882, pp. 395-396). Sargant is probably Edmund Beale Sargant (1855-1938), but this
+
+ is not certain; the latter was educated in Cambridge and later distinguished himself through his contributions
+
+ to education, notably in South Africa.
+
+ Springer
+
+This content downloaded from 203.78.15.150 on Sun, 17 May 2020 10:00:04 UTC
+All use subject to https://about.jstor.org/terms
+
+ The dimensions of the magnetic pole: a controversy at the.
+
+ 317
+
+ Turning his attention to the controversial case, Lodge added the quantity μ to
+
+ express the influence of the medium on the force between two magnetic poles (Lodge
+ 1882, p. 358):
+
+ so that
+
+ and
+
+ [m] = L [μί-]1/2 , (56)
+
+ ■—z = = L [F]1/2 = L [mLT-2!172 = L3/2T_1M1/2. (57)
+ [y/K] [vW L J
+
+ Determining dimensions for the pole then required to arbitrarily set those of μ. This
+
+ choice, however, was a priori independent from that which fixes the dimensions of e.
+
+ Lodge argued that whatever relationship may exist between m and e should become
+
+ the focus of experimental research, notably by considering the equivalence between a
+
+ magnet and a current loop:
+
+ Magnetic moment α current χ area enclosed by the current loop. (58)
+
+ The question was then whether this relationship was an equality or whether the medium
+ had to be accounted for.
+
+ By rephrasing the debate in this way, Lodge not only clarified it but also accounted
+
+ for it by a difference in scientific culture. However, Lodge went beyond this in two
+
+ ways: first, he offered an explanation as to why this specific cultural difference caused
+
+ confusion (Lodge 1882, pp. 363-365), and second he argued that the issue could be
+
+ resolved, through experiments.
+
+ Indeed at the end of his paper Lodge gave himself the task to understand why
+
+ Clausius had so easily accepted a result that differed from the standard one. Lodge
+ noted:
+
+ according to Weber's extension of Ampere's theory (an extension I [Lodge] sup
+ pose universally accepted), the properties of magnetic substances of all kinds are
+
+ explained by molecular electric currents, and no magnets or magnetic substances
+
+ other than those consisting of current-conveying molecules exist. [...]
+
+ The coefficient μ is thus foreign to Ampdre's theory applied universally; and this
+
+ is how it has happened that Prof. Clausius has failed to recognize its existence
+ and has been led into error." (Lodge 1882, p. 363)
+
+ Lodge therefore thought that the salient difference between the British and continental
+
+ scientific cultures was related to different understandings of Ampere's theory. He
+
+ defended the British standpoint, but in fact contrary to what the above quotation might
+
+ suggest he did not reckon the concept of permeability to be incompatible with an
+ Am peri an model of magnetism. What Lodge deemed nonsensical was a model where
+
+ microscopic currents would be bathed in an external medium itself characterized by
+
+ a permeability μ. Instead, he thought Ampere's model fit to provide a microscopic
+ account for permeability, understood as a macroscopic property:
+
+This content downloaded from 203.78.15.150 on Sun, 17 May 2020 10:00:04 UTC
+All use subject to https://about.jstor.org/terms
+
+ Springer
+
+ 318
+
+ S. G. de Clark
+
+ The effect of the medium is a physical fact; and no theory can presume really
+
+ to dispense with the constant μ. All that the Amperian theory does is to give a
+
+ physical interpretation to it, and to render one independent of it so soon as one
+
+ takes account of every current-conveying circuit, whether molecular or other,
+
+ existing in the field, and does not arbitrarily elect to deal only with those gross
+
+ solenoids which we can excite and immediately control by batteries. (Lodge
+
+ 1882, p. 365)
+
+ Rephrased in modern terms, one could say that Lodge thought permeability to be an
+
+ emergent property of Amperian currents. In this respect he found himself in agreement
+ with Maxwell:
+
+ According to Ampere's hypothesis... the properties of what we call magnetized
+
+ matter are due to electric currents, so that it is only when we regard the substance
+
+ in large masses that our theory of magnetization is applicable, (quoted by Lodge
+
+ 1882, p. 365, Maxwell 1873, Chapter 9, Art 615)
+
+ So Lodge pointed out that the disagreements could be explained by a difference in
+
+ scientific culture, but having said this he then consciously endeavored to deepen our
+
+ understanding of this difference, and then used the resulting insights to in turn help
+
+ clarify the original issue.
+
+ Ultimately though, Lodge stressed that experiments were needed to settle whether
+
+ the equivalence relationship at stake (Eq. 56) should involve permeability: the mag
+
+ netic effects of a current and a magnet in media of different permeabilities had to be
+
+ compared experimentally, because the results were still open to debate.57 What was
+
+ at stake was to confirm (or invalidate) the predictions of Maxwell's theory regarding
+
+ the comparative behavior of poles and macroscopic currents in media of different
+
+ permeabilities—not to explore issues not already covered in Maxwell's work.
+
+ J.J. Thomson had already made a similar suggestion (Thomson 1882a, p. 429,
+
+ Lodge 1882, p. 359) but unlike Thomson, Lodge drew the distinction between medium
+ in the region surrounded by the current and medium in the region surrounding it
+
+ (consequently he wished to use solenoids). The scenarios he proposed to investigate
+
+ and the results he predicted on the basis of Maxwell's work are summarized in Table
+ 3 (Lodge 1882, pp. 361-362):
+
+ Lodge wished to know whether the fields due to a solenoid and a magnet remained
+
+ the same irrespective of the permeability of the medium. If not, the equivalence relation
+
+ between magnet and current (Eq. 58) should be modified accordingly to include μ.
+
+ Like Thomson, he expected it should be. However, Thomson's treatment implied that
+
+ 57 Indeed after referring to Clausius's choice as an "error," Lodge stated in a footnote:
+
+ "In using the term "error" here, I would be understood to mean rather "divergency from opinions commonly
+
+ held in this country" than absolute incorrectness as to matter of fact. For it would not be becoming to apply
+
+ the latter term to views held by Prof. Clausius when the experimental foundation of opposing views is
+
+ confessedly incomplete. The views held by Prof. Clausius are no doubt perfectly consistent and would
+
+ probably be in accord with fact if only the medium produced no effect such as it is here [i.e., in Great
+ Britain] commonly supposed to produce; and whether the medium does or does not produce such an effect
+
+ appears to some extent at present a subject of legitimate debate and a matter for experimental investigation."
+ (Lodge 1882, p. 364)
+
+ "ö Springer
+
+This content downloaded from 203.78.15.150 on Sun, 17 May 2020 10:00:04 UTC
+All use subject to https://about.jstor.org/terms
+
+ The dimensions of the magnetic pole: a controversy at the... 319
+
+ Table 3 Experiments proposed by lodge and their expected results
+
+ Field produced by Field produced by the Comparison of the fields
+ Field produced by Field produced by the Comparison of the fields
+ the magnet solenoid produced by the magnet
+ the magnet solenoid produced by the magnet
+
+ and solenoid
+ and solenoid
+
+ Case 1: reference case
+ Case 1: reference case
+
+ Ha
+ ■Ha
+
+ Wa
+
+ Equal to one another
+ Equal to one another
+
+ 1
+
+ Pouter
+ Mouter
+
+ X Ήή
+ X Tiai
+
+ χ Ή*
+ X
+
+ Pouter
+ Pouter
+
+ Equal to one another
+ Equal to one another
+
+ dinner v /i_/ .
+ dinner v /i_/ .
+ Mouter X
+ Mouter X
+
+ with Minner = /'outer :
+ with dinner = M outer •
+ ^air
+ air
+
+ Field due
+ to solenoid
+ Field due to solenoid
+
+ = Minnerx Field due to
+ = dinnerx
+ magnet
+ magnet
+
+ Field due to
+
+ Case 4
+ Case 4 Ή·2λχ
+
+ 'ftair dinner x Wair Field due to solenoid
+ Field due to solenoid
+
+ Minner x
+
+ = /'innerx field due to
+ = /ijnnerx field due to
+ magnet
+ magnet
+
+ Magnet: air
+ Magnet: air
+
+ Solenoid:
+ Solenoid:
+
+ Outer region: air
+ Outer region: air
+
+ Inner region: air
+ Inner region: air
+
+ Case 2
+ Case 2
+
+ Magnet: medium3
+ Magnet: medium3
+
+ Solenoid:
+ Solenoid:
+
+ Outer region: medium
+ Outer region: medium
+
+ Inner region: air
+ Inner region: air
+
+ Case 3: considered by
+ Case 3: considered by
+ Thomson*5
+ Thomson*5
+
+ Mouter  x 1~ta
+ X 1~La
+ Mouter
+
+ Magnet:medium
+ Magnet:medium
+
+ Solenoid:
+ Solenoid:
+
+ Outer region: medium
+ Outer region: medium
+
+ Inner region:medium
+ Inner region:medium
+
+ Magnet: air
+ Magnet: air
+
+ Solenoid:
+ Solenoid:
+
+ Outer region: air
+ Outer region: air
+
+ Inner region: medium
+ Inner region: medium
+
+ a Here the term "medium" refers to one of permeability μ different from 1
+
+ b Lodge stated regarding the third scenario: "This latter seems to be the kind of experiment which Mr. J.J.
+
+ Thomson suggests in his June letter (p. 429), and which, he says, Mr. Sargant then intended (and I hope
+ still intends) to carry out" (Lodge 1882, p. 362). And indeed since Thomson did not distinguish between
+
+ regions outside versus inside the current, he would not have taken the extra precautions necessary to prevent
+
+ the interior of the solenoid to fill with the medium surrounding it, which corresponds to case 3
+
+ the relevant permeability was that of the outer region.58 Lodge insisted that the latter
+
+ had no effect (as case 2 was meant to show) and that it was the inner one that mattered.59
+
+ 58 The situation discussed by Thomson was equivalent to setting dinner = Pouter in case 3, so Thomson
+
+ stated that the magnetic force due to a circuit was the same as in air, hence independent of the medium. He
+
+ argued that the magnetic force due to a magnet goes as the inverse of the permeability of the medium, but
+
+ having no way of distinguishing:
+
+ Field due to current = dinnerx Field due to magnet
+ from:
+
+ Field due to current = //outer x Field due to magnet,
+
+ he argued for the latter.
+
+ 59 Lodge quoted Maxwell to justify his predictions:
+
+This content downloaded from 203.78.15.150 on Sun, 17 May 2020 10:00:04 UTC
+All use subject to https://about.jstor.org/terms
+
+ Springer
+
+ 320
+
+ S. G. de Clark
+
+ Lodge certainly seems to have convinced his British colleagues, for the controversy
+
+ ended with an article by E.B. Sargant in the same issue of the Philosophical magazine,
+ in which the author concurred:60
+
+ His [Lodge's] suggestion seems to me to reconcile the views of Prof. Clausius
+
+ and Mr. J.J. Thomson on this subject. A model of the magnetic system must be
+
+ made in a substance of the same magnetic permeability as the medium that is to
+
+ surround the current-system, and must be substituted in the place of the magnets,
+
+ before any comparison can be effected. The two systems, current- and magnetic,
+
+ will then be always equivalent if once equivalent. (Sargant 1882, p. 395)
+
+ Nevertheless Lodge's suggestions calls for a number of remarks. For the purpose of
+
+ figuring out the electrostatic dimensions of m, the macroscopic experiments proposed
+
+ do seem to fulfill their duty. In so far that a magnetic pole and a current giving rise to
+
+ the same magnetic force justifies viewing them as equivalent, the experiments do tell
+
+ us about what form this equivalence should take.
+
+ However, it is doubtful that Lodge intended his macroscopic solenoids to serve
+
+ as models for the behavior of Amperian currents.61 As Lodge himself insisted, since
+
+ the latter are responsible for the permittivity effect of the medium (i.e., essentially
+
+ constitute the latter), a model where the microscopic currents themselves would be
+
+ bathed in such a medium is nonsensical. The solenoids discussed were merely meant
+
+ to establish the equivalence relationship at the macroscopic level.
+
+ In fact, Lodge did not expect the equivalence relation62 to involve permeability at
+
+ the fundamental, microscopic level of description, precisely because the latter involved
+
+ only currents and no medium:
+
+ We may accept [...] without hesitation Clausius's presentation of Maxwell's
+
+ views, viz. both that a small magnet is an electric current, and that magnetic cur
+
+ rent ALWAYS equals simply integral current χ area—remembering, however,
+
+ that there exist currents in molecules besides the gross and artificial currents in
+
+ our copper wires, that these are directed by our artificial currents and add their
+
+ Footnote 59 continuned
+
+ I venture with diffidence to think that Maxwell would have drawn a distinction between the medium inside
+
+ the region of the solenoid corresponding to the substance of the magnetic shell, and that outside. He over
+
+ and over again lays stress upon the fact that artificial solenoids can only be compared with magnetic shells
+
+ for the space outside the shells... (Lodge 1882, pp. 360-361)
+
+ The purpose of the proposed experiments was to verify this.
+
+ 60 Sargant also stated that an experiment that he had performed at the Cavendish Laboratory in June was
+
+ in agreement with Lodge's view (Sargant 1882), but unfortunately he did not give any details. In the same
+
+ issue of November Lodge had also reported that Sargant had expressed the intent to carry out what I called
+
+ case 3 above, thereby implying that he believed Sargant had not yet done so.
+
+ 61 Whether Sargant actually had this in mind when he spoke of "model of the magnetic system" is unclear.
+
+ In any case, the fact that Lodge's experiments involved two types of solenoids ("open" ones whose internal
+
+ medium changed with the external one and "closed" solenoids with fixed internal medium) made it tempting
+ to assume these could be meant as alternative models for the behavior of Ampferian currents.
+
+ 62 At least, when understood as a relationship between physical quantities, as opposed to dimensions.
+
+ ö Springer
+
+This content downloaded from 203.78.15.150 on Sun, 17 May 2020 10:00:04 UTC
+All use subject to https://about.jstor.org/terms
+
+ The dimensions of the magnetic pole: a controversy at the.
+
+ 321
+
+ effects, and that in all cases they are most distinctly to be taken into account.63
+
+ (Lodge 1882, p. 364)
+
+ Again, this was in agreement with Maxwell's views:
+
+ ... if our mathematical methods are supposed capable of taking account of what
+
+ goes on within the individual molecules they will discover nothing but electric
+
+ circuits, and we shall find the magnetic force and the magnetic induction every
+
+ where identical, (quoted by Lodge 1882, p. 365, Maxwell 1873, Chapter 9, Art
+ 615)
+
+ That is to say, at the fundamental level Β = μ χ Η becomes Β = Ή.
+
+ It is only at the macroscopic level that Lodge held the equivalence relation took the
+
+ form:
+
+ to:64
+
+ Magnetic moment — μχ current χ area enclosed by the current loop, (59)
+
+ At that level, microscopic currents conspired to form the macroscopic μ according
+
+ B = B macro. +ßmedium = W + 4πΤ = W + 4ττ (κΉ) = (1 + 4πκ) χ Η = μ χ Ή,
+
+ currents
+
+ (60)
+
+ where Τ is the magnetization and the "coefficient of induced magnetization" (Maxwell
+
+ 1973, Vol.2, § 426). In contrast, at the fundamental, microscopic level:
+
+ Β = ^currents —Ή. (61)
+
+ However, it is not the fundamental level that Lodge deemed relevant for the electrostatic
+
+ dimensions of the magnetic pole, but the macroscopic one. Why is unclear, but one
+
+ can readily find two possible (and mutually compatible) explanations.
+
+ Perhaps Lodge held that μ could not be neglected for dimensional purposes even
+
+ at the microscopic level. Indeed eliminating μ and from the dimensional counterparts
+
+ of Eqs. (59) and (60) implies that the dimensions of several physical quantities differ
+ in the microscopic and the macroscopic realms.65 Perhaps this would have seemed
+
+ perfectly acceptable to Lodge (after all, dimensions differed in different systems of
+
+ units), but then again perhaps not.
+
+ 63 The earlier quotation "All that the Ampdrian theory does is to give a physical interpretation to it, and
+
+ to render one independent of it so soon as one takes account of every current-conveying circuit, whether
+
+ molecular or other, existing in the field, and does not arbitrarily elect to deal only with those gross solenoids
+
+ which we can excite and immediately control by batteries" implies something similar.
+
+ 64 Lodge stated: "... in media consisting of Ampferian molecules there is an extra magnetic induction [in
+
+ addition to that due to macroscopic currents], due to the pointing of these along the lines of force, which
+
+ is 4tt times the magnetization, and which has to be added to the other, thus making the total magnetic
+
+ induction at any point μ times the magnetic force (i.e., H) there." (Lodge 1882, pp. 364-365)
+
+ 65 That is the dimensions of either Β or Ή [see Eq. (60)] and those of the magnetic moment and, of course,
+ m [Eq. (59)].
+
+This content downloaded from 203.78.15.150 on Sun, 17 May 2020 10:00:04 UTC
+All use subject to https://about.jstor.org/terms
+
+ Springer
+
+ 322
+
+ S. G. de Clark
+
+ In any event, the systems of units had been developed on the basis of macroscopic
+ phenomena (notably since the latter were involved in absolute measurements). Hence
+
+ for the issue at hand, the relevant description had to be the macroscopic one.
+
+ 5 Concluding remarks
+
+ The controversy regarding the dimensions of the magnetic pole in the electrostatic
+
+ system therefore gave rise to different strategies, which often corresponded to differ
+
+ ent criteria for selecting the defining relation of a quantity. Some argued that a relation
+
+ should be used because it expressed an analogy between two situations rather than a
+
+ force between entities (Clausius). Others used the opposite criterion (Larmor, Wead).
+
+ Some took certain equations, or even phenomena, to be more fundamental than others
+
+ (Larmor, Wead). Some also presented symmetry arguments (Wead). Still others sug
+
+ gested the introduction of dimensioned constants in the equations (Everett, Thomson,
+
+ Lodge). The latter strategy is the one that ultimately resolved the controversy, when
+
+ Lodge argued that the disagreement was related to differences in scientific cultures,
+
+ insofar as the said constants expressed the influence of the medium as imagined by
+ British natural philosophers, whereas the medium was traditionally ignored on the
+ Continent.
+
+ In contrast to this diversity in their approach, most of the participants certainly seem
+
+ to have expected that there was indeed a fact of the matter regarding the electrostatic
+
+ dimensions of the magnetic pole. Only Wead can be said to have displayed more
+
+ pragmatic motives.
+
+ It is noteworthy that throughout the controversy, none of the protagonists expressed
+
+ dissatisfaction with the fact that electromagnetic quantities had different dimensions in
+
+ the different systems of units. Concerns over the matter only begun to be raised the fol
+
+ lowing year, i.e., in 1883, in France. Although heavily influenced by Maxwell in other
+
+ respects, two telegraph engineers, Ernest Mercadier (1839-1906) and Aime Vaschy
+
+ (1857-1899), strongly condemned this status quo in a series of papers (1883a, 1883b,
+
+ 1883c, 1883d). To what extent their protest had been inspired, or merely influenced,
+
+ by the 1882 controversy surrounding the electrostatic dimensions of the magnetic
+
+ pole discussed here is unclear. Mercadier and Vaschy's timing is of course suggestive.
+
+ Furthermore, they defended the view that the resolution of the ambiguity laid in deter
+
+ mining the dimensions of the constants in the force laws and stressed that the issue
+
+ could only be ultimately resolved by experimental investigations. However, they did
+
+ not refer to the British debate, and even more significantly, they took for granted the
+
+ relation expressing the equivalence between magnet and current, without referring to
+
+ the issue of the permeability of the medium.
+
+ That the multiplicity of dimensions in the different systems of units was not brought
+
+ up during the British controversy may seem surprising, notably because the two issues
+
+ had much in common. As briefly mentioned above, they notably raised the question
+ of what dimensions should be attributed to the constants in the force laws. Most of the
+
+ British controversy focused on μ, i.e., kß in J.J. Thomson's classification, and the latter
+
+ also called attention on the importance of kg and ki; Mercadier and Vaschy focused
+
+ "Ö Springer
+
+This content downloaded from 203.78.15.150 on Sun, 17 May 2020 10:00:04 UTC
+All use subject to https://about.jstor.org/terms
+
+ The dimensions of the magnetic pole: a controversy at the.
+
+ 323
+
+ on kö and IC4. In and of itself, this difference between the two debates certainly does
+
+ not seem very profound.
+
+ In contrast, Mercadier and Vaschy were motivated by very different views. They
+
+ held a conception of homogeneity faithful to the etymological meaning of the term:
+
+ they argued that a given physical quantity should have a unique legitimate set of
+
+ dimensions because the latter were determined by the very nature of this physical
+
+ quantity. This conception is to be contrasted with that championed by Fourier and
+
+ Maxwell whereby dimensions were purely defined in terms of units—and tension
+
+ between the two views underlay much of the debates regarding dimensional analysis
+
+ for the rest of the century. That the British protagonists of the 1882 controversy did not
+
+ question the legitimacy of having different dimensions in different systems of units for
+
+ the same physical quantity certainly goes to show how natural such plurality seemed to
+
+ them after dimensions had been defined in terms of conversion factors. The pluralism
+
+ of units led people to expect an analogous one for dimensions.
+
+ Acknowledgments The author would like to thank Olivier Darrigol, Nadine de Courtenay, Jan Lacki,
+
+ John Roche, Scott Walter, and Bruce Hunt for their supportive and helpful comments and suggestions.
+
+ References
+
+ Atten, Michel. 1992. Les Theories electriques en France—1870-1900—La contribution des mathemati
+ ciens, des physiciens et des ingenieurs ä la construction de la thiorie de Maxwell. Ph.D. Dissertation,
+ Ecole des hautes itudes en sciences sociales, Paris.
+
+ British Association for the Advancement of Science. 1863. Report of the 33rd meeting of the British
+
+ Association for the advancement of science, held at Newcastle-upon-Tyne in August and September
+ 1863, London. John Murray, 1864, 111. The early reports were published again together in 1873,
+
+ with minor modifications (Reports of the Committee on electrical standards appointed by the British
+ Association for the Advancement of Science, London, 1873).
+
+ British Association for the Advancement of Science. 1875. Report of the Committee for the selection and
+ nomenclature of dynamical and electrical units. London: British Association for the Advancement of
+ Science.
+
+ Charbonneau, Louis. 1996. From Euclid to descartes: Algebra and its relation to geometry. In Approaches
+
+ to algebra: Perspectives for research and teaching, ed. Nadine Bednarz, Carolyn Kieran, and Lesley
+ Lee, 15-38. Berlin: Springer.
+
+ Clausius, Rudolf. 1882. On the different systems of measures for electric and magnetic quantities. Philo
+
+ sophical Magazine and Journal of Science Series 5 13(83): 381-398.
+
+ Darrigol, Olivier. 2000. Electrodynamics from Ampere to Einstein, vol. 167. Oxford: Oxford University
+
+ Press.
+
+ Euclid, The Elements, book 5, lemma 3.
+
+ Everett, Joseph David. 1875. Illustrations of the Centimetre-gramme-second system of units (London).
+ Everett, Joseph David. 1879. Units and constants. London: Macmillan and Co.
+
+ Everett, Joseph David. 1882a. On the dimensions of a magnetic pole in the electrostatic system of units.
+
+ Philosophical Magazine Series 5 13(82): 376-377.
+
+ Everett, Joseph David. 1882b. On the dimensions of a magnetic pole in the electrostatic system of units.
+
+ Philosophical Magazine Series 5 13(83): 431-434.
+
+ Fourier, Jean-Baptiste. 1822. Theorie analytique de la chaleur. Paris: Jacques Gabay.
+
+ Gauss, Carl F. 1833. French translation 1834. Mesure absolue de Γ In tensile du Magnötisme terrestre.
+
+ Annales de chimie et de physique 5: 5-69.
+
+ Harman, Peter Μ. 1987. Mathematics and reality in Maxwell's dynamical physics: The natural philosophy
+
+ of James Clerk Maxwell. In Kelvin's baltimore lectures and modern theoretical physics, ed. Peter
+ Achinstein, and Robert Kagon, 267-297. Cambridge, MA: MIT Press.
+
+ Springer
+
+This content downloaded from 203.78.15.150 on Sun, 17 May 2020 10:00:04 UTC
+All use subject to https://about.jstor.org/terms
+
+ 324
+
+ S. G. de Clark
+
+ Hunt, Bruce J. 1994. The Ohm is where the art is: British telegraph engineers and the development of
+
+ electrical standards. Osiris 2nd Series 9:48-63.
+
+ Hunt, Bruce J. 1996. Scientists, engineers and wildman whitehouse: Measurement and credibility in early
+
+ cable telegraphy. The British Journal for the History of Science 29(2): 155-169.
+
+ Hunt, Bruce J. 1997. Doing science in a global empire: Cable telegraphy and Victorian physics. In Victorian
+
+ science in context, ed. Bernard Lightman, 312-333. Chicago: University of Chicago Press.
+
+ Hunt, Bruce J. 2003. Electrical theory and practice in the nineteenth century. In The Cambridge History
+
+ of Science, Vol. 5 : Modern Physical and Mathematical Sciences, Vol. 5, Mary Jo Nye, 311-328.
+
+ Cambridge: Cambridge University Press.
+
+ Hunt, Bruce J. 2005. The Maxwellians. Cornell: Cornell University Press.
+
+ Larmor, Josef. 1882. On the electrostatic dimensions of a magnetic pole. Philosophical Magazine Series 5
+
+ Lodge, Oliver Joseph. 1882. On the dimensions of a magnetic pole in the electrostatic system of units.
+
+ Philosophical Magazine Series 5 14(89): 357-365.
+
+ Macagno, Enzo. 1971. Historico-critical review of dimensional analysis. Journal of the Franklin Institute
+
+ 13(83): 429-430.
+
+ 292(6): 392.
+
+ Maxwell, J. C., 1873. Treatise on electricity and magnetism, 2 Vols.
+
+ Mercadier, Ernest, and Vaschy AimE. 1883a. Remarques sur l'expression des grandeurs electriques dans les
+
+ systemes electrostatique et electromagnetique, et sur les relations qu'on en deduit. Comptes rendus de
+ l'academie des sciences 96(2): 118-121.
+
+ Mercadier, Ernest, and Vaschy Aime. 1883b. Sur les unites Electriques et magnetiques. Annales tele
+
+ graphiques 10: 5-16.
+
+ Mercadier, Ernest, and Vaschy Aime. 1883c. R6ponse aux observations preserves par Μ. M. LEvy, dans
+
+ sa Note du 22 janvier 1883. Comptes rendus de l'academie des sciences 96(5): 334-336.
+
+ Mercadier, Ernest, and Vaschy Aimi. 1883d. Sur les dimensions des grandeurs Electriques et magnetiques.
+
+ Mueller, Ian. 1970. Homogeneity in Eudoxus's theory of proportion. Archive for History of Exact Sciences
+
+ Journal de Physique 2(2): 245-253.
+
+ 7(1): 1-6.
+
+ Olesko, Kathryn M. 1995. The meaning of precision : The exact sensibility in early nineteenth-century
+
+ Germany. In The values of precision, ed. Norton W. Wise, 103-134. Princeton: Princeton University
+ Press.
+
+ Olesko, Kathryn M. 1996. Precision, tolerance and consensus: Local cultures in German and British resis
+
+ tance standards. Archimedes 1: 117-156.
+
+ Roche, John. 1998. The mathematics of measurement, vol. 189, 70-74. London: Springer.
+
+ Sargant, E.B. 1882. On the dimensions of the magnetic pole in electrostatic measure. Philosophical Mag
+
+ azine Series 5 14(89): 395-396.
+
+ Schaffer, Simon. 1997. Accurate measurement is an English Science. In The values of precision, ed. Norton
+
+ W. Wise, 135-172. Princeton: Princeton University Press.
+
+ Thomson, Joseph John. 1882a. On the dimensions of a magnetic pole in the electrostatic system of units.
+
+ Thomson, Joseph John. 1882b. On the dimensions of a magnetic pole in the electrostatic system of units.
+
+ Wead, Charles Kasson. 1882. On the dimensions of a magnetic pole in the electrostatic system of units.
+
+ Philosophical Magazine Series 5 13(83): 427-429.
+
+ Philosophical Magazine Series 5 14(87): 225-226.
+
+ Philosophical Magazine Series 13(84): 530-533.
+
+ Weber, Wilhelm Eduard. 1851. Elektrodynamische Maasbestimmungen insbesondere Widerstandsmessun
+
+ gen, Königliche Sächsische Gessellschaft der Wissenschaften zu Leipzig, Mathematisch-physikalische
+
+ Classe, Abhandlungen, 199-382. English translation by Atkinson, Ε. 1861. On the measurement of
+ Electric Resistance according to an absolute standard, Philosophical Magazine 4: 226-270.
+
+ Weber, Wilhelm Eduard. 1861. On the measurement of electric resistance according to an absolute standard.
+
+ Philosophical Magazine Series 4 22(146):226-240.
+
+ ö Springer
+
+This content downloaded from 203.78.15.150 on Sun, 17 May 2020 10:00:04 UTC
+All use subject to https://about.jstor.org/terms
+
+

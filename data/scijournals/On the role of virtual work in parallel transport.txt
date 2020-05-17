@@ -1,0 +1,1147 @@
+ 
+
+ 
+
+ 
+
+ 
+
+On the role of virtual work in Levi-Civita's parallel transport
+Author(s): Giuseppe Iurato and  Giuseppe Ruta
+Source: Archive for History of Exact Sciences, Vol. 70, No. 5 (September 2016), pp. 553-565
+Published by: Springer
+Stable URL: https://www.jstor.org/stable/24913253
+Accessed: 17-05-2020 09:56 UTC
+
+ 
+REFERENCES 
+Linked references are available on JSTOR for this article:
+https://www.jstor.org/stable/24913253?seq=1&cid=pdf-reference#references_tab_contents 
+You may need to log in to JSTOR to access the linked references.
+
+JSTOR is a not-for-profit service that helps scholars, researchers, and students discover, use, and build upon a wide
+
+range of content in a trusted digital archive. We use information technology and tools to increase productivity and
+
+facilitate new forms of scholarship. For more information about JSTOR, please contact support@jstor.org.
+
+Your use of the JSTOR archive indicates your acceptance of the Terms & Conditions of Use, available at
+
+https://about.jstor.org/terms
+
+Springer is collaborating with JSTOR to digitize, preserve and extend access to Archive for
+History of Exact Sciences
+
+This content downloaded from 203.78.15.150 on Sun, 17 May 2020 09:56:33 UTC
+All use subject to https://about.jstor.org/terms
+
+ Arch. Hist. Exact Sci. (2016) 70:553-565 flj Γ.„„Μ„ι
+ DOI10.1007/s00407-016-0177-0 VB'
+
+ On the role of virtual work in Levi-Civita's parallel
+ transport
+
+ Giuseppe Iurato1 · Giuseppe Ruta2
+
+ Received: 24 December 2015 / Published online: 1 March 2016
+
+ © Springer-Verlag Berlin Heidelberg 2016
+
+ Abstract The current literature on history of science reports that Levi-Civita's par
+
+ allel transport was motivated by his attempt to provide the covariant derivative of
+
+ the absolute differential calculus with a geometrical interpretation (For instance, see
+
+ Scholz in The intersection of history and mathematics, Birkhàuser, Basel, pp 203-230,
+
+ 1994, Sect. 4). Levi-Civita's memoir on the subject was explicitly aimed at simplify
+
+ ing the geometrical computation of the curvature of a Riemannian manifold. In the
+
+ present paper, we wish to point out the possible role implicitly played by the principle
+
+ of virtual work in Levi-Civita's conceptual reasoning to formulate parallel transport.
+
+ 1 Introduction
+
+ Tùllio Levi-Civita (1873-1941) was one of the leading Italian mathematicians of his
+ time. He showed his attitude towards mathematics and mathematical physics in his
+
+ high school days, when he offered an ingenious attempt to prove Euclid's fifth postulate
+
+ on parallel lines under the supervision of his teacher in mathematics, Paolo Gazzaniga
+
+ (1853-1930), a scholar in number theory.1 Levi-Civita took a degree in mathematics
+
+ 1 Biographical notes are taken from Levi-Civita's obituary by Ugo Amaldi (1875-1957), Levi-Civita
+ (1954), vol. 1, IX-XXX.
+
+ Communicated by: Umberto Bottazzini.
+
+ El Giuseppe Iurato
+
+ giuseppe.iurato@unipa.it
+
+ Giuseppe Ruta
+
+ giuseppe.ruta@uniromal .it
+
+ 1 University of Palermo, Palermo, Italy
+
+ 2 Sapienza University, Rome, Italy
+
+ Springer
+
+This content downloaded from 203.78.15.150 on Sun, 17 May 2020 09:56:33 UTC
+All use subject to https://about.jstor.org/terms
+
+ 554
+
+ G. Iurato, G. Ruta
+
+ from the university of Padua, where among his teachers he had Giuseppe Veronese
+ (1853-1917),2 Francesco Flores d'Arcais (1849-1927),3 Gregorio Ricci-Curbastro
+ (1853-1925),4 and Ernesto Padova (1845—1896).5 Both Ricci-Curbastro and Padova
+
+ provided Levi-Civita with a strong training in mathematical physics and mechanics.
+
+ Ricci-Curbastro, in particular, provided him with firsthand absolute differential calcu
+
+ lus methods, which were the inheritance of Beltrami's investigations on Riemannian
+
+ manifolds Capecchi and Ruta (2015), Tazzioli (1993). Levi-Civita applied these meth
+
+ ods to subjects other than differential geometry, such as mechanics. In 1902, he took
+
+ over the chair of higher mechanics in Padua, vacant after Padova's premature death. In
+
+ the some twenty years he spent in Padua until he was appointed to Rome, Levi-Civita
+
+ investigated a vast set of subjects in analytical mechanics. In the mid-1910s Levi-Civita
+
+ turned his attention to problems in both special and general relativity, treated analyti
+
+ cally with the new powerful tools of the absolute differential calculus to which he had
+
+ contributed.6 In particular, he studied the curvature of four-dimensional Riemannian
+
+ manifolds, modelling space-time through the parallel transport of vectors over these
+
+ manifolds. He took into account the curvature of the manifold by varying some parame
+
+ ters along paths lying on the manifold. Indeed, at every point of the manifold it is possi
+
+ ble to consider a linear structure, the tangent space, which can be linked to the tangent
+
+ spaces at other points of the manifold through a well-determined new mathematical
+
+ notion, later called a connection, which, thus, originates from parallel transport.7
+
+ In the mathematical literature, we usually read that Levi-Civita's parallel transport
+
+ was motivated by his attempt to give a geometrical interpretation to the so-called
+ covariant derivative of absolute differential calculus. In addition, according to Nas
+
+ tasi and Tazzioli (2005), Levi-Civita defined parallelism on a Riemannian manifold
+
+ through a new formulation of the law of inertia for a point moving on a geodetic line.8
+
+ With respect to Levi-Civita's original procedure in Levi-Civita ( 1917), we believe that
+
+ such an interpretation is possible only a posteriori, within the framework of a global
+ variational calculus. The same can be said for the consideration of Levi-Civita's par
+
+ allelism as a local geometrical interpretation of covariant derivative, as in Pizzocchero
+
+ 2 Veronese spent a period of time studying in Leipzig under the supervision of Felix Klein (1849-1825).
+
+ He provided contributions to projective hyper-spaces and non-Euclidean geometry.
+
+ 3 Flores d'Arcais graduated in Pisa, and had Enrico Betti (1823-1892) and Ulisse Dini (1845-1918) among
+ his teachers. He is well known in the Italian school of mathematics of the days for his excellent handbooks
+ on calculus.
+
+ 4 Ricci-Curbastro graduated in Pisa having Betti, Dini, and Eugenio Beltrami (1835-1900) among his
+ teachers. He perfected his studies with Klein and, jointly with Levi-Civita, is considered the father of
+ absolute differential calculus.
+
+ 5 A pupil of Beltrami, Padova investigated mathematical physics in non-Euclidean spaces.
+
+ 6 It is well known that Albert Einstein (1879-1955) claimed to feel indebted with him for absolute calculus.
+
+ 7 Parallel transport and linear (affine) connection were introduced almost simultaneously by Levi-Civita,
+ Gerhard Hessenberg (1874—1925), Hermann Weyl (1885-1955) and Jan Arnoidus Schouten (1883-1971) in
+
+ connection with Einstein's general theory of relativity. Levi-Civita used (local) embedding of a Riemannian
+
+ manifold in some η -dimensional space. Weyl introduced parallel transport (hence, linear connection) on
+
+ arbitrary differential manifolds on a completely general basis, that is, with no reference to Riemann metrics,
+ see Maurin (1997), ch. 1, Sect. 1.1.
+
+ 8 Sect. 1.3, p. 214.
+
+ Ô Springer
+
+This content downloaded from 203.78.15.150 on Sun, 17 May 2020 09:56:33 UTC
+All use subject to https://about.jstor.org/terms
+
+ On the role of virtual work in Levi-Civita's parallel transport
+
+ 555
+
+ (1998).9 On the other hand, in this paper we point out a possible a priori interpretation
+
+ of the intrinsic origin of Levi-Civita's parallelism based on the tacit use of schemes
+
+ of analytical mechanics and the principle of virtual work.
+
+ If we read Levi-Civita's paper Levi-Civita (1917) carefully, we see that Levi-Civita
+
+ aimed at simplifying the computation of the curvature of a Riemannian manifold by
+
+ re-examining the covariant behaviour of the Riemann symbols.10 In pursuing this, he
+
+ devoted the first fourteen sections of his memoir to introducing and explaining paral
+
+ lelism on an arbitrary Riemannian manifold V„ of dimension η >2. From examining
+
+ these passages, we believe that Levi-Civita's strong education in mathematical physics
+
+ had a remarkable role in his developments by tacitly influencing his fashion of formal
+
+ reasoning. This was also due to the fact that, at that time, geometry and mechanics
+ had evanescent boundaries, and a language with many common traits and analogies
+
+ of meaning.
+
+ To begin with, when Levi-Civita considered tangent spaces at the various points
+
+ of the manifold, it is apparent that he tacitly adopted equations formally analogous
+
+ to those of virtual displacements compatible with a set of constraints. The implicit
+
+ mechanical interpretation of a Riemannian manifold as the space of the configura
+
+ tions of a mechanical system with a finite set of degrees of freedom, subjected to a
+
+ set of holonomic constraints, is indeed possible and conceivable. Even if nowadays
+
+ this interpretation is standard, see Arnold (1986) for instance, we cannot take it for
+
+ granted at the beginning of the 20th century. Levi-Civita himself remarked that some
+
+ of his conditions were those of admissible first-order constrained displacements. Nev
+
+ ertheless, this is only one of the possible interpretations of how Levi-Civita could have
+
+ proceeded in setting up and solving his initial aim of simplifying the computation of
+
+ Riemann's symbols.
+
+ Indeed, Levi-Civita's condition of parallelism is expressed by the vanishing of a
+
+ linear form built on the tangent space at a point of the manifold: it is apparent that such
+
+ a statement has many a formal resemblance with the well-known principle of virtual
+
+ work, deeply rooted in the Italian school of mathematical physics since the pioneer
+ ing works by Joseph Louis Lagrange (1736-1813). Indeed, the use of various forms
+
+ of the principle of virtual work may be found in all scholars in Italian mathematical
+
+ physics and engineering, such as Gabrio Piola (1794-1850), Betti, Beltrami, Luigi
+ Federico Menabrea (1809-1906), Carlo Alberto Castigliano (1847-1884), Valentino
+ Cerruti (1850-1909) Capecchi and Ruta (2007,2010,2011,2015), Ruta (2014), Ben
+ venuto (1991), Todhunter and Pearson (1893), Timoshenko (1953). We cannot but
+
+ infer that such a key idea had a strong influence on the writings of Levi-Civita, edu
+
+ cated at the same school, and this mechanical interpretation of Levi-Civita's condition
+
+ of parallelism is a possible, plausible historical interpretation. Moreover, it was Levi
+
+ Civita himself who provided an additional expression of his differential condition of
+
+ parallelism in a form that is exactly like Lagrange's general equation of analytical
+
+ mechanics. Piola's influence on the school that led to Levi-Civita is put forth and
+
+ suggested also in Andreaus et al. (2015).
+
+ 9 Sect. 3, p. 337.
+
+ 10 Levi-Civita( 1917), Introduction.
+
+ Ô Springer
+
+This content downloaded from 203.78.15.150 on Sun, 17 May 2020 09:56:33 UTC
+All use subject to https://about.jstor.org/terms
+
+ 556
+
+ G. Iurato, G. Ruta
+
+ Thus, from our historical analysis it emerges that the principle of virtual work
+
+ could have been among one of the conceptual guides, or mental schemes, to build up
+
+ Levi-Civita's notion of parallel transport. This is corroborated also by what we find in
+
+ Bottazzini (1990), where the primary role played by the new results of general relativity
+
+ is stressed among the motivations of Levi-Civita's memoir of 1917 Levi-Civita (1917).
+
+ In the following, we first sketch some hints of the origin and the various formulation of
+
+ the principle of virtual work in the history of mechanics. Then we point out its possible
+
+ conceptual role in the early origin of the formal notion of parallel transport due to Levi
+
+ Civita, by examining its presentation in the original paper Levi-Civita (1917).
+
+ 2 Some hints on the principle of virtual work
+
+ Broadly speaking, in modern textbooks of mechanics we find that a system of bodies
+
+ is balanced if and only if the total power on any admissible (virtual) velocity field
+
+ vanishes. Passing from power to work means only a rescaling by a small time interval
+
+ St, and we get the principle of virtual work. Since the second half of 18th century, the
+
+ law of virtual work saw no appreciable changes from the formulation by Lagrange,
+ who in the first edition (1788) of his Mécanique analytique put Johann Bernoulli's
+
+ principle of virtual velocities at the base of mechanics.
+
+ To be precise, in 1788 Lagrange (1853) Lagrange identified three main paradigms
+
+ in the history of statics, i.e. the lever, the composition of forces, and the principle
+
+ of virtual work. The paradigm of the lever would have been in force from antiquity
+
+ until up the early 18th century, when Pierre Varignon (1654-1722) worked out the
+
+ (de-Composition of forces Varignon (1725) by the graphical constructions known as
+
+ polygon of forces and funicular polygon Capecchi and Ruta (2015). The principle of
+ virtual work would become dominant after Lagrange. However, Lagrange's predic
+
+ tion was never fully realized because the principle of virtual work did not replace the
+
+ (de-)composition of forces, but at most outflanked it Capecchi (2012). Furthermore,
+ Lagrange's picture is too schematic: indeed, some form of virtual work laws have
+
+ always existed in mechanics, even though with limited applications. Arabic and Latin
+
+ mechanics of the Middle Ages called attention to such a law, while in the Renaissance
+
+ we begin to see different wordings of it, often proposed as unique principle of statics.
+
+ The process reached its apex with Johann Bernoulli and Lagrange, and the French
+
+ school adopted Lagrange's principle of virtual work, and applied it to continuum
+ mechanics.
+
+ A major difficulty in the formulations of virtual work laws is the status attributed to
+
+ constraints and their reactions. Before the 18th century, constraints had been treated
+
+ only as passive elements; after accepting models of matter based on particles consid
+
+ ered as centres of forces, constraints began to be thought of as capable of providing
+
+ forces.11 Lagrange stated that "the use of these forces released [us] from [the need of]
+
+ taking into account the constraints among bodies, and allows one to make use of the
+
+ 11 According to Lagrange Lagrange (1853), in the period 1736-1742 the Bernoullis, Alexis Clairaut (1713
+
+ 1765) and Leonhard Euler (1707-1783) were among the first to assimilate constraint reactions to active
+ forces.
+
+ Ô Springer
+
+This content downloaded from 203.78.15.150 on Sun, 17 May 2020 09:56:33 UTC
+All use subject to https://about.jstor.org/terms
+
+ On the role of virtual work in Levi-Civita's parallel transport
+
+ 557
+
+ laws of motion of free bodies".12 In statics, constraint reactions are less problematic,
+
+ since they can be considered as the forces necessary to maintain the constraint. The
+
+ first to introduce them in calculations was probably Varignon (1725). It was the diffi
+
+ culty of incorporating reactive forces in a consistent mechanical theory that led Johann
+
+ Bernoulli to formulate a law of virtual work, known after Lagrange as the principle of
+
+ virtual velocities, which provides a balance criterion without the intervention of these
+
+ undesirable entities. Johann Bernoulli's statement is "the sum of the powers each of
+
+ them multiplied by the distance travelled from the point where they are applied, in
+
+ the direction of this power, will always be zero".13 Lagrange in his Mécanique ana
+
+ lytique suitably reformulated Bernoulli's principle, shifting from his previous use of
+
+ the principle of least action. Even today, the principle of virtual work is considered
+ more general than that of least action, because it also allows non-conservative forces
+ to be taken into account. However, as a result of the heated discussions that followed
+
+ the publication of Lagrange (1853), Lagrange changed his mind, and in the second
+
+ edition (1811) of the Mécanique analytique he remarked that the principle of virtual
+
+ work is not obvious enough in itself to be selected as a founding principle.14 There
+
+ were also technical difficulties such as the question of the admissible displacements
+
+ to consider, and whether they should be compatible with the constraints.
+
+ In order to formulate Lagrange's expression of the principle of virtual work, fol
+ lowing him we must accept that inertia is another force, and add it to the active ones.
+
+ Thus, the total force on a particle vanishes, and all problems of dynamics are reduced
+ to those of statics.15
+
+ In modern language, Lagrange's principle of virtual work states that a system of
+
+ particles is balanced when the active forces ("puissances", i.e. powers) F,· to which it
+ is subjected satisfy16
+
+ SL = £ Ft ■ iPf = 0, (1)
+
+ i
+
+ where δ Pi is the first-order displacement of the point of application of F,·. Thus, if a
+
+ system is in equilibrium, the virtual work of all active forces Fj will vanish for any
+ virtual displacement.
+
+ To keep into account constraint reactions Rj also, we must add their work to that
+
+ of the active forces in Eq. (1). With this aim, we add the definition, implicitly assumed
+
+ by Lagrange, of smooth constraints. In modern terms, we assume that the work of
+
+ the reactions due to smooth constraints is non-negative for any irreversible virtual
+
+ displacement, while is zero for any reversible virtual displacement,17 In the special,
+
+ 12 In Lagrange (1853), 1st éd., p. 179; our translation. See also Capecchi Capecchi (2012), p. 15.
+
+ 13 Lagrange (1853), lsted., p. 11; our translation.
+
+ 14 Lagrange (1853), 3rd ed., p. 21.
+
+ 15 Lagrange claims such a thesis is D'Alembert's, but D'Alembert's actual principle is different Capecchi
+ (2012).
+
+ 16 Lagrange (1853), 1st ed., p. 14.
+
+ 17 SeeLevi-CivitaandAraaldi(1949),vol. 1,ch.XV;vol.2,parti,ch.V,Sect.3,n. 18-21;Levi-Civitaand
+
+ Amaldi (1965), part 1, ch. XIV, Sect. 2 , η. 4-8; part 2, ch. V, Sect. 3, η. 17-19; Agostinelli and Pignedoli
+ (1961), vol. 2, ch. V, Sect. 1, n. 4; Agostinelli and Pignedoli (1988), ch. I, Sects. 1,2; Finzi (1968), vol. 1,
+ ch. XIII, Sect. 4.
+
+ Springer
+
+This content downloaded from 203.78.15.150 on Sun, 17 May 2020 09:56:33 UTC
+All use subject to https://about.jstor.org/terms
+
+ also called symbolic equation of statics.18 In Eq. (2), the virtual work is spent by active
+
+ forces plus inertia, since smooth constraints spend no work on admissible displace
+ ments.
+
+ 558
+
+ G. Iurato, G. Ruta
+
+ yet fondamental, case of bilateral constraints, expressed by equalities, all compati
+ ble virtual displacements are reversible. Hence, we assume that the virtual work of
+
+ constraint reactions is zero, then the principle of virtual work reads
+
+ SL = 0, (2)
+
+ If the constraints are holonomic, they are expressed as equalities in the intrinsic
+
+ parameters of the system, and the vanishing of the virtual work of constraint reactions
+
+ assumes an interesting expression. This will become apparent in the following, where
+ we consider how such an expression may have probably influenced Levi-Civita's
+
+ notion of parallel transport.
+
+ 3 Levi-Civita's parallel transport
+
+ In Levi-Civita (1917), Levi-Civita introduced his contribution by claiming that the
+
+ absolute differential calculus opened the way to Einstein's theory of gravitation; and,
+
+ since handling such technicalities was so important, he found it necessary to simplify
+
+ the calculation of intrinsic curvature. Thus, he went on, it was fundamental to begin
+
+ with the notion of parallelism in a Riemannian manifold.19
+
+ Levi-Civita started by considering two directions a, a! emerging from two infin
+ itesimally near points Ρ, P' of the Riemannian manifold Vn, embedded in an
+ /V-dimensional Euclidean space Sn
+
+ In Sn, the two directions α, a' are parallel if
+
+ angle ^5, fj = angle ^5', fj (3)
+
+ for any auxiliary direction / emerging from P. Parallelism on Vn is defined by requir
+
+ ing that the condition in Eq. (3) holds for any direction / of the plane TpN ( Vn) tangent
+ to Vn at P. This definition is intrinsic, since it depends on metrics in V„, not in the
+
+ embedding space Sn.
+
+ Levi-Civita emphasized that this condition depends on the path joining Ρ with Ρ',
+
+ being independent only in Euclidean spaces. Along a geodetic line, the tangents keep
+
+ their direction: this is a generalization of an intuitive property of a straight line in a
+
+ Euclidean space.20
+
+ 18 Also said to be D'Alembert-Lagrange principle as reformulated by Lagrange, Arnold (1986), ch. IV, or
+ general equation of virtual work, Belluzzi (1961), vol. I, ch. XV, Sect. 318. See also the references in the
+
+ previous footnote.
+
+ 19 See also Pizzocchero (1998), Sect. 3.
+
+ 20 Levi-Civita (1917), p. 3.
+
+ Ô Springer
+
+This content downloaded from 203.78.15.150 on Sun, 17 May 2020 09:56:33 UTC
+All use subject to https://about.jstor.org/terms
+
+ On the role of virtual work in Levi-Civita's parallel transport
+
+ 559
+
+ The key idea underlying parallelism in a Riemannian manifold, according to Levi
+
+ Civita, is therefore expressed by Eq. (3) for two arbitrary concurrent unit vectors (germs
+
+ of directions in modern language), the origin of which moves along an arbitrary path
+ on the manifold.
+
+ Levi-Civita considered generic metrics21 on an arbitrary finite-dimensional mani
+
+ fold22 Vn
+
+ ds2 = ]T aikdxidxk. (4)
+
+ η
+
+ i,k— 1
+
+ and embedded Vn in a Euclidean space Sn with sufficiently great dimension Ν <
+
+ η (η + l)/2, so that it may be described by the system23
+
+ yv = yv(Xh---,Xn), υ = 1,2 Ν (5)
+
+ where the yv are coordinates in Sn, while the xn are intrinsic coordinates on Vn.
+
+ Remark that Eq. (5) describes also a discrete mechanical system with η degrees of
+
+ freedom subjected to Ν smooth holonomic bilateral constraints. This is a key point of
+
+ our possible interpretation of Levi-Civita's parallelism notion: the shift from a point
+
+ on Vn to one nearby is subjected to Eq. (5), hence its expression is analogous to the
+
+ admissible velocity field (or, modulo a rescaling, to the field of virtual displacements)
+
+ of an analog constrained mechanical system. It seems to us that Levi-Civita's education
+
+ in mathematical physics clearly emerges here.
+
+ Levi-Civita considered an arbitrary direction of Sn by the unit vector /, with
+
+ direction cosines fv, and another arbitrary direction at a point Ρ of V„. This last is
+
+ characterized by the unit vector a with direction cosines av with respect to Sn (of
+
+ course, since Vn is embedded in the ambient space Sn, each direction belonging to Vn
+
+ also belongs to Sn)·
+
+ The point Ρ may be thought of as varying on a smooth curve C lying on V„, parame
+ terized by the abscissa s in Eq. (4), thus av = αυ(ί). Let *,· = Xj(s), i = 1,2,..., η
+ be the intrinsic parametric equations of C. Then, C may also be represented by the
+ parametric equations yv = )ν(ί), ν — I,..., Ν when it is thought of as embedded
+ in S ν via Eq. (5). Indeed, since Xi = Xi(s), i = 1,..., n, it is possible to write
+
+ C = yv(s) = yv(xi(s),xn(s)), ν = 1,..., Ν. (6)
+
+ It is apparent that, in the analog constrained system, s is an evolution parameter that
+
+ may be thought to coincide with time, and C is a trajectory in the manifold of admissible
+
+ configurations.
+
+ 21 In doing so, Levi-Civita was the first to deal with forms of pseudo-Riemannian structures, see Bottazzini
+ (1990), pp. 305-306.
+
+ 22 Bianchi (1924b), ch. XXV.
+
+ 23 Levi-Civita (1917), Eq. (1), p. 4.
+
+ Ô Springer
+
+This content downloaded from 203.78.15.150 on Sun, 17 May 2020 09:56:33 UTC
+All use subject to https://about.jstor.org/terms
+
+ which is a linear form on the direction cosines of the direction a of Vn.
+
+ When Ρ varies along C, ordinary parallelism in S ν implies the equality of the angle
+
+ between a and a direction / arbitrarily chosen. Levi-Civita introduced an intrinsic
+
+ notion of parallelism in Vn by considering two nearby points. He considered an arbi
+
+ trarily fixed direction / of Sn, the direction cosines of which are fv, and the cosine
+
+ of the angle between / and a
+
+ 560
+
+ G. Iurato, G. Ruta
+
+ To find the unit direction emerging from a point Ρ of C, Levi-Civita derived its
+
+ parametric representation, given by Eq. (6), with respect to the natural abscissa s24
+
+ η
+
+ ^ = Σ^' ν = 1,2,..., Ν, (7)
+
+ i=1
+
+ where a prime indicates a derivative with respect to s. Thus, Levi-Civita obtained the
+
+ direction cosines with respect to Sn, while x{ are the direction cosines of the same
+ unit direction with respect to Vn.
+
+ Levi-Civita supposed that at each point Ρ of C there is a direction a of Vn, the
+ direction cosines of which are ξ('\ i = 1, 2,..., η with respect to Vn, and av, ν =
+
+ 1,... ,N with respect to Sn- Then, Eq. (7) yields25
+
+ fyvf-O)
+
+ dxi
+
+ 1=1
+
+ ν = 1,2 N. (8)
+
+ cos (f,a\=^avfv. (9)
+
+ \ ' „=l
+
+ Then, he considered an infinitesimal variation ds of the natural abscissa s on Vn, which
+
+ implies that the cosine provided by Eq. (9) undergoes the variation
+
+ dcos(f,a\=ds^a'v(s)fv. (10)
+
+ ^ ' v=l
+
+ The ordinary parallelism between a and / would require Eq. (10) to vanish when
+
+ / varies in Sn, implying that av is uniform. Levi-Civita, however, imposed, as an
+
+ intrinsic condition of parallelism, the weaker condition that the angle between a and
+ / be constant when / varies on Vn. That is, he supposed the variation in Eq. (10) to
+
+ be zero only for the directions that are tangent to Vn as Ρ varies along C.
+
+ Levi-Civita claimed26 that these directions are exactly those compatible with the
+
+ constraints (5). According to us, once again this is a hint that he had clearly in mind
+
+ 24 Levi-Civita (1917), Eq. (4), p. 5.
+
+ 25 Levi-Civita (1917), Eq. (7), p. 6.
+
+ 26 Levi-Civita (1917), p. 7.
+
+ Ô Springer
+
+This content downloaded from 203.78.15.150 on Sun, 17 May 2020 09:56:33 UTC
+All use subject to https://about.jstor.org/terms
+
+ On the role of virtual work in Levi-Civita's parallel transport
+
+ 561
+
+ the mechanical analogy with his geometrical investigation. Thus, by replacing the fv
+
+ with quantities proportional to them, Levi-Civita's intrinsic definition of parallelism
+
+ implies27
+
+ Ν
+
+ v=l
+
+ = 0 (11)
+
+ for any variation &yv, that is, in the analogous holonomic discrete mechanical system,
+
+ for any admissible displacement compatible with the constraints in Eq. (5). With a
+
+ suitable mechanical interpretation of the a'v(s), for instance by considering them as
+ a kind of mechanical action in Sn, Eq. (11) is a formulation of the virtual work
+
+ principle in Sn related to the smooth bilateral holonomic system defined by Eq. (5),
+ hence related to a Riemannian manifold.28 As already said, in this paper we wish
+
+ to emphasize this formal analogy, which might conceptually have led Levi-Civita to
+
+ work out his intrinsic geometrical notion of parallelism.
+
+ From Eq. (5) it follows that29
+
+ «Λ = Σ »= 1:2 1V, (12)
+
+ ω8»
+
+ with Sx 11 arbitrary, so that Eq. (11) reduces to30
+
+ Ν
+
+ yV(i)^ = 0 (* = l,2,...,n), (13)
+
+ <**
+
+ which are the formal conditions for the parallelism of the directions a moving along
+
+ C. Nevertheless, in Eq. (13) there are also parameters regarding Sn, so that, in order
+
+ to have an intrinsic definition, it is necessary to involve only parameters regarding Vn.
+
+ To this aim, one has to replace the direction cosines av with their expression given by
+
+ Eq. (8), so to involve the intrinsic direction cosines ξ^, and to deduce31
+
+ 17 + Σ Γίίχ'^(ί) = 0 0' = 1-2 ")> (14)
+
+ j,l=\
+
+ where Γ/' are Christoffel symbols of second kind, defined as follows32
+
+ k=l ^ dxj dxl dxk '
+
+ <μ·'='·2 »>■
+
+ (15)
+
+ 27 Levi-Civita (1917), Eq. (1), p. 7.
+
+ 28 Grassini (1988), ch. 3, Sect. 2, n. 2.6.
+
+ 29 Levi-Civita (1917), unnumbered equation before Eq. (8), p. 7.
+
+ 30 Levi-Civita (1917), Eq. (8), p. 7.
+
+ 31 Levi-Civita (1917), Eq. (Ia), p. 8.
+
+ 32 Levi-Civita (1954), vol. IV, p. 8, Bianchi (1924a), ch. II.
+
+ <£) Springer
+
+This content downloaded from 203.78.15.150 on Sun, 17 May 2020 09:56:33 UTC
+All use subject to https://about.jstor.org/terms
+
+ 562
+
+ G. Iurato, G. Ruta
+
+ where the alk are the components of the reciprocal form of (4). Levi-Civita showed
+
+ that Eq. (14) may be expressed by the covariant quantities associated with the
+
+ so that the intrinsic condition of parallelism has the same form of Lagrange equations
+ of motion on a Riemannian manifold.34
+
+ Thus, the intrinsic conditions characterizing Levi-Civita's notion of parallel trans
+
+ port of the direction a along C as a function of its directional parameters ξι,..., ξη
+
+ with respect to Vn fall within the framework of absolute differential calculus. Further
+
+ more, in the following sections of Levi-Civita (1917), Levi-Civita did not make any
+
+ explicit mention of covariant derivatives, except for a hint about Ricci-Curbastro's
+
+ rotation coefficients.35 Then, Levi-Civita applied parallel transport to a Riemannian
+
+ manifold by making it possible to compute its curvature. So, it seems apparent to
+
+ us that, at least up to the definition of intrinsic parallelism, one possible key guide
+
+ to Levi-Civita was mathematical physics, not only pure geometry, and, in particular,
+
+ the principle of virtual work for a mechanical system subject to smooth holonomic
+
+ bilateral constraints, which may be considered as a formal guide-scheme in deducing
+
+ geometrical features.
+
+ 4 Final remarks
+
+ From a historical standpoint, we claim that the virtual work principle played a possibly
+
+ remarkable conceptual role in the origin of Levi-Civita's notion of parallel transport
+
+ in a Riemannian manifold as expressed by Eq. (11) and its consequences. Coherently
+
+ with his mathematical-physical education, Levi-Civita used a language which clearly
+
+ referred to this principle and its formal schemata, for example when he used the term
+
+ 'constraint' and the expression 'displacements compatible with constraint'. Further
+
+ more, he specified that Eq. ( 11 ) was obtained "for all the displacements Syv compatible
+ with the constraints (5)" (our translation), and emphasized this sentence in italics (see
+
+ Levi-Civita 1917). This is, according to us, a sign of a clear wish to refer to the so
+
+ called symbolic equation of statics for an ideal mechanical system moving along a
+ line C of a Riemannian manifold. Such an equation is a nullity condition expressing
+
+ constitutive properties of smooth constraint reactions.36 Indeed, for the analog con
+
+ strained mechanical system, the unit directions emerging from the points of V — η
+
+ assume the role of admissible displacements, and the dual forms on them are reactions
+
+ provided by the geometrical links between the elements of the mechanical system.37
+
+ In a series of Spanish conferences held by Levi-Civita in 1921, the reference to
+
+ analytical mechanics is more explicit.38 Indeed, in discussing parallelism and curvature
+
+ 33 Levi-Civita used the term 'moment', which was traditional in the Italian school of mathematical physics
+
+ of his time and denoted a mechanical action dual to a Lagrangian parameter of admissible (virtual) dis
+
+ placements.
+
+ 34 Levi-Civita (1917), eq. (Ic), p. 12. The same comment on Eq. (14) may be found in later textbooks of
+ the Italian school of mathematical physics, e.g. Finzi and Pastori (I960), ch. X.
+
+ 35 Levi-Civita (1917), Sect. 13.
+
+ 36 Bernardini (1974), ch. XII, Krall (1940), part 1, ch. IV, Sect. 3.
+
+ 37 Sommerfeld (1957), ch. II, Sect. 8.
+
+ 38 See Levi-Civita (1924), pp. 97-143.
+
+ <£) Springer
+
+This content downloaded from 203.78.15.150 on Sun, 17 May 2020 09:56:33 UTC
+All use subject to https://about.jstor.org/terms
+
+ On the role of virtual work in Levi-Civita's parallel transport
+
+ 563
+
+ in a general Riemannian manifold, Levi-Civita stated39 that the geometric notion
+
+ of parallelism resembles the physical notion of work. This is to say that geometric
+
+ parallelism, in its analytical substratum, is similar to the integral of the differential form
+
+ Xjdxi + X2dx2. Starting from this initial physical framework, Levi-Civita provided
+
+ a purely analytical treatment of his notion of vectorial equipollence upon a surface.
+
+ Then, he discussed infinitesimal parallelism and its analytical expression by arguing
+
+ in terms of vector analysis, and reached a simple, characteristic formal condition of
+ parallelism on surfaces, given by the scalar product τ χ du = Ο,40 where r is a
+
+ generic unit vector of the tangent plane to the given surface, and du is the first-order
+
+ infinitesimal variation of a generic vector u belonging to the same tangent plane.
+
+ Afterwards, in Levi-Civita (1924), Sect. 4, p. 103, Levi-Civita started to speak
+
+ explicitly of "virtual displacements" and "symbolic equation" (we believe that he
+
+ understood "of statics"), and the virtual displacements were called into question many
+
+ times in his formal arguments, until he reached an equivalent formal expression of
+
+ r χ du = 0, that is to say, S Ρ χ du = Ο,41 which recalls—Levi-Civita stated—the
+
+ principle of virtual work (Levi-Civita 1924, Sect. 4, p. 104). From this point onwards,
+ Levi-Civita used arguments of analytical mechanics, following a method similar to
+
+ one that applied the virtual work law to build up Lagrange's equations (Levi-Civita
+
+ 1924, Sect. 4, p. 109). Thus, he deduced equations (14) for a two-dimensional surface.
+
+ In Levi-Civita (1924), Sect. VIII, Levi-Civita generalized his results to an arbitrary
+
+ Riemannian manifold with a simple dimensional extension of the formal model just
+
+ worked out in a two-dimensional environment, until he had generalized the notion of
+
+ parallelism to an arbitrary manifold in Levi-Civita (1924), Sect. IX. Then, he deduced
+
+ equation (11), which now he stated to be "valid for all virtual displacements" (Levi
+ Civita (1924), Sect. IX, p. 122).
+
+ In Levi-Civita's monograph devoted to absolute differential calculus,42 we find
+
+ further ex-post confirmation to our possible historical interpretation. Indeed, in this
+
+ monograph there are many references to the possible kinematical characterization
+
+ of parallelism in a Riemannian manifold. Levi-Civita also quoted works from the
+ early 1920s by Giuseppe Corbellini43 and Enrico Persico (1900-1969)44 on other
+
+ possible kinematical interpretations of his own intrinsic parallelism making use of
+
+ the geometry of developable surfaces.45 Levi-Civita further emphasized the possible
+
+ role of analytical mechanics in developing notions of differential geometry such as
+
+ 39 Levi-Civita (1924), Sect. 2, p. 99.
+
+ 40 Levi-Civita (1924), Eq. (1), p. 102. Note that in the Italian school of mathematical physics of the time
+ the symbol for the scalar product was x.
+
+ 41 Levi-Civita (1924), Eq. (1'), p. 104.
+
+ 42 Levi-Civita (1927), ch. V, (b), Sects. 10-15. This monograph was suggested by the mathematician
+ Edmund Taylor Whittaker (1873-1956), who wanted to widen the first Italian edition of 1925 with the
+
+ addition of a third part, devoted to the physical application of absolute differential calculus to Einstein's
+ general relativity, extracted from Levi-Civita (1928).
+
+ 43 We could not find any biographical data on him so far, apart from the fact that he published some notes
+
+ on intrinsic parallelism.
+
+ 44 One of Levi-Civita's pupils, who edited his lectures on the absolute differential calculus, Levi-Civita
+ (1927).
+
+ 45 Levi-Civita (1927), pp. 102-104 (pp. 119-121 of the Italian edition).
+
+ Ô Springer
+
+This content downloaded from 203.78.15.150 on Sun, 17 May 2020 09:56:33 UTC
+All use subject to https://about.jstor.org/terms
+
+ 564
+
+ G. Iurato, G. Ruta
+
+ that of parallelism, reaching as far as a formal equation characterizing his notion of
+
+ parallelism, equivalent to (and called by him) the symbolic equation of parallelism.
+
+ Furthermore, and this is very important for our argument, Levi-Civita himself stated
+
+ that this equation formally recalls the principle of virtual work. In addition, Levi
+
+ Civita used the same principle in deducing another formal property of Riemannian
+
+ geometry applied to Einstein's general relativity, for instance when discussing the
+
+ geodetic principle for the dynamics of a material particle moving in a four-dimensional
+
+ space-time manifold.46
+
+ Thus, we have shown that the great tradition of the Italian school of mathematical
+
+ physics of the second half of the 19th century continued in the early decades of the 20th
+
+ century to produce important results also in the field of 'pure' mathematics that were
+
+ strongly connected with the most advanced physical issues of the time, i.e. Einstein's
+
+ theory of general relativity (Bottazzini 1990, ch. XVI, Sect. 3).
+
+ We have stressed what possible formal schemata Levi-Civita followed in deducing
+
+ his intrinsic, geometric notion of parallelism in an arbitrary Riemannian manifold,
+
+ starting from the two-dimensional model provided by a material point moving along a
+
+ smooth surface according to analytical mechanics. Our historical reconstruction of the
+
+ possible mental route followed by Levi-Civita in working out this primary notion of
+
+ differential geometry is corroborated by both the formal analysis of the content of his
+
+ original 1917 memoir (in which our interpretation is supported by the identification of
+
+ an implicit use of a formalism analogous to that of analytical mechanics) and by the
+
+ analysis of two main texts of Levi-Civita drawn up soon after: his 1921 contribution to
+
+ a Spanish conference (included in Levi-Civita 1924) and his 1923 lectures recollected
+ in Levi-Civita (1927).
+
+ References
+
+ Agostinelli, C., and A. Pignedoli. 1961. Meccanica razionale, vol 2. Bologna: Zanichelli.
+ Agostinelli, C., and A. Pignedoli. 1988. Meccanica analitica, vol 2. Modena: Tipografia Mucchi.
+ Andreaus, U., F. dell'Isola, and L. Placidi. 2015. At the origins and in the vanguard of peri-dynamics,
+
+ non-local and higher gradient continuum mechanics. An underestimated and still topical contribution
+ of Gabrio Piola. Mechanics and Mathematics of Solids 20: 887-928.
+
+ Arnold, V.I. 1986. Matematicheskie metody klassicheskoi mekhaniki. MIR, Moscow, 1978. Italian transla
+
+ tion: Metodi matematici delta meccanica classica. Roma: Editori Riuniti.
+
+ Belluzzi, 0.1961. Scienza delle costruzioni, vol 4. Bologna: Zanichelli.
+
+ Benvenuto, E. 1991. An introduction to the history of structural mechanics. Berlin: Springer.
+
+ Bernardini, G. 1974. Fisica generate, 14th ed. Roma: Eredi Virgilio Veschi.
+
+ Bianchi, L. 1924a. Geometria differenziale, Vol 1, Parte 1. Bologna: Zanichelli.
+
+ Bianchi, L. 1924b. Geometria differenziale. Vol 2, Parte 2, Bologna: Zanichelli.
+ Bottazzini, U. 1990. Il Flauto di Hilbert. Storia della matematica moderna e contemporanea. Torino: UTET
+
+ Capecchi, D. 2012. History of virtual work laws. Boston: Birkhâuser.
+
+ Capecchi, D., and G. Ruta. 2007. Piola's contribution to continuum mechanics. Archive for History of Exact
+
+ Capecchi, D., and G. Ruta. 2010. A historical perspective of Menabrea's "principle of elasticity". Meccanica
+
+ Libreria.
+
+ Sciences 61: 303-342.
+
+ 45: 199-212.
+
+ 46 Levi-Civita ( 1927), ch. XI, Sect. 12. See Davies and Yano ( 1975) for a historical account of the influence
+
+ of Levi-Civita's parallelism on differential geometry.
+
+ <£} Springer
+
+This content downloaded from 203.78.15.150 on Sun, 17 May 2020 09:56:33 UTC
+All use subject to https://about.jstor.org/terms
+
+ On the role of virtual work in Levi-Civita's parallel transport 565
+
+ Capecchi, D., and G. Ruta. 2011. Cerruti's treatment of linear elastic trusses. Meccanica 46: 1283-1298.
+
+ Capecchi, D., and G. Ruta. 2015. Strength of materials and theory of elasticity in 19th century Italy. Berlin:
+
+ Springer.
+
+ Capecchi, D„ Ruta, G. 2015. Beltrami and mathematical physics in non-Euclidean spaces. GAMM
+
+ 2015—Proceedings of the 86th annual meeting of the International Association for Mathematics
+ and Mechanics. Lecce (Italy), March.
+
+ Davies, E.T., and Yano, K. 1975. The influence of Levi-Civita's notion of parallelism on differential geom
+
+ etry. In Convegno Internazionale Celebrativo del Centenario della Nascita, Roma, 17-19 Dicembre
+ 1973, ed. Tullio Levi-Civita, 53-76. Roma: Accademia Nazionale dei Lincei.
+
+ Finzi, B., and M. Pastori. 1960. Calcolo tensoriale e applicazioni, 2nd ed. Bologna: Zanichelli.
+ Finzi, B. 1968. Meccanica rationale, vol 2, 3rd ed. Bologna: Zanichelli.
+ Grassini, R. 1988. Meccanica razionale. Napoli: Liguori.
+ Krall, G. 1940. Meccanica tecnica delle vibrazioni. Bologna: Zanichelli.
+
+ Lagrange, J.L. 1853. Méchanique analitique. Desaint, Paris, 1788.2nd ed. : Mécanique analytique. Courrier,
+
+ Paris, 1811-1815. 3rd éd.: Mécanique analytique, revue, corrigée, et annotée par M.J. Bertrand.
+ Mallet-Bachelier, Paris.
+
+ Levi-Civita, T. 1927. The absolute differential calculus, and calculus of tensors. In Italian edition: Lezioni
+
+ di calcolo differenziale assoluto, ed. by Enrico Persico, London and Glasgow: Blackie & Son Ltd,
+ Alberto Stock-Editore, Roma: Raccolte ecompilate a cura di Enrico Persico. 1925.
+
+ Levi-Civita, T. 1928. Fondamenti di Meccanica Relativistica, Redatti daEnrico Persico. Bologna: Zanichelli.
+ Levi-Civita, T., and Amaldi, U. 1949. Lezioni di meccanica razionale. Ristampa anastatica della nuova
+
+ edizione riveduta e corretta del, Bologna: Zanichelli, 1987-89.
+
+ Levi-Civita, T., and Amaldi, U. 1965. Compendio di meccanica razionale. Ristampa anastatica della seconda
+
+ edizione riveduta del 1938, Bologna: Zanichelli.
+
+ Levi-Civita, T. 1917. Nozione diparallelismo in una varietà qualunque e conseguente specificazione geomet
+
+ rica della curvatura riemanniana. In Rendiconti del Circolo Matematico di Palermo, XLII, 173-215.
+
+ Opere IV, 1-39.
+
+ Levi-Civita, T. 1954-73. Opere matematiche. Memorie e note, vol 6. Bologna: Zanichelli.
+ Levi-Civita, T. 1924. Questioni di Meccanica Classica e Relativistica. Bologna: Zanichelli.
+ Maurin, K. 1997. The Riemann legacy. Riemann ideas in mathematics and physics. Dordrecht: Kluwer
+
+ Academic Publishers.
+
+ Nastasi, P., and R. Tazzioli. 2005. Toward a scientific and personal biography of Tullio Levi-Civita (1873—
+
+ 1941). Historia Mathematica 32: 203-236.
+
+ Pizzocchero, L. 1998. Geometria differenziale. In La matematica in Italia dopo l'Unità. Ilperiodo tra le due
+ guerre mondiali, eds by S. Di Sieno, A. Guerraggio, P. Nastasi, Marcos y Marcos, Milano, 321-379.
+ Ruta, G. 2014. Gabrio Piola and balance equations. In The complete works ofGabrio Piola:, Vol 1. Advanced
+
+ structural materials 38:752-784. Springer Int. Publ.
+
+ Scholz, E. 1994. Hermann Weyl's contribution to geometry, 1917-1923. In The intersection of history and
+
+ mathematics, ed. S. Chikara, S. Mitsuo, and J.W. Dauben, 203-230. Birkhâuser: Basel.
+
+ Sommerfeld, A. 1957. Vorlesungen iiber Theoretische Physik. Band 1 : Mechanik, Becker & Erler, Leipzig,
+
+ 1943. Italian translation: Lezioni di Fisica Teorica. vol. 1: Meccanica, Sansoni, Firenze.
+
+ Tazzioli, R. 1993. Ether and theory of elasticity in Beltrami's work. Archive for History of Exact Sciences
+
+ 46: 1-37.
+
+ Timoshenko, S.P. 1953. History of strength of materials, with a brief account of the history of theory of
+
+ elasticity and theory of structures. New York: McGraw-Hill.
+
+ Todhunter, I., and K. Pearson. 1893. A history of the theory of elasticity and of the strength of materials,
+
+ from Galilei to the present time. Cambridge: The University Press.
+
+ Varignon, P. 1725. Nouvelle mécanique ou statique. Paris: C. Jombert.
+
+This content downloaded from 203.78.15.150 on Sun, 17 May 2020 09:56:33 UTC
+All use subject to https://about.jstor.org/terms
+
+ Springer
+
+

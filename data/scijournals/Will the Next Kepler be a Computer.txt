@@ -1,0 +1,485 @@
+ 
+
+ 
+
+ 
+
+ 
+
+Review: Will the Next Kepler Be a Computer?
+Reviewed Work(s): Induction: Processes of Inference, Learning and Discovery by John H.
+Holland, Keith J. Holyoak, Richard E. Nisbett and  Paul R. Thagard; Scientific Discovery:
+Computational Explorations of the Creative Processes by Pat Langley, Herbert A. Simon,
+Gary L. Bradshaw and  Jan M. Zytkow
+Review by: Michael E. Gorman
+Source: Science & Technology Studies, Vol. 5, No. 2, Annual Meeting Issue (Summer, 1987),
+pp. 63-65
+Published by: Sage Publications, Inc.
+Stable URL: https://www.jstor.org/stable/690423
+Accessed: 17-05-2020 09:47 UTC
+
+JSTOR is a not-for-profit service that helps scholars, researchers, and students discover, use, and build upon a wide
+
+range of content in a trusted digital archive. We use information technology and tools to increase productivity and
+
+facilitate new forms of scholarship. For more information about JSTOR, please contact support@jstor.org.
+
+Your use of the JSTOR archive indicates your acceptance of the Terms & Conditions of Use, available at
+
+https://about.jstor.org/terms
+
+Sage Publications, Inc. is collaborating with JSTOR to digitize, preserve and extend access to
+Science & Technology Studies
+
+This content downloaded from 203.78.15.150 on Sun, 17 May 2020 09:47:51 UTC
+All use subject to https://about.jstor.org/terms
+
+ REVIEW ESSAY
+
+ Will the Next Kepler Be a Computer?
+
+ John H. Holland, Keith J. Holyoak, Richard E. Nisbett,
+ and Paul R. Thagard, Induction: Processes of Inference,
+ Learning and Discovery. Cambridge: MIT Press, 1986, 384
+ pp. $24.95.
+
+ Pat Langley, Herbert A. Simon, Gary L. Bradshaw, and
+ Jan M. Zytkow, Scientific Discovery: Computational Explo-
+ rations of the Creative Processes. Cambridge: MIT Press,
+ 1987, 357 pp. $9.95.
+
+ Both of these books are attempts to show how induc-
+ tive reasoning can be modeled on computers. Scientific
+ Discovery focuses on examples drawn from the history of
+ science, though the discussion of historical cases is brief
+
+ and very limited. Induction discusses inductive reasoning
+ across a wide range of phenomena, including learning,
+ attributions of cause in social situations and, in a next-to-
+
+ final chapter, scientific discovery. Neither book discusses
+ the role of social factors in discovery. Therefore, both are
+
+ particularly relevant to those interested in the cognitive
+ psychology of science.
+
+ Scientific Discovery
+
+ This book focuses on heuristics as the main ingredient
+ in scientific dicovery. Heuristics are "rules of thumb" that
+ guide the search for a solution to a problem. Most of the
+ book is spent describing heuristic-based computer pro-
+ grams designed to model famous scientific discoveries.
+ For example, a program called BACON was designed to
+ re-discover several scientific laws from data, including
+ Kepler's third law. The earliest version of BACON used
+ three heuristics to find Kepler's third law:
+
+ If the values of a term are constant, then infer that
+
+ the term always has that value.If the values of two nu-
+ merical terms increase together, then consider their
+ ratio.If the values of one term increase as those of an-
+
+ other decrease, consider their product. (p. 66)
+ Later versions of BACON added heuristics to increase
+
+ generality, e.g., ones to express the ratio in the second
+ heuristic as a linear function and check that function by
+ gathering further data. BACON is given data on the dis-
+ tance between the sun and each planet and the angle
+ found by using a fixed star and the planet as two end-
+ points with the Sun as the pivot at different times. From
+ this data, BACON finds an inverse relation between the
+
+ distance (D) and the slope (s) which it eventually uses to
+ discover that D3s2 is a constant.
+
+ Then the program stops, and Langley et al. claim that
+ it has "discovered" Kepler's third law, with a simplified
+ version of his second law embedded within. To anyone
+ familiar at all with Kepler's actual discovery process (see
+ Koestler, 1959 for a good account) the program falls ludi-
+ crously short. No one presented Kepler with a table of
+
+ data, nleatly arranged, and told him to discover an arbi-
+ trary mathematical relationship. Kepler started with a
+ belief that geometric solids could be fitted into the orbits
+
+ of the planets with the sun at the center of the solar sys-
+ tem. When this belief did not accord with Tycho Brahe's
+ data, he had to go through the agonizing process of alter-
+
+ ing his framework, deciding which data were worth using
+ to frame and check his new model. His success was due,
+
+ in part, to persistent calculations based on Brahe's data,
+ but no one else would have known that such calculations
+
+ were worth doing. As Koestler says,
+
+ He had been searching for this Third Law, that is to
+
+ say, for a correlation between a planet's period and its
+
+ distance, since his youth..Without such a correlation,
+ the universe would make no sense to him; it would be
+
+ an arbitrary structure. If the sun had the power to gov-
+ ern the planet's motions, then that motion must some-
+
+ how depend on their distance from the sun; but how?
+ Kepler was the first who saw the problem-quite
+ apart from the fact that he found the solution to it, after
+
+ twenty-two years of labour. The reason why nobody
+ before him had asked the question is that nobody had
+ thought of cosmological problems in terms of actual
+ physical forces. (p. 395)
+ To put this in the language of modern cognitive sci-
+
+ ence, Kepler's mental representation of the solar system
+ was more important than the heuristics he used to dis-
+
+ cover his laws. (For a similar argument regarding the per-
+ formance of subjects in scientific reasoning experiments,
+ see Gorman, Stafford, and Gorman, 1987.) BACON has
+
+ no mental representations; it merely searches for quanti-
+
+ tative relationships between arbitrary terms supplied by
+ the programmers, who interpret its results to be "discov-
+
+ ery" of Kepler's third law. One feels they have missed the
+ point of Kepler's genius entirely.
+
+ There are several points in Scientific Discovery where
+ Langley et al. issue disclaimers, pointing out that pro-
+ grams like BACON-and the book includes many other
+ programs designed to model historical discoveries from
+ different sciences-were not intended to model the his-
+
+ tory of particular discoveries. Rather, these programs
+ present "ways in which historical discoveries could have
+
+ been made with the help of a few simple heuristics and
+ with moderate amounts of computation" (p. 170). But
+ this disclaimer does not answer the problem raised in the
+ Kepler example. There is no way Kepler could have found
+
+ his laws "with a few simple heuristics"; he had to repre-
+ sent the solar system in a way that suggested where to
+ look for lawful relations.
+
+ In a final chapter, the authors attempt to address this
+ problem of mental representations, including pictorial
+ images. Their claim is that the same sort of programs that
+
+ SCIENCE & TECHNOLOGY STUDIES * Vol. 5, No. 2 * 63
+
+This content downloaded from 203.78.15.150 on Sun, 17 May 2020 09:47:51 UTC
+All use subject to https://about.jstor.org/terms
+
+ produced Kepler's third law could be adapted to form
+ representations. But they regard these sorts of represen-
+ tations as relatively simple (see p. 318) and also talk very
+ little about how a machine could form them from the
+
+ kind of information and belifs Kepler had available. Cer-
+ tainly we could find a way to program a computer to
+ begin with the assumption that the planets' orbits can be
+ filled by geometric solids, then provide it with data that
+ shows the inadequacy of that view and heuristics that
+ would guide it to Kepler's solution. But this isn't what
+ Kepler did. He had to decide that geometric solids must
+ fit into the planetary orbits, figure out how to test this as-
+
+ sumption, and develop radical new assumptions, e.g., the
+ idea that some kind of force emanating from the sun con-
+
+ trolled the motion of the planets. Historians and philoso-
+ phers may find some of Langley et al.'s other cases of
+ greater interest than their account of Kepler. But there is
+ no danger that their programs, even if modified to create
+ representations of the form they suggest toward the end
+ of the book, will be able to make novel discoveries of the
+
+ sort that Kepler made.
+
+ Langley et al. close by arguing that scientific creativity
+ should not be regarded as mysterious, as fundamentally
+ different from other human cognitive processes. I
+ agree-we need to try to understand the cognitive as-
+ pects of scientific and technological creativity. But it
+ seems to me that their account of scientific problem-
+ solving is as limited as early behavioristic accounts of
+ learning-a necessary and halting first step, perhaps,
+ but one which we must go beyond as rapidly as possible.
+
+ Induction
+
+ Fortunately, more promising approaches are already at
+ hand, and Induction represents one of them. Although it
+
+ has only one chapter on scientific discovery, it is of far
+ more interest to psychologists of science than Scientific
+
+ Discovery. Whereas most of the latter book is detailed de-
+
+ scription of computer programs, the former spends only
+ one chapter describing the authors' computer
+ implmentation of their model and the rest applying the
+ model to important areas of psychology, including scien-
+ tific discovery.
+
+ Induction's approach relies far more heavily on mental
+
+ ries; cat passes the "confirmation threshold" and Jennifer
+
+ realizes she is looking at a cat. One of the strengths of In-
+
+ duction is that its framework allows for competing rules
+ or representations, whereas the programs in Scientific
+ Discovery can consider only one rule at a time.
+
+ Sociobiologists hold that each organism acts as if it
+ were a sort of "genetic calculator," calculating whether
+ kin are sufficiently close to warrant sacrificing its own life
+ to save their (Dawkins, 1976). Similarly, Holland et al.
+ construct a model of thinking based on rules which in-
+ volve complex calculations. Unlike the sociobiologists,
+ there is no "as if" involved in Holland et al.'s analysis; they
+ assume that these sorts of calculations are being carried
+ on by a computational cognitive system. Lest the analogy
+ seem too far-fetched, it should be pointed out that Hol-
+ land et al. mention biological systems as one area in
+ which the mathematics of induction should have its
+
+ greatest application. Critics of the whole computational
+ perspective would argue that this mathematical level of
+ analysis is unnecessary (see, for example, Searle, 1984).
+ For the present, it is best to say that Holland et al. provide
+ substantial evidence that in many situations the human
+ or organism acts as if it were doing computational calcula-
+ tions before recognizing or acting.
+
+ Holland et al.'s more sophisticated computational
+ model comes a step closer to Kepler than BACON's sim-
+ ple heuristics. In fact, Holland et al. use the Kepler exam-
+ ple to criticize BACON along the lines I sketched above
+ (pp. 324-5-but I developed my critique independently
+ of theirs). They also present a more sophisticated philos-
+
+ ophy of science than Scientific Discovery, due in part to
+
+ the fact that one of the co-authors, Thagard, is a philoso-
+ pher. A quotation will illustrate:
+
+ How do scientists arrive at new laws? A common
+
+ view, misattributed to Francis Bacon, is that scientists
+
+ generally start with the data and then by "induction'
+ directly derive laws that describe those data. More
+ typically, we will argue, the discovery of laws requires
+ the kinds of reconceptualizations that are central to
+ our account of problem solving; synchroic search
+ among concepts is as important as the search for dia-
+ chronic realities. We will argue that this is true even
+ for observational laws, or laws that cover observable
+
+ representations than heuristics. Holland et al. try to dem-
+ onstrate that mental representations are best viewed as
+ sets of rules, including rules for transitions from one state
+
+ to another. They use the example of "Jennifer" (p. 58-62),
+ who notices that an "object in her visual field is small and
+ black, has a long axis in the horizontal direction, and is
+ an animal" (p. 59). Then they show how her "system"
+ computes values for several mutually exclusive alterna-
+ tives, e.g., black dog, black cat, and black squirrel; dog
+ gets the highest value, but "the tentative characterization
+ ... does not reach some implicit confirmation threshold"
+ (p. 60). So the system tells Jennifer to move her eyes
+ "along the animal's horizontal axis," which leads to the
+ observation that the animal has a round head. This new
+
+ events; it is even more obviously so for theoretical laws
+ that require top-down concept-formation. (p. 323)
+ In other words, theory formation involves searching
+ for relationships among concepts as well as search for
+ regularities in the data. Holland et al. incorporate both
+ types of search in their model and they recognize that,
+ "Although he started with relatively accurate data fur-
+ nished by Tycho Brahe, Kepler's discovery of the three fa-
+ mous laws would have been impossible without several
+ dramatic reconceptualizations of the problem domain"
+ (p. 324). The amount of reconceptualization is far greater
+ for a Newton or an Einstein; Newton, for example, took
+ Kepler's and Galileo's laws and forged them into a single
+ system.
+
+ information adds strength to the squirrel and cat catego-
+
+ Holland et al. don't say how exactly their model would
+
+ 64 * SCIENCE & TECHNOLOGY STUDIES 0 Vol. 5, No. 2
+
+This content downloaded from 203.78.15.150 on Sun, 17 May 2020 09:47:51 UTC
+All use subject to https://about.jstor.org/terms
+
+ explain Kepler's discoveries, but clearly numerical com-
+ putations concerning the relative strength of various
+ rules would be involved on some level. For example,
+ Kepler's system of geometric solids might be represented
+ as a set of rules; the system would then seek data, e.g.,
+ Brahe's, to see if the geometric-solids model reached a
+ "confirmation threshold." Inconsistencies between the
+
+ data and the model would lead to rules that embodied
+
+ exceptions and also to reconceptualizations until Kepler's
+ set of rules gradually yielded his three laws.
+
+ Perhaps Kepler did sit in his study poring over Brahe's
+ data while his computational system assigned weights to
+ different rules, then sent him back to look for more data.
+
+ Certainly, subconscious or semi-conscious processes of
+ this sort do go on in scientists-and all of us-much of
+ the time. But this model still misses the heart of what it
+
+ meant to be Kepler. While these calculcations may be rel-
+ atively automatic in a case where a child perceives a cat
+ in the distance (although even that is debatable), they are
+ not automatic in a case like Kepler's, where a scientist
+ feels he or she has seen through Nature's veils and is try-
+ ing to transform the ecstasy of discovery into sober fact.
+ He did not compute passively; he made conscious deci-
+ sions about where to seek information and what to do
+
+ with it. The program outlined in Induction cannot be a
+ Kepler until it develops metacognitive awareness-until
+ it can consciously evaluate alternatives and not just auto-
+ matically perform calculations.
+
+ For example, Kepler's decision to abandon the Coper-
+
+ nican assumption that planets had circular orbits was not
+ a simple, rational response to calculations based on the
+ evidence that Mars' orbit could not be a circle. Instead,
+
+ Kepler had to cope with a result that was in drastic con-
+ flict with his representation of the way the universe
+ worked: the orbit of Mars was an oval.
+
+ The oval ... has an arbitrary form. It distorts the
+ eternal dream of the harmony of the spheres, which
+ lay at the origin of the whole quest. Who art thou,
+ Johan Kepler, to destroy divine symmetry? All he has
+ to say in his own defence is, that having cleared the
+ stable of astronomy of cycles and spirals, he left be-
+ hind him "only a single cart-ful of dung: his oval."
+ (Koestler, p. 329)
+ To understand Kepler, one must do more than con-
+ struct a complex set of competing rules. One must under-
+
+ stand how his emotional reaction to the "cart-ful of dung"
+ drove him on to a year of fruitless calculations, lead him
+ even to repudiate his own second law-all while using
+ ellipses in his calculations without realizing that the el-
+ lipse was the key to the orbit of Mars. I don't see how even
+ Holland et al.'s computer program could replicate this
+ "wild goose chase" unless it were programmed in ad-
+ vance to follow these exact steps, in which case it would
+ be modeling nothing but the programmer's ingenuity in
+ setting up the steps.
+
+ Conclusion
+
+ ignores mental representations. From Induction, we learn
+ the prospects and problems associated with translating
+ mental representations into sets of rules. My own view
+ (see Gorman, 1987) is that a complete view of the creative
+
+ process will have to include both mental representations
+ and heuristics; a unique mental representation is a major
+ ingredient in scientific genius, but creative scientists also
+ utilize or develop powerful heuristics-including some
+ of the ones discussed by Langley et al.-that allow them
+ to test and modify their representations.
+
+ Like many congitive scientists, the authors of both
+ books are working up from lower-order cognitive pro-
+ cesses, e.g., in Inducation, how you recognize a cat in the
+ distance and in Scientific Discovery, how you perceive re-
+ lationships in data already ordered so as to make the dis-
+
+ covery of the relationships easy. What the psychology of
+ science needs is more cognitive psychology of higher-
+ order processes. (Holland et al. briefly recognize this
+ problem on p. 350.)
+
+ Specifically, both books ignore the problem of con-
+ sciousness, or what Searle (1984) calls intentionality.
+ Cognitive scientists are not alone in their failure to ade-
+ quately address this issue; sociologists and social histori-
+ ans, for example, frequently treat the individual as
+ merely a product of social forces. Certainly, social factors
+
+ play a major role in shaping an individual scientist's rep-
+ resentations and choices of heuristic; Kepler's preference
+
+ for circular orbits is, in part, a result of his times. However,
+
+ Kepler is no more a mere product of social circumstances
+ than he is a complex calculator or a set of heuristics. A
+ successful psychology of science must incorporate con-
+ sciousness as well as mental representations and heuris-
+ tics. Computer models may be useful in other ways, but
+ even the most sophisticated parallel-processing architec-
+ tures do not incorporate consciousness.
+
+ One of the most hopeful aspects of the book Induction
+
+ is that the authors come from different disciplines. Only
+ through genuinely interdisciplinary collaboration can we
+ hope to recapture the whole Kepler, including his con-
+ scious intentions as well as the subconscious social and
+
+ cognitive factors that shaped his discoveries.
+
+ References
+
+ Dawkins, R. The Selfish Gene. Oxford: Oxford University Press, 1976.
+
+ Gorman, Michael E. "A Framework for Understanding the Cognitive
+ Style of Inventors." Paper presented to the Society for the History of
+ Technology, Pittsburgh, October 24, 1986.
+
+ Gorman, Michael E., A. Stafford, and Margaret E. Gorman.
+
+ "Disconfirmation and Dual Hypothesis on a More Difficult Version of
+
+ Wason's 2-4-6 Task." The Quarterly Journal of Experimental Psychology
+ 39A (1987): 1-28.
+
+ Koestler, A. The Sleepwalkers. New York: Grosset& Dunlap, 1963.
+ Searle, J. Minds, Brains and Science. Cambridge: Harvard University
+
+ Press, 1984.
+
+ From Scientific Discovery, we learn the strengths and
+ limitations of a heuristic-based approach that virtually
+
+ Department of Humanities
+ Michigan Technological University
+
+ Reviewed by Michael E. Gorman
+
+ SCIENCE & TECHNOLOGY STUDIES * Vol. 5, No. 2 * 65
+
+This content downloaded from 203.78.15.150 on Sun, 17 May 2020 09:47:51 UTC
+All use subject to https://about.jstor.org/terms
+
+

@@ -1,0 +1,4114 @@
+ 
+
+ 
+
+ 
+
+ 
+
+Synthetic and analytic geometries in the publications of Jakob Steiner and Julius Plücker
+
+(1827–1829)
+Author(s): Jemma Lorenat
+Source: Archive for History of Exact Sciences, Vol. 70, No. 4 (July 2016), pp. 413-462
+Published by: Springer
+Stable URL: https://www.jstor.org/stable/24913438
+Accessed: 17-05-2020 09:58 UTC
+
+JSTOR is a not-for-profit service that helps scholars, researchers, and students discover, use, and build upon a wide
+
+range of content in a trusted digital archive. We use information technology and tools to increase productivity and
+
+facilitate new forms of scholarship. For more information about JSTOR, please contact support@jstor.org.
+
+Your use of the JSTOR archive indicates your acceptance of the Terms & Conditions of Use, available at
+
+https://about.jstor.org/terms
+
+Springer is collaborating with JSTOR to digitize, preserve and extend access to Archive for
+History of Exact Sciences
+
+This content downloaded from 203.78.15.150 on Sun, 17 May 2020 09:58:23 UTC
+All use subject to https://about.jstor.org/terms
+
+ Arch. Hist. Exact Sei. (2016) 70:413^62 /β\ _ M ,
+ DOI 10.1007/S00407-015-0174-8 VC/
+
+ Synthetic and analytic geometries in the publications
+ of Jakob Steiner and Julius Plücker (1827-1829)
+
+ Jemma Lorenat1
+
+ Received: 7 July 2015 / Published online: 9 February 2016
+
+ © Springer-Verlag Berlin Heidelberg 2016
+
+ Abstract In their publications during the 1820s, Jakob Steiner and Julius Plücker fre
+
+ quently derived the same results while claiming different methods. This paper focuses
+
+ on two such results in order to compare their approaches to constructing figures, calcu
+
+ lating with symbols, and representing geometric magnitudes. Underlying the repetitive
+
+ display of similar problems and theorems, Steiner and Plücker redefined synthetic and
+
+ analytic methods in distinctly personal practices.
+
+ 1 Introduction
+
+ One reads frequently that analytic and synthetic methods divided early nineteenth
+ century geometry. So Felix Klein claimed in his 1872 paper, "Vergleichende
+ Betrachtungen über neuere geometrische Forschungen," in which he called for an
+
+ end to methodological divisions in geometry. As it appeared in the English translation
+ of 1893:
+
+ The distinction [Unterschied] between modern synthesis and modern analytic
+
+ geometry must no longer be regarded as essential, inasmuch as both subject
+
+ matter and methods of reasoning have gradually taken a similar form [gestaltet]
+
+ Research for this article was made possible through the generous assistance of the Ecole Polytechnique
+ archives in Palaiseau, the Hochschularchiv of the Eidgenössische Technische Hochschule in Zürich, and
+ the National Research Council of Canada archives in Ottawa.
+
+ Communicated by: Jeremy Gray.
+
+ Ε JemmaLorenat
+
+ jlorenat @ pitzer.edu
+
+ 1050 North Mills Avenue, Claremont 91711, Los Angeles, CA 90026, USA
+
+ ö Springer
+
+This content downloaded from 203.78.15.150 on Sun, 17 May 2020 09:58:23 UTC
+All use subject to https://about.jstor.org/terms
+
+ 414
+
+ J. Lorenat
+
+ in both. We choose therefore in the text as common designation of them both
+ the term projective geometry. (Klein 1893, 216)
+
+ Here, we shall contest whether such a dichotomy really operated in geometry during the
+
+ first half of the nineteenth century. Klein's categorization of two opposing geometries,
+
+ however, aligned with the recently published biographies of the analytic geometer
+
+ Julius Plücker (Clebsch 1872; Dronke 1871). In his biography, Adolf Dronke explained
+
+ that Plücker had stopped research in geometry in 1847 due to opposition from the
+
+ influential synthetic geometer, Jakob Steiner.
+
+ Steiner declared that he would no longer write in Crelle's Journal, if Plücker's
+
+ work still continued to appear there. Berlin was thereby ruined for him and it is
+
+ easy to grasp why he submitted his scientific works mostly to foreign journals,
+
+ where he knew that his contributions were at least not despised. (Dronke 1871,
+ 11-12)1
+
+ In fact, Plücker did stop publishing articles in geometry in 1847, when he began a
+
+ position as a professor of physics at the University of Bonn.2 Accordingly, Plücker's
+
+ research turned to experimental physics.
+
+ The perception of a long-standing dichotomy between methods and geometers per
+
+ sisted. During the early twentieth century, several articles written as part of Klein's
+
+ Encyklopädie der mathematischen Wissenschaften included historical analyses of
+
+ early nineteenth-century geometry. In "Gegensatz von synthetischer und analytis
+
+ cher Geometrie in seiner historischen Entwicklung im 19. Jahrhundert," Gino Fano
+
+ assessed the opposition as a matter of difference in "style" with Plücker and Steiner
+
+ positioned on opposing sides (Fano 1907). This division is apparent from the chapter
+ titles alone: the second chapter concerned "Einsetzen der synthetischen Geometrie
+
+ durch Poncelet, Möbius, Steiner, Chasles," and the following chapter "Entsprechende
+
+ Entwicklung der analytischen Geometrie," featured Möbius and Plücker. Similarly,
+
+ in their respective histories of elementary and projective geometries, Max Simon and
+
+ Arthur Schoenflies frequently cited Plücker and Steiner. Though subscribing to dif
+
+ ferent methods, the two geometers were said to have reached the same results in quick
+ succession during the 1820s and 1830s (Simon 1906; Schoenflies 1909). Brief bib
+
+ liographic references at once emphasized the importance of method and the scarcity
+
+ of new results. When citing individual theorems or solutions, Steiner's contributions
+
+ were labeled "geometric" or "synthetic," while Plücker's were "analytic." The pattern
+
+ continues in recent general texts on the history of mathematics. The few paragraphs
+
+ devoted to early nineteenth-century geometry cast Steiner as a "champion of' analytic
+
+ geometry, which Steiner "loathed" (Eves 1990; Cooke 2005; Kline 1972; Bourbaki
+
+ 1960; Struik 1948). When authors cite publications as evidence, they are from the
+
+ 1 "Steiner erklärte, nicht mehr in Crelle's Journal schreiben zu wollen, falls noch Arbeiten Plücker's fern
+
+ erhin Aufnahme fänden. Dadurch war ihm Berlin vollständig verleidet und ist es wohl begreiflich, wie er
+
+ seine wissenschaftlichen Arbeiten meist in ausländischen Journalen niederlegte, wo er wusste, dass seine
+
+ Leistungen wenigstens nicht verachtet wurden."
+
+ 2 While at Bonn, Plücker would serve as Klein's advisor for his dissertation on geometry completed in
+ 1868.
+
+ Springer
+
+This content downloaded from 203.78.15.150 on Sun, 17 May 2020 09:58:23 UTC
+All use subject to https://about.jstor.org/terms
+
+ Synthetic and analytic geometries in the publications.,
+
+ 415
+
+ first decade of Plücker's and Steiner's publishing careers and particularly their first
+ monographs.
+
+ Though analytic and synthetic have many possible connotations, in these historical
+
+ references to the early nineteenth century, analytic geometry was understood to mean
+
+ the use of coordinate equations. By contrast, synthetic geometry has been defined as
+
+ figure-based (Fano 1907; Kötter 1901; Klein 1926) or as projective geometry without
+ the use coordinate equations (Schoenflies 1909; Darboux 1904; Loria 1887).
+
+ The apparent consensus in these historical accounts implies that the descriptions
+
+ were uniformly applied by Plücker, Steiner, and their contemporaries. However, early
+
+ nineteenth-century geometers had argued that the descriptions of analytic and syn
+ thetic were too inconsistent to be meaningful. The Swiss mathematician and educator,
+
+ Emmanuel Develey, explicitly rejected employing the terms analysis and synthesis
+
+ to describe his methods because there was currently "no accord as to their distinct
+
+ characters" [n'est point encore d'accord sur le caractdre distinctif ] (Develey 1812,
+
+ v). Gergonne (1817d) similarly despaired of the recent confusion of the terms syn
+
+ thesis and analysis, which he attributed to Condillac and the metaphysicians of his
+ school.3
+
+ As the editor of the Annales, Gergonne frequently classified articles as "analytic
+ geometry," but never used "synthetic geometry" in this context. Instead, articles
+
+ fell under elementary geometry, pure geometry, geometry of the ruler, geometry
+ of situation, geometry of curves and surfaces, geometry, and several other alterna
+ tive subject headings. These terms were not exclusive, and often the same article
+
+ would have multiple such labels. The distinction between geometrical methods was
+
+ in flux. When Gergonne (1814) contrasted the advantages of analytic geometry to
+ those of pure geometry, he was corrected by Poncelet who instead divided geom
+
+ etry into three parts: ancient pure, modern pure, and analytic geometry (Poncelet
+
+ 1817). Gergonne acquiesced (Gergonne 1817c). Geometry did not divide neatly in
+ two.
+
+ Likewise, geometers were not simply analytic or synthetic. During their early
+ careers, descriptions of Plücker and Steiner varied to the point of contradiction.
+
+ Plücker's analytic geometry at once appeared as "restrained in calculations" (Anony
+ mous 1827a, 173) similar to "synthesis" and lacking in new discoveries (Cournot 1828,
+
+ 178), "innovative" and "fruitful" (Gergonne 1828), uniting the method of discoveiy—
+ the method of analysis—with clarity and insight (Crelle cited in (Eccarius 1980),
+
+ 208-211), and new "pure analytic geometry" (Plücker 1828a). During this period,
+
+ Steiner's publications were considered as a reemergence of the "long-neglected" pure
+
+ geometry (Cournot 1827, 299), fruitful but overly complicated (Anonymous 1828,
+
+ 245), systematic and organic (Steiner), inventive and original [written by Friedrich
+
+ Wilhelm Bessel in 1826 and published in Lange (1899), 18-26], particular to the
+
+ author and too elementary but elegant (Steiner and Gergonne 1827,286), complicated
+ (Poncelet 1866,410), merely following in the footsteps of Poncelet (Plücker 1828a),
+
+ and independently derived [Crelle in Eccarius (1980)]. Not only the same geometer,
+
+ but even the same publication could elicit dichotomous responses. By drawing upon
+
+ 3 Gergonne's philosophical article was an excerpt from a longer paper that has been described and analyzed
+ by Amy Dahan Dalmedico (1986).
+
+ Springer
+
+This content downloaded from 203.78.15.150 on Sun, 17 May 2020 09:58:23 UTC
+All use subject to https://about.jstor.org/terms
+
+ 416
+
+ J. Lorenat
+
+ research articles, reviews, private correspondences, and public letters of support, this
+
+ paper will show how Plücker, Steiner and their contemporaries utilized an array of
+
+ attributes to assess positive and negative features of geometrical publications.
+
+ Conflicting descriptions suggest that labels of analytic and synthetic geometry, as
+
+ emphasized by Klein, have obscured the respective methods of Plücker and Steiner.
+
+ Rather than restricting their practices or areas of study, these geometers understood
+
+ the descriptions of analytic and synthetic geometry in the context of their particular
+
+ problem solving and theorem proving. We will examine two instances of intersection
+
+ in their research on planar geometry: the Apollonius problem and Lame's theorem. To
+
+ focus on comparison between methods, the following episodes draw upon instances
+
+ of nearly identical results. Further, re-examining publications that had been simply
+ classified as analytic or synthetic enables a comparison between the original texts
+
+ and their surrounding commentaries. Our focus on the early career of Plücker and
+
+ Steiner reflects that of late nineteenth and early twentieth century historical accounts.
+
+ We observe that during the first decade of their careers, neither geometer reined in
+
+ his research with traditional methodological boundaries. By the end, they had each
+
+ become emblematic of their respective methods. This then raises the question of when
+
+ this association emerged, and how their contributions redefined both methods. In
+
+ documenting how their methodological positions and practices changed over time,
+
+ these findings call for a revision to the standard account of continual opposition.
+
+ We begin in Sect. 1 with Steiner's first publication, written on the subject of tangent
+
+ circles in a plane. Steiner's early research included work on the so-called Apollonius
+
+ problem: to find a circle tangent to three given coplanar circles. Steiner described
+
+ his findings as independent, and his choice of research subject drew the attention of
+
+ Joseph-Diez Gergonne, the editor of the French journal Annales des mathimatiques
+
+ pures et appliquees. Gergonne had framed his own solutions to the Apollonius prob
+ lem as evidence of the elegance and simplicity of analytic geometry (Gergonne 1810,
+
+ 1814, 1817a). While Gergonne (1817d) formally agreed that the choice of problem
+ should determine the choice of method in geometry, this convention did not seem to
+
+ apply to the Apollonius problem, which continued to be solved through numerous
+ methodological approaches (Poncelet 1821; Durrande 1820). Steiner's text on cir
+
+ cles was quickly followed by a translation and reinterpretation by Gergonne (Steiner
+ 1826a; Steiner and Gergonne 1827). After surveying the reviews and recommenda
+
+ tions that followed Steiner's first publications, we consider how Plücker introduced
+
+ his own research on circles, including proofs of both Gergonne and Poncelet's original
+
+ solutions to the Apollonius problem. Steiner and Plücker situated their publications
+
+ with attention to contemporary interests, which led to reviews and repurposing of their
+
+ publications. These texts contain early manifestations of the form and techniques that
+
+ would characterize both geometers' publications through the 1830s. Steiner developed
+
+ a new, comprehensive vocabulary to describe constructive relationships between cir
+
+ cles, lines, and points that utilized simple algebraic calculations. Addressing the same
+
+ problem, Plücker limited his calculations through carefully choosing coordinate axes
+ to re-derive already known results. With reference to Poncelet's recent publication,
+
+ Plücker adopted the newly defined ideal chords, which had not yet previously been
+
+ written in coordinate equations.
+
+ "ß Springer
+
+This content downloaded from 203.78.15.150 on Sun, 17 May 2020 09:58:23 UTC
+All use subject to https://about.jstor.org/terms
+
+ Synthetic and analytic geometries in the publications..
+
+ 417
+
+ The prevalence of "modern" objects and techniques will become even more apparent
+
+ in Sect. 2 and the proofs by Steiner and Plücker of a theorem on conic sections first
+
+ published by the French geometer Gabriel Lame in 1817. Using Lame's original proof
+
+ as a point of reference, we will see how Steiner and Plücker recast the theorem's form
+ and context (Steiner 1828b; Plücker 1828b). For Steiner, Lame's theorem illustrated
+
+ his ability to extend results from a circle to a general conic section via perspective,
+
+ projection, and reciprocity. For Plücker, Lame's theorem served as an application of
+
+ his general theory of intersections between curves of any order. Both articles appeared
+
+ in the Annales de mathematiques pures et appliquees and were critically appraised
+
+ in the Bulletin des sciences mathematiques, astronomiques, physiques et chimiques.
+
+ Later, the results would be incorporated in the longer manuscripts of Plücker (1828a,
+
+ 1831) and Steiner (1832). The conservatism of this geometric framework, and in
+
+ particular the recycling of well-known theorems and problems, invited comparisons.
+
+ While developing original techniques, their work retained enough features of older
+
+ publications to remain familiar to readers of the Annales as subsequent citations show.
+
+ Their reception included debates linked to several oppositions: that of pure or synthetic
+
+ and analytic, but also German and French geometers or ancient and modern geometries.
+
+ This paper will complement other reappraisals of individual contributions of Steiner
+
+ and Plücker. Plücker's innovative modern geometry received new appreciation in the
+
+ mid-twentieth century, when Carl Boyer featured Plücker as the protagonist of the
+
+ "Golden Age of Analytic Geometry" and focused specifically on Plücker's simpli
+ fication of coordinate equations in geometry (Boyer 1956). Further, Jeremy Gray
+
+ has underscored Plücker's substantial contributions to the theory of duality, where
+
+ "Plücker's contribution has been rather marginalised" (Gray 2010, vi). In Philippe
+ Nabonnand's history of points and lines at infinity, Nabonnand examined Steiner's
+
+ specific contributions in the development of geometry from Poncelet to von Staudt.
+
+ For Steiner, "the central object of geometry is no longer the figure but becomes the
+
+ notion of fundamental forms" (Nabonnand 2011a, 167).4 This then points to a new
+
+ concept of pure geometry that we will investigate with respect to Steiner's early pub
+
+ lications. Yet as much as Steiner can be interpreted as breaking away from Euclidean
+
+ geometry, his work remained committed to constructions and questions from ancient
+
+ Greek geometry. With attention to this, Viktor Blasjö has attempted to rescue Steiner's
+
+ Systematische Entwicklung from "a lasting and undeserved depreciation" by interpret
+
+ ing it as "a monumental unification of classical geometry" (Blasjö 2009, 21). From
+
+ a more literary perspective, Anne Boy£ has integrated Steiner within the Romantic
+
+ movement of his time, drawing particularly on his Socratic style of pedagogy (Boye
+
+ 1999). In another vein, Wolfgang Eccarius has provided a direct comparison between
+
+ the social situations of Plücker and Steiner in the late 1820s and early 1830s (Ecca
+
+ rius 1980). Drawing on previously unpublished letters from August Leopold Crelle,
+
+ the editor of the Journal für die reine und angewandte Mathematik who also lobbied
+
+ for salaried positions for several of his contributors, Eccarius proposed that the per
+
+ ceived methodological divide was greatly motivated by these economic concerns. This
+
+ assessment coincides with speculations from the 1840s of personal animosity between
+
+ 4 "[...] l'objet central de la göomitrie n'est plus la figure mais devient la notion de formes fundamentales."
+
+ Springer
+
+This content downloaded from 203.78.15.150 on Sun, 17 May 2020 09:58:23 UTC
+All use subject to https://about.jstor.org/terms
+
+ 418
+
+ J. Lorenat
+
+ Steiner and Plücker resulting in Steiner's distaste for analysis, rather than the other
+
+ way around (Aronhold 1902, 64).
+
+ When Plücker and Steiner are directly compared, the nuances and overarching
+ forms of their distinctive methods come to the fore. In fact, this evidence will show
+
+ that the two geometers were very similar with respect to their approach to constructing
+
+ figures, calculating with symbols, and representing geometric magnitudes. Moreover,
+
+ both geometers claimed the same virtues of simplicity, elegance, and visualizability.
+
+ Nevertheless, this was not a period of stagnant conformity. Rather the malleability of
+
+ the terms analytic and synthetic allowed them to be shaped by their users, who could
+
+ profess adherence to a tradition without confining their expression. Underlying the
+
+ repetitive display of similar problems and theorems, Plücker and Steiner redefined
+
+ analytic and synthetic methods and explored diverse paths toward greater generality
+
+ and novelty.
+
+ 2 Tangent circles in the plane (1826-1827)
+
+ Perhaps most emblematic of the repetition exhibited within early nineteenth-century
+
+ geometry publications is the deceptively simple problem of finding a circle tangent to
+
+ three given coplanar circles, known as the Apollonius problem.
+
+ 2.1 Gergonne's solution to the Apollonius problem
+
+ Prior to 1826, Gergonne had published three separate articles on the Apollonius prob
+
+ lem, with essentially the same solution but different degrees of explanation (Gergonne
+ 1810, 1814, 1817a). His most extended version appeared in the Annales in 1817.
+
+ Gergonne introduced his repetition by explaining he had received complaints about
+
+ lacking a complete justification in his earlier version.
+
+ I wrote for consummate scholars, and if I thought it right to be brief it appears that
+
+ I made it a bit too much; several geometers, who knew of my memoir, reproached
+
+ me without doubt because the thread which had guided me was not very apparent
+
+ and that my calculations seemed rather to legitimize a construction found by
+
+ happy accident, than to lead to discovering this construction. It appeared even
+
+ that, due to my excessive brevity, many geometers had not been able to follow
+
+ my methods and capture their spirit; because they return again to these two
+
+ problems, about which I believed that nothing was left to say. (Gergonne 1817a,
+ 289-290)5
+
+ 5 "J'ecrivais pour des savans consommes, et je crus devoir etre court; il parait que je le fus un peu trop;
+
+ plusieurs giomfctres, qui eurent connaissance de mon mimoire, me firent le reproche, fondi sans doute,
+ que le fil qui m'avait guide n'y itait pas assez apparent, et que mes calculs semblaient plutot propres ä
+
+ legitimer une construction trouvee par un heureux hasard, qu'ä faire dicouvrir cette construction. II parait
+
+ me me que, par suite de mon excessif laconisme, beaucoup de giomötres n'ont pu suivre mes methodes et
+
+ en saisir l'esprit; car on est revenu encore posterieurement sur ces deux problömes, sur lesquels pourtant
+
+ j'avais cru ne plus rien laisser ä dire."
+
+ <£) Springer
+
+This content downloaded from 203.78.15.150 on Sun, 17 May 2020 09:58:23 UTC
+All use subject to https://about.jstor.org/terms
+
+ The equation of the unknown circle and the line could be combined to solve for
+
+ one of the tangent points at (x, y). Rather than solving this equation (which Ger
+
+ gonne admitted would be complicated by radicals), he worked backward following
+
+ the steps of reduction outlined above, showing that analytically simpler lines and points
+
+ could instead be constructed and still lead to a uniquely determined point. Gergonne
+
+ reminded the reader that there would be eight possible tangent circles satisfying the
+
+ problem's conditions. These cases depended on whether the desired circle enveloped
+
+ or was exterior to each of the three given circles. With respect to the analytic proof,
+
+ the type of tangency corresponded to the positive or negative sign of the value of the
+ radii.
+
+ Synthetic and analytic geometries in the publications..
+
+ 419
+
+ Against these reproaches of merely having "legitimized a graphic construction, dis
+
+ covered in advance," Gergonne would show that an analytic treatment led "naturally"
+
+ and "absolutely inevitably" to his conclusions. The solution was "elegant," "simple,"
+
+ and "direct"-not "fashioned after the fact." Finally, the exposition would be entirely
+ elementary, even though involving coordinate representation.
+
+ Gergonne began by laying out his strategy in detail. He would successively reduce
+
+ the problem to determining simpler and simpler geometric objects. The desired circle
+
+ could be determined by its three tangent points. Finding three tangent points reduced
+
+ to finding a single tangent point. Finding that point reduced to finding a second line
+
+ containing that tangent point. Finding that second line reduced to finding any two
+
+ points on that line, and so on.
+
+ Gergonne then chose a set of coordinate axes with the origin at the center of one of
+
+ the given circles c" (with radius r") and axes through the centers of the remaining two
+ circles c (centered at (a, b) with radius r) and c' (centered at (a', b') with radius r').
+
+ If the unknown circle C was tangent to the circle c" at the point (jc , y), then, from the
+
+ equation of a circle, x2 + y2 = r"2. Similarly, the centers of each of the given circles
+
+ could be expressed with respect to their distance from the center of the unknown circle
+
+ and their distance from the origin.
+
+ From the equations of the given circles, Gergonne calculated an expression of a
+
+ line containing the tangent point: ·
+
+ This analytic proof concluded with a planar construction. In this construction, Ger
+
+ gonne differentiated two kinds of tangent lines shared by a pair of circles. The two
+
+ interior tangents intersected between the two given circles, while the two exterior
+
+ tangents intersected on one side of both given circles.
+
+ Given three coplanar circles c, c', c", begin by drawing the common exterior tan
+
+ gents to the three circles considered pairwise and the chords of contact defined by the
+
+ tangent points for each circle. The two chords of contact of circle c will meet at a point
+
+ M, and their parallel chords on c' and c" will meet at N. Similarly, the two chords
+
+ of contact on c' will meet at W with their parallel chords meeting at N', and the two
+
+ chords of c" meeting at M" with parallels at N" (Fig. 1).
+
+ One could then draw lines MN, M'N', M"N". Line ΜΝ would meet circle c at
+
+ two points, which Gergonne called t and Θ. Similarly, M'N' would meet c' at t' and
+
+ Θ', M"N" will meet c" at t", Θ". Finally the two circles respectively drawn through
+ t, t', t" and θ, θ', Θ" would be the circles sought (Fig. 2).
+
+ <£) Springer
+
+This content downloaded from 203.78.15.150 on Sun, 17 May 2020 09:58:23 UTC
+All use subject to https://about.jstor.org/terms
+
+ 420
+
+ J. Lorenat
+
+ Fig. 1 Construction of tangent
+ Fig. 1 Construction of tangent
+ lines and chords of contact from
+ lines and chords of contact from
+
+ Gergonne's description
+ Gergonne's description
+ (Gergonne 1817a)
+ (Gergonne 1817a)
+
+ Fig. 2 Construction of
+ Fig. 2 Construction of
+ intersection points and tangent
+ intersection points and tangent
+ circles
+ circles
+
+ The remaining six tangent circles could be found by substituting combinations
+ of exterior and interior tangents. Gergonne described his solution as the simplest
+ yet, presenting "an entirely new face" for the application of analytic geometry in
+ solving planar problems. Further, the construction could be applied "exactly in the
+ same manner" to the case where the circles lay on the surface of a sphere.
+
+ Gergonne's claims for the merits of his solution stood up to those of many histor
+
+ ically esteemed mathematicians, including Viete, Newton, Euler, and Carnot (Carnot
+
+ 1803, 391). Through the nineteenth century, the Apollonius problem served as a fre
+
+ quent trope for geometers exhibiting their abilities and methods in geometry. By 1906
+ Max Simon cited around 100 different solutions that had been published in the past
+ century (Simon 1906).
+
+ 2.2 Poncelet and the Apollonius problem
+
+ Poncelet's first solution from 1811 further attests to the problem's ubiquity. Jean
+ Nicholas-Pierre Hachette included a statement of the problem in the Correspondance
+
+ Spring er
+
+This content downloaded from 203.78.15.150 on Sun, 17 May 2020 09:58:23 UTC
+All use subject to https://about.jstor.org/terms
+
+ Synthetic and analytic geometries in the publications...
+
+ 421
+
+ sur I'Ecole Polytechnique the previous year as the sixth of eight problems on circles
+ and spheres for students to solve. Hachette provided a solution to the problem by
+
+ considering the given circles as great circles of three spheres and posing the three
+
+ dimensional question of finding the sphere tangent to three given spheres whose center
+
+ is coplanar with the three given centers. He also cited analytic solutions from Newton in
+
+ the Arithmdtique Universelle and from Euler and Fuss in the Memoires de l'Academie
+
+ de Petersbourg.
+
+ to the plane.
+
+ Poncelet's solution marked his first publication in geometry (Poncelet 1811). He
+
+ relied upon results proved in the Hachette article, but his constructions were limited
+
+ By contrast, Poncelet 1821 article promoted an application of his new principle
+
+ of continuity.6 The year before, Poncelet had submitted a memoir on the projective
+
+ properties of conic sections to the Academie Royale des Sciences. This memoir had
+
+ been reviewed by Francis Arago, Sim6on-Denis Poisson, and Augustin Louis Cauchy,
+
+ the last of whom wrote up a report subsequently published in Gergonne's Annales.
+
+ While criticizing some of Poncelet's methods, Cauchy complimented Poncelet's "very
+
+ elegant" solution of the problem to draw a circle tangent to three others (Poncelet and
+
+ Augustin 1820, 82). Intrigued, Gergonne requested Poncelet's construction, which
+ was subsequently published.
+
+ The constructions presented could be understood independently, but their proofs
+
+ rested upon propositions and principles only fully explained in Poncelet's extensive
+
+ monograph, Traiti des proprietes projectives, which would appear the following year
+
+ (Poncelet 1822). However, Poncelet used the problem to show off possible applications
+
+ of his new geometric techniques such as ideal chords, an extension of the ordinary
+
+ chords of conic sections to include both real and imaginary points of intersection.
+
+ Steiner and Plücker would adapt these objects to their own researches in the following
+
+ decade. In particular, Poncelet argued that two concentric circles would share a com
+
+ mon ideal chord at infinity, their points of intersection being imaginary. This concept
+ enabled Poncelet to consider simultaneously the cases of concentric circles and those
+
+ having parallel shared tangent lines.
+
+ Poncelet advertised his solutions as advantageous because constructible with only
+
+ a simple ruler. Poncelet further showed how to reach a "very elegant solution" with
+
+ the same basis as that of Gergonne's from 1814. Poncelet assessed Gergonne's pre
+ sentation favorably,
+
+ [...] the purely algebraic path that this geometer has followed is entirely new, and
+
+ appears susceptible to apply to a great number of questions reported difficult in
+
+ the current state of Analysis. (Poncelet 1822,138)7
+
+ Poncelet's positive comments suggest that for him, providing another proof for Ger
+
+ gonne's solution was not intended as a critique of the original analytic approach.
+
+ 6 For detailed analyses of Poncelet's controversial principle of continuity, see Nabonnand (2011b),
+ Friedelmeyer (2011), Gray (2005).
+
+ 7 "[...] la marche purement algibrique qu'a suivie ce giomfctre est entiörement neuve, et parait susceptible
+
+ de s'appliquer ä un grand nombre de questions riput6es difficiles dans l'6tat actuel de 1'Analyse."
+
+ Springer
+
+This content downloaded from 203.78.15.150 on Sun, 17 May 2020 09:58:23 UTC
+All use subject to https://about.jstor.org/terms
+
+ 422
+
+ J. Lorenat
+
+ The Apollonius problem invited multiple solutions, and the elegance of one did not
+ preclude the advantageous qualities of another.
+
+ 2.3 Steiner's tangent circles
+
+ Among Steiner's six articles that appeared in the 1826 inaugural volume of Crelle's
+ Journal, his paper "Einige geometrische Betrachtungen" (Steiner 1826a) and its
+
+ sequel, "Fortsetzung der geometrische Betrachtungen" (Steiner 1826c), generated
+
+ attention within the French mathematical community. This was due not so much to
+
+ Steiner's results, as to his development of geometric concepts that seemed valuable in
+
+ further research and pedagogy.
+
+ Steiner explained that his research on tangent circles over the past three years had
+
+ been motivated by three sets of problems: finding a circle tangent to three given planar
+
+ circles (the Apollonius problem), the problem of inscribing three tangent circles to a
+
+ triangle (the Malfatti problem), and the fifteenth theorem of the fourth book of Pap
+
+ pus's Collectiones Mathematicae (determining proportions between tangent circles
+
+ inscribed in a semi-circle). Although acknowledging that each of these problems pos
+
+ sessed well-documented recent solutions, Steiner avowed that his work was entirely
+
+ independent, relying only upon theory developed by Viete and Pappus. Steiner claimed
+
+ that he had but recently become aware of contemporary French publications in geome
+
+ try, in particular Poncelet's Traite, where many of his own results had already appeared.
+
+ However, Steiner also promised new findings that would further demonstrate the inde
+
+ pendence of his research. Specifically, his work contained new generalizations to a
+
+ greater number of given circles, to circles intersecting at given angles rather than in tan
+
+ gent points, and to analogous results for second-degree curves and three-dimensional
+ surfaces.
+
+ Though Steiner claimed that his theorems could be applied to many more problems
+
+ concerning coplanar circles, the details of his solution to the Apollonius problem
+
+ would appear only posthumously almost 100 years later in Steiner's anticipated book
+
+ on circles, spheres, and spherical circles that he had promised as forthcoming in
+ 1826.8
+
+ Instead Steiner devoted most of the text toward organizing definitions in four parts,
+
+ each devoted to a particular geometric relationship, and a total of nineteen numbered
+
+ sections, each beginning with a particular configuration of objects and leading to a
+
+ property or theorem to be referenced by citation to that section, for example "nach
+
+ (1.):" As Gergonne would observe, Steiner's exposition often delved into the very
+
+ elementary. In this feature, the entire text served to reinforce Steiner's introductory
+
+ remarks about the independence of his findings. Until Steiner arrived at the final part,
+
+ 8 This book was published in 1931 as Allgemeine Theorie über das Berühren und Schneiden der Kreise
+ und der Kugeln worunter eine grosse Anzahl neuer Untersuchungen und Sätze vorkommen in einem system
+
+ atischen Entwicklungsgange dargestellt, edited by Rudolf Fueter and Ferdinand Gonseth (Steiner 1931).
+
+ As the editors explained in their introduction, during the late nineteenth century, the mathematician Fritz
+
+ Bützberger had found the unpublished manuscript dating between 1823 and 1826 in a box at the Library of
+
+ the Naturalist Society of Bern. The manuscript was then rediscovered by the editors, Fueter and Gonseth,
+
+ among Biitzberger's papers.
+
+ ö Springer
+
+This content downloaded from 203.78.15.150 on Sun, 17 May 2020 09:58:23 UTC
+All use subject to https://about.jstor.org/terms
+
+ Synthetic and analytic geometries in the publications.
+
+ 423
+
+ in which he posed and solved a series of problems, very few results were assumed
+ as known and there was only one external citation. Steiner began from the Euclidean
+ result (Euclid 111.37) that the area of the square on a tangent segment is equal to
+ the rectangle determined by the intersected secant and its external segment drawn
+ from a point to a coplanar circle. He then examined proportions to determine fixed
+ relationships between constructed points, lines, and circles, which he described in
+ his unique vocabulary. While many of his terms had already been developed under
+ different names in France, Steiner introduced a few new concepts, including the idea of
+
+ a "circle of common power" that was specifically admired by later reviewers. Despite
+ its absence in the article, the Apollonius problem served as an invisible motivating
+
+ force for the definitions and results throughout the body of the text. This would become
+
+ visible in Gergonne's later translation.
+
+ The text developed as an exploration of the relationships between coplanar geo
+ metrical objects, from two points to a point and a circle, to two circles, to three circles,
+ to more complex planar relationships (Fig. 3). Steiner modeled his presentation as a
+ discovery beginning from the ground up and resulting in conclusions that were sur
+ prising even when they were already known. Figures served as clarification and were
+
+ never invoked as a tool of proof. Steiner presented his research without a clear map of
+
+ his intended progression, and a brief summary here will motivate our understanding
+ of his development. While Steiner never reached the Apollonius problem, we will see
+ how his new definitions progressed toward finding tangent circles.
+
+ The first part concerned defining the power relationship between coplanar circles
+ and contained five sections each examining a different set of geometric objects: on
+
+ equations relating to perpendicular lines (1), on the power of a point with respect to a
+
+ Fig. 3 Steiner's Figures (Steiner 1826a)
+
+ •Ö Springer
+
+This content downloaded from 203.78.15.150 on Sun, 17 May 2020 09:58:23 UTC
+All use subject to https://about.jstor.org/terms
+
+ 424
+
+ J. Lorenat
+
+ circle (2), on the line of equal powers between two circles (3), on the point of equal
+
+ powers between three circles (4), and on power relationships between multiple and
+
+ orthogonal circles (5). The concept of the power of coplanar circles and points derived
+
+ from a well-known Euclidean relationship: when two chords of a circle intersect, then
+
+ the rectangles formed by their respective segments are equal (Proposition 111.35) and
+
+ when a tangent and a secant line are drawn from a point to a circle, then the square on
+
+ the tangent is equal to the rectangle formed by the intersected segments of the secant
+
+ (Proposition 111.36). Steiner denoted this product as the power of a point with respect
+
+ to a circle, which could be found regardless of a coplanar points position. Extending
+
+ this definition, he determined that the line containing all points of equal power to
+
+ two given coplanar circles would be perpendicular to the line containing their centers.
+
+ For three given coplanar circles, the lines of equal power considered pairwise all
+
+ three intersected in a single point, the point of equal powers. Steiner further explored,
+
+ without explicit definition or citation, the relationship of poles and polars with respect
+
+ to a given circle and line or point. In particular, Steiner described how one could
+
+ determine two points with respect to the line of equal powers and two given circles by
+
+ choosing any point on the line of equal powers, drawing the four tangent lines to the
+
+ given circles, and passing two line through each of the respective circles' two points of
+
+ tangency. These newly constructed lines intersected the line containing the two given
+
+ circles' centers in two fixed points (the poles of the line of equal power with respect
+
+ to the respective given circles) regardless of which point on the line of equal powers
+
+ was chosen. We will see that Gergonne used this construction in his exposition on the
+
+ Apollonius problem.
+
+ In his second part, containing sections 6-8, Steiner continued his examination of
+
+ circles, now with respect to similitude points and similitude lines. Any two coplanar
+
+ circles shared two similitude points, determined by a fixed ratio between the circles'
+
+ centers, which Steiner distinguished as inner and outer. In the simplest case of two
+
+ coplanar exterior circles, the similitude points were the points of intersection of the
+
+ common tangent lines to two circles. Steiner progressed from examining the similitude
+
+ ratio between three coplanar points (6), to defining the similitude points and lines
+ between two circles (7), and then the similitude lines between three circles (8). Three
+
+ given circles shared six similitude lines, three outer and three inner, each containing two
+
+ similitude points. Thus in the first half of his paper, Steiner described two independent
+
+ relationships among three coplanar circles.
+
+ Steiner combined the concepts of equal power and similitude to define the common
+
+ power of coplanar circles in the third part of his paper. He began by examining the
+
+ relationship between lines of equal power and similitude points (9), which he applied
+
+ to define the concept of common power between two circles (10), power circles (11),
+
+ and the power position of a point or circle with respect to a similitude point (12). Later,
+
+ reviews would credit Steiner with introducing power circles, which he defined as circles
+
+ centered at similitude points with radii determined by the power relationship between
+
+ two given circles. Finally, Steiner applied these definitions to a series of theorems
+
+ concerning tangency and power circles (13). The fourth part of his paper concerned
+
+ solutions and generalizations of the Malfatti problem. Steiner continued publishing
+
+ his results on circles in a slightly later paper (Steiner 1826c), in which he explicitly
+
+ Ö Springer
+
+This content downloaded from 203.78.15.150 on Sun, 17 May 2020 09:58:23 UTC
+All use subject to https://about.jstor.org/terms
+
+ Synthetic and analytic geometries in the publications..
+
+ 425
+
+ addressed Pappus' Theorem, and developed numerous results pertaining to tangent
+
+ circles, but did not include any further reference to the Apollonius problem.
+
+ Gergonne's long-term interest in the Apollonius problem, illustrated by his own
+
+ publications and interest in publishing Poncelet's solutions, may explain why Steiner's
+
+ article was quickly translated and appeared in the Annales under the title "Geometrie
+
+ Pure. Theorie generale des contacts et des intersections des cercles" in 1827 (Steiner
+
+ and Gergonne 1827). Gergonne prefaced his exposition of the "Theorie generale des
+
+ contacts et des intersections des cercles" by explaining what he perceived as the advan
+
+ tages and flaws of Steiner's approach. Steiner had presented the elementary theories of
+
+ "similitude centers, axes and planes, radical axes, planes and centers, and finally poles,
+
+ polars, polar planes and conjugate polars" in order to solve "difficult" and "general"
+
+ problems with "very elegant" solutions. Among Steiner's contributions, Gergonne
+
+ suggested that school teachers would find "abundant resources" for "profitable" stu
+
+ dent exercises. Moreover, Gergonne's version of Steiner's "doctrine" promised to be
+
+ even better than the original German text.
+
+ We thus suppose it will be a very useful thing for the progress of pure geometry,
+
+ and consequently very agreeable to our readers, to offer here, in a concise frame
+
+ work, the principal points of M. Steiner's doctrine; however, without slavishly
+
+ following him and permitting ourselves to deviate a bit from his path, whenever
+
+ we think that it may result in some advantage with respect to clarity or brevity.
+
+ We will present, in a word, these theories as we think they could and should
+
+ be in elementary treatments, remembering, however, that we do not write for
+
+ beginners; that is to say, in withholding, in order to abbreviate, developments
+
+ which are easy for any intelligent reader to supply. (Steiner and Gergonne 1827,
+ 287)9
+
+ Here was Steiner clarified, abbreviated, and overall adapted to a mathematically literate
+ French audience.
+
+ Gergonne's choice of content appears in large part motivated toward reproving his
+
+ construction for the Apollonius problem, now by purely geometric methods. As we
+
+ saw above, Gergonne's original solution had been framed as evidence in favor of ana
+
+ lytic geometry. The same construction, except for a change in the names of points,
+
+ remained as simple and elegant in a purely geometric setting, thus in some ways under
+
+ mining Gergonne's initial intent. Gergonne unabashedly explained his divergence from
+
+ Steiner's text as an opportunity to showcase his preferred solution.
+
+ All self love on the author's part aside, this construction, that we gave for the
+
+ first time more than a dozen years ago (Memoires de Turin in 1814), appears to
+
+ 9 "Nous pensons done faire une chose tres-utile pour le progrfes de la g6om6trie pure, et consiquemment
+
+ tres-agriable ä nos lecteurs, en offrant ici, dans un cadre resserre, les principaux points de la doctrine de
+
+ Μ. Steiner; mais sans toutefois le suivre servilement, et en nous permettant de nous ecarter un peu de sa
+
+ marche, toutes les fois que nous penserons qu'il en peut rösulter quelque avantage, sous le rapport de la
+
+ clarti ou de la bri£vete, nous exposerons, en un mot, ces thiories comme nous pensons qu'elles pounaient
+
+ et devraient I'etre dans les traitis eldmentaires, en nous rappelant toutefois que nous n'6crivons pas pour
+ des commengans; c'est-ä-dire, en negligeant, pour abriger, des developpemens faciles ä suppleer pour tout
+ lecteur intelligent."
+
+ Φ Springer
+
+This content downloaded from 203.78.15.150 on Sun, 17 May 2020 09:58:23 UTC
+All use subject to https://about.jstor.org/terms
+
+ 426
+
+ J. Lorenat
+
+ us preferable to all those that have been given of the same problem before or
+ afterward, (ibid, 310)10
+
+ Gergonne proved his solution using radical centers and axes (Steiner's points and
+
+ lines of equal powers), similitude points and lines, and poles and polars (which Steiner
+
+ had constructed and described, but left unnamed). Take the first and simplest case, to
+
+ construct a fourth circle tangent to three given circles in the same manner (either
+
+ all exterior or all interior points of tangency). If one drew lines through the radical
+
+ center of the three given circles to the poles of their exterior similitude axis, then
+
+ the intersections of these lines would determine the tangency points with the desired
+
+ fourth circle. An analogous proof followed for the case where the circles were tangent
+ in different manners.
+
+ Gergonne further connected Steiner's work in the final section, when he returned
+
+ to three given coplanar circles, essentially the hypothesis of the Apollonius problem.
+
+ Using Steiner's concept of common power, Gergonne derived a theorem, which he
+
+ attributed to the engineer and teacher Louis Gaultier de Tours: the centers of the eight
+
+ circles tangent to three given circles will be distributed pairwise on the perpendicular
+ lines drawn from their four similitude axes to the radical center of the three circles.
+
+ Gergonne thus brought Steiner's research another step toward solving the Apollonius
+
+ problem, but without elucidating the details of a full proof here.
+
+ Gergonne's presentation of Steiner's article brought the idiosyncratic German arti
+
+ cle up to date with contemporary French mathematics. To begin with, the article was
+
+ now in a language readable by French audiences, or at least those who read the Annates.
+
+ Further, Gergonne had added several citations and modified Steiner's vocabulary to
+
+ reflect current French usage. Most notably, rather than Steiner's points and lines of
+
+ equal powers, Gergonne used the term radical centers and axes, also from the work of
+ Gaultier. While much was added, not all of Steiner's original content survived transla
+
+ tion. Most notably, Steiner's nineteen figures were not repeated, and with the change
+
+ of notation his figures as published in Crelle's Journal would not have been very use
+
+ ful to a reader without knowledge of German. Further, the French article assumed a
+
+ stronger knowledge base and skipped over Steiner's foundational exposition. Rather
+
+ than progress from points to circles, Gergonne developed his research in terms of
+
+ circles and polygons. Further, he employed the concept of a circle of variable size and
+
+ position to extend his results to further cases. By orienting Steiner's content toward
+
+ the Apollonius problem, Gergonne obscured its initial appearance as a set of tools
+
+ applicable to a variety of problems. Significantly, while Steiner had emphasized that
+
+ the same properties determined for a circle would likewise hold for any planar conic
+
+ section, Gergonne only mentioned this generalization in the introduction and hinted
+ at it in the conclusion.
+
+ Gergonne's conclusion, designated as a post-script, commented upon another article
+
+ of Steiner (1826b) in which he had pointed out several exceptions to a theorem due to
+
+ Monge. Gergonne defended Monge and dismissed the exceptions as too particular to
+
+ 10 "Tout amour propre d'auteur ä part, cette construction, que nous avons dornte pour la premiöre fois il
+
+ y a plus de douze ans (Memoires de Turin pour 1814), nous parait de beaucoup pr6fi£rable ä toutes celles
+
+ qu'anterieurement et postirieurement on a donn6es du me me probleme."
+
+ Springer
+
+This content downloaded from 203.78.15.150 on Sun, 17 May 2020 09:58:23 UTC
+All use subject to https://about.jstor.org/terms
+
+ Synthetic and analytic geometries in the publications...
+
+ 427
+
+ affect the theorem in its entirety. He further remarked that Steiner had perhaps failed
+ to recognize the crucial role of generalization in his own constructions. In the work
+
+ of Steiner, there was no stated mechanism for extending the result from a sphere to
+
+ a plane or from a circle to a general conic section. The process was simply assumed
+
+ as possible. Gergonne continued by comparing ancient and modern geometry, to the
+ advantages of the latter.
+
+ [...] but is it not precisely in this broader way of envisaging geometric magnitudes
+
+ that the moderns are in part owed their superiority in pure geometry? Superiority
+
+ that the same geometers could also contest; but is no less a patent fact for those
+
+ who will not deny the obvious.11
+
+ Gergonne took full advantage of the dynamic capabilities of these modern concepts.
+
+ Thus, Steiner's article, as interpreted by Gergonne, functioned as evidence in favor of
+
+ the superiority of modern pure geometry, just as Gergonne's earlier Apollonian proofs
+
+ had served him to represent the superiority of analytic geometry.
+
+ 2.4 Steiner's initial reception
+
+ Soon after Gergonne's interpretation of Steiner's paper appeared it was anonymously
+
+ reviewed and summarized in the Bulletin de Ferussac. In describing Steiner's expo
+
+ sition, his use of new vocabulary was emphasized as a fruitful innovation in problem
+ solving.
+
+ Steiner's means of solution rest uniquely on the known theory of similitude axes
+
+ and centers, of that of radical axes and centers, of that of poles and polars, and
+
+ finally of that which the author calls circles of common power of two given
+ circles, which shows all the fruitfulness and all the importance of these various
+
+ theories and justifies the particular attention that several French geometers have
+
+ given them already for several years. (Anonymous 1827b, 277)12
+
+ The Bulletin further pointed out how Gergonne had modified Steiner's work to include
+
+ his own solution of the Apollonius problem, which Gergonne "continues to believe
+
+ very preferable to all those which have been given before and after of the same prob
+
+ lem."13 The review continued by explaining Steiner's circle of common power, an
+ original concept that provided "an idea of the proceedings of M. Steiner." More so
+
+ than in the text of Gergonne, a background knowledge in geometric constructions
+
+ 11 "[...] mais n'est-ce pas pricisiment ä cette manure plus large d'envisager l'itendue giomitrique que les
+
+ modernes sont en partie redevables de leur sup6riorit6 dans la g6om6trie pure? Sup6riorit6 que les memes
+
+ ggomfctres pourront bien aussi leur contester; mais qui n'en demeurera pas moins un fait patent pour qui ne
+ voudra pas se refuser ä Γ Evidence."
+
+ 12 "Les moyens de solution de Μ. Steiner se tirent uniquement de la thgorie connue des centres et axes de
+
+ similitude, de celle des axes et centres radicaux, de celle des poles et polaires, et enfin de celle de ce que
+ l'auteur appelle cercles de commune puissance de deux cercles donn6s, ce qui montre toute la Kconditi
+
+ et toute rimportance de ces diverses theories, et justifle l'attention parti culiüre qui leur a έίέ donnöe par
+ plusieurs g£om£tres fran9ais depuis d6jä plusieurs anndes."
+
+ 13 "[...] persiste ä croire bien prifirable ä toutes celles qui ont έίέ donnies antirieurement et postirieurement
+ du meme probteme."
+
+ Springer
+
+This content downloaded from 203.78.15.150 on Sun, 17 May 2020 09:58:23 UTC
+All use subject to https://about.jstor.org/terms
+
+ 428
+
+ J. Lorenat
+
+ (such as similitude points, ratio relations, and tangent circles) would be required to
+ follow the review. No intermediate constructions were presented and no figures were
+
+ employed.
+
+ The reviewer concluded by considering some philosophical issues concerning the
+
+ relationship between analysis and geometry. In particular, he noted the simplification
+
+ of both methods effected by the development of new concepts.
+
+ Analysts, perceiving that certain quite complicated functions are reproduced fre
+
+ quently in their calculations, have called them exponentials, logarithms, sines,
+
+ tangents, factorial derivatives, etc.; they have created abbreviated signs to des
+
+ ignate them, and their formulas have acquired greater clarity and conciseness.
+
+ And thus for certain points, certain lines and certain circles whose consideration
+
+ is frequently represented in geometric speculations, it is natural to do the same
+
+ with respect to them, and to call them, following their properties, similitude
+
+ centers, radical centers, polars, similitude axes, radical axes, circles of common
+
+ power, etc. This attention must inevitably introduce analogous simplifications in
+ the statement of theorems and in the solution of problems which belong to the
+
+ science of magnitude, (ibid, 279)14
+
+ Such a comment appeared to reinforce the importance given to Steiner's development
+
+ of new vocabulary, such as circles of common power. Although the review had begun
+
+ by praising Steiner's problem solving, the emphasis ultimately returned to his new
+
+ tools and their potential for future use. In this respect, the review presented a much
+
+ more accurate summary of Steiner's original mode of presentation than had Gergonne's
+ "translation."
+
+ At this time, Steiner was working as a private teacher in Berlin and solicited his
+
+ well-placed acquaintances, Karl Friedrich von Klöden, an educator and the direc
+ tor of the Berlin Gewerbeschule where Steiner then worked, and the mathematician
+
+ and astronomer Friedrich Wilhelm Bessel to write in support of his (ultimately
+
+ unsuccessful) application for funds from the ministry.15 Here Steiner emphasized
+ his methodological choices and declared his dedication to "geometric synthesis"
+
+ [geometrischen Synthesis] or the "synthetic method" [synthetische Methode]. But
+ while labeled as synthetic, Steiner's contemporaries recognized his method as per
+
+ sonal and unique. Klöden began his review by pointing out the novelty as a positive
+ attribute.
+
+ 14 "Les analystes s'ilant aper?u que certaines fonctions assez compliqu&s se reproduisaient frequemraent
+ dans leurs calculs, les ont appel6es exponentiels, logarithmes, sinus, tangentes, d6riv6es factorielles, etc.;
+
+ ils ont αέέ des signes abreviatifs pour les disigner, et leurs formules en ont acquis beaucoup de clarti et de
+
+ concision. Puis done qu'il est certains points, certaines droites et certains cercles dont la considiration se
+
+ represente friquemment dans les speculations de g6om6trie, il est naturel d'en user de me me ä leur 6gard,
+ et de les appeler, suivant leurs propriit£s, centres de similitude, centres radicaux, polaires, axes de simili
+ tude, axes radicaux, cercles de commune puissance, etc. Cette attention doit introduire in£vitablement des
+
+ simplifications analogues dans l'inonci des thiorfemes et dans la solution des problfemes qui appartiennent
+ ä la science de l'itendue."
+
+ 15 Their letters along with Steiner's applications and the ministry's response were published in Julius
+
+ Lange's 1899 biography (Lange 1899, 18—26).
+
+ <£) Springer
+
+This content downloaded from 203.78.15.150 on Sun, 17 May 2020 09:58:23 UTC
+All use subject to https://about.jstor.org/terms
+
+ Synthetic and analytic geometries in the publications...
+
+ 429
+
+ The method is quite particular and has not previously been tried for these prob
+
+ lems. (Lange 1899, 18)16
+
+ Similarly, Bessel described Steiner as a "an inventive and original thinker," even
+
+ in comparison with the work of Poncelet (ibid, 21).17 In particular, both Klöden
+ and Bessel characterized recent geometry as almost exclusively confined to ana
+ lytic approaches. On the one hand, they praised the speed of analytic methods that
+
+ could address problems "completely inaccessible" [völlig unzugänglich] to synthetic
+
+ methods. On the other hand, synthetic geometry had pedagogical benefits. Steiner's
+
+ publications revealed the "formative power of geometry" [bildende Kraft der Geome
+
+ trie] and formed more "coherent" and "complete" educational material than the
+
+ "disjointed problems" of analytical geometry. Like Gergonne and Bulletin reviewers,
+
+ Klöden and Bessel noted a reemergence of pure or synthetic geometry, now capable
+
+ of favorable comparison against analysis.
+
+ Steiner framed his dedication to synthetic geometry as illustrative as his broader
+
+ philosophical search for systematicity [Systematizität], organic unity [organischen
+
+ Einheit], and intuition [Anschauung] based on his early education under Johann Hein
+
+ rich Pestalozzi. Steiner supported a unified geometric approach, and so dismissed
+
+ many contemporary results in mathematics, regardless of method, as invented hap
+
+ hazardly. In describing his educational development, he provided a narrative in which
+
+ he studied and rejected combinatorial analysis and differential calculus. Even his first
+
+ encounters with geometry textbooks had revealed, he said, an arbitrary or even empir
+
+ ical approach, as if the individual theorems were the aim of science and the general
+
+ organic unity, remained obscured. Steiner likewise distinguished his form of synthetic
+
+ geometry from that of the ancients, as more general and complete, but still employ
+ ing a "rigorously genetic path" [streng genetischen Gang], developing increasingly
+
+ complex concepts from common constructions. In these qualities of generality and
+
+ completeness, Steiner observed the connection and possible contributions between
+
+ his method and analytic geometry.
+
+ The work finally will enable a rich profit for the analytic geometer, as well as an
+ expansion of his method, (ibid, 21)18
+
+ While his reviewers and recommenders saw Steiner's work as synthetic geometry as an
+
+ alternative to analytic geometry, Steiner viewed synthetic geometry as a much greater
+
+ and autonomous achievement, whose systematicity, unity, and intuition exceeded those
+
+ of any other area of mathematics research. In this respect, Steiner separated his work
+
+ as more universal and grounded in higher principles, compared to even contemporary
+
+ synthetic geometry as practiced at the Ecole Polytechnique. We will return to the tone
+
+ of these reviews and efforts at self-promotion in light of our second case study, where
+
+ Steiner's results were criticized in lacking a straight-forward method.
+
+ 16 "Dabei ist die Methode durchaus eigentümlich und bisher für diese Aufgaben nicht versucht."
+
+ 17 "[...] ein erfindungsreicher und origineller Kopf [...]"
+
+ 18 "Dem analytischen Geometer endlich dürfte die Arbeit eine reiche Ausbeute, wohl gar eine Erweiterung
+ seiner Methode gewähren."
+
+ Springer
+
+This content downloaded from 203.78.15.150 on Sun, 17 May 2020 09:58:23 UTC
+All use subject to https://about.jstor.org/terms
+
+ 430
+
+ J. Lorenat
+
+ 2.5 Pliicker and the Apollonius problem
+
+ Pliicker was well aware of the French version of Steiner's article and the associated
+
+ publicity when he composed his introduction to "Geometrie analytique. Memoire sur
+ les contacts et sur les intersections des cercles" (Pliicker 1827). Although Pliicker
+
+ followed the same narrative as Steiner, from similarity to common power, Plücker's
+
+ use of coordinate equations, classified by Gergonne as analytic geometry, rendered his
+
+ objects very different. Further, Pliicker had begun publishing and corresponding with
+
+ contemporary French mathematicians in 1826, and even just one year later, he was
+
+ far more in tune with contemporary research.19 In particular, he appeared comfortable
+
+ using what Poncelet had defined as ideal chords and secants in 1820, a new designation
+
+ that was just beginning to be acknowledged by other geometers. Ideal objects were
+
+ constructible as well-defined lines in the plane, but unlike real chords and secants, they
+
+ contained imaginary points of intersection.20 In fact, Poncelet's influence in this text is
+
+ evidenced by much of Plücker's choice of vocabulary including ideals, conjugates, and
+ inverse or direct relations as well as one of his constructions. However, in introducing
+
+ his work Pliicker explicitly compared it to Steiner's and strongly suggested that his
+
+ own presentation was simpler and faster.
+
+ [...] but the publicity that this geometer has given to his work does not appear to
+
+ us as a sufficient motive for renouncing publishing a summary of ours, so that
+
+ one will be able to better compare them, and then one will perhaps even find our
+
+ path more rapid and more simple in several respects. (Pliicker 1827, 29)21
+
+ Pliicker was also familiar with Gergonne's several solutions to the Apollonius problem
+
+ in 1827, which he summarized in his Analytisch-geometrische Entwicklungen the
+
+ following year as an analytic determination of the tangency points to the desired circle
+
+ lying on each of the given circles (Pliicker 1828b, 102-105). In his book, Pliicker
+ credited Gergonne with simplifying the problem by finding tangency points rather
+ than centers of the desired circles. The solution and proof Plücker provided in his
+
+ Entwicklungen followed Gergonne much more directly than his solution published
+ in the Annates. The former version was a very short exposition relying upon well
+
+ chosen coordinate axes, without any "modern" geometric terminology. In the article
+
+ we consider here, Pliicker would briefly cite Gergonne's solution, but his method
+
+ differed substantially through the adoption of Poncelet's new geometric objects.
+
+ Pliicker began directly with three circles, which he designated as c = 0, c' =
+
+ 0, c" = 0. Considered pairwise the real or ideal common chord, "that is, radical axis,"
+
+ 19 The impact of Gergonne on Pliicker's first publication is discussed in Lorenat (2015).
+
+ 20 Beginning with Augustin Louis Cauchy's favorable mention of ideal objects, in his otherwise very critical
+ review of Poncelet's research (Poncelet and Augustin 1820), Poncelet's ideal secants, chords, and points of
+
+ intersection began to be discussed in the Annates. Often the term appeared juxtaposed to its real counterpart,
+ such as "real or ideal" common chords, points of intersection, or tangent lines (Sturm 1826a,b; Bobillier
+ 1827; Chasles 1828a). For historical analyses of Poncelet's ideal chords, see Gray (2005), Nabonnand
+
+ (201 lb), Bioesmat-Martagnon (2011).
+
+ 21 "[...] mais la publicity que ce geometre a donnie ä son travail ne nous a pas paru un motif süffisant pour
+
+ renoncer ä publier un sommaire du nötre, qu'on sera peut etre bien aise de lui comparer, et dont on trouvera
+
+ peut-etre meme la marche plus rapide et plus simple ä quelques igards."
+
+ <£) Springer
+
+This content downloaded from 203.78.15.150 on Sun, 17 May 2020 09:58:23 UTC
+All use subject to https://about.jstor.org/terms
+
+ Synthetic and analytic geometries in the publications.
+
+ 431
+
+ for these circles would have the equations c' - c" = 0, c" — c = 0, c — c' = 0. Since
+
+ these radical axes each intersected two by two at the same χ and y coordinates, they
+
+ all three would concur in a single point, the radical center.
+
+ In a footnote, Plücker attributed to Gergonne this "turn of reasoning" [tour de
+
+ raisonnement], where common points between two coordinate equations were repre
+
+ sented through subtracting linear equations. This use of coordinates would come to be
+
+ known as "abridged notation."22 In an extended proof using conventional coordinate
+
+ equations (occupying three pages with one footnote), Plücker proved that the radical
+
+ axis to a point on the circle's circumference would be a tangent line through this point.
+
+ Plücker's use of equations in this 1827 article was minimal and appeared only in
+
+ the beginning. Further, his use of analysis in geometry remained like that of Gergonne
+
+ in 1817, as we will see by comparison with his research the following year. While
+
+ he began by describing the circles with abridged notation, after the first section the
+
+ circle equations were given in their standard extended form. Further, Plücker only
+
+ applied analytic geometry to find the radical axes, perpendicular lines, and concurrent
+
+ points. The new geometric objects, as mentioned in the Bulletin review, were primarily
+
+ described with respect to their positional relationship in purely geometric terms. While
+
+ one could have derived analytic representations from Plücker's exposition, he did not
+
+ show the equation of an orthogonal circle, a pole, or a similitude center, to take three
+
+ such examples. He briefly mentioned imaginary circles as an intermediate step in
+
+ obtaining a real solution, but not as a solution itself, which would have to be represented
+
+ This minimalist computation was viewed as admirable in the subsequent Bulletin
+
+ constructively.
+
+ review.
+
+ But ordinarily it is much better, in a great number of researches, to pass alterna
+
+ tively from resources provided by calculation to those offered by pure geometry,
+
+ and from the latter to the former, one thus avoids at once both the delays to which
+
+ complicated calculations lead and the obscurity that the accumulation of great
+
+ number of lemmas creates. In the first article of the issue, M. Plucker gives a very
+
+ remarkable example of the application of this latter method [...] (Anonymous
+ 1827a, 173)23
+
+ The anonymous reviewer suggested that too much calculation made the reader lose
+
+ sight of the problem, and that Plücker's balance enabled a comprehensible presenta
+
+ tion. We note this review implied that geometric understanding could presumably be
+
+ achieved without the use of figures.
+
+ 22 Carl Boyer traced the invention of this "abridged notation" back to Lamp's 1818 text (Boyer 1956; Lame
+
+ 1818). Pliicker was among the early adopters, along with Etienne Bobillier (1798-1840), who had employed
+
+ abridged notation in the article immediately preceding Plücker's. Pliicker would frequently employ abridged
+
+ notation in his Analytisch-geometrische Entwicklungen (Pliicker 1828a).
+
+ 23 "Mais d'ordinaire on se trouve beaucoup mieux, dans un grand nombre de recherches, de passer alter
+
+ nativement des ressources que fournit le calcul, ä Celles qui sont offertes par la geometrie pure, et de ces
+
+ derniöres aux premieres, on övite ainsi ä la fois et les lenteurs qu'entrainent des calculs compliquis et
+ l'obscuriti que fait naitre l'accumulation d'un trop grand nombre de lemmes. Dans le ler. article de la
+ livraison, M. Plucker donne un exemple fort remarquable de l'application de cette demiere methode
+
+ Springer
+
+This content downloaded from 203.78.15.150 on Sun, 17 May 2020 09:58:23 UTC
+All use subject to https://about.jstor.org/terms
+
+ 432
+
+ J. Lorenat
+
+ Plücker's constructions contained numerous geometric objects, but the majority of
+ these objects were at most enumerated and not named. With the use of coordinate
+
+ representation and the new ideal objects, Pliicker was able to avoid delving into most
+
+ particular instances, instead covering all cases with a single construction or proof.
+
+ Within Plücker's constructions the only named objects were five circles (C), (C),
+
+ (C"), (c), (c') and the two tangent points p, p', which defined the line pp'. Part of
+
+ this brevity may be attributed to the fact that Plücker's publication came after those of
+
+ Steiner, Poncelet, and Gergonne. Plücker could rely, even without direct citation, on
+
+ the more elaborate constructions of his predecessors.
+
+ 2.6 Plücker's initial reception
+
+ Situated as it was in the Annates and treating the very same content that Steiner had
+
+ treated less than a year earlier, Plücker's article could not escape comparison with
+
+ Steiner's, a fact that he acknowledged in his introduction. Yet, without Gergonne's
+
+ footnotes, any acknowledgment to Steiner in the body of the text was strikingly absent.
+
+ Plücker instead attributed his constructions to the earlier work of Gergonne and Pon
+
+ celet. Nevertheless, this liaison between Steiner and Plücker appeared in a Bulletin
+
+ review, which cited Steiner's treatment of the theory of circle tangency by so-called
+
+ pure geometry in Crelle's Journal. The Bulletin review provided a positive assessment
+
+ of Plücker's combined use of analytic and synthetic methods, which the reviewer con
+
+ sidered much better than either method taken in isolation. Plücker, in particular, artfully
+
+ avoided both complicated calculations and too many obscure lemmas.
+
+ M. Plucker is very restrained in calculations, and all of his can, somehow, be
+
+ followed by the eye; but he chooses them with great art and taste [...] (Anonymous
+ 1827a, 173)24
+
+ In a review of Plücker's monograph, Cournot (who may have been the anonymous
+
+ reviewer) echoed this praise of Plücker's simplicity in contrast to what he claimed to
+
+ be "the often merited reproach to scholars of Plücker's country, to love complication"
+ (Cournot 1828,179).25 However, Cournot also noted the drawbacks to Plücker's style
+
+ of analytic geometry. While Plücker's minimalist analysis was very useful for demon
+
+ strating already known theorems, it was not the means for mathematical discovery.
+ Because Plücker avoided all calculations that did not concern the final result, and
+
+ so revealed this result, Cournot suggested that Plücker's analysis strongly resembled
+
+ "la synthese" (ibid, 178). Cournot employed the term synthesis to emphasize how
+
+ Plücker's presentation worked toward a known result, and thus functioned well for
+
+ proving known theorems.
+
+ Plücker's article and Bulletin reviews resurfaced in a letter of recommendation
+
+ written for Plücker by Crelle to the Prussian culture minister, Karl vom Stein zum
+
+ 24 "Μ. Plucker est fort sobre de calculs, et tous les siens peuvent, en quelque sorts, etre suivis de l'oeil;
+
+ mais il les choisit avec beaucoup d'art et de goüt
+
+ 25 "[...] le reproche souvent mi rite, que Ton fait aux savants de sons pays, d'affectionner la complication."
+
+ Springer
+
+This content downloaded from 203.78.15.150 on Sun, 17 May 2020 09:58:23 UTC
+All use subject to https://about.jstor.org/terms
+
+ Synthetic and analytic geometries in the publications..
+
+ 433
+
+ Altenstein in July, 1828.26 The letter aimed to promote Pliicker's recently published
+ Analytisch-geometrische Entwicklungen, which had appeared earlier that year, and
+
+ lends further evidence of Pliicker's perceived intermediary position between analytic
+
+ and synthetic methods. Moreover, in this letter Crelle provided a thorough description
+
+ of the "two different methods of research in studying figures in the plane and in space."
+
+ His description of the qualities of each method far exceeded the level of detail observed
+
+ in either Plücker or Steiner's published work up to that point. However, as Crelle was
+
+ writing a letter of recommendation, some of this detail may be attributed to simply list
+
+ ing Pliicker's many merits. First, Crelle contrasted the opposing "synthetic, or graphic,
+
+ or intuitive methods, more or less following the manner of the ancients" to the analytic
+ method that uses calculations and is more mechanical.27 He then outlined the advan
+
+ tages and disadvantages of each approach. The first method benefitted from a clear
+
+ intuition about the object under investigation and mindful awareness of the operative
+
+ steps of research. Thus, the synthetic method was most useful, clear, and convincing in
+
+ simple cases, where the analytic method seemed too difficult. Yet, the analytic method
+
+ required no additional effort to be applied generally to more complicated cases. Crelle
+
+ admitted that the merits of each method had been debated, with Synthesists accusing
+
+ the analytic method of "merely mechanical operations" [bloss mechanische Operatio
+
+ nen] and Analysts defending "the great power and fruitfulness of analytic operations"
+
+ [die grosse Kraft und Fruchtbarkeit der analytischen Operationen] as well as its ease.
+
+ However, he insisted that both methods had their own "individual value" [eigentüm
+
+ lichen Werth], While the analytic method was the method of discovery, the synthetic
+
+ method achieved the greatest clarity and certainty of insights For Crelle, the study
+ of mathematics required both qualities, and both qualities had been achieved in the
+ recent work of Plücker.
+
+ In advertising Pliicker's publication record, Crelle cited Pliicker's recent Bulletin
+
+ reviews, which stated that Plücker had united both methods (Anonymous 1826,
+
+ 1827a).28 Crelle then explained that despite Plücker's claim in his preface that his
+ monograph was purely analytic, it actually also combined both methods with success.
+
+ Diplomatically, Crelle continued by correcting Plücker's accusation from the same
+
+ preface that Steiner had merely been following in the footsteps of Poncelet. He coun
+
+ tered that Steiner's work had been independently derived and was useful in its own
+
+ right. Overall, Crelle suggested that the prefatory remarks expressed a tendency against
+
+ synthetic methods and practitioners that was not apparent in the body of Plücker's
+
+ text. Crelle concluded by listing the diverse subjects of new geometry that Plücker
+
+ had included: transversals, ideal chords, polars and poles, similarity points and axes,
+
+ curves of second order, osculation points, imaginary expressions, curves of higher
+
+ order and other figures in space, etc. Although Plücker framed his work as analytic
+
+ geometry, or even "pure analytic geometry," Crelle interpreted mixed methodological
+
+ 26 This letter is published in (Eccarius 1980) as "Document 1: Gutachten Crelles für den Kultusminister
+ von Altenstein über J. Pliickers."
+
+ 27 "[...] synthetische, oder graphische, oder anschauliche Methode, mehr oder weniger nach Art der Alten."
+
+ 28 It is worth pointing out that this first review (Anonymous 1826 contained a synopsis of the article by
+ "Pluker," which indeed was not analytic geometry, but which had been dramatically altered from Pliicker's
+ original submission by Gergonne (Pliicker and Schoenfiies 1904; Lorenat 2015).
+
+ Springer
+
+This content downloaded from 203.78.15.150 on Sun, 17 May 2020 09:58:23 UTC
+All use subject to https://about.jstor.org/terms
+
+ 434
+
+ J. Lorenat
+
+ tendencies in his attention to the form of the equation that would become increasingly
+
+ apparent in his later works.
+
+ In both Steiner's and Plücker's approach to tangent circles, the content remained
+ mostly elementary. Tangents and intersections among coplanar circles could be
+ achieved through Euclidean constructions, and despite their new nomenclature, the
+
+ relationships conveyed by similitude, powers, and radicals were grounded in sim
+
+ ple proportions, collinearity, and concurrence. However, Steiner and Pliicker both
+
+ remarked that these same results would continue to hold should circles be replaced by
+
+ any conic sections, and Pliicker described the necessary projective procedure to apply
+
+ circle-specific constructions to any second-order curve. This generalization extended
+
+ the domain of research beyond the elementary geometry found in Euclid. Poncelet
+
+ and Gergonne had likewise applied results from circles to general conic sections, but
+
+ the concept was novel enough that in 1828 Chasles announced it as a new theorem.
+
+ It follows from there, in particular, that any circles that one likes, traced on
+
+ the same plane, can always be considered as the stereographic projections of
+
+ the same number of planar sections made in a second-order surface, and their
+
+ centers as stereographic projections of the vertices of cones circumscribed to
+
+ this surface, according to these same planar sections (*). (Chasles 1828b, 309)29
+
+ Gergonne modified Chasles' claim with a footnote, signaling both the special position
+
+ of Steiner and Pliicker as German geometers and their publications on tangent circles
+
+ at the forefront of contemporary French geometry.
+
+ This principle does not appear to be unknown to German geometers. M. Plucker
+
+ invokes it formally on page 47 of the present volume, and M. Steiner relies on it
+
+ equally in the memoir of which we gave an extract on page 285 of our XVIIth
+
+ volume, to transport planar constructions onto any surfaces of second order.30
+
+ Though Gergonne would later apologize for seeming to have trivialized Chasles'
+
+ research, his remarks proved prescient in forecasting Steiner and Plücker's early adop
+
+ tion of new principles and practices.
+
+ 3 Conic sections with four common points (1828)
+
+ In the two years following his first publication, Steiner contributed six additional
+ articles to Crelle's Journal and three to the Annates, along with numerous posed
+
+ problems in both journals. Meanwhile, Pliicker had recently published the first volume
+
+ of his two-part monograph, Analytisch-geometrische Entwicklungen and as well as
+
+ 29 "II suit de lä, en particulier, que tant de cercles qu 'on voudra, traces sur un me me plan, peuvent toujours
+
+ etre consideres comme les projections stereographiques d'un pareil nombre de sections planes faites dans
+
+ une surface du second ordre, et leurs centres comme les projections stereographiques des sommets des
+ cones circonscrits ä cette surface, suivant ces memes sections planes (*)."
+
+ 30 "Ce principe parait ne pas etre inconnu aux giomfetres allemands. M. Plucker l'invoque formellement, ä
+
+ la pag. 47 du präsent volume, et Μ. Steiner s'en appuye 6galement dans le memoire dont nous avons donne
+
+ un extrait ä la pag. 285 de notre XVII.e volume, pour transporter ses constructions planes sur des surfaces
+
+ quelconques du second ordre."
+
+ ö Springer
+
+This content downloaded from 203.78.15.150 on Sun, 17 May 2020 09:58:23 UTC
+All use subject to https://about.jstor.org/terms
+
+ Synthetic and analytic geometries in the publications..
+
+ 435
+
+ a total of three articles in the Annates and one in the Journal. Both Steiner's and
+
+ Plücker's articles from this period had been consistently summarized and reviewed in
+
+ Ferussac's Bulletin, and cited in contemporary journals and monographs (Anonymous
+ 1826, 1827a; Didiez 1828).
+
+ Solutions to geometry problems, such as the Apollonius problem, were in the form
+
+ of constructions. By contrast, theorems in geometry were often independent of con
+
+ structions, more theoretical, and hence better suited toward exhibiting methodological
+ variety. First, in order to understand the original context of Land's theorem, we will
+
+ examine his original statement and proof as it appeared in the Annates in 1817. Lame's
+
+ theorem states that when three or more conic sections intersect in four common points,
+
+ then if one draws parallel diameters to these conics the corresponding conjugate diam
+
+ eters will meet in a point. Its central concept is that of conjugate diameters, which have
+
+ ancient roots in Apollonius's Conics. In the texts considered here geometers assumed
+
+ conjugate diameters as known and without need of definition. Definitions of conjugate
+ diameters could be found in pedagogically oriented books, such as Traite elementaire
+
+ de trigonometrie rectiligne et spherique, et d'application de l'algebre ä la geometrie
+
+ (Lacroix 1807), in which Sylvestre Francois Lacroix defined the diameter conjugate
+
+ to a given diameter of an ellipse as the diameter //' parallel to the tangent drawn
+ through the endpoint L of another given diameter (Lacroix 1807,172). To extend this
+
+ construction from ellipses to every conic section, geometers often used projection or
+ coordinate equations.
+
+ In the intervening decade between Lame's first statement of his theorem and
+
+ Steiner's proof, the whole subject of Lame's article-the correspondence between
+
+ conic sections and their conjugate diameters-remained popular in geometric articles
+
+ within the Annates. In particular, the research of Gergonne, Brianchon, and Poncelet
+
+ explored the conditions necessary to determine second-order curves and the relation
+
+ ships between conjugate diameters (Brianchon 1817; Brianchon and Poncelet 1820;
+ Gergonne 1821; Poncelet 1822). For instance, in his 1822 Traite, Poncelet included a
+
+ proof of Lame's theorem, which he described as a direct corollary to his more general
+
+ theorem on polar reciprocity found by passing a planar point to infinity.
+
+ Thus, in 1828 Steiner's choice of studying the relationship between conic sections
+
+ in the plane engaged with a set of geometric questions still under lively investigation.
+ Approximately two-thirds of the content in the nineteenth volume of the Annates
+
+ were devoted to articles on the study of geometric curves and surfaces by at least
+ nine different geometers (several articles were signed only as un abonne). However,
+
+ if Steiner's subject matter was well established and well represented, his approach, as
+ we will see, was original to him.
+
+ The following issue of the same volume of the Annates opened with an article of
+
+ analytic geometry, "Recherches sur les courbes algebriques de tous les degres" by
+ "M. le docteur Plucker, professeur ä l'Universite de Bonn" (Plücker 1828b). Plücker's
+
+ ten-page article was the first in a two-part series, the second of which explored the
+
+ same questions for algebraic surfaces. In a concise introduction, Plücker explained
+
+ his intention; "to give several examples of a method, by aid of which one can deduce,
+
+ immediately and without any sort of calculation, a great number of general properties
+ of curves of any degree, simply from considering the algebraic constitution of their
+
+This content downloaded from 203.78.15.150 on Sun, 17 May 2020 09:58:23 UTC
+All use subject to https://about.jstor.org/terms
+
+ Springer
+
+ 436
+
+ J. Lorenat
+
+ representative equations" (Plücker 1828b, 97).31 Pliicker's development of coordinate
+
+ representation without calculation characterized a new method of analytic geometry.
+
+ While both articles were about relationships between planar curves, the diverse
+
+ treatments masked their parallel content except for their common reference to Lame's
+
+ theorem. If the Apollonius problem reinforced the similarities between different geo
+
+ metric methods in their common invocation of illustrated or virtual figures, frequently
+
+ repeated constructions, and use of the same set of new geometric objects, the case of
+
+ Lame's theorem will emphasize their differences.
+
+ 3.1 Lame's theorem (1817)
+
+ Lame had just graduated from l'Ecole Polytechnique in 1817 when his article
+ "Geometrie analitique. Sur les intersections des lignes et des surfaces. Extrait d'un
+
+ memoire presente ä Γ Academie royale des sciences, en decembre 1816" was published
+
+ in the Annates (Lame 1817). As the lengthy title indicates, the article was excerpted
+
+ from a longer memoir, later revised, and published in 1818 as Examen des differentes
+
+ methodes employees pour resoudre les problemes de geometrie (Lame 1818,30-41).
+
+ The article's subject matter, the use of coordinate equations to solve geometry prob
+
+ lems, was dear to Gergonne's heart and he may have requested this contribution from
+
+ Lame as he would with respect to Poncelet's memoir in 1821. This brief article set out
+
+ to use rectangular coordinate equations in order to find conditions such that:
+
+ 1. three first- or second-order curves [lignes] on the same plane concur in a point;
+
+ 2. three first- or second-order surfaces in space meet on a curve;
+
+ 3. four first- or second-order surfaces in space concur in a point.
+
+ The result on conjugate diameters was considered by Lame as an "interesting theoret
+
+ ical and practical consequence."
+
+ second order.
+
+ For his first problem, Lame used coordinate equations to represent three curves of
+
+ ax2 + 2 bxy + cy2 + 2 dx + 2ey + / = 0
+
+ α χ2 + 2b'xy -f- c'y2 -I- 2d'χ -4- 2e y + f =0
+
+ a" x2 + 2b"xy + c"y2 + 2d" χ + 2e"y + f" = 0
+
+ By multiplying the first two equations by the indeterminate constants m and m', respec
+
+ tively, and then finding their sum, he derived a single equation.
+
+ (am + a'm')x2 4- 2(bm + b'm')xy + (cm + c'm')y2
+
+ + 2 (dm + dm')x + 2 (em + e'm')y + (fm + f'm')
+
+ 31 "[...] donner quelques exeraples d'une methode ä l'aide de laquelle on peut d&luire, immediatement et
+ sans aucune sorte de calcul, un grand norabre de propriitis genirales des courbes de tous les degr6s, de la
+
+ simple consideration de la constitution algibrique des iquations qui les repr£sentent"
+
+ 32 Evelyne Barbin has shown how Lami demonstrated the potential for progress and discovery in associ
+
+ ating analysis and geometry (Barbin 2009). In particular, Barbin considers the content of Lamp's Examen
+ des Afferentes methodes and his development of abridged notation.
+
+ ö Springer
+
+This content downloaded from 203.78.15.150 on Sun, 17 May 2020 09:58:23 UTC
+All use subject to https://about.jstor.org/terms
+
+ Synthetic and analytic geometries in the publications.
+
+ 437
+
+ Because of the indeterminacy of m, m' this new equation, "in its generality," rep
+
+ resented all the curves of second order passing through the intersections of the two
+
+ first curves. Examining the equation, Lame remarked that, under various relationships
+ between the coefficients, it could belong to two different parabolas, a circle, or an
+
+ infinity of ellipses and hyperbolas. The condition for the third line to have the same
+
+ intersections would be met by setting each coefficient in the new equation equal to its
+
+ corresponding coefficient in the third curve equation. That is,
+
+ am + a'm' = a", bm + b'm! = b", cm + c'm' = c",
+
+ dm + d'm' = d", em + e'm' = e", fm + f'm! = f".
+
+ Through elimination of the constants m, m' Lame arrived at four other equations
+
+ that expressed the concurrence of the three second-order curves. Moreover, the three
+
+ equations containing a, a', a", b, b', b", and d, d', d" could be simultaneously satis
+
+ fied, signifying that the three straight lines ax + by + d = 0, a'χ + b'y + d' = 0,
+ a"x + b"y + d" = 0, concurred in a point.
+
+ Each of these equations also belonged to the diameter that bisected all chords
+
+ parallel to the x-axis of its corresponding second-order curve. For this result, Lame
+ cited an article by Berard from the Annates. Then, since the direction of the jc-axis
+
+ could be chosen with respect to the second-order curves, Lame concluded,
+
+ THEOREM. If three or more conic sections have four common points; then
+
+ in no matter what direction one draws parallel diameters to these conics, the
+
+ corresponding conjugate diameters will concur in the same point. (Lame 1817,
+ 233)33
+
+ At this stage in the text, no figures had been employed, and all geometric objects
+
+ were represented by their coordinate equations. Having derived his theorem, Lame
+
+ then applied it to determine graphically the center of a conic given five points on its
+
+ perimeter and the slope of the diameters of a parabola given four points on its perimeter.
+
+ These two constructive problems referenced straight edge figures, (Fig. 4). Though
+
+ the problems themselves featured conic sections, the figures, which were printed at
+ the end of the issue, contained only the given points, as was common practice for
+
+ published geometrical figures at this time.
+
+ The Annates classified Lame's article under the subject heading "analytic geome
+
+ try," and within this article, Lame chose coordinate equations and algebraic analysis to
+
+ prove his theorems but then used these theorems to solve associated problems through
+
+ constructing figures without coordinate representation. Lame was thus able to employ
+
+ the generality of algebraic expressions, without sacrificing the practice and applica
+
+ tion of graphic constructions. In fact, Lame explicitly suggested that the application of
+
+ algebra to geometry served as the method of discovery in his Examen des differentes
+
+ methodes employees pour resoudre les problemes de geometrie. Following a long list
+
+ of potential applications of algebraic representation of geometric loci beginning with
+
+ 33 "JHEOREME. Si plusieurs sections coniques ont quatre points communs; dans quelque direction qu'on
+
+ leur mfene des diamötres parallöles, les conjuguis de ces diametres concourront en un meme point."
+
+ Springer
+
+This content downloaded from 203.78.15.150 on Sun, 17 May 2020 09:58:23 UTC
+All use subject to https://about.jstor.org/terms
+
+ 438
+
+ J. Lorenat
+
+ Fig. 4 Lame's Figures (Lame
+ 1817)
+
+ the study of straight lines and extending to second-degree curves directed toward his
+ beginning student reader, Lame concluded,
+
+ [...] finally in all these applications [we] must not neglect to draw attention to
+
+ the constant agreement of Algebra with Geometry, an agreement that permits us
+
+ to entrust calculation with the task of discovering new theorems. (Lame 1818,
+ 5-6)34
+
+ In the case of Lame's theorem, his assessment appears to be correct, as his successors
+
+ repeatedly cited his article as the source of the theorem.
+
+ 3.2 Steiner proves Lame's theorem: "Developpement d'une serie des theoremes
+
+ relatifs aux sections coniques" (1828)
+
+ Gergonne and Bulletin reviewers described Steiner's first publications as employing
+
+ a method completely unique to the author. As Steiner continued writing for a French
+
+ audience, his knowledge of the background literature and terminology transformed
+ accordingly. Now writing in French, Steiner cited Carnot and Lame (and himself).
+
+ 34 "[...] enfin ne rien nigliger dans toutes ces applications pour faire remarquer l'accord constant de
+ l'Algebre avec la Geometrie, accord qui permet de confier au calcul le soin de decouvrir de nouveaux
+ theoremes."
+
+ ■Ö Springer
+
+This content downloaded from 203.78.15.150 on Sun, 17 May 2020 09:58:23 UTC
+All use subject to https://about.jstor.org/terms
+
+ Synthetic and analytic geometries in the publications..
+
+ 439
+
+ Like Steiner's first publication in the Annales, this paper received substantial
+ input from Gergonne. Among Steiner's Nachlass at the Eidgenössische Technische
+
+ Hochschule in Zürich a manuscript draft of Steiner's original submission is accompa
+
+ nied by attempts at a letter from the author to the editor (Steiner 1828e). In the most
+
+ complete copy, Steiner requested that Gergonne include the following theorems in his
+
+ journal. He requested that Gergonne exercise full editorial authority.
+
+ It is only your indulgence and the hope that you will not refuse to correct in
+
+ this whatever you think appropriate, which encourages me to offer my humble
+
+ geometrical research in such a rough and incorrect style. (Steiner 1828a)35
+
+ Steiner described his difficulty with writing in French, which prevented him from
+
+ communicating his method of discovering his theorems. Consequently, his style was
+
+ "very aphoristic," and he hoped that Gergonne could "supply all that my work lacks in
+
+ reasoning and clarity." Steiner concluded by offering to send part of his forthcoming
+
+ book if Gergonne did not find his work "displeasing." Steiner's modest appeal con
+
+ trasts with his confident assertions in German letters and publications. Further, Steiner
+
+ recognized that his contribution lacked a "method of discovery" and thus appeared ad
+
+ hoc-a feature he had criticized in analytic geometry.
+
+ The subsequent publications show that Gergonne certainly followed Steiner's direc
+
+ tions. Steiner wrote his manuscript, entitled "Developpement d'une serie de theoremes
+
+ relatifs aux courbes et aux surfaces du second ordre," in three parts, each of which
+ became a separate article appearing in the nineteenth volume (Steiner 1828b, c,d).
+
+ Notably, Gergonne classified the first article as elementary geometry, the second as
+
+ pure geometry, and the third as geometry of situation. Gergonne extensively changed
+
+ the first and third articles through adding dual columns of writing, new theorems,
+
+ and numerous citations. He limited his changes to grammar, vocabulary, and notation
+
+ (Steiner's A\ became A', for example) in the second article, "Developpement d'une
+
+ serie des theoremes relatifs aux sections coniques," which contained Lamp's Theorem.
+
+ Gergonne also added a single additional reference: the Annales volume IV, page 251,
+ an article by Gergonne himself (Steiner 1828b, 45).
+
+ "Developpement d'une serie des theoremes relatifs aux sections coniques" ran
+
+ to thirty pages in twenty-eight sections and included dozens of theorems and prob
+
+ lems, which were only designated as such by the use of quotation marks around their
+
+ statements (Steiner 1828d). The list-like form of Steiner's article was emphasized by
+ its vague title, lack of preface or introduction, and extensive enumeration of small
+
+ sections-some as short as a sentence, others extending several paragraphs. The same
+
+ format featured in at least two of Steiner's publications of the same period, "Demon
+ stration de quelques theoremes" and "Einige geometrische Sätze" (Steiner 1828b,
+ 1826b), and seemed to contradict his earlier systematic intentions or desire to show an
+
+ organic unity. However, Steiner's proliferation of new articles could also be interpreted
+
+ as publicizing results that would be systematically developed in his forthcoming book
+
+ or as an effort to secure a permanent position (Steiner 1832).
+
+ 35 "C'est votre indulgence seule et l'esperance, que vous ne refuserez pas d'y coniger tout ce que vous
+ jugerez ä propos, qui m'encourage de vous offrir dans un style si rude et incorrect mes faibles recherches
+ geometriques [sic]."
+
+ Springer
+
+This content downloaded from 203.78.15.150 on Sun, 17 May 2020 09:58:23 UTC
+All use subject to https://about.jstor.org/terms
+
+ 440
+
+ J. Lorenat
+
+ Fig. 5 Steiner's Figure 1
+ (Steiner 1828d)
+
+ B
+
+ The Bulletin review later summarized Steiner's article as based on a single proposi
+
+ tion: given a triangle and three points on the lines containing the sides of this triangle
+
+ such that perpendiculars raised through these points concurred in the same point, then
+
+ if one drew a circumference through these points, it would intersect the given lines in
+
+ three new points from which perpendiculars would also concur. Certainly, this proposi
+
+ tion was Steiner's first result in this text, but he only explicitly referenced it in deriving
+
+ his second result (whereas, for example, his fifth theorem was referenced three times
+
+ throughout the text), so its role as the foundation of his research seems to be mostly
+ positional.
+
+ As well as articles devoted to the proof of new results, Steiner's other primary
+ output at this time were posed problems (without solutions) and theorems (without
+
+ proof) offered to the readers of the Annates and the Journal (Steiner 1827a, c, d). These
+ collections served to both secure Steiner's priority and encourage readers to practice
+ applying his methods. Structurally, "Developpement d'une serie des theoremes" was
+ reminiscent of these catalogs in neither building from general considerations (like in
+ Steiner's Systematische Entwicklungen) nor building toward some promised results
+ (like in Steiner's "Leichter Beweis eines stereometrischen Satzes von Euler"). To
+ introduce Steiner's style with an elementary result and for future comparison with
+
+ Pliicker's proof of the same proposition, we will begin with Steiner's first proposition
+
+ before turning to his proof of Lame's theorem.
+
+ Steiner began with constructing a figure (our Fig. 5), for which we will provide a
+
+ series of step-by-step illustrations following Steiner's construction instructions. How
+ ever, certain features of his finished Figure 1, only described later and not relevant to
+
+ proving Lame's theorem, will not be introduced.
+
+ From a point Ρ in the plane of a triangle ABC drop perpendiculars PA', PB',
+
+ PC' respectively to sides BC, CA, AB. Though not specified in the text, we follow
+ Steiner's figure by placing Ρ inside the triangle ABC (Fig. 6).
+
+ Then join the vertices A, B,C to Ρ (Fig. 7).
+ These new segments determine fixed relationships between the parts of the right
+
+ triangles.
+
+ ί) Springer
+
+ 5Ä72 - CA'2 = ~BP2 - CP2,
+
+ cW2 - JW2 = CP2 - ÄP2,
+
+ AC2 - ~BC2 = ~ÄP2 - ~BP2.
+
+This content downloaded from 203.78.15.150 on Sun, 17 May 2020 09:58:23 UTC
+All use subject to https://about.jstor.org/terms
+
+ Synthetic and analytic geometries in the publications...
+
+ 441
+
+ Fig. 6 Triangle ABC and point Ρ
+
+ Fig. 7 Segments AP, Β Ρ, CP
+
+ By "adding, reducing and transposing" [ajoutant, reduisant et transposant]36 the
+
+ above equations Steiner derived,
+
+ AB'2 + BC'2 + CA'2 = ΒΑ'2 + CB'2 + AC'2.
+
+ He claimed that this relationship between line segments was a necessary and sufficient
+
+ condition that perpendiculars raised from the points A', B', C' on the three respective
+ sides BC, C A, AB of a triangle ABC all concurred in the same point Ρ. He concluded
+
+ immediately that from this resulted (1) that the perpendicular bisectors of the sides of
+
+ ^ Gergonne frequently used the expression "adding, reducing and transposing," in the manuscript Steiner
+ simply wrote "thus the sum is" [done la somme est].
+
+ ö Springer
+
+This content downloaded from 203.78.15.150 on Sun, 17 May 2020 09:58:23 UTC
+All use subject to https://about.jstor.org/terms
+
+ 442
+
+ J. Lorenat
+
+ Fig. 8 Steiner's Figure 2
+ (Steiner 1828d)
+
+ a triangle concurred in a point and (2) that the perpendiculars from each side to its
+ opposite vertex concurred in a point. In section 2, Steiner introduced a circumscribed
+ circle and gradually derived further theorems on the triangles inscribed to conics.
+ Steiner's progression in section 1 revealed how tenuous the line between what
+ was classified as pure and analytic geometry might be. Here Steiner began with a
+ figure illustrating the relationship he intended to derive: the concurrence of three
+ lines. From an algebraically computed equation, Steiner determined a criterion for the
+
+ desired relationship, followed by two exemplary cases. Though Steiner's criterion was
+
+ constructible, the form of presentation, as well as the use of calculations, suggests an
+
+ algebraic affinity not present in the figure. Further, the sufficiency of the condition only
+ followed because each of the steps was reversible. Figure 1 served as a representation
+ of the hypothesis and the conclusion, but concealed the intermediary non-constructive
+
+ steps.
+
+ We now jump forward to Lame's theorem, stated toward the end of the text in section
+
+ 22. In this section, Steiner initiated a new line of research. He referred explicitly only
+ to section 6 of his article and a figure (his Figure 7) he had introduced in section 18.
+
+ He thus required from his reader knowledge and memory of points only defined in
+ section 18. In order to explain Steiner's derivation of Lame's Theorem, we need first to
+
+ determine the necessary results from section 6 required in section 22, the construction
+ of Figure 7 in section 18, and its special case in section 19; we then shall turn to
+ Steiner's proof per se.
+
+ Section 6 began by describing the relationships between points pictured in his
+
+ Figure 2 (our Fig. 8), a circle with center Ρ circumscribed to a triangle ABC.
+
+ Steiner had shown in section 2 that perpendiculars raised from AB, AC, BC to
+ Ρ bisected their respective sides at C', B', A'. In section 6, he employed this result,
+ though without any direct citation.
+
+ Drawing B'C', C'A', A'B', Steiner concluded that these lines were respectively
+ parallel to the sides BC, CA, AB of the original triangle. Then, for example, if the
+ line A P' was perpendicular to B'C' it would be perpendicular to BC. So, from a result
+
+ proved but not referenced from Section 1, P' would be the point where perpendiculars
+
+ dropped from vertices to opposite sides concurred. Steiner designated the feet of these
+ perpendiculars as A", B", C". Then points Α', Β', C', A", B", C" would all lie on
+ the circumference of a circle centered at Ο, the midpoint of PP'. These constructive
+
+ steps are shown in our Fig. 9.
+
+ <0 Springer
+
+This content downloaded from 203.78.15.150 on Sun, 17 May 2020 09:58:23 UTC
+All use subject to https://about.jstor.org/terms
+
+ Synthetic and analytic geometries in the publications.
+
+ 443
+
+ Fig. 9 Constructing Steiner's Figure 2
+
+ Steiner referenced Lazare Carnot (without a date or a title) in finding a fourth point
+ G on ΡP' such that GO : GP :: P'O : Ρ'Ρ,37 From this ratio P' and G were the
+ similitude centers of the two circles centered at Ο and Ρ .38 Thus the circle centered at
+
+ Ο also passed through the midpoints of the segments P'A, Ρ' B, and P'C. This was
+ the result that Steiner would employ in section 22.
+
+ As we have seen with his Figures 1 and 2, each of Steiner's figures carried its own,
+
+ usually new, definition of points. Often these new points would have overlapping
+
+ names with the points from prior figures. Since he cited Figure 7 in section 22, we
+ must now set aside the use of point labeling from Figure 2, except in translating the
+
+ 31 This proportion reappears in many early nineteenth-century pure geometry texts. Poncelet attributed the
+ result to Pappus and also noted Brianchon's treatment (Poncelet 1822, 12). Brianchon in turn references
+ "Pillustre auteur de la Geometrie de position," that is, Carnot (Brianchon 1817,6). Poncelet, Brianchon, and
+ Steiner refer to the division as harmonic or harmonic proportion. Carnot indeed proved the existence of the
+ fourth proportional point for any three given points in space in De la correlation des figures de giomitrie
+ in 1801 (Carnot 1801,103-125).
+
+ 38 The similitude centers between two circles were defined by precisely this ratio between circles with radii
+ GO and Ρ'Ρ in (Steiner 1826a).
+
+ Springer
+
+This content downloaded from 203.78.15.150 on Sun, 17 May 2020 09:58:23 UTC
+All use subject to https://about.jstor.org/terms
+
+ 444
+
+ J. Lorenat
+
+ Fig. 10 Steiner's Figure 7
+ (Steiner 1828d)
+
+ application of results from Figure 2 as noted. This will hopefully help avoid too much
+
+ confusion over the changing roles of points.
+
+ Figure 7 (our Fig. 10) pictured a circle, but was described in section 18 as any
+ conic circumscribed to a triangle ABC. As in the previous figures, we will construct
+
+ Figure 7 step by step with intermediary illustrations along the way. However, we note
+
+ that Steiner's Figure 7 pictured the construction in its entirety and incorporated other
+
+ elements not featured in section 18 or 22, which we will omit from our progressive
+ illustrations.
+
+ Consider any conic circumscribed to a given triangle ABC, as in Steiner's Figure
+
+ 7 we begin with a circle (Fig. 11).
+
+ Through the vertices of this triangle and through any planar point P' (again, fol
+ lowing Steiner's figure, placed within ABC), lines AP'A"a, BP'B"ß, CP'C"y
+ respectively cut the extended triangle sides opposite the three angles in A", B", C"
+ and the conic at α, β, γ. If through any point D on the circumference, one drew lines
+
+ Doe, Dß, Dy cutting respective sides BC, AC, AB in α', β1, γ', then these three points
+ would always be on a line α'β'γ' containing Ρ'. This collinearity result followed when
+ one considered DßBCAaD, or any six such points, as an inscribed hexagon to the
+ conic. Then Pascal's theorem guaranteed that the intersections of opposite sides Dß
+ and CA, β Β and Aa, BC and a D, respectively, at β1, Ρ, a!, were collinear. Choosing
+ a different hexagon and applying the same procedure would ensure the collinearity of
+ all four points. Finally, as D moved along the circumference, the line α'β'γ' rotated
+ on the point P', and (as Steiner put it) vice versa.
+
+ In section 19, Steiner considered the special case where the conic was a circle, then
+ P'A" = A"a, P'B" = B"ß, and P'C" = C"y. While Steiner did not state whether
+ or not the conic was a circle in Section 22, he did begin with this particular equality
+
+ result, which also allied with his application of the results from section 6, proved only
+
+ for a given circle not a general conic.
+
+ So, in section 22 points A", B", C" were now the respective midpoints of seg
+ ments P'ot, Ρ'β, Ρ'γ, particular cases of the points constructed in section 18. If from
+ Α", Β", C" one drew three lines respectively parallel to Da, Dß, Dy, where D was
+ some point on the circumference, they would then pass through each of the mid
+ points of P'ot', Ρ'β', Ρ'γ' and concur at a point D'. Then, from section 6, a conic
+ would pass through A', B', C' midpoints of βγ, aß, αγ (the former BC, CA, AC of
+
+ ■Ö Springer
+
+This content downloaded from 203.78.15.150 on Sun, 17 May 2020 09:58:23 UTC
+All use subject to https://about.jstor.org/terms
+
+ Synthetic and analytic geometries in the publications..
+
+ 445
+
+ Fig. 11 Constructive steps toward Steiner's Figure 7
+
+ section 6) and Λ", Β", C" the midpoints of Ρ'α, Ρ'β, Ρ'γ (the former P' A, P'B, P'C
+ of section 6). From the construction, the point of concurrence D' would also lie on
+ this circumference and by Pascal's Theorem D, D', P' would be collinear. Steiner
+ declared that from this resulted a theorem he said was due to Lame (with no date or
+
+ text cited).
+
+ Four coplanar points A, B, C, P' determine three systems of line pairs AP'
+ and BP' [sic, BC in manuscript], BP' and AC, CP' and AB, which intersect
+ respectively in A", B", C". If one intersects these systems by any line α!β'γ'P'
+ passing through Ρ', and if, by the points Α", Β", C" and by the midpoints of the
+ segments [α'Ρ', β'Ρ', γ'Ρ] of this line, one draws the lines A" D', B"D', C"D',
+ then these lines will concur in the same point D'. And the locus of this point will
+
+ be a conic passing through the points A", B", C" and through the midpoints of
+ the lines BC, CA, AB AP', BP', CP', etc. (ibid, 61)39
+
+ 39 "Quatre points A, Β, C, P' donnes sur un meme plan determinent trois systemes de deux droites AP'
+ et BP', BP' et AC, CP' et AB, qui se coupent respectivement en A", B", C". Sil'on coupe ces systemes
+ par une droite quelconque α'β'γ'Ρ' conduite par P', et si, par les points A", B", C", et par les milieux
+ des segmens de cette droite, on mene des droites A"D', B"D', C"D', ces droites concourront en un meme
+
+ ö Springer
+
+This content downloaded from 203.78.15.150 on Sun, 17 May 2020 09:58:23 UTC
+All use subject to https://about.jstor.org/terms
+
+ 446
+
+ J. Lorenat
+
+ The overall effect of the theorem juxtaposed to the construction is disorienting. Perhaps
+
+ most jarringly, Steiner had reassigned the point names in his theorem's statement:
+
+ α, β, γ were suddenly A, B,C (thus better corresponding to section 6, but in disregard
+
+ of the midpoint construction from Figure 7). Many constructive steps were inverted.
+
+ The line containing points α', β', γ', and Ρ', found in section 18, was described as any
+
+ straight line in the theorem's statement. The midpoints of P'a', Ρ'β', Ρ'γ' here defined
+
+ the three lines respectively through A", B", C", on which they had been proved to lie
+
+ in the proof. The point D remained unmentioned as did the parallel relation and the
+
+ given circle (or conic).
+
+ By omitting the conic and conjugate diameters, Steiner's text removed the main
+
+ features of Lame's Theorem as it originally had appeared in 1817. It was only in the
+
+ constructive proof and Figure 7 that one could recognize that the four common points
+
+ were α, β, γ, D (or A, B, C, D in the theorem's statement-although D is missing), the
+ diameters were Da, Dß, Dy with parallel conjugates A"D', B"D', C"D' concurring
+ at D'.
+
+ Although in this proof Steiner only seemed to examine the case of the circle,
+
+ Steiner's final statement of Lame's theorem referenced a general conic section, without
+
+ providing an argument of how one might apply projection to extend the proof from the
+
+ case of a circle. However, in numerous earlier examples throughout the text, Steiner
+
+ had used parallel projection and central projection in order to extend circle properties to
+
+ any conic section. Presumably, he intended that similar techniques could be employed
+
+ here, but in section 23, Steiner began a new line of inquiry, and did not further reference
+ Lame's Theorem, nor use its conclusion, in the remainder of his article.
+
+ Steiner's article did not build toward any cumulative final results. Nevertheless, the
+
+ list of theorems maintained a coherent structure in terms of subject matter and repeated
+
+ techniques. Throughout the article, Steiner employed a common theme of progressing
+
+ from a simple case to ever more general elaborations. Each new line of inquiry began
+
+ with simple particular figures-most commonly a circle and straight lines-that Steiner
+
+ generalized progressively into curves. He often repeated a three-step argument pattern,
+
+ first a specific result for a circle or an ellipse, then via projection to a broader result for a
+
+ set of conic sections, and finally via perspective to an even more general result applied
+
+ to all conic sections.40 Finding the reciprocal result was another common practice
+
+ for Steiner. Sometimes he simply stated "reciprocally" or "vice versa," sometimes he
+
+ wrote out the reciprocal in full in the same section, and sometimes he devoted an
+
+ entirely new section to the exposition of the reciprocal. These choices do not appear
+
+ motivated by the significance of the result or the length of the process. The symmetry
+
+ Footnote 39 continued
+
+ point D', et le lieu de ce point sera une conique passant par les points A", Β", C" et par les milieux des
+ droites BC, CA, AB AP', BP', CP', etc."
+
+ This theorem is nearly identical between the published and unpublished versions (Steiner 1828e). Steiner,
+ in fact, ended many theorems with "etc." or "etc. etc. etc." in his manuscript, several of which Gergonne
+ edited out.
+
+ 40 For instance, in section 10 Steiner proved a result for an equilateral triangle circumscribed to a circle.
+
+ Through parallel projection he extended the result to any triangle and the smallest possible circumscribed
+
+ ellipse in section 11. Then in section 12 he applied central projection or perspective to generalize the result
+
+ to any triangle and any circumscribed conic section.
+
+ Springer
+
+This content downloaded from 203.78.15.150 on Sun, 17 May 2020 09:58:23 UTC
+All use subject to https://about.jstor.org/terms
+
+ Synthetic and analytic geometries in the publications.
+
+ 447
+
+ of Steiner's argument patterns unified his article more than the particular contents,
+ which ranged across objects in the geometric plane, leading to numerous results and
+
+ then backtracking to different hypotheses. Although the results appeared disorganized,
+
+ the repetition of generalization could serve as a guide to the reader in systematically
+ following and applying Steiner's method. Though it did not make for easy reading,
+ this repeated form of argument perhaps more closely resembled an imitable method of
+
+ discovery than an argument directed toward a specific result. Here, no one result was
+
+ placed as more important or significant than another. Some results were employed more
+
+ frequently, but because Steiner proceeded from particular findings to generalizations,
+
+ the more specific results appeared more often despite their limited applicability.
+
+ As in the case of section 2 and section 18, each new line of inquiry included a spec
+ ified figure, where Steiner took the opportunity to wipe the slate clean and redefine
+ previously designated points. As we have seen, this practice was not without confu
+ sion. Although Steiner included many theorems, not every proposition was illustrated.
+
+ Steiner referred to figures economically, often using one figure to illustrate several
+ constructions.
+
+ In the published version of the article, Gergonne signed his initials as the draftsman
+
+ for all the engraved figures in his journal, and clearly took care in his layout. In order to
+
+ Tom YlX.ptan.l.pag. 3?-<f4 •
+
+ Fig. 12 Steiner's Figures (Steiner 1828d)
+
+ J.2). (p.Jtcit.
+
+ Springer
+
+This content downloaded from 203.78.15.150 on Sun, 17 May 2020 09:58:23 UTC
+All use subject to https://about.jstor.org/terms
+
+ 448
+
+ J. Lorenat
+
+ fit all of Steiner's figures on a single sheet (our Fig. 12), the figures were not arranged
+
+ linearly, but almost in a clockwise fashion beginning with figure one in the lower left
+
+ corner. In Figure 5 there were two ellipses, otherwise the conics were circles, or as in
+
+ his Figure 6, partial circles. If we consider when figures were invoked, they remain
+
+ linked to preliminary and more particular theorems rather than the general results
+
+ derived through projection and reciprocity.
+
+ Despite the elementary nature of the figures, they contained recent geometric inno
+
+ vations. Specifically, both Steiner's Figure 3 and his Figure 4 indicated an infinite
+
+ point P' as the intersection of parallel lines. As in the figures of Poncelet in his Tratte,
+
+ the point at infinity was suggested as being off the page (Poncelet 1822). In general
+
+ izing his theorems, Steiner referred to cases where the points of intersection passed to
+
+ infinity or were situated at infinity. These procedures of projection, perspective, and
+
+ reciprocity maintained an analogy to constructive results yet extended beyond their
+ constructive limitations.
+
+ The aphoristic style that Steiner perceived in his introductory letter to Gergonne
+
+ was observed and criticized by his readers. An anonymous reviewer in the Bulletin
+
+ summarized Steiner 1828d as containing too many theorems even to list within the
+
+ bounds of the review. The reviewer continued that while Steiner's fruitfulness might be
+
+ impressive, his complicated presentation required extraordinary patience and fortitude
+
+ even for a well-disciplined reader.
+
+ This memoir indicates, in M. Steiner, a great force of mind, and much habituation
+
+ to the resources of geometry; but the manner of the author's proceeding, and the
+
+ often rather complicated figures and constructions, to which he has recourse,
+
+ make the going slow and the reading painful. (Anonymous 1828, 245)41
+
+ In conclusion, the reviewer recommended the use of analytic geometry, or some other
+
+ of "the broad methods [les larges methodes] from the school of Monge," to render
+
+ Steiner's results with less difficulty and greater brevity. In fact, the reviewer had already
+
+ read Plücker's article [also reviewed in (Anonymous 1828)], which did exactly that.
+
+ 3.3 Pliicker proves Lame's theorem: "Recherches sur les courbes algebriques
+
+ de tous les degres" (1828)
+
+ Plücker's research on algebraic curves appeared only 30 pages later in the same Annales
+
+ volume (Pliicker 1828b). Steiner's article had been classified as pure geometry and
+
+ Plücker's was classified as analytic geometry. Though either article might have fit
+
+ equally well under the heading geometry of curves, their disparate classifications
+
+ contrasted with their proximity. Further, Plücker's research was succinct and driven
+
+ toward a clearly enunciated goal. He promised to deduce a great number of properties
+
+ of algebraic curves, while refraining from calculation. Plücker would continue these
+
+ investigations with respect to algebraic surfaces in another essay.
+
+ 41 "Ce memoire decele, chez Μ. Steiner, une grand force de tete, et beaucoup d'habitude des ressources
+
+ de la gfom6trie; mais la maniere de proceder de l'auteur, et les figures et constructions, souvent assez
+
+ compliquies, auxquelles il a recours, en rendent la marche lente et la lecture penible."
+
+ <£} Springer
+
+This content downloaded from 203.78.15.150 on Sun, 17 May 2020 09:58:23 UTC
+All use subject to https://about.jstor.org/terms
+
+ Synthetic and analytic geometries in the publications.
+
+ 449
+
+ The article comprised three sections. The first motivated the research with a review
+
+ of Cramer's paradox and a discussion of well-known curve properties. Pliicker cited
+
+ Gabriel Cramer as the first geometer to have noticed, in his Introduction ä I'analyse
+
+ des courbes algebriques (1750), that a planar curve of degree m was completely deter
+ mined by — 1 points, but two planar curves of this degree could intersect
+
+ in up to m2 points. When m > 2, there was an apparent paradox, since different
+
+ curves could share as many or more points than the number required to completely
+
+ determine one of them. For instance, when m = 3 two planar curves could intersect
+
+ in 9 points, which should determine a single curve of degree 3. Following Cramer,
+
+ Pliicker explained this seemingly "surprising" result by remarking that when com
+
+ pletely determining a planar curve one always assumed the given points were chosen
+
+ "by chance and contain no particular common relation." Turning to his own research
+
+ in the theory of osculating curves and its geometric interpretation, Pliicker had met
+
+ several similar theorems that initially appear rather "singular," but were "very fruitful
+
+ with beautiful corollaries." Though these theorems had appeared elsewhere (Pliicker
+
+ did not say where precisely), he would reproduce them here in a more developed
+ manner followed by some of their applications.42
+
+ The second section contained Plücker's two main theorems and their proofs, these
+
+ were the only theorems labeled and enumerated in the text. Pliicker began with an
+
+ analytic representation of the properties discussed in Section I, showing that if one
+ represented two curves of any degree m > 2 as
+
+ then the equation of the same degree
+
+ Μ = 0, Μ' = 0,
+
+ μΜ + Μ' = 0,
+
+ in which μ is a constant indeterminate coefficient, would express an infinity of other
+
+ curves of degree m passing through the m 2 points of intersection of Μ, M'. But if one
+
+ found an arbitrary new point on one of the curves, one could find μ from the result
+
+ ing linear equation, and so the curve containing the new point would be completely
+
+ determined. Pliicker continued with this line of reasoning in the case where there were
+
+ ΗΠ ' ^ ~ 2 given points (one fewer than to completely determine a conic). He
+ then invoked the principle of duality, which extended the result from curves of a given
+ degree and fixed points to corresponding curves of a given class and fixed lines. Fol
+
+ lowing these dual results, Pliicker demonstrated his Theorem I in parallel columns.43
+
+ 42 Plücker would return to Cramer's Paradox in the second volume of his Analytisch-geometrische Entwick
+ lungen, published in 1831 (Plücker 1831,242).
+
+ 43 In all theorems in this article, Plücker consistently described both given and deduced points and lines as
+ "fixed," perhaps in order to fix the general equation of the second-order curve.
+
+ "ΤΗέΟΚΕΜΕ I. Toutes les courbes du m.'eme degr£ qui passent par les 2^ ■ 2^2 - 2 memes points
+
+ fixes, se coupent en outre aux m2 — (2tjti · 21^2 — 2), autres memes points fixes."
+
+ "THEORfeME I. Toutes les courbes du m.'eme classe qui passent par les 2^jti · 2ij2 _ 2 memes droites
+
+ fixes, se coupent en outre aux m2 — (2ijti · m^· — 2), autres memes droites fixes."
+
+ £} Springer
+
+This content downloaded from 203.78.15.150 on Sun, 17 May 2020 09:58:23 UTC
+All use subject to https://about.jstor.org/terms
+
+ 450
+
+ J. Lorenat
+
+ THEOREM I. All the curves of mth degree that
+
+ THEOREM I. All the curves of mth class that are
+
+ pass through the same 2^1. ZL+I _ 2 fixed
+
+ points will also meet in m2 - (™+_L . m+1 _ 2)
+
+ other fixed points
+
+ tangent to the same - 2 fixed lines,
+ are also tangent to m2 - - 2) other
+ fixed lines
+
+ As an example, and still in parallel columns, Plücker detailed the case of third
+
+ degree curves passing through the same eight points and thus meeting in a ninth fixed
+
+ point. The parallel dual case treated third-degree curves tangent to the same eight lines
+
+ and thus tangent to a ninth fixed line. Similarly, fourth-degree curves passing through
+
+ thirteen points would meet in an additional three fixed points, and so on. Returning to
+
+ a single column of text, Plücker noted that some of the points could be of higher order
+
+ and so not necessarily unique.
+
+ Plücker then continued to consider the situation when the coefficients of the repre
+
+ sentative equations were not indeterminate, but instead subject to certain conditions,
+
+ which would serve to lower the number of necessary fixed points for the theorem's
+
+ hypothesis. Plücker summarized these results in Theorem II, presented in only one
+ column.
+
+ Given η coefficients of the general equation of mth degree in two variables,
+
+ or given η linear equations among all or part of these coefficients; then all the
+
+ curves represented by the general equation, so modified and passing by the same
+
+ ■ <ψ - (η+2) fixed points, will meet in the same m2 - ^±1. ϋψ + („+2)
+
+ other fixed points, (ibid, 101)44
+
+ Plücker concluded his second section with a reminder that the theorem required the
+ inequality, η > ίηρ ■ - 1.
+
+ In the third and final section, Plücker demonstrated the fruitfulness of Section II,
+
+ by showing assorted examples of easily deducible curve properties, including Lame's
+
+ Theorem. In particular, Plücker focused on consequences of Theorem II, which could
+
+ be applied to second-degree curves. In this case, given η coefficients or η linear equa
+
+ tions containing the coefficients, then all the curves passing through 4 — η fixed points
+
+ would have η additional fixed points in common.
+
+ Plücker considered a general equation of a second-degree curve in two indetermi
+
+ nate variables with six coefficients.
+
+ Ax2 + By2 + Cxy + 2Dx + 2Ey + F = 0. (1)
+
+ Then if F was supposed known, any combination of four coefficients, equations con
+
+ taining coefficients, or points on the curve (e.g., one coefficient and three points)
+
+ would give an infinite number of curves passing through the same four points. This
+
+ relationship formed the basis for all Plücker's subsequent investigations in this article.
+
+ 44 "Etant donnas η coefflciens de liquation genirale du m.'eme degre ä deux ind&ermin&s, ou encore
+ itant donnees η equations liniaires entre tous ou partie de ces coefficiens ; toutes les courbes reprisent^es
+ par liquation generale, ainsi modifiee et passant par les — (n + 2) memes points fixes donnes,
+
+ se couperont en outre aux m2 - 2^ti . 21+2 (n 2) autres memes points fixes."
+
+ Springer
+
+This content downloaded from 203.78.15.150 on Sun, 17 May 2020 09:58:23 UTC
+All use subject to https://about.jstor.org/terms
+
+ Synthetic and analytic geometries in the publications..
+
+ 451
+
+ Plücker began with the special case of the equilateral hyperbola. In rectangular
+ coordinates, the equation representing an equilateral hyperbola would have coeffi
+ cients such that A + Β = 0. Such an equation reduced the number of necessary
+
+ givens in equation (1). Drawing from this condition, Plücker determined that all
+ equilateral hyperbolas sharing three given points would meet in a fourth point.
+
+ Since systems of two perpendicular lines could be considered as hyperbolas, Plücker
+
+ applied the property to show that the three heights of a triangle concur in the same
+
+ point.45
+
+ Plücker returned to the general conic. From (1), Plücker concluded that knowing
+
+ either ratio j or § would give two conjugate diameters of the curve, where one would
+ be parallel to one of the coordinate axes. Thus all conics with two conjugate diameters
+
+ parallel to two fixed lines and passing through three fixed points would meet in a fourth
+
+ fixed point, and conversely.
+
+ In particular, the equation of a diameter whose conjugate was parallel to the x-axis
+
+ would be By + Cx + Ε = 0. So if the ratio J- were given, then one would know
+ the intersection point of the given diameter with the >'-axis. That is, if the >'-axis met
+
+ the curve, then the intersection point would be the midpoint of the chord intercepted.
+
+ Further, given any coordinate point (a, b) on the diameter's extension, one could
+
+ conclude that Bb + Ca + Ε = 0. Similarly, if one were given another point (a', b'),
+
+ now on the extension of the diameter whose conjugate was parallel to the y-axis, then
+ Aa' + Cb' + D = 0.
+
+ Continuing this investigation with a given line of the form ax + ßy + γ =0,
+ Plücker found that the equation of the diameter whose conjugate was parallel to this
+
+ given line would be a(By + Cx + E) = ß(Ax + Cy + D), a linear equation relating
+ A, B, C, D, Ε. One could then be given one, two, three, or four equations of the same
+
+ form containing Α, Β, C, D, Ε. In the last case, and supposing one of the coefficients
+
+ as given, the curves would be completely determined except for the last term F. From
+
+ these considerations, Plücker deduced "immediately" [sur-le-champ] that all conics
+
+ passing through three given points and in which the conjugates of the diameters that
+
+ were parallel to the same fixed line concurred in the same fixed point, would meet at a
+
+ fourth point. Further, if any number of conics passed through the same four points, the
+
+ conjugates of their diameters parallel to the same fixed line would concur in a fixed
+
+ point.
+
+ The latter result, in which we recognize Lame's theorem, Plücker indeed attributed
+
+ to Lame, giving a precise citation of the Annales VII, page 229. He suggested that the
+ theorem could be "completed" as follows.
+
+ If the line to which the diameters are parallel turns on one of its points, the point
+
+ of concurrence of the diameters describes a conic, the geometric locus of the
+
+ centers of all conics through the four given points (*).
+
+ 45 Though not relevant to the remainder of his argument, Pliicker's unexpected triangle result provided a
+
+ striking contrast to Steiner's proof of the same result, merely 70 pages earlier in the same journal.
+
+ Springer
+
+This content downloaded from 203.78.15.150 on Sun, 17 May 2020 09:58:23 UTC
+All use subject to https://about.jstor.org/terms
+
+ 452
+
+ J. Lorenat
+
+ If two conics intercept, on the same given line, chords whose midpoints coincide;
+
+ then the same thing will occur for all the conics which, passing by the four points
+
+ of intersection of these two, intercept the given line, (ibid, 105)46
+
+ Finally, Pliicker generalized the result for conics passing through 4 -n given points,
+
+ which would then have conjugate parallel diameters meeting in η points. Pliicker
+ explained that if η = 4, then the conics would be similar and concentric such that
+
+ the given points of intersection would pass to infinity. Plücker's consideration of this
+
+ special case shows an attention to Poncelet's innovations in the Traite des proprietes
+
+ projectives in which he established the common points at infinity among similar,
+ concentric conics.
+
+ Pliicker used coordinate equations without digressing into computation. He pre
+ sented the necessary equations representing conjugate parallel diameters as known,
+ from there the reader only needed to count the number of coefficients and the num
+
+ ber of givens in order to reach the desired result. The entire article remained within
+
+ the system of rectangular coordinate equations. The conic section was represented
+
+ exactly by (1), and Pliicker seemed to use the two terms of reference (conic and equa
+
+ tion) interchangeably in his proofs. Specific conics, such as the equilateral hyperbola,
+
+ were designated with respect to their coordinate relations in (1). Plücker's only men
+
+ tion of constructing the determined conics was to point out that the construction of a
+
+ fourth point shared by two conics would be very easy and one could then find all the
+
+ points one desired. Nowhere did he give a constructive procedure and there were no
+
+ problem solutions, only theorems and proofs: That this was geometry, and not alge
+
+ bra, was emphasized in the names of things, equations represented geometric objects.
+
+ While equations and not figures were the form of representation, the objects remained
+
+ conic sections, diameters, parallel lines, hyperbolas, and points of intersection. Just as
+ Steiner's figures were nowhere to be seen in his theorem statements, so, too, Pliicker
+
+ made no mention of his coordinate equations and coefficients when stating theorems.
+
+ Though Lame and Pliicker both used coordinate equations to represent geometric
+
+ objects, we begin to see how the label "analytic geometry" carried dissonant connota
+
+ tions in the context of the two different publications over ten years apart. Lame would
+
+ introduce the use of abridged notation in 1818, but in 1817 he relied upon standard
+
+ coordinate equations to represent curves and surfaces. In Lame's exposition, the equa
+
+ tions became increasingly complex and numerous. While his paper did not include
+ a great deal of calculation, this was because Lame left the elimination of variables
+
+ to the reader and simply showed the end result. In part relying upon the technology
+
+ developed by Lam6, Pliicker could use symmetry and the best choice of coordinate
+
+ axes to simplify his equations. Pliicker further avoided calculation by emphasizing that
+
+ the curves could be determined, without showing how one might use a given equa
+
+ 46 "Si la droite, ä laquelle les diam&tres sont paralleles, tourne sur l'un quelconque des points de sa direction,
+ le point de concours des conjuguis de ces diam&res decrira une conique, lieu geomitrique des centres de
+
+ toutes les coniques passant par les quatre points donnes (*)."
+
+ "Si deux coniques sont telles qu'elles interceptent, sur une meme droite donnee, des cordes dont les milieux
+
+ coincident; la meme chose aura lieu pour toutes les coniques qui, passant par les quatre points d'intersection
+
+ de ces deux lä, couperont la droite donn6e (*)."
+
+ The asterisk will be explained in Sect. 3,4.
+
+ ö Springer
+
+This content downloaded from 203.78.15.150 on Sun, 17 May 2020 09:58:23 UTC
+All use subject to https://about.jstor.org/terms
+
+ Synthetic and analytic geometries in the publications.
+
+ 453
+
+ tion to find the exact coefficients. These specific, computationally derived, results
+
+ were not Plücker's aim. With these techniques, his form of analytic geometry without
+
+ calculation appeared more frequently in this article than it had in his earlier research.
+
+ As pointed out in Cournot's 1828 review, Plücker often progressed toward already
+ known results, rather than making new discoveries (Cournot 1828, 178). However,
+
+ his approach to these known results incorporated recent developments that had not
+
+ yet been represented through coordinate equations. Gergonne had introduced dual
+
+ columns that showed corresponding geometric results side-by-side in 1824, but they
+
+ had been used almost exclusively in non-coordinate geometry since that time. In this
+
+ article, Plücker used dual columns to state his theorems and showed how to apply
+
+ polar reciprocity in his final example, where he provided an equation that represented
+
+ when one point with coordinates (a, b) lay on the polar of another point (a', b') with
+
+ respect to the second-order curve (1).
+
+ Aaa' + Bbb' + C(ab' + ba') + D(a + a') + B(b + b') + F = 0
+
+ Plücker deduced from the symmetry of equation that the result was reciprocal—the
+
+ point (a', b') lay on the polar of the point (a, b).
+
+ Plücker further incorporated new geometric practices with his use of common
+
+ points at infinity shared by any concentric conics. Poncelet had originally motivated
+
+ this choice of terminology to provide an interpretation within "pure geometry" of
+
+ the imaginary points from "analytic geometry," where one could in general represent
+
+ points of intersection for any two second-degree equations. Plücker did not provide a
+
+ coordinate representation for these points, although the step of sending points or lines
+
+ to infinity was not strictly constructive either. Within research articles, it was becom
+
+ ing a common procedure, even in articles that Gergonne designated as "elementary
+
+ geometry" [such as in Steiner (1828c)]. Plücker demonstrated a strong familiarity with
+
+ contemporary research, and an eagerness to expand the domain of analytic geometry.
+
+ With the new geometric objects developed by Poncelet and the new abridged notation,
+
+ the practice of using coordinate equations to solve geometry problems was evolving.
+ His review in the Bulletin (two pages after Steiner's) credited Plücker with demon
+
+ strating, without any sort of calculation, a multitude of properties of second-order lines
+ (Anonymous 1828).
+
+ 3.4 Gergonne's footnote, citation, and text
+
+ The asterisk in Plücker's declared completion of Lamp's theorem (Sect. 3.3) referred
+
+ the reader to a footnote by Gergonne who succinctly stated that "this is precisely
+
+ what was demonstrated on page 106 of the preceding volume." Gergonne's note was
+
+ perhaps not precisely Plücker's statement, but certainly a special case. There, Gergonne
+
+ had given a proof that the conjugates of the parallel diameters of all the ellipses
+
+ circumscribed to the same quadrilateral concur in a point and this point was constantly
+
+ on the perimeter of the hyperbola which was the locus of centers of the ellipses
+
+ (Gergonne 1827). The first part of the result was attributed to Lame, although a different
+
+ text than Plücker's citation. As reference in an accompanying footnote, Gergonne
+
+ Ö Springer
+
+This content downloaded from 203.78.15.150 on Sun, 17 May 2020 09:58:23 UTC
+All use subject to https://about.jstor.org/terms
+
+ 454
+
+ J. Lorenat
+
+ pointed to "a very elegant proof of this proposition, as well as many other interesting
+
+ things, in a little work of Lame, Examen des differentes mithodes, etc." (Gergonne
+ 1827, 106).47
+
+ Gergonne, although proving the extended version of this theorem, attributed the
+
+ original statement to an article by Steiner in Crelle's Journal from 1827 written in
+
+ response to a question posed by the geometer Etienne Bobillier in the Annales on
+
+ finding an ellipse closest to a circle given certain constraining conditions (Steiner
+
+ 1827b).48 Despite admiring what he described as Steiner's elegant theorem, Gergonne
+
+ expressed dissatisfaction with the proof, claiming that it too often relied upon what
+
+ Steiner described as "generally known" results, while they were not well known at all.
+
+ Gergonne did not attempt to reconstruct Steiner's proof, instead taking the material in
+
+ his own direction. While Steiner's proof had been constructive and figure-based, Ger
+
+ gonne's proof relied upon calculations with coordinate equations and did not include
+ descriptions of figures. Accordingly, Gergonne did not consider this a translation or
+
+ abridgment of Steiner, but claimed it as an independent result. Like Pliicker, Ger
+
+ gonne began with the same general form of a conic, Eq. (1). Unlike Pliicker, he then
+
+ introduced many other variables to serve in algebraic, trigonometric, and differential
+
+ calculations, which were eventually simplified to reach the desired conclusions. The
+
+ proof only applied to ellipses and resulting hyperbola loci, not a general second-order
+
+ curve. Further, Gergonne made no comment on the particularity of his version nor
+
+ whether one might be able to extend the results to other conic sections.
+
+ Readers of the Annales, and certainly Steiner among them, might have known that
+
+ Steiner had already given another version of Lame's Theorem in an earlier context. On
+
+ the one hand, Lame's theorem and its proof was known, as the common citation in all
+
+ three articles demonstrates. On the other hand, Steiner's extreme brevity (his article
+
+ runs less than two full pages in Crelle's Journal-Gergonne's analytic proof of the
+
+ same results goes for ten), certainly demanded a great deal of background knowledge
+
+ on the part of his reader. However, we suggest that Gergonne's proof in the Annales
+
+ was also motivated by an opportunity to advertise his prowess in analytic geometry, as
+
+ he had done earlier with the Apollonius problem. Steiner himself made no reference
+
+ to this earlier result when returning to Lame's theorem the following year, and as we
+
+ have seen his statement of the theorem took quite a different form without conics or
+
+ conjugate diameters in this later version, and it is only through Gergonne's reference
+
+ that we are able to identify the two results as following from the same source, further
+
+ attesting to the popularity of proving Lame's theorem.
+
+ That Lame's theorem was repeatedly re-proven was not a statement against the validity
+
+ of Lame's original proof. Then why prove Lame's theorem again and again? Certainly,
+
+ 47 "[...] une demonstration fort eligante de cette proposition, ainsi que beaucoup d'autres choses interes
+
+ santes, dans un petit ouvrage de Μ. LAMß, ayant pour titre : Examen des differentes methodes, etc."
+
+ 48 This example of cross-pollination between journals shows the overlapping audience between the publi
+ cations from Berlin and Montpellier in the late 1820s.
+
+ 3.5 Conclusions
+
+ ·£) Springer
+
+This content downloaded from 203.78.15.150 on Sun, 17 May 2020 09:58:23 UTC
+All use subject to https://about.jstor.org/terms
+
+ Synthetic and analytic geometries in the publications.
+
+ 455
+
+ none of these texts aimed at a comprehensive or systematic survey of properties of
+
+ conic sections. Steiner's collection of theorems had little overarching design. Similarly,
+
+ Plücker described his own applications as a chance assortment of possible results. Both
+
+ geometers hinted at selecting examples from a vast wealth of other similar results. With
+
+ Lame's theorem, either geometer might have simply cited the well-known result, but
+
+ chose instead to use the opportunity to show off their particular methods. Yet, neither
+
+ geometer attempted a self-contained exposition. Steiner pointed the reader vaguely to
+
+ Carnot for the rationale behind finding a point of determinate ratio. Even less explicitly,
+
+ Plücker introduced several equations with the preface "one knows," while his use of
+
+ coordinate equations assumed a familiarity with the second-degree equation for conic
+
+ sections, a topic common in textbooks on analytic geometry or algebra applied to
+
+ geometry.49
+
+ Although Plücker and later Steiner promoted new methods over new results, the
+
+ resulting theorem statements in their articles obscured the derivation and innova
+
+ tion. Alongside the association of projective techniques with modern geometry, they
+
+ described their methods as "elementary," thus further connecting their texts, if not to
+
+ Euclid, then at least to Apollonius. Certainly, the problems and theorems about planar
+
+ geometric objects seemed to adhere to this tradition. Steiner and Plücker stated their
+
+ theorems without revealing their respective methods. In his proofs and figures, Steiner
+
+ defined each point and line with respect to a given conic section. However, this conic
+
+ section remained unmentioned in the subsequent theorem. Since three non-collinear
+
+ points uniquely determined a circle, there was no need to explicitly describe it. Plücker
+
+ stated that the representation of geometric objects with coordinate equations was well
+
+ known, but no coordinate equations appeared in his theorems. Instead, "all conics"
+
+ implied the general second-degree equation in two variables with six coefficients that
+
+ Plücker had introduced earlier in his article.50 For both geometers, the method could
+ not be inferred from the individual results.
+
+ In 1832 Steiner published his first book, Systematische Entwicklung der
+ Abhängigkeit geometrischer Gestalten von Einander, mit Berücksichtigung der
+ Arbeiten alter und neuer Geometer über Porismen, Projections-Methoden, Geome
+
+ trie der Lage, Transversalen, Dualität und Reciprocität, etc., where he developed a
+ public formal statement of his personal geometric method (Steiner 1832). However,
+
+ even in this context, Steiner did not exclude or denigrate other geometric methods.
+
+ To the contrary, in prefacing a list of posed problems and theorems for his readers,
+
+ he offered the option of employing and practice his method or of following another
+ method instead (Steiner 1832, 439). In this later text, Steiner differentiated a spe
+
+ cific type of pure intuition in geometry. In particular, he claimed that stereometry and
+
+ three-dimensional geometry could be better understood without means to make them
+
+ graspable by the senses [Versinnlichungsmittel], such as figures or equations. Instead,
+
+ one could correctly perceive these constructions [Gebilde] only through the use of
+
+ 49 To take one example among many, in Lacroix's popular Traite elementaire de trigonometric rectiligne et
+
+ spherique, et d'application de I 'algebre a la geometrie he demonstrated that Ay2+Bxy+Cx2 + Dy+Ex =
+
+ F is the general form of the equation for all conic sections, drawing upon results proved in elementary
+ geometry and algebra (Lacroix 1807, 154-172).
+
+ 50 In these articles, neither geometer addressed the degenerate conic composed of two straight lines.
+
+ £) Springer
+
+This content downloaded from 203.78.15.150 on Sun, 17 May 2020 09:58:23 UTC
+All use subject to https://about.jstor.org/terms
+
+ 456
+
+ J. Lorenat
+
+ inner imagination [innere Vorstellungskraft] (ibid, 306). This statement from Steiner
+
+ marks a departure from the kind of geometry employed in his planar solution to the
+
+ Apollonius problem and proof of Lame's Theorem, in which he relied on figures to
+
+ introduce constructions and support textual explanations.
+
+ Steiner's desire for systematicity, unity, and intuition was not immediately apparent
+
+ in these shorter articles, many of which Steiner presented as excerpts from his longer
+
+ work. Steiner cited these virtues in his correspondence and unpublished work from
+
+ 1826 onward [excerpted in Lange (1899)], but these claims did not manifest pub
+
+ licly until his first monograph.51 Like his article on the Apollonius problem, Steiner's
+
+ monograph began with definitions built up from relationships between coplanar points
+
+ and lines. This feature was absent in many of his other articles in the Journal and the
+
+ Annales. Steiner's earliest publications were in part aimed at establishing priority
+
+ and independence in his research domain. In the context of circle relations and the
+
+ Apollonius problem, Steiner was able to achieve both a thorough, systematic exposi
+ tion in an article format. However, not only Steiner, but also Gergonne (1817b) and
+
+ Poncelet (1817), often previewed their newest research on conic sections by merely
+
+ listing results or providing solutions without proof. While his specific results could
+
+ appear disjointed and even unexpected, Steiner suggested a uniform and followable
+
+ form of geometry in his overarching pattern of proofs, constructions, and definitions.
+
+ In his proofs, Steiner began with what he wanted to show and worked backward to
+
+ initial conditions, a strategy that could be used to extend a particular result to fur
+
+ ther cases. Similarly, in his research on tangent circles, Steiner methodically extended
+
+ his definitions from points, to two circles, to sets of circles in the plane, in space,
+
+ or on the surface of a sphere. As discussed above, Steiner's argument structure was
+
+ perhaps more imitable in his mode of generalization through projection, perspective,
+
+ reciprocity, and points at infinity. In this way, Steiner demonstrated an applicable
+
+ method of discovery and achieved some systematic unity at this structural level that
+
+ was sometimes obscured by the proliferation of new results.
+
+ Plücker's methodological position emerged more powerfully in his Analytisch
+
+ geometrische Entwicklungen (Plücker 1828a). In the preface, he described his method
+ as "new" and "pure analytic geometry" such as that of Gaspard Monge. Plücker
+ drew attention to his method in order to differentiate his results from those recently
+
+ announced by Steiner in the first two volumes of Crelle's Journal and pointed out
+
+ that Steiner had merely stated his findings, often without proof, so seemed to be
+
+ 51 Steiner's lifelong dedication to these higher principles is attested by Jacobi's 1845 letter of recommen
+
+ dation for Steiner to receive a full professorship, in which Jacobi summarized Steiner's contributions over
+
+ the past twenty years. Jacobi described Systematische Entwicklung as a holistic and exemplary text for all
+ of mathematics.
+
+ Thus he revealed the Organismus through which diverse manifestations in space are interconnected,
+
+ he has not only promoted geometric synthesis, but also established a model of a perfect method and
+ execution for all other branches of mathematics. (Jahnke 1903,278)
+
+ Indem er so den Organismus aufdeckte, durch welchen die verschiedenartigsten Erscheinungen in
+ der Raumwelt miteinander verbunden sind, hat er nicht bloss die geometrische Synthese gefördert,
+
+ sondern auch für alle anderen Zweige der Mathematik ein Muster einer vollkommen Methode und
+
+ Durchführung aufgestellt.
+
+ Springer
+
+This content downloaded from 203.78.15.150 on Sun, 17 May 2020 09:58:23 UTC
+All use subject to https://about.jstor.org/terms
+
+ Synthetic and analytic geometries in the publications.
+
+ 457
+
+ "following in the footsteps of Poncelet." Yet, as suggested by Crelle's letter of rec
+
+ ommendation described above, Plücker's preface was not necessarily indicative of his
+
+ monograph's contents, the first volume of which PI ticker had written before reading
+
+ the work of either Poncelet or Steiner. Moreover, we suspect that Plücker may have
+
+ directly belittled Steiner's recent publications as derivative in order to further contrast
+
+ the independence of his own work.
+
+ In Plücker's form of analytic geometry examined here, he began with a general
+
+ initial theorem pertaining to curves of any degree. He then proceeded to focus on the
+
+ more particular case of second-degree curves. His arguments were clearly introduced
+
+ and his use of coordinate equations was straightforward, but did not suggest applica
+
+ bility beyond variations on the same theme of four given conditions to determine a
+
+ set of conic sections because the number of variables was so crucial to the argument.
+
+ For Plücker the use of coordinate equations to represent geometric objects opened
+
+ a path toward simplification for analytic geometry, a contribution that in his view
+
+ outweighed discovering particular theorems or problems. Plücker remained vocally
+
+ committed to his analytic geometry throughout his career. In a letter to Poncelet from
+
+ 1835, he explained his recent findings on the relationship between curves of any order
+ and their duals:
+
+ I have still not decided if I will print the general results that I have reached all
+
+ together or in a memoir, in German or in French. Regardless, I still must make
+
+ it analytic geometry. (Plücker 1835a)52
+
+ His subsequent publication of these results in 1835 (summarized in French in Crelle's
+
+ Journal and proved in German in his monograph System der analytischen Geometrie)
+
+ employed homogeneous coordinates, exhibiting a form of analytic geometry only
+
+ introduced five years prior and thus beyond the scope of Monge's publications (Plücker
+ 1834, 1835b).
+
+ By the end of their careers, Steiner and Plücker had become emblematic of the
+
+ competing methods of analysis and synthesis. Contrary to these stereotypes, neither
+
+ exhibited an orthodoxy of method in these early articles. Further, as responses to their
+
+ publications show, the line between pure and analytic geometry was but faintly drawn
+
+ and could be characterized neither in terms of calculation nor by the presence of fig
+
+ ures. Both Steiner and Plücker used some calculation and both geometers provided
+
+ constructions based in figure manipulation (in Plücker's monograph and his articles in
+
+ Crelle's Journal, there are illustrated figures too). The tools of figures and calculation
+
+ were at times complementary and certainly served different purposes, one could not
+
+ replace the other. For Steiner and Plücker, a proof using algebraic computation of
+
+ coordinate equations without translation into figures would not qualify as a geometric
+
+ solution. Analogously, while the common (ideal) chord between two non-intersecting
+
+ conics could be easily portrayed in a linear equation, drawing such an object defied
+
+ common sense (and in part explains why the less figurative term "radical axis" was
+
+ often preferable). As we can see by comparison with the contemporary geometries of
+
+ 52 "Je ne suis pas encore άέάάέ si je ferai imprimer les r6sultats g6n6raux auxquels je suis parvenu, le tout
+ ensemble ou par mimoire, en allemand ou en franfais. Malgre moi je dois encore faire de la giomitrie
+ analytique."
+
+ •ö Springer
+
+This content downloaded from 203.78.15.150 on Sun, 17 May 2020 09:58:23 UTC
+All use subject to https://about.jstor.org/terms
+
+ 458
+
+ J. Lorenat
+
+ Gergonne, Poncelet, and Lame, as well as the wider reception and attempted classifi
+
+ cations of their work, it does not make sense to speak only of synthetic geometry for
+
+ Steiner and analytic for Plücker. Their ways of doing geometry were peculiar to them.
+
+ Within constructive, planar geometry, evolving techniques allowed addressing the
+
+ same problem from numerous different approaches. Geometers emphasized the dif
+
+ ferences between their methods in part to compensate for the similarity of their results
+
+ when describing their work, or when their work was described by others. In 1839,
+
+ Crelle wrote a letter of support for Plücker to the ministry of culture, in which various
+
+ styles of synthetic geometry were lumped together in order to differentiate Plücker's
+ contributions.
+
+ The analytical opposed, or rather next to its ruling synthetic method, by which
+
+ Poncelet, Möbius, etc. and especially Steiner have accomplished so much that is
+
+ so admirable, can succeed as well in all results, however the further development
+
+ of mathematics occurs almost more with the improvement of method than the
+
+ results; because the methods are the tools to promote still further new results;
+
+ and to the improvement of the analytic method in geometry, in my opinion, Herr
+
+ Plücker has in turn acquired meaningful and significant worth by his earlier and
+
+ now the present writings. (Ernst 1933, 31)53
+
+ From a different perspective, we have seen how French mathematicians associated
+
+ Steiner and Plücker as German geometers. As Steiner was of Swiss origin and Germany
+
+ as a nation had yet to exist, this designation appears to be derived from their common
+
+ language. Similarly, Crelle's Journal, published in Berlin, was considered a German
+
+ publication. The association with German scholars and "complication," as mentioned
+
+ in Cournot's review of Plücker (Sect. 2.6), may have also had its origins in linguistic
+
+ differences more than mathematical ones. As "foreigners," the French reception of
+
+ both geometers emerged through the influential filter of Gergonne and his journal.
+ Gergonne appeared to respect and value the contributions of Steiner and Plücker,
+
+ but, as comparisons between manuscripts and publications reveal, he exercised strong
+
+ editorial intervention. Whether neutral or critical, this label imposed by their French
+
+ colleagues may have further prompted Steiner and Plücker to distance themselves
+ from each other.
+
+ This same muting of idiosyncrasies between Poncelet and Steiner as synthesists or
+
+ between Gergonne and Plücker as analysts, each of whom saw the other's work as very
+
+ different, could be perceived as an apparent dichotomy. The image of geometry that
+
+ appeared in the late nineteenth century portrayed their predecessors as separated and
+
+ ultimately calcified by a spurious methodological divide. In support of this image, this
+
+ next generation of geometers, especially those who wrote biographies and histories
+
+ 53 "Auch die der analytischen gegenüberstehende, oder vielmehr neben ihr bestehende synthetische Meth
+ ode, mit welcher Poncelet, Möbius usw. und besonders Steiner so Vieles und Bewunderungswertes geleistet
+
+ haben, mag zu allen Resultaten ebenfalls gelangen können, indessen kommt es bei der weiteren Entwick
+
+ lung der Mathematik fast noch mehr als auf die Resultate auf die Vervollkommnung der Methoden an;
+
+ denn die Methoden sind die Werkzeuge, um immer noch weitere neue Resultate zutage zu fördern; und
+
+ um der Vervollkommnung der analytischen Methode in der Geometrie hat sich nach meiner Überzeugung
+ Herr Plücker seinerseits schon durch seine früheren Schriften und jetzt wieder durch die vorliegende, ein
+ wesentliches und bedeutendes Verdienst erworben."
+
+ Springer
+
+This content downloaded from 203.78.15.150 on Sun, 17 May 2020 09:58:23 UTC
+All use subject to https://about.jstor.org/terms
+
+ Synthetic and analytic geometries in the publications.
+
+ 459
+
+ like Alfred Clebsch, Gaston Darboux, Felix Klein, and Gino Loria, cited the frequent
+
+ methodological claims made by their predecessors. Yet, as we have seen, the method
+
+ ological claims did not always coincide with the qualities of the particular geometer
+
+ or of the recurring content.
+
+ Just as the choice of a problem or theorem did not limit what geometric method
+
+ could be applied, so the designation of one or another geometric method did not limit
+
+ the author's particular approach. Rather than static and opposing methods, Steiner and
+
+ Plücker respectively allied their work to evolving practices that changed in response
+ to their contributions.
+
+ While Klein pointed to the opposition between Steiner and Plücker as mirroring the
+
+ opposition between synthetic and analytic methods, his personal description of each
+
+ geometer belied his classifications of methods that we considered in our introduction.
+
+ Klein provided a nuanced overview of Pliicker's geometric method dominated by
+ his skillful "internal intuition" [inneren Anschauung] (Klein 1926, 122). To Klein,
+
+ Plücker appeared as visually focused on the "true geometric image of forms" [die
+
+ wahre geometrische Gestalt des Gebildes], rather than calculations (ibid, 125). In
+
+ summarizing Steiner's contributions, Klein noted his systematic treatment of geometry
+
+ and peculiar "art of instruction." As an example, Klein relayed how Steiner's devotion
+
+ to the Socratic method extended so far as to not include figures in his geometry lessons.
+ Instead,
+
+ [...] the active thinking of the listener should produce such a clear picture in his
+
+ mind that he could dispense with the sensory evidence, (ibid, 128)54
+
+ So, while Plücker, the analytic geometer, emphasized the visual and intuitive proper
+
+ ties of geometry, Steiner, the synthetic geometer, excelled at systematizing but often
+
+ avoided graphical representations.
+
+ References
+
+ Anonymous. 1826. 142. Annales de math^matique pures et appliquöes; par Μ. Gergonne; Tom. XVII,
+
+ nos. 2 et 3, aoüt et septemb. 1826. Bulletin des sciences mathematiques, astronomiques, physiques et
+ chimiques 6: 271-274.
+
+ Anonymous. 1827.152. Annales de mathematiques pures et appliquöes, par Μ. Gergonne; Tom. XVIII, nos.
+
+ 1 et 2, juill. et aoüt 1827. Bulletin des sciences mathematiques, astronomiques, physiques et chimiques
+ 8:172-174.
+
+ Anonymous. 1827. 216. Annales de mathimatiques pures et appliquöes, par Μ. Gergonne; Tom. XVII,
+ nos. 9 et 10, mars et avril 1827. Bulletin des sciences mathematiques, astronomiques, physiques et
+ chimiques 7; 273-279.
+
+ Anonymous. 1828.195. Annales de mathematiques pures et appliquies; par Μ. Gergonne; Tom. XIX, nos 1
+
+ et 2; juillet et aoüt 1828. Bulletin des sciences mathematiques, astronomiques, physiques et chimiques
+ 10: 241-245.
+
+ Aronhold, Siegfried. 1902. S. Aronhold an O. Hesse. 18.12. 1849. Journal ßr die reine und angewandte
+
+ Barbin, Evelyne. 2009. L'association cröatrice de l'analyse et de la g6om£trie selon Gabriel Lamέ. Bulletin
+
+ Mathematik 124: 64.
+
+ de la Sabix 44:101-111.
+
+ 54 das lebendige Mitdenken des Hörers sollte ein so deutliches Bild in seiner Vorstellung erzeugen,
+ dass er das sinnlich Angeschaute entbehren könnte."
+
+ £i Springer
+
+This content downloaded from 203.78.15.150 on Sun, 17 May 2020 09:58:23 UTC
+All use subject to https://about.jstor.org/terms
+
+ 460 J· Lorenat
+
+ universitäres de Nancy.
+
+ Bioesmat-Martagnon, Lise (ed.). 2011. Elements d'une biographie de l'espace projectif. Nancy: Presses
+
+ Blasjö, Viktor. 2009. Jakob Steiner's Systematische Entwickelung: The culmination of classical geometry.
+
+ The Mathematical Intelligencer 31(1): 21-29.
+
+ Bobillier, Etienne. 1827. Geometrie de situation. Recherches sur les lois ginirales qui rigissent les lignes
+
+ et surfaces de tous les ordres. Annales de mathematiques pures et appliquees XVIII: 157-166.
+
+ Bourbaki, Nicolas. 1960. Elements d'histoire des mathematiques. Paris: Hermann.
+
+ Βογέ, Anne. 1999. Jacob Steiner, un mathematicien romantique? La Pense'e numerique 23: 323-332.
+
+ Boyer, Carl B. 1956. History of analytic geometry. New York: Scripta Mathematica.
+ Brianchon, Charles Julien. 1817. Memoire sur les lignes du second ordre. Paris: Bachelier.
+ Brianchon, Charles Julien, and Jean Victor Poncelet. 1820. Geometrie des courbes. Recherches sur la
+
+ determination d'une hyperbole &)uilat£re, au moyen de quatre conditions donn6es. Annales de math
+ ematiques pures et appliquees 11: 205-220.
+
+ Carnot, Lazare. 1801. De la Correlation des figures de geometrie. Paris: Crapelet.
+
+ Carnot, Lazare. 1803. Geometrie de position. Paris: Duprat.
+ Chasles, Michel. 1828a. Geom£trie de Situation. M6moire sur les proprietes des systfemes de sections
+
+ coniques, situies dans un meme plan. Annales de mathematiques pures et appliquees XVIII: 277
+ 301.
+
+ Chasles, Michel. 1828b. Gdomitrie Pure. Memoire sur les projections stäriographiques, et sur les coniques
+
+ homoth6tiques. Annales de mathematiques pures et appliquees XVIII: 305-320.
+
+ Clebsch, Alfred. 1872. Zum Gedächtnis an Julius Ρ lücker. Göttingen: Dieterichschen Buchhandlung.
+
+ Cooke, Roger. 2005. The history of mathematics: A brief course. Hoboken: Wiley-Interscience.
+
+ Cournot, Auguste. 1827. 267. Transformation et division des figures sphferiques, au moyen de construc
+
+ tions graphiques; par M. Steiner. (Journ. der Mathem., de Crelle; t. 2, p. 45). Bulletin des sciences
+ mathematiques, astronomiques, physiques et chimiques 8: 298-303.
+
+ Coumot, Auguste. 1828. Analytisch-Geometrische Entwicklungen-Developpemens de Giometrie analy
+
+ tique; par Dr J. Plücker. Bulletin des sciences mathematiques, astronomiques, physiques et chimiques
+ 10: 178-179.
+
+ Darboux, Gaston. 1904. A survey of the development of geometrical methods. Bulletin of the American
+
+ Mathematical Society 11(10): 517-543.
+
+ Develey, Emmanuel. 1812. tlemens de geometrie. Paris: Vve Courcier.
+ Didiez, N.J. 1828. Cours complet de geometrie. Paris: Bachelier.
+ Dronke, Adolf. 1871. Julius Plücker Professor der Mathematik und Physik an der Rhein. Bonn: Friedrich
+
+ Wilhelm Universität.
+
+ Durrande, Jean Baptiste. 1820. Gtomötrie ölimentaire. Thiorie elimentaire des contacts des cercles, des
+
+ sphöres, des cylindres et des cones. Annales de mathematiques pures et appliquees XI: 1-67.
+
+ Eccarius, Wolfgang. 1980. Der Gegensatz zwischen Julius Plücker und Jakob Steiner im Lichte ihrer
+
+ Beziehungen zu August Leopold Crelle. Annals of Science 37(2): 189-213.
+
+ Ernst, Wilhelm. 1933. Julius Plücker; Eine zusammenfassende Darstellung seines Lebens und Wirkens als
+
+ Mathematiker und Physiker auf Grund unveröffentlichter Briefe und Urkunden. Bonn: Rheinischen
+ Friedrich-Wilhelms-Universität.
+
+ Eves, Howard. 1990. An introduction to the history of mathematics, 6th ed. Philadelphia: Saunders College
+
+ Publications.
+
+ Fano, Gino. 1907. Gegensatz von synthetischer und analytischer Geometrie in seiner historischen Entwick
+
+ lung im 19. Jahrhundert. Encyklopädie der mathematischen Wissenschaften 3(4): 221-288.
+
+ Friedelmeyer, Jean-Pierre. 2011. L'impulsion originelle de Poncelet dans l'invention de la geometrie. In
+
+ Bioesmat-Martagnon 2011: 55-158.
+
+ Gergonne, Joseph-Diez. 1810. Reflexions sur l'usage de l'analise algibrique dans la geomitrie. Notice des
+
+ travauxde l'Academie du Gard 1: 171-196.
+
+ Gergonne, Joseph-Diez. 1814. Geometrie analitique. Recherche du cercle qui en touche trois autres sur une
+
+ sphöre. Annales de mathematiques pures et appliquees IV: 349-359.
+
+ Gergonne, Joseph-Diez. 1817a. Giomitrie analitique. Recherche du cercle qui en touche trois autres sur un
+
+ plan. Annales de mathematiques pures et appliquees VII: 289-303.
+
+ Gergonne, Joseph-Diez. 1817b. G&>m6trie de la rfegle. Solution et construction, par la geometrie anali
+
+ tique, de deux problümes ddpendant de la geometrie de la regle. Annales de mathematiques pures et
+ appliquees VII: 325-334.
+
+ <£) Springer
+
+This content downloaded from 203.78.15.150 on Sun, 17 May 2020 09:58:23 UTC
+All use subject to https://about.jstor.org/terms
+
+ Synthetic and analytic geometries in the publications... 461
+
+ Gergonne, Joseph-Diez. 1817c. Reflexions sur Γ article precedent. Annales de mathematiques pures et
+
+ appliquees VIII: 156-161.
+
+ Gergonne, Joseph-Diez. 1817d. Philosophie mathematique. De l'analise et de la synthase, dansles sciences
+
+ mathematiques. Annales de mathematiques pures et appliquees VII: 345-372.
+
+ Gergonne, Joseph-Diez. 1821. Questions resolues. Solution du premier des problemes de göomitrie proposes
+
+ ä la page 228 de ce volume. Annales de mathematiques pures et appliquees XI: 379-400.
+
+ Gergonne, Joseph-Diez. 1827. D6monstration d' un thioreme relatif aux lignes du second ordre circonscrites
+
+ ä un meme quadrilatere, renfermant la solution du premier des trois problfemes de geomitrie 6noncis
+ ä la page 284 du pricedent volume. Annales de mathematiques pures et appliquees XVIII: 100-110.
+
+ Gergonne, Joseph-Diez. 1828. Letter from Gergonne to Plücker, Montpellier to Bonn, 9 August 1828.
+
+ Plücker Letters FA Vol 2A.2B. Archives of the National Research Council, Ottawa.
+
+ Gray, Jeremy. 2005. Jean Victor Poncelet, Traiti des Propri6t6s Projectives des Figures. In Landmark
+
+ Writings in Western Mathematics, ed. Ivor Grattan-Guinness, 366-376. Oxford: Elsevier.
+
+ Gray, Jeremy. 2010. Worlds out of nothing: A course in the history of geometry in the 19th century. London:
+
+ Jahnke, Eugen. 1903. Schreiben Jacobis an den Staatsminister v. Eichhorn betreffend Jakob Steiner. Archiv
+
+ Klein, Felix. 1893. A comparative review of recent researches in geometry. Bulletin of the New York
+
+ der Mathematik und Physik 4: 277-280.
+
+ Mathematical Society 2: 215-249.
+
+ Klein, Felix. 1926. Vorlesungen über die Entwicklung der Mathematik im 19. Jahrhundert. Berlin: Springer.
+
+ Kline, Morris. 1972. Mathematical thought from ancient to modern times. New York: Oxford University
+
+ Springer.
+
+ Press.
+
+ Kötter, Ernst. 1901. Die Entwickelung der synthetischen Geometrie von Monge bis auf Staudt (1847).
+
+ Jahresbericht der Deustchen mathematiker-vereinigung 5(2): 1-484.
+
+ Lacroix, Sylvestre Franfois. 1807. Traite elementaire de trigonometrie rectiligne et spherique, et
+
+ d'application de l'algebre ä la geometrie, 4th ed. Paris: Courcier.
+
+ Lam6, Gabriel. 1817. Geometrie analitique. Sur les intersections des lignes et des surfaces. Extrait d'un
+ memoire präsente ä l'acadimie royale des sciences, en ddcembre 1816. Annales de mathematiques
+ pures et appliquees VII: 229-240.
+
+ Lame, Gabriel. 1818. Examen des differentes methodes employees pour resoudre les problemes de geometrie.
+
+ Paris: Vve Courcier.
+
+ Lange, Julius. 1899. Jacob Steiners Lebensjahre in Berlin, 1821-1863. Berlin: Georg Reimer.
+
+ Lorenat, Jemma. 2015. Figures real, imagined and missing in Poncelet, Plücker, and Gergonne. Historia
+
+ Mathematica 42(2): 131-262.
+
+ Loria, Gino. 1887. II passato ed il presente delle principali teorie geometriche. Torino: Carlo Clausen.
+
+ Nabonnand, Philippe. 201 la. Deux droites coplanaires sont secantes. In Clements pour une biographie de
+
+ t'espace projectif, ed. Lise Bioesmal-Martagon, 159-195. Presses universitaires de Nancy - Editions
+ de l'Universiti de Lorraine.
+
+ Nabonnand, Philippe. 2011b. L'argument de la g6n6ralite chez Carnot Poncelet, et Chasles. Justifier en
+
+ mathematiques. 17-47. Editions de la Maison des sciences de l'homme, Paris.
+
+ Plücker, Julius. 1827. Giomötrie analytique. Memoire sur les contacts et sur les intersections des cercles.
+
+ Annales de mathematiques pures et appliquees XVIII: 29-47.
+
+ Plücker, Julius. 1828a. Analytisch-geometrische Entwicklungen, vol. 1. Essen: G. D. Baedeker.
+
+ Plücker, Julius. 1828. Geometrie Analytique. Recherches sur les courbes algibriques de tous les degres.
+
+ Annales de mathematiques pures et appliquees XIX: 97-106.
+
+ Plücker, Julius. 1831. Analytisch-geometrische Entwicklungen, vol. 2. Essen: G. D. Baedeker.
+
+ Plücker, Julius. 1834. Solution d'une question fondamentale concernant la theorie generale des courbes.
+
+ Journal für die reine und angewandte Mathematik 12: 105-108.
+
+ Plücker, Julius. 1835a. Lettre ä Jean-Victor Poncelet. janvier, 1835. Correspondence de Jean-Victor Poncelet.
+
+ Archives de I'Ecole poytechnique, Palaiseau.
+
+ Plücker, Julius. 1835b. System der analytischen Geometrie. Berlin: Dunker und Humblot.
+ Plücker, Julius, and Arthur Schoenflies. 1904. Über den wissenschaftlichen Nachlass Julius Plückers. Math
+
+ Poncelet, Jean Victor. 1811. Problemes de Giometrie. Correspondance sur 1't.cole polytechnique 11(3):
+
+ ematische Annalen 58: 385-403.
+
+ 271-274.
+
+ Ä Springer
+
+This content downloaded from 203.78.15.150 on Sun, 17 May 2020 09:58:23 UTC
+All use subject to https://about.jstor.org/terms
+
+ Poncelet, Jean Victor. 1817. Philosophie mathematique. Reflexions sur l'usage de l'analise algebrique dans
+
+ la giomitrie; suivies de la solution de quelques problemes dependant de la g6om6trie de la regie.
+ Annales de mathematiques pures et appliquees 8: 141-155.
+
+ Poncelet, Jean Victor. 1821. G£om&rie elemental re. Construction geometrique d'un cercle qui en touche
+
+ trois autres donnes sur un plan ou sur une sphere, d'un c6ne droit que en touche trois autres de meme
+
+ sommet, et d'une sphere qui en touche quatre autres dans l'espace. Annales de mathematiques pures
+ et appliquees XI: 317-322.
+
+ Poncelet, Jean Victor. 1822. Traite des proprietes projectives des figures. Ouvrage utile a ceux qui s 'occupent
+
+ des applications de la geometrie descriptive et d'operations geometriques sur le terrain. Paris: Bache
+ lier.
+
+ 462 J. Lorenat
+
+ Poncelet, Jean Victor. 1866. Traite des proprietes projectives des figures. Ouvrage utile a ceux qui s 'occupent
+
+ des applications de la geometrie descriptive et d'operations geometriques sur le terrain, vol. II, 2nd
+ ed. Paris: Mallet-Bachelier.
+
+ Poncelet, Jean Victor, and Louis Cauchy Augustin. 1820. Geometrie des courbes. Rapport ä l'academie
+
+ royale des sciences. Annales de mathematiques pures et appliquees XI: 69-83.
+
+ Schoenflies, Arthur. 1909. Projektive Geometrie. Encyklopädie der mathematischen Wissenschaften mit
+
+ Einschluss ihrer Anwendungen 111(5): 389-480.
+
+ Simon, Max. 1906. Über die Entwicklung der Elementar-Geometrie im XIX. Jahrhundert. Leipzig: B. G.
+
+ Steiner, Jakob. 1826a. Einige geometrische Betrachtungen. Journal für die reine und angewandte Mathe
+
+ Steiner, Jakob. 1826b. Einige geometrische Sätze. Journal fir die reine und angewandte Mathematik 1:
+
+ Steiner, Jakob. 1826c. Fortsetzung der geometrischen Betrachtungen. Journal für die reine und angewandte
+
+ Steiner, Jakob. 1827a. Aufgaben und Lehrsätze. Journal für die reine und angewandte Mathematik 2:
+
+ Steiner, Jakob. 1827b. Auflösung einer geometrischen Aufgabe. Journal für die reine und angewandte
+
+ Steiner, Jakob. 1827c. Geometrische Aufgaben und Lehrsätze. Journal für die reine und angewandte Math
+
+ Teubner.
+
+ matik 1: 161-182.
+
+ 38-52.
+
+ Mathematik 1:252-288.
+
+ 287-291.
+
+ Mathematik 2: 64-65.
+
+ ematik 2: 96-98.
+
+ 192.
+
+ Steiner, Jakob. 1827d. Geometrische Lehrsätze. Journal für die reine und angewandte Mathematik 2: 190
+
+ Steiner, Jakob. 1828a. Brief von Steiner an Gergonne von 3.5.1828. HS 92: 84. Jakob Steiner Teilnachlass.
+
+ Hochschularchiv der ΕΤΗ Zürich.
+
+ Steiner, Jakob. 1828b. Geometrie de situation. Demonstrations de quelques theoremes. Annales de mathe
+
+ matiques pures et appliquees XIX: 1-8.
+
+ Steiner, Jakob. 1828c. G6om£trie elementaire. Recherche des relations entre les rayons des cercles qui
+
+ touchent trois droites donnees sur un plan et entre les rayons des sphöres qui touchent quatre plans
+
+ donnes dans l'espace. Annales de mathematiques pures et appliquees XIX: 85-96.
+
+ Steiner, Jakob. 1828d. Geometrie pure. Döveloppement d'une serie de theoremes relatifs aux sections
+
+ coniques. Annales de mathematiques pures et appliquees XIX: 37-64.
+
+ Steiner, Jakob. 1828e. Manuskript: "Developpement d'une serie de theoremes relatifs aux courbes et aux
+
+ surfaces du second ordre". HS 92: 85. Jakob Steiner Teilnachlass. Hochschularchiv der ΕΤΗ Zürich.
+
+ Steiner, Jakob. 1832. Systematische Entwickelung der Abhängigkeit geometrischer Gestalten von Einander,
+
+ mit Berücksichtigung der Arbeiten alter und neuer Geometer über Porismen, Projections-Methoden,
+
+ Geometrie der Lage, Transversalen, Dualität und Reciprocität, etc. Berlin: Fincke.
+
+ Steiner, Jakob. 1931. Allgemeine Theorie über das Berühren und Schneiden der Kreise und der Kugeln
+
+ worunter eine grosse Anzahl neuer Untersuchungen und Sätze vorkommen in einem systematicschen
+
+ Entwicklungsgange dargestellet. ed. Rudolf Fueter and Ferdinand Gonseth. O. Fussli, Zurich.
+
+ Steiner, Jakob, and Joseph-Diez Gergonne. 1827. Geometrie pure. Theorie generale des contacts et des
+
+ intersections des cercles. Annales de mathematiques pures et appliquees XVII: 285-315.
+
+ Struik, Dirk. 1948. A concise history of mathematics. New York: G. Bell and Sons Ltd.
+
+ Sturm, Charles. 1826. Giomötrie analitique. Memoire sur les lignes du second ordre. Annales de mathema
+
+ tiques pures et appliquies XVI: 265-293.
+
+ Sturm, Charles. 1826. Geometrie des courbes et surfaces. Memoire sur les lignes du second ordre. Annales
+
+ de mathematiques pures et appliquees XVII: 173-199.
+
+ •ö Springer
+
+This content downloaded from 203.78.15.150 on Sun, 17 May 2020 09:58:23 UTC
+All use subject to https://about.jstor.org/terms
+
+

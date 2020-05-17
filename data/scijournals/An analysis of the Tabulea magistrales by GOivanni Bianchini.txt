@@ -1,0 +1,1351 @@
+ 
+
+ 
+
+ 
+
+ 
+
+An analysis of the Tabulae magistrales by Giovanni Bianchini
+Author(s): José Chabás
+Source: Archive for History of Exact Sciences, Vol. 70, No. 5 (September 2016), pp. 543-552
+Published by: Springer
+Stable URL: https://www.jstor.org/stable/24913252
+Accessed: 17-05-2020 09:56 UTC
+
+ 
+REFERENCES 
+Linked references are available on JSTOR for this article:
+https://www.jstor.org/stable/24913252?seq=1&cid=pdf-reference#references_tab_contents 
+You may need to log in to JSTOR to access the linked references.
+
+JSTOR is a not-for-profit service that helps scholars, researchers, and students discover, use, and build upon a wide
+
+range of content in a trusted digital archive. We use information technology and tools to increase productivity and
+
+facilitate new forms of scholarship. For more information about JSTOR, please contact support@jstor.org.
+
+Your use of the JSTOR archive indicates your acceptance of the Terms & Conditions of Use, available at
+
+https://about.jstor.org/terms
+
+Springer is collaborating with JSTOR to digitize, preserve and extend access to Archive for
+History of Exact Sciences
+
+This content downloaded from 203.78.15.150 on Sun, 17 May 2020 09:56:30 UTC
+All use subject to https://about.jstor.org/terms
+
+ Arch. Hist. Exact Sci. (2016) 70:543-552 /β\ r„,u.
+ DOI 10.1007/s00407-016-0178-z vfl/
+
+ An analysis of the Tabulae magistrales by Giovanni
+ Bianchini
+
+ José Chabâs1
+
+ Received: 15 January 2016 / Published online: 29 February 2016
+ © Springer-Verlag Berlin Heidelberg 2016
+
+ Abstract Bianchini called Tabulae magistrales a set of eight tables he compiled to
+
+ solve problems in spherical astronomy. This set, which is the object of this paper,
+
+ consists of auxiliary and trigonometric functions, including the sine and the tangent
+ functions, for radii 10,000 and 60,000, and seems to be the first set of tables in Latin
+
+ specifically devoted to mathematical tools for computational astronomy. Bianchini
+
+ presented some of his tables in decimal form, which meant that for the first time one
+
+ of the oldest astronomical tradition, the sexagesimal base (R = 60), was abandoned.
+
+ Giovanni Bianchini (b. ca. 1400, d. after 1469) spent most of his life in Ferrara, where
+
+ he served as administrator of the estate of the d'Este family. He had previously been
+ a merchant in Venice until 1427, where it is likely that he attended some abacus
+
+ school. In that year Marquis Nicolô d'Este (1383-1441) invited him to join his court
+
+ in Ferrara. He found there the proper milieu to become a celebrated mathematician and
+
+ astronomer. Bianchini is mostly known for an extensive and original set of astronomical
+
+ tables for the motion of the Sun, the Moon, and the planets that he completed in 1442.1
+ The tables were addressed to his patron Leonello d'Este (d. 1450), Nicolo's son and
+
+ 1 See Chabâs and Goldstein (2009). For additional biographical information on Bianchini, see Federici
+ Vescovini (1968).
+
+ Communicated by: Noel Swerdlow.
+
+ A preliminary version of this paper was presented in a workshop held in Paris (SYRTE-Observatoire de
+
+ Paris) in June 2015, "Analysing and editing numerical tables from ancient astral sciences." I thank all
+
+ participants for their comments and suggestions. I am also grateful to Bernard R. Goldstein (Pittsburgh)
+
+ for his helpful remarks on a draft of this paper.
+
+ El JoséChabâs
+
+ jose.chabas@upf.edu
+
+ 1 Universitat Pompeu Fabra, Barcelona, Spain
+
+This content downloaded from 203.78.15.150 on Sun, 17 May 2020 09:56:30 UTC
+All use subject to https://about.jstor.org/terms
+
+ â Springer
+
+ 544
+
+ J. Chabâs
+
+ successor, and in 1452 they were presented and dedicated to the Emperor Frederick
+
+ III, during a visit to the local court in Ferrara, then ruled by Borso d'Este (d. 1471).
+
+ Bianchini's highly innovative tables were compiled in the framework of the Alfonsine
+
+ Tables, as recast and developed in Paris a century earlier, and were printed for the
+ first time under the title Tabulae astronomiae in 1495 in Venice. There were two later
+
+ editions, one also produced in Venice in 1526 and another in Basel in 1553. Bianchini's
+
+ planetary tables were appreciated and used by the most outstanding astronomers of
+
+ his time, including Georg Peurbach (1423-1461) and Regiomontanus (1436—1476).2
+ Bianchini is also the author of others texts and shorter collections of tables con
+
+ cerning mathematical astronomy.3 In a letter dated November 21,1463, addressed to
+
+ Regiomontanus, Bianchini listed some of his other works: Flores Almagesti, written
+
+ around 1440 and consisting of several treatises on arithmetic and algebra to serve as a
+
+ mathematical introduction to astronomy; a short text dated 1442 on an instrument to
+
+ measure the altitude of the stars; a set of tables with canons on the primum mobile-;4
+
+ and a set called Tabulae magistrales to facilitate the computational tasks of practi
+
+ tioners of astronomy.5 This is the same letter where Bianchini presents an algebraic
+
+ problem to Regiomontanus "Find two numbers in the ratio 5 to 8 whose sum equals its
+
+ product."6 The analysis of the "magistral" tables mentioned in this letter is the object
+
+ of the present paper.
+
+ The Tabulae magistrales are a set of auxiliary tables consisting of six or eight
+
+ trigonometric functions, depending on the manuscript, to solve a variety of problems
+
+ in spherical astronomy. As far as I can determine, this is the first set of tables in Latin
+
+ exclusively devoted to mathematical tools for computational astronomy. The need
+
+ for such a set of tools to solve specific astronomical problems was already felt by
+
+ early Arabic astronomers, who compiled for that purpose sets of auxiliary functions,
+
+ consisting of basic trigonometric functions, such as the sine and the tangent functions,
+
+ or combinations of them. This was the case, among others, of Habash al-Hâsib (ca.
+
+ 850), who included in his zijes the tangent function with a norm of 60, and Abu Nasr
+
+ Mansur Ibn cIraq (ca. 1000), who provided compound auxiliary functions as well as
+
+ instructions on how to apply them to a number of astronomical problems.7 Bianchini's
+
+ auxiliary tables differ from those compiled by his Arabic predecessors.
+
+ As is most often the case in medieval astronomy, the principle guiding table-makers
+
+ was to produce labor-saving and user-friendly tables, as Bianchini explicitly explains:
+
+ 2 In a letter dated 1456 to Johann Nihil, court astrologer to Emperor Frederick ΠΙ, Peurbach described the
+
+ calculation of ephemerides he had computed together with Regiomontanus, for which they used Bianchini's
+
+ tables. While in Vienna in 1460 Regiomontanus made a copy of these tables for his own use and wrote
+
+ abridged canons to them entitled, Canones breviati in tabulas Ioannis de Blanchinis. On Peurbach and
+
+ Regiomontanus, see Swerdlow (forthcoming).
+
+ 3 On the trigonometrical tables of Bianchini, see Rosirtska (1981). For a list of Bianchini's various sets of
+ tables extant in Cracow, see RosMska (1984).
+
+ 4 This term refers to the outermost celestial sphere, responsible for diurnal rotation, and can be translated
+
+ literally as "first movable." The term was also used by John of Lignères and Regiomontanus, and eventually
+
+ became standard, to characterize tables for spherical astronomy, most of which concern the diurnal rotation.
+
+ 5 See Magrini (1917), especially Letter II, pp. 24 and XIV. See also Gerl (1989).
+
+ 6 The two numbers sought are 13/5 and 13/8.
+
+ 7 See Jensen (1972), King (2004).
+
+ Ô Springer
+
+This content downloaded from 203.78.15.150 on Sun, 17 May 2020 09:56:30 UTC
+All use subject to https://about.jstor.org/terms
+
+ An analysis of the Tabulae magistrales by Giovanni Bianchini
+
+ 545
+
+ "composui tabulas magistrales iocundas et breves et utiles ad concluendum multos
+
+ calculos" (BJ 556, 13r). And so he did in his Tabulae magistrales.
+
+ This set of tables is extant in several manuscripts, including Bologna, Biblioteca
+
+ Comunale, MS 1601, 66v, 85v-92v (8 tables); Cracow, Biblioteka Jagiellonska, MS
+
+ 556, 48r-54v, 93r (8 tables), and MS 606, 62r-69r (Tables 1-6); Paris, Bibliothèque
+ nationale de France, MS 7270, 183v-186r, 188r, 228r-230v (Tables 1-7), MS 7271,
+ 181v-187v, 245v (Tables 1-7), MS 7286, 132v, 149r-154v (Tables 1-7), and MS
+
+ 10265,223v-232r, 237r-239r (Tables 1-6 and 8). For the presentation of the tables in
+
+ this paper we take as base manuscript Cracow, MS 556 (henceforth BJ 556), copied in
+
+ Rome about 1464 for Gregorius de Cracovia, astrologer of Pope Paul II. The sequence
+
+ of the tables in this manuscript does not follow the expected order: Table 8 does not
+ follow Table 7 but Table 1.
+
+ The tables
+
+ Table 1 (BJ 556, f. 48r-v): Divisio tabule magistralis primae sinus secundi maxime
+
+ declinacionis per sinum primum cuiuslibet gradus
+
+ The title refers to two basic trigonometric functions: sine (sinus primus) and cosine
+
+ (sinus secundus). The entries are given at intervals of 0;10° of the argument, Θ,
+
+ from 0;10° to 90;0°. The last entry, Ti(90°), is 9167, which is a rounding of 10,000
+ • cos 23;33,30° = 10,000 · 0.916654.
+
+ The function underlying Tabula magistralis 1, expressed in modern notation, is
+
+ with R = 10,000, that is, the cosecant function with a coefficient R cos ε = 9167.
+
+ That 23;33,30° is the value used for the obliquity of the ecliptic, ε, is clear from
+
+ Bianchini's text (BJ 556, f. 7ra) where this value is explicitly mentioned, and from
+ the Tabula novissima declinacionis per arcum secundum Iohannem Blanchinum (BJ
+
+ 556, f. 59r), where the maximum entry is 23;33,30°. Note that Bianchini's value for
+ the obliquity of the ecliptic is the same as that used in the Toledan Tables and in
+
+ other previous tables for the same purpose. However, all other entries in Bianchini's
+
+ declination table differ,8 thus providing a good example of how inappropriate it is in
+
+ medieval astronomy to identify two tables for the same purpose based only on a shared
+ parameter. It happens that some astronomers or table-makers did not limit themselves
+
+ to copying a pre-existing table; rather, they computed its entries independently.9 For
+
+ the recomputation of selected entries in this and other tables, see Table A, below.
+
+ As can be seen in Fig. 1, at the right of the column for T\ (θ) there is another
+
+ column, headed "Equatio," intended for interpolation. To illustrate this, consider the
+
+ row for argument 0;10°, where we are given the number 523610. This is indeed the
+
+ number to be subtracted from Ti(0;10°) = 3142857 to obtain the following entry,
+
+ 8 See Chabâs and Goldstein (2012).
+
+ 9 For another example, see Levi ben Gerson's table of declination which is based on the same parameter
+
+ used by Abraham Ibn Ezra, but the entries in their respective tables are all different: Goldstein (1974, p.
+ 96).
+
+ ·£) Springer
+
+This content downloaded from 203.78.15.150 on Sun, 17 May 2020 09:56:30 UTC
+All use subject to https://about.jstor.org/terms
+
+ 546
+
+ J. Chabâs
+
+ ■  j&W1 V-S-ifW V;£ . '&i .yjff!
+ Mgrfe1 S^Sf p: '-5-,
+ C*3fU,:u,..j» m- ** f* >>'*m US#
+ ~"-"f · : - m..-» - m «„»j.
+
+ • «-w •■«'■■•'!.«•.>* f»*/ »*. •-i
+
+ J ';;■' 4-"~' • ■
+ »*/, ! 'iN»
+ S(Ih»«.» afiWSft
+
+ if 1®§ n
+ ■ t^Hpr "%£!!*
+
+ • t
+ %lt"'
+ >»! + {
+
+ J *>+*
+
+ * '^f
+
+ 1 '0 ■ „
+
+ .u 4 ■ ■'shit'
+
+ ;.;■,>»)#:«< .<j |p2
+ fetf£M« . #•:
+ W
+
+ # . r-ST * Ï&.M :3S 32î
+ ,. r$m
+ «S ··« R* "35Î S 'S
+ wiwi ' «•■»** • **><*•
+ -eSf ss -.»" se
+ ill <«,«»♦> /
+ -"•-tsr" ïS S»'" -';S SSPÏ# Ks
+ *• >fin
+ '- | „ v*i -ί*#> $«"»·* χ.»!»#». i «*·*
+ iW «» «"«•» -»W*M t«W*»
+ i fe«g ■ ...
+ < * w 4 - tiw '* '
+ s< ■·' 4WM «i*JM H **»OT '* ι )·!# «t« <·'·
+ ■iif.» < <
+ , - aMfe
+ ..•tu* !'«■ ><.«)3< . n**? --tin
+ . • it*r ••>• Vf >«."■"* >'»
+ 5d«. ?»»*?" .Utfi <• '
+ ... {tu·· <"$f» .»v»«r <* '««·· "«#f
+ P® :«■ J KM ' »**>.«•«• " -.<
+ «H« ·* $KM ·' - »?« «·* ;■ ·#»
+ ■"■' *§»<
+ >= ff/ii «·'»:jww, ' f«w« ■*»>'·*»: ■■■ *8#
+ ■ »#*
+ 4» {*!>*} - p*n ' <.*»«
+ icjm* j*«p »■"!»;"
+ Lï-a», ses «car,. s·* .:»·,*
+ B . fum n ' •« W M * *<*• >> " " »»«*
+ :*.S5 5BS gg ;jfe
+ >r ·,55 ïgs sjp s
+ Ι ïSK '.2îr" ÎS" ï'i
+ I'-'.Si'-'"' : S™
+
+ • '■■•*&
+
+ sm&' >f .#
+
+ "■■tt
+
+ "«»«», .. .
+ " *- U»« H f
+
+ .•"»>•«• V1M*» »»f«W >■«*»» J
+
+ ;:sï ..rsr-v-r .·»,*·
+ *•> l|C^ i» MNI V "■
+
+ ,< • »0 h . j. ,««. . ,, •• im*
+
+ : >«
+
+ « I
+ «M ... ,fo(, ,,««-««»· * · ·*»,♦'·»·
+
+ t„ wi( ,: «i» ,, «,». ν ■<<»
+ iff <m»f
+ ••*4l»IV <*«**»» »#«·<*· t· <«·« '»»»
+ u-Mif. t* tUtet ■ • «f»»
+ ■>.ejieM>* *«*«' ***».*■■> >>im
+ «KHf· VMW» ί-W «
+ !«•**• « W»» *«*«»> " '♦«*» :'W
+ . • Wtl .,H»i '••»)* «<Ait .JM»
+ S» ««» ;■«>»·* Î*'»«M — »A« '' "**** i
+ j». · ff 7 V ^τ* a? « H ·* s· |6jj? ■·< ·;. f ♦/«** *·<*··
+ • 'ml K.7 ••■**l«# " < •«'" «*S«/ «f*W * <*■
+ - s?m , ,. uw*. <|* •&»# ;< ;J«fi i
+ J ,·. 4,(1* ■ *»«**<* wt» . i|p ;
+ ...... . 4»* f ·>»*> .»«**· "*#·"*
+ siMBB
+ % - |s*?tM 1.» i i» **« K»;#» If-f »'*#»
+ '< -l.efits ,μ i >« 4HM i* iîibUM J"»» · '<♦«' 6 5 ·■'"'·;
+ ULmA' «.,K< .. ,([<· ... .4~» «Ο .Λ.. ·»«»'
+ "■
+ ,ί,ΐΜ.' ■ .'.'«αϊ» .#*4ir ·»','
+ i® >H%i
+ <>*" '"«H »«*f- · »W«
+ (• W - 4 rfu*
+ • w
+ J,i 4·»ρ» «·»· )*«#» ') ·#',»( "'fr« :· · Mf» <
+ i,J • wf« vtf
+ ■ t«v
+ 1·*β <··*(9#ί M'tâÉ» t»**· ♦«»
+ ,».< '
+ "SS- n%i
+
+ WWS»: MpM
+ ■UPPfcK -;;s ·;:» -33
+ :i
+ . **>, - w» '"'if»"! ■-**·> ··-" ·>··' - m? ,
+ .|u f titm f i , m<i
+ "|;Vj
+ ■ »$gctt m#«w "■<*#*. ■««·<* "ïififi ■■-> -i·'*·.
+ ' "W<«.
+ '»<«Of.
+ .... >w.*t ·■■><»« »'.W 5 '■"»«*
+ L:#«#:
+
+ I •'^-■V|
+ »:;s' *( :s
+
+ . "M*
+ -'.'Mm
+
+ I . .rf«.'»' I»
+
+ ■id-*** ,«
+
+ •s**> i '
+
+ :« 5^|»||
+
+ <»»
+
+ wk h ■ ;·^
+
+ Fig. 1 Tabula magistralis 1 in Cracow, BJ 556, 48r (excerpt)
+
+ ifl
+
+ Τι(0;20°) = 2619247. This method is valid for large numbers, but for the rest of
+ the table in this column there are two numbers, one headed "numerus" and another
+
+ headed "minuti," normally separated by a blank space or a dot. The purpose is the same,
+
+ interpolation. Consider, for example, the entry for argument 17°, T](17;0°) = 31353.
+ The associated numbers in the second column are 28 and 2. And indeed, Ti (17; 10°)
+ = 31071 results from subtraction of 282 from 31353. Furthermore, to find the entries
+
+ between 17;0° and 17; 10° we are supposed to use linear interpolation and subtract the
+ integer 28 (here called "numerus") and 2 parts (here called "minuti"), as many times
+
+ <£) Springer
+
+This content downloaded from 203.78.15.150 on Sun, 17 May 2020 09:56:30 UTC
+All use subject to https://about.jstor.org/terms
+
+ JftSU ;
+ ,«tîf If»*! >- ï.^M « -W :ί;'Λ;
+ i> xf^*:
+ *?> • m*» » '6''' j
+ [*f'i| ' •« '""'ITWi- * »
+ Imjïî ;*|ÏÉ* i?Ht m4w! ...
+ 'tm-h
+ PB
+ jtt«» '
+ |»J«» if!' " ■ 'Mft ' » H«i
+ &«
+ ggf-t s4'fe« »•«#«;
+ t #"·:" :·« '-r. ;jj , ^ ,
+ 1, „ -at.. ::s
+
+ KHRHRBH «jw».
+ H ; o'jrtl V,.ï.fi5if ..,.,.-,4 ·>»«- tlttf
+ " - (>»•*
+ "•a** £gs
+ ' 31 /. ■ m
+
+ .-.«■"H f ·ΐϊ'*:. -,·»«»
+
+ Ηψ >· .
+
+ if ■.?»;«#» "
+ wfWi*
+
+ Si
+
+ '•me»
+ iwtcr
+
+ '-I
+
+ 0%
+
+ ■
+
+ - 4» '
+
+ f«
+
+ An analysis of the Tabulae magistrales by Giovanni Bianchini
+
+ 547
+
+ as needed. Here "minuti" are to be understood as decimal fractions (2/10 in this case).
+
+ Thus, Ti(17; 1°) = 31353 - 28.2. Columns for the "Equatio" are found in all other
+ tables, except for Tabula magistralis 7.
+
+ Table 8 (BJ 556, f. 49r-v): Tabula magistralis octava. Numerus divisionis sinus
+
+ primi cuiuslibet gradus per sinum secundum maxime declinacionis
+
+ The entries in this table are also given at intervals of 0;10° of the argument, Θ,
+
+ from 0;10° to 90;0°. The last entry, T8(90°), is 10905, which is a close approximation
+ of 10,000/cos 23;33,30° = 10,000/0.916654 = 10,909.25. The function underlying
+
+ Tabula magistralis 8 can be represented in modern notation by
+
+ *8 V/ — « >
+
+ cose
+
+ with R = 10,000, that is, the secant function with a coefficient R/cos ε = 10,905. Note
+
+ that the functions Ί\(θ) and Ts(0) are reciprocal, and Ti(0) · Ts(θ) = 108.
+
+ Table 2 (BJ 556, f. 50r-v): Tabula magistralis secunda. Sinus primi différencie
+
+ ascensionis cuiuslibet gradus eclyptice in circulum directum et circulum obliquum in
+ regione graduum 45
+
+ The entries in this table represent sin y, where γ is the ascensional difference, that
+
+ is, the difference between the right ascension and the oblique ascension of a point on
+
+ the ecliptic rising on the horizon.10 The entries in this table are displayed at intervals
+
+ of 0; 10° of the argument, from 0; 10° to 90;0°. The independent variable here is the
+
+ longitude, λ. The ascensional difference depends on the geographical latitude, φ, and
+
+ can be computed by means of the modern formula
+
+ where the declination, 8, is found in a declination table with the longitude of the point,
+
+ λ, as argument or can be computed with the expression
+
+ Bianchini compiled this table for Ferrara and considered its latitude to be φ = 45°;
+
+ hence tan ψ = 1. This assumption considerably facilitates computation, because in
+ this case
+
+ sin γ = tan S tan φ,
+
+ S (λ) = arcsin(sin λ · sin ε).
+
+ sin y = tan δ.
+
+ When λ = 90°, sin λ = 1, and <5 = ε; it follows that sin γ = tan ε. Now, the last
+ entry, T2(90°), is 26161, which is indeed tan 23;33,30° times a coefficient, 60,000,
+
+ not 10,000 as was the case for the two previous tables. Then it is easy to verify that
+
+ the function underlying Tabula magistralis 2 can be represented by
+
+ T2 (λ) = R tan<5 (λ),
+
+ 10 See, e.g., Chabâs and Goldstein (2012) (ref. 7), p. 30.
+
+ ^ Springer
+
+This content downloaded from 203.78.15.150 on Sun, 17 May 2020 09:56:30 UTC
+All use subject to https://about.jstor.org/terms
+
+ 548
+
+ J. Chabâs
+
+ where R = 60,000.
+
+ Table 3 (BJ 556, f. 5 lr-v): Tabula magistralis tercia. Productum sinusprimi maxime
+
+ declinacionis per sinum eius secundum et numerus quociens multiplicatus per sinum
+
+ secundum ascensionis stelle secundum Iohannem Blanchinum queposite sunt in tabula
+ radicum ascensionum
+
+ In this table the entries are given at intervals of 0; 10° of the argument, but from
+
+ 0;0°, rather than 0; 10° as in the previous cases, to 90;0°. The entries agree in most
+
+ cases with those in Tabula magistralis 2, but in the reverse order. The heading of the
+
+ table suggests an expression of the type
+
+ 73(0) = Λ— cosa,
+
+ cose
+
+ where a is the right ascension. The Tabula radicum ascensionum mentioned in the
+
+ heading is indeed found in Cracow, MS BJ 556, f. 59v. It is a table for right ascension
+
+ given at intervals of 1° beginning at Aries 0°, with the longitude, λ, as independent
+
+ variable. The large interval makes interpolation necessary, with uncertain accuracy.
+
+ To check the entries, the right ascension can also be computed with the expression
+
+ a — arcsin(tan 8/ tan ε),
+
+ where tan S (λ) has already been tabulated in Tabula magistralis 2. The first entry here,
+
+ for λ = 0°, is T3(0°) = 26160, and results from multiplying 60,000 by tan 23;33,30°.
+
+ We note that in Tabula magistralis 2, this product was taken to be 26161. Again, for
+ λ = 90°, sin λ = 1 and <5 = ε; thus a = 90°, and cos a = 0. Hence T3(90°) = 0. We
+
+ have recomputed selected entries (see Table A), by means of
+
+ Γ3 (λ) = R tan ε · cos a,
+
+ with R = 60,000, and the expression for a given above. The agreement of text and
+
+ recomputation is very good.
+
+ Table 4 (BJ 556, f. 52r-v): Tabula magistralis quarta. Numerus divisionis sinus
+
+ primi cuiuslibet gradus quarti circuli per sinus eius secundum11
+
+ The entries in this Table (see Fig. 2) are given at intervals of 0; 10° of the argument,
+
+ Θ, from 0;10° to 89;50°. The entry for 45° is 10,000, wrongly copied in MS BJ 556
+
+ as 1000. The function underlying the table is
+
+ Γ4 (Θ) = R^— = Λ tan#,
+
+ cosy
+
+ that is, the tangent function normed for a radius R = 10,000.
+
+ Table 5 (BJ 556, f. 53r-v): Tabula magistralis quinta
+
+ The entries in this table are also given at intervals of 0; 10° of the argument, Θ, from
+ 0; 10° to 90°. In this case T5(30°) = 20,000 and T5(90°) = 10,000. The underlying
+ function is thus
+
+ 11 Excerpts of Tables 4 and 5 were published by Rosirtska (1981) (ref. 3), pp. 49-50.
+
+ Springer
+
+This content downloaded from 203.78.15.150 on Sun, 17 May 2020 09:56:30 UTC
+All use subject to https://about.jstor.org/terms
+
+ An analysis of the Tabulae magistrales by Giovanni Bianchini 549
+
+ Table A Selected entries from the Tabulae magistrales in Cracow, BJ 556, and recomputed values (in
+
+ italics)
+
+ 0;0
+ 0;0
+
+ TM6
+ Argument TM1 TM 8 TM 2 m 3 TM4 TM 5 TM6
+ Argument
+
+ TM 3
+
+ TM 5
+
+ TM 2
+
+ TM 8
+
+ TM4
+
+ TM1
+
+ 26160
+ 26160
+
+ 26161
+ 26161
+
+ 3142857
+ 0;10 3142857
+ 0;10
+
+ 31 70
+ 70
+ 31
+
+ 29
+ 26158
+ 26158 29
+
+ 3428571 12
+ 3428571 12
+
+ 3151227
+ 3151227
+
+ 32 70
+ 70
+ 32
+
+ 29
+ 26161 29
+ 26161
+
+ 3437752 13
+ 3437752 13
+
+ 18334
+ 30;0 18334
+ 30;0
+
+ 5453 12130b
+ 12130b
+ 5453
+
+ 22163c 5773
+ 22163e
+ 5773
+
+ 20000 2517
+ 2517
+ 20000
+
+ 18333
+ 18333
+
+ 5455 12237
+ 12237
+ 5455
+
+ 22136 5774
+ 5774
+ 22136
+
+ 20000 2517
+ 2517
+ 20000
+
+ 12964
+ 45 ;0 12964
+ 45 ;0
+
+ 7711 17655
+ 17655
+ 7711
+
+ 17683 1000d
+ 1000d
+ 17683
+
+ 14143 4360
+ 4360
+ 14143
+
+ 12963
+ 12963
+
+ 7714 17678
+ 17678
+ 7714
+
+ 10000
+ 17678 10000
+ 17678
+
+ 14142 4360
+ 4360
+ 14142
+
+ 105953
+ 60;0 105953
+ 60;0
+
+ 9444 22136
+ 22136
+ 9444
+
+ 12234 17321
+ 12234
+ 17321
+
+ 11548 7551
+ 7551
+ 11548
+
+ 10585
+ 10585
+
+ 9448 22136
+ 22136
+ 9448
+
+ 12237 17321
+ 12237
+ 17321
+
+ 11547 7552
+ 7552
+ 11547
+
+ 9167
+ 89;50 9167
+ 89;50
+
+ 10905 26159
+ 26159
+ 10905
+
+ 70
+ 70 3420851
+ 3420851
+
+ 10000 1491491
+ 1491491
+ 10000
+
+ 9167
+ 9167
+
+ 26161
+ 10909 26161
+ 10909
+
+ 70 3437737
+ 3437737
+ 70
+
+ 10000 1498934
+ 10000
+ 1498934
+
+ 9167
+ 90;0 9167
+ 90;0
+
+ 10905 26161
+ 10905
+ 26161
+
+ 9167
+ 9167
+
+ 10909 26161
+ 26161
+ 10909
+
+ 0
+ 0
+
+ 0
+ 0
+
+ 10000
+ 10000
+
+ 10000
+ 10000
+
+ a Instead of 10585, as in Bibliothèque nationale de France (henceforth BnF), MS 10265,224r
+ b Instead of 12230, as in BnF 7271,182v; BnF 7286,150r; BnF 10265,225r; but 12130 in BnF 7270,183v
+ c Instead of 22136, as in BnF 7270,185v; BnF 7271,183v; BnF 7286,151r; BnF 10265,226v
+ d Instead of 10000, as in BnF 7270,228r; BnF 7271,185r; BnF 7286,152r; BnF 10265,228v
+
+ Ts (θ) = -— = R cosec Θ,
+
+ J
+
+ sin»
+
+ that is, the cosecant table multiplied by a coefficient R = 10,000. We note that T$ (Θ)
+
+ results from Γι (θ) by division by the constant cos 23;33,30°.
+
+ Table 6 (BJ 556, f. 54r-v): Tabula magistralis sexta
+
+ The argument in this table ranges from 0; 10° to 89;50°, at intervals of 0; 10°. The
+
+ entry for 45°, Tg(45°), is 4360; which is arounding of 10,000 · tan 23;33,30° = 10,000
+
+ • 0.4360236. The function underlying the table is
+
+ Τβ (θ) = R tan θ tan ε,
+
+ that is, the tangent table multiplied by a coefficient 4360 = R tan ε, with R = 10,000.
+
+ This function results from multiplying T\ (θ) by the constant tan 23;33,30°.
+
+ Table 7 (BJ 556, f. 93r): Tabula ad inveniendum gradum ascensionum cuiuscumque
+
+ stelle cum medietate arcus ipsius diurni in sexto climate cuius latitudo est gradum 45,
+
+ in qua intratur cum gradibus ascensionum ipsius in medio celi, que tabula dilatatur
+ in tabulis sequentibus. Tabula magistralis septima
+
+ Ô Springer
+
+This content downloaded from 203.78.15.150 on Sun, 17 May 2020 09:56:30 UTC
+All use subject to https://about.jstor.org/terms
+
+ 550
+
+ J. Chabâs
+
+ • S g^HJOfcC#^ ici^ieiilSAmdk^
+
+ 4rtv4
+
+ 1m1> ""
+
+ BHT |38fw <® <*" *Xk>
+
+ <» i
+
+ "'5
+
+ 5Kf|
+
+ ■ ' ^ ■ "
+
+ JSMfe:].;
+ MpM II
+ MMW# 1
+
+ "M * .5fM«
+
+ »«
+
+ ii" . %ijfc..
+
+ i- <**» *
+ ' " (5|<^ -
+ » f ... ■* -
+
+ » «**:
+ ti }£*ii
+ ■7 ■■ '* ytrM
+
+ ■
+
+ "•SB
+
+ « . i)M
+ ■} <<M
+
+ i£ « »*<*
+
+ W
+
+ .t:
+
+ •T<
+
+ J'S
+
+ fj-'ais
+
+ *> HlK* )
+ .... !
+ n - /<(.,, .
+
+ m
+
+ fe- igpf
+
+ ., «S)?.
+
+ !- -* tifc*
+
+ ..,- '"■**#£,
+ ■(•! -v
+
+ . f» W» ;, ■
+ »).»•
+ .; • "*vf>
+ ■i "»fh
+
+ ■ -■ «n
+ llSfe.
+ I *.:frvr 2«
+ si. "Ifft? L '•' ttfi,
+
+ f-1 I
+ i
+
+ 1-;
+
+ tic, ^rtf-r >■>' '•*{&*}, J* »"d»
+
+ "l 'ijii ?
+
+ ^ J 4» a*
+ - t<> Kd^,;•
+ l» *■-WSS^r •; '
+
+ , 10 l'/J
+
+ **■&'
+
+ f» Jt«
+
+ •« <(>'
+
+ r
+
+ |r V' *H :r":«w*;"
+ t ■' n, ,* it#,
+ S£ & - *•,
+ .. .„ ' ,. . .«•.
+ " <w>
+ ' 'V «. > •*»
+ t > ^iS'3v.
+ * «•* '
+
+ », «M <" ":i
+
+ tS "■<
+ r ': ~.
+
+ C4« If '»*♦ .
+ {£$ V-3*. '>-*
+
+ >±.„; ■.. . . .,* is, iSfH
+
+ »». 'w ' -;-v Spl'
+ .If!#;'
+ "-■it-' /
+
+ ■„ V*-< ,
+ ..» .*« '
+ rv ** t
+ « » fft§
+ - „• iriPh.
+
+ "" 1 ,
+
+ »•»
+ •to i:>»
+ ,'f H»* ■
+
+ .J «
+
+ | - •"' :«><
+ "»«"
+
+ >»■ ««i
+ •;» ?f»<
+ v > :
+
+ s*h,
+ V-: SK
+ u {t$t.
+ • •."'.»
+ !• !>M.
+
+ (M?
+
+ !'■ til*
+
+ " ftrt
+
+ Hi
+ I
+ ,;... iBMMlf
+ »#.». SP1
+
+ ',* ym.
+ .«...:!•'«: i.
+
+ •» U5<!
+ 5!»<
+
+ #1
+
+ /: T- lifJ
+ tiirs
+ ; !i iti£
+
+ %>.. - >».«?*.
+ •>«» * * :*»•» ■
+ I
+
+ If t
+
+ ■. ... - .
+
+ «i.>
+
+ :
+
+ •*»• . >«' |
+ "•» .; :
+ W -t • !*•»#
+
+ ifl
+ * -kS: l»V£? -:
+ |
+ v» >,w *'M!W
+
+ - <»>#-;
+ >•jjw--:
+
+ ag^. '.!«€!,.. ,i4 .... * |***i
+
+ ! 5#>
+ »v;®f
+ !■= >(»i,,:»•'#■ «
+ " | B {--i
+
+ • ;r'T,
+
+ 'iV"i
+
+ wMK'i
+
+ — -j-—.-■S:.-i..,.|......
+
+ ■ -•■' - -.-• ■
+
+ , •%''-.illlll
+
+ % * *»*t !< S
+ , ! I* t*S* , '•
+ I j
+ * »<#> ? y
+
+ #M*i* ;:s|
+
+ '. ' »■*#*.
+
+ i s-a. ,
+ i W!
+ . - a
+
+ DMrfP
+
+ • » mt <■ ff
+
+ *?,m i
+ "»»»*■. <■;.
+ I »•*«
+
+ PMRRHit <M, f
+
+ »-a
+ U$V-8t .v^T
+
+ Wnfi-i
+
+ x r.r'
+
+ Fig. 2 Tabula magistralis 4 in Cracow, BJ 556, f. 52r (excerpt)
+ Fig. 2 Tabula magistralis 4 in Cracow, BJ 556, f. 52r (excerpt)
+
+ This table is different from those preceding it, for it involves quantities such as
+ oblique ascension, ascensional difference, and semidiurnal arc that need to be com
+ puted previously with other auxiliary tables: see Table B.
+
+ The argument of this table is right ascension, a, given for each integer degree from
+ 1° to 360°. Column 2 displays the oblique ascension for geographical latitude 45°
+ (Ferrara), where tan φ = 1. The oblique ascension, P, is the difference between the
+
+ right ascension and the ascensional difference, Y. To recompute this column, we note
+ that Tabula magistralis 2, only valid when tan φ = 1, gives sin y, as a function of the
+
+ <£) Springer
+
+This content downloaded from 203.78.15.150 on Sun, 17 May 2020 09:56:30 UTC
+All use subject to https://about.jstor.org/terms
+
+ longitude, λ, not of a. Therefore, for each value of the argument, one first computes
+
+ λ and then finds sin y in Tabula magistralis 2 to determine the ascensional difference.
+
+ Then, an entry in column 2 is found by adding the ascensional difference just computed
+
+ to the argument. To illustrate the procedure, consider α = 60°. The expression tan α =
+ cos ε-tan λ gives λ = 62; 6,39°, which corresponds to sin y = 22631 in Tabula
+ magistralis 2, and thus γ = 22;9,34° « 22; 10°. Therefore, the ascensional difference
+ is 60° - 22; 10° = 37;50°, almost in agreement with the entry (37;51°). Column
+ 3 is the semidiurnal arc, and it can be computed by adding 90° to the ascensional
+
+ difference. In the example considered, the arc sought is 90° + 22; 10° = 112; 10°,
+
+ which is the entry in the table.
+
+ An analysis of the Tabulae magistrales by Giovanni Bianchini 551
+
+ Table Β Tabula magistralis 7 (excerpt)
+
+ Right Oblique Semidiurnal
+ Right Oblique Semidiurnal Right Oblique Semidiurnal
+ Right Oblique Semidiurnal
+ ascension (°) ascension (°) arc (°)
+ ascension (°) ascension (°) arc (°) ascension (°) ascension (°) arc (°)
+ ascension (°) ascension (°) arc (°)
+
+ 1 0;33 90;27
+ 1 0;33 90;27
+
+ 30 17;24 102;35
+ 30 17;24 102;35
+
+ 210 222;34 77;25
+ 210 222;34 77;25
+
+ 60 37;51 112;10
+ 60 37;51 112;10
+
+ 240 262; 10 67;50
+ 240 262; 10 67;50
+
+ 90 64;9 115;51
+ 90 64;9 115;51
+
+ 270 295;51 64;9
+ 270 295;51 64;9
+
+ 120 97;50 112;10
+ 120 97;50 112;10
+
+ 300 322;10 67;50
+ 300 322;10 67;50
+
+ 150 137;25 102;35
+ 150 137;25 102;35
+
+ 330 342;35 77;25
+ 330 342;35 77;25
+
+ 180 180;0 90;0
+ 180 180;0 90;0
+
+ 360 360;0 90;0
+ 360 360;0 90;0
+
+ Other tables
+
+ In Cracow, BJ 556 there are also two other trigonometric tables by Bianchini that do
+
+ not belong to the Tabule magistrales, although they are closely related to them: one
+
+ displays the sine and the cosine functions, at intervals of 0; 10° of the argument (ff.
+
+ 57v-58v), normed R = 60,000, and the other is for the umbra (shadow), that is, the
+
+ cotangent function (f. 47r-v), with the same interval, but normed R = 10,000. Note
+
+ that Bianchini abandoned in this case the coefficient 12, or multiples of it, traditionally
+
+ and immovably used in tables of shadows until then.
+
+ The Tabule magistrales contain tables for radii 10,000 and 60,000. The sexagesimal
+
+ base (R = 60) goes back at least to Ptolemy in his table of chords in Almagest 1.11, and
+
+ was also used in the tables for the sine function. The entries were usually displayed at
+
+ intervals of half a degree of the argument. To enhance precision Bianchini compiled
+ new tables enlarging the radius to 60,000 and shortening the intervals to 0; 10°. How
+
+ <£) Springer
+
+This content downloaded from 203.78.15.150 on Sun, 17 May 2020 09:56:30 UTC
+All use subject to https://about.jstor.org/terms
+
+ 552
+
+ J. Chabâs
+
+ ever, decimalization was the real innovation in Bianchini's Tabule magistrales, for five
+
+ of these tables were compiled for the first time for R = 10,000, thus abandoning in this
+
+ particular case one of the oldest astronomical traditions, the sexagesimal base.
+
+ This new approach was soon followed by many other astronomers, starting with a
+
+ young contemporary of Bianchini with whom he corresponded, Regiomontanus, who
+
+ in 1468 compiled a table for the sine function normed R = 107.12 Of special interest is
+
+ also Bianchini's table for tangents (Tabula magistralis 4), with R = 104 and intervals
+
+ of 0;10°, which Regiomontanus modified to a table that he called "fecunda," with
+
+ a norm 10 times bigger (R = 105), but with a drastically reduced number of entries
+
+ (intervals of 1°). Regiomontanus's tabulafecunda was part of his Tabulae directionum
+
+ profectionumque (1467), published for the first time in 1490 and many times after (eight
+
+ times in the sixteenth century). On the other hand, Bianchini's Tabule magistrales were
+
+ not printed. This might explain why Regiomontanus, and not Bianchini, has often been
+
+ considered by modern scholars responsible for "providing the model for our modern
+ tables."
+
+ References
+
+ Chabâs, J., and B.R. Goldstein. 2009. The astronomical tables of Giovanni Bianchini. Boston: Leiden.
+
+ Chabâs, J., and B.R. Goldstein. 2012. A Survey of European Astronomical Tables in the Late Middle Ages.
+
+ Boston: Leiden.
+
+ Federici Vescovini, G. 1968. Bianchini, Giovanni. Dizionario biografico degli Italiani 10:194-196.
+ Gerl, A. 1989. Trigonometrisch-astronomisches Rechnen kurz vor Copernicus: Der Briefwechsel
+
+ Regiomontanus-Bianchini. Boethius: Texte und Abhandlungen zur Geschichte der exakten Wis
+
+ senschaften, 21, Stuttgart.
+
+ Goldstein, B.R. 1974. The Astronomical Tables of Levi ben Gerson, 96. Transactions of the Connecticut
+
+ Academy of Arts and Sciences, 45. Hamden, CT.
+
+ Jensen, C. 1972. Abu Nasr Mansur's Approach to Spherical Astronomy as Developed in His Treatise "The
+
+ Table of Minutes". Centaurus 16: 1-19.
+
+ King, A. 2004. In Synchrony with the Heavens. Vol. 1 : The Call of the Muezzin, 114-183. Boston: Leiden.
+
+ Magrini, S. 1917. Joannes de BlanchinisFerrariensis e il suo carteggio scientifico col Regiomontano (1463—
+
+ 1464). Atti e memorie della deputazione ferrarese di storia patria 22(3): 1-37.
+
+ Rosen, E. 1975. Regiomontanus, Johannes, Dictionary of Scientific Biography. New York, VI: 348-352.
+ Rosinska, G. 1980. L'audience de Regiomontanus à Cracovie au XVe et au début du XVIe siècle. In
+
+ Regiomontanus studies, ed. G. Hamann, 315-333. Vienna.
+
+ Rosinska, G. 1981. Tables trigonométriques de Giovanni Bianchini. Historia Mathematica 8:46-55.
+
+ Rosinska, G. 1984. Scientific Writings and Astronomical Tables in Cracow: A Census of Manuscript Sources
+
+ (XlVth-XVIth Centuries). Wroclaw, 476-487.
+
+ Swerdlow, N. M., The renaissance of astronomy: Regiomontanus, Copernicus, Tycho, Kepler, Galileo (forth
+
+ coming).
+
+ 12 See, for instance, Rosinska (1980) and Rosen (1975), especially p. 350.
+
+ Ô Springer
+
+This content downloaded from 203.78.15.150 on Sun, 17 May 2020 09:56:30 UTC
+All use subject to https://about.jstor.org/terms
+
+
