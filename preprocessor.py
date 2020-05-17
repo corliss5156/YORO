@@ -8,7 +8,7 @@ def main():
     parser.add_argument("--output", help="output filename with json extension")
     args = parser.parse_args()
 
-    with open(args.input) as f:
+    with open(args.input, encoding='ISO-8859-1') as f:
         raw_data = f.read()
 
     text = re.split("[=]+", raw_data)[1:-1]
@@ -16,8 +16,9 @@ def main():
     for block in text:
       block = block.replace("\n", "")
       block = re.split("[.?!]", block, 1)
-      first_sentence, rmd_block = block[0], block[1]
-      final[first_sentence] = rmd_block
+      if len(block) == 2 and "" not in block:
+          first_sentence, rmd_block = block[0], block[1]
+          final[first_sentence] = rmd_block
 
     with open(args.output, 'w') as file:
       json.dump(final, file)
