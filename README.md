@@ -1,4 +1,4 @@
-# Reading-Aid-App-
+# YORO (You Only Read Once)
 
 ### Data Instructions 
 Sample data for evaluation has already been uploaded under the data folder. To use the data:
