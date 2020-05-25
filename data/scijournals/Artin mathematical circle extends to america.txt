@@ -1,0 +1,1508 @@
+ 
+
+ 
+
+ 
+
+ 
+
+The collaboration of Emil Artin and George Whaples: Artin's mathematical circle extends
+
+to America
+Author(s): Della Dumbaugh and  Joachim Schwermer
+Source: Archive for History of Exact Sciences, Vol. 66, No. 5 (September 2012), pp. 465-484
+Published by: Springer
+Stable URL: https://www.jstor.org/stable/23251743
+Accessed: 19-05-2020 12:07 UTC
+
+JSTOR is a not-for-profit service that helps scholars, researchers, and students discover, use, and build upon a wide
+
+range of content in a trusted digital archive. We use information technology and tools to increase productivity and
+
+facilitate new forms of scholarship. For more information about JSTOR, please contact support@jstor.org.
+
+Your use of the JSTOR archive indicates your acceptance of the Terms & Conditions of Use, available at
+
+https://about.jstor.org/terms
+
+Springer is collaborating with JSTOR to digitize, preserve and extend access to Archive for
+History of Exact Sciences
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:07:17 UTC
+All use subject to https://about.jstor.org/terms
+
+ Arch. Hist. Exact Sci. (2012) 66:465^184
+ DOI 10.1007/s00407-012-0100-2
+
+ The collaboration of Emil Artin and George Whaples:
+ Artin's mathematical circle extends to America
+
+ Delia Dumbaugh • Joachim Schwermer
+
+ Received: 5 January 2012 / Published online: 8 May 2012
+ © Springer-Verlag 2012
+
+ Abstract In his biography of Emil Artin, Richard Brauer describes the years from
+ 1931-1941 as a time when "Artin spoke through his students and through the mem
+ bers of his mathematical circle" rather than through written publications. This paper
+
+ explores these seemingly quiet years when Artin immigrated to America and dissem
+ inated ideas about algebraic number theory during this time in his collaboration with
+
+ George Whaples, a young American mathematician who had just completed his Ph.D.
+
+ at the University of Wisconsin. The main result of their work is the use of the product
+
+ formula for valuations to come up with an axiomatic characterization of both algebraic
+
+ number fields and algebraic function fields with a finite field of constants. These two
+
+ families of fields are exactly the fields for which class field theory is known to hold.
+
+ We situate their mathematical work in the broader context of algebraic number theory
+ and their lives within the broader historical context.
+
+ 1 Introduction
+
+ Solomon Lefschetz had two points in mind when he wrote to Father John F. O'Hara,
+ President of Notre Dame University, in early January, 1937. After congratulating
+
+ Communicated by: Jeremy Gray.
+
+ D. Dumbaugh (IS)
+ Department of Mathematics, University of Richmond, Richmond, VA, USA
+ e-mail: ddumbaugh@richmond.edu
+
+ Faculty of Mathematics, University of Vienna, Nordbergstrasse 15, 1090 Vienna, Austria
+ e-mail: Joachim.Schwermer@univie.ac.at
+
+ J. Schwermer
+
+ J. Schwermer
+
+ Erwin Schrodinger International, Institute for Mathematical Physics, Boltzmanngasse 9, 1090 Vienna,
+ Austria
+
+ <£) Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:07:17 UTC
+All use subject to https://about.jstor.org/terms
+
+ 466 D. Dumbaugh, J. Schwermer
+
+ O'Hara on Notre Dame's recent appointment of Karl Menger to their faculty, Lefs
+ chetz offered a "constructive suggestion" about another European mathematician. "I
+ permit myself," Lefschetz wrote to O'Hara
+
+ to name for your strong consideration another absolutely first rate man, the alge
+
+ braist E. Artin, at the present time Professor at the University of Hamburg. He is
+
+ an Austrian Aryan, but his wife is one-half Jewish. They have a couple of small
+
+ children and you know the rest. Like Menger, Artin is in the middle thirties,
+ famous not only as a first rate scientist but also as a teacher, and inspirer of
+ youth, and is a most attractive personality. Although still very young he was
+ in 1930, runner-up for the post of successor to Professor David Hilbert at Got
+ tingen, himself an outstanding mathematical genius of all times (Lefschetz to
+ O'Hara, 12 January, 1937).
+
+ Apparently, then, from his position within the AMS, Lefschetz learned of Artin's sit
+ uation and took up his cause.1 Fortunately, Father O'Hara "made a place for him on
+ the [Notre Dame] faculty....in order to relieve his mind of the strain under which he
+ labored in Germany (O'Hara to H. B. Wells, 11 June, 1938)." Thus it was a personal
+ letter and a commitment from an institution, and not one of the organized committees,
+
+ that initially brought Artin to America.2
+
+ For all of Lefschetz's (accurate) accolades, he did not mention that Artin had not
+
+ published since 1932. In fact, this request and subsequent appointment occurred dur
+ ing a time that a "casual observer" might describe as "ten years of silence" (roughly
+
+ 1931-1941) in terms of written publications where, instead, "Artin spoke through his
+ students and through the members of his mathematical circle (Brauer 1967, p. 36)."3
+ This paper begins to explore these "ten years of silence" and how Artin disseminated
+ ideas about class field theory during this time and, in particular, how Artin began to
+ work with George Whaples, a young American mathematician who had just completed
+ his Ph.D. at the University of Wisconsin.
+
+ 1 Discouraged by the "efficacy" (or, lack thereof) of the organized committees to aid refugees, Harlow
+ Shapley, Oswald Veblen and Hermann Weyl adopted this strategy of appealing directly to an academic
+ institution on behalf of a particular scholar in the late 1930s (Rider 1984, pp. 151-153). Weyl, for exam
+ ple, arranged for a position at Trinity University for Bernard Baule, his former colleague at Graz. Writing
+
+ candidly, Weyl described the position as "nothing to be particularly enthusiastic about, but certainly a lot
+ better than a concentration camp (Weyl to American Friends Service, as quoted in Rider 1984, p. 119)."
+
+ 2 The work of these committees has been examined elsewhere in more general works such as Rider (1984),
+ Reingold (1985), and Siegmund-Schultze (2009), to name only three.
+
+ 3 In fact, this work will serve as something of a case study for Brauer's more detailed assessment of Artin.
+
+ As Brauer puts it, "[t]he ten year period 1921-1931 of Artin's life had seen an activity not often equalled in
+
+ the life of a mathematician. They were followed by what may appear to a casual observer as a period of ten
+
+ years of silence. This would be a false impression. It is true that Artin developed a strong aversion against
+
+ the writing of papers for publication. But the essential change was that from now on, Artin spoke through
+
+ his students and through the members of his mathematical circle. He gave his own ideas generously to his
+ students. Some of the dissertations written under Artin were probably mostly his own work. Sometimes,
+ he had had an idea before and led his student to find it for himself. On all of his students, Artin exerted a
+
+ profound influence. It would be impossible to separate what was Artin's work and what was that of others
+
+ and we shall not attempt this. Artin detested discussion of questions of priority. It did not matter in the least
+ to him, whether some work was done by him or by somebody else. What mattered was that it was done the
+ way he felt it should be done (Brauer 1967, pp. 36-37)."
+
+ <£) Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:07:17 UTC
+All use subject to https://about.jstor.org/terms
+
+ Artin-Whaples 467
+
+ Artin and Whaples met at the University of Indiana in 1939 and eventually collabo
+
+ rated on three papers. Their main result is the use of the product formula for valuations
+ to come up with an axiomatic characterization of both algebraic number fields and
+ algebraic function fields with a finite field of constants. These two families of fields are
+
+ exactly the fields for which class field theory is known to hold. Their work was very
+ much inspired by the notion of the idele group, a new approach to class field theory
+
+ introduced by Claude Chevalley. Artin and Whaples defined valuation vectors as the
+
+ additive counterpart of the ring of ideles attached to an algebraic number field. This
+ association enabled them to derive the fundamental results of number theory from
+ simple axioms.
+
+ The current paper puts the work of Artin and Whaples into a larger context by trac
+
+ ing relevant personal and professional points in their individual and collective lives.
+
+ For Artin, this discussion begins with his important lectures on class field theory at
+ the University of Hamburg in 1931/1932, which Chevalley among others attended,
+ passes over to his forced emigration to the United States in 1937, and his moves to the
+
+ University of Indiana at Bloomington in 1938 and Princeton University in 1946. For
+
+ Whaples, we focus on his work as a Ph.D. student at Wisconsin, his collaboration with
+
+ Artin at Indiana, and his subsequent short-term position at the Institute for Advanced
+
+ Study in 1941-1942. We also include a discussion of the influence of the work of Artin
+ and Whaples on the development of algebraic number theory in the following years.
+
+ In the final section of the paper, we offer a fuller analysis of the salient underlying
+
+ point of this time in Artin's career, that of his life as an immigrant.
+
+ 2 Courses in class field theory in 1931/1932
+
+ In the summer of 1931, Artin informed Helmut Hasse that "Ich habe die Klassen
+
+ korperbeweise jetzt endlich aufgeschrieben und werde sie Ihnen hoffentlich bald zus
+
+ chicken konnen. Es hat doch langer gedauert als ich annehmen konnte (Artin to Hasse,
+ 24 August, 1931, also in: Frei and Roquette 2008, p. 396)."4 Unfortunately, these the
+ orems never appeared in manuscript form and it seems doubtful that Artin sent them
+ to Hasse since they are not located in the Hasse Nachlass (Cod. Ms. H. Hasse, NSUB).
+ Shortly afterwards, however, Artin gave a course in Hamburg in 1931/1932 on class
+ field theory that had a lasting and, in some sense, measureable influence on mathe
+ matics. Shokichi Iyanaga and Rockefeller Fellow Claude Chevalley were among the
+ members of Artin's audience for these lectures and discussion (Iyanaga 2006, p. 52).
+
+ Chevalley had already worked in class field theory and communicated his results, one
+
+ jointly with Jacques Herbrand, to the Acadmie des Sciences de Paris (Chevalley 1930,
+ 1931, 1932, 1933; Chevalley and Herbrand 1931). Thus, he came to Artin's course
+ not only with some background but also with some contributions to class field theory.
+
+ Within this course, Artin provided new and simpler proofs for certain statements in
+
+ class field theory (Chevalley 1933, p. 370). As Iyanaga (2006, p. 52) reports, Chevalley
+
+ suggested some of these simplifications. "Chevalley had the idea for improving the pre
+ sentation in Artin's course. He communicated these ideas to me and then to Artin who,
+
+ 4 "Finally I have written up the class field proofs and, hopefully, I will soon be able to send them to you
+ (our translation)."
+
+ <£} Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:07:17 UTC
+All use subject to https://about.jstor.org/terms
+
+ 468 D. Dumbaugh, J. Schwermer
+
+ in turn, passed them on to the audience at the beginning of the following hour (Iyanaga
+ 2006, p. 52)." Chevalley (1933) describes his thesis "Sur la theorie du corps de classes
+
+ dans les corps finis et les corps locaux" as a "new exposition in class field theory" and
+
+ thanks Artin, among others, for simplifications of theorems. Thus, although Chevalley
+
+ was not an "official" Ph.D. student of Artin, his thesis represents a prominent example
+ of Artin's success in "speaking through the members of his mathematical circle." We
+
+ note the somewhat obvious contrast between the "silence" of Artin's promised theo
+
+ rems of August, 1931 that never appeared and the lasting influence of a course begun
+
+ shortly thereafter. Perhaps this historical record offers contemporary academicians a
+
+ more expanded view of how to measure the success of a mathematician?
+
+ Continuing with what was an apparently good idea, in 1932, Artin also offered a
+ course in class field theory at Gottingen. Olga Taussky wrote up the notes for this
+ course and sold them for 1 Mark to cover printing costs. A translation of these notes
+
+ is now preserved in (Cohn 1978, pp. 277-304). Taussky comments that in these notes,
+ which "were very much used despite their limited circulation" Artin "made use of
+ the ideas of Herbrand and was more modern than probably any other publication on
+ some of the basic facts in class field theory for some time (Cohn 1978, p. 276)." In the
+
+ summer of 1933, Artin gave a course on algebraic number theory, designated in the
+ list of courses as "Algebra," at the University of Hamburg. We know the content of
+
+ this course from the notes taken by E.A. Eichelbrunner (Artin 1933). In particular, in
+
+ this course, Artin presented the basic material regarding the theory of valuations. It is
+
+ worth noting that, at the time, Artin had only the original papers of Kurt Hensel, Josef
+ Kurschak, and Alexander Ostrowski, among others, at his disposal, accompanied by
+ the course material ofHensel published in 1908 and 1913(Hensel 1913). Ostrowski's
+ seminal paper "Untersuchungen zur arithmetischen Theorie der Korper (Die Theorie
+ der Teilbarkeit in allgemeinen Korpern)" was already submitted at that time but only
+ appeared in 1935 (Ostrowski 1935).
+
+ After the three manuscripts and one book Artin published in 1931 and 1932 (Artin
+
+ 1931a,b, 1932a,b), he would not publish again until 1940. During the time before he
+ left Hamburg, however, he not only hosted international visitors such as the young
+ Herbrand, Chevalley and Iyanaga, but he also advised several students including Max
+ Zorn (1931) and Hans Zassenhaus (1934). (In 1927 he advised his first student, Kate
+
+ Hey (1927), in her thesis work that extended the theory of the Dedekind Zeta func
+ tion to the semi-simple hypercomplex number systems). As Brauer notes, although
+ this may have seemed like a period of silence, indeed Artin was distributing mathe
+
+ matical ideas through the meaningful avenues of courses and dissertations. He would
+ continue this trend when he arrived in America as well as resume publishing math
+ ematics. George Whaples would be among the first young Americans to join—and
+ benefit from—Artin's mathematical circle.
+
+ 3 Artin and Whaples
+
+ Artin and Whaples met in 1939 when their paths overlapped at Indiana University.
+
+ Artin had immigrated to America only 2 years earlier and taken a short-term position at
+
+ Notre Dame University in South Bend, Indiana (Fenster 2007). News of Artin's arrival
+
+ in America did not go unnoticed at Indiana University, some 174 miles south of Notre
+
+ Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:07:17 UTC
+All use subject to https://about.jstor.org/terms
+
+ Artin-Whaples 469
+
+ Dame, particularly by the Chairman of the Mathematics Department, K. P. Williams.
+ "It seems to me that departments should be strengthened from time to time as occasion
+
+ offers," K. P. Williams wrote to his dean. "There is the opportunity to strengthen this
+ one... There is Professor Artin at Notre Dame, almost on our doorstep, perhaps the
+ leading man in algebra in the world, and one of the outstanding mathematicians of
+ all fields (Williams to Payne, 6 April 1938)." Williams apparently made a convincing
+
+ case to the dean since Indiana University offered Artin a permanent position beginning
+ in the 1938-1939 academic year.
+
+ In 1939, Whaples earned his Ph.D. from the University of Wisconsin under the
+
+ direction of Mark H. Ingraham. In his dissertation, "On the structure of modules with
+
+ a commutative algebra as operator domain," as Whaples described it, he "worked on
+
+ the problem of finding necessary and sufficient conditions for the similarity of two
+ matrix representations of a commutative algebra (Whaples, Application to IAS, 10
+ February, 1941)." Ingraham would later call Whaples "one of the strongest students
+ we have ever had at Wisconsin. His mind is rather the original type, and more like
+ E. H. Moore in always wishing to pass from the general to the concrete rather than
+ in the reverse order than any student I have had (Ingraham to Veblen, 11 February,
+ 1941)." To be compared to E. H. Moore in American circles was the highest of praise.
+ In this case, this comment had particular meaning since Ingraham and Veblen were
+ both students of Moore at Chicago (Archibald 1938, p. 146).
+
+ Whaples spent 1939-1941 at Indiana in a post-doctoral position where he learned
+ class field theory and worked with Emil Artin (Whaples, Application to IAS, Feb
+ ruary, 1941). This collaboration with Artin ultimately resulted in the publication of
+ three papers: "The Theory of Simple Rings," "Axiomatic Characterization of Fields
+ By the Product Formula for Valuations", and "A Note on Axiomatic Characterization
+
+ of Fields." In the first paper, Artin and Whaples dealt with the structure of simple rings
+
+ and extended existing theorems for simple algebras to simple rings. In their second and
+
+ third publications, Artin and Whaples provided an axiomatic characterization of what
+ is nowadays called a global field by means of the product formula. The commitment
+
+ to clarify the role played by the basic result in a theory was fundamental to Artin's
+ approach to mathematics. Later, Whaples would capture the essence of Artin's style
+ as he had experienced it in his collaboration when he described
+
+ the tradition of the lectures of Emil Artin, who enjoyed developing a subject
+
+ from first principles and devoted much research to finding the simplest proofs at
+
+ every stage. From him we learned how important it is to do this: it is a matter of
+
+ honor that one should have in his memory the complete proofs of all the theorems
+
+ he uses; the proof of a new theorem often is found by adapting and extending a
+
+ method used to prove an old one; and sometimes a known proof using hard com
+
+ putations with the results of lemmas can be replaced by an elegant conceptual
+
+ one using arguments and sub-results from the proofs of those lemmas (Whaples
+ 1965).
+
+ While working with Artin, Whaples also published his own results on the "ramifica
+
+ tion of class fields and of the theorem of Grunwald on [the] existence of cyclic fields
+
+ with given local properties (Whaples, Application to IAS, February, 1941; Whaples
+ 1942)." Artin would later cite his non-analytic approach in this work in his letter of
+
+ <£) Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:07:17 UTC
+All use subject to https://about.jstor.org/terms
+
+ 470 D. Dumbaugh, J. Schwermer
+
+ recommendation for Whaples to the Institute for Advanced Study without, apparently,
+ noticing the mistake that his own student Shianghaw Wang would find in 1948 (Artin
+ to Veblen, 13 February, 1941).
+
+ 4 Joint papers of Artin and Whaples
+
+ 4.1 Artin/Whaples "The Theory of Simple Rings" (1943)
+
+ Given the focus of Whaples' dissertation, it seems not so surprising that the first joint
+
+ work Artin and Whaples pursued was on simple associative rings. In this paper, Artin
+ and Whaples used a new approach to prove structure theorems that generalized known
+ theorems of simple algebras. Specifically, Artin and Whaples presented the foundation
+
+ for a structure theory of simple associative rings, that is, associative rings R containing
+
+ no two sided ideal other than itself and 0, such that R2 0. They proved theorems that
+
+ generalized results in the structure theory of simple associative algebras as initiated by
+
+ J. H. M. Wedderburn in his theory of hypercomplex number systems and pursued by
+ A. Adrian Albert and Artin among others. "The reader will be able, if he wishes" Artin
+
+ and Whaples point out in their introduction, "to extract from our discussion proofs of
+ the structure theorems for algebras which are shorter than those usually given (Artin
+
+ and Whaples 1943, p. 87)." This applies, for example, to their "Theorem 4" where
+ the authors indicate in a footnote that this result was first proved (for simple algebras)
+ by Wedderburn (Wedderburn 1907). It concerns Wedderburn's groundbreaking result
+ that, given a finite-dimensional simple algebra A over a field F, there exists a finite
+ dimensional division algebra D (unique up to isomorphism) and a unique integer r
+ such that A is isomorphic to the matrix algebra Mr{D). As Artin would later reflect,
+
+ [t]he essential point in the definition of an algebra is that it is a vector space
+ of finite dimension over a field. This fact allows us to conclude that ascending
+
+ and descending chains of subalgebras will terminate. After the great success that
+ Emmy Noether had in her ideal theory in rings with ascending chain condition,
+
+ it seemed reasonable to expect that in rings where the ascending and descending
+ chain condition holds for left ideals one should obtain results similar to those of
+
+ Wedderburn (Artin 1950, p. 67).
+
+ The new point of view introduced by Emmy Noether was the notion of a represen
+ tation space, that is, a vector space where the elements of the algebra act as linear
+ transformations. The work of Artin and Whaples showed that this treatment of sim
+ ple algebras could be generalized to a wider class of rings. This new point of view
+ would also allow Chevalley and Nathan Jacobson, independently of one another, to
+ generalize Wedderburn's fundamental theorem.
+
+ 4.2 Artin/Whaples "Axiomatic Characterization of Fields by the Product Formula for
+ Valuations" (1945) and "A Note on Axiomatic Characterization of Fields" (1946)
+
+ Artin and Whaples' "Axiomatic Characterization of Fields by the Product Formula for
+ Valuations" appeared in the Bulletin of the American Mathematical Society in 1945
+
+ Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:07:17 UTC
+All use subject to https://about.jstor.org/terms
+
+ Artin-Whaples 471
+
+ and represented a conceptual breakthrough in algebraic number theory in so far as it
+ clarified the role played by the product formula in characterizing the basic objects of
+ algebraic number theory from a valuation theoretic point of view. At the same time,
+ the paper emphasized the close analogy between the theory of algebraic number fields
+ and the theory of algebraic function fields with a Galois field as the field of constants.
+ The axiomatic method used in this paper unifies these two cases, nowadays bound
+ together by the general notion of a global field as the basic object of study. These two
+
+ families of fields are exactly the fields for which class field theory is known to hold.
+
+ The ideal theoretic approach as developed by Dedekind and his successors had
+
+ dominated the development in algebraic number theory for a long time. However,
+ Hensel (1913) introduced a new methodological approach to questions in number the
+ ory alongside the ideal theoretic approach at the turn of the century. Hensel's new
+
+ concept of p-adic numbers marked the beginning of the theory of valuations.5
+
+ In 1921-1924, Hasse had demonstrated the importance of Hensel's ideas for clas
+
+ sical questions in number theory, in particular, in the arithmetic theory of quadratic
+ forms over number fields (Hasse 1923a,b, 1924a,b). At that time, Artin was still quite
+
+ "in favor" of the ideal theoretic approach to algebraic number theory. "I remember
+ numerous conversations," Hasse later recalled,
+
+ which I had with Artin in the years 1922-1925 about the p-adics. Artin was
+
+ very much in favor (with fire and flame) of Dedekind's theory of ideals in which
+ the greater elegance and simplicity deeply impressed him, and he had the same
+
+ 5 The valuation theoretic approach to number theory grew out of a new view of prime ideals in the ring
+ of integers in an algebraic number field k. In analogy to the usual absolute values on k which correspond
+ to the real, respectively complex embeddings of k, one introduced absolute values associated with prime
+ ideals.
+
+ More precisely, a valuation | | on k is a function defined on k with values in the non-negative real numbers
+
+ satisfying the following axioms:
+
+ (1) |a| = 0 if and only if a = 0
+ (2) |a£>| = \a\\b\ for all a, b e k
+ (3) \a + b\ < |a| + \b\ for all a, b e k.
+
+ One calls a valuation non-archimedean if in addition to (3) it satisfies \a + b\ < max(|a|, \b\). If it is not
+ non-archimedean, then it is called archimedean. The valuation \a\ = 1 for all a / 0 is called the trivial
+
+ valuation. Two valuations | |j, | I2 on the same field are equivalent if there is a c > 0 such that |a|j = \a\2
+ for all a € k. Equivalence is clearly an equivalence relation.
+ A set of equivalent and non-trivial valuations of the field k is called a prime (divisor) or a place of that field,
+
+ and denoted by letters like p, p or v. We denote by kv the completion of k with respect to the topology
+ induced on k by the place v. There are two types of valuations possible. First, there are a finite number of
+
+ completions kv = R or C corresponding to the places given by embeddings of k into R or C (up to complex
+ conjugation in the latter case). These valuations are archimedean. In other words, all real embeddings of
+ k and all pairs of conjugate imaginary embeddings give rise to archimedean valuations. These are all the
+ archimedean places an algebraic number field admits. Second, there are an infinite number of non-archime
+
+ dean places, one for each prime ideal in the ring of algebraic integers of k. For example, on the field Q of
+
+ rational numbers there is one non-archimedean place for each prime p > 0, the p-adic valuation defined by
+
+ for u,x,y 6 Z, x, y not divisible by p. It is a fundamental result of Ostrowski that the only non-trivial
+
+ valuations on Q are those equivalent to the | \p or the ordinary absolute value | |oo
+
+ <£) Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:07:17 UTC
+All use subject to https://about.jstor.org/terms
+
+ 472 D. Dumbaugh, J. Schwermer
+
+ regretful smile for the p - adics as my Gottingen teachers at the time. .. .Only
+ the later great success of the p -adics in the theory of algebras and class fields
+ made it possible to call his attention to Hensel's method, to allow him to fully
+ acknowledge its value and lead him to contribute papers on the foundation of
+ the p -adic (valuations of algebraic number fields) (Hasse 1950, p. 10).6
+
+ At the same time Hasse developed the idea of the /j-adic transfer from the "small" to
+ the "large," later to be called his local-global principle (Schwermer 2009). It served
+
+ as a far reaching focus in his research in the following years and came to full fruition
+
+ in his joint work with Brauer and Emmy Noether when they established the structure
+ theory for central simple algebras defined over an algebraic number field in late 1931
+ (Brauer et al. 1932).
+
+ At end of the 1920s and in the early 1930s, Artin shifted his own thinking from the
+
+ ideal theoretic approach to the valuation theoretic approach. It might very well have
+ been the success of the local-global principle in the theory of central simple algebras
+ that ultimately convinced Artin to give the valuation theoretic method or point of
+
+ view a more central role in his own work. His first contribution to the theory of val
+
+ uations was his short note " Uber die Bewertungen algebraischer Zahlkorper" which
+ he submitted on August 24, 1931, to Crelle's Journal for publication in the special
+ volume in honor of Kurt Hensel's 70th birthday. In this short note (Artin 1932b), Artin
+
+ determined all possible valuations that an algebraic number field admits.
+
+ Although Artin had initially embraced the ideal theoretic approach to class field
+ theory—with no less than what Hasse called "fire and flame"—he ultimately inte
+ grated the valuation theoretic approach in his work, not only in his research but also
+
+ in his teaching. In particular, he imparted that approach to Whaples and it formed the
+ essence of their second and third papers.
+
+ The second paper is based on an invited address delivered by Artin on April 23,
+ 1943 to the Chicago meeting of the American Mathematical Society. In Section 1 of
+ the written version, Artin and Whaples briefly recall the background material in the
+ theory of valuations on fields. However, the first section culminates with a result not
+
+ previously found in the literature in this form, namely the so-called Weak Approxi
+ mation Theorem. This result reads as follows (where k denotes a field):
+
+ THEOREM. If we are given any n nontrivial inequivalent valuations | |„ of k,
+ an element av of k for each valuation, and an e >0, then we can find an element
+ a of k such that
+
+ W — au|u < e for each v = 1, 2,... n
+
+ (Artin and Whaples 1945, p. 472).
+
+ 6 Ich entsinne mich an zahlreiche Gesprache, die ich in den Jahren 1922-1925 mit Artin iiber den Wert
+
+ der p-adik fiihrte. Artin war Feuer und Flamme fur die Dedekindsche Idealtheorie, in der ihn die grossere
+ Eleganz und Einfachheit bestach, und hatte fur die p-adik dasselbe mitleidige Lacheln wie seinerseits meine
+ Gottinger Lehrer... Erst die spateren grossen Erfolge der p-adik in der Theorie der Algebren und Klas
+ senkorper vermochten es, ihn fiir die Henselsche Methode zu gewinnen, ihn zur vollen Anerkennung ihres
+
+ Wertes zu bringen und gar eigene Arbeiten von ihm zur Begriindung der p-adik (Bewertungen algebraischer
+ Zahlkorper) herbeizufiihren.
+
+ Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:07:17 UTC
+All use subject to https://about.jstor.org/terms
+
+ Artin-Whaples 473
+
+ We briefly discuss the relation of the statement of this theorem to another approx
+ imation result, namely, the "Chinese Remainder Theorem," the generalization of a
+ classical result for the ring of integers Z to all Dedekind rings. Let Ok be the ring of
+ algebraic integers in the given algebraic number field k, and let pi,..., p„ denote n
+ distinct prime ideals in Ok- For each of these prime ideals there is a corresponding
+
+ valuation | |p. Let x\,,xn be elements of Ok, and let v be a positive integer. Then,
+ by the Chinese Remainder Theorem, one can find an element y e Ok, rather than
+
+ just in k, such that y = x, mod p(y for i = 1,..., n. In terms of the corresponding
+ valuation this reads as |_y — jt,-1 Pl < tv for some real number t with 0 < t < 1.
+
+ The "Chinese Remainder Theorem" only covers valuations corresponding to prime
+
+ ideals, i.e., non-archimedean valuations whereas the Weak Approximation Theorem
+ includes archimedean valuations as well. However, it is worth noting that the "Chinese
+
+ Remainder Theorem" places integrality conditions at all places.
+
+ Artin and Whaples' Weak Approximation Theorem has important consequences.
+
+ First, given an algebraic number field k, let o\,..., ar denote r distinct embeddings
+ k —> R of k into the field of real numbers, and let e,-, i = 1,..., r, be an element in the
+
+ "set of signs" {+1, —1}. Then the Approximation Theorem implies that there exists
+ an element a e k* with sign(cr, (a)) = e,-. This result is very useful in the arithme
+ tic theory of algebraic groups, in particular, orthogonal groups attached to quadratic
+
+ forms over number fields. It permits, for example, the construction of quadratic forms
+ / over k which are indefinite at one real place, say a, of k and whose conjugates
+ f', a, / a, are positive definite.
+
+ Second, as pointed out by Artin and Whaples, one has the independence of valua
+
+ tions as a corollary:
+
+ COROLLARY. If | |i, | I2,..., | |„ are nontrivial and inequivalent then a
+ relation
+
+ Wl1 \x\V2 ■ ■ ■ \x\Vnn = 1
+
+ is true for all x e k,x ^ 0, if and only if all v, = 0 (Artin and Whaples 1945,
+ p. 473).
+
+ However, for the circle of questions of interest to Artin and Whaples, the approxima
+
+ tion theorem implies that no "finite number of valuations can be interrelated in a field.
+
+ Such an interrelation may nevertheless happen for an infinite number of valuations.
+
+ In the case of the ordinary function fields and number fields that is not only the case
+
+ but this fact may even be used to derive all the properties of these fields on a common
+
+ basis (Artin and Whaples 1945, p. 473)." As Artin and Whaples put it, a prime divisor
+
+ of a given field k is a set of equivalent and non-trivial valuations of that field. Then
+
+ they introduce the following axiom:
+
+ AXIOM 1. There is a set M of prime divisors p of k and a fixed set of valuations
+
+ | |p , one for each p e M, such that, for every a ^ 0 of k, |a|p = 1 for all but
+ a finite number of p € M. and
+
+ •£) Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:07:17 UTC
+All use subject to https://about.jstor.org/terms
+
+ 474 D. Dumbaugh, J. Schwermer
+
+ nwp=1
+
+ p
+
+ where this product is extended over all p e M (Artin and Whaples 1945, p. 473).
+
+ One should point out that the set M. may or may not be the set of all prime divisors
+ of k. Suppose that the field k satisfies this axiom then the set M. can contain only a
+ finite number of archimedean divisors, and if M. contains some of these archimedean
+
+ divisors then there is no field of constants, that is, we are not in the case of a function
+ field.
+
+ Associated to the set A4 is a certain space of vectors a with one component ap for
+ each divisor p. The component ap may range freely over the p-completion kv of k.
+ If the set M. is the set of all prime divisors of k then the space is what is known as
+ the space of valuation vectors. Artin and Whaples did not introduce this notion yet
+
+ but they point out that "the ideles of Chevalley are special cases of these vectors; for
+
+ an idele we must have ap ^ 0 for all p and |a|p = 1 for all but a finite number of p
+ (Artin and Whaples 1945, p. 473)." Artin and Whaples continue, "Our field k may be
+ considered a subset of this space inasmuch as a e k may also be considered as the
+
+ vector whose p-coordinate is the element a of kp (Artin and Whaples 1945, p. 474)."
+ This first axiom is supplemented by the second axiom
+
+ AXIOM 2. The set M. of Axiom 1 contains at least one prime q, which is one
+ of the following two types:
+
+ 1. Discrete, with a residue class field of finite order Nq.
+
+ 2. Archimedean, with a completed field kq which is either the real or the complex
+ field (Artin and Whaples 1945, p. 475).
+
+ The main result of the paper is stated in Artin and Whaples' Theorem 3 (Artin and
+ Whaples 1945, p. 484):
+
+ If k is a field that satisfies the Axioms 1 and 2 it is an extension of a finite degree
+ n either of the rational field R or of the field R = ko(z) of rational functions
+
+ over its field of constants &o- All valuations satisfy Axiom 2. M. consists of all
+ extensions of the well known valuations of R.
+
+ Artin and Whaples concluded this paper by deriving from the two axioms some basic
+ results in algebraic number theory that were fundamental in the previous non-axi
+ omatic approach. These included, among others, Dirichlet's unit theorem and the
+ finiteness of the class number.
+
+ Ten months after submitting this paper, Artin and Whaples added a short note where
+
+ they were able to weaken one of the assumptions in Axiom 1, namely they replaced
+
+ "that for every a ^ 0 of k, |a|p = 1 for all but a finite number of p e M" by the
+ assumption that the product of all valuations converges absolutely to the limit 1 for all
+ a. They easily adapted the proof of the previously given axiomatic characterization
+ of fields to the new axiom with a few modifications.
+
+ This work of Artin and Whaples played a critical role in the development of alge
+
+ braic number theory. Their work is important because it is strongly related with the
+
+ <£} Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:07:17 UTC
+All use subject to https://about.jstor.org/terms
+
+ emergence of the notions of ideles, due to Chevalley, and valuation vectors. The mod
+ ern term for these valuation vectors is adeles.
+
+ Artin-Whaples 475
+
+ This view was previously expressed by Andre Weil in his review of the The Col
+
+ lected Papers ofEmil Artin where he notes
+
+ [t]he joint work with Whaples in 1945 played an important role in the introduc
+
+ tion of the adele concept in algebraic number theory (Weil 1967a).
+
+ Weil was even more explicit in the foreword to his book Basic Number Theory where
+
+ he explained in some detail that "[t]o improve upon Hecke, in a treatment along the
+ classical lines of the theory of algebraic numbers, would be a futile and impossible
+ task." Instead, the point of view Weil adopted in this book was the adelic one. He
+ pointed out
+
+ [i]n the days of Dirichlet and Hermite, and even of Minkowski, the appeal to
+ "continuous variables" in arithmetical questions may well have seemed to come
+ out of some magician's bag of tricks. In retrospect, we see now that the real
+ numbers appear there as one of the infinitely many completions of the prime
+ field, one which is neither more nor less interesting to the arithmetician than its
+
+ /;-adic companions, and that there is at least one language and one technique,
+
+ that of the adeles, for bringing them all together under one roof and making them
+
+ cooperate for a common purpose (Weil 1967b).
+
+ As mathematics advanced, the concept of adeles and the accompanying Local-Global
+ Principle became the language of choice in the arithmetic theory of algebraic groups,
+
+ their representation theory and the theory of automorphic forms as well in large parts
+
+ of arithmetic algebraic geometry.
+
+ These collaborative papers underscore Artin's willingness to share his ideas with
+ his students and to include them in the publication of that work. Whaples had arrived
+
+ at Indiana in 1939 without any apparent deep knowledge of algebraic number theory,
+ in particular, class field theory. By April, 1943, he and Whaples had begun to think
+
+ about the structural and conceptual underpinnings of the main results in class field the
+
+ ory. As they point out, these results hold for algebraic number fields and for function
+ fields with a Galois field as the field of constants. Indeed, number fields and function
+
+ fields are characterized by their possession of a product formula. In turn, as Artin and
+
+ Whaples assert, "this shows that the theorems of class field theory are consequences
+ of two simple axioms concerning the valuations (Artin and Whaples 1945, p. 469)."
+ Their work represents a significant contribution to algebraic number theory and, in
+
+ particular, to the very foundations of class field theory, a field that Weyl would describe
+ as one of the "most difficult and elaborate theories] in all of mathematics (Secretary
+ of IAS School of Mathematics to Professor Tracy Thomas, 20 June, 1947)." While
+
+ Artin may have served as the leader on these collaborations, Weyl noted that he knew
+
+ "that Whaples's contributions to these joint papers were very considerable (Secretary
+ of IAS School of Mathematics to Professor Tracy Thomas, 20 June, 1947)." Later,
+ Artin and Tate's lectures on class field theory would develop the subject further using
+
+ the methods of cohomology theory (Artin and Tate 1968). It was, however, the work
+
+ of Artin and Whaples that began this transition in the approach to class field theory.
+
+ "£} Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:07:17 UTC
+All use subject to https://about.jstor.org/terms
+
+ 476 D. Dumbaugh, J. Schwermer
+
+ 5 Whaples on his "own feet"
+
+ Whaples' work and association with Artin opened the door for him to visit the Institute
+ for Advanced Study in Princeton (IAS). In early 1941, apparently while working on
+ these papers with Whaples, Artin contacted Hermann Weyl at the IAS about the pos
+ sibility of Whaples serving as an assistant to Weyl for the 1941-1942 academic year.7
+
+ Weyl indicated that Artin's proposition was indeed a possibility and sent the requisite
+ instructions and application materials for Whaples. Whaples' application and asso
+ ciated letters of recommendation provide insight into Whaples as a mathematician,
+ teacher, and man.
+
+ In his outline of his plans for his mathematical work during the year at the IAS,
+ Whaples indicated that while he had focused on finding matrix representations of a
+ commutative algebra in his dissertation, he had spent most of the past year at Indiana
+ "learning class field theory (Whaples 1941)." That would be learning class field the
+ ory from Artin. Whaples showed a great deal of vision when he wrote "I am trying
+
+ to find a non-analytic proof of the theorem on primes in arithmetic progressions, and
+ am also seeking existence theorems for non-abelian fields with given local properties.
+
+ I plan to continue work on problems of this sort next year, with the general goal of
+ simplifying class field theory, finding a generalization of it to non-abelian fields, and
+
+ applying it to the question of what groups can be Galois groups of extension fields
+ (Whaples, Application to the IAS, February, 1941, p. 2)."8 In many ways, then, Wha
+ ples' research plan represented a continuation of research in class field theory, only
+ now in America and by an American. The items of his planned research were very
+ much in line with the current research topics in algebraic number theory, namely, to
+
+ acquire some insight into non-abelian class field theory. Initiated by Artin, Hasse and
+ Emmy Noether among others, one line of thought was to view the commutative case,
+ i.e., algebraic number theory, as a special case of a general theory of hypercomplex
+ number systems. This focus gave rise to a full development of that theory but was
+ not successful in reaching the sort of conclusion to class field theory one had desired.
+ Today, it is still only in the abelian case that class field theory leads to the laws of
+ decomposition for prime ideals within a field extension and to the law of reciprocity.
+
+ All three letters of recommendation described Whaples as "shy" and with a dream
+
+ like quality about him. Whaples' dream-like, absent minded qualities made it difficult
+
+ for him in the classroom where he was apparently not inspiring (MacDuffee to Veblen,
+ 17 February, 1941). However, C. C. MacDuffee also noted that Whaples' manner
+ isms were "deceptive" since "his mind is very alert. I think he has unusual powers
+
+ of concentration, and will make a typical specimen of the absent-minded professor
+ (MacDuffee to Veblen, 17 February, 1941)". It may have been this combination of
+ qualities that prompted Artin to cite Whaples' affable personality that helped him
+ prove "very inspiring" to other graduate students at Princeton. Or, perhaps, indeed
+
+ 7 Here, again, we aim to give further shape to Brauer's insight into Artin's desire "to help [his students] to
+
+ develop their own mathematical personalities, to assist them to stand on their own feet, to kindle in them a
+ deep love of mathematics (Brauer 1967, p. 39).
+
+ 8 Whaples applied for a stipend but was ultimately funded as Weyl's assistant with a salary of $1,500 for
+ the year (Weyl to Whaples, 13 March, 1941).
+
+ Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:07:17 UTC
+All use subject to https://about.jstor.org/terms
+
+ Artin-Whaples 477
+
+ Whaples had "out grown" some of these tendencies as Ingraham surmised. In any
+ case, his teaching ability really did not matter at the IAS since the position focused on
+ research. "Of course," Weyl described the position to Whaples,
+
+ this means that you would not be entirely your own master, that you would have
+ to help me a little with my lectures and with my mathematical endeavors, and
+ there would be some routine work to be attended to. But it wouldn't be very
+ much and it would not interfere with your research work. I am quite anxious
+ that you continue your work in close contact with Professor Chevalley (Weyl to
+ Whaples, 18 March, 1941).
+
+ In some sense, Weyl picked up where Artin left off, particularly with creating oppor
+
+ tunities for Whaples to interact with Chevalley who at that time was a professor at
+
+ Princeton University.
+
+ While at the IAS in 1941-1942, Whaples gave a course on class field theory and a
+
+ series of lectures titled "Remarks on class field theory." Thus, what began at Indiana
+ in a post-doctoral position now continued at the celebrated IAS. Weyl's other assis
+ tant, Alfred T. Brauer, gave at least one lecture on "On the Solvability of the Linear
+ Diophantine Equation in Positive Integers." Brauer, the brother of Richard Brauer,
+ had arrived in the U.S. in 1939 and worked at the Emergency Aid for Displaced Ger
+ man Scholars. Weyl hoped to help him by appointing him as his assistant in 1941.
+ In addition to Weyl, during the year Whaples spent at the IAS, then as now, a veri
+ table who's-who of celebrated mathematicians came into his sphere including James
+ Alexander, Marston Morse, John von Neumann, Wolfgang Pauli, and Carl L. Siegel
+ among the more permanent members and A. Adrian Albert, Richard Courant, Paul
+ Erdos, Jacques Hadamard, Saunders Mac Lane, and Oscar Zariski for shorter visits.
+ In March, 1942, Weyl wrote a letter of recommendation for Whaples for a Ben
+
+ jamin Pierce Instructorship at Harvard. Weyl mentioned that he "should not describe
+
+ him as brilliant, and yet someday he might achieve the unexpected; there is something
+ about him of the still waters that run deep (Weyl to Stone, 12 March, 1942)." Appar
+ ently Whaples did not secure this position at Harvard; instead, he took a position as an
+
+ instructor of mathematics at Johns Hopkins University. Weyl commented that Whaples
+
+ "is not irreplaceable at this time in his present position, but this is much less the case
+ in his new position as instructor of mathematics at Johns Hopkins (Weyl to no name
+ given, 21 May, 1942)." Whaples assumed a position at the University of Pennsylvania
+ in January, 1944 and then moved to Indiana in 1947, perhaps not coincidentally the
+
+ year after Artin left Indiana for Princeton.
+
+ 6 Beyond the work of Artin and Whaples
+
+ In 1950, nearly two decades after Chevalley took Artin's course on class field the
+
+ ory at Hamburg and almost a decade after Artin and Whaples began their work on
+ valuation vectors at Indiana University, John Tate completed his Princeton doctoral
+ thesis under Artin's supervision on "Fourier analysis in number fields and Hecke's
+
+ zeta-functions." In his thesis, Tate provided the most elegant and unified treatment of
+
+ the analytic properties, the analytic continuation and the functional equation of the
+
+ Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:07:17 UTC
+All use subject to https://about.jstor.org/terms
+
+ 478 D. Dumbaugh, J. Schwermer
+
+ generalized zeta-functions. Hecke had introduced these zeta-functions in 1920 in his
+ two seminal papers " Uber eine neue Art von Zetafunktionen und ihre Beziehungen
+ zur Verteilung der Primzahlen" (Hecke 1918, 1920). Tate followed a new methodo
+ logical approach that relied on abelian harmonic analysis in the conceptual framework
+ of the notions of ideles and adeles as introduced by Chevalley and Artin. Margaret
+ Matchett had already taken a first step in this direction in her 1946 thesis, "On the Zeta
+ Function for Ideles," written under the direction of Artin at Indiana. She redefined
+
+ classical Zeta-Functions in terms of integrals over the idele group. She interpreted the
+
+ characters of Hecke as exactly those characters of the ideal group that could be derived
+ from idele characters. She did not, however, succeed in proving the functional equa
+ tion for the zeta-functions in terms of the idelic approach. Tate established this last
+ result in his thesis. Tate summarized the importance and position of the contributions
+ of Chevalley and Artin and Whaples to algebraic number theory in the introduction to
+
+ his thesis. "In a work," Tate began,
+
+ the main purpose of which was to take analysis out of class field theory, Chev
+
+ alley introduced the excellent notion of the idele group, as a refinement of the
+ ideal group. In ideles Chevalley had not only found the best approach to class
+ field theory, but to algebraic number theory generally. This is shown by Artin
+
+ and Whaples (1945). They defined valuation vectors as the additive counterpart
+ of ideles, and used these notions to derive from simple axioms all of the basic
+ statements of algebraic number theory (Tate 1950, p. 306).
+
+ A year later, Artin published his Algebraic Numbers and Algebraic Functions
+ (Artin 1951), a text Artin viewed as a collection of lecture notes. "These lecture
+ notes," as Artin described them in 1967, "represent the content of a course given at
+ Princeton University during the academic year 1950/1951. This course was a revised
+ and extended version of a series of lectures given at New York University during the
+ preceding summer. They cover the theory of valuations, local class field theory, the
+
+ elements of algebraic number theory and the theory of algebraic function fields of one
+ variable."
+
+ Artin credited Mr. I. Adamson for preparing the notes and Tate for helpful discus
+ sions that led to simplifications of some proofs. Artin arranged the lecture notes into
+
+ three parts:
+
+ • General Valuation Theory (chapters 1-5)
+ • Local class field theory (chapters 6-10)
+ • Product formula and function fields in one variable (chapters 11-17).
+
+ In chapter 12, familiarly titled "Characterization of Fields by the Product Formula,"
+
+ Artin covers the material of the Artin-Whaples paper of similar title. He introduces
+
+ Axiom 1 and Axiom 2 from the original paper and refers to fields that satisfy these
+ axioms as Product Formula Fields, or PF-fields. The main result here is the same as
+
+ the Artin-Whaples paper: A PF-field is either an algebraic number field, or a finite
+ extension of a field of rational functions.
+
+ It took little time for what Artin called his "lecture notes" to influence young and
+ advanced scholars. In December, 1951, for example, Kenkichi Iwasawa submitted his
+ paper "On the rings of valuation vectors" to the Annals of Mathematics. In this work,
+
+ •£) Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:07:17 UTC
+All use subject to https://about.jstor.org/terms
+
+ Artin-Whaples 479
+
+ Iwasawa refers to specific results in Artin's Algebraic Numbers and Algebraic Func
+ tions. In his 1958 publication, "On the zeta-function of the simple algebra over the
+ field of rational numbers," G. Fujisaki extended Tate's methods for dealing with zeta
+ functions over number fields to one of a simple algebra over a number field [Fujisaki
+ 1958]. In his introduction, Fujusaki outlines that "[i[n section 5 we define, after Artin
+ [Algebraic Numbers and Algebraic Functions] the concepts of valuation vectors and
+ ideles in A [our emphasis]." Fujusaki's reference suggests that no other text on valu
+ ation vectors was available, or, at least, that Artin had created an accessible, helpful
+ text.
+
+ Thus, Artin's professional opportunities from the course in Hamburg in 1931/1932
+
+ to the courses in New York and Princeton in 1950/1951 highlight the critical impor
+ tance of well-conceived lectures that hinged, in part, on an integration of ideas rather
+ than a more traditional delivery. In between, Artin's direct work with students calls
+
+ attention to his natural inclination to exchange ideas freely in a different setting. These
+ exchanges were mutually beneficial. In the introduction to Artin's Collected Works,
+ Lang and Tate commented that Artin's "lectures and seminars ... inspired his stu
+ dents, towards whom his generosity and affection were unsurpassed [Artin, Collected
+ Works, p. x]." In one of his last conversations with Richard Brauer, reflecting on his
+
+ students John Tate and Serge Lang, Artin remarked that "[t]his happens only once to
+ a man. Not many mathematicians have been that lucky (Brauer 1967, pp. 28-29)."
+ These observations give further insight into Hans Zassenhaus's characterization of
+ Artin. Specifically, in his obituary of Artin, immediately after his overview of Artin's
+
+ life, Zassenhaus chose to focus first on Artin's teaching and then on his mathemati
+
+ cal contributions. "In my memory," Zassenhaus reflected, "Artin stands out as a great
+ teacher....A teacher in our field can work through many channels of communication:
+
+ by formal lectures, by research papers, by textbooks, by private conversation, and by
+
+ generating an infectious spirit of doing research in a large group of students, working
+
+ through a few (Zassenhaus 1964, pp. 1-2]." Research papers and textbooks represent
+ one form of teaching. Lectures, private conversation and an infectious spirit form
+ another. So Brauer was right. There were no years of "silence" in Artin's professional
+ career. Lefschetz was also right: Artin was "famous ... as a teacher, and inspirer of
+ youth."
+
+ The mathematics discussed in this paper occurred during a time of tremendous
+ upheaval in Artin's life. Artin immigrated to America in 1937 with his (then) two
+ children and wife. They were a young family displaced by the Nazis. He initially held
+
+ a (temporary) position at Notre Dame, then moved to Indiana University and finally
+
+ to Princeton. Artin seemed to embody the quintessential attributes of scholarship and
+ adaptability which later scholars would designate as critical to an emigrant's suc
+ cess (Ash 2003; Siegmund-Schultze 2009). Artin was remarkably fortunate to have a
+
+ position at an institution waiting for him when he arrived in America and equally as
+
+ fortunate to secure a position at Princeton less than a decade after his arrival in Amer
+
+ ica. He willingly distributed his mathematical ideas to American students, women
+
+ included, and ultimately wielded a mighty influence in the country he called home for
+ two decades.
+
+ As Mitchell Ash points out in his "Forced Migration and Scientific Change,"
+ "[e]migre scientists and scholars were not only victims, but also agents (Ash 2003,
+
+ <£] Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:07:17 UTC
+All use subject to https://about.jstor.org/terms
+
+ 480 D. Dumbaugh, J. Schwermer
+
+ p. 255)." This investigation of Artin's work suggests that Artin worked as something
+ of an "agent" in terms of distributing ideas about class field theory and algebraic
+ number theory to America. In terms of Brauer's characterization of his "mathematical
+
+ circles," the work of Artin and Whaples highlights Artin's ever-expanding mathemat
+
+ ical circle. "Adaptability" was an issue for immigrants to America (and elsewhere for
+
+ that matter). Carl Ludwig Siegel, for example, after a return visit to Europe admitted
+ that "I no longer have the hope, which led me to America four years ago, of find
+ ing a tolerable position abroad. My character is too clearly developed, and I can no
+ longer suppress my asocial instincts and individualistic tendencies. I can no longer
+ adapt, I am too much of a Prussian (Siegel to Courant, March 22, 1939, as quoted in
+ Siegmund-Schultze 2009, p. 238)."
+
+ Artin's ease at folding students into his mathematical circle suggests he was adept
+ at adapting, at least professionally. Ash rightly urges caution when it comes to estab
+ lishing "causal relationships between forced migration and scientific change (Ash
+ 2003, p. 255)." In the case of Artin, however, even with this cautionary approach
+ in mind, it seems reasonable to suggest that his forced migration played a pivotal
+ role in bringing class field theory to America. It was a confluence of critical events
+ that shaped this moment in the history of mathematics. Artin had given a course
+ on class field theory in Hamburg in the early 1930s that Chevalley, among others,
+ had attended. The political situation in Germany forced Artin's departure for Amer
+ ica not long after. The "for America" cannot be overstated. Had a similar politi
+ cal situation occurred even 40 years earlier, a mathematical research community in
+ America would not have existed for Artin to emigrate to. Whaples, a second-genera
+ tion, American-trained mathematician, with an advisor who worked under the influ
+
+ ential E. H. Moore at the University of Chicago, had the opportunity to work closely
+ with Artin, a distinguished European mathematician. The published papers of Ar
+ tin and Whaples show their advancements in algebraic number theory, advancements
+
+ that helped simplify fundamental proofs of class field theory. Whaples' year at the
+ IAS highlights other benefits of this association, including the chance to work with
+ Chevalley, another distinguished European mathematician. Matchett and Tate's the
+ sis topics point to other lasting implications of this work for students at Indiana and
+ Princeton.
+
+ This investigation of one sliver of Artin's work calls attention to an ever-expanding,
+
+ international mathematical circle that persisted, even flourished, in the most adverse of
+
+ circumstances. It highlights the significance of Artin's migration "both for its conse
+
+ quences and for what it discloses about historical processes of human and intellectual
+ transfer (Reingold 1985, p. 176)." Without intentionally setting out to explore the
+ effects of "forced migration" on Artin and his work, this broader study suggests a
+
+ remarkably seamless "human and intellectual transfer" in this particular case.
+
+ For Artin, that seamless transfer seemed to gain momentum as his time in Amer
+
+ ica progressed. In 7 years at Indiana, Artin authored at least six papers and advised
+ two students. At Princeton he advised 18 students and wrote 16 papers and at least 2
+
+ books or lecture notes. He not only adapted to the new culture in America, but he also
+
+ integrated his culture into the mathematical milieu, particularly at Princeton (Rota
+ and Palombi 2008). His black leather jacket with a belt at his waist was as much a
+
+ part of Artin in Princeton as it had been in Europe nearly a decade earlier. For Artin,
+
+ •£j Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:07:17 UTC
+All use subject to https://about.jstor.org/terms
+
+ Artin-Whaples 481
+
+ then, "acquiring membership in the culture of a given country by adapting to the local
+ academic habitus and/or the social standards of the educated elites was" not, appar
+ ently, "an important precondition" for his acceptance as a mathematician or scholar
+ (Ash 2003, p. 251). Artin was comfortable as Artin, in America or Germany.
+
+ Artin seems to have possessed a certain serenity that helped him adjust to his new
+
+ surroundings. If we look more broadly, particularly to larger studies on immigration
+ such as Reingold, Ash, and Siegmund-Schultze, then we see that Artin's life suggests
+
+ that a sort of internal strength may have served as a prerequisite for an immigrant to
+
+ survive, even thrive, in a host country. It could also be that this inner serenity allowed
+
+ Artin to remain comfortable with his pursuit of mathematics for the sake of mathemat
+
+ ics rather than for the publication of mathematics. His Collected Papers span fewer
+ than 560 pages. By comparison, the Collected Papers of Leonard Dickson, an Amer
+ ican algebraist and number theorist slightly older than Artin, for example, include six
+ volumes totaling more than 3,600 pages. Even here, in this comparison offered 50
+ years after his death, Artin makes himself heard. Mathematics was about more than
+
+ publications.
+
+ Thus, this work calls to mind what Peter Galison refers to as "microhistory." As he
+
+ describes it, "[m]icrohistory is supposed to be exemplification, a display through par
+
+ ticular detail of something general, something more than itself. It is supposed to elicit
+ the subtle interconnections of procedures, values and symbols that mark science in a
+
+ place and time, not as a method but more as a kind of scientific culture (Galison 2008,
+
+ p. 120)." What is particularly interesting here is that Artin seems not to be marked in
+
+ a place and time, at least not as we expect him to be marked for this place or time,
+
+ but, rather, surprisingly unmarked by the time and place. In particular, in contrast to
+ so much of what Ash describes, the culture of American mathematics had room for
+
+ Artin or, perhaps, Artin made room for his own style of mathematics, which included
+ his own version of Viennese Kultur (Rota and Palombi 2008).
+
+ Galison compares these microhistories, these case studies as it were, to stepping
+
+ stones and raises the important question "where does the path lead?" If this study
+ serves as one of these stepping stones, we suggest that it leads to a deeper understand
+ ing of Artin and how he plied his trade as a mathematician, particularly relative to
+
+ students; greater insights into what Brauer calls a "mathematical circle," what they are
+
+ and how they grow; an introductory look at George Whaples and this early phase in
+ his mathematical career; and, at least one almost tangible example of the intangible,
+ inextricable link between the human and intellectual transfer that came with forced
+
+ migration.
+
+ Quite fittingly, this last comment brings us full circle, back to another observation
+
+ about Artin by Brauer. After his discussion of Artin's mathematical trajectory begin
+
+ ning with his 1921 Ph.D. from Leipzig, to his Privatdozent position at the University of
+
+ Hamburg in 1923, and his full professorship there three years later, Brauer noted that
+
+ "[t]he intellectual atmosphere of German universities of that period is remembered
+
+ with nostalgia by all who knew it." Relative to Artin, he added, that
+
+ Artin, with his wide interests in all fields of human endeavor became the stim
+
+ ulating center of a circle of friends. His strange nickname "Ma" which he
+
+ always preferred to his given name Emil goes back to those days. It is short for
+
+ "£j Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:07:17 UTC
+All use subject to https://about.jstor.org/terms
+
+ 482 D. Dumbaugh, J. Schwermer
+
+ "Mathematics"; he simply appeared to these young men as an embodiment of
+ mathematics (Brauer 1967, p. 27).
+
+ It seems that Artin's "embodiment of mathematics" created a special sense around
+ him of the importance of mathematics, a style that worked well in both Germany and
+
+ America. In particular, Artin fostered an intellectual atmosphere that drew in other
+ young men (and women), including Chevalley, Iyanaga, Whaples, Matchett, and Tate,
+
+ among others, at formative stages in their careers. Robin Rider rightly points out that
+
+ behind the numerical count of mathematicians dismissed from their positions in Ger
+
+ many were "individuals, each with a story, often a poignant one (Rider 1984, p. 110)."
+ Artin's story, particularly his work with Whaples and other young mathematicians,
+
+ shows he worked best with a circle of mathematical friends surrounding him.
+
+ Acknowledgment The authors would like to thank Dr. H. Rohlfing for his permission to quote from the
+ archives at the NSUB, University of Gottingen and Erica Mosner for her permission to quote from the
+ Shelby White and Leon Levy Archives.
+
+ References
+
+ Archival sources
+
+ Artin File, Notre Dame Archives, University of Notre Dame, Notre Dame, Indiana [=NDA]
+ Artin File, Indiana University Archives, Indiana University, Boomington, Indiana [=IUA]
+ Artin, Emil, to Helmut Hasse, 27 November, 1930, Cod. Ms H. Hasse, 1:59, nr. 35, [NSUB]
+ Artin, Emil, to Helmut Hasse, 24 August, 1931, Cod. Ms H. Hasse, 1:59, nr. 39. [NSUB]
+ Artin, Emil, to Oswald Veblen, IAS, Princeton, 13 February, 1941, [AC, IAS]
+ Artin, Emil, to Hermann Weyl, 31 January, 1941, [AC, IAS]
+ Chevalley, Claude, to Helmut Hasse, 20 June, 1935, Cod. Ms. H. Hasse, 1:19. [NSUB]
+ Ingraham, Mark H., to Oswald Veblen, 11 February, 1941, [AC, IAS]
+ Kleene, S. C., to Oswald Veblen, 14 February, 1941, [AC, IAS]
+ Lefschetz, Solomon, to Father John O'Hara, 12 January, 1937, [NDA]
+ MacDuffee, C. C., to Oswald Veblen, 13 February, 1941, [AC, IAS]
+ Matchett, Margaret, On the Zeta Function for Ideles, Thesis (Ph.D) -Indiana University, 1946, [IUA]
+ Niedersachsische Staats-und Universitatsbibliothek Gottingen, Handschriftenabteilung [=NSUB]
+ O'Hara, John, to H. B. Wells, 11 June, 1938, [NDA]
+
+ Secretary of IAS School of Mathematics to Professor Tracy Thomas, 20 June, 1947, [AC, IAS]
+
+ The Shelby White and Leon Levy Archives Center, Institute for Advanced Study, Princeton [=AC, IAS]
+ Weyl, Hermann, to George Whaples, 15 March, 1941, [AC, IAS]
+ Weyl, Hermann, to Marshall Stone, 12 March, 1942, [AC, IAS]
+ Weyl, Hermann, to no name given, 21 May, 1942, [AC, IAS]
+ Whaples, George, Application to IAS, 10 February 1941, [AC, IAS]
+ Williams, K. P., to Fernandus Payne, 6 April, 1938, [IUA]
+
+ Archibald, Raymond C., Ed. 1938. Semicentennial Addresses of the American Mathematical Society 1888
+
+ 1938. New York: American Mathematical Society.
+
+ Artin, Emil. 1930. Zur Theorie der L-Reihen mit allgemeinen Gruppencharakteren. Abhandlungen mathe
+
+ matisches Seminar, Universitat Hamburg 8: 292-306.
+
+ Artin, Emil. 1931 a. Die gruppentheoretische Struktur der Diskriminanten algebraischer Zahlkorper. Journal
+
+ fiir die reine und angewandte Mathematik 164: 1-11.
+
+ Published sources
+
+ *£} Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:07:17 UTC
+All use subject to https://about.jstor.org/terms
+
+ Artin, Emil. 1931 b. Einfiihrung in die Theorie der Gammafunktion. (Hamburger mathematische Einzelsch
+
+ riften 11) Leipzig, Berlin: B. G. Teubner. 35 S.
+
+ Artin, Emil. 1932a. Uber Einheiten relativ galoisscher Zahlkorper. Journal fur die reine und angewandte
+
+ Artin-Whaples 483
+
+ Mathematik 167: 153-156.
+
+ Mathematik 167: 157-159.
+
+ Artin, Emil. 1932b. Uber die Bewertungen algebraischer Zahlkorper. Journal fur die reine und angewandte
+
+ Artin, Emil. 1933. Algebraische Zahlentheorie, Lecture Course Hamburg 1933 (Notes taken by E. A. Ei
+ chelbrenner, edited by Peter Ullrich, Mitteilungen der Mathematischen Gesellschaft in Hamburg 21/2
+ (2002), 159-223).
+
+ Artin, Emil. 1950. The influence of J. H. M. Wedderburn on the Development of Modern Algebra. Bulletin
+
+ of the American Mathematical Society 56: 65-72.
+
+ Artin, Emil. 1951. Algebraic numbers and algebraic functions. Notes by I. Adamson. New York: Institute
+
+ for Mathematics and Mechanics, New York University.
+
+ Artin, Emil. 1959. Theory of algebraic numbers. Notes from Lectures at Gottingen 1956/7. Gottingen:
+
+ Artin, Emil. 1965. Collected papers (Ed. Serge Lang and John Tate). New York: Springer.
+ Artin, Emil. 1967. Algebraic numbers and algebraic functions. New York: Gordan and Breach.
+ Artin, Emil and Tate, John T. 1968. Class field theory. New York: W. A. Benjamin, Inc. Advanced Book
+
+ Classics. Redwood City, CA: Addison-Wesley Publishing Company, Inc.
+
+ Artin, Emil and Whaples, George. 1943. The theory of simple rings. American Journal of Mathematics 65:
+
+ Striker.
+
+ 87-107.
+
+ Artin, Emil and Whaples, George. 1945. Axiomatic characterization of fields by the product formula for
+
+ valuations. Bulletin of the American Mathematical Society 51: 469^192.
+
+ Artin, Emil and Whaples, George. 1946. A note on axiomatic characterization of fields. Bulletin of the
+
+ American Mathematical Society 52: 245-247.
+
+ Ash, Mitchell. 2003. Forced migration and scientific change: Steps towards a new overview. In Intellectual
+ migration and cultural transformation: Refugees from national socialism in the english-speaking world,
+ ed. E. Timms and J. Hughes, 241-263. Vienna: Springer.
+
+ Brauer, Richard. 1967. Emil Artin. Bulletin of the American Mathematical Society 73: 27—43.
+ Brauer, Richard, Helmut Hasse, and Emmy Noether. 1932. Beweis eines Hauptsatzes in der Theorie der
+
+ Algebren. Journal fur die reine und angewandte Mathematik 167: 399—404.
+
+ Chevalley, Claude. 1930. Sur la theorie des restes normiques. Comptes Rendus de I'Academie des Sciences
+
+ Paris 191: 426-428.
+
+ Chevalley, Claude. 1931. Relation entre le nombre des classes d'un sous-corps et celui d'un sur-corps.
+
+ Comptes Rendus de I'Academie des Sciences Paris 192: 257-258.
+
+ Chevalley, Claude. 1932. Sur la structure de la theorie du corps de classes. Comptes Rendus de I'Academie
+
+ des Sciences Paris 194: 766-769.
+
+ Chevalley, Claude. 1933. Sur la theorie du corps de classes dans les corps finis et le corps locaux. Journal
+
+ of the Faculty of Science, University of Tokyo 2: 365-476.
+
+ Chevalley, Claude. 1936. Generalisation de la theorie du corps de classes pour les extensions infinies.
+
+ Journal de Mathematiques Pures et Appliquees. 15: 359-371.
+
+ Chevalley, Claude. 1940. La theorie du corps de classes. Annals of Mathematics 41: 394-418.
+ Chevalley, Claude. 1953. Class field theory. Nagoya: Nagoya University.
+ Chevalley, Claude and Jacques Herbrand. 1931. Nouvelle demonstration du theoreme d'existence en theorie
+
+ du corps de classes. Comptes Rendus de I'Academie des Sciences Paris 193: 814—815.
+
+ Cohn, Harvey. 1978. A Classical invitation to algebraic numbers and class fields. With two appendices by
+
+ Olga Taussky, New York: Springer.
+
+ Dickson, Leonard. 1983. The collected mathematical papers of Leonard Eugene Dickson (Ed. A. Adrian
+
+ Albert. 6 vols). New York: Chelsea Publishing Com.
+
+ Fenster, Delia D. 2007. Artin in America (1937-1958): A time of transition. In: Emil Artin (1898-1962)
+
+ Beitrage zu Leben, Werk und Personlichkeit, ed. K. Reich and A. Kreuzer, Algorismus 61, Augsburg:
+ Dr. Erwin Rauner Verlag.
+
+ Frei, Giinther and Peter Roquette. 2008. Emil Artin und Helmut Hasse: Die Korrespondenz 1923-1934
+ (Ed. and commented by G. Frei and P. Roquette, with contributions of F. Lemmermeyer). Gottingen:
+ Universitatsverlag.
+
+ Fujisaki, Genjiro. 1958. On the zeta-function of the simple algebra over the field of rational numbers.
+
+ Journal of the Faculty of Science, University of Tokyo Section 1A, Mathematics 7: 567-604.
+
+ <£} Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:07:17 UTC
+All use subject to https://about.jstor.org/terms
+
+ 484 D. Dumbaugh, J. Schwermer
+
+ Galison, Peter. 2008. Ten problems in history and philosophy of science. Isis 99: 111-124.
+ Hasse, Helmut. 1923a. Uber die Aquivalenz quadratischer Formen im Korper der rationalen Zahlen. Journal
+
+ fur die Reine und Angewandte Mathematik 152: 205-244.
+
+ Hasse, Helmut. 1923b. liber die Darstellbarkeit von Zahlen durch quadratische Formen im Korper der
+
+ rationalen Zahlen. Journal fiir die Reine und Angewandte Mathematik 152: 129-148.
+
+ Hasse, Helmut. 1924a. Aquivalenz quadratischer Formen in einem beliebigen algebraischen Zahlkorper.
+
+ Journal fiir die Reine und Angewandte Mathematik 153: 184—191.
+
+ Hasse, Helmut. 1924b. Darstellbarkeit von Zahlen durch quadratische Formen in einem beliebigen alge
+
+ braischen Zahlkorper. Journal fiir die Reine und Angewandte Mathematik 153: 113-130.
+
+ Hasse, Helmut. 1924c. Symmetrische Matrizen im Korper der rationalen Zahlen. Journal fiir die Reine und
+
+ Hasse, Helmut. 1950. Kurt Hensel zum Gedachtnis. Journal fiir die Reine und Angewandte Mathematik
+
+ Angewandte Mathematik 153: 12-43.
+
+ Hasse, Helmut. 1975. Mathematische Abhandlungen (Ed. Heinrich Wolfgang Leopoldt and Peter Roquette,
+
+ 187: 1-13.
+
+ 3 vols). Berlin: Walter de Gruyter.
+
+ Hecke, Erich. 1918. Uber eine neue Art von Zetafunktionen und ihre Beziehungen zur Verteilung der
+
+ Primzahlen, Erste Mitteilung. Mathematische Zeitschrift 1: 357-376.
+
+ Hecke, Erich. 1920. Uber eine neue Art von Zetafunktionen und ihre Beziehungen zur Verteilung der
+
+ Primzahlen, Zweite Mitteilung. Math. Zeitschrift 4 (1920), 11-21.
+
+ Hensel, Kurt. 1913. Zahlentheorie. Berlin and Leipzig: G. J. Goschen'sche Verlagshandlung.
+ Hey, Kate. 1927. Analytische Zahlentheorie in Systemen hyperkomplexer Zahlen. Thesis Hamburg 1927.
+ lyanaga, Shokichi. 2006. Travaux de Claude Chevalley sur la theorie du corps de classes: Introduction.
+
+ Japanese Journal of Mathematics 1: 25-85.
+
+ Ostrowski, Alexander. 1935. Untersuchungen zur arithmetischen Theorie der Korper (Die Theorie der
+
+ Teilbarkeit in allgemeinen Korpern). Mathematische Zeitschrift 39:269-320.
+
+ Reingold, Nathan. 1985. Refugee mathematicians in the United States of America, 1933-1941: Reception
+
+ and reaction. Annals of Science 38: 313-338.
+
+ Rider, Robin. 1984. Alarm and opportunity: Emigration of mathematicians and physicists to Britain and
+
+ the United States, 1933-1945. Historical Studies in the Physical Sciences 15: 107-176.
+
+ Rota, Gian-Carlo and Fabrizio Palombi. 2008. Indiscrete Thoughts. Boston: Birckhauser.
+ Schwermer, Joachim. 2009. Minkowski, Hensel and Hasse—On the beginnings of the local-global princi
+ ple. In Episodes in the history of modern algebra (1850-1950), ed. Jeremy J. Gray and Karen Hunger
+ Parshall. Rhode Island: American Mathematical Society.
+
+ Siegmund-Schultze, Reinhard. 2009. Mathematicians fleeing from Nazi Germany: Individual fates and
+
+ global impact. Princeton, NJ: Princeton University Press.
+
+ Tate, John. 1950. Fourier analysis in number fields and Hecke's zeta functions, thesis, Princeton 1950, In:
+ Algebraic number theory, ed. J. W. S. Cassels and A. Frohlich, pp. 305-347. London: Academic Press.
+ Wedderburn, Joseph H. M. 1907. On hypercomplex number systems. Proceedings of the London Mathe
+
+ matical Society 6: 77-118.
+
+ Weil, Andre. 1951. Sur la theorie du corps de classes. Journal of the Mathematical Society of Japan 3: 1-35.
+ Weil, Andre. 1967a. Review: The collected papers of Emil Artin. Scripta Mathematica 28: 237-238.
+ Weil, Andre. 1967b. Algebraic number theory. Grundlehren Math. Wissenschaften, Bd. 144, Berlin:
+
+ Whaples, George. 1942. Non-analytic class field theory and Grunwald's theorem. Duke Mathematical
+
+ Whaples, George. 1965. Review of introduction to quadratic forms by O. T. O'Meara. American Mathe
+
+ Springer.
+
+ Journal 9: 455^173.
+
+ matical Monthly 72: 211-212.
+
+ Zassenhaus, Hans. 1964. Emil Artin, his life and his work. Notre Dame Journal of Formal Logic V: 1-9.
+
+ Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:07:17 UTC
+All use subject to https://about.jstor.org/terms
+
+

@@ -1,0 +1,2461 @@
+ 
+
+ 
+
+ 
+
+ 
+
+Geometric division problems, quadratic equations, and recursive geometric algorithms in
+
+Mesopotamian mathematics
+Author(s): Jöran Friberg
+Source: Archive for History of Exact Sciences, Vol. 68, No. 1 (January 2014), pp. 1-34
+Published by: Springer
+Stable URL: https://www.jstor.org/stable/24569611
+Accessed: 19-05-2020 10:02 UTC
+
+ 
+REFERENCES 
+Linked references are available on JSTOR for this article:
+https://www.jstor.org/stable/24569611?seq=1&cid=pdf-reference#references_tab_contents 
+You may need to log in to JSTOR to access the linked references.
+
+JSTOR is a not-for-profit service that helps scholars, researchers, and students discover, use, and build upon a wide
+
+range of content in a trusted digital archive. We use information technology and tools to increase productivity and
+
+facilitate new forms of scholarship. For more information about JSTOR, please contact support@jstor.org.
+
+Your use of the JSTOR archive indicates your acceptance of the Terms & Conditions of Use, available at
+
+https://about.jstor.org/terms
+
+Springer is collaborating with JSTOR to digitize, preserve and extend access to Archive for
+History of Exact Sciences
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 10:02:49 UTC
+All use subject to https://about.jstor.org/terms
+
+ Arch. Hist. Exact Sci. (2014) 68:1-34
+ DOI 10.1007/s00407-013-0122-4
+
+ Geometric division problems, quadratic equations,
+ and recursive geometric algorithms in Mesopotamian
+ mathematics
+
+ Joran Friberg
+
+ Received: 12 April 2013 / Published online: 19 June 2013
+
+ © Springer-Verlag Berlin Heidelberg 2013
+
+ Abstract Most of what is told in this paper has been told before by the same author,
+ in a number of publications of various kinds, but this is the first time that all this
+
+ material has been brought together and treated in a uniform way. Smaller errors in the
+ earlier publications are corrected here without comment. It has been known since the
+
+ 1920s that quadratic equations played a prominent role in Babylonian mathematics.
+
+ See, most recently, H0yrup (Hist Sci 34:1-32, 1996, and Lengths, widths, surfaces: a
+
+ portrait of old Babylonian algebra and its kin. Springer, New York, 2002). What has
+
+ not been known, however, is how quadratic equations came to play that role, since it
+
+ is difficult to think of any practical use for quadratic equations in the life and work
+
+ of a Babylonian scribe. One goal of the present paper is to show how the need to
+
+ find solutions to quadratic equations actually arose in Mesopotamia not later than in
+
+ the second half of the third millennium BC, and probably before that in connection
+
+ with certain geometric division of property problems. This issue was brought up for
+ the first time in Friberg (Cuneiform Digit Lib J 2009:3, 2009). In this connection,
+
+ it is argued that the tool used for the first exact solution of a quadratic equation
+ was either a clever use of the "conjugate rule" or a "completion of the square," but
+
+ that both methods ultimately depend on a certain division of a square, the same in
+
+ both cases. Another, closely related goal of the paper is to discuss briefly certain
+ of the most impressive achievements of anonymous Babylonian mathematicians in
+
+ the first half of the second millennium BC, namely recursive geometric algorithms
+
+ for the solution of various problems related to division of figures, more specifically
+
+ trapezoidal fields. For an earlier, comprehensive (but less accessible) treatment of these
+
+ issues, see Friberg (Amazing traces of a Babylonian origin in Greek mathematics.
+ WorldScientific, Singapore 2007b, Ch. 11 and App. I).
+
+ Communicated by : Jeremy Gray.
+
+ J. Friberg (CE3)
+
+ Chalmers University of Technology, Gothenburg, Sweden
+ e-mail: friberg@chalmers.se
+
+ Ô Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 10:02:49 UTC
+All use subject to https://about.jstor.org/terms
+
+ 2
+
+ J. Friberg
+
+ 1 Metro-mathematical school texts from the proto-literate period in
+
+ Mesopotamia (around 3000 BC)
+
+ 1.1 A proto-literate clay tablet with the oldest known geometrical assignments
+
+ For a long time before the invention of writing, probably for several millennia, count
+
+ ing and recording were performed in vast regions of the Middle East by the use
+
+ of small "pre-literate number tokens" of clay in simple geometric forms (cylinders,
+
+ spheres, cones, pyramids) with a system of assigned metrological/numerical values.
+
+ (See Friberg 2007a, App. 4.10, and also Friberg 1999a). The oldest known inscribed
+
+ clay tablets are from the "proto-literate period" in Mesopotamia, slightly before and
+
+ around 3000BC, and are written in the "proto-cuneiform" script, a precursor of the
+
+ more well-known Sumerian/Babylonian cuneiform script. Already in these earliest
+
+ written documents, systems of measures and measure notations for lengths and sur
+
+ faces, capacities of containers, weights, and parts of the year were extremely well
+
+ developed and beautifully coordinated with a system of sexagesimal counting num
+
+ bers in non-positional notation. (See Friberg op. cit., App. 4.1-2, 4.4-6, 4.9). There
+
+ were different number signs for 1(60), for 10(60), for 1(60 ■ 60), for 10(60 · 60),
+
+ etc. Lengths were probably, as later in the Sumerian period, expressed in terms of
+
+ "rods" (6 m) and "ropes" (=10rods). Surfaces were, correspondingly, measured in
+
+ terms of square rods (in Sumerian sar) and square ropes (in Sumerian iku), in other
+
+ words in "quadratic area measure". This is the only textual indication that the notion
+
+ of a "square " was known already in this remote period. (Presumably, it would not be
+ difficult to find non-textual, concrete evidence in architecture, art, etc., that the notion
+
+ of a square was well known also in remote times in Mesopotamia).
+
+ Only a handful of suspected mathematical school texts from the proto-literate period
+
+ are known. Just like practically all known mathematical texts from the third millen
+
+ nium BC, they should rather be called "metro-mathematical," because it is evident
+ that their purpose was just as much training in "metrology," that is, in the use of
+
+ the various systems of measures and measure notations, as training in "mathemat
+
+ ics," that is, in counting with sexagesimal numbers and performing various kinds of
+
+ computations.
+
+ The clearest example of a proto-literate metro-mathematical text is the clay tablet
+ W 19408,76 (Nissen et al. 1993, Fig. 50), on which are given the side lengths of
+
+ two quadrilateral fields (by which is meant more or less rectangular fields with four
+
+ straight sides). The text is probably an assignment, in the sense that a young stu
+
+ dent was supposed to compute the areas of the two fields. If the two areas are com
+
+ puted by the use of a certain inexact "quadrilateral area rule," namely in each case
+
+ as the half-sum of the two lengths "along" times the half-sum of the two lengths
+
+ "across," it turns out that they can both be expressed as very large and very round
+ area numbers. Obviously, the data must have been chosen carefully and deliber
+
+ ately by a teacher (the author of the exercise) to produce this kind of nice numbers.
+
+ It is, by the way, common in the study ofMesopotamian mathematics that particularly
+
+ interesting results are obtained by trying to understand how teachers constructing
+
+ mathematical exercises for their students cleverly fabricated the initial data for those
+ exercises.
+
+ â Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 10:02:49 UTC
+All use subject to https://about.jstor.org/terms
+
+ Mesopotamian mathematics
+
+ Fig. 1 W 14148. An area
+ Fig. 1 W 14148. An area
+ number produced by the held
+ number produced by the field
+
+ expansion procedure
+ expansion procedure
+
+ 3
+
+ Cp) D
+ D
+
+ 6(bur) l(ese) 3(iku)
+ 6(bùr) l(èse) 3(iku)
+
+ 1.2 An area number produced by an application of the proto-literate field expansion
+
+ procedure
+
+ Other known examples of proto-literate mathematical texts are supposed applications
+
+ of a certain, quite elegant, "field expansion procedure". (See Friberg 2007a, sections
+
+ 1.1 d and 8.1 b-c, and Friberg 1997/98, sections 2-4). Take, for instance, W 14148
+ (Friberg 1997/98, 9; Fig. 1 above), originally published in Green and Nissen 1987,
+
+ ATU 2, pi. 59:
+
+ This is a small text from Warka, ancient Uruk, where a large number of proto
+
+ literate clay tablets have been found. It is a note about an area written with the special
+
+ proto-cuneiform area number signs for l(bùr)= 18 iku, for l(èse) = 6 iku, and for
+
+ 1 (iku). (A notation like 6(bùr) stands for the special area number sign 1 (bur) repeated
+
+ 6 times, etc.). The area in question is
+
+ 6bùr 1 èse 3 iku = 191 /2èse = 1 (60) 57 iku(= 117 iku).
+
+ Note: A notation like 1(60)57 is used here for a sexagesimal number in non-positional
+ notation. The corresponding notation for a sexagesimal number in positional or place
+
+ value notation would be simply 1 57.
+
+ This area is typical for areas computed by the use of the field expansion procedure.
+
+ Indeed, note that
+
+ rods).
+
+ a) 19 1/2 èse = 20 èse - 1 /40 of 20 èse = approximately 20 èse (=12,000 square
+
+ b) 1(60)57 iku =13-9 iku = (1 1/12) - (1 1/8)· 12 8 iku.
+
+ This means that the area number inscribed on W 14148 is a) very close to a conspic
+
+ uously "round" area number, and b) equal to the area of a rectangular field with the
+
+ side along (I 1/12) · 12 ropes and the side across (1 1/8) · 8 ropes. A rectangular field
+
+ like this is the result of a slight expansion in two directions of a rectangular field with
+
+ its sides in a simple ratio (12:8 = 3:2).
+
+ Further explicit examples of suspected school texts related to the field expansion
+
+ procedure will be given in Sects. 2.1 and 3.1 below. There, it will also be shown that the
+
+ field expansion procedure may have been a clever method of solving certain problems
+
+ involving quadratic equations by means of iterated approximations.
+
+ Ô Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 10:02:49 UTC
+All use subject to https://about.jstor.org/terms
+
+ 4
+
+ J. Friberg
+
+ 1.3 Nearly round numbers in proto-literate field division and bread-and-beer texts
+
+ In a proto-literate "field division text" MSVO1,2 (Englund and Grégoire 1991 ; Friberg
+
+ 1997/98,19), the areas are computed for five rectangular fields of various sizes, belong
+
+ ing to five named persons. The sum of the five areas, which is recorded on the reverse
+
+ of the clay tablet, is
+
+ 3 sàr 52 bùr 2 èse 5 iku = 1 (60 · 60) 9(60) 53 iku = 1 (60 · 60) 10(60) - 7 iku
+
+ ( 1 sàr = 60 bùr)
+
+ In other words, the sum of the five areas is
+
+ 7 · 10 · 60 iku — 7 iku = 7 · 10 · 60 iku (square ropes) minus precisely 1/600
+
+ of that round number.
+
+ This nearly round area number is hardly accidental, it must have been the result of a
+
+ difficult and laborious computation.
+
+ Another suspected example of a school text from the proto-literate period in
+
+ Mesopotamia is the "bread-and-beer text" MSVO 4,66 (Englund 1997; Friberg 1999a,
+
+ 112-115; Friberg 2005,62-65; and Fig. 2 below). This text begins with an account of
+
+ 60 + 2 · 60 + 2 · 60 + (2 · 260 + 60) + 5 · 2 · 60 + 5 ■ 20 · 60
+
+ = 20 · 60 + 5 · 20 · 60 (= 7, 200)
+
+ bread rations of six different sizes, with a corresponding cost in flour of 1M (a certain
+
+ proto-literate unit of capacity measure, possibly about 5 liters), 1/2, 1/3, 1/4, 1/5, and
+
+ 1/6 M, respectively. There are relatively small numbers of rations of the larger sizes,
+ but 5 · 20 · 60 = 6,000 rations of the smallest size. The total cost in flour for all the
+
+ bread rations is nearly 22 1/2 · 60M. Next, there is an account of the cost in flour
+
+ for various amounts of three categories of beer. The total cost in flour for all the beer
+
+ (together 10 - 60 = 600 jars) is nearly 7 1/2- 60M. Recorded on the reverse of the
+
+ clay tablet is the total cost in flour for both bread and beer, which is
+
+ 900M + 2 · 300M + 9 · 30M + 4 · 5M + 1M (= 1.791M)
+
+ = 2 · 900M minus precisely 1 /200 of that round number.
+
+ This nearly exact result is hardly accidental, it must have been the result of another
+
+ difficult and laborious computation.
+
+ The mentioned examples show that there can be no doubt that learning to divide
+
+ given parcels of land into shares according to some intricate set of rules, or dividing
+
+ given amounts of food stuff into rations of various sizes according to some other
+
+ intricate set of rules, must have been an important part of the metro-mathematical
+
+ education given to the young scribes in the scribe schools that must have existed in
+
+ one or several Mesopotamian large urban areas already in the proto-literate period
+
+ 5000 years ago.
+
+ Ô Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 10:02:49 UTC
+All use subject to https://about.jstor.org/terms
+
+ Fig. 2 MSVO 4, 66. A proto-literate school text: a summation of rations of bread and beer
+
+ 2 Metro-mathematical school texts from the Early Dynastic III period
+
+ (around 2500 BC)
+
+ 2.1 An Early Dynastic application of the field expansion procedure
+
+ In the Old Sumerian Early Dynastic III period, Mesopotamian mathematics had taken
+
+ important strides forward. Yet, a connection was still maintained with the mathematical
+
+ ideas of the preceding proto-literate period, as is shown by the inscriptions in the two
+ columns of the Early Dynastic clay tablet TSS 926 shown in Fig. 3 below (Jestin
+ 1937; Friberg 2007a, 147). In each column, the sides of a quadrilateral field are given,
+ expressed in terms of sexagesimal numbers in non-positional notation. The inscription
+ in the well-preserved first column is transliterated (in Sumerian) and translated (in
+
+ English) below, to the right of the copy of the clay tablet.
+
+ Like its proto-literate predecessor W 19408,76, mentioned above, this mathematical
+ text is probably an assignment, in the sense that a young student was supposed to
+ compute the areas of the two fields.
+
+ <£) Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 10:02:49 UTC
+All use subject to https://about.jstor.org/terms
+
+ J. Friberg
+
+ 2(60) da
+ 2(60) da
+ ninda.du
+ ninda.du
+
+ 2 • 60 arm (first side along)
+ 2 · 60 arm (first side along)
+
+ rods (length measure)
+ rods (length measure)
+
+ 2(60) 5 da
+ 2(60) 5 da
+ ninda.du
+ ninda.du
+
+ 2-60 + 5 arm (second side along)
+ 2-60 + 5 arm (second side along)
+ rods (length measure)
+ rods (length measure)
+
+ 1(60) sag
+ 1(60) sag
+
+ 1 • 60 front (first side across)
+ 1 · 60 front (first side across)
+
+ 1(60) 10 sag
+ 1(60) 10 sag
+
+ 1-60 + 10 front (second side across)
+ 1-60 + 10 front (second side across)
+
+ Fig. 3 TSS 926. An example of data produced by the field expansion procedure
+
+ It is easy to see that the half-sums of the lengths of the sides along and the sides
+
+ across (recorded in the first column of the text) would be, respectively,
+
+ (120+ 125)/2rods = 122 1/2 rods = 12 1/4 ropes, and
+
+ (60 + 70)/2 rods = 65 rods = 61/2 ropes.
+
+ Correspondingly, the computed area of the quadrilateral would be of the following
+ form :
+
+ 12 1/4 ropes · 6 1/2 ropes = 79 1/2 1/8 iku(square ropes)
+
+ = almost precisely 80 iku (=4 bùrl èse2iku).
+
+ Alternatively, the area of the quadrilateral can be expressed in the following way:
+
+ (1 1/48 · 12 ropes) · (1 1/12 · 6 ropes).
+
+ As will be shown in connection with a similar example in Sect. 3.1 below, whenever
+
+ the computed area of a quadrilateral in a Mesopotamian (Sumerian or Babylonian)
+ mathematical exercise can be expressed both as a (nearly) round number and as a round
+
+ number multiplied by two factors of the form 1 1/n, where η is a "regular" sexagesimal
+
+ number (more about this later), then the exercise can be suspected of being the result
+
+ of the application of the mentioned, initially proto-literate, field expansion procedure.
+
+ The purpose of that procedure seems, in each case, to have been to compute the sides
+
+ of a quadrilateral field with (approximately) a given area and with the half-sum along
+ and the half-sum across in a given ratio!
+
+ 2.2 An Early Dynastic computation of the area of a very large square
+
+ The Early Dynastic III tablet 7SS188 (Jestin 1937; Friberg 2007a, 148) contains the
+ earliest known explicit reference to a square. In the copy of the clay tablet in Fig. 4
+
+ below, it is the diamond-shaped cuneiform logographic sign to the right in the first line
+
+ of the text, normally with the meaning "(to be) equal," but here with the more precise
+
+ meaning "a figure with equal sides (and right angles)".
+
+ Ô Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 10:02:49 UTC
+All use subject to https://about.jstor.org/terms
+
+ Mesopotamia!! mathematics
+
+ 7
+
+ field measure
+ field measure
+
+ 50 ■ 60 (ninda) 50 • 60 (ninda) equal
+ 50 ■ 60 (ninda) 50 · 60 (ninda) equal
+
+ 1(60 - 60) bur (= 3,600 bur)
+ 1(60 - 60) bùr (= 3,600 bùr)
+
+ 27(60) 30 bùr (=1,650 bùr)
+ 27(60) 30 bur (= 1,650 bur)
+
+ 2 1/2
+ 2 1/2
+
+ Fig. 4 TSS 188. The area of an unrealistically lar^e square
+
+ In this text, the area of a very large square with the side 50(60) rods (=3,000rods
+ = 1,800 meters!) has been computed. The result is expressed in terms of the Sumerian
+
+ large area measure bùr = 30(60) sq. rods and special Sumerian number signs for area
+ measures. Interestingly, the stated answer is not correct.
+
+ Apparently, the computation (which is not shown in the text) was intended to
+
+ proceed in a quite clever way, namely as follows:
+
+ sq. (50(60)rods) = sq. 5 · sq. 10 · sq. (60rods) = 25 · I (60) 40 · 2 bùr = 25 · 3(60) 20bùr
+
+ = 21/2· 33(60) 20 bùr = 1 (60 · 60) 23(60) 20 bùr.
+
+ Instead, however, a simple numerical error in the middle of the computation lead to
+
+ the following incorrect result (the one inscribed in the lower half of the clay tablet):
+
+ sq. (50(60)rods) = sq. 5 · sq. 10 · sq. (60rods) = 25-1 (60)40 · 2 bùr
+
+ = 25 · 3(60) 30 bùr = 2 1 /2 ■ 35(60) bùr = 1 (60 ■ 60) 27(60) 30 bùr.
+
+ Note: The abbreviation sq. stands here for "square," in the geometric sense, as an area.
+
+ The concept of a number in the second power was not known in ancient Mesopotamia,
+ at least not in the third millennium BC. The notation a ■ b stands, indiscriminately, for
+
+ either the area of a rectangle with sides of lengths a and b, or for b (an area, a length,
+
+ or a number) multiplied by the number a.
+
+ 2.3 Early Dynastic tables of areas and metric division algorithms
+
+ Also from the Early Dynastic III period are three known metro-mathematical tables
+ of squares or, more precisely, "tables of areas of square fields". One of these tables
+ (VAT 12593) lists the areas of a decreasing series of squares with the side 10(60) rods,
+ 9(60) rods, and so on (Deimel 1923; Friberg 2007a, 149). This is the oldest known
+ metro-mathematical table text.
+
+ A somewhat younger, but even larger and much more elaborate table text (CUNES
+ 50-08-001) begins by listing the areas of an increasing series of squares, with sides
+ progressing in regular steps from 1 rod to 10(60 · 60) rods. After that follow several
+
+ other tables of similar types, ending with a table for areas of a series of squares with
+ sides as small as 1/24 rod (Friberg op. cit., App. 7).
+
+ 'i\ Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 10:02:49 UTC
+All use subject to https://about.jstor.org/terms
+
+ J. Friberg
+
+ 5 ninda • 5(60) ninda = (1500 sq. ninda =) 2(6§e) 3 (iku)
+ 5 ninda · 5(60) ninda = (1500 sq. ninda =) 2(è§e) 3 (iku)
+
+ 10 ninda ■ 10(60) ninda = (4 • 2(e§e) 3 (iku) =) 3(bur) l(&e)
+ 10 ninda ■ 10(60) ninda = (4 · 2(è§e) 3 (iku) =) 3(bùr) l(è§e)
+
+ 20 ninda · 20(60) ninda = (4 · 3(bùr) l(èâe) =) 13(bùr) l(èSe)
+ 20 ninda • 20(60) ninda = (4 • 3(bur) l(&>e) =) 13(bur) l(6Se)
+
+ 30 ninda • 30(60) ninda = (9 • 3(bur) l(&e) =) 30(biir)
+ 30 ninda · 30(60) ninda = (9 · 3(bùr) l(è5e) =) 30(bùr)
+
+ 40 ninda • 40(60) ninda = (16 • 3(bur) l(6§e) =) 53(bur) l(6§e)
+ 40 ninda · 40(60) ninda = (16 · 3(bùr) l(è§e) =) 53(bùr) l(è§e)
+
+ 50 ninda • 50(60) ninda = (25 • 3(biir) l(&e) =) 1(60 bur) 23(bur) l(&e)
+ 50 ninda · 50(60) ninda = (25 · 3(bùr) l(èSe) =) 1(60 bùr) 23(bùr) l(è§e)
+
+ total area: 3(60 bùr) 4(bùr) l(è§e)
+ total area: 3(60 bur) 4(bur) l(£§e)
+
+ Fig. 5 MS 3047. A summation of the areas of six very long and narrow rectangles
+
+ Metro-mathematical tables of areas of square fields of the mentioned kind are, in
+
+ a way, predecessors of both Old Babylonian tables of squares and Old Babylonian
+ metrological tables.
+
+ An interesting deviation from this pronounced interest in the areas of squares is
+
+ another table text from the Early Dynastic III period (MS 3047, obv.\ Friberg op. cit.,
+ 150; and Fig. 5 above). It is a curious table of areas of a series of six rectangles,
+ all (unrealistically) with the length 60 times as long as the width. The text ends by
+ mentioning the sum of the six computed areas, so it is a playful imitation of a field
+ division text like the proto-literate text MSVO 1, 2 mentioned in Sect. 1.3 above.
+
+ The tendency of mathematical exercises to deal with unrealistically large numbers
+
+ (as in W 19408, 76, MSVO 4, 66, TSS 188, and MS 3047 above) can be observed
+
+ also in a couple of well-known Early Dynastic III "metric division exercises" (TSS
+ 50 and TSS 671 ; Jestin 1937; H0yrup 1982; Friberg op. cit., 414). There the content
+ of a granary, 5(60 · 60 ■ 60) 20(60 · 60) sîla (the sîla was a capacity measure, equal
+ to approximately 1 liter) = 1,152,000 sîla, is to be divided into rations of 7 sîla each.
+ Since 7 is not a divisor of 60, the division must have been accomplished by the use
+ of an elaborate metric division algorithm, as in a parallel and roughly contemporary
+
+ metro-mathematical text from Ebla, a city state in modern Syria not far from northern
+ Mesopotamia (TM.75.G 1392; Friberg 1986).
+
+ 3 Metro-mathematical school texts from the Old Akkadian period
+
+ (c. 2340-2200 BC)
+
+ 3.1 An Old Akkadian application of the field expansion procedure
+
+ The text shown in Fig. 6 below (Luckenbill 1930; Friberg 2007a, 402) is from the Old
+ Akkadian period. It specifies the sides and the area of a long and narrow trapezoidal
+ field. The given unequal widths are 1(60) 10 rods and 44 1/2 rods (half-sum 57 1/4
+ rods), and the length is 5(60) 15 rods. The area of the field is claimed to be 10 bur =
+
+ 5(60 ■ 60) square rods, a large and round area number. The last two lines of the text
+
+ *:£i Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 10:02:49 UTC
+All use subject to https://about.jstor.org/terms
+
+ Mesopotamia!! mathematics
+
+ 9
+
+ -13+
+
+ rrrrr <WF
+ rrrrf
+
+ 1
+
+ fl
+ ft
+
+ 1(60) 10 sag 44 1/2
+ 1(60) 10 sag 44 1/2
+
+ 1(60) 10 front (= width) 44 1/2
+ 1(60) 10 front (= width) 44 1/2
+
+ 5(60) 15 us bi.a
+ 5(60) 15 us bi.a
+
+ 5(60) 15 both lengths
+ 5(60) 15 both lengths
+
+ a.sa.bi 10(bur) asa5
+ a.sà.bi 10(bùr) asa5
+
+ its field 10 bur field measure
+ its field 10 bùr field measure
+
+ J0J
+
+ WFgjP
+
+ Fig. 6 A 786. Another example of data produced by the field expansion procedure
+
+ The-king-is-my-wall
+ The-king-is-my-wall
+
+ The-field-by-the-large-and-grand-marsh
+ The-field-by-the-large-and-grand-marsh
+
+ give the name of the writer, "The-king-is-my-wall," and the name of the field, "The
+ field-by-the-large-and-grand-marsh," which sound like fictive names.
+
+ Since the area of the field is a round number while its length can be written as
+ 11/6· 4(60) 30, this seems to be the result of yet another application of the mentioned
+
+ proto-literate field expansion procedure.
+
+ The construction of the data can be explained as follows: The author of the text
+
+ wanted to construct a trapezoid with the round area 10 bùr = 5(60 · 60) square rods,
+ and with the ratio of the length to the half-sum of the widths close to 5:1. For that
+
+ purpose, he started with a rectangle with
+
+ the initial length 4(60) 30 rods, and the initial width 1 /5 · 4(60) 30 rods = 54 rods
+
+ (step 1)
+
+ The corresponding initial area could then be shown to be 4(60) 30 rods · 54 rods = 4(60 ·
+
+ 60) 3(60) sq. rods = 8 bùr I iku 80 sar, nearly 1(60 · 60) sq. rods = 2 bur less than the
+ wanted area. In other words, the area deficit was close to 1/4 of the initial area. To
+
+ substantially reduce this deficit, the author of the text extended the initial length by
+ 1/6 and obtained
+
+ the extended length — 1 1/6 · 4(60) 30rods = 5(60) 15rods (step 2)
+
+ The resulting extended area was
+
+ 11/6· 4(60 · 60) 3(60) sq.rods = 4(60 · 60) 3(60) sq.rods + 40(60) 30sq.rods
+
+ = 4(60 · 60) 43(60) 30 sq.rods.
+
+ In Sumerian area measure, this is 9 bur 8 iku 10 sar. The new area deficit was then
+ 16(60)30 sq. rods, slightly less than 1/16 of the new area. To eliminate most of this
+ new deficit, the author of the text extended the width by a factor of 1/(16 2/3) =
+ 3/60 36/(60 · 60), obtaining
+
+ the extended width — (1 + 3/60 36/(60 ■ 60)) · 54 rods
+
+ = 57 14/6024/(60 · 60) rods = appr. 57 1/4 rods (step 3)
+
+ ·£) Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 10:02:49 UTC
+All use subject to https://about.jstor.org/terms
+
+ 10
+
+ J. Friberg
+
+ 4(60 • 60) 3(60) sq. rods
+ 4(60 · 60) 3(60) sq. rods
+
+ m
+
+ 4< » • 60) 43(60) 30 sq. rods *
+ 4(60 ■ 60) 43(60) 30 sq.rods
+
+ 45 r.
+ 45 r. 4(60) 30 rods
+
+ 4(60) 30 rods
+
+ 1.
+ 1.
+
+ 4(60) 30 rods
+ 4(60) 30 rods
+
+ 3.
+ 3.
+
+ 2.
+ 2.
+
+ 4.
+ 4.
+
+ 45 r.
+ 45 r. 4(60) 30 rods
+
+ 4(60) 30 rods
+
+ 5(60) 15 rods
+ 5(60) 15 rods
+
+ apjk^5(60 ■ 60) sq^««s^
+ apjk^5|60 ■ 60) sq^re®^
+
+ s
+ 8
+
+ \
+ \
+ 3 1/4 r.
+ 3 1/4 r.
+
+ Fig. 7 How the (proto-literate) field expansion procedure operates
+
+ 5
+ 5
+
+ The author of the text probably did not bother to compute the area of the twice
+
+ extended rectangle, but instead immediately declared it to be 10bùr=5(60 · 60) square
+ rods. (The exact result is 5(60 ■ 60) 33 1/4 square rods, or about 5(60 · 60) square
+ rods+ 1/600 of that number). Moreover, since he wanted the final result to be a trape
+
+ zoid rather than a rectangle, he chose to let the upper width be 1 (60) 10 rods. It followed
+
+ that the lower width had to be 44 1/2 rods, which is the value given in the text (Fig. 7).
+
+ The appearance of the number 16 2/3 in this reconstructed application of the field
+
+ extension procedure is, possibly, the earliest known appearance in a Mesopotamian
+ mathematical text of a deliberately chosen "sexagesimally regular number". A sex
+ agesimal^ regular number is a number which divides a power of the base 60, and
+ which therefore has another, finitely expressible sexagesimal number (say, an integer)
+ as its "reciprocal". In this particular case, 16 2/3 has the reciprocal 3(60) 36 because
+ 16 2/3 · 3(60) 36 = 1 (60 · 60). Note that this surmised example of the use of a sex
+ agesimally regular number in a computation unexpectedly appears in a cuneiform
+ text from a period well before the invention of sexagesimal numbers in place value
+ notation!
+
+ The frequent appearance of results of applications of the (proto-literate) field exten
+ sion procedure in Mesopotamian metro-mathematical texts from the third millennium
+
+ BC is potentially historically important for the following reason: Apparently, the pri
+ mary purpose of the field extension procedure was (for some unknown reason) to
+
+ construct a rectangular field of given size and form, in other words a rectangle with
+ a given area and a given ratio of length and width. In modern notations, this is a pair
+
+ of equations of the type
+
+ A mathematically equivalent "quadratic-linear" pair of equations is, of course,
+
+ I ■ w = A, l/w = f.
+
+ sq ,l = f-A, w — l/f.
+
+ Therefore, the field extension procedure can be interpreted as a primitive but clever
+
+ way of solving geometrically a quadratic problem of the very simplest kind, indirectly
+
+ <£) Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 10:02:49 UTC
+All use subject to https://about.jstor.org/terms
+
+ Mesopotamia!! mathematics
+
+ involving a square side computation, by a kind of successive approximations. (For a
+ detailed discussion of various clever methods for square side computations, by the
+
+ use of successive approximations, in Old and Late Babylonian mathematical texts, the
+ interested reader is referred to Friberg 2007b, Sect. 16.7).
+
+ 3.2 Old Akkadian metric division problems and applications of the binomial rule
+
+ Several known small school texts from the Old Akkadian period are witnesses of a ris
+
+ ing interest in "metric algebra," by which is meant here finding solutions to geometric
+
+ problems by skillful manipulations of rectangles and squares, with sizes of sides and
+ surfaces expressed in terms of current length and area measures. (See Friberg 2007a,
+ 403-409). Some of the texts are examples of "metric division" where the area and
+
+ the length of one side of a rectangle are known, while the length of the second side
+ has to be computed. In one such case, the area of a rectangle is 1 square rope, while
+ the length of the known side is 4(60) 3 rods. Typically, 4(60) 3 = 35 is a regular
+ sexagesimal number. Some other texts are examples of "metric squaring," typically
+ exercises in the use of the "binomial rule"
+
+ sq. (p + q) = sq. ρ + sq. q + 2p ■ q,
+
+ since the given length of a side is the sum of a large number and a much smaller
+ number. This is interesting, because the inverse "square side" problem, that of finding
+
+ the length of the side of a square of given area (in modern abstract terms, computing
+
+ a square root) can be solved by the use of the binomial rule, together with successive
+ approximations.
+
+ 3.3 An Old Akkadian trapezoid division problem leading to a quadratic equation
+
+ On the Old Akkadian school text IM 58045 (Friberg 2007a, 409), shown in Fig. 8
+ below with a translated cuneiform inscription, there is a picture of a trapezoid with
+
+ parallel sides of 3 reeds - 1 cubit = 17 cubits, and 1 reed 1 cubit = 7 cubits, and with
+
+ Fig. 8 IM 58045. The data
+ for a trapezoid division problem
+
+ Ô Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 10:02:49 UTC
+All use subject to https://about.jstor.org/terms
+
+ 12
+
+ J. Friberg
+
+ a height of 2 reeds = 12 cubits = 1 rod. An easy computation shows that the area of
+ the trapezoid is precisely 12 cubits · 12 cubits = 1 sq. rod, a round (but surprisingly
+ small) area number. A transversal line divides the trapezoid into two sub-trapezoids.
+
+ It is likely that it was a student's task to find the length of the transversal line in the
+
+ case when it bisects the trapezoid, that is, when the areas of the two sub-trapezoids
+ are equal.
+
+ There is no direct indication how the student would have attacked this problem.
+
+ Essentially, there are two different methods the student could conceivably have used,
+
+ if he did not know the answer beforehand. (An uninteresting and trivial possibility is
+ that the student already was familiar with the "trapezoid bisection equation," discussed
+
+ below, but then the question remains how that equation had been discovered in the first
+
+ place). The first of these two methods will be considered in the present section of this
+ paper. Indeed, consider (as in Fig. 9 below) a trapezoid with parallel sides of given
+ lengths a and b, with b > a, and a given height h. Then, the area A and the "growth
+ rate" / = (b — a)/h can be computed. Imagine that the trapezoid is divided by a
+ transversal into two sub-trapezoids, one of area P, the other of area Q, as in Fig. 9.
+
+ Let the unknown length of the transversal be d, and let the unknown distance between
+ the transversal and the longer parallel be u.
+
+ Now, just as for the whole trapezoid (b + a)/2 ■ h = A and b — a = f ■ h, so for
+
+ the upper sub-trapezoid
+
+ (b + d)/2 ■ u = P, b — d = / · u.
+
+ The unknowns d and u can then be computed as the solutions to the following
+ "rectangular-linear system of equations":
+
+ (b + d)/2 ■ u = P, b — d — f ■ u, where b, /, and Ρ are known.
+
+ Therefore, an application of the "conjugate rule"
+
+ (b + d) ■ (b — d) = sq. b — sq. d
+
+ shows that, alternatively, d and u can be found as the solutions to the following
+ "quadratic-linear system of equations":
+
+ sq. b — sq. d — f · 2P. b — d = f ■ u, where b, /, and Ρ are known.
+
+ The parallel sides a and b are given.
+ The parallel sides a and b are given.
+ The height h is also given.
+ The height h is also given.
+
+ The growth rate is f=(b-a)/h.
+ The growth rate is f=(b-a)/h.
+ The area is A = (b + a)l2 ■ h.
+ The area is A = (b + α)Ι2 ■ h.
+ P and Q are given so that P + Q = A.
+ Ρ and Q are given so that Ρ + Q = A.
+
+ The unknowns are d, u, and v.
+ The unknowns are d, u, and v.
+
+ Fig. 9 A possible setup for a trapezoid division problem
+
+ Ô Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 10:02:49 UTC
+All use subject to https://about.jstor.org/terms
+
+ Mesopotamian mathematics
+
+ 13
+
+ After a slight rearrangement of the terms in the two equations, one gets instead
+
+ sq.d = sq.b — / · 2P, u = (b-d)/f, where b, f, and Ρ are known.
+
+ This means that if the Old Akkadian student knew the conjugate rule and if he knew
+
+ how to compute a square side, then he could find first the value of d and thereafter
+ also the value of u.
+
+ In the Old Akkadian school text IM 58045 considered above, the given values are
+
+ b = 17cubits, a =7cubits, h = 12 cubits, and (probably)P = Q — A/2.
+
+ Consequently,
+
+ 2P = A — sq. (12cubits) = 2(60) 24sq.cubits, / = ( 17 - 7)/12 = 5/6.
+
+ In view of what was shown above, this means that d can be computed as the following
+
+ square side (abbreviated sqs.):
+
+ d = sqs. (sq.b - f ■ 2P) = sqs. (sq. (17 cubits) - 5/6 · 2(60)24 sq.cubits)
+
+ = sqs. ((4(60)49 - 2(60)) sq.cubits) = sqs.(2(60) 49 sq.cubits) = 13 cubits.
+
+ Then, also
+
+ κ = (17 cubits — 7 cubits)/2 = 5 cubits.
+
+ Note that the teacher had chosen the data of the exercise so that, in this particular case,
+
+ the computation of the square side was easy, because 2(60)49 sq. cubits is precisely
+ the square of 13 cubits.
+
+ Similarly, considering in Fig. 9 the lower sub-trapezoid with the area Q, it can be
+
+ shown that
+
+ sq.d — sq.a = / · 2Q.
+
+ Therefore, in the special case when Ρ — Q, so that the transversal bisects the trapezoid,
+ it follows that
+
+ sq.fr - sq.d = sq.d - sq.a or (sq.a + sq.fr) = 2sq.d.
+
+ When a and b are known, this is a quadratic equation for d, which may be called the
+
+ "trapezoid bisection equation". When a and b are not known, the trapezoid bisection
+
+ equation is instead an indeterminate quadratic equation for the triple a, fr, c.
+
+ It is possible that a solution in integers to the indeterminate trapezoid bisection
+
+ equation was found initially as a result of a fortuitous observation of the curious fact
+ that
+
+ «£) Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 10:02:49 UTC
+All use subject to https://about.jstor.org/terms
+
+ 14
+
+ J. Friberg
+
+ sq. (7cubits) = 49sq.cubits, sq. (13 cubits) = 2(60)49sq.cubits,
+
+ sq. (17 cubits) = 4(60) 49 sq.cubits.
+
+ Admittedly, it may be only a reasonable conjecture that Old Akkadian students
+
+ knew how the trapezoid transversal d in Fig. 9 above can be computed by the use of
+
+ the quadratic equation
+
+ sq. d = sq. b — f ■ 2P, where b, /, and Ρ are known.
+
+ However, it is a fact that Old Babylonian students knew how to use the very same
+
+ quadratic equation for a similar purpose. This is shown, quite explicitly, by the solution
+
+ procedure in the interesting "breach repair problem" in Sect. 1 of the Old Babylonian
+
+ mathematical cuneiform text MS 3052 (Friberg 2007a, Fig. 10.2.4).
+
+ 3.4 Solutions of quadratic equations making use of completions of the square or
+
+ applications of the conjugate rule
+
+ The second of the two methods which an Old Akkadian student may conceivably
+
+ have used in order to compute the length of the transversal bisecting the trapezoid
+
+ depicted on the tablet IM 58045 in Fig. 8 above (without already being familiar with
+
+ the trapezoid bisection equation), proceeds as follows: It is geometrically obvious (see
+
+ Fig. 9) that
+
+ b ■ u - //2 · sq.u = P, where b, /, and Ρ are known.
+
+ This is a quadratic equation for the unknown u, of a kind that was solved routinely
+
+ in Old Babylonian mathematical problem texts, apparently through an application of
+
+ a geometric version of the method called (by us) "completion of the square".
+
+ Therefore, if an Old Akkadian student knew how to apply a completion of the square,
+
+ and if he also knew how to compute a square side, he could use the quadratic equation
+
+ mentioned above in order to find the lengths of the trapezoid transversals in Figs. 8
+ and 9.
+
+ It is, by the way, important to understand that for an Old Akkadian student of math
+
+ ematics, what we call the "binomial rule," the "conjugate rule," and "completion of the
+
+ square" must all have been understood in their original, geometric sense. Indeed, in the
+
+ Old Akkadian period, and even much later, abstract numbers and symbolic notations
+
+ for objects or algebraic operations, etc., had not yet been invented. (For a detailed elab
+
+ oration of remarks like these, interested readers are referred to H0yrup's LWS (2002).
+
+ H0yrup was, indeed, the first one to understand that Old Babylonian mathematicians
+
+ both formulated and solved quadratic equations and problems geometrically).
+
+ Moreover, the word "rule" is more suitable here than the obviously anachronistic
+
+ word "theorem," even if it is likely that Old Akkadian teachers used some kind of
+
+ geometric arguments to convince their students about the validity of the rules. The
+
+ forms that such geometric arguments could take (hypothetically) are shown below, in
+
+ the diagrams in Figs. 10 and 11.
+
+ Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 10:02:49 UTC
+All use subject to https://about.jstor.org/terms
+
+ Mesopotamian mathematics
+
+ 15
+
+ p + q p
+ p + q Ρ
+
+ p q
+ Ρ 9
+
+ sq.(p + 9)- (p + q) -(p-q) = A sq./> - sq. <7 = .A
+ sq.(p + ^)- (p + q) · (p-q) = A sq./> - sq. g = Λ
+
+ sq.p + sq.tf+ 2 p -q (p + q) ■ (p - q) = sq. p - sq. q
+ sq.p + sq.tf+ 2 pq (p + q) ■ (p - q) = sq. ρ - sq. q
+
+ Fig. 10 Geometric demonstrations of the binomial and conjugate rules
+
+ Ρ
+
+ ρ - u u
+
+ 2 p ■ u - sq. u = A  sq. (p - u) = sq.p - A
+ 2 ρ ■ u - sq. κ = A
+
+ sq. (ρ - u) = sq.p -A
+
+ Fig. 11 A geometric demonstration of a completion of the square
+
+ Note that no Mesopotamian clay tablets with diagrams of this kind are known to
+ exist. See, however, the detailed discussion of related issues in Friberg (2007b, Ch. 1 ),
+ which compares proofs in Euclid's Elements II with what is known about Baby
+ lonian "metric algebra." It is interesting to notice that the suggested demonstration
+ of the conjugate rule is based on the same geometric configuration as the suggested
+ demonstration of the completion of the square. In view of this intimate connection
+
+ between the conjugate rule and the completion of the square, it is easy to understand
+ why, as above, the following rectangular-linear system of equations for the unknowns
+ u and d
+
+ (b + d)/2 ■ u = P, b — d = / · u, where b, /, and Ρ are known
+
+ can be solved by the use of the conjugate rule, while the alternative, the quadratic-linear
+ system of equations
+
+ b ■ u — //2 · sq. u = P. b — d = f ■ u, where b, /, and Ρ are known
+
+ can be solved by the use of a completion of the square.
+
+ <£) Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 10:02:49 UTC
+All use subject to https://about.jstor.org/terms
+
+ 16
+
+ J. Friberg
+
+ 4 Metro-mathematical school texts from the Neo-Sumerian Ur III period
+
+ (c. 2100-2000 BC)
+
+ At some time in the Ur III period, place value notation for sexagesimal numbers
+ was invented (although without the use of zeros, so that the represented numbers had
+ floating values). This is what is suggested by the existence of a number of "tables
+
+ of reciprocals" from this period, with numbers in place value notation. (See Friberg
+ 2007a, 356, and, in particular, the survey in Friberg 2009, Sects. 4.2.1-4, of where
+ such tables of reciprocals have been published). These tables of reciprocals are, by
+ the way, the only texts from the third millennium that can be said to be mathematical
+ rather than metro-mathematical.
+
+ The oldest known texts with recursive algorithms are from this period. (A recursive
+
+ algorithm is a procedure in several similar steps, where the result of the procedure
+ in each step is used as data for the next step). One such text is a calculation of the
+ annual production of "dairy fat" and "cheese" over a period of ten years, based on
+ the hypothetical growth of a cattle herd consisting, initially, of four milk cows. (See
+ Nissen et al. 1993, Figure 76).
+
+ Another example is a geometrical recursive algorithm in a legal document, sworn
+ by the name of the king, which meticulously describes how an irregularly formed
+ "orchard" (as in Fig. 12 below) has been divided by parallel transversals into five
+ smaller plots of equal areas (Clay 1915; Friberg 2009).
+
+ The explicit computations are not shown in the text, only the results, in particular
+
+ the widths of the individual plots, which are computed with surprising accuracy. The
+
+ essential part of the computations must have been to divide a trapezoid of given base d\,
+
+ given growth rate, and given area, into four sub-trapezoids of given areas, proceeding
+ as follows: First, the length of the upper parallel side and the width of the first sub
+ trapezoid are computed. (This is a problem of the same type as the Old Akkadian
+ trapezoid bisection problem discussed above, in Sect. 3.3). Then, the length of the
+
+ ds
+
+ the sum b + + s2 + s3 + s4 + s5 is also given
+ the sum b + s{ + s2 + s^ + s4 + s5 is also given
+
+ d\ b, A, and B are given
+ άγ,/, b, A, and Β are given
+
+ sq.rf2 = sq. d{ -2/- (A/5 -B)
+
+ sq. dn+i = sq. d„ - If- A/5
+
+ n = 2,3,4
+
+ ,v„= 1//- (d„-dn+l)
+
+ n= 1,2,3,4
+
+ Fig. 12 YBC 3879. The division of an orchard into five lots of equal area
+
+ "£) Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 10:02:49 UTC
+All use subject to https://about.jstor.org/terms
+
+ Mesopotamia!! mathematics
+
+ 17
+
+ upper parallel side and the width of the second sub-trapezoid are computed, and so
+
+ on. It is clear that the author of this legal text must have learned at school how to solve
+
+ quadratic-linear or rectangular-linear problems and also how to find approximate
+
+ values for the square sides of given area numbers.
+
+ 5 Mathematical texts from the Old Babylonian period (c. 2000-1600 BC)
+
+ 5.1 Quadratic problems and problems involving regular sexagesimal numbers in Old
+
+ Babylonian texts
+
+ In Old Babylonian mathematical texts, all computations are carried out in terms
+
+ of abstract sexagesimal numbers in place value notation, although sometimes the
+
+ given data and the answers to the problems are expressed metrologically, in terms
+
+ of length and area measures, weight measures, or capacity measures. It is, therefore,
+
+ quite reasonable that, as has been shown recently, the Old Babylonian mathematical
+
+ school curriculum started with the copying of extensive metrological lists and tables,
+
+ multiplication tables, and tables of reciprocals. (See, for instance, Proust 2007, Ch. 5).
+
+ In the more advanced stages of the curriculum, problems involving quadratic equa
+
+ tions of many different kinds, and many different degrees of complexity, played a
+
+ central role. Another popular subject was computations with "many-place regular
+
+ sexagesimal numbers". As mentioned before, a sexagesimal number η is called "reg
+
+ ular" if there exists another sexagesimal number, which conveniently may be called
+
+ rec. n, such that « - rec. η equals some power of 60 (="1" in Babylonian floating place
+
+ value notation). Regular sexagesimal numbers can always be interpreted as products of
+
+ powers of 2, 3, and 5. Well-documented examples of such computations with many
+
+ place regular sexagesimal numbers are computations of square roots or reciprocals
+
+ of given regular sexagesimal numbers as products of square roots or reciprocals of
+
+ factors of those numbers. A particularly impressive example is the Old Babylonian
+ text CBS 1215, which combines a "reciprocals through factorization algorithm" with
+
+ a "doubling and halving algorithm". The result is a long series of pairs of reciprocals
+ («, rec. n), beginning with the pair (53, S--*) = (205,2848). (See Friberg 2007a,
+ App. 3).
+
+ Interesting combinations of quadratic problems and problems involving regular
+
+ sexagesimal numbers are the Old Babylonian "igi-igi.bi problems" (igi and igi.bi are
+
+ Sumerian terms for η and rec. ή). Since, by definition, igi ■ igi.bi = 1 (here necessarily
+
+ meaning just the integer 1), it follows that
+
+ sq. {(igi + igi.bi)/2} - 1 = sq. {(igi - igi.bi)/2}.
+
+ This simple identity makes it easy to solve, for instance, the quadratic equation
+
+ igi + igi.bi = p, with a givenp, and with igi and igi.bi as unknowns.
+
+ Note that it also follows from the mentioned identity that if igi and igi.bi are supposed
+
+ to be regular sexagesimal numbers, then
+
+ Ô Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 10:02:49 UTC
+All use subject to https://about.jstor.org/terms
+
+ 18
+
+ J. Friberg
+
+ (c, b, a) - ((igi + igi.bi)/2, 1, (igi - igi.bi)/2))
+
+ is a generating rule for right triangles with rational sides, "normalized" in the sense
+ that the longest of the two orthogonal sides is of length 1. [See the detailed dis
+ cussion of the famous table text Plimpton 322 (Neugebauer and Sachs 1945, text
+ A) in Friberg (1981). The explanation proposed there of how the table on Plimp
+ ton 322 was constructed is now confirmed by a series of computations in the Old
+ Babylonian exercises MS 3971 §§ 3 a-e. See Friberg 2007a, App. 8 and Sect.
+ 10.1 f].
+
+ 5.2 The Old Babylonian fixed trapezoid diagonals rule
+
+ Other noteworthy achievements in Old Babylonian mathematics are several types of
+
+ geometric recursive algorithms. One such recursive algorithm appears on a clay tablet
+ inscribed with the text of an exercise together with a drawing of a trapezoid divided
+
+ into five sub-trapezoids, all with diagonals of length 3. (VAT 8393; see Friberg 2007b,
+ App. 1). The algorithm was unknown before the publication of this Old Babylonian
+ text.
+
+ According to the statement of this problem in the cuneiform text, an initial trapezoid
+
+ has a given inclined side of length « = 2 00, parallel sides of given lengths 5 = 2 30 and
+ t = 2 00, and a diagonal of length d = 3 00. Asked for are two additional trapezoids
+ "above" and two "below" the given one, all with diagonals of the same length. See
+ Fig. 13 below.
+
+ In the solution in the text to this problem, a recursive algorithm is used to determine
+
+ the lengths of the inclined sides and "lower" parallels of the first and second trape
+ zoids "below" the given one, and then the lengths of the inclined sides and "upper"
+ parallels of the first and second trapezoids "above" the given one. (It turns out to be
+ impossible to continue the procedure to third trapezoids below and above the given
+ one!)
+
+ With the given values u = 2 00, s = 2 30, / = 2 00, and d = 3 00, the values
+ successively calculated in the algorithmic procedure of VAT 8393 are as follows (see
+ again Fig. 13):
+
+ Ur
+
+ â Springer
+
+ Fig. 13 VAT 8393. The setup for a sophisticated fixed trapezoid diagonals problem
+
+ V, =«+/■ *
+
+ 'l = '-/'vl
+
+ Mj =«-/' S
+ Mj =«-/* S
+
+ Sj = s +/• Mj
+ Sj = s +/· Mj
+
+ v2 = vl +/-'l
+ v2 = vl +/·' 1
+
+ "2 = "l -/' sl
+ "2 = "1 -/• si
+
+ h = 'i-fv2
+ '2 = 'l -/ v2
+
+ i2 = i, +/• U2
+ i2 = i, +/· U2
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 10:02:49 UTC
+All use subject to https://about.jstor.org/terms
+
+ Mesopotamia!! mathematics
+
+ 19
+
+ / = (.ν -1 )/it = 30/2 00 = 1 /4 =: 15 ( 15/60 )
+
+ = «+/ ■ r = 200+; 15 -200 = 230 t\ =t-f · υ, =200-; 15 · 230=1 22:30
+ V2 = 2 30+: 15 1 22; 30 = 2 50: 37 30 f2 = 1 22: 30- : 15 · 2 50; 37 30 = 39; 50 37 30
+ », =«-/ -.« = 200—; 15 -230= 1 22: 30 st =s + / · h, =230+; 15 · I 22: 30 = 250; 37 30
+ »2= 1 22; 30—; 15 -2 50: 37 30 = 39: 50 37 30 s2 = 2 50: 37 30+: 15 · 39: 50 37 30 = 3 00; 35 09 22 30
+
+ The procedure was probably based on geometric deliberations of the following kind:
+ First, a double application of the "rectangle diagonal rule " (a Babylonian predecessor
+ of the so-called Pythagorean theorem) was used to compute the length of the diagonal
+
+ of a (symmetric) trapezoid. Namely, if h is the height of the trapezoid with the parallel
+
+ sides s and t and the inclined side u, then (see Fig. 14, left)
+
+ sq. u - sq. {(i - t)/2) = sq. Ii — sq.d- sq. {(i + t)/2}.
+
+ Therefore, by the use of the conjugate rule
+
+ sq. d = sq. u + sq. {(i + t)/2} - sq. {(i - 0/2} = sq. « + s · t.
+
+ This "symmetric trapezoid diagonal rule" is a surprising Old Babylonian precursor
+ of Ptolemy's well-known theorem about the diagonals of acyclic quadrilateral (Heath
+ 1981, 2:279).
+ Now, let
+
+ / = (s - t)/u = (t - t\)/v\ = (s - t\)/(v\ + u)
+
+ be the common growth rate of the given trapezoid and of the first trapezoid below (to
+ the right of) it, the one with the parallel sides t and t\ and the inclined side i>|. See
+ Fig. 14, right. Then, a double application of the symmetric trapezoid diagonal rule
+ discussed above shows that
+
+ sq. u + s ■ t = sq. d — sq. i>i + t\ ■ t.
+
+ From these equations, and from what was said about the common growth rate, it
+ follows that
+
+ (s + 0/2
+
+ (s - 0/2
+
+ sq. d = sq. u + s ■ t
+
+ v, = u +/• t
+
+ and tx-t-f-v j
+
+ Fig. 14 Explanation of the computations in VAT 8393
+
+ Ô Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 10:02:49 UTC
+All use subject to https://about.jstor.org/terms
+
+ 20
+
+ J. Friberg
+
+ sq. v\ - sq. u = (s — t\) ■ t = f ■ (v\ + u) ■ t.
+
+ Therefore, by the use of the conjugate rule again,
+
+ t>i — u — f ■ t.
+
+ Now, finally, the two equations
+
+ vi — u + f ■ t and t\ = t + f ■ v\, where s, t, u, and / have known values,
+
+ together yield the values of uj and t\, and so on. This pair of equations deserves the
+ name "the Old Babylonian fixed trapezoid diagonals rule". (Note that the preceding
+ explanation of the surprisingly advanced reasoning behind the computational proce
+ dure in VAT 8393 is formally quite anachronistic, since Babylonian mathematicians
+ had no recourse to symbolic notations).
+
+ 5.3 An Old Babylonian generating rule for rational trapezoid triples
+
+ Just as Old Babylonian mathematicians knew a generating rule for right triangles with
+
+ rational sides (or rectangles with rational sides and a rational diameter), they also knew
+ a generating rule for divided trapezoids with rational sides and rational transversals.
+
+ As shown in Fig. 15 below, if you suppose that rational values for the partial areas and
+
+ the partial lengths are known, and if you start with the three equations for the areas
+ of the whole trapezoid and the two sub-trapezoids, you get a system of three linear
+
+ equations for the unknown parallel sides, s and t, and the unknown transversal d. (See
+ the three equations in the middle of Fig. 15). The solution to this system of linear
+
+ equations gives corresponding rational values for s, d, and t. (See the equations to the
+ right in Fig. 15).
+
+ The resulting generating rule for a "rational trapezoid triple" (s,d,t) is documented
+ in the Old Babylonian mathematical text YBC 4608 (Neugebauer and Sachs 1945,
+ text D; Friberg 2007b, 274) in (essentially) the following form:
+
+ (s, d, t) = ((Ρ + Q)/(m + n) — Q/m + P/n, Q/m + Ρ/η
+
+ -(Ρ + Q)/(m + «), (Ρ + Q)/{m + η) + Q/m - Ρ/η).
+
+ When Ρ = Q = Β, the same rule can be expressed in the following equivalent, but
+ simpler, form:
+
+ n, m, P, and Q are given
+ n, m, P, and Q are given
+
+ s + d + t = (P + Q)/(m + n) + Pin + Q/m
+ s + d + t = (P + Q)/(m + n) + P/n + Q/m
+
+ s + t = 2(P + Q)/(m + n)
+ s + t = 2(P + Q)/(m + n)
+
+ s = (P + Q)/(m + n) + Pin - Q/m
+ s = (P + Q)/(m + n) + P/n - Q/m
+
+ s + d = 2 Pin
+ s + d = 2 P/n
+
+ d = P/n + Q/m -(P + Q)l(m + n)
+ d = P/n + Q/m -(P + Q)/(m + n)
+
+ d + t = 2 Q/m
+ d + t = 2 Q/m
+
+ t = (P + Q)/(m + n)~ Pin + Q/m
+ t = (P + Q)/(m + n)~ P/n + Q/m
+
+ Fig. 15 Another possible setup for a trapezoid division problem
+
+ Ô Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 10:02:49 UTC
+All use subject to https://about.jstor.org/terms
+
+ Mesopotamia!! mathematics
+
+ obv.
+ obv.
+
+ ( 5°6 1°5 34°5I
+ f 5°6 1°5 34°5I
+
+ 21
+
+ a) /> = (54;30 + 9;30)/2 · 56;15 = 32 · 56;15 = 30-60
+ a) /> = (54;30 + 9;30)/2 • 56;15 = 32 • 56;15 = 30 -60
+
+ Q = (9;30 + 6;30)/2 • 3;45 = 8 • 3;45 = 30
+ Q = (9;30 + 6;30)/2 · 3;45 = 8 · 3;45 = 30
+
+ b) P = (59;45 + 7;45)/2 • 53;20 = 33;45 • 53:20 = 30 -60
+ b) Ρ = (59;45 + 7;45)/2 · 53;20 = 33;45 · 53:20 = 30 -60
+
+ Q = (7;45 + 1; 15)/2 ■ 6;40 = 4;30 • 6;40 = 30
+ Q = (7;45 + 1 ; 15)/2 ■ 6;40 = 4;30 · 6;40 = 30
+
+ c) P = (58;50 + 7;50)/2 • 54 = 33;20 ■ 54 = 30 • 60
+ c) P = (58;50 + 7;50)/2 · 54 = 33;20 ■ 54 = 30 · 60
+
+ Q = (7;50 + 2;10)/2 • 6 = 5 • 6 = 30
+ Q = (7;50 + 2;10)/2 · 6 = 5 · 6 = 30
+
+ d) P = (56;09 + 8;39)/2 • 55;33 20 = 32;24 • 55;33 20 = 30 ■ 60
+ d) Ρ - (56;09 + 8;39)/2 · 55;33 20 = 32;24 · 55;33 20 = 30 ■ 60
+
+ Q = (8;39 + 4;51 )/2 • 4;26 40 = 6;45 ■ 4;26 40 = 30
+ Q = (8;39 + 4;51 )/2 · 4;26 40 = 6;45 ■ 4;26 40 = 30
+
+ Fig. 16 1st. Si 269. Four rational trapezoids with their areas divided in the ratio 60:1
+
+ (s, d, t) = {B/{(m + n) ■ m · n)} · (sq. m + 2m ■ n — sq. n, sq. m + sq. η,
+
+ sq. n + 2m ■ n — sq. m).
+
+ The mentioned generating rule must have been used also for the construction of
+
+ intriguingly nice data in the Old Babylonian mathematical cuneiform text 1st. Si 269,
+ obv. (Friberg 2007b, 279; Fig. 16 above). Indeed, that text contains a diagram showing
+ four different divided trapezoids with rational sides and transversals, and with the
+ areas of the two sub-trapezoids always in the ratio P:Q = 3000:30 = 60:1 ! The sum
+ of the lengths of the two parallel sides is always s +1 = 101 =60+1! The sum of
+ the partial lengths is, in all the four cases, η + m = 1 00 = 60. The partial lengths
+ are, in the four cases, in the ratios n:m = 15:1, 8:1, 9:1, and 25:2, respectively.
+
+ These ratios, by the way, were not randomly chosen by the author of 1st. Si 269.
+
+ Indeed, it is clear from the form of the equations for (s, d, t ) above that for the equations
+
+ to work, n, m,andm+n must all be regular sexagesimal numbers! Consequently, n/m
+ and n/m + 1 must both be regular sexagesimal numbers, instances of what may be
+ called "regular twins"! True enough, the four pairs (15, 16), (8, 9), (9, 10), and (12;30,
+ 13:30) are all regular twins. Similarly, in YBC 4608 (above), the partial lengths η and
+ m are in the ratio 1:5, and 1, 5, and 1 + 5 = 6 are all regular sexagesimal numbers. Or,
+
+ you can say that (5, 6) is another case of regular twins.
+
+ 5.4 Old Babylonian constructions of chains of bisected trapezoids
+
+ Just as Old Babylonian mathematicians knew that a given trapezoid with a diagonal
+
+ of given length can be joined smoothly to other trapezoids with diagonals of the same
+ length, both above and below, they also knew that α given bisected trapezoid can
+ be joined smoothly to other bisected trapezoids, both above and below, to form a
+ "chain of bisected trapezoids with rational sides and transversals," as in Fig. 17 below.
+
+ Ô Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 10:02:49 UTC
+All use subject to https://about.jstor.org/terms
+
+ 22
+
+ J. Friberg
+
+ Fig. 17 An example of a chain of bisected trapezoids with rational sides and transversals
+
+ n' m' n m
+ η ' m' η m
+
+ Fig. 18 How to join together smoothly two bisected trapezoids
+
+ (For examples, see the Old Babylonian tablets Erm. 15189 (Vaiman 1955; Friberg
+ 2007b, 287) and AO 17264 (Neugebauer 1935, 126; Friberg 2007b, 292)).
+
+ It is possible that Old Babylonian mathematicians found out that such a construction
+
+ is possible through astute observation and experimentation, but it is also possible that
+ they reasoned in the following way (Fig. 18):
+
+ In the diagram above, let / = (s — t)/(m + n) be the growth rate of a given
+
+ trapezoid, the one to the right in the diagram. If here s and t are replaced by their
+ expressions in the Old Babylonian generating rule for trapezoid triples (see the line
+
+ just above Fig. 15), then the equation for the growth rate takes the following new form,
+
+ in terms of only the partial lengths m.n, and the partial area B.
+
+ f = jΒ/((m + n) ■ m ■ η)} ■ (2sq. m — 2sq. η)/(ηι + n)
+
+ = {B/((m + n) ■ m ■ η)} ■ 2(m — η).
+
+ There is, of course, a similar expression for the trapezoid to the left. If the two trapezoids
+
+ are supposed to be smoothly connected, they have a common growth rate. Therefore,
+
+ {B'/({m' + n) ■ m ■ η')} ■ (m' — η) — f' = f = {Β/((m + η) ■ m ■ η)} ■ (ηι — η).
+
+ The arbitrarily imposed extra condition that
+
+ m' — η = m — η
+
+ £> Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 10:02:49 UTC
+All use subject to https://about.jstor.org/terms
+
+ Mesopotamian mathematics
+
+ 23
+
+ allows this complicated condition for a common growth rate to be simplified to
+
+ B'/({m' + n) ■ m ■ η') = Β/((m + η) ■ m ■ η).
+
+ The two smoothly connected trapezoids must also have a side in common, so that
+
+ t' = .v. If also t' and s are replaced by their expressions in the generating rule for
+
+ trapezoid triples, it follows that
+
+ [B'/{(m + n) ■ m · aj')) · {sq. η + 2m ■ η — sq. m) = t' = s
+
+ = [Β/((m + η) ■ m ■ η)} ■ {sq.m + 2m ■ n — sq.n}.
+
+ In view of the condition for a common growth rate, this condition can be simplified to
+
+ sq. n' + 2m ■ η — sq. m' = sq. m + 2m ■ η — sq. η,
+
+ or, equivalently,
+
+ simplified to
+
+ 2sq. η — sq. (m' — η') — 2sq. m - sq. (m - η).
+
+ In view of the extra condition that m' — n' = m — η, this equation, in its turn, can be
+
+ 2sq. n' = 2sq. m, or simply n' = m.
+
+ Summing up, one finds that a sufficient, but perhaps not necessary, condition for the
+
+ two bisected trapezoids in the figure above to be smoothly connected is that
+
+ f' = f, m — η = m — n, and n—m.
+
+ It is, indeed, easy to see that these conditions are satisfied in the numerical example
+
+ shown above, in Fig. 17. It is also easy to see that if the numerical data for one bisected
+
+ trapezoid are given, then the corresponding numerical data for smoothly connected
+
+ bisected trapezoids above and below the given one can be computed, effortlessly, by
+
+ the use of these equations alone. Therefore, these three conditions together may be
+
+ called a generating rule for a "chain of (rational) bisected trapezoids".
+
+ 5.5 An Old Babylonian rule for the construction of confluent trapezoid bisections
+
+ In the Old Babylonian mathematical cuneiform texts TMS 23 (Bruins and Rutten
+
+ 1961; Friberg 2007b, 300) and Erm. 15073 (Vaiman 1961; Friberg 2007b, 304), the
+
+ idea of what may be called "confluent trapezoid bisections" is behind two different,
+
+ but equivalent, generating rules, by the use of which it is possible to construct any
+
+ number of rational sub-trapezoids of a given rational bisected trapezoid, all bisected
+
+ by the same transversal.
+
+ The first of these generating rules can be explained as follows: In Fig. 19 below,
+
+ suppose that the given bisected trapezoid has parallel sides of lengths .v and t, and let
+
+ "£) Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 10:02:49 UTC
+All use subject to https://about.jstor.org/terms
+
+ 24
+
+ J. Friberg
+
+ s, t and p/q are given
+ s, t and p/q are given
+
+ (s + s') ■ p = (t'+t)-q
+ (s + s') ■ ρ =(t'+t) q
+
+ (s-s')lp = (t'-t)/q
+ (s-s')lp = (t'-t)/q
+
+ Fig. 19 How to construct confluent trapezoid bisections
+
+ ρ and q be the heights of two sub-trapezoids cut off at each end of the given trapezoid.
+ Suppose that what then remains of the original bisected trapezoid is a bisected sub
+
+ trapezoid with the same bisecting transversal and with parallel sides of lengths s' and t'.
+ The two cutoff trapezoids then obviously have equal areas and equal growth rates.
+
+ More precisely, in modern symbolic notations,
+
+ (s + s') ■ ρ = (t + t') ■ q and (s - s')/ρ = (t1 - t)/q.
+
+ This is a system of two linear equations for the two unknowns s' and t'. The solution,
+
+ again in modern symbolic notations, can be shown to be of the form
+
+ s' = a ■ s + b ■ t, t' = b · s — a ■ t,
+
+ where
+
+ a = 2q ■ p/(sq.q + sq. p) and b = (sq. q — sq. p)/(sq. q + sq. p).
+
+ It is easy to see that the expressions above for a and b, with ρ and q rational, can
+
+ be interpreted as a generating rule for the orthogonal sides of rational right triangles
+ with diagonals of length 1.
+
+ In other words, the first of the Old Babylonian rules for the construction of con
+ fluent bisected trapezoids corresponds to a composition of rational solutions to two
+ kinds of indeterminate quadratic equations, the "trapezoid bisection equation" and the
+
+ "rectangle diagonal equation," namely
+
+ sq. s + sq. t — 2sq.d and sq. a + sq. b = sq. c (in the case when c — 1).
+
+ The underlying observation is the following "composition rule":
+
+ sq. (a ■ ί + b ■ t) + sq. (b ■ s — a ■ t) = (sq. a + sq. b) ■ (sq. s + sq. t).
+
+ See the extended historical discussion of this composition rule in Friberg (2007b,
+ 345 ff).
+
+ Û Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 10:02:49 UTC
+All use subject to https://about.jstor.org/terms
+
+ Mesopotamia!) mathematics
+
+ 25
+
+ 5.6 A second Old Babylonian rule for the construction of confluent trapezoid
+
+ bisections
+
+ The second rule for the construction of confluent bisected trapezoids used in the Old
+
+ Babylonian problem text TMS 23 can be explained as follows (Friberg 2007b, 300).
+
+ Let / be the growth rate of the given trapezoid in Fig. 19 above. Then,
+
+ s' =s - f ■ p, t' = t + f q and (2s - f ■ p) ■ ρ = (2t + f ■ q) ■ q(=2B).
+
+ From the last of these equations, it follows that the value of / can be computed as
+ follows:
+
+ / = (s · p-t ■ q)/[( sq. ρ + sq. q)/ 2}.
+
+ Consequently, the second rule for the construction of confluent bisected trapezoids is
+
+ simply
+
+ s' = s - ρ ■ (s ■ ρ - t ■ <ji)/{(sq. ρ + sq. q)/2), and
+
+ t' = t + q · (s ■ p - t ■ <7)/{(sq. p + sq. q)/2).
+
+ In the application of the first of the two rules for the construction of confluent
+
+ bisected trapezoids in the mentioned Old Babylonian problem text TMS 23, the para
+
+ meters used are, apparently, the following ones:
+
+ s = 1 45(= 15 · 7), t = 15(= 15 · 1), and p/q = 1/3, so that
+
+ (sq.3-sq. l)/(sq. 3+sq. 1 )=4/5 = ;48, and (2-3- l)/(sq. 3+sq. l) = 3/5 = ;36.
+
+ Accordingly, in this example, the lengths of the parallel sides of the sub-trapezoid
+ were computed as
+
+ s' =;48· 1 45+ ;36 · 15 = 1 24 + 9 = 1 33(= 3 -31), /' =;36· 145— ;48 ■ 15
+
+ = 1 03 — 12 = 51(= 3 - 17).
+
+ The solution is correct, which can be shown as follows:
+
+ (sq. s + sq. f)/2 = (sq. 1 45 + sq. 15)/2 = (3 03 45 + 3 45)/2 = 3 07 30/2
+
+ = 1 3345 = sq. 1 15, d = 1 15(= 3 · 25),
+
+ (sq. s' + sq. t'y 2 = (sq. 1 33 + sq. 51)/2 = (2 2409 + 43 21)/2 = 307 30/2
+
+ = 1 3345 = sq. 1 15, d'=\\5=d.
+
+ (Note that the triples (s,d,t) = (1,5,7) and (s,d,t) = (17,25,31) both can be
+ found in the diagram in Fig. 17 above).
+
+ In the application of the second rule in the same cuneiform text, TMS 23, the
+
+ parameters used are
+
+ Ô Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 10:02:49 UTC
+All use subject to https://about.jstor.org/terms
+
+ Fig. 20 Another example of a chain of bisected trapezoids with rational sides and transversals
+
+ J = 1 25(=5 · 17), t = 35(=5 · 7), and p/q = 1/2.
+
+ Accordingly, the lengths of the parallel sides of the sub-trapezoid were computed as
+
+ s' = 1 25 - 1 · (1 25 · 1 -35 · 2)/{(sq. 2 + sq. l)/2} = 1 25 - 1 · 6 = 1 19, and
+
+ t' = 35 + 2 · (1 25 · 1 - 35 · 2)/{(sq. 2 + sq. l)/2) = 35 + 2 · 6 = 47.
+
+ The solution is correct, which can be shown as follows:
+
+ (sq.i + sq.i)/2 = (sq. I 25 + sq.35)/2 = (20025 + 2025)/2 = 2 2050/2
+
+ = 1 1025 = sq. 1 05, d = 1 05(= 5 · 13),
+
+ (sq. s' + sq. t')/2 = (sq. 1 19 + sq.47)/2 = (1 44 01 +3649)/2 = 2 2050/2
+ = 1 1025 = sq. 1 05, d'=\05 = d.
+
+ Note, by the way, that the triple (s, d, t) = (7, 13, 17) but not the triple (s, d, t) =
+
+ (47, I 05, 1 19) can be found in the diagram in Fig. 17 above. This implies that there
+ must exist other possible chains of bisected trapezoids with rational sides than the one
+ shown in Fig. 17, for instance, the one above (Fig. 20):
+
+ 6 Mathematical texts from the Kassite period (the second half of the second
+
+ Millennium BC)
+
+ 6.1 A Kassite boundary value problem for a chain of three bisected trapezoids
+
+ The few mathematical problem texts from the Kassite period that are known are similar
+
+ to Old Babylonian problem texts, but are, for some reason, exceptionally sophisticated.
+ One such text contains the computation of the weight of a colossal icosahedron made
+ of 20 equilateral copper triangles (Friberg 2007a, 342).
+
+ Another such text is a single problem text containing a kind of "boundary value
+ problem" for a trapezoid with sides of given lengths, divided into a chain of three
+ bisected trapezoids (AO 17264; Neugebauer 1935, 126; Friberg 2007b, 292). The
+ stated problem is to find out how the given trapezoid can be divided among six brothers
+
+ so that the oldest brother and the next one get trapezoidal shares of the same area,
+
+ ■' Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 10:02:49 UTC
+All use subject to https://about.jstor.org/terms
+
+ Fig. 21 AO 17264. Dividing a trapezoidal field between six brothers
+
+ so that numbers 3 and 4 get the same, and also numbers 5 and 6. See Fig. 21 above.
+ The student who wrote down his solution to the problem cheated blatantly, but managed
+
+ to find the correct result (which he obviously knew beforehand) through a couple of
+ nonsense calculations.
+
+ It is likely that the solution to the mentioned problem was meant to proceed in the
+ following way. In the figure above of the divided trapezoid (Fig. 21), the lengths s'
+ and t" of the outermost parallels and the length u of the height are supposed to be
+
+ known. Also known is, consequently, the growth rate
+
+ Now, suppose (in order to make the situation as symmetric as possible) that the chain
+ of three bisected trapezoids in the figure below has been constructed with departure
+
+ from the bisected trapezoid in the middle, with the (unknown) parameters
+
+ f = (s'-t")/u.
+
+ η, m, s, and f,
+
+ and that the added bisected trapezoids to the left and right have been constructed by
+
+ the use of the generating rule for a chain of bisected trapezoids. See Sect. 5.4 above.
+ Then, as indicated in Fig. 21 above, the corresponding parameters for the trapezoid to
+ the left are
+
+ m, 2m—n, s', and i,
+
+ while the parameters for the trapezoid to the right are
+
+ 2n — m, n, t and t".
+
+ The growth rate / is known. Therefore, if only the values of m and n, too, can be
+ computed in some way, it will be easy to compute, subsequently, also the lengths of
+ all the parallel lines in Fig. 21.
+
+ Now, one equation for m and η is obvious, namely
+
+ 3 (m + n) = m + (2m — η) + η + m + (2 η — m) + η = u.
+
+ (The cheating student managed to get this equation right, at least!)
+
+ Ô Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 10:02:49 UTC
+All use subject to https://about.jstor.org/terms
+
+ 28
+
+ J. Friberg
+
+ Another equation for m and η is a consequence of the generating rule for bisected
+
+ trapezoids If the rule is used on the trapezoid to the left in Fig. 21, one sees that
+
+ s ft" = (sq. m + 2m ■ η — sq. «')/(sq· (2η - m) + 2η ■ (2η — m) — sq. η).
+
+ Clearly, now
+
+ Similarly,
+
+ sq. m' + 2m' ■ η — sq. η = sq. (2m — η) + 2(2m — η) ■ m — sq. m
+
+ = 7sq. m — 6m ■ η + sq. n.
+
+ sq. (2η — m) + 2n · (2η — m) — sq. η = 7sq. η - 6m ■ η + sq. m.
+
+ On the other hand, both s' and t" have given values. This means that m and η are
+
+ connected to each other by the following quadratic-linear system of equations:
+
+ s'/t" = (7sq. m — 6m ■ η + sq.n)/(7sq. η — 6m ■ η + sq. m), m + η = μ/3.
+
+ The given parameters in the mentioned Kassite problem text AO 17264 are
+
+ s'= 3 33, i" = 51, « = 215.
+
+ Therefore, in that particular case, m and η are solutions to the equations:
+
+ 3 33 ■ (7sq.n — 6m ■ η + sq.m) = 51 ■ (7sq.m — 6 m ■ η + sq .n), m + η = 45.
+
+ After simplification, this becomes the following quadratic-linear system of equations
+
+ 4sq. m + 27 m · « = 40 sq. n, m + n =45.
+
+ Because the quadratic equation is homogeneous (it has no linear term), it can be solved
+
+ in the following way: Suppose that
+
+ m = ρ ■ η, where ρ is a new unknown.
+
+ Then, after elimination of a factor sq. n,
+
+ 4sq. ρ -(- 27ρ — 40.
+
+ This quadratic equation has the solution ρ = 5/4 = 1 ; 15. Consequently, the original
+
+ quadratic-linear system of equations can be replaced by the following system of only
+
+ linear equations:
+
+ Springer
+
+ m = 1; 15 · n, m + η = 45.
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 10:02:49 UTC
+All use subject to https://about.jstor.org/terms
+
+ Mesopotamia!! mathematics
+
+ 29
+
+ It is easy to see that the solution to this system of linear equations is
+
+ m = 25, η = 20.
+
+ Consequently, the 5 transversals in the divided trapezoid in Fig. 21 divide the height
+
+ of the trapezoid into the following 6 partial lengths:
+
+ m, 2m — n, n,m, 2η — m, η = 25, 30, 20, 25, 15, 20.
+
+ On the other hand,
+
+ Therefore,
+
+ / = (333 - 51)/2 15 = 242/2 15 = 6/5 = 1; 12.
+
+ d' = s'-f-m = 333 — 1; 12 · 25 = 333 - 30 = 303,
+
+ and so on. The complete solution is
+
+ s',d',s,d,t,d",t" = 3 33,303,2 27,203, 133, 1 15,51
+
+ = 3 (1 11, 101,49,41,31,25, 17).
+
+ (Compare this result with the chain of trapezoids in Fig. 17 above).
+
+ Thus, although the student who wrote the text AO 17264 found the correct solution
+
+ by cheating and knowing the answer beforehand, he should have been able to find the
+
+ solution honestly by working hard in the way described above.
+
+ 6.2 A similar problem for a chain of two bisected trapezoids
+
+ It is instructive to see how the method used above to solve the problem stated in
+
+ AO 17264 would work in a related but (much) simpler case. (This particular case is
+
+ undocumented, but it is not uncommon in Babylonian mathematical texts that a given
+
+ type of problem is worked through in a number of related cases, usually starting with
+
+ the simplest possible case). Suppose, therefore, that a trapezoidal field with the length
+
+ 1 00 (=60) and with parallel sides of lengths 7 and 31 shall be divided between four
+
+ brothers, so that the oldest brother and the next brother get trapezoidal shares of the
+
+ same size, and so that also brothers 3 and 4 get equal trapezoidal shares.
+
+ The new situation is described in Fig. 22 below. In this situation,
+
+ u = m + (2m - η) + η + m = Am, so that m = u/4 = 15.
+
+ In addition, it follows from the generating rule for a chain of bisected trapezoids
+ (see Sect. 5.4) that
+
+ (7sq. m —6m ■ η + sq. n)/(sq. η + 2m ■ η — sq. m) = s'/t = 31/7.
+
+ Ô Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 10:02:49 UTC
+All use subject to https://about.jstor.org/terms
+
+ 30
+
+ J. Friberg
+
+ U= 1 00
+ u= 1 00
+
+ n'= m'=
+ n'= m'=
+
+ m 2m-n n m
+ m 2m-n η m
+
+ s'= 31,1 =7, and u= 1 00 are given
+ s'= 31,1 =7, and u = 1 00 are given
+
+ /= (s'-l)/u
+ /= (s'-l)/u
+
+ 4 m = u
+ 4 m = u
+
+ s'lt = (7 sq. m - 6 m ■ n + sq. n)/(sq. n + 2 m ■ n - sq. m)
+ s'lt = (7 sq. m - 6 m ■ η + sq. n)/(sq. η + 2 m ■ η - sq. m)
+
+ Fig. 22 Dividing a trapezoidal field between four brothers
+
+ Expressed differently,
+
+ 7 · (7sq. m — 6m ■ η + sq. n) = 31 · (sq. η + 2m ■ η — sq. m).
+
+ After simplification, this equation is replaced by the new equation
+
+ 10 sq. m = 3 sq. η + 13 m η.
+
+ Since m = 15 is already known, this is a quadratic equation for n:
+
+ 10 · 3 45 = 3 sq. η + 13 · 15 · η, or, after division by 3, sq. η + 1 05 η = 12 30.
+
+ Solving this quadratic equation, one finds that η = 10. Consequently,
+
+ m, 2m — n, n, m — 15, 20, 10, 15, and s', d', s, d, t — 31, 25, 17, 13, 7.
+
+ This result agrees with what is shown in Fig. 17 above.
+
+ 7 Mathematical texts from the Achaemenid period (c. 540-330 BC)
+
+ There are only a few known mathematical cuneiform texts from this period, among
+
+ other things for the reason that clay tablets as a medium for writing in cuneiform had
+ largely fallen out of use, and the new writing materials were far less durable than
+ clay and have not been preserved. Nevertheless, the few still existing Achaemenid
+ mathematical cuneiform texts show quite clearly that not all of the Old Babylonian
+ achievements in mathematics had been forgotten a whole millennium after the end of
+ the Old Babylonian period.
+
+ Thus, the Old Babylonian factorization method for the computation of reciprocals
+
+ of regular sexagesimal numbers by the use of clever arithmetical algorithms was still
+
+ in use, while the standard Old Babylonian 2-place table of reciprocals had grown into
+ much larger "many-place" tables. (See, for instance, Friberg 1999b). Quadratic equa
+ tions were still being studied, in particular the mentioned "igi-igi.bi problems" (see
+
+ Sect. 5.1 above), which are closely related to the generating rules for right triangles
+
+ Ô Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 10:02:49 UTC
+All use subject to https://about.jstor.org/terms
+
+ Mesopotamian mathematics
+
+ 31
+
+ with rational sides. The affinity between Old Babylonian and Achaemenid mathe
+ matical texts is even more clear in view of the fact that in some known Achaemenid
+
+ mathematical texts (W 23291 and W 23291 -x), mathematical problems have a solution
+
+ in terms of Old Babylonian length and surface measures, side by side with a solution
+ in terms of contemporary length and surface measures. (See Friberg et al. 1990, §§
+ 4-8 and Friberg 1997, §§ 1-3).
+
+ There is only one example of a geometrical recursive algorithm in the known
+ Achaemenid mathematical texts, but that example appears twice, in one case in an
+ "Old Babylonian" version, in another case in a contemporary version. In the Old
+ Babylonian version (Fig. 23 below; Friberg et al. 1990, 494), the stated problem is
+
+ how a circle of given circumference 60 rods can be divided into five concentric circular
+
+ rings, all of the same given width, 2 rods. In the Achaemenid version (W 23291, § lg;
+
+ Friberg 1997, 272). the question is how a circle of given "seed (surface) measure" can
+ be divided into concentric circular rings, all of the given width 1 rod.
+
+ The problem in W 23291 -x, § 2 is solved in the following way. Let A be the area of
+ a circle, a its circumference, and d its diameter. Then, in this text, as normally also in
+
+ Old Babylonian mathematical texts, the following simple but convenient assumptions
+ are made:
+
+ A = (appr.) : 05 · sq. a, d = (appr.) ; 20 a.
+
+ As a consequence of these assumptions, the areas and circumferences of the concentric
+ circles in the figure below can be computed by the use of the following recursive
+ algorithms:
+
+ a, = 1(60), d\ =20, A\ = 5 00, d„ - d„+ \ =2-2,
+
+ a„-an+1=3·2·2, A„ - Α,,+ι = (a„ + an+\) · 1 for «=1,2,3,4.
+
+ The result of the computations is indicated in a diagram in the cuneiform text, namely
+ that the five circumferences are 1 (00), 48, 36, 24. and 12 (rods), that the five diameters
+
+ given circumference:
+ given circumference:
+
+ a, = 1 00
+ a, = 1 00
+
+ given constant width:
+ given constant width:
+
+ w = 2
+ w = 2
+
+ diameter:
+ diameter:
+
+ area:
+ area:
+
+ dl = ;20 • a, = 20
+ dl = ;20 · a, = 20
+
+ A j = ;05 • sq. a j = 5 00
+ Λ j = ;05 · sq. a j = 5 00
+
+ dn~ dn+ ,= 2-w = 2-2 n = 1,2,3,4,5
+
+ η = 1,2,3,4,5
+
+ η = 1,2,3,4,5
+ an+.= 3-2'2. n = 1,2,3,4,5
+
+ K~ A„+l= (sq «„-sq.a„+,)/12
+ V = (sq-- sq.a„+i)/12
+
+ = K+ a*+i>/2 ■ a-+i)/6
+ = (an+ 1)/2 ' (a»" a»+.)/6
+ = K+a„+1)/2-2
+ = K + an+i>/2 -2
+
+ « = 1,2,3,4
+ η = 1,2,3,4
+
+ Springer
+
+ Fig. 23 W 23291 -χ, S 2. Division of a circle into five circular rings of equal width
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 10:02:49 UTC
+All use subject to https://about.jstor.org/terms
+
+ are 20, 16, 12, 8, and 4 (rods), and that the areas of the five circular bands are 1 48, 1
+
+ 24, 1 (00), 36, and 12 (square rods).
+
+ The algorithmic calculation in the text proceeds, essentially, in the following series
+
+ J. Friberg
+
+ a2 = 100-3-2-2 = 48, A\ - A2 = (1 00 + 48)/2 · 2 = 54 ■ 2 = 148,
+
+ a3 = 48 - 3 · 2 · 2 = 36, A2 - A3 = (48 + 36)/2 · 2 = 42 · 2 = 1 24
+
+ β4 = 36-3·2·2 = 24, A3 - A4 = (36 + 24)/2 · 2 = 30 · 2 = 1 00,
+
+ a5 = 24 - 3 ■ 2 · 2 = 12, A4 - A5 = (24 + 12)/2 · 2 = 18 · 2 = 36,
+
+ A5 = 12 · 12·; 05 = 12, (Αι — A2) + (A2 — A3) + (A3 — A4) + (A4 — A5)
+
+ +A5 = 148+ 124+100 + 36+12 = 500 = Ai.
+
+ 32
+
+ of steps:
+
+ 8 Conclusion
+
+ The author's intention has been that the discussion above should demonstrate the amaz
+
+ ing persistence of the Mesopotamian mathematical tradition, stretching over three full
+
+ millennia and many different historical periods, and involving a long series of impres
+
+ sive developments of mathematical ideas and methods. One clear but unsurprising
+
+ example of the longevity of Mesopotamian mathematical traditions is the continued
+
+ use of sexagesimal numbers as the numbers used for calculations, from, probably,
+
+ before the invention of writing in the fourth millennium BC and for as long as the
+
+ cuneiform script stayed in use. Interesting mathematical problems in terms of regu
+
+ lar sexagesimal numbers, often many-place such numbers, appear first in texts from
+
+ the Old Akkadian period in the third millennium BC, but enjoyed a great popularity
+
+ also in mathematical cuneiform texts from the Old Babylonian period in the second
+
+ millennium BC, and from the Achaemenid and later periods in the first millennium
+ BC.
+
+ The real surprise is the discovery of the central role played by various methods
+
+ of formulating and solving more or less difficult field division problems, beginning
+
+ with the field expansion procedure, which appears to have been in use for about a
+
+ millennium with start in the proto-literate period, until it was replaced by more exact
+
+ methods to solve quadratic equations, probably in the Old Akkadian period. In the
+
+ more advanced stages of the curriculum of the Old Babylonian scribe school, the study
+
+ of problems involving quadratic equations of many different kinds, and many different
+
+ degrees of complexity, played a central role (as shown in H0yrup 2002). However,
+
+ the most impressive results of this study were a truly astonishing variety of recursive
+
+ geometric algorithms for the repeated division of trapezoidal fields into chains ofsub
+
+ trapezoids with rational sides and transversals or diagonals. Even after the intense
+
+ blossoming of mathematics in the Old Babylonian period, the interest for imaginative
+
+ field division problems remained, which is shown by interesting trapezoid division
+
+ and circle division texts from the Kassite and Achaemenid periods.
+
+ Incidentally, the last blossoming of Mesopotamian mathematics was the amaz
+
+ ing rise of mathematical astronomy in the second half of the first millennium BC.
+ This development would scarcely have been possible without, for instance, the
+
+ ô Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 10:02:49 UTC
+All use subject to https://about.jstor.org/terms
+
+ Mesopotamian mathematics
+
+ 33
+
+ previous invention of sexagesimal numbers in place value notation, or operations
+
+ with many-place regular sexagesimal numbers using clever arithmetical algorithms,
+
+ or the intensive occupation with geometrical recursive algorithms.
+
+ It ought to be evident that so many achievements in Mesopotamian mathematics
+ over such a long period of time could not pass unnoticed by surrounding cultures,
+
+ even if, by necessity, the detailed mechanisms of any diffusion of knowledge will
+
+ remain unknown. Anyway, in the 18 chapters of Friberg (2007b), it is shown by a
+
+ multitude of elaborately argued examples that many of the basic concepts and methods
+
+ in classical Greek mathematics have obvious Babylonian predecessors. Among those
+
+ important parts of Greek mathematics with Babylonian, predecessors are the quadratic
+
+ equations in Books II and X ofEuclid's Elements, in Euclid's Data, and in Diophantus'
+ Arithmetica (Friberg 2007b, Chs. 1, 5, 10, and 13), and the division of figures in
+
+ Euclid's lost book On Divisions (op. cit., Ch. 11).
+
+ A complement to Friberg (2007b) is, by the way, Friberg (2013), where it is shown
+
+ that also classical Greek music theory in works by Euclid and Ptolemy, and others, in
+
+ particular the construction of diatonic heptatonic scales by the use of recursive tuning
+
+ procedures, had important Old Babylonian predecessors. Interestingly, in one Old
+
+ Babylonian text, the seven notes of a heptatonic scale, and certain intervals between
+
+ them, were represented geometrically by the points and sides of a seven-sided star
+
+ figure.
+
+ References
+
+ Bruins. Ε.M., and M. Rutten. 1961. Textes Mathématiques de Suse. Paris: Paul Geuthner.
+
+ Clay, A.T. 1915. Miscellaneous Inscriptions in the Yale Babylonian Collection (YOS I). New Haven: Yale
+
+ Deimel, A. 1923. Schultexte ans Fara ( WVDOG 43). Leipzig.
+ Englund, R.K. 1997. Proto-Cuneiform Texts from Diverse Collections (MSVO 4). Berlin: Gebr. Mann.
+
+ Englund, R.K., and J.-P. Grégoire. 1991. The Proto-Cuneiform Texts from Jemdet Nasr (MSVO I). Berlin:
+
+ University Press.
+
+ Gebr. Mann.
+
+ Friberg, J. 1981. Plimpton 322, Pythagorean triples, and the Babylonian triangle parameter equations.
+
+ Historia Mathematica 8: 277-318.
+
+ Friberg, J. 1986. Three remarkable texts from ancient Ebla. Vicino Oriente 6: 3-25.
+
+ Friberg, J. 1997. Seed and reeds continued: Another metro-mathematical topic text from Late Babylonian
+
+ Friberg, J. (1997/98) Round and almost round numbers in proto-literate metro-mathematical field texts.
+
+ Uruk. Baghdader Mitteilungen 28: 251-365.
+
+ Archiv fur Orientforschung 44/45: 1-58.
+
+ Friberg, J. 1999a. Proto-literate counting and accounting in the Middle East. Examples from two new
+
+ volumes of proto-cuneiform texts. Journal of Cuneiform Studies 51: 107-137.
+
+ Friberg, J. 1999b. A Late Babylonian factorization algorithm for the computation of reciprocals of many
+
+ place sexagesimal number. Baghdader Mitteilungen 30: 139-161.
+
+ Friberg, J. 2005. Unexpected Links between Egyptian and Babylonian Mathematics. Singapore: WorldSci
+
+ entific.
+
+ tific.
+
+ Friberg, J. 2007a. A Remarkable Collection of Babylonian Mathematical Texts. (Manuscripts in the Sch0yen
+
+ Collection: Cuneiform Texts I). New York: Springer.
+
+ Friberg, J. 2007b. Amazing Traces of a Babylonian Origin in Creek Mathematics. Singapore: WorldScien
+
+ Friberg, J. 2009. A geometric algorithm with solutions to quadratic equations in a Sumerian Juridical
+
+ document from Ur III Umma. Cuneiform Digital Library Journal 2009:3.
+
+ Friberg, J. 2013. Seven-sided star figures and tuning algorithms in Mesopotamian, Greek, and Islamic texts.
+
+ Archiv fur Orientjorschung 52: 121-155.
+
+ Ô Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 10:02:49 UTC
+All use subject to https://about.jstor.org/terms
+
+ 34
+
+ J. Friberg
+
+ Friberg, J., H. Hunger, and F.N. Al-Rawi. 1990. Seed and Reeds, a metro-mathematical topic text from Late
+
+ Babylonian Uruk. Baghdader Mitteilungen 21 : 483-557.
+
+ Green, M.W., and H.J. Nissen. 1987. Zeichenliste der archaischen Texte aus Uruk (ATU 2). Berlin: Gebr.
+
+ Mann.
+
+ Springer.
+
+ Society.
+
+ Heath, T.L. 1981. A History of Greek Mathematics, vol. 2. New York: Dover.
+
+ H0yrup, J. 1982. Investigations of an Early Sumerian division problem. Historia Mathematica 9: 19-36.
+
+ H0yrup, J. 1996. Changing trends in the historiography of Mesopotamian mathematics: An insider's view.
+
+ History of Science 34: 1-32.
+
+ H0yrup, J. 2002. Lengths, widths, surfaces: A portrait of Old Babylonian algebra and its kin. New York:
+
+ Jestin, R.R. 1937. Tablettes sumériennes de Shuruppak. Paris.
+ Luckenbill, D.D. 1930. Inscriptions from Adab (OIP 14). Chicago.
+
+ Neugebauer, O. 1935. Matematische Keilschrift-Texte 1. Berlin: Springer.
+ Neugebauer, O., and A. Sachs. 1945. Mathematical Cuneiform Texts. New Haven: American Oriental
+
+ Nissen, H.J., P. Damerow, and R.K. Englund. 1993. Archaic Bookkeeping. Early Writing and Techniques of
+
+ Economic Administration in the Ancient Near East. Chicago, London: The University of Chicago Press.
+
+ Proust, C. 2007. Tablettes Mathématiques de Nippur. Paris: De Boccard.
+ Vaiman, A.A. 1955. Ermitazhnaya klinopisnaya matematicheskaya tablichka No. 015189. Epigrafika
+
+ Vostoka 10: 71-83.
+
+ Vaiman, A.A. 1961. Shumero-Vavilonskaya Mathematika. Moskva: Izdatel'stvo Vostochnoi Literatury.
+
+ Ô Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 10:02:49 UTC
+All use subject to https://about.jstor.org/terms
+
+

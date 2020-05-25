@@ -1,0 +1,2627 @@
+ 
+
+ 
+
+ 
+
+ 
+
+From classical to Voigt's molecular models in elasticity
+Author(s): Danilo Capecchi, Giuseppe Ruta and  Patrizia Trovalusci
+Source: Archive for History of Exact Sciences, Vol. 64, No. 5 (September 2010), pp. 525-559
+Published by: Springer
+Stable URL: https://www.jstor.org/stable/41342430
+Accessed: 19-05-2020 12:36 UTC
+
+JSTOR is a not-for-profit service that helps scholars, researchers, and students discover, use, and build upon a wide
+
+range of content in a trusted digital archive. We use information technology and tools to increase productivity and
+
+facilitate new forms of scholarship. For more information about JSTOR, please contact support@jstor.org.
+
+Your use of the JSTOR archive indicates your acceptance of the Terms & Conditions of Use, available at
+
+https://about.jstor.org/terms
+
+Springer is collaborating with JSTOR to digitize, preserve and extend access to Archive for
+History of Exact Sciences
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:36:16 UTC
+All use subject to https://about.jstor.org/terms
+
+ Arch. Hist. Exact Sci. (2010) 64:525-559
+
+ DOI 1 0. 1 007/s00407-0 1 0-0065 -y
+
+ From classical to Voigt's molecular models in elasticity
+
+ Danilo Capecchi • Giuseppe Ruta •
+ Patrizia Trovalusci
+
+ Received: 16 June 2009 / Published online: 23 June 2010
+
+ © Springer- Verlag 2010
+
+ Abstract In the first decades of the nineteenth century the French mechanicians -
+
+ Cauchy and Poisson amongst them - developed a theory of linear elasticity according
+ to which matter is composed of material points. They believed that these points inter-
+
+ act by means of opposite central forces, whose magnitude depends on the length of
+
+ the segment joining the particles. This theory suggested that homogeneous isotropic
+ materials were characterized by a unique elastic constant. Later experiments, however,
+
+ showed that two elastic constants were necessary. These results undermined the cor-
+
+ puscular model of matter as well as the interpretation of elasticity in terms of central
+ intermolecular actions. The continuous theory of Green, based on the postulate that a
+
+ potential function exists, gained fresh consensus in light of these experiments. These
+
+ opposite views continued throughout the nineteenth century until Woldemar Voigt pro-
+
+ posed a molecular model confirmed by experiments. This article presents the theories
+ of each of these scientists and describes the contrasting views of nineteenth-century
+ mechanicians.
+
+ 1 Introduction
+
+ The modern theory of linear elasticity dates back to the work of the French mechani-
+
+ cians of the early nineteenth century. Most of their studies tended to use a molecular
+
+ Communicated by Umberto Bottazzini.
+
+ D. Capecchi • G. Ruta (E3) • P. Trovalusci
+ Dipartimento di Ingegneria Strutturale e Geotecnica, "Sapienza" University, Rome, Italy
+ e-mail: giuseppe.ruta@uniromal .it
+
+ D. Capecchi
+ e-mail: danilo.capecchi@uniromal .it
+
+ P. Trovalusci
+
+ e-mail: patrizia.trovalusci@uniromal .it
+
+ â Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:36:16 UTC
+All use subject to https://about.jstor.org/terms
+
+ 526 D. Capecchi et al.
+
+ model of matter.1 In his studies of 1821 on the propagation of light in solids, Fresnel2
+
+ was one of the first to introduce body-points, generally called molecules, to charac-
+ terize linear elasticity.
+
+ In the same year Navier presented a memoir to the Academy of Sciences in Paris
+
+ (Navier 1827)3 where he obtained the differential equations of the motion of a lin-
+ ear isotropic elastic body in terms of a unique material constant. Navier modelled an
+
+ elastic solid body as an assemblage of material molecules that are very close to each
+
+ other. These body-points interact by means of central forces depending on the distance
+
+ between pairs of molecules, even if the force law is actually unknown. The magnitude
+
+ of these forces is perceivable for close molecules, but quickly vanishes as the distance
+ increases. Such an approach originated in Laplace's and Boscovich's studies on the
+ composition of matter.
+
+ In contrast with the molecular model presented by Fresnel and Navier, in a short
+
+ note Cauchy (1823) presented a brief outline of the results that he had obtained by
+ adopting a continuous model of matter. He clearly stated that an internal force, called
+
+ tension or pressure, could be defined as being similar to the one exerted by a fluid on the
+
+ surface of a solid body. This was further expounded in a series of later publications,
+ where he formulated the famous theorems on stress (Cauchy 1827a) and obtained
+ results on both the strain measures of a continuous medium and the differential bal-
+
+ ance equations between inner and outer forces, regardless of the body's mechanical
+ properties (Cauchy 1827b,c).
+
+ In a subsequent article, Cauchy wrote down the differential equations of motion for
+
+ an isotropic linear elastic body in terms of a single material constant (Cauchy 1828a,
+ p. 204). In the same article, however, Cauchy obtained other equations of motion for
+ isotropic bodies in terms of two elastic constants (Cauchy 1828a, pp. 215-218) and
+ remarked that for a certain fixed ratio of the two constants he was able to obtain the
+
+ same equations as Navier and Poisson (Cauchy 1828a, p. 221).
+
+ The continuous model of matter adopted by Cauchy in these articles appears to
+ be an exception: by the end of the 1820s the molecular model assumed a leading
+ role in the studies of elasticity and remained a reference tool for some time to come,
+
+ especially in France. On October 1st, 1827, Cauchy and Poisson presented similar
+
+ memoirs to the Academy of Sciences in Paris, in which Navier's molecular approach
+ was re-considered.4 In 1 828 and 1 829 Poisson presented two more extensive memoirs
+ to the Academy, published between 1829 and 1831, which were to become milestones
+
+ in the theory of linear elasticity.
+
+ 1 For the origins and the development of linear elasticity, see, amongst others (Todhunter and Pearson 1 886;
+
+ Love 1907; Marcolongo 1907; Whittaker 1910; Dugas 1950;Timoshenko 1953; Truesdell and Toupin 1960;
+ Fichera 1979; Beihoste 1991; Benvenuto 1991; Dahan Dalmedico 1992; Capecchi et al. 2006).
+
+ See A. Fresnel, Oeuvres complètes , Paris, Imprimerie Impériale, 1866-1870; tome 2, pp. 261-368.
+
+ 3 An abstract with the same title appeared in the Bulletin de la Société philomathique, 1822, pp. 177-181.
+
+ 4 Cauchy 's memoir was published later in his Exercices. We refer to it as Cauchy (1828b); see Navier
+ (1864, civ). As for Poisson's memoir, apart from two excerpts published in the Annales de chimie et de
+
+ physique , 1827, and in the Bulletin des sciences (Férussac), t. IX, 1828, it was published in 1829. We refer
+ to it as Poisson (1828); see Navier (1864, clix).
+
+ £) Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:36:16 UTC
+All use subject to https://about.jstor.org/terms
+
+ Voigťs molecular models in elasticity 527
+
+ Poisson established the very foundations of the molecular theory of elasticity: in
+
+ his article of 1828 he rejected Lagrange's Mécanique Analytique by claiming that any
+
+ theory of mechanics should be based on molecular actions, they alone being respon-
+
+ sible for equilibrium and the transmission of given external forces. He introduced the
+
+ concept of a molecular sphere of action and obtained the equations of motion for iso-
+
+ tropic bodies in terms of a single elastic constant, remarking that his results coincided
+ with Navier's.
+
+ In two articles of 1 828 Cauchy ( 1 828b, c) reflected Poisson's view of matter to some
+
+ extent. Whilst in his previous studies he had clearly conceived of a body as continuous,
+
+ here he proved that the same results could be obtained by supposing the matter to be
+ an assemblage of material points subjected to central forces.5 The main difference
+ between Poisson's and Cauchy's molecular models is given by their different views
+ of molecules: corpuscles for Poisson, points without extension for Cauchy.
+
+ The constitutive relations obtained by both Cauchy 's and Poisson's molecular the-
+
+ ories were characterized by 1 5 constants in the case of general linear elasticity, and by
+
+ only one in the case of isotropic bodies. This confirmed the early results obtained by
+
+ Navier.6 The first experimental results on the constitutive properties of elastic materi-
+
+ als were not particularly precise, and did not question the validity of the results based
+ on the molecular model of matter. As measurements became more precise, however, it
+
+ was apparent that experience contradicted the predictions of the theory. The doubt also
+
+ arose that, at least for isotropic bodies, linear elasticity should not be characterized by
+ two material constants.
+
+ In Green (1839) a completely different approach and a continuous model of mat-
+
+ ter are adopted. Since Green thought that the actual law of molecular interactions is
+
+ unknown, he postulated that elastic forces are described by a potential, the existence
+
+ of which was proved later on in Thomson (1855) on thermodynamic grounds. Green
+ obtained two elastic constants, as observed in experiments. In spite of this, there was
+
+ a certain reluctance, especially in France, to adopt Green's model, as it abandoned the
+
+ interpretation per causas of elastic phenomena. Indeed, not even Lamé, Clapeyron and
+ Saint- Venant were able to indicate where the traditional molecular theory of elasticity,
+
+ so elegant and precise, could have gone wrong.
+
+ The contrast amongst the molecular and continuous theorists of elasticity continued
+
+ until the mid-nineteenth century, and studies on crystals shed no light on the prob-
+ lem.7 The studies of Bravais on crystallography (Bravais 1866)8 marked a turning
+
+ point. According to Bravais, molecules are not simply body-points but polyhedra at
+ the vertices of which are the atoms of the material under consideration. The polyhedra-
+
+ ^ In a subsequent article Cauchy (1829) considered a continuous distribution of matter and obtained the
+ equations of motion for isotropic linear elastic bodies in terms of two elastic constants.
+
+ 6 We point out that Cauchy was somewhat ambiguous and on some occasions introduced two constants
+ for linear elastic isotropic bodies, claiming that the equations so obtained were "more general". This quite
+ weak position was applied to a very particular situation, hence it is beyond the scope of this article.
+
+ 7 This subject has not been dealt with in depth in the historical literature and, to the authors' knowledge,
+ it is only mentioned in passing in the standard studies on the history of elasticity such as Todhunter and
+ Pearson (1886), Timoshenko (1953) and Benvenuto (1991).
+
+ ® These studies were presented at the Academy of Sciences in Paris in 1 849 but published posthumously
+ in 1866.
+
+ Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:36:16 UTC
+All use subject to https://about.jstor.org/terms
+
+ 528 D. Capecchi et al.
+
+ molecules are arranged in regular lattices which repeat themselves in space according
+
+ to precise symmetry groups, which were studied and classified by Bravais. Such an
+
+ approach used a discrete, 'refined' description of matter, yet was completely different
+
+ from the body-point conception of Cauchy and Poisson. It constituted the starting
+ point for Woldemar Voigt, whose studies were able to reconcile the molecular and the
+
+ continuous approaches to the linear theory of elasticity.
+
+ In this article we briefly present the molecular theory of elasticity as founded by
+
+ Navier, Cauchy and Poisson. We point out its advantages and drawbacks, and we show
+
+ how the latter gave rise to a debate amongst mechanicians that lasted for decades. This
+
+ introductory part deals with well-known aspects of the theory of elasticity from an
+ unusual point of view. Attention is focussed more on the drawbacks of the molecu-
+
+ lar model of linear elasticity than on other aspects. Our aim is to show how Voigťs
+ approach, molecular but not rejecting 'abstract' energetic techniques, can reconcile the
+
+ attempt at justifying phenomena per causas and the wish for strong continua theories.
+
+ This technique is still up-to-date, and it is useful for studying mechanics of 'complex'
+ bodies.
+
+ 2 The molecular model and its shortcomings
+
+ 2.1 The molecular model of Navier, Cauchy and Poisson
+
+ Although Navier, Cauchy and Poisson used different analytical techniques to obtain
+ their results, their models of matter were similar and clearly molecular. Matter was
+
+ thought of as composed of body-points that are very close to each other, and the stan-
+
+ dard notions of central attractive-repulsive forces depending on the length could be
+ applied.
+
+ We consider a solid body as an assemblage of material molecules placed at a very
+ small distance [from each other]. These molecules exert two opposite actions
+ on each other, that is, a proper attractive force, and a repulsive force due to the
+ principle of heat. [...] we assume here as a principle that the [...] forces n' ,
+ developed by the change of shape of the body between any two material mole-
+
+ cules M, M', and which alone must balance the forces applied to this body, are
+ respectively proportional to the amount of variation of the distance MM' of the
+
+ two molecules due to the change of shape (supposed very small). The force nf is
+
+ an attraction if the distance M' has increased; it is a repulsion if that distance has
+ decreased. On the other hand, we consider the discussed molecular actions as
+
+ existing only between very close molecules, and having values which are very
+ quickly decreasing, according to an unknown law, for molecules which are more
+ and more distant.9 (Navier 1 827, pp. 375-377)
+
+ 9 On regarde un corps solide élastique comme un assemblage de molécules matérielles placées à des dis-
+ tances extrêmement petites. Ces molécules exercent les unes sur les autres deux actions opposées, savoir, une
+
+ force propre d'attraction, et une force de répulsion due au principe de la chaleur, f . . .1 nous prenons ici pour
+ principe que ces [...] forces développées par le changement de figure du corps entre deux molécules
+ matérielles quelconques M, M', et qui doivent seules faire équilibre aux forces appliquées à ces corps,
+ sont respectivement proportionelles à la quantité dont le changement de figure (supposé très-petit) a fait
+
+ â Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:36:16 UTC
+All use subject to https://about.jstor.org/terms
+
+ Voigťs molecular models in elasticity 529
+
+ Navier's idea originated in Laplace's concept of matter. To describe natural
+
+ phenomena Laplace proposed a model of particles of very small dimensions that
+
+ exchanged forces,10 thus elaborating on the ideas expressed by Newton in his Opticks.
+
+ The description of the model of matter introduced by Navier was almost exactly repro-
+
+ duced by Poisson, who sought to explain elasticity by means of the laws of molecular
+
+ interaction. Poisson emphasized the existence of a characteristic length for the inter-
+ molecular action, which he called the radius of the molecular activity (Poisson 1828,
+
+ pp. 368-369). In 1828 Cauchy, too, proved his results using Navier's and Poisson's
+ view of matter as a bunch of dimensionless molecules (Cauchy 1 828b, p. 227).
+
+ The molecular models of Navier, Cauchy and Poisson share some common features:
+
+ a. the molecules are body-points subjected to opposite central forces;
+
+ b. the total effect of the interacting forces is obtained by the vector sum of all forces;
+ c. the molecular interaction is a smooth function of the distance between the mole-
+
+ cules and may be linearized;
+
+ d. there is a sphere of molecular activity, the radius of which is much larger than the
+ intermolecular distances; within this sphere the molecular interaction is sensible
+
+ but quickly decreasing, and totally disappears outside;
+
+ e. the displacements of body-points are described by a smooth field, the domain of
+
+ which is the continuum in which the system of molecules is embedded;
+
+ f. the system of body-points can be assumed homogeneous and in particular isotro-
+
+ pic.
+
+ Once the expression of intermolecular forces is known, a suitable definition of
+
+ stress provides its constitutive relations in terms of the strain and of the displacement
+
+ components. By applying linearization procedures Cauchy and Poisson obtained con-
+ stitutive relations of stress components in terms of strain components which generally
+
+ depended on 36 material constants. They showed that there are 21 symmetry relations
+ (later on named after Cauchy and Poisson) amongst the constants. Thus, the number
+
+ of independent elastic constants was 15 and, in the case of an isotropic body, reduced
+
+ to only one.
+
+ 2.2 Shortcomings of the molecular model
+
+ The conclusions of Navier, Cauchy and Poisson were widely accepted, especially in
+
+ France, given the undoubted simplicity of the underlying theory and because of their
+
+ appeal from a physical point of view. On the other hand, they were gradually under-
+
+ mined by experimental results,11 which showed, especially with to the refinement of
+
+ the experimental techniques, that two elastic constants were needed to characterize
+
+ Footnote 9 continued
+ varier la distance MM' des deux molécules. La force nf est une attraction si la distance MM' a augmenté;
+
+ elle est une répulsion si cette distance a diminué. Nous regardons d'ailleurs les actions moléculaires dont il
+ s'agit comme ne subsistant qu'entre des molécules très-voisines, et comme ayant des valeurs qui décroissent
+ très-rapidement, suivant une loi inconnue, pour des molécules de plus en plus éloignées l'une de l'autre.
+
+ '0 See for instance his Exposition du système du monde , in Œuvres complètes , vol. 6, pp. 349-350.
+
+ 1 1 For instance, those widely illustrated in Wertheim ( 1 844).
+
+ ö Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:36:16 UTC
+All use subject to https://about.jstor.org/terms
+
+ 530 D. Capecchi et al.
+
+ linear elastic isotropie bodies. The more reliable were the experimental results,12 the
+ more the theoretical predictions by Cauchy and Poisson went wrong, and no one could
+
+ explain why.
+
+ A first step to match the 'classical' molecular model with the experimental results
+
+ was to get rid of a number of hypotheses on which the theory was based. Poisson
+
+ was amongst the first timidly to suggest a variation. In his memoir presented at the
+ Academy of Sciences in 1829 (Poisson 1831), Poisson advanced the hypothesis that
+ the molecules are not body-points and that solids are crystallized, with a regular
+ disposition of the molecules. The notion of central forces was therefore somewhat
+ undermined.
+
+ One supposes that in bodies of this nature the molecules are regularly distributed,
+
+ and that they attract or repel each other differently on their different sides. For
+
+ this reason, in calculating the action exerted by a part of the body on another one
+
+ it is not permitted anymore to consider the mutual action between two molecules
+ as a simple function of the distance separating them [...]. If one deals with a
+
+ homogeneous body which is in its natural state, where it is not subjected to any
+ external force, one may consider it as an assemblage of molecules of the same
+ kind and shape , of which the homologous sections are parallel to each other
+
+ (Poisson 1831, p. 69)
+
+ According to Poisson, the 21 relations reducing the number of independent con-
+
+ stants to 15 no longer hold in linear elastic crystallized bodies (Poisson 1831, p. 85).
+ On the other hand, in non-crystallized bodies, or in bodies with weak or irregular
+ crystallization, even if molecules are not body-points, the mechanical behaviour con-
+
+ tinues as if the exchanged forces were central, due to a series of compensatory causes
+ (Poisson 1831, pp. 7-8).
+
+ Even Cauchy expressed doubts about the validity of the 'classical' molecular model
+
+ in a series of memoirs presented in 183914 and in a review15 of experimental memoirs
+
+ by Wertheim on elastic constants (March 3rd 1851). There he stated that in crys-
+ tallized bodies the molecules should not be considered as body-points but instead
+ as very small particles composed of atoms. Since there is a regular arrangement
+ of molecules in crystals, the elastic moduli should not be considered as constants
+ but rather as periodic functions of the spatial coordinates. To obtain a constitu-
+
+ tive relation with constant coefficients, Cauchy found it necessary to enlarge the
+
+ 12 For instance, those presented in Kohlrausch and Loomis (1870).
+
+ 13 On suppose que dans les corps de cette nature, les molécules sont régulièrement distribuées, et quelles
+ s'attirent ou se repoussent inégalement par leurs différens cotés. Par cette raison il n'est plus permis, en
+ calculant l'action exercée par une partie du corps sur une autre, de regarder l'action mutuelle de deux
+ molécules comme une simple fontion de la distance qui les sépare [...]. S'il s'agit d'un corps homogène
+ qui soit dans son état naturel, où il n'est soumis á aucune force étrangère, on pourrá le considérer comme un
+
+ assemblage de molécules de même nature et de mêm e forme, dont les sections homologues seront parallèles
+ entre elles [...].
+
+ 14 Œuvres ser. 2, t. XI, pp. 1 1-27, 51-74, 134-172.
+
+ 15 Comptes Rendus de l'Académie des sciences , vol. 32 (1851), pp. 326-330.
+
+ Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:36:16 UTC
+All use subject to https://about.jstor.org/terms
+
+ Voigťs molecular models in elasticity 53 1
+
+ number of elastic moduli, eventually obtaining two elastic constants for isotropic
+ bodies.16
+
+ In his studies on elasticity17 Lamé advanced a series of doubts on the subject. For
+ instance, in Lamé (1859) most of the 20th lesson is devoted to his doubts regarding
+ what a molecule actually is, the exact postulate concerning mutual interactions, the
+
+ acceptable form of the law of the intermolecular action, and the right direction of the
+
+ molecular force. According to Lamé, the hypothesis of homogeneous matter, whilst
+
+ permitting symmetry considerations, is not admissible:
+
+ Such is the method followed by Navier and other geometers to obtain the gen-
+
+ eral equations of elasticity in solid media. But this method clearly supposes the
+
+ continuity of matter, an inadmissible hypothesis. Poisson believed he had elim-
+
+ inated this difficulty, [. . .] but [. . .] in reality only replaced the sign f by the sign
+ E [. . .]. The method which we have followed [. . .] finds its origins in the studies
+
+ by Cauchy18, [and] seems to us to be free of any objection.19 (Lamé 1866, p. 38)
+
+ Though the results of the molecular theory of elasticity were clearly queried by the
+ followers of the French school of mechanics, the validity of the molecular approach
+
+ was not. Barré de Saint- Venant was amongst the main supporters of the molecular
+
+ theory and his ideas on the subject, apart from his memoirs, can be found in the vast
+ amount of notes, comments and appendices attached to Navier (1864) and Clebsch
+ (1883). Saint- Venant was perfectly aware that experimental results contradicted the
+ conclusion of the 'classical' molecular models attributing one elastic constant only to
+
+ isotropic bodies. However, since he found no evident fault in the traditional molecular
+
+ theory of elasticity, he concluded that there are no isotropic bodies in nature:
+
+ Yet experiences [...] and the simple consideration of the way which cooling
+ and solidification take place in bodies, prove that isotropy is quite rare [...]. So,
+ instead of using, in place of the equations [...] with one coefficient only, the
+ formulae [...] with two coefficients [...], which hold, like these others, only for
+
+ perfectly isotropic bodies, it will be convenient to use as many times as possible
+ the formulae [...] relative to the more general case of different elasticity in two
+
+ or three directions.20 (Navier 1864, p. 583)
+
+ 16 A detailed and commented reconstruction of Cauchy 's reasoning may be found in Saint- Venant's Appen-
+
+ dix V of Navier ( 1 864, pp. 69 1-706).
+
+ 17 We have considered Lamé (1859, 1866), the first edition of which appeared in 1852.
+
+ 18 Lamé clearly refers to the studies in which Cauchy did not follow a molecular approach, but rather a
+ 'continuous' one, such as, Cauchy (1828a, 1829).
+
+ 19 Telle est la méthode suivie par Navier et autres géométres, pour obtenir les équations générales de
+ l'élasticité dans les milieux solides. Mais cette méthode suppose évidemment la continuité de la matière,
+
+ hypothèse inadmissible. Poisson croit lever cette difficulté, f . . .] mais f . . .] il ne fait, en réalité, que substituer
+
+ le signe Г au signe /[...]. La méthode que nous avons suivie [. . .1 dont on trouve l'origine dans les travaux
+ de Cauchy, nous paraît à l'abri de toute objection [...].
+
+ 20 Mais les experiences [. . .1 et la simple considération de la manière dont s'opèrent le refroidissement et la
+ solidification des corps, prouvent que l'isotropie est fort rare [...]. Aussi, plutôt que de prendre, au lieu des
+ formules [...] à un seul coefficient [...], les formules [...] à deux coefficients [...], qui ne sont composées
+ comme celles-ci que pour des corps parfaitement isotropes, il conviendra de se servir le plus qu'on pourra
+ des formules [...] relatives au cas plus général d'une élasticité inégale dans deux ou trois sens.
+
+ Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:36:16 UTC
+All use subject to https://about.jstor.org/terms
+
+ 532 D. Capecchi et al.
+
+ In the over 200 pages of notes and appendices attached to Navier (1864),
+
+ Saint- Venant presented experimental results and theoretical explanations of the para-
+
+ dox, showing an amazing knowledge of the literature (amongst others he quoted Savart,
+ Wertheim, Hodgkinson, Regnault, Oersted, Green, Clebsch, Kirchhoff, Rankine, and
+ William Thomson).
+
+ However, there was no agreement amongst the contemporaries of the great French
+
+ mechanician, and the question still remained: as it was apparent that two elastic con-
+
+ stants were needed, where could the failure of such a seemingly perfect theory as that
+ by Navier, Cauchy and Poisson reside?
+
+ Discussion was further enriched by the contributions of Green and Bravais. These
+
+ generated completely different schools of elasticity in England and Germany, not to
+
+ mention different ways of studying crystallography.
+
+ 3 Green's energetic model and Bravais's crystals
+
+ In his search for a model for the luminiferous aether, in 1 839 George Green pub-
+ lished an article (Green 1839) which was completely opposed to the principles of the
+ French school of mechanics. Obviously aware of the criticism directed at the tradi-
+
+ tional molecular model, Green abandoned the primitive role of force in favour of the
+ role of virtual work, and later of energy. He considered a continuous mathematical
+
+ model of matter, and admitted that inner forces can be characterized only by the fact
+ that their virtual work is an exact differential:
+
+ M. Cauchy seems to have been the first who saw fully the utility of applying
+
+ to the Theory of Light those formulae which represent the motions of a system
+ of molecules acting on each other by mutually attractive and repulsive forces;
+
+ [. . .however,] we are so perfectly ignorant of the mode of action of the elements
+ of the luminiferous aether on each other, that it would seem a safer method to
+
+ take some general physical principle as the basis of our reasoning, rather than
+
+ assume certain modes of action, which, after all, may be widely different from
+
+ the mechanism employed by nature; more especially if this principle include in
+ itself, as a particular case, those before used by M. Cauchy and others, and also
+ lead to a much more simple process of calculation. The principle selected as
+ the basis of the reasoning contained in the following article is this: In whatever
+ way the elements of any material system may act upon each other, if all the
+ internal forces exerted be multiplied by the elements of their respective direc-
+
+ tions , the total sum for any assigned portion of the mass will always be the exact
+ differential of some function. (Green 1839, pp. 245-246)21
+
+ Green's approach was juxtaposed to Poisson's desire to found "Physical mechan-
+
+ ics", based only on molecular forces as the ultimate descriptors of the inner exchanges
+ of action. In other words, Green completely abandoned the attempt at finding an
+ explanation per causas of elasticity. We point out, however, that, whilst he assumed
+
+ 21 The use of italics was chosen by the authors to highlight the relevant passage.
+
+ Ô Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:36:16 UTC
+All use subject to https://about.jstor.org/terms
+
+ Voigťs molecular models in elasticity 533
+
+ a continuous mathematical model of matter, Green did not query the existence of
+ molecules:
+
+ Let us conceive a mass composed of an immense number of molecules acting
+ on each other by any kind of molecular forces, but which are sensible only at
+ insensible distances [...]. (Green 1839, p. 248)
+
+ What distinguished Green's treatment from that of the French school of mechanics
+
+ was the fundamental equation he assumed to describe any motion:
+
+ [. . .] we get, by combining D' Alemberťs principle with that of virtual velocities,
+
+ E Dm - тгЬи + -7г 8v + - r- 8w - E Dv8(f)
+
+ d2w d2i> d2u>
+
+ d tL d t¿ d t¿
+
+ Dm and D v being exceedingly small corresponding elements of the mass and
+ volume of the medium, but which nevertheless contain a very great number of
+
+ molecules, and 8ф the exact differential of some function and entirely due to
+
+ the internal actions of the particles of the medium on each other. Indeed, if 8ф
+
+ were not an exact differential, a perpetual motion would be possible [...]. (Green
+
+ 1839, p. 248)
+
+ Green's empirical assumption of the existence of the function 0, which could be a
+ weak point, was later given a rational background and proved by William Thomson
+ (Lord Kelvin) on thermodynamic bases (Thomson 1855).22 Green observed that the
+ function ф must maintain its value when any arbitrary small volume element remains
+
+ undeformed during the process, hence for small deformations ф must depend on the
+
+ first-order quantities expressing strain. Green wrote the infinitesimal strain measures,
+ which he denoted s i, 52, ^3, a , ß , y , in the form we know them nowadays.23 Since
+ Green assumed small kinematical increments, it was reasonable to consider a series
+
+ expansion of ф ,
+
+ But s 1, S2, S3, a, ß , y being very small quantities of the first order, we may
+
+ expand ф in a very convergent series of the form
+
+ Ф = 00 + 01 + 02 + 03 + &c. :
+
+ 00» 01 » 02» &c. being homogeneous functions of the six quantities a, ß, y, s 1,
+
+ S2, S3 of the degrees 0, 1,2, &c. each of which is very great compared with the
+
+ next following one. (Green 1 839, p. 249)
+
+ Since in his Eq. 1 the first-order variation of ф appears, it is obvious that the con-
+ stant 0o is immaterial. Green remarked (Green 1839, pp. 249-250) that the first-order
+ variation of ф' must also vanish, since it represents the first-order variation of the
+
+ 22 Lord Kelvin called the function ф "potential" and proved its existence in isothermal, non-dissipative
+
+ processes.
+
+ 2^ This is the reason why, for instance, Truesdell in (Truesdell 1 99 1 ) gave the name "Green - Saint- Venant"
+
+ to the expression of the infinitesimal strain components.
+
+ Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:36:16 UTC
+All use subject to https://about.jstor.org/terms
+
+ 534 D. Capecchi et al.
+
+ virtual work in a neighbourhood of the equilibrium configuration, assumed to be the
+ natural one. Thus, the first meaningful term of the function ф is фг' moreover, one
+
+ may ignore higher-order terms, and
+
+ If now we can obtain the value of фг, we shall only have to apply the general
+
+ methods given in the Mécanique Analytique. But фг being a homogeneous func-
+ tion of six quantities of the second degree, will in its most general form contain
+
+ 21 arbitrary coefficients. The proper value to be assigned to each depend on the
+
+ internal constitution of the medium. If, however, the medium be a non-crystal-
+ lized one24, the form of фг will remain the same, whatever be the directions
+
+ of the coordinate axes in space. Applying this last consideration, we shall find
+
+ that the most general form of фг for non-crystallized bodies contains only two
+ arbitrary coefficients. (Green 1839, p. 250)
+
+ Green then expressed фг in terms of the displacement components, and by means
+ of standard calculus of variations, obtained the balance and boundary equations in
+ terms of two elastic constants (Green 1839, pp. 255-256). As already remarked, these
+
+ equations hold for the luminiferous aether in Green's intentions, but fit any other linear
+
+ elastic isotropic body perfectly.
+
+ Green's approach was widely followed, especially in England,25 and Germany26
+
+ but at times it was also strongly opposed. We have already seen to what extent it was
+
+ rejected by Saint- Venant, and even in England an outstanding scientist like Stokes
+
+ searched for a refinement of the molecular model instead of adopting Green's ener-
+ getic approach (Stokes 1845).
+
+ In 1866 a posthumous book by Auguste Bravais appeared (Bravais 1866), con-
+
+ taining memoirs that he had read at the Academy of Sciences in Paris. These studies
+
+ mainly dealt with crystallography, and with rigorous organization of crystals in groups
+ of symmetry. They contained assumptions which were to be essential for the work of
+
+ the mechanicians who wished to overcome the empasse related to the 4rue' number
+
+ of elastic constants. That Bravais' ideas shed a new light on the molecular theory of
+ the composition of matter was quite clear to the editors of the posthumous volume,
+ who pointed out in the Introduction that according to Bravais:
+
+ [...] the crystals are assemblages of identical molecules with the same orienta-
+
+ tion, which, reduced by thought to a unique point, i.e., their centre of gravity, are
+
+ disposed in rectilinear and parallel ranges, in which the distance of two points
+ is uniform.27 (Bravais 1866, VII)
+
+ 24 It is apparent, from further examination of the article, that by the term "non-crystallized" Green intended
+
+ "isotropic"; indeed, on p. 253 he affirmed that "[...1 non-crystallized bodies, [are those] in which it is per-
+ fectly indifferent in what directions the rectangular axes are placed".
+
+ 25 For instance, one may consider the monograph Thomson and Tait (1867).
+
+ 26 For instance, one may consider Clebsch (1862), Kirchhoff (1876).
+
+ 27 [...] les cristaux sont des assemblages de molécules identiques entre elles et semblablement orientées,
+
+ qui, réduites par la pensée à un point unique, leur centre de gravité, sont disposées en rangées rectilignes et
+ parallèles, dans chacune desquelles la distance de deux points est constante.
+
+ â Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:36:16 UTC
+All use subject to https://about.jstor.org/terms
+
+ Voigťs molecular models in elasticity 535
+
+ In the language of a contemporary mechanician the introduction of an orientation
+
+ in the internal structure of matter endowed the ultimate components of matter with a
+
+ local structure, that of a rigid body:
+
+ [. . .] no longer considering the molecules as points but as small [rigid] bodies.28
+ (Bravais 1866, VIII)
+
+ The words used by Bravais in his memoirs clearly indicate what his thinking was:
+
+ It is admitted today by all physicists that massive bodies are aggregations of
+ molecules of the same kind, kept at a distance by attractive or repulsive forces
+ the resultant of which is nil, for each of these molecules, since these bodies have
+
+ achieved their state of internal equilibrium. By the term <Cmolecules of the same
+
+ kind» we subsume not only that the chemical composition shall be the same, but
+
+ also that the geometrical disposition of the constituting atoms is the same around
+ the centre of mass of each molecule. [...] In non-crystallized solid bodies, the
+ relative disposition of the centres of the molecules does not seem to follow any
+
+ fixed rule, and corresponding lines of molecular polyhedra are directed towards
+
+ any direction in space with no preference. If we isolate a cylinder of such a sub-
+ stance to determine its characteristic constants, [...] one finds constant results,
+
+ independent of the direction that the axis of the cylinder, thus separated, occu-
+
+ pies in the interior of the mass. On the contrary, in crystallized bodies the results
+
+ obtained vary in general with the direction of the axis; a kind of molecular polar-
+
+ ity appears, and one is also led to admit that molecular polyhedra are similarly
+
+ rotated, their corresponding lines being parallel.
+
+ The molecules of a crystal are not only similar and similarly oriented; they are,
+
+ moreover, arranged in rectilinear rows, and separated from each other, in any
+ row, by equal intervals.29 (Bravais 1866, pp. 101-102)
+
+ Bravais advanced experimental evidence of his hypothesis based on cleavage speci-
+
+ men. He did not question the existence of ideal isotropic non-crystallized media (those
+ modelled by Navier, Cauchy and Poisson), made up of undifferentiated spheres. He
+ wished to stress that crystallized media are in principle composed of different mole-
+
+ 28 [...] cessant de regarder les molécules comme des points et le considérant comme des petits corps.
+
+ 29 II est admis aujourd'hui, par tous les physiciens, que les corps pondérables sont des agrégations de
+ molécules de même espèce, tenues à distance par des forces attractives ou répulsives dont la résultante est
+ nulle, pour chacune de ces molécules, dès que ces corps sont parvenus à leur état d'équilibre interne. Par
+ le terme de ^molécules de même espèce» on sous-entende non-seulement que la composition chimique
+ doit être identique, mais encore que la disposition géométrique des atoms constituants est la même autour
+ du centre de gravité de chaque molécule. [...] Dans les corps solides non cristallisés, l'arrangement relatif
+ des centres des molécules ne paraît soumis à aucun règle fixe, et les lignes homologues des polyhèdres
+ moléculaires sont indistinctement dirigées vers toutes les régions de l'espace. Si l'on isole un cylindre
+ d'une tel substance pour déterminer ses constantes spécifiques, [...] on trouve des résultats constants et
+ indépendants de la direction qu'occupait dans l'intérieur de la masse général l'axe du cylindre ainsi séparé.
+ Dans les corps crystallisé, au contraire, le résultats obtenus varient en général suivant la direction de cet
+ axe; une sorte de polarité moléculaire se manifeste, et l'on est ainsi conduit à admettre que les polyhèdres
+ moléculaires sont semblablement tournés, leurs lignes homologues étant parallèles.
+ Non-seulement les molécules d'un crystal sont semblablee et semblablement orientées; elles sont, de plus,
+
+ disposées en files rectilignes, et séparées l'une de l'autre, sur chaque file, par des intervalles égaux.
+
+ £) Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:36:16 UTC
+All use subject to https://about.jstor.org/terms
+
+ 536 D. Capecchi et al.
+
+ cules with an orientation. Indeed, after having examined the geometrical symmetries
+
+ of the relative disposition of the centres of gravity of molecules, Bravais went on to
+
+ examine the molecular structure, that is, the geometry of the elements constituting
+
+ molecules around their centres of gravity. For this purpose, he observed that:
+
+ The exterior signs that let us single out the molecular structure, if it is compound,
+
+ or at least its shape, if it is simple, cannot be but the result of attractive and repul-
+
+ sive forces exerted by the molecule along different directions. If these forces
+
+ spherically radiated from the centre, if they were the same at a given distance
+ in all directions, if, in a word, all were similar around the centre, the molecule
+
+ would act as if it were spherical, or, still better, as a simple point, a pole of forces;
+
+ its intimate structure would not reveal any sensible phenomenon, and could be
+ deduced only by theoretical considerations, for instance, the atomistic laws of
+
+ chemistry.
+
+ However, this is not the case; the forces exerted by the molecules are not the
+
+ same in all directions; the reactions that they are subjected to do not always pass
+
+ through their centre of gravity and the effects of their inequality, when stud-
+
+ ied properly, allow us to determine their internal organisation.30 (Bravais 1866,
+ p. 194)
+
+ In the crystallization process, when a fluid slowly becomes solid, the molecules
+
+ must necessarily follow the crystal symmetry group: hence a moment must be present
+
+ and one shall suppose a different geometrical structure for the molecules of crystallized
+ bodies:
+
+ The molecules of crystallized bodies will henceforth be polyhedra, the vertices
+
+ of which, distributed at will around the centre of gravity, will be the centres, or
+
+ poles, of the forces exerted by the molecule.31 (Bravais 1866, p. 196)
+
+ This view of matter would in time lead to Voigťs molecular model.
+
+ 4 Voigt's molecular model
+
+ Woldemar Voigt (1850-1919) attended the university of Königsberg, where, under
+ Franz Neumann's direction, he studied mineralogy and crystallography. In the early
+
+ 30 Les signes extérieurs capables de trahir au dehors la structure de la molécule, si elle est composée, ou du
+
+ moins sa forme, si elle est simple, ne peuvent être que le résultat de forces attractives ou répulsives exercées
+
+ par la molécule suivant différentes directions. Si ces forces allaient en s' irradiant sphériquement à partir du
+ centre, si elles étaient les mêmes pour une distance donnée suivant toutes les directions, si en un mot tout
+
+ était semblable autour de se centre, la molécule agirait comme étant spherique, ou, mieux encore, comme
+ un simple point, pôle de forces; sa structure propre ne se traduirait par aucun phénomène sensible, et ne
+ pourrait se déduire que de considérations théoriques, par exemple de lois atomistiques de la chimie.
+ Mais les choses ne se passent point ainsi; les forces émanées de la molécule ne sont pas les mêmes dans
+ tous les sens; les réactions qui la sollicitent ne passent pas toujour par son centre de gravité et les effects de
+ ses inégalité permettent, lorsque'on les étudie convenablement, de pénétrer dans son organisation intime.
+
+ 31 Les molécules des corps cristallisés seront donc pour nous dorénavant des polyèdres dont les sommets,
+ distribués ďune manière quelconque autour du centre de gravité, seront les centres, ou pôles, des forces
+ émanées de la molécule.
+
+ Ö Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:36:16 UTC
+All use subject to https://about.jstor.org/terms
+
+ Voigťs molecular models in elasticity 537
+
+ 1880s Voigt published a series of fundamental contributions on crystallography and
+
+ theory of elasticity, reconciling the results of the corpuscular and the continuous mod-
+
+ els of matter. The importance of his results was immediately acknowledged by his
+ contemporaries.32 In 1902 Marcolongo provided a brief but clear account of Voigťs
+ ideas and procedures:
+
+ [. . .] By supposing that the body is formed by an aggregate of corpuscles (hence
+
+ that the matter constituting the body is discrete), and by supposing that each
+
+ corpuscle is subjected by the others to actions reducible to a force and a couple,
+ infinitely decreasing with distance, Voigt (1887) found the general equations of
+
+ elasticity to be the same as those obtained by the theory of potential, without
+
+ necessarily verifying the relations of Cauchy and Poisson.33 (Marcolongo 1902,
+ p. 97)
+
+ The article to which Marcolongo refers (Voigt 1 887) appeared in the annals of the
+
+ Society of Sciences of Göttingen, where Voigt presented his ideas systematically for
+ the first time.
+
+ These ideas were re-considered and better expounded in a memoir (Voigt 1900)
+
+ presented at the International Congress of Physics in Paris in 1 900.34 After the intro-
+
+ duction, Voigt began to tackle the molecular theory :
+
+ [...] elasticity was first investigated by means of a particular conception of the
+ mechanism of [natural] phenomena which we will call the molecular hypoth-
+
+ esis. According to this hypothesis, the body is supposed to be built by distinct
+
+ elementary masses, the molecules, in the wide sense of the word, being kept in
+
+ their positions or displaced by mutual actions having sensible magnitude only
+ at insensible distances. In particular, for a homogeneous undeformed crystal, its
+ molecules are identical, oriented in the same way and regularly distributed so
+
+ that each molecule is surrounded by the others in the same way. The distances at
+ which these mutual actions are exerted are considered much larger compared to
+
+ the distance of near molecules, and deformations occur so slowly in space that,
+
+ even in the deformed body, the disposition of the molecules can be considered
+
+ regular, in the sense specified above, within the range of the sphere of molecular
+ activity.35 (Voigt 1900, pp. 287-288)
+
+ 32 See for instance Poincaré (1892), Marcolongo (1902) and Hellinger (1914).
+
+ 33 il Voigt (1887) supponendo il corpo come formato da un aggregato di corpuscoli (e quindi dis-
+ continua la materia costituente il corpo): supponendo che ogni corpuscolo risenta dagli altri delle azioni
+ riducibili ad una forza ed una coppia, decrescenti indefinitamente col crescere della distanza; ha ritrovate le
+
+ equazioni generali della elasticità sotto la stessa forma ottenuta dalla teoria del potenziale, senza che siano
+ necessariamente verificate le relazioni di Cauchy-Poisson.
+
+ 34 In this memoir Voigt claimed to have been the first to introduce in a previous study (W. Voigt, Die
+
+ fundamentalen physikalischen Eigenschaften der Kry stalle, Leipzig, Von Veit, 1898) the terms tensor and
+
+ triple tensor to mean algebraic quantities undergoing certain laws of variation under changes of coordinates.
+ These have a strong correspondence with the quantities nowadays called 'tensors'.
+
+ 35 [...1 l'élasticité a été explorée d'abord à l'aide d'une conception particulière du mécanisme des
+ phénomènes que nous appelerons Y hypothèse moléculaire. Dans cette hypothèse, l'édifice du corps est
+ supposé construit de masses élémentaires distinctes, les molécules, au sense large du mot, maintenues dans
+ leurs positions, ou déplacées par des actions mutuelles qui n'ont de grandeur sensible qu à des distances
+
+ Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:36:16 UTC
+All use subject to https://about.jstor.org/terms
+
+ 538 D. Capecchi et al.
+
+ Voigt gave credit to the French mechanicians for founding the molecular theory of
+
+ elasticity, but at the same time he emphasized that their theory, even if correct from
+
+ a deductive point of view, was contradicted by numerous and sufficiently accurate
+ experimental results:
+
+ The molecular theory, or theory of actions at a distance, proposed by Navier,
+
+ Cauchy and Poisson [. . .] made the elastic properties of isotropic bodies, depend
+
+ indeed on a single parameter, while numerous observations did not seem to agree
+ with this result.36 (Voigt 1900, p. 288)
+
+ On the other hand, Voigt remarked that a continuous theory of matter yielded results
+
+ which contradicted those of Navier, Cauchy and Poisson, but which were confirmed
+ by experimental evidence:
+
+ A new theory has for some time been generally adopted [. . .] that supposes that
+
+ matter is continuous and that the mutual actions between near portions of matter
+
+ are localized at their separation surface [...]. This theory, which we will call the
+
+ theory of immediate actions , provides, contrary to the former, two characteris-
+
+ tic constants for isotropic media, and all these results agree with observation.37
+ (Voigt 1900, p. 288)
+
+ Voigt, however, was not satisfied simply with the fact that a theory matched the
+
+ experimental results. He insisted on finding the causes that underpinned the fallacies
+ of the molecular theory:
+
+ If the only aim is to obtain the elementary laws of elasticity in a form responding
+ to reality, one can be satisfied with the theory of immediate actions, without
+ asking why the molecular hypothesis leads to incorrect results. But, if one seeks
+
+ a general and coherent theory of the subject [...] the search for the underlying
+ reasons for this failure will be instructive [...].38 (Voigt 1900, p. 289)
+
+ Footnote 35 continued
+
+ insensibles. Plus particulièrement, pour un cristal homogène, non déformé, on admet que ses molécules
+ sont identiques, orientées de la même manière et distribuées régulièrement de façon que chaque molécule
+ soit entourée par les autres de la même manière. Les distances auxquelles s'exercent ces actions mutuelles
+ sont considérées comme très grandes par rapport à les distances des molécules voisines, et Ton convient
+
+ que les déformations varient avec une lenteur telle dans l'espace que, même dans le corps déformé, la
+ répartition des molécules puisse être considérée comme régulière, au sens indiqué plus haut, dans l'étendue
+ de la sphère d'activité moléculaire.
+
+ 36 La théorie moléculaire ou des actions à distance, fondée par Navier, Cauchy et Poisson [. . .1 fait dépen-
+ dre, en effet, les propriétés élastiques des corps isotropes d'un seul paramètre, alors que de nombreuses
+ observations semblant être en désaccord avec ce résultat.
+
+ 37 C'est alors que fut généralement adoptée pendant quelque temps une nouvelle théorie [. . .] en supposant
+ la matière continue et les actions mutuelles entre les portions de matière voisines localisées dans leur surface
+
+ de séparation [...]. Cette théorie, que nous appelerons théorie des actions immédiates, donne, contrairement
+
+ à la précédente, deux constantes caractéristiques des milieux isotropes, et tous ses résultats se sont trouvés
+ d'accord avec l'observation.
+
+ ® Si l'on ne se propose d'autre but que d'obtenir les lois élémentaires de l'élasticité sous une forme
+
+ répondant à la réalité, on se déclarera satisfait par les résultats de la théorie des actions immédiates, sans
+ demander pourquoi l'hypothèse moléculaire conduit à des résultats inexacts. Mais si l'on tend vers une
+
+ Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:36:16 UTC
+All use subject to https://about.jstor.org/terms
+
+ Voigťs molecular models in elasticity 539
+
+ According to Voigt, this failure could be traced to the fact that the traditional mole-
+
+ cular theory was "unnecessarily specialized":
+
+ [...] the previous molecular theory of elasticity starts from an unnecessarily
+
+ specialized fundamental conception, that is, the hypothesis of central molecular
+
+ actions depending only on distance [...]. 39 (Voigt 1900, p. 289)
+
+ Experimental observations on crystals, suggested Voigt, provided a hint as to which
+
+ corrections needed to be made:
+
+ [...] the regular formation of a crystal [...] cannot be understood unless an
+ orienting moment acts on the particle which unites with the crystal and gives it
+
+ [the particle] an orientation parallel to those already part of the building. But,
+ according to the principle of conservation of energy, mutual actions directed
+
+ along the line of the centres and depending only on the distance are incompati-
+ ble with such moments. Indeed, the existence of moments requires a potential of
+
+ the mutual action depending on the orientation, and this leads to forces varying
+ with the orientation of the molecules and, in general, not coinciding with the
+
+ line of centres.40 (Voigt 1900, p. 289)
+
+ Voigťs starting point is clear: if material corpuscles have extension and orienta-
+
+ tion, it is useless to limit oneself by reducing mutual actions to forces only, and, more
+
+ importantly from the constitutive point of view, the mutual actions shall in principle
+
+ depend on orientation, too. This is a strong assumption, clearly departing from all the
+
+ previous attempts to improve the ancient molecular theory and reconcile its results
+
+ with experiments:
+
+ Poisson has already built [. . .] a molecular theory that tries to take these circum-
+ stances into account; but he still made some restrictive hypotheses and his results
+
+ are, as a consequence, more particular than those of the theory of immediate
+ actions and in part incompatible with experience.41 (Voigt 1900, pp. 289-290)
+
+ It is interesting to remark that Voigt pointed out that the same results of his refined
+
+ molecular theory could also be obtained by means of the techniques of the continuous
+
+ model of matter, that is, by the introduction of a potential of inner actions:
+
+ Footnote 38 continued
+
+ théorie générale et conséquente de la matière f...l on tiendra pour instructive la recherche des raisons qui
+ les firent échouer [...].
+
+ 39 [...] la théorie moléculaire ancienne de l'élasticité part d'une conception fondamentale inutilement
+ spécialisée, à savoir l'hypothèse d'actions moléculaires centrales et ne dépendant que de la distance [...].
+
+ 40 [. . .] la formation régulière d'un cristal [. . .1 n'est compréhensible que si un moment directeur agit sur la
+
+ particule qui va s'associer au cristal en lui donnant une orientation parallèle à celles qui font déjà partie de
+ l'édifice. Mais, d'après le principe de la conservation de l'énergie, des actions mutuelles dirigées suivant
+ la ligne des centres et ne dépendant que de la distance sont incompatibles avec de semblables moments.
+ Car l'existence des moments exige un potentiel de l'action mutuelle dépendant de l'orientation, et celui-ci
+
+ conduit à des forces qui varient avec l'orientation de la molécule et, en général, ne coïncident pas avec la
+
+ ligne des centres.
+
+ 41 Poisson a déjà édifié [. . .1 une théorie moléculaire qui cherche à tenir compte de ces circonstances; mais
+ il fait encore quelques hypothèses restrictives et ses résultats sont, en conséquence, plus particuliers que
+ ceux de la théorie des actions immédiates et en partie incompatibles avec l'expérience.
+
+ Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:36:16 UTC
+All use subject to https://about.jstor.org/terms
+
+ 540 D. Capecchi et al.
+
+ [...] the method based on the theory of immediate actions leads to analogous
+
+ results. [. . .] The work [. . .] is the (negative) differential of [. . .] the general elastic
+ potential [...]. 42 (Voigt 1900, pp. 298-299)
+
+ The same assumptions were later considered again and more widely expounded
+
+ by Voigt in a comprehensive monograph on crystal physics (Voigt 1910), in which he
+
+ gave credit to Bravais and put forth the key points at the basis of his theory, that is,
+ kinematics and the existence of a potential:
+
+ A molecular theory of the elastic phenomena that offers the perspective to explain
+
+ all observations shall have such a general basis as Bravais ' structural theory [. . .]
+
+ provides. According to this, the crystal shall be thought of as composed by iden-
+
+ tical and parallel oriented bricks or elementary masses, arranged so that each of
+
+ these is surrounded by the others in the same way inside the sphere of [molecu-
+
+ lar] action. There is no need to make special assumptions on the nature of these
+ bricks; these could in some way be identified with the chemical molecules of
+
+ the substance, with the only limitation being that the construction shall show the
+
+ characteristic symmetry of the crystal. As a matter of fact, an assumption is only
+ necessary regarding the forces that the elementary masses exert on each other,
+
+ and about the displacements that each of these masses is subjected to.
+
+ Considering the former [the forces], we will not restrict generality by introduc-
+
+ ing any other limitations except that the mutual actions shall have potential;
+
+ considering the latter [the displacements], in order to report the elastic phenom-
+ ena we will allow to consider the elementary masses as rigid bodies. By this
+ we do not say that these maintain their rigidity under all circumstances; we will
+
+ simply consider their changes of configuration as not particularly noticeable in
+ the phenomena of interest to us.
+
+ The global effect of a deformation on the system of masses of the crystal there-
+
+ fore consists in an alteration of the length and angle of the spatial grid of the
+
+ elementary masses and in a change of the orientation of the elementary masses
+
+ compared to the same [spatial grid]. We may assume that both changes have
+ sensibly uniform values inside the range of molecular action, and also that the
+
+ modified system is again sensibly homogeneous in the [above] quoted range.43
+ (Voigt 1910, pp. 596-597)
+
+ 42 f . . .] la méthode fondée sur la théorie des actions immédiates conduit à des résultats anologues. f . . .1 Le
+ travail f...l soit la différentielle (négative) f.. .1 du potentiel général élastique f...].
+
+ 43 Eine molekulare Theorie der elastischen Vorgänge, die Aussicht bietet, alle Beobachtungen zu erklären,
+ wird eine so allgemeine Grundlage verlangen, wie sie etwa der Bravaiss che Strukturtheorie [...] an die
+ Hand gibt. Der Kristall ist nach ihr aus unter einander identischen und parallel orientierten Bausteinen
+ oder Elementarmassen aufgeführt zu denken, die so angeordnet sind, daß jeder von diesen innerhalb der
+ Wirkungssphäre in gleicher Weise von anderen umgeben ist. Über die Natur dieser Bausteine braucht
+ man spezielle Annahmen nicht zu machen; dieselben können irgendwie aus den chemischen Molekeln der
+ Substanz zusammengesetzt sein, mit der einzigen Beschränkung, daß das Gebilde die charakteristische
+ Symmetrie des Kristalles aufweisen muß. Wesentlich ist aber eine Annahme über die Kräfte, welche die
+
+ Elementarmassen aufeinander ausüben, und über die Bewegungen, die eine jede dieser Massen auszuführen
+ vermag.
+
+ Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:36:16 UTC
+All use subject to https://about.jstor.org/terms
+
+ Voigťs molecular models in elasticity 541
+
+ Voigt did not abandon a discrete description of matter (Navier, Cauchy and Pois-
+
+ son) but chose to adopt the powerful tools provided by the equation of virtual work
+
+ (Lagrange) and by the potential theory (Green). The hypothesis that an elastic potential
+ exists has a constitutive background and implicitly leads to symmetries in the consti-
+ tutive relations.
+
+ Voigt highlighted that a molecular description shall not consider a single elemen-
+
+ tary mass but rather what in contemporary language is called a representative volume
+ element:
+
+ Following the fundamental studies of Cauchy and Poisson, it is common to base
+
+ the molecular theory of elasticity not on the consideration of a single molecule,
+ but on those [molecules] of a volume element, which is large compared to the
+
+ sphere of molecular action, and containing, as a consequence, an extremely large
+ amount of molecules. The molecules surrounding the volume element therefore
+
+ act only on the inner molecules immediately next to the surface [of the volume
+ element] and combine with each other to give the components of pressure.44
+
+ (Voigt 1900, p. 290)
+
+ 4.1 The pressure of forces
+
+ It is remarkable how Voigt, following the tradition dating back to the French mecha-
+ nicians of the first decades of 1800, adopted the term "pressure" (pression in French,
+
+ Druck in German) to denote the representative of the inner actions, while at that time
+
+ the scientific community had begun to use the more neutral term "stress" ( tension in
+
+ French, Spannung in German). It is also remarkable how Voigt, following again the
+ school of Navier, Cauchy and Poisson, made a clear distinction between the idea of
+ the actions exchanged amongst corpuscles (a well-known and established concept of
+ the mechanics of body-points and rigid bodies) and that of stress, a surface density
+ of the total force exchanged amongst the molecules of the volume element and the
+
+ surrounding ones compared to the area of the surface of separation. In the memoir
+
+ Footnote 43 continued
+
+ In bezug auf ersteres wollen wir der Allgemeinheit halber keine andere Beschränkung einführen, als daß
+ die Wechselwirkungen ein Potential haben sollen; in bezug auf letzteres wird es zur Wiedergabe der elas-
+ tischen Erscheinungen erlaubt sein, die Elementarmassen wie starre Körperchen zu behandeln. Damit ist
+ nicht ausgesagt, daß dieselben sich unter allen Umständen starr verhalten; wir wollen nur ihre Konfigura-
+ tionsänderungen als bei den uns interessienden Vorgängen nicht merklich wirksam betrachten.
+
+ Die Gesamtwirkung einer Deformation auf das Massensystem des Kristalles besteht hiernach in einer
+ Veränderung der Längen und der Winkel des Raumgitters der Elementarmassen und in einer Änderung
+ der Orientierung der Elementarmassen gegen dasselbe. Wir dürfen annehmen, daß beide Änderung inner-
+ halb des sehr kleinen Bereiches molekularer Wirkung merklich konstante Größen besitzen, daß also das
+
+ veränderte System in dem genannten Bereich wieder merklich homogen ist.
+
+ ^ Depuis les travaux fondamentaux de Cauchy et de Poisson, il est d'un usage général de fonder la theorie
+ moléculaire de l'élasticité, non sur la considération d'une molécule unique, mais sur celle d'un élément
+
+ de volume, grand par rapport à la sphère d'action moléculaire et contenant, par conséquent, un nombre
+ extrêmement grand de molécules. Les molécules environnant l'élément de volume n'agissent alors que sur
+ les molécules intérieures immédiatement voisines de la surface de séparation et se combinent pour donner
+
+ les composantes de la pression.
+
+ Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:36:16 UTC
+All use subject to https://about.jstor.org/terms
+
+ 542 D. Capecchi et al.
+
+ of 1900 Voigt introduced the components of stress directly, referring to Poisson45 to
+
+ derive the stress components starting from intermolecular forces. In the more extended
+
+ monograph of 1910, the primitive quantities were the kinematics of the elementary
+ masses and the potential. The latter was a linear functional of the first-order increments
+
+ of the possible displacements of the elementary masses. Intermolecular forces were
+
+ then obtained by Voigt as first-order derivatives of the potential with respect to the
+ kinematical quantities (Voigt 1910, pp. 597-598). Irrespective of these differences,
+ stress was in both cases defined by Voigt following Poisson:
+
+ [The components of pressure] have been defined by Cauchy and Poisson as the
+ sums of the parallel components [of molecular forces] that all the molecules (i)
+
+ inside a right cylinder elevated on a surface element q are exerted on by all the
+
+ molecules ( e ) located at the other side of q9 divided by q , that is, with respect to
+ the unit of area.46 (Voigt 1900, p. 290)
+
+ According to Voigt's definition, the component of stress in direction S on the surface
+
+ element q having normal n is provided by Eq. 27 in Voigt (1900, p. 291):
+
+ i e
+
+ (D
+
+ where 5/e is the component in direction S of the force f¡e. Following a notation origi-
+
+ nally introduced by Kirchhoff, Voigt adopted the symbols Xx, Xy , Xz , YXi Yy , Yz ,
+ Zjc, Z y , Zz to indicate the nine components of stress with respect to a Cartesian set
+ of coordinates.
+
+ Since Voigt considered elementary masses as rigid particles, he could not reduce
+ their interaction, in general, to mutual opposite forces, but rather to a force and a
+ couple:
+
+ The interactions occurring between two rigid bodies (Л) and (k) give origin
+ to both global [force] components X/,*, ... and also rotation moments
+
+ ^ In particular to Poisson (1828) and the article "Mémoire sur l'équilibre et le mouvement des corps
+ cristallisés" ( 1 839), Mémoires de l'Académie des Sciences de l'Institut de France , vol. 1 8, pp. 3-152, 1 842.
+
+ ^ [Les composantes de la pressioni ont été définies par Cauchy et Poisson comme les sommes de compo-
+ santes parallèles que toutes les molécules (j ) à l'intérieur d'un cylindre droit élevé sur un élément de surface
+
+ q éprouvent de la part de toutes les molécules (e) situées de l'autre côté de q, divisées par q, c'est-à-dire
+ rapportées à l'unité de surface.
+
+ This is the definition of "pression" according to Poisson:
+
+ [...] soit M un point situé dans l'intérieur du corps, à une distance sensible de la surface. Par ce
+
+ point menons un plan qui partage le corps en deux parties, et que nous supposerons horisontal [...].
+ Appelons A la partie supérieure et A ' la partie inférieure, dans laquelle nous comprendrons les
+ points matériels appartenant au plan même. Du point M comme centre, décrivons une sphère qui
+ comprenne un très-grand nombre de molécules, mais dont le rayon soit ce-pendant insensible par
+ rapport au rayon d'activité des forces moléculaires. Soit co l'aire de sa section horisontale; sur cette
+
+ section élevons dans A un cylindre vertical, dont la hauteur soit au moins égale au rayon d'activité
+ des molécules; appelons В ce cylindre: l'action des molécules de A' sur celles de B, divisée par со,
+ sera la pression exercée par A' sur A, rapportée à l'unité de surface et relative au point M (Poisson
+ 1831, p. 29).
+
+ ô Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:36:16 UTC
+All use subject to https://about.jstor.org/terms
+
+ Voigťs molecular models in elasticity 543
+
+ ¿Ab Lkh , . • -, which we will calculate around the centre of gravity of the con-
+
+ sidered body. We assume analogous actions occurring between two elementary
+ masses of our crystal model.47 (Voigt 1910, pp. 597-598)
+
+ Since in principle there is no reason to distinguish between interactions represented
+
+ by a force and others represented by a couple, Voigt remarked that all considerations
+ on the interactions of the kind 'force' must hold also for the interaction of the kind
+
+ where Die is the component in direction D of the moment that the molecule i inside
+
+ the cylinder is exerted upon by the molecule e outside the cylinder. Voigt commented
+ that
+
+ 'couple'. Hence, intermolecular torques depend on the distance between the centres
+
+ of gravity of elementary masses, there is a sphere of molecular action for the couple,
+ and so on:
+
+ [...] we have considered only the pressure of forces acting between molecules,
+ but the moments, or couples , acting between them may be considered in the
+
+ same way.48 (Voigt 1900, p. 293)
+
+ Voigt suggested that, in analogy with the stress induced by forces, he would define
+ the stress induced by moments ("pressions de moments") according to the relation
+
+ expressed by his Eq. 32 in Voigt (1900, p. 293)
+
+ = (2)
+
+ i e
+
+ [...] one has the nine special components of the stress-moments
+
+ L*x i L'y i Lz, MXì My , MZì Nyy Nz,
+
+ which exactly correspond to the X*, , Zz.49 (Voigt 1900, p. 293)
+
+ 4.2 The vanishing of the pressure of moments
+
+ In order to provide an expression for the stress-moments, Voigt needed to calculate the
+ moments exchanged between elementary masses and to establish the basic laws for
+ these mechanical quantities. Hence, Voigt build a potential of molecular interactions
+
+ 47 Die zwischen zwei starren Körper (Л) und (*) stattfindenden Wechselwirkungen geben Veranlassung
+ sowohl zu Gesamtkomponenten X/,*, X */,, ... als auch zu Drehungsmomenten L/,*, L*/,, . . ., die wir je
+ um den Schwerpunkt des betreffenden Körpers rechnen wollen. Analoge Wirkungen nehmen wir auch
+ zwischen zwei Elementarmassen unseres Kristallmodelles als stattfindend an.
+
+ 48 [...] nous avons considéré exclusivement les pressions des forces agissant entre les molécules, mais il
+
+ est que les moments, ou les couples , qui agissent entre elles peuvent être traités de la même manière.
+
+ 49 [...1 on a les neuf pressions de moments particulières
+
+ Lx , Ly , Lz , Mx , My , Mz , Nx, Ny, Nz,
+
+ qui correspondent exactement aux Xx , • • • , Zz .
+
+ Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:36:16 UTC
+All use subject to https://about.jstor.org/terms
+
+ 544 D. Capecchi et al.
+
+ made up of sums of products of forces and first-order displacements as well as of
+ moments and first-order rotations:
+
+ If we denote by Фик the potential of mutual actions, [...] for any possible [vir-
+
+ tual] displacement of both elementary masses it must be equal to (Voigt 1910,
+ 598)50
+
+ - $0hk = Xhk Sx/, + • • ' + Lhk &l'h + '•• + Xkh &Xlc + - ■ --{-Lkh Sl'k + ••• (3)
+
+ where 8хи, 8x к and the like for y , z are the variations of the Cartesian coordinates of
+
+ the centres of gravity of the elementary masses (Л), (к), respectively; 8l'h , 8l'k and the
+ like for m, n are variations of the rotations, with respect to a fixed system of Cartesian
+
+ axes, of the elementary masses (Л), ( k ), respectively. By means of the equation of
+ virtual displacements, Voigt obtained the balance equations, expressing the 'law of
+ action and reaction' for forces and moments between elementary masses:
+
+ Relations exist among the [force] components and the moments, which derive
+
+ from the fact that the potential must be a function of the relative position of the
+ interacting masses, and so must remain unaltered if one dislocates both elemen-
+
+ tary masses in a rigid link, i.e., [if one introduces] for the variations
+
+ 8 x/i, .. . 8 xic, .. . 8 1 fa, . . . 5 /д. , . . .
+
+ the values that express such a dislocation.
+
+ Such values are easy to build [. . .] and lead to the following six general relations5 1
+ (Voigt 1910, p. 598):
+
+ Xhk + Xkh =0, . . .
+
+ Lhk + Lkh + Zhk (Уи - Ук ) - Yhk ( Zh - Zk) =0, . . .
+
+ (4)
+
+ 50 Wird das Potential der Wechselwirkungen mit Ф/,* bezeichnet, so muß [...1 bei jeder zulässigen Dislo-
+ kation beider Elementarmassen (h) und ( к ) gelten
+
+ - №hk - %hk Sx/, + • • • + Lfj ¿ Sl'fj + • • • + Хм 8xk + • • • + Lkh 8l'k + • • • (71)
+
+ 5 1 Zwischen den Komponenten und den Momenten bestehen Relationen, die daraus fließen, daß das Poten-
+
+ tial eine Funktion nur der relativen Lage der aufeinander wirkenden Massen sein kann, also ungeändert
+ bleiben muß, wenn man beide Elementarmassen in starrer Verbindung miteinander disloziert, d.h., für die
+ Variationen,
+
+ Werte einführt, die solche Dislokation ausdrücken.
+
+ Derartige Werte sind [...] leicht zu bilden und ergeben folgende sechs allgemeine Relationen:
+
+ Sxk,... &l'h,.ě.6l'k,...
+
+ Xhk + Хы =0, . . .
+
+ Lhk + Lkh + Zhk (Vh - Ук) - Yhk ( Zh ~ Zk) = 0, . . .
+
+ (72)
+
+ Ô Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:36:16 UTC
+All use subject to https://about.jstor.org/terms
+
+ Voigťs molecular models in elasticity 545
+
+ The reduced expression for the potential of molecular interactions thus is expressed
+
+ by Eq. 74 in Voigt (1910, p. 598):
+
+ (n'u Sxhk + Уик S - +
+
+ (n'u Sxhk + Уик S - +
+
+ ť - ť
+
+ H
+
+ where Xhk = хи~хк and the like (Voigt did not actually write down the passages which
+
+ lead from his Eqs. 71 and 72 - ours (3) and (4) - to his Eq. 74 - ours (5)).
+
+ At this point Voigt made a basic assumption on the kinematics of his model:
+
+ If we now introduce the above quoted assumption, that when dealing with real
+
+ displacements inside the range of molecular action the elementary masses rotate
+
+ by sensibly equal angles, because of l'h - I fk = • • • = Owe obtain for the same
+ [expression of the potential]
+
+ - d<Phk = Xhk (d Xhk + yhk d n' - Zhk dm') + . . . (6)
+
+ where the now common components of the rotation d/', dm ' , d n! are introduced
+
+ without subscript.52 (Voigt 1910, p. 599)
+
+ That is, Voigt considered sensibly uniform values of the rotation of the molecules
+
+ inside the molecular sphere of action; therefore, the potential of molecular interactions
+
+ (5) was further reduced to the expression (6), depending only on intermolecular forces.
+
+ This is a strong deduction: in modern language, we may say that an inner constraint
+
+ is imposed and as a consequence this implies that constitutive prescriptions shall be
+
+ produced for intermolecular forces only.
+
+ Voigt added some considerations with the intention to explain the structure of the
+ Lhk , . • • better and further prove that the only meaningful stresses are those of force.
+
+ Indeed, both in the report of 1900 and in the monograph of 1910, Voigt claimed that
+
+ symmetry considerations yield the equivalence of the moment exerted by the elemen-
+
+ tary mass ih) on the elementary mass ( к ) and vice-versa:
+
+ [. . .] because of the parallel orientation of ( h ) and (к), from symmetry [it follows
+
+ that] Lhk = Lkh
+
+ ^ Indem wir nun die oben signalisierte Annahme einführen, daß innerhalb der Weite molekularer Wirkung
+ die Elementarmassen sich bei den wirklichen Veränderungen um merklich gleiche Winkel drehen, gelangen
+
+ wir für dergleichen wegen l'h - lfk = • • = 0 zu
+
+ - d Фик = Xhk (d Xhk + УНк àn' - Zhk à>n ) + . . . (75)
+
+ Dabei sind die jetzt gemeinsamen Drehungskomponenten di', dm', d n' ohne Indizes geführt.
+
+ 53 [...] dabei parallelen Orientierungen von (Л) und (к) nach Symmetrie Lhk = Lkh
+
+ ^ Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:36:16 UTC
+All use subject to https://about.jstor.org/terms
+
+ If one considers that Lhk = Lkh and the like, the balance equations for the moments,
+
+ Eq. 3-2, let Voigt obtain his Eq. 76 in Voigt (1910, p. 599)
+
+ 546 D. Capecchi et al.
+
+ 2Lhk - YhkZhk - Zhkyhk • • • (7)
+
+ showing that mutual couples are actually moments of intermolecular forces, and the
+
+ constitutive characterization must be provided only for the latter, whilst the former
+
+ are obtained by balance equations as is standard today when one introduces an inner
+ constraint.
+
+ A fundamental consequence of this is that the pressure of moments, or stress-
+ moment, vanishes. Indeed, let us introduce the expressions (7) into the definition (2)
+ and let Die = Mie , Nie. Voigt observed that in (2 )-(7) only the molecules inside
+ the sphere of molecular action should be taken into account. Thus, since this sphere is
+ infinitesimal and the lever arms xie , yie , це are smaller than the radius of molecular
+
+ activity, Dn , and hence Ln , Mn , Nn are infinitesimals of higher order compared to Sn
+ and are hence negligible. More precisely,
+
+ On the one hand, one obtains a comparison between the relative orders of mag-
+ nitude of the Xn, . . . and of the L„, - Because of (76) [our equation (7)] one
+ can indeed write
+
+ Ln = (ZiaYi0 - yiaZia) » • • • (8)
+
+ Now, since the relative coordinates xia , yia, ца must be smaller than the range
+
+ of action of the molecular forces, the sums expressing the Ln , . . . are in general
+
+ vanishingly small in comparison with those [sums] which express the Xn
+
+ (Voigt 1910, p. 602)
+
+ In the quotation above, the symbol / (Flächenelement in German) has the same role
+ as q in our Eqs. 1 and 2; the subscript a (außer in German) has the same role as e in
+
+ the same equations; the symbol S stands for a sum.
+
+ The use of two different symmetry considerations (the first for the rotations of the
+ elementary masses inside the molecular sphere of action, the second for the inter-
+
+ molecular couples) does not seem quite clear. From the contemporary point of view
+ one could instead probably make the following constitutive reasoning: since Voigt
+ had assumed the rotation to be uniform inside the molecular sphere of action, the
+ relative rotation between two molecules vanishes. The constitutive function for the
+
+ Einerseits gewinnt man daraus eine Beurteilung der relativen Größenordnungen der Xn , . . . und der
+
+ Ln , - Nach (76) kann man nämlich schreiben
+
+ L>n = 2f (¿ia Yia ~ yia^ia) » • • • (86)
+
+ Da nun die relativen Koordinaten x¡a, y¡a, z¡a kleiner als die Wirkungsweite der Molekularkräfte sein
+
+ müssen, so sind die Summen, welche die Ln , . . . ausdrücken, im allgemeinen werschwindend klein gegen
+ diejenigen, welche die Xn, . . . bestimmen.
+
+ Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:36:16 UTC
+All use subject to https://about.jstor.org/terms
+
+ Voigťs molecular models in elasticity 547
+
+ intermolecular couples depends in general on the relative rotation between molecules.
+
+ Since the latter vanishes, the intermolecular couples cannot depend on it and cannot
+ be different.
+
+ After these premises, Voigt obtained the expressions for pressure in terms of sums
+
+ of forces.55 Owing to the supposed homogeneity of the distribution of the molecules,
+
+ the number of molecules interacting in pairs from both sides of the elementary surface
+
+ / is Çfriia , provided Ç is the number of molecules in the volume unit and ща is the
+
+ projection along n of the distance between the centres of gravity of two corresponding
+
+ molecules on opposite sides of / (which cannot be greater than the radius of molecular
+ action) (Voigt 1910, p. 603).56
+
+ Moreover, again because of homogeneity, Voigt stated that it was immaterial to
+ exchange the role of the molecules inside the cylinder with those outside. Hence, one
+
+ could in fact consider only one half of the total number of pairs of interacting mol-
+ ecules, and the subscripts denoting inner and outer molecules could be omitted. By
+
+ considering n parallel to the coordinate axes, it assumes the values x , у , z of the rela-
+
+ tive coordinates of the centres of gravity of the corresponding molecules with respect
+
+ to the assumed coordinate frame. Eventually, the components of stress are provided
+
+ by Eq. 89 in Voigt (1910, p. 604)
+
+ = y, = ^S*y, Zx = ySxZ, (9)
+
+ and the like for the other components.
+
+ Owing to these fundamental results, Voigt had to provide constitutive relations
+
+ only for ordinary stresses, thus recovering one of the basic assumptions of the French
+ mechanicians of the first decades of 1 800. Voigt derived the constitutive relations by
+
+ means of standard techniques.
+
+ 4.3 Constitutive laws - first approach
+
+ In the memoir of 1900, Voigt adopted what a reader of our times would interpret
+
+ as a procedure of linearization of the equations of interest (that is, Voigt considered
+
+ only infinitesimal displacements). He did not actually show the passages of his proce-
+ dure, but referred to his previous article (Voigt 1887). Roughly speaking, he assumed
+
+ the expressions (9) as given, then he expressed дс, у , z as well as Ç in terms of the
+ first-order variations of the displacement components starting from a natural state.
+
+ Voigt then performed the symbolic sums and products indicated in (9) and retained
+
+ only linear terms. Thus, each component of stress turned out to depend, in principle,
+ on the first-order increments of displacement and rotation:
+
+ [...] admitting that the body is deformed, starting from a state in which all
+
+ pressures are zero, by continuous and infinitely small displacements with com-
+
+ 55 In Voigt (1900) he limited himself to quote the same result as obtained by Poisson (183 1).
+
+ ^ The surface element was called q in Voigt (1900), / in Voigt (1910).
+
+ â Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:36:16 UTC
+All use subject to https://about.jstor.org/terms
+
+ ponents u, v, w , and by continuous and infinitely small molecular rotations with
+
+ components /, m, n, one may develop the sums appearing in those formulae.
+
+ The result of the calculation is a system of nine equations of the kind
+
+ 548 D. Capecchi et al.
+
+ _ 3 и (du ' (du '
+ - Xx = С, _ , - 3 и + С, 2 (du + n) ' + С, 3 (du - m J '
+ „ (dv ' Эи ^ (dv '
+ +Ci4{dI~n)+Cl5dï „ (dv ' Эи + Ci6'Tz+l) ^ (dv '
+
+ ( dw ' ( dw ' d W
+
+ +Ci7 (-+m)+ ( dw ' C, « ( dw - / j ' + C19 - d W , (10)
+
+ in which the Chk are characteristic parameters of the body (in the undeformed
+ state) and of the orientation of the coordinate axes, which are determined, on one
+
+ hand, by the law of elementary actions and, on the other hand, by the distribution
+
+ of the molecules in the space; the relations Chk = Qa take place among them.
+ The number of independent constants Chk is, as a consequence, 45. 57 (Voigt
+ 1900, p. 296)
+
+ Voigt did not clarify the reasons why the symmetry relation Chk = Qa hold; one
+
+ might infer from the context and from a comparison with (Voigt 1 887) that this derives
+ from the existence of an elastic potential.
+
+ Voigt claimed that the local balance equations for force and torque he had written in
+
+ Voigt (1900, p. 295) were well known. At this point, he advanced the hypothesis that
+
+ no couple densities were distributed inside the body. Therefore, the standard symmetry
+
+ relations for six of the components of the stress held, and these represented a set of lin-
+
+ ear relations which permitted the elimination of the components of the rotation I , m , n
+
+ from the constitutive relations (10). Thus, only six independent components of stress
+
+ remained, depending on six arguments which consist only in the partial derivatives of
+ the displacement components:
+
+ 57 f...l en admettent que le corps est déformé, à partir d'un état dans lequel totes les pressions sont nul-
+ les par des déplacements infiniment petits et continus dont les composantes sont u, v, w, et des rotations
+
+ moléculaires infiniment petites et continues dont les composantes sont /, m, n , on peut développer les
+ sommes qui figurent dans ces formules.
+
+ Le résultat du calcul est un système de neuf équations de la forme
+
+ -X, = Cllg + Cl2(g+„)+C13(g-m)
+
+ +C|4 (ë_n)+C|5ë+C|6(ë+/)
+
+ /Эи> ' /dw A dw
+
+ Spring er
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:36:16 UTC
+All use subject to https://about.jstor.org/terms
+
+ +c,7(ã7 /Эи> )+ ' 18(э7" /dw A )+ |9"э7' dw (39)
+
+ dans lesquelles les Chk sont des paramètres caractéristiques du corps (à l'état non déformé) et de l'orien-
+ tation des axes de coordonnées, qui sont déterminés, d'une part, par la loi des actions élémentaires et, de
+
+ l'autre, par la distribution des molécules dans l'espace et entre lesquels les relations Chk = Q/i ont lieu.
+ Le nombre des constantes Chk indépendantes est, par suite, 45.
+
+ Voigťs molecular models in elasticity 549
+
+ If there are no moments in the volume [. . .] one has [. . .]
+
+ Yz = Zy, Zx = Yz , Xy = Yx,
+
+ one can [...] eliminate the components of the rotation /, m, n in the formulae
+
+ The result of this operation consists in six expressions for the components of
+
+ for the components of pressure.
+
+ pressure
+
+ X*, Yy, ZZi Yz = Zv, Zx = Yz, Xy = Yx
+
+ which are linear and homogeneous with respect to the six arguments.58 (Voigt
+
+ 1900, p. 297)
+
+ du dv d w dv dw d w du du dv
+
+ dx ' d у 9 dz ' dz dy ' dx dz' dy dx
+
+ Voigt arranged both the six components of stress and those of strain so as to form
+ a list:
+
+ We will pose, following Kirchhoff,
+
+ du dv dw dv dw
+ 7Г~ - Xx у 7Г~ - Ум "7Г~ = ¿z* ~г~ + ~Г~ = у Z = zy,
+ dx у dy dz dz oy /19ч
+
+ dw ou du dv
+ - + - = Zx = Xz> T- + 7- = *v = Ух'>
+ dx dz dy dx
+
+ [. . .] These six arguments, лгд; , . . . , jcv, will always be arranged in the same order
+
+ in the following, corresponding to that of the components of pressure.
+ The result of the above indicated elimination [that of the components of the
+
+ rotation from the variables on which the components of stress depend] are thus
+
+ six equations of the kind
+
+ 58 S'il n'y a pas de moments dans le volume f...l on a f...l
+
+ Yz = Z y , Zx = Xz, Xy = Yx ,
+
+ on peut f...] éliminér les composantes de la rotation /, m, n dans les formules des composantes de la
+ pression.
+ Le résultat de cette opération consiste en six expressions pour les composantes de la pression
+
+ Xx, Yy , Zz, Yz = Z y , Zx = Yz, Xy = Yx
+
+ qui sont linéaires et homogènes par rapport aux six arguments
+
+ du dv dw dv dw ' dw du ' du ^ dv
+ dx ' dv ' dz ' dz dy ' dx dz ' Э.у dx '
+
+ ô Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:36:16 UTC
+All use subject to https://about.jstor.org/terms
+
+ - Xx = C' i Я* + С'2Уу + C'3Zz + C'4yz + C'5Zx + C'6Xy, (13)
+
+ where Chk are parameters characteristic of the substance of the body and of the
+
+ orientation of the coordinate system. Among them one has the relations
+
+ the number of independent parameters Chk is thus 21. 59 (Voigt 1900, pp. 297-
+ 298)
+
+ 550 D. Capecchi et al.
+
+ chk=cjch' (14)
+
+ Voigt obtained the linear elastic constitutive equations in matrix form, since both
+
+ stress and strain were written as vector-like lists of six independent components.60
+
+ Hence, Voigt proved that the constitutive moduli were in general 36 in number,
+ and because of the symmetry of the tangential components of stress this number was
+
+ reduced to 21 .61 In the memoir of 1900, Voigt proved this result also by means of ther-
+
+ modynamics. Like Green, he showed that the elastic potential, being a homogeneous
+ second-order polynomial of the six strain independent components, is completely
+ represented by means of 21 coefficients (Voigt 1900, pp. 298-300).
+
+ Voigt remarked how his refined molecular approach, built improving the model
+ by Navier, Cauchy and Poisson, provided results in complete agreement with those
+ provided by assuming a continuous model and the existence of an elastic potential, as
+ Green did:
+
+ But the theory of actions at a distance lets us bypass the results of the theory of
+
+ immediate actions from an important point of view. Since, according to this [the
+
+ theory of actions at a distance], the parameters Chk , and as a consequence c/,*,
+
+ 59 Nous poserons, avec Kirchhoff,
+
+ du dv d w dv d w
+ T~ = ' 7Г" = Уу» ~7~ = Zz, TT* + - Уг = Zy »
+ a* dw 1 dz au Ii dy » m
+
+ _ + _ + __x, = Ä;
+
+ â Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:36:16 UTC
+All use subject to https://about.jstor.org/terms
+
+ f . . -1 Ces six arguments, xx , . . . , xy , seront dans la suite constamment rangés dans cet ordre, correspondant
+ à celui des composantes des pressions.
+ Le résultat de Г élimination susindiquée est alors six équations de la forme
+
+ - Xx - c'' xx + с'2Уу "Ь CÌ3ZZ + c'^yz +c'5zx +c'6Xyt (41)
+
+ où Chk sont des paramètres caractéristiques de la substance du corps et de Г orientation du système de
+ coordonnées. On a entre eux les relations
+
+ Chk = ckh ; (42)
+
+ le nombre des paramètres Chk indépendants est donc 21.
+
+ 60 Such a representation is still attributed to Voigt in many textbooks on strength of materials.
+
+ 61 We point out that there are two different symmetry reasonings: the first is due to the fact that an elas-
+ tic potential exists, the second holds only when there are no distributed couples and hence the stress is
+
+ symmetric. In modern language, the first assumption implies the so-called main symmetry of the elasticity
+ tensor Eijhk = Ehkijy whereas the second assumption holds then the so-called secondary symmetry exists,
+ E i jhk = Ejihk = Eijkh-
+
+ Voigťs molecular models in elasticity 55 1
+
+ may be calculated based on the law of molecular actions and the arrangement
+
+ of molecules in space, one can, by means of particular hypotheses on such a law
+
+ and such an arrangement, establish particular relations among the parameters of
+ elasticity and compare the results with experience. Observations may also be
+ useful for examining certain particular hypotheses and ' as a consequence , for
+ developing our ideas on molecular actions.
+
+ The most important specialization of the general hypotheses on molecular actions
+
+ has already been presented; it is the hypothesis of forces coinciding with the
+ straight line joining the centres and function of the distances only. It leads, as
+ Poisson and Cauchy showed [...], without making any particular assumption
+
+ on the arrangement of the molecules, to the following six relations among the
+ parameters Chk [•••] which we will call [...] of Poisson and Cauchy.
+ [...] the observations are, in general, in contradiction with the relations of Pois-
+
+ son and Cauchy [...] and, as a consequence, with the concepts at their basis;
+ one cannot therefore refuse to make molecular actions depend on the relative
+
+ orientation of the molecules. Yet, it seems possible that specializations of other
+ kinds lead to relations which are confirmed by experience, at least in certain
+ cases.62 (Voigt 1900, pp. 300-302)
+
+ Voigt remarked that if he assumed intermolecular forces to be central he was also
+ able to recover the conditions of Cauchy and Poisson, reducing the number of indepen-
+
+ dent elastic coefficients from 21 to 15. By introducing the further specializations of
+
+ orthotropy and complete isotropy, he was finally able to prove that the number of
+
+ independent elastic coefficients is 2 for the isotropic case (1 assuming that forces are
+ central).
+
+ Voigt replaced the traditional definition of isotropy (that is, equal arrangement of
+ molecules in all directions of space) with that of quasi-isotropy; this overcame the
+
+ paradoxes inside the old definition of isotropy provided by Cauchy and Poisson:
+
+ All metals, almost all compact rocks seem at first to be bunches of crystals of
+
+ varying extension according to circumstances, juxtaposed in all possible orienta-
+
+ tions. [. . .] One may then admit that a structure of this kind, called quasi-isotropic
+
+ by the author, is the rule in nature. [. . .] The elastic proprieties of isotropic bodies
+
+ Mais la théorie des actions à distance permet de dépasser à un point de vue important ces résultats de la
+ théorie des actions immédiates. Puisque, dans celle-là, les paramètres C/,*, et par suite aussi c/,*, peuvent
+
+ être calculés en partant de la loi des actions moléculaires et de la répartition des molécules dans l'espace,
+
+ on peut, par des hypothèses particulières sur cette loi et cette répartition, établir des relations particulières
+ entre les paramètres élastiques et comparer les résultats avec l'expérience. Les observations peuvent ainsi
+ servir à l'examen de certaines hypothèses particulières et, par suite, au développement de nos idées sur les
+ actions moléculaires.
+
+ La plus importante des spécialisations des hypothèses générales sur les actions moléculaires a déjà
+
+ été indiquée; c'est l'hypothèse des forces coïncidant avec la droite joignant les molécules et fonctions des
+ distances seulement. Elle conduit, comme Poisson et Cauchy l'ont montré f . . .1, sans faire aucune hypothèse
+
+ particulière sur la disposition des molécules, aux six relations suivantes entre les paramètres c^k [•••! Яие
+ nous appellerons [...1 de Poisson et Cauchy.
+
+ [...] les observations sont, en général, en contradiction avec les relations de Poisson et Cauchy [...] et,
+
+ par suite, avec les conceptions qui sont à leur base; on ne peut donc renoncer à faire dépendre les actions
+ mutuelles de l'orientation relative des molécules. Mais il semble possible que des spécialisations d autre
+
+ espèce conduisent à des relations qui soient confirmées par l'expérience, au moins dans certains cas.
+
+ Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:36:16 UTC
+All use subject to https://about.jstor.org/terms
+
+ 552 D. Capecchi et al.
+
+ cannot be explained by means of the molecular hypothesis if one does not admit
+ that bodies are composed of fragments of crystals.63 (Voigt 1900, pp. 339, 343)
+
+ 4.4 Constitutive laws - second approach
+
+ Analogous results were revealed by Voigt in a more extended form in the monograph of
+
+ 1910, where he adopted a different approach and obtained a more precise identification
+
+ of the number of independent elastic coefficients.
+
+ Voigt remarked that if the coordinate axes solidai with the two molecules (h) and
+
+ (fc), denoted А, В , С, rotate by a very small angle of components /', m', n! with
+
+ respect to the fixed coordinate system of axes, denoted X , Y , Z,64 his relations (77)
+
+ in Voigt (1910, p. 599), characteristic of a rigid infinitesimal motion, hold
+
+ a = X + yn - zm'
+ b = y + zi' - хп' (15)
+
+ с = z + X mf - yť ,
+
+ Therefore, in the reduced expression (6) for the potential of inner actions the terms
+
+ multiplying the Xhk, • • . coincide with the first-order increment of the relative quan-
+ tities a, b, с in Eqs. 15 as related to the molecules ( h ) and (fc). Hence, the reduced
+
+ expression for the potential can assume the simple form expressed by his Eqs. 82, 83
+ in Voigt (1910, p. 600)
+
+ - d<Phk = Ahk dahk + Bhkàbhk + Chkàchk, (16)
+
+ where Ahk and the like denote the intermolecular actions as referred to the coordinate
+
+ axes A , В , С.65 Voigt then operated a linearization procedure:
+
+ The components [of force] А, В , С are [...] functions of the relative coordi-
+ nates of the elementary masses on which the mutual actions act; because of
+
+ the deformation their variations therefore consist only in the modification of
+ these quantities. Let us denote a, b , с the coordinates of a mass (a) relative to
+ a mass (/) with respect to the axes А, В , С, thus their variations are denoted
+
+ Aa , Ab , Ac. Due to the smallness of these variations one may pose
+
+ * .o /9¿'° л P¿'° , / 3A'°
+ л=л * .o +ш /9¿'° м+ы) л P¿'° ль+ь) , / 3A'° лс
+
+ 63 Tous les métaux, presque toutes les roches compactes se présentent immédiatement comme des accumu-
+
+ lations de cristaux de grandeur variant avec les circonstances, qui sont juxtaposés dans toute les orientations
+ possibles On peut donc admettre qu'une structure de cette espéce, appelée quasi-isotrope par le rappor-
+ teur, est la règle dans la nature. [. . .] Les propriétés élastiques des corps isotropes ne peuvent être expliquées
+ par l'hypothèse moléculaire que si l'on admet que ces corps sont composés de fragments de cristaux.
+
+ 64 It is indeed remarkable that Voigt used a notation which induces confusion in the reader, since X is both
+ a coordinate axis and a component of intermolecular force.
+
+ 65 We point out, as already noted above, the possible confusion induced by Voigt, who denoted both
+ coordinate axes and force components by the same symbol.
+
+ Ô Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:36:16 UTC
+All use subject to https://about.jstor.org/terms
+
+ Voigťs molecular models in elasticity 553
+
+ where the superscripts characterize the function in the original, undeformed
+ state.66 (Voigt 1910, p. 605)
+
+ Since the axes А, В, С were supposed as slightly shifted and rotated with respect
+ to the fixed axes X , У, Z, Voigt easily found the laws relating the A a, ... to the
+
+ Аде, ... and to the components of the small rotation /', m' , w', since they are those of
+
+ a rigid motion. He thus obtained from his Eq. 77 (our Eq. 1 5) the expressions provided
+
+ by the unnumbered equation in Voigt (1910, p. 605)
+
+ Aa = Ax + n'y0 - mfz° = Ax + n'b° - m с °, . . . (18)
+
+ but, since he supposed the displacements to be small, he also obtained his Eq. 94 in
+
+ Voigt (1910, p. 605)
+
+ д, = дх + IV + = |ï„o + ob + »v, ... (W
+
+ дх dy oz oa ob oc
+
+ and, by combining Eqs. 18 and 19,67
+
+ -=^o+fë+">o+fë-m')"° • oo)
+
+ and expressed in his Eq. 97 in Voigt (1910, p. 605) the number of molecules in the
+ unit volume in terms of the deformation:
+
+ '-<°0 -£-£-£)■
+
+ By inserting Eqs. 20-22 into Eq. 16, performing all the lengthy operations and retain-
+
+ ing only linear terms, Voigt obtained the desired constitutive relations, assuming that
+
+ the reference configuration is a natural, stress-free state:
+
+ By means of these [relations, i.e. our equations (20)- (22)] all the quanti-
+ ties [...providing] XXi Yx, Zx are expressed through the partial derviatives
+
+ 66 Die Komponenten А, В, С sind f...] Funktionen der relativen Koordinaten der Elementarmassen, auf
+ deren Wechselwirkungen sie sich beziehen; ihre Änderungen infolge der Deformation beruht also aus-
+ schließlich auf der Veränderung dieser Größen. Die relativen Koordinaten der Massen ( а ) gegen eine (/)
+ nach den Achsen А, В, С sind jetzt kurz a, b, с zu nennen, ihre Änderungen mögen demgemäß mit
+ Aa, Ab, Ac bezeichnet worden. Wegen der Kleinheit dieser Änderungen kann man setzen
+
+ Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:36:16 UTC
+All use subject to https://about.jstor.org/terms
+
+ wobei die oberen Indizes die auf der ursprünglichen, undeformierten Zustand bezogenen Funktionen char-
+ akterisieren.
+
+ 67 These correspond to Eqs. 95, 96 in Voigt ( 1910, p. 605).
+
+ 554 D. Capecchi et al.
+
+ of м, v, w with respect to the coordinates, through /', m' n' and through
+ parameters that relate to the original state. The obtained values are then inserted
+
+ and all multiplications are performed [retaining] only the members until the first
+
+ order with respect to the variations [induced] by the deformation.
+
+ The result of this operation is very complicated. It becomes significantly simpler
+
+ if one remembers that under our assumption the deformation takes place starting
+
+ from the natural, stress-free state, so that for vanishing w, v , w , /', m', n ' the
+
+ components of pressure must also vanish. [. . .]
+
+ The thus obtained result, which one may complete through the use of the expres-
+
+ sions for Xy, Y y , Zy, XZt YZt Zz, yields all the components of pressure which
+ are linear in the nine arguments
+
+ du du . . du . .
+
+ +»=*,. a-='r
+ dv , , dv dv . ,
+ Tx~n=y" dï=yy' э7+ Zv (23)
+ dw , , dw . , dw
+ 37+m=Z" , , 9 J-I=z>' ,
+
+ Here the x'y, . . . are new quantities, of which y'z is not equal to zy, in the same
+ way as Yz is not equal to Zy.
+ The coefficients of these expressions are sums of the kind
+
+ ^°Sa°(S)0=c- <24>
+
+ which will be shortened in the suggested [following] way; the superscripts of
+
+ the С stand for the coordinates present in the numerator, the subscripts for those
+ in the denominator.
+
+ The coefficient system in the nine components of pressures assumes the follow-
+ ing global expression:
+
+ x* *v хг I Ух Уу y'z I 4 Zz
+ _ л* у n'' /^12 /^>13 /^11 f* 12 /^13 ^>11 rAl. /-13
+ л* у 4l 4l 4l 12 f* 12 12 Чз C13 Чз
+
+ -У Г21 Г22 Г23 Г21 r22 Г23 r21 Г22 Г2*
+ Лу Cji Cjj cn U|2 C12 Cj2 C13 C13 C13
+ _ у Г31 Г32 Г33 Г31 Г32 Г33 Г3* Г*2 Г33
+
+ Лг у ип ии и,2 С12 С12 С13 С13 С,з
+
+ _ V с11 Г 12 Г*13 Г11 rl¿ CVi rïl rW
+ x 21 21 21 ^22 <-22 <-22 <-91 <-94 <-94
+
+ / y 1^21 U21 21 c22 c22 u22 u23 С21 С22 L23 С c23
+
+ -Y / С21 1^21 С22 U21 С23 С21 c22 c22 С22 u22 С23 u23 С21 L23 С22 c23 С 23 (25)
+ _y r31 r32 r33 r21 r22 r23 >-31 r32 >-33
+ /г «-21 °21 °21 c22 u22 c22 c23 *"23 L23
+
+ 4l 4l 4l c32 c32 c32 c33 c33 c33
+
+ -7 ^ Г21 Г22 Г23 Г21 Г22 Г 23 Г21 Г22 Г23
+ ^ У 4l 4l 4l 32 c32 Г 32 c33 C32 Чз
+
+ -7 Г31 Г32 Г33 Г31 Г32 Г33 Г31 Г32 Г33
+ <-31 <-31 <-31 <-32 <-32 32 Чз Чз Чз
+
+ Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:36:16 UTC
+All use subject to https://about.jstor.org/terms
+
+ Voigťs molecular models in elasticity 555
+
+ The total amount of coefficients in this scheme is not 81, as it would seem at
+
+ first sight, but 36, because according to (100) [our (24)] the relationships
+
+ Cmn Cmn hk
+
+ exist, and only six combinations of the subscripts or of the superscripts occur
+ respectively.68 (Voigt 1910, pp. 606-607)
+
+ 68 Hiermitsindalle[...]fürXjc, Yx, Zx auftretenden Größen durch die Differentialquotienten von и, v, w
+ nach den Koordinaten, durch /' , m' n' und durch Parameter, die sich auf den ursprünglichen Zustand be-
+
+ ziehen, ausgedrückt. Die gefundenen Werte sind nunmehr einzusetzen und alle Multiplikationen nur bis
+ auf die Glieder erster Ordnung bezüglich der Veränderungen durch die Deformation auszuführen.
+
+ Das Resultat dieser Operation ist sehr kompliziert. Es vereinfacht sich erheblich, wenn man einmal berücks-
+
+ ichtigt, daß nach unserer Annahme die Deformation von dem natürlichen, spannungsfreie Zustand aus stattf-
+ inden soll, daß also bei verschwindenden u, v, w, /', m' , n' auch die Druckkomponenten verschwinden
+ müssen. [...]
+
+ Das so gewonnene Resultat, das man durch Heranziehung der Ausdrücke für Xy , Yy , Zy , Xz, Yz, Zz
+ vervollständigen kann, ergibt die sämtlichen Druckkomponenten lineär in den neun Argumenten
+
+ du du ,, du , ,
+ dx By - xv > , dz z
+
+ - =jtr,
+
+ dv ' ' dv dv , Ř> ' taa' (99)
+ Тх-"=У, ' ' уу=Уу Tz+l=Z- , Ř> ' taa' (99)
+ dw , , dw ,, , dw
+ ^+m , =ZX, , --I ,, -zy, , "ä7 ~Zz'
+
+ Hierin sind die xfyj ... neue Bezeichnungen, bei denen y'z ebenso wenig gleich z'y ist, wie jetzt Yz gleich
+ Zy-
+ Die Parameter dieser Ausdrücke sind Summen von dem Typ
+
+ 5<°Sa°(Ä)°-c-
+
+ die in der angedeuteten Weise abgekürzt werden sollen; die oberen Indizes der С weisen dabei auf die
+ Koordinaten hin, die im Faktor, die unteren auf diejenigen, die im Nenner auftreten.
+
+ Das Parametersystem in den neun Druckkomponenten besitzt folgende Gesetzmäßigkeit:
+
+ Xx К I Ух Уу y'z I z'x 4 гг
+ -Äx у /-11 /-12 /-13 /-11 /-12 /-13 /-11 /-12 /-13
+ -Äx у Cn Cn Cn Cj2 b,2 C,2 C13 c13 c13
+ Y /-21 r22 r23 /-21 Г 22 r2 3 r2ì Г2 2 Г2 3
+ -Лу Y С,, С,, C,, c12 Г C12 C12 c,3 u,3 c,3
+ Y /-31 /-32 r33 /-31 г 32 /-33 Г31 Г32 Г33
+ -Äz Y Cjj Си Ljj C,2 г C,2 C,2 C13 Cj3 Cj3
+ Y /-11 /-12 /-13 /-11 /-12 /-13 /-11 /-12 /-13
+ ^21 21 21 22 22 c22 u23 c23 ^23
+
+ у /-21 /-22 /-23 /-21 /-22 r23 /-21 r22 /-23
+ -Yy у C2j C21 C21 C22 ^22 22 23 u23 u23
+ v /-31 /-32 /-33 /-21 /-22 /-23 r31 r32 r33
+ -Yz v C2j C21 C21 C22 ^22 22 C23 c23 c23
+
+ -Zjf 7 /-11 /-12 /-13 /-11 /-12 /-13 /-II /^12 (-13
+ -Zjf 7 /-11 C31 /-12 C3j C3, C32 C32 C32 C33 C33 U33
+ 7 /-21 /-22 /-23 /-21 /-22 r23 r21 r22 r23
+ -Ly 7 C3, C31 C31 C32 C32 C32 C33 C32 b33
+ 7- /-31 /-32 /-33 /-31 /-32 r33 /-31 r32 r33
+ -Lz 7- C31 C31 C3, C32 C32 C32 C33 C33 C33
+
+ Die Gesamtzahl der in diesem Schema auftretenden Parameter ist nicht 8 1 , wie auf den ersten Blick scheinen
+
+ möchte, sondern 36, da nach (100) die Relationen bestehen
+
+ Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:36:16 UTC
+All use subject to https://about.jstor.org/terms
+
+ 556 D. Capecchi et al.
+
+ We point out that the symmetry of the subscripts in Eq. 26 derives from the hypothesis
+
+ that a regular enough elastic potential exists, hence its mixed second-order derivatives
+
+ coincide. Voigt did not say so explicitly; yet, it is apparent that the symmetry of the
+
+ superscripts is of constitutive origin, since it states that it is immaterial to change the
+
+ role of the relative positions of the centres of gravity of the elementary masses.
+
+ Voigťs matrix representation (25) is easy to grasp and still up-to-date; in principle
+
+ the elasticities are 36 in number, hence Voigťs results are more general than those pre-
+
+ sented by the French mechanicians at the beginning of the 1800s. Voigt then proved
+
+ that for central mutual actions he obtained the relations of Poisson and Cauchy (Voigt
+ 1910, pp. 607-608).
+
+ Voigt completed the study of linear elasticity in his monograph of 1910, passing
+
+ from the elementary masses inside the molecular sphere of action to a volume element,
+
+ small enough to apply the techniques of differential calculus but also large enough
+ to encompass a vast amount of elementary masses (a representative volume element,
+
+ RVE). Voigt obtained the local balance equations by means of the so-called 'principle
+ of solidification':
+
+ One easily obtains the balance equations for one part of a deformable body
+ through the hypothesis that equilibrium cannot be altered if one lets the consid-
+
+ ered part become rigid.69 (Voigt 1910, p. 609)
+
+ It is remarkable that in principle he obtained equations both for force and torque.70
+ In the end, Voigt presented the particular hypothesis that no external volume cou-
+
+ ples are present: in this case, the local balance equations for the moments reduce to the
+ symmetry of the components of the stress.71 This reflected on constitutive relations,
+ since some coefficients shall equal others because of the coincidence of some stress
+ components, and Voigt concluded that
+
+ [ . . . ] the result of this operation are expressions for the six components of pressure
+ [...] with 21 constants, as was supposed by earlier hypotheses.72 (Voigt 1910,
+ pp. 613-614)
+
+ rmn _ rnm - rmn _ rnm / 1 г» i '
+ rmn Lhk _ ~Lhk rnm - ~Lkh rmn _ ~Ckh rnm ' (101> / 1 г» i '
+
+ und nur sechs Kombinationen oberer resp. unterer Indizes vorkommen.
+
+ 69 Die Gleichgewichtsbedingungen für einen Teil eines deformierbaren Körpers erhält man sehr einfach
+ durch die Überlegung, daß das Gleichgewicht nicht gestört werden kann, wenn man den betreffenden Teil
+ starr werden läßt.
+
+ 70 These are provided by Eq. 103 in Voigt (1910, p. 609).
+
+ 71 Expressed by Eq. 1 17 in Voigt (1910, p. 613).
+
+ 7^ [...] das Resultat dieser Operation sind Ausdrücke für die sechs Druckkomponenten [...] mit 21
+ Konstanten, wie sie den früheren Überlegungen zugrunde gelegt war.
+
+ Thus, Voigt was once again able to reconcile the seemingly irreducible discrete,
+ force-based, and continuous, energy-based, theories of mechanics, which had caused
+ such great debate amongst the mechanicians of the 1 800s.
+
+ Footnote 68 continued
+
+ â Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:36:16 UTC
+All use subject to https://about.jstor.org/terms
+
+ Voigťs molecular models in elasticity 557
+
+ 5 Final remarks
+
+ The French mechanicians of the first decades of the 1 800s, amongst them Cauchy and
+ Poisson, developed a theory of linear elastic phenomena based on a model of matter
+
+ made of point-particles interacting by mutual central forces depending only on the
+
+ distance between the body-points. Such a model brought results which did not agree
+ with experience, since the model predicted one elastic modulus for isotropic materi-
+
+ als, whilst experience suggested two. To justify such a result, the theory proposed by
+
+ Green, based on a continuous model of matter and the existence of an elastic potential,
+
+ gained credit.
+
+ On the basis of the crystallographic studies carried out by Bravais, Voigt proposed
+ a mechanical theory for linear elasticity which is more general than the "unneces-
+ sarily specialized" one by Cauchy and Poisson. The ultimate components of matter
+ are rigid corpuscles oriented in space, exchanging systems of forces reducible to a
+
+ resultant through the centre of gravity of the elementary mass and a couple. Indeed,
+
+ the formation of crystalline lattices requires an orienting moment to allow the parti-
+
+ cle to respect the orientation of the lattice. Voigt postulated that moments as well as
+
+ forces depend on the distance between the centres of gravity of the particles and on
+
+ the orientation of the particles. By admitting that inside the sphere of molecular action
+
+ the particles rotate according to the same angle, he found that the exchanged moments
+
+ are actually moments of forces, and the only constitutive relations needed are those
+ for the intermolecular force. This result can be traced to Cauchy and Poisson's, if one
+
+ assumed the central force hypothesis, and the more general constitutive relations for
+
+ linear elasticity found by Voigt agreed with experimental results. Voigt also proposed
+
+ a more general definition of isotropy, which completed the agreement between theory
+
+ and experiments.
+
+ The study of Voigt, which sometimes seems to have been forgotten in the textbooks
+
+ on strength of materials and continuum mechanics, still appears to be of great interest:
+ it shows how a discrete approach, if suitably refined, is able to find a justification
+
+ per causas of the phenomena of interest. This may still be of great importance nowa-
+ days when studying 'complex' or 'new' materials, for which reasonable constitutive
+ relations must be investigated starting from a refined, 'microscopic' approach.
+
+ Acknowledgements The authors gratefully acknowledge the support of the grant "Progetti di ricerca
+ d'Ateneo" of "Sapienza" University of Rome for the year 2007.
+
+ References
+
+ Hevelius.
+
+ Beihoste, Bruno. 1991. Louis Cauchy. A biography. New York: Springer- Verlag.
+ Benvenuto, Edoardo. 1991. An introduction to the history of structural mechanics. New York: Springer.
+
+ Bravais, Auguste. 1866. Etudes cristallographiques. Paris: Gauthier- Villars.
+ Capecchi, Danilo, Giuseppe Ruta, and Rossana Tazzioli. 2006. Enrico Betti. Teoria della elasticita. Bari:
+
+ Cauchy, Augustin-Louis. 1823. Recherches sur l'équilibre et le mouvement intérieur des corps solides ou
+
+ fluides, élastiques ou non élastiques. Bulletin de la Société Philomathique 10 (3): 9-13; Œuvres 2 (2):
+ 300-304.
+
+ Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:36:16 UTC
+All use subject to https://about.jstor.org/terms
+
+ 558 D. Capecchi et al.
+
+ Cauchy, Augustin-Louis. 1 827a. De la pression ou tension dans un corps solide. Exercices de Mathématiques
+
+ 2: 42-56; Œuvres 1 (2): 60-78.
+
+ Cauchy, Augustin-Louis. 1827b. Sur la condensation et la dilatation des corps solides. Exercices de
+
+ Mathématiques 2: 60-69; Œuvres 1 (2): 82-93.
+
+ Cauchy, Augustin-Louis. 1827c. Sur les relations qui existent dans l'état d'équilibre d'un corps solide
+
+ ou fluide, entre les pressions ou tensions et les forces accélératrices. Exercices de Mathématiques 2:
+ 108-1 11; Œuvres 1 (2): 141-145.
+
+ Cauchy, Augustin-Louis. 1828a. Sur les équations qui expriment les conditions d'équilibre ou les lois
+
+ du mouvement intérieur d'un corps solide, élastique ou non élastique. Exercices de Mathématiques 3:
+ 160-187; Œuvres 8 (2): 195-226.
+
+ Cauchy, Augustin-Louis. 1828b. Sur l'équilibre et le mouvement d'un système de points matériels sollicités
+
+ par des forces d'attraction ou de répulsion mutuelle. Exercices de Mathématiques 3: 188-213; Œuvres
+ 8 (2): 227-252.
+
+ Cauchy, Augustin-Louis. 1828c. De la pression ou tension dans un système de points matériels. Exercices
+
+ de Mathématiques 3: 214-238; Œuvres 8 (2): 254-277.
+
+ Cauchy, Augustin-Louis. 1829. Sur l'équilibre et le mouvement intérieur des corps considérés comme des
+
+ masses continues. Exercices de Mathématiques! 4: 293-319; Œuvres 9 (2): 243-369.
+
+ Clebsch, Rudolf Friedrich Albert. 1862. Theorie der Elasticität fester Körper. Leipzig: Teubner.
+
+ Clebsch, Rudolf Friedrich Albert. 1883. Théorie de l'élasticité des corps solides, Traduite par MM. Barré
+
+ de Saint-Venant et Flamant, avec des Notes étendues de M. Barré de Saint-Venant. Paris: Dunod.
+
+ Dahan Dalmedico, Amy. 1992. Mathématisations. Augustin- Louis Cauchy et l'École française. Paris:
+
+ Blanchard.
+
+ Dugas, René. 1950. Histoire de la mécanique. Neuchâtel: Griffon.
+ Fichera, Gaetano. 1979. Il contributo italiano alla teoria matematica della elasticità. Rendiconti del Circolo
+
+ Matematico di Palermo 28 (2): 5-26.
+
+ Fresnel, Augustin-Jean. 1821. Supplément au mémoire sur la double réfraction. In Œuvres complètes ,
+ Publiées par MM. Hendri de Senarmont, Emile Verdet, Léonor Fresnel 2, 335-368. Paris: Imprimerie
+ Impériale. 2 (1868).
+
+ Green, George. 1 839. On the reflection and refraction of light at the common surface of two non-crystallized
+ media. In Mathematical papers , ed. Norman Macleod Ferrers, 245-269. London: MacMillan (1871).
+ Hellinger, Ernst David. 1914. Die allgemeine Ansätze der Mechanik der Kontinua. In EnzyklopMie der
+
+ mathematischen Wissenschaften IV 30, ed. Felix Klein, 602-694. Leipzig: Teubner.
+
+ Kirchhoff, Gustav Robert. 1876. Vorlesungen über mathematischen Physik. Leipzig: Teubner.
+
+ Kohlrausch, Friedrich, and F.E. Loomis. 1870. Ueber die Elasticität des Eisens, Kupfers und Messings,
+ insbesondere ihre Abhängigkeit von der Temperatur. Annalen der Physik und Chemie 141 : 481-503.
+
+ Lamé, Gabriel. 1859. Leçons sur les coordonnées curvilignes et leurs diverses applications. Paris: Mallet-
+
+ Bachelier.
+
+ Lamé, Gabriel. 1 866. Leçons sur le théorie mathématique de l'élasticité des corps solides. Paris: Gauthier-
+
+ Love, Augustus Edward Hough. 1907. A treatise on the mathematical theory of elasticity (4th ed.).
+
+ Villars (1st ed. 1852. Paris: Bachelier).
+
+ Cambridge: The University Press.
+
+ Marcolongo, Roberto. 1902. Teoria matematica dell'elasticità. Messina: Regia Università (2nd ed. 1904
+
+ as Teoria matematica dello equilibrio dei corpi elastici. Milano: Hoepli).
+
+ Marcolongo, Roberto. 1907. Progressi e sviluppo della teoria matematica della elasticità in Italia ( 1 870-
+
+ 1907). /I Nuovo Cimento 14 (5): 371-410.
+
+ Navier, Claude-Louis-Marie-Henri. 1827. Mémoire sur les lois de l'équilibre et du mouvement des corps
+
+ solides élastiques. Mémoires de l'Academie des Sciences de l'Institut de France 7: 375-393.
+
+ Navier, Claude-Louis-Marie-Henri . 1 864. Résumé des leçons données a l ' École des ponts et chaussées [...].
+
+ Troisième édition avec des notes et des appendices, par M. Barré de Saint-Venant. Paris: Dunod.
+
+ Poincaré, Henri. 1892. Leçons sur la théorie de l'élasticité. Paris: Carré.
+
+ Poisson, Claude-Louis-Marie-Henri. 1828. Mémoire sur l'équilibre et le mouvement des corps élastiques.
+
+ Mémoires de l'Académie des Sciences de l'Institut de France 8 (2): 357-570 (1829).
+
+ Poisson, Claude-Louis-Marie-Henri. 1829. Mémoire sur les équations générales de l'équilibre et du mouv-
+ ement des corps solides élastiques et des fluides. Journal de l'École Polytechnique 13: 1-174 (1831).
+
+ Stokes, George Gabriel. 1845. On the theories of the internal frictions of fluids in motion, and of the equi-
+ librium and motion of elastic solids. In Mathematical and physical papers , 75-129. Cambridge: The
+ University Press (1880).
+
+ Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:36:16 UTC
+All use subject to https://about.jstor.org/terms
+
+ Voigťs molecular models in elasticity 559
+
+ Thomson, William (Lord Kelvin). 1855. On the thermo-elastic and thermo-magnetic properties of matter.
+
+ Quarterly Journal of Mathematics 1 : 57-77 ( 1 857).
+
+ Thomson, William (Lord Kelvin), and Peter Guthrie Tait. 1 867. Treatise on natural philosophy. Cambridge:
+
+ The University Press.
+
+ Timoshenko, Stephen Prokofievich. 1953. History of strength of materials. New York: McGraw-Hill.
+
+ Todhunter, Isaac, and Karl Pearson. 1 886. A history of the theory of elasticity and of the strength of materials,
+
+ from Galilei to the present time. Cambridge: The University Press.
+
+ Truesdell, Clifford, and Richard Toupin. 1960. The classical field theories. In Handbuch der Physik III/l,
+
+ ed. S. Flügge, 226-793. Berlin: Springer.
+
+ Truesdell, Clifford. 1991. Л first course in rational continuum mechanics. New York: Academic Press.
+
+ Voigt, Woldemar. 1887. Theoretische Studien über die Elasticitätsverhältnisse der Kristalle. Abhandlun-
+
+ gender Gesellschaft der Wissenschaften zu Göttingen - Mathematische Classe 34: 1-100.
+
+ Voigt, Woldemar. 1900. L'état actuel de nos connoissances sur l'élasticité des cristaux. In Rapports présen-
+ tés au Congrès international de Physique , rassemblés et publiés par Ch.-Ed. Guillaume, L. Poincaré,
+ 277-347. Paris: Gauthier- Villars.
+
+ Voigt, Woldemar. 1910. Lehrbuch der Kristallphysik. Leipzig: В. G. Teubner.
+ Wertheim, M.G. 1 844. Recherches sur l'élasticité. Annales de Chimie et de Physique 1 2: 385-454; 58 1-624.
+
+ Whittaker, Edmund Taylor. 1 9 1 0. Л history of the theories of aether and electricity, from the age of Descartes
+
+ to theclose of the nineteenth century. Edinburgh: Thomas Nelson and Sons Ltd.
+
+ Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:36:16 UTC
+All use subject to https://about.jstor.org/terms
+
+

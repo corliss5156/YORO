@@ -1,0 +1,5809 @@
+ 
+
+ 
+
+ 
+
+ 
+
+Trigonometric tables: explicating their construction principles in China
+Author(s): Jiang-Ping Jeff Chen
+Source: Archive for History of Exact Sciences, Vol. 69, No. 5 (September 2015), pp. 491-536
+Published by: Springer
+Stable URL: https://www.jstor.org/stable/24569663
+Accessed: 18-05-2020 09:14 UTC
+
+JSTOR is a not-for-profit service that helps scholars, researchers, and students discover, use, and build upon a wide
+
+range of content in a trusted digital archive. We use information technology and tools to increase productivity and
+
+facilitate new forms of scholarship. For more information about JSTOR, please contact support@jstor.org.
+
+Your use of the JSTOR archive indicates your acceptance of the Terms & Conditions of Use, available at
+
+https://about.jstor.org/terms
+
+Springer is collaborating with JSTOR to digitize, preserve and extend access to Archive for
+History of Exact Sciences
+
+This content downloaded from 203.78.15.150 on Mon, 18 May 2020 09:14:53 UTC
+All use subject to https://about.jstor.org/terms
+
+ Arch. Hist. Exact Sei. (2015) 69:491-536 f M1 CrossMark
+ DOI 10.1007/s00407-015-0162-z W
+
+ Trigonometrie tables: explicating their construction
+ principles in China
+
+ Jiang-Ping Jeff Chen1
+
+ Received: 9 February 2014 / Published online: 29 July 2015
+
+ © Springer-Verlag Berlin Heidelberg 2015
+
+ Abstract The trigonometric table and its construction principles were introduced to
+
+ China as part of calendar reform, spear-headed by Xu Guangqi (1562-1633) in the
+
+ late 1620s to early 1630s. Chinese scholars attempted and succeeded in uncovering
+
+ how the construction principles were established in the seventeenth century and then
+
+ in the eighteenth century expanded to include more algorithms to compute the values
+
+ of trigonometric lines. Successful as they were in discoursing the construction prin
+
+ ciples, most Chinese scholars did not actually construct trigonometric tables anew. In
+
+ the early nineteenth century, a revolutionary approach was developed, which resem
+
+ bles computing a finite sum of power series to trigonometric functions of an arbitrary
+
+ arc less than a one-half circle. Though hailed by many modern historians as Chinese
+
+ achievements in developing "infinite series" of trigonometric functions, this approach
+
+ was viewed by the actors at the time as a quick means to construct trigonometric
+ tables. Interestingly, even with these "quick" methods, no trigonometric table was
+
+ constructed. Besides the fact that constructing a trigonometric table afresh is a time
+
+ consuming business, the classification of the trigonometric table and their construction
+
+ principles into different genres of knowledge by scholars offers an additional expla
+
+ nation of drastically uneven treatment of trigonometric tables and their construction
+
+ principles.
+
+ Communicated by: Han Qi.
+
+ This study was partially supported by Chiang Ching-kuo Foundation for International Scholar Exchange
+ (GS013-A-07), Fulbright Scholar Program in China, and Chinese National Science Foundation,
+ No. 11261036.
+
+ IS3 Jiang-Ping Jeff Chen
+
+ jijchen@stcloudstate.edu
+
+ St. Cloud State University, St. Cloud, MN, USA
+
+ *£) Springer
+
+This content downloaded from 203.78.15.150 on Mon, 18 May 2020 09:14:53 UTC
+All use subject to https://about.jstor.org/terms
+
+ 492 J.-P. J. Chen
+
+ 1 Introduction
+
+ It is said that one of the defining characteristics of trigonometry as a subject is "its sys
+
+ tematic ability to convert back and forth between measures of angles and of lengths."1
+
+ If such a view is to be taken, considering the fact that trigonometric functions of an
+
+ angle (or an arc on a circle with a predetermined radius) in the early modern period
+
+ were expressed in terms of the length of associated line segments,2 one would log
+
+ ically reach the conclusion that one of the ultimate goals of trigonometry was to
+
+ construct trigonometric tables, which juxtapose measures of angles and the lengths of
+
+ the associate line segments.
+
+ The story of trigonometry in China begins with the Jesuits at the beginning of the
+
+ seventeenth century.3 Though overtly simplified, the Jesuits' entries into the Chinese
+
+ courts were often depicted as victorious, based on "exactitude in the calculation of
+
+ celestial phenomena, especially solar and lunar eclipses."4 In the midst of trigonom
+
+ etry, the mathematical basis for astronomy and calendric science stood a powerful
+
+ computational tool, trigonometric tables, which has not been systematically discussed
+
+ in the historiography in English.5 It might not be feasible, nor is it necessarily advan
+
+ tageous to assess how much of the Jesuit's accurate prediction should attribute to the
+
+ 1"What distinguishes trigonometry as a subject in its own right is its systematic ability to convert back and
+
+ forth between measures of angles and of lengths"; see Van Brummelen (2009,9).
+
+ 2 In traditional Chinese mathematics, the concept of an angle was described in terms of the arc subtended
+
+ by the angle on a circle. The discussions in this paper do not make a point to distinguish them.
+
+ 3 Before the arrival of the Jesuits, the Chinese had obtained certain "proto-trigonometric" results in astron
+
+ omy, calendrical science, and land surveying, including an eighth-century "tangent table." Trigonometry
+
+ as an independent subject never developed in China prior to the Jesuit's presence in China. For a survey of
+ the results obtained by the Chinese before 1600s, see Chen (2010,68-72).
+
+ 4 Based on the analysis of the degree of precision of both the calculations and the observations ofluni-solar
+
+ eclipses, Lu (2007) discussed the competition among the European, Chinese, and Islamic methods in astro
+
+ nomical predictions in late Ming China (1368-1644) and reached the conclusion that Chongzhen Emperor's
+ (reigned 1627-1644) decision of going forward with the calendar reform by adopting the European method
+
+ was less due to its superiority of calculation and prediction, but more out of the frustration with the failure
+
+ of the Chinese method. After the fall of Ming dynasty, in a contest of the solar eclipse prediction recorded
+
+ in 1644, the Western method and its observation tools won by achieving a perfect match (yan 驗）of the
+
+ predictions (yiice 預測）of the first contact, the totality, and the fourth contact with the observed times. See
+ Huang (1990).
+
+ J In the historiography of trigonometry in Chinese, Li (1927) discusses the various trigonometric tables and
+
+ certain aspects of trigonometry that appeared in mathematical treatises published between the seventeenth
+
+ and nineteenth century in China. Yan (1958) describes the Chinese achievements in spherical trigonometry
+
+ and emphasizes that these results were obtained without utilizing plane or spherical triangles. Bai Shangshu
+
+ identifies some of the European sources for the trigonometric treatise Dace 大測(Grand Measure) in
+
+ Bai (1963) and for Celiang quanyi 測量全義（Complete Principles of Measurement) in Bai (1984). Chu
+
+ Ping-yi examines the role played by the computational device such as trigonometric tables in the scientific
+
+ development. See Chu (1999). Dong Jie in his doctoral thesis analyzes the trigonometric treatises composed
+
+ in late Ming and early Qing China between 1630s and 1722. He focuses on the reasoning and proofs of
+
+ trigonometric properties, including the construction principles of trigonometric tables; see Dong (2011).
+ In the literature in English, Isaia Iannoccone discussed the Table of Eight Lines dividing the Circle，an
+
+ early trigonometric table introduced by the Jesuits into China in 1630s and identified its European source;
+ see Iannaccone (1998). Cullen (1982) describes the first Chinese table of tangents, its construction, the
+
+ accuracy of its entries, and its origin. Needham's scant discussion of trigonometry in China focuses on
+
+ Ô Springer
+
+This content downloaded from 203.78.15.150 on Mon, 18 May 2020 09:14:53 UTC
+All use subject to https://about.jstor.org/terms
+
+ Trigonometric tables: explicating their construction... 493
+
+ computational prowess of the trigonometric tables; nevertheless, the story of trigono
+
+ metric tables and how they were “domesticated” by Chinese scholars in the seventeenth
+
+ to the early nineteenth century through the discussions of their principles of construc
+
+ tion is intellectually illuminating and interesting in its own right.
+
+ This paper will examine the trigonometric tables and analyze the treatises explaining
+
+ the principles of construction by the Jesuits as well as by Chinese scholars from
+ 1630s to 1850s. The tables and/or the accompanying treatises chosen for analysis
+
+ have certain characteristics of “firsts” in China: the first complete trigonometric table,
+
+ the first treatise discussing trigonometry, the first logarithmic trigonometric table,
+
+ the first treatise that explicitly describes the Chinese counterpart to trigonometric
+
+ tables, the first treatise providing complete geometric constructions and “proofs” to
+
+ the construction principles, and last but not the least, the first trigonometric table
+
+ constructed from anew by following the construction principles by â Chinese scholar.
+ These texts are summarized in Table 1.
+
+ In addition, we will also examine the trigonometric table and the construction prin
+
+ ciples included in the compendium, Yiizhi shuli jingyun 御製数理精蘊(the Essence
+
+ of Numbers and their Principles, Imperially Composed), one of the editorial projects
+
+ taken by the court following Kangxi Emperor's 康熙（1654-1722) decrees toward the
+
+ end of his reign. Other trigonometric tables or treatises discussing properties that can
+
+ be construed as construction principles did exist in China. They are excluded in our
+
+ analysis because in most cases, the trigonometric tables and the construction principles
+
+ do not appear together.6
+
+ In the year of 1839, a treatise by Ming Antu 明安圓（1692-1763)，7 Geyuan milii
+
+ jiefa 割圆密率捷法(Quick Methods for the Circle's Division and Precise Lii), was
+
+ published posthumously. This treatise utilizes a series of similar isosceles triangles to
+
+ obtain equalities of numerous ratios and to derive algorithms that resemble the finite
+
+ sum of the series expansion of trigonometric lines. These algorithms compute the
+
+ length of the trigonometric lines directly from the given measure of an (acute) arc and
+
+ Footnote 5 continued
+
+ the work of Guo Shoujing 郭守敬（1231-1316)，a thirteenth-century astronomer, and contains none of the
+ development after the arrival of the Jesuits; see Needham (1959,108-110).
+
+ 6 Wang Xichan 王銀鬮（1628~1682) and Dai Zhen 戴！！（1724-1777) each discussed in their respective
+
+ trigonometric treatise the properties which form the basis of constructing trigonometric tables. Neither of
+
+ them included trigonometric tables in his treatise; more importantly, they did not present these properties
+
+ in the context of constructing trigonometric tables. Consequently, their treatises are not included in the
+
+ following analysis. Among the tables discussed, Xue's table is logarithmic. A few other regular or log
+
+ arithmic trigonometric tables during the period are still extant. Two notable ones are: Cuiwei shangfang
+
+ shuxue 翠薇山房數學(Mathematics of Cuiwei Hillhouse, 1815) by Zhang Zuonan 張作捕（1772-1850)
+
+ and Jiang Lintai 江趣泰(late eighteenth century), and Baxian jianbiao 八錢簡表(A Simple Table of Eight
+
+ Lines) compiled and published by Jia Buwei 賈步緯（1840-1903) in 1903. The former was simplified
+
+ from that in Numbers and Principles and both have no accompanying construction principles.
+
+ 'Ming Antu is also known as Minggantu in the literature. No currently known documentation, Chinese or
+
+ Mongolian, indicates Ming's birth and death years. Most scholars in China follow the practice started by
+ Li Di, who used 1692 and 1763 as Ming's birth and death years, respectively.
+
+ Springer
+
+This content downloaded from 203.78.15.150 on Mon, 18 May 2020 09:14:53 UTC
+All use subject to https://about.jstor.org/terms
+
+ Table 1 Trigonometrie tables, accompanying treatises, authors/compilers, years of composition or publi
+ cation
+
+ Trigonometric tables and the accom- Compiler/translator/author
+ Trigonometric tables and the accom
+ panying treatises containing construc
+ panying treatises containing construc
+
+ Compiler/translator/author
+
+ Date
+
+ tion principles
+ tion principles
+
+ Geyuan baxian biao il'J OS Johann Schreck (1576-1630),
+ Geyuan baxian biao 割圓八線表
+ (Table of Eight Lines Dividing the Giacomo Rho (1593-1638), Adam
+ (Table of Eight Lines Dividing the
+ Circle), Dace (Grand Scha11 von Bel1 (1592-1666),
+ Circle), Dace 大測(Grand
+ Measure) Johann Schreck (1576-1630)
+ Measure)
+
+ Giacomo Rho (1593-1638), Adam
+ Schall von Bell (1592-1666)，
+ Johann Schreck (1576-1630)
+
+ Johann Schreck (1576-1630), 1630s
+
+ 494 J.-P. J. Chen
+
+ Bili sixian xinbiao比例四線新表
+ Bili sixian xinbiao Nicolas Smogulecki (1609-1656)
+ (the New Logarithmic Table of Xug ]
+ (the New Logarithmic Table of
+ Xue Fengzuo 薛鳳作
+ Four Lines), Zhengxian bu
+ Four Lines), Zhengxian bu (1600-1680)
+ (1600-1680)
+ 正弦部(Section on Sines)
+ JEijIi hP (Section on Sines)
+
+ Nicolas Smogulecki (1609-1656) 1662
+
+ Tianhu xiangxian biao Li Zijin (1622-1701)
+ Tianhu xiangxian biao
+
+ Li Zijin 李子金(1622-1701) 1673
+
+ 天弧象限表(the Table of
+ Pill (the Table of
+ Celestial Arcs [in the] Quadrant)
+ Celestial Arcs [in the] Quadrant)
+
+ Jie baxian geyuan zhi gen [Mei Wending
+ Jie baxian geyuan zhi gen
+
+ MAmmWZU (Explicating (1633-1721) and] Yang Zuomei
+ 解八線割圓之根(Explicating
+ the Origin of [how] Eight Lines (fl. Around 1700)a
+ the Origin of [how] Eight Lines
+ Divides the Circle)
+ Divides the Circle)
+
+ 楊作枚(fl. Around 1700)a
+
+ [Mei Wending 梅文鼎 1723
+ (1633-1721) and] Yang Zuomei
+
+ Yixianbiao (the Table of An Qingqiao 3-CMfta (1756-1829)
+ Yixian biao 一氣表(the Table of
+
+ An Qingqiao 安清翹（1756~1829) 1819
+
+ One Line)
+ One Line)
+
+ d This is a treatise in the collection of Mei Wending's works in astronomy and mathematics, Lisuan quanshu
+
+ 靥算全害(Complete Writings on Mathematics and Calendric Astronomy). The current evidence shows that
+ the treatise was composed by Yang Zuomei. There will be more discussions on its authorship later. Since
+
+ it is part of the collection of Mei's works, we list Mei as a co-author. In most copies extant in China, the
+
+ compendium contains only the construction principles; the story of the trigonometric table in Mei's Lisuan
+
+ quanshu will, however, prove interesting to be included
+
+ vice versa.8 Two decades before the publication of Ming's treatise, some version(s) of
+
+ Ming's manuscript was circulated among a small circle of scholars, some of who also
+
+ developed and published similar algorithms independently/ Chinese scholars at the
+
+ time mostly considered these algorithms as a quick way to constructing trigonometric
+
+ tables, instead of replacing them.
+
+ The analysis below will show that none of the trigonometric taoies that appeared
+ in China between 1630 and 1850 was constructed from scratch, with one possible
+
+ exception, the Table of One Line. Some are translated and modified European tables,
+
+ 8 For the discussion of Ming Antu's treatise, see Luo (1988, 1990) among numerous articles in Chinese
+
+ on the topic of “power series" in traditional Chinese mathematics. For scholarships in European languages,
+ see Jami (1990, 1988). For a brief discussion on similar isosceles triangles on a circle, see Engelfriet (1998,
+ 415-419). Martzloff (1997, 353-361) describes the development of "infinite series" in China based on
+
+ Ming's work. There one can also learn of various European treatises on the topic of infinite series that were
+
+ available at the Jesuit library in seventeenth- to eighteenth-century Beijing.
+
+ 9 Dong Youcheng 董祐誠（1791-1823) claimed that he read Ming's algorithms without any accompanying
+
+ explication or diagrams in 1819 and independently derived similar algorithms based on the same principle,
+ similar isosceles triangles on a circle; see Dong Youcheng (1821, preface) and Tian (2005, 307).
+
+ Springer
+
+This content downloaded from 203.78.15.150 on Mon, 18 May 2020 09:14:53 UTC
+All use subject to https://about.jstor.org/terms
+
+ Trigonometric tables: explicating their construction... 495
+
+ Fig.l Geometric definitions of
+ Fig. 1 Geometrie definitions of
+
+ trigonometric lines
+ trigonometric lines
+
+ some an augmentation to an old table, and others are simplification of or direct copy of
+
+ translated tables. In general, most treatises are detailed in disseminating the principles
+
+ and yet scant in actual application of them to constructing tables. Such an uneven
+
+ treatment of construction principles and the actual edification of the table highlight
+
+ the different natures of various kinds of “scientific knowledge” in China. It also raises
+
+ the issue of classifications of knowledge perceived by the actors in Qing China. In
+
+ the end, we will discuss the actors' views on the functionality of the tables in contrast
+
+ to that of their construction principles and position them in the dichotomy of li 姓
+
+ (principles) and ji 技(skills) in the Chinese tradition.
+
+ Most of the trigonometric terms coined in the translated treatises are still in use
+
+ today. Their definitions in the seventeenth century are given in Fig.1 and Table 2; the
+
+ line segments are associated with the arc DB (or angle DOB) on the circle centered at
+
+ O (Fig.1).Strictly speaking, the lengths of these line segments are not the values of the
+
+ corresponding modern trigonometric functions. Rather, they are equal to the products
+
+ of the radius of the circle and the modern function values.10 In this paper, however,
+
+ whenever we refer to these trigonometric terms in words, e.g., the sine of an arc, we
+
+ mean the length of the line segment for the appropriate arc, while the expressions
+ sin (a) or tan (a) retain the modern numerical values for the arc ot.
+
+ 2 The trigonometric table introduced by the Jesuits
+
+ Even though there is a record of â collection of tangent lengths in the Jesuit translated
+
+ texts published earlier,11 our analysis of trigonometric tables and texts begin with
+
+ 10 In short, the sine length of an arc of is equal to r sin (a), where r is the radius of the circle on which the
+
+ arc a is located. In the seventeenth century, the trigonometric line segments were defined for arcs between
+
+ 0° and 180°; for an obtuse arc, the trigonometric segments for its supplementary arc are used. In particular,
+ all trigonometric values are positive.
+
+ 11 The earliest record of Jesuit-introduced trigonometric tables is a table of the length of shadows in Biaodu
+
+ Shuo 表度說（On [using the] Table and Measure) by Sabatino de Ursis (1575-1620). This table records
+
+ shadow lengths from 0° to 90° with a 10-min increment. It can be construed as a table of tangent lengths.
+
+ 旬 Springer
+
+This content downloaded from 203.78.15.150 on Mon, 18 May 2020 09:14:53 UTC
+All use subject to https://about.jstor.org/terms
+
+ 496 J.-P. J. Chen
+
+ Table 2 Chinese terms for
+ Table 2 Chinese terms for
+
+ Segment
+ Segment
+
+ Translated terms
+ Translated terms
+
+ Modern terms
+ Modem terms
+
+ trigonometric lines with their
+ trigonometric lines with their
+ modern names
+ modern names
+ Zhengqie IE®
+ Zhengqie 正切
+
+ Tangent
+ Tangent
+
+ DE
+ DE
+
+ OE
+ OE
+
+ FG
+ FG
+
+ OG
+ OG
+
+ AB
+ AB
+
+ AD
+ AD
+
+ CF
+ CF
+
+ Zhengge 正割
+ Zhengge lElRj
+
+ Secant
+ Secant
+
+ Yiiqie称切
+ Yiiqie W®
+ •餘割
+ Yiige l&iRl
+
+ Zhengxian 止 fe
+ Zhengxian lEijIi
+
+ Zhengshi 正夭
+ Zhengshi IE^C
+
+ Yiishi餘矢
+ Yiishi
+
+ Cotangent
+ Cotangent
+
+ Cosecant
+ Cosecant
+
+ Sine
+ Sine
+
+ Cosine
+ Cosine
+
+ Versine
+ Versine
+
+ Co-versine
+ Co-versine
+
+ BC(=AO)
+ BC(=AO)
+
+ Yiixian 妳弦
+ Yiixian
+
+ the Table of Eight Lines Dividing the Circle (hereafter, the Table of Eight Lines) and
+
+ the treatise Grand Measure，which discusses the principles of construction. Both are
+
+ part of the Chongzhen lish 崇禎曆書(Astronomical Compendium of the Chongzhen
+
+ Reign, hereafter Chongzhen Astronomical Compendium)}2 The Table of Eight Lines
+
+ is identified as a translated and simplified version of a European table.13 In spite of
+
+ the name, the Table of Eight Lines contains a table of only six lines (equivalent to the
+
+ modern-day six trigonometric functions) for the arcs ranging from 0。to 45。，with a
+
+ 1-min increment.14 The values in the tables are whole numbers; the values for the sine
+
+ and cosine lines have 6 or fewer digits and the rest 9 or fewer. The table explicitly
+
+ states that the radius of the circle is one hundred thousand in length.15 Figure 2 is
+
+ the first page in the Table of Eight Lines for the trigonometric lines of arcs measured
+
+ 0’ to 30’.16 The entries in the top row from the right to the left are 0 (degree), sine,
+
+ tangent line, secant line, cosine, cotangent line, cosecant line, and an empty space. The
+
+ bottom row reads from right to left, an empty space, cosine, cotangent line, cosecant
+
+ 12 This compendium was later presented to the Qing court by Adam Schall von Bell under the name
+
+ Xiyang xinfa lishu 西洋新法靥害(Astronomical Compendium according to the new Western methods). It
+
+ was further revised by Ferdinand Verbiest (1623-1688). In addition to corrections on the content including
+
+ numerical values, the title was re-fashioned as Xinfa lishu 新法靥害（Astronomical Compendium according
+
+ to the new methods) to de-emphasize the Western, i.e., foreign, contribution. Eventually, it was included
+
+ in Siku quanshu 四库全耆（The Complete Texts of the Four Repositories) as Xinfa suanshu 新法算耆
+
+ (Mathematical Compendium according to the new methods).
+
+ 13 See Iannaccone (1998).
+
+ 14 The “eight lines" in the title refer to the eight trigonometric lines in Table 2. The texts before the table
+
+ explains that the versine and coversine lines are simply the differences between the radius and the cosine
+
+ and sine lines, and therefore, their lengths are not needed in the table. See Schreck et al. (1631,1206).
+
+ 15 The explanatory texts before the table indicate that the radius used in more detailed tables (da biao
+
+ 大表，literally great tables) might have eight, nine, or even ten digits, but the current (smaller) table has
+
+ only six digits to expedite calculation; see Schreck et al. (1631，1206).
+
+ ^ This page in fact are two leaves from two different pages, 8b and 9a, in Schreck et al.(1631，1208-1209).
+
+ In the traditional thread-bound format, they are seen at the same time when the treatise is opened to that
+
+ page.
+
+ 必 Springe
+
+This content downloaded from 203.78.15.150 on Mon, 18 May 2020 09:14:53 UTC
+All use subject to https://about.jstor.org/terms
+
+ Trigonometric tables: explicating their construction... 497
+
+ —
+
+ •.
+
+ j
+
+ y
+ 0
+
+ 0
+ D
+
+ 0
+ y
+
+ y
+ 0
+
+ o
+ 0
+
+ 0
+ 0
+
+ Il
+ ft
+ K.
+ ft
+
+ 圓
+
+ Oft
+ AS:
+ A*
+ -bi
+ ft£
+ 六
+ a&
+ 5b. 3L
+ t31 21'
+ rat 3L
+
+ s E
+ IS
+ ftii
+ -a
+ 五丨
+ °a
+ ft. IS
+ A IB
+ 測
+ -ta
+ Acs
+ IrSSi
+ jS-Ej
+ ra®
+ ËE1
+ s
+ sis
+ - a
+
+ 0 O 0 o o • o o o
+ OOOOCfOOO
+ -Mmmus.
+ ニ八ゾ••四七七三四三
+ \四三七人X—七一
+ AlSS-fcAA—1~
+ 四七五一九五妈—‘
+ B-ta-ftaS—
+ t八六三昍九4人
+ AAftEiaftaA
+ J六九四丘七べ六
+ oftftllUILfcAft
+ !1<?へ天九ニ七五
+ ft0 ASftftfca
+ -o-to一一九凹
+ fto-fco— ft|3
+ .1七八一七九ニ四
+ ••fcA—tftfttS
+ コ三ニ七た一ん£
+ S=ft.fcft-AE
+ ft-ifc-tESE
+ ベ-Î?•七七三四三
+ tt-s a=.-E
+ 七九ニニ五ニ一三
+ AHA-fcRftAs
+ \pqyt七四六八ニ
+ t六ニ四四四六ニ
+ -oSES.EItSr.
+ 1OB1SE0.-.
+ S./\三ん一たニニ
+ S.A=A-ftftft
+ £ftAiAB-~
+ &九之五八四一ニ
+
+ m^Ktf  5£ ifr
+ wmmmmMsmmfiMm
+ OOOOO
+ SOOOO
+ ooooooooo
+ 九九九/し九
+ tftftB-fc fcSME
+ ftftAftft
+ t
+ ft-E-fcAA~-fc
+ ft.
+ <-• f» rt- o i'i i > o  印 |M ；h O  1 rV@ o r*->«v 0  l»t>iV o  B l W O  '• rV3 o  lい“ O
+ K
+ s3.a-ft.aa—
+ ft
+ oEftEilftSA
+ t
+ 0三六三四九；ti八
+ ft
+ .1
+ 1
+ tAABafcAA
+ 七\八isa七八六
+ 一二七五九ニ七五
+ ！L ..
+ ft
+ t
+ 0 0六<?ーー九四
+ oofto AB1
+ ft
+ tafc—tft-ra
+ ti
+ 七五七—七九ニffl
+ ft
+ t
+ ん九o-t/L—八三
+ ft.ftoE-ft.-AE
+ ft
+ 一七=七七三四三
+ -fcEfcfcEESE
+ ■ヒ="•ニ五ニ-'三
+ fcE——i—--E
+ 三七七七®六八ニ
+ £.fc-fcfc®ftAft;
+ 0人つEB四卯六ニ
+ o a-vernal i"* r.
+ •t
+ ft
+ L
+ Aft.-aa.ais
+ \九-五5.五四ニニ
+ ft
+ II
+ fift-A—ft—~
+ 六六一人一九二ニ
+ ft
+ il
+ ニ女七五八内一
+ ftftfcSAB-:ft
+ ft
+ ft
+ fL
+ a-tA-iro
+ 5■七八ニ：： 0 ニ
+ t.
+ ft.
+ ft—E)Aftoft—
+ ft•—！!!!入九o九一
+ A—
+ しニニ三九0八—
+ A
+ sraSA A-'-fc—
+ o ta五八、一七一
+ \
+ •A
+ 九一O0七三•六一
+ ft—oO-fcEft —
+ \
+ A
+ \ofta-fti
+ \0九艽ニ六五"*
+ \
+ A
+ ニ0丘六四九四
+ r-oaftsaftisi"
+ A
+ ニ"*七三二三
+ A
+ >\
+ Sffl-toi-tE—
+
+ し八六八九0九-"
+ i'AAAftOft
+ ftft.HEfl.OA
+ 六#Lia三■/LO八一
+ 園
+ -5 AAA—fc—
+ -“* 土八べ人一•七
+ Aft^ofcEft—
+ を二三 《七三六一
+ Aftftftftfta
+ /V ニニ/;：:六五一
+ 1
+ tEAft Eft®—
+ 七三八六®九四一
+ -a 'ios=a
+ -六》凹二三■凹一
+ ao—a-ts—
+ '\0一一丘七=
+ 圓
+ 1 ニ：■：! ニ::.三一
+ 11 Ï
+ ISE-iEiH
+ A"aZIt'H
+ れ ニ五二三七ニ—
+ 0 \ rl
+ rtlt ul
+ w1ゴ
+ Sw4i»l
+ 六九三七七ニニ一
+ ftftEfc-fcai
+ EoAfcfcft-—
+ II
+ '"V-oriSA—
+ A-onaA—
+ OHEEJiA
+ S>Mi  1 11'  t 1 1
+ 1 « O !•»  cs o  \nrn>  ？-SfV
+ EftAA£ei-»
+ 反六八À五PI -，ー
+ ftoEftS®—
+ 撒割正  撒切正
+ m
+ HA  # ?!| Jt
+
+ 七
+ ■fc
+ .L.
+ ナ
+ ノ:九九丸t
+ -'"'/I ft ft ft
+ ^ II
+
+ A =
+ -fcE
+ x.
+
+ is
+ m§
+
+ --B
+ C'ffl
+
+ t
+ fc
+ t
+ fc
+ 七
+ t
+
+ z
+ :
+ z
+
+ 0 =
+
+ V 1ÎV
+
+ ニ
+ n
+
+ Vイ1
+
+ z.
+
+ w\w\\\
+
+ X
+
+ =.
+
+ ■L
+ JL
+
+ -
+
+ --
+
+ -
+
+ -
+
+ -
+
+ -
+
+ -
+
+ ‘ '， 7 ,..
+
+ ,m W'j je  m -fc;; JE.  ?£ je.
+ 0 0 0 O 0 «*>
+ t> o 0 o o o
+ JOOOO
+ ^ o oo o ■—
+
+ o
+
+ W
+ i?i|
+
+ oocoo—
+ OOO'OO —
+ 0
+ p
+
+ —
+
+ A.
+
+ *
+
+ fnn
+
+ ,.0
+
+ 0 o.
+
+ la*.
+ *
+
+ [d
+ •=,
+
+ ,\T,.
+ ■fc A.
+
+ 品
+
+ '\fcZ
+ へ七三
+ fOŒJ
+ fc OIEJ
+
+ 股
+ A
+ 八
+ 锒
+ <r*.
+
+ '\
+ 7l
+ !0
+ l— —
+ ri —■
+
+ * 一—
+ 7;
+ £101
+ 五四一
+ 反七一
+ £-fc~
+ P9 0
+ Woニ
+ s s -
+ £  EL—
+ :十二
+ -九ニ
+ —E
+
+ 91  P  1  i
+ H
+ 圃  未
+ S ■
+ P m
+ _
+ i
+ A.
+ m  八
+ 5?t
+
+ 0 >»
+ ft=
+ AS
+ fc A
+ 六〜
+ ft——
+ HQ
+ ao
+ ft七
+ f.fc
+ 0D。ニ
+ OUft
+ EEE
+ ftft-ft
+ 一A:
+ -Aft
+ '>- =
+ oft =
+ fcWE
+ 九时ニ
+ Afci
+ MI2
+ 七0四
+ fcoim
+ ftEsn
+ 六三!PI
+ aft®
+ 1[六rà
+ BAK
+ 四九pi
+ Bfta
+ w ニ丑
+ 三 S.S.
+ Ei.i.
+ ニ AJ.
+ ft AS.
+ —六
+ — ft
+ olftft
+ •JW六
+ 九六六
+ ftftft
+ Â九六
+ Aft ft
+ ■fc-•七
+ -fc "-fc
+ ftifc
+ 尺X七
+ M七
+ flA-fc
+ fi-'A
+ 社一八
+ MM A
+ H9W八
+ ••.七八
+ fc A
+
+ /»
+ 气尽四，
+ H.AIH
+ 反六1M
+ 四五四
+ Rtfi®
+ BI3JL
+ 33
+ 2-X.Tl
+ 三五JL
+ :人A
+ Z\JL
+ —  -4s
+ —一-if
+ 5w,î
+ o "9
+ tナノ:
+ '(.*/:
+ Ml>';
+ 八丸六
+ x o t
+ •C O •ヒ
+ >.314:
+ -1". jifc
+ fc* '.L
+ K.-/. t
+ â一八
+ u.  -A
+ ww八.
+ WW/\.
+ :.fc
+ ••七
+
+ A,—
+ /L
+ o—
+
+ [13 —
+ a
+
+ E —
+
+ -fc —
+
+ — JZ.
+
+ r —
+
+ T.
+
+ -—
+
+ s
+
+ c.
+
+ ï
+
+ _
+ S
+ s
+ 1  朱
+ W o o o o—
+ Woo oo—
+ '採 m  ザ，  I5È.餘丨丨1  ■“
+
+ / ft ^ ffc  54: -f#
+
+ ffl f^  J
+
+ -fc~
+ SB
+ A —
+ it —
+ o iL
+
+ -L> —
+
+ Fig. 2 First page of the trigonometric values in Table of Eight Lines
+
+ line, sine, tangent line, secant line, and 89 (degrees). In the first column on the right
+
+ under 0 (degree) are the measures of the arcs from 0’ to 30’. In the last column on the
+
+ left under the empty space, the measures are listed in the decreasing order, from (89。）
+
+ 60' to 30’. This arrangement reduces the bulk of the table in half.17 This cost-saving
+
+ arrangement also becomes a standard practice for all the trigonometric tables in China
+ afterward.
+
+ It is worth noting that the order of the digits of the numerical values from the
+
+ single to the tens, and on, is from left to right, contrary to the modern convention from
+
+ right to left. For example, the value of sin(30') in the second column on the right and
+ last numerical value at the bottom is 873 in the modern form although it is written
+
+ horizontally from left to right san qi ba 三七八（three seven eight).
+
+ Grand Measure as the first treatise of trigonometry in China was translated from
+
+ various European sources.18 Its treatment of construction principles, liuzong sanyao
+
+ erjianfa 六宗三要ニ簡法（six essential [lengths of the sides of inscribed regular
+ polygons in a circle], three important [methods], and two simple methods), basi
+
+ 17 The Table of Eight Lines includes texts explaining how to read and use the trigonometric values of arcs
+ greater than 45°; see Schreck et al. (1631，1205-1206).
+
+ 18 According to Bai Shangshu, the content of Grand Measure was taken from Bartholomaeus Pitiscus's
+ (1561-1613) Trigonometriae and Simon Stevin's (1548-1620) Mémoires Mathématiques； see Bai (1963).
+ Mémoires Mathématiques is a French translation of Stevin's Hypomnemata Mathematica. Both treatises
+
+ were present in Beijing in early 1600s according to the catalogue of the North Church (Beitang，北堂).
+ Bai did not explain how he determined that the content of Grand Measure was taken from Mémoires
+ Mathématiques instead of Hypomnemata Mathematica.
+
+ Springer
+
+This content downloaded from 203.78.15.150 on Mon, 18 May 2020 09:14:53 UTC
+All use subject to https://about.jstor.org/terms
+
+ 498 J.-P. J. Chen
+
+ cally serves as a model of dissemination of construction principles in seventeenth
+
+ and eighteenth-century China: To construct a trigonometric table in theory, first the
+
+ lengths of the trigonometric lines for certain special arcs should be obtained. Sec
+
+ ondly, computational algorithms such as double-arc, half-arc formulas, and the sum
+
+ and difference formula for the sine and the cosine should be (established and) applied
+
+ in order to find trigonometric lengths of more arcs. Next, the length of the sine line for
+
+ the arc of the smallest measure should be approximated.19 Lastly, the same algorithms
+
+ can be applied repeatedly to the values already obtained and the sine value of the
+
+ smallest arc to get a more detailed and “complete” sine table and then, by applying
+
+ the algorithms relating different trigonometric lines, a full trigonometric table. Many
+
+ treatises followed this general pattern to treat the construction principles. A detailed
+
+ analysis of construction principles in Grand Measure is then rightly warranted.
+
+ The "six essentials” in the construction principles refer to the six inscribed
+
+ regular polygons: a hexagon, a square, a triangle, a decagon, a pentagon, and a
+ pentadecagon. Grand Measure provides the procedures of finding the length of
+
+ the side of each polygon. For the validity of the procedure, it refers to the corre
+
+ sponding theorem treating the polygon in the seminal Jihe yuanben 幾何原本，20
+
+ the first six Books of Euclid's Elements translated and published by Xu Guangqi
+
+ 徐光啟（1562-1633) and Matteo Ricci (1552-1610) in 1607.21 Ultimately, the
+ length of one side of these inscribed polygons in a circle of radius 100,000 gives
+
+ rise to the length of the sine lines for the arcs of 30。，45。，60。，18。，36。，and
+ 12°.
+
+ The three important and the two simple methods are presented in Grand Measure as
+
+ algorithms, the conventional way mathematical properties were recorded in treatises,
+ and as equalities of line segments (Table 3).22 As an example of an equality of line
+
+ segments, the third important method (3-3), a version of the half-arc formula for the
+ sine lines, is described as follows:
+
+ 19 Granted, almost all numerical values in the table are approximation, being finite decimal expressions
+
+ for irrational numbers, Chinese scholars during Ming dynasty differentiated two types of approximate
+
+ values. Obtained through "exact" procedures, the first kind consists of values which can be made "precise"
+
+ if the computations can be carried on indefinitely to get infinite decimal expressions. These values were
+
+ not considered by the scholars at the time as "approximation." The values of the other kind are, on the
+
+ contrary, obtained through approximation procedures; they carry negligent discrepancy. The sine values for
+
+ the special arcs belong to the former while the value of sin(l') is of the latter kind, to be discussed below.
+
+ 20 For the discussion on the translation and the content of Jihe yuanben, see Engelfriet (1998,105-286).
+
+ 21 For the hexagon, Proposition 15 in Book Four of Jihe yuanben is cited; for the square, Proposition 6
+
+ of Book Four; for the equilateral triangle, Proposition 12 of Book Thirteen; for the decagon, Proposition
+
+ 9 of Book Thirteen; for the pentagon. Proposition 10 of Book Thirteen; and lastly for the pentadecagon,
+
+ Proposition 16 of Book Four, which is for the construction of the inscribed regular pentadecagon, not the
+
+ procedure of finding the length of one side. The procedure of finding the length is developed directly for
+ the pentadecagon, based on certain figures in Grand Measure. See Schreck (1631, 1185-1187). It seems
+
+ an oversight to cite Book Thirteen of Jihe yuanben in the text since only the first six Books were translated
+ into Chinese.
+
+ 22 For (3-1), (3-2), and (3-3), see Schreck (1631, 1188-1189); for (2-1) and (2-2); see Schreck (1631,
+ 1189-1191). For more detailed discussion on the simple methods, see Li and Du (1987,463-470) and Chu
+ (1999, 63).
+
+ ö Springer
+
+This content downloaded from 203.78.15.150 on Mon, 18 May 2020 09:14:53 UTC
+All use subject to https://about.jstor.org/terms
+
+ Trigonometric tables: explicating their construction... 499
+
+ Table 3 Three essential and two simple methods in Grand Measure
+
+ (r sin(の)：+ (r cos(の)z = — (3-1)
+ (r sin(f?))2 + (r cos(9))2 = r2
+ (3-1)
+
+ (2/*sin(^l)=(r sin の2 + (r — r cos(の)2 (3-3)
+ (lr sin = (r sin 9)2 + (r - r cos(0))2
+ rsinO = r sin(60o + の 一 r sin(60o -の (2-1)
+ r sin 9 = r sin(60° + 9) - r sin(60° - 9)
+ (2-1)
+
+ (3-3)
+
+ Given quantities
+ Given quantities
+
+ Desired quantities
+ Desired quantities
+
+ r sin (a), r cos (a)
+ r sin(o!), r cos (a)
+
+ r sin (2a)
+ r sin (2a)
+
+ r sin(a), r cos (a), r sin(^), r cos(/J)
+ r sin (a), r cos (a), r sin (卢)，r cos(fi)
+
+ r sin(a + (1), r sin(a - /?)
+ r sin (a + 卢)，r sin (a 一 fi)
+
+ (3-2)
+ (3-2)
+
+ (2-2)
+ (2-2)
+
+ The square of the chord of an arc is equal to the sum of the square of its sine and
+ that of its versed sine.23
+
+ The algorithms are rather straightforward; for example, the first method of (2-2):
+
+ Take the sine of the first arc to multiply the cosine of the second arc. Take the
+
+ sine of the second arc to multiply the cosine of the first arc. The two products
+
+ are added together as the dividend. Divide [the dividend] with the divisor, the
+
+ radius, to get the sine of the arc which is the sum of the two arcs.24
+
+ These five methods were explained with concrete examples. The term, lun ；ywど論日
+
+ (literally, discussion says), which Jihe yuanben designates as the beginning of a proof,
+
+ is not used consistently. With the exception of the property (2-2), the explanations of
+
+ these methods amount to proving these properties.25
+
+ Having introduced the construction principles of the trigonometric tables, Grand
+
+ Measure then demonstrates how sine lengths of new arcs can be obtained by applying
+ the three important methods to the values of the sine lines from the six essen
+
+ tials. The illustration utilizes the sine value of 12°: starting with sin(12°), apply
+ the half-arc formula (3-3) repeatedly to get the sine values of 6°, 3°,1。30’，and
+
+ 45’； then apply Pythagorean Theorem (3-1) to these values to get sine lengths of
+
+ 84。，87。，88°30/, 89。15’. Next apply the equation (3-3) again to sin(84°) to get the
+
+ sine values of 42°, 21。，10。30’，and 5015’. The list of sine values is obtained by the
+ application of the equations (3-3) and (3-1) in turn. The list of sine values in Grand
+
+ 23 The text reads，“各弧之全弦上方與其正半弦上偕其矢上兩方并等”;see (1631，1189). The chord of an
+
+ arc is equal to twice of the sine line of one-half of the arc. For example, in Fig.1，the chord of the arc BDH
+
+ is the line segment BAH, which is equal to twice of the line segment AB, which is the sine line for the arc
+ BD, which is one-half of the arc BDH.
+
+ 24 The text reads, ‘似前弧之正弦乘後弧之餘弦，以後弧之正弦乘前弧之餘弦各得数并之以為食.以半徑為法而
+
+ —，得兩弧相加為總弧之正弦”;see Schreck (1631,1189).
+
+ 25 See Tian (2005,278-282) and Dong Jie (2011,16-21).
+
+ 自 Springer
+
+This content downloaded from 203.78.15.150 on Mon, 18 May 2020 09:14:53 UTC
+All use subject to https://about.jstor.org/terms
+
+ 500 J.-P. J. Chen
+
+ Measure obtained from sin(12°) consists of the arcs of the following 49 measures26:
+
+ 12。，6°, 3°,1°30', 45'，84。，87。，88°30', 89° 15', 42。，21。，10°30', 5° 15',
+
+ 43°30', 21°45', 44。15’，48。，69。，79°30', 84°45', 46°30', 68。15'，
+
+ 45°45', 24。, 34°30',17° 15', 39°45', 23° 15', 66。，55。30'，72。45'，
+
+ 50。15，，66。45'，33。，16。30'，8°15', 27°45', 57°, 73。30'，81°45',
+
+ 62° 15', 28°30',14° 15', 36°45', 61°30', 75。45'，53°15', 30°45', 59° 15'.
+
+ As the measures of the special arcs are all multiple of 3, the grid of sine lines obtained
+
+ by applying the important and simple methods, consists of arcs of the measure in the
+
+ modern form ^ where m is a positive integer and n any integer. To build a "complete"
+ trigonometric table, it is necessary to find a (approximated) value of the sine line of
+
+ the smallest measure, i.e., r sin(l’）in this case, in the table.27 In Grand Measure, the
+
+ explanation was made explicit as follows.
+
+ The equation (3-3) can be applied repeatedly to sin(3°) to get sin(45’)，while the
+
+ lengths oi sine lines for the arcs of 1’ to 44’ remain to be found. After further appli
+
+ cations of equation (3-3) to sin(45’)，the lengths of sin (11’15") and sin (22/30//) are
+ obtained, 32,724.5 and 65,449, respectively. It is observed that proportionality exists
+ between these small arcs and their sine lines:
+
+ 22’30" = 2x 11’15" and sin(22/30//) = 65,449 = 2 x 32,724.5 = 2 x sinGl^")
+
+ That is, when arcs are “small’’ enough, the sine line of the arc is very close to the
+
+ arc itself and "they more or less merge together as one line.’’28 Consequently, the rule
+
+ of three can be applied to 22’30" and Iff to get sin(10’）= 29,088 and then to 10’ and
+
+ 1’ to get sin(l’）^ 2909.29 After the value of sin(l’）is found, the method (2-2) can
+
+ be applied repeatedly to find the length of the sine lines for arcs of 2, through 15' and
+
+ then to arcs of other measures up to 90°. In theory, a sine table of arcs from 0° to 90°
+
+ with a r-increment can be constructed from the ground up by following the principles
+
+ codified in the Six Essentials, Three Important, and Two Simple Methods.
+
+ 26 Curiously, the sine value of78°, the complementary arc of 12°, is not included in the list and consequently,
+
+ the sine lengths of 39°,19° 30', and 9°45' are also missing from the list.
+
+ 27 This technical difficulty is wide-spread across cultures when it comes to constructing trigonometric
+
+ tables. For the effort to find better approximation of sin(l°) in Islamic trigonometry, see Van Brummelen
+
+ (2009,14Q-149). This fact was overlooked by many historians of Chinese mathematics. For example, Tian
+
+ (2005) and Li (1927) did not explore this aspect in their discussion of construction principles of trigonometric
+ tables.
+
+ 28 The text reads,"...略似相合为一線矣也”;see Schreck (1631，1193).
+
+ 29 In the text, the value of sin(l') is described as 2909 ruo 弱（less)，i.e., less than 2909, see Schreck (1631，
+ 1193).
+
+ â Springe
+
+This content downloaded from 203.78.15.150 on Mon, 18 May 2020 09:14:53 UTC
+All use subject to https://about.jstor.org/terms
+
+ Trigonometric tables: explicating their construction... 501
+
+ The text then demonstrates the ways of finding the values of tangents and secants
+
+ via the rule of three. Take the tangent line as an example30:
+
+ rcos(A):r sin(A) = r:r tan(A).
+
+ With a known sine length of an arc, the cosine line can be found by applying
+
+ Pythagorean theorem, the equation (3-1); therefore, an application of the rule of three
+
+ will produce the length of the tangent line.31 The secant lines can be constructed
+
+ similarly via the rule of three:
+
+ r cos(A):r = r:r sec(A).
+
+ When different astronomical and calendrical systems compete for dominance and
+
+ seek "integration or appropriation," the issue of measuring units comes to the fore.
+
+ The measuring system in the traditional Chinese astronomy for circular arcs, roughly
+
+ 365.25 du 度([Chinese] degree) as the measure for a full circle, poses an obstacle
+
+ for the early seventeenth-century Chinese scholars who were well versed in the tra
+
+ ditional approach and yet unfamiliar with the Western method, to utilize the newly
+
+ available powerful computational tool, the trigonometric table. The Jesuits were well
+
+ aware of the peril. The texts before the table indicate that there was (or should
+
+ be) a conversion table (tonglii biao 通率表)，to convert the measures in the tradi
+
+ tional system to the new ones (and presumably vice versa), so as to accommodate
+
+ measures from different systems.3" Such a table, if existed in the early seventeenth
+
+ century, is no longer extant. The degree to which the incongruent systems of mea
+
+ sures posed such an obstacle that prevented the adaptation of trigonometric tables
+
+ by the Chinese astronomers following the traditional approach remained to be stud
+
+ ied;33 nevertheless, the integration of Chinese and Western methods in calendric
+ science Xu Guangqi advocated in his memorials and treatises did not material
+ ize.
+
+ The terms, Six Essentials, Three Important，and Two Simple Methods, became
+
+ synonymous with the construction principles of trigonometric tables in China even
+
+ 30 The Chinese text describes these four quantities as "four lii:’ It is understood that when four quantities
+
+ are described as four lii，they satisfy the required equality of ratios. See Schreck (1631，1193). The concept
+
+ of lii can be seen as early as in the Nine Chapters of the Mathematical Art (Jiuzhang suanshu 九韋算術)；
+ see Chemla and Guo (2004,956-959).
+
+ 31 The discussion of the tangents can be seen in Schreck (1631,1193); the secants Schreck (1631,1193
+ 1194).
+
+ 32 The texts in the Table of Eight Lines describe the measures of the 365.25 du as tian du 天度(celestial
+
+ degree) and the Jesuit system of 360° as ping du 平度.See Schreck et al. (1631,1208).
+
+ 33 Chu (1999) argues that the two incongruous measures of angles prevented scholars following the tradi
+
+ tional approach from piecemeal utilizing trigonometric tables in their computation. The effort by the Jesuits
+
+ to provide a conversion table certainly acknowledges this obstacle and, at the same time, also suggests that
+
+ such a conversion table should smooth the adaptation. Chu seemingly misplaces the blame on the incon
+
+ gruous measures as the sole or at least the main reason that the calendar reform in the 1630s resulted in an
+
+ all-or-nothing attitude when it came to adopting the Western astronomic system. Our discussion in a later
+
+ section will show the incongruity of measures poses much smaller obstacles in the efforts to "integrate"
+
+ different systems.
+
+ 名 Springer
+
+This content downloaded from 203.78.15.150 on Mon, 18 May 2020 09:14:53 UTC
+All use subject to https://about.jstor.org/terms
+
+ when more essentials and/or methods were added to the collection. As well known,
+
+ it is prohibitively time-consuming to construct a trigonometric table afresh.34 It
+
+ is no surprise that the Jesuits involved in the calendar reform in 1630s did not
+
+ construct a trigonometric table afresh and opted to translate and simplify an exist
+ ing table. As we will see below that “plagiarizing” or modifying an existing
+ table becomes the norm for most of the tables that appear in Qing China. Only
+ after more advanced algorithms such as one calculating the sine length of the
+ one-fifth of an arc became available did a table constructed anew became more
+
+ 502 J.-P. J. Chen
+
+ plausible.
+
+ 3 The first logarithmic trigonometric tables in China
+
+ The Table of Eight Lines in the Chongzhen Astronomical Compendium，in which the
+
+ cosmological model was Tychonic, was introduced by the Jesuits at the court while
+
+ the first logarithmic trigonometric table was introduced into China by a Jesuit far away
+
+ from Beijing, Nicolas Smogulecki, who criticized the Tychonic system and offered
+
+ an ambiguously alternative,35 with the aid from his Chinese disciple and collabora
+
+ tor Xue Fengzuo. Bili sixian xinbiao 比例四線新表（The New Logarithmic Table of
+
+ Four Lines, hereafter the Table of Four Lines), part of Xue's voluminous collectanea
+
+ Lixue huitong 曆學會通（An Integration of Calendric Studies), is the very first loga
+
+ rithmic trigonometric table in China.36 In its preface dated 1662, Xue stated that the
+
+ logarithmic approach could transform the troublesome multiplication/division into
+
+ addition/subtraction and therefore expedite the necessary computations in calendar
+
+ making.37 The implication is clear that this new table is an improvement over the one
+
+ previously introduced (i.e., the Table of Eight Lines).
+
+ The Table of Four Lines consists, as its title indicates, of values for four trigonomet
+
+ ric lines: sine, cosine, tangent, and cotangent, with the measures of the arcs ranging
+
+ from 0° to 45°，with a 1-fen 分（[Chinese] minute = 0.01°) increment. Once again, the
+
+ 34 Georg Joachim Rhaeticus (1514-1576) spent 12 years constructing a trigonometric table, but did not
+ succeed. His disciple Valentinus Otto (1550-1605) finished his work and published it in 1596, cited from
+ Chu (1999).
+
+ 35 Smogulecki was heavily influenced by the Copernican astronomer Philippe van Lansberge (1561-1632).
+
+ In fact, Smogulecki adapted Lansberge's astronomy to China, characterizing its Chinese version as zhenyuan
+
+ 眞原（true principles) against the Chinese version of Tychonic astronomy contained in the Chongzhen
+ Astronomical Compendium. The competing astronomical systems in mid-seventeenth-century China are
+ quite numerous and complex. According to Xue, there are the Old Chinese Method, the New Chinese
+
+ Method, the Chinese-Islamic System from the Western Areas, the Current Western Method, and the New
+
+ Western Method, the last being one introduced by Smogulecki. Xue's intention was to achieve "integration"
+
+ of all these systems. For Xue's career as an astronomer after he met Smogulecki and brief discussion on
+
+ these systems, see Shi (2007,68-70).
+
+ 36 The term bili 比例literally means proportionality, but Smogulecki and Xue used it to differentiate their
+
+ logarithmic trigonometric table from the regular Table of Eight lines. For the introduction of logarithmic
+ tables into China, see Han (1992,110-111).
+
+ 37 The text reads, “對数者，苦(若)乘除之煩，變為加減，用之作曆省易無訛者也.’’ (The logarithm
+
+ 『approach canl transform the troublesome multiplication and division into addition and subtraction; [when]
+
+ applied in calendar-making, [it is] simplistic and easy without errors. See Smogulecki and Xue (1662，
+ 6:638).
+
+ â Springer
+
+This content downloaded from 203.78.15.150 on Mon, 18 May 2020 09:14:53 UTC
+All use subject to https://about.jstor.org/terms
+
+ Trigonometric tables: explicating their construction... 503
+
+ Fig. 3 Page 13 in Table of Four
+ Fig. 3 Page 13 in Table of Four
+ Lines
+ Lines
+
+ 'W.
+
+ i
+
+ -
+
+ -
+
+ '、
+
+ X
+
+ X
+
+ O -
+ o
+
+ i
+
+ t
+ t
+ 八
+ A
+ 4,'
+ 九、
+
+ £
+ i!
+ i
+ f
+
+ £
+ H  ニm
+ a  M  HE"t
+ 四
+ ïニu
+ A  ?-U
+ 1
+ 祿
+ t
+ oik
+ 0 ニ六
+ Strii
+ A  Hnt.
+ km
+ i  tsirc
+ 1  'C-R
+ 四
+ へ：，B
+ 2  Aoli
+ 八o三三
+ Uï ニ
+ n  Ui
+ M
+ -  t At
+ if!•
+ 4°  tn
+
+ 坊餘  切正
+ tyffc
+ ABHrieJ.
+ 六！?!三ニニ et
+ -to-:
+ ニ七（
+ Ait?
+ U七？
+ S. £Ct
+ El. £B
+ -Hi
+ -4 ニ五
+ -Uヶ
+ -Hi
+ X .L.X
+ -t**
+ 一足ハぐ
+ ——Bit
+ 一一 01七
+ 一三-\
+ ニ?l'U
+ -*A'\
+ i ニ
+ i;
+ %  -ER-HI  A'* ft t
+ 六
+ \
+ 二三於.、U一
+ レ
+ -AroioA  t
+ 八-U
+ A  A-U
+ -八：0ユ。丸
+ i
+ tio
+ 2U3
+ lit'
+ I  •oo\
+ looi
+ ft*
+ c-士
+ 六
+ A  iA;\
+ o~t
+ lîU
+ I  iiU
+ 5-n:
+ ï
+ 五ニn ニ
+ :
+ in  "AAA
+ in
+ ハ/、\へ
+ lE-A'
+ U-A
+ ゆas
+ ABUl
+ t三⑶
+ tits
+ 八o
+ A©  -'oR
+ -ニ on
+ t:n
+ i
+ A  r.A;
+ BT•六ニ
+ <  -it
+ ？1レ いニ
+ A A-;
+ £十六れ•
+ 5  l-V-k to
+ ï
+ ?  fc-仏
+ n  fc-AA
+ i  t-t
+ K—t
+ =--K\
+ --BA
+ -  r.U
+ «ニ "H
+ トニois 4c
+
+ •H-m
+ tt i.
+ t li
+ st; .
+ 1 ,ドi 产1
+ ■ S3 rV"ド.•
+ .へ 1 O
+ t  tlotJte  :tf.
+ Zl\坊正  子ノノ餘
+ Zi\
+
+ ;B4i
+ -UQ
+ -MB
+ okzt
+ O'VE
+ 4SU
+ "t4A
+ -•七六六
+ itr.t
+ Ï七:.七
+ Uo\
+ VtoA
+ c -
+ A
+ -At A  A
+ -Kt\
+ •i—
+ SAi.'lt
+ --
+
+ m  線正  六
+ JL
+ 7\
+ AcAtjtU  lIM-oh  —11
+ Ml
+ Mi
+ A
+ "A
+ i\
+ 二人
+ £t
+ は
+ i*
+ il
+ ti
+ -l
+ -I
+ m
+ Hit
+ m
+ Si
+
+ IHW-ot
+ o^kcZoU
+ o^kolo/i
+ \'\1
+ AAH
+ Ao
+ 六。-ニ
+ nz\z
+ 5HAE
+ fc=I=
+ 七三五三
+ tBHS
+ tRlBl
+ -Ain
+ 一六 4P)
+ HU
+ Et*1
+ AA-A
+ ン.、八三六
+ .'toi
+ -'-tot
+ A4tt
+ 八れ七
+ i-'lA
+ —:t
+ 一：丸
+ 入-a
+ A-tt
+ A-;o£ct
+ ペ-ニ
+ 'h" ニ —
+ t-=
+ “ニ
+ t-o;
+ o;4;
+ 。ニ仁
+ 一二だ
+ -:re
+ a—a
+ —Aia
+ a»£S
+ i 丨 o o
+ -o;A
+ t'/AA
+ •K 1 A: J "K
+ \ ♦<- ï 1 -r"
+ EUfe
+ -..-Itif  HSt
+ nt.-.i
+ A
+ パレl
+ -4 >4
+ h
+ i A
+ it
+ ニり、ï
+ 七t
+ -'t A 'i
+ 化Lm
+ m
+ tAHLtit
+ -u-;-4  •* :
+ m
+
+ BA
+ Bベ
+ At
+ 六七
+ む
+ A A
+ oザ、
+ OA
+
+ -f
+ ニ尽
+ Â
+ nil
+ jl
+ j/£
+ i —
+
+ 六
+ 七
+ *
+ A
+ た
+ C ニ
+ t'
+
+ i^iE
+
+ i
+ rn
+ 五
+ I
+ T"
+ .L
+
+ Hi
+ 三4 —
+
+ t
+ i
+ •V
+ *\
+ t
+ X
+
+ I
+
+ P9
+ 2
+
+ n
+ r
+
+ 1
+
+ t
+
+ - ■
+
+ X
+
+ -
+
+ ;
+
+ format of the table allows the values for arcs in the range between 45° and 90o to be
+
+ read from the same table. Xue states that in order to improve the old [Western] method
+ (i.e., the one introduced in Grand Measure) and achieve integration of the Western
+ and Chinese methods, the Table of Four lines changes the measuring system slightly,
+ from 1° equal to 60 min to 1° equal to 100 fen.^ The entries in the table have seven
+ digits. Figure 3 is the right leaf of the page 13 from the Table of Four Lines?9 The
+ entries in the top row from the right to the left are: 6 (degrees), sine line, cosine line,
+
+ tangent, and cotangent.40 In the first column, the measures of the arcs are from 1 fen
+
+ to 30 fen and in the last column, the measures of arcs from (83°) 99 fen to 10 fen in a
+
+ descending order. The way the numerical digits should be read is the same as in the
+ Table of Eight Lines.
+
+ One possible European source for the Table of Four Lines is A. Vlacq's 1628
+ logarithmic trigonometric table, Canon Triangvlorvm, Sive Tabvla Artificialivm, Sin
+ num, Tangentium & Secantium. Since Vlacq's table is sexagesimal, additional work
+ is needed to convert the entries to Xue's centesimal one. Based on Xue's preface, Shi
+
+ 38 See Smogulecki and Xue (1662,6:638). In trachtional Chinese method, one Chinese degree {du) is equal
+
+ to 100 Chinese minutes (fen). Thus, it can be construed as an effort to "integrate" (huitong 會通）the Western
+ and Chinese methods that Xue's adopted 360 (Western) degrees as the measure for the full circle and set 1°
+ and しmnese methods tnat Aue s adopted 3oU (western) degrees as tne measure tor me tull circle and set r
+ equal to 100 fen. It should be noted that Xue' fen is not equal to the traditional fen in the traditional Chinese
+ equal to 100 fen. It should be noted that Xue' fen is not equal to the traditional fen in the traditional Chinese
+ svstem.
+ system.
+
+ 39 See Smogulecki and Xue (1662,6:646)
+
+ 40 The Chinese names here for sine and cosine in the Table of Four Lines are zheng xian 正線 and yii ；
+
+ 餘線，slightly different from those used in the Table of the Eight Lines.
+
+ 句 Springer
+
+This content downloaded from 203.78.15.150 on Mon, 18 May 2020 09:14:53 UTC
+All use subject to https://about.jstor.org/terms
+
+ 504 J.-P. J. Chen
+
+ Yunli speculates that Xue worked alone without Smogulecki's guidance or assistance
+
+ to convert the old table of logarithms of the sexagesimal trigonometric lines into the
+
+ new centesimal system and renamed it “new table" (Xinbiao 新表).41
+
+ In the voluminous An Integration ofCalendrical Studies, the construction principles
+
+ can be found in Zhenxian bu 正弦部（the Section of Sine)，in which a process of
+
+ constructing of a table of regular sine lines, not logarithmic, is discussed. Obviously
+
+ a logarithmic trigonometric table cannot be established by applying the construction
+
+ principles for the regular trigonometric lines. Xue did not reconcile or explain the
+
+ disengagement between the table and the construction principles in the treatise. The
+
+ Section of Sine more or less follows the basic pattern of first finding the sine lengths for
+
+ special angles, then establishing certain algorithms that can calculate the sine lengths
+
+ of more angles, and lastly finding the sine of 1°. After criticizing the old "incomplete"
+
+ demonstration in the Table of Eight Lines，the Section on Sine explicitly carries out
+
+ the act of construction and derives an un-tabulated list of 120 sine lengths from 0o to
+
+ 90°, with a 15-fen (45-min) increment.42
+
+ The algorithms chiefly used in the Section on Sine are the Pythagorean Theorem
+
+ and the half-arc formula. After the sine values of for 30° and 45° are found, the for
+
+ mer was used repeatedly to find the sine values for 15°, 75°, 7.5°, and 3.75°. Once
+
+ the sine length of 3.75° is obtained, Xue then describes the lengths of sine lines
+
+ of the measures in an arithmetic sequence with the common difference 3.75°, from
+ 11.25° (=3.75°+ 7.50°) to 90°:
+
+ 11.25°, 18.75°, 22.50°, 26.25°, 30。，33.75°, 37.50°, 41.25°, 45°, 48.75°, 52.50°,
+
+ 56.25°, 60°，63.75°, 67.50°, 71.25°, 75。，78.75。，82.50°, 86.25°, and90。.
+
+ The sine length of an entry in the list is presented as obtained from the sine lengths
+
+ of the previous entry and 3.75°. Take 18.75° as an example. The text describes the
+
+ procedure as “add another [3.75° to the 15。to] get 18.75°. Apply the aforementioned
+
+ algorithm [to] get the sine [line of 18.75。] 3,214,395.” The confusing part is that no
+ algorithm similar to (2-2) in the two simple methods can be found in the treatise.つ
+
+ Interestingly, the sine lengths for these angles can actually be obtained through a half
+
+ arc algorithm and the Pythagorean Theorem. For example, sin(l1.25。）and sin(78.75。）
+
+ are obtained in the following manner: Since 11.25° is one-half of 22.50°, which is
+
+ one-half of 45°, the sine length of which is known, the half-arc algorithm can be
+
+ applied twice to obtain that of 11.25°, and consequently, the sine value of 78.75° can
+
+ be found through Pythagorean Theorem.
+
+ 41 See Shi (2007, 111). For the reconstruction of the Table of Four Lines and the claimed European source,
+ see Roegel (2011).
+
+ 42 TTie text reads, ‘吟舊法割園表久纗行世，而獨於取正弦之法M畧不全.學者求其法而不可得，’’ (Now the
+
+ old methods and trigonometric tables [have] long [been] shining and available to the world, but [certain]
+
+ processes of finding sine [lines] are missing, truncated, and incomplete. Scholars [wanted to] obtain them,
+ but could not). See [Smogulecki and Xue, 6:627].
+
+ 43 The text read, “再加為—八度七五分，用上法得正弦三ニ一四三九五.” Curiously, "the aforementioned
+
+ algorithm" mentioned in the text can only be either the Pythagorean Theorem or the half-arc formula for
+ sines. See Smogulecki and Xue (1662,6:631).
+
+ Ô Springer
+
+This content downloaded from 203.78.15.150 on Mon, 18 May 2020 09:14:53 UTC
+All use subject to https://about.jstor.org/terms
+
+ Trigonometrie tables: explicating their construction... 505
+
+ The Section on Sine then constructed geometric figures to find the sine lengths
+
+ for 36° and 12°.44 By applying the two algorithms repeatedly, the sine values can be
+
+ computed for the following measures, from that of 36°45:
+
+ 36°, 54°, 18°, 9°, 4.50°, 2.25°, 72°, 81°, 85.50°, 87.75°, 27°, 13.50°, 6.75°,
+
+ 63°, 67.50°, 83.25°, 40.50°, 20.25°, 49.50°, 69.75°, 42.75°, 47.25°, 31.50°,
+
+ 15.75°, 58.50°, 74.25°, 38.25°, 51.75°, 24.75°, 65.25°, 29.25°, and 60.75°;
+
+ and from 12°,
+
+ 12°, 6°, 3°, 1.50°, 0.75°, 78°, 84°, 87°, 88.50°, 89.25°, 39°, 19.50°, 9.75°, 51°,
+
+ 70.50°, 80.25°, 42°, 21°, 10.50°, 5.25°, 48°, 69°, 79.50°, 84.75°, 43.50°, 21.75°,
+
+ 46.50°, 69.25°, 44.25°, 45.75°, 25.50°, 12.75°, 64.50°, 77.25°, 35.25°, 54.75°,
+
+ 24°, 66°, 34.50°, 17.25°, 55.50°, 72.75°, 39.75°, 50.25°, 23.25°, 66.75°, 32.25°,
+
+ 57.75°, 33°, 16.50°, 57°, 73.50°, 8.25°, 81.75°, 27.75°, 62.25°, 28.50°, 14.25,
+
+ 61.50°, 75.75°, 36.75°, 53.25°, 30.75°, and59.25°.
+
+ The order of the measures follows a logical pattern. The algorithms used are the half
+
+ arc algorithm and Pythagorean Theorem, as indicated earlier. Starting with 36°, the
+
+ half-arc algorithm can be applied repeated to get the sine lengths for 18°, 9°, 4.50°, and
+
+ 2.25°. Next, by performing the Pythagorean Theorem on 18°, 9°, 4.50°, and 2.25°,
+ the sine lines of 72°, 81°, 85.50°, and 87.75° can also be found; still the half-arc
+
+ formula to 54°, the sine values for 27°, 13.50°, and 6.75° are obtained. Furthermore,
+
+ Pythagorean Theorem can be performed again to get the sine values of their respective
+
+ complementary arcs. This pattern determines which measures to be included and their
+
+ respective position in the list. With these sine lengths, Xue effectively constructs an
+ un-tabulated list of sine values from 0° to 90° with a 0.75° increment.46
+
+ Next, Xue approximates sin(l°) via a geometric figure in which sine line of 1°
+ is juxtaposed with the sine lines of 1.50° and 0.75° whose values have been found
+
+ earlier. Xue posits from the figure that the true value of the sine line of 1° is between
+
+ sin(0.75 ) + sin(0 750) _ (o )174528 ancj
+
+ 3
+
+ sin(1.50°) - sin(0.75°)
+
+ + sin(0.75°) = (0.) 174520.
+
+ 44 The approach to finding the sine line of including the figure is the same as the one used by Ptolemy (90
+ CE-168 CE). See Thomas (2000,429-431). This is cited from Dong (2011,60).
+
+ 45 The geometric figure for finding 36° and the sine values for the measures in the list from 36° can be
+
+ seen in Smogulecki and Xue (1662, 6:632-633). The geometric figure to find 12° and the sine values for
+ the measures from 12° can be seen in Smogulecki and Xue (1662,6:633-634).
+
+ 46 Dong Jie tabulates these sine values and considers that Xue has a regular sine table. See Dong (2011,
+ 190-191).
+
+ Springe
+
+This content downloaded from 203.78.15.150 on Mon, 18 May 2020 09:14:53 UTC
+All use subject to https://about.jstor.org/terms
+
+ Therefore, an approximation of the sine value of 10 is taken to be the average of the two
+
+ numbers, 174,524.47 Applying the half-arc algorithm to this value, Xue obtains the sine
+
+ value of 0.5°; however, sin(0.25°) is found by the rule of three, 0.75°: sin(0.75°) «s
+
+ 0.25°: sin(0.25°) 48 The first three quantities are known, and therefore, the fourth can
+ be found.
+
+ 506 J.-P. J. Chen
+
+ Most of the content of the Section of Sine can be found in the section titled "De
+
+ Frabeica Sinuum (On constructing Sine)" in Simon Stevin's (1548-1620) Hypomne
+ mata Mathematica, with the exception of the manner and the order of the measures in
+
+ the list from sin(3.75°) 49 It is worth noting that all the geometric figures for finding
+ sine values of special arcs in the Section of Sine are identical to those in De Frabeica
+ Sinuum;50 moreover, the manner and order in which the sine values are obtained in the
+
+ lists from sin(36°) and sin(12°) discussed earlier, are evocative of the discussion of
+
+ the same values in Hypomnemata Mathematica. While the sine values in the Section
+
+ of Sine have seven significant digits, the values of in Hypomnemata Mathematica have
+ nine digits.
+
+ The disconnectedness between the construction principles and the trigonometric
+
+ table is much more pronounced between the Table of Four Lines and Section of Sine.
+
+ The Section on Sine is placed right before the Table of Four Lines in the compendium
+
+ even though the logarithmic trigonometric table cannot, as emphasized earlier, be con
+
+ structed from the principles discussed in the Section on Sine. Secondly, the reason for
+
+ including the procedure of finding sin(l°) is somewhat dubious. In Grand Measure, the
+
+ approximate value of sine length of 1 ' is given because it is the smallest measure of arcs
+
+ and therefore crucial in constructing a table; however, 1° is not the smallest measure
+
+ in the un-tabulated list, which is 0.75°, nor is it in the logarithmic trigonometric table,
+
+ which is 0.01°. In the discussion of finding the sine length of 0.25°, the rule of three
+
+ is applied to 0.25°, 0.75°, and sin(0.75°), the last of which was obtained independent
+ of sin(l°). Consequently, sin(l°) has no crucial role in constructing a trigonometric
+ table in Xue's approach (nor does 0.25° for that matter). This observation suggests
+
+ that the Section on Sine probably has more than one European source.
+
+ In spite of the flaws, Xue's efforts to explicitly elucidate a concrete way to construct
+
+ a sine table should be lauded. While the construction principles in Grand Measure
+
+ along with the sine values of special angles and the smallest measure 1' provide an atlas
+
+ 47 Dong Jie points out a discrepancy here in the computation: If sin(1.50°) is taken as the previously
+
+ calculated value (0.)261869, then the lesser value sin('-50 )-sin(0.75 ) +sjn(0,75°) becomes (0.)174553.67,
+
+ which is in fact greater than the greater value 174,528. This does not seem a typographic error. See Dong
+
+ Jie (2011,60-61) for a more detailed discussion and figures. Such a discrepancy suggests that these values
+
+ and the discussion of finding sin(l°) might be taken from a source different from the one from which the
+ values of other sine lines come.
+
+ 48 See Smogulecki and Xue (1662,6:633-634).
+
+ 49 While the Section of Sine presents sine values of the measures from the list of sin(3.75°) in the order of
+
+ an arithmetic progression, Hypomnemata Mathematica groups the sine value of a measure with that of its
+
+ complementary arc, followed by the half of the first entry and then its complementary arc, etc. The discussion
+
+ of sin(36°) and the measures in its list can be found in Stevin (1605-1608,7-9), that of sin(3.75°) in Stevin
+ (1605-1608, 9), and that of sin(12°) in Stevin (1605-1608,9-11).
+
+ 50 The figures in the Section of Sine are identical to those in Stevin (1605-1608, 7-9) except for the labels
+
+ for the points.
+
+ •ö Springer
+
+This content downloaded from 203.78.15.150 on Mon, 18 May 2020 09:14:53 UTC
+All use subject to https://about.jstor.org/terms
+
+ Trigonometric tables: explicating their construction... 507
+
+ for interested scholars to build a trigonometric table, Xue's Section on Sine actually
+
+ leads its readers to tread on a path to an un-tabulated list of sine values. A treatise such
+
+ as this serves an educational purpose by making a difficult process more accessible to
+ a broader audience.
+
+ 4 The Table of Celestial Arcs
+
+ As the Jesuit-introduced trigonometry became more accessible and accepted to certain
+
+ circles of the educated Chinese, treatises authored by the Chinese on the subject also
+
+ emerged. Next, we will turn to a trigonometric table included in a treatise by an obscure
+
+ scholar with limited impact.51 The importance of such a treatise lies in the fact that
+
+ the author explicitly identifies the pre-Jesuk Chinese "counterpart" to trigonometric
+
+ tables from the West, which in turn helps shed more light on the reason why a true
+
+ “integration’’ of the Chinese and Western methods in astronomical computation at the
+
+ end of Ming dynasty was not and could not have been realized.
+
+ Tianhu xiangxian biao 天弧象限表(the Table of Celestial Arcs [in a] Quadrant,
+
+ hereafter the Table of Celestial Arcs) is a work of Li Zijin 李子金，prefaced in 1683.
+
+ Gao Honglin concludes, based on the fact that Li referred to the Table of Celestial Arcs
+
+ in his Suanfa tongyi 算法通義(Comprehensive Meaning of Computation) published
+
+ in 1673 that the Table of Celestial Arcs or a version of its manuscript must have been
+
+ completed prior to 1673.52
+
+ Li also adopts the practice that one (Western) degree is equal to 100 fen as did
+
+ Xue. The Table of Celestial Arcs consists of the lengths for sine and cosine lines from
+
+ 0° to 45。，with a 10-feti (= ôO-increment. The radius of the circle is 100,000, and
+
+ therefore, almost all entries in the table have five or less significant digits. Figure 4
+
+ shows a page from the treatise. The first column from the right lists top down 0
+ [degree], 0 \fen],10 \fen], ..till100 \fen] (=1°); the first row, reading from the
+ right, 0 (degree), sine, cosine, empty space,1°, sine, cosine, and another empty space,
+
+ where the two empty spaces are headings for arc measures listed in an decreasing
+
+ order, 90° to 89 and 89° to 88, respectively, for the cosine and sine length of the
+
+ complementary arcs. Upon comparison, the values in the Tables of Celestial Arcs are
+
+ identical to those in the Table of Eight Lines for 6’，12’，...，54’ of each degree.53
+
+ Li in fact stated in his preface that his table is simplification of the Table of Eight
+ Lines.^
+
+ 51 The copy of the Table of Celestial Arcs consulted for this article is the one in the library of the Institute
+
+ of History of Natural Science, Chinese Academy of Sciences, Beijing. It is a hand-copied version donated
+
+ by Li Yan without pagination. According to Gao Honglin, there is only one extant print copy kept by
+ the author's (Li Zijin's) descendant in Henan province; see Gao (1993). Due to the fact that the existing
+
+ treatises by scholars well versed in astronomy and mathematic in the eighteenth and nineteenth centuries
+
+ hardly referred to this work, I speculate that Li Zijin's trigonometric treatise had limited impact.
+
+ 52 See Gao (1993).
+
+ 53 Gao (1993) also mentions this fact.
+
+ 54 The text reads, ‘夭弧象限表者，乃本西洋之割圆ノ^表，而變通其数，省約其文者也（The Table of
+ Celestial Arc is obtained] based on the Table of Eight Lines Dividing the Circle from Western ocean [by]
+
+ 包 Springe:
+
+This content downloaded from 203.78.15.150 on Mon, 18 May 2020 09:14:53 UTC
+All use subject to https://about.jstor.org/terms
+
+ Fig. 4 A page in the
+ Fig. 4 A page in the
+ hand-copied Table of Celestial
+ hand-copied Table of Celestial
+ Arcs
+ Arcs
+
+ J.-P. J. Chen
+
+ 1：  ['t
+
+ t
+
+ 0
+
+ CQ S.
+
+ 1
+ 1 "ST 7U
+
+ wn  a
+ m
+ ‘sè -
+ *§HS  0 |
+ ‘公t.
+ *%
+
+ Jeや
+ i後Aj
+
+ k.
+ 3c i>B)
+ 、四
+ o Lfc
+
+ +
+ At
+ -f
+
+ ‘ 0
+ * fL
+ ^ ■凡
+
+ % % :<?»
+
+ *1
+ ニ
+ 十j
+ ?-l
+ ?
+ 土
+ 四
+ tO
+ 十
+ *  £ rv  %
+ 音
+ ! «9
+ %
+ $
+ J?
+ + !
+ |.±_
+ *L. !«&
+ -.rデ
+ ル
+ 衾
+ £ su  *\
+ 交ニ丨す
+ ^ /* =
+
+ S
+
+ -f
+
+ > V
+
+ *:
+
+ Ai
+
+ t'
+ T
+
+ ¥
+
+ 1
+
+ Jr ^ ° ^
+
+ w  o
+
+ 0
+
+ 0
+
+ i
+ lt 九
+
+ A
+
+ 0
+
+ 1
+
+ 三
+
+ w —
+
+ :
+
+ ぐ
+ L. * ル.
+
+ Je
+
+ 六
+
+ 幸
+ 四
+ ゴ
+ 芽
+
+ 八
+
+ 六
+
+ ル
+
+ 五
+
+ 冗
+
+ f
+
+ 子
+ て
+
+ 三
+
+ AT
+
+ 十」
+ へ
+
+ —
+
+ 含
+
+ >
+ ノト
+
+ 土
+ nj
+ 九
+ 穴宄
+ ヤ:
+ s\ ^ M T~ I
+ &
+ 百
+ ■
+ o >>-5* ^ ! & i
+ 分
+ m
+ #
+ i ;t_ 7*1
+ M,.
+
+ i
+
+ The accompanying text in the Table of Celestial Arcs did not discuss its construction
+
+ principles. Prior to listing the values in the table, Li describes various ways of finding
+
+ trigonometric lines provided the values for other trigonometric lines of the same arc
+
+ are given; in addition, Li uses an example of trigonometric lines with concrete lengths
+
+ to illustrate these procedures. Li also states without justification the properties of trian
+
+ gles, equivalent to the modern-day the Law of Sine, the side-angle-side postulate, and
+ angle-side-angle postulate. All three were demonstrated with examples with concrete
+
+ lengths or measures for angles.55
+
+ Trigonometry and the eight lines, Li contends, are developed by "Western Confu
+
+ cians (:dn/ 西儒)”56 out of the desire to explore the relation between arcs on a circle and
+
+ their chords while the traditional Chinese methods of licha 差(cubic difference),
+
+ pingcha 平差(square difference), and dingcha 疋差(corrected difference)57 for astro
+
+ expediently changing its numbers and shortening its texts.)" See the preface of Li (1673). Our interpretation
+
+ of "expediently changing its numbers" is that Li adopts the practice that a degree is equal to 100/en.
+
+ Footnote 54 continued
+
+ 55 See Li (1673).
+
+ 56 That Li used "Western Confucian" to refer to the Jesuits indicates that he was not hostile toward them;
+
+ there is no indication, however, that Li was a Chinese convert to Catholicism. It is not clear whether he had
+ direct contacts with the Jesuits.
+
+ 57 The translation for licha, pingcha, and dingcha (ting cha in Sivin's book) is taken from Sivin (2009). They
+
+ are the third-order, second-order, and first-order finite difference for a sequence of astronomical measures.
+
+ These differences were used for interpolation in astronomical computation. For the text in Season-Granting
+
+ Ô Springer
+
+This content downloaded from 203.78.15.150 on Mon, 18 May 2020 09:14:53 UTC
+All use subject to https://about.jstor.org/terms
+
+ Trigonometric tables: explicating their construction..
+
+ nomical computation serve the same purpose.58 In short, these pre-Jesuit methods can
+
+ be construed as a Chinese "counterpart" as computational tools in calendar-making.
+
+ At the same time, such a technical detail also shed light on the reason why the com
+
+ putationally powerful trigonometric tables cannot be appropriated piecemeal into the
+
+ Chinese system to expedite complex computations.
+
+ As the computations in the traditional Chinese approach to astronomy are intri
+
+ cately embedded in the form of algorithms that directly manipulate the observed
+
+ data, a practitioner of traditional approach can perform computations following the
+
+ prescription in the algorithms without understanding which line segments might be
+
+ equivalent to trigonometric lines of certain arcs. That is, there is no obvious part in
+
+ the process where certain computations can be replaced by consulting a trigonometric
+
+ table. Consequently, in terms of computation, it is either a wholesale adoption of the
+
+ Jesuit system along with the trigonometric tables or none at all. From this perspective,
+
+ Li's or Xue's adopting the practice "1° being equal to 100 fen" only gives an illusion
+
+ of integration of the Chinese and Western methods.
+
+ 5 A thorough explanation and ‘‘proofs” of construction principles
+
+ Lisuan quanshu 曆算全書(Complete Writings on Mathematics and Calendric Astron
+
+ omy, hereafter the Complete Writings), the collectanea of works by one of the most
+
+ prolific scholars well versed in mathematics and astronomy during Qing China (1644
+ 1911),Mei Wending, was published posthumously in 1723.59 In this collection,
+
+ the construction principles of trigonometric tables are explicated in greater details
+ compared to prior treatises on the same subject, while the trigonometric table was
+
+ seemingly and peculiarly ‘‘absent.’’
+
+ In the 1723 printing of the Complete Writings, the table of content indicates that
+
+ a trigonometric table (geyuan baxian zhi biao 割HIノ、線之表，a table of eight lines
+
+ dividing the circle) will be published later (xuchu 縝出);see the first column in Fig. 5a.
+
+ The edition published in 1859, however, does not include a trigonometric table either.
+
+ Moreover, the space in the table of content where the characters of "a trigonometric
+
+ table, one juan” are supposed to be is left blank, while the characters for "published
+ later” remain; see the first column in Fig. 5b. According to Kobayashi Tatsuhiko, a
+
+ copy of the 1724 printing of the Complete Writings, including a trigonometric table,
+
+ Footnote 57 continued
+
+ calendar system that describes how these differences were used and Sivin's interpretation, see Sivin (2009,
+ 414-416).
+ 兌The text reads,"古人但以立差平差定差三率…其法與弧背求弦之數暗相符合
+ ([The] ancients only used the three quantities, the cubic difference, square difference, and corrected differ
+
+ ence, these [three] methods implicitly match the numbers of finding [the length of] the chord from [the
+ measure of] the arc." See Li (1673, preface).
+
+ 59 Current studies of Mei Wending、works are mostly based on individual treatises in Complete Writings.
+
+ For the scope of Mei's works, see Yan (1989). For the studies on various treatises in Complete Writings，
+ see Footnote 3 in Jami (2012,25).
+
+ 自 Springer
+
+This content downloaded from 203.78.15.150 on Mon, 18 May 2020 09:14:53 UTC
+All use subject to https://about.jstor.org/terms
+
+ 510 J.-P. J. Chen
+
+ «5
+
+ /
+
+ ;
+
+ ¥» %
+ iL i >5*
+
+ A
+ 'i>.
+
+ i*
+
+ 4
+
+ ';'
+ £  :'iv'
+
+ •/.
+
+ -v
+
+ V.' .
+
+ >へ至y/.-#..:
+
+ 7" i 1%  M  Aa
+ ふ政紀要，象
+ *: £
+ ; &
+ 漆す...MMÂ农•
+
+ 3f3c
+
+ ~—®—■"">}
+
+ •¥»
+
+ $
+
+ X
+
+ ft
+ a- t  i)b 4
+ t #  4. A
+ •i* A',.  it w
+ -S.
+ 交.rf-Al一 そ
+ #-. *
+
+ A. «1
+
+ 4i '
+ - M
+ 汾睾破讨省ノ卷
+ A |
+
+ *  &
+ 成.^.見..«.^乘 一/'
+ ;f ぃ,.-,..',、,--4一 .分
+
+ 4
+ -x-^^本三来®P
+
+ ^♦as- 名.,:.
+
+ 1,
+
+ i
+
+ *•(
+
+ 1  ;1
+
+ 1
+
+ p
+
+ •£
+
+ 慶蓬れ‘ f
+
+ i
+
+ -
+
+ C;
+ 4l
+ :
+
+ "1 :
+
+ II
+
+ '
+
+ J
+
+ b _
+ r
+ 1
+ |i
+ |a
+
+ 五星紀要ー皋
+ *.
+
+ i
+ 1
+
+ *
+
+ —  —
+
+ Hiii-iT1
+
+ fl
+
+ tt
+ ?)
+
+ ~£.
+
+ *
+
+ *
+ £  «
+ A
+ 5fc
+ ti
+ —  &  &  jR  €
+ ¥t
+ 4  it  s~
+ %  tI
+ 冬至玫 一Â
+ 交令拿农三卷
+ &  $
+ &
+ A
+ B
+
+ —  —
+
+ a*!-.
+
+ H  Jf
+ *  #
+ M
+
+ w
+ —  tf  JL
+ 交會管見一泰
+ &  —
+ I一 潜學疑冏補ニ卷
+ &
+
+ 歲周地庋合玖一来
+ 祭3陝星紀要一光
+ &  *
+
+ 一一—膺學疑問三卷—
+
+ 諸方G軚高度*一 卷
+ $
+
+ 'fe
+
+ ll
+ a -4c月於
+ 4
+
+ Af
+ I層.
+
+ /
+
+ /,
+
+ r>
+
+ li
+
+ *
+
+ i»
+
+ 1
+
+ P
+
+ &
+ 1
+
+ 一一 ^
+
+ Fig. 5 a The Table of Content in the 1723 edition, b The Table of Content in the 1859 edition
+
+ is extant in Japan. Upon comparison, that trigonometric table is identical to the Table
+
+ of Eight Lines discussed earlier.60
+
+ The construction principles in the Complete Writings are explained in Jie baxian
+
+ geyuan zhi gen 解八線割圓之根(Explicating the Origin of [how] Eight Lines Divides
+ the Circle, hereafter Explicating the Origin). Compared to the explanation in earlier
+ works, the elucidation can qualify as either explicit geometric constructions or proofs
+ for desired properties. The existing evidence shows that Explicating the Origin was
+ composed by Yang Zuomei although Mei had an unpublished manuscript that might
+ or might not have been its basis.61 Explicating the Origin singles out the insufncient
+ explanation of construction principles in Grana Measure and Xue's Section of Sine as
+
+ one of the reasons for its composition.0“ Its title rightfully and adequately reflects its
+
+ purpose.
+
+ 60 An extant Japanese translation of the Complete Writings was based on the 1724 printing. See Kobayashi
+ (2003, 255-262). According to Feng Lishen, the trigonometric table in the 1724 printing is identical to the
+ Table of Eight Lines. See Feng (2009, 177-186).
+
+ 61 In Mei's records and notes of his own treatises and manuscripts, there is an entry of a manuscript
+
+ titled Zhengxian jianfa bu 正弦簡法補（Supplement to the Simple Methods of Sine); see Mei (1703, 47b
+ 48a). Explicating the Origin, however, is not listed among the manuscripts. In the table of content of the
+
+ 1724 printing, it is indicated that Explicating the Origin was written by Yang Zuomei (Yang zuo 楊作，
+ composed by Yang); see Kobayashi (2003,255). The front page of the treatise also indicates that Complete
+
+ Writings was edited and supplemented (ding bu 訂補）by Yang. Mei Wending's grandson Mei Juecheng
+ was not satisfied with Complete Writings and composed a manuscript documenting the numerous errors
+ and criticizing the inept choice of the title. In particular, Mei Juecheng emphasized that Explicating the
+ Origin was not a work of his grandfather and it should not have been included in the collection; see Mei
+ (1739). I thank Professor Han Qi for this piece of evidence.
+
+ 62 According to Explicating the Origin, Grand Measure did not provide the construction of the inscribed
+ pentagon and decagon, and Xue Fengzuo's Section of Sine provided the algorithms without any furthering
+
+ and illumination (faming 發明).Grand Measure refers to Book 13 of Euclid's Elements for the construction
+ for those two regular polygons; however, Book 13 was not translated into Chinese. To be fair, Xue did
+ provide certain explanation to the computation. See Yang (1723, lb) for the criticism.
+
+ 造 Springer
+
+This content downloaded from 203.78.15.150 on Mon, 18 May 2020 09:14:53 UTC
+All use subject to https://about.jstor.org/terms
+
+ Trigonometric tables: explicating their construction.ぃ 511
+
+ The sequential presentation of the material in Explicating the Origin roughly fol
+ lows that in Grand Measure, the sine values of special arcs are constructed and
+
+ calculated first, followed then by the discussions and ‘‘proofs’’ of the algorithms for
+
+ computing the general sine values from those of the special arcs. The first six inscribed
+
+ regular polygons constructed in Explicating the Origin are exactly the “six essentials
+
+ (liuzong)9' in Grand Measure; the treatise makes an effort to provide geometric con
+
+ struction before computing the length of the side for each of the inscribed regular
+
+ polygons. In addition, Explicating the Origin also provides the construction of an
+ inscribed regular nonagon (nine-sided) as well as the calculation of chord length of
+
+ an arc of 40°. Even though a crucial step is absent in the provided construction, the
+ calculation of the chord of 40° is nevertheless accurate with the aid of the value of
+
+ sin(l°) and some algorithms which appear later in the treatise.63 The lengths of the
+
+ sides of these inscribed regular polygons are called in the treatise as biaogen
+
+ (origin of the table).
+
+ Along with the sine lengths of 30°, 45°，60。，18。，36°，12。，and 20° (from the sides
+
+ of the 7 inscribed regular polygons), Explicating the Origin also describes two ways
+
+ of finding the value of sin(l°). The first approach is the one employed by Xue in the
+
+ Section of Sine; consequently, the value of sin(l°) obtained is exactly as in Xue's,
+
+ 174,524. The other utilizes the rule of three to find an approximated value of sin(15’）
+
+ 436,326, based on the proportional relation of the sine lines for 22’30’ and
+
+ as in Grand Measure. Then, the algorithm to find the sine of the sum of two arcs is
+
+ applied to the sine and cosine lines of 45' and 15' to get sin(l°) as 1,745,236,145. It
+
+ was commented in the treatise that this value is comparable to Xue's but seems more
+ accurate.64
+
+ The seven methods to find general sine and cosine values are described in Expli
+
+ cating the Origin as "methods of constructing the table" (zuobiao zhifa 做表之法).65
+
+ The Method Three is identical to the equation (2-1)，describing the equality of two
+ expressions. The Method Seven is a special case of Ptolemy's Theorem, in which
+ one side of the inscribed quadrilateral is a diameter of the circle: If four of the three
+
+ sides and two diagonals are known, the length of the last side can be found. The rest
+
+ of the methods are actually algorithms. We summarize and contrast them with their
+
+ counterparts in Grand Measure in Table 4.
+
+ 63 The missing step is concerned with the construction of a line segment by connecting a point with another
+
+ point of an already-constructed line segment. The prescription did not specify which point on the segment
+
+ should be chosen and seemingly implied that the choice should not matter, which proves to be to the contrary
+
+ in later construction. Assuming the construction of a regular nonagon, however, the length of its side can
+
+ be calculated correctly, by applying Pythagorean Theorem to the length of a side of a regular decagon and
+
+ the value of r sin(l°), which the treatise provides much later. See Yang (1723,15a—17b).
+
+ 64 The value of sin(45') is obtained following Xue's approach to sin(l°). Pythagorean Theorem is then
+
+ applied to find cos (45'). The treatise commented that the proportionality of the arcs and the corresponding
+
+ sine lines holds for arcs smaller than 20' and that even though there are discrepancies in the proportionality
+
+ computation, they cannot be detected by [current] computational method. See Yang (1723,18).
+
+ 65 Technically, there are more than seven algorithms. For example, the first method contains algorithms of
+ finding, given the sine value of an arc, the cosine of the same arc, and the sine and cosine of its half-arc.
+ See Yang (1723, 20a).
+
+ Springer
+
+This content downloaded from 203.78.15.150 on Mon, 18 May 2020 09:14:53 UTC
+All use subject to https://about.jstor.org/terms
+
+ Table 4 Comparison of computational methods in Explicating the Origin and in Grand Measure
+
+ 512 J.-R J. Chen
+
+ Given quantities Desired quantities Counterparts in
+ Given quantities Desired quantities Counterparts in
+
+ Grand Measure
+ Grand Measure
+
+ rsin(a) r cos(a), r sin (Sf), r cos (|) (3-1), (3-3)
+ r sin (a)
+ cos(a), r sin (等)，r cos (号)
+ rsin(a), r cos(a)
+ rsin(a), rcos(a) r sin(2a), rcos(2a) (3-2), (3-1)
+
+ sin(2a)，r cos(2a)
+
+ (3-2), (3-1) M-2
+
+ (3-1)，(3-3) M-l
+
+ •sin  (90 - (a+の^
+ r sin (a), r cos(a), r sin(^), r cos(バ）
+ r sin(a), r cos(a), r sin(/)), r cos(fi) r sin ™+£l j
+ r sin(a) vers(2a), r cos (2a)
+ r sin(a)
+ vers(2a)，r cos(2a)
+
+ M-4
+
+ r sin(a), r cos(a), r sin(/3), r cos(p) r sin(a + (I), r sin(a - ji) (2-2)
+ r sin(of), r cos(a), r sin(月)，r cos(冷)r sin(a + p), r sin (a - P)
+
+ 2 1
+ r sin 6 = r sin(60° + 8) - r sin(60° - 8) (2-1)
+ r sin0 = rsin(60° + の 一；"sin(60° -6)
+
+ 2 2
+
+ A special case of Ptolemy's Theorem
+ A special case of Ptolemy's Theorem
+
+ M M M M
+
+ 5 6 3 7
+
+ In discussing these methods, the explanation amounts to providing “proofs’’
+ although it does not stress establishing the validity of the methods.66 The geomet
+
+ ric figures and the proof for M-6 [or (2-2) in Grand Measure] are elucidated in detail
+
+ in Explicating the Origin，’
+
+ No trigonometric table was produced following Explicating the Origin，and the
+
+ table included in the 1724 printing was the same as the Table of Eight Lines. These
+
+ observations reinforce our perception of disengagement between the principles of
+
+ construction and the actual acts of construction. The situation will change, however, for
+
+ the next two trigonometric tables, which were amended or constructed anew following
+
+ the discussion of additional properties in the construction principles.
+
+ 6 IHgonometric tables imperially composed
+
+ Yiizhi shuli jingyun 御製数理精蘊（the Essence of Numbers and Their Principles
+ Imperial Composed, hereafter Numbers and Principles) was among the numerous edi
+
+ torial projects taken by the court following Kangxi Emperor's (1654-1722) decrees
+
+ toward the end of his reign.68 Printed a few months before Kangxi、death in 1722,
+
+ this compendium was the "final outcome of Kangxi's lifelong pursue of mathemat
+
+ 66 The text mistakenly describes Method Four as among those in Grand Measure although there is no direct
+
+ counterpart for Method Four. See Yang (1723, 23b). Method Seven is also in Grand Measure, but not as
+
+ part of construction principles of trigonometric tables; see Schreck (1631，1178).
+
+ 67 Upon comparison, the figures and explanation for Method Six in Explicating the Origin are identical to
+
+ those in Wang Xichan's Yuanjie 園解（The Circle Explicated). See Dong Jie (2011,145).
+
+ 68 For a description of the general editorial projects following Kangxi's decree, see Jami (2012,267-280).
+
+ Yuzhi liili yuanyuan 御製律靥淵源(Origins of Pitch Pipes and the Calendar Imperial Composed) is the
+
+ result of the project on mathematics, astronomy, and music; Numbers and Principles is one of the three
+
+ parts. The other two are Lixiang kaocheng 靥象考成(Thorough Investigation of Astronomical Phenomena)
+
+ and Lii lu zhengyi 律呂正義(Correct Interpretation of the [standard] Pitch Pipes). For the description of the
+
+ compilation of Numbers and Principles and its related personnel and offices, see Han (1992, 1999, 2014,
+ 2015).
+
+ 公 Springer
+
+This content downloaded from 203.78.15.150 on Mon, 18 May 2020 09:14:53 UTC
+All use subject to https://about.jstor.org/terms
+
+ Tngonometnc tables: explicating their construction... 513
+
+ I
+
+ I 一
+
+ 摄--!
+
+ 免
+ JL&¥.
+
+ i ~ J :
+
+ は
+ to
+
+ 3
+ |à
+
+ #r0
+ piw
+
+ m
+
+ —0.10051 a
+ —00 OoOC C
+ -00000CO
+ -00coopC
+ -OOOOOGC
+ —ocooOvc
+ -cooooco
+ "OOOOOOC
+ -ooocS o
+ -C00000
+ n‘自oc I j r
+ -0 00 -V-.O
+ —ocoioo_
+ -oococc.
+ —OOCOO 0.
+ — 050 0'j oa
+ -CCv COO'S
+ -OOC"5 Cs
+
+ -trrt 4 -lu
+
+ ,aKT. ‘ IS C
+ j塞Oj
+ I JSC
+
+ _了 - 一 Ihlh ^ [r
+ 3 II
+
+ "iM.?l>L9
+
+ 良 一!
+
+ -S-ftiM;
+ | 突0000•ノ OQOCC-Of/oooc-6 一J
+ 5--occ:r a;»
+ Afc-t
+
+ -cccot
+ —<J dC-jOC A
+ —oScooes
+ —CMC Of,
+ — 6 COO 0 1 ft
+ -5-CC4.H
+ A«.ooooooooco Aocooc''.こc-fHv'cuc o
+ .ニ ovooooc.o-;'or•ご c:vrcc-occoco
+ ^iccoc^ 1-1 ニー nHÎÎTrrgg^^^.
+ — © OO 01 ' i
+ m { 一-ri :
+
+ oooo §o,
+
+ y OO^OOC^VOJr-A'OD-ODC^ ？ tc'o ぐ、•oi-c
+
+ occc.oc-v^^o^oocooo t *: "vc^o* ニ
+
+ oofvvwoooo c c oo o o ^ V o o. oo -
+
+ A A ft I
+ o-a
+
+ 3ニ 一 f | ~5ニ
+
+ ÎH: Ir.,-lH?1nir表ナーハ七オパ八交0,0 一 r
+
+ Fig. 6 Trigonometric table in Numbers and Principles
+
+ " tkni
+ ft-to
+
+ —A-*'. A.
+ r.i-rci*
+ =A0*
+
+ =/Uft
+ .»?)<•
+ HA.3.,
+
+ aa-aI
+ y-.™.os
+ At -V",
+
+ r
+
+ :JEj
+
+ fi jt ' ~\& c
+ i4'
+ Mr.i
+ At.'T,:0
+ —Bjs >i"; o
+ •.a-.'.'W
+ r.M -.fl.i; 0.
+ rftCA 'J -
+ '=■- ut- o
+ - A t 'i.Z O
+ |T'.O
+ ~f. .in.'Vsio
+ ac.ctJs o
+
+ -ft A- 'C
+
+ A-:0 :?(—J
+ Atr.Ap.,0
+ .rtr+qSo
+ -t t J) I
+ A=a_:ffiO
+ ©
+ . A*z jT -
+ :'f
+
+ ft Aft <
+
+ "V
+ ~T&
+ 一 :..A-.i-tr-¥ = v":::.;.î;î
+ .』へAA:{îlA.-7i;■>•ハ.，，*■;.*ir.5. JA一 ス 一.Iky»
+ ■ ft 1*1 _ -x^SA
+ :us-tIJ-s„~on-ts. ； f ノ'\七れC; ！ 一 m\,1-,~1
+ ニ 4c.vlJ"a 一 一.lin^i'is
+
+ î 一 一 I 一 ニーニ-r:
+ 一 二,-i コn-h4>f^-t-r=:<Af::ci0》T.
+
+ >;.-i.ï~肝-•マひこ 5^.'ゃ* キぃtl/«.î
+
+ な < -nJoo O o tïott>oJot>Joo«cc-.oo ÛMÛ c
+ 01*
+ woroo 於
+
+ ‘ 4.
+
+ RBrul
+
+ ics.”69 It contains almost all things mathematical known in early eighteenth-century
+
+ China,70 including a trigonometric table and its principles of construction. Backed by
+
+ the resources at the court, the trigonometric table in the Numbers and Principles has a
+
+ 10-s increment, the smallest among the extant tables before 1800 in China. The values
+
+ in the trigonometric tables in Numbers and Principles render the radius of the circle
+ to be 10,000,000. The table contains the lengths of six trigonometric lines from 0° to
+
+ 45°. Figure 6 shows the upper half of the first page of the trigonometric table.71
+
+ Reading from right to left, the headings in the top row of Fig. 6 are, 0°, sine, tangent
+ line, secant line, second (and) minute. The characters for “second” and “minute” are in
+
+ the same register. It is worth pointing out that the numerical values in the table should
+
+ be read from left to right, contrary to that in the Table of Eight Lines, from right to
+
+ left. For example, the value of sin(4’)，the last entry in the column of sine (the second
+
+ column) in Fig. 6, is 一一六ニノ、' (one one six three six from left to right), same as
+ in the modern form while the entry recorded in the Table of Eight Lines for sin (4’）is
+
+ 六一一(six one one from left to right) although it means 116 in the modern form. It is
+
+ 69 The general belief used to be that Numbers and Principles was completed and published in 1723. Based
+ on a memorial to Kangxi Emperor, Han Qi concludes that bronze movable type edition of Numbers and
+ Principles was printed in 1722 prior to Kangxi's death. Private communication with Han Qi. For certain
+ editions of Numbers and Principles, see Fan (1999). The quote is taken from Jami (2012, 8).
+
+ 70 One exception is the subject of symbolic algebra. While cossic algebra (Jiegenfang 借根方 in Chi
+
+ nese) takes up 6 chapters (juan 卷）in Numbers and Principles, symbolic algebra (Aerrebala xin fa
+ 阿爾熱巴拉新^)) was not included. See Han (1999,2007), and Jami (2012,294-304). For a detailed discus
+ sion of the construction oiNumbers and Principles, see Han (1991) and Jami (2012,315-384); in particular,
+ for the list of subjects contained in the compendium; see Jami (2012, 317-319).
+
+ 71 See Shuli jingyun biao (baxian biao 1:1a). The trigonometric table, logarithmic trigonometric table,
+
+ and logarithmic table in Numbers and Principles are grouped together in Shuli jingyuan biao,數理精蘊表
+ (Tables in the Essence of Numbers and Their Principles). In this section for tables, certain explanatory texts
+
+ are also included. Placed before the trigonometric table, Baxian biaoshuo ノ、線表說(Discussions of the
+ Table of Eight Lines) has its own pagination separated from that of the table. For the discussion of the tables
+ in Numbers and Principles, see Han (2014).
+
+ 包 Springer
+
+This content downloaded from 203.78.15.150 on Mon, 18 May 2020 09:14:53 UTC
+All use subject to https://about.jstor.org/terms
+
+ 514 J.-P. J. Chen
+
+ not clear when, how, and why the new way of recording numerical values horizontally
+ occurred.
+
+ The trigonometric table in Numbers and Principles is not a direct translation from a
+
+ European source. The texts preceding the table describe that an old table from the West
+ has the radius 100,000 while a new table has the radius 10,000,000 and the values are
+
+ listed to the minute.72 Moreover, due to the fact that the interpolated approximation
+
+ values for tangent and secant lines are not “precise” (mihe 密合)for arcs greater than
+
+ 60°, it explains, the compilers use certain methods to find the trigonometric values
+
+ for every 10 s.73 It is worth noting that this is the only instance of texts we know in
+
+ which the precision of the values in the trigonometric table is described as an issue.
+
+ It is not clear whether such a statement was made based on experiential evidences.74
+
+ The construction principles are mainly for obtaining values for sine and cosine lines;
+
+ other trigonometric lines are obtained through the basic relations between sine/cosine
+ lines and others.
+
+ The task of amending a trigonometric table is a considerable feat in itself. The
+
+ number of entries is 2700 (=45 x 60) in the original table with a 1-min increment;
+ to amend such a table, additional 13,500 (= 45 x 60 x 5) entries should be added
+ to obtain the desired 10-s increment. Without the resources at the court, such a task
+
+ might take years to complete by any individual.
+
+ The sixteenth chapter (juan 卷）of the second part of Numbers and Principles deals
+
+ with topics that fall under “division of the circle (geyuan 害!]圓),’’75 among which are the
+
+ definitions of the eight lines {geyuan baxian IB ノ、線)，the construction principles of
+
+ trigonometric tables (i.e., liuzong sanyao, erjianfa, the same terms in Grand Measure),
+
+ the fundamental relations between trigonometric lines {baxian xiangqiu ノ、線相求)，
+
+ 72 It is possible that the old table from the West refers to the Table of Eight Lines. Several trigonometric tables
+
+ were made for Kangxi Emperor's personal use: a table of sine, tangent, and secant lines and the logarithmic
+
+ values of sine and tangent lines in Shubiao 数表(Numerical Tables), and a table of the logarithmic values of
+
+ the sine, cosine, tangent, and cotangent lines in Dushubiao 度奴表（Tables of Degrees and Numbers), and
+
+ a table of sine, tangent, and secant lines in the Yuzhi shubiao jingxiang 御製数表精詳（Essential Details of
+
+ Numerical Tables Imperially Composed). Upon comparison, the values in the trigonometric table in Details
+
+ of Numerical Tables are the same as those in the regular trigonometric table in the Numerical Tables，which
+
+ uses 100,000 as the radius. They are different from the Table of Eight Lines. It is not known whether these
+ tables were translated or constructed from scratch. For discussions, see Han (1991, 1997). Jami (2012,309)
+
+ also has a short discussion on Details of Numerical Tables. For these tables, see Shubiao (2000), Dushubiao,
+
+ and Yiizhi shubiao jingxiang (2000). I thank Professor Han Qi for showing me the former two tables.
+
+ 73 The text reads, “西洋舊表設半徑為十萬…又有新表股半徑為一千萬，逐分列表.用中比例以求秒数只可用於
+ 正弦餘弦.若切鎳割線至六十度以後...用中比例尚不能密合，又用本法細推毎十秒.通析求零秒則用比例所差無多” See Shuli
+
+ jingyun biao (baxian biao shuo 1:1a). I have not been able to identify the source of the “new table" although
+
+ it might be one brought by the French Jesuits to China in 1690s.
+
+ 74 The less-accurate nature for the tangent and secant values for arcs closer to 90° is expected. These values
+
+ are obtained by dividing sine values or the radius with the cosine values. When the measure of the arc is
+ closer to 90°, the values for cosine lines are closer to 0. Consequently, any small discrepancy in cosine is
+
+ magnified tremendously in the tangent and secant lengths.
+
+ 75 Two juan discusses the knowledge that fall under "division of the circle," the fifteenth and sixteenth
+
+ juan of Part II of Numbers and Principles. The fifteenth discusses the methods found in traditional Chinese
+ mathematics (Yiizhi shuli jingyun, 3:526-544), while the methods in the sixteenth are considered Western
+
+ {Yiizhi shuli jingyun, 3:545-565).
+
+ Ô Springe
+
+This content downloaded from 203.78.15.150 on Mon, 18 May 2020 09:14:53 UTC
+All use subject to https://about.jstor.org/terms
+
+ Trigonometric tables: explicating their construction... 515
+
+ and the prescriptions of finding the trigonometric lines for (all) arcs in a quadrant (qiu
+
+ xiangxiannei gexian zongfa 求象限内各線總法).The definition of the trigonometric
+ lines is broadened to include obtuse arcs, whose measures are between 90° and 180°.
+
+ The eight trigonometric lines for obtuse arcs are in effect the ones for their supple
+
+ mentary arcs. Emphasis is again placed on the sine line, the text explains, since other
+
+ lines are derived from sine lines (zhuxian jie youci ersheng 諸線皆由此而生).It is
+
+ no surprise that the values of special arcs and the algorithms are geared toward finding
+
+ the lengths of the sine lines.
+
+ To introduce new algorithms into the construction principles, Numbers and Princi
+
+ ples first points at a flaw in Grand Measure as a segue: (certain) sine lengths for as small
+
+ as 45 min can be obtained through the algorithms, yet for arcs less than 45 min, their
+
+ trigonometric lengths need to be obtained through approximation (bilifa 比例法，the
+
+ rule of three). To remedy this situation, Numbers and Principles then introduces two
+
+ algorithms described as yishi guichu 益责歸除法(the method of augmenting dividend
+
+ and dividing numbers), to be described below. These algorithms prescribe procedures
+
+ to solve problems equivalent to finding a positive root of a particular type of polyno
+
+ mials of third degree. Two important applications are to find the lengths of the sides of
+
+ an inscribed regular tetradecagon (fourteen-sided) and octadecagon (eighteen-sided),
+
+ and consequently, the lengths of the sides of inscribed regular nonagon and heptagon
+ (seven-sided) can be found as well. Moreover, the one-third arc formula that finds the
+
+ sine value of one-third of the arc given the sine value of the arc can also be derived
+
+ with the same yishi guichu algorithm. In short, this particular algorithm can augment
+
+ both the special sine values and the algorithms that generate more sine lengths.
+
+ Numbers and principles elaborates further that with the sine values from these
+
+ additional inscribed regular polygons, one can find three hundred and sixty sine values
+
+ of arcs in a quadrant with a 15-min increment. The value of r sin (5’）can be calculated
+
+ by applying the one-third arc formula to r sin(15/)； consequently, only the sine values
+
+ of one through 4 min need to be obtained through the rule of three.
+
+ Numbers and Principles continues to use “six essentials, three important, and two
+
+ simple methods” to label the construction principles even though there are now ten
+
+ essentials and eight algorithms available. As the purpose of the discussion is to find
+
+ sine values of special arcs, the texts do not include geometric construction of these
+
+ inscribed regular polygons, in contrast to Mei's and Yang's practice in their treatise.
+
+ The two algorithms of yishi guichu method introduced in Numbers and Principles
+
+ are in the form of two similar questions76:
+
+ 1.Given four quantities of continued ratio (lian èが，連比例，i.e.，a:b = b:c = c:d)，
+
+ suppose a =10,000 anda + d = 3b，find b，c，and d.
+
+ 2. A similar statement with the condition a + d = 3b is replaced by a + d = 2b + c.
+
+ While the yishi guichu method resembles the traditional procedures of extracting
+
+ cubic root with positive lower-degree terms (kai daizong /诉mg，開帶縱立方，equiva
+
+ 76 The two questions, the procedures to solve them, and the geometric explanation can be found in Yiizhi
+ shuli jingyun (3:556-558, 3:560-573).
+
+ â Springer
+
+This content downloaded from 203.78.15.150 on Mon, 18 May 2020 09:14:53 UTC
+All use subject to https://about.jstor.org/terms
+
+ 516 J.-P. J. Chen
+
+ Given quantities Desired quantities Counterparts in Grand
+ Given quantities
+
+ Desired quantities
+
+ Counterparts in Grand
+ Measure
+ Measure
+
+ Table 5 Comparison of computational methods in Numbers and Principles and in Grand Measure
+
+ r sin(a)
+ r sin (a )
+
+ r sin (or),  r cos (a)
+ r sin (a), r cos(a)
+
+ rsin(a),  r cos (a),
+ rsin(a), rcos(a),
+
+ r cos (a)
+ r cos(ar)
+
+ r sin (a)
+ r sin (a)
+
+ r sin(a),  r cos(a)r sin(卢),r cos(卢）
+ r sin (a), r cos(a)r sin(/i), r cos(fl)
+
+ r sin(60° + a)r sin(60° - a)
+ rsin(60°  + a)r sin(60° 一 a)
+
+ r cos (a)
+ r cos (or)
+
+ r sin(2a), r cos(2o?)
+ r sin(2or), r cos(2a)
+
+ rsin(|) ,r cos(^)
+ r sin (き)，r cos (等）
+ rcos(2a),rcos(|)
+ r cos (2a)，/• cos (等）
+ rsin(f)
+ rsin(f)
+
+ r sin(ar ± p)
+ r sin (a 土 0)
+
+ r sin(a)
+ r sin(a)
+
+ (3-1)
+ (3-1)
+
+ (3-2), (3-1)
+ (3-2), (3-1)
+
+ (3-3), (3-1)
+ (3-3)，(3-1)
+
+ (2-2)
+ (2-2)
+
+ (2-1)
+ (2-1)
+
+ lent to finding a root of certain polynomials of third degree),77 it is in effect influenced
+
+ by Western mathematics. The texts state without elaboration that in a logarithmic
+
+ table of Western method, four quantities in the continued ratio were used to find
+
+ inscribed heptagons and nonagons; the text goes on to say that the idea was expanded
+
+ to devise the methods and find [the side lengths of] an inscribed regular tetradecagon
+
+ and octadecagon.78
+
+ The algorithms discussed in the part of "three important" and "two simple meth
+ ods'' in Numbers and Principles are summarized in Table 5. Both the given and
+
+ desired quantities in the algorithms are stated with arcs of concrete measures, and
+
+ their trigonometric values instead of general terms: the explanation, construction, or
+
+ "proof," though formulated with the same numerical values in question, can be applied
+
+ directly to general arcs. Historians of Chinese mathematics in general agree that these
+
+ explanatory texts constitute proofs for these algorithms.
+
+ The algorithm of finding the sine value of the one-third of the arc with a known sine
+
+ length is demonstrated with an example: Given the sine value of 36°, 58,778.5252292,
+ find the sine of 12°, one third of 36。.79 The solution: Double sin 36。to get the chord
+
+ of 72°. Then use it to multiple the square of the radius ten thousand as the dividend;
+
+ triple the square of the radius ten thousand as the divider. Apply the [first] yishi guichu
+
+ algorithm to get [the second quantity] 41,582.3381634, which is the chord of 24。.
+ One-half of this value, 20,791.1690817, is the sine value of 12。.80 The geometric
+
+ 77 For example, in the question where the condition is a d = 3b, it can be deduced that in the modern
+ language, the polynomial equation to solve should be ズ3 + (100,000)3 = 3(100,000)2ズ.See Guo and
+ Li (2010, 663). In Chinese tradition, finding a solution to a polynomial of the second or third degree is
+
+ considered part of theory of extracting roots, the process of which is considered similar to division and
+
+ consequently shares certain terms in their operations. A discussion of Chinese theories of extracting roots
+
+ would be long-winding and distracting. We refer interested readers to Martzloff (1997,240-268).
+
+ 78 The texts read，“爾来，西法對数表内有設連比例四率以求園内容七邊九邊ニ法，因推庚其理…增求園内容
+
+ 十八邊十四邊形之士.” See Yiizhi shuli jingyun (3:547).
+
+ 79 The decimal expression of the sine length of 36° is described in Numbers and Principles as 58,778 and,
+
+ in smaller characters, "with a small extra" (xiaoyu 小餘）5,252,292. See Yiizhi shuli jingyun (3:569). Other
+
+ decimal values follow the same practice.
+
+ 80 See Yiizhi shuli jingyun (3:569-570).
+
+ â Springer
+
+This content downloaded from 203.78.15.150 on Mon, 18 May 2020 09:14:53 UTC
+All use subject to https://about.jstor.org/terms
+
+ Trigonometric tables: explicating their construction... 517
+
+ explanation following the procedure also works for any acute angle. Therefore, the
+
+ algorithm of finding the sine of the one-third of an arc is then established.
+
+ The Numbers and Principles does not articulate how a trigonometric table with a
+
+ 1-min increment was amended to one with a 10-s increment. One can speculate that the
+
+ first step should be finding the sine length of 10". One way to achieve this goal is to take
+
+ the sine length of the smallest measure 1’ from the table, apply the half-arc formula to
+
+ get the sine value of 30^，and then apply the algorithm to find the sine of one-third arc
+
+ to get the length of sin 10". Once the sine length of the smallest measure is obtained,
+
+ the sum and difference formula for sine and cosine can be applied repeatedly to get
+ those sine values with 10" increments between sine values of arcs of consecutive
+
+ minutes. It is evident from our analysis that the augmentation of the trigonometric
+
+ table in Numbers and Principles is directly related to the one-third arc formula for
+
+ sine lines. This is a departure from the previous treatises in which the tables provided
+
+ were simply copied or simplified from existing ones, hence completely separated from
+
+ the principles discussed.
+
+ 7 A trigonometric table potentially constructed from scratch
+
+ An Qingqiao's Yvcian biao 一線表(The Table of One Line) might potentially be the
+
+ only extant trigonometric table that was constructed afresh by an individual Chinese
+
+ scholar based on the construction principles available. It can be found in three differ
+
+ ent treatises, Juxian yuanben 矩線原本(Elements of Lines of the Carpenter Square)
+
+ prefaced in 1818, Yixian biao yong 一線表用（Applications of the Table of One Line)
+
+ prefaced in 1817, and Xuesuan cunlue 學算存略（Brief [Notes] of Learning Math
+ ematics), with slight variations.81 This table is extremely short with a total of two
+
+ hundred and fifty entries. It has only values for the sine lines, hence the title, Table of
+
+ One Line. Secondly, An's choice of the unit renders the measure of the entire circle to
+
+ be one hundred du 度(degree), each of which is equal to one hundred/<?n 分(minute),
+
+ each of which in turn is equal to one hundred miao 秒(second).82 Such a measuring
+
+ system for arcs stands in stark contrast to the system, 360° for the full circle, used by
+
+ the Jesuits and the majority of the scholars since late Ming, as well as to the traditional
+
+ systems, roughly 365.25 du，used in various Chinese calendar systems prior to the
+
+ Jesuit presence in China.83 Considering that the shape of heaven is circular in Chinese
+
+ 81 The sine table in Elements of the Lines of Carpenter Square is titled Geyuan yixian biao 割圆—線表
+
+ (The Table of One Line Dividing the Circle), while the tables in the other two treatises are both titled Yixian
+
+ biao 一線表(The Table of One Line). In Elements of the Lines of the Carpenter Square and Brief Notes
+
+ of Mathematical Learning，the table is one page long while in Applications of the Table of One Line，it is
+ a little over three pages. They all nevertheless have 250 entries. See An (1818,12:335; 1817,12:339-341;
+
+ 1997,12:595) for the table in the respective treatise. In Brief Notes, An also has a partial tangent table at
+ the end.
+
+ 82 An's circular unit was considered by Dai Zhen (1724-1777) in composing his Gougu geyuan ji
+
+ 句股割園記（Records of Base-Altitude and Circle-Division) but eventually discarded. See Chen (2011)
+
+ for the discussion on Dai's choices of measuring unit for the circle.
+
+ 83 Each of the Chinese calendric systems has its own constant for the suishi 歲貪（year numerator), which
+
+ comes from the constant suizhou 歲周（year cycle or year length), the number of days in â year. See Sivin
+
+ 自 Springer
+
+This content downloaded from 203.78.15.150 on Mon, 18 May 2020 09:14:53 UTC
+All use subject to https://about.jstor.org/terms
+
+ 518 J.-P. J. Chen
+
+ »j g. f, t : i x H *. 5 J i ' 2 g £ 5 g S> * «•. t & £ 6 tf I
+
+ ill H
+
+ ふ-rvv$.
+
+ HflHi»p!llip-53ll|l!J
+
+ o - " * & £ * « X
+
+ . £ «
+ iKA +4li=iA4ASA=*T'V- ,4?*52? 3i
+ ^AAU 5 -?:4 ル^•,ULlr^îr??n!?ll11i-^
+
+ *■ S 3 ci » i - s s j S - a j
+
+ i AS011, <oîan.,)Aolë 七 îs fi sol六ゐAさ^おお<3ハ
+
+ 《OSA ニAQし：*-»八 fsl A$.\^ A$AflAを o一AAA一aAâtl «syt
+
+ 顔.梁一【(f対®一線#±
+
+ "®- 1i^*'>ft'S5'0>oiSnAgA5A=A.I; J-iPi
+ _• へハんニ，广.?.六*2?パス504$5 •&$ 一。刻 .
+ ctv i-»?4.V-6-A.+V
+ :xt養••>•««>-•.-■- 5rゲ S^KMAA.É-ぷ-^Ê-J*.i ç-lî全
+
+ ~«A尨 < 3 ハA六 iso 六ol.à 5 玄：态ー ï 1?
+
+ |-§、%'p馬力。^11を01炎 si3ol1 Ï^
+
+ SiMft
+
+ eac-f
+
+ Iliîs 二 3ね£ 衝2ハぎ â 至^Î^..5|到01び«'先
+
+ .im びg: ^s., PÏ PS ^
+
+ ,
+
+ •fc "{("ArA-A -n
+ s t — 1S? "t'"5r i O f su I" ?*■ I -t f; A t'n. -jh /t+>
+ -rs./LA-3Î/V十分 fvr.$ ？ V ？V S1-T46 -»トサ
+ 1^1*-ハ一含T-S >蹇1 二MAKml 一 2rA_>rt？裔宝—SI* 15'éなSÎ5S
+
+ itlr,在分 <ネ^ J. Kt身莩分sa-分罘分一一す-^ U
+
+ 一 Kft九ふ A ぶ ^ A5 $ 分 ç 分 flî ns. L,
+ ；.A/Jfa3 A-.-SA â.svib:5tA一 K一 <ニー炎<0ニAo安
+
+ A”分人-|-分七-»'梦«各f ^ 一 Hで梦
+ 5 ，け分J.\s 七十ォ f f-3Î .lî 各-J 一
+ r-fu 二： げ<73パ <AS 八 *A s A «奂CI«3-A«é-tt
+ 六ー0ル令九<2éA^y TtiHyt-liifloï-s îos
+
+ j ftAloA 外 s 10/CI.Yハ ASIS ？.Ê ^i-.- ê..ê
+
+ fî 衣分人-»-分 tt» V-i-i* f ニ s .トサ.
+
+ ミ1*<5 A.A.4X §3.. 6-tl.- Ls:,; 1:LV
+
+ :f-ît<î'\î 七$ K-I-分 Cf 分 ^ ti 十分14'分一
+
+ $« 尨 s A$ >r? î分 5分-s $ 豫 i 1
+ ^oo§ftksf-^svluyb«A=i<&KA交 分参^Asoa sèa A^AS
+ ft*-ic2iA/l-wi#b/tちk れA务八 ftns 九 年へ A』塞 £1 Î5'i7«.5A ふ
+
+ Ï I ル客_ .. f ^ ! i^llf ! f !. .^^，！宏}|
+
+ $分
+ $Â
+
+ ^Al-V九 一^afsî'.l^ 一 TÎS^H ^.OHïrÊÉB §^4:SSSn
+ I® 1+.V 一 H-分1Y44> BJ «*v -V5 A>+分 A$ .
+ î# •一
+
+ ザ î/v^.rkî'” st.IrlS--Iずハ 0S人 &SA 0^k at20 ^Më
+
+ s 一 •<•昼务一
+
+ ！，••«; •'.'•-ぷ分 irî SÎ 蒙 u J A$ 轰
+ ；が矣 Is。-lë一, 一：I5S IIS 辟-短
+ O'jgfe
+ 一-iftou--■:的:i-fîn•ぎ“？ハ沖 S15 一 ゴ5衾 n 0^
+ 一，，It--ドニ ••••-7-h';-7 -.rv.K;âAs. ^ ^5- s wosl flQJ-ê nâx B.I0OM
+
+ ^-oiuf- 0£-^iIs.- -お妾紹ハーね5 ^
+
+ 枭21t-T-爱 fîui ia,iA M^n0-43*5一 七》！^r-ilol s キ！主
+
+ +s九ず分A十分七'''分六十分玄分3Î1H■分jH-c-^各；
+
+ I u$, $5分六中分系分wî f iî i
+ I $八十»七；分六Hr斧分皂分f 7分j
+ ；パ^:S0A.-o-A A-AsAr.八>~づ-«(4a Ai A Apv-S
+ ië.Aîo^s ;vri€OA <-.OAoA.ÏOA A.M& A.-AsAu=iw ArsÀ
+
+ Fig. 7 Table of One Line
+
+ Classics, that the sun makes a full circle on the celestial sphere over a course of a
+
+ day, and that one full day has one hundred ke 刻(14.4 min), An's choice of the unit
+ effectively establishes the correspondence between the one du of the circle and the
+
+ distance travelled by the sun on the celestial sphere during the period of one ke. In
+
+ short, An's choice of circular arcs results from the convergence of the temporal and
+ spatial notions.
+
+ The Table of One Line has values for sine lines from 0 to 25 du (90。）with the
+
+ increment of 10 fen (0.36°). The radius is 100,000.
+
+ Figure 7 is the complete Table of One Line.84 The entries in the first column are 0
+
+ du (chudu 初度)，10 fenf 20 fen …，90 fen and those in the second the sine values for
+
+ the corresponding arcs in the first column. The right leaf contains the entries for arcs
+
+ ranging from 0 du to 12 du 50 fen in the ascending order while the left 25 du to 12 du
+
+ Footnote 83 continued
+
+ (2009, 272-277) for the discussion on the length of the tropic year in various systems. These systems did
+ not explicitly use their year length as the measure of the full circle. Chinese scholars in the seventeenth
+ and eighteenth century, however, construed these numbers in the ancient systems as the measures of the
+
+ circle used by the ancients. For example, Wang Xichan 王錫闡（1628-1682) in his Xiao,an xinfa 曉庵新法
+ (New Methods by Xiao'an [Wang Xichan]) used three different units for measuring the circular arcs, the
+
+ measures for the circle are 360。，384 yaoxian 父限，and 365 and some ridu 日度（sun degree). See Wang
+ (1983,459). Dai Zhen in discussing his choice of circular unit explicitly stated 365 plus some du was used
+ by the ancients as the measure for the circle. See Dai (2002,129).
+
+ 84 See An (1818,12:335).
+
+ 句 Springer
+
+This content downloaded from 203.78.15.150 on Mon, 18 May 2020 09:14:53 UTC
+All use subject to https://about.jstor.org/terms
+
+ Trigonometric tables: explicating their construction... 519
+
+ Table 6 Computational algorithms in the Table of One Line
+
+ Given quantities Desired quantities
+ Uiven quantities uesirea quanuues
+
+ rsin(a) rsin(|) (1-1)
+ r sin (a) r sin (|) (1-1)
+ 2r sin (a) 2rsin (号） (1-2)
+ 2r sin(a) 2r sin ((1 -2)
+ r sin(a) r cos (a)
+ r sin(a) r cosfa)
+
+ rsin(or),rcos(a) r sin(2a), rcos(2of)
+ r sin(a), r cos(a) r sin(2o!), r cos(2a)
+
+ r sin(a) r sin(3a) (1-3)
+ rsin(a) r sin(3a) (1-3)
+
+ r sin(a) r sin(5a)
+ r sin (a) r sin(5a)
+
+ r sin (a), r cos (a) r sin(卢),r cos(卢） r sin (a 土 卢） （1-4)
+ r sin (a), r cos(a) r sin(/)), r cos(/3) r sin (a ± fi) (1-4)
+
+ 50 fen in the descending order, reading from top to bottom and from right to left. The
+
+ entries in the first column of the left leave are 25 du，90 fen, 80 fen,..10 fen. The
+
+ measures 90 fen, SO fen, and so on are to be understood as 24 du 90 fen, 24 du SO fen
+
+ ..etc. Again, the next column consists of the corresponding sine values.
+
+ The construction principles accompanying the Table of One Line are described by
+
+ An as taken from both the Chinese and Western methods. Application of the Table
+
+ of One Line only lists two algorithms and directs readers to Elements of Lines of
+
+ the Carpenter Square for details. The explanatory texts before the table discuss the
+
+ construction principles as well. Although Six Essentials, Three Important, and Two
+
+ Simple Methods are not mentioned, the construction more or less follows the similar
+
+ pattern. We summarized An's algorithms for construction in Table 6.85
+
+ Algorithms (1-1) through (1-4) were provided with geometric figures and textual
+
+ explanation, while the rest were simply stated with minimal explication. An describes
+
+ Algorithm (1-1) of finding the sine length of the fifth of an arc as a method from
+
+ Jiegenfang 借恨方(calculation by borrowed root and powers), the version of cossic
+
+ algebra introduced to China by the Jesuits at the end of seventeenth century.86 To
+ establish the procedure of the algorithm, An first portrays the sine lines of an arc,
+ a, and its one-fifth, on a circle. An then describes in words with the aid of a
+
+ simple geometric figure a process involving geometric reasoning as well as some
+
+ form of “symbolic algebra" manipulation to obtain a relation, equivalent to a fifth
+
+ degree polynomial in which the root is the chord of the one-fifth of the given arc and
+
+ can be found by applying a technique in "calculation by borrowed root and powers.”
+
+ Though deserving careful investigation and explication, the derivation of Algorithm
+
+ (1-1) through geometry and symbolic algebra will prove long-winding and decidedly
+
+ distracting. Therefore, it will be discussed separately in a different article.87
+
+ 85 The order of the algorithms in the table is the same as that of appearance in the treatise. See An (1818,
+ 12:330-334).
+
+ 86 For a detailed discussion on cossic algebra and the "calculation by borrowed root and powers" in
+ eighteenth-century China, see Han (2003) and Jam! (2012,201-210).
+
+ 87 Algorithm (1-1) was also discussed by Wang Lai 汪萊（1768~1813) and Jiao Xun (1763-1820). Jiao
+
+ basically elaborates on Wang's geometric construction, and their derivations of the fifth-degree polynomial
+
+ relation are of purely geometric nature. See Wang (1798,4:1505-1509). An's derivation in algorithm (1-1)
+
+ involves the squares of expressions of fractions and multiplications of fractions in words not numbers with
+
+ 造 Springer
+
+This content downloaded from 203.78.15.150 on Mon, 18 May 2020 09:14:53 UTC
+All use subject to https://about.jstor.org/terms
+
+ 520 J.-P. J. Chen
+
+ Algorithms (1-1) and (1-2) are crucial in the construction of An's sine table due
+
+ to his peculiar choice of 100 du as the arc measure for a full circle. To An, the main
+
+ issue here is to find the sine value for the “smallest” arc,1 miao (=0.00036° or 1.296
+
+ s). To do so, An applies Algorithm (1-1) to the sine of 25 du，the radius (1,000,000),
+
+ to get sine of 5 du; continuing with this process, An obtains the sine values for 1 du,
+
+ 20 fen, A fen, and 80 miao and 16 miao. Switching to (1-2), An then acquires the sine
+
+ values for 8, 4, 2,1,and then \ miao. In describing this process, An used the chord
+
+ (tongxian 通弦）instead of the sine line, which is one-half of the chord of the half
+
+ arc. Moreover, An does not provide concrete numerical values for these sine lengths
+
+ except for the chord of one miao, the smallest unit in his system, as 62.831853.88 From
+
+ this value, An concludes the ratio, equivalent to an approximation for the value of n，
+
+ between the diameter and the circumference is: the diameter, twenty million, and the
+ circumference, 62,831,853.
+
+ To construct a trigonometric table from scratch is no small feat, especially when
+
+ no institutional support or mechanic computational aid is in place to expedite the
+
+ process. So, did An construct his sine table manually on his own? According to our
+
+ analysis below, it is very likely that the table was constructed independent of previously
+
+ existing ones. Since most measures for the arcs in An's table, e.g.,10 fen = 21'36//,
+
+ do not conform to the 360° system and therefore do not appear in any of other existing
+
+ trigonometric tables, k can be said with certainty that An at least worked out the sine
+
+ values for these measures. Is it possible that An took the sine values of the arc measures
+
+ that do appear in early tables, e.g., 50 fen =1°48/ to form some kind of grid and then
+
+ computed the rest? By comparing these values in the Table of One Line with those in
+
+ the Table of Eight Lines and in Numbers and Principles Table，we concluded that this
+
+ is highly unlikely.
+
+ Fifty arc measures in An's Table of One Line also appear in the previously analyzed
+
+ tables. These measures form an arithmetic sequence starting at 50 fen (=1。48’），with
+
+ an increment in the same measure. When compared to the sine values of those in the
+
+ Table of Eight Lines，which uses the same radius, seven out of fifty have different sine
+
+ lengths. Granted the discrepancy is in the last digit, a rate of 14% seems to be very
+
+ high, considering that the task was merely to copy the values. Had the sine values
+
+ been taken from Numbers and Principles，where the radius of the circle is ten million,
+
+ certain rounding should have been applied. Whatever rounding system was used，the
+
+ rate of discrepancy is at least 12 %.89 With these high discrepancy rates and the singular
+
+ measuring system, we argue that it is highly unlikely that An took these values from
+
+ the existing tables or any other source. It is rather difficult to comment on whether
+
+ Footnote 87 continued
+
+ other expressions. Existing evidences and current scholarships seem to suggest that the discussion of algo
+
+ rithm (1-1) originated from Ming Antu, to be discussed below.
+
+ 沾 An's description for this value is, six two with small extra (xiaoyii 小餘)eight three one eight five three,
+
+ similar to the usage in Shuli jingyun. The discussion on the process of finding the chord of one miao and
+ the rest can be seen in An (1818,12:332).
+
+ 89 It is not very clear how these values were rounded or if such a system was in place. The system that
+
+ produces the fewest discrepancies is to round up when the rounding digit is 6 or more and to round down
+ otherwise. The measures that do not conform to this system are 45°, 57°36', 61。12’，64°48/, 68°24/, and
+ 77024:
+
+ ^ Springer
+
+This content downloaded from 203.78.15.150 on Mon, 18 May 2020 09:14:53 UTC
+All use subject to https://about.jstor.org/terms
+
+ Trigonometric tables: explicating their construction.., 521
+
+ An had any collaborator, foreign or Chinese, because little is known about An's life.
+
+ Based on the evidence presented, we posit that the Table of One Line was probably
+
+ constructed afresh by An Qingqiao independently, heavily relying on the algorithms
+
+ of finding the sine values of one-fifth and one-half of an arc.
+
+ 8 Reflection on construction principles and “accuracy” of the table
+
+ The system of construction principles codified in Six Essentials, Three Important，and
+
+ Two Simple Methods consists of trigonometric values of certain special arcs and two
+
+ kinds of algorithms. The first kind will generate more trigonometric values from the
+
+ known values to populate the table, and the second kind helps obtain the trigonometric
+
+ lengths of the "smallest" arc in the table. In particular, the algorithms that find the sine
+ values of and where the sine and cosine values of a have already been
+ obtained, serve both capacities. The algorithm equivalent to sin(a + b)9 e.g., (2-2)
+
+ in Grand Measure，is the main tool to populate a trigonometric table. To find the
+
+ sine value of the "smallest" arc in the table, the rule of three was employed to obtain
+
+ its approximation. Only after the algorithms equivalent to finding sin(号)，sin(|), and
+
+ sin(|) were developed, the sine value of the smallest arc in the table could be obtained
+ independent of the application of the rule of three. Whether the system is sexagesimal
+
+ or centesimal, one can obtain the values of r sin(l’)，r sin(l") or the sine length of 1
+
+ miao by applying these three algorithms to the sine length of the special arc 60° (or
+
+ 45°, 12.5 du in An's case) since only 2,3, and 5 appear in the integer factorization of
+
+ 60 and 100. In particular, the approximation by the rule of three is not needed.
+
+ To create a trigonometric table “better’，than an existing one, one could in principle
+
+ improve the precision of the values of the entries in the table in two different ways. The
+
+ first one is to make the increment in the table smaller; or â greater radius of the circle
+
+ is used, which amounts to providing more accurate significant digits. Both approaches
+ are rather prohibitive for individuals without resources due to the tremendous amount
+
+ of computation involved. In the direct applications of the table in aiding calculation,
+
+ there should be another issue of how accurate the entries are in the table. The reality is,
+ most Chinese authors treating trigonometric tables did not seem concerned with this
+
+ issue, judging from the absence of discussion in their treatises.90 Whether this was
+
+ because the level of accuracy of entries in the table provided more than satisfied the
+ need of computation in application or whether the authors did not consider the issue
+
+ worthy requires further investigation. Just when one might naively conclude that the
+
+ construction principles had reached the zenith in China when the algorithm of find
+
+ ing sin(|) was developed, and therefore, no enhancement of construction principles
+
+ should be proposed or needed, a brand new approach to constructing trigonometric
+
+ tables began to emerge in the early nineteenth century.
+
+ 如 As discussed earlier, the particular texts in Numbers and Principles are the only extant record that
+ explicitly mentions the imprecision of the values of tangent and secant lines when the measures of the
+ angles are close to 90°.
+
+ â Springer
+
+This content downloaded from 203.78.15.150 on Mon, 18 May 2020 09:14:53 UTC
+All use subject to https://about.jstor.org/terms
+
+ 522 J.-P. J. Chen
+
+ 9 A Revolution of Construction Principles of Trigonometric Table
+
+ This revolutionary approach produces algorithms similar to calculating finite sums
+
+ in the series expansion of trigonometric functions; consequently, many historians of
+
+ Chinese mathematics characterize it as achievements of power series in China. Such a
+
+ characterization is somewhat misleading because it imposes the observer's view over
+
+ the actor's. It should be emphasized that these algorithms produced from this approach
+
+ were for the most part considered by the Chinese scholars in the eighteenth and nine
+
+ teenth century as an alternative and quick way to find the trigonometric lengths of
+
+ given arcs; in other words, they are better tools in construction of trigonometric tables.
+
+ Before 1819, circulated among certain milieu of scholars well versed in mathemat
+
+ ics were manuscripts of algorithms, including one that finds the sine length directly
+
+ from the measure of the arc. Though other names were also associated with the man
+
+ uscripts, historians of Chinese mathematics generally agree that these manuscripts
+
+ were abridged copies ofMinggantu's or Ming Antu's 明安圇 work.91 The importance
+
+ of these algorithms, above all, is that they are for general arcs, not merely for arcs
+
+ of special measures. They amount to, in the modern mathematical language, calcu
+
+ lating a finite sum of the power-series expansion of sine and inverse sine functions.92
+
+ This revolutionary approach to finding trigonometric values of an arbitrary arc decid
+
+ edly upends the traditional construction principles of trigonometric tables pioneered
+
+ in China by the Jesuits, and later studied and perfected by generations of Chinese
+
+ scholars. Though they emerged in the early nineteenth century, the story of these
+
+ “power-series” algorithms started earlier in the eighteenth century.
+
+ The extant record of the earliest appearance of this type of algorithms is the treatise,
+
+ Chishuiyizhen 赤水遺珍(The Pearls Recovered from the Red River) by Mei Juecheng
+
+ 栂毀成（1681-1764)，the oldest grandson of Mei Wending and one of editors and
+
+ compilers of Numbers and Principles (Yiizhi shuli jingyun). We summarize all three
+
+ algorithms here in Table 7.
+
+ In his treatise, Mei Juecheng compares these algorithms with the traditional circle
+
+ division methods, emphasizes the surprising efficiency of these three algorithms, and
+
+ consequently names them "quick method” (jiefa 捷法).93 He also indicates that these
+
+ 91 The numbers of the manuscripts and versions are not clear. What was clear is that these manuscripts
+
+ did not include diagrams or explanatory texts. As a result, initially the readers of these manuscripts did not
+
+ know how these algorithms were established. Several scholars in the nineteenth century worked to derive
+
+ and expand the results.
+
+ 92 These algorithms demonstrate examples of finite sums of the series; see accounts in Martzloff (1997,
+ 353-361), Li and Du (1987, 234-240) and Guo and Li (2010, 730-735). In Ming Antu's treatise on
+
+ this topic (discussed below), it was said that "if... adding these terms ... indefinitely (wuqiong,無窝)，
+
+ [one] can get a more accurate value (mishu 密數)[of the value of trigonometric function]." See Ming
+ (1839, 6). The scholarship in Chinese on this topic is too numerous to be listed here. See for example
+ Luo (1988, 1990), and Tegus (1996) to name a few. Jami offers a comprehensive study of this subject in
+ French; see Jami (1990).
+
+ 93 Thetextreads，“割圔舊術…至精至密...但開数十位之方，非旬日不能辦.今以圆内六等邊別立乘除之數以求
+ 之，得之頃刻，與屢求句股者無異，故稱捷法焉，” (The old circle division methods [are].. .most refined [and]
+
+ most accurate.. .but extracting the square root of a number of tens of digits, it cannot be done in less
+
+ than tens of days. Now [we] can set up multiplication and division numbers from a regular hexagon
+ inscribed in a circle to find them. They can be obtained instantly and are not different from the values
+
+ Ô Springer
+
+This content downloaded from 203.78.15.150 on Mon, 18 May 2020 09:14:53 UTC
+All use subject to https://about.jstor.org/terms
+
+ Trigonometric tables: explicating their construction... 523
+
+ Table 7 Three algorithms
+ Table 7 Three algorithms
+
+ introduced by Pierre Jartoux
+ introduced by Pierre Jartoux
+
+ Given quantities
+ Given quantities
+
+ Desired quantities
+ Desired quantities
+
+ Diameter
+ Diameter
+
+ Circumference
+ Circumference
+
+ An arc a (<90°)
+ An arc a (<90°)
+
+ r sin (a)
+ r sin (a)
+
+ An arc a (<90°)
+ An arc a (<90°)
+
+ vers(a)
+ vers(af)
+
+ (D-l)
+ (D-l)
+
+ (D-2)
+ (D-2)
+
+ (D-3)
+ (D-3)
+
+ quick methods of finding the [accurate values of] circumference, sine [length], and
+
+ [that of the] sagitta are translation of old methods by a Jesuit missionary, Pierre Jartoux
+
+ (1669-1720) or Du Demei 杜德美 his Chinese name.94 The algorithms were presented
+
+ using concrete examples, not stated as general procedures;95 more importantly, no
+
+ proof or explanation of their derivation was provided either by Mei Juecheng or by
+
+ Jartoux. No existing evidence shows that Mei Juecheng did any further study on the
+
+ quick methods of "power-series" algorithms.
+
+ The treatises treating this topic in the nineteenth century started with Ming Antu, a
+
+ colleague of Mei Juecheng at the court.96 Ming's treatise, Geyuan milii jiefa (Quick
+
+ Methods for the Circle's Division and Precise Lu), formerly published in 1839, lists
+
+ thirteen algorithms with the first three being those in Mei's treatise and the last four
+
+ as corollaries of the first nine.97 Chinese scholars in the nineteenth century believed
+
+ that Ming learned of the first three from Jartoux and developed the rest on his own;
+
+ Footnote 93 continued
+
+ obtained from repeated uses of right triangles. Therefore, they are called quick methods; see Mei (1759,
+
+ 25a). Brief as it is, the text suggests that these quick methods were derived based on an inscribed regular
+
+ hexagon and therefore has its origin from the "circle division." It is difficult to determine with certainty
+
+ that Mei had seen the derivation of the algorithms. Had Mei had seen it, Ming Antu, a colleague of Mei and
+
+ the author of the major treatise of this subject, should have had seen it, too. But according to the preface in
+ Ming's treatise, he did not know initially how these algorithms were derived. See discussions below.
+
+ 94 In a commentary in smaller characters, Mei specifies, “yi xishi Du Demeifa,譯西 士杜德美法(Translating
+ the methods [by the] Western scholar, Du Demei [i.e., Pierre Jartoux])"; see Mei (1759,23a).
+
+ つJ The algorithm of finding the circumference is demonstrated with a circle of diameter two billion (ershi
+
+ yi 二十僮）and the others are applied to arcs of and 21。19’51"and 16°27/43//, respectively. See Mei (1759,
+ 24a, 25b, and 26a).
+
+ 96 Both Mei and Ming were students at Kangxi Emperor's Office of Mathematics. For the establishment
+
+ of the Office of Mathematics within the Studio of Cultivating the Young (Mengyang zhai 蒙餐齋)，see Han
+
+ (1999) and also Jami (2012, 268). For the editorial project of Yiizhi liili yuanyuan 御製律靥淵源（Origins
+
+ of Pitch Pipe and Calendar), which includes Numbers and Principles as one of the three parts, Mei and
+
+ Ming both were listed among the personnel involved; see Han (1999). Mei was listed as "comprehensive
+
+ collation (huibian 彙编)’’ and Ming as "Determination and Measure (kaoce 考測)”；see Jami (2012,374).
+
+ The personnel at the Office of Mathematics was first reported by Han Qi in an unpublished presentation
+ in 2007, “1713: A Year of Significance," at REHSEIS, CNRS, Paris, January 9,2007. Its file is accessible
+
+ at https://www.academia.edu/8278554. This presentation is significant because it contains many original
+ findings, chief among them the comparison of the Chinese Office of Mathematics with the French Académie
+
+ Royale des Sciences. For the conflict between Jesuit Astronomers and the non-Christian literati in relation
+
+ to the compilation project of Origins of Pitch Pipe and Calendar, see Han (2015).
+
+ 97 Instead of providing procedures in the last four algorithms, the text explains that by utilizing the basic
+
+ relations between trigonometric lines, the given quantities in the last four algorithms will result in certain
+
+ quantities in some of the previous nine algorithms; therefore, the desired quantity can be found by applying
+ one of the 9 previously described algorithms. See Ming (1839,10-11).
+
+ â Springer
+
+This content downloaded from 203.78.15.150 on Mon, 18 May 2020 09:14:53 UTC
+All use subject to https://about.jstor.org/terms
+
+ 524 J.-P. J. Chen
+
+ Table 8 Other algorithms in
+ Table 8 Other algorithms in
+ Quick Methods for the Circle's
+ Quick Methods for the Circle's
+ Division and Precise Lii
+ Division and Precise Lii
+
+ Desired quantities
+ Desired quantities
+
+ Given quantities
+ Given quantities
+
+ 2a
+ la
+
+ 2a
+ la
+
+ 2r sin(a)
+ 2r sin(a)
+
+ r sin(a)
+ r sin(a)
+
+ rvers(a)
+ r vers (a)
+
+ rvers(af)
+ r vers (a)
+
+ 2r sin(a)
+ 2r sin (a)
+
+ rvers(a)
+ rvers(a)
+
+ 2a
+ 2a
+
+ a
+ a
+
+ a
+ a
+
+ 2a
+ 2a
+
+ (D-4)
+ (D-4)
+
+ (D-5)
+ (D-5)
+
+ (D-6)
+ (D-6)
+
+ (D-7)
+ (D-7)
+
+ (D-8)
+ (D-8)
+
+ (D-9)
+ (D-9)
+
+ nevertheless, they referred to these algorithms as the nine algorithms of Du (Dushi
+
+ 力杜氏九術).We list the results of the additional algorithms developed by Ming
+ in Table 8.98 Though the precise sources for the Du's algorithms, (D-l)-(D-3), cannot
+
+ be ascertained, it is generally agreed that these algorithms are of European origin."
+
+ While these algorithms can produce results quickly, the absence of proper notation
+
+ renders the statement of these algorithms cumbersome to the modern readers.100 To
+
+ illustrate the lengthy description of the algorithms, the complete procedures of (D-4),
+
+ which is to find the chord of a given arc, are translated below101:
+
+ The method: Takes the length of an arc as the first item. Use the radius as the first
+
+ lii of lianbili 連比例（continued proportion) and the [length of the] arc as the
+
+ second lii of continued proportion to find the third lii of continued proportion.
+
+ Next, multiply the first item with the third lii and divide [the product] by the first
+
+ lii to get the fourth lii. Divide [the fourth lii] by 4, by 2, and then by 3 to get
+
+ the second item, which is supposed to be subtracted. Write it separately. Next,
+
+ take the second item, multiply [it] with the third lii and divide [the product] by
+
+ the first lii to get the sixth lii. Divide [it] by 4, again by 4, and then by 5 to get
+
+ 98 When these algorithms are described in modern notation, some of them seem redundant, e.g., algorithms
+ (D-7) and (D-9). It is worth emphasizing that these quantities represent distinct line segments as defined
+
+ in Fig.1.Per Fig.1,the sagitta (shi 矢）of the arc BDH (= 2BD) is the line segment AD, the versed sine
+
+ (zhengshi 正矢)of the arc BD\ the chord (xian 弦）of BDH is the line segment BAH {—2AB = 2 sin(BZ)))
+
+ twice of the sine (zhengxian 正^) of BD. That is, 2 sin (a) is the chord for the arc 2a and vers(ûf) is its
+
+ sagitta.
+
+ 99 Even though two manuscripts were mentioned as possible sources for the algorithms, no treatises or
+
+ manuscripts could corroborate with the record. For the discussion on these manuscripts, see Martzloff (1997,
+
+ 355), in particular, footnote 10. Jami argues that the Chinese titles of the two manuscripts are simply the
+
+ description of the formula themselves and consequently implies that these manuscripts did not exist; see
+
+ Jami (1990, 44). There is also speculation as whether all nine algorithms were actually given by Jartoux
+
+ and Ming Antu simply copied them. Jami again argued against this possibility. See Jami (1990, 44-45).
+
+ Moreover, Martzloff identifies in the library catalogue at the Pe'Tang Church, one of the Jesuit Residences
+
+ in Beijing in the seventeenth and eighteenth century, six European treatises as related to infinite series. See
+ Martzloff (1997,356).
+
+ 100 Almost all contemporary scholars treating this subject opt to use the modern mathematical notation
+
+ in their discussion. Martzloff, however, translates the algorithm (D-l) into non-mathematical expressions.
+ See Martzloff (1997,355).
+
+ 101 See Ming (1839,7) for the Chinese text for the description. A series of numbers A, B, C, Z),and £ ...
+ are said to be in the relation of lianbili (continued proportion) if A:B = B:C = C:D = D'.E = .... Any
+ number in the relation of continued proportion relation is a lii. See Jami (1990, 73-87) for the discussion
+
+ on how Ming employed continued proportions in explicating his algorithms.
+
+ Ô Springer
+
+This content downloaded from 203.78.15.150 on Mon, 18 May 2020 09:14:53 UTC
+All use subject to https://about.jstor.org/terms
+
+ Trigonometric tables: explicating their construction... 525
+
+ Table 9 Various terms that ... .
+ Table 9 Various terms that
+
+ La Item
+ .A ▲， Lu Item
+
+ appear m Ming Antu s
+ appear in Ming Antu's
+ Algorithm D-4 First r
+ Algorithm D-4
+
+ Second a
+
+ Third ^
+
+ 3
+ Fourth %■
+
+ g3
+ 4x2x3xr2
+ 4x2x3x—
+ «5 «J
+ a5
+ 4^x2x3x4x5xr^
+ 42x2x3x4x5xr4
+ »7
+ a7
+ a' g|
+ r7 4-)x2x3x4x5x6x7xr6
+
+ 4^x2x3x4x5x6x7xr°'
+
+ Sixth
+
+ 4x2x3xr4
+
+ Elghth 42x2x3x4x5xr6
+
+ g7
+ 42x2x3x4x5xr6
+
+ the third item, which should be written under the first item. Next, take the third
+
+ item, multiply [it] with the third lU，and divide [the product] by the first lii to get
+
+ the eighth lii. Divide [it] by 4, by 6, and then by 7 to get the fourth item, which
+
+ is supposed to be subtracted. Write [the fourth item] under the second item. Add
+
+ the first and third items; add the second and fourth items. Subtract one sum from
+
+ the other to get the value of the chord [of the arc].
+
+ Following the above description, the lii's and numbers in the text are displayed in
+ Table 9 with modern mathematical notation:
+
+ Let a be the length of the arc in question and r the radius.
+
+ Therefore, r sin(a) is [more of less] equal to the first item minus the second, plus
+
+ the third, and then minus the fourth, or in the modern notation,
+
+ 3 5 7
+ .,、 ot a〕 a'
+
+ r sin(a) ^ a
+
+ 2 x 3 x r2 2x3x4x5xr4 2x3x4x5x6x7xr6’
+
+ From the description or the above expression, it is clear that the computation of the sine
+
+ length consists of a combination of four basic arithmetic operations; most importantly,
+
+ it is free of time-consuming root extraction, as emphasized in Mei Juecheng's passage.
+
+ With the length of the radius, r，usually being a power of ten, the divisions are relatively
+
+ simple. Consequently, an accurate number of the value can be obtained quickly.
+
+ The derivation of these algorithms is long-winding and will lead us astray from the
+
+ main discussion. A description of the basic idea behind the algorithms instead will be
+
+ given below, using again the algorithm (D-4) as an example. Ming first considers and
+
+ establishes the procedures in which the desired quantities are the chords of arcs whose
+
+ lengths are one-half, one-third, and one-fifth (i.e., | and |) of an arc a whose
+
+ arc length and its chord are known.102 These procedures are all derived through the
+ interplay of geometry and algebra.103
+
+ 102 The geometric figure used by An Qingqiao on his algorithm (1-1) is very similar to the one in Ming's
+ treatise regarding the algorithm that finds the chord of the one-fifth arc. It is not clear whether An had seen
+
+ Ming's manuscript.
+
+ 103 Ming makes it clear that the chord of | can be found rather easily by applying the old method of
+ right triangles, but this old approach cannot be generalized to other arcs. Ming in fact provides three different
+
+ 自 Springer
+
+This content downloaded from 203.78.15.150 on Mon, 18 May 2020 09:14:53 UTC
+All use subject to https://about.jstor.org/terms
+
+ First, Ming forms a sequence of similar isosceles triangles, in which the base of one
+
+ triangle is the side of the next. For any two consecutive triangle, the proportionality
+ relation holds:
+
+ 526 J.-P. J. Chen
+
+ S:B = s:b,
+
+ where S and B are the side and the base of one triangle in the pair, and s and b those
+
+ of the next; more importantly, B = s. Furthermore, geometric construction makes
+
+ it possible to compare the chord of a, the given quantity, and that of where k is
+
+ an integer. An expression involving both chords are then obtained. Once the three
+ cases of and | are established, Ming utilizes the procedures of | and | to
+ construct those for the length of the chord for based on the fact that 2x5 =10;
+
+ afterward, the algorithms of finding the chords of one-hundredth, one-thousandth, and
+
+ ten-thousandth of a arc can also be established similarly.
+
+ A pattern emerges in computing the chords of and this pattern allows Ming to
+
+ determine the numbers to be used as divisors in each step of finding the next item.
+
+ For example, the numbers in the denominator of the second term in the three cases of
+
+ WÔ9 and ioo^ooo 咖 24.0024, 24.000024, and 24.00000024, respectively. Ming
+ argues that those small extras beyond 24 come from the fact that in computation, the
+
+ chord of the arc is used instead of the arc itself. As the discrepancy between the chord
+
+ and the arc diminishes as the arc becomes smaller, he claims that the precise number 24
+
+ will be achieved when the chord is replaced by the actual length of the arc, with 24 being
+
+ the product of 4 times 2 time 3 in the denominator of the second item in Table 9.104
+
+ Ming thus goes through the steps and uses the pattern established from these cases to
+
+ determine the numbers that should be employed to divide a lii to obtain an item.105
+
+ Similar to Ming, Dong Youcheng 童祐誠（179レ1823) also discussed the sine and
+ versed sine lines in his treatise. Dong, who in 1819, read an abridged, hand-copied
+
+ version of Ming's algorithms without proofs or diagrams,106 established algorithms
+
+ similar to Ming's in his treatise, Geyuan lianbili shu tujie 割圓連比例術圖解（The
+
+ Explication with Diagrams of Continued proportions in the Circle Division). Published
+ in 1830, almost a decade ahead of Ming's, Dong's treatise contributes to a wider
+ circulation of these algorithms and connects these algorithms and their derivation
+
+ in the continued proportions from similar isosceles triangles with another branch of
+
+ Chinese mathematics, duiduo shu 堆操術 or duoji shu 燥積術（Methods of Piles),
+
+ Footnote 103 continued
+
+ ways to derive the chord of ,. The three methods in the texts in Ming's treatise can be seen, respectively, in
+ Ming (1839,21-26,26-29, and 29-31); for Jami's comparison of the third method with Newton's approach;
+ see Jami (1990,125-140).
+
+ 104 These calculated numbers are described respectively on 49b, 50a, and 50b of Ming's treatises; see Ming
+ (1839,44-45) and also see Jami (1990,152-156) for more discussions.
+
+ 105 See Ming (1839,44-49).
+
+ 106 In Dong's own preface dated 1819, it is described that Zhu Hong 朱鸿（1802 civil examination 力
+
+ 進士 degree) showed to Dong the nine algorithms [copied] by Zhang Zhiguan 張豸冠（early nineteenth
+
+ century). See Dong (1830,435). The manuscript of the algorithms did not have any diagram or explanation
+
+ with them. Independently of Ming's approach, Dong found ways to derive the algorithms. See Tegus (1996,
+ 322-324).
+
+ 旬 Springe
+
+This content downloaded from 203.78.15.150 on Mon, 18 May 2020 09:14:53 UTC
+All use subject to https://about.jstor.org/terms
+
+ Trigonometric tables: explicating their construction.. • 527
+
+ which is similar to the topic of finding recursive relations in sequences of positive
+
+ integers.107
+
+ Neither of Ming's and Dong's treatise discusses other trigonometric lines. The
+
+ treatment of tangent and secant lines can be found in Xu Youren's 徐有壬（1800
+
+ 1860) Ceyuan milii 測圓密率（Measuring Circle and Its Precise Lii) composed prior
+
+ to 1840,108 Li Shanlan's 李善蘭（1811-1882) Hushi qimi 弧矢啟密（Opening the
+
+ Secrete of Arcs and Sagitta) composed in 1845,109 Xiang Mingda's 項名達（1789
+
+ 1850) Xiangshu yiyuan 象數一原(Images and numbers [are] of one origin), prefaced
+
+ in 1843 and 1849,110 andDaiXu's 戴煦（1806^1860) •扣冊7な外切密率(Tangent
+ outside [the Circle] and the Precise Hi) composed in 1852.111 These treatises each have
+
+ its own particular approach and topics other than ‘‘power-series” algorithms. To focus
+
+ our discussion on construction of trigonometric tables, we only list related algorithms
+ in these treatises in Table 10.112
+
+ From the table and the dates of composition for these treatises, it is clear that by
+
+ early 1850s, Chinese scholars were able to find the lengths of the trigonometric lines
+
+ of an arc and vice versa. In other words, the computational utility of a trigonometric
+
+ table can be completely accomplished by these algorithms.113 Surprisingly, no scholar
+
+ at the time advocated the replacement of trigonometric tables with these algorithms.
+
+ 107 For Dong's treatise and contribution in these "power-series" algorithms, see Guo and Li (2010,731
+ 733). For the discussions on the Methods of Piles, see Martzloff (1997,302-304, 341-351).
+
+ 108 Han Qi determines the date of composition of Xu's treatise to be prior to 1840; see Han (1993). For
+ more discussion on Xu's treatise, see Li (1993) and Guo and Li (2010, 748-750). Note that Li's work
+ contains incorrect information on the composition date of Xu's treatise, cf. Han (1993). Xu's treatise can
+ be seen in Xu (1840).
+
+ 109 Li's treatise can be seen in Li (1845). Li Shanlan was an outstanding Chinese mathematician and
+
+ educator in the nineteenth century. In addition to his own original mathematical results and treatises, his
+
+ translation works include Books 7 through 15 of Euclid's Element，an algebra book, and the first calculus
+ book in China. For brief discussion of Li Shanlan's contributions to Chinese mathematics in the nineteenth
+
+ century, see Martzloff (1997,173-176) and Guo and Li (2010, 738-748, 753-754).
+
+ 110 Xiang's treatise discusses numerous topics. Algorithms of finding the tangent and secant lines of an
+
+ arc only appear in the sixth Chapter (Juan 卷)，based on the known length of the sine or versed sine line.
+
+ The treatise was not finished when Xiang died in 1850. On the request of Xiang's son, Dai Xu edited and
+
+ supplemented some of the chapters; see Xiang (1849, 600). For more discussion on Xiang's treatise, see
+ Guo and Li (2010,733-735).
+
+ 111 For more discussion on Dai Xu's treatise, see Guo and Li (2010,735-738). For Dai Xu's treatises, see
+ Dai (1852).
+
+ 112 1\vo somewhat similar tables can be found in Li (1993) and Li (2000, 190-194). I thank Professor
+
+ Han Qi for bringing these two sources to my attentions. The topics of "series expansion" of trigonometric
+
+ and other functions are very rich and active in nineteenth-century China. For example, Dong's treatise
+ has algorithms which find the chords and sagittae of multiples and fractions of the arc with the sine and
+
+ the versed sine lines are given. Xu's includes algorithms involving the area of a circle, the volumes of a
+
+ sphere, and an ellipse as well as finding trigonometric lines of an arc provided other trigonometric lines
+
+ for an integer multiple or fraction of the arc are known. In some treatises, the expansion of tangent, secant,
+
+ cotangent, and cosecant lines is in terms of sine and versed sine lines, not in terms of the length of the arc.
+
+ Separated projects and discussions are needed to do these topics justice.
+
+ 113 With a trigonometric table, complex and tedious computations were carried out during the process of
+
+ construction, and therefore, computational tasks can be made easier and expedited by checking the values
+
+ in the table; with these "quick-method" algorithms, a practitioner still has to carry out the computation
+
+ manually no matter how efficient and quick the algorithms make the computations appear.
+
+ Ô Springer
+
+This content downloaded from 203.78.15.150 on Mon, 18 May 2020 09:14:53 UTC
+All use subject to https://about.jstor.org/terms
+
+ Table 10 Algorithms in various 19th century treatises on "power-series" expansions of trigonometric
+ functions
+
+ 528 J.-P. J. Chen
+
+ Given quantities
+ Given quantities
+
+ Desired quantities
+ Desired quantities
+
+ Dai
+ Xu Xiang Li Dai
+ Xu
+
+ Xiang
+
+ Li
+
+ Dong
+ Dong
+
+ Ming
+ Ming
+
+ Diameter
+ Diameter
+
+ Circumference
+ Circumference
+
+ a
+ a
+
+ a
+ a
+
+ 2a
+ 2a
+
+ 2a
+ 2a
+
+ 2r sin (a)
+ 2 r sin (a)
+
+ r sin(a)
+ r sin (a)
+
+ rvers(a)
+ rvers(a)
+
+ rvers(a)
+ rvers(ûf)
+
+ r tan(a)
+ r tan (a)
+
+ a
+ a
+
+ a
+ a
+
+ a
+ a
+
+ a
+
+ r cot(a)
+ r cot (a)
+
+ r sec(a)
+ r sec(a)
+
+ r csc(a)
+ r csc(a)
+
+ r sin(a)
+ r sin (a)
+
+ rvers(a)
+ r vers (a)
+
+ 2r sin(a)
+ 2 r sin (a)
+
+ rvers(a)
+ rvers(a)
+
+ 2a
+ 2a
+
+ a
+ a
+
+ a
+ a
+
+ 2a
+ 2a
+
+ a
+ a
+
+ a
+ a
+
+ a
+ a
+
+ a
+ a
+
+ rtan(a)
+ r tan(a)
+
+ r cot(a)
+ r cot(or)
+
+ r sec (a)
+ r sec(ûf)
+
+ r csc(a)
+ r csc(ar)
+
+ V
+ V
+
+ V
+ V
+
+ V
+ V
+
+ V
+ ノ
+
+ V
+ ■J
+
+ V
+ J
+
+ V
+ ノ
+
+ J
+ V
+
+ V
+ V
+
+ V
+ V
+
+ V
+ s!
+
+ V
+ V
+
+ V
+ V
+
+ V
+ V
+
+ V
+ J
+
+ V
+ V
+
+ V
+ ■J
+
+ V
+ 7
+
+ V
+
+ V
+
+ V
+
+ V
+
+ V
+
+ V
+ ノ
+
+ V
+
+ V
+
+ V
+
+ ■J
+
+ ■J
+
+ V
+
+ V
+
+ V
+
+ V
+ V
+ V
+ V
+
+ V
+
+ v
+ V
+
+ V
+ v
+
+ 7
+ y
+
+ V
+
+ V
+
+ V
+
+ V
+
+ V
+
+ V
+
+ V
+ V
+
+ V
+ V
+
+ V
+
+ V
+
+ V
+ V
+
+ V
+ V
+
+ Instead, they emphasized that the trigonometric tables can be constructed quickly by
+
+ applying these algorithms. That is to say, what these algorithms replaced was not
+
+ the trigonometric table itself but its construction principles, the Six Essentials, Three
+
+ Important, and Two Simple Methods.
+
+ Xu Youren and Dai Xu each have a treatise discussing the quick method of con
+
+ structing tables. Xu's is called Zao gebiao jianfa 造各表簡法（Simple Methods for
+
+ Constructing Each Table), which discusses the methods of constructing tables of sine,
+
+ versed sine, and tangent lines; it also gives the instruction as how a logarithmic table
+
+ and a logarithmic trigonometric table can be made.114 Qiubiao jiefa 求表捷術(Quick
+
+ Methods of Finding Tables), in which D^i'sWaiqie milii mentioned earlier is included,
+
+ prescribes methods of finding values of tangent and secant lines based on the measure
+ of the arc under discussion. It also provides a “table” that has the lengths for arcs of
+
+ one through 10 s, next every 10 s from twenty to fifty, after that every minute from
+
+ one to ten, followed by every 10 min from twenty to fifty, then every degree from
+
+ one to ten, after that every 10° from twenty to eighty, and lastly, the arc length of a
+
+ quadrant, one-half of a circle, and the full circle.115 Neither treatise actually constructs
+
+ or provides a trigonometric table.
+
+ 115 For the table, the radius of the circle is 10 billion (yibaiyi —百億).These values appear in the actual
+
+ 114 See Xu (1859).
+
+ computation of trigonometric lines.
+
+ Ô Springe
+
+This content downloaded from 203.78.15.150 on Mon, 18 May 2020 09:14:53 UTC
+All use subject to https://about.jstor.org/terms
+
+ Trigonometric tables: explicating their construction.
+
+ This "power-series" approach to constructing tables merited an introduction in the
+
+ Protestant journal Liuhe congtan 六合叢談(Shanghae Series), a monthly publication
+
+ in Chinese disseminating new knowledge and introducing new fields in the Western
+
+ science to the general public in addition to reporting certain news around the world.
+
+ Edited by the missionary Alexander Wylie (1815-1887), the journal was in circulation
+
+ from January 1857 to June 1858 before abruptly stopped due to poor finance.116 In the
+
+ June issue of 1857, the notices of new books briefly discuss Xu's and Dai's books on
+
+ constructing tables.117 Starting with the old construction principles, the notice quickly
+
+ moves to describing the new approach initiated by Jartoux and pioneered in China by
+
+ Ming Antu and his disciple Chen Jixin 陳際新（late eighteenth century). It also men
+
+ tioned all the treatises of the series approach discussed earlier, describing the scope
+
+ of the algorithms in the books and at times commenting on their strengths. Besides
+ trigonometric tables, logarithmic tables and their construction are also mentioned.
+
+ This notice to new books demonstrates that the new mathematical developments fash
+
+ ioned by Chinese scholars were also accessible to and noticed by foreigners working
+ in China.
+
+ 10 Discoursing trigonometric table and the construction principles
+
+ As far as we know, no mathematical treatise post 1860 discusses the “power-series”
+
+ approach to constructing trigonometric tables. Our story of trigonometric tables and
+
+ the evolution and explication of their construction principles in China is drawing to
+ an end. Let us recount the episodes briefly.
+
+ Trigonometric tables and the algorithms to construct them were introduced into
+
+ China by the Jesuits as part of the effort to reform the Calendar circa 1630. While the
+
+ computational power of the trigonometric table was acknowledged by all, the “absent”
+ explanation of how these algorithms were established in the treatise remained an
+
+ enduring criticism of the Jesuits by some Chinese scholars.118 Generations of scholars
+
+ strived to find how the construction principles were derived. Successful as they were
+ in deriving the principles and in adding new algorithms to facilitate edification, few
+
+ new trigonometric tables were actually constructed afresh. Some tables included in
+
+ the treatises were outright plagiarized or simplified from the translated table by the
+
+ Jesuits; some were re-worked based on existing tables. The only trigonometric table
+
+ built anew consists entirely or sine lines utilizing a peculiar measure for arcs that no
+ one else uses.
+
+ Starting from three early eighteenth-century, Jesuit-introduced algorithms resem
+
+ bling the modern-day series expansion for the circumference of a circle, sine lines,
+
+ and versine lines, Chinese scholars in the late eighteenth century and the first half
+
+ 116 For a discussion on this journal, see Elman (2005,297-299).
+
+ 117 Though the journal was published in Chinese, it did have a table of content in English. The title of this
+
+ Notice is "Tae Heu's Logarithms, and Seu Yew-jin on the construction of Trigonometric and Logarithmic
+
+ tables." Tae Heu and Seu Yew-jin are the Romanization of the names pronounced in a local dialect for Dai
+ Xu and Xu Youren, respectively. See Shen (2006,627-628).
+
+ 118 To be fair, the explanation to the three important and two simple methods in Grand Measure amounts
+ to proving their validity with the exception of (2-2), as discussed earlier.
+
+ 旬 Springer
+
+This content downloaded from 203.78.15.150 on Mon, 18 May 2020 09:14:53 UTC
+All use subject to https://about.jstor.org/terms
+
+ 530 J.-P. J. Chen
+
+ of the nineteenth century again investigated how these algorithms were established.
+
+ They succeeded spectacularly in deriving these algorithms from a series of similar
+
+ isosceles triangles and the pattern they demonstrate; moreover, they greatly expanded
+
+ the repertoire of algorithms of similar nature. With these powerful and efficient algo
+
+ rithms, the task of constructing a trigonometric table was made much easier, yet the
+
+ general direction to construct trigonometric tables was disseminated without much
+
+ fanfare for actual construction. This uneven treatment of the construction principles
+
+ and trigonometric tables is worth our reflection.
+
+ Foremost, constructing a trigonometric table is a time-consuming business, com
+
+ manding great resources. In our earlier discussion, the table included in Numbers and
+
+ Principles was augmented from an existing table and completed with the backing of
+
+ a dynasty's resources. It would have been almost impossible for an individual scholar
+
+ to accomplish such a feat. Speculated to be constructed anew, An Qingqiao's table
+
+ has merely 250 entries, built with new, powerful algorithms and an obscure measuring
+
+ system, both of which facilitate and expedite computation. These examples point to
+
+ the difficulties an individual encounters in constructing a trigonometric table alone.
+
+ Therefore, it is understandable and expected that a treatise authored by an individ
+
+ ual scholar not have a trigonometric table constructed from scratch by following the
+
+ principles elucidated in the treatise.
+
+ The second interpretation of such an uneven treatment is more subtle and of intricate
+
+ nature. It is in the context of classification of “scientific knowledge" in early modern
+
+ China and the views on this issue held by the actors of the time. A little background
+
+ discussion is in order before we delve into our specific case, situating mathematics in
+
+ the general intellectual history at the time.
+
+ According to certain intellectual historians, Chinese scholars well versed in
+ mathematics and calendric science had tried to reconcile natural philosophy with
+ mathematical studies since the seventeenth century.119 Mei Wending's works are a
+
+ prime example. In his “Discussions of Rectangular Array” (Fangcheng lun 方程論)，
+
+ Mei explicitly describes his efforts to explain the reason behind the procedures as
+
+ "illuminating the principle of mathematics” (ming suanli 明算述)，li 理 being the
+ pervasive notion in Neo-Confucianism in the state-sanctioned curriculum in the civil
+
+ examinations in Ming and Qing.120 Efforts such as Mei's culminate in the integration
+
+ of mathematics in evidential scholarship (kaozheng xue 考sa學）in the eighteenth
+
+ century.121 Consequently, mathematics along with astronomy and calenanc science
+
+ by then had simply become an integral part of classical studies, at least for many
+ evidential scholars.
+
+ This perspective of mathematics allows us to place trigonometric tables and the
+
+ explication of their construction principles into different genres of knowledge from
+
+ 119 For the discussions on the efforts by various Qing scholars, see Elman (2001,218-221).
+
+ 120 Neo-Confucianism is also described in Chinese as "Song-Ming lixue 宋明理學(the learning if li during
+
+ the Song (960-1278) and Ming Dynasties)." The meaning of li is rather fluid, depending on the context. A
+
+ universal translation that fits all contexts is almost impossible. The usual translation of li is "moral principle，’’
+
+ which does not fit our purpose here. As li is omnipresent in all things, its governing of mathematics is
+ sometimes referred to as suanli or li of mathematics.
+
+ 121 See Elman (2001，218-221) for detailed discussions, cited from Jami (2007,147).
+
+ Ô Springe
+
+This content downloaded from 203.78.15.150 on Mon, 18 May 2020 09:14:53 UTC
+All use subject to https://about.jstor.org/terms
+
+ Trigonometric tables: explicating their construction... 531
+
+ the actor's viewpoint. On the one hand, the explication of principles, including the
+
+ geometric figures, the derivation and establishment of algorithms, and the assertive
+
+ explanation connecting the Western approach to classical texts, serves to illuminate
+
+ the connection between the subject matter and the underlying governing principle, li，
+
+ and then by extension to the Classic knowledge. As the discussions of construction
+
+ principles constitute the main body of treatises, they fit perfectly with what Catherine
+
+ Jami terms as "science as discourse." The actual construction of trigonometric tables,
+
+ on the other hand, can be carried out by practitioners with limited training to produce
+ a tool, which contributes in the service of statecraft to "enhance the control over the
+
+ world—heaven, earth, and man."122 Once a trigonometric table is constructed, it can
+
+ continually be utilized without any need to comprehend how it was built by a large
+
+ number of practitioners over a long time until the need arises to improve or replace
+
+ it. That is, trigonometric tables fall under what Jami describes as "science as action."
+
+ Literati were well aware that knowledge of this type is distinctively different from that
+
+ contained in the discourse and explanation of the principles. For example, Qin Huitian
+
+ 秦蕙田（1702-1764)，a minister of Justice at Qianlong Emperor's (reigned 1735
+
+ 1795) court, describes in his preface to Dai Zhen's Gougu geyuan ji 句股割圜記
+
+ (The Records of Base-Altitude and Circle-Division) that "learning the [mathematical]
+
+ algorithms without obtaining their principles, [this kind of learning] then [is] repetitive
+ and tragmental, similar to [learning] skills.’’123
+
+ The traditional Chinese term for the knowledge of the action kind was ji 技 or jineng
+
+ 技倉ê (skills).124 Treatises as the main platform for discoursing knowledge and as the
+
+ product of "science as discourse” are therefore partial to discussions of construction
+
+ principles over the actual making of the table. The view that trigonometric tables
+
+ are merely products of certain skills can also explain why scholars might consider it
+
+ acceptable to include in their treatises an existing table or a simplified version of it.
+
+ Moreover, such a practice would not create contention of priority.
+
+ Another interesting observation brings out a related but somewhat different issue:
+
+ Two authors in our analysis boasted explicitly that their tables are shortened, be it with
+
+ fewer trigonometric lines (functions) or adopting a coarser increment, and therefore
+
+ improvement to the Western-made tables, replacing numerous entries with a few algo
+ rithms. Both Li Zijin and An Qingqiao expressed such a view. Li claims, "The old
+ table has ninety some pages; [we] cannot see [the usefulness] of its multitude. This
+
+ table has merely seven and one-half pages; [we] do not experience [the deficiency]
+ of its meagerness." An's states, "Now [we] take from both the Chinese and Western
+
+ methods.. • to make the table of one line. [This approach] increases the completeness
+
+ of the principle, but the entries in the tables are rather simplistic. The table of eight
+ lines in the Western method can be left to rest.”125
+
+ 122 See Jami (2007,148) for the quote.
+
+ 123 The text by Qin reads,'溜其術不得其理，則繁碎而近於藝.’’ See Dai (1961,770).
+
+ 124 The actual construction of the table should be considered a skill. The quote and Jami's description of
+ science can be seen in Jami (2007,146-150).
+
+ 125 Li's texts read, ‘‘jiubiao jiushiyu ye.. .er bujian qiduo, jinbiao buguo qiye you ban... er bujian
+ qishao舊表九十餘葉,而不見其多…今表不通七萦有半…而不見其少.” See (Li Zijing 1763). An's read,
+
+ Ô Springer
+
+This content downloaded from 203.78.15.150 on Mon, 18 May 2020 09:14:53 UTC
+All use subject to https://about.jstor.org/terms
+
+ 532 J.-P. J. Chen
+
+ This peculiar practice runs directly counter to the core function of trigonometric
+
+ tables一minimizing and expediting calculations. As the governing principles should be
+
+ "simplistic" (jian 簡)and "refined" (jing 精)，the practice of shortening trigonometric
+
+ tables seems to suggest an effort by these scholars to repackage a product in the science
+
+ as-action genre to be in line with knowledge of possession of certain characteristics
+
+ of the principles. The motivations for such adjustments to trigonometric tables can
+
+ be manifold: the desire to show that Chinese works are superior to and therefore can
+
+ replace the Western ones, foreign knowledge should be domesticated and conform to
+
+ the Cninese standard, or a simple economic reason to reduce the cost of printing.
+
+ In 1877, the translation of a trigonometric treatise introduced a new, different kinds
+
+ of trigonometric knowledge into China.126 The difference commences from the very
+
+ beginning: The trigonometric values of an (acute) angle were defined as the ratios of the
+
+ lengths or sides in a right triangle, in contrast to the old definition as the line segments
+
+ associated with an arc. This intrinsically different treatment of trigonometry should
+
+ have undoubtedly enriched the knowledge developed and accumulated from before
+
+ 1850. The transition, appropriation, and the conflicts of the old and new treatments
+
+ of trigonometry in China should prove to be interesting as a sequel to our current
+
+ investigation. And that will require further exploration and examination; for sure，it
+
+ will be a story for another day.
+
+ Acknowledgments This project cannot be completed without the support from many institutions and
+ individuals. Words are not enough to thank colleagues and friends for their valuable comments and sug
+
+ gestions received during the course of preparing the manuscript. In particular, I would like to thank Inner
+
+ Mongolia Normal University in Inner Mongolia, China, and National Tsing Hua University in Hsinchu，
+
+ Taiwan, for hosting me as a senior Fulbright scholar during the 2012-2013 academic year when the bulk
+
+ of the article was being prepared. I also want to thank Dr. Dong Jie at Inner Mongolia Normal University
+ for his helpful comments and discussions. Professor Han Qi at the Institute of History of Natural Sciences,
+
+ Beijing, China, graciously shares his ample knowledge and provides many crucial sources for the revision
+
+ of the article. I am grateful for his generosity.
+
+ Appendix: Compendium abbreviations
+
+ DJTHM
+
+ Zhongguo kexue jishu dianji tonghui shuxue juan
+
+ 中國科學技術典籍通匯數學卷(Comprehensive Collection of Treatises
+ in Chinese Sciences and Technology, Mathematics).
+ Zhengzhou: Henan Education Press, 1993.
+
+ DJTHA
+
+ Zhongguo kexue jishu dianji tonghui tianwen juan
+
+ 中國科學技術典籍通匯天文卷(Comprehensive Collection of Treatises
+ in Chinese Sciences and Technology, Astronomy). Zhengzhou: Henan
+ Education Press, 1997.
+
+ Footnote 125 continued
+
+ “jin canzhuo zhongxi,..wei yixianbiao, yuli jiami, er biaoshu shenjian, xifazhi baxianbiao keyi buyong
+
+ yi.今參酌中西…為一線表.於理加密，而表敗則甚簡.西法之八線表可以不用矣”;see (An 1819,12:330).
+
+ 120 A Treatise on Plane and Spherical Trigonometry, 4th ed. by John Hymers was translated into Chinese
+
+ in 1877 as Sanjiao shuli 三角数理(The mathematical principles of trigonometry). The translation is based
+ on the 1858 edition.
+
+ â Springer
+
+This content downloaded from 203.78.15.150 on Mon, 18 May 2020 09:14:53 UTC
+All use subject to https://about.jstor.org/terms
+
+ Trigonometric tables: explicating their construction... 533
+
+ CZLS Chongzhen Lishu 崇禎曆書（Astronomical Compendium of the
+
+ Chongzhen Reign). Compiled and translated by Adam Schall von Bell et
+
+ al.I use the copy collated by Pan Nai. Shanghai: Shanghai Guji Chubanshe,
+ 2009. 一
+
+ GGZBCK Gugong Zhengben congkan 故宫珍本叢刊(The Collection of Precious
+
+ Treatises at the Palace Museum). Reprint of a collection of treatises housed
+
+ in the Palace museum in Beijing. Haikou: Hainan Chubanshe, 2000-2001.
+
+ SKQS Siku quanshu 四库全耆(The Complete Texts of the Four Repositories).
+
+ Reprint, Taipei: Taiwan Shangwu Yingshuguan, 1983.
+
+ SKWSSJK Siku weishou shujie fam 四库未收書籍刊(The Collections of Treatises
+
+ Not Included in the Complete Texts of the Four Repositories). Beijing:
+ Beijing Chubanshe, 1997.
+
+ XXSKQS Xuxiu siku quanshu 續修四库全書(The Sequel of the Complete Texts of
+
+ the Four Repositories). Reprint. Shanghai: Guji Chubanshe, 2002.
+
+ References
+
+ An, Qingqiao 安淸闻.1818. Juxian yuanben 矩線原本(Elements of lines of carpenter square). Prefaced in
+
+ 1818. In SKWSSJK，9th collation, vol.12,295-336.
+
+ An, Qingqiao 安淸裡.1817. Yixian biao yong —線表用(Applications of the table of one line). Prefaced in
+
+ 1817. In SKWSSJK, 9th collation, vol.12, 337-385.
+
+ An, Qingqiao 安淸齄.1997. Xuesuan cunlue 學算存略(Brief [notes] of learning mathematics). Prefaced
+
+ not dated. In SKWSSJK, 9th collation, vol.12,565-599.
+
+ Bai, Shangshu. 1963. Jieshao woguo diyibu sanjiaoxue一Dace 介紹我國第一部三角學一《大測》(Intro
+
+ duction to the first Chinese trigonometry of our country—The Dace). Shuxue tongbao IK学通報 2:
+ 48-52.
+
+ Bai, Shangshu. 1984. Celiang quanyi diben wenti de chutan《測量全義》的底本問题初探，(Preliminary
+
+ investigation into the sources of Celiang quanyi). Kexueshi jikan 科學史集刊11:133-159.
+
+ Chemla, Karine, and Shuchun Guo. 2004. Les Neuf Chapitres: Le Classique mathématique de la Chine
+
+ ancienne et ses commentaires. Paris: Dunod.
+
+ Chen, Jiang-Ping Jeff. 2010. The evolution of transformation media in spherical trigonometry in 17th- and
+
+ 18th-century China, and its relation to 'Western Learning'. Historia Mathematica 37: 62-109.
+
+ Chen, Jiang-Ping Jeff. 2011. Re-examine Dai Zhen's Mathematics from the angle of construction and mathe
+
+ matical principles(È建构与算理看戴震的《勾股割園记》).Zirankexueshiyanjiu自然科学史研究
+ (Studies in the History of Natural Sciences) 30.1: 28-44.
+
+ Chu, Ping-yi. 1999. Sanjiao hanshu biao yu mingmo de zhongxi lifa zhizheng~kexue de wuzhi wenhua
+
+ shitanニ角函数表與明末的中西曆法之爭ー科季的物質文化試探(Trigonometrictables
+ and the Chinese and Western calendar dispute in late Ming~Initial investigation of the material culture
+
+ in sciences). Dalu Zazhi 大陸雜誌(The Continental Magazine) 99.5:41-48 and 99.6:9-18.
+ Cullen, Christopher. 1982. An eighth century Chinese table of tangents. Chinese Science 5:1-33.
+
+ Dai, Xu 戴胞.1852. Waiqie milii 外切密率(Tangent outside [the circle] and the precise Lii). Composed in
+
+ 1852. Reprint in DJTHM 5:767-850.
+
+ Dai, Zhen 戴震.1761. Gougu geyuanji 句股割圆記(Records of base-altitude and circle-division). This
+
+ version was originally published in 1761 as an appendix in a Chapter in Wuli tongkao 五植通考(Jhe
+ comprehensive analysis of five rites) compiled by Qin Huitian. In SKQS, vol. 139,770-807.
+
+ Dai, Zhen, 2002. Zhunwang jian fa 準望筒法（Simple methods in surveying). Unpublished manuscript
+
+ written in 1750's. In XXSKQS, vol. 1045,125-134. "
+
+ Dong, Jie, 2011.Qingchu sanjiaoxue de duli yu fazhan yanjiu 淸初三角学的独立与发展研宄(The research
+
+ on the independence & development of trigonometry in the early Qing dynasty). Ph.D. thesis. Hohhot:
+ Inner Mongolia Normal University.
+
+ Dong, Youcheng 董祐誠.1830. Geyuan lianbili shu tujie 割 HI速比例術圆解(The explication with diagrams
+
+ of continued proportions in the circle division). Reprint in DJTHM 5:435-459.
+
+ 名 Springer
+
+This content downloaded from 203.78.15.150 on Mon, 18 May 2020 09:14:53 UTC
+All use subject to https://about.jstor.org/terms
+
+ Dushubiao 度数表(Tables of degrees and numbers). Compilers/authors and production date unknown. I
+
+ consulted the copy at the Institute of History of Natural Science, Beijing, China. Catalogue No.善子
+ 530.991/169.
+
+ 534 J.-P. J. Chen
+
+ Elman, Benjamin. 2001. From philosophy to philology: Intellectual and social aspects of change in Late
+
+ Imperial China，2nd revised edition. Los Angeles: Asia-Pacific Institute.
+
+ Elman, Benjamin, 2005. On their own terms: Science in China, 1550-1900. Cambridge and London:
+
+ Engelfriet, Peter. 1998. Euclid in China: The genesis of the first translation of Euclid's elements in 1607
+
+ Harvard University Press.
+
+ and its reception up to 1723. Leiden: Bnll.
+
+ Fan, Jingzhong. 1999. Tong huoziban taoyinben Yiizhi shuli jingyun 铜活字套印本《御制数理精蕴》
+
+ (Essence of numbers and their princbles，imperially composed, bronze movable type, chromatograph
+ edition). Palace Museum Journal 2: 88-91.
+
+ Feng, Lishen. 2009. Zhongri shuxue guanxishi 中日数学关糸史(A history of interaction between Chinese
+
+ and Japanese mathematics). Ji'nan: Shangdong Jiaoyu Chubenshe.
+
+ Gao，Honglin. 1993. A study of Li Zijin's the Table of celestial arcs [in a] quadrant
+
+ (李子金《天弧象限表》研究).In Shuxueshi yanjiu wenji數學史研究文集 (À collection of studies
+ of history of mathematics), vol.4, ed. Li Di, 42-46. Taipei: Jiuzhang Chubenshe.
+
+ Guo, Shuchun, and ZhaohuaLi, eds. 2010. Zhongguo kexue jishu shi Amjcmヴ中国科学技术史（数学卷）
+
+ (History of Chinese sciences and technology, mathematics). Beijing: Kexue Chubanshe.
+
+ Han, Qi.1991. Kangxi shidai c huanru de xifang shuxue jiqi dui zhongguo shudue de yingxiang
+
+ 康熙时代传入的西方数学及其对中国数学的影响(The introduction of Western mathematics
+ during Kangxi period and its influence on Chinese mathematics). Ph.D. thesis. Beijing: Institute for
+
+ the History of Natural Science, Chinese Academy of Sciences.
+
+ Han, Qi. 1992. Shuli jingyun duishu zaobiaofa yu Dai Xu de erxiang zhankaishi
+
+ 《数理精蕴》对数造表法与戴胞的ニ项展开式研究（Briggs’ method for calculating common
+ logarithm in Shu Li Jing Yun and its influence on Dai Xu's study of binomial theorem). Studies in the
+ History of Natural Sciences 11(2): 109-119.
+
+ Han, Qi. 1993. Wuminyi zhai suanxue tiyao 務民義齋算學提要（Synopsis of Wuminyizhai mathematics).
+
+ In Z)7n/M, vol.5,647-651. _
+
+ Han, Qi. 1997. Shuxue de chuanrujiqi yingxiang 数学的传入及其影响(The introduction of [Western] math
+
+ ematics [into China] and its impact). In Zhongguo jinxiandai kexue jishu 土•中国近现代科学技术史
+ (The history of sciences and technology in early modern China), ed. Guangbi Dong, 87-127. Changsha:
+
+ Hunan Jiaoyu chubanshe.
+
+ Han, Qi. 1999. "Gewu qiongli yuan" and Megyang Zhai一17,18 shiji de zhongfa kexue jiaoliu
+ "格物穷理院”与蒙养斋一17,18世纪的中法科学交流（“The academy of investigating things and
+
+ pursuing principles" and the school of tutoring the young一"the scientific exchanges between China
+
+ and France in the 17th century). Faguo Hanxue 法国汉学(French Sinology) 4: 302-324.
+
+ Han, Qi. 2003. Antoine Thomas, SJ, and his mathematical activities in China, a preliminary research through
+
+ Chinese sources. In The history of the relations between the low countries and china in the Qing era
+ (1644-1911), ed. W.F. Vande Walle and Noël Golvers, 105-114. Leuven: Leuven University Press.
+ Han, Qi. 2007. Kangxi shidai de lisuan huodong: jiyu dangan ziliao de xinyanjiu
+ 康熙时代的历算活动：基于档案资料的新研宄(Mathematical and astronomical activities during the
+
+ Kangxi period (1662-1722)—A new approach through archival documents). In Shiliao yu shijie—
+
+ zhongwen wenxian yu zhongguo jidujiaoshi yanjiu史料与视界•一中文文献与中国基督教史研宄
+ (Historical documents and the perspectives—Chinese sources and the research of the history of
+
+ Christianity in China), ed. Xianqing Zhang, 40-60. Shanghai: Shanghai Renmin Chubanshe.
+
+ Han, Qi. 2014. Knowledge and Power, A Social History of Transmission of Mathematics between China
+
+ and Europe during the Kangxi Reign (1622-1722). In The proceedings of the International Congress
+
+ of MathematicianSy Seoul, vol.IV，ed. S.Y. Jang, Y.R. Kim, D.-W. Lee, and I. Yie，1217-1229. Seoul:
+ Kyung Moon Sa. Co., Ltd.
+
+ Han, Qi. 2015. Chinese literati's attitudes toward Western science: Transition from the late Kangxi period
+
+ to the mid-Qianlong period. Historia Scientiarum 24(2): 76-87.
+
+ Huang, Yilong. 1990. Tang Ruowang yu qingchu xili zhi zhengtonghua 湯若望與清初西曆法之正統化
+
+ (Johann Adam Schall von Bell and the legitimization of Western calendar in early Qing china). In
+
+ Xinbian zhongguo kejishi 新编中國科技史（The newly collated history of Chinese science and tech
+
+ nology), ed. Wu Jiali, and Yue Hongli, 465-490. Taipei: Yihe wenhua shiye gongsi.
+
+ 旬 Springer
+
+This content downloaded from 203.78.15.150 on Mon, 18 May 2020 09:14:53 UTC
+All use subject to https://about.jstor.org/terms
+
+ Trigonometric tables: explicating their construction... 535
+
+ Hymers, John. 1858. A treatise on plane and spherical trigonometry and on trigonometric tables and
+
+ logarithm，4th edition revised. London: Longman, Brown, Green, Longmans, and Roberts.
+
+ Iannaccone, Isaia. 1998. The Geyuan Baxian Biao and some remarks about the scientific collaboration
+
+ between Schall von Bell, Rho, and Schreck. In Western learning and Christianity in China: The
+ contribution and impact of Johann Adam Schall von Bell, 1592-1666, ed. Roman Malek, 701-716.
+ Nettetal: Steyler Verlag.
+
+ Jami, Catherine. 1988. Western influence and Chinese tradition in an Eighteen century Chinese mathematical
+
+ work. Historia Mathematica 15: 311-331.
+
+ Jami, Catherine. 1990. Les Méthodes Rapides pour la Trigonométrie et le Rapport précis du cercle (1774);
+ Tradition Chinoise et Apport Occidental en Mathématiques. Paris: Collège de France, Institut des
+ Hautes Etudes Chinoise.
+
+ Jami, Catherine. 2007. Western learning and imperial scholarship: The Kangxi emperor's study. East Asian
+
+ Science, Technology, and Medicine 27:146-170.
+
+ Jami, Catherine. 2012. The Emperor's new mathematics: Western learning and imperial authority in China
+
+ during the Kangxi reign (1662-1722). Oxford: Oxford University Press.
+
+ Kobayashi,Tatsuhiko.2003.德川日本における漢訳西洋暦算害の受容(The acceptance of Chinese books
+
+ on Western calendric calculations in Tokugawa Japan). Ph.D. thesis. Tokyo: Tokyo University.
+
+ Li, Shanlan 李善蘭.1845. Hushi qimi 弧矢敗密（Opening the secrete of arcs and sagittae). Composed in
+
+ 1845. Reprint in DJTHM 5: 875-885.
+
+ Li, Yan. 1927. "Sanjioashu he sanjiaohanshubiao de donglai"三角術和三角函数表的东来(The introduc
+
+ tion of trigonometry and trigonometric tables into China). First published in 1927, later included in
+
+ Li Yan Qian Baocong kexueshi quanji 李炉钱宝琼科学史全集（Complete collection of Li Yan and
+ Qian Baocong's Essays on history of science), vol.7,192-253. Liaoning: Liaoning Jiaoyu Chubanshe,
+ 1998. レ
+
+ Luo, Jianjin, 1990. Ming Antu jisuan wuqiongjishu de fangfa fenxi 明安图计算无穷级数的方法分析
+
+ (An analysis of the calculating method of infinite series by Ming Antu). Ziran kexushi yanjiu
+
+ 自然科学史研宄(Studies in the History of Natural Sciences) 3:197-207.
+
+ Martzloff, Jean-Claude, 1997. A history of Chinese mathematics (trans: Stephen Wilson). Berlin: Springer.
+
+ Mei, Juecheng 梅毅成.1739. Jianjitang lisuanshu kanmiu 兼濟堂靥算害刊缕(The collection of errata in
+
+ the Jianji hall calendric and computational Treatises). This unpublished manuscript has no pagination.
+
+ I consulted the copy at the Institute of History of Natural Science, Beijing, China. Catalogue No.善子
+ 530.7/547. ^
+
+ â Springer
+
+This content downloaded from 203.78.15.150 on Mon, 18 May 2020 09:14:53 UTC
+All use subject to https://about.jstor.org/terms
+
+ Li, Yan, and Du, Shiran. 1987. Chinese mathematics: A concise history (trans: John Crossley and Anthony
+
+ W. C. Lun). New York: Oxford University Press.
+
+ Li, Zhaohua. 1993. “Xu Youren In Zhongguo gudai 請yi•中国古代科学家传记(Biogra
+
+ phies of Chinese scientists in the past), ed. Du Shiran,119Q-1193. Beijing: Science Press.
+
+ Li, Zhaohua. 2000. Gusuan jinlun 亡算今as (Ancient mathematics [and] modern discussion). Tianjin:
+
+ Tianjin Science and Technology Press.
+
+ Li, Zijin. 1673. Tianhu xiangxian biao 天弧象限表(The table of celestial arcs [in the] quadrant). I consulted
+
+ the rare copy at the Institute of History of Natural Science, Beijing, China. Catalogue No.子 530.7/270.
+
+ Lii, Lingfeng. 2007. Eclipses and the victory of European astronomy in China. East Asian Science, Tech
+
+ nology, and Medicine 27:127-145.
+
+ Luo, Jianjin. 1988. Ming Antu gongshi bianzheng 明安图公式辨正（Correction of Ming Antu's formulas).
+
+ Neimenggu shida xuebao 内蒙古师大学报(Journal of Inner Mongolia Normal University, Natural
+ Science)1:42-48.
+
+ Mei, Juecheng. 1759. Chishui yizhen 赤水遗珍（The pearls recovered from the Red River). In Meishi
+
+ congshu 力)伽梅氏叢耆輯要(Essential collectanea of Mei Lineage's work), vol.8, reprinted in 1971.
+ Taipei: Yiwen yinshuguan.
+
+ Mei, Wending 梅文鼎.1703. Wuan lisuan shumu 勿库層算害目(The list and notes of works in mathematics
+
+ and astronomy by [Mei] Wuan). I consulted the copy at Fusinian Library at Academia Sinica, Taiwan.
+ Catalogue No: 082 823.1，v. 149.
+
+ Mei, Wending 梅文鼎.1723. Lisuan quanshu 曆算全害(Complete writings on mathematics and calendric
+
+ astronomy). I consulted the rare copy at the Library of Congress, the United States. Catalogue No.
+ QA27.C5 M448 1723.
+
+ 536 J.-P. J. Chen
+
+ Ming, Antu 明安園.1839. Geyuan milii jiefa 割園密率捷法（Quick methods for the circle's division and
+
+ precise Lu). Reprint in XXSKQS 1045:1-79.
+
+ Needham, Joseph. 1959. Science and civilisation in China，vol. III. Cambridge: Cambridge University
+
+ Press.
+
+ Roegel, Denis. 2011.A reconstruction of Smogulecki and Xue's table of trigonometric logarithms, http://
+
+ locomat.loria.fr/smogulecki 1653/smogulecki 1653doc2.pdf. Accessed 26 January 2014.
+
+ Schreck, Johann. 1631. Dace 大測（Grand measure). Reprint in CZLS 1171-1201.
+
+ Schreck, Johann, Rho Giacomo, and Adam Schall. 1631. Geyuan Baxian Biao 割園八線表（The table of
+
+ eight lines dividing the circle). Reprint in CZLS 1203-1255.
+
+ Shen, Guowei, ed. 2006. Liuhe congtan 六合叢談(Shanghae series). The journals were first published
+
+ 1857-1858; they were later collated and reprinted in 2006. Shanghai: Shanghai Cishu Chubanshe.
+
+ Shi, Yunli. 2007. Nikolaus Smogulecki and Xue Fengzuo's true principles of the pacing of the heavens: Its
+
+ production, Publication, and reception. East Asian Science, Technology, and Medicine 27: 03-126.
+
+ Shubiao 数表(Numerical tables) 2000. Reprint in GGZBCK，404: 330-469.
+
+ Shuli jingyun biao 数理精趣表(Tables in the essence of numbers and their principles). Commissioned by
+
+ Kangxi Emperor and completed in 1722 shortly before his death. Reprint in GGZBCK, vols. 395-397.
+
+ Sivin, Nathan. 2009. Granting the seasons. New York: Springer.
+
+ Smogulecki, Nicholas, and Xue, Fengzuo. 1662. Lixue huitong 曆學會通（â/î integration of calendrical
+
+ studies). Reprint in DJTHA 6: 619-893.
+
+ Stevin, Simon, 1605-1608. Hypomnemata mathematica. London: Ioannis Patii. Latin translation by Wille
+
+ brord Snell of Stevin's Wiskonstighe Ghedachtenissen (Mathematical memoirs) (Leiden), doi: 10.3931/
+ e-rara-9068.
+
+ Tegus. 1996. Shilun Qingdai lianbili fangfa 试论清代割圆连比例方法(A tentative discussion on the cyclo
+
+ tomic continued proportional method of the Qing dynasty). Ziran kexushi yanjiu 自然科学史研究
+ (Studies in the History of Natural Sciences) 4: 319-325.
+
+ Thomas, Ivor. 2000. Greek mathematical works II. London: Harvard University Press.
+
+ Tian, Miao. 2005. Zhongguo shuxue de xihua 中国数学的西化历程(The Westernization of mathe
+
+ matics in China). Jinan: Shandong Jiaoyu Chubanshe.
+
+ Van Brummelen, Glen. 2009. The mathematics of the heavens and the Earth: The early history of trigonom
+
+ etry. Princeton: Princeton University Press.
+
+ Wang, Lai 汪萊.1798. Hengzhai xuanxue 衡齋算學（Mathematical learning of Hengzhai [Wang Lai]).
+
+ First published in 1798. Reprint in DJTHM 4:1483-1535.
+
+ Wang, Xichan 王錫闡.1983. X/oo'tm jc/n/a 曉庵新法(New methods of Xiao'an). Composition date unclear.
+
+ In 5^G5, vol. 793,451-531.
+
+ Xiang, Mingda 項名達.1849. Xiangshu yiyuan 象數—原（Images and numbers [are] of the same origin).
+
+ Prefaced in 1843 and 1849. Reprint in DJTHM 5:473-602.
+
+ Xu, Youren 徐有壬.1840. Ceyuan milii 測画密率（Measuring circle and its precise Lil). Composed prior
+
+ to 1840. Reprint in DJTHM 5:653-668.
+
+ Xu, Youren. 1859. Zao gebiao jianfa 造各表簡法（Simple methods for constructing each table). Collected
+
+ and published prior to 1859. Reprint in DJTHM 5:669-674.
+
+ Yan, Dunjie. 1958. Zhongguo gudai de huangchidaochajisuanfa 中國古代的黄赤道差計算法(The compu
+ tational methods of the difference between the equatorial and ecliptic coordinates in ancient China).
+
+ Kexueshi jikan 科學史集刊(The Journal of History of Sciences)1:47-58.
+
+ Yan, Dunjie, 1989. Mei Wending de shuxue he tianwenxue gongzuo 梅文鼎的数学和天文学工作(Mei
+
+ Wending's works in mathematics and astronomy). Ziran kexueshi ya/yÏM 自然科学史研究(Studies in
+
+ the History of Natural Sciences) 8.2:99-107.
+
+ Yang, Zuomei —在枚.1723. Jie baxian geyuan zhi gen 解八線割圆之根(Explicating the origin of [how]
+
+ eight lines divides the circle). In Lisuan quanshu 靥算全書(Complete writings on mathematics and
+
+ calendric astronomy). In this collection, the chapters (juan 卷)are numbered within individual treatises
+ not for the entire collection.
+
+ Yiizhi shubiao jingxiang 御製数表精詳(Essential details of numerical tables imperially composed). 2000.
+
+ Compilers/authors and production date unknown. Reprint in GGZBCK 401: 327-391.
+
+ Yiizhi shuli jingyun 御製数理精蕩(The essence of numbers and their principles imperially composed).
+ Commissioned by Kangxi Emperor and completed in 1722 shortly before his death. Reprinted in
+ DJTHM, 3.
+
+ 公 Springer
+
+This content downloaded from 203.78.15.150 on Mon, 18 May 2020 09:14:53 UTC
+All use subject to https://about.jstor.org/terms
+
+

@@ -1,0 +1,3852 @@
+ 
+
+ 
+
+ 
+
+ 
+
+Stability of trajectories from Poincaré to Birkhoff: approaching a qualitative definition
+Author(s): Tatiana Roque
+Source: Archive for History of Exact Sciences, Vol. 65, No. 3 (May 2011), pp. 295-342
+Published by: Springer
+Stable URL: https://www.jstor.org/stable/41134349
+Accessed: 19-05-2020 12:24 UTC
+
+JSTOR is a not-for-profit service that helps scholars, researchers, and students discover, use, and build upon a wide
+
+range of content in a trusted digital archive. We use information technology and tools to increase productivity and
+
+facilitate new forms of scholarship. For more information about JSTOR, please contact support@jstor.org.
+
+Your use of the JSTOR archive indicates your acceptance of the Terms & Conditions of Use, available at
+
+https://about.jstor.org/terms
+
+Springer is collaborating with JSTOR to digitize, preserve and extend access to Archive for
+History of Exact Sciences
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:24:27 UTC
+All use subject to https://about.jstor.org/terms
+
+ Arch. Hist. Exact Sci. (201 1) 65:295-342
+ DOI 10.1007/800407-011-0079-0
+
+ Stability of trajectories from Poincaré to Birkhoff:
+ approaching a qualitative definition
+
+ Tatiana Roque
+
+ Received: 14 July 2010 / Published online: 9 April 201 1
+ © The Authors) 201 1. This article is published with open access at Springerlink.com
+
+ Abstract The article investigates the different conceptions of stability found in
+
+ qualitative studies on the solutions of differential equations. We start from the defini-
+
+ tions proposed by Poincaré and criticized by Birkhoff for not being fully qualitative,
+
+ and show that the clarification of the criterion for stating that a property is qualitative
+
+ comes precisely with Birkhoff. In addition, we note that the stability conceptions of
+
+ Lyapunov and Levi-Civita are also important in this transition from the appearance
+
+ of the first qualitative tools in the study of differential equations to the definition of
+
+ stability in use in dynamical systems theory. The history of stability can help to explain
+
+ the meaning of the word "qualitative" in this context.
+
+ 1 Introduction
+
+ At the end of the nineteenth century, Henri Poincaré proposed a qualitative approach
+
+ for the analysis of the solutions of differential equations. His article "Sur les courbes
+
+ définies par une équation différentielle"1 is well known as a starting point in this kind
+
+ of treatment (Poincaré 1881, 1882, 1885a, 1886). Its third and fourth parts, published,
+
+ respectively, in 1 885 and 1 886, introduce some conceptual tools that would later prove
+ useful for his research on celestial mechanics, and in the 1890s he wrote two further
+
+ works on this same topic, (Poincaré 1890) and (Poincaré 1892-1899). As we will see
+
+ later in this article, one of the main features of a qualitative treatment is to regard
+
+ 1 "Sur les courbes" from now onwards in this article.
+
+ Communicated by : Jeremy Gray.
+
+ T. Roque (S)
+ Instituto de Matemática, Universidade Federal do Rio de Janeiro, P.O. Box 68530,
+ Rio de Janeiro, RJ 21941-909, Brazil
+
+ e-mail: tati@im.ufrj.br
+
+ £ì Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:24:27 UTC
+All use subject to https://about.jstor.org/terms
+
+ differential equation solutions as trajectories of a moving body. In this context, the
+
+ term "trajectory" designates a solution.
+
+ Today, the qualitative analysis of differential equations is defined as the direct study
+
+ of the geometry or topology of the set of solutions. This treatment has replaced the
+
+ search for the properties of individual solution given by means of series developments.
+
+ However, this is merely the current mathematical interpretation. The different mean-
+
+ ings that the word "qualitative" has assumed throughout history still need a proper
+
+ 296 T. Roque
+
+ investigation.
+
+ It is worth noticing that Poincaré did not oppose qualitative and quantitative
+
+ approaches. One important historical question thus arises: when did mathematicians
+
+ start to distinguish qualitative from quantitative methods? It is our intention to answer
+
+ the question in the particular context of stability. In our perspective, an inquiry into
+
+ the development of the different definitions of stability emerges as an occasion to
+
+ understand the exact meaning of the adjective "qualitative" when associated with the
+ new methods introduced by Poincaré.
+
+ Several historians of mathematics have already studied the works of Poincaré on the
+
+ qualitative theory of differential equations, but not with the same concerns as ours.2
+
+ One of the first works on the topic was written by Christian Gilain in 1977. In Gilain
+
+ (1977), he analyzes the paper "Sur les courbes" in detail, showing its relationship
+ with traditional research works on differential equations. Gilain (1991), relates the
+ methods that Poincaré uses to describe the global aspect of two dimensional trajecto-
+
+ ries to the theory of algebraic curves and some aspects of his treatment of solutions
+
+ are compared with those of other mathematicians. Jeremy Gray (1992) offers a wide
+ account of how Poincaré uses the mathematics of his time, especially topology, in his
+
+ qualitative works, and explains their application to different topics such as planetary
+
+ astronomy, dynamics, and celestial mechanics.
+
+ Jean-Luc Chabert and Amy-Dahan Dalmedico (1992) study in the new methods
+
+ introduced by Poincaré in "Sur les courbes" and in his works on celestial mechanics,
+
+ highlighting their geometrical nature. In a historical research more concerned with
+ the heritage of Poincaré, Dahan-Dalmedico (1996) summarizes his most important
+
+ qualitative results, focusing on their reception by different mathematicians in differ-
+
+ ent countries. Special attention is given to Birkhoff, considered "the only true disciple
+ of Henri Poincaré in the West" (Dahan-Dalmedico 1996, p. 24). Poincaré's articles on
+
+ the three body problem are discussed in depth in the book of Barrow-Green Poincaré
+ and the Three Body Problem (Barrow-Green 1997). In Barrow-Green (1994), she had
+
+ already analyzed the erroneous paper that Poincaré presented to the competition that
+ celebrated the 60th birthday of King Oscar of Sweden and Norway in 1889 (Poincaré
+ 1889). The efforts made to correct the error gave rise to another paper published in
+ 1890 (Poincaré 1890). Barrow-Green compares both versions explaining the context
+
+ in which they appeared.
+
+ All these works mention the question of stability, but their goal is not to proceed
+
+ into a deep investigation of the different mathematical ways in which this concept
+ can be defined. More recently, in a PhD thesis about the conception of "general" in
+
+ 2 Nabonnand (2000) gives an account of the historical studies about Poincaré in various domains, and in
+
+ particular in the qualitative theory of differential equations.
+
+ £} Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:24:27 UTC
+All use subject to https://about.jstor.org/terms
+
+ Stability of trajectories from Poincaré to Birkhoff 297
+
+ the works of Poincaré, Robadey (2006) notes that there are two different notions of
+
+ stability in the two versions of the paper submitted to the competition. We will return
+
+ later to her remarks on the subject in order to stress the different notions of stability
+
+ found in the qualitative works of Poincaré and some of his followers. Other research
+
+ works related to stability problems, treated from a qualitative point of view, will also
+
+ be studied, such as the work of Aleksandr Mikhailovich Lyapunov.
+
+ Mawhin (1994) discusses the novelty of Lyapunov's works on differential equa-
+
+ tions and the theory of stability, paying special attention to the new fields he opened
+ in mathematics and in applied domains (such as control theory). He also makes a
+
+ comparison between Lyapunov and Poincaré and comments on the reception of their
+
+ works by the French research community on differential equations. This last topic is
+ analyzed in detail in (Mawhin 1996). In the context of Italian mathematics, we will
+ look at Tullio Levi-Civita's works on stability and qualitative analysis, which have
+ already been studied in Dell'Aglio and Israel (1989, 1987). These authors highlight
+ the innovative character of Levi-Civita's approach to the three body problem, but also
+ what he owes to tradition.
+
+ In all these historical texts, the definitions of stability proposed by each of the
+ mathematicians appear as part of a whole analysis of their works. Here, we aim to
+
+ draw on all these references, returning to the primary sources whenever necessary, but
+
+ focusing on the mathematical definitions of stability. Our question is not to analyze
+ the work of a particular mathematician. Rather, we seek the relations between the
+
+ different stability definitions proposed by each mathematician, trying to identify to
+
+ which cultural context the definition of stability belongs.
+
+ This article thus differs from the works cited above as it does not aim to study a
+
+ particular mathematician, stressing the originality of his work. We propose a history
+
+ of the mathematical definitions that the concept of stability has been associated with,
+
+ presenting the different meanings it has assumed at the hands of different mathema-
+
+ ticians, which were all recognized as belonging to the same field. Nor do we wish to
+
+ analyze a particular problem concerning stability, such as the problems of the stability
+
+ of the solar system or the stability of equilibria. They give rise to different mathemati-
+
+ cal definitions of stability, and our goal is only to inquire into the links between them,
+
+ instead of describing stability results in a specific problem.3
+
+ Why this special interest on the question of stability? The topic has particular rel-
+
+ evance for the constitution of the new mathematical discipline now called dynamical
+
+ systems theory. As often occurs in the history of mathematics, a new field gains an
+ identity when some procedures already in use are isolated and discussed. The first
+ mathematician to propose a reflection on the nature of qualitative methods and the
+ novelty they represent was George David Birkhoff. These questions emerged in his
+ works in the 1910s in connection with a discussion of the most adequate stability
+ definition to be used in a qualitative treatment.
+
+ A brief description of some stability conceptions found in the works of Lagrange, Poincaré, and Lyapunov,
+ and related to dynamical systems and modern control theory, is given by Leine (2010). Notwithstanding
+ the legitimate goal of showing the differences between the definitions put forward by each mathematician,
+ the article is not concerned with historical analysis.
+
+ & Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:24:27 UTC
+All use subject to https://about.jstor.org/terms
+
+ 298 T. Roque
+
+ The expression "dynamical systems" - in the context of mathematical studies on
+
+ differential equations - appears for the first time in the title of one of his articles "Quel-
+
+ ques théorèmes sur le mouvement des systèmes dynamiques", presented in 1909 to the
+
+ American Mathematical Society and published in 1912 (Birkhoff 1912). He defined a
+
+ dynamical system as any system of ordinary differential equations in which the inde-
+
+ pendent variable is interpreted as being the time, while other variables are coordinates
+
+ of a "movement". Birkhoff (1927a) published the first treatise on the domain called
+
+ Dynamical Systems, aiming to present to a large public the main definitions and con-
+
+ ceptual tools that distinguish this new discipline from the traditional field of research
+
+ devoted to differential equations.
+
+ We do not deny that Poincaré was the true creator of the qualitative approach, since
+
+ he proposed key methods for a new treatment of differential equations. However, in
+
+ order to identify the birth of a new theory, it is necessary to go beyond the search for
+
+ methods now recognized as pertaining to this theory. Indeed, we can say that the field
+
+ of dynamical systems was not created until its methods were explicitly defined as qual-
+
+ itative as opposed to the older ones. From this standpoint, the theory as such started
+
+ with the works of Birkhoff, in particular those in which he discussed the appropriate
+
+ qualitative definition for stability. A criterion for distinguishing different definitions
+
+ of stability and their role in the characterization of qualitative methods became clear in
+
+ Birkhoff 's works from the 1920s on. Eventually, he (Birkhoff 1935, p. 310) explicitly
+
+ affirmed that the term "stability", once applied to the property of Poisson periodicity
+ (defined below) that had been taken into consideration by Poincaré 50 years before,
+ was "unfortunate".
+
+ Therefore, we have a twofold goal. First, we want to show that the works of Poin-
+
+ caré do not represent a break with the classical research in differential equations and
+ celestial mechanics. His writings on these topics combine, in an indifferent manner,
+
+ traditional and original methods proposed by him for the first time. The task of the
+
+ historian is not only to identify what is new in his works, but also what they take from
+
+ the previous tradition. Our second goal is a consequence of the first, as we seek to
+ show that a criterion for distinguishing a qualitative approach appears previously in
+ the work of Levi-Civita, and then in Birkhoff 's, in connection with the discussion on
+
+ the many ways stability can be defined.
+
+ This distinguishes our case study of stability from other historical studies on qual-
+
+ itative methods. By elucidating the many different concepts of stability, particularly
+ in the work of Birkhoff, it became possible for dynamical systems to emerge as
+ a mathematical theory - more precisely as a mathematical theory of a qualitative
+ nature.
+
+ Our choice of the texts to be analyzed follows Birkhoff 's suggestions. He mentioned
+
+ several texts of Poincaré and questioned his definitions of stability. Some works by
+
+ Levi-Civita, in particular an article of 1901, were mentioned by Birkhoff as having
+
+ provided a more adequate stability conception for a qualitative treatment. This mathe-
+ matician made reference to Lyapunov's work on the stability of movements, although
+
+ most of his texts had not yet been translated at that time.
+
+ We start in the following section by examining the traditional conceptions of sta-
+
+ bility in use in the treatment of solar system and problems concerning the stability of
+
+ equilibria during the second half of the nineteenth century, which directly influenced
+
+ £i Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:24:27 UTC
+All use subject to https://about.jstor.org/terms
+
+ Stability of trajectories from Poincaré to Birkhoff 299
+
+ Poincaré and Lyapunov. We close the section with a list of the stability definitions to
+
+ be analyzed.
+
+ The third section describes the context in which Poincaré defined stability in
+
+ the article "Sur les courbes" and shows how this definition is used in his works
+
+ on celestial mechanics. Stability appears there in association with a special kind of
+
+ periodicity for an individual trajectory, connected with its long term behavior. None-
+
+ theless, there is an implicit conception of stability throughout his works, which is
+
+ revealed when he requires the trajectories to be confined within some region in their
+ domain.
+
+ We consider this conception to be implicit because the mathematical field of dynam-
+
+ ical systems did not exist at that time. From the moment the qualitative theory was
+ isolated as a specific approach, we claim that a stability conception proper to this
+ domain had already been present in the works of Poincaré, but only in retrospect.
+ We will explore the different definitions of stability in those works. An important
+ example is the stability of a periodic solution, which will play a central role in our
+ analysis.
+
+ The notion of stability used in the three body problem is very different from the
+
+ one employed in problems involving the stability of equilibria, even though both
+ are formulated by the same mathematicians. The question in the stability of equi-
+ libria is to investigate what happens when the initial conditions are perturbed, and
+ therefore it engages in an analysis of the entire set of trajectories. A definition of
+ the same kind for an arbitrary trajectory has been called "perturbative" stability by
+ Birkhoff.
+
+ In the fourth section, we consider the differences between stability definitions used
+
+ for an individual trajectory and the ones proposed directly for the whole set of tra-
+ jectories. In this context, Lyapunov introduced a new mathematical characterization
+ of stability. Such step is fundamental inasmuch as it allows a clarification of the
+
+ meaning of "qualitative" when it appears associated with a mathematical definition of
+
+ stability.
+
+ An analogous definition was employed by Levi-Civita in his works on the three
+
+ body problem. By making an innovative use of the methods proposed by Poincaré, he
+
+ applied the stability of equilibria to the study of a neighborhood of a periodic trajec-
+
+ tory. Our fifth section is devoted to his synthesis of the two contexts in which stability
+ was developed: the stability of equilibria and the three body problem.
+
+ Finally, in the sixth section, we explain what Birkhoff calls "qualitative stability".
+ He identified different types of stability. One of them, formal stability, reveals the
+ remains of a strong influence of analytical methods; another one is perturbative by
+ nature and can adequately be called "qualitative". In the particular case of periodic
+ solutions, Birkhoff showed that the situation named "stable" by Poincaré is in fact
+ unstable, when a more appropriate stability definition is employed.
+
+ The new field of dynamical systems became autonomous in relation to the classical
+
+ domain of differential equations with Birkhoff. Our conclusion briefly analyzes how
+
+ this domain is inseparably linked to a general study of the different possible types
+ of trajectories that are solutions of general systems. The problem of stability in a
+ qualitative approach becomes a sub-problem of this more global one.
+
+ £l Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:24:27 UTC
+All use subject to https://about.jstor.org/terms
+
+ 300 T. Roque
+
+ 2 Stability problems and the traditional methods to treat them
+
+ Physical-mathematical problems concerning stability were very common in the second
+
+ half of the nineteenth century and covered a wide range of fields: elasticity, principles of
+
+ mechanics, engineering mechanics, hydrodynamics, potential theory, thermodynam-
+
+ ics, economic equilibrium, etc.4 It is not our intention to analyze stability conceptions
+ in all these domains. We are only interested in the stability definitions of celestial
+ mechanics, in particular those related to two problems: stability of the solar system
+
+ and stability of the equilibrium figures of rotating fluids.
+
+ 2.1 Stability of the solar system
+
+ Efforts to study the stability of the solar system, or more precisely the stability in
+
+ the three body problem, motivated the development of specific analytical methods for
+
+ the solution of differential equations. In the eighteenth century, Euler, Clairaut, and
+
+ D' Alembert had already applied series developments of the solutions in order to study
+
+ the perturbations in Keplerian movements of two bodies caused by the attraction of a
+
+ third body. Lagrange and Laplace gave a sophisticated mathematical treatment to the
+
+ problem, studying the variations of elliptical orbit elements under the effect of those
+ perturbations (Lagrange 1774, 1781-1782; Laplace 1796, 1891-1904).
+
+ Lagrange started from the fact that the motion of a planet remains close to a
+
+ Keplerian ellipse over a short duration. He could then use the ellipse as the basis for
+
+ a coordinate system and write the differential equations that determine the variations
+
+ of orbital elements in the elliptic motion, under the effect of perturbations caused by
+
+ other planets, in order to show that they should be confined within fixed limits. These
+
+ variations may be periodic - this implies that the planetary system will return to the
+
+ neighborhood of its initial situation - or secular. In this case, there are long-term vari-
+
+ ations in the planets' semi-major axes that can accumulate with increasing time, thus
+
+ producing great changes in the original aspect of the orbits. The traditional treatment
+
+ of stability tried to eliminate the secular terms in order to demonstrate that the variation
+
+ in elements of the planets' orbits would be confined within well-determined limits.
+ Therefore, complete stability, in the sense of Lagrange and Laplace, was equivalent
+ to the confinement of the variations of the orbital elements within certain limits.
+
+ If we consider first order terms in the masses and first degree terms of eccentricities
+
+ and inclinations, the orbits of the planets are described by means of a linear differential
+
+ system with constant coefficients. It was necessary to solve a characteristic equation
+ and to find its roots (now called the "eigenvalues" of the matrix that defines the sys-
+
+ tem). The numerical determination of these values was not an easy task, as there was
+ a considerable number of variables. But stability was defined by means of some con-
+ ditions that these values under consideration took. For instance, the existence of two
+
+ 4 For a broad panoramic description of research works on stability in different countries in this period see
+ Chap. 14 of (Grattan-Guinness 1997) named An era of stability: mechanics, 1860-1900. Stability criteria
+ in hydrodynamics are deeply studied in (Darrigol 2002).
+
+ & Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:24:27 UTC
+All use subject to https://about.jstor.org/terms
+
+ Stability of trajectories from Poincaré to Birkhoff 301
+
+ equal roots indicated the possibility of a collision between two planets, thus preventing
+
+ a system from being stable.5
+
+ The calculations made by Lagrange and Laplace showed that, up to first order in
+
+ the planets' masses, the secular variations vanish. On the other hand, considering not
+
+ only linear terms but also the squares and cubes of the masses in the series develop-
+ ment, Poisson (1808) showed that the series could contain terms in which the sine
+
+ is multiplied by time, implying that the amplitudes of variations of the semi-major
+
+ axis can grow indefinitely with time. So, the system returns to the neighborhood of its
+
+ initial configuration but can also go far away from it. Stability had thus a new meaning
+
+ according to Poisson. While for Lagrange, the approximate solutions must be bounded
+
+ in the neighborhood of the elliptical orbits in order to guarantee stability, for Poisson,
+
+ the solutions can go far away from the periodic orbit, but at some time they return to
+ its neighborhood. Poisson stability conception implies a special kind of periodicity
+ for solutions that we will call, from now on, "Poisson periodicity".6
+
+ The two conceptions of stability - as confinement and as Poisson periodicity - also
+
+ appear in the works of Poincaré. Before that, in the middle of the nineteenth century,
+
+ the astronomer Le Verrier went back to the calculations of Lagrange and Laplace and
+ considered the effects of higher order terms in the series. Le Verrier (1856) showed
+
+ that these terms led to significant alterations in the orbits, and that the previous calcu-
+
+ lations could not be used for an indefinite amount of time. The astronomer improved
+ the precision of the former methods by considering non-linear terms in the series
+
+ developments that depend on a parameter (such as mass, eccentricity, or inclination).
+ Laskar (1992) explains Le Verrier's methods in detail and shows how he found that
+
+ other phenomena than non-periodic secular terms can also harm stability. Second (or
+
+ higher) order terms in the solutions may have large coefficients that render them more
+
+ important than first order terms. This phenomenon, known as the problem of "small
+ divisors", is caused by very small quantities appearing in the denominator of some
+ terms in the solution. The complications due to these small divisors revealed that the
+
+ convergence of the series depends on initial conditions. In Le Verrier's treatment, if the
+
+ first terms of the series representing an element of the orbit decrease rapidly enough,
+ one can infer stability. So, for him, the question of stability had to do with some kind
+ of astronomical convergence.
+
+ From the second half of the nineteenth century to the beginning of the twentieth
+
+ century, there was a proliferation of essays trying to improve Le Verrier's approach.
+ Astronomers such as Newcomb, Lindstedt, and Gyldén proposed new methods that
+
+ took into account higher order terms and prevented time from appearing outside trigo-
+
+ nometric terms. A history of these methods is still to be done, but it is out of our scope
+ in this paper to analyze these works in detail. A detailed description of perturbation
+
+ The methods developed to demonstrate stability included not just techniques of series development, but
+ also algebraic methods that did their way far beyond celestial mechanics. As Brechenmacher (2007) shows,
+
+ Lagrange's method to determine these characteristic values was an algebraic practice used by a network of
+ mathematicians in the period.
+
+ 6 We use this expression to prevent associating the conception with the mathematical definition it acquires
+ later as "Poisson stability".
+
+ Ô Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:24:27 UTC
+All use subject to https://about.jstor.org/terms
+
+ methods in celestial mechanics in this period can be found in (Tisserand 1 889-1 896).7
+
+ For our purposes, the only germane point is the common approach according to which
+
+ the secular terms should be excluded from the series development. This implied an
+ identification of the criterion of stability with the reduction of series development to
+
+ strictly trigonometric terms.
+
+ 302 T. Roque
+
+ The main mathematical tools used in the astronomical works mentioned above are
+
+ perturbation methods. They consist of mathematical methods that start from the exact
+
+ solution of a related problem in order to find an approximate solution to a problem that
+
+ cannot be solved exactly. In our case, the three body problem is described by means
+
+ of a perturbation of an elliptical movement.
+
+ The simplified form of the problem is a Keplerian ellipse, which is correct when
+
+ there are only two gravitating bodies (as, for e.g., the Earth and the Moon). The resolved
+
+ but simplified problem is then perturbed by considering the gravitational attraction of
+
+ a third body (the Sun). The conditions met by the corrected solution do not match the
+
+ equation required by reality (the law of attraction, in the example), but the correction
+
+ aims to provide a better approximate answer.
+
+ If one of the masses is considered to be much smaller than the other two, the
+
+ three body problem can be formulated by adding a "small" term to the mathematical
+ description of the two-body problem. The procedure leads to an expression of the
+ desired solution in terms of a power series (or trigonometric series) in some "small"
+
+ parameter that quantifies the deviation from the solvable problem. The leading term
+ in this power series is the solution of the solvable problem whereas further terms
+ describe the deviation in the solution due to another deviation from the initial prob-
+
+ lem. Formally speaking, the full solution approximation X is given by a series in a
+ small parameter (here called e):
+
+ X = Xo + éX1+é2X2 + ...
+
+ In this example, Xo is the known solution of the Keplerian problem and X'9 X2,
+
+ . . .are higher order terms that may be found iteratively by means of some systematic
+
+ procedure. If for small e these terms become successively smaller, the approximate
+ solution of the non-exact problem does not differ too much from the exact solution of
+ the solvable problem (periodic solution). The approximate solution may differ con-
+
+ siderably from the periodic solution at some instant of time, but then returns infinitely
+
+ often to its neighborhood. In short, if we analyze the behavior of higher order terms
+
+ in the series development of a solution and conclude that this implies confinement or
+
+ Poisson periodicity of the approximate solution, we say that this solution is stable.
+
+ 2.2 Stability of equilibria
+
+ For our purposes in this article, we can say that the question of the stability of equilib-
+
+ ria starts with Lagrange, as he was the first one to formulate precise criteria to verify
+ stability in a mechanical system. In the Méchanique Analytique (Lagrange 1788), he
+
+ 7 More recent references are cited in Taton et al. (2009).
+
+ £l Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:24:27 UTC
+All use subject to https://about.jstor.org/terms
+
+ Stability of trajectories from Poincaré to Birkhoff 303
+
+ affirmed that an equilibrium position is stable if the system, assumed in equilibrium and
+
+ displaced by a small amount, tends to return to this position by itself. The most prom-
+
+ inent result of Lagrange's treatment consisted of his statement that the equilibrium is
+
+ stable if the potential function is in a minimum when the system is in equilibrium.
+
+ From a mathematical point of view, there is an important difference between the
+
+ definition of the stability of equilibria and the one employed to study the stability of
+
+ the solar system. In the latter case, the perturbation methods give an approximate solu-
+
+ tion of a perturbed system, and we would like to investigate the long-term stability of
+
+ this individual solution. In the first case, as in the problems treated in this section, the
+
+ stability is a property of a solution (equilibrium point) that is verified by an analysis
+
+ of the behavior of other solutions in its neighborhood. These solutions are obtained
+
+ by a perturbation of the initial conditions.
+
+ Using a power series approximation of the potential function up to the second
+ order, Lagrange showed that the equilibrium is stable when first-order terms vanish
+
+ and second-order terms are positive, which corresponds to a minimum of the potential
+
+ function. Lejeune-Dirichlet (1846) improved the proof by showing that higher order
+
+ terms might also correspond to a minimum of the potential function (Lagrange's earlier
+
+ proof based upon linearization was not sufficient). The stability result is now known
+ as "Lagrange-Dirichlet theorem".
+
+ Concerning the stability of equilibrium figures of a rotating mass of fluid in the
+ nineteenth century, we should mention the works of several mathematicians, such as
+
+ Jacobi, Liouville and Riemann, as discussed in Liitzen (1984). However, in the period
+
+ we are analyzing here, the second half of the nineteenth century, the most influential
+
+ reference, for stability of equilibrium, is Thomson and Tait's treatise, published in
+ 1867. In its second edition, which appeared between 1879 and 1883 (Thomson and
+
+ Tait 1879-1883), they added a more complete discussion of the stability of equilibrium
+
+ figures of a rotating fluid. The authors analyzed the stability of Jacobi and Maclaurin
+
+ ellipsoids using a criterion based on the energy function.
+
+ As Norton Wise points out, Thomson and Tait's book is "the first major work in any
+
+ language to transform Newtonian and Lagrangian mechanics into the new dynamics
+
+ of energy in the second half of the 19th century" (Wise 2005, p. 521). Motion stability,
+ more particularly that of equilibrium, was one of their main concerns:
+
+ There is scarcely any question in dynamics more important for Natural
+ Philosophy than the stability and the instability of motion. We therefore (...)
+
+ propose to give some general explanations and leading principles regarding it
+ (Thomson and Tait 1879-1883, Sect. 346, p. 416).
+
+ Thomson and Tait's intuitive definition of the stability of equilibria proposed just
+ afterwards was analogous to Lagrange's. If a material system, under the influence of
+
+ internal and applied forces, and varying according to some definite law, is displaced
+ infinitely little in any direction from a particular position of equilibrium, and left to
+
+ itself; and if then it commences and continues to vibrate, without ever experiencing
+
+ more than an infinitely small deviation in any of its parts from the position of equilib-
+ rium, then the equilibrium in this position is said to be stable. But this definition does
+
+ not indicate how to verify stability, and a mathematical criterion was then enunciated.
+
+ £i Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:24:27 UTC
+All use subject to https://about.jstor.org/terms
+
+ 304 T. Roque
+
+ A mass of fluid is in a stable equilibrium if the potential energy function has a mini-
+
+ mum in this state. Similarly, when viscosity is disregarded, the equilibrium is stable if
+
+ the kinetic energy attains a maximum. This criterion was largely known before Thom-
+ son and Tait, but their treatise made this method popular. Of particular importance
+
+ was the redefinition of the criterion in the context of Hamiltonian dynamics.
+
+ Although Hamilton had reformulated mechanics long before, his approach was not
+
+ taken up in mathematical physics until it appeared in Thomson and Tait's book, as
+ Wise (2005, p. 528) remarks. The equations of motion were derived from the energy
+
+ principle, written in variational form. This implied several theorems about minimum
+
+ and maximum properties of the kinetic energy of mechanical systems. Thus, as their
+
+ approach to the problem was based on Hamiltonian dynamics, the principle of stability
+
+ outlined by Lagrange was developed in this new context. The behavior of the system
+
+ was determined by means of the roots of the characteristic equation. If its roots are all
+
+ real and negative, the equilibrium is stable.
+
+ A remarkable point to observe in Thomson and Tait's treatise is the introduction
+
+ of considerations on the stability of general motions, not necessarily in equilibrium.
+ In Section 347 of Thomson and Tait (1879-1883), they asserted that an actual motion
+
+ of the system is said to be stable if every possible infinitely small conservative dis-
+
+ turbance of this motion gives rise to an alteration bringing the system again near the
+
+ undisturbed path. This must also happen in a finite time and without more than an
+
+ infinitely small digression. If these conditions are not fulfilled, the motion is said to
+ be unstable.
+
+ Soon afterwards, in Sect. 356, Thomson and Tait assumed the need for a mathemat-
+
+ ical criterion for stability, which must be based on the principle of varying action. The
+
+ problem of investigating the effect of an infinitely small disturbance, produced at any
+ instant in the motion of any conservative system, may then be reduced to a practical
+
+ problem of mathematical analysis.
+
+ In fact, in the following years, the definition of stability and the mathematical con-
+
+ dition founded on properties of the kinetic energy were mixed up. A stable equilibrium
+
+ then started to be defined as an extrémům point of the energy function. The intuitive
+
+ definition based on perturbed and unperturbed motions could not be transformed into
+ a mathematical definition as these notions (of motions, perturbed and unperturbed)
+
+ were not mathematically defined. While the space of motions was not defined as a
+
+ mathematical object, the condition for stability served as its definition.8
+
+ Poincaré and Lyapunov had declared that their own works on the stability of equi-
+ libria departed from Thomson and Tait's treatment, by aiming to go beyond their
+ unjustified use of linear approximations. But while Poincaré used the same definition
+ based on an energy function, as we will later see Lyapunov proposed a new definition,
+
+ implying a direct consideration of the space of motions. He thus proceeded to give
+ a stability definition that is independent from the mathematical condition involving
+
+ properties of the energy function. The question of qualitative stability has to do with
+
+ 8 This question has to do with the history of the conception of "phase space", or "space of configurations".
+ It is not our goal here to trace the history of this notion, but if it were the case, we would have to mention
+ the work of Liouville that probably inspired Poincaré and Lyapunov, see Liitzen (1984).
+
+ Ô Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:24:27 UTC
+All use subject to https://about.jstor.org/terms
+
+ Stability of trajectories from Poincaré to Birkhoff 305
+
+ a definition that can be stated directly in the space of motions, and does not involve
+
+ analytical expressions for integrals or approximate solutions.
+
+ 2.3 Sketch of Poincaré and Lyapunov stability definitions
+
+ In order to make the distinctions clear before placing them in their historical context,
+
+ we list below the definitions of stability to be considered later. In the works of Poincaré,
+
+ stability considerations appear from 1885, when the problem of solving a differential
+
+ system of equations was restated to bring out its intimate connection with the problems
+ of celestial mechanics (Poincaré 1885a). As an example, from this moment onwards
+ the solutions of the system were called "trajectories". The stability of a trajectory in
+
+ three dimensions was defined as a kind of periodicity.
+
+ Stability as Poisson periodicity (Poincaré): Let M be the point of the trajectory cor-
+
+ responding to an instant t. If we trace a circle of radius r around M, this trajectory is
+
+ stable if the points in the trajectory of M enter this circle infinitely many times, even
+
+ if r is made arbitrarily small.
+
+ This property was later called "Poisson stability", as the system can go far away
+
+ from the initial state but it returns to its neighborhood in the future. This is the explicit
+ definition stated by Poincaré in the paper "Sur les courbes". But there is another
+
+ implicit conception of stability, as we will see in the third section, implying that the
+
+ trajectories remain confined in a limited region of space.
+
+ In his works on celestial mechanics, these two conceptions appear again, and a third
+
+ definition was introduced. Periodic solutions become central and Poincaré defined their
+
+ stability by reducing the analysis of the solutions of a system of differential equations
+
+ in the neighborhood of a periodic solution x¿ = <p¡ (t) to the study of the linear system:
+
+ where <p¡ (t) + ft (t) are perturbations of the periodic solution. The numbers a¡ in
+
+ at - ¿* 3xj*j
+
+ ft =^'51.*,...,$* =*""%,*
+
+ are called "characteristic exponents" (S,-,* are periodic solutions with the same period
+ of <pi (t) that can be written as absolutely and uniformly convergent trigonometric
+ series).
+
+ Stability of periodic solutions (Poincaré): The periodic solution (p¿ (t) is stable if all
+ characteristic exponents a¡ = a¿ + b¡i are purely imaginary numbers. This works as
+
+ a guarantee that all ft remain finite, since ft = (cos(6,-i) + / sin(¿,-f))5|,¿, where «S,-f*
+ are periodic functions.
+
+ We observe that the stability has to do with the possibility of expressing the solu-
+
+ tions by means of trigonometric functions, as in the classical treatment of celestial
+
+ mechanics. However, this definition is not for an individual trajectory. The stability
+
+ £i Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:24:27 UTC
+All use subject to https://about.jstor.org/terms
+
+ 306 T. Roque
+
+ neighborhood.
+
+ of a periodic solution takes into consideration the behavior of other solutions in its
+
+ Whereas Poincaré presented the first definition of stability in the third part of "Sur
+
+ les courbes", in the same year of 1885, he also published an important paper on the
+
+ stability of rotating figures of a fluid. The stability definition in there follows the
+
+ traditional form used by Lagrange, Thomson, and Tait.
+
+ Stability of equilibrium (Poincaré): Let the position of a system be defined by n quan-
+
+ tities x' , JC2, . . . , xn and assume the existence of a force function F(x' , JC2, . . . , xn).
+
+ We have an equilibrium position when the derivatives of this function vanish and this
+
+ equilibrium is stable when this function has a maximum.
+
+ Lyapunov considered the domain of application of this approach quite limited, as
+
+ it is only valid when an integral (the force function) is given. It was thus necessary to
+
+ develop methods that enable this problem to be solved without integrating. He defined
+
+ stability in another manner that takes the behavior of perturbed and non perturbed
+ motions into consideration.
+
+ Stability of equilibrium (Lyapunov): Let (x' , . . . , xn) = (0, . . . , 0) be an equilibrium
+
+ solution of a differential system
+
+ |^ = Xi(*,0
+ '<^ = Xn(x,t)
+
+ This solution is stable if, for each positive number /, arbitrarily small, there is another
+
+ positive number € such that ||jci (t) || </,..., ||jcn (t) '' < I for all positive values of í ,
+
+ provided that ||xi(ío)ll < é, . • . , Ik* (to) II < *•
+
+ So, if the initial conditions of a trajectory are near the equilibrium state, the
+
+ trajectory will always remain within a small neighborhood of this point. The sta-
+ bility of a general solution (/i (i), /¿(O, • • • , fn(0) is analyzed by departing from the
+ above definition. The transformation
+
+ (JC1, JC2, ...,*„)-> (/i(0, flit), . . . , fn(t)) + (*i, *2, . . . , Xn)
+
+ is used in order to reduce the question about the stability of the general solution to the
+
+ stability of the equilibrium solution as defined above for a differential system that fulfils
+
+ (Xi(0, 0, *2(0, 0, - - . , Xn(0, 0) = (0, 0, . . . , 0)
+
+ Intuitively speaking, a general solution is stable if the solutions obtained by an
+
+ € -perturbation of its initial condition remain close.
+
+ Both definitions proposed by Poincaré in the context of the three body prob-
+ lem - that of stability as Poisson periodicity of an individual trajectory and the one
+
+ of a periodic trajectory stability - were criticized by Birkhoff. In the article "Quel-
+ ques théorèmes sur le mouvement des systèmes dynamiques" (Birkhoff 1912), he
+ introduced special solutions called "recurrent movements", which are useful for the
+
+ & Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:24:27 UTC
+All use subject to https://about.jstor.org/terms
+
+ Stability of trajectories from Poincaré to Birkhoff 307
+
+ description of the whole set of trajectories. This definition ends up by calling into
+
+ question, a few years later, the first definition of stability proposed by Poincaré. The
+
+ property of Poisson periodicity should be used, according to Birkhoff, to characterize
+
+ a recurrent movement, while stability should be defined in terms of other criteria.
+
+ The way Poincaré defined stability of a periodic solution was also questioned.
+ In Birkhoff's view, a definition that demands a series development to contain only
+
+ trigonometric terms must be considered as a kind of "formal" or "astronomical" sta-
+
+ bility. Still employing Birkhoff's designations, the true "qualitative" stability is the
+
+ one defined directly on the set of trajectories, which establishes stability for a solution
+
+ in terms of the behavior of other solutions in its neighborhood. He called a definition
+
+ of this kind "perturbative" (as opposed to formal), or "mathematical" (as opposed to
+
+ astronomical) stability.
+
+ What Birkhoff called "perturbative" stability has essentially the same nature as the
+
+ definition put forward by Lyapunov.9 Yet it has been used in the study of stability in the
+
+ three body problem. Levi-Civita defined stability of a periodic trajectory by means of
+
+ the same criterion of Lyapunov's equilibrium stability. In his turn, Birkhoff departed
+ from the works of Levi-Civita to show that it is necessary to go beyond Poincaré's
+ definition.
+
+ It is important to stress the fact that the word "perturbative" is employed here with
+
+ a different meaning from the one it used to have in the so-called "perturbative methods
+
+ of celestial mechanics". There, the conception of stability is formal, as the criterion
+
+ applied lies in the possibility of writing the solution as a specific series. As we have
+ already explained, perturbative methods of celestial mechanics deal with the actual
+
+ problem as a perturbation of an exact solvable problem and attempt to investigate
+ the stability of a solution of the perturbed problem in terms of the properties of its
+
+ series expansion. The notion of perturbation is not employed to define stability. In
+ Lyapunov's definition, the stability of a solution is defined in terms of the behavior
+
+ of a perturbed solution of the same differential problem. As Birkhoff finally made
+
+ explicit, the perturbative character of the stability criterion is what renders its defini-
+
+ tion properly qualitative.
+
+ 3 The context of Poincaré stability definitions
+
+ 3.1 The qualitative methods of Poincaré
+
+ In his paper "Sur les courbes", Poincaré started with a study of the solutions of a real
+
+ differential equation of the first order and first degree with polynomial coefficients:
+
+ dx _dy
+ Y " T
+
+ where X and Y are polynomial functions in x and y.
+
+ 9 Birkhoff did not quote Lyapunov as the first to propose this definition, but we will see later that his works
+
+ were indirectly influenced by the Russian's through the intermediation of Levi-Civita.
+
+ & Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:24:27 UTC
+All use subject to https://about.jstor.org/terms
+
+ In the third part, published in 1885, this same equation was written considering the
+
+ independent variable as time:
+
+ 308 T. Roque
+
+ at at
+
+ and x and y as the coordinates of a moving point. From this moment on, the solu-
+
+ tions of the system received the name of "trajectories", which expresses an intimate
+
+ relationship with the problems of celestial mechanics. After this reformulation, the set
+ of solutions could be conceived as a family of trajectories of a mobile point with the
+
+ variable time implicitly taken into consideration.
+
+ In the first two parts of the memoir "Sur les courbes", the problem of stability
+
+ was already considered, in relation with the description of the global aspect of tra-
+
+ jectories in two dimensions. The results obtained for two dimensional solutions are
+ highlighted as being of a topological nature by Gray (1992). By means of the clas-
+ sification theorem10 we can conclude that, either a trajectory is closed (stable), or it
+
+ tends asymptotically to a singularity without ever getting back near to its initial state
+ (unstable).
+
+ Poincaré shows it is true by means of the definition of what he calls "cycles without
+
+ contact". These are closed curves that are not solutions of the equation, but curves that
+
+ solutions can cross only once. Hence, if a trajectory crosses a cycle without contact
+
+ it cannot return to a neighborhood of the initial point and we can say it is unstable.
+
+ The verification of instability is easier than that of stability, since it is possible to test,
+
+ by means of the cycles without contact, if a solution definitely leaves a region of the
+
+ domain. Stability arises when a solution remains indefinitely in a region of the domain,
+
+ what is much more complicated to establish.
+
+ In order to investigate the neighborhood of periodic trajectories in three dimensions,
+
+ Poincaré introduced, in the fourth part of "Sur les courbes", what we call the section
+
+ method.11 We explain here how this procedure allowed him to reduce the problem to
+ two dimensions.
+
+ One supposes that s is a closed curve representing a periodic solution and one draws
+
+ a plane normal to the trajectory that intercepts it at a point P. A system of coordinates
+ can be defined (Poincaré 1886, p. 199) in this plane, that is called "plane of section".
+
+ The periodic solution is represented by a fixed point P, and if Po is a point in the
+ normal plane, the trajectory that passes through Po will intersect the normal plane
+ once again at a point Pi (Fig. I).12
+
+ Poincaré studied the transformation (T in the figure) that takes Po(= x in the figure)
+
+ to Pi (= T(x) in the figure). He showed that this transformation is holomorphic, and
+
+ then he analyzed its development in series.
+
+ 10 Nowadays known as "Poincaré-Bendixon theorem", see also Gilain (1991). In the case of the solar
+ system, the problems need larger dimensions.
+
+ 1 1 Poincaré himself had given no special name to this method.
+
+ 12 Poincaré supposed the continuity of solutions with respect to the initial conditions.
+
+ £i Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:24:27 UTC
+All use subject to https://about.jstor.org/terms
+
+ Stability of trajectories from Poincaré to Birkhoff 309
+
+ Fig. 1 Transformation T
+ (defined on the section plane)
+ taking x to T(x)
+
+ Fig. 2 The four types of
+
+ singularity
+
+ col noeud
+
+ centre foyer
+
+ The terms of first order have the form:
+
+ I x = Aie^'cpiit) + A2eX2t(p2(t)
+ 1 y = Aie^Ý'(t) + A2ek2tÝ2(t)
+
+ where A¡ are constants and the functions (p and ý are trigonometric series. The k¿ are
+
+ given by the equation S2 - (a + 8) S + (a8 - ßy ) = 0, with S = e2Xm . The possible
+ situations were then examined using the values Ài and k2.
+
+ If these values are real and positive, one of them greater and the other less than one,
+
+ then Poincaré demonstrated that, in the plane of section, there are two invariant curves
+
+ K and K' which means that if a point Po is on one of the curves, the next intersection
+ P' will also be on the same curve. Such a conclusion, later generalized by Hadamard,
+
+ Lattès and Birkhoff, was extremely important for later research works.13
+
+ It is possible to study what happens in the neighborhood of the point P using the
+ same methods that were employed to analyze the neighborhood of the singularities in
+
+ 13 Hadamard (1901) extended Poincaré's outgoing results to non-analytic cases. Lattès (1906) showed that
+
+ the characteristic exponents are essential elements for the problem, and that the study of invariant curves is
+
+ possible and useful for more generic cases than those examined by Poincaré. The exact definition of surface
+ of section and that of invariant curves was given in (Birkhoff 1920b). For a history of the section method
+ and the consequences of its application to the definition of a dynamical system, see Roque (2007).
+
+ Ô Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:24:27 UTC
+All use subject to https://about.jstor.org/terms
+
+ 310 T.Roque
+
+ Fig. 3 Surface without contact
+ (dotted line) with a closed curve
+ as intersection with the section
+
+ plane
+
+ two dimensions. These singularities had been classified in terms of nodes (noeuds),
+ centers (centres), focuses (foyers) and saddle-points (cols) (Fig.2).14
+
+ The intersection points in the plane of section behave in a manner analogous to
+
+ these four possible neighborhoods of singularities in two dimensions.15
+
+ Instead of cycles without contact there will now be surfaces without contact. If we
+
+ have, in the plane of section, the case analogous to the center singularity in two dimen-
+
+ sions, in which the fixed point is surrounded by closed trajectories, we can build up
+
+ surfaces without contact around the periodic solution, which reduce to cycles without
+
+ contact in the plane of section. If there is a surface without contact in its neighbor-
+
+ hood, the periodic trajectory is unstable, because a trajectory that passes through a
+
+ neighboring initial condition leaves and cannot return. However, a conclusion in favor
+
+ of stability is much more difficult to obtain (Fig. 3).
+
+ Poincaré proposed to investigate the question through the existence of an invariant
+
+ integral.16 This is a real positive function defined in local coordinates inserted in the
+
+ neighborhood of the closed trajectory that preserves volume. It means that, if a set of
+
+ points in the neighborhood of the closed trajectory have a certain volume at time ř, the
+
+ images of those points by the function will be a set having this same volume for all
+
+ subsequent instants of time. If this function exists, there is no surface without contact.
+
+ This is a first step towards stability. But in this case, there still may be instability.
+ The reason for that lies in the presence of small divisors, which can make the series
+
+ expressing the solutions diverge. Because of that, it is easier to infer instability. The
+
+ presence of a cycle or a surface without contact implies instability, but the absence of
+
+ this feature does not imply any positive result about stability.17
+
+ At the very end of "Sur les courbes", Poincaré analyzed the neighborhood of a peri-
+
+ odic trajectory and concluded that a stability result is hard to obtain whatever definition
+
+ is used for stability. The only explicit definition was that of Poisson periodicity, but he
+
+ provided the following example, where different conceptions about the mathematical
+
+ definition are put together.
+
+ 14 See Gilain (1991) and Gray (1992).
+
+ 15 This fact really impressed Poincaré, and it is at the origin of the study of two-dimensional point trans-
+ formations, see also Roque (2007).
+
+ 16 This name was given later in Poincaré (1890), where he showed that the existence of an invariant integral
+ is a fundamental property of Hamiltonian systems. As Barrow-Green points out (1997, p. 40), it was only
+ in this article, where the idea of an invariant integral played an essential role in stability arguments, that
+
+ Poincaré developed a coherent theory about invariant integrals.
+
+ 1 7 Poincaré ( 1 890) showed that the integral curves are contained in level surfaces over which energy remains
+
+ constant. Hence, the trajectories do not go from one level surface to another, which means that there are no
+ surfaces without contact able to be crossed by integral curves. Even though it does not guarantees stability.
+
+ £l Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:24:27 UTC
+All use subject to https://about.jstor.org/terms
+
+ Stability of trajectories from Poincaré to Birkhoff 3 1 1
+
+ Poincaré studied the particular case of a three-dimensional system having a peri-
+ odic solution, written in coordinates (co, </>, p). The surfaces p = constant are mutu-
+
+ ally enveloped tori (nested one into the other), defined around the periodic solution.
+ The behavior of a variable p allows the stability of the solution to be studied, since
+
+ it measures the distance between the points of the analyzed trajectory and the closed
+ trajectory. Several cases can happen (Poincaré 1886, p. 221):
+
+ (1) Trajectories recede constantly or they approach the closed trajectory asymptoti-
+
+ cally. What may happen is that certain trajectories recede while others approach.
+
+ Thus, Poincaré concluded that there is always instability, in the sense that a point
+ close to the closed trajectory for t = 0 will no longer be a neighbor for large
+ positive values of t (or it was not a neighbor for large negative values of t).
+ (2) A point close to the closed trajectory for t = 0 remains constantly close for
+ all positive and negative values of i, i.e., stability is guaranteed. In this case, p
+
+ oscillates constantly within certain limits passing an infinite number of times
+ through all values between these limits.
+
+ (3) A point close to the closed trajectory for t = 0 can recede far for certain values of
+
+ i, and therefore the periodic solution is not stable. But, from another viewpoint
+ this solution is stable since this point returns and becomes infinitely close to
+ the closed trajectory for certain values of t. This happens whenever p passes an
+ infinite number of times through all possible values.
+
+ In the first case, Poincaré used the definition of stability as Poisson periodicity in
+
+ order to conclude that there is instability. Nonetheless, in the second case, there is sta-
+
+ bility in a stronger sense than that of Poisson periodicity, as the other trajectories are
+
+ confined in the neighborhood of the closed trajectory. It is precisely in this last sense
+
+ that one can conclude in favor of instability in the third case. After all, the trajectories
+ do not remain confined in a neighborhood of the periodic solution.
+
+ Different notions of stability coexist in the analysis of one single example. In addi-
+
+ tion to the issue of Poisson periodicity, what is at stake is the confinement of trajectories
+
+ within some region in space, in this case, the neighborhood of a periodic solution.
+
+ 3.2 Stability as Poisson periodicity and stability as confinement
+
+ In the third part of "Sur les courbes" Poincaré explicitly defined the stability of a
+
+ three-dimensional trajectory of a differential system of first order and second degree:
+
+ It happens then that the trajectory cannot be a closed curve; but, nevertheless,
+
+ it keeps a certain stability: one can even say that it is a periodicity of particular
+
+ nature. In fact, let M be a point in the trajectory that the moving point occupies
+ in an instant t. We trace a circle around the point M with an arbitrarily small
+ radius r. The moving point starting at M will obviously go beyond the circle,
+ but it will cross again this small circle an infinite number of times, no matter how
+ small r can be (Poincaré 1885a, p. 92) [Poincaré's italics].18
+
+ 18 II arrivera alors que la trajectoire ne sera pas une courbe fermée; mais néanmoins elle jouira d'une
+ certaine stabilité: on peut même dire d'une certaine périodicité d'une nature particulière. En effet, soit M
+
+ £l Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:24:27 UTC
+All use subject to https://about.jstor.org/terms
+
+ Here, we note that stability is equivalent to the Poisson periodicity of an indivi-
+
+ dual solution. A periodic trajectory goes an infinite number of times through all its
+
+ states. A trajectory is stable if, M being an arbitrary point, the trajectory returns an
+
+ infinite number of times to an arbitrarily small neighborhood of this point. This type
+
+ of stability was called in (Poincaré 1890) "Poisson stability". But this is not the only
+
+ possible definition for the stability of a trajectories. All over the paper "Sur les cour-
+
+ bes" the above definition goes together with different, however implicit, conceptions
+
+ 312 T.Roque
+
+ of stability.
+
+ In an article about the new ideas of Poincaré, Chabert and Dahan-Dalmedico (1992,
+
+ p. 296) observe that stability as explicitly defined in "Sur les courbes" is an intrin-
+ sic property of a trajectory; and they stress the fact that, in his works on celestial
+ mechanics, Poincaré defined stability on the set of trajectories. Nevertheless, still in
+
+ "Sur les courbes", on the paragraph immediately after the definition mentioned above,
+ Poincaré acknowledged that:
+
+ Stability defined in this fashion has solely a theoretical importance. In practical
+
+ terms, it would be necessary to determine a region of space in which the moving
+
+ point remains invariably confined (Poincaré 1885a, p. 94). 19
+
+ Stability is now identified with the confinement of trajectories to a certain region of
+
+ space. This property already implies an investigation of the whole set of trajectories
+
+ in order to find regions in which trajectories must confined. This double conception of
+
+ stability as Poisson periodicity and as confinement appeared again in Poincaré's papers
+ on the three body problem and celestial mechanics. One particular fact to observe is
+
+ the different emphasis on the type of stability required in the two versions of the article
+
+ presented to the 1889 competition (Poincaré 1889).
+
+ Poincaré considered a system of ordinary differential equations:
+
+ (Le;
+ -p- = Xi(i = l,...,n)
+ at
+
+ where X¿ are analytic functions of *,-, ...,*„. As in "Sur les courbes", the *,- are
+
+ geometrically represented as the coordinates of a point P in space that describe a
+ trajectory when t varies. In the very beginning of "Sur le problème des trois corps et
+ les équations de la dynamique" in its first version (Poincaré 1889), the one which con-
+ tained the mistake, he said there is stability when x¡ remains under certain limits as t
+
+ varies. This means that the trajectory of P is confined within a limited region in space.
+
+ The set of trajectories that pass through a given curve in space is called a surface
+
+ trajectory, and it cannot be cut by any other trajectory. Closed surface trajectories
+
+ play an analogous role to the surfaces without contact and they provide the main tool
+
+ Footnote 18 continued
+
+ un point de la trajectoire, occupé en un temps t par le point mobile. Décrivons autour du point M un cercle
+ de rayon r aussi petit que nous voudrons. Le point mobile partant du point M sortira évidemment de ce
+ cercle, mais il viendra traverser de nouveau ce petit cercle une infinité de fois, et cela, quelque petit que
+ soit r.
+
+ 19 La stabilité ainsi définie n'a qu'une importance théorique. Pour la pratique, il faudrait déterminer une
+
+ région de l'espace où le point mobile reste constamment renfermé.
+
+ 4y Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:24:27 UTC
+All use subject to https://about.jstor.org/terms
+
+ Stability of trajectories from Poincaré to Birkhoff 313
+
+ for verifying stability, as they divide the space into an interior and an exterior region.
+
+ If the initial position of P is in an interior region then the trajectory of this point is
+
+ eternally confined in the same region, and there is stability.
+
+ In the first version, the main approach used by Poincaré to demonstrate stability was
+
+ to search for closed surface trajectories. The clarity of this criterion contributes to the
+
+ sense of optimism about the ultimate resolution of the stability problem, as noted by
+
+ Barrow-Green, in opposition to the tenor of the second version (Barrow-Green 1997,
+ p. 75).
+
+ As Robadey (2006, pp. 124-125) points out in, we can explain the different empha-
+
+ sis on stability in the two versions of the paper by comparing their introductions. In
+
+ the first, the final goal, highlighted from the beginning, is to demonstrate stability by
+
+ means of a combination of traditional and new geometrical methods. The definition
+ of stability is almost always taken as the one mentioned above, seeking to confine
+ trajectories in some region of space. Poisson periodicity is also cited as a possible
+ conception of stability, but it remains isolated in a section containing some results
+
+ about the almost periodic behavior of trajectories.20
+
+ Robadey also notes that, in the letters Poincaré exchanged with Mittag-Leffler
+ (Poincaré and Mittag-Leffler 1999), it becomes clear that the competition jury criti-
+
+ cized the stability definition used in the first version. In particular, Weierstrass con-
+
+ tested the physical sense of this definition, as it does not consider the possibility of
+
+ collisions within the region of confinement. In his response, Poincaré reaffirmed the
+
+ first definition by showing that it excludes collisions. The Poisson periodicity concep-
+
+ tion had a secondary place up to this moment.
+
+ After the discovery of the error in the stability demonstration, this question lost
+ importance and in the second version (Poincaré 1890), the term "stability" appears
+
+ much later than in the first. On the other hand, since, the Poisson periodicity of trajec-
+
+ tories is announced in the introduction as a quite important result to be presented. In
+
+ the restricted problem of three bodies, the initial conditions for P may be chosen to
+
+ ensure that the trajectory of this point returns an infinite number of times arbitrarily
+
+ near its initial position.21 The term "stability" appears for the first time in the section
+ devoted to this result, and not in the introduction.
+
+ As Barrow-Green shows, negative results acquire a more prominent place in the
+ second version. The above conclusion thus is one of the few positive results to remain
+
+ and to sustain hope for a positive response to the stability problem. In a letter sent to
+
+ Mittag-Leffler on the 9th of December 1 889, Poincaré affirmed that "stability subsists"
+ in the sense above (Poincaré and Mittag-Leffler 1999, Letter 93).22 Poincaré (1890,
+ p. 313) started to call "Poisson stability" the property that we have called up to now
+ "Poisson periodicity". The theme of Poisson stability acquires even more importance
+ in (Poincaré 1892-1899), where Poincaré includes an entire chapter on the subject.
+
+ 20 Robadey calls "recurrence" what we have chosen to call "Poisson periodicity". In our view, the term
+
+ "recurrence" is more mathematically charged. We prefer thus to name this property using another designa-
+ tion until the moment it gains a mathematical definition as "Poisson stability".
+
+ 21 The proof of this result relies in Poincaré's "recurrence theorem", as explained in Barrow-Green (1997,
+ p. 86).
+
+ 22 Anne Robadey also cites this letter in Robadey (2006, p. 131).
+
+ £i Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:24:27 UTC
+All use subject to https://about.jstor.org/terms
+
+ 314 T.Roque
+
+ 3.3 Periodic solutions and their stability
+
+ The definition of the stability of a periodic solution was made explicit by Poincaré
+ in his works on the three body problem and celestial mechanics, (Poincaré 1890) and
+ (Poincaré 1892-1899), even though it had already appeared in "Sur les courbes".
+
+ These works treat a special version of the three body problem in which there are
+
+ two bodies of negligible mass,23 each moving according to a Keplerian ellipse around
+ a third mass. In this case, there is an infinite number of periodic solutions. Poincaré
+
+ asked when and how it is possible to use existing information about the behavior of this
+
+ system to analyze the situation in which one of the masses - first considered zero - is
+
+ considered infinitely small. In the third volume of Poincaré 1892-1899, this problem
+
+ received the name of "restricted three body problem".
+
+ It is a perturbation problem that ultimately depends on a parameter ß - the infinitely
+
+ small mass mentioned in the previous paragraph - taken as zero in the Keplerian situ-
+
+ ation. Poincaré studied the perturbation effects of /x on the periodic solutions through
+
+ the analytic continuation of one of these solutions for small values of /x.24 A large part
+
+ of Poincaré's work on celestial mechanics is concerned with the question of (i) showing
+
+ that periodic solutions exist and (ii) analyzing their behavior after small perturbations
+
+ of parameter /x.
+
+ The perturbation of this parameter produces another differential system. The ques-
+
+ tion of stability of periodic solutions has to do with the behavior of other solutions
+
+ for the same system, so it is a different question. To investigate a periodic solution
+
+ stability is the first step for the study of other solutions (of the same system) in its
+
+ neighborhood.25 If the initial conditions of a trajectory are slightly different from those
+
+ corresponding to a periodic solution, what is its future behavior? Will the mere fact
+
+ of having initial conditions close to the periodic solutions be enough to ensure a kind
+ of "similar" behavior?
+
+ Before defining stability for periodic solutions, Poincaré introduced convenient
+ coordinates enabling a study of the behavior of trajectories in their neighborhood. He
+
+ wanted to describe solutions of a system of differential equations:
+
+ dxi
+ - =Xi(x',X2,...,Xn)
+ at
+
+ in the neighborhood of a periodic solution x¿ = Ci it). Considering that the perturba-
+
+ tions of & (t) + §,- (f ) are also solutions, and discarding all non-linear terms, he wrote
+
+ 23 For example, if the three bodies are the Sun, the Earth and the Moon, the last two masses can be neglected
+
+ because they are very small when compared with the mass of the Sun.
+
+ 24 Barrow-Green (1997, pp. 92-93) notes that the complete solution of the problem depends on precisions
+ added after the second version of "Sur le problème des trois corps et les équations de la dynamique", when
+
+ the use of Cauchy's majorants methods becomes more explicit.
+
+ 25 Hill was the first to show the importance of periodic solutions in the three body problem in (Hill 1878).
+
+ In his presentation of the moon theory (Gray 1992, p. 505), he used the periodic solutions as intermediate
+
+ orbits for the study of trajectories in their neighborhood. For a detailed analysis of Hill's contribution to the
+ solution of the Earth-Moon-Sun problem, see Gutzwiller (1998). Poincaré stated that it can be advanta-
+ geous to consider a periodic solution as a first approximation of a solution. He then quoted Gyldén's works,
+ and named it "intermediate orbit" (Poincaré 1892-1899, p. 81, vol. I).
+
+ £i Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:24:27 UTC
+All use subject to https://about.jstor.org/terms
+
+ Stability of trajectories from Poincaré to Birkhoff 315
+
+ what he named the "equations of variation":
+
+ d& _ ^ dXi
+
+ Thus, Poincaré managed to reduce the initial problem of how to solve a non-linear
+
+ differential equation in the neighborhood of a periodic solution to the problem of how
+
+ to solve a homogeneous linear system in £, whose coefficients are periodic functions.
+
+ There are n numbers a,- , called the "characteristic exponents" of the periodic solution,
+
+ and a solution of the system can be written as a linear combination of n solutions of
+
+ the type:
+
+ Ci=*ai'Si,*,..., &=*""%,*
+
+ where the S,-t* are periodic solutions with the same period of <p¡ (t) that can be written
+
+ as absolutely and uniformly convergent trigonometric series.26
+
+ These characteristic exponents control the behavior of the linear system. By means
+
+ of these values, Poincaré hoped to investigate the situations in which the perturbation
+
+ of a periodic solution gives rise to another periodic solution, or to a solution not too
+
+ distant from the periodic solution. This question is analogous to the one at the very end
+
+ of the paper "Sur les courbes", studied in the example of the torus, but Poincarénow
+ defined, in a formal manner, a periodic solution <p¡(t) as stable if all characteristic
+ exponents a,- = a,- + b¡i are pure imaginary numbers. This works as a guarantee
+
+ that all & remain finite since £,- = (cos(fyí) + i sin(Z?|ř))5,^, where S¡tk are periodic
+ functions.27
+
+ The demand that the characteristic exponents are pure imaginary numbers assures
+
+ that trajectories that are near to the periodic solution in some instant cannot recede too
+
+ much. But such conclusion, only valid for the linear approximation provided by the
+ equations of variation, is associated with the existence of integrals that can be writ-
+ ten in terms of a combination of trigonometric series. This assures a kind of formal
+
+ stability, in the later sense of Birkhoff.
+
+ We will be able to see in the next sections that the question is treated by Levi-
+
+ Civita and Birkhoff in a different manner from Poincaré's. Both showed that Poin-
+
+ caré's so-called "stable" case is in fact unstable, according to what they regard as
+ a more adequate definition of stability. Levi-Civita observed that, if one considers
+
+ non-linear perturbations, it is possible that a solution close to the periodic one leaves
+ its neighborhood and never returns.
+
+ Indeed, Poincaré did not go far in his study of stable periodic solutions. Using geo-
+ metric methods, which were to have a strong influence on Levi-Civita and Birkhoff,
+
+ 26 The procedure is similar to the one previously used in Poincaré's section method. However, here the con-
+
+ tinuous three-dimensional system is reduced to another continuous two-dimensional linear system, while
+ there we have discrete iterations of points on the transverse section.
+
+ 27 The condition for the characteristic exponents a¡ be pure imaginary can be expressed with a demand
+
+ that the characteristic values ea* have module 1 (for they would then be over the trigonometric cycle). Both
+ formulations were used.
+
+ Ô Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:24:27 UTC
+All use subject to https://about.jstor.org/terms
+
+ 316 T.Roque
+
+ he studied the neighborhood of an unstable periodic solution. He expected to solve the
+
+ problem of three bodies by showing that trajectories do not recede too much from a
+
+ neighborhood of the periodic solution, i.e., they remain confined in a region of space.
+
+ Instability of a periodic solution could be established whenever one can find, in its
+
+ neighborhood, other solutions receding from it. But stability was still associated with
+
+ the existence of trigonometric series, as in the classical methods of celestial mechanics.
+
+ In the neighborhood of an unstable periodic solution there is a family of asymp-
+
+ totic solutions. These are curves that asymptotically tend to the periodic solution with
+
+ increasing or decreasing time, and are represented geometrically by two asymptotic
+ surfaces.28 Poincaré used the section method in order to study these surfaces. The
+ intersection of the periodic solution with the section plane is a fixed point, and by
+
+ the same procedure the asymptotic surfaces turn into curves over the plane. If these
+
+ curves meet to form a closed curve, there is a set of asymptotic solutions that remains
+
+ confined to a given region of space, and we can infer stability.
+
+ The mistake Poincaré had made in the first version of the paper presented to the
+
+ competition (Poincaré 1889) was exactly at this point: these asymptotic curves actu-
+
+ ally intersect, but do not form a closed curve as he had thought. These are the so called
+
+ "doubly asymptotic" trajectories.29 Their existence implies that the behavior of tra-
+
+ jectories in the neighborhood of the unstable periodic solution may be very complex:
+ a doubly asymptotic trajectory can begin by being very close to the periodic solu-
+ tion when t is large and negative; but then it moves away and deviates greatly from
+ the periodic solution before getting close again to this solution when t is large and
+
+ positive. Moreover, the existence of a doubly asymptotic trajectory actually means that
+
+ an infinite number of such trajectories exist. Levi-Civita and Birkhoff showed later
+
+ that such complexity also appears in the neighborhood of a stable periodic solution,
+ which forces a reassessment in the definition of stability.
+
+ 3.4 Main tools that will be used later in research work on stability
+
+ We will resume in the next section to the analysis of Levi-Civita and Birkhoff notions
+
+ of stability, focusing on their study of stability of periodic solutions. However, although
+
+ their approach to this subject took them in a direction different from Poincaré's, the
+ conclusions they obtained depend on several conceptual tools provided by him. We
+ summarize the most important of them:
+
+ - the section method (used to analyze the neighborhood of a periodic solution)
+ - the invariant curves (which generalize the curves K and K1 discovered by Poincaré,
+
+ invariant under the dynamics)
+
+ - the doubly asymptotic trajectories
+ - the geometric theorem on the existence of periodic solutions
+
+ 28 Barrow-Green (1997, pp. 104-107) shows that the role of this geometric representation changes from
+
+ the first to the second version of the paper on the three body problem.
+
+ 29 These solutions were later called "homoclinic" in Poincaré (1892-1899, V.ffl). In Anderson (1994),
+
+ we find a brief description of Poincaré discovery of this type of trajectories.
+
+ Ô Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:24:27 UTC
+All use subject to https://about.jstor.org/terms
+
+ Stability of trajectories from Poincaré to Birkhoff 3 1 7
+
+ The three first tools have already been mentioned. The fourth one is the approach
+ used in the "last geometric theorem" of Poincaré. In 1912, a few weeks before his
+
+ death, Poincaré published the paper, (Poincaré 1912), where he enunciated a new the-
+ orem that, once demonstrated, would confirm the existence of an infinite number of
+
+ periodic trajectories in the restricted three body problem for all values of parameter /x.
+
+ He proposed new conceptual tools, taken from algebraic topology, in order to show
+
+ that if a continuous, one-to-one, area-preserving transformation T takes the ring R9
+ formed by concentric circles of radii a and b (a > b), into itself in such a way as to
+
+ move the points on the circle of radius a in a positive sense and the points on the other
+
+ circle in a negative sense; then there are at least two points of the ring that remain
+ invariant under the iteration of T.
+
+ Barrow-Green (1997, pp. 169-173) analyzes the suggestions given by Poincaré
+ and the final proof provided by Birkhoff in 1913. This result played a key role in
+ the study of stability of periodic solutions, since the existence of points on the ring
+
+ that remain invariant under the iteration of T implies the existence of periodic solu-
+
+ tions if the ring is thought of as being over the section (when we apply the section
+ method).
+
+ In Sect. 6, we discuss some consequences of this result found by Birkhoff. But
+ before analyzing how Levi-Civita and Birkhoff followed the works of Poincaré on
+
+ the stability of periodic solutions, it is worthwhile to mention Lyapunov's previous
+
+ stability definitions (even if they are not stated for periodic solutions).
+
+ 4 Stability directly defined on the set of trajectories
+
+ Poisson stability is a property of an individual trajectory, while Poincaré's defini-
+ tion of stability for a periodic solution concerns the family of other solutions in its
+
+ neighborhood. This last definition, provided in 1890, assures that the trajectories of
+ neighboring points in a periodic trajectory do not go too far. However, this limited
+
+ behavior is stated as a formal requirement regarding the existence of characteristic
+ exponents.
+
+ Around the same year* Lyapunov also furnished a definition of stability for a trajec-
+
+ tory in terms of the behavior of other trajectories in its neighborhood, but his criterion
+
+ was directly given on the space of trajectories. A trajectory was defined as stable if a
+ perturbation of the initial condition does not affect its behavior too much. Thus, before
+
+ returning to the study of the three body problem, we can indulge in a sort of digression
+ about some aspects of the works of Lyapunov, influenced by problems related with
+ equilibrium stability.
+
+ 4.1 The exchanges between Poincaré and Lyapunov about stability of equilibrium
+
+ As we have seen, the attempts made by Thomson and Tait to generalize the Lagrange-
+
+ Dirichlet theorem for a fluid were quite popular at the time of Poincaré and Lyapunov.
+ Nevertheless, they enunciated many results without proof and their demonstrations,
+
+ when furnished, did not seem rigorous enough. Poincaré and Lyapunov took this gap
+
+ & Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:24:27 UTC
+All use subject to https://about.jstor.org/terms
+
+ as a point of departure for their researches, and shed new light over the problem of the
+
+ stability of equilibria of a rotating fluid.30
+
+ Poincaré was interested in the different forms that figures of equilibrium can assume,
+
+ and investigated bifurcation points of parameters related to these figures. He showed,
+
+ for instance, that it is possible to obtain infinitely many equilibrium figures different
+
+ from ellipsoidal ones, and the question of stability appears in this context. Lyapunov
+
+ was instead more concerned with stability in its own, which means simply to inquire if
+
+ the perturbed figures are close enough to the original one, no matter their form. Hence,
+
+ even if their works have some points in common, they employ different definitions of
+
+ 318 T.Roque
+
+ stability.
+
+ One of Poincaré's most important articles on the equilibrium figures of a rotating
+
+ fluid (Poincaré 1885b) was published in the same year of the third part of "Sur les
+
+ courbes". However, the notions of stability used in these works do not agree. It is inter-
+
+ esting to observe that the qualitative methods Poincaré proposed in "Sur les courbes"
+
+ were later elaborated by Lyapunov in his second thesis, of 1892, in order to deal with
+
+ stability of equilibrium, something Poincaré did not do.
+
+ In fact, Lyapunov had already thought about the stability of equilibrium figures
+
+ in 1884, during his first thesis, which was translated into French as "Sur la stabilité
+ des figures ellipsoïdales d'équilibre d'un liquide animé d'un mouvement de rota-
+ tion"(Lyapunov 1904). He used Thomson and Tait's stability principle in order to
+ obtain a version of Lagrange's theorem for fluids, and hence to demonstrate the sta-
+
+ bility of ellipsoidal figures.
+
+ Soon after having concluded this work, Lyapunov heard of the papers of Poincaré
+
+ on equilibrium figures of a fluid. This is the beginning of a correspondence that lasted
+
+ two years (Smirnov and Youchkevitch 1987) and started when Lyapunov sent Poincaré
+
+ a copy of his thesis. In Poincaré's answer, in October 1885, he suggested that Lyapu-
+ nov read the paper he had just published in the Acta Mathematica, that is (Poincaré
+ 1885b).
+
+ Almost a year later, Lyapunov wrote again emphasizing that his own works deal
+
+ mainly with the question of stability whereas Poincaré's are concerned with more
+ general issues, such as the diversity of possible equilibrium figures. The main goal
+ of Lyapunov was to demonstrate rigourously the result enunciated in the second edi-
+ tion of Thomson and Tait's treatise (Thomson and Tait 1879-1883), affirming that the
+
+ equilibrium of a fluid is stable if the total energy has a minimum.
+
+ Having noticed a difference between his own definition of stability and the one
+
+ Lyapunov proposed in his thesis, Poincaré asked for more clarification:
+
+ What should I understand by this new definition of stability which has to move
+
+ away from the equilibrium figure after a sufficiently small perturbation of the
+
+ fluid, and this at least as long as there will not come to the surface any projections
+ under a form of nets or blades, no matter how thin one can suppose them; in
+
+ other words as long as there will be no wrinkles. What are those projections,
+
+ 30 For an introduction to the works of Poincaré and Lyapunov on the problem of equilibrium figures of
+
+ a rotating fluid, see Gray (1992). For a comparative analysis of their works on differential equations see
+ Mawhin ( 1 994); we will only focus on the new definition of stability proposed by the Russian mathematician.
+
+ £i Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:24:27 UTC
+All use subject to https://about.jstor.org/terms
+
+ Stability of trajectories from Poincaré to Birkhoff 3 1 9
+
+ those nets, those blades and those wrinkles? (Smirnov and Youchkevitch 1987,
+
+ pp. 7-8).31
+
+ Lyapunov replied that his aim was to extract, from the energy equation, all the
+ consequences related to stability, which requires a definition of the exact scope of the
+
+ idea of two equilibrium figures being "infinitely close" to one another. If we consider
+
+ generic deformations of the figure, it may be the case that, after infinitely small per-
+
+ turbations, the fluid figure has a distinct nature from the equilibrium figure, even if
+
+ only because of the presence of very thin prominences. To exclude them it would be
+
+ necessary to create hardly verifiable conditions on the nature of initial perturbations.
+
+ Lyapunov stated accordingly:
+
+ As this is very hard, I have preferred to slightly modify the definition of stability,
+
+ and the modification merely comes to the fact that one now must consider the
+
+ equilibrium figure as being stable even in those cases when, after infinitely small
+
+ perturbations, the figure of the liquid can move away from the equilibrium figure
+
+ more and more if the spacing is made only by means of deformations which come
+
+ together with infinitely close thin projections (Smirnov and Youchkevitch 1987,
+ p. 9) [Lyapunov's italics].32
+
+ The important aspect in this definition is that the stability criterion requires only
+
+ that the figures to remain close to one another - they can have different natures. As we
+
+ will see, the mathematical stability definition Lyapunov proposed in his second thesis
+ had a clear influence on these considerations.
+
+ 4.2 Qualitative, or "perturbative", stability
+
+ The best known work of Lyapunov remains his second thesis, published in Russian
+ in 1892 and translated into French 15 years later with the title Problème général de
+
+ la stabilité du mouvement (Lyapunov 1907).33 In the foreword, Lyapunov mentioned
+ Poincaré's paper "Sur les courbes" as having provided the methods to be generalized
+ in a major set of applications.34
+
+ 31 Que dois-je entendre par cette nouvelle définition de la stabilité qu'après une perturbation suffisamment
+ petite le liquide doit s'écarter aussi peu qu'on voudra de la figure d'équilibre au moins aussi longtemps
+ qu'il ne se produit pas, à la surface, de saillies sous forme de filets ou de lames, quelque minces qu'on les
+ suppose, en d'autres termes pour qu'il n'y a pas de rides. Qu'est-ce que c'est que ces saillies, ces filets, ces
+ lames et ces rides?.
+
+ 32 Cela étant très difficile, j ' avais préféré de modifier un peu la définition de la stabilité, et cette modification
+
+ se réduit à ce qu'on doit regarder la figure d'équilibre comme stable même dans le cas quand, après les
+ perturbations infiniment petites, la figure du liquide peut s'écarter de plus en plus de la figure d'équilibre,
+ si cet écartement ne se fait que par le moyen des déformations qui s'accompagnent des saillies infiniment
+ voisines minces.
+
+ 33 An English translation of this book have been published in 1992 in a commemorative edition of its
+ centenary (Lyapunov 1992).
+
+ 34 At the end of the foreword Lyapunov comments on Poincaré's works on celestial mechanics, in particular
+ the article "Sur les problème des trois corps et les équations de la dynamique", which came out when the
+ book was already in print but that contains results analogous to his.
+
+ Ô Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:24:27 UTC
+All use subject to https://about.jstor.org/terms
+
+ 320 T. Roque
+
+ In spite of the fact that Poincaré restricts his research to very special cases, he
+
+ uses methods that allow much more general applications and they can still lead
+ to several new results. We shall see that by what follows, for, mostly in my
+ research, I have been guided by ideas developed in the already quoted paper
+ (Lyapunov 1907).35
+
+ Like Poincaré, Lyapunov argued that it is necessary to develop a method capa-
+
+ ble of assuring stability in cases for which the integration of differential equations
+
+ is not possible. The problem of the stability of equilibria consists in knowing if one
+ can choose initial values small enough, so that, for all values of time after the ini-
+
+ tial instant, the solutions remain smaller than limits given in advance, no matter how
+
+ small these limits are. If one can integrate the differential equations, or find a potential
+ function, this problem is easy to solve. But Lyapunov emphasized that it would be
+
+ important to develop methods that would allow one to verify the stability of a solution,
+
+ independently of the possibility of integrating the differential system.
+
+ One of Lyapunov's main goals was to demonstrate the converse of the Lagrange-
+
+ Dirichlet theorem. We know that a sufficient condition for stability is the potential
+ function to have a maximum in the equilibrium position. But is this condition also
+
+ necessary? He obtained this result in certain cases and provided procedures for treat-
+
+ ing equations with constant or periodic coefficients. The conceptual tools developed
+
+ by Lyapunov also permit a study of stability in more general cases. The paper (Mawhin
+ 2005) gives a good account of the most significant result in the book, we highlight
+
+ here those aspects related to his concept of stability.
+
+ From the standpoint of a qualitative analysis, the most remarkable aspect put
+
+ forward by Lyapunov is to have regarded the solutions as movements, and to have
+
+ focused on properties related to the set of movements. This has enabled him to define
+
+ some properties of solutions by means of a direct analysis of the set of movements.
+
+ Lyapunov's second thesis begins by suggesting how a perturbed and a non-perturbed
+ movement can be mathematically defined; what & perturbation is in itself; and how a
+
+ perturbed movement can be defined as being near to a non-perturbed one. All these
+
+ concepts had been used earlier, but mostly in an intuitive manner, without rigorous
+ definitions. This new treatment can be explained by noting that Lyapunov's interests
+
+ went beyond an analysis of stability by means of properties related to the potential
+
+ function. It was thus necessary to define stability directly on the set of movements.
+
+ Lyapunov's definition of stability of equilibrium appears as follows:36
+ Let (jci , . . . , xn) = (0, . . . , 0) be an equilibrium solution of a differential system
+
+ 35 Bien que M. Poincaré se borne à des cas très particuliers, les méthodes dont il se sert permettent des
+ applications beaucoup plus générales et peuvent encore conduire à beaucoup de nouveaux résultats. C'est
+ ce qu'on verra par ce qui va suivre, car, dans une grande partie de mes recherches, je me suis guidé par les
+ idées développées dans le Mémoire cité.
+
+ 36 This definition is given in a different manner in the thesis introduction (Lyapunov 1907, pp. 209-210).
+ There Lyapunov furnished a more general definition depending on the quantities (named ß/) in relation to
+ which stability is studied. But we find the exact definition given here in Lyapunov (1907, p. 466).
+
+ £l Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:24:27 UTC
+All use subject to https://about.jstor.org/terms
+
+ Stability of trajectories from Poincaré to Birkhoff 321
+
+ ^p- = Xi(x,t),...,^- = Xn(x,t)
+ at at
+
+ This solution is "stable" if, for each positive number /, arbitrarily small, we can find
+
+ another positive number e such that whenever the functions x¿ have at initial instant
+ real values satisfying || jci C^o) II < £, •••> ll*n(io)ll < e> the inequalities 11*1(011 <
+ /,..., ||jcn(f)|| < / are also satisfied for all positive values of t.
+
+ The stability of a general solution (f' (i), fi(t), . . . , fn(t)) is defined by means of
+
+ an equilibrium point stability. Lyapunov used the transformation:
+
+ (*1, X2, ...,*„)-► (/l(0> flit), . . . , fn(t)) + (*i, X2, . . . , Xn)
+
+ in order to reduce the question about stability of a general solution to the related
+ question of the stability of equilibria as defined above.
+
+ The methods inspired by the paper "Sur les courbes" are used in order to detect
+
+ stability in terms of regions in which the solutions, with initial conditions close to
+ equilibrium, must be confined. Lyapunov employed his so-called second method to
+ study stability in terms of the possibility of obtaining certain functions, defined in
+
+ the neighborhood of equilibrium and not dependent on any explicit solution for the
+
+ system. These functions, called "Lyapunov functions" nowadays, have to be found by
+
+ trial and error methods. If a level surface of a Lyapunov function involves the equilib-
+
+ rium point, then a solution with initial condition close to that point cannot leave its a
+
+ neighborhood of it, and the equilibrium is stable.
+
+ The role of these functions is somewhat analogous to those of cycles and surfaces
+
+ without contact as proposed by Poincaré. The existence of a surface without contact
+
+ characterizes instability. However, in Poincaré's works there were no criteria of the
+ type that would ensure stability. Lyapunov's functions allow one not only to infer
+
+ stability but also to discover the extension of the set of trajectories that do not recede
+
+ from equilibrium, as well as the extension of the set of trajectories that tend to equilib-
+
+ rium. In a qualitative treatment of stability, which can be named "perturbative" after
+
+ Birkhoff, given a movement, the question is precisely to analyze its relationship with
+ other neighboring movements.
+
+ Jean Mawhin (2005, p. 672) notes that the methods developed by Lyapunov are
+
+ more analytical than those of Poincaré. Despite this fact, his treatment of stability
+ can be said to be more qualitative. There are two ways to study stability: find exact
+ or approximate solutions of differential equations or obtain information about the set
+
+ of its solutions without writing their analytical expressions. In Lyapunov's 1892 the-
+
+ sis, we find approaches, like the second method, that allow one to infer stability of
+ solutions without any knowledge of their analytical expression.
+
+ Even if his definitions are less geometrical than Poincaré's, Lyapunov proposed
+
+ new objects, like unperturbed and perturbed motions, that enable him to state proper-
+
+ ties directly in the space of motions. As a consequence, his definition of stability does
+ not need to take into account the analytical expression of solutions. It can thus be said
+
+ to be a qualitative definition, not because of the geometrical way in which it is stated,
+
+ but as a definition given directly as a property of the space of motions.
+
+ £i Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:24:27 UTC
+All use subject to https://about.jstor.org/terms
+
+ 322 T. Roque
+
+ 4.3 Poincaré's and Lyapunov's conceptions of stability
+
+ For our purpose in subsequent sections it is sufficient to retain the manner in which
+
+ Lyapunov treated stability for an equilibrium point. If we remember Poincaré's sec-
+
+ tion method, the periodic solution reduces to a fixed point on the transverse section
+
+ (the intersection of the periodic solution with the section). Since a fixed point is, with
+
+ respect to a point transformation, analogous to an equilibrium point, the stability of a
+
+ periodic solution can be conceived in the same way as the stability of equilibria.
+
+ Poincaré did not define the stability of a periodic solution in this way. In Poincaré
+
+ 1890 and Poincaré 1892-1899, he did not employ the section method to define the
+ stability of periodic solutions. He used the so-called "equations of variations" and
+
+ tried to write the trigonometric functions that describe the variation of other solutions
+
+ in a neighborhood of a periodic solution. As we have mentioned, in his works about
+ celestial mechanics, Poincaré had used the section method to analyze what happens
+
+ in the neighborhood of an unstable periodic solution.
+
+ We will see in the later sections, in a study more concerned with the stability of
+
+ periodic solutions, that the definition proposed by Lyapunov is better for obtaining
+
+ results on stability by means of a direct investigation of the geometric space of solu-
+ tions. Therefore, it can be said to be more "qualitative" than Poincaré's definition of
+
+ stability.37
+
+ Poisson stability can be seen as a definition that applies, or not, to a trajectory in
+
+ the space of trajectories. But it concerns only an individual trajectory, and not the
+
+ other ones in its neighborhood. As Barrow-Green (1997, p. 181) remarks, this stability
+
+ definition given by Poincaré is less restrictive than Lyapunov's. For a trajectory to
+ be stable in Lyapunov's sense, all perturbed trajectories must remain close to it, and
+
+ also each point in the perturbed motions has to be close to its contemporaneous point
+
+ in the unperturbed motion. However, Lyapunov's definition of the stability of equi-
+
+ libria served as the prototype for the stability of a general motion. In the subsequent
+
+ qualitative works concerning stability in the three body problem, in which the section
+
+ method is employed to analyze the stability of periodic solutions, this definition was
+
+ turned into the properly qualitative one.
+
+ In 1897, 10 years before the translation of his second thesis into French, Lyapu-
+ nov presented a synopsis of some of the results achieved in his thesis in the article
+ "Sur l'instabilité de l'équilibre dans certains cas où la fonction de forces n'est pas
+ un maximum" (Lyapunov 1897), published in the Journal des Mathématiques. The
+
+ main question was to demonstrate the converse of the known result about the stability
+
+ of equilibrium: if the force function does not attain a maximum can we be sure that
+ instability occurs?
+
+ This issue was responsible for the rare quotations of the author by his contemporar-
+ ies, and we will summarize in the next part the relevant results cited by Levi-Civita.
+
+ 37 Even in the general case, to analyze stability of an arbitrary trajectory, Lyapunov's definition has become
+ more useful in qualitative approaches, as we can see in Cesari (1959) or La Salle and Lefschetz (1961).
+
+ £i Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:24:27 UTC
+All use subject to https://about.jstor.org/terms
+
+ Stability of trajectories from Poincaré to Birkhoff 323
+
+ 5 Qualitative stability in the three body problem
+
+ Levi-Civita was one of the first mathematicians to use the qualitative point of view
+ introduced by Poincaré. We confine our inquiry to the long article titled "Sopra
+ alcuni criteri di instabilità" (Levi-Civita 190 1).38 In this text, cited several times by
+
+ Birkhoff, the author mentioned Lyapunov's first article in French (Lyapunov 1897),
+
+ and regretted the fact that his work about the general stability of movement had only
+
+ been published in Russian at that time. His acquaintance with Lyapunov's works does
+
+ not go beyond the 1897 article and some synopses published four years before in the
+ Jahrbuch über die Fortschritte der Mathematik.
+
+ Levi-Civita used the section method in order to reduce the problem of stability of a
+
+ periodic solution to the related one concerning the stability of a fixed point over two-
+
+ dimensional section. He was the first to catch a glimpse of the possibility of defining
+
+ stability for a periodic solution in the same manner as the stability of equilibria. In
+
+ this sense, he produced a synthesis, using methods developed to study the stability of
+
+ equilibria in the three body problem.
+
+ 5.1 Levi-Ci vita's synthesis
+
+ The initial problem of (Levi-Civita 1901) is the same as that presented by Poincaré
+ in Les Méthodes nouvelles (Poincaré 1892-1899, V.III, Chap. XXVI). It begins with
+
+ a "canonical" system of differential equations ^f- = X¡ (such that ^ ^f = 0),
+ possessing an integral invariant.
+
+ For a two-dimensional system^- = X, ^ = Y, Levi-Civita noticed that Poincaré's
+
+ research suggested that instability has a qualitative character - as it can be verified by
+
+ means of inequalities - and stability is quantitative - as it requires conditions on the
+
+ nature of functions X and Y . We recall that Poincaré had already remarked that the
+
+ use of cycles without contact to verify the fact of instability was precisely the mark
+
+ that distinguished his own methods from traditional ones. In this sense, instability can
+
+ be considered more qualitative than stability.
+
+ The verification of stability remained dependent upon formal conditions on the func-
+
+ tions that intervene during the series development of X and Y - which, in certain cases,
+
+ can be used to solve the problem by integration. An example of a quantitative condi-
+
+ tion on the nature of functions X and Y that permits one to guarantee stability in the
+
+ two-dimensional case is the existence of a function H such that X = y^, Y = - |j.
+ If this condition is fulfilled, Levi-Civita added, neither the criterion of stability nor
+ that of instability are qualitative. The same holds for the equilibrium of a material
+ system under conservative forces. But what happens - he asked himself- when we
+
+ move from a study of the stability of equilibria to a study of stability of movements?
+ The use of the section method is essential in this transition and Levi-Civita started
+
+ to study the neighborhoods of periodic solutions employing a qualitative approach to
+ investigate their stability.
+
+ 38 This work contains results of three publications from the previous year, as explained in Dell'Aglio and
+ Israel (1989).
+
+ Ô Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:24:27 UTC
+All use subject to https://about.jstor.org/terms
+
+ 324 T. Roque
+
+ Before describing how he did that, we emphasize that it is one of the first times
+
+ we find a clear criterion for making a distinction between a qualitative and a quanti-
+
+ tative approach. While the latter concerns an explicit search for analytic expressions,
+
+ the former is satisfied with the implicit verification of certain conditions by means of
+
+ inequalities, or features that can be inferred directly from the set of solutions seen as
+
+ movements (without any necessity for providing an analytic expression). Lyapunov
+
+ had already worked with a criterion of this kind, but did not put forward a discussion
+
+ about its qualitative character.
+
+ In order to investigate the stability of a periodic solution, Levi-Civita used Poin-
+
+ caré's section method, and concluded that "tutto si trova in tal modo ricondotto allo
+
+ studio delle transformazioni puntuali" (Levi-Civita 1901, p. 223). The novelty of his
+
+ approach was to define stability by means of the behavior of a point transformation T,
+
+ defined over the section, in the neighborhood of the fixed point O corresponding to
+
+ the periodic solution (Fig. 1). Such transformation is unstable whenever positive and
+ negative iterations of a point P by T escape any given neighborhood of 0, no matter
+ how small; and T is stable in the opposite case. The periodic solution associated to a
+
+ fixed point x¿ = 0:
+
+ Will be said stable (...) if and only if, for each arbitrarily small neighborhood E
+
+ of the origin [x¿ = 0], there exists an H such that, taking in H the initial position
+
+ of the moving point, it remains in E for all positive and negative values of t.
+ There will be instability in the opposite case, that is to say if does not exist an
+
+ H endowed with the cited property; or, in other words, if arbitrarily close to the
+
+ origin, there always exist an initial position Pq from which the moving point can
+ be, for at least an instant, out of E (Levi-Civita 1901, p. 262).39
+
+ Two pages later he concluded:
+
+ The question of stability of periodic solutions reduces to that of point transfor-
+ mations(Levi-Civita 1901, p.264).40
+
+ He then investigated the properties of the point transformation 7' in particular the
+
+ case in which it is unstable, using a result extracted from (Lyapunov 1897). In this
+
+ point, Levi-Civita had already defined stability, without attributing his definition to
+
+ Lyapunov. But the way he used Lyapunov results shows they must have had the same
+
+ conceptions of stability.41
+
+ 39 Sarà a dirsi stabile (...) allora e solo allora che, per ogni intorno comunque piccolo E dell'origine
+
+ [jc; = 0], ne esiste um H tale che, prendendo in H la posizione iniziale del mòbile, questo rimane in £, per
+
+ qualunque valore positivo o negativo di t.
+ Vi è instabilità nel caso opposto, ossia se non esiste um H dotato della anzidetto proprietà; o in altri termini
+ se, vicino quanto si vuole all'origine, esiste sempre qualche posizione iniziale Po» a partire dalla quale il
+ mobile si trova, in un istante almeno, fuori di E.
+
+ 40 La questione della stabilità delle soluzioni periodiche si riduce a quella delle transformazioni puntuali.
+
+ 41 In fact, Levi-Civita's definition is different from Lyapunov's at a single point: it considers not only future
+
+ stability, but a the past stability of a solution as well. In mathematical terms, it is an irrelevant difference
+ since it is equivalent to a mere change of t for -t in the solution. Barrow-Green (1997, p. 182) notes
+ that this addition may reflect Levi-Civita's concern with classical mechanics, as his definition reflects the
+
+ reversibility of physical processes.
+
+ Ö Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:24:27 UTC
+All use subject to https://about.jstor.org/terms
+
+ Stability of trajectories from Poincaré to Birkhoff 325
+
+ For a system of equations:
+
+ - - = Xi(x',X2,...,xn)
+ ût
+
+ where i = 1, . . . , n, Lyapunov considered each X,- a linear function of*,-, added to a
+
+ residue of second order (or higher):
+
+ Xi = Pi'Xi + . . . + PinXn + ^/.
+
+ The equilibrium solution jc,- = 0 was defined to be stable or unstable exactly in the same
+
+ manner as in his second thesis. He showed that it is unstable if there are eigenvalues
+
+ of the [pij] matrix with positive real part.
+
+ A similar method was used in Lyapunov (1907) in order to analyze the case of
+ eigenvalues with negative real parts, which allows one to infer stability (and also to
+
+ justify the linear approximation for small perturbations). In fact, when the equation
+
+ has constant coefficients, the linear approximation is sufficient for a study of stability
+
+ in almost all cases, except when eigenvalues have a zero real part, i.e., when they are
+
+ purely imaginary. Levi-Civita analyzed precisely this situation.
+
+ If not all the characteristic values associated with T have absolute value 1 - which
+
+ means that the characteristic exponents are pure imaginary - one can solve the problem
+
+ of stability. As Poincaré had demonstrated in (Poincaré 1 892-1 899), the case where all
+
+ characteristic values have absolute value 1 corresponds to stability, but this conclusion
+
+ is only valid in the first approximation. It is necessary to see if Poincaré's method is
+
+ still efficient for higher order approximations. Levi-Civita showed that the demand
+
+ that characteristic exponents be purely imaginary (stability in the first approximation)
+
+ is far from assuring stability of a periodic solution in any approximation.
+
+ The article "Sopra alcuni criteri di instabilità" follows with the consideration of
+
+ canonical equations:
+
+ dpi _ dF dqi _ dF
+ dt ~~ dqi ' dt ~ dpi
+
+ where i = 1 , 2 and F does not depend on t . For a periodic solution, examined by means
+ of a point transformation over the section, Levi-Civita concluded that it is essential
+
+ to know whether the perturbed trajectory returns infinitely close to the fixed point or
+ recedes from it after an arbitrarily small variation of the initial condition. It is desirable
+
+ to show, according to him, the general unstable character of the transformation T, even
+
+ when the characteristic exponents are purely imaginary (condition used by Poincaré
+ to define a stable periodic solution).
+
+ Levi-Civita thus conjectured that the general case is unstable and demonstrated this
+
+ fact for the specific situation obtained when the average movements of the sun and the
+ moon around the earth are commensurable. This means that the case considered as
+
+ "stable" by Poincaré can be unstable if the precision of the approximation is increased.
+
+ Hence, it becomes clear that Levi-Civita's definition of periodic solutions stability fits
+ better into the qualitative approach than that proposed by Poincaré.
+
+ £ì Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:24:27 UTC
+All use subject to https://about.jstor.org/terms
+
+ Using the section method, Levi-Civita showed that there are zones of instability
+
+ that condense around the orbit of the planet.42 What remains to be discovered is how
+
+ those regions distribute themselves inside the domain. But the author admitted that his
+
+ methods did not allow him to go very far into this question, not even to know whether
+
+ the instability zones cover the whole plane or not (Levi-Civita 1901, p. 295). Birkhoff
+
+ started from this point in his own studies about the problem.
+
+ 326 T. Roque
+
+ 5.2 Tradition and innovation in Levi-Civita's works
+
+ In their analysis of Levi-Civita's style, Dell'Aglio and Israel (1989) have already
+ noticed that his works are in some ways very singular, in particular because they
+
+ reconcile the qualitative viewpoint with the traditional approach of Lagrange's analyt-
+
+ ical mechanics. According to them, what puts Levi-Civita and Lyapunov's definitions
+
+ together is the fact that both mathematicians made direct use at the start of their work
+
+ of Lagrange's and Dirichlet's definitions of stability, with a view to adjusting them to
+ more general problems.
+
+ For these historians, one of the main features of Levi-Civita's style is this effort to
+
+ reconcile tradition and innovation, without marking out points of rupture and without
+
+ even emphasizing his own original contributions. In fact, throughout his article on the
+
+ stability criteria, he never emphasized the difference between his definition for the
+
+ stability of periodic solutions and the one proposed by Poincaré.
+
+ Although Levi-Civita's methods seem innovative, Dell'Aglio and Israel remark
+
+ that his attitude is typical of someone who believes in a line of continuity within the
+ traditional methods. This can be understood in terms of his conservative belief that a
+
+ scientific domain must pay tribute to already accumulated results.
+
+ These traits in Levi-Civita's scientific personality contrast sharply with Birkhoff 's.
+
+ The contribution of the latter to the constitution of the domain of dynamical systems
+
+ consists precisely in establishing criteria that identify what is new in qualitative meth-
+
+ ods, explicitly showing where and how they converge or diverge by comparison with
+
+ the traditional approach.
+
+ This difference between Levi-Civita and Birkhoff 's styles can be felt in the letters
+
+ they exchanged from 1913 onwards.43 In one of the first letters, dated March 3rd 1913,
+ Birkhoff confessed how Levi-Civita's study of stability had impressed him as almost
+
+ the only definite advance in the restricted three body problem made to that time. The
+
+ general keynote of the letters was that of mutual respect and admiration in face of the
+ research progress each one had accomplished. After 1918, the discussion on issues in
+ celestial mechanics became briefer.
+
+ 42 This example eliminates, according to Levi-Civita, the expectation that stability is less exceptional in
+ concrete cases than it is in the abstract mathematical case. In his view, it is rather surprising that stability
+
+ appears as an exception when, from an astronomic point of view, everything points to the opposite idea
+ (Levi-Civita 1901, p. 224).
+
+ 43 Birkhoff's letters to Levi-Civita have been published as (Nastasi and Tazzioli 2000, pp. 199-220). Levi-
+ Civita's letters to BirkhofT have not been published yet. I thank Rossana Tazzioli for her kind help in this
+ matter.
+
+ Ô Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:24:27 UTC
+All use subject to https://about.jstor.org/terms
+
+ Stability of trajectories from Poincaré to Birkhoff 327
+
+ One of the last letters on the three body problem is from October 26th 1918. It is
+
+ Birkhoff 's response to Levi-Civita's response to his paper entitled "Sur la régulariza-
+
+ tion du problème des trois corps"(Levi-Civita 1920). For the American mathematician,
+
+ this work represents the definitive treatment of the regularization problem, but he found
+
+ it strange that Levi-Civita did not seem interested in showing that the main results of
+ Sundman could be deduced from it.44
+
+ On December 1st Levi-Civita replied to the letter saying that Sundman's famous
+
+ results are immediate corollaries of the point already established in his own article:
+
+ I have the impression that this is a true pedagogical detail, noticeable afterwards,
+
+ and summing up, without changing anything in the concept, the final consider-
+
+ ations of Mr. Sundman. That is the reason why I neglected it.45
+
+ We will return to this correspondence later. So far, reference is made to this response
+
+ only to highlight the differences between Levi-Civita's and Birkhoff 's styles and gen-
+
+ eral positions.46 Birkhoff considered it strange that Levi-Civita did not emphasize the
+
+ fact that a known result can be inferred in a new, simpler and clearer, manner. As we
+
+ will see next, for Birkhoff it was fundamental to clarify the essential difference in
+
+ methods, even if they end up with the same results.
+
+ 6 A clear criterion for distinguishing qualitative and quantitative
+
+ approaches to stability
+
+ The name of Birkhoff first appeared in the international mathematical community in
+ the 1910s and one of his first texts on dynamical systems is the article "Quelques
+ théorèmes sur le mouvement des systèmes dynamiques" (Birkhoff 1912). At the very
+
+ beginning, Birkhoff defined the so-called "recurrent" movements, which are those that
+
+ arbitrarily approximate any of its positions, past and future. Such recurrent movements
+
+ are important inasmuch as they have a special property of representing, in a satisfactory
+
+ manner, the entire extension of the movement, to any degree of approximation, during
+
+ the whole period of time. Equilibrium points and periodic movements are particular
+ cases of recurrent movements.
+
+ Birkhoff 's recurrent movements are Poisson stable. It is precisely the denomination
+
+ of "stability" for the recurrence property that he had criticized in 1935: "this [Poin-
+
+ caré's] use of the word 'stability' is, however, unfortunate" (Birkhoff 1935, p. 310). He
+
+ then noticed that it is more convenient to keep the term "stability" for other properties:
+
+ The fundamental fact to observe here is that this concept [stability] is not in itself
+
+ a definite one, but it is interpreted according to the question into consideration
+ (Birkhoff 1935).
+
+ 44 The works of Sundman had appeared some years before (Sundman 1912).
+
+ 45 J'ai l'impression qu'il s'agit d'un véritable détail didactique, réalisable après coup, en résumant, sans y
+ changer rien en concept, les dernières considérations de M. Sundman. C'est pour cela queje me suis passé.
+
+ 46 A comparison between Levi-Civita's and Sundman's works on the three body problem can be found in
+ Dell'Aglio (1993).
+
+ £l Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:24:27 UTC
+All use subject to https://about.jstor.org/terms
+
+ 328 T. Roque
+
+ Between the 1912 article and the comment quoted above stability was very often
+
+ discussed by Birkhoff. We will see just some examples, more directly concerned with
+
+ the stability of periodic solutions and the definition of a qualitative treatment.
+
+ 6.1 Periodic solutions and point transformations
+
+ One of Birkhoff's first important results was the demonstration of Poincaré's last
+
+ geometric theorem (Poincaré 1912). It was a proposition according to which the exis-
+
+ tence of an infinite number of periodic trajectories in dynamical problems, such as
+
+ the restricted three body problem, could be inferred from the analysis of a transfor-
+ mation of a ring to itself (defined between two closed curves over the surface of a
+ two-dimensional section).
+
+ In 1912, Poincaré had put forward the hypothesis that, if an area preserving trans-
+
+ formation T takes the ring to itself, in which the circles forming the boundary move
+
+ in opposite angular directions, it is possible to conclude that there are, at least, two
+
+ invariant points inside this ring. By using the section methods, a three-dimensional
+
+ periodic trajectory can be reduced to an invariant point over the section, and if we trace
+
+ out a ring around that point, the result allows one to conclude that there are at least two
+
+ other periodic trajectories in the neighborhood of the first one. As Poincaré noted in
+
+ particular cases the demonstration of this theorem is topological in nature, but it fell to
+
+ Birkhoff to find, in 1913, a simple procedure capable of ensuring the result (Birkhoff
+
+ 1913). It suffices to apply successively the transformation T (or T~x) noting that the
+
+ mere fact of preserving areas can be used to conclude that a stripe of the ring should be
+
+ taken to another stripe (with the same area), which necessarily intercepts the first one.
+ After successive iterations of the transformation, the intersections of multiple rings
+
+ should have a common point.
+
+ After publishing his paper in 1913, motivated by the usefulness of a two-dimen-
+
+ sional point transformation, Birkhoff devoted his studies to dynamical systems with
+ two degrees of freedom. This culminated in the publication of a paper on the sub-
+ ject (Birkhoff 1917), in which he stated that these systems are the "simplest type of
+
+ non-integrable dynamical problems and possess a very high degree of mathematical
+ interest"(Birkhoff 1917, p. 1).
+
+ In this article, Birkhoff stressed Poincaré's section method. He quoted Levi-Civi-
+
+ ta's article of 1901 to show the importance of point transformations and to present a
+
+ definition of stability and instability in terms of its properties. By studying the effects
+ of a two-dimensional transformation on a surface of a definite genus, he managed to
+
+ establish a relationship between this number and the number of invariant points that are
+ stable and unstable. In addition to that, Birkhoff showed that, given some conditions
+
+ on the surface, there are infinitely many periodic orbits.
+
+ In the following years, he continued to work on this problem and, in his correspon-
+
+ dence with Levi-Civita, he seemed surprised by the possibility of obtaining a positive
+
+ answer for a typical problem of stability. But this requires that the definition of stability
+ in use be stated clearly. On 1 May 1918 he wrote:
+
+ At present I am at work with the paper which forms the natural conclusion to the
+ earlier one [from 1917] (...) and I have apparently obtained some results which
+
+ Ö Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:24:27 UTC
+All use subject to https://about.jstor.org/terms
+
+ Stability of trajectories from Poincaré to Birkhoff 329
+
+ I have been altogether astonished at. In particular I believe that I will be able to
+
+ demonstrate that the periodic orbits of the simplest type in the restricted problem
+ of three bodies are stable in the true sense that, if a certain number is irratio-
+
+ nal, nearby orbits remain nearby, whereas, if it is rational, nearby orbits remain
+
+ within a fixed neighborhood of the periodic orbit, although this neighborhood is
+
+ not 'infinitesimal'. I have not yet verified all of the analytic details involved in
+
+ this particular application of the general methods of my paper, which I expect to
+
+ finish in a couple of months. The result as I have stated it is in harmony with your
+
+ own fundamental results on instability, but nevertheless it has gone contrary to
+
+ my preconceived ideas (Nastasi and Tazzioli 2000, p. 206). [our italics]
+
+ Here the definition of stability "in the true sense" emerges, which means that solu-
+
+ tions near the periodic orbit remain nearby. The article in preparation that Birkhoff
+
+ referred to was published in 1920 and became one of his most famous: "Surface trans-
+ formations and their dynamical applications" (Birkhoff 1920b). Here, he presented
+ a rigorous definition of the section method and analyzed several properties of point
+
+ transformations defined in the neighborhood of an invariant point.
+
+ The use of the section method, and the resulting reduction of dynamical problems
+
+ to problems about point transformations, is one of the main steps in the institutionali-
+
+ zation of dynamical systems as a new domain. The quotation above is one of the first
+
+ occasions showing Birkhoff' s desire to distinguish a new field, which is the question
+ we will treat in our conclusion. Before arriving at this point, we must explain his
+
+ results on the stability of periodic solutions.
+
+ 6.2 The instability of Poincaré's stable periodic solutions
+
+ In order to undertake a general study of point transformations, Birkhoff started with a
+
+ classification of invariant points. If mi and v' are coordinates of a transformed point,
+
+ the transformation T is written as power series of u and v, with real coefficients:
+
+ = au +bv + ...
+
+ v' = eu + dv + . . .
+
+ The classification of the invariant points is based on the linear terms in those series
+
+ and depends upon the nature of the roots of the characteristic equation:
+
+ p2 - (a + d)p + ad-bc = 0,
+
+ where ad - be = I and the roots are p and -.
+
+ In the first case, if p is real with a numerical value not equal to unity, a point P in
+ the surface will move on a hyperbola after successive applications of T or T-' . In the
+
+ third case considered, this point would move along a pair of parallel lines.
+
+ But the most important for us is the second case, in which p is complex and of
+ modulus 1. The transformation is a rotation around the invariant point through an
+ angle 0 and every point P remains at a fixed distance from the invariant point after
+ successive applications of T or T-'. This case can be divided in two subcases: the
+
+ £l Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:24:27 UTC
+All use subject to https://about.jstor.org/terms
+
+ irrational (when ^ is irrational); and the rational (when 0 = 0 or ^ = £, and this
+ fraction is not an integer).
+
+ Birkhoff added that the essence of this distinction is brought out clearly by means
+
+ of a stability definition, explicitly referred to as being as analogous to the one given
+ byLevi-Civitainl901:
+
+ If a neighborhood of an invariant point can be so taken that points arbitrarily
+
+ near the invariant point leave this neighborhood after successive applications of
+
+ T or T-' , the invariant point is unstable', in the contrary case the invariant point
+
+ is stable (Birkhoff 1920b, p. 5).
+
+ The determination of curves on the surface that remains invariant under successive
+
+ applications of Í or Li is essential for Birkhoff 's method. If there are curves of
+ this sort, given by real series (analogous to the curves K and Kf already described
+
+ by Poincaré), the transformation is called hyperbolic. In the contrary case it is called
+ elliptic.
+
+ 330 T. Roque
+
+ Fig. 4 Ring of
+ instability - hyperbolic points
+ between two invariant curves C'
+
+ and Ci around a fixed point P
+
+ The first case, of real /?, is the prototype of a hyperbolic situation; whereas the
+
+ irrational situation is elliptic, since we have a pair of conjugate imaginary invariant
+ curves. The other ones may be either hyperbolic or elliptic. Birkhoff explained the
+ connection between the hyperbolic-elliptic distinction and the question of stability.
+ The stable case must be defined by the existence of an infinite number of invariant
+
+ closed curves surrounding the invariant point (Birkhoff 1920b, p. 80).
+
+ From now on, we will just treat the case when the roots are imaginary of modulus
+
+ 1, defined as stable by Poincaré. This situation is regarded now as the one furnishing
+
+ a possibility of stability, but not necessarily stable.
+
+ Birkhoff showed that in the ring formed by two invariant curves C' and C2 there
+
+ may or not be other invariant curves. If there are, this ring can be subdivided further
+ into similar rings. In the integrable case, these rings reduce to single invariant curves,
+
+ but in the general case they can be viewed as "rings of instability" (Birkhoff 1920b, p.
+ 91). Inside those regions there can be hyperbolic points with very complex behavior
+ (Fig. 4).
+
+ The last six pages of his more than one-hundred-page paper give some dynami-
+
+ cal applications of these methods. Birkhoff quoted several connections with celestial
+
+ & Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:24:27 UTC
+All use subject to https://about.jstor.org/terms
+
+ Stability of trajectories from Poincaré to Birkhoff 33 1
+
+ mechanics all over the text, but his work is more concerned with a general study of
+
+ point transformations defined in the neighborhood of an invariant point. He closed the
+
+ paper by saying that the remarkable diversity and complexity of structures emerging
+ when we analyze the solutions of dynamical systems with two degrees of freedom
+
+ is not yet well understood, and the theory of point transformations must help one to
+
+ grasp what is going on.
+
+ Levi-Civita had already demonstrated the instability of a periodic solution for a
+ system where the mean motions of the planetoid and the two other bodies are com-
+ mensurable. This occurs because there are solutions that approach and recede from the
+
+ periodic solution. In Birkhoff's language, this means that there are hyperbolic points
+
+ in the neighborhood of an invariant point.
+
+ If the invariant point is hyperbolic, there are invariant curves that go through it:
+ one curve on which the iterated points recede from the invariant point (expanding
+
+ dynamics) - responsible for instability - and another one on which the iterated points
+
+ approach the invariant point (contracting dynamics). Birkhoff (1920b, p. 100) showed
+ that if these two sets intersect, there is an infinite number of intersections, which
+
+ makes the trajectories' dynamics extremely complex. In fact, the hyperbolic points
+ are doubly asymptotic in the sense that Poincaré had already announced in 1890. As
+ he had already noted, the presence of this kind of points, also called "homoclinic",
+
+ makes the dynamics extremely complex.47 In the figure above, the hyperbolic points
+
+ in the ring of instability between curves C' and Ci can be points of this type, and we
+
+ find an explanation there of the difficulties mathematicians had found in studying this
+ problem since Poincaré.
+
+ Despite that one can expect that stability subsists, as those points are entirely con-
+
+ tained in the rings of instability, i.e., they are confined between closed invariant curves.
+
+ This conclusion will lead to the main definition put forward by Birkhoff for the stability
+
+ of periodic solutions. The possibility that instability remains confined was celebrated
+
+ by Levi-Civita in his response to the letter quoted before, in which Birkhoff informed
+
+ him on his progress during the 1920 article preparation. On June 3rd 1918, Levi-Civita
+ wrote:
+
+ My first essay - in which instability in the strict sense emerged as a general rule
+
+ - was rather disappointing. Even more striking are the news about the successful
+
+ outcome of your brilliant and insightful researches that enabled you to grasp the
+
+ laws of distribution of periodic solutions, and also to deduce from them that, in
+
+ any case, they are stable in a suitable and very clear sense of this word.48
+
+ In October 26th, Birkhoff replied with the following:
+
+ Although I have not yet had the leisure to give my recent work on stability the
+ extraordinarily careful verification it demands I am reasonably confident of the
+
+ 47 On the history of the discovery of doubly asymptotic solutions by Poincaré see (Anderson 1994) and
+ (Barrow-Green 1997).
+
+ 48 Mon premier essai, d'où ressortait comme règle générale l'instabilité au sens strict, était plutôt déoura-
+ geant. D'autant plus frappante est la nouvelle de l'heureuse issue de vos géniales et pénétrante recherches,
+ qui vous ont permis de saisir les lois de distribution des solutions périodiques, et d'en déduire qu'en tout
+ cas elles sont stables dans une convenable et bien nette acception de ce mot.
+
+ ô Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:24:27 UTC
+All use subject to https://about.jstor.org/terms
+
+ following critical theorem: Let C' , C2 be two distinct continuous closed curves
+
+ about a fixed point O which are met by any half-line ending at O in one and only
+
+ one point. Let T be a direct, continuous, one-to-one area-preserving transforma-
+
+ tion of the area between C' and Ci into itself, which has the further property
+
+ of taking half-lines ending at O into curves met by any half-line ending at O at
+ most once. There will then exist an invariant continuous closed curve C about O
+
+ 332 T. Roque
+
+ met by any half-line ending at O in one and only one point. From this theorem
+ follows at once the existence of an infinitude of such invariant curves, which
+
+ need not however fill up the region between C' and C2 (Nastasi and Tazzioli
+ 2000, p. 209).
+
+ In the integrable case, there are only invariant closed curves in the neighborhood
+
+ of the invariant point. This is equivalent to complete stability (i.e., all the solutions
+
+ in the neighborhood of a periodic solution are situated on invariant tori over which
+
+ the integral is constant). Birkhoff was saying, in other words, that stability in the
+ non-integrable case corresponds to the existence of invariant closed curves enclosing
+
+ the invariant point, even though there may be hyperbolic points between two of these
+
+ curves, as in Fig. 3. In fact, for a non-integrable system very close to an integrable
+
+ one, Birkhoff demonstrated that there may be doubly asymptotic hyperbolic points in
+
+ the rings of instability, but it does not disturb stability, at least in the sense he defined
+ it.49
+
+ This way to enunciate the problem became more precise after 1925, when Birk-
+ hoff proposed an extension of Poincaré's last theorem (Birkhoff 1925). By means of
+
+ a topological procedure,50 he showed that in the neighborhood of an elliptic periodic
+
+ movement there are an infinite number of periodic movements.51
+
+ As was said previously, an invariant point is considered stable if there is an invariant
+
+ closed curve enclosing this point, as that implies the confinement of other trajectories
+
+ in its neighborhood. Birkhoff then studied the nature of all possible invariant curves
+ near an invariant point over the section, and demonstrates that an elliptic periodic
+ movement is a "cluster motion" of an infinite number of other periodic movements.
+ The method allows another conclusion: there are an infinite number of stable and
+
+ unstable periodic movements in the neighborhood of an elliptic periodic movement.52
+ In the integrable case, an elliptic fixed point must be stable. This coincidence led
+ Poincaré to define the stability of a periodic solution in terms of the conditions now
+ used to characterize ellipticity: pure imaginary characteristic exponents. BirkhofFs
+
+ results imply that, for a system obtained by a very small perturbation of an integrable
+
+ one, an elliptic fixed point may be unstable.
+
+ 49 These results are in the beginning of the now called KAM Theory, in a reference to mathematicians
+
+ Kolmogorov, Arnold, and Moser.
+
+ 50 Birkhoff noticed that the importance of Analysis Situs to study the types of periodic movements is
+ clarified with Morse's (1925) works.
+
+ 51 It is even possible to eliminate the condition that transformation T preserves the areas (Birkhoff 1925,
+ p. 299).
+
+ 52 Apart from the existence of non-periodic movements that are uniform limits of periodic movements,
+ and therefore "quasi-periodic".
+
+ & Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:24:27 UTC
+All use subject to https://about.jstor.org/terms
+
+ Stability of trajectories from Poincaré to Birkhoff 333
+
+ The necessary and sufficient condition to ensure stability is the existence of an infi-
+
+ nite number of invariant closed curves arbitrarily near the invariant point. This is the
+
+ same as saying that the periodic movement is stable if there exists an infinite number
+
+ of invariant tori closing down upon the curve of the given periodic motion. This is the
+
+ true sense of stability Birkhoff had referred to in his 1 st May 1918 letter to Levi-Ci vita.
+
+ Hence, for a non-integrable situation, even if close enough to an integrable one,
+
+ the discovery of complex movements in the neighborhood of an elliptic periodic point
+
+ demands a redefinition of stability. That is the reason why a periodic movement is said
+
+ to be "stable" only if movements sufficiently close to the periodic movement remain
+ in a small neighborhood at any instant, as it appears in the 1927 book Dynamical
+
+ Systems. Birkhoff stated accordingly that:
+
+ Stability in this fundamental qualitative sense is not to be confused with the
+
+ 'complete formal stability' introduced earlier, and a periodic motion 'of stable
+
+ type' may or may not be stable (Birkhoff 1927a, p. 220).
+
+ The condition used by Poincaré to define stability of a periodic solution only indi-
+
+ cates whether or not the invariant point, to which the solution corresponds over the
+
+ section, is of "stable" type. The two situations - stable and of stable type - are equiva-
+
+ lent for an integrable system, since in the neighborhood of an elliptic invariant point on
+
+ the section there is a family of invariant closed curves arbitrarily close to the invariant
+
+ point. However, in the non-integrable case, this equivalence is no longer valid.
+
+ 6.3 Several types of stability
+
+ Levi-Civita had already distinguished qualitative and quantitative stability. Birkhoff
+
+ made the definitions more precise. In his view, we can speak of two different kinds of
+
+ stability: one that can be named "formal" and another one that is properly speaking
+
+ "qualitative". The formal definition reflects the classical treatment about the problem
+ of stability of the solar system since Lagrange and Laplace. Stability is verified by
+ means of analytic conditions expressing properties of solutions related to periodic-
+
+ ity. The qualitative definition has a perturbative character and considers stability as a
+
+ property of the whole set of solutions seen as movements.
+
+ Both types can be found in Poincaré's works. His definitions of stability for periodic
+
+ solutions reflect properties of series developments. The inspiration for the definition
+
+ of Poisson stability comes from traditional approaches, but the methods Poincaré used
+
+ to investigate it were quite geometrical - as the intervention of the recurrence theorem
+ in Poincaré (1892-1899). On the other hand, stability as confinement can be said to
+ be qualitative.
+
+ In the analysis of the stability of periodic solutions, we can also identify mixed
+ approaches: the stable case is defined in a formal manner, but the unstable one, defined
+
+ as opposed to the stable, is analyzed by means of qualitative methods, as surfaces with-
+
+ out contact and asymptotic surfaces. Poincaré showed that, in the three body problem,
+ when the average movement of the small body is commensurable with the average
+ movement of the two other, formal series can be obtained and there is stability in the
+ traditional astronomic sense (formal). In the same commensurable case, by using a
+
+ & Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:24:27 UTC
+All use subject to https://about.jstor.org/terms
+
+ better than linear approximation, Levi-Civita showed that a periodic solution is not
+ stable in the sense he designated as "qualitative". As a consequence, formal stability
+ does not imply qualitative stability.
+
+ This conclusion and the research described in the previous part led Birkhoff to dis-
+
+ tinguish two types of stability in the book Dynamical Systems (Birkhoff 1927a). On
+
+ the one hand one has the "formal" definition, named "astronomic" or "trigonometric".
+
+ On the other, there is a properly qualitative definition, also named "mathematical" or
+
+ "perturbative". The formal condition is used to designate an invariant point of "gen-
+
+ erally stable type". This point is properly "stable" when all movements going through
+
+ initial conditions sufficiently close remain indefinitely in a small neighborhood of this
+
+ 334 T. Roque
+
+ point.
+
+ The definition proposed by Levi-Civita in this case is, according to Birkhoff, quali-
+
+ tative par excellence. Birkhoff briefly quoted Lyapunov's research in (Birkhoff 1927 'a,
+
+ p. 122), without emphasizing he had already proposed a stability definition of the same
+
+ kind. We can say that the use of Levi-Civita's works shows an indirect influence of
+
+ Lyapunov. However, it is important to notice that Birkhoff did not take from Poincaré
+ the same tools as Lyapunov had done. For him, the section method, which did not
+
+ interest Lyapunov, is the most fruitful invention presented by Poincaré in his works
+
+ on differential equations. This indicates a different perception of the importance of
+
+ perturbative stability, even if Birkhoff 's definition is analogous to Lyapunov's.
+
+ Birkhoff added that an "outstanding question in dynamics is whether or not the com-
+
+ plete formal stability assures stability in the fundamental qualitative sense" (Birkhoff
+
+ 1927a, p. 227). From this moment onwards, one needs to answer the following gen-
+
+ eral questions: Does formal stability ensure such qualitative stability (which Birkhoff
+
+ calls "actual stability")? If not, does formal stability imply actual stability in important
+
+ special cases such as the restricted three body problem?
+
+ Birkhoff stated then that a movement has "stability of the /nth order" when both
+
+ properties are satisfied:
+
+ (A) movements in the neighborhood of the given movement remain within a con-
+
+ trolled distance according to ^ (perturbative stability);
+
+ (B) the coordinates of any movement can be represented in terms of trigonometric
+
+ series with an error limited by €m during a fixed interval (trigonometric stability).
+
+ A movement is "completely stable" if it is stable to all orders. Perturbative stability
+
+ does not need trigonometric stability (B), although this is sufficient for a demonstration
+
+ of perturbative stability in some cases (B implies A, but A does not imply B). The con-
+
+ dition (B) is, therefore, stronger and often used to infer (A), even if it is harder to obtain
+
+ than (A). Hence, perturbative stability may be present even if one is unable to write the
+
+ series expansion of the movements. In this case, it is worth investigating directly, by
+
+ means of geometrical and topological methods, whether there is perturbative stability
+ or not.
+
+ Before Birkhoff, the two notions of stability expressed by conditions (A) and (B)
+
+ had been mixed up. One of the reasons for that lies in the fact that these conditions
+ are equivalent for the equations of dynamics in the integrable case. Research done
+ until Birkhoff 's time was concerned essentially with the nearly integrable situation.
+
+ However, in the non-integrable case, conditions (A) and (B) are different and it is
+
+ & Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:24:27 UTC
+All use subject to https://about.jstor.org/terms
+
+ necessary to propose new methods to investigate qualitative stability directly in the
+
+ Stability of trajectories from Poincaré to Birkhoff 335
+
+ space of motions.
+
+ In the second half of the 1920s Birkhoff wrote articles in which he declared his
+
+ intention of unveiling the "mysterious significance of the Hamiltonian equations".53 In
+
+ these works, Birkhoff distinguished quantitative and qualitative stability in the "gen-
+
+ eral equations of dynamics" - equations in Hamiltonian form that arise from a special
+ type of variational principle and describe a nearly integrable system. He suggested
+ that, in order to understand the relevance these equations acquired in the nineteenth
+
+ century, one must have in mind there is a special relationship between formal complete
+
+ stability and qualitative stability in the systems they describe. We will not take time to
+
+ examine these works because this would lead us away from our goal. Birkhoff wished
+
+ to show that the importance of these equations is less a consequence of the natural
+
+ laws than a consequence of the fact that, for them, the two types of stability (formal
+
+ and perturbative) are indeed associated. However, in order to investigate the stability
+
+ of solutions defined by non-integrable Hamiltonian systems one has to describe the
+
+ behavior of their trajectories in the space of motions. This same procedure should be
+ developed for a general, not necessarily Hamiltonian, system.
+
+ 7 Conclusion: stability and dynamical systems theory
+
+ The qualitative methods introduced by Poincaré are now unanimously celebrated as
+
+ a great invention. Notwithstanding, it was not always like this. Regarding the paper
+
+ that earned the prize offered by the King of Sweden, Barrow-Green observes that:
+
+ Its sheer novelty would probably have been sufficient to make the memoir almost
+
+ inaccessible to those of a more practical persuasion. This was certainly the view
+
+ adopted by Mittag-Leffler, who, while studying the original memoir, expressed
+
+ the concern that Poincaré's resolution of the restricted three body problem was
+
+ given in a form that would be difficult to understand by anyone except those
+ familiar with this work (Barrow-Green 1997, pp. 107-108).
+
+ From the end of the nineteenth century up to the first two decades of the twentieth
+
+ century, it seems that qualitative methods were not very easily accepted. In an article
+
+ published in the journal Science, Birkhoff (1920a) ranked the most important results
+
+ about dynamical systems since the very end of nineteenth century, making a vehement
+
+ defence of qualitative methods. In the final part of the article, he argued that qualitative
+
+ information about the movements defined by a dynamical system is fully satisfactory:
+
+ The recent advances supplement in an important way the more physical, formal,
+
+ and computational aspects of the science by providing a rigorous and qualitative
+ background.
+
+ To deny a position of great importance to these results, because of lack of empha-
+ sis upon the older aspects of the sciences would be as illogical as to deny the
+ importance of the concept of the continuous number system merely because of
+
+ 53 We refer to the texts Birkhoff (1926b), Birkhoff (1926a), Birkhoff (1927a) and Birkhoff (1927b, p. 1).
+
+ & Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:24:27 UTC
+All use subject to https://about.jstor.org/terms
+
+ 336 T. Roque
+
+ the fact that in computation attention is confined to rational numbers (Birkhoff
+ 1920a, p. 5).
+
+ It seems there had been researchers who questioned the relevance of qualitative
+
+ analysis. Even if it is an interesting question, it is not our purpose in this article to
+
+ investigate to whom the above statement was directed. But seemingly in 1920 there
+
+ was a need to speak in favor of qualitative methods.
+
+ Some years earlier, Karl Sundman had solved, in a certain sense, the three body
+
+ problem. By showing that there exists a convergent series expansion for the coordi-
+
+ nates of the bodies valid for all time values, he had provided an analytic solution to the
+
+ problem, which seemed impossible to many mathematicians before him. Two papers
+
+ on this problem were published respectively in 1907 and 1909 in the Acta Societatis
+ Scientiarum Fennicae [(Sundman 1907) and (Sundman 1909)], but Sundman's works
+
+ only became known after the publication of his main results in the Acta Mathematica,
+ (Sundman 1912).
+
+ The historical context of these works and their reception have been analyzed in
+ detail by Barrow-Green (2010). She observes that in the years following the 1912
+
+ publication, "while Sundman's mathematical dexterity was widely lauded, it had not
+ gone unnoticed that his result gave no practical help to astronomers, whose agenda
+ was rather different from that of the mathematicians" (Barrow-Green 2010, p. 191).
+
+ Some mathematicians doubted that Sundman's series could be suitable for providing
+
+ qualitative information about astronomical phenomena than the trigonometric series,
+
+ as these series give no properties of the motion. In 1917 Whittaker referred to the result
+ in the new edition of his Treatise on the Analytical Dynamics of Particles and Rigid
+ Bodies (Whittaker 1917) but, as Barrow-Green notices, described it as a considerable
+
+ advance rather than a solution, indicating that he was hesitant about how to classify
+ the result. This ambivalent reaction is characteristic of what she describes as the third
+
+ stage in the reception of Sundman's results, which began after the First World War and
+ continued up until the early 1990s. In this period, Poincaré's work had changed the
+
+ nature of the subject, at least in the highly theoretical sense, and it was not obvious in
+ which direction the research on celestial mechanics would go. Barrow-Green points
+ out that:
+
+ Poincaré's mathematics was difficult and held little immediate promise for the
+
+ practical mathematical astronomer. Sundman's solution was in a similar vein.
+ While not of the same level of difficulty as the work of Poincaré, it neverthe-
+
+ less encompassed an analytical result: a result in pure mathematics and without
+
+ practical application. For applied mathematicians the problem remained ostensi-
+
+ bly unsolved and their appreciation of Sundman's achievement was correspond-
+ ingly muted (Barrow-Green 2010, p. 195).
+
+ The discussions about the status of Sundman's results raised the question of what
+
+ counts as a "solution" in the context of an applied mathematics problem, as Barrow-
+
+ Green remarks, but the same question can be brought to the context of pure mathemat-
+
+ ics. In the article cited above, published in Science, Birkhoff qualified Sundman works
+ as "remarkable", but he added immediately after that his results "solves" the problem
+
+ & Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:24:27 UTC
+All use subject to https://about.jstor.org/terms
+
+ Stability of trajectories from Poincaré to Birkhoff 337
+
+ of three bodies in a highly artificial sense (Birkhoff 1920a, p. 53).54 In the same 1920
+
+ article, Birkhoff states that the question of stability is beyond the demonstration of
+
+ stability in celestial mechanics. Rather, it is a question of pure mathematics, that of
+
+ determining the general character of the limitations upon the possible variations of the
+ coordinates in dynamical problems (Birkhoff 1920a).
+
+ This brings us to the heart of the qualitative approach. As Birkhoff explained, the
+
+ question of stability must be seen as a subproblem of another, more general problem:
+
+ to describe the global aspect of the set of trajectories in the space of motions. In other
+
+ words, it is necessary to describe the qualitative aspect of trajectories as a whole in
+ order to obtain some information about stability.
+
+ Poincaré had already performed an analysis of the same kind. An example can be
+
+ found in the first parts of "Sur les courbes", when he described the topographic aspect
+ of the whole set of trajectories in a two-dimensional situation to infer results about
+
+ stability. In higher dimensions, we can often find similar approaches in his works about
+
+ celestial mechanics. However, the qualitative definition of stability that intervenes in
+
+ these results - the one that associates it with the confinement of trajectories in some
+ region of space - remains almost implicit. Unstable situations can be identified by
+ means of properly qualitative methods, but the stability definition in Poincaré's works
+
+ is still dependent upon the possibility of writing functions, what characterizes formal
+
+ stability.
+
+ We hope to have shown the role qualitative analysis has played in the constitution
+
+ of dynamical systems as a new domain of research, and also the central place of sta-
+
+ bility in this history. From the moment treatises and popular papers begin to appear,
+
+ such as those published by Birkhoff, we can say a new field of research has emerged.
+ Definitions thus become clearer and, from this new viewpoint, the older definitions
+
+ having similar characteristics to the ones then proposed are considered "implicit". In
+ this sense we can describe Poincaré qualitative stability conception as being merely
+ implicit.
+
+ Only with Levi-Civita's and - above all - Birkhoff's works, both making strong
+ use of Poincaré's methods, does one come to an explicit qualitative definition of sta-
+
+ bility. The issue of periodic solutions provides an excellent example of how things
+ happened. In the integrable case, the elliptic situation is stable. But beyond that case,
+
+ even if the system is very close to an integrable, it is still necessary to distinguish
+ stability from ellipticity. As a consequence, it is also necessary to propose a definition
+ of stability "in the true sense", as quoted in the letter Birkhoff sent to Levi Civita in
+ 1918 (mentioned in Sect. 6.1).
+
+ In the non-integrable case, qualitative stability cannot be studied by means of ana-
+
+ lytical expressions and a direct analysis of the possible types of solution in the neigh-
+ borhood of periodic movements is needed. Hence, it is important to investigate the
+ invariant curves that goes through the fixed point on the transverse section. The new
+
+ criterion of selection, fundamental to research to today, respects the separation between
+
+ 54 Barrow-Green notices that this was not Birkhoff's last pronouncement on the subject, since he devoted
+ a large part of the final chapter of his book Dynamical Systems to Sundman's contribution. The discussion
+
+ we propose here being not that of Sundman's works reception, we do not think it is worth to analyze the
+ commentaries.
+
+ Ô Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:24:27 UTC
+All use subject to https://about.jstor.org/terms
+
+ 338 T. Roque
+
+ elliptic and hyperbolic situations.55 This classification gives room for the description
+
+ of the whole set of trajectories in the space of motions. But the remarkable diversity
+
+ and complexity of structures of trajectories defined by dynamical systems is very dif-
+
+ ficult to grasp, and one of Birkhoff 's main contributions of is to have suggested that a
+
+ theory of transformations can be helpful for this task.
+
+ The context of non-integrable Hamiltonian systems, and even the more general
+
+ systems investigated by Birkhoff is another factor that has led research in the direction
+
+ of a general description of trajectories. The richness, and above all the inexorability
+
+ in the use of qualitative methods could not appear while the search for integrability,
+
+ in the classical meaning of the term, remained the main goal of research. When it is
+
+ possible to calculate and write analytic expressions, the qualitative methods are merely
+
+ auxiliaries. Yet, when those analytical methods prove to be insufficient, it becomes
+
+ necessary to search for new directions and the qualitative approach assumes a central
+ place.
+
+ From his first articles, Birkhoff insisted on the importance of Poincaré's works for an
+
+ inquiry into non-integrable systems. Beyond the studies of integrable systems under-
+
+ taken by Lagrange, a thorough investigation of non-integrable dynamical problems is
+
+ essential for the further progress of research (Birkhoff 1915). And he continued:
+
+ Until now only periodic movements and certain closely allied movements have
+ been treated with any degree of success in such problems, but the final goal of
+
+ dynamics embraces the characterization of all types of movement, and of their
+ interrelation (Birkhoff 1915).
+
+ Here, it is possible to notice his concern with the general study of trajectories in
+
+ relation to the consideration of non-integrable systems. In 1934, Birkhoff reaffirmed
+
+ this connection in an analysis of Poincaré's works on differential equations:
+
+ They [the works of Poincaré] are likely to stand always as the most important
+ works in this field [celestial mechanics]. Lagrange, Jacobi, and other mathema-
+
+ ticians had fastened attention upon integrable cases (...) In the field of celestial
+ mechanics, Laplace and the succeeding theoretical astronomers had been con-
+ tent to use formal series as a means of systematic computation. But Poincaré was
+
+ the first to attack the general question of non-integrable systems of differential
+
+ equations from a purely mathematical point of view (Birkhoff 1934).
+
+ The qualitative approach is thus recognized as being "purely mathematical". In the
+ domain of differential equations, mathematics has to progress beyond the solution of
+
+ specific problems to develop a more general study, which can permit a classification
+ of the different possible types of trajectory. This is the new meaning of "solution"
+
+ assigned to the qualitative treatment of differential equations.56 The field of dynam-
+ ical systems emerges from this conception of what to "solve" a dynamical problem
+
+ 55 Yoccoz (2007) shows that in all cases in which it is possible to understand something about the behavior of
+
+ a set of trajectories, the description ultimately depends on hyperbolicky or quasi-periodicity of trajectories.
+
+ 56 Chenciner (2007) suggests that the possibility of a global qualitative description of trajectories can be
+ seen as a kind of integrability. This means that any system defining a (qualitatively) well-understood space
+
+ of trajectories can be considered as fully integrable.
+
+ Ô Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:24:27 UTC
+All use subject to https://about.jstor.org/terms
+
+ Stability of trajectories from Poincaré to Birkhoff 339
+
+ means, leading to a separation from the traditional domains of differential equations
+ and celestial mechanics.
+
+ Acknowledgments I am grateful to Frédéric Brechenmacher, José Ferreiros, and Marco Panza for having
+ read the first version of this article and made valuable suggestions. Any remaining problems are of my full
+
+ responsibility. The author was partially supported with grants received from FAPERJ (Fundação de Amparo
+
+ à Pesquisa do Estado do Rio de Janeiro) by means of the program Jovem Cientista do Nosso Estado.
+
+ Open Access This article is distributed under the terms of the Creative Commons Attribution Noncom-
+ mercial License which permits any noncommercial use, distribution, and reproduction in any medium,
+ provided the original authors) and source are credited.
+
+ References
+
+ 48(2): 133-147.
+
+ Anderson, K.G. 1994. Poincaré's discovery of homoclinic points. Archive for History of Exact Sciences
+
+ Barrow-Green, J. 1994. Oscar IPs prize competition and the error in Poincaré's memoir on the three body
+
+ problem. Archive for History of Exact Sciences 48: 107-131 .
+
+ Barrow-Green, J. 1997. Poincaré and the Three Body Problem. Providence: American Mathematical Soci-
+
+ ety, London Mathematical Society.
+
+ Barrow-Green, J. 2010. The dramatic episode of Sundman. Historia Mathematica 37:164-203.
+ Birkhoff, G.D. 1912. Quelques théorèmes sur le mouvement des systèmes dynamiques. Bulletin de la
+
+ Société mathématique de France 40:305-323. In Birkhoff (1950), t. 1, 654-672.
+
+ Birkhoff, G.D. 1913. Proof of Poincaré's geometric theorem. Transactions of the American Mathematical
+
+ Society 14:14-22. In Birkhoff (1950), t. 1, 673-681.
+
+ Birkhoff, G.D. 1915. The restricted problem of three bodies. Rendiconti del Circolo Matematico di Palermo
+
+ 39:1-70.
+
+ t. 2, 106-110.
+
+ Birkhoff, G.D. 1917. Dynamical systems with two degrees of freedom. Transactions of the American
+
+ Mathematical Society 18:199-300. In Birkhoff (1950), t. 2, 1-102.
+
+ Birkhoff, G.D. 1920a. Recent advances in dynamics. Science (N.S.) 51(1307):51-55. In Birkhoff (1950),
+
+ Birkhoff, G.D. 1920b. Surface transformations and their dynamical applications. Acta Mathematica 43:1-
+
+ Birkhoff, G.D. 1925. An extension of Poincaré's last geometric theorem. Acta Mathematica 47:297-311.
+
+ 1 19. In Birkhoff (1950), t. 2, 1 1 1-129.
+
+ In Birkhoff (1950), t. 2, 252-266.
+
+ Birkhoff, G.D. 1926a. Sur la signification des équations canoniques de la dynamique. Comptes rendus de
+
+ l'Académie des Sciences 183:516-519. In Birkhoff (1950), t. 2, 279-282.
+
+ Birkhoff, G.D. 1926b. Über gewisse Zentralbewegungen dynamischer système. Ges. d. Wiss. Nachrichten.
+
+ Birkhoff, G.D. 1927a. Dynamical Systems. Providence: American Mathematical Society. Reprinted in 1966
+
+ Birkhoff, G.D. 1927b. Stability and the equations of dynamics. American Journal of Mathematics 49: 1-38.
+
+ In Birkhoff (1950), t. 2, 283-294.
+
+ with additional references by Jürgen Moser.
+
+ In Birkhoff (1950), t. 2, 295-332.
+
+ Birkhoff, G.D. 1934. The work of Poincaré on differential equations. American Mathematical Society
+
+ Bulletin 40:363-366. In Birkhoff (1950), t. 3, 544-547.
+
+ Birkhoff, G.D. 1935. Nouvelles recherches sur les systèmes dynamiques. Memoriae Pont. Acad. Sci. Novi
+
+ Lyncaei 1(3):65-216. In Birkhoff (1950), t. 2, 530-661.
+
+ Birkhoff, G.D. 1950. Collected Mathematical Papers. Providence: American Mathematical Society.
+
+ Reprinted in 1968, New York: Dover.
+
+ Brechenmacher, F. 2007. L'identité algébrique d'une pratique portée par la discussion sur l'équation à l'aide
+ de laquelle on détermine les inégalités séculaires des planètes (1766-1874). Sciences et Techniques en
+ Perspective 1:5-85.
+
+ Cesari, L. 1959. Asymptotic Behavior and Stability Problems in Ordinary Differential Equations. Berlin-
+
+ Göttingen: Springer.
+
+ £i Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:24:27 UTC
+All use subject to https://about.jstor.org/terms
+
+ 340 T. Roque
+
+ et al. (1992), 274-305.
+
+ et al. (1996), 13-33.
+
+ mathématiques 8: 5-65.
+
+ Chabert, J.-L., and A. Dahan-Dalmedico. 1992. Les idées nouvelles de Poincaré. In Dahan-Dalmedico
+
+ Chenciner, A. 2007. De la mécanique céleste à la théorie des systèmes dynamiques, aller et retour: Poincaré
+
+ et la géométrisation de l'espace des phases. In Franceschelli et al. (2007), 13-36.
+
+ Dahan-Dalmedico, A. 1996. Le difficile héritage de Henri Poincaré en systèmes dynamiques. In Greffe
+
+ Dahan-Dalmedico, A., J.-L. Chabert, and K. Chemla, eds. 1992. Chaos et déterminisme. Paris: Seuil.
+
+ Darrigol, O. 2002. Stability and instability in nineteenth-century fluid mechanics. Revue d'histoire des
+
+ Dell'Aglio, L. 1993. Tradizioni di ricerca nella meccanica celeste classica: il problema dei tre corpi in
+
+ Levi-Civita e Sundman. Physis. Rivista Internazionale di Storia della Scienza 30(1): 105-144.
+
+ Dell'Aglio, L., and G. Israel. 1987. 1 temi della stabilità e dell'analisi qualitativa nell'opera di Levi-civita
+
+ et di Volterra. In La Matematica tra le Due guerre mondiali, ed. A. Guerraggio, 125-142. Bologna:
+ Pitagora.
+
+ Dell'Aglio, L., and G. Israel. 1989. La théorie de la stabilité et l'analyse qualitative des équations différenti-
+ elle ordinaires dans les mathématiques italliennes: le point de vue de Tullio Levi-Civita. Cahiers du
+ séminaire d'histoire des mathématiques 10:283-321.
+
+ Franceschelli, S., M. Paty, and T. Roque, eds. 2007. Chaos et Systèmes Dynamiques, éléments pour une
+
+ Gilain, C. 1977. La théorie géométrique des équations différentielles de Poincaré et l'histoire de l'analyse.
+
+ epistemologie. Paris: Hermann.
+
+ Thèse de doctorat, Université de Paris7.
+
+ Gilain, C. 1991. La théorie qualitative de Poincaré et le problème de l'intégration des équations différenti-
+ elles. In La France mathématique. La Société Mathématique de France (1872-1914), éd. H. Gispert,
+ 215-242. Paris: Société Française d'Histoire des Sciences et des Techniques et Société Mathématique
+ de France.
+
+ Grattan-Guinness, I. 1997. The Norton History of the Mathematical Sciences. New York: W.W. Norton &
+
+ Grattan-Guinness, I., and R. Cooke, eds. 2005. Landmark Writings in Western Mathematics (1640-1940).
+
+ Company.
+
+ Amsterdam: Elsevier.
+
+ (1992), 502-524.
+
+ Blanchard, Akademie Verlag.
+
+ 70(2):589-639.
+
+ Gray, J. 1992. Poincaré, topological dynamics, and the stability of the solar system. In Harman and Shapiro
+
+ Greffe, J.-L., G. Heinzmann, and K. Lorenz, eds. 1996. Henri Poincaré: Science et Philosophie. Paris:
+
+ Gutzwiller, M.C. 1998. Moon-Earth-Sun: The oldest three-body problem. Reviews of Modern Physics
+
+ Hadamard, J. 1901. Sur l'itération et les solutions asymptotiques des équations différentielles. Bulletin de
+
+ la Société mathématique de France 29:224-228.
+
+ Harman, P.M., and A.E. Shapiro. 1992. The investigation of difficult things: Essays on Newton and the
+ history of exact sciences in honour ofD. T. Whiteside. Cambridge, UK: Cambridge University Press.
+
+ Hill, G.W. 1878. Researches in the lunar theory. American Journal of Mathematics 1(5): 129-145.
+
+ La Salle, J., and S. Lefschetz. 1961. Stability ofLyapunov's Direct Method. New York: Academic Press.
+ Lagrange, J.L. 1774. Recherches sur les équations séculaires des mouvements des noeuds et des inclin-
+ aisons des orbites des planètes. Mémoires de l'Académie Royale des Sciences de Paris. In Lagrange
+ (1867-1892), t. 6, 635-709.
+
+ Lagrange, J.L. 1781-1782. Théorie des variations séculaires des éléments des planètes. Nouveaux mémoires
+ de l'Académie Royale des Sciences et Belles-Lettres de Berlin. In Lagrange (1867-1892), t. 5, 127-207,
+ 208-344.
+
+ Lagrange, J.L. 1867-1892. Œuvres de Lagrange. Paris: Gauthier- Villars.
+ Lagrange, J.L. 1788. Mécanique analytique. Pans: La Veuve Desaint. Kepnnted m iy»y. ťans: Jacques
+
+ Laplace, P.-S. 1796. Exposition du système du monde. Paris: Impr. du Cercle-Social. In Laplace (1878-
+
+ Laplace, P.-S. 1878-1912. Œuvres complètes de Laplace. Paris: Gauthier- Villars.
+ Laplace, P.-S. 1891-1904. Traité de Mécanique Céleste. Paris: Gauthier- Villars. In Laplace (1878-1912),
+
+ Laskar, J. 1992. La stabilité du système solaire. In Dahan-Dalmedico et al. (1992), 170-21 1.
+
+ Gabay.
+
+ 1912), t. 6.
+
+ t. 1-5.
+
+ £l Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:24:27 UTC
+All use subject to https://about.jstor.org/terms
+
+ Stability of trajectories from Poincaré to Birkhoff 341
+
+ Lattes, S. 1906. Sur les équations fonctionnelles qui définissent une courbe ou une surface invariante par
+
+ une transformation. Annali di Matematica Pura i Applicata 13: 1-138.
+
+ Le Verrier, U.-J. 1856. Annales de l'Observatoire de Paris, vol. 2. Paris: Mallet Bachelet.
+
+ Leine, R. 2010. The historical development of classical stability concepts: Lagrange, Poisson and Lyapunov
+
+ Lejeune-Dirichlet, J.P.G. 1846. Über die Stabilität des gleichgewichts. Journal für die reine und angewandte
+
+ stability. Nonlinear Dynamics 59: 173-182.
+
+ Mathematik 32:85-88.
+
+ Levi-Civita, T. 1901. Sopra alcuni criteri di instabilità. Annali di Matematica Pura i Applicata 5:221-308.
+ Levi-Civita, T. 1920. Sur la régularisation du problème des trois corps. Acta Mathematica 42:99-144.
+
+ Lützen, J. 1984. Joseph Liouville's work on the figures of equilibrium of a rotating mass of fluid. Archive
+
+ for History of Exact Sciences 30(2): 1 13-166.
+
+ Lyapunov, A.M. 1897. Sur l'instabilité de l'équilibre dans certains cas où la fonction de forces n'est pas un
+
+ maximum. Journal des Mathématiques Pures et Appliquées (5e série) 111:81-94.
+
+ Lyapunov, A.M. 1904. Sur la stabilité des figures ellipsoïdales d'équilibre d'un liquide animé d'un mouv-
+
+ ement de rotation. Annales de la Faculté des Sciences de l'Université de Toulouse (2) 6:5-1 16.
+
+ Lyapunov, A.M. 1907. Problème général de la stabilité du mouvement (translated by E. Davaux). Annales
+ de la Faculté des Sciences de l'Université de Toulouse (2) 9: 203-474. Reprinted in 1988, Paris: Jacques
+ Gabay.
+
+ Lyapunov, A.M. 1992. The General Problem of the Stability of Motion. Washington: Taylor & Francis.
+ Mawhin, J. 1994. The centennial legacy of Poincaré and Lyapunov in ordinary differential equations.
+
+ Rendiconti del Circolo Matematico di Palermo (II) 34:9-46.
+
+ Mawhin, J. 1996. The early reception in france of the work of Poincaré and Lyapunov in the qualitative
+
+ theory of differential equations. Philosophia Scientiœ 1(4): 1 19-133.
+
+ Mawhin, J. 2005. Aleksandr Mikhailovich Lyapunov thesis on the stability of motion (1892). In Grattan-
+
+ Guinness and Cooke (2005), (eds.) 664-676.
+
+ Morse, M. 1925. Relations between the critical points of a function of n independent variables. Transactions
+
+ oftheAMS 27:345-396.
+
+ Nabonnand, P. 2000. Les recherches sur l'œuvre de Poincaré. SMF-Gazette 85:33-54.
+
+ Nastasi, P., and R. Tazzioli. eds. 2000. Aspetti scientifici e umani nella corrispondenza di Tullio Levi-Civita
+
+ (1873-1941), n. 12. Palermo: Quaderno PRISTEM.
+
+ Poincaré, H., and G. Mittag-Leffler. 1999. La correspondance entre Henri Poincaré and Gösta Mittag-
+ Leffler, avec en annexe les lettres échangées par Poincaré avec Fredholm, Gyldèn et Phragmén. Basel:
+ Birkhaüser. Published by P. Nabonnand.
+
+ Poincaré, H. 1881. Mémoire sur les courbes définies par une équation différentielle (Ve partie). Journal de
+
+ Mathématiques (3e série) 7:375^22. In Poincaré (1951-1956), 1. 1, 3^4.
+
+ Poincaré, H. 1882. Mémoire sur les courbes définies par une équation différentielle (2e partie). Journal de
+
+ Mathématiques (3e série) 8:251-296. In Poincaré (1951-1956), 1. 1, 44-84.
+
+ Poincaré, H. 1885a. Mémoire sur les courbes définies par une équation différentielle (3e partie). Journal
+
+ de Mathématiques (4e série) 1:167-244. In Poincaré (1951-1956), 1. 1, 90-158.
+
+ Poincaré, H. 1885b. Sur l'équilibre d'une masse fluide animée d'un mouvement de rotation. Acta Mathem-
+
+ atica 7:159-380. In Poincaré (1951-1956), t. 7, 40-140.
+
+ Poincaré, H. 1886. Mémoire sur les courbes définies par une équation différentielle (4e partie). Journal de
+
+ Mathématiques (4e série) 2:151-217. In Poincaré (1951-1956), 1. 1, 167-222.
+
+ Poincaré, H. 1889. Sur le problème des trois corps et les équations de la dynamique avec des notes par
+
+ l'auteur- Mémoire couronné du prix de S.M. le Roi Oscar II. Not published.
+
+ Poincaré, H. 1890. Sur le problème des trois corps et les équations de la dynamique. Acta Mathematica
+
+ 13:1-270. In Poincaré (1951-1956), t. 7, 262-479.
+
+ Poincaré, H. 1892-1899. Méthodes nouvelles de la mécanique céleste. Paris: Gauthier- Villars.
+ Poincaré, H. 1912. Sur un théorème de géométrie. Rendiconti dei circolo matematico di Palermo 33:375-
+
+ 407. In Poincaré (1951-1956), t. 6, 499-538.
+
+ Poincaré, H. 1951-1956. Œuvres d'Henri Poincaré. Ed. Paul Appel et al. Paris: Gauthier- Villars.
+
+ Poisson, S.D. 1808. Mémoire sur les inégalités séculaires des moyens mouvements des planètes. Journal
+
+ de l'école Polytechnique 15(1): 1-56.
+
+ Robadey, A. 2006. Différentes modalités de travail sur le général dans les recherches de Poincaré sur les
+
+ systèmes dynamiques. Thèse de doctorat, Université Paris7.
+
+ Roque, T. 2007. Les enjeux du qualitatif dans la définition d'un système dynamique. In Franceschelli et al.
+
+ (2007), 37-66.
+
+ ö Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:24:27 UTC
+All use subject to https://about.jstor.org/terms
+
+ Smirnov, V.l., and A.P. Youchkevitch. 1987. Correspondence de A. M. Liapunov avec H. Poincaré. Cahiers
+
+ du Séminaire d'Histoire des Mathématiques 8:1-18. www.numdam.org.
+
+ Sundman, K.F. 1907. Recherches sur le problème des trois corps. Acta Societatis Scientiarum Fennicae
+
+ 342 T. Roque
+
+ Sundman, K.F. 1909. Nouvelles recherches sur le problème des trois corps. Acta Societatis Scientiarum
+
+ 34:1-43.
+
+ Fennicae 35:1-27 '.
+
+ University Press.
+
+ Paris: Jacques Gabay.
+
+ Sundman, K.F. 1912. Mémoire sur le problème des trois corps. Acta Mathematica 36:105-179.
+
+ Taton, R., C. Wilson, and M. Hoskin. 2009. The general history of astronomy, vol. 2: Planetary astronomy
+
+ from the renaissance to the rise of astrophysics. Cambridge: Cambridge University Press.
+
+ Thomson, W., and P.G. Tait. 1879-1883. Treatise on Natural Philosophy (2nd ed). Cambridge: Cambridge
+
+ Tisserand, F. 1889-1896. Traité de Mécanique Céleste. Paris: Gauthier- Villars et fils. Reprinted in 1990,
+
+ Whittaker, E.T. 1917. A treatise on the analytical dynamics of particles and rigid bodies, 2nd edn. Cam-
+
+ bridge: Cambridge University Press.
+
+ Wise, N. 2005. William Thomson and Peter Guthrie Tait, Treatise on natural philosophy, 1st edn (1867).
+
+ In Grattan-Guinness and Cooke (2005), 521-533.
+
+ Yoccoz, J.C. 2007. Hyperbolické et quasipériodicité. In Franceschelli et al. (2007), 145-156.
+
+ Ô Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:24:27 UTC
+All use subject to https://about.jstor.org/terms
+
+

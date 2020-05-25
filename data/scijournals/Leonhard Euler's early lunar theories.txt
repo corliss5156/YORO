@@ -1,0 +1,5208 @@
+ 
+
+ 
+
+ 
+
+ 
+
+Leonhard Euler's early lunar theories 1725–1752: Part 2: developing the methods,
+
+1730–1744
+Author(s): Andreas Verdun
+Source: Archive for History of Exact Sciences, Vol. 67, No. 5 (September 2013), pp. 477-551
+Published by: Springer
+Stable URL: https://www.jstor.org/stable/23479154
+Accessed: 19-05-2020 11:57 UTC
+
+JSTOR is a not-for-profit service that helps scholars, researchers, and students discover, use, and build upon a wide
+
+range of content in a trusted digital archive. We use information technology and tools to increase productivity and
+
+facilitate new forms of scholarship. For more information about JSTOR, please contact support@jstor.org.
+
+Your use of the JSTOR archive indicates your acceptance of the Terms & Conditions of Use, available at
+
+https://about.jstor.org/terms
+
+Springer is collaborating with JSTOR to digitize, preserve and extend access to Archive for
+History of Exact Sciences
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 11:57:43 UTC
+All use subject to https://about.jstor.org/terms
+
+ Arch. Hist. Exact Sci. (2013) 67:477-551
+ DOI 10.1007/s00407-013-0118-0
+
+ Leonhard Euler's early lunar theories 1725-1752
+
+ Part 2: developing the methods, 1730-1744
+
+ Andreas Verdun
+
+ Received: 24 February 2013 / Published online: 4 April 2013
+ © Springer-Verlag Berlin Heidelberg 2013
+
+ Abstract The analysis of unpublished manuscripts and of the published textbook
+ on mechanics written between about 1730 and 1744 by Euler reveals the invention,
+ application, and establishment of important physical and mathematical principles and
+
+ procedures. They became central ingredients of an "embryonic" lunar theory that he
+
+ developed in 1744/1745. The increasing use of equations of motion, although still para
+
+ metrized by length, became a standard procedure. The principle of the transference
+ of forces was established to set up such equations. Trigonometric series expansions
+ together with the method of undetermined coefficients were introduced to solve these
+
+ equations approximatively. These insights constitute the milestones achieved in this
+
+ phase of research, which thus may be characterized as "developing the methods". The
+
+ documents reveal the problems Euler was confronted with when setting up the equa
+ tions of motion. They show why and where he was forced to introduce trigonometric
+
+ functions and their series expansions into lunar theory. Furthermore, they prove Euler's
+
+ early recognition and formulation of the variability of the orbital elements by differ
+
+ ential equations, which he previously anticipated with the concept of the osculating
+ ellipse. One may conclude that by 1744 almost all components needed for a technically
+ mature and successful lunar theory were available to Euler.
+
+ Communicated by: Ν. Guicciardini.
+
+ In memoriam Curtis A. Wilson (1921-2012).
+
+ A. Verdun
+
+ Bemoulli-Euler-Zentrum, University of Basel, Universitâtsbibliothek,
+ Schônbeinstrasse 18/20,4056 Basel, Switzerland
+ e-mail: bez@unibas.ch
+
+ A. Verdun (Ε)
+ Astronomical Institute, University of Bern, Sidlerstrasse 5, 3012 Bern, Switzerland
+ e-mail: andreas.verdun@aiub.unibe.ch
+
+ Ô Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 11:57:43 UTC
+All use subject to https://about.jstor.org/terms
+
+ 478 A. Verdun
+
+ 1 Introduction
+
+ In the first part of this trilogy of papers devoted to the development of Euler's lunar
+ theories (cf. Verdun 2012), I analyzed unpublished manuscripts and notebook records
+
+ written by him between 1725 and 1730 and containing his earliest tentative approaches
+
+ to lunar theory. I presented evidence that Euler learned the basic empirical facts about
+ the Moon's motion from the book Astronomia philolaica of 1645 by Ismael Boul
+ liau (1605-1694) and from the books by David Gregory (1659-1708) and Charles
+ Leadbetter (1681-1744). Euler was most probably motivated to engage with lunar
+
+ theory by his careful study of the statements on the motion of the lunar apses in the
+ three editions of the Principia published by Isaac Newton (1643-1727). The doc
+ uments we have reveal that he struggled considerably with different approaches to
+ find a method or strategy by means of which a sound lunar theory could be con
+ structed. Most of his early methods were not successful, because he formulated his
+
+ very first thoughts on the motion of the Moon in terms of central forces, radius of
+
+ the osculating circle or curvature radius, Huygens' centrifugal principle, de Moivre's
+ and Keill's theorems, and of multiple force centers (represented by the Earth and the
+
+ Sun) acting simultaneously on the Moon. I found that Euler, in that early phase of the
+
+ development of his research, did not yet realize the importance neither of the useful
+
+ ness of the equations of motion nor of the need to parametrize them by time. His first
+
+ approaches were dominated by the problem of central force motion, which at that time
+
+ (about 1710) played an important role in the proof of the inverse problem of central
+ forces by Johann I Bernoulli (1667-1748) and Jacob Hermann (1678-1733). Pierre
+ Varignon (1654-1722) published a series of papers on that topic using Leibnizian
+ calculus between 1703 and 1712. When Euler was transforming Newton's Principia
+ into analytical language resulting in what we now call rational mechanics, he was
+ following a tradition of mechanical and mathematical methods prepared by Bernoulli,
+ Hermann, and Varignon. The fact that Euler's first steps emerged in this context may
+ be appraised as quite unspectacular with respect to innovative ideas. His approaches
+ may be judged as inadequate to solve the problem of multiple central forces, on which
+ he based his first theoretical constituents to cope with the lunar problem. Neverthe
+ less, his first trials and ideas contained the nuclei which some time later led him
+
+ to the concept of the osculating ellipse and to the principle of the transference of
+
+ forces. I argued that his grappling with multiple force centers and associated curva
+
+ ture radii led him to the concept of the osculating ellipse. The conflict how to deal
+ with multiple force centers actually concealed a fundamental problem, namely the
+ choice of an appropriate (origin of) reference frame, that Euler disentangled some
+
+ time later in his "Mechanica" by the discovery of what he called "genuina methodus"
+ (genuine method), but what I call the principle of the transference of forces. This
+
+ principle turned out to be one of the most important steps towards a mature lunar
+
+ theory which he took between 1730 and 1744.1 will present in this part of my trilogy
+
+ both the path that has taken him to this principle and to the use of the equations of
+
+ motion (although still parametrized by length). By the use of equations of motion he
+
+ was, for the first time, confronted with approximate solutions in the form of series
+ expansions.
+
+ Ô Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 11:57:43 UTC
+All use subject to https://about.jstor.org/terms
+
+ Leonhard Euler's early lunar theories 1725-1752 479
+
+ The manuscripts presented in this part have not been analyzed before in the con
+
+ text of the development of Euler's lunar theory. A first approximate analysis was pre
+
+ sented in Verdun (2010). That study showed the potential inherent in these documents.
+ Although some of the manuscripts are unfinished or only fragmentarily preserved,
+
+ they may be used to put together the pieces for the development of Euler's early lunar
+
+ theories (Verdun 2010). The reconstruction presented in this paper, although incom
+ plete, will reveal the development of the principal methods invented and applied by
+
+ Euler to cope with the lunar problem. A general overview of Euler's unpublished and
+ published documents related to lunar theory is given in my first article (cf. Verdun
+ 2012).
+
+ Let me also repeat some caveats of my first part that are valid for this part as
+ well. For this part, four manuscripts and Euler's first textbook on mechanics are rel
+
+ evant. It is impossible to date the manuscripts exactly to within, e.g., 1 or 2 years.
+
+ Consequently, the order I present them here is mainly for didactic reasons. Not every
+
+ derivation of mathematical formulae and not every explanation and comment by Euler
+ can be reproduced here. This will be the goal of a critical edition of these works,
+ which is also being prepared.1 Figures (sketches) are reproduced as exact copies of
+
+ Euler's original drawings, including all inconsistencies and inaccuracies (e.g., faultily
+ drawn tangential, parallel or perpendicular lines). When reconstructing intermedi
+ ate results and formulae which Euler did not derive explicitly, I often will refer to
+ Volume I, Chapter V, of his "Mechanica" (cf. Euler 1736), which Euler finished in
+ 1734 and which contains much of the results developed by him already until that
+ time.
+
+ The structure and organization of this second part is similar to the first one. In
+ Sect. 2,1 will start with short descriptions of the documents and with my attempt to
+
+ date them as exactly as possible due to indications that were not yet considered up to
+
+ now. In Sect. 3,1 will summarize and review those parts of them, which are relevant
+
+ both for the time interval under consideration and for the development of Euler's lunar
+ theories. The whole body of these summaries may be regarded as a reconstruction
+ of the development of Euler's methods invented and used for lunar theory during the
+ relevant period of time. This reconstruction serves for the final assessment of Euler's
+
+ achievements given in Sect. 4. It is followed by the conclusions given in Sect. 5. As in
+
+ the first part, I relegate more detailed descriptions of the documents into the Appendix
+ to relieve the main body of this article from the more technical and mathematical
+ contents of these documents.
+
+ 2 Description and dating of the documents
+
+ There are four unpublished manuscripts by Euler which were written most proba
+ bly between 1730 and 1744, when he established his position at the Academy of St.
+
+ Petersburg and then moved on to become a member of the Berlin Academy in 1741
+
+ 1 It is part of my granted project to edit and publish Euler's manuscripts and notebook records related to
+ lunar theory as an online edition in the context of the "Euler Heritage Project" planned by the Bernoulli
+ Euler-Center in Basel, Switzerland.
+
+ •S Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 11:57:43 UTC
+All use subject to https://about.jstor.org/terms
+
+ 480 A. Verdun
+
+ (cf. Fellmann 2007). They are preserved in the Archives of the Russian Academy
+ of Science in St. Petersburg and referred to here as Ms 167, Ms271, Ms273, and
+ Ms 276. In addition, early in this time period, Euler composed his two-volume text
+ book on mechanics, which was published in 1736. At least one chapter of the first
+ volume—the shortcut of which is Ε15—is directly related to lunar theory. Due to
+
+ the uncertainty in the exact dating of these documents, I will present them (as I have
+ already done in my first paper) in a hypothetical, didactically motivated order thus
+ emphasizing the evolutionary character of the development of Euler's methods used
+
+ for lunar theory.
+
+ 2.1 Euler's textbook manuscript Ms 167 on Mechanics
+
+ This document is listed as number 167 in the catalogue of Euler's unpublished manu
+ scripts (see Kopelevic et al. 1962, pp. 58-60 ). It consists of 99 folios written on both
+ sides in a carefully executed clean copy style handwriting. Kopelevic et al. (1962)
+ dates this manuscript to the [early] 1730s, perhaps because it may be regarded as a
+ draft version of his "Mechanicd' (E15, cf. Euler 1736), which was finished by 1734.
+ It is entitled "Mechanica seu scientia motus" (Mechanics or the science of motion)
+ and must have been written before Ms 271 and before the final version of the first
+
+ volume of his "Mechanica sive motus scientia analy tice exposita" (Mechanics, or the
+ analytical exposition of the science of motion), because it contains neither the lunar
+ problem (as presented in Chapter V in Ε 15, cf. Euler 1736) nor the principle of the
+ transference of forces (which will be addressed below). This manuscript, intended
+ to be composed in at least two parts, is only fragmentarily preserved, because only
+ the first part exists and several folios from it were lost in the course of time. The
+ whole manuscript was published in 1965 by Gleb K. Mikhailov (cf. Mikhailov 1965,
+ pp. [93]—224). It is not identical with the published version, but differs considerably
+
+ with respect to its content and structure, which is why the editors of Kopelevic et al.
+ (1962) called it a "variant" version of the "Mechanica". Part I "De motu a potentiis
+ producto" (On the motion produced by forces) contains three sections: Section I "De
+ motu a potentiis in punctum liberum agentibus producto" (On the motion produced
+
+ by forces acting on a free pointlike body) deals with the free motion of point masses.
+
+ It contains four chapters. Section II "De motu a potentiis in punctum non liberum
+ agentibus producto" (On the motion produced by forces acting on a pointlike body
+ which is not free) treats the constrained motion of point masses and consists of three
+
+ chapters. Section III "De motu corporum rigidorum a potentiis utcunque sollicitato
+
+ rum" (On the motion of rigid bodies driven by any forces) is devoted to the free motion
+
+ of rigid bodies and contains only one chapter, thus indicating the incompleteness of
+
+ this manuscript. This section is of special importance due to the fact that it contains
+
+ the very first derivation of the law of angular momentum for motions of rigid bodies
+ around space fixed axes. This derivation corresponds to Euler's records in his third
+
+ notebook Ms399, fol. 75v-76r, written between 1736 and 1740 (cf. Verdun 2010, pp.
+ 497-500), in his "Scientia navalis" (cf. Ε 110, Enestrom 1910, p. 30f, finished in 1738,
+ cf. Fellmann and Mikhailov 1998, letter no. 21, p. 264, dated December 20, 1738),
+ and in his "Dissertation sur la meilleure construction du cabestan" (cf. Ε 78, Enestrôm
+
+ <2) Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 11:57:43 UTC
+All use subject to https://about.jstor.org/terms
+
+ Leonhard Euler's early lunar theories 1725-1752
+
+ 481
+
+ 1910, p. 19f, presented to the St. Petersburg Academy on Juli 3, 1738, cf. Kopelevic
+ et al. 1962, No. 246, p. 78).
+
+ 2.2 Euler's unpublished manuscript Ms 271
+
+ This document is registered as number 271 in the catalogue of Euler's unpublished
+ manuscripts (cf. Kopeleviî et al. 1962, p. 85). It consists of three folios written on
+ both sides in a carefully executed clean copy style handwriting. It is entitled "De
+ Motu Lunae in Ellipsin" (On the motion of the Moon in an ellipsis) and contains 16
+ paragraphs consisting of text, formulae, and one figure. There are some corrections,
+
+ overwritings, and marginal notes by Euler. The mathematical formulae are integrated
+
+ into the text and are written in the old-fashioned geometric-synthetic Newtonian style
+
+ without any use of the calculus. It may be considered an unfinished first approach by
+ Euler to construct lunar tables using elementary physical and geometrical methods.
+
+ This is probably why Kopelevic et al. (1962) dated the origin of this manuscript to the
+
+ years 1725-1726, but also perhaps due to its characteristic style (ductus litterarum)
+
+ of Euler's early handwriting. There is evidence given by the notebooks Ms 397 and
+ Ms 398 (cf. Kopelevic et al. 1962, pp. 114-115), that this manuscript could also have
+ been written a few years later (between 1727-1729). It is, indeed, quite possible,
+ that it was written even around 1730 due to the fact that it contains the very early
+
+ formulation of the Principle of the transference of forces, as it will be presented
+ below. This assumption is supported by the following argument: In Proposition 97 of
+ his "Mechanica", wherein Euler formulated this principle, he wrote (cf. Euler 1736,
+ Prop. 97, Schol. 1):
+
+ [...] Interim tamen certum est, si huius propositionis solutio posset evolvi ex
+ eaque tabula confici, hoc in astronomia maximam habiturum esse utilitatem.
+
+ ([...] Yet meanwhile it is certain that, if the solution of this proposition can be
+ evolved and from that a table constructed, then it would be of the most use in
+
+ astronomy.)
+
+ Ms 271 is, in fact, Euler's first trial to construct lunar tables using the principle of
+
+ the transference of forces. He introduced his treatise by stating:
+
+ §.1. In pracedenti dissertatione, qua motus lunae tabulas exhibui, orbitam lunae
+ pro circulo habui, et ex hoc tabulas computavi. Cum autem orbita lunae multo
+ propius ad ellipsin accedat, statui hie motum lunae in ellipsi examini subjicere,
+
+ et inde tabulas supputare, in quibus omnes motus lunae anomaliae, quae hactenus
+ sunt observatae, continerentur, quatenus eae non ab aberratione orbitae ab ellipsi
+
+ oriuntur, qui error hinc ortus valde exiguus est, et de quo alibi tractabo.
+
+ (In the preceding treatise, in which I have given the tables of the Moon's motion,
+
+ I have supposed the Moon's orbit to be a circle and calculated the tables on that
+
+ assumption. But because the lunar orbit resembles much more an ellipse, I have
+
+ here investigated the Moon's motion in an ellipse and computed tables, which
+ contain all irregularities of the Moon's motion that have been observed until
+
+ now, as far as they are not caused by the deviation of the orbit from an ellipse;
+
+ the error emerging from that is very small, and I will treat it elsewhere.)
+
+ Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 11:57:43 UTC
+All use subject to https://about.jstor.org/terms
+
+ 482
+
+ A. Verdun
+
+ The "preceding treatise" Euler mentions in this statement, in which he computed
+ lunar tables on the basis of a circular lunar orbit, is not preserved. Furthermore,
+
+ it becomes not clear from this statement whether Euler planned to give new lunar
+ tables but did not calculate them (for any reasons or because he did not finish his
+
+ dissertation), or whether he in fact constructed lunar tables due to the recipe derived
+ in this treatise from the principle of the transference of forces but that these tables
+ have also gone lost (there are no such tables known or preserved). From the above
+ statement of the "Mechanica" one may assume that the former case happened, which
+
+ means, that he did not calculated lunar tables on the basis of an elliptic lunar orbit
+
+ incorporating the principle of the transference of forces (thus considering the action
+ of the Sun) before the time he was composing and publishing his "Mechanicathat
+ is by 1734-1736.
+
+ 2.3 Euler's unpublished manuscript Ms 273
+
+ This document is registered as number 273 in the catalogue of Euler's unpublished
+ manuscripts (see Kopelevic et al. 1962, p. 86). It is only fragmentarily preserved
+ and consists of 11 folios written on both sides. Due to the missing title and due
+ to its structure, dividing it into propositions, corollaries, and scholia, it might have
+ been part of a larger treatise on celestial mechanics or lunar theory. It is pep
+ pered with mathematical derivations and formulae presented in a text book style
+ manner. What stands out are the varying characteristics of Euler's hand writing,
+ which implies that this manuscript presumably was not written at one and the same
+ time, but its composition was taken up anew time and again. In the margins, Euler
+ referred to 13 Figures which all got lost. The manuscript was dated by Kopelevic
+ et al. (1962) to the years 1727-1730. It is most likely the earliest document in
+ which Euler clearly formulated the principle of the transference of forces. This is
+ why it was most probably written after Ms 167 and after Ms 271, and not before
+ 1730.
+
+ 2.4 Euler's published textbook on Mechanics Ε 15
+
+ Euler's textbook on mechanics, the so-called "first mechanics", was published in two
+ volumes in 1736 (cf. Ε15 and Ε16 in Enestrôm 1910, p. 4). Only the first volume is
+
+ relevant for the development of the lunar theory (cf. Euler 1736). It is his first mon
+
+ umental work that made him widely famous in the scientific community. Although a
+
+ milestone in the history of mechanics, this book has never been analyzed and appre
+ ciated in depth from a modern historiographical point of view. There are only two
+ translations, one in German by Jakob Philipp Wolfers (cf. Wolfers 1848), and one in
+
+ English newly made by Ian Bruce (cf. http://www.math.dartmouth.edu/euler/). Euler
+
+ finished the first volume already during the year 1734. In a letter written probably in
+
+ November 1734 to Daniel Bernoulli, Euler announced that he had completed the first
+ volume of his "Mechanica
+
+ Ô Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 11:57:43 UTC
+All use subject to https://about.jstor.org/terms
+
+ Leonhard Euler's early lunar theories 1725-1752
+
+ 483
+
+ Von meiner Mechanica ist der erste Tomus auch ganz fertig, habe aber wenig
+ Hoffnung, dass man denselben allhier drucken werde. 2
+
+ (The first volume of my Mechanica is also quite done, but I have only little hope
+ that it will be printed here.)
+
+ Actually, Euler probably planned to write a textbook on celestial mechanics or lunar
+ theory (cf. Fellmann 1983, p. 65), but only Chapter V addresses clearly these topics
+ and thus gives evidence for this assumption, although the preliminary chapters are
+ relevant to such a program with regard to their concepts and foundations as well.
+ Nevertheless, Chapter V may be considered Euler's first published investigations into
+
+ lunar theory.
+
+ 2.5 Euler's unpublished manuscript Ms 276
+
+ This document is registered as number 276 in the catalogue of Euler's unpub
+ lished manuscripts (see Kopelevic et al. 1962, p. 86), where its composition is
+ dated to the 1740s. This fragmentarily preserved manuscript is entitled "De Motu
+ Luna;" (On the motion of the Moon) and consists of four double-side written
+ folios. The text is written in a carefully executed clean copy style handwriting.
+ There are no references to figures, but it is most likely that Euler intended to
+ illustrate this manuscript. Due to its content and state of the used methods one
+ may conclude that is was written between 1738 and 1743. The text is carefully
+ written out in full length, from which one may assume that this manuscript was
+ ready for publication. Unfortunately, the main body of the manuscript is lost. It
+ would have contained most probably Euler's first elaborated lunar theory. Evi
+ dence for this assumption is given by the mathematical procedure developed by
+ Euler in the beginning of the manuscript which has been advanced to such a high
+ degree that it would have led to a first approximate solution of the lunar prob
+ lem.
+
+ 3 Reconstruction of the development of Euler's methods used for lunar theory
+
+ Similar to part 1 (cf. Verdun 2012), this reconstruction is given by way of summaries
+
+ of the contents of Euler's documents, which are presented in more detail in the Appen
+
+ dix to this part. These documents disclose Euler's efforts to treat the Moon's motion
+ as a three-body-problem, defined by the Earth-Moon-Sun system, and as a dynam
+ ical problem. On the one hand, this approach led Euler to equations of motion that
+
+ demanded new mathematical methods for their solution. Most important are the central
+ issues from Ms 167: his considerations on relative forces and "scalas" of forces, inter
+
+ preted as "variational curves". They probably set the theoretical framework which
+
+ enabled him, in Ms 271, to formulate the principle of the transference of forces. On
+
+ the other hand, his approaches in Ms 167 are still linked to geometric-kinematic con
+ siderations. Euler derived the equation of motion for a pointlike body moving in a
+
+ 2 Cited according to Enestrôm (1906), p. 139.
+
+ Ô Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 11:57:43 UTC
+All use subject to https://about.jstor.org/terms
+
+ 484 A. Verdun
+
+ straight line in the notation of Leibnizian calculus parametrized by time, which he
+ immediately re-parametrized by length, apparently still believing in the advantage of
+
+ finding the geometric nature of the curve described by the Moon much easier. We
+ observe Euler cutting this cord gradually in Ms 273, in which he established the prin
+
+ ciple of the transference of forces definitely and stating it explicitly. In addition, he
+
+ became aware of the significance of terms in the equation of motion depending recip
+ rocally on the cube of the distance between Sun and Moon. The treatment of this
+ problem became an important issue in Ms 276. Ms 273 also proves Euler's virtuosic
+ mastering of the two-body-problem in all its facets, including the explanation of the
+
+ motion of the lunar apses by a force law which is inversely proportional but not to
+ the square of the distance. In this manuscript, Euler became fully aware of the vari
+ ation of the orbital parameters due to the perturbational effects caused by the Sun.
+
+ To solve the differential equations for the motion of the Moon that take into account
+ the simultaneous actions of Sun and Earth, he was forced to introduce a novelty:
+ the approximation by series expansions, allowing him to integrate the equations term
+ by term. Euler published most of these achievements in Chapter V of his textbook
+ on mechanics, the shortcut of which is Ε15. It deals mainly with the mobile ellipse
+
+ rotating around the central body located in one focus, and Euler's attempts to treat it
+ as an osculating ellipse whose characteristic parameters are variable with time. His
+ achievements in Ε15 are dominated by the definite establishment of the principle
+ of the transference of forces, that became an important cornerstone for his further
+
+ developments. Using this principle, he also derived the motion of the nodes of the
+ lunar orbit probably for the first time. The last manuscript, Ms 276, Euler wrote most
+
+ probably before 1744. It contains nearly all ingredients needed for a successful and
+ technically mature lunar theory. Here, he clearly recognized that approximations by
+ series expansions are unavoidable. Moreover, the determination of the inverse cube of
+ the distance between the Sun and the Moon in terms of the distances between the Earth
+
+ and the Sun and between the Earth and the Moon as well as the geocentric angular
+ distance between the Sun and the Moon involves a formula for the inverse cube of
+
+ the Sun's distance that has to be put into the power of —3/2. The solution implied the
+ expansion of the resulting formula into an infinite series that contains the cosines of
+
+ angular arguments defined by the geocentric angular distance between the Sun and the
+
+ Moon. At that point series expansions by trigonometric functions found its entrance
+
+ into celestial mechanics, at least with Euler. At the same time, he began to recognize
+
+ the importance of the angular arguments for the interpretation of the perturbational
+
+ effects. Last but not least, the manuscript contains Euler's very first application of
+
+ the then well known method of undetermined coefficients for solving the differential
+
+ equations. Up until 1744, there remained only one important step leading to the final
+
+ breakthrough that opened the door to a powerful lunar theory. This will be the topic
+
+ of part 3.
+
+ 3.1 Summary of Ms 167
+
+ Springer
+
+ Inspired by Jacob Hermann's Phoronomia (cf. Hermann 1716), Euler introduced the
+
+ concepts "scala celeritatum" and "scala potentiarum", which express the graphical
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 11:57:43 UTC
+All use subject to https://about.jstor.org/terms
+
+ Leonhard Euler's early lunar theories 1725-1752 485
+
+ representation of the point-to-point dependency of a parameter (such as the velocity
+ or the force) from another one (e.g., from the distance between two bodies or the
+ distance covered by a body). From the way Euler used and applied these notions
+ in the presented examples and problems one may suppose that the "scala" does not
+ represent just one but any curve or family of curves, similar to "variational curves". If
+
+ this assumption holds, as some problems treated by Euler in this manuscript suggest,
+ he might also have asked the following question within that context: how can the
+ whole system of forces acting in the system Sun-Earth-Moon be transformed in such
+
+ a way that there are no forces left acting on the Earth? In other words, is there any
+
+ transformation of forces operating in such a way as to keep the Earth at rest with respect
+
+ to inertial space? The consequence of such kind of transformation would imply that
+ the Moon's motion could be described as observed from the Earth considered to be
+
+ at rest. Euler treated the problem concerning the relative motions of bodies already
+ in his second notebook Ms 398 (cf. Verdun 2012, Chapter D.2). The solution of this
+ question involves the choice of an appropriate reference frame and the concept of
+ relative motion (cf. Maltese 2000). This approach is probably motivated by Euler's
+ definitions and considerations on absolute and relative forces, which appear neither
+ in Newton's nor in Hermann's work (cf. Jammer 1957; Westfall 1971; Kutschmann
+ 1983).
+
+ Before starting with some "variational-type" problems, Euler introduced the equa
+
+ tion of motion (or "Newton's" second law of motion) as formulated by Hermann in
+
+ 1716 (cf. Hermann 1716, p. 57). It seems that Euler in that time assumed that the equa
+
+ tion of motion is applicable only for the case of rectilinear motions. He substituted—
+
+ and this is even more striking—the time element with the path or line element, thus
+
+ deriving the equation of motion parametrized by length. This kind of parametrization
+ is more convenient if the geometry of the curve covered by a body has to be figured
+
+ out. This is why Euler kept this parametrization in his "Mechanica" (cf. Euler 1736,
+ Prop. 20) as well as in his further investigations until about 1744. The integration of
+ the equation of motion (parametrized by length) produces a factor 2, which Euler (e.g.
+ in his "Mechanica") kept in the equation of motion by choosing the physical units in
+ such a way that this factor would not cancel out (cf. Euler 1736, Prop. 25 and Expla
+ nation 15). Then Euler treated some problems which are closely related to what we
+ call today "calculus of variations" in terms of the concepts of "scala potentiarum" and
+ "scala temporum". This type of problems concerns the question to find all possible
+ "scalas potentiarum" causing the body either to cover a given space in a given time
+ interval or to reach a given position with a given velocity. We observe here Euler's
+ acquaintance with a then quite new but steadily growing branch of mechanics and
+ applied mathematics which later became known as "variational calculus". However,
+ its relation to Euler's Ms 167 and to his "Mechanica" has not been recognized and
+
+ analyzed yet by historians of science (cf. Goldstine 1980; Fraser 1994).
+
+ Having introduced the terms "normal" and "tangential" forces (thus following
+ Johann Bernoulli and Varignon, cf. Bernoulli 1712; Varignon 1703a,b,c, 1704, 1705,
+ 1707a,b, 1712) and using variants of the equation of motion, Euler treated the two
+
+ body-problem in the usual way as he had already done in the previous manuscripts in
+
+ terms of curvature radius and Huygens' theorem (cf. Verdun 2012). It is remarkable
+
+ that, in this context, the concept "central force" does not appear at all. Euler further
+
+ â Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 11:57:43 UTC
+All use subject to https://about.jstor.org/terms
+
+ 486 A. Verdun
+
+ derived Keill's theorem. Finally, he clearly recognized that this kind of approach is
+
+ limited and not suitable for solving the three-body-problem, i.e., in cases where the tra
+
+ jectories become more complicated. In retrospect, this may be seen as a first important
+
+ insight by Euler. It may be the reason for his insisting in trying to solve the problem
+ of two or multiple force centers. This problem he now tackled in a new approach
+
+ by reducing the forces acting on the considered body into the resulting normal and
+ tangential force components. With that he was able to derive an integral equation
+ determining the nature of the body's trajectory in terms only of the central forces and
+
+ the distances of the test body to the force centers. Moreover, he found an equation
+
+ defining the resulting (instantaneous) curvature radius expressed by those terms. This
+ fact proves the central role that the curvature radius plays in Euler's theory of that
+
+ time. Finally, he considered two cases, where one of the force centers is infinitely far
+ away. This situation approximates the Earth-Moon-Sun system, where the Sun may
+
+ be regarded as infinitely further away from the Moon than the Earth.
+
+ 3.2 Summary of Ms 271
+
+ The main goal of this manuscript is to develop a formula or recipe useable for easy
+
+ construction of lunar tables. Euler based his derivation on the equation of motion as a
+
+ function of the curvature radius. In this form it was given by Varignon (1707a,b) and
+
+ can easily be derived from the equation of motion, parametrized by length, as presented
+
+ in Eulers Ms 167 as well as in his "Mechanica". Euler started by determining the forces
+
+ acting on the Moon by the Sun and the Earth, using the principle of the transference of
+
+ forces, without stating it explicitly. Here, we observe Euler applying this principle for
+ the very first time. Evidence for its novelty is given by some cancellations, insertions,
+
+ and marginal notes added by Euler, which indicate his uncertainty as to how to apply
+
+ this principle correctly. He found an equation for the Moon's velocity in terms of a set
+
+ of "orbital parameters", as we would call them today. This equation makes transparent
+
+ the dependencies of the relevant parameters: the first term depends only on the Earth's
+
+ attraction, the second and third on the Sun's gravitational force. In addition, the second
+
+ term depends on the Moon's position in its orbit and on the Earth's distance from the
+
+ Sun, while the third term depends on the lunar aspect, namely on the angle between
+
+ Moon and Sun. Euler recognized that the excess of the terms depending on the Sun
+
+ over the terms not depending on it is always reciprocal to the cube of the Sun's distance
+
+ from the Earth. This is why the Moon's velocity produced by the Sun is much smaller
+
+ than that generated by the Earth. In the 1740s, it turned out that the structure of such
+
+ equations became important for the correct interpretation of the perturbational terms
+ represented by the relevant angular arguments and its linear combinations. Euler then
+
+ simplified this equation by approximations and made it applicable for the numerical
+ calculation of lunar tables.
+
+ This fragmentarily preserved manuscript contains six propositions, in which Euler
+
+ launched a first serious and comprehensive attack to master the lunar problem. In
+
+ 3.3 Summary of Ms 273
+
+ Ô Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 11:57:43 UTC
+All use subject to https://about.jstor.org/terms
+
+ Leonhard Euler's early lunar theories 1725-1752 487
+
+ Proposition I he determined the Keplerian motion (represented by orbital elements
+
+ characterizing the two-body-problem) starting from a dynamic relation that replaces
+
+ the equation of motion. The derivations and corollaries are thoroughly worked out
+ and contain all standard aspects characterizing the problem. Proposition II deals with
+ the "mobile orbit", i.e., the problem of the apsidal motion of the Moon's orbit, which
+
+ Euler solved using the results gained from the first proposition, combined with the
+ substitution of the Moon's distance y from the Earth by y + ây. Again, this propo
+ sition is followed by several corollaries, in which different aspects and results are
+ discussed. In one of them Euler generalized the law of gravitation by replacing the
+ exponent 2 by an arbitrary number η and discussed different cases for the values
+ η > 2 and η < 2. Both cases produce an apsidal motion, decreasing and increasing
+ in either case. A similar discussion became important in the late 1740s, when the
+ problem of the lunar apse developed into a touchstone for the inverse square law of
+
+ gravitation. Proposition III is innovative with respect to two aspects: 1. The statement
+ of the problem (Invenire Vires Solis ad Luna; motum perturbandum) contains for the
+
+ very first time in Euler's work on celestial mechanics the word "perturbation", and
+ 2. Euler puts Newton's Proposition XXV into a rule, thus stating "expressis verbis"
+ the principle of the transference of forces. Using this principle Euler was able to
+ confirm a result already found by Newton (cf. Newton 1687, Lib. Ill, Prop. XXV).
+ What Euler in his Proposition actually demonstrated was the essential seed hidden
+ in what Newton showed in a rather intransparent way in the Principia. In Propo
+ sition IV Euler analyzed the effects of the Earth's force component acting on the
+ Moon resulting in equations representing the change or variation of orbital elements
+
+ (Euler called them "incrementum", without assigning them any symbols). This kind
+
+ of differential equations, relating the change of orbital parameters to any other dif
+
+ ferentials of orbital elements, never before appeared in celestial mechanics. It marks
+
+ the beginning of perturbation theory in terms of orbital elements and their variations.
+
+ However, these "increments" of orbital parameters still do not depend on the time
+ element, but on certain distance elements. As will be shown in part 3 of this study,
+ Euler's recognition of the importance of the dependency of the equation of motion
+ and of the variation of orbital parameters on the time element means an essential part
+
+ of his breakthrough not only in lunar theory but in celestial mechanics and mechanics
+
+ in general. Proposition V deals with the investigation of the effect of an additional
+ force acting on the Moon by the Sun, thus explaining qualitatively the form of the
+ lunar orbit and its motion. We observe here Euler's geometric interpretation of the
+ theoretical results gained by his new "perturbational approach", which led him to
+
+ qualitatively correct conclusions. This interplay became a cornerstone of general per
+
+ turbation theory. Finally, in Proposition VI, Euler derived differential equations for
+ the motion of the Moon considering the simultaneous actions of Sun and Earth. To
+
+ solve them, he again introduced a novelty that coined celestial mechanics for the next
+ three hundred years: approximations by series expansions. Euler was forced to use
+
+ such an approach to be able to integrate the equations term by term. As will be shown
+
+ below in Euler's manuscript Ms 276, he combined this approach with his development
+
+ of trigonometric series, thus gaining one of the most powerful methods introduced in
+ celestial mechanics.
+
+ ft Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 11:57:43 UTC
+All use subject to https://about.jstor.org/terms
+
+ 488 A. Verdun
+
+ 3.4 Summary of topics in Ε 15 related to lunar theory
+
+ Most of the "mechanical" terms Euler defined in the "explanations" of his "Mechan
+ icawhich are also related to lunar theory, were already mentioned and discussed in
+
+ the manuscripts previously presented in this and the first part (cf. Verdun 2012). They
+
+ concern, in particular, 1. the introduction and definition of concepts and technical terms
+ as, e.g. absolute and relative motion, various "scalas", and special forces (absolute,
+ relative, normal, tangential, centripetal), and 2. Euler's derivation of the equation of
+ motion (Newton's second law of motion), parametrized by time and by length. Some
+ of them were addressed in his manuscript Ms 167 (see above). It is, however, most
+ important to note, that Euler—during the time interval until about 1744—used the
+ equation of motion always in one dimension and parametrized by length. The struc
+
+ ture of its derivation is visualized in Verdun (2010), Fig. 2.33. It is striking that Euler
+ herein did not refer to Newton nor to Hermann. The difference between Hermann's
+
+ (cf. Hermann 1716, p. 57) and Euler's equation of motion (cf. Euler 1736, Prop. 20,
+ § 155) consists in Euler's constant of proportionality, expressed by the number n, that
+ "depends neither on the [size of the] force, nor on the element of the time, nor on
+
+ the quantity of matter." The integration of this equation of motion, parametrized by
+
+ length, generates a factor 2, which Euler kept in the equation by choosing the units
+ of mass and force in such a way that η — 1/2 (cf. Euler 1736, Explanation 15 and
+ Scholia). In Ms 167 he did not fix this number yet. Propositions 20,25 and 26, together
+ with the accompanied corollaries and scholia, as well as the explanations 15 and 16
+ in Euler's "Mechanica" were of fundamental importance for his lunar theories at that
+
+ time. However, the central ideas related to planetary and lunar theory that Euler pub
+ lished in that time are presented in Chapter V concerning the curvilinear motion of
+ free points acted on by absolute forces of any kind (De motu puncti curvilineo libero
+
+ a quibuscunque potentiis absolutis sollicitati) of his first opus magnum, which is also
+ the most voluminous chapter of the "Mechanica". It contains results that are important
+
+ for planetary theory, which may be used for and applied to lunar theory as well, e.g.
+
+ the definition of tangential and normal force components, of the curvature radius, and
+
+ the derivation of the theorems of de Moivre and Keill (cf. Euler 1736, Prop. 74, and
+ Ms 180, Ms 397, and Ms 398 in Verdun 2012; see also Moivre 1717; Keill 1708).
+
+ One of the central concepts Euler introduced into celestial mechanics in Ε15 is
+
+ the "osculating ellipse", which is of crucial importance particularly for lunar theory.
+
+ His definition of this term differs from Newton's: to explain the motion of the lunar
+
+ apse, Newton introduced a "moving" ellipse, i.e., an ellipse rotating around the central
+ body's focus (cf. Newton 1687, Lib. I, Sec. IX). Euler, on the other hand, considered
+
+ the parameters defining the ellipse to be subject of variations (cf. Euler 1736, Prop.
+ 83, Schol. 2, already cited in Verdun 2012). Moreover, he already sketched ways
+ to approach the three-body-problem (cf. Newton 1687, Lib. I, Prop. XVII, Coroll.
+ 3 and 4; Lib. I, Prop. LXVI).3 However, Euler formulated the problem in a way that
+
+ matches the real situation of the Moon's motion as close as possible; If the centripetal
+
+ force does not disagree much with the ratio of the inverse square with the distances,
+
+ 3 I thank Professor Niccolô Guicciardini, University of Bergamo, Italy, for bringing these references to my
+ attention.
+
+ ί} Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 11:57:43 UTC
+All use subject to https://about.jstor.org/terms
+
+ Leonhard Euler's early lunar theories 1725-1752 489
+
+ Fig. 1 Boulliau's figure
+ illustrating the scalene cone as a
+ model for circular and uniform
+
+ planetary motion (Source:
+ ETHZ)
+
+ one has to determine the motion of the ellipse, the continual change of its form, and
+
+ the motion of the body following this variable ellipse (cf. Euler 1736, Prop. 84).
+ The determination of the osculating ellipse demands, according to Euler, not only
+ the knowledge of the nature of the curve, but also of the body's velocity and of the
+ centripetal force as well (cf. Euler 1736, Prop. 84, Schol. 1):
+
+ The ellipse determined in this way deserves to be called the osculating curve of
+
+ the ellipse from the likeness of the circles of osculation, by which the curvatures
+
+ of lines are measured. Truly this consideration is not purely geometrical, for by
+ finding the osculating ellipse, besides the nature of the curve, it is also necessary
+
+ to know the speed of the body and the centripetal force, (translated by Ian Bruce)
+
+ This statement proves Euler's understanding of the problem involved with the concept
+
+ of the osculating ellipse: Given the resulting force causing a certain state of motion,
+
+ one has to determine the parameters defining the osculating ellipse for each instant of
+ time (cf. Euler 1736, Prop. 84, Schol. 2, already cited in Verdun 2012). In this respect,
+
+ the notion "osculating ellipse" is an innovative element that may not to be found in
+
+ Newton (or anywhere else). It is an original idea by Euler and has the meaning as it is
+ still used today (in terms of "osculating orbital elements").
+
+ One of the central issues of Verdun 2012 was to show the importance of the concepts
+
+ associated with the "curvature radius". Euler's transition from this term to the notion
+
+ of an "osculating ellipse" might have been motivated by Boulliau's model of planetary
+
+ motion, which most probably was studied by Euler very carefully (cf. Boulliau 1645,
+ Lib. I., Cap. XV, pp. 29-38). Using this model Boulliau tried to reduce the non-circular
+ and non-uniform motions of the planets to circular and uniform motions. For that
+
+ purpose he considered a scalene cone ABC, a plane section of which through the axis
+ AI perpendicular to the plane of the circular base, whose trace is BC, is illustrated in
+ Fig. 1. This cone consists of an infinite number of circles centered on the axis AI with
+
+ radii linearly decreasing from I to A (an example of such a circle in upright projection
+ is indicated in Fig. 1 with VOT). Let EK be the trace of the cutting plane, which is
+ perpendicular to ABC, representing the major axis of the planet's elliptic orbit, the
+
+ empty focus of which being in M. The cone is supposed to be rotating around its axis
+ AI with a given angular velocity ω, thus defining the orbital velocity by ω · r, where
+ r is the radius of the circle at any position on the axis AI. The planet's motion in
+ the elliptic orbit EK is now considered to be composed of all instantaneous circular
+
+ Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 11:57:43 UTC
+All use subject to https://about.jstor.org/terms
+
+ 490 A. Verdun
+
+ motions between Ε and Κ (cf. Wilson 1970, pp. 112-113; Wilson 1989, pp. 172-173.).
+ These circles may thus be interpreted as "osculating circles".
+
+ Euler's introduction of the osculating ellipse was mainly motivated by his insights
+
+ gained in Ms 273 concerning the variation of orbital parameters. If it is true that these
+
+ parameters are changing continuously in time, then the resulting curve described by
+
+ the body may become very complicated and a solution of the problem will only
+ approximatively be possible. Therefore, in order to get out of this difficulty, Euler
+
+ tried to find methods which reverse the problem. The reason for the variability of the
+
+ orbital parameters are the multiple force centers being either at rest or in motion. So,
+
+ Euler tried to reduce the problem by considering the motion around the common center
+
+ of gravity, assuming first that the individual forces are proportional to the distances of
+ the body from these forces (cf. Euler 1736, Prop. 85). Then he concluded (cf. Euler
+ 1736, Prop. 85, Schol. 2):
+
+ If the centers of forces are attracting in some other ratio besides the simple ratio
+
+ of the distances, a reduction of this kind to a single central position of the forces
+
+ cannot be had in a straightforward manner, and I can hardly calculate the motion
+
+ of the body, nor indeed can hardly anything be determined about the motion.
+
+ Therefore, in these cases, it is necessary to flee to approximations, which are set
+ up in different ways according to the various conditions. And on this account,
+ Newton was unable to determine the true motion of the moon, which arises from
+
+ two attractions, but he tried only to describe it as nearest as possible. To do this,
+
+ however, it is necessary both to give this problem the most singular consideration
+
+ and to apply the inverse method, according to which one has to determine the
+
+ attracting forces from the curve that the body describes. On this account, we
+ will explain in the following what tools can be put in place, when we are to
+ investigate the force acting as the unknown in the inverse order. Therefore, as
+ we are progressing through this discussion, which can be established in two
+ ways. Firstly, we take besides the curve described also the direction of the forces
+
+ acting at individual points as known, and from these quantities the forces acting,
+
+ and the motion of the body itself is to be found. In the other way, by considering
+
+ the curve and the motion of the body on that curve is taken as given, from which
+
+ it is required to extract the force acting, (translation by Ian Bruce, modified by
+ AV)
+
+ Using this strategy, Euler derives the centripetal force causing the body to move in
+ a mobile orbit, i.e., a rotating ellipse (cf. Euler 1736, Prop. 89 and Schol. 1, already
+ cited in Verdun 2012). This situation is illustrated in Fig. 2. While the body M' is
+
+ moving in the ellipse A'M'Β'', this ellipse is rotating around the central body C being
+
+ in its focus with a given angular velocity. After a given time interval will the ellipse
+
+ be situated in AMB, while the body will be located in M. The principal ideas to solve
+ this problem may be found in Ms 397 (cf. Verdun 2012). Euler mentioned, that this
+
+ approach—already used by Newton (cf. Guicciardini 1999, Chap. 3.6, pp. 60-65)—
+
+ is nevertheless insufficient to describe the real motion of the lunar apses adequately
+ (cf. Euler 1736, Prop. 89, Schol. 2):
+
+ Ô Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 11:57:43 UTC
+All use subject to https://about.jstor.org/terms
+
+ Leonhard Euler's early lunar theories 1725-1752 491
+
+ Fig. 2 Euler's figure in his
+ "Mechanica" illustrating
+ Proposition 89 (Source: ECHO)
+
+ f..Newton has explored this problem in the Principia, Book I, in the whole of
+
+ Section IX, and he applied that theory to determine the motion of the apsidal line
+ of the Moon's orbit. But this examination is applied with less accuracy to the
+
+ Moon, since the force acting on the Moon is not directed to a certain fixed point,
+
+ as we have put here, but to a continuously moving point. Therefore we will take
+ pains, after having explained remaining relevant matters associated with that
+
+ topic, to set up other more suitable propositions, which can be transferred to the
+ motion of the Moon, (translation by Ian Bruce, modified by AV)
+
+ This is why Euler tried to describe the motion of the apsidal line by using variant
+
+ centripetal forces which differ from the inverse square law, as he had already done
+ so in Ms 273, Prop. II. He discusses centripetal forces that are, e.g., proportional to
+ V +C/y , where V = f2/y2 and y denotes the distance between the resulting force
+
+ center and the Moon (cf. Euler 1736, Prop. 90 and 91). However, this approach of one
+ single centripetal force turned out not to be convenient in the case of the Earth-Sun
+
+ Moon system. Therefore, Euler reversed the problem again (see Fig. 3) and derived
+ the force components Ρ and Q causing the body M (Moon) to move freely in any
+ given curve AMB rotating around the force center C (Earth), where Ρ is acting along
+ MC according to the inverse square law, and Q is acting (along the Sun's direction
+ MP) normal to an arbitrarily defined reference line PCD through C. Euler remarks,
+ that the resulting formulae may be considerably simplified if the orbit of M differs not
+
+ much from an ellipse (cf. Euler 1736, Prop. 94 and Schol. 1):
+
+ These formulae for the curve of the ellipse can be made simpler in various ways,
+
+ if the curve in which the body is moving is approximately circular. And in this
+
+ case it is of some use in the motion of the Moon to be theoretically defined. For
+ the Earth is put at rest at C and the Sun on the line CP perpendicular at C is
+
+ considered equally as being at rest; with which put in place and with these forces
+
+ compared both with the forces of the sun and the earth, the synodal motion of the
+
+ Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 11:57:43 UTC
+All use subject to https://about.jstor.org/terms
+
+ 492 A. Verdun
+
+ Fig. 3 Euler's figure in his
+ "Mechanica" illustrating
+ Proposition 94 (Source: ECHO)
+
+ Moon is elicited for some position of the apsidal line and likewise the motion of
+
+ the apsidal line, which only differs slightly from the true motion of the Moon,
+ (translation by Ian Bruce, modified by AV)
+
+ He continued approaching to the main problem (cf. Euler 1736, Prop. 94 and
+ Schol. 2):
+
+ This proposition certainly appears of greater extent than the above, in which
+ all the force was directed towards the center of rotation of the orbit; indeed the
+
+ former is included with the force Q vanishing. Yet it cannot account perfectly
+
+ for the explanation of the Moon's motion because one term of the force Ρ varies
+
+ inversely with the cube of the distance MC. Because of this we have to consider
+ other orbits [besides rotating ellipses], which appear wider and agree more with
+
+ the physics questions. Of this kind are motions of orbits along certain curves
+
+ which happen in such a way that the orbit is always parallel to itself, which on
+ contemplation deserve to be preferred from others, since the forces acting are
+
+ both easier to find and simpler to express by formulas. This is why the following
+ theorem is needed, (translation by Ian Bruce, modified by AV)
+
+ This theorem concerns the relative motion of the body M with respect to the center
+ C: The body M is moving along the curve AM, by some force, around the point C,
+ and in addition both the body M and the point C are acted on by an equal force in the
+
+ same direction; consequently, the relative motion of the body M with respect to the
+ point C, or the motion of the body M such as is seen from C, and likewise, will be
+ such as if this new force is not to be added (cf. Euler 1736, Prop. 95). The proof is
+
+ straightforward.
+
+ In the preceding propositions and statements, we observe Euler preparing a new
+
+ strategy, which he will fully develop in Proposition 97. He motivated it by the following
+ proposition (cf. Euler 1736, Prop. 96, and Fig. 4):
+
+ Let the body M be revolving around the center of force L at rest in the
+ curve BM\ to determine the force causing the body to move in the same orbit
+
+ â Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 11:57:43 UTC
+All use subject to https://about.jstor.org/terms
+
+ while it is following the curve AL in such a way that it is always parallel to
+ itself.
+
+ Leonhard Euler's early lunar theories 1725-1752 493
+
+ Fig. 4 Euler's figure in his
+ "Mechanica" illustrating
+ Proposition 96 (Source: ECHO)
+
+ Euler's proof of this proposition is based on the previous one and on the transformation
+
+ of the force components into a new set of components, the characterizing parameters of
+
+ which allow the motion along the curve AL. In the corollaries following this proposition
+ Euler discusses the cases where the curves AL and BM are assumed to be circles and
+
+ ellipses. In particular, Corollary 3 deals with the situation supposed by John Machin
+ (1680-1751), published in the appendix of the English edition of Newton's Principia
+ (cf. Machin 1729). Euler claims, however, that this approach is not sufficient enough
+ for an accurate lunar theory and proposes another "genuine" method (cf. Euler 1736,
+ Prop. 96, Schol. 2):
+
+ I have therefore especially reported on this Proposition, because in an appendix
+ to the new edition of Newton's Principia in English, the most distinguished
+ Machin asserts that the motion of the Moon can be considered as in an ellipse,
+ the transverse axis of which shall be in the ratio of 2:1 to the conjugate axis
+ made around the center of the ellipse, while meanwhile with that ellipse itself
+ moving parallel to the periphery of a circle, on which it progresses freely, as I
+
+ have explained in Cor. 3. For my part, I do not deny that this motion is extremely
+ similar to the motion that the Moon can show, but I would doubt very much
+ that it was an exact ratio. Moreover in the following proposition I have decided
+ to determine, what needs to be indicated to determine the motion of the Moon.
+
+ Even if indeed this proposition pertains to astronomy, yet it is assumed that the
+ genuine method reported here can be used to examine fundamental questions of
+
+ this kind that are to be resolved, (translation by Ian Bruce, modified by AV)
+
+ What Euler here calls a "genuine method" is the principle of the transference of forces,
+
+ which he formulated in Proposition 97 (cf. Euler 1736, Prop. 97, and Fig. 5) and which
+ he introduced here by stating the following problem:
+
+ With the Sun at rest at S and with the Earth Τ moving around it uniformly in
+ the circle Τ D while the Moon L is attracted both to the Earth Τ as to the Sun
+
+ â Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 11:57:43 UTC
+All use subject to https://about.jstor.org/terms
+
+ S in the inverse square of the distances; with which put in place it is required to
+ determine the motion of the Moon, such as can be seen from the Earth Τ.
+
+ Then Euler explains clearly the very principle that he had prepared and applied
+
+ already in Ms271 and Ms273 (cf. Euler 1736, Prop. 97, pp. 333—334):
+
+ Ab his igitur viribus lunam sollicitantibus, qualis motus producatur, est investi
+
+ gandum. At quia lunae motus, qualis a spectatore in terra constituto observatur,
+ definiri debet, terra tanquam quiescens est consideranda; id quod fit, dum toti
+
+ systemati motus ei, quern terra habet, aequalis et contrarius imprimitur, simulque
+
+ sollicitationes, quas terra a sole recipit, contrario modo in lunam et solem cogi
+ tatione transferuntur.
+
+ 494 A. Verdun
+
+ Fig. 5 Euler's figure in his
+ "Mechanica" illustrating
+ Proposition 97 (Source: ECHO)
+
+ (Therefore it is to be investigated what kind of motion is being produced by these
+
+ forces that are acting on the Moon. But since this motion has to be determined in
+ such a way as it is observed from the Earth, then the Earth has to be considered
+
+ at rest. This is done by assigning the Earth's motion to the whole system equally
+ and in opposite direction, together with transferring fictitiously the accelera
+ tions impressed on the Earth by the Sun onto the Moon and the Sun in reverse
+
+ manner.)
+
+ To the procedure explaining this principle Euler added a Scholion in which he addmits
+
+ that the proposition still contains some serious simplifications (cf. Euler 1736, Prop.
+ 97, Schol. 1):
+
+ The equations which hence are deduced for the motion of the Moon, become so
+
+ complex that from them neither its velocity nor its orbit nor the position of the
+ apsides and their motion can be exactly determined. Moreover truly from the
+
+ same calculation by neglecting very small quantities in a certain way approximate
+
+ conclusions for the use of astronomy can be drawn, as the great Newton did in
+ Book III of the Principia. But even if the calculation would not suffer from
+ this inconvenience, yet this proposition would not describe the Moon's motion
+
+ without a great deal of rigor. For we have put the Sun forward again as being
+
+ Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 11:57:43 UTC
+All use subject to https://about.jstor.org/terms
+
+ Leonhard Euler's early lunar theories 1725-1752 495
+
+ at rest, which in a short while disagrees with the truth; then we considered the
+
+ Earth moving in a circle, and the Moon's orbit placed in the same plane with the
+
+ Earth's orbit, which likewise they have otherwise. Yet meanwhile it is certain, if
+
+ the solution of this proposition can evolve and from that a table constructed, then
+
+ it would be of the most use in astronomy, (translation by Ian Bruce, modified by
+ AV)
+
+ As already mentioned above, this last statement by Euler concerning the construc
+
+ tion of lunar tables probably refers to his unsuccessful trial in this direction made in
+ Ms 271. In the corollaries, he discusses some appropriate approximations and some
+ consequences deduced from them. Finally, Propositions 102 and 103 contain Euler's
+ first approach to derive the motion of the nodes of the lunar orbit, i.e., the line of
+ intersection between the orbital planes of the Earth (ecliptic) and the Moon (which
+ are inclined by about 5° to each other). For that purpose, he introduced in Proposi
+ tions 98-101 three force components acting in the three-dimensional space, which
+ we would call Frenet frame today, and discussed the motion of a body driven by
+
+ these forces. Actually, Euler was forced by this problem, namely to find the orbit's
+ position in space ("situs orbitae in universum cognoscatur"), to consider three force
+
+ components that are linearly independent from each other. This kind of generaliza
+ tion from two to three spatial dimensions appears in this context probably for the
+ first time. It became an important issue in the 1740s, when Euler formulated the
+ equations of motion in three dimensions exactly due to this reason as well (to be
+ discussed in part 3). Using the results derived from the previous propositions, Euler
+
+ studied in Proposition 103 the motion of the nodes in the case of forces being directly
+
+ proportional to the distances between the force center A and the body on which the
+ force components are acting. He found a retrograde motion of the nodes even in
+ this case and judges the results by comparing them with the real situation and with
+ observations:
+
+ This proposition seems to have no use in astronomy, because the force; by which
+ the body is attracted to the fixed point A, we assumed proportional to the dis
+ tance, whereas for celestial bodies that have in place a force that is inversely
+ proportional to the square of the distance. Yet this [proposition] is extremely
+ useful, if the orbits of bodies do not depart much from circles; for if the orbit
+ becomes more and more circular it depends not on the way how the centripetal
+ force depends on the distance. On account of which, when the orbits of planets
+
+ do not depart greatly with circular orbits, this proposition is able to be adapted
+
+ successfully to their motions [...] In lunar motion the motion of the nodes mer
+
+ its special attention, because it is retrograde according to our determination. It
+
+ is observed from the opposition of the preceding node that the nodes differ by
+
+ nearly 43'. Thus we may conclude that
+
+ 180(m - 1) 43
+
+ = — or
+
+ m 60
+
+ 43 , 1
+
+ m~ + 10,757 ~ + 250'
+
+ From which the force is known a posteriori to be always pulling the Moon
+
+ towards the plane of the ecliptic, (translation by Ian Bruce, modified by AV)
+
+ •β Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 11:57:43 UTC
+All use subject to https://about.jstor.org/terms
+
+ 496 A. Verdun
+
+ 3.5 Summary of Ms 276
+
+ In the introduction of this unfinished manuscript, Euler considered the Newtonian
+ hypothesis, i.e., the inverse square law of attraction, as being proved both by obser
+
+ vation and by the conclusions taken from this hypothesis, although this principle of
+
+ attraction is burdened with difficulties. The first one concerns physics and demands a
+ mechanical explanation of the mutual attraction of celestial bodies. The second one
+
+ concerns the determination of the motions due to this attracting force, which—in the
+
+ case of the Moon's motion—is so difficult, that nothing else than approximations could
+
+ be done. The power of calculus seemed for Euler not able to provide confident rules to
+
+ describe such kind of motion sufficiently. It would not have been possible to accom
+
+ plish anything about the lunar motion, if one would not have called the approximation
+
+ for help. Nevertheless, the Moon's motion makes—Euler remarked—the approxima
+ tion easier and more accurate, because it does not much deviate from a circle. This is
+
+ why it becomes possible to treat initially the Moon's motion in such a way, as if it is
+
+ driven only by the Earth, but then one has also to take into account the Sun's force.
+ This is the strategy Euler is following to find out how much could be achieved by
+ means of the state-of-the-art calculus of that time.
+
+ Euler treated first the two-body-problem of the Earth-Moon system, then (in the
+ remainder) the three-body-problem of the Sun-Earth-Moon system. The former is
+
+ carried out along the line of thought as presented in the corresponding chapters of
+ Euler's "MechanicaLet us skip this part and turn to the latter problem. From the
+ beginning Euler applied the principle of the transference of forces thus proving that
+
+ this principle had been fully established by him already at that time. This task implies
+ the determination of the inverse cube of the distance between the Sun and the Moon
+
+ in terms of the distances between the Earth and the Sun and between the Earth and
+
+ the Moon as well as the geocentric angular distance between the Sun and the Moon.
+ In doing so, the crucial point turns out to be the fact, that the resulting formula for
+
+ the inverse cube has to be put into the power of —3/2. At this point Euler was forced,
+
+ probably for the first time in celestial mechanics, to expand the resulting formula
+ into an infinite series. Moreover, this series involves the cosines of the angular argu
+
+ ment, which means that we observe here the very first occurrence of trigonometric
+
+ series expansions to solve the lunar problem approximately. This represents a novel
+
+ approach in celestial mechanics. Euler became fully aware of the difficulty inherent in
+
+ the development of an accurate lunar theory and recognized the meaning and impor
+
+ tance of the use of trigonometric series expansions and their angular arguments for the
+
+ approximate solution of the differential equations. He nevertheless derived trigono
+
+ metric series for the resulting tangential and normal force components acting on the
+
+ Moon, which he used to formulate the differential equation of the Moon's velocity.
+
+ This differential equation is, consequently, also a trigonometric series consisting of
+
+ sine and cosine terms, which Euler now was able to integrate easily term by term. At
+
+ that point he might have recognized the advantage of the use of trigonometric series,
+
+ which are easy to integrate and therefore became so important for celestial mechanics.
+
+ In the remaining folios of the manuscript, Euler tried to prepare for integration the
+ equation of motion due to the normal force. For this purpose he used the solution
+
+ gained from the two-body-problem and "adjusted" or "corrected" it in such a way as
+
+ <0 Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 11:57:43 UTC
+All use subject to https://about.jstor.org/terms
+
+ Leonhard Euler's early lunar theories 1725-1752 497
+
+ to consider the additional action of the Sun. The results already obtained gave him
+ the idea about the structure of the equation and thus for a general ansatz containing
+
+ coefficients still to be determined. We observe here Euler's very first use of the method
+
+ of undetermined coefficients for solving differential equations in lunar theory. He used
+
+ this simple but robust method throughout his works concerned with celestial mechanics
+
+ (cf. Verdun 2010). Unfortunately, the manuscript is only fragmentarily preserved and
+
+ ends abrupt with Euler's records dealing with the solution of the problem by using
+
+ this method. Therefore it is not quite clear whether he already applied the method of
+ undetermined coefficients in full length and whether he finally was able to solve the
+
+ differential equation successfully.
+
+ 4 Assessment of the development of Euler's methods invented
+
+ and used for lunar theory
+
+ The study and careful analysis of Euler's documents written between 1730 and 1744
+
+ allow us to infer to some crucial steps that happened when Euler indeed was concerned
+ mainly with the development of mechanics. During this period he developed and
+ introduced some fundamental methods in the context of lunar theory, that developed
+
+ into standard procedures in the course of his further development of celestial mechanics
+
+ in general.
+
+ 4.1 Equations of motion
+
+ Although formulated already by Jacob Hermann in terms of Leibnizian notation of
+ calculus, Euler derived the equation of motion (also called "Newton's second law of
+ motion") in his "Mechanica" from scratch without any reference to Newton. Remark
+
+ able and important is the fact that he used the equation of motion not parametrized
+ by time but by length. The change of the parameter is documented already in Euler's
+ Ms 167 and in his "Mechanica" (cf. Euler 1736, Prop. 20, Schol. 3). Euler used the
+ equation of motion indeed in different forms, but always with the length or distance
+
+ as independent or "free" parameter (cf. Euler 1736, Prop. 25, Explanation 15, Schol.
+ 4 and 5). The reason for this is clear: the central issue for Euler at that time was to
+
+ figure out the nature of the curve a body is following due to any forces acting on
+ it. The "nature of the curve" means its analytic representation in the sense of a well
+
+ defined geometric trajectory that could be described in mathematically closed form.
+
+ For that purpose Euler regarded a parametrization by length as most advantageous
+
+ and most straightforward. In the 1730s, the focus of interest was still more put on the
+
+ kinematic aspects, i.e., the geometric shapes of orbits and trajectories and the temporal
+
+ behavior of a body's motion, than on the dynamics. Moreover, this is why the equation
+
+ of motion is always applied in one dimension, i.e., according to the length or distance
+
+ as independent parameter. This did not change even when Euler discussed the Moon's
+ motion in three dimensional space in Chapter V of his "MechanicaThe problem
+ there instead was reduced to the one dimensional case. The central issue emerging
+
+ during the considered time period, however, was the steadily increasing use of the
+
+ equation of motion, although in variants, to solve problems in mechanics and celestial
+
+ <£) Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 11:57:43 UTC
+All use subject to https://about.jstor.org/terms
+
+ 498 A. Verdun
+
+ mechanics, which finally progressed into a standard procedure. It will be shown in
+
+ part 3, that this development was a necessary prerequisite for the breakthrough that
+
+ happened around 1744. At that time Euler recognized the importance of the para
+ metrization by time as well as the formulation of the equations of motion in three
+ dimensions, thus describing the body's motion in space from the dynamical point of
+ view. The goal was no longer the determination of "the nature of the curve", but of
+
+ the body's position in three dimensional space with respect to any reference frame at
+
+ any given instant of time due to the forces acting at that epoch on the body.
+
+ 4.2 Principle of the transference of forces
+
+ This principle is one of the major achievements by Euler made during the considered
+
+ period of time. It states that if the motion of a body M has to be described as seen from
+
+ a body Τ at rest, then all forces acting on body Τ have to be transferred in reverse
+ direction onto the body M. Today, this seems to be obvious and naturally. But the
+ analysis of Euler's documents showed that a real process was needed to achieve this
+
+ insight. There might have been many reasons that led to the recognition and formulation
+ of this principle. According to Euler's unpublished manuscripts presented above, it
+ was most probably motivated by his previous considerations on absolute and relative
+ forces, on absolute and relative motions, and on the "variational problems" treated
+ in terms of the different "scalas" that had already been introduced by Hermann. The
+
+ real problem underlying these concepts is associated with the definition and choice
+
+ of an appropriate reference frame (cf. Bertoloni Meli 1993). That this principle is far
+
+ from being self-evident is proved by the fact that even in 1747, when Daniel Bernoulli
+ (1700-1782) wrote his Memoir on the theory of Saturn and Jupiter, with which he
+
+ competed for the prize of the Paris Academy, he either did not know anything about
+ this principle or he did not understand it when Euler wrote him about it (cf. Verdun
+
+ 2010, Chap. C.2). The documents analyzed above reveal, in addition, that this principle
+
+ has been established as standard procedure during the focused period of time by Euler.
+
+ 4.3 Approximations by series expansions
+
+ Actually, there was just one reason to introduce series expansions into lunar theory,
+
+ namely to make differential equations integrable. Due to the practical fact that series
+
+ can not be expanded infinitely, the substitution by series means that the exact solu
+
+ tion can only be approximated. This is the price one has to pay for the convenience
+
+ that the series can be integrated term by term. This is why approximations by series
+ expansions became a standard tool in celestial mechanics. In Ms273 we observe its
+
+ very first appearance in this context. However, in Ms 276, this approach turned out to
+
+ be important and successful not only in lunar theory, but in celestial mechanics at all.
+
+ In this manuscript Euler expressed the distance ζ between the Sun and the Moon in
+
+ terms of trigonometric functions. He recognized that the term 1 /z3, which previously
+
+ arose from the principle of the transference of force, induces an elliptic integral that
+ can be solved only approximatively by series expansions. At this point trigonomet
+
+ ric series found their way into celestial mechanics and, by their own rights, became
+
+ "£) Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 11:57:43 UTC
+All use subject to https://about.jstor.org/terms
+
+ Leonhard Euler's early lunar theories 1725-1752 499
+
+ important for analytic perturbation theory through their potential to "explain" pertur
+
+ bational effects by certain terms and its angular arguments. The history evolving from
+
+ the different approaches by Euler and others to solve elliptic integrals approximately
+ by using trigonometric series expansions was comprehensively described by Heinrich
+ Burkhardt (1861-1914), cf. Burkhardt 1908, Chap. III.
+
+ 4.4 Trigonometric functions and the importance of their arguments
+
+ The successive use and establishment of the equations of motion induced the demand
+
+ for mathematical methods to solve, although approximately, the differential equations
+
+ resulting from them. Progress in mathematical analysis became synonym with progress
+
+ in the development of integration methods. In the course of Euler's works on mechan
+
+ ics and celestial mechanics, two constituents of such methods turned out to be very
+
+ prolific, efficient, and robust: trigonometric functions combined with the method of
+
+ undetermined coefficients. Although trigonometric functions were introduced already
+ by Newton in 1669, and although the method of undetermined coefficients used to
+
+ solve linear differential equations with constant coefficients may probably be traced
+ back to Leibniz (cf. Katz 1987, pp. 312-313), it was Euler's achievement to place
+ them at the foundation in mathematical analysis and to standardize and establish them
+
+ as parts of powerful integration methods. Let us address the latter aspect in the next
+ section and focus first on the former.
+
+ Even until the late 1730s trigonometric functions such as sine, cosine, or tangent
+ were considered not as functions in the modern sense, but as certain ratios of lines
+ inscribed into a circle of given radius (cf. Katz 1987, pp. 315-316):
+
+ [...] though sine tables existed in abundance, the sine was not considered as
+
+ a "function", even to the extent that logarithms or exponentials were. It was
+ thought of geometrically as a certain line in a circle of a given radius, one did
+ not, in general, draw a graph of such a function so there was no question of
+ finding tangent lines or areas.
+
+ Therefore, it is not astonishing that a true calculus of such functions could not emerge
+ for some time. The definition in the sense of function theory and, consequently, the
+
+ analytic treatment in the context of the calculus was initiated only by Euler in two
+ treatises, which he presented to the Petersburg Academy on December 4, 1738, and
+ on March 30, 1739. In the Memoir entitled De novo genere oscillationum (On a new
+
+ type of oscillation) he deals with the oscillation in the motion of the tides (cf. Euler
+ 1750a, Ε126). The Memoir entitled Methodus facilis computandi angulorum sinus ac
+
+ tangentes tam naturales quam artificiales (An easy method for computing the natural
+
+ and artificial sines and tangents of angles) is devoted to give procedures useable to
+
+ calculate easily trigonometric functions by series expansions (cf. Euler 1750b, Ε128).
+
+ The preparatory works and earliest records associated with these two memoirs may be
+ found in Euler's third notebook Ms 399, fol. 140r-148v, 157v-159r, and 193r, which
+
+ was written between 1736 and 1740 (cf. Kopelevic et al. 1962, p. 115). This notebook
+
+ contains, in particular, his earliest notes about the integration and differentiation of
+
+ trigonometric functions as well as about the integration of second order differential
+
+ Ô Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 11:57:43 UTC
+All use subject to https://about.jstor.org/terms
+
+ 500
+
+ A. Verdun
+
+ equations by using such functions. It gives evidence for Euler's recognition of the
+ importance of trigonometric functions to solve differential equations resulting from
+
+ the equations of motion that describe the periodic motion of celestial bodies, as well.
+ These functions have the advantage of being easily integrable and of being accurately
+
+ computable for given angular arguments by rapidly converging series expansions, as
+ Euler showed in the second Memoir (Ε 128) which is contained nearly complete in his
+
+ notebook Ms 399. Moreover, in Ms 276, Euler must have begun to note the meaning
+
+ and importance of the angular arguments occurring in the trigonometric functions for
+
+ the interpretation of the perturbational effects produced by the geometric constellation
+
+ or situation of the participating bodies.
+
+ 4.5 Method of undetermined coefficients
+
+ The well-known method of undetermined coefficients was commonly used for var
+ ious problems since its invention by René Descartes (1596-1650), in particular, to
+ determine reciprocal series. Euler applied this method also for solving differential
+ equations. He established this method as a standard procedure in celestial mechanics
+ and lunar theory. According to Moritz Cantor (1829-1920), it was Euler who first
+ formulated the principal idea of this method in a Memoir (cf. Euler 1750c, Ε 130),
+ presented to the Petersburg Academy at October 22, 1739 (cf. Cantor 1901, p. 676f.):
+
+ Beilàufig bemerkt, diirfte dieses die erste Stelle sein, an welcher der der Methode
+ der unbestimmten Coefficienten zu Grunde liegende Gedanke deutlich ausge
+
+ sprochen ist, so vielfach die Methode auch seit ihrer Erfindung durch Descartes
+ Anwendung gefunden hatte.
+
+ (By the way, this may be the first place where the idea forming the basis of the
+
+ method of undetermined coefficients is clearly articulated, notwithstanding the
+ many times this method has been applied since its discovery by Descartes.)
+
+ The method of undetermined coefficients consists of setting an appropriate ansatz
+ which formally is similar to the analytic structure (e.g., order) of the expected func
+
+ tion that solves the differential equation. In general, this will be a series expansion, the
+
+ terms of which containing yet undetermined coefficients that can be determined by
+
+ comparison of the corresponding terms when this ansatz is substituted into the differ
+
+ ential equation and integrated term by term. This method is very simple and robust, and
+
+ may be applied to any equation of motion however difficult. The price to pay for this
+
+ advantage is the inconvenience, that this kind of integration may become extremely
+
+ time consuming, depending on the series' order of the ansatz and on the complexity
+
+ of the differential equation (system). Each term has to be calculated algebraically in
+
+ order to carry out the comparison of the coefficients. However, it is just this method
+
+ that Euler used throughout in his works on celestial mechanics since its first appear
+
+ ance in Ms 276. For example, when he competed for the prize of the Paris Academy
+ in 1752, he was forced to calculate over 10,000 terms algebraically (cf. Verdun 2010).
+
+ This was caused by the ansatz, which was a trigonometric series from which the first
+
+ and second derivatives had to be put into the original second order differential equa
+ tions system. The resulting products of sine and cosine functions had to be resolved
+
+ Ô Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 11:57:43 UTC
+All use subject to https://about.jstor.org/terms
+
+ Leonhard Euler's early lunar theories 1725-1752 501
+
+ by the addition theorem, thus excessively multiplying the number of terms to be
+ integrated.
+
+ 4.6 Establishment of orbital elements
+
+ A separate study would be required to reconstruct the rise and development of those
+
+ parameters we call orbital elements today. They characterize form and position of an
+ ellipse in the Keplerian two-body-problem. The definition of such orbital elements
+
+ actually may be done in an arbitrary manner. However, the elements that have been
+
+ established until now were published as one set of orbital parameters by Euler in a
+ Memoir on planetary motion that he presented to the Petersburg Academy on March
+
+ 28, 1740 (cf. Euler 1750d, Ε131, p. 122 and Fig. 9). There are also two manuscripts,
+ Ms 252 and Ms253, preserved in the Archive of the St. Petersburg Academy of Sci
+ ences that are associated with this Mémoire (cf. in Kopelevic et al. 1962, pp. 79-80).
+ Ms 252 is a fragment or draft version, dated to the years 1738-1740. These six inde
+ pendent orbital parameters are not constant in the case if more than two celestial
+ bodies interact gravitationally with each other. Euler became aware of that fact due
+
+ to his studies on lunar theory during the considered time interval in his "Mechanica"
+ (E15) and in his unpublished manuscripts Ms 273 and Ms 276 (see above). In these
+ two manuscripts, he derived differential equations for the "increments" or "variation"
+
+ of some of these orbital parameters. It turned out (and will be shown in part 3) that this
+
+ is a new kind and very important approach in lunar theory and celestial mechanics,
+ which many years later became famous with the label "Gaussian" or "Lagrangian"
+ (planetary) equations of motion. However, it was Euler's achievement to be the first
+ to formulate differential equations for the orbital elements (cf. Verdun 2010).
+
+ 5 Conclusions
+
+ While Euler, before 1730, still struggled within his search for the right track to cope
+
+ with multiple force centers (cf. Verdun 2012), it was shown in this part that he found
+
+ a way out of the entangled situation with the principle of the transference of forces.
+ This principle immediately became a first solid standard procedure within his still
+ sparse repertoire of methods that were potentially useful for solving the lunar prob
+ lem. Another method that Euler developed, in combination with the former, into a
+
+ standard procedure is the use of the equation of motion, albeit still in variant forms
+
+ and still parametrized by length. The application of both procedures to the lunar prob
+
+ lem confronted him with new serious problems, which triggered the introduction of
+
+ trigonometric series expansions to solve the resulting differential equations for the
+
+ Moon's motion approximately. To integrate them Euler resorted to the well known
+ method of undetermined coefficients, which he used for that purpose probably for
+
+ the first time. By 1744 almost all ingredients needed for a successful and technically
+
+ mature lunar theory were available to Euler: The principle of the transference of forces,
+
+ trigonometric functions to expand certain terms into trigonometric series, the repre
+
+ sentation of the variation of orbital elements by differential equations, and the method
+
+ of undetermined coefficients to solve them. However, up until that time there was only
+
+ Ô Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 11:57:43 UTC
+All use subject to https://about.jstor.org/terms
+
+ one important step missing which was needed for the final breakthrough leading to a
+
+ powerful lunar theory: the equations of motions, formulated in three spatial dimen
+ sions and parametrized by time. This step allowed Euler to formulate what I call his
+
+ "embryonic" lunar theory of 1744/45, which will be presented in part 3 of this series
+ of articles. The numerous lunar tables Euler constructed between 1745 and 1750 (cf.
+
+ Verdun 2011) most probably are based on that early theory, which he tried to bring
+
+ into closer agreement with observations during that time, as will be subject of the next
+ part as well.
+
+ 502 A. Verdun
+
+ Acknowledgments This study was supported by the Swiss National Science Foundation, which approved
+
+ a grant for a project to investigate and edit Euler's unpublished manuscripts related to his early lunar theories.
+
+ This project is performed in the context of the activities of the recently founded Bernoulli-Euler-Center at
+
+ the University of Basel. I thank Prof. Dr. Hanspeter Kraft (Director of the Mathematical Institute, University
+
+ of Basel, and main applicant of the project) for the project's administration, Dipl.-Math. Martin MattmUller
+ (Director of the Bernoulli-Euler-Center), Dr. Fritz Nagel and Lic.-Phil. Sulamith Gehr (Bernoulli-Euler
+ Center) for assistance and support, Prof. Dr. Gleb K. Mikhailov (University of Moscow) and the St. Peters
+ burg Archive of the Russian Academy of Sciences for providing copies of Euler's manuscripts, PD Dr.
+ Tilman Sauer (Einstein Papers Project, CalTech, Pasadena and University of Bern) for proofreading the
+
+ manuscript, and the Astronomical Institute of the University of Bern for using its facilities and infrastructure.
+
+ Appendix A: The contents of Ms 167 relevant for the development
+ of Euler's lunar theory
+
+ In the "Introductio" of Ms 167 Euler defines the concept of "scala celeritatum", which
+ he adopted from Jacob Hermann's Phoronomia (cf. Hermann 1716, p. 54), a work
+ that Euler studied carefully and "in which the whole science [of mechanics] has been
+ enriched by the treatment of so many selected topics to be found within", as Euler
+ mentioned in the preface to his "Mechanica" (cf. Euler 1736, Prefatio). The concept
+ "scala" means the graphical representation of values or shortly "graph" or "run of the
+
+ curve". It is not to be confused with the concept of a function in the modern analytical
+ sense, although Euler already uses the term "functio" in Ms 167 (cf., e.g., §§69, 82,
+ 92-96, 106) and later in his "Mechanica" (cf. Euler 1736), expressing the dependence
+ of the value of a parameter from another one. In that time (about 1730) the term "scala"
+
+ meant the point-to-point correlation between the values of a certain parameter (force,
+ velocity, time) and the values on which they depend (distances). In a diagram, the
+
+ latter constitutes the values of the abscissa, the former of the ordinate, thus forming a
+
+ discrete steplike representation (which is the meaning of the word "scala"), which was
+
+ considered to be a continuously progressing curve and expressed—in this sense for our
+
+ context—the "progression of the velocity as a function of the distance covered by the
+
+ considered body". Later on, in Chapter I of Section I, Euler also introduces the concepts
+
+ of "scala potentiarum" and "scala temporum" (cf. Ms 167, §§62, 64). He adopted the
+ former from the Phoronomia as well. Hermann introduced not only the term "scala
+
+ potentiarum", but other "scalae", e.g., "scala solicitationum centralium" (cf. Hermann
+ 1716, p. 28 and p. 52). Euler defined the concepts of "scala celeritatum" and "scala
+ temporum" in his "Mechanica" (cf. Euler 1736, Prop. 5), he missed, however, to
+ define the term "scala potentiarum" and used it without explanation in the solution of
+
+ Proposition 41 (cf. Euler 1736, Prop. 41). The term "scala temporum" does not appear
+
+ Ô Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 11:57:43 UTC
+All use subject to https://about.jstor.org/terms
+
+ Leonhard Euler's early lunar theories 1725-1752 503
+
+ in Hermann's Phoronomia, but it already occurs in the letters of Johann I Bernoulli to
+
+ Jacob Hermann written on December 21,1715, and on May 20,1716, from which one
+ may conclude that Euler became acquainted with it from them as well. According to
+ the way Euler uses the "scala potentiarum" in Ms 167, one may suppose that it does
+
+ not represent just one but any curve in the sense of "variational curves", which is why
+
+ the term "scala" sometimes may be associated with a whole family or series of curves.
+
+ The significance of the concept of "scala potentiarum" for the development of lunar
+
+ theory concerns the fact that Euler learned to find and to determine different "scalas
+
+ of forces" associated with different given initial conditions or properties defined by
+
+ the problem. This actually involves not only variational principles, which were still
+ to be developed at that time, but has—by the initial conditions—implications on the
+ choice of appropriate reference frames as well. I will briefly address this topic below.
+
+ Euler opens the first part of his treatise, entitled "De motu a potentiis producto"
+ (On the motion produced by forces), with definitions of absolute and relative forces,
+ which are of equal importance with respect to the development of reference frames:
+
+ Potentiae quarum actiones non pendent a celeritate corporis patientis, vocentur
+
+ absolute, Quae vero aliter agunt, si corpus alia feratur celeritate relativae vocentur.
+
+ (Forces whose actions do not depend on the velocity of the body experiencing
+ them are called absolute forces, whereas those that act in a different way when
+
+ the body moves with a different velocity are called relative.)
+
+ Euler has used first the terms "potentiae purae" (pure forces) and "potentiae impurae"
+
+ (impure forces) for absolute and relative forces, respectively, which corroborates the
+ conjecture that these concepts are his own neologisms with respect to the meaning
+ defined and used by him (cf. Fig. 6).
+
+ Dato autem effectu potentias absolutai in corpus quiescens sequenti modo inveni
+
+ etur effectus in motum. Valeat potentia quaedam corpus A quiescens tempusculo
+ infinite parvo ex Λ in Ρ transferre. Nunc vero habeat corpus A celeritatem ζ
+ secundum directionem AB quaeritur quomodo eadem potentia eodem tempus
+ culo motum corporis perturbabit.
+
+ (The effect of an absolute force on a body at rest being given, the effect on the
+
+ moving body will be determined as follows: Let some force be such that it sends
+
+ a body A at rest in an infinitely small time from Λ to P. Now let the body A
+
+ have the velocity ζ in the direction AB. How will the same force now disturb the
+
+ motion of the body during the same moment of time?)
+
+ Fig. 6 Euler's sketch in Ms 167
+ to illustrate the concepts of
+ absolute and relative forces
+
+ <£) Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 11:57:43 UTC
+All use subject to https://about.jstor.org/terms
+
+ Quia potentia acque in motum corpus ac in quiescens agere ponitur, con
+ cipiatur corpus A motum suum amisisse seu id super piano positum, quod
+ motum habet aequalem et contrarium ei quem habet corpus transferetur id
+ igitur in P. Restituo autem motu perveniat id interea in Β motu ante con
+ cepto. Quamobrem post hoc tempusculum non in Ρ sed in M reperietur, ducta
+ recta PM parallela et aequali rectœ AB. Quoniam enim planum in partes con
+ trarias motum concipiebatur, ut corpus in locum debitum restituatur, oportet
+ piano motum ei, quem ante habere ponebatur, contrarium tribuere, hoc modo
+ punctum Ρ 'm M transferetur. Quamobrem corpus A interea diagonalem AM
+ descripsisse putandum est. A potentia ergo angulo BAM a sua semita deflectere
+ coactum est, et celeritatem acquisivit, quae se habet ad pristinam ut AM
+ ad AB.
+
+ 504 A. Verdun
+
+ (Since the force is assumed to act equally on a moving body as on one at rest,
+ let us suppose the body A to have lost its motion or to be set on a plane which
+ has a uniform motion opposite to that of the body. Thus it will be carried to P.
+
+ The motion being restored, let it arrive at Β by the motion conceived before. It
+ will therefore be found after this moment of time not at Ρ but at M, where the
+
+ line PM is drawn parallel and equal to AB. For since the plane was supposed to
+
+ move in the opposite direction, in order to return the body to its due place, one
+
+ needs to attribute to the plane a motion opposite to that which it was supposed to
+
+ have before: thus the point Ρ will be carried to M. The body A must therefore
+ be thought to have covered in the meantime the diagonal AM. Consequently it
+ has been compelled by the force to deviate from its path by the angle BAM and
+ has obtained a velocity that is to the original one as AM to AB.)
+
+ In the first section, entitled "De motu a potentiis in punctum liberum agentibus pro
+ dueto" (On the motion produced by forces acting in a free pointlike body) Euler treats
+ uniform rectilinear motions. To be able to solve non-uniform rectilinear motions, he
+
+ states what we now call "Newton's second law" or "equation of motion":
+
+ Porro si tempora sunt inasqualia, quia turn incrementa celeritatum sunt ut tem
+ pore, habebimus hanc legem incrementum celeritatis esse directe ut tempuscu
+ lum et potentiam atque ut corpus ipsum inverse.
+
+ (If the time intervals are not equal, the following law holds (since then the
+
+ increments of velocity are proportional to the times): the increment of veloc
+
+ ity is directly proportional to the time element and to the force, and inversely
+ proportional to the body itself [i.e., its mass].)(emphasis added)
+
+ Euler adopted this law most probably from the Phoronomia, because Hermann pre
+
+ sented it in the same context as Euler did, namely when dealing with the transition
+
+ from uniform to non-uniform motions (cf. Hermann 1716, pp. 55-57).
+
+ Euler continues his investigations on rectilinear motions of pointlike bodies in
+ Chapter I of this section, entitled "De motu puncti a potentiis absolutis tracti rectili
+ neo" (On the rectilinear motion of pointlike bodies due to absolute forces). Here he
+ formulates the law of motion in Leibnizian notation:
+
+ dz — mpdt : A,
+
+ (1)
+
+ Ô Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 11:57:43 UTC
+All use subject to https://about.jstor.org/terms
+
+ where ζ denotes the body's velocity, A its mass, ρ the force acting on it, and m a
+ proportionality constant. He substitutes the time element dt = η dx : dz, η being a
+ constant, to obtain
+
+ setting the integration constant equal zero. Here we can observe the very origin of
+ the factor 2 occurring in Euler's equation of motion, which he maintained over many
+
+ decades of years by choosing appropriate units. Therefore
+
+ Leonhard Euler's early lunar theories 1725-1752 505
+
+ Fig. 7 Euler's setch in Ms 167
+ to illustrate the concepts of
+ "scala" or function
+
+ dz=mnpdx :Az or Azdz = mnpdx. (2)
+
+ Its integration gives
+
+ Azz — 2mnpx, (3)
+
+ y 2 mnpx
+ ~Â~
+
+ (4)
+
+ According to Euler, it is more convenient to express the quantity of velocity by the
+
+ corresponding height or altitude of free fall, which is a distance and therefore easier
+ to measure than the velocity. In the sequel Euler defines and determines the units and
+
+ constants in Rhinelandian (Prussian) feet, thus obtaining « = 555, which corresponds
+ to the value of gravity on Earth at an altitude of 15,625 Rhinelandian feet.
+
+ The next topic concerns the motion of a body which is attracted in any multiple
+
+ ratio of its distance from the center. In this context Euler introduces the terms "scala
+
+ potentiarum" (progression of forces) and "scala temporum" (progression of time) and
+
+ applies these concepts to solve problems closely related to what we call today "calculus
+
+ of variations" such as (cf. Ms 167, § 80, and Fig. 7):
+
+ Inveniamus nunc omnes possibiles scalas potentiarum, quae faciant, ut corpus
+
+ dictum spatium AC vel eodem tempore percurrat, vel ut in C eundem celeritas
+
+ gradum assequatur.
+ (Find now all possible progressions of forces which cause the body either to
+ cover a given space AC in a given time or to reach in C with a given degree of
+
+ velocity.)
+
+ Φ) Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 11:57:43 UTC
+All use subject to https://about.jstor.org/terms
+
+ 506 A. Verdun
+
+ Fig. 8 Euler's sketch in Ms 167
+ to illustrate the construction of a
+
+ A (B) B
+
+ "scala potentiarum" (B)(D),
+ which is equivalent to a constant
+ force BD
+
+ Fig. 9 Euler's sketch in Ms 167
+ explaining the curvature radius
+
+ Euler reformulated this kind of "variational" problem in his "Mechanica" (cf. Euler
+ 1736, Prop. 47 and 48). In Ms 167, he also treats the problem of finding a special
+ "scala potentiarum" that causes a falling body to move in a certain way according to
+ a given time schedule (cf. Ms 167, §§ 88-102, and Fig. 8).
+
+ Chapter III deals with the curved motion of a pointlike body which is driven by
+ absolute forces. Euler decomposes the force acting on the body into the tangential
+ and normal components with respect to the point of the curve the body is currently
+ located in and notes, that the former can change only the body's speed, the latter
+ only its direction (cf. Ms 167, §§ 176-177). He defines the curvature radius ("radius
+ osculi") or curvature ("radius curvedinis"), which he wants to determine now using
+ the normal force: Let (cf. Fig. 9) Mr and ds = Μ μ be the normal and tangen
+ tial line elements associated with the element Mm of the curve defining the curva
+ ture radius r in M, and ρ be the normal force component (assuming the ratio of
+ the normal to the gravitational force as ρ to 1). The altitude υ that corresponds to
+ the body's velocity is equal to ρ ■ Mr (cf. Euler 1736, Prop. 25, Coroll. 5). This
+ velocity corresponds to a distance 2Mr covered by the body during the time ele
+
+ ment Jjfp-j, · This time element is equal to that one used by the body to cover the
+
+ distance Μ μ, which is 4^. By equating these two time elements Euler derives the
+ equation
+
+ Mr =
+
+ pds~
+
+ 4v
+
+ (5)
+
+ <?j Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 11:57:43 UTC
+All use subject to https://about.jstor.org/terms
+
+ Using the equivalence Mr : Mm = Mm : 2 r and assuming Mm « Μ μ = d.v, Euler
+ solves this for Mr and substitutes it in Eq. (5), obtaining (cf. Ms 167, §178)
+
+ Leonhard Euler's early lunar theories 1725-1752 507
+
+ Fig. 10 Euler's sketch in
+ Ms 167 explaining the tangential
+ and normal force components
+
+ r = —, (6)
+
+ 2v
+
+ Ρ
+
+ which agrees with the result of Ms 180 (cf. Verdun 2012, Appendix B, Eq. (1), con
+ sidering that ρ : I = Ν : A).
+
+ Let Ρ be the force acting on the body, ds = Jdx2 + dy2 the line element of its
+ curved path that it covers in the time element (cf. Ms 167, §179, and Fig. 10). Then
+ the normal and tangential components are given by and respectively. Again
+ using the "law" relating the increment of velocity with tangential force (cf. Euler 1736,
+ Prop. 25, Coroll. 5), Euler obtains
+
+ dv = ds = — Pdy. (7)
+
+ -P dy
+
+ ds
+
+ He substitutes the normal force into Eq. (6) and equates the result with the formula
+
+ for the curvature radius r = derived from differential geometry, obtaining
+
+ Ρ dxày = 2vddx.
+
+ (8)
+
+ The substitution of Eq. (7) into the last one gives
+
+ du 2ddx
+ — + -τ— = ο, (9)
+ υ αχ
+
+ whose integral is
+
+ vdx2 = Cds2, (10)
+
+ bg2 ds2
+
+ —fer" <")
+
+ Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 11:57:43 UTC
+All use subject to https://about.jstor.org/terms
+
+ where C denotes the integration constant. If χ = 0 then υ = b and d)> : di = / : 1,
+ therefore C — bg2, where g = — //. From Eq. (10) Euler obtains for the altitude
+
+ 508
+
+ A. Verdun
+
+ and for the corresponding velocity
+
+ bg2 di2
+ dx2
+
+ (12)
+
+ Euler considers first parabolic and circular orbits using this result (cf. Ms 167,
+ §§ 183-189), before he treats the general central force problem (cf. Ms 167, §190f,
+ and Fig. 11). Let ΒΜΛ be the curve described by a body M due to a central force
+ located in C. Let the distance between M and C be y and the central force be P,
+ supposing the gravitational force = 1. Let further the length of the perpendicular
+ CT to the tangent MT be ρ and Μ Τ — Jyy — pp = t. The normal and tangential
+
+ components of the central force are thus given by ^ and respectively. Let ν be
+ the altitude corresponding to the velocity of M and ν + di; that of m. Let r be the
+ curvature radius in M. Due to mr = dy and the equivalence of the triangles CMT and
+ Mmr, it follows (cf. Ms 167, §191) Mr = and Mm = Therefore, due to
+
+ the tangential force which acts in reverse direction to the motion of M, the increment
+ of its velocity becomes
+
+ t
+
+ (13)
+
+ According to Eq. (6), the curvature radius is given by r = On the other hand, it
+
+ is also defined by r — . Therefore,
+
+ = or ρρΛ^2νάρ. (14)
+
+ dp Pp
+
+ The substitution of Eq. (13) into Eq. (14) gives ppv = C. Euler sets ρ = f and υ = b
+ to obtain C = bff and thus ppv = bff and ν = Assuming bff being constant,
+
+ this result gives the velocity y/v of the body M defined by the parameter ρ (cf. Ms 167,
+ §192). Let Τ be the time needed by the body to cover the arc BM, which is given by
+
+ the known velocity of the body. The time element dΤ needed to cover the arc Mm is
+
+ defined by
+
+ Mm pydy y-Mr
+
+ = ——- = (15)
+
+ y/v tfy/b f \Jb '
+
+ Fig. 11 Euler's sketch in
+ Ms 167 used to derive the force
+
+ components
+
+ Ô Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 11:57:43 UTC
+All use subject to https://about.jstor.org/terms
+
+ and the time needed to cover the arc BM is thus given by
+
+ Euler concludes that the time intervals are proportional to the areas covered by the
+
+ associated radius vectors, which is Kepler's area law (cf. Ms 167, § 193). He substitutes
+
+ υ = ^ into Eq. (14) to obtain Keill's theorem (cf. Ms 167, §194):
+
+ Leonhard Euler's early lunar theories 1725-1752
+
+ 509
+
+ whereby the relations Mm = Mr — and ν = ^ were used. Therefore,
+
+ 2 [area]MCm
+
+ = jjh · <"»
+
+ 2 areaBCM
+
+ 77b ■ <">
+
+ „ 2 bffdp
+
+ p^dy
+
+ (18)
+
+ He derived this theorem already in Ms 398, fol. 26v (see also Euler 1736, Prop. 74,
+ Coroll. 4, §592; Keill 1708). Euler admits that the application of this theorem is so
+
+ difficult if the body's curve, either algebraic or transcendent, can not be reduced to an
+
+ equation which is general in a way that the curve may be expressed by an equation
+ interrelating orthogonal coordinates (cf. Ms 167, §195):
+
+ Aequatio, quae hoc modo ad curvam invenitur a corpore prolubitu projecto et
+ a vi data Ρ ubique sollicitato [descriptam], est inter distantiam corporis a cen
+ tra y et inter perpendiculum ad tangentem ex centra p. Cum vera ut plurimum
+
+ difficile sit hinc judicare, qualis sit curva utrum algebraica an transcendens, redu
+ cam xquationem hanc generalem ad Eequationem inter coordinatas orthogonales
+ quemadmodum curvae exprimi soient.
+ (This equation found in this way for the curve described by a body that is pro
+ pelled in any manner and acted anywhere by a given force Ρ, depends on the
+
+ distance y between the body and the center, and on the perpendicular ρ from the
+
+ center to the tangent. But because it is extremely difficult to assess from it what
+ kind of curve - algebraic or transcendent - it is, I will reduce here this general
+ equation to an equation in terms of rectangular coordinates in the same way like
+
+ curves usually are described.)
+
+ We skip Euler's application of this result to special cases, which is not relevant for
+
+ the development of his lunar theory, and turn to his investigations on the motion of a
+
+ body M being subject of two force centers C and D. Let the ratio between the central
+
+ force in C acting on M and the gravitational force as the ratio between the distances
+
+ CM and the constant straight line a, and let the ratio between the central force in D
+
+ acting on M and the gravitational force as the ratio between the distances DM and the
+
+ constant straight line b. Therefore ^ = a and = b, assuming the gravitational
+ force being = 1. Let F be the common center of mass of the attracting bodies C and
+
+ D with masses ^ and j, respectively, where CF : DF— a : b. These two force centers
+
+ Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 11:57:43 UTC
+All use subject to https://about.jstor.org/terms
+
+ 510 A.Verdun
+
+ Fig. 12 Reconstruction of the
+ missing figure in Ms 167 to
+ illustrate two simultaneously
+ acting force centers C and D
+
+ Fig. 13 Euler's sketch in
+ Ms 167 to illustrate multiple
+
+ acting force centers
+
+ c
+
+ o
+
+ D
+
+ thus act as one single force center being their common center of mass (cf. Ms 167,
+ §253, and Fig. 12).
+
+ Let 2 ME be the force acting on M by F. Using the law of sines, Euler derives (cf.
+
+ sin CMF : sin CMD = MB : 2ME = (CF ■ MD) : (CD · MF), (19)
+
+ Ms 167, §254)
+
+ therefore
+
+ ME : MF = (CD MB) : 2 (CF ■ MD) (20)
+
+ (CF + DF)(CD) : CF = (a + b) : a. (21)
+
+ He concludes, that
+
+ ME : MF = (a + b)MB : (2a ■ MD) (22)
+
+ 1ME=« + b)MFMB = (" + b)MF =^(1 + Γ)· (23)
+
+ a ■ MD ab \a b J
+
+ Later, Euler considers the more general case of two acting force centers, where the
+
+ centripetal forces are no longer proportional to the distances and where one unique
+
+ common center of force is not determinable (cf. Ms 167, §256, and Fig. 13). However,
+
+ Ô Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 11:57:43 UTC
+All use subject to https://about.jstor.org/terms
+
+ Leonhard Euler's early lunar theories 1725-1752
+
+ 511
+
+ he investigates only the coplanar case, where the whole orbit BM of M is situated in
+ a plane together with the force centers C and D, which attract M with any ratio of
+ the distance (cf. Ms 167, §257). Let ν be the altitude corresponding to the velocity
+ of M in the point M of its curve, and ν + du its velocity in the point m, which is
+ situated infinitesimally close to M. Let this line element Mm of the curve be ds.
+ Euler denotes CM = y, DM = Y, CT — p, DV = π, MT= *Jyy — pp = q, and
+
+ — π π — p. Let further the curvature radius in M be = r and the distance
+
+ CD between the two force centers c. From the geometry of the two perpendiculars
+ CT and DV to the tangent line TV through M it is easily seen that TV— q — ρ and
+ DV - CT — π - p. Therefore (cf. Ms 167, §258)
+
+ cc ~ qq — 2qp + pp + pp — 2ρπ + ππ = yy + YY — 2qp — 2ρπ. (24)
+
+ Due to the equivalence of the triangles CMT and DVM with their infinitesimal small
+ counterparts it follows ds = and ds = respectively, and therefore
+
+ ds = yjy = iii. (25)
+
+ From § 191 we know that the curvature radii are defined either by r = ^ or by
+ r = giving the relation
+
+ ydy rdy
+
+ d/? d;r
+
+ (26)
+
+ By differentiation of Eq. (24) Euler obtains
+
+ ydy + YdY — q dp + ρ dq + ρ άπ + π dp. (27)
+
+ Eqn. (24) may also be written as ρ = q — Jcc — (ρ — π)2, and from the combination
+
+ of the Eqs. (25) and (26) one obtains ρ — ^~·. Therefore
+
+ 1 ~ Â Â and Ρ = λ 5 · (28)
+
+ dpjcc -(ρ- π)2 άπ J cc - (ρ - π)2
+ α ρ — άπ άρ — άπ
+
+ This result for q, substituted into y = y/pp 4- qq, gives (cf. Ms 167, §259)
+
+ _ y/ccdP2 + PP(dP ~ djT)2 ~ (P ~ *)2~dp (29)
+
+ ^ dp — άπ
+
+ and analogously
+
+ v _ yfccάπ2 + ππ(άρ - d^)2 - (ρ - π)2άπ2
+ ' — ι , » W"/
+
+ dp — απ
+
+ Ô Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 11:57:43 UTC
+All use subject to https://about.jstor.org/terms
+
+ 512
+
+ A. Verdun
+
+ representing the two distances of the body M from the two force centers C and D used
+ to determine the resulting force acting on M. Euler denotes these two forces with Ρ
+
+ and Q, respectively, and decomposes them into the normal and tangential components
+ (cf. Ms 167, §260). Let and be the normal components of Ρ and Q, and its
+
+ sum ^ + Ογ- be their resulting normal force. According to § 178 and assuming the
+ gravitational force — 1, this normal force becomes
+
+ ^ (31)
+
+ y Y r
+
+ from which it follows
+
+ ppr , βπ/·
+
+ υ = 17 + ^Γ' <32)
+
+ Substituting Eq. (26) into this result, Euler obtains
+
+ υ - + — . (33)
+
+ Ppdy Qn dY
+
+ 2dρ 2άπ
+
+ Let and (4f- be the tangential components of Ρ and Q, respectively, and its sum
+
+ ~L + ^· their resulting tangential force (cf. Ms 167, §261 ). Using the result derived in
+ § 176, the increment (taken negative against the force direction) of the body's velocity
+ becomes
+
+ du = —(34)
+
+ Pqds Qpds
+
+ y y
+
+ Combining this result with Eq. (25) gives
+
+ dv = -Pdy - QdY, (35)
+
+ whose integral is
+
+ v = C-J Pdy-J QdY, (36)
+
+ where C denotes the integration constant, which has to be determined using the given
+
+ initial velocity in a given location of the body's orbit. Euler derived this result already
+
+ in Ms 180, fol. 3r (cf. Verdun 2012). Equating the Eqs. (33) and (36) allows him to
+ determine the two forces Ρ and Q. Without demonstration Euler presents the result
+ (cf. Ms 167, §262):
+
+ ρ π dpdv + 2νάράπ ράπάν + 2νάπάρ
+
+ άγ(ράπ-πάρ) 3 àY {π dp - ράπ)
+
+ Ô Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 11:57:43 UTC
+All use subject to https://about.jstor.org/terms
+
+ This substituted in q = y/yy — pp and ρ = *JYY — ππ gives (cf. Ms 167, §263)
+
+ From the equations r = and r — Euler has the relations
+
+ Leonhard Euler's early lunar theories 1725-1752 513
+
+ In Ms 180 Euler left the integro-differential equation leading to this result still
+ unsolved, which provides evidence for the conjecture, that Ms 167 must have been
+ written some time later. Euler comments this result as follows:
+
+ Ex his apparet si detur curva quœcunque et corporis in ea moti celeritas in singulis
+
+ locis, insuper duo quaecunque puncta, inveniri posse vires ad ea puncta tendentes,
+
+ quae faciant ut corpus libéré eam curvam describat, et in singulis locis celeritates
+ habeat datas.
+
+ (Thus it is clear: if any curve and the velocity of a body moving on it is given
+
+ for each point, and in addition any two points [of the curve are given], then it
+
+ is possible to find forces directed on to these points, which cause the body to
+ follow this curve freely and to assume the given velocity in each point.)
+
+ However, there still remains the problem to determine the nature of the curve supposing
+
+ the two central forces Ρ and Q are given. For that purpose the parameters p,q,n, and
+ ρ of y and Y, which define d.v and r, have to be determined. From Eq. (25) it follows
+ that
+
+ vdy YdY
+
+ q = ~ and ρ = ——. (38)
+
+ as as
+
+ ρ = and π = . (39)
+
+ yjds2 -dy2 iVds2 - dY2
+ ds ds
+
+ ydy YdF
+
+ dp — and π = . (40)
+
+ yjds^^dy1 Y^/ds2 - dF2
+ dp — ds and dp = ds . (41)
+
+ This substituted in the first derivatives of q = s/yy — pp and ρ = λJYY — ππ and
+ considering Eq. (25) gives
+
+ Substituting Eqs. (38) and (39) into cc = (q — ρ)2 — (ρ - π)2, Euler obtains
+ (cf. Ms 167, §264)
+
+ 2 4yY{ccàyàY+ yYày2 + yYàY2-yyàyàY-YYàyAY)
+ 5 ~ Iccyy + 2ccYY + 2y2Y2 - c4 -y4 - Y4
+
+ If this element of the body's curve is known, one can find the associated oscult
+ ing radius r in terms of y and Y together with its differentials, using r = and
+
+ Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 11:57:43 UTC
+All use subject to https://about.jstor.org/terms
+
+ Therefore, the resulting curvature radius becomes
+
+ yds^/di2 — dy2 Y d-sVds2 — dY2
+
+ (44)
+
+ ds2 — dy2 — y ddy ds2 — d Y2 — Y ddK
+
+ If the curve that the body describes and one of the central forces, say P, are given,
+ then the other central force Q can be determined as well (cf. Ms 167, §266). Let be
+
+ ^ = χ and jf = z. Therefore, ν = Ρ χ + Qz and
+
+ 514
+
+ A. Verdun
+
+ Eq. (39). Assuming cLv to be constant, the first derivative of ρ in Eq. (39) gives
+
+ ds2 dν - dy3 - y dy ddy
+
+ dp — r . (43)
+
+ ds-y/di2 — dy2
+
+ It may also be expressed in terms of the acting central forces Ρ and Q by equating
+ (36) and (32) (cf. Ms 167, §265):
+
+ 2C — 2 J Ρ dy — 2 J QdY — + —ψ—, (45)
+
+ from which the nature of the curve can be described using Eq. (39):
+
+ Γ f PpJds2 — dy2 + OrVdi2 — dK2
+ 2C-2 / Pdy-2 / QdY = — (46)
+
+ and thus the resulting curvature radius becomes
+
+ 2Cds-2ds f Pdy - 2ds f QdY
+
+ r = J —-— J g -. (47)
+
+ Ps/ds2 — dy2 + QVds2 — d Y1
+
+ du = Ρ dx + xdP + Qdz + zdQ — —Pdy — QdY
+
+ (48)
+
+ iQ + β«1±± + = 0. (49)
+
+ Multiplying this by eJ - Euler obtains
+
+ r dr+d£
+
+ r dy+d.
+
+ eI'JTtQ = D-j- '■ ^ày + xdP + Pix)^ (50)
+
+ where the integration constant D can be determined from the initial conditions.
+
+ Finally, Euler treats the case where one of the force centers may be considered as
+
+ infinitely far away from the other (cf. Ms 167, §267, and Figs. 14, 15). (This situation
+
+ or
+
+ â Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 11:57:43 UTC
+All use subject to https://about.jstor.org/terms
+
+ Leonhard Euler's early lunar theories 1725-1752 515
+
+ Fig. 14 Euler's sketch in
+ Ms 167 illustrating the first case
+ where the force center is
+
+ infinitely far away
+
+ Fig. 15 Euler's sketch in
+ Ms 167 illustrating the second
+ case where the force center is
+
+ infinitely far away
+
+ may, in fact, be assumed for first order approximations in the case of the Earth-Moon
+
+ Sun system, where the Sun is regarded as infinitely further away from the Moon than
+ the Earth.) Supposing the force center D situated in infinity, or c — oo. Therefore
+ MD is parallel to CD. Let CP be a perpendicular to CD and denote PM= z- Thus
+ Y = c + ζ and dY — dz holds. Let β be a function of z. From these assumptions,
+ substituted into Eqs. (42) and (44), Euler obtains
+
+ \/yy &y2 + yy dz2 — 2 y Ζ dy dz
+
+ ds —
+
+ Jyy - zz
+
+ and
+
+ dsVdi2 — dz2
+
+ r =
+
+ -ddz
+
+ (51)
+
+ (52)
+
+ â Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 11:57:43 UTC
+All use subject to https://about.jstor.org/terms
+
+ 516
+
+ A. Verdun
+
+ where dz is supposed to be constant. The other equation for the curvature radius, Eq.
+ (47), becomes
+
+ _ 2Cds -2ds f Pdy-2ds f Qdz ^
+
+ Pjds2 — d y2 + Q^/ds2 — d z?
+
+ Equating these results (Eqs. 52 and 53) gives
+
+ 2ddj Py/ds2 — dy2 + gVdi2 - dz2
+
+ Vds2 - dz2 = JPdy + fQdz-C
+
+ The second possible situation concerns the case where the force center C is also
+ regarded as infinitely far away from the body M. Euler considers this case as well,
+ which is, however, of minor importance for the development of his lunar theory and
+
+ thus may be skipped here.
+
+ Appendix Β: The content of Ms 271
+
+ In this small treatise entitled "De Motu Luna; in Ellipsin" Euler develops a formula to
+
+ construct lunar tables based on the Moon's elliptic motion represented by its orbital
+ velocity ν at any point of the trajectory. He uses two physical principles, one of them
+
+ implicitly, the other one explicitly. The first one concerns the equation of motion
+
+ and the balance of centrifugal and centripetal (gravitational) force F allowing him to
+ determine the Moon's velocity ν by Huygens' centrifugal formula (cf. Euler 1736,
+ §630; see also Bomie 1708):
+
+ Foc—, (55)
+
+ v2
+
+ r
+
+ where r designates the curvature radius or radius of the osculating circle at each point
+
+ of the trajectory. This formula may be reconstructed using Euler's "Mechanica" which
+
+ he completed already in 1734. From the equation of motion, given by (cf. §157)
+
+ cdc = ϋΐΐ, (56)
+
+ A
+
+ where c is the velocity of the body with mass A, d.s the line element covered by the
+ body, ρ is the force acting on this body and η is a constant, Euler derives the formula
+ (cf. §163)
+
+ nprdx = Ac2ds,
+
+ (57)
+
+ where r is the curvature radius and dx the line element covered by the body perpen
+ dicular to r, regarding d.v2 = dx2 + dy2. This is exactly Huygens formula, because
+ dj = cdt and
+
+ Ô Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 11:57:43 UTC
+All use subject to https://about.jstor.org/terms
+
+ If ρ is collinear with r as it is the case in central force motions, then ày — 0 and
+ cLt — d.s\ so that this relation becomes (cf. §165)
+
+ Leonhard Euler's early lunar theories 1725-1752 517
+
+ dx Ac2
+
+ di r
+
+ np— = . (58)
+
+ Ac2
+
+ np
+
+ (59)
+
+ Euler always expressed the velocity c by its corresponding height of fall υ, so that
+ υ = c2 (cf. §202). This implies η = j (cf. §206) and thus r = From this
+ formula, Euler extracts (cf. §552)
+
+ Although this derivation is not included in Euler's treatise Ms 271, it seems to be
+ part of the standard repertoire of physical principles belonging at Euler's disposal in
+ that time (cf. Varignon 1707a, §ΧΧΙΠ, Corol. 2, p. 198). The second principle makes
+ sure that the first one holds only if the center of force (i.e., the center of the Earth)
+
+ is at rest with respect to inertial space, or in other words, that the Moon's motion is
+
+ described by this approach in an earth fixed reference frame. This condition requires a
+
+ principle which had never been used before in that context and which was developed
+
+ as innovative element and applied here for the first time by Euler: the principle of the
+
+ transference of forces. It became a standard method already in Euler's "Mechanica"
+ (cf. Euler 1736, Prop. 97, §795). This principle, applied to Euler's determination of
+
+ the Moon's motion, means that the force component acting on the Earth by the Sun has
+
+ to be transferred in contrary direction to the Moon. Evidence for its first appearance
+
+ here is given by the peculiarity that Euler had to state more precisely the way how to
+
+ apply the inverse force by some deletions and by inserting a note referring to another
+
+ marginal note.
+
+ Let (see Fig. 16) C, M, and Ν be the centers of the Earth, Moon, and Sun, respec
+ tively, which are assumed to be situated in one and the same ecliptic plane. AMBA
+ is the Moon's elliptical orbit coplanar with the ecliptic. AB is the apsidal line, A the
+ apogee, and Β the perigee. The Moon is situated in M. The straight line GMTR is
+ the tangent in M. MP is the perpendicular through M on the apsidal line AB, CO
+ the perpendicular through C on the straight line joining M and Ν ,TC and RN are
+ the perpendicular lines through C and Ν on the tangent line GMTR, respectively.
+ Euler denotes the masses of Earth and Sun, respectively, by A and 5, and defines the
+
+ lengths of the major and minor axes of the Moon's orbit = 2a and = 2c, respectively,
+ and the length of the major axis of the Sun's orbit = 2/. He sets the Earth's global
+ radius = 1 and denotes the distances CM — y and CN = z, and designates the curvature
+
+ or curvature radius in M with r. He first determines the resulting normal components
+
+ to the tangent line GMTR of the gravitational forces acting on the Moon and the Earth.
+
+ The gravitational forces acting on the Moon by the Earth and the Sun are given by
+ A : y y and S : MN2, respectively, the one acting on the Earth by the Sun is given
+
+ by 5 : zz- The normal components of the first two forces are given by A ■ CT : y3
+
+ "fj Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 11:57:43 UTC
+All use subject to https://about.jstor.org/terms
+
+ 518 A. Verdun
+
+ Fig. 16 The figure of Ms 271
+ explaining the geometry in the
+ System Earth (C), Moon (M),
+ and Sun (Ν), AMBA being the
+
+ A
+
+ elliptic lunar orbit with C in one
+ focus
+
+ and S- NR : MN3. The normal component of the latter is given by 5 · FG : MF ■ zz,
+ where the relation MF : FG = CN : NR — CT is defined by the equivalence of the
+ correspondent triangles. This normal component becomes thus — S · (NR — CT ) : z3.
+
+ Now Euler applies his principle of the transference of forces when summing up these
+ normal components to the resulting centripetal forces acting on the Moon, giving
+ = A · CT : y3 + S ■ NR : MN3 — S(NR — CT ) : z3. Note that the latter force actually
+
+ is the normal component of the gravitational force acting on the Earth by the Sun,
+ applied in the reverse direction on the Moon, thus making sure that its motion refers
+
+ to the Earth resting in inertial space.
+
+ In the next step Euler determines the orbital velocity υ of the Moon as a function
+
+ of the curvature radius r in M. Using the first principle (cf. eq. 60) described in
+
+ "Est vero vis gravitatis = A et cum sit vis normalis ad vim gravitatis ut altitudes
+
+ velocitatem generans ad dimidium radii osculi
+
+ υ = r ■ CT : 2y3 + S ■ r NR : 2A ■ MN3 - Sr(NR - CT) : 2Az3· (61)
+
+ Without giving any derivation Euler substitutes
+
+ CT = Cy/y : (a — y) (62)
+
+ words by
+
+ Euler derives
+
+ Ô Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 11:57:43 UTC
+All use subject to https://about.jstor.org/terms
+
+ Leonhard Euler's early lunar theories 1725-1752 519
+
+ and the curvature radius (cf. Varignon 1707b)
+
+ r = (lay — yy)ï : ac, (63)
+
+ and sets approximately MN = CN + MO = ζ + MO, thus yielding
+
+ V = ^zy + S„(2a-y>_3s.r.NR.Mo..2Az4. m
+
+ lay lAazi
+
+ Finally, Euler substitutes the product NR ■ MO by trigonometric functions, resulting in
+
+ ν = (la — y) : lay + Syy(2a — y) : lAaz3
+
+ -3Syr (sin CMT+ sin[CMT+1MCN]) ■ 4Az3, (65)
+
+ and the mass ratio S : A by S : A = 2/3 : (8795)2 —lf3-n, leading to
+
+ ν = (la- y) : 2ay + f3yy(la - y) : naz3
+
+ -3 fyr (sin CMT+ sin[CMT+ 1MCN]) : Inz3. (66)
+
+ Euler remarks that the first term depends only on the Earth's attraction, but that the
+
+ second and third depend on the Sun's gravitational force. In addition, the second term
+ depends on the Moon's position in its orbit and on the Earth's distance from the Sun,
+
+ while the third term depends on the lunar aspect, namely on the angle between Moon
+ and Sun. He further notes that in υ the excess of the terms depending on the Sun over
+
+ the terms not depending on it is always reciprocal to the cube of the Sun's distance
+ from the Earth. This is why the Moon's velocity produced by the Sun is much smaller
+
+ than that generated by the Earth. The difference in the lunar time period due to the
+ Earth's and the Sun's action is thus reciprocal to the cube of the Earth's distance from
+ the Sun, as well.
+
+ Due to the fact that ζ » y, Euler approximates ζ = f, resulting in
+
+ ν = (2a — y) : lay + yy(2a — y) : na
+
+ -3yr · (sin CMT+ s\n[CMT+ 2MCN]) : 2n. (67)
+
+ If the lunar orbit is considered as circle with radius a, his velocity is then given by
+
+ ν = 1 : 2a — aa : 2n — 3aa ■ cos 2MCN : 2n.
+
+ (68)
+
+ Euler derives some corollaries for the elliptic orbit case, defined by the distance
+
+ y/aa — cc — b of the focus from the center of the ellipse, the distance of the apogee
+
+ = a + b and the perigee — a - b. If the Moon is located in the transverse axis or
+ apsidal line, there are two cases: In apogee, y = a + b, r — cc : a, and sin CMT = 1,
+
+ resulting in
+
+ υ = (a — b) : 2a(a + b) — cc(a + b) : 2an — 3cc(a + b) cos 2MCN : 2an. (69)
+
+ "β Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 11:57:43 UTC
+All use subject to https://about.jstor.org/terms
+
+ 520
+
+ A. Verdun
+
+ In perigee, y — a — b and r = cc : a, leading to
+
+ υ — (a + b) : 2a{a — b) — cc(a — b) : 2an — 3cc(a — b) cos 2MCN : 2na. (70)
+
+ If oppositions or conjunctions happen to be in the apogee (upper sign) and in the
+ perigee (lower sign), then
+
+ u = (α ψ b) : 2a(a ± b) — 2cc(a ± b) : na, (71)
+
+ but if quadratures happen to be in the apogee (upper sign) and in the perigee (lower
+
+ sign), then
+
+ ν = (α ψ b) : 2α(α ± b) + cc(a ± b) : an.
+
+ (72)
+
+ If the Moon is located in the conjugate axis, then y = a, r = aa : c, and sin CMT =
+ c : a, yielding
+
+ υ = 1 : 2a — aa : 2n — 3aa (c cos 2MCN + b sin 2MCN) : 2cn. (73)
+
+ If oppositions or conjunctions happen to be in the conjugate axis, the sine and cosine
+ of the angle 2MCN become sin 2MCN — 0 and cos 2MCN = 1, respectively, and
+ therefore
+
+ ν = 1 : 2α — 2aa : η. (74)
+
+ ν = (2a — y) : lay + yyÇLa — y) : na — 3yr sin CMT : n. (76)
+
+ But sin CMT = CT : CM = c : <J(2ay — yy), so that in syzygies
+
+ υ — (2a — y) : lay — 2yy(la — y) : na, (77)
+
+ and in quadratures
+
+ Ô Springer
+
+ ν = (la — y) : lay + yy(la — y) : na. (78)
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 11:57:43 UTC
+All use subject to https://about.jstor.org/terms
+
+ But if quadratures happen to be in the conjugate axis, then sin 2MCN = 0 and
+ cos 2MCN = — 1, therefore
+
+ ν = 1 : aa + aa : n. (75)
+
+ This is an important result derived by Euler, proving that in syzygies the Moon's
+ velocity is always smaller, in the quadratures always larger than it's mean motion.
+ Moreover, every time when the Moon in its orbit is in conjunction or opposition,
+ then—due to LMCN — 0° resp. LMCN = 180°—its velocity becomes
+
+ Leonhard Euler's early lunar theories 1725-1752
+
+ 521
+
+ Euler reduces the general equation (67) by using the relations sin CMT = c :
+ λ/lay — >7 and r sin CMT — (lay — yy) : a, as well as the addition theorem,
+ gaining
+
+ ν = (la — y) : lay — yy(la — y) : Ina
+
+ —?>yy(la — y)coslMCN : Ina
+
+ —7>yy(la — y)s/lay — yy — cc ■ sin 2MCN : Inac. (79)
+
+ Now he tries to make this formula more handy for the calculation of lunar tables. Using
+
+ the geometry of the ellipse and introducing the ratio Τ : t of the periods of revolution
+ (i.e., the mean motions of the sidereal periods) of Sun and Moon, respectively, by
+ Τ — t : Τ — 559 : 605, he is able to substitute
+
+ sin 2MCN = sin(2D -1,118· ACM : 605),
+
+ (80)
+
+ where D designates the Sun's elongation from the apsidal line AD as reference line
+ of these motions. Furthermore, he substitutes cosACM = q, y = cc : (a — bq),
+ cc : b — g, and a : b = K, yielding y = g : (Κ — q) and 2a — y — 2a — g :
+ (Κ - q). He sets sin ACM — ρ = — yy, having ■s/lay — yy — cc = and
+ bcp : (a—bq) = cp : (K — q). Finally, Euler determines the Moon's angular velocity
+ ("velocitates angulares lunœ") u expressed in terms of equivalent altitude of fall cor
+
+ responding to the circular motion in M and defined by the curvature radius r in that
+
+ point:
+
+ cc υ
+
+ ~ y3 (2a - y)
+
+ = cc : lay4 — cc : 2nay — 3cc cos 2MCN : 2nay
+
+ —3c^/2ay — yy — cc ■ sin2MCN : 2nay
+
+ = (K -q)4 : 2g3K - (K - q) : 2nK - 3(K - q) cos2MCN : 2nK
+
+ —3/7 sin 2MCN : 2nK
+
+ = {K - q)4 : 2g3K - (K - q) : 2nK
+
+ -3 cos 2MCN : 2η + 3cos(2MCN + ACM) : 2nK
+
+ ~ (K -q)4 : 2g3K - (K - q) : 2nK - 3cos(2D - 1118 · ACM : 605) : 2n
+
+ +3cos(2D — 513 · ACM : 605) : 2n. (81)
+
+ In this result Euler inserts the values α = 60 and b = 3, yielding c — ^/3,591,
+ g = 1,197, and Κ = 20. In order to gain practical numbers for u, he scales u,
+
+ 1,000,000,000,000 m = (1,000,000)2^(20 — q)4 : 40 · 11973 — (20 — q) : 40n
+
+ —3cos(2D — 1,118 · ACM : 605) : In
+
+ —3cos(2Z) — 513 ACM : 605) : 40n^, (82)
+
+ Ô Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 11:57:43 UTC
+All use subject to https://about.jstor.org/terms
+
+ 522
+
+ A. Verdun
+
+ so that the final result becomes
+
+ 1,000,000V" = 3.817949 (20- qf
+
+ , 42.3261
+ v (20 -q)
+
+ 2,539.566 / 1,118 ACM\
+ 7T cos I 2D I
+ (20 -q)2 V 605 /
+ 126.9783 / Λ 513ACAA
+ (20 - q)2 V 605 /
+
+ Η χ cos ( 2D I . (83)
+
+ Euler remarks that the parameter q must successively be substituted with the cosine
+ of the angles 1°, 2°, 3°, 4° etc. In this way one may construct lunar tables depending
+
+ on the angle ACM as table argument and on the angle D between the Sun and the
+ lunar apogee, measured from the apogee, which may be varied by, e.g, 30° or 45°,
+
+ represented by different tables, as well.
+
+ Appendix C: The content of Ms 273
+
+ This manuscript fragment consists of six Propositions, each of them followed by
+
+ Corollaries. Unfortunately, all thirteen figures to which Euler refers in the text margins
+
+ are missing.
+
+ Proposition I: Given the mass or active quantity ("quantitas activa") of a body being
+
+ at rest, find the motion of another body rotating around the former.
+
+ This proposition concerns the determination of the orbital (Keplerian) elements of
+
+ the two-body-problem. Let M be the mass of the Earth, r its radius, 5 the mass of the
+
+ central body (i.e., the Sun) located in one focus of the elliptic orbit (cf. Fig. 17, which
+
+ was adopted from Ms 397, fol. 121 ν). Let A be the aphelion and AS = f the distance
+ between A and S. Let Κ and υ be the altitudes corresponding to the velocities of the
+ body in A and in M, respectively. Let further be SM = y and Μ η = dy, where η
+ denotes a point infinitesimally close to M on the curve, and SP = p, where Ρ is the
+
+ intersection between the tangent line through M and the perpendicular through S to
+
+ this tangent. Let υ + du be the altitude corresponding to the velocity of the body in m
+
+ infinitesimally close to the point M on the curve. Due to the dynamic relation
+
+ Fig. 17 Euler's sketch of
+ Ms 397 explaining the central
+ force motion of the body M
+
+ around the central body S, A and
+
+ Β being the apo- and pericenter,
+ respectively
+
+ Ô Spring er
+
+ n
+
+ M
+
+ m
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 11:57:43 UTC
+All use subject to https://about.jstor.org/terms
+
+ Leonhard Euler's early lunar theories 1725-1752
+
+ 523
+
+ , . M S
+ ày \ άυ — — : —, (84)
+
+ rr yy
+
+ and due to the fact that du decreases when dy increases, Euler starts with the
+ equivalence
+
+ whose integral is
+
+ M dv —Sdy
+
+ rr yy
+
+ = -, (85)
+
+ Mv S t
+
+ rr y
+
+ — —l· A, (86)
+
+ where A denotes the integration constant (not to be confused with the aphelion). If the
+
+ body M is located in the aphelion, then υ — Κ and y = f holds, so that
+
+ A = --y. (87)
+
+ rr /
+
+ Substituting Eq. (87) into (86) gives
+
+ Mv -MK Sf - Sy Sfrr - Srry τ
+
+ = . or v=-+—— - + K. (88)
+
+ rr fy Mfy
+
+ Mf3K - MfKy2 - Sfrry + Srry2 = 0, (90)
+
+ or, after dividing by f — y,
+
+ MffK + MfKy — Srry = 0. (91)
+
+ Solving this equation for the perihelion distance y = BS gives
+
+ Β S = MttK— (92)
+
+ Srr - MfK
+
+ Thus, the major axis a = A Β ("axis transversus") becomes
+
+ Sfrr
+
+ AB = .
+ Srr -MfK
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 11:57:43 UTC
+All use subject to https://about.jstor.org/terms
+
+ Using the relation Κ : υ = pp : //, Euler eliminates υ in Eq. (88) and solves the
+ result for p:
+
+ ρ ρ = . (89)
+
+ Mf3Ky
+
+ Sfrr - Srry + Mfy Κ
+
+ If the body is situated in the perihelion, then ρ = y, and Eq. (89) becomes
+
+ 524
+
+ A. Verdun
+
+ Substituting this result into Eq. (89) Euler obtains
+
+ Maf>Ky MaffKy
+ Safrr — Sfrry Sarr — Srry
+
+ The distance between the two foci is given by = S^rr^-Mf κK ' which Euler uses to
+ determine the length of the minor axis c ("axis conjugatur orbitae"):
+
+ MfK ,ΜαΚ
+
+ C~ Ν Srr - MfK ~ 2^ Srr (95)
+
+ Therefore
+
+ Srrcc
+
+ 4//
+
+ = Μα Κ (96)
+
+ and Eq. (94) becomes
+
+ ccffy ccy
+
+ PP = V- (97)
+
+ 4 ff(a - y) 4 a- 4 y
+
+ The time element used to cover the infinitesimally small distance Mm is given by
+
+ (98)
+
+ Using the relations ρ : ν = mn : Mm or ρ ■ Mm = y · mn and thus mn = ,pd·'' ,
+
+ • r j -Jyy-pp
+
+ Mm ρ■Mm
+
+ s/v fjK
+
+ /V K (yy-pp
+
+ c , y
+
+ Ρ = — (99)
+
+ 2 a — y
+
+ 1 / Aayy — 4v — ccy
+
+ Vyy - pp = - / , (100)
+
+ 2 γ α — y
+
+ and
+
+ therefore
+
+ Ô Spring er
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 11:57:43 UTC
+All use subject to https://about.jstor.org/terms
+
+ py d y cy dy
+
+ f\JΚ(yy — pp) f^/4aKy — AKyy - ccK
+
+ (101)
+
+ whose integral is the time of revolution. The time element is defined by the uniform
+ straight line motion of the body from m ton, and thus given by . The infin
+
+ itesimally small area covered in this time is y ■ mn = 2 MSm. Let the total aera
+
+ Euler obtains for the time element = —p' d'v But
+
+ Leonhard Euler's early lunar theories 1725-1752
+
+ 525
+
+ of the orbit's ellipsis be A. The time of revolution ("tempus periodicum") Τ is then
+
+ defined by
+
+ 2 A
+
+ τ = 77ϊ· (102)
+
+ Substituting Eq. (96) into this result, one obtains
+
+ -ÎT7F
+
+ najMa
+
+ T = (l04)
+
+ Let 1 : π be the ratio between the radius of a circle and its perimeter.4 Hence the area
+
+ of a circle with radius a becomes βψ-. The ratio a : c between the major and minor
+
+ axes of the ellipse may also be expressed by the equivalent fractions 3ψ- : ^ψ-, from
+ which Euler infers to the area of the ellipsis A = ^ψ-. This substituted into Eq. (102)
+ gives
+
+ „ = a*,)
+
+ May
+
+ larJMSa^
+ Srr - MaK
+
+ 4 Note that Euler's definition of "π" implies that it is twice the value of Ludolph's number used in the
+ modern sense, which is the ratio between the diameter of a circle and its perimeter. He used that peculiar
+
+ kind of definition already in Ms397, fol. 122r, and in Ms 167, § 371. This is one of the earliest appearance
+ of the symbol π used in this meaning in Euler's work (cf. Mattmiiller 2010, p. 185). Some times later,
+ however, Euler defined and used this symbol already in the modern sense in his "Mechanica" (cf. Euler
+ 1736, Prop. 76, Coroll. 2, §613).
+
+ <£) Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 11:57:43 UTC
+All use subject to https://about.jstor.org/terms
+
+ When asking for the absolute time of revolution, the variables a and r in this formula
+ have to be expressed in Rhinelandian (Prussian) feet (cf. Ms 167, Section A above),
+
+ so that the time of revolution in seconds of time is given by
+
+ This proposition is followed by nine corollaries. In the first one Euler solves Eq.
+
+ (93) for Κ and substitutes the result into Eq. (88), which gives
+
+ Naming the moving body M by "the mobile", Euler concludes from this result, that
+
+ the square of the mobile's velocity is proportional to the distance M F from the non
+
+ attracting focus F and reciprocal to the distance MS from the focus S, being the center
+
+ of force. He notes in a second corollary, that ν = 0 if y ~ a. In the third corollary he
+
+ solves Eq. (93) for / and substitutes the result into Eq. (96), obtaining thus
+
+ In the forth corollary Euler denotes the time of revolution by T, which is—according
+
+ to Eq. (104)—proportional to -jj- He interprets this result in the fifth corollary for
+ the cases where several bodies move around one and the same center and around
+
+ He substitutes this result into Eq. (93), so that the major axis becomes
+
+ 526 A. Verdun
+
+ multiple centers. In the remaining corollaries he evaluates Eq. (105) numerically for
+ the motions of the Earth and of Venus, and determines the mass ratio S : M between the
+
+ Sun and Earth, obtaining 1,053,531:1. Euler adopted the time of revolution for Venus,
+ "224.d.l7.h.44'.55"." (cf. Ms 273, fol. 2v), most probably from the 1726 edition of
+
+ Gregory's book, from which he possessed a copy in his own library (cf. Gregory 1726,
+
+ p. IV from the "Editoris praefatio").
+
+ Proposition II: Let S be a [central] body attracting in any way, and M a mobile
+
+ thus describing any curve located in any point M ; determine the ellipsis, in which the
+
+ mobile proceeds, if the formers force immediately decreases according to the squared
+ ratio of the distances.
+
+ Let ν be the altitude [of free fall] corresponding to the velocity of M and S M = y.
+
+ Let Ρ be the force acting on M by 5, and a be the major axis ("axis principalis ellipsis"),
+
+ of which the arc element M m is an infinitesimally small part. Let the attracting central
+
+ force Ρ be — and c be the minor axis of the ellipsis. From Eq. (106) of Corollary
+ I it follows
+
+ »= no»)
+
+ Ma
+
+ Euler reformulates Eq. (96) using the relation Kff = vpp and obtains
+
+ Srrcc = AMaffK. (109)
+
+ When y changes into y + dy, the major axis increases by the element
+
+ Prry — Μ υ
+
+ Ρ Pr4yydy + PMrryydv — 2P Mrrvy ây — MrryyvdP
+
+ (Prry — Μυ)2 (1")
+
+ Euler inserts the relation Kff = vpp into Eq. (109) and obtains the parameter of the
+ orbit ("paramétra orbitae"):
+
+ cc 4M vpp
+ — = —. (112)
+ a Prryy
+
+ If y increases, then this parameter will also increase by the element (as first derivative
+
+ of 4pr"yy , where vpp is assumed to be constant)
+
+ —AMrrvppyy dP — 8A/ Prrvppy ày ,,,-,ν
+ ' ppr4V4 ^' (113>
+
+ Ô Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 11:57:43 UTC
+All use subject to https://about.jstor.org/terms
+
+ Leonhard Euler's early lunar theories 1725-1752 527
+
+ Euler concludes from this result, that the apsidal line will move according to the order
+
+ of the signs ("in consequentia"), if the major axis a increases by this element. Anal
+ ogously, if this element decreases, the major axis decreases as well. But if the major
+ axis either increases or decreases, this element decreases or increases, respectively,
+
+ and the apsidal line will retrograde against the order of the signs ("in antecedentia").
+
+ This is why a motion of the apsidal line can be recognized in any case.
+
+ This proposition is followed by seven corollaries. In the first one Euler inserts the
+
+ relation d)> : dt> = ^ : Ρ or du = ~Pr^d^ into Eq. (Ill) and obtains
+
+ —IPMrrvydy — MrryyvàP
+
+ (Prry — Mv)2
+
+ This element increases the major axis when y increases its element dy. In the second
+
+ corollary he relates the increments of the parameter and the major axis to each other.
+
+ The ratio of these increments is as 4 to çprryl_Mv^i > which is as 4pp(Prry —
+ Λ/υ)2 to PPr*y4 or as 4pp to aa. In the third corollary he introduces—probably for
+
+ the first time in his works on celestial mechanics—a "generalized law of gravitation",
+
+ defining
+
+ ρ = -, (115)
+
+ Ν
+
+ y"
+
+ where Ν denotes an arbitrary constant of proportionality. The first derivative of
+ Eq. (115) is given by
+
+ Euler substitutes these Eqs. (115) and (116) into the increment of the major axis
+ (Eq. 114) and of the parameter (Eq. 113), obtaining
+
+ η — 2 ■ MNrrydy η — 2 ■ PMrrvyày η-2-Maavây (J17)
+ yn~l(Prry ~ Mv)2 {Prry — Mv)2 Pr2y3
+
+ and
+
+ η — 2 · AMppvày
+
+ Pr2y3
+
+ respectively. He is thus able to infer important consequences from these results, which
+
+ are also relevant for the motion of the lunar apses. He concludes in the forth and fifth
+
+ corollary that, if η > 2 and y increases or decreases, then the major axis will increase
+
+ or decrease as well, respectively. If the force Ρ decreases in a ratio larger than the
+ square of the distances, then the major axis of the ellipsis increases with increasing
+
+ distances of the mobile from the focus, and decreases with decreasing distances from
+
+ it. The contrary is the case if η < 2. If therefore the central force Ρ decreases in
+
+ (»®
+
+ (118)
+
+ *£) Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 11:57:43 UTC
+All use subject to https://about.jstor.org/terms
+
+ 528
+
+ A. Verdun
+
+ a superior ratio than in the squared, then—so Euler continues in corollary VI—the
+ apsidal line moves according to the order of the signs ("in consequentia")· In the other
+ case, it moves against the signs ("in antecedentia"). In corollary VII he determines
+ the ratio between the orbit's velocity, i.e., the velocity of the apsidal line, and the
+ angular velocity of the mobile. Let PMQ be the tangent line through the mobile Μ,
+ SP and FQ perpendiculars through the foci S and F to this tangent. Let m be a point
+ of the ellipsis infinitesimally close to M achieved by the body while proceeding in his
+
+ motion on the curve and while the major axis is moving from F to / by the element
+ Ff. Thus the apsidal line progresses around S by the angle FSf. Let F g and MR be
+ the perpendiculars through F and M to the apse SF. Therefore, the ratio between the
+ angular motion of the body and the progressive motion of the apsidal line is given by
+
+ Mn Fg _ PS mn MR- Ff
+ SM ' SF ~ PMSM ' FM- SF'
+
+ Let SM + FM = a be the length of the major axis, SM = y, SP = ρ, PM — q, and
+ thus FM = a — y. From Eq. (117) Euler concludes
+
+ n-2-Maavdy n-2-aabdy
+
+ pf= p^Ty3 = JpTy · <12°)
+
+ where b denotes the parameter defined by b — 7^7^· He expresses the ratio of
+ Eq. (119) by
+
+ M η F g PS η — 2 ■ aab ■ MR
+ SM ' SF PMSM ' 4 SP2 ■ PM ■ FM SF
+
+ = 4 PS ■ SF ■ FM : m — 2 · aab ■ SM ■ MR. (121)
+
+ Using the relation SF:SP = 2MQ :MR, the ratio between the angular velocity of
+ the mobile and the angular velocity of the apsidal line becomes (regarding mn = dy)
+
+ 4 PS3 · SF2 ■ FM : ~2 · 2aab ■ SM ■ MQ ■ SP
+
+ = 2PS2 ■ SF2 ■ FM : n~^~2 ■ aab ■ SM ■ MQ. (122)
+
+ Considering the fact that
+
+ ab = — = —-, (123)
+
+ 4pp{a-y) ASP2 ■ FM
+ y SM
+
+ the ratio of Eq. (122) finally becomes
+
+ Moon's motion.
+
+ Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 11:57:43 UTC
+All use subject to https://about.jstor.org/terms
+
+ = 2PS2 ■ SF2 ■ FM : n~^2 ■ 4a SP2 ■ FM ■ MQ
+
+ = SF2 : 2n - 4 ■ aMQ = SF2 : 2n - 4 · FM ■ PQ. (124)
+
+ Proposition III: One asks for the force of the Sun causing the perturbation of the
+
+ Leonhard Euler's early lunar theories 1725-1752 529
+
+ In order to determine the Moon's motion in an adequate manner, it has to be
+ described with respect to an immobile location. Thus suppose the Earth to be immo
+
+ bile, and therefore consider the total motion impressed to the system of bodies always
+ to be equal and inverse directed to the Earth's motion. The forces acting on the Earth
+
+ have to be considered as acting in reverse direction on the whole system. Actually,
+
+ Euler neglects the Moon's mass and does not consider the force acting on the Sun by
+ the Earth. Let Τ be the Earth, ALB a part of the Moon's orbit, S the Sun, L the Moon,
+
+ and LT, LS its distances from the Earth and Sun, respectively. Let TS be the distance
+ between the Earth and the Sun. Let M and S be the masses of the Earth and the Sun,
+
+ respectively. The forces acting on the Moon L by the Earth Τ and the Sun S are given
+
+ by and jjj, respectively. The force acting on the Earth by the Sun is given by .
+
+ To consider the Earth to be. at rest means that this force has to be applied to the
+ Moon in the reverse sense along the direction parallel to TS (Euler wrote erroneously
+
+ TL). The force, with which the Moon is attracted to the Sun along the direction LS has
+
+ to be decomposed into the two directions LT and TS. Therefore, the forces acting on the
+ Moon by the Sun along LT and along TS (Euler wrote erroneously TL) become
+
+ and respectively. Taking into account all these force components, the resulting
+ forces acting on the Moon along LT and TS becomes
+
+ and
+
+ M S TL
+
+ M -LS3 +S TL3
+
+ TL? + LS3
+
+ TL2 ■ LS3
+
+ S-TS
+
+ S-TS3 -S- LS3
+
+ LS3 TS2
+
+ TS2 ■ LS3
+
+ Due to Corollary EX of Proposition I, the ratio of the masses between the Sun and the
+ Earth is 5 : M = 1,053,531 : 1 or 5 = 1,053,531 · M. Euler substitutes this relation
+
+ into Eq. (125) and obtains the force acting on the Moon along the Earth's direction
+ = + 1,053,531 · TÛ). He knew approximately the ratio between the
+ distances as TS : LT — 572 : 1. As an approximation he assumes LS ~ TS and obtains
+ for this force
+
+ (125)
+
+ (126)
+
+ (127)
+
+ The ratio between the force acting on the Moon by the Earth when disregarding the
+
+ Sun's action and the force when regarding the Sun's action is as 177-178.
+
+ Euler adds four corollaries to this proposition which, however, are of minor impor
+
+ tance and thus will be skipped here, because they concern only numerical estimations
+
+ and comparisons of the forces determined for different characteristic points of the
+ lunar orbit.
+
+ Proposition IV: Suppose the force acting on the Moon by the Sun is decomposed
+ into two components: one component which attracts the Moon towards the Earth,
+ and one which attracts the Moon along the direction parallel to the conjugation line
+
+ Ô Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 11:57:43 UTC
+All use subject to https://about.jstor.org/terms
+
+ This result may now be substituted into Eq. (114) to determine the variation of the
+
+ major axis. In addition, Eq. (108) may be written as
+
+ 530
+
+ A. Verdun
+
+ between the Sun's and the Earth's center. One asks for the perturbation of the Moon's
+
+ motion caused by the force component attracting towards the Earth.
+
+ Let the Moon be attracted towards the Earth by the force M ^Li+^IL according to
+
+ Eq. (125). Euler denotes LT-y and LS=z. Thus this force becomes
+
+ Λ/ζ3 + Sy3
+
+ y2z3
+
+ (128)
+
+ If y goes over into y 4- dy and ζ into ζ + dz, the increment of the major axis—let us
+ call it da—may be determined using Corollary I of Proposition II. The first derivative
+ of Eq. (128) is given by
+
+ , „ Sz3y4dy-2Mz6ydy-?>Sy5z2dz Szy3 dy-2Mz4 dy-3Sy4 dz
+ d P= = — 3~4~ · (129)
+
+ y*z° y^z
+
+ Prry - Μ υ = Prry}\ (130)
+
+ a
+
+ so that the increment or variation of the major axis da becomes
+
+ 3Saay — 3 Sayy
+
+ iFWr""-'1"· <I3I)
+
+ ldb]=M7Tsyh{yil-zày)· <l32)
+
+ To find out how the apsidal line moves when y increases by the element dy, one has
+
+ to investigate the power of y defining the decrease of the (gravitational) force. Let η
+
+ be this exponent. According to Eq. (117) the increment of the major axis becomes
+
+ η-2-Maavây η-2-aa-ay-ày 3Sy ■ (aa—ay)
+
+ [de| = = ? = ÏÏTTSyh ^iz~zày)·
+
+ (133)
+
+ from which it follows
+
+ - SSy^dz -zày)
+
+ η — 2= τ τ—. (134)
+
+ zàyiMz* + Sy3)
+
+ <£} Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 11:57:43 UTC
+All use subject to https://about.jstor.org/terms
+
+ Euler denotes the major axis of the orbit by a, and the orbit's parameter by b. Due
+ to Corollary II of Proposition II the ratio between the increment of the parameter
+ (let us call it db) and the increment of the major axis da is AT Ρ2 to aa, i.e., by to
+ aa—ay. He substitutes this relation into Eq. (131 ) and obtains for the increment of the
+
+ parameter
+
+ Leonhard Euler's early lunar theories 1725-1752 531
+
+ Fig. 18 Reconstruction of
+ Fig. 2 in Ms 273
+
+ In Proposition II, Corollary VII, Eq. (124), it was already shown that the ratio between
+
+ the angular velocity of the Moon and the angular velocity of the apsidal line is given
+ by SF2 to 2n — 4 ■ a ■ MQ. The distance between the foci of the ellipse is given by
+ SF2 = aa — ab. From the geometry of Fig. 18 Euler concludes that
+
+ PM-MF a-y■ PM
+
+ MQ = r. w
+
+ SM y
+
+ y y/A a — Ay
+
+ y/{lay - 2yy)2 - aby ■ a - y
+
+ a — y ■ jAayy — 4y3 — aby
+
+ Therefore,
+
+ 5F2 : η — 2 · aMQ = aa — ab : -———J(2ay — 2y2) — by a — y
+
+ y
+
+ = ay — by : η — 2 ■ yj(2ay — 2yy)2 — aby ■ a — y.
+
+ Using these results, (η — 2) can be substituted to obtain the ratio between the Moon's
+ angular velocity and the angular velocity of the apsidal line, representing—according
+
+ to Euler—the solution of the problem:
+
+ b ■ ζ dy(Mz3 + Sy3) : 35y2(y dζ - ζ dy)yj{lay — 2yy)2 — aby ■ a — y.
+
+ This proposition is followed by eleven corollaries and one scholium. In Corollaries
+
+ I—III Euler discusses the location and motion of the major axis according to the result
+
+ achieved in Eq. (131) for special cases, depending on the values of ày and dz. He uses
+ the results obtained from these conclusions in Corollaries IV-VI to quantify them,
+
+ assuming the ratio between the masses of Sun and Earth as S = 1,053,531 M, which
+
+ (135)
+
+ (136)
+
+ (137)
+
+ <£} Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 11:57:43 UTC
+All use subject to https://about.jstor.org/terms
+
+ was derived in Corollary IX of Proposition I. In addition, he supposes ζ = 572 y as
+ a result gained in Corollary IV of Proposition III, and uses the force ratio 177 : 178
+ as main result of that Proposition. He approximates the distance between the Earth Τ
+
+ and the empty focus F of the lunar orbit by FT = 5 in units of the Earth's radius. The
+
+ numerical results are not an important issue for the reconstruction of the development
+
+ of Euler's lunar theory and may be skipped here. In the remaining four corollaries
+ Euler analyzes the consequences which may be drawn from the ratio between the
+ Moon's angular velocity in any place of its orbit and the angular velocity of the lunar
+
+ apses, using and interpreting Eq. (137), again in terms of the values of d_y, dz, y, and
+
+ z. For this purpose he considers the infinitesimally small angular sector defined by
+
+ 532 A. Verdun
+
+ MSm = y
+
+ SP dy
+ MPSM'
+
+ The first factor of the denominator is given by
+
+ J2ay — 2yy2 — aby a — y
+
+ MP = -— — -,
+
+ 2a - 2y
+
+ and of the nominator by
+
+ He substitutes the last two equations into Eq. (138) and obtains
+
+ SP =
+
+ λ/aby
+
+ 2-Ja-y
+
+ MSm- iyJfya-y
+
+ vjl ay -  2yy — aby ■ a — y
+
+ Using the relation (137), the angular element covered by the apsidal line—let us call
+ it d&>—thus becomes
+
+ [cm = isnyiz-zW*byï=ï (142)
+
+ a - b ■ z(Mz3 + Sy3)
+
+ whose integral yields the motion of the lunar apse. To prepare this integration, Euler
+ reformulates Eq. (142) to obtain
+
+ [<M = Hggï ϋΞ| (j^£îî) . (143)
+
+ a — b(Mz3 + Sj3)
+
+ Assuming the first factor to be constant, the integration gives
+
+ [·ι^;··:;ι---ι. <■«)
+ (f-f )·
+ α - y(Mz3 + 5j3)
+
+ Ô Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 11:57:43 UTC
+All use subject to https://about.jstor.org/terms
+
+ Leonhard Euler's early lunar theories 1725-1752
+
+ 533
+
+ where ^ is the constant of integration with e denoting the distance between Sun
+ and Moon, measured when the latter is in perigee. If the direction of the apsidal line
+
+ happens to be in quadrature, so he concludes from Eq. (144), then [ω] =41' per month.
+ The apsidal line thus regresses with 82' = 1°22' per anomalistic month against the
+ series of the signs ("contra signorum seriem"). Euler does not comment on this result
+
+ with regard to that one obtained by Newton (cf. Newton 1687, Lib. I, Prop. XLV,
+ Coroll. II). In the Scholion that finishes this proposition, he states:
+
+ Vis haec de qua egi in nodos nullum habet influxum sed eos immutatos et immotos
+
+ sinit. directior [sic!] enim ejus in ipso piano orbite lunae sita est, efficitque ut
+ Luna in eadem semper piano immoto moveatur. Motus autem nodorum ut et
+ motus lineae absidum in consequentia debetur alteri vi partiali derivate a vi
+ solis, agenti secundum parallelas rectae Solem et terram jungentis.
+ (This force I have mentioned has no influence on the nodes, but leaves them
+
+ unchanged and immobile. Its direction coincides with the plane of the Moon's
+
+ orbit and causes the Moon to move always in one and the same immobile plane.
+
+ Consequently, the motion of the nodes and the motion of the apsidal line is due
+ to the other force component, which comes from the Sun's force acting along
+
+ the parallel to the straight line conjoining the Sun and the Earth.)
+
+ Proposition V: Suppose the Moon moving in an ellipse and another force is acting
+ on it, which may be derived from the Sun acting along the straight line conjoining
+
+ the centers of the Sun and Earth; find the perturbation of the Moon's orbit due to this
+ force.
+
+ Let S be the Sun, Τ the Earth, and L the Moon. Let CT be the line conjoining the
+
+ Earth and the quadrature points of the lunar orbit. Let further Ν be the intersection
+ between the lines CT and LS. The force repelling the Moon along the line CN is,
+ according to Eq. (126) of Proposition III, given by
+
+ S ■ (LS3 - TS3)
+
+ TS2 ■ LS3
+
+ (145)
+
+ Denoting LS — TS — LN, Euler approximates LS3, — TS3 by 3 · TS2 ■ LN, so that the
+ force becomes
+
+ Because LS may be considered constant with respect to LN, the force acting on
+ the Moon varies everywhere with its distance from the straight line conjoining the
+
+ quadratures. And consequently, the Moon is steadily departing from its orbit when
+
+ moving on the upper side of the quadratures, which is why the orbit becomes prolonged
+
+ in opposition; in the same way it is pulled away from the line conjoining the quadratures
+
+ and attracted towards the Sun in the lower part of the orbit, which is why the orbit is
+
+ also prolonged in conjunction. These prolongations cause the apsidal line to change
+ its position and to retrograde continuously; however, its progression dominates the
+
+ retrogression easily, as will be shown later on. From the fact that all points of the
+
+ <£) Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 11:57:43 UTC
+All use subject to https://about.jstor.org/terms
+
+ 534 A. Verdun
+
+ Fig. 19 Reconstruction of
+ Fig. 11 in Ms 273
+
+ orbit are pushed away from the line conjoining the quadratures and attracted along
+ the straight line conjoining the centers of Earth and Sun, one may conclude that the
+ line conjoining the nodes has to change, as well as the inclination of the Moon's orbit
+
+ with respect to the ecliptic. The angle of inclination must decrease when the Moon is
+
+ located in the syzygies, because the Moon is then retracted by the Earth and its distance
+ increases while the arc measuring the angle of inclination remains unchanged. This
+ proposition is followed by eleven corollaries which are skipped here.
+
+ Proposition VI: Due to the Sun's force the Moon is everywhere repelled away from
+
+ the straight line connecting the quadratures; find how far the Moon is at any point
+ dislocated from its orbit.
+
+ Suppose this force to act on a third body (which we would call today a "massless test
+
+ body") and investigate the effect which is produced on it. Let us begin by assuming,
+
+ for the sake of simplicity and facility, that the apsidal line coincides with the syzygies
+ (cf. Fig. 19). While the Moon proceeds from C to A, the Sun's force begins to repel
+
+ the Moon away from the straight line CD due to the transference of the force acting on
+ the Earth by the Sun to the Moon as explained in Proposition III. The resulting forces
+ act along the parallels to the apsidal line and vanish in the line CD due to the Earth
+
+ considered at rest by the transference of forces. Euler assumes that one of these forces
+
+ •fj Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 11:57:43 UTC
+All use subject to https://about.jstor.org/terms
+
+ He assumes that the distances Ρ ρ and LI are covered simultaneously, hence
+
+ LI : Pp = y/υ : *Ju> or LI2 : dx2 — ν : w. (148)
+
+ Euler denotes LR — q (not to confuse with the point ρ on the major axis), and
+ concludes from the equivalence of triangles that LI — Therefore,
+
+ Leonhard Euler's early lunar theories 1725-1752
+
+ 535
+
+ act not on the Moon but on another body a and attract it along the straight line aP.
+ Suppose the Moon has arrived at L and the body at P, and while the Moon proceeds to
+ /, the body—starting from Ρ—arrives at p. Euler denotes LT = y and α Ρ — χ. Let w
+
+ be the altitude (i.e., the height of fall) corresponding to the velocity of the body in P.
+ Then Ρ ρ = dx. Let ζ be the distance between the Sun and the Moon; from L, I take
+
+ the perpendiculars LQ, Iq to the (major) axis, defining thus TQ = t and Qq = d/. The
+ force moving the body in Ρ is given by Eq. (145). Starting again with Eq. (84) and
+ using the same meaning for the symbols M and r as at the beginning of his treatise,
+ Euler obtains
+
+ M 3 St ,
+ — : dx = —5- : dw or 3Srrt dx = M ζ dw. (147)
+ rr zâ
+
+ 7 wyy d ν2 -, -,
+
+ vdx —— or vqq dx = wyy dy. (149)
+
+ qq
+
+ Let a and c be the length of the major and minor axes (not to confuse with the test
+
+ body a), b the parameter of the ellipse or "latus rectum", and / the distance between
+
+ the foci. From properties of the geometry of the ellipsis, he derives
+
+ T0=2a,-m + ff ^ md LQ = (150)
+ 2/ 4 aa — 4 cc
+
+ Euler rewrites Eq. (100) as
+
+ \4ayy - 4y3 - ccy
+
+ « = <I—j—y— (151>
+
+ to obtain for Eq. (149) the equation
+
+ 2 {4a - 4y)wy2 dy Srr ■ (a - y) dx2
+ vdx = —; = — , (152)
+
+ 4 ayy — 4 y3 — ccy May
+
+ and consequently
+
+ Srr dx2 Awyydy2 ΓΊΓ 2ydyjw
+
+ = or rdxJ = =. (153)
+
+ Ma 4ay — 4yy — cc V Ma °J4ay — 4yy — cc
+
+ ô Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 11:57:43 UTC
+All use subject to https://about.jstor.org/terms
+
+ 536
+
+ A. Verdun
+
+ Euler then substitutes Eq. (150) for t intoEq. (147) and solves the result for χ to obtain
+
+ 2Mfz3 dw
+
+ ?>Srr(2ay — cc)
+
+ 2 Mz3 dw*Jaa — ab
+
+ 3Srr(2ay — ab)
+
+ 2y ày^/Maw
+
+ r y/S ■ (4 ay — Ay y — ab) '
+
+ (154)
+
+ (155)
+
+ (156)
+
+ from which he concludes
+
+ 2Mz3 dw^/a — b 2y dy(2ay — ab)
+
+ 3Sr ■ JMw JS ■ 4ay — 4yy — 4b
+
+ He integrates this equation, assuming the denominator as constant, and obtains
+
+ 2z3^/Mw ■ a - b §ay3 - \aby2 - \aCT3 + jab ■ CT2
+
+ 3 rjS sj a a — ab
+
+ which is, when setting CT = |, equal to
+
+ Iz^-a-b ,Mw 2 -, 1 2 1 , 1 , 2 ■> 1, 2 1 ,·?
+
+ ^—3y ~iby ~Έ" 8 3 — 2 24 ■ (,57)
+
+ He derives from Eq. (153)
+
+ ,Mw rdx ,a — b
+
+ - —rV · (158)
+
+ Sa y ay a
+
+ 2z3 dx(a - b)i 2 3 1 2 ' ,3
+ 3ydyja 3" 2 J 24
+
+ -y — -by + — b , (159)
+
+ the integral of which is
+
+ 2z3x(a — b)i 2 r 1 4 1 ^ , 1 s
+ ^ — = — v5 - -by4 + — b3y2 b5 (160)
+ 3 Ja 15 8 48 640
+
+ and therefore
+
+ â Springer
+
+ 3> (2 5
+ x = I —y
+
+ 27? · (α — b)i V
+
+ -by4 + — b3y2 - — b5\ (161)
+ 8 48 640 /
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 11:57:43 UTC
+All use subject to https://about.jstor.org/terms
+
+ which may be substituted into Eq. (157) to obtain the differential equation for dx,
+
+ Leonhard Euler's early lunar theories 1725-1752
+
+ 537
+
+ Euler sets y — \b + s, where s denotes the exzess over jb, thus obtaining
+
+ ^5-^4 + ^ν-^5 = >Λ (162)
+
+ which may be substituted into Eq. (161) to obtain the rectangular distance of the
+ dislocated position of ρ from the line CD:
+
+ bbs3^/a
+
+ χ =
+
+ 8 ζ3 (a -6)2
+
+ (163)
+
+ where s contains the accumulation of all "d_y", taken either as positive or negative. If
+
+ it is introduced by LI ■ d_y, it has always to be taken as affirmative due to LI.
+
+ Euler provides an alternative solution based upon the distance LQ = t. He refor
+ mulates the right hand side of Eq. (155) using Eq. (150): from the first one he derives
+
+ 2y,«c+/Vcc~4» (1M)
+
+ and from the second one
+
+ y4 ay — Ayy — cc = —(165)
+
+ c
+
+ The first derivative of Eq. (164) gives
+
+ -2 ft At
+
+ d>> = J (166)
+
+ c^/cc — 4 tt
+
+ Euler solves Eq. (165) for y to obtain
+
+ b = ffc + afV^n (m
+
+ c
+
+ All these results are substituted into Eq. (155), which becomes
+
+ 2 A/z3 dw^/a — b —fdt(fc + a-Jcc — 4 tt){ac + fy/cc — 4ff)
+
+ (168)
+
+ 3Sr^/Mw cc^/S ■ cc — 4tt
+
+ He introduces ρ and sets
+
+ Vcc — 4tt = ρ or 21 = -Jcc — pp, (169)
+
+ from which he gains the first derivative
+
+ = .no
+
+ 2v^c - pp
+
+ Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 11:57:43 UTC
+All use subject to https://about.jstor.org/terms
+
+ 538
+
+ A. Verdun
+
+ He substitutes Eqs. (169) and (171) into Eq. (168), which becomes
+
+ 2ccz3 àwy/M ■ a—b ρ dp(fc+ap)(ac+fp)
+
+ 3/r^/Sw 2 pyjcc — ρ ρ
+
+ accf dp+aacpd p+cffp d p+afpp d ρ
+ (171)
+
+ η dn4-a fr>nAr>
+
+ lyjcc — pp
+
+ The integration of the left hand side gives
+
+ 4ccz^ M w ■ a — b
+
+ 3 frjS
+
+ (172)
+
+ The integral of the term js — t (^^+//)^cc _ ^ Euler prepares the
+ remaining term for integration by the reformulation
+
+ cc dp + pp dp 2ccdp2 — ccdp + ppdp
+
+ af ■ ~ , = af
+
+ ly/cc - pp 2^/cc - pp
+
+ = = 073)
+
+ V s/cc - ρ ρ 2 /
+
+ The integration is straightforward if the ellipse is approximated by a circle:
+
+ where DCM denotes the sector composed of the straight lines DC and CM, which
+ inclose the arc MD of the semi-circle ADB. Euler obtains thus the result
+
+ 4ccz?\lMw ■ a — b 3 1 ,. 1 1 ,, Π, 7 ^
+
+ ?)frjs = 2af ' DCM-^afP~2aac ~ 2^CVC Ρ + Const
+
+ (174)
+
+ (175)
+
+ (176)
+
+ (177)
+
+ Euler tries to "construct" this result in such a way that the areas involved in Eq. (175)
+
+ can easily be computed, which is equivalent with an appropriate series expansion of
+ this result. He substitutes Eqs. (164)—(166) into Eq. (153) and obtains
+
+ S —dt{ac + f *Jcc — 4tt Mw -cr dx*Jcc — 4tt
+
+ rdxy/ = == or ,/
+
+ Maw cy/cc — 4 tt S d t(ac + fjcc — 4 tt)*]a
+
+ Using this result, the term (172) becomes
+
+ 4ccz^s/Mw ■ a — b —4c3z3 dx ■ *Jcc — 4tt ■ a — b
+
+ SfrJS 3/ dt{ac + f Vcc — 4tt)*Ja
+
+ Ô Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 11:57:43 UTC
+All use subject to https://about.jstor.org/terms
+
+ Leonhard Euler's early lunar theories 1725-1752
+
+ 539
+
+ Setting Vcc — 4tt = ρ and substituting Eq. (171), this term is ready for integration
+ by series expansion:
+
+ 8cV dXy/cc - pp f accf dp + aacpdp + cffpdp + afppdp
+
+ 3adp(ac + fp) J 2^/cc — pp
+
+ -/■
+
+ U'oJ
+
+ Euler develops the integrand into a series that he can integrate term by term:
+
+ - J accf dp + aacp dp + cffp dp + afpp dp ■
+ (\ , pp , 1-3·/ , 1-3-5·/ fl\
+ \c + 2c3 + 22 · 1 · 2c5 23 ■ 1 ■ 2 · 3 · c4 )
+ - nrfn A- 4- 1 ' 3 " ^ , 1 ' 3 ' 5 ' α/Ρ? η
+
+ 3 · 2 · 1 · c 5 · 22 · 1 · 2 · c3 7 · 23 · 1 ·2·3 · c5
+
+ afp3 a/»5 af ■ 1 · 3 · ρ1 n οσ
+ 3 · c 5-2-1 · c3 Ί -21 ■ 1 · 2 · c5 2c
+
+ +T^ + C 0 1 3 + -7 Λ2 1 / 5 &c <+aac + //c> ο
+
+ c/?4 1-3-/76 1 - 3 - 5 - /7s
+
+ + 4-2-l-c3 + 6 · 22 · 1 ■ 2 · c5 + 8 · 23 · 1 · 2 · 3 · c7 ~ '
+
+ (179)
+
+ where the value of the integration constant has to be determined in such a way that
+
+ the whole series vanishes if the Moon is located in the quadratures or if y — \b or if
+
+ ρ = is subtracted. The resulting series becomes thus
+
+ 8c3z3 dx*Jcc - pp _
+ 3adp(ac + fp) a° ^
+
+ 3q/P3 , 7 · afP5 , 33 · afp1
+ 5 · 21 · 1·c 5 · 22 · 1 · 1 · c3 7 · 23 · 1 · 2 · 3 · c5
+ pp 1 · σ4 1 · 3 · ρ6
+
+ +(αα + //) * γ + 4 . 2 . j . c2 + 5 . 22 . j . 2 . c4 &c
+ , ^ , 3cc/4 7cc/6
+ +«// + ——— + 2 —4 &c
+
+ 3 · 2 · 1 · aa 5 · 2Z · 1 · 2 · cr
+
+ —4 . 21 ■ 1 ■ a4 6 ■ 22 ■ 1 ■ 2 - a6 (180)
+
+ , 1 -cc/4 , 1 · 3 ■ cc/6 /lom
+
+ and therefore
+
+ 8c3 ζ3 d Xy/cc — ρ ρ _
+ ~iadp(ac + fp) ° ^
+
+ 3 afp3 lafp5 33afpl
+
+ 3 · 21 ■ 1 · c 5 · 22 · 1 ■ 2 · c3 7 · 23 · 1 · 2 · 3 · c5
+
+ Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 11:57:43 UTC
+All use subject to https://about.jstor.org/terms
+
+ 540
+
+ A. Verdun
+
+ ρρ σ4 1-3 · ρ6
+
+ +<<"■ + /ΛΤ + 4 ■ 2 -1 - c2 + 5 · 22 ■ 1 ■ 2 ■ c*
+
+ ^ &c
+ 2 4 · 2 ■ 1 · α2 80 · α4 896 · α6
+
+ Before Euler proceeds with the investigations of this equation he considers the case
+ where the Moon is orbiting in a circle, i.e., if / = 0 and/or a = b = c. In this case
+
+ 8 a3z3 AxJaa - pp 8 z3 dx Jaa — ρ ρ α3
+
+ 3~^Tp 3dp — =~γ^αα~ ΡΡ + const. (182)
+
+ If this constant is set to be = then
+
+ 4
+
+ 71 Aa 3 ρ Ί\Αα — 4068p
+
+ (187)
+
+ 16 - 1356 ■ (572)3 16· (572)3 16 · 1356 - (572)3 '
+
+ 16z3dx = _^=^_3û3d/,5
+
+ Jaa — pp
+
+ and consequently
+
+ 16z3x = 3aA I ^ : — 3a3p.
+
+ = 3"7
+
+ *Jaa - pp
+
+ Let a be the circle's radius and sin ρ = A in degree. Eqn. (184) becomes
+
+ ^ 3 HAa4 „ 3
+ 'fe ' = W " 3 'P.
+
+ 71Αα4 3a3 ρ
+ 16 · 1356 · ζ3 16ζ3
+
+ hence
+
+ But if ζ = 572a, then
+
+ At this point the manuscript ends abruptly.
+
+ Appendix D: The content of Ms 276
+
+ This unfinished manuscript is well prepared for publication. Euler formulated the para
+
+ graphs carefully. The first three introductory paragraphs reveal that Euler became fully
+
+ aware of the difficulty involved in developing an accurate lunar theory, which is only
+
+ possible by approximation. The use of series expansions of trigonometric functions
+
+ appears here probably for the first time and thus represents a further innovation. Due
+
+ to the importance of Euler's statements, which reflect his insight and new approach,
+
+ I will not only paraphrase but translate them in full length:
+
+ "£] Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 11:57:43 UTC
+All use subject to https://about.jstor.org/terms
+
+ Leonhard Euler's early lunar theories 1725-1752 541
+
+ "That the motion of the Moon—however perturbed—does agree very well with the
+ Newtonian hypothesis of attraction is proved more than sufficiently both by obser
+ vation and by the conclusions drawn from this hypothesis. Even if this principle of
+ attraction is burdened with such difficulties, that one has to keep it strictly away from
+ a rational way of philosophy, its usefulness—particularly for astronomy—is anyway
+ considerable when considered as phenomenon; and without its help no important
+ things could have been achieved in the theory of celestial motions until now. Observa
+
+ tions make clear that planets and comets move in the same way as if they are attracted
+
+ by the Sun and by each other in the ratio given by Newton. From this, two completely
+
+ different questions emerge, which should by no means be confused with each other:
+ the first one concerns physics and demands a mechanical reason for this phenom
+ enon consisting of the mutual attraction of the celestial bodies. The second question,
+
+ however, concerns the determination of the motions caused by this force of attraction
+
+ in order to complete the theory of astronomy itself, and to calculate and predict the
+
+ particular phenomena most accurately.5
+
+ Concerning the second question, by which astronomy has achieved its biggest
+ progress, it has been accomplished so far by its first discoverer Newton that hardly
+
+ something remains to be added, in particular with regard to the primary planets, the
+
+ theory of which is no longer fraught with difficulties, apart probably from the tables of
+
+ the motion of Saturn which need some correction when it is staying near conjunction
+
+ with Jupiter, because then one observes that its motion is perceptibly perturbed. The
+
+ motion of the Moon, however, caused by the twofold force of the Sun's and the Earth's
+
+ attraction, is so much difficult to determine, that nothing else than approximations
+
+ could be done. By appraising the question very carefully Newton showed after all not
+
+ only that his theory matches with all irregularities of the Moon, but he had completed
+
+ the lunar theory itself prodigiously, even if the complexity of the driving forces does
+
+ not allow an analytic approach to the calculation.6
+
+ 5 Motum lunae quantumvis perturbatum appri me congruere cum Hypothesi attractionis Newtonniana, cum
+ observationes turn conclusiones ex hac hypothesi deducts satis superque testantur. Etsi autem istud attrac
+ tionis principium tantis laborat difficultatibus, ut a sana philosophandi ratione longissime arceri debeat,
+ tamen si instar phasnomeni spectetur, ejus in Astronomia praecipue maximus est usus; neque sine ejus
+ subsidio quicquam solidi in theoria motuum cœlestium adhuc est praestitum. Per observationes igitur cer
+ tissimum est planetas et cometas perinde plane moveri, quasi cum a sole turn a se mutuo attraherentur,
+
+ idque ea ratione quam Newtonus indicavit. Ex quo duae prorsus divers® quaestiones nascuntur minime inter
+ se permiscendœ; quarum prima ad Physicam pertinet atque istius phaenomeni in attractione mutua cor
+ porum cœlestium positi causam mechanicam postulat. Altera quaestio autem versatur in definitione exacta
+
+ motuum, qui ab hac attractionis vi resultare debent, ut hinc ipsa theoria astronomia perficiatur, atque singula
+
+ phenomena exactissime per calculum supputari ac praedici queant (cf. Ms 276, fol. lr, § 1).
+
+ 6 Quod ad posteriorem qusstionem attinet, unde Astronomia maxima adepta est incrementa, ea a primo
+ inventore Newtone simul eo usque perfecta esse videtur, ut vix quicquam addendum supersit: praecipue
+ si ad planetas primarios respiciamus, quorum theoria nullis amplius difficultatibus involvitur, nisi forte
+ tabula: motuum Saturni emendatione indigent turn, cum circa conjunctionem Jovis versatur; quo tempore
+
+ ejus motus notabiliter perturbari deprehenditur. Lunae autem motus, qui a duplici vi attractiva solis et terra
+
+ oritur, tantopere fit determinatu difficilis, ut prater approximationes nihil praestare liceat. Newtonus quidem
+
+ rem vero proxime aestimando non solum suam theoriam omnibus anomaliis lunae convenire ostendit, sed
+
+ etiam ipsam theoriam motuum lunae mirifice perfecit. etsi complicatio virium sollicitantium non permittet,
+ ut calculo analytico accessus concedatur (cf. Ms 276, fol. lr-lv, § 2).
+
+ ·£) Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 11:57:43 UTC
+All use subject to https://about.jstor.org/terms
+
+ 542
+
+ A. Verdun
+
+ If we consider the question in its own rights, which demands the [determination
+
+ of the] motion of a body like the Moon caused by a twofold driving force, the power
+
+ of the analysis known until now seems to be insufficient to describe such a motion
+ with confident rules; and it would not have been possible even now to accomplish
+ anything going in that direction, if one would not have called the approximation for
+
+ help. It is convenient that the force emerging from the Sun is less of a multiple than
+
+ the force of the Earth driving the Moon, and this is why it becomes possible to treat
+
+ initially the Moon's motion in such a way, as if it is driven only by the Earth, but
+ then one had to investigate the deviations from this quite regular motion occurring
+ from the Sun's force; this would not have been possible if the forces of Earth and
+ Sun would not come close to the ratio of unity. Furthermore, the orbit of the Moon's
+
+ motion makes the approximation easier and more accurate at the same time, because
+
+ it does not much deviate from a circle. Using these resources I tried to find out how
+ much could be achieved by means of calculations."7
+
+ In the following paragraphs 4 and 5 Euler treats first the two-body-problem of the
+
+ Earth-Moon system, then (in the remaining) the three-body-problem of the Sun-Earth
+
+ Moon system. He assumes the lunar orbit to be coplanar with the ecliptic. Let A be the
+
+ perigee, Τ the Earth, and AT = a. Let b be the velocity corresponding to the altitude
+ (=hight of free fall) of the Moon at perigee directed along the straight line AT. The
+
+ Earth is considered to be at rest, while the Sun is revolving around it contrary to its
+
+ annual motion. Let the Moon be moving from A to any position L, thus describing the
+
+ arc AL or the angle ATL = χ during the time interval T. Euler denotes the distance
+ between the Earth and the Moon by LT = y. Let LN be the tangent through L and
+ TP = ρ the perpendicular from Τ to LN intersecting the tangent in P. Let ν be
+ the velocity corresponding to the altitude of the Moon in L, and let Ip = dy be an
+ infinitesimally small radial element of the distance between Earth and Moon. Due to
+
+ LP = J {y y - ρ ρ),
+
+ (188)
+
+ and due to the equivalence of the triangles TPL and Lpl (do not confuse the point ρ
+ with the distance ρ = TP), the distances Lp and LI covered in the time element di
+ become
+
+ Lp =
+
+ pdy
+
+ J(yy - pp)
+
+ and LI =
+
+ J(yy - pp) '
+
+ (189)
+
+ 7 Quodsi enim quaestionem in se perpendamus, qu[a] motus corporis requiritur, qui a duplici vi sollicitante
+ veluti luna producitur, vis analyseos adhuc cognita minime sufficere videtur ad ejusmodi motum certis
+ regulis circumscribendum. neque quicquam in hac parte etiamnunc praestare licuisset, nisi approximatio in
+ subsidium vocari potuisset. Commode scilicet usu venit ut vis a sole oriunda multoties minor sit vi terrae
+
+ lunam sollicitante, ex quo motum lunae primum ita tractare licuit, quasi a sola vi terra oriretur, turn vero
+
+ aberrationes ab hoc motu, satis regulari a vi solis oriundas investigari oportebat; quod fieri non potuisset,
+ si vires terra; et solis magis ad aequalitatis rationem accederent. Prsterea vero ipsa motus lunae orbita ideo
+ quod a circulo non multum recedit approximationem turn faciliorem turn accuratiorem reddit. His igitur
+ subsidiis, quantum calculi ope effici queat, periculum faciam (cf. Ms 276, fol. lr, § 3).
+
+ Ô Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 11:57:43 UTC
+All use subject to https://about.jstor.org/terms
+
+ motion driven only by the Earth's gravitational force, Euler applies the equation of
+
+ motion as given in his "Mechanica" (cf. Euler 1736, Def. 15, Corol. 5, § 207: gf = ^,
+
+ Leonhard Euler's early lunar theories 1725-1752
+
+ 543
+
+ This time element dΤ itself, and the corresponding angular element djt, are given by
+
+ dT = yJi a„d i, = . (190)
+
+ Jv(yy - pp) yViyy - pp)
+
+ Euler sets both the accelerative gravitational force on the Earth's surface and the
+ Earth's radius = 1. The force acting on the Moon by the Earth along the direction
+ LT then is = which he decomposes into the tangential and normal components.
+
+ Thus the former becomes = —an(j the latter = Λ. To determine the Moon's
+
+ y3 y3
+
+ _ 2Av
+
+ and §209: r = =ψ·, where A = 1), considering that the tangential component is a
+ retarding force:
+
+ du du J(yy - pp) J{yy - pp)
+ Ll yéy y3
+
+ -Ύ7Γ ' Ψ = 4 <192>
+
+ rad. Ose. y dy y0
+
+ But Eq. (191) simply is du = ^, which can easily be integrated:
+
+ v = b-- + ~. (193)
+
+ a y
+
+ This result, inserted into Eq. (192), gives
+
+ 2(„-Ι + Γ)ί£ = ίϊ or (194)
+ V a y J P yy Ρ y(l+by- £)
+
+ which can be integrated as well:
+
+ 2tp = t—i y+C, (195)
+
+ l+by-i
+
+ C = 2ta-t^~ =2la + tb. (196)
+
+ ab
+
+ This constant, inserted into Eq. (195), gives
+
+ 2ep = t^y, <197}
+
+ t+by-z
+
+ "£) Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 11:57:43 UTC
+All use subject to https://about.jstor.org/terms
+
+ where I denotes the logarithm to the base 10 and C the constant of integration. Euler
+
+ determines this constant by setting y = a and ρ = a, so that C becomes
+
+ and substitutes it into Eq. (198), obtaining
+
+ 544
+
+ and therefore
+
+ A. Verdun
+
+ »-7&Τ
+
+ This equation contains the nature of the Moon's orbit. Denoting the latus rectum
+ tentatively with CT = c, Euler derives the relation
+
+ which represents the equation for an ellipse with major axis c. Because the Moon's
+ orbit does not much differ from a circle, one may approximately use the value c = 2a,
+ otherwise α = where η is a big number. Likewise, if y does not much deviates
+
+ from \c, Euler finds
+
+ = (199)
+
+ a c
+
+ a(c~a)y /0Am
+ ρ ρ = , (200)
+
+ c - y
+
+ 1 ω
+
+ υ = - +
+
+ c c
+
+ (nn — 1 )cc
+
+ ρ ρ = .
+ 4nn(l + ω)
+
+ (201)
+
+ (202)
+
+ where ω is a very small value, and thus
+
+ With these results the two-body-problem is solved, and Euler passes on to the three
+ body-problem considering also the Sun's force.
+
+ Let the ratio between the forces of the Sun and the Earth be as m to 1 (at equal
+
+ distances). Let the distance between the Sun S and the Earth Τ be ST = h, and the
+
+ angle ATS = k. This angular argument has to be considered as variable. The Earth is
+
+ attracted towards the Sun along the direction TS by the force = jg-, which has to be
+ transferred with inverse direction to the Moon and parallel to the direction TS, if the
+
+ Earth has to be considered at rest. This statement seemed to be quite self-evident for
+
+ Euler at that time when writing this manuscript:
+
+ Attrahetur ergo terra ad solem in directione TS vi = quae quia terram qui
+ escentum spectamus transferri debet in lunam contrarie, ita ut luna sollicitata
+ considerari debeat in directione LM parallela directioni TS vi =
+
+ It proves that the principle of the transference of forces had been fully established by
+
+ him at that time. The procedure following that statement underlines this conjecture.
+
+ The force acting on the Moon by the Sun along the direction LS is given by ~y. Let the
+
+ geocentric angular distance of the Moon from the Sun be the argument LTS = k — x.
+
+ <0 Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 11:57:43 UTC
+All use subject to https://about.jstor.org/terms
+
+ —τ = (hh — 2hy cos A{k — x) + yy) ?
+ LSi
+
+ 1 3ycosA (k — x) 3yy lS^cos A(k — jc))2
+
+ ~ Λ3 + h* 2h$ + 2p etC"
+
+ 1 ( 3jcosA (k-x) _ 9 yy _ 15yy cosA2(& - χ) /r>n^
+
+ ~ h3 Λ4 + 4h5 4Λ5 ' { '
+
+ We see Euler here introducing approximations by series expansions into celestial
+ mechanics. Using this result, the forces acting on the Moon along the directions LT
+ and LM become, respectively,
+
+ Leonhard Euler's early lunar theories 1725-1752
+
+ 545
+
+ Euler derives the distance between the Sun and the Moon from the geometry of the
+ system:
+
+ LS2 — hh + yy — 2 hy cos A(k — x), (203)
+
+ where A has no mathematical meaning, but has the task to indicate that A: — λ: is the
+ Argument or Arc ("Arcus"). Euler decomposes the force into components acting
+
+ along the directions LT and LV, and denotes it with the same symbols: LT = and
+
+ h
+
+ LV = ~x. The direction LV is identical with LM mentioned in the quotation above. In
+
+ the following calculations he uses only LM instead of LV for the direction parallel to
+
+ TS. To consider the Earth at rest means, that the force component acting on the Moon
+
+ along the direction LM becomes ^ ^. He expands into a trigonometric series,
+ probably for the first time in the context of lunar theory:
+
+ 1 3
+
+ my 3myy cos A(k — χ) 9my
+ Ρ"+ h4 + 4h5
+
+ + 4ÂS +etC·
+
+ \5my3 cos A2(k — y)
+
+ and
+
+ 7>my cos A(k — jc) 9myy 15myy cos A2(k — x)
+
+ Λ3
+
+ 4 h4
+
+ 4 h4
+
+ [+] etc. (205)
+
+ Due to the parallelism of the lines TS and LM, the angle k — χ is also defined by
+ MTL — k — x. Furthermore, the sine and cosine of the angle TLP is given by
+
+ c sin TLP — —
+
+ \y-pp) <206)
+
+ cos TLP = ,
+
+ y
+
+ respectively, and the sine and cosine of the angle MLN = MLT — PLT is given by
+
+ c sin MLN — sin A(k — x) — — cos A(k — x)
+
+ cos MLN = — sin A(k — χ) H ——cos A(k — x),
+
+ y /( - \ (207)
+
+ Ô Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 11:57:43 UTC
+All use subject to https://about.jstor.org/terms
+
+ 546
+
+ A. Verdun
+
+ respectively. From the force acting along LM results the normal force
+
+ 3mjiyy-pp) . Imp 3mp
+
+ —3 sin A2 (t -x)-w-w cosA2(A - x),
+
+ neglecting small terms, and the accelerating tangential force becomes
+
+ ^sinA2 +
+
+ And from the force acting along LT results the normal force
+
+ and the accelerating tangential force
+
+ πιρ
+
+ J- (210)
+
+ m-J(yy - ρ ρ)
+
+ h*
+
+ (211)
+
+ 4 (212)
+
+ y3
+
+ But the force acting on the Moon by the Earth produces the normal component
+
+ and the accelerating tangential component
+
+ _V07_££)
+ y
+
+ The resulting tangential force accelerating the Moon thus is given by the combination
+ of Eqs. (191), (209), (211), and (213):
+
+ dvV(yy-pp) -J(yy-pp) | mj(yy-pp)
+
+ ydy y3 2h3
+
+ from which Euler concludes
+
+ 2vd ρ ρ mp
+ y d y _y3 2 Λ3
+
+ ô Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 11:57:43 UTC
+All use subject to https://about.jstor.org/terms
+
+ 3°"' sin A2(t—,)+ cosA2(A—jr). (214)
+ 2Λ3 v ' 2Λ3
+
+ _ d_y mvdy 7>mpydyûnA2{k—x) 3mydycosA2(k—x)
+
+ yy~^~ 2Λ3 ^ Itfjiyy — pp) 2Λ3 ' (215)
+
+ The resulting normal force acting on the Moon is given by the combination of
+ Eqs. ( 192), (208), (210), and (212):
+
+ Leonhard Euler's early lunar theories 1725-1752
+
+ 547
+
+ + Wto - „) sin A2(t _ f) _ imp cosA2(t _ ^ (216)
+
+ Euler substitutes Eq. (190) into Eq. (215) and obtains
+
+ dy my dy 3myy dx sin A2(k—x) 3mydycosA2(k—x)
+ dti = h -I —-τ 1 —-τ , (217)
+ yy 2 Λ3 2/i3 2 Λ3
+
+ which he can integrate immediately:
+
+ 1 myy 3myy cos A2(k — x)
+
+ V = C + - + ^T+ 4P
+
+ 1 I myy 3myy cos A2(k - χ) ,Λ]0λ
+ V==y"c+4P+ 4P * (218)
+
+ "This equation defines the absolute velocity of the Moon at any position in its orbit,
+ which can be determined from the Moon's distance from the Earth, from the angular
+
+ separation between Sun and Moon given by k — x, and from the Earth's distance from
+
+ the Sun, whose variation does not affect the velocity considerably."
+
+ On the remaining folios of this manuscript Euler tries to prepare the equation of
+
+ motion (216) due to the normal force for the integration. For that purpose he has first
+
+ to figure out the items p, v, 2vdp, etc. If the Moon's motion is driven only by the
+ Earth, then Eq. (200) holds, as shown above, representing the unperturbed Keplerian
+ motion. Using the abbreviation a(c — a) = bb, this equation becomes
+
+ P = bJ-L-. (219)
+
+ c-y
+
+ But due to the additional action of the Sun, this parameter needs to be corrected. The
+ results obtained above gives Euler the idea of a general ansatz:
+
+ y ,mP mQ cos A2(k - x) mR sin A2(k - x)
+
+ "-b^— + W + ^3 + ρ ■ <220>
+
+ where P, Q, and R are coefficients to be determined. We observe here Euler's very
+
+ early use of the method of undetermined coefficients for solving differential equations
+
+ in lunar theory. The first derivative of Eq. (220) is given by
+
+ be Ay mdP
+
+ P 2(c~y)J(cy - yy) + h3
+
+ mdgcosA2(£ - x) ImQpày .
+
+ + Ρ + ^V(yy-PP)&mA2ik ' x)
+
+ mdRsmA2(k — x) 2mRpdycosA2(k — x)
+
+ + h3 h3yj(yy - pp)
+
+ <£) Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 11:57:43 UTC
+All use subject to https://about.jstor.org/terms
+
+ 548
+
+ A. Verdun
+
+ Using Eq. (219), the distance PL becomes
+
+ ν(„-ρρ)=νί22_Ζΐ1^2,
+
+ v(c - y)
+
+ and therefore, approximately,
+
+ Ρ
+
+ V(yy - PP) Jcy-yy-bb'
+
+ (223)
+
+ Euler substitutes Eqs. (219), (220), and (223) into the equation of motion (216) to
+ obtain
+
+ 2vap = 1 ~
+
+ bdyjy , mP dy
+ yyj(c - y) hsyy
+
+ +
+
+ mQdycosA2(k—x) mR dy sin A2(k — x)
+ h}yy h3yy
+
+ mb y lmydyj(cyy - y3 - bby) .
+
+ ~v?y + WTTc - y) sm A2<< " x)
+ - ϊψΑΐΑ cosA2(jÎ — χ) - (224)
+ 2h3y/(c - y) h3yy/(yy - pp)
+
+ On the other hand, the product 2v dp is also given by Eqs. (218) and (221 ), resulting in
+
+ „ , bdy 2m(c — y)dP 2m(c — v) dQ cos A2(£ — x)
+ 2vd ρ = — 1 r 1
+
+ y.s/(cy — yy) hôcy hàcy
+
+ 4mb(c — y)QdysinA2(k—x) mbcydy^/y
+
+ h3cyy^(cy - yy - bb) 4h*(c - y)$
+
+ 4mb(c — y)R dy cos A2(k — x) 2m(c — y) dR sin A2(k — x)
+
+ h3cyy^/(cy — yy — bb) h3cy
+
+ 3mbcyy dy cos A2(k — x)
+
+ H ~ ^ . (225)
+
+ 4h3(c - y)ïy/y
+
+ Bernoulli, Johann. 1712. Extrait de la Réponse de M. Bernoulli à M. Hermann, datée de Basle le 7. Octobre
+
+ 1710. Mémoires de l'Academie Royale des Sciences (Paris) 12(1710): 521-533.
+
+ References
+
+ Ô Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 11:57:43 UTC
+All use subject to https://about.jstor.org/terms
+
+ At this point (§ 10), the fragment of the manuscript ends. It is quite possible that Euler
+ determined the coefficients P, Q, and R on the lost folios. It is therefore not clear
+
+ whether he already applied the method of undetermined coefficients in full length and
+
+ whether he was already able to solve the differential equation approximately. Evidence
+
+ for the former assumption is given by the way of his approach presented above.
+
+ Leon hard Euler's early lunar theories 1725-1752 549
+
+ Bertoloni Meli, Domenico. 1993. The emergence of reference frames and the transformation of mechanics
+
+ in the Enlightenment. HSPS 23(2): 301-335.
+
+ Bomie, ?. 1708. Des forces centripetes et centrifuges, Considérées en général dans toutes sortes de Courbes,
+ & en particulier dans le Cercle. Mémoires de l'Academie Royale des Sciences (Paris) 9 (1707), Ail-Ail.
+
+ Boulliau, Ismael. 1645. Astronomia philolaica. Parisiis: Simeonis Piget M.DC.XLV.
+ Bredekamp, Horst, and Wladimir Velminski. 2010. Mathesis <6 Graphé. Leonhard Euler und die Entfaltung
+
+ der Wissenssysteme. Berlin: Akademie Verlag.
+
+ Burkhardt, Heinrich. 1908. Entwicklungen nach oscillirenden Functionen und Integration der Differential
+ gleichungen der mathematischen Physik. In Mathematiker-Vereinigung, vol. 10, ed. Jahresbericht der
+ Deutschen. Leipzig: Teubner.
+
+ Burckhardt, Johann Jakob, Emil A. Fellmann, and Walter Habicht (eds.). 1993. Leonhard Euler 1707-1783.
+
+ Beitràge zu Leben und Werk. Gedenkband des Kantons Basel-Stadt. Basel: Birkhàuser Verlag.
+
+ Cantor, Moritz. 1901. Vorlesungen iiber Geschichte der Mathematik. DritterBand, von 1668-1758, Zweite
+
+ Enestrôm, Gustaf. 1906. Der Briefwechsel zwischen Leonhard Euler und Daniel Bernoulli. Bibliotheca
+
+ ed. Leipzig: Teubner.
+
+ Mathematica 1: 126-156.
+
+ Enestrôm, Gustaf. 1910. Verzeichnis der Schriften Leonhard Eulers. Jahresbericht der Deutschen
+
+ Mathematiker-Vereinigung, Ergânzungsband IV. Leipzig: B. G. Teubner.
+
+ Euler, Leonhard. 1736. Mechanica sive motus scientia analytice exposita. Tomus I. Petropoli: Ex
+
+ Typographie Academiae Scientiarum.
+
+ Euler, Leonhard. 1750. De novo genere oscillationum. Comment, acad. sc. Petrop. 11(1739): 128-149.
+ Euler, Leonhard. 1750. Methodus facilis computandi angulorum sinus ac tangentes tam naturales quam
+
+ artificiales. Comment, acad. se. Petrop 11(1739): 194-230.
+
+ Euler, Leonhard. 1750. De seriebus quibusdam considerationes. Comment, acad. se. Petrop. 12(1740):
+
+ Euler, Leonhard. 1750. Emendatio tabularum astronomicarum per loca planetarum geocentrica. Commend,
+
+ acad. se. Petrop. 12(1740): 109-221.
+
+ Fellmann, Emil A. 1983. Leonhard Euler-Ein Essay iiber Leben und Werk. In: [Burckhardt et al. 1983],
+
+ 53-96.
+
+ 13-98.
+
+ Fellmann, Emil Α., and Gleb K. Mikhailov. 1998. Leonhardi Euleri Commercium Epistolicum. Commercium
+ cum Johanne (I) Bernoulli et Nicolao (I) Bernoulli. Leonhardi Euleri Opera Omnia, Series quarta A,
+ Volumen secundum. Basileae: Birkhàuser.
+
+ Fellmann, Emil A. 2007. Leonhard Euler. Translated by Erika Gautschi and Walter Gautschi.
+
+ Fraser, Craig G. 1994. The origins of Euler's variational calculus. Archive for History of Exact Sciences
+
+ Basel/Boston/Berlin: Birkhàuser.
+
+ 47(2): 103-141.
+
+ Goldstine, Herman H. 1980.A History of the Calculus of Variations from the 17th through the 19th Century.
+ (Studies in the History of Mathematikcs and Physical Sciences, Vol. 5). New York/Heidelberg/Berlin:
+ Springer-Verlag.
+
+ Gregory, David. 1726. Astronomiœ physicœ & geometricœ elementa. Secunda Editio revisa & correcta.
+
+ Genevae: Bousquet M.DCC.XXVI.
+
+ Guicciardini, Niccolô. 1999. Reading the Principia. The Debate on Newton's Mathematical Methods for
+
+ Natural Philosophy from 1687 to 1736. Cambridge: Cambridge University Press.
+
+ Hermann, Jacob. 1716. Phoronomia, sive de Viribus et Motibus corporum solidorum et ftuidorum libri duo.
+
+ Amstelaedami: Apud Rod. & Gerh. Wetstenios M.D.CCXVI.
+
+ Jammer, M. 1957. Concepts of Force. A study in the foundations of dynamics. Cambridge: Harvard Uni
+
+ Katz, Victor J. 1987. The Calculus of Trigonometric Functions. Historia Mathematica 14: 311-324.
+ Keill, John. 1708. De legibus virium centripetarum. Philosophical Transactions of the Royal Society of
+
+ versity Press.
+
+ London 26: 174—188.
+
+ Kopelevii J.C., M.V. Krutikova, G.K. Mikhailov, N.M. Raskin. 1962. Rukopisnye materialy L. Ejlera ν
+ Archive Akademii Nauk SSSR/Manuscripta Euleriana Archivi Academiae Scientiarum URSS, Tomus
+ I, Descriptio scientifica. (Acta archivi academiae scientiarum URSS, Fasc. 17). Moskva/Leningrad:
+ Akademija Nauk.
+
+ Kutschmann, Werner. 1983. Die Newtonsche Kraft—Metamorphose eines wissenschaftlichen Begriffs. Stu
+
+ dia Leibnitiana, Sonderheft 12. Wiesbaden: Franz Steiner Verlag.
+
+ <£) Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 11:57:43 UTC
+All use subject to https://about.jstor.org/terms
+
+ Machin, John. 1729. The Laws of the Moon's Motion. According to Gravity. In [Newton 1729], Vol. 2,
+
+ 550 A. Verdun
+
+ Maltese, Giulio. 2000. On the Relativity of Motion in Leonhard Euler's Science. Archive for History of
+
+ 289-292.
+
+ Exact Sciences 54: 319-348.
+
+ Mattmiil 1er, Martin. 2010. Eine neue Art Mathematik zu schreiben. In [Bredekamp et al. 2010], 177-188.
+ Mikhailov, Gleb K. 1965. Rukopisnye materialy L. Ejlera ν Archive Akademii Nauk SSSR/Manuscripta
+ Euleriana Archivi Academiae Scientiarum URSS, Tomus II, Opera mechanica. (Acta archivi academiae
+ scientiarum URSS, Fasc. 120). Moskva/Leningrad: Akademija Nauk.
+
+ Moivre, Abraham de. 1717. Proprietates quaedam simplices Sectionum Conicarum ex natura Focorum
+ deducts; cum Theoremate generali de Viribus Centripetis; quorum ope Lex Virium Centripetarum ad
+ Foco Sectionum tendentium, Velocitates Corporum in illis revolventium, & Descriptio Orbium facillime
+ determinantur. Philosophical Transactions of the Royal Society of London: 30, 622-628.
+
+ Newton, Isaac. 1687. Philosophiae naturalis principia mathematica. Londini: Jussu Societatis Regiae ac
+
+ Typis Josephi Streater MDCLXXXVII.
+
+ Newton, Isaac. 1729. The Mathematical Principles of Natural Philosophy. Translated into English by
+ Andrew Motte. To which are added, The Laws of the Moon's Motion according to Gravity. By John
+ Machin. In Two Volumes. London, Printed for Benjamin Motte MDCCXXIX.
+
+ Taton, René, and Curtis Wilson (eds.). 1989. Planetary astronomy from the Renaissance to the rise of
+ astrophysics. Part A: Tycho Brahe to Newton. (The General History of Astronomy, Vol. 2). Cambridge:
+ Cambridge University Press.
+
+ Varignon, Pierre. 1703a. Maniéré generale de determiner les Forces, les Vitesses, les Espaces, & les Tems,
+
+ une seule de ces quatre choses étant donnée dans toutes sortes de mouvemens rectilignes variés à
+ discrétion. Mémoires de l'Academie Royale des Sciences (Paris) 2( 1700): 22-27.
+
+ Varignon, Pierre. 1703b. Du mouvement en général par toutes sortes de courbes; et des forces centrales, tant
+ centrifuges, que centripetes, nécessaires aux corps qui les décrivent. Mémoires de l'Academie Royale
+ des Sciences (Paris): 2(1700): 83-101.
+
+ Varignon, Pierre. 1703c. Des forces centrales ou des pesanteurs nécessaires aux Planetes pour leur faire
+ décrire les orbes qu'on leur a supposés jusqu'ici. Mémoires de l'Academie Royale des Sciences (Paris):
+ 2(1700): 218-238.
+
+ Varignon, Pierre. 1704. Autre Regie Generale des Forces Centrales. Avec une maniéré d'en déduire &
+ d'en trouver une infinité d'autres à la fois, dépendemment & indépendemment des Rayons osculateurs,
+ qu'on va trouver aussi d'une maniéré infiniment generale. Mémoires de l'Academie Royale des Sciences
+ (Paris) 3(1701): 20-38.
+
+ Varignon, Pierre. 1705. Des Courbes Décrites Par le concours de tant de Forces centrales qu'on voudra,
+ placées à discretion entr'elles, & par rapport aux plans de ces mêmes Courbes. Mémoires de l'Academie
+ Royale des Sciences (Paris) 5(1703): 212-229.
+
+ Varignon, Pierre. 1707a. Comparaison Des Forces centrales aves les Pesanteurs absolues des corps mûs de
+
+ vitesses variées à discrétion le long de telles Courbes qu'on voudra. Mémoires de l'Academie Royale
+ des Sciences (Paris) 8(1706): 178-235.
+
+ Varignon, Pierre. 1707b. Différentes manières infiniment generales De trouver les Rayons osculateurs de
+ toutes sortes de Courbes, soit qu'on regarde ces Courbes sous la forme de Polygones, ou non. Mémoires
+ de l'Academie Royale des Sciences (Paris) 8(1706): 490-507.
+
+ Varignon, Pierre. 1712. Des Forces Centrales Inverses. Mémoires de l'Academie Royale des Sciences (Paris)
+
+ 12(1710): 533-544.
+
+ Verdun, Andreas 2010. Entwicklung, Anwendung und Standardisierung mathematischer Methoden und
+
+ physikalischer Prinzipien in Leonhard Eulers Arbeiten zur Himmelsmechanik. [Development, Applica
+ tion, and Standardization of Mathematical Methods and Physical Principles in Leonhard Euler's Works
+
+ on Celestial Mechanics.] Habilitationsschrift (written in German), Bern: University of Bern (Switzer
+ land).
+
+ Verdun, Andreas. 2011. Die (Wieder-) Entdeckung von Eulers Mondtafeln. [The (Re-) Discovery of Euler's
+
+ Lunar Tables.] N.T.M. 19: 271-297. doi:10.1007/s00048-0l 1-0053-6.
+
+ Verdun, Andreas. 2012. Leonhard Euler's early lunar theories 1725-1752. Part 1: first approaches, 1725—
+
+ 1730. Archive for History of Exact Sciences, published online 02 December 2012, doi:10.1007/
+ s00407-012-0112-y.
+
+ Westfall, Richard S. 1971. Force in Newton's Physics. The Science of Dynamics in the Seventeenth Century.
+
+ London/New York: MacDonald/American Elsevier.
+
+ Ô Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 11:57:43 UTC
+All use subject to https://about.jstor.org/terms
+
+ Leonhard Euler's early lunar theories 1725-1752 551
+
+ Wilson, Curtis. 1970. From Kepler's Laws, So-called, to Universal Gravitation: Empirical Factors. Archive
+
+ for History of Exact Sciences 6: [89]—170.
+
+ Wilson, Curtis. 1989. Predictive astronomy in the century after Kepler. In: [Taton et al. 1989], Chap. 10,
+
+ [161]—206.
+
+ Wolfers, Joseph Philipp. 1848. Leonhard Euler's Mechanik oderanalytische Darstellung der Wissenschaft
+
+ von der Bewegung, mit Anmerkungen und Erlauterungen. Erster Theil. Greifswald: C. A. Koch's
+ Verlagshandlung.
+
+ Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 11:57:43 UTC
+All use subject to https://about.jstor.org/terms
+
+

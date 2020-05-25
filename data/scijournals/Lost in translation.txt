@@ -1,0 +1,2908 @@
+ 
+
+ 
+
+ 
+
+ 
+
+Lost in translation? Reading Newton on inverse-cube trajectories
+Author(s): Niccolò Guicciardini
+Source: Archive for History of Exact Sciences, Vol. 70, No. 2 (March 2016), pp. 205-241
+Published by: Springer
+Stable URL: https://www.jstor.org/stable/24913478
+Accessed: 18-05-2020 09:11 UTC
+
+ 
+REFERENCES 
+Linked references are available on JSTOR for this article:
+https://www.jstor.org/stable/24913478?seq=1&cid=pdf-reference#references_tab_contents 
+You may need to log in to JSTOR to access the linked references.
+
+JSTOR is a not-for-profit service that helps scholars, researchers, and students discover, use, and build upon a wide
+
+range of content in a trusted digital archive. We use information technology and tools to increase productivity and
+
+facilitate new forms of scholarship. For more information about JSTOR, please contact support@jstor.org.
+
+Your use of the JSTOR archive indicates your acceptance of the Terms & Conditions of Use, available at
+
+https://about.jstor.org/terms
+
+Springer is collaborating with JSTOR to digitize, preserve and extend access to Archive for
+History of Exact Sciences
+
+This content downloaded from 203.78.15.150 on Mon, 18 May 2020 09:11:29 UTC
+All use subject to https://about.jstor.org/terms
+
+ Arch. Hist. Exact Sei. (2016) 70:205-241 /βΝ CrossMark
+ DOI 10.1007/s00407-015-0170-z VC/
+
+ Lost in translation? Reading Newton on inverse-cube
+ trajectories
+
+ Niccolö Guicciardini1
+
+ Received: 1 September 2015 / Published online: 5 November 2015
+
+ © Springer-Verlag Berlin Heidelberg 2015
+
+ Abstract This paper examines an annotation in Newton's hand found by H. W. Turn
+
+ bull in David Gregory's papers in the Library of the Royal Society (London). It will
+
+ be shown that Gregory asked Newton to explain to him how the trajectories of a body
+
+ accelerated by an inverse-cube force are determined in a corollary in the Principia·.
+
+ an important topic for gravitation theory, since tidal forces are inverse cube. This
+
+ annotation opens a window on the more hidden mathematical methods which Newton
+
+ deployed in his magnum opus. The received view according to which the Principia are
+
+ written in a geometric style with no help from calculus techniques must be revised.
+
+ Mathematics Subject Classification 01A45
+
+ 1 A standard view on the birth of rational mechanics
+
+ Historians like to disprove received views as much as mathematicians like to prove
+
+ long-standing unsolved conjectures. And in this paper, I might seem to be following
+
+ a pattern that is often adopted by historians in order to arouse bewilderment and elicit
+
+ praise. I will open my contribution with a view of the reception of Isaac Newton's
+
+ Principia that enjoys wide currency. But let me state from the beginning that my
+
+ aim is not to disprove: rather, my more modest claim is that the received view needs
+
+ qualification as it offers too simplistic a narrative.
+
+ Communicated by: Jed Buchwald.
+
+ IS Niccolö Guicciardini
+
+ niccolo.guicciardini@fastwebnet.it; niccolo.guicciardini@unibg.it
+
+ ' Facoltä di Scienze Umanisdche, Universitä degli Studi di Bergamo, via Pignolo 123,
+
+ 24121 Bergamo, BG, Italy
+
+ Springer
+
+This content downloaded from 203.78.15.150 on Mon, 18 May 2020 09:11:29 UTC
+All use subject to https://about.jstor.org/terms
+
+ 206
+
+ Ν. Guicciardini
+
+ The standard view is this: Newton's Principia revealed to mankind the right physics,
+
+ but did so in an obsolete mathematical language. Indeed, it is claimed, Newton discov
+
+ ered a true universal law that regulates the motions of bodies, but instead of using the
+
+ right mathematical language, the calculus, he used geometry. So, the story continues, it
+
+ is the merit of Continental mathematicians, such as Johann Bernoulli, Pierre Varignon,
+
+ and Leonhard Euler, if the Principia got translated into the right language, the differen
+
+ tial and integral calculus due to his mathematical enemy, Gottfried Wilhelm Leibniz.1
+
+ In this context, it is often claimed that it is Jacob Hermann and Johann Bernoulli who
+
+ first applied calculus to central force motion by integrating the equations of motion
+
+ for inverse-square central forces.2
+
+ This narrative has several features that deserve praise. It demonstrates once more
+
+ that in the eighteenth century the notion of "Newtonianism" was a highly latitudinar
+
+ ian concept, since a mathematized Newtonian planetary theory could be advanced in
+
+ Leibniz's notation and by adopting Leibnizian physical principles, such as conserva
+
+ tion of vis viva, by actors who, most often, did not endorse the notion of action at a
+
+ distance implied by gravitation theory.
+
+ However, the standard view is too simplistic. It attributes to a monolithically defined
+ Continental school, based in Basel, Paris, and the academies of Berlin and Saint Peters
+
+ burg, all the advances in the algebraization of mechanics (the supposed translation of
+
+ Newton's geometrical style of the Principia into the language of calculus), forgetting
+
+ the contributions in this direction provided by British mathematicians such as David
+
+ Gregory, Roger Cotes, Abraham De Moivre, James Stirling, Thomas Simpson, and
+ Colin MacLaurin. Further, the standard view is based on considering what Newton
+
+ printed in the Principia, but ignores what he wrote in his manuscripts and what he
+
+ circulated through his correspondence.
+
+ The standard view on the reception of the Principia is rooted in the highly emo
+
+ tional nationalistic terrain of the Newton-Leibniz controversy. At the beginning of the
+
+ eighteenth century, Leibniz and his supporters, such as Johann Bernoulli, claimed that
+ the absence of calculus in Newton's magnum opus was proof positive that its author
+
+ did not possess the new analysis by 1687. Indeed: if Newton had the calculus, why did
+
+ he not use it in his mathematical theory of gravitation? This emotional terrain is still
+
+ fertile nowadays, and sometime one has the impression that the flames that fuelled the
+
+ Newton-Leibniz controversy have not yet been extinguished!
+
+ 1 Two classic masterpieces in which this view is defended are Blay (1992) and Truesdell (1960).
+
+ 2 "Newton solved what was called afterwards for a short time 'the direct Kepler problem' ('le probleme
+
+ direct'): given a curve (e.g. an ellipse) and the centre of attraction (e.g. the focus), what is the law of this
+
+ attraction if Kepler's second law holds? The 'probleme inverse' (today: the 'probleme direct') was attacked
+
+ systematically only later, first by Jacob Hermann, then solved completely by Johann Bernoulli in 1710
+
+ and following Bernoulli by Pierre Varignon" (Speiser 1996, 103). However, as we shall see, in writing
+ his Principia Newton successfully applied his method of fluxions to the inverse problem for inverse-cube
+ forces. Whether he could do the same for inverse-square forces is an open question. However, Newton's
+
+ procedure expounded in an annotation to Gregory dated 1694, and which I analyse in this paper, when
+
+ applied to inverse-square forces leads to a quadrature that Newton could perform. The quadrature occurs in
+ the second catalogue of curves (ordo octavus) of De methodis (Newton 1967-1981, 3, 252), and a similar
+
+ quadrature is employed in the solution of Corollary 2, Proposition 91, Book 1: for details, see Guicciardini
+ (2009, 282-90).
+
+ Springer
+
+This content downloaded from 203.78.15.150 on Mon, 18 May 2020 09:11:29 UTC
+All use subject to https://about.jstor.org/terms
+
+ Lost in translation? Reading Newton on inverse-cube trajectories
+
+ 207
+
+ Let me state in boldface letters that it is not my aim to enter into such controversies,
+
+ which rather than playing the role of a combative assumption, should constitute a
+
+ dispassionate object of study for the historian (so one might legitimately ask how
+ British nationalism shaped the Newton-Leibniz controversy, for example). My aim
+
+ is not to vindicate Newton, but to interpret his work. My aim is not to answer in the
+
+ positive to the often-posed question "Did Newton use his calculus in the PrincipiaT,
+ since this is a bad historical question, in my opinion.
+
+ The calculus is not an object, like a pebble (which is, indeed, translated as calculus
+
+ in Latin), that can be discovered by one lucky researcher alone, but consists of a
+
+ combination of concepts, notations, rules, and theorems. It would be difficult to say
+
+ exactly which of these elements makes the calculus what it is, and certainly it would
+
+ be simplistic to think that one can find it by inspection, after opening the cover of
+ Newton's magnum opus.
+
+ I am convinced that historians of mathematics should not ask themselves ques
+
+ tions of priority and of attribution of merit. The reasons why credit attribution so often
+
+ polarizes the attention of historians of mathematics are to be sought in nationalism and
+
+ school-partisanship that permeate the ethos of academia (and are sometimes defined
+
+ as "healthy"). Yet, as Luke Hodgkin puts it: "Awarding points to individuals or civ
+
+ ilizations for their excellence in mathematics should not be part of the business of
+
+ history" (Hodgkin 2005, 70). The history of mathematics should try to answer good
+
+ historical questions, and I will try to identify a few of them at the end of this paper.
+
+ But what makes a question a "good" historical question? This is very difficult to say,
+
+ as difficult as it is to tell good mathematical conjectures from bad ones.
+
+ 2 David Gregory's Notce to the Principia
+
+ An important document that sheds light on the mathematical methods employed by
+
+ Newton in the Principia is an annotation written by Newton for David Gregory, the
+
+ nephew of Newton's great contemporary James Gregory. In 1687, when he was the
+
+ holder of the Chair of Mathematics in Edinburgh, he received a complimentary copy
+
+ of the Principia. He remained quite impressed and began to carefully annotate the
+
+ magnum opus in the early autumn of that year. The result was a 213-page manuscript
+
+ entitled Notce in Newtoni Principia Mathematica Philosophice Naturalis? Probably
+
+ for political reasons, in 1691 Gregory moved to Oxford, where he was appointed
+ to the Savilian Chair of Astronomy. He soon became a convinced Newtonian, in
+
+ connection with a group of compatriots of his, whom Anita Guerrini has labelled the
+
+ "Tory Newtonians," and who included Archibald Pitcairne, John Craig, and John Keill
+ (Guerrini 1986).
+
+ The Notes provide a thorough commentary on the Principia, from beginning to
+
+ end. They were written in three stages, as is evident from the dating, as well as from
+
+ the paper and ink used. The original manuscript in Gregory's hand is kept in the Royal
+
+ 3 The original is MS 210 (Royal Society Library, London). There are also three other copies: in Christ
+ Church (Oxford), in the University Library (Edinburgh), and in the Gregory Collection of the University of
+ Aberdeen.
+
+ ■£} Springer
+
+This content downloaded from 203.78.15.150 on Mon, 18 May 2020 09:11:29 UTC
+All use subject to https://about.jstor.org/terms
+
+ 208
+
+ Ν. Guicciardini
+
+ Society (London) and shelved as MS 210. The first 33 pages, a commentary on the
+
+ first nine sections of Book 1, were written in Edinburgh and are dated from September
+
+ 1687 to April 1688. The remaining pages were written in Oxford and are dated from
+ 23 December 1692 to 29 January 1694. There are also later additions, sometimes
+
+ written on slips of paper affixed with paste or wax. The last addition was made in
+
+ 1708, the year of Gregory's death. At some point, Gregory wished to publish the Notce
+
+ as a running commentary to the Principia. He may have communicated this project
+
+ to Newton at the beginning (4-8) of May 1694, when he was admitted to Newton's
+ chambers in a first of a series of visits.
+
+ The May 1694 visit was very important for Gregory, since it occurred after a period
+
+ of tension between him and Newton. The 5-day meeting changed Gregory's scientific
+
+ life. During these days, Newton showed him his projects for a revision of the Principia,
+
+ and let him study his tracts on fluxions, including an early version of Tractatus de
+
+ quadratura curvarum (the treatise published as an appendix to the Opticks in 1704),
+
+ where Newton developed "quadrature" techniques, that is methods aimed at calculating
+ the area of a surface subtended under a curve. The two men also discussed the Ancients'
+
+ prisca sapientia, religion, astronomy, alchemy, optics, and much more.
+
+ We are in a lucky position, since Gregory wrote detailed memoranda of his encoun
+
+ ters with Newton that are still extant. Some of these memoranda have the character
+
+ of rather quick working annotations, and in some of them, Newton's handwriting is
+
+ mixed with Gregory's: the pupil seems to have taken as many quick notes as he could
+
+ with the help and encouragement of his master. And not a few concern the Principia.
+
+ Indeed, in a memorandum (penned in July 1694) we read (in Turnbull's English
+
+ translation):
+
+ The second treatise [a draft of De quadratura] will contain his [Newton's]
+ Method of Quadratures [...] To this he will subjoin tables [...] on these [tables]
+
+ depend certain more abstruse parts in his philosophy as hitherto published, such
+
+ as Corollary 3, Proposition 41 and Corollary 2, Proposition 91.4 (Newton 1668—
+ 1694, 386)
+
+ Here, Gregory is referring to two corollaries of the Principia, and he is clearly making
+
+ the observation that Newton's quadrature techniques expressed in "tables" (or "cat
+
+ alogues") inserted in De quadratura are employed in these "more abstruse parts" of
+
+ Newton's work. The first corollary deals with central force motion in an inverse-cube
+
+ force field (an important topic for gravitation theory, since tidal forces are inverse
+
+ cube), the second with the attraction exerted by a homogeneous ellipsoid of revolution
+
+ on an external point situated on the axis of revolution (a result central for Newton's
+
+ 4 The original Latin text, of which we translate only a few relevant passages, reads: "Secundus Tractatus
+ Methodum suam Quadraturarum continebit quae rem istam mire augebit et promovebit [...] Huic subjungit
+
+ tabulas pro diversis formis et gradibus figurarum usque ad ordinem decimum [...] Item alias tabulas ad usque
+
+ classem undecimum ubi spatia non quadrabilia cum coni sectionibus comparantur. Innituntur quaedam
+ abstrusiora in Philosophia sua hactenus edita ut Corol: 3 prop. XLI et Corol: 2 prop. XCI." Newton (1967
+
+ 1981), 7, p. 197. It is very interesting that Gregory refers to tables in which "spaces which cannot be squared
+
+ are compared with conic sections," since, as we shall see below, these are the quadrature techniques that
+
+ allow the most difficult of the quadratures implied in Corollary 3.
+
+ •ö Springer
+
+This content downloaded from 203.78.15.150 on Mon, 18 May 2020 09:11:29 UTC
+All use subject to https://about.jstor.org/terms
+
+ Lost in translation? Reading Newton on inverse-cube trajectories
+
+ 209
+
+ (<ν i *)
+
+ ,, Jt ί* ι ' Λ* '' '* * ' " - '-/·
+
+ -V"' ' ' ■* . — f" '' Λ''> -'·-/* . % ^
+
+ κ r*'" ·*· «"y·--".« ** *&,
+
+ ι.,.# I«? - "* **!"* ^ *"* W" ,*·-/·' /«■ *·ί· ^
+ -&»«»· A^'f* ·*■ ■■· ■ ttjpef&to 4+
+ -* "ί··ν''· *' " t· ·* ·" <*»>.·■»' >
+ ■ ···#■ ■ -/.·■'« /-..+. —*; · ^-v
+ . - -*-···. -f - w t··"* /-*· —??··Κ ' -WV.
+ ' «'««»'·' . _ . . ,,e*/
+ f ( ._*? <.*· /*■ "* -» *-J'"~ f»,·"#* ·><«. ..·, /, jg.
+ ['^ ■' *·" " " - v· .' , ,,
+ - K7"'"""· "* - •*A~ «-·».* ... ι
+ «« »""»-*·, /»·- ·» *#*¥»,« bt*,£»r4v m. .4*
+ |."Α f*Ni V-*'W *H hy*a* r<mA c»«(U. £ «,4^,.
+ .«*» Ct 1ν>....·νΛ/ tjÄvy*.·. A ^
+ »V »&+>·» έ" / <*■&?*/, fm Jt, ,
+ /A. —f
+ f--** t«· ·*··»·«-·«- «*- «·(.··*»/« .w*·« .*.#t $4h*fr
+ Ρ··'- "V" '"ΐ-7»— >"··■■' ,wj;,7,wr'^
+ -*■ «· λ-^λ—/ ι5«ί(ΐα· μ ■ λα, "</■' if" «-*,-·/
+ .. A*V*~ s*. Λ r "· -«· ■·.·
+ ,*js»«». , , ·
+
+ .J » £M X ~^C/ K,*J , W <«W*. i (.(_
+ ,i2; £M ** X**J -.-..»v <* / ci»
+
+ '****. ;—«·*» *»''-····' x+r**+*"··! '
+
+ {*?-* "· f.**, p^K» f f-'f .·*»». «Ar n» Wt(,w' :
+
+ Γί .·· i "· <** f A ·?■/"! >' 1 "·«.· ·*»
+ λ,κ·^· **» «/>···*' ***-"·"'.
+ \. ..λ ^ <·» ο m/£.v Af^,u Ο'Ύ fv ' ' ·** «**«1«·*- <»* ί»·
+ . ,«*. #-· --»* <"# <··«' k^mJ c "T t# '·■·: I ***** . ««· CPi*fKt\
+ f,r f'x 3 χ *#,, -jy wv.,.—» «/ iX' «)?»*#. li^uvn,"
+ ff Iii '· .r iflf, ä9jF *+r>, ~rtr uf ΓνΑ. jrf
+ m «| "iii Ay M'"·'· >'·> α ßl· Ac StA ν iftc
+ Μ sij· .«♦·"<« ji~ 3*4 <· — '··■* ι·#«··,-'-' Λ . ßi- Ac C, «Χ Λ*·»-»«. («AHftfwA·.'
+
+ ^Sk- -~-— 1 'L^J- (,rn J- f.f· (lj !rkS*vt *f$ f ~~~ Q.X ' '
+
+ _- .λ25- * *-*- c ψ r i> ^ — Jjg- ■ r-"* ***- ·***» = 2|-r - •i*—··
+
+ j 7" ^,<-.„v!»W* »«, <f- S^·* /·""" ntfr*'». £*·»·$ν»Λι.«,v— Ä««, C&£ { '
+
+ . J y V./W «·'-♦ ·- f <*W' /^" **,***"·<· ft«*«. A... $£***· CPj.f
+ = — -^r- ^ F2> =- 2|i _ iii. ;
+ f # fr+~ P*"p XX* IX bt&eUki rt*#fe*AU' i» φ n/nflif./.. „ J Λ.^ i;
+ £# trifte-1■**.}/*- Jiff *k*;x k»6<**mJ η*ίΜ."-ί ~ 0 j
+ i##' ^i'. > ·«·· ..j· * ί "ί Γ* i"<$ u / ^ I il ^ 2 ,ϊ Y
+ >Λ i' ■'}·¥'· 3* &»fiiuS, *ki i,af··tig §λ(ψ ht*pm# & ^ V ■!-*/' ■··»·/ . ·?
+ 4r'rtf}w>fc 'hr "' f~ ·■» ·*- - a· j- =2, £ —·!»<
+ -l>r "*. " ·*·---· a. "'··'·
+ r- Zf-sJzS /·* f i-2,^ {iS^,s4f 4' ,
+ -,V»« -«{' ' · '' "Γνί,Τ-St- f.T'V
+ rjuJo «W&W»·: Ä· ^ p*r /sV»i&9um λ# '^Αβί' .
+ r»4-Je o·"4*'*· e«^ ASü" $# ».-·ί#·«Α» >A-- rfef&Su* &φ! t^e/ i
+ a,Bi l i'ii ^t·»* ^»'»4 * "2'/· Ua&jft» i* /L· j J6 A.·
+ «»»« ι Λΐ ßml*» *. <| ;'■ Ua£y4t ή /i-> ».^Äß.· />00,jj4 ,fe«
+ 5; Mwa , i«i> jjj. '1 |w j**.m*£3^.^3.« :
+ 5, .vAw· S, ii ■ £■ ^ τ^,ν
+ Ρ ;* * >*■*>' ψ.- qt. (ίί
+ -|ä' *" *'* ■·"'"*"»—w t -w <v»· f··*" ·'«*> y ι.-·'τ
+ ί#»/ α,^Α V»i- r_- SovHiM VC/ ;i«/ Iii VC/' /J« f yjf. JfeA»·
+ Λ,. ^Λ»κί B-v*#. V« Ä ΰ — £txt*r< VC J {/><*/ >ϊ$ fk* VC f {f-J fjo,
+ .y^-J v*·; ~f+*±tJ ν y >- Λ 5»#v. Λν/J fuAjih /3tVCp
+ . ^ *.-pwyl. ·· :,s.«i><a.£<k.iu.$!tuS C j* f '**· X 9*f-r e-*$C$ fu&ßjh
+ (f**· ,^'f ι W.'/ ρ* r*y*f eJ/ituS;**, ,Λ».
+ ,^$Ψ^Φηφ,·, %®'|Ι
+ f»(<·'cx'"ei
+ • - " ^ A - ««'»üBBÄre·
+ l'st** 6jt n/f*- fr**, rn*φι·1 $t ·*ψ**"β^* . ftw^ 2 r
+ r,·. , i»y; ρΜΓ
+ •'"Γ"" ■·' ^ ,5^' Zf ^ f*"A ZZdr*
+ ^ 4«. X*V!««-ie- v% . ,
+ C,' 4»f — -ZZ. Vt-' f·«/»·,·^ ]/χλ" 1} - ~Λ~~* ί
+ ν / v«l 4-«( ν'Αχγΐ; ~ ζ :z M\~* ^·λ« iSp j .;;
+
+ ':". Q*r f**f- I ' [-·*»}·* 'Ά'« uafii .I$aayt»*' frnu/*** φ*β ca*pvA β$ α£Κ4·-.Si,:#Αβ1
+
+ ί"»ννί*,- ^ ίϊ,Λ.· β,ννϊίΑ Λ»·#η \ftlc2 £.{--j Urt,
+ r»*v^ ·»" ,«le rt«f λ# ov$;m»u ■?··?*„· V*«/«-? few ■***$ ..· Vif ί ί i
+ β£* ,™ί^*ι ^ ν{.i«i.^.'s* ,- * •"*-*<*
+ = (Γ Ä. i ' ν-/ γ— -~-l- 2-i|r'Ä3, = ^
+ ιτΜ &**' "* ■ ' ι'λ/ο· Äi t£' *v0m λ<λΛ^ά V<ii? ΙΑί s JWiii"
+
+ φ 6$**· *w ■ *·: i,.ü.ft,. fts.tff, »ν** a**A$ho Vi'«2-^ Ä jfrftiM A* ,/ x,
+
+ Igl- vx ^ ^ · a
+ ^ V,· ^ - ·'·— . ,,'v- .
+ · Λ if p+SvmAß.r***. k. Tus£~*l ρ mm* LdlhJl·} ζ k V
+ ''· ',ΐά<- k,mnt0 f&*»} *c" 1 ^ *§ \
+ Cuyi*i'£ C*« .4tu4*wf JHf(4»$uJ ι /Ctf . , . ,<
+ r· ί»'« iiu,e4u»** pvtJF&i f-u*r*
+ «,^ ...- jiUA. yii' λ^- «Α* /4rA"-**'
+ tu* U— f». *iv.k.» ί^-ή* JM-N-Wu'i« ^UeJ'V-e.v.^W 0· Λ&Ά, J$* &*<**■»*
+ '«Mirti n*~> J ,Α^νί if ^ ^
+ r>m$eti c*y* ft a:
+
+ ·-.
+
+ rw-M- 4.«yv4Vi V* X ( (!<'" V't'i-· ;.w (.? f.A Λ*^** !
+ rvH· »tu/md'vJ V« -V t/"*T V ν'i* , ^.»v »J« aA ·*«·" λ^»,·.'*«' '
+
+ .„yüU X w> W- VC.< £wt.«— A"*"' ^ £f· f- +&>~\ £ ·
+ J,,«,',.!-.' */ %f<*· \T / <>«A** A"··" ""**'* i·* V-"·" 4#»i»
+ ,,-. X ./( β .y· w iTH «**"*" fT '/·' ?i' * -"·'·
+ Λ * /i _= ώ *t ctι** >****··"■ sr w-~·-— '/if fvi ».
+
+ Fig. 1 Pasted sheet with commentary on Corollary 3 in Gregory's Notce. Source: MS 210:28 (Royal Society
+ Library). © The Royal Society
+
+ determination of the Earth's shape). It would be worth looking at both of them, but in
+
+ this paper I shall concentrate on the first one.
+
+ When we consult Gregory's Notce at the relevant place (written just before April
+
+ 1688), we find that Gregory had left a blank space: apparently he was not able to
+ comment Corollary 3 to Proposition 41. We also find a pasted piece of paper that must
+
+ have been added later (see Fig. 1). Indeed, a manuscript page in Newton's hand dated 8
+
+ May 1694 (that is, dated to Gregory's stay in Cambridge) is extant amongst Gregory's
+
+ Springer
+
+This content downloaded from 203.78.15.150 on Mon, 18 May 2020 09:11:29 UTC
+All use subject to https://about.jstor.org/terms
+
+ 210
+
+ Ν. Guicciardini
+
+ papers.5 It is, so it seems highly probable, this manuscript that Gregory later copied
+
+ and pasted in his Notce, since the two texts correspond almost word for word.6 What
+
+ was Newton teaching his pupil in the rooms of Trinity College?
+
+ 3 Proposition 41, Book 1, and its Third Corollary
+
+ 3.1 Proposition 41
+
+ We have to step back and very briefly consider Proposition 41, Book 1 (Proposition
+ 41, for short) (Newton 1999, 529-31). The statement poses a problem:
+
+ Supposing a centripetal force of any kind and granting the quadratures of curvi
+
+ linear figures, it is required to find the trajectories in which bodies will move and
+
+ also the times of their motions in the trajectories so found. (Newton 1999, 529)
+
+ This is a problem (in Newton's times known as the "inverse problem of central forces")
+ that we still teach to our students in the courses on Newtonian mechanics. We ask that
+
+ this problem be reduced to determine, given initial conditions, the motion of a point
+
+ mass in a central force field. In this paper, we assume that the mass is equal to 1. We
+
+ ask to reduce this problem to integrations, a choice of polar coordinates being the best
+
+ for reasons of symmetry.
+
+ In a way Newton does the very same thing, to be sure in his peculiar geometrical
+
+ language. For the sake of brevity, I will not provide an analysis of Newton's demon
+
+ stration of Proposition 41.1 will just consider the result on which its Corollary 3 is
+ based.7
+
+ Let us have a look at the diagram accompanying this proposition (see Fig. 2).
+
+ Newton considers a "body" setting out from V with a given velocity under the action
+
+ of a centripetal force. The force's centre is C. The trajectory, to be found, is VIKk.8
+
+ 5 This annotation was found by W. H. Tumbull who published it in the third volume of Newton's correspon
+ dence (1668-1694, 348-54). It was later included by D. T. Whiteside in Newton (1967-1981, 6, 437-8).
+
+ Bruce Brackenridge provides a thorough analysis of Newton's annotation for Gregory in Brackenridge
+ (2003). Herman Erlichson discusses Corollary 3 in Erlichson (1994). Whiteside's commentary in Newton
+
+ (1967-1981, 6, 352-6) is important. I am deeply indebted to the above works. Another similar, but just
+
+ sketched, annotation concerning Corollary 3 is at the top of folio Add. 3960.13: 223r (Cambridge Univer
+
+ sity Library) and is edited in Newton (1967-1981), 6,435-7. This annotation might have been written just
+
+ before the one found in the Library of the Royal Society that I discuss in this paper.
+
+ 6 Indeed, in the July 1694 memorandum Gregory wrote: "Most of what in early May of 1694 he [Newton]
+
+ had corrected or altered in his own copy has been corrected or altered at the respective places in my own
+
+ copy or in my notes." English translation by Turnbull in Newton (1668-1694), 386. In the pasted sheet on
+
+ p. 28 of the Notes , Gregory not only copied Newton's annotation, but added a few interesting remarks on
+
+ a method of quadrature he claimed to have found independently from Newton and that was printed in the
+ second volume of Wallis's Opera in 1693. See Guicciardini (1999), 183; Wallis (1693), 378.
+
+ 7 For a careful, step by step, analysis of Proposition 41,1 strongly recommend I. B. Cohen's commentary
+ in Newton (1999, 334-45) and Nauenberg (2010).
+
+ 8 In the third edition (1726) of the Principia, the two curves to the right meet at point a and one of the two
+
+ curves has an asymptote. This is not relevant for the present paper. I prefer to consider the text that was in
+
+ front of Gregory's eyes and that was discussed with Newton in 1694.
+
+ Springer
+
+This content downloaded from 203.78.15.150 on Mon, 18 May 2020 09:11:29 UTC
+All use subject to https://about.jstor.org/terms
+
+ Lost in translation? Reading Newton on inverse-cube trajectories
+
+ 211
+
+ Fig. 2 Diagram for Proposition 41, Book 1, of the Principia (1687). Source: Newton, Philosophic Naturalis
+ Principia Mathematica (1687), p. 128. The diagram was emended in the third (1726) edition
+
+ As coordinates of the body's position at /, Newton uses the distance CI — A and
+ the area of the circle sector VCX. This is very nearly what we would do nowadays by
+
+ using polar coordinates.
+
+ The curve BFG represents the force's intensity in function of distance from the
+ force's centre, or in Newton's words "[the ordinate] DF is proportional to the cen
+ tripetal force in that place [CI = CD] tending towards the centre C" (Newton 1999,
+ 525). Thus, the area of the surface subtended to this curve measures what we would
+ call mechanical work.
+
+ It should be noted that Newton avails himself of two properties of central force
+ motion that he proved in previous pages. In modern terms, we would understand
+ these two properties as the law of conservation of angular momentum and the law
+ of conservation of mechanical energy. In Newton's terms, the first property is that
+ the area law holds if and only if the force is central [Propositions 1 and 2 in Newton
+ (1999, 444-7)]. Thus, the motion is planar and the areal velocity is constant. This
+
+ first property allows Newton to geometrically represent time as the area of the surface
+
+ swept by the radius vector. For example, the area VCI is proportional to the time taken
+ by the body to traverse the arc VI. Newton denotes the constant areal velocity with
+ Q/2. The second property (that a modern reader would immediately recognize as
+ the law of conservation of mechanical energy) is proved in Propositions 39 and 40
+ (Newton 1999, 524-9).
+
+ Starting from these two properties, Newton obtains two curves abz and dcx
+ [defined below in (1) and (2)] that must be "squared" in order to determine
+ the dependence of time (measured by the area VCI) from distance and the
+ dependence of polar angle (measured by the area of the circular sector VCX)
+ from distance, respectively. "Squaring" a curvilinear surface meant calculating its
+
+ area.
+
+ The ordinate of the curve abz is
+
+ Q
+
+ Db^ 2J(ABFD- Q2/A2)' (1)
+
+ Ö Springer
+
+This content downloaded from 203.78.15.150 on Mon, 18 May 2020 09:11:29 UTC
+All use subject to https://about.jstor.org/terms
+
+ If one squares abz and thus calculates the functional dependance of the area VabD
+
+ from the distance CI — CD, the functional dependence of time from distance is given.
+
+ If one squares dcx and thus calculates the functional dependance of the area VdcD
+
+ from the distance CI = CD, the functional dependence of polar angle from distance
+
+ 212
+
+ Ν. Guicciardini
+
+ The ordinate of the curve dcx is
+
+ Q χ CX2
+
+ Dc = —=—τ— —(2)
+
+ 2A2j(ABFD- Q2/A2)
+
+ is given.
+
+ 3.2 A presentist translation of Proposition 41
+
+ With some hesitation about the risk always inherent in such translations, when the
+
+ purpose is historically sensitive interpretation, I dare to offer the reader a translation
+ into modern notation.
+
+ Let A = r be the distance from the force centre. Let Q — h be what we call the
+
+ magnitude of specific angular momentum. Let ABFD be + 2 fr° F (p)d ρ, where
+ wo is the initial speed at CV = CX = ro·9
+
+ Newton's two quadratures are "equivalent" (in a historically problematic way) to
+
+ the familiar integrals for the trajectory:
+
+ V (υ0 + 2 f Fdp - h2/r2)' (3)
+
+ and
+
+ dr
+
+ ±hdr
+
+ r2V(v0 + 2/Fdp -h2/r2)
+
+ In order to see the equivalence more clearly, I note that Newton chooses the area
+
+ VCI as a measure of time and the area VCX as a measure of the polar angle.
+
+ Thus: VCI = (h/2)t = (β/2) /di and VCX = (r$/2)9 = (CX2/2) Jd0.
+ For the historian, there are many important differences between Newton's concepts
+
+ and ours. Yet, we recognize his formulation for the mathematical treatment of central
+
+ force motion as very similar to ours—in a way, the two are "equivalent". We will
+
+ discuss these issues of translation in the concluding section.
+
+ 9 Newton imagines that a second body falls from a rest position A so that during the vertical fall AV it
+
+ acquires the initial given speed with which the first body is projected at V. Allowing ourselves the use of
+
+ modern symbolism, Newton states that vj = 2 ABFD = 2 J^p=r Fdp = 2 jfV~r° Fdp + 2 J^A Fdp =
+
+ 2 J^Fdp + vl
+
+ ö Springer
+
+This content downloaded from 203.78.15.150 on Mon, 18 May 2020 09:11:29 UTC
+All use subject to https://about.jstor.org/terms
+
+ Lost in translation? Reading Newton on inverse-cube trajectories
+
+ 213
+
+ Fig. 3 Diagram for Corollary 3,
+ Fig. 3 Diagram for Corollary 3,
+ Proposition 41, Book 1. Source:
+ Proposition 41, Book 1. Source:
+ Newton, Philosophice Naturalis
+ Newton, Philosophice Naturalis
+ Principia Mathematica (1687),
+ Principia Mathematica (1687),
+ p. 130. The diagram was
+ p. 130. The diagram was
+ modified in the third (1726)
+ modified in the third (1726)
+ edition
+ edition
+
+ 3.3 Corollary 3: a brief outline
+
+ But let us see what happens in Corollary 3 to Proposition 41 (Corollary 3 for short).
+ Newton applies what he has obtained in Proposition 41 to the case in which the force
+ varies with the inverse of the cube of the distance.
+
+ One should note that in this case Newton forces a restriction on initial conditions so
+
+ that the initial velocity at V is orthogonal to CV (thus, e.g. the logarithmic spiral, which
+ is a possible trajectory for inverse-cube central force motion, will not be included in
+ the solution of Corollary 3).
+
+ The problem, because of Proposition 41, is reduced to the quadrature of curves abz
+ and dcx, but—and this is most likely what must have been perplexing for Gregory—
+
+ Newton provides a geometrical construction of the trajectory without giving any detail
+ about how he performed the quadrature. He unhelpfully writes:
+
+ all this follows from the foregoing proposition by means of the quadrature of a
+
+ certain curve, the finding of which, as being easy enough, I omit for the sake of
+ brevity. (Newton 1999, 532)
+
+ Newton's construction is as follows (see Fig. 3). One begins by drawing two conics
+ VRS, an ellipse (left) and a hyperbola (right), with centre C and vertex V. A point R
+ slides along the conic starting from V, and we draw the tangent at R meeting the axis
+ CV at Τ. We draw the line CR. The trajectory traced by the body is constructed by
+ drawing a segment CP, whose length is equal to CT, and making an angle VCP with
+ the axis CV proportional to the area of the conic sector VCR. The point Ρ traces the
+ sought trajectory (Newton 1999, 531-2).10
+
+ We should appreciate the visual beauty of this construction. One should note that
+ as the point R slides along the conics starting from V, the areas of the conic sectors
+ VCR monotonically increase. In the case of the hyperbola, the tangent at R tends to
+
+ an asymptote passing through the centre C, while in the case of the ellipse the tangent
+
+ tends to a line parallel to the axis CV as the angle VCR approaches 7r/2. This allows us
+
+ 10 In the modified diagram printed in the third edition (1726) of the Principia, the trajectory associated
+ with the auxiliary hyperbola is more clearly drawn as spiralling towards C.
+
+ ß Springer
+
+This content downloaded from 203.78.15.150 on Mon, 18 May 2020 09:11:29 UTC
+All use subject to https://about.jstor.org/terms
+
+ 214
+
+ Ν. Guicciardini
+
+ to visualize how in the case of the trajectory constructed via the auxiliary hyperbola
+ (right), the point Ρ spirals towards the centre C, since CT — CP tends to zero as
+
+ the polar angle VCP tends to infinity. On the other hand, in the case of the trajectory
+
+ constructed via the ellipse (left), CT = CP tends to infinite, as the polar angle VCP
+
+ tends to a finite value, and thus, the body ascends in a spiral-like trajectory escaping
+
+ to infinity along an asymptote.
+
+ 4 Motion in an inverse-cube force field: a modern interlude
+
+ A short interlude on the modern treatment of inverse-cube trajectories is now in order.
+
+ This is done, because after all we look at the past from a present viewpoint, and we
+
+ might need to be a little bit refreshed on this topic (often an exercise for physics
+ undergraduates).11
+
+ It is required the determination of the motion (given initial position and velocity)
+
+ of a point mass (m = 1) accelerated by a centripetal and isotropic force
+
+ Since the mechanical energy Ε and the angular momentum h = r χ ν are conserved
+
+ (6)
+
+ (7)
+
+ (8)
+
+ (9)
+
+ We can solve for r:
+
+ Separating the variables, we obtain the equivalent of Eq. (3):12
+
+ Because of conservation of angular momentum,
+
+ d# = (h/r2)dt,
+
+ 1' The simplest approach is via the so-called Binet formula and by employing the exponential form of the
+
+ trigonometric and hyperbolic functions. See Lange and Pierrus (2010), 237-43. The approach I choose here
+
+ is interesting because of its similarities with Newton's.
+
+ 12 A positive root is chosen. The negative root corresponds to a time reversal t ->■ — t: if r(t) is a solution
+
+ also r(—1) is a solution (depending on initial conditions).
+
+ ö Springer
+
+This content downloaded from 203.78.15.150 on Mon, 18 May 2020 09:11:29 UTC
+All use subject to https://about.jstor.org/terms
+
+ The integration of (8) is particularly simple for an inverse-cube force. We set
+
+ Lost in translation? Reading Newton on inverse-cube trajectories
+
+ 215
+
+ and we obtain the equivalent of Eq. (4):
+
+ άθ = =. (10)
+
+ ±hdr
+
+ r2yj2(E - U)-h2/r2
+
+ U = —a/r2, (11)
+
+ for a > 0. Then
+
+ t= f . rdr = —^2Er2 + 2a-h2 + C. (12)
+
+ J V2Er2 + 2a-h2 2Ε
+
+ The time is thus given by a finite algebraic equation.13
+
+ The integration of (10) is more complicated, and this might well have been the
+
+ origin of Gregory's perplexity. For an inverse-cube force, Eq. (10) is
+
+ ±hdr
+
+ άθ = —=======. (13)
+
+ rV2Er2 + 2 a — h2
+
+ The trick consists in changing variable
+
+ w = l/r, (14)
+
+ e=I
+
+ Taking into consideration that
+
+ Τhdw
+
+ •J2E + (2a — h2)w2
+
+ (15)
+
+ , „ = arccos —, / = arccosh
+
+ y/b2 - W2 b J Jw2 _ b2
+
+ /— du> tu f dw
+ I
+
+ dw w
+
+ -j=== =arcsinh-, (16)
+ Vw2 + b2 b
+
+ we distinguish, with a suitable choice of the coordinates, 0o and ro, at time t — 0, the
+
+ following five cases.14 The form of the solution depends on the sign of 2a - h2 and E.
+
+ 13 This is in contrast to the solution for inverse-square forces, a case in which the integration of (8) can
+
+ only be obtained by means of transcendental functions, as underlined in Brackenridge (2003), 327.
+
+ 14 We note that in Cases 1 and 2, θ = θο corresponds to r = ro = -J(A2 — 2a)/IE and r = ro =
+
+ yj(2a - h2)/2\E\, respectively. In Case 3, θ = Öq corresponds to the direction of an asymptote. In Cases
+ 4 and 5, θ = 0 corresponds to r = ro. Asymptotes for Cases 1 and 5 are easily calculated. For example, in
+ Case 5, an asymptote occurs for θ = —h/iro^/lE).
+
+ Springer
+
+This content downloaded from 203.78.15.150 on Mon, 18 May 2020 09:11:29 UTC
+All use subject to https://about.jstor.org/terms
+
+ so that one reduces the problem to the following integral:
+
+ 216
+
+ Ν. Guicciardini
+
+ 1. In the first case, 2a — h2 < 0 and Ε > 0:15
+
+ 1 / 2 Ε
+ - =W = J -r—— cos
+ r \ h2- 2a
+
+ •Jh2 — 2a
+
+ φ - 0o)
+
+ 2. In the second case, 2a - h > 0 and Ε < 0:
+
+ 1 / 2i£i
+ - — w — . -r cosh
+ r \ 2a-h2
+
+ V2a — h2
+
+ (Θ - θο)
+
+ 3. In the third case, 2a — h2 > 0 and Ε > 0:
+
+ 1 / 2 Ε
+ - = u; = / — sinh
+ r V 2a-h2
+
+ y/2a — h2
+
+ (Θ - θο)
+
+ h
+
+ 4. In the fourth case, 2a — h2 > 0 and Ε = 0:
+
+ 5. In the fifth case, 2a — h2 = 0 and Ε > 0:
+
+ ->.16
+
+ r — ro exp ±  (^Pe)
+
+ 1 sf2E 1
+ - = —-0 + -.
+ r h rQ
+
+ 17 We note that circular trajectories are possible when 2a = h~ and Ε = 0, but they are unstable. The
+ reader may consider the effective potential energy for inverse-cube forces, Uefρ = h2/(2r2) + U(r) =
+
+ h2/(2r2) - air1. When 2a — h2, the effective potential energy t/eff is flat and any r is a possible radius
+
+ for an unstable circular trajectory (r = 0) with velocity |υ| = \/2ä/r.
+
+ sign of r0.
+
+ Springer
+
+This content downloaded from 203.78.15.150 on Mon, 18 May 2020 09:11:29 UTC
+All use subject to https://about.jstor.org/terms
+
+ The first three cases are sometimes called "Cotesian" spirals. Case 4 is a logarithmic
+
+ spiral. Case 5 is a "hyperbolic" spiral. Only the first two cases occur (other than circular
+
+ trajectories) when the initial velocity is orthogonal to the radius vector, as required in
+
+ Corollary 3.17 Cases 1 and 2 are discussed in the caption to Fig. 4. Newton identified
+
+ Cases 1 and 2 in Corollary 3 and Case 4 in Proposition 9, Book 1. Johann Bernoulli
+
+ identified Case 5 in Bernoulli (1710), 532-3. Roger Cotes classified all five trajectories
+ in Cotes (1714).
+
+ 15 A solution using the sine function is also possible, but this does not generate a new family of trajectories
+
+ because the sine function can be converted to a cosine by a shift of the polar coordinate. This, of course, is
+
+ not true for the hyperbolic functions occurring in Cases 2 and 3 below.
+
+ 16 In Cases 3.4, and 5, the particle spirals either into the centre of force or out to infinity, depending on the
+
+ Lost in translation? Reading Newton on inverse-cube trajectories
+
+ 217
+
+ Fig. 4 Trajectories for an attractive inverse-cube force (Cases 1 and 2) constructed in Corollary 3 as VPQ
+ (see Fig. 3) for an initial position Γ; equal to (1, 0) and an initial velocity v,· orthogonal to r,·. In Case 1, the
+
+ point mass traces an ascending spiral-like trajectory under the action of an attractive inverse-cube force (NB:
+
+ sincea > 0, V/i2 — 2a/h < 1). The point mass escapes to infinity, since for θ -*■ θο+π/2 (h/y/h^ — 2a),
+
+ r tends to infinite. When -Jh1 — 2a/h > 1, the force is repulsive (a < 0), and the trajectory represents a
+ scattering state with pericentre at r;. In Case 2, the point mass describes a spiral that tends to the origin as
+ θ -> oo. The fall to the origin occurs in a finite time calculated by Eq. (12). The above plots correspond to
+ r = (cos0.15ö)-1 andr = (coshO.50)-1
+
+ 5 Newton's geometric construction of inverse-cube trajectories
+
+ It is time to go back to the original words of the master. So we can imagine being,
+ like Gregory, in Newton's chambers with a page of the Principia in front of us, but
+
+ frustratingly with our Notce with a lacuna to fill.
+
+ Ö Springer
+
+This content downloaded from 203.78.15.150 on Mon, 18 May 2020 09:11:29 UTC
+All use subject to https://about.jstor.org/terms
+
+ 218
+
+ Ν. Guicciardini
+
+ 5.1 Newton's construction
+
+ We recall that Newton's construction as printed in the Principia (see Fig. 3 reproduced
+
+ above) consists of the following.
+
+ 1. Draw two conics VRS, an ellipse (left) and a hyperbola (right), with centre C and
+
+ 2. A point R slides along the conic starting from V: draw the tangent at R meeting
+
+ vertex V.
+
+ the axis CV at Τ.
+
+ 3. Draw the line CR.
+
+ 4. Draw a segment CP whose length is equal to CT and making an angle VCP with
+
+ the axis CV proportional to the area of the conic sector VCR.
+
+ 5. The point Ρ traces the sought trajectory.
+
+ Or in Newton's august words:
+
+ If with centre C and principal vertex V any conic VRS is described, and from any point R of it
+
+ the tangent RT is drawn so as to meet the axis CV, indefinitely produced, at point Γ; and, joining
+
+ CR, there is drawn the straight line CP, which is equal to the abscissa CT and makes an angle VCP
+
+ proportional to the sector VC/?; then, if a centripetal force inversely proportional to the cube of the
+
+ distance of places from the centre tends towards that centre C, and the body leaves the place V with
+
+ the proper velocity along a line perpendicular to the straight line CV, the body will move forward
+ in the trajectory VPQ which point Ρ continually traces out; and therefore, if the conic VRS is a
+
+ hyperbola, the body will descend to the centre. But if the conic is an ellipse, the body will ascend
+
+ continually and will go off to infinity.
+
+ And conversely, if the body leaves the place V with any velocity and, depending on whether the
+
+ body has begun either to descend obliquely to the centre or to ascend obliquely from it, the figure
+
+ VRS is either a hyperbola or an ellipse, the trajectory can be found by increasing or diminishing
+ the angle VCP in some given ratio. But also, if the centripetal force is changed into a centrifugal
+
+ force, the body will ascend obliquely in the trajectory VPQ, which is found by taking the angle VCP
+
+ proportional to the elliptic sector VCR and by taking the length CP equal to the length CT, as above.
+
+ All this follows from the foregoing proposition [41], by means of the quadrature of a certain curve,
+
+ the finding of which, as being easy enough, 1 omit for the sake of brevity. (Newton 1999, 531-2)
+
+ 5.2 An algebraic translation
+
+ But we are still fluctuating between past and present, and we might be tempted, before
+
+ immersing ourselves in the mathematical culture of the late seventeenth century, to
+
+ impart (for the sake of brevity, so to say) to Gregory a crash course in modern calculus
+
+ and trigonometry to notice that the above construction delivers the solutions we named
+ Cases 1 and 2 above.
+
+ Let us use as Cartesian coordinates of the point R(x, υ) the abscissa χ and the
+
+ ordinate υ (the origin is in the force centre C and the x-axis is vertical).
+
+ As auxiliary conics, I introduce:
+
+ x2 + v2 = 1,
+
+ (22)
+
+ <£) Springer
+
+This content downloaded from 203.78.15.150 on Mon, 18 May 2020 09:11:29 UTC
+All use subject to https://about.jstor.org/terms
+
+ Lost in translation? Reading Newton on inverse-cube trajectories
+
+ and18
+
+ 2 2 ι
+ χ — υ = 1.
+
+ By construction, the polar coordinates of the body's position P(r, Θ) are r — CP —
+
+ CT, and θ = VCP = (2/k)VCR (for some constant &).19
+
+ One readily obtains20
+
+ du χ
+
+ Equation (24) corresponds to the solutions we have classed as Cases 1 and 2 in Sect. 4.
+ Indeed, for the circle χ = cos(2VCR) = cos k6 and for the hyperbola χ =
+ cosh(2VC/?) = cosh k6. Thus, for k = 0.15 and k = 0.5 we obtain the trajecto
+ ries illustrated in Fig. 4.
+
+ 219
+
+ (23)
+
+ (24)
+
+ 5.3 An omitted method
+
+ If we are to believe Newton, he achieved this construction thanks to "a method for
+
+ squaring curvilinear figures" illustrated in the "foregoing Proposition [41]". By reading
+
+ Corollary 3, we learn that it is this omitted method that allows him to square the
+ curves dcx and abz, whose abscissa is the distance CD from the force centre and whose
+
+ ordinates are Dc and Db [see Fig. 2, and Eqs. (1) and (2)]. We also learn from Fig. 3
+ that Newton is making use of auxiliary conic sections.
+
+ In the next section, we look at certain quadrature techniques that Newton developed
+
+ in the mid-1660s, systematized in two "catalogues" dating from 1670, and then printed
+ as "tables" in De quadratura. In a few words, we have to check whether these "more
+
+ abstruse parts" in the Principia, as Gregory recorded in his July 1694 memorandum,
+ depend upon those tables that aroused his admiration.21
+
+ 6 Some of Newton's quadrature techniques
+
+ 6.1 A digression into Newton's quadratures of conic sections
+
+ Conic sections, as we shall see, played a prominent role in Newton's "quadrature
+
+ techniques". The object of these techniques was to "square curvilinear figures," that
+
+ is, to calculate the area of the surface bounded by plane curves.
+
+ 19 The trajectory is expressed in polar coordinates. So θ is an angle. Instead, we take VCR as the area of
+
+ the circle and hyperbolic sectors, respectively.
+
+ 20 This must have been evident for Newton from Apollonius, Conics, 1.37. Apollonius of Perga (2000),
+ 65-7.
+
+ 21 This is an innovative element of my paper, since below I will detail the relationships between Corollary
+ 3 and Newton's quadrature techniques of the De methodis and De quadratura. These techniques date back
+ to work Newton carried out in the 1660s.
+
+ <£) Springer
+
+This content downloaded from 203.78.15.150 on Mon, 18 May 2020 09:11:29 UTC
+All use subject to https://about.jstor.org/terms
+
+ 18 The choice of the auxiliary conics is crucial. Conies with different parameters give rise to different
+ trajectories.
+
+ 220
+
+ Ν. Guicciardini
+
+ Since his youthful studies in the anni mirabiles (1664-6), Newton knew how to
+ square conic sections via the binomial theorem and via an application of what nowa
+
+ days we would call "term-wise integration".
+
+ 6.1.1 Logarithms
+
+ So, for example, for the hyperbola, Newton wrote
+
+ ν — (1 + x) 1 = 1 — χ + χ2 — x3 + χ 4 — · · · , (25)
+
+ a result that he considered valid when χ is small. Newton knew that the area under
+
+ the hyperbola and over the interval [0, x] for χ >0 (and the negative of this area
+ when -1 < χ < 0) is a measure for ln(l + x). Thus, by (to speak anachronistically)
+
+ "term-wise integration," Newton could express ln(l + x) as a power series:
+
+ He did not, however, write that the above series is equal to "ln(l +x)". Until the mid
+
+ eighteenth century, European mathematicians rarely used a notation for transcendental
+
+ functions. They represented them via geometrical constructions, such as the hyperbolic
+
+ surface in the case of the logarithm. Leibniz and Johann Bernoulli! were pioneers in
+
+ developing a calculus for the logarithm and the exponential functions, but with the
+
+ trigonometric or hyperbolic functions the general policy, before Euler, was to use
+
+ geometric constructions (Katz 1987). Indeed, symbols for trigonometric magnitudes
+
+ were known, yet in Newton's times calculus practitioners were used to handle them
+
+ in terms of curvilinear areas or arc lengths.
+
+ 6.1.2 Transcendental functions and geometrical constructions
+
+ We begin to understand why Newton expressed the solutions for Corollary 3 as a
+
+ geometric construction. These solutions imply a functional dependence of the radius
+ CP and the conic sector VCR expressed by transcendental relationships (the cosine
+
+ and the hyperbolic cosine), and, according to an accepted convention, these were
+
+ constructed geometrically until at least Euler's times
+
+ The connection between quadratures and "transcendental functions"22 was pro
+ found. Seventeenth-century mathematicians realized that while the slope of an
+
+ algebraic curve is algebraic, most often the curvilinear area bounded by an algebraic
+
+ curve (or the arc length) is not: it had to be expressed via an infinite series, as we have
+ seen above.
+
+ 22 This is Leibniz's term, as Newton would use the Cartesian terminology "mechanical curves," and this
+
+ (indeed) is a terminological distinction of great significance for the historian.
+
+ <£} Springer
+
+This content downloaded from 203.78.15.150 on Mon, 18 May 2020 09:11:29 UTC
+All use subject to https://about.jstor.org/terms
+
+ Lost in translation? Reading Newton on inverse-cube trajectories 221
+
+ ντί -fvür" , Sti
+ ci'o art&T,
+ ΎΤ.(
+ ' ^ "<· χ
+ ■Μ
+ / i ί ν I"
+ aLä. Im jjC
+ a/ κ Jg. je
+
+ Fig. 5 Quadrature of the circle from Newton's De analyst (1669). Source: MS 81.2: 6v (Royal Society
+ Library). Edited in Newton (1967-1981), 2, 232-33. © The Royal Society
+
+ 6.1.3 The aresin
+
+ Let us consider another example, this time a rectification of an algebraic curve. Given
+
+ a unit circle with equation
+
+ x2 + v2=l, (27)
+
+ 1 (28)
+
+ 2
+ χ vT  χ
+
+ Referring to what nowadays we would call the "fundamental theorem of the calculus,"
+
+ Newton now stated that the arc 5 is measured by the area of the surface bounded by
+ the curve υ-1 = 1/Vl — x2· This area (we would write f dx/V 1 — x2) could be
+ calculated via the binomial theorem and term-wise integration as:
+
+ λ:3 3x5 5x7
+ χ -\- — -f- + + · · · . (29)
+ 6 40 112 K '
+
+This content downloaded from 203.78.15.150 on Mon, 18 May 2020 09:11:29 UTC
+All use subject to https://about.jstor.org/terms
+
+ we have to calculate the arc length s = LD (see Fig. 5). Newton envisaged the circum
+ ference ADLE as being generated by the continuous "flow" of a point from Ε to A.
+ The infinitesimal arc DH generated in a "moment" of time o, he called the "moment
+ of the arc," and he denoted it as so.23 By geometrical reasoning, Newton knew that
+ the moment of the arc DH is to the moment of the abscissa GH, as the radius DC = 1
+
+ is to the ordinate DB = υ — Vi — χ2. In symbols:
+
+ We would say that this series is equal to "arcsin(x)," but, as we know, this is not what
+ Newton, Leibniz, or Johann Bernoulli would habitually do. The mathematicians active
+
+ in late seventeenth-century Europe would say that the above series "approximates the
+
+ arc whose sine is x". What came first was not the formula, but a functional relationship
+
+ between geometrical magnitudes that was given by a construction, namely: by drawing
+
+ a circle, by drawing a point on its circumference, and by tracing the abscissa χ and the
+
+ 23 Actually, Newton introduced the dot notation in the 1690s.
+
+ Springer
+
+ If we set the hyperbolic sector VCR (Fig. 3) as equal to s/2, a result analogous to (28)
+ follows:
+
+ 222
+
+ Ν. Guicciardini
+
+ arc length s. Newton noticed that as χ flows (what he called the "correlate quantity"),
+
+ so does s (the "relate quantity") in a functionally related way. Once you have this
+
+ geometrical relationship between magnitudes embedded in the given figure (a unit
+
+ circle), you can ask yourself how to calculate the arc length s = LD (or equivalently
+
+ the area of the circle sector s/2 = LCD) given the sine χ = CB. Since the functional
+
+ relationship between the arc length and the sine is not algebraic, Newton made recourse
+ to infinite series.
+
+ 6.1.4 The arccosh
+
+ The quadrature of the circle that we have just reviewed is of great importance for
+
+ the treatment of inverse-cube orbits, as is apparent if we consider the integrals (16).
+
+ Further, Newton could extend the quadrature of the circle to the unit hyperbola
+
+ χ2 — ν2 — I. (30)
+
+ i 1
+ - = -==. (31)
+ X six1 - 1
+
+ From this, we would derive in modern notation J dx/V*2 — 1 = arccosh(jc). The
+ integrals (16) follow from (28) and (31) by a simple substitution of variables.24 To
+
+ repeat: Newton did not use an integral sign or a notation for hyperbolic functions. For
+
+ him formula (31) expressed a geometrical proportionality between the infinitesimal
+
+ increments of the sector VCR and of the abscissa x. This proportionality allowed him
+
+ to express the relationship between the abscissa (what we call the hyperbolic cosine)
+
+ of point R and the hyperbolic sector VCR as an infinite series.
+
+ 6.1.5 A question
+
+ Can we provide more evidence that Newton made a connection between his method of
+
+ fluxions and an important proposition of the Principia such as Corollary 3? Indeed, we
+
+ can, by looking attentively to a table of quadratures ("integrals," in Leibnzian terms)
+
+ that he wrote in 1670 and later included in the draft version of De quadratura that
+
+ Gregory inspected in 1694.
+
+ 6.2 Newton's quadratures "by means of finite equations"
+
+ The so-called Demethodis serierum etfluxionum, composed in 1670-1 (Newton 1967
+
+ 1981, 3, 32-328), contains two "catalogues of curves" in which one finds tabulated
+
+ the equations of several curves, divided into different "orders," and the "values of
+
+ 24 In modern notation, we provide the following example: f άχ/yjb2 — x~ = (1 /b) J dx/·*/1 — (x/b)~ =
+
+ f άλ/J 1 — λ2 = arcsinX, for X=x/b.
+
+ ö Springer
+
+This content downloaded from 203.78.15.150 on Mon, 18 May 2020 09:11:29 UTC
+All use subject to https://about.jstor.org/terms
+
+ Lost in translation? Reading Newton on inverse-cube trajectories
+
+ 223
+
+ Cat* άακί iunuram a/wuofal· nc/s/ou-nj;
+ idfri Οριί c u nfa rum aßjdofa} ns/>/ou><iJ{
+ raf nv£fkηim, c/>l γγν^γanstru^fry.
+ jtbu mf wilt fx ru m, s/>l '/yp/f V tftiffrutfa/.
+ / C .· ' - j Wimmm
+ Ι ct-YVa.ru **\ /) i\ ,
+ ί UyVitrutn η ,- ,
+ />" » · 1'A 1 *»"»">$· —·
+ ,i n r Tv-CA-»-lt»U ItAlSnrif.
+
+ ί ·γ~(*0 hy~X Ml u/ ,
+ L"Y~eO /7 r"t f*t α j ,
+
+ °z"-'=y h"=t
+
+ ij ^
+
+ Orto ^
+ Ort?
+ i^2n :V· »ΐι+ιί/t
+
+ C-" ^ [ rr.L —- +
+ — Ιϊ&,η**■ ^ fit/ +nfT"~t■
+
+ ^τφζ.η+&'ζτ''~Lf'>KL+1
+ « + =-£/Z*-f/2
+
+ Fig. 6 Incipit of the first catalogue. Source: Add. 3960.14: 77. Reproduced by kind permission of the
+ Syndics of the Cambridge University Library
+
+ their areas". These catalogues were reprinted, with some variants, in De quadratura
+ curvarutn,which Newton published as an appendix to the Opticks in 1704.25
+
+ 6.2.1 The fundamental theorem of calculus
+
+ The first catalogue (see Fig. 6) is based on Newton's understanding of what we call the
+ fundamental theorem of calculus (Newton 1967-1981, 3, 236^-1). In the mid-1660s,
+
+ Newton, most probably inspired by Isaac Barrow, proved that, given a plane curve,
+ the fluxion of the area bounded by this curve, by the abscissa, and by the ordinate, is
+
+ to the fluxion of the abscissa as the ordinate is to 1. So, for example, with reference to
+
+ Proposition 41, Newton would say that the fluxion of the area VabD is to the fluxion
+ of the abscissa CD as the ordinate Db is to 1 (see Fig. 2). This insight immediately set
+
+ him on the project of tabulating curves and their areas.
+
+ The first catalogue of the De methodis summarizes some of Newton's results on
+ quadratures (see Fig. 6). According to Newton's conventions, S, e, /, g are constants,
+
+ and η can be a "positive or negative integer or fraction". The curves to be squared have
+ abscissa ζ and ordinate v, while the areas of the surfaces they subtend are denoted by
+
+ t or r. Most of the equations of the curves in the first catalogue involve radicals of the
+ form R — +Je + f ζη or R = je + fzn + gz2η.
+
+ 6.2.2 A simple example
+
+ Let us consider the first tabulated curve (see Fig. 6). Since we know that the fluxion
+ of r = (8/η)ζη is τ = 8ζη~ι (assuming ζ = 1), Newton concluded that the "value
+
+ 25 I will not discuss the variants between the Catalogi divided into ordines of the De methodis and the
+ Tabulae divided into formae of De quadratura, since they are not relevant for the thesis defended in this
+ paper. According to an expert judge such as Whiteside: "The tables of integrals which Gregory saw were
+ in fact [...] those which Newton introduced more than twenty years earlier into his general 1671 tract on
+
+ fluxions and infinite series [the De methodis], rather than their lightly refashioned equivalent which he had
+ much more recently appended to his revised text 'De quadratura curvarum'" Newton (1967-1981), 7, 197.
+
+ ö Springer
+
+This content downloaded from 203.78.15.150 on Mon, 18 May 2020 09:11:29 UTC
+All use subject to https://about.jstor.org/terms
+
+ 224
+
+ N. Guicciardini
+
+ Ο J  UJL γ4«j
+ Cy-ίθ l U'°- ·
+ J
+ 2./ -15 — f
+ 2.^ -2
+ yz= _
+ ^7A
+ y. -η/Λ- ·
+ ^ r'ι + r-'' ~
+ -■ (/1 + j-7^
+
+ -r*~1
+
+ W 4»
+
+ Fig. 7 First case of ordo quartus in the first catalogue. Source: Add. 3960.14: 77. Reproduced by kind
+ permission of the Syndics of the Cambridge University Library
+
+ of the area" of the curve y = 8ζη 1 is r = (8/η)ζη, a simple consequence of the
+ fundamental theorem.
+
+ 6.2.3 A quadrature for Corollary 3
+
+ For our purposes, the relevant quadrature occurs as the first in ordo quartus (see Fig. 7).
+ For η = 2 and 8 = 1, this translates into the statement that if a curve has equation
+
+ then its area is
+
+ \/fz2 + e
+
+ (32)
+
+ -y? z2 + e. (33)
+
+ 6.3.1 Auxiliary conics
+
+ The conics appear at the top of the table (Newton 1967-1981, 3, 242), and we imme
+
+ diately recognize the auxiliary conics that Newton used in Corollary 3 of his Principia
+
+ (see Fig. 8). The third figure from left is the auxiliary ellipse, and the last figure to the
+
+ right is the auxiliary hyperbola. The lettering is different, but we easily realize that the
+
+ Springer
+
+This content downloaded from 203.78.15.150 on Mon, 18 May 2020 09:11:29 UTC
+All use subject to https://about.jstor.org/terms
+
+ This quadrature is what we need in order to square curve abz in Prop. 41 that determines
+
+ the time in function of the radius for inverse-cube trajectories [set y'z — ydz = At,
+ ζ = r, f — 2E and e = 2a — h2 and you obtain Eq. (12)].
+
+ 6.3 Newton's quadratures "by means of conic sections"
+
+ A second catalogue of "curves related to conic sections" occurs in the De methodis a
+ few pages later (Newton 1967-1981, 3,241-55). This catalogue too was republished,
+ with some variants, in De quadratura, and Gregory must have seen a draft for the
+ latter work. Basically, by appropriate substitutions of variables, Newton reduces the
+
+ quadrature of a series of curves divided into several "orders" to the quadrature of conic
+ sections.
+
+ Lost in translation? Reading Newton on inverse-cube trajectories
+
+ 225
+
+ Fig. 8 Auxiliary conics for the second catalogue of curves. Source: Add. 3960.14: 75. Reproduced by kind
+ permission of the Syndics of the Cambridge University Library
+
+ γιι*^τ f J,*,.
+ Ύ.
+
+ i^atuCujuf ( ftrvarttm a£it"-rt (Jnieas Jtoiiant^
+
+ yy futurum 'fini/f' 8 const-ruvtuf.
+
+ iitrVHTiim a5^f CΚοη^< (Pan tc <t·, C/l-i to^^m va.Cnrtft
+ rie />^n"t»' 3<ι/'Γ . »ffiiJ«.. n ^m
+ ^riö Ar*tVn-ic/ ^ ^
+ , Jzl'L^u ~ζ"'~χ ' -4 =ι· is-t
+ '■ e-hf2'* v t + /" η·>-τ
+ z- zi/z"· =y· - ~x- i+f< r ''· *fz "fs ~
+ D-^5*-f -7») _£ £{-c—+
+ '■ FTfi"* ~v· £+Τχ^ ^ n#+'.#~t·
+
+ ft if~f - ^
+
+ Fig. 9 Incipit of the second catalogue. Source: Add. 3960.14: 79. Reproduced by kind permission of the
+ Syndics of the Cambridge University Library
+
+ relevant conic sectors equivalent to VCR in Corollary 3 are here aGDA (ellipse) and
+
+ PAD (hyperbola). We are on the right track.
+
+ 6.3.2 Substitution of variables
+
+ We see (Fig. 9) that in this second catalogue there are four columns. The first column
+ lists, as in the first catalogue, the equations of the curves to be squared divided into
+ orders. As before, their abscissa is z, ordinate y, and area τ or t. Then, we have a
+ second column where the reader learns how to change variable (today we would write
+ x = f(z)). The next (third) column lists the equations of conic sections, with abscissa
+ x, ordinate v, and area s. The sought area τ is expressed in terms of the conic area 5 in
+
+ the fourth column (in Leibniz's notation, one would write τ = f ydz and s = f uck).
+ As we know, Newton could square conic sections by means of infinite series that we
+
+ would understand as the Taylor series of log, trigonometric, and hyperbolic functions.
+ Indeed, the whole gist of De quadratura is the calculation of curvilinear areas (the
+ "quadrature of curves") by means of infinite series.26
+
+ 26 This might be missed by a superficial reading.
+
+ <£) Springer
+
+This content downloaded from 203.78.15.150 on Mon, 18 May 2020 09:11:29 UTC
+All use subject to https://about.jstor.org/terms
+
+ Newton, of course, knew that s is the logarithm (<5//)log(/x + e), but he would
+ express the area as an infinite series:
+
+ 226
+
+ Ν. Guicciardini
+
+ {/γ% Lrf-t , Ι
+
+ /£■/>/<*.«/
+
+ ■\ ,-iXV-i-S _ ι
+ ._ $ _ „ -J-„ =**.■= 1* · 7?2 " S&gfUF — ι iT -j~
+ ι _ $ ~ =</ =xx. yf+ixx- ~ υ. -*2 " ÄeijHB>>=:f'=r;j~ *?At >h( ii&lftfi.
+ ' i + /z" ^ ^
+ '"zv<+/z" Λ' y
+
+ < ./2ν^·Χκ—ί>. g-j-i. s~frcv~£l~f-gji.«
+
+ -. ./Κ7Χίϋ=ι>.&έ->«ί-ίχυ~έ£—1=£?£,« jfz4.«rfiä*99i.
+
+ ■Ρ f ·ί·'(Α.ν?Χ — 1~I?AJ) ViC i+Aftfi.
+
+ Fig. 10 First case of ordo septimus in the second catalogue. Source: Add. 3960.14:81 .Reproduced by kind
+ permission of the Syndics of the Cambridge University Library
+
+ This is best explained by an example: the simplest is the first case of the first order,
+ see (Fig. 9). We have to square
+
+ 6.3.3 A simple example
+
+ y = "ΓΓ»■ <34>
+
+ δζη~}
+
+ e + fzn
+
+ With a change in variable ζη — x, the quadrature of the curve is reduced to the
+ quadrature of a hyperbola ν — 8/(e + fx). Newton would write:
+
+ δ xx 1 δ . 1 .
+
+ yz = ~——— — = x = -vx, (35)
+
+ x{e + fx) η ηε + fx η
+
+ and from this conclude that27
+
+ τ = -s — . (36)
+
+ 1 aGDB
+
+ η η
+
+ s ( fx f2x2 /V
+ ηf \ e 2e2 3e3
+
+ ^ = -(1^ —-V^ -···)' (37)
+
+ and rather than write a symbol for the logarithm he would represent this transcendental
+ magnitude geometrically in terms of the area subtended under a hyperbola aGDB (see
+
+ the hyperbola, second from left, in Fig. 8).
+
+ 6.3.4 A quadrature for Corollary 3
+
+ For our purposes, the relevant quadrature occurs as the first in ordo septimus (see
+ Fig. 10).28 For η = 2, this translates into the statement that if a curve has equation
+
+ y = —j===, (38)
+
+ ZsJ fz2 + e
+
+ 27 In Leibnizian notation: τ = f ydz = (\/η) J vdx =
+
+ 28 In the second Tabula of De quadratura, this corresponds to the first case of the fourth Forma.
+
+ <0 Springer
+
+This content downloaded from 203.78.15.150 on Mon, 18 May 2020 09:11:29 UTC
+All use subject to https://about.jstor.org/terms
+
+ Lost in translation? Reading Newton on inverse-cube trajectories
+
+ 227
+
+ then its area is
+
+ τ = —PAD or —aGDA, (39)
+
+ 2<5 2<5
+
+ / /
+
+ where PAD and aGDA are the conic sectors in Fig. 8.
+
+ This quadrature is what we need in order to square curve dcx in Prop. 41 that
+
+ determines the polar angle in function of the radius for inverse-cube trajectories [set
+ yz = y&z = dθ, ζ = r,8 — h, f = 2E, and e = 2a - h2, and you obtain Eq. (13)].
+ Note that the change in variable in the second column is very much the one we
+
+ employed in the modern interlude in Sect. 4 [Eq. (14)]: Newton sets χ = \/z (equiv
+ alent to our w = 1/r).
+
+ In the third column, we find the equation of the auxiliary conics ν = J ex2 + /
+
+ (e < 0 for the ellipse, e > 0 for the hyperbola).
+
+ Via the change in variable indicated in second column, the required quadrature is
+
+ reduced to a simpler form as follows:
+
+ δζ _ Sx χ _ Sx
+
+ y zy/fz2 + e J f/x2 + e*2 yjex2 + f
+
+ In modern notation, this corresponds to reducing the sought integral, via substitution
+
+ of variable, to an integral that we have already encountered in Sect. 4 in our modern
+ solution [see Eq. (15)]:
+
+ •Ιυπτ,-Ι
+
+ V fz2 + e J s/ex2 + /
+
+ dx
+
+ (41)
+
+ We integrated this in terms of the trigonometric and hyperbolic functions [see Eq. (16)].
+
+ Thus, for example, we would write (for e > 0):
+
+ S [ = = -^=arccosh (.[^x \ + C. (42)
+ J sfi VI f )
+
+ But Newton, his contemporaries and immediate successors, as we know, did not
+
+ express this quadrature in symbolic terms. Rather, they made recourse to a construction
+
+ in terms of the auxiliary conics.
+
+ The quadrature is provided in the fourth column as:
+
+ 28
+
+ 1
+ -xv — s
+ 2
+
+ T~1
+
+ = -j PAD, (43)
+
+ where 5 is the area of the surface subtended under the conic whose abscissa is χ and
+
+ ordinate is v.29 Indeed, the absolute value of the difference between the area of the
+
+ triangle with sides χ and υ and the area of the region subtended under the conic is
+
+ 29 Newton did not use the modern symbol for the absolute value | jxv — s| but rather one that he found in
+ Barrow's works. Newton wrote -j- for "the Difference of two Quantities, when it is uncertain whether the
+
+ latter should be subtracted from the former, or the former from the latter".
+
+ Springer
+
+This content downloaded from 203.78.15.150 on Mon, 18 May 2020 09:11:29 UTC
+All use subject to https://about.jstor.org/terms
+
+ 228
+
+ Ν. Guicciardini
+
+ equal to the area of the conic sector PAD, in terms of which Newton performs the
+
+ required quadrature. Or, in modern symbols:30
+
+ We note that for the conic v2 = ex2 + f (when again we take the hyperbola as our
+
+ example, e > 0), the sector PAD has area equal to
+
+ (44)
+
+ (45)
+
+ which makes Newton's geometric quadrature (43) equivalent to the modern analytic
+ solution (42).
+
+ We find the quadrature as tabulated in ordo septimus of the second catalogue, the
+
+ very same curve, the very same substitution of variable, and the solution expressed in
+
+ terms of the very same auxiliary conics in Newton's annotation for Gregory, written
+
+ on 8 May 1694, to which we now turn at last. Newton was using his quadrature
+ techniques in order to explain to his new friend a difficult (and very important for
+
+ gravitation theory) part of the Principia.
+
+ 7 Newton's annotation for Gregory
+
+ I provide an English translation (slightly adapted from Newton's Correspondence)
+ and a commentary of Newton's annotation for Gregory dated 8 May 1694 (Newton
+
+ 1668-1694,351). It should be recalled that this is a quick note that was taken at the end
+
+ of five very busy days. It was not meant for publication, but just to give a competent
+
+ colleague a sufficiently detailed hint on how to proceed in order to fill the gap in the
+
+ Noten. I take the liberty of altering Newton's words in a few inconsequential details.
+
+ Namely, I use the symbol r, instead of x, and ζ, instead of z. This is done to spare
+
+ my reader a headache, since the variables χ and ζ have already appeared in this paper
+
+ with different meanings.
+
+ 7.1 Translation of Proposition 41 into algebra
+
+ Newton opens the annotation as follows (see Fig. 11):
+
+ 30 To recapitulate. The first case of the seventh order translated into Leibnizian notation is as follows. For
+
+ η = 2, Newton evaluates the integral J &/(zJe + fz2) dz (8, e, / constants). By substitution of variables
+
+ Ζ — x~\ he reduces it to the conic area s = J vdx = J v/ + ex2 djc. Namely,
+
+ τ-J ^jJL—äz = j\\xv-s\ + C = ^\l-xy/f + exl-Jy/f + exldx\ + C.
+
+ <£) Springer
+
+This content downloaded from 203.78.15.150 on Mon, 18 May 2020 09:11:29 UTC
+All use subject to https://about.jstor.org/terms
+
+ Lost in translation? Reading Newton on inverse-cube trajectories
+
+ 229
+
+ , WkfTi·*!-r-oO*»«αI>■*» = *· *7"®«·«" ·
+ 1 iCT(Tif -f- lie) - ■=: Cf ( f,. ns) 3c . fj'gt
+ i (/>.» y- (xxx,χ )
+ w Λ . /4c ΞΤ C \v~d euy <
+ ,. «. w Mrl
+ ADTV·.
+ .. r . ^ g :rsy-^
+ ?</ prrp*i TV"
+ 14 pft-y *ι·τ\
+ Λ m6 Ä*?v43i i2.g iti ux y' jrtV _ uf .,, dC"\yx,,
+ ,3 -tL &M-«
+
+ .«"-< !>-· HjrU <t 5W· χχχ,χΐ ί& = -J , -»-,
+ 7/
+
+ I ' ZiX *
+ *s ■ cX·.'· i>. ' /?_«.
+ X'
+
+ ■ ι». VI Kic^hLJ f ΙΦ. JJ V
+
+ ϊλ4- /··;' Wxri
+ &. c
+
+ ίΖτκ c* λ ^*3 a fik f1*? ' j
+
+ ~«Ά 4
+
+ w.y '«Η» ο» ·
+
+ Fig. 11 Incipit of Newton's annotations for Gregory on Corollary 3. Source: Gregory MS: 163 (Royal
+ Society Library). © The Royal Society
+
+ CP = CT (Fig. p. 130) = CD — CI (p. 128) = r. DF is reciprocally as the cube
+ of the altitude (by Hypothesis and Prop. 34) or = a4/r3 where any arbitrary a
+ is assumed. Let AC — c; then the area ADFB = 2«4/r2 — 2a4/cc. And on that
+
+ account the velocity of the falling body at D, or the revolving one at / (p. 128)
+ or Ρ (p. 130), that is the length IΚ (p. 128), is as yj2a4/r2 — 2a4/c2 by Prop.
+ 39.
+
+ Here, Newton is referring to two figures: one accompanying Proposition 41 on page
+
+ 128 (see Fig. 2) and the other accompanying Corollary 3 on page 130 (see Fig. 3) of his
+ Principia. He is thus associating algebraic symbols with the lengths of the segments
+ occurring in these two figures. The "altitude," which is the distance from the force
+
+ centre, is denoted by x, but in the translation above we change it to r. The ordinate DF
+
+ of the curve BFG, which in Fig. 2 represents the force's intensity, is set equal to a4/r3
+ (it is thus an inverse-cube force). By the fundamental Propositions 39 and 40, Book
+ 1, Newton derives (by a very elementary quadrature) that the speed is proportional to
+ v/2a4/r2 — 2a4/c2 (where c = CA is the position from which the body falls from
+ rest in order to reach the initial speed at CV). That is, speed is proportional to the area
+
+ ABFD (actually the factor 2 should appear in the denominator!).
+
+ We note the following. Newton is here "preparing" his Proposition 41 in algebraic
+
+ language in order to employ his quadrature techniques (below) in a more expeditious
+ way. He uses the expression a4/r3 for the ordinate DF (an inverse-cube force). The
+ constant a is raised to the fourth power, so that the ratio a4/r3 has the dimension of a
+
+ length. Thus, Newton's algebraic language is attentive to geometrical interpretation.
+ The last statement of this first excerpt is equivalent to what nowadays we understand
+
+ as the principle of conservation of mechanical energy.
+
+ 7.2 Algebraic quadrature of curve abz
+
+ The annotation continues as follows (see Fig. 12):
+
+ By the law prescribed on p. 128 let Q be assumed and let Q/r — Ζ (p. 128):
+ then will (p. 129)
+
+ that is
+
+ [2WABFD - ZZ
+
+ Qr
+
+ 2-j2aA — Q2 — 2 a4rr/cc
+
+ •Ö Springer
+
+This content downloaded from 203.78.15.150 on Mon, 18 May 2020 09:11:29 UTC
+All use subject to https://about.jstor.org/terms
+
+ 230
+
+ Ν. Guicciardini
+
+ "j
+ J ^ «γ, „
+
+ ,**y— #■:<!<>
+
+ art1
+
+ ^ f«-f 1^8f *-«Ay ^ ,V- C^U _j^_ ££ — 5_y
+
+ *<r, % a ^ -A. g =^1
+ w M0T3f~?^ (/· *?) Λ* ^ ^
+ ip<i<t 12$ ) id- 4^y%^ I b zz -—asÄ-t—S„ / v - riX x
+ ^ ^ ΤμΨτ) -· ζΐ_ [t n?) t.ti =
+ </ϊ^-λγγτ5?^ · ^ ^ Γ1/"' ^
+ - — ν^ί2= —/ζα.*-?1 — *£§=*'
+ y: — V^2>= 0^~s2—
+ VC> (/ !Z?) vc<? p.tfo )■
+ ftι - fr fr Ί - ' ■ j Γιί ty-l* '- I X ) ι I*. -) i-l-+-L*n^ ly
+ (u- Jl<t^ fxlf +. „ i'.j ^jY d^i^v *.-* .4 7 Ia <*f& ca η»
+ ittLXu C? tL χ,ν^ ^ ^u<wV<· Μ»»
+ &£l('lu%^Ji (1(P jfcw X- , ^λ-^u,*- JE$S£i£i\'- Oy-v*-*i K^'Y I
+ ye (p U^ffyA )*u^r c^jtn
+ ye (p 35Λj^3ft ^/„,; to-r-nh rrka^a-£j , *3*·*γ< U <~^ j
+ i/U^> CO*Jt-H-4 - »V, \£(L/Li*x . /'
+ Ρ rt>
+
+ -5 , _ ''
+ Y7C_ y/5-t^ ^ νΟ" C —
+ /D ^c. y/^t^n, ί-Ύφ+*^ς^ - ί ASy<-*^prf*i Ίπ^Ι (ft C HIT
+
+ ι fuM-ri VC J (f ns) t·— vc<? < f> .)■)<> )■
+
+ ■ ^ L r ν 1
+ -<-> '·. /- V1
+
+ λ5
+
+ λ.
+
+ Fig. 12 Newton's annotations for Gregory on Corollary 3 (detail). Source: Gregory MS: 163 (Royal Society
+ Library). © The Royal Society
+
+ And by squaring the curve ab[z\ of which this is the ordinate, we get
+
+ area VabD = ^~^2α4 - Q2 - ± a given
+
+ = the sector VCI (p. 128) or VCP (p. 130) is proportional to the time. Therefore
+
+ from CP or r, the given altitude of the revolving body, is given the sector VCP
+
+ of the orbit which is sought, proportional to the time; and so the time is given in
+
+ which the body attains that altitude.
+
+ Here, Newton translates the fundamental "law" for the time in function of the radius
+
+ [see Eq. (1)J. The time is given by the quadrature of the curve abz with ordinate Db
+ (see Fig. 2) on page 128 of the Principia.
+
+ For an inverse-cube force, this quadrature is particularly simple [in modern terms
+
+ it is equivalent to Eq. (12)]. It takes the form:
+
+ 8r
+
+ y = Db = —==, (46)
+
+ Vfr2+e
+
+ for 8 = (c2/2a4)Q/2, f — —2a4/c2, and e — 2a4 — Q2. This quadrature is ele
+ mentary. But notice that Newton included it in the ordo quartus of his first catalogue
+ of curves (see Fig. 7). This first catalogue is based on the idea that, as we would say
+ nowadays, differentiation and integration are inverse operations. It is interesting to
+
+ note that Newton does not forget to add a constant of integration.
+
+ 7.3 Geometric construction of quadrature of curve dcx
+
+ The annotation ends somewhat hurriedly with the following lines (see Fig. 13). Gre
+ gory, who in his memoranda of the previous days often refers with admiration to
+
+ Ö Springer
+
+This content downloaded from 203.78.15.150 on Mon, 18 May 2020 09:11:29 UTC
+All use subject to https://about.jstor.org/terms
+
+ Lost in translation? Reading Newton on inverse-cube trajectories
+
+ 231
+
+ V ν- υ
+
+ ν V **|§3g υ
+
+ O-i: L· Υ-κ ? i_0LA,*~s ^-"ι-ύχτ^-η-αχ
+
+ ca-vji^n λ? y«---nn.-KVi #
+ |7Wv» vx. y/5«*\ ^ ^
+ (Ρβ-γ-γ-9 VX. ^ trrv/ Q) C. ~—
+ ο x CX^°' η » _ ^ ^ — c
+ — £ X CXyi·'· / Λ /7 , ^ * CXI
+ zM/~MW^Ez (r<*' ^ *'c * ~ · u
+ VWV TiW^. <nf' ^ A'C * ~ Ix/Za4-_QV_^X · »-*
+ JUeL^ yTKH^O C^-«->"V· <x -17 Ac. ί: j «* ( 4*CC .^t ^ «-' < ^tf Jyv0 t\l- Λτ^,λ.
+ « C^-v-fiLt^ Ax. . 'tec. iV^ i^WA^4c.
+ «$--*· S ... 2
+ Ψ^Λ. JU -£=*& ν-ψ+ läp5X^ te χ.
+ if, ^ fp-aiiU. Vd-t!2~ ίΛί^ γ ■'
+ ?/, ti ^.A. fpsüU. Vdctf ~ ulry; L f|
+ - r <}«'
+ *»q *(-*? X xcc c Λ.ν Ä
+ I CVS * * yCXy *^7^ X CC. τ -&%
+ V # ^ ' Χ ^--e^VT *· " * € bi^e^\ ^ Λ V K.
+ " '■»*»» ^-TA . A.T . » rfr »j» Vr,-? /. ^
+ VCX (Li£t f-tM. \C(? Ι·Λ?·13ο)^
+ VCX (ij1 /-..Λ. VC(P j"*?■ i~}o ) yU
+
+ Q ]/J" * A
+ _ _ scm &*£***
+ ClutAn
+
+ *****
+
+ *·
+
+ / /rfc t*r\A. -vi/ fic^ir VCf t I
+ u vßtt' ^ >'& -< /t*4r l'c/ Ii
+ t ßtc 4L>
+ «* . * ' , / ff . ,. λ
+ ■::<: * -'Λ ~.o....■- / ·$- a ci *
+ f - "' -'^ «« ■ * ■ ^ # c* CT{·'^
+ Cli&&-?> ui /vi pc _rü
+ rcfi—^ ~cr- -φ * * /""r
+ Jcv ^X=CT. c* ^ ^
+ CV Λ *=CT. ,· ..;
+
+ Fig. 13 Newton's annotations for Gregory on Corollary 3 (detail). Source: Gregory MS: 163 (Royal Society
+ Library). © The Royal Society
+
+ Newton's higher-quadrature techniques, needed just this hint in order to connect this
+
+ "abstruse" part of the Principia to the quadrature that Newton "omitted" in the printed
+
+ text of the Principia. We read:
+
+ Furthermore, from the same premises and assumptions
+
+ that is
+
+ and
+
+ Q χ CXlluad
+
+ Dc = — (pag. 129)
+
+ 2AAJABFD - ZZ
+
+ Q χ CXi
+
+ 2r^2a4 — Q2 — 2aArr/ cc
+
+ ee
+ — =ζ =CR,
+ r
+
+ 2a4 2a4 - Q2 .
+
+ Η τ ζ2 — ordinate RS,
+
+ And by squaring the curve dc[x\ of which this is the ordinate, we get the area
+ VdcD, in this way. Let
+
+ and VdcD, the area sought, will be equal to the sector VCS multiplied by the
+ 31
+ given"
+
+ 31 Whiteside notes that the given constant should be Qc2/2a4 (Newton 1967-1981, 6, 438).
+
+ ö Springer
+
+This content downloaded from 203.78.15.150 on Mon, 18 May 2020 09:11:29 UTC
+All use subject to https://about.jstor.org/terms
+
+ 232
+
+ Ν. Guicciardini
+
+ Q χ CXq χ (2α4 — Q2/ee) χ cc
+
+ Wherefore, since the angle VCX (p. 128) or VCP (p. 130) is proportional to this
+
+ area, that angle will be proportional to the sector VCS. And since the altitude CI
+
+ or r is ee/£, and CT (terminated at the tangent ST) is CV2/CR or CV1 /ζ, if f- is
+ put = CV, then CI or r = CT.
+
+ Here, Newton translates the second fundamental "law" for the polar angle in function
+
+ of the radius [see Eq. (2)] that occurs on page 128 of the Principia (see Fig. 2). Even at
+
+ the beginning of the eighteenth century, this quadrature would have been considered
+ a difficult one,
+
+ For an inverse-cube force, Newton needs to square a curve with abscissa r and
+
+ ordinate Dc. Since Q, CX, a and c, are constants, the curve that Newton has to square
+
+ [an equivalent of the integral (13)] has the form:
+
+ for <5 = (Q/2)CX2, / = —2a4/c2, e = 2a" — Q2. This form belongs to the ordo
+ septimus of the second catalogue for η = 2 (see Fig. 10).
+
+ Thus, Newton (as in the second column) proceeds with the variable substitution
+
+ where e is set equal to the semi-major axis CV. This variable substitution is equivalent
+
+ to our w = 1/r in Sect. 4 [Eq. (14)].
+
+ Next, he introduces (as in the third column) the auxiliary conics [drawn at the
+
+ bottom of the page (see Fig. 13)] with abscissa CR — ζ and ordinate
+
+ (48)
+
+ (49)
+
+ Newton concludes with the construction (which we would express in terms of
+
+ trigonometric and hyperbolic functions) prescribed in the fourth column of the seventh
+
+ order of the second catalogue. Namely:
+
+ 1. the radius r is set equal to CT (and inversely proportional to ζ — CR),
+
+ 2. the polar angle VCP is set proportional to the sector VCS?2
+
+ It should be stressed that Newton's recourse to a geometric construction for this
+
+ "mechanical" ("transcendental," in Leibniz's terms) quadrature is typical of the math
+
+ ematical culture adopted in Europe until Euler. For example, as Nauenberg has shown,
+
+ Johann Bernoulli's solution of the inverse problem for inverse-square forces ends with
+
+ a construction in terms of an auxiliary circle (Nauenberg 2010, 291-2).
+
+ 32 In symbolic terms: r = e2·/ζ = e2(cosk6) 1 and r = e2/f = e2(cosh£0)
+
+ <£) Springer
+
+This content downloaded from 203.78.15.150 on Mon, 18 May 2020 09:11:29 UTC
+All use subject to https://about.jstor.org/terms
+
+ Lost in translation? Reading Newton on inverse-cube trajectories
+
+ 233
+
+ iA^v.-vv · - rmgm|nnH|
+
+ *c7 ^Ax= CT.
+ C\/ t~U\ X = C.T.
+
+ β Μ: J . X Li. L<£- l '3^ /w/rJ<UK
+ 4$ O-^i. j . A-"/' * l*t L if■ l /~y '3 β h»/™*
+ '$%L iKt» fv κ-» <$ fh ·. .,. f
+
+ φ 1 ^ 9 4'
+
+ Fig. 14 Newton's annotations for Gregory on Corollary 3 (detail). Gregory adds "Ad Corol: 3 prop XLI
+ Lib l.pag. 130 propria Newtoni manu 8 May 1694". Source: Gregory MS: 163 (Royal Society Library). ©
+ The Royal Society
+
+ 7.4 Desinit
+
+ The annotation ends with two lines in Gregory's handwriting (see Fig. 14):
+
+ To Corollary 3, Proposition 41, Book 1, page 130, in Newton's own hand 8 May
+ 1694.
+
+ Gregory made a copy of this annotation that he later pasted in his Notce, filling a
+ blank half-page that he had left in correspondence to Corollary 3 (see Fig. 1). The
+ master had taught his disciple a lesson that was to remain hidden in Gregory's hands
+ or available to his correspondents. There are reasons to believe that Gregory shared
+ the content of his mathematical memoranda. For example, he may have circulated a
+ short manuscript treatise on fluxions he composed in the autumn of 1694, another
+ effect of his May encounter with Newton (Guicciardini 2009, 334). As late as 1714,
+
+ the blind Lucasian Professor, Nicholas Saunderson, was writing about a proposal for
+ publishing the Notae (Rigaud 1841, 1, 264-5).
+
+ 8 On translating and interpreting
+
+ 8.1 Two questions
+
+ Newton's annotation for Gregory on Corollary 3 gives us some important information
+
+ about the mathematical methods of the Principia. These methods were not exclusively
+
+ based on a supposed "Newtonian style" framed in terms of "geometrical" limiting pro
+ cedures.33 In some instances, when dealing with inverse-cube central force motion,
+ the attraction of ellipsoids, resisted oscillation of pendulums, the solid of least resis
+
+ tance, and in many astronomical parts of the third book, Newton deployed techniques
+ that were an integral part of his algebraic method of fluxions.34 It should be stressed,
+
+ 33 The notion of a "Newtonian style" characterizing the Principia was forcefully defended by Francis De
+ Gandt in his enjoyable and learned monograph (Gandt 1986).
+
+ 34 Gregory's Notce are a treasure trove of information on the relationships between the method of fluxions
+ and Newton's Principia, something that might be missed upon superficial inspection. In many places
+ Gregory refers to quadrature methods. Further, the Aberdeen exemplar of the Notes includes pages on
+ Newton's celebrated treatment of the solid of least resistance, an extraordinary application of fluxions to
+ a proposition of the second book of the Principia that Gregory also included in the manuscript treatise on
+ fluxions he circulated in the mid-1690s ("Isaaci Newtoni Methodus Fluxionum; ubi Calculus Differentialis
+
+ Leibnitij, et Methodus Tangentium Barrovij explicantur, et exemplis plurimis omnis generis illustrantur.
+ Auetore Davide Gregorio M. D. Astronomice Professore Saviliano Oxonian". A fair copy is in Christ Church
+
+ ö Springer
+
+This content downloaded from 203.78.15.150 on Mon, 18 May 2020 09:11:29 UTC
+All use subject to https://about.jstor.org/terms
+
+ 234
+
+ Ν. Guicciardini
+
+ however, that the methods employed in Corollary 3, and in the other instances listed
+
+ above, are not representative of the whole Principia, a work that is characterized by
+
+ a great variety of mathematical methods: some of these, but not all, were part of the
+
+ method of series and fluxions. It is interesting to note that when Newton made recourse
+
+ to quadrature techniques in the Principia, he did so in order to achieve results that were
+
+ of utmost importance for the establishment of the theory of gravitation (Corollary 3
+
+ was important for the theory of perturbations, Corollary 2 to Proposition 91, Book 1,
+
+ for the study of the shape of the Earth).
+
+ In the case considered in this paper, we have seen Newton employing quadrature
+
+ techniques. These cannot be considered a marginal element of the method of fluxions.
+
+ Seventeenth-century mathematicians were in possession of quadrature techniques
+
+ based on approximation methods reminiscent of Archimedean exhaustion proofs. But
+
+ this is not the case with the quadratures employed in Corollary 3: in the second half
+
+ of the seventeenth century, these would have been considered as quite advanced and
+ up-to-date.
+
+ Indeed, the quadratures employed in Corollary 3 imply several features that we
+ associate with "calculus" and "rational mechanics". These features are: the under
+
+ standing of the fundamental theorem of calculus implied in the first catalogue, the
+
+ algorithm for finding the fluxion of (differentiating) irrational equations (irrational
+
+ functions) displayed in the first catalogue, the techniques of quadrature (integra
+ tion) by means of substitution of variables displayed in the second catalogue, the
+ calculation of slopes of tangents to curves and the use of the so-called character
+
+ istic triangle (see Fig. 5), the handling of transcendental magnitudes in terms of
+
+ infinite series such as the binomial theorem, the representation of the variation of
+
+ physical magnitudes (such as the force's intensity) in terms of plane curves (graphs),
+ and the use of infinitesimals "moments" (differentials) referred to the continuous
+
+ variation of physical magnitudes. All the above elements are necessary ingredients
+ that enabled Newton to write the annotation for Gregory. One might even claim
+
+ that Newton knew how to solve the problem of central forces in terms of integra
+ tions!
+
+ Two interesting questions remain open.
+
+ 1. In what sense do Newton's methods differ from those deployed by Leibniz,
+
+ Varignon, Johann Bernoulli, and Euler?35
+
+ 2. Why did Newton omit to explicitly formulate the fluxional techniques he employed
+
+ in the Principia?36
+
+ Footnote 34 continued
+
+ (Oxford). The original is in St. Andrews University Library (MS QA 33G8/D12). Other copies are in the
+
+ Cambridge University Library, Lucasian Papers [Res. 1894]: No. 13 and in the Macclesfield Collection,
+ Add. 9597.9.3 and Add. 9597.9.4). Other relevant information on Newton's use of fluxions in the Principia
+
+ can be gathered, most notably, from Newton's manuscripts and his correspondence with Nicolas Fatio de
+ Duillier and Roger Cotes.
+
+ 35 The classic works by Blay (1992) and Truesdell (1960), for example, are certainly very helpful for
+
+ finding an answer. For a recent assessment, see Nauenberg (2010).
+
+ 36 As a matter of fact, Newton contemplated ending the Principia with an appendix on quadratures in the
+
+ 1690s, when revising the text, and again in the 1710s, when preparing the second edition of 1713. But in
+
+ the end he resolved not to do so. It is only in the posthumous translation of 1729 due to Andrew Motte that
+
+ Springer
+
+This content downloaded from 203.78.15.150 on Mon, 18 May 2020 09:11:29 UTC
+All use subject to https://about.jstor.org/terms
+
+ Lost in translation? Reading Newton on inverse-cube trajectories
+
+ 235
+
+ 8.2 Translations
+
+ The first question depends on a defining feature of the history of mathematics. As
+
+ historians of mathematics, we are always, as is apparent from this paper, wrestling
+
+ with the problem of translation. We are in possession of a contemporary mathematical
+
+ language into which we can translate the language of the past. Indeed, we cannot
+
+ forget our mathematics when we look at the mathematics of the past, or that of other
+
+ cultures. It is a fact, depending on the robustness and universality of mathematics, that
+
+ such translations are possible. Yet, as historians we are very much interested in those
+
+ elements of past actors' languages that are "lost in translation," being peculiar to their
+
+ idiosyncratic conception of mathematics.
+
+ There are many differences between our mathematical language and Newton's. In
+
+ physics, we use equations rather than proportionalities, and this leads us to deploy
+
+ dimensional constants which the experimenters have to measure. We talk in terms
+
+ of functions defined on number domains, rather than relations between geometrical
+
+ magnitudes. We do not reduce problems to geometric "quadratures of curves," but to
+
+ analytic integrations. We relate solutions of differential equations to initial conditions
+
+ and ask ourselves questions of existence and uniqueness that in Newton's times were
+
+ left to intuition. One might even claim that Newton's notion of "solution" was different
+
+ from ours: in tackling the problem of central forces, he sought a construction of
+
+ the trajectory, whereas we seek a class of functions (a general integral). We use a
+
+ vector notation and algebra for directed magnitudes, while until the beginning of the
+
+ nineteenth century mathematicians referred to and manipulated directed magnitudes
+
+ via geometrical diagrams (e.g. we express the conservation of angular momentum in
+
+ terms of a vector equation, whereas Newton demonstrated the conservation of areal
+
+ velocity and the conservation of the orbital plane for central force motion in geometric
+
+ terms). We deal with central forces in terms of a scalar potential energy U that is not
+ to be found in Newton.
+
+ To some twenty-first-century readers the annotation for Gregory we have analysed
+
+ cannot but appear as a strange mixture of geometrical practice, physical insights,
+ and dangerously ungrounded algebraic manipulations. The problem of translation,
+
+ this switching back and forth between present and past languages, even somewhat
+
+ frustrates our conviction about the universality of mathematics.
+
+ However—and this makes history of mathematics an even more demanding
+
+ enterprise—there are also other mathematical languages that soon clutter the his
+
+ torian's desk: ones such as that of Euler, for example, which differ from, and yet
+
+ are "equivalent to," Newton's. It is a worthy historiographical enterprise to attempt
+
+ to understand how Euler and Lagrange improved on Newton, in what progress was
+
+ made in passing from the Principia (1687) to the Mechanica (1736) and then from the
+
+ Mechanica to the Mechanique Analitique (1788). From this perspective, the robust
+
+ ness of the standard view must be recognized. Eighteenth-century mathematicians
+
+ had to abandon Newton's quadratures and geometrical representation of transcenden
+
+ Footnote 36 continued
+
+ we find two quadrature methods (for the attraction of an ellipsoid of revolution and for the solid of least
+
+ resistance) printed as appendices "communicated by a friend," who may have been David Gregory.
+
+ Springer
+
+This content downloaded from 203.78.15.150 on Mon, 18 May 2020 09:11:29 UTC
+All use subject to https://about.jstor.org/terms
+
+ 236
+
+ Ν. Guicciardini
+
+ tal magnitudes. The problems they tackled required them to do so: they transformed
+
+ mechanics in such a way that the Principia became almost an object of curiosity, rather
+
+ than a source of scientific inspiration.
+
+ 8.3 Comparisons
+
+ As a telling example of the controversial issues of interpretation we encounter in
+
+ comparing Newton's fluxional method to the Leibnizian calculus, I might refer to a
+
+ passage in our modern treatment of inverse-cube trajectories in Sect. 4, namely the
+
+ separation of variables that we perform in deducing Eq. (8) from Eq. (7). I will rewrite
+
+ this passage, which is so standard for a modern reader that it is easy to forget the
+
+ importance of this algorithm.
+
+ Given (Eq. 7)
+
+ r = — = ±Jl(E -U)- h2/r2,
+
+ d/ v
+
+ we wrote (Eq. 8)
+
+ y/2(E - U) - h2/r2'
+
+ It is this substitution of the dot notation with the differential one that allowed us to
+
+ separate the variables.
+
+ As Blay has taught us in his magisterial works, Leibniz, Johann Bernoulli, Her
+
+ mann, and Varignon (amongst others) algebraised time, velocity, and acceleration in
+
+ terms of the Leibnizian calculus (Blay 1992). It is this algebrisation (in this case, the
+
+ representation of radial speed as dr/dt) that allows the above separation of variables.
+
+ Yet, we should recall the three following points.
+
+ 1. Newton could "square" the area VabD for an inverse-cube force (see Fig. 2) and
+
+ thus obtain the algebraic function that expresses the functional dependence of time
+ with radial distance in the inverse-cube case (as we have seen in Sect. 7). Thus, in
+
+ his own way, he could tackle the representation of time and velocity necessary for
+
+ the inverse problem of central forces in algebraic terms.
+
+ 2. Further, in his method of fluxions, Newton often understood a symbol such as χ to
+
+ stand not for a finite speed, but rather for an infinitesimal increment, or "moment,"
+
+ of the pertinent variable χ (an increment Leibniz would express with (be). This
+ allowed Newton's immediate British followers, such as David Gregory, Roger
+
+ Cotes, and Colin Maclaurin, who trod in Newton's steps, to write formulas that
+
+ correspond to the ones employed by the Leibnizians. So, for example, the early
+
+ practitioners of the fluxional method would represent, in Cartesian coordinates
+
+ (x, y), the infinitesimal increment of the arc of a plane curve with s — λ/χ2 + y2
+
+ (which, of course, would correspond to ds = y/dx2 + dy2). In this way, they
+
+ were able to reproduce all the results on integration published by mathematicians
+
+ such as Johann Bernoulli and Varignon in the Acta Eruditorum. In this context,
+
+ Ö Springer
+
+This content downloaded from 203.78.15.150 on Mon, 18 May 2020 09:11:29 UTC
+All use subject to https://about.jstor.org/terms
+
+ Lost in translation? Reading Newton on inverse-cube trajectories
+
+ 237
+
+ it should be noted that very soon those who employed Newton's notation learned
+
+ to translate the Leibnizian differential representation of the velocity ν = άχ/άί
+ in Newton's notation as ν = x/i. This notation allowed the early fluxionists to
+
+ perform the separation of variables that we have just seen above.37 The idea that the
+ Newtonian calculus lagged behind the Continental one because of an adherence
+
+ to Newton's notation is a refutable myth.38
+
+ 3. Finally, one should not forget that the mathematicians working with Leibniz's
+
+ notation in the early decades of the eighteenth century, remained anchored to
+
+ a geometric interpretation of the differential magnitudes they manipulated. For
+
+ example, they understood a symbol such as Ay/dx as representing a ratio between
+
+ two geometric infinitesimal magnitudes. Their concern with geometric interpreta
+
+ tion is revealed by the fact that, when writing a differential equation, they paid due
+
+ attention to the geometric homogeneity of the left- and right-hand sides. To depict
+
+ the fluxional method as "geometrical," in opposition to an "algebraic" differential
+
+ calculus is an over-simplification.39
+
+ Let us continue our little exercise of "comparative mathematical literature," so to
+
+ speak. From a modern viewpoint, one might tackle central force motion as follows.
+
+ The integration of Eq. (8)
+
+ defines t in function of r [where we choose f(ro) = Oj. By inversion, the radial
+
+ position in function of time, r (t), can be obtained. By using the conservation of angular
+ momentum (9), the solution for θ is obtained as
+
+ This leads to a complete solution of the determination of the trajectories [r(i), 0(01
+ in a central force field.
+
+ The above calculation is so familiar that we tend to forget that in the eighteenth
+
+ century specific algorithmic tools and new concepts were developed to facilitate such
+
+ manipulations. In this case, what makes the above procedure easy is the concept and
+
+ 37 For example, in Thomas Simpson's treatise on the method of fluxions, first printed in 1750, we read
+
+ that "the Time wherein the Space χ would be uniformly described is known to be as χ/υ," (where υ is the
+
+ velocity) and a few pages later this is applied to rectilinear accelerated motion in order to calculate the time
+
+ Τ "by finding the fluent" of "Τ = χ/υ". This is, of course, in Leibnzian notation equivalent to dr = dx/υ.
+ See Simpson (1750), pp. 244-6.
+
+ 38 The absence of a symbol equivalent to Leibniz's f is a well-known weakness of Newton's notation. In
+ a few instances, Newton used to draw a square □; in most cases, he used words such as "the fluent of"
+
+ or the "area of'. Some eighteenth-century British mathematicians mixed the two notations by writing, for
+
+ example, f yx for J ydx. The use of an elongated / for "fluent of," rather than Leibniz's elongated s, /,
+ for "summa" is also documented. Cajori (1929), 2, 244-6.
+
+ 39 On the "dual" character, algebraic and geometric, of differentiation in the early Leibnizian calculus, see
+ Fraser (2003).
+
+ ö Springer
+
+This content downloaded from 203.78.15.150 on Mon, 18 May 2020 09:11:29 UTC
+All use subject to https://about.jstor.org/terms
+
+ 238
+
+ Ν. Guicciardini
+
+ notation for functions [such as r(t), 0(f)], and the expression of the law of areas
+ (or, conservation of angular momentum) as a differential Eq. (9), rather than as a
+
+ statement concerning the rate of increase in the area spanned by the radius vector.40 It
+
+ is a fact, well known to historians of eighteenth-century mathematics, that the notion
+
+ and notation for functions emerged in the middle of the century, mostly in relation to
+
+ issues related to the integration of partial differential equations (such as the vibrating
+
+ string equation).
+
+ In the absence of a concept of function, Newton achieved the same result, but in
+
+ a more cumbersome way. He required the squaring of two curves, corresponding to
+
+ Eqs. (8) and (10). In his characteristic geometrical way of representing functional
+
+ relationships, Newton had to refer to two areas VabD and VdcD and then state that
+
+ the quadrature of these areas gives the time (represented by the area VCI swept by the
+
+ radius vector) in function of the distance from the force centre, and the polar angle
+
+ (represented by the area of the circle sector VCX) in function of the distance from the
+ force centre.
+
+ 8.4 Re-enactments
+
+ As I said above, the historian wishes to recapture, to re-enact, what has been lost in the
+
+ progress so masterfully recounted by Blay and Truesdell. It is undeniable that Leibniz,
+
+ Varignon, Bernoulli, and Euler produced an algorithm and obtained results in the
+
+ integration of differential equations applied to mechanics that are superiorto Newton's.
+
+ However, Newton's mixing of geometrical intuition and algebra possesses its own
+
+ beauty and conceptual depth. There was progress in passing from Newton to, say,
+
+ Lagrange, but also a loss. In writing the history of the mathematization of mechanics,
+
+ as historians we are interested in recapturing what has been "lost in translation". This
+
+ is important mostly because what is lost is often what is peculiar and idiosyncratic:
+
+ what is revealing of the author's intent and agenda. In our interpretative work, we have
+
+ thus to translate and compare the languages of past actors, in an attempt to understand
+
+ what they wished to achieve, as Newton did, by choosing an austere Euclidean style
+
+ when printing a volume on the mathematical principles of natural philosophy, when
+
+ addressing a question posed by a frustrated visitor, or when omitting a quadrature "for
+
+ the sake of brevity".
+
+ 8.5 Interpretations
+
+ As to the second question. It seems as though Newton used a public language in which
+
+ he printed his magnum opus, and a private language with his acolytes, whenever they
+ asked for clarifications. This bifurcation between esoteric and exoteric mathematics
+
+ 40 We note that angular momentum is a vector quantity, so it is also the direction of the vector (or equivalently
+
+ the fact that the motion is planar) that must be taken into consideration. Before the advent of vector notation
+
+ at the beginning of the nineteenth century (another conceptual shift to which corresponds the introduction
+
+ of yet another mathematical language), the constancy in orientation of the angular momentum for central
+
+ force motion could only be expressed in terms that in some crucial way referred to the geometrical features
+ of the orbit.
+
+ ■£) Springer
+
+This content downloaded from 203.78.15.150 on Mon, 18 May 2020 09:11:29 UTC
+All use subject to https://about.jstor.org/terms
+
+ Lost in translation? Reading Newton on inverse-cube trajectories
+
+ 239
+
+ is a fascinating aspect of Newton's policy of publication that cannot be dealt within
+
+ the limits of this paper. Tentative answers can be reached only by broadening the field
+
+ of historical enquiry. One has to consider what the intended audience of the author of
+
+ the Principia might have been, how the choice of a public mathematical style became
+
+ part of his self-fashioning in the republic of letters as a staunch anti-Cartesian, how
+
+ and why the algebraic method of fluxions became a source of anxiety for a natural
+
+ philosopher who regarded himself as an heir to the Ancients, rather than as a follower
+ of the "men of recent times."41
+
+ 8.6 Invitation
+
+ One of the aims of this paper is to suggest that the vexed question of Newton's use of
+
+ calculus in the Principia still deserves our attention and might lead to "good" historical
+
+ questions, such as the two we have just considered, which bypass as irrelevant the
+
+ animosity and partisanship that have muddied the waters since the Newton-Leibniz
+
+ controversy giving rise to a "standard view" that polarizes Newton's use of "geometry"
+
+ in the Principia and the Continental "rational mechanics" in an all too simplistic
+
+ way.
+
+ Questions of priority have often polarized the attention of historians of mathemat
+
+ ics. These questions are, however, ill chosen since they are based on the idea that
+
+ in the development of mathematics there exist objects (such as theories, theorems,
+
+ concepts, methods) that can be found by a single discoverer. From this point of view,
+
+ the historian's task would be to lend credit to single individuals. But the develop
+
+ ment of mathematics is a much more complex phenomenon, and the application of
+
+ calculus to mechanics is no exception. It would be a gross exaggeration to say that
+
+ Newton founded, or anticipated, the mechanics of Euler and Lagrange. Yet, it would
+
+ be equally wrong to think that Newton and his acolytes were extraneous to a treatment
+ of mechanics in terms of calculus.
+
+ If our programme is aimed at "rediscovering the rational mechanics of the Age
+ of Reason," as Truesdell put it in his seminal paper that initiated the influential his
+
+ tory of this journal (Truesdell 1960), then we have to accept a more complex image
+ of the establishment of rational mechanics, and include Newton and the Newtonians
+
+ within a picture that the standard view depicts as a purely Continental story spanning
+ from Leibniz to Euler. Indeed, Newton and his British followers often contributed
+
+ results in analytic mechanics that were shared with the Continentals, sometimes in
+
+ a polemic context, as even a fleeting perusal of the Bernoulli correspondence at the
+
+ University Library in Basel reveals. One might cite, without any claim to exhaus
+
+ tiveness: Cotes's study on the inverse-cube trajectories, Taylor's work on the vibrating
+
+ string, Stirling's and Maclaurin's theorems on the gravitational attraction of ellipsoids.
+
+ The viewpoint I suggest leads to further questions with which it may be apposite
+
+ to conclude this paper: What did Newton mean by calculus, or by the method of
+
+ series and fluxions? How did he apply it to mechanics? What publication policy did
+
+ he follow in printing the Principia? How did he privately communicate his results
+
+ 41 I have discussed this issue in Guicciardini (2009).
+
+ "Ö Springe
+
+This content downloaded from 203.78.15.150 on Mon, 18 May 2020 09:11:29 UTC
+All use subject to https://about.jstor.org/terms
+
+ 240
+
+ Ν. Guicciardini
+
+ to his acolytes? What can we learn about Newton's mathematical culture when we
+
+ consider his views on mathematical method and publication practices? A serious
+
+ study of these questions might shed light on an important chapter of the history of
+ mathematics.
+
+ Acknowledgments I wish to thank Antonio Giorgilli, Massimo Galuzzi (Dipartimento di Matematica,
+ Universitä di Milano), Tom Archibald (SFU, Vancouver), Craig Fraser (University of Toronto), Alain Albouy
+
+ (Observatoire de Paris), and Michael Nauenberg (Santa Cruz) for their helpful comments.
+
+ References
+
+ Apollonius of Perga. 2000. Conies, Books I-III translated by R. Catesby Taliaferro, diagrams by William
+
+ H. Donahue, introduction by Harvey Flaumenhaft, new revised edition, Green Lion Press, Santa Fe,
+ NM. (See Coniques: Texte Gree et Arabe, Etabli, Traduit et Commenti, edited by R. Rashed, M.
+ Decorps-Foulquier, M. Federspiel, Tome 1. De Gruyter, Berlin, 2008).
+
+ Bernoulli, J. 1710. Extrait de la reponse de Μ. Bernoulli ä Μ. Herman, datee de Basle le 7 octobre 1710,
+
+ Memoires de l'Academie des Sciences 521-33.
+
+ Blay, M. 1992. La Naissance de la Mecanique Analytique: la Science du Mouvement au Tournant des XVIIe
+
+ et XVIIIe Siecles. Paris: Presses Universitaires de France.
+
+ Brackenridge, B. 2003. Newton's easy quadratures: Omitted for the sake of brevity'. Archive for History
+
+ Cajori, F. 1929. A history of mathematical notations, vol. 2. La Salle (IL): The Open Court, (edition used
+
+ of Exact Sciences 57: 313-336.
+
+ Dover, New York, 1993).
+
+ Cotes, R. 1714. Logometria. Philosophical Transactions 29: 5-45.
+ De Gandt, F. 1986. Le style mathematique des Principia de Newton. Revue d'Histoire des Sciences 39:
+
+ 195-222.
+
+ De Lange, O.L., and J. Pierrus. 2010. Solved problems in classical mechanics: Analytical and numerical
+
+ solutions with comments. Oxford: Oxford University Press.
+
+ Erlichson, H. 1994. The visualization of quadratures in the mystery of Corollary 3 to Proposition 41 of
+
+ Newton's Principia. Historia Mathematica 21: 148-61.
+
+ Fräser, C. 2003. Mathematics. In The Cambridge history of science, volume 4, eighteenth-century science,
+
+ ed. Roy Porter, 305-327. Cambridge: Cambridge University Press.
+
+ Guerrini, A. 1986. The Tory Newtonians: Gregory, and their circle. Journal of British Studies 26: 288-311.
+
+ Guicciardini, N. 1999. Reading the Principia: The debate on Newton's mathematical methods for natural
+
+ philosophy from 1687 to 1736. Cambridge: Cambridge University Press.
+
+ Guicciardini, N. 2009. Isaac Newton on mathematical certainty and method. Cambridge (MA): MIT Press.
+
+ Hodgkin, L. 2005. A history of mathematics: From Mesopotamia to Modernity. Oxford: Oxford University
+
+ Press.
+
+ Katz, V.J. 1987. The calculus of the trigonometric functions. Historia Mathematica 14: 311-24.
+
+ Nauenberg, Μ. 2010. The early application of the calculus to the inverse square force problem. Archive for
+
+ Newton, I. 1961. The correspondence of Isaac Newton Volume III (1688-1694), ed. Herbert W. Tumbull,
+
+ Newton, I. 1967-1981. The mathematical papers of Isaac Newton, ed. D. T. Whiteside, vol. 8. Cambridge:
+
+ History of Exact Sciences 64: 269-300.
+
+ Cambridge: Cambridge University Press.
+
+ Cambridge University Press.
+
+ Newton, I. 1999. The Principia: Mathematical principles of natural philosophy... Preceded by a Guide to
+
+ Newton's Principia by I. Bernard Cohen, translated by I. Bernard Cohen and Anne Whitman, assisted
+
+ by Julia Budenz. Berkeley (CA): University of California Press.
+
+ Rigaud, S.P, and S.J. Rigaud. 1841. Correspondence of scientific men of the seventeenth century, vol. 2.
+
+ Oxford: Oxford University Press.
+
+ Simpson, T. 1750. The doctrine and application of fluxions: Containing (beside what is common on the
+
+ subject) a number of new improvements in the theory, and the solution of a variety of new, and very
+
+ interesting, problems in different branches of the mathematics, vol. 2. London: J. Nourse.
+
+ Speiser, D. 1996. The Kepler problem from Newton to Johann Bernoulli. Archive for History of Exact
+
+ Sciences 50: 103-116.
+
+ ö Springer
+
+This content downloaded from 203.78.15.150 on Mon, 18 May 2020 09:11:29 UTC
+All use subject to https://about.jstor.org/terms
+
+ Lost in translation? Reading Newton on inverse-cube trajectories 241
+
+ Truesdell, C. 1960. A program toward rediscovering the rational mechanics of the age of reason. Archive
+
+ for History of Exact Sciences 1: 3-36.
+
+ Wallis, J. 1693. Opera mathematica, vol. 2. Ε Theatro Sheldoniano: Oxford.
+
+ Springer
+
+This content downloaded from 203.78.15.150 on Mon, 18 May 2020 09:11:29 UTC
+All use subject to https://about.jstor.org/terms
+
+

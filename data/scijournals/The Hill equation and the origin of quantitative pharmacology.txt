@@ -1,0 +1,874 @@
+ 
+
+ 
+
+ 
+
+ 
+
+The Hill equation and the origin of quantitative pharmacology
+Author(s): Rudolf Gesztelyi, Judit Zsuga, Adam Kemeny-Beke, Balazs Varga, Bela Juhasz
+and  Arpad Tosaki
+Source: Archive for History of Exact Sciences, Vol. 66, No. 4 (July 2012), pp. 427-438
+Published by: Springer
+Stable URL: https://www.jstor.org/stable/23251738
+Accessed: 19-05-2020 12:09 UTC
+
+JSTOR is a not-for-profit service that helps scholars, researchers, and students discover, use, and build upon a wide
+
+range of content in a trusted digital archive. We use information technology and tools to increase productivity and
+
+facilitate new forms of scholarship. For more information about JSTOR, please contact support@jstor.org.
+
+Your use of the JSTOR archive indicates your acceptance of the Terms & Conditions of Use, available at
+
+https://about.jstor.org/terms
+
+Springer is collaborating with JSTOR to digitize, preserve and extend access to Archive for
+History of Exact Sciences
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:09:15 UTC
+All use subject to https://about.jstor.org/terms
+
+ Arch. Hist. Exact Sci. (2012) 66:427-^38
+ DOI 10.1007/s00407-012-0098-5
+
+ The Hill equation and the origin of quantitative
+ pharmacology
+
+ Rudolf Gesztelyi • Judit Zsuga • Adam Kemeny-Beke •
+ Balazs Varga • Bela Juhasz • Arpad Tosaki
+
+ Received: 20 October 2011 / Published online: 31 March 2012
+
+ © Springer-Verlag 2012
+
+ Abstract This review addresses the 100-year-old Hill equation (published in
+ January 22, 1910), the first formula relating the result of a reversible association
+ (e.g., concentration of a complex, magnitude of an effect) to the variable concentra
+ tion of one of the associating substances (the other being present in a constant and
+ relatively low concentration). In addition, the Hill equation was the first (and is the
+ simplest) quantitative receptor model in pharmacology. Although the Hill equation is
+ an empirical receptor model (its parameters have only physico-chemical meaning for
+
+ a simple ligand binding reaction), it requires only minor a priori knowledge about the
+
+ mechanism of action for the investigated agonist to reliably fit concentration-response
+
+ curve data and to yield useful results (in contrast to most of the advanced receptor
+ models). Thus, the Hill equation has remained an important tool for physiological
+ and pharmacological investigations including drug discovery, moreover it serves as a
+ theoretical basis for the development of new pharmacological models.
+
+ Communicated by : Manfred Laubichler.
+
+ R. Gesztelyi (£3) • B. Varga ■ B. Juhasz • A. Tosaki
+
+ Department of Pharmacology, Faculty of Pharmacy, University of Debrecen,
+ P.O. Box 8, Debrecen 4012, Hungary
+ e-mail: gesztelyi.rudolf@pharm.unideb.hu
+
+ J. Zsuga
+
+ Department of Neurology, Faculty of Medicine, University of Debrecen,
+ P.O. Box 31, Debrecen 4012, Hungary
+
+ A. Kemeny-Beke
+ Department of Ophthalmology, Faculty of Medicine, University of Debrecen,
+ P.O. Box 30, Debrecen 4012, Hungary
+
+ <£) Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:09:15 UTC
+All use subject to https://about.jstor.org/terms
+
+ 428 R. Gesztelyi et al.
+
+ 1 Introduction
+
+ As to methods there may be a million and then some, but principles are few. The
+
+ man who grasps principles can successfully select his own methods. The man
+ who tries methods, ignoring principles, is sure to have trouble.
+
+ Ralph Waldo Emerson (1803-1882)
+
+ This review addresses the Hill equation, published first in its presently known form
+ on January 22 1910. This equation possesses three of the most important features of
+
+ scientific models, i.e.,: it offers a didactical and mnemotechnic aid for understanding
+ and memorizing knowledge and/or information; it can be used to resolve practical
+ problems; and it can serve as a starting point for the development of more detailed
+
+ and particular models. The Hill equation is the first milestone in quantitative pharma
+
+ cology, being the first formula that relates a consequence of a reversible association
+ (as an effect) to the variable concentration of one of two associating substances, as
+ long as the other substance is present in a constant and relatively low concentra
+
+ tion. Therefore, the Hill equation was the first exact (quantitative) receptor model in
+ pharmacology. Beyond its historical role, the Hill model has theoretical and practical
+ significance even today. In this paper we will trace how the Hill equation was first
+
+ introduced, how it was modified and how it is currently used within pharmacology. The
+
+ more than 100 year history of this equation is a good illustration of a rather common
+
+ feature of theoretical models; the fact that they undergo multiple transformations in
+
+ light of expanding knowledge of the underlying phenomenon. These transformations
+
+ are generally of two kinds (1) a refinement of the original model/equation and (2) a
+ more precise understanding of its applicability in specific situations. The history of
+ the Hill equation shows both of those trends and is therefore a good case study for
+ understanding the development of quantitative models in the life sciences.
+
+ 2 Historical background
+
+ The history of pharmacology, as a separate scientific discipline, goes back to the mid
+ and late 19th century, to the works of Rudolf Buchheim (1820-1879) and his student
+
+ Oswald Schmiedeberg (1838-1921), generally recognized as the founders of modern
+ pharmacology (Scheindlin 2001; Rang 2006). Similarly to the evolution of physiol
+
+ ogy from anatomy, pharmacology emancipated from physiology when it developed its
+
+ own methods to examine the living organism. Although the subject of investigation is
+
+ nearly the same for physiology and pharmacology, they are guided by different prin
+
+ ciples (leitmotifs), as they address different questions: while physiology asks: how,
+ pharmacology questions: how to influence with chemical agents (Table 1)?
+
+ In the late 19th century, inspired by the spectacular advances in chemistry and phys
+
+ ics, some scientists turned to apply mathematical approaches to phenomena in the life
+ sciences. In physiology, Carl Ludwig (1816-1895) and his followers, the "organic
+ physicists," rejected the concepts of vitalism, and wanted to describe living nature
+ using mathematical formalism (Zimmer 1996). The mathematical approach in phar
+ macology (more precisely: in a topic that is thought to be pharmacological nowadays)
+
+ "£} Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:09:15 UTC
+All use subject to https://about.jstor.org/terms
+
+ The Hill equation and the origin of quantitative pharmacology 429
+
+ Table 1 Principles and leitmotifs of some disciplines in life sciences
+
+ Discipline
+
+ Principle
+
+ Anatomy The body is a machine (or like a machine, this question is of course out of the
+
+ scope of anatomy)
+
+ Physiology Every function of a living organism aims the maintenance of an equilibrium
+ (complex of equilibria is homeostasis)
+
+ Biochemistry The same laws apply to molecules in inanimate nature as those in living
+
+ organisms (metabolism is based on chemical reactions)
+
+ Pharmacology Functions of a living organism can be affected by certain exogenous agents
+
+ (called pharmacons if the influence is beneficial), with special regard to those
+ that can evoke or inhibit effects of endogenous regulatory molecules)
+
+ Quantitative Interaction between a pharmacon and a living organism can be described in a
+
+ pharmacology mathematical manner
+
+ Fig. 1 Archibald Vivian Hill,
+ British physiologist and
+ pharmacologist (1886-1977)
+
+ only emerged at the beginning of the 20th century. This breakthrough occurred in the
+
+ context of the receptor theory, a hypothesis that had emerged just before the birth of
+
+ quantitative pharmacology.
+
+ The suggestion that both exogenous and endogenous agents must be specifically
+ bound to structures inherent to the living organisms before exerting an effect was first
+
+ proposed by John Newport Langley (1852-1925) in 1878, based on his experiments
+ on salivary secretion in the dog (Maehle 2004). Paul Ehrlich (1854—1915) developed a
+
+ similar hypothesis starting from the results of his bacteriological investigations in 1897
+ (Maehle 2009). They refined these ideas in close competition, which is also reflected
+ in the terms they used to describe the specific chemical structure on the cell receiv
+ ing the agent evoking a cellular response: "side chain" (Ehrlich in 1897), "receptor"
+ (Ehrlich in 1900; the term proved to be enduring), and "receptive substance" (Langley
+ in 1905) (Maehle 2004,2009). The receptor concept can be summarized by the classic
+ maxim of Ehrlich: "Corpora non agunt nisi fixata" (agents do not act unless they are
+ bound) (Pelner 1972).
+
+ Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:09:15 UTC
+All use subject to https://about.jstor.org/terms
+
+ 430 R. Gesztelyi et al.
+
+ At the beginning of the 20th century, Archibald Vivian Hill (1886-1977; Fig. 1) was
+
+ the first who quantified drug induced biological responses by introducing an equation
+
+ (Hill 1910) that has since been named after him. This relationship was then incorpo
+ rated by Alfred Joseph Clark (1885-1941) into the first extensive model of receptor
+ function (Kenakin 2004; Colquhoun 2006; Rang 2006).
+
+ 3 The Hill equation described for ligand binding (Hill-Langmuir equation)
+
+ Although the relationship, revealed by the Hill equation, is already implicit in Hill's
+ first paper dealing with actions of nicotine and curare (or curari) on skeletal muscle
+ (Hill 1909), the equation, in the form known today, was first introduced in his sec
+ ond publication describing the interaction of hemoglobin with oxygen (Hill 1910).
+ In the form it later became widely accepted, Hill's formulation is a good approxi
+ mation for every specific and saturable binding. In this context the term "specific,"
+ in its broadest sense, means that binding occurs between those particular substances
+ that are of interest for the examiner. In a narrower sense, a binding is specific when
+
+ there is a considerable affinity between the particular substances relative to the sin
+ gle binding ability of both of these substances to other materials. In turn, the "sat
+ urability" stems from the fact that one of the particular substances is present in a
+ significantly lower amount than the other(s). Thus, above a certain level, increasing
+ concentrations of this/these later can only slightly increase the amount of resulting
+ complexes. This formal relationship between binding substances was also published,
+ independently from Hill, a few years later by Irving Langmuir in relation to the adsorp
+
+ tion of gases on plain surfaces (Langmuir 1918), therefore the Eq. 2 expressing this
+ link (see below) is referred to as Hill, Langmuir, Langmuir-Hill, and Hill-Langmuir
+ equation, respectively. In a recent proposal, the relationship between concentration
+ and effect has been defined as "Hill equation," while the term "Hill-Langmuir equa
+ tion" has been suggested for quantifying the ligand-receptor interaction (Neubig et al.
+ 2003). For the sake of simplicity, we will use the term "Hill equation" throughout this
+
+ paper.
+
+ The Hill equation can be derived from the law of mass action (more precisely: from
+
+ the mass action model for equilibrium):
+
+ nL + R LnR (1)
+
+ k2
+
+ [L]n [LI"
+ [LnR] = [/?o] • —— = [R0] — (2)
+ [L]n + Ki [L]n + (KA)n
+
+ where L—the ligand that can be present in variable concentration; R—the receptor,
+
+ amount of which is constant and is significantly exceeded by the amount of the ligand;
+
+ [L/t i1?]—the concentration of the ligand-receptor complex; [/?o]—the total receptor
+
+ concentration (receptor number); [L]—the concentration of the free ligand (in practice,
+
+ however, it is treated as the total ligand concentration); k\ and ki—the rate constants of
+
+ association and dissociation, respectively; K& = ko/ k\—the equilibrium dissociation
+
+ •fi Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:09:15 UTC
+All use subject to https://about.jstor.org/terms
+
+ The Hill equation and the origin of quantitative pharmacology 431
+
+ constant of the ligand-receptor complex; K\—the ligand concentration, at which half
+ the receptors are ligand-bound (if n = 1, it equals the ]); n—originally, the number
+ of binding sites for the given ligand in one receptor (as indicated in the Eq. 1), but
+ its interpretation is more complex than it would seem at first glance (it is commonly
+ referred to as the Hill coefficient or Hill slope factor, see below). Ka serves as a mea
+
+ sure for affinity of the ligand to the receptor: the smaller the Ka , the greater the affinity
+ is. The [L~\n/([L]n 4- (Ka)") quotient (on the right side of the Eq. 2) is referred to as
+
+ fractional receptor occupancy.
+
+ There are some assumptions concerning Eq. 2. As mentioned above, an absolute
+
+ requirement is that the binding reaction reaches equilibrium, otherwise the rate of
+ association and dissociation affects the result (Kenakin 2009). Furthermore, the free
+
+ ligand concentration is assumed not to differ significantly from the total ligand con
+
+ centration (this is fulfilled if total ligand concentration significantly exceeds the total
+ receptor concentration, which is common in biological systems). In addition, it is
+ important to point out that the reaction described by the Eq. 1 requires that, during
+
+ ligand binding, all binding sites of a receptor should be simultaneously occupied; in
+ other words, only the free L, the free R, and the fully bound LnR forms are permit
+ ted. So, if incompletely ligand-bound receptors accumulate to a significant degree,
+ Eq. 2 fails to provide proper (=physico-chemically correct) equilibrium concentra
+ tions of the permitted forms and/or constants characterizing the interaction (Weiss
+
+ 1997). Consistently, although the Hill coefficient stems from the equation of the bind
+
+ ing reaction (Eq. 1), it has been observed for a long time that the Hill equation only
+ yields an accurate estimate of the binding sites in one receptor, if there is excessive
+
+ positive cooperativity among these binding sites. This is due to the fact that an increas
+
+ ing affinity of the receptor after the binding of the first ligand accelerates the binding
+
+ of the further ligands and thereby reduces the amount of incompletely ligand-bound
+ receptors (Weiss 1997). If a receptor has more than one binding sites and there is no
+ extreme positive cooperativity among them, the Hill coefficient underestimates the
+ number of binding sites and, in parallel, it overestimates the Ka (or Ka)- So, when
+
+ fitting the Hill equation to the data of a binding reaction, the Hill coefficient should be
+ considered as a compound measure of molecularity and cooperativity. Furthermore, if
+
+ the Hill coefficient significantly differs from unity, K\ values should be treated with
+ caution (Weiss 1997; Goutelle et al. 2008). In conclusion, because of the complex
+ nature of the Hill coefficient, if its value is other than unity, fitted parameters provided
+
+ by the Hill equation for ligand binding cannot considered to be physico-chemically
+
+ meaningful without reservation. This fact that adds an empirical dimension to the use
+
+ of this equation.
+
+ 4 The receptor theory and the Hill equation
+
+ The receptor theory is widely thought to be the concept most characteristic for phar
+ macology (Kenakin 2004; Colquhoun 2006; Rang 2006; Maehle 2009). Following
+ preliminary suggestions by Langley and Ehrlich, Joseph Clark established the first
+
+ comprehensive receptor theory, the so-called occupation (or occupancy, or traditional
+
+ receptor-stimulus) theory (Clark 1926). Clark incorporated the Hill equation into the
+
+ Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:09:15 UTC
+All use subject to https://about.jstor.org/terms
+
+ 432 R. Gesztelyi et al.
+
+ occupation theory (referred to in this context as Langmuir's adsorption isotherm). As
+ a result of Clark's theoretical work, the Hill equation became the first quantitative
+ receptor model linking concentration of an agonist (a ligand capable of exerting a
+ cellular response) to the effect evoked.
+
+ In the context of the occupation theory, the Hill equation was used to evalu
+ ate concentration-response (E/c) curves in a form, in which [LnR] and [/?o] were
+ replaced by the effect of the agonist concentration and by the maximal effect achiev
+
+ able with the given agonist in the given system, respectively. However, as it turned
+ out, features of a ligand-receptor binding cannot be simply extrapolated to the ago
+ nist-effect relationship, i.e., the whole process of the receptor function. As a conse
+ quence, the early version of the occupation theory often conflicted with experimental
+ observations.
+
+ To avoid these conflicts, an advanced form of the occupation theory was developed
+
+ assuming that receptor function consists of two major components: signal-recognition
+ (via formation of an agonist-receptor complex serving as a stimulus for the subsequent
+ structures), and signal-transduction (by means of changes produced by the stimulus)
+ (Ruffolo 1982; Black and Leff 1983; Kenakin 2004). The Hill equation (more pre
+ cisely, Eq. 2 with n — 1) was used to describe the stimulus; thereby this part remained
+ the exact (parametric) element of the modified occupation theory. To describe the sig
+
+ nal-transduction, a nonparametric function was introduced that related the stimulus to
+
+ the biological response (Stephenson 1956). Because this nonparametric function could
+
+ hardly be determined, the major use of this semiparametric occupation theory was to
+
+ study comparative assays, in which the mutual signal-transduction characterized by
+ the nonparametric function can be canceled out by generating ratios. This procedure
+ forms the basis for the so-called null method in pharmacology (Ruffolo 1982; Black
+ and Leff 1983).
+
+ To overcome the limitations of the occupation theory, attempts were made to develop
+
+ parametric receptor models more sophisticated than the Hill equation. The first of these
+ was the operational model of agonism that was derived from the following general
+ reaction equation (Black and Leff 1983):
+
+ mA+mR+s mAR + s (AR)ms (3)
+
+ *i k\
+
+ h k'2
+
+ where A—the agonist; R—the corresponding receptor; s—the effector having low
+
+ affinity for the free receptor but high affinity for the agonist-receptor complex (e repre
+
+ sents all postreceptorial elements playing a role in the generation of an effect); m—the
+
+ number of the agonist-receptor complexes that is necessary to bind to the effector to
+
+ evoke an effect (the so-called operational slope factor, see Eqs. 5 and 6 below); k\ and
+ /c2—the rate constants of association and dissociation for the agonist-receptor com
+
+ plex, respectively; k\ and k'2—the rate constants of association and dissociation for the
+ agonist-receptor-effector complex, respectively; AR—the agonist-receptor complex;
+ (.AR)ms—the agonist-receptor-effector complex.
+
+ It should be noted that equations containing the equilibrium concentrations for the
+
+ first and the second part of the Eq. 3 are none other than the Hill equation described for
+
+ Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:09:15 UTC
+All use subject to https://about.jstor.org/terms
+
+ The Hill equation and the origin of quantitative pharmacology 433
+
+ ligand binding and an analogue of the Hill equation described for signal-transduction,
+ respectively:
+
+ (4)
+
+ (5)
+
+ (6)
+
+ £(~ KAR)ms]) = Em ■
+
+ Substituting Eq. 4 into the Eq. 5 and then rearranging it slightly yields the following
+ equation:
+
+ E — Em ■
+
+ (Ke ■ (Ka + [A]))m + ([/?0] • [A])m
+
+ ([A] • [tfoir
+
+ where [A]—the agonist concentration; [/?o]—the total receptor concentration; [A/?]—
+
+ the concentration of the agonist-receptor complex; [(A R)ms]—the concentration of
+ the agonist-receptor-effector complex (assumed directly proportional to the effect);
+ K\—the agonist concentration producing half-maximal receptor occupancy; Em—
+ the maximal effect achievable by stimulating the given receptor in the given system;
+ Ke—the agonist-receptor complex concentration producing half-maximal Em; E—
+
+ the effect elicited by the agonist at [A].
+
+ In Eqs. 5 and 6, the m operational slope factor characterizes the signal-transduc
+
+ tion as a whole rather than purely the molecularity of this process (similarly to the
+ Hill coefficient concerning the molecularity of the binding reaction). Because of this
+
+ general approach, the operational model preserves the comprehensive nature of the
+ earlier receptor models (Black and Leff 1983).
+
+ Several important methods in pharmacology are based on the occupation theory
+ (e.g., Furchgott's method to determine Ka as a measure of affinity: Furchgott and
+ Bursztyn 1967) as well as the operational model (to assess K\ and parameters charac
+
+ terizing efficacy of the agonist and effectiveness of the receptor-holding system, e.g.,:
+ Van der Graaf and Danhof 1997). Since the operational model contains both physico
+ chemically meaningful (Ka) and arbitrary (m, Ke, Em) constants, some authors treat
+ it as a hybrid model that possesses features of both the so-called mechanistic (mech
+ anism-based) and the empirical (phenomenological) models (Giraldo et al. 2002).
+
+ However, these models of agonist action have been challenged on theoretical
+ grounds (Colquhoun 1998, 2006). The essence of this objection is that the funda
+ mental reaction equation of these models (e.g., the Eq. 3 in case of the operational
+ model) does not contain the following step already described in 1957 (Del Castillo
+ and Katz 1957):
+
+ AR
+
+ > AR*
+
+ k"
+
+ •2
+
+ where: AR and AR*—the inactive and active agonist-receptor complex (before
+ and after a conformational change that enables the receptor to generate an effect),
+
+ (7)
+
+ ^ Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:09:15 UTC
+All use subject to https://about.jstor.org/terms
+
+ respectively; k" and k'2—the rate constants of the conformational change activating
+ and inactivating the receptor, respectively.
+
+ It should be noted that the above-mentioned objection does not apply to the use of
+
+ the Hill equation per se, because the Hill model does not divide the signal-transduc
+ tion process, i.e., it does not provide separate constants for the different parts of the
+
+ 434 R. Gesztelyi et al.
+
+ signaling.
+
+ Subsequently, more recent receptor models have been developed on the basis of par
+
+ ticular rather than general reaction equations. These mechanism-based models are far
+
+ more specific for a given sort of receptors, e.g., ternary complex models for G-protein
+ coupled receptors (Giraldo et al. 2002; Kenakin 2004). Despite being more accurate
+ in describing particular processes and molecular interactions, these specific models
+
+ are not the most suitable approaches for some practical purposes (e.g., curve fitting)
+
+ due to their high complexity. Thus, the simpler models did not lose their significance
+
+ in current pharmacology.
+
+ 5 The Hill equation described for E/c curves
+
+ The Hill equation, described for E/c (agonist concentration) curves, is generally the
+ first choice to phenomenologically characterize the link between agonist concentra
+ tion and effect. The most frequent way to do this is fitting the Hill equation to E/c
+ curve data using non-linear regression (Motulsky and Christopoulos 2003).
+
+ In agreement with the considerations discussed above, when fitting the Hill equa
+ tion to E/c curves representing both the "cognitive" and the "transducing" functions
+ of the receptors, the provided parameters should be treated as best-fit values that geo
+ metrically describe the curve. A classic form of the Hill equation defined for E/c
+ curves is:
+
+ E — Emax " ,n (8)
+ Cn + (EC50)n
+
+ where c—the concentration of an agonist; E—the effect elicited by the agonist at
+ c; Emax—the maximal effect that can be evoked by the given agonist in the given
+ system (geometrically: upper asymptote); EC50—the concentration producing half
+
+ maximum effect (geometrically: midpoint location); n—the Hill coefficient (geomet
+
+ rically: a factor characterizing the slope of the E/c curve at the midpoint).
+
+ In this three-parametric {Emax, ECm,n) form of the Hill equation, the lower
+
+ asymptote is implicitly zero and therefore is not present in the equation. For sim
+
+ plicity, this form is presented throughout this review. If the system has a basal activity
+
+ (E ^ 0 at c = 0), the four-parametric form (containing a lower asymptote) can be
+ used to determine precisely the baseline effect. On the other hand, subtraction of the
+
+ effect measured at c = 0 from every particular effect value enables the proper fitting
+
+ of the three-parametric Hill equation as well (Motulsky and Christopoulos 2003).
+
+ <£l Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:09:15 UTC
+All use subject to https://about.jstor.org/terms
+
+ Fig. 2 The Hill equation in linear and semilogarithmic plotting. Parameters for the plotted Hill equation
+ were chosen to represent a typical E/c curve (£max = 100%; EC50 = 700(J.M; n = 1). The x axis shows
+ the molar concentration (A using a linear scale; B using a logarithmic scale), while the y axis denotes the
+
+ effect in percentage of its maximal value. For this function (and for typical E/c curves), the midpoint of the
+
+ curve is the same as the point of symmetry (the so-called point of inflection) in the case of semilogarithmic
+
+ The Hill equation and the origin of quantitative pharmacology 435
+
+ A
+
+ 100 T
+
+ 75 -
+
+ 50 -
+
+ 25 -
+
+ 0 "I T 1
+
+ 0 0.05 0.1
+
+ plotting (B)
+
+ 6 Curve fitting with use of the Hill equation
+
+ When analyzing ligand binding or E/c curves, Eqs. 2 or 8 can be fitted to the curve
+
+ data, respectively. This procedure will supply regression parameters (best-fit values)
+ that define the shape and location (along the x axis) for the curve. When plotting the
+
+ concentration on a linear scale, the fitted Hill equation will generally follow a hyper
+
+ boloid shape (Fig.2a). Geometrically, if n > 1, the fitted function will be sigmoid, but
+
+ this is only conspicuous at very great Hill coefficients. At the same time, when plotting
+
+ the logarithm of the concentration (or, equivalently, depicting the concentration on a
+ logarithmic scale), the fitted Hill equation will follow a sigmoid shape at any value of
+ n (Fig.2b) (Motulsky and Christopoulos 2003; Goutelle et al. 2008).
+
+ In order to get symmetrical confidence intervals and correct standard errors for the
+ obtained parameters (that allow proper comparison between different ligand binding
+ or E/c curves), it is recommended to plot the [LnR] or E versus the logarithm of
+ ligand concentration, and to fit a rearranged form of the Hill equation, in which the
+ agonist concentration and the concentration-like constant (A"a or EC50) are expressed
+ as logarithm (Motulsky and Christopoulos 2003):
+
+ 1LnR] = 7T~"~T—i—T W
+
+ 1 _|_ Kyi-flog ffA-logc)
+
+ p, _ ^max
+
+ _ 1 -I- 10"'(log£C50-l°gc)
+
+ The reason for this is the fact that distribution of concentration-like constants is asym
+
+ metric, but the logarithm of these constants follows a symmetric (Gaussian) distribu
+ tion (Motulsky and Christopoulos 2003).
+
+ Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:09:15 UTC
+All use subject to https://about.jstor.org/terms
+
+ 436 R. Gesztelyi et al.
+
+ 7 Features of the Hill equation
+
+ The only formal difference between the Hill equation and the Michaelis-Menten equa
+ tion published three years later (Michaelis and Menten 1913) is the Hill coefficient,
+
+ i.e., the variable nature of the slope factor in the Hill equation. This suggests that the
+ equation of Leonor Michaelis (1875-1949) and Maud Leonora Menten (1879-1960),
+ relating velocity of an enzyme mediated reaction to the substrate concentration, is
+ equivalent with the Hill equation if n = 1. Indeed, both ligand-receptor binding and
+
+ substrate-enzyme association are specific, reversible and saturable. However, the equa
+
+ tion of an enzymatic reaction is more complex than the Eq. 1, so the Michaelis-Menten
+
+ constant (Km) is only apparently equivalent with K& in the Eq. 2, as Km depends on
+
+ the rate constant of product formation in addition to affinity of the substrate to the
+
+ enzyme.
+
+ An important feature of the Hill equation is that it exclusively determines symmet
+
+ ric functions, for which the midpoint and the point of inflection is the same (Giraldo
+ et al. 2002) (when plotting semilogarithmically (see Fig.2b), point of inflection of
+ an E/c curve is the point having the greatest steepness, while the midpoint is asso
+ ciated with half the maximal effect). Accordingly, use of the Hill model to evaluate
+
+ markedly asymmetric E/c curves may lead to incorrect estimates (Van der Graaf and
+
+ Schoemaker 1999). To resolve this problem, it is worth comparing the fit of a model
+ defining symmetric functions with the fit of a corresponding model accounting for
+
+ asymmetry (such a counterpart of the Hill equation is the Richards equation: Richards
+
+ 1959). The simplest way for model comparison is to perform an F test. If the asymmet
+
+ ric model fits the E/c data better, that should be used (Giraldo et al. 2002; Motulsky
+ and Christopoulos 2003).
+
+ Today, the Hill equation is classified as an empirical model (for E/c curves), sim
+
+ ilarly to several other relatively simple equations (such as the so-called modified
+ Hill equation, Gompertz equation, Hodgkin equation, Douglas equation and Richards
+ equation). Parameters yielded by empirical models may lack physico-chemical mean
+ ing, and in this case they only geometrically characterize the E/c curve (Giraldo et al.
+
+ 2002; Keller et al. 2002). In contrast, the mechanistic models contain physico-chemical
+ constants allowing deeper insight to the signal amplification cascade and more proper
+
+ extrapolation from a test system (investigated experimentally) to the target system
+ (set up to be modeled by the test system) (Mager et al. 2003; Danhof et al. 2007).
+ To offer these benefits, however, mechanism-based models require detailed a priori
+
+ knowledge about particular mechanisms of the signal-transduction (Kenakin 2006). In
+
+ addition, too many parameters in the equation to be fitted can yield highly correlated
+
+ estimates with large standard errors (Van der Graaf and Stam 1999; Motulsky and
+ Christopoulos 2003). These considerations indicate that, under certain circumstances,
+
+ it is reasonable to use empirical models, especially the prototype Hill equation, which
+
+ is simple, flexible, and requires only minor previous knowledge about the properties of
+
+ the agonist and the pharmacological system investigated. Therefore, when screening
+ the biological activity of pharmacological agents, the first step is to take E/c curves
+
+ and then to fit them to the Hill equation (Kenakin 2006).
+
+ <£) Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:09:15 UTC
+All use subject to https://about.jstor.org/terms
+
+ The Hill equation and the origin of quantitative pharmacology 437
+
+ 8 Conclusions
+
+ The Hill equation was the first quantitative (parametric) model that related the response
+
+ of a system to the concentration of a pharmacological agonist. Subsequently developed
+ receptor models generally incorporated the Hill equation, typically in more and more
+
+ complex formulae. Further research revealed that the parameters of the Hill equation
+
+ (or its simple derivatives) only have a precise physico-chemical meaning when applied
+
+ to ligand binding reactions (especially when the Hill coefficient is unity). However, in
+
+ contrast to most of advanced models developed since, the Hill equation requires only
+
+ minor a priori knowledge or assumptions (e.g., the symmetry of the E/c relationship)
+
+ about the mechanism of action for the investigated agonist in the given system to
+
+ reliably fit the E/c data and to provide useful results. In summary, simplicity, flexi
+
+ bility and reliability of the Hill equation make it an essential tool for the first step of
+
+ E/c data analysis in physiological and pharmacological investigations, furthermore a
+
+ theoretical starting point for the development of new pharmacological models.
+
+ Acknowledgements This study was supported by grants of Hungarian Scientific Research Fund Programs
+ (OTKA-PD 78223; OTKA-K 72315) and the PhD Fellowship of Gedeon Richter Ltd.
+
+ References
+
+ Black, J.W., and P. Leff. 1983. Operational models of pharmacological agonism. Proceedings of the Royal
+
+ Society B: Biological Sciences 220: 141-162.
+
+ Clark, A J. 1926. The antagonism of acetylcholine by atropine. Journal of Physiology (London )6\:547-556.
+ Colquhoun, D. 1998. Binding, gating, affinity and efficacy: The interpretation of structure-activity rela
+ tionships for agonists and of the effects of mutating receptors. British Journal of Pharmacology 125:
+ 924-947.
+
+ Colquhoun, D. 2006. The quantitative analysis of drug-receptor interactions: A short history. Trends in
+
+ Pharmacological Sciences 27: 149-157.
+
+ Danhof, M., J. de Jongh, E.C. De Lange, O. Delia Pasqua, B.A. Ploeger, and R.A. Voskuyl. 2007. Mech
+ anism-based pharmacokinetic-pharmacodynamic modeling: Biophase distribution, receptor theory, and
+ dynamical systems analysis. Annual Review of Pharmacology and Toxicology 47: 357^100.
+
+ Del Castillo, J., and B. Katz. 1957. Interaction at end-plate receptors between different choline derivatives.
+
+ Proceedings of the Royal Society B: Biological Sciences 146: 369-381.
+
+ Furchgott, R.F., and P. Bursztyn. 1967. Comparison of dissociation constants and of relative efficacies of
+ selected agonists acting on parasympathetic receptors. Annals of the New York Academy of Sciences 144:
+ 882-899.
+
+ Giraldo, J., N.M. Vivas, E. Vila, and A. Badia. 2002. Assessing the (a)symmetry of concentration-effect
+
+ curves: Empirical versus mechanistic models. Pharmacol Ther 95: 21-45.
+
+ Goutelle, S., M. Maurin, F. Rougier, X. Barbaut, L. Bourguignon, M., Ducher, and P. Maire. 2008. The
+ Hill equation: A review of its capabilities in pharmacological modelling. Fundamental and Clinical
+ Pharmacology 22: 633-648.
+
+ Hill, A.V. 1909. The mode of action of nicotine and curari, determined by the form of the contraction curve
+
+ and the method of temperature coefficients. Journal of Physiology (London) 39: 361-373.
+
+ Hill, A.V. 1910. The possible effects of the aggregation of the molecules of haemoglobin on its dissociation
+
+ curves. Journal of Physiology (London) 40: Proceedings iv-vii.
+
+ Keller, F., M. Giehl, D. Czock, and D. Zellner. 2002. PK-PD curve-fitting problems with the Hill equation?
+ Try one of the 1-exp functions derived from Hodgkin, Douglas or Gompertz. International Journal of
+ Clinical Pharmacology and Therapeutics 40: 23-29.
+
+ Kenakin, T. 2006. Data-driven analysis in drug discovery. Journal of Receptors and Signal Transduction
+
+ Research 26: 299-327.
+
+ Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:09:15 UTC
+All use subject to https://about.jstor.org/terms
+
+ Kenakin, T. 2004. Principles: Receptor theory in pharmacology. Trends in Pharmacological Sciences 25:
+
+ 438 R. Gesztelyi et al.
+
+ 186-192.
+
+ Kenakin, T. 2009. Quantifying biological activity in chemical terms: A pharmacology primer to describe
+
+ Langmuir, I. 1918. The adsorption of gases on plane surfaces of glass, mica and platinum. Journal of the
+
+ drug effect. ACS Chemical Biology 4: 249-260.
+
+ American Chemical Society 40: 1361.
+
+ Maehle, A.H. 2004. Receptive substances": John Newport Langley (1852-1925) and his path to a receptor
+
+ theory of drug action. Medical History 48: 153-174.
+
+ Maehle, A.H. 2009. A binding question: The evolution of the receptor concept. Endeavour 33: 135-140.
+ Mager, D.E., E. Wyska, and W.J. Jusko. 2003. Diversity of mechanism-based pharmacodynamic models.
+
+ Drug Metabolism and Disposition 31:510-518.
+
+ Michaelis, L., and M.L. Menten. 1913. Die Kinetik der Intertinwerkung. Biochemische Zeitschrift 49:
+
+ 333-369.
+
+ Motulsky, H.J., and A. Christopoulos. 2003. Fitting models to biological data using linear and nonlinear
+ regression. A practical guide to curve fitting. Oxford: Oxford Press (Corrected online version: http://
+ www.graphpad.com/manuals/Prism4/RegressionBook.pdf).
+
+ Neubig, R.R., M. Spedding, T. Kenakin, and A. Christopoulos. 2003. International union of pharmacology
+ committee on receptor nomenclature and drug classification. XXXVIII. update on terms and symbols in
+ quantitative pharmacology. Pharmacological Reviews 55: 597-606.
+
+ Pelner, L. 1972. Corpora non agunt nisi fixata. Maxim behind all of Ehrlich's great discoveries. New York
+
+ State Journal of Medicine 72: 620-624.
+
+ Rang, H.P. 2006. The receptor concept: Pharmacology's big idea. British Journal of Pharmacology 147:
+
+ Richards, F.J. 1959. A flexible growth function for empirical use Journal of Experimental Botany 10:
+
+ Ruffolo, R.R. Jr. 1982. Review important concepts of receptor theory. Journal of Autonomic Pharmacology
+
+ Scheindlin, S. 2001. A brief history of pharmacology. Modern Drug Discovery 4: 87-88.
+ Stephenson, R.P. 1956. A modification of receptor theory. British Journal of Pharmacology 11: 379-393.
+ Van der Graaf, P.H., and M. Danhof. 1997. Analysis of drug-receptor interactions in vivo: A new approach
+ in pharmacokinetic-pharmacodynamic modelling. International Journal of Clinical Pharmacology and
+ Therapeutics 35: 442-446.
+
+ Van der Graaf, P.H., and Schoemaker, R.C. 1999. Analysis of asymmetry of agonist concentration-effect
+
+ curves. Journal of Pharmacological and Toxicological Methods 41: 107-115.
+
+ Van der Graaf, P.H., and W.B. Stam. 1999. Analysis of receptor inactivation experiments with the operational
+
+ model of agonism yields correlated estimates of agonist affinity and efficacy. Journal of Pharmacological
+ and Toxicological Methods 41: 117-125.
+
+ Weiss, J.N. 1997. The Hill equation revisited: Uses and misuses. FASEB Journal 11: 835-841.
+ Zimmer, H.G. 1996. Carl Ludwig: the man, his time, his influence. Pflugers Archiv 432: R9-22.
+
+ S9-16.
+
+ 290-300.
+
+ 2: 277-295.
+
+ Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:09:15 UTC
+All use subject to https://about.jstor.org/terms
+
+

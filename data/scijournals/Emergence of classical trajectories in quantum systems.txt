@@ -1,0 +1,1527 @@
+ 
+
+ 
+
+ 
+
+ 
+
+Emergence of classical trajectories in quantum systems: the cloud chamber problem in the
+
+analysis of Mott (1929)
+Author(s): Rodolfo Figari and  Alessandro Teta
+Source: Archive for History of Exact Sciences, Vol. 67, No. 2 (March 2013), pp. 215-234
+Published by: Springer
+Stable URL: https://www.jstor.org/stable/23479266
+Accessed: 19-05-2020 12:03 UTC
+
+JSTOR is a not-for-profit service that helps scholars, researchers, and students discover, use, and build upon a wide
+
+range of content in a trusted digital archive. We use information technology and tools to increase productivity and
+
+facilitate new forms of scholarship. For more information about JSTOR, please contact support@jstor.org.
+
+Your use of the JSTOR archive indicates your acceptance of the Terms & Conditions of Use, available at
+
+https://about.jstor.org/terms
+
+Springer is collaborating with JSTOR to digitize, preserve and extend access to Archive for
+History of Exact Sciences
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:03:25 UTC
+All use subject to https://about.jstor.org/terms
+
+ Arch. Hist. Exact Sci. (2013) 67:215-234
+ DOI 10.1007/s00407-012-0111-z
+
+ Emergence of classical trajectories in quantum systems:
+ the cloud chamber problem in the analysis of Mott
+ (1929)
+
+ Rodolfo Figari • Alessandro Teta
+
+ Received: 15 September 2012 / Published online: 7 November 2012
+ © Springer-Verlag Berlin Heidelberg 2012
+
+ Abstract We analyze the paper "The wave mechanics of a-ray tracks" Mott (Proc
+ R Soc Lond A 126:79-84, 1929), published in 1929 by N. F. Mott. In particular, we
+ discuss the theoretical context in which the paper appeared and give a detailed account
+
+ of the approach used by the author and the main result attained. Moreover, we comment
+
+ on the relevance of the work not only as far as foundations of Quantum Mechanics
+
+ are concerned but also as the earliest pioneering contribution in decoherence theory.
+
+ 1 Introduction
+
+ N. F. Mott1 proposed a theoretical explanation of the a-particles tracks observed
+ in a Wilson cloud chamber in the paper "The wave mechanics of a-ray tracks"
+
+ 1 Sir Nevill Francis Mott (30 September 1905 to 8 August 1996) was an English physicist. He won
+ the Nobel Prize for Physics in 1977 for his work on the electronic structure of magnetic and disordered
+ systems. The award was shared with P. W. Anderson and J. H. Van Vleck (for further details see e.g.
+ B. Pippard, Biographical Memoirs of Fellows of the Royal Society, 44, 314-328, 1998).
+
+ Communicated by: T. Sauer.
+
+ R. Figari
+
+ Dipartimento di Scienze Fisiche, Universita di Napoli,
+ Complesso Universitario di Monte S. Angelo, Via Cintia, Edificio 6, 80126 Napoli, Italy
+
+ R. Figari (E3)
+ Istituto Nazionale di Fisica Nucleare, Complesso Universitario di Monte S. Angelo,
+ Via Cintia, Edificio 6, 80126 Naples, Italy
+ e-mail: flgari@na.infn.it
+
+ A. Teta
+
+ Dipartimento di Ingegneria e Scienze dell'Informazione e Matematica,
+ Universita di L'Aquila, via Vetoio (Coppito 1), 67010 L'Aquila, Italy
+ e-mail: teta@univaq.it
+
+ Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:03:25 UTC
+All use subject to https://about.jstor.org/terms
+
+ 216
+
+ R. Figari, A. Teta
+
+ (Mott 1929), published in 1929. The work appeared in the early stage of the
+ debate about the interpretation of Quantum Mechanics. It was mainly moti
+ vated by the attempt to clarify the meaning of the wave-particle duality and
+ the crucial role of the measurement process. In this context the paper can be
+ surely regarded as one of the seminal contributions by the quantum theory
+ founders.
+
+ In addition to its foundational relevance, we also consider Mott's paper extremely
+
+ important as the first pioneering example of the relatively recent research approach
+ known as decoherence theory (Giulini et al. 1996). The aim of that theory is to
+ explain the emergence of a quantum particle classical behavior as a result of its
+ interaction with the environment. In fact, it is known that for an isolated quan
+ tum particle an approximate classical evolution can be derived in the limit h —► 0
+ only for very special classes of initial states, like WKB or coherent states (see
+ e.g. Robert 1998). However, in many important physical situations, quantum par
+ ticles exhibit a quasi classical evolution for initial states drastically different from
+ the ones in those classes. Decoherence is precisely the dynamical mechanism,
+ entirely predictable on the basis of quantum evolution laws, responsible for the
+ appearance of a particle classical behavior as a consequence of the interaction with
+ the environment. In concrete situations the approach consists in providing mod
+ els of a non trivial quantum environment which interacts with the particle going
+ through it.
+
+ Our aim is to show that Mott's approach stands entirely inside this line of thought.
+ Indeed, the author analyses the a-particle dynamics assuming a spherical wave as ini
+
+ tial state. He attempts to explain the observed straight tracks left by the a-particle as a
+
+ consequence of its interaction with the atoms of the vapor using a typical decoherence
+ theory attitude. As a matter of fact, Mott's paper is less known than it deserves. In
+ the following we describe the context in which the work appeared, detail the con
+ tents of the article and comment on its relevance both in the foundations of Quan
+
+ tum Theory and in the framework of decoherence theory. The paper is organized as
+ follows.
+
+ In Sect. 2 we briefly describe the experimental and theoretical background
+ in which Mott's paper appeared. In particular, we briefly recall how a Wilson
+ chamber works and we summarize the fundamental ideas leading to the formu
+ lation of Quantum Mechanics according to the so-called Copenhagen or standard
+
+ interpretation.
+
+ In Sect. 3 we give an account of the first theoretical arguments proposed by Born
+ (1927), Heisenberg (1929-30) and Darwin (1929) to explain the tracks observed in a
+
+ cloud chamber in the framework of quantum theory.
+
+ In Sect. 4 we present the introductory considerations appearing in Mott's paper,
+
+ describe the three-particle model presented by the author and give a precise formula
+ tion of the main result.
+
+ In Sect. 5 we describe in some detail Mott's arguments, essentially based on per
+
+ turbation theory and stationary phase methods, leading to the result.
+
+ In Sect. 6 we conclude with some critical remarks on relevance and modernity of
+ Mott's paper, some limitations of his approach and, finally, possible re-examinations
+
+ and improvements of the result.
+
+ Spring er
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:03:25 UTC
+All use subject to https://about.jstor.org/terms
+
+ Emergence of classical trajectories in quantum systems 217
+
+ 2 The Wilson chamber and quantum theory
+
+ Roughly speaking, a tracking chamber is a device where atoms or sub-atomic parti
+ cles are detected and their very short dynamical life is recorded. The prototype of such
+ a device has been the cloud chamber, constructed by Wilson in the years 1911-12
+ (see e.g. Leone and Robotti 2004 for a description of the original apparatus). The
+ importance of the cloud chamber was immediately realized and the device was exten
+ sively used to investigate the properties of many different atomic and sub-atomic
+ particles. In particular, it was used to observe and characterize the "ionizing radia
+ tion" emitted by radioactive sources, which was precisely the case examined in Mott's
+
+ paper. During the last years of the 19-th century Wilson was experimentally analyzing
+
+ the conditions of fog formation in air saturated with water vapor. He examined the
+ role of electric charges as condensation nuclei for the excess of vapor. In the first
+ years of the 20-th century "...ideas on the corpuscular nature of alpha- and beta-rays
+
+ had become much more definite, and I had in view the possibility that the track of
+ an ionizing particle might be made visible and photographed by condensing water
+ on the ions which it liberated" (from Wilson's Nobel lecture, Stockholm, December
+
+ 1927). In fact, he made available an experimental apparatus operating schematically
+ as follows. The air saturated with water vapor, contained in a chamber, is submitted
+ to a very fast expansion lowering its temperature and driving the mixture towards a
+ supersaturated state. The a-particle, released by a radioactive source placed in the
+ chamber, interacts with the atoms of the gas inducing ionization. The ionized atoms
+
+ trigger the formation of small drops of water near their positions. The sequence of
+ such drops is the visible track that one can directly observe in the chamber. Wilson
+ had to solve the complex experimental problem of instantaneous and synchronized
+ illumination and photography of the sequence of drops. The track is regarded as the
+ experimental manifestation of the "trajectory" of the a-particle and, as a matter of
+ fact, is accurately described as the trajectory of a classical particle (relativistic or
+ non relativistic according to the initial particle velocity) in a classical electromagnetic
+ field. In particular, one observes straight lines whenever no electromagnetic field is
+
+ present.
+
+ The advent of Quantum Mechanics in the years 1925-27, together with its standard
+ interpretation, made the effectiveness of the classical description of the tracks rather
+ problematic (see e.g. Falkenburg 1996; Carazza and Kragh 2000). In order to outline
+ the context at the time the cloud chamber problem was first approached we briefly
+ summarize here some crucial steps which led to the final formulation of the theory
+
+ (for a detailed analysis we refer to Jammer 1989; Cushing 1994; Stepansky 1997).
+
+ As it is well known, the decisive contributions to the elaboration of the theory
+
+ came from Heisenberg (1925), together with Born et al. (1925) in 1925, and from
+ Schrodinger (1978) in 1926. The two approaches, known as matrix mechanics and
+
+ wave mechanics respectively, were based on radically different physical descriptions
+ of atomic phenomena.
+
+ The former approach is characterized by the explicit rejection of the classical notions
+
+ of position and velocity in the description of atomic phenomena, in favor of a new
+ kinematics based on observable quantities, like frequencies and amplitudes of the
+ emitted or absorbed radiation in quantum jumps. As a consequence, Matrix Mechanics
+
+ ^ Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:03:25 UTC
+All use subject to https://about.jstor.org/terms
+
+ 218
+
+ R. Figari, A. Teta
+
+ appears as an abstract algebraic formalism where any visualized or intuitive description
+ of a microscopic object is abandoned.
+
+ On the contrary, according to Schrodinger, such intuitive space-time description is
+ still possible if one admits that a microscopic object is described by a wave instead
+ of a point particle. On the basis of the analogy between optics and mechanics, he was
+
+ able to derive the evolution equation for the wave x/r(x,t). Moreover, he also proposed
+
+ a first physical interpretation of e\^/{x,t)\2 as the density charge at the point x and
+
+ time t of the microscopic object with total charge e. The mathematical equivalence of
+
+ the two theories was soon proved by Schrodinger himself leaving open the problem
+
+ to provide the correct physical interpretation of the formal structure. The Schrodinger
+
+ proposal encountered severe difficulties due to the fact that, in general, the solutions
+
+ of the evolution equation inevitably spread in space as time grows.
+
+ The finally accepted interpretation was given by Born (1926) in 1926. According to
+
+ his proposal, \^(x, t)|2 is the probability density to find the object in x at time t. After
+ Born, Quantum Mechanics was accepted more generally as a theory which can only
+ provide probabilistic predictions (of the position or of any other observable relative to
+
+ a microscopic object).
+
+ A further important step in the direction of a deeper understanding of the formalism
+
+ was made in 1927 by Heisenberg. In his paper on the uncertainty principle Heisenberg
+ (1927) he was able to prove the uncertainty relations for position and momentum
+ as a consequence of the non commutativity of the corresponding operators q and p.
+ The physical implications of the uncertainty relations were illustrated through the
+ famous thought experiment with a gamma-ray microscope to determine the exact
+ position of an electron. The conclusion was that a more accurate determination of
+ the electron's position implies a less accurate determination of the momentum and
+ vice versa. According to Heisenberg, the operational impossibility to determine both
+
+ position and momentum of a particle was the origin of the statistical nature of Quantum
+ theory, making, at the same time, the classical notions of position, momentum and
+ trajectory inadequate to describe the microscopic world.
+
+ The work of Heisenberg on uncertainty relations stimulated Bohr to clarify his
+ point of view on the interpretation of the theory. The main purpose of Bohr was
+ to harmonize wave and matrix mechanics in a unified and coherent description of
+ atomic phenomena. The occasion was the lecture delivered at the congress in Como,
+ on September 1927 (Bohr 1928), and also the discussions in the subsequent Solvay
+ Conference in Brussels, on October 1927 (Bacciagaluppi and Valentini 2009). Bohr's
+
+ approach soon became the core of the so-called Copenhagen or standard interpretation
+
+ of quantum mechanics. The main features of such interpretation scheme can be roughly
+
+ summarized as follows: (i) completeness, (ii) wave-particle duality, (iii) lack of causal
+
+ and space-time description, (iv) crucial role of the observation.
+
+ (i) Completeness means that the wave function ijr describes the actual state of an
+
+ individual system and the probabilistic meaning of 1^12 has an ontological char
+
+ acter, i.e. it does not refer to our ignorance of hidden parameters.
+
+ (ii) Wave-particle duality should be understood in the sense that a microscopic system
+
+ cannot be described in terms of only one of the two classical concepts of wave or
+
+ particle. The system rather behaves either as a wave or as a particle, depending
+
+ <?} Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:03:25 UTC
+All use subject to https://about.jstor.org/terms
+
+ Emergence of classical trajectories in quantum systems 219
+
+ on the context or, more precisely, on the experimental apparatus used to observe
+
+ the system. Therefore wave and particle behavior are two mutually exclusive and
+ complementary aspects of the microscopic object essence.
+
+ (iii) According to Bohr, Heisenberg uncertainty relations show the impossibility of
+
+ having a causal description (based on the precise determination of the momentum)
+
+ and a space-time description (based on the precise determination of the position)
+ simultaneously. In this sense classical concepts like causality and space-time
+ descriptions must also be considered as two mutually exclusive and complemen
+
+ tary aspects of the description of a quantum system.
+
+ (iv) The last important point is the role of the observation. A measurement apparatus
+
+ must be considered as a classical object, characterized by a precise determination
+
+ of its classical properties. The measurement process consists in the interaction
+
+ between the microscopic system and the classical apparatus. The result of a mea
+
+ surement is the determination of one of the possible complementary properties
+
+ of the quantum system. The crucial point is that the measured property of the
+
+ system cannot be thought as pre-existing to the measurement process. The prop
+
+ erty is produced only as the result of the interaction with the classical apparatus.
+
+ More precisely, the emerging property is determined by the whole experimental
+ context, i.e. the specific preparation of the system and the characteristics of the
+
+ apparatus. This, in particular, means that the state of the system immediately
+
+ before the measurement (when the system does not possess the given property)
+
+ is different from the state immediately after the measurement (when the system
+
+ possesses the property). The abrupt change of the state of the system determined
+
+ by the measurement process is called wave packet reduction.
+
+ It is worth mentioning that the above conception of the measurement process is the
+
+ most delicate aspect of the Copenhagen interpretation and it has raised a long debate
+
+ that still continues. Here we only briefly mention some problematic points.
+
+ First, it is not explained why all or part of the experimental device, despite being
+
+ made of atoms, must behave as a classical object with well-defined classical properties.
+ Moreover it is not clear where the borderline between the measurement apparatus
+ (characterized by a classical behavior) and the system (characterized by a quantum
+ behavior) should be put. The problem is usually solved pragmatically in each specific
+ situation but, at a conceptual level, the ambiguity remains.
+
+ Finally, one has to renounce to describe the interaction of the system with the
+ apparatus using the Schrodinger equation. This fact was formalized in 1932 by von
+ Neumann (1955) who postulated two different kinds of evolution for the system: a
+
+ genuine quantum evolution governed by the Schrodinger equation when the system is
+ not measured and a different (stochastic and non linear) evolution producing the wave
+
+ packet reduction when the system is measured.
+
+ We only want to mention that many attempts have been made to clarify these con
+
+ ceptual problems within the framework of the standard interpretation but a reasonable
+ and universally accepted solution has not been found.
+
+ From the point of view of our analysis it is interesting to observe that the prob
+
+ lematic aspects of the system-apparatus interaction are immediately evident when one
+
+ approaches the description of a quantum particle in a cloud chamber. In fact, for a
+
+ Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:03:25 UTC
+All use subject to https://about.jstor.org/terms
+
+ 220
+
+ R. Figari, A. Teta
+
+ quantum mechanical description of the process one must take into account that the
+ initial state of the particle emitted by the source does not have the form of a semi
+
+ classical wave packet but rather a highly correlated continuous superposition of states
+
+ with well localized position and momentum. In particular, according to the first theo
+ retical analysis of the radioactive decay given by Gamow (1928), the emitted a-particle
+
+ must be described by a wave function having the form of a spherical wave, with center
+
+ in the radioactive nucleus and isotropically propagating in space. Therefore, the non
+
+ trivial problem arises as to how such a superposition state can produce the observed
+
+ classical trajectories. As we shall see in the next sections, in such explanatory scheme
+ a crucial role is played by the act of 'observation", where the system to be measured
+ can be the a-particle (in particular its position) as well as the atoms of the vapor
+
+ (in particular their excitation).
+
+ 3 Early contributions
+
+ In this section we shall briefly summarize the first theoretical attempts to explain
+
+ the apparent contradiction between the highly correlated superposition state of the
+ a-particle and the observed tracks in the chamber. In particular, we shall consider the
+ contributions of Bora (1927), Heisenberg (1929-30) and Darwin (1929).
+
+ 3.1 Born (1927)
+
+ The theoretical explanation of the observed tracks in a cloud chamber was already
+ approached by Born (for the first time to our knowledge) in 1927 during the gen
+ eral discussion at the Solvay conference (Bacciagaluppi and Valentini 2009). In his
+ words: "Mr. Einstein has considered the following problem: a radioactive sample emits
+
+ a -particles in all directions; these are made visible by the method of the Wilson cloud
+ chamber. Now, if one associates a spherical wave with each emission process, how
+ can one understand that the track of each a -particle appears as a (very nearly)
+ straight line? In other words: how can the corpuscular character of the phenomenon
+
+ be reconciled here with the representation by waves?"
+
+ According to Born, the answer can be given resorting to the notion of "reduction
+
+ of the probability packet" discussed by Heisenberg (1927). According to this notion,
+
+ the observation of the electron position by light of wavelength k would produce the
+
+ reduction of the probability packet for the position of the electron to a region of
+ linear size k. In the subsequent evolution the packet spreads in space until a new
+ observation reduces it again to a packet of width k. Then, in Heisenberg's words:
+
+ "Every determination of position reduces therefore the wave packet back to its original
+
+ size k". This mechanism of reduction would be responsible for the appearance of a
+ (nearly) classical trajectory of the electron.
+
+ The same idea is used by Born in the case of the cloud chamber. Here the obser
+
+ vation by means of light must be replaced by ionization of the atoms of the vapor
+ in the chamber: "As soon as such ionization is shown by the appearance of cloud
+ droplets, in order to describe what happens afterwards one must reduce the wave
+ packet in the immediate vicinity of the drops. One thus obtains a wave packet in the
+
+ Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:03:25 UTC
+All use subject to https://about.jstor.org/terms
+
+ Emergence of classical trajectories in quantum systems 221
+
+ form of a ray, which corresponds to the corpuscular character of the phenomenon". It
+ is worth to emphasize that, according to this reasoning, the whole process is described
+ in terms of the interaction of a quantum system (the a-particle) with a classical mea
+ surement apparatus (the atoms of the vapor). Such interaction, which is not described
+ by Schrodinger equation, produces "reduction" of the spherical wave to a wave packet
+ with definite position and momentum.
+
+ Following a suggestion by Pauli, Born continues discussing the possibility to
+ describe both the a-particle and the atoms of the vapor as constituents of a unique
+
+ quantum system, whose wave function depends on the coordinates of all the particles
+ of the system. In particular, Born proposes, as an example, a simplified one dimen
+ sional model consisting of the a-particle and only two atoms. The a-particle is initially
+
+ in a superposition state of two wave packets with opposite momentum and position
+ close to the origin. The two cases where atoms are placed on the same side or on
+
+ opposite sides with respect to the origin are considered. Born discusses, at a purely
+
+ qualitatively level, the probability that during the time evolution of the whole system
+ the two atoms will be hit in the two different cases. We simply give the conclusions
+
+ reached by Born without going into details (for a quantitative analysis of the same
+ model, see e.g. Dell'Antonio et al. 2008).
+
+ The first statement he makes, without invoking the reduction of the wave packet, is
+ that the a-particle has negligible probability to hit both atoms unless they are on the
+
+ same side with respect to the origin.
+
+ On the other hand, Born concludes his argument having an explicit recourse to the
+ reduction postulate, saying: 'To the reduction of the wave packets corresponds the
+ choice of one of the two directions of propagations", and the choice is made as soon
+ as one observes the excitation of an atom, as a consequence of the collision. Only
+ starting from such an observation the evolution of the a-particle can be described as
+
+ a real classical trajectory.
+
+ In conclusion, it seems that according to Born a more detailed description of the
+ a-particle in a cloud chamber taking into account the presence of the environment is in
+
+ fact possible "but this does not lead us further as regards the fundamental questions".
+
+ 3.2 Heisenberg (1929-30)
+
+ As already mentioned, Born's analysis was explicitly inspired by the considerations
+ of Heisenberg (1927) on the applicability of the notion of classical trajectory of an
+ electron. It is remarkable that Heisenberg himself explicitly reconsidered the cloud
+
+ chamber problem in his lectures at the University of Chicago in 1929, published in
+
+ Heisenberg (1927), following the same line of thought of Born but with considerably
+
+ more details. His approach, described in chapter 5 of the book, can be considered an
+ exhaustive qualitative investigation of the problem according to the standard inter
+ pretation of Quantum Mechanics. This analysis had a deep influence on the physics
+
+ community for many years.
+
+ Heisenberg's first (rather extreme) remark is that the whole experimental situation
+
+ could be satisfactorily described using only classical mechanics, but it might also be
+
+ of interest to discuss the problem from the point of view of quantum theory.
+
+ ^ Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:03:25 UTC
+All use subject to https://about.jstor.org/terms
+
+ 222
+
+ R. Figari, A. Teta
+
+ He stresses that, approaching a quantum theoretical description, one is immediately
+ faced with the problem of separating the quantum system from the apparatus. In the
+ case of the cloud chamber, one has two different reasonable choices: (a) the quantum
+
+ system consists of the a -particle alone (and then the molecules of the vapor play the role
+
+ of the measurement apparatus); (b) the quantum system consists of the a-particle and
+
+ the molecules of the vapor. It should be emphasized that the physical descriptions of
+
+ the experimental situation obtained following the two different choices are explicitly
+ considered equivalent. Heisenberg's line of reasoning in examining the two cases
+ proceeds as follows:
+
+ In case (a) the single molecule of the vapor measures the position of the a-particle.
+ Assume that the molecule (supposed at rest) occupies a volume Aq around the point
+ q\ and t\ is the collision time between a-particle and molecule. As result of the
+ measurement process, the state of the a-particle is suddenly reduced and therefore at
+
+ time t\ it has position q\ with spread Aq. On the other hand one knows the position
+
+ qo of the a-particle at time to, when it leaves the radioactive source. Since no external
+
+ force is present, one infers that the momentum of the a-particle at time t\ is p\ —
+ M(q\ — qo)/(t\ — to), where M denotes the mass. It is then possible to conclude that
+ for t > t\ the a-particle is described by the free evolution of a wave packet starting
+ from <71, with initial spread Aq and momentum along the straight line y joining qo
+ and q\. Therefore, the center of the wave packet moves along the same line y. During
+ the time evolution the wave packet inevitably spreads out. On the other hand the
+ a-particle collides with other molecules placed along y and after each collision the
+ same measurement process of the position takes place. In this way the spreading is
+ repeatedly reduced and the wave packet remains focused around the straight line y,
+
+ corresponding to the observed "trajectory" of the a-particle.
+
+ Let us consider case (b), where the molecules of the vapor are considered part of
+
+ the quantum system. Heisenberg starts with an interesting claim that would have prob
+ ably deserved further analysis: in case (b) the procedure to account for the observed
+ trajectories is more complicated but, on the other hand, it allows to hide the role of
+ the reduction of the wave packet.
+
+ Then he goes on to describe a simplified model made of the a-particle plus only two
+ molecules. The molecules are non interacting, their centers of mass are fixed in the
+
+ positions ai, aj / and the internal coordinates are denoted by qi, q//. It is assumed that
+
+ the Hamiltonians of the two molecules have a complete set of eigenfunctions <pn,{qi),
+
+ (pnn (qn), corresponding to a discrete set of eigenvalues labeled by integers «/, «//.
+
+ The initial state of the system is chosen in the form of a product of the ground states
+
+ of the molecules (labeled by n®, n°n) times a plane wave with momentum p for the
+ a-particle.
+
+ The interesting object to compute is the probability that both molecules are excited
+
+ and the result of the computation is that such a probability is significantly different
+
+ from zero only if the momentum p is parallel to the line joining ai and a//. Since
+ the passage of the a-particle is indirectly observed through the excitations of the
+ molecules, the result explains why one can only see straight trajectories in a cloud
+ chamber.
+
+ The solution of the Schrodinger equation for the three-particle system is approached
+
+ treating the interaction between the a-particle and the molecules as small perturbation
+
+ Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:03:25 UTC
+All use subject to https://about.jstor.org/terms
+
+ Emergence of classical trajectories in quantum systems 223
+
+ of the free dynamics and assuming that the momentum p is large with respect to
+ the spacing of energy levels of the molecules. The perturbative computation is not
+ developed in all details by Heisenberg. Here we only summarize the main steps of his
+
+ procedure in order to clarify the line of reasoning.
+
+ The Schrodinger equation is solved by iteration and at the first order the wave
+
+ function can be written in the form
+
+ ifW=e '*E° ^ w{Vnn(x)(pni(qi)<pnn(qn)
+
+ (3.1)
+
+ ni,nn
+
+ where Eq denotes the total energy of the system, x the position coordinate of the
+
+ a-particle and the coefficients w^nu satisfy an equation which is easily derived from
+
+ the original Schrodinger equation. From Born's rule it follows that |tv$n,, (x)\2 rep
+ resents the probability density (at first order) to find the a-particle in x when the
+ molecules are in the states labeled by «/,«//.
+
+ From the equation for w^nil it is immediately evident the first result: the probability
+
+ that both molecules are excited is zero at first order.
+
+ The second result claimed by Heisenberg is definitively less evident and neverthe
+
+ less it is stated without detailed proof. It says that w^\ is significantly different from
+
+ n/tiu
+
+ zero only in a strip parallel to p located behind the molecule I, whose thickness (close
+ to the molecule) is of the same order of the dimension of the molecule. The same kind
+
+ of result is obviously true for w(1„ .
+
+ n,nn
+
+ Then he continues with the analysis of the wave function at the second order
+
+ is(2) = e~'tE° U)ffnil(x)(pni(qi)<pnil(q//) (3.2)
+
+ ni,nu
+
+ (2)
+
+ n,nii
+
+ the strip of u/1? .
+
+ n,nn
+
+ The procedure can be iterated with an arbitrary number of molecules and therefore
+
+ the linearity of the trajectories is proved.
+
+ At the end of the analysis, Heisenberg makes a second claim on the problem of
+ the wave packet reduction. In particular, he explains that in case (b) the reduction
+ takes place when one arranges a measurement process "to observe" the excitation of
+ the molecules. This simply means that the unavoidable line of separation between
+
+ the system and the apparatus has been moved to include the molecules in the system.
+
+ In this sense one should probably understand the previous claim that the reduction in
+ case (b) is hidden.
+
+ In summary, Heisenberg's analysis of the cloud chamber, like Born's analysis,
+ insists to consider the treatments in case (a) and (b) as conceptually equivalent. This
+
+ belief is founded on the fact that in any case the recourse to the reduction of the wave
+
+ packet cannot be avoided.
+
+ 4^ Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:03:25 UTC
+All use subject to https://about.jstor.org/terms
+
+ Writing the equation for wn/nn and exploiting the results obtained at the first order, he
+ derives the desired final result. The probability density at second order C*)| ,
+
+ (2) o
+
+ with ni ^ n® and «// ^ n°n, is significantly different from zero only if the following
+
+ two situations occur: the molecule II is in the strip of u/1' n or the molecule I is in
+
+ 224
+
+ 3.3 Darwin (1929)
+
+ R. Figari, A. Teta
+
+ A further relevant contribution to the explanation of the trajectories in a cloud chamber
+ was given by Darwin (1929) in 1929. In this paper one does not find any analysis
+ of specific models. Nevertheless there is a detailed discussion of the problem and
+ it is clearly stated a possible strategy for an approach entirely based on the use of
+ Schrodinger equation.
+
+ Darwin approaches a collision problem in the framework of wave mechanics with
+ the aim to "take a problem which would be regarded at first sight as irreconcilable
+
+ with a pure wave theory, but thoroughly typical of the behavior of particles, and show
+
+ how in fact the correct result arises naturally from the consideration of waves alone".
+
+ He emphasizes that in order to obtain the correct predictions on the behavior of a given
+
+ system S one has to take into account its interaction with (part of) the environment
+
+ £. Therefore the wave function x/r is not a wave in ordinary three dimensional space
+
+ but rather it is a function of the coordinates of <S and of £. Only when such V/ has
+
+ been computed, the probabilistic predictions on S are obtained by taking an average
+ over all possible final configurations of £. Such procedure, even if "discouragingly
+
+ complicated", can account for the particle-like behavior working only on i/f and without
+
+ invoking any act of observation. It is worth noticing that the program outlined by
+ Darwin essentially coincides with the basic strategy of modern decoherence theory.
+
+ After these considerations, Darwin discusses a concrete example where the intuitive
+
+ particle behavior can be derived from the analysis of the wave function. That part of
+ the analysis is not directly connected with the cloud chamber and therefore it is not
+
+ relevant for our purposes. However, in the final part of the paper, one finds some other
+ interesting considerations.
+
+ He examines the case of the ray tracks of a-particles in a cloud chamber, "one of
+ the most striking manifestations of particle characters", in connection with Gamow's
+ theory of radioactive decay (Gamow 1928), distinguishing two different points of
+ view.
+
+ According to the first one "we must regard Gamow's calculations as determining
+
+ only the probability of disintegration, and that when this has taken place, we start the
+
+ next stage by assigning a definite direction/or the motion of the a -particle; after which
+
+ we reconvert it into a wave, but now on a narrow front, so as to find its subsequent
+
+ history".
+
+ As an alternative to this point of view, he first notices that a-rays can in principle
+
+ exhibit diffraction and therefore it is reasonable to assign a real existence to the spher
+
+ ical wave outside the nucleus. Then he discusses a possible wave description of the
+
+ experiment. The wave function i/f is a function of the coordinates of the a-particle
+ and of the coordinates of the atoms in the chamber and, before the first collision, it
+
+ is a product of the spherical wave for the a-particle times a set of stationary (in gen
+
+ eral ground) states for the atoms. "But the first collision changes this product into a
+
+ function in which the two types of coordinates are inextricably mixed, and every sub
+
+ sequent collision makes it worse". Such complicated function contains a phase factor
+ and "without in the least seeing the details, it looks quite natural to expect that this
+ phase factor will have some special character, such as vanishing, when the various
+ co-ordinates satisfy a condition of collinearity".
+
+ Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:03:25 UTC
+All use subject to https://about.jstor.org/terms
+
+ Emergence of classical trajectories in quantum systems
+
+ 225
+
+ It is interesting to notice that Darwin clearly identifies stationary phase arguments
+
+ as the crucial technical tools required to predict the particle-like behavior.
+
+ Then he continues: "so without pretending to have mastered the details, we can
+ understand how it is possible that the xjs function, so to speak, not to know in what
+
+ direction the track is to be, but yet to insist that it should be a straight line. The decision
+
+ as to actual track can be postponed until the wave reaches the uncovered part, where the
+ observations are made". This approach seems to have a general validity. In Darwin's
+ view the wave-particle duality proposed by Bohr can be avoided. The whole quantum
+ theory can be based on the wave function i/r, considered as the central object from
+ which all the particle or wave properties can be accurately described, at least until
+ a real measurement is performed. In his words "it thus seems legitimate to suppose
+ that it is always admissible to postpone the stage, at which we are forced to think of
+
+ particles, right up to the point at which they are actually observed'.
+
+ 4 Mott's paper
+
+ The program enunciated by Darwin was concretely realized by Mott in his seminal
+
+ paper of 1929. In the introduction Mott recognizes to have been inspired by Darwin's
+ paper in his attempt to explain the typical particle-like properties of an a-particle in a
+
+ cloud chamber using only wave mechanics. He admits that such a point of view seems
+
+ at first sight counterintuitive, since "it is a little difficult to picture how it is that an
+
+ outgoing spherical wave can produce a straight track; we think intuitively that it should
+
+ ionise atoms at random throughout space". Like Heisenberg, Mott points out that the
+
+ crucial point is to establish the borderline between the system under consideration and
+
+ the measuring device. He recalls the two possible approaches: in the first the a-particle
+
+ is the quantum system under consideration (and the gas of the chamber is part of the
+ measuring device) while in the second approach the quantum system consists of the
+ a-particle and of the atoms of the gas.
+
+ Mott proceeds toward a detailed analysis of the problem following closely the lat
+
+ ter approach. He claims that the intuitive difficulty mentioned above can be overcome
+ since it arises from our erroneous "tendency to picture the wave as existing in ordi
+ nary three dimensional space, whereas we are really dealing with wave functions in
+
+ multispace formed by the co-ordinates both of the a -particle and of every atom in the
+ Wilson chamber
+
+ The model considered by Mott consists of the a-particle, initially described by a
+ spherical wave centered at the origin, and the electrons in two hydrogen atoms. The
+
+ nuclei of the atoms are supposed at rest in the fixed positions ai, a2, with \a \ | < \ao\- It
+
+ is assumed that the a-particle does not interact with the nuclei and that the interaction
+
+ between the two electrons is negligible. The interaction between the a-particle and
+ the electrons is assumed to be weak. The model is essentially the same considered
+
+ by Heisenberg in case (b). Nevertheless, as we shall see, Mott's analysis is definitely
+
+ more detailed and therefore the outcome appears more transparent and convincing.
+
+ The main result of the paper can be summarized in the following statement: under
+
+ suitable assumptions (which will be specified later) the two hydrogen atoms cannot
+ both be excited (or ionized) unless ai, and the origin lie on the same straight line.
+
+ 4?) Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:03:25 UTC
+All use subject to https://about.jstor.org/terms
+
+ where A* is the Laplacian with respect to the coordinate x, M is the mass of the
+
+ a-particle, m is the mass of the electron, —e is the charge of the electron so that 2e is
+
+ the charge of the a-particle.
+
+ The solution of Eq. (4.1) can be conveniently expanded in series of eigenfunctions
+
+ of the two electrons in the hydrogen atoms. More precisely, let i/fj be the y'-th eigen
+ function of an hydrogen atom centered in the origin, with tj/o denoting the ground
+
+ state. Then the corresponding eigenfunctions of the atoms in ai, a2 are
+
+ y'j (n) = ifjin -a\), y'j'(r2) = i/j (r2 - a2)
+
+ (4.2)
+
+ 226
+
+ R. Figari, A. Teta
+
+ We shall describe how Mott derives the result trying to follow the original nota
+ tion and line of reasoning. Main objects of the investigation are periodic solutions
+ F(R, r\, ri)elEt!h of the Schrodinger equation for the three particle system, where
+ R, r\, ri denote the coordinates of the a-particle and of the two hydrogen atom elec
+
+ trons respectively. The function F (depending parametrically on E) is solution of the
+ stationary Schrodinger equation
+
+ A rF +
+
+ 2 M
+
+ - ( + ) F = EF i
+
+ ( 2e2 2e2 \
+ V|/?-ri| \R — r2| /
+
+ We notice that here it is tacitly assumed that the index j can be an integer or a
+
+ real positive number (and correspondingly xf/j can be a proper eigenfunction or a
+ generalized eigenfunction).
+
+ Exploiting completeness of the system of eigenfunctions, we have the following
+
+ representation for F
+
+ F(R, n, r2) = £ fnh(R)^'h(n)^{r2)
+
+ (4.3)
+
+ h'h
+
+ The Fourier coefficients /), j2 (R) of the expansion have a direct physical interpretation.
+ Indeed, exploiting Born's rule, the probability to find the first atom in the state labeled
+
+ by ji and the second atom in the state labeled by 72 is
+
+ (4.4)
+
+ One can pictorially say that the "wave function" of the a-particle is /oo(R) if both
+
+ atoms remain in the ground state, /;io(R), j\ 0, if the first atom is in the y'j-th
+ excited (or ionized) state and the second in the ground state, fjlj2(R), ji, h / 0, if
+ both atoms are excited (or ionized).
+
+ The analysis will show that /oo(R) is a (slightly deformed) spherical wave and
+
+ /y,o(R), jl 7^ 0, is a wave packet emerging from ai with a momentum along the line
+
+ 0&\. This means that the second atom can be excited by such wave packet only if
+
+ lies on the line Oaj. Thus the desired result will follow, i.e. fjtj2(R), j], ji ^ 0, is
+ approximately zero unless the condition of co-linearity is satisfied.
+
+ Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:03:25 UTC
+All use subject to https://about.jstor.org/terms
+
+ Emergence of classical trajectories in quantum systems
+
+ 227
+
+ 5 Derivation of the result
+
+ Exploiting the assumed weakness of the interaction between a-particle and electrons,
+
+ the computation is carried out using second order perturbation theory. If we write
+
+ F = F(0) + F(1) + F(2) + • • • (5.1)
+
+ then by successive approximation one has for n > 1
+
+ —— Ar F{n) + (- — An ) F(n) + (-—An ) P(n) -EF(n)
+
+ 2M \ 2m In—ail/ \ 2m |r2-a2|/
+ = ( 2e2 2e2 \ (»_0
+
+ \|R — n| |R — t21 / (5'2)
+
+ For n = 0 one has to solve the unperturbed equation:
+
+ -*LArF<P> + (-—An —)
+
+ 2M V 2m n |ri-ai|/
+
+ F(0)
+
+ + (~An- 62 ) F(0) - £F(0) = 0 (5.3)
+
+ \ 2m |r2-a2|/
+
+ As solution of (5.3) one chooses a diverging spherical wave times the ground state of
+ the two atoms
+
+ F<-°\R, n, ri)= (r2),
+ Jk\R\
+
+ /oo ) |R| •
+
+ t=V2«(E-2E„) f5A)
+
+ where Ej denotes the j-th eigenvalue of the hydrogen atom and is the outgo
+ ing solution of the Helmotz equation. Notice that the use of stationary Schrodinger
+
+ equation forces Mott to choose a solution not in L2 which, strictly speaking, is not
+
+ legitimate. In particular, the probabilistic interpretation (4.4) fails for fffl . For the first
+ order term F(1) we write
+
+ FW(R, n, r2) = X /$<*)*/, (5.5)
+
+ *1,1*2
+
+ Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:03:25 UTC
+All use subject to https://about.jstor.org/terms
+
+ 228
+
+ R. Figari, A. Teta
+
+ Substituting (5.5) into (5.2) for n = 1 one has
+
+ Z + En + E'2 - e) /$(*)*/, (n K'ta)
+
+ '1,12
+
+ - (]R^i + jR^y 2) <5.6,
+
+ Multiplying the above equation by ^ (ri^j'fa) and integrating over the coordi
+
+ nates of the electrons one obtains the equation for fjj2(R)
+
+ f!sAs+£''+E"-£)/S(s)
+
+ 2e2
+
+ = C(R) (sh0<jdr\^^<(n)K^)
+ 2e2
+
+ |R-nl
+
+ +^10/-/ro- |R"_! r2| *o"fo)*£(n))
+
+ Equation (5.7) can be rewritten in the more compact form
+
+ (^mAr + e~ Ejl ~ E»)fhh{R) = Khh{R)
+
+ where
+
+ Kjlj2(R) = f^(R)(Soj2Vjl0(R - «i) + Sji0V0j2(R - «2))
+
+ Viy(*) = - [dy 2e ^i(y)^j(y)
+
+ J \x-y I
+
+ The computation of the first order term is now reduced to the solution of the non
+
+ homogeneous Helmotz Eq. (5.8). Mott refers to the treatise by Courant and Hilbert,
+
+ Methoden der Mathematischen Physik, chap. 5, par. 10, to assert that the most general
+ solution is
+
+ M r e±ik'\R—R'\
+
+ /<>, = Ohh(K> + —2 jdR'KIU2(R')lw-w,
+ weuem (5.ii,
+
+ h
+
+ wher eGj,j2 is an arbitrary solution of the homogeneous equation (A+k )G jlj2 — 0.
+ In our case the phase in the exponential must be taken with the sign + since we are inter
+
+ ested in waves diverging from a\ or ai. Moreover Mott argues that Gj]j1 "represents
+
+ ^ Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:03:25 UTC
+All use subject to https://about.jstor.org/terms
+
+ Emergence of classical trajectories in quantum systems
+
+ 229
+
+ streams of particles fired at already excited atom" while, as initial condition, we have
+
+ both atoms in their ground state. Therefore one must require
+
+ Ghh = 0 (5.12)
+
+ Furthermore, from (5.9) one sees that Kjlj2(R) — 0 if both j\ and ji are different
+
+ from zero and therefore, by (5.11), one also has = 0 if both j\ and 72 are different
+ from zero.
+
+ From these preliminary considerations a first conclusion can be drawn: at first order
+
+ in perturbation theory the probability that both atoms are excited is always zero.
+
+ The result is not surprising since, as Mott remarks, in perturbation theory the prob
+
+ ability that one atom is excited is a first order quantity while the probability that both
+
+ atoms are excited is a second order quantity. This explains why the second order term
+
+ F<2) is required in order to obtain an estimate of a double excitation occurrence.
+
+ The further crucial step is to give an approximate expression for /j^j and /qP.
+
+ From (5.11), (5.12) and (5.9), for f-^ one has
+
+ en M f eik'\R-a\-y\
+ 4> = 2W^<, + ',,VAoWiF^i- 'li£0 <513)
+
+ and analogously for /^P. In order to find the required approximate expression Mott
+ introduces the following assumptions:
+
+ (a) the "observation point" R is far away from the origin and the atom, i.e. \a\| <£ | R |;
+
+ (b) the collisions for the a-particle are almost elastic, i.e. k — k' <5C
+ (c) the a-particle has a high momentum k, i.e. is much less than the effective
+
+ linear dimension of the atom.
+
+ Exploiting assumption (a) one obtains the asymptotic formula:
+
+ /$(*) - iff-J,! 2rrh2 fdyf™(y + a^VjMy)e-ik'"aR) y (5.14)
+
+ where
+
+ ui(R)= * °\ (5.15)
+
+ |jR -oil
+
+ Using the explicit expression of [see (5.4)] and assumption (b) one can write:
+
+ Jk'\R—a\|
+
+ r(l)— C
+ n;>(R) ~ — -X(Ki(fl)) (5.16)
+ jl0"" I*-ail
+
+ J(hi(J?)) = —fdy Vhoiy) ei«\y+^\-ui(R)-y) (5.i7)
+
+ 2nTi J + ai|
+
+ ^ Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:03:25 UTC
+All use subject to https://about.jstor.org/terms
+
+ On the other hand, the integrand in (5.17) is very small except in a neighborhood of
+
+ y — 0. Therefore one obtains the condition
+
+ 230
+
+ R. Figari, A. Teta
+
+ One sees that /jjg(J?) has the form of a wave diverging from a i, whose amplitude X
+ is given by the integral in (5.17) and it is explicitly dependent on the direction u\(R).
+
+ The crucial point is now to evaluate such amplitude.
+
+ By assumptions (c), the integral in (5.17) is a highly oscillatory integral and then
+
+ stationary phase arguments can be used. The leading term of the asymptotic expansion
+
+ for k —> oo is determined by the value of the integrand at the critical points of the
+ phase, i.e. for points y such that
+
+ V,(|j + ai|-m(*)-j) - ? + *\-«\(R) = 0 (5.18)
+
+ V ' + «i I
+
+ u\(R) — t~~. (5.19)
+
+ l«il
+
+ Using condition (5.19) in (5.15) one has that the amplitude X is significantly different
+
+ from zero only for those R such that R—a i is (almost) parallel to a \, i.e. the observation
+
+ point R must be (almost) aligned with the first atom and the origin.
+
+ From the above argument one concludes that fj^(R) is approximately given by a
+ wave diverging from a\ with an amplitude very small except for R satisfying (5.19),
+
+ i.e. except in a small cone with vertex in a \ and pointing away from the origin. An
+
+ analogous analysis is valid for (R) and therefore the computation of the first order
+
+ term is completed.
+
+ one has:
+
+ The next step is to consider the second order term F(2). Proceeding as above,
+
+ n, r2) = Y, to)*"to) (5.20)
+
+ h,h
+
+ ("Is7^ + ^,+^/z-*)/$,«>
+ =fdr«"-i +w^i)
+ = % Z f$<«>vlm<* - «i> + f}$(*)
+
+ i\
+
+ *2
+
+ +5y,0 X fSWVjmW - «2) + /o(]2)(^)^1o(R - «i) (5.21)
+
+ In the case ji, j2 •=/=■ 0 one finds
+
+ ^ Springer
+
+ (-|?a*+£>'+£'>-£)4!i!<s>
+
+ - /$(*)V0;2(* - «2) + /«£(*) V,•,<>(« - a!) (5.22)
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:03:25 UTC
+All use subject to https://about.jstor.org/terms
+
+ Emergence of classical trajectories in quantum systems 231
+
+ We recall that \a\| < )«2U Vj\o(R ~ a\) is negligible except for R ~ a\ and (/?)
+ is negligible except for R in a small cone with vertex in 02, pointing away from the
+
+ origin. This means that the last term in the r.h.s. of (5.22) is very small. The same kind
+
+ of argument shows that the first term in the r.h.s. of (5.22) is negligible except when
+ the second atom is (approximately) aligned with the first atom and the origin. Thus
+
+ the main result of the paper follows: the probability that both atoms are excited
+
+ jdR\f™hm2, 71,72^0
+
+ (5.23)
+
+ is (approximately) zero unless a\, a 2 and the origin lie (approximately) on the same
+
+ straight line. If one agrees that the (amplified) effect of the excitations of the atoms is the
+
+ true observed phenomenon in a cloud chamber then the result can be rephrased saying
+
+ that one can only observe straight tracks. In this sense Mott provides an explanation of
+
+ the straight tracks observed in the chamber entirely based on the Schrodinger equation.
+
+ 6 Concluding remarks
+
+ We want to conclude with a few comments on the different theoretical approaches to
+
+ the cloud chamber problem discussed in the previous sections.
+
+ As was pointed out before, according to Born and Heisenberg, it is definitely equiv
+
+ alent to consider the atom of the vapor as a (classical) measurement device (case a)
+
+ or as a part of the quantum system to be described by Schrodinger dynamics (case b).
+
+ Such a position is meant to guarantee the consistency of the standard interpretation of
+
+ quantum theory. In particular, the authors are interested in stressing the unavoidable
+
+ role of wave packet reduction as the crucial rule ensuring the right correspondence
+ between theory and observed physical world. From a purely foundational point of
+ view their reasoning aims to make the axiomatic scheme work in any chosen way to
+ address the cloud chamber dynamical problem and, as such, it has been adopted and
+
+ shared by the majority of the physics community for a long time.
+
+ However, from the concrete point of view of the physical description of quantum
+ systems, the equivalence of the two approaches (a) and (b) seems difficult to maintain.
+ In fact, one may find hard to accept the claim that an atom of the vapor is a classical
+ measurement device of the position of the a-particle. After all, the atom is a micro
+
+ scopic system on the same ground of the a-particle and there is no a priori reason to
+
+ regard it as a classical system. Agreeing with this point of view, one should concede
+
+ that approach (b) is surely more natural. In particular, it has the important advantage
+
+ to allow a quantitative analysis taking into account explicitly the physical parameters
+
+ characterizing system and environment. It is only on the basis of such a quantitative
+
+ investigation that it is possible to clarify the conditions under which the interaction
+
+ with the environment produces the appearance of classical trajectories.
+
+ We want to stress this crucial point: the classical behavior of the a-particle is far
+
+ from being universal. A completely dissimilar behavior has to be expected if the values
+
+ of the physical parameters are different. On the other hand, consider Heisenberg's
+
+ argument about "the atom as a measurement apparatus", within the framework we
+ called approach (a). The resulting reduction of the wave packet should drive the a
+
+ ^ Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:03:25 UTC
+All use subject to https://about.jstor.org/terms
+
+ 232
+
+ R. Figari, A. Teta
+
+ particle in a state where the position is close to the ionized atom and the momentum
+
+ has a direction deduced by the successive positions around the source (at time zero) and
+
+ around the ionized atom (after the flight time to the first ionized atom). The argument
+
+ seems independent of the interaction strength, while quantum analysis clarifies that,
+ as expected, only an almost zero-angle scattering process (very low energy exchange)
+
+ can guarantee that particle momentum will approximately lie in a small cone with axis
+
+ on the line connecting source and ionized atom.
+
+ A further point to be emphasized concerns the relevance of the result obtained in the
+
+ approach b). It is shown that, under the right conditions and with high probability, one
+
+ can only observe straight tracks. This is a highly non trivial result obtained exploiting
+ Schrodinger dynamics without having any recourse to the wave packet reduction rule.
+
+ The reduction should only be invoked at the stage of the "observation of the actual
+
+ track" described by the a-particle. It is remarkable that, as we have seen in Sect. 3, this
+
+ aspect was understood by Darwin even before the quantitative analysis was performed
+
+ by Mott.
+
+ On the basis of the above considerations, it seems to us that, from the physical
+ point of view, the approach followed by Mott is more significant and challenging.
+ In some sense, one can say that it establishes the validity conditions of the effective
+ dynamical behavior of the system which is only postulated in case (a) without real
+ physical motivations. It is interesting to notice that awareness of this fact is clearly
+ expressed by Darwin while it remains only implicit in Mott, who prudently avoids
+ expressing a preference.
+
+ From an historical point of view, it is interesting to understand the reasons why
+ the line of research initiated by Mott was not further developed and remained almost
+
+ neglected for many years. One reason could be the influence and the authority of the
+ position expressed by Born and Heisenberg. The consequence has been to discourage
+ the new approach to the problem with the motivation that it was ineffectively more
+
+ complicated without giving real advantages from the conceptual point of view.
+
+ The whole problem of classical behavior in quantum systems has been rediscovered,
+
+ starting around the eighties of last century, when remarkable experimental progress has
+ made a detailed exploration of the classical/quantum border possible. This progress
+ has motivated the development of decoherence theory, based on the construction of
+
+ theoretical models of "system plus environment" where the dynamics of the emergence
+
+ of classical behavior in a quantum system could be analyzed and quantified. Therefore,
+
+ any investigation based on the wave packet reduction is of no help and one is forced
+
+ to consider the problem entirely in the context of Schrodinger dynamics.
+
+ As examples of successful applications of decoherence theory we mention the
+
+ reduction of interference effects for the state of a heavy particle due to scattering by
+
+ light particles (Joos and Zeh 1985; Hornberger and Sipe 2003; Adami et al. 2006)
+ or the molecular localization for pyramidal molecules, like NH3, due to the dipole
+ dipole interaction among the molecules (Claverie and Jona-Lasinio 1986; Grecchi et
+ al. 2002).
+
+ It is worth underlining that the pioneering work of Mott is entirely within the same
+
+ line of thought. Moreover, we emphasize that the relevance of such a research is
+ more related to the concrete and applied analysis of quantum systems rather than to
+ foundational aspects.
+
+ Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:03:25 UTC
+All use subject to https://about.jstor.org/terms
+
+ Emergence of classical trajectories in quantum systems
+
+ 233
+
+ We want to conclude commenting on some limitations present in Mott's analysis and
+
+ on possible developments of his work. The first point concerns the use of the stationary
+ Schrodinger equation which prevents a clear description of the time evolution of the
+
+ three-particle system. In particular, it is missing a physically meaningful definition of
+ the initial state and an explicit time-dependent analysis of the successive interactions
+
+ of the a-particle with the two atoms. A second aspect is related to the proof techniques
+
+ used by Mott which exploit perturbation theory and stationary phase arguments. There
+
+ is a clear lack of control of the conditions in which these methods are applicable and
+
+ there is no estimate of error arising from the various approximations used by the author
+
+ (for a recent attempt to revisit Mott's model we refer to Dell'Antonio et al. 2010).
+
+ We finally notice that a further development of Mott's work is lacking in the litera
+
+ ture. In particular, the model should be generalized considering a more generic initial
+ state for the particle, the presence of external force fields and an environment made
+
+ by an arbitrary number of model atoms. In this way one could analyze the possible
+ emergence of a classical trajectory of the quantum particle in a more realistic model.
+
+ In our opinion, such analysis would surely be of great interest both from the theoretical
+
+ and from the applicative point of view.
+
+ References
+
+ Adami, R., R. Figari, D. Finco, and A. Teta. 2006. On the asymptotic dynamics of a quantum system
+ composed by heavy and light particles. Communications in Mathematical Physics 268(3): 819-852.
+ Bacciagaluppi, G., and A. Valentini. 2009. Quantum theory at the crossroads: reconsidering the 1927Solvay
+
+ conference. Cambridge: Cambridge University Press.
+
+ Bohr, N. 1928. The quantum postulate and the recent development of atomic theory. Nature 121: 580-590.
+ Born, M. 1926. Zur Quantenmechanik der Stossvorgange. Physikalische Zeitschrift 37: 863-867. (English
+ translation reprinted in: Wheeler J.A., W. Zurek. Quantum theory and measurement. Princeton University
+ Press, 1983).
+
+ Born, M., and P. Jordan. 1925. Zur Quantenmechanik. Physikalische Zeitschrift 34:858. (English translation
+
+ reprinted in: van der Waerden B.L. Source of quantum mechanics. Dover Publications Inc., 1967).
+ Carazza, B., and H. Kragh. 2000. Classical behavior of macroscopic bodies from quantum principles: early
+
+ discussions. Archive for History Exact Sciences 55: 43-56.
+
+ Claverie, P., and G. Jona-Lasinio. 1986. Instability of tunnelling and the concept of molecular structure in
+ quantum mechanics: the case of pyramidal molecules and the enantiomer problem. Physical Review A
+ 33: 2245-2253.
+
+ Cushing, J.T. 1994. Quantum mechanics, historical contingency and the Copenhagen hegemony. Chicago:
+
+ Darwin, C.G. 1929. A collision problem in the wave mechanics. Proceedings of the Royal Society London
+
+ The University of Chicago Press.
+
+ A 124: 375-394.
+
+ Dell'Antonio, G., R. Figari, and A. Teta. 2008. Joint excitation probability for two harmonic oscillators in
+
+ dimension one and the Mott problem. Journal of Mathematical Physics 49(4): 042105.
+
+ Dell'Antonio, G., R. Figari, and A. Teta. 2010. A time dependent perturbative analysis for a quantum
+
+ particle in a cloud chamber. Annates Henri Poincare 11(3): 539-564.
+
+ Falkenburg, B. 1996. The analysis of particle tracks: a case for trust in the unity of Physics. Studies in
+
+ History and Philosophy of Modern Physics 27(3): 337-371.
+
+ Gamow, G. 1928. Zur quantentheorie des atomkernes. Physikalische Zeitschrift 51: 204.
+ Giulini, D., E. Joos, C. Kiefer, J. Kupsch, I.-O. Stamatescu, and H.D. Zeh. 1996. Decoherence and the
+
+ appearance of a classical world in quantum theory. Berlin: Springer.
+
+ Grecchi, V., A. Martinez, and A. Sacchetti. 2002. Destruction of the beating effect for a non-linear
+
+ Schrodinger equation. Communications in Mathematical Physics 221: 191-209.
+
+ Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:03:25 UTC
+All use subject to https://about.jstor.org/terms
+
+ 234
+
+ R. Figari, A. Teta
+
+ Heisenberg, W. 1925.UberquantentheoretischeUmdeutungkinematischerundmechanischerBeziehungen.
+ Physikalische Zeitschrift 33: 879-893. (English translation reprinted in: van der Waerden B.L. Source
+ of quantum mechanics. Dover Publications Inc., 1967).
+
+ Heisenberg, W. 1927. Uber den anschaulichen Inhalt der quantentheoretischen Kinematik und Mechanik.
+ Physikalische Zeitschrift 43: 172-198. (English translation reprinted in: Wheeler J.A. and W. Zurek.
+ Quantum theory and measurement. Princeton University Press, 1983).
+
+ Heisenberg, W. 1930. The physical principles of the quantum theory. Chicago: The University of Chicago
+
+ Hornberger, K., and J.E. Sipe. 2003. Collisional decoherence reexamined. Physical Review A 68(012105):
+
+ Jammer, M. 1989. The conceptual development of quantum mechanics, 2nd edn. New York: American
+
+ Joos, E., and H.D. Zeh. 1985. The emergence of classical properties through interaction with the environ
+
+ ment. Physikalische Zeitschrift B59: 223-243.
+
+ Leone, M., andN. Robotti. 2004. A note on the Wilson cloud chamber (1912). European Journal of Physics
+
+ Press.
+
+ 1-16.
+
+ Institute of Physics.
+
+ 25: 781-791.
+
+ Mott, N.F. 1929. The wave mechanics of a-ray tracks. Proceedings of the Royal Soceity of London A 126:
+ 79-84. (Reprinted in: Wheeler J.A., W. Zurek. Quantum theory and measurement, Princeton University
+ Press, 1983).
+
+ Robert, D. 1998. Semi-classical approximation in quantum mechanics. A survey of old and recent mathe
+
+ matical results. Helvetica Physica Acta 71: 44-116.
+
+ Schrodinger, E. 1978. Collected papers on wave mechanics, 2nd edn. Vermont: Chelsea Publishing Co.
+ Stepansky, B.K. 1997. Ambiguity: aspects of the wave-particle duality. The British Journal for the History
+
+ of Science 30: 375-385.
+
+ von Neumann, J. 1932. Mathematische Grundlagen der Quantenmechanik. Berlin: Springer. (English trans
+
+ lation Mathematical foundations of quantum mechanics, Princeton University Press, 1955).
+
+ ^ Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:03:25 UTC
+All use subject to https://about.jstor.org/terms
+
+

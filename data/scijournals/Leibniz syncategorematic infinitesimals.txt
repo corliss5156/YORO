@@ -1,0 +1,2840 @@
+ 
+
+ 
+
+ 
+
+ 
+
+Leibniz's syncategorematic infinitesimals
+Author(s): Richard T. W. Arthur
+Source: Archive for History of Exact Sciences, Vol. 67, No. 5 (September 2013), pp. 553-593
+Published by: Springer
+Stable URL: https://www.jstor.org/stable/23479155
+Accessed: 19-05-2020 11:57 UTC
+
+JSTOR is a not-for-profit service that helps scholars, researchers, and students discover, use, and build upon a wide
+
+range of content in a trusted digital archive. We use information technology and tools to increase productivity and
+
+facilitate new forms of scholarship. For more information about JSTOR, please contact support@jstor.org.
+
+Your use of the JSTOR archive indicates your acceptance of the Terms & Conditions of Use, available at
+
+https://about.jstor.org/terms
+
+Springer is collaborating with JSTOR to digitize, preserve and extend access to Archive for
+History of Exact Sciences
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 11:57:51 UTC
+All use subject to https://about.jstor.org/terms
+
+ Arch. Hist. Exact Sci. (2013) 67:553-593
+ DOI 10.1007/s00407-013-0119-z
+
+ Leibniz's syncategorematic infinitesimals
+
+ Richard T. W. Arthur
+
+ Received: 1 March 2013 / Published online: 24 April 2013
+ © Springer-Verlag Berlin Heidelberg 2013
+
+ Abstract In contrast with some recent theories of infinitesimals as non-Archimedean
+
+ entities, Leibniz's mature interpretation was fully in accord with the Archimedean
+ Axiom: infinitesimals are fictions, whose treatment as entities incomparably smaller
+
+ than finite quantities is justifiable wholly in terms of variable finite quantities that
+ can be taken as small as desired, i.e. syncategorematically. In this paper I explain
+ this syncategorematic interpretation, and how Leibniz used it to justify the calculus. I
+
+ then compare it with the approach of Smooth Infinitesimal Analysis, as propounded
+ by John Bell. I find some salient differences, especially with regard to higher-order
+
+ infinitesimals. I illustrate these differences by a consideration of how each approach
+
+ might be applied to propositions of Newton's Principia concerning the derivation of
+
+ force laws for bodies orbiting in a circle and an ellipse.
+
+ "if the Leibnizian calculus needs a rehabilitation because of too severe treatment by historians in the past
+ half century, as Robinson suggests (1966, 250), I feel that the legitimate grounds for such a rehabilitation
+ are to be found in the Leibnizian theory itself. "—(Bos 1974-1975, 82-83).
+
+ 1 Introduction
+
+ Leibniz's doctrine of the fictional nature of infinitesimals has been much misunder
+
+ stood. It has been construed as a late defensive parry, an attempt to defend the success
+
+ of his infinitesimal calculus—understood as implicitly committed to the existence of
+
+ Communicated by: Niccolô Guicciardini.
+
+ R. T. W. Arthur (El)
+ McMaster Univeristy, Hamilton, ON, Canada
+ e-mail: rarthur@mcmaster.ca
+
+ <£) Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 11:57:51 UTC
+All use subject to https://about.jstor.org/terms
+
+ 554
+
+ R. T. W. Arthur
+
+ infinitesimals as actually infinitely small entities—in the face of criticisms of the ade
+ quacy of its foundations. It has also been read as being at odds with other defences of
+
+ the calculus Leibniz gave on explicitly Archimedean foundations. I take the position
+ here (following Ishiguro 1990) that the idea that Leibniz was committed to infinitesi
+
+ mals as actually infinitely small entities is a misreading: his mature interpretation of
+
+ the calculus was fully in accord with the Archimedean Axiom. Leibniz's interpretation
+
+ is (to use the medieval term) syncategorematic: Infinitesimals are fictions in the sense
+
+ that the terms designating them can be treated as if they refer to entities incomparably
+
+ smaller than finite quantities, but really stand for variable finite quantities that can
+ be taken as small as desired. As I (Arthur 2008) and Levey (2008) have argued, this
+ interpretation is no late stratagem, but in place already by 1676.
+
+ In Sect. 2,1 present this interpretation by tracing its development from Leibniz's
+
+ early work on infinite series and quadratures to his unpublished attempt in 1701 in the
+
+ tract "Cum prodiisset" to provide a systematic foundation for his calculus. We shall
+
+ see that as early as 1676 Leibniz had succeeded in providing a rigorous foundation for
+
+ Riemannian integration, based on the Archimedean Axiom. The appeal to this axiom,
+ generalized by Leibniz into his Law of Continuity, undergirds his interpretation of
+ infinitesimals as fictions that can nevertheless be used in calculations, and forms the
+
+ basis for his foundation for differentials in "Cum prodiisset".
+
+ I then turn to a comparison of Leibniz's approach with the recent theory of infini
+ tesimals championed by John Bell, Smooth Infinitesimal Analysis (SIA), of which I
+ give a brief synopsis in Sect. 3. As we shall see, this has many points in common with
+ Leibniz's approach: the non-punctiform nature of infinitesimals, their acting as parts
+
+ of the continuum, the dependence on variables (as opposed to the static quantities of
+ both Standard and Non-standard Analysis), the resolution of curves into infinite-sided
+
+ polygons, and the finessing of a commitment to the existence of infinitesimals. Never
+
+ theless, there are also crucial differences. These are brought into relief in Sects. 4 and
+ 5, by a consideration of how each approach might be applied to some of the central
+
+ results in cosmology concerning force laws for planetary motions. In Sect. 4,1 explain
+ how Leibniz uses differential equations to re-derive the results Newton had obtained
+
+ for the υ2/r law for the centripetal force on a body orbiting around a centre of force
+
+ and for the inverse square law. After briefly describing Newton's own derivations of
+ Propositions 4,6 and 11 in his Principia, I detail Leibniz's derivations of the "solicita
+
+ tion" ddr experienced by an orbiting body in a circular and then elliptical orbits. Then,
+
+ in Sect. 5,1 consider the question of the legitimacy of Leibniz's use of second-order
+
+ differentials, by reference to his own attempts to provide a foundation. It is found
+ that while Leibniz's syncategorematic approach is adequate to ground his derivations
+
+ using second-order differentials, there is no corresponding possibility for a deriva
+ tion of such expressions using nilsquare infinitesimals; that is to say, while one can
+
+ define derivatives of all orders using SIA and thus effect proofs of all the propositions
+ concerning orbiting bodies, and while one can also define differentials of second and
+
+ higher orders in SIA, the nilsquare property precludes duplication of the calculations
+
+ of Newton and Leibniz which involved dt2. So not all the results obtained classically
+
+ by the use of infinitesimals can be duplicated by SIA: even if the infinitesimals of SIA
+
+ are much closer in conception to Leibnizian infinitesimals than those of Non-standard
+
+ Analysis, they are not Leibnizian infinitesimals.
+
+ Ô Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 11:57:51 UTC
+All use subject to https://about.jstor.org/terms
+
+ Leibniz's syncategorematic infinitesimals
+
+ 555
+
+ 2 Leibniz's foundation for the infinitesimal calculus
+
+ As Leibniz explains in his mature work, the infinite should not be understood to refer
+
+ to an actual entity that is greater than any finite one of the same kind, i.e. categoremat
+
+ ically, but rather syncategorematically: in certain well-defined circumstances, infinite
+
+ terms may be used as if they refer to entities incomparably larger than finite quantities,
+
+ but really stand for variable finite quantities that can be taken as large as desired. Leib
+
+ niz's interpretation of infinitesimals as fictions is intimately linked with his doctrine of
+
+ the infinite. Just as the infinite is not an actually existing whole made up of finite parts,
+
+ so infinitesimals are not actually existing parts which can be composed into a finite
+ whole. As Leibniz explained to Des Bosses at the beginning of their correspondence
+ in 1706,
+
+ Speaking philosophically, I maintain that there are no more infinitely small mag
+
+ nitudes than there are infinitely large ones, that is, no more infinitesimals than
+ infinituples. For I hold both to be fictions of the mind through an abbreviated
+
+ way of speaking, adapted to calculation, as imaginary roots in algebra are too.
+
+ Meanwhile I have demonstrated that these expressions are very useful for abbre
+
+ viating thought and thus for discovery, and cannot lead to error, since it suffices
+ to substitute for the infinitely small something as small as one wishes, so that
+
+ the error is smaller than any given, whence it follows that there can be no error.
+ (GPII 305)
+
+ The roots of this syncategorematic interpretation, like the roots of Leibniz's calculus
+ itself, can be discerned in his earliest work on quadratures and infinite series, specif
+
+ ically in his work on the hyperbola. Already in the Fall of 1672 in his reading notes
+ on Galileo Galilei's Two New Sciences (Discorsi), Leibniz had formulated the basis
+
+ of his later position. There he notes Galileo's demonstration that there are as many
+ square roots of (natural) numbers as there are natural numbers, and that "therefore
+ there are as many squares as numbers; which is impossible",1 and then comments:
+
+ Hence it follows either that in the infinite the whole is not greater than the part,
+
+ which is the opinion of Galileo and Gregory of St. Vincent,2 and which I cannot
+
+ accept; or that infinity itself is nothing, i.e. that it is not one and not a whole. Or
+
+ perhaps we should say: when distinguishing between infinities, the most infinite,
+ i.e. all the numbers, is something that implies a contradiction, for if it were a
+
+ whole it could be understood as made up of all the numbers continuing to infinity,
+
+ and would be much greater than all the numbers, that is, greater than the greatest
+
+ number. Or perhaps we should say that one ought not to say anything about the
+ infinite, as a whole, except when there is a demonstration of it. (A VI iii, 168;
+ LoC 8-9)
+
+ 1 Relevant extracts from Galileo's Discorsi may be found in (LoC 352-357).
+
+ 2 At EN 78, Salviati says: "for I believe that these attributes of greatness, smallness and equality do not
+
+ befit infinities, of which one cannot be said to be greater than, smaller than, or equal to another"; and again
+
+ at the end of the ensuing proof: "in final conclusion, the attributes of equal, greater, and less have no place
+ in infinities, but only in bounded quantities" (EN 79; LoC 355-56). For Gregory of St Vincent's opinion,
+
+ see his 1647, lib. 8, pr. 1, theorema, 870 ff.
+
+ â Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 11:57:51 UTC
+All use subject to https://about.jstor.org/terms
+
+ Fig. 1 Leibniz's hyperbola
+
+ Two features of this commentary are seminal for Leibniz's later thought: the uphold
+
+ ing of the part-whole axiom for the infinite, with the entailed denial that the infinite is
+
+ a whole; and the more nuanced claim that one cannot assert a property of the infinite
+
+ except insofar as one has an independent demonstration of it.
+
+ The first claim is graphically illustrated by a calculation Leibniz performs in 1674, in
+
+ which we are confronted with an infinite whole which has a direct visual representation :
+
+ the area under a hyperbola between 0 and 1. By this time, Leibniz has made great
+ strides in summing infinite series, and applying the results to calculate "quadratures",
+ the areas under curves. In this example, he uses his knowledge to demonstrate the
+ inapplicability of the part-whole axiom to infinite quantities (Fig. 1).
+
+ In the above diagram, which Leibniz has deliberately drawn symmetrically,
+
+ MGBEM is a hyperbola, and the variable abscissa DE = χ (dashed line) is taken
+ to vary between CB (taken as the x-axis) and (the horizontal) ACF.... Leibniz calcu
+ lates the area by "applying" DE to (the vertical) AC (= 1) as a base. He expands DE
+ as (1 — )0-1 = 1 + y + y1 + y3 H , and gets the result ACBEM = 1 +'/2 +'/3 +'
+ IA +'/5 + ' · · In modern terms, Leibniz is evaluating the area under the curve x= (1
+
+ - y)-1 by calculating the definite integral /J χ Ay using a series expansion to obtain
+
+ 556 R- T. W. Arthur
+
+ ACBEM = j( 1 - y)~ldy =[y + y2/2 + y3/3 + y% + · ■ ·]^
+
+ 1
+
+ ο
+
+ = 1+1/2+1/3+'/4+1/5 + ···
+
+ Now Leibniz applies the line HL = (1 + y) 1 = 1 — y + y2 — y3 -i to the line
+
+ CF (= 1) to obtain the finite area CFGLB. That is,
+
+ Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 11:57:51 UTC
+All use subject to https://about.jstor.org/terms
+
+ Leibniz's syncategorematic infinitesimals 557
+
+ CFGLB = f (1 + y)-ldy = [y- y1^ + y3/3 -
+
+ ο
+
+ = 1 -1/2+1/3-1/4+1/5 + ···
+
+ But if we now subtract the finite space CFGLB from the infinite space ACBEM, we
+ obtain
+
+ ACBEM-CFGLB = (1 - 1) + ('/2 +V2) + (h ~1/ή + (>4 +V4)
+
+ + (Vs -Vs) + * * * = 1 +V2 +V3 +V4 +'/5 + · · "
+
+ = ACBEM
+
+ Leibniz comments:
+
+ This is pretty amazing (satis mirabilis), and shows that the sum of the series
+ 1, V2» V3 etc· is infinite, and consequently that the area of the space ACBGM
+ remains the same even when the finite space CBGF is taken away from it, i.e.
+
+ that nothing noticeable is taken away.
+
+ By this argument it is concluded that the infinite is not a whole, but only a fiction;
+ for otherwise the part would be equal to the whole. (A VII 3, N. 38io, p.468;
+ October 1674)
+
+ Of interest here is the close connection between the visualizable infinite whole—
+
+ the area under the hyperbola—and its expansion as an infinite series. For the infinite
+ series is treated as if it were a whole, as if it has a definite sum, and so forth. But in
+ this case, the result leads to a contradiction, given the applicability of the part-whole
+
+ axiom to the infinite. Even though this establishes the fictional nature of such infinite
+
+ wholes, however, this does not mean that one cannot calculate with them; only, the
+
+ viability of the resulting calculation is contingent on the provision of a demonstration.
+ As an example, we can look at another seminal calculation Leibniz made involving
+
+ the hyperbolic series, in the process of answering a challenge set him by Huygens soon
+ after his arrival in Paris in 1672. This was to determine the sum of the series of the
+
+ reciprocal triangular numbers, Vi, V3, Vô» Vio» Vis. · · · Leibniz achieved this by noting
+ that the successive terms are twice those of the differences between successive terms
+
+ of the hyperbolic series: 1 = 2(1 — V2); 1h = 2('/2 — V3); '/δ = 2(73 and so
+ forth. But the sum of a series of such difference terms will, because of the cancellation
+
+ of terms, equal the difference between the first term of the hyperbolic series and the
+
+ last. Leibniz immediately realized the generality of this result, which he enshrined in
+
+ what I have elsewhere (Arthur 2006) called his Difference Principle: "the sum of the
+ differences is the difference between the first term and the last" (A VII, 3, 95). As is
+
+ well known, after generalization to infinite series, this result will lead Leibniz to his
+
+ formulation of the Fundamental Theorem of the Calculus: the sum (integral) of the
+
+ differentials equals the difference of the sums (the definite integral evaluated between
+
+ <£) Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 11:57:51 UTC
+All use subject to https://about.jstor.org/terms
+
+ 558
+
+ R. T. W. Arthur
+
+ first and last terms), f Bdx = [A]f. Thus, the sum of the first η terms of the original
+ series,
+
+ ^ Ti ='/i +V3 +Ve +V10 +V15 Η l· 2/(«2 + n)
+
+ will be twice the difference between the (n + l)th and the first term of the hyperbolic
+ series:
+
+ / = 1
+
+ n+1
+
+ Σ Hi — Vι +'/2 +]/3 +!/4 +Vs + · · · + l/(n + 1)
+ (=1
+
+ η
+
+ ( = 1
+
+ ΣΤ' = 2(//ι - /ί«+ι) = 2[1 - 1/(» + D]
+
+ Applying similar reasoning to infinite series, Leibniz calculates that if the sum of the
+
+ infinite series S(H) = Σ"=1 H, = '/1 + '/2 + '/3 + '/4 + '/5 + · · ·, and half the sum of the
+ reciprocal triangular numbers ]/2S(T) = '/2 Tt = '/2 +'/6 + '/i2 + V20 + '/30, · · ·,
+ then
+
+ S(H)-X/2S(T) — V2 +'/3 +V4 +Vs + · · · = S(H) - 1
+
+ That is,
+
+ giving
+
+ S(T) = 2.
+
+ Now one might of course object to this reasoning that, since the hyperbolic series is a
+
+ diverging infinite series, Leibniz has effectively cancelled infinities in subtracting its
+
+ sum S(H) = X"=1 H, from both sides of the equation above. Clearly, this would not
+ be news to Leibniz, given the argument for the fictionality of the infinite treated as a
+
+ whole given above. And indeed, Leibniz is sensitive to the need for rigour here. He
+ acknowledges that this application of the Difference Principle "ought to be demon
+ strated to come out in the infinite" (362), and proceeds to show how this can be done.
+
+ This is crucial, for in the above reasoning Leibniz has treated the infinite series as if
+
+ they are wholes. But this can only be done, according to his commentary on Galileo, if
+
+ there is a corresponding demonstration. Moreover, treating the infinite series as wholes
+
+ is equivalent to treating them as if they had last terms, since otherwise the Difference
+
+ Principle would not be applicable. This gives the all-important connection between
+
+ Leibniz's doctrines of the fictionality of infinite wholes and the fictionality of infini
+ tesimals. A justification of treating the infinite series as wholes is at the same time a
+
+ justification of treating them as if they had a last, infinitely small term or terminatio,
+ l/oo.
+
+ Ô Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 11:57:51 UTC
+All use subject to https://about.jstor.org/terms
+
+ Leibniz's syncategorematic infinitesimals
+
+ 559
+
+ Leibniz's demonstration proceeds by taking an arbitrarily small >'th term as the
+
+ terminatio of the series, where "y signifies any number whatever". For the hyperbolic
+ series, the terminatio of a finite series of terms H (y) will be l/y, and for the series
+ of reciprocal triangular numbers Τ (y), it will be 2/(y2 + y), since the >'th trian
+ gular number is (y2 + y)/2. Thus, when half the series Σ Τ (y) is subtracted from
+ X H(y), the terminatio of the resulting series will be l/y — 1 /(y2 + y), or (y2 + y —
+
+ y)/(j3 + y2), or I /(>' + 1). But this is the terminatio for £ H(y + 1). Leibniz does
+ not complete this demonstration in these terms, preferring to proceed to a geometrical
+
+ depiction in terms of a triangle, but it entails that for arbitrarily large y, the sum of
+
+ half the series, '/ο Σ Τ (y), is 1 — I/(>' + 1). So the sum of the reciprocal triangular
+
+ numbers, ]Γ Τ (y), approaches 2 arbitrarily closely as y is taken arbitrarily large. Cor
+
+ respondingly, the terminatio of either this series or the hyperbolic series is not actually
+
+ 0, but an arbitrarily small number.
+
+ This, then, yields the link between Leibniz's syncategorematic interpretation of
+
+ the infinite and his interpretation of infinitesimals as fictions. To treat the infi
+ nite series as whole is to treat it as if it has an infinitieth term or infinitely
+ small terminatio·, whereas in fact the number of terms is greater than any num
+ ber that can be given, and the magnitude of the terminatio is correspondingly
+ smaller than any that can be given. This connection is stated explicitly by Leib
+ niz in an annotation he made on Spinoza's Letter on the Infinite in the Spring
+ of 1676:
+
+ Finally those things are infinite in the lowest degree whose magnitude is greater
+
+ than we can expound by an assignable ratio to sensible things, even though there
+
+ exists something greater than these things. In just this way, there is the infinite
+ space comprised between Apollonius' Hyperbola and its asymptote, which is
+ one of the most moderate of infinities, to which there somehow corresponds in
+
+ numbers the sum of this space: x/\ +'/2 + '/3 +'/4 + ■ · · > which is Vo- Only
+ let us understand this 0, or nought, or rather instead a quantity infinitely or
+ unassignably small, to be greater or smaller according as we have assumed the
+ last denominator of this infinite series of fractions, which is itself also infinite,
+
+ smaller or greater. For a maximum does not apply in the case of numbers. (A VI
+ 3, 282; LoC 114-115)
+
+ For some time, Leibniz appears to have hesitated over this interpretation, and as late
+
+ as February 1676 he was still deliberating about whether the success of the hypothesis
+
+ of infinities and the infinitely small in geometry spoke to their existence in physi
+
+ cal reality too. But by April of the same year, the syncategorematic interpretation
+ is firmly in place, and we find Leibniz exploring the implications of the rejection
+
+ of the infinitely small in a series of mathematico-physical reflections.3 During the
+ same period, he was putting the finishing touches to his treatise on the infinitesi
+ mal calculus, De quadratura arithmetica (Leibniz 1993), which he submitted for the
+ Académie Française in the summer of 1676. Here, we find his first explicit exposi
+
+ tion of the interpretation of infinities and infinitesimals as fictions, and the provision
+
+ 3 See Arthur (2009) for a discussion of the development of Leibniz's early views on infinitesimals.
+
+ Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 11:57:51 UTC
+All use subject to https://about.jstor.org/terms
+
+ 560
+
+ R. T. W. Arthur
+
+ of a theorem which, in Leibniz's words, "serves to lay the foundations of the whole
+ method of indivisibles in the soundest way possible". Indeed, as Eberhard Knobloch
+ has remarked, this theorem is a "model of mathematical rigour" (2002, 72).
+
+ In the treatise, Leibniz promotes his new method of performing quadratures directly
+ "without a reductio ad absurdum" (Prop 7, Scholium; Leibniz 1993, 35), by what we
+ would now call a direct integral. This, he believes, necessarily involves the assump
+ tion of "fictitious quantities, namely the infinite and the infinitely small" (35). The
+ traditional Archimedean method of demonstration was by a double reductio ad absur
+ dum: it would be shown that a contradiction could be derived on the assumption that
+
+ the quantity in question was smaller than a given value, and another contradiction on
+
+ the assumption that the quantity in question was greater than that value, thus proving
+ that it equalled it. Leibniz's method is instead to proceed by an application of the
+ Archimedean Axiom. This axiom (actually due to Eudoxus) asserts that for any two
+ geometric quantities χ and y (with y > χ), a natural number η can be found such
+ that nx > y. This also entails that no matter how small a geometric quantity is given,
+ a smaller can be found, and it is this property to which Leibniz appeals. Thus, he
+
+ prefers a justification "which simply shows that the difference between two quantities
+ is nothing, so that they are then equal (whereas it is otherwise usually proved by a
+ double reductio that one is neither greater nor smaller than the other)" (35). That is,
+ he applies the Archimedean axiom to demonstrate that the error involved in calcula
+
+ tions with infinitely small differences can be reduced to a quantity less than any given
+
+ quantity by taking a difference sufficiently small, rendering it effectively null.
+
+ Moreover, this justification does not have to be effected in every case: it is enough
+
+ to show that it can be done in a general case. This Leibniz does in a case that is surpris
+ ingly general, given the usual accusations about the parlous lack of justification he and
+
+ Newton are alleged to have provided for their methods. For the key theorem that Leib
+
+ niz successfully demonstrates in De quadratura arithmetica using this Archimedean
+ method is what is now known as Riemannian Integration, as Eberhard Knobloch has
+ shown in detail (2002).4 This is Proposition 6; (Leibniz provides a similar justifica
+ tion for his Theorems 7 and 8). In his demonstration of Proposition 6 (Leibniz 1993,
+
+ 30-33), Leibniz first identifies and then relates the sum of the "elementary rectangles
+ [rectangula elementales]" (that is the Riemannian sum of unequal rectangles by which
+ the curve is being approximated, which we may denote Q), and that of the mixtilinear
+
+ figure [spatium gradiformis] that is the area under the curve between two ordinates \ L
+
+ and 4D, which we may denote A. Then he demonstrates that the difference between
+
+ the area and the sum of the elementary rectangles, A - Q, can be no greater than the
+
+ area of a certain rectangle whose height is the maximum height ψά,Ι) of any of the
+ elementary rectangles, and whose width is the distance between the two ordinates iL
+ and 4D. Thus, A — Q <\ L4D χ But because the curve is assumed continuous,
+
+ Archimedes' Axiom applies. Thus, the height Ψ4 D, even though it is greater than
+
+ the heights of all the other elementary rectangles, "can be assumed smaller than any
+
+ assigned quantity, for, however, small it is assumed to be, still smaller heights could
+
+ be taken." Therefore, the area of the rectangle 1 L^Drj/ "can also be made smaller than
+
+ 4 The exposition I give is indebted to Knobloch (2002), but in the symbolization I have followed Leibniz's
+ own from the De quadrature! (Leibniz 1993).
+
+ "£) Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 11:57:51 UTC
+All use subject to https://about.jstor.org/terms
+
+ Leibniz's syncategorematic infinitesimals
+
+ 561
+
+ any given surface". Thus, the difference A — Q too "can also be made smaller than
+
+ any given quantity. QED." (30-33) There is, therefore, no error involved in calculating
+
+ the quadrature as the sum of an infinity of infinitesimal areas, provided this is under
+
+ stood to mean that there are more little finite areas than can be assigned, and that their
+ magnitude is smaller than any that can be assigned; in that case, so many such areas
+ of sufficient smallness can be taken as to make the difference between their sum and
+
+ the quadrature less than any that can be assigned.
+
+ Thus, it is not the case that Leibniz has two methods, one committed to the existence
+
+ of infinitesimals as "genuine mathematical entities", "fixed, but infinitely small", and
+
+ the other Archimedean, treating the infinitely small as arbitrarily small finite lines,
+ ones that could be made as small as desired;5 nor that he simply uses the infinites
+ imal calculus and then airily refers to the fact that one could instead have used an
+ Archimedean method.6 Rather, Leibniz's use of the Archimedean Axiom justifies
+
+ proceeding as if there are infinitesimals, and at the same time demonstrates that what
+
+ they really stand for are finite quantities which can be taken as small as desired. Once
+
+ this is demonstrated in a suitably general case, it also justifies the use of these fictions
+
+ in other analogous cases. As Leibniz himself writes, "Nor is it necessary always to use
+
+ inscribed or circumscribed figures, and to infer by reductio ad absurdum, and to show
+
+ that the error is smaller than any assignable; although what we have said in Props. 6,
+ 7 & 8 establishes that it can easily be done by those means." (Scholium to Prop. 23,
+ Leibniz 1993, 69).
+
+ In effect, the application of the Archimedean Axiom enables a kind of Arithmetic
+ of the Infinite. In his article, Knobloch identifies a number of rules which are tacitly
+
+ applied by Leibniz in De quadratura arithmetica, "without demonstrating them, only
+ relying on the 'law of continuity'" (2002, 67). Examples are "1. Finite + infinite =
+ infinite", "2.1 Finite infinitely small = finite", "2.2 χ = (y + infinitely small) =>* — >'
+ & 0 (is unassignable)". 2.2 can be demonstrated by Leibniz's method as follows.
+ Suppose* = y+dx, where dx > 0, and suppose dx is a smallest assignable difference
+ between χ and y. Assuming it is a variable geometric quantity, the Archimedean Axiom
+
+ will apply to it. It will, therefore, have an assignable ratio to another geometric quantity
+ Ζ such that a number η > 0 can be chosen to make ndx > z. Therefore, z/n will be
+
+ smaller than dx, contrary to supposition. Therefore, χ — y — dx is unassignable; the
+ difference between χ and y is smaller than any quantity that can be assigned; it is
+
+ incomparable with (has no finite ratio to) any finite quantity. What this means is that
+ there can be no assignable error in equating χ — y with 0. Similar demonstrations can
+
+ be given for the other rules.
+
+ 5 Thus, Henk Bos, in his classic article on Leibniz's differentials (1974-1975,55), sees Leibniz as pursuing
+
+ "two different approaches to the foundations of the calculus; one connected with the classical methods of
+
+ proof by 'exhaustion', the other in connection with a law of continuity." The quotations given in my text
+ are from Bos (1974-1975), 12, 13. See also Herbert Breger's similar criticisms of Bos on these points in
+ his (2008, 195-197).
+
+ 6 Thus, to give a recent example of this kind of interpretation, Douglas Jesseph writes: "Leibniz often made
+
+ grand programmatic statements to the effect that derivations which presuppose infinitesimals can always be
+
+ re-cast as exhaustion proofs in the style of Archimedes. But he never, so far as I know, attempted anything
+
+ like a general proof of the eliminability of the infinitesimal ..." (Jesseph 2008,233).
+
+ *£) Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 11:57:51 UTC
+All use subject to https://about.jstor.org/terms
+
+ 562 R. T. W. Arthur
+
+ Leibniz was quite explicit about this Archimedean foundation for his differentials
+
+ as "incomparables". In his response to Bernard Nieuwentijt's criticisms in 1695 he
+ wrote that when dx is added tox, the increment ck
+
+ ... cannot be exhibited by any construction. That is, I regard only those homoge
+
+ neous quantities to be comparable (in agreement with Euclid, Book V, Definition
+ 5), of which one can exceed the other when multiplied by a number, that is, a
+
+ finite number. And I maintain that any entities whose difference is not such a
+
+ quantity are equal. (...) This is precisely what is meant by saying that the dif
+ ference is smaller than any given. (Leibniz 1695; GM V 322; also quoted in
+ (Bos 1974-1975, 14)
+
+ The full "Law of Continuity" that Leibniz published for the first time in 1688 is a
+
+ generalization of the method that we have just been examining:
+
+ When the difference between two instances in a given series, or in whatever is
+
+ presupposed, can be diminished until it becomes smaller than any given quantity
+
+ whatever, the corresponding difference in what is sought, or what results, must
+
+ of necessity also be diminished or become less than any given quantity whatever.
+ (A VI4, 371, 2032)7
+
+ But in a second formulation, it also appears to be a generalization of the approach
+
+ to infinite series we examined above, where the infinite limiting term or terminatio is
+ included as if it were an infinitieth term in the series:
+
+ "In any proposed continuous transition that ends in a certain limiting case (termi
+
+ nus), it is permissible to formulate a general reasoning in which that final limiting case
+ is included.8"
+
+ It is the Law of Continuity in this form that is the basis of Leibniz's attempts to
+
+ ground the rules of the calculus. His first attempt, in his first publication of the calculus,
+ Nova Methodus pro Maximis et Minimis (1684)9, was not clear to his contemporaries,
+ as it was vitiated by a number of errors. In this article, Leibniz rather confusingly
+ begins by defining dx as "any straight line assumed arbitrarily", before giving his
+ rules for manipulating of differentials (e.g. d(xv) = xdv H—ud*).10 But in a reply
+
+ to the criticisms of Nieuwentijt and others, Cum prodiisset, drafted in or shortly after
+
+ 1701 but first published by Gerhardt in 1846, he attempts "to show a little more clearly
+
+ that the (so-called) algorithm of our differential calculus proposed by me in 1684 may
+
+ be confirmed to be perfectly correct".11
+
+ 7 Leibniz adds: "Or, to put it more commonly, when the cases (or given quantities) continually approach
+ one another, so that one finally passes over into the other, the consequences or events (or what is sought)
+ must do so too." (A VI4, 371, 2032; translations mine.)
+
+ 8 Leibniz (1846), 40; Bos (1974-1975), 56.
+
+ 9 Nova methodus pro maximis et minimis, itemque tangentibus, quae necfractas nec irrationales quantitates
+ moratur, et singulare pro illis calculi genus. Acta Eruditorum Lips. 1684, GM V 220-226
+
+ 10 Nova Methodus, GM V 220.
+
+ 11 Henk Bos has drawn attention to the importance of Cum prodiisset in his article on Leibniz's differentials
+ (Bos 1974-1975). As he observes, since it contains a reference to a work by Gouye of 1701, and "deals
+ with the problems which were discussed in 1701-1702, it is probable that it originated in or not much later
+
+ Ô Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 11:57:51 UTC
+All use subject to https://about.jstor.org/terms
+
+ Leibniz's syncategorematic infinitesimals 563
+
+ Fig. 2 Tangent to parabola
+
+ In this later justification, Leibniz has dx stand for the difference between two abscis
+
+ sas Χ ι and X2, so that dx — X2 — X], with dy the difference between the corresponding
+
+ ordinates X1 Y\ and X2Y2· For the sake of definiteness, he uses a particular example,
+ the parabola χ2 = ay (Fig. 2 below).12
+
+ Since (x + dx, y + dy) is also a point on the parabola, "we will have
+
+ y-\-ây — {χχ-\-2χάχ Λ-Axàx)/a (2.1)
+
+ and subtracting y from one side and x1 /a from the other, there will remain
+
+ ày/άχ = (2x + dx)/a (2.2)
+
+ which is the general rule expressing the ratio of the difference in ordinates to the
+ difference in abscissas." Now Leibniz appeals to his Law of Continuity:
+
+ Now, since by our postulate it is permissible to include in a general reasoning
+ also the case where the ordinate X2Y2, having been moved closer and closer to
+
+ the fixed ordinate X \ Y\ until it finally coincides with it, it is clear that in this
+
+ case dx will be equal to zero or should be omitted, and so it is clear that, since
+ in this case TY\ is the tangent, X\Y\ to TX\ is as 2x to a. (Leibniz 1846,44)
+
+ Leibniz's summary of how the Law of Continuity is applied here is notably clear:
+
+ Hence it may be seen that in all our differential calculus there is no need to call
+
+ equal those things that have an infinitely small difference,13 but those things
+
+ are taken as equal that have no difference at all, provided that the calculation is
+
+ than 1701" (1974-1975, 56, η. 92). In a marginal note Leibniz mentions "the Parisians" and urges that
+ "All this must be reviewed very carefully so that it can be published, leaving out the sourer things said in
+
+ contradicting others." (Leibniz 1846, 39)
+
+ 12 Leibniz (1846), 44. Note that Leibniz characteristically draws his diagrams with the abscissas and λ;-axis
+ vertical and the ordinates and y-axis horizontal. I have altered his |X, 2^, etc. toXi, Y2, etc., for ease of
+
+ reading, and also corrected his dr to (d)*, as he seems to have intended, but otherwise this is his figure.
+
+ 13 This is a response to Nieuwentijt's definition of an infinitesimal as something actually infinitely small:
+ see below.
+
+ <£] Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 11:57:51 UTC
+All use subject to https://about.jstor.org/terms
+
+ supposed to have been rendered general, applying equally to the case where the
+ difference is something and to where it is zero; and only when the calculation
+ has been purged as far as possible through legitimate omissions and ratios of
+ non-vanishing quantities until at last application is made to the ultimate case, is
+ the difference assumed to be zero. f44—45)
+
+ It can be appreciated, I think, how close this is to a modern justification of dif
+
+ 564 R. T. W. Arthur
+
+ ferentiation in terms of limits. Leibniz has here assumed that the difference dx is a
+
+ finite difference (we would write Ax), and when an expression for Ay/Ax has been
+ found in which χ has as far as possible been cancelled, he effectively takes the limit
+
+ as Ax —> 0 to arrive at an expression for dy/àx.
+
+ The rigour of Leibniz's algorithm can be seen by applying it to the counterexample
+ proposed by Rolle. He supposed a parabola y2 = ax, and quoted Leibniz's result that
+
+ 2yày = αάκ or (adx — 2yày) = 0
+
+ (2.3)
+
+ Now Rolle reasoned that since (x + dx, y + d_y) is also a point on the parabola, we
+ will have
+
+ (y + d y)2 = ax + adx = y2 + 2ydy + d y2 (2.4)
+
+ => d y2 — (ax — y2) + (adx — 2yd y) = 0 + 0 (2.5)
+
+ Thus, he concluded, dy — dx — 0, and Leibniz's infinitesimals are identically equal
+ to zero.
+
+ But the use of (2.3) in the calculation violates Leibniz's proviso that the difference
+
+ may be assumed to be zero only after "the calculation has been purged as far as
+ possible through legitimate omissions and ratios of non-vanishing quantities" and one
+
+ has reached the limiting case. Prior to that, the general rule that applies to all finite
+ differences is dx/dy = (2y + dy)/a\and if one substitutes that formula into Eq. (2.4)
+ in Rolle's calculation one obtains the identity dy2 = dy2. If, on the other hand, having
+ obtained dx/dy = (2y + dy)/a, one applies it to the ultimate case by effectively
+ letting dy -> 0, one obtains (2.3) as a result.
+
+ What this application of the Law of Continuity legitimates, then, is proceeding as
+
+ if dx and dy are infinitely small quantities that can be neglected in the last step of the
+
+ calculation; whereas what in fact they stand for are finite differences that are assumed to
+
+ vary in accordance with the Archimedean Axiom, so that they can be made arbitrarily
+ small. Leibniz was aware, however, that this new algorithm was a kind of shorthand
+
+ for what in his time would be acceptable as a properly geometrical proof. That would
+
+ have to proceed by proportions, where only quantities of the same dimensions could
+
+ stand in ratios to one another, and all quantities would be finite or "assignable", even
+
+ in the limit. In Cum prodiisset, he, therefore, gave a proof sketch in which "dr and dy
+
+ are retained in the calculation in such a way that they signify non-vanishing quantities
+
+ even in the ultimate case". He lets (d)jt be "any assignable straight line" (i.e. a fixed
+
+ finite line segment), and then defines another segment (d)_y, by the proportion
+
+ (d)y:(d)jr = DY2:DY\ = dy:dx
+
+ (2.6)
+
+ Ô Spring er
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 11:57:51 UTC
+All use subject to https://about.jstor.org/terms
+
+ Fig. 3 Leibniz's finite surrogates
+
+ Thus, (d) v varies in such a way that for all finite dx and dy > 0 it maintains the same
+
+ finite ratio to the fixed line (d)x as d>> has to dx. But, as Bos observes, the same (d)y can
+
+ also be given an interpretation in the limit when the variable dx = 0, namely through
+
+ the proportion
+
+ Leibniz's syncategorematic infinitesimals 565
+
+ (d)y:(d)x = y:a
+
+ (2.7)
+
+ where σ is the subtangent to the curve. Bos's diagram follows (Fig. 3):
+
+ Now, since the resulting formula is still interpretable even in the case where
+ dx = 0, the Law of Continuity asserts that this limiting case may also be included
+
+ in the general reasoning:14 dy:dx can be substituted for (d)y : (d)x in the resulting
+ formulas even for the case where dx = 0: "in this way Ay and dx will always be
+ assignable in the ratio DY2 to DY which latter vanish in the ultimate case." As Bos
+ explains, this explication does indeed make intelligible Leibniz's having begun his
+ 1684 article by having dx and ây stand for finite lines. What was confusing is that
+
+ there he had dx stand for an arbitrary finite line, corresponding to the (d)x of this later
+ explication.
+
+ Proceeding on this foundation Leibniz offers justifications in Cum prodiisset for
+ the rules of the calculus for first-order differentials that he had given in 1684: the
+
+ rules for differentiating sums and differences, products, quotients, and powers. First,
+ he constructs a figure in which (as above) (d)jt is a fixed straight line segment which
+
+ remains constant as X2 approaches the fixed point Xi.dx = X2 — X\,dy = X2Y2 ~
+ XlKl, and (d)y = (Ay /άχ) ■ (d)jc. He also introduces a third variable ν and defines
+ another variable straight line segment (d)u by (d)u = (du/djc) · (d)x.(Leibniz 1846,
+ 46)
+
+ Following Bos, I will give as an example his justification on this basis for the
+
+ differentiation of a product: d(xv) = xdv + vdx. First Leibniz lets ay = xv (here the
+
+ 14 Here I disagree with Bos, who claims that in taking the secant as the limiting position of the tangent,
+
+ Leibniz "did not invoke the law of continuity; as will be seen, he used the law later, presupposing that the
+ limiting position of the secant is the tangent." (Bos 1974-1975,57). But that is how the law of continuity
+ works: it does presuppose a limiting case, it does not establish its existence.
+
+ Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 11:57:51 UTC
+All use subject to https://about.jstor.org/terms
+
+ 566
+
+ R. T. W. Arthur
+
+ purpose of the constant a is to preserve the homogeneity of the equation), and then
+ allows χ, y, and υ to increase by dx, dy, and dv, respectively:
+
+ "Demonstration: ay + dy = (χ + dx)(v + du)
+
+ — xv + xdv + udr + dxdi),
+
+ and, subtracting from each side the equals ay and xv, we have
+
+ a dy — xdv + vdx + cbrdu
+
+ aây/âx = χάν/άχ + υ + du
+
+ and transposing the case, as we may, to lines that never vanish, we have
+
+ a(â)y/(d)x = χ(ά)ν/{ά)χ + ν + du
+
+ so that the only remaining term which can vanish is dv, and since in the case of
+
+ vanishing differences dv = 0, we have
+
+ as was asserted, *or id)>>:(d)x = (x + v):a* Whence also, because (d)>':(d)jc
+ always = dy:dï one may feign this in the case of vanishing dy, dx and put15
+
+ a(d)y — x(d)v + v(d)jc
+
+ ady = xdv + wdx.'
+
+ or
+
+ Thus,
+
+ Ô Springer
+
+ d(*t;) = xdv + ud* QED. (2.8)
+
+ This justification may be regarded as one in keeping with the standards of rigour
+ expected by Huygens and Newton, and thus above reproach. It still depends on the
+
+ same conceptions of infinitesimals as fictions: they stand for quantities that are finite
+
+ but variable, and that may be made arbitrarily small.
+
+ My interpretation here contrasts with that of Bos, who reads Leibniz as having
+
+ two different interpretations of differentials, one in which they are infinitely small
+
+ elements of lines, and the other where they stand for finite lines. He points out that
+
+ differentials are equated with finite lines by Leibniz already in his first publication,
+
+ the Nova Methodus of 1684, apparently in preference to the approach taken in the
+
+ manuscript Elementa "which Gerhardt identified as an alternative draft for the first
+
+ 15 Leibniz (1846), 46-47; quoted from (Bos 1974-1975, 58). The asterisked phrase is an error for "or
+ (d)y : (d).r = \χ(ά)ν/(d) χ + υ) : a, but this does not figure in the remaining calculation.
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 11:57:51 UTC
+All use subject to https://about.jstor.org/terms
+
+ Leibniz's syncategorematic infinitesimals
+
+ 567
+
+ publication of the rules of the calculus, in which the differentials are introduced as
+ infinitesimals' (Bos 1974—1975, 63). But in the Elementa, dx and dy are defined as
+ differences of successive abscissa and ordinates which are then assumed to become
+
+ infinitely small, so that even here they are understood as limit-elements, like Newton's
+ nascent and evanescent quantities (Leibniz 1848, 32-33). In the Nova Methodus, on
+
+ the other hand, Leibniz makes more explicit the finiteness of the differences prior to
+
+ this limiting process. He lets dx stand for an arbitrary finite line, and d>! for a variable
+
+ finite line, whose ratio to dx in the limit as dx becomes evanescent equals the ratio of
+
+ the ordinate to the subtangent:
+
+ ày : άχ — y : σ
+
+ In the more sophisticated approach of Cum prodiisset, as we saw above, (d).r is now
+
+ taken as the arbitrary finite line, and (d)y the variable finite line defined by (2.1) and
+
+ (2.2), while d>· and dx are both variable finite quantities whose ratio is always equal
+ to the ratio (d)y:(d);t, even in the case where the finite difference dx goes to zero.
+
+ Bos interprets this as meaning that in Cum prodiisset Leibniz has defined (d)>> as the
+
+ differential. For if y — f(x), and the finite differences ày and dx are written as Ay
+ and Ax, then (2.1) becomes
+
+ (d)y = (Ay/Ax)(d)x = {[f(x + Ax) - f(x)]/Ax] ■ (d)* (2.9)
+
+ In the limit as Ax —► 0, the expression in braces is f'(x), the derivative with respect
+
+ to χ of the function f(x), and (d)y is the differential of y as defined by Cauchy (Bos
+ 1974-1975,59).
+
+ But this, it seems to me, is to misinterpret Leibniz's justification, the aim of which
+ is not to define (d)>> as the differential, but rather to show that d>· and dv may still
+ have an assignable ratio to dx even in the limit where dx —► 0. In that limit, dy, dv
+
+ and dx are infinitely small, fictional quantities. These are the differentials. The role
+ of (d)y, (d)v and (d)jc is to be "finite surrogates": they remain assignable quantities
+ throughout the limiting process as <it becomes arbitrarily small, and since (d) v and
+ (d)x have an assignable ratio equal to d_y:dxr even in that limit (likewise for (d)u
+ and (d)jc), differential equations involving terms in ây, dv and dx to the same order
+ are interpretable under the fiction where these quantities stand for infinitely small
+ quantities.
+
+ Having shown this in an arbitrary case, it obviates the need to show it in every
+
+ case. The strict proof operating only with assignable quantities justifies proceeding by
+
+ simply appealing to the fact that dv is incomparable with respect to υ: in keeping with
+
+ the Archimedean axiom, it can be made so small as to render any error in neglecting
+
+ it smaller than any given. Thus, in a letter to Wallis in 1699, Leibniz justifies the rule
+ for â(xy) = xdy + ydx as follows
+
+ ... there remains xdy + ydx + djcdy. But this djcdy should be rejected, as it is
+ incomparably smaller than xdy + ydx, and this becomes d(xy) — jcd>· + ydx,
+ inasmuch as, if someone wished to translate the calculation into the style of
+
+ <£) Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 11:57:51 UTC
+All use subject to https://about.jstor.org/terms
+
+ 568
+
+ R. T. W. Arthur
+
+ Archimedes, it is evident that, when the thing is done using assignable qualities,
+
+ the error that could accrue from this would always be smaller that any given.16
+
+ As a second example of Leibniz's approach to infinitesimals, it will be instruc
+ tive to examine Leibniz's criticisms of Newton's proof of his Lemma 9 in the Prin
+ cipia and the demonstration he offers in its stead. Here, I will follow closely the
+ development of Leibniz's reactions to Newton's Principia and its methods given by
+ Bertoloni Meli (1993), who has analysed the evolution of Leibniz's mathematical cos
+ mology from his initial hostile reactions to Newton's to the development of his own
+ rival dynamics of celestial motion, in a brilliant and careful study of the surviving
+ documents.
+
+ As Leibniz correctly recognized, Lemmas 9-11 are crucial for Newton's proofs of
+ the inverse square law; Lemma 10, in particular, is a corollary of Lemma 9, and is
+
+ appealed to by Newton (in the first edition of the Principia) in the proof of Proposition
+ 6. Each of Newton's lemmas is an instance of his Method of First and Last Ratios, and
+
+ establishes a ratio between quantities as they are on the very point of being generated
+
+ or vanishing. The figures, accordingly, are "ultimate" ones, depicting what Whiteside
+
+ has aptly termed "limit motions" ( 1967,154) the motions a body would undergo during
+
+ a "moment" if it continued with the velocity it had at the beginning of that moment.
+ Leibniz had no objection to this procedure; but he did object to what he found in
+
+ Proposition 6, namely the treatment of a curved trajectory in such an ultimate moment
+
+ as compounded from two motions, one a rectilinear inertial motion along the tangent,
+
+ and the other an acceleration towards the centre. This was an objection of his of long
+ standing, and is closely related to his syncategorematic understanding of moments
+
+ and of infinite division. In a piece written at the beginning of April 1676, he reasoned
+ that if there were such a thing as a perfect fluid—by which he meant matter divided
+
+ all the way down into points, each individuated by a differing motion—then "a new
+ endeavour [would] be impressed at any moment whatever" on a body moving in the
+
+ fluid. But this would be to compose a curved line from points and time from instants,
+ and would also entail an "impossible" composition at every single instant:
+
+ But if this is conceded, time will actually be divided into instants, which is not
+
+ possible. So there will be no uniformly accelerated motion anywhere, and so the
+
+ parabola will not be describable in this way. And so it is quite credible that circles
+
+ and parabolas and other things of that kind are all fictitious.... For supposing a
+
+ point moves in a parabolic line, it will certainly be true of it that at any instant it is
+
+ moving with a uniform motion in one direction, and with a uniformly accelerated
+ motion in another, which is impossible. (A VI 3, 492; LoC 74-77)17
+
+ 1(* "... restai xdy + ydx + dxdy. Sed hie dxdy rejiciendum, utipsisxdy + ydx incomparabiliter minus, et fit
+
+ d, xy = xdy + ydx, ita ut semper manifestum sit, re in ipsis assignabilibus peracta, errorem, qui inde metui
+ queat, esse dato minorem, si quis calculum ad Archimedis stylum traducere velit." (Leibniz to Wallis, 30th
+ March 1699; GM IV 63).
+
+ 17 Here Leibniz appears to be applying a principle he had just formulated: "If a given motion can be resolved
+
+ into two motions, one of them possible and the other impossible, the given motion will be impossible." (A
+ VI 3, 492; LoC 72-73) The quoted passage should be compared with the quotation Bertoloni Meli gives
+ from Leibniz's letter to Claude Perrault, also written in 1676: "I take it as certain that everything moving
+
+ along a curved line endeavours to escape along the tangent of this curve; the true cause of this is that curves
+
+ <£) Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 11:57:51 UTC
+All use subject to https://about.jstor.org/terms
+
+ Leibniz's syncategorematic infinitesimals 569
+
+ Fig. 4 Newton's Lemma 9
+
+ When he first confronted Newton's Principia some 12 years later, Leibniz's ini
+ tial reaction was, therefore, to believe that there was a mistake in Newton's com
+
+ position of motions in deriving Proposition 6. On his understanding, in an ultimate
+
+ moment only straight line motions (and equivalently the lines they would traverse in
+ such a moment) can be compounded, since ultimately the curve is resolved into an
+
+ infinite-sided polygon with fictional straight sides, each one representing a geometric
+ "indivisible" or ultimate difference between successive values. Seeing the depen
+ dence of Proposition 6 on Lemmas 9 and 10, therefore, he concentrated his attention
+ on them.
+
+ In Lemma 9, Newton has a curved trajectory depicted in an ultimate moment,
+ and a claim is made that "the areas of the [curvilinear] triangles ADB and A EC will
+ ultimately be to each other in the squared ratio of the sides", i.e. AADB .AAEC =
+ AD^ .AÉ1 (Newton 1999,437). Newton performs his proof using his Method Of Finite
+ Surrogates: here these surrogates are the lines Ad and Ae, which are finite, with Ae
+
+ remaining fixed, and in proportion to AD and AE, which are supposed variable; likewise
+
+ Abe is a fixed portion of curve similar to ABC, with the elements of the curve AB and
+
+ AC supposed variable, gradually shrinking toward A until Β and C "come together"
+
+ with it. The line AGg is tangent to both curves at A. Newton's proof then proceeds by
+
+ noting that in the limit A, Β and C coincide, LcAg vanishes, and "the curvilinear areas
+
+ Abd and Ace will coincide with the rectilinear areas Afd and Age, and thus (by Lemma
+
+ 5) will be in the squared ratio of these sides Ad and Ae" (437). Therefore, given the
+
+ assumed proportionality between these finite surrogates and the infinitesimals, "the
+ areas ABD and ACE also are ultimately in the squared ratio of the sides AD and AE.
+ QED" (437) (Fig. 4).
+
+ are polygons with an infinite number of sides, and these sides are portions of the tangents..(quoted from
+ Bertoloni Meli 1993,75).
+
+ Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 11:57:51 UTC
+All use subject to https://about.jstor.org/terms
+
+ 570 R. T. W. Arthur
+
+ Fig. 5 Leibniz: Newton's
+ Lemma 9
+
+ Leibniz's reaction to Newton is fraught with irony. For he neglects Newton's use
+ of finite surrogates, which is to all intents and purposes identical to his own way
+ of justifying the calculus in "Cum prodiisset" using only assignable quantities, as
+ explained above. (This irony is compounded by the fact that Leibniz rather arbitrarily
+
+ replaces Newton's letters Ε and C by (D) and (B), the same bracket notation he usually
+
+ uses for finite lines.) It is possible, of course, that Leibniz adopts his finite surrogate
+
+ technique after further reflection on Newton's method, although, as Bos notes, Leibniz
+
+ had promoted his differentials as finite variable quantities bearing a proportion to fixed
+ lines in his first publication on the calculus (1684) (albeit in a form that was not easy
+
+ for his contemporaries to understand).18 In any case, in these first notes on Newton's
+ Principia, Leibniz dispenses with the finite surrogates completely, so as to concentrate
+
+ on the curvilinear figures that Newton has depicted in his "ultimate moment". Above is
+
+ his diagram, statement and criticism of Newton's Lemma 9, following the description
+ given by Bertoloni Meli (Fig. 5):
+
+ If AB, A{B) are unassignable, A.ADB and AA(D)(B) will be in the squared
+ ratio of the sides (+ namely, it must be understood that the As are similar, and
+
+ so angle BA(B) has a ratio to angle DAB that is infinitely small, but this does not
+
+ seem to be true, since in AAB(B) the side B(B) has an assignable ratio to A Β
+ or A(B), and so to AD and DB.+)
+
+ That is, Leibniz objects that in the limit As ADB and A{D)(B) will not be similar,
+
+ since Newton's diagram already represents the ultimate moment, and in it angle BA(B)
+
+ has a finite rather than infinitesimal ratio to the sides of the triangles. In an effort to show
+
+ that Newton has made an error in calculating with infinitesimals, Leibniz proceeds with
+
+ his own calculation, in which the infinitesimal order of the angle BA(B) with respect
+ to AB and AD is rendered explicit by setting AD = x, DB = y, A(D) — χ + dx, and
+ D(B) = ν + dy. Leibniz does not succeed in demonstrating any error on Newton's
+
+ 18 See (Bos 1974-1975, 57, 63). Certainly some of the wording of Leibniz's later justifications seems to
+ show Newton's influence, as Guicciardini notes in his excellent discussion (Guicciardini 1999, 161), even
+
+ if he had developed the method of finite surrogates independently.
+
+ <£) Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 11:57:51 UTC
+All use subject to https://about.jstor.org/terms
+
+ Leibniz's syncategorematic infinitesimals
+
+ 571
+
+ part; nor in fact is there an error, as Meli observes, since as χ tends to zero so does dx,
+
+ so that ultimately the triangles become similar.
+
+ Nevertheless, even though he fails to show anything wrong in Newton's procedure,
+
+ Leibniz's workings provide us with a nice illustration of his approach to the differential
+
+ calculus. First, he expresses y as a series expansion in χ:
+
+ y — a + bx + cx2 + ex3 + ·
+
+ (2.10)
+
+ Now since χ — 0 when y = 0, we have a — 0 a point Leibniz first realized, and then
+ subsequently forgot, rendering his calculation inconclusive. But as Meli shows, the
+ lemma follows fairly easily from these premises. For
+
+ xy — bx2 + cx3 + ex4 + ·
+
+ (2.11)
+
+ so that since (assuming Lemma 5) area [ADB] = AD ■ DB/2,
+
+ area [ADB] = xy/2 z=x/2(bx2 + cx3 + ex4 Η ) (2.12)
+
+ Meli remarks that "If χ becomes infinitesimal, the terms in jc3 , x4,... are negligible,
+
+ and the area of ADB (= xy/2) is indeed proportional to AD2(— x2)" (242). To this one
+
+ might object that it seems unjustified to assume terms in χ3, χ4,... are negligible when
+
+ terms in jc2 are not. In fact, however, we can proceed more rigorously. For although
+
+ Leibniz apparently thought Newton's finite surrogates could be dispensed with, they
+
+ are completely in accord with his way of proceeding. Thus, let DB.AD = db:Ad, etc.,
+
+ as Newton had assumed, with db and Ad finite, and with this ratio remaining in a finite
+
+ and non-vanishing proportion to ec and Ae (with Ae fixed) even as χ -*■ 0. Then
+
+ DB/AD = AD ■ DB/AD2 = b + ex + ex2 + ■ ■ ■ (2.13)
+
+ But since this equals db:Ad, which is finite and non-vanishing as χ -> 0, it follows
+
+ that
+
+ 2 χ area [ADB)]/AD2 = AD ■ DB/AD2 = b{const.) (2.14)
+
+ Now the same reasoning will apply for AA(D)(B), giving
+
+ area [ADB)]: area [A(D)(B)] = AD2 : A(D)2 (2.15)
+
+ Newton's Lemma is, therefore, sound even by Leibniz's lights, as indeed he came
+
+ to realize despite not having successfully completed this calculation.19
+
+ Alternatively, the move from Eqs. (2.13) to (2.14) is justifiable by the consideration
+
+ that ck is incomparably small relative to any finite quantity of the same order as jc, and
+
+ 19 As Meli reports (Bertoloni Meli 1993, 103), Leibniz's attitude seems to have undergone a sea change
+ on moving on from Sect. 1 of the Principia on First and Last Ratios, to Sect. 2, on the determination of
+
+ central forces. Accordingly, in the first set of Excerpts Leibniz took from the Principia the following year,
+ "lemma 9 is transcribed without commentary, and seems to be accepted without difficulty" (242).
+
+ Ê Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 11:57:51 UTC
+All use subject to https://about.jstor.org/terms
+
+ 572 R. T. W. Arthur
+
+ thus ignoring it will produce an error smaller than any that can be assigned, and thus
+
+ null. Thus, if χ in Eq. (2.13) is an infinitesimal variable, then cx stands for a finite line
+
+ that can be made smaller than any finite quantity, and thus smaller than b, for any b
+
+ and c, and a fortiori for higher order terms.
+
+ Similar considerations apply to Lemma 11, stating that the curvature of a trajectory
+
+ at a given point is the same as the curvature of the osculating circle at that point. In
+ the first stage of composition of his Marginalia identified by Meli and Leibniz objects
+
+ to Newton's Corollary 7 to Proposition 4, in which the proportionality of centripetal
+
+ forces to v2/r, proved in Proposition 4 for bodies rotating uniformly in circular orbits,
+ is extended to non-circular orbits for limit-motions: "Since I do not yet accept the
+ generality of Lemma XI, I also doubt the generality of this corollary 7" (Bertoloni
+ Meli 1993, 107). Somewhat later, according to Meli, he corrected himself: "On the
+ contrary, this is true, because the considerations on the secant of the angle made
+ by the radius from the centre to the curve, and that of the radius of the osculating
+ circle to the curve, vanish on account of the similarity of the figures."20 That is,
+ according to Meli's analysis, "since Proposition 4 is stated in the form of a proportion
+
+ between the homologous elements of two similar figures, their similarity cancels out
+
+ the dependence of paracentric conatus [—the endeavour toward the centre—] on the
+ secant of the angle and on the osculating radius" (107).
+
+ 3 Smooth infinitesimal analysis
+
+ Smooth Infinitesimal Analysis has many features in common with Leibniz's approach.
+ It begins, like Leibniz, by eschewing the composition of the continuum from an infinity
+
+ of points. In contrast to the account of the continuum established by Cantor based on
+ Point Set Theory, according to which a continuous line is an infinite (indeed, nondenu
+
+ merably infinite) set of points, SIA is rooted in Category Theory, and mappings rather
+
+ than points are taken as basic. The category of smooth manifolds, Man, is embedded
+ in an enlarged category C which contains "infinitesimal" objects, and a topos Setc
+ is then formed of sets varying over C. "Each smooth topos Ε is then identified as a
+
+ certain subcategory of Setc. Any of these toposes has the property that its objects are
+
+ undergoing a form of smooth variation, and each may be taken as a smooth world."
+
+ (Bell 1998, 14). With this foundation secured, a great many results of differential cal
+
+ culus may be obtained "—with full rigour— using straightforward calculations with
+
+ infinitesimals in place of the limit concept" (Bell 1998, 4), as if infinitesimals exist.
+
+ Here I say "as if infinitesimals exist" advisedly. For another feature that SIA has
+
+ in common with Leibniz's approach is that, whilst it licenses certain infinitesimal
+ techniques, it is not committed to the existence of infinitesimals in the continuum.
+
+ That is, as in Leibniz's theory, infinitesimals are fictions in a precisely defined sense.
+
+ The sense in which they are fictions in SIA, however, is that although it is denied that
+
+ an infinitesimal neighbourhood of a given point, such as 0, reduces to zero, it cannot be
+
+ inferred from this that there exists any point in the infinitesimal neighbourhood distinct
+
+ 20 Marginalia, M 42 A: translated from the Latin quoted by Meli, 107.
+
+ Ô Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 11:57:51 UTC
+All use subject to https://about.jstor.org/terms
+
+ Leibniz's syncategorematic infinitesimals 573
+
+ from Ο.21 Thus, the Law of Excluded Middle, and with it the Law of Double Negation,
+ both fail in smooth worlds. Bell explains this as follows. Define two points a and b
+ on the real line (as represented in a smooth world Σ) as distinguishable iff they are
+ not identical, i.e. iff ->a = b, where '=' denotes identity. Now define the infinitesimal
+ neighbourhood 1(0) of a given point 0 as the set of all those points indistinguishable
+ from 0. That is, define 1(0) as follows:
+
+ 1(0) =def {*!—.*= 0}
+
+ (3.1)
+
+ Now if the Law of Double Negation (or, equivalently, the Law of Excluded Middle)
+ held in Σ, we could infer that χ = 0 for each χ in 1(0), so that the infinitesimal
+
+ neighbourhood of 0 1(0) would reduce to {0}. But we know that this neighbourhood
+ does not reduce to {0} in Σ. So we cannot infer the identity of points from their
+
+ indistinguishability. Again, suppose there is a point a in / that is distinguishable from
+ 0, i.e. suppose there is a point α ε I such that ->a = 0. But since αεί, ~·->α = 0 by
+ definition. But this is a contradiction. Therefore, it is not the case that there exists
+
+ a point a in I that is distinguishable from 0. That is, the logic of smooth worlds is
+ intuitionistic logic: the Law of Non-contradiction holds, as we have just seen; but the
+
+ Laws of Excluded Middle, Double Negation, and one form of Quantifier Negation do
+ not hold in smooth worlds. From -i(Vjc e I)x = 0 (it is not the case that all members
+ of / are identical with 0), we can not infer that (3x € I)->x = 0 (there is a member
+
+ of / that is distinguishable from 0).22 This makes precise the older conception of an
+
+ infinitesimal difference as a difference smaller than any assignable, but not zero. It
+
+ does so, in effect, by denying that an unassignable difference reduces to zero, but not
+
+ allowing the inference from this that there exists an unassignable difference different
+ from zero, it is in this sense that the infinitesimal intervals of SIA are fictional.
+
+ On this foundation, Bell erects the theory of SIA. First, he defines Δ as consisting
+ in those points χ in R such that x2 = 0. The letter ε then denotes a variable ranging
+ over Δ (21). The fundamental assumption is then that every curve is microstraight
+ (9, 22). That is, arbitrary functions / : R —*■ R are assumed to behave locally like
+ polynomials, so that with f(x) = ao + a\x+a2X2-\ a„x" and ε2 — 0, we have
+
+ /(ε) = αο + a\£ f°r any ε in Δ.
+
+ (3.2)
+
+ This is the Principle of Microstraightness, and it implies that (ε, /(ε) lies on the
+ tangent to the curve at the point (0, ao). It also entails (if one considers only the
+ restriction of g of / to Δ) that g is affine on Δ. This may be compared with Leib
+
+ niz's statement that "... to find a tangent is to draw a straight line which joins two
+
+ 21 In a sympathetic but exacting analysis of SIA, Geoffrey Hellman observes that the status of infinitesimals
+
+ in SIA is odd. On the one hand, "the "existence of non-zero nilsquares" is actually refutable", but on the
+ other, "in the background one assumes their 'possibility' in making sense of the whole theory" (Hellman
+
+ 2006,10). Certainly there is no constructive definition of them (11), even as fictional entities. Here, I think,
+ Leibniz's theory is more in keeping with the constructivist spirit.
+
+ 22 More precisely, the logic of smooth toposes is free first-order intuitionistic or constructive logic. See
+ Bell (1998), 101-102.
+
+ "β Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 11:57:51 UTC
+All use subject to https://about.jstor.org/terms
+
+ R. T. W. Arthur
+
+ points of the curve which have an infinitely small distance, that is, the prolonged
+ side of the infinitangular polygon which for us is the same as the curve." (Leibniz
+ 1684a, GM V 223). That consideration motivates the Principle of Microaffineness
+ (Bell 1998, 23):
+
+ For any map g: Δ —*■ R, there exists a unique b in R such that, for all ε in A, we
+
+ 574
+
+ have
+
+ g (ε) = g(0) + eb.
+
+ (3.3)
+
+ This principle allows one to define the derivative of an arbitrary function / : R —*■ R
+
+ as follows (1998, 26). Define the function gx(s) = f(x + ε). By Microaffineness, it
+ follows that there is a unique bx such that for all ε in Δ,
+
+ f(x +ε) = gx(e) = gx( 0) + ebx = f(x) + ebx (3.4)
+
+ If we allow χ to vary, the values bx will constitute a new function, the derivative
+
+ fix):
+
+ f(x +ε) = f{x) + sf'(x) (3.5)
+
+ If the function / is a function of time, and ε is an infinitesimal time, we have as a
+
+ direct consequence of this the Principle of Microuniformity (of natural processes): any
+
+ such process may be considered as taking place at a constant rate over the "timelet"
+ ε (1998, 9). Another important consequence of Microaffineness is the Principle of
+ Microcancellation: for any a, b in R, if εα = εb for all ε in Δ, then a = b (1998,
+ 24). I quote Bell's proof:
+
+ Suppose that, for all ε in 8, all εα = eb and consider the function g : Δ —*■ R
+ defined by g (ε) — εα. The assumption then implies that ghas both slope a and
+ slope b: the uniqueness clause in Microaffineness yields a — b. (24)
+
+ I will now illustrate the neatness and simplicity of SIA by means of two examples: (i)
+
+ the proof of the product rule for derivatives, and (ii) the proof of Newton's Proposition
+
+ 1 of the Principia, the Kepler Area Law. For both of these illustrations, I shall follow
+ Bell's exposition.
+
+ (i) The Product Rule for Derivatives
+
+ Let y(x) = f(x)g(x). We wish to prove that y' = f'g + fg'. By the definition of the
+ derivative,
+
+ f{x + ε) = fix) + Sf'ix), (3.6)
+
+ and likewise for g and y. Thus, since
+
+ y(x + ε) = f(x + ε) · g(x + ε), (3.7)
+
+ & Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 11:57:51 UTC
+All use subject to https://about.jstor.org/terms
+
+ Leibniz's syncategorematic infinitesimals 575
+
+ we have
+
+ y(x) + ey'(x) = [f{x) + ef'(x)\ ■ [g(*) + £#'(*)] (3.8)
+
+ = y(x) + ε [/'(x)g(x) + g'(*)/00] + s2f\x)g\x) (3.9)
+
+ Now subtracting y from both sides and assuming ε2 = 0, we have
+
+ ey'(x) = « [/'(*)g(*) + g\x)f(x)], and thus (3.10)
+ y'(x) = f'(x)g(x) + g'(x)f{x) (3.11)
+
+ The inference from (3.10) to (3.11) is guaranteed by the Principle of Microcan
+
+ cellation: if εα = eb for all ε in Δ, then a — b. As we saw, this in turn depends on
+ the nilsquare property ε2 = 0. So in the proof, this property is invoked three times:
+
+ indirectly in the definition of the derivative (3.6), in the inference from (3.9) to (3.10)
+
+ directly, and again indirectly in proving the Microcancellation property involved in
+ the inference from (3.10) to (3.11).
+
+ (ii) Newton's Proposition 1, the Kepler Area Law
+
+ In his proof of this law, Bell assumes that the area A, the radius r and the angle θ are
+
+ all functions of t, which increases by a nilsquare infinitesimal ε "with ε in Δ". "Then
+
+ by Microstraightness the sector OPQ is a triangle of base r(t+e) = r+ er' and height
+
+ r sin[0(/ + ε) — 0{t)] — r sin ε#' = red'" (Bell 1998, 69) (3.12)
+
+ Here, the nilsquare property is invoked in Microstraightness, in the definitions of
+
+ the derivatives r' and Θ', and again in the equating of sins#' with εθ'. Since the area
+
+ is half the base times the height, this gives for the area of sector OPQ
+
+ OPQ = y2(r + ε/)Γεθ' = ι/2εΓ2θ'
+
+ (3.13)
+
+ if the term ε^Γτ'θ' is dropped, again invoking the nilsquare property. But the area
+ OPQ is the increment in area produced by the motion of the radius vector,
+
+ OPQ = A(t + ε)- A(t) = ε A'if) (3.14)
+
+ so that (3.13) and (3.14) give, by Microcancellation,
+
+ A'{t) = VV (3.15)
+
+ where k is a constant.
+
+ A{t)—kt, (3.16)
+
+ Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 11:57:51 UTC
+All use subject to https://about.jstor.org/terms
+
+ Expressing A' as a function of x, x', y, y', Bell then proves that A"(t) — 0, so that,
+
+ assuming A(0) = 0, we have the Area Law
+
+ 576
+
+ R. T. W. Arthur
+
+ As a historical note, we may remark that Bell's procedure is reminiscent of that
+
+ pioneered by the seventeenth century Dutch mathematician Bernard Nieuwentijt.23 In
+
+ his treatment (which was independent of Newton's and Leibniz's), Nieuwentijt began
+
+ by defining infinitesimal and infinite quantities: "A quantity smaller than any given
+ one may be called, for the sake of abbreviation, infinitesimal; greater than any given
+ one, infinite." He then laid down a number of axioms. The first is that "That which
+
+ cannot be multiplied so many times, that is, by such a great number, that it becomes
+
+ equal in magnitude to any given [finite] quantity, however small, is not a quantity, but
+
+ a mere nothing in geometry." (Nieuwentijt 1695,2: Axiom 1 ). Axiom 2 states that any
+
+ arbitrary finite quantity can be divided into arbitrarily many equal or unequal parts less
+
+ than any given quantity, so that the division of a finite quantity b by an infinite number
+
+ m yields an infinitesimal quantity. (This is in accord with Axiom 1, since b/m may
+
+ be multiplied by the product of the infinite number m and the finite number c/b so
+
+ that it does equal any other finite quantity c.) But it now follows (Nieuwentijt 1695,4:
+
+ Lemma 10) that if two infinitesimal quantities b/m and c/m are multiplied together,
+
+ their product bc/mm is zero. For when multiplied by the largest possible number m, the
+
+ product be/m is still infinitesimal and, therefore, cannot be made equal to any finite
+ quantity; by Axiom 1, the product of any two infinitesimal quantities is, therefore,
+
+ zero. Nieuwentijt's infinitesimals are nil-square infinitesimals. Nieuwentijt was proud
+ of this result, regarding it as the "Ariadne's thread" that would provide an exit from
+ the labyrinth of the continuum by establishing a strict criterion for which infinitesimal
+
+ quantities could indeed be neglected in any calculation (Nieuwentijt 1695, 81).
+
+ Notwithstanding this agreement on nilsquare infinitesimals, there are, of course,
+ many profound differences between SIA and Nieuwentijt's approach. For SIA, like
+ Leibniz's approach, is based on smoothly varying geometric quantities, whereas
+ Nieuwentijt's infinitesimals are defined through division by an infinite number m,
+ where m is the largest number. They are, therefore, invertible, unlike the infinitesi
+
+ mals of SIA; they are also actual infinitesimals by Nieuwentijt's definition, quantities
+
+ smaller than any finite quantity, the inverses of categorematically infinite quantities.
+ Moreover, SIA presupposes intuitionistic logic, whereas Nieuwentijt's logic is classi
+ cal. Finally, Nieuwentijt's theory does not admit higher order differentials, whereas,
+ as we shall see, this is possible in SIA. But the key points it has in common with
+ Nieuwentijt's approach are these: the Principle of Microaffineness, which "entails
+
+ that all curves are 'locally straight'" (110); and the Nilsquare Property, which guaran
+
+ tees that all squares and higher powers of an infinitesimal are intrinsically zero, and
+
+ not just by comparison with other quantities.24
+
+ 23 See the lucid account of Nieuwentijt's theory in Mancosu (1996), 158ff, and also Nagel (2008), 200-205,
+ for a succinct account of his dispute with Leibniz.
+
+ 24 Mancosu has very aptly summarized the difference between Nieuwentijt's approach and Leibniz's in his
+
+ (Mancosu 1996, 160). One of these differences is that on Nieuwentijt's theory, the infinitesimal b/m cannot
+ be eliminated from computations; but Bell's Principle of Microcancellation shows how to circumvent this
+
+ problem. Bell has also provided a useful comparison of the difference between Nieuwentijt's approach and
+ Leibniz's in his (2006, 98-100).
+
+ Ô Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 11:57:51 UTC
+All use subject to https://about.jstor.org/terms
+
+ Leibniz's syncategorematic infinitesimals 577
+
+ Fig. 6 Newton's Proposition 6
+
+ 4 Propositions 4 and 6 of Newton's Principia
+
+ The comparison between Leibniz's syncategorematic approach and that of SIA can be
+ set in relief by applying both to the same examples. Because of its historical impor
+ tance, and also because it gave both Leibniz and Varignon some measure of grief25
+ and, therefore, presents itself as an excellent touchstone, I shall consider Newton's
+
+ Proposition 6 of Book 1 of the Principia, the theorem that is the basis of his derivation
+ in Proposition 11 of the inverse square law of attraction due to gravity for a body
+
+ orbiting in an ellipse. I will briefly present Newton's own proof of Proposition 6 with
+ some commentary. Then I will proceed to a sketch of Leibniz's proof of the inverse
+ square law for the ellipse, in which he avails himself of Newton's Proposition 1 (the
+
+ area law), and its composition of motions along the chords, to give an algebraic proof
+
+ using his method of differentials. But first, to motivate this, I will follow Nico Bertoloni
+
+ Meli in giving an analysis of Newton's Proposition 4 according to the two different
+
+ compositions of motion: Newton's composition of a rectilinear uniform motion along
+
+ the tangent with a uniform acceleration towards the centre, and Leibniz's composition
+ of a rectilinear uniform motion along the chord with a rectilinear uniform motion
+ towards the centre (Bertoloni Meli 1993, 82-83).
+
+ It seems appropriate to consider Newton's treatment in the first edition of the Prin
+
+ cipia (published in 1687), since this is the one that Leibniz's critical comments were
+ directed towards.26 There he states Proposition 6 as follows (Fig. 6):
+
+ If a body P, revolving about a centre S, describes any curved line APQ, while
+ the straight line ZPR touches that curve at any point P; and to the tangent from
+
+ any other point Q of the curve, QR is drawn parallel to the distance SP, and the
+
+ perpendicular QT is dropped onto the distance SP: I say that the centripetal force
+
+ is as the reciprocal of the solid SP2 ■ QT2/QR, provided that the quantity of
+
+ this solid is always taken as that which is made when the points Ρ and Q come
+
+ together.
+
+ 25 On Varignon and Leibniz on central force see (Bertoloni Meli 1993, 81-83,201ff.).
+
+ 26 For the second edition (published in 1713) Newton composed a new Proposition VI, which remains
+ the same in the third (1726), and the first edition text became Corollary 1. Although the first edition can
+
+ be pieced together from the footnotes in Newton (1999), Part I is usefully presented in its entirety (in a
+ different translation by Mary Ann Rossi) by Brackenridge (1995), 235-267.
+
+ Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 11:57:51 UTC
+All use subject to https://about.jstor.org/terms
+
+ 578
+
+ R. T. W. Arthur
+
+ In the first edition27 Newton gives the following proof:
+
+ For in the indefinitely small figure QRPT the nascent linelet QR is, given the
+ time, as the centripetal force (by Law 2), and given the force, as the square of
+
+ the time (by Lem. 10), and thus, if neither be given, as the centripetal force and
+
+ the square of the time jointly, and thus the centripetal force is as the linelet QR
+
+ directly and the square of the time inversely. But the time is as the area SPQ, or
+ its double SP χ QT, that is, as SP and QT jointly, and thus the centripetal force
+
+ is as QR directly and SP2 χ QT2 inversely, that is, as SP2 ■ QT21 QR inversely.
+ QED. (Newton 1999,454)
+
+ In Proposition 11, Newton went on to use this formula to derive an expression for
+
+ the centripetal force holding a body in an elliptical orbit. If the minor and major axes
+ of the ellipse are, respectively, b(= 2BC) and q(= 2AC), then the latus rectum of the
+ ellipse is L — 2BC2/AC = b2/q. By adroitly using the properties of the ellipse and
+ the lemmas he had established for proportions in the limit motions, Newton is able to
+
+ prove that SP2 ■ QT2/QR = L ■ SP2. Therefore, from Proposition 6, the centripetal
+ force is the reciprocal of this, and thus as the inverse square of the altitude, SP.
+
+ Newton's proof of Proposition 6 involves a composition of a uniform motion with a
+
+ uniformly accelerated motion, which Leibniz could not accept, as mentioned in Sect. 2.
+
+ He interprets Newton's "force" as cause of an increment in quantity of motion, so that it
+
+ should be proportional to velocity, not to acceleration.28 Newton's proof also appeals
+ to Lemma 10, whose validity Leibniz initially doubted. Thus, in his marginalia to
+ Newton's Principia Leibniz altered Newton's statement in the proof of proposition
+
+ 6, "the nascent linelet QR is, given the time, as the centripetal force (by Law 2), and
+ given the force, as the square of the time (by Lem. 10)", replacing both instances of the
+ word 'force' by 'velocity', and 'as the square of the time' simply by 'as the time'.29
+
+ Subsequently, as we noted in Sect. 2 above, Leibniz came to see that Newton's way
+ of applying his Lemmas to limit-motions involved no mathematical error. In fact, as
+ Meli explains, the two ways of analyzing the composition of motion, Newton's com
+
+ position of a rectilinear uniform motion along the tangent with a uniform acceleration
+ towards the centre, and Leibniz's composition of a rectilinear uniform motion along
+
+ the chord with a rectilinear uniform motion towards the centre, generally lead to the
+
+ same mathematical result. But Leibniz still preferred a composition of two uniform
+
+ motions, rejecting the physicality of Newton's instantaneous acceleration.30 It will be
+
+ 27 This proof is replaced by a new proof (of Corollary 1 to the new proposition 6) in the 2nd and 3rd
+ editions, where QR is said to be "equal to the sagitta of an arc that is twice the length of an arc QP, with Ρ
+ being in the middle; and twice the triangle SQP (or SP χ QT) is proportional to the time in which twice
+ that arc is described and, therefore, can stand for the time." (453-454). Nonetheless, Newton does write
+
+ after the new proof of Prop. 6: "The proposition is easily proved by lem. 10, coroll. 4.".
+
+ Bertoloni Meli notes how, in his notes on Corollary 1 to the First Law, Leibniz objected to Newton's use
+
+ of "force" in stating it—writing after"... vi", "(malo dicere conatu)"—meaning that vis should be replaced
+ by conatus, that is (directed) infinitesimal tendency to motion. See (Bertoloni Meli 1993, 224, 239, 163).
+
+ 29 See Bertoloni Meli (1993), 162.
+
+ 10 "La voye est plus simple," Leibniz wrote to Varignon in October 1706, "qui ne met pas l'accélération
+ dans les elemens, lorsqu'on n'en a point besoin. Je m'en suis servi depuis de 30 ans." (GM IV 150-151;
+ Bertoloni Meli 1993, 81).
+
+ Ô Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 11:57:51 UTC
+All use subject to https://about.jstor.org/terms
+
+ Leibniz's syncategorematic infinitesimals 579
+
+ Fig. 7 Tangent composition
+
+ R P
+
+ N
+
+ worthwhile to further our understanding of Leibniz's reasons for this before proceed
+ ing to his derivation of the centripetal force law for the ellipse, by examining proofs
+
+ of the centripetal force law for circular motion (Newton's Proposition 4) according to
+
+ the two different compositions.
+
+ In his own proof of Proposition 4 in the first edition using a tangent composition,
+
+ Newton draws two homologous and concentric circles, so that the centripetal forces are
+
+ "in the first ratio of the nascent spaces CD and cd", where CD and cd are the deflections
+
+ of the two revolving bodies. (The second homologous figure was necessary, since in
+
+ the mathematics of his day only ratios of quantities with the same dimensions could
+ be taken.) We will dispense with that here, and follow (Bertoloni Meli 1993, 82-83)
+ in giving a modernized proof of Proposition 4. For a body orbiting S in a circular arc
+
+ from Ρ to Q, we have the diagram in Fig. 7 above:
+
+ Here, the centripetal force is as the deflection QR. From the figure, with the diameter
+
+ of the circle NP = 2SP, LNQP is a right angle, so that QR:PQ = PQ:NP — PQ:2SP,
+ giving
+
+ QR = PQ2/2SP
+
+ (4.1)
+
+ Likewise, the first ratios of the velocities along the arcs of the two circles in equal
+ times will be as the first ratio of the nascent arc PQ to its homologue and, therefore,
+
+ in the ratio of the nascent straight lines PQ and its homologue. Again dispensing with
+
+ proportions, in a given moment df, with υ the velocity along PQ, PQ — vdt and SP
+ = r, so the centripetal force F is as
+
+ QR = PQ2/2SP = l/2(v2/r)dt2
+
+ (4-2)
+
+ In fact, however, the motion along QR is uniformly accelerated so that
+
+ QR — ^ad^.Thus,
+
+ a = v2/r (4.3)
+
+ Ô Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 11:57:51 UTC
+All use subject to https://about.jstor.org/terms
+
+ Leibniz objected to this, as he did not think there could be an acceleration in an instant.
+ Rather, he conceived acceleration to occur by successive increments of motion, in
+
+ accordance with the belief, typical of the mechanical philosophy, that all action is by
+ contact. Thus, while he had no objection to the composition of motions in Newton's
+
+ Proposition 1, where the action of a force is represented by an increment of motion
+ occurring in a moment, and the parallelogram law is applied to combine two uniform
+
+ motions into a third, he could not accept a composition of a uniform inertial motion
+
+ along the tangent PR with a uniformly accelerated motion toward the centre, along
+ QR (Fig. 8).
+
+ 580 R. T. W. Arthur
+
+ Fig. 8 Chord Composition
+
+ So he preferred the kind of composition used in Proposition 1, where the curved
+
+ trajectory is conceived as the "ultimate perimeter" of a polygon as the number of sides
+
+ is increased indefinitely and their width is decreased indefinitely. As is clear from the
+ figure below, with QR and SP parallel and equal, QRIPQ = PQ/SP, so that
+
+ QR = PQ2/SP.
+
+ (4.4)
+
+ But SP is finite and PQ is first order infinitesimal; therefore, QR must be second
+
+ order infinitesimal. Thus, the velocity w of the body along QR, although constant
+
+ because it represents a uniform motion, must be a first order differential du, so that
+
+ QR = w ■ dt = du ■ di = d(dr/di) ■ dt = ddr (4.5)
+
+ Meanwhile
+
+ Springer
+
+ PQ2/SP = v2àt2/r (4.6)
+
+ Combining (4.4)-<4.6) we have
+
+ ddr = v2dt2/r (4.7)
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 11:57:51 UTC
+All use subject to https://about.jstor.org/terms
+
+ Leibniz's syncategorematic infinitesimals
+
+ 581
+
+ On a modem understanding, we would interpret this as a formula for acceleration:
+
+ d2r/df2 = u2/r (4.8)
+
+ This is not, however, how Leibniz would understand (4.7). For him, it says that
+
+ the solicitation in equal infinitesimal times di is as v2 and inversely as r. Moreover,
+ as Leibniz explains in the Tentamen de Motuum Coelestium Causis published in the
+ Acta of Leipzig in February 1689, "if motion is represented by a finite line which
+ is traversed by a body in a given time, the impetus or velocity is expressed by an
+ infinitely small line, and the element of velocity, which is solicitation of gravity or
+
+ centrifugal conatus, by a line infinitely many times infinitely small".31 That is to say, on
+
+ Leibniz's way of thinking, a body only has motion in a finite time. The instantaneous
+
+ velocity ν is represented as a line-element dr produced in an element of time di whose
+ ratio dr:dî is equal to the ratio of two finite lines described in the same finite time.
+
+ Solicitation, on the other hand, is an infinitesimal element of velocity in an element of
+
+ time assumed constant, not an instantaneous rate of change of velocity. It is, therefore,
+
+ not to be confused with Newton's acceleration. Thus, in a time di, velocity υ is as dr,
+ and solicitation is as dv or ddr. As Leibniz tells Burcher de Voider, "solicitations are
+
+ as dx, velocities are as χ [= / dx], and forces as xx or f xdx"?2 We shall return to
+ this point later.
+
+ Now we are in a position to examine Leibniz's published solution in the Tentamen
+
+ for the centripetal force toward the centre of a body orbiting that centre in an elliptical
+
+ orbit. Again, this force for him will be a solicitation, a "dead force", and as such will be
+
+ an element of a conatus proportional to dv and thus ddr. So as in the case of the circle
+
+ above, he needs to find an expression for ddr based on the properties of the geometric
+ figure, in this case the ellipse. Following Newton's lead, he uses the properties of the
+
+ ellipse. But he will use them to set up a differential equation—indeed, the very first
+ differential equation ever published—rather than proceeding in the classical manner
+ with ratios of quantities. Thus, for an ellipse with distance from one focus r, minor
+ axis BE = e, major axis ΛΩ = q, eccentricity e, and latus rectum XW = a, we have
+ the relations
+
+ To simplify, Leibniz makes the substitution
+
+ 2 2
+ ez = qz
+
+ aq
+
+ ρ = 2r - q
+
+ 31 Tentamen de Motuum Coelestium Causis, Leibniz's major work on cosmology, in which he re-derives
+ Newton's results in accordance with his own physico-mathematical principles, was published in the Acta of
+
+ Leipzig in February 1689; I follow the English translation given by Bertoloni Meli, An Essay on the Causes
+ (if Celestial Motions (Bertoloni Meli 1993, 126-142; 131).
+
+ 32 Leibniz to De Voider, GPII 154, 156; quoted by Bertoloni Meli 1993, 88.
+
+ (4.9)
+
+ (4.10)
+
+ (4.11)
+
+ Ô Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 11:57:51 UTC
+All use subject to https://about.jstor.org/terms
+
+ 582
+
+ R. T. W. Arthur
+
+ and obtains from an analysis of the geometry of the figure the proportion
+
+ (a9/r):dr :: b:y/(e2 - p2) (4.12)
+
+ where αθ is twice the area swept out by the radius in the element of time θ = dt, with
+
+ the constant a arbitrarily set equal to the latus rectum.33 Leibniz rewrites (4.12) as
+
+ brdr = αθ^(β2 - ρ2) (4.13)
+
+ "which is the differential equation" (Meli, 137). Using the fact that with ρ = 2r — q,
+ we have dp = 2dr, so that
+
+ dVO2 - Ρ2) = -2pdp/2^/(e2 - p2) = -2pdr/y/(e2 - p2),
+
+ and remembering that αθ is constant, Leibniz differentiates (4.13), to obtain:
+
+ b dr dr + br ddr = —2paedr/^/(e2 — p2) (4.14)
+
+ "Eliminating dr from these two equations [4.13 and 4.14]" (Meli, 137), Leibniz
+
+ obtains:
+
+ that
+
+ thus giving
+
+ ba292(e2 - p2)/b2r2 + brddr = -2pa202/br (4.15)
+ => ddr = a202(—e2 + p2 - 2pr)/b2r3 (4.16)
+
+ Now, using the relations (4.9) e2 = q2—b2 and (4.11) ρ = 2r—q, we can calculate
+
+ -e2 + p2 - 2pr = b2 -2qr, (4.17)
+
+ ddr = α2θ2φ2 - 2qr)/b2r3 (4.18)
+
+ or, since by (4.10) b2 = aq,
+
+ ddr = α2θ2/τ3 - 2αθ2/Γ (4.19)
+
+ Here Leibniz identifies the first term as twice the centrifugal conatus, and the second
+
+ as the solicitation due to gravity, in agreement with Newton's inverse square law.
+ Taking into account Leibniz's slip in not taking α to be the .vemi-latus rectum (see
+ footnote 37), so that b2 should in fact be 2aq, the result should be
+
+ ddr = α2θ2/r* — αθ2/r2
+
+ (4.20)
+
+ Here Leibniz makes a trivial slip, as pointed out by (Bertoloni Meli 1993, 118). In order for αθ to be
+
+ twice the area of the elementary triangle, a needs to be half the latus rectum. Thus, XW = 2a, and b2 = 2aq,
+
+ introducing an error of a factor of 2 in the second term of Eq. (4.19).
+
+ ô Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 11:57:51 UTC
+All use subject to https://about.jstor.org/terms
+
+ where a is the semi-latus rectum and e the eccentricity. Differentiating and rearranging,
+ we obtain
+
+ Leibniz's syncategorematic infinitesimals
+
+ 583
+
+ This derivation can be compared with a modern derivation using differentials as
+
+ follows. In spherical co-ordinates (r, a), the equation of the ellipse is
+
+ r — a/{\ + e ■ cosa) (4.21)
+
+ dr = ea ■ sina · da/(l + ecosa)2
+
+ = er2 · sina · da/a
+
+ (4.22)
+
+ Now by Kepler's Law (cf. (3.15) and (3.16)), we have r2da = adt, giving
+
+ dr = e ■ sina · di
+
+ =» d2r = e ■ cosa · da · di = ae ■ cosa · dt2/r2 (4.23)
+
+ But by (4.20), e ■ cosa = a/r — 1, giving
+
+ d2r = (a2/r3 - a/r2) ■ dt2 (4.24)
+
+ agreeing with Leibniz's result (4.19), as corrected in (4.20).
+
+ Eschewing differentials and using only derivatives, an equivalent result can be
+
+ derived as
+
+ r" = (a2/r3 - a/r2)
+
+ (4.25)
+
+ 5 Second-order differentials
+
+ This addresses the mathematical physics. But a crucial question remains: is Leib
+ niz entitled to his second-order differentials, given his understanding of first order
+ differentials as fictions? And can SIA achieve a similar result? In this section I shall
+
+ first consider whether second-order differentials are definable on the sy ncategorematic
+
+ interpretation of infinitesimals, and then whether they are definable in SIA. Then I will
+ proceed to determine whether Leibniz's calculations above are justifiable on such a
+ syncategorematic interpretation, and whether a similar calculation might be achieved
+
+ using SIA. These considerations will motivate a revised treatment of differentials in
+ SIA, as well as lead to some reflections on the relationship between Leibniz's infini
+ tesimals and the infinitesimals of SIA.
+
+ The question of Leibniz's entitlement to second-order differentials has been sub
+ jected to a lucid examination by Henk Bos in his (1974-1975). As Bos demonstrates,
+
+ Leibniz's own attempt to justify rules involving second-order differentials in Cum
+
+ prodiisset is compromised by his desire to produce differential equations that do not
+ depend on the "progression of the variables" chosen, i.e. on the specification of an
+ independent variable. In setting up his general scenario, Leibniz lets the variables
+ dx and ddx vary independently, the only condition being that when d* -* 0, also
+
+ â Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 11:57:51 UTC
+All use subject to https://about.jstor.org/terms
+
+ 584 R. T. W. Arthur
+
+ (d)x
+
+ i(d)x
+
+ Y3
+
+ Fig. 9 Second-order Differentials
+
+ dcU -> 0. But as Bos explains, he also needs dik to be infinitely small with respect
+ to àx, i.e. for άάχ/άχ -*■ 0 as dx -*■ 0. The condition that guarantees this in general
+ is that dx be constant, so that ddx = 0.
+
+ As Bos points out, Leibniz's assumption that ck and ddx vary independently is
+
+ visible in his attempt to justify the rules for second-order differentials by assuming
+ two constant lines of different lengths, (d)jc and (dd)x—which he also writes 2(d)*—
+ and two variable lines (d) v and (dd)>\ which are such that
+
+ (d)y:(d)jc = dyidjc as before, and (5.1)
+
+ (dd)j:(dd)x = (dy + dày):(dx + ddx) (5.2)
+
+ He then assumed that in the limit as d* -> 0, (dd)y = (d)>>. As Bos observes,
+
+ however, this is the case only if in that limit (dd).t = (d)x. This is equivalent to
+ assuming χ as independent variable, i.e. an arithmetic progression in x, so that dx is
+ constant and ddr = 0. On this assumption, however, as Bos goes on to show, Leibniz's
+
+ formula may be successfully derived along the lines he proposed, consistently with
+
+ the syncategorematic interpretation described above (Fig. 9).34
+
+ Heredjc = X2-X\,ddx = X3-X2,y = X\Y\,dy = X2Y2-XxY\, andddy =
+
+ X3Y3 — X2Y2. In his construction Leibniz takes the varying line (d)y defined by (5.1)
+
+ to be equal to a second varying line Χ\ω\, in such a way that, in the limit where Y\
+ and Y2 coincide, when it becomes X1Ω1, it bears to the fixed line (d)x the ratio of the
+
+ ordinate X\Y\ to the subtangent X\T. This accords with his definition (2.2) of dy.dx
+
+ as being equal in the limit to (d)_y : (d)x = y : σ. "Since this can be done wherever the
+
+ point Y\ is assumed on the curve," he writes, "in this way a curve ΩΩ will be produced
+ which is the differentrix of the curve YY" (Leibniz 1846, 49). A similar construction
+
+ 34 This is a slightly simplified version of Leibniz's figure, with the abscissas drawn vertically as was his
+ custom, and with his ι X, \ Y, etc., written as X\, Y\, etc., as before.
+
+ <£) Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 11:57:51 UTC
+All use subject to https://about.jstor.org/terms
+
+ Leibniz's syncategorematic infinitesimals
+
+ 585
+
+ is then given for 2(d) y in terms of 2(d)* in terms of a second differentrix. Leibniz
+ uses the same approach in his published reply to Nieuwentijt (1695), noting that a
+ construction of such a differentrix is always possible.35
+
+ The particular formula that Leibniz then proceeds to demonstrate in Cum prodiisset
+
+ is that for the second-order differential dd>· given that ay = jcv, where α is a constant
+
+ to preserve the homogeneity of the equation. For finite differences, we have
+
+ a(y + d>>) = (λ: + ά*)(υ + du) (5.3)
+
+ a(y + 2ày + ddy) = (^ + 2àx + dcLc)(u + 2àv + ddv) (5.4)
+
+ and
+
+ giving
+
+ gives
+
+ aày = jcdt; + udx + dïdu (5.5)
+
+ and, after some elementary algebraic manipulation,
+
+ a · dd_y = A: · ddu + υ · dd*+2di> · djc+2du · ddx+2dx · ddu+dcLc · ddu (5.6)
+
+ Since dx is constant, and dck = 0, we may drop the terms in ddx Dividing by dx2
+
+ In place of Leibniz's definition (5.2) and an analogous one for (dd)t>, Bos lets
+
+ a ■ àày/àx2 = χ ■ ddu/cLc2 + 2dv/àx + 2dx · ààv/àx2 (5.7)
+
+ This is still an equation in variable quantities that may be made as small as desired.
+ But in order to "transpose the case as far as possible to quantities that never vanish",
+
+ we need to define (d)t> analogously to the definition of (d)y in (5.1):
+
+ (d)u : (d)x = di> : dx (5.8)
+
+ (dd)y : [(d)x]2 = dd>> : dx2 (5.9)
+ (dd)w : [(d)jc]2 = ddu : dx2 (5.10)
+
+ Assume further that these ratios all have an interpretation when dx = 0. Then each
+
+ of (5.8M5.10) can be substituted for its counterpart involving dx in (5.7), yielding
+
+ a{àà)y/(ά)χ2 = χ ■ (dd)u/(d)x2 + 2(d)v/(d)x + 2dx · (dd)u/(d)x2 (5.11)
+
+ 35 See Leibniz's reply to Nieuwentijt in his (1695), and Bos's lucid account: "Obviously, the procedure
+ can be repeated again, by which LEIBNIZ has shown that finite line-variables can be given proportional to
+ differentials of any order" (Bos 1974-1975,65).
+
+ Ô Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 11:57:51 UTC
+All use subject to https://about.jstor.org/terms
+
+ 586
+
+ R. T. W. Arthur
+
+ By hypothesis, this formula remains interpretable when d* = 0, when the last term
+
+ vanishes. So the Law of Continuity asserts that this limiting case may also be included
+
+ in the general reasoning: dv/ck can be substituted for (ά)υ/(ά)χ etc. in the resulting
+
+ formulas even for the case where dx = 0, with dy, dx, dv, ddy, in this case interpreted
+ as fictions. Therefore,
+
+ a dày/àx2 = χ ■ ddv/àx2 + 2άν/άχ (5.12)
+
+ a ddy — χ ■ ddu + 2dv ■ cb: QED (5.13)
+
+ This is the formula that Leibniz was aiming to derive, achieved by (Bos 1974-1975,
+
+ 61-62) using Leibniz's method together with his own creative emendations. Although
+
+ it is only a particular result, the point is that the assumptions it depends upon are quite
+
+ general: an analogous construction is possible for any variable y that is differentiate in
+
+ the neighbourhood of the point in question, i.e. is a smooth function of x. The particular
+
+ result comes with the caveat that it is only valid for χ as independent variable, and is
+
+ not a general formula relating to the second-order differentials ddy and ddv. This can
+
+ be made more perspicuous by adopting the notation used by Hermann Grassmann in
+ his Ausdehnungslehre of 1862 (2000, 249ff), in which (5.13) would be written
+
+ adxy = χ ■ άχυ + 2dxv ■ dx
+
+ (5.14)
+
+ Bos is of the opinion that the need to specify second derivatives with respect to an
+ independent variable "needlessly restricts the generality of the differential calculus,
+ as it imposes the choice of a special progression of the variables" (66). But by his own
+ arguments, on the one hand, second-order differentials are not well defined without
+
+ this restriction; and, on the other, second-order differentials may in any case often be
+ circumvented. As Bos explains, Leibniz showed, in his treatment of the evolute as
+
+ envelope of the family of the normals to a curve, how higher order differentials can be
+
+ eliminated by calculating the differential equation of the curve, yielding formulas for
+
+ the radius of curvature that are independent of the progression of the variables (Bos
+
+ 1974-1975,41). Bos suggests that the fact that this expedient, as well as Leibniz's own
+
+ attempts to found the calculus (by what I have called his "finite surrogate" methods),
+
+ led him to introduce differential quotients, defined as ratios of finite quantities that
+
+ remain finite in the limit as dx -* 0, took him a long way towards the modern
+ definitions of function and derivative of a function (66). This is perfectly true; but it
+
+ is no criticism of Leibniz's founding of the calculus in terms of infinitesimals when
+
+ these are understood as fictions under those very conditions: not as actually infinitely
+ small quantities, but as finite quantities that may be made as small as desired, and
+
+ which may be treated in the limit as if they are infinitely small. Thus, the equation
+ Leibniz derives at the end of Cum prodiisset relating to the second-order differentials
+
+ "will hold when the points Χ ι and Χι coincide", he writes, "if, by a certain fiction, we
+
+ suppose dx, ddx, du, ddu, d v, and ddy to remain even when evanescent, as if they are
+
+ â Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 11:57:51 UTC
+All use subject to https://about.jstor.org/terms
+
+ Leibniz's syncategorematic infinitesimals
+
+ 587
+
+ infinitely small quantities (and there is no danger in this, since the matter can always
+ be referred back to assignable quantities)" (Leibniz 1846, 50).
+
+ This establishes Leibniz's right to use second-order differentials under that fiction,
+
+ provided an independent variable is identified.
+
+ How let us turn to the question of higher order differentials in Smooth Infinitesimal
+
+ Analysis. I should emphasize at the outset that SIA does not actually need them; it is
+ perfectly able to derive a formula such as (5.12) under the assumption that y and ν
+
+ are functions of χ as an independent variable, with ddy/dx2 understood as the second
+
+ derivative of y with respect to x, and similarly with ddu/dx2 and du/djc.
+
+ Thus, if ay = xv, with a constant, by the product rule (3.11), y'(x) = f'{x)g(x) +
+
+ g'(x)f(x),
+
+ ay'(χ) — χυ'(χ) + υ(*) (5.15)
+
+ Applying the same rule to take the derivative of this equation, we have
+
+ ay"(x) = xv"(x) + 2v'(x) (5.16)
+
+ which is the analogue of (5.12) in derivative form. By the same token, SIA is easily
+ able to derive (4.25), r" — (a2/^ — a/r2), the formula for acceleration in an elliptical
+ orbit.
+
+ Those calculations, however, involve derivatives, not differentials. The question
+ we are treating is whether Leibniz's infinitesimals are successfully modelled by the
+
+ infinitesimals of SIA, and his derivations depend on the use of second-order differen
+
+ tials. Are these definable in SIA? Indeed they are, and I am indebted to John Bell for
+
+ providing me with the following account of how this should be done.36
+
+ The basic idea is that, for a map h: R -*■ R, the nth order differential d"h should
+
+ be taken to be the "nth order infinitesimal part" of the difference in the value of h{x)
+ when χ is replaced by χ + ει -I- S2 H h εη, with ε\,...,εη e Δ. This difference is
+
+ h(x+eι+£2 Η 1-en)-h(x)
+
+ = (ει Η 1- £n)h'(x) + (ει£2 Η h en-ie„)h"(x) H h«i.. ,enh(n)(x).
+
+ (5.17)
+
+ The "nth order infinitesimal part" of the difference is the last term on the r.h.s.,
+
+ namely ει,..., snh(n)(x). Accordingly, for η > 1 we define
+
+ dnh : R χ Δη -»· Δ
+
+ 36 Bell's definition of second-order differentials here differs from that given in his (1998, 90-91), where
+
+ they are defined as nilcube infinitesimals, ones such that ε3 = 0. But as I pointed out in an earlier version of
+
+ this paper, this makes the decision of what type of infinitesimal to adopt (nilsquare or nilcube, etc.) depend
+ on their applicability to the problem at hand; moreover, all the principles of SIA that we have depended
+ upon above depend critically on the nilsquare property, which fails if the infinitesimals are nilcube. Bell
+
+ has generously offered the present account (private communication) to circumvent such difficulties.
+
+ Ô Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 11:57:51 UTC
+All use subject to https://about.jstor.org/terms
+
+ 588
+
+ by
+
+ For example
+
+ R. T. W. Arthur
+
+ d "h(x, ει,...,εη) = ε\.. .enh(")(x).
+
+ (5.18)
+
+ dh(x, ε) = sh'(x), d2h(x, ε, η) = ε ■ η ■ h"(x) (5.19)
+
+ Using this definition, we may derive the formula for the second derivative of a
+
+ product. Given /, g: R -» R, let h = f.g. Then for ε,η e A, we have
+
+ d2h(x, ε, η) = εη(fg)" = εη(/'g + fg')' = εη(/"g + 2 f g + fg")
+
+ = εη/''g + 2 ef^g' + εη/g"
+ = 8 ■ Ί2/ + 2df ■ d^ + / ■ d2g (5.20)
+
+ From this, it is easy to derive Leibniz's formula (5.13): if ay = xv, then addy =
+ xddv + 2dvdx. For in this case f{x) = x, g(x) = v, so that /' = 1, /" = 0, df =
+ dx = const, and d2 f = 0, giving
+
+ a ■ d2y = d2(xv) = xd2v + 2dx ■ du
+
+ (5.21)
+
+ Now let us proceed to the question of whether the formulas Leibniz derived for
+ orbiting bodies, such as (4.7) and (4.20), are in accordance with these foundations.
+ Taking Leibniz's infinitesimals first, we have seen that second-order differentials are
+ well defined under his syncategorematic interpretation, provided an independent vari
+
+ able is identified. That is the case here. We are assuming, as both Leibniz and Newton
+ do, that time may be taken as independent variable, so that df is constant, and ddr =
+ 0. Under this assumption, one may derive legitimate formulas involving second-order
+
+ differentials such as ddr, like those derived by Leibniz above. In those formulas, ddr
+ implicitly depends on a choice of t as the independent variable. But in such a case,
+ with dr = r'dt, we have
+
+ dd r = dr'di + r'ddf
+
+ = dr'di (since dd/ = 0)
+ = d/di(r') · (dî)2 = r" ■ (dt)2 (5.22)
+
+ For example, in Leibniz's chord composition for centrifugal solicitation in a circular
+
+ motion, the solicitation ddr is represented by a line element which is traced out with
+
+ a uniform velocity w in the time θ - dr. Thus, the velocity w is a linear function of
+
+ the (infinitesimal) time, and we may set
+
+ W = fiΟ + /\θ (5.23)
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 11:57:51 UTC
+All use subject to https://about.jstor.org/terms
+
+ where /ο and/ι are functions of r and the transverse velocity v. We may justify this
+
+ analogously to the Leibnizian justification of Newton's Lemma 9 we gave above. First,
+
+ â Springer
+
+ Leibniz's syncategorematic infinitesimals
+
+ 589
+
+ we expand w in terms of Θ:
+
+ W = /ο + ί\θ + f2e2 + /303 + UeA + ■ · · (5.24)
+
+ But since w — 0 when θ = 0, it follows that fo = 0. Now since QR = w-dt — ωθ,
+
+ we have
+
+ ddr = w0 = f1e2 + f2e3 + /3Θ4 + /4Θ5 + · · · (5.25)
+ =► ddr/θ2 = fx + /20 + /302 + /403 + · · · (5.26)
+
+ Now in the case of the circle, QR = PQ2/SP, and since equal areas of the elementary
+ triangles PQS are described in equal times, we have PQ SP = αθ, a being a constant.
+ Therefore,
+
+ ddr = QR- PQ2/SP = (aef/SP3 (5.27)
+ =► ddr/θ2 = a2/SP3 (5.28)
+
+ But since a2/SP3 is finite and non-vanishing when 0 —> 0, it follows by comparison
+
+ with Eq. (5.26), that fa, fa, fa,... are all 0. Therefore,
+
+ ddr = f\92, with w = f\6
+
+ (5.29)
+
+ Turning now to the problem of reproducing these results using the infinitesimals
+ of Smooth Infinitesimal Analysis, we are immediately confronted with the difficulty
+
+ that the basic principles of SIA as expounded so far, as embodied in the Principle of
+ Microuniformity, will not countenance time variation of geometric quantities across
+ an infinitesimal interval. As Whiteside (1966) has shown, if we want the infinitesimal
+
+ elements of the curve to be rectilinear, as they are by the Principle of Microstraightness,
+
+ then they must be second-order infinitesimals, in contradiction to Microuniformity.
+ Relatedly, if we try to duplicate the Leibnizian calculation above using nilsquare
+ infinitesimals, this means that any second-order differential, such as Leibniz's ddr
+
+ representing solicitation, is identically zero. This can be seen as follows. If the moment
+
+ df is taken to be a nilsquare infinitesimal, then PQ2 — (vdt)2 — v2dt2 — 0. Thus,
+
+ QR = ddr = PQ2/SP = 0
+
+ (5.30)
+
+ That is, to use Leibniz's terms, there can be no solicitation along QR. In Newton's
+
+ terms, if the force at the very beginning of the interval is "given as the square of
+ the time inversely", i.e. as 1 /(SP ■ QT)2 with S Ρ ■ QT proportional to dt, then the
+
+ acceleration in the moment di is undefined, according to SIA. For the nascent triangle,
+ SPQ has an area dA = X/2SP ■ QT = kdi, so (SP ■ QT)2 = 4dA2 = 4k2di2 = 0.
+ In sum, because ε2 = 0, we are unable to apply SIA to Newton's Propositions 4, 6
+ and 11.
+
+ Î! Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 11:57:51 UTC
+All use subject to https://about.jstor.org/terms
+
+ Looking back to Bell's definition of second-order differentials and his derivation
+
+ R. T. W. Arthur
+
+ 590
+
+ of (5.21)
+
+ a ■ d2y — d2(xv) = xd2v + 2dx ■ dv
+
+ we see that if χ is the independent variable, then du = υ' ■ dx and d2u = v" ■ (d_r )2,
+ so that
+
+ a ■ d2y = (χ · v" + 2) · (djc)2 = 0 (5.31)
+
+ In other words, if χ is the independent variable, then the infinitesimals ε and η
+ of (5.19) must differ at most by a constant factor k, so that ε ■ η — ks2 = 0, and
+ d2h(x, ε, η) is identically zero.
+
+ How does this situation bear on Leibniz's foundation for infinitesimals? For, as Bell
+
+ observes (1998, 1-5), Leibniz's non-punctiform infinitesimals are in many respects
+ analogous to those of SIA. The Leibnizian polygonal representation of curves is closely
+
+ related to Bell's Principle of Microstraightness: in each case, the curve is analyzed as
+
+ compounded of infinitesimal rectilinear segments that are in a certain sense fictional
+
+ parts. But whereas in SIA, the "area deficit" is simply stipulated to be zero (Bell 1998,
+
+ 8)—that is, it is shown to be of the order of dx2, where χ is the independent variable,
+
+ and thus rigorously equal to zero—in Leibniz's justification of Riemannian integration
+
+ the Area Deficit is shown to be zero in the limit by an application of the Archimedean
+
+ Axiom without any assumption about the nilpotency of infinitesimals. In fact, using
+ Leibniz's method it is possible—as we saw in the above proofs of Lemma 9 and
+ Propositions 4, 6 and 11—to have the second-order differential ddr proportional to
+ the square of a first order infinitesimal. Because QR = QP2/SP, with QP first order
+ infinitesimal and SP finite, QR must be second-order infinitesimal to preserve orders
+ of infinity. This is impossible with nilsquare infinitesimals.
+ As we saw, Leibniz was able to derive the result (4.7),
+
+ du = ddr oc υ /r
+
+ (5.32)
+
+ for the centrifugal solicitation of a body revolving in a circular orbit in an arbitrary
+ infinitesimal interval of time di. Here du is an element of velocity, and a simple
+
+ integration of it gives a velocity, i.e., on Leibniz's understanding, increases its order
+
+ of infinity without changing its dimension. (In his calculations, he tends to leave the
+
+ dependence on the time interval tacit, as here with the dependence on di2.)37 Similarly,
+
+ two integrations of ddr raise it two orders of infinity, and yield a finite line r.
+
+ We would read Leibniz's expression, however, as giving us a second derivative with
+
+ respect to time,
+
+ d2r/dt2 = v2/r — du/dt
+
+ (5.33)
+
+ 37 See Bos (1974-1975), 5-10, 12-35 and Bertoloni Meli (1993), 66-73 for clear expositions of the
+ difference between Leibniz's understanding of differentiation and integration and the modern conception.
+
+ Spring er
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 11:57:51 UTC
+All use subject to https://about.jstor.org/terms
+
+ Leibniz's syncategorematic infinitesimals
+
+ 591
+
+ namely an acceleration, from which the velocity u is obtainable by an integration with
+
+ respect to time, and the radius r by two such integrations. So from a modern perspective
+ a non-zero solicitation in a moment or "timelet" di is equivalent to an acceleration,
+ contrary to Leibniz's understanding. But when Leibniz's second-order differentials are
+ recognized to be functions of an independent variable (here, time), the corresponding
+
+ adjustment to the understanding of differentials strips him of his grounds for resisting
+
+ the composition of a uniform motion from an inertial motion and an accelerated one:
+
+ what Leibniz conceived (in (4.5)) as an inertial motion along QR with a velocity w —
+
+ du in a time di, is equivalent to a uniform acceleration du/dt. Thus, in motion under
+
+ a central force, Microstraightness implies the failure of Microuniformity.
+
+ Thus, Leibniz is able to uphold the Principle of Microuniformity because of a
+ different understanding of how physical quantities are integrated in the calculus; but
+
+ a successful grounding of second-order differentials through the syncategorematic
+ interpretation leads to an abandonment of this position, and with it, the Principle of
+ Microuniformity. SIA, on the other hand, is able to uphold Microuniformity, à la
+ Nieuwentijt, only by equating the squares of all first-order infinitesimals to zero, and
+
+ therewith rejecting the entire apparatus underlying Newton's calculation of central
+ forces, from Lemma 9 through to Proposition 6 and its corollaries and applications—
+ all of which involve time variation of quantities across an infinitesimal time, and
+
+ quantities depending on the squares of nascent or evanescent areas which are, as in
+ the Nieuwentijtian calculus, necessarily equal to zero.
+
+ 6 Conclusion
+
+ Despite many points in common, we have seen that Leibniz's syncategorematic
+ approach to infinitesimals and the theory of Smooth Infinitesimal Analysis are by
+ no means equivalent. Indeed, the conceptions of infinitesimal quantities at the heart of
+ each approach are radically diverse. According to John Bell, "The property of being
+ a nilsquare infinitesimal is an intrinsic property, in no way dependent on compar
+ isons with other magnitudes or numbers." (Bell 1998, 2). Leibniz's syncategorematic
+ infinitesimals, by contrast, are essentially comparative, and are defined by an implicit
+
+ limiting process. The application of the Law of Continuity presupposes the existence
+ of a limiting value, and also the smoothness of the co-varying quantities in the neigh
+
+ bourhood of this value. On this approach, the vanishing of infinitesimal quantities is
+
+ always a comparative affair, and is grounded on a strictly Archimedean geometry.
+ It remains to be seen, however, whether this Leibnizian syncategorematic approach
+
+ can be set on a foundation as adequate to modern mathematical standards of rigour
+ as is SIA.
+
+ Acknowledgments An earlier version of this paper was originally submitted for publication in September
+ 2005 in a volume on infinitesimals edited by William Harper and Craig Fraser, and remained available on
+
+ the internet in the meantime. This explains the fact that references have been made to it in articles that have
+ already been published, such as Levey (2008), Arthur (2008, 2009). But this revised version has, I hope,
+ been much improved by the criticisms and constructive feedback of Niccolô Guicciardini and John L. Bell;
+
+ any remaining errors or misunderstandings are my responsibility alone.
+
+ ·£} Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 11:57:51 UTC
+All use subject to https://about.jstor.org/terms
+
+ 592 R. T. W. Arthur
+
+ References
+
+ 63(2): 221-225.
+
+ Arthur, R.T.W. 2006. The remarkable fecundity of Leibniz's work on infinite series. Annals of Science
+
+ Arthur, R.T.W. 2008. Leery Bedfellows: Newton and Leibniz on the Status of Infinitesimals. In Infinitesi
+ mal Differences: Controversies between Leibniz and his Contemporaries, ed. Ursula Goldenbaum and
+ Douglas Jesseph, 7-30, Berlin and New York: De Gruyter.
+
+ Arthur, R.T.W. 2009. Actual Infinitesimals in Leibniz's Early Thought. In The Philosophy of the Young
+ Leibniz, Studia Leibnitiana Sonderhefte 35, ed. Mark Kulstad, Mogens Laerke and David Snyder,
+ 11-28.
+
+ Bell, J.L. 1998. A Primer of Infinitesimal Analysis. Cambridge: Cambridge University Press.
+ Bertoloni Meli, Domenico. 1993. Equivalence and Priority: Newton versus Leibniz. Oxford: Clarendon
+
+ Press.
+
+ Bos, H.J.M. 1974-1975. Differentials, Higher-Order Differential and the Derivative in the Leibnizian
+
+ Calculus. Archive for History of Exact Sciences 14: 1-90.
+
+ Brackenridge, J. Bruce. 1995. The Key to Newton's Dynamics: the Kepler Problem and the Principia.
+
+ Berkeley: University of California Press.
+
+ Breger, Herbert. 2008. Leibniz's Calculation with Compendia. In Infinitesimal Differences: Controversies
+ between Leibniz and his Contemporaries, ed. Ursula Goldenbaum and Douglas Jesseph, 185-198, Berlin
+ and New York: De Gruyter.
+
+ Cohen, I. Bernard, and George E. Smith. 2002. The Cambridge Companion to Newton. Cambridge:
+
+ Cambridge University Press.
+
+ Gerhardt, C.I. ed. 1849-1863. Leibnizens Mathematische Schriften (Berlin and Halle: Asherand Schmidt;
+
+ reprint ed. Hildesheim: Olms. 1971), 7 vols; cited by volume and page, e.g. GM II 316.
+
+ Gerhardt, C.I. ed. 1875-1890. Der Philosophische Schriften von Gottfried Wilhelm Leibniz (Berlin: Weid
+
+ mann; reprint ed. Hildesheim: Olms, 1960), 7 vols; cited by volume and page, e.g. G II 268.
+
+ Grassmann, Hermann. 2000. Die Ausdehnungslehre: Vollstandig und in strenger Form bearbeitet (1862)
+ [The Theory of Extension, Thoroughly and Rigorously Treated], English translation, 2000. ed. Lloyd
+ Kannenberg. Extension Theory: American Mathematical Society.
+
+ Gregory of St Vincent. 1647. Opus Geometricum quadraturae circuit et sectionum coni, 2 volumes. Antwerp.
+ Guicciardini, Niccolô. 1999. Reading the Principia. Cambridge: Cambridge University Press.
+ Hellman, Geoffrey. 2006. Mathematical Pluralism: The Case of Smooth Infinitesimal Analysis. Journal of
+
+ Ishiguro, Hidé. 1990. Leibniz's Philosophy of Logic and Language (2nd ed.) Cambridge: Cambridge Uni
+
+ Philosophical Logic 35: 621-651.
+
+ versity Press.
+
+ Jesseph, Douglas. 2008. Truth in Fiction: Origins and Consequences of Leibniz's Doctrine of Infinitesimal
+ Magnitudes. In Infinitesimal Differences: Controversies between Leibniz and his Contemporaries, ed.
+ Ursula Goldenbaum and Douglas Jesseph, 215-233, Berlin and New York: De Gruyter.
+
+ Knobloch, Eberhard. 2002. Leibniz's Rigorous Foundation of Infinitesimal Geometry by means of Rie
+
+ mannian Sums. Synthese 133:59-73.
+
+ Leibniz, G.W. 1684. Nova methodus pro maximis et minimis, itemque tangentibus, quae nec fractas, nec
+ irrationales quantitates moratur, et singulare pro illis calculi genus. Acta Eruditorum, 467-473; GM V
+ 220-226.
+
+ Leibniz, G.W. 1695. Responsio ad nonnullas difficultates a dn. Bernardo Nieuwentijt circa methodum
+
+ differentialem seu infinitesimalem motas. Acta Eruditorum 310-316; GM V 320-326.
+
+ Leibniz, G.W. 1701. Cum prodiisset atque increbuisset Analysis mea infinitesimalis ... In Leibniz 1846,
+
+ Leibniz, G.W. 1846. Historia et Origo calculi differentialis a G. G. Leibnitzio conscripta. ed. C. I. Gerhardt.
+
+ Leibniz, G.W. 1923. Siimtliche Schriften und Briefe, ed. Akademie der Wissenschaften der DDR. Darmstadt
+
+ and Berlin: Akademie-Verlag; cited by series, volume and page, e.g. A VI 2, 229.
+
+ Leibniz, G.W. 1993. De quadratura arithmetica circuit ellipseos et hyperbolae cujus corollarium est
+
+ trigonometria sine tabulis. Ed. and commentary by Eberhard Knobloch. Gottingen: Vandenhoek &
+ Ruprecht.
+
+ Leibniz, G.W. 2001. The Labyrinth of the Continuum: Writings on the Continuum Problem, 1672-1686. Ed.,
+
+ sel. & transi. R. T. W. Arthur. New Haven: Yale University Press; abbreviated LoC with page number.
+
+ 39-50.
+
+ Hanover.
+
+ Ô Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 11:57:51 UTC
+All use subject to https://about.jstor.org/terms
+
+ Leibniz's syncategorematic infinitesimals 593
+
+ Levey, S. 2008. Archimedes, Infinitesimals and the Law of Continuity: On Leibniz's Fictionalism. In Infin
+
+ itesimal Differences: Controversies between Leibniz and his Contemporaries, ed. Ursula Goldenbaum
+ and Douglas Jesseph, 107-133, Berlin and New York: De Gruyter.
+
+ Mancosu, P. 1996. Philosophy of Mathematics and Mathematical Practice in the Seventeenth century.
+
+ Oxford: Oxford University Press.
+
+ Nagel, Fritz. 2008. Nieuwentijt, Leibniz, and Jacob Hermann on Infinitesimals. In Infinitesimal Differences:
+
+ Controversies between Leibniz and his Contemporaries, ed. Ursula Goldenbaum and Douglas Jesseph,
+ 199-214, Berlin and New York: De Gruyter.
+
+ Newton, Isaac 1967. The Mathematical Papers of Isaac Newton, Volume 1, 1664-1666. ed. Whiteside,
+
+ D. T. Cambridge: Cambridge University Press.
+
+ Newton, Isaac. 1999. The Principia: Mathematical Principles of Natural Philosophy. Trans. I. Bernard
+
+ Cohen and Anne Whitman. Berkeley: University of California Press.
+
+ Nieuwentijt, Bernhard. 1695. Analysis Infinitorum, seu Curvilineorum proprietatates ex polygonuarum
+
+ natura deductae. Amsterdam: Wolters.
+
+ Whiteside, D.T. 1966. Newtonian Dynamics. History of Science 5: 104-117.
+
+ <£) Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 11:57:51 UTC
+All use subject to https://about.jstor.org/terms
+
+

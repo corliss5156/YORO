@@ -1,0 +1,2936 @@
+ 
+
+ 
+
+ 
+
+ 
+
+Gearing up for Lagrangian dynamics: The flywheel analogy in Maxwell's 1865 paper on
+
+electrodynamics
+Author(s): Cameron Lazaroff-Puck
+Source: Archive for History of Exact Sciences, Vol. 69, No. 5 (September 2015), pp. 455-490
+Published by: Springer
+Stable URL: https://www.jstor.org/stable/24569662
+Accessed: 18-05-2020 09:14 UTC
+
+JSTOR is a not-for-profit service that helps scholars, researchers, and students discover, use, and build upon a wide
+
+range of content in a trusted digital archive. We use information technology and tools to increase productivity and
+
+facilitate new forms of scholarship. For more information about JSTOR, please contact support@jstor.org.
+
+Your use of the JSTOR archive indicates your acceptance of the Terms & Conditions of Use, available at
+
+https://about.jstor.org/terms
+
+Springer is collaborating with JSTOR to digitize, preserve and extend access to Archive for
+History of Exact Sciences
+
+This content downloaded from 203.78.15.150 on Mon, 18 May 2020 09:14:27 UTC
+All use subject to https://about.jstor.org/terms
+
+ Arch. Hist. Exact Sei. (2015) 69:455^190 /SN rrn«Mark
+ DOI10.1007/s00407-015-0157-9 vfl/
+
+ Gearing up for Lagrangian dynamics
+
+ The flywheel analogy in Maxwell's 1865 paper on electrodynamics
+
+ Cameron Lazaroff-Puck
+
+ Received: 29 April 2015 / Published online: 2 July 2015
+
+ © Springer-Verlag Berlin Heidelberg 2015
+
+ Abstract James Clerk Maxwell's 1865 paper, "A Dynamical Theory of the Elec
+ tromagnetic Field," is usually remembered as replacing the mechanical model that
+
+ underpins his 1862 publication with abstract mathematics. Up to this point histori
+
+ ans have considered Maxwell's usage of Lagrangian dynamics as the sole important
+
+ feature that guides Maxwell's analysis of electromagnetic phenomena in his 1865
+
+ publication. This paper offers an account of the often ignored mechanical analogy that
+
+ Maxwell used to guide him and his readers in the construction of his new electromag
+
+ netic equations. The mechanical system consists of a weighted flywheel geared into
+
+ two independently driven crank wheels in what amounts to a mechanical differential.
+
+ I will demonstrate how Maxwell made use of the analogy between his flywheel sys
+
+ tem and electromagnetic induction to ground his study of electromagnetism in clear
+
+ mechanical conceptions and to structure the derivation of the equations that together are
+
+ now recognized as Maxwell's equations for electrodynamics. By reconceiving specific
+
+ components of his model in electromagnetic terms, while at the same time retaining
+
+ many of the relations between concepts in the mechanical case, Maxwell gradually
+ assembled increasingly generalized equations for electromotive force. Maxwell thus
+
+ realized a much sought after balance between physical analogy and abstract mathe
+
+ matics in this, the last of his three seminal papers on electromagnetism.
+
+ Communicated by: Jed Buchwald.
+
+ El Cameron Lazaroff-Puck
+
+ cameron.lazaroffpuck@gmail.com; lazarl 14@umn.edu
+
+ 1 Program in the History of Science, Technology, and Medicine,
+
+ University of Minnesota, Minneapolis, MN, USA
+
+ <£) Springer
+
+This content downloaded from 203.78.15.150 on Mon, 18 May 2020 09:14:27 UTC
+All use subject to https://about.jstor.org/terms
+
+ 456 C. Lazaroff-Puck
+
+ Introduction
+
+ In the introduction to his Natural Philosophy of James Clerk Maxwell, Peter Harman
+ writes:
+
+ The mechanical or dynamical worldview, which dominated the programme of
+
+ physical explanation in the nineteenth century, shaped Maxwell's scientific the
+
+ orising. But his attitude to mechanical explanation was complex. There was a
+
+ tension in his thought between physical and mathematical models of mechanical
+
+ systems; and his reflections on the relationship between mechanical represen
+
+ tations and physical reality shaped his evolving programme of explanation.
+ (Harman 1998, p. 4)
+
+ As historians have constructed the narrative of the maturation of Maxwell's views
+
+ on electricity and magnetism, weaving it through the three seminal papers that he
+
+ delivered before his Treatise on Electricity and Magnetism was first published in
+
+ 1873, they have also necessarily constructed a narrative around this evolving tension
+
+ between physical and mathematical explanation. Maxwell's use of physical analogies
+
+ and models fluctuates between his three major papers. To understand the approaches
+
+ Maxwell took toward demystifying electromagnetic phenomena and eventually codi
+
+ fying its underlying relations we must come to terms with the ways in which physical
+
+ analogies and models shaped his work. A crude summary of this story runs as follows.
+
+ In 1855, Maxwell used an illustrative physical analogy to fluid flow to mathema
+
+ tize Faraday's lines of force (Maxwell 1855). In 1862, he constructed a hypothetical
+
+ physical model of the electromagnetic medium which explained and at times was
+
+ even directly involved in the derivation of laws of electromagnetism (Maxwell 1862).
+ Finally, in 1865 Maxwell dropped his prior commitments to physical analogy, instead
+
+ importing the dynamical equations of Lagrange to serve as the sole aid in the devel
+
+ opment of his general equations of the field (Maxwell 1865).1 The emphasis previous
+
+ historians have placed upon the apparently abstract character of the 1865 paper sig
+
+ 1 The picture of Maxwell's 1865 paper "A Dynamical Theory of the Electromagnetic Field" as founded
+
+ exclusively on the abstract analysis of Lagrangian dynamics is commonly accompanied by quotations from
+
+ two of Maxwell's letters, one before the paper's publication and one after. In the first, a letter from Maxwell
+ to William Thomson dated October 15, 1864, Maxwell states: "I can find the velocity of transmission
+
+ of electromagnetic disturbances independently of any hypothesis now and it is equal to v [the speed of
+
+ light]" (Maxwell 1995, p. 180). As both Martin Goldman and Harman dutifully point out, by 1864 Maxwell
+ had absolved himself of his early reliance on hypotheses about the electromagnetic medium as well as
+
+ his impious inclusion of terms that emerge directly from his mechanical analogy (Goldman 1983, p. 155;
+
+ Harman 1998, p. 113). The second quotation, from a late December 1867 letter from Maxwell to Peter
+
+ Guthrie Tait, compares the 1862 and 1865 papers: "The former is built up to show that the phenomena
+
+ are such as can be explained by mechanism...The latter is built on Lagrange's Dynamical Equations and
+ is not wise about vortices" (Maxwell 1995, p. 337). Harman and Goldman both accept this statement as
+ evidence of the purely mathematical nature of Maxwell's methodology in the 1865 paper (Goldman 1983,
+
+ p. 155; Harman 1998, p. 118). Nevertheless, they both admit that despite reforming his methods, Maxwell's
+
+ new conception of the electromagnetic field as a "complicated mechanism" is still explicitly based upon a
+
+ physical/mechanical analogy (Maxwell 1865, p. 533). Each letter makes clear (as does the content of the
+
+ paper itself) that Maxwell is no longer relying on a hypothetical model, but the second is supposed to show
+ that Maxwell believes that the analogy in the 1865 paper is to nothing but Lagrangian dynamics.
+
+ £) Springer
+
+This content downloaded from 203.78.15.150 on Mon, 18 May 2020 09:14:27 UTC
+All use subject to https://about.jstor.org/terms
+
+ Gearing up for Lagrangian dynamics 457
+
+ nificantly distinguishes it from the mechanical specificity of the earlier 1862 model.
+
+ As Harman puts it, in 1865 "[t]he mechanical analogy for the electromagnetic field
+
+ is explicated in terms of energy relations, rather than the pictorial mechanical model
+
+ contrived in 'On physical lines of force'" (Harman 1998, p. 116). There is undoubt
+
+ edly truth to this claim concerning Maxwell's "Dynamical Theory," as the theory is
+
+ founded on the methods of Lagrangian dynamics that apply to any system defined by
+
+ the same energy and momentum relations that apply in mechanics. Nevertheless, a
+
+ close look at Maxwell's application of Lagrangian dynamics yields a picture of his
+
+ 1865 approach that is governed by something beyond pure dynamical abstraction. Led
+
+ by the peculiarities of Maxwell's analysis, I will introduce a more harmonious account
+
+ of Maxwell's explanatory approach in "A Dynamical Theory of the Electromagnetic
+
+ Field," one in which Maxwell strikes a balance between his often ignored analogy
+
+ to a mechanical flywheel and the more abstract mathematical analysis that is usually
+
+ identified as the hallmark of the paper. This analogy between a particular differential
+
+ system and electromagnetism grounds Maxwell's study of electromagnetism in clear
+
+ mechanical conceptions and structures the derivation of the equations that together
+
+ are now recognized as Maxwell's equations for electrodynamics.
+
+ Martin Goldman and Thomas K. Simpson both invoke Maxwell's famous bell
+
+ ringer metaphor to describe the dynamical approach of the 1865 paper (Goldman
+ 1983, pp. 155-156; Simpson 1997, p. 372).
+
+ In an ordinary belfry, each bell has one rope which comes down through a hole
+
+ in the floor to the bellringer's room. But suppose that each rope, instead of acting
+
+ on one bell, contributes to the motion of many pieces of machinery, and that the
+
+ motion of each piece is determined not by the motion of one rope alone, but by
+
+ that of several, and suppose, further, that all this machinery is silent and utterly
+
+ unknown to the men at the ropes, who can only see as far as the holes in the floor
+
+ above them. (Maxwell 1879, p. 783)
+
+ In this metaphor impressing velocities on the ropes hanging ftom the belfry and mea
+
+ suring impulses for every possible position and final velocity of the ropes is the only
+
+ recourse available to the men below. Nonetheless, they still may obtain generalized
+
+ Lagrange equations which describe the motion of the ropes due to any impressed force
+
+ despite total ignorance of the system of bells above. The association of this sort of
+
+ black-box reasoning with Maxwell's use of Lagrangian dynamics in his 1865 paper
+
+ naturally discourages the discussion of any aspects of a physical/mechanical analogy
+ above and beyond the equations of Lagrangian dynamics. If Lagrangian dynamics
+
+ allows us to black-box the mechanism under investigation, then the inclusion of any
+
+ sort of additional physical or mechanical analogy would be entirely superfluous. If this
+
+ is Maxwell's picture of how to apply Lagrangian dynamics, we should not expect him
+
+ to pair this sort of mathematical analysis with the kind of pictorial physical analogy
+
+ seen in his first paper on electromagnetism, and should be even more skeptical of a
+
+ pairing with a mechanical model like the one presented in his second paper. This may
+
+ have become Maxwell's picture eventually, but, as we will see, it was not in 1865. The
+
+ quote above comes from the first appearance of the bell-ringer analogy in print, an
+ 1879 review by Maxwell of the second edition of Thomson and Tait's Natural Philos
+
+ ophy. The first edition of his Treatise was preempted by the first edition of Thomson
+
+ Springer
+
+This content downloaded from 203.78.15.150 on Mon, 18 May 2020 09:14:27 UTC
+All use subject to https://about.jstor.org/terms
+
+ 458 C. Lazaroff-Puck
+
+ and Tait's Natural Philosophy (1873) and we can find a discussion of something like
+ a proto-bell-ringer metaphor, albeit concerning his preferred Hamiltonian form of
+
+ dynamics, within the pages of Maxwell's book:
+
+ I have applied this method [Hamiltonian/Lagrangian dynamics] so as to avoid
+
+ the explicit consideration of the motion of any part of the system except the coor
+
+ dinates or variables, on which the motion of the whole depends. It is doubtless
+
+ important that the student should be able to trace the connexion of the motion of
+
+ each part of the system with that of the variables, but it is by no means necessary
+
+ to do this in the process of obtaining the final equations, which are independent
+
+ of the particular form of these connexions. (Maxwell 1873, Vol. 2, p. 185)
+
+ Given the similar approaches found in the 1865 paper and the Treatise and given
+
+ that the analogical scaffolding of any sort of mechanical differential (let alone the
+
+ more specific flywheel system) is entirely absent from the first (and second) edition
+
+ of the Treatise, it should not come as a surprise that the bell-ringer metaphor has been
+
+ exported to describe Maxwell's method in the 1865 paper.
+
+ We should, however, not read Maxwell's affection for abstract Lagrangian dynamics
+
+ suggested by the bell-ringer metaphor or for Hamiltonian dynamics from the first
+
+ edition of the Treatise back into the 1865 paper. In fact, it seems much more likely
+
+ that this black-box style of analysis was at least partly inspired by Thomson and Tait's
+
+ Natural Philosophy, something Maxwell suggests in his 1879 review:
+
+ The credit of breaking up the monopoly of the great masters of the spell [general
+
+ theory of dynamics] and making all their charms familiar in our ears as household
+
+ words, belongs in great measure to Thomson and Tait. (Maxwell 1879, p. 782)
+
+ With the bell-ringer metaphor exorcized from the narrative surrounding Maxwell's
+ "Dynamical Theory of the Electromagnetic Field" we can reexamine whether it is
+
+ appropriate to characterize Maxwell's approach in his 1865 paper as something purely
+
+ "abstract and general rather than concrete and pictorial" (Siegel 1991, p. 50). Is it fair
+
+ to say that Maxwell's analysis in his 1865 paper is guided only by a clever extension
+
+ of Lagrangian dynamics?
+
+ In what follows I will argue that Maxwell's introduction of Lagrangian dynamics
+
+ in "A Dynamical Theory of the Electromagnetic Field" is guided by an amalgam of
+
+ Maxwell's approaches that preceded it. The mechanical reasoning that is so charac
+
+ teristic of his 1862 paper remained a central, albeit less conspicuous, aspect of his
+
+ "Dynamical Theory;" however, it is the more philosophically cautious 1855 paper
+
+ that most closely resembles the methodological approach that Maxwell adopted in his
+
+ third major paper on electromagnetism. Indeed in his third paper Maxwell's extension
+
+ of Lagrangian dynamics from mechanical interactions to electrodynamics and optics
+
+ presupposes the existence of some sort of mechanical model, some "complicated
+ mechanism"; however, unlike his second paper, this dynamical theory is not depen
+
+ dant on the specifics of any one model (Maxwell 1865, p. 533). We shall see that while
+
+ Lagrangian dynamics offered Maxwell more than one way to structure his analysis,
+
+ especially in one particular case (cf. Sect. 3.4), the approach taken by Maxwell embod
+
+ ies relations expressed in the dynamics of a particular mechanical system, namely the
+
+ 4t) Springe
+
+This content downloaded from 203.78.15.150 on Mon, 18 May 2020 09:14:27 UTC
+All use subject to https://about.jstor.org/terms
+
+ Gearing up for Lagrangian dynamics 459
+
+ flywheel.2 The flywheel is referenced only briefly toward the beginning of Maxwell's
+
+ paper; however, we will come to recognize just how impactful the concepts and rela
+
+ tions governing it were when transferred to electromagnetism.
+
+ Broadly speaking, in the 1865 paper Maxwell found a way to realize a successful
+
+ harmony between physical analogy and abstract mathematics that he had called for in
+
+ his first major paper on electromagnetism all the way back in 1855;
+
+ The first process therefore in the effectual study of the science, must be one of
+
+ simplification and reduction of the results of previous investigation to a form in
+
+ which the mind can grasp them. The results of this simplification may take the
+
+ form of a purely mathematical formula or of a physical hypothesis. In the first
+
+ case we entirely lose sight of the phenomena to be explained; and though we may
+
+ trace out the consequences of given laws, we can never obtain more extended
+
+ views of the connexions of the subject. If, on the other hand, we adopt a physical
+
+ hypothesis, we see the phenomena only through a medium, and are liable to
+
+ that blindness to facts and rashness in assumption which a partial explanation
+
+ encourages. We must therefore discover some method of investigation which
+
+ allows the mind at every step to lay hold of a clear physical conception, without
+
+ being committed to any theory founded on the physical science from which
+
+ that conception is borrowed, so that it is neither drawn aside from the subject
+
+ in pursuit of analytical subtleties, nor carried beyond the truth by a favourite
+ hypothesis. (Maxwell 1855, pp. 155-156; quoted and discussed by Goldman
+ 1983, pp. 140-141)
+
+ Maxwell retained much of this sense of paired physical and mathematical analyses
+
+ which had brought him success in his first electromagnetic paper in "A Dynamical
+
+ Theory." As Sir James Jeans notes in a posthumous essay on Maxwell's scientific
+
+ methodology, "[fjrom the very beginning his [Maxwell's] mathematical ideas were
+
+ not only guided but controlled by a strong sense of physical reality" (Jeans 1931,
+ p. 96).
+
+ The role of physical analogy, and thus the flywheel analogy, in 1865 was roughly
+
+ similar to the role of the flow analogy in his 1855 paper, both "show[ed] how to
+
+ partition the space" (Wise 1977, p. 215). The flywheel provided a "natural physical
+ partitioning" that allowed Maxwell to not only generate particular conceptual units
+
+ but also a roadmap to direct his construction of a new dynamical theory of electromag
+
+ netism (Wise 1977, p. 136). As such, although the analogy to a mechanical flywheel
+
+ is presented as a "dynamical illustration," its role was not limited to just clarifying
+
+ 2 Olivier Darrigol gestures to the presence of the flywheel in the 1865 paper, although he assigns it little
+
+ significance (Darrigol 2000, p. 156). Francis Everitt takes the time to explain how the analogy is constructed
+
+ although he does not delve much into its uses (Everitt 1975, pp. 103-105). Daniel Siegel acknowledges the
+
+ status of the flywheel as a mechanical analogue for inductive circuits in his notes, citing Everitt, but given his
+
+ book's focus on Maxwell's 1862 paper, he understandably does not push any deeper (Siegel 1991, p. 199).
+
+ Harman and Goldman ignore its existence entirely. In a guided study of Maxwell's electromagnetic papers,
+
+ Thomas K. Simpson suggests that the flywheel might be of some significance: it need "not necessarily be
+ an inferior but quite possibly a more insightful way of grasping the principles of a connected mechanical
+
+ system" (Simpson 1997, p. 367). 1 will advocate for something very close to this view.
+
+ <£) Springer
+
+This content downloaded from 203.78.15.150 on Mon, 18 May 2020 09:14:27 UTC
+All use subject to https://about.jstor.org/terms
+
+ 460 C. Lazaroff-Puck
+
+ physical conceptions (Maxwell 1865, p. 538).3 Maxwell's flywheel analogy filled a
+
+ critical role within his new electrodynamic theory, a role outlined by Maxwell in an
+
+ unpublished essay for the Apostles Club, "Analogies: Are There Real Analogies in
+ Nature":
+
+ Before we can count any number of things we must pick them out of the universe,
+
+ and give each of them a fictious unity by definition...The dimmed outlines of
+
+ phenomenal things all merge into another unless we put on the focussing glass
+
+ of theory and screw it up sometimes to one pitch of definition, and sometimes
+
+ to another, so as to see down into different depths through the great millstone of
+
+ the world. (Maxwell 1990, p. 377)
+
+ This illustrative analogy to a mechanical flywheel embodies that elusive "method of
+
+ investigation" described by Maxwell in 1855 and not only supplied Maxwell with clear
+
+ distinctions between electromagnetic phenomena by grounding them in mechanical
+
+ analogues, it also suggested the unique route taken in his mathematical analysis and
+
+ helped to lead him to his general equations of the electromagnetic field. The 1865
+
+ paper is then much more than an abstract application of Lagrange's methods; the elec
+
+ tromagnetic equations it introduces are instantiations of the concepts and connections
+
+ outlined by the dynamics of the flywheel, as I will now show.
+
+ This paper is structured as follows.
+
+ Section 1 : covers the mechanical properties of Maxwell's flywheel, how it works
+
+ and its specific components, both as an isolated mechanism and as an expanded
+
+ flywheel system. The section highlights the concept of reduced momentum, which
+
+ by analogy becomes a crucial feature of Maxwell's electromagnetic project. It con
+
+ cludes with a discussion of the example that Maxwell uses to clarify the flywheel's
+
+ link to electromagnetic phenomena.
+
+ Section 2: lays out the analogy between the mechanical flywheel and electromag
+
+ netism, drawing the necessary connections between components of the flywheel
+
+ and concepts in electromagnetic theory. I will consider two specific cases where
+
+ circuits act on one another through the field.
+
+ Section 2.1: Demonstrates the induction of a current in a passive circuit by changes
+
+ in another circuit (by alteration of its current in Sect. 2.1.1 and by setting the
+ circuit in motion in Sect. 2.1.2). At the same time this section illustrates how the
+
+ relevant concepts in electromagnetism are grounded in mechanical understanding
+
+ by analogy to the flywheel and how the flywheel analogy guides Maxwell in
+
+ structuring his analysis.
+
+ Section 2.2: looks at Maxwell's derivation of an equation of power and the impli
+
+ cations his mechanical analogy has for his concept of the electromagnetic field
+
+ by locating energy in the field itself. The conclusion of this section briefly parses
+
+ Maxwell's justification for reversing the use of his mechanical illustration to now
+
+ analyze how the field affects circuits.
+
+ 3 This is not to say that Maxwell viewed this clarifying role as unimportant. Maxwell still regarded this
+
+ application of analogy as crucial when giving his "Introductory Lecture on Experimental Physics" at Cam
+
+ bridge in October 1871: illustrative analogy lends "vividness and relief to ideas which, when presented as
+ mere abstract terms, are apt to fade entirely from the memory" (Maxwell 1871, p. 242).
+
+ Springer
+
+This content downloaded from 203.78.15.150 on Mon, 18 May 2020 09:14:27 UTC
+All use subject to https://about.jstor.org/terms
+
+ Gearing up for Lagrangian dynamics 461
+
+ Section 3: primarily investigates this shift to the field acting on circuits and the
+
+ way in which Maxwell uses his mechanical analogy to guide his piece-by-piece
+
+ construction of a generalized equation for induced electromotive force.
+
+ Section 3.1 : serves primarily as an introduction to electromagnetic momentum and
+
+ electromotive force, considering these concepts localized at a point in the field.4
+
+ Section 3.2: reconstructs Maxwell's derivation of the electromagnetic momentum
+
+ of a circuit, illustrating the role of the mechanical analogy in guiding Maxwell's
+ mathematics.
+
+ Section 3.2.1: reconstructs Maxwell's derivation of an expression for magnetic
+
+ force in terms of electromagnetic momentum; this will prove useful later in Sect. 3.
+
+ Section 3.3: illustrates how the flywheel aids the construction of the first piece of
+
+ a generalized equation of induced electromotive force on a circuit.
+
+ Section 3.4: reconstructs Maxwell's derivation of the final piece of this generalized
+
+ equation for induced electromotive force, the induced electromotive force on a
+
+ moving conductor. Again Maxwell's analogy to a mechanical flywheel is shown
+
+ to direct his analysis of this particular electromagnetic phenomenon, suggesting
+
+ the inclusion of terms which are ultimately unnecessary for the purposes of this
+ derivation.
+
+ Section 4: demonstrates the deep methodological similarities between Maxwell's
+
+ work in 1855 and 1865, specifically the similar role assigned to the physical analo
+
+ gies in both papers.
+
+ professionals.
+
+ Section 5: highlights some of the ways in which the flywheel analogy and systems
+
+ like it continued to be used as instructional tools by scientific and engineering
+
+ Section 6: brief concluding remarks summarizing the findings in this paper.
+
+ 1 Flywheels and bevel gears
+
+ After an introductory discussion Maxwell's "A Dynamical Theory of the Electromag
+ netic Field"5 moves to a general discussion of electromagnetic induction. The first
+
+ part of this discussion is entitled "Electromagnetic Momentum of a Circuit," and it
+
+ is here that Maxwell explicitly references a flywheel system as an analogue of the
+ electromagnetic cases he will investigate:
+
+ Now, if the magnetic state of the field depends on motions of the medium, a
+ certain force must be exerted in order to increase or diminish these motions, and
+
+ when the motions are excited they continue, so that the effect of the connexion
+
+ between the current and the electromagnetic field surrounding it, is to endow the
+
+ current with a kind of momentum, just as the connexion between the driving
+
+ 4 What Maxwell calls electromagnetic momentum is what we would now call the vector potential A. It
+
+ should not be confused with the modern definition of electromagnetic momentum, ®o(E x B), where so is
+
+ the dielectric constant in vacuo and E and B are the electric and the magnetic field, respectively.
+
+ 5 Unless noted otherwise, all page references refer to the reprint of this paper in The Scientific Papers of
+ James Clerk Maxwell, Volume 1. Equations marked M(x), where x is an integer or capital letter, refer to
+ the equation number or letter within Maxwell's 1865 paper.
+
+ •ö Springer
+
+This content downloaded from 203.78.15.150 on Mon, 18 May 2020 09:14:27 UTC
+All use subject to https://about.jstor.org/terms
+
+ 462 C. Lazaroff-Puck
+
+ Fig. 1 Maxwell's flywheel, the
+ Fig. 1 Maxwell's flywheel, the
+ labels in this image has been
+ labels in this image has been
+ modified from those in the
+ modified from those in the
+
+ version shown in (Maxwell
+ version shown in (Maxwell
+ 1892, Vol. 2, p. 228)
+ 1892, Vol. 2, p. 228)
+
+ c
+
+ B
+
+ The abstract of the 1865 paper as well as a deleted passage from the original
+ manuscript, both submitted to the Royal Society in late October 1864, indicate that in
+
+ addition to the flywheel, Maxwell began writing this paper with two more mechanical
+ analogies in mind (Maxwell 1864). Another mechanical analogy could conceivably
+ have done similar work, the flywheel analogy is after all meant to be illustrative and not
+
+ a hypothetical model of reality. Maxwell was aware that "[t]he problem of determining
+ the mechanism required to establish a given species of connexion between the motions
+
+ of the parts of a system always admits of an infinite number of solutions" (Maxwell
+
+ 1873, Vol. 2, p. 417). The change from "a rod acted on by two forces perpendicular to its
+
+ direction" and "two horses harnessed to a carriage by the intervention of a lever so that
+
+ Ô Springer
+
+This content downloaded from 203.78.15.150 on Mon, 18 May 2020 09:14:27 UTC
+All use subject to https://about.jstor.org/terms
+
+ point of a machine and a fly-wheel endows the driving-point with additional
+ momentum, which may be called the momentum of the fly-wheel reduced to the
+
+ driving-point, (p. 536)
+
+ There is no accompanying illustration of the flywheel system that Maxwell references
+
+ in the 1865 paper; however, a sketch and description of a fly wheel designed by Maxwell
+ that is also intended to illustrate electromagnetic induction is printed in the first,
+ unabridged edition of The Life of James Clerk Maxwell, and later in the third edition
+ of Maxwell's Treatise (Campbell and Garnett 1882, pp. 550-554; Maxwell 1892,
+ Vol. 2, p. 228). The later drawing from Maxwell's Treatise is shown in Fig. 1. This
+ image was likely added by J.J. Thomson who took over from W.D. Niven as the editor
+
+ for the Treatise's third edition, carrying on despite Maxwell's death in 1879, before
+ the release of the second edition.
+
+ Gearing up for Lagrangian dynamics 463
+
+ Fig. 2 Maxwell's flywheel
+ Fig. 2 Maxwell's flywheel
+ model built for the Cavendish
+ model built for the Cavendish
+
+ Laboratory (in the Whipple
+ Laboratory (in the Whipple
+ Museum of the History of
+ Museum of the History of
+ Science, University of
+ Science, University of
+ Cambridge Wh.2455)
+ Cambridge Wh.2455)
+
+ each horse pulls at its own arm of the lever while the lever is attached to the carriage by
+
+ its fulcrum" to the flywheel was most likely a decision based simply on the respective
+
+ clarity of each analogy as "some may be more clumsy or more complex than others"
+ (Maxwell 1995, pp. 191, 197; Maxwell 1873, Vol. 2, p. 417). The elements of the
+ rod and horse analogies seem ill-suited to embody the components of the dynamical
+ equations with which Maxwell begins, while these analogies taken as a whole are
+ clumsy illustrations of Maxwell's discussion of dynamics more generally. Ultimately,
+ Maxwell presumably saw an advantage in using only the flywheel as an analogue
+ of electromagnetic phenomena in his 1865 paper. The perceived superiority of the
+ flywheel analogy seems to have persisted as the flywheel was built under Maxwell's
+
+ orders by Elliott Bros, in late 1876 (see Fig. 2) as a teaching aid for the newly founded
+ Cavendish Laboratory in accordance with his design (Maxwell 2002, p. 421 ; Maxwell
+ 1892, Vol. 2, p. 228). In what follows, the advantages of founding this paper on an
+ analogy to a mechanical flywheel will become apparent.
+
+ First, the structure and operation of the flywheel must be understood to make sense
+
+ of the analogy Maxwell exploits to construct his equations of electromagnetism. The
+ two driving-wheels A and B are supported by separate axles geared into the central
+ flywheel C. Both driving-wheels A and B have a string hung over them attached to
+ a weight acting as a friction break on each wheel. The flywheel is nothing but two
+ rods arranged like a cross with weights on all four ends and a single gear. The setup
+
+ <£) Springer
+
+This content downloaded from 203.78.15.150 on Mon, 18 May 2020 09:14:27 UTC
+All use subject to https://about.jstor.org/terms
+
+ 464 C. Lazaroff-Puck
+
+ is similar to the simple mechanical differentials found in automobiles that allow the
+
+ wheels to turn at different speeds, a crucial invention that allows the driver to make
+
+ turns without the wheels slipping and which is the foundation of many traction control
+
+ systems. The two driving-wheels turn their respective axles, each connected on the
+
+ opposite end to a bevel gear, which allows for the transmission of motion at right
+
+ angles. The flywheel has its own bevel gear loosely afixed to it, geared into the bevel
+
+ gears at A and B. There is no requirement that the gearing ratios of these independent
+
+ bevel gears be equal. The weighted flywheel is set perpendicularly to the axles of the
+
+ driving-wheels. The flywheel's primary axis of rotation is a line that passes through the
+
+ axles of the driving-wheels. The bevel gear on the flywheel C is only loosely attached
+
+ and is thus able to rotate around the long axis of the flywheel, perpendicular to the
+
+ primary rotation of the flywheel.
+
+ As mentioned above, the gearing ratios of those bevel gears directly attached to
+
+ the driving-wheels may be different and it is in this way that both wheels might spin
+
+ at different constant velocities without accelerating the flywheel. Assuming for the
+
+ moment that the gearing ratios of A and B are equivalent, we see that if the driving
+
+ wheels A and B rotate with opposite angular velocities such that the linear speed at
+
+ the rim of each wheel is of equal magnitude, v, then the intermediary bevel gear on
+
+ the flywheel C rotates around the long axis of the flywheel with an angular speed vr,
+
+ where r is the radius of the bevel gear on the flywheel C. If A and B are made to rotate
+
+ at different speeds, then the entire flywheel C will rotate around an axis through the
+
+ centers of A and B with an angular speed equal to half of the difference between the
+
+ magnitudes of the linear speeds of A and B at their peripheries multiplied by the length
+
+ of one arm of the flywheel (from one end to the axis through A and B). If there is an
+
+ acceleration of the velocity of driving-wheel A while B is at rest, then the flywheel C
+
+ will not move at first, but its loosely attached bevel gear will communicate a motion
+
+ to the wheel B in the opposite direction of that at A. As this motion at B is resisted
+
+ by its attached hanging weight, this reaction by B as well as the force imparted by A
+
+ will cause the flywheel C to rotate around the axis through the centers of A and B
+
+ in the same direction as A and with an angular speed equal to half of the magnitude
+
+ of the linear speed of A at its periphery multiplied by the length of one arm of C.
+
+ As long as the driving-wheel A remains at a constant velocity, C will remain at this
+
+ speed, rolling around B, which will eventually come to rest due to the resistance of
+
+ the weighted string. Any acceleration of A will again drive an opposite motion in B.
+
+ This is illustrated in Fig. 3. As a consequence of the weights in the system, we see a
+
+ transfer of momentum, first from the accelerated driving-wheel to the flywheel, and
+
+ then from the flywheel to the other driving-wheel, making this system particularly
+
+ suited for the application of Lagrangian dynamics.
+
+ On the page immediately following his discussion of the "fly-wheel," Maxwell
+
+ provides a Lagrangian account of a mechanical system. Although Maxwell's discus
+
+ sion of the flywheel is limited to the brief given at the beginning of this section, his
+
+ Lagrangian analysis comfortably describes just such a system. Indeed both the fly
+
+ wheel and the abstract Lagrangian system aim to illustrate the same concept, namely
+
+ reduced momentum. Maxwell's general Lagrangian system introduces two "driving
+
+ points" A and B and a connected body C. In unifying the mechanical systems involved
+
+ in both the prior discussion of the "fly-wheel" and the more general description that
+
+ Ô Springer
+
+This content downloaded from 203.78.15.150 on Mon, 18 May 2020 09:14:27 UTC
+All use subject to https://about.jstor.org/terms
+
+ Gearing up for Lagrangian dynamics 465
+
+ Fig. 3 Mechanical induction
+ Fig. 3 Mechanical induction
+ through the flywheel
+ through the flywheel
+
+ immediately precedes Maxwell's mathematical investigation, the only leaps necessary
+
+ are to equate the central flywheel connected to drWmg-wheels with the generic "body
+
+ C" similarly attached to driving -points A and B and thus to make a jump from rota
+
+ tional to linear velocities. In the case of the flywheel, we take the mass of the central
+
+ flywheel to be C. Maxwell sets u as the linear velocity of A, v as that of B, and w as
+ the linear velocity of C, a motion we take to be analogous to the flywheel's primary
+ rotation around the axis through A and B. The system is geared such that the velocity
+
+ w of C is p times the velocity u of A and q times the velocity v of B. Using Sx, Sy, Sz
+ for the respective simultaneous displacements (Sx and Sy are independent) of A, B,
+ and C, Maxwell obtains what he calls, citing Part II, Sect. 2, §5 of Lagrange's Ana
+ lytical Mechanics, "the general equation of dynamics" (p. 537). Lagrange's "general
+ formula of dynamics for the motion of an arbitrary system of bodies" is represented
+ as (Lagrange 1997, p. 186):
+
+ f /d2x d2y d2z \ [
+ / ( d?5"^ + + dr^) m + / (psP + QS(H + RSr ^ )m= 0. (1)
+
+ Without parsing out Lagrange's more general dynamical equation, we can still recog
+
+ nize its paternity when we move back to Maxwell and his general equation of dynamics,
+
+ C^-Sz = XSx + YSy, (2)
+
+ cu
+
+ Springer
+
+This content downloaded from 203.78.15.150 on Mon, 18 May 2020 09:14:27 UTC
+All use subject to https://about.jstor.org/terms
+
+ 466 C. Lazaroff-Puck
+
+ which describes the balance of work in the system, where X and Y are the driving
+ forces acting at A and B.
+
+ Maxwell goes on to form two equations describing the relationship of linear veloc
+
+ ities in parts of the system in terms of what amount to gearing ratios p and q. The first
+
+ relates the accelerations at each of the points A, B, and C.
+
+ The second expresses the relation between their respective displacements.
+
+ dw du du
+ d7 = "d7+,d7- (3)
+
+ Sz = pSx + qSy. (4)
+
+ Inserting Eqs. (3) and (4) into Eq. (2) and grouping 8x and Sy terms, Maxwell isolates
+ X and Y, the forces at A and B.
+
+ d ,
+
+ X = —(Cpu + Cpqv),
+
+ dt
+
+ dt
+
+ d 7
+
+ M(l) (5)
+
+ Y = — (Cpqu + Cq2v).
+
+ In moving from Eqs. (2)—(4) to Eq. (5), Maxwell assumes that C, p, and q are
+
+ constants. As we will see, Maxwell treats the electromagnetic analogues of these
+
+ quantities as if they are time dependent. That Maxwell is willing to grant this latitude
+
+ to quantities that would otherwise be treated as constants in a standard Lagrangian
+ system suggests that he may be pursuing the physical analogy to the flywheel beyond
+
+ what can be strictly justified by Lagrangian dynamics.
+
+ In Eq. (5), Maxwell arrives at a key concept that he will use to motivate his discussion
+
+ of the electromagnetic field, namely the quantity he calls "reduced momentum." He
+
+ defines the "momentum of C referred to A" (p. 537) as the momentum of C imparted
+
+ by the force at the driving-point A, given by (Cp2u+Cpqv). Similarly, the momentum
+
+ of C referred to B is the momentum of C imparted by the force at the driving-point B
+
+ and is given by (Cpqu + Cq2v). Reduced momentum is nothing but the momentum
+
+ stemming from a particular force acting on the central body, C (or in the case of the
+
+ flywheel, the central flywheel, C). Put another way, the effect of forces such as X and
+
+ Y is to change the momentum of C in relation to the points A and B at which these
+
+ forces are applied.
+
+ This simple system is generalized so that there may be an arbitrary number of bodies
+
+ like C linked up to A and B, perhaps with different masses C and different gearing
+ ratios p and q6 The quantities Cp2, Cpq, and Cq2 in Eq. (5) then get replaced by
+
+ sums over the different values of these three parameters
+
+ 6 In his 1862 cogwheel model Maxwell had felt it necessary to insert idle wheels to overcome a similar
+
+ mechanical problem, namely "coupling neighboring vortices" (Siegel 1991, p. 66). That Maxwell appeared
+
+ unconcerned with the potential mechanical difficulties of coupling an arbitrary number of these systems
+
+ together demonstrates his move away from modeling electromagnetic phenomena and the ether itself,
+ instead offering only a "dynamical illustration".
+
+ Springer
+
+This content downloaded from 203.78.15.150 on Mon, 18 May 2020 09:14:27 UTC
+All use subject to https://about.jstor.org/terms
+
+ Gearing up for Lagrangian dynamics 467
+
+ L = £«V) M = ^(Cpq) N = J^(Cq2). (6)
+
+ Note that L and N relate only to the driving force at their respective driving-point,
+
+ A or B. In the electromagnetic case, L and N refer to the shapes of the circuits and
+
+ act as coefficients of self-inductance. By contrast M, which in the electromagnetic
+
+ case Maxwell refers to as the coefficient of mutual inductance, relates to the driving
+
+ forces at both A and B. These quantities are loosely analogous to moments of inertia
+
+ insofar as they measure resistance to rotational acceleration if we think in terms of an
+
+ expanded flywheel system. The momentum referred to A is
+
+ while the momentum referred to B is,
+
+ Lu + Mv, (7)
+
+ Mu + Nv. (8)
+
+ The forces X and Y acting on A and B to drive the expanded system can then be
+
+ written as before [cf. Eq. (5)]:
+
+ X = —(Lu + Mv),
+
+ M(2) (9)
+
+ Y = ^-(Mu + Nv).
+
+ at
+
+ Resistance forces due to the weighted wires, which are also in reference to A or B
+
+ and their respective velocities, take the form Ru and Sv as extra terms on the right-hand
+
+ sides of these equations. The manner in which both resistance forces are incorporated
+
+ in the electromagnetic case is demonstrated in Eqs. (12)—(13) at the beginning of the
+ next section.
+
+ Although Maxwell's Lagrangian analysis is supposedly general and does not imme
+
+ diately reference the flywheel within his "Dynamical Theory," very nearly the same
+
+ equations of Lagrangian dynamics appear 3 years later in an investigation of differen
+
+ tially geared governors in his paper "On Governors" (Maxwell 1868, pp. 118-120).7
+
+ The device Maxwell describes appears remarkably similar to the differentially geared
+ flywheel:
+
+ In some contrivances the main shaft is connected with the governor by a wheel or
+
+ system of wheels which are capable of rotation about the axis of the main shaft.
+
+ These two axes may be at right angles, as in the ordinary system of differential
+
+ bevel wheels; or they may be parallel, as in several contrivances adapted to
+ clockwork. (Maxwell 1868, p. 118)
+
+ 7 Maxwell had previously described the relevance of William Siemens' differentially geared governor to
+ electromagnetic phenomena in Part II of "On Physical Lines of Force," where he noted that elements of
+
+ this governor are capable of motions similar to those of the idle wheels in his cogwheel model (Maxwell
+ 1862, pp. 468-469).
+
+ Springe:
+
+This content downloaded from 203.78.15.150 on Mon, 18 May 2020 09:14:27 UTC
+All use subject to https://about.jstor.org/terms
+
+ 468 C. Lazaroff-Puck
+
+ Whether Maxwell was simply examining another type of governor (Siemens designed
+
+ differentially geared governors were already in use on steam-engines), or, as Otto Mayr
+
+ argues, Maxwell was more thoroughly checking that the mechanical system could be
+
+ trusted to illustrate electromagnetic induction in preparation for building a physical
+ model for the Cavendish, the fact that Maxwell used nearly identical Lagrangian
+
+ analysis in his 1865 paper and this later discussion of a flywheel-like device appears to
+
+ bolster the claim that Maxwell conceived of the dynamical relations in his "Dynamical
+
+ Theory" in terms of the flywheel (Mayr 1971, pp. 218-219).
+
+ Returning to the 1865 paper, almost as an aside, Maxwell now makes a statement
+
+ that finally leads us into his discussion of electromagnetism:
+
+ If the velocity of A be increased at the rate du/dt, then in order to prevent B
+
+ from moving a force, r) = d/df (Mm) must be applied to it. (p. 538)
+
+ This statement is key to understanding the connection between the mechanical illus
+
+ tration and electromagnetism. At the risk of belaboring the point, I will unpack this
+
+ quotation to clarify the analogical relationship that Maxwell unveils. So that we might
+
+ better understand what Maxwell had in mind, let us investigate how these relations are
+
+ reflected in the operation of the flywheel. Consider the diagram in Fig. 3. As a result
+
+ of the increase in velocity at A there is an indirect force on B, ~(d/dt)(Mu), that is
+
+ to be canceled by rj. Acceleration of the driving-wheel A causes an acceleration of the
+
+ passive wheel B in the opposite direction. The force described that would "prevent B
+
+ from moving" is then just the force we would have to apply to B to stop it accelerating
+
+ as a result of the acceleration of A. The stopping force at B is the opposite of the force
+
+ applied to B by our acceleration of the driving-wheel A.
+
+ The force on B as a result of action at A is mediated (hence the term indirect
+
+ above) by the flywheel C, which Maxwell comes to see as the embodiment of the
+
+ electromagnetic field. When a force is applied at A it leads to an increase in the
+ momentum Lu + Mv of the flywheel [cf. Eq. (9)]. This increase in the flywheel's
+ momentum is defined as the reduced momentum of A. The flywheel's momentum
+
+ then decreases over time as it acts on the passive wheel B. Fig. 3 illustrates how
+
+ motion is transferred from A to B through the flywheel C. The force on B takes the
+
+ form of a decrease in momentum of the flywheel in time, —(d/dt)(Mu). This process
+
+ of force transferal through the flywheel is the mechanical analogue of electromagnetic
+
+ induction; in the electromagnetic case, the field moderates the transferal of forces
+ between circuits. Maxwell goes on to say that this effect on B, -(d/dt)(Mu), is
+ consistent with the electromotive force on a circuit which arises from the increase in
+
+ strength of a nearby circuit, namely it is the induced electromotive force. Just as the
+
+ flywheel's momentum decreases as it acts on B, the electromagnetic momentum of
+ the field decreases as a result of its action on a circuit. The induced current is such that
+
+ it produces a force which acts counter to the change in current at A that produced the
+ induced electromotive force. This is Lenz's law.
+
+ Naturally there are some similarities between the flywheel analogy and the cog
+
+ wheel model presented in Maxwell's 1862 paper. Both are capable of giving a
+ mechanical account of electromagnetic induction; however, while this feature is the
+
+ primary function of the flywheel analogy, it was merely an extension of the ear
+ lier model involving secondary tangential forces of the idle wheels acting on the
+
+ <£) Springer
+
+This content downloaded from 203.78.15.150 on Mon, 18 May 2020 09:14:27 UTC
+All use subject to https://about.jstor.org/terms
+
+ Gearing up for Lagrangian dynamics 469
+
+ vortices (Siegel 1991, p. 71). Nevertheless, the mechanical analogy in the 1865 paper
+
+ is significantly more general, providing an illustration of connections between the
+
+ field, represented by the central body or flywheel, and objects in it, represented as
+
+ driving-points, not a hypothetical mechanical model of the structure of the electro
+
+ magnetic ether. Additionally, while the specific flywheel analogy deals with rotations,
+
+ Maxwell's Lagrangian dynamics is concerned exclusively with linear velocities. Thus
+
+ the mechanically grounded concept of electromagnetic momentum that is central to
+
+ Maxwell's "Dynamical Theory" does not explicitly require considerations of rotation,
+
+ in contrast to the crucial role played by torques in modeling electromagnetic induction
+
+ in his 1862 paper (Siegel 1991, p. 73).
+
+ Maxwell concludes his dynamical illustration with a warning. Nevertheless, this
+
+ should not be taken as a threat to the project of elevating the relative status of flywheel
+
+ analogy in the historical literature that surrounds his 1865 paper.
+
+ This dynamical illustration is to be considered merely as assisting the reader to
+
+ understand what is meant in mechanics by Reduced Momentum. The facts of
+
+ the induction of currents as depending on the variations of the quantity called
+
+ Electromagnetic Momentum, or Electrotonic State, rest on the experiments of
+
+ Faraday, Felici, &c. (p. 538)
+
+ As will be made clear in the following sections, the concept of electromagnetic momen
+
+ tum which is so central to Maxwell's "Dynamical Theory" is itself grounded in the
+
+ mechanical concept of reduced momentum, and its role in guiding Maxwell's math
+
+ ematical analysis is governed by his exploitation of analogical links to the flywheel
+
+ that suggest particular derivations of certain electromagnetic expressions. The facts
+
+ of electromagnetic phenomena supplied by "the experiments of Faraday, Felici, &c"
+
+ are necessary for the mechanical analogy to hold; without electromagnetic phenom
+
+ ena similar in action to the mechanical processes there would be no analogical link
+
+ through which the flywheel or even his abstract Lagrangian dynamics could affect
+ Maxwell's investigation of electromagnetism, no "partial similarity between the laws
+ of one science and those of another which makes each of them illustrate the other"
+
+ (Maxwell 1855, p. 156). The accounts of Maxwell's mathematical analysis that follow
+
+ serve to highlight the role of the mechanical foundations of his "Dynamical Theory"
+
+ and the analogically grounded concept of electromagnetic momentum, a role that had
+
+ previously been obscured in the literature by the choice to substitute electromagnetic
+
+ momentum for the vector potential. By working within Maxwell's original formalism
+
+ can we more immediately appreciate the significance of the mechanical analogy that
+
+ guided his analysis.
+
+ through the field
+
+ 2 Mobilizing the mechanical analogy to analyze the effects of circuits
+
+ Before we proceed to examine the specific electromagnetic examples that Maxwell
+ lays out, we need to make sure that we understand the basic connections between
+
+ the mechanical flywheel and electromagnetism that constitute the analogical link.
+
+ Maxwell begins anew on p. 539 with two conducting circuits A and B instead of
+
+ driving-points, while keeping in mind the lessons laid out in the preceding section.
+
+ £) Springer
+
+This content downloaded from 203.78.15.150 on Mon, 18 May 2020 09:14:27 UTC
+All use subject to https://about.jstor.org/terms
+
+ 470 C. Lazaroff-Puck
+
+ The currents x and y in A and B take the place of the velocities at the driving-points,
+
+ a reasonable substitution as currents also represent a change in time. L, M, and N
+
+ now represent quantities that depend on the form and relative position of the circuits,
+
+ L describing the form of circuit A, N of circuit B, and M the relative position of A
+
+ and B. Insofar as these quantities were originally made up of gearing ratios and the
+
+ summed weights of the central flywheels in the flywheel system, together expressing
+
+ the driving-wheels' moments of inertia, a strong analogy holds between their use in
+
+ the mechanical and electromagnetic case. Lenz's law in the electromagnetic case is
+
+ drawn directly from the construction of the mechanical example and the way motion
+
+ is transferred from one driving-wheel, through the gears and flywheels to the other
+
+ driving-wheel, always resulting in an acceleration opposed to that which initially
+
+ drove the system. If we continue to think in terms of the flywheel analogy, the C's
+
+ of our expanded mechanical system, the weighted flywheels being acted on by the
+
+ driving-wheels, can now be thought of as expanding into all space and representing the
+
+ field. The quantity for which Maxwell coined the term electromagnetic momentum
+
+ is analogous to the reduced momentum that existed in the flywheel or system of
+
+ flywheels. If the analogy holds, then electromagnetic momentum extends from the
+
+ wires throughout the unbounded field. As such, in accordance with the mechanical
+
+ illustration, the reduced electromagnetic momentum of A is
+
+ Ç, the electromotive force due to changes in A, be they changes in the strength
+
+ of the current, the form of the circuit, or its relative position with respect to another
+
+ circuit of current y, is given by
+
+ Rx + ^(Lx + My), M (4) (12)
+
+ dt
+
+ Lx + My, (10)
+
+ and that of B is
+
+ Mx + Ny. (11)
+
+ and the force, r], which arises from changes at B, by
+
+ rj = Sy + -j-(Mx + Ny), M(5) (13)
+
+ at
+
+ where R and S are coefficients of resistance.
+
+ In the sections that follow we investigate Maxwell's approach to more specific
+
+ cases of circuits acting on passive circuits by way of the field. It will be helpful to
+
+ keep in mind not only the basic electromagnetic properties discussed above, but also
+
+ the analogous mechanical operations that underpin them.
+
+ *2) Springer
+
+This content downloaded from 203.78.15.150 on Mon, 18 May 2020 09:14:27 UTC
+All use subject to https://about.jstor.org/terms
+
+ Gearing up for Lagrangian dynamics 471
+
+ 2.1 Induction of a current by another through the field8
+
+ It is not trivial to grasp the idea that a current in one circuit should induce a current
+
+ in some other passive circuit in the field. The mechanical analogy grounds current
+
+ current interactions in clear physical concepts, illustrating the dynamical connection
+
+ between components in the electromagnetic case. Through the flywheel analogy we
+
+ may come to terms with Maxwell's statement that "since the two currents are in
+
+ connexion with every point of the field, they will be in connexion with each other"
+
+ (p. 537). Just as the driving-wheels are geared into the flywheel, so should we imagine
+
+ the circuit being "geared into" the electromagnetic field.
+
+ Consider the induction of a current in the passive circuit B by that of the active
+
+ circuit A (p. 540). We are told that N remains constant, which is to say that circuit B
+
+ is rigid. Additionally, without some initial current driving B (B is a passive circuit),
+
+ the equation describing the electromotive force due to B vanishes, i.e., rj = 0. The
+
+ product Ny vanishes as B does not impress a force on A through the field, nor can it
+
+ initially self-induce a force. Thus, Eq. (13) reduces to
+
+ Sy + = 0. (14)
+
+ at
+
+ As we can see from this equation describing the process of induction of B by A,
+
+ there are two distinct ways in which this phenomenon can arise, depending on which
+
+ variable is held constant, M or x. If M is held constant and x is allowed to vary,
+
+ then a current y in B will be induced by the variation of the current in A, while
+
+ both circuits remain fixed with respect to their relative positions. If we allow M to
+
+ vary and hold x constant, then a current y in B will be induced by a change in the
+
+ relative position of the two circuits, the current in A remaining constant. If we think
+
+ in terms of the flywheel analogy, the distinction between these two types of induction
+ becomes immediately apparent. The latter case, where M is said to vary, is analagous
+
+ to a manipulation of both gearing ratios in the flywheel system, while the former is
+
+ analagous to the acceleration of the driving-wheel A. The analogy suggests an inherent
+
+ physical difference between these two causes of induction. One arises from a change
+
+ in the free variable of the system (velocity of a driving-wheel), while the other requires
+
+ a physical alteration of the setup of the system itself (altering gearing ratios). We will
+
+ follow Maxwell's lead and analyze these two possible causes for induction separately.
+
+ 2.1.1 Induction of a current by the variation of another
+
+ Consider the case that the only electromotive force acting on B is due to the increase
+
+ in the current in A from 0 to x. In that case M is constant, meaning the circuits will not
+
+ move relative to one another, and they will not change shape, otherwise this motion
+
+ would produce an additional electromotive force.
+
+ Section titles closely resemble Maxwell's own titles and proceed in the order given in Maxwell's
+
+ "Dynamical Theory".
+
+ â Springer
+
+This content downloaded from 203.78.15.150 on Mon, 18 May 2020 09:14:27 UTC
+All use subject to https://about.jstor.org/terms
+
+ 472 C. Lazaroff-Puck
+
+ As M is constant, Eq. (14) gives
+
+ dx M . .
+
+ Sy + M— = 0 —» y = (15)
+
+ (9
+
+ A force arising from the change, dx/dt, in the current at A affects the field, and
+
+ then acts on the current y through the coefficient of mutual inductance M that relates
+
+ the relative positions of the two circuits. The electromagnetic momentum of the field
+
+ is exhausted as its electromagnetic momentum is transferred to B. The analogous
+
+ mechanical case has already been laid out by Maxwell in his stopping force example.
+
+ If we again take refuge in the flywheel analogy, an increase in the velocity of A acts
+
+ through the central flywheel to transfer momentum to B in accordance with the coeffi
+
+ cient M. The negative sign is indicative of Lenz's law, such that the induced electromo
+
+ tive force produces a current which will oppose the change that produced it. Maxwell
+
+ goes on to integrate Eq. (15) getting what he calls the "total induced current" (p. 540),
+
+ or the total charge passing through B due to the increase in current at A from 0 to x.
+
+ 2.1.2 Induction of a current by the motion of the circuit
+
+ Next Maxwell investigates the induced electromotive force on B due to the two circuits
+
+ A and B approaching one another. Such a motion will be represented by a change in
+
+ the coefficient of mutual inductance, M. In this case, Eq. (14) gives
+
+ dM xdM
+
+ Sy + x—=0 — y = . (16)
+
+ Again Maxwell finds that the induced electromotive force on B follows from a
+
+ reduction in electromagnetic momentum in the field through its transfer to B, produc
+
+ ing a current opposed to the change which produced it, in agreement with Lenz's law.
+
+ Here the analogous mechanical effect would involve the increase in both gearing ratios
+
+ which make up the M term, causing an increase in the momentum of the flywheel by
+
+ the action of A, and subsequently a decrease in the momentum of the flywheel as this
+
+ momentum is received by B.
+
+ The work done by our importation of Maxwell's analogy to the flywheel in both of
+
+ these cases of induction is twofold. First, it clearly delineates the two cases of induction
+
+ by reference to specific elements in the mechanical case, as they "resemble[ ] rather
+
+ the reduced momentum of a driving-point of a machine influenced by its mechanical
+
+ connexions" (p. 539). Second, it provides clear physical concepts through which we
+
+ may come to terms with these electromagnetic phenomena: "L, M, N correspond to the
+
+ same quantities in the dynamical illustration, except they are supposed to be capable
+
+ of variation when the conductors A or B are moved" (p. 539).
+
+ 2.2 Equation of work and energy
+
+ To form the equation of total work in unit time (power) done by both circuits A
+
+ and B (p. 541), Maxwell proceeds analogously to a mechanical system, multiplying
+
+ â Springer
+
+This content downloaded from 203.78.15.150 on Mon, 18 May 2020 09:14:27 UTC
+All use subject to https://about.jstor.org/terms
+
+ After dropping the terms Rx2 and Sy2, the energy lost as heat due to resistance,
+
+ we can rewrite the right-hand side of Eq. (17) as:
+
+ Gearing up for Lagrangian dynamics 473
+
+ the electromotive forces f and rj [from Eq. (12) and (13)] by the currents x and y,
+
+ respectively (in the mechanical case, the power, P, is given by the inner product, F • v)
+
+ Çx + t]y = Rx2 + Sy2 + x-7- (Lx + My) + y— (Mx + Ny). M(8) (17)
+
+ df at
+
+ 1 d (r 2 „2 \ 1 2 dM 1 dA 2 /A o\
+ 2dt ( +2Mxy + Ny) + ~x +—xy +--y . (18)
+
+ When L, M, and N are constant, the last three terms in Eq. ( 18) vanish. What is left
+
+ is "the whole intrinsic energy of the currents" or the change in the energy contained
+
+ within the field due to the currents x and y. Maxwell makes a prescient but guarded
+
+ follow-up point, noting that as the currents are time derivatives, this energy "probably
+
+ exists as actual motion, the seat of this motion being not merely the conducting circuits,
+
+ but the space surrounding them." This motion and the energy is in the field, although
+
+ it is "in a form imperceptible to our senses" (p. 541). While the dynamical theory will
+
+ make no specific claims about the field, Maxwell's analogical reasoning has effectively
+
+ physicalized empty space. In the words of one commentator, "space is not an empty
+
+ geometrical container but a coherent, connected physical system bearing the energy
+ of motion" (Simpson 1997, p. 312). By analogy to the flywheel, the properties of
+
+ the field resemble those of a moment of inertia, a physical concept adapted to the
+
+ field, but stripped of the immediate perceptibility it had in the earlier mechanical
+ illustration.
+
+ The last three terms in Eq. (18) in which L, M, and N are variable describe the
+
+ work done in unit time by the "alterations in the form and position of the conducting
+
+ circuits A and B" (p. 542). Maxwell goes on to note that this impressed force must in
+
+ fact be a simple mechanical force acting on a body, such as a conductor in one of the
+
+ circuits, a very tangible action with electromagnetic consequences in the field. This
+
+ equation then is taken to be the work done during these mechanical alterations of the
+ circuit.9
+
+ Maxwell concludes this section with a justification of the dynamical project which
+
+ will follow in the next section on the "General Equations of the Electromagnetic Field."
+
+ If the unresisted part of an acting electromotive force generates
+
+ a self-persistent state of the current, which we may call (from mechanical
+
+ analogy) its electromagnetic momentum, and [if] this momentum depends on
+ circumstances external to the conductor, then both induction of currents and
+
+ electromagnetic attractions may be proved by mechanical reasoning, (p. 542)
+
+ Essentially Maxwell is outlining his plan of attack for the next section. If he has
+
+ been justified in using the mechanical illustration and thus, as we have suggested,
+
+ its accompanying flywheel analogy to investigate how electromotive forces arising
+
+ 9 Maxwell's comment on p. 542 that this mechanical force acts to maximize L,M,andN remains puzzling.
+
+ Springer
+
+This content downloaded from 203.78.15.150 on Mon, 18 May 2020 09:14:27 UTC
+All use subject to https://about.jstor.org/terms
+
+ 474 C. Lazaroff-Puck
+
+ from changes in circuits affect the electromagnetic field, then such reasoning should
+
+ work equally well in reverse. In the "General Equations" section, Maxwell will draw
+
+ on his mechanical analogy to the flywheel to inform his investigation of induced
+
+ electromotive forces, i.e., his investigation of how electromotive forces arising from
+
+ changes in the electromagnetic field "due to any system of magnets or currents" affect
+
+ circuits (p. 555).
+
+ 3 General equations of the electromagnetic field: constructing
+
+ a generalized induced electromotive force10
+
+ As noted at the conclusion of the preceding section, the equations that Maxwell derives
+
+ in the rest of his 1865 paper are no longer from the point of view of driving-wheels
+
+ or circuits, rather they are primarily equations of induction, describing the action of
+
+ the electromagnetic field on circuits. The primary focus of this section is to recon
+
+ struct Maxwell's approach to deriving a fully generalized equation for the induced
+
+ electromotive force on a conductor. Although there will be additional applications of
+
+ the flywheel analogy within specific subsections, the most striking example of the
+
+ way in which the analogy guides Maxwell's mathematics can be seen in the specific
+
+ choices he makes in breaking up the analysis of induced electromotive force in a
+
+ circuit. Maxwell builds the fully generalized induced electromotive force from two
+
+ constituent parts, the induced electromotive force due to changes in the electromag
+ netic momentum of the field and the induced electromotive force due to a motion of
+
+ the circuit through the field. Dividing the analysis of the electromotive force in such a
+
+ way is suggested by the flywheel analogy and the distinct physical difference it draws
+ between the effects of the acceleration of a driving-wheel (changes in currents, which
+
+ define the electromagnetic momentum of the field in most examples) and changes in
+
+ gearing ratios (changes in the form and/or position of a circuit). This physical distinc
+
+ tion between two different origins of the same force in the flywheel analogy carries
+
+ over into the general equations section of this paper and ultimately guides Maxwell's
+
+ analysis and assembly of the fully general equation for induced electromotive force on
+
+ a moving conductor. As I will show in Sect. 4, Maxwell uses the flywheel analogy in
+
+ a similar manner to the flow analogy he introduced in his 1855 paper, to generate dis
+
+ tinctions between constituent elements of the induced electromotive force that guide
+
+ his mathematical analysis.
+
+ In his 1865 paper, Maxwell did not yet use the elements of vector calculus that
+
+ later appears in his Treatise on Electricity and Magnetism. To save ourselves from
+
+ rewriting each equation for each component while at the same time maintaining the
+
+ ease of comparison between our reconstruction and Maxwell's text, we will write
+
+ vectors by putting their three components in parentheses, (x,y,z).
+
+ 10 We will skip Maxwell's extended attempt to "bring these results within the range of experimental
+
+ verification" (p. 543) and pick up again at the beginning of Part III, "General Eqations of the Electromagnetic
+
+ Field," on p. 554,
+
+ â Springer
+
+This content downloaded from 203.78.15.150 on Mon, 18 May 2020 09:14:27 UTC
+All use subject to https://about.jstor.org/terms
+
+ Gearing up for Lagrangian dynamics 475
+
+ 3.1 Electromotive force (P, Q, R) and electromagnetic momentum (F, G, H)
+
+ Analogous to Newtonian mechanics whereby the force is equal to the time derivative
+ of momentum,
+
+ F = jp or (Fx, Fy, Fz) = — (px, py, pz), (19)
+
+ the electromotive force at an arbitrary point in the field will be equal to a change in
+
+ momentum, albeit with a negative sign to denote that it is an induced electromotive
+
+ force which arises through a decrease in electromagnetic momentum in the field in
+ accordance with Lenz's law.11 Unlike what we have seen from Maxwell before, elec
+
+ tromagnetic momentum expressed in this relation is localized at a point in the field
+
+ and entirely general, insofar as it does not refer to any specific driving-points which
+ create the field.
+
+ where A, now called the "vector potential," plays the role of Maxwell's electromagnetic
+ momentum.
+
+ (.P, Q, R) = ~(F, G, H) M(29) (20)
+
+ 01
+
+ In modern notation this equation may be rewritten:
+
+ «--£ (2.)
+
+ 3.2 Electromagnetic momentum of a circuit
+
+ Returning to his concept of reduced momentum, Maxwell's mechanical analogy
+ informs his definition of the total electromagnetic momentum referred to the circuit.
+
+ The total electromagnetic momentum referred to the circuit is represented by a line
+
+ integral of the electromagnetic momentum (F, G, H) over the circuit. Although it may
+
+ initially appear unjustified, this expression is a natural consequence of his mechanical
+
+ analogy. The circuit should be thought of as "geared into" the field at every point
+
+ around its entire length:
+
+ In the case of electric currents, the force in action is not ordinary mechanical
+
+ force...but something outside the conductor, and capable of being affected by
+
+ other conductors in the neighbourhood carrying currents. In this it resembles
+
+ rather the reduced momentum of a driving-point of a machine as influenced by
+
+ its mechanical connexions, than that of a simple moving body like a cannon ball,
+
+ or water in a tube. (p. 539)
+
+ Based on the mechanical presumptions that ground Maxwell's approach, the circuits,
+
+ like the analogous driving-wheels in the flywheel analogue, must be in dynamical
+
+ 11 See the end of Sects. 1 and 2 for more detailed discussions of this relation.
+
+ ^ Springer
+
+This content downloaded from 203.78.15.150 on Mon, 18 May 2020 09:14:27 UTC
+All use subject to https://about.jstor.org/terms
+
+ connection with other structures through the field, in which case "currents are in con
+
+ nexion with every point of the field" (p. 537) and the line integral of electromagnetic
+
+ momentum around the circuit is the correct representation of the circuit's total elec
+
+ 476 C. Lazaroff-Puck
+
+ tromagnetic momentum.
+
+ (F, G, H) ■ dl. (22)
+
+ / Jar ' circuit
+
+ Using Stokes' theorem, we can rewrite this as,
+
+ <f> (F, G, H) ■ dl = jf curl(F, G, H) • dS M(30) (23)
+ J dS V «S
+
+ / dH
+
+ 9G  dF
+
+ dH
+
+ dG
+
+ dF\
+
+ V9y
+
+ dz '
+
+ dz
+
+ dx '
+
+ dx
+
+ By)
+
+ (24)
+
+ where S is a surface and 3S is the edge of the surface, coinciding with the circuit.
+
+ As Maxwell's quantity of total reduced electromagnetic momentum is equivalent
+
+ to Faraday's "Electro-tonic State," it is ostensibly a measure of the strength of the
+
+ field, or "the number of lines of magnetic force which pass through it [the circuit]"
+
+ (p. 556). Thus Maxwell is able to find support for his mathematical representation of
+
+ the electromagnetic momentum of the circuit not only from his flywheel analogy but
+
+ also from the physical geometry he had developed in 1855.
+
+ 3.2.1 Magnetic force (a, ß, y)
+
+ Maxwell's investigation of electromagnetic momentum of a circuit yielded a measure
+
+ of the strength of the magnetic field passing through the circuit. The magnetic force
+
+ per unit area is thus the integrand of the surface integral on the right-hand side of Eq.
+ (23)
+
+ ß (a, ß, y) = curl(F, G, H), M(B) (25)
+
+ where ß is "the ratio of magnetic induction in a given medium to that in air under an
+
+ equal magnetizing force" (p. 556). In modern notation,
+
+ B = curl A. (26)
+
+ 3.3 Electromotive force in a circuit
+
+ The role of the flywheel analogy in the case of induced electromotive force in a circuit
+
+ mirrors its use in the case of the reduced electromagnetic momentum of the circuit.
+
+ Again we should think in terms of the flywheel analogy whereby the electromagnetic
+ momentum referred to the circuit is related to the form and relative position of the
+
+ circuit (gearing ratios in the mechanical case). Maxwell founds his construction of
+
+ an equation for electromotive force on the expression for the total electromagnetic
+
+ momentum in the circuit, a line integral of electromagnetic momentum over the circuit,
+
+ set equal to another expression of total momentum,
+
+ â Springer
+
+This content downloaded from 203.78.15.150 on Mon, 18 May 2020 09:14:27 UTC
+All use subject to https://about.jstor.org/terms
+
+ Gearing up for Lagrangian dynamics 477
+
+ <f (F,G,
+ Jd s
+
+ H) • dl = Lu + Mv. M(33) (27)
+
+ This other expression of total momentum, Lu + Mv, is just the expression for reduced
+
+ momentum in the mechanical case that Maxwell derived in conjunction with the
+
+ flywheel analogy. In the equation above, the total momentum referred to the driving
+
+ point A [cf. Eq. (7)] is set equal to the total electromagnetic momentum of the field
+
+ referred to the circuit A [cf. Eq. (23)].
+
+ Note that Maxwell is mixing electromagnetic and mechanical terms in this equa
+
+ tion. He forgoes including the equivalent electromagnetic quantities, choosing the
+
+ velocities u and v instead of the currents x and y. We thus see that in this first step
+
+ toward constructing a generalized equation of electromotive force, Maxwell grounds
+
+ his analysis in the relations obtained in his mechanical analogy.
+
+ It follows that f, the complete induced electromotive force on A arising from both
+
+ self and mutual induction [the opposite of Eq. (9) in the mechanical analogue and the
+
+ opposite of Eq. (12) without resistance forces in the electromagnetic case], is given in
+
+ terms of the total momentum by:
+
+ $ = --^(Lu + Mv), M(34) (28)
+
+ at
+
+ where the right-hand side is again expressed as a mechanically derived quantity. Using
+
+ Eq. (27), we can also write the right-hand side in explicitly electromagnetic terms,
+
+ -%-f(F,G,H)- dl. (29)
+
+ at /3S
+
+ With the help of Stokes' theorem, the line integral above can be rewritten as
+
+ ~dtJJs CUrl(F' G' H) 'dS = ~ Us it CUrl(F' G' H) 'dS
+
+ -IL
+
+ curl A (F, G, H) ■ dS. (30)
+
+ at
+
+ The circuit should still be thought of as "geared into" the field at every point around
+
+ its entire length justifying the use of another line integral to describe the total induced
+
+ electromotive force "in a circuit." Thus, the left-hand side of Eq. (28) becomes
+
+ <f (P, Ô,
+ /as
+
+ R) ■ dl. M(32) (31)
+
+ Using Stokes' theorem again, we can rewrite this integral as
+
+ curl(P, ß, R) ■ dS. (32)
+
+ IL
+
+ Ô Springer
+
+This content downloaded from 203.78.15.150 on Mon, 18 May 2020 09:14:27 UTC
+All use subject to https://about.jstor.org/terms
+
+ Substituting expressions (32) and (30) for the left and right-hand sides of Eq. (28),
+ respectively, we find:
+
+ 478 C. Lazaroff-Puck
+
+ J J curl(P, Ö, R) • dS = - J J curl (F, G, H) ■ dS. (33)
+
+ It follows from this equation that (P, Q, R) should be equal to G, H) modulo
+ a term V^r, since curl(Vi/0 = 0 for any V- Therefore,
+
+ (P,Q,R) = ~(F,G,H)-V1r, M(35) (34)
+
+ at
+
+ or in modern terms
+
+ E = -^-V<9. (35)
+
+ And thus we have recovered Maxwell's "indeterminate" electric potential, the gra
+
+ dient of i/t. While i/r cannot effect a current in a circuit, it is supposed to indicate "the
+
+ existence of a force urging the electricity to or from certain definite points in the field"
+
+ (p. 558). Factoring in circuits and currents and looking at the induced electromotive
+
+ force around the length of the circuit A, as opposed to dealing with electromotive
+
+ force at some arbitrary point in the field, changes Eq. (21), E = —jf, to Eq. (35),
+
+ E = —jf — V<p (where <p is the electric potential).
+
+ 3.4 Electromotive force on a moving conductor
+
+ Finally, to complete his project of constructing a generalized equation of induced
+
+ electromotive force on an element in the field, Maxwell considers the effect of changes
+
+ to the form and position of a circuit on the electromagnetic momentum of that circuit.
+
+ Maxwell aims to find the induced electromotive force on a moving conductor by
+ introducing correction terms for the expression of induced electromotive force on a
+
+ rigid and stationary circuit given in Eq. (34). It may appear odd that Maxwell was driven
+
+ to complicate this demonstration of the electromotive force on a moving conductor
+
+ by also considering a change in form of the circuit. A modern course on electricity
+
+ and magnetism and even the reconstruction of this paper in Thomas Simpson's guided
+
+ study involve only the motion of a rigid circuit through the field or deal exclusively
+
+ with the moving conductor and the field. Simpson's modernized derivation of v x B
+
+ describes it as merely as "the expression for the electromotive force E induced in a
+
+ conductor moving in a field of magnetic flux B with a velocity v" (Simpson 1997,
+
+ p. 380). Why divide this analysis of a moving conductor up into elements "due to the
+
+ motion of [the] conductor" and others "due to the lengthening of [the] circuit" (p. 559),
+
+ and why begin with the total electromagnetic momentum of the circuit at all? Would
+
+ it not be much simpler to just start with a rigid circuit moving through the field and
+
+ then analyze the force on it by the field, or perhaps analyze the force on the moving
+
+ conductor directly?
+
+ <0 Springer
+
+This content downloaded from 203.78.15.150 on Mon, 18 May 2020 09:14:27 UTC
+All use subject to https://about.jstor.org/terms
+
+ Gearing up for Lagrangian dynamics 479
+
+ v...*
+ T...1
+
+ <:
+ « ; .
+
+ I •>
+
+ C ?
+
+ y
+
+ ""•A
+ "••a
+
+ A
+ A
+ • z
+ : Z
+
+ V
+
+ Fig. 4 Total motion of the conductor and circuit
+
+ To understand Maxwell's reasoning for complicating this problem, we must take a
+ closer look at the system Maxwell investigates and the specific question he seeks to
+ answer. A conductor which makes up the circuit and the circuit itself are allowed to
+
+ move, putting not only the entire circuit in motion through the field, but lengthening
+
+ the circuit as well (as pictured in Fig. 4).
+
+ Let a short straight conductor of length a, parallel to the axis of x, move with a
+
+ velocity whose components wce.dx/dt,dy/dt,dz/dt, and let its extremities slide
+
+ along two parallel conductors with a velocity ds/dt. Let us find the alteration of
+ the electromagnetic momentum of the circuit of which this arrangement forms
+ a part. (p. 558)
+
+ The motion of the short straight conductor, dx/dr, dy/dt, dz/dt, is an absolute motion
+
+ in all directions simultaneously. The wires that make up the whole circuit are also in
+ motion; however, Maxwell only provides the relative velocity of the conductor with
+
+ regard to the circuit, ds/dt. Thus, the whole circuit not only possesses some absolute
+ motion, it also expands in all directions as the conductor rolls along its wires, due
+ to the difference between the circuit's motion and the motion of the short straight
+ conductor. Initially at least, Maxwell is purely concerned with deriving the change
+ in the total electromagnetic momentum [cf. Eq. (23)] of the circuit as a result of the
+
+ absolute motion of the circuit, only later will he use this expression to determine the
+
+ electromotive force on a moving conductor.
+
+ From Maxwell's description of electromotive force, in this case the F-component,
+
+ "representing] the difference of potential per unit of length in a conductor placed in the
+
+ direction of x at the given point" (p. 555), we gather that a straight conductor parallel to
+ an axis may only change the component of electromagnetic momentum corresponding
+
+ to the axis to which it lies parallel. Using this, we consider a few special cases.
+
+ First, as shown in Fig. 5, we examine the case of the short straight conductor moving
+
+ along the axis of y with velocity dy /dt. The rest of the circuit is also moving in the
+
+ y-direction and the relative velocity of the short straight conductor with regard to the
+ circuit is ds/dt.
+
+ Ô Springer
+
+This content downloaded from 203.78.15.150 on Mon, 18 May 2020 09:14:27 UTC
+All use subject to https://about.jstor.org/terms
+
+ Fig. 5 Motion of the conductor and circuit in the ^-direction
+
+ Due to its orientation, the conductor is only able to affect the x-component of elec
+
+ tromagnetic momentum, F. The conductor will produce a change in electromagnetic
+
+ momentum that corresponds to its changing position on the y axis.
+
+ 480 C. Lazaroff-Puck
+
+ dFày
+
+ a (36)
+
+ 9y dr
+
+ The relative motion of the conductor along the y axis with regard to the circuit,
+
+ d.y/dr, will naturally cause an expansion of the circuit. The wires of the circuit which lie
+
+ parallel to the y axis will lengthen, dy /d s, altering the y-component of electromagnetic
+
+ momentum G, per unit length in x}2 resulting in the expression:
+
+ a = a . (37)
+
+ d s dG dy dG dy
+ df dx ds dx dt
+
+ Maxwell is interested in the change in electromagnetic momentum of the circuit
+
+ as a result of the absolute motion of the circuit through the field. To transform these
+
+ changes in electromagnetic momentum due to the motion of the conductor and due
+
+ to the change in configuration of the circuit into the expression for the motion circuit
+ as a whole, we must subtract Eq. (37) from Eq. (36), the terms which result from
+
+ the relative motion of the conductor with regard to the circuit from those which stem
+ from the absolute motion of the conductor. This gives the change in electromagnetic
+
+ momentum due to the total absolute change in position of the circuit:
+
+ dF dy
+
+ U dy df
+
+ • a = a I I —. (38)
+
+ dG dy (dF dG\ dy
+ dx dt \ dy dx J df
+
+ •ö Springer
+
+This content downloaded from 203.78.15.150 on Mon, 18 May 2020 09:14:27 UTC
+All use subject to https://about.jstor.org/terms
+
+ The factor in parentheses is just minus the z-component of curl(F, G, H), which by
+ Eq. (25) is equal to the z-component of the magnetic field, ji (a, ß, y); hence, the
+ right-hand side of Eq. (38) can be written as
+
+ 12 Here we are looking at the electromagnetic momentum of a circuit (not a single conductor as before)
+ from a perspective such that the circuit is defined as the boundary of the area dydx. As the circuit lengthens
+ in the y-direction, the area increases per unit length in a:. As such, the number of lines of magnetic force
+
+ that pass through the circuit will also increase per unit length in a. If we remember that the number of these
+ lines is a measure of electromagnetic momentum, the fact that the expansion is in the y-direction entails a
+
+ change in G, the y-component of electromagnetic momentum, per unit length in x (cf. p. 15).
+
+ Gearing up for Lagrangian dynamics 481
+
+ dy
+
+ ~a^Y~dt' (39)
+
+ Now consider the case of motion in the z-direction. To imagine this we may simply
+
+ switch the labeling of the axes in Fig. 5 to obtain Fig. 6 below.
+
+ Working similarly with this orthogonal case of motion and expansion along the z
+
+ axis, we find
+
+ dF dz AH dz
+ a-—- a — —
+ dz At Ax At
+
+ (AF AH\Az dz
+
+ = <TdF-ïrjd7 = '""î57- <40)
+
+ where in the last step we used that the expression in parentheses is the y-component
+ of curl(F, G, H), which by Eq. (25) is equal to fiß.
+
+ Finally, if we follow these same steps but for a motion of the conductor parallel
+ to x and an expansion of the circuit along the x axis, there will be no change in the
+ electromagnetic momentum of the circuit:
+
+ dF Ax dF Ax
+
+ dx At dx At
+
+ a—— a-—— = 0. (41)
+
+ To find the total change in electromagnetic momentum in the case of a simultaneous
+
+ motion of the conductor parallel to the x axis in all three directions we add up the
+ terms from Eqs. (39) and (40)
+
+ dy „dz / dz dy\
+
+ -aßr-+aße-=aß(ß--y-). (42)
+
+ As Maxwell has been interested in determining the induced electromotive force
+
+ (P, Q, R), or the decrease over time of the electromagnetic momentum of the field
+ which is to be transferred to the circuit due to its motion [cf. Eq. (20)], he must use
+ the opposite of Eq. (42), the total change in the electromagnetic momentum of the
+ circuit, to form P. Although Maxwell began this investigation looking at changes
+ to the electromagnetic momentum of the circuit due to the motion of the circuit, by
+ definition the components of electromotive force (P, Q, R) only affect conductors
+
+ lying parallel to the relevant axes, and thus P is the electromotive force on the moving
+
+ conductor parallel to the x axis. Additionally, as (P, Q, R) is measured in unit length,
+
+ we find that the x-component of the electromotive force on the conductor is given by
+
+ -•> \
+
+ <
+
+ Fig. 6 Motion of the conductor and circuit in the z-direction
+
+ Ô Springer
+
+This content downloaded from 203.78.15.150 on Mon, 18 May 2020 09:14:27 UTC
+All use subject to https://about.jstor.org/terms
+
+ p = ßy^l-ßß^. M(36) (43)
+
+ at at
+
+ This is the ^-component of the cross-product of the velocity (i, y, z) and the B-field
+ ß(oi, ß, y).
+
+ 482 C. Lazaroff-Puck
+
+ In the cases of the conductor laying parallel to the y or z axes minor variations
+
+ yield results for Q and R. Eq. (43) is a correction to Eq. (34) to account for the effects
+
+ due to the motion of a conductor. The completed generalized equation of induced
+ electromotive force (P, Q, R) is then
+
+ 9F_ 9Vr
+ dt dx
+
+ dG dé
+
+ e="(',f ~yî)
+
+ T,~Ty M(D)
+
+ /dx dy\ dH dxß
+
+ *)--*-*■ <44)
+
+ In terms we recognize it is
+
+ F = v x B — — — V(p. (45)
+
+ dt
+
+ Substituting in the relation between B and A that Maxwell established in his discussion
+
+ of magnetic force, we may rewrite the equation (Darrigol 2000, p. 160):
+
+ F = v x (curlA) — Vcp. (46)
+
+ 9A
+
+ dt
+
+ Returning to the question with which we began this discussion, why then did
+
+ Maxwell complicate this derivation by changing the shape of the circuit and begin
+
+ ning with the total electromagnetic momentum of the circuit if he ends up with the
+
+ same equations for induced electromotive force as the much simpler alternatives?
+ The answer to our question is that the analogical foundation of Maxwell's 1865
+
+ paper suggests this more convoluted analytical route. The concept of electromagnetic
+
+ momentum is at the heart of the dynamical analogy and although the line integral
+
+ of electromagnetic momentum around the circuit has replaced the more evidently
+
+ mechanical quantity of reduced/electromagnetic momentum, Lu + Mv, Maxwell's
+
+ analysis still follows the path suggested by the dynamical analogy and describes the
+
+ initial system in terms of the total electromagnetic momentum of a circuit. For a passive
+
+ or driving-wheel the expression describing its total induced force from the flywheel
+
+ contains both terms L (or N) and M, which in the case of the flywheel contains the
+
+ gearing ratios of both wheels. In the case of electromagnetism, L refers to the form of
+
+ the circuit and M to its relative position. The analogy itself suggests the grouping of
+
+ analysis by types which are mechanically defined, but also indicates that changes in
+
+ M necessarily impact L or N. Having already covered induced electromotive forces
+
+ due to changes in the electromagnetic momentum of the field (in the mechanical case
+
+ £) Springer
+
+This content downloaded from 203.78.15.150 on Mon, 18 May 2020 09:14:27 UTC
+All use subject to https://about.jstor.org/terms
+
+ Gearing up for Lagrangian dynamics 483
+
+ changes in the velocity of driving-wheels), the final step is to cover induced electro
+
+ motive forces due to motion of a circuit through the field (changes in gearing ratios).
+
+ In deriving the effect of the field on a moving circuit, the analogical foundations of this
+
+ paper require an analysis of a change in form of the circuit in motion so we can remove
+
+ its effect on the electromagnetic momentum of the circuit and isolate the change due
+
+ to the absolute motion of the circuit itself. After a careful setup and analysis, Maxwell
+
+ is able to remove the change in electromagnetic momentum due the alteration of the
+
+ circuit's configuration and isolate the change due to the motion of the circuit (we get
+
+ the same result starting with a moving rigid circuit); nonetheless, it is the flywheel
+
+ analogy that suggests this roundabout approach to deriving the generalized equation
+
+ for the induced electromotive force on a moving conductor.
+
+ 4 Similar methods: 1855 and 1865
+
+ In the introduction to this paper I quoted a paragraph from Maxwell's "On Faraday's
+
+ Lines of Force" demonstrating the balance he hoped to find between physical analogy
+
+ and abstract mathematics. I have shown how "A Dynamical Theory of the Electromag
+
+ netic Field" achieves a similar balance by demonstrating the significance of Maxwell's
+
+ analogy to a mechanical flywheel as a complement to his abstract mathematics, the
+
+ latter having already been widely explored in the literature. If such a balance exists
+
+ in Maxwell's 1865 paper, the origin of this quote suggests that there is likely a strong
+
+ methodological similarity between his 1855 and 1865 papers.
+
+ Maxwell's "On Faraday's Lines of Force" achieved what Maxwell later described
+
+ as a translation of "what I considered to be Faraday's ideas into a mathematical form"
+
+ (Maxwell 1873, Vol. 1, pp. ix-x). In William Thomson's work on potential theory,
+
+ Maxwell found a fitting mathematical expression to translate Faraday's lines of force
+
+ carving up space into a symbolic form, one which would preserve the idea of "contin
+
+ uous action in a medium" inherent in Faraday's geometrical concept and which would
+
+ form the foundation of Maxwell's similarly geometric theory of the electromagnetic
+
+ field (Harman 1998, p. 72). Maxwell would also borrow from the formal analogy that
+
+ Thomson had created between the equations of electrostatics and heat flow, although
+
+ he replaced heat with an imaginary incompressible fluid in part because by that time
+
+ heat was no longer considered to be a substance. Norton Wise, Peter Harman, Francis
+
+ Everitt, Olivier Darrigol, and the late Martin Goldman all give an account of the ways
+
+ in which Maxwell makes this analogy "useful in exciting appropriate mathematical
+
+ ideas" (Maxwell 1855, p. 157). Nevertheless, Wise's account of Maxwell's 1855 paper
+
+ is not only the most comprehensive, it is also the only history to unequivocally charac
+
+ terize the geometry and analogies within that paper as something more than abstract
+
+ mathematical analogy.
+
+ Wise first establishes two related uses of the flow analogy in Maxwell's first paper.
+
+ Initially it serves to provide a physical distinction between electric and magnetic
+
+ quantities and intensities beyond the purely geometrical distinction that Maxwell had
+
+ derived from his interpretation of Faraday. This distinction is inherent to the flow anal
+
+ ogy in the form of flux and pressure gradient; however, he must imagine that the fluid is
+
+ incompressible (to preserve conservation of flux akin to Faraday's continuous lines of
+
+ •£) Springer
+
+This content downloaded from 203.78.15.150 on Mon, 18 May 2020 09:14:27 UTC
+All use subject to https://about.jstor.org/terms
+
+ 484 C. Lazaroff-Puck
+
+ force) and that it flows through a resistive medium (to obtain a pressure gradient). As
+
+ Wise makes clear, "[t]he constant [of the medium of propagation] provides, at least in
+
+ principle, an observational basis for the earlier purely geometrical distinction" (Wise
+
+ 1977, p. 188). What was once a "purely geometrical distinction between 'polarization
+
+ along a line' and 'polarization over a surface'," was transformed by the introduction
+
+ of this constant into "a highly physical one" (Wise 1977, pp. 188). The added "con
+
+ stant pressure surfaces separated by unit pressure difference" not only completes the
+
+ translation of countable geometrical elements into physical ones, "[b]ut this time the
+
+ elements are explicitly 'unit cells' distinguished by the fact that 'the work spent in
+
+ overcoming resistance is...unity in every cell in every unit of time.' Here is another
+
+ physical aspect of the fluid analogy; it serves conceptually to distribute the 'potential
+
+ of the system,' analogized to the total work per unit time done by the fluid; over all
+ space" (Wise 1977, p 188).
+
+ Additionally, Wise describes a third use of the flow analogy, working in tandem with
+
+ Faraday's image of the "mutually embracing curves" of magnetic and electric lines,13
+
+ that directs Maxwell's construction of his own version of Faraday's electrotonic state.
+
+ The symmetry expressed by the "embracing curves" is clarified and bolstered by the
+
+ flow analogy, insofar as both curves, current and magnetic lines, can be represented as
+
+ fluxes (Wise 1977, p. 207). In search of the exact relation suggested by this symmetry,
+
+ between electric intensity in induction and the change in magnetic quantity, to be
+
+ described by the electrotonic state, Maxwell's approach reveals the guiding force of
+
+ the flow analogy in his analysis: "the fundamental equation for continuous tubes of
+
+ flow, Divergence a[quantity/flux] = 0, is what guarantees the possibility of the new
+
+ [electrotonic] state" (Wise 1977, pp. 203-207). Faraday's Electro-tonic State would
+
+ return in 1862 and, as we have seen, even more spectacularly in 1865, reconstituted as
+
+ electromagnetic momentum. In each case it was birthed from Maxwell's exploitation
+
+ of physical analogy.
+
+ While the use of physical analogy proved to be a fruitful approach in "On Faraday's
+
+ Lines of Force," Maxwell remained extremely cautious of overextending the relation
+
+ ship throughout the paper. The accompanying flow analogy was intended as purely
+ illustrative,
+
+ [i]t is merely a collection of imaginary properties which may be employed for
+
+ establishing certain theorems in pure mathematics in a way more intelligible
+
+ to many minds and more applicable to physical problems than that in which
+
+ algebraic symbols alone are used. (Maxwell 1855, p. 160)
+
+ He reminded his readers that he was creating a physicalized geometry based on Fara
+
+ day's ideas and informed by the flow analogy, but that he was by no means supplying
+
+ a physical hypothesis.
+
+ We find then that in both 1855 and 1865 Maxwell utilized very similar methods. The
+
+ physical analogies in both papers provide clear conceptual foundations for otherwise
+ unclear electromagnetic phenomena and guided Maxwell's mathematical analysis.
+
+ In 1855, the flow analogy (and the accompanying physical geometry) grounds the
+
+ 13 For discussion of Maxwell's use of Faraday's "mutually embracing curves" see (Wise 1979).
+
+ Springer
+
+This content downloaded from 203.78.15.150 on Mon, 18 May 2020 09:14:27 UTC
+All use subject to https://about.jstor.org/terms
+
+ Gearing up for Lagrangian dynamics 485
+
+ electromagnetic concepts of quantity and intensity in the more accessible concepts of
+
+ fluxes and pressure gradients, while in 1865 the analogy to a mechanical flywheel does
+
+ similar work to ground electromagnetic concepts in mechanics, for example relating
+
+ coefficients of self and mutual induction to moments of inertia. In both papers the
+
+ analogies suggest fundamental reconsiderations of space. The flow analogy distributes
+
+ the "potential of the system" across empty space, and the flywheel does the same
+
+ for the "intrinsic energy of the currents." These two analogies help him distinguish
+
+ particular electromagnetic phenomena by analogy to the corresponding physical case,
+
+ providing a "natural physical partitioning," a systematic framework within which
+
+ Maxwell's mathematical analysis could operate (Wise 1977, p. 136). These elements
+
+ defined through the flow and flywheel analogies then suggest particular routes for
+
+ Maxwell's mathematical analysis that allow for the construction of the electrotonic
+
+ state in 1855 and a generalized equation for induced electromotive force in 1865
+
+ respectively. Finally, in neither case does Maxwell go so far as to suggest that these
+
+ analogies might be hypothetical models of reality, rather they are both regarded as
+
+ illustrative, despite the crucial role each physical analogy played in the development
+
+ of Maxwell's thoughts on electromagnetism.
+
+ Before we move on, we should take note of a subtle difference between Maxwell's
+
+ 1855 flow analogy and the flywheel analogy in his "Dynamical Theory." Neither anal
+
+ ogy suggests any particular microscopic construction of the electromagnetic ether;
+
+ however, they do make different claims about the nature of electromagnetic systems.
+
+ The earlier flow analogy is able to draw upon two distinct analogues, fluid flow and
+
+ heat flow, and insofar as the latter sufficiently expresses the quantities and relations
+
+ Maxwell exports to electromagnetism, there is no motivation to adopt a mechanically
+
+ grounded interpretation of electromagnetism (as might be suggested by the fluid flow
+
+ analogy alone) (Wise 1979, p. 1311). The direct transcription of dynamical quantities
+
+ and relations from a differential system (of which the flywheel is just one example) to
+
+ electromagnetism in Maxwell's "Dynamical Theory" lacks the agnosticism of the flow
+
+ analogy. In 1865 there is, broadly speaking, only one analogue, dynamics. Electromag
+
+ netism is just another dynamical system, containing the same mechanical quantities
+
+ of energy and momentum as the flywheel. As such, the 1865 analogy represents a spe
+
+ cial subset of physical analogy, it is a "dynamical analogy," as it necessarily involves
+
+ dynamics on at least one side of the analogy, but it also borders upon "dynamical
+
+ explanation," as electromagnetic energy and momentum do more than correspond to
+
+ their mechanical counterparts, they are identical (Turner 1956, pp. 36-37).
+
+ In this way, although the methodologies guiding these two papers are very simi
+
+ lar and strike a similar balance between physical analogy and abstract analysis, they
+
+ operate at different levels of physical theory. The theory built upon the physical geom
+
+ etry and flow analogy in "Faraday's Lines" is more general than his later theory built
+
+ upon dynamical analogy (and at times dynamical explanation) as the former makes
+
+ no claims regarding the nature of electromagnetic systems. To borrow a phrase from
+
+ Maxwell's Apostles Club essay, he has dialed up the "focusing glass of theory...to
+
+ one pitch of definition, and [later] to another" (Maxwell 1990, p. 377).
+
+ Springer
+
+This content downloaded from 203.78.15.150 on Mon, 18 May 2020 09:14:27 UTC
+All use subject to https://about.jstor.org/terms
+
+ 486 C. Lazaroff-Puck
+
+ 5 The flywheel as an "Experiment of Illustration"
+
+ Maxwell's flywheel analogy continued to be used as a mechanical illustration of elec
+ tromagnetic induction by theoreticians across Europe as well as electrical engineers
+ in England, "throw[ing] light upon some scientific idea so that the student may be
+ enabled to grasp it" (Maxwell 1871, p. 242). In 1890 Lord Rayleigh would reimagine
+ Maxwell's flywheel, already in use at the Cavendish, as a system of weights and pul
+ leys because he lacked access to differential gears (Rayleigh 1890, p. 434). Although
+ Ludwig Boltzmann knew of the existence of Maxwell's flywheel through Rayleigh, he
+
+ admitted, "unfortunately, I am not familiar with [it]" (Boltzmann 1891, p. 45). Thus
+ when imagining his own system to illustrate electromagnetic induction, Boltzmann
+ based his design on Rayleigh's "very simple apparatus" (Boltzmann 1891, p. 45). Nev
+ ertheless, Boltzmann's device remains tied to Maxwell's flywheel not only through
+ their shared purpose, but also through a shared mechanical lineage joined by Rayleigh.
+
+ Boltzmann not only included an illustration of a significantly more complicated appa
+ ratus or Bizykel in his 1891 "Lectures on Maxwell's Theory of Electricity and Light,"
+
+ he also had a physical model built, one which he held very dear and often brought with
+ him on trips (Boltzmann 1891, p. 21, Fig. 15; Eckert 2001). Boltzmann's flywheel is
+ shown in Fig. 7.
+
+ The relation of the components and operation of this flywheel to electromagnetic
+
+ phenomena mirrors those described by Rayleigh and can be translated into the dif
+ ferential gear analogy exploited by Maxwell. The added complications were inspired
+ by a major flaw Boltzmann had made note of in Rayleigh's design (one common to
+ Maxwell's flywheel), namely that "the parameters can not be changed in it which for
+
+ Fig. 7 Boltzmann's flywheel,
+ Fig. 7 Boltzmann's flywheel.
+ (Boltzmann 1891, Fig. 15;
+ (Boltzmann 1891, Fig. 15;
+ reprinted and discussed in
+ reprinted and discussed in
+ Eckert 2001)
+ Eckert 2001)
+
+ <£) Springer
+
+This content downloaded from 203.78.15.150 on Mon, 18 May 2020 09:14:27 UTC
+All use subject to https://about.jstor.org/terms
+
+ Gearing up for Lagrangian dynamics 487
+
+ us is rather essential" (Boltzmann 1891, p. 45). Boltzmann's additions only deepened
+
+ the connection to electromagnetism, allowing Boltzmann to alter the terms L, M, and
+
+ N, thus providing a powerful mechanical demonstration of the effects of moving and
+
+ morphing circuits (Boltzmann 1891, pp. 27-28, 45). Boltzmann also lent the model
+
+ out to Arnold Sommerfeld and an image of the central mechanism of a differential gear
+
+ flywheel made an appearance in Sommerfeld's textbook on mechanics (Sommerfeld
+
+ 1952, p. 255; Eckert 2001). There, it was again distinguished as an illustrative analogy
+
+ through which students could conceptualize electromagnetic induction, although by
+
+ this time Sommerfeld already thought the flywheel was "much more complicated than
+
+ Maxwell's theory which it was intended to illustrate" and therefore was better served
+
+ as "an exercise on the differential of an automobile" (Sommerfeld 1952, p. 225).
+
+ Although Maxwell was judicious in his use of an analogy between mechanics
+
+ and electromagnetism in the Treatise, certain English electrical engineers shared
+
+ Maxwell's opinion that "[i]t is difficult, however, for the mind which has once recog
+
+ nized the analogy between phenomena of self-induction and those of the motion of
+
+ material bodies, to abandon altogether the help of this analogy, or to admit that it is
+
+ entirely superficial and misleading" (Maxwell 1873, Vol. 2, p. 181; quoted and dis
+
+ cussed by Gooday 2004, p. 180). One of those engineers, John Hopkinson, appealed
+
+ explicitly to Maxwell's flywheel analogy in his lecture "On Some Points in Electric
+
+ Lighting," delivered in 1883 to the Institution of Civil Engineers (Hopkinson 1883). In
+
+ trying to give a theoretical account of the possibilities for alternating current machines,
+
+ Hopkinson used the analogy to illustrate that electrical circuits acted as if they had
+
+ inertia (Hopkinson 1883, p. 60; discussed by Gooday 2004, pp. 186-188). In this way,
+
+ the flywheel analogy remained an important teaching tool until nearly the end of the
+
+ 19th century, entrenched by the underlying connections between the construction and
+
+ operation of the mechanical device and Maxwell's formulation of his equations for
+
+ electrodynamics.
+
+ 6 Conclusion
+
+ In this study of Maxwell's 1865 paper "A Dynamical Theory of the Electromagnetic
+
+ Field," I set out to demonstrate the significance of an analogy to a mechanical differen
+
+ tial and the flywheel analogy in particular to Maxwell's approach in this culmination
+
+ of his three major papers on electromagnetism. The received wisdom concerning
+ this paper has emphasized the Lagrangian dynamics that Maxwell exploits to build
+
+ his theory of electromagnetism, often entirely ignoring the complementary contri
+
+ butions of the analogy to a flywheel. Given then that Maxwell leaned heavily on
+
+ a mechanical analogy while constructing his 1865 paper, the prior work done to
+
+ understand Maxwell's use of Lagrangian dynamics as well as his usage of analogy in
+
+ general is necessarily incomplete. I have attempted to fill this gap in the literature and
+
+ uncover the ways in which Maxwell's flywheel analogy worked alongside his abstract
+
+ mathematics, particularly in those instances where the underdeveloped physics of elec
+
+ tromagnetism was ill-equipped to direct his analysis. The flywheel analogy was shown
+
+ to elucidate electromagnetic phenomena by providing clear physical concepts in which
+
+ more complicated electromagnetic analogues could be grounded. At times the analogy
+
+ •£) Springer
+
+This content downloaded from 203.78.15.150 on Mon, 18 May 2020 09:14:27 UTC
+All use subject to https://about.jstor.org/terms
+
+ 488 C. Lazaroff-Puck
+
+ suggested, or at the least justified mathematical operations which proved crucial in
+
+ Maxwell's journey toward building up a complete and fully generalized electromotive
+
+ force. More importantly the flywheel analogy defined and generated distinctions in the
+
+ mechanical case and by analogy in electromagnetism, guiding Maxwell in his group
+
+ ing of particular phenomena and suggesting a particular route for his further analysis.
+
+ As such, the gap between Maxwell's 1862 hypothetical model of the electromagnetic
+
+ medium and his 1865 publication has shrunk considerably. They no longer represent
+
+ the extremes of possible uses of physical analogy. The 1862 paper remains where it
+
+ was, with Maxwell overcommitted to a hypothetical model of the ether; however, the
+
+ 1865 paper can no longer be described as driven entirely by an extension of Lagrangian
+
+ dynamics. Instead the 1865 paper is characterized by a complementary relationship
+
+ between a pictorial mechanical analogy and an extension of Lagrangian dynamics,
+
+ moving it away from the purely mathematical extreme and closer in approach to "On
+ Physical Lines of Force."
+
+ Including the flywheel analogy in the story of Maxwell's maturing thoughts on
+
+ electromagnetism allows us to note a striking similarity between Maxwell's use of
+
+ illustrative analogies in his 1855 paper "On Faraday's Lines of Force" and in 1865's
+
+ "A Dynamical Theory of the Electromagnetic Field." The flow analogy's role in 1855,
+
+ as reconstructed by Wise parallels that of the flywheel, insofar as in both cases they
+
+ not only provide clear physical conceptions, but also guide Maxwell's mathematical
+
+ analysis. Nevertheless, the impulse toward mechanics inspired by the dynamical anal
+
+ ogy highlights the greater generality of Maxwell's 1855 approach and suggests an
+ interpretation of his "Dynamical Theory" as a compromise between the mechanical
+
+ model of 1862 and the noncomittal flow analogy of 1855.
+
+ In light of the importance of the flywheel analogy, Maxwell's approach in "A
+
+ Dynamical Theory of the Electromagnetic Field" is best seen not as a theory built
+
+ purely on an analogy to Lagrangian dynamics, but rather as one that achieved a coop
+ erative balance between physical analogy and abstract mathematics. The 1865 paper
+ is an "effectual study of science" in the sense that Maxwell proposed in the intro
+ duction to "On Faraday's Lines of Force." The success of Maxwell's "Dynamical
+ Theory" is rooted in his ability to retain "sight of the phenomena to be explained"
+
+ by grounding them in clear physical conceptions drawn from his mechanical analogy
+
+ and to "obtain more extended views of the connexions of the subject" by using this
+
+ mechanical analogy to guide his mathematical analysis. Similarly, the status of the
+
+ flywheel analogy, not as a "physical hypothesis" but an illustrative analogy, guards
+
+ Maxwell from "that blindness to facts and rashness in assumption which a partial
+
+ explanation encourages." By 1865 Maxwell had again arrived at this methodological
+
+ harmony, "which allows the mind at every step to lay hold of a clear physical con
+
+ ception, without being committed to any theory founded on the physical science from
+
+ which that conception is borrowed, so that it is neither drawn aside from the subject in
+
+ pursuit of analytical subtleties, nor carried beyond the truth by a favorite hypothesis"
+
+ (Maxwell 1855, pp. 155-156). As historians have pointed out, in 1865 Maxwell rid
+
+ himself of commitments to any hypotheses about the physical makeup of the field;
+
+ however, this does not mean that he made the opposite move and chose to deal exclu
+
+ sively in the language of abstract mathematics. Maxwell makes liberal use of a strong,
+
+ Ô Springer
+
+This content downloaded from 203.78.15.150 on Mon, 18 May 2020 09:14:27 UTC
+All use subject to https://about.jstor.org/terms
+
+ Gearing up for Lagrangian dynamics 489
+
+ as he puts it, "illustrative" mechanical analogy to supply himself with clear physical
+
+ conceptions and to fully extend the reach of his "Dynamical Theory."
+
+ Acknowledgments I am grateful to Michel Janssen for his help in the development of the ideas and
+
+ reconstructions presented in this paper. Additionally, I would like to thank the members of the University
+
+ of Minnesota's "Physics Interest Group" for their thoughtful comments when this paper was delivered as a
+
+ talk, Michael Eckert for pointing out that the flywheel analogy had at least two German speaking fans, and
+
+ Ekaterina Titova for her encouragement and for always flipping through the pictures. Additionally, I find
+
+ myself greatly indebted to the late Martin Goldman in whose book I first encounted the crucial quote from
+ "On Faraday's Lines of Force" describing the balance between analogical and mathematical approaches.
+
+ Finally, I want to thank Jed Buchwald for his help in editing this paper and pushing me to more critically
+
+ examine my own understanding of Maxwell and his methodology.
+
+ References
+
+ Boltzmann, Ludwig. 1891. Vorlesungen über Maxwells Theorie der Elektricität und des Lichtes, vol. 1.
+
+ Leipzig: Johann Ambrosius Barth.
+
+ Campbell, Lewis, and William Garnett. 1882. The life of James Clerk Maxwell: With a selection from
+ his correspondence and occasional writings and a sketch of his contributions to science. London:
+ Macmillan.
+
+ Darrigol, Olivier. 2000. Electrodynamics from Ampere to Einstein. Oxford: Oxford University Press.
+ Eckert, Michael. 2001. Sommerfeld und das Boltzmannsche Bizykel. (read 2001) Personal Communication
+
+ by Michael Eckert.
+
+ Everitt, C.W.F. 1975. James Clerk Maxwell: Physicist and natural philosopher. New York: Scribners.
+
+ Goldman, Martin. 1983. The demon in the aether: The life of James Clerk Maxwell. Edinburgh: Paul Harris.
+
+ Gooday, Graeme J.N. 2004. The morals of measurement: Accuracy, irony, and trust in late Victorian elec
+
+ trical practice. Cambridge: Cambridge University Press.
+
+ Harman, Peter M. 1998. The natural philosophy of James Clerk Maxwell. Cambridge: Cambridge University
+
+ Press.
+
+ Hopkinson, John. 1883. On some points in electric lighting, (read 5 April 1883) Original papers by the late
+ John Hopkinson, D.Sc, F.R.S. Vol. 1,57-83. Cambridge: Cambridge University Press, 1901.
+ Jeans, James. 1931. James Clerk Maxwell's method. In James Clerk Maxwell: A commemoration volume,
+
+ 1831-1931,91-108. Cambridge: Cambridge University Press.
+
+ Lagrange, Joseph Louis. 1997. Analytical mechanics, Trans, and ed. Auguste Boissonnade and Victor N.
+
+ Vagliente. Boston: Kluwer Academic.
+
+ Maxwell, James Clerk 1855. On Faraday's lines of force, (read 10 Dec. 1855 and 11 Feb. 1856) Transactions
+
+ of the Cambridge philosophical society. 10. 1864, 27-65. All page numbers refer to the reprint on
+ Faraday's lines of force. The scientific papers of James Clerk Maxwell, ed. W.D. Niven, Vol. 1,155—
+ 229. Cambridge: Cambridge University Press, 1890.
+
+ Maxwell, James Clerk. 1862. On physical lines of force, part I: The theory of molecular vortices applied
+
+ to magnetic phenomena. Philosophical Magazine 21(139): 161-175 (Mar 1861); On physical lines of
+
+ force, part II: The theory of molecular vortices applied to electric currents. Philosophical Magazine
+
+ 21(140): 281-291 (April 1861); On physical lines of force, part II: The theory of molecular vortices
+ applied to electric currents. Philosophical Magazine 21(141): 338-345 (May 1861); On physical
+ lines of force, part III: The theory of molecular vortices applied to statical electricity. Philosophical
+
+ Magazine 23(151): 12-24 (Jan 1862); On physical lines of force, part IV: The theory of molecular
+
+ vortices applied to the action of magnetism on polarized light. Philosophical Magazine 23(152): 85-95
+
+ (Feb 1862). All page numbers refer to the collected reprint on physical lines of force. The scientific
+
+ papers of James Clerk Maxwell, ed. W.D. Niven, Vol. 1,451-513. Cambridge: Cambridge University
+ Press.
+
+ Maxwell, James Clerk. 1864. A dynamical theory of the electromagnetic field, (received Oct. 27.1864). In
+
+ A dynamical theory. London: Libraries of the Royal Society.
+
+ Maxwell, James Clerk. 1865. A dynamical theory of the electromagnetic field, (read Dec. 8 1864) Philo
+ sophical Transactions of the Royal Society of London. 155. Jan. 1865. 459-512. All page numbers
+
+ Springer
+
+This content downloaded from 203.78.15.150 on Mon, 18 May 2020 09:14:27 UTC
+All use subject to https://about.jstor.org/terms
+
+ refer to the reprint a dynamical theory of the electromagnetic field. The scientific papers of James
+ Clerk Maxwell, ed. W.D. Niven, Vol. 1, 526-597. Cambridge: Cambridge University Press, 1890.
+
+ Maxwell, James Clerk. 1868. On governors. Proceedings of the Royal Society of London. 16. March 5,
+
+ 270-283. All page numbers refer to the reprint on governors. The scientific papers of James Clerk
+
+ Maxwell, ed. W.D. Niven, Vol. 2,105-120. Cambridge: Cambridge University Press, 1890.
+
+ Maxwell, James Clerk. 1871. Introductory lecture on experimental physics, (read Oct. 1871) The scientific
+
+ papers of James Clerk Maxwell, ed. W.D. Niven. Vol. 2,241-255. Cambridge: Cambridge University
+ Press, 1890.
+
+ 490 C. Lazaroff-Puck
+
+ Maxwell, James Clerk. 1873. A treatise on electricity and magnetism, 2 volumes, 1st ed. Cambridge:
+
+ Cambridge University Press.
+
+ Maxwell, James Clerk. 1879. Thomson and Tait's Natural Philosophy. Rev. of Natural Philosophy, by
+
+ William Thomson and Peter Guthrie Tait. Nature. 20. 3 July 1879. 213-216. All page numbers refer
+
+ to the reprint Thomson and Tait's Natural Philosophy. The scientific papers of James Clerk Maxwell,
+ ed. W.D. Niven. Vol. 2, 776-785. Cambridge: Cambridge University Press, 1890.
+
+ Maxwell, James Clerk. 1892. A treatise on electricity and magnetism, vol. 2,3rd ed, ed. J.J. Thomson. New
+
+ York: Dover.
+
+ Maxwell, James Clerk. 1990. The scientific letters and papers of James Clerk Maxwell, vol. 1, ed. Peter M.
+
+ Maxwell, James Clerk. 1995. The scientific letters and papers of James Clerk Maxwell, vol. 2, ed. Peter M.
+
+ Harman. Cambridge: Cambridge University Press.
+
+ Harman. Cambridge: Cambridge University Press.
+
+ Harman. Cambridge: Cambridge University Press.
+
+ Maxwell, James Clerk. 2002. The scientific letters and papers of James Clerk Maxwell, vol. 3, ed. Peter M.
+
+ Mayr, Otto. 1971. Victorian physicists and speed regulation: An encounter between science and technology.
+
+ Notes and Records of the Royal Society of London 26(2): 205-228.
+
+ Rayleigh, John William Strutt, Baron. 1890. On Huygens's gearing in illustration of the induction of electric
+
+ currents. (Read May 16 1890). Proceedings of the Physical Society of London. 10: 434-437.
+
+ Siegel, Daniel M. 1991. Innovation in Maxwell's electromagnetic theory: Molecular vortices, displacement
+
+ current, and light. Cambridge: Cambridge University Press.
+
+ Simpson, Thomas K. 1997. Maxwell on the electromagnetic field: A Guided Study. New Jersey: Rutgers
+
+ Sommerfeld, Arnold. 1952. Lectures on theoretical physics: Mechanics. Trans. Martin O. Stem. Vol. 1.
+
+ University Press.
+
+ New York: Academic Press.
+
+ Turner, Joseph. 1956. Maxwell on the logic of dynamical explanation. Philosophy of Science 23: 36-47.
+ Wise, Matthew Norton. 1977. The flow analogy to electricity and magnetism: Kelvin and Maxwell. PhD
+
+ dissertation, Princeton University. Ann Arbor: ProQuest/UMI. (No. 77-14252).
+
+ Wise, Matthew Norton. 1979. The mutual embrace of electricity and magnetism. Science. New Series
+
+ 203(4387): 1310-1318.
+
+ â Springer
+
+This content downloaded from 203.78.15.150 on Mon, 18 May 2020 09:14:27 UTC
+All use subject to https://about.jstor.org/terms
+
+

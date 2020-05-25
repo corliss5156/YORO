@@ -1,0 +1,4478 @@
+ 
+
+ 
+
+ 
+
+ 
+
+Integral equations between theory and practice: the cases of Italy and France to 1920
+Author(s): T. Archibald and  R. Tazzioli
+Source: Archive for History of Exact Sciences, Vol. 68, No. 5 (September 2014), pp. 547-597
+Published by: Springer
+Stable URL: https://www.jstor.org/stable/24569570
+Accessed: 19-05-2020 09:54 UTC
+
+ 
+REFERENCES 
+Linked references are available on JSTOR for this article:
+https://www.jstor.org/stable/24569570?seq=1&cid=pdf-reference#references_tab_contents 
+You may need to log in to JSTOR to access the linked references.
+
+JSTOR is a not-for-profit service that helps scholars, researchers, and students discover, use, and build upon a wide
+
+range of content in a trusted digital archive. We use information technology and tools to increase productivity and
+
+facilitate new forms of scholarship. For more information about JSTOR, please contact support@jstor.org.
+
+Your use of the JSTOR archive indicates your acceptance of the Terms & Conditions of Use, available at
+
+https://about.jstor.org/terms
+
+Springer is collaborating with JSTOR to digitize, preserve and extend access to Archive for
+History of Exact Sciences
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 09:54:30 UTC
+All use subject to https://about.jstor.org/terms
+
+ Arch. Hist. Exact Sci. (2014) 68:547-597
+ DOI 10.1007/s00407-013-0132-2
+
+ Integral equations between theory and practice:
+ the cases of Italy and France to 1920
+
+ T.Archibald · R.Tazzioli
+
+ Received: 3 July 2013 / Published online: 13 November 2013
+
+ © Springer-Verlag Berlin Heidelberg 2013
+
+ Abstract In 1899, Ivar Fredholm discovered how to treat an integral equation using
+ conceptual methods from linear algebra and use these ideas to solve certain classes
+
+ of boundary value problems. He formulated a theory allowing him both to unify large
+
+ classes of problems and to attack several problems fruitfully. The historical litera
+
+ ture on the theory of integral equations has concentrated largely on the unification
+
+ that was afforded by Hilbert and his school, but has not throughly investigated the
+
+ roots of the subject in the older theory of partial differential equations, as developed
+
+ for instance by Fredholm himself but also by Volterra and Levi-Civita. By concen
+
+ trating on work issuing from this older tradition, in particular on French and Italian
+
+ work, the paper shows how the new theory of integral equations was enthusiastically
+
+ received, especially for its fruitful applications to areas of mathematical physics such
+
+ as hydrodynamics, elasticity, and heat theory.
+
+ La théorie des équations intégrales, née d'hier, est d'ores et déjà classique. Elle a
+ fait son entrée dans plusieurs de nos enseignements. Nul doute que—peut-être à
+
+ Communicated by: Jeremy Gray.
+
+ The authors wish to thank Umberto Bottazzini and the editors of AHES for valuable comments.
+
+ Archibald's research for this paper was supported in part by the Social Sciences and Humanities Research
+
+ Council (Canada), by the Dibner Institute for the History of Science and Technology, then at ΜΓΓ, and by
+ Simon Fraser University.
+
+ Department of Mathematics, Simon Fraser University, Bumaby, BC, Canada
+ e-mail: tarchi@math,sfu.ca
+
+ T. Archibald (13)
+
+ R. Tazzioli
+
+ UFR de mathématiques, Laboratoire Paul Painlevé, UMR CNRS 8524,
+ Université de Sciences et Technologie de Lille, Lille, France
+ e-mail: rossana.tazzioli@math.univ-lillel.ff
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 09:54:30 UTC
+All use subject to https://about.jstor.org/terms
+
+ £) Springer
+
+ 548 T. Archibald, R. Tazzioli
+
+ la faveur de nouveaux perfectionnements—elle ne s'impose bientôt à la pratique
+
+ courante de calcul. C'est une fortune rare parmi les doctrines mathématiques, si
+
+ souvent destinées à rester des objets de musée.
+
+ J. Hadamard, Préface to (Hey wood and Fréchet 1912, ν).
+
+ 1 Introduction and background
+
+ 1.1 Integral equations, functional analysis, and boundary value problems
+
+ For the mathematics student of today, the 1900 result of Ivar Fredholm will typically
+
+ appear in a fairly advanced introduction to analysis, in a chapter on compact operators,
+
+ for example as a corollary to Atkinson's theorem.1 Fredholm's more limited result,
+
+ in modern language, states roughly that the spectrum of a compact operator Τ on
+ a Hilbert space consists of {0} and the eigenvalues for T, and is a countable sub
+
+ set of the complex plane with 0 as the only possible accumulation point (Pedersen
+
+ 1988,111). This tidy description obscures the pivotal position of this theorem in early
+
+ twentieth-century analysis. The theorem was conceived as a contribution to the theory
+
+ of functional equations involving integrals, though the author, Ivar Fredholm, saw at
+
+ once its usefulness in demonstrating the existence of solutions to certain boundary
+
+ value problems involving partial differential equations. In this paper, we explore the
+
+ context in which the theorem was developed, and discuss its reception.
+
+ This approach contrasts with the context in which this work has often been seen
+
+ by mathematicians and historians until recently. Already in the Enzyklopadie der
+
+ mathematischen Wissenschaften II, 3, for example, in the 1927 article on integral
+
+ equations by Hellinger and Toeplitz (1927), all of this work was placed in the light of
+
+ subsequent developments in abstract functional analysis. The various traditions in the
+
+ treatment of concrete differential equations have thus been somewhat submerged by
+
+ the story of functional analysis. Hellinger and Toeplitz were in fact quite historically
+
+ ambitious, pushing the antecedents of the operator approach back beyond Fredholm
+
+ to Poisson, Fourier, and Daniel Bernoulli. The survey due to Hadamard at the Bologna
+ congress of 1928 (Hadamard 1928) appears to be the only older mathematical survey
+
+ in which some trace of the roots of the subject in solving boundary value problems
+
+ may be found, not surprising given the role he played himself.2
+
+ The solution of such boundary value problems, and the question of the existence of
+
+ solutions, occupied a large number of mathematicians throughout Europe at the time,
+
+ and the techniques provided by Fredholm's result garnered an enthusiastic audience.
+
+ Indeed, the "integral equation method" for the study of differential equations became
+
+ a standard feature of the mathematical landscape by around 1915, with the appearance
+
+ of several textbooks and expository accounts of the theory as well as its inclusion
+
+ in lecture courses on analysis. Hilbert's response to the theorem was deeper and had
+
+ 1 Atkinson's theorem (due to F. V. Atkinson in 1950) states that an operator Τ in the set of bounded operators
+
+ on a Hilbert space Η is a Fredholm operator (that is, the kernels of Τ and its adjoint are finite dimensional
+ and its range is closed) if and only if it is invertible modulo compact perturbation, i.e., for some bounded
+ operator S and compact operators Cj and C2, ΤS = / + Cl and ST = I + C2.
+
+ 2 Mathematical treatments of the subject of integral equations nonetheless often retain contact with the
+
+ roots of the subject in partial differential equations. Here, we mention in particular (Tricomi 1957).
+
+ Ô Springe
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 09:54:30 UTC
+All use subject to https://about.jstor.org/terms
+
+ Integral equations between theory and practice 549
+
+ broader consequences. By 1904, Hilbert had already grasped analogies between the
+
+ study of certain cases of Fredholm's result and the theory of quadratic forms. Together
+
+ with a number of students, notably Erhard Schmidt, Hilbert formulated the basic ideas
+
+ of what are now know as Hilbert spaces and linear operators on them with decisive
+
+ effect for the future of mathematics (See for example Hellinger, 1935). The impact
+
+ of Hilbert's work took several decades to be fully felt. While other threads fed into
+
+ Hilbert's understanding of this area, the insight afforded by the Fredholm's result
+
+ provides the reader of today with one of the clearest points of entry into the study of
+
+ the origins of functional analysis.
+
+ There are a number of historical treatments which investigate this and related issues
+
+ in some detail, including Dieudonné (1981) and Siegmund-Schultze (1982). In par
+ ticular, Siegmund-Schultze (2003) draws attention to what he terms a split into three
+
+ directions in the beginnings of functional analysis: abstract operator theory, the abstract
+
+ theory of spaces, and the theory of concrete functionals. Here, we focus instead on
+
+ the reception, largely Franco-Italian, that remains closer to roots of the problems in
+
+ mathematical physics, adopting more modern viewpoints somewhat tentatively.
+
+ Fredholm's work had been preceded by related investigations due to Vito Volterra,
+
+ who appears to have devised essentially the same method by 1895, and already much
+
+ earlier noted that methods for "inverting" integral equations—following an idea of
+
+ Abel—would be extremely useful in the solution of physical problems. Volterra cor
+
+ responded with Tullio Levi-Civita about this and was somewhat disappointed by the
+
+ fact that he had not published the method before Fredholm's work appeared.
+
+ In this paper, we concentrate on the response to Fredholm's work within the com
+
+ munity of researchers on differential equations in France and Italy, where the results
+
+ were understood above all as a fruitful and powerful method for proving the existence
+
+ of solutions to boundary value problems. In contrast to the work of Hilbert and his
+
+ students, this work appears conservative and lacks the abstract, generalizing stamp
+
+ which was to become a hallmark of twentieth-century mathematics and that is specif
+
+ ically associated with the German context. An exception to this conservative bent is
+ provided by the Italian mathematician Giuseppe Lauricella, who skillfully adopted
+ the new methods coming from some of the strongest members of Hilbert's school:
+
+ Erhard Schmidt, Friedrich Riesz, and Hermann Weyl. The reception of Fredholm's
+
+ work nonetheless marks an important moment in the development of research in analy
+
+ sis in these two countries, as we shall discuss below. Furthermore, the case provides
+
+ insight into the ways in which innovative work is received in different national and
+ institutional contexts.
+
+ This work is part of the background leading to the development of functional analy
+
+ sis as a free-standing entity and clearly identified research specialty. However, it should
+
+ not be imagined that all these researchers were consciously involved in the construction
+
+ of such a research specialty, nor were they intentionally carrying out specific elements
+
+ of what were to be its later research programs. It is of course true that ultimately
+
+ one can see specific results from this period as special cases of functional analytic
+
+ results. But, there was nothing called functional analysis at this point of time (all our
+
+ discussions are limited to the period before 1915).
+
+ In what follows, we begin with an account of some background developments in
+ the theory of differential equations. We then proceed to a discussion of Fredholm's
+
+ ·£) Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 09:54:30 UTC
+All use subject to https://about.jstor.org/terms
+
+ 550 T. Archibald, R. Tazzioli
+
+ result and various aspects of its reception. The work of Hilbert and his school will be
+
+ treated in the background, insofar as it provided points of reflection for researchers in
+
+ France and Italy. Many of the papers in this general area were very definitely seen in
+
+ an applied context by most readers, as is shown for example by their treatment by the
+
+ Jahrbuch iiber die Fortschritte der Mathematik, where they were routinely indexed
+
+ with work in partial differential equations, elasticity theory, or potential theory as well
+
+ as under functional equations.
+
+ Italian researchers in this field were particularly numerous, and their contributions,
+
+ like those of many of their conationals in other fields, are less well known today
+
+ than those of their German or French contemporaries. The emergence of the Italian
+
+ research school on boundary value problems may be traced to the mid-nineteenth
+
+ century, with Enrico Betti and Eugenio Beltrami acting as mentors to a large number
+
+ of future researchers in areas such as elasticity theory, hydrodynamics, and the theory
+
+ and applications of partial differential equations more generally. By the late nineteenth
+
+ century, Levi-Civita and Volterra had emerged in a leadership role, and most of the
+
+ Italian mathematicians we discuss had specific links to one or both of these men,
+ as we shall see. Even a certain amount of the French work was directly connected
+
+ with developments in Italy; here, we note the strong Italian connections of Picard and
+
+ Hadamard, and Volterra's close involvement with these and other French colleagues.3
+
+ One of the significant contributions of the Italian group was a work related to the
+
+ vibration of elastic plates done by Tommaso Boggio, in the context of the 1906
+ 1907 competition for the Prix Vaillant of the Paris Académie des Sciences. This work
+
+ remained unpublished, and we provide here in an "Appendix" some of the more sig
+
+ nificant portions of the memoir that are related directly to our story.
+
+ 1.2 Background: the Dirichlet problem for the Laplace equation
+
+ Integral equations are, in a sense, nearly as old as integrals. However, for our purposes,
+
+ they are a nineteenth-century development. Early work by Abel and Liouville has been
+
+ described well in (Liitzen 1990). Some immediate background activity related to our
+ discussion was due to Carl Neumann and Poincaré in one direction, to Picard in
+
+ another, and to Volterra.
+
+ In order to introduce the different approaches to the theory of integral equations, we
+
+ go back to the Dirichlet problem, a central problem in nineteenth-century mathematical
+
+ analysis. The Dirichlet problem can be reduced to a special class of integral equations
+
+ and, under appropriate assumptions, solved by using the methods of Fredholm's theory.
+
+ Peter Gustav Lejeune Dirichlet stated the following problem in his lectures on
+
+ potential theory held in 1856-1857, to find a harmonic function in a closed region
+
+ with values given continuously on the boundary of the region. A function/is harmonic
+
+ in a domain R if/satisfies the Laplace equation:
+
+ 92/ 92/
+ —— -1 — = 0
+ 9*2 + 9y2
+
+ See Mazliak and Tazzioli (2009).
+
+ Springe
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 09:54:30 UTC
+All use subject to https://about.jstor.org/terms
+
+ Integral equations between theory and practice 551
+
+ at the interior points of R. This question, which later came to be called a Dirichlet
+
+ problem, plays an important role in potential theory, and hence in many questions
+
+ involving gravitational or electromagnetic forces.4 Several authors, including Karl
+
+ Weierstrass, Leopold Kronecker, Carl Neumann, Felice Casorati, Heinrich Weber, and
+
+ Hermann Amandus Schwarz, sought to solve the problem in a general and rigorous
+
+ way. In 1870, Schwarz developed his own method—called the alternating method—of
+
+ solving the Dirichlet problem for special boundaries and for restricted conditions on
+
+ the given boundary functions.5 Also in the 1870s, Carl Neumann devised a method for
+
+ solving the Dirichlet problem for the Laplace equation which was to be of considerable
+
+ importance for many writers, notably Poincaré and Fredholm. Neumann devised his so
+
+ called method of the arithmetic mean to permit series computation of a solution to the
+
+ Dirichlet problem. The rather complicated method he employed involves constructing
+
+ a function at each interior point of a bounded region defined as a kind of "mean effect"
+
+ of the boundary values at the point in question. An iterative procedure is devised to
+
+ replace the initial boundary value by the mean and then computing the new "mean"
+
+ once again.6
+
+ 1.3 Picard and Poincaré
+
+ the 1890s.
+
+ Of more immediate relevance to Fredholm's work is work of Picard and Poincaré in
+
+ Emile Picard became involved in research in differential equations early in his
+
+ career, largely through his contact with his mentor Charles Hermite. Following in
+
+ Hermite's footsteps, and influenced by contemporary French work by writers such as
+ Tannery, Flocquet, and Poincaré, Picard specialized at first in questions concerning
+
+ what can be said about the nature of the solutions of a differential equation based
+
+ on formal characteristics of the equation (such as the periodicity of the coefficients).
+ By the 1880s, this had evolved into a general interest in existence issues, and around
+ 1887 or 1888, he focussed his attention on existence results of Schwarz and Carl
+
+ Neumann from the 1870s. The work of Schwarz and Neumann was intended to provide
+
+ solutions to the Dirichlet problem, partly to replace Riemann's use of the Dirichlet
+
+ principle. Both were iterative series methods, and it may be that this inspired Picard
+
+ to devise his method of successive approximations, a constructive existence method
+
+ for proving existence of solutions, widely applicable to both ordinary and partial
+
+ differential equations.
+
+ As a trivial example, consider:
+
+ ~ = g(*(0,*(0))
+ at
+
+ 4 Dirichlet's problem and its role in nineteenth-century mathematics figure frequently in the literature. See
+ Bottazzini (1986), Monna (1975), Tazzioli (2001).
+
+ 5 For more details see Tazzioli (1994).
+
+ 6 More details about Neumann's method are in (Dieudonné 1981, 39-46).
+
+ Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 09:54:30 UTC
+All use subject to https://about.jstor.org/terms
+
+ 552 T. Archibald, R. Tazzioli
+
+ Let xn+i(t) = /q g(T, χ„(τ))άτ. If the sequence xn(t), η = 1,2,... converges, it
+ converges to a local solution, which under certain conditions may be extended to a
+
+ global solution. In this case, the series that results is easily identifiable.
+
+ Picard established conditions for local convergence in the case of the 2-dimensional
+
+ Laplace equation and used Schwarz's procedure to assemble local solutions, proving
+
+ global existence. In so doing, he shows his mastery of the Schwarz-Weierstrass lan
+
+ guage for analysis. These results were the most powerful existence methods available
+
+ at the time and rapidly became part of the standard repertoire. As Liitzen has pointed
+
+ out (Liitzen 1990), the basic method was already known to Liouville, but Picard's
+
+ discovery appears thoroughly independent.
+
+ Simultaneously with Picard's efforts, Henri Poincaré made fundamental con
+
+ tributions to the field of partial differential equations which were of immediate
+
+ and long-term consequence.7 His interest in the field dated already to his doctoral
+
+ thesis, on the functions defined by partial differential equations, a difficult work which
+
+ was received without much understanding. In two astonishingly rich papers of 1890
+
+ and 1894, he created a variety of tools and approaches which have had tremendous
+ influence (Poincaré 1890, 1894).
+
+ In 1890, he gave the first complete proof of the existence and uniqueness of solutions
+
+ to the Laplace equation with continuous boundary conditions, for a large class of three
+
+ dimensional regions. Where Neumann had defined a sequence of functions satisfying
+
+ the Laplace equation, converging to one with the correct boundary condition, Poincaré
+
+ instead employed a sequence of functions which are not harmonic, but have the right
+
+ boundary values, and devised a method to make the sequence converge to a harmonic
+ function via the method of "balayage" (sweeping out). He first showed that if such
+ a Dirichlet problem for the Laplace equation can be solved when the values on the
+
+ boundary are given by a polynomial in three variables, it can be solved when they are
+
+ given by any continuous function. To solve the problem when the boundary value is a
+
+ polynomial p, Poincaré defined a countable covering of the interior of the region by
+
+ spheres Si, S2,..., and used the known solution for the Dirichlet problem on a sphere
+
+ to replace ρ by the harmonic function / given by this solution. A new function f\ is
+
+ now defined, equal to / inside the first sphere, and equal to ρ elsewhere. Proceeding to
+
+ the second sphere, we likewise "sweep" it by solving the Dirichlet problem, likewise
+
+ getting a function fi which satisfies the Laplace equation inside Si and is equal to ρ
+
+ elsewhere. We now need to go back to the first sphere, so we continue this process
+
+ in the order S\,Si,S\,Si,Si,..., passing through each sphere infinitely often while
+
+ retaining the boundary values for the region. Poincaré was able to show that this
+
+ process leads to a function with the correct boundary values which is harmonic in the
+
+ entire interior of the sphere.
+
+ In the same paper of 1890, Poincaré began to look at eigenvalues. H. A. Schwarz and
+
+ Picard had found the first and second eigenvalues of the Laplace operator for Dirichlet
+ boundary conditions in 1885 and 1893, respectively (Schwarz 1885; Picard 1893).
+ Poincaré, in 1894, found the infinite sequence of eigenvalues and their corresponding
+
+ 7 For studies of Poincaré's work on partial differential equations, see for example Mawhin (2006/2010)
+ and Gray (2013).
+
+ <£) Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 09:54:30 UTC
+All use subject to https://about.jstor.org/terms
+
+ Integral equations between theory and practice 553
+
+ eigenfunctions, to be identified later in terms of singular values as we discuss below,
+
+ probably soon after reading of Schwarz's work in Picard's paper. This is the beginning
+
+ of spectral theory, a fundamental tool of functional analysis in the twentieth century.
+
+ A fine account of this work is to be found in (Dieudonné 1981).
+
+ We mention two other innovations due to Poincaré. One of these is the so-called
+
+ continuity method. In 1898, Poincaré had used Picard's successive approximation
+ method to obtain a solution for the equation Au = eu. Here, he had the idea of
+
+ approaching the solution of other nonlinear equations by starting with a problem with
+
+ known solution and then continuing the existence result along a parameter to a more
+
+ complicated equation. This method was to some degree foreshadowed in the 1890
+
+ paper, as was a second important tool, that of the a priori estimate of which good use
+
+ was soon to be made by Sergei Bernstein in his work on the Hilbert problems 19 and
+ 20 (Bernstein 1904).
+
+ Poincaré also built on Carl Neumann's work in a way which is part of the immediate
+
+ background to Fredholm, Hilbert, and Picard, in particular with two papers (Poincaré
+
+ 1894, 1897). In these papers, the notions of eigenvalues and eigenfunctions for a
+
+ particular problem are introduced and termed "valeurs fondamentales" and "fonctions
+
+ fondamentales." Poincaré obtains improved hypotheses over Neumann, for example
+
+ getting rid of convexity. The beginning of the paper is scrupulously rigorous, but
+
+ changes gears in the middle, where he states "Jusqu'ici j'ai cherché à être parfaitement
+
+ rigoureuse," and then goes on to discuss in non-rigorous terms the fact that one can
+
+ construct an infinite series of real eigenvalues (parameter values for which there is
+ a solution to a DE expressed as an integral using Neumann's method). The use of
+
+ a parameter we will see below in Fredholm's work. Poincaré notes the possibility of
+
+ eigenfunction expansions, but cannot prove it, remarking: "une fois que l'on connaîtrait
+
+ les fonctions fondamentales, il serait aisé de résoudre le problème de Dirichlet". The
+
+ entire approach is not infrequently referred to as the "Poincaré-Neumann method," as
+ we will see below.
+
+ 1.4 Volterra
+
+ If Picard and Poincaré were working on elements of the theory of boundary value
+
+ problems that were to be important for the application of integral equations, Vito
+
+ Volterra explicitly studies integral equations and was already using them in some con
+
+ texts for exactly such research. Though Fredholm was the first to publish a theoretical
+
+ justification of a method for solving integral equations, Volterra had already treated
+
+ such questions in print some years previously. Early in his career, in an 1884 paper on
+
+ electrostatics, he had investigated the problem of "inverting" an integral of the form
+
+ Φ(χ)= / f(a)F(a,x)àa
+
+ a
+
+ •S
+
+ to solve for / when φ and F are known, and F depends also on a (Volterra 1884).
+
+ Over 10 years later, Volterra's colleague Tullio Levi-Civita posed the question more
+ generally:
+
+ £) Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 09:54:30 UTC
+All use subject to https://about.jstor.org/terms
+
+ 554 T. Archibald, R. Tazzioli
+
+ In some research in pure analysis and in a great many problems of physics and
+
+ mechanics it is useful to invert some definite integral. We can even affirm that
+
+ there is no branch of physics in which difficulties of this kind are not encoun
+ tered.8 (Levi-Civita 1895-96, 159)
+
+ The interest of Levi-Civita spurred Volterra to return to this area. In a series of papers
+
+ written in 1896, he investigates the more general problem and presented a number of
+
+ results of the following general kind (Volterra 1896a,b,c). If we have the functional
+
+ then under certain hypotheses on the functions and the region then exactly one con
+
+ tinuous function exists φ such that the given equation is satisfied. This is given by the
+ formula
+
+ Φ(}0 = Jj}y\ ~ „/ Τ f fix) Σ s'(x> y)&x
+
+ equation
+
+ where
+
+ /CO ~ /(«) = J Φ(χ)Η(χ, y)dx
+
+ y
+
+ a
+
+ ^ 00
+
+ H (y, y) H (y, y) J f-*
+ a <=°
+
+ X
+ X
+
+ y
+
+ Si(x,y) = J
+
+ So(£,y)Si-i(x,!)d£
+
+ p/ λ 3 H/dy(x,y)
+ S0(X>y):= H(x.x) ■
+
+ Volterra did not indicate how he had obtained this expression, but merely proved that
+
+ it satisfied the original equation. He extended these results to more general cases,
+
+ including a case involving multiple integrals.
+
+ Volterra was to claim later, very credibly, that he was in possession of the method of
+
+ Fredholm and that this was more or less exactly what he had used to get the solution. In
+
+ fact, Volterra ( 1895) had used a determinantal method on a finite system of differential
+
+ equations, so clearly the method could have been in his mind. Furthermore as Tricomi
+ remarks:
+
+ Volterra, instead of deducing his results by the same methods he used for their
+
+ discovery (which were identical to those employed later so successfully by Fred
+
+ holm), simply published a verification of his solution. This was told to me by
+ Volterra himself when, in 1923-1924, I lectured for the first time on integral
+
+ equations at the University of Rome (Tricomi 1957).
+
+ 8 In alcune ricerche di analisi pura e in moltissimi problemi de flsica e di meccanica fa d'uopo invertire
+
+ qualche intégrale definito. Si puô anzi affermai© che non v'è tamo della della fisica, in cui non si incontrino
+
+ difficoltà di questa natura.
+
+ Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 09:54:30 UTC
+All use subject to https://about.jstor.org/terms
+
+ Integral equations between theory and practice 555
+
+ Volterra was to work further on related matters before Fredholm's publication. This
+
+ was connected with later work by his students Lauricella and Almansi, a point we
+
+ return to later. While many of his students were to work in this area in the immediately
+
+ ensuing period, Volterra himself returned to it only later.
+
+ 2 Fredholm
+
+ This brings us to Fredholm.9
+
+ Fredholm's letter of Aug. 8,1899 to Mittag-Leffler announced a method for solving
+
+ integral equations, seen as functional equations (Fredholm 1899, 1900). Fredholm
+
+ gave an immediate application to the proof of existence theorems for the solution
+
+ of boundary value problems. This was originally published 1900 in Swedish, but
+
+ communicated to Poincaré10 already in Dec. 1899. Fredholm had also lectured on it at
+
+ the Paris congress of 1900, though only the title is noted in the proceedings. A French
+
+ summary was published 1902 in Comptes Rendus,11 with the full version appearing
+ in 1903 in Acta Mathematica, in a volume in honor of Abel (Fredholm 1903).
+
+ Fredholm noted that Neumann's "double-layer" method had shown how the solution
+
+ to the Dirichlet problem for the Laplace equation in two or three dimensions could be
+
+ expressed as an integral, which Neumann could then find using series. Poincaré had
+
+ extended Neumann's method (1894,1896), improving the hypotheses.
+
+ Fredholm in turn considered the functional equation
+
+ ι
+
+ ο
+
+ ι
+
+ ο
+
+ φ(χ) + kj fix, γ)φ(γ)dy = ψ(χ)
+
+ where we are solving for φ. The resemblance to the problems considered by Neumann
+
+ and Poincaré is obvious—the λ is Poincaré's parameter.
+
+ Fredholm noted:
+
+ Most problems of mathematical physics which lead to linear differential equa
+
+ tions are translated into functional equations [of this form, possibly with more
+ variables].
+
+ Fredholm's basic insight consisted of the following. In the equation
+
+ φ(χ) + λI fix, yWiy)dy = ψ(χ)
+
+ we may consider the analogy with a system of linear equations with φ as the vari
+
+ able. One can then get a kind of analogy with Cramer's rule, with "determinants" and
+
+ "minors" expressed as series expansions in the parameter λ, the coefficients involving
+
+ 9 For a biographical sketch of Fredholm, see (Zeilon 1930)
+
+ 10 See Nabonnand (1999).
+
+ 11 For more details on this result see Tricomi (1957).
+
+ Ô Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 09:54:30 UTC
+All use subject to https://about.jstor.org/terms
+
+ 556 T. Archibald, R. Tazzioli
+
+ functional determinants of the kernel /(x,y). The expression is easily seen to for
+
+ mally satisfy the integral equation; convergence of the series is guaranteed by an 1893
+
+ result of Hadamard (1893) (rediscovered independently by Fredholm). The singular
+
+ ities of the determinantal expression are what we would now term the eigenvalues of
+
+ the corresponding boundary value problem. In this regard, we note that while Fred
+
+ holm understood many properties which we now interpret in a linear algebraic way,
+
+ this viewpoint is not central to his mode of addressing the subject, nor is it used
+
+ In Fredholm (1902), began by noting that, in the two-variable case, one can write
+
+ many problems of mathematical physics in the form
+
+ systematically.
+
+ I
+
+ ο
+
+ Φ(χ) +j f(x,yW(y)dy = ψ (χ), 0 < χ < 1 (2.1)
+
+ and that the left side may be denoted Α/φ(χ) for brevity. The idea of an integral as a
+
+ transformation was not new, but we note its explicit use here. He then further explicitly
+
+ remarked that the Eq. (2.1) is "a limiting case of the theory of linear equations," in
+
+ which we have "all the results of the theory of determinants." (Fredholm 1902, 219).
+
+ Both the analogy with linear equations and the concept of determinant employed in
+
+ the infinitary setting are left implicit by Fredholm.
+
+ Fredholm then considered (without stating it clearly) a partition of the unit square
+
+ given by
+
+ 0 < x\ < X2 < ■. · < xn 5 1, 0 < yi < y2 < ■ ■ ■ < yn < 1
+
+ and denoted the determinant of the η2 quantities /(*,·, y/t) by
+
+ /
+
+ ix\X2 ...xn\
+ \y\y2---ynj'
+
+ He defined the expression he will use as the determinant for the integral equation as
+
+ which is defined to be equal to 1 for η — 0. He then further defined fcth order minors
+
+ of this expression,
+
+ Df ( ^ " " M
+ J \m m ··· in J
+
+ = yi [f(h b~'tyXi-xAàxiàx2.
+ , k\ J J J \m V2 ··· n. yi ■■■ yn)
+
+ η—1
+
+ ..dxn.
+
+ All integrals in these expressions are taken from 0 to 1.
+
+ <£) Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 09:54:30 UTC
+All use subject to https://about.jstor.org/terms
+
+ Integral equations between theory and practice 557
+
+ If we can accept for a moment that these expressions actually correspond to the
+
+ determinant and minors of a linear system and that the series converge, then the next
+
+ statement by Fredholm is unsurprising. Calling on Cramer's rule, if Df φ 0, we get
+ as unique solution
+
+ φ(χ) = Α%ψ{χ)
+
+ where the kernel g is given by
+
+ g(x,y) = -
+
+ Df
+
+ (;)
+
+ Df
+
+ What Fredholm and many of his readers found interesting here was the possibil
+
+ ity of taking a given boundary value problem for a partial differential equation and
+
+ translating into an integral equation that could then be solved by this method. The
+
+ method employed for doing this depends on the particular problem, and a detailed
+
+ explanation would take us into a lengthy technical excursus. For examples, one can
+
+ look at (Heywood and Fréchet 1912, 25). Given the high degree of interest, both the
+
+ oretical and applied, in the boundary value problems of mathematical physics, such a
+
+ promising approach turned out to ensure a wide audience.
+
+ 3 Hilbert, Picard, and the Fredholm theory to 1906
+
+ In fact, the response to Fredholm's result was electric. Most writers seized on it as
+
+ a method for solving classes of boundary value problems that had formerly been
+
+ impossible, as we discuss in detail below. Hilbert's response went further. First off the
+
+ mark in grasping the value of Fredholm's theory, he embarked on a deep investigation
+ of integral equation methods, lecturing on them already in 1901-1902.12 Picard, on
+ the other hand, saw relations to his own earlier work.
+
+ 3.1 Hilbert and integral equations
+
+ In 1898-1899, after an extended period of research on the theory of numbers, Hilbert
+
+ became interested in existence theory for PDE's. He announced that he had "saved"
+
+ the Dirichlet principle for Laplace equation 1899, though this was not published until
+
+ 1904 (Hilbert 1900). Here, Hilbert found hypotheses he thought sufficient to guarantee
+
+ the existence of a solution to the variational problem associated with the Dirichlet
+
+ problem for the Laplace equation, the solution having been assumed by Riemann (for
+
+ example, in connection with his proof of the Riemann mapping theorem). As (Brezis
+
+ and Browder 1998) have pointed out, the methods used by Hilbert were complex and
+
+ hard to follow, and received considerable clarification by other authors. In his 1900
+
+ Paris lecture, Hilbert's problems 19 and 20 bear on related issues.
+
+ 12 For details see Siegmund-Schultze (1982).
+
+ 4D Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 09:54:30 UTC
+All use subject to https://about.jstor.org/terms
+
+ 558 T. Archibald, R. Tazzioli
+
+ Many of Hilbert's 50 Ph.D. students between 1898 and 1910 worked in the general
+ area of partial differential equations and integral equations: Hedrick, Noble, Lutke
+
+ meyer, and others worked on classical aspects of the theory. Theses on integral equa
+
+ tions began to appear in 1902, with the thesis of O. D. Kellogg, Mason (1903), Schmidt
+
+ (1905), W. D. A. Westfall (1905), A. Myller (1906), W. Lebedeff (1906), C. Haseman
+ (1907), W. D. Cairns (1907), R. Kônig (1907), E. Hellinger (1907), Weyl (1909), A.
+ Haar (1910), W. A. Hurwitz (1910), H. Bolza (1913), and K. Schellenberg (1915).
+ The work of Schmidt and Weyl in particular took a turn that gave prominence to a
+
+ general viewpoint of the kind Leo Corry has referred to as "structural" in nature. Using
+
+ the idea of what we would now term an inner product of two functions in a function
+
+ space, defined as an integral, Schmidt and others were able to provide a geometry
+ for function spaces, leading ultimately to the structure now referred to as a Hilbert
+
+ space. However, many of these writers worked on applied problems of one sort or
+ another.13
+
+ Between 1902 and 1904, Hilbert realized that for integral equations of Fredholm
+
+ type (Hilbert's type II, in the classification still used, with real symmetric kernel),
+
+ there would be a theory analogous to that of orthogonal transformations of quadratic
+
+ forms. He saw this as a unified viewpoint for "Schwingungslehre," as he termed
+
+ linear problems in analysis, namely boundary value problems, and the associated
+
+ study of eigenvalues and eigenfunction expansions for the corresponding operators.
+
+ He rapidly moved from the determinantal viewpoint to a "function space" viewpoint,
+
+ which is noticeable also in the work of his students, beginning with Schmidt. We
+
+ also observe the usual Hilbertian emphasis on conventionalism in constructing a
+
+ theory.
+
+ Hilbert had looked at the question of the existence of "normal functions" (that is,
+
+ eigenfunctions associated with particular equations) in the theory of differential equa
+
+ tions, and the development of arbitrary functions in terms of them, via the introduction
+
+ of Green's functions. In his 1904 Nachricht (Hilbert 1904), stimulated by Fredholm's
+
+ work, had reduced this (if reduced is the appropriate term) to the question of finding
+
+ eigenfunctions corresponding to a symmetric kernel and found the laws governing the
+
+ development of arbitrary functions with respect to them.
+
+ A very rapid development in Hilbert's circle between 1904 and 1910 led to an
+
+ increasingly general viewpoint, which was to mature fully in 1920s. While we will
+
+ discuss further some aspects of this research direction, our main aims here are to
+
+ present it in contrast to the more classical turn and to discuss how this German work
+ informed the Italian and French contexts, to which we now return.
+
+ 3.2 Picard's work on integral equations to 1906
+
+ As early as 1902, Picard saw Fredholm's Comptes rendus article, and also the PhD
+ thesis of Max Mason (or at least, the brief account of it in the Jahrbuch), which he
+
+ described as follows (Picard 1904a, 687):
+
+ 13 See (Hilbert Ges. Abh.), Ill, 432.
+
+ Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 09:54:30 UTC
+All use subject to https://about.jstor.org/terms
+
+ Integral equations between theory and practice 559
+
+ The study of periodic solutions of linear ordinary differential equations has been
+
+ the object of much research for a long time, and just recently, in an interesting
+
+ thesis, M. Mason has arrived at important results by taking as a point of departure
+ the remarkable method of M. Freedholm [sic].14
+
+ Mason had applied Hilbert's idea of using Fredholm's results to get existence of
+ solutions for a large class of problems, e.g., the equation of vibrating plates, and the
+
+ isoperimetric problem, by combining the Dirichlet principle idea with Fredholm's
+
+ approach. In Picard (1904a), restated results that he had already obtained together
+
+ with certain extensions of them that the Fredholm method is well-adapted to solve.
+
+ He did not, however, provide the solution using those methods. Picard also was soon
+
+ to situate the results of Fredholm in the context of the work of Volterra in 1895-1896;
+
+ and of the thesis work of his own student Le Roux (1895, 1903). In his first papers
+
+ on the subject, Picard (1904a) and (1904b), he saw this subject above all as a place
+ where his own method of successive approximation could be put to good use, since
+
+ once the problem is reformulated as an integral equation the method of successive
+
+ approximations can be applied to the integral version of the problem. This, indeed,
+
+ had been the contribution of Le Roux in his study of the functional equation
+
+ *00= / f(x)P(x,y)dx.
+
+ y
+
+ -I
+
+ Grasping the importance of the results, Picard already devoted "quelques leçons"15 to
+
+ this equation in 1903-1904. Picard employed a parameter λ in the method of solution;
+
+ this harks back to Neumann and was likewise used by Volterra in 1896, as well as in
+
+ Fredholm's 1903 paper (for the first time by Fredholm). Picard's reference to Abel
+
+ strongly suggests that he had read Fredholm's 1903 article by this time. For all of
+
+ them, the aim of the parameter is to obtain a power series expansion, by "une manière
+ d'opérer par approximations successives" according to Picard (1904b, 314). Struck
+
+ by the power of Fredholm's method, Picard lectured on "Fredholm's equation"—
+ significantly, no longer on results of Le Roux—by 1905-1906.16
+
+ In Picard (1906b), he gave a fuller account via the Rendiconti of Palermo, for some
+
+ time a favored vehicle (like Acta Mathematica) for reaching a broad international
+
+ audience with a longer paper. The paper begins with an exposition of the basic results
+
+ of Fredholm and then takes on the task of formulating various previously studied
+
+ problems as Fredholm equations. The first group consists of single- and double-layer
+
+ potential problems, following Fredholm. Double-layer potentials arise from attempt
+
+ ing to solve a Dirichlet problem for the Laplace equation on the interior of closed
+
+ surfaces. (By a double-layer potential is meant a dipole layer on a surface that is asso
+
+ 14 L'étude de solutions périodiques des équations différentielles linéaires ordinaires a fait depuis longtemps
+ l'objet de bien des recherches, et tout récemment, dans une thèse intéressant ...M. Mason est anivé à
+
+ d'importants résultats, en prenant comme point de départ la remarquable méthode de M. Freedholm [sic]
+ pour la résolution de certaines équations fonctionelles.
+
+ 15 (Picard 1904b, 313).
+
+ 16 See (Picard 1906b, 323).
+
+ Ô Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 09:54:30 UTC
+All use subject to https://about.jstor.org/terms
+
+ 560 T. Archibald, R. Tazzioli
+
+ ciated with a potential function, for example by thinking of the dipole layer as the
+
+ density of a magnetic fluid on the surface and the associated potential as the potential
+
+ of the corresponding "Newtonian" magnetic force.) Poincaré (1897) had posed the
+
+ related problem of finding a single layer potential on a closed surface satisfying a
+
+ certain equation. In particular, if such a potential is defined as
+
+ //rd"·
+
+ dV , dV'
+ dn In
+
+ dV' _ dV_
+ dn dn
+
+ = 2 π ρ
+
+ dV' dV_
+
+ dn dn  -If" COS ψ ,
+
+ da
+
+ dV' dV n
+ —, l· μ— = 0,
+ dn dn
+
+ 1 + μ f f cos Φ ,
+
+ where ρ is the density, r the distance between the surface element da and the point at
+
+ which the potential is being evaluated, then Picard denotes by
+
+ the interior and exterior normal derivatives, respectively. Picard states the identities
+
+ Here, ψ is the angle between the normal and r. With this notation, the equation
+
+ Poincaré had sought to solve was
+
+ which was transformed by Picard to the Fredholm equation
+
+ After translating several such classical problems, Picard illustrated the real power
+
+ of the method by using it to consider the generalized Dirichlet problem for linear
+
+ elliptic equations of form
+
+ 3 2u d2u du du ,
+ ^+ï?+aâ;+bfr+c'' = f·
+
+ where a, b, and c are functions of χ and y. This has been reformulated, Picard noted, by
+
+ "Hilbert and his students" (Picard 1906b, 333) though Picard has devised a more direct
+
+ method for doing so. Assuming the existence of a solution u, Picard used standard
+ Green's function methods and integration by parts to show that u must satisfy
+
+ £) Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 09:54:30 UTC
+All use subject to https://about.jstor.org/terms
+
+ Integral equations between theory and practice 561
+
+ 8(aG) , 9(bG) _
+ θξ 8η
+
+ H CG
+
+ ΐί)ξ, η)άξάη
+
+ u(x, y) +  àJJ
+ "hi!
+
+ /(ξ, η)άξάη.
+
+ Here, ΰ(ξ, η; χ, y) is the Green's function evaluated at the point (jc, y). This has the
+
+ Fredholm form, and after arguing that it does indeed provide a solution Picard takes
+
+ a = b = 0 to investigate the question of a vibrating membrane. This is a convincing
+
+ test case for the theory, since it had a long pedigree. Schwarz had already established
+
+ the existence of the first singular value, and Poincaré in 1894 had shown that the
+
+ integral has an infinite set of singular values that are simple poles, as we remarked
+
+ earlier (Siegmund-Schultze 1982). Picard, using the Fredholm results, obtained this
+ in a few lines.
+
+ 4 Italian work and the Prix Vaillant
+
+ The fact that Picard's work appeared in the Rendiconti del Circolo Matematico di
+
+ Palermo guaranteed it a wide audience, particularly in Italy. In Italy, elasticity theory
+
+ had a long and venerable tradition, and many researchers of all levels could read this
+
+ work with understanding and interest. The result was a rather large response to Picard's
+
+ paper, both direct and indirect, and the paper and its offshoots were to stimulate central
+
+ theoretical developments, notably in the hands of Lauricella and Volterra.
+
+ 4.1 The Italian tradition in elasticity theory
+
+ The Italian tradition in elasticity theory began with Enrico Betti. Betti and his some
+
+ what junior colleague Eugenio Beltrami (1835-1900) were the founders of an Italian
+ school of elasticity which was highly active for many years.17 Many researchers were
+
+ involved, of whom the most successful was certainly Volterra, who began his research
+
+ career in this field. This loosely knit group became dominant in the area during the late
+
+ nineteenth and early twentieth centuries. In their biography of Hadamard, V. Mazya
+ and T. Shaposhnikova write (Maz'ya and Shaposhnikova 1998, 347):
+
+ In the beginning of the 1880s there was also the brilliant work of Poincaré,
+
+ but toward the end of the nineteenth century the French school was no longer
+
+ dominant. The Italian school in the theory of elasticity, founded by Betti and
+
+ Beltrami, and represented by Lauricella, Levi-Civita, Volterra, and others, had
+
+ surpassed it.
+
+ A letter from Lauricella to Volterra,18 dated August 18, 1897, indicates a certain
+
+ self-awareness on the apart of this Italian group and also indicates efforts to make their
+ work better known:
+
+ 17 Here, the term school is used informally, but in fact, there are direct educational and mentoring links
+
+ among many of the members, as well as significant overlaps in method.
+
+ 18 This letter is contained in Volterra's Archive, Archivio dell'Accademia dei Lincei, Roma.
+
+ £ï Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 09:54:30 UTC
+All use subject to https://about.jstor.org/terms
+
+ 562 T. Archibald, R. Tazzioli
+
+ Very illustrious Professor,
+
+ I received your very nice letter, followed by your postcard today. I shall send to
+
+ Prof. IvarFredholm of Stockholm the bibliography of Italian works on elasticity,
+
+ as you wrote me.19
+
+ In fact, Betti's main contribution to the theory of partial differential equations was
+
+ developed in the context of the mathematical theory of elasticity. This concerns a
+
+ particular method for integrating the equations of elastic equilibrium, based on what
+
+ we now term Betti's reciprocity theorem (Betti 1872-73).20
+
+ This theorem states that two given systems of forces—volume forces (Χ, Y, Z),
+
+ (Χ', Y', Z') and pressures (L, M, N), (L\ Μ', N')—acting on an elastic and
+ homogeneous body R with boundary σ and density ρ produce two systems of dis
+
+ placements (κ, v, w), (w', υ', w'), which are not independent of one another, but are
+
+ linked by the following formulae:
+
+ J(L', M', N') · (m, v, w)da + p j(Χ', Y', Z') ■ («, v, w)du
+
+ σ R
+
+ = J (L,M,N)· («', t/, w') άσ + ρ J (Χ, Υ, Ζ) · (κ', υ', w')dv.
+
+ ο R
+
+ 20 See the introduction to (Capecchi et al. 2006).
+
+ 21 Green developed a direct procedure, now called the Green's function method, for solving the Dirichlet
+
+ problem. This method requires finding a particular function, Green's function. For details see Tazzioli
+ (2001).
+
+ 22 La Memoria, veramente mirabile, del Betti sulle equazioni délia élasticité gettô su queste un fascio
+
+ di luce nuova, inattesa, e préparé, specialmente in Italia, una fioritura di lavori quale poche altre memorie
+
+ possono vantarsi di aver prodotto. Il suo teorema di réciprocité dovette sembrare una rivelazione. Con mezzi
+ semplicissimi dava gié una folia di risultati e permetteva di penetrare addentro nelle propriété analitiche
+
+ delle equazioni di cui si tratta.
+
+ Ô Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 09:54:30 UTC
+All use subject to https://about.jstor.org/terms
+
+ From this reciprocity theorem, Betti derived functions, similar to Green's functions,
+
+ which allowed him to describe fundamental properties of elastic bodies. In particular,
+
+ he was able to express the dilatation of an elastic and isotropic body by means of the
+ displacements of the given forces.21
+
+ This was a surprising and fruitful result. Betti's student Qrazio Tedone, later wrote
+
+ (Tedone 1907,43):
+
+ Betti's really admirable Memoir on the equations of elasticity cast a new and
+
+ unexpected light on them, and was the precursor, particularly in Italy, to a blos
+
+ soming of work that few other memoirs can vaunt themselves for having pro
+
+ duced. His reciprocity theorem was like a revelation. By using very simple
+ methods it at once yielded results and allowed us to penetrate the analytical
+
+ properties of the equations at issue.22
+
+ 19 Chiar.mo Sig. Professore, Ho ricevuto la di Lei cortesissima lettera, seguita oggi da una sua cartolina.
+
+ Invierô al Prof. Ivar Fredholm a Stockholm la bibliografia delle pubblicazioni italiane sulla élasticité, per
+ come Ella mi scrive.
+
+ Integral equations between theory and practice 563
+
+ This "new and unexpected light" attracted other researchers interested in the theory
+
+ of elasticity, not all of whom were under Betti's direct influence in Pisa. One of these
+
+ was Valentino Cerruti who graduated from the University of Turin in 1873 and soon
+
+ moved to the University of Rome, where Cremona and Beltrami had been appointed
+
+ professors a short time before. In 1877, he became professor of mechanics in Rome,
+ succeeding Beltrami—who moved to the University of Pavia—and from then on he
+
+ did research on the theory of elastic bodies. Cerruti was typical of Italian researchers
+
+ who worked on the theory of elasticity during the decade 1880-1890, in that he based
+ his work on Betti's results.23
+
+ Carlo Somigliana also made important contributions to elasticity theory in the Betti
+
+ tradition. Somigliana studied at the University of Pavia, where Beltrami was professor.
+
+ He then moved to the Scuola Normale of Pisa, where he graduated in 1881, having
+
+ had Betti and Dini as teachers. His first papers concern the theory of elasticity and
+
+ followed Betti's approach. In Somigliana ( 1890), he deduced the results now known as
+
+ Somigliana's formulae, using Green's function methods. These formulae express the
+
+ displacements of an elastic body by means of the forces and the displacements acting
+
+ on the surface of the body. In elasticity theory, Somigliana's formulae play essentially
+
+ the same role as Green's formula plays in potential theory.
+
+ Somigliana's results were considerably extended by Giuseppe Lauricella, who stud
+
+ ied at the Scuola Normale in Pisa and subsequently became full professor of analysis
+
+ at the University of Catania, working not only in pure analysis but in mathematical
+
+ physics. In his dissertation, supervised by Volterra, Lauricella used a version of Neu
+
+ mann's method of the arithmetic mean in order to prove the existence of solutions
+
+ for the equations of equilibrium of an elastic body (Lauricella 1895). Later Lauricella
+
+ extended this result, valid for special values of the elasticity constants only, to the gen
+
+ eral case (Lauricella 1905), displaying a deep knowledge of contemporary papers on
+
+ the Dirichlet problem published by Liapunov (1898), Poincaré (1894,1897), Stekloff
+
+ (1900), Korn (1899) and Zaremba (1902). We return to aspects of this in what follows.
+ Italian mathematicians working in elasticity thus became adept at tailoring the
+
+ Green's function method and related results to their advantage, particularly in the con
+
+ text of investigating elastic equilibrium. They developed similar procedures in order
+
+ to deal with and solve another problem of elasticity theory, the vibrating membrane
+ problem, leading to a generalization of Dirichlet's problem—the Dirichlet problem
+
+ for biharmonic differential equations.
+
+ 4.2 Biharmonic differential equations and the theory of elasticity
+
+ In order to introduce the Dirichlet problem for biharmonic functions, let us begin with
+
+ the following definition:
+
+ 23 Cerruti deduced a new method for integrating the equations of elastic equilibrium, which improved
+
+ Betti's procedure. It is now described as the Betti-Cerruti method. Cerruti developed his new integration
+
+ method (Cerruti 1882) by using Betti's reciprocity theorem and showed the efficacy of the Betti-Cerruti
+
+ method by integrating the elastic equations of a homogeneous solid body bounded by a half-plane. Later
+ on, this problem came to be called the Boussinesq-Cerruti problem.
+
+ <£) Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 09:54:30 UTC
+All use subject to https://about.jstor.org/terms
+
+ A function U = U(x\, X2,. ■ ■, xm) of class C2(D), where D is a regular region,
+
+ is polyharmonic or, more precisely, n-harmonic if
+
+ 564 T. Archibald, R. Tazzioli
+
+ Λ r, /a2 92 92 Y
+ U = 0.
+ &2nU — ι y H y + · · ■ + ——y )
+ 9x2 J
+
+ If η = 1 then U is a harmonie function in the usual sense; if η = 2, then U is called a
+ biharmonic function.
+
+ In 1869, Emile Mathieu had already noticed the importance of biharmonic functions
+
+ in the theory of elasticity (Mathieu 1869, 378-379):
+
+ In fact when a solid homogeneous elastically isotropic body is subjected to
+
+ pressures on its surface that maintain it in equilibrium, the projections of the
+
+ displacement of an arbitrary point of the interior of the body on the coordinate
+
+ axes satisfy the equation A AU = 0; and the same is true of the components of
+
+ elastic force that that act on plane elements parallel to the coordinate planes.24
+
+ He had also formulated the Dirichlet problem for biharmonic functions (Mathieu
+
+ 1869, 396):
+
+ There is further a function, and only one, that satisfies the equation Δ AU = 0 in
+
+ the interior of the surface σ, varying there continuously together with its deriva
+
+ tives up to order three, of which the value is given at the surface as is that of ,25
+
+ A generalization of the usual Green's formula to the case of biharmonic functions
+ can in fact be deduced easily; for a biharmonic function U in a region D in 3-space,
+
+ with boundary σ and external normal υ, we have
+
+ Î/w=è/(Î;";(L"C2)-/"(r-G;)7)fc
+
+ Here, the function G 2 (called the Green's function of the second kind) is sought, subject
+
+ to the condition that it is biharmonic in D and satisfies the boundary conditions G2 = r
+
+ and = |^. This formula gives us the function U at each point Ρ of the region D,
+
+ provided that the values of U and of its partial derivative are given on the boundary
+
+ σ. The resemblance to the Dirichlet problem for the Laplace equation is evident.
+
+ 24 En effet, quand un corps solide, homogène, et dont l'élasticité est la même dans tous les sens, est soumis
+
+ à sa surface à des pressions qui le maintiennent en équilibre, les projections du déplacement d'un point
+ quelconque de l'intérieur du corps sur les axes des coordonnées satisfont à l'équation AAU = 0; et il en
+ est encore de même des composantes des forces élastiques qui s'exercent sur des éléments plans parallèles
+
+ aux plans de coordonnées.
+
+ 25 II existe encore une fonction, et une seule, qui satisfait à l'équation ΔΔΙΙ = 0 dans l'intérieur de la
+
+ surface σ, qui y varie d'une manière continue avec ses dérivées des trois premiers ordres, et dont la valeur
+
+ est donnée à la surface ainsi que celle de j^·.
+
+ <£) Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 09:54:30 UTC
+All use subject to https://about.jstor.org/terms
+
+ Integral equations between theory and practice 565
+
+ The Dirichlet problem for n-harmonic functions (with η > 2) may be stated in
+
+ a similar way.26 We notice that, similarly to what happens for the usual Dirichlet
+
+ problem, Green's functions of the second kind (and, generally, of the nth kind) are
+
+ very difficult to find. Mathematicians succeeded for special shapes of the region D
+ only—when D is a half-plane, a circle, a sphere, a cube, or a parallelepiped. The case
+
+ of the Dirichlet problem for polyharmonic functions when D is an η-sphere received
+
+ particular attention from Italian mathematicians in the years 1900-1906, among them
+
+ Tommaso Boggio, Roberto Marcolongo, Luciano Orlando and Pierina Quintili.27
+
+ In the classical theory of thin plates, a biharmonic equation describes the deflection
+
+ of the middle part of the surface of an elastic isotropic flat plate, and the boundary
+
+ conditions usually impose that the tangent plane at each point of the boundary is still
+
+ while the plate moves.28 The theory of biharmonic equations is also connected to
+
+ research in hydrodynamics concerning the very slow motion of a body in a viscous
+
+ fluid, as V.V. Meleshko explains in his paper (Meleshko 2003, 36):
+
+ Two-dimensional creeping flow of a viscous incompressible fluid can also
+
+ be described in terms of the biharmonic problem. If the motion is assumed
+
+ to be so slow that the inertial terms involving the squares of the velocities may
+
+ be omitted compared with the viscous terms, the stream function ψ satisfies
+ the 2D biharmonic equation Δ2Ψ = 0. This type of flow is also called the
+ low-Reynolds-number flow (Happel and Brenner 1965) or slow viscous flow
+
+ (Langlois 1964). It is also named the Stokes flow after the famous Stokes' mem
+
+ oir (Stokes 1850) devoted to estimate of the ffictional damping of the motion of
+
+ a spherical pendulum blob due to air resistance.
+
+ This problem for the sphere was studied by several writers, for example by Boggio
+ (see below).29
+
+ 26 Details about the generalized Dirichlet problem for n-harmonic functions can be found for example in
+
+ Marcolongo's lectures on the theory of elasticity, Marcolongo (1903).
+
+ 27 Tommaso Boggio was full professor of rational mechanics at the University of Turin. His works concern
+
+ potential theory, harmonic and biharmonic functions, integral equations, the theory of elasticity, and hydro
+
+ dynamics. Roberto Marcolongo was full professor of rational mechanics at the Universities of Messina and
+
+ Naples. He wrote important treatises on many subjects of mathematical physics and also researched on
+
+ history of mathematics. Luciano Orlando died in the First World War, having served as an artillery officer.
+
+ His main works concern the theory of elasticity and the theory of integral equations, where he recognized
+
+ the importance of the so-called Goursat kernels. Pierina Quintili was a student of Volteira and graduated in
+
+ mathematics from the University of Rome in 1906. Afterward, she taught at secondary schools in Rome.
+ See Nastasi and Taazzioli (2004).
+
+ 28 On the history of biharmonic equations see the long paper (Meleshko 2003).
+
+ 29 The connections between hydrodynamics and integral equations are studied in detail in (Nastasi and
+
+ Tazzioli 2006). In particular, we refer to some interesting exchanges of letters between Boggio and Levi
+
+ Civita, and Henri Villat and Levi-Civita on questions concerning hydrodynamics and their reformulations
+
+ in terms of Fredholm's integral equations. See especially the letter by Villat to Levi-Civita on June 24,1911
+ published in (Nastasi and Tazzioli 2006, pp. 103-104).
+
+ Springe
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 09:54:30 UTC
+All use subject to https://about.jstor.org/terms
+
+ 566 T. Archibald, R. Tazzioli
+
+ 4.3 A turning point: 1906
+
+ In the two decades from 1895 to 1915, Italian mathematicians studied the theory of
+
+ harmonic and polyharmonic functions deeply. Until 1906, they applied a variety of
+
+ methods to the study of the (generalized) Dirichlet problem—among them the method
+
+ of Green's functions, Picard's approximating method, and two other methods (due to
+
+ Almansi and Levi-Civita respectively). In 1906, Picard's paper in the Rendiconti del
+
+ Circolo Matematico di Palermo markedly changed the direction of research (Picard
+
+ 1906a). After that, Italian mathematicians regularly employed the theory of integral
+
+ equations in approaching the generalized Dirichlet problem. The competition for the
+
+ Prix Vaillant, announced in 1906, makes this shift particularly evident.
+
+ Emilio Almansi was one of Volterra's students at the University of Turin, where
+
+ he became Volterra's assistant. In 1903, he moved to the University of Pavia and in
+
+ 1922 to the University of Rome. In his dissertation, which treats the deformation of
+
+ an elastic sphere, he applied the methods of Betti, Cerruti, and Somigliana, by then
+
+ well known. Starting from these studies, he then investigated biharmonic and then
+
+ polyharmonic equations. In a letter to Volterra on November 7,1895, he describes his
+
+ idea of finding the solution of a polyharmonic equation by splitting it into a certain
+ number of harmonic equations, and then by calculating successive integrations of
+
+ harmonic equations. He developed this idea in (Almansi 1899) where he found aformal
+
+ solution, though an explicit solution was exhibited for special cases only. In 1896, he
+
+ had already solved the Dirichlet problem for biharmonic functions in some special
+
+ regions—the circle, sphere, and half-plane (Almansi 1896). Applying these results,
+
+ Almansi was able to calculate the displacement of each point of an elastic sphere when
+
+ displacements and deformations are given on the boundary (Almansi 1897). Volterra
+ noticed these results: In a letter on February 1, 1904, he asked Almansi to send him
+
+ a copy of the dissertation (published in Almansi 1897), since he had used it in his
+ lectures on mathematical physics.
+
+ Almansi's method for biharmonic equations was also applied by Boggio in order
+
+ to deduce the deformations of an elastic, isotropic, and plane lamina vibrating under
+
+ the action of some forces on the boundary, if the displacements on the boundary are
+
+ given (Boggio 1900a). He solved the problem, which was mathematically described
+
+ by a biharmonic equation, in the case where the membrane could be conformally
+
+ mapped to a circle by means of polynomials alone. In Boggio (1900d), he extended
+ his own results to any plane simply connected lamina using a method developed by
+
+ Levi-Civita (see below). In the same year, he published another paper, Boggio (1901b),
+
+ on the equilibrium of elastic plates. There he used the classic method of successive
+
+ approximations due to Picard. Here, he considered the generalized Green's function of
+
+ the second kind and conjectured that this function had always to be a positive function.
+
+ This assumption was called by Hadamard "Boggio's conjecture."30
+
+ Volterra had an important role in the development of the theory of integral equations
+
+ in Italy, even if we only think of his mentoring activity: Almansi, Lauricella, Orlando,
+
+ and Quintili were his students, and did research in directions inspired by him. In
+
+ 30 This conjecture is false, as Englij and Peetre proved in 1995 [for details see (Maz'ya and Shaposhnikova
+ 1998,438-439)].
+
+ Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 09:54:30 UTC
+All use subject to https://about.jstor.org/terms
+
+ Integral equations between theory and practice 567
+
+ the years 1900-1906, Volterra had started thinking about possible applications of
+
+ mathematics to biology and economics (Volterra 1901). In this period, Volterra also
+
+ published some papers on mathematical physics and gave his celebrated lectures at the
+
+ University of Stockholm in 1906 (Volterra 1906). Volterra and several of his students
+
+ were especially interested in the theory of elasticity, and more generally in applying
+
+ Fredholm's theory. Volterra's main works on these subjects, where he applied the
+
+ theory of integral equations to biology and economic models, only appeared after the
+ First World War. We return to this and related issues in Sect. 5.2 below.
+
+ Levi-Civita had a similar role; he was interested in integral equations quite early,
+
+ published some influential papers, and had an extensive correspondence on the subject
+
+ with Boggio, Lauricella, Orlando, Guido Fubini and Eugenio Elia Levi.31 Even before
+
+ Fredholm's work, Levi-Civita had tried to integrate a biharmonic equation in a simply
+
+ connected plane region without using the (generalized) Green's function (Levi-Civita
+
+ 1898a,b). He broke the problem into two steps:
+
+ (1) To find the conformai representation of the given region over a circle.
+
+ (2) To solve a system Ω of an infinite number of differential equations in infinitely
+
+ many variables.
+
+ From a theoretical point of view, this solved the problem, but not in a practical sense.
+
+ To find the solutions of the doubly infinite system Ω poses great difficulties and Levi
+
+ Civita was aware of that. He wrote to Volterra on April 13,1898:
+
+ I show that formally the boundary value problem for the equation Δ2Δ2 = 0
+
+ can be reduced under certain boundaries to the solution of infinitely many alge
+
+ braic linear equations with infinitely many unknowns. The theory of infinite
+
+ determinants does not shed any light on the system in question; but we can
+
+ show with complete rigour that there is a rather broad class of boundaries for
+
+ which the equation can be solved by a method of successive approximations. In
+
+ such a case the function u that we seek may be expressed in a quite transparent
+
+ form by means of definite integrals, determined by the given system, in which
+
+ the unknowns appear linearly. I am writing a note and in due time I will allow
+
+ myself to subject it to your judgement and ask if you will recommend it to the
+ Accademia delle Scienze.32
+
+ 31 Guido Fubini graduated from the University of Pisa in 1900 and became professor at the University of
+
+ Catania in 1901. He moved to the University of Genoa in 1906, to the Polytechnic of Turin in 1908, and
+
+ during the Fascism, he escaped to USA. where he taught at Princeton and at the Hew York University. He
+
+ gave important contributions to analysis and mathematical physics. In addition, he founded a new research
+
+ field, the projective differential geometry. Eugenio Elia Levi graduated from the University of Pisa in 1904
+
+ and in 1909 was appointed professor of analysis at the University of Genoa. He died in the First World War
+
+ in the defeat of Caporetto. He published important papers on the theory of partial differential equations and
+ on the calculus of variations.
+
+ 32 lo mostro che formalmente il "Randwerthaufgabe" per Tequazione Δ2Δ2 = 0 si puô ridurre, per
+ qualunque contorno, alla risoluzione di un sistema di infinite equazioni algebriche lineari con infinite
+
+ incognite. La teoria dei determinant! infiniti non getta alcun lume sul sistema in questione; si puô per altro
+
+ far vedere con tutto rigore che vi è una catégorie assai ampia di contomi, per cui le equazioni si lasciano
+
+ risolvere con un metodo di approssimazioni successive. In tal caso la funzione cercata u si esprime sotto
+
+ forma assai perspicua, per mezzo di integrali definiti, in cui entrano linearmente le incognite, determinate
+
+ dal sistema anzidetto. Sto redigendo una nota e mi permetterô a suo tempo di sottoporla al Suo giudizio,
+ sollecitando per essa il Suo patrocinio presso la Accademia delle Scienze. (See Levi-Civita 1898a).
+
+ Springe
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 09:54:30 UTC
+All use subject to https://about.jstor.org/terms
+
+ 568 T. Archibald, R, Tazzioli
+
+ paper immediately:
+
+ Volterra's positive answer on April 19, 1898 allowed Levi-Civita to publish his
+
+ What you wrote me about Δ2Δ2 = 0 interested me greatly. On the same subject,
+
+ treated by Lauricella, there is a note of Dr. Almansi in the Accademia of Torino
+
+ (Almansi 1896). Presently a memoir of Dr. Almansi is going to be published in
+ the Annali di matematica on Δ2Δ2... Δ2 = 0 (Almansi 1899), but from what
+
+ I remember of this it is not in the direction of your research.
+
+ With regard to the question of the solution of infinitely many first-degree equa
+
+ tions in infinitely many unknowns, I have already for some time been in pos
+
+ session of a method of solution that I have never published, and which may be
+
+ valid in cases where the procedure of infinite determinants is not valid. I allow
+
+ myself to communicate to you what I remember of this, not having the details
+
+ here, in case that may turn out to be useful.33
+
+ Volterra used a method of approximation which was, essentially, the same as the
+
+ one employed by Levi-Civita in his paper (Levi-Civita 1898a), as Levi-Civita himself
+
+ pointed out.
+
+ As mentioned earlier, Lauricella had been interested in elasticity theory since the
+
+ beginning of his scientific career. In his papers on elastic plates (Volterra 1896a; Lau
+ ricella 1896b, 1898a), Lauricella introduced an auxiliary function for a biharmonic
+
+ equation analogous to the Green's function and solved the generalized Dirichlet prob
+
+ lem for special regions (a circle or a ring). His solution for a circle was equivalent to
+
+ Almansi's formula, as Volterra pointed out in his letter to Levi-Civita. In some subse
+
+ quent papers (Lauricella 1901a,b, 1903, 1904), Lauricella derived the same formulae
+ obtained by Almansi (1897) for the deformations of an elastic and isotropic sphere
+
+ when strains or displacements on the surface are given. The methods were different—
+
+ while Almansi used his own method for integrating biharmonic functions, Lauricella
+
+ developed other methods (generally involving Green's function).34
+
+ Fubini, who was a colleague of Lauricella at the University of Catania, extended
+ Levi-Civita's method to regions of any dimensions by using a procedure which did
+
+ not involve conformai representation. He wrote to Levi-Civita (16 February 1905):
+
+ Esteemed Professor
+
+ 33 Quanto Ella mi ha scritto per rapporto al Δ2Δ2 = 0 mi ha molto interessato.
+
+ Sul soggetto stesso trattato da Lauricella vi è una nota del D.r Almansi nell'Accademia di Torino, pure
+
+ inserita negli Atti di Torino. [See Almansi 1896] Ora il D.r Almansi ha in corso di stampa una Memoria
+ negli Annali di matematica sul Δ2Δ2 ... Δ2 = 0 [see Almansi 1899], ma ritengo da quanto ricordo, che
+
+ egli non sia nel suo indirizzo di ricerche.
+
+ Riguardo alla questione délia soluzione di un numéro infinito di equazioni di primo grado con infinite
+
+ incognite sono in possesso già da vario tempo di un metodo di soluzione, che non ho mai pubblicato, e che
+
+ pub valere in casi nei quali il procedimento dei determinanti infiniti pub non essere valido. Mi permetto di
+
+ comunicarle, cib che mi ricordo di esso, non avendo qui gli appunti, pel caso che potesse riuscirle utile.
+
+ 34 Somigliana also had devised a new procedure in (Somigliana 1894). There he considered the equations of
+
+ elastic equilibrium and introduced three new functions which satisfied a biharmonic equation and were the
+
+ components of an elastic deformation. The expression of these functions was found using Green's method,
+
+ and this allowed to find the displacement of the body. Somigliana explicitly solved the original problem if
+
+ the region was a sphere or a half-plane.
+
+ fi Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 09:54:30 UTC
+All use subject to https://about.jstor.org/terms
+
+ Integral equations between theory and practice 569
+
+ Prof Lauricella recently solved the problem of Δ2Δ2 for plane regions. I was
+
+ therefore led to think about polyharmonic functions and related problems that I
+
+ had abandoned for some time. I re-read your memoir on biharmonic functions
+
+ that was published in Torino in 1898 (Levi-Civita 1898b); and here are some
+
+ simple observations, that I permit myself to communicate to you, and which
+
+ besides work for the problem of Δ 2η· For brevity I will speak only about Δ4 and
+
+ I'll refer to the notation you used.35
+
+ His method was based on Picard's method of successive approximations; Fubini
+
+ also quoted the "recent methods by Hilbert" in the theory of integral equations. Fubini
+
+ published these results in (Fubini 1905) as Levi-Civita had suggested.36
+
+ In Boggio (1900d), Boggio also used Levi-Civita's method for improving a result
+
+ already obtained in (Boggio 1900a) concerning the deformations of elastic plates.
+
+ Boggio used several different procedures in order to solve a biharmonic equation and
+
+ the corresponding Dirichlet problem, including Almansi's method, Green's method,
+ Levi-Civita's method.
+
+ Like most of his Italian colleagues, Boggio changed his approach to the study of
+
+ Dirichlet's problem after the publication of Picard's memoir (Picard 1906b). This
+
+ memoir made most Italian mathematicians aware of very recent work on integral
+
+ equations published by Fredholm, Hilbert, and E. Schmidt from 1905 onward, in
+
+ which the Dirichlet problem was tackled using the theory of integral equations. In this
+
+ regard, Boggio wrote to Levi-Civita (November 24,1906):
+
+ Reading the clear and interesting memoir of Picard: Sur quelques applications de
+
+ l'équation fonctionelle, published in the last issue of the Rendiconti de Palermo
+
+ (Picard 1906b) motivated me to study in a bit of depth the theory of integral
+
+ equations. It was then because of this that I studied the Memoir of Fredholm
+ in the Acta Math. (Fredholm 1903), and that of Hilbert in the Nachrichten of
+
+ Gottingen (Hilbert 1904).
+ I translate by "perno" [pivot] the meaning of Hilbert's "Kern" [kernel]. It seems
+
+ to me that the idea of a pivot corresponds closely enough to the idea that Hilbert
+
+ wanted to express by kernel.37
+
+ At around the same time, Orlando referred directly to the "important memoirs
+ by D. Hilbert" in his paper devoted to the solution of the biharmonic function in a
+
+ 35 Chiar.mo Sig. Professore,
+
+ II Prof. Lauricella ha risoluto in questi giorni il problema del Δ2 Δ2 per aree piane. Cosl io mi sono rimesso
+
+ a pensare aile funzioni poliarmoniche e ai problemi relativi, che da tanto tempo avevo abbandonato. Rilessi
+
+ la Sua Memoria, relative aile funzioni biarmoniche, pubblicata a Torino nel 1898 (Levi-Civita 1898b): ed
+ ecco qui alcune facili osservazioni, che mi permetto comunicarle, e che del resto valgono anche per il
+ problema del . Per brevità parlerô solo del Δ4 e mi riferirô aile notazioni da Lei usate.
+
+ 36 See the letter by Fubini to Levi-Civita dated 23 February 1905.
+
+ 37 La lettura délia chiara ed intéressante memoria di Picard: Sur quelques applications de l'équation fonc
+
+ tionnelle, comparsa nell'ultimo fascicolo dei Rendiconti di Palermo mi ha invogliato a studiare un po' a
+
+ fondo la teoria delle equazioni integrali; ed ho appunto perciô studiato la Memoria di Fredholm negli Acta
+ Math, e quelle di Hilbert delle Nachrichten di Gottinga.
+
+ [...] Traduco con pemo il senso di Kern di Hilbert; mi pare che l'idea di pemo si avvicini abbastanza bene
+
+ all'idea che Hilbert ha voluto rappresentare con Kern.
+
+ Ô Spring* ;er
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 09:54:30 UTC
+All use subject to https://about.jstor.org/terms
+
+ 570 T. Archibald, R. Tazzioli
+
+ rectangular parallelepiped (Orlando 1906); after that, Orlando continued by applying
+
+ Fredholm's method to the solution of problems in elasticity theory. In the following
+
+ year, Marcolongo pointed out the importance of Fredholm's theory in potential theory
+
+ and analysis, and above all in the theory of elasticity (see Marcolongo 1907).
+
+ Besides Boggio, Orlando, and Fubini, many other mathematicians, including E.E.
+
+ Levi and Marcolongo, wrote to Levi-Civita and asked him for suggestions about the
+
+ new theory of integral equations and its applications to mathematical physics. Levi
+
+ Civita and Volterra were the key figures at that time in Italy and both had a fundamental
+
+ role in the spreading of Fredholm's theory through Italian mathematicians.
+
+ 4.4 The Prix Vaillant
+
+ A full discussion of the French and Italian reception of Fredholm's theory would be
+
+ incomplete without an account of work on the vibration of elastic plates. This problem
+
+ was posed by the Académie des Sciences as the Prix Vaillant problem in 1906, and
+
+ solved by Hadamard, Lauricella, Boggio, and Korn who shared the prize in 1907.38
+
+ The problem stated by the Paris Academy was the following:
+
+ To improve in an important detail a problem of analysis of the equilibrium of
+
+ clamped elastic plates, namely the problem of integrating the equation
+
+ d4U d*U d4U
+ J^+2d^2 + l/=f(X,y)
+
+ subject to the condition that the function u and its normal derivative on the
+
+ boundary are null. Examine more particularly the case of a rectangular contour.39
+
+ As Boggio himself explained in a letter to Volterra (April 17,1907), he used Fred
+
+ holm's method in his memoir and was able to solve the original problem in a satisfac
+
+ tory and simple way:
+
+ Last December I sent a memoir to the Paris Academy in the competition for the
+
+ Prix Vaillant (L. 4000). The theme was the integration of the double Laplace
+
+ equation in a plane region. I solved, more generally, for any plane area, the
+
+ problem of deformation of an elastic membrane, for given displacements or
+
+ tensions applied on the boundary. I obtained the solution using the solution of a
+
+ Fredholm integral. I solved as well, very simply, the problem of equilibrium of
+
+ an elastic solid, for given surface displacements, reducing it to the solution of a
+
+ rather simple Fredholm equation. And I also solved using a Fredholm equation,
+
+ 38 Some of the details are discussed in Maz'ya and Shaposhnikova (1998) and Meleshko (2003). Arthur
+ Kom (1870-1945) obtained a Ph.D. in Leipzig in 1890 and then went to Paris, where he attended the courses
+
+ of Picard and Poincaré. From 1895 to 1908, he taught theoretical physics at the University of Munich. In
+
+ 1903, he discovered an early forerunner of the fax machine.
+
+ 39 Perfectionner en un point important le problème d'analyse relatif à l'équilibre des plaques élastiques
+
+ encastrées; c'est-à-dire le problème de l'intégration de l'équation ...avec les conditions que la fonction u
+ et sa dérivée suivant la normale au contour de la plaque soient nulles. Examiner plus spécialement le cas
+
+ d'un contour rectangulaire. See Comptes Rendus, vol. 145,1907, p. 983.
+
+ Ô Springe
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 09:54:30 UTC
+All use subject to https://about.jstor.org/terms
+
+ Integral equations between theory and practice 571
+
+ the boundary value problem for equations of order 2m, and for an arbitrary plane
+
+ area, while in my Palermo memoir (Boggio 1906), where I treated the question
+
+ with the method of successive approximations of Picard, I needed the condition
+
+ that the area be sufficiently small.
+
+ As you see, I have solved the problem posed by the Academy, and even more
+
+ general question, and as a result, I hope part of the prize will be awarded to me.
+
+ I submitted, a few days ago, the program of the corso libero for the next year
+
+ here at the university, where I will treat Fredholm's equation and its applications
+
+ to mathematical physics.40
+
+ Thus, already in 1907, Boggio was using Fredholm's theory and realized its impor
+
+ tance for mathematical physics. Poincaré wrote the report on Boggio's memoir;
+
+ Poincaré noted that: (1) Boggio's work was not completely original, since he often
+
+ used results already known and obtained by others (Mathieu, Almansi, Picard); (2) he
+
+ applied different methods (the method of Green's functions, Picard's method of suc
+
+ cessive approximations, and Fredholm's theory). The report suggested him to publish
+
+ the memoir in Acta Mathematica, as Boggio wrote to Volterra (December 15,1907):
+
+ I am very happy that Mittag-Leffler will print my work. It is very long, consisting
+
+ of over 200 pages, in parts of which results are reproduced that I already pub
+
+ lished earlier, with simplifications and additions, and in other parts new results
+ are described.
+
+ Mittag-Leffler can get the manuscript from the Paris academy, because I don't
+
+ have time to recopy my Memoir. I decided to compete only in the last 4 months
+
+ of last year, and working rapidly I managed to complete it by the 27 December.
+
+ I took it to Milan myself to be sure that it would arrive at the secretariat of the
+
+ Academy by Dec. 31, as the announcement of the contest prescribed.
+
+ You will already have seen, if you read the Dec. 2 issue of the Comptes Rendus,
+ that I had 1000 lire, Lauricella and Korn 2000 lire each, and Hadamard 3000
+ lire.41
+
+ 40 Nel Dicembre scorso ho mandate all'Accademia di Parigi una Memoria per il concorso al premio
+ Vaillant (L. 4000). II tema era l'integrazione della doppia equazione di Laplace in un'area piana. Io ho
+ risolto, più in generale, per qualunque area piana, il problema della deformazione di una membrana elastica,
+ per dati spostamenti ο tensioni applicate sul contorno; la soluzione la ottenni mediante la risoluzione di
+
+ un'equazione integrate di Fredholm. Ho pure risolto, molto semplicemente, il problema dell'equilibrio di
+ un solido elastico, per dati spostamenti in superficie, riducendolo alia risoluzione di un'eq. di Fredholm
+
+ assai semplice. Ho pure risolto, mediante un'equazione di Fredholm, il problema dei valori al contorno per
+ te equazioni d'ordine 2m, e per un'area piana qualsiasi, mentre invece nella mia Memoria di Palermo, ove
+
+ trattavo la questione col metodo delle approssimazioni successive di Picard, dovevo porre la condizione
+ che I'area fosse sufficientemente piccola. [On the subject see (Nastasi and Taazzioli 2004)].
+
+ Come vede, io ho risolto il problema posto dall'Accad., anzi ho risolto questioni ancor più generali, perciô
+ spero che una parte di premio mi sarà accordata.
+
+ Ho consegnato, giomi sono, qui all'Università il programma del corso libero per l'anno prossimo, ove
+ tratterb delle equazioni di Fredholm e delle loro applicazioni alia Fisica Matematica.
+
+ 41 Sono molto contenta che il Mittag-Leffler stampi il mio lavoro; esso è molto lungo, perché consta di
+
+ oltre 200 pagine, in parte delle quali sono riprodotti, spesso con semplificazioni ed aggiunte, risultati che
+
+ avevo già pubblicato precedentemente, e in parte sono esposti risultati nuovi.
+
+ II Mittag-Leffler potrà avère il manoscritto dall'Accademia di Parigi, perché io non ebbi tempo di ricopiare
+ la mia Memoria. Io mi decisi aconcorrere solo negli ultimi 4 mesi dell'anno scorso, e lavorando alacremente
+
+ Ô Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 09:54:30 UTC
+All use subject to https://about.jstor.org/terms
+
+ Boggio went on to complain, since his work—in his view—was no worse than
+
+ 572 T. Archibald, R. Tazzioli
+
+ Lauricella's.
+
+ However it seems that Lauricella gave only one solution (without making the
+
+ extensions to the equation...), based on integral equations. It is deduced from the
+
+ problem of elastic plates for two dimensions... .However I already gave this in my
+
+ first Turin note on the equilibrium of elastic membranes. Besides, it appears that
+
+ the formulae obtained by Lauricella for the case of plates are analogous to those
+
+ obtained by Fredholm himself in 1905, for the case of 3-dimensional bodies,
+ in one of his notes in the Arkiv fur Mathematik etc. in Stockholm (Fredholm
+
+ 1905). Poincaré says that I should have treated the integration of the equation
+
+ for the rectangle in a direct way. This would certainly have been easy for me to
+
+ do, because it was enough to make developments analogous to those adopted by
+
+ Mathieu to solve a problem for the rectangular prism. However, I thought to be
+
+ more conscientious by showing that, as a consequence of a general theorem on
+
+ plates that I gave in my note (Boggio 1904), the integration of the equation for
+
+ the rectangle, so dear to the Academy, could be reduced to the case of the prism,
+
+ solved by Mathieu some 30 years ago. I, however, took the solution of Mathieu
+
+ simplifying it here and there. But Lauricella, more adroit than me, integrated it
+
+ directly for the rectangle, imitating the solution of Mathieu.42
+
+ However, Boggio's work was not published in Acta Mathematica, for reasons
+
+ unknown. He may simply have assumed that the recommendation he received would
+
+ be enough to guarantee publication. Clearly, the length of the paper would have been
+
+ an obstacle. He did publish a number of papers on this matter in other journals; see
+
+ for example (Boggio 1907a,b). Indeed, Boggio's memoir was never published in that
+ form. It remains in the Archives of the Académie des Sciences in Paris. The "Appen
+
+ dix" below contains a portion of the paper.
+
+ In his winning memoir, Lauricella provided a different approach to the solution
+
+ of the biharmonic problem. His work was published in Acta Mathematica in 1909
+
+ Footnote 41 continued
+
+ riuscii a terminate la memoria il 27 Dicembre; la portai io stesso sino a Milano, per essere sicuro che
+
+ arrivasse alla Segreteria dell'Accademia entro il 31 X.bre, come era prescritto dal bando di concorso.
+
+ Ella avrà già visto, leggendo il n° del 2 Dicembre dei Comptes Rendus, che io ebbi 1000 lire, Lauricella e
+ Korn 2000 lire ciascuno, ed Hadamard 3000 lire.
+
+ 42 Invece pare che il Lauricella abbia dato una sola soluzione (senza fare estensioni all'equazione ...),
+ fondata sulle equazioni integrali; essa è dedotta dalla soluzione del problème dell'equilibrio elastico per 2
+
+ dimensioni.. .Questo, per altro, l'avevo pure detto già anch'io nella mia prima notadi Torino suH'equilibrio
+
+ delle membrane elastiche (a. 1900) (Boggio 1900b). Inoltre pare che le formule ottenute dal Lauricella per
+
+ il caso delle piastre, siano analoghe a quelle date già nel 1905 da Fredholm stesso, per il caso di corpi a 3
+ dimensioni, in una sua nota degli "Archiv fiir Mathematik ecc." di Stoccolma (Fredholm 1905). Il Poincaré
+
+ dice che io dovevo trattare l'integrazione della equazione per il rettangolo in modo diretto; questo certo mi
+
+ era assai facile di fare, perché bastava fare sviluppi analoghi a quelli adoperati dal Mathieu, per risolvere
+
+ un problema sul prisma rettangolare. Io invece ho creduto di essere più coscienzioso facendo vedere che
+ applicando un teorema generate suite piastre, da me dato nella Nota "Sulla deformazione delle piastre
+ cilindriche ecc." (Lincei, 1904; Boggio 1904) l'integrazione della equazione per il rettangolo, che tanto
+
+ stava a cuore all'Accademia, si poteva ricondurre al problema anzidetto sul prisma, risolto da Mathieu un
+
+ 30 anni fa. Io perô ho ripreso la soluzione di Mathieu, semplificandola qua e là. Invece il Lauricella, più
+ accorto di me, ha integrate direttamente la pel rettangolo, imitando la soluzione del Mathieu.
+
+ Ô Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 09:54:30 UTC
+All use subject to https://about.jstor.org/terms
+
+ Integral equations between theory and practice 573
+
+ (Lauricella 1909a). He introduced two new functions u and v, where u = dU/dx, ν =
+
+ dU/dy and an auxiliary function Θ = || + = AU.
+
+ Lauricella considered the equations
+
+ du dv
+ — = —, ΑΘ =0
+ dy dx
+
+ inside the region, with special boundary conditions. After extensive transformations,
+
+ Lauricella reduced this problem to a system of two integral equations in two unknowns.
+
+ He proved that the solution is unique for the case of a finite region with smooth con
+
+ tour.43 In particular, Lauricella was able to give an interesting physical interpretation
+
+ to his procedure by using the theory of the double sheet (u and υ are known as the
+
+ internal and the external potential of the double sheet).44
+
+ In contrast to Boggio's laments, Lauricella expressed himself as being very happy
+
+ to have won (a part of) the Prize Vaillant, as he wrote to Volterra (November 24,1907):
+
+ I am, of course, extremely happy with the prize I obtained, and I feel at the
+
+ moment a great need to express to you all my gratitude for the warm interest that
+
+ you have always shown toward me.
+
+ I will prepare a résumé of my results for the Lincei, and I will keep the plan to
+
+ Please accept, dear Professor, the most distinguished expression of your disci
+
+ publish the entire memoir.
+
+ ple's obligation.
+ G. Lauricella45
+
+ As for the other winner, A. Korn, his account was later published in Annales de
+
+ l'Ecole Normale Supérieure (Korn 1907). Korn did not use Fredholm's methods; in
+
+ addition, the work appears not to have been influential in the history of biharmonic
+ equations.
+
+ On the memoirs of the Italian mathematicians Picard remarked to Volterra in a letter
+
+ on June 5, 1907:
+
+ The competition for the Prix Vaillant on the equation AAu = f(x, y) of elastic
+
+ ity theory has brought a very large number of memoirs to our Academy, among
+
+ which several Italian works are to be found. All of these memoirs appear inter
+
+ esting to me, and it will be a lot of work to rank them.46
+
+ 43 See (Meleshko 2003, p. 46).
+
+ 44 In 1940, Sherman established a similar integral equation for a complex function (usually known as the
+ Lauricella-Sherman equation). See (Meleshko 2003,46) and (Sherman, 1940).
+
+ 45 Naturaimente sono contentissimo del piemio ottenuto, ed in questo momenta sento maggiormente il
+ bisogno di esprimerLe tutta la mia gratitudine per l'affettuoso interessamento che mi ha sempre addi
+
+ mostrato. Preparerd un sunto dei miei risultati per i Lincei, e mi riservo di pubblicare per disteso la mia
+ Memorie. Gradisca, Chiar. Sig. Professore, i più distinti ossequi dal Suo obblig.mo discepolo.
+
+ 46 Le concours du prix Vaillant relatif à l'équation ΔΔκ = f(x, y) de la théorie de l'élasticité a amené à
+ notre Académie un très grand nombre de mémoires, parmi lesquels se trouvent plusieurs travaux italiens.
+
+ Tous ces mémoires paraissent intéressants, et ce sera un grand labeur que de faire un classement.
+
+ Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 09:54:30 UTC
+All use subject to https://about.jstor.org/terms
+
+ 574 T. Archibald, R. Tazzioli
+
+ In the end, Hadamard's memoir (Hadamard 1908, 1909, 1910) placed first. His
+ main goal was to study the Green's function of the second kind connected to the
+
+ (biharmonic) Dirichlet problem in question. He also studied the variational properties
+ of the Green's function and introduced the Hadamard-Boggio conjecture which we
+
+ mentioned above. Though this was an important memoir, it did not deal with the theory
+
+ of integral equations.
+
+ 4.5 Applications of Fredholm's theory to analysis 1907-1910
+
+ From 1907 onward, mathematicians often applied Fredholm's theory in order to solve
+
+ problems of mathematical physics, for the most part concerning elasticity, heat con
+
+ duction, and hydrodynamics. In this context, Picard wrote to Volterra on December
+
+ 29,1909, complaining to some extent about the influx of newcomers:
+
+ I read your articles on integro-differential equations in the Lincei with great
+
+ interest; it's a collection of ideas that interests me very much. I have thought
+
+ for a long time that it is this kind of equation, more general than differential
+
+ equations, that will come up in mathematical physics more and more. If you
+
+ would like to give me an overview of your research for the Annales of the École
+
+ Normale, I would be very happy for it. This literature on integral equations is
+
+ becoming something frightening; unfortunately not everything is equally good,
+
+ and many beginners apply themselves to it in order to follow the fashion.47
+
+ This fashion was international in scope, as we discuss later, but many Italian mathe
+
+ maticians followed the new trend and published papers on this subject. We have already
+
+ mentioned work by Almansi, Lauricella, and Boggio on the generalized Dirichlet prob
+
+ lem, and by Orlando and Marcolongo. They approached the problems initially by using
+
+ different methods; but after 1906, all of them employed Fredholm's theory of integral
+
+ equations. In particular, Marcolongo wrote that the "new and very important" Fred
+
+ holm theory had "very remarkable applications to potential theory and analysis" as
+
+ well as to the theory of elasticity (Marcolongo 1907, 742).
+
+ We notice that the new Fredholm theory was successfully applied to pure math
+
+ ematics too. In Levi (1907) recognized that the results obtained by Fredholm and
+
+ Hilbert could be applied to the theory of ordinary and partial differential equations.
+ It was not by chance that Levi-Civita asked E.E. Levi to resolve a "difficulty"—
+
+ to reduce a special complex function to an integral equation. This "difficulty" was
+
+ soon solved by Levi who wrote a long and technical letter to Levi-Civita (May 5,
+
+ 1908), which was then published in a note in the Nachrichten of the Academy of
+
+ Sciences of Gottingen, the same journal where Hilbert had published his notes on
+
+ integral equations (Levi 1908). This paper was one of the most significant works
+
+ Levi was to publish (see for example Dieudonné 1981) and is remarkable, along with
+
+ 47 Je lis avec grand intérêt dans les Lincei vos articles sur les équations intégro-différentielles; c'est un
+
+ ordre d'idées qui m'intéresse beaucoup. Π y a longtemps que je pense que c'est ce type plus générale que
+
+ les équations différentielles, qui se présentera de plus en plus en physique mathématique. Si vous vouliez
+ me donner pour les Annales de l'École Normale un aperçu de vos recherches, j'en serais très heureux.
+
+ Cette littérature des équations intégrales devient quelque chose d'effrayant; tout n'y est pas également bon
+
+ malheureusement, et beaucoup de débutants se mettent là dessus pour suivre la mode.
+
+ Ô Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 09:54:30 UTC
+All use subject to https://about.jstor.org/terms
+
+ Integral equations between theory and practice 575
+
+ the work of Lauricella, for its success in understanding the approach of the Hilbert
+ school.
+
+ 4.5.1 The Poincaré lemma
+
+ Another interesting application of Fredholm's theory to aproblem of pure mathematics
+ concerns the so-called Poincaré lemma, which Lauricella extended to non-convex
+
+ domains. In the third paragraph of his 1894 memoir (Poincaré 1894,70ff.), Poincaré
+
+ argued that If V is a function of x,y, ζ in a region D such that fVdr = 0, if
+
+ A = f V2dr, Β = / [(|f)2 + (|f)2 + (|f )2]dr then j ^ if D is convex and I
+ is its maximum distance between two points of D.
+
+ The result is linked both to the balayage method and to the problem of eigenfunction
+
+ expansions, and in fact, it was a central tool for Poincaré in proving the existence of
+
+ such expansions. In fact, Poincaré returned to the result repeatedly, having already
+
+ discussed it in (Poincaré 1890). One key feature of this work is that Poincaré himself
+
+ believed that he had established the lemma for any convex region. However, he made
+
+ the tacit assumption that a region could be appropriately decomposed into convex
+
+ regions, and in fact, this was false without further restriction. The lemma is used again
+ in (Poincaré 1897).48
+
+ Lauricella engaged himself in finding the proof of Poincaré's lemma for any region,
+
+ since it was connected with other research in mathematical physics that interested him.
+
+ He wrote to Volterra (April 28,1901):
+
+ The work on the propagation of heat might appear inopportune since the work
+ on the same problem by Stekloff (1900); but Stekloff used Poincaré's lemma
+
+ (Poincaré 1894) maintaining it was proved for non-convex surfaces. While the
+
+ proof of Poincaré requires essentially that the surfaces be convex; I have not
+
+ either succeeded in extending it to non-convex surfaces.49
+
+ And in another letter (April 7,1904):
+
+ The study of the conditions that the density of a double layer has to satisfy for
+
+ the existence of its normal derivatives is important because of the fact that the
+
+ Poincaré-Neumann method for solving the Dirichlet problem requires that the
+
+ given function of the points of the surface be such that the corresponding double
+ layer have a finite normal derivative.
+
+ With regard to the method of Poincaré-Neumann it will be known to you that
+
+ Zaremba in a Note (Zaremba 1901) has succeeded in overcoming, so to speak,
+
+ the last of the difficulties that this method presented. Zaremba's result is based
+
+ on the known lemma of Poincaré, proved only for convex regions. In his memoir
+
+ 48 Note that this is not related to the "Poincaré Lemma" about closed and exact differential forms.
+
+ 49 Π lavoro sulla propagazione del calore potrebbe parère inopportuno dopo il lavoro sullo stesso argomento
+ dello Stekloff (Annali di Tolosa) (Stekloff 1900); perô lo Stekloff fa uso del lemma del Poincaré (Mem.
+
+ cit. del Circ. Mat. p. ΠΙ) (Poincaré 1894) ritenendolo dimostrato per le superficie non convesse; mentre
+ che la dimostrazione del Poincaré richiede essenzialmente che la superficie sia convessa, né a me è riuscito
+ estenderlo aile superficie non convesse.
+
+ â Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 09:54:30 UTC
+All use subject to https://about.jstor.org/terms
+
+ 576 T. Archibald, R. Tazzioli
+
+ in the Circolo Matematico (p. 97) (Poincaré 1894) and the one in the American
+
+ Journal (Poincaré 1890), Poincaré, it is true, says that non-convex regions can be
+
+ decomposed into convex regions by a finite number of cuts. But this observation
+ does not hold for Zaremba's case, because a non-convex surface that admits a
+
+ tangent plane at each of its points can't be decomposed into a finite number of
+
+ convex regions. Whence it seems to me that one ought to extend the lemma of
+
+ Poincaré to non-convex regions. I thought about this, but did not succeed; and I
+
+ would have wished to take the opportunity of this note that I am sending to you,
+
+ to say that the method of Zaremba contains this lacuna, but I fear that the means
+
+ are not the most opportune.50
+
+ Lauricella produced a satisfactory solution to this problem in 1908 (Lauricella
+
+ 1908c) by using Fredholm's method. After quoting Picard and Hilbert, he wrote in the
+
+ Introduction of his paper (Lauricella 1908c, 114):
+
+ The extension of Poincaré's results to non-convex regions has been the object
+
+ of various important works, among which those of Stekloff (1900, 1902) and
+
+ Zaremba (1905) stand in the first rank. But the methods developed for such aims
+
+ all depend on Poincaré's lemma. This lemma has been extended, it is true, to
+
+ non-convex regions (Korn 1902; Levi 1906) but with some restrictions on the
+
+ surfaces bounding the regions, and not with that generality which, as we shall
+
+ see, the application of Fredholm's theory provides.51
+
+ 50 Lo studio delle condizioni, a cui deve soddisfare la densità di un doppio strato per l'esistenza delle sue
+
+ derivate normali, è importante anche per il fatto che il metodo Neumann-Poincaré, per risolvere il problema
+ di Dirichlet, richiede che la funzione data dei punti della superfici sia tale che il corrispondente doppio
+ strato abbia la derivata normale finita. [...] A proposito del metodo Poincaré-Neumann Le sarà noto che lo
+ Zaremba in una Nota del Bulletin Internatonal de l'Académie des Sc. de Cracovie, Ν 3 del 1901 (Zaremba
+
+ 1901) è riuscito a superare, diciamo cosi, 1'ultima delle difficoltàche il metodo stesso presentava. II risultato
+ dello Zaremba si fonda sul noto lemma di Poincaré, dimostrato solo per i campi convessi. Il Poincaré, è
+ vero, nella sua Mem. del Circolo Maternatico (p. 97) (Poincaré 1894) e in quella dell'American Journal
+
+ (Poincaré 1890), relativamente ai campi non convessi dice che essi, con un numéro finito di tagli, si possono
+
+ decomporre in campi convessi; perô questa osservazione non vale per il caso dello Zaremba; perché una
+ superficie non convessa, che ammette un piano tangente in ogni suo punto, non si puô decomporre in uno
+
+ numéro finito di campi convessi. Quindi a me pare che si debba estendere il lemma del Poincaré ai campi
+
+ non convessi. Ιο ci ho pensato, ma non ci sono riuscito; ed avrei volto prendere occasione da questa Nota
+
+ che Le invio, per dire che il metodo dello Zaremba présenta questa lacuna; ma temo che il mezzo non sia
+
+ il più opportuno.
+
+ 51 L'estensione dei risultati del Poincaré ai campi non convessi è stata oggetto di vari importanti lavori,
+
+ tra i quali stanno in prima linea quelli dello Stekloff (Sur les problèmes fondamentaux de la physique
+ mathématique (Annales de l'Ecole Normale supérieure, 1902); Théorie générale des fonctions fondamen
+ tales (Annales de la Faculté des Se. de Toulouse, 2 s., VI). N.d.A.) e dello Zaremba (Solution générale du
+
+ problème de Fourier (Bulletin international de l'Acad. des se. de Cracovie ; Février 1905). N.d.A.); perô i
+
+ metodi a tal uopo escogitati fin qui, oltre di essere poco semplici, dipendono sempre dal lemma di Poincaré.
+
+ Questo lemma è stato esteso, è vero, ai campi non convessi (A. Kom, Abhandlungen zur Potentialtheorie, 4
+ (Berlin, 1902). E.E. Levi, Su un lemma del Poincaré (Rendiconti della R. Acc. dei Lincei, vol. XV). N.d.A.);
+
+ ma con alcune restrizioni sulla natura della superficie limitante il campo, e non con quella generalità che,
+
+ come si vedrà, apporta Tapplicazione della teoria di Fredholm.
+
+ Ô Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 09:54:30 UTC
+All use subject to https://about.jstor.org/terms
+
+ Integral equations between theory and practice 577
+
+ 4.5.2 The Picard-Lauricella criterion
+
+ Another fundamental mathematical result obtained by Lauricella (and Picard) is the
+
+ so-called Picard-Lauricella criterion. This is a case where, independently, the two
+
+ mathematicians sought a necessary (and ideally sufficient) condition for solvability of
+
+ certain kinds of equations. In order to achieve this, it was necessary for both to grasp
+
+ the essential features of the recent work of the Hilbert School, most notably that of
+ Erhard Schmidt and Friedrich Riesz.
+
+ This was achieved by Picard by 1909. While Hilbert had restricted his investigation
+
+ to the case of continuous kernels, Schmidt generalized this to square-integrable kernels
+
+ in his 1905 thesis (Schmidt 1905). Schmidt likewise gave a geometric interpretation
+
+ to Hilbert's results in his thesis, as Hilbert had not. Functions with singularities could
+
+ thus serve as kernels, and in consequence of this, Schmidt presented a spectral theory
+
+ for non-symmetric operators. It was this theory that was used by Picard, as (Groetsch
+
+ 2003) points out.52 In so doing, Picard clarified what is now seen as the essential
+
+ difference between integral equations of first and second type and gave an explicit
+
+ criterion for the possibility of solving equations of type one. Picard developed this
+
+ theory in 1909 and presented it in his lectures of that year as well as giving a short
+
+ account in the Comptes rendus of June 14,1909 (Picard 1909a). The same result was
+
+ found independently by Lauricella in the same year (Lauricella 1909b). No priority
+
+ dispute resulted, and the issue of independent discovery seems clear, the more likely
+
+ since the question is obvious and the result not difficult at the level of generality
+
+ employed by Picard and Lauricella.
+
+ In this research, both Picard and Lauricella demonstrated their mastery of essential
+
+ results due to Schmidt and F. Riesz (Riesz 1907). Schmidt's result, from his dissertation
+
+ of July 1905, had been published in the Mathematische Annalen in 1907. Schmidt's
+
+ result states the following. Suppose we are given two "conjugate" integral equations
+
+ φ(χ) = λ J Κ(χ,γ)ψ(γ)άγ (4.1)
+
+ D
+
+ a
+
+ b
+
+ ψ{χ) = λ j K{y,x)<t>{y)dy (4.2)
+
+ and suppose that, in Hilbert's terminology, λι, λι,... are the eigenvalues of the prob
+
+ lem, that is the values of λ that correspond to non-trivial solutions φί and 0,·. Then,
+
+ the 0s form an orthonormal system, as we would now say (Picard says orthogonal and
+
+ normal, following Schmidt). Picard combined this with a version of Riesz's result, the
+ theorem we now know as the Riesz-Fischer theorem, likewise from 1907. In Picard's
+
+ statement, this says the following: a kernel function f{x) can be found such that a
+
+ given sequence an can correspond to the "Fourier" coefficients with respect to a given
+
+ 52 Interestingly, Groetsch does not mention Lauricella's independent discovery of the same criterion.
+
+ Springe
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 09:54:30 UTC
+All use subject to https://about.jstor.org/terms
+
+ 578 T. Archibald, R. Tazzioli
+
+ orthonormal collection of functions if and only if the sequence is square-summable,
+
+ that is, Σ an's convergent.
+
+ The system (</>„, ψηΛη) is what would now be called a singular system of the
+
+ kernel Κ. To understand what Picard and Lauricella had, it is useful to state a modern
+
+ version of the theorem, as it is given in the classic work (Smithies 1965), with some
+
+ changes in notation.
+
+ Theorem 4.1 Let (φη, ψη, λ„) be a singular system of the C? kernel K(s,t) and let
+
+ y(s) be a given C2 function. Then the equation
+
+ has an C? solution χ (t) if and only if (a)
+
+ y(s)« / K(s, t)x(t)dt
+
+ 00
+
+ X*j||(y,6i)|2 < +oo,
+ n=\
+
+ and (b) (y, φ) = 0 for every £} function φ such that Κ*φ & 0.
+
+ The «s here indicates equality except on a set of measure 0, and the (, ) refers to the
+
+ usual operation of projection onto the basis functions.53
+
+ How does Picard treat this in his original version? This appears in brief in the
+
+ Comptes rendus of June 14, 1909, and more elaborately in a fuller version in the
+ Palermo Rendiconti, submitted in July 1909 and appearing in the following year.
+
+ Picard assumes in addition that the functions φί form what he, again following
+
+ Schmidt, terms a closed sequence (fermé), which means that there is no function h(x)
+
+ other than the zero function such that §^(χ)φη(χ)dx = 0. Nowadays, we would note
+ that this means the sequence is complete as a basis for the entire function space, that
+
+ is, the null space of the operator adjoint to the one defined by the integral equation
+ is trivial. Under these circumstances, Picard was able to show that a necessary and
+
+ sufficient condition that an integral equation of type 1 be solved is the criterion that
+
+ Σ^2
+
+ is convergent, where an are the components of the kernel with respect to the given
+ basis. These are referred to as Fourier coefficients by Picard, following Riesz. The
+
+ 53 See (Tricomi 1957) on this result, see in particular (Tricomi 1957, 88-90) on Riesz-Fischer 1907
+ (see Riesz 1907; Fischer 1907) and (Tricomi 1957,143-150) on this criterion in the symmetric and non
+
+ symmetric cases. Tricomi casts all this in terms of convergence in the mean. In that case, the so-called Weyl
+
+ lemma, the analog of the Cauchy convergence criterion for convergence in the mean, is required. The Weyl
+
+ lemma is from a 1909 paper by Weyl (1909). Tricomi (1957, 88) observes that the Riesz-Fischer result is
+
+ "one of the first brilliant successes of the concept of the Lebesgue integral." This is because the function /
+
+ corresponding to a sequence a; of Fourier coefficients with respect to the system φ ι with £ aj < oo need
+ not be Riemann integrable. Weyl was aware of this early on, as we see in his thesis p. 16 footnote (Weyl
+ 1908). Lebesgue's Leçons appeared in 1904 (Lebesgue 1904).
+
+ Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 09:54:30 UTC
+All use subject to https://about.jstor.org/terms
+
+ Integral equations between theory and practice 579
+
+ proof is straightforward if one uses the ideas of Schmidt and Riesz (and Hilbert), and
+
+ thus, this demonstrates nicely that by 1909 Picard had indeed grasped these ideas fully
+
+ and was able to put them to good use.54
+
+ Lauricella, on the other hand, was able to take this further than Picard. In a series of
+
+ papers between 1906 and 1912, he published a collection of important results which
+
+ show his capacities and his good grasp of contemporary literature. In 1908, he already
+
+ indicates that he knows the Hilbert and Schmidt results (Lauricella 1908a). Among
+
+ his own findings in this series of papers the criterion of Picard likewise appears,
+ generalized in (Lauricella 1909b) to kernels that are more general than the closed
+
+ kernels required by Picard. In particular, they are explicitly required to be C2 and
+
+ integrable except on a set of measure zero. In this hypothesis, using (Schmidt 1907),
+
+ he showed that the pairs of conjugate equations correspond to pairs of eigenfunction
+
+ solutions and eigenvalues, so the criterion was shown by him to be valid in something
+
+ very close to the form we stated.55 Lauricella thus already understood a good part of
+
+ the Schmidt-Riesz work as well as being familiar with the notion of almost everywhere
+
+ convergence. His paper was published only a few months after the note of Picard in the
+
+ Comptes Rendus. In (Lauricella 1909b), he uses the term funzione caratteristica for
+
+ "Kern," changing to "nucleo" in 1911 (Lauricella 1911). In this 1911 paper, Lauricella
+
+ studied conditions for the existence of a solution of an equation of the first kind,
+
+ employing the results of Weyl that went beyond the earlier work of Schmidt and Riesz
+
+ to deal with non-symmetric kernels. From this, Lauricella was able to find necessary
+ and sufficient conditions for the existence of an £2, and even £' solution in a closed
+
+ and bounded region under certain conditions. The full version of this now-classic
+
+ result, obtained in 1912 (Lauricella 1912) and going far beyond any work in France
+ of the time, is discussed in detail in (Tricomi 1957).
+
+ While it would be possible to continue with a story of ongoing theoretical devel
+
+ opments and applications of these techniques, the change in the mathematical world
+
+ brought about by the onset of the first world war marks a place where instead it is
+
+ reasonable to pause and look at the broader reception of this work. For not only was
+ it well-received by leading researchers; it was seen as a set of tools that should be in
+
+ the hands of every analyst.
+
+ 5 Diffusion and reception of the theory to 1915
+
+ The rapid development of the theory of integral equations, and its immediate impor
+
+ tant application to the solution of boundary value problems, led to many presenta
+ tions in lectures in Germany, France, Italy, USA, and elsewhere. Between 1909 and
+
+ 1915 Maxime Bôcher, Adolph Kneser, Trajan Lalesco, the duo of H. B. Heywood
+
+ and M. Fréchet, Édouard Goursat, Vito Volterra and Robert Adhémar all gave text
+
+ book accounts, most of them based on lectures. (Plancherel 1912) gives an expository
+
+ account for a broad mathematical audience. Some of these treatments were incorpo
+
+ 54 Heard certainly steers clear of issues involving sets of measure 0 and so on, however, by his hypotheses.
+
+ Thus, the theorem is a bit simpler than in more recent statements such as that of Smithies, p. 164.
+
+ 55 This result had already be published in (Lauricella 1908b).
+
+ Φ Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 09:54:30 UTC
+All use subject to https://about.jstor.org/terms
+
+ 580 T. Archibald, R. Tazzioli
+
+ rated in longer works on analysis (for example, Goursat's, which nonetheless runs to
+
+ 220 pages (Goursat 1907, 1915)), while others were free-standing. Furthermore, the
+
+ general interest of the subject made it a topic for not only short lecture courses, but
+
+ also for international meetings. One of these is the Rome congress, only the second
+
+ following the announcement by Fredholm in Paris in 1900.
+
+ 5.1 Integral equations at the International Congress in Rome 1908
+
+ With excitement about the potential of integral equations still growing, it is not sur
+
+ prising that we find them mentioned repeatedly both in the plenary lectures and in the
+
+ scientific contributions at this meeting. Poincaré, Picard, and A.R. Forsyth all draw
+
+ attention to these developments, in rather different ways.
+
+ Poincaré had recently turned his attention to Fredholm's work and its outgrowths
+
+ (Poincaré 1908a,b) Poincaré both describes the method of Fredholm and places it in
+ the context of his conventionalist ideas about the use of mathematics to describe the
+
+ natural world:
+
+ Our knowledge of partial differential equations has recently made a considerable
+
+ step forward as a result of the discoveries of M. Fredholm ... one sees that [his
+
+ discoveries] consisted in modeling this difficult theory on another, much simpler,
+
+ that of determinants and systems of first-degree equations....
+
+ One can take a partial differential equation, representing so to speak an infinity
+
+ of equations, and use it to determine an unknown function, representing a con
+
+ tinuous infinity of unknowns. One thus has other infinite determinants, which are
+
+ to ordinary determinants as integrals are to finite sums. This is what Fredholm
+ did.56 (Poincaré 1908c, 178).
+
+ Picard, on the other hand, saw the potential of extending the integral equation
+
+ method to permit modeling of phenomena far beyond those accessible via the usual
+
+ partial differential equations and cites biology and the study of "hereditary phenom
+ ena" (those that do not depend on immediate initial conditions in a simple way) as
+
+ possible realms of application:
+
+ We know with what success a particular type of functional equations has been
+
+ studied in recent times... a memorable example, amid many others, of the ease
+
+ that a more general viewpoint can bring to the solution of a particular prob
+
+ lem. For certain boundary conditions there is even great interest in substituting
+
+ functional equations for differential equations... a systematic study of more and
+
+ more complicated functional equations should therefore demand the effort of
+
+ 56 Notre connaissance des équations aux dérivées partielles a fait récemment un progrès considérable par
+ suite des découvertes de M. FREDHOLM ...on voit que [les découvertes de Fredholm] ont consisté à
+ modeler cette théorie difficile [des équations diff. partielles] sur une autre beaucoup plus simple, celle des
+
+ déterminants et des systèmes d'équations du 1er degré. ... On peut prendre une équation aux dérivées
+
+ partielles, représentant pour ainsi dire une infinité déquations, et s'en servir pour déterminer une fonction
+
+ inconnue, représentant une infinité continue d'inconnues. On a alors d'autres déterminants infinis, qui sont
+ aux déterminants ordinaires ce que les intégrales sont aux sommes finies. C'est là ce qu'a fait Fredholm...
+
+ <£) Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 09:54:30 UTC
+All use subject to https://about.jstor.org/terms
+
+ Integral equations between theory and practice 581
+
+ researchers... we can dream of more complicated functional equations that will
+
+ bring in the role of heredity...57 (Picard 1908, 194).
+
+ Here, heredity refers not to the biological phenomenon; the term was used by Volterra,
+
+ Picard, and others to describe physical processes in which the time evolution of the
+
+ phenomenon depends not only on "initial" conditions at a single point in time but
+
+ (typically) on other states prior to that; we return to this shortly.
+
+ While Picard's predictions about the realms of application were not to be fully
+
+ realized, his observation about the ways in which integral equations would extend the
+
+ domain of analysis ring true:
+
+ A domain more vast than that of differential equations, containing them as a
+
+ special case, opens before us. We will not take a path there by chance, but
+
+ guided by mechanics and physics in the choice of forms to treat.58 (Picard 1908,
+ 194)
+
+ A. R. Forsyth, writing on the theory of formal integration of partial differential
+
+ equations in the same Atti, specifically mentions the importance of these recent
+
+ developments, which he expressly omits. However, his perception of the need to
+
+ acknowledge these developments speaks to their importance:
+
+ The choice [of subjects for the article]... involves a study of processes which
+
+ belong to the earlier developments of the theory, and leads me, for the present
+
+ purpose, to omit references to many of the quite modern contributions. It is from
+
+ no lack of appreciation of the work of Mr. Dini, Mr. Hilbert, Mr. Picard, Mr.
+
+ Poincaré, and Mr. Volterra.. .that my choice has been made. (Forsyth 1908,87).
+
+ In the detailed communications, we also find many papers treating integral equations
+
+ both in themselves and for the purposes of application to the solution of boundary value
+
+ problems. Again, sometimes these remarks are simply passing mentions indicating the
+
+ perceived importance of Fredholm's methods. This is the case, for example, with the
+ paper of Lauricella, who limits himself for simplicity to a case where Fredholm's
+ method is not needed, while noting its power in more general cases (Lauricella 1908d,
+
+ 33). Boggio makes reference to results obtained by this method, in the theory of
+
+ elasticity, citing particularly the work of Lauricella and Picard (Lauricella 1907; Picard
+
+ 1906b). He treated these papers as well known, as they certainly were in his immediate
+
+ circles. More theoretical work on integral equations was presented by d'Adhémar and
+
+ Orlando, d'Adhémar speaking about equations of Volterra type, and Orlando proposing
+
+ 57 On sait avec quel succès un type particulier d'équations fonctionelles a été étudié dans ces derniers
+
+ temps ... mémorable exemple, après tant d'autres, de la facilité que peut apporté à la solution d'un prob
+ lème particulier un point de vue plus générale. Pour certaines conditions i limites, il y a même grand
+
+ intérêt à substituer des équations fonctionelles à des équations différentielles ... une étude systématique
+
+ d'équations fonctionelles de plus en plus compliquées devra donc dans un prochain avenir solliciter l'effort
+
+ des chercheurs... nous pouvons rêver déquations fonctionelles plus compliquées .. .qui apporteront la part
+ de l'hérédité...
+
+ 58 Un domaine plus vaste que celui des équations différentielles, et les comprenant comme cas particuliers,
+
+ s'ouvre devant nous. Nous n'y marcherons pas au hasard, guidés dans le choix des formes à traiter par la
+ Mécanique et la Physique.
+
+ Ô Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 09:54:30 UTC
+All use subject to https://about.jstor.org/terms
+
+ 582 T. Archibald, R. Tazzioli
+
+ a method for a different class of equations, based on Fredholm's ideas (d'Adhémar
+ 1908; Orlando 1908).
+
+ 5.2 Volterra's Rome lectures
+
+ We do not propose to give an account of all the textbooks and lectures that address the
+
+ subject of integral equations in the prewar period. However, the lectures of Volterra
+ were given in various versions in Stockholm, Paris, and Italy, and we have already
+ remarked on Volterra's extensive influence in the Italian arena, as well as on his close
+
+ association with Picard. Hence, we will discuss the version of this subject that is
+ recorded in these lectures.
+
+ In the period 1909-1911, Volterra published a series of papers in Rendiconti de lia
+
+ Reale Accademia dei Lincei concerning applications of integral equations—which
+ Volterra named integro-differential equations (equazioni integro-differenziali)—to
+
+ theory of elasticity, electrodynamics and, especially, to what he termed hereditary
+
+ phenomena (fenomeni ereditari).
+
+ This refers to a distinction made by Picard, but dating back to Boltzmann or even
+
+ further, between phenomena that depend only on the present (or infinitesimally near)
+
+ state of a system (non-hereditary) and those in which some "memory" exists that may
+
+ surface to cause changes that are not easily modeled using differential equations and
+
+ boundary conditions (Boltzmann 1874,1876). Picard's discussion of this matter occurs
+
+ at the end of a paper titled La mécanique classique et ses approximations successives.
+
+ The venue of this paper is interesting: It appears in the first issue of the first volume
+
+ of a journal called Rivista di Scienza, published in Bologna with an editorial board
+
+ including F. Enriques. The journal has a philosophical spin, with its subtitle indicating
+
+ it is a Revue internationale de synthèse scientifique. (The articles are in French, Italian,
+
+ English, and German.) As Picard noted,
+
+ The laws expressing our ideas on motion find themselves condensed into dif
+
+ ferential equations, that is, relations between variables and their derivatives. We
+
+ must not forget that we have definitively formulated a principle of non-heredity,
+
+ in supposing that the future of a system at a given moment depends only on
+ its present state, or more generally (if we consider forces as being able also to
+
+ depend on velocities) that this future depends on the preceding infinitely near
+
+ state. This is a restrictive hypothesis, and one that, in appearance at least, many
+
+ facts contradict. There are numerous examples in which the future of a system
+
+ seems to depend on anterior states. In such complex cases one tells oneself that
+
+ perhaps we must abandon differential equations and think of functional equa
+
+ tions, in which integrals figure that are taken from a very distant time up to the
+
+ present, integrals that will be the legacy of this heredity.59 (Picard 1907,13-14).
+
+ 59 ...les lois exprimant nos idées sur le mouvement se sont trouvées condensées dans des équations dif
+ férentielles, c'est à dire des relations entres les variables et leurs dérivées. Il ne faut pas oublier que nous
+
+ avons en définitive formulé un principe de non-hérédité, en supposant que l'avenir d'un système ne dépend
+
+ à un moment donné que de son état actuel, ou d'une manière plus générale (si on regarde les forces comme
+
+ pouvant aussi dépendre des vitesses) que cet avenir depend de l'état infiniment voisin qui précède. C'est
+
+ une hypothèse restrictive et que, en apparence au moins, bien de faits contredisent. Les exemples sont nom
+
+ breux, où l'avenir d'un système semble dépendre des états antérieurs. Dans des cas aussi complexes, on se
+
+ Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 09:54:30 UTC
+All use subject to https://about.jstor.org/terms
+
+ Integral equations between theory and practice 583
+
+ In the introduction to the Rome lectures, Volterra went to some lengths also to
+
+ discuss the history of his work from his own point of view, perhaps hoping to establish
+
+ his priority. Noting that his work on functions of lines dates to 1883, he stated specif
+
+ ically that he had begun to work on the subject systematically from 1887. Further, he
+
+ had linked problems in the calculus of variations to integral equations with symmetric
+
+ kernel already in 1884. The idea of inverting definite integrals by using infinite deter
+
+ minants he claims to have mentioned in private conversations in Zurich in 1897, and
+
+ in a paper on standing waves in lakes (seiches) in 1898 in Nuovo Cimento (Volterra
+ 1898) (see Volterra 1913a, v-vi).
+
+ In the next few years, Volterra likewise extended the connection between integral
+
+ equations, his complementary work on functions of lines, and various applications.
+ Some of this work consisted in working out technical details, but he also made an
+
+ effort to explain to a broader public what he saw as the future of his program.To this
+
+ end his final lecture in the series, he gave at the Sorbonne was published in Emile
+
+ and Marguerite Borel's Revue du Mois (Volterra 1912). In particular, the obvious
+
+ issue of whether such "hereditary" effects could always be reduced to deterministic
+
+ models was debated. Citing an example given by Painlevé (Painlevé 1909), Volterra
+
+ noted that we may have two macroscopically identical nails, one of which has many
+
+ hammer blows applied to it, with results for the microstructure. In such a case, the
+
+ imperfect knowledge of the initial data is merely replaced or compensated for by using
+
+ a hereditary framework.
+
+ I think it reasonable to admit hereditary procedures as the only ones possible,
+
+ at least in the present state of science, to include hereditary processes like those
+
+ we have mentioned. There may be a difference of principle, but both those who
+
+ regard the previous postulate as a truth beyond all discussion as well as those
+
+ who doubt it, thinking that to neglect heredity is just a simple approximation,
+
+ must agree on the practical terrain and the methods that must be followed60
+ (Volterra 1912, 564-565)
+
+ and again
+
+ I believe that I have demonstrated to you that hereditary theories ... may be
+
+ studied by the methods of integro-differential equations...it is useful to leave
+
+ the constants undetermined ... it is because of this that the importance of the
+
+ Footntoe 59 continued
+
+ le part de cette hérédité.
+
+ dit qu'il faudra peut-être abandonner les équations différentielles et envisager des équations fonctionelles,
+
+ où figureront des intégrales prises depuis un temps très lointain jusq'au temps actuel, intégrales qui seront
+
+ 60 Au contraire, je pense qu' il est raisonnable d'admettre les procédés d'hérédité comme les seuls possibles,
+
+ au moins dans le moment actuel de la science, pour embrasser les [hénomènes dont nous avons parlé. Il
+ peut y avoir une différence de principe, mais, autant ceux qui admettent comme une vérité hors de toute
+
+ discussion le postulat précédent, et ceux qui en doutent, en considérant que négliger l'hérédité n'est qu'une
+
+ simple approximation, doivent être d'accord sur le terrain pratique et sur les méthodes qu'il faut suivre.
+
+ Ô Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 09:54:30 UTC
+All use subject to https://about.jstor.org/terms
+
+ 584 T. Archibald, R. Tazzioli
+
+ application of algebra to questions of nature has increased always.61 (Volterra
+ 1912,573)
+
+ Volterra's Rome lectures provide an account of the Fredholm's theory and its applica
+
+ tions, originally given in Rome in 1909-1910, and then published in French in 1913
+ (Volterra 1913a). M. Tomassetti and F.S. Zarlatti, who edited Volterra's lectures, added
+
+ some results by Picard and Lalesco to Volterra's original lectures. Volterra's integral
+
+ equations are defined, with Fredholm's equations, as two chapters of the same theory—
+
+ the treatise is divided into four chapters. Some applications to the Dirichlet problem,
+
+ liquid oscillations, vibrations, stationary waves, and hereditary electrodynamics and
+
+ elasticity are described in detail.
+
+ In these lectures, there is no systematic use of Fredholm's theory—in fact, Fred
+
+ holm's works are not quoted at all—in the treatment of such problems; instead Volterra
+
+ often applied Green's function methods for solving PDEs. In particular, in the 10th
+
+ and 11th lectures, devoted to the equation of heat propagation, he based his results on
+
+ the work of several of his students—such as Boggio, E.E. Levi and G. Picciati.62
+
+ This publication was intended to accompany a second volume, on functions of lines,
+
+ which contained the lectures he had given at the Sorbonne from January to March of
+
+ 1912. This second book was edited by Joseph Pérès, a student of Volterra's at the
+
+ University of Rome (Volterra 1913b). Both appeared in Borel's book series on theory
+
+ of functions. These lectures on integral equations concentrate much on the theory of
+
+ what are here labeled the Volterra and Fredholm, with applications playing a smaller
+
+ role in comparison to the lectures held at the University of Rome. The last chapter (the
+
+ 14th) is completely devoted to "hereditary" phenomena, as he describes hysteresis.
+
+ 5.3 Some other textbook treatments and reception elsewhere
+
+ As already mentioned, a considerable number of expository versions of the theory of
+
+ integral equations were written very early. Here, we restrict ourself to a quick descrip
+
+ tion of three more: one by Maxime Bôcher, of interest in part because of its priority
+
+ and because of the location of publication in the USA. The others, published in France
+
+ at the same time, give competing versions associated with Picard and Hadamard.
+
+ 5.3.1 Bôcher and the USA
+
+ Maxime Bôcher studied at Harvard, then went to Gottingen where he completed a
+
+ PhD in 1891. He arrived in Gottingen when Klein was interested in potential theory,
+
+ and his dissertation concerns series expansions of potential functions (i.e., functions
+
+ 61 ... je crois vous avoir démontré que les théories héréditaires ... peuvent être étudiées par les méthodes
+ des équations, intégro-différentielles... il est utile de laisser... indéterminé les constantes... c'est à cause
+ de cela que l'importance de l'application de l'algèbre aux question naturelles a toujours grandi.
+
+ 62 Picciati graduated from Pisa and became a secondary school teacher in Padua in 1896. He taught at the
+
+ University of Padua occasionally but never had a professorial position. His research interests in mathematical
+
+ physics were broad, though he is best known for a 1907 paper on the application of integral equations to the
+ descent of a sphere in viscous fluid. Boggio supplied a simplification of the proof of the main result soon
+ after (Picciati 1907; Boggio 1907c)
+
+ Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 09:54:30 UTC
+All use subject to https://about.jstor.org/terms
+
+ Integral equations between theory and practice 585
+
+ satisfying Laplace's equation), employing the cyelides of Darboux as a device to unify
+
+ various kinds of special functions which are employed depending on the geometry of
+
+ the problem. He was unable to solve the problem of convergence of these expansions,
+
+ which remained open for many years, and his interest in integral equations may have
+
+ arisen partly from the fact the Hilbert's methods offered the possibility of progress in
+ that direction.63
+
+ Bêcher completed his Introduction to the Study of Integral Equations in November
+
+ of 1908. It appeared in the series Cambridge Tracts in Mathematics and Mathematical
+
+ Physics edited by G. H. Hardy and E. Cunningham and had a second edition in 1914.
+
+ This seventy-page account pushes the subject back to Fourier, following Hermann
+
+ Weyl in considering Fourier an unconscious user of integral equations. Bêcher looks at
+
+ the historical roots of integral functional equations in the work of Abel and Dirichlet,
+
+ and his account devotes quite a bit of attention to historical developments. Bêcher
+
+ argues that the prospective importance of the theory was already noted by Du Bois
+
+ Reymond (1888) or even earlier by Rouché ( 1860). As for what the importance consists
+ of, Bêcher is clear:
+
+ ...like so many other branches of analysis the theory was called into being by
+
+ specific problems in mechanics and mathematical physics. This was true not
+
+ merely in the early days of Abel and Liouville, but also more recently in the
+
+ cases of Volterra and Fredholm. Such applications of the theory, together with
+
+ its relations to other branches of analysis, are what give the subject its great
+ importance (Bêcher 1909,2).
+
+ He is not specific about the issue of "relations to other branches of analysis," stating
+ in a footnote: "cf., for instance, much of Hilbert's work.".
+
+ The book is a very thorough elementary presentation, starting with work by Abel
+
+ and Liouville, continuing with Volterra and Fredholm, and the work of Hilbert and
+
+ Schmidt on equations with symmetric kernel. Particular attention is paid to giving a
+ rigorous account of Fredholm's work. There is nothing original as far as the results
+
+ are concerned, and most of the description is based on the work of others, notably
+
+ Fredholm, Hilbert, and Volterra. No account is given at all of the application to bound
+
+ ary value problems, though there is some mention of the relationship to series expan
+
+ sions, notably the 1907 work of Kneser (1907).
+
+ Despite the importance of applications, he expressly excludes them from his
+
+ account, which means that this book would seem to have had at most an indirect
+
+ effect on research in partial differential equations. Though it is useful as an introduc
+
+ tion to the subject in English, it appeared a bit prematurely given the rapid development
+
+ of the theory.
+
+ Bêcher was not the only writer in the American world to take an interest in the
+
+ field. Wally Hurwitz had done a thesis in a related area with Hilbert at the University
+
+ of Gôttingen and then took a position at the University of Cornell in 1910. It was
+
+ through the intermediary of Wally Hurwitz that Hu Mingfu, a Chinese student, had
+
+ come to the U. S. sponsored by the Boxer reparation monies. Hu studied at Cornell
+
+ 63 At any rate, Osgood, in an obituary of Bôcher, mentions the feet that Hilbeit's work is relevant here
+ (Osgood 1919,238).
+
+ Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 09:54:30 UTC
+All use subject to https://about.jstor.org/terms
+
+ 586 T. Archibald, R. Tazzioli
+
+ University from 1910 to 1914 and then went to Harvard, where he completed a PhD in
+ 1917 under Bôcher. Hu was thus the first Chinese student to obtain a western PhD, The
+
+ thesis, Linear Integro-Differential Equations with a Boundary Condition appeared in
+
+ the Transactions of American Mathematical Society, v. 24.
+
+ 5.3.2 Lalesco and Heywood & Fréchet
+
+ Probably more mainstream was the various textbook treatments in France. Tra
+ jan Lalesco was a student of Picard, completing a doctoral thesis in Paris on
+ integral equations of the first kind in 1908.64 The aim of Lalesco's book (Lale
+ sco 1912) is to give an account of the theory (and not the applications) to
+ that date. Accordingly, he treats the Volterra and Fredholm equations, discusses
+ the work of Hilbert on symmetric kernels and Schmidt's extension of that the
+
+ ory. The corresponding eigenfunction expansions are treated in some detail. The
+ concluding portion of the book gives a preliminary discussion of singular inte
+ gral equations, following the work of Hermann Weyl; however, it is not a com
+
+ plete account of that theory. Lalesco likewise treats recent work of Volterra con
+ cerning adjoint pairs of integral equations (fonctions permutables in Volterra's
+
+ terminology).
+
+ In contrast, the book by Heywood and Fréchet restricts itself to the Fredholm equa
+
+ tion and specifically aims at giving an account of applications to mathematical physics.
+
+ This book comes from the orbit of Hadamard and Picard. Fréchet was very much a
+
+ protégé of Hadamard, Maz'ya and Shaposhnikova (1998). Horace Bryon Heywood
+ had completed a doctoral thesis on the Fredholm equation and its applications in 1908
+ (Heywood 1908). The theory presented in this book is fully attached to the appli
+ cations. In fact, the first chapter sets up a considerable number of boundary value
+
+ problems as integral equations, beginning with an introduction to potential theory and
+
+ the idea of a Green's function. Once the appropriate methods are developed, the final
+
+ chapter of the book concerns the solution of these problems. The procedure is done
+
+ in a very step-by-step fashion and indicates the author's faith in the notion that the
+
+ Fredholm approach is one which will be generally used by anyone interested in the
+
+ solution of such equations, notably physicists.
+
+ 6 Concluding remarks
+
+ The distinct approaches belonging to different national "schools" were becoming
+
+ merged in the textbook tradition by 1914, and as we observed French and Italian
+
+ writers were beginning to be more cognizant of Hilbert's methods and approaches by
+
+ that time. The story was then complicated by the advent of World War I.
+
+ The picture we are left with is one in which the abstract and theoretical approach led
+
+ by the Hilbert school had a limited reception outside Germany in the context of work on
+
+ integral equations. While Lauricella, and to some degree Ε. E. Levi, found it possible
+
+ 64 His name is more properly taken as Traian Lalescu, as it is written in Rumanian. The French spelling
+
+ was used in most of the early literature, however.
+
+ Ô Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 09:54:30 UTC
+All use subject to https://about.jstor.org/terms
+
+ Integral equations between theory and practice 587
+
+ to assimilate this point of view, they seem to have been substantially alone (outside
+
+ the Hilbert sphere) in their success at grasping the potential of the new framework.
+
+ The strong Italian tradition of applied work, particularly in elasticity but also in fluid
+
+ dynamics, was able to make good use of these tools and appears to have continued
+
+ to build on this tradition after the war, Tricomi being a notable (if late) example.
+
+ Further research in this direction could be interesting in illuminating this national
+ context.
+
+ The French case is to some degree intermediate between the two positions, in
+ part perhaps because the two leading researchers, Picard and Hadamard, took rather
+
+ different approaches to the interest of integral equations. While the subject was seen
+
+ as important, there is no "majority" view, a situation indicated by the varying textbook
+
+ treatments of Lalesco, Hey wood & Fréchet, Goursat, D'Adhémar, and so on.
+
+ Volterra himself was later to claim that he had had a very general view of integral
+
+ equations from early on, and the coincidence in time of his lectures on functions of
+
+ lines and those on integral equations is only one indicator of their association in his
+
+ mind. Writing in 1936, on the occasion of a new edition of his 1909 lectures, Volterra
+
+ noted (Volterra and Përès 1936, vii):
+
+ the concept of treating integral and integro-differential equations as chapters in
+
+ the theory of functionals was already taken up in my Leçons of 1913. The devel
+
+ opment of these theories has revealed ever-tighter links between the different
+ branches ...65
+
+ However, the differing views of the disciplinary status of this field has not been
+
+ our main subject. Rather it is the explosive reception of a relatively simple insight
+ in a variety of milieux that drew our attention to this work, and that, as Hadamard
+
+ noted in the passage we cited at the beginning, is such a rare fate for a mathematical
+
+ discovery.
+
+ Appendix: excerpt from Boggio's submission to the competition for the Prix
+ Vaillant
+
+ Boggio's memoir has never been published, not in Acta Mathematica, to which it was
+
+ submitted, or anywhere else. However, a copy of Boggio's work is contained at the
+ Archives of the Academy of Sciences in Paris (Dossier "Prix Vaillant 1907"). In the
+
+ same Dossier, all the memoirs of the candidates to the Prize can be found. Apart from
+
+ Boggio they are (the names in brackets refer to the "rapporteurs" assigned): P. Debye
+
+ of Monaco (Humbert), Boris Coialowitsch of St. Petersburg (Jordan), Henri Willotte
+
+ from Quimper (Maurice Levy), John Dougall from Scotland (Darboux), Frederich
+
+ Hollister Sofford of the USA (Darboux), Walter Ritz (Appell), Jow Simic (Darboux
+
+ and Appell), Giuseppe Lauricella (Picard, Poincaré), Arthur Korn (Appell), Hadamard
+
+ (Painlevé), Stanislaw Zaremba (Poincaré, Maurice Levy).
+
+ 65 le concept de traiter les équations intégrales et intégro-différentielles comme des chapitres de la Théorie
+ des fonctionelles était déjà amorcé dans mes Leçons de 1913. Le développement de ces théories a révélé
+ des rapports toujours plus étroits entre leurs diverses branches ...
+
+ â Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 09:54:30 UTC
+All use subject to https://about.jstor.org/terms
+
+ Boggio's memoir is entitled: Mémoire sur l'intégration de l'équation Aim = 0 and
+
+ we present in what follows the introduction to the paper.
+
+ 588 T. Archibald, R. Tazzioli
+
+ Introduction
+
+ Le problème posé par l'Académie, consistant dans la détermination du déplacement
+
+ transversal des points d'une plaque élastique plane, encastré au bord, soumise à des
+
+ forces quelconques, est un des problèmes les plus intéressants de la théorie mathéma
+
+ tique de l'Elasticité. Analytiquement il revient à déterminer la fonction w, régulière
+
+ dans une aire donnée, qui satisfait aux points de cette aire, à l'équation indéfinie:
+
+ [f(x, y) étant une fonction donnée] et qui s'annule sur le bord, ainsi que sa dérivée
+
+ relative à la normale intérieure, c'est-à-dire:
+
+ d4u; d4w d 4w
+ d^+ fcW+d^~nx,y) ()
+
+ u = 0, — = 0 (2)
+
+ „ d"
+
+ dn
+
+ Un cas particulier de ce problème est celui où la plaque, supposée horizontale, est
+
+ tirée par un seul poids, suspendu à un point quelconque de la plaque. Ce problème
+
+ est très intéressant aussi pour les applications; cette importance a été reconnue déjà
+
+ depuis longtemps : par ex. dans l'ouvrage classique Théorie de l'élasticité des corps
+ solides66 (traduct. française) Clebsch, après avoir résolu le problème pour une plaque
+
+ circulaire, écrit (p. 777): c'est un problème sur l'importance duquel, au point de vue
+
+ des applications, il convient d'appeler l'attention des géomètres-physiciens, ainsi que
+
+ sur la méthode au moyen de laquelle on réussira peut-être à trouver la solution pour
+
+ d'autres formes que la circulaire.
+
+ employée pour le résoudre.
+
+ Donc non seulement est importante la résolution du problème, mais aussi la méthode
+
+ Pour traiter ce problème, pour le cas d'une aire circulaire, Clebsch emploie des
+
+ développements en série, et ses calculs résultent bien compliqués ; il écrie en effet
+
+ (p. 777): c'est à des formules d'une telle complication que conduit un problème dont
+
+ l'analogue, pour les tiges minces, passe à juste titre pour un des plus élémentaires. Et
+
+ même on n'est arrivé à ces formules qu'en supposant la plaque circulaire.
+
+ Au point de vue analytique ce problème, comme je le démontre au n. 5, se réduit
+
+ à la détermination d'une particulière fonction, que l'on appelle deuxième fonction de
+
+ Green, et qui pour une aire circulaire se détermine immédiatement sans recourir aux
+
+ séries. Le problème général de l'intégration des équations (1), (2) peut toujours être
+ nommé à la recherche de la deuxième fonction de Green, par conséquent lorsqu'on
+
+ connaît cette fonction particulière, le problème en question peut être regardé comme
+ résolu.
+
+ 66 Dans cet ouvrage on trouvera d'intéressants renseignéments historiques, de M. de Saint-Venant, sur
+
+ l'équation (1), qui a été rencontrée, le premier, par Lagrange.
+
+ <£] Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 09:54:30 UTC
+All use subject to https://about.jstor.org/terms
+
+ L'intégration des équations (3'), (4) est un cas particulier de Γ intégration des équations:
+
+ Integral equations between theory and practice 589
+
+ Comme on reconnaît immédiatement, l'intégration des équations (1), (2) peut aussi
+
+ être ramenée à l'intégration des équations:
+
+ (dans l'aire donnée)
+
+ d4m „ d4u d4u
+ ϊ?+2ϊλ7 + 37 = 0 (3)
+
+ du
+
+ ιι = φ, — = ψ (4)
+
+ (sur le bord)
+
+ Si l'on pose, pour abréger:
+
+ où φ, ψ désignent des fonctions données sur le bord de l'aire considérée.
+
+ d2 d2
+ 2 àx2 d y2
+
+ on peut écrire l'équation (3) aussi ainsi Ai(Aiu) = 0, ou bien:
+
+ GM) = 0 (3')
+
+ A%m = 0 (5)
+
+ d'u
+ —τ = φ (sur le bord) (i = 0, 1,...)
+ dx'
+
+ où φι est une fonction donnée sur le bord.
+
+ L'intégration des équations (3'), (4) peut aussi être regardée comme un cas partic
+
+ ulier de l'intégration des équations:
+
+ Λ rr , d (dU àU\
+
+ ^ + 's(d7+d7)=0 <6)
+
+ (dans l'aire donnée)
+
+ d (dV dV\
+
+ w+ts:(ï+i)·0
+
+ U = φ,ν = ψ (sur le bord),
+
+ où k est une constante, et φ, ψ sont des fonctions données sur le bord.
+
+ Dans mon Mémoire j'étudie précisément l'intégration des systèmes (5) et (6). Voici
+
+ rapidement le contenu des différents Chapitres.
+
+ Chap. I J'établie que la fonction u, qui vérifie les équations (5), est unique, et
+
+ ensuite je démontre deux formules, qui sont pour l'opération Aim, les analogues de
+ celles de Green pour l'opération Ai. Je définie en outre les fonctions Gm de Green
+
+ de l'ordre m, en montrant aussi que l'intégrale des équations (5) est comme si l'on
+
+ ô Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 09:54:30 UTC
+All use subject to https://about.jstor.org/terms
+
+ 590 T. Archibald, R. Tazzioli
+
+ connaît la fonction Gm. Des formules établies j'en fais une intéressante application
+
+ en démontrant le théorème de réciprocité pour les fonctions Gm, théorème analogue
+
+ à celui que Riemann a démontré pour l'ordinaire fonction de Green. Je termine en
+
+ montrant l'application de la deuxième fonction de Green à la résolution du problème
+
+ sur les plaques, représenté par l'intégration des équations (1), (2), et au cas particulier
+
+ de la plaquer tirée par un seul poids ; de la formule que je trouve pour ce cas (et qui
+
+ constitue la véritable interprétation physique de la deuxième fonction de Green) j'en
+
+ fais plusieurs applications: entre autres j'en déduis une interprétation physique de mon
+
+ théorème de réciprocité.
+
+ Chap. //Je démontre plusieurs théorème qui donnent la représentation d'une fonc
+
+ tion polyharmonique (c'est-à-dire qui vérifie l'équation Aim = 0) au moyen de fonc
+
+ tions harmoniques. Ces théorèmes sont déjà connus, mais je les démontre ici avec
+
+ des hypothèses moins restrictives par rapport à l'aire à laquelle ils se rapportent.
+
+ Je démontre ensuite des théorèmes sur l'intégrale générale d'une équation linéaire,
+
+ à coefficients constants, dont le premier nombre est le produit de plusieurs expres
+
+ sions différentielles ; les théorèmes descendent facilement d'un autre théorème qui
+
+ donne la condition nécessaire et suffisante parce que deux équations différentielles
+
+ linéaires, à coefficients constants, dont une seule est homogène, aient des intégrales
+
+ communes.
+
+ Chap. Ill Je cherche l'intégrale de l'équation AimU = F(x, y), [FOc, y) étant
+
+ une fonction donnée, que l'on suppose polyharmonique], qui est régulière dans ne
+
+ aire circulaire, et qui s'annule sur le bord ainsi que ses dérivés normales successives
+
+ des m — 1 premiers ordres; la fonction cherchée est exprimée au moyen d'intégrales
+
+ simples (quadratures).
+
+ Je détermine ensuite l'intégrale des équations (1), (2), pour une aire elliptique, et
+
+ sous l'hypothèse que la fonction donnée / soit un polynôme du degré n; je démontre
+
+ alors que la fonction cherchée u sera aussi un polynôme du degré n, dont les coefficients
+
+ se calculent facilement. Ce résultat, que j'étends aussi au cas de l'équation 4 2m" = /,
+ je l'établis à l'aide d'un lemme général qui peut appliqué à plusieurs questions de
+ Physique-mathématique. Je cherche enfin (toujours pour une ellipse) les intégrales des
+
+ équations (6) qui sur le bord coïncident avec deux polynômes donnés : ces intégrales
+
+ sont aussi des polynômes.
+
+ Chap. IV La recherche de la fonction de Green Gm de l'ordre m, pour une aire
+
+ circulaire est l'objet de ce chapitre. Je détermine d'abord la fonction préliminaire de
+
+ Green de l'ordre m par un procédé très simple, au moyen de calculs algébriques et
+
+ de dérivations ; et ensuite il en résulte l'expression de la fonction cherché Gm. Cette
+
+ expression peut s'écrire sous la forme d'une intégrale définie, très simple, de laquelle
+
+ on déduit que la fonction Gm a un signe constant dans le cercle; la formule établie
+ s'étend immédiatement au cas d'un nombre quelconque de variables, et montre que,
+
+ dans ce cas aussi, la fonction Gm a un signe constant; en outre elle permet de démontrer
+
+ pour la fonction Gm un théorème analogue à un théorème donné par M. Poincaré pour
+ l'ordinaire fonction de Green.
+
+ Je termine en donnant des limites supérieures pour les dérivées successives de la
+
+ fonction Gm; ces inégalités seront très utiles pour l'application de la méthode des
+
+ approximations successives de M. Picard à l'équation Aimu = /(m).
+
+ Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 09:54:30 UTC
+All use subject to https://about.jstor.org/terms
+
+ Integral equations between theory and practice 591
+
+ Chap. VII est facile de trouver, pour une aire circulaire, Γ intégrale des équations (5);
+
+ il suffit en effet de considérer la fonction Gm déterminée au Chap. IV et d'appliquer
+
+ une formule établie au Chap. I. On peut aussi déterminer l'intégrale des équations (5)
+
+ par une méthode directe et très simple, indiquée par MM. Almansi et Volterra.
+
+ Ensuite je cherche l'intégrale des équations (3), (4) pour une couronne circulaire,
+
+ en appliquant la méthode de Venske, complétée par M. Almansi; mais tandis que M.
+
+ Almansi doit faire des calcules pénibles pour prouver la compatibilité des équations
+
+ que l'on trouve entre les coefficients à déterminer, j'applique un lemme établi au
+
+ Chap. IV duquel il résulte immédiatement, sans aucun calcul, la compatibilité de ces
+
+ équations.
+
+ Chap. VI Je démontre un théorème intéressant établi par MM. Levi-Civita et
+ Volterra, et ensuite un théorème que l'on peut regarder comme le réciproque de celui
+
+ de M. Volterra, et une généralisation d'un théorème bien connu, de M. Painlevé, sur
+
+ les fonctions harmoniques.
+
+ Chap. VIIL'intégration des équations (3), (4) pour une aire elliptique a été abordée
+
+ par M. Mathieu, mais ses calculs sont très compliqués et ne sont pas complets. Je donne,
+
+ au contraire, une méthode bien simple par résoudre ce problème, et je démontre deux
+
+ théorèmes analogues à des théorèmes bien connus sur les séries de puissances, qui
+
+ permettent d'établir la convergence des séries employées.
+
+ Je donne ensuite une méthode très simple pour intégrer les équations (3), (4), ou
+
+ bien (5), dans l'aire extérieure à une ellipse donnée ; la solution que je trouve pour ce
+
+ cas est composée seulement par des intégrales définies.
+
+ Chap. VIII J'intègre les équations (6) pour les aires dont on peut faire la représen
+
+ tation conforme sur un cercle par des polynômes, ou plus en général par des fonctions
+
+ rationnelles. Au premier groupe d'aires appartiennent les épicycloïdes qui ont des
+ points d'inflexion comme points singuliers. La solution dans les deux cas est com
+
+ posée seulement par des intégrales définies.
+
+ Comme application je traite le cas du limaçon de Pascal qui ne passe pas par son pole.
+
+ Chap. IX Par un simple procédé d'intégration je réduis le problème de l'intégration
+
+ des équation (6), pour une aire quelconque, représentable sur un cercle d'une manière
+
+ conforme, à la résolution d'un système d'infinies équations linéaires avec infinies
+
+ inconnues. Je résoudre ce système par la méthode des approximations successives,
+
+ qui est plus simple que celle employée, pour un système analogue, par M. Levi-Civita.
+
+ Chap. X J'applique la méthode des approximations successives de M. Picard, pour
+
+ résoudre le problème généralisé de Dirichlet pour de certains types d'équations aux
+ dérivées partielles de l'ordre 2m. Je considère d'abord le cas d'une aire circulaire
+
+ et ensuite le cas d'une aire quelconque simplement connexe. Si l'aire donnée est
+
+ suffisamment petite la méthode des approximations successives donne toujours la
+
+ solution du problème donné, aussi dans le cas des équations linéaires que dans le cas
+
+ des équations non linéaires. J'étends en outre ces résultats au cas d'un systèmes de
+ deux équations linéaires de l'ordre 2m.
+
+ Chap. XI Je démontre un théorème qui ramène l'intégration des équations de la
+
+ déformation des plaques élastiques cylindriques à l'intégration des équations (3), (4).
+ Des formules que j'établis pour ce cas on déduit d'intéressants propriétés : entre
+ autres celle que les intégrales des équations de la déformation des plaques élastiques
+
+ Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 09:54:30 UTC
+All use subject to https://about.jstor.org/terms
+
+ 592 T. Archibald, R. Tazzioli
+
+ cylindriques sont des fonctions régulières de deux certains paramètres. M. Lauricella
+
+ a ensuite remarqué qu'il subsiste le théorème réciproque de mon théorème.
+
+ Chap. XII Je fais une remarquable application des théorèmes établis au Chapitre
+
+ précédent, à l'intégration des équations (3), (4) pour une plaque rectangulaire ; ces
+
+ théorèmes en effet permettent de ramener l'intégration de ces équation à un problème
+
+ qui a été résolu par Mathieu. J'expose la solution de Mathieu en la simplifiant un peu,
+
+ notamment pour ce qui est relatif à la résolution d'un système d'infinies équations
+
+ linéaires avec infinies inconnues, que je traite par la méthode des approximations
+ successives.
+
+ Chap. XIII J'expose dans ce dernier Chapitre quelques applications des équations
+
+ intégrales à la Physique mathématique, notamment aux questions qui ont des relations
+
+ avec le problème posé par l'Académie.
+
+ Après avoir simplifié la démonstration de M. Hilbert, je réduis le problème général
+
+ de la détermination de la déformation d'un corps élastique isotrope, quand on connaît
+ la déformation de sa surface, à la résolution d'une équation intégrale du type de
+
+ Fredholm. Je démontre que cette équation a une solution et une seule pourvu qu'un
+
+ certain paramètre soit I > — 1.
+
+ Dans le cas de deux variables, cette méthode donne l'intégrale des équations (6) et
+
+ par conséquent, comme cas particulier, la résolution du problème posé par l'Académie.
+
+ J'étudie ensuite la détermination de la déformation d'un corps élastique, isotrope,
+
+ quand on connaît les tensions appliquées à sa surface; dans le cas de deux variables
+
+ cette méthode donne une nouvelle solution du problème posé par l'Académie. De ce
+
+ problème j'en donne aussi d'autres solutions, valides pour un nombre quelconque de
+ variables.
+
+ Enfin j'étudie, par les équations intégrales, l'intégration de certaines équations, aux
+
+ dérivées partielles, de l'ordre 2m, et j'en trouve la solution pour une aire quelconque,
+
+ simplement connexe. En terminant je traite l'existence des solutions singulières pour
+
+ de certaines équations de l'ordre 2m, qui sont une généralisation des équations des
+
+ membranes et plaques vibrantes.
+
+ References
+
+ Torino 31: 881-888.
+
+ 103-125.
+
+ appl.s.III 2:1-51.
+
+ Almansi, Emilio. 1896. Sulla integrazione dell'equazione differenziale A2 A2 = 0. Atti R. Acc. Scienze di
+
+ Almansi, Emilio. 1897. Sulla deformazione della sfera elastica. Memorie R. Acc. Scienze di Torino s. II47:
+
+ Almansi, Emilio. 1899a. Sull'integrazione dell'equazione differenziale A2" = 0. Ann. matem. pura ed
+
+ Atti del IV Congresso Internazionale dei Matematici. Roma, Accademia dei Lincei. 3 v. 1909.
+ Bernstein, Sergej. 1904. Sur la nature analytique des solutions des équations aux dérivées partielles du
+
+ second ordre. Math. Annalen 59: 20-76.
+
+ Betti, Enrico. 1872-73. Teoria délia elasticità. Pisa: Tip. Pieraccini, 1874; Nuovo Cimento s. II, vol. 7-10.
+
+ Reprinted in (Capecchi, Ruta and Tazzioli 2006).
+
+ Bôcher, Maxim. 1909. An introduction to the theory of integral equations. Cambridge: Cambridge University
+
+ Boggio, Tommaso. 1900a. SuH'equilibrio delle membrane elastiche piane. Nota I. Atti Acc. Scienze di
+ Torino 35: 219-239; Nota II, Ibid., 239 (1901a); see also Nuovo Cimento s. IV, vol. 12,1900,170-190;
+ s. V, vol. 1,1901,161-178.
+
+ Press.
+
+ Ô Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 09:54:30 UTC
+All use subject to https://about.jstor.org/terms
+
+ Boggio, Tommaso. 1900b. Sull'equilibrio delle membrane elastiche plane. Atti Acc. Scienze Torino 35:
+
+ Integral equations between theory and practice 593
+
+ Boggio, Tommaso. 1900c. Un teorema di reciprocità sulle funzioni di Green d'ordine qualunque. Atti Acc.
+
+ Boggio, Tommaso. 1900d. Integrazione dell'equazione in una corona circolare e in uno strato sferico. Atti
+
+ 1st. Veneto di Scienze, Lettere edArti 59(11): 497-508.
+
+ Boggio, Tommaso. 1901a. Integrazione dell'equazione in un'areaellittica. Atti 1st. Veneto di Scienze, Lettere
+
+ Boggio, Tommaso. 1901b. SuU'equilibrio delle piastre elastiche incastrate. Rend. R. Acc. dei Lincei s. V
+
+ 219-239.
+
+ Scienze di Torino 35: 498-509.
+
+ edArti 60(11): 591-609.
+
+ 10(1): 197-205.
+
+ Boggio, Tommaso. 1904. Sulla deformazione delle piastre elastiche cilindriche di grossezza qualunque.
+
+ Rend. R. Acc. dei Lincei s. V 13(11): 419-427.
+
+ Boggio, Tommaso. 1906. Risoluzione del problema dei valori al contomo per alcuni casi di equazioni allé
+
+ derivate parziale. Rend. CircoloMat. Palermo 21: 283-306.
+
+ Boggio, Tommaso. 1907a. Nuova risoluzione di un problema fondamentale della teoria dell'elasticity Rend.
+
+ Boggio, Tommaso. 1907b. Sull'equazione del moto vibratorio delle membrane elastiche. Rend. R. Acc. dei
+
+ R. Acc. dei Lincei 16(11): 248-255.
+
+ Lincei (5) 16(11): 386-393.
+
+ Boggio, Tommaso. 1907c. Integrazione dell'equazione funzionali che reggie la caduta di una sfera in un
+
+ liquido viscoso. Rend. R. Acc. dei Lincei (5) 16(11): 613-620,730-737.
+
+ Boltzmann, Ludwig. 1874. Theorie der elastischen Nachwirkung. Ber. Κ. K. Akad. Wien 70: 275-306.
+
+ Boltzmann, Ludwig. 1876. Zur Theorie der elastischen Nachwirkung. Pogg Ann. Erg. 7: 624.
+ Bottazzini, Umberto. 1986. The higher calculus. A history of real and complex analysis from Euler to
+
+ Weierstrass. New York: Springer.
+
+ Brezis, Chaim and F. Browder. 1998. Partial differential equations in the 20th century. Advances in Math
+
+ Capecchi, Danilo, Ruta Giuseppe, and Rossana Tazzioli. 2006. Enrico Betti. Teoria della Elasticità.
+
+ ematics 135: 76-144.
+
+ Benevento: Hevelius.
+
+ Charpentier', Ε., É. Ghys, and A. Lesne. 2010. Eheritage scientifique de Poincaré. Paris: Belin . English
+
+ translation The Scientific Legacy of Poincaré. Providence: AMS.
+
+ Cerruti, Valentino. 1882. Ricerche intorno all'equilibrio dei corpi elastici isotropi. Memorie R. Acc. dei
+
+ Lincei s. Ill 13: 81-123.
+
+ d'Adhémar, Robert. 1908. Sur les équations intégrales de M. Volterra. In (Atti Roma 1909), II, 115-121.
+
+ Dieudonné, Jean. 1981. History of functional analysis. Amsterdam: North Holland.
+
+ Du Bois-Reymond, Paul. 1888. Bemerkungen iiber Az = 0. Jour, f tir Math. 103: 204-229.
+ Fischer, Ernst. 1907. Sur la convergence en moyenne. Comptes rendus de l'Académie des Sciences 144:
+
+ 1022-1024.
+
+ Forsyth, A.R. 1908. On the present condition of partial differential equations of the second order as regards
+
+ formal integration. In (Atti Roma 1908) I, 87-103.
+
+ Fredholm, Ivar. 1899. Sur une classe d'équations aux dérivées partielles. Comptes rendus de l'Académie
+
+ Fredholm, Ivar. 1900. Sur une nouvelle méthode pour la résolution du problème de Dirichlet. Stockholm
+
+ Fredholm, Ivar. 1902. Sur une classe de transformations rationnelles. Comptes rendus de l'Académie des
+
+ Fredholm, Ivar. 1903. Sur une classe d'équations fonctionelles. Acra Math. 27: 365-390.
+
+ Fredholm, Ivar. 1905. Solution d'un prolblème fondamentale de la théorie de l'élasticité. ArkivforMat.fys,
+
+ Fubini, Guido. 1905. Un'osservazione sulla teoria delle funzioni poliarmoniche. Rendiconti Istit. Lombarde
+
+ Goursat, Édouard. 1907. Sur un cas élémentaire de l'équation de Fredholm. Bulletin de la Soc. math, de
+
+ Goursat, Édouard. 1915. Traité d'analyse. 2nd edn., Paris. On Integral equations see v. 3, chaps 30-33,
+
+ Gray, Jeremy. 2013. Henri Poincaré: A scientific biography. Princeton: Princeton University Press
+
+ Groetsch, Charles W. 2003. The delayed emergence of regularization theory. Bollettino Storiadelle Scienze
+
+ Matemetiche 23: 105-120.
+
+ des Sciences 129: 32-34.
+
+ Ôfver 57: 39^16.
+
+ Sciences 134: 219-222.
+
+ och ast. 2(28): 8
+
+ 38: 449-453.
+
+ France 35:163-173.
+
+ 324-544.
+
+ Ô Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 09:54:30 UTC
+All use subject to https://about.jstor.org/terms
+
+ 594 T. Archibald, R. Tazzioli
+
+ Hadamard, Jacques. 1893. Sur le module maximum qui puisse atteindre un déterminant. Comptes rendus
+
+ de l'Académie des Sciences 116: 1500-1501; in Oeuvres (vol. 4, Paris, CNRS, 1968) vol. 1,237-238.
+
+ Hadamard, Jacques. 1908. Sur certains cas intéressants du problème biharmonique. Atti del IV Congresso
+
+ dei Matematici 2: 61-63. Roma: Accademia dei Lincei; in Oeuvres vol. 3, 643-645.
+
+ Hadamard, Jacques. 1909. Sur le problème d'analyse relatif à l'équilibre des plaques élastiques encastrées.
+
+ Mémoires savants étrang. s. II 33(4); in Oeuvres vol. 2,515-629. Prix Vaillant.
+
+ Hadamard, Jacques. 1910. Sur les ondes liquides 1ère et Iléme notes. Comptes rendus de l'Académie des
+
+ Sciences 150: 609-611,772-774; in Oeuvres vol. 3,1301-1303,1317-1320.
+
+ Hadamard, Jacques. 1928. Le développement et le rôle scientifique du calcul fonctionnel. Atti del Congresso
+ Internazionale dei Matematici, Bologna, Zanichelli, Bologna 1929, vol. 1,143-161; In Oeuvres vol. 1,
+ 435-453.
+
+ Happel, J., and H. Brenner. 1965. Low Reynolds number hydrodynamics. Englewood Cliffs NY: Prentica
+
+ Hellinger, Ernst. 1935. Hilberts Arbeiten fiber Integralgleichungen und unendliche Gleichungssysteme. In
+
+ (Hilbert Gesammelte Abhandlungen) vol. Ill, 95—145.
+
+ Hellinger, Ernst and Otto Toeplitz. 1927. Integralgleichungen und Gleichungen mit unendlichviele unbekan
+
+ nten. Enzyklopàdie der mathematischen Wissenschaften 11.3.2, section IIC. 13:1335-1597.
+
+ Heywood, Horace B. 1908. Léquation de Fredholm et quelques-unes de ses applications. Thèse, Université
+
+ Heywood, Horace B., and Maurice Fréchet. 1912. Léquation de Fredholm et ses application ά la physique
+
+ mathématique. Préface de J. Hadamard. Paris, Hermann
+
+ Hilbert, David. 1900. Sur le principe de Dirichlet. Trans. M. Laugel. Nouvelles Annales de Mathématiques
+
+ Hilbert, David. 1904. Grundziige einer allgemeinen Théorie der linearen Integralgkleichung. Gott. Nachr.
+
+ Hall.
+
+ de Paris.
+
+ s. III 19: 337-344.
+
+ 49-91: 213-259.
+
+ 1970.
+
+ Hilbert, David. 1935. Gesammelte Abhandlungen. Berlin: Springer. Cited here from the Second edition,
+
+ Korn, Arthur. 1899. Lehrbuch der Potentialtheorie, allgemeine Théorie des Potentials und der Potential
+
+ funktionen im Raume. Berlin: F. Dfimmler.
+
+ Kneser, Arthur. 1907. Die Theorie der Integralgleichungen und die Darstellung willkfirlicher Funktionen
+
+ in der mathematischen Physik. Math. Annalen 63:477-524.
+
+ Korn, Arthur. 1902. Ftinf Abhandlungen zur Potentialtheorie. Berlin: F. Dfimmler.
+ Korn, Arthur. 1907. Sur les équations de l'élasticité. Ann. Sci. Ecole Normale Sup. s. III24: 9-75.
+ Lalesco, Trajan. 1912. Introduction à la théorie des équations intégrales. Préface de E. Picard. Paris,
+
+ Hermann.
+
+ 1-119.
+
+ Langlois, W.E. 1964. Slow viscous flow. New York: Macmillan.
+ Lauricella, Giuseppe. 1895. Equilibrio dei corpi elastici isotropi. Annali R. Scuola Norm. Sup. di Pisa 7:
+
+ Lauricella, Giuseppe. 1895-96. Integrazione dell'equazione in un campo di forma circolare. Atti Acc.
+
+ Lauricella, Giuseppe. 1896. Sull'equazione delle vibrazioni delle placche elastiche incastrate. Memorie
+
+ Scienze Torino 31: 1010-1018.
+
+ Acc. Scienze Torino s. II46: 65-92.
+
+ Lauricella, Giuseppe. 1898. Integrazione délia doppiaequazione di Laplace in un campo a forma di corona
+
+ circolare. Atti 1st. Veneto di Scienze, Lettere edArti 57: 236-250.
+
+ Lauricella, Giuseppe. 1901a. Sulle funzioni biarmoniche. Rend. R. Acc. dei Lincei s. V 10:147-150.
+ Lauricella, Giuseppe. 1901b. Sulla deformazione di una sfera elastica isotropa per dati spostamenti in
+
+ superficie. Ann. matem. pura ed appl. s. III6: 289-299.
+
+ Lauricella, Giuseppe. 1903. Sulla deformazione di una sfera elastica isotropa per date tensioni in superficie.
+
+ Lauricella, Giuseppe. 1904. Sulle formole che danno la deformazione di una sfera elastica isotropo. Rend.
+
+ Lauricella, Giuseppe. 1905. Sull'integrazione delle equazioni deU'equilibrio dei corpi elastici isotropi. Ann.
+
+ Nuovo Cimento s. V 5: 5-26.
+
+ R. Acc. dei Lincei s. V 13(11): 583-590.
+
+ matem. pura ed appl. s. III 11: 269-283.
+
+ Lauricella, Giuseppe. 1907. Alcune applicazioni délia teoria delle equazioni funzionali alla fisica matem
+
+ atica. Nuovo Cimento s. V 13: 104-118,155-174,237-262,501-518.
+
+ Lauricella, Giuseppe. 1908a. Sulla vibrazione delle placche elastiche incastrate. Rend. R. Acc. dei Lincei s.
+
+ V 17(11): 193-204.
+
+ <£) Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 09:54:30 UTC
+All use subject to https://about.jstor.org/terms
+
+ Integral equations between theory and practice 595
+
+ Lauricella, Giuseppe. 1908b. Sopraalcuneequazioni integrali. Rend. R. Acc. deiUnceis. V 17(1): 775-786.
+ Lauricella, Giuseppe. 1908c. Applicazione della teoria di Fredholm al problema del rafîreddamento dei
+
+ corpi. Ann. matem. pura ed appl. s. Ill 14: 143-169.
+
+ Lauricella, Giuseppe. 1908d. Sull'equazione Δ2' V = 0 e su alcune estensioni delle equazioni
+
+ dell'equilibrio dei corpi elastici isotropi. In (Atti Roma 1908d) vol. Ill, 33-59.
+
+ Lauricella, Giuseppe. 1909a. Sur l'intégration de l'équation relative à l'équilibre des plaques élastiques
+
+ encastrées. Acta Mathematica 32: 201-256.
+
+ Lauricella, Giuseppe. 1909b. Sull'equazione intégrale di prima specie. Rend. R. Acc. dei Lincei s. V 18(11):
+
+ Lauricella, Giuseppe. 1911. Sulla risoluzione dell'equazione intégrale di prima specie. Rend. R. Acc. dei
+
+ 71-75.
+
+ Lincei s. V 20:528-536.
+
+ Villars.
+
+ 249-252.
+
+ Springer.
+
+ Gôttingen.
+
+ Lauricella, Giuseppe. 1912. Sulla chiusura di sistemi di funzioni ortogonali e dei nuclei delle funzioni
+
+ integrali. Rend. R. Acc. dei Lincei s. V 21(1): 675-685.
+
+ Lebesgue, Henri. 1904. Leçons sur l'intégration et la recherche de fonctions primitives. Paris: Gauthier
+
+ Le Roux, Jean Marie. 1895. Sur les intégrales des équations linéaires. Ann. Sci. ENS s. III12: 227-316.
+
+ Le Roux, Jean Marie. 1903. Recherches sur les équations aux dérivées partielles. Journal de mathématiques
+
+ pures et appliquées S. V. 9:403-455.
+
+ Levi, Eugenio Elia. 1906. Su un lemma del Poincaré. Rend. R. Acc. dei Lincei s. V 14: 83-89, 353-358.
+ Levi, Eugenio Elia. 1907. Sulle equazioni integrali. Rend. R. Acc. dei Lincei s. V 16(11): 604-6012.
+ Levi, Eugenio Elia. 1908. Sur l'application des équations intégrales au problème de Riemann. Gott. Nachr.,
+
+ Levi-Civita, Tullio. 1954-1973. Opere Matematiche vol. 6. Zanichelli: Bologna.
+ Levi-Civita, Tullio. 1895-96. Sull'inversione degli integrali definiti nel campo reale. Atti Acc. Scienze di
+
+ Torino 31: 25-51; In (Levi-Civita 1954-1973) vol. 1,159-184.
+
+ Levi-Civita, Tullio. 1897-98. Sopra una trasformazione in se stessa dell'equazione Δ2Δ2 = 0. Atti 1st.
+
+ Venetodi Scienze, Lettere edArti 56: 1399-1410; In (Levi-Civita 1954-1973) vol. 1, 357-367.
+
+ Levi-Civita, Tullio. 1898. Sulla integrazione dell'equazione Δ2Δ2 = 0. Atti Acc. Scienze di Torino 33:
+
+ 932-956; In (Levi-Civita 1954-1973) vol. 1, 331-355.
+
+ Liapunov, Alexander Mikhaylovich. 1898. Sur certaines questions qui se rattachent au problème de Dirichlet.
+
+ Journ. de math, pures et appl. s. V 4: 241-311.
+
+ Liitzen, Jesper. 1990. Joseph Liouville 1809-1882: Master of pure and applied mathematics. New York:
+
+ Marcolongo, Roberto. 1903. Teoria matematica della elasticità: lezioni dettate nella R. Università di
+
+ Marcolongo, Roberto. 1907. La teoria delle equazioni integrali e le sue applicazioni alla Rsica matematica.
+
+ Messina, anno scolastico 1902-1903. Messina.
+
+ Rend. R. Acc. dei Lincei s. V 6(1): 742-749.
+
+ Mason, Charles Max. 1903. Randwertaufgaben bei gewdhnlichen Differentialgleichungen. Ph. D. thesis,
+
+ Mathieu, Emile. 1869. Mémoire sur les équations aux différences partielles du quatrième ordre A Au = 0
+ et sur l'équilibre d'élasticité d'un corps solide. Joum. Math, pures et appliquées, s. II 14: 378-421.
+ Mawhin, Jean. 2006/2010. Henri Poincaré and the partial differential equations of mathematical physics.
+
+ Mazliak, Laurent, and Rossana Tazzioli. 2009. Mathematicians at war: Volterra and his French colleagues
+
+ In Charpentier, Ghys, and Lesne, 257-278.
+
+ in World War I. New York: Springer.
+
+ Providence: American Mathematical Society.
+
+ Mechanics Reviews 56: 33-85.
+
+ Maz'ya, Vladimir, and Tatyana Shaposhnikova. 1998. Jacques Hadamard, a universal mathematician.
+
+ Meleshko, V.V. 2003. Selected Topics in the history of the two-dimensional biharmonic problem. Applied
+
+ Monna, A.F. 1975. Dirichlet's principle: A mathematical comedy of errors. Oosthoek, Scheltena & Hoel
+
+ tema.
+
+ Birkhauser.
+
+ Nabonnand, Philippe (ed.). 1999. La correspondance entre Henri Poincaré et Gôsta Mittag-Leffler. Basel:
+
+ Nastasi, Pietro, and Rossana Tazzioli. 2004. Sulla determinazione della m.ma funzione di Green e question!
+
+ connesse. Rend. Cire. Matem. Palermo Suppl. s. 1174: 71-101.
+
+ Nastasi, Pietro, and Rossana Tazzioli. 2006. Problems of method in Levi-Civita's contributions to hydro
+
+ dynamics. Revue d'histoire des mathématiques 12: 81-118.
+
+ Ô Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 09:54:30 UTC
+All use subject to https://about.jstor.org/terms
+
+ Orlando, Luciano. 1906. Sull'integrazione della Δ4 in un parallelepipedo rettangolo. Rend. Circolo Matem.
+
+ 596 T. Archibald, R. Tazzioli
+
+ Orlando, Luciano. 1908. Sulla risoluzione delle equazioni integrali. In (Atti Roma 1908) II, 1908,122-128.
+ Osgood, William Fogg. 1919. The life and services of Maxime Bôcher. Bulletin of the American Mathe
+
+ Palermo 21:316-344.
+
+ matical Society 25: 337-350.
+
+ Painlevé, Paul. 1909. Mécanique: Le genèse de la mécanique et ses influences sur les autres sciences. De
+
+ la méthode dans les sciences, par MM. les professeurs Bouasse [et al]. Paris, F. Alcan, 363-409.
+
+ Pedersen, Gert K. 1988. Analysis Now. New York: Springer.
+ Picard, Émile. 1893. Traité d'Analyse, vol. 3. Paris: Gauthier-Villars.
+
+ Picard, Émile. 1904a. Sur certaines solutions doublement périodiques de quelques équations aux dérivées
+ partielles. Comptes rendus de l'Académie des Sciences vol. 138, 181-183; in (Picard 1981) vol. 2,
+ 687-689.
+
+ Picard, Émile. 1904b. Sur une équation fonctionelle. Comptes rendus de l'Académie des Sciences 139:
+
+ 245-248; in (Picard 1981) vol. 4, 313-316.
+
+ Picard, Émile. 1906a. Sur quelques problèmes de Physique mathématique se rattachant à l'équation de M.
+ Fredholm. Comptes rendus de l'Académie des Sciences 142:861-865; in (Picard 1981) vol. 4,317-321.
+ Picard, Émile. 1906b. Sur quelques applications de l'équation fonctionelle de M. Fredholm. Rendiconti
+
+ Circolo matem. Palermo 22: 1906, 241-259; in (Picard 1981), vol. 4, 323-341.
+
+ Picard, Émile. 1907. La mécanique classique et ses approximations successives. Rivista di Scienza
+
+ 1(1): 14.
+
+ Picard, Émile. 1908. La mathématique dans ses rapports avec la physique, in (Atti Roma 1908), 1,183-195.
+ Picard, Émile. 1909a. Quelques remarques sur les équations intégrales de première espèce et sur certains
+ problèmes de Physique mathématique. Comptes rendus de l'Académie des Sciences 148: 1909, 1563
+ 1568; in (Picard 1981 ) vol. 4, 379-384.
+
+ Picard, Émile. 1909b. Sur les équations intégrales de première espèce. Comptes rendus de l'Académie des
+
+ Sciences 148: 1707-1708; in (Picard 1981) vol. 4, 385-386.
+
+ Picard, Émile. 1910. Sur un théoréme général relatif aux équations intégrales de première espèce et sur
+
+ quelques problèmes de physique mathématique. Rendiconti Circolo Matem. Palermo 29: 79-97.
+
+ Picard, Émile. 1981. Œuvres de Charles-Émile Picard, vol. 4. Paris: CNRS.
+
+ Picciati, Giuseppe. 1907. Integrazione dell'equazione funzionali che reggie la caduta di una sfera in un
+
+ liquido viscoso. Rend. R. Acc. dei Lincei (5) 16(11): 45-50.
+
+ Plancherel, M. 1912. La théorie des équations intégrales. Enseignement mathématique 14: 89-107.
+ Poincaré, Henri. 1913-1965. Œuvres, vol. 11. Paris: Gauthier-Villars.
+
+ Poincaré, Henri. 1890. Sur les équations aux dérivées partielles de la physique mathématique. American
+
+ Journal of Mathematics 1:211-294; in (Poincaré 1913-1965) vol. 9, 28-113.
+
+ Poincaré, Henri. 1894. Sur les équations de la physique mathématique. Rendiconti Cire. Matem. Palermo
+
+ 8: 57-156; in (Poincaré 1913-1965) vol. 9, 123-196.
+
+ Poincaré, Henri. 1897. La méthode de Neumann et le problème de Dirichlet. Acta Math 20: 59-142; in
+
+ (Poincaré 1913-1965) vol. 9, 202-272.
+
+ Poincaré, Henri. 1908a. Remarques sur l'équation de Fredholm. Comptes rendus de l'Académie des Sciences
+
+ 147: 1367-1371; In (Poincaré 1913-1965) vol. 3, 540-544.
+
+ Poincaré, Henri. 1908b. Sur quelques applications de la méthode de Fredholm. Comptes rendus de
+
+ l'Académie des Sciences 148: 125-126; In (Poincaré 1913-1965) vol. 3, 545-546.
+ Poincaré, Henri. 1908c. Lavenir des mathématiques, in (Atti Roma 1908), vol. 1,167-182.
+
+ Riesz, Friedrich. 1907. Ueber orthogonale Funktionsysteme, Gott. Nachr., 116-122.
+ Rouché, Eugène. 1860. Sur le calcul inverse des intégrales définis. Comptes rendus de l'Académie des
+
+ Schmidt, Erhard. 1905. Entwicklung willkurlicherFunktionen nach Systemen vorgeschriebener Funktionen.
+
+ Schmidt, Erhard. 1907. Zur Théorie der linearen und nichtlinearen Integralgleichungen. Math. Annalen 63:
+
+ Sciences 51: 126-128.
+
+ Gottingen.
+
+ 433-476.
+
+ Schwarz, Hermann Amandus. 1885. Ueber ein die Flâchen kleinsten Flàcheninhalts betreffendes Problem
+
+ der Variationsrechnung. Acta Soc. Sci. Finn. 15: 315-362. In Festschrift zum siebzigsten Geburtstage
+
+ der Herrn Karl Weierstrass. Helsingfors, Druck der Finnischen Literatur-Gesellschaft
+
+ Sherman, D.l. 1940. On the solution of a plane static problem of the theory of elasticity under prescribed
+
+ forces. Dokl. Akad. Nauk SSSR 28: 25-28.
+
+ ·£) Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 09:54:30 UTC
+All use subject to https://about.jstor.org/terms
+
+ Integral equations between theory and practice 597
+
+ Siegmund-Schultze, Reinhard. 1982. Die Anfange der Funktionalanalysis und ihr Platz im Umwâlzung
+
+ sprozefi der Mathematik um 1900. Arch. Hist. Exact Sciences 26: 13-71.
+
+ Siegmund-Schultze, Reinhard. 2003. The origins of functional analysis. In A history of analysis, ed. H.N.
+
+ Jahnke, 385-407. Providence: American Mathematical Society.
+
+ Smithies, Frank. 1965. Integral equations. Cambridge: Cambridge University Press.
+ Somigliana, Carlo. 1890. Sulle equazioni délia élasticité. Ann. matem. pura ed appl. s. II 17: 37-64.
+ Somigliana, Carlo. 1894. Sopra gli integrali delle equazioni délia isotropia elastica. Nuovo Cimento s. Ill
+
+ Stekloff, Vladimir. 1900. Mémoire sur les fonctions harmoniques de M. Poincaré. Toulouse Ann. s. II 2:
+
+ 36(29-39): 113-126.
+
+ 273-303.
+
+ Stekloff, Vladimir. 1902. Sur les problèmes fondamentaux de la physique mathématique. Annales de l'Ec.
+
+ Norm. Sup. s. Ill 19: 191-259,455-190.
+
+ Stokes, George Gabriel. 1850. On the effect of the internal friction of fluids on the motion of pendulums.
+
+ Transactions Cambridge Philosophical Society 9: 8-106.
+
+ Tazzioli, Rossana. 1994. Π teorema di rappresentazione di Riemann: Critica e Interpretazione di Schwarz.
+
+ Rend. Circolo Matem. Palermo Suppl. s. II 34: 95-132.
+
+ Tazzioli, Rossana. 2001. Green's Function in some contributions of 19th century mathematicians. Historia
+
+ Mathematica 28: 232-252.
+
+ Parma.
+
+ reprint by Dover, New York.
+
+ Tedone, Orazio. 1907. Sui metodi della fisica matematica. Atti del Primo Congresso délia S.I.P.S., 33-47.
+
+ Tricomi, Francesco. 1957. Integral equations. New York: Interscience. Page references here from the 1985
+
+ Volterra, Vito. 1954-1960. Opere matematiche, vol. 4. Roma: Bardi.
+ Volterra, Vito. 1884. Sopra un problema di elettrostatica. Nuovo Cimento s. Ill 16: 49-57; in (Volterra
+
+ Volterra, Vito. 1895. Sopra un sistemadi equazioni differenziali. Atti R. Acc. Scienze di Torino 30:445-454;
+
+ 1954-1960) vol. 1, 188-195.
+
+ in (Volterra 1954-1960) vol. 2, 122-128.
+
+ Volterra, Vito. 1896a. Sulla inversione degli integrali definiti. Atti R. Acc. Scienze di Torino 31: 311-323,
+
+ 400-408,557-567,693-708; in (Volterra 1954-1960) vol. 2,216-254.
+
+ Volterra, Vito. 1896b. Sulla inversione degli integrali definiti. Rend. R. Acc. dei Lincei s. V 5: 177-185; in
+
+ Volterra, Vito. 1896c. Sulla inversione degli integrali multipli. Rend. R. Acc. dei Lincei s. V 6: 289-300; in
+
+ (Volterra 1954-1960) vol. 2,255-262.
+
+ (Volterra 1954-1960) vol. 2,263-275.
+
+ Volterra, Vito. 1898. Sul fenomeno delle seiches. Conf. tenuta al Congr. della Soc. italiana di Fisica in
+ Torino il 23 settembre 1892. Nuovo Cimento s. TV 8:270-272; in (Volterra 1954-1960) vol. 2,370-372.
+ Volterra, Vito. 1901-02. Sui tentativi di applicazione delle matematiche allé scienze biologiche e sociali.
+
+ Ann. R. Univ. di Roma, 3-28; in (Volterra 1954-1960) vol. 3,14-29.
+
+ Volterra, Vito. 1906. Leçons sur l'intégration des équations différentielles aux dérivées partielles; in (Volterra
+
+ 1954-1960) vol. 3,63-141; publ. also Paris, Hermann, 1912.
+
+ Volterra, Vito. 1912. IIapplicazione del calcolo ai fenomeni di eredità, French version Revue du Mois, 556
+
+ 575 and Italian version in Saggi Scientifici, 1920, Bologna, Zanichelli, 189-218; in (Volterra 1954-1960)
+ vol. 3,554-568.
+
+ Volterra, Vito. 1913a. Leçons sur les équations intégrales et les équations intégro-différentielles. Paris:
+
+ Gauthier-Villars.
+
+ Volterra, Vito. 1913b. Leçons sur les fonctions de lignes. Paris: Gauthier-Villars.
+
+ Volterra, Vito, and Joseph Pérès. 1936. Théorie générale des fonctionelles. Paris: Gauthier-Villart.
+
+ Weyl, Hermann. 1908. Singulàre Integralgleichungen mit besonderer Berucksichtigung des Fourierschen
+
+ Weyl, Hermann. 1909. Ueber die Konvergenz von Reihen, die nach Orthogonalfunktionen foitschreiten.
+
+ Zaremba, Stanislaw. 1901. Ueber die Laplacesche Gleichung und die Methoden von Neumann und Robin.
+
+ lntegraltheorems. Gôttingen.
+
+ Math. Annalen 67: 225-245.
+
+ Krak. Anz, 171-189.
+
+ 8:59-117.
+
+ Zaremba, Stanislaw. 1902. Sur l'intégration de l'équation Au + « = 0. Journ. de Math, pures et appl. s. V
+
+ Zaremba, Stanislaw. 1905. Solution générale du problème de Fourier. Krak. Anz, 69-168.
+ Zeilon, Nils. 1930. Biographie de Ivar Fredholm. Acta Mathematica 54:1-XVI.
+
+ Ô Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 09:54:30 UTC
+All use subject to https://about.jstor.org/terms
+
+

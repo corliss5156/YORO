@@ -1,0 +1,1346 @@
+ 
+
+ 
+
+ 
+
+ 
+
+Proposition 10, Book 2, in the "Principia", revisited
+Author(s): Michael Nauenberg
+Source: Archive for History of Exact Sciences, Vol. 65, No. 5 (September 2011), pp. 567-587
+Published by: Springer
+Stable URL: https://www.jstor.org/stable/41287707
+Accessed: 19-05-2020 12:20 UTC
+
+JSTOR is a not-for-profit service that helps scholars, researchers, and students discover, use, and build upon a wide
+
+range of content in a trusted digital archive. We use information technology and tools to increase productivity and
+
+facilitate new forms of scholarship. For more information about JSTOR, please contact support@jstor.org.
+
+Your use of the JSTOR archive indicates your acceptance of the Terms & Conditions of Use, available at
+
+https://about.jstor.org/terms
+
+Springer is collaborating with JSTOR to digitize, preserve and extend access to Archive for
+History of Exact Sciences
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:20:18 UTC
+All use subject to https://about.jstor.org/terms
+
+ Arch. Hist. Exact Sci. (201 1) 65:567-587
+ DOI 10.1007/s00407-0 11-0085-2
+
+ Proposition 10, Book 2, in the Principia , revisited
+
+ Michael Nauenberg
+
+ Received: 1 April 201 1 / Published online: 8 September 201 1
+
+ © Springer- Verlag 201 1
+
+ Abstract In Proposition 10, Book 2 of the Principia , Newton applied his geomet-
+ rical calculus and power series expansion to calculate motion in a resistive medium
+ under the action of gravity. In the first edition of the Principia , however, he made
+
+ an error in his treatment which lead to a faulty solution that was noticed by Johann
+
+ Bernoulli and communicated to him while the second edition was already at the printer.
+
+ This episode has been discussed in the past, and the source of Newton's initial error,
+ which Bernoulli was unable to find, has been clarified by Lagrange and is reviewed
+ here. But there are also problems in Newton's corrected version in the second edition
+
+ of the Principia that have been ignored in the past, which are discussed in detail here.
+
+ 1 Introduction
+
+ In his guide to Newton's Principia , I. B. Cohen writes that "anyone studying the
+ history of the Principia will find Book 2, Proposition 10 to be of special interest. The
+
+ problem is to find the density of the medium that makes a body move in any given curve
+
+ under the supposition that gravity is uniform and of constant direction, and that the
+
+ resistance of the medium varies jointly as the density of that medium and the square
+ of the velocity. . . The proposition is notable, among other things, for a display of
+ Newtonian fluxions (or "moments")" (Cohen 1999, 167). In an unpublished pref-
+ ace to the Principia , written after the publication of the second edition, and during
+ his priority dispute with Leibniz on the development of the calculus (Hall 1980),
+
+ Communicated by: Niccolo Guicciardini.
+
+ M. Nauenberg (E3)
+ Physics Department, University of California, Santa Cruz, CA 95064, USA
+ e-mail: michael@physics.ucsc.edu
+
+ Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:20:18 UTC
+All use subject to https://about.jstor.org/terms
+
+ 568 M. Nauenberg
+
+ Newton called attention to this proposition and related ones,1 to give explicit examples
+
+ where he had applied his method of analysis.2 It turns out, however, that his approach
+
+ was solely based on his geometrical approach to the calculus and on his power series
+ expansion, without any reference to fluxions.3 Moreover, in the first edition of the
+
+ Principia, he made a mistake in this proposition, which came back to haunt him dur-
+
+ ing this dispute. On September 1712, Newton received Nikolaus Bernoulli, who came
+
+ with some upsetting news from his uncle Johann Bernoulli. The elder Bernoulli had
+
+ found a "serious error" in the first example that Newton gave for Proposition 10, Book
+
+ 2 in the case that the motion occurred along a circular path. For this case, Newton had
+
+ found that the component of gravity along the motion exactly balanced the resistance,
+
+ which implied that the velocity is a constant. But this result is inconsistent with his
+
+ calculation that the velocity decreases as the square root of the vertical distance along
+ the circular path. Both Bernoullis obtained the correct solution to this problem by
+ applying the differential calculus of Leibniz, and they concluded that Newton's fail-
+
+ ure demonstrated that he had not mastered the application of higher-order differentials
+
+ in his fluxional calculus. They were unable, however, to find the source of Newton's
+
+ error which later was pointed out by Lagrange (1797) who showed that Newton had
+
+ treated incorrectly the third-order differentials that appeared in his approach.
+
+ After frantically working on this problem, Newton was able to find the correct solu-
+
+ tion by modifying the diagram that he had used in his original approach. Although
+ the second edition of the Principia was already in the printer's hand, he managed
+ to insert the revised solution, but he failed to acknowledge Bernoulli's contribution
+ which offended the latter. Later on, this episode played a significant role in the pri-
+
+ ority dispute that emerged between Newton and Leibniz on the discovery of the cal-
+
+ culus, and Johann Bernoulli argued, anonymously, that the failure of Proposition 10,
+
+ Book 2, demonstrated that at the time Newton wrote the first edition of the Principia he
+
+ had not yet mastered the differential calculus. In a letter printed in the Acta Eruditorum
+
+ for July 1716, Bernoulli wrote
+
+ It is firmly established that Newton at the time he wrote his Principia Philos.
+
+ Mathematica , still had not understood the method of differentiating differentials
+ (Bernoulli 1716)
+
+ It will be shown that there is some validity in Bernoulli's statement, and that even in
+
+ the revised version of Proposition 10, Book 2, Newton continued to make errors in the
+
+ 1 For example, in Propositions 15-17, Book 2, Newton considered the effect of resistance on the motion
+ of a body under the action of inverse square force (Brackenridge and Nauenberg 2002).
+
+ 2 For a detailed discussion of Newton's mathematical methods see (Guicciardini 2009).
+
+ 3 In a letter to Keill, "who was puzzled to know what Bernoulli was getting at" in his contention that
+ Newton had not mastered the differential calculus, Newton wrote
+
+ It appears thereby that I did not understand ye 2nd fluxions when I wrote that Scholium [i.e. to Prop-
+ osition 10] because (as he thinks) I take the second terms of the series of the first fluxions, the third
+
+ terms for the second fluxions & so on. But he [Bernoulli] is mightily mistaken when he thinks that
+ I here make use of the method of fluxions. Tis only a branch of ye method of converging series
+ that I there make uses of (Hall 1958, 296).
+
+ Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:20:18 UTC
+All use subject to https://about.jstor.org/terms
+
+ Proposition 10, Book 2, in the Principia , revisited 569
+
+ application of third-order differentials, but fortuitously these errors did not prevent
+
+ him from obtaining the correct solution to this proposition.
+
+ In a section of his textbook Theorie des Fonctions Analytiques , Lagrange (1797)
+ presented an analysis of Proposition 10, Book 2, applying Leibniz's differential cal-
+ culus to describe the source of Newton's error. He concluded that
+
+ We believe that it was not useless to show how the method of series is applied,
+
+ and that it would be granted to us to shed light at the same time on a point of
+ analysis on which the greatest geometers made mistakes, and which may be of
+
+ interest to the history of the birth of the new calculus.4
+
+ Newton's problems with Proposition 10, Book 2, illustrate some of the limitations of
+
+ Newton's geometrical-fluxional method, and some of the advantages of the algorithmic
+ approach of Leibniz.
+
+ In Proposition 6, Book 1, Newton gave a mathematical description of the motion
+
+ of a body under the influence of a central force. For a small but finite interval of time
+
+ t, he postulated that the motion can be composed of an inertial or constant velocity
+
+ contribution along the tangent of the orbit proportional to t and an accelerated motion
+
+ along the instantaneous direction of the force proportional to t2. It is important to
+
+ recognize, however, that in a series expansion in powers of f, Newton's composition
+
+ is valid only up to quadratic terms in t. In Proposition 10, Book 2, Newton considered
+
+ an additional force due to the resistance of the medium acting along the tangent of the
+
+ orbit. In this case, the motion on a line element along tangent is not inertial leading to
+
+ the complications in his treatment of this problem discussed here.
+
+ In Sect. 2, Proposition 10, Book 2, is presented in the form given in the first edition
+
+ of the Principia , and the source of Newton's error is described. In Sect. 3, the revised
+
+ version of this proposition in the second edition of the Principia is discussed follow-
+
+ ing closely Newton's verbal description of this proposition, but applying his fluxional
+ calculus in a novel form that avoids his inconsistent treatment of cubic terms in his
+
+ power expansions. In "Appendix I", the relation of Proposition 6, Book 1, to Propo-
+ sition 10, Book 2, is presented, and following Lagrange's work (Lagrange 1797), in
+ "Appendix II" Newton's missing term in cubic order in powers of the time interval t
+ is derived.
+
+ 2 Proposition 10, Book 2, in the first edition of the Principia
+
+ This section describes Newton's discussion of motion in a resisting medium under the
+ action of a constant gravitational force given in Proposition 10, Book 2 of the first
+
+ edition of the Principia , when the geometrical curve for the trajectory is given, and
+
+ it explains why this description is flawed along the lines first discussed by Lagrange
+ (1797).
+
+ 4 Nous avons cru qu'il n'etait pas inutile de faire voir comment la methode des series pouvait y conduire, et
+ qu'on nous saurait gre d'eclaircir, en meme temps, un point d' analyse sul lequel les plus grands geometres'
+ s'etoient trompes, etqui peut interreser l'histoire de la naissance des nouveaux calculs (Lagrange 1797,
+ 251).
+
+ Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:20:18 UTC
+All use subject to https://about.jstor.org/terms
+
+ 570 M. Nauenberg
+
+ Referring to the curve AC K and tangent line hCH at C, Fig. 1, Newton started:
+
+ let CH and Ch be equal rectilinear lengths which bodies moving away from
+
+ place C would describe in these times [equal time intervals t ] without the action
+
+ of the medium or gravity (Cohen 1999, 655).
+
+ Without the action of the medium or gravity, a body moves with constant velocity, and
+
+ therefore during an interval of time t
+
+ CH = Ch = vt, (1)
+
+ where v is the velocity along the tangent line at C. Newton continued:
+
+ Through the resistance of the medium it comes about that the body as it moves
+
+ forward describes instead of length CH, only length CF, and through the force
+
+ of gravity the body is transferred from F to G, and thus line element HF and
+
+ line element FG are generated simultaneously, the first by the force of resistance
+
+ and the second by the force of gravity (Cohen 1999, 656).
+
+ Let g be the acceleration of gravity, acting along the vertical direction, and r de-accel-
+
+ eration due to the resistance of the medium acting along the tangent of the motion.
+ Then, Newton asserted that
+
+ HF = CH -CF = (1/2 )rt2, (2)
+ FG = IG - I F = (1/2 )gt2, (3)
+
+ and concluded
+
+ And hence the resistance comes to be as HF directly and FG inversely, or as
+ HF/FG .
+
+ Indeed, according to the Eqs. 2 and 3
+
+ HF/FG =r/g (4)
+
+ x = -rx/v (5)
+
+ y = -ry/v - 8 (6)
+
+ Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:20:18 UTC
+All use subject to https://about.jstor.org/terms
+
+ Newton's decomposition of motion into a tangential and vertical component can
+ be verified from the solution of the differential equations of motion in Cartesian coor-
+
+ dinates jc, y to second order in the time interval t. We have
+
+ where v = yjx 2 + y 2 is the velocity, r is the resistance,5 and g is the gravitational
+ constant . Taking the origin at O, the Taylor series expansion of the solution of
+
+ 5 In the second edition of the Principia Newton assumed that r is proportional to v , but this condition is
+ not relevant to his derivation.
+
+ x = OB + (vt- (1 /2 )rt2} cos (a), (7)
+
+ Proposition 10, Book 2, in the Principia, revisited 571
+
+ Eqs. 5 and 6 to second order in t is
+
+ and
+
+ y = BC-{vt- (1/2 )rf2) sin(a) - ('/2)gt2 (8)
+
+ where v is the velocity at C, and tan(a) = - y/x. The angle a gives the incli-
+ nation of the tangent line at C relative to the horizontal, i.e. tan(a) = I F/CI.
+ These two relations demonstrate the validity, to second order in the time interval t , of
+
+ Newton's decomposition of the motion along the arc CG, namely, a component along
+
+ the tangential line
+
+ CF - vt - ( '/2)rt 2, (9)
+
+ where CH = vt, and another vertical component
+
+ FG = (1/2 )gt2, (10)
+
+ These two relations, however, cannot be applied to determine the ratio r/g from
+
+ Newton's relation, Eq. 4, because although the line element FG is determined by the
+ geometry of the curve AGK, this is not the case for the line element HF. Therefore,
+
+ Newton proceeded to obtain a second expression for r/g. But it will be shown that the
+
+ resulting expression is not valid because it depended on quantities that are of cubic
+ order in t that could not be calculated from Newton's geometrical construction.
+
+ For this purpose, Newton considered the time-reversed motion in which case the
+
+ medium accelerates the body along the tangent. Taking a segment Ck of the line
+ element Cf to be equal to CF,
+
+ Ck = vt' + (1/2 )rta = vt- (1/2 )rt2 (1 1)
+
+ where tf is the time interval to traverse the line element Ck in the absence of gravity.
+ Hence, to second order in powers of t.
+
+ t' -t = -(r/v)t2, (12)
+
+ and the vertical line element kl is then
+
+ It follows that
+
+ kl = (1/2 )gt'2. (13)
+
+ FG - kl & g(t - t')t = ( gr/v)t 3. (14)
+
+ Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:20:18 UTC
+All use subject to https://about.jstor.org/terms
+
+ 572 M. Nauenberg
+
+ I J
+ A o di B D K.
+
+ Fig. 1 Newton's diagram for Prop. 10, Book 2 in the first edition of the Principia
+
+ It is clear, however, that this relation cannot be valid, because Newton had determined
+
+ the line elements FG , Eq. 10, and /:/, Eq. 13, only up to second order in t , while the
+ difference between these line elements is found to be third order in t. Unaware of this
+
+ difficulty, Newton applied this relation to obtain an alternate expression that depends
+
+ on the resistance r, and in Corollary 2 to Proposition 10, he obtained result
+
+ r/g = (FG - kl)C F/4FG2 (15)
+
+ which follows from Eq. 14 by substituting for v, the approximation v & CF/t, Eq. 9,
+
+ and for f , t = V 2FG/g , Eq. 10. In this form, Newton's relation for r depends on line
+
+ elements that can be determined purely from the geometry of curve.
+
+ Referring to his diagram, Fig. 1, Newton expressed these line elements by a series
+ expansion in powers of the space interval o = BD = Bi, up to cubic powers in o.
+ Setting P = BC , the ordinate DG is
+
+ DG = P - Qo- Ro2 - So3, (16)
+
+ where Q, R and S are coefficients with values at the abscissa O D that are determined6
+ by the given curve ALGK , Fig. 1. Since
+
+ DF = P-Qo , (17)
+
+ FG = DF - DG = Ro2 + S03. (18)
+
+ 6 In Cartesian coordinate x = OD, y = DG, and according to the Taylor series expansion, in Leibniz's
+ notation P = - d^/dx, R = - ( 1 /2!)d2jy/djc2, and S = - (l/3!)d3;y/djt3. At least 24 years earlier, how-
+ ever, in Corollary 3 of the revised De Quadratura (1691), Newton already had obtained these relations
+ for the coefficient of a power series expansion, expressed in his dot notation for higher-order fluxions,
+ e.g y = dy/djt, y = d2y/djc2, etc. (Whiteside 1976). I thank N. Guicciardini for this reference.
+
+ and
+
+ Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:20:18 UTC
+All use subject to https://about.jstor.org/terms
+
+ Finally, substituting in Newton's relation, Eq. 15, CF = o^J 1 + Q2 and FG2 = /?2o4,
+ one obtains
+
+ r/g = (S/2R2)Vl + Q2. (23)
+
+ For the first application of this relation, Newton consider the case that the given
+
+ curve AC K, Fig. 1 , is a semicircle of radius n. Introducing the symbol a for the abscissa
+
+ and e for the ordinate of this curve, he obtained y/' + Q2 = n/e, R = n2 / 2e3, and
+ S = an2 / 2e3, which
+
+ r/g = a/n. (24)
+
+ Since the tangential component of gravity is ga/n , Newton's result implied that the
+
+ total tangential acceleration r-ga/n vanishes. Hence, the velocity must be a constant ,
+
+ but he found, on the other hand, that the velocity varied with the square root of the
+ ordinate of the semicircle:
+
+ Proposition 10, Book 2, in the Principia , revisited 573
+
+ Likewise, the ordinate il is
+
+ il = p + Q0 - Ro2 + So 3, (19)
+
+ and
+
+ Hence
+
+ and
+
+ ik = P + Qo. (20)
+
+ kl = ik - il = Ro 2 - So 3, (21)
+
+ FG -kl = 25o3. (22)
+
+ departing from C along the straight line CF, could subsequently move in a
+ parabola having diameter CB and latus rectum (1 + Q2)/R . . . (Cohen 1999,
+ 660)
+
+ For parabolic motion, the velocity v is given by v2 = ga /2, where a is the latus
+ rectum, and therefore v = y/ (g/2R)(' + Q2) which implies in this case that
+
+ v = (25)
+
+ Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:20:18 UTC
+All use subject to https://about.jstor.org/terms
+
+ This relation for the velocity turns out to be correct, but it contradicts Newton's previ-
+
+ ous result, Eq. 24, that the acceleration due to gravity along a circular path is exactly
+ compensated by the de-acceleration due to the resistance of the medium. Evidently
+ this contradiction escaped Newton's attention, but it was noticed by Johann Bernoulli
+ when he read Proposition 10, Book 2.
+
+ 574 M. Nauenberg
+
+ In Theorem VI of his paper in the Memoires of 171 1 and the Acta Eruditorum of
+
+ 1713, Johann Bernoulli wrote, Hall (1958)
+
+ In order that a body moving in a resisting medium may describe a circle LCK ,
+
+ on the supposition hat a uniform gravity tends directly towards the horizontal, I
+
+ say that the resistance in each point C will be to the gravity as 30 G to 20 K
+
+ Here OA' is the radius n of the circle, and OG is the abscissa a in Newton's nota-
+
+ tion. Hence Bernoulli's correct result7 for the ratio of resistance to gravity, r/g =
+
+ (3/2 )OG/ OK, differs from Newton's, Eq. 24, by a factor 3/2.
+
+ Newton' analysis is flawed because the difference in the Galilean time intervals t
+
+ and tf to fall under the action of gravity along the line elements FG and kl , respec-
+
+ tively, depends on the third power of t , but he could calculated these line elements
+
+ only up to second power of t. Applying the differential equations of motion, Eq. 5 and
+
+ 6 to obtain the power series expansion of x, ^ to cubic order in t , first carried out by
+ Lagrange (1797), yields (see "Appendix II")
+
+ FG = (1/2 )gt2 - (l/6)(rg/v)f3. (26)
+
+ Correspondingly
+
+ kl = (1/2 )gt'2 + (1/6 ){rg/v)t' (27)
+
+ which together with Eq. 12, now gives the correct value
+
+ FG-kl = (2/3)(gr/v)t' (28)
+
+ valid to third order in t. Hence, instead of Newton's relation for r/g , Eq. 15, we have
+
+ r/g = (3/2 )(FG - kl)C F/4FG2 (29)
+
+ and substituting FG - kl = 2 So3, Eq. 22, C F = oj 1 + Q2 and FG2 = R2o4 yields
+ the correct value8
+
+ r/g = (3S/4/?Vl + Q2. (30)
+
+ 7 In a scholium following his theorem, Bernoulli criticized Newton's result as follows:
+
+ Lest any one who is unable to examine these matters more deeply should wonder whether perhaps we
+ were mistaken in confuting what has been disclosed with so much labour by this most acute man, I
+ will demonstrate here that this Newtonian ratio leads to a contradiction. For if the resistance be to the
+
+ gravity as OG to OAT as Newton has it, then since the gravity itself is to the tangential force as OC or
+ OK lo OG, equally the resistance would be to the tangential or motive force as OG to OG, therefore
+ the resistance will be equal to the motive force, and the velocity at any point C uniform, whereas we
+ previously showed it to be VCG, and consequently non-uniform, as Newton himself agrees (Hall 1 958).
+
+ 8 Johann Bernoulli suggested that Newton obtained the wrong result for the ratio r/g , 23, because he had
+ erroneously assumed that R = - d2y/djt2, and S = - d3y/cbr (Whiteside 1981). But Bernoulli's sugges-
+ tion is incorrect, and it is a coincidence that replacing in Eq. 23, 2 R for R, and 65 for 5, yields the missing
+
+ factor 3/2.
+
+ Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:20:18 UTC
+All use subject to https://about.jstor.org/terms
+
+ Proposition 10, Book 2, in the Principia , revisited 575
+
+ Newton, however, could not have obtained this result, which differs from his result
+
+ by an extra factor 3 /2, because it required the expansion of line elements to third order
+ in the time interval t. But he could not have calculated the coefficient of this term from
+
+ his geometrical - fluxional approach, which was confined to the second order in t.
+
+ After obtaining his first relation for r/g, Eq. 4, Newton warned the reader that
+
+ This is so in the case of nascent line elements. For in the case of line elements
+
+ of finite magnitude these ratios are not accurate (Cohen 1999, 656).
+
+ But then he proceeded to ignore his own warning, and derived a second relation for
+
+ r/g , Eq. 23, that is incorrect and leads to a result for r/g that misses a factor 3/2.
+
+ 3 Proposition 10, Book 2, in the second and third edition of the Principia
+
+ After receiving Niklaus Bernoulli warning from his uncle Johann Bernoulli that his
+
+ result in Proposition 10 in Book 2 for motion in a medium under the action of gravity
+
+ led to an inconsistent result for circular motion, Newton approached the problem in a
+
+ different manner which he managed to insert, in the last moment, in the second edition
+
+ of the Principia. He abandoned his previous approach based on time-reversed motion,
+
+ and instead, he now determined the required differential changes in line elements and
+
+ arcs at two adjacent points on a given curve describing the motion of a body moving
+ only forward in time. He described his new diagram, Fig. 2, as follows:
+
+ Let P Q be the plane of the horizon perpendicular to the plane of the figure;
+ PFHQ a curved line meeting this plane in points P and G; G, //, /, and k four
+ places of the body as it goes in the curve from F to Q' and GB , //C, ID and
+ K E four parallel ordinates dropped from these points to the horizon and stand-
+ ing upon the horizontal line PQ at points B,C, D, and E' and let BC, CD and
+ DE be distances between the ordinates equal to one another. From the points G
+ and H draw the straight lines GL and HN touching the curve at G and H and
+
+ Fig. 2 Newton's diagram for Prop. 10, Book 2 in the second and third editions of the Principia
+
+ <£) Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:20:18 UTC
+All use subject to https://about.jstor.org/terms
+
+ 576 M. Nauenberg
+
+ meeting at L and N the ordinates CH and Dl produced upwards and complete
+ the parallelogram HCDM (Cohen 1999, 655).
+
+ Newton proceeded again to describe analytically the arcs and the line elements
+
+ associated with the curve in his new diagram by expanding locally the ordinates, sep-
+
+ arated equally by a small distance o , in a power series up to cubic order in o. But he
+ continued to assert, as before, that the different time intervals associated with these
+
+ space intervals are proportional to the square root of the deviations from tangential
+
+ motion due to gravity, although this proportionality is correct only to first order in o.
+
+ Then the times [ T , t ] in which the body describes arcs GH and HI will be as
+ the square roots of the distances LH and N I which the body would describe in
+
+ those times by falling from the tangents (Cohen 1999, 656).
+
+ The "distances" LH and N I replaced the analogous line elements FG and kl in his
+
+ previous diagram, Fig. 1, but again Newton set these line elements proportional to the
+ square of the time intervals t and T, although his expansion of these line elements
+ in powers of the space interval o required also cubic terms. Moreover, Newton also
+ assumed that these distances were proportional to the corresponding sagittas associ-
+
+ ated with the description of this curve, that he evaluated to cubic order in o. But this
+
+ equivalence9 is valid only up to second order in o.
+
+ Therefore, the question arises why, in spite of requiring the expansion of line ele-
+
+ ments to cubic powers in o , Newton nevertheless succeed in obtained the correct
+
+ expression for the resistance of the medium. It will be shown that the answer to this
+
+ question is that Newton's geometrical descriptions can be implemented by restricting
+
+ the calculation of line elements to power series expansions up to second order in o ,
+
+ and that Newton's application of cubic terms in o , erroneously linked in this order to
+
+ his time intervals t and T , fortuitously, did not affect his calculations.
+
+ Referring to his diagram, Fig. 2, Newton explained that
+
+ the velocities will be directly as G H and H I and inversely as the times. Represent
+
+ the times by T and t , and the velocities by GH/ T and HI /t, and the decrement
+
+ of the velocity occurring in time t will be represented by GH /T - HI /t (Cohen
+ 1999, 656).
+
+ The ratios GH/T and HI /t, however, are the mean velocities over the arcs GH and
+ HI , while for his calculation, Newton required only the instantaneous velocities at
+ G and H. These velocities are given by the ratios GL/T and HN/t , respectively.
+ Expanding the ordinate D I in a power series to cubic order in o
+
+ DI = P - Qo- Ro2 - So3, (31)
+
+ 9 For motion under the action of a central force, Newton described in Proposition 1 , Book 1 of the Principia
+
+ the deviation from inertial motion by the sagitta of small arcs of a curve that can be associated with this
+ proposition, while in Proposition 6, Book 1, the corresponding deviation was described by a small line
+ element from the tangent to the orbit. But these two deviations are equal, only to second order in a series
+
+ expansion in powers of the differential time interval associated with these two deviations.
+
+ Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:20:18 UTC
+All use subject to https://about.jstor.org/terms
+
+ Proposition 1 0, Book 2, in the Principia , revisited 577
+
+ where P = CH, and the coefficients Q , /? and 5 define the nature of the curve at H ,
+
+ WW = oVl + e2, (32)
+
+ and
+
+ N/ = /?o2 + So3. (33)
+
+ Up to first order in o , we have
+
+ r = yJ(l/g)NI = oJ(2R/g), (34)
+
+ where g is the constant of gravity, and the velocity at H is10
+
+ f = HN/t = J(g/2R)(l + Q2). (35)
+
+ Newton obtained this result which he phrased as follows:
+
+ And the velocity is that with which a body going forth from any place H along
+
+ the tangent HN can then move in a vacuum in a parabola having a diameter11
+ HC and a latus rectum HN2/NI or (1 + Q2/R) ( Cohen 1999, 658).
+
+ Likewise, the velocity at the adjacent point G is
+
+ V' = GL/T = y/(g/2R')(l + Q'2) (36)
+
+ where, to first order in o, the coefficients Q' and R' are
+
+ Q' = Q- 2 Ro, (37)
+ R' = R- 3 So, (38)
+
+ Newton wrote:
+
+ and the decrement of the velocity occurring in time t will be represented by
+ GH/T - Hl/t (Cohen 1999, 657).
+
+ 10 Newton had shown that the square of the velocity satisfies the relation v2/p = gn , where p is the
+ radius of curvature at //, and gn is the component of gravity normal to the tangent (Proposition 6,
+ Corollary 3). Moreover, he had obtained the general mathematical expression for p in Cartesian coor-
+ dinates , p = (1 4- 02)3/2/2/?, and gn - g cos(a), where a is the angle of the tangent line HN with the
+
+ abscissa, i.e. cos(a) = '/y/' + Q 2. These relations lead to an alternative derivation of Eq. 35.
+
+ 1 1 The latus rectum for parabolic motion in a vacuum under the action of gravity is 2i >2/g, and setting its
+ value equal to (1 + Q2)/R leads to Eq. 35. But the diameter of this parabola is not HC , but is directed,
+ instead, along the line from H perpendicular to the tangent line HN.
+
+ Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:20:18 UTC
+All use subject to https://about.jstor.org/terms
+
+ 578 M. Nauenberg
+
+ Actually, this decrement of the velocity can be obtained more readily by replacing the
+ arcs GH and HI by the tangent lines GL and HN , respectively.12 Hence, applying
+ Eqs. 35, 36, 37 and 38, one obtains.13
+
+ v'-v = oj2iR [-C/V( 1 + Q 2) + (3S/4/?V(l + Q2)' ■ (39)
+
+ where v' - v = GL/T - HN/t
+
+ This is an example of the "the method of differentiating differentials", which
+
+ Johann Bernoulli later asserted, that Newton had not understood. Instead, Newton
+ continued as follows:
+
+ This decrement arises from the resistance retarding the body and from the grav-
+
+ ity accelerating the body ... but in a body describing arc HI, gravity increases
+ the arc by only the length HI - HN or MI x N I /HI, and thus generates only
+ the velocity 2 MI x Nl/t x HI , ( Cohen 1999, 657).
+
+ MI /HI % MN/HN = Q/J' + Q2, (40)
+
+ Substituting
+
+ and
+
+ NI/t=OyfjRi2 (41)
+
+ one obtains, to first order in o ,
+
+ 2 MI x Nl/t x HI = (<2/V(l + Q2)) , (42)
+
+ which corresponds to the first term on the right hand side of Eq. 39.
+
+ Add this velocity to the above decrement and the result is the decrement of the
+ velocity arising from the resistance alone namely GH/T - HI /t + 2 MI x
+ NI/(t x HI), (Cohen 1999, 657).
+
+ 12 To obtain his results, Newton had to determine the arcs HI and GH to second order in o: HI =
+ oy/' + Q2 - QRo2jy/' 4- Q2, and GH - oy/ 1 + Q 2 + QRo2/y/' + Q2. But the difference between
+
+ these arc lengths GH - HI = 2QRo2/y/' + Q 2 is equal to the difference between the tangent lines
+
+ GL - HN , where HN = OyJ 1 + Q2, Eq. 32, and GL = Oy/' 4- Q '2, with Q' = Q - 2 Ro, Eq. 37.
+
+ 13 This geometrical relation can be verified by applying the equations of motion in differential form,
+ Eqs. 5 and 6. We have xx + y'y - vv = -rv - gy/v , and substituting y = usin(a), one obtains
+ v = - r + gsin(a), the total acceleration along the tangent. In Eq. 39, v = (v - v')/t , t = o*/2R/g ,
+
+ Eq. 34, and sin(a) = Q/{ 1 + Q 2). Hence r = g(3S/4R2)>J' + Q2, which is Newton's result for the
+ resistance of the medium in terms of the coefficients Q, R and S that determine the local properties of the
+
+ given curve.
+
+ Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:20:18 UTC
+All use subject to https://about.jstor.org/terms
+
+ Proposition 10, Book 2, in the Principia, revisited 579
+
+ Hence, this decrement of the velocity "arising from the resistance alone" is the second
+
+ term on the right hand side of Eq. 39, and
+
+ GL/T - HN/t + 2 MN x Nl/(t x HN) = oJg/2R [(35/2/?)>/(l + <22)] •
+
+ (43)
+
+ And accordingly since gravity generates the velocity 2N I /t in the same time in
+ afallen body, the resistance will be to the gravity as GH xt/T - HI +2MI x
+ NI/HI to 2NI (Cohen 1999, 657).
+
+ The velocity generated by gravity in a fallen body is
+
+ gt = 2NI/t = oj2^R, (44)
+
+ and dividing Eq. 43 by this velocity yields Newton's relation for the ratio r/g of the
+
+ resistance r of the medium to the acceleration g of gravity
+
+ r/g = (3S/4/?2) Vl + e2 (45)
+
+ where r/g = (GL x t/T - HN)/2NI + MN/HN.
+
+ Newton, however, proceeded in a different manner to evaluate the ratio r/g by
+
+ expressing analytically his geometrical line elements in a power series expansion up
+ to cubic powers in o. But his relations for the time intervals T and t in term of the
+ line elements LH and N I , e.g. Eq. 34, are only valid to first order in o. Moreover,
+
+ Newton calculated these time intervals from the corresponding sagittas of the arcs Gl
+
+ and H K which in third order in o differ from the expansion of the line elements LH
+ and NI. He stated,
+
+ Furthermore, if from ordinate CH half the sum of ordinates BG and Dl are
+ subtracted and from ordinate Dl half the sum of ordinates CH and EK are
+
+ subtracted, the remainder will be sagittas Ro 2 and Ro 2 + 3 So3 of arcs Gl and
+ HK. And these are proportional to the line elements LH and N I , and thus as
+ the square of the infinitesimal small time T and t (Cohen 1999, 658).
+
+ But to third order in o
+
+ and
+
+ LH = Ro2- 2 So3 (46)
+
+ NI = Ro2 + 5o3 (47)
+
+ Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:20:18 UTC
+All use subject to https://about.jstor.org/terms
+
+ which, contrary to Newton's assertion, are not proportional to the corresponding
+ sagittas when the expansion is carried out to the cubic order in o. This discrepancy
+ raises the concern that, like in his earlier version of Proposition 10, Book 2, Newton's
+
+ would have obtained incorrectly cubic terms in the expansion of T2 and t2 in power
+
+ of o. But it turns out that the quantity required for Newton's new calculation for r/g,
+
+ Eq. 45, requires only the ratio T / 1 up to first order in o which is proportional to the
+
+ square root of ratio between the line elements NI/LH. And to first order in o , this
+
+ ratio is also equal to the ratio between the corresponding sagittas, namely14
+
+ 580 M. Nauenberg
+
+ T/t = y/NI/LH = 1 - (3/2 )So. (48)
+
+ 4 Concluding remarks
+
+ In a private memorandum, written on 7 June 1713, Newton accounted for the mistake
+
+ in the first version of Proposition 10, Book 2 as follows:
+
+ Mr. Newton corrected the error himself, shewed him [Nickolas Bernoulli] the
+
+ correction & told him that the Proposition should be reprinted in the new Edi-
+ tion which was then coming abroad. The Tangents [GL and HN] of the Arcs
+ GH and HI are first moments of the arcs FG & GH [that] should have been
+
+ drawn the same way with the motion describing those arcs, whereas through
+
+ inadvertency [my italics] one of them had been drawn the contrary way, & this
+ occasioned the error in the conclusion (Hall 1958)
+
+ Actually, it has been shown here that in this memorandum, Newton gave a misleading
+
+ account of the origin of his error in the first version of this proposition. There was
+
+ nothing "inadvertent" in his drawing a tangent line, labelled Cf in the first edition
+ of the Principia , Fig. 1, in the "contrary way" to the tangent line CF, because his
+
+ drawing, introduced specifically to solve his proposition, described the time-reversed
+ motion at C. Evidently, at the time Newton failed to realize that a solution by his
+ geometrical calculus approach required that the power series expansion associated
+
+ with the trajectory curve had to be taken to cubic order in the time interval. But the
+
+ fundamental principles of orbital motion under the action of external forces that he
+ had enunciated in Propositions 1 and 6, Book 1, were based on such expansions only
+
+ up to second order in differential time and spatial intervals. After obtaining his first
+
+ relation for the ratio of resistance to gravity, r/g , Eq. 4, Newton warned the reader
+ that
+
+ This is so in the case of nascent line elements. For in the case of line elements
+
+ of finite magnitude these ratios are not accurate (Cohen 1999, 656).
+
+ But then he proceeded to ignore his own warning to derive a relation for r/g , Eq. 23,
+
+ that is incorrect by a factor 3/2. In the revised version of Proposition 10, Book 2, he
+
+ also applied power series expansions to cubic order in the space interval o , but as has
+
+ been shown here, in this case only expansions to second order in o are required, which
+
+ explains why, somewhat fortuitously, he obtained the missing factor 3/2.
+
+ 14 A simple way to see how this relation saved Newton from repeating his previous error is to suppose that
+ t2 = Ro + C(? where C is an undetermined coefficient. Then the expansion of T 2 must be calculated
+ with the corresponding value Rr = R - 3 So, while the change in C gives a fourth order change in 7 2 that
+ can be neglected. Hence T/t = 1 - QS/2R)o , Eq. 48, independent of the value of C that Newton evaluated
+
+ incorrectly.
+
+ Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:20:18 UTC
+All use subject to https://about.jstor.org/terms
+
+ Proposition 10, Book 2, in the Principia, revisited 581
+
+ During the bitter priority dispute with Leibniz on the invention of the calculus,
+ Newton called attention to Proposition 10, Book 2, to exhibit an example of an
+ early application of his fluxion version of the calculus to solve problems solution
+ Principia. But this proposition was a poor choice, because he had made a "seri-
+ ous error" in it, and after he corrected his mistake, he failed to acknowledge Johann
+ Bernoulli's contribution, who was bitter and became, albeit anonymously, his most
+ effective critic.
+
+ Appendix I: Relation of Proposition 10, Book 2, to Proposition 6, Book 1
+
+ In Proposition 6, Book 1 in the Principia Newton gave a geometrical expression for
+ the acceleration of a body moving under the action of a central force in terms of a line
+ element, QR , directed towards the centre of force, that describes the deviation from
+
+ inertial motion along a line element PR , tangent at P, Fig. 3. The magnitude of PR
+ is proportional to the elapse time interval t , and the deviation QR is proportional t 2,
+ in accordance with Lemma 10, Book 1. Moreover, in Proposition 1, Book 1, Newton
+
+ had shown that for central forces t is proportional to the area element SP x QT swept
+
+ by the radial line SP , leading to the geometrical expression for the force or acceler-
+ ation, QT /{SP x QT)2. Such a description, however, not valid in the presence of
+ non-central Newton was able to generalize his description for non-central forces, but
+
+ in the presence of a tangential force however, such a description is incomplete, because
+
+ the resulting acceleration is directed along the instantaneous direction of motion. In
+ the original version of the Proposition 10, Book 2, the line elements FG and CF,
+ Fig. 1, are the analogs of QR and PR, respectively, while in the revised version in
+
+ the second edition of the Principia , the corresponding line elements are N I and H N .
+
+ Newton continued to assert that the line elements FG and NI are proportional to t 2,
+ and to take into account the resistance of the medium, Newton had to assume that the
+
+ motion along the tangent was the sum of an inertial component proportion to t and
+ a component proportional to t2. But the resulting geometrical relations were incom-
+
+ plete and Newton searched for additional conditions that would enable him to obtain a
+
+ geometrical relation for the motion. In the first edition of the Principia , he obtained an
+
+ additional constraint by considering the time-reversed motion starting from the same
+
+ initial point. In this case, the medium accelerates the motion along the tangent, but
+ unfortunately, his application of Lemma 10 for this problem was insufficient, because
+
+ as Lagrange, later demonstrated, a contribution to the lime element of cubic powers
+ of t is required for a correct solution of this problem. Newton's neglect of this con-
+ tribution led him to an incorrect solution which was noticed by Johann Bernoulli and
+ pointed out by his nephew, Nikolaus Bernoulli to Newton. Newton's evaluation for
+ the instantaneous velocity at //, v = y/(g/2R)( 1 + Q2), Eq. 62, corresponds to the
+ relation gn = v2 / p, where gn = g cos(a) is the component of gravity normal to the
+
+ tangent, and p = (1 + Q2)3^2 /R is the curvature at H. In Corollary 3 of Proposition 6,
+ Book 1, this relation was given in a related form g = I2 /SY2 x PV for a central force
+
+ g, where P V = 2p cos(a) and / = SP v cos(a) are the angular momentum about the
+ centre of force.
+
+ Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:20:18 UTC
+All use subject to https://about.jstor.org/terms
+
+ 582 M. Nauenberg
+
+ VY
+
+ / / / Vv r
+ / / / /"^/T
+
+ •^S -A.
+
+ V
+
+ Fig. 3 Newton's diagram associated with Prop. 6, Book 1 in the Principia
+
+ Appendix II: Lagrange's analysis of Proposition 10, Book 2
+
+ Lagrange was the first mathematician to obtain the correct explanation for Newton's
+
+ failure to obtain the correct relation for motion in a resistive medium (Lagrange 1797).
+
+ Lagrange' s analysis did not deal directly with Newton's geometrical approach, but a
+
+ similar analysis is presented here evaluating Newton's line element N I in Proposition
+ 10, Book 2, to cubic order in the time interval t.
+
+ The equations of motion for this problem in differential form are
+
+ x = -r cos(a) (49)
+
+ y = r sin (a) - g, (50)
+
+ d3y/dt3 = r cos(a)6? + sin(a)r, (52)
+
+ where a = da /d t, and r = dr/dt.
+
+ Expanding Newton's line elements in powers of a small interval t up to cubic order,
+
+ HM = x = i;cos(a)f - (l/2)r cos(a)f2 + (1/6 )(r sin(a)d - cos(a)r)f3, (53)
+
+ MI=HC - y=v sin(a)t - (l/2)(r sin(a) - g)t 2 - (l/6)(r cos(a)dr+ sin(a)r)f3.
+
+ (54)
+
+ and
+
+ we have
+
+ and
+
+ ^ Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:20:18 UTC
+All use subject to https://about.jstor.org/terms
+
+ where x = d2jt/d f2, y - d2;y/df2, andtan(a) = -dy/dx. For the power series expan-
+ sion, we require also the third-order derivative
+
+ d3x/dt 3 = r sin(a)d - cos(a)r, (51)
+
+ Proposition 10, Book 2, in the Principia, revisited 583
+
+ Since MN = HM tan(a),
+
+ and NI = MI - MN
+
+ MN = i;sin(o ',)t - (l/2)r sin(a)f2 + (l/6)(r sin(a) tan(a)d - sin(a)r)f3, (55)
+
+ NI = (1/2 )gt2 - (l/6)(r/cos(a))d)?3, (56)
+
+ which is independent of r. We have
+
+ dtan(a)d t = (l/cos2(a))d = ( yx - xy)/x2 = g/x (57)
+
+ which yields
+
+ a = ( g/v ) cos(of) (58)
+
+ Hence, to cubic order in t]5
+
+ NI = {'l2)gt2 -('mrg/v)t' (59)
+
+ Appendix III: Proposition 10, Book 2, expressed in terms of differential
+ equations, and Johann Bernoulli's solution
+
+ The problem of motion in a resisting medium under the action of a constant gravita-
+
+ tional force g is treated by expressing the equations of motion in differential form. In
+
+ Cartesian coordinates jc, y,
+
+ x = - rx/v , (60)
+
+ y = -ry/v - g , (61)
+
+ where r is the resistance, and v is the velocity
+
+ and
+
+ Hence
+
+ v = yjx2 + y2. (62)
+
+ xx + yy = dv = -rv - gy, (63)
+
+ Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:20:18 UTC
+All use subject to https://about.jstor.org/terms
+
+ 15 Following Lagrange, this result was also obtained by Whiteside; see footnote (6) in (Whiteside 1981,
+ 375).
+
+ Hence, the velocity v = Jty/l + ya can be expressed in terms of the first- and sec-
+ ond-order spatial derivatives / and y",
+
+ 584 M. Nauenberg
+
+ To obtain an expression for this ratio in terms of the geometrical curve for the
+
+ trajectory, the time must be replaced by x as an independent variable. Since
+
+ r/g = -(v/g + y/v) (64)
+
+ y = y'x (65)
+
+ and
+
+ and
+
+ or
+
+ y = y'x + y"x2 (66)
+
+ then, according to Eqs. 60 and 61, we have
+
+ y-y'x = -g = y"x2 (67)
+
+ x = J-g/y". (68)
+
+ Hence
+
+ and
+
+ V = sl-(g/y")('+ya). (69)
+
+ ( y' , 1 V1 + ya '
+
+ + , <?0)
+
+ - = y- (71)
+ V y/' + ya
+
+ In Newton's notation y' = -Q, y" = -2 R, y'" = -65, and
+
+ v = y/(g/2R)(l + Q2), (73)
+
+ Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:20:18 UTC
+All use subject to https://about.jstor.org/terms
+
+ Finally, substituting Eqs. 70 and 71 in Eq. 64,
+
+ !1 g = -4 2 y"1 ±fy", ,72,
+ g 2 y"1
+
+ Proposition 10, Book 2, in the Principia , revisited 585
+
+ J = ,74>
+
+ For a solution to be possible, R and S must be positive numbers.
+
+ Example 1 When the curve is a semicircle of radius a
+
+ Q = - , R = 2?j, S = 18- j- (75)
+
+ y y y
+
+ - g = J-* 2 a (76)
+
+ g J-* 2 a
+
+ v = <Jgy (77)
+
+ In particular, ra/gx = 3/2 is the constant ratio of frictional force to the tangential
+
+ gravitational force, which accounts for the decrease in velocity as y decreases.
+
+ In the first edition of the Principia , the factor 3/2 was absent, and Johann Bernoulli
+
+ observed that in this case, the resistance force was equal to the gravitational acceler-
+
+ ation along the curve, indicating that the velocity should be a constant - "la vitesse
+ de ce mobile seroit ici toujours la mesme & uniforme" - along the curve, leading
+ to an inconsistency in Newton's result - "Ce que est la contradiction que j'avois a
+ demontrer"16
+
+ Johann Bernoulli treated the motion in a resisting medium somewhat differently,
+
+ by separating the differential equations of motion into its tangential and normal com-
+
+ ponents. He considered only the special case of circular motion, but I will treat also
+ the motion along a general curve.
+
+ Hence
+
+ and
+
+ Let
+
+ and
+
+ dv = (Ft - r)dt (78)
+
+ v2
+ - = FN (79)
+ P
+
+ where Ft = -gy/v = gy' /yf 1 + ya , and F ^ = gx/v = g/y/ 1 + ya are the tan-
+ gential and normal components of force, respectively, and r is the resistance force.
+
+ 16 Extrait d' une Lettre de M. Bernoulli, ecrite de Basle le 10. Janvier 1711, touchant la maniere de trouver
+
+ les force centrales me milieux resistans en raisons composee de leurs densites & des puissances quelconques
+ de vitesses du mobile, in Memoires de L' Academie Royale des Sciences.
+
+ Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:20:18 UTC
+All use subject to https://about.jstor.org/terms
+
+ Bernoulli writes r in the form r = yvn, but his treatment does not depend on this
+
+ particular form for r. Setting
+
+ Assuming that the motion is along semicircle of radius a, p = a and Eq. 79 takes
+
+ 586 M. Nauenberg
+
+ d t = - (80)
+
+ ds
+
+ v
+
+ where d s is a differential arc length, Bernoulli obtains and equation between spatial
+ differential
+
+ rds = - vdv - gdy (81)
+
+ the form
+
+ Hence
+
+ V2 = gy. (82)
+
+ (83)
+
+ which substituted in Eq. 81 leads to
+
+ rds = ~gdy, (84)
+
+ and since ds/dy = -x/a,
+
+ - g = r 2 a (85)
+ g r 2 a
+
+ - "ce qu'il faloit encore a demontrer" - in accordance with Newton's result in Exam-
+ ple 1 in the second edition of the Principia.
+
+ For a general curve, substituting for p in Eq. 79, p = -(1 + y2)3/2 /y" , I obtain
+
+ 2 (i+y2)
+ V 2 =-g--r- (86)
+
+ Hence
+
+ ^ Springer
+
+ id + ya)y"'A'
+
+ vdu = -g I dy -
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:20:18 UTC
+All use subject to https://about.jstor.org/terms
+
+ which is equal to the expression for v , Eq. 69, obtained previously from Newton's
+ formulation of this problem.
+
+ Proposition 10, Book 2, in the Principia , revisited 587
+
+ and substituting this expression in Eq. 81 with ds/dx = y/l + ya yields
+
+ 1 = 4±^/» 2 y"L (88)
+
+ g 2 y"L
+
+ which corresponds to Eq. 72.
+
+ Acknowledgments I would like to dedicate this paper to the memory of Derek (Tom) Whiteside, whom
+
+ I had the privilege to know and benefit from his numerous criticisms of my earlier work. Tom devoted over
+
+ hundred pages of his last volume of Newton 's Mathematical Papers to describe the manuscripts in which
+ Newton made frantic efforts to correct the initial errors he had made in Proposition 1 0, Book 2. Recently,
+
+ he warned against creating "monsters" when framing Newton's ideas in vector form, "which felled even
+ the mighty Lagrange in his attempt wholly to understand it" (Whiteside 2002), but such monsters are still
+ being created up to the present time. I also would like to thank Niccolo Guicciardini for bringing to my
+ attention the controversies associated with Newton's formulation of Proposition 10, Book 2, and for an
+
+ uncountable number of exchanges that helped to clarify my ideas on this subject, and to Gary Weisel for
+
+ calling my attention to Whiteside's above apropos comment.
+
+ References
+
+ Bernoulli, J. 1716. In The correspondence of Isaac Newton , vol. 6, ed. A. Rupert Hall and Laura Tilling,
+
+ p. 303. Cambridge: Cambridge University Press.
+
+ Brackenridge, J.B., and M. Nauenberg 2002. Curvature in Newton's dynamics. In The Cambridge Com-
+ panion to Newton, ed. I.B. Cohen and G.E. Smith, pp. 85-137. Cambridge: Cambridge University Press.
+ Cohen, I.B. 1999. Isaac Newton the Prncipia. A new translation by Cohen, I.B., and Anne Whittman,
+
+ Preceeded by a guide to Newton's Principia , p. 167. Berkeley: University of California Press.
+
+ Guicciardini, N. 2009. Isaac Newton on mathematical certainty and method. Cambridge: MIT Press.
+ Hall, A.R. 1958. Correcting the Principia. Osiris 13: 291-326.
+ Hall, A.R. 1 980. Philosophers at war, the quarrel between Newton and Leibniz . Cambridge: Cambridge
+
+ University Press.
+
+ Lagrange, J.L. 1797. Theorie des Fonctions Analytiques, contennant Les Principes du Calcul Dijferentiel,
+
+ pp. 244-251. Paris: De l'lmprimerie de la Republique.
+
+ Whiteside, D.T. 1976. The Mathematical Papers of Isaac Newton vol. 7, ed. T. Whiteside, pp. 96-97.
+
+ Whiteside, D.T. 1970. The mathematical principles underlying Newton's Principia mathematica. Journal
+
+ Cambridge: Cambridge University Press.
+
+ for the History of Astronomy 1 : 116-138.
+
+ Whiteside, D.T. 1981. The mathematical papers of Isaac Newton , vol. 8, ed. Derek T. Whiteside,
+
+ pp. 312-419. Cambridge: Cambridge University Press
+
+ Whiteside, D.T. 2002. The math forum @ drexel. Posted July 5 http://mathforum.org.
+
+ Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:20:18 UTC
+All use subject to https://about.jstor.org/terms
+
+

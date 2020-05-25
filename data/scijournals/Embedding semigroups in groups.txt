@@ -1,0 +1,4424 @@
+ 
+
+ 
+
+ 
+
+ 
+
+Embedding semigroups in groups: not as simple as it might seem
+Author(s): Christopher Hollings
+Source: Archive for History of Exact Sciences, Vol. 68, No. 5 (September 2014), pp. 641-692
+Published by: Springer
+Stable URL: https://www.jstor.org/stable/24569572
+Accessed: 19-05-2020 09:55 UTC
+
+ 
+REFERENCES 
+Linked references are available on JSTOR for this article:
+https://www.jstor.org/stable/24569572?seq=1&cid=pdf-reference#references_tab_contents 
+You may need to log in to JSTOR to access the linked references.
+
+JSTOR is a not-for-profit service that helps scholars, researchers, and students discover, use, and build upon a wide
+
+range of content in a trusted digital archive. We use information technology and tools to increase productivity and
+
+facilitate new forms of scholarship. For more information about JSTOR, please contact support@jstor.org.
+
+Your use of the JSTOR archive indicates your acceptance of the Terms & Conditions of Use, available at
+
+https://about.jstor.org/terms
+
+Springer is collaborating with JSTOR to digitize, preserve and extend access to Archive for
+History of Exact Sciences
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 09:55:57 UTC
+All use subject to https://about.jstor.org/terms
+
+ Arch. Hist. Exact Sci. (2014) 68:641-692
+ DOI 10.1007/s00407-014-0138-4
+
+ Embedding semigroups in groups: not as simple
+ as it might seem
+
+ Christopher Hollings
+
+ Received: 31 December 2013 / Published online: 3 May 2014
+ © Springer-Verlag Berlin Heidelberg 2014
+
+ Abstract We consider the investigation of the embedding of semigroups in groups,
+
+ a problem which spans the early-twentieth-century development of abstract algebra.
+
+ Although this is a simple problem to state, it has proved rather harder to solve, and its
+
+ apparent simplicity caused some of its would-be solvers to go awry. We begin with the
+
+ analogous problem for rings, as dealt with by Ernst Steinitz, B. L. van der Waerden
+
+ and 0ystein Ore. After disposing of A. K. Sushkevich's erroneous contribution in this
+
+ area, we present A. I. Maltsev's example of a cancellative semigroup which may not
+
+ be embedded in a group, which showed for the first time that such an embedding is
+ not possible in general. We then look at the various conditions that were derived for
+
+ such an embedding to take place: the sufficient conditions of Paul Dubreil and others,
+
+ and the necessary and sufficient conditions obtained by A. I. Maltsev, Vlastimil Ptâk
+
+ and Joachim Lambek. We conclude with some comments on the place of this problem
+ within the theory of semigroups, and also within abstract algebra more generally.
+
+ Mathematics Subject Classification (2010) 01A 60 · 20-03 · 20 M 99
+
+ Communicated by: Jeremy Gray.
+
+ This article is an expanded version of Chapter 5 of my book Hollings (2014b) and, as such, contains
+
+ research carried out at the Mathematical Institute of the University of Oxford with the support of research
+ project grant F/08 772/F from the Leverhulme Trust. I would like to thank Jackie Stedall and Peter
+
+ M. Neumann for their critical comments on an earlier draft of this paper, and also Joachim Lambek for his
+
+ permission to quote from private correspondence.
+
+ C. Hollings (El)
+ Apartment 28 New Mill, Salts Mill Road, Shipley, West Yorkshire BD17 7EJ, UK
+ e-mail: cdhollings@gmail.com
+
+ Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 09:55:57 UTC
+All use subject to https://about.jstor.org/terms
+
+ 642 C. Hollings
+
+ Contents
+
+ 1 Introduction 642
+
+ 2 Embeddings for rings 647
+ 3 Early results for semigroups 652
+ 4 Further sufficient conditions 659
+
+ 5 Maltsev's embeddability conditions 663
+ 6 Ptak's embeddability condition 671
+ 7 Lambek's polyhedral condition 676
+ 8 Maltsev's and Lambek's conditions compared 681
+ 9 Concluding remarks 688
+ References 689
+
+ 1 Introduction
+
+ In a previous paper (Hollings 2009a), I considered the early development of the (alge
+
+ braic) theory of semigroups—that is, the abstract theory of sets with a single associative
+
+ binary operation. In that paper, I identified what I deemed to be the first 'independent'
+
+ semigroup-theoretic result, published by the American mathematician A. H. Clifford
+
+ in 1941: a theorem with no direct analogue in either group or ring theory. As noted in
+
+ Hollings (2009a, Sect. 2), the latter two theories had a heavy influence on the emerg
+
+ ing study of semigroups during the 1930s: semigroups were viewed either as groups
+
+ for which certain axioms had been negated, or as rings in which an entire operation
+
+ (namely, addition) had been dropped. In the present paper, I turn my attention to one
+
+ particular semigroup-theoretic problem which emerged in the 1930s by direct anal
+
+ ogy with a problem from ring theory, but which was touched upon only briefly in
+
+ Hollings (2009a, Appendix B): the question of when it is possible to embed a semi
+
+ group in a group. Over the course of this paper, a particular result connected with
+
+ this problem will emerge as an alternative contender for 'first independent semigroup
+
+ theorem'. Moreover, we will also see that efforts to solve this problem spanned the
+
+ final, twentieth-century, phase of the development of abstract algebra.
+
+ The problem of embedding a semigroup in a group is one of the first topics to have
+
+ been considered in the early days of semigroup theory. It concerns the derivation of
+
+ conditions under which an isomorphic copy of a given semigroup may be located inside
+
+ some group. It is thus, in some sense, a 'converse' to the study of semigroups via their
+
+ subgroups (as carried out, for example, by the Russian mathematician A. K. Sushke
+ vich1 in the 1920s and 1930s—see Hollings 2009b or Hollings 2009a, Sect. 5). A
+
+ typical approach to the problem has been to take a semigroup and attempt to augment
+
+ it by the introduction of an identity, as well as an inverse for each element, and then
+
+ to extend the original binary operation to these new elements in such a way that it
+ remains associative. As we will see, a set of necessary and sufficient conditions for
+
+ 1 Α. Κ. CymKeBirc. Besides Russian and Ukrainian, Sushkevich also published papers in English, German
+ and French, in which he used a German transliteration of his name: 'Suschkewitsch'. Certain of his relevant
+
+ publications may therefore be found in the bibliography under this version of his name.
+
+ Ô Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 09:55:57 UTC
+All use subject to https://about.jstor.org/terms
+
+ Embedding semigroups in groups 643
+
+ such an embedding to take place was obtained as early as 1939, and yet the problem
+
+ has seen a great deal of study ever since—perhaps because the solution of 1939 is not a
+
+ particularly practical one. This seemingly innocuous problem is by no means as sim
+
+ ple as it might appear: not every semigroup can be embedded in a group, and, indeed,
+
+ not even every cancellative semigroup2 can be embedded in a group, as we might
+
+ naively suspect, given that any subsemigroup of a group is necessarily cancellative.
+
+ The inspiration for the study of the embedding problem for semigroups came chiefly
+
+ from the analogous problem of embedding a ring in a field, or, more generally, in a
+
+ skew field (also known as a 'division ring' or a 'non-commutative field' : a system with
+
+ two binary operations satisfying all the axioms of a field, except perhaps for commuta
+
+ tivity of multiplication). Some of the authors who considered these problems, however,
+
+ realised that since much of the associated theory was phrased entirely in terms of mul
+
+ tiplication, it might therefore be appropriate to seek a solution in the same terms. The
+
+ operation of addition was thus dropped, and the problem of embedding semigroups in
+
+ groups (or in other semigroups) emerged alongside that of embedding rings in (skew)
+
+ fields (or in other rings). Although a great range of semigroup embedding problems
+
+ has been considered over the decades, the focus here will be upon embeddings into
+
+ groups·, these have seen the most study and are, I believe, the most historically signif
+
+ icant, having been the first such embeddings to have been studied in the burgeoning
+
+ semigroup theory of the 1930s.
+
+ The ring embeddings that eventually gave impetus to their semigroup counterparts
+
+ first arose in the early years of the twentieth-century as part of the development of
+
+ abstract algebra. The notion of a field had already appeared in the nineteenth century in
+
+ the work of Leopold Kronecker and Richard Dedekind (Katz 2009, Sect. 21.5). That of
+
+ a ring followed in a 1914 paper by Abraham (Adolf) Fraenkel (see Corry 2000a, b, and
+
+ also Hollings 2014a), with the subsequent theory of rings seeing much development
+
+ in the 1920s at the hands of Emmy Noether and her school. Before this, however,
+
+ comprehensive theories had emerged for the older notions of integral domains and
+
+ fields, by analogy with the properties of the integers and the rational numbers. One of
+
+ the major pieces of work in this direction was Ernst Steinitz' 1910 paper 'Algebraische
+ Théorie der Kôrper' (Steinitz 1910).
+
+ In his paper (on which, see Corry 1996, 2nd ed., Sect. 4.2), Steinitz set about the
+
+ construction of a comprehensive abstract theory of fields. In the early sections, for
+
+ example, he derived a range of basic properties for both fields and integral domains.
+
+ Amongst these is a result that is of great significance for our present purposes: the
+
+ so-called 'Quotientenbildung', namely, the construction of the field of fractions of an
+
+ abstract integral domain, by analogy with the construction of the rationale from the
+
+ integers. We will discuss Steinitz' method in Sect. 2.
+
+ I have referred above to embedding 'problems'. However, Steinitz did not phrase his
+
+ treatment of the 'Quotientenbildung' in such terms, simply because, for him, there was
+
+ no problem: any integral domain admits such a construction. The explicit formulation
+
+ of 'embedding problems' in the sense in which we are interested here appears to have
+
+ 2 A semigroup S in which either ac = be or ca = cb implies that a - b, for any a, b, c 6 S. This does
+ not, of course, guarantee that c has an inverse element in the traditional group-theoretic sense. If S has a
+
+ zero element, then we must make the additional requirement that c be nonzero.
+
+ Ô Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 09:55:57 UTC
+All use subject to https://about.jstor.org/terms
+
+ 644 C. Hollings
+
+ been due to B. L. van der Waerden in his seminal text Moderne Algebra of 1930.
+
+ We know that van der Waerden read Steinitz' paper at Noether's behest (see Waerden
+
+ 1975, p. 33): Steinitz's 'Quotientenbildung' appears in van der Waerden's book as the
+
+ proof of the theorem that every integral domain may be embedded in a field (presented
+
+ here as Theorem 1 in Sect. 2). Indeed, van der Waerden went further by posing the
+
+ additional question in the non-commutative case: can every non-commutative ring
+ without zero divisors be embedded in a skew field? Several of the mathematicians
+
+ who are mentioned in the present article were inspired by this question, which we will
+
+ refer to as van der Waerden's problem.
+
+ An early contribution to the solution of van der Waerden's problem came from
+
+ 0ystein Ore in a paper of 1931 (on which, see Corry 1996, 2nd ed., p. 264). Ore
+ was interested in the development of a non-commutative theory of determinants and
+
+ the application of such a theory to the solution of systems of linear equations with
+
+ coefficients from a skew field. In the course of his paper, Ore extended the 'Quotienten
+
+ bildung' to the non-commutative case, thereby embedding a non-commutative ring
+
+ without zero divisors in a skew field of fractions (presented here as Theorem 2 in
+ Sect. 2). However, Ore was unable to carry out his construction in general; he was
+
+ forced to assume a further condition which had emerged from his study of deter
+
+ minants: that every pair of elements of the ring in question must have a common
+
+ right multiple (for all elements a, b in the ring, we can find elements m, η such that
+
+ am = bn). The 'common right multiples' condition is therefore a sufficient condition
+
+ for the embedding of a non-commutative ring without zero divisors in a skew field.
+
+ It is difficult to know quite when mathematicians first began to consider the question
+
+ of semigroup embeddings. As we will see in Sect. 2, the adaptation of the methods of
+
+ both Steinitz and Ore to the purely multiplicative case is in fact quite straightforward.
+
+ Indeed, the extension of these constructions was evidently so clear that it was some time
+
+ before explicit proofs (or even statements of the relevant semigroup embedding results)
+
+ appeared in print. Nevertheless, they quickly passed into 'mathematical folklore' and,
+
+ as we will see, were often cited by subsequent authors as though they were obvious
+
+ and widely known facts.
+
+ The first explicit semigroup-theoretic treatment of the embedding problem was
+
+ that of the Russian-born, but Ukraine-based, mathematician A. K. Sushkevich; he
+
+ appears to have been influenced by van der Waerden, but not by Ore. In a paper of
+
+ 1935, Sushkevich claimed to have proved that any cancellative semigroup may be
+
+ embedded in a group. As noted above, however, this is not the case: there is a flaw in
+
+ Sushkevich's argument. He appears to have fallen into the trap of assuming that the
+
+ embedding problem is straightforward.
+
+ The first published indication that Sushkevich had given an erroneous result came
+
+ from another Russian mathematician, A. I. Maltsev,3 whose name is now inextricably
+
+ linked with the embedding problem. In a paper of 1937, Maltsev presented a coun
+
+ terexample to show that not every cancellative semigroup may be embedded in a group.
+
+ 3 A. H. Ma-ikneB. I choose to omit the silent Cyrillic letter t from my transliteration, although its presence
+
+ is sometimes indicated (after transliteration into Latin letters) by Note that Maltsev's name has also been
+
+ transliterated as 'Malcev'. Indeed, the 1937 paper that will be of interest to us in Sect, 3.2 was published
+
+ under this name, and so it appears in this form in the bibliography.
+
+ â Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 09:55:57 UTC
+All use subject to https://about.jstor.org/terms
+
+ Embedding semigroups in groups 645
+
+ In fact, Maltsev's semigroup counterexample is merely a means to an end: in the final
+
+ section of his paper, he used his semigroup to construct a particular non-commutative
+
+ ring without zero divisors, which may not be embedded in a skew field. Maltsev there
+
+ fore gave a negative solution to van der Waerden's problem. Nevertheless, he continued
+
+ to study the embedding problem in the semigroup context and, in a celebrated paper
+
+ of 1939 (together with a sequel of 1940), gave necessary and sufficient conditions for
+
+ a cancellative semigroup to be embedded in a group. These conditions consist of a
+
+ countably infinite set of implications.
+
+ In spite of Maltsev's apparently comprehensive solution to the semigroup embed
+
+ ding problem, it did not go away—perhaps because a countably infinite set of condi
+
+ tions is not so easy to use. Thus, throughout the 1940s, a number of further sufficient
+
+ conditions were obtained by various authors, many of them inspired by Ore's work.
+
+ There also appeared further sets of necessary and sufficient conditions. V. Ptâk gave
+
+ a necessary and sufficient condition in terms of normal subgroups of the given semi
+
+ group, thereby giving a rather more manageable criterion for embedding than that of
+
+ Maltsev. We mention also the 'polyhedral conditions' of J. Lambek: these are much
+
+ like Maltsev's conditions, but, as the name suggests, they are a little easier to han
+
+ dle because they have a geometrical interpretation; they are certainly much easier to
+
+ present.
+
+ The problem of embedding semigroups in groups continues to be studied from
+
+ various different viewpoints. However, I do not propose to try to cover all approaches
+
+ here. I will cover simply those mentioned above; for a range of other embedding
+
+ problems, I refer the reader to the various available survey articles, including, but not
+
+ limited to Bokut (1987), Shutov (1966) and Thibault (1953a, b). One point that I will
+
+ not address here is the question of 'universality' of embeddings: speaking informally,
+
+ the question of whether a given embedding is the most 'economical' possible. For some
+
+ comments on this issue, see Clifford and Preston (1967, Sect. 12.2). 'Universality' is
+
+ an important property in making embeddings useful, but, apart from a brief observation
+ by Maltsev (1940, Sect. 4), it was not a significant concern of the early authors who
+ attacked semigroup embedding problems—in the interests of saving space, we will
+
+ therefore make little mention of such properties.
+
+ A knowledge of the basics of both group theory and ring theory will be assumed of
+
+ the reader, but no semigroup theory will be supposed—surprisingly little introductory
+
+ theory is required for an understanding of the mathematics to be discussed here, which
+
+ perhaps explains why this is a subject which was studied in the early days of semigroup
+
+ theory. Any relevant notions will be introduced as we go along.
+
+ This article consists of the following sections. In Sect. 2,1 begin by giving details
+
+ of Steinitz' construction of the field of fractions of a given integral domain, and of
+
+ Ore's corresponding method in the non-commutative case. In Sect. 3, I pick apart
+
+ Sushkevich's erroneous contributions in this area and give Maltsev's counterexample
+
+ of a cancellative semigroup which may not be embedded in a group. Section 4 deals
+
+ with a number of sufficient conditions that came after Ore's 'common right multiples'
+
+ condition. In particular, I consider the work of the French mathematicians Paul Dubreil
+
+ and Raouf Doss, as well as that of Thoralf Skolem. In the following three Sects. 5, 6
+ and 7,1 discuss the necessary and sufficient conditions of Maltsev, Ptâk and Lambek,
+
+ respectively. In Sect. 8,1 compare the conditions of Maltsev and Lambek, and detail
+
+ £) Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 09:55:57 UTC
+All use subject to https://about.jstor.org/terms
+
+ 646 C. Hollings
+
+ work that was carried out to identify the conditions they had in common. At the end of
+
+ the paper (Sect. 9), I make some concluding remarks on the nature of the embedding
+
+ problem for semigroups and its place within abstract algebra.
+
+ We note here the curious fact that the problem of embedding a semigroup in a group
+
+ seems to have been one on which many young mathematicians 'cut their teeth'; most
+
+ of the major contributions to this area were made by people who were just beginning
+
+ their careers and who, in many cases, never returned to it: Maltsev (Sects. 3,5) did his
+
+ embedding work early in his career, returning to it only briefly some years later (in
+
+ Maltsev 1953); Doss (Sect. 4) and Ptâk (Sect. 6) also considered embedding problems
+
+ at the beginning of their careers, before abandoning this for other areas—Fourier
+
+ analysis for the former and functional analysis for the latter; Lambek and Bush (Sect. 7)
+
+ both wrote PhD theses on embedding questions and, save for publishing parts of their
+
+ theses as papers, did no further work in this area; Jackson (also Sect. 7) wrote a
+
+ master's thesis on embeddings, which contained new results, and yet, despite pursuing
+
+ an academic career, he never returned to them or made any effort to publish them.
+
+ The embedding theorems are certainly easy to state, but their proofs are far from
+
+ elementary, so it is difficult to see why these results should be particularly suitable for
+
+ early-career mathematicians. On the other hand, perhaps there is in fact no real pattern
+
+ here: Steinitz, Ore (Sect. 2), Sushkevich (Sect. 3), Dubreil and Skolem (Sect. 4) were
+
+ all quite well established at the time of carrying out their embedding work.
+
+ A number of brief mathematical comments are in order before we proceed. First of
+
+ all, it is worth noting that the object into which a non-commutative ring or semigroup
+ is embedded must also be non-commutative, for, if it were not, this would contra
+
+ dict the non-commutativity of the original ring or semigroup. In the ring context, we
+ observe also that, since a skew field has no zero divisors, the lack of zero divisors is
+
+ a necessary condition for this embedding to take place. Equivalently, it is necessary
+
+ that the multiplication of the original ring be cancellative.4 Indeed, cancellation is a
+ necessary condition in both the commutative and non-commutative cases. The equiv
+ alence of cancellation and 'lack of zero divisors' no longer holds in the semigroup
+
+ case, since a non-cancellative semigroup may lack zero divisors simply by not having
+
+ a zero element. Obviously, if a semigroup with zero is cancellative, then it does not
+
+ have any zero divisors. Thus, adapting the above comments on rings, cancellation is
+
+ clearly a necessary condition for the embedding of a semigroup in a group.
+
+ I conclude this introduction with a note on terminology: rather than 'embed'/
+
+ 'embedding'/'embeddability', some authors (for example, both Maltsev and Lambek)
+
+ have used the terms 'immerse'/'immersion'/'immersibility'. However, I have largely
+
+ adopted the former terminology here, in the interests of a uniform presentation. The
+
+ only places where I have not are in translations of the titles of certain papers for which
+
+ the term 'immersibility' etc. seemed more appropriate.
+
+ 4 For a ring has no zero divisors if and only if its multiplication is cancellative (in the sense of note 2).
+
+ Suppose first of all that a ring R has no zero divisors, and that ac — be, for a, b, c 6 R, with c φ 0. Then
+ ac - be = (a - b)c = 0, from which it follows that a - b = 0, whence a = b. The other part of the
+ cancellation law is similar. Conversely, suppose that R is cancellative. For a, b, c e R, with c / 0, we take
+ the equality ac = be (from which it follows that a = b) and set b = 0. □
+
+ Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 09:55:57 UTC
+All use subject to https://about.jstor.org/terms
+
+ Embedding semigroups in groups 647
+
+ 2 Embeddings for rings
+
+ 2.1 The commutative case: Steinitz' Theorem
+
+ As noted in the introduction, an embedding problem for rings was given its first
+
+ explicit formulation by van der Waerden in his Moderne Algebra (van der Waerden
+
+ 1930, Chap. Ill, Sect. 12) in connection with the notion of the field of fractions of a
+
+ ring. Van der Waerden began his treatment of this by making the simple observation
+
+ that if a given commutative ring 93 is already contained within a field Ω, then we may,
+
+ in a very natural manner, construct fractions (or quotients) in Ω of elements of 93:
+
+ £ = ab~l = b~la (b φ 0),
+ b
+
+ where b~l is the inverse of b in Ω. It is a straightforward observation that equivalence
+
+ of such fractions is governed by the condition
+
+ - = - 4=Φ· ad — be, (1)
+ b d
+
+ a t c _ ad + be a c ac
+ b + d~ bd ' b d = bd' ()
+
+ and that they may be added and multiplied according to the rules
+
+ It may be shown that the collection of all fractions forms a field under the operations
+
+ in (2): the field of fractions (or field of quotients) of the original ring.5
+
+ Having thus dealt with commutative rings that are already located inside a field,
+
+ van der Waerden next turned his attention to a more general question:
+
+ Which commutative rings possess a field of quotients? Or, what amounts to the
+
+ same thing, which, in general, can be embedded in a field?6
+
+ As we have noted, a simple necessary condition for such an embedding to take place
+ is that the ring in question contain no zero divisors. Building upon this observation,
+
+ van der Waerden (1930, p. 47) presented the following theorem, which we will refer
+
+ to as Steinitz' Theorem, since it first appeared, in essence, in Sect. 3 of Steinitz' paper
+ of 1910:
+
+ Theorem 1 (Steinitz' Theorem) Every integral domain can be embedded in afield.
+
+ The proof that van der Waerden gave of this theorem was simply Steinitz' 'Quotien
+
+ tenbildung'. Indeed, this is nothing other than the still-familiar construction of the
+
+ field of fractions of a given integral domain 93: we take the set of all ordered pairs
+
+ 5 For a general discussion of fields of fractions, see Cohn (1995, Chap. 1).
+
+ 6 'Welche kommutativen Ringe besitzen einen Quotientenkbrper? Oder, was auf dasselbe hinauskommt,
+
+ welche lassen sich Uberhaupt in einen Kôrper einbetten?' (van der Waerden 1930, p. 47).
+
+ Ô Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 09:55:57 UTC
+All use subject to https://about.jstor.org/terms
+
+ (α, b) (b Φ 0) of elements of 93 and define an (equivalence) relation ~ on such pairs
+
+ 648 C. Hollings
+
+ by the rule that
+
+ (a, b) ~ (c, d) ad = be (3)
+
+ (cf. (1)). Each pair (a, b) is next replaced by the formal symbol f. It is then necessary
+
+ to show that the collection of all such | forms a field under the operations given in
+ (2). The original integral domain 93 is finally seen to be included in this field, via the
+
+ mapping a y, for some fixed b e 93\{0). We note that commutativity has an
+ important role to play in this construction. For comparison with what appears below,
+
+ I include, for example, the proof that relation (3) is transitive:
+
+ Proof Suppose that (a, b) ~ (c, d) and (c, d) ~ (e, /). Then ad = be and cf = de.
+ Taking the first equality and multiplying on the right by /, we see that adf = bef =
+
+ bde, whence afd — bed, by commutativity. It follows by cancellation that af = be,
+ in which case, (a, b) ~ {e, /). □
+
+ Van der Waerden did not confine his attention merely to embeddings for integral
+
+ domains. He observed, for example, that the above construction is easily modified for
+
+ commutative rings with zero divisors: the denominator of a formal fraction is required
+
+ to be a non-divisor of zero (van der Waerden 1930, p. 49). He turned his attention also
+
+ to the non-commutative case, although in this instance he had no solution to offer:
+
+ The possibility of embedding non-commutative rings without zero divisors into
+
+ full fields is an unsolved problem, except in very special cases.7
+
+ The problem of whether we can embed a non-commutative ring without zero divisors
+
+ in a (skew) field is what we have termed van der Waerden's problem. We will see
+
+ Maltsev's negative solution of this problem in Sect. 5. Subsequent versions of van der
+ Waerden's book acknowledge Maltsev's work in a footnote.
+
+ 2.2 The non-commutative case: Ore's Theorem
+
+ We turn now to an approach to the embedding problem for non-commutative rings—
+
+ that of Oystein Ore. As we will see (particularly in Sect. 4), Ore's ring-theoretic inves
+
+ tigations exerted a strong influence on subsequent work on the embedding problem
+
+ for semigroups.
+
+ Ore's is a familiar name within twentieth-century mathematics.8 This Norwegian
+
+ born mathematician spent most of his life in the USA at Yale University. He appears
+
+ to have been greatly influenced by Noether and her school, both in his PhD thesis
+
+ (supervised by Thoralf Skolem, who will appear briefly in Sect. 4) and in his subsequent
+
+ work, having spent time in Gottingen in the mid- 1920s. Indeed, S. C. Coutinho (2004,
+
+ p. 257) says of Ore's work that it displays
+
+ ... very clearly the influence of the abstract algebra movement that was taking
+
+ shape under the leadership of Emmy Noether and Emil Artin.
+
+ 7 'Die Môglichkeit der Einbettung nichtkommutativer Ringe ohne Nullteiler in einen sie umfassenden
+ Kôiper bildet ein ungelôstes Problem, aufier in ganz speziellen Fallen' (van der Waerden 1930, p. 49).
+
+ 8 For biographies of Ore, see Anon (1970) and Aubert (1970).
+
+ Ô Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 09:55:57 UTC
+All use subject to https://about.jstor.org/terms
+
+ Embedding semigroups in groups 649
+
+ This influence is certainly in evidence in the 1931 paper, 'Linear equations in non
+
+ commutative fields', that is of interest to us here. A very good account of this paper
+
+ may also be found in Coutinho (2004, Sect. 2.1).
+
+ In the paper in question, Ore considered the generalisation of the theory of determi
+
+ nants to skew fields, with the goal of solving systems of linear equations with coeffi
+
+ cients from these. This was a problem that had seen much study since the mid-1920s,
+ but Ore was critical of some of the earlier efforts of other mathematicians. For exam
+
+ ple, the notion of determinant adopted by both Heyting (1927) and Richardson (1926,
+
+ 1928) was not defined for all values of the coefficients of the corresponding system of
+
+ linear equation—to Ore's mind, this limited the usefulness of such determinants (Ore
+
+ 1931, p. 463). He was also critical of a lack of symmetry in Richardson's definition.
+
+ The goal of Ore's 1931 paper was to devise a satisfactory definition of determinant
+
+ in the non-commutative case. It was not his purpose to treat any embedding problem,
+
+ but one such problem emerged along the way. For the time being, we note that Ore
+
+ was certainly aware of van der Waerden's problem:
+
+ In the commutative case all domains of integrity (rings without divisors of zero)
+
+ have a uniquely defined quotient-field, which is the least field containing the
+
+ ring. For the non-commutative case v. d. Waerden... has recently indicated this
+
+ problem as unsolved (Ore 1931, p. 464).
+
+ The basic system with which Ore began was simply a non-commutative ring, for
+
+ which he offered 'algebra' as an alternative term. However, it quickly emerged that
+
+ this notion was inadequate for his purposes, since it did not allow for all the operations
+
+ needed when solving systems of linear equations:
+
+ We shall in the following consider systems of linear equations with coefficients
+
+ which are elements of such a ring. In order to perform an elimination to obtain a
+
+ solution of a linear system, it seems necessary that the coefficients should satisfy
+
+ the axioms mentioned.. .The main operation for the usual elimination is however
+
+ to multiply one equation by a factor and another equation by another factor to
+
+ make the coefficients of one of the unknowns equal in the two equations (Ore
+ 1931, p. 465).
+
+ Ore therefore augmented his non-commutative ring with the following further con
+
+ dition (Ore 1931, p.465):9
+
+ My. Existence of common multiplum. When a, b φ 0 are two arbitrary elements of a
+
+ ring S, then it is always possible to determine two other elements m, η Φ 0 such
+ that an = bm.
+
+ It is easy to see that this new condition makes possible the operation indicated above.
+
+ Notice that My holds immediately in the commutative case, since ab = ba, for any
+
+ elements a, b. To any (non-commutative) ring which satisfies My and which has no
+
+ zero divisors, Ore gave the name regular ring;10 he did not assume the existence of a
+
+ 9 Ore labelled his condition in this manner because it was the fifth multiplicative condition in his list.
+
+ 10 Not to be confused with the notion of a (von Neumann) regular ring (see, for example, Goodearl 1979).
+
+ What Ore called a regular ring (with identity) is now termed a right Ore domain (Coutinho 2004, p. 258).
+
+ Ô Springe
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 09:55:57 UTC
+All use subject to https://about.jstor.org/terms
+
+ 650 C. Hoilings
+
+ multiplicative identity. Adopting the term 'non-commutative field' for what we have
+
+ called a skew field, Ore proved the following result, which we will refer to as Ore's
+ Theorem (Ore 1931, Theorem 1):
+
+ Theorem 2 (Ore's Theorem) Any regular ring can be considered as a subring (more
+
+ exactly: is isomorphic to a subring) of a non-commutative field.
+
+ Thus, any non-commutative ring without zero divisors, and in which any two elements
+
+ have a common right multiple, can be embedded in a skew field. Ore proved this theo
+
+ rem via a reasonably straightforward generalisation of Steinitz' 'Quotientenbildung'.
+ In Ore's case, however, the formal fractions form not a field, but a skew field. Com
+
+ plications not present in the commutative case emerge in the course of the proof, but
+ condition My serves to resolve these.
+
+ As already noted, Ore began by forming fractions | for b φ 0. The first point that it
+
+ was necessary for him to address was that of equality of fractions, that is, the derivation
+
+ of a non-commutative version of condition (1). Let | and |j- be two fractions, with
+ b, b\ φ 0. By My, we can find β, β\ Φ 0 such that
+
+ bfi ι = bxfi. (4)
+
+ We then say that
+
+ a a\ „ „
+ r = 7- 4=> αβ\ = α\β. (5)
+ Ό 01
+
+ The elements β\, β will not in general be the unique values satisfying (4), but it is an
+
+ easy exercise to show that (5) does not depend on the choice of these elements (see Ore
+
+ 1931, p. 466). The proof that the notion of equality defined in (5) is transitive needs
+
+ special care, but is again an easy exercise (see Ore 1931, p. 467). I include it here for
+
+ comparison with the corresponding proof in the commutative case (see Sect. 2.1):
+
+ Proof Suppose that £ = £}■ and £}· = £*, where b, b\,b2 φ 0. Then there exist
+ β, β\,β[,β2 φ 0 such that bβ\ = b\fi, αβ\ = α\β, b\fi2 = b2fi\ and α\β2 = α2β[·
+ By My, there exist r, s φ 0 such that fir = fiis. It then follows easily from the listed
+ equations that b(fi\r) = b2(fi[s) and a(fi\r) = b2(fi[s)\ hence, £ = £*. □
+
+ In the non-commutative case, addition of fractions is defined by
+
+ α ι a\ αβ\ + α\β _ αβ\ + α\β
+ b + b[= bfix " M '
+
+ where β, β\ are as in (4), whilst multiplication is given by
+
+ α αϊ = cm (6)
+ b bx bifi
+
+ where bct\ =α\β. Ore showed that these operations do not depend on the choices of
+
+ β, β ι, αχ, that they are well-defined, and that they satisfy the other properties required
+
+ for a skew field. The original ring may be embedded in the skew field of fractions via
+
+ Ô Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 09:55:57 UTC
+All use subject to https://about.jstor.org/terms
+
+ Embedding semigroups in groups 651
+
+ the mapping a for any fixed c φ 0. Condition My is thus shown to be sufficient
+
+ for the embedding of a non-commutative ring in a skew field.
+
+ As observed above, the main purpose of Ore's work was to find a suitable definition
+
+ of determinant in the non-commutative case. In particular, he aimed to find those rings
+
+ in which it is possible to define such a determinant, and in which we may therefore
+
+ solve systems of linear equations by elimination. Regular rings are precisely the rings
+
+ that Ore sought. In the introduction to the paper, he commented:
+
+ ... I discuss the properties of rings in which the elimination can be performed;
+
+ these rings must satisfy a certain axiom My and this is, as I show, equivalent to
+
+ the fact, that the ring can be completed to a non-commutative field ('Quotien
+
+ tenkorper') by the introduction of formal quotients of elements in the ring (Ore
+
+ 1931, p. 464).
+
+ Theorem 2, together with some associated results that I do not reproduce here, provides
+
+ a proof of this assertion. Further, we can see that condition My is required for Ore's
+
+ notion of determinant if we consider the following pair of linear equations:
+
+ *1«11 + -*2«12 = b\, X\a2\ + X2C122 = h, (7)
+
+ where the α,·;· and bk belong to some regular ring S. By My, we can find Απ, A22 € S
+
+ such that an A22 = «22A12· We then multiply the first equation by A22, and the second
+
+ by An (both on the right), before subtracting one from the other, to obtain:
+
+ *l(flllA22 - fl2lAi2) = b\A22 - b2A\2,
+
+ which Ore wrote as
+
+ x\
+
+ flit
+
+ Û21
+
+ an 1
+ <2221
+
+ b\
+
+ t>2
+
+ «121
+
+ «221
+
+ The quantities between the vertical lines are termed right-hand determinants of second
+
+ order·, the determinant on the left-hand side of the equality will be denoted, following
+
+ (12)
+
+ Ore, by Aj2 .1 omit all further details of Ore's work, except to note the following
+ pleasing result (Ore 1931, p. 472):
+
+ Theorem 3 The system ofEq. (7) has a unique solution if and only if the determinant
+
+ Δ j2^ does not vanish.
+
+ Thus, Ore's notion of determinant appears to be the 'correct' one, since it behaves, at
+
+ least to the above extent, as a determinant should. In the final section of the paper, Ore
+ extended these ideas to determinants of nth order.
+
+ 2.3 Extension to semigroups
+
+ We have seen that an integral domain, and also a certain type of non-commutative
+
+ ring without zero divisors, may easily be embedded in a (skew) field simply by the
+ construction of the corresponding (skew) field of fractions. Moreover, the methods
+
+ employed by Steinitz and Ore were almost entirely multiplicative in nature, and may
+
+ £) Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 09:55:57 UTC
+All use subject to https://about.jstor.org/terms
+
+ 652 C. Hollings
+
+ therefore be adapted immediately to the semigroup case. In this way, we obtain two
+
+ theorems concerning the embedding of a commutative cancellative semigroup, and
+
+ a particular non-commutative cancellative semigroup, in a group, namely, its group
+
+ of fractions: the multiplicative group of the (skew) field of fractions obtained via the
+
+ construction of Steinitz (or Ore). As noted in the introduction, however, this adaptation
+
+ to the semigroup case seems to have been regarded as so obvious that it was a long time
+
+ before any mathematician took the trouble to write down the theorems rigorously. The
+
+ earliest explicit statement and proof of these results came in the work of Dubreil, which
+
+ we will see in Sect. 4. For future reference, however, we record here the semigroup
+ versions of both Steinitz' and Ore's Theorems:
+
+ Theorem 4 (Semigroup version of Steinitz' Theorem) Every commutative cancella
+
+ tive semigroup may be embedded in a group, namely, its group of fractions.11
+
+ Theorem 5 (Semigroup version of Ore's Theorem) Any cancellative semigroup in
+
+ which every pair of elements has a common right multiple may be embedded in a
+
+ group, namely, its group of fractions.
+
+ 3 Early results for semigroups
+
+ 3.1 Sushkevich goes awry
+
+ As observed in the introduction, the first author to give an explicit treatment of the
+
+ embedding problem for semigroups was the Russian mathematician A. K. Sushkevich.
+
+ This was in a 1935 paper in Ukrainian, entitled On the extension of a semigroup to
+ a whole group' ('Προ nonmpeHHH niBrpyim ao uîjioï rpynn'). Unlike some of
+ the authors we will meet in later sections, Sushkevich gave no explicit indication of
+
+ what led him to consider the embedding problem, although the final part of his paper
+
+ does mention the embedding of integral domains in fields, and contains a passing
+
+ reference to van der Waerden's Moderne Algebra. The goal of the above-mentioned
+
+ paper was the construction of a group 'around' any given (cancellative) semigroup,
+
+ thereby 'proving' that any such semigroup may be embedded in a group.
+
+ The main technique employed in Sushkevich's 1935 embeddings paper had its
+
+ origins in some work of the previous year. In an earlier (German) paper, 'Ûber Semi
+
+ gruppen' (Suschkewitsch 1934), Sushkevich had given a decomposition of an arbitrary
+
+ semigroup as the union of two disjoint parts. To modern eyes, this decomposition is
+
+ somewhat simple-minded, for it is merely the separation of a semigroup into its group
+ of units and the two-sided ideal formed of all non-units.12 Sushkevich termed the
+
+ former the group part (Gruppenteil, or zpynoea nacmuna in the Ukrainian of the
+
+ 1935 paper) of the semigroup, and the latter the principal part (Hauptteil·, zoAoena
+
+ nacmuHa). Using this terminology, he had been able to make some elementary obser
+
+ vations, such as the fact that the group part of a semigroup is nonempty if and only if
+
+ 11 This may in fact be stated as a slightly stronger result: a commutative semigroup can be embedded in a
+
+ group if and only if it is cancellative (see Clifford and Preston 1961, Sect. 1.10).
+
+ 12 A two-sided ideal in a semigroup is defined in the same way as for a ring, but without any mention of
+
+ addition; see Hollings (2009a, p. 502).
+
+ â Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 09:55:57 UTC
+All use subject to https://about.jstor.org/terms
+
+ Embedding semigroups in groups 653
+
+ the semigroup has an identity element. It should be noted that, in both the 1934 and
+
+ 1935 papers, all of Sushkevich's semigroups were cancellative: his decision to adopt
+
+ the German term 'Semigruppe' for his objects of interest in the 1934 paper, which
+
+ he had not previously employed in his earlier studies of not-necessarily-cancellative
+ semigroups, may very well have been influenced by L. E. Dickson's use of 'semi
+ group' to denote what we would now term a cancellative semigroup (see Hollings
+
+ 2009a, Sect. 3).13 Sushkevich assumed implicitly that none of his (cancellative) semi
+
+ groups were groups. Since any finite cancellative semigroup is necessarily a group,14
+
+ all of Sushkevich's 'Semigruppen' were thus assumed to be infinite. In particular, the
+
+ principal part of a given cancellative semigroup, as a cancellative semigroup itself,
+
+ was necessarily infinite; there was no such restriction on the group part.
+
+ In the paper of 1935, Sushkevich began with a cancellative semigroup 6; the group
+
+ part of Θ was denoted by 0, and its principal part by Sj. Sushkevich's goal was the
+
+ construction of a group into which 6 may be embedded. To this end, he considered
+
+ separately the case where 6 has an identity element, and that where it does not. I give
+ here a sketch of his method in each instance:
+
+ (1) 6 has no identity element. By the above comments, 0 = 0, and so 6 = Sj. For
+
+ each X € Sj, introduce a new element X, and denote the_collection of all such by
+ Sj. Define a multiplication in Sj by setting Q Ρ = R in Sj whenever PQ = R in
+
+ Sj. It is clear that Sj forms a cancellative semigroup, anti-isomorphic to Sj.
+
+ Next, introduce another newelement Ε and define it to be a two-sided identity
+
+ for all_elements of both Sj and Sj. Further, for any X e Sj and the corresponding
+ X e Sj, set
+
+ XX = XX = E, (8)
+
+ thereby making each X a formal inverse for the corresponding X.
+
+ Finally, construct all alternating products of elements from ή with elements
+
+ fromfl:
+
+ PQ, PQ, PQR, TQR, PQRS, PQRS, ... (9)
+
+ Products of the forms in (9) may be multiplied together to obtain other such alter
+
+ nating products simply by applying the rules for multiplication in Sj and Sj, with
+
+ further simplification afforded by the application of (8). Two alternating products
+
+ 13 Sushkevich is one of only two authors I have found who used the term 'Semigruppe' (at least in German),
+
+ the modern German term for a semigroup being 'Halbgruppe'. The other author was Fritz Klein-Barmen
+
+ (1943). Moreover, in the Ukrainian of his 1935 embeddings paper, Sushkevich used the term 'nierpyna',
+ in contrast to the modern Ukrainian 'HaniBrpyna' ('πϊβ-' and 'ηβπιβ-' both being Ukrainian prefixes
+ denoting 'half-' or 'semi-'). We will see similarly unusual terminology in the work of Vlastimil Ptâk in
+ Sect. 6 (see, in particular, note 44).
+
+ 14 For, suppose that S is a finite cancellative semigroup. It follows immediately from cancellation that
+
+ jS = S = 5s, for any s 6 S. From this, we conclude that, for a fixed s, there exists e e S such that se = s.
+
+ But e is in fact a right identity for any element of S, since any t e S may be written in the form t = us. It
+
+ follows further that e2 = e. Consider the product es, for any s e S. We may write s as eu, for some u e S.
+ Then es = e2u =eu = s. Thus, e is a two-sided identity for S. As to inverses, it follows from sS = S that
+ there exists s'eS such that ss' = e. Furthermore, ss's = es = s = se, and so it follows from cancellation
+ that s's =e. □
+
+ Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 09:55:57 UTC
+All use subject to https://about.jstor.org/terms
+
+ 654 C. Hollings
+
+ are deemed equivalent if one may be obtained from the other by the application
+
+ of the rules for multiplication in 9) or Sj, or through the insertion or deletion of
+
+ factors of the form XX or XX-, otherwise, two such products are distincjL
+
+ Sushkevich denoted by Sji the system formed from the union Sj U Sj U {£},
+
+ together with all products from (9). He argued briefly that Sji is in fact a group.
+
+ The semigroup Sj is thus, apparently, embedded in the group Sj\.
+
+ (2) 6 has an identity element. Starting from the semigroup 6 = <8U Sj, apply the
+
+ construction from case ( 1 ) to the principal part Sj, thereby constructing the 'group'
+
+ Sj ι. Identify the identity Ε off)i with that of 0 and, with this done, form the union
+
+ of Sji and 0. The only products that are not already defined within this union are
+
+ those of elements from Sj with elements from 0. Let A € 0 and Pj_Q,R e Sj; the
+ inverse of A in 0 is denoted by A-1. Products of elements from Sj with elements
+
+ from 0 are then defined by the following rules:
+
+ AP = ~Q, if PA~X = Q; (10)
+ ΤΑ = Λ, if A~lP = R. (11)
+
+ In fact, these rules have an immediate and somewhat surprising consequence: if
+
+ the first equality in (10) is multiplied on the right by P, and the first equality in
+
+ (11) on the left by P, then:
+
+ A = QP = PR. (12)
+
+ The products QP and PR aie clearly of the forms given in (9), and so they both
+
+ belong to Sj\. Moreover, given any A e 0 and any Ρ e Sj, it is always possible
+
+ to find unique elements Q, R e Sj which satisfy the second equalities in (10) and
+ (11). This means that any A € 0 can be written in the form (12). It follows that 0
+
+ is contained in Sji. At this point, Sushkevich had thus, apparently, embedded an
+
+ arbitrary cancellative semigroup in a group—indeed, the same group as in case ( 1 ).
+
+ We know from the comments in the introduction (and will see in more detail in
+
+ the next subsection) that Sushkevich must have gone wrong somewhere—indeed, the
+
+ error lies in his definition of Sj \, as we will see below. Following his presentation of the
+
+ above methods, Sushkevich went on to 'prove' this embedding in a slightly different
+
+ manner. However, since this second method also employs the above construction for
+
+ Sj ι, we need not go into it here. The paper concludes with what would have been a nice
+
+ application of Sushkevich's results, had the preceding parts of the paper been error
+
+ free. Specifically, Sushkevich offered up an extension of his methods for semigroups as
+
+ a new proof Steinitz' Theorem, distinct from the 'Quotientenbildung'. In connection
+ with the latter, Sushkevich cited van der Waerden's Moderne Algebra (as well as its
+
+ Russian translation).15
+
+ Regarding the question of what went wrong with Sushkevich's proof, we need look
+
+ no further than A. G. Kurosh's review (Zbl 0013.05502) of the paper for Zentralblattfiir
+
+ 15 Not long after this paper was published, Sushkevich presented the 'Quotientenbildung' in both his
+ short Ukrainian textbook Elements of new algebra (EAeMenmu ηοθοϊ OAzeâpu) (Sushkevich 1937b, Sect.
+ 14) and in the 3rd Russian edition of his Foundations of higher algebra (Ocnoeu eucmeti auizeôpvi)
+
+ (Sushkevich 1937a, Sect. 236). In neither case, however, did he mention the semigroup case.
+
+ Ô Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 09:55:57 UTC
+All use subject to https://about.jstor.org/terms
+
+ Embedding semigroups in groups 655
+
+ Mathematik und ihre Grenzgebiete. Kurosh did not identity the error precisely, but he
+
+ did note that Sushkevich had failed to prove adequately that the multiplication infji is
+
+ both well-defined and associative, something that Kurosh considered to be 'certainly
+
+ not trivial'.16 Indeed, this is where I believe the error to be: despite Sushkevich's
+
+ readiness to believe that it was so, it is not at all clear why the multiplication of the
+
+ products (9) should be well-defined.
+
+ Sushkevich's On the extension of a semigroup to a whole group' is not a very
+
+ widely cited paper. This is perhaps because, as we will see in the next subsection, the
+
+ error was picked up very quickly. One of the very few references that I have found to
+
+ it is in Chap. IV of Sushkevich's own 1937 monograph Theory of generalised groups
+
+ ( Teopm o6o6w,eHHbix zpynn), in which he set out in a coherent form the majority of
+
+ his semigroup-theoretic investigations. The relevant passages of the monograph are,
+
+ however, somewhat muddled, and appear to contain a (needless to say, unsuccessful)
+
+ attempt to patch up the proof of the embedding theorem. At the same time, we find an
+
+ acknowledgment of the work of Maltsev that demonstrated the error in Sushkevich's
+ methods:
+
+ The example presented by Maltsev refutes my previous assertion that any [can
+
+ cellative] semigroup can be extended to a group.17
+
+ We turn our attention to Maltsev's 1937 counterexample in the following subsection.
+
+ 3.2 Maltsev's counterexample
+
+ As I will discuss briefly in Sect. 5, it appears to have been A. N. Kolmogorov who
+
+ first drew Maltsev's attention to van der Waerden's problem (see Aleksandrov et al.
+
+ 1968, English translation, p. 157). The (negative) solution of the problem was the
+
+ real goal of Maltsev's 1937 paper: the construction of the corresponding semigroup
+
+ counterexample was for him simply a means to an end.
+
+ At the time of submitting his counterexample to Mathematische Annalen (in his
+
+ paper On the immersion of an algebraic ring into a field': Malcev 1937), Maltsev
+
+ was teaching mathematics at a high school near Moscow. He had graduated with a
+
+ first degree from Moscow State University in 1931 but retained a Moscow University
+
+ affiliation in connection with the research work that he was engaged in by the mid
+ 1930s (see Sect. 5). Indeed, S. I. Nikolskii (1972, English translation, p. 179) later
+
+ recalled that around this period, Maltsev 'haunted the mathematics library' of Moscow
+
+ State University. We might therefore suppose a broad familiarity on Maltsev's part with
+ the mathematical literature of the time. I believe, however, that there is some small
+
+ doubt as to whether he had seen Sushkevich's 1935 embeddings paper—I suggest
+
+ that he knew it only through the Zentralblatt review that we saw in the preceding
+
+ subsection. I make this assertion because of the style in which Maltsev subsequently
+
+ cited Sushkevich in his own paper: rather than using Ukrainian (surely an easy option
+
+ 16 'gewiBnicht trivial'.
+
+ 17 'ΠρκΜβρ, πρΗΒΟΛΗΜΗϋ MajifaijeBUM, onpoeepraeT Moe npeaosee yTBepACAeime ο tom, hto
+ β CHKy κ) nonyrpynny mohcho αοποαηητβ ao rpynnu' (Sushkevich 1937c, p.91, footnote 1).
+
+ Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 09:55:57 UTC
+All use subject to https://about.jstor.org/terms
+
+ 656 C. Hollings
+
+ for a native Russian speaker?), Maltsev listed Sushkevich's paper under the German
+
+ version of its title ('Ûber die Erweiterung der Semigruppe bis zur ganzen Gruppe'),
+
+ which had appeared in the German summary at the end of the paper, and which was
+ also used in the Zentralblatt review. Moreover, Maltsev used the German version of
+
+ Sushkevich's name ('Suschkewitsch'), as employed in the German summary, and by
+
+ Zentralblatt. Maltsev also gave the language of Sushkevich's paper as being Russian—
+ Zentralblatt makes the same mistake. I contend that Maltsev would not have made
+
+ this error himself, had he seen the paper. Of course, the mistakes may not have been
+
+ Maltsev's—they could have been the work of an over-zealous editor who, with the
+
+ best of intentions, sought to make Maltsev's references consistent with Zentralblatt.
+
+ Whether or not Maltsev had seen Sushkevich's paper, he made no detailed comments
+
+ on its content, nor did he need to: it was enough for him to state Sushkevich's erroneous
+
+ result, and then present his own counterexample. As already commented, Maltsev's
+
+ 1937 paper was published in Mathematische Annalen, although it did not appear
+
+ in German, but, rather, in English. It begins, like Sushkevich's paper, by defining a
+
+ 'semigroup' to correspond to the modern notion of a cancellative semigroup. As a
+ reference for his notion of 'semigroup', Maltsev cited O. Yu. Schmidt's monograph
+
+ Abstract theory of groups {Abcmpanmuast meopw zpynn) of 1916; an examination
+ of the latter text reveals that, like Sushkevich later on, Schmidt derived his sense of
+
+ the word 'semigroup' from Dickson (Schmidt 1916, p. 55). Thus, although Schmidt
+
+ employed the modern Russian term for a general semigroup ('nojiyrpynna'), he used
+
+ it to mean a cancellative semigroup.
+
+ Further down the first page of his paper, Maltsev made the following observations,
+
+ which include his only direct reference to Sushkevich (with the full citation in a
+
+ footnote, which I do not reproduce here):
+
+ It can be easily proved that every commutative semigroup can be „immersed"
+ (eingebettet) into a group... However, the analogous question concerning non
+
+ commutative semigroups, as far as I know, remained unsolved.
+
+ Prof. A. Suschkewitsch has published a proof...that every semigroup can be
+
+ immersed into a group. However, we shall construct ...a semigroup which can
+
+ not be immersed into a group; thus, Professor Suschkewitsch's result fails to be
+
+ true (Malcev 1937, p. 686).
+
+ The first sentence in this quotation is of course a statement of the semigroup version
+
+ of Steinitz' Theorem (our Theorem 4). Maltsev attached a footnote to the end of this
+
+ sentence, explaining that the result may be proved in much the same way as for integral
+
+ domains: via the construction of the group of fractions. We thus have, seemingly for the
+
+ first time, an explicit statement of Theorem 4, if not an explicit proof. In connection
+ with the original 'Quotientenbildung', Maltsev cited van der Waerden's Moderne
+
+ Algebra. It is therefore not unreasonable to suggest that the inspiration for his 1937
+
+ work came from a reading of van der Waerden. The parenthetic German term in the
+
+ above quotation (as well as in one below) is also quite suggestive.
+
+ In spite of Maltsev's initial discussion of semigroups (which he probably included
+
+ because it became important later on, and was unlikely to have been entirely familiar to
+
+ <£) Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 09:55:57 UTC
+All use subject to https://about.jstor.org/terms
+
+ Embedding semigroups in groups 657
+
+ his readers), we can see from his title that the ring case was his main object of interest.
+
+ After stating the embedding problem for cancellative semigroups, he commented:
+
+ An analogous problem exists for rings, viz. can every ring without divisors of
+
+ zero (Nullteilern) be immersed in a field... ? (Malcev 1937, p. 686)
+
+ This is of course van der Waerden's problem, Maltsev's main concern: he constructed
+
+ a counterexample to demonstrate that the problem has a negative solution. The cor
+
+ responding counterexample for semigroups appeared as part of Maltsev's ring coun
+
+ terexample: he first constructed a cancellative semigroup Sj that cannot be embedded
+
+ in a group, and then constructed a ring without zero divisors around this. Since the
+
+ multiplicative semigroup of this ring contains fy, it cannot be embedded in a skew
+
+ field. Thus, in Maltsev's words, 'a problem mentioned by van der Waerden finds its
+ solution' (Malcev 1937, p. 687).
+
+ The key to Maltsev's counterexample(s) is his 'condition Z', which he introduced
+
+ in the first section of the paper:
+
+ Condition Z. For a cancellative semigroup f), if A, B, C, D, X, Y, U, V e Sj and
+
+ Maltsev proved immediately that condition Ζ is necessary for the embedding of a
+
+ cancellative semigroup in a group (Malcev 1937, p. 687):
+
+ Proof Suppose that Sj may be embedded in a group. We may therefore speak of inverses
+
+ of elements of Sj (within the group). This, in turn, means that we may rearrange the
+
+ AX = BY, CX = DY, AU = BV, (13)
+
+ then
+
+ CU = DV. (14)
+
+ expressions in (13), to obtain
+
+ B~1A = YX~\ D~lC = YX-\ B~lA = VU-\
+
+ which combine to give D~xC = VU~X. Further rearrangement yields (14). □
+
+ In general, however, condition Ζ is not sufficient (see, for example, the later counterex
+
+ ample of Holvoet 1959). Nevertheless, with the necessity of condition Ζ established,
+
+ Maltsev was able to outline his procedure for the construction of the required coun
+ terexample:
+
+ Hence [it] follows that if a [cancellative] semigroup Sj does not satisfy the con
+
+ dition Ζ then this semigroup can not be immersed into a group. In the next
+
+ [section] we shall construct a [cancellative] semigroup not satisfying the condi
+
+ tion Ζ (Malcev 1937, p. 687).
+
+ Note that Maltsev's counterexample also demonstrates that whilst cancellation may
+
+ be necessary for embedding, it is not, in general, sufficient.
+
+ Since it is reasonably straightforward, I outline here Maltsev's recipe for construct
+
+ ing his counterexample. First of all, we take all possible strings of the eight letters
+
+ a, b, c, d, x, y, u, ν and identify the following 'corresponding pairs' of letters:
+
+ £) Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 09:55:57 UTC
+All use subject to https://about.jstor.org/terms
+
+ 658 C. Hollings
+
+ ax <—*■ by, cx <—» dy, au <—► bv.
+
+ We may then use these relations to transform one string into another, by replacing
+
+ any of the above pairs of letters with their corresponding pair; Maltsev referred to this
+
+ procedure as an 'elementary transformation'. Two strings are deemed 'equivalent'
+
+ (denoted a ~ β, for strings α, β) if we may get from one to the other via a finite
+
+ sequence of elementary transformations; it is clear that this notion of 'equivalence' is
+
+ indeed an equivalence relation. Moreover, it is a congruence: if, for strings α, β, y, S,
+ we have a ~ β and γ ~ S, then ay = βδ, where the binary operation on strings is
+
+ concatenation. The congruence property then makes it possible for us to write down
+ a well-defined multiplication of equivalence classes:18 (α)(β) = (αβ), where (a)
+ denotes the equivalence class of a string a. With respect to this operation, the collection
+
+ 5) of all equivalence classes thus forms a semigroup, indeed, a cancellative semigroup.
+
+ Focusing, in the first instance, on equivalence classes of singleton strings, Maltsev
+ observed that condition Ζ does not hold in Sj: (a)(x) = (b)(y), (c)(x) = (d)(y) and
+ (a)(u) = (b)(v), but (c)(u) Φ (d)(v). It follows that fj may not be embedded in a
+
+ group. The counterexample in the ring case then consists of all linear forms ^ %i >
+
+ where X; € fj and k,· e Q, and only a finite number of the k, are non-zero. Maltsev thus
+
+ constructed a non-commutative ring without zero divisors which is not embeddable
+
+ in a skew field, and whose multiplicative semigroup is not embeddable in a group.
+
+ This later gave rise to a more subtle problem: are there rings which do not embed in
+
+ skew fields but whose multiplicative semigroups embed in groups? On this problem,
+ see Hollings (2014b, Sect. 5.5).
+
+ Maltsev's paper of 1937 merely marked the beginning of his comprehensive work
+
+ in this area. Indeed, it appears that even as early as 12th April 1936 (the date at the end
+
+ of the paper), Maltsev had already obtained the deeper results that we will consider in
+
+ Sect. 5, for we find the following in his introduction:
+
+ We have also found the necessary and sufficient conditions for the possibility of
+
+ immersion of a semigroup into a group. However these are too complicated to
+ be included in this paper (Malcev 1937, p. 687).
+
+ Although Maltsev's necessary and sufficient conditions are, in essence, of much the
+
+ same form as condition Z, the theory required to set them up is indeed rather compli
+ cated, as we will see.
+
+ 3.3 Sushkevich revisited
+
+ We conclude this section by returning briefly to Sushkevich. Following his material
+
+ on embeddings in Theory of generalised groups, Sushkevich does not appear to have
+
+ attempted to make any further contributions in this area. Quite how Sushkevich reacted
+
+ to Maltsev's disproof of his 'theorem' is something we will never know, although it is
+
+ interesting to note that the two of them almost certainly met on at least one occasion, in
+
+ 18 Indeed, this is what is going on in the background of the 'Quotientenbildung'. For more on this idea,
+ see Howie (1995, Sect. 1.5) or Hollings (2007).
+
+ £) Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 09:55:57 UTC
+All use subject to https://about.jstor.org/terms
+
+ Embedding semigroups in groups 659
+
+ 1939. On 13th—17th November of that year, an All-Union Conference on Algebra was
+
+ held in Moscow (see Anon 1940). During this conference, both Sushkevich and Malt
+ sev delivered lectures in the afternoon session of 16th November, one after the other.
+
+ Sushkevich began the session with a talk entitled, somewhat vaguely, On one type of
+ generalised group' ('06 οληομ Tune o6o6meHHhix rpynn'). Maltsev followed
+ with On extensions of associative systems' (Ό pacmnpeHHflx accomiaTHBHbix
+
+ cHCTeM'), in which he reported, amongst other things, his necessary and sufficient
+
+ conditions for the embeddability of a semigroup in a group. It would therefore be
+
+ rather surprising if Sushkevich had not been exposed to Maltsev's wider work here,
+ even if he had not encountered it earlier.
+
+ As a final comment on this matter, we note that there is in fact a small piece of
+
+ (admittedly, circumstantial) evidence to suggest that, in later years, Sushkevich tried
+
+ to disown his 1935 paper: it is the only significant omission from an otherwise quite
+
+ comprehensive publications list, in Sushkevich's own hand, that once comprised part
+
+ of his Kharkov State University personnel file, and which is now held by the Ukrainian
+
+ State Archives (Kharkiv Region).19
+
+ 4 Further sufficient conditions
+
+ We have already seen two conditions for the embeddability of a semigroup in a group:
+
+ Ore's sufficient condition My and Maltsev's necessary condition Z. Before considering
+
+ Maltsev's later work in this area, we temporarily abandon our hitherto chronological
+
+ account, and pause to consider some further sufficient conditions which were obtained
+
+ by various authors in the 1940s, the inspiration for several of which came from Ore's
+
+ original sufficient condition My.
+
+ 4.1 Right regularity: Paul Dubreil
+
+ The first author whom we will consider here is the French mathematician Paul
+
+ Dubreil.20 The study of semigroups in France owes it initial impetus to Dubreil's
+
+ work (see Hollings 2014b, Chap. 7); it is one of his early semigroup-theoretic papers
+
+ that concerns us here. In this paper, Dubreil considered not merely the possibility of
+
+ embedding a semigroup in a group, but also the manner in which the embedding may
+ be realised. A. H. Clifford and G. B. Preston, in their 1961 textbook The algebraic
+
+ theory of semigroups, commented:
+
+ Although [the semigroup version of] Ore's Theorem is phrased as a sufficient
+
+ condition for embeddability in a group, it was noted by Dubreil... that [Ore's
+
+ condition] is nonetheless a necessary and sufficient condition for the embedding
+
+ to be of [a] simple type (Clifford and Preston 1961, p. 36).
+
+ 19 Φ.Ρ-2782, on. 20, cnp. 572, apK. 10-12.
+
+ 20 For biographies of Dubreil, see Lesieur (1994) and Lallement (1995), and also the autobiographical
+ material contained in Dubreil (1981, 1983).
+
+ Ô Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 09:55:57 UTC
+All use subject to https://about.jstor.org/terms
+
+ 660 C. Hollings
+
+ Dubreil's study of embeddings began with a very short communication, 'Sur les
+
+ problèmes d'immersion et la théorie des modules', in Comptes rendus hebdomadaires
+
+ des séances de l'Académie des Sciences de Paris. Early in the paper, Dubreil acknowl
+
+ edged Maltsev's use of the necessary condition Ζ, before commenting in passing about
+
+ his necessary and sufficient conditions:
+
+ Subsequently, this author has given necessary and sufficient conditions for there
+
+ to exist a group containing a given [cancellative] semigroup.21
+
+ We can in fact say with some certainty that Dubreil's knowledge of Maltsev's work
+
+ came from van der Waerden and H. Richter, for Dubreil made the following acknow
+ ledgment:
+
+ This memoir [that is, Maltsev's paper of 1939] and its translation were kindly
+
+ communicated to me by Messrs. B. L. van der Waerden and H. Richter, to whom
+
+ I express my sincere thanks.22
+
+ The translation mentioned here was presumably an ad hoc, privately circulated one,
+
+ since it pre-dated the systematic translation of Soviet mathematical work by many
+
+ Maltsev's necessary and sufficient conditions, however, were not Dubreil's imme
+
+ years.
+
+ diate concern:
+
+ But another result of intermediate generality, and of particular interest for its
+
+ ease of handling and possibilities for application, was given in 1931 by O. Ore
+
+ 23
+
+ Dubreil next quoted Ore's Theorem (our Theorem 2), though he replaced Ore's 'reg
+
+ ular' by the new term right regular (régulier à droite); left regularity may be defined
+
+ similarly, in terms of common left multiples. Amongst Dubreil's observations con
+
+ cerning this condition is the fact that Maltsev's condition Ζ follows from right (or left)
+
+ regularity.
+
+ The major semigroup-theoretic result of Dubreil's paper, which he stated without
+
+ proof, follows, in part, from Theorem 2 (Dubreil 1943, p. 626):
+
+ Theorem 6 For a cancellative semigroup S to be contained in a group G, and for
+
+ every element ξ of G to admit at least one representation in the form ξ = a ■ b~l,for
+
+ a, b e S, it is necessary and sufficient that S be right regular.
+
+ Note that since the semigroup in this theorem is non-commutative in general, an
+
+ element of the form a ■ b~l ( a left fraction/fraction à gauche—so called for seemingly
+
+ 21 'Ultérieurement, cet auteur a donné des conditions nécessaire et suffisantes pour qu'il existe un groupe
+ contenant un semi-group donné' (Dubreil 1943, p. 626). Note that in his use of the term 'semi-groupe'
+ to mean a cancellative semigroup, Dubreil was almost certainly following de Séguier (1904), who had
+
+ originally coined the term for this notion (see Hollings 2009a, Sect. 3); Dubreil termed a general semigroup
+ a 'demi-groupe'.
+
+ 22 'Ce Mémoire et sa traduction m'ont été aimablement communiqués par MM. B. L. van der Waerden et
+
+ H. Richter, auxquels j'exprime mes sincères remerciements* (Dubreil 1943, p. 626, footnote 2).
+
+ 23 'Mais un autre résultat, d'un degré de généralité intermédiaire, et particulièrement intéressant par sa
+ maniabilité et ses possibilités d'application, a été donné dès 1931 parO. Ore ...' (Dubreil 1943, p.626).
+
+ "£) Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 09:55:57 UTC
+All use subject to https://about.jstor.org/terms
+
+ Embedding semigroups in groups 661
+
+ arbitrary reasons) is an entity distinct from an element of the form a-1 · b (a right
+
+ fraction/fraction à droite).
+
+ With regard to the above quotation from Clifford and Preston, Theorem 6 gives the
+
+ remarked-upon 'simple type' of an embedding: an embedding into the group of left
+
+ fractions. Thus, although right regularity is only sufficient for embedding in general,
+
+ it is both necessary and sufficient for embedding specifically into a group of left
+ fractions.
+
+ DubreiTs paper concludes with the statement of four theorems on right regular
+
+ rings, with a view, like in Ore's paper, towards the study of systems of linear equations
+
+ over a right regular ring; this goes some way towards explaining the second part of
+ DubreiTs title: 'the theory of modules'.
+
+ Such material on embeddings also appears in Dubreil's 1946 textbook Algèbre
+ (Chap. V, Part A, Sect. 1). The discussion here also takes in right regularity and
+
+ condition Z, but the presentation is a little different, if only cosmetically. Perhaps with
+
+ the intention of mirroring Maltsev, Dubreil (1946, p. 138) introduced the following
+ condition:
+
+ Condition C. Given a group G with subsemigroup S, every element ξ e G may be
+
+ written as a left fraction of elements of 5: ξ = ab~*, for a,b e S.
+
+ Theorem 6 may thus be rephrased more succinctly in terms of condition C.
+
+ Later in his section on semigroup embeddings, Dubreil considered formal right
+
+ fractions of semigroup elements in a slightly different setting, showing that they exhibit
+
+ the structure, not of a group, but of a Brandt groupoid—see Coutinho (2004, p. 272).
+
+ We note also that DubreiTs Algèbre contains what appears to be the first explicit proof
+ of Theorem 5.
+
+ 4.2 Left quasi-regularity: RaoufDoss
+
+ The next sufficient condition to be considered here is another that was derived from
+
+ Ore's original, and was due to Raouf Doss. Doss is one of our examples of a math
+ ematician who studied the embedding problem early in his career, and then never
+
+ returned to it again (the majority of his subsequent mathematical work was in Fourier
+
+ analysis). Moreover, he gave no indication of what inspired him to carry out this work,
+ or what led him to the condition contained therein.
+
+ Doss' contribution to this subject may be found in a paper entitled 'Sur l'immersion
+
+ d'un semi-groupe dans un groupe', published in 1948.24 Like other authors in this area,
+
+ Doss began with a brief summary of the previous embedding conditions obtained by
+
+ other authors, including Ore's sufficient condition, and Maltsev's necessary and suffi
+
+ cient conditions. He then gave a new condition, based upon that of Ore: a semigroup
+ S is called left quasi-regular (quasi-régulier à gauche) if, whenever two elements
+
+ a,b € S have a common left multiple, ra = sb, for some r,s e S, it is possible to
+
+ find r',s' € 5 such that r'a = s'b and at least one of r', s' has a common left multiple
+
+ 24 A detailed account of this paper, as well as a general discussion of the embedding problem, may be
+ found in a series of articles by Faisant (1971a, b,c, 1972).
+
+ "£) Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 09:55:57 UTC
+All use subject to https://about.jstor.org/terms
+
+ 662 C. Hollings
+
+ with every other element of S. The main, indeed only, result of Doss' paper is the
+
+ following (Doss 1948, p. 139):
+
+ Theorem 7 Every cancellative left quasi-regular semigroup can be embedded in a
+
+ group.
+
+ Since left quasi-regularity follows from left regularity, Theorem 6 may be obtained
+
+ as a corollary to Theorem 7. Doss' proof of the above theorem involves the verification
+
+ of a system of Maltsev conditions (see Sect. 5), and so it was necessary for him to give
+
+ a brief account of Maltsev's criteria for embeddability. To the best of my knowledge,
+ besides Maltsev's own, this is the earliest detailed account of Maltsev's conditions,
+
+ and it was praised by A. H. Clifford in Mathematical Reviews (MR0029384): 'The
+
+ author's clear statement of these conditions is very welcome'.
+
+ As already noted, Doss made no comment on his motivation for this study. His
+
+ condition is certainly a generalisation of Ore's, so perhaps Doss set out to find a more
+
+ general sufficient condition than that employed by Ore and Dubreil. He certainly had
+
+ new tools at his disposal for such an endeavour: his appears to be the first paper to
+ have made extensive use of Maltsev's conditions.
+
+ 4.3 Common multiples revisited: Thoralf Skolem
+
+ I conclude this section with the contributions of Thoralf Skolem to the embedding
+
+ problem. However, no new conditions will be given here: Skolem rediscovered Ore's
+
+ condition apparently independently.
+
+ Skolem's first statement of an embedding theorem for semigroups appears at the
+
+ beginning of his paper 'Some remarks on semi-groups' (Skolem 1951). Unfortunately,
+
+ it is a 'theorem' which, as we well know by now, is not true: Skolem asserted that every
+
+ cancellative semigroup can be embedded in a group. He attempted no detailed proof
+
+ of this result, merely stating: Ί will only give a hint of the proof of the... assertion'
+
+ (Skolem 1951, p. 43). His 'hint', sadly, is rather familiar to us from Sect. 3 : he suggested
+
+ the adjunction of formal inverses to the given semigroup, and arrived at alternating
+
+ products of the form:
+
+ a"1 be-1■■■ ,ab~lc
+
+ Thus, we see that Skolem fell into the same trap as Sushkevich: for Skolem, just as for
+
+ Sushkevich, there is no guarantee that the multiplication of such alternating products
+ is well-defined.
+
+ By the following year, however, Skolem appears to have spotted his mistake; he gave
+
+ the following result at the beginning of his paper Ά theorem on some semi-groups'
+
+ (Skolem 1952, p. 72):
+
+ Theorem 8 Let Η be a semigroup with left and right cancellation, and suppose that
+
+ every pair of elements has a common left (or right) multiple. Then Η can be embedded
+
+ in a group.
+
+ Ô Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 09:55:57 UTC
+All use subject to https://about.jstor.org/terms
+
+ Embedding semigroups in groups 663
+
+ This is of course a result which we know to be true, thanks to our study of the work
+
+ of both Ore and Dubreil. Perhaps not one to make the same mistake twice, Skolem
+
+ provided a full proof of this theorem. He proved it, as we might expect, via the con
+
+ struction of a group of fractions. Indeed, Skolem's proof is much the same as Ore's.
+
+ Any hint of motivation is, unfortunately, lacking. Skolem may not have had access to
+
+ a particularly wide range of foreign sources,25 but it is hard to believe that he did not
+
+ know about Ore's Theorem—not only because this seems to have been a well-known
+
+ result, and is perhaps the only common thread running through much of the work
+ considered so far, but also because Skolem had been Ore's supervisor, and it would
+
+ have been perfectly natural for him to have kept track of his former student's work. I
+
+ suggest therefore that, although he made no reference to Ore (indeed, Skolem does not
+
+ appear to have been one for extensive bibliographies), Skolem's proof of Theorem 8
+
+ was an attempt to fill what he perceived as a gap in the literature: a semigroup version
+
+ of Ore's Theorem. Given his apparent isolation, it is not unreasonable to suppose that,
+
+ apart perhaps from Ore's, Skolem had not seen any of the work we have studied so
+
+ far. That he had not seen Maltsev's is strongly suggested by a comment made after his
+
+ proof of Theorem 8, in reference to his earlier error:
+
+ In a previous paper... I set forth this theorem without the restriction that two
+
+ elements always possess a common left (or right) multiple. I doubt, however,
+
+ whether the theorem is generally true without the said restriction (Skolem 1952,
+
+ p. 77).
+
+ of Dubreil's:
+
+ A further remark tells us that Skolem's work was indeed carried out in ignorance
+
+ After this note was printed I got acquainted with the fact that the above theo
+
+ rem has been proved before. Indeed a treatment of this matter can be found in
+
+ P. Dubreil Algèbre... It is a pity that I did not know this earlier, because I would
+
+ then instead of this note have written something about the more difficult case
+
+ when common left or right multiples do not always exist (Skolem 1952, p. 77).
+
+ Skolem does not appear to have returned to this subject ever again (at least not in
+
+ print)—perhaps he subsequendy 'got acquainted' with Maltsev's work as well?
+
+ 5 Maltsev's embeddability conditions
+
+ Anatolii Ivanovich Maltsev (1909-1967) was born near Moscow, and studied mathe
+
+ matics at Moscow State University in the early 1930s.26 Upon graduation, he took a
+
+ teaching post at Ivanovo State Pedagogical Institute (now Ivanovo State University),
+
+ at which institution he remained until 1960, when he moved to the newly founded
+
+ 25 His papers were published mostly in Norwegian journals, and have thus not been widely available
+ internationally (see Fenstad 1996); we may speculate that the opposite was also true and that Skolem did
+
+ not have wide-ranging access to foreign sources.
+
+ 26 A non-exhaustive list of biographical articles on Maltsev is: Aleksandrov et al. (1968), Anon (1989),
+ Dimitrié (1992), Gainov et al. (1989), Khalezov (1984), Kurosh (1959), Malcev (2010) and Nikolskii(1972).
+ Maltsev also features in Sinai (2003, pp. 559-560).
+
+ Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 09:55:57 UTC
+All use subject to https://about.jstor.org/terms
+
+ 664 C. Hollings
+
+ Novosibirsk State University. Ivanovo's proximity to Moscow enabled Maltsev to
+
+ travel regularly into the city to discuss his burgeoning research work, principally on
+
+ mathematical logic, with A. N. Kolmogorov, who was eventually able to arrange a
+
+ Moscow research studentship for Maltsev. Biographies of Maltsev stress the influence
+
+ that Kolmogorov had upon him. In particular, Aleksandrov et al. (1968, English trans
+
+ lation, p. 157) note that Maltsev's 1937 paper, which we discussed in Sect. 3, was 'the
+
+ solution of a problem raised by Kolmogorov'.
+
+ The necessary and sufficient conditions (for the embedding of a cancellative semi
+
+ group in a group) which Maltsev merely hinted at in his 1937 paper appeared instead in
+
+ a Russian paper of 1939, entitled On the immersion of associative systems in groups'
+ (Ό BKJiKmeroiH accomraTHBHUx cucTeM β rpynnbi').27 As the title suggests,
+ semigroups were now studied for their own sake, rather than as a means to an end, as
+
+ had been the case in the earlier paper.
+
+ An interesting feature of Maltsev's 1939 paper is his choice of terminology. Rather
+
+ than following Sushkevich (and Schmidt), as he might have done, by taking the Russian
+
+ equivalent of the term 'semigroup' (= 'nojiyrpynna'), he instead adopted the name
+ that appears in the title of his paper: 'associative system' ('accoirnaTHBHafl chc
+
+ TeMa'). Some years later, this term would be adopted, for a short period, by other
+
+ Russian authors for the modern general notion of a semigroup (see Hollings 2014b,
+
+ Chap. 9), but for Maltsev it denoted a cancellative semigroup. He justified his interest
+
+ in such objects by pointing to their appearance as the purely multiplicative parts of
+
+ certain rings, and also made the following remarks concerning groups:
+
+ Some problems of the theory of groups are connected with the properties of
+
+ associative systems. However, for a solution of these problems, a more thorough
+ study is needed of the conditions under which a given associative system may
+
+ be considered as part of some group.28
+
+ However, Maltsev gave no indication of the 'problems of the theory of groups' that
+ he had in mind.
+
+ With the context of earlier work in this area established, I will now give a brief sketch
+
+ of the necessary and sufficient conditions set forth by Maltsev for the embeddability of a
+
+ cancellative semigroup in a group. However, since Maltsev's presentation is somewhat
+
+ brief in places, I do not propose to follow his original exposition slavishly. Instead, I
+
+ will follow that of a Canadian mathematician, George C. Bush, which appeared in a
+
+ PhD thesis of 1961 and then in a paper of 1963. Bush's presentation is particularly clear,
+
+ 21 Although, as noted in the introduction, I use the terms 'embed/embedding/embeddability' elsewhere, I
+ nevertheless choose to translate 'BKJitoneHiie' as 'immersion' here, rather than 'inclusion' or 'insertion',
+
+ in order to mirror Maltsev's own English terminology in Malcev (1937). Another often-used Russian word
+ for 'embedding'/'imbedding' is 'BMememie' ('containment'), but this word only seems to have come
+
+ into use in this context with later papers (see Schein 1961, for example). Other terms are 'norpynceHne'
+ ('immersion'), as used in Lyapin (1960). and 'BJioHceHne' ('enclosure'), as used in the Russian translation
+ of Clifford and Preston (1961).
+
+ 28 'HeKOTOtie npoojieMU τβορκΗ rpynn tîuokc cBttsaHbi co cuoMcTBaMH accomiaTHBHiJx
+ CHCTeM. Οληεκο. am pemeHne βτηχ προβηβΜ ηθο6χολημο ÔOJiee TmaTeMHoe H3yneHHe
+ ycAOBHh, πρη κοτορυχ a&hhm accomtaTHBHan cncTeMa mo/Kct 6μτβ ρ ac c. m at ρ hb aeM a Kan
+ nacTb Ηβκοτοροϋ rpynnbi' (Maltsev 1939, p. 331).
+
+ <£) Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 09:55:57 UTC
+All use subject to https://about.jstor.org/terms
+
+ Embedding semigroups in groups 665
+
+ and has the virtue of using much of Maltsev's original notation and terminology.29
+
+ Aside from his amplification of certain parts of Maltsev's proofs, Bush also made some
+
+ original contributions in this area, which we will come to in due course (Sect. 8).
+
+ Let 21 be a cancellative semigroup with identity element e. For each χ e 21, we
+
+ introduce new elements x+ and x~, not in 21. In Maltsev's original paper, x~ was
+
+ an ideal element of the first kind {udeaAbnuu OAeMenm nepeozo poda), whilst x+
+
+ was an ideal element of the second kind (udeaAbHbiU dAeMewm emopozo poda); to
+
+ Bush, x+ was the formal right element associated with x, whilst x~ was the formal
+
+ left element.
+
+ Let S denote the collection of all finite strings made up of elements from 21
+
+ and of ideal elements of both kinds. We permit certain elementary transformations
+
+ (oAeMewnapHbie npeo6pa3oeaHiisf) on strings in S, for any χ e 21:
+
+ (a) we may insert either x~x or xx+ between any two adjacent entries in a string;
+
+ (β) we may delete x~x and jcjc+ from a string;
+
+ (γ) for a, b e 21 with ab = c, if a and b appear as adjacent entries in a string, then
+
+ (5) if a e 21, and a = be, for some b, c € 21, then we may replace any appearance of
+
+ we may replace them by c;
+
+ α in a string by be.
+
+ As in Sect. 3.2, two strings are deemed equivalent if we can get from one to the
+
+ other via a finite sequence of elementary transformations; Maltsev termed such a
+
+ sequence of transformations a chain (penouκα). Once again, this 'equivalence' is in
+
+ fact a congruence, and so we may multiply equivalence classes in a sensible way. It
+
+ may then be shown that the collection 0 of all equivalence classes forms a group
+
+ with respect to this multiplication. This notion of equivalence may also be applied to
+
+ elements of 21: these are simply the strings in 5 that contain no ideal elements of either
+
+ kind. Moreover, by (y) above, any such string may be reduced to a singleton string.
+
+ In this connection, Maltsev (1939, p. 332) noted the following lemma for future use:
+
+ Lemma 1 The cancellative semigroup 21 may be embedded in a group if and only if
+
+ distinct elements of Hi are not equivalent.
+
+ Bush (1963a, Lemma 1) later turned this result around and stated it as: 21 may be
+ embedded in a group if and only if equivalent elements of 21 are also equal. We can
+
+ see that if equivalent elements are indeed equal, then 0 contains a copy of 21.
+
+ Maltsev recognised, however, that, when considering chains of elementary trans
+
+ formations, we may in fact restrict our attention to those of a particular type, which
+
+ he termed a normal chain of transformations (HopMaAbHOH ν,εηοηκα npeodpaa
+
+ oeanuii): a chain of elementary transformations, during whose application no trans
+
+ formations occur to the left of any ideal element of the first kind, or to the right of
+
+ any ideal element of the second kind. Introducing a new notion of equivalence (one
+
+ for chains, rather than strings), Maltsev considered two chains to be equivalent if they
+
+ have the same initial and final strings. Combining this with the notion of a normal
+
+ chain, we have the following:
+
+ 29 More specifically, the notation used in Bush (1961) is more or less identical to that of Maltsev; the
+
+ notation used in Bush (1963a) is somewhat simpler. Other accounts of Maltsev's conditions may be found
+ in Clifford and Preston (1967, Sect. 12.6) and Cohn (1965, Sect. VII.3).
+
+ Ώ Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 09:55:57 UTC
+All use subject to https://about.jstor.org/terms
+
+ 666 C. Hollings
+
+ Theorem 9 Every chain of transformations whose initial and final strings are ele
+
+ ments o/2l ( that is, strings which contain no ideal elements of either kind) is equivalent
+
+ to some normal chain (Maltsev 1939, p. 332).
+
+ It is clear that if a chain of elementary transformations is applied to an element
+
+ of 21, with the result also being an element of 21, then any ideal elements that are
+
+ inserted during this process must at some later point be deleted. A chain of elementary
+
+ transformations therefore determines a sequence of insertions and deletions of ideal
+
+ elements, a sequence which, as we will see below, assumes a particularly simple form
+ in the case of a normal chain.
+
+ At this point in his paper, Maltsev modified his notation. He introduced the symbols
+
+ Ai, at, Bi, bi, Ri, r,·, L,·, /,· (i = 1,2,...), with the assumption that these may be used
+
+ to represent all elements of the given cancellative semigroup 21. Notice that, although
+
+ Maltsev made no explicit statement to this effect, his new notation implies that 21 is
+
+ countable. In addition to the above symbols, Maltsev introduced the symbols I*, L*
+
+ (i = 1,2,...) to stand for ideal elements of the first and second kinds, respectively.
+
+ Maltsev's intention was to use this new notation to represent any sequence of insertions
+
+ or deletions of ideal elements; this sequence would then, in turn, define a (normal) chain
+
+ of elementary transformations. With the restriction to normal chains, it is clear that
+
+ any such sequence of insertions and deletions must contain an even number elements,
+ since there must be the same number of insertions of ideal elements as deletions. A
+
+ sequence of η insertions and η deletions in a normal chain may be represented by a
+
+ 2n-tuple via the following method:30
+
+ - an insertion of L*L, is denoted by L;;
+
+ - an insertion of If* is denoted by /,·;
+
+ - a deletion of L*L, is denoted by L*\
+
+ - a deletion of If* is denoted by I*.
+
+ Thus, to reproduce an example given by Bush (1961, p. 22) the sequence
+
+ insert L*Li, insert/,·/*, delete L*L;, delete If*,
+
+ is represented by the quadruple (L,, /,·, L*, /*). To any 2n-tuple constructed in this way,
+
+ Maltsev gave the name l-chain (Ι-υ,εηοΗκα). For later use, we observe that /-chains
+
+ are subject to the following restrictions:
+
+ (1) no Lj or /,· can appear more than once;
+
+ (2) L* appears if and only if L,· appears; If appears if and only if /, appears;
+
+ (3) L* cannot appear before L, ; If cannot appear before /,· ;
+ (4) if L* appears, and Lk is the nearest L,· to the left of L* for which L* has not yet
+
+ appeared, then j = k\ similarly for I*.
+
+ The above comments outline a procedure for the construction of /-chains from
+
+ normal chains of elementary transformations. The reverse construction is also possi
+
+ ble. Recall that S denotes the collection of all strings which feature elements of the
+
+ 30 This part of the discussion is drawn from Bush ( 1 % 1 ). Bush termed these 2 η -tuples I-sequences', Clifford
+
+ and Preston (1967, Sect. 12.6) referred to them as Malcev sequences.
+
+ Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 09:55:57 UTC
+All use subject to https://about.jstor.org/terms
+
+ Embedding semigroups in groups 667
+
+ cancellative semigroup 21 together with ideal elements of both kinds. The 21 -operable
+
+ portion of a string in S is that segment of the string which lies between (but does not
+
+ include) the rightmost ideal element of the first kind and the leftmost ideal element of
+
+ the second kind.31 If the string in question contains no ideal elements of the first kind,
+
+ then the 2l-operable portion extends to the end of the string; if it contains no ideal
+
+ elements of the second kind, then the 2l-operable portion extends to the beginning of
+
+ the string.
+
+ Suppose now that we are given an /-chain of insertions and deletions of ideal
+
+ elements; this is of course subject to restrictions (1)—(4) above. The procedure for
+
+ constructing a chain of elementary transformations is as follows, where we consider
+
+ each of the entries in the /-chain in turn, from left to right:
+
+ - whenever L, appears in the /-chain, we replace the 2l-operable portion of the current
+
+ string by /?,· A, and insert L*L, to obtain /?,L*L,A,;
+
+ - whenever /,· appears in the /-chain, we replace the 2l-operable portion of the current
+
+ string by am and insert /,·/* to obtain a,7,7*r,·;
+
+ - whenever L* appears in the /-chain, we replace the 2l-operable portion of the current
+
+ string by to get and then delete L*L,· to obtain /?, 5, ;
+
+ - whenever If appears in the /-chain, we replace the 2l-operable portion of the current
+
+ string by i>,7, to get />,/,/*r;, and then delete /,/* to obtain bm.
+
+ This mutual constructibility of /-chains and chains of elementary transformations
+
+ is in fact one of the aspects of Maltsev's work that Bush felt the need to amplify:
+
+ these ideas are implicit in Maltsev's paper, but were only made explicit by Bush.
+
+ Nevertheless, Maltsev gave an example of the above procedure by applying it to the
+
+ /-chain (l\, L\, L2, /*, L\, L*)\ he took the empty string as the starting point for the
+ corresponding (normal) chain of elementary transformations (Maltsev 1939, p. 335;
+
+ see also Bush 1961, p. 24):
+
+ am -» a\l\l*r\ -► /Mi/fri
+
+ -» R\L*L\A\l*r\ -> RxL\R2A2l\rx
+ -*■ RxL\R2L\L2A2l\rx -> RxL\R2L\bxlxl\rx
+ ->· RxL*,R2L\bxrx -* R\L*R2L\L2B2
+ - r!l'k'b2-*
+
+ R\B\
+
+ Although we have yet to take any account of their nature as elements of 21, we
+
+ nevertheless recall at this point that this is precisely what the symbols A/, a/, B;, /»,·,
+
+ Rj, r,·, Li, li represent. We recall also that any chain of elementary transformations,
+
+ normal or otherwise, may contain applications of the rule for multiplication for 21, or,
+
+ to put this a different way, instances of transformations of the types (y) and (5) in
+
+ our earlier list. In fact, if we look at the above example, we see changes taking place
+
+ that may be interpreted as just such transformations. For example, in moving from the
+
+ second string (axlxl*rx) to the third (Rx Axl*ri), a\l\ has been transformed into R\ Ai.
+
+ Similar transformations occur in the transition from the fourth string to the fifth, the
+
+ 31 It should be noted that this terminology was introduced by Bush, and was not used by Maltsev.
+
+ Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 09:55:57 UTC
+All use subject to https://about.jstor.org/terms
+
+ 668 C. Hollings
+
+ sixth to the seventh, the eighth to the ninth, and the tenth to the eleventh. Thus, if the
+
+ symbols A,·, a,·, />,·, Rj, r,·, L,·, /; are indeed to represent elements of 21, then we
+
+ need to assume the following relationships amongst them:
+
+ ail\ = R\A\, L\A\ = R2A2, L2A2 = b\l\, b\r\ = L2B2, R2B2 = L\B\. (15)
+
+ Another simple consequence of the above example is the fact that a\r\ and R\B\
+
+ are in fact equivalent, in the sense that they are connected by a chain of elementary
+ transformations. It therefore follows from Lemma 1 that if 21 can be embedded in a
+
+ group, then
+
+ R\B\=a\rx. (16)
+
+ For Maltsev, any collection of equations of the form (15) (that is, a system of equations
+
+ corresponding to a normal chain of elementary transformations) was a normal system
+
+ of equations (HopMojibHcur cucmeMa paenecmë); the related equation (16) was the
+
+ completing equation (3aMUKanoe paeencmeo).32 If 21 can be embedded in a group,
+
+ then the completing equation follows from the normal system of equations. Later
+
+ writers have often adopted the term Maltsev (or, indeed, Malcev) condition for the
+
+ implication of a completing equation by a normal system of equations.
+
+ Maltsev's 1939 paper contained no general proof of the methods outlined above;
+
+ as already indicated, it was necessary for Bush later to fill in many of the details.
+
+ Another process that received only an outline in Maltsev's work was a shorter proce
+
+ dure for constructing a normal system of equations from a given /-chain, which avoided
+
+ the need to write out chains of elementary transformations explicitly. However, I do
+
+ not reproduce this method here—I instead refer the interested reader to Bush (1961,
+ pp. 26-27).
+
+ To summarise those of Maltsev's ideas that I have outlined here: if a cancellative
+
+ semigroup 21 can be embedded in a group, and if some collection of elements of 21
+ satisfies a normal system of equations, then those same elements must also satisfy
+
+ the corresponding completing equation. Conversely, if some elements of 21 satisfy a
+
+ normal system of equations, then they also satisfy the completing equation. But then
+
+ for any normal chain of transformations, the initial and final strings are equal. In other
+
+ words, equivalent elements are equal. By Lemma 1 and Theorem 9, this is a sufficient
+
+ condition for 21 to be embedded in a group. We therefore have the following:33
+
+ Theorem 10 (Maltsev's Embeddability Theorem) For a cancellative semigroup 21 to
+
+ be embedded in a group, it is both necessary and sufficient that, whenever certain
+
+ elements o/2l satisfy some normal system of equations, the corresponding completing
+
+ equation is also satisfied.
+
+ Since there are infinitely many possible /-chains, each giving rise to a Maltsev con
+
+ dition, it follows that a cancellative semigroup must satisfy an infinite set of conditions
+
+ 32 Clifford and Preston (1967, Sect. 12.6) subsequently referred to this as the locked equation; to them, a
+
+ normal system of equations was a Malcev system.
+
+ 33 Maltsev (1939, p. 335); see also Bush (1963a, Theorem 2) and Clifford and Preston (1967, Theo
+ rem 12.17).
+
+ £j Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 09:55:57 UTC
+All use subject to https://about.jstor.org/terms
+
+ Embedding semigroups in groups 669
+
+ in order to be embeddable in a group. This is indeed a far cry from the simplicity of
+
+ Sushkevich's supposed solution to the problem.
+
+ Maltsev did little but sketch the above ideas in his 1939 paper. However, in his
+
+ concluding paragraphs, he briefly suggested an interesting way in which Maltsev
+
+ conditions may be used as a means of classifying semigroups. With reference to
+
+ the infinite set of conditions needed to ensure embeddability, he made the following
+ remark:
+
+ If it is demanded that only part of these conditions are fulfilled, we obtain an
+
+ associative system, more or less approximating a group.34
+
+ By way of illustration, he considered the conditions arising from the simplest possible
+
+ /-chains. That derived from (/,/*), for example, is simply the cancellation law. Indeed,
+
+ this is the simplest possible Maltsev condition. Moreover, the Maltsev condition that
+ arises from the /-chain (/, L, /*, L*) is none other than Maltsev's 1937 condition Ζ
+
+ (see Sect. 3.2). The cosmetic similarity that the reader may have noticed between
+
+ condition Ζ and the general form of a Maltsev condition is therefore no coincidence.
+
+ Maltsev touched only briefly upon this possible classification of semigroups via
+
+ Maltsev conditions, for he recognised that an important component of any such theory
+
+ was missing:
+
+ open.
+
+ For a rigorous execution of the classification outlined here, it is necessary to
+
+ investigate the independence of the given conditions. Such independence is easily
+
+ studied for the simplest chains, for example, those containing only one ideal
+
+ element of the 1st kind. However, in its general form, the question remains
+
+ Indeed, the question of the independence of Maltsev conditions was addressed by
+
+ Maltsev in a paper published the following year: 'On the immersion of associative
+
+ systems in groups Π'. Also considered in this subsequent work was the problem of
+ finding a minimal extension (MUHUMaAmoe paciuupenue) of a given cancellative
+ semigroup: if a cancellative semigroup 21 can be embedded in a group <S, then the
+
+ embedding is said to be minimal if 21 is not contained in any proper subgroup of <5.
+
+ However, I will not go into this material here, but will focus instead on the question
+ of independence.
+
+ Let 21 be a cancellative semigroup that is defined by a presentation36 (R\S). For
+ Maltsev, a simple consequence (npocmoe CAedcmeue) of S was any relationship
+ between products of positive powers of generators from R that holds in 21. Thus, for
+
+ a semigroup that can be embedded in a group, the completing equation is a simple
+
+ consequence of the corresponding normal system of equations.
+
+ 34 'Ecjih noTpeôoBaTb. mtoôij BunojiHBJiacb tojikko MacTi. btkx ycjioBHft, το noaywrcH
+ accoRHaTHBHaa CHCieMa, ôojiee hjih ΜβΗββ npH6jiH«atomaHCH κ rpynne' (Maltsev 1939, p. 336).
+
+ 35 'IUh ΟΤρΟΓΟΓΟ ΠρΟΒβΛβΗΗΒ HaMCTeHHOS 3AeCI> KJiaCCH({>HKaUHH ΗΘΟβχΟΛΗΜΟ HCCJle
+ AOBaTt He3aBHCHMocTB yKa3aHHux ycaoBHft. TaKaa He3aBncnMOCTL jierKo H3yiaeTca am
+ npocTeitmHX ΐίβποιβκ, HanpHMep, C0Aepa<amnx tojibko oahh aaeajibHuii θΛβΜβΗΤ 1-ro po,na.
+ Οληεκο, β o6meM BHAe Bonpoc ocTaeTCH οτκρωτΗΜ' (Maltsev 1939, p. 336).
+
+ 36 Note that the '{■[-)' notation was not used by Maltsev.
+
+ Ô Springe
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 09:55:57 UTC
+All use subject to https://about.jstor.org/terms
+
+ 670 C. Hollings
+
+ As in the 1939 paper, /-chains, now renamed schemes (cxeMU), were Maltsev's
+
+ main tools for approaching Maltsev conditions. We shall say that a scheme is fulfilled
+
+ (eunoAHeHHuu) if the corresponding Maltsev condition holds. Moreover, the normal
+
+ semigroup (HopMcuibncur noAyzpynna) of a scheme is the semigroup that is generated
+
+ by the symbols appearing in the normal system of equations corresponding to that
+
+ scheme, and which has those equations as its defining relations. A scheme is irreducible
+
+ {nenpueoduMuii) if none of its proper segments is a scheme. Finally, an irreducible
+
+ normal system (nenpueoduMasr HopMaAbHa.fr cucmeMa) is the normal system of
+
+ equations associated with an irreducible scheme. Using these various notions, Maltsev
+
+ proved the following (Maltsev 1940, Theorem 3(1); see also Bush 1961, Lemma 6.6):
+
+ Lemma 2 The completing equation of an irreducible normal system is not a simple
+
+ consequence of the system: it does not hold in the corresponding normal semigroup.
+
+ But if the normal semigroup in question is to be embedded in a group, then the
+
+ completing equation needs to be a simple consequence of the corresponding normal
+
+ system. Hence, (see Bush 1961, Lemma 6.7):
+
+ Lemma 3 The normal semigroup of an irreducible scheme cannot be embedded in a
+
+ group.
+
+ Recall that schemes (/-chains) were introduced earlier as 2n-tuples, since they
+
+ contain an equal number of insertions and deletions of ideal elements. Maltsev defined
+
+ the length (dnuHa) of such a scheme to be n, and employed this notion in the following
+
+ result, whose proof calls upon Lemma 2 (Maltsev 1940, Lemma 4; see also Bush 1961,
+ Theorem 6.1):
+
+ Theorem 11 No irreducible scheme of length η can be a consequence of schemes
+
+ whose lengths are less than n/2.
+
+ The essential purpose towards which Maltsev was building with these various ideas
+
+ was the consideration of finite sets of Maltsev conditions. Suppose that we have such
+ a set of conditions. Each condition may be represented by the fulfilment of some
+
+ scheme. We suppose that the longest scheme amongst these has length n. Let 21 be
+
+ the normal semigroup of some scheme of length 2η + 2. By Lemma 3,21 may not be
+
+ embedded in a group. However, all schemes of lengths less than or equal to η must be
+
+ fulfilled in 21 (this may be proved in a similar manner to Theorem 11). We see then
+
+ that although 21 satisfies a finite set of Maltsev conditions, it cannot be embedded in
+
+ a group. In this way, Maltsev arrived at the following:37
+
+ Theorem 12 No finite set of Maltsev conditions is sufficient for the embeddability of
+
+ a cancellative semigroup in a group.
+
+ We have seen then, in what is perhaps the most exhausting section of this paper, that
+
+ Maltsev's conditions for embeddability are far from simple: not because the individual
+
+ Maltsev conditions are complicated (they are certainly not), but because there are
+
+ 37 Maltsev (1940, Theorem 4); see also Bush (1961, Theorem 6.2) and Clifford and Preston (1967,
+ Sect. 12.8).
+
+ Ô Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 09:55:57 UTC
+All use subject to https://about.jstor.org/terms
+
+ Embedding semigroups in groups 671
+
+ infinitely many of them. Moreover, Theorem 12 tells us that this is a feature of Maltsev's
+
+ embedding results that cannot be bypassed. Indeed, this has had an effect on the
+
+ 'usability' of Maltsev's work; it led, for example, to the search for more manageable
+
+ (sufficient) conditions, such as those that we saw in Sect. 4. This is a point to which I
+
+ will return in Sect. 9. However, it is possible to find necessary and sufficient conditions
+ in a more 'closed' form, as we will see in the next section.
+
+ 6 Ptak's embeddability condition
+
+ In this section, we will consider a slightly lesser-known contribution to the problem of
+
+ embedding semigroups in groups: that of Vlastimil Ptâk. This work is not widely cited
+
+ by other authors—it was published in Czechoslovakia and may therefore not have been
+
+ easily available to other researchers internationally (despite Ptak's obvious efforts to
+
+ spread awareness of his work—see below). The work of Lambek, for example, which
+
+ we will see in the next section, appeared after Ptâk's but contains no reference to it.
+
+ However, Clifford and Preston were well aware of Ptâk's work and included a summary
+
+ of it in their chapter on embeddings (Clifford and Preston 1967, Sect. 12.3). Ptâk's
+
+ work is a little easier to grasp than that of Maltsev, and relies largely upon familiar
+
+ group-theoretic notions, particularly normal subgroups. At least superficially, Ptâk's
+ solution is 'algebraic', whereas Maltsev's is 'logical'.
+
+ Vlastimil Ptâk was born in Prague in 1925.38 He studied mathematics and physics
+
+ at Charles University from 1945 to 1948, at the same time working as an assistant
+
+ at the Czech Technical University. Upon completion of his undergraduate studies,
+
+ Ptâk became a research student of the topologist Miroslav Katëtov. In 1952, he joined
+
+ the Mathematical Institute of the Czechoslovak Academy of Sciences (or the Central
+
+ Mathematical Institute, as it was then called); he obtained his candidate degree39 in
+
+ 1955 (which appeared in print as Ptâk 1953b, c), followed by his doctoral degree in
+ 1963. Ptâk rose through the academic ranks and became a full professor at Charles
+
+ University in 1965. From 1960 until his retirement, he was head of the Department of
+
+ Functional Analysis at the Mathematical Institute. Ptâk died in 1999.
+
+ The vast majority of Ptâk's work was in functional analysis; in 1966 he was awarded
+
+ the Czechoslovak Federal Prize for his work in this area. Indeed, this is the work upon
+
+ which his various biographers focus—his study of embeddings is not mentioned at
+
+ all in any of the biographies I have seen. As with many of the other mathematicians
+
+ mentioned in this article, Ptâk only considered the problem of embedding semigroups
+
+ in groups at the very beginning of his career, and then only briefly. Unlike some of
+
+ the others, however, Ptâk's work in this direction does not appear to have originated
+
+ in a dissertation. In his writing, he gave no indication of what brought him to this
+
+ area, although he began his account of the problem by mentioning van der Waerden's
+
+ 38 There is a particularly large number of biographical articles on Ptâk, including: Anon (2000), Fiedler
+ (2000), Fiedler and Millier (2000a, b), VavHn (1995, 1996a, b) and Vibovâ (1985).
+
+ 39 The candidate of sciences degree is an Eastern European qualification, equivalent to a Western PhD; it
+
+ is often followed, as in Ptâk's case, by a higher research degree, the doctor of sciences, which is sometimes
+
+ compared with a DSc, or a German Habilitation.
+
+ Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 09:55:57 UTC
+All use subject to https://about.jstor.org/terms
+
+ 672 C. Hollings
+
+ Moderne Algebra, so this may have been his starting point, as it seems to have been
+
+ for Maltsev. In a 1953 summary of Ptâk's work on embeddings, we find:
+
+ This problem is very important in algebra simply because any ring without
+
+ divisors of zero, after removing the element 0, becomes a semigroup with respect
+
+ to multiplication.40
+
+ In the same paragraph, Ptâk hinted at possible applications in analysis: he mentioned,
+
+ somewhat vaguely, and without specific reference, an embedding theorem due to
+
+ Wintner concerning a semigroup connected with linear differential equations with
+
+ analytic coefficients. He noted that:
+
+ The importance of similar results for analysis is obvious.41
+
+ However, I have been unable to identify the relevant work of Wintner.
+
+ Ptâk's contributions to the problem of embedding semigroups in groups are con
+
+ tained in three papers (Ptâk 1949, 1952, 1953a). However, the content of the three is
+
+ more or less the same. The original material appeared in English in the first of the three
+
+ (1949), whilst the second and third papers are Russian and Czech versions, respec
+
+ tively, of the first.42 Ptâk evidently wanted his work to reach a wide audience. The
+
+ noteworthy thing about Ptâk's work is that, although it was published in 1949, a full
+
+ decade after Maltsev's embeddability conditions, Ptâk was still not aware of the full
+
+ extent of Maltsev's work—he seemingly knew only about the counterexample of 1937.
+
+ Ptâk began his 1949 paper, 'Immersibility of semigroups', with what would appear
+
+ to be a summary of his knowledge of the subject, going back to the problem's origins
+ with van der Waerden:
+
+ In elementary textbooks on algebra a well-known theorem is proved, stating that
+
+ every commutative ring without divisors of zero may be imbedded in a field.
+ In the first edition of his Moderne Algebra van der Waerden mentioned the
+
+ following problem: Is the same possible even for non-commutative rings without
+ divisors of zero?...
+
+ This problem is evidently closely connected with the question concerning the
+
+ existence of a group containing a given non-commutative semigroup. This sec
+
+ ond problem was solved by M. Malcev [mc] ... (Ptâk 1949, p. 3).
+
+ 40 'Tento problém je dâulefity ν algebïe samé ji2 proto, 2e ka2dy okruh bez dëlitelâu nuly se stane po
+
+ odstranëni prvku 0 semigrupou vzhledem k nâsobem" (Ptëk 1953a, p. 259). In fact, the removal of 0 is not
+
+ necessary.
+
+ 41 "Vyznam podobnych v^sledkâu pro analysu je nasnadë' (Ptâk 1953a, p. 260).
+
+ 42 AU three papers carry (essentially) the same title, but in different languages: 'Immersibility of semi
+
+ groups' in English, Ό βκλκήθηημ ceMHrpynn' in Russian, and 'Vnoritelnost semigrup' in Czech (for
+ some comments on the terminology used in these titles, see note 44 below). Excluding blank pages, the
+
+ English version is 14 pages long. The Russian version is 22 pages in length—the extra pages are accounted
+
+ for by the fact that this version was expanded very slightly (in particular, some comments were added
+
+ which draw connections with Maltsev's work), and the fact that the typeface is slightly larger with respect
+
+ to the page than in the English version. The Russian version also features a further 3 pages of English
+
+ summary. The Czech version is a slightly modified Czech translation of the English summary from the
+ Russian version. We note also the existence of a 1 page French summary of Ptâk's work, based upon the
+
+ Russian version: Thibault (1953b, p. 10).
+
+ â Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 09:55:57 UTC
+All use subject to https://about.jstor.org/terms
+
+ Embedding semigroups in groups 673
+
+ The work by Maltsev that is cited here is of course that of his 1937 paper, which
+
+ we saw in Sect. 3.2. The incorrect initial given to Maltsev in the above quotation may
+
+ be an indication that Ptâk was merely aware of Maltsev's work, but had not actually
+ seen it.43 However, there is an indication that something very specific in Maltsev's
+
+ work provided inspiration for Ptak's. He noted that
+
+ Malcev found a necessary condition that a semigroup be immersible and con
+
+ structed a semigroup not satisfying that condition (Ptâk 1949, p. 3).
+
+ Ptâk was of course referring to condition Ζ here. He did not quote this condition in
+
+ his original work of 1949, but it does appear in the 1952 Russian version, labelled as
+
+ 'condition (M)'. This condition was apparently a source of inspiration for Ptâk; in the
+
+ English summary appended to the 1952 paper, he commented:
+
+ The author's condition is a generalization of the condition (M). By generalizing
+
+ the condition of Malcev it is easy to see, that the following condition is necessary
+
+ for a semigroup to be immersible.
+
+ (M') If [a cancellative semigroup] S contains several elements a\,..., an which
+
+ fulfill some relations, then any relation between the elements a\ an
+ which may be deduced from the given relations in a group, must hold in
+ 5, too.
+
+ If this condition is violated, the semigroup S evidently cannot be imbedded in a
+
+ group. The purpose of the [1949] paper... was to show that this is the only way
+
+ how that can happen, that is to show that the condition mentioned is sufficient
+
+ as well (Ptâk 1952, p. 269).
+
+ This rather vague statement of intent was made precise in due course.
+
+ Returning our attention to the 1949 paper, we see that Ptâk went on:
+
+ On the other hand, there is a sufficient condition found by O. Ore ..., which,
+ as we shall see, is not necessary. As far as we know, sufficient and necessary
+
+ conditions have not been published (Ptâk 1949, p. 3).
+
+ The second sentence here is clear evidence of the fact that Ptâk had not seen Maltsev's
+
+ further work. This is something which Ptâk addressed directly in the English summary
+ at the end of the 1952 Russian version of his work:
+
+ [My 1949 paper was] written in June 1947, that is at a time when our know
+
+ ledge of Russian literature published during the war was still a very incomplete
+
+ one.... the author did not know of the existence of the papers... of Malcev, which
+
+ contain a solution of the problem... Nevertheless both the method used and the
+
+ result obtained by Malcev are different from those of the author, so that—after
+
+ some hesitation—the author decided to publish [the current] extract from the
+
+ paper... containing his own solution (Ptâk 1952, p. 268).
+
+ 43 My first thought upon seeing the 'M.' here was that Ptâk might have meant 'Monsieur Maltsev'. However,
+
+ leaving aside the question of why Ptâk would have addressed Maltsev in this manner, a glance through the
+
+ paper suggests that this is not in fact the case: none of the other authors is referred to as 'Monsieur'—Ore
+
+ appears as Ό. Ore' and Dubreil as 'P. Dubreil' ; van der Waerden is not afforded any initials at all.
+
+ Ô Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 09:55:57 UTC
+All use subject to https://about.jstor.org/terms
+
+ 674 C. Hollings
+
+ Thus, it seems that by 1952, Ptâk had finally come across Maltsev's results and had
+
+ decided to try to bring his own to a wider Russian-reading audience.
+
+ The introductory passage of the 1949 paper concludes with the following:
+
+ In the present paper the necessary and sufficient conditions that a semigroup be
+
+ immersible are given; for that purpose a method is developed which can also be
+
+ applied in other investigations (Ptâk 1949, p. 3).
+
+ Ptâk began, as we have seen other authors do, by taking the word 'semigroup' to
+
+ refer to a cancellative semigroup.44 He assumed further that his semigroups always
+
+ contained an identity because he considered there to be 'no essential difference' (Ptâk
+
+ 1949, p. 5) between the case where the semigroup has an identity and the case where
+
+ it does not, since if it has none, we may simply adjoin one (in the manner described
+
+ by Howie 1995, p. 2).
+
+ The notion of the free group played an important role in Ptâk's considerations, and
+
+ so he spent some time developing this and other ideas; these are presumably what 'can
+
+ also be applied in other investigations'. Ptâk denoted by 0 the free group on a set of
+
+ generators Γ. The free semigroup on Γ is denoted by 6. Bearing in mind the comments
+
+ above on Ptâk's terminology, 6 is in fact, in modern terminology, the free cancellative
+
+ monoid on Γ. Ptâk observed that if 5 is a semigroup with system of generators Γ, and
+
+ 6 is the free semigroup on Γ, then there is a canonical homomorphism H : 6 -»■ S,
+
+ namely, the mapping which takes any string in 6 to the corresponding product in S.
+
+ We note that Ptâk made use of a universal algebraic notion which is very familiar
+
+ in modern semigroup theory: the congruence which is termed the kernel of a given
+ homomorphism (see Howie 1995, p. 20). Given any homomorphism θ : S -» Τ
+ between semigroups S and Τ, the kernel, p, is the congruence on S defined by the rule
+ that
+
+ s pt 4=> 0(i) = 0(f).
+
+ Upon factoring the semigroup S by the congruence ρ (see Sect. 3.2), we have that
+
+ S/p = im Θ. This is semigroup theory's version of the First Isomorphism Theorem,
+
+ and it was noted by Ptâk, although not under this (or any other) name. Ptâk referred to
+
+ the kernel of a homomorphism H as the induced equivalence and typically denoted
+
+ it by E. Perhaps following French authors, such as Dubreil (1946, Chap. IV), Ptâk
+
+ referred to congruences as regular equivalences (in French; équivalences régulières).
+
+ After setting up the basic notions just described, Ptâk began to consider conditions
+
+ for embeddability. In particular, he arrived at the following (Ptâk 1949, Theorems 3.2
+ and 3.3):
+
+ Theorem 13 Let S, &, 0 and Ε be as above. Then S may be embedded in a group if
+
+ and only if Ε is induced on β by a regular equivalence on 0.
+
+ 44 Curiously, the Russian version of Pték's work employs the term 'ceMHrpynna' ('semigruppa') for
+ semigroup, rather than the usual Russian term 'nojiyrpynna' ('polugruppa'). Perhaps he adopted this
+
+ term to mirror Dickson's notion of 'semigroup', that is, to refer specifically to a cancellative object—much
+
+ as Sushkevich appears to have done with his German term 'Semigruppe' (see note 13). I have found no other
+ author who uses the term 'ceMHrpynna'. Noteworthy terminology also appears in the Czech version of
+
+ Ptâk's work, where he used the term 'semigrupa'; the modem Czech word for 'semigroup' is 'pologrupa'.
+
+ fi Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 09:55:57 UTC
+All use subject to https://about.jstor.org/terms
+
+ Embedding semigroups in groups 675
+
+ In other words, a necessary and sufficient condition for the embeddability of 5 in
+
+ a group is that the £-class of each α 6 6 be the intersection of 6 with the Is'-class
+ of a in <5, where £' is some regular equivalence on 0. We note that any regular
+
+ equivalence (congruence) on a group has a special form, in terms of which is it usually
+
+ more convenient to work: the congruence class of the identity is a normal subgroup,
+
+ and all other congruences classes are cosets of that subgroup. Thus, if we factor out
+
+ a group by a congruence, we obtain the factor group in the usual sense, that is, the
+
+ group factored by the corresponding normal subgroup.
+
+ Ptâk's proof of Theorem 13 is fairly straightforward. For the necessity of the above
+
+ condition, he took 91 to be the normal subgroup of 0 which corresponds to the canon
+ ical homomorphism H : 0 -» G (that is, its 'kernel' in the usual group-theoretic
+ sense), and showed that the £-class of a e 6 is equal to α91Π 6. For sufficiency,
+
+ he took 91 to be the normal subgroup of 0 which corresponds to the regular equiva
+
+ lence on 0, that is, the equivalence class of the identity. It was then a simple matter
+
+ to show that 0/91 contains a subsemigroup which is isomorphic to S. Ptâk gave the
+
+ following as an immediate consequence of Theorem 13, essentially a restatement of
+
+ the comments just made (Ptâk 1949, Theorem 3.4):
+
+ Corollary 1 Let S, Γ, 0 and Ε be as above. Then a necessary and sufficient condition
+ for S to be embeddable in a group is that 0 contain a normal subgroup 91 with
+ the following property: for any two finite sequences (a\,..., ar) and (b\,..., bs) of
+
+ elements ο/Γ, we have for the corresponding products:
+
+ αϊ · · · ar Ε b\ ■ · · bs «=> α\···αΓ = b\· ■ bs (mod 91). (17)
+
+ Suppose now that a\---ar = a and b\ ■ · · bs = β in 6. Then, using basic facts
+
+ about cosets, (17) may be rewritten in the form:
+
+ This observation appears to have inspired Ptâk to define the following subsets of 0:
+
+ α Ε β <=* αβ'1 6 91.
+
+ 97lr = {αβ~ι € 0 : α, / e 6 and α Ε β};
+
+ Μι = {α~ιβ e 0 : α, / € 6 and α Ε β}.
+
+ We put Mo = Mr U 9JÎ/. Let {971x} denote the intersection of all subgroups of 0
+
+ which contain Mx, and let [9JI*] denote the intersection of all normal subgroups of 0
+
+ which contain Mx, where χ — 0, r, /. By manipulating the Mx in certain ways, Ptâk
+
+ arrived ultimately at an embeddability condition in terms of these:45
+
+ Theorem 14 Let S, 6, 0 and Ε be as above. Then S may be embedded in a group if
+
+ and only if, for any α, β € 6,
+
+ αβ~ι e [Mr] =ϊαΕβ. (18)
+
+ 45 Ptâk (1949, Theorem 3.6); see also Clifford and Preston (1967, Corollary 12.8). An equivalent version
+
+ of this result, stated in terms of congruences rather than normal subgroups, may be found in Clifford and
+ Preston (1967, Theorem 12.7).
+
+ Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 09:55:57 UTC
+All use subject to https://about.jstor.org/terms
+
+ 676 C. Hollings
+
+ In 1952, Ptâk described this theorem as being 'an exact formulation of the (rather
+
+ vaguely formulated) condition (M')' (Ptâk 1952, p. 270). We note that, as with Sushke
+
+ vich's work in Sect. 3, Ptâk's work contains the implicit assumption that all semigroups
+
+ under consideration are infinite: all of Ptâk's semigroups were cancellative, and so the
+
+ infinite assumption ensures that, in general, they are not already groups. Thus, as in
+ Maltsev's case, we once again have an infinite number of implications as our embed
+
+ dability conditions, this time of the form (18).
+
+ A simple consequence of Theorem 14 provided Ptâk with a sufficient condition for
+
+ embeddability (Ptâk 1949, Theorem 4,3; see also Clifford and Preston 1967, Theo
+ rem 12.10):
+
+ Corollary 2 Let S, 6, & and Ε be as above. If{Wlr} is a normal subgroup of <5, then
+ S is embeddable.
+
+ Ptâk went on to use Corollary 2 to obtain a new proof of Ore's Theorem for semi
+
+ groups. Given a semigroup S, he wrote down the following condition: for every ordered
+ pair (a, b) of elements of 5, there exist elements a/, bi e S such that α/α = bib.
+ This is of course (the left-hand version of) Ore's condition My from Sect. 2.2. To
+
+ any (cancellative) semigroup satisfying this condition, Ptâk gave the name Ore semi
+
+ group. He then used Corollary 2 to prove that any Ore semigroup may be embedded
+
+ in a group, thereby giving a new proof of Theorem 5. We note that although Ptâk
+
+ included Dubreil's Algèbre (1946) in his bibliography, he cited it only as a reference
+
+ in connection with the properties of congruences on semigroups, and not in relation
+
+ to embedding problems. He attributed the proof of the semigroup version of Ore's
+ Theorem to Ore himself.
+
+ 7 Lambek's polyhedral condition
+
+ In this section, I describe the last major approach to the embedding problem to be
+ considered here: that of Joachim Lambek. The conditions laid down by Lambek (in
+
+ a 1950 Ph.D. thesis The immersibility of a semigroup into a group, as well as a 1951
+
+ paper of the same name46) are wonderfully simple to present. Lambek's solution is as
+
+ comprehensive as Maltsev's, and yet it is much easier to grasp, thanks to Lambek's
+
+ use of the pictorial aid of polyhedra.
+
+ Joachim Lambek was born in Leipzig in 1922, but escaped Germany for Britain
+
+ in the late 1930s.47 During the Second World War, however, he was transported to
+
+ Canada as an enemy alien, and it was here that he ultimately settled. Lambek entered
+
+ McGill University in Montreal; he obtained a first degree in 1945 and a master's a
+
+ year later. Staying at McGill, Lambek embarked upon mathematical research, under
+
+ the supervision of H. J. Zassenhaus. He completed his PhD in 1950, producing two
+
+ dissertations: Biquaternion vectorfields over Minkowski space and The immersibility
+ of a semigroup into a groupé It is of course the second dissertation which will
+
+ 46 We note also the existence of what is effectively a French translation of this paper: Thibault (1953b).
+
+ 47 These biographical details on Lambek are drawn from Barr (1999) and Barr et al. (2000).
+
+ 48 These two are bound together into a single volume in the McGill University Library, with the dissertations
+
+ labelled as parts A and B, respectively.
+
+ Ô Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 09:55:57 UTC
+All use subject to https://about.jstor.org/terms
+
+ Embedding semigroups in groups 677
+
+ concern us here. Lambek's mathematical work went on to encompass a wide range of
+
+ areas, most notably (like Maltsev) mathematical logic and category theory; much of
+
+ his work has concerned mathematical linguistics (see, for example, Lambek 2006). In
+
+ algebra, Lambek has worked on the theories of rings and modules, but the material to
+
+ be considered below represents his only significant foray into semigroup theory.
+
+ Lambek recalls his introduction to the embedding problem, and the fact that he did
+
+ not yet know of Maltsev's 1939/1940 work:
+
+ I became interested in the [problem of embedding semigroups in groups] as a
+
+ graduate student, when my supervisor Hans Zassenhaus mentioned it in the first
+
+ lecture of a graduate course and I realized that here was a problem I could work
+
+ on without any further prerequisites. Having solved it, I was disappointed to
+
+ learn that Maltsev had done so..., but consoled by the fact that the two solutions
+ were different.49
+
+ We note that in the acknowledgments at the beginning of his thesis on semigroup
+
+ embeddings, Lambek thanked not only Zassenhaus 'for his encouragement and criti
+ cism', but also H. S. M. Coxeter, for 'for his kind and valuable suggestions' (Lambek
+
+ 1950, p. 0).
+
+ Lambek's embedding results were written up into a thesis at a time when he was
+
+ still ignorant of Maltsev's 1939/1940 work. In his introduction, he noted Maltsev's
+
+ comment on having found necessary and sufficient conditions but their being too
+
+ complicated for publication in the 1937 paper. Nevertheless, Lambek seems to have
+
+ had some idea of what form the conditions should take, perhaps based upon Maltsev's
+ condition Z:
+
+ It is in fact not difficult to find such conditions. They state that certain systems
+
+ of equations are not independent. This means that if all but one of the equations
+
+ are given, the remaining equation can be deduced. However, as soon as we wish
+
+ to give verbal utterance to these conditions, it becomes desirable to label the
+
+ equations and the variables contained in them. This is where things begin to get
+
+ involved (Lambek 1950, p. 1).
+
+ Lambek noted that his method involving polyhedra was a way around this
+ complication.
+
+ By the time Lambek came to write up his results into a paper, he had learnt of
+
+ Maltsev's work and therefore presented his own as being an easier alternative to
+
+ Maltsev's; in reference to Maltsev's normal systems of equations, he noted:
+
+ Malcev offers a rather complicated construction for obtaining such chains of
+
+ equations. In the present paper I have tried to give a simpler construction, by the
+
+ device of using parts of polyhedra, rather than natural numbers, for labelling the
+
+ equations and variables contained in these conditions (Lambek 1951, p. 34).
+
+ Indeed, Lambek's work provided an entirely fresh approach to the subject, independent
+ of Maltsev's:
+
+ 49 Joachim Lambek, private communication, 14th June 2011.
+
+ <£) Springe
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 09:55:57 UTC
+All use subject to https://about.jstor.org/terms
+
+ 678 C. Hollings
+
+ Fig. 1 An edge in a Lambek
+ Fig. 1 An edge in a Lambek
+ polyhedron
+ polyhedron
+
+ Acquaintance with Malcev's work will not be expected from the reader (Lambek
+
+ 1951, p. 34).
+
+ I base the following account of Lambek's polyhedral conditions on that of Clifford
+
+ and Preston (1967, Sect. 12.5), which roughly follows Lambek's original. However,
+
+ I do not present Lambek's methods with full rigour, as the following comment from
+
+ Clifford and Preston (1967, p. 303) also applies in our case:
+
+ It will suffice for our purposes to treat polyhedra informally and to illustrate the
+
+ argument by drawing pictures.
+
+ George C. Bush (whose account of Maltsev's methods we followed in Sect. 5) pre
+ sented an alternative version of Lambek's method, in purely algebraic terms.50 As
+
+ already observed, Lambek presented his results in both a thesis and a paper. Since the
+
+ content of these is virtually identical, I will refer to the more easily accessed paper.
+
+ Lambek's conditions for the embeddability51 of a semigroup in a group are stated
+
+ in terms of Eulerian polyhedra, that is, polyhedra for which V + F = Ε + 2 (where
+
+ V is the number of vertices, F is the number of faces, and Ε is the number of edges)
+
+ and which are homeomorphic to the 2-sphere in Euclidean 2-space.
+
+ Each edge in a polyhedron is an edge to two faces, and we say that each edge has
+ two sides: one on each face. As we might expect, each edge has two vertices. At the
+
+ point where an edge enters a vertex, the edge is considered to have two angles: one
+
+ on each side of the edge. For example, Fig. 1 shows an edge with two sides χ and y; a
+
+ and b are the angles at the left-hand vertex of the edge, whilst c and d are the angles
+
+ at the right-hand vertex.
+
+ Each edge is assumed further to consist of two half-edges: one for each vertex. It is
+
+ clear that each half-edge has two sides and two angles, which it inherits from the edge
+
+ of which it is a part. The left-hand half-edge of the edge illustrated in Fig. 1 clearly has
+
+ sides χ and y, and angles a and b\ the half-edge equation of this half-edge is xa = yb.
+
+ 50 Bush (1961, 1963a). Indeed, Bush's approach differed considerably in presentation from Lambek's. As
+ Bush noted:
+
+ We use polyhedra as a convenient model and mnemonic device, but not as part of the proof (Bush
+
+ 1961, p. 30).
+
+ Thus, in contrast to the situation with Maltsev's conditions, it is inappropriate for us to follow Bush's
+
+ exposition if we are to explore Lambek's original conditions.
+
+ 51 Unlike Maltsev, who referred to the 'immersibility' of a semigroup, and spoke of 'immersing' it in a
+
+ group, Lambek used a mixture of terminology: for him, a semigroup that was 'immersible' could be 'embed
+
+ ded' in a group. I have standardised the terminology as 'embed'/'embedding'/'embeddability' throughout
+ this section.
+
+ Ô Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 09:55:57 UTC
+All use subject to https://about.jstor.org/terms
+
+ Embedding semigroups in groups 679
+
+ Fig. 2 Triangulation of an edge 4
+ Fig. 2 Triangulation of an edge
+ in a Lambek polyhedron / '
+ in a Lambek polyhedron
+
+ Let 5 be a semigroup. We say that S satisfies the polyhedral condition if, for
+
+ any polyhedron whose sides and angles are labelled by elements of S, any half-edge
+
+ equation is a consequence of all the other half-edge equations. We note that there are
+
+ 2Ε half-edge equations in total. Modifying slightly the terminology adopted by Bush,
+
+ the implication of one half-edge equation by the 2E — 1 others will be referred to as
+
+ a Lambek condition;52 notice that a Lambek condition is of a very similar form to a
+ Maltsev condition.
+
+ Let Ρ be any polyhedron whose sides and angles are labelled by elements of S. We
+
+ triangulate Ρ by taking a point (the centre) in the interior of each face and drawing a
+
+ line from this point to each vertex of that face; we also draw a line from an interior point
+
+ (the mid-point) of each edge of that face to its centre. The triangulation is oriented by
+
+ directing the lines from centre to vertex, mid-point to centre, and mid-point to vertex.
+
+ The labelling of the polyhedron determines a labelling of its triangulation. Consider
+
+ the edge in Fig. 1—in particular, the left-hand half-edge (with angles a and b). The
+
+ labels of this half-edge are transferred to the newly drawn lines in the triangulation of
+
+ the half-edge, as illustrated in Fig. 2. The half-edge itself (labelled Δ in Fig. 2) may
+ be labelled in two different ways: one for each triangle adjoining it. Using the upper
+
+ triangle, the label would be xa; for the lower, it would be yb. Labelling in this way,
+
+ it is easy to see that the half-edge has a unique label if and only if the corresponding
+
+ half-edge equation holds.
+
+ Returning to the general situation of the polyhedron P, we suppose that all half-edge
+
+ equations, except perhaps one, hold in the semigroup 5. Then, in the triangulation of
+
+ Ρ, all half-edges except one can be labelled uniquely. Suppose that this one half-edge
+
+ is that shown in Fig. 2, and that yb = p. We attach the label p, arbitrarily, to the
+ half-edge Δ.
+
+ We assume now that the semigroup S may be embedded (by inclusion) in some
+
+ group G ; let 1 denote the identity in G. Each triangle in the triangulation of Ρ corre
+
+ sponds to an equation of the form yb = p. Since S is assumed to be contained in a
+
+ group, this equation may also be written in any of six different forms for which the
+
+ 52 Bush (1963a, p. 52). Bush called this a Lambek polyhedral condition but we drop the 'polyhedral' not
+
+ only to avoid confusion with the polyhedral condition, but also for reasons of symmetry with the 'Maltsev
+ conditions' of Sect. 5, with which these Lambek conditions will shortly be connected. Lambek himself
+ gave no special name to these individual conditions.
+
+ Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 09:55:57 UTC
+All use subject to https://about.jstor.org/terms
+
+ 680 C. Hollings
+
+ right-hand side is 1, for example, ybp"1 = 1 ,bp~xy = 1, etc. Each ofthese six forms
+
+ represents a different manner of traversing the edges of the corresponding triangle.
+
+ More generally, we consider any connected path C consisting of edges E\, Ei,
+
+ (in that order) in the triangulation. Suppose that the edge Et is labelled by
+
+ Xi e S. Then the path C determines a product /(C) = Xj'x^2... x«", where ε; = +1
+ if the edge £, is traversed in the given direction, and ε, = -1 otherwise.53 We
+ saw above that a simple closed path bounding a single triangle determines an equation
+
+ whose right-hand side is 1. In fact, although we omit the details, it follows by induction
+
+ on the number of triangles bounded that /(C) = 1 for any simple closed path C which
+
+ bounds any simply connected set of triangles.
+
+ Now suppose that C is the (simple, closed) path which bounds all of the triangles in
+
+ the triangulation of Ρ, with the exception of that triangle for which the corresponding
+
+ half-edge equation is not assumed to hold. But C is also a path along the edges of the
+ excluded triangle. Therefore, /(C) = 1 implies that χα = ρ = yb. We have shown
+ that if S can be embedded in a group, then an arbitrary half-edge equation follows
+
+ from all the rest, that is, the polyhedral condition holds. Indeed, we have effectively
+
+ demonstrated the necessity part of the following theorem:54
+
+ Theorem 15 (Lambek's embeddability theorem) A semigroup may be embedded in
+
+ a group if and only if the cancellation law and the polyhedral condition are both
+
+ satisfied.
+
+ The sufficiency proof is considerably more complicated so I do not present it here.55
+ We see, however, that even though Lambek's Embeddability Theorem is easier to state
+
+ than Maltsev's, the proof is far from simple. Lambek concluded his paper by testing
+
+ the polyhedral condition: he took a commutative, cancellative semigroup (which we
+
+ already know may be embedded in a group) and, using methods similar to those
+
+ employed in the necessity proof above, demonstrated that the polyhedral condition
+ does indeed hold in such a semigroup.
+
+ We see then that Lambek's Embeddability Theorem, like Maltsev's, involves an
+
+ infinite number of conditions. At the end of his thesis on embeddings, before he had
+ become aware of Maltsev's conditions, Lambek made the comment:
+
+ ... it remains an open question whether a finite number of conditions may not
+
+ do. I conjecture that this question is to be answered in the negative (Lambek
+
+ Indeed, Lambek is correct: as for Maltsev conditions, no finite set of Lambek conditions
+
+ 53 The '/(C)' used here is Lambek's notation; Clifford and Preston used 'Cot'.
+
+ 54 Lambek (1951, p. 35); see also Clifford and Preston (1967, Theorem 12.16) and Bush (1963a, Theorem 3).
+
+ 55 For the full details of necessity, and for the proof of sufficiency, see Clifford and Preston (1967, Sect.
+ 12.5).
+
+ 1950, p. 18).
+
+ will suffice.
+
+ £} Springe
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 09:55:57 UTC
+All use subject to https://about.jstor.org/terms
+
+ Embedding semigroups in groups 681
+
+ Fig. 3 A polyhedron which
+ Fig. 3 A polyhedron which
+ yields a Lambek condition
+ yields a Lambek condition
+ which is not a Maltsev
+ which is not a Maltsev
+
+ condition; vertices are labelled
+ condition; vertices are labelled
+
+ Si
+
+ s,, angles r,·, and sides p,· and qj,
+ Sj, angles r,·, and sides p,· and q,,
+ where i = 0,1,2
+ where i = 0,1,2
+
+ PO / \ Pi
+
+ 90 91
+
+ 'to 92 t2y
+
+ SO P2 S2
+
+ 8 Maltsev's and Lambek's conditions compared
+
+ Having now seen both Maltsev's and Lambek's conditions for the embeddability of a
+
+ semigroup in a group, both of which comprise infinite sets of conditions, it is natural
+
+ to wonder whether there is any connection between the two. Throughout Sect. 5 and,
+
+ to a lesser extent, Sect. 7,1 cited the work of George C. Bush on the embedding of
+
+ semigroups in groups. So far, apart from commenting that Bush derived an algebraic
+
+ version of the polyhedral condition, I have only mentioned Bush's surveys of the
+
+ existing work of Maltsev and Lambek. However, it is when we turn to the comparison
+
+ of the conditions of Maltsev and Lambek that we see some original work due to Bush.
+
+ Bush's work in this direction originated in his PhD thesis, On embedding a semi
+
+ group in a group, which he completed at Queen's University, Ontario, in 1961, under
+
+ the supervision of I. Halperin. Results from this thesis appeared in two papers: one
+ in 1963, entitled 'The embedding theorems of Malcev and Lambek', and one rather
+
+ later, in 1971, entitled 'The embeddability of a semigroup—conditions common to
+
+ Mal'cev and Lambek'. Bush does not appear to have gone on to pursue a career in
+
+ research mathematics, and the papers cited here represent almost the full extent of his
+ mathematical work.56
+
+ Bush began his comparison of the conditions of Maltsev and Lambek by first show
+
+ ing that the two sets of conditions are formally distinct, that is, that there exist Lambek
+
+ conditions which are not Maltsev conditions, and vice versa. He achieved this by pre
+
+ senting two examples. The first is based upon the polyhedron in Fig. 3. This polyhedron
+
+ gives rise to the Lambek condition:
+
+ 56 Mathematical Reviews contains reviews of five papers by Bush: the two already cited, a further paper
+
+ concerning an embedding theorem given by Adyan (Bush 1963b), an article containing proposals for the
+
+ standardisation of certain terminology relating to functions and binary relations (Bush 1969), and a much
+
+ later paper on a topic related to computer science, published in a Turkish journal (Bush 1989). A casual
+
+ online search reveals also a precursor to the cited 1969 article (Bush 1967), an elementary mathematics
+
+ textbook (Bush and Obreanu 1965), and a problem contributed to The American Mathematical Monthly
+ (Bush 1962; Heuer 1963). Furthermore, the search also yields the information that Bush was elected to
+
+ ordinary membership of the American Mathematical Society in April 1965 (Green and Pitcher 1965, p. 590).
+
+ Ô Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 09:55:57 UTC
+All use subject to https://about.jstor.org/terms
+
+ 682 C. Hollings
+
+ Fig. 4 An edge of a polyhedron
+ Fig. 4 An edge of a polyhedron
+ arising from the Maltsev
+ arising from the Maltsev
+ condition (20) \.-4i Ri
+ . M R\
+ condition (20)
+
+ *•1 61
+ bi
+
+ By considering, case by case, the possible forms that the corresponding scheme and
+
+ completing equation would have to take, and obtaining a contradiction in each instance,
+
+ Bush showed that no Maltsev condition can have the form (19). Therefore, (Bush 1961,
+ Lemma 5.1):
+
+ He observed that if this were identical to a Lambek condition, then the completing
+
+ equation would force us to have, for some edge, the situation illustrated in Fig. 4, for
+
+ some values x, y. But then we would have to have an equation of the form R\x = b\y
+
+ in the normal system of (20), which is not the case. Hence, (Bush 1961, Lemma 5.2):
+
+ {/Oil = qoh, poso = <?o'o. P\si = q\h, p\si = q\t2, P2S0 = <?2'ο}
+
+ => P2S2 = q2t2- (19)
+
+ Lemma 4 There exist Lambek conditions which are not Maltsev conditions.
+
+ For the second of his two examples, Bush considered the scheme
+
+ (Luh,h,L\,l*2,l\),
+
+ with associated Maltsev condition:
+
+ {LiAi = fliri, a\L\ = α2Τ2, «2^2 = L\B\, R\B\ = b2h, ^2 = b\l\)
+
+ => b\r\ = R\A\. (20)
+
+ Lemma 5 There exist Maltsev conditions which are not Lambek conditions.
+
+ Bush thus showed in particular that neither of the sets of conditions of Maltsev or
+
+ Lambek is a subset of the other. The problem which he turned to next was the question
+
+ of whether the two sets have any conditions in common. He gave, for example, a com
+
+ plete characterisation (in terms of their schemes) of those Maltsev conditions which
+ are also Lambek conditions (Bush 1961, Theorem 5.1). He also proved the following
+
+ general theorem (Bush 1961, Theorem 5.3; see also Bush 1963a, Theorem 6):
+
+ Theorem 16 Let Κ be a system of equations and M be a single equation. If the
+ condition Κ =► M is satisfied in every semigroup that is embeddable in a group, then
+
+ Κ =► M is a consequence of some Maltsev condition.
+
+ Since every Lambek condition is of the form Κ => M, we have (Bush 1961,
+
+ Corollary 5.1; see also Bush 1963a, Corollary 1):
+
+ Corollary 3 Each Lambek condition is a consequence of a Maltsev condition.
+
+ <£) Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 09:55:57 UTC
+All use subject to https://about.jstor.org/terms
+
+ Embedding semigroups in groups 683
+
+ In fact, there is nothing special about the appearance of the Maltsev condition in
+
+ Theorem 16, nor about the relative positions of the Maltsev and Lambek conditions
+
+ in Corollary 3, as Bush went on to show (Bush 1961, Theorem 5.4 and Corollary 5.2;
+ see also Bush 1963a, Theorem 7 and Corollary 2):57
+
+ Theorem 17 Let Κ be a system of equations and M be a single equation. If the
+ condition Κ => M is satisfied in every semigroup that is embeddable in a group, then
+
+ Κ => M is a consequence of some Lambek condition.
+
+ Corollary 4 Each Maltsev condition is a consequence of a Lambek condition.
+
+ We see then that Bush managed to establish some nice interrelations between the
+
+ sets of Maltsev and Lambek conditions. However, we have not yet made any mention
+ of the conditions common to Maltsev and Lambek. In order to describe these, we need
+
+ another type of condition that we have not seen so far: the so-called lunar conditions.
+
+ Howard L. Jackson was another student, this time a master's student, of I. Halperin
+
+ at Queen's University. He completed his MA in 1956, with a dissertation entitled
+
+ simply The embedding of a semigroup in a group. We have already seen that Bush did
+
+ not begin his studies at Queen's University until 1958, so it is difficult to say whether he
+
+ and Jackson ever crossed paths.58 Nevertheless, even if Jackson and Bush never met,
+
+ they were certainly connected by their supervisor, and Bush's work was very much
+
+ a continuation of that of Jackson. However, whereas Bush's work was quite wide
+
+ ranging, taking in the embedding conditions of Maltsev and Lambek (and, indeed,
+
+ Jackson, as we will see shortly), the focus of Jackson's work was much narrower;
+
+ he concentrated on a certain special type of Lambek condition: the lunar conditions,
+
+ mentioned above. At the beginning of the thesis, Jackson credited Halperin with the
+
+ discovery of these conditions:
+
+ Prof. Halperin gave me these conditions verbally. As yet he has published no
+
+ paper on them (Jackson 1956, p. 3, footnote 1).
+
+ Indeed, Halperin does not appear to have published anything relating to groups or
+ semigroups. As we will appreciate once we have seen their definition, to have delivered
+
+ the lunar conditions verbally, at least in the form presented by Jackson, was quite a
+ feat. Bush (1961, p. 55) indicated further that the name 'lunar conditions' is also due
+
+ to Halperin.
+
+ Jackson's dissertation begins with the very careful definition of both semigroups
+
+ and groups, together with the proof that any finite cancellative semigroup is in fact
+
+ 57 In fact, Bush proved our Theorem 17 and Corollary 4 in a slightly more specific instance, with 'Lambek
+
+ condition' replaced by 'Lambek associative condition', where a 'Lambek associative condition' is a special
+
+ type of Lambek condition, identified by Bush, which gives a pictorial representation of the associative
+
+ law. This arose from Bush's observation that, whilst Lambek had proved the necessity of all Lambek
+
+ conditions for the embeddability of a semigroup in a group, his proof of sufficiency used only those
+ Lambek conditions of a certain form, namely, the Lambek associative conditions. As a result, Bush worked
+
+ almost exclusively in terms of Lambek associative conditions; in particular, he proved the necessity part
+
+ of Lambek's Embeddability Theorem for Lambek associative conditions only. Since Bush's definition of a
+ Lambek associative condition is rather involved, I have avoided it here. The interested reader is referred to
+
+ Bush's original exposition: see Bush (1961, Sect. 3.3) or Bush (1963a, Sect. 2.2).
+
+ 58 Unlike Bush, Jackson pursued mathematical research beyond his MA dissertation: Mathematical Reviews
+
+ lists 16 publications, ranging from 1965 to 1985, most of them on potential theory.
+
+ Ô Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 09:55:57 UTC
+All use subject to https://about.jstor.org/terms
+
+ 684 C. Hollings
+
+ a group.59 Jackson's first chapter also contains the counterexample of Maltsev that
+ we saw in Sect. 3.2. Then, without any further preamble, Jackson launched into a
+
+ discussion of the lunar conditions in his second chapter.
+
+ For any An + 4 symbols χ^,χχ,... ,x„,ya,yi,... ,yn,ao,a\,..., an, bo,b\,...,
+
+ bn, let S denote the set containing the following equations:
+
+ *οαο = yoai, Mo = Mt> *ιαι = yi<*2, Ml = yt^2
+
+ Xn—\&n—1 = yn—\^ni Xn—\bn—\ = yn—\bni Xn&0 = yn@n· (21)
+
+ The nth lunar condition is the following: whenever the equations in S hold, the equation
+
+ xnbo = ynbn must also hold. The nth lunar condition is denoted by Cn. Jackson also
+
+ gave an alternative definition of Cn in terms of the notion of an equaliser: if xa = yb,
+
+ then the pair (χ, y) is called an equaliser of the pair (a, b). The nth lunar condition
+
+ may now be restated thus: if (x ,·,>>,·) is a common equaliser of (α,·, a,+i) and (bi, b;+i),
+ for all i e {0, 1,2,..., η - 1}, and (x„, yn) is an equaliser of (ao, an), then (xn, yn)
+
+ is also an equaliser of (bo, bn).
+
+ We observe that Jackson's C\ is in fact Maltsev's condition Z, and so we know that
+
+ C\ is a necessary condition for the embeddability of a semigroup in a group. In fact,
+
+ more generally, Cn is a necessary condition, as Jackson showed in very short order
+
+ (Jackson 1956, Chap. II, Sect. 2):
+
+ Proof Suppose that a semigroup S may be embedded in a group G. Then every element
+ of S has an inverse in G. From the equations (21), we have:
+
+ yôlxo = αι^ο 1 = Mo\ yflx\ = α2«Γ' = Mf1- · · · >
+
+ yn-\xn-l — anan—\ —bnbn_j, yn xn — αηα^ .
+
+ In particular, we take the equality ana~\ = bnb~\x and relabel and rearrange to
+ obtain:
+
+ an~ ι = bn-\bn_2an-i· (22)
+
+ In order to derive the final equation, we show that y~lx„ = bnbfl. We have
+
+ anaf1 = bnbf\xan-\afxb\bQ1 = bnb~\x ^η_ι^2α„_2) aflb\b^ (by (22))
+
+ = bnbn_2an—2a\ b\bo = ■ · ■ = bnbn_^an-ia^ bibq ,
+
+ for 1 < i < η - 1. Now, for i = η - 1:
+
+ αηαΰ1 = bnbf1 (aiaf1) b\bfx = b„ b01 = b"b0*·
+
+ Hence, y~lxn = anafl = bnbfx, or xnbo = ynbn· a
+
+ 59 See note 14.
+
+ â Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 09:55:57 UTC
+All use subject to https://about.jstor.org/terms
+
+ Embedding semigroups in groups 685
+
+ What Jackson did not comment upon, however, is the fact that since the lunar conditions
+
+ are special cases of Lambek conditions, their necessity follows automatically from
+
+ Lambek's results. Nevertheless, Jackson's proof is a little easier than Lambek's.
+
+ Jackson followed his proof with an example, quite similar to Maltsev's, of a semi
+
+ group which satisfies Cι but not C2, thereby showing that Ci is effectively stronger
+
+ than C\. In fact, this example represented Jackson limbering up to tackle the more
+
+ general problem of whether Cn+1 is effectively stronger than Cn : he went on to attempt
+
+ to prove that this is indeed the case by presenting a suitable example; however, Jack
+
+ son's proof is incomplete (see below). Nevertheless, he concluded that if a semigroup
+
+ satisfies Cn, then it necessarily satisfies Cj, C2,..., Cn-\. The third and final chapter
+
+ of Jackson's dissertation is taken up with a straightforward presentation of Lambek's
+
+ polyhedral condition and a proof (essentially a reproduction of Lambek's own) of the
+
+ corresponding embedding theorem.
+
+ These discussions do little to bring out the reasons for the name 'lunar conditions',
+
+ nor has much been said to justify the assertion that these are a special type of Lambek
+
+ condition. Jackson did attempt to explain the name by noting in his introduction that
+
+ ... [tjhese are called lunar conditions because they result when a sphere is divided
+
+ into simple lunes ... (Jackson 1956, p.3)
+
+ where a lune (at least in the two-dimensional pictures used here) is a region bounded
+
+ by two arcs. Later on, after having defined Lambek's polyhedra, Jackson commented
+ further:
+
+ ... if the polyhedron chosen consists of exactly η + 1 lunes then the polyhedral
+
+ condition in this case is the nth lunar condition (Jackson 1956, p. 21).
+
+ What is missing here is a diagram to illustrate the lunar conditions and their inter
+
+ pretation as Lambek conditions. After all, the ability to visualise the conditions is the
+
+ major selling-point of Lambek's work. Fortunately, in his thesis, Bush noted that
+
+ ... [t]he condition C„ is the Lambek polyhedral condition ... for a polyhedron
+ with 2 vertices and η + 1 edges (Bush 1961, p. 56)
+
+ and provided the picture given in Fig. 5 to illustrate the condition C2·
+
+ In his chapter on the lunar conditions, Bush pointed out the error (noted above) in
+
+ Jackson's proof that Cn+1 is essentially stronger than Cn ■ 'the set of cases he considers
+
+ is not exhaustive' (Bush 1961, p. 58). However, the result is true nevertheless, and Bush
+
+ patched up Jackson's proof.60
+
+ Notice that we have had a great deal to say about the necessity of the lunar conditions
+
+ for the embeddability of a semigroup in a group, but we have so far made no comment
+
+ on their sufficiency. This is because they are insufficient, as Bush showed (Bush 1961,
+
+ 60 Bush (1961, Sect. 4.3). It is also worth noting that, in spite of our earlier observation that their necessity
+
+ follows from that of the Lambek conditions, Bush presented Jackson's proof of the necessity of the lunar
+ conditions (in his Sect. 4.2). This is because of the comment made in note 57 above, concerning the
+
+ 'Lambek associative conditions': Bush did not prove the necessity of arbitrary Lambek conditions, only of
+
+ the so-called Lambek associative conditions. The lunar conditions are Lambek conditions, but they are not
+
+ Lambek associative conditions, so their necessity does not follow from the earlier necessity proof in Bush's
+ presentation. He therefore needed to prove this separately.
+
+ *£) Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 09:55:57 UTC
+All use subject to https://about.jstor.org/terms
+
+ 686 C. Hollings
+
+ Fig. 5 The polyhedron
+ Fig. 5 The polyhedron
+ corresponding to the lunar
+ corresponding to the lunar
+ condition C2
+ condition C2
+
+ ®3
+
+ V3
+
+ Sect. 4.5). He even tried to rectify this by introducing the dual lunar conditions (Bush
+
+ 1961, Sect. 4.4), that is, the conditions given by reversing all the products in (21), as
+
+ well as in the final equation xn bo = yn bn. But even taken together, the lunar conditions
+ and dual lunar conditions are still not sufficient.61
+
+ The lunar conditions also appear later in Bush's thesis, in connection with his com
+
+ parison of Maltsev and Lambek conditions. Thus, we come finally to the promised
+ characterisation of the conditions common to Maltsev and Lambek. As noted earlier,
+
+ Bush obtained a complete characterisation, in terms of their schemes, of those Maltsev
+
+ conditions which are also Lambek conditions. He went on to prove that the Maltsev
+
+ conditions associated with these particular schemes are in fact lunar conditions (Bush
+ 1961, Lemma 5.7), that is, those Maltsev conditions which are also Lambek condi
+
+ tions are necessarily lunar conditions. Indeed, the result is even stronger (Bush 1961,
+ Theorem 5.2):
+
+ Theorem 18 The only conditions which are both Maltsev conditions and Lambek
+ conditions are the lunar conditions.
+
+ In accordance with our comments above on the insufficiency of the lunar conditions,
+
+ we have the following theorem noted by Bush (1961, Theorem 5.3):
+
+ Theorem 19 The set of conditions common to Maltsev and Lambek is insufficient for
+
+ the embeddability of a semigroup in a group.
+
+ We have recorded here several results from Jackson's master's thesis and Bush's
+
+ Ph.D. thesis. However, as is often the case with theses, this material did not reach a
+
+ very wide audience. Jackson does not appear to have published any parts of his thesis,
+
+ whilst Bush published only two short papers, 8 years apart, only one of which would
+
+ have been available to Clifford and Preston when they were preparing the second
+
+ volume of their textbook The algebraic theory of semigroups, which was published in
+
+ 61 The necessity of the dual lunar conditions may be shown in much the same way as for the lunar conditions.
+
+ <£] Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 09:55:57 UTC
+All use subject to https://about.jstor.org/terms
+
+ Embedding semigroups in groups 687
+
+ 1967. Clifford and Preston did not list Bush's thesis in their bibliography and therefore
+
+ probably had not seen it. The result of this was the unwitting duplication by Clifford
+
+ and Preston of some of Bush's work—in particular, Theorem 18 above.
+
+ In their chapter on the embedding of semigroups in groups, Clifford and Preston, like
+
+ Bush, included a section (Sect. 12.7) that is devoted to the comparison of Maltsev's and
+
+ Lambek's conditions. As we have already noted, Clifford and Preston would (probably)
+
+ only have had access to those elements of Bush's work which had been published in
+
+ his 1963 paper; in connection with the comparison of conditions, this would have
+ amounted to the results that we have recorded here as Theorems 16 and 17, and
+
+ Corollaries 3 and 4. Thus, Clifford and Preston did not know the full extent of Bush's
+
+ work when they proved the following (Clifford and Preston 1967, Theorem 12.21):62
+
+ Theorem 20 The Maltsev conditions which are also Lambek conditions are precisely
+
+ those Lambek conditions which arise from polyhedra with two vertices.
+
+ In essence, this is Theorem 18: Lambek conditions arising from two-vertex polyhedra
+
+ are of course lunar conditions; diagrams very much like our Fig. 5 appeared in Clifford
+
+ and Preston's proof of the above theorem.
+
+ Despite his having hitherto made no apparent effort to publish further material
+
+ from his thesis, the appearance of Theorem 20 in the second volume of The algebraic
+
+ theory of semigroups seems to have spurred Bush into action. The result was the
+
+ appearance in June 1971 of the second paper mentioned earlier: 'The embeddability
+
+ of a semigroup—conditions common to Mal'cev and Lambek'.
+
+ The purpose of this paper was, essentially, to present Theorem 19 to the world,
+
+ ... take on new interest in the light of Clifford and Preston's work (Bush 1971,
+
+ which, Bush hoped, would
+
+ p. 437).
+
+ With admirable modesty, Bush made no attempt to claim priority for Theorem 20,
+ but simply presented a slightly modified version of his earlier discussion of the lunar
+
+ conditions; the paper concludes with Theorem 19.
+
+ We see then that there is indeed some overlap between the work of Maltsev and that
+
+ of Lambek on the embedding of semigroups in groups. However, as Bush showed, their
+
+ approaches are essentially distinct. The geometrical approach of Lambek is consider
+
+ ably easier to present that the equational approach of Maltsev, but it is not simpler in
+
+ any real sense: the complications which are so patent in Maltsev's approach are merely
+ hidden behind the diagrams in Lambek's. Nevertheless, Lambek's methods are intu
+
+ itively rather pleasing, and so they mark a good place to end our main discussion of
+
+ the embedding problem.63
+
+ 62 Clifford and Preston stated this theorem in rather more complicated (and precise) terms, but this simplified
+
+ statement will suffice for our purposes, not least because their notation for Maltsev conditions differs from
+ that used here.
+
+ 63 We note that, besides the work on lunar conditions, there have been other attempts to unify the approaches
+
+ of Maltsev and Lambek. Forexample, the work of Krstié (1985), which gave anew geometrical interpretation
+ of Maltsev's conditions, and used this to draw connections with Lambek's. Johnstone (2008) united the
+
+ approaches of Maltsev and Lambek in a single categorical method, and then extended this to the embedding
+ of categories in groupoids.
+
+ £) Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 09:55:57 UTC
+All use subject to https://about.jstor.org/terms
+
+ 688 C. Hollings
+
+ 9 Concluding remarks
+
+ Like so many problems in mathematics, that of seeking to embed a semigroup in
+
+ a group has a simple statement, but proved rather harder to solve. Indeed, as we
+
+ have seen, the apparent simplicity of the problem led some of its attackers astray.
+
+ The comprehensive solution, when it did come, turned out to be not entirely usable:
+
+ Maltsev's necessary and sufficient conditions may be easy to state, but they are a little
+
+ more complicated to wield, and so other authors continued to seek simpler conditions
+
+ that were merely sufficient (Sect. 4). Indeed, the semigroup theorist Peter Trotter has
+ said of Maltsev's conditions that
+
+ ... they are difficult to apply... It is therefore of interest to find simple conditions
+
+ satisfied by large classes of semigroups that are sufficient to ensure embeddability
+
+ in groups (Trotter 1972, p. 1).
+
+ As part of this 'practical' approach, Trotter studied a more simply defined class of
+
+ semigroups, which he labelled 'L-semigroups'. These L-semigroup can be embedded
+ in groups and are defined via a generalisation of conditions earlier studied by Doss
+ (Sect. 4.2).
+
+ I want now to make some comments on the 'independence' of Maltsev's work.
+
+ Recall from the introduction that I have argued elsewhere (specifically, in Hollings
+
+ 2009a) that the first truly 'independent' theorem on semigroups was one proved by
+
+ Clifford in a paper of 1941, concerning certain semigroups that arise as disjoint unions
+
+ of groups. By 'independent', I meant that this theorem has no direct analogue in, nor
+
+ was driven by considerations from, either group or ring theory. In fact, Maltsev's
+ Embeddability Theorem might displace Clifford's work from this exalted position,
+
+ depending upon one's point of view. As we have seen, Maltsev's study of embeddings
+
+ for semigroups grew out of that of embeddings for rings, but his derivation of his nec
+
+ essary and sufficient conditions did not parallel anything within the ring theory of the
+
+ time; necessary and sufficient conditions for the embeddability of a ring in a field were
+
+ not derived until about 30years later (see Cohn 1971, Sect. 7.6, Corollary 1). Indeed,
+
+ in this instance, it is the results on semigroups that drove the search for corresponding
+
+ results on rings.
+
+ One final observation that might be made about the embedding problem is that it
+
+ spans the final critical decades in the formation of what we now term 'abstract algebra'.
+
+ We have traced its earliest origins to Steinitz' abstraction of the construction of the
+
+ rationals from the integers (his 'Quotientenbildung') and seen it appear in van der
+
+ Waerden's highly influential Moderne Algebra. The realisation that we might throw
+
+ away the additive part of the rings under consideration and thus treat an embedding
+
+ problem purely for semigroups is almost the quintessence of abstract algebra—the
+
+ adaptation of the problem was motivated not by any 'concrete' factors, but merely by
+
+ abstract concerns.64 In the various solutions to the problem, we have seen traditional
+
+ group-theoretic tools brought to bear (such as the normal subgroups employed by
+ Ptak), and also notions that now, at their most general, come under the banner of
+
+ 64 Indeed, the same might also be said of Ore's adaptation of the 'Quotientenbildung' to the non
+ commutative case.
+
+ Ô Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 09:55:57 UTC
+All use subject to https://about.jstor.org/terms
+
+ Embedding semigroups in groups 689
+
+ universal algebra (such as congruences). Finally, in Maltsev's comprehensive solution
+
+ of the embedding problem, we see him on the verge of one of the most abstract
+
+ (and, indeed, logical) of branches of modern mathematics: model theory, a field in
+
+ which Maltsev made important contributions (see Dimitric 1992). Thus, this seemingly
+
+ simple problem may even have had some small influence on the twentieth-century drive
+
+ towards abstract algebra.
+
+ References
+
+ Aleksandrov, P.S., Yu.L. Ershov, M.I. Kargapolov, E.N. Kuzmin, D.M. Smirnov, A.D. Taimanov, and A.I.
+
+ Shirshov. 1968. Anatolii Ivanovich Maltsev: Obituary. Uspekhi matematicheskikh nauk 23(3): 159-170
+ (in Russian); English translation: Russian Mathematical Surveys 23(3): 157-168.
+
+ Anon. 1940. Ail-Union conference on algebra, 13-17 November 1939. lzvestiya Akademii nauk SSSR.
+
+ Seriya Matematicheskaya 4(1): 127-136 (in Russian).
+
+ Anon. 1970. Oystein Ore (1899-1968). Journal of Combinatorial Theory 8:1-3.
+ Anon. 1989. Academician Anatolii Ivanovich Maltsev (on the 80th anniversary of his birth). Sibirskii
+
+ matematicheskii zhurnal 30(6): 3-6 (in Russian).
+
+ Anon. 2000. List of publications of Vlastimil Ptâk, 1995-1999. Linear Algebra and its Applications 310:
+
+ Ontario.
+
+ 15:49-58.
+
+ 259-262.
+
+ 23-24.
+
+ (in Norwegian).
+
+ Aubert, K.E. 1970. Oystein Ore and his mathematical work. Nordisk Matematisk Tidskrift 18: 121-126
+
+ Barr, Michael. 1999. An appreciation of Jim Lambek at McGill: A talk given on the occasion of Jim
+
+ Lambek's 75th birthday. Theory and Applications of Categories 6 (The Lambek Festschrift): 2-4.
+
+ Barr, M., P.J. Scott, and R.A.G. Seely. 2000. Introduction to "The Lambek Festschrift: mathematical struc
+
+ tures in computer science (Montreal, QC, 1997)". Mathematical Structures in Computer Science 10:
+ 97-98.
+
+ Bokut, L.A. 1987. Embedding of rings. Uspekhi matematicheskikh nauk 42(4): 87-111 (in Russian); English
+
+ translation: Russian Mathematical Surveys 42(4): 105-138.
+
+ Bush, George C. 1961. On embedding a semigroup in a group. Ph.D. thesis, Queen's University, Kingston,
+
+ Bush, George C. 1962. E1541. The American Mathematical Monthly 69(9): 919.
+
+ Bush, George C. 1963a. The embedding theorems of Malcev and Lambek. Canadian Journal ofMathematics
+
+ Bush, George C. 1963b. Note on an embedding theorem of Adyan. Proceedings of the American Mathe
+
+ matical Society 14: 597-599.
+
+ Bush, George C. 1967. On the terminology of functions. Ontario Mathematics Gazette 5: 16-22.
+
+ Bush, George C. 1969. The language of functions: A survey and a proposal. Mathematics Magazine 42(5):
+
+ Bush, George C. 1971. The embeddability of a semigroup—conditions common to Mal'cev and Lambek.
+
+ Transactions of the American Mathematical Society 157: 437-448.
+
+ Bush, George C. 1989. An approximately 0(log log n) search inspired by Newton's method. Doga. Turkish
+
+ Bush, George C„ and Phillip E. Obreanu. 1965. Basic concepts of mathematics. New York: Holt, Rinehart
+
+ Journal of Mathematics 13(3): 101-106.
+
+ and Winston.
+
+ Clifford, A.H. 1941. Semigroups admitting relative inverses. Annals ofMathematics 42: 1037-1049.
+
+ Clifford, A.H., and G.B. Preston. 1961. The algebraic theory of semigroups. Mathematical Surveys, no. 7,
+
+ vol. 1, American Mathematical Society, Providence, RI; 2nd ed„ 1964; Russian translation of 2nd ed.:
+ Izdatelstvo Mir, Moscow, 1972.
+
+ Clifford, A.H., and G.B. Preston. 1967. The algebraic theory of semigroups. Mathematical Surveys, no. 7,
+
+ vol. 2, American Mathematical Society, Providence, RI; 2nd ed., 1968; Russian translation of 1st ed.:
+ Izdatelstvo Mir, Moscow, 1972.
+
+ Cohn, P.M. 1965. Universal algebra. New York: Harper and Row.
+ Cohn, P.M. 1971. Free rings and their relations. London, New York: Academic Press.
+
+ Cohn, P.M. 1995. Skew fields: Theory of general division rings, volume 57 of Encyclopedia ofMathematics
+
+ and its Applications, ed. G.C. Rota. Cambridge: Cambridge University Press.
+
+ Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 09:55:57 UTC
+All use subject to https://about.jstor.org/terms
+
+ Corry, Leo. 1996. Modem algebra and the rise of mathematical structures. Birkhauser; 2nd revised ed.,
+
+ Corry, Leo. 2000a. The origins of the definition of abstract rings. Modem Logic 8: 5-27.
+
+ Corry, Leo. 2000b. The origins of the definition of abstract rings. Gazette des mathématiciens 83: 29-47.
+
+ Coutinho, S.C. 2004. Quotient rings of noncommutative rings in the first half of the 20th century. Archive
+
+ for History of Exact Sciences 58: 255-281.
+
+ de Séguier, J.-A. 1904. Théorie des groupes finis: Éléments de la théorie des groupes abstraits. Paris:
+
+ Dimitrié, R. 1992. Anatoly Ivanovich Maltsev. The Mathematical Intelligencer 14(2): 26-30.
+ Doss, R. 1948. Sur l'immersion d'un semi-groupe dans un groupe. Bulletin des sciences mathématiques
+
+ 690 C. Hollings
+
+ 2004.
+
+ Gauthier-Villars.
+
+ 72: 139-150.
+
+ Dubreil, Paul. 1943. Sur les problèmes d'immersion et la théorie des modules. Comptes rendus hebdo
+
+ madaires des séances de l'Académie des sciences de Paris 216: 625-627.
+
+ Dubreil, Paul. 1946. Algèbre, tome I: Équivalences, opérations. Groupes, anneaux, corps, Cahiers scien
+
+ tifiques, fascicule XX, Gauthier-Villars, Paris; 2nd éd., 1954; 3rd éd., 1963.
+
+ Dubreil, Paul. 1981. Apparition et premiers développements de la théorie des demi-groupes en France.
+
+ Cahiers du séminaire d'histoire des mathématiques 2: 59-65.
+
+ Dubreil, Paul. 1983. Souvenirs d'un boursier rockefeller 1929-1931. Cahiers du séminaire d'histoire des
+
+ mathématiques 4: 61-73.
+
+ Faisant, Alain. 1971a. Immersion d'un demi-groupe dans un groupe I, Séminaire P. Lefebvre (année
+
+ 1970/1971), Structures algébriques, volume II, exp. no. 17, pp. 210-217.
+
+ Faisant, Alain. 1971b. Immersion d'un demi-groupe dans un groupe II, Séminaire P. Lefebvre (année
+
+ 1970/1971), Structures algébriques, volume II, exp. no. 18, pp. 218-231.
+
+ Faisant, Alain. 1971c. Immersion d'un demi-groupe dans un groupe III, Séminaire P. Lefebvre (année
+
+ 1970/1971), Structures algébriques, volume II, exp. no. 19, pp. 232-240.
+
+ Faisant, Alain. 1972. Demi-groupes de fractions et plongement d'un demi-groupe dans un groupe, Séminaire
+
+ P. Dubreil, M.-L. Dubreil-Jacotin, L. Lesieur et C. Pisot (24e année: 1970/71), Algèbre et théorie des
+ nombres, fasc. 2, exp. no. 12.
+
+ Fenstad, Jens Erik. 1996. Thoralf Albert Skolem 1887-1963: A biographical sketch. Nordic Journal of
+
+ Fiedler, Miroslav. 2000. Vlastimil Pték (8 November 1925-9 May 1999). Linear Algebra and its Applica
+
+ Fiedler, Miroslav, and Vladimir Miiller. 2000a. Professor Vlastimil Pték died. Czechoslovak Mathematical
+
+ Philosophical Logic 1(2): 99-106.
+
+ tions 310: 21-22.
+
+ Journal 50(125): 445^147.
+
+ 125(3): 371-373.
+
+ Fiedler, Miroslav, and Vladimir Miiller. 2000b. Professor Vlastimil Pték died. Mathematica Bohemica
+
+ Gainov, A.T., S.S. Goncharov, Yu.L. Ershov, D.A. Zakharov, E.N. Kuzmin, L.L. Maksimova, Yu.L. Mer
+
+ zlyakov, D.M. Smirnov, A.D. Taimanov, V.K. Kharchenko, and E.I. Khukhro. 1989. On the eightieth
+
+ birthday of outstanding Soviet mathematician Academician A. I. Maltsev. Algebra i Logika 28(6): 615—
+ 618 (in Russian).
+
+ Goodearl, K.R. 1979. Von Neumann regular rings, Monographs and Studies in Mathematics 4. London:
+
+ Green, John W., and Everett Pitcher. 1965. The April meeting in New York. Bulletin of the American
+
+ Pitman.
+
+ Mathematical Society 71(4): 589-599.
+
+ Heuer, C.V. 1963. Solution to E1541. The American Mathematical Monthly 70(7): 759.
+
+ Heyting, A. 1927. Die Theorie der linearen Gleichungen in einer Zahlenspezies mit nicht-kommutativer
+
+ Multiplikation. Mathematische Annalen 98: 465-490.
+
+ Hollings, Christopher. 2007. Some first tantalizing steps into semigroup theory. Mathematics Magazine
+
+ 80(5): 331-344.
+
+ Hollings, Christopher. 2009a. The early development of the algebraic theory of semigroups. Archive for
+
+ History of Exact Sciences 63(5): 497-536.
+
+ Hollings, Christopher. 2009b. Anton Kazimirovich Suschkewitsch (1889-1961). BSHM Bulletin: Journal
+
+ of the British Society for the History of Mathematics 24(3): 172-179.
+
+ Hollings, Christopher. 2014a. Investigating a claim for Russian priority in the abstract definition of a ring,
+
+ to appear in BSHM Bulletin: Journal of the British Society for the History of Mathematics.
+
+ Hollings, Christopher. 2014b. Mathematics across the Iron Curtain: A history of the algebraic theory of
+
+ semigroups, to be published by the American Mathematical Society.
+
+ Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 09:55:57 UTC
+All use subject to https://about.jstor.org/terms
+
+ Embedding semigroups in groups 691
+
+ Holvoet, Roger. 1959. Sur l'immersion d'un semi-gruppe dans un groupe. Bulletin de la Société mathéma
+
+ tique de Belgique 11: 134-136.
+
+ Howie, J.M. 1995. Fundamentals of semigroup theory, LMS Monographs, New Series, no. 12. Oxford:
+
+ Clarendon Press.
+
+ Kingston, Ontario.
+
+ Jackson, Howard L. 1956. The embedding of a semigroup in a group. MA thesis. Queen's University,
+
+ Johnstone, P.T. 2008. On embedding categories in groupoids. Mathematical Proceedings of the Cambridge
+
+ Philosophical Society 145(2): 273-294.
+
+ Katz, Victor J. 2009. A history of mathematics: An introduction, 3rd ed. Reading: Addison-Wesley.
+
+ Khalezov, E.A. 1984. On the 75th birthday of Academician A. I. Maltsev. Sibirskii matematicheskii zjhurnal
+
+ 25:1-2 (in Russian).
+
+ Klein-Barmen, Fritz. 1943. Ûber gewisse HalbverbSnde und kommutative Semigruppen, Erster Teil, Math
+
+ ematische Zeitschrift 48: 275-288. Zweiter Teil, Mathematische Zeitschrift 48: 715-734.
+
+ Krstié, Sava. 1985. Embedding semigroups in groups: A geometrical approach. Publications. Institut math
+
+ ématique (Beograd). Nouvelle Série 38(52): 69-82.
+
+ Kurosh, A.G. 1959. Anatolii Ivanovich Maltsev (on his fiftieth birthday). Uspekhi matematicheskikh nauk
+
+ 14(6): 203-211 (in Russian).
+
+ Lallement, Gérard. 1995. Paul Dubreil (1904-1994) in memoriam. Semigroup Forum 50:1-7.
+
+ Lambek, J. 1950. The immersibility of a semigroup into a group. Ph.D. thesis, McGill University.
+
+ Lambek, J. 1951. The immersibility of a semigroup into a group. Canadian Journal of Mathematics 3:
+
+ 34—43.
+
+ Lambek, J. 2006. Pregroups and natural language processing. The Mathematical Intelligencer 28(2): 41-48.
+ Lesieur, Léonce. 1994. Paul Dubreil (1904-1994). Gazette des mathématiciens 60: 74-75.
+ Lyapin, E.S. 1960. Semigroups. Gosudarstvennoe Izdatelstvo Fiziko-Matematicheskogo Literature,
+ Moscow (in Russian); English translation: Translations of Mathematical Monographs, vol. 3, Amer
+ ican Mathematical Society, 1963.
+
+ Malcev, A.I. [Maltsev] 1937. On the immersion of an algebraic ring into a field. Mathematische Annalen
+
+ 113:686-691.
+
+ Malcev, I.A. [Maltsev] 2010. Anatolii Ivanovich Malcev (on the centenary of his birth). Uspekhi matem
+ aticheskikh nauk 65(5): 197-203 (in Russian); English translation: Russian Mathematical Surveys 65(5):
+ 991-997.
+
+ Maltsev, A.I. 1939. On the immersion of associative systems in groups. Matematicheskii sbornik 6:331-336
+
+ (in Russian).
+
+ 251-264 (in Russian).
+
+ Maltsev, A.I. 1940. On the immersion of associative systems in groups II. Matematicheskii sbornik 8:
+
+ Maltsev, A.I. 1953. Nilpotent semigroups. Ivanovskii gosudarstvennii pedagogicheskii institut. Uchenye
+
+ zapiski. Fiziko-matematicheskye nauki 4: 107-111 (in Russian).
+
+ Nikolskii, S.M. 1972. Excerpts from a memoir on A. I. Maltsev. Uspekhi matematicheskikh nauk 27(4):
+ 223-230 (in Russian); English translation: Some reminiscences of A. I. Mal'tsev. Russian Mathematical
+ Surveys 27(4): 179-187.
+
+ Ore, O. 1931. Linear equations in non-commutative fields. Annals of Mathematics 32(3): 463-477.
+ Ptâk, V. 1949. Immersibility of semigroups. Acta Facultatis Rerum Naturalium Universitatis Carolinae
+
+ Ptâk, V. 1952. Immersibility of semigroups. Czechoslovak Mathematical Journal 2(77): 247-271
+
+ Ptâk, V. 1953a. Immersibility of semigroups. Ceskoslovenskâ Akademie véd. Casopis pro pëstovdni matem
+
+ atiky 78: 259-261 (in Czech).
+
+ Ptâk, V. 1953b. On complete topological vector spaces. Czechoslovak Mathematical Journal 78: 285-290
+
+ Ptâk, V. 1953c. On complete topological vector spaces. Czechoslovak Mathematical Journal 78: 301-364
+
+ 192.
+
+ (in Russian).
+
+ (in Russian).
+
+ (in Russian).
+
+ Richardson, A.R. 1926. Hypercomplex determinants. Messenger of Mathematics 55:145-152.
+ Richardson, A.R. 1928. Simultaneous linear equations over a division algebra. Proceedings of the London
+
+ Schein, B.M. 1961. Embedding semigroups in generalised groups. Matematicheskii sbornik 55(97): 379
+
+ Mathematical Society 28: 395-420.
+
+ 400 (in Russian).
+
+ <£) Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 09:55:57 UTC
+All use subject to https://about.jstor.org/terms
+
+ Schmidt, O.Yu. 1916, Abstract theory of groups, Kiev; 2nd ed„ Gostekhizdat, Moscow, 1933; reprinted by
+
+ Knizhnyy dom "Librokom", Moscow, 2010 (in Russian); annotated English translation of 2nd ed. by
+ Fred Holling and J.B. Roberts, Freeman, 1966.
+
+ Shutov, E.G. 1966. Embedding of semigroups, in Interuniversity scientific symposium on general algebra,
+
+ Tartu State University, pp. 217-230 (in Russian); English translation: American Mathematical Society
+ Translations (2) 139 (1988): 197-204.
+
+ Sinai, Yakov (ed.). 2003. Russian mathematicians in the 20th century. Singapore: World Scientific.
+
+ Skolem, Th. 1951. Some remarks on semi-groups. Det Kongelige Norske Videnskabers Selskabs Forhan
+
+ Skolem, Th. 1952. A theorem on some semi-groups. Det Kongelige Norske Videnskabers Selskabs Forhan
+
+ Steinitz, E. 1910. Algebraische Theorie der Korper. Journalfiirdie reine und angewandte Mathematik 137:
+
+ 167-309; 2nd ed., Walter de Gruyter, Berlin and Leipzig, 1930; reprinted by Chelsea, NY, 1950.
+
+ Suschkewitsch, A.K. [Sushkevich] 1934. Ûber Semi-gruppen. Zapiski Kharkovskogo matematicheskogo
+
+ 692 C. Hollings
+
+ dlinger 24(9): 42^17.
+
+ dlinger 25(18): 72-77.
+
+ obshchestva 8: 25-28.
+
+ Sushkevich, A.K. 1935. On the extension of a semigroup to the whole group. Zapiski Kharkovskogo matem
+
+ aticheskogo obshchestva 12: 81-87 (in Ukrainian).
+
+ Sushkevich, A.K. 1937a. Foundations of higher algebra, 3rd ed. Moscow, Leningrad: ONTI (in Russian).
+ Sushkevich, A.K. 1937b. Elements of new algebra. Kharkov, Kiev: DNTVU (in Ukrainian).
+ Sushkevich, A.K. 1937c. Theory of generalised groups. Kharkov, Kiev: DNTVU (in Russian).
+ Thibault, R. 1953a. Groupes homomorphes a un demi-groupe: problème d'immersion d'un demi-groupe
+
+ dans un groupe, Séminaire Châtelet-Dubreil; partie complémentaire: demi-groupes, vol. 7 (1953-1954),
+ exp. no. 13.
+
+ Thibault, R. 1953b. Immersion d'un demi-groupe dans un groupe (Méthode de Lambek). Séminaire
+
+ Châtelet-Dubreil; partie complémentaire: demi-groupes, vol. 7 (1953-1954), exp. no. 20.
+
+ Trotter, RG. 1972. A class of semigroups embeddable in groups. Semigroup Forum 5: 1-13.
+ van der Waerden, B.L. 1930. Moderne algebra, vol. 1. Berlin: Springer.
+
+ van der Waerden, B.L. 1975. On the sources of my book Moderne Algebra. Historia Mathematica 2:31-40.
+ Vavfin, Zdenëk. 1995. Miroslav Fiedler and Vlastimil Ptâk: Life and work. Linear Algebra and its Appli
+
+ cations 223/224: 3-29.
+
+ Vavrin, Zdenëk. 1996a. Seventy years of Professor Vlastimil Ptâk (biography and interview). Czechoslovak
+
+ Mathematical Journal 46(2): 337-349.
+
+ Vavfin, Zdenëk. 1996b. Seventy years of Professor Vlastimil Ptâk (biography and interview). Mathematica
+
+ Vrbovâ, Pavla. 1985. Sixty years of Professor Vlastimil Ptâk. Czechoslovak Mathematical Journal 35(4):
+
+ Bohemica 121(3): 315-327.
+
+ 662-670.
+
+ Ô Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 09:55:57 UTC
+All use subject to https://about.jstor.org/terms
+
+

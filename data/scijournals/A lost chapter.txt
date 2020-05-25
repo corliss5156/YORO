@@ -1,0 +1,2876 @@
+ 
+
+ 
+
+ 
+
+ 
+
+A lost chapter in the pre-history of algebraic analysis: Whittaker on contact
+
+transformations
+Author(s): S. C. Coutinho
+Source: Archive for History of Exact Sciences, Vol. 64, No. 6 (November 2010), pp. 665-706
+Published by: Springer
+Stable URL: https://www.jstor.org/stable/41134333
+Accessed: 19-05-2020 12:34 UTC
+
+ 
+REFERENCES 
+Linked references are available on JSTOR for this article:
+https://www.jstor.org/stable/41134333?seq=1&cid=pdf-reference#references_tab_contents 
+You may need to log in to JSTOR to access the linked references.
+
+JSTOR is a not-for-profit service that helps scholars, researchers, and students discover, use, and build upon a wide
+
+range of content in a trusted digital archive. We use information technology and tools to increase productivity and
+
+facilitate new forms of scholarship. For more information about JSTOR, please contact support@jstor.org.
+
+Your use of the JSTOR archive indicates your acceptance of the Terms & Conditions of Use, available at
+
+https://about.jstor.org/terms
+
+Springer is collaborating with JSTOR to digitize, preserve and extend access to Archive for
+History of Exact Sciences
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:34:48 UTC
+All use subject to https://about.jstor.org/terms
+
+ Arch. Hist. Exact Sci. (2010) 64:665-706
+ DOI 10.1007/800407-010-0063-0
+
+ A lost chapter in the pre-history of algebraic analysis:
+ Whittaker on contact transformations
+
+ S. C. Coutinho
+
+ Received: 20 March 2010 / Published online: 29 May 2010
+ © Springer- Verlag 2010
+
+ Abstract In the early 1930s W. O. Kermack and W. H. McCrea published three
+ papers in which they attempted to prove a result of E. T. Whittaker on the solution of
+
+ differential equations. In modern parlance, their key idea consisted in using quantized
+
+ contact transformations over an algebra of differential operators. Although their papers
+
+ do not seem to have had any impact, either then or at any later time, the same ideas
+
+ were independently developed in the 1960-1980s in the framework of the theory of
+
+ modules over rings of microdifferential operators. In this paper we describe the results
+
+ of Kermack and McCrea and discuss possible reasons why such promising papers had
+
+ no impact on the mathematics of the twentieth century.
+
+ 1 Introduction
+
+ Amongst the ideas that made a deep impact on mathematics in the 1980s and 1990s
+
+ we can certainly count the twin theories of differential and microdifferential oper-
+ ators, jointly known as algebraic analysis. Their impact extended far and wide,
+ and spread through such areas as partial differential equations, representations of
+
+ Dedicated to Adilson Gonçalves on his 70th birthday.
+
+ Communicated by Jeremy Gray.
+
+ S. C. Coutinho (^)
+
+ Departamento de Ciência da Computação, Instituto de Matemática, Universidade Federal
+ do Rio de Janeiro, P.O. Box 68530, Rio de Janeiro, RJ 21945-970, Brazil
+ e-mail: collier@impa.br
+
+ S. C. Coutinho
+
+ Programa de Engenharia de Sistemas e Computação, COPPE, UFRJ, P.O. Box 6851 1,
+ Rio de Janeiro, RJ 21941-972, Brazil
+
+ ö Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:34:48 UTC
+All use subject to https://about.jstor.org/terms
+
+ 666 S. C. Coutinho
+
+ algebraic groups, noncommutative ring theory, and combinatorics. Nor has their
+ influence waned, as a search of MathSciNet clearly shows.
+
+ The genesis of both theories is usually traced to the 1960s, when modules over
+
+ rings of differential operators were first systematically studied by M. Sato in Japan
+
+ and, independently, by J. Bernstein in the Soviet Union. These ideas were then devel-
+
+ oped systematically by Sato, Bernstein, M. Kashiwara, Z. Mebhkout and many other
+
+ mathematicians. For more details see Sect. 9.2. However, 30 years earlier some of the
+ ideas that we now associate with algebraic analysis had already been introduced in
+ four papers of W. O. Kermack and W. H. McCrea. Published between 1931 and 1933,
+
+ the papers were motivated by a 'research lecture' given by Sir Edmund Whittaker in
+ Edinburgh. In this lecture, whose content appeared in Whittaker (1931), Whittaker
+
+ proposed a theorem on the transformation of definite integrals which he used to solve
+
+ various differential equations. It turned out, however, that Whittaker's proof of this
+ theorem was, in his own words, 'defective'.
+
+ Whittaker's audience included the chemist W. O. Kermack and the physicist W. H.
+
+ McCrea. In McCrea's words (Davidson 1971, p. 421)
+
+ Kermack saw immediately that Whittaker's ideas required in the first place an
+
+ algebra of operators of a novel sort. Within a day or two he sketched his thoughts
+
+ to me and we proceeded together to develop them in four papers published soon
+ afterwards.
+
+ This 'novel algebra of operators' turned out to be analogous to the algebra gener-
+ ated by the operators position and momentum in quantum mechanics, which had
+ been introduced by Dirac in 1926 (see Dirac 1926a; also in van der Waerden 1967, pp.
+ 307-320). This is a noncommutative algebra, for which they introduced 'contact trans-
+
+ formations' like the ones used in Hamiltonian dynamics (Whittaker 1999, p. 288ff).
+
+ These transformations allowed them to prove Whittaker's theorem.
+
+ In this paper we recount the history of the work on differential operators by
+
+ Kermack and McCrea and relate it to modern work on rings of differential opera-
+
+ tors. Section 2 contains short biographies of the three main characters of our story:
+ Whittaker, Kermack and McCrea. These do not cover in detail the whole life of each
+
+ of these scientists, but only take the story up to the time when the work discussed here
+ was done. In Sect. 3 we review the basics of contact transformations, both the 1930s
+
+ approach as expounded in Whittaker's Analytical Dynamics (Whittaker 1999), and its
+ modern presentation. The analysis of the work of Whittaker, Kermack and McCrea
+
+ on differential equations begins in Sect. 4, with a description of Whittaker's seminar
+
+ in Edinburgh, where his results on integration were first presented to an audience that
+ included both Kermack and McCrea. The next sections contain a presentation of six
+
+ different papers. The first, by Whittaker, states his integration theorem and gives sev-
+
+ eral examples; this is followed by two substantial papers, jointly written by Kermack
+
+ and McCrea, which give their proof of Whittaker's theorem, based on noncommutative
+
+ algebra. Of the last three papers, two develop some collateral themes, whilst the very
+ last one (written by McCrea alone) is an exposition of their method aimed at a more
+
+ general audience. In the final section we analyse some of the weak points of the theory
+ introduced by Kermack and McCrea, explain how they anticipated some key ideas of
+ modern algebraic analysis, and discuss the possibility of this being a case of missed
+
+ £l Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:34:48 UTC
+All use subject to https://about.jstor.org/terms
+
+ Whittaker on contact transformations 667
+
+ opportunity, in the terminology of Dyson (1972). This section ends with a general
+
+ conclusion which summarizes the main points of the article. To simplify cross-ref-
+
+ erencing, equations will be numbered sequentially throughout the paper, even when
+
+ they are part of a quotation from a primary source.
+
+ 2 Dramatis personae
+
+ In this section we give biographical data on the three main characters of our story,
+
+ beginning with the oldest and best known of the three.
+
+ 2.1 E. T. Whittaker
+
+ Edmund Taylor Whittaker was born on 24 October 1873 in Southport. Whittaker was
+
+ not very strong as a child, and his mother took care of his early education. It was only
+
+ when he was 1 1 years old that he entered Manchester Grammar School, where he was
+
+ on the classical side, with more than three-fifths of his time taken up with Latin and
+
+ Greek. Whilst the study was purely linguistic, he did very well; however, his lack of
+
+ interest in poetry and drama led to a falling-off in the upper forms. In order to escape
+
+ that he elected to specialize in mathematics.
+
+ In December, 1891 Whittaker obtained a scholarship to Trinity College, Cambridge,
+
+ and in 1895 graduated as second wrangler, being beaten to the first place by T. J. l'A.
+
+ Bromwich. The next year he was elected a Fellow of Trinity and was put on the staff.
+
+ Although Whittaker's early interests where in applied mathematics, the work for which
+ he was awarded the First Smith Prize in 1897 dealt with uniform functions, a theme
+
+ of pure mathematics.
+
+ Amongst the courses he taught in Cambridge was the one on complex function the-
+
+ ory which would later become the basis for Whittaker's first book A Course of Modern
+
+ Analysis (Watson and Whittaker 1963). Although the book is often called 'Whittaker
+
+ and Watson', the first edition, published in 1902, was a solo effort (see Barrow-Green
+
+ 2002). Watson's collaboration began with the second edition, which appeared in 1915,
+
+ and it is thanks to him that this edition included topics like Riemann integration and
+
+ the zeta function. Beside Watson himself, many well-known mathematicians attended
+
+ Whittaker's Cambridge lectures, amongst them G. H. Hardy, J. E. Littlewood and
+ H. W. Turnbull, as well as the astronomers J. H. Jeans and A. S. Eddington.
+
+ Whittaker remained in Cambridge until 1906, when he moved to Dublin to take the
+
+ post of Royal Astronomer for Ireland. At the same time he was appointed professor
+
+ of astronomy at the University of Dublin. By this time he had already been elected a
+
+ fellow of the Royal Society. Despite the title of his chair, Whittaker recognized that he
+
+ was more of a mathematician than an astronomer, his talents being in the line of devel-
+ oping the sort of mathematics that would be useful to astronomers (Barrow-Green
+
+ 2002). In 1912, Whittaker moved to the University of Edinburgh where he had been
+
+ elected professor of mathematics and he stayed there for the next 35 years, by which
+
+ time he had established a research school and founded (in 1914) what may have been
+
+ the first university mathematical laboratory.
+
+ Ö Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:34:48 UTC
+All use subject to https://about.jstor.org/terms
+
+ Whittaker was awarded many prizes, amongst them the Sylvester Medal (193 1) and
+
+ the Copley Medal (1956) by the Royal Society and he served as president of both the
+ Edinburgh Mathematical Society (1939-1944) and the London Mathematical Society
+ (1928-1929). He died on 24 March 1956. For more details see McCrea (1957) and
+ Temple (1956).
+
+ 668 S. C. Coutinho
+
+ 2.2 W. O. Kermack
+
+ Of the three main characters in our story, Kermack is surely the least known
+
+ amongst mathematicians; and this is not at all surprising, for he was an experimental
+ chemist.
+
+ William Ogilvy Kermack was born on 26 April 1898 in Kirriemuir, Scotland, the
+
+ birthplace of J. M. Barrie. Actually, Barrie's first novels are based on stories that his
+ mother told him about Kirriemuir, which is called Trums' in the novels.
+
+ On the death of his mother in 1904, Kermack was brought up by his father's sis-
+
+ ter. At the age of five he entered Webster's Seminary, a local school that provided
+
+ primary and secondary education. At this school he was introduced to mathematics,
+
+ mainly by the headmaster Thomas Pullar, who took him as far as coordinate geometry
+ and conies, as well as topics of mixed mathematics like elementary dynamics and
+
+ hydrostatics.
+
+ Kermack entered Aberdeen University in 1914 where he graduated M.A. 4 years
+ later, with First Class Honours in Mathematics and Natural Philosophy, and B.Sc. with
+
+ special Distinction in Mathematics, Natural Philosophy and Chemistry, having been
+ awarded several prizes. He was taught mathematics at Aberdeen by J. H. Grace, who
+
+ did a great deal to stimulate his interest in it.
+
+ After a few years at the Dyson Perrins Laboratory in Oxford, Kermack was
+ appointed in charge of the Chemical Section of the Royal College of Physicians Labo-
+
+ ratory in Edinburgh. This was in 1 92 1 . Three years later, tragedy struck. Whilst he was
+ alone at the laboratory, the preparation on which he was working exploded, driving
+
+ caustic substances into his eyes and rendering him totally blind for life. Although he
+
+ was only 26 at the time, Kermack was not put down by his blindness. Instead, he
+
+ re-organised his life to meet his new needs, in which he was helped by friends and col-
+
+ leagues; with the Department of Scientific and Industrial Research and the Carnegie
+ Trust providing funds for a special assistant.
+
+ Kermack would remain in Edinburgh until 1949, when he moved to Aberdeen to
+ take the MacLeod-Smith Chair of Biological Chemistry, from which he retired in
+
+ 1968. He died suddenly, 2 years later, whilst working at his desk. Most of Kermack's
+
+ work is in the area of biochemistry. However, he kept his interest in mathematics and
+
+ was an active member of the Edinburgh Mathematical Society during his stay in that
+
+ city. Besides the work on differential equations that we will discuss here, Kermack's
+ mathematical papers dealt also with Riemannian geometry, relativistic cosmology and
+ statistics. Kermack was elected to the Royal Society in 1944. His obituary in the Bio-
+
+ graphical Memoirs (Davidson 1971) provides an extensive bibliography, as well as a
+ detailed account of his chemical work.
+
+ Ö Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:34:48 UTC
+All use subject to https://about.jstor.org/terms
+
+ Whittaker on contact transformations 669
+
+ 2.3 W. H. McCrea
+
+ Although he is best known as an astronomer, Sir William Hunter McCrea held posi-
+ tions in mathematics departments for many years. Born in Dublin in 1904, McCrea
+
+ was brought up in Derbyshire, after his family moved to England when he was 2 years
+ old. He attended Chesterfield Grammar School and won an Entrance Scholarship to
+ Trinity College Cambridge in 1923. Whilst working for the Mathematical Tripos, he
+ found time to obtain a first class B.Sc. with honours in mathematics from London
+
+ University. McCrea graduated from Cambridge in 1926, and immediately began to
+
+ work for a Ph.D. there under the supervision of R. H. Fowler. In 1928 he won a Rouse
+
+ Ball Traveling Studentship that took him to Göttingen for the year 1928-1929.
+
+ Back from Göttingen, McCrea took his first teaching position in 1930 as Lecturer
+
+ in Mathematics at the University of Edinburgh. He spent 2 years in Edinburgh, during
+ which the work that we report in this paper was undertaken. In 1932 he moved to
+ Imperial College, London, as Reader in Mathematics, where he stayed until 1936,
+ then moving to a Chair of Mathematics at Queen's University in Belfast. During the
+ war McCrea worked at the Operational Research Group, after which he took over as
+ Professor and Head at the Mathematics Department, Royal Holloway College. It was
+ only in 1966 that he had his first post in Astronomy, as founding Research Professor
+
+ in the Astronomy Centre of the recently opened University of Sussex.
+
+ McCrea published some 280 scientific papers and six books. Although many of his
+
+ early papers are on topics of physics and mathematics, his interests gradually focused
+ on the application of theoretical physics to astronomy. Indeed, he is probably best
+
+ known for his work on stellar atmospheres, relativity and cosmology.
+
+ McCrea was elected a Fellow of the Royal Astronomical Society in 1929, served
+
+ as President between 1961 and 1963 and was awarded its Gold Medal in 1976. He
+
+ was elected to a Fellowship of the Royal Society of London in 1952.
+
+ 3 Contact transformations
+
+ As we saw at the introduction, the work of Kermack and McCrea on the application of
+
+ rings of differential operators was prompted by Whittaker's idea of using contact trans-
+
+ formations in order to solve differential equations. Actually, Whittaker's interest in
+
+ these transformations predates this paper by many years, as we shall see in this section,
+
+ where we also introduce the basic facts of the theory of contact transformations.
+
+ 3.1 Whittaker's 'Analytical Dynamics'
+
+ As we saw in Sect. 2.1, Whittaker lectured in Cambridge between 1896 and 1906. At
+
+ this time he wrote several books, the best known of which is probably his very first
+ book Modern Analysis, which has already been mentioned in Sect. 2. 1 . Another book
+
+ written at this time, and published in 1904, had the long title A treatise on the analytical
+
+ dynamics of particles and rigid bodies, with an introduction to the problem of three
+
+ bodies', nowadays it is known simply as Whittaker's Analytical Dynamics. Although
+ mainly based on the notes of his Cambridge lectures, it also included material from
+
+ the Report on the progress of the solution of the problem of three bodies, which he
+
+ Ö Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:34:48 UTC
+All use subject to https://about.jstor.org/terms
+
+ 670 S. C. Coutinho
+
+ had prepared for the British Association for the Advancement of Science in 1899. At
+
+ the time it appeared, Analytical Dynamics was, according to Martin (1958),
+
+ the first systematic account to be given in English of general dynamical theory,
+
+ i.e. the superbly beautiful theory which springs from Hamilton's equations and
+
+ which has turned out to be of such fundamental importance for the development
+
+ of quantum mechanics.
+
+ In its more than 450 pages, Analytical Dynamics ranges from the more elementary
+
+ concepts of kinematics and dynamics, through specific problems that are completely
+
+ soluble, to Hamiltonian dynamics and celestial mechanics. The chapters that will con-
+ cern us here are those that deal with Hamiltonian mechanics, specially what he calls
+ the 'transformation theory of dynamics'. This chapter played a decisive rôle in the
+
+ history of modern physics by inspiring Dirac's approach to quantum mechanics (see
+ Kragh 1990, p. 17).
+
+ 3.2 Contact transformations
+
+ Let us begin by reviewing the fundamental concepts of Hamiltonian mechanics in the
+
+ terminology of Whittaker's Analytical Dynamics (see Whittaker 1931, Sect. 109, pp.
+ 263-265).
+
+ Consider a conservative time-independent (holonomic) dynamical system with
+
+ coordinate functions q', ...,qn and let L(q' , . . . , qn, q' , . . . , qn) be its kinetic poten-
+
+ tial. Writing the equations of motion in Lagrangian form we obtain,
+
+ where, as usual, the dot over a letter denotes the time derivative of the corresponding
+
+ function. Using 8 for the increment of a function with respect to a small change of its
+
+ 8L = 8^ prq'r + ^ (pr8qr - qr&Pr) ;
+
+ d (dL' dL
+ - |- :-|-7-=0 for r = 1, .../i.
+ di 'dqr) dqr
+
+ If we write
+
+ Pr = T~r then ^ pr . = -
+
+ dL ^ . dL
+ dqr dqr
+
+ argument, we have
+
+ 8L *r STÍ31* ' dLf'
+ 8L *r = 2^' ^~8qr + ~^8qr )
+
+ which can be rewritten in the form
+
+ n n
+
+ r=l r=l
+
+ so that
+
+ ' n
+
+ â Springer
+
+ (n L - X Prir I = X (¿Mr ~ 4r^Pr) . (3.1)
+
+ r=l / r='
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:34:48 UTC
+All use subject to https://about.jstor.org/terms
+
+ Whittaker on contact transformations 67 1
+
+ Denoting by H the quantity L - Xr=i Pr4r, and equating terms on 8qr and 8pr on
+ both sides of (3.1) we find that
+
+ -2- =
+
+ -2- dqr dH -£- dpr dH
+ dí 3/?r dř dqr
+
+ In present day terminology, H is the Hamiltonian function and (3.2) the Hamiltonian
+
+ equations of the given system. Thus, in this framework, the equations of the system
+
+ are described in terms of In variables, the n position variables q' , . . . , qn and the n
+
+ conjugate momentum variables p' , . . . , pn.
+
+ Suppose now that we have two sets of 2n variables, denoted by
+
+ (qi,...,qn,Pi,-..,Pn) and (ßi, . . . , ß„, ßi, . . . , ß„),
+
+ the second of which is defined in terms of the first. In other words, each ß and P is
+
+ a function of the qs and ps. The change of variables from the capitalised variables
+ to the noncapitalised ones defined by the formulae for the ßs and Ps is a contact
+
+ transformation if the differential form
+
+ n
+
+ r='
+
+ ^PrdQr-pràqr,
+
+ when written in terms of the #s and ps is the differential of a function
+
+ W = W(q',...,qn,pi,...,Pn).
+
+ Take, for instance,
+
+ ß = (2#)1/2ekcos(/?) and P = (2^)1/2e"ksin(/7); (3.3)
+
+ see Whittaker (1931, Example 1, p. 293). Since
+
+ Pdß = (-(2^)-1/2 cos(p)) dq - (i2qÝ'2 sin(p)) dp
+
+ we have that Pdß - pdq = dW for W = q sin(p) cos(p) - qp. Hence the formula
+ (3.3) defines a contact transformation. This article of Analytical Dynamics ends with
+
+ an argument purporting to prove that if the sets of variables q and ß are independent,
+
+ then there exists a function W' (q' , . . . , qn, Q' , . . . , Qn), such that
+
+ Pr = - dQr i and Pr = -1-1. dqr (3.4)
+
+ dQr dqr
+
+ 4ü Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:34:48 UTC
+All use subject to https://about.jstor.org/terms
+
+ The function W' is called a generating function of the corresponding contact transfor-
+
+ mation. For a more accurate discussion of these functions see Arnold (1989, p. 258ff).
+ In Sect. 131 of Analytical Dynamics the conditions under which the Ps and ßs as
+
+ functions of q' , . . . , qn, p' , . . . , pn define a contact transformation are expressed in
+
+ terms of the Poisson bracket. If u and v are functions of these same variables, then
+ their Poisson bracket is
+
+ 672 S. C. Coutinho
+
+ A /du dv du dv'
+
+ f^x'dqrdpr dprdqrj'
+
+ Although Whittaker writes (w, v) for this bracket, we will use the modern notation
+ {«, v] instead. The main theorem of Sect. 131 is stated as follows:
+
+ Now let (gi , . . . , gn, P' , . . . , Pn) denote In functions of In variables (<?i , . . . ,
+
+ qn, p' , . . . , pn)' we shew that the conditions which must be satisfied in order
+ that the transformation from one set of variables to the other may be a contact
+
+ transformation may be written in the form
+
+ [Pi,Pj} = 0, {Qi,Qj} = 0 (1,7 = 1,2,...,*),
+ {Qi,Pj} = 0 (i'7 = l,2,. ..,n;i9fc 7),
+ [Qi,Pi) = l (i,7 = l,2,.. .,n)
+
+ Although Whittaker goes a lot deeper in his investigation of transformation theory,
+ this is essentially all we need from Analytical Dynamics. However, before we move
+
+ on, it is convenient to present this material under more modern garb, since it will
+
+ reappear in this form when we come to relate the work of Kermack and McCrea to
+ modern algebraic analysis.
+
+ 3.3 Symplectic geometry
+
+ Although its roots can be found in the work of Lagrange, Poisson, Hamilton and
+ Jacobi, symplectic geometry only took hold as the proper geometrical framework for
+
+ conservative dynamical systems in the twentieth century.
+
+ Let q' , . . . , qn, p' , . . . pn be coordinates in a real In -dimensional space R2n. The
+
+ standard symplectic structure of such a space is defined by the closed 2-form
+
+ n / n '
+
+ r=l 'r=l /
+
+ ' n
+
+ Ö Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:34:48 UTC
+All use subject to https://about.jstor.org/terms
+
+ Çl = ^àqr Aápr =á'y'tqr Aàpr 1,
+
+ where A denotes the exterior product of differential forms. Let gi, . . . , Qn and
+ Pi, . . . , Pn be another set of coordinates of R2n and assume that T : R2n -> R2n
+
+ is a map that transforms the P, g coordinates into the p, q coordinates. In this termi-
+
+ nology, T is a contact transformation (or canonical) if
+
+ 2 ¿Ir A àpr I = 2 dgr A dPr. (3.5)
+
+ Whittaker on contact transformations 673
+
+ Nowadays these transformations are more often called symplectomorphisms. It follows
+ from (3.5) that
+
+ ' n
+
+ 5>Adpr)-2;erAd/>r
+ r=l / r='
+
+ is a closed 1-form, so it must be written as the differential of some function W, just
+ as in Whittaker's definition. We can also easily define the Poisson bracket of two
+
+ functions / and g on R2" by the formula
+
+ {f,g} = Q(df,dg).
+
+ 4 Differential equations
+
+ We are lucky in having Sir William McCrea's personal testimony on his work with
+ Kermack, which appeared at the end of Davidson (1971).
+
+ 4.1 The 'research lectures'
+
+ As part of his effort to create a research school at Edinburgh, Whittaker gave 'research
+ lectures' on two afternoons a week on themes that interested him at the moment. On
+
+ his obituary of Whittaker, McCrea (1957, p. 239) writes
+
+ The most famous of the department's activities were his 'research lectures' to
+
+ staff, postgraduate students and visitors. He gave them twice a week in the mid-
+
+ dle of the afternoon, throughout the academic year. Either he discussed his own
+
+ current work or he gave his own development of topics of current interest in
+
+ mathematics. One marvels at the mathematical power that enabled him always,
+
+ year after year, to have material for these lectures - he never repeated the same
+
+ ones - just as though he had nothing else to think about, when actually he was
+ inundated with other duties. He had everything fully written out in his notes,
+
+ which he kept tidy by a method of his own depending upon much use of scissors
+
+ and paste. As he delivered the lecture, he wrote the whole of it on the blackboard
+
+ as fast as he spoke. Apparently all his lectures to students were given in this
+ style.
+
+ In his obituary of Whittaker for the Edinburgh Mathematical Society, Martin (1958)
+ adds a few more details to McCrea's description
+
+ For instance, when Einstein first produced a unified field theory the lectures
+ dealt with that theory whilst a course on spinors followed the publication by
+ Cartan of his important book on the subject. Whittaker's ability to absorb and
+ digest so much fresh mathematical work and to lecture on it term after term was
+
+ truly remarkable. For it must be emphasized that his lecture notes were not just
+
+ verbatim copies of the essential parts of the published papers on the subject, but
+ contained what was almost a redevelopment of the subject by himself.
+
+ 4y Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:34:48 UTC
+All use subject to https://about.jstor.org/terms
+
+ 674 S. C. Coutinho
+
+ And, after commenting, as does McCrea, on the fact that Whittaker wrote his whole
+ talk on the blackboard, Martin adds
+
+ At the end of a lecture he may have been physically tired but he was certainly
+
+ mentally exhilarated. The research room in the Mathematical Institute is a small
+
+ homely lecture room with a fire-place at the back, and a few minutes before the
+
+ end of Whittaker's lecture someone in the back row would put the kettle on the
+
+ fire so that by four o'clock tea would be ready. Whittaker would then relax in
+
+ his armchair by the fire, serenely happy with his colleagues and visitors around
+
+ him, whilst the animated discussion which arose would cover anything from the
+
+ lecture just given to academic affairs or religion. In this atmosphere Whittaker
+
+ was in a most exhilarating form and the inspiration seemed to flow from him.
+
+ Indeed, as far as research work is concerned, it is rather for his power of inspiring
+
+ others than for his own work that he will long be remembered.
+
+ It was at one of these lectures that he introduced the generalisation of Laplace's trans-
+
+ form that led Kermack and McCrea to their work on differential operators.
+
+ 4.2 Edinburgh, autumn of 1930
+
+ We now turn to McCrea's description of his joint work with Kermack, which originated
+ in one of Whittaker's 'research lectures' at Edinburgh. According to him, Kermack
+
+ often came to these lectures, even though they were aimed mainly at mathematicians.
+
+ Here is what he says at the end of Kermack's obituary (Davidson 1 97 1 , pp. 420-422):
+
+ In one of these lectures in the autumn of 1930, Whittaker propounded a remark-
+
+ able theorem on the solution of differential equations by definite integrals.
+
+ Roughly stated, it dealt with the type of relation
+
+ Ý(q)=Jx(q,Q)<KQ)dQ (4.1)
+
+ where V and 0 are solutions of linear differential equations related through a
+ contact transformation, x is a solution of a pair of partial differential equations
+ derived from the same contact transformation, and the path of integration has
+
+ to be suitably chosen. The theorem may be regarded as a greatly generalised
+
+ Laplace transformation, and it covers all the well-known integral relations in the
+
+ theory of special functions. It was a brilliant conjecture of Whittaker's, but for
+
+ his part he contented himself with a number of interesting illustrations. He did
+
+ not attempt to formulate a general statement nor to give a proof.
+
+ McCrea's comments should be compared with Whittaker's. In the paper Whittaker
+
+ (1931) where he announces this 'brilliant conjecture', Whittaker says:
+
+ My own original way of establishing the theorem was defective as a proof, and
+ has been superseded by a proof devised by Dr Kermack and Dr M 'Crea [sic],
+ which is given in the paper following this.
+
+ Ô Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:34:48 UTC
+All use subject to https://about.jstor.org/terms
+
+ Whittaker on contact transformations 675
+
+ So it seems that Whittaker originally had a proof, which turned out to be wrong; and
+
+ that's why the result he presented ended up as no more than a conjecture.
+
+ McCrea goes on to explain how the collaboration with Kermack came about:
+
+ Kermack saw immediately that Whittaker's ideas required in the first place an
+ algebra of operators of a novel sort. Within a day or two he sketched out his
+
+ thoughts to me and we proceeded together to develop them in four papers pub-
+ lished soon afterwards.
+
+ The papers are Kermack and McCrea (1931a,b,c, 1933), the first two of which we
+ discuss in detail in Sects. 6 and 7. Next, McCrea explains the contents of each one of
+
+ the papers:
+
+ The first requirement of a theory was to show how to derive the equations for the
+
+ function x in a manner that is unambiguous and that makes them compatible.
+
+ This was the main point of the first paper. We proceeded to give definite rules
+
+ for passing from the differential equation for (/> to that for '¡r, and vice versa.
+ We then showed how to generalise the equations for x- If (4.1) be regarded
+ as a transformation from </> to y, we also obtained some results on successive
+ transformations of this sort.
+
+ In our second paper we began by giving a number of theorems in the algebra of
+ a pair of operators p, q that commute according to qp - pq = 1 and otherwise
+ obey the usual laws of algebra. Probably most of these are now familiar in the
+
+ literature, but at the time they were new and somewhat surprising. Kermack fore-
+
+ saw the forms of some of the most complicated results, doing all the working in
+
+ his head; he had an altogether exceptional sense of algebraic form, in addition to
+ his penetrating sense of mathematical significance. Functions p(q, p),cr(q, p)
+ such that pa - op = 1 we called conjugate and the transformation from q, p
+ to p, o we called canonical. We were then able to reformulate the work on
+
+ differential equations in terms of these concepts.
+
+ It should perhaps be recalled that by this time Kermack had been blind for 5 years. At
+
+ the very beginning of his comments, McCrea says
+
+ I understand that when [Kermack] was in hospital after the accident, as soon as
+
+ he knew he would not see again, he got friends and nurses to read fairly ele-
+ mentary mathematics to him, so that he could train himself to take mathematics
+
+ in this way and then to think about it for himself. It was incredible to find how
+
+ much he could do without being able to put anything down on paper.
+
+ Kermack's feats are indeed quite remarkable, as anyone who has had to compute
+ with noncommuting differential operators will surely appreciate. As to Kermack and
+ McCrea (1931c, 1933), here is what McCrea had to say about them:
+
+ In the third paper we showed that in Whittaker's original theorem it is possible to
+
+ replace the definite integral by a certain differential operator. Perhaps, not unnat-
+
+ urally, this could be thought of as a generalisation of Maclaurin's theorem. We
+
+ showed that it gave as a particular case R. A. Fisher's rule for the transformation
+
+ of the moment-generating function in probability theory.
+
+ & Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:34:48 UTC
+All use subject to https://about.jstor.org/terms
+
+ 676 S. C. Coutinho
+
+ The fourth paper is one with the most general mathematical appeal. It is, of
+ course, well known that the eigen-solutions of an equation of hypergeometric
+
+ type form a set of functions orthogonal to the eigen-solutions of the adjoint dif-
+
+ ferential equation. It is also well known that such functions satisfy a difference
+
+ equation in the integral parameter of the set. We were able to show, at any rate
+
+ formally, that the differential equation and the difference equation form a com-
+
+ patible or 'conjugate' pair in our sense, as do the adjoint pair, and that the two sets
+
+ of solutions form normalized orthogonal sets. This seems to illustrate the unity
+
+ and coherence that our work was bringing to the theory of special functions. We
+
+ had plenty of ideas for further developments when circumstances brought our
+ mathematical collaboration to an end.
+
+ Actually, there is a fifth paper (McCrea 1933) on the subject, this time by McCrea
+
+ alone. It was published in the Mathematical Gazette and is of a more expository nature.
+ We will come back to it in Sect. 8.3.
+
+ 5 On the solution of differential equations by definite integrals
+
+ In this section we begin to analyse the contents of the papers whose genesis has been
+ described in Sect. 4, beginning with the one by Whittaker which gave rise to the
+
+ whole sequence. The purpose of Whittaker's paper is clearly stated at its introduction
+ (Whittaker 1931, p. 189):
+
+ The object of the present paper is to communicate a general theorem regard-
+
+ ing the solution of both ordinary and partial differential equations by means of
+
+ families of definite integrals.
+
+ As he points out, the motivation is the fact that 'in many cases the solutions of a lin-
+
+ ear differential equation can be expressed as definite integrals'. Although Whittaker
+
+ gives his results for any number of variables, we will state them only for two pairs of
+
+ conjugate variables because this is the only case explicitly described by Kermack and
+
+ McCrea in their papers. However, as they put it in a footnote to (Kermack and McCrea
+ 1931a, p. 205)
+
+ It is clear [. . .] that [the theory] may be generalised at once to include any number
+
+ of pairs.
+
+ Consider any contact transformation from a pair of conjugate variables (q, p) to
+
+ another pair (g, P), defined by a function W(q, Q). In other words,
+
+ see (3.4). Denoting by Q(q, p) and P(q, p) the variables when expressed in terms of
+
+ p and q, the differential equations
+
+ Ô Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:34:48 UTC
+All use subject to https://about.jstor.org/terms
+
+ Whittaker on contact transformations 677
+
+ are compatible and possess a common solution x(#> 0- Note that the operators that
+ define the equations were obtained substituting p by d/dq in the expressions of
+ Q(q, p) and P(q, p). Whittaker does not go into any details on how this is to be
+ done, and this is one of the weakest points in his approach. In the next article we will
+
+ see how Kermack and McCrea proposed to get around this problem using the algebra
+
+ of differential operators.
+
+ Whittaker's General Theorem Suppose that we wish to determine a function ý
+ which satisfies a differential equation
+
+ f(*,±)y = 0. (5.3)
+
+ Suppose that, on replacing q and p by their values in terms of P and Q in F(q, p)
+ we obtain G(ß, P). Then,
+
+ Ý(q)=Jx(q,t)4>(t)dt
+
+ where </> is the solution of
+
+ g(,.1), = o.
+
+ Immediately after stating the theorem, Whittaker proceeds to show that it is an
+ extension of the well-known Laplace transform. To see that, choose W = -qQ.
+ Then,
+
+ „ dW J dW
+
+ P „ =
+
+ Replacing p by d/dq in these equations, we find that the equations in (5.2) become,
+
+ ^ = -tX and -W = -£.
+
+ The solution is readily seen to be x = eqt where we are, as Whittaker adds in brack-
+
+ ets, 'neglecting now, as always, an arbitrary multiplicative constant'. Before we can
+
+ state the conclusion of the General Theorem for this example, we must compute the
+ operator G. Luckily, in this case all we have to do is replace p by Q and q by - P in
+ F, which gives G(ß, P) = F(-P, Q). Thus, it follows from the General Theorem
+ that if Ý is a solution of a differential equation (5.3), then
+
+ Mq)=Jeqt4>(t)dt
+
+ £) Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:34:48 UTC
+All use subject to https://about.jstor.org/terms
+
+ 678 S. C. Coutinho
+
+ where <'> is the solution of
+
+ F(-ÍL,r), = O;
+
+ which shows that Whittaker's theorem is a generalisation of the Laplace Transform,
+ as claimed.
+
+ The remainder of the paper, comprising five more sections besides the first three
+
+ discussed here, contains a number of more sophisticated examples related to the hyper-
+
+ geometric function (Sects. 4-7) and the Bessel function (Sect. 8).
+
+ 6 On Professor Whittaker's solution of differential equations by definite
+
+ integrals: part I
+
+ As pointed out before, one of the problems with Whittaker's method is, in the words
+ of Kermack and McCrea, how to pass
+
+ from a contact transformation in its algebraic form to these partial differential
+
+ equations, in a manner which is unambiguous and which makes them compatible.
+
+ The emphasis is theirs. The introduction of such a method is, according to themselves,
+
+ the 'first object' of their paper. From now on we refer to this paper as Part I, whilst its
+
+ sequel, discussed in the next section, will be called Part II.
+
+ 6.1 The method
+
+ Following their approach, we begin with a contact transformation derived from a
+ function W(q, Q). Thus, by Sect. 3.2, the transformation is given by
+
+ Next take p and P to be the operators 3/3 ß and -d/dq, respectively. The simulta-
+ neous equations that define the function / = x(ô, q) will then be
+
+ ,-îî-o
+
+ P+^=0 dq (6.2)
+
+ dq
+
+ /-H]x=0 (6.3)
+ P + 1t'x=0; (6.4)
+
+ in other words,
+
+ £i Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:34:48 UTC
+All use subject to https://about.jstor.org/terms
+
+ Whittaker on contact transformations 679
+
+ T-T-*-* oq oq m)
+
+ oq oq
+
+ which clearly have x = ew for a solution. Then comes the clincher:
+
+ Now this x will satisfy any equations derived from [(6.5), (6.6)] by multiplying
+
+ them by any functions of q or Q, or by differentiating them with respect to q or
+
+ Q, or by any combination of such processes.
+
+ Thus, given operators R(q, -d/dq) and S(q, -d/dq), we have that any function that
+ satisfies (6.5), (6.6) also satisfies the two equations
+
+ / a ' r d dW'
+
+ Actually, for the method to work we have to be more careful. We need to know that
+
+ X satisfies equations of the form
+
+ q{q,-^X-Qx = 0 and (6.7)
+ 4'-¿)*-£r0' (68)
+
+ assuming that they have been determined by the procedure of multiplication by an
+
+ operator described above. Their next step is to simplify the above equations by writ-
+
+ ing them in the form
+
+ [Q(q,p)-QÌX=0 (6.9)
+
+ [P(q,p)-P]X=0, (6.10)
+
+ where we should not forget that P = d/dQ and p = -d/dq. Then comes the follow-
+ ing rather cryptic comment:
+
+ It is clear that the passage from [(6.3), (6.4) to (6.9), (6.10)] by the stated pro-
+ cesses is exactly equivalent to the algebraic solution of [(6.3), (6.4)] for Q, P in
+ terms ofq,p provided that the algebraic operations employed are:
+ (i) Pre-multiplication by q, Q, p or P or any function of these,
+
+ (ii) Permutation of the variables according to the equations
+
+ qQ-Qq=0, qP-Pq = 0,
+
+ Qp-pQ=0, pP-Pq=0, (6.11)
+
+ qp-pq = l, QP-PQ = -1.
+
+ £l Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:34:48 UTC
+All use subject to https://about.jstor.org/terms
+
+ 680 S. C. Coutinho
+
+ (iii) Equal quantities may be added or subtracted but not multiplied or divided.
+
+ These are to replace the ordinary rules of algebra for the present set of variables.
+
+ Since q, Q commute it does not matter in what order the terms in W(q, Q) and
+ its derivatives are written.
+
+ In modern parlance these are the equations that define the second Weyl algebra,
+
+ which is the algebra of differential operators of the polynomial ring C[q, Q], Denoting
+
+ by /^the operator of C[q, Q] that corresponds to multiplication byjhe polynomial
+ / = f(q, Q), it is easy to show that this algebra is generated by 'q, Q and the partial
+ differential operators P = d/dQ and p = -d/dq (see Coutinho 1995, pp. 8-10 for
+ example). A straightforward computation shows that these operators satisfy the rules
+ reproduced above.
+
+ The paragraphs of Part I quoted above give a sketch of the procedure that Kermack
+
+ and McCrea proposed to use to compute the operators in (6.9) and (6. 10). For the sake
+
+ of clarity, we will perform the required computations in a particular example, as we
+
+ go through the various stages of the procedure as described in Kermack and McCrea
+ (1931a, p. 207). In the example, which is taken from Kermack and McCrea (1931a,
+ Sect. 3.12), W = q2Q/4, so equations (6.1) and (6.2) become
+
+ 6.2 An example
+
+ 4
+
+ P - %- = 0 (6.12)
+ /? + ^=0 (6.13)
+
+ The description of the procedure begins as follows:
+
+ We can solve equation [(6.2)], which involves only p, q and g, for the variable
+ Q according to the rules and obtain
+
+ Q(q,p)-Q = 0 (6.14)
+
+ giving equation [(6.9)] at once.
+
+ -2- -0 = 0; so that Q(g,p) = -2-.
+ q q
+
+ pq-l-q-lp = q~2' (6-15>
+
+ However, taking into account the meaning of p and q as operators, the most natural
+ choice is Q(q, p) = -2q~lp, which is the operator chosen in Kermack and McCrea
+
+ £l Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:34:48 UTC
+All use subject to https://about.jstor.org/terms
+
+ Applying this to the example, we have to solve (6.13) with respect to Q, which gives
+
+ Note that this is not quite as straightforward as it looks because the 'fraction' p/q is
+ not well-defined. Since p and q do not commute, pq~x ^ q~XP- Indeed, it follows
+ from (9) that
+
+ (1931a, Sect. 3.12, Eq. 19). Thus, in this example, Eq. 6.9 is given by
+
+ Proceeding in this way we may write in general, if F(Q) is any function of Q,
+
+ Whittaker on contact transformations 68 1
+
+ [-2q-lp-Q]X=0.
+
+ The description continues as follows:
+
+ From [(6.14)] we obtain, for example,
+
+ Q(q,p)2-Q2 = 0, (6.16)
+
+ where we must obey the rules laid down in forming
+
+ Q(q,pf = Q(q,p)xQ(q,p)l]
+
+ F{Q(g,p))-F(Q) = 0.
+
+ Let us compute Q(q, p)2 for Q(q, p) = -2q~lp. Using (6.15) we find that
+
+ (-q-lp)(-q-lp) = q~'p{q~x)p) = q~'-q~xp + <rV
+
+ Hence,
+
+ Q(qiP)2 = -4q-2p2-q-3p.
+
+ Of course any polynomial function of p and q can then be written in the desired form.
+
+ This is the method they apply to compute (6.10):
+
+ Consequently, if we write [(6.1)] in such a way that in each term of
+ 9W(#, Q)/dQ the part depending on Q comes last, we have merely to sub-
+ stitute for Q its value already found in [(6.14)]. This gives equation [(6.10)], and
+ we have now derived [(6.9), (6.10)] in such a manner that x is still a solution.
+
+ Since, in our example,
+
+ dW _ q2
+
+ which does not depend on Q, we obtain
+
+ without any need for further calculations. This example is so simple that it obscures
+
+ the many difficulties that one may have to overcome in order to apply the procedure.
+ However, Kermack and McCrea are quite clear about these difficulties:
+
+ Ô Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:34:48 UTC
+All use subject to https://about.jstor.org/terms
+
+ 682 S. C. Coutinho
+
+ The processes employed may be called pre-multiplication zná post-substitution.
+
+ It is evident from the operational form of the equations that we may substitute
+
+ only for a quantity which immediately precedes the x • In practical cases we may
+
+ always check the algebra by verifying that x remains a solution of any equation
+
+ obtained. These rules never permit of any ambiguity of interpretation. The only
+
+ difficulty is that sometimes they do not yield a solution in finite terms of [(6.2)]
+ for Q. This is the case, for example, if one requires the solution of a general
+ quadratic equation. There seems to be nothing corresponding to 'completion of
+
+ the square' of ordinary algebra, but we may assume there exists a formal solution
+ in series.
+
+ Indeed, as we will see later in Sect. 9.1 the fact that the authors assume that such
+
+ 'formal solutions' always exist is one of the weakest points of the paper even when
+
+ judged by the standards of the 1930s.
+
+ 6.3 Definite integrals
+
+ Immediately after the comment quoted above, Kermack and McCrea turn to the anal-
+
+ ysis of Whittaker's approach to the solution of definite integrals. Let us assume that
+
+ Ý(q)=Jx(q,t)<Kt)at (6.17)
+
+ and that 0 satisfies a given linear differential equation; say
+
+ G(ř'^W)=0; (6.18)
+
+ where G(ß, P) can be written as a sum of monomials of the form Pn Qm. They begin
+
+ by studying the action of one of these monomials on ý (q). Writing both P and Q in
+ terms of q and p = -d/dq, we have
+
+ pnQm^ =Jpn ^ _^ Qm ^ _^ ^ tm)àt%
+
+ which equals
+
+ / pn (*- "¿) tmx(q' t)<t>mt = I hpn'x {q' "¿) tn>x(q' tm)àt'
+
+ by the two equations of (6.7). On integrating by parts once, we obtain
+
+ Pn-lx tm<l>-J Pn~l (q, ~' ± {tmx(q, 00(0) di;
+
+ ö Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:34:48 UTC
+All use subject to https://about.jstor.org/terms
+
+ Whittaker on contact transformations 683
+
+ and if we keep doing this we end up with an expression of the form
+
+ / H ' n~^ 1
+
+ [H p»-ix . tm<t> - p"-2x-(tm4>) + ■■■ + (-i)"-1/ y^j (tm<P)
+ +(-l)nJx(^)'tm<t>)dt- (6.19)
+
+ Since these calculations apply to each one of the monomials of G we get that
+
+ / X(i. t)G (t, 1) *m = I + G (q (,, -A) , _p (,, _£)) ,(i),
+
+ where I is a sum of terms like the one that appears in square brackets in (6.19).
+ Choosing the path of integration C such that I vanishes on C and taking (6.18) into
+ account,
+
+ which is actually the converse of Whittaker's original theorem. But, as the authors
+
+ point out in Sect. 3.2 of their paper, the original statement can be proved in essentially
+
+ the same way. The result is summarised on page 208 of Part 1 as follows:
+
+ If the function </> satisfies a given differential equation G(ß, P)(/> = 0, then the
+
+ definite integral [(6.17)], taken along a suitable path, will satisfy the differential
+ equation obtained by substituting for Q, P in G(Q, P) the values of Q(q, p)
+ and -P(q,p) derived according to the given rules. The order of the factors in
+ terms like Pn Qm must be preserved.
+
+ They give a nice application of this result to the integral
+
+ Ý(q) = J exp í^' (1 + ř)"5"1 d - t)kn-l)àt;
+
+ c
+
+ with C chosen as the 'contour that encircles t = - 1 and begins and ends at - oo'
+ Taking / = exp(#2ř/4), it follows that W = q2t/4. Thus, in this case, (5.1) gives
+ P = q2/4 and p = -qQ/2; which when solved for g, P9 give Q = -2q~lp and
+ P = q2/4. Now, our choice of x requires that <f>(t) = (1 + t)~%~l(l - t)?(n~l'
+ which is easily shown to satisfy the differential equation
+
+ <'2-»£-H-ï')*=o;
+
+ which corresponds to the differential operator
+
+ £l Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:34:48 UTC
+All use subject to https://about.jstor.org/terms
+
+ 684 S. C. Coutinho
+
+ G(ß, P) = (ß2 - 1)P - (n + l- - 3-q} .
+
+ Substituting the expressions for Q, P in terms ofq,p obtained above in this operator,
+
+ we find that 'j/ must be a zero of
+
+ / , d id 'q2 ( 1 id'
+ V áq áq ) 4 V 2 áq J
+
+ Note that (^~1d/d^)(^~1d/d^) must be computed according to the rules of the alge-
+
+ bra established in Sect. 6. 1 . Performing this rather messy calculation, we may write
+
+ the equation for ý in the form
+
+ d20 / 11 2'
+
+ A look at some standard reference like Watson and Whittaker ( 1 963 , Sect. 1 6.5 , p. 347)
+
+ shows that this is the Weber equation, which received this name because it appears in
+
+ a paper of Weber (1869) on the solution of a partial differential equation that arises
+
+ when one studies certain physical problems (like heat propagation) on cylindrical sur-
+
+ faces. In the language of Whittaker and Watson, the calculations we performed above
+
+ amount to proving that ^ is a constant multiple of the parabolic cylinder function Dn.
+
+ In other words, we have given an integral representation for Dn . See also Watson and
+
+ Whittaker (1963, Exercise 11, p. 353), where the constant of proportionality is given
+
+ explicitly.
+
+ 6.4 Generalised equations
+
+ It turns out that to subsume all the examples in Whittaker 's paper (1931) under this
+ scheme it is necessary to consider what Kermack and McCrea call generalised equa-
+ tions for the function x • Let
+
+ Px=h(piq)x (620)
+ Qx=Hp,q)x,
+
+ be a pair of compatible differential equations, and let S be a function of q and p.
+ Recall that we are assuming that P = 3/3 ß and p = -d/dq. Note that, with this
+ interpretation, œ is actually a differential operator on q, p. Multiplying both sides of
+ (6.20) by S"1 , we have
+
+ œ~xPx =cû~Xh(p,q)x
+ ü>~lQx =cú~Xk(p,q)x.
+
+ £ì Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:34:48 UTC
+All use subject to https://about.jstor.org/terms
+
+ Whittaker on contact transformations 685
+
+ Since, according to the relations satisfied by q, p, g, P, the operator co commutes
+ with both g and P, these last equations become
+
+ Writing x* = cú~1x and taking into account that a>~xœ = 1, we end up with a new
+ pair of compatible equations, namely
+
+ More generally, Kermack and McCrea point out that if the relations
+
+ Pù)~lx =a)~lh(p,q)x
+ Qù)-lx =ù)-lk(p,q)x.
+
+ PX*=Z-ih(p,q)cox*
+ Qx*=Z-lk(p,q)œx*.
+
+ H(Q,P)x=h(p,q)x
+
+ K(QìP)x=k(pìq)x,
+
+ yield a compatible pair of equations with the solution x then, given a 'function' n of
+ g, P, the relations
+
+ n-1JÎ(j8,P)nX*=S-1A(p^)Sx*
+ n-lK(Q,P)nx* =œ-xk(p,q)a>x*.
+
+ yield a new pair of compatible equations whose solution is given by x * = ^5~ 1 n ~ l x •
+
+ For example, by taking n = g, we can transform the system
+
+ PX =qQ~lX
+ PX = -logg/,
+
+ into
+
+ qX* = PQx* ,,9n (6-21)
+ PX* = -loggx*, ,,9n (6-21)
+
+ where x* = g"1 X • Moreover, since g^ is a solution of the original system, it follows
+ that x* = Qq~x satisfies (6.21).
+
+ In the remainder of their paper, Kermack and McCrea discuss the case whereby
+ the generating function of the contact transformation has P and p as its independent
+ variables (Sect. 5.1) and the composition of transformations, which they call suc-
+ cessive transformations (Sect. 6.1), giving several examples along the way. This last
+ topic leads to a method that can be used to evaluate definite integrals based on the
+ elimination of operators between two given equations (Sects. 6.2 and 6.3).
+
+ 4Q Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:34:48 UTC
+All use subject to https://about.jstor.org/terms
+
+ 686 S. C. Coutinho
+
+ integrals: part II
+
+ 7 On Professor Whittaker's solution of differential equations by definite
+
+ Subtitled Applications of the methods of non-commutative algebra, Part II continues
+
+ the search for solutions of ever more general differential equations that began in Parti.
+
+ Indeed, as the authors state at the very beginning of the paper:
+
+ It will be shown in the present communication that the necessary and sufficient
+
+ condition that [the system (6.7)] should be compatible is that
+
+ Q(q, p)P(q, p) - P(q, p)Q(q, p) = 1, (7.1)
+
+ regarded as an equation in the non-commutative variables q , p which themselves
+
+ satisfy the condition
+
+ qp-pq = '. (7.2)
+
+ We shall call functions satisfying this condition conjugate functions. From this
+
+ point of view the method employed by Professor Whittaker in his original paper,
+
+ involving the use of a contact transformation, was really a particular method
+
+ of generating conjugate functions. This powerful method may be supplemented
+
+ and extended by the other methods developed in the following pages.
+
+ However, in order to do this they found it necessary to dig deeper into the underlying
+
+ non-commutative algebra
+
+ In working out this theory it has been found necessary to develop somewhat the
+
+ algebra of non-commutative variables obeying the law [(7.2)].
+
+ The paper is divided into three parts, which we call ILA, II.B, and II.C, that we discuss
+
+ in some detail below. All the proofs in Part II are formal calculations with expressions
+
+ in q and p, taking into account only the commutation relation qp - pq - '.
+
+ 7.1 Non-commutative algebra
+
+ In Part II. A the authors investigate some properties of the algebra of non-commuta-
+
+ tive operators that are required for the applications in subsequent parts. They begin
+ by formally defining the derivative of an operator with respect to q and p, denoted
+ by 8/8q and 8/8p respectively, and by proving that the rules they introduce corre-
+ spond to commuting with the conjugate operator. Thus, if K(q, p) is an element in
+ the non-commutative algebra generated by q and p, then
+
+ 8J^. 8q = K(q1p)p-pK(qip);
+
+ 8q
+
+ as shown in Sect. 3, Theorem I. As Kermack and McCrea themselves point out, this
+
+ had already been observed by Dirac (Dirac 1926a,b; also in van der Waerden 1967,
+ pp. 307-320, Ml-'21). The uniqueness of this derivative is proved in Theorem II.
+ Defining integration as the 'process inverse to differentiation', it is shown in Theorem
+
+ Ô Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:34:48 UTC
+All use subject to https://about.jstor.org/terms
+
+ Whittaker on contact transformations 687
+
+ III that every function has an integral with respect to q and that this integral is unique
+
+ up to a function of q. Of course, a similar result holds for integrals relative to p.
+
+ Following present terminology we have chosen to refer to K(q, p) above as an ele-
+
+ ment of the non-commutative algebra generated by q and /?, but Kermack and McCrea
+
+ call it a 'function of q and p' Indeed, although they call attention to some of the prob-
+
+ lems encountered in calculating with these 'functions', like using the correct relations
+
+ when swapping sides, they are never clear about the hypotheses these 'functions' have
+
+ to satisfy for the theory to make sense mathematically. As they put it:
+
+ All mixed derivatives are independent of the order of differentiation, provided the
+
+ necessary differentiability conditions are satisfied. It would, however, be difficult
+
+ to formulate conditions of convergence or continuity or differentiability in the
+
+ present variables. In this paper, we leave aside such considerations and assume
+
+ that the functions with which we deal are such that we may legitimately perform
+ the required operations upon them. (Kermack and McCrea 1931b, p. 221)
+
+ This is essentially Dirac's point of view in Dirac (1926b) (also in van der Waerden
+ 1967, pp. 417-427).
+
+ The fact is that it would have been easy to give a formal justification for these
+
+ results if one could restrict oneself to polynomial functions in q and p. This, however,
+ is not enough for the intended applications. Indeed, most of Part ILA of the paper
+ is concerned with functions defined by series, specially the exponential function. In
+ order to do this, it is necessary first to find a binomial formula for (p + q)n. As a
+
+ preparation they prove in Theorem IV that if the derivatives of L(q, p) with respect to
+
+ q and p coincide, then L(q, p) is a function of q + p. Theorem V gives the familiarly
+ looking formula
+
+ oq op
+
+ An induction is then used in Theorem VI to show that
+
+ (/> + <?)" _^/lV 1 (Pi+q)n-2j n„ (7-3)
+ -^-±{ï) ß (n-2jV. ' n„ (7-3)
+
+ where
+
+ (pi+q)n = Ít(n)pn~J<lJ W
+
+ 7=0 W
+
+ is the 'usual' binomial formula, written so that p always precedes q. Note that (7.3)
+ is a finite sum, since only finitely many of its terms are non-zero.
+
+ Turning now to Sect. 6, we find the definition and properties of the exponential
+ function in q and p. Take eq, for instance. Since this is a function of q only, it may
+ be defined with the help of the usual infinite series. The same, of course, holds for
+
+ ď. However, problems related to the non-commutativity of q and p take over when
+
+ £l Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:34:48 UTC
+All use subject to https://about.jstor.org/terms
+
+ 688 S. C. Coutinho
+
+ we try to find what ď+q should be. The solution is given in Theorems VII and VIII,
+ where it is shown that
+
+ ep+q _ eMe1/2 = e~l/2eqep.
+
+ The remainder of Part ILA (Sect. 8) consists of a long and drawn out formal calculation
+
+ that leads to a formula for (q + 0 (p))n in terms of the exponential function of a series,
+
+ where 0 is 'any function of p'
+
+ 7.2 The solution of differential equations
+
+ In Part II.B we come to the applications of non-commutative algebra to differential
+
+ equations. The section begins with two 'preliminary results', the first of which (The-
+ orem X) states that every element of the algebra in q, p is conjugate to q. In other
+
+ words, given any p(q, p), there exists co(q, p) such that
+
+ p(q, p) = co(q, p)qco(q, p)~X . (7.4)
+
+ Their 'proof of this result is as follows. First, (7.4) is equivalent to
+
+ p(q,p)œ(q,p) =œ(q,p)q,
+
+ ~ ~ S(õ(q9p)
+ co(q, ~ p)q = qo>(q, ~ P)
+
+ whilst,
+
+ so that
+
+ 8p
+
+ which they consider as a differential equation to be solved by the method of undeter-
+ mined coefficients. In order to do this both a>(q, p) and q - p are written as power
+
+ series on p whose coefficients are functions on q. This leads to a recursive system that
+ the authors claim can be formally solved.
+
+ Now let p(q, p) be any element of the algebra in q, p, and let cû(q, p) be chosen
+
+ so that (7.4) is satisfied. Then, if
+
+ cr(q, p) = a>(q, p)pco(q, p)~X
+
+ it follows that pa - op = 1; and p and a are said to be conjugate functions. This
+ is Theorem XI, which states that for every 'function' p(q, p) there is a 'function'
+
+ o(q,p) such that p and a are conjugate. The converse of this result is given in Theo-
+ rem XII, where it is shown that every pair of conjugate functions can be obtained by
+
+ Ô Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:34:48 UTC
+All use subject to https://about.jstor.org/terms
+
+ Whittaker on contact transformations 689
+
+ conjugating q and p with an appropriate 'function' œ(q, p). Their proof of this result
+
+ makes use of the exponential defined in the Part ILA.
+
+ It is only with Theorem XIII (Sect. 10) that we properly turn to the applications of
+
+ these results to differential equations. More precisely, the authors prove that a pair of
+
+ equations of the form
+
+ Q(q,p)x = Qx r7Sx { }
+ P(q,p)X = Px r7Sx { }
+
+ is compatible if and only if Q (q , p) and P(q, p) are conjugate as functions of the oper-
+ ators q and p = -d/dq. Writing the commutator Q(q, p)P(q, p) - P(q, p)Q{q, p)
+ as [Q(q, p), P(q, /?)], we have from (7.5) that
+
+ [P(q,p),Q(q,p)]X = [Q,P]X=X'
+
+ where the last equality follows by taking P = d/dQ as in Part I. Next, the authors
+ claim that if [P(q, p), Q(q, p)] / 1 then the previous equation implies that / (q, Q)
+ may be written as a product,
+
+ where ([Q(q, p), P(q, p)] - l)X = 0. This, however, is not compatible with the
+ original system, thus proving that [P(q, p), Q(q, p)] = 1. Conversely, if P(q, p)
+ and Q(q, p) are conjugate, then there exists a function a> such that
+
+ Q = ã(q, p)qœ(qi p)~x and P = a>~x {q, p)pcú(q, p). (7.6)
+
+ In this case, (7.5) has a solution given by œ(q, p)t~qQ' so the equations are indeed
+ compatible.
+
+ Theorem XIII is used to give a unified approach to the two methods of constructing
+ contact transformations used in Part I. Recall that, in the first method, the contact
+
+ transformation was constructed from a generating function W(q, Q)' whilst, in the
+ second, P(q, p) and Q{q, p) were given as in (7.6). In terms of the integral (6.17),
+ the kernel x (which they call a nucleus) equals e^ in the first method and a>t~qQ in
+
+ the second. The equivalence of these two methods is made explicit in the following
+ theorem.
+
+ Theorem XIV To any given œ-function there corresponds a X'fanction given by
+ X(q> Q) = 25(#, p)e~qQ = e~qQ(o(q, Q), and to any ^-function there corresponds
+ a œ-function given by co(q, Q) = eq@x(q, Q)-
+
+ The next result (Theorem XV) proposes a method for constructing a family of con-
+
+ tact transformations. It is followed by two theorems of a very general nature. Consider
+ a differential equation
+
+ g(q, p)yfr = 0, where p = -d/dq.
+
+ Ô Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:34:48 UTC
+All use subject to https://about.jstor.org/terms
+
+ Theorem XVI The solution of this equation is given by
+
+ 690 S. C. Coutinho
+
+ 1r(q)=fiï(q,p)e-*tdt (7.7)
+
+ where œ is defined by g(q, p) = - cůqa)~x;
+
+ Theorem XVII IfG(Q, P)</> = 0 is any other linear differential equation, then there
+
+ exists a function x such that
+
+ Ý(q)=J X(q,P)<P(Q)dQ, (7.8)
+
+ for a suitable path of integration.
+
+ Thus, whilst Theorem XVI gives a general formula for the solution of any linear dif-
+
+ ferential equation, Theorem XVII shows that the solutions of any two such equations
+
+ are connected by an integral formula.
+
+ The proofs of both theorems follow by combining previous results from Parts I and
+
+ II. Thus, by Theorem X, there exists co such that g(q, p) = -œqco~x , and by Theorem
+ XIV we have an explicit formula for the corresponding x -function. Let 0 = 0(ř) be
+ a function that satisfies d0/di = 0. Hence, P(j)(q) = 0 and by Part I, the function 'jr
+ defined in (7.7) is a solution of g{q, p)^ = 0; which proves Theorem XVI.
+
+ In order to prove Theorem XVII we must first introduce the adjoint G of G as the
+
+ operator obtained by 'reversing the order of each term and changing the sign of P9
+ (Kermack and McCrea 1931b, p. 234). Next, we determine (Theorem X) œ(q, p) and
+ Y'(q, p) suchthat
+
+ g(q, p) = -œqœ~x and G(q, p) = -n^FT1.
+
+ Thus, x = coTle~qQ is a solution of the equations
+
+ -œqœ-xx = TÌPYTìx C7-9)
+ a>pœ~xx = nQT'-xx (7.10)
+
+ which, being compatible, define a contact transformation from q, p to ß, P. Thus,
+ by (7.9), g(q, p) = G(Q, P). But this is exactly the condition required to apply the
+ results of Part I in order to conclude that if 0 satisfies G(g, P)<j> = 0 then the function
+
+ Ý defined by (7.8) satisfies g(q, p)f = 0.
+
+ Part II.B ends with an integral formula for the function œ that satisfies Q(q, p) =
+
+ a>pa>~x . Suppose that the function x corresponding to the given contact transformation
+ is known, and let 6(Q, t) be the function defined by
+
+ e-«Q=[o(Q,t)x(q,t)dt.
+
+ â Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:34:48 UTC
+All use subject to https://about.jstor.org/terms
+
+ Whittaker on contact transformations 691
+
+ Since x = 5e~*ř, then
+
+ œ~le-qQ = [ 0(Q,t)e-qtdt,
+
+ is the desired formula.
+
+ 7.3 The identical transformation and infinitesimal transformations
+
+ This short part collects a miscellany of results. Of course the identical transformation
+ of the title is the one given by Q = q and P = p. Applying Whittaker's Theo-
+ rem to this transformation it is possible to prove the well-known property of Dirac's
+
+ ¿-function; namely,
+
+ Ý(q) = Jir(t)S(t-q)dt.
+
+ An infinitesimal transformation is a deformation of the identical transformation by a
+
+ function depending on a parameter e whose square vanishes. The authors prove that,
+ for any 6(q, p) the formulae
+
+ Q = q- €80 /Sp and P = p + eSO/Sp
+
+ define a contact transformation. Articles 15-17 discuss some identities, including a
+ generalisation of Taylor's Theorem to non-commutative variables. Finally, in Sect. 18
+ the authors state that every algebra whose generators q, r satisfy qr - rq = F(r, q)
+ 'can be reduced to the algebra for which' qp - pq = 1. This has to be interpreted
+ with great care because it is not true that every algebra with a relation of this sort is
+
+ isomorphic to the Weyl algebra; indeed, we need only take qr - rq = 0 to see that.
+
+ The argument given in the paper depends on infinite series in q, p which, as we shall
+ see, can cause all sorts of problems; see Sect. 9.1 for more details.
+
+ 8 Three more papers
+
+ In this section we discuss two shorter papers of Kermack and McCrea that explore
+ and extend some of the themes discussed in Parts I and II, and a more elementary
+ exposition of these methods written by McCrea for the Mathematical Gazette. The
+
+ notation we have been using will remain in force throughout this section.
+
+ 8.1 An operational method
+
+ The main result of this paper is a formula for ifr in terms 0 that, unlike (7.7), does not
+
+ involve integration. In keeping with the policy of Parts I and II we consider only the
+
+ 2-dimensional case of the result. This is essentially what the authors do for, although
+
+ â Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:34:48 UTC
+All use subject to https://about.jstor.org/terms
+
+ the statement is given in full generality in Kermack and McCrea (1931c, p. 177), they
+
+ prove it only in dimension two.
+
+ Theorem 8.1 Consider a contact transformation from the variables q, p to the vari-
+ ables Q, P derived from the function W(q, P), so that
+
+ 692 S. C. Coutinho
+
+ dw dw
+ Q = - and p= -
+
+ and suppose that the variables g, P when expressed in terms ofq, p are denoted by
+ Q(<7, /?), P(q, p). Suppose that(p(Q) satisfies the differential equation G(Q, P)</> =
+ 0, where P = 3/8 Q. Let F(q, p)'/r = 0 be the equation obtained by substituting
+ Q(q, p)for Q and - P(#, p)for Pf where p = -d/dq. Then
+
+ Kermack and McCrea give two proofs of this result, both of which take as their
+
+ starting point the integral expression for ý in terms of </> given in (6.17) and formally
+
+ deduce from it the required differential expression (see Kermack and McCrea 1931c,
+
+ p. 177). Neither of these proofs is complete, a fact that the authors themselves point
+
+ out; adding that:
+
+ There is much more that requires investigation about the nature of the functions
+
+ for which the result holds and the paths of integration used to obtain it, and about
+
+ the degree of generality when obtained. We do not attempt this investigation, but
+
+ pass on to applications of the general theorem.
+
+ See Kermack and McCrea (1931c, p. 176). After a brief discussion of how Theorem
+
+ 8. 1 can be generalised in the spirit of Part II, the authors turn to what they call special
+ cases. By taking W = qP, they argue in Sect. 6 that the theorem can be seen as a
+
+ generalisation of Taylor's Theorem, which they write in the form
+
+ Ý(x + h) = ehá/áxÝ(x).
+
+ In Sect. 7 they use their method to give a new proof of a result by Fischer (1929,
+ Sect. 10, p. 226ff) on the moment-generating function; whilst Sect. 8 is concerned
+ with obtaining a differential equation satisfied by a function series. This in turn leads
+ to a method that allows them 'formally to reduce the solution of any [linear] differ-
+
+ ential equation [...] to a simple quadrature, together with the solution of a problem
+ in non-commutative algebra' (see Kermack and McCrea 1931c, Sect. 9, p. 184). The
+
+ 'problem in non-commutative algebra' is that of finding the 'roots' p of the equation
+ p = F(q, p) - 1, where F is a polynomial expression in q, p = -d/dq. Generating
+ functions are the theme of Sect. 10, where it is shown that their method can be used to
+
+ derive differential and difference equations for the functions of q that constitute the
+
+ coefficients of the power series in t of a generating function eu^qJK
+
+ £l Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:34:48 UTC
+All use subject to https://about.jstor.org/terms
+
+ Whittaker on contact transformations 693
+
+ From Sect. 12 (infinitesimal transformations) and throughout the whole of the final
+
+ section (called 'examples and applications') Kermack and McCrea apply these results
+ to various choices of W9 deriving from some of them new proofs of well-known
+ results about special functions such as Bessel's function (Sect. 14), Hermite polyno-
+ mials (Sect. 15) and Laguerre polynomials (Sect. 16).
+
+ 8.2 On compatible differential equations
+
+ The authors explain the aim of this paper as follows:
+
+ In some previous work [i.e. the three papers we have already discussed] we have
+
+ defined conjugate partial differential equations for a function of two variables.
+
+ In the present paper we begin by examining more fully the condition for their
+
+ compatibility and that of their adjoint equations. We then extend the work to the
+
+ case where, instead of partial derivatives with respect to one of the variables,
+ we have differences with respect to that variable. This is the case applicable to
+ discrete eigenvalues. It is well known that the eigen-solutions of a linear dif-
+ ferential equation involving a parameter are orthogonal to those of its adjoint
+
+ equation. This parameter can be treated as the second variable in this work, and
+ a difference equation with respect to its eigenvalues can be written down for
+
+ the eigenfunctions. What we now show is that the eigen-solutions of this differ-
+
+ ential and difference equation, and those of the adjoint pair of equations, form
+ normalized orthogonal sets.
+
+ See Kermack and McCrea (1933, p. 81). This is followed by the usual disclaimer:
+
+ We do not examine fully the general conditions under which the latter theorem
+
+ is true. Our purpose is rather to show how it can be used to predict the existence
+
+ and form of orthogonality relations, the strict validity of which may require
+ independent investigation.
+
+ As the statement above indicates, Sect. 2 begins with a study of the system
+
+ (ß(*,p)-ß)X=0 (8.1)
+
+ (P(qìP)-P)X=0 (8.2)
+
+ which, by Theorem XIII of Part II (see Sect. 7), is compatible if and only if
+
+ Q(q, p)P(q, p) - P(q, p)Q(g, p) = 1. (8.3)
+
+ This is followed by one of the main results of the paper.
+
+ Theorem II If the condition [8.3] is satisfied, and ifQ(q, p) is an integral function
+ °fP of degree n, then there are in general n, and only n, common solutions x(#, Q)
+ of [8.1, 8.2], linearly independent in both q and Q.
+
+ The proof they proposed is rather clever and deserves to be reproduced here.
+
+ Following the authors, we give it only for « = 3. Since Q(q, p) has degree n = 3
+
+ £i Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:34:48 UTC
+All use subject to https://about.jstor.org/terms
+
+ 694 S. C. Coutinho
+
+ in p = -d/dq9 it follows that Eq. 8.1 is a linear differential equation of the third
+ order. As such, it has a basis of three elements, which we denote by xi, X2 and X3-
+
+ These are functions of q and Q, and every other solution of (8.1) can be written as a
+ linear combination of xi , X2 and X3 with coefficients that are functions of g. All the
+
+ computations that follow take place in the algebra generated by q, p, Q, P, subject
+ to the rules stated in Sect. 6.1. Multiplying (Q(q, p) - Q)Xj = 0 respectively by
+ P(q, p) and P, and using the commutation relations, we get the two equations
+
+ (Q(q, p)P(q, P) - QP(q, p) " DXy = 0
+
+ (Q(q,p)P-QP-l)Xj=O;
+
+ which, when added up and factored, give rise to
+
+ (Q(q,p)-QKP(q,p)-P)Xj=O.
+
+ Thus (P(q, p) - P)Xj is a solution of (8.1) and, as such, may be written in the form
+
+ (P(q,p)-P)Xj =<*j'Xi +aj2X2 + aj3X3.
+
+ Thus, if x =¿1X1 + ¿2X2 + ¿3X3> we obtain from the previous equations that
+
+ (P(q, p) - P)x = ¿ (aijbi + a2jb2 + a3jb3 - ¿}) Xj, (8.4)
+
+ where bf- = dbj/dQ. Thus x is also a solution of (8.2) if and only if the ¿s satisfy
+ the system of differential equations given by the vanishing of the coefficients of xi,
+ X2 and X3 in (8.4). By eliminating two of the bs, say b' and ¿2, we can produce a
+
+ linear differential equation of the third order in the remaining b3. This equation is then
+
+ solved, and each one of its three solutions will give rise to a triple ¿1 , ¿2, ¿3 that is a
+
+ solution of the required system, thus completing the proof of the theorem.
+
+ Adjoint equations (already defined in Sect. 7.2 above) are introduced in Sect. 2,
+ where it is also proved that if a pair of equations is compatible then so are their
+
+ adjoints. Difference equations appear for the first time in Sect. 3 as an equality of the
+ form (S(q, p) - ep)x = 0, where ep is the operator formally defined by ep/(ß) =
+ f(Q + 1). Two theorems are then stated. According to the first (Theorem IV) the
+
+ system
+
+ (Q(q,p)-Q)X=0 (8.5)
+ (S(q,p)-ep)x=0, (8.6)
+
+ is compatible if and only if
+
+ Q(q, p)S(q, p) - S(q, p)Q(q, p) = S(q, p),
+
+ £l Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:34:48 UTC
+All use subject to https://about.jstor.org/terms
+
+ Whittaker on contact transformations 695
+
+ when qp - pq = 1; whilst the second (Theorem V) is the analogue of Theorem II
+ above for this system of equations. Finally, it is pointed out that the adjoint of the
+
+ operator ep is e~p; so the adjoints of equations (8.5) are
+
+ The orthogonality of x and x*, mentioned in the introduction to the paper (see quo-
+ tation above), can be formally stated as
+
+ (Ô*(<Z,/>)-Ô*)X*=0 (8.7)
+ (S*(q,p)-c-p)x* = 0, (8.8)
+
+ b
+
+ a
+
+ j X(q,Q)X*(q,Q')eq = k8QQ>i
+
+ where 8qq> is Kronecker's delta symbol. These orthogonality relations are proved in
+ Theorem VII of Sect. 5 by an integration by parts argument. A comment is required
+
+ concerning the limits of integration a and b. It is assumed that
+
+ the pair of solutions x and x* can be made to satisfy 'suitable boundary con-
+ ditions at end-points q = a,q = b (say), by restricting Q to assume integral
+ eigenvalues.
+
+ See Kermack and McCrea (1933, p. 87). What these 'suitable boundary conditions'
+ are, depends on the equations, some of which are discussed in Sects. 9-12. These
+ include Legendre polynomials (Sect. 10), parabolic cylinder functions (Sect. 11) and
+ Bessel functions (Sect. 12). This leaves out Sects. 6-8, which treat of some possible
+
+ generalisations of the previously discussed methods. Article 8, on continuous eigen-
+
+ values, deserves to be quoted in full:
+
+ A similar theory can be written down formally for the case of continuous eigen-
+
+ values, with Dirac's ¿-function replacing the Kronecker ¿-symbol. But the sat-
+
+ isfaction of the boundary conditions appears to be more difficult, and we have
+
+ not succeeded in constructing examples for which it holds.
+
+ See Kermack and McCrea (1933, p. 89).
+
+ 8.3 Operational proofs of some identities
+
+ This is the shortest of the four papers. It contains a brief explanation, by McCrea
+ alone, of the method developed in the previous papers with some applications to
+ special functions (Bessel and Legendre). We quote the first paragraph in full for the
+
+ opinion it contains on the merits of the method and the status of the theory of special
+ functions in the 1930s:
+
+ The interest of pure mathematicians is nowadays shifting from the study of spe-
+
+ cial functions to general function theory. In fact the study of special functions
+
+ might ultimately be forsaken, as for example in geometry the study of the trian-
+
+ gle is now virtually a closed chapter, were it not for one important consideration.
+
+ £l Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:34:48 UTC
+All use subject to https://about.jstor.org/terms
+
+ 696 S. C. Coutinho
+
+ That is, that these functions must always be in constant use in mathematical
+ physics. Hence their properties tend to become questions of practical applica-
+ tion rather than of theoretical interest. It follows that there is a demand for some
+
+ method, if only a formal one, which will derive the required properties in an
+
+ expeditious manner, without always calling for the services of the professional
+
+ pure mathematician. The purpose of this note is to show how a beginning might
+
+ be made by using a calculus of operators. We illustrate the method by obtaining
+
+ some identities for functions of hypergeometric type.
+
+ See McCrea (1933, p. 43). This point of view is reinforced at the conclusion, where it
+ is said that
+
+ The point illustrated, however, is that [the identities] can all be discovered by
+
+ the single method of transforming operators.
+
+ See McCrea (1933, p. 45).
+
+ 9 Discussion
+
+ As far as I can determine these papers had essentially no impact on the mathematics of
+
+ the twentieth century. In this section we seek to answer two questions. The first is why
+
+ this might be so; the second is whether this constitutes a case of a missed opportunity,
+ as defined by Dyson (1972).
+
+ 9.1 On rigour, and its absence
+
+ As the quotations given in Sects. 7.1,8.1 and 8.2 indicate, Kermack and McCrea knew
+
+ very well that theirs was a formal method, that would require a lot of work to become
+
+ acceptable by the standards of rigour of the 1930s. We begin with a problem that had
+ already been explicitly discussed in a paper published at about the same time, the
+ convergence of a series in q and p = -d/dq.
+
+ Recall that such series are necessary as long as we consider generalised equations
+
+ of the type introduced in Sect. 6.4, which are defined by conjugating with an operator
+
+ a>(q, p). Since all elements in the algebra generated by q, p are implicitly taken to be
+ sums of monomials in q and /?, we can only apply the results of Part I if 5(#, p)~x
+ can be so written. However, such a sum would very often be infinite; a series, in other
+ words.
+
+ The convergence of series in the algebra generated byq.p subject to pq - qp = 1
+ was discussed by Littlewood (1931, pp. 217-219). As Littlewood points out, there is
+
+ no difficulty in defining what it should mean to say that a sum of monomials in q, p
+
+ is convergent. However, as he puts it:
+
+ If two such series were multiplied, a question of convergence would arise, as
+ indeed it would in the multiplication of two infinite matrices.
+
+ £i Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:34:48 UTC
+All use subject to https://about.jstor.org/terms
+
+ See Littlewood (1931, p. 217). Indeed, it follows from pq -qp = l that
+
+ Whittaker on contact transformations 697
+
+ Pnqn = pq(pq + l)~-(pq + n-l).
+
+ Thus, for example, if we try to write the product (X/x)0*/7*) (Xy>o^#/ asaseries
+
+ in the monomials qkpl, we must deal with the sum
+
+ ;>o
+
+ which need not be finite even when X¿>o aiPl anci X/>o hq1 are convergent. Little-
+ wood, however, adds that
+
+ Without making any attempt to obtain best possible conditions, we give a suf-
+ ficient condition that multiplication should be possible according to the usual
+
+ rules. If, in the series of the form ^amtnpmxn for existent terms, m - n is
+ bounded above (alternatively below) products are always convergent, and in the
+ product m - n is still bounded above (below).
+
+ Of course x denotes what we have been calling q, and an 'existent term' is one whose
+ coefficient is nonzero.
+
+ Actually, as Littlewood also points out, although it is always possible to rewrite a
+
+ convergent series ^ aminpnqm into the form ^ bmfnqmpn, the latter need not be con-
+ vergent, so that 'it would appear to be necessary to restrict our infinite series to some
+ specific form' (Littlewood 1931, p. 217). The way out he proposes is to allow only
+
+ infinite series of the form ^bmtnqmpn. Unfortunately, by doing that we introduce
+ zero divisors; for example,
+
+ (,_.,+¿¿_£¿+...)f_fll
+
+ as one readily checks (Littlewood 1931, p. 218). Hence:
+
+ Instead of extending our original algebra thus by means of infinite series, we
+
+ can extend it by defining new quantities which are both right-hand and left-hand
+ inverses of polynomial expressions in x [q in our notation] and p.
+
+ See Littlewood (1931, p. 219). This approach is satisfactory from Littlewood's point
+ of view because his aim is to construct a division ring that contains the ring generated
+ by q, p subject to pq - qp = 1. We, however, require more, because our elements
+
+ must act on functions in some way, and it is not clear what the action of such an inverse
+ should be. For more details on Littlewood's paper, see Coutinho (2004). In Sect. 9.3
+ we will see how these problems were dealt with in the context of modern algebraic
+ analysis.
+
+ Reading these papers in chronological order, one gets the impression that the authors
+
+ became so deeply aware of the obstacles to formalizing their results that they began
+
+ £l Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:34:48 UTC
+All use subject to https://about.jstor.org/terms
+
+ 698 S. C. Coutinho
+
+ to suspect that such a formalization might not be possible. Thus, in Part I they seem
+
+ rather optimistic, writing that:
+
+ The only difficulty is that sometimes they do not yield a solution in finite terms
+
+ of [(6.1), (6.2)] for Q. [. . .] but we may assume there exists a formal solution in
+ series.
+
+ By the time they wrote Part II, the difficulties are spelt out more clearly:
+
+ It would, however, be difficult to formulate conditions of convergence or conti-
+
+ nuity or differentiability in the present variables.
+
+ But are immediately swept under the carpet:
+
+ we leave aside such considerations [of convergence] and assume that the func-
+
+ tions with which we deal are such that we may legitimately perform the required
+
+ operations upon them.
+
+ In Kermack and McCrea (1931c) this has become the less optimistic:
+
+ There is much more that requires investigation about the nature of the functions
+
+ for which the result holds and the paths of integration used to obtain it, and about
+
+ the degree of generality when obtained.
+
+ And, once again, they make clear that such investigation will not be carried out. A
+ similar observation is made in Kermack and McCrea (1933). By the time McCrea
+ (1933) was written, one almost senses a feeling of despondency. To begin with, even
+
+ the study of special functions seems to be at a low ebb, for
+
+ [t]he interest of pure mathematicians is nowadays shifting from the study of
+
+ special functions to general function theory.
+
+ However, since such functions are still important in physics,
+
+ [i]t follows that there is a demand for some method, if only a formal one, which
+
+ will derive the required properties in an expeditious manner [...].
+
+ Thus,
+
+ [t]he purpose of this note is to show how a beginning [my emphasis] might be
+ made by using a calculus of operators.
+
+ As the conclusion quoted above makes clear, what is proposed is no more than a
+ method for the discovery of these identities, that can then be proved rigorously by
+
+ pure mathematicians.
+
+ One final point concerns the local character of the results. Modern algebraic anal-
+
+ ysis makes use of sheaf theory to prove results over general manifolds, but Kermack
+ and McCrea do not even say whether they mean their results to be taken locally or
+
+ globally. This, however, is not a true fault of theirs, for such considerations would have
+ to wait for the second half of the twentieth century. At that time, results were implicitly
+
+ taken to hold only in the neighbourhood of a point, whenever that may be necessary.
+ Of course there were conflicts. After all, some of the definite integrals are computed
+
+ along paths that go to infinity; as we saw in Sect. 6.3. However, these problems were
+ dealt with case by case.
+
+ £l Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:34:48 UTC
+All use subject to https://about.jstor.org/terms
+
+ Whittaker on contact transformations 699
+
+ 9.2 Algebraic analysis
+
+ Although the papers of Kermack and McCrea do not seem to have had any influence on
+
+ the mathematics of the twentieth century (see Sect. 9.1), many of their results entered
+
+ mainstream mathematics as part of what became known as algebraic analysis. This is
+
+ an umbrella term for the study of (holomorphic) linear differential equations by alge-
+ bro-geometric methods: rings, modules, sheaves and cohomology (see Houzel 1990,
+ 1998). More concretely, one can think of algebraic analysis as the study of modules
+
+ over rings of differential operators. Such a module can be associated to both, a system
+
+ of linear differential equations and the space in which we seek its solutions. In this
+
+ language the solutions of a given differential equation are homomorphisms from the
+ module that represents the differential equation to the one where the solutions are
+ sought; see Coutinho (1995) or Björk (1979).
+
+ Algebraic analysis is a rather young subject, whose history is yet to be written.
+
+ Luckily, we need little more than a time line of its main achievements up to the early
+ 1990s, for our aim is merely to show in what way the work of Kermack and McCrea
+
+ can be formalized within this theory.
+
+ Algebraic geometrical methods entered the theory of linear differential equations
+ in the late 1950s and early 1960s. In the case of constant coefficients, a differential
+
+ operator can be considered as a polynomial in the d/dxs. Thus a system of linear
+
+ differential equations with constant coefficients gives rise to an algebraic variety, that
+
+ can be used to tease out the properties of the differential system. This is done, for
+ example, in Hormander (1955, Sect. 3.1, p. 211) and Matsuura (1961, Sect. 4, p. 96).
+ At about the same time M. Sato, then a postgraduate student and high school teacher
+
+ in Japan, was developing the theory of hyperfunctions:
+
+ during the summer of 1 957 1 tried to prepare something that I could show him [his
+
+ advisor, Shõkichi Iy anaga] , and that was hyperfunctions. I worked out hyperfunc-
+
+ tion series and outlined the theory for several variables - though the complete
+
+ theory was finished later, since it required a generalisation of cohomology theory.
+
+ In December of that year, I went to see Professor Iyanaga, after an interruption
+ of some years, and told him about it.
+
+ See Andronikof (2007, p. 211). Sato's algebro-geometric approach to the theory of
+ linear differential equations was first systematized in the 1970 Master thesis of his
+
+ student M. Kashiwara. This often quoted work, whose original was handwritten in
+ pencil, was only published in 1995 (see Kashiwara 1995). Kashiwara and Kawai, also
+
+ a student of Sato, helped him to develop and write his ideas on microdifferential anal-
+
+ ysis, which can be roughly described as analysis done in the cotangent bundle. This is
+
+ the origin of Microfunctions and pseudo-differential equations (Sato 1973) published
+ in 1973. It is in this context that the work of Kermack and McCrea can be formal-
+
+ ized as we explain in Sect. 9.3. For more details on the work of Sato and Kashiwara
+
+ see Andronikof (2007), Schapira (2003, 2007, 2009). In a parallel development, rings
+ of differential operators with polynomial (rather than holomorphic) coefficients were
+ also being studied by Bernstein (1971, 1972) in the USSR.
+
+ Although originally developed in the cradle of partial differential equations,
+ the scope of algebraic analysis widened to include representation theory. Indeed, in the
+
+ Ô Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:34:48 UTC
+All use subject to https://about.jstor.org/terms
+
+ 700 S. C. Coutinho
+
+ 1980s it provided one of the key ingredients in the solution of the the Kazhdan-Lusztig
+
+ conjecture in the representation theory of Lie algebras (see Beilinson and Bernstein
+
+ 1 98 1 ; Brylinski and Kashi wara 1 98 1 ). In this context one of the key results of the the-
+
+ ory is the Riemann-Hilbert correspondence, which is one of the latest developments
+
+ in a subject that goes back to the work of Gauss and Riemann on the hypergeometric
+ function and includes such classics as Fuch's work on equations with regular singu-
+
+ larities and Hubert's twenty first problem (see Gray 2000, Chaps. I and II; Borei et al.
+ (1987)).
+
+ 9.3 Kermack-McCrea and algebraic analysis
+
+ In this article we give a rough sketch of the local theory of microdifferential operators
+
+ and explain how the results in the papers of Kermack and McCrea can be formalized
+
+ in the context of this theory. As usual, we consider only the one dimensional case. In
+
+ this section we will follow the modern convention of setting p = d/dq, rather than
+ -3/dq as Kermack and McCrea do.
+
+ Let q, p be coordinates in the cotangent bundle T*C = C x C, and consider the
+
+ open set of those points T*C for which p ^ 0. We will work at the neighbourhood of a
+
+ point in this open set which, without loss of generality, we can assume to be z = (0, 1).
+ A function / = f(q,p), holomorphic in a neighbourhood of z, is p-homogeneous
+ of order s if f(q, p) = g(q)ps, where g(q) is holomorphic in a neighbourhood of z.
+
+ An infinite sum F = ^ fs(q, p) of p-homogeneous functions is a microdifferential
+ operator in a neighbourhood of z if
+
+ (1) there exists a neighbourhood U of z such that fs(q, p) is holomorphic and p-
+
+ homogeneous of order s in U'
+
+ (2) there exists an integer t such that fs = 0 for all s > t'
+ (3) there exist constants A and K such that
+
+ 'fs'u =sup{|/s(<7,/?)H(<7,p) € U] < A('s'')K^K forali*.
+
+ The set £ of all these operators can be made into a ring. The addition is defined as
+ usual, whilst the multiplication of F = ^s fs and G = ^s gs is given by
+
+ f^t k' dpk dqk '
+
+ A generalisation of these definitions to several variables and a proof that if F and G
+ belong to £, then so does F o G can be found in Björk (1979, p. 136).
+
+ For this ring to play its intended rôle, the commutation relations of Sect. 6.1 must
+
+ hold amongst its generators. However, by definition,
+
+ p o f(q> p) = /(#> p)p + T" while /to* p)°p = /(#> p)p
+
+ r) f
+
+ dq
+
+ Ô Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:34:48 UTC
+All use subject to https://about.jstor.org/terms
+
+ Whittaker on contact transformations 701
+
+ from which the relation poq- qop = l immediately follows. Since, under this
+ definition, p plays the part of the operator d/dq, from now on we use Ç to denote the
+
+ coordinate of T*C conjugate to q.
+
+ Given an element F = ^s fs e £, it follows from (2) that there exists a largest
+
+ integer m such that fm ^ 0 but fs = 0 for all s > m. This integer is called the order
+ of F, and we write cr(F) = fm(q, £)» a polynomial in the commutative variables q
+
+ and f . Using the order we can define a filtration in the ring £. It can now be proved
+
+ that if o-(F)(0, 1) # 0 then F is invertible in £. Recall that inverses were required in
+ Part II to prove that every 'function' ofq,p was conjugated to q' see (7.4). A similar
+ result holds in £:
+
+ if cr(F) = q, there exists an invertible element A e £ suchthat A oFo A~l = q.
+
+ Let us now turn to contact transformations. First of all, if F = ^ fs and G =
+ ]TS g s have orders, respectively, m and n, then the highest order term in F oG - Go F
+ is
+
+ 3/m dgn dgn Mm
+ dp dq dp dq '
+
+ which is equal to the Poisson bracket {/w, gn] = {cr(F), cr(G)}. Suppose now that 4>
+ is an isomorphism of £ that preserves operator order; in other words, if F € £ has
+ order m, than 4>(F) has order at most m. If $>(q) = Q(q, p) and <&(/?) = P(q, p),
+ then
+
+ 1 = $>(p o q - q o p) = <&(p) o <ï>(#) - <!>(#) o 3>(/?) = PoQ - QoP.
+
+ Hence,
+
+ 1 = a(P o Ô - Ô o P) = {or(P), or(ß)}.
+
+ This implies that the map of C2 defined by 0(#) = cr(Q) and </>(/?) = cr(Q) is a
+ contact transformation, as explained in Sect. 3.2. The converse also holds.
+
+ Theorem 9.1 Let f and g be holomorphic functions inq,Ç which are homogeneous
+
+ in Ç and satisfy {/, g} = 1. There exists an order preserving isomorphism O of E such
+ that
+
+ Suppose now that 4> is an order preserving isomorphism of £ defined by
+
+ cr($>(q)) = g and cr(&(p)) = f
+
+ 4>(F) = AoFoA~'
+
+ for some invertible A e £. Then, using the multiplicativity of or,
+
+ a(<D(F)) = cr(A oFo A"1) = a(A)cr(F)a(A~l) = cr(F),
+
+ 4y Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:34:48 UTC
+All use subject to https://about.jstor.org/terms
+
+ since the symbols are commutative polynomials (see Björk 1979, p. 138). In other
+ words,
+
+ 702 S. C. Coutinho
+
+ if an order preserving isomorphism O is defined by conjugation with an invertible
+ element of £ then a(<t>(F)) = cr(F).
+
+ Remarkably, the converse of this result is also true.
+
+ Theorem 9.2 If 0 is an order preserving isomorphism of E for which
+
+ cr(<t>(q)) =cr(q) = q
+
+ then there exists an invertible element A € £ such that O(F) = AoFoA"1.
+
+ Finally, let us turn to Whittaker's theorem on integrals. In order to even state the
+
+ theorem we ought first to explain how a microdifferential operator acts on a holomor-
+
+ phic function. That, however, is neither very natural nor very useful for our purposes.
+
+ Indeed, instead of taking a holomorphic function for the kernel of the integral, the
+ modern version of the theorem takes a microfunction defined in terms of Dime's 8.
+
+ For an elementary definition of microfunctions see Coutinho (1995, p. 48ff). Since
+
+ p = -d/dq is surjective as an operator on the space of microfunctions, the integration
+
+ operator can be defined as its inverse. The result we require is the following:
+
+ Let W = W(q, p) be a function and let P = P(q, p) be a microdifferential
+ operator. Under certain technical hypothesis on W there exists a microdifferen-
+ tial operator Q(q, p) such that
+
+ / P(q, p)8(W(q, t))u(t)dt = J 8(W(q, t))Q(q, p)u(t)àt.
+
+ Conversely, if P is given, a Q can be constructed so that the same equation
+ holds. Furthermore, P and Q are operators of the same order.
+
+ For a detailed statement and proof of this result see Kashiwara et al. (1986, p. 221).
+ Thus, if we assume that u{t) satisfies Q(q, p)u(t) = 0, then
+
+ 0=í P(q, p)8(W(q, t))u(t)dt = P(q, p) (J 8(W(q, t))u(t)dtj
+
+ which is a modern analogue of Whittaker's General Theorem; see Sect. 4.2.
+
+ 9.4 A case of missed opportunity?
+
+ In his well-known paper (Dyson 1972), Freeman Dyson introduced the idea of missed
+
+ opportunity, which he defines as
+
+ occasions on which mathematicians and physicists lost chances of making dis-
+
+ coveries by neglecting to talk to each other.
+
+ Ô Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:34:48 UTC
+All use subject to https://about.jstor.org/terms
+
+ Whittaker on contact transformations 703
+
+ A quick glance might suggest that the work of Kermack and McCrea fits this defini-
+
+ tion fairly well, if by mathematician we understand 'pure mathematician'; but, is this
+
+ really so? More precisely, had a pure mathematician of the 1930s looked carefully into
+
+ these papers of Kermack and McCrea, could he or she have developed the necessary
+ machinery and thus discovered the foundations of algebraic analysis 30 years before
+
+ anyone began to apply modern algebra to linear differential equations? It seems to me
+
+ that so far as this question has an answer, it must be no. Indeed, it is difficult to imag-
+
+ ine algebraic analysis being developed without the aid of cohomology and sheaves, a
+ technology that had not been developed at that time (see Houzel 1990, 1998).
+
+ On the other hand, consider the history of the ¿-function. It had been used by
+ Heaviside, and was independently introduced by Dirac in 1927, but had to wait for
+ L. Schwartz's work on distributions in the 1940s before it was accepted as a bona
+ fide mathematical concept. That, however, did not stop physicists from using it, nor
+
+ mathematicians from trying to provide an adequate formalization. The same is true of
+
+ Feynman integrals, which to this day have not been formalized in complete generality.
+
+ Nothing like that happened to the work of Kermack and McCrea. Their anticipation
+
+ of some of the ideas of algebraic analysis was totally forgotten and the developments
+
+ that led to an adequate formalization of what they had in mind was not influenced by
+ their work.
+
+ The difference surely lies in the many applications of both the ¿-function and
+ Feynman's integral. Physicists realized they were too useful to be put on hold until
+ they could be rigorously explained to the mathematicians' content. Nothing similar
+
+ happened to the work of Kermack and McCrea. To a pure mathematician of those times,
+
+ it must have seemed a rather strange sort of thing to study, with its quaint mixture of
+
+ analysis and noncommutative algebra. Moreover, most of the work on noncommuta-
+
+ tive rings before the 1960s was concerned with structure results that would have very
+
+ little to say about the algebra generated by p and q under the relation qp - pq = 1 . On
+
+ top of this, let us not forget that those were the times when algebraic structures were
+
+ most often studied for their own sake, whilst the study of microdifferential operators
+
+ makes very little sense outside the framework of searching for generalised solutions of
+
+ partial differential equations. Finally, their work was presented as a method to handle
+
+ properties of special functions, a subject that, as McCrea (1933) himself points out,
+ seemed to have exhausted itself at the time.
+
+ Summing up, although this may seem at first to be a case of missed opportunity,
+
+ a deeper look suggests that it would have been very unlikely for anyone at the time to
+
+ see much of an opportunity in it. There is one final question that we may ask, although
+ no answer can be found in the evidence available: had the papers by Kermack and
+ McCrea been brought to the attention of the early developers of algebraic analysis,
+ would they have influenced them in any way?
+
+ 9.5 Conclusion
+
+ In a 'research lecture' that took place in the autumn of 1930 at the University of
+ Edinburgh, E. T. Whittaker presented a new method he had devised for com-
+ puting certain definite integrals. The method was based on the use of contact
+
+ £} Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:34:48 UTC
+All use subject to https://about.jstor.org/terms
+
+ 704 S. C. Coutinho
+
+ transformations, a subject dear to Whittaker, who wrote its first presentation in English
+
+ in a chapter of his book Analytical Dynamics. However, Whittaker's proof of his the-
+
+ orem proved to be faulty, and this prompted two of his auditors to attempt to provide a
+
+ correct proof. The team consisted of a chemist (Kermack) and a physicist (McCrea),
+
+ both of whom worked in Edinburgh at the time. Their solution made use of the newly
+
+ invented algebra of quantum mechanics, which turns out to be the noncommutative
+
+ algebra generated by the operators that describe position and momentum in quantum
+
+ dynamics. As part of their attempt they uncovered a number of concepts and results
+
+ that are now part of algebraic analysis: the study of linear partial differential equations
+
+ from the algebro-geometric point of view. Amongst these results, one finds several
+
+ tools of the theory of microdifferential operators, such as:
+
+ • the existence of quantized contact transformations associated to a given contact
+
+ • the fact that some of these transformations can be given as conjugation by appro-
+
+ (canonical) transformation;
+
+ priate invertible operators;
+
+ • the relation between the solutions of two differential equations that are connected
+
+ by a quantized contact transformation.
+
+ These results are presented in the papers Kermack and McCrea (193 la,b), which were
+
+ written in what was by then a very unrigourous language. No hypotheses are made
+
+ concerning the convergence of any of the series that come up in the paper, a prob-
+
+ lem that is compounded by the difficulties inherent in defining convergent series of
+
+ noncommuting operators. Although the authors make clear that they are aware of at
+
+ least some of these problems, they always assume that their results hold as long as the
+
+ required hypotheses are satisfied. That such hypotheses actually exist one has to take
+
+ on trust, for they are never investigated.
+
+ Even though Kermack and McCrea anticipated a few of the ideas that make up the
+
+ present theory of rings of microdifferential operators, there is no evidence that their
+
+ work had any influence in their contemporaries, or at any later time. Remarkable as
+
+ their work is, it does not seem legitimate to argue that it is a case of missed opportunity
+
+ in the sense used by Dyson (1972) for, at the time the papers were published, there was
+
+ no one who could have taken that opportunity. The mathematical technology required
+
+ to carry out the development of the theory would only be created more than 20 years
+ later. Moreover, the work was presented in the context of the theory of special func-
+
+ tions, at a moment when the focus in pure mathematics was shifting to general function
+
+ theory. This meant that no other potential applications of these methods were explored,
+
+ so the papers disappeared from view leaving hardly a trace. To complicate matters,
+
+ algebraists were beginning their study of structures in the 1930s, and this mixture of
+ noncommutative algebra and analysis, with a touch of Hamiltonian mechanics, did
+ not fit the mathematical panorama that the leading mathematicians of those decades
+
+ were composing. So we seem to have, in these early applications of noncommutative
+
+ algebra to linear differential equations, a case of non-mathematicians stumbling upon
+
+ very important results, at a time when these results could not have been derived by
+
+ standard rigorous methods, even at a great cost of time and effort. That caused them to
+
+ be forgotten, until they were rediscovered, in a different context, more than 20 years
+ later.
+
+ â Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:34:48 UTC
+All use subject to https://about.jstor.org/terms
+
+ Whittaker on contact transformations 705
+
+ Acknowledgements The author was partially supported by grants from CNPq and Pronex (commutative
+
+ algebra and algebraic geometry).
+
+ References
+
+ 208-222.
+
+ letter 45: 14-15.
+
+ Sciences Paris 292: 15-18.
+
+ Andronikof, E. 2007. Interview with Michio Sato. Notices of the American Mathematical Society 54:
+
+ Arnold, V.l. 1989. Mathematical methods of classical mechanics, 2nd ed. New York: Springer.
+ Barrow-Green, J. 2002. Whittaker and Watson's 'Modern Analysis' . European Mathematical Society News-
+
+ Beilinson, A., and I.N. Bernstein. 1981. Localisation des G-modules. Comptes Rendus de l'Académie des
+
+ Bernstein, I.N. 1971. Modules over the ring of differential operators: A study of the fundamental solutions
+
+ of equations with constant coefficients. Funz Analysis, Akademia Nauk CCCR 5 (2): 1-16.
+
+ Bernstein, I.N. 1972. The analytic continuation of generalised functions with respect to a parameter. Funz
+
+ Analysis, Akademia Nauk CCCR 6 (4): 29-40.
+
+ Björk, J.-E. 1979. Rings of differential operators. Amsterdam: North-Holland.
+ Borei, A., et al. 1987. Algebraic D-modules. Boston: Academic Press.
+ Brylinski, J.-L., and M. Kashiwara. 1981. Kazhdan-Lusztig conjecture and holonomic systems. Investment
+
+ Mathematics 64: 387^10.
+
+ Coutinho, S.C. 1995. A primer of algebraic D-modules. Cambridge: Cambridge University Press, London
+
+ Coutinho, S.C. 2004. Quotient rings of noncommutative rings in the first half of the 20th century. Archive
+
+ Mathematical Society Student Texts 33.
+
+ for History of Exact Sciences 58 (3): 255-281.
+
+ Davidson, J.N. 1971. William Ogilvy Kermack. 1898-1970. Biographical Memoirs of Fellows of the Royal
+
+ Dirac, P. A.M. 1926a. The fundamental equations of quantum mechanics. Proceedings of the Royal Society
+
+ Society 17: 399^29.
+
+ A 109:642-653.
+
+ Dirac, P. A.M. 1926b. Quantum mechanics and a preliminary investigation of the Hydrogen atom. Proceed-
+
+ ings of the Royal Society A 1 10: 561-569.
+
+ Dyson, F.J. 1972. Missed opportunities. Bulletin of the American Mathematical Society 78: 635-652.
+ Fischer, R.A. 1929. Moments and product moments of sampling distributions. Proceedings of the London
+
+ Mathematical Society, Series 2 30: 199-238.
+
+ Gray, J.J. 2000. Linear differential equations and group theory: From Riemann to Poincaré, 2nd ed. Boston:
+
+ Birkhäuser.
+
+ Hormander, L. 1955. On the theory of general partial differential operators. Acta Mathematica 94: 161-248.
+ Houzel, C. 1990. Les debuts de la théorie des faisceaux. In Sheaves on manifolds, éd. M. Kashiwara and
+
+ P. Schapira, 7-22. New York: Springer.
+
+ Houzel, C. 1998. Histoire de la théorie des faisceaux. In Matériaux pour l'histoire des mathématiques au
+ XXe siècle-Actes du colloque à la mémoire de Jean Dieudonné (Nice 1996) Séminaires et Congrès,
+ vol. 3, 101-119.
+
+ Kashiwara, M. 1995. Algebraic study of systems of partial differential equations (Master's thesis, Tokyo
+
+ University, December 1970), translated by A. D'Agnolo and J.-P. Schneiders, Mémoires de la Société
+ Mathématiques de France, vol. 63.
+
+ Kashiwara, M., T. Kawai, and T. Kimura. 1986. Foundations of algebraic analysis (trans: Kato, G.). Prince-
+
+ ton: Princeton University Press.
+
+ Kermack, W.O., and W.H. McCrea. 1931a. On Professor Whittaker's solution of differential equations by
+
+ definite integrals: Part I. Proceedings of the Edinburgh Mathematical Society 2: 205-219.
+
+ Kermack, W.O., and W.H. McCrea. 1931b. On Professor Whittaker's solution of differential equations by
+
+ definite integrals: Part II. Proceedings of the Edinburgh Mathematical Society 2: 220-239.
+
+ Kermack, W.O., and W.H. McCrea. 1931c. An operational method for the solution of linear partial differ-
+
+ ential equations. Proceedings of the Royal Society of Edinburgh 51: 176-189.
+
+ Kermack, W.O., and W.H. McCrea. 1933. On compatible differential equations and the orthogonal proper-
+
+ ties of their solutions. Quarterly Journal of Mathematics Oxford Series 4: 81-92.
+
+ Kragh, H. 1990. Dirac: A scientific biography. Cambridge: Cambridge University Press.
+
+ Ô Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:34:48 UTC
+All use subject to https://about.jstor.org/terms
+
+ Littlewood, D.E. 1931. On the classification of algebras. Proceedings of the London Mathematical Society
+
+ Martin, D. 1958. Sir Edmund Taylor Whittaker, F.R.S. Proceedings of the Edinburgh Mathematical Society
+
+ 706 S. C. Coutinho
+
+ (2) 35: 200-240.
+
+ (2)11: 1-10.
+
+ Matsuura, S. 1961. On general systems of partial differential operators with constant coefficients. Journal
+
+ of the Mathematical Society of Japan 13: 94-103.
+
+ McCrea, W.H. 1933. Operational proofs of some identities. The Mathematical Gazette 17: 43-45.
+
+ McCrea, W.H. 1957. Edmund Taylor Whittaker. Journal of the London Mathematical Society 32: 234-256.
+ Sato, M., T. Kawai, and M. Kashiwara. 1973. Microfunctions and pseudo-differential equations. In Hyper-
+
+ functions and pseudo-differential equations, Proceedings of a Conference at Katata, 1971, 265-529,
+ Lecture notes in mathematics, vol. 287, New York: Springer.
+
+ Schapira, P. 2003. Mikio Sato, un visionnaire des mathématiques. Gazette des Mathématiciens 97: 23-28.
+ Schapira, P. 2007. Mikio Sato, a visionary of mathematics. Notices of the American Mathematical Society
+
+ Schapira, P. 2009. Masaki Kashiwara and algebraic analysis. In Algebraic analysis and around: In honor of
+
+ Professor Masaki Kashiwara' s 60th birthday. Advanced studies in pure mathematics. Singapore: World
+ Scientific.
+
+ Temple, G. 1956. Edmund Taylor Whittaker. Biographical Memoirs of Fellows of The Royal Society 2:
+
+ 54: 243-245.
+
+ 299-325.
+
+ van der Waerden, B.L. 1967. Sources of quantum mechanics. New York: Dover Publications.
+ Watson, G.N., and E.T. Whittaker. 1963. A course of modern analysis, 4th ed. Cambridge: Cambridge
+
+ Weber,H.F. 1869. Ueberdie Integration derpartiellen Differentialgleichung dzu/dxz+d¿u/dyz+kÁu = 0.
+
+ University Press.
+
+ Mathematische Annalen 1: 1-36.
+
+ Whittaker, E.T. 1931. On the solution of differential equations by definite integrals. Proceedings of the
+
+ Whittaker, E.T. 1 999. A treatise on the analytical dynamics of particles and rigid bodies, 4th ed. Cambridge:
+
+ Edinburgh Mathematical Society 2: 189-204.
+
+ Cambridge University Press.
+
+ Ô Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:34:48 UTC
+All use subject to https://about.jstor.org/terms
+
+

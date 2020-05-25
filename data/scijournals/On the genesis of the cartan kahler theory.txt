@@ -1,0 +1,2884 @@
+ 
+
+ 
+
+ 
+
+ 
+
+On the genesis of the Cartan-Kähler theory
+Author(s): Alberto Cogliati
+Source: Archive for History of Exact Sciences, Vol. 65, No. 4 (July 2011), pp. 397-435
+Published by: Springer
+Stable URL: https://www.jstor.org/stable/41287700
+Accessed: 19-05-2020 12:23 UTC
+
+JSTOR is a not-for-profit service that helps scholars, researchers, and students discover, use, and build upon a wide
+
+range of content in a trusted digital archive. We use information technology and tools to increase productivity and
+
+facilitate new forms of scholarship. For more information about JSTOR, please contact support@jstor.org.
+
+Your use of the JSTOR archive indicates your acceptance of the Terms & Conditions of Use, available at
+
+https://about.jstor.org/terms
+
+Springer is collaborating with JSTOR to digitize, preserve and extend access to Archive for
+History of Exact Sciences
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:23:17 UTC
+All use subject to https://about.jstor.org/terms
+
+ Arch. Hist. Exact Sci. (201 1) 65:397^35
+ DOI 10.1007/s00407-01 1-0081-6
+
+ On the genesis of the Cartan-Kahler theory
+
+ Alberto Cogliati
+
+ Received: 27 January 201 1 / Published online: 30 April 201 1
+
+ © Springer- Verlag 201 1
+
+ Abstract The theory of exterior differential systems plays a crucial role in Cartan's
+
+ whole mathematical production. As he once recognized, all the germs of his subsequent
+
+ work were contained there. Indeed, it provided him with powerful technical tools that
+
+ turned out to be very useful in many different fields such as the theory of partial dif-
+
+ ferential equations, the theory of infinite dimensional Lie groups (Lie pseudogroups)
+
+ and differential geometry. Nevertheless, scarce attention has been paid to this area of
+
+ historical research thus far. Although authoritative scholars have investigated the foun-
+
+ dation of exterior differential calculus in Cartan's early papers, no specific analysis of
+
+ Cartan's subsequent works laying the foundations of what nowadays is known as the
+
+ Cartan-Kahler theory has been yet provided. This article represents a first attempt to
+
+ remedy this unsatisfactory state of affairs by focusing on Cartan's work on Pfaffian
+
+ systems at the very beginning of the past century. The analysis of Cartan's relevant
+ papers is preceded by a description of the historical context in which such contribu-
+
+ tions were conceived. In this respect, special emphasis will be put on some works by
+ Engel and von Weber on Pfaffian systems, which laid the basis for the subsequent
+
+ geometrical developments of Cartan's theory of exterior differential systems.
+
+ 1 Introduction
+
+ Historians and mathematicians are unanimous in considering Cartan's work on Pfaffian
+ systems (what we would nowadays call exterior differential systems) as a landmark
+
+ Communicated by Umberto Bottazzini.
+
+ A. Cogliati (E3)
+ Dipartimento di Matematica 'Federigo Enriques', Universita degli Studi di Milano,
+ Via Saldini 50, 20133 Milano, Italy
+ e-mail: alberto.cogliati@unimi.it
+
+ Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:23:17 UTC
+All use subject to https://about.jstor.org/terms
+
+ 398 A. Cogliati
+
+ both for his own mathematical production and the development of twentieth century
+
+ mathematics itself. The strategic role played by such systems in so many realms of
+
+ mathematical research, such as the general theory of partial differential equations, Lie
+
+ groups and the theory of equivalence and differential geometry, to mention only a few,
+ is universally acknowledged.
+
+ Cartan himself was quite definite in assessing the importance of his work on total
+
+ differential equations within his whole mathematical activity. Referring to the years
+ when his attention was concentrated for the large part on developing his ideas on
+ Pfaffian equations, he once wrote that those were years of calm and long meditation
+
+ in which all the germs of his subsequent works were contained.1
+
+ Nevertheless, it appears that scarce attention has been paid to this area of historical
+
+ research thus far. Authoritative scholars2 have dealt with Pfaff 's problem and the foun-
+
+ dation of exterior differential calculus in Cartan's early papers; however, no specific
+ analysis of his subsequent works laying the foundations of what is nowadays known
+
+ as the Cartan-Kahler theory has yet been provided. The present article represents a
+
+ first partial attempt to remedy this unsatisfactory state of affairs.3
+
+ 2 Some technical preliminaries
+
+ This section is devoted to some general remarks on the mathematics which we are
+ about to deal with. Historical accuracy will not be main focus of attention here; we
+
+ will limit ourselves to giving the necessary information that will be helpful in under-
+
+ standing the discussion that follows. The interested reader can find a detailed historical
+
+ account of this material in the paper by Hawkins (2005).
+
+ The main topic of our discussion will be the problem of integration of differential
+
+ systems of Pfaffian equations; thus, it seems appropriate to describe briefly what a
+ Pfaffian equation is and what it means to integrate such equations. Moreover, it is
+ useful to emphasize a crucial separation that has to be maintained in the theory and
+
+ that will be of primary importance for our purposes: the distinction between the com-
+
+ pletely integrable ( unbeschrankt integrable) case and the not completely integrable
+
+ one.
+
+ In modern terms, what nineteenth century mathematicians meant by a Pfaffian
+
+ form in n variables can be identified with the local expression of a differential 1-form
+
+ defined on a n-dimensional manifold. However, until 1899, when Cartan gave a sym-
+
+ bolic definition of what he called a differential expression (< expression difference lie),
+
+ it appears that no autonomous status was attributed to it. Instead, what was considered
+
+ 1 See Appendix C in Akivis and Rosenfeld (1993):
+
+ [. . .] Je garde le meilleur souvenir des quinze ans que j'ai passes en province, a Montpellier d'abord,
+ a Lyon, et a Nancy ensuite. Ce furent des annees de meditation dans la calme, et tout ce que j'ai fait
+ plus tard est contenu en germe dans mes travaux murement medites de cette periode.
+
+ 2 See Hawkins (2005) and Katz (1985).
+
+ 3 I would like to express my gratitude to Professor P. J. Olver for precious advice and comments on a
+ preliminary version of this paper.
+
+ Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:23:17 UTC
+All use subject to https://about.jstor.org/terms
+
+ On the genesis of the Cartan-Kahler theory 399
+
+ to be meaningful was the problem of its vanishing on suitable regions of space. This
+
+ was interpreted as the occurrence of certain finite relations (to be determined) among
+
+ Thus, a Pfaffian equation in n variables is a differential relation of the following
+
+ the independent variables.
+
+ type:
+
+ co = A'(x', . . . ,xn)dx' H
+
+ To find integrals4 of (1) means to determine functionally independent, finite rela-
+
+ tions among the variables x' , . . . , xn, fj(x' , . . . , xn) = 0, (j = 1, . . . , m) such
+ that the vanishing of (1) is a consequence of the 2m relations fj = 0 ,df} =
+
+ SLi ^i^Xk = ® (J = * ' * ' m ^ese inte8rals can t>e thought of geometrically
+ as defining an integral submanifold of dimension n - m given by the intersection of m
+
+ hypersurfaces fj = 0.5
+
+ During the nineteenth century, one of the main problem in the theory of Pfaffian
+
+ equations was that of finding a canonical form for a ), that is, the problem of finding
+ a suitable change of variables, yt = yi(x' , . . . , xn), so that the Pfaffian expression
+ a) could be written in such a way as to contain the minimal number of variables.
+
+ Clearly, the determination of such a canonical form coincides with the determination
+
+ of the minimal number of integral equivalents of co = 0 and, consequently, with the
+
+ individuation of the integral varieties of maximal dimension.
+
+ The main results in this field were obtained by Frobenius (1877) in 1877 with the
+
+ introduction of two notions: the bilinear covariant (bilineare Covariante ) and the class
+
+ ( Classe ) of a Pfaffian expression.
+ The bilinear covariant6 of co was defined by Frobenius as the following expression:
+
+ i o . . 3 A/ dAj
+
+ > aijdxihxj i o , with . . aij =
+
+ i,j= 1 J
+
+ OX J j OX(
+
+ where d and 8 are differentials in different directions; the word covariant indi-
+
+ cates the crucial property according to which if, under a change of coordinates
+
+ x[ = <pi{xk),Y*Ajdxj - HA'jdxp then
+
+ n n
+
+ ^ aijdxiSxj = y^a'ijdx'iSx'j.
+ •J 'J
+
+ In the classical literature, one often finds the wording integral equivalents.
+
+ 5 The present-day definition of an integral variety of a 1-form is the same, only rephrased in different
+ language: i : S ^ M is an integral submanifold of the equation a> = 0 if, and only if, the pullback of
+ co, i*(co), vanishes identically.
+
+ 6 For a detailed historical account see Hawkins (2005, §6).
+
+ ^ Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:23:17 UTC
+All use subject to https://about.jstor.org/terms
+
+ An early application of this notion was Frobenius' analytical classification theorem
+
+ for Pfaffian forms.7 Indeed, he considered the matrix
+
+ 400 A. Cogliati
+
+ M = [dij] and M' = : : : : (3)
+
+ an Unn M
+
+ &n' ' ' ' ann An
+ _ - A' • • • An 0
+
+ and defined the class of a Pfaffian form co as the number p = rk{M)+Jk(M ) ; this num-
+ ber is invariant under an arbitrary change of coordinates. He then demonstrated that p
+
+ is the minimal number of independent variables in terms of which co can be expressed.
+
+ In other words, p individuates the canonical form to which co belongs: if p = 2r, then
+
+ co = yr+'dy' H
+
+ under appropriate changes of coordinates.
+
+ Pfaffian system of type
+
+ = a^idx H
+
+ A second application of the bilinear covariant, of which Frobenius took great advan-
+
+ tage, was the so-called integrability theorem for systems of Pfaffian equations. A
+
+ was said to be completely integrable if it admits m independent integrals, that is, if it
+
+ admits an integral variety of dimension n-m. Frobenius dealt with this special kind of
+
+ Pfaffian systems en route to the proof of the analytical classification theorem for single
+
+ Pfaffian equations. His main result was a characterization of complete integrability in
+
+ terms of the properties of the bilinear co variants of (4):
+
+ Theorem 1 (Frobenius, 1877) Given the system (4) ofm linearly independent Pfaffi-
+
+ an equations , it is completely integrable if and only if the vanishing of all its bilinear
+
+ covariants is an algebraic consequence of the system itself
+
+ Frobenius' demonstration relied upon a result due to Clebsch which can now be inter-
+
+ preted as the dual counterpart of Frobenius' theorem. Indeed, Clebsch (1866) devoted
+ his attention to a generalization of Jacobi's theory of linear partial differential equa-
+
+ tions by introducing the notion of complete ( vollstandig ) integrability. A system of
+
+ linear partial differential equations of type
+
+ Ai(f) = Xn^ + --- + Xi„§^= 0 (/ = 1
+
+ 0*1
+
+ was said by Clebsch to be complete if all expressions (A,-, Aj)(f) = A/(A;(/)) -
+ Ay (A/(/)) are linear combinations (in general with non-constant coefficients) of (5).
+ He was able to demonstrate the following:
+
+ 7 Important results in this field were obtained by Darboux almost at the same time. However, Darboux did
+ not submit them for publication immediately. A paper by Darboux (1882) on Pfaff's problem appeared in
+ 1882. For an analysis of Darboux' contribution and a comparison with Frobenius' approach, see Hawkins
+ (2005, pp. 420-424).
+
+ Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:23:17 UTC
+All use subject to https://about.jstor.org/terms
+
+ On the genesis of the Cartan-Kahler theory 401
+
+ Theorem 2 (Clebsch, 1866) If the system (5) is complete , then it admits a system of
+
+ n - r functionally independent solutions f' , . . . , fn~r.
+
+ It turns out that requiring complete integrability of (4) is equivalent to the supposition
+
+ that an appropriate system (actually, its dual8) of linear differential equations of type
+ (5) is complete in the sense of Clebsch's definition; moreover, it should be observed
+
+ that a system of integrals of (4) is also a system of solutions for (5) and vice versa.
+
+ To conclude the present introductory section, we recall that if the integrability condi-
+
+ tions of Theorem (1) are not satisfied, then, in general, co M cannot be expressed as a lin-
+
+ ear combination of the total differentials of m appropriate functions fj(j = 1, . . . , m).
+ If this is the case, then the system (4) is said to be not completely integrable. To be
+
+ precise, one should distinguish further the case in which some (although not all) of
+ the integrability conditions are satisfied from the case in which none of them is; in
+
+ the former case, one speaks of incompletely integrable systems; in the latter, of non-
+
+ integrable systems. Since the study of incompletely integrable systems can be traced
+
+ back to the study of non-integrable ones, we will often ignore such a distinction in the
+ following discussion.
+
+ 3 The state-of-the-art in the early 1890s
+
+ Well after the publication in 1877 of the seminal work by Frobenius (1877), the prob-
+
+ lem of finding solutions of not completely integrable Pfaffian systems remained open
+
+ and almost untouched. As we have just seen, Frobenius was able to give necessary and
+
+ sufficient conditions that guarantee the complete integrability of a given differential
+
+ system. However, except for some brief remarks,9 no specific attention was paid by
+
+ him to the more general problem of finding integral equivalents of not completely
+
+ integrable systems of Pfaffian equations.
+
+ A common feeling of inadequacy in relation to the state of the theory of Pfaffian
+
+ systems of this more general kind was frequently expressed by mathematicians in the
+
+ early 1890s. For instance, Forsyth (1890) complained about the lack of new results in
+
+ this realm of the theory and tried to indicate a path to be followed in order to achieve a
+
+ satisfying generalization of the study of a single non-exact Pfaffian equation to systems
+
+ of many equations. As in the case of a single equation, he said, it is desirable to have
+
+ the integral equivalent of the system as general as possible and, in order to fulfill this
+
+ aim, he individuated three different steps: (i) the determination of the number of equa-
+ tions in the integral equivalent of a non-integrable system; (ii) the deduction of some
+
+ simple integral equivalent of such a system and finally, and (iii) the generalization of
+ such an integral equivalent once it has been obtained.
+
+ According to Forsyth, some advances had been achieved only with respect to step
+ (i) by the work of Biermann (1885), who had demonstrated that the maximal dimen-
+
+ 8 It appears that Mayer was the first one to call attention over this dual connection in Mayer ( 1 872); see also
+ Hawkins (2005, pp. 408-410). In this connection, Frobenius spoke of adjungirt or zugehdrig system. His
+ characterization of duality was purely algebraic, as one can see in Frobenius (1877, §13) or Hawkins (2005,
+ pp. 411-415). Engel's interpretation in terms of infinitesimal transformations is discussed in §4 below.
+
+ 9 See Frobenius (1877, §20).
+
+ Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:23:17 UTC
+All use subject to https://about.jstor.org/terms
+
+ 402 A. Cogliati
+
+ sion of the integral varieties of an unconditioned10 Pfaffian system is given by the
+
+ integer part of the ratio between the number of variables and the number of equa-
+
+ tions augmented by one, and that the rest of this division gives information about the
+
+ degree of indeterminacy of the integral solutions. As far as the remaining two steps
+
+ were concerned, Biermann's analysis had made it clear that the methods of integration
+
+ known at that time (in particular Clebsch's so-called second method) did not permit a
+
+ general solution to be obtained. Forsyth's effective synthesis of the state-of-the-art of
+
+ the theory is worth quoting:
+
+ And so the solution of the problem of obtaining the integral equivalent of
+ a simultaneous system of unconditioned Pfaffians does not appear possible
+ by any methods at present known which are effective for the case of a single
+
+ Pfaffian. It is, in fact, one of the most general problems of the integral calculus;
+
+ the discovery of its solution lies in the future.11
+
+ 4 EngePs invariants theory of Pfaffian systems
+
+ Quite similar remarks of dissatisfaction about the state-of-the-art of the theory were
+
+ expressed by Engel (1890) at the beginning of the first of two memoirs that were ded-
+
+ icated to the invariant theory of Pfaffian systems and were communicated by Mayer
+ in 1889 and in 1890 to the Sachsische Akademie der Wissenschaft in Leipzig. Engel
+ wrote:
+
+ The invariant theory of a single Pfaffian equation has been completed for
+ some time; on the contrary, as far as systems of Pfaffian equations are con-
+
+ cerned, almost everything remains to be done.12
+
+ Engel's approach was deeply influenced by the work of his highly respected master
+
+ Sophus Lie. Moreover, it appears that the main concern that led him to deal with such
+
+ systems of total differentials equations was their application to the theory of continu-
+
+ ous groups of transformations. Nonetheless, Engel's contributions are of considerable
+
+ historical interest since they represented a source of inspiration for the later papers by
+ von Weber and Cartan himself.
+
+ 4.1 Invariant correspondences
+
+ Engel's strategy was dominated by the persistent recourse to structures invariantly
+ connected to the given Pfaffian system. The very first example of such connected
+ structures had been the so-called bilinear covariant of a Pfaffian expression upon
+ which Frobenius had constantly relied in his work. Engel took up this fertile idea and
+
+ 10 An unconditioned Pfaffian system is one in which no specification of the coefficients of the Pfaffian
+ system has been made.
+
+ 11 See Forsyth (1890, §185).
+
+ 12 'Die Invariantentheorie einer einzelnen Pfaff'sche Gleichung ist schon lange erledigt, dagegen bleibt
+ ftir die Systeme von PfafFschen Gleichungen fast noch Alles zu thun'
+
+ Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:23:17 UTC
+All use subject to https://about.jstor.org/terms
+
+ On the genesis of the Cartan-Kahler theory 403
+
+ generalized it by proposing the following definition: two differential systems (depend-
+
+ ing on the circumstances, a differential system can be a system of partial differential
+
+ equations, a system of Pfaffian equations or a set of infinitesimal transformations) are
+
+ said to be invariantly associated ( invariant verkniipft) if a bijective correspondence
+ exists between them that is preserved under arbitrary changes of coordinates. The
+
+ knowledge of these connected structures, as in the case of a single Pfaffian equation
+
+ or in the case of a complete system of Pfaffian equations examined by Frobenius, was
+
+ considered quite useful by Engel since the study of their properties allowed him to get
+
+ information, for example, on the normal form of the original Pfaffian system.
+
+ The starting point of his analysis was the observation that a reciprocal connection
+
+ ( Zusammenhang ) exists between Pfaffian systems and systems of linear homogeneous
+
+ partial differential equations of the first order. According to Engel, the origin of this
+
+ connection stemmed from two distinct interpretations that one could ascribe to a given
+
+ system of m Pfaffian equations of the following form:
+
+ (On = ^afli(x'...txn)dxi = 0 (/z = 1, (6)
+
+ n
+
+ i=i
+
+ One could interpret (6), in the usual way, as a system of differential equations and,
+
+ correspondingly, one could undertake the task to determine all its integral equivalent
+
+ equations, that is, to determine all the equations
+
+ = 0,...,<t>q(x'...xn) = 0,
+
+ such that the 2 q relations
+
+ 4>1 = 0, . . ., <&q = 0, d<$> i = 0, . . d<&q - 0,
+
+ imply identically eo^ = 0, /i = 1, . . ., m. On the other hand, Engel explained, one
+ could regard the quantities dx' , . . ., dxn in (6) as the infinitesimal increments to which
+
+ the variables x' , . . ., xn are subject as a consequence of the action of an infinitesimal
+ transformation
+
+ n df
+
+ ,= 1 dxJ
+
+ According to this interpretation, Eq. 6 define a family ( Schaar ) of infinitesimal trans-
+
+ formations, namely the set of all infinitesimal transformations X(f) that satisfy the
+ following m relations:
+
+ n
+
+ j= i
+
+ ^aw'£y=° (^ = 1 (7)
+
+ Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:23:17 UTC
+All use subject to https://about.jstor.org/terms
+
+ Since the rank of the matrix A = [a^j ] is supposed to be maximal (and so equal to
+
+ 404 A. Cogliati
+
+ m < n ), Eq. 7 admits n - m linearly independent solutions §> , for i = 1, . . ., n and
+ k = 1 , . . /i - m. Therefore one obtains n-m linearly independent infinitesimal
+ transformations:
+
+ ik)
+
+ n df
+
+ Xk(f) = Yif)(x i
+
+ «=i
+
+ which are the generators of the set of infinitesimal transformations that is associated
+
+ to the given Pfaffian system (6). An arbitrary transformation of this set takes on the
+ following expression:
+
+ Wif) = Xl(*l, . . ;Xn)Xi(f) + . . . + Xn-m(x 1, . . Xn)Xn-m(f), (8)
+
+ where the x/ (i = 1, . . w - m) are arbitrary functions of n variables.
+
+ Engel observed that this reciprocal correspondence between Pfaffian systems and
+
+ sets of infinitesimal transformations is not only bijective but it is also preserved under
+
+ arbitrary transformations of coordinates, so that it is, in fact, an example of invariant
+
+ association. Finally, by setting all these transformations equal to zero, one obtains the
+
+ following system of independent differential equations:
+
+ X'(f) = 0, . . . , Xn-m(f) = 0.
+
+ which is also invariantly connected with (6).
+
+ This dual connection was used by Engel to build up new auxiliary Pfaffian systems
+
+ which introduce a remarkable simplification in the theory. The first of these auxiliary
+
+ systems is obtained as a consequence of the action of a generic infinitesimal transfor-
+
+ mation of type (8) on the Pfaffian system (6), now supposed to be rewritten (aufgeldst)
+
+ in the following form13:
+
+ = dx,i - ^ am+k^dxm+k =0 O = 1
+
+ n-m
+
+ *=l
+
+ Correspondingly, the infinitesimal transformations which are associated with it are
+ now written as:
+
+ o r m o r
+
+ Am+k(f) =
+
+ dxm+k T?. 9x^
+
+ 11 - 1
+
+ 13 Here and in what follows I adhere to Engel's original notation.
+
+ Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:23:17 UTC
+All use subject to https://about.jstor.org/terms
+
+ On the genesis of the Cartan-Kahler theory 405
+
+ If we define W (/) to be a generic transformation:
+
+ W(f) = X Xm+kAm+k(f),
+
+ n-m
+
+ k = 1
+
+ its action on (9) transforms the latter into the system14:
+
+ (/x = 1, . . m)
+
+ which is easily demonstrated to be equivalent and invariantly connected to the follow-
+
+ ing system of Pfaffian equations:
+
+ Ai = 0, . . ., Am = 0, Am+k Ai = 0, . . Am+k Am = 0 (k = 1, . . n - m).(10)
+
+ Finally, a few manipulations give the following equivalent and simplified form written
+ in terms of the coefficients of Frobenius's bilinear covariants:
+
+ dXfi i Qm+k^dXm+k. = 0,
+
+ ' ] {Am+icam+j,ii ~ Am+jam+k,iA}dxm+k - 0 (H)
+
+ (/x = 1, j = 1, w -m).
+
+ Engel observed that it may happen that the system (11) coincides with (9); if this is
+ the case, then (9) is completely integrable and it admits every infinitesimal transfor-
+
+ mation (8), that is, for a generic transformation W (/), W A ^ = 0 (/x = 1 , . . m), are
+ a consequence of AM = 0 (/x = 1, . . m).
+
+ In virtue of the dual correspondence between Pfaffian systems and sets of infinites-
+
+ imal transformations, the system (11) can be considered as defining a set (Schaar) of
+
+ infinitesimal transformations. It turns out that these transformations are precisely those
+
+ transformations that leave the original Pfaffian system (9) invariant and, moreover, as
+
+ Engel demonstrated that the Pfaffian system (11) is completely integrable. Using
+ anachronistic terminology, we can call such transformations characteristic transfor-
+
+ mations and, correspondingly, the Pfaffian system (11) defining them a characteristic
+
+ system.
+
+ A second differential system invariantly connected to (9) was obtained by Engel
+ as a consequence of the following simple remark. If one considers a system of n - m
+ linear homogeneous partial differential equations of the following form:
+
+ Ck(f) = ^Pik(x', . = 0 (k = l,...,n-m), (12)
+
+ n df
+
+ ;=i 0Xi
+
+ 14 The expression W is what today we would call Lie derivative of with respect to the vector
+ field W. From a historical point of view, such a denomination is very appropriate. Actually, Lie was the
+ first person to introduce it, see, for example, Lie (1888, pp. 529-530).
+
+ Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:23:17 UTC
+All use subject to https://about.jstor.org/terms
+
+ 406 A. Cogliati
+
+ and the system of equations
+
+ (Q, Cj)(f) = Ck(Cj(f )) - Cj(Ck(f )) = 0,
+ Q(/) = 0 (k,j = l,...,n-m),
+
+ then they are invariantly associated. Since there is an adjoint Pfaffian system associ-
+ ated to every system of linear homogeneous partial differential equations, it is clear
+
+ that two systems of Pfaffian equations which are invariantly connected correspond to
+
+ (12) and (13). As a result of this, Engel stated the following:
+
+ Theorem 3 The system of Pfaffian equations which is dual to the system of partial
+ differential equations
+
+ Am+kf = = 0
+
+ (Am+ki Am+j)f = 2/z=l(^/n+ifctfm+y'Ai = 0
+ (kj = I, . . .,n -m),
+
+ is invariantly connected to the Pfaffian system (9).
+
+ Other differential systems invariantly connected to the given Pfaffian system were
+
+ obtained by Engel in the course of his research. However, the function they fulfilled
+
+ was always the same: to deduce from them the normal form of the Pfaffian system
+
+ under consideration and to develop applications in the realm of the theory of contin-
+
+ uous groups and of the theory of contact transformations as well. To name just a few
+
+ concrete examples, Engel succeeded in giving a complete invariant theory of Pfaffian
+
+ systems of two equations in four independent variables; furthermore, he utilized some
+
+ of his results to give a simpler treatment of the problem, already faced by Page (1888),
+
+ of the classification of all imprimitive continuous transformation groups in space in
+ four dimensions15 and, finally, he was able to present a very clear demonstration of a
+
+ theorem originally due to Backlund (1876) which gave a complete characterization of
+ all contact transformations.
+
+ 5 von Weber's contributions: 1898-1900
+
+ As Goursat (1922, p. 259) was once to observe, before Cartan's seminal papers Cartan
+
+ (1901a,b) the first rigorous results in the field of the theory of general Pfaffian systems
+
+ were obtained, along with Engel, by the young mathematician Eduard Ritter von Weber
+
+ A group of r independent infinitesimal transformations in n variables is said to be imprimitive if it leaves
+
+ a family of oon~q <7- dimensional sub varieties Mq :
+
+ <M*i, -.iXn) =C',...,<t>n-q(x'
+
+ invariant; that is, if
+
+ Xi(<t>k) =
+
+ Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:23:17 UTC
+All use subject to https://about.jstor.org/terms
+
+ where the Q are some functions of <f>' , . . . , (f)n-q ; see (Page, 1888, pp. 297-300).
+
+ On the genesis of the Cartan-Kahler theory 407
+
+ (1870-1934) in a series of articles which laid the basis for the subsequent geometrical
+
+ developments of Cartan's theory of exterior differential systems, von Weber's approach
+
+ was profoundly inspired by Engel's researches. Wide use of invariantly associated dif-
+
+ ferential systems, frequent application of infinitesimal characteristic transformations
+
+ and consistent reference to geometrical visualization were for von Weber, as well as
+
+ for Engel, the main technical and conceptual tools to which to tackle the resolution of
+
+ generalized Pfaffian systems.
+
+ Nonetheless, it appears that a specific motivation guided von Weber's interest in
+
+ his attempt to classify the large variety of Pfaffian systems, that is, the hope of apply-
+
+ ing Pfaffian systems to the systematic study of general system of partial differential
+
+ equations already begun by Meray and Riquier. Moreover, von Weber took advantage
+
+ of some of the main results of the general theory of systems of partial differential
+ equations, namely existence theorems for the so-called passive systems16 which he
+ used to demonstrate the existence of integral varieties of the given Pfaffian system
+ and the consequent possibility of writing it in a simple normal form containing a
+
+ reduced number of differentials. Finally, a regular application of the theory of linear
+ complexes and congruences in projective space has to be noted as one of the most
+ original technical innovations introduced by von Weber into the theory.17
+
+ The contributions of von Weber that we are interested in are spread over a certain
+ number of memoirs which he published between 1898 and 1900. Our attention will
+ be mainly concentrated on von Weber (1898a), in which the notion of character of a
+
+ Pfaffian system and that of derived system were introduced for the first time. Never-
+
+ theless, since it appears that some of his later developments may have played a role in
+
+ influencing Cartan's geometrical approach to a generalization of the problem of Pfaff,
+
+ a brief survey of von Weber (1900a,b,c) will also be given.
+
+ 5.1 Character and characteristic transformations
+
+ As von Weber himself observed in the final historical remarks of von Weber (1900c,
+
+ p. 609), since the introduction of the bilinear covariant by Frobenius and Darboux,
+
+ lb An explanation of this intricate notion will be given below.
+
+ 17 The following remarks taken from the introduction to von Weber (1901) are quite enlightening. There
+ von Weber wrote:
+
+ If our task can be considered as a special case of the general theory of differential systems, it is
+ also true that, from another point of view, the latter can be regarded as a special case of the former.
+
+ Yet, the new auxiliary means that we will utilize in our analysis and that will be connected in many
+ ways to the theory of differential systems, is represented by the theory of linear complexes and
+ congruences in (m - 1) -dimensional space as well as by the theory of families of antisymmetric
+ bilinear forms in 2m variables.
+
+ ('Unsere Aufgabe lasst sich als Specialfall der allgemeinen Theorie der Differentialsysteme auffas-
+ sen, wie sich auch umgekehrt die letztere, von einem andern Standpunkt aus betrachtet, der ersteren
+ als Specialfall einordnet. Das neue Hilfsmittel jedoch, das wir bei unseren Untersuchungen verwen-
+ den und mit der Theorie der Differentialsysteme in mannigfache Beziehung setzen werden ist die
+ Theorie der Liniencomplexe und -Congruenzen in m - 1 -dimensionalen Raum, also der Schaaren
+ von alternirenden Bilinearformen mit m Variabelnpaaren'.)
+
+ Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:23:17 UTC
+All use subject to https://about.jstor.org/terms
+
+ 408 A. Cogliati
+
+ invariantly associated structures had played a major role in the theory of Pfaffian
+ systems. Engel had taken great advantage of them and had succeeded in providing
+ some new applications of Pfaffian equations especially in the classification problem
+
+ of continuous groups of transformations, von Weber acknowledged the fruitfulness of
+
+ this approach and tried to give it systematic basis within the context of an invariants
+
+ theory of systems of Pfaffian equations.
+
+ von Weber (1898a) began his analysis by considering a system of n - m Pfaffian
+
+ equations in the following, resolved form18:
+
+ Ys = dxm+s -^asidxi = 0, (s = l,...,n-m). (15)
+
+ m
+
+ i=i
+
+ Engel had proved that the differential system for two independent variations dxi and
+ 8xi of the n variables jq, . . . , xn(i = 1, . . . , n)
+
+ dxm+s = ^ ClsidXi', 8xm+s = ^ClsiSXi, /___i ' / 1
+ £?=1 Zr= i aiksdxi8xk = 0, (J /___i - 1, » m). ' (16) / 1
+
+ is invariantly associated with (15). 19 As a consequence of this, von Weber observed
+
+ that the study of invariant quantities attached to (15) could be transferred to that of the
+
+ invariants of the system (16). He defined the first of these invariants, the character K
+
+ of the system (15), as the rank of the matrix
+
+ m
+
+ ^atksh (i = 1, • • • , m, s - 1, . . . , n - m),
+ Jt=i
+
+ when x' , . . . , xn and X' , . . . , Xm assume arbitrary values.
+
+ The importance of the notion of character lay in the fact that it offered a first classifi-
+
+ cation criterion for the large variety of Pfaffian systems, and a measure of the degree of
+
+ difficulty of the problem one has to face, as it were: the greater the character, the harder
+ is the task to undertake. If, for example, K - 0 then the system (15) is completely
+ integrable, since clearly the coefficients of the bilinear covariants vanish identically.
+ von Weber's attention (1898a) was almost exclusively concentrated on Pfaffian
+
+ systems of character one , but some important results concerning characteristic trans-
+
+ formations were obtained for the general case too. Since characteristic transformations
+ will also play a key role in Cartan's analysis, it seems appropriate to describe their
+ frequent use in von Weber's theory in some detail.
+
+ Already introduced by Engel, characteristic transformations are defined as the
+ infinitesimal transformations which are dually associated with (15) and, at the same
+ time, leave these equations invariant; that is, if we consider a generic infinitesimal
+
+ 18 Though it may appear bizarre, the V notation was the one employed by von Weber.
+
+ 19 As usual, the following relations are supposed to hold: A/ (/) = 3*7 4- 2"=^ asi bxi+s ^ aiks =
+ ~akis = ^ i(ask ) - ^ k(asi )•
+
+ Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:23:17 UTC
+All use subject to https://about.jstor.org/terms
+
+ d I £m+5 - ^asiHi ) + X (das& ~ X(asi)dxi) = 0, 20
+
+ On the genesis of the Cartan-Kahler theory 409
+
+ transformation associated with (15), X(f ) = X/li £i^i(/)> transformation is
+ characteristic if the following identities are satisfied in virtue of Eq. 15:
+
+ X(VS) = 0 (j = l,...,/i-m). (17)
+
+ In a more explicit form, this means:
+
+ m m
+
+ = - ^ ( asi )dXj - ^ ' asjd^j = 0,
+
+ i=l i='
+
+ and, consequently, we have
+
+ / m ' m
+
+ V ,-=i / i='
+
+ and finally, since £m+s = X/Li asiHi and since, as a consequence of (15), for an
+
+ arbitrary function of n variables, df = X?=i Ak(f)dxk'.
+
+ m
+
+ k= l
+
+ =0 (i = 1, . . . , m; 5 = 1, . . . ,n - m). (18)
+
+ von Weber supposed that there are h independent solutions *'i = 1, . . . , h) of
+
+ Eq. 18, so that the set of infinitesimal transformations leaving the Pfaffian system (15)
+
+ invariant is generated by the following differentials operators:
+
+ Xi(f) • = T^')TL 1 (1 = 1,..., A). (19)
+
+ m r,r
+
+ • U 1 dxi
+
+ As already pointed out by Engel and proved by von Weber through a direct compu-
+ tation, the system of h differential equations X; (/) = 0 is complete in the sense of
+ Clebsch's definition.21 von Weber acknowledged the importance of such transforma-
+
+ tions, and explained how they could be usefully employed to simplify the integration
+ of the Pfaffian system under consideration. In particular, he proved the following:
+
+ Theorem 4 For the Pfaffian system (15) to be reducible through a change of coordi-
+
+ nates to a system of equations inn - h variables , it is necessary and sufficient that it
+
+ admits h ( independent ) characteristic infinitesimal transformations.
+
+ 20 A modern version of this formula would read as follows: X(V5) = dVs(X) + d(Vs(X)). Cartan is
+
+ usually acknowledged as its first discoverer, see Ivey (2003, p. 339). However, this attribution appears to
+ be not very accurate from a historical point of view. Indeed, it can be found already in Engel (1896, p. 415).
+
+ 21 In modern terms, that means that the operators X/(/ = 1, . . . , h) define an involutive distribution of
+
+ tangent vector fields. See Sect. 2 above.
+
+ Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:23:17 UTC
+All use subject to https://about.jstor.org/terms
+
+ 410 A. Cogliati
+
+ Indeed, if one introduces a change of coordinates in which n - h variables are
+
+ identified with the n - h independent solutions of the complete system (19), it is easy
+
+ to show that the Pfaffian system so obtained only depends upon these n-h variables.22
+
+ 5.2 Pfaffian systems of character one, I
+
+ The remaining part of the memoir (von Weber 1 898a) was devoted to a thorough analy-
+
+ sis of a very special type of Pfaffian systems, namely those whose character is equal to
+
+ one. Since Cartan would take up the same topic in 1901 by reinterpreting von Weber's
+ result in the light of his new geometrical methods based on the brand new exterior
+ differential calculus, it appears appropriate to discuss von Weber's achievements in
+
+ order to facilitate a comparison between Cartan's and von Weber's approaches.
+
+ Pfaffian systems of character one represent the simplest case one can conceive
+
+ after the case of completely integrable systems. Frobenius had showed that if the
+ system is completely integrable, then the vanishing of all its bilinear covariants is
+ an algebraic consequence of the equations of the system itself. Instead, in the case
+
+ of systems of character one the bilinear covariants reduce to a single bilinear form
+
+ whose vanishing is not implied by the equations of the system itself. In other words,
+ the following relations among the coefficients of the bilinear covariants hold: aiks =
+
+ (s = 2, . . . , n - m' i, k = 1, . . . , m), where the /jls are functions of the n
+
+ variables x' , . . . , xn. von Weber supposed that the matrix [a/fciKi, k = 1, . . . , m) has
+
+ rank equal to 2v, so that he could deduce the existence of m - 2v linearly independent
+ characteristic transformations
+
+ *(t)/ = X*/(4);r-. dXi k = 1
+
+ ;= l dXi
+
+ As already explained, the existence of such transformations was exploited to obtain a
+
+ reduced form of the Pfaffian system under examination; indeed, by appropriate defi-
+
+ nition of new variables y' , . . . , yv+' , . . . , yv+n-m, the number of differentials can be
+
+ lowered to v + n - m to give the following reduced form of (15)23:
+
+ dyv+s = ^ (5 = 1
+
+ V
+
+ i=i
+
+ von Weber's treatment of this special type of systems was marked by the definite
+ and profitable distinction between the case in which 2v = 2 and the case in which
+
+ 2v > 2. Let us consider in some detail the case 2v > 2. The study of such systems was
+
+ carried out by exploiting the existence of the so-called derived system (das abgeleitete
+ System von (15)) which in this case turns out to be completely integrable. Indeed,
+
+ 22 For details, see von Weber (1898a, pp. 210-211). A modern statement of this theorem can be found in
+ Olver (1995, p. 430).
+
+ 23 It should be observed that, in general, the are functions of the n variables x' , . . . , xn.
+
+ Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:23:17 UTC
+All use subject to https://about.jstor.org/terms
+
+ On the genesis of the Cartan-Kahler theory 41 1
+
+ von Weber considered the following system of partial differential equations (the dual
+
+ counterpart of the derived system)24:
+
+ where Oo / = - ^>/o = (#^/) - #(/) • #(tfi/)- From this one deduces that in the
+ (m + l)x(m + l) antisymmetric matrix
+
+ Ai(f)= 0, = + V/x5-^- (i = 1, ... ,m) (20)
+ m+l s=2 vxm+s
+
+ c' r ft M /•
+
+ and demonstrated that it is complete in the sense of Clebsch. In fact, as (A/ A*)(/) =
+ aik'B(f) (/, k = 1, . . . , m),allhehadtoshowwasthat(A; i5)(/)couldbeexpressed
+ as a linear combination (in general with non-constant coefficients) of the A, (/)'s
+ and B(f). Supposing25 m > 3, from Jacobi's identity and from ((A; A*) A/) =
+
+ (z"=r °iks 9^7, A/), it follows that
+
+ $0 i<tkl' + = 0 (/,&,/ = 1, . . . , m), (21)
+
+ 0 $01 $02 • • • $0 m
+ $10 0 a'2' •" a'm'
+ $20 a 211 0 ••• a2m' (22)
+
+ am 11 dm 21 ••• 0
+
+ all the principal minors ( Hauptunterdeterminanten ) of order four containing elements
+ from the first column and the first row vanish. As a consequence of antisymme-
+
+ try, all principal minors of order four vanish and consequently,26 either the rank of
+ [ciik 1] is two or all Oo / vanish. Since rk [a; k'] > 2, the only possibility left is that
+ <J>0/ = - O/o = ( BAi ) - B{f) • B(a'i) = 0 and so the system (20) is complete. From
+
+ the complete integrability of the system (20), von Weber straightforwardly derived the
+
+ complete integrability of what he called the derived Pfaffian system of (15):
+
+ V, - /x5Vi = 0 (s = 2, 3, . . ., n - m). (23)
+
+ By indicating with
+
+ Z2v+2(*1, • • • , *n) = C',
+
+ £2v+3C*l > • • • ^ xn) = c2>
+
+ Z-2 v+n-m C*1 » • • • » xn) = cn-m-' ->
+
+ 24 Remember the definition of A/(/) = ^ asi dxm+s ^ =
+ 25 The case m = 2 is indeed trivial.
+
+ 26 This implication holds in virtue of the antisymmetry. Remember that the rank of an antisymmetric matrix
+ is always even and that it is equal to r if, and only if all the principal minors of order r + 2 vanish, and a
+ non vanishing principal minor of order r exists.
+
+ Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:23:17 UTC
+All use subject to https://about.jstor.org/terms
+
+ its integral equivalents, he was finally able to provide a normal form for (15) given by
+
+ 412 A. Cogliati
+
+ the system
+
+ (dziv+' dZ2v+2 = = 0, Zv+'dz' dZ2v+3 + = zv+idz2 0, . . . , dz2v+n-m H
+
+ dZ2v+2 = 0, dZ2v+3 = 0, . . . , dz2v+n-m = 0,
+
+ where z' , . . . , Z2v+i are appropriate functions of x' , . . . , xn. We will see later Car-
+
+ tan's reinterpretation of the notion of derived system. For the time being, it should
+ be observed, as von Weber did, that the derived system (23) represents an example
+ of differential structure invariantly connected to (15) in the sense of Engel's defini-
+
+ tion. Indeed von Weber's derived system (23) does coincide with the Pfaffian system
+ introduced by Engel in Theorem 3.
+
+ 5.3 Reducibility of a Pfaffian system to its normal form
+
+ Although von Weber (1898a) analysis can certainly be considered as a remarkable
+
+ progress by comparison with years of relative stagnation, the results therein contained
+
+ were of an unsystematic kind and often limited to very particular cases (e.g., character
+ equal to one, as we have seen in the previous paragraph). Over the following years,
+ von Weber tried to remedy this inconvenience and developed a more organic theory
+ which in principle could be applied to Pfaffian systems of a general type. A crucial
+ role, as we will see, was played by geometrical insight and by frequent reliance upon
+
+ the theory of linear complexes and linear congruences in projective spaces.
+
+ As for von Weber's results in this period, the following account is mainly based upon
+
+ von Weber (1900a, b). I will linger on some details, since in von Weber's papers for the
+
+ first time we encounter problems, results and technical tools of great importance for
+
+ the development of Cartan's geometrical theory of exterior differential systems. When
+
+ discussing Cartan's papers, I will endeavour to indicate limits and relative importance
+ of his debt to von Weber.
+
+ At the beginning, von Weber (1900a) singled out the main problem in the theory of
+
+ general Pfaffian equations as the following question (indeed, a genuine generalization
+
+ of the problem of Pfaff for a single total differential equation):
+
+ Problem 1 What are the necessary and sufficient conditions for the system (15) to be
+
+ reducible to the following ( normal ) form
+
+ X
+
+ «=i
+
+ Fshdfs=0 (h = l,...,n-m), (25)
+
+ containing only x differentials , where f' , . . . , fT are independent functions of
+ x' , . . . , xn and r indicates an integer not smaller than n - m and not greater than
+ n-2?11
+
+ 27 The reason for these limitations is easily explained: if r = n - 1 , then one is brought back to the problem
+ of determining 1 -dimensional integral manifolds of (15); if, on the other hand, r = n - m, this means that
+ the system (15) is completely integrable and so Frobenius' theory can be applied.
+
+ Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:23:17 UTC
+All use subject to https://about.jstor.org/terms
+
+ Y,Mfk)dxi= 0, J^Ai(fk)Sxi= 0 (k = l,...,p)29 (28)
+
+ von Weber observed that the same problem can be considered from a different, more
+ geometrical perspective whose usefulness Cartan would thoroughly examine in his
+ work.
+
+ If the Pfaffian system (15) can be rewritten in the normal form (25), then the equa-
+
+ tions
+
+ On the genesis of the Cartan-Kahler theory 4 1 3
+
+ As already observed by Frobenius,28 if the Pfaffian system (15) admits a normal form
+
+ of type (25), then the system of r equations
+
+ dxm+h=y^Maihdxi' df'=0, . . . , dfp=0 (h=', . . . , n-m' p=r-n+m) (26)
+
+ m
+
+ ;=i
+
+ is completely integrable. Thus, a necessary and sufficient condition for the existence
+ of the normal form (25) is that the n - m bilinear forms
+
+ Q(dx, 8x) = ^r^^r^aucsdxi8icx (s = 1, - m) (27)
+
+ vanish as a consequence of the following relations:
+
+ m m
+
+ ;=l k= l
+
+ m m
+
+ / = 1 1 = 1
+
+ f'(x', ...,Xn) =C',f2(X',...,Xn) =C2,...,fr(x',...,Xn) = CT (29)
+
+ represent (for arbitrary values of the c/'s) an integral equivalent of (15), that is, an
+
+ (n - t) -dimensional integral variety, which von Weber indicated with Mn-T. If Eq. 29
+
+ are replaced by their equivalent parametric expression
+
+ X[ =</>;(«!,..., My) ( i = 1, . . . , n' v = n - r), (30)
+
+ 28 See Frobenius (1877, §20).
+
+ 29 This is a good point at which the following important observation should be made: in the classical
+ literature no conceptual and notational distinction was made between basis elements of what we would
+ nowadays call cotangent space and the components of tangent vectors. If one cannot resist the temptation to
+ restore such a distinction, it should be observed that in formulas (27) and (28) the dxi 's and the Sx ; 's have
+
+ to be regarded as components of tangent vectors whereas in formula (26) the dx[ 's and dfa 's are indeed to
+ be considered as elements of a cotangent space. Clearly, this comes as no surprise in so far as the theory
+ lacks a formal definition of what a differential form is. Somehow more surprising is the discovery that even
+
+ Cartan's theory was affected by this 'flaw'.
+
+ ^ Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:23:17 UTC
+All use subject to https://about.jstor.org/terms
+
+ then these functions are solutions of a first order differential system, to be indicated
+
+ with the symbol Sv, which takes on the following form30:
+
+ 414 A. Cogliati
+
+ '^ = Zr=l^£ (r = l, v; h = l
+
+ (31)
+
+ Sli Z*=l aikh §% = 0 (r,s = l,...,v;k = l,...,n-m).
+
+ Thus, if the differential system Sv is such that there is a Mn-X integral variety through
+
+ every point (jc0, jc°, . . . , x„) of a certain domain of the whole variety Mn , then the
+ Pfaffian system admits the normal form (25). In this way, problem (1) was traced
+ back to the analysis of the conditions guaranteeing the existence of solutions of the
+
+ differential system Sv.
+
+ It was at this very point that von Weber used the theory of the so-called general
+
+ systems of partial differential equations developed by Meray and Riquier among oth-
+ ers.31 As we will see below, a crucial role was played by the notion of passivity (or
+ involution) which assures, under regularity conditions, the existence of integrals of
+
+ the system itself.
+
+ If one adds to the system Sv all the equations that can be obtained from Sv through
+
+ repeated derivations (finite in numbers), one of the following two cases must occur:
+ either a contradiction, that is, a relation among the variables x' , . . . , xn only is pro-
+
+ duced, or a differential system is obtained that can be put in the so-called canonical
+ passive form £ by solving it with respect to certain partial derivatives.32 If this is
+ the case and if v constants w0 , . . . , are arbitrarily chosen, the system Sv admits a
+
+ 30 The second group of equations can be easily deduced from the first one simply by differentiating with
+
+ q2x. q2x.
+
+ respect to u', . . . , uv and by remembering that ^ur^u = dusdur ' ^or a deta^e<* verification of this very
+ simple statement, see, e.g., Amaldi (1942, pp. 1 10-1 12).
+
+ 31 For a historical account of the theory, see, e.g., Riquier's remarks in the preface to Ref. Riquier (1910).
+
+ 32 I will not insist on detail. For further details, see Riquier's papers (Riquier 1893) and his treatise (Riquier
+
+ 1910) or von Weber's encyclopaedia article (von Weber 1900d) on partial differential equations. Here I limit
+
+ myself to the following, few remarks. The expression canonical form means a system (to be indicated with
+ S) of equations of type:
+
+ 3ai+a2+...+aVXi ^ ^ gPi+-+PvXk ^
+
+ a-?' 3u? ■ ■ ■ But" ~ ^ ^
+
+ which satisfies the following requirements: (i) No derivative occurring in the left side of (32) is con-
+
+ tained in the right side, (ii) for every derivative - contained in the expression for
+
+ q/}' H
+
+ is £y=i fij < ZLi aj> *n particular, 2J=i Pj = £y=i aj ^en * - '*» * f k = i then the first
+ non- vanishing numter in the series of differences p' - a' , ^2 - a2» • • • required to be positive.
+ On the other hand, passivity coincides with the following hypothesis: if the partial derivatives contained
+ in the left side of the equations in X) and all the other deduced from them through repeated derivations
+
+ with respect to u ' , . . . , uv are called principal , and the remaining ones, along with the dependent variables
+
+ x' , . . . , jcn, are called parametric quantities, then it is required that from £ and from equations deduced by
+
+ E through differentiation, every principal derivative is required to be expressed in terms of the parametric
+ quantities in a unique way.
+
+ Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:23:17 UTC
+All use subject to https://about.jstor.org/terms
+
+ On the genesis of the Cartan-Kahler theory 4 1 5
+
+ unique solution Xk(u' , . . . , uv)(k = 1, . . . , n) with the property that the parametric
+
+ quantities valued in u j , . . . , u® assume the initial values
+
+ o 0 ( d'+k+-+lXk '
+
+ n""'du'duk2---du'v)0 '
+
+ provided that the right-hand sides of equations composing E are sufficiently regular,
+
+ and also provided that the n power series (the sum being extended to all parametric
+ derivatives):
+
+ (o/+AH - 1
+
+ (o/+AH -
+
+ 1 V A,=„0
+
+ converge in a certain region of Cn. In this way, the admissibility of a normal form of
+
+ type (25) and the consequent existence of n - r -dimensional integral varieties of the
+
+ Pfaffian system was characterized by von Weber in terms of the possibility to write
+ the differential system Sv in a canonical passive (involutive) form. Moreover, as he
+ observed, to establish whether such an eventuality was fulfilled or not, reduced, at
+
+ least in principle, to a simple procedure consisting of differentiations and eliminations
+
+ to be operated on Sv.
+
+ At this point, von Weber made an interesting observation that was to assume a role of
+
+ outstanding importance in Cartan's theory. Motivated by the possibility of developing
+
+ fruitful applications in the realm of the theory of general partial differential equations,
+
+ he introduced further hypotheses which guarantee the existence of integral varieties
+
+ of increasing dimensions. Indeed, he explained, if one supposes that the system Sv
+ can be put in a canonical passive form simply by solving it with respect to certain
+
+ derivatives |^- and, furthermore, if one supposes that from Sv and from equations
+ obtained from it bv differentiation and elimination no relation can be deduced among
+
+ the variables jc/, J^-, . . . , (i = 1, . . . , ri), already contained in Sv-i» and so
+ on for the systems Sv-', . . . , Si, then every 1-dimensional integral variety of (15)
+ Mi belongs at least to one 2-dimensional integral variety Mi, etc. and, finally, every
+ v - 1-dimensional integral variety Mv-i belongs at least to one v-dimensional integral
+
+ variety Mv.
+
+ Thus, von Weber arrived at the statement of what I will refer to as the second
+
+ problem of his theory of Pfaffian systems.
+
+ Problem 2 What are the necessary and sufficient conditions that have to be satis-
+ fied so that every ' -dimensional integral variety M' of (15) belongs at least to one
+ 2-dimensional integral variety M2, etc. and so that every v - I -dimensional integral
+
+ variety Mv-' belongs at least to one v -dimensional integral variety Mv ?
+
+ Clearly, both for Problems 1 and 2, the aim was that of expressing such conditions by
+ means of algebraic and differential relations among the coefficients aSi (s = 1 , . . . ,
+
+ n - m ; i = 1 , . . . , m) only. For instance, it turns out that a necessary condition for the
+
+ Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:23:17 UTC
+All use subject to https://about.jstor.org/terms
+
+ system (15) to possess v-dimensional integral varieties Mv (Problem 1) is the exis-
+
+ tence of a system of linearly independent functions?;- ' (i = 1, . . . , m' s = 1, . . . , v)
+
+ satisfying the following bilinear equations:
+
+ 416 A. Cogliati
+
+ m m
+
+ i=l k= 1
+
+ = °' s = • • • ' v; h = 1
+
+ A detailed account of von Weber's relevant achievements would go well beyond our
+ present purposes; I will limit myself to a few observations. His analysis was mainly
+ based on the theory of bilinear forms and, more precisely, on the classification of
+ linear complexes and linear congruences in (m - 1) -dimensional33 projective spaces.
+ This should come as no surprise, since the coefficients of the bilinear covariants,
+
+ aiks » (i,k = 1 , . . . , m' s = 1 , . . . , n - m) were interpreted by von Weber geometri-
+
+ cally as defining a system of linear complexes, equal in number to the character K of
+ (15):
+
+ m m
+
+ i= 1 k= 1
+
+ (* = 1> •••>*)• (35)
+
+ In this geometrical context, von Weber identified the characteristic transformations
+
+ Xi(f) = 27=1 %j ^ = 1' • • • ' ^) as those for which the components repre-
+ sent the singular points of the congruence consisting of all the straight lines belonging
+ to complexes (35). von Weber was able to give a detailed analysis of Pfaffian sys-
+ tems with m = 3, 4, 5, 6 but ultimately, despite his hopes,34 his approach did not
+ succeed in providing a general theory of unlimited validity. Nevertheless, he should
+ be acknowledged for opening a new phase in the studies of general Pfaffian systems
+
+ by assessing some of the problems to be considered relevant, and also for introducing
+
+ useful technical tools which were destined to outlive his theory and to be reinterpreted
+
+ in the light of Cartan's exterior differential calculus.
+
+ 6 The foundations of the exterior differential calculus
+
+ After the completion of his doctoral thesis (Cartan 1894), where he gave a rigorous and
+
+ complete treatment of the classification of finite-dimensional, semi-simple, complex
+ Lie algebras already considered by Killing, Cartan devoted himself for some years
+ to applications of the theoretical results contained therein. The theory of partial dif-
+ ferential equations appears to have been one of the main fields of his interest. This
+ emerges quite clearly, for example, from the reading of the dense memoir Cartan
+ (1896) devoted to the theory of those systems of partial differential equations whose
+
+ 33 The number m, that is the difference between the number of variables and the number of equations of
+ which the system (15) consists, was called by von Weber die Stufe and it was considered by him, along
+ with the character , as a measure of the difficulties one has to face in tackling the study of a given system
+ of Pfaffian equations. See von Weber (1901, p. 387).
+
+ 34 See von Weber (1901, p. 388).
+
+ Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:23:17 UTC
+All use subject to https://about.jstor.org/terms
+
+ On the genesis of the Cartan-Kahler theory 4 1 7
+
+ solutions depend only upon arbitrary constants, and such that they admit a continuous
+
+ group of transformations.
+
+ Cartan's work (1899) on Pfaffian forms, and more specifically on Pfaff's problem,
+
+ was part of this interest. Indeed, as Lie had shown, the integration of partial differential
+
+ equations and the integration of Pfaffian forms were considered as equivalent formu-
+ lations of the same problem. As Katz (1985) and Hawkins (2005) have already given
+ a full, authoritative account of the material contained in Cartan (1899), I will limit
+
+ myself to recall the main notions, which will be useful in the rest of our discussion.
+
+ Cartan organized his treatment in a deductive way by first presenting a full set
+
+ of definitions and conventions. He started by giving a symbolic definition of what a
+
+ differential expression in n variables is; this was defined as a homogenous expression
+
+ built up by means of a finite number of additions and multiplications of the n differen-
+
+ tials dx' , . . . , dxn as well as of certain coefficients which are functions of x' , . . . , xn.
+
+ In this way, a Pfaffian expression was defined as a differential expression of degree
+
+ one such as A'dx' H
+
+ example, by A'dx2 A dx' + A2dx$ A dxi?5
+
+ A very important notion of Cartan's new calculus was the exterior multiplication of
+ two differential expressions.36 Cartan himself observed that he had realized back in
+
+ 1896 that the formulas for the change of variables in multiple integrals could be easily
+
+ derived by submitting the differentials under the integration sign to appropriate laws of
+ calculation, which coincide with Grassmann's exterior calculus. By developing such
+
+ an intuition, in 1899 he was able to present convincing arguments to justify such rules,
+
+ which relied upon the idea of the value of a differential form.
+
+ To this end, Cartan considered a differential expression co of degree h and then sup-
+
+ posed that the n variables involved are functions of h arbitrary parameters {a ' , . . . , an ) .
+
+ Indicating by , . . . , fih) one of the h' permutations of the parameters ot' , . . . , an,
+ Cartan associated to it the value that co assumes when the differentials occupying the
+
+ ith (/ = 1, . . . , h) position are replaced by the corresponding derivative of x with
+
+ respect to $ . By attributing to such a quantity the sign + or - depending on the parity
+
+ of the permutation considered, and then by summing over all h' permutations, Cartan
+
+ finally obtained what he called the value of the differential expression. For example,
+ the value of the differential form A'dx2 A dx' + A2dx$ A dx 2 is:
+
+ ^ 1 dX2 dx' ^ ^ 9jC3 9*3 ^ 1 dX2 dx j ^ ^ 8x3 dx2
+
+ 1 9g?I da2 ^ ^ 9of 1 9C*2 ^ 1 9Q?2 9C*I ^ ^ 9c*2 9ori
+
+ At this point, Cartan defined two differential expressions of degree h to be equiva-
+ lent if their value is the same independently of the choice of parameters a' , . . . , a/j.
+ In this way, he was able to establish Grassmann's well-known multiplication rules,
+ which were to be interpreted, in Cartan's view, as equalities between equivalence clas-
+ ses of exterior differential forms. For example, one has dx 1 A dx2 = -dx 2 A dx' or
+
+ 35 Cartan did not employ the wedge product symbol A.
+
+ 36 One can find the germs of this crucial notion already in some of Poincare's work on integral invariants.
+ See Katz (1985, p. 322) and Olver (2000, p. 69) for the relevant bibliography.
+
+ Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:23:17 UTC
+All use subject to https://about.jstor.org/terms
+
+ dx 4 Adx4 = 0, as is easy to see on calculating the values of the differential expressions
+ appearing in the equations.
+
+ A second crucial novelty of Cartan's theory was the exterior derivative of a given
+ Pfaffian expression,37 which he explicitly connected with Frobenius' and Darboux's
+ notion of bilinear covariant. Cartan's definition reads as follows. Given a Pfaffian form
+
+ 418 A. Cogliati
+
+ like A'dx' H
+
+ ct)f - dA' A dx' H
+
+ The invariant character of such a derivative is then established by relying on the notion
+
+ of value on observing that if a) indicates the expression of co with respect to a new set of
+
+ coordinates yi(x) then the differential forms of degree two co' and (&>)' are equivalent
+ in the sense specified above.
+
+ On the basis of this new calculus, Cartan was not only able to reformulate all
+
+ the known results in the theory of Pfaffian equations, including Frobenius' analytical
+ classification theorem,39 but he also to succeed in obtaining remarkable new results
+
+ about the resolution of systems that consist of a single Pfaffian equation and a certain
+
+ number of finite relations.40 These were particularly relevant for the theory of partial
+ differential equations of first order.
+
+ 7 Cartan's theory of general Pfaffian systems
+
+ After laying the foundations of his new exterior differential calculus, Cartan devoted
+
+ himself to the study of integrable systems of Pfaffian equations that are not completely.
+
+ As with von Weber, and in accordance with the motivations driving Cartan (1899), it
+
+ appears that the main reason for this was the many applications of Pfaffian expressions
+
+ to the theory of partial differential equations.
+
+ Cartan (1901a) began his analysis by recalling Biermann's41 efforts to determine the
+
+ maximal dimension and the degree of indeterminacy of integral varieties of uncondi-
+
+ tioned Pfaffian systems. In this respect, Cartan complained about the lack of rigorous
+ (not generic) and systematic results, and emphasized the urgency of providing the
+ theory with solid theoretical grounds in order to remedy this unsatisfactory state of
+ affairs.
+
+ As observed by Hawkins (2005, p. 430), a key role was played by the notion of
+ the bilinear covariant which, as we have seen, Cartan interpreted as the first exterior
+
+ derivative of a Pfaffian form. However, one should not forget that the use of such a
+
+ notion was not Cartan's alone since, as we have seen, it was quite frequently employed
+
+ by other mathematicians. Instead, what characterizes Cartan's approach with respect
+
+ 37 The definition was generalized to include derivatives of differential forms of degree greater than one in
+ Cartan (1901b, p. 243).
+
+ 38 The notation dco was introduced by Kahler (1934, p. 6).
+
+ 39 See §2 above.
+
+ 40 See Cartan (1899, Chapter V).
+
+ 41 See §3 above.
+
+ Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:23:17 UTC
+All use subject to https://about.jstor.org/terms
+
+ On the genesis of the Cartan-Kahler theory 4 1 9
+
+ to his contemporaries was the ubiquitous recourse to geometrical insight, and the
+ foundational role of his exterior differential calculus which introduced considerable
+
+ simplifications in the theory.
+
+ 7.1 Geometrical representation
+
+ It seems that Lie had been the first one to attribute a geometrical interpretation to the
+
+ system of Pfaffian equations (15) in the context of his synthetic approach to differ-
+ ential equations. Engel took it from Lie and profitably applied it to his researches in
+ Engel (1890) by writing:
+
+ We can attribute to the system (15) also an illustrative representation. Indeed,
+
+ through the equations (15), to every point of the space x' , . . . , xn the corre-
+
+ sponding plane bundle of directions: dx' : dx2 : • • • : dxn , is associated. If in
+ every point of the space the corresponding bundle of directions is considered
+
+ then one obtains a figure which is the exact image of the system (15).42
+
+ von Weber himself took great advantage of such a geometrical representation and
+
+ even widened it by introducing for the first time (in September 1900, see von Weber
+
+ (1900b)) the notion of an element of a Pfaffian system as the set of directions tangent
+
+ to the integral variety of the system itself.
+
+ Clearly inspired by this long-standing tradition, Cartan opened his analysis in Cartan
+ (1901a) by emphasizing the importance of geometrical representations in the prob-
+ lems he was about to deal with. Let us consider a system of Pfaffian equations of the
+
+ following type:
+
+ < . (36)
+
+ co i = a''dx' H
+
+ 0)2 = a2'dx' H
+
+ o)s = as'dx' -1
+
+ Cartan supposed that n out of the r variables should be regarded as independent, so
+ that the remaining r - n could be expressed as functions of them. In this way, a
+ n-dimensional variety Mn of the r -dimensional total manifold43 was defined. Then,
+ Cartan observed, the system (36) can be thought of geometrically as prescribing the
+ conditions that have to be satisfied by the differentials dx' , . . . , dxr when one con-
+ siders an arbitrary displacement on Mn . Furthermore, since the differentials dxt can
+
+ be assimilated44 to the direction parameters of the tangent lines to the variety Mn ,
+
+ 42 'Man kann mit dem Sy steme ( 1 5) auch eine anschauliche Vorstellung verbinden. Durch die Gleichungen
+ (15) wird namlich jedem Punkte des Raumes x', .. .,xn ein ebenes Biindel von oom_1 Fortschreitungs-
+ richtungen: dx' : dx 2 : . . . : dxn zugeordnet. Denkt man sich in jedem Punkte des Raumes das zugehorige
+ Biindel von Fortschreitungsrichtungen, so erhalt man eine Figur, welche das genaue geometrische Bild des
+ Systems (15) ist'
+
+ 43 I designate with the expression total manifold the set of all the r-uples (jq , . . . , xr).
+
+ 44 Again, no distinction between base elements of cotangent spaces and components of tangent vectors
+ was made.
+
+ Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:23:17 UTC
+All use subject to https://about.jstor.org/terms
+
+ the system (36) can be interpreted as saying that, as a consequence of (36), these tan-
+
+ gent lines belong to a certain linear variety ( multiplicite plane) which depends upon
+
+ the point considered. Hence, the problem of finding n -dimensional integral varieties
+
+ of (36) was traced back to the following:
+
+ We associate to every point of the space a linear variety passing through this
+
+ point; then we determine an w-dimensional variety Mn, such that in its every
+
+ point all the tangents to the variety belong to the linear variety corresponding to
+
+ 420 A. Cogliati
+
+ this point.45
+
+ After setting the problem in precise geometrical terms, Cartan defined a linear ele-
+
+ ment (i element lineaire) to be the set consisting of a point and a straight line passing
+ through the point, which can be denoted (x, dx). Then, he specified a linear element
+
+ to be integral if the differentials dx i, . . . , dxn, regarded as direction parameters of
+
+ the tangent line of the linear element, satisfy the systems of linear equations obtained
+
+ from (36) after evaluating the coefficients ay, (/ = 1, . . . , s; j = 1, . . . , r) at x. He
+ finally arrived at the following proposition which characterized the integral varieties
+ of (36).
+
+ Proposition 1 For a variety to be integral is necessary and sufficient that every linear
+ element of it be integral.
+
+ The notion of linear element was then generalized by Cartan to a greater number of
+
+ dimensions. Indeed, a /^-dimensional element was defined to be the couple consisting
+ of a point and a linear variety passing through the point. Cartan indicated it with the
+
+ symbol Ep. It was clear that every /7-dimensional element Ep of an integral variety
+ Mn (necessarily p < n) consists of integral linear elements; however, as already
+ observed by von Weber,46 Ep has to satisfy further conditions which, in general,47
+ are not algebraically implied by (36); they are the relations obtained by requiring the
+ vanishing of all bilinear expressions
+
+ M'' - X/,t=i - fof") ( dxiSxt - dxkSxi),
+ : (37)
+
+ Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:23:17 UTC
+All use subject to https://about.jstor.org/terms
+
+ MS = Zu=! (f^ - (dxjSx/c - dxkSxi ),
+
+ 45 'A chaque point de Vespace on fait correspond re une multiplicity plane passant per ce point; deter-
+ miner une multiplicite a n dimensions Mn, telle qu'en chacun des ses points toutes les tangentes a cette
+ multiplicite soient situees dans la multiplicity plane correspondente a ce point'. Carton's formulation of
+
+ the integration problem can be translated as follows. Consider the exterior ideal J, simply generated by the
+
+ 1 -forms co' , . . . , cos . To find integral submanifolds of X is equivalent to the problem of determining integral
+ submanifolds of the distribution of vector fields which is dual to X. If we indicate this distribution with
+
+ V = {i>i, . . . , vr-s }, the vector space V 'x is precisely the linear variety to which Cartan referred. Indeed, for
+ a submanifold Mn to be an integral variety of V is necessary and sufficient that TMn 'x C V I* , Vx 6 Mn.
+
+ 46 Here I am referring to von Weber's remarks according to which one has to consider in the differential
+
+ system Sv , together with equations of type dxfi£h = Y,aih also the equations obtained by them
+ through differentiation.
+
+ 4/ Unless the system (36) is completely integrable.
+
+ On the genesis of the Cartan-Kahler theory 421
+
+ where dx and 8x are arbitrary integral linear elements belonging to Ep. Thus, Cartan
+ arrived at the crucial definition of integral element of more than one dimension:
+
+ An element consisting of linear integral elements is said to be an integral element
+
+ of dimension 2, 3, ... if every two linear integral elements satisfy (37).48
+
+ Then he defined two integral linear elements dx, 8x to be associated or in involution
+
+ if all of the bilinear expressions (37) vanish. As a consequence of this, the definition
+
+ of integral element could be rephrased as follows:
+
+ A linear integral element of dimension 2, 3, ... is an element consisting of linear
+
+ integral elements which are associated pairwise.49
+
+ Once more, Cartan found it useful to emphasize his geometrical approach by observing
+
+ that if the quantities dxiSxk -dxkSxi are regarded as Pliicker's coordinates of a straight
+
+ line, then the bilinear relations (37) can be interpreted as defining linear complexes in
+
+ projective spaces; in this connection, he often insisted upon the possibility of yielding
+
+ a thorough classification of all Pfaffian systems on the basis of the classification of
+ linear complexes themselves.
+
+ It is somehow surprising that Cartan never mentioned von Weber's valuable
+ researches in this field,50 in particular von Weber's frequent recourse to the theory
+
+ of linear complexes and bilinear forms. It is true that they had been published only a
+
+ year before the publication of Cartan's (1901a) epoch-making article, and so he might
+
+ not have had the opportunity of studying them carefully or even of reading them at all.
+ Nevertheless, it is of considerable historical interest that many ideas fully developed
+
+ by Cartan could already be found in von Weber's work.
+
+ We will see below that even for the crucial notion of a Pfaffian system in involution
+
+ (closely related to Problem 2 of von Weber's theory) no mention of von Weber's anal-
+
+ ysis was made by Cartan. Once more, it is probable that Cartan was not aware of von
+ Weber's work, and that he introduced involutive systems by borrowing them directly
+
+ from the theory of general systems of partial differential equations as developed by
+ Meray, Riquier and Delassus (see below).
+
+ 48 'Appelons element integral a 2, 3, . . . dimensions un element forme d' elements lineaires integraux et
+ tel, de plus, que deux quelconques d'entre eux satisfassent au system (37)'. In modern terms, Cartan's
+ definition of integral element of (36) can be translated as follows: a p-dimensional integral element of (36)
+
+ is a subspace Ep C TMr I* such that:
+
+ (cOj-,Vi)= 0 A (da)j',Vi,V k)=0 (7 = 1,..., 5).
+
+ 49 'Un element integral a 2, 3, . . . dimensions est un element forme d'elements lineaires integraux associes
+ deux a deux'.
+
+ 50 Among von Weber's works considered here, von Weber (1898a) was the only one explicitly cited by
+ Cartan (1901a,b).
+
+ Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:23:17 UTC
+All use subject to https://about.jstor.org/terms
+
+ 422 A. Cogliati
+
+ 7.2 Cauchy's first theorem
+
+ What Cartan called Cauchy's first problem was the following:
+
+ Given a /^-dimensional integral variety Mp of a system of total differentials
+
+ equations, to determine a (p + 1) -dimensional integral variety Af^+i passing
+
+ through Mp .51
+
+ Its relevance can hardly be overestimated. Indeed, it turns out that the problem
+
+ of integration of (36) can be solved by a step-by-step procedure consisting of deter-
+
+ mining integral varieties of increasing dimensions. Clearly, a necessary condition for
+
+ the existence of a (/? -I- l)-dimensional integral variety Mp+' passing through Mp
+ is that every /^-dimensional integral element Ep of Mp is contained at least in one
+ (/? + l)-dimensional integral element Ep+' . However this condition is not sufficient.
+ To guarantee the existence of such integral varieties, one has to require more, i.e.,
+
+ that at least one (p + 1) -dimensional Ep+' integral element passes through every
+ /^-dimensional integral element of the space.
+
+ Before moving on to the resolution of Cauchy's first problem, Cartan observed,
+
+ it is useful to make a few geometrical remarks on the structure of the integral ele-
+
+ ments Ep+' . If Ep is supposed to be generated by p linearly independent vectors, i.e.,
+ Ep = {e' , ... ,ep), then an integral element Ep+' D Ep can be defined by adding
+ a linear element e to Ep, which is linearly independent of Ep' clearly, one requires
+ both that e is integral and that e is in involution with ei , V/ = 1, . . . , p.
+
+ The (p + 1) -dimensional element Ep+' containing Ep depends on r - p homoge-
+
+ neous parameters,52 and the equations which express that Ep+' is integral are linear in
+ these parameters. Let us suppose that these equations reduce in number tor- p- u - 1
+
+ (with u > 0), then at least one integral element £p+i passes through every integral
+ element Ep. In particular if u = 0 then such a Ep+' is unique. In general, these
+ integral elements build up an infinite family depending on u arbitrary constants. It
+ may happen that in particular cases the degree of indeterminacy is greater than m;
+
+ in this eventuality, Cartan said that Ep is a singular element, otherwise Ep was said
+ to be regular.53 The notion of singularity was easily transferred to integral varieties
+
+ by defining them to be singular when all their integral elements are singular in the
+ specified sense.
+
+ At this point Cartan was ready to solve Cauchy's first problem by proving what he
+
+ called Cauchy's first theorem. This is a crucial point in the whole theory of exterior dif-
+
+ ferential systems; indeed, it can be considered as the gist of what is nowadays known
+ as Cartan-Kahler theorem, since one can find in it the proof of the inductive step that
+
+ is crucial for assessing the existence of varieties that 'integrate' integral elements. As
+
+ 5 1 'Etant donnee une multiplicity integrate a p dimensions Mp d'un systeme d'equations aux differentielles
+
+ totales, faire passer par Mp une multiplicity integrate a p + 1 dimensions Mp+' '
+
+ 52 The numbers of effective parameters is r - p - 1 ; in general, every q -dimensional element Eq containing
+ a p-dimensional element Ep depends on (q - p)(r - q) effective parameters. See Goursat's (1922, §81)
+ proof.
+
+ 53 A clearer explanation of Cartan's notion of regularity will be given in the next section in terms of the
+ so-called characteristic integers.
+
+ Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:23:17 UTC
+All use subject to https://about.jstor.org/terms
+
+ On the genesis of the Cartan-Kahler theory 423
+
+ it is well-known, the validity of the theorem is limited to the class of analytic Pfaffian
+
+ systems. For this reason we will suppose, as Cartan explicitly did, that the coefficients
+
+ of (36) are analytic functions of x.
+
+ Theorem 5 (Cauchy 's first theorem) Suppose that every p -dimensional, regular, inte-
+
+ gral element passes through at least one ( p + ') -dimensional integral element Ep+ ';
+ then , given a non-singular p-dimensional integral variety Mp of (36), a (p + 1)-
+ dimensional integral variety Mp+ ' exists which passes through Mp. More precisely ;
+ if oou (p + ') -dimensional integral elements passes through every regular, integral
+
+ element Ep, then many integral varieties Mp+' exist which depend upon u arbitrary
+ functions.
+
+ In order to offer a general idea of how it works, it will be enough to limit ourselves
+
+ to the following remarks.
+
+ Cartan's starting point was to translate the geometrical content of the statement into an
+
+ analytic form. To this end, he considered on M p a /7-dimensional regular integral ele-
+
+ ment E®p that he supposed to have its centre at a fixed point P° = (jcp . . . , x J?), of Mp.
+
+ In an appropriate open subset containing P°, Mp can be represented by r - p analytic
+
+ functions expressing, for instance, the variables xp+' , . . . , xr in terms of x' , . . . , xp.
+ Furthermore, the linear equations (with constant coefficients) defining the integral
+
+ element E®p are solvable with respect to the differentials dxp+' , . . . , dxr. Then, if a
+
+ (p + l)-dimensional integral element £^+1 passing through E® is considered, the
+ r - p - 1 equations defining it are solvable with respect to the r - p - 1 differentials
+
+ dxp+ 2, . . . , dxr, say. Thus, a (p + 1) -dimensional integral variety Mp+' admitting
+ will be expressed, in an appropriate neighbourhood of P°, byr - p - l analytic
+
+ functions, jcp+2, . . . , xr of x' , . . . , jc^+i .
+
+ At this point, Cartan introduced some simplification in the notation: jcp+i was
+ replaced by x and xp+i, • • • > *r by z' , . . . , zm (clearly, m = r - p - 1). As a con-
+ sequence of this, the equations for Mp (in a neighbourhood of P°) can be written as
+ follows:
+
+ * = 4>(x', . . . ,xp),
+ z' =4>'(x',...,xp)
+ . (38)
+
+ Zj =Zj(x,x'9...,xp+ 1), 0' = l,...,m = r - p - 1). (39)
+
+ If x is replaced by x - </>(jci , . . . , xp) then (38) can be rewritten as
+
+ x = 0,
+ Zj =(/>j(x i, ...,*p), ( j = 1, ...,m).
+
+ ^ Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:23:17 UTC
+All use subject to https://about.jstor.org/terms
+
+ Zm = $m(x 1 » • • • > xp)i
+
+ while the variety Mp+' can be expressed (in a neighbourhood of P°) by:
+
+ 424 A. Cogliati
+
+ Consequently, the condition that Mp passes through Mp+' requires that:
+
+ zj( 0,x',...,xp) =<f>j(x',...,xp) ( j = 1 , ...,m).
+
+ Now, the problem consists of writing down the differential equations for the r - p - 1
+
+ unknown functions that have to be satisfied for Mp+' to be an integral variety of
+ (36). To this end, it is first necessary to consider the generic ( p + l)-dimensional
+
+ element (having its centre in a neighbourhood of P°) consisting of the linear elements
+
+ that one obtains when infinitesimal increments are attributed to every single variable
+
+ x, x' , . . . , xp. Their direction parameters are given by the following table:
+
+ dx_ _ dx± _ _ dx%_ _ dz±_ _ * * * _ dzm
+
+ c ■ 1 ~~ 0 _ - _ o ~ _ foj _ - * * * - _ >
+
+ . dx _ dx' _ _ dxp _ dQ _ _ _ dzrn
+
+ 01 _ _ _ 0 _ if _ _ _ (40)
+
+ r . dx _ dx 1 _ * * * _ dx^_ _ dz' _ ' * * _ dzm
+ CP r ' 0 ~ 0 - * * * - i _ - l Jz£ _ - ' * * - _ aZm -
+
+ Then one requires that this (p + l)-dimensional element is indeed an integral element;
+
+ that is, one requires (i) that every linear element is integral and (ii) that the linear inte-
+
+ gral elements are in pairwise involution. Cartan observed that it is useful to separate
+
+ such a system of differential equations into two groups: the first one (I) assures that the
+
+ element Ep = (e' , . . . , ep) is integral, the second one (II) that the linear element e is
+
+ integral and in involution with Ep. It is easily seen that (I) does not contain the deriv-
+ atives . . . , while the second system of equations (II) is linear with respect to
+ such derivatives. At this point, the regularity assumptions come into play: essentially,
+
+ the fact that the indeterminacy degree of Ep+' is minimal guarantees the possibility
+ of rewriting the system (II) in a Cauchy-Kovalevskaya form where m - u derivatives
+
+ are expressed in terms of an equal number of analytic functions:
+
+ 9^1 _ - (f) (x x. - 9^. dZm-M+l
+ dx _ - (f) 'x' x. xfZ*>d - Xj> dx ' • • • ' dx )
+
+ ' (41)
+
+ Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:23:17 UTC
+All use subject to https://about.jstor.org/terms
+
+ dZm-u - - (J) Vw-ll ( y Xt r- Zk, 7i dZ/c dZm-u+l dzm '
+ dx - - (J) Vw-ll 'X, y Xt r- , Zk, 7i dxj . 3x > ' " dx )'
+
+ The theory of the systems of partial differential equations of this particular kind guar-
+ antees the existence of holomorphic solutions in a neighbourhood of P° depending on
+
+ u arbitrary54 functions zm-u+ 1 , • • • » zm , such that for x = 0 they reduce to , . . . , <f>m .
+
+ Cartan's final step consisted in proving that the solution so obtained actually repre-
+
+ sents a (p + l)-dimensional integral variety of the system (36), that is, it satisfies both
+ systems (I) and (II). First, he proved that every solution of the Cauchy-Kovalevskaya
+
+ 54 Clearly, for x = 0 they have to reduce to 0m_M+ 1 , ,(pm.
+
+ On the genesis of the Cartan-Kahler theory 425
+
+ system satisfies systems (I) and (II) for x = 0. Then he proved that every solution
+
+ satisfying (I) and (II) for a generic x also satisfies (I) and (II) for every infinitesimally
+
+ close point x + 8x, showing in such a way that the theorem is true for every point
+ within an appropriate neighbourhood of P°.
+
+ As we have seen, von Weber had been the first person to set the problem of the
+
+ integration of general Pfaffian systems in terms of the existence of integral varieties
+ of increasing dimension. Yet, he was unable to provide a systematic analysis of the
+ conditions whose determination was the object of Problem 2 of his theory. On his
+ part, Cartan considered the determination of chains of integral varieties of increasing
+ dimension as the gist of the integration procedure of general Pfaffian systems. To
+ this end, he introduced the following definition of Pfaffian system in involution. A
+
+ Pfaffian system (36) was said to be in involution if at least one 2-dimensional integral
+
+ variety M2 passes through each integral curve M' , at least one 3-dimensional integral
+
+ variety M3 passes through each 2-dimensional integral variety M2, etc. and, finally, at
+
+ least one g -dimensional integral variety Mg passes through each (g - 1) -dimensional
+
+ integral variety Mg- ' .55 Now, from Cauchy's first theorem, it follows that a necessary
+ and sufficient condition for the system (36) to be in involution is that every regu-
+ lar 1 -dimensional integral element E' belongs at least to one 2-dimensional integral
+ element £2 , every regular 2-dimensional integral element £2 belongs at least to one
+ 3-dimensional integral element, etc. and, finally, every regular ( g - 1) -dimensional
+
+ integral element Eg-' belongs at least to one g-dimensional integral element Eg. In
+ this way, Cartan was able to provide a complete answer to von Weber's Problem 2
+
+ by obtaining at the same time an answer to Problem 1 since the determination of the
+
+ number g coincides with the determination of integral (regular) varieties of maximal
+ dimension.
+
+ Some remarks on the historical origins of the notion of involutive systems of Pfaf-
+
+ fian equations are in order here. To my knowledge, von Weber was the first to draw
+ attention on the relation between the general theory of canonical passive (involutive)
+
+ systems of partial differential equations and the existence of chains of integral varie-
+
+ ties of (36) of increasing dimensions. Thus, it would be natural to trace back Cartan's
+
+ notion of involution to von Weber's works on general Pfaffian systems, namely to von
+
+ Weber (1900a). However, I cannot produce any evidence that Cartan derived from von
+
+ Weber the inspiration for his researches on this point. On the contrary, Cartan's (1931,
+
+ pp. 28-29) recollections seem to support the possibility that he developed such a notion
+
+ independently of von Weber. In fact, he recognized that his own notion of involution
+
+ was analogous to the one introduced by Meray and Riquier, among others, in the con-
+
+ text of the theory of general systems of partial differential equations. Finally, it seems
+ that an important influence on Cartan was exerted by the work of Delassus (1896),
+
+ namely, in which, for the first time, the study of solutions of general systems of partial
+ differential equations was traced back to the study of Cauchy-Kovalevskaya sys-
+ tems. In particular, Delassus had shown that the whole integration procedure could be
+ reduced to successive integrations of Cauchy-Kovalevskaya systems in an increasing
+
+ 55 The number g was called by Cartan the genre of the system (36); it is defined as the maximal dimension
+ of regular integral varieties of (36). In the next section, we will see how the existence of such an integer
+ can be deduced from the so-called characteristic integers of (36).
+
+ Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:23:17 UTC
+All use subject to https://about.jstor.org/terms
+
+ number of independent variables. From this point of view, Cartan's achievements can
+ be seen as a translation and a development of Delassus' results in the geometric,
+
+ coordinates-independent language of exterior differential forms.
+
+ 426 A. Cogliati
+
+ 7.3 Genre and characters
+
+ Cauchy's first theorem highlights the need to proceed toward a detailed geometrical
+ analysis of the properties of integral elements. In particular, as we have just seen,
+
+ Cartan was interested in studying the conditions guaranteeing the existence of integral
+ elements of increasing dimensions. His procedure can be summarized as follows: let
+
+ us consider a p-dimensional integral element Ep of a certain point jc; we can think of
+ it as being generated by p linearly independent linear integral elements reciprocally
+
+ in involution: Ep = (ei, . . . , ep). To construct an integral element Ep+ ' containing
+ Ep , as we already know, one has to add to Ep an integral linear element e independent
+ of Ep and in involution with , (i = 1, . . . , p ).56 If, as Cartan would do in Cartan
+ (1901b), we introduce the linear variety57 H(EP ), the polar element 58 of Ep , of all
+
+ integral linear elements in involution with Ep , we can rephrase the preceding sentence
+ by saying that Ep+' = ( Ep , e ), with e € H(EP) and e £ Ep.
+
+ In order to characterize the structure of such polar elements as well as to obtain
+
+ information on the degree of indeterminacy of integral elements, Cartan introduced a
+
+ sequence of integers, which we will indicate with fi , to be defined as follows:
+
+ dim H(Ep) = rp+ ' + p + 1.
+
+ Geometrically, this means that the polar element H(EP) is generated by the p base
+
+ vectors of Ep and by rp+' -I- 1 linear integral elements, eo,ei,..., e?p+ { . As a conse-
+ quence of this, the (p + l)-dimensional integral elements Ep+' passing through Ep
+
+ depend on rp+' parameters or, as Cartan expressed himself, oor^+l integral elements
+
+ Ep- |_i pass through Ep.
+
+ Although Cartan was not very explicit, it is clear that the coefficients rp depend
+
+ not only on the point x to which the Ep s belong but also on the choice of the basis
+ of the tangent space at x to the integral variety (indeed, even on the ordering of such
+
+ a basis).59 Thus, to be rigorous, he should have written rp(x; e' , . . . , ep-') instead
+ of rp. In fact, it appears that the coefficients rp effectively introduced by Cartan,
+ the so-called characteristic integers , should be interpreted as the minimum values of
+ rp(x; e', . . . , ep-') when x varies over Mr and the e/'s (/ = 1, 1) vary over
+
+ 56 Remember that e is in involution with Ep = (e', . . . , ep) if, and only if, dco^ie, e{) - 0, (k =
+ 1, . . . , s; i = 1, . . . , p).
+
+ 57 The fact that H(Ep) is a linear variety is a consequence of the bilinearity of (37). It should be observed
+ that, although consisting of linear integral elements, in general, H(Ep ) is not an integral element. The
+ reason for this is that two linear integral elements in involution with a third are not necessarily in involution
+ between themselves. See Cartan (1901a, p. 250).
+
+ 58 To my knowledge, this denomination was first introduced by Cartan when discussing Pfaffian systems
+ of character one in Cartan (1901b, §18).
+
+ 59 See Olver (1995, pp. 450-454).
+
+ Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:23:17 UTC
+All use subject to https://about.jstor.org/terms
+
+ On the genesis of the Cartan-Kahler theory 427
+
+ TMr U:
+
+ rp = Min{rp(x,e' , ' x € Afr, e-x eTMr U).
+
+ This lack of notational precision was justified, in Cartan's view, by the necessity of
+
+ focusing his analysis60 on the so-called regular integral elements , i.e., on those inte-
+
+ gral elements for which rp = rp. More precisely, according to Cartan's definition, a
+ /7-dimensional integral element Ep is regular if, and only if, rp+i = rp+ 1,61 or, in
+ another words, when its polar element has minimal dimension. As a consequence of
+ this, in what follows we will limit our attention to non-singular (i.e., regular) integral
+
+ elements, as Cartan did, and for this reason we will ignore the distinction between rp
+
+ From these preliminary remarks, Cartan moved on to demonstrate certain arithmet-
+
+ ical relations among the characteristic integers, which turn out to be very useful for
+
+ and rp.
+
+ the following discussion.
+
+ A first result is that the integers rp decrease when the index p increases. Indeed, let
+ us consider a regular integral element Ep and a regular integral element Ep-' con-
+ tained therein; since every linear integral element in involution with Ep is, a fortiori,
+ in involution with Ep-' C Ep, we have H(Ep ) C H(Ep-' ) and thus, rp > rp+' + 1 .
+ From this, it follows that the succession of integers {rp} is decreasing, and that an
+ integer g exists such that rg+' = - 1 . Therefore, the polar space H(Eg) does coincide
+ with Eg (supposed to be regular) and no ( g + l)-dimensional integral element Eg+'
+ passes through Eg. The integer g Cartan called the genre of the differential system
+ (36).
+
+ Another chain of inequalities gives information on the differences among three
+
+ consecutive characteristic integers:
+
+ rP ~ rp+ 1 > rp+' - rp+2 (p < g - 2).
+
+ As with the preceding inequality, its demonstration relies on geometric considerations
+
+ concerning the polar spaces H(Ep- 1), H(Ep ) and H(Ep+').
+
+ From this and from rg-' - rg - 1 > rg, Cartan eventually deduced the following
+
+ fundamental chain of inequalities:
+
+ r - n - ' > r' - 7*2 - 1 > • • • > rg-' - rg - 1 > rg. (42)
+
+ The numbers occurring in such inequalities assume a great importance in the theory.
+
+ Like the characteristic integers rp, they are invariants of the system (36) with respect
+
+ 60 As we will see below, characteristic elements are a major exception.
+
+ 61 It should be observed that this is different from the notion of regularity as given, for example, by Olver
+ (1995, p. 456).
+
+ Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:23:17 UTC
+All use subject to https://about.jstor.org/terms
+
+ to arbitrary changes of coordinates,62 and provide a useful tool for the classification
+
+ of general Pfaffian systems. Cartan indicated them with s', ...,sg9 namely63:
+
+ 428 A. Cogliati
+
+ s' = r' - r2 - 1
+
+ . = rg-
+
+ ; (43)
+ *«-i = rg- 1
+
+ Cartan observed that the first of these integers, s' , had already been introduced by von
+
+ Weber under the denomination of the character of the system (36). By generalizing
+ such a notion to the subsequent integers, Cartan spoke of second, third, etc. charac-
+ ters, respectively. As we have seen, von Weber had introduced the character s' in a
+ purely algebraic manner (except for the subsequent interpretation in terms of linear
+
+ complexes) as the number of linearly independent relations built up with the bilinear
+
+ covariants of the Pfaffian system. It is easy to demonstrate that Cartan's definition
+
+ coincides with that of von Weber's. Indeed, it is sufficient to observe that, according
+
+ to Cartan's definition, s' is the number of linearly independent equations which one
+ has to add to (36) in order to obtain the polar element of a (regular) linear integral
+ element E'.
+
+ The relevance of such integers was clarified by the possibility of determining the
+
+ most general (regular) integral variety Mg of (36) by repeated application of Cauchy's
+ first theorem. More precisely, Cartan was able to yield a full characterization of the
+
+ indeterminacy degree of the solutions of (36) by demonstrating the following
+
+ Theorem 6 (Cauchy's second theorem) Given a Pfaffian system of s linearly inde-
+
+ pendent equations in r variables , of genre g and with characters s', ... ,sg. Then , the
+ r variables can be divided into g + 2 groups:
+
+ Xr | 9 j • • • 9 9
+
+ Z' » Z2 » • • • » Zs »
+ 70) 7(U 70)
+
+ .(g) .(g) .(g)
+ 2 ' • • • » £sg •
+
+ such that on the most general integral variety Mg the variables x' , JC2, . . . , xg can be
+
+ regarded as independent and, in a neighbourhood of a regular point (jtp . . . , jc^), Mg
+
+ is determined by the following initial conditions: on Mg, z'8' *2?' . . . , Zsf reduce
+
+ to sg arbitrary functions of x' , . . . , xg; for xg = x°, the z^-1' . . . , reduce
+
+ to sg- 1 arbitrary functions of x' , . . . , xg-'; etc.; for xg = jc®, . . . , *2 = *2 ^
+
+ 62 Such an invariance property is essentially due to the covariance of the exterior derivative. See Cartan
+ (1901b, pp. 236-237).
+
+ 63 The first integer r - r' - 1 is ignored since it is easily demonstrated to be equal to 5, the number of
+ linear independent Pfaffian equations of the system, s was sometimes called the 0th character of (36), for
+ example, in Amaldi (1942).
+
+ Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:23:17 UTC
+All use subject to https://about.jstor.org/terms
+
+ On the genesis of the Cartan-Kahler theory 429
+
+ z2^ • • • ' zs? reduce to s' functions of x'; finally, for xg = jc®, . . . , *2 = x®* JCl =
+
+ x p the z', . . . ,zg reduce to s arbitrary constants.
+
+ As Cartan observed, the theorem includes the results already obtained by Bier-
+ mann64 in the case of unconditioned Pfaffian systems. Clearly, Cartan's achievements
+
+ were far more general, rigorous and complete. Furthermore, the characterization of
+
+ the indeterminacy of the integral solutions agreed with analogous results obtained by
+
+ Delassus (1896) in his researches on general systems of partial differential equations.
+
+ Nevertheless, Cartan claimed that his new approach through exterior differential forms
+
+ was superior because it had the advantage of being independent of a particular choice
+ of coordinates.
+
+ 7.4 Characteristic elements
+
+ Thus far, we have dealt with regular integral elements. However, singular integral
+ elements play an important role, too. Following Engel, von Weber had introduced
+ characteristic transformations as those infinitesimal transformations which are dual to
+
+ the Pfaffian equations of the system and leave the system invariant. On his part, Car-
+
+ tan introduced what he called characteristic elements by observing that in some cases
+
+ the differential equations of the Cauchy-Kovalevskaya system determining the inte-
+
+ gral variety Mp+' passing through a given integral variety Mp assume a particularly
+ simple form which greatly simplifies their integration. By referring to the notation
+ of §7.2, Cartan considered the eventuality in which such equations do not depend
+
+ upon the derivatives |j^, (/ = 1, . . . , r - p - 1; k = 1 that is the case in
+ which the Cauchy-Kovalevskaya system is independent of the linear integral elements
+
+ e',...,ep generating the integral element Ep. As a consequence of this, the partial
+
+ derivatives . . . , Zr^~l define a linear integral element e which depends only on
+ the point considered and is in involution with all the integral elements Ep passing
+ through this point. If this is the case, at every point of the space65 a linear integral
+
+ element exists that is in involution with every linear integral element drawn from this
+
+ point. Such linear integral elements were called characteristic by Cartan.66 Clearly, a
+ linear integral characteristic element is also singular , since oori_1 integral elements
+
+ £2 pass through it.
+
+ As von Weber had already observed, the importance of characteristic elements67
+ lay in the possibility of exploiting their existence to simplify the integration of the
+ Pfaffian system under examination. Indeed, after defining the characteristic Pfaffian
+
+ system as the system of total differential equation determining characteristic elements,
+
+ Cartan was able to reformulate von Weber's Theorem 4 in the following way:
+
+ 64 See §3 above.
+
+ 65 Actually, we should limit ourselves to some open subset of the space.
+
+ 66 The denomination stemmed from the theory of partial differential equations, namely from the theory of
+ Cauchy's characteristics. The connection between Cartan's characteristic elements and Cauchy's charac-
+ teristics is explained very clearly in Amaldi (1942, pp. 180-182).
+
+ 67 As Engel had done, he actually spoke of transformations leaving the Pfaffian system invariant.
+
+ Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:23:17 UTC
+All use subject to https://about.jstor.org/terms
+
+ 430 A. Cogliati
+
+ Theorem 7 The minimal number of variables upon which , by means of a change of
+
+ variables , the coefficients and the differentials of a given Pfaffian system can depend
+
+ is equal to the number of linear independent equations of the characteristic system;
+
+ these variables are given by the integration of such a system.
+
+ As for von Weber's analysis, a crucial point in Cartan's treatment was the fact that
+
+ the characteristic system is completely integrable. However, whereas von Weber had
+
+ established such a property by having recourse to what we called characteristic trans-
+ formations, and by relying upon Clebsch's theorem on complete systems of linear
+ partial differential equations, Cartan deliberately avoided such expedients and man-
+
+ aged to demonstrate the complete integrability of the characteristic system using dif-
+
+ ferential forms only. Within a few months, he was able to offer two different proofs.
+
+ The first one (Cartan 1901a, pp. 302-305) consisted of a step-by-step procedure which
+ relied on the basic property according to which a Pfaffian system of r - 1 equations
+
+ in r variables is necessarily completely integrable. The second one (Cartan 1901b, pp.
+
+ 248-249) was presented instead as a more direct application of the symbolic calculus
+
+ with exterior differential forms that he himself had developed in Cartan (1899).
+
+ It should be noticed that Cartan's refusal to utilize infinitesimal transformations
+
+ was by no means casual. I suggest that his need to avoid any recourse to them was due
+
+ to the project of developing an approach to continuous 'Lie groups' purely in terms of
+
+ Pfaffian forms without any use of infinitesimal transformations, which in his view68
+
+ did not represent an appropriate technical tool for dealing with the structural theory
+
+ of infinite dimensional continuous groups of transformations.
+
+ 7.5 Pfaffian systems of character one, II
+
+ The present paragraph is devoted to a discussion of Cartan's analysis of this special
+
+ type of Pfaffian systems as given in Cartan (1901b) with the aim of drawing a compar-
+ ison between von Weber's and Cartan's approaches. Whereas von Weber's treatment
+ was almost entirely based on analytical and algebraic considerations, Cartan carried
+
+ out his analysis in geometrical terms, relying heavily on the new properties of his exte-
+ rior differential calculus, as he had done in his approach to characteristic elements.
+ At the beginning of his discussion, Cartan stated that his analysis of Pfaffian systems
+ of character one did not lead to any new results with respect to von Weber's (1898a)
+
+ paper. Nevertheless, he set out to reinterpret von Weber's achievements in order to
+ yield a concrete application of the principles of his theory.
+
+ Let us begin with Cartan's deduction of the so-called derived system of (36).
+
+ Contrary to von Weber's analysis, which had recourse to infinitesimal transforma-
+ tions (indeed, the dual counterpart of differential expressions) to deduce via Theo-
+ rem 3 the existence of the system (23) invariantly connected to the Pfaffian system
+ under examination, Cartan first defined the notion of congruence between two dif-
+ ferential forms,69 and then he introduced the derived system in the following way.
+
+ 68 See, for instance, Cartan (1904, Chap. 2).
+
+ 69 If S2 and n designate two differential forms with the same degree, and <d' , . . . , (op designate p homo-
+ geneous differential forms with degree less or, at most, equal to that of Q (and FI), then Cartan defined
+
+ Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:23:17 UTC
+All use subject to https://about.jstor.org/terms
+
+ On the genesis of the Cartan-Kahler theory 43 1
+
+ He considered a Pfaffian system of s independent equations, &>/ = 0, (i = 1, . . . , s),
+
+ in r variables and he introduced r - s Pfaffian forms cbj , (j = 1 , . . . , r - s) such that
+
+ {a>i,cbj} ( i = 1, . . . , s' j = 1, . . . , r - s) are n independent Pfaffian forms.70 As a
+ consequence of this, the s bilinear covariants of the system can be written as
+
+ 0)'i = ^ Aijkibj A a>k = S2i, (modtwi ,(02,..., cos), (i = 1
+
+ n-s
+
+ j.k= l
+
+ Now, in general, the differential forms £2, are not independent; if, for example71 :
+
+ l' £2] + /2^2 *h * * * + =0,
+
+ then one has:
+
+ (l'Q)' + 12(02 +
+
+ In such a way, Cartan demonstrated that appropriate linear combinations of the Pfaf-
+
+ fian equations of the system (36) exist such that every couple of integral elements
+ of (36) is in involution with respect to them. He then considered all the equations of
+
+ type l'0)' + I2C02 +
+
+ of (36). It is clear that Cartan's definition was a generalization of von Weber's, which
+
+ was limited to systems of character one. Furthermore, it is worth emphasizing that
+
+ the introduction of derived systems was brought about by Cartan purely in terms of
+
+ exterior differential forms without any recourse to operations with vector fields (infin-
+ itesimal transformations, in his wording). To this end, an important role may have
+
+ been played by the remark, already implicit in Engel's and von Weber's work, that
+ exterior differentiation could be considered in a certain sense as the dual counterpart
+
+ of the Lie-bracketing operation between two infinitesimal transformations.72
+
+ Specializing his discussion to systems of character one, in accordance with von
+ Weber's results Cartan was able to show that in this case the derived system of (36)
+
+ consists of the s - 1 equations:
+
+ COi - li(D' =0 (1 = 2, . . . , s).
+
+ and, consequently, that the Eq. 36 could be chosen in such a way that:
+
+ a>2 = &>3 = • • • = co's = 0 (mod co' , . . . , &>5).
+
+ Footnote 69 continued
+
+ n + o)' a xi h
+
+ £2 and n to be congruent module (o', ... ,(op if p differential forms xi , ,Xp exist such that ft =
+
+ 70 In modern terms, one can say that , a)j } (1 = 1 , . . . , j; j = 1 , . . . , r - s) define a coframe.
+
+ 71 Here, and in what follows, /; (i = 1 , . . . , s) indicate s arbitrary functions of jq , . . . , xr .
+
+ 72 For a detailed discussion of the notion of derived system with special emphasis on duality, see Stormark
+ (2000, pp. 24-26).
+
+ Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:23:17 UTC
+All use subject to https://about.jstor.org/terms
+
+ 432 A. Cogliati
+
+ Before turning to a detailed study of the derived system and exploiting its properties
+
+ to integrate the Pfaffian system under examination, it is necessary, Cartan observed, to
+
+ examine carefully the geometric properties of the (unique) linear complex associated
+
+ to (36). The first problem to be solved is the determination of the maximal dimension
+ of (regular) integral elements and consequently the maximal dimension of (regular)
+
+ integral varieties. In the light of von Weber's results, one may expect that characteristic
+
+ elements play a role of strategic importance and, indeed, it turns out that this is the
+
+ case also for Cartan's treatment of the subject.
+
+ Cartan started by considering the linear variety of all linear integral elements of
+
+ (36); he indicated it with Hp , where p = r -s designates its dimension. He supposed
+ that o is the dimension of the greatest characteristic element ea and then considered a
+
+ linear integral element E ' £ €a ; since E i is supposed to be regular and the character of
+
+ (36) is assumed to be equal to 1 , its polar element Hp- j is a linear variety of dimension
+ p - 1. Now, Cartan observed with respect to the linear integral elements of Hp-' a
+ characteristic element €a+' of dimension a + 1 exists such that €a+ 1 = (€a , E' ).73 It
+
+ turns out, as Cartan demonstrated in full detail, that €a+' is the greatest characteristic
+
+ element with respect to Hp-' . At this point, he considered another linear integral ele-
+
+ ment E[ not belonging to €a+' ; thus, the linear elements of Hp-' in involution with
+ E[ generate a linear variety Hp- 2 whose greatest characteristic element €a+2 can be
+
+ described as the linear variety (€a , E' , E[ ). Iterating the same process an appropriate
+ number of times, one finally arrives at a (necessarily integral) element74 Hp-V which
+ coincides with its characteristic element €a+v. The number v is obtained by equating
+
+ the dimension of Hr-V with that of €a+v; thus:
+
+ p - cr = 2v.
+
+ Consequently, since Hp-V is one of the integral elements of (36) of maximal dimen-
+ sion, the genre of the Pfaffian system is p - v.75 Now, from the previous geometrical
+
+ construction of maximal integral elements it follows that the bilinear covariant co'
+ must be expressed in terms of 2v independent Pfaffian forms, so that:
+
+ a)' = a)' A <yv+ 1 H
+
+ This formula is the starting point for the subsequent analytical study of integral vari-
+
+ eties of systems of character one.
+
+ To emphasize the novelty of Cartan's technical tools with respect to those utilized
+
+ by von Weber, let us consider his proof of the theorem according to which if v > 1 then
+
+ the derived system of (36) is completely integrable. Cartan supposed that the Pfaffian
+
+ forms of (36) are chosen in such a way that its derived system can be written as:
+
+ 7^ The fact that €a+' is characteristic with respect to //p_i means that e € €a+' if, and only if, (Oi(e) =
+ 0 (1 = 1 and o)' ( e , ef) =0Ve' e Hp-' . The statement that (€a , E' ) is characteristic with respect
+ to Hp- 1 should now be clear if one recalls the definition of polar element.
+
+ 74 Cartan indicated with h what here is indicated with v. The change in notation is aimed at facilitating the
+ comparison with von Weber (1898a).
+
+ 75 This is in accordance with von Weber's normal form (24) for the case in which v > 1 .
+
+ Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:23:17 UTC
+All use subject to https://about.jstor.org/terms
+
+ On the genesis of the Cartan-Kahler theory 433
+
+ C02 = &>3 = • • • = 0)s = 0.
+
+ From Cartan's definition of derived system, it follows that:
+
+ co'2 = (o'l = • • • = Q)'s = 0 (mod co' , . . . , cos). (47)
+
+ As a consequence of o)f2 = 0 (mod<wi , . . . , cos) one has:
+
+ 0)2 = co] A x, (mod 0)2, . . • , o)s), (48)
+
+ where x is a form of degree one which depends upon o)' , o)' , . . . , o)2v 76 By calculat-
+
+ ing the derivative of the last congruence above, one obtains
+
+ o)' A x - x' Ao)' =0 (mod 0)2 , . . . , o)s' o)' , . . . , o)'s)
+
+ and, consequently, co' A x = 0, (mod o)', . . . , o)s). This is equivalent to:
+
+ O) ' = X A 7T + (Wl A 7Tl H
+
+ for appropriate forms 7r, 7Ti , . . . , tts of degree one. Now, unless x = 0 (mod o)' ),
+ the integral elements of (36) that satisfy x = 0 and n = 0 would be characteris-
+ tic elements, and consequently the number of equations of the characteristic system
+ would be s + 2. However, in such an eventuality, we would have v = 1 which contra-
+
+ dicts the hypothesis of the theorem to be proved. Thus, the only possibility left is that
+ X = 0 (mod o)'). As result of this, from (48) we obtain: o)'2 = 0 (mod a>2 , ,o)s)
+ and, after repeating the same reasoning for 0)3, . . . , o)s, we eventually deduce that
+
+ 0)2 = o)'2 = • • • = o)fs = 0 (mod 0)2 , . . . , o)s),
+
+ which, according to Cartan's reformulation of Frobenius' theorem,77 implies the com-
+
+ plete integrability of the derived system of (36).
+
+ 8 Concluding remarks
+
+ Contrary to prevalent opinion, far from being the achievement of an isolated mathe-
+
+ matical genius Cartan's theory of exterior differential systems (later on generalized by
+ Kahler (1934) to differential systems of any degree) was deeply rooted in the historical
+
+ context of the late nineteenth century theory of partial differential equations. Indeed,
+ as we have seen, his achievements were placed at the intersection of two closely
+ related strands of research: the theory of not completely integrable systems of Pfaffian
+
+ equations as developed by Engel and von Weber, and the theory of general systems of
+
+ 76 This is due to the fact that, according to (46), the characteristic element of maximal dimension is indi-
+ viduated by: d>j = 0 (i = 1, . . . , 2v).
+
+ 77 See Cartan (1901b, p. 247) and Hawkins (2005, p. 429).
+
+ Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:23:17 UTC
+All use subject to https://about.jstor.org/terms
+
+ 434 A. Cogliati
+
+ partial differential equations that was the main focus of attention of Meray, Riquier and
+
+ Delassus among others. Cartan's great merit was to reinterpret them systematically
+ in a new and powerful geometrical language whose central core was represented by
+
+ his exterior differential calculus. At the same time, the very emphasis placed by him
+
+ on the language of exterior differential forms may be indicated as the main cause for
+
+ the undeserved lack of attention that for some years characterized the response of the
+
+ mathematical community towards his achievements in this field. In this connection, it
+
+ is interesting to remark that still in 1924 Vessiot, while praising the beauty of Cartan's
+
+ integration theory, felt the necessity to translate it into its dual counterpart by replacing
+
+ exterior Pfaffian forms with the notion of faisceau of infinitesimal transformations.
+
+ As Kahler suggested in the introduction to his masterpiece (Kahler 1934) in a really
+
+ effective and historically accurate way, such a double historical origin was reflected
+
+ in the twofold virtue of the theory: on one hand, with its emphasis on exterior forms
+
+ it provided Cartan with the necessary tools for subsequent applications to geometry
+ (namely, the method of moving frames) as well as to the theory of infinite contin-
+
+ uous Lie groups. On the other hand, it offered a deeper insight into the machinery
+
+ ( Mechanik ) of partial differential equations.
+
+ References
+
+ Society.
+
+ Akivis, M.A., and B.A. Rosenfeld. 1993. £lie Cartan ( 1869-1951 ). Providence, RI: American Mathematical
+
+ Amaldi, U. 1942. Introduzione alia teoria dei gruppi continui infiniti di trasformazioni. Parte Prima, Roma:
+
+ Corsi del Reale Istituto di Alta Matematica.
+
+ Backlund, A.V. 1876. Uber Flachentransformationen. Mathematische Annalen 9: 297-320.
+
+ Biermann, O. 1885. Uber n simultane Differentialgleichungen der Form 2^1 T Zeitschrift fur
+
+ Mathematik und Physik 30: 234-244.
+
+ Cartan, E. 1 894. Sur la structure des groupes finis et continus. These, Paris.
+
+ Cartan, E. 1896. Sur la reduction a sa forme canonique de la structure d'un groupe de transformations fini
+
+ et continu. American Journal of Mathematics 18: 1-61.
+
+ Cartan, E. 1899. Sur certaines expressions differentielles et le probleme de Pfaff. Annales Scientifiques de
+
+ V £cole Normale Suptrieure Paris 16: 239-332.
+
+ Cartan, E. 1901a. L' integration des systemes d'equations aux differentielles totales. Annales Scientifiques
+
+ de V £cole Normale Supdrieure Paris 18: 241-31 1.
+
+ Cartan, E. 1901b. Sur 1' integration de certaines systfcmes de Pfaff de caractere deux. Bulletin de la Society
+
+ Mathematiaue de France 29: 233-302.
+
+ Normale Superieure Paris 21: 153-206.
+
+ Cartan, E. 1931. Notice sur les travaux scientifiques , Paris.
+
+ Clebsch, A. 1866. Uber die simultane Integration linearer partieller Differentialgleichungen. Journal fur
+
+ die Reine und Angewandte Mathematik 65: 257-268.
+
+ Darboux, G. 1882. Sur le probleme de Pfaff. Bulletin des sciences mathematiques (2) 6: 14-68.
+ Delassus, E. 1896. Extension du theor&me de Cauchy aux systfcmes les plus generaux d'equations aux
+
+ derivees partielles, Annales Scientifiques de V £cole Normale Superieure Paris 13: 421-467.
+
+ Engel, F. 1890. Zur Invarianthentheorie der Systeme von Pfaff'schen Gleichungen, Berichte Uber die
+ Verhandlungen der Sachsischen Gesellschaft der Wissenschaften zu Leipzig Mathematische-Physicke
+ Klasse , 1, 41: 157-176, 1889; II, 42, 192-207.
+
+ Engel, F. 1896. Das Pfaffsche Problem. Berichte uber die Verhandlungen der Sachsischen Gesellschaft der
+
+ Wissenschaften zu Leipzig Mathematische-Physicke Klasse 48: 413-430.
+
+ Forsyth, A.R. 1890. Theory of differential equations. Part I. Exact equations and Pfaff* s problem.
+
+ Cambridge: Cambridge University Press.
+
+ Springer
+
+ Cartan, E. 1904. Sur la structure des groupes infinis de transformation, Annales Scientifiques de V tcole
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:23:17 UTC
+All use subject to https://about.jstor.org/terms
+
+ On the genesis of the Cartan-Kahler theory 435
+
+ Frobenius, G. 1877. Uber das Pfaffsche Problem. Journal fur die Reine und Angewandte Mathematik 82:
+
+ 230-315. Reprinted in Abhandlungen 1: 249-334.
+
+ Goursat, E. 1922. Legons sur le probleme de Pfaff. Paris: Librairie scientifique J. Hermann.
+
+ Hawkins, T. 2005. Frobenius, Cartan, and the problem of Pfaff. Archive for History of Exact Sciences 59:
+
+ 381-436.
+
+ Ivey, T.A., and J.M. Landsberg. 2003. Cartan for beginners: differential geometry via moving frames and
+ exterior differential systems , AMS Graduate Studies in Mathematics, vol. 61 . Providence, RI: American
+ Mathematical Society.
+
+ Kahler, E. 1934. Einfuhrung in die Theorie der Systeme von Differentialgleichungen. Leipzig: Teubner.
+ Katz, V. 1985. Differential forms - Cartan to De Rham. Archive for History of Exact Sciences 33: 321-336.
+ Lie, S. 1888. Theorie der Transformations gruppen. Erster Abschnitt. Unter Mitwirkung von...Friedrich
+
+ Mayer, A. 1 872. Uber unbeschrankt integrable Systeme von linearen totalen Differentialgleichungen. Math-
+
+ Engel , Leipzig.
+
+ ematische Annalen 5: 448-470.
+
+ Olver, P.J. 1995. Equivalence, invariants and symmetry. Cambridge: Cambridge University Press.
+ Olver. P.J. 2000. Application of Lie groups to differential eauations, 2nd edn. Berlin: GTM Springer.
+
+ Page, J.M. 1 888. On the primitive groups of transformations in space of four dimensions. American Journal
+
+ of Mathematics 10: 293-346.
+
+ Riquier, C. 1893. De l'existence des integrates dans un systeme differrentiel quelconque, Annales Scientifi-
+ ques de /' £cole Normale Superieure Paris , tome 10, 65-86 (first part), 123-150 (second part), 167-181
+ (third part).
+
+ Riquier, C. 1910. Les systemes d' equations aux derivees partielles. Paris: Gauthier-Villars.
+ Stormark, O. 2000. Lie's structural approach to PDE systems. Encyclopedia of Mathematics. Cambridge:
+
+ Vessiot, E. 1924. Sur une theorie nouvelle des problemes generaux d'integration. Bulletin de la Societe
+
+ Cambridge University Press.
+
+ Mathematique de France 52: 336-395.
+
+ von Weber, E. 1898. Zur Invarianthentheorie der Systeme der Pfaff 'scher Gleichungen. Berichte uber die
+ Verhandlungen der Sachsischen Gesellschaft der Wissenschaften zu Leipzig Mathematische-Physicke
+ Klasse 50: 207-229.
+
+ von Weber, E. 1900a. Ueber die Reducirbarkeit eines Pfaff 'schen Systems auf eine gegebene Zahl von
+
+ Termen. Sitzungsberichte Bayerischen Akademie der Wissenschaften 30: 273-300.
+
+ von Weber, E. 1900b. Liniengeometrie und Pfaffsche Systeme. Berichte uber die Verhandlungen der
+ Sachsischen Gesellschaft der Wissenschaften zu Leipzig Mathematische-Physicke Klasse 52: 179-213.
+ von Weber, E. 1900c. Vorlesungen uber das Pfaffsche Problem und die Theorie der partie lien Differential-
+
+ gleichungen erster Ordnung. Leipzig: Teubner.
+
+ von Weber, E. 1900d. Partielle Differentialgleichungen, Encyklopadie der Mathematischen Wissenschaften.
+
+ von Weber, E. 1901. Theorie der Systeme der Pfaff'scher Gleichungen, Mathematische Annalen 55: 386-
+
+ Zweiter Band: Analysis, Leipzig.
+
+ 440.
+
+ Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:23:17 UTC
+All use subject to https://about.jstor.org/terms
+
+

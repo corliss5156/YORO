@@ -1,0 +1,1852 @@
+ 
+
+ 
+
+ 
+
+ 
+
+The geometry of burning mirrors in Greek antiquity. Analysis, heuristic, projections,
+
+lemmatic fragmentation
+Author(s): Fabio Acerbi
+Source: Archive for History of Exact Sciences, Vol. 65, No. 5 (September 2011), pp. 471-497
+Published by: Springer
+Stable URL: https://www.jstor.org/stable/41287704
+Accessed: 19-05-2020 12:19 UTC
+
+JSTOR is a not-for-profit service that helps scholars, researchers, and students discover, use, and build upon a wide
+
+range of content in a trusted digital archive. We use information technology and tools to increase productivity and
+
+facilitate new forms of scholarship. For more information about JSTOR, please contact support@jstor.org.
+
+Your use of the JSTOR archive indicates your acceptance of the Terms & Conditions of Use, available at
+
+https://about.jstor.org/terms
+
+Springer is collaborating with JSTOR to digitize, preserve and extend access to Archive for
+History of Exact Sciences
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:19:11 UTC
+All use subject to https://about.jstor.org/terms
+
+ Arch. Hist. Exact Sci. (201 1 ) 65:47 1^97
+ DOI 10.1007/s00407-0 10-0076-8
+
+ The geometry of burning mirrors in Greek antiquity.
+ Analysis, heuristic, projections, lemmatic fragmentation
+
+ Fabio Acerbi
+
+ Received: 1 1 November 2010 / Published online: 19 December 2010
+
+ © Springer- Verlag 2010
+
+ Abstract The article analyzes in detail the assumptions and the proofs typical of
+
+ the research field of the geometry of burning mirrors. It emphasizes the role of two
+
+ propositions of the Archimedean Quadratura parabolae , never brought to bear on this
+ subject, and of a complex system of projections reducing a sumptdma of a parabola
+ to some specific linear lemmas. On the grounds of this case-study, the much-debated
+
+ problem of the heuristic role of analysis is also discussed.
+
+ 1 Introduction
+
+ The research domain of the geometry of burning mirrors has been a long-lived one.
+
+ Diocles, the main character in the field, was a contemporary of Apollonius; he mentions
+
+ an earlier contribution by Dositheus, the addressee of most of the surviving treatises of
+
+ Archimedes; he corrects, in his treatment of spherical burning mirrors, a proposition of
+ the Euclidean Catoptrics. Anthemius of Tralles, the latest datable author from whom
+
+ we have interesting technical contributions, was active in the sixth century of our era.
+
+ Thanks to a small number of simplifying hypotheses, the study of burning mirrors was
+
+ given a prominent geometrical connotation: the result is a subgenre mid-way between
+
+ the writings of pure geometry and the more diffusely argumented treatises of applied
+ mathematics. The surviving studies are short tracts, treating particular problems in
+
+ the theory of conic sections or, in the case of spherical mirrors, in elementary plane
+
+ geometry.
+
+ Communicated by Alexander Jones.
+
+ F. Acerbi (E3)
+ CNRS, UMR 8163 «Savoirs, textes, langage», B.R 60149, 59653 Villeneuve d'Ascq Cedex, France
+ e-mail: fabacerbi@gmail.com
+
+ Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:19:11 UTC
+All use subject to https://about.jstor.org/terms
+
+ This very circumscribed research subject became the ideal domain for a subtle series
+
+ of variations on a single theme, offering as side products two pointwise constructions
+
+ of a parabola burning at a given distance (that is, with given vertex and parameter) and
+
+ the first attestation of the focus-directrix property. I shall first (Sect. 2) quickly review
+
+ the "external" evolution of the field, discuss its main hypotheses, and describe the
+
+ available sources. I shall then offer a detailed analysis of the technical results, setting
+
+ them in a historical perspective. The main interpretative points of this article are the
+
+ 472 F. Acerbi
+
+ following:
+
+ (1) Showing that there is a very strong link between the proofs of the focal properties
+
+ of a parabola (Sect. 3) and of a circumference (Sect. 4). I shall also suggest that a
+ spur to carrying out the investigation of the focal properties of a parabola was a
+
+ concern with showing that the property of the subtangent is characteristic of the
+
+ curve (in ancient jargon, it is a sumptdma of it), namely, a property uni vocally
+
+ determining it (Sect. 5).
+
+ (2) Making the connection between the Dioclean proof of the focal properties of the
+
+ parabola and the method of analysis and synthesis explicit (Sect. 3) and discussing,
+
+ on the basis of this example, the alleged heuristic value of the analysis (Sects. 5,
+
+ 6). I shall also clarify the reason why Diodes' treatment of the parabola is divided
+
+ in two parts (proof of its focal properties and construction with given vertex and
+
+ parameter) and assess the technical and historical import of it (Sect. 6).
+
+ (3) Showing that all the attested proofs, a newly discovered text in Arabic probably
+
+ coming from a Greek source included, can be viewed as successive refinements of
+ one basic idea, and outlining a historical development of the domain of research
+
+ radically different from those that have been proposed so far (Sects. 4-7). I shall
+ emphasize the role of two propositions of the Archimedean Quadratura parabo-
+ lae , never brought to bear on this subject, and of a complex system of projections
+
+ reducing a sumptdma of a parabola to some specific linear lemmas (Sect. 7).
+ (4) Finally, identifying and discussing the process of singling out, from Diocles to
+ later authors, a 4-point lemma as the "technical" core of the proof, to be reused
+
+ and adapted in different geometric configurations (Sects. 6, 7). More generally, I
+
+ shall use this example as a basis to briefly argue that such a "sensibility to struc-
+ ture", displaying in the identification of the "core" technical lemmas, became a
+ prominent feature of the late approach to mathematical research, witnessed in its
+
+ most spectacular form by the fragmentation of the corpus we observe in Pappus'
+ Collectio (Sect. 8).
+
+ 2 The research domain of the geometry of burning mirrors. Available texts
+
+ The study of the visual rays (emanating from the eye and making visual perception
+ possible) was in Greek antiquity kept distinct from the study of light rays, although
+
+ the related disciplines started from the same hypotheses. This division was a canonical
+ one, and we read an account of it in an extract from Geminus (Def. 135.12, in HOO
+ IV, 104.9-106.13). The historical record at our disposal, however, attests for a divi-
+ sion still unaccomplished in the first treatise dealing, albeit marginally, with burning
+
+ mirrors: Euclid's Catoptrica. In this study, after prop. 28 has emphasized the strategic
+
+ Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:19:11 UTC
+All use subject to https://about.jstor.org/terms
+
+ The geometry of burning mirrors in Greek antiquity 473
+
+ role of the middle point of the radius of the sphere when objects are seen in concave
+
+ spherical mirrors, prop. 30 studies, passing from the visual to the solar rays, the burn-
+
+ ing properties of the same mirrors. Even if it is unsafe to assume that the Catoptrica
+ as we read it can be assigned recta via to Euclid, Diodes' testimony in the preface
+
+ of his On burning mirrors suggests that the prime mover of the whole tradition was
+
+ exactly Catoptrica 30. In Diodes' treatise, the separation among the research domains
+
+ is completed, remaining a remarkable feature of all subsequent elaborations.
+
+ The sources available in Greek are the short and incomplete tract On surprising
+ mechanisms by Anthemius of Tralles, whose manuscript tradition depends entirely
+ on the opening bifolium of the Vat. gr. 218 (critical editions in MGM , 78-87, and
+ CG, 349-59). It contains approximate constructions of an elliptical mirror and of a
+ parabolic mirror burning at a given distance. In the first instance (MGM, 78-81), the
+
+ construction is grounded on the identification of single points on the line, resulting
+
+ from the equality of the angles that the "broken" straight line drawn from a point of the
+
+ ellipse to the two foci makes with the tangent to the line through that point (cf. Con.
+
+ 111.48). The transition from the approximate solution to the curve is poorly argumented
+
+ by Anthemius. He shows first that the isolated points on the line he determines in the
+
+ above way satisfy the property that the sum of their distances from two fixed points
+ A, B is constant, and concludes: 'if we stretch a chord that is fixed around points
+ A B and passes through the origin of the rays that are about to be reflected, the said
+ line will be traced, that will be a part of the so-called ellipse' (MGM, 81). It seems
+
+ thus as if Anthemius thinks that the ellipse is defined by this construction, whereas in
+
+ Apollonius, Con. 111.52, one finds only the proof of the converse. At about the same
+
+ period as Anthemius we must assign the anonymous of th efragmentum mathemati-
+
+ cum bobiense, a very short and incomplete fragment preserved in palimpsest in the
+
+ ms. Ambros. L 99 sup. {MGM, 87-90). The latter contains an elegant proof of the focal
+
+ properties of a parabola and a partial result about spherical mirrors.
+
+ The other two sources have been transmitted in Arabic translation only (the Arabic
+ Anthemius does not add anything new; see CG, 286-315 and Jones 1987). One of
+ them is Diodes' On burning mirrors , in its extant form a compilation of quite dispa-
+
+ rate results, some of which we read also in a fairly divergent Greek version in Eutocius
+ ( AOO III, 160.2-174.4). Only five propositions of Diodes' treatise deal in fact with
+
+ burning properties of mirrors (Toomer 1976, pp. 44-71 = CG, 102-1 16). They are as
+ follows :
+
+ Prop. 1: focal properties of parabolic mirrors, followed by the constructions
+ of a paraboloid with exact burning properties and of mirrors burning along a
+ circumference (2 alternative solutions) or, more generally, along a closed path.
+ Prop. 2 and 3: focal properties of spherical mirrors.
+ Prop. 4 and 5: pointwise construction of a parabola using the focus-directrix
+
+ property.
+
+ The second source in Arabic is a tract of a certain Dtrums (CG, 155-213), dis-
+
+ playing a series of lexical and syntactical features strongly suggesting that it is the
+ translation of a Greek writing (CG, 155-157). The first part of this work contains
+ an uninteresting lemma and paraphrases of propositions extracted from Apollonius'
+
+ Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:19:11 UTC
+All use subject to https://about.jstor.org/terms
+
+ 474 F. Acerbi
+
+ Conica (Con. 1.1, 3, 4, 6, 11, 20, 33, 35). An anonymous redactor inserted them in
+ place of the first two books of the original treatise, probably containing analogous
+ material. Six propositions follow: props. 10-13 about parabolic mirrors, props. 14-15
+
+ about spherical mirrors.
+
+ Diocles (Toomer 1976, pp. 34-44 =CG, 98-102) precedes his exposition with
+
+ interesting preliminary remarks. Among other things, he outlines the historical con-
+ text in which the domain of research developed and points out clearly which were
+
+ the main assumptions underlying the process of mathematical modelling of burning
+
+ mirrors. Diocles asserts that the discoverer of the focal properties of the parabola was
+ Dositheus: 'one of those problems, namely the one requiring the construction of a
+
+ mirror which makes all the rays meet in one point, is the one which was solved prac-
+ tically by Dositheus' (Toomer 1976, p. 34). A problem is raised by the verbal form
+ designating Dositheus' achievement, amila-ha, that Rashed translates 'construit' (CG,
+ 98). As we see from his translation, Toomer (cf. also 1976, pp. 16 and 140) favours
+ instead a material meaning, and asserts that Dositheus did not propose a geometric
+
+ proof of the result. If the Greek verb was kataskeuazein , then it is not clear whether it
+
+ had only practical connotations or it was employed metonymically for 'to prove' (cf.
+
+ for instance Pappus, Coll. 111.21). A rigorous proof was in fact well within reach for
+
+ a contemporary of Archimedes: the focal property, as we shall see, is an immediate
+
+ consequence of two properties that were well known before Apollonius. An 'approx-
+ imate' or mechanical construction would have raised Diocles' criticisms, who reacts
+
+ against this in the case of spherical mirrors.
+
+ After a description of the parabolic mirror, Diocles expounds properties and use
+
+ of spherical burning mirrors. One finds a clear reference to Catoptr. 30, and then the
+ following statement (Toomer 1976, p. 38):
+
+ an ingenious method has been found for a burning-mirror to burn without being
+
+ turned to face the sun; instead it is fixed in one and the same position, and indi-
+
+ cates the hours of the day without a gnomon. It does this by burning a trace to
+
+ which the rays are reflected: the reflecting produces a trace for the position of
+
+ the hour which is sought.
+
+ It has long been supposed that the mirror indicating the hours without a gnomon
+
+ should be a parabolic one, and the first of Diocles' constructions of a mirror burning
+ along a circumference has been regarded as directed to this end (Toomer 1976, pp.
+ 143-144; Hogendijk 1985). However, the most likely hypothesis is that it is a spherical
+
+ mirror, since any such surface has an axis of symmetry at every point: therefore, it
+
+ always presents to the sun a portion capable of good burning performances (Sesiano
+ 1988).
+
+ The proof of the focal properties of a paraboloid requires that the rays coming from
+
+ the sun are parallel. Diocles, following a long-standing tradition, formulates this con-
+ dition as the request that the earth be considered as a point. He discusses the issue at
+
+ length in his preface, probably because this assumption, which is absent in the Catop-
+ trica , was the break-through idea that allowed one to set up a soluble model. Diocles
+
+ expressly asserts that this hypothesis is strictly applicable only to the model developed
+
+ in the treatise, and that the falsity of an unqualified statement does not prevent one to
+ consider it as acceptable in a restricted context.
+
+ Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:19:11 UTC
+All use subject to https://about.jstor.org/terms
+
+ The geometry of burning mirrors in Greek antiquity 475
+
+ A further, implicit, hypothesis has been assumed already in the Catoptrica : it is
+
+ enough to study a suitable section of a spherical mirror in order to determine its prop-
+
+ erties; the mirror is then obtained by rotating the section. In the spherical case, in fact,
+
+ an incident and a reflected ray always lie in one and the same plane (El. XI.2), which
+
+ is univocally determined by the further constraint that the mirror image be located
+ along the line joining the object with the centre of the sphere ( Catoptr. def. 5); this
+ plane identifies a great circle on the surface of the sphere as a section. In the case of
+
+ a paraboloid, one supposes by analogy that the plane of reflection passes through its
+
+ axis. Therefore, one needs only to study the focal properties of a parabola, the mirror
+
+ being again obtained by rotation. All of this entails that any burning mirror must have
+ an axis.
+
+ 3 Parabolic burning mirrors
+
+ A parabola was obtained, before the Apollonian reform, by cutting a right-angled cone
+
+ with a plane perpendicular to one of its sides. It is not difficult to show that the resulting
+ line is univocally determined by the following «principal» sumptdma (see Fig. 1): if
+ from a point A of a parabola of vertex V a straight line AH is dropped perpendicular
+ to the axis, then
+
+ s(AH) = r(VH, a),
+
+ where s(AH) is the square described on straight line AH , r(VH,a ) the rectangle
+ contained between straight lines VH and a (a notation used henceforth), a is a given
+ segment, called "upright side" (cf. Con. 1. 11, where the validity of the condition is
+ extended to the "ordinates" referred to any diameter). The sumptdma was often used
+
+ in the "ratio form", where the upright side is "factored out": if Af is another point on
+
+ the parabola and straight line A'Hr is dropped perpendicular to the axis, then (cf. Con.
+ 1.20)
+
+ VH : VH' :: 5 (AH) : 5 (A'H') .
+
+ If from A we draw the tangent AB and the perpendicular to it AC as far as their
+
+ intersections with the axis, then a triangle ABC is produced which is right-angled at
+ A and let me call it the fundamental triangle associated to A. Of the two abscissas
+ determined by the perpendicular AH , BH is called subtangent , HC subnormal. One
+ shows that
+
+ (1) the subtangent is bisected by the vertex of the parabola, BV-VH ,
+ (2) the subnormal is constant and equal to half the upright side, HC=a/2.
+
+ These two basic properties were known at least as early as Archimedes (cf. Quadr. 2
+ and Con. 1.35; Fluit. II.4 and Con. V.13, 27, respectively). In enunciating the subtan-
+ gent property, he asserts that it is an elementary result and does not bother to prove it.
+
+ It is important to keep in mind that the subtangent property holds with respect to any
+
+ diameter, the perpendicular to the axis being replaced by the ordinate dropped from A
+
+ Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:19:11 UTC
+All use subject to https://about.jstor.org/terms
+
+ 476 F. Acerbi
+
+ Fig. 1
+
+ a
+
+ D // / | '
+
+ B A F E H C
+
+ (this is the so-called "oblique conjugation"), while the subnormal property obviously
+
+ holds only with respect to the axis ("orthogonal conjugation").
+
+ I now propose an analysis of prop. 1 of Diodes' On burning mirrors , clarifying
+
+ which properties of reflection of light rays on a line do depend on the nature of the line
+
+ and which do not (the crucial assumptions are in italics). As a by-product, the reason
+
+ behind a surprising feature of Diodes' proof will become clear, namely, the fact that he
+
+ assumes that the reflected rays concentrate on a single point at a well-defined distance
+
+ from the vertex, and proves that reflection occurs at equal angles.
+
+ Let us suppose that the line has an axis BC and that a light ray parallel to the axis
+
+ meets the line at A (Fig. 1 again). Let ABC be the fundamental triangle associated
+
+ with A, and AF the reflected ray. If reflection occurs at equal angles , then the normal
+
+ AC bisects the angle between incident and reflected ray; moreover, the incident ray
+ being parallel to the axis , each of the two halves of this angle is equal to angle ACF'
+
+ finally, the incident and the reflected rays make equal angles also with the tangent AB ,
+ any of these angles being equal to angle ABF: therefore the triangles ABF and AFC
+ are isosceles on bases AB and AC, respectively. Since AF is common, it results that
+ BF=FC. Conversely, if this equality holds, then reflection occurs at equal angles (all
+ deductive steps can be inverted). Now, let a perpendicular AH be dropped from A to
+
+ the axis of the line. If the line is a parabola , then two further constraints are imposed:
+
+ HC is constant and the vertex of the parabola is the middle point of BH. Accordingly,
+
+ let us mark on the axis a segment VE equal to half the upright side of the parabola: by
+ the property of the subnormal one has V E = a/2 = HC. Let us now turn back to the
+ crucial equality BF=FC: it holds if
+
+ VF = FE (1)
+
+ BV = EC (2)
+
+ Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:19:11 UTC
+All use subject to https://about.jstor.org/terms
+
+ The geometry of burning mirrors in Greek antiquity All
+
+ Of these equalities, (1) determines where to place the intersection of the reflected ray
+
+ with the axis (namely, at a distance from the vertex equal to 1/4 of the upright side),
+
+ the bright idea being to realize that (2) depends only on the system tangent-normal
+
+ attached to a point of the parabola, independently of any considerations about reflected
+
+ or incident rays. To see this, it is enough to observe that, on the one hand, the property
+
+ of the subtangent gives BV= VH , while, on the other hand, VE is such that VE=HC'
+
+ adding EH to both sides of this equality gives VH = EC' from this and from B V = VH ,
+
+ (2) immediately follows by transitivity. One has only to reassemble the several pieces
+
+ of the proof in a consequent way.
+
+ As said above, that an analysis of this kind underlay Diodes' proof of his theorem
+
+ is suggested by the fact that he proves the equality of the angles and assumes reflection
+
+ on a single point of the axis of a parabola. Of course, this presupposes that the parabola
+
+ was already identified as the line enjoying the exact focal properties. How could this
+ guess be made? We shall return on this in Sect. 5. After Diodes' proof is known,
+ it is reasonable to restore the "most natural" logical order, namely, the one starting
+
+ from the equality of angles to prove that, in the case of a parabola, the reflected rays
+
+ concentrate on a single point on its axis. This is done by Dtrums in his prop. 10. His
+ proof can most naturally be viewed as singling out what really is crucial in Diodes':
+ the fact that ABF is an isosceles triangle. Dtrums' elegant argument amounts to an
+ application of El II.8 to the four points HFVB , namely, in this order: projection of
+
+ the point of incidence on the axis/focus/vertex/ intersection with the axis of the tangent
+
+ through the point of incidence. In fact (Fig. 1), since BF=FA, by El. 1.47 one has that
+
+ s(BF) = s(AH) + s(FH),
+
+ but, by El. II.8,
+
+ s(BF) = s(FH ) + 4 r(HV, VF),
+
+ since BF=HV + VF : therefore,
+
+ s(AH) = 4r(HV, VF),
+
+ that is, the principal sumptdma , referred to the axis, of a parabola with vertex V and
+
+ upright side 4 VF. This move allows Dtrums to bypass the property of the subnormal
+ and eliminate the most contrived part of Diodes' proof. As we shall see in Sect. 6,
+ El. II. 8 applied to the same configuration of points yielded the same result features in
+ Diodes' prop. 5: this shows that Dtrums' approach is a refinement of Diodes' proof,
+ and hence depends on it.
+
+ Finally, the anonymus bobiensis adopts the same deductive approach as Diodes,
+ while still perceiving that triangle AFC is irrelevant (Fig. 1 again). Its proof that AFB
+
+ is isosceles is independent of Dtrums'. The idea is to show that the straight line joining
+ the focus with the middle point D of AB - point D being determined by the property
+
+ of the subtangent as the intersection of AB with the tangent through the vertex - is
+
+ perpendicular to AB itself. This is an easy consequence of the characteristic property
+
+ Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:19:11 UTC
+All use subject to https://about.jstor.org/terms
+
+ of the parabola and of the property of the subtangent. For from BH=2BV and by
+ similar triangles, one has AH=2DV. From this and
+
+ 478 F. Acerbi
+
+ s(AH) = 4 r(HV, VF)
+
+ it results
+
+ 4 s(DV) = 4 r(HV, VF ),
+
+ that is,
+
+ s(DV) = r(HV , VF) = r(BV , VF).
+
+ It follows that, if DV is perpendicular to BC , triangle BDF is right-angled at D.
+
+ Before passing to the spherical mirrors, I briefly discuss two points.
+ First, some more details about El II.8. It is a four-point lemma whose basic con-
+
+ figuration is a line AB cut at a chance point C ; one makes BD = CB on AB produced:
+ it results that
+
+ s(AD) = s(AC) + 4r(AB, BC) :
+
+ the greater square can be obtained from the lesser one by application of a "double
+
+ gnomon". In adapting this lemma to the geometry of burning mirrors, two cases may
+
+ occur, depending on whether projection H falls between the focus F and the vertex V
+
+ or not (Fig. 1 represents the second alternative). Once the segments have been identi-
+ fied allowing the application of the lemma, one has in both cases that s(FB) = s(FH) +
+ 4r(HV,VF ), as we have seen. A moment's reflection shows that the equality BV=VH
+
+ (namely, the property of the subtangent) proves crucial in allowing the application of
+ the lemma.
+
+ Second, and most importantly, I explain why all of the above proofs hold only with
+
+ reference to the axis, namely, in orthogonal conjugation. This issue will prove crucial
+
+ in the subsequent discussion of the focus-directrix property.
+
+ (1) Diocles. He employs the property of the subnormal, which holds only if the ordi-
+ nate AH is orthogonal to the diameter, that is, only if the diameter of reference
+ coincides with the axis of the parabola.
+
+ (2) Dtrums. He applies El. 1.47 in order to have s(BF) = s (AH) + s(FH), and this of
+
+ course holds only if triangle AHF is right-angled at H , that is, again, only if the
+
+ ordinate AH is orthogonal to the diameter.
+
+ (3) The anonymus bobiensis. The relation s(DV) = r(BV,VF) entails that triangle BDF
+ is right-angled at D only if DV is perpendicular to BC. Since DV is the tangent
+ through the vertex, it is perpendicular to the diameter identifying that vertex if
+ and only if the ordinate AH is (Con. 1.17, and cf. Archimedes, Quadr. 1).
+
+ Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:19:11 UTC
+All use subject to https://about.jstor.org/terms
+
+ The geometry of burning mirrors in Greek antiquity 479
+
+ C M F F' H V B
+
+ Fig. 2
+
+ 4 Spherical burning mirrors
+
+ Before answering the question left open in the preceding section, let us turn to the
+
+ spherical burning mirrors. Let a semicircumference be given, C be its centre and CV
+
+ its axis (Fig. 2). Let us assume as usual that the incident rays are all parallel to the axis.
+
+ In Catoptr. 30, it is shown that the rays coming from a single point on CV produced
+
+ meet, after reflection, on the segment CV only. Therefore, C is the limiting point of
+
+ incidence for these rays, this limit being attained only by the reflection of a ray along
+
+ CV itself. This fact remains true even if the point from which the incident rays emanate
+
+ 'translates at infinity', in such a way as to make the rays parallel. Diodes' first result
+
+ (prop. 2) consists in refining the determination of the limiting point in the hypothesis
+ that the rays are parallel: this is the middle point M of radius CV (cf. Catoptr. 28).
+ For, let us suppose that a ray parallel to CV and incident at A be reflected as AF. Let
+ CA be joined, and let the fundamental triangle ABC be considered. We have seen in
+ the preceding section that the equality AF=FC does not depend on the nature of the
+ line. But AF > FV (El. III.7): therefore, FC > FV , and point F lies between M and
+ V . After that, Diocles claims, but does not prove, that the nearer to V a ray falls, the
+ nearer to M will it meet CV, when reflected.
+
+ The preceding proof implicitly assumes that the rays meet CV after one single
+
+ reflection. Dtrums deals with the issue of multiple reflections; further properties of the
+ reflected rays are investigated by Diocles and the anonymus bobiensis. These results
+ can be summarized as follows. Between the semicircumference and its axis CV, let
+
+ us adapt in succession half of the side of a regular hexagon, of a square and of an
+ equilateral triangle inscribed in the circle that completes the semicircumference. Let
+
+ Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:19:11 UTC
+All use subject to https://about.jstor.org/terms
+
+ 480 F. Acerbi
+
+ them be in this order: AH , A'F', A"M (recall that M is the middle point of CV). Let
+
+ us now consider the point of intersection with CV of rays parallel to it and falling on
+
+ arc A" V. It is easy to show that the ray falling on the mirror at A" is reflected at V .
+
+ As a consequence, only those rays falling on arc A"V intersect the radius CV after
+ one single reflection. Those falling on the complementary arc still intersect CV, but
+
+ after multiple reflections. In prop. 14(a), Dtrums shows that in this case, the inter-
+ section with radius CV will take place on segment F'V only: for otherwise, the rays
+
+ intersecting MF' would form, at their last reflection, acute angles with the radius of
+ the semicircumference drawn from C to the point of incidence. This is impossible for
+
+ rays intersecting CV after multiple reflections.
+
+ Let us now return to the case of a single reflection and consider the ray falling at
+
+ A': since A! F' is half the side of an inscribed square and since reflection occurs at
+
+ equal angles, Af F' itself is the reflected ray. Therefore, the rays falling on arc A!' A!
+ will arrive on segment F'V (Dtrums, prop. 14(b)), and those falling on arc A'V will
+ arrive on segment MF' (Dtrums, prop. 14(b), and the same is proven in the Bobbio
+
+ fragment). But why mark point A? Because Diocles shows in his prop. 3 that the rays
+
+ falling on arc AV arrive, after one reflection, on a segment MF such that FV > 5 MF
+ (and therefore MF < 1/12 CV): a spherical burning mirror of small opening angle
+ concentrates the solar rays well enough. Dtrums' prop. 15 has no geometrical content
+
+ that is independent of prop. 14.
+
+ The relationships among the several versions are clear: both th efragmentum bob-
+
+ iense and Dtrums' results are refinements of Diodes'. In particular, Diocles seems
+
+ not to have caught the importance of the ray reflecting perpendicular to the axis of the
+
+ mirror. On the other hand, it is not entirely clear if he appreciated the limiting role of
+
+ the arc subtended by the side of an equilateral triangle: the introduction of such an
+
+ arc in prop. 3 seems motivated by the aim of providing a simple construction of the
+ arc with which the proof will deal, namely, AV (Diocles never mentions the inscribed
+
+ polygons). The relationships between Dtrums and the remains of th efragmentum bob-
+ iense are even clearer than this; the proof of Dtrums' prop. 14(b) is identical with the
+
+ one in the fragment. The coincidences between the two versions are so strict as to
+ make one suspect that one of them is a compilation of the other or, more likely, that
+
+ they draw from a common source. In this case, Dtrums would have performed a more
+ selective abridgement, by eliminating the originality claims made by the anonymus
+ bobiensis.
+
+ 5 Guessing the focal property of the parabola
+
+ Let us now return to the question asked in Sect. 2: how to guess that the parabola is
+
+ the line enjoying the exact focal properties. The problem seems desperate in a mod-
+ ern perspective only, since one has to establish a criterion singling out the parabola
+
+ among infinitely many curves. Yet, this argument neglects the fact that Greek geome-
+
+ try knew only of a limited number of 'established' varieties of line: a preliminary, and
+
+ reasonable, strategy is to see if any of them have the preferred property.
+
+ Even when not granting this, authors such as Dositheus or Diocles had a guide
+ in their search for exact burning mirrors: the approximate focal properties of the
+
+ Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:19:11 UTC
+All use subject to https://about.jstor.org/terms
+
+ The geometry of burning mirrors in Greek antiquity 481
+
+ circumference. The 'fundamental triangle', quite a natural object to single out in the
+ case of a circumference since the normal there coincides with the radius, does not
+
+ depend on the nature of the curve, and hence it can be transferred identically to the
+
+ analysis of reflection on any line. In the case of the parabola, this triangle acquires
+ a special relevance, after one realizes that two well-known properties of the parab-
+ ola, namely, the properties of the subtangent and of the subnormal, impose further
+ constraints on two of its elements: the reflected ray (that is, the median relative to
+
+ the hypotenuse), and the perpendicular from the point of incidence to the axis. It is
+
+ really a very short step from here to conceiving an analysis such as the one leading
+ to Diodes' proof. In assessing my proposal, one must also bear in mind the role of
+ tradition, which operates as a motive force in all fields of Greek mathematics: it was
+
+ only natural to try to refine the partial investigations about spherical mirrors made in
+ Catoptr. 30, having as goals both a satisfactory analysis of spherical aberration and
+ finding a surface with exact focal properties.
+
+ The investigations in the domain of burning mirrors were thus very likely done
+
+ first on the sphere, and the analysis of this problem suggested the main technical tools
+
+ needed to find an exact solution. This is a first phase that can rightly be termed as
+
+ 'heuristic', and on a global level: the aim is to single out a corpus of notions and tools
+
+ developed during the solution of a problem, and to export it to attack another prob-
+ lem, still unsolved and hopefully connected with the solved problem. For instance,
+
+ recall that the limiting point on the axis of the semicircumference is placed at 1/4 of
+
+ the diameter, and suppose that the conjecture was made that the line with exact focal
+
+ properties is the parabola. Why not suppose that the focus is located away from the
+
+ vertex at exactly 1/4 of the upright side? Of course, the parallelism is by and large
+
+ imperfect, since the diameter of a circumference cannot be said to 'correspond' in any
+
+ simple mathematical manner to the radius of a circle, but it remains true that diameter
+ and upright side are the only dimensional parameters attached to a circle and to a
+
+ parabola. Is it not by conjecturing that mathematical research proceeds?
+
+ After the mathematical tools have been identified, a local analysis comes into play.
+
+ The argument expounded in Sect. 2 justifying the discovery of the focal property might
+
+ well be the 'analysis' that is not made explicit by Diocles (an analysis of a theorem ,
+ one must stress). It is clear that the argument in Sect. 2 is neither an exact inverse
+
+ of the attested synthesis nor an approximate construction, just as the analysis that is
+
+ proposed in the next section leading to the focus-directrix property of the parabola
+ will not be an inverted synthesis or an approximate construction. There is much more
+
+ freedom in the heuristic phase than the one we are used to thinking. In this perspective,
+
+ all the analyses reconstructed in the literature are marred by a degree of arbitrariness,
+
+ ably concealed by the fact of being an exact inversion of an attested synthesis, making
+
+ them nothing but rhetorical exercises pointing more to the cleverness of their redactors
+
+ than to some historically sound substrate. The reconstructed analyses, in fact, oscil-
+ late between the two extreme poles of overdetermination (they must be the inverse of
+
+ known syntheses) and underdetermination, when approximate constructions (having
+
+ a sense only after an exact solution has been found) or logically inconsistent guessings
+ are allowed to serve as analyses. On the contrary, a heuristic analysis can at the same
+
+ time be non-approximate and non-formalized: the one that we shall see leading to the
+
+ focus-directrix property is a perfect example. An attested analysis, however, precisely
+
+ Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:19:11 UTC
+All use subject to https://about.jstor.org/terms
+
+ 482 F. Acerbi
+
+ because it is written and thereby is in a strong sense 'formalized', need not be identical
+
+ with the heuristic analysis, nor, a fortiori, an attested synthesis needs to be identical
+
+ with the inverse of the heuristic analysis.
+
+ 6 The pointwise construction of the parabola: Diocles
+
+ Constructing a mirror burning at a given distance, that is, a parabola with given vertex
+ and focal distance, is a problem, not a theorem like the one establishing the focal
+
+ properties of a parabola, and therefore requires a different approach. In order to solve
+
+ it, Diocles, Dtrums and Anthemius adopted the following deductive progression: they
+
+ singled out first a particular sumptdma allowing them to set up a pointwise construction
+
+ of a line with exact focal properties; they subsequently showed, in a separate propo-
+
+ sition, that the points determined in this way lie on a parabola, identified as the line
+
+ enjoying the 'principal' sumptdma that we have seen at the beginning of Sect. 2. This
+
+ is nothing but a variant of the canonical strategy for solving a locus theorem, where
+
+ the constraint in the enunciation identifying the locus is reduced to a sumptdma of a
+
+ known curve, and eventually, for instance, in the case of conic sections, to a 'principal'
+
+ sumptdma in one of its forms.
+
+ Diocles' particular sumptdma is nothing but the property of equidistance of any
+
+ point on the parabola from the focus and from a given line, nowadays called 'direc-
+
+ trix'; Dtrums performs a more complex construction, details of which we shall see in
+ the next section; Anthemius elaborates a non-rigorous version of Diocles' construc-
+ tion.
+
+ Let us thus turn to prop. 4 of On burning mirrors (Fig. 3). Fixing the focal distance
+
+ VF of a parabola amounts to assuming some parameters of the curve as given: the
+ focus, the vertex, and the axis are given in position, the upright side (4 times VF) or,
+
+ alternatively, the 'breadth' FK of the parabola is given in magnitude. To see the last
+
+ point, recall that the principal sumptdma of a parabola with upright side 4V77, applied
+
+ to the point K orthogonal ordinate of which falls on the focus, gives
+
+ s(FK) = r(VF , 4VF).
+
+ fROM this, one immediately obtains FK=2VF. Doubling VF beyond V as far as R ,
+ one has FR = FK. Diocles completes the square KFRS and draws diagonal KR ( KR is
+
+ tangent to the parabola at K ; cf. Con. 1.33).
+
+ Diocles goes on to determine points on the curve other than V and K. To this end,
+
+ he proposes a simple construction of the points that have the same distance from the
+
+ focus F and from the straight line RS. Given in fact a point H on FV, a point B is taken
+ on VR such that HV= VB (and therefore FB=HR since V is the midpoint of FR). A
+
+ circle is then traced with centre F and radius FB: the circle intersects the perpendicular
+
+ erected from H at A. The proposition ends with the claim that all points A determined
+ in this way lie on a parabola (namely, the one with upright side 4VF and vertex V).
+
+ How could Diocles have conceived this construction? Did he know that the property
+
+ of equidistance of any point from the focus and from a given line is a sumptdma of
+ a parabola? Complex and ingenious answers have been proposed; as we shall see in
+
+ Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:19:11 UTC
+All use subject to https://about.jstor.org/terms
+
+ The geometry of burning mirrors in Greek antiquity 483
+
+ Fig. 3
+
+ K S
+
+ ////^
+
+ F H Vl B R
+
+ a moment, Knorr even ventured to call into play the extreme resource of 'plain good
+ luck' (1983), and proposed accordingly that the approximate construction compiled
+ by Anthemius was the source of Diodes' exact solution. As a matter of fact, things are
+
+ far simpler than that: the fact that the parabola enjoys the focus-directrix property is
+
+ actually immediate ; moreover, as the property is stated as an equality, it automatically
+
+ follows that it is a sumptdma. To prove this, let us notice first that, in order to construct
+
+ a mirror burning at a given distance, the problem of identifying the line concentrating
+
+ the rays at one single point must be supposed as solved. We may thus assume that the
+
+ proof of prop. 1 is known (Fig. 4).
+
+ Recall the pivotal equality, AF=FB. From point //, let a segment HR=BF be
+
+ cut off on the axis, on the same side as V . It is enough to show that the position of
+ R is univocally determined by F and V , which are given if the assigned curve is a
+ parabola. But from
+
+ let HV=BV (by the property of the subtangent) be subtracted: one obtains
+
+ HR = BF
+
+ VF = VR.
+
+ But V and F are given: therefore, R is also given. End of proof. In other terms, starting
+
+ from whatever point H which is the projection on the axis of a parabola of a point A
+
+ on the line, and cutting off from the axis a segment HR equal to the distance of A from
+
+ Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:19:11 UTC
+All use subject to https://about.jstor.org/terms
+
+ 484 F. Acerbi
+
+ Fig. 4
+
+ | A
+
+ B ! R v' F H c
+
+ the focus, the endpoint R of the segment is always the same. As HA is perpendicular
+
+ to the axis, point A is equidistant from the focus and from a straight line through R
+
+ perpendicular to the axis.
+
+ The characterization of the parabola by means of the focus-directrix property allows
+
+ one to set up a pointwise construction of the line using only plane methods. Diocles
+ does this in prop. 4, as we have just seen. In prop. 5, he shows that, by 'inverting'
+
+ and formalizing the argument just expounded, the curve resulting from the pointwise
+
+ construction is a parabola. In fact (going back to Fig. 3), the arrangment of the points
+
+ FHVB is suitable for an application of El. II.8, and this theorem provides the crucial
+
+ equality entailing that any point identified by its equidistance from a point F and a
+
+ straight line RS satisfies the sumptdma of a parabola with axis along VF, vertex V and
+
+ upright side 4 VF. For let us consider one such point A, of which projection on FR is
+ H. Let us cut off, on the opposite side from V, a segment VB=VH (and therefore,
+ FB = HR). By El II.8 one has that
+
+ s(FB) = s(FH ) + 4r(HV, VF).
+
+ But FAH is a right-angled triangle, so that
+
+ s(AF) = s(FH)+s(AH).
+
+ Therefore, if we stipulate AF=FB (= HR ), as Diocles does at the end of his construc-
+ tion, then we have
+
+ s(AH) = 4 r(HV, VF) = r(HV , 4VF),
+
+ and point A is on the parabola with upright side 4 VF and vertex V.
+
+ Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:19:11 UTC
+All use subject to https://about.jstor.org/terms
+
+ The geometry of burning mirrors in Greek antiquity 485
+
+ The problem of the heuristic behind Diodes' construction was put forward with
+ force by Knorr (1983), in the only sustained attempt at assessing the relationships
+
+ among the several authors involved in researches about burning mirrors. It is worth-
+ while to discuss his reconstruction in detail. (Knorr did not know Dtrums' treatise; the
+
+ analysis offered in CG, passim , simply states, repeatedly and without really arguing
+
+ the case, the mutual independency of all contributions involved, a thesis that is refuted
+
+ throughout this article.)
+
+ prop. 1, 4 and 5:
+
+ Knorr (ibid., p. 59) starts by pointing out two deductive drawbacks in the series of
+
+ (a) It is nowhere stated nor proved that the parabola enjoys the focus-directrix prop-
+
+ erty;
+
+ (b) The curve as constructed in [prop. 4] does not satisfy the property of the burning
+
+ mirror established in Proposition 1', since this proposition 'defines the parabola
+
+ in terms of the ordinate-abscissa property, not the focus-directrix property'.
+
+ According to him, these supposed lacunae can be amended by supposing that props
+
+ 4-5 are the relics of the analysis, which would have led Diocles to the proof of his
+
+ prop. 1 . As a matter of fact, Diocles' reduction strategy is exactly the canonical one for
+
+ solving a locus problem, as we have seen at the beginning of this section. Apparently,
+
+ Knorr did not appreciate this point, as from his perspective, the characterization of
+
+ the curve with exact focal properties in terms of the property of equidistance from a
+
+ given point and a given straight line must logically and temporally precede the proof of
+
+ prop. 1 : only afterwards, the same property of equidistance shall be proven to identify
+
+ a parabola. After the curve has been identified, it becomes relatively easy to set up a
+
+ direct proof such as the one that we read in prop. 1 . According to Knorr, Diocles would
+
+ have kept the superfluous props. 4 and 5 in his treatise as 'vestiges of the preliminary
+ analytic investigation' (ibid., p. 60).
+
+ Knorr puts much emphasis on the heuristic character of the analysis because he
+
+ thinks that the technical difficulties arising in trying to reduce the construction of the
+
+ curve with exact focal properties to the one identified by the equidistance of its points
+
+ from a given point and a given straight line could not be overcome by a Greek geom-
+
+ eter. In his words (ibid., italics in the original): 'One thus requires a way of reducing
+
+ the construction of the ray-focusing curve to the curve defined by the focus-directrix
+
+ property. Now, if the problem is framed in this manner, it would seem to be beyond
+
+ the capacities of Greek geometry. For the focal property specifies the curve through
+ the orientation of the tangent at each point; [...] But to work out the curve from its
+
+ tangent entails, in effect, finding the solution of a differential equation. Lacking any
+
+ method comparable to the differential triangle, the Greeks were at great disadvantage
+ as far as the finding of solutions to such problems is concerned. On the other hand,
+
+ once a solution was found, by whatever method, even a fortuitous one, its proof could
+ be provided in rigorous fashion [...]'. Knorr even wonders (ibid., italics mine):'Why,
+ then has Diocles injected consideration of this ostensibly irrelevant property as if it
+ were somehow the essential characteristic of the burning curve?'.
+
+ In order to get out of the impasse , Knorr submits that what we read in Anthemi-
+
+ us was a relic, even if relating to the ellipse, of the preliminary heuristic leading to
+ Diocles' construction (ibid., pp. 60-63); however, he is forced by his own argument to
+
+ Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:19:11 UTC
+All use subject to https://about.jstor.org/terms
+
+ 486 F. Acerbi
+
+ suppose that this approximate construction was arrived at by pure chance: 'Anthemius
+ has been helped along to no small degree by plain good luck' (ibid., p. 62).
+
+ We see here a historian surrendering to his own prejudices: whenever a rigorous
+
+ analysis is (regarded as) not available, it is replaced by a non-rigorous argument that
+ is ascribed to an author who is early and shadowy enough, in order not to destroy
+ his reputation. Dositheus is such a character, to whom an 'approximate construction'
+ can be very fittingly attributed on the basis of what Diocles says in his prefatory
+ epistle (see Sect. 2). In Knorr's view, Anthemius' construction should be ascribed to
+
+ Dositheus. This construction is grounded on the simple remark that the tangent to the
+
+ line at the point of incidence of a ray bisects the angle between the incident ray pro-
+
+ duced and the reflected ray. The construction starts from the outer edge of the mirror,
+
+ which is supposed to be given, as well as the point where burning must occur. Using
+
+ these assumptions and the focus-directrix property, Anthemius builds his composite
+
+ mirror; the Greek text ends abruptly before the proposition is completed. In analogy
+
+ with what we read in the case of an elliptical mirror, Knorr surmises that the missing
+
+ portion of Anthemius' tract should have contained a 'proof of the fact that a curve
+
+ having the focus-directrix property is a parabola. The Arabic translation and the ver-
+ sion revised by 'Utarid (CG, 286-315) show that this was not the case: Anthemius
+
+ was only interested in transcribing arguments with an explicit practical import. Knorr
+
+ further identifies the 'missing proof' of Anthemius' work with what is contained in
+
+ the Bobbio fragment (ibid., pp. 63-70). In doing this, he inserts himself in a tradition
+ of scholars (among whom Heiberg 1883, pp. 127-129 features) who entertain the
+
+ illusion that history of Greek mathematics is a game of complete information.
+
+ Knorr' argument does not stand up because of two unwarranted, and demonstrably
+
+ false, assumptions. The first is that an analysis revealing the crucial role of the focus-
+
+ directrix property might be conducted only by explicitly using the tangent. The second,
+
+ of an ideological nature, is that a property so important (to us) as the focus-directrix
+
+ could not be reduced to the status of mere functionality to a pointwise determination of
+
+ a parabola, as indisputably happens in Diocles' approach and as Knorr himself has to
+
+ recognize (1983, p. 59): 'the role of the [given] line is so submerged in the construction
+
+ that one strains to view Diocles as working toward the solution of a problem of locus
+ as such'.
+
+ The first assumption, whose anachronistic nature is revealed by the long quotation
+
+ above, is falsified by the very simple analysis proposed at the beginning of this section,
+
+ which, in my opinion, has the additional virtue of being a direct consequence of the
+
+ focal property established in prop. 1 , and is in fact an immediate development of the
+
+ argument set out in that proof. Yet, Knorr had at his disposal an analysis not depending
+ on prop. 1: it was enough to 'invert' props. 4-5. For, once a point B is given on the
+ axis of a parabola having vertex V and focal distance FV given (Fig. 3 again), it is
+ enough to mark point H such that H V = VB , draw the perpendicular HA from the axis
+
+ and take its intersection with the circle of centre F and radius FB , to have the point A
+
+ the tangent through which meets the axis at B. Very likely, Knorr regarded the use of
+
+ El. II. 8 as too contrived, since it assigns no explicit role to the tangent.
+
+ This suggests that the whole story can be read in a different perspective: the focal
+
+ properties of the parabola were obtained as a by-product of an attempt at proving that
+
+ the property of the subtangent is a sumptdma of the curve. About the relevance of this
+
+ ^ Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:19:11 UTC
+All use subject to https://about.jstor.org/terms
+
+ The geometry of burning mirrors in Greek antiquity 487
+
+ property to the eyes of the ancient geometers it is not necessary to spend so many
+
+ words. Recall in fact that the property of the subtangent was well known to Archi-
+
+ medes, that the attested proof in Con. 1.33 and 35 can be transferred identically to
+
+ orthogonal conjugation, and that precisely El. II.8 provides a crucial result in the final
+
+ step of the proof of Con. 1.33, a reference that both Eutocius (it is almost certain that
+
+ the postponed explicative closing the theorem at AGE I, 100.21-22, must be ascribed
+ to him) and Heiberg ( AGE I, 101 in int.) have misinterpreted as a reference to El.
+ II.5. As a consequence, the focal property proves crucial to employ the subtangent
+ as a method to construct a parabola with given vertex and parameter (cf. Con. 1.52,
+ that, however, does not lead in an immediate way to a pointwise construction) and
+
+ makes it possible to solve by reduction a particular case of the problem of tracing a
+
+ conic section after some of its tangents are known (it is a particular case since one of
+
+ the tangents must pass through the vertex; an alternative method follows from Con.
+ III.41).
+
+ As for the second assumption, the historiographical debate about the first appear-
+
+ ance of the focus-directrix property is biased by the relevance that this characterization
+
+ has assumed in the modern characterization of conic sections. Of this property, there is
+
+ no trace in Apollonius' Conica as they are now extant (recall that it holds in reference
+
+ to the axis only, and therefore it is not a sumptoma that can be referred to any diameter).
+
+ Yet, to mention just one consideration that could have suggested including it, had it
+ been known, use of the focal property of the parabola would have greatly simplified
+
+ the expression of the new parameter when the reference diameter is changed in Con.
+
+ 1.49 - it is simply four times the distance of the vertex of the new diameter from the
+ focus.
+
+ Toomer (1976, pp. 16-17) surmised that Diocles himself was the discoverer of the
+
+ property in the case of the parabola, its validity being extended after him to the other
+ conic sections. The few lemmas Pappus offers, at the very end of book VII of his
+ Collectio , for the Euclidean Loci on a surface are alleged to support this reconstruc-
+ tion. Pappus (partly) proves in VII.313-318, by reduction to the principal sumptoma
+ of a conic section used before Apollonius, the following locus theorem:
+
+ Let a straight line AB be < given > in position, and G given in the same plane, and
+
+ let be DG drawn across, a perpendicular DE , and let the ratio of GD to DEG <be
+
+ given >. I say that D touches a section of a cone, and if the ratio be equal to equal
+
+ a parabola, if less to greater an ellipse, if greater to less a hyperbola.
+
+ It is the only attestation in the ancient corpus of the fact that the focus-directrix
+
+ property is a sumptoma of the several conic sections (the formulation as a locus bears
+
+ this out exactly). The really interesting point in Pappus' proof is, from our perspec-
+ tive, the following. He first reduces the just quoted locus to another one, solved in
+ VII.314-317 (the reduction is immediate). The enunciation of this locus reads thus
+ (Fig. 5):
+
+ Given two <points> AB and GD at right angles, let the ratio of the square of
+ AD to the squares of GD DB <be given>. I say that G touches a section of a
+ cone, whether the ratio is equal to equal a parabola or greater to less or less to
+
+ greater.
+
+ ^ Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:19:11 UTC
+All use subject to https://about.jstor.org/terms
+
+ 488 F. Acerbi
+
+ Fig. 5
+
+ 'g
+
+ B D zj E A
+
+ Therefore, the sumptdma here assumed is nothing but a generalized focus-directrix
+
+ property modified by squaring the ratio and applying El. 1.47 to the distance from the
+ focus (the same sumptdma identifies a hyperbola, one of the two loci whose inter-
+
+ section solves the problem of trisection of an angle, at Coll. IV.68). It is important to
+
+ stress that this is a generalized formulation of the focus-directrix property: the ratio of
+
+ the two distances is given in square. Even if the reduction to the 'unsquared' form is
+
+ an immediate consequence of El. 1.47, it obviously works one way only. Accordingly,
+ the generalized formulation holds in any conjugation, while, as we have repeatedly
+ seen, the 'unsquared' one - as well as the focal property that is strictly linked with
+ it - holds in orthogonal conjugation only (this is one more reason 'explaining' as to
+ why the focus-directrix property was not 'seen' by the Greek geometers).
+
+ Let us see how the locus is solved, considering only the case of the parabola (Coll.
+
+ VII.315). In order to reduce the condition
+
+ to the principal sumptdma
+
+ s(AD) = s(GD) + s(DB)
+
+ s(GD) =r(4BZ,DZ ),
+
+ one has 'only' to make the rectangle r(4BZ,DZ) appear in place of s(AD) - s(DB).
+ This can be done in two ways. One possibility is to follow Diocles: bisect AB at Z and
+ mark E such that DZ=ZE' and apply El. II.8 to the four points BDZE. As AD=BE ,
+ it immediately results that
+
+ Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:19:11 UTC
+All use subject to https://about.jstor.org/terms
+
+ The geometry of burning mirrors in Greek antiquity 489
+
+ s(AD) - s(DB ) = s(BE) - s{DB) = 4r(BZ, DZ).
+
+ Pappus chooses another route. He marks E such that BD = DE and applies EL II.6 to
+ the four points BDEA. Thus he has
+
+ s(AD) - s(DB ) = r(BA,AE ),
+
+ which in turn is equal, by marking Z such that BZ-ZA and by observing that
+
+ AE = AB- BE = 2BZ - 2BD = 2 DZ,
+
+ to 4 r(BZ,DZ).
+
+ One wonders what proposition of the lost Euclidean treatise might have required
+
+ Pappus' lemma. Zeuthen (1886, pp. 210-215 and 367-371) observes that, if Pappus
+ had to make such a lemma explicit, then the focus-directrix property should have
+ been taken for granted in the Loci on a surface. Zeuthen's remark can be completed
+
+ by the conjecture that the most "natural" place where the property was established, of
+
+ course in the above form of a sumptdma formulated as a constraint identifying a locus ,
+
+ is in Aristaeus' Solid loci (an inference that is another product of the illusion that
+
+ history of Greek mathematics is a game of complete information). As a matter of fact,
+ what Pappus proves is which conic section must be associated with which ratio, his
+ formulation implying that the connection between the (generalized) focus-directrix
+
+ property and conic sections has to be taken for granted. In sum, if one is not willing
+
+ to venture in empty conjecturing, then a minimal hypothesis is that the property had
+
+ been employed in the Loci on a surface as an intermediate step in the analysis of some
+
+ locus , but that it was simply considered as a sumptdma of a conic section.
+
+ 7 The pointwise construction of the parabola: Dtrums and Archimedes
+
+ The pointwise construction of a parabola proposed by Dtrums in his props. 12-13 fol-
+
+ lows Diodes' scheme but does not resort to the focus-directrix property. As a matter
+
+ of fact, Dtrums solves a different problem from that of constructing a parabola having
+
+ vertex and focal distance given. What is given are three particular points: one is the
+
+ vertex, and the other two are the endpoints of the same ordinate; it is required to draw
+
+ the parabola passing through them. As is the case with Diocles, the particular position
+
+ of the points makes the three tangents through them given in position as well, and from
+
+ this, it is easy to determine the parabola pointwise using, for instance, the proportions
+
+ derived by Apollonius in Con. 111.41. Dtrums does not follow this route: his procedure
+ has as its model the Archimedean proofs in Quadr. 4 and 5. Some peculiarities of
+ Dtrums' proofs can in fact be explained only as a reworking of analogous features of
+ those of Archimedes' proofs, as we are going to see. Let us read first Quadr. 4 (AOO
+ II, 268.5-270.3, and see Fig. 6):
+
+ Let it be a segment ABG contained by a straight line and a section of a right-
+ angled cone [scil. a parabola], and from the middle of AG a < straight lino
+
+ Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:19:11 UTC
+All use subject to https://about.jstor.org/terms
+
+ 490 F. Acerbi
+
+ Fig. 6
+
+ G
+
+ bJH-
+
+ /
+
+ ~Q
+
+ BD be drawn parallel to the diameter - or let it itself be a diameter - and let the
+
+ joining straight line BG be produced.
+
+ Then, if another < straight lino ZQ be drawn parallel to BD cutting the straight
+
+ line through BG , ZQ to QH will have the same ratio as DA to DZ.
+ Let a <straight lino KH be drawn through H parallel to AG: therefore it is as
+ BD to BK in length, so DG to KH in power - for this has been proven. There-
+ fore, it will be as BG to BI in length, so BG to BQ in power - for DZ KH are
+ equal - therefore, lines BG BQ BI are in proportion, so that BG to BQ has the
+ same ratio as GQ to QI: therefore, it is as GD to DZ, so QZ to QH. And equal to
+ DG is DA: it is thus manifest that DA to DZ has the same ratio as ZQ to QH.
+
+ In Quadr. 5 the result is extended, with a simple proof that is omitted here, to show
+
+ that
+
+ AZ : ZG :: ZQ : QL
+
+ holds, where L is the intersection of ZQ and of the tangent through G. Archimedes
+
+ needs this new result as it is the central one in the mechanical method of quadrature of
+
+ a segment of a parabola. On the other hand, while appearing in Dtrums' prop. 12, the
+ result is completely useless in Dtrums' approach, as he applies prop. 12 in prop. 13
+ without any need to introduce the tangent. A hasty redaction of prop. 12 is suggested
+
+ by other elements too - the enunciation states two results: one referring to the propor-
+
+ tion obtaining with the point on the tangent; and the other to the proportion obtaining
+
+ with the point on the secant through the vertex. In the conclusion itself, the author
+
+ observes that the introduction of the tangent is without effect; before this, he sets out
+ a convoluted argument that can be replaced by a single application of convertendo.
+ These steps are completely useless as a support to the subsequent construction, which
+ can be effected using the proportion (identical with the Archimedean one established
+
+ Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:19:11 UTC
+All use subject to https://about.jstor.org/terms
+
+ The geometry of burning mirrors in Greek antiquity 491
+
+ Fig. 7
+
+ ML K
+
+ The proof gives a simple method for determining a parabola passing through three
+
+ points with the special properties listed above: A and C are the endpoints of the same
+ ordinate, and B is the vertex of the diameter conjugated to that ordinate. The con-
+
+ struction of the problem and the beginning of its synthesis may well be identical with
+ Dtrums' (CG, 201-202, and see Fig. 8):
+
+ Posons la droite AC diametre d'un cercle, qui est le bord du miroir ardent que
+ nous voulons construire [...] cherchons a trouver la parabole que nous trains
+ sur les points A, B et C et sur l'axe BD. Joignons la droite AB et menons du
+
+ Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:19:11 UTC
+All use subject to https://about.jstor.org/terms
+
+ at the end of Quadr. 4 and that I shall call (*)) to which these steps are initially applied.
+
+ Let us read then the relevant portion of the text. As I am unable to directly translate
+ from Arabic, I transcribe the French version (CG, 200-201, and see Fig. 7):
+
+ Soit la section parabolique ABC te BD son diametre; soit la droite ordonnee AC;
+
+ [. . .] soit la droite MKI parallele au diametre, qui traverse la section au point K.
+ [...]
+
+ Joignons la droite CB et prolongeons-la jusqu'au point L; menons du point K
+ une droite parallele a la droite CA , soit KG ; joignons egalement la droite KC
+ qui coupe la droite BD au point E. On a dans la section le rapport de DB a BG
+ egal au rapport du carre de AD - c'est-a-dire le carre de CD - au carre de KG
+ et le rapport du carre de CD au carre de KG est egal au rapport du carre de DE
+ au carre de EG: le rapport de DB a BG est done egal au rapport du carre de DE
+ au carre de EG. Et en raison de ce que nous avons demontre a ce sujet, on a le
+ produit de DB par BG egal au carre de BE et le rapport de DB a BG - qui est
+ egal au rapport du carre de AD au carre de Dl - est egal au rapport du carre de
+ DB au carre de BE; mais ceci est egal au rapport du carre de IL au carre de LK.
+ on a done egalement en longueur le rapport de IL a LK egal au rapport de DA
+ a DI.
+
+ 492 F. Acerbi
+
+ Fig. 8
+
+ g y^///////
+
+ H'AI E
+
+ A
+
+ c
+
+ point E - qui est entre A et D - une droite parallele a BD , soit la droite EH.
+ Joignons la droite CK et prolongeons-la jusqu'a qu'elle coupe la droite EIH au
+ point H' alors le point H est sur la parabole que nous trains sur les points A,
+ B et C. [. . .] Menons la droite EH , qu'elle coupe la droite CB au point G. Si on
+ construit la parabole, le rapport de GE a EH est egal au rapport de BD a DK et
+
+ le rapport de BD a DK est egal au rapport de BD a El' et ceci est egal au rapport
+ de DA a AE' la parabole qui passe par les points A, B et C passe done par le
+ point H.
+
+ The synthesis of the problem, namely, to show that H lies on a given parabola,
+ can be completed by inverting either the passages of Dtrums' prop. 1 1 or those of
+ the Archimedean proof: as we have read, Dtrums omits this part of the synthesis and
+ satisfies himself with observing that proportion (*) holds, the rest being obvious since
+
+ all passages of Archimedes' proof can be inverted. As a consequence, point H on ZQ
+ satisfying (*) satisfies also the principal sumptdma in ratio form of the parabola of
+
+ given vertex and passing through two given points lying at the extremes of the same
+ ordinate. Our discussion will focus henceforth on a comparison between the proofs of
+
+ Dtrums' prop. 12 and of Quadr. 4; accordingly, prop. 13 of Dtrums will be left out.
+
+ In order to better understand the relationships between the two propositions, it is
+
+ useful to set in parallel the deductive steps in a schematic manner, as follows:
+
+ Archimedes'. Enunciation of the principal sumptdma of the parabola in the ratio
+
+ form; identification of four segments, two of which are parallel to the ordinate, and
+
+ Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:19:11 UTC
+All use subject to https://about.jstor.org/terms
+
+ The geometry of burning mirrors in Greek antiquity 493
+
+ two to the diameter; projection on the secant through the vertex of the four segments,
+
+ pairwise independently, in such a way as to make the projection of two segments
+
+ coincide: the three resulting projections A, B, and C satisfy a proportion of the kind
+
+ A : B :: s( A) : 5(C) :
+
+ therefore, the three projections satisfy a continuous proportion with middle term C;
+ application of EL V.12 or of V.19; the four resulting segments are projected back,
+
+ pairwise independently, a pair on the ordinate and the other pair on the parallel to the
+
+ diameter through the arbitrary point: one obtains the final proportion (*).
+
+ Dtrums : Enunciation of the principal sumptdma of the parabola in the ratio form;
+
+ identification of four segments, two of which are parallel to the ordinate, and two
+
+ to the diameter; projection on the axis of the four segments, pairwise independently,
+
+ using as an auxiliary line, the line joining the given point and the arbitrary point (two
+
+ of these segments already lie on the axis); application of a technical lemma proven in
+
+ prop. 1 1 ('Si on partage une droite en parties telles que le rapport du carre de Tune des
+
+ partie au carre de la partie intermediaire soit egal au rapport de la droite toute entiere
+
+ a la partie qui reste, alors le produit forme de a droite toute entiere par la troisieme
+
+ partie que nous avons mentionnee est egal au carre de la droite composee de la partie
+
+ intermediaire et de la partie qui reste'): therefore three suitable combinations A, C,
+
+ and B of the projections satisfy a continuous proportion with middle term C: therefore
+
+ three projections satisfy a proportion of the kind
+
+ A : B :: s( A) : s( C);
+
+ the first ratio gives, via the principal sumptdma in ratio form, a ratio between the
+
+ squares on the ordinates; A and C in the second ratio are independently projected back
+
+ from the axis on the parallel to the diameter through the arbitrary point: one obtains
+
+ the same final proportion (*) as Archimedes'.
+
+ There are two essential differences between the two proofs:
+
+ (1) Archimedes projects on the secant through the vertex and the given point; Dtrums
+
+ projects on the axis. The key proportion A : B :: 5(A) : s(C) is different in the
+ two authors, since it is strictly correlated with the choice of the projections: as a
+
+ matter of fact, it is quite difficult to obtain Archimedes' projection from Dtrums',
+ and vice versa. In both cases, the two proportions are the natural ones after the
+ projection is chosen.
+
+ (2) The most surprising feature of Dtrums' approach, however, is that he singles out
+ as prop. 11a four-point technical lemma, whose role is analogous to El. II. 8 in
+ Diodes' construction, and this allows him to determine by plane methods the
+ single points of a parabola by means of a sumptdma which is hardly perspicuous.
+ It would have been much more immediate to offer a pointwise construction of
+
+ the parabola on the grounds of the first part of the Archimedean proof (see Fig. 6
+
+ again): after one knows that BG , BQ , and BI are in continuous proportion, it is
+ enough to notice that B, G, and Q are given. Therefore I is also given, and the
+ construction of a point on a parabola can be effected by slightly modifying the
+ one in Dtrums.
+
+ Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:19:11 UTC
+All use subject to https://about.jstor.org/terms
+
+ 494 F. Acerbi
+
+ In fact, the lemma proved by Dtrums in his prop. 1 1 must have constituted a well
+
+ known technical tool, since we find it in Pappus', Coll. VII.89-90, 220-221, and 277,
+
+ who offers five proofs, only slightly different one from another, whereas Dtrums pro-
+
+ ceeds by reductio. The first two proofs of Pappus are among the lemmas referring to
+ Apollonius' Sectio determinate whose connection with the determination of conic
+
+ sections starting from given points was established long ago (Zeuthen 1886, pp. 195-
+
+ 202). The third and fourth occurrences are in the part dealing with Euclid's Porisms.
+
+ The fifth proof is a lemma to Con. V. The transmitted Arabic text of book V does not
+
+ make it clear to which proposition Pappus' lemma refers, but some of the surrounding
+ lemmas pertain to material related to the group V.51-55. Add to this the resonance
+ (only a resonance, since the four points do not lie on the same straight line) with the
+
+ fundamental lemma in the construction of the locus known as "Apollonian circles" (cf.
+ Coll. VII. 185 and 223), and Zeuthen's remark (1886, pp. 59-62) that the proportion
+ derived in Quadr. 4 shows that the parabola satisfied certain particular cases of the
+ four-line locus.
+
+ 8 Lemmatic fragmentation
+
+ The useless complications in Dtrums' proof, even if he might well be considerably
+ later than Archimedes, cannot be explained by simply invoking his low technical level
+ or accidents of transmission: the copy is too conformal to the Archimedean model
+
+ and, at the same time, the complications are inexplicable if viewed only in the context
+
+ of adapting the original proof to the contingent exigencies of constructing a parabola
+
+ passing through three points. As we have seen, in fact, Quadr. 4 offers itself, so to
+
+ speak, as an effective synthesis of this problem, dictating the form of the construction.
+
+ I submit that the attested modifications of the Archimedean original had a strategic
+
+ goal, and it is of no importance whether this has happened with Dtrums or he found
+ some paradigmatic examples in the tradition. The goal was to give prominence to
+
+ either of the distinctive features of the construction (projection and technical lemma),
+
+ even if the resulting construction gets considerably more involved.
+
+ Yet, it is not easy to disentangle the complex relationships between the identifi-
+ cation of the lemma and the choice of the projection. It may be that the choice of
+ the projection induced the necessity of elaborating a series of steps that eventually
+ coalesced in the lemma. In favour of this hypothesis, one may argue that the axis of a
+
+ parabola is connected in an invariant way to the curve, whereas the secant introduced
+
+ by Archimedes is not. On the other hand, the choice of the projection might have been
+ dictated by the need to give prominence to a lemma that has manifold applications.
+ As a matter of fact, the presence of the lemma in the tradition might have suggested
+
+ modifying Archimedes' projection, which presents itself as a most "natural" one: let
+ us recall in fact that the position of the diameter can be made to depend on that of
+
+ the (points on the) ordinate, and that this projection is already formulated in oblique
+ conjugation. The combination of two contravariant canonizing elements - a standard
+ projection that can be exported to any conjugation and a lemma to be used in other
+ contexts - produces a proof that has many "links" with a larger class of problems but
+
+ that surely is not the simplest possible one. All in all, my impression is that, at least
+
+ Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:19:11 UTC
+All use subject to https://about.jstor.org/terms
+
+ The geometry of burning mirrors in Greek antiquity 495
+
+ when Dtrums redacted his version, extracting the lemma was the primary aim, as I
+
+ shall briefly argue in what follows.
+
+ Dtrums' whole approach displays a feeling for what we nowadays would call 'struc-
+
+ ture' : the linear lemmas are the real core of a proof, beyond the contingent geometrical
+
+ embellishments; and the fact that they can be applied in disparate configurations tes-
+
+ tifies to their belonging to an order of mathematical reflection that somehow extracts
+ the 'essential geometrical content' - sequences of points on a straight line - from a
+
+ particular geometrical configuration. The linear lemmas dictated the directive lines of
+
+ mathematical research: as basic demonstrative tools, they imposed their own presence
+
+ in the proofs, thereby conditioning the kind of available results. Pappus' Collectio is
+
+ the place where this tendency comes to its extreme and results in a disintegration of
+
+ the corpus.
+
+ I have surveyed the H-point lemmas presented in the ancient mathematical corpus ;
+
+ the following prospect lists them, indexed by the number of points involved and by the
+
+ presence or absence among the assumptions of any relation among figures constructed
+
+ on the segments cut off by the points (the index 'g' means that the lemma is formulated
+
+ in the language of the givens; * marks the lemmas stating an inequality; kiri precedes
+
+ occurrences of linear lemmas assumed in a Pappian proof, but not proved by him).
+
+ relation not assumed relation assumed
+
+ 3 pts El. II.2-4, 7-8, X.33/34, XIII. 1 -6, XIV. 1 1 , Coll
+
+ 59/60, Coll. VII.192# V.78*-9*, 83, VII.305g
+ 4 pts El. II.5-6, 9-10, X.34/35, Coll. VII.89-90, 216-21,
+
+ 41/42*, Coll. V.49-50, 267-9, 277
+
+ VII.54*-5*, in 142-3, 186, 191
+
+ 5 pts Coll. VII.56*, 70-1 , 79, Coll. VII.60-3, 68-9, 72,
+
+ 111-2, in 189, 228, 77-8, 80, 83-5,86-8, 91-8,
+ 239, 249-50, 263-6, 307* 117,1 89-90, 270-1 , 308
+
+ 6 pts Eutocius in Con. 11.23 Coll. VII.99-1 10
+
+ n pts
+
+ four results.
+
+ lemmas.
+
+ (4) Pappus' lemmas for Apollonius' Sectio determinata are contained in Coll. VII. 68-
+ 1 19. It is no surprise, then, to find so many linear lemmas (39 in all, most of which
+
+ five-point lemmas) in this chapter range of the Collectio. Other chapter ranges in
+ Coll. VII, with the number of associated linear lemmas, are: De sectione rationis
+ et spatii : 43-67 (9); Neuseis : 120-157 (2); Tactiones I: 158-184 (0); Loci plani
+ II: 185-192 (6); Porismata I (7): 193-232; and Conica : 233-311 (16).
+
+ (5) All the occurrences of three-point lemmas in the second column refer to a segment
+
+ cut in extreme and mean ratio.
+
+ Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:19:11 UTC
+All use subject to https://about.jstor.org/terms
+
+ One might even suggest that the whole book X of the Elements should be included
+
+ in the list. I add just a few remarks.
+
+ (1) Eutocius' lemmas to Apollonius' Conica coincide with those in Pappus, the only
+
+ exception being a lemma to Con. 11.23.
+
+ (2) The lemmas in Coll. VII. 217, 219 and 228 prove three results each; VII.95-7
+
+ (3) VII.69, 78, 84-5, 87-8, 92, 94 are alternative proofs of the immediately preceding
+
+ 496 F. Acerbi
+
+ (6) Among the lemmas to the Neuseis are included some interesting n-point-and-2-
+
+ line theorems that will not be discussed here (Coll. VII. 120-5).
+
+ It may well be that such a feeling for structure is a consequence of cultural factors
+
+ such as the phenomenon of canonization of literary products and the prevalence of
+ a rhetorical curriculum, entailing a renewed attention to the building blocks of any
+
+ chain of argument. What is more, the lemmas may become a central research tool if
+ one is obsessed by the ideology of the 'discovery' and by reconstructing the heuris-
+ tic methods of the 'ancients'. In this perspective, there is relevance in the fact that
+
+ the identification of the parabola via the focus-directrix sumptdma split into three
+
+ branches, depending on the technical lemma employed (add to them the sumptdma of
+
+ the parabola, established by Pappus, Coll. IV.79, in orthogonal conjugation but valid
+ with reference to any diameter, where the "core" lemma is El. II.5):
+
+ (1) El. II.8 (used also in Data 86 and in Diophantus, Pol. num. 1-3, Metrica 1.26, but
+
+ elsewhere not to be found in the ancient corpus ), applied by Diocles to produce
+
+ a pointwise construction, even if, as we have seen at the end of Sect. 6, it may
+
+ yield a proof that the (generalized) focus-directrix property is a sumptdma of the
+ parabola.
+
+ (2) Dtrums' lemma, applied to produce a pointwise construction.
+ (3) El. II.6, applied by Pappus in the context of a locus theorem, showing that the
+
+ (generalized) focus-directrix property really is a sumptdma.
+
+ One should not, however, regard the interest in singling out lemmas as a typical attitude
+
+ of late antiquity: book II of the Elements and Apollonius' three Sectiones (a warning:
+
+ these are problems, not theorems) are there to show that the opposite is true, but this
+
+ is another story.
+
+ 9 Sources and their sigla
+
+ The abbreviations of the titles of the writings of mathematical authors are self-explan-
+
+ atory, as for instance El. = Elements , Con. = Conica , Coll. = Collection propositions
+ are referred to by book and number, as for instance "£/. 111.15". Pappus' Collectio is
+
+ cited by book and chapter. Other sources are cited according to the following sigla:
+
+ AGE : Apollonii Pergaei quae graece exstant, cum commentariis antiquis , edidit et
+
+ latine interpretatus est J. L. Heiberg. 2 vol. Leipzig, B.G. Teubner 1891-1893.
+
+ AOO: Archimedis opera omnia , cum commentariis Eutocii , iterum edidit J. L. Hei-
+
+ berg. 3 vol. Leipzig, B.G. Teubner 1910-1915.
+
+ CG: Les catoptriciens grecs I. Les miroirs ardents. Textes etablis, traduits et com-
+
+ mentes par R. Rashed. Paris, Les Belles Lettres 2000.
+
+ HOO' Heronis Alexandrini opera quae supersunt omnia , recensuerunt G. Schmidt
+
+ (vol. I), L. Nix et W. Schmidt (vol. II), H. Schoene (vol. Ill), J. L. Heiberg (vol.
+ IV et V). 5 vol. Leipzig, B.G. Teubner 1899-1914.
+
+ MGM : Mathematici Graeci Minores , edidit J. L. Heiberg. Det Kongelige Danske Vide-
+
+ nskabernes Selskabs, Historisk-filologiske Meddelelser XIII, 3. K0benhavn,
+ Bianco Lunos Bogtrykkeri 1927.
+
+ <£) Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:19:11 UTC
+All use subject to https://about.jstor.org/terms
+
+ The geometry of burning mirrors in Greek antiquity 497
+
+ References
+
+ Heiberg, J.L. 1883. Zum Fragmentum mathematicum Bobiense. Zeitschrift fiir Mathematik und Physik
+
+ (hist. -lit. Abth.) 28: 121-129.
+
+ Hogendijk, J.P. 1985. Diocles and the geometry of curved surfaces. Centaurus 28: 169-184.
+ Jones, A. 1987. On some borrowed and misunderstood problems in Greek Catoptrics. Centaurus 30: 1-17.
+
+ Knorr, W.R. 1983. The geometry of burning-mirrors in antiquity, lsis 74: 53-73.
+ Sesiano, J. 1988. Les miroirs ardents de Diocles. Museum Helveticum 45: 193-202.
+
+ Toomer, G.J., ed. 1976. Diocles , On burning mirrors. Berlin: Springer.
+ Zeuthen, H.G. 1886. Die Lehre von den Kegelschnitten im Altertum. Kopenhagen: A.F. Host & Sohn.
+
+ Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:19:11 UTC
+All use subject to https://about.jstor.org/terms
+
+

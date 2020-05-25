@@ -1,0 +1,4018 @@
+ 
+
+ 
+
+ 
+
+ 
+
+Einstein's quantum theory of the monatomic ideal gas: non-statistical arguments for a
+
+new statistics
+Author(s): Enric Pérez and  Tilman Sauer
+Source: Archive for History of Exact Sciences, Vol. 64, No. 5 (September 2010), pp. 561-612
+Published by: Springer
+Stable URL: https://www.jstor.org/stable/41342431
+Accessed: 19-05-2020 12:38 UTC
+
+JSTOR is a not-for-profit service that helps scholars, researchers, and students discover, use, and build upon a wide
+
+range of content in a trusted digital archive. We use information technology and tools to increase productivity and
+
+facilitate new forms of scholarship. For more information about JSTOR, please contact support@jstor.org.
+
+Your use of the JSTOR archive indicates your acceptance of the Terms & Conditions of Use, available at
+
+https://about.jstor.org/terms
+
+Springer is collaborating with JSTOR to digitize, preserve and extend access to Archive for
+History of Exact Sciences
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:38:04 UTC
+All use subject to https://about.jstor.org/terms
+
+ Arch. Hist. Exact Sci. (2010) 64:561-612
+ DOI 1 0. 1 007/S00407-0 1 0-0066-x
+
+ Einstein's quantum theory of the monatomic ideal gas:
+ non-statistical arguments for a new statistics
+
+ Enríe Pérez • Tilman Sauer
+
+ Received: 30 April 2010 / Published online: 16 July 2010
+
+ © Springer- Verlag 2010
+
+ Abstract In this article, we analyze the third of three papers, in which Einstein
+
+ presented his quantum theory of the ideal gas of 1924-1925. Although it failed to
+ attract the attention of Einstein's contemporaries and although also today very few
+
+ commentators refer to it, we argue for its significance in the context of Einstein's
+
+ quantum researches. It contains an attempt to extend and exhaust the characteriza-
+ tion of the monatomic ideal gas without appealing to combinatorics. Its ambigui-
+ ties illustrate Einstein's confusion with his initial success in extending Bose's results
+ and in realizing the consequences of what later came to be called Bose-Einstein
+ statistics. We discuss Einstein's motivation for writing a non-combinatorial paper,
+
+ partly in response to criticism by his friend Ehrenfest, and we paraphrase its content.
+
+ Its arguments are based on Einstein's belief in the complete analogy between the ther-
+ modynamics of light quanta and of material particles and invoke considerations of
+ adiabatic transformations as well as of dimensional analysis. These techniques were
+ well known to Einstein from earlier work on Wien's displacement law, Planck's radi-
+
+ ation theory and the specific heat of solids. We also investigate the possible role of
+
+ Ehrenfest in the gestation of the theory.
+
+ Communicated by Tilman Sauer.
+
+ E. Pérez (И)
+
+ T. Sauer
+
+ Departament de Física Fonamental, Universität de Barcelona, с. Martí i Franquès 1 ,
+ 08028 Barcelona, Spain
+ e-mail: enperez@ub.edu
+
+ Einstein Papers Projects, Caltech 20-7, Pasadena, CA 91 125, USA
+ e-mail: tilman@caltech.edu
+
+ â Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:38:04 UTC
+All use subject to https://about.jstor.org/terms
+
+ 562 E. Pérez, T. Sauer
+
+ Abbreviations
+
+ AEA Albert Einstein Archives, The Hebrew University of Jerusalem, Israel
+
+ Unpublished correspondence quoted by permission
+
+ AHQP Archive for History of Quantum Physics
+
+ For a catalogue, see Kuhn et al. (1967)
+
+ EHA Ehrenfest Archive, Rijksarchief voor de Geschiedenis van de
+
+ Natuurwetenschappen en van Geneeskunde, Leiden, Netherlands
+ For a catalogue, see Wheaton (1977)
+ We quote from the microfilm version included in the AHQP
+
+ HPE Huisbibliotheek van Paul Ehrenfest, Institut Lorentz, Leiden, Netherlands
+
+ 1 Introduction
+
+ It has been said that Albert Einstein's quantum theory of the monatomic ideal gas, the
+ conceptual innovation of Bose-Einstein statistics in the quantum physics of material
+
+ particles, was his last "positive contribution" to statistical physics.1 It was presented
+
+ in three papers published in 1924 and 1925.2 In these papers, Einstein made an impor-
+
+ tant step in the quantization of the ideal gas, i.e., of a system of free, massive particles
+ confined in a volume.
+
+ The historical connections of Einstein's theory with earlier work by Satyendra Nath
+ Bose, on the one hand, and with Erwin Schrödinger's wave mechanics, on the other
+ hand, have already been widely discussed in the literature.
+
+ Most historical commentary focuses on Einstein's first two papers, which indeed
+ contain the most significant conclusions of the theory: a new distribution law for the
+
+ energy, a new way of counting microstates, an analysis of fluctuations, and the pre-
+ diction of what came to be known as the Bose-Einstein condensation phenomenon.
+
+ The third paper, in contrast, has rarely been mentioned, and we have not found any
+ work that would analyze it in some detail. Max Jammer,3 Friedrich Hund,4 Abraham
+
+ Pais,5 Jagdish Mehra and Hans Rechenberg,6 and Olivier Darrigol,7 for example, cite
+
+ the paper but do not comment on it, i.e., they refer to the list of all three publications,
+
+ but limit their comments to the results of the first two papers only.8 Martin Klein, in a
+
+ 1 Born (1949, p. 175). In a similar vein, Pais takes the work on the quantum ideal gas to be the last valid
+
+ achievement in Einstein's intellectual career, when he suggests that his fame was "based exclusively on
+ what he did before 1925," in the infamous dictum about Einstein's later biography that "his fame would be
+ undiminished, if not enhanced, had he gone fishing instead" (Pais 1994, p. 43).
+
+ 2 Einstein (1924, 1925a,b).
+
+ 3 Jammer (1966).
+
+ 4 Hund (1975).
+
+ 3 Pais (1982).
+
+ 6 Mehra and Rechenberg (1982, 1984).
+
+ 7 Darrigol (1991).
+
+ ^ Springer
+
+ 8 Works that contain discussion of Einstein's first two notes but fail to mention the third paper include
+ (Ezawa 1979).
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:38:04 UTC
+All use subject to https://about.jstor.org/terms
+
+ Einstein's quantum theory of the monatomic ideal gas 563
+
+ reference article on Einstein and the wave-particle duality, does not even cite the third
+
+ paper.9
+
+ Agostino Desalvo, in a long paper, in which he analyzed different attempts of
+
+ calculating the chemical constant and their relationship to the birth of quantum statis-
+
+ tics, discussed Einstein's third paper, albeit only briefly. In fact, his comments suggest
+
+ that the paper deserves closer attention:
+
+ This paper usually receives less consideration than the former two. However, if
+
+ one recalls the key role of thermodynamics in Einstein's thought and the discus-
+
+ sion of thermodynamics requirements imposed on the theory of gas degeneracy
+
+ (...) this paper appears to be a necessary complement to the other two.10
+
+ Einstein followed an approach in this paper that was not based only on statistical
+ considerations and that was closer to thermodynamics. He tried to find general con-
+
+ ditions that any theory of the ideal gas would have to satisfy, mainly by establishing
+
+ and exploiting analogies with radiation, where the displacement law at least provided
+ some hints as to what the radiation law should look like.1 1
+
+ Paul Hanle, in a general survey of Schrödinger's research on statistics of ideal
+ gases prior to the formulation of wave mechanics,12 represents another exception.
+ To be sure, his comments are not any more explicit than Desalvo's. He suggested
+ one should understand Einstein's third paper as a response to Paul Ehrenfest's objec-
+
+ tions against the reality of the condensation phenomenon. But he also suggested that
+ Ehrenfest was not the only addressee and that Einstein took "Ehrenfest's criticism as
+
+ symptomatic of skepticism toward the theory among his colleagues."13
+
+ In summary, Einstein's third paper has received very little attention from historians.
+ Neither did it receive a lot of attention at the time of its publication. We hardly have
+
+ found references to it by contemporaries, and references to the paper are scarce even
+
+ by Einstein himself.
+
+ From a historical point of view, the fact that Einstein wrote a non-combinatorial
+
+ paper after expounding his new theory of the quantum ideal gas in two prior arti-
+ cles points to a deeper conceptual problem. There are indications that Einstein him-
+ self may not have realized the full implications of the new way of counting, despite
+ his earlier work on black-body radiation. For example, Daniela Monaldi has argued
+
+ in a note on the prehistory of indistinguishable particles that "neither Bose nor
+ Einstein showed any awareness that they were inaugurating the statistics of indis-
+
+ tinguishable particles."14 Such observations raise a methodological problem. Indeed,
+
+ 9 Klein (1964). He did cite the third paper in an interesting article on Ehrenfest's contributions to the
+
+ development of quantum statistics (Klein 1959a,b).
+
+ ,u Desalvo (1992, p. 526). His emphasis.
+
+ 1 1 In the bibliography compiled by Margaret Shields for the book Albert Einstein : Philosopher-Scientist
+
+ this paper is described as follows: "A general condition is deduced which must be satisfied by every theory
+ of a perfect gas" (Schilpp 1949, p. 716). The phrase is almost a literal quote from Einstein's paper. See
+ footnote 66.
+
+ 12 Hanle (1977).
+
+ 13 Ibid., pp. 176-177.
+
+ 14 Monaldi (2009, p. 8).
+
+ Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:38:04 UTC
+All use subject to https://about.jstor.org/terms
+
+ 564 E. Pérez, T. Sauer
+
+ careful reading of Bose's paper as well as of Einstein's first two notes do not, it seems
+
+ to us, allow a modern reader to decide whether Einstein or Bose were fully aware, at
+ the time, of the conceptual implications of their new way of counting. We do have,
+
+ however, parts of an epistolary exchange between Einstein and the Viennese physicist
+
+ Otto Halpern. 15 The correspondence was initiated by Halpern in response to Einstein's
+
+ note, and in it we find a very explicit discussion of the new combinatorics, both by
+ Halpern and by Einstein. While it therefore seems that Einstein became aware of the
+
+ implications of the new conceptual implications of Bose-Einstein statistics, at least,
+
+ in the period between the publication of the first and the second paper, we also have
+
+ explicit criticism by his colleague Paul Ehrenfest, which points to the fact that the new
+
+ way of statistics was rejected just because of these novel implications.
+
+ As we will elaborate in this article, the implications of indistinguishability were
+
+ discussed at the time under the label of "loss of statistical independence."
+
+ For a historical reconstruction of the emergence of one of the core conceptual inno-
+
+ vations of quantum theory, it is therefore of interest to take a close look at Einstein's
+
+ third paper on the quantum ideal gas, precisely because it set out to justify this new
+ theory without making use of the new combinatorics.
+
+ Our interest in the non-statistical paper on the quantum ideal gas arose initially from
+
+ our interest in Paul Ehrenfesťs adiabatic hypothesis and, more generally, in his work.
+
+ In the third paper, Einstein used an adiabatic transformation as a part of a process
+
+ designed to provide an argument to support his new theory of the quantum ideal gas.
+ Indeed, as we will show, a detailed analysis of the paper suggests other interesting
+ relations to Ehrenfesťs research. It is well known and has been observed before16 that
+
+ Einstein mentioned his good friend in the second paper, but only in relation to the
+
+ question of loss of statistical independence of the particles.17 The discovery of a man-
+
+ uscript of that second paper in the professional library of Ehrenfest in Leiden18 further
+
+ kindled our interest in what appears to have been a debate between the two physicists
+
+ in the - more or less - six months of gestation that preceded this third contribution by
+ Einstein on the quantum ideal gas.
+
+ In view of all this, our intention is to analyze the content of the third paper without
+
+ any further analysis of the pair that preceded it, since they have already been studied
+
+ in detail.19 We will try to account for its gestation period, in particular as regards the
+
+ role that Ehrenfest would have taken in it and also compare it with previous and later
+
+ reflections by Einstein himself. Finally, we will formulate some conjectures as to why
+ this paper met cold reception despite its historical and systematic interest.
+
+ In the title of this essay, we refer to the third paper as containing "non-statistical
+
+ arguments." More accurately, it should state "non-combinatorial arguments." In a cer-
+ tain sense, as we will see, it does contain some statistical results, insofar as it deals
+
+ with the distribution function of the kinetic energy among the molecules. However,
+
+ 19 See, for instance, Navarro (2009) and references therein.
+
+ 15 See footnote 5 1 .
+
+ 16 Pais (1982, p. 430).
+
+ 17 See footnote 37.
+
+ 18 Huijnen and Kox (2007).
+
+ â Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:38:04 UTC
+All use subject to https://about.jstor.org/terms
+
+ Einstein's quantum theory of the monatomic ideal gas 565
+
+ Table 1 Chronology of the presentation and publication of Einstein's quantum theory of the monoatomic
+ ideal gas (QTMIG) and some related facts
+
+ 4 June 1924 Bose writes to Einstein
+
+ ca. 2 July 1924 Bose's paper (translated by Einstein) received by Zeitschift für Physik
+
+ 10 July 1924 Einstein's first paper on QTMIG presented to the Prussian Academy (PA)
+
+ 20 September 1924 Einstein's first paper on QTMIG published (Einstein 1924)
+
+ December 1924 Einstein's second paper on QTMIG signed
+
+ Bose's paper published (Bose 1924)
+
+ 8 January 1925 Einstein's second paper on QTMIG presented to PA
+
+ 29 January 1925 Einstein's third paper on QTMIG presented to PA
+
+ 9 February 1925 Einstein's second paper on QTMIG published (Einstein 1925a)
+
+ 5 March 1925 Einstein's third paper on QTMIG published (Einstein 1925a)
+
+ that function is not analyzed starting from the microscopic constituents of the system,
+
+ but deduced from its macroscopic properties. What Einstein really omitted completely
+
+ in this paper is any argument of combinatorics. We have kept the word 'statistical' in
+ the title because it was the consideration of the kind of dependence among molecules
+
+ which Einstein tried to avoid. It was a non-statistical paper in the sense that the way
+ the microstates had to be counted was not discussed.
+
+ In Table 1 we have gathered some of the relevant dates for what follows and to
+
+ which we will refer throughout the paper.
+
+ 2 Einstein's quantum theory of the monatomic ideal gas
+
+ Some time in June 1924, Einstein received a letter from a Bengali physicist,
+
+ Satyendra Nath Bose, who asked him politely to translate - if he believed it was worth
+ it - and forward for publication a paper on the hypothesis of light quanta, which he
+ had attached.20 Einstein complied and translated and sent to Zeitschrift für Physik
+
+ Bose's subsequently famous paper.21 To the published paper, he added the following
+
+ commentary:
+
+ In my opinion Bose's derivation of the Planck formula signifies an important
+ advance. The method used also yields the quantum theory of the ideal gas, as I
+ will work out in detail elsewhere.22
+
+ 20 See Blanpied ( 1 972) and Wali (2006). The editors of Philosophical Magazine had earlier rejected Bose's
+ manuscript.
+
+ 21 Bose (1924).
+
+ 22 "Bose's Ableitung der Planckschen Formel bedeutet nach meiner Meinung einen wichtigen Fortschritt.
+ Die hier benutzte Methode liefert auch die Quantentheorie des idealen Gases, wie ich an anderer Stelle
+
+ ausführen will" (Bose 1924, p. 181). An English translation of Bose (1924) can be found in Theimer and
+ Ram (1976, p. 1056).
+
+ £) Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:38:04 UTC
+All use subject to https://about.jstor.org/terms
+
+ In Bose's paper we find, for the first time, a derivation of the factor
+
+ 566 E. Pérez, T. Sauer
+
+ cJ
+
+ (I)
+
+ starting from the quantization of energy (c is the speed of light in vacuum, V the vol-
+
+ ume). This expression gives the number of cells corresponding to frequencies between
+
+ v and v + dv or, in wave-theoretical terms, the number of modes with frequency in
+
+ that same range. With the average energy of a resonator of frequency v (or of a normal
+
+ mode) it constitutes Planck's black-body radiation law for the energy density r:
+
+ X . 87 tv2 hv
+
+ r(v, X T) dv . = - 5
+
+ c e*r - 1
+
+ (k is Boltzmann's constant and T the temperature). While several different ways had
+ been found to derive the average energy of a resonator based on Planck's quantum
+ hypothesis, the prefactor had previously been derived only classically, without invok-
+
+ ing the concept of quantization. Thus, in his 1916 paper Einstein remarked about the
+ prefactor:
+
+ In order to obtain the numerical value of constant a [defined earlier as p =
+ av3l/(exp(- hv/kT) - 1)] one would have to have an exact theory of electro-
+
+ dynamic and mechanical processes. For the time being we must use Rayleigh's
+
+ limiting case of high temperatures, for which the classical theory applies in the
+ limit.23
+
+ In order to obtain this factor, Bose divided the six-dimensional phase space of a light
+
+ quantum into cells of (hyper)volume Л3. He then calculated the probability of a mac-
+
+ roscopic state, taking as a microstate only the number of quanta that were contained in
+
+ each cell, disregarding any information as to which individual quanta were contained
+ in which cell. With that move, and by just applying the orthodox methods inherited
+ from Ludwig Boltzmann, he was able to derive Planck's radiation law.
+
+ We will not give any more details about Bose's bold idea and his paper because it
+ is discussed at length elsewhere.24 Nowadays, Bose's discovery is mostly presented
+ as a striking example of serendipity, since it seems that its author was not fully aware
+ of the significance of the step he was taking.25
+
+ Einstein was aware of the significance, as is evident from the swiftness with which
+
+ he translated and submitted Bose's paper, and from the footnote that he attached to
+
+ it and that we have quoted above. In fact, before receiving Bose's manuscript he had
+
+ 23 "Um den numerischen Wert der Konstante a zu ermitteln, müßte man eine exakte Theorie der elek-
+
+ trodynamischen und mechanischen Vorgänge haben; man bleibt hier voraufìg auf die Behandlung des
+ Rayleigh'schen Grenzfalles hoher Temperaturen angewiesen, für welchen die klassische Theorie in der
+
+ Grenze gilt" (Einstein 1916b, p. 53). Note that Einstein's notation in this quote is inconsistent with the one
+
+ that we use throughout. In this article, we use r to denote the distribution function for radiation and p for
+ material gases.
+
+ 24 See, e.g., Klein (1964) and Bergia (1987).
+
+ 25 See, e.g., Delbrück (1980), Pais (1982, pp. 424-428) and Bergia (1987).
+
+ â Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:38:04 UTC
+All use subject to https://about.jstor.org/terms
+
+ Einstein's quantum theory of the monatomic ideal gas 567
+
+ recently returned himself to an investigation of the theory of light quanta. On 24 April
+
+ 1924, Einstein gave a presentation in the plenary session of the Prussian Academy of
+
+ Sciences "about the present state of radiation problem."26 Only a few weeks before
+
+ receiving Bose's manuscript, he wrote to a friend:
+
+ As regards scientific work, I am pondering almost exclusively the quantum prob-
+ lem and I now believe to be really on the right track, if it is certain. The best
+ I had achieved in these matters in recent times was the work of 1917 in the
+
+ physikal. Zeitschrift . My new efforts aim at unification of quanta and Maxwell's
+
+ field. Among the experimental results of recent years, it is only the experiments
+
+ by Stern and Gerlach and the experiment by Compton (scattering of Röntgen
+
+ radiation together with a change of frequency) that are of any significance. The
+
+ first one proves the independent existence of the quantum states, the second one
+
+ proves the reality of the momentum of light quanta.27
+
+ Therefore, Bose's manuscript was timely: After the experimental successes by
+
+ Arthur Compton and Peter Debye, which seemed to confirm that light quanta have
+ momentum as well as energy;28 after the spectacular discovery of Otto Stern and
+
+ Walther Gerlach, for many physicists - Einstein among them - the most striking and
+
+ convincing demonstration of quantization;29 and shortly after Einstein's return to his
+
+ own research on light quanta. Probably for this reason it took him so little time to pre-
+
+ pare a presentation in which he applied Bose's method to an ideal gas.30 He presented
+ it at the Prussian Academy on 10 July, only a month after Bose had signed his letter.31
+
+ 26 Sitzungsberichte Preußische Akademie der Wissenschaften, Physikalisch-mathematische Klasse , 1924,
+
+ p. 179. The abstract of the Sitzungsberichte indicates the content of Einstein's talk: "Statistical proper-
+ ties of radiation. Discussion of Bothe's theory of multiple quanta and of attempts by the author to solve
+
+ the quantum problem by means of overdetermined systems of equations" ("Statistische Eigenschaften der
+ Strahlung. Betrachtung über Bothes Theorie der mehrfachen Quanten und über Bemühungen des Verfas-
+ sers, das Quantenproblem durch überbestimmte Gleichungssystem zu lösen.") The reference to Einstein's
+
+ own work presumably is to Einstein (1923). The abstract in the Sitzungsberichte is preceded with a little
+ star (see also the manuscript for the abstract, AEA 05-187, available at www.alberteinstein.info), which
+
+ indicates that the report was not intended for publication, at least not by the Academy. This implicit use of a
+
+ star for titles and abstracts of presentations to the Academy listed in its Sitzungsberichte had been common
+ since 1902. In earlier issues of the Sitzungsberichte , the meaning of the star had been made explicit at the
+
+ bottom of the page, but during the year 1902, the explicit footnote attached to the star began to be dropped.
+
+ 27 "Wissenschaftlich hänge ich fast ununterbrochen dem Quantenproblem nach und glaube wirklich auf
+
+ der richtigen Spur zu sein - wenns gewiss ist. Das Beste was mir da in späterer Zeit gelungen ist, war die
+ Arbeit von 19 17 in der physikal. Zeitschrift. Meine neuen Bestrebungen gehen auf Vereinigung von Quanten
+ und Maxwell'schen Felde. Von den experimentellen Ergebnissen der letzten Jahre sind eigentlich nur die
+
+ Experimente von Stern und Gerlach sowie das Exp. von Compton (Zerstreuung der Röntgenstrahlung mit
+ Frequenzänderung) von Bedeutung, deren erstes die Allein-Existenz der Quantenzustände, deren zweites
+ die Realität des Impulses der Lichtquanten beweist". Albert Einstein to Michele Besso, 24 May 1924. In
+ Speziali (1972, p. 202), (French paperback edition, p. 120)
+
+ 28 See, e.g., Mehra and Rechenberg (1982, pp. 512-532) for a historical discussion.
+
+ 29 See ibid., pp. 422-445 for a historical discussion.
+
+ 30 Einstein (1924).
+
+ ^ In a comparable situation, Einstein surprised his colleague David Hilbert with a swift calculation of
+ the anomalous advance of Mercury's perihelion after giving up his Entwurf -equations and reverting to
+
+ generally covariant field equations, see Hilbert to Einstein, 19 November 1915 (Schulmann et al. 1998,
+ Doc. 149): "If I could do the calculations as rapidly as you, the electron would have to surrender and the
+
+ Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:38:04 UTC
+All use subject to https://about.jstor.org/terms
+
+ In this paper we find the density of states of (kinetic) energy E for a molecule of
+
+ 568 E. Pérez, T. Sauer
+
+ mass m of an ideal gas:
+
+ 27ГTT(2m)2£:2úř£,, (3)
+
+ V 3 i
+
+ №
+
+ which is the analog of (1): It gives the number of phase cells of a single molecule
+ corresponding to energies between E and E + dE. Following Bose's derivation,
+ Einstein maximized the probability of a certain distribution of molecules in phase
+ space, which he had previously divided into cells of volume h 3. He also took into
+ account only how many molecules were in each cell, not which, and introduced the
+
+ constraint of the total number of particles, a condition that is not invoked in the case
+
+ of light quanta. He obtained the average occupation number of a state with energy £,
+ and also the equation of state of the ideal gas:
+
+ 2 £
+
+ P=-3V №
+
+ (/? is the pressure and E the mean energy of the gas). He commented on this result
+
+ with the remark: "We obtain the notable result that the relation between kinetic energy
+
+ and pressure is exactly the same as in the classical theory, where it is derived from the
+
+ virial theorem."32 We will see below that in the third installment of his theory Einstein
+ tried to take advantage of this coincidence.
+
+ In this seminal paper, Einstein also showed how classical results can be obtained
+
+ by an expansion of expressions corresponding to the new theory in power series of a
+ parameter A., defined as
+
+ Л3 N
+
+ 3 3 TT' (5)
+
+ ттЪ(2лткТ)ъ 3 3 v
+
+ and by keeping only the first term (A. <& 1). He wrote some expressions that allowed
+
+ him to see the differences between both theories to that order of approximation. For
+ instance, for the average energy of the system he found33:
+
+ £ = ^kT -0.1768A3^(2wm*rHj (6)
+
+ Footnote 3 1 continued
+
+ hydrogen atom would have to produce a letter from home excusing it from not radiating." The background
+ for Einstein's achievement was, of course, that he had done before detailed calculations of the perihelion
+ problem in the context of the Entwurf -theory, which he could readily assimilate to the case of the new field
+ equations, see Earman and Janssen (1993) for a detailed discussion.
+
+ "Es ergibt sich also das merkwürdige Resultat, dass die Beziehung zwischen der kinetischen Ener-
+ gie und dem Druck genau gleich herauskommt wie in der klassischen Theorie, wo sie aus dem Virialsatz
+ abgeleitet wird" (Einstein 1924, p. 264).
+
+ We correct the wrong numerical factor 0.0318 that appears in the paper. Einstein himself corrected this
+
+ mistake in the last paragraph of his next paper, without, however, pointing it out, see Einstein (1925a, p. 1 3).
+ Desalvo and Navarro have already noted this omission (Desalvo 1992, p. 524; Navarro 2009, pp. 200-201).
+
+ Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:38:04 UTC
+All use subject to https://about.jstor.org/terms
+
+ Einstein's quantum theory of the monatomic ideal gas 569
+
+ Einstein pointed out that contrary to what happens in the ordinary theory, the new
+
+ expression for the entropy of the gas is perfectly compatible with Nernsťs principle,
+
+ in the sense that the entropy vanishes at zero temperature. In fact, in Einstein's theory,
+
+ at zero temperature, all molecules are in the same cell, leaving only one microstate
+ possible.
+
+ At the end of the paper we find an interesting comment on a question that had been
+
+ and still was widely discussed by his predecessors in the study of the quantum ideal
+
+ gas: The Gibbs' paradox.34 In Einstein's theory the entropy of the gas is extensive and,
+
+ like the classical entropy, additive with respect to different components. If the mixture
+
+ of two different gases implies an increase of entropy, the mixture of the same gas (at
+
+ equal density), on the other hand, does not. According to Einstein, this prevents one
+ from imagining a continuous variation of the differences between gases.
+
+ In the second installment Einstein proposed a solution to this question.35 The sec-
+
+ ond paper was signed in December and read at the Academy's meeting of 8 January
+
+ 1 925. Since the presentation of the previous paper, Einstein had plenty of time ponder-
+
+ ing and discussing the subject with his colleagues. The second paper presents further
+ detailed analysis of the consequences implied by the theory expounded in the first
+ paper. Einstein emphasized this fact by numbering both equations and paragraphs in
+ consecutive order with the first one (the second paper begins with the sixth paragraph
+
+ and with the 24th equation).36 The most famous results of Einstein's theory are con-
+
+ tained in this paper. In this paper indeed, Einstein took the theory considerably further
+ than Bose had done.
+
+ First, Einstein discussed an unusual consequence: the condensation at low tem-
+
+ peratures or, in other words, the saturated gas. Einstein considered, for the first time,
+ the case of a gas in which, below a certain critical temperature (that depends on N
+ and V), the number of particles in excited states is limited. In the next section, he
+ discussed the loss of statistical independence of the molecules in a famous passage
+
+ where Ehrenfest's name appears:
+
+ Mr. Ehrenfest and other colleagues have raised the criticism that in Bose's theory
+
+ of radiation and in my analogous theory of ideal gases the quanta or molecules
+ are not treated as statistically independent entities without explicit mentioning
+
+ of this feature in our respective papers. This is entirely correct.
+
+ And the passage continues:
+
+ If the quanta are treated as statistically independent regarding their localiza-
+ tion, one obtains Wien's law of radiation; if one treats the gas molecules in an
+
+ ^ Einstein only refers to "a paradox" ("ein Paradoxon") and does not identify it as Gibbs' paradox. We
+ have no evidence for assuring that Einstein knew Gibbs' paradox. However, Ehrenfest did, see footnote 1 50
+ Moreover, Schrödinger had recently published a paper in the Zeitschrift für Physik entitled "Isotopie und
+ Gibbsches Paradoxon" (Schrödinger 1921). It is more than likely that Einstein had heard about it before
+
+ writing this paragraph.
+
+ 35 Einstein (1925a).
+
+ 36 "pgr convenience, I write the following formally as a continuation of the paper cited ( Der
+ Bequemlichkeit halber schreibe ich das Folgende formal als Fortsetzung der zitierten Abhandlung. )
+ (Einstein 1925a, p. 3).
+
+ â Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:38:04 UTC
+All use subject to https://about.jstor.org/terms
+
+ 570 E. Pérez, T. Sauer
+
+ analogous way, one arrives at the classical equation of state, even if one proceeds
+
+ in exactly the same way as Bose and I have done.37
+
+ Then, Einstein elucidated this issue analytically, but he left in the dark what kind of
+
+ dependence it is that affects the behavior of molecules in the new statistics. He pointed
+
+ out something that he had already suggested in his previous paper: In classical the-
+ ory the entropy expression forces one to choose between two different conditions to
+
+ be fulfilled, that is, Nernsťs principle or the extensivity of entropy. In the new the-
+ ory, the two conditions are satisfied at the same time. Einstein considered this fact a
+
+ strong support of the deep analogy between radiation and gas on which his theory was
+ founded:
+
+ For these reasons I believe that one has to prefer the conception (a) (i.e., Bose's
+
+ statistical approach) even if this preference over others cannot be justified apri-
+
+ ori. This result in itself lends support for the belief in the deep essential similarity
+
+ between radiation and gas in that the same statistical conception that leads to
+ Planck's formula produces the agreement between gas theory and Nernsťs the-
+ orem when applied to ideal gases.38
+
+ Also in this paper, we find the first appeal by Einstein to a certain duality in terms
+
+ of the thesis by Louis de Broglie. After analyzing the energy fluctuations of an ideal
+
+ gas, he described the ideas of the French physicist aimed at overcoming the opposi-
+ tion between waves and particles. The great impact this reference by Einstein to de
+
+ Broglie's work had on the research of Schrödinger has been noted on many occasions,
+ as Schrödinger never failed to recognize it.39 Appealing to the wave field that would
+
+ accompany each particle, Einstein proposed to solve the paradox with which he had
+
+ closed the previous paper: The interference will only take place in gases composed of
+ molecules of equal mass.
+
+ Finally, Einstein suggested two effects of his theory that were possibly accessible
+
+ to experimental verification. The first one is a decrease in viscosity. The undulatory
+
+ behavior of the molecules should lead to diffraction effects that might provoke, in gases
+ of low-mass elements such as helium or molecular hydrogen, a dramatic decrease
+
+ in the friction coefficient of the gas. But after calculating the size of the required
+
+ 37 "Von Ehrenfest und anderen Kollegen ist an Böses Theorie der Strahlung und an meiner analogen
+ der idealen Gase gerügt worden, daß in diesen Theorien die Quanten bzw. Moleküle nicht als voneinander
+
+ statistisch unabhängige Gebilde behandelt werden, ohne daß in unseren Abhandlungen auf diesen Umstand
+ besonders hingewiesen worden sei. Dies ist völlig richtig. Wenn man die Quanten als voneinander statistisch
+
+ unabhängig in ihrer Lokalisierung behandelt, gelangt man zum WlENschen Strahlungsgesetz; wenn man
+ die Gasmoleküle analog behandelt, gelangt man zur klassischen Zustandsgieichung der idealen Gase, auch
+ wenn man im übrigen genau so vorgeht, wie BÖSE und ich es getan haben" (Ibid., p. 5).
+
+ 8 "Aus diesen Gründen glaube ich, dass der Berechnungsweise a) (d.h. Böses statistischem Ansatz) der
+
+ Vorzug gegeben werden muss, wenn sich die Bevorzugung dieser Berechnungsweise anderen gegenüber
+ auch nicht a priori erweisen lässt. Dies Ergebnis bildet seinerseits eine Stütze für die Auffassung von der
+ tiefen Wesensverwandtschaft zwischen Strahlung und Gas, indem dieselbe statistische Betrachtungswe-
+ ise, welche zur Planckschen Formel führt, in ihrer Anwendung auf ideale Gase die Übereinstimmung der
+ Gastheorie mit dem Nemstschen Theorem herstellt" (Ibid., p. 7).
+
+ 39 See Klein (1964) and Schrödinger (1926a). Also, Schrödinger to Einstein, 23 April 1926. English trans-
+ lation in Przibram (1967, p. 26).
+
+ £) Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:38:04 UTC
+All use subject to https://about.jstor.org/terms
+
+ Einstein's quantum theory of the monatomic ideal gas 57 1
+
+ apertures, Einstein discards standard diffraction experiments for this effect. Second,
+
+ he proposed to use the statistics of a saturated gas to account for the problem why the
+
+ electronic contribution to the specific heat of metals is so low. However, in this case,
+
+ Einstein admits that the difficulties in applying this idea are so big that it can hardly
+
+ be considered a proof of his theory.
+
+ We regard Einstein's second paper on the quanta a milestone in the history of quan-
+
+ tum physics, not only because of the unusual amount of new results it contains but
+ also because in a certain sense it closed the circle that was initiated by Einstein him-
+
+ self 20 years earlier with his heuristic hypothesis of light quanta. He was a pioneer in
+
+ emphasizing the dual nature of radiation in 1909. In 1925, with a completely analogous
+
+ procedure, he in turn demonstrated the validity of his proposal for the ideal gas.
+
+ In short, Einstein developed the analogy between gas and radiation, knowing that
+
+ despite the evidence he could adduce to support the theory, it was unsure whether his
+
+ theory was the true theory. In his own words:
+
+ The interest in this theory derives from the fact that it is based on the hypoth-
+ esis of an extended formal similarity between radiation and gas. According to
+
+ this theory, the degenerate gas differs from the gas of mechanical statistics in
+ an analogous way as the radiation according to Planck's law differs from the
+ radiation according to Wien's law. If one takes Bose's derivation of Planck's
+ radiation formula seriously, then one cannot ignore this theory of the ideal gas
+
+ either; because if it is justified to conceive of the radiation as a gas of quanta, then
+
+ the analogy between a gas of quanta and a gas of molecules must be a complete
+ one.40
+
+ We finish this brief summary with this quote in order to emphasize the continuity
+
+ of Einstein's strategy. In the third paper, Einstein insisted on this analogy in order to
+
+ obtain new arguments for the validity of the theory, but in this case, as he wrote to
+
+ Ehrenfest, arguments that were independent from the "incrimininated statistics."41
+
+ 3 Ehrenfesťs role in the prehistory of the third paper
+
+ We will argue that Einstein's third paper is implicitly a response to Ehrenfesťs skep-
+ ticism toward Einstein's new theory. When did Ehrenfest learn about Einstein's new
+
+ theory? Einstein first communicated to his friend the discovery in a letter:
+
+ The Indian Bose gave a beautiful derivation of Planck's law including its con-
+ stant on the basis of the lose light quanta. Derivation elegant, but essence remains
+
+ obscure. I applied his theory to the ideal gas. Rigorous theory of 'degeneracy.'
+
+ ^ "Das Interesse dieser Theorie liegt darin, daß sie auf die Hypothese einer weitgehenden formalen
+ Verwandschaft zwischen Strahlung und Gas gegründet ist. Nach dieser Theorie weicht das entartete Gas
+ von dem Gas der mechanischen Statistik in analoger Weise ab wie die Strahlung gemäß dem PLANCKschen
+ Gesetze von der Strahlung gemäß dem WiENschen Gesetze. Wenn die BoSEsche Ableitung der
+ PLANCKschen Strahlungsformel ernst genommen wird, so wird man auch an dieser Theorie des idealen
+ Gases nicht vorbeigehen dürfen; denn wenn es gerechtfertig ist, die Strahlung als Quantengas aufzufassen,
+ so muß die Analogie zwischen Quantengas und Molekülgas eine vollständige sein" (Einstein 1925a, p. 3).
+
+ 41 Einstein to Ehrenfest, 8 January 1925 (AEA 10-097).
+
+ Ô Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:38:04 UTC
+All use subject to https://about.jstor.org/terms
+
+ No zero point energy and above no energy defect. The Lord knows whether it's
+ like this.42
+
+ 572 E. Pérez, T. Sauer
+
+ Einstein presented the first installment on July 10, and this letter was signed on the
+
+ 12th. At the end of month, the two friends could have discussed the matter in person,
+
+ since Ehrenfest stopped over in Berlin for some days in his voyage toward Petersburg.
+
+ However, during those days Einstein was not in Berlin.43 Ehrenfest took part in the
+ fourth congress of the Russian Society of Physics (this was his first visit after the
+
+ Revolution and after he moved to Leiden in 19 12).44 In Petersburg, Ehrenfest did not
+ present his friend's new theory, but probably he talked about it with some interested
+
+ physicists, as Joffé or Krutkow. On the 18th of September, in his presentation on the
+
+ "theory of quanta," he referred to the struggle that was taking part "in the heart of
+
+ every physicist" between corpuscular and undulatory theories.45 Joffé himself spoke
+ the same day about the "light atoms."
+
+ There is also no evidence that Ehrenfest met Einstein on his return trip to Leiden
+
+ at the end of September or beginning of October46 (after having spent a few days
+
+ in Moscow to see in situ the center of the communist state). Nevertheless, according
+ to a letter written in October 9 by Ehrenfest to Joffé,47 we must suppose that those
+ days Einstein was visiting Leiden (in fact, in the previously mentioned letter of 12
+
+ July, Einstein already announced a meeting at the "beginning of October"). This is the
+ excerpt of Ehrenfesťs letter to Joffé that we are interested in:
+
+ My dear friend!
+
+ Precisely now Einstein is with us. 1 . We coincide fully with him that Bose's dis-
+ gusting work by no means can be understood in the sense that Planck's radiation
+
+ law agrees with light atoms moving independently (if they move independently
+ one of each other, the entropy of radiation would depend on the volume not as
+
+ in Planck, but as in W. Wien, i.e., in the following way: к log VE!hv).
+
+ No, light atoms placed in the same cell of the phase space must depend one on the
+
+ other in such a way that Planck's formula is obtained. Now we will clarify this
+ question in a polemic manner. I, Krutkow and Bursian will publish in the next
+
+ 42 "Der Inder Bose hat eine schöne Ableitung des Planckschen Gesetzes samt Konstante auf Grund der lo-
+ sen Lichtquanten gegeben. Ableitung elegant, aber Wesen bleibt dunkel. Ich habe seine Theorie auf ideales
+
+ Gas angewendet. Strenge Theorie der, 'Entartung.' Keine Nullpunktsenergie und oben kein Energiedefekt.
+ Gott weiss, ob es so ist." Einstein to Ehrenfest, 12 July 1924 (AEA 10-089). French translation published
+ in Balibar et al. (1992, p. 166).
+
+ 43 Einstein was in Switzerland on 29 July (AEA 143-159), returning to Berlin around 18-20 August (AEA
+ 1 20-908) after also visiting Lautrach (AEA 1 20-907).
+
+ 44 See Frenkel (1971, p. 88).
+
+ 45 Ehrenfest (1924). The text we quote appears in Hall (2008, p. 244). We wish to thank Karl Hall for
+ sending us the text of the résumé of Ehrenfesťs talk.
+
+ 46 Again, Einstein was out of town, arriving in Vienna on 22 September (AEA 92-097) and travelled to
+
+ Leiden via Innsbruck (AEA 143-163) and Lucerne (AEA 84-567). Nevertheless, Ehrenfest may have visited
+ Einstein's wife and step-daughters on his stopover in Berlin, see, e.g., (AEA 143-168).
+
+ 47 Ehrenfest to Joffé, 9 October 1924, in Moskovchenko and Frenkel (1990, pp. 171-172).
+
+ ^ Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:38:04 UTC
+All use subject to https://about.jstor.org/terms
+
+ Einstein's quantum theory of the monatomic ideal gas 573
+
+ number of Z. Physik a few considerations against, and simultaneously Einstein
+ will give them answer in the same issue.48
+
+ Unless we are missing a letter, it is obvious from this document that Ehrenfest and
+ Joffé had already discussed about Bose's "disgusting" work. This appellative can be
+ understood as one of the first symptoms of Ehrenfesťs future reluctance (which did
+
+ not imply ignorance) toward the new mechanics; Ehrenfest did not hesitate to qualify
+
+ it, some months later, as a "sausage- machine-physics-mill."49
+
+ We have not been able to confirm whether Iurii A. Krutkow (1890-1952) and
+
+ Viktor R. Bursian (1886-1945) - as the quoted letter suggests - went to Leiden with
+
+ Ehrenfest on his return trip. We know that Krutkow enjoyed a scholarship from the
+ Rockefeller foundation which allowed him to work in Western Europe in 1925 and
+
+ 1926, which he did for some time together with Born in Göttingen.50 In any case, as
+ far as we know, the "considerations," which Ehrenfest referred to in this letter were
+
+ never published.
+
+ It is very likely that Einstein referred to these debates in Leiden in the comment
+
+ in his 1925 paper in which he referred to Ehrenfesťs objections. This does not mean
+ that the "others" Einstein mentioned were the Russian friends of Ehrenfest. At least,
+
+ the Austrian physicist Otto Halpern had pointed out to Einstein the lack of statisti-
+ cal independence of the molecules in the new approach. He sent Einstein a detailed
+
+ explanation of how the statistical independence of the elements under consideration
+ had statistical implications. As he himself says, he based his reflections on Ehrenfesťs
+ and Krutkow's previous works. In his response, Einstein - who admits Halpern had
+ "illuminated very clearly a point of essential significance" - ^distinguishes between
+
+ (1) All distributions of the individual quanta over the "cells" are equally probable
+
+ (2) All different quantum-distribution-pictures over the "cells" are equally probable
+
+ two hypotheses:
+
+ (Wien's law).
+
+ (Planck's law).
+
+ And he continued:
+
+ Hypothesis 2 doesn't square with the hypothesis of the independent distribution
+ of individual quanta - but expresses, in the language of the theory of existing
+
+ quanta - a mutual dependence of the latter among each other.
+
+ Without experience one cannot decide between (1) and (2). The concept of
+ independent atom-like quanta calls for (1), but experience demands (2). Bose's
+ derivation therefore cannot be regarded as a genuine theoretical justification
+
+ of Planck's law, but only as a reduction of that law to a simple, but arbitrary
+
+ statistical elementary hypothesis.
+
+ 48 His emphasis.
+
+ ^ "Wurstmaschine-Physik-Betrieb," Ehrenfest to Einstein, 26 August 1926 (AEA 10-142). English trans-
+ lation in Mehra and Rechenberg (1984, p. 278).
+
+ 50 See Frenkel and Josephson (1990).
+
+ 51 "Sie haben (...) einen Punkt von wesentlicher Bedeutung klar beleuchtet". Einstein to Halpern, Sep-
+ tember 1924 (AEA 12-128). Published in French translation in Baiibaret al. (1992, pp. 179-180).
+
+ ^ Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:38:04 UTC
+All use subject to https://about.jstor.org/terms
+
+ 574 E. Pérez, T. Sauer
+
+ Referring to his own extension of Bose's results to material gases, Einstein wrote:
+
+ This therefore also entails the implicit presupposition of certain statistical depen-
+
+ dencies between the states of the molecules, a presupposition which the gas the-
+
+ ory as such does not suggest. It would therefore be all the more interesting to
+ know whether real gases behave according to this theory.52
+
+ Einstein's next visit to Leiden took place only in February of the following year,
+
+ when he participated in the celebration of the fiftieth anniversary of Lorentz's doc-
+
+ torate.53 On that occasion he spent only a few days in Leiden54 and the prevailing
+ agitation probably made it difficult for the friends to discuss the matter calmly.55
+
+ But a possible earlier meeting could have taken place in Berlin, where Ehrenfest
+
+ spent some time in the beginning of November. This is suggested by a letter written
+
+ by Ehrenfest, in which, however, he does not say anything related to the question of
+
+ the gas. But Einstein did comment on the subject in his next letter, dated on November
+
+ 29, in which he mentioned the condensation phenomenon:
+
+ I am investigating the degeneracy function more thoroughly with Grommer. With
+ a certain temperature the molecules "condense" without attractive forces, i.e.,
+
+ they pile up at the velocity zero. The theory is beautiful but does it also have
+
+ some truth? I want to try whether one can also relate this to the dependence of
+ the thermo forces at low temperature.56
+
+ Everything seems to indicate that these days they hardly discussed. Einstein com-
+
+ plained about that in another letter:
+
+ 52 "(1) Alle Verteilungen der individuellen Quanten ueber die 'Zellen' sind gleich wahrscheinlich
+ (Wien'sches Gesetz).
+
+ (2) Alle verschiedenen Quanten-Verteilungs-Bilder ueber die Zellen sind gleich wahrscheinlich
+ (Planck'sches Gesetz).
+
+ Hypothese 2 passt nicht zur Hypothese der unabhaengigen Verteilung individueller Quanten, sondern
+
+ drueckt - in der Sprache der Theorie existierender Quanten - eine gegenseitige Abhaengigkeit der letzteren
+ von einander aus.
+
+ Unabhaengig von der Erfahrung kann zwischen (1) und (2) nicht entschieden werden. Die Vorstellung
+ unabhaengiger atomartiger Quanten verlangt (1), die Erfahrung jedoch velangt (2). Böses Ableitung kann
+ also nicht als eine eigentliche theoretische Begruendung von Planck's Gesetz angesehen werden, sondern
+
+ nur als dessen Zurueckfuehrung auf eine zwar einfache, aber willkuerlich statistische ElementarHypothese.
+ (...) Es bedeutet dies also ebenfalls die implicite Voraussetzung gewisser statistischer Abhaengigkeiten
+ zwischen den Zustaenden der Molekuele, fuer welche die Gastheorie als solche keine Anhaltspunkte lief-
+ ert. Es waere also umso interessanter zu wissen, ob sich die wirklichen Gase gemaess dieser Theorie
+ verhalten" (Ibid.).
+
+ ^ Since that year the Royal Netherlands Academy of Arts and Sciences awards the Lorentz Medal.
+
+ See Einstein to Ehrenfest, 8 January 1925 (AEA 10-098): "Da ich aber im März nach Argentinien muss
+
+ und hier in Berlin Vorlesung in diesem Semester halte, muss ich gleich wieder zurück von Leiden".
+
+ 55 It was presumably during this short trip that Einstein gave Ehrenfest the manuscript of the second paper
+ that was found in Ehrenfest's personal library, see HPE, Document EB22.
+
+ 56 "Ich untersuche mit Grommer die Entartungsfunktion der Gase genauer. Von einer gewissen Temperatur
+ an "kondensieren" die Moleküle ohne Anziehungskräfte, d.h. sie häufen sich bei der Geschwindigkeit null.
+ Die Theorie ist hübsch, aber ob auch was Wahres dran ist? Ich will versuchen ob man den Verlauf der
+
+ Thermokräfte bei tiefen Temperaturen damit in Zusammenhang bringen kann". Einstein to Ehrenfest, 29
+ November 1924 (AEA 10-093).
+
+ Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:38:04 UTC
+All use subject to https://about.jstor.org/terms
+
+ Einstein's quantum theory of the monatomic ideal gas 575
+
+ The thing with the quantum gas turns out to be very interesting. It seems to
+
+ me more and more that something deep and true is hiding there. I am looking
+
+ forward to - arguing about this with you.57
+
+ We guess they talked only after Einstein had presented the second paper of
+ his theory in Berlin. Writing to confirm his participation at Lorentz's jubilee (and of
+
+ his inability to stay longer than a few days), dated January 8 (precisely the day of his
+
+ second presentation in the Academy), Einstein communicated to his friend that he had
+
+ found a new way to justify the theory:
+
+ I will then completely convince you about the gas-degeneracy-equation, I found
+
+ another sound if only not totally complete approach to it, free of the incrimi-
+
+ nated statistics. But how to set up a mechanics that leads to something like this?
+
+ Presently I am plagueing myself roughly following Tetrode's, the invisible, pre-
+
+ scription (Zeitschr. f. Physik 1922). There is something genial about this man.58
+
+ Note the third installment was read by Einstein on 29 January. According to this
+ letter, we conclude that when he read the second one he had already thought about
+
+ how to justify his theory with non-statistical arguments based on the displacement law.
+
+ Note that up to this point neither Ehrenfest nor Einstein considered Bose's derivation
+ a "theoretical foundation" of Planck's law.
+
+ 4 The third, non-statistical paper
+
+ On 29 January 1925, Einstein presented the third and last paper of his quantum theory
+
+ of the monatomic ideal gas to the Prussian Academy for publication in its Proceedings.
+
+ This time, the sections and equations were not labeled consecutively with those of the
+
+ preceding paper. Below we will return to this question in more detail, but these exter-
+
+ nal aspects already suggest that the third contribution represents a path disconnected
+
+ from the previous treatments. Or, at least, it seems Einstein wanted to present it this
+ way. In this section, we will paraphrase Einstein's arguments, closely following his
+
+ original paper.
+
+ 4.1 Introduction and approach
+
+ Einstein stated in the beginning that his theory was justified on the assumption that a
+
+ light quantum differs, apart from polarization, from a material gas molecule only in
+
+ 57 "Die Sache mit dem Quantengas macht sich sehr interessant. Es kommt mir immer mehr vor, dass da viel
+ Wahres und Tiefes dahinter steckt. Ich freue mich, bis wir darüber- streiten können." Einstein to Ehrenfest,
+
+ 2 December 1924 (AEA 10-095).
+
+ "Ich werde Dich dann völlig überzeugen von der Gas-Entartungs-Gleichung, ich habe noch einen sicher-
+
+ en, aber allerdings nicht ganz vollständigen Zugang zu ihr gefunden, frei von der inkriminierten Statistik.
+ Aber wie die Mechanik aufstellen, die zu so was führt? Gegenwärtig plage ich mich ungefähr nach dem
+
+ Rezept Tetrodes (Zeitschr. f. Physik 1922), des Unsichtbaren. Es ist etwas Geniales an diesem Mann".
+ Einstein to Ehrenfest, 8 January 1925 (AEA 10-097). Einstein is referring to Tetrode's proposal of extend-
+
+ ing classical mechanics, which was published in 1922, see Tetrode (1922).
+
+ £) Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:38:04 UTC
+All use subject to https://about.jstor.org/terms
+
+ 576 E. Pérez, T. Sauer
+
+ the vanishing of its rest mass. This assumption was not taken for granted by many of
+
+ his colleagues, nor had many researchers already accepted the statistical method used
+
+ by Bose and by him. Einstein admitted that this method was "not at all free of doubt"
+
+ ("keineswegs zweifelsfrei") and that it was only justified a posteriori by its success in
+
+ the case of electromagnetic radiation. Consequently, in the third paper, he was looking
+
+ for new arguments in support of the new theory.
+
+ Nevertheless, this approach would follow his general heuristics of exploiting the
+
+ gas-radiation analogy:
+
+ Here we plan to engage in considerations, in the field of gas theory, that are
+ largely analogous, in method and outcome, to those that lead, in the field of
+
+ radiation theory, to Wien's displacement law.59
+
+ The results of these considerations will be restrictions on the form of the distribution
+
+ function
+
+ p = p(L,/cT, V,m) (7)
+
+ (L is the kinetic energy, к the Boltzmann constant, T the temperature, V the volume
+ and m the mass of the molecules).
+
+ Einstein began by defining the subject of his investigation: consider a mole of an
+ ideal gas contained in a volume V at a temperature T whose molecules have mass m.
+ The distribution law will be of the form
+
+ Here dn designates - for fixed temperature, volume and mass - the number of mole-
+
+ cules, whose Cartesian components of the momenta are in the range (p' . . . p' + dp' ,
+
+ P2 - P2 + d/?2> Ръ - Ръ -H d/73). Due to the isotropy of the problem, these compo-
+ nents will appear in the argument of the distribution function p only in the combination
+
+ (8)
+
+ L = 2m + p2 + ft2). (9)
+
+ i.e., p will depend only on the kinetic energy L. Within this approach, knowledge of
+ p means knowledge of the equation of state, because
+
+ . . .there can be no doubt that the pressure is obtained by mechanical calculation
+ based on the collisions of the molecules with the wall.60
+
+ On the contrary, Einstein did not assume that collisions between molecules be gov-
+ erned by the laws of mechanics. He asserted that if that would be the case, one would
+
+ "Es handelt sich hier darum, auf dem Gebiete der Gastheorie Betrachtungen anzustellen, welche in
+
+ Methode und Ergebnis weitgehend analog sind denjenigen, welche auf dem Gebiet der Strahlungstheorie
+ zum WiENschen Verschiebungsgesetzführen" (Einstein 1925b, p. 18).
+
+ *** ". . .nicht daran zu zweifeln ist, daß für den Druck die mechanische Berechnung aus den Zusammenstößen
+ der Moleküle mit der Wand maßgebend ist" (Ibid., p. 19).
+
+ Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:38:04 UTC
+All use subject to https://about.jstor.org/terms
+
+ Einstein's quantum theory of the monatomic ideal gas 577
+
+ arrive at Maxwell's distribution law and the classical equation of state. In fact, as we
+
+ will see, he neglected interactions among molecules, as is appropriate for an ideal gas.
+
+ 4.2 Incompatibility with quantum theory
+
+ Before beginning the analysis, Einstein commented again on Nernsťs principle. How-
+
+ ever, he did not consider the delicate question of the factor N' (required for S to be an
+
+ extensive quantity in classical theory), but this time he focused on the dependence of
+
+ the entropy on volume which is contained in the additive term
+
+ к log V . (10)
+
+ S = K'ogW , (11)
+
+ According to the Planckian formulation of Boltzmann's principle,
+
+ and ever since Planck's first works on quantum theory, W had always been taken to be a
+
+ positive integer denoting the number of ways a certain macroscopic (thermodynamic)
+ state can be built up microscopically. Therefore - Einstein added - , it made no sense
+ if W contained additive constants. In his opinion, if one takes into account Nernsťs
+
+ principle, the Planckian formulation (11) becomes almost a necessity: At absolute zero
+
+ temperature thermal agitation ceases, and then there is only one possible microscopic
+
+ configuration. That is, at absolute zero, one has:
+
+ W='=ïS = 0, (12)
+
+ which precisely implies that Nernsťs principle is satisfied. Although he did not state
+ it explicitly, it seems Einstein was refining his previous arguments on this subject.
+ Remember that the extensivity of S in the classical theory required the addition of a
+
+ constant. In the new theory this is not the case.
+
+ What Einstein really wanted to emphasize is that this interpretation implies that the
+
+ entropy cannot be negative. If we consider the Sackur-Tetrode equation of state of an
+
+ ideal gas,61
+
+ f (2 жткТу V 5
+
+ * = f (2 жткТу _ V + _J. 5 „3,
+
+ we see that, if the volume is small enough, the entropy would be negative. Does this
+
+ mean that real gases, contrary to what is implied by Nernsťs theorem, can have neg-
+
+ ative entropies? No. It simply means that the classical theory of ideal gases can only
+ be taken as valid under certain conditions. This is in analogy, so Einstein, to the case
+ of Wien's radiation law.
+
+ This expression does not appear in Einstein's paper, see Pathria (2007, p. 24).
+
+ £) Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:38:04 UTC
+All use subject to https://about.jstor.org/terms
+
+ 578 E. Pérez, T. Sauer
+
+ 4.3 Dimensional analysis
+
+ According to its definition, (8), the distribution function p is dimensionless. Starting
+
+ from that, Einstein derived some of its properties assuming that Planck's constant, A, is
+
+ the only dimensional constant contained in p (he did not take into account Boltzmann's
+
+ constant because he assumed that it would always appear in conjunction with temper-
+ ature; in other words, he avoided selecting a specific temperature scale). Therefore,
+
+ one can deduce, "in a well known way," as Einstein remarked,62 that p must be of the
+ form:
+
+ / L т(¥тУкт'
+
+ ' = * (ïr- L -ne- т(¥тУкт' J • <14>
+
+ Ф is a universal, but unknown function, which depends on two dimensionless vari-
+
+ ables; it must satisfy the relation:
+
+ V f
+
+ ^Jpd<t> f = N, (15)
+
+ where
+
+ L+dL
+
+ L
+
+ dO = J dp'dp2dpi = 2ж(2т)ъ L?dL (16)
+
+ (this is the same expression as (3) in Einstein's first paper, but without a contribution
+
+ from position coordinates and without division by A3). Nothing else can be said about
+
+ p on the basis of dimensional analysis alone. But the number of arguments for p can
+
+ be reduced from two to one variable, without introducing additional "questionable"
+ assumptions. Einstein proposed two of those:
+
+ 1 . The entropy of an ideal gas does not change in an "infinitely slow adiabatic" (sic)
+
+ 2. The required velocity distribution is valid for an ideal gas also in an external field
+
+ compression.63
+
+ of conservative forces.
+
+ Einstein argued that these two properties should be valid disregarding collisions.
+ But the neglect of intermolecular collisions made their assumption unprovable, even
+
+ if they would be "very natural." In support of both, he announced they would lead not
+ only to the same result, but also to a result according to which Maxwell's distribution
+
+ law is valid in the region where quantum effects can be neglected.
+
+ 62 "in bekannter Weise," ibid., p. 20.
+
+ "bei unendlich langsamer adiabatischer Kompression" (Ibid., p. 20).
+
+ Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:38:04 UTC
+All use subject to https://about.jstor.org/terms
+
+ Einstein's quantum theory of the monatomic ideal gas 579
+
+ 4.4 Adiabatic compression
+
+ Einstein considered a gas with isotropic velocity distribution confined in a parallel-
+
+ epipedal container with sides of length /1 , /2, and /3. Since collisions of the molecules
+
+ against the walls are elastic, they do not change the velocity distribution, which is
+
+ stationary. The distribution has the form:
+
+ d n = Ф, (17)
+
+ hò
+
+ where p is an arbitrary function of the kinetic energy L. Although he did not state it
+
+ explicitly, Einstein did not take up the result here that he had derived using dimen-
+
+ sional analysis - (14) - in the previous section. He simply started out from an isotropic
+ distribution law. For an (infinitesimal) adiabatic compression that satisfies
+
+ Ali^Ah = Al1='_AV^
+ /1 /2 /3 3 V '
+
+ (the symbol A indicates that the process is adiabatic), the distribution will stay of the
+ form (17), but what will it be? The kinetic energy variation will be64:
+
+ 1 2 AV
+
+ AL = - (1/7, 'A'px I + ... + ...) = -rL - . (19)
+
+ m 3 V
+
+ Since an adiabatic transformation does not change the number of molecules, it can
+
+ As to the entropy, Einstein surmised that it would be of the form:
+
+ ^ Einstein wrote S instead of Л for the variation of p¡ in this equation. We think this is a typographical
+ mistake. See Einstein (1925b, p. 21).
+
+ it follows that:
+
+ ¿(Vdd>) = 0. (21)
+
+ be easily seen that:
+
+ Ap = 0. (22)
+
+ a e у
+ - = Sip, L)d<t>, (23)
+ к hô
+
+ â Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:38:04 UTC
+All use subject to https://about.jstor.org/terms
+
+ Since, according to (12), we have
+
+ Ad<t> = 2n(2m)i ^ ÙAdL + ^L'^ALdL^ , (20)
+
+ where s is an unknown function. In adiabatic processes one has:
+
+ In a next step, Einstein imposed the condition that in thermodynamic equilibrium
+
+ the entropy is a maximum with respect to variations of p , keeping fixed the number
+
+ of particles and the total energy. The calculation gives:
+
+ 580 E. Pérez, T. Sauer
+
+ and, therefore, according to (21):
+
+ AdS = 0, (24)
+
+ 0 = As = -Ap + -AL. (25)
+
+ ds д s
+
+ dp д L
+
+ Finally, using (22), it follows that s is only a function of p alone,
+
+ s = s(p). (26)
+
+ - = AL -h В, (27)
+ dp
+
+ where A and В do not depend on L. Since s only depends on p, its derivative will do
+ so, too, and Einstein could write:
+
+ p = ty(AL + B). (28)
+
+ VkT f
+
+ TDS = -p- / (Dj)dO. (30)
+
+ Applying the chain rule and taking into account the invariance of the total number
+
+ of molecules Einstein obtained:
+
+ J L(Dp)(i -KTA)d<t> = 0, (31)
+
+ that is:
+
+ Springer
+
+ A - TŤ <32>
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:38:04 UTC
+All use subject to https://about.jstor.org/terms
+
+ In order to determine A, Einstein now considered the process of an infinitesi-
+ mal isopycnic warming, i.e. a warming that does not alter the density of molecules
+
+ (a transformation of constant volume in this case). Let £ be the energy of the gas and
+ let D symbolize this process, then
+
+ D£ = p J L(Dp)d Ф (29)
+
+ will be equal - according to the thermodynamic relation between entropy and
+ energy - to:
+
+ Einstein's quantum theory of the monatomic ideal gas 581
+
+ Returning to expression (28), the functional dependence of the energy density with
+
+ kinetic energy is:
+
+ >=*(£+e)- <33>
+
+ 4.5 Ideal gas in a field of conservative forces
+
+ The other path taken by Einstein with the aim of reducing the number of arguments
+ for the distribution function appeals to its stationarity. Consider a gas in dynamic
+
+ equilibrium in an external field of conservative forces whose single-particle potential
+
+ energy П depends on the position of molecules. In addition to neglecting the collisions
+ between them, Einstein assumed that "the motion of the individual molecules under
+ the influence of the external field follows classical mechanics." The condition, which
+
+ p must satisfy to be stationary, is:
+
+ „/э<рА) ЭС£Й)'
+ ■f-V 3 p, )
+
+ (. Xi are the position variables). If we make use of the equations of motion the stationarity
+ condition reads:
+
+ y-Xi uX¡ + y-Pi dpi = 0. (35)
+
+ uX¡ dpi
+
+ It follows that p is constant along phase trajectories. Since, as a consequence of the
+
+ problem's isotropy, the momenta p¡ will only appear in the argument in the combina-
+
+ tion of the kinetic energy L, p must be of the form:
+
+ p = vi /*(L 4- П), (36)
+
+ with Ф*, again, a universal, but unknown function.
+
+ Hence, the volume dependence on the distribution function will only come about
+
+ through П.
+
+ 4.6 Conclusions
+
+ The results of the previous sections, (33) and (36), are:
+
+ p = Ф (h, m, + ß j (37)
+
+ p = L + П) (38)
+
+ â Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:38:04 UTC
+All use subject to https://about.jstor.org/terms
+
+ В and П are universal functions that depend on 1гутукТ and V . Ф and Ф* are universal
+ and dimensionless functions. Taking into account also (14), Einstein derived:
+
+ 582 E. Pérez, T. Sauer
+
+ ,=ф+х(^)).
+
+ Here Ф and x are universal functions of dimensionless variables. Both are related
+
+ by equations (15) - the number of particles - and (16) - the density of states - , and
+
+ the problem was therefore reduced to finding the function Ф.
+
+ In the last paragraph, Einstein looked at the case in which the constant h disappears
+
+ from d n, i.e. at the classical limit. He defined:
+
+ Nh 3 L
+
+ и =
+
+ (mxTpV kT
+
+ From (8) and (40) we see that h will disappear if and only if j¡i/r does not depend
+ on u. In this case, let '¡r(y) be the resulting function. With a suitable choice of the
+
+ function x (denoted in this particular case by ф) it can be achieved that:
+
+ '¡r(v + ф{и)) = uy¡r(v). (41)
+
+ Differentiating first with respect to и and then with respect to v, it can be seen that
+
+ log ^ must be a linear function. It is then easy to see that must be the exponential
+ distribution law, i.e., Maxwell-Boltzmann's law65:
+
+ J(V) = (42)
+
+ *<»> = ^rz 7- (43)
+
+ Summarizing, Einstein pointed out that two aims have been achieved:
+
+ First, we found a general condition (Eq. 39), which has to be satisfied by any
+ theory of the ideal gas. Second, it follows from the above that the equation of
+
+ state which I derived will not be changed by either adiabatic compression or by
+ the existence of conservative force fields.66
+
+ 65 Although in the paper this is not the case, we think that this expression must have a bar on the top, as
+ we write. Equation 43 involves another mistake. We will discuss this question below.
+
+ 66 "Erstens ist eine allgemeine Bedingung (Gleichung ( 1 8» gefunden worden, der jede Theorie des idealen
+
+ Gases genügen muß. Zweitens geht aus dem Obigen hervor, daß die von mir abgeleitete Zustandsgieichung
+ durch adiabatische Kompression sowie durch konservative Kraftfleder nicht gestört wird" (Einstein 1925b,
+ p. 25).
+
+ Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:38:04 UTC
+All use subject to https://about.jstor.org/terms
+
+ In contrast, Einstein's statistical theory had produced the expression:
+
+ Einstein's quantum theory of the monatomic ideal gas 583
+
+ 5 A displacement law for gases
+
+ The novelty of Bose's approach was its statistical (microscopic) reasoning. At a ther-
+ modynamic (macroscopic) level, Bose did not obtain any new results, since it was
+ precisely Planck's radiation law that was being derived. On the contrary, for ideal
+
+ gases there existed no such distribution law that had to be derived, only a distribution
+ law that was valid in the classical limit. Schematically, the situation was as follows:
+
+ Combinatorics Thermodynamics-Statistical
+
+ Distribution (-* indicates
+ the classical limit)
+
+ Radiation Bose Planck's radiation law -►
+
+ Rayleigh-Jeans' (Wien's
+ displacement law is always
+
+ valid)
+ Gas Bose-Einstein Einstein's distribution law
+
+ - ► Maxwell-Boltzmann's
+
+ distribution law
+
+ Einstein's theory thus implied developments at both levels. Indeed, the situation
+ was similar to what had taken place some 25 years ago in the study of electromag-
+ netic radiation. At the end of the nineteenth century, neither the radiation law nor the
+
+ mechanism that is responsible for producing the thermodynamic equilibrium were
+
+ known or, more precisely, they were known but had led to both empirically and the-
+ oretically wrong results. However, at the macroscopic level there was a guide post:
+
+ Wien's displacement law. It restricts the arguments of the radiation law:
+
+ r(v, 7")dv = (£) àv. (44)
+
+ Therefore, once the spectrum is known at a certain temperature, it may be extrap-
+ olated to other temperatures. The derivations of Wien's law - there were several67
+
+ - always made use, at some point, of the second law of thermodynamics and, specifi-
+
+ cally, of the connection between states of equilibrium that were related by an adiabatic
+
+ compression of the radiating cavity, i.e., by an infinitely slow compression in which
+ the work transforms completely into internal energy. Max Planck - who also gave a
+ demonstration in his Lectures on Heat Radiation 68 - justified the form of the quantum
+
+ hv appealing to that law.69
+
+ It is therefore not surprising that Einstein looked for analogous guide posts for
+ derivations of the new distribution law. Nor it is surprising that he used an adiabatic
+
+ transformation. He himself had suggested in his famous paper of 1905 on energy
+
+ See, for instance, (Wien 1894) and (Lorentz 1901).
+
+ 68 Planck (1988, pp. 314-332).
+
+ 69 See Planck (1900). In Planck (1958, vol. 1, p. 703).
+
+ Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:38:04 UTC
+All use subject to https://about.jstor.org/terms
+
+ quanta that one could use an adiabatic compression to reduce the argument of the
+ spectral entropy density (p(r, v)y which was defined as follows:
+
+ 584 E. Pérez, T. Sauer
+
+ 00
+
+ о
+
+ S=v J <p(r, v)dv (45)
+
+ ( S is the entropy of radiation, r the density of radiant energy):
+
+ One can reduce (p to a function of a single variable by formulating the asser-
+
+ tion that adiabatic compression of radiation between reflecting walls does not
+
+ change its entropy. However, we shall not enter into this, but will immediately
+ investigate how the function (p can be obtained from the black-body radiation
+ law.70
+
+ In 1905 Einstein did not elaborate on the argument because he was interested in other
+
+ properties of <p. Probably, he did not dwell on this result because it was well known
+
+ by his colleagues. One can show that:
+
+ SnV л / r '
+
+ <p{p,v) = -3- (46)
+
+ which is another way of enunciating Wien's displacement law. In 1925 Einstein may
+ have recalled his own procedure of 20 years earlier.
+
+ In our opinion, it was Paul Ehrenfest who gave the most detailed analysis of the
+
+ radiation law and its derivations. Although his analysis was published over various
+
+ articles, here we want to refer specifically to a paper of 1 9 1 1 , which we have discussed
+
+ in more detail in other places.71 It will be useful to bring it up again here in order to
+ comment on Einstein's non-statistical paper.
+
+ In his paper, Ehrenfest set out by listing the conditions that the radiation law nec-
+
+ essarily needs to satisfy. Since these conditions comprise the quantum aspects of the
+ radiation law, analogous conditions should hold for the new distribution law p that
+ Einstein was trying to justify. Ehrenfesťs first three conditions were:
+
+ 1. The entropy does not change in an adiabatic compression.
+ 2. The radiation law satisfies the displacement law.
+ 3. The classical limit is obtained in the region where v/T is small.
+
+ Three more conditions were related to the violet region (large v/T ) and required
+
+ the avoidance of the so-called ultraviolet catastrophe (a divergence in the total energy),
+ and, on the other hand, expressed analytically the behavior of Wien's and Planck's
+ radiation laws.
+
+ 70 "Es kann <p auf eine Funktion von nur einer Variabein reduziert werden durch Formulierung der Aussage,
+ dass durch adiabatische Kompression einer Strahlung zwischen spiegelnden Wanden, deren Entropie nicht
+ geändert wird. Wir wollen jedoch hierauf nicht eintreten, sondern gleich untersuchen, wie die Funktion <p
+ aus dem Strahlungsgesetz des schwarzen Körpers ermittelt werden kann" (Ibid.).
+
+ 71 Ehrenfest (191 1). See Navarro and Pérez (2004, 2006).
+
+ Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:38:04 UTC
+All use subject to https://about.jstor.org/terms
+
+ Einstein's quantum theory of the monatomic ideal gas 585
+
+ What did Einstein have at his disposal in 1925 to ensure the validity of his material
+
+ gas distribution law? Initially, it was only the third condition, i.e., the fact that his
+
+ law produced the Maxwell-Boltzmann's distribution law in the classical limit. But at
+ low temperatures (or high densities) he did not have anything comparable to Wien's or
+
+ Planck's radiation laws. In this region, only Nernsťs theorem supported the expression
+
+ for the entropy obtained by Einstein.
+
+ Hence, conditions 1 and 2 were not available. As we have said before, in a certain
+
+ sense, they are both related, and it should be noted here that Ehrenfest listed them sep-
+
+ arately because his analysis aimed at drawing conclusions at the microscopic level,
+ where the (mechanical) adiabatic invariants play a crucial role. Einstein in 1925, in
+ contrast, was not interested in mechanical invariants because his research remained at
+
+ the thermodynamic level. According to this scheme, the problem of electromagnetic
+ radiation served Einstein as a guide to explore the case of the degenerate ideal gas.72
+
+ He justified the additivity of the entropy (23) with respect to those portions of gas with
+
+ different kinetic energy d L, as follows:
+
+ This hypothesis is analogous to the one used in radiation theory, according to
+
+ which the entropy of the radiation is composed additively from quasi-monochro-
+
+ matic parts. It is equivalent to the assumption that one may introduce semi-per-
+ meable walls for molecules of different ranges of velocity.73
+
+ This is consistent with his justification of writing the total entropy as an integral
+
+ over the spectral entropy density (Eq. 45 above) in 1905 (the analog to Eq. 23):
+
+ ...radiations of different frequencies are to be viewed as separable from each
+
+ other without expenditure of work and without supply of heat . . ,74
+
+ It is curious to see how in Ehrenfesťs 1911 paper the direction of the justification
+
+ was just the opposite than in Einstein's 1925 paper. His approach was inspired by gas
+
+ theory:
+
+ We determine, for given total energy, the "most probable" distribution of oscil-
+
+ lations over all possible ranges of excitations according to the same procedure
+ that Boltzmann had used to determine, for given total energy the "most proba-
+ ble" distribution of molecules for a mixture of gases consisting of many kinds
+
+ of molecules over all possible ranges of velocity. The eigen frequencies of one
+
+ 72 The degenerate gas had been defined in opposition to a perfect gas. As far as we know, it was Nernst
+ who first introduced this terminology, referring to gases at low temperatures, in which their translational
+
+ contribution to specific heat tended to disappear, see Desalvo (1992, p. 493).
+
+ 73 "Diese Hypothese ist in der Strahlungstheorie jener analog, daß die Entropie einer Strahlung sich aus
+ der der quasi-monochromatischen Bestandteile additiv zusammensetze. Sie ist äquivalent der Annahme,
+ daß man für Moleküle verschiedener Geschwindigkeitsbereiche semi-permeable Wände einführen dürfe"
+
+ (Einstein 1925b, p. 21).
+
+ 7^ "...Strahlungen von verschiedenen Frequenzen [sind] als ohne Arbeitsleistung und ohne Wärmezufuhr
+ voneinander trennbar anzusehen ..." (Einstein 1905, p. 137).
+
+ Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:38:04 UTC
+All use subject to https://about.jstor.org/terms
+
+ 586 E. Pérez, T. Sauer
+
+ and the same frequency range dv here play the same role as the molecules of
+ one and the same substance.75
+
+ In 10 years the reference system and the unknown system switched their roles.
+
+ Such was the confusion into which quantum discoveries had brought physics at the
+
+ beginning of the century.
+
+ Note that albeit both analogies are not the same they are equivalent. Einstein justi-
+
+ fies expressions (45) and (23) as follows. The fact that one can write the total entropy
+
+ as a summation of all monochromatic or mono-kineticoenergetic entropies means that
+
+ total entropy is additive with respect to frequency (resp. kinetic energy). Ehrenfest,
+ on the other hand, compares different frequencies with different substances, as the
+
+ entropy of a mixture is also additive with respect to its components. In both cases
+
+ entropy of radiation is the summation of monochromatic entropies.
+
+ The analogies invoked by Einstein do not end here. Although, as we have said, he
+
+ used the idea of an adiabatic compression to derive something like a displacement law
+
+ for ideal gases, the whole approach nevertheless rested on dimensional analysis. This
+ approach was modeled on that in a 1909 paper on radiation, in which Einstein himself
+ had given a derivation of the displacement law.
+
+ Einstein had argued that the distribution function can depend only on two dimension-
+ less quantities (cf. Eq. 14):
+
+ 5.1 Dimensional analysis
+
+ L kT
+ _ and ,47)
+
+ He did not present the arguments for his claim in any detail, but it is not very dif-
+ ficult to guess what they were. We must remember that Buckingham's theorem (the
+ consequences of which, as we will argue, were certainly known to Einstein, if not
+
+ by this name) states that the difference between the number of quantities that are
+ assumed to play a role in the physical system under consideration, on the one hand,
+
+ and the number of fundamental variables involved, on the other hand, gives the num-
+ ber of independent dimensionless monomials which can be constructed.76 In our case
+
+ the fundamental variables are mass (Af), time (7) and length (L), and the quantities
+ supposed by Einstein to be arguments of the distribution function p are
+
+ L : kinetic energy [L] = ML2T~2
+
+ 75 "Es wird bei gegebener Totalenergie die „wahrscheinlichste" Verteilung der Eigenschwingungen über
+ alle möglichen Erregungsbereiche nach demselben Verfahren bestimmt, nach welchem BOLTZMANN die -
+
+ bei gegebener Totalenergie--,, wahrscheinlichste"Verteilung der Moleküle eines aus vielen Molekülsorten
+
+ bestehenden Gasgemisches über alle möglichen Geschwindigkeitsbereiche bestimmte. Die Eigenschwing-
+ ungen eines und desselben Frequenzbereiches dv spielen dabei die Rolle der Moleküle einer und derselben
+ Substanz" (Ehrenfest 191 1, pp. 94-95).
+
+ 76 Buckingham (1914). For historical accounts of dimensional analysis, see, e.g., Bridgman (1922),
+ Carneiro (2000) and Magagno (1971).
+
+ Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:38:04 UTC
+All use subject to https://about.jstor.org/terms
+
+ Einstein's quantum theory of the monatomic ideal gas 587
+
+ kT : temperature (multiplied by Boltzmann's constant), [кТ] = ML2T~ 2
+
+ V: volume, [V] = L3
+ m: mass of the molecules, [m] = M
+
+ The choice of quantities that play a role in the problem is the crucial point in
+ any dimensional analysis, since the result critically depends on it. Einstein chose the
+
+ quantities that appear in the distribution law for the classical ideal gas. That is
+
+ 1 ( hl V .--V Vàpidp2dp3
+
+ dBcta - V'2^ã) ( e .--V v (48)
+
+ <*»
+
+ Taking into account also Planck's constant [ h ] = ML2T~X - the distinguishing mark
+
+ of any quantum phenomenon-77 in the distribution function of the classical gas, albeit
+
+ not in dn, it follows from Buckingham's П theorem that only two independent dimen-
+ sionless monomials can be constructed. One possible pair is the one that Einstein
+
+ proposed, see Eq. 47. But this choice is not unique. One could also have:
+
+ or:
+
+ 1 л mVÌL
+ - an" л - (50)
+
+ L J m2ViK T L
+ 7f J Ã* <5I)
+
+ Once the first monomial has been chosen and after excluding from the second one
+
+ the kinetic energy (for the reason we have explained), the number of possibilities
+ reduces drastically. We now have a problem with four quantities (three quantities and
+ one constant) and three fundamental variables. Thus, in this way, Einstein's result (47)
+ can be considered univocal. Note that the two monomials (47) can also be derived from
+
+ the form of the classical density (49). Let's now jump to the end of Einstein's paper.
+
+ 77 Of course, the constant h did not appear in the classical expression for dn . However, once the phase space
+
+ had been quantized, one could relate h with the volume of a microstate. Only in this way can h appear in the
+ classical distribution function, (49). As in the statistical works prior to early quantum developments, what
+
+ was significant was the quotient of the phase space volumes, the later appearance of h did not retrospectively
+ contradict classical statistical developments.
+
+ Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:38:04 UTC
+All use subject to https://about.jstor.org/terms
+
+ (Note that the number of particles N does not play a role in these considerations,
+ since it is dimensionless.) In order to have only one monomial, one needs to impose
+
+ an additional condition. Most likely, Einstein simply decided to choose the monomial
+
+ that was compatible with the classical result (49). It has the advantage of being a
+ natural one: since the influence of the kinetic energy L in the density function has to
+
+ be weighted by the temperature кТ , both have to appear together in one of the two
+ monomials.
+
+ After having reduced the number of arguments of the density function to a single
+
+ 588 E. Pérez, T. Sauer
+
+ parameter,
+
+ L (mViKT'
+ кТ+Х' h2 )' C 5)-
+
+ Einstein showed that this result is in agreement also with other constraints. He looked
+
+ at what happens if one assumes that Planck's constant does not appear in the expression
+ for d я, and he obtained Maxwell-Boltzmann's distribution law. There is a mistake in
+
+ testing that his theory also satisfies this dependence, but the mistake is inconsequential.
+
+ Einstein wrote that the density can be written as
+
+ -ir-, (53)
+ етт - 1
+
+ which is not true. Nevertheless, his theory satisfies the conclusion of the dimensional
+ argument, since p is:
+
+ - Г
+
+ L Í I m(^YKT 5-^Гт '
+ exp FT L + X Í -Ц m(^YKT з
+
+ Hence, his conclusion is correct but not the reasoning.
+
+ To conclude, note that, in fact, the result achieved by Einstein in Eq. 39 does not
+
+ lead to a true displacement law. This law was named this way because it implied that
+ the maximum of intensity satisfied the relation
+
+ Vmax * / с c'
+ ~Y~ = const- * (55) / с c'
+
+ Therefore, the maximum displaces in proportionality with temperature. Due to the
+ form of the argument in Eq. 52, this simple statement cannot be made in the case
+
+ of molecules. The simple state of affairs in the case of radiation is a consequence of
+ the non-conservation of - or else the lack of sense of the concept of - the number of
+ particles.
+
+ Let us now take a look at earlier considerations which may have inspired Einstein
+ and which had helped him before when he was trying to find his way on slippery
+ ground.
+
+ 5.2 Einstein's deduction of Wien's displacement's law in 1909
+
+ In January 1909, the editors of the Physikalische Zeitschrift received the manu-
+
+ script of one of the subsequently more celebrated papers by Einstein. In it, and in
+
+ the talk he gave in Salzburg in September of the same year, Einstein suggested and
+
+ Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:38:04 UTC
+All use subject to https://about.jstor.org/terms
+
+ Einstein's quantum theory of the monatomic ideal gas 589
+
+ emphasized for the first time the essential dual nature of radiation - corpuscular and
+
+ undulatory - , starting from a fluctuation analysis of radiation momentum.78 This
+
+ paper must be situated in a context where the physics community had not yet realized
+
+ the implicit contradictions with classical physics inherent in Planck's radiation law.79
+
+ It was only after 191 1 - after the first Solvay conference - when the position hitherto
+
+ taken by a small minority would become the received opinion: That it would be neces-
+
+ sary to undertake a deep revision of the existing physical theories in order to account
+
+ for the quantization that Planck had introduced by his black body radiation theory.
+ In 1909, Einstein was one of the first physicists who had become clearly aware
+
+ of the exceptional nature of the situation and suggested that perhaps the break did
+ not have to be as traumatic as it may have seemed at first sight. He argued that one
+ should relate to each other Planck's quanta and electricity quanta. The latter did not
+
+ arise either in any natural way from Maxwellian electromagnetic theory, and maybe
+
+ a modification of this theory could account for both instances of quantization. In sup-
+
+ port of the feasibility of this idea, Einstein invoked some dimensional considerations
+
+ published by James H. Jeans "a few years ago." Although he did not cite the precise
+
+ source, it is beyond doubt that Einstein referred to the paper "On the laws of radiation,"
+
+ published by the British physicist in 1905.80
+
+ In it, Jeans gave a derivation of the displacement law, in which he outlined a dimen-
+
+ sional argument that allowed him to write the constants that appear in this law and
+ in Stefan's law depending on known universal constants. In other words, he excluded
+ from his consideration Planck's constant. With this derivation, Jeans was trying to
+
+ advance a new argument for his claim that the problem of specific heats and the black-
+
+ body problem were both caused by the fact that thermodynamic equilibrium was not
+ established. For this reason, the equipartition of energy could not be applied in the
+
+ theoretical analysis of either system. In addition, he also argued for the electronic
+
+ origin of radiation.
+
+ Thus, Jeans proposed that electron trajectories are the source of the spectrum (and
+
+ of its universality), taking up an old idea by Hendrik A. Lorentz.81 According to
+ Jeans, the radiant energy per volume at temperature T and wavelength к depends on
+
+ the following constants82:
+
+ V: speed of light,
+ e : electron charge,
+ m: electron mass,
+
+ R: gas constant (the mean kinetic energy of a single particle is ' RT),
+ K: inductive capacity of the ether (Coulomb's law, F = K~xq'q2r~2).
+
+ 78 Einstein (1909b). The presentation in Salzburg was transcribed in Einstein (1909a).
+
+ 79 Kuhn (1978).
+
+ 81 Lorentz (1903).
+
+ 80 Jeans (1905). See Stachel (1991, p. 549, note 60), where the editors also point out that, in contrast to
+
+ Einstein's argument, Jeans did not use the Planck constant Л, nor does he consider the ratio /с.
+
+ 8^ We omit the dependency on some "specific constants" of the body that do not play any role in what
+ follows.
+
+ â Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:38:04 UTC
+All use subject to https://about.jstor.org/terms
+
+ As a dimensional basis, he took length L, mass Л/, time t , inductive capacity К , and
+
+ 590 E. Pérez, T. Sauer
+
+ temperature Г83:
+
+ À: L,
+ Г: 7'
+ V: Lt~'
+
+ e-.
+
+ m: M,
+ R: L2Mr2T~'
+ К: K.
+
+ Since there are fí ve dimensional units and seven quantities, Jeans was able to construct
+ two independent dimensionless monomials. But which ones he chose, is one of the
+ dark spots of his argument. The key step of his derivation was that one of the two
+ monomials that he constructed, c' = RTm~l V~2, is of order 10~8 (at 100°C); he
+ used this fact to justify his claim that the radiation law depends only on the other
+ monomial, which he chose as:
+
+ XRTK
+
+ C2 = -5-. eL (56)
+
+ -5-. eL
+
+ A few months later, Ehrenfest published a short note in the Physikalische Zeitschrift ,
+
+ in which he criticized Jeans's argument.84 Indicating that he could not follow the
+ reasoning at various steps, he focussed only on the arbitrariness of the choice of the
+
+ pair of monomials and showed by means of a slightly different choice of monomials,
+
+ c'' = ci, c' 2 = c2c'^y how Jeans's reasoning may lead also to a different result,
+ i.e., not to the displacement law. The British physicist did not accept the criticism.85
+
+ In his view, Ehrenfesťs counterexample did not square with his proposal. Ehrenfest
+
+ wrote another reply, defending himself against Jeans' counter-attack and repeated his
+ criticism of the dimensional argument.86
+
+ In 1 909, in his article "Radiation Theory" for the Encyklopädie der Mathematischen
+
+ Wissenschaften , Wilhelm Wien referred to Ehrenfesťs refutation of Jeans's argument
+ like this:
+
+ Another derivation of the displacement law is given by J.H. Jeans. But there is an
+
+ uncontrollable approximation in it, which must be introduced as a hypothetical
+
+ assumption; therefore, Jeans's derivation cannot be regarded as a proof of the
+ displacement law.87
+
+ As pointed out already in Ehrenfest (1906a), there is a typographical error in Jeans (1905, p. 548), who
+
+ has the dimension of R as LMt~2T~l.
+
+ 84 Ehrenfest (1906a).
+
+ 85 Jeans (1906).
+
+ 86 Ehrenfest (1906b).
+
+ Springer
+
+ 87 "Eine weitere Ableitung des Verschiebungsgesetzes gibt J.H. Jeans. Doch kommt in ihr eine nicht
+ kontrollierbare Vernachlässigung vor, welche als hypothetisch Annahme einzuführen ist; daher kann die
+
+ Jeansschc Entwicklung nicht als Beweis für das Verschiebungsgesetz angesehen werden" (Wien 1909).
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:38:04 UTC
+All use subject to https://about.jstor.org/terms
+
+ Einstein's quantum theory of the monatomic ideal gas 59 1
+
+ Although we cannot give further evidence, it appears that Jeans finally admitted the
+
+ weakness of his argument. His result may be understood as a piece of circumstantial
+ evidence or as an illustration, not as a genuine derivation. Some years later, in his
+ famous Report on Radiation and the Quantum-Theory of 1914, Jeans had changed
+ his attitude toward quantum theory and did not mention this result.88 What makes
+ this omission even more significant is that Jeans here defended practically the same
+
+ argument that Einstein gave in 1909 - which we will discuss at once - , but without
+
+ quoting him:
+
+ Any attempt to refer back the atomicity of e to the structure of the ether simply
+
+ discloses the fact that the fundamental equations of the ether are not yet fully
+
+ known; it implies that if they were fully known they might be expected to con-
+
+ tain the quantity e , and this is perhaps the same thing as saying that they would
+
+ contain the quantity h. It may be that if the equations of the ether were fully
+
+ known they would be seen to involve the quantum-theory.89
+
+ For Jeans the possibility of associating the atomicity of the charge with the quantum
+
+ of energy was still alive in 1924, when he published the second edition of his Report
+
+ The quoted text remained unchanged after a decade of further developments of quan-
+
+ tum theory.
+
+ As we have said, Einstein took up Jeans's demonstration in his 1909 paper on the
+
+ radiation problem but modified it at some points. The most important difference is
+ that he did not assume that the radiation density would depend on the electron mass.
+
+ This difference renders Ehrenfesťs objections invalid, because now there is, according
+
+ to the П theorem, only one possible dimensionless monomial. (This does not mean
+ Einstein was aware of the controversy that his colleagues had maintained; we have
+
+ not found any evidence in this respect.91)
+
+ In a cavity filled with gas molecules, radiation, and ions - the latter allow the energy
+
+ exchange between the former - , the quantities that - according to Einstein - should
+
+ be included as arguments of the spectral density are:
+
+ RT/N : energy of a molecule (dimensionally speaking),
+
+ c: speed of light,
+
+ e: quantum of electricity,
+
+ v: frequency.
+
+ Only attending to the dimensions of the density of radiant energy r, which are92
+
+ M L~x T~l , it can be seen that r must have the form:
+
+ el 3 i / Nel v '
+
+ г = 7"*Ыт)- el 3 i / Nel v ' <57)
+
+ 88 Jeans (1914).
+
+ 89 Ibid., p. 81.
+
+ 90 Jeans (1924).
+
+ 91 See also Einstein to H.A. Lorentz, 30 March 1909 (Klein et al. 1993, Doc. 146), where Einstein also
+
+ refers to Jeans's argument. Einstein and Ehrenfest met in person only a few years later, in 19 12, see Klein
+ (1985, Chap. 12), and also Sauer (2007, pp. 172-175).
+
+ Einstein wrote p instead of г and € instead of e. Now [e] = L ' M ' T
+
+ Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:38:04 UTC
+All use subject to https://about.jstor.org/terms
+
+ 592 E. Pérez, T. Sauer
+
+ This is the only possible combination to establish a dimensionless relation for r with
+ the quantities considered by Einstein. Expression (57) is none other than Wien's
+ displacement law, cp. Eq. 44. Comparing now this result with Planck's radiation
+ law,
+
+ av2 1
+
+ ' = Thv-s-t L e<T - ] (58)
+
+ L e<T - ]
+
+ (a is a dimensionless factor, cp. Eq. 1), Einstein arrives at:
+
+ e 2 R
+
+ h = - and к = - . (59)
+
+ с N
+
+ He then observed that the first relation differs from the known results by three orders
+
+ of magnitude, which in his opinion can be attributed to dimensionless factors. Simi-
+
+ lar to the way Jeans did it, he speculated about the possibility of reducing the "light
+
+ quantum constant Л" to the "elementary quantum of electricity e " and thus about the
+ unnecessariness of introducing new universal constants.
+
+ In a letter Einstein wrote to Lorentz in 6 May 1909, he regarded it as highly signifi-
+
+ cant that the displacement law could be obtained through dimensional considerations,
+
+ and insisted again on the existence of a relation between e and Л.93 But after reading
+ Einstein's paper, Lorentz responded that he did not regard a discrepancy of three orders
+
+ of magnitude an insignificant one nor did he agree that the radiation law, which should
+
+ give evidence of the properties of the ether, should include the electronic charge.94
+ But that was precisely Einstein's bet in that state of ignorance and confusion about
+ quantum phenomena.
+
+ Thus, in his 1909 analysis of the radiation problem dimensional analysis provided
+
+ an argument for strengthening a thesis shored up by Einstein in conjunction with other
+
+ fundamental arguments, such as fluctuation analysis. But it appears that Lorentz, whom
+
+ he admired deeply, had convinced Einstein of the weakness of the dimensional argu-
+ ment to the effect that he forgot about it. A little more than 2 years later, just before
+
+ attending the first Solvay conference, in autumn 1911, Einstein responded to a ques-
+ tion by Michele Besso as to whether he had ever come across a situation where one
+
+ had to choose between the quantum of action and e2 in order to introduce "natural
+ units." Einstein responded that one knew that the ratio was a factor of 900 but that he
+ had never come across this in dimensional considerations, as far as he remembered.95
+
+ And in Brussels, he spent no time on this question in his presentation, although the
+
+ 93 A. Einstein to H.A. Lorentz, 30 March 1909 (Klein et al. 1993, Doc. 163).
+
+ 94 H.A. Lorentz to A. Einstein, 6 May 1909 (Klein et al. 1993, Doc. 153).
+
+ 95 Einstein to Michele Besso, 1 1 September 191 1, in Klein et al. (1993, Doc. 283). The reference to what
+ it is that Einstein did not remember is unclear in the original German. It could be the factor 900, but more
+
+ likely it is a response to Besso's question: "Der Unterschied zwischen e2 und h ist ja Faktor 900. Ist mir
+ noch nicht bei Dimensionalbetrachtungen begegnet, soviel ich mich erinnere."
+
+ Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:38:04 UTC
+All use subject to https://about.jstor.org/terms
+
+ Einstein's quantum theory of the monatomic ideal gas 593
+
+ relation between e and h appeared more than once during the meeting.96 In 1916
+ Arnold Sommerfeld introduced in the quantum debates the constant of fine structure,
+
+ « = «»>
+
+ he
+
+ which contains, in a sense, the numerical relation among e , h and с.97
+
+ Just before going to Brussels to attend the Solvay meeting, Einstein appealed again
+
+ to dimensional analysis in a paper that was not directly related to radiation. In it, he
+
+ admitted that, in general, discrepancies in numerical values should be of the order of
+
+ unity. However, he admitted exceptions.
+
+ 5.3 Einstein on the quantum theory of solids
+
+ In 1907, Einstein had been a pioneer in applying quantum theory to the study of solids.
+
+ Following his seminal work, Walther Nernst and his collaborators in Berlin demon-
+ strated the wisdom of Einstein's speculations, at least in a broad sense. However, in
+
+ 191 1, it was clear that the theoretical curve deviated from the experimentally observed
+
+ data at very low temperatures. Einstein then wrote two new papers with an attempt to
+ leave aside the monochromatic normal modes that had characterized his first approach
+
+ to the problem.98 (Shortly before, Nernst and Lindemann had proposed an alterna-
+ tive formula, which Einstein quoted in his 1911 papers.) These new developments in
+
+ the field of crystalline solids culminated in 1912 with the appearance of the famous
+ contributions by Peter Debye, on the one hand, and by Max Born and Theodor von
+ Kármán, on the other.
+
+ In the second paper of 191 1 , Einstein tried to argue that solids must present a set of
+
+ frequencies related to the coupling among different forced motions of the atoms. In
+ the third and fourth paragraphs we find two other instances of dimensional analysis.
+
+ Here Einstein used it to derive an expression for the proper frequency of an atom
+
+ in a solid, which he had given already in his earlier paper. He obtained a satisfactory
+ result, since the dimensionless coefficient, which still had to be determined, is of the
+
+ order of unity (both in the case of his formula and in the case of the Nernst-Lindemann
+ formula). In addition, he used the opportunity to show that Lindemann's formula for
+
+ the melting temperature of a solid also is in agreement with dimensional arguments.
+
+ 96 Langevin and Broglie (1912, pp. 75-76, 131).
+
+ 97 In the late 1940s, Pauli concluded his contribution to the Schilpp volume Albert Einstein Philosopher-
+
+ Scientist with a comment on Einstein's 1909 paper. He observed that "the present form of quantum mechan-
+
+ ics is far from anything final, but, on the contrary, leaves problems open which Einstein considered long
+
+ ago." In the 1909 paper, Pauli continued, Einstein "stresses the importance of Jeans' remark that the elemen-
+
+ tary charge e , with the help of the velocity of light c, determines the constant e2 / с of the same dimension
+
+ as the quantum of action h (thus aiming at the now well-known fine structure constant 2jt e2 / he)" But the
+
+ development of physics had not produced an understanding of the elementary charge flowing from a quan-
+
+ tum theory. The determination of the fine structure constant therefore, was "certainly the most important
+ unsolved problem of modern physics" (Schilpp 1949, p. 158).
+
+ 98 Einstein (191 la) and Einstein (191 lb). These papers are discussed in Bridgman (1922).
+
+ Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:38:04 UTC
+All use subject to https://about.jstor.org/terms
+
+ In the last section, Einstein tried to find an expression for the thermal conductivity
+
+ К . Using the dimensional method described earlier in the same paper, he arrives at
+ the following functional dependence":
+
+ 594 E. Pérez, T. Sauer
+
+ v /md2v2'
+
+ к-с?Ы-) v /md2v2' m)
+
+ (m is the mass of an atom, d the interatomic distance, v the oscillation frequency
+
+ and С a constant). In order to determine the function (p Einstein appealed to recently
+ published measurements by Arnold Eucken, which indicated a dependency of К with
+
+ the inverse of temperature. Accordingly, the final expression should be:
+
+ _mdv3
+
+ К = С--. (62) '
+ кТ '
+
+ This combination of dimensional analysis with an empirical law (referred only to one
+
+ of the involved quantities) represents, in our opinion, an interesting example of how
+ fruitful this procedure can be.
+
+ In this section we have shown another example - the third - in which Einstein used
+
+ a suitable analyzing method for exploring new territories. Therefore, he used dimen-
+
+ sional analysis in radiation, solids, and gases.
+
+ We conclude our analysis of Einstein's use of the method of dimensional analysis
+
+ with a comment on Tatiana Ehrenfest, who, in fact, published a number of papers
+ on this problem. Indeed, in August 1925 she signed a paper, which contains explicit
+ criticism of Einstein's use of dimensional analysis in 1909 and which was communi-
+
+ cated to the Philosophical Magazine by her husband. In her paper, Tatiana Ehrenfest
+
+ juxtaposed the method of dimensional analysis with what she called the "theory of
+
+ similitudes," the latter being based on a mathematical analysis of transformation prop-
+ erties of differential equations. In her comparison, she criticized the use of dimensional
+
+ analysis in physics as being often misunderstood in its deductive power. The theory
+ of similitudes, in contrast, she commended for being capable of producing definite
+ and reliable results, provided two rules were followed. According to these rules, one
+ needs to consider all "fundamental equations" and one must not introduce "conditional
+
+ equations" except those that follow from the transformation properties of the funda-
+ mental equations. In her concluding paragraph, she attributed value to the method of
+
+ dimensional analysis only in the case that the theory of similitude is not applicable:
+
+ However, if the fundamental equations of the two problem are unknown, of the
+
+ two methods there remains only dimensional analysis. It must never be forgot-
+ ten that in such cases one advances only gropingly, and without experimental or
+
+ theoretical proof from another quarter one can never be completely certain of the
+ results. Dimensional analysis combined with proof of this kind may be viewed
+
+ as a systematic method for determining whether in the given problem new and
+
+ unknown fundamental equations take part which are non-homogeneous relative
+
+ 99 Einstein wrote r instead of кТ.
+
+ & Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:38:04 UTC
+All use subject to https://about.jstor.org/terms
+
+ Einstein's quantum theory of the monatomic ideal gas 595
+
+ to the quantitites considered; i.e., which involve dimensional coefficients or new
+ variables.100
+
+ Interestingly, she added a footnote here at the end of her paper, in which she referred
+
+ to Einstein's 1909 paper as providing "a pretty example of such an application of
+
+ dimensional analysis." However, the reference is not to the example that we have dis-
+ cussed above, but to another instance in this paper, in which Einstein used a "simple
+
+ dimensional consideration."101 In this example, he argued that according to a dimen-
+
+ sional argument the mean squared energy fluctuation €2 comes out non-classically.
+
+ It appears likely that she added the reference to Einstein's paper as an afterthought.
+
+ Despite the praise implicit in the final footnote, she referenced the paper once more
+ in a footnote that she added to a statement where she pointed out that by "erroneously
+
+ [. . .] overlooking one or another of the fundamental equations" or else by "forgetting"
+
+ interdependencies of the variables, "there may be projected an illusory definiteness
+ of solution." The footnote here says: "This is the case in the example analyzed by
+
+ Einstein. Footnote of the final paragraph."102
+
+ We may extend Tatiana Ehrenfest's praise and criticism of Einstein's use of dimen-
+ sional analysis in 1909 to the example we have discussed above. In an explicit exam-
+ ple that she discussed in her paper, she criticized Lord Rayleigh to have used an
+ unwarranted additional conditional equation, i.e., relating temperature to the average
+
+ molecular kinetic energy, in violation of the second rule for proper use of the theory
+
+ of similitudes: "The equation by which temperature is defined as the average kinetic
+
+ energy of the molecules is not one of the fundamental equations of the problem; it
+ relates quantities (molecular velocity and molecular mass) which do not occur in any
+ of the fundamental equations."103
+
+ It is quite possible that Tatiana Ehrenfest added the reference to Einstein's 1909
+
+ paper at the suggestion of her husband. In any case, we note that the Ehrenfests had
+ a sophisticated understanding of the intricacies of the dimensional analysis and had
+ well-informed and critical opinions on the status of the results based on dimensional
+ considerations, including those put forward by Einstein. However, it is significant
+
+ for our purposes that nothing is said in Tatiana Ehrenfest's paper about Einstein's
+ dimensional analysis of 1925.
+
+ 5.4 The adiabatic transformation and the field of conservative forces
+
+ Let's go back to the paper of 1925. In it, Einstein pointed out that the dimensional anal-
+
+ ysis with his initial assumptions has produced only his research - expression (14) - ,
+ but that it is possible to go further without making "doubtful hypotheses."104 He pro-
+
+ posed two independent assumptions, which both lead to the same result. He analyzed
+
+ 101 "einfache Dimensionalbetrachtung" (Einstein 1909a, p. 189).
+
+ 100 Ehrenfest (1926).
+
+ 102 Ibid., p. 266.
+
+ 103 Ibid., pp. 268-269.
+
+ "ohne Setzung irgendwie zweifelhafter Hypothesen" (Einstein 1925b, p. 20).
+
+ Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:38:04 UTC
+All use subject to https://about.jstor.org/terms
+
+ 596 E. Pérez, T. Sauer
+
+ how the distribution function p is modified by an adiabatic compression and by an
+ external field of conservative forces. Referring to both assumptions, he wrote:
+
+ . . .but they are very natural, and their correctness is made more probable more-
+
+ over by the fact that they lead to the same result and that they lead to Maxwell's
+
+ distribution in the limiting case of vanishing quantum influence.105
+
+ In order to calculate the change of (kinetic) energy during the adiabatic compression,
+
+ Einstein resorts to the variation of the molecules' momenta in their collisions against
+ the (mobile) walls. Desalvo found it "remarkable" that starting from such assump-
+ tion "Einstein obtained the correct dependence of kinetic energy on volume."106 He
+
+ apparently referred to the use of the relation between the change in kinetic energy
+ and the change in the volume, i.e., to expression (19). To obtain it, Einstein made an
+ intermediate step, in which he wrote
+
+ A'Pi ' = -IPil-p-« (63)
+
+ h
+
+ He claimed that this expression is obtained "easily" by applying the laws of elastic
+ collisions. The calculation proceeds indeed straightforwardly from the consideration
+
+ of energy and momentum consideration for the case of a material particle bouncing off
+
+ an infinitely heavy moving piston.107 It is in this way how, invoking the laws of elastic
+
+ collisions, a correct expression for the dependence of the kinetic energy on volume
+
+ can be obtained.108 However, in the previous installments of his quantum gas theory,
+ Einstein had already deduced that the relation between pressure and energy density
+
+ for the quantum gas was the same as that in the classical gas (see Eq. 4). Starting from
+
+ this result, one can immediately calculate the variation of kinetic energy with volume,
+ without using (63). Only in this sense was the use of elastic collisions by Einstein
+ justified in the non-statistical paper.
+
+ Picking up the comparison we proposed earlier with Ehrenfest's paper, it must be
+
+ noted that Ehrenfest - in 1911 but also in the subsequent years in which he devel-
+
+ oped his idea - always referred to adiabatic transformations as pertaining to mechani-
+ cal systems. Starting from mechanical variations he established connections between
+ (and sometimes discovered) allowed quantum motions. Then, once he had a hold on
+
+ the possible motions of the system, he calculated the most probable distribution of
+ states among them and, postulating that this was the state of equilibrium, introduced
+ the notion of temperature. The ideal gas has no mechanical invariants, since those
+ can only be defined properly for periodic motion.109 The adiabatic transformation
+
+ 105 ". . .dieselben sind aber sehr natürlich, und ihre Richtigkeit wird außerdem noch dadurch wahrscheinlich
+ gemacht, daß sie beide zu demselben Ergebnis führen, und daß sie in dem Grenzfalle verschwindenden
+
+ Quanteneinflusses zur MAXWELLSCHEN Verteilung führen" (Einstein 1925b, p. 20), our emphasis.
+
+ 106 Desalvo (1992, p. 525).
+
+ 107 Very similar considerations were applied by Hilbert in his use of Ehrenfest's adiabatic hypothesis for
+ the derivation of the black-body energy density, see Sauer and Majer (2009, pp. 484-500).
+
+ 108 For an elementary discussion of adiabatic compression at both the thermodynamic and the molecular
+ level, see Miranda (2002).
+
+ 109 See Pérez (2009).
+
+ Ö Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:38:04 UTC
+All use subject to https://about.jstor.org/terms
+
+ Einstein's quantum theory of the monatomic ideal gas 597
+
+ considered by Einstein in 1925 is directly applied to a macroscopic system, i.e., to
+ a thermodynamic system, in an analogous way as he proposed to do it - but did not
+ elaborate on - in 1905 with black-body radiation.110
+
+ It would be wrong to say that Einstein made use of Ehrenfesťs adiabatic hypoth-
+
+ esis in this paper, since that would imply - at the very least - that one had identified
+
+ connected allowed quantum motions. His procedure is closer to the demonstrations of
+
+ Wien's displacement law in the late nineteenth century.
+
+ More significant is what Einstein assumed in the second path to reduce the number
+
+ of arguments of the density function. Ignoring again collisions between molecules, he
+ assumed that their motions be governed by Hamilton's equations, i.e., that they follow
+ the laws of classical mechanics. In this case, the stationarity of the density function
+
+ implies, as was known, its dependence on the Hamiltonian, i.e., on the sum of kinetic
+
+ and potential energy. This result is generally known as Liouville's theorem. Thus, the
+
+ analysis of the system in an external field allowed Einstein to say something about the
+
+ dependence of the density on the volume.
+
+ Note that due to the failure of the Bohr-Sommerfeld theory to account for many-
+
+ electron systems, or to the surprising result provided by the experiment of Stern and
+ Gerlach (in the analysis of which Einstein and Ehrenfest themselves had contrib-
+ uted111), in early 1925 the validity of Hamiltonian mechanics was seriously ques-
+ tioned. For this reason, it is surprising that Einstein assumed for free particles the
+
+ validity of classical mechanics. Schematically, these are Einstein's assumptions in
+
+ this respect:
+
+ Interactions between molecules and Classical elastic collisions
+
+ container walls
+
+ Interactions between molecules Not taken into account
+ Free motion of the molecules According to classical mechanics
+
+ These assumptions constitute the definition of an ideal gas. They are, in other words,
+
+ the necessary assumptions needed to obtain - in statistical mechanics - the relation
+ between total kinetic energy and pressure provided by the virial theorem. Therefore,
+
+ in utter contradiction to his original intention - and, probably, in awareness of this
+ contradiction - Einstein, it seems, left only one possibility open to right the wrong:
+
+ statistics. Only in the particular way of counting states, in the transition from mechan-
+ ics to thermodynamics, could differences between classical and quantum ideal gases
+ be placed.
+
+ However, there was another possibility: to build a new mechanics. The first assump-
+
+ tion listed in the table was valid in Einstein's theory. The second assumption represents
+
+ the definition of an ideal gas. Finally, the third and last assumption did not play a deci-
+ sive role; without it, and using only dimensional analysis, very similar conclusions
+ could be obtained. But Einstein did not make explicit in the paper any conclusion of
+ this kind.
+
+ 1 10 See Einstein (1905) and the discussion above.
+
+ 1 1 1 Einstein and Ehrenfest (1922).
+
+ Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:38:04 UTC
+All use subject to https://about.jstor.org/terms
+
+ 598 E. Pérez, T. Sauer
+
+ 6 An ignored attempt
+
+ Let us now discuss the immediate contemporary reactions to Einstein's non-statistical
+ paper. First discussions around the question as to how to apply quantization to ideal
+ gases go back to papers by Otto Sackur in 1911, and Hugo Tetrode in 1912.1 12 The
+
+ subject gained attention again in the 1920s, in the course of the developments of theory
+
+ and also due to the appearance of a widely discussed paper by Ehrenfest and Trkal. 113
+
+ The justification of the factorial N' in the partition function was a most widely debated
+
+ issue. We are not going to analyze this episode here, but refer interested readers to
+ works we have already cited.114
+
+ Among the physicists who immediately reacted to the appearance of the series of
+
+ papers by Bose and Einstein, Desalvo mentions Adolf Smekal and Pascual Jordan.1 15
+
+ Their respective papers were received by Zweitschrift für Physik in early July 1925. 116
+
+ We find in both papers a favorable disposition toward the new statistics.
+
+ On Smekal, a physicist well versed with statistical problems (and also an expert
+
+ in the meaning and applications of adiabatic transformations), Einstein's third article
+
+ did not seem to have left any impression. In his paper, he even affirmed that the com-
+
+ patibility of any statistical treatment with the second law of thermodynamics needs
+
+ the adiabatic invariance of statistical weights.117 But neither with this point nor with
+ others did Smekal make any explicit reference to Einstein's recent use of adiabatic
+
+ processes. In an extensive article written for the Encyklopädie der Mathematischen
+
+ Wissenschaften , completed shortly before, he expressed his opinion that the success
+
+ of the Bose-Einstein approach would be decided by future experiments, i.e., that only
+
+ future research might corroborate or reject it. 1 18 This would seem to be a suitable place
+
+ to mention Einstein's non-statistical arguments in support of the theory, but there is
+
+ not a single word about them (Smekal gives the reference to Einstein's third paper,
+ but he does not give details nor even refers to any of its content).
+
+ The same is true for Jordan, whose interest was focussed on the application of
+
+ Einstein's new results to the study of the equilibrium between matter and radiation (he
+
+ also made use of the probability transitions introduced by Einstein (1916a, b). Jordan
+
+ also cited the third paper but did not engage with its argument.
+
+ From Jordan we have available his direct testimony, obtained by Kuhn for the
+
+ Archive for History of Quantum Physics. 119 The German physicist recalled that,
+
+ during the first half of 1925, there were not many Göttingen physicists particularly
+
+ interested in Einstein's new gas theory, similar to the way it had happened 20 years
+ before with the hypothesis of light quanta. Nevertheless, during Ehrenfest's annual
+
+ 119 Interview with P. Jordan by T.S. Kuhn, 18 June 1963. Microfilm transcription in AHQP/OHI-3.
+
+ 1,2 Sackur (191 1) and Tetrode (1912a, b).
+
+ 113 Ehrenfest and Trkal (1920).
+
+ 114 For instance Darrigol (1991) and Desalvo (1992).
+
+ 1,5 Desalvo (1992, pp. 529-531).
+
+ 1 16 Jordan (1925) and Smekal (1925).
+
+ 117 Smekal (1926).
+
+ 118 Smekal (1926, p. 1214).
+
+ Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:38:04 UTC
+All use subject to https://about.jstor.org/terms
+
+ Einstein's quantum theory of the monatomic ideal gas 599
+
+ visit to Göttingen he provoked a debate about the new statistics. It is likely that in a
+
+ presentation,120 besides explaining his own analysis of the fluctuations (which a little
+
+ later would turn into a publication, and which Jordan would translate into the quan-
+ tum - matrix - formalism121), Ehrenfest elaborated on various aspects of Einstein's
+
+ theory, such as the loss of independence of molecules or the abrupt increase of concen-
+
+ tration in the fundamental state below a certain temperature. We do not know whether
+
+ he mentioned any of the arguments of Einstein's third non-statistical paper.
+
+ Planck and Schrödinger were more involved in the debates around the ideal gas
+
+ and its quantum theory. Both authors published papers soon after the appearance of
+ those by Einstein. Planck presented a communication to the Prussian Academy on 2
+
+ February 1925, less than a month after Einstein had presented his third paper.122 Far
+
+ from being a reaction to Einstein's theory, Planck recapitulated his previous works, in
+
+ response to the experimental results by Stern and Gerlach. According to his opinion,
+
+ the experiments with silver ions had proved that under certain conditions only certain
+
+ paths in phase space were admissible. With this statement, he was renouncing the kind
+
+ of quantization that he had defended in his second theory, where only the emission
+
+ process was quantized, but not the absorption nor the mechanical motion itself.
+
+ At the end of his paper, Planck commented on Einstein's theory, pointing out its
+
+ prediction of a loss of statistical independence of molecules. He neither criticized nor
+
+ supported the new approach, and limited himself to the remark that the experiments
+
+ will put it into its right place. But he also pointed out that it would imply a "fundamental
+ modification" of the current ideas on the nature of molecules.
+
+ Some months later, and after he had presented on July 23 to the Academy a paper
+
+ by Schrödinger on the statistical entropy definition for the ideal gas,123 Planck went
+ back to the question of the entropy of an ideal gas and to Einstein's new theory.124
+
+ Here, as in his last paper on the subject published in Zeitschrift für Physik , Planck only
+
+ referred to the definition of entropy, that is, to the problem of counting and assigning
+
+ probabilities.125 But in these papers, with which Planck closed a long series of works
+
+ dedicated to the study of the ideal gas under the new light of the quantum theory, there
+
+ is not a single reference to the theoretical tests proposed by Einstein in his third paper.
+
+ Something similar happened in the case of Schrödinger.126 Recall that it had been
+
+ Einstein's theory, and the ensuing epistolary exchange between both physicists, which
+
+ had turned Schrödinger's attention to de Broglie's work. The most significant paper of
+
+ Schrödinger, for our present concern, is "on Einstein's gas theory."127 In it, he arrived
+ at the same results achieved by his colleague, but he applied Boltzmann's statistics to
+
+ waves à la de Broglie, i.e., he treated particles as excitations. In the interesting paper
+
+ 121 See Born et al. (1926), Ehrenfest (1925), and Duncan and Janssen (2008)
+
+ 126 About Schrödinger's work on quantum statistics of ideal gases (and also about Planck's), see Hanle
+ (1977).
+
+ 120 See footnote 142.
+
+ 122 Planck (1925b).
+
+ 123 Schrödinger (1925).
+
+ 124 Planck (1925a).
+
+ 125 Planck (1926).
+
+ 127 Schrödinger (1926b).
+
+ Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:38:04 UTC
+All use subject to https://about.jstor.org/terms
+
+ that Planck presented on his behalf to the Prussian Academy on July 23, Schrödinger
+
+ recognized that the compatibility of Bose-Einstein's distribution with Nernsťs theo-
+
+ rem was an important point in favor of the new theory.128 In this paper, Schrödinger
+
+ analyzed different entropy functions which had been used in the past or were being
+ used at the moment.
+
+ 600 E. Pérez, T. Sauer
+
+ Einstein himself argued in favor of his theory appealing to the third paper in a letter,
+
+ with which he answered some of Schrödinger's criticism. Schrödinger's letter, on the
+
+ other hand, showed that he had not understood the new way of counting which was
+
+ implicit in Bose's statistics.129 In his response Einstein had to point out:
+
+ In Bose's statistics, which I use, the quanta or molecules are regarded as not
+ independent of each other. [...] I failed to emphasize clearly the fact that here
+
+ a new kind of statistics is employed, which for the time being is justified by
+ nothing but its success.130
+
+ And about the third, non-combinatorial paper, he wrote:
+
+ In a third paper, which is currently in press, I lay out considerations that are inde-
+
+ pendent of statistics and that are analogous to the derivation of Wien's displace-
+
+ ment law. These latter results have convinced me completely of the correctness
+ of the road to follow.131
+
+ Once again, Einstein tried to underline the independence of statistics of the argu-
+
+ ments in his paper. We will see in the following section that this was also the way he
+ presented them to Ehrenfest.
+
+ As far as we have been able to determine, none of the major journals contain papers
+
+ that called attention to the last installment of Einstein's new theory of the quantum
+
+ ideal gas, not even in Zeitschrift für Physik , where many of the most relevant papers
+ of theoretical physics of those days were published. We think one should bear in mind
+
+ Jordan's verdict about those days: The statistical treatment of the ideal gas was not
+
+ anything that particularly worried the physicists.132 A superficial consultation of other
+ journals seems to confirm this statement.
+
+ Neither was there a presentation especially devoted to quantum statistics during
+ the fifth Solvay conference in 1927 (Fermi-Dirac statistics had been born the previ-
+ ous year).133 In fact, as we will discuss below, it was Einstein who had been asked
+
+ by Lorentz to give a talk on that subject but he declined the invitation a few months
+
+ 128 Schrödinger (1925).
+
+ 129 See Schrödinger to Einstein, 5 February 1925 (AEA 22-001).
+
+ 130 "In der von mir verwendeten Bose'schen Statistik werden die Quanten bzw. Moleküle nicht als vonein-
+ ander unabhängig behandelt. [...] Ich verabsäumte es, deutlich hervorzuheben, dass hier eine besondere
+
+ Statistik angewendet ist, die durch nichts anderes als durch den Erfolg vorläufig begründet werden kann".
+ Einstein to Schrödinger, 28 February 1925 (AEA 22-002). For a French translation of this letter, see Balibar
+ et al. (1992, p. 194).
+
+ 131 "In einer dritten Arbeit, die gegenwärtig im Druck ist, werden Betrachtungen gegeben, die von der
+ Statistik unabhängig sind und der Abi. des Wienschen Verschiebungsgesetzes analog sind. Diese letzten
+ Ergebnisse haben mich von der Richtigkeit des eingeschlagenen Weges fest überzeugt" (Ibid.).
+ 132 See footnote 1 19.
+
+ 133 NN (1928), for an account of the 1927 conference, see Bacciagaluppi and Valentini (2009).
+
+ Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:38:04 UTC
+All use subject to https://about.jstor.org/terms
+
+ Einstein's quantum theory of the monatomic ideal gas 601
+
+ before. Einstein's third paper on quantum ideal gas theory did not have any effect.
+
+ Nor did the papers that preceded it and that even today constitute the most known and
+
+ celebrated part of his theory cause an immediate avalanche of reactions.
+
+ 7 Einstein, Ehrenfest, and the Bose-Einstein statistics
+
+ Let us now look at Ehrenfesťs role for Einstein's non-combinatorial paper. There are
+
+ different reasons that make it worthwhile to investigate it. The reference to Ehrenfest
+
+ in the second paper indicates that both colleagues had discussed the new theory after
+
+ the publication of its first installment, in July 1924. 134 This reference is not surprising,
+ because in 1924 Einstein and Ehrenfest had a very close relation, both professionally
+
+ and personally; in fact, since 1920 Einstein had been an official visitor staying in
+ Leiden, coming from time to time to Leiden as a teacher.135 Moreover, many of the
+
+ questions Einstein's theory put on the table had been and still were subject of interest
+ to Ehrenfest.
+
+ As we have already said, Ehrenfest had penetrated into the analysis of the implicit
+ statistics in Planck's radiation law, comparing it with that underlying in Wien's.136
+
+ Iuri A. Krutkow, one of Ehrenfesťs students from his Petersburg years, had elucidated
+
+ this contraposition, during one of his stays in Leiden together with Ehrenfest, even
+
+ more in a polemic he maintained in Physikalische Zeitschrift with the Polish physicist
+
+ Mieczyslaw Wolfke.137 The contraposition presented by Einstein in 1925 between
+ Boltzmann's and Bose's statistics strongly recalls these papers of the Russian physi-
+ cist.
+
+ In general, it was Ehrenfest who had extracted more information from Wien's dis-
+
+ placement law in his quantum researches than anyone else. It has been observed that it
+
+ was precisely the analysis of Wien's law that had led him to the adiabatic hypothesis. 138
+ In Einstein's third paper the main character is Wien's displacement law.
+
+ In addition, in 1905 Ehrenfest maintained the polemic with Jeans on the dimensional
+
+ derivation of the displacement law we have analyzed in Sect. 5.2, which inspired Ein-
+ stein's own derivation in 1909. Hanle suggests, commenting on the statistical works
+
+ of Schrödinger prior to the formulation of wave mechanics, that what we are calling
+ here Einstein's third paper might be interpreted as a response specifically designed to
+
+ convince Ehrenfest of the suitability of the new theory. Although Hanle maintains that
+
+ Ehrenfesťs attitude should be taken as representative of that of other physicists, the
+
+ third paper would be constituted, according to this interpretation, by a new series of
+
+ arguments put together in order to convince Ehrenfest of the plausibility of the obtained
+
+ results. This opinion is supported by documentary evidence in some letters.139
+
+ 135 See Klein (1985) and van Delft (2006) and the Introduction to Kormos Buchwald et al. (2006, pp.
+ xlii-xlvi).
+
+ 134 See footnote 37.
+
+ 136 See Sect. 5 above.
+
+ 137 Krutkow (19 14a, b).
+
+ 139 See footnote 58.
+
+ 138 Klein (1985) and Navarro and Pérez (2004, 2006).
+
+ Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:38:04 UTC
+All use subject to https://about.jstor.org/terms
+
+ 602 E. Pérez, T. Sauer
+
+ Not any less important is the talk Ehrenfest gave in Göttingen at the beginning of
+
+ the summer of 1925. Among other things, he spoke about the new statistics of Bose
+
+ and Einstein. According to Jordan, Ehrenfest showed himself to be skeptic of the new
+
+ method.140 His presence - presumably during June - left its mark in more than one
+
+ physicist. Max Born referred to it in a letter to Einstein:
+
+ ...your brain, heaven knows, looks much neater: its products are clear, simple,
+ and to the point. With luck, we may come to understand them in a few years'
+
+ time. This is what happened in the case of your and Bose's gas degeneracy sta-
+ tistics. Fortunately, Ehrenfest turned up here and cast some light on it. Then I
+
+ read Louis de Broglie's paper, and gradually saw what they were up to. I now
+
+ believe that the wave theory of matter could be of very importance.141
+
+ In a note in a well-known paper of 1926, in which Born together with Jordan and
+
+ Heisenberg developed the matrix mechanics formulation of quantum theory, the
+ authors also refer to this talk: "P. Ehrenfest, Lecture in the Göttingen seminar on
+
+ the Structure of Matter, Summer 1925. The contents of this lecture were of great
+ assistance to our present considerations."142 According to the context in which this
+
+ footnote appears, we can assume that Ehrenfest presented the fluctuation analysis he
+ published a few months later.143
+
+ Nevertheless, we can see in their correspondence that both Einstein and Ehrenfest
+
+ also rejected the proposal by Bohr, Kramers and Slater. On 9 January 1925, Ehrenfest
+ wrote to his friend:
+
+ If Bothe-Geiger should find "statistical independence" of electrons and scattered
+
+ light quantum, it would prove nothing. But if they find dependence, then it is a
+
+ triumph of Einstein over Bohr. This time I believe (but only this time!) firmly in
+ you, that is I would be glad if dependence would be made evident.144
+
+ Two days later, Einstein responded to a previous letter by Ehrenfest, commenting
+
+ on the fluctuation analysis of a vibrating string with which Ehrenfest had discussed
+
+ the dual nature of the radiation suggested first by Einstein in 1909 145 :
+
+ I forgot in my letter to express my agreement with the statistical consider-
+
+ ation about the fluctuations of the energy of the subvolume according to the
+
+ 140 See footnte 1 19.
+
+ "Dein Gehirn sieht, weiss der Himmel, reinlicher aus. Seine Produkte sind klar, einfach und treffen
+
+ die Sache. Wir kapieren es dann zur Not ein paar Jahre später. So ist es uns auch mit Deiner Gasentartung
+ gegangen. Glücklicherweise erschien Ehrenfest hier und hat uns ein Licht aufgesteckt. Daraufhabe ich die
+
+ Arbeit von Louis de Broglie gelesen und bin allmählich auch hinter Deine Schliche gekommen. Jetzt glaube
+ ich, dass die 'Wellentheorie der Materie* eine sehr gewichtige Sache werden kann". Born to Einstein, 15
+ July 1925 (AEA 8-177). English translation in Born (2005, p. 83).
+
+ 142 Born et al. (1926). English translation in van der Waerden (1967); the quote is on p. 380, note 2.
+
+ 143 Ehrenfest (1925).
+
+ "Falls Bothe-Geiger „statistische Unabhängigkeit" von Elektron und gestreutem Lichtquant finden
+
+ beweist es nichts. Falls sie aber Abhängigkeit finden ist es ein Triumph von Einstein über Bohr.- Diesmal
+
+ glaube ich (ausnahmsweise) fest an Dich, würde mich also freuen wenn Abhängigkeit evident gemacht
+ würde." Ehrenfest to Einstein, 9 January 1925 (AEA 10-100).
+
+ 145 Ehrenfest (1925).
+
+ Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:38:04 UTC
+All use subject to https://about.jstor.org/terms
+
+ Einstein's quantum theory of the monatomic ideal gas 603
+
+ understanding of standing waves. It would probably be good to publish this at
+
+ some point.146
+
+ Ehrenfest followed his friend's advice and sent it for publication in August. As
+ mentioned above, its content must have been the core of the talk he gave in Göttingen
+ that summer.
+
+ In this paper, Ehrenfest calculated, in different ways, the energy fluctuations of the
+
+ simple system of a string held fixed in its two ends. In all cases, he used the normal
+ modes with which he had analyzed the black-body radiating cavity more than 10 years
+ before. Thus, he showed and demonstrated a conclusion to which Leonard Ornstein
+
+ and Frits Zernike had already come earlier: Einstein had supposed that the entropy
+
+ was an extensive quantity, which is incompatible with a pure wave treatment (because
+
+ of overlapping of the waves). We will not analyze Ehrenfesťs paper here (he already
+ referred to "Bose-Einstein's statistics" and also alluded to the concept - but not the
+
+ name - of a phonon), but we will refer to recent works that have put it in direct relation
+
+ to a later analysis by Jordan in which many historians place the origin of quantum
+
+ electrodynamics.147 The contradiction demonstrated by Ehrenfest turned, in the hands
+
+ of Jordan and his quantum mechanical approach, into one of the first demonstrations of
+
+ complementarity. Both terms in the fluctuation expression, which Einstein had attrib-
+
+ uted in 1909 to corpuscular and undulatory components respectively, were shown to
+ be necessary consequences of the new mechanics.
+
+ In Ehrenfesťs paper we see what remained of the old project of publishing a note
+
+ with Krutkow and Bursian. It is only a footnote:
+
+ The words of the paper by S.N. Bose, Planck's Law and the Light Quantum
+
+ Hypothesis [réf.], readily create the impression as though Planck's radiation law
+ could be derived from the assumption of independent light corpuscles. But this is
+
+ not the case. Independent light corpuscles would correspond to Wien's radiation
+ law.148
+
+ It seems that Ehrenfesťs influence on Einstein's research during those days was
+
+ not very significant. From the available evidence we cannot exclude the possibility
+ of additional meetings before the presentation of the second paper, but also in this
+
+ case it would not appear that there existed a very close collaboration between the two
+ friends. To confirm this impression, we have consulted the Paul Ehrenfest Archives,
+
+ particularly his correspondence and notebooks.
+
+ We have found no evidence of Ehrenfesťs concern with the problem of the quan-
+
+ tum ideal gas in those months of 1924 and 1925. In his notebooks there are scarcely
+ any annotations on this subject. There are many notes on what appears to be the
+
+ 146 "Ich vergaß, Dir in meinem Briefe zuzustimmen zu der statistischen Betrachtung über die Schwank-
+ ungen der Energie des Teilraumes nach der Auffassung der stehenden Schwingungen. Es wäre wohl gut,
+ dies einmal zu publizieren". Einstein to Ehrenfest, 1 1 January 1925 (AEA 10-102).
+
+ 147 Duncan and Janssen (2008).
+
+ 148 "Der Text der Arbeit von S.N. Bose, Plancks Gesetz und Lichtquantenhypothese [réf.] erweckt leicht
+
+ den Eindruck, als ob sich das Plancksche Strahlungsgesetz aus der Vorstellung unabhängiger Lichtkorpus-
+ keln ableiten ließe. Aber das ist nicht der Fall. Unabhängige Lichtkorpuskeln würden dem Strahlungsgesetz
+
+ von W. Wien entsprechen" (Ehrenfest 1925, p. 364, note 1). Ehrenfesťs emphasis.
+
+ Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:38:04 UTC
+All use subject to https://about.jstor.org/terms
+
+ 604 E. Pérez, T. Sauer
+
+ calculations for his paper of 1925 on fluctuations.149 These series of annotations date
+
+ back to mid-December 1924. Among them we find references to "Einstein's fluctua-
+
+ tions" and to the comments of Tatiana to which he referred in the paper.
+
+ In the lists of points that indicate something like topics to be treated next we can
+
+ find references to light quanta, e.g., in this one:
+
+ hv- corpuscles
+ 8Q/T in Quantumth.[eory]
+
+ Radiat.[ion] Fluctuations]
+ 1 /N' <-> Gibbs Paradox
+ - ► Bose
+
+ 150
+
+ . . . ,
+
+ In any case, there is not an alluvium of annotations related to the new way of count-
+
+ ing introduced by Bose. Certainly, there are isolated annotations on Bothe's works or
+
+ on Gibbs's paradox and the N ¡-factor, but nothing more.
+
+ Let us recall again that the combinatorie observations that Einstein did in his second
+
+ paper on gas theory did not need any extensive of sophisticated calculations, at least
+
+ for Ehrenfest, who was deeply convinced that only some kind of dependence among
+ quanta might lead to Planck's law. We would not be surprised if the way, in which
+
+ Einstein demonstrated the peculiarities of the new statistics was suggested to him by
+ Ehrenfest. But we have no evidence for this possibility.
+
+ On the contrary, nothing seems to indicate that Ehrenfest collaborated closely with
+
+ Einstein in the months between the arrival of Bose's letter and the publication of the
+ third paper.151 According to him, in those days:
+
+ About my scientific things, all goes so incredibly bad, that I would be very happy
+ if I could already retire!152
+
+ (Ehrenfest was 46 years old). The density of annotations in his notebooks is indeed
+
+ not very high; but then annotations could have been done in notebooks that no longer
+ exist, and Ehrenfest's tendency to underestimate both his capacities and his achieve-
+ ments is notorious.
+
+ 149 See ENB: 1-28 and ENB: 1-29, from April 1923 to December 1926. In EHA, microfilms AHQP/EHR-4
+ and AHQP/EHR-5.
+
+ 150 ENB: 1-29, probably around 24 December. In EHA, microfilm AHQP/EHR-5.
+
+ 151 In a letter he wrote in May 1927, Ehrenfest asked Einstein for offprints of subsequent papers to the
+ second one of the theory of the quantum ideal gas. The non-statistical paper is then the first one he had no
+
+ offprint of. However, we do not think this coincidence is significant. Ehrenfest to Einstein, 16 May 1927
+ (AEA 10-164).
+
+ 152 Ehrenfest to Joffé, 16 February 1925. In Moskovchenko and Frenkel (1990, p. 186).
+
+ Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:38:04 UTC
+All use subject to https://about.jstor.org/terms
+
+ Einstein's quantum theory of the monatomic ideal gas 605
+
+ 8 A rightfully forgotten paper?
+
+ This question has two opposite answers, depending on whether one refers it to the
+
+ reception that Einstein's work had in the months immediately after its publication, or
+
+ to the attention it has received in later years by historians of quantum physics.
+
+ In the first case the oblivion seems understandable. The practically immediate
+
+ appearance of the revolutionary contributions of 1925 to quantum theory eclipsed
+
+ any possible interest of Einstein's paper. The arguments it contains only concern the
+
+ ideal gas from a thermodynamic perspective. But, what is more important, it includes
+
+ hypotheses that were in open contradiction with the course quantum researches had
+ taken. Many physicists had rejected already the laws of mechanics, and Einstein
+ assumed their validity for describing the motions of the gas molecules.
+
+ The papers of the twenties that refer to Einstein's theory usually mention all three
+
+ installments. This indicates that, in spite of the almost complete lack of comments
+ on it, its existence was known. We are inclined to think that it simply was not of
+
+ any interest to Einstein's colleagues. Einstein justified the considerations of the non-
+
+ statistical paper with the deep dissatisfaction over the statistical route by which he
+ had arrived at the new distribution function. However, the problem was not whether
+
+ his colleagues saw Bose's statistics favorably, but that in the following months the
+ physicists' ideas around the quantum issues changed substantially. Bose's statistics,
+
+ in spite of implying a way of counting that was incompatible with classical statistics,
+ led to an already accepted result. This was much more than could be said of other
+
+ attempts of explaining, for example, the Zeeman effect or the multielectronic spectra.
+
+ This state of affairs appears to be what Niels Bohr was referring to in a postscript he
+
+ added to a paper, after learning about the result of the Bothe-Geiger experiments, in
+
+ July 1925:
+
+ The renunciation of space-time pictures is characteristic of the formal treat-
+
+ ment of problems of the radiation theory and of the mechanical theory of heat
+ attempted in recent papers by de Broglie and Einstein. Especially in consid-
+ eration of the perspectives opened up by these papers, I have thought that the
+
+ discussion presented in the preceding paper might be of some interest, and I have
+
+ therefore decided to publish the paper without change, although the endeavor
+
+ underlying it may now seem hopeless.153
+
+ Although the Bothe-Geiger results supported the light quanta hypothesis before
+ the BKS theory, Bohr insisted on the necessity of giving up the "space-time" pic-
+ tures. As an example, he gave precisely Einstein's theory of the quantum ideal gas.
+ But Bohr's attitude toward Einstein's quantum theory was biased. He mentioned de
+
+ Broglie's dissertation and only the first two papers of Einstein's theory. This omission
+
+ might be deliberate, since the third paper does not fit in that "renunciation" that Bohr
+ alluded to. Einstein's paper begins as follows:
+
+ Motivated by a derivation of Planck's radiation formula, which was given
+ by BOSE and which is based stringently on the hypothesis of light quanta, I
+
+ 153 Bohr (1925). English translation in Stolzenburg (1984, p. 206).
+
+ Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:38:04 UTC
+All use subject to https://about.jstor.org/terms
+
+ 606 E. Pérez, T. Sauer
+
+ recently formulated a theory of the ideal gas. This theory appears justified, if one
+
+ proceeds on the assumption that a light quantum differs (apart from its property
+
+ of polarization) from a monatomic molecule essentially only by the vanishingly
+
+ small rest mass of the quantum.154
+
+ As we have seen, Einstein also assumed the validity of Hamilton's equations for the
+
+ mechanical motion of the gas molecules. Therefore, Einstein took as a starting point
+ what the Danish physicist propagated to "renuncíate."
+
+ In retrospect, Einstein's initial suspicion about Bose's statistics will turn into one
+
+ of the first symptoms of his later distancing himself from quantum mechanics. For
+
+ this reason we find no justification for the neglect of Einstein's paper by historians of
+
+ physics. Perhaps we are dealing here with Einstein's last attempt to contribute posi-
+ tively to the construction of the quantum theory, for which he had done so much. In
+
+ addition, this paper closed the circle he initiated in 1905 with the hypothesis of energy
+
+ quanta. First, the analogy was going one way, now, finally, it was also going the other
+ way. The statistical dependence among light quanta which had limited the analogy
+ with an ideal gas now was found also among molecules. Hence, for the first time the
+ analogy was complete.
+
+ In the months before the fifth Solvay conference, which was devoted to photons and
+
+ electrons, Einstein declined Lorenz's invitation to give a talk on quantum statistics.
+
+ This happened a bit more than 2 years after his trilogy on the ideal quantum gases was
+ published. These are Einstein's words:
+
+ I recall having committed myself to you to give a report on quantum statistics
+ at the Solvay congress. After much reflection back and forth, I come to the
+
+ conviction that I am not competent [to give] such a report in a way that really
+ corresponds to the state of things. The reason is that I have not been able to
+
+ participate as intensively in the modern developments of the quantum theory as
+ would be necessary for this purpose. This is in part because I have on the whole
+
+ too little receptive talent for fully following the stormy developments, in part
+
+ also because I do not approve of the purely statistical way of thinking on which
+ the new theories are founded.155
+
+ 154 "Angeregt durch eine von BOSE herrührende Ableitung der PLANCKschen Strahlungsformel, welche
+ sich konsequent auf die Lichtquantenhypothese stützt, habe ich neulich eine Quantentheorie des idealen
+
+ Gases aufgestellt. Diese Theorie erscheint dann als berechtigt, wenn man von der Überzeugung ausgeht, daß
+ ein Lichtquant (abgesehen von seiner Polarisationseigenschaft) sich von einem einatomigen Molekül im
+ wesentlichen nur dadurch unterschiede, daß die Ruhemasse des Quants verschwindend klein ist" (Einstein
+ 1925b, p. 18).
+
+ 155 "Ich erinnere mich, dass ich Ihnen gegenüber die Verpflichtung übernommen habe, am Solvay-Kon-
+ gress ein Referat zu halten über Quanten-Statistik. Nach vielem Hin- und Her-Überlegen komme ich aber
+
+ zu der Überzeugung, dass ich nicht fähig bin zu einem solchen Referat, das wirklich dem Stande der Dinge
+ entspricht. Der Grund liegt darin, dass ich die moderne Entwicklung der Quantentheorie nicht so intensiv
+
+ habe mitmachen können, wie es hiezu nötig wäre. Das kommt teilweise daher, dass ich überhaupt receptiv
+ zu wenig begabt bin, um der stürmischen Entwicklung völlig zu folgen, teilweise auch daher, weil ich
+
+ innerlich die rein statistische Denkweise, auf denen die neuen Theorien beruhen, nicht billige." Einstein to
+ Lorentz, 17 June 1927 (AEA 71-153). In Pais (1982, pp. 431-432).
+
+ Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:38:04 UTC
+All use subject to https://about.jstor.org/terms
+
+ Einstein's quantum theory of the monatomic ideal gas 607
+
+ In that last year Born had proposed the probabilistic interpretation of the wave func-
+
+ tion. Surely Einstein was thinking of that result, but arguably he must also bear in mind
+
+ that the only possible characterization of the quantum ideal gas was still statistical.
+
+ Ehrenfest shared this rejection. He had noticed several years ago what now appeared
+
+ clearly in Einstein's theory: If the particles were treated as statistically independent
+ ones the law observed and confirmed in the laboratory could never be derived. But
+
+ if anything appears with clarity after examining the correspondence between the two
+
+ friends, and also their publications, it is that not for a glimpse they conceived anything
+
+ similar to the indistinguishability of the particles. That is to say, they always thought
+
+ in terms of a certain "statistical dependence." What did not even cross their minds was
+
+ to think that the way of counting introduced by Bose - and, in a certain way, already
+
+ by Planck - could be, in fact, a new way of counting.
+
+ This is more noticeable if we remember the thesis argued by Don Howard.156
+
+ According to him, Einstein was also aware, since 1909, that statistically independent
+
+ quanta would never lead to Planck's radiation law. Until he received Bose's letter and
+ manuscript, he had never applied the analogy from quanta to molecules. Therefore,
+ indistinguishability was far from being born in 1924. Furthermore, Howard claims
+ that it was entanglement which mainly worried Einstein in the new mechanics, not
+
+ probability. Expressions used by Einstein, like "incriminated statistics" or "purely
+ statistical way of thinking" as well as the goal of the non-statistical paper we have
+
+ analyzed support this claim.
+
+ However, Einstein became more and more convinced of the good sense of his
+
+ approach to the quantum ideal gas. He was interested in new experimental results
+ to test the quantum corrections.157 Only the statistical side deserved contemptuous
+
+ comments by his author. As he told to Ehrenfest, he tried to ensure the macroscopic
+
+ (thermodynamic) facts in order to build - or to have an intuition of - the mechanics
+ behind them. Only a new mechanics would square with an ideal gas with such odd
+
+ properties.
+
+ But Einstein's paper also displayed an ambiguity, which also would contribute
+ to his colleagues' lack of interest in his third paper on the subject. The ambiguity
+ comes to the fore in his questioning the very concept of ideal gas, and this questioning
+
+ was precisely the idea under analysis. For instance, in the introduction to the paper,
+ Einstein announced he would not assume that collisions between molecules are gov-
+
+ erned by mechanics. In fact, what he did in the paper is, to neglect them, as corre-
+
+ sponds to an ideal gas. But neither Einstein nor Ehrenfest appear to have given up the
+ expectation that Bose's counting could conceal some kind of "quantum influence,"
+ which prevented one from talking properly of an ideal gas; Einstein considered some
+ kind of "thermal forces."158 The waves, and particularly the way in which de Brog-
+
+ lie introduced them in the quantum treatments, might allow a recomposition of the
+
+ puzzle into which the ideal quantum gas had turned. Einstein's initial preference for
+
+ 156 Howard (1990).
+
+ 158 See footnote 56.
+
+ 157 See Einstein to Kamerlingh Onnes, 4 November 1924; Kamerlingh Onnes to Einstein, 13 November
+ 1924 (AEA 14-384, 14-386).
+
+ Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:38:04 UTC
+All use subject to https://about.jstor.org/terms
+
+ 608 E. Pérez, T. Sauer
+
+ Schrödinger's wave mechanics, in opposition to the matrix mechanics of Heisenberg,
+ Born and Jordan, is as much known as understandable.
+
+ The last "positive contribution" of Einstein to statistical physics includes a paper in
+
+ which he offered arguments independent of the "incriminated statistics," because what
+
+ nowadays is called Bose-Einstein's statistics was not more, according to its creator,
+
+ than a calculatory artifice absolutely devoid of any physical meaning. It was simply a
+ consequence of using the wrong mechanics or of not considering some kind of inter-
+
+ action. As Einstein explained to Halpern, it "cannot be considered as giving a true
+ theoretical basis to Planck's law."
+
+ Acknowledgments We thank Luis Navarro for reading an early version of the manuscript and making
+ interesting comments on it. The focus of our attention on the third paper by Einstein on the quantum ideal
+
+ gas, is due to his suggestion. Conversations with Pere Seglar have also helped very much in elucidating
+ some statistical (and non-statistical) points discussed in this paper. T.S. thanks the Max Planck Institut for
+
+ the History of Science and its history of quantum physics group for their hospitality in the summer 2009.
+
+ References
+
+ Bacciagaluppi, G., and A. Valentini. 2009. Quantum theory at the crossroads. Reconsidering the 1927
+
+ Solvay conference. Cambridge: Cambridge University Press.
+
+ Balibar, F., О. Darrigol, and В. Jech, eds. 1992. Oeuvres choisies d'Einstein /. Quanta. Paris: Seuil-CNRS.
+
+ Bergia, S. 1987. Who discovered the Bose-Einstein statistics? In Symmetries in physics (1600-1980), ed.
+ M.G. Doncel, A. H. A. Hermann, L. Michel, and A. Pais, 223-250. Sant Feliu de Guixols, Spain: Seminari
+ ď História de les Ciències, Univ. Autonoma de Barcelona.
+
+ Blanpied, W. 1972. Satyendranath Bose: Co-Founder of Quantum Statistics. American Journal of Physics
+
+ 40: 1212-1220.
+
+ Bohr, N. 1925. Über die Wirkung von Atomen bei Stößen. Zeitschrift für Physik 34: 142-157.
+
+ Born, M. 1949. Einstein's statistical theories. In Albert Einstein: Philosopher-Scientist , ed. P.A. Schilpp,
+
+ pp. 162-177. Evanston, IL: The Library of Living Philosophers.
+
+ Born, M. ed. 2005. The Born- Einstein Letters 1916-1925. Friendship, Politics, and physics in uncertain
+ times. New York: MacMillan. Introduction by Wener Heisenberg, Foreword by Bertrand Russell, New
+ Preface by Diana Buchwald and Kip Thome.
+
+ Born, M., W. Heisenberg, and P. Jordan. 1926. Zur Quantenmechanik. II. Zeitschrift fur Physik 35: 557-615.
+
+ Bose, S.N. 1924. Plancks Gesetz und Lichtquantenhypothese. Zeitschrift für Physik 26:178-181.
+ Bridgman, P. 1922. Dimensional analysis. New Haven: Yale University Press.
+
+ Buckingham, E. 1914. On physically similar systems; illustrations of the use of dimensional equations.
+
+ Physical Review 4: 345-376.
+
+ Carneiro, F.L. 2000. On the use, by Einstein, of the principle of dimensional homogeneity, in the problems
+
+ of the physics of solids. Anais da Academia Brasileira de Ciências 72:591-596.
+
+ Darrigol, О. 1991. Statistics and combinatorics in early quantum theory, II: Early symptoma of indistin-
+ guishability and holism. Historical Studies in the Physical and Biokmcal Sciences 2 1 (2): 237-298.
+
+ Delbrück, M. 1980. Was Bose-Einstein Statistics arrived at by serendipity? Journal of Chemical Education
+
+ 7: 467-470.
+
+ Desalvo, A. 1992. From the chemical constant to quantum statistics: A thermodynamic route to quantum
+
+ mechanics. Physis 29 (2): 465-537.
+
+ Duncan, A., and M. Janssen. 2008. Pascual Jordan's resolution of the conundrum of the wave-particle
+
+ duality of light. Studies in the History and Philosophy of Modern Physics 39: 634-666.
+
+ Earman, J., and M. Janssen. 1993. Einstein's explanation of the motion of mercury's perihelion. In The
+
+ attraction of gravitation : New studies in the history of general relativity , ed. J. Earman, M. Janssen, and
+ J.D. Norton, 129-172. Boston, Basel, Berlin: Birkhäuser.
+
+ Ehrenfest, P. 1906a. Bemerkung zu einer neuen Abhandlung des Wienschen Verschiebungsgesetzes. Phys-
+
+ ikalische Zeitschrift 1: 1 19-120. (Reprinted in Klein 1959c. Doc. 8. d. 1 19.Ì
+
+ Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:38:04 UTC
+All use subject to https://about.jstor.org/terms
+
+ Einstein's quantum theory of the monatomic ideal gas 609
+
+ Ehrenfest, P. 1906b. Bemerkung zu einer neuen Abhandlung des Wienschen Verschiebungsgesetzes. (Ant-
+ wort auf Herrn Jeans' Entgegnung). Physikalische Zeitschrift 7:850-852. (Reprinted in Klein 1959c,
+ Doc. 10, pp. 125-127.)
+
+ Ehrenfest, P. 19 1 1 . Welche Züge der Lichtquantenhypothese spielen in der Theorie der Wärmestrahlung eine
+ wesentliche Rolle? Armalen der Physik 36:91-1 18. (Reprinted in Klein 1959c, Doc. 24, pp. 185-212.)
+
+ Ehrenfest, P. 1924. Teoriia kvantov. ZhRFKhO 56: 449-450.
+
+ Ehrenfest, P. 1925. Energieschwankungen im Strahlungsfeld oder Kristallgitter bei Superposition quanti-
+
+ sierter Eigenschwingungen. Zeitschrift fiir Physik 34: 362-373. (Reprinted in Klein 1959c, Doc. 56, pp.
+ 513-524).
+
+ Ehrenfest, T. 1926. Dimensional Analysis viewed from the Standpoint of the Theory of Similitudes. Philo-
+
+ sophical Magazine 5 1 : 257-272.
+
+ Ehrenfest, P., and V. Trkal. 1920. Deduction of the dissociation equilibrium from the theory of quanta
+ and a calculation of the chemical constant based on this. Koninklijke Akademie van Wetenschappen te
+ Amsterdam. Section of Sciences. Proceedings 23: 162-183. (Reprinted in Klein 1959c, Doc. 40, pp.
+ 414-435.)
+
+ Einstein, A. 1905. Über einen die Erzeugung und Verwandlung des Lichtes betreffenden heuristischen
+
+ Gesichtspunkt. Armalen der Physik 17: 132-148. (Reprinted in Stachel 1991, Doc. 14, pp. 150-169.
+
+ Einstein, A. 1909a. Uber die Entwicklung unserer Anschauungen über das Wesen und die Konstitution
+ der Strahlung. Physikalische Zeitschrift 10 (22): 817-825. (Reprinted in Stachel 1991, Doc. 60, pp.
+ 563-583).
+
+ Einstein, A. 1909b. Zum gegenwärtigen Stand des Strahl ungsproblems. Physikalische Zeitschrift 10 (6):
+
+ 185-193. (Reprinted in Stachel 1991, Doc. 56, 541-553).
+
+ Einstein, A. 1911a. Eine Beziehung zwischen dem elastischen Verhalten und der spezifischen Wärme bei
+
+ festen Körpern mit einatomigen Molekül. Annalen der Physik 34: 170-174. (Reprinted in Klein et al.
+ 1993, Doc. 13, 40-414).
+
+ Einstein, A. 191 lb. Elementare Betrachtungen über die thermische Molekularbewegung in festen Körpern.
+
+ Annalen der Physik 35 (9):679-694. (Reprinted in Klein et al. 1993, Doc. 21, 45-480).
+
+ Einstein, A. 1916a. Strahlungs-Emission und - Absorption nach der Quantentheorie. Deutsche Physikalische
+
+ Gesellschaft. Verhandlungen 1 8(1 3/1 4):3 18-323. (Reprinted in Kox et al. 1996, Doc. 34, 36-370.)
+
+ Einstein, A. 1916b. Zur Quantentheorie der Strahlung. Deutsche Physikalische Gesellschaft. Verhandlungen
+
+ 16 (18): 47-62. (Reprinted in Kox et al. 1996, Doc. 38, pp. 381-398.)
+
+ Einstein, A. 1923. Bietet die Feldtheorie Möglichkeiten für die Lösung des Quantenproblems? Königliche
+
+ Preußische Akademie der Wissenschaften. Sitzungsberichte, 359-364.
+
+ Einstein, A. 1924. Quantentheorie des einatomigen idealen Gases. Königliche Preußische Akademie der
+
+ Wissenschaften. Sitzungsberichte, 261-267.
+
+ Einstein, A. 1925a. Quantentheorie des einatomigen idealen Gases. Zweite Abhandlung , 3-14. Sit-
+ zungsberichte der Preußischen Akademie der Wissenschaften (Berlin). Physikalisch-mathematische
+ Klasse.
+
+ Einstein, A. 1925b. Zur Quantentheorie des idealen Gases , 18-25. Sitzungsberichte der Preußischen
+
+ Akademie der Wissenschaften (Berlin). Physikalisch-mathematische Klasse.
+
+ Einstein, A., and P. Ehrenfest. 1922. Quantentheoretische Bemerkungen zum Experiment von Stern und
+
+ Ezawa, H. 1979. Einstein's contribution to statistical mechanics, classical and quantum. Japanese Studies
+
+ Gerlach. Zeitschrift für Physik 1 1 : 31-34.
+
+ in the History of Science 18: 27-72.
+
+ Frenkel, V.l. 1971. Paul Ehrenfest. Moscow: Atomizdat.
+ Frenkel, V.l., and P. Josephson. 1990. Soviet Physicists awarded stipends by the Rockefeller Foundation.
+
+ Uspekhi Fizicheskii Nauk 160: 103-134.
+
+ Hall, K. 2008. The schooling of Lev Landau. Osiris 23: 230-259.
+ Hanle, P.A. 1977. The coming of age of Erwin Schrödinger: His quantum statistics of ideal gases. Archive
+
+ for History of Exact Sciences 17: 165-192.
+
+ Howard, D. 1990. 'Nicht sein kann was nicht sein darf'. Or the prehistory of EPR, 1909-1935: Einstein s
+
+ early worries about the quantum mechanics of composive systems. In Sixty-two years of uncertainty:
+ Historical, philosophical, physics inquiries into the foundations of quantum physics , ed. A. Miller, pp.
+ 1-51. New York: Plenum.
+
+ Huijnen, P., and A. Kox. 2007. Paul Ehrenfest's rough road to Leiden: A physicist s search for a Position.
+
+ Physics in Perspective 9: 186-21 1.
+
+ Hund, F. 1975. Geschichte der Quantentheorie. Mannheim: Bibliographisches Institut.
+
+ £) Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:38:04 UTC
+All use subject to https://about.jstor.org/terms
+
+ 610 E. Pérez, T. Sauer
+
+ Jammer, M. 1966. The conceptual development of quantum mechanics. New York: McGraw Hill.
+ Jeans, J.H. 1905. On the laws of radiation. Proceedings of the Royal Society of London A 76: 545-552.
+
+ Jeans, J.H. 1906. Bemerkung zu einer neuen Ableitung des WIENschen Verschiebungsgesetzes. Erwiderung
+
+ auf P. Ehrenfest's Abhandlung. Physikalische Zeitschrift 7: 667.
+
+ Jeans, J.H. 1914. Report on radiation and the quantum theory. London: The Electrician.
+ Jeans, J.H. 1924. Report on radiation and the quantum theory. London: Fleetway Press.
+
+ Jordan, P. 1925. Über das thermische Gleichgewicht zwischen Quantenatomen und Hohlraumstrahlung.
+
+ Zeitschrift für Physik 33: 649-655.
+
+ Klein, M.J. 1959a. Ehrenfest's contributions to the development of quantum statistics. I. Koninklijke
+
+ Akademie van Wetenschappen te Amsterdam. Section of Sciences. Proceedings B62: 41-50.
+
+ Wein, M.J. 1959b. Ehrenfest's contributions to the development of quantum statistics. II. Koninklijke
+
+ Akademie van Wetenschappen te Amsterdam. Section of Sciences. Proceedings B62: 51-62.
+
+ Wein, M. J., ed. 1959c. Paul Ehrenfest. Collected scientific papers (with an introduction by H.B.G. Casimir).
+
+ Amsterdam: North-Holland.
+
+ Wein, M.J. 1964. Einstein and the wave-particle duality. The Natural Philosopher 3: 3-49.
+ Wein, M.J. 1985. Paul Ehrenfest, vol. 1. The making of a theoretical physicist. Amsterdam: Elsevier.
+
+ Wein, M. J., A. J. Kox, J. Renn, and R. Schulmann, eds. 1993. The collected papers of Albert Einstein, vol.
+
+ 3. The Swiss Years : Writings, 1909-1911. Princeton, NJ: Princeton University Press.
+
+ Wein, M. J., A.J. Kox, and R. Schulmann, eds. 1993. The collected papers of Albert Einstein, vol. 5. The
+
+ Swiss Years : Correspondence, 1902-1914. Princeton, NJ: Princeton University Press.
+
+ Kormos Buchwald, D., T. Sauer, Z. Rosenkranz, J. Illy, and V.l. Holmes, eds. 2006. The collected papers of
+ Albert Einstein. Vol.10. The Berlin Years : Correspondence, May-December 1920 ; and supplementary
+ correspondence, 1909-1920. Princeton: Princeton University Press.
+
+ Kox, A. J., M.J. Klein, and R. Schulmann, eds. 1996. The collected papers of Albert Einstein, vol. 6. The
+
+ Berlin Years : 1914-1917. Princeton: Pinceton University Press.
+
+ Krutkow, I. 1914a. Aus der Annahme unabhängiger Licht-quanten folgt die Wiensche Strahlungsformel.
+
+ Physikalische Zeitschrift 15: 133-136.
+
+ Krutkow, I. 1914b. Bemerkung zu Herrn Wolfkes Note: Welche Strahlungsformel folgt aus der Annahme
+
+ der Lichtatome. Physikalische Zeitschrift 15: 363-364.
+
+ Kuhn, T.S. 1978. Black-body theory and the quantum discontinuity, 1894-1912. New York: Oxford Uni-
+
+ versity Press.
+
+ Kuhn, T.S., J.L. Heilbron, P.L. Forman, and L. Allen. 1967. Sources for the history of quantum physics. An
+
+ inventory and report. Philadelphia: The American Philosophical Society.
+
+ Langevin, P., and M.d. Broglie, eds. 1912. La theorie du rayonnement et les quanta. Brüssel: Gauthier-
+
+ Lorentz, H.A. 1901. Boltzmann's and Wien's laws of radiation. Koninklijke Akademie van Wetenschappen
+
+ te Amsterdam. Section of Sciences. Proceedings 3: 607-620.
+
+ Lorentz, H.A. 1903. On the emission and absorption by metals of rays of heat of great wavelengths. Kon-
+
+ inklijke Akademie van Wetenschappen te Amsterdam Section of Sciences. Proceedings 5: 666-685.
+
+ Magagno, E. 1971 . Historico-critical review of dimensional analysis. Journal of the Franklin Institute 292 :
+
+ Mehra, J., and H. Rechenberg. 1982. The historical development of quantum theory, vol. 1 in 2 parts.
+ The quantum theory of Planck, Einstein and Sommerfeld: Its foundation and the rise of its difficulties
+ 1900-1925. New York: Springer.
+
+ Mehra, J., and H. Rechenberg. 1984. The historical development of quantum theory, vol. 4, part 1: The
+
+ fundamental equations of quantum mechanics 1925-1926. New York: Springer.
+
+ Miranda, E. 2002. Adiabatic reversible compression: A molecular view. European Journal of Physics 23:
+
+ Monaldi, D. 2009. A note on the prehistory of indistinguishable particles. Studies in the history and philos-
+
+ ophy of modern physics. doi:10.1016/i.shpsb.2009.09.005.
+
+ Moskovchenko, N.I., and V. Frenkel, eds. 1990. Ehrenfest-Ioffe. Nauchnaya Perepiska 1907-1933 gg..
+
+ Leningrad: Nauka.
+
+ Navarro, L. 2009. Einstein, profeta y hereje. Barcelona: Tusquets.
+
+ Navarro, L., and E. Pérez. 2004. Paul Ehrenfest on the necessity of quanta (191 1): Discontinuity, quantiza-
+
+ tion, corpuscularity, and adiabatic invariance. Archive for History of Exact Sciences 58: 97-141.
+
+ Navarro, L., and E. Pérez. 2006. Paul Ehrenfest: The genesis of the adiabatic hypothesis, 1911-1914.
+
+ Archive for History of Exact Sciences 60: 209-267.
+
+ Villars.
+
+ 391-402.
+
+ 389-393.
+
+ Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:38:04 UTC
+All use subject to https://about.jstor.org/terms
+
+ Einstein's quantum theory of the monatomic ideal gas 61 1
+
+ NN, ed. 1928. Electrons et photons. Rapports et discussions du cinquième conseil de physique tenu a
+
+ Bruxelles du 24 au 29 octobre 1927. Paris: Gauthier- Villars.
+
+ Pais, A. 1982. ' Subtle is the Lord... ' The science and the life of Albert Einstein. Oxford: Oxford University
+
+ Press.
+
+ Pais, A. 1994. Einstein lived here. Oxford, New York: Clarendon Press, Oxford University Press.
+ Pathria, R. 2007. Statistical mechanics. Oxford: Butterworth Heinemann.
+
+ Pérez, E. 2009. Ehrenfesťs adiabatic hypothesis and the old quantum theory, 1916-191 S.Archive for History
+
+ of Exact Sciences 63: 81-127.
+
+ Planck, M. 1900. Zur Theorie des Gesetzes der Energieverteilung im Normalspectrum. Deutsche Physika-
+
+ lische Gesellschaft. Verhandlungen 2(17): 237-245.
+
+ Planck, M. 1925a. Über die statistische Entropiedefinition, 442-451. Sitzungsberichte der Preußischen
+
+ Akademie der Wissenschaften (Berlin). Physikalisch-mathematische Klasse.
+
+ Planck, M. 1925b. Zur Frage der Quantelung einatomiger Gase, 49-57. Sitzungsberichte der Preußischen
+
+ Akademie der Wissenschaften (Berlin). Physikalisch-mathematische Klasse.
+
+ Planck, M. 1926. Eine neue statistische Definition der Entropie. Zeitschrift für Physik 35: 155-169.
+
+ Planck, M. 1958. Physikalische Abhandlungen und Vorträge, 3 vols., Braunschweig: Vieweg.
+ Planck, M. 1988. The theory of heat radiation. Los Angeles: Tomash Publishers and American Institue of
+
+ Physics. Introduction by Allan Needell. This book contains the original German edition of 'Vorlesungen
+ über die Theorie der Wärmestrahlung,' 1906; it also contains the English translation, 1914, of the second
+ German edition.
+
+ Przibram, K., ed. 1967. Schrödinger, Planck, Einstein, Lorentz : Letters on wave mechanics. New York:
+
+ Sackur, O. 1911. Die Anwendung der kinetischen Theorie der Gase auf chemische Probleme. Annalen der
+
+ Sauer, T. 2007. Einstein and the early history of superconductivity, 1919-1 922. Archive for History of Exact
+
+ Sauer, T., and U. Majer, eds. 2009. David Hilberts lectures on the foundations of physics, 1915-1927.
+
+ Philosophical Library.
+
+ Physik 36: 958-980.
+
+ Sciences 61:1 59-2 1 1 .
+
+ Dordrecht: Springer.
+
+ Schilpp, P.A., ed. 1949. Albert Einstein: Philosopher-scientist. La Salle: Open Court.
+ Schrödinger, E. 1921 . Isotopie und Gibbssches Paradoxon. Zeitschrift für Physik 5: 163-166.
+ Schrödinger, E. 1925. Bemerkungen über die statistische Entropiedennition beim idealen Oas, 434-441.
+ Sitzungsberichte der Preußischen Akademie der Wissenschaften (Berlin). Physikalisch-mathematische
+ Klasse.
+
+ Schrödinger, E. 1926a. Der stetige Übergang von der Mikro- zur Makromechanik. Die Naturwissenschaften
+
+ 14: 664-666.
+
+ Schrödinger, E. 1926b. Zur Einsteinschen Gastheorie. Physikalische Zeitschrift 27: 95-101.
+ Schulmann, R., A. Kox, M. Janssen, and J. Illy, eds. 1998. The collected papers of Albert Einstein, vol. 8.
+
+ The Berlin years : Correspondence, 1914-1918. Princeton: Princeton University Press.
+
+ Smekal, A. 1925. Zwei Beiträge zur Bose-Einsteinschen Statistik. Zeitschrift für Physik 33: 613-622.
+ Smekal, A. 1926. Allgemeine Grundlagen der Quantenstatistik und Quantentheorie. In Encyclopädie der
+ mathematischen Wissenschaften. Vol. 5 (1909-1926), 3. Teil, No. 28, ed. A. Sommerfeld, 861-1214.
+ Leipzig: Teubner.
+
+ Speziali, P., ed. 1972. Albert Einstein - Michele Besso. Correspondance 1903-1955. Paris: Hermann.
+ Stachel, J., ed. 1991. The collected papers of Albert Einstein, vol. 2. The Swiss Years : Writings, 1900-1909.
+
+ Stolzenburg, K„ ed. 1984. Niels Bohr. Collected works, vol. 5. The emergence of quantum mechanics (mainly
+
+ Princeton, NJ: Princeton University Press.
+
+ 1924-1926). Amsterdam: North-Holland.
+
+ Tetrode, H. 1912a. Die chemische Konstante der Gase und das elementare Wirkungsquantum. Annalen der
+
+ Tetrode, H. 1912b. Die chemische Konstante der Gase und das elementare Wirkungsquantum II. Annalen
+
+ Tetrode, H. 1 922. Über den Wirkungszusammenhang der Welt. Eine Erweiterung der klassischen Dynamik.
+
+ Theimer, O., and B. Ram. 1976. The beginning of quantum statistics. American Journal of Physics 44:
+
+ Physik 38: 434-442.
+
+ der Physik 39: 255-256.
+
+ Zeitschrift för Physik 10: 317-328.
+
+ 1056-1057.
+
+ van Delft, D. 2006. Albert Einstein in Leiden. Physics Today 59 (4): 57-72.
+ van der Waerden, B. 1967. Sources of quantum mechanics. Amsterdam: North-Holland.
+
+ Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:38:04 UTC
+All use subject to https://about.jstor.org/terms
+
+ Wali, K.C. 2006. The man behind Bose statistics. Physics Today 59 (10): 46-52.
+ Wheaton, B.R. 1977. Catalogue of the Paul Ehrenfest archive at the Museum Boerhaave, Leiden. Lei-
+
+ den: Communication 151 of the National Museum for the History of Science and Medicine 'Museum
+ Boerhave'.
+
+ 612 E. Pérez, T. Sauer
+
+ Wien, W. 1894. Temperatur und Entropie der Strahlung. Annalen der Physik 52: 132-165.
+ Wien, W. 1909. Theorie der Strahlung. In Encyclopädie der mathematischen Wissenschaften. Vol. 5 ( 1909 -
+
+ 1926), 3. Teil, No. 23 , ed. A. Sommerfeld, 282-357. Leipzig: Teubner.
+
+ Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:38:04 UTC
+All use subject to https://about.jstor.org/terms
+
+

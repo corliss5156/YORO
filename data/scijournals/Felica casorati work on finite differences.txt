@@ -1,0 +1,5148 @@
+ 
+
+ 
+
+ 
+
+ 
+
+Felice Casorati's work on finite differences and its influence on Salvatore Pincherle
+Author(s): Riccardo Rosso
+Source: Archive for History of Exact Sciences, Vol. 69, No. 2 (March 2015), pp. 153-215
+Published by: Springer
+Stable URL: https://www.jstor.org/stable/24569623
+Accessed: 18-05-2020 09:20 UTC
+
+JSTOR is a not-for-profit service that helps scholars, researchers, and students discover, use, and build upon a wide
+
+range of content in a trusted digital archive. We use information technology and tools to increase productivity and
+
+facilitate new forms of scholarship. For more information about JSTOR, please contact support@jstor.org.
+
+Your use of the JSTOR archive indicates your acceptance of the Terms & Conditions of Use, available at
+
+https://about.jstor.org/terms
+
+Springer is collaborating with JSTOR to digitize, preserve and extend access to Archive for
+History of Exact Sciences
+
+This content downloaded from 203.78.15.150 on Mon, 18 May 2020 09:20:14 UTC
+All use subject to https://about.jstor.org/terms
+
+ Arch. Hist. Exact Sci. (2015) 69:153-215
+ DOI 10.1007/s00407-014-0143-7
+
+ Felice Casorati's work on finite differences and its
+
+ influence on Salvatore Pincherle
+
+ Riccardo Rosso
+
+ Received: 26 June 2014 / Published online: 18 September 2014
+
+ © Springer-Verlag Berlin Heidelberg 2014
+
+ Abstract This paper, which is mainly based on unpublished material, focuses on the
+ scientific influence that Felice Casorati exerted on Salvatore Pincherle. This influence
+
+ can be traced, in particular, in Casorati's work on the finite-difference calculus as
+
+ conceived and published between 1879 and 1880 when Pincherle was living in Pavia.
+
+ Casorati's work has an interesting back story related to his entry to the 1880 Grand
+
+ Prix of the French Académie des Sciences that helps us in understanding Casorati's
+
+ personality. Moreover, the correspondence that Casorati exchanged with other math
+
+ ematicians on his work reveals that some of the results contained in Casorati (Annali
+
+ di Matematica pura ed applicata 10(S. II): 10-45,1880b) had been obtained—though
+
+ in a narrower context—in an early paper by Christoffel. Finally, the letters between
+
+ Casorati and Pincherle contain a short unpublished note by Pincherle on a paper by
+ Jules Tannery (Ann Sci. l'École Norm Super 4(S. II): 113-182,1875). This note offers
+
+ the first evidence of the influence of Casorati (Annali di Matematica pura ed applicata
+ 10(S. II): 10-45, 1880b) on Pincherle's work on the finite-difference calculus.
+
+ 1 Introduction
+
+ Felice Casorati (1835-1890) and Salvatore Pincherle (1853-1936) are representa
+ tives of two successive generations of Italian mathematicians: Casorati, jointly with
+
+ Francesco Brioschi, Enrico Betti, Eugenio Beltrami, and Ulisse Dini, played an impor
+
+ tant rôle in the renaissance of Italian mathematics that intertwined with the political
+
+ Communicated by: Umberto Bottazzini.
+
+ R. Rosso (El)
+
+ Dipartimento di Matematica "F. Casorati", Université degli Studi di Pavia,
+ viaFerrata, 5,27100 Pavia, Italy
+ e-mail: riccardo.rosso@unipv.it
+
+ Ô Springer
+
+This content downloaded from 203.78.15.150 on Mon, 18 May 2020 09:20:14 UTC
+All use subject to https://about.jstor.org/terms
+
+ 154
+
+ R. Rosso
+
+ events leading to unification of Italy. An important step in this process was Italy's
+
+ entry into the main stream of European mathematical research as cultivated in Paris,
+
+ Gottingen, and Berlin. In this sense, the journey through Europe that Casorati, jointly
+
+ with Betti and Brioschi, performed in 1858 cannot be underestimated, since first
+
+ hand information on the main trends in mathematics were gained and then diffused
+
+ in Italy (Volterra 1902). Casorati's relevant efforts culminated with the publication
+
+ of the volume Teorica delle funzioni di variabili complesse (Casorati 1868) where he
+
+ expounded the main results in complex analysis, with particular attention to Riemann's
+
+ approach (see Bottazzini 1994, Chaps. IV and VI).
+
+ Pincherle, jointly with Luigi Bianchi, Ernesto Cesàro, Giuseppe Peano, Vito
+ Volterra, and Tullio Levi-Civita, belonged to the subsequent generation of mathemati
+
+ cians who contributed to the strengthening of Italy's position within the international
+
+ scientific community. His main contributions were in the field of functional (linear)
+
+ calculus where he worked for more than thirty years along a route distinct from the
+
+ one that Vito Volterra followed in the same period.
+
+ Pincherle graduated from Pisa as a student of the Scuola Normale Superiore and
+
+ spent his academic life entirely in Bologna. His first scientific interest was in the
+
+ theory of capillarity which was the subject of his thesis (Tesi di Laurea) published
+ in the Nuovo Cimento (Pincherle 1874) with a short addition (Pincherle 1875). In
+
+ 1875, when he moved to Pavia to teach at the Liceo Ginnasio "Ugo Foscolo", he was
+
+ recommended to Felice Casorati by Ulisse Dini:1
+
+ Busy as I am, / cannot write at length to you. Just a couple of words to introduce
+
+ you Dr. Salvatore Pincherle, one of the best students of both our University and our
+
+ Scuola, at present Professor at the Liceo in Pavia. You will find in him a studious young
+
+ man, willing and very ingenious. Please, help him and advise him in his studies.
+
+ November 5th, 75
+
+ Occupato come sono, non posso in questo momento scriverti a lungo. Ti scrivo soltanto due parole per
+
+ presentarti il Dr. Salvatore Pincherle, uno dei migliori allievi della nostra Università e della nostra Scuola,
+ attualrnente Professore al Liceo di Pavia. Troverai in Lui un giovane studioso e volenteroso di fare e con
+
+ molto ingegno. Ajutalo e consiglialo nei suoi studi.
+
+ U. Dini
+
+ 5. 9bre 75
+
+ Tuo aff. amico,
+
+ U. Dini
+
+ Dear Casorati
+
+ Yours sincerely
+
+ 1
+
+ Caro Casorati
+
+ Credimi
+
+ â Springer
+
+This content downloaded from 203.78.15.150 on Mon, 18 May 2020 09:20:14 UTC
+All use subject to https://about.jstor.org/terms
+
+ Felice Casorati's influence on Salvatore Pincherle
+
+ 155
+
+ This short letter opened the way to Casorati's and Pincherle's personal relationship
+
+ that lasted for 15 years, up to the untimely death of Casorati in 1890. Their correspon
+
+ dence amounts to some 80 letters that have been kept in Casorati's archive.2 These
+
+ letters provide some further information about Casorati's influence on Pincherle. At
+
+ the very beginning of his stay in Pavia, Pincherle had devoted his interests to the the
+
+ ory of minimal surfaces that formed the subject of three notes (Pincherle 1876a,b,c)
+
+ published in 1876, but the interaction with Casorati turned his attention to differen
+
+ tial equations. Shortly thereafter Pincherle obtained a fellowship to spend a year in
+ Berlin, where he met Weierstrass, whose methods were to exert a decisive influence on
+
+ his scientific activity (Bottazzini 1994, Chap. VI). Direct contacts with Casorati were
+
+ resumed in 1878 when Pincherle came back to Pavia from Berlin. At the beginning of
+
+ 1879, Pincherle applied for the habilitation (libera docenza) in higher calculus at the
+
+ University of Pavia. A local committee examined his application and, the judgement
+
+ being positive, on May 9 the Faculty approved his habilitation, which was ratified by
+
+ the Ministry of Education at the end of 1879.3 Consequently, in the fall semester 1879—
+
+ 1880, Pincherle gave a course in the higher calculus (Analisi superiore) that Beltrami
+
+ and Casorati among others attended,4 ** where he offered an exposition of Weier
+
+ strass's views on the theory of analytic functions. Pincherle's lectures and, more impor
+
+ tantly, his long account of them published in Battaglini's Giornale di Matematiche
+
+ (Pincherle 1880) contributed significantly to the spread of Weierstrass's ideas in Italy.5
+
+ In the period 1878-1880 Pincherle also attended Casorati's lectures on higher calculus,
+
+ as he reminded in the following letter addressed to Casorati in 1888:
+
+ Bologna, li 25/3/88
+
+ Dear Professor
+
+ During the researches on fiinctional operations represented by definite integrals
+
+ and on their inversion, on which I have been working for a while, it occurred to me
+ to study linear differential equations, whose solution is a problem that arises as a
+
+ particular case in the inversion of definite integrals; on this occasion, I rejoiced at
+ having attended the lectures you gave on this subject, sparing to your audience the
+
+ reading, and the not-too-easy digestion, of the Memoirs by Fuchs and Thomé (.. .).6
+
+ 2 Hereafter denoted as his Nachlass, after (Neuenschwander 1978), it is preserved by Casorati's descendants
+
+ in Pavia. It has been made available to me by Prof. Alberto Gabba, to whom I address my warmest thanks.
+
+ 3 The original documents concerning Pincherle's habilitation are kept in the Historical Archive of the
+
+ University of Pavia.
+
+ 4 See Bortolotti (1937).
+
+ 5 See (Bottazzini, 1994, Chap. VI).
+
+ 6 Chiarissimo Sig. Professore
+
+ Nel corso delle ricerche che ho intraprese già da parecchio tempo sulle operazioni funzionali rappresentate
+
+ da integrali definiti e sulla loro inversione, mi è capitato di dover studiare le equazioni differenziali lineari,
+
+ la cui risoluzione è un problema compreso come caso particolare nell'inversione degli integrali definiti; ed
+
+ in questa occasione ho avuto più di una volta da rallegrarmi di avere assistito aile lezioni che Ella ha fatto
+
+ in proposito, risparmiando ai Suoi uditori la lettura e la digestione non troppo agevole delle Memorie di
+ Fuchs e Thomé.
+
+ Ô Springer
+
+This content downloaded from 203.78.15.150 on Mon, 18 May 2020 09:20:14 UTC
+All use subject to https://about.jstor.org/terms
+
+ 156
+
+ R. Rosso
+
+ Actually, since the mid-1870s, Casorati had turned his attention to Fuchs's theory
+
+ of linear differential equations in the complex plane that was consonant with his early
+
+ concern with complex analysis,7 and in the academic years 1878-1879 and 1879-1880
+
+ Casorati based his course in higher calculus on this topic, too. As a comment to the
+
+ opening lecture, held on 16 November 1879, Casorati wrote in his log-book:
+
+ I declare that I will carry out the theory of linear differential equations according
+
+ to Fuchs, etc. as the first topic. They [the students] will find the original memoirs in
+ Borchardt's Journal? (Casorati 1879).
+
+ Casorati's influence on Pincherle had three aspects. Firstly, there was what could
+
+ be called a political influence: Casorati knew personally most of the leading mathe
+
+ maticians in Europe and, together with Betti, introduced Pincherle to Kronecker and
+
+ Weierstrass when he got a fellowship to spend the academic year 1877-1878 in Berlin.
+ Moreover, Casorati was a member of both the Committee that declared Pincherle eli
+
+ gible for the chair of Infinitesimal Analysis in 1880 at Bologna ex aequo with Cesare
+
+ Arzelà, who was preferred to Pincherle on that occasion, and the Committee that
+
+ promoted Pincherle to a full professorship in 1888. In addition, Casorati supported
+
+ Pincherle's election as a corresponding member (Socio Corrispondente) of the Accade
+
+ mia dei Lincei in 1887. Secondly, there was an editorial influence. From 1868, Casorati
+
+ was an effective member of the Royal Istituto Lombardo di Lettere, Scienze ed Arti
+
+ based in Milan, and as such he presented some early papers by Pincherle to this local
+
+ Academy for publication. More importantly, Casorati was a member of the editorial
+
+ board of the Annali di Matematica pura ed applicata that had Francesco Brioschi
+ as the editor in chief. In this capacity, Casorati presented Pincherle's first important
+
+ memoir (Pincherle 1884a) on series expansions for publication in the Annali. Thirdly,
+
+ there was a scientific influence that stemmed from Casorati's 1880 paper on the inter
+
+ pretation of finite difference (Casorati 1880b), to which I will devote more attention
+
+ in the present paper.
+
+ An early acknowledgement of the close connection between Casorati's and
+ Pincherle's researches on that topic was given in the foreword of (Guldberg and Wal
+
+ lenberg 1911) where the authors stated (p. vi).
+
+ In the meanwhile, another area of our discipline underwent a powerful develop
+
+ ment, precisely the formal side of the theory of linear difference equations, due in
+
+ particular to the analogy with algebraic equations, and to the extension of the analo
+
+ gies with linear differential equations. Here, after Casorati, Pincherle with his students
+
+ Bortolotti9 and Amaldi—above all—has built the foundations and, in particular, in
+
+ 7 For a historical account of the rôle of complex function theory on the research in differential equation,
+
+ we refer the reader to Chap. 7 of Bottazzini and Gray (2013).
+
+ 8 Dichiaro che svolgerô per primo argomento la teoria delle equazioni differenziali lineari secondo Fuchs,
+ ecc. Troveranno le memorie originali nel Giornale di Borchardt.
+
+ 9 Ettore Bortolotti, better known as a historian of mathematics, in his early days devoted several papers to
+
+ the formal theory of finite differences, (see for instance Bortolotti 1895).
+
+ ft Springer
+
+This content downloaded from 203.78.15.150 on Mon, 18 May 2020 09:20:14 UTC
+All use subject to https://about.jstor.org/terms
+
+ Felice Casorati's influence on Salvatore Pincherle
+
+ 157
+
+ Chap. 10 of his book on distributive operations,10 he has built the frame, so to say, for
+
+ the edification of such a theory.11
+
+ In his [1880b], Casorati had proved the necessary and sufficient condition for η
+
+ functions of a variable that undergoes discrete increments to be linearly independent
+
+ by introducing a suitably defined determinant, now known as the Casorati determinant,
+
+ or the Casoratian. However, the aspect that Casorati emphasized there was the wide
+
+ spectrum of applications of the classical finite-difference calculus by showing that,
+
+ after suitable interpretations, classical results could be translated into complex function
+
+ theory: in particular, Casorati noticed that the local behaviour of the solution of a linear
+
+ differential equation around a singular point (Fuchs 1866) could be easily obtained by
+
+ adapting finite-difference calculus appropriately.
+
+ Casorati attached great importance to the results contained in his paper. Also urged
+
+ by Brioschi, with great expectation, he decided to apply for the 1880 Grand Prix
+
+ de Mathématiques announced by the French Academy of Sciences, and devoted to
+
+ the theory of differential equations. However, his paper found in Halphen's memoir
+
+ (Halphen 1884) an invincible obstacle to winning the prize, and Casorati had to content
+
+ himself with a special mention shared with the young Henri Poincaré. Casorati's
+
+ (1880b) paper also lies at the heart of a harsh argument that Casorati had with Ludwig
+
+ Stickelberger, who was working somehow on the same topics. The paper (Stickelberger
+
+ 1881), published a few months after (Casorati 1880b), appeared to Casorati as an
+
+ attempt to question, if not to deny, his priority in the applications of finite differences
+
+ to complex analysis. Their controversy reached its climax with the publication of a
+
+ short letter in the Annali (Casorati 1880c) where Casorati staunchly defended his
+
+ primacy in bringing new life to finite-difference calculus.
+
+ In Casorati's Nachlass, there is a folder where Casorati kept most of his correspon
+ dence with several mathematicians concerning both (Casorati 1880b) and the Grand
+
+ Prix. The content of those letters provides us with a vivid account of his personality and
+
+ informs us of the unpredictable events that contributed to hamper his work. Moreover,
+
+ copies of letters that Stickelberger and Casorati sent to Brioschi after the publication of
+
+ (Casorati 1880c) also contain some valuable information, not only because they offer
+
+ an idea of Stickelberger's point of view, but also because there Stickelberger pointed
+
+ out that Casorati's criterion of linear dependence among functions of a discrete variable
+
+ had already been established by Christoffel (1858).
+
+ In Italy, the main results of Casorati (1880b) were made known to a broader audi
+
+ ence through a detailed account that appeared in the Giornale di Matematiche by Paolo
+
+ Cazzaniga, a relative of Casorati's, who presented them as a chapter of the symbolic
+
+ calculus (Cazzaniga 1882). As we shall see, Casorati had denoted the operation map
+
+ ping f(x) into f(x + 1) by Θ, and he had emphasized the importance of conceiving
+
+ 10 We will discuss below in detail the content of Chap. X of the monograph (Pincherle and Amaldi 1901).
+
+ 11 Inzwischen erfuhr aber ein anderes Gebiet unserer Disziplin eine mâchtige Fôrderung, ntolich die for
+
+ mule Seite der Theorie der linearen Differenzengleichungen, insbesondere soweit sie sich auf die Analogien
+
+ mit den algebraischen Gleichungen und auf die entsprechenden Analogien mit den linearen Differential
+ gleichungen erstreckt. Hier hat nach Casorati hauptsâchlich Pincherle mit seinen Schiilern Bortolotti und
+
+ Amaldi der Grundstein gelegt und besonders im 10. Kapitel seiens Buches iiber die distributiven Operationen
+ gewissermaBen das Geriist fur den Aufbau einer solcher Theorie errichtet.
+
+ Springer
+
+This content downloaded from 203.78.15.150 on Mon, 18 May 2020 09:20:14 UTC
+All use subject to https://about.jstor.org/terms
+
+ 158
+
+ R. Rosso
+
+ it as an operator mapping functions into functions. This is the aspect that most influ
+
+ enced Pincherle's subsequent treatment of the θ operator. He first applied Casorati's
+
+ operator to linear differential equations in a short note written in 1885. Even though
+
+ this note was meant to appear in the Rendiconti of the Istituto Lombardo, it was left
+
+ unpublished. There, resorting to Casorati's (1880b) approach, Pincherle re-obtained a
+
+ theorem proved in Tannery (1875) by which Tannery had given a characterization of
+
+ the integrals of a linear differential equation with uniform coefficients in the complex
+
+ plane: a theorem that is the "pleasant converse to Fuchs's main theorem" (Gray 1986,
+
+ p. 90). Pincherle explained his result to Casorati who, though appreciating the sim
+
+ plicity of the latter's result, suggested him to add some more applications. Actually,
+
+ he asked Pincherle to correct a point in Tannery's paper but, as Pincherle could not
+
+ find any relevant mistake at the point indicated by Casorati, he did not insist in the
+
+ publication, all the more so because he was diverted from this issue by the publication
+
+ of a paper (Mellin 1886) where Mellin had bridged a differential and a difference
+
+ equation by employing a transformation that was a particular case of a more general
+
+ class just obtained by Pincherle: this urged the latter to write a note (Pincherle 1886a)
+
+ to secure his priority on this topic.
+
+ A few years later, in the academic year 1893-1894, Pincherle went back to Caso
+
+ rati's θ operator that in his hands became the prototype of linear operators acting
+
+ upon sets of analytic functions, i.e., the functions that Pincherle considered in his
+
+ theory of linear operators where the symbolic calculus rose to the rank of a rigorous
+
+ mathematical theory and ceased to be only a useful but dubious compact notation.
+
+ The present paper is organized as follows. In Sect. 2, we describe Casorati scientific
+
+ activity in differential equations in the period 1875-1877 when he first interacted with
+ Pincherle and then, in Sect. 3, we illustrate the content of Casorati (1880b). Section
+
+ 4 is entirely devoted to the history of Casorati's application to the Grand Prix des
+
+ Mathématiques by examining the letters he exchanged with both Italian and foreign
+
+ mathematicians (the original letters are transcribed in "Appendix 1"). Intertwined with
+
+ this topic, there is the argument with Stickelberger that will be described mainly in
+ its lesser-known aspects through the letters that both he and Casorati addressed to
+
+ Brioschi after the publication of (Casorati 1880c): some excerpts of these letters have
+
+ been also transcribed in "Appendix 1". Then, in Sect. 5, Pincherle will be back on stage
+
+ as we examine the letters he exchanged with Casorati concerning his note devoted to
+
+ Tannery's theorem: in particular, Pincherle's unpublished note will be translated into
+
+ English, while the original, relevant letters have been transcribed in "Appendix 2".
+
+ Finally, in Sect. 6 we will examine the impact that (Casorati 1880b) had on Pincherle's
+
+ research in the last decade of the nineteenth century up to the publication of his treatise
+
+ (Pincherle and Amaldi 1901). In a conclusive section, we will resume the outcomes
+
+ of the analysis contained in this paper and point to directions for future work.
+
+ 2 Casorati and Pincherle interactions on differential equations
+
+ During the period that Pincherle spent in Pavia, which spans from 1875 to 1880 with
+
+ the exclusion of his Berlin year, Casorati's main scientific activity was in the field
+
+ of ordinary differential equations. In fact, Casorati had resumed scientific activity in
+
+ <£) Springer
+
+This content downloaded from 203.78.15.150 on Mon, 18 May 2020 09:20:14 UTC
+All use subject to https://about.jstor.org/terms
+
+ Felice Casorati's influence on Salvatore Pincherle
+
+ 159
+
+ analysis in 1874 after a long break. As he wrote in a letter to Gaston Darboux on 3
+
+ August 1879.
+
+ .. .For a lot of different reasons, I seldom read [the Darboux Bulletin] in the years
+ 1872, 73, 74. In those years, as in the previous years 70, 71,1 lived as a stranger to
+ mathematics.12
+
+ In the period there alluded to, Casorati was intensely involved in teaching both in
+
+ Pavia and in Milan, at Brioschi's Regio Istituto Tecnico Superiore—today the Milan
+
+ Polytechnic—but in his personal life, Casorati also suffered several grievous events that
+
+ impaired him to the point of hampering his research. He lost his beloved father—the
+
+ renowned physician Francesco Casorati—in 1859; then, his mother, and his life-mate.
+
+ The following passage from a 1880 letter to Joseph Bertrand (February 6th) clarifies
+
+ Casorati's feelings:
+
+ After that a cruel illness mercilessly led my father to death—he, who was the sun
+
+ of my life, the man to whose goodness I will never be able to think without being com
+
+ pletely affected—my heart and my health were no longer as before; that inexplicable
+
+ grief and that cruel reality depressed my forces, annihilated the poetry of life, in short,
+
+ they destroyed my person both physically and morally. Moreover, I had my mother
+
+ suffering from cancer for six consecutive years, when our family was reduced to the
+
+ two of us and, finally, she died; it will not be hard to believe for you that, for several
+
+ years, 1 remained as suspended between life and death. Finally, I improved; but my
+
+ soul has remained, and will always remain, ready to be frightened, to get disheartened,
+
+ to overstate any misfortune, to suffer enormouslyP
+
+ Looking at Casorati's scientific production on differential equations, we can single
+
+ out two main periods, each of them with its own leitmotif. In the first period up to
+
+ 1878, Casorati's main concern was the research on singular solutions of differential
+
+ equations, a topic on which mathematicians such as Cayley and Darboux also devoted
+
+ their attention. Since 1878, Casorati was mostly influenced by Fuchs's theory of linear
+
+ differential equations in the complex plane. Since Casorati's activity in the former
+ period had little impact on Pincherle, I will limit myself to a few remarks.
+
+ Following the definition given by Boole in his treatise (Boole 1859), a textbook on
+
+ which Casorati often based part of his lectures on infinitesimal calculus,
+
+ a singular solution of a differential equation is a relation between χ and y, which
+
+ satisfies the differential equation "by means of the value it gives to the differential
+
+ coefficients" gf> and c., but is not included in the complete primitive (Boole
+ 1859, p. 139).
+
+ 12 ..per un cumulo di cause diverse, avvenne che negli anni 1872, 1873,1874 non lo osservassi quasi
+ mai. In quegli anni, come nei precedenti 70 e 71, ho vissuto da straniero alia matematica.
+
+ 13 Dopoché un morbo crudele trasse spietatamente alla tomba mio padre, il sole della mia vita, l'uomo
+ alla cui bontà non potrô mai pensare senza commuovermi tutto, l'animo mio e la mia salute non furono
+
+ più quelli di prima; quell ' indicibile dolore, quella feroce realtà abbatterono le mie forze, annientarono la
+
+ poesia della vita, demolirono insomma tutta la mia persona fisica e morale. Avuta, per giunta, mia madré
+ ammalata di cancro per sei anni consecutivi, mentre la famiglia riducevasi a noi due soli, ed essa infine
+
+ soccombeva; non stenterete a credere come io dovessi per lunga serie di anni rimanerne come tra questo e
+
+ l'altro mondo. Finalmente migliorai; ma l'anima mia è rimasta e rimarrà sempre pronta a sgomentarsi, ad
+ avvilirsi, ad esagerarsi ogni contrarietà, a soffrire senza misura.
+
+ Ô Springer
+
+This content downloaded from 203.78.15.150 on Mon, 18 May 2020 09:20:14 UTC
+All use subject to https://about.jstor.org/terms
+
+ which is a singular solution of (2.1) since there is no value of c for which (2.2) yields
+ (2.3).
+
+ 160
+
+ R. Rosso
+
+ As an example, Boole considered the equation (Boole 1859, p. 150)
+
+ ^_^+(1+ι2)(|)2 = , (2.υ
+
+ whose general solution (or complete primitive) is given by
+
+ y = cx + \/l - c2, (2.2)
+
+ where c is an arbitrary constant. However, it is also solved by
+
+ y = Λ2 + 1 (2.3)
+
+ Casorati focused his attention on algebraic differential equations whose coefficients
+
+ are polynomials in both the dependent and the independent variables:
+
+ A first-order differential equation between two variables u and ν is called algebraic
+
+ differential when it yields a constraint among u, v, du and du that can be expressed
+
+ by a finite number of algebraic operations,14 (Casorati 1875 = (Casorati 1952, p. 10).
+
+ If ^(u, v) are m +1 polynomials, then it is always possible to reduce such an equation
+ to the form
+
+ to k—0 V '
+
+ <Pm-k(u, v)(du)k(dv)m k = 0
+
+ where ^ ^ are binomial coefficients and m determines the degree of the equation.
+
+ Dissatisfied with the procedures he found in the relevant literature, Casorati pro
+
+ posed a new theory for dealing with singular solutions of algebraic differential equa
+
+ tions of first order and second degree (Casorati 1876). Specifically, the equations
+
+ considered by Casorati are
+
+ a(u, u)(d«)2 + 2β(μ, i))di<du + y(w, v)dv2 = 0 (2.4)
+
+ where the polynomials α, β and γ have no common factors. Casorati made the hypoth
+
+ esis that (2.4) has an algebraic complete primitive.
+
+ For an equation of the first order and the first degree, that is,
+
+ A(x, y)dx + B(x, )>)d;y = 0
+
+ (2.5)
+
+ 14 Unaequazionedifïerenzialediprimoordinetraduevariabiliuevvadettaalgebrico-differenzialequando
+ consista in un legame tra u, v, du e du esprimibile mediante un numéro finito di operazioni algebriche.
+
+ <£) Springer
+
+This content downloaded from 203.78.15.150 on Mon, 18 May 2020 09:20:14 UTC
+All use subject to https://about.jstor.org/terms
+
+ where G and H are irreducible polynomials of degree n, and λ is a parameter. By
+
+ using the differential of this equation to get rid of λ, an equation of the class (2.5) is
+
+ obtained. Pincherle resorted to the geometric meaning of (2.5) to obtain analytically
+
+ a result geometrically established by Cremona 15 years before:
+
+ In a family of curves of order m, there are 3 (m — l)2 double points (Cremona 1862,
+
+ Felice Casorati's influence on Salvatore Pincherle
+
+ 161
+
+ Jakob Rosanes had worked out a condition under which this is the case, in Rosanes
+
+ (1871). It is precisely to equations like (2.5) that Pincherle turned his attention before
+
+ his leaving for Berlin. He explained his reflections on algebraic differential equations
+ to Casorati in a meeting (Conferenza) on 5 February 1877, a few weeks before pre
+
+ senting the note (Pincherle 1877) at the Istituto Lombardo. Like Rosanes, Pincherle
+ emphasized the geometric meaning of (2.5) that can be generated by taking a one
+
+ parameter family of algebraic curves
+
+ G(x,y) + XH(x,y) = 0 (2.6)
+
+ p. 67).
+
+ In the second part of Pincherle (1877), Pincherle followed the opposite direction:
+
+ under the hypothesis that (2.6) is an integral of (2.5), he aimed at finding its explicit
+
+ expression in terms of A and β. The results obtained in this part of the paper are subject
+ to restrictions—as Pincherle himself stated in his 1887 curriculum vitae submitted for
+
+ the election at the Lincei. Actually, these restrictions were pointed out to Pincherle
+
+ by Casorati on September 1878, that is, almost eighteen months after the presentation
+
+ of the note. These limitations concern some terms that were omitted by Pincherle,
+
+ but taken into account by Casorati in his research on this subject. All this might
+
+ be surprising, as Casorati had himself read the note to the members of the Istituto
+
+ Lombardo but, presumably, on that occasion, he did not take too much care over
+
+ the details of Pincherle's note since he relied on the meeting he had had with the
+
+ latter a few weeks before. On the other hand, in 1878, when Casorati was working
+ on equations like (2.5) (Casorati 1878b), he read Pincherle's paper more accurately,
+ and pointed him out that the generality of his conclusions had to be considerably
+ reduced.15
+
+ 3 Casorati's paper on finite differences
+
+ In the history of mathematics, Casorati is best remembered for the Casorati
+ Weierstrass-(Sokhotskii) theorem he published in (Casorati 1868). However, his
+ name has also been linked to a special determinant—the Casoratian or the Caso
+
+ rati determinant—that plays a rôle in linear difference equations analogue to the one
+
+ played by the Wronskian in the theory of linear differential equations. This determi
+
+ nant was introduced in Casorati (1880b), the paper by Casorati that mostly influenced
+
+ Pincherle. This long memoir had a history that I review in the next section, after having
+ examined its content.
+
+ 15 Casorati met Rosanes in Parpan (Switzerland) on 27 August 1879, and on that occasion, they discussed
+ of research on the equation Adx + Bdy = 0.
+
+ <£} Springer
+
+This content downloaded from 203.78.15.150 on Mon, 18 May 2020 09:20:14 UTC
+All use subject to https://about.jstor.org/terms
+
+ 162
+
+ R. Rosso
+
+ Casorati applied the formalism of finite differences to study the behaviour of a
+
+ function y of a complex variable χ in the neighbourhood of a point jci. By taking a
+
+ point χ in a circular annulus surrounding x\ within which y is free of singularities,
+
+ and by performing a simple closed contour starting at x, Casorati set
+
+ Ay(x) := y(x + e2jTl) - y(x)
+
+ and he noted that
+
+ t(x) :=
+
+ log(x -*i)
+ 2πί
+
+ is such that At = 1. Moreover single-valued (monodromic) functions are such that
+
+ Ay = 0 and so they play the same rôle as that played in standard calculus of differences
+
+ by periodic functions / whose period is equal to the constant increment h = 1 of the
+
+ independent variable. Casorati introduced an operator—the θ operator—defined by
+
+ 9y(x) := Ay(x) + y{x) = (Δ + l)y(*) (3.1)
+
+ which is clearly the counterpart of the operator mapping / (i ) into / (î +1 ). In this new
+
+ interpretation 0y yields the value of y after that the closed contour has been completed
+ once. Casorati remarked:
+
+ It is well known that, in the Calculus of differences, together with the differences
+
+ Ay, A2y of a function, it is also important to consider the values that it attains at the
+
+ values t + 1, t + 2,... of the variable. These values are mostly denoted as follows:
+
+ But there is a great advantage in denoting these values with another notation, such as
+
+ the following
+
+ that makes it possible to consider θ as a symbol of an operation, that is, of that
+ operation which yields »+] when it is performed on »16 (Casorati 1880b, p. 13;
+ Casorati 1951, p. 320).
+
+ 16 Si sa che nel Calcolo delle differenze importa di considerare insieme con le differenze Δ>', A2 y di una
+
+ funzione, anche separatamente i valori che essa prende corrispondentemente ai valori t+\,t + 2,... délia
+
+ variabile. Questi valori vengono per lo più significati come segue:
+
+ Ma vi ha grande vantaggio a significare questi valori con altra notazione, come la seguente
+
+ Λ+i. yt+2> ■ ■ ·
+
+ 9y, e2y
+
+ Λ+1> yt+2. ···
+
+ 6y, 62y
+
+ la quale si presta a lasciar riguardare θ come un simbolo di operazione, cioè di quell'operazione che eseguita
+
+ su yt dà per risultato yt+\.
+
+ <?j Springer
+
+This content downloaded from 203.78.15.150 on Mon, 18 May 2020 09:20:14 UTC
+All use subject to https://about.jstor.org/terms
+
+ Felice Casorati's influence on Salvatore Pincherle
+
+ 163
+
+ Such an operator interpretation is in the spirit of Pincherle's subsequent views as
+
+ clearly stated, for instance, in his major memoir on Laplace transform (Pincherle 1887)
+ where he considered the function
+
+ the integration being performed along a line in the complex plane. Pincherle observed
+
+ that f(x) is an analytic function if <p(y) is analytic as well, and hence,
+
+ in this paper, we will consider this transformation under a new point of view: that is,
+
+ as a functional operation (...) defined by some characteristic properties17 (Pincherle
+
+ 1887, p. 125).
+
+ The most remarkable property of the operator θ is that it is eminently distributive
+
+ (eminentemente distributivo), (Casorati 1880b, p. 13; Casorati 1951, p. 321) since it
+
+ is not only linear but it also obeys
+
+ (3.2)
+
+ and
+
+ 9F(u(x), v(x), w(x),...) = F(9u(x), θν(χ), θιυ(χ),...), (3.3)
+
+ for any operator F that yields a unique result when applied on functions uix), v(x),
+ w(x),.... The main result contained in Casorati (1880b) is the following theorem,
+ proved in Chap. 2:
+
+ Theorem Among the functions y\(x), yi (x), ...,y„ (x) of a complex variable χ there
+ exists or not a linear, homogeneous relation with coefficients that are single-valued
+
+ (monotropi) in an annulus centered atx — χ \ according to whether the determinant
+
+ y ι η ■■■ yn
+
+ Θ _ Qy\ 0y2 ... 9yn
+
+ 9"~lyi en~xy2 ... θ"'1yn
+
+ vanishes or not (Casorati 1880b, p. 19; Casorati 1951, p. 329).
+
+ The direct theorem is easy to prove since, assuming that
+
+ η
+
+ =0
+
+ 17 In questo lavoro si vuole considerare questa trasformazione sotto un punto di vista nuovo: si vuole cioè
+ riguardarla come unaoperazione funzionale (...) definite daalcune sue propriété caratteristiche.
+
+ <£) Springer
+
+This content downloaded from 203.78.15.150 on Mon, 18 May 2020 09:20:14 UTC
+All use subject to https://about.jstor.org/terms
+
+ 164
+
+ R. Rosso
+
+ and observing that θ φι = 0 as these functions are single-valued, then θ(φιγι) =
+ θψίθγί = 0. Thus, also
+
+ η
+
+ y, <PiOkyi = 0 VA: = 0 η - 1
+ ί=1
+
+ and so the determinant Θ vanishes. Casorati proved the converse by induction on the
+
+ number of functions y;. When η = 2, from
+
+ it follows that
+
+ *'(5. «»)=0
+
+ Qyi _ yi
+
+ 9y2
+
+ <p\y\ + <P2y2 = ο
+
+ and since θ ^ j = he concluded that the ratio ^ goes back to its original value,
+ when its argument has performed a complete tour. Hence it is a single-valued function,
+ say and the relation
+
+ holds. Induction from η — 1 to η is then performed by resorting to a transformation of
+
+ determinants given in Hermite ( 1849). We note that, as a result of the new interpretation
+
+ of finite-difference formalism, the linear, homogeneous relation between the functions
+
+ yi (λ) has variable coefficients, contrary to its counterpart based upon the Wronskian.
+
+ As a first application in Chap. 3 Casorati employed his formalism to study the
+
+ structure of the roots of the algebraic equation
+
+ Zn + ψ\Ζ"'1 Η h ψη-lZ + ψ„=0,
+
+ where ψ, are single-valued functions of a complex variable χ. In doing this, Casorati
+
+ simplified considerably the analysis contained in Puiseux's long memoir (Puiseux
+
+ 1850). In Chap. 4 Casorati applied the theorem on the Θ determinant—that is the
+
+ Casoratian—to the linear differential equation with single-valued coefficients pi(x)
+
+ in the complex plane
+
+ Dmy + p{Dm~xy + --- + pm-\Dy + pmy = 0, (3.4)
+
+ where D := ^. Given a point x\, Casorati associated to the Eq. (3.4) a homogeneous
+ difference equation that is linear and of the /nth order as well but with constant coeffi
+
+ cients, whose general solution he had recalled in Chap. 6. Actually, Casorati observed
+
+ that, when y denotes the general integral of (3.4), then (3.4) itself can be viewed as a
+
+ Ô Springer
+
+This content downloaded from 203.78.15.150 on Mon, 18 May 2020 09:20:14 UTC
+All use subject to https://about.jstor.org/terms
+
+ Felice Casorati's influence on Salvatore Pincherle
+
+ 165
+
+ linear, homogeneous relation with single-valued coefficients p, among the functions
+
+ y, Dy,..., Dmy, and so the corresponding Θ determinant vanishes, that is
+
+ However, since θ commutes with D,
+
+ y Dy
+ θ y 9Dy
+
+ Η =
+
+ Dmy
+ eDmy
+
+ = 0.
+
+ I θ"1 y 0mDy
+
+ 9mDmy
+
+ J Dy
+ 0y D9y
+
+ Η =
+
+ Dmy
+
+ Dm0y
+
+ = 0
+
+ emy D9my
+
+ Dmemy
+
+ follows, that can be viewed as the Wronskian determinant of the functions
+
+ y,6y,... ,6my. Hence, it follows that these functions obey a linear difference equation
+ with constant coefficients
+
+ A0emy + Αχθ"1 *)> + ·■· + Am-{9y + Amy = 0
+
+ (3.5)
+
+ that can be used in turn to gain information on the behaviour of the function y around
+ the point χ = x\. When χ = x\ is a singular point of (3.4), Casorati applied the
+
+ correspondence between (3.4) and (3.5) to revisit §3 of Fuchs (1866), and to obtain
+
+ quickly the local form of the canonical fundamental system of solutions of (3.4) with a
+
+ cursory mention to the fact that also the structure of the integrals forming Hamburger's
+
+ subgroups (Hamburger 1873) can be similarly obtained, an issue that will be the core
+ of the subsequent paper (Casorati 1881a).
+
+ The operator θ admits other interpretations. For instance, by setting
+
+ it is possible to view periodic functions with period ω as the fixed points of θ. By
+
+ introducing another operator Θ' such that
+
+ θ fix) = fix + ω)
+
+ Θ' fix) = fix+co')
+
+ it is possible to study systems of difference equations
+
+ Ao9myix) + Aiem~xyix) + · · · + Am_i0;y(*) + Amyix) = 0
+ Β0θ'"γ(χ) + Bxe'n-Xyix) + · · ■ 4- tf'yix) + Bny(x) = 0
+
+ (3.6)
+
+ where the mn coefficients A,·, Bj are constants. As a special case, Eqs. (3.6) embody
+ those arising in a problem just tackled by Picard (1879) where the latter generalized
+
+ <£) Springer
+
+This content downloaded from 203.78.15.150 on Mon, 18 May 2020 09:20:14 UTC
+All use subject to https://about.jstor.org/terms
+
+ 166
+
+ R. Rosso
+
+ the concept, due to Hermite, of doubly periodic functions of the second kind with
+
+ periods 2Κ and 2iK', by looking for uniform functions f(x) such that
+
+ f(x + 4K) = Af(x)+Bf(x+2K) and f(x+4iK') = A'f(x) + B'f(x + 2LK').
+
+ The same path followed to associate (3.5)—(3.4) also works for a linear differential
+
+ equation with periodic or doubly periodic coefficients, and Casorati devoted Chap. 7 of
+
+ Casorati (1880b) to investigate the structure of the general solution of these equations
+
+ that will been studied intensively also by Floquet (1883, 1884).
+
+ As a final interpretation of the θ-operator, in Chap. 8 of his paper, Casorati consid
+
+ ered functions in ρ independent variables that are multiply periodic, so that
+
+ f(X\,X2,...,Xp) = f{x 1 +ωΐ,Χ2+(02 Xp+(Op)
+
+ holds for a set of periods ω\,..., ω p and now θ is interpreted as the operator
+
+ θ : / h* θ/{χ ι,Χ2, ...,Xp) = f(x ι +ω\,χ2 + ω2,. ..,χρ + ωρ).
+
+ 4 Chronicle of a missed prize
+
+ From the introduction of Casorati (1880b) we realize the importance that Casorati
+
+ attached to his paper:
+
+ Researches that employ complex variability rely—at least in part—in an essential
+
+ way upon relations that stem from considering the way in which functions of a com
+
+ plex variable behave when the variable turns around a particular value. This remark
+ prompted me to investigate and determine once and for all, in advance and indepen
+
+ dently of any particular study or aim, the properties and the general formulae that it
+
+ is important, and possible, to obtain to the benefit of further, particular researches;
+
+ in such a way to form a theory in itself from which all those who begin investigations
+
+ on functions with complex variables from now on can avail themselves as a common
+
+ instrument18 (Casorati 1880b, p. 10 ξ Casorati 1951, p. 317).
+
+ At the beginning of November 1879, Casorati, influenced by Brioschi, decided to
+
+ apply for the Grand Prix des Sciences Mathématiques that the French Academy of
+
+ Sciences proposed for the year 1880, whose theme perfectly matched the topic of his
+ researches:
+
+ 18 Le ricerche che si fanno colla variabilité complessa si basano, almeno in parte, essenzialmente sulle
+ relazioni che scaturiscono dal considerare i modi di comportarsi delle funzioni di una variabile complessa
+
+ al girare di questa intorno a suoi valori particolari. Questa osservazione mi fece nascere il pensiero di
+
+ investigare e stabilire, una volta per sempre in anticipazione ed indipendentemente da ogni studio ο scopo
+
+ particolare, le propriété e le formole generali che da siffatte relazioni fondamentali importa ed è possibile di
+ ricavare a beneficio delle singole ricerche ulteriori; cosl da costituire una teorica a sè, délia quale, come di
+
+ strumento comune, possano valersi tutti coloro che d'ora innanzi vorranno intraprendere studî sulle funzioni
+
+ di variabili complesse.
+
+ Ô Springer
+
+This content downloaded from 203.78.15.150 on Mon, 18 May 2020 09:20:14 UTC
+All use subject to https://about.jstor.org/terms
+
+ Felice Casorati's influence on Salvatore Pincherle
+
+ 167
+
+ Improve in some important point the theory of linear differential equations in only
+
+ one variable.19
+
+ Casorati kept all the correspondence concerning (Casorati 1880b) and the prize,
+ and in this section, we outline the content of part of these letters whose original
+
+ texts are displayed in "Appendix Γ'.20 We should note that at the beginning of the
+
+ correspondence Casorati had not published yet either (Casorati 1880b) or anything else
+
+ on the interpretation of finite differences. We also recall that the letters sent by Casorati
+
+ are known through his minutes, whereas those addressed to him are the originals. They
+
+ cover more than one year: the first letter is dated 27 December 1879 and the last letter
+
+ was written on 17 April 1881. Letters 1-5 contain the correspondence between Casorati
+
+ and Joseph Bertrand, the Sécretaire perpetuel of the French Academy. Casorati asked
+
+ for general information on the competition and, curiously enough, at the beginning of
+
+ the correspondence, he pretended that the applicant was a fellow-countryman of his,
+
+ probably to secure anonymity: it was only after the long-waited reply from Bertrand
+
+ that Casorati disclosed the identity of the applicant. From these letters, we learn that
+
+ the topic for the prize was chosen by Bertrand who wished to reward Edmond Nicolas
+
+ Laguerre for the results on linear differential equations that had impressed him so
+ much. As an aside, we note that, apparently, Laguerre did not apply for the prize.
+
+ Casorati was not willing to wait the end of the competition to publish his results but,
+
+ from Bertrand replies, we also realize that published papers could be eligible for the
+
+ prize, provided that no member of the judging Committee raised formal objections.
+
+ A second group of letters (Letters 6-9) are concerned with the turbulent editorial
+
+ process related to the publication of Casorati (1880b), whose content had been pre
+
+ sented to the Istituto Lombardo in February 1880. In fact, a strike of the typographers
+
+ was unduly delaying the publication of his notes: besides (Casorati 1880b), Casorati
+
+ illustrated applications both to Fuchs's theory and to Floquet's theory of differential
+
+ equations with periodic coefficients in Casorati (1880a). He then wrote to his friend
+
+ Luigi Cremona, asking him to present a revised version of the manuscript to the Annali
+ at the Accademia dei Lincei in Rome. Casorati not only called attention to applica
+
+ tions to differential equations, but also to algebraic equations that might seem more
+
+ interesting to Cremona who, in turn, presented the manuscript on March 7th21. The
+
+ long strike in Milan went on, and the deadline of June 1 for applications to the Grand
+
+ Prix was approaching: Casorati withdrew the first version of Casorati (1880b) from
+
+ the Annali and worked on the manuscript that was finally sent to the Académie on
+
+ May 22nd. As to the epigraph, he chose a passage from Blaise Pascal's Pensées:
+ Nous sommes si malheureux, que nous ne pouvons prendre plaisir à une chose qu 'à
+
+ condition de nous fâcher si elle réussit mal (Pascal 1835, Chap. IV, Art. V. p. 153).
+
+ This epigraph was inserted in the billet cacheté together with an explanatory note
+
+ where Casorati summarized the history of the manuscript that could not be sent in
+
+ a printed form. We remark that the judging committee for the prize was formed by
+
+ 19 Perfectionner en quelque point important la théorie des équations différentielles linéaires à une seule
+ variable indépendante.
+
+ 20 We did not transcribe Fuchs's letter to Casorati, dated March 30th, 1881 on the Stickelberger controversy,
+
+ as it has been already published in Neuenschwander (1978).
+
+ 21 Memorie della Reale Accademia dei Lincei, 5, S.III, 195-208, (1880).
+
+ <£) Springer
+
+This content downloaded from 203.78.15.150 on Mon, 18 May 2020 09:20:14 UTC
+All use subject to https://about.jstor.org/terms
+
+ 168
+
+ R. Rosso
+
+ Bertrand, together with Ossian Bonnet, Charles Hermite, Victor Puiseux, and Jean
+
+ Claude Bouquet, as communicated in the Comptes Rendus of April 12th, 1880.
+
+ Casorati applied to another competition, the second edition of the Premio Bressa
+
+ proposed by the Royal Academy of Sciences in Turin (Letter 10). With respect to the
+
+ Grand Prix, the Bressa prize had a broader spectrum, as it aimed at rewarding the
+
+ best work written by an Italian scholar in the period 1877-1880 on a subject ranging
+
+ from pure and applied mathematics to pathology and geology. To have a chance, it
+
+ was then important that the mathematicians in the Turin Academy could appreciate
+
+ the importance of Casorati's work. For this reason, since the principal analyst in Turin
+
+ at that time was Angelo Genocchi, Casorati wrote him a letter (June 21st, 1880, not
+
+ published here) asking for an appointment, since he was going to visit Turin with
+
+ Beltrami. In this occasion, he would have explained the importance he ascribed to his
+
+ findings. The meeting with Genocchi took place at the end of June and, according to
+
+ Casorati's short account of it to Brioschi, Genocchi was favourably impressed. Thus
+
+ Casorati asked Brioschi and Betti, both members of the Turin Academy, to support
+
+ his paper: in spite of these efforts, however, the 2nd Bressa prize was awarded to the
+
+ natural scientist Luigi Maria d'Albertis.
+
+ At the beginning of August, with his manuscript finally published in the Annali,
+
+ Casorati sent offprints of it to many mathematicians, both in Italy-for instance to
+
+ Francesco Siacci—and abroad, including Fuchs, Klein, Lindemann, Mittag-Leffler,
+
+ Dillner, Kronecker, Picard, and Weierstrass. In all his accompanying letters, he stressed
+
+ the importance of the theorem on the Θ determinant. As an example, letters 11 and
+
+ 12 of "Appendix 1" are those that Casorati sent to, and received by, Émile Picard.
+
+ So far, we followed only the correspondence concerning the Grand Prix, but at this
+
+ point, the events concerning the prize intertwined with a polemics involving Caso
+ rati and Ludwig Stickelberger. By the end of 1880, Casorati received a memoir—an
+
+ Akademische Antrittsschrift (Stickelberger 1881)—that accompanied Stickelberger's
+
+ entry as a professor at the University of Freiburg. There the author employed finite
+
+ differences to study the behaviour of the solutions of a linear differential equation in
+
+ the neighborhood of its singular points, thus obtaining results in the same vein as those
+
+ contained in Chap. 4 of Casorati (1880b). Casorati was really hurt by a sentence placed
+
+ in the Introduction to the Antrittschrift, where (Stickelberger, 1881, p. 4) had referred
+
+ to Casorati's procedure as inadvisable (nicht rathsam). Moreover, since Stickelberger
+
+ referred to papers by Riemann (1857) and Hamburger (1873) where the use of the
+
+ logarithm of the independent variable had been made, Casorati felt that Stickelberger
+
+ was attempting to diminish the importance of his own findings. Hence, at the end
+
+ of 1880, he sent a letter to Brioschi to be published in the Annali (Casorati 1880c).
+
+ This letter is firm in making it clear that Casorati's memoir had a broader aim than
+
+ Stickelberger's and that the applications to differential equations were just an example
+
+ to show, in a significant topic, the versatility of his ideas.
+
+ Admittedly, Casorati reply was excessive and, in my opinion, the reasons for his
+
+ attitude could have been the following: (a) he was concerned with the priority of the
+
+ theorem, now known as the Casorati-Weierstrass theorem, which he had proved in §88
+
+ of Casorati (1868), and had then been published by Weierstrass in (Weierstrass 1876)
+
+ without any reference to Casorati's work (Neuenschwander 1978) [it should be noted,
+ however, that there is some evidence that Weierstrass had known the theorem since
+
+ £) Springer
+
+This content downloaded from 203.78.15.150 on Mon, 18 May 2020 09:20:14 UTC
+All use subject to https://about.jstor.org/terms
+
+ Felice Casorati's influence on Salvatore Pincherle
+
+ 169
+
+ 1863 (see Neuenschwander 1978; Bottazzini and Gray 2013, p. 436)]; (b) the great
+
+ expectations he had about the impact of his work that were now brought into question
+
+ by Stickelberger's remark; (c) the familiar concerns (see Letter 6 of "Appendix 1") he
+
+ had to face when working on the final version of Casorati (1880b) and that interfered
+
+ strongly with his scientific activity. The short letter (Casorati 1880c) was probably also
+
+ written in a hurry, and Casorati did not properly separate relevant scientific comments
+
+ from personal feelings. A few months later, on 6 February 1881, Casorati wrote a long
+
+ letter to Ossian Bonnet (Letter 13) where he separated personal animosity from scien
+
+ tific judgements. There Casorati was appreciative of some aspects of Stickelberger's
+
+ paper so that his judgement of (Stickelberger 1881) contained in the central part of the
+
+ letter to Bonnet resembles a standard referee's report. First, he praises Stickelberger's
+
+ use of the results obtained by Cauchy (1827), a paper devoted to symbolic calculus.
+
+ There, using the notation
+
+ Ay = Axy := fix + Ax) - f(x)
+
+ for the finite difference of a function y = / (χ ), and Df for ^, Cauchy had also proved
+ (Cauchy 1827, pp. 228-230) that, if Fix) is a polynomial with constant coefficients
+
+ having only simple roots Π, r2, ■ · ·, rn, then the general solution of the differential
+
+ [difference] equation
+
+ F(D)y(x) = f(x) [F(A)y(x) = fix)], (4.1)
+
+ could be rewritten as
+
+ m = (,2)
+
+ ~ F iTk) D-rk
+
+ >'(x) = enx J e-r*'/(i)df
+
+ exists. On the contrary, if r\ = rj = · · · = rm = ρ, the first m terms in the expression
+
+ (4.2) had to be replaced by the residue of the function
+
+ at ζ = ρ, so that the contribution of these terms to the solution of (4.1) was
+
+ 1
+
+ (r - z)Fiz)
+
+ Yr /<*>
+
+ Ô Springer
+
+This content downloaded from 203.78.15.150 on Mon, 18 May 2020 09:20:14 UTC
+All use subject to https://about.jstor.org/terms
+
+ where F'(n0 is the shorthand for ^r\n and denotes symbolically the solution
+ of the first-order equation (D - rk)yix) = fix), for which the representation
+
+ R. Rosso
+
+ 1 dm-k / em \
+
+ m~k (m - Λ)! θε"1-* \/(ρ + ε))ε=0
+
+ 170
+
+ where
+
+ given by
+
+ and, again, represented symbolically the solution of (D - Q)ky(x) = /(λ),
+
+ ■J e~nt f (t)dtk.
+
+ Actually Cauchy's version of the theorem was more general, but this application is
+
+ enough for our purposes, as it is this classification of the solution according to the
+ presence or not of coincident roots in the characteristic equation F(x) = 0 that
+ bridges Cauchy's and Fuchs's theories. However, in all the equations considered by
+
+ Cauchy the coefficients of F(x) are constant, and so the worlds of differential and
+
+ difference equations remained distinct, though parallel, in his work. As noted before,
+
+ it is the change of variable u := that makes it possible to export methods of
+ finite-difference calculus to linear differential equations with variable coefficients.
+
+ The second remark made by Casorati on (Stickelberger 1881) concerned the resort
+
+ to Weierstrass's theory of elementary divisors (Elementartheiler) to classify solutions
+
+ of (3.4). Casorati did not think that Stickelberger's approach is optimal, and this view
+
+ was the starting point of the notes he alluded to in this letter to Bonnet, and that also
+
+ appeared in the Comptes Rendus (Casorati 1881a).
+
+ Casorati's disappointment with Stickelberger's behaviour reappears strongly in a
+
+ letter, dated 22 February 1881, he intended to write to Frobenius, with whom Stick
+
+ elberger had scientific connections, but that was never sent. This sudden change of
+
+ mind might have been caused by the final decision of the Committee charged to award
+
+ the Grand Prix, communicated on February 14th: Georges Halphen was the recipient
+
+ of the prize, and two special mentions—mentions très honorables—were granted to
+ two other memoirs: to Poincaré's essay on Fuchsian functions that remained unpub
+
+ lished until 1923 (Poincaré 1923) (see Chap. 3 of (Gray 2013), for a detailed account
+ of Poincaré's achievements)— and to Casorati's who, unlike Poincaré, decided to
+
+ remain anonymous (see vol. 92 of the Comptes Rendus, pp. 551-554 for the reports
+
+ on the three best memoirs among the six manuscripts sent to the Academy). The
+
+ outcome of the competition did not satisfy Casorati who feared that his prestige as
+
+ a professor could suffer a serious blow (Letter 15), despite of the appreciation that
+
+ his work received from Bertrand (Letter 14) and Darboux. In particular, the attitude
+
+ of Casorati, who was prone to be bewildered in front of misfortune, appears in his
+
+ letter to Bertrand. We note that, on writing the report on behalf of the Committee,
+
+ Hermite meant to point out a preference for Poincaré's memoir over Casorati's since
+
+ the order of the mémoires by Casorati (N. 3) and Poincaré (Ν. 5) was shifted from the
+
+ natural one: Casorati asked Bertrand (on February 26th) to correct it unless it meant
+
+ a difference in quality between the two memoirs.
+
+ From the historical point of view, Letters 16 and 17 are the more significant. Stick
+
+ elberger replied to Casorati (1880c) by writing to Brioschi twice to have his rebuttal
+
+ Springer
+
+This content downloaded from 203.78.15.150 on Mon, 18 May 2020 09:20:14 UTC
+All use subject to https://about.jstor.org/terms
+
+ Felice Casorati's influence on Salvatore Pincherle
+
+ 171
+
+ published in the Annali: Letter 16 is the second one written by Stickelberger. Since
+
+ these letters provoked another bitter reply from Casorati, Brioschi finally decided not
+
+ to proceed with publishing Stickelberger's defence. Stickelberger stated he received
+
+ the paper (Casorati 1880b) from Ferdinand von Lindemann in August 1880, when he
+
+ had already obtained his main results but, more importantly, he quoted a 1858 paper by
+
+ Christoffel (1858) where Casorati's condition of linear independence—with constant
+
+ coefficients—among functions depending on a variable undergoing discrete incre
+
+ ments had already been obtained. Casorati admitted to Brioschi that he was unaware
+
+ of Christoffel's result and promised to quote it as soon as possible—a promise he did
+
+ not fulfill as he ceased to work on this topic.
+
+ Christoffel's paper—which also had a continuation first published in his Collected
+
+ papers (Christoffel 1910)—is divided in two parts: for our purposes, the discussion
+
+ in Sects. 1-2 of Christoffel (1858) is the most important. There he considered η + 1
+
+ functions {/(m), f\(m),..., fn(m)} with /, : Ζ μ>· M and, supposing that they are
+
+ linear dependent for the values of m ranging from /no to mo + η + ρ, with ρ > 0, he
+
+ distinguished three cases according to whether, for these values of m,
+ (a) only a relation Af(m) + A\f\(m) Η l· Anfn(m) = 0 holds;
+ (b) at least two relations Af(m) + A\f\{m) -f · · ■ + Anfn(m) = 0, Bf{m) +
+
+ B\f\{m) Η l· Bnfn(m) = 0 hold for the same values of m, and so the rank of the
+ matrix
+
+ / /On) Mm) ■■■ fn(m) \
+
+ A f(m + 1) fi(m + 1) ··· fn(m + 1)
+
+ \f{m + n) fi(m + n) ■■■ fn{m + n),
+
+ is strictly lower than in case (a);
+
+ (c) it is possible to single out q + r intervals, each consisting of at least η elements,
+
+ such that in q of them, case (a) holds, whereas in remaining r intervals case (b) holds.
+ (Casorati 1880b) is consistent with case (a) of Christoffel's treatment. Here Christoffel
+
+ wrote down the linear system
+
+ Af(m) + A\f\(m) H h Anfn(m) = 0
+ A/(m + 1) + A\f\(m + 1) H + Anfn{m + 1) = 0
+
+ Afim + n) + Aifi(m + η) H h Anf„(m + n) = 0 :
+
+ denoting the determinant of the matrix A by Δ (m ), and the minor obtained by removing
+
+ the /zth column and the last line of A by Αμ(ηι), he obtained
+
+ Αμ = ωΔμ(ηι)
+
+ where the factor ω is undetermined, while A(m) = 0 guarantees existence of the
+
+ solution in the unknowns Αμ. To prove the converse statement (Christoffel 1858, §2)
+ supposed that A(m) vanishes at m = mo, mo + 1,..., mo + p, but that it does not
+
+ vanish at mo - 1 and at mo + ρ + 1: then, the functions {/, /i, ...,/„} are linearly
+
+ Ô Springer
+
+This content downloaded from 203.78.15.150 on Mon, 18 May 2020 09:20:14 UTC
+All use subject to https://about.jstor.org/terms
+
+ 172
+
+ R. Rosso
+
+ dependent at m = mo, mo + 1,... ,mo + ρ + n. Christoffel set
+
+ <p(m) \= Af(m) + Ai/i(m) + · · · 4- A„fn(m)
+
+ and selected the η 4- 1 coefficients Ai such that the η equations
+
+ φ(τη) = ψ{ηχ + 1) = · · ■ = φ(ιη' + η — 1) = 0
+
+ hold, for a yet unspecified value m! of m. By adding to these equations either
+
+ Af(m' - 1) + A\f\{m' - 1) 4- f Anf„(m' - 1) = ιp(m' - 1)
+
+ Af(m' + n) + A\f\(m' + n) 4 h Anf„(m' 4- n) = <p(m' + n),
+
+ then
+
+ A^A(m'-l) = (-l)n(p{m' - 1)Δμ(/η'), or AllA(ml)=<p(m/+η)Δμ(ιη') (4.3)
+
+ follows, respectively. Hence, when m! is set equal to one of the values mo, mo 4
+
+ 1,..., mo + p, the left-hand side of (4.3)2 vanishes by hypothesis and so
+
+ Δ·μ,{τη')φ(τη' 4-n) = 0 :
+
+ if at least one of the minors Δμ(/η;) does not vanish, then (p(m' 4- «) = 0, and lin
+ ear dependence of {/, fi,..., /„} is guaranteed. As a consequence of his analysis,
+ Christoffel obtained that
+
+ The n-1-1 assigned functions {/(m), f\(m),..., /«(m)} are linearly independent
+
+ for any value of m if and only if their determinant Mm) is different from zero for all
+
+ values of m22 (Christoffel 1858, p. 288).
+
+ Christoffel's paper is not mentioned even in treatises on finite differences that have
+
+ rather extensive bibliographies like (Nôrlund 1924; Guldberg and Wallenberg 1911),
+ and (Pascal 1897a). It was quoted in passing by Boole (Boole 1880, p. 232) as a
+
+ remarkable paper though for a different reason, and it did not escape the encyclopedic
+
+ history of determinants by Muir who actually reviewed both Christoffel's (Muir 1911,
+
+ pp. 225-228) and Casorati's papers (Muir 1923, pp. 242-243), though he did not feel
+
+ the need to note any interrelation between them, apart from inserting both of them in
+
+ chapters on Wronskians. We note in passing that Ernesto Pascal made a short reference
+
+ to Christoffel's paper in another book on determinants, for a theorem on Wronskians
+
+ (Pascal 1897b). Looking at the outline (Butzer 1981) of the main achievements by
+
+ Christoffel in mathematics, (Christoffel 1858) does not occupy the first rank, and the
+
+ 22 Damit gegebene η + 1 Functionen {/(m), f\(m), (m)} fiir aile Weithe von m linearunabhângig
+ sind, ist erforderlich und hinreichend, dass ihre Déterminante A(m) fiir aile Werthe von m von Null ver
+ schieden ist.
+
+ <£) Springer
+
+This content downloaded from 203.78.15.150 on Mon, 18 May 2020 09:20:14 UTC
+All use subject to https://about.jstor.org/terms
+
+ Felice Casorati's influence on Salvatore Pincherle
+
+ 173
+
+ episode discussed in this section certifies once more a certain difficulty in appreciating
+
+ the content of Christoffel's paper by the scientific community.
+
+ We can conclude that the novelty of Casorati's approach is the interpretation he
+
+ gave to the formalism of finite differences. Curiously enough, his theorem on the Θ
+
+ determinant has been later applied as a tool in the standard theory of finite-difference
+
+ calculus where, however, Casorati had been partially anticipated by Christoffel.
+
+ 5 An unpublished note by Pincherle
+
+ In 1875, Jules Tannery wrote a long memoir (Tannery 1875) in which he aimed at
+
+ clearly explaining the main principles upon which the theory of linear differential
+
+ equations rests. In doing this, he had as models the relevant papers by Thomé and,
+
+ more importantly, by Fuchs. The memoir was actually Tannery's thesis, which was
+ discussed at the Faculty of Sciences in Paris on 28 November 1874. It is divided
+
+ into five parts: the first and the second part illustrate general basic properties of the
+
+ solutions of linear differential equations while the third part, on which we will focus
+ attention, is concerned with the behaviour of a fundamental set of solutions in the
+
+ neighbourhood of a singular point; finally, the fourth part is concerned with a special
+
+ class of differential equations, namely those that only admit integrals with poles of
+
+ finite order at the singular points of the equations and at infinity, and the closing fifth
+
+ section is devoted to applications. Casorati, who was given a copy of the thesis by
+
+ Tannery himself, expounded parts of Tannery (1875) in his 1878-79 course devoted
+
+ to differential equations (Casorati 1878a) and, as we shall see later on, he made some
+
+ critical remarks on (Tannery 1875) that played a rôle in the history of Pincherle's
+
+ unpublished note. Tannery's paper was noted also by Goursat in Goursat (1883) where
+
+ he generalized the representation of the hypergeometric series as definite integrals
+
+ depending on parameters. Actually, both Goursat and Pincherle were interested in the
+
+ same theorem (Tannery 1875, pp. 130-132):
+
+ Let yi, j2, · · ·. y m be m functions of χ that are continuous everywhere, except at
+
+ some singular points isolated from each other, and that are uniform within the portions
+
+ of the plane (or of the sphere) with a simple boundary that do not contain singular
+
+ points: if, whenever the variable makes a complete tour around a singular point, the
+ new values
+
+ [yi]\ [y2Ï,...,[yn]'
+
+ of these functions are related to the previous ones by linear equations with constant
+
+ coefficients, (...), these functions are the integrals of a linear differential equation
+
+ with uniform coefficients,23
+
+ 23 Soient y\, yi, ■ ■ ■, y m m fonctions de χ continues, sauf pour des points singuliers isolés les uns des
+
+ autres, uniformes dans les portions de plan (ou de la sphère) à contour simple qui ne contiennent pas de
+
+ points singuliers: si, lorsque la variable fait le tour d'un point singulier, les nouvelles valeurs
+
+ W. [»]' [ynY
+
+ Φ Springer
+
+This content downloaded from 203.78.15.150 on Mon, 18 May 2020 09:20:14 UTC
+All use subject to https://about.jstor.org/terms
+
+ 174
+
+ R. Rosso
+
+ Since the converse of this theorem is true (Tannery 1875, pp. 129-130) the property
+
+ analysed by Tannery characterizes the integrals of a linear, homogeneous differential
+
+ equation, with uniform coefficients (Goursat 1883, p. 21). With this remarks, we can
+
+ now follow the letters between Casorati and Pincherle on this topic in the period
+ 1885-1886: the original texts are available in "Appendix 2".
+
+ On 21 July 1885, Pincherle communicated to Casorati (see Letter 1) that he could
+
+ prove Tannery's theorem quickly by resorting to the formalism of the θ operator
+ proposed in (Casorati 1880b). We note that Casorati had lectured on some results
+
+ then published in Casorati (1880b) during the course of Higher Calculus in the aca
+
+ demic year 1879-1880, when Pincherle was in Pavia. Pincherle had only an indi
+ rect knowledge of Tannery (1875) via Goursat's memoir (Goursat 1883) that he
+
+ was studying during his researches on integrals.24 Actually, Pincherle's work on
+
+ the θ operator is an impromptu since at that time he was more concerned with the
+
+ representation of analytic functions by definite integrals that form the content of
+ Pincherle (1885b, 1886b) (Letters 3 and 5). In any case, Casorati (Letter 2) sug
+ gested that Pincherle read (Tannery 1875) because he might find new applications
+
+ therein for the θ operator. While in Letter 2, Casorati seemed to consider the pres
+
+ ence of these applications as not so stringent a requirement if he were to present
+
+ Pincherle's note for publication, he then changed his mind (Letter 4) and his doubts
+ cooled Pincherle who, however, was still convinced that Casorati's method pro
+ vided the right way to obtain an easier proof of the theorem (Letter 5). At this
+ point Casorati felt that Pincherle had taken his doubts too seriously, and encour
+
+ aged him in writing the note (Letter 6). As a result, Pincherle asked Casorati for the
+
+ volume of the Annales containing (Tannery 1875) that was unavailable in Bologna,
+ and that might give him new ideas for a possible expansion of his note (Letter
+ 7).
+
+ Letter 8, dated 9 January 1886, is the most important letter of this correspon
+
+ dence as it contains the note that, as we shall see, will remain unpublished. Pincherle
+
+ proved Tannery's theorem under slightly weaker hypotheses, since he assumed that the
+
+ coefficients could also be multi-valued functions, though of a specific type: uniform
+
+ functions of an analytic point.25 Here is the translation of Pincherle's note attached to
+ that letter.
+
+ Analysis: On a theorem of Mr. Tannery
+
+ Footnote 23 continued
+
+ de ces fonctions sont liées aux prèmieres par des équations linéaires à coefficients constants (...), ces
+ fonctions sont les intégrales d'une équation différentielle linéaire à coefficients uniformes.
+
+ 24 Pincherle started reading Goursat's memoir on June 18th, 1885 as noted in Vol. V of his Ricerche e
+
+ Saggi, an impressive collection of notebooks on which Pincherle annotated his reflections on the scientific
+
+ literature, and wrote down drafts of his own papers and letters. The notebooks are kept in the library of the
+
+ Mathematical Department of the University of Bologna.
+
+ 25 These functions are uniform on their Riemann surface which, in turn, consists of a finite number of sheets.
+
+ Here Pincherle follows Paul Appell who introduced this concept in his Appell (1882a,b). Giulio Vivanti,
+
+ who also studied with Pincherle, devoted (Vivanti 1887) to study their properties. In this paper, Vivanti also
+
+ gave this informal definition (p. 54): Uniform functions of an analytic point are uniform functions in two
+
+ variables that are related by an algebraic equation.
+
+ ô Springer
+
+This content downloaded from 203.78.15.150 on Mon, 18 May 2020 09:20:14 UTC
+All use subject to https://about.jstor.org/terms
+
+ Ε — c\E\ + C2E2 Η \-cnEn, (1)
+
+ where the coefficients c are arbitrary constants; if the variable varies following a
+
+ contour enclosing a\, and if we denote by θ the Casorati operator, it follows that
+
+ Felice Casorati's influence on Salvatore Pincherle
+
+ 175
+
+ This short note aims to show, by a new application, the advantages in the study
+
+ of analytic functions, and of their behaviour in the neighborhood of given points, of
+
+ the method envisaged by prof. Casorati and exposed in his Memoir: "II calcolo delle
+
+ differenze finite interpretato26 etc, Annali di Matematica, S. II, T. X." Here I apply
+
+ this method to prove a theorem stated by Mr. Tannery in his Memoir "Propriétés des
+
+ intégrales des équations différentielles linéaires, Annales de l'Ec. Normale, S. II, T. IV,
+
+ p. 130;" this theorem is remarkable both in its own, and for an important application
+
+ given by Mr. Goursat.27
+
+ The theorem is as follows, though in a modified form: "Let E\, E2,..., En be
+ η analytic functions that are regular in the neighborhood of any point of a simply
+
+ connected set T, apart from a finite number of points 01,02,..., ap, and among
+ which there is no linear relation with constant coefficients; if, when the variable moves
+
+ around any of the points 01,02,... ,ap without leaving the set T, the new values of the
+ functions are related to the former ones by linear relations with constant coefficients,
+
+ then these functions are the solutions of a linear differential equation with coefficients
+
+ that are single-valued in the set 77'
+ In fact, let us consider the function Ε
+
+ θ Ε = αθΕχ + C20Ê2 Η 1- cn9En
+
+ and, by hypothesis,
+
+ similarly
+
+ ΘΕ = kit\E\ + ^1,2^2 + ■ · · + &i,nEn; (2)
+
+ Θ^Ε = ki,\E\ + k2,2E2 + · · · + k2,nEn,
+
+ θηΕ = k„tiE\ + k„:2E2 + · · · + kn,nEn\
+
+ (3)
+
+ if we eliminate I, E\, E2,..., En in Eqs. (1), (2), and (3), an equation
+
+ ΚηθηΕ + Κη-\θη~^Ε + · · · + K0E = 0
+
+ is obtained; this equation, however (Casorati, loc. cit. § 10), shows that Ε obeys a linear
+
+ differential equation
+
+ φ0Ε{η)+φιΕ(·η-ν + ··· + φηΕ = 0,
+
+ 26 See a detailed account of this Memoir in "Bulletin de Darboux, S. II, T. VI, 1882 "
+
+ 27 In the Memoir "Sur une classe des fonctions représentés per des intégrales définies. Acta Mathematica,
+ T.II".
+
+ â Springer
+
+This content downloaded from 203.78.15.150 on Mon, 18 May 2020 09:20:14 UTC
+All use subject to https://about.jstor.org/terms
+
+ 176
+
+ R. Rosso
+
+ with coefficients that are single-valued in a neighborhood of a\ and having Ε as its
+
+ general integral. From the same proof, it also follows that φο,φ\,... ,cpn are single
+
+ valued in a neighborhood of «2» «3 ap, whence the theorem follows.
+
+ If the set Τ covers all the sphere once, the functions φο, ψ\,..., ψη are uniform.
+
+ The case in which the set Γ is a Riemann surface, reduced to be simply connected by
+
+ means of appropriate cuts, is not ruled out; in this case, the functions ιρο, ψ\ ψη
+
+ would be uniform functions of an analytic point.
+ S. Pincherle
+
+ The important application by Goursat alluded to here is Theorem I of Goursat
+
+ (1883). There Goursat considered functions f(x, u), where both χ and u are complex
+
+ variables such that, for any fixed value of x, f(x, u) admits only a finite number
+
+ m = n +ρ of singular values v\,... ,vm, some of which (a\,..., an) are independent
+
+ of x, whereas the remaining ones (mi, , up) do depend on x. For instance, the
+ function
+
+ f(x, u) \= (u - ai)fcl_1(« - a-i)b2~X ···(«-an)b"~l(u -χ)*-1 (5.1)
+
+ has υι = a\ vn = an, vn+\ = u\ — χ as its critical values. Goursat considered
+ the functions
+
+ (ViVh)(x):= f(x,u)du
+
+ fVh
+
+ J Vf
+
+ where the integration is performed along the straight line joining υ,· to Vh. To define
+ these functions, one has first to make sure that none of the singular points t>, fall on
+
+ the path of integration : if, in (5.1), &,· and bh have a positive real part, in defining
+
+ (atah) = f£h f(x, u)du we need to suppose that none of the remaining points a} lie
+ on the segment joining a,· with ah, and the Jt-plane must have cuts (coupures, after
+
+ Hermite 1881) along the segment (a,, a^), to ensure that the singularity u\ does not
+
+ enter the domain of integration. However, this is not enough to guarantee that (a,, ah)
+
+ is a uniform (single-valued) function of χ since, when χ makes a complete turn along
+
+ a close curve surrounding the segment (α,·, a/,), then the integral (a,·a/,) turns into
+
+ (a,·, a/,)e±27ra that, in general, does not coincide with (α,α^): new coupures must be
+
+ introduced to guarantee that (α,a/,) is uniform. Goursat applied Tannery's theorem to
+
+ prove that all the integrals (ujVh)(x) that can be formed from a function f(x,u) obey
+
+ one and the same linear differential equation with uniform coefficients of order m-I.
+
+ Pincherle's proof simplified Tannery's proof, and Casorati himself had considered
+
+ the possibility of applying the results of Casorati (1880b) to simplify Tannery's analy
+
+ sis, though at another point. In fact, in a footnote on p. 336 of Casorati (1951), the
+ editors of Casorati's collected papers—either Luigi Berzolari or Silvio Cinquini—
+
+ report on an unpublished manuscript where Casorati commented upon the advantages
+
+ of (3.5) to reobtain both the main results of Fuchs (1866) as well as Tannery's results
+ on the local behaviour of the general solution of (3.4) as exposed on pp. 139-140
+
+ of Tannery (1875). However, as we mentioned in Sect. 4, after the outcome of the
+ Grand Prix, and the stress induced by Stickleberger's controversy, Casorati avoided
+
+ any publication somehow related to Casorati (1880b).
+
+ <£) Springer
+
+This content downloaded from 203.78.15.150 on Mon, 18 May 2020 09:20:14 UTC
+All use subject to https://about.jstor.org/terms
+
+ Felice Casorati's influence on Salvatore Pincherle
+
+ 177
+
+ With Pincherle's note at his disposal, Casorati changed his mind again. On the
+
+ envelope containing Letter 8, he wrote:
+
+ On going to Modena, I have to take Tannery [memoir] with me, to tell Pincherle that
+
+ it would be a good thing that the note to be published should contain the correction of
+
+ pp. 132-133 of Tannery's [memoir]. Without this or without something more, I would
+
+ not publish the Note.28
+
+ Casorati and Pincherle met shortly in Modena, not far from Bologna where Pincherle
+
+ taught, at the beginning of 1886, and it is clear from Letter 9 that Pincherle followed
+
+ Casorati's advice, though he was unable to find errors on the pages indicated by
+
+ Casorati, apart from a trivial misprint. Casorati remarked (Letter 10) that he had
+
+ in mind something more serious than a typo. To understand his doubts, we have
+
+ to summarize the content of (Tannery 1875, pp. 132-133), where Tannery aimed at
+
+ obtaining the linear differential equation satisfied by the roots of an algebraic equation
+
+ f[x, y) = 0, / being a polynomial of the mth degree in y, with the coefficient of ym
+
+ a constant, for simplicity. The m roots of this equation are functions of * that, when
+
+ χ moves around a singular point, are simply shuffled so that by Tannery's theorem
+
+ they have to satisfy a linear differential equation of order m at most, the order being
+
+ strictly less than m when the roots of fix, y) = 0 satisfy a linear relation with
+
+ constant coefficients. To find this differential equation Tannery eliminated y between
+
+ the equations
+
+ thus obtaining
+
+ fix, y) = 0 and §£ = 0
+
+ dy
+
+ <p(x) = f(x, y)A(x, y) + Bix, y) = 0,
+
+ dy
+
+ for suitable polynomials A and Β of degree m - 1 and m — 2 in y, respectively. By
+
+ taking y as a function of x, the implicit function theorem yields
+
+ dy % *jj fl Q
+ d* % Af + B% ^x)
+
+ where fix, y) = 0 has been used to write Β = Af + Βand to arrange Βso
+ that it contains y up to the power m — 1. Iteration of the procedure makes it possible
+ to conclude that
+
+ dky Pkix,y) wl 1
+ d? = w ( '
+
+ £) Springer
+
+This content downloaded from 203.78.15.150 on Mon, 18 May 2020 09:20:14 UTC
+All use subject to https://about.jstor.org/terms
+
+ 28 Andando a Modena, portar meco il Tannery, per dire al Pincherle che starebbe bene far si che la Nota a
+
+ pubblicarsi contenesse lacorrezione delle pp. 132-133 del Tannery. Senza di ciô ο di qualche altra cosa, io
+ non pubblicherei la Nota.
+
+ 178
+
+ R. Rosso
+
+ where all the polynomials Pk(x, y) contain y up to the power m — 1. From equation
+
+ (5.2) Tannery concluded that clearly (visiblement) the following equation is satisfied
+ by y(x):
+
+ dmy y Qdx) dm~ky
+ dxm ~ [<p{x)]k dxm~k
+
+ where Qk are polynomials in χ only, since all the powers of y from y2 to ym~x can be
+
+ eliminated. Casorati criticized this argument by producing a counterexample, in the
+
+ case m = 2, by setting
+
+ f(x,y) = ay2 + by + c
+
+ where a, b, and c are polynomials in x. Hence, by standard manipulations he wrote
+
+ <p(x) = ac -b2 = (ay2 + 2by + c)xa + (2ay + 2b) ~
+
+ whence, following Tannery's recipe he obtained
+
+ d y ay + β d2y _ yy + S
+ dx αφ(χ) ' dx2 α2ψ2
+
+ where α, β, γ, δ are polynomial functions of a, b, c, and of their first and second
+
+ derivatives with respect to χ. If the terms not containing y are eliminated, the equation
+
+ d2y S dy αδ-βγ
+ ρ j 2 a 2 2 y
+ dxz αφ dx αΔφΔ
+
+ arises where, contrary to Tannery's claim, the coefficient β fails to be a constant.
+
+ Actually, Casorati had had the same doubt a few years before in 1879, when he
+ studied Tannery's memoir (p. 1286 of his unpublished mathematical diary). We note
+
+ that Casorati's example concerns the case m = 2 for which there are no powers of
+
+ y with exponent larger than 1 in (5.2). Essentially, to keep the order of the equation
+
+ equal to 2 he eliminated from the expressions of ^ and gj the terms independent of
+ y. In Pincherle's Memorie e Saggi for the year 1891, Pincherle went back to Tannery's
+
+ method to obtain a differential equation satisfied by an algebraic function. He repeated
+
+ all the passages up to (5.2) and then he remarked that:
+
+ It is possible to eliminate y2, y3,..., ym~l among the m equations
+
+ dy Pi d2y _ P2(x,y) dm~xy Pm-i(x,y)
+ dx φ(χ) ' dx2 [φ(χ)]2 ' dxm~l [<p(x)]m~x
+
+ whence an equation like
+
+ Springer
+
+ <p(;c)m~1)>(m~1) + aiip(x)m~2;y('n~2) Η l· amy = R.
+
+This content downloaded from 203.78.15.150 on Mon, 18 May 2020 09:20:14 UTC
+All use subject to https://about.jstor.org/terms
+
+ Felice Casorati's influence on Salvatore Pincherle
+
+ 179
+
+ is obtained. To eliminate R one has to further differentiate this equation.29
+ The outcome, however, is similar to Casorati's remark because, after differentiations
+
+ to get rid of the polynomial R(x) one is led to an equation with a constant coefficient
+
+ in front of the highest derivative, as in Tannery (1875), but now the structure of the
+
+ denominators in the remaining terms differs from that suggested by Tannery. More
+
+ importantly, the order of the differential equation is larger than m.
+
+ In Letter 9 Pincherle attempted to prove a generalization of Tannery's result: any
+
+ algebraic function satisfies a linear differential equation but, again, his results eluded
+
+ the question asked by Casorati that concerned the structure of the coefficients.
+
+ In my opinion, the example proposed by Casorati played an important rôle in
+ Pincherle's decision not to publish his note: in fact, he could not find the error in
+
+ Tannery's paper, and looking for other interesting applications of Casorati's method
+
+ would have probably taken him too much time. Moreover, Pincherle was soon urged
+
+ to write another short note (Pincherle 1886a), and he again resorted to Casorati (Letter
+
+ 11) to have it published, if possible. In this note, Pincherle introduced the function
+
+ where φ(γ) is an analytic function without singularities along the curve ρ of the
+
+ complex plane. By performing an integration by parts, and selecting ρ so that the
+
+ boundary terms disappear, he obtained
+
+ (5.4)
+
+ and, by iterating the procedure, he arrived at
+
+ to)
+
+ [ <P{r\y)yXyx 1d;y = (-l)'"(* + l--l)(x + A--2)---(* + X-r)/(.r + A-r).
+ he)
+
+ When (5.4) is applied to the linear differential equation
+
+ η m
+
+ r=0 λ=0
+
+ ΣΣαλ.'?νΓ) ω = ο,
+
+ 29 Fra le m equazioni
+
+ Êl = JÛL d2y - dm~1y _ Pm-i(x,y)
+ dx <p(jc) ' d*2 [<ρ(*)]2 d*"1"1 ~
+
+ ii pud eliminare y2, y3 ym~l e viene un'equaz.[ione] délia forma
+
+ ç(x)m-ly(m-i) + ai<p(x)m-2y(m-2) -| μ amy — /}.
+
+ Per eliminare R bisogna derivare ancora.
+
+ £j Springer
+
+This content downloaded from 203.78.15.150 on Mon, 18 May 2020 09:20:14 UTC
+All use subject to https://about.jstor.org/terms
+
+ £Σ(-1)Γαλ,Γ(* + λ - 1)(*+λ-2) · · · (χ + λ - #·)/(;χ + λ - Γ)θλ~Γ /(*) = 0
+ r—0 λ=0
+
+ 180
+
+ η m
+
+ then it is transformed into the linear difference equation
+
+ R. Rosso
+
+ that Pincherle wrote down by resorting to Casorati's operator Θ. Pincherle noted that,
+
+ if the boundary terms do not drop out in (5.4), then the latter transformation embod
+
+ ies that adopted by Mellin (1886, pp. 79-80), in which he obtained a correspon
+ dence between fundamental sets of solutions of a linear homogeneous differential
+ equation and of a functional equation. Actually, the publication of Mellin (1886)
+
+ prompted Pincherle to have (Pincherle 1886a) published in order to secure his priority
+ (Letter 12).
+
+ For a while, the interest in Casorati (1880b) remained quiescent, but in the next
+
+ section, we will see how Pincherle expounded and then extended Casorati's approach
+
+ to finite differences in his papers written after Casorati's death.
+
+ 6 The influence of (Casorati 1880b) on Pincherle's work
+
+ Pincherle's interest in finite-difference equations and, more generally, in functional
+
+ equations remained alive during all his long career. In a conference held in 1926, and
+
+ published in Pincherle (1926), considering the lack of attention to the calculus of finite
+
+ differences in textbooks of mathematical analysis, he wrote:
+
+ The development of differential and integral calculus, with its numberless applica
+
+ tions; the supremacy of the concept of limit and the criticism that, raised by the need
+
+ to make more precise this concept, led to an unavoidable revision of the foundations
+
+ of calculus; the interest originated by the seminal results of the theory of functions of
+
+ one real variable on one hand, and of analytic functions, on the other hand, and the
+
+ appealing questions posed by the theory of aggregates [set theory]: all this left little
+
+ room to a branch of science in which the concept of limit is almost foreign at a first
+
+ sight, and also those branches of analysis in which that concept plays a minor rôle, 1
+
+ mean higher algebra, Galois's theory, the study of finite groups, did not seem to offer
+
+ any relation with the calculus of finite differences.
+
+ However, a more careful examination not only suggests that this branch of science
+
+ is still worthy of attention, but [it suggests] also the expectation that, thanks to the
+
+ new paths recently opened, it can tend to a more brilliant future^ (Pincherle 1926,
+ pp. 233-234).
+
+ 30 Lo sviluppo del calcolo differenziale ed integrale, colle infinite sue applicazioni; il signoreggiare del
+ concetto di limite e le critiche, che, nate dalla necessità di precisare questo concetto, conducevano alia
+ necessaria revisione dei fondamenti del Calcolo; l'intéressé destato dai fecondi risultati della teoria delle
+
+ funzioni di variabile reale d' una parte, delle analitiche dall' altra, e dalle attraenti questioni della teoria degli
+
+ aggregati: tutto cid lasciava poco spazio ad un capitolo della scienza in cui il concetto di limite appariva a
+
+ prima vista pressochè estraneo, mentre anche quei rami dell'analisi in cui quel concetto ha minore parte,
+
+ intendo dire Γ algebra superiore, la teoria di Galois, gli studi sui gruppi finiti, non parevano ofîrire, col
+ calcolo delle differenze finite, alcun addentellato. Perô, un esame più attento fa nascere non solo il pensiero
+
+ che questo ramo della scienza sia ancora degno di interesse, ma la fiducia che, in grazia delle nuove vie che
+
+ di recente gli vennero aperte, possa giustamente aspirare ad un più brillante avvenire.
+
+ £j Springer
+
+This content downloaded from 203.78.15.150 on Mon, 18 May 2020 09:20:14 UTC
+All use subject to https://about.jstor.org/terms
+
+ Felice Casorati's influence on Salvatore Pincherle
+
+ 181
+
+ In my opinion, Casorati's views on the calculus of finite differences belong to these
+
+ new paths that were given to this discipline. In this section, I will consider only those
+
+ of Pincherle's results that can be related to Casorati (1880b): essentially, they were
+
+ published in the last decade of the nineteenth century and they form the backbone
+
+ of Chap. X of the monograph on functional calculus written by Pincherle and Ugo
+ Amaldi in 1901. It should be clear that Pincherle also contributed to other areas of finite
+
+ differences. Notably, the close relation between difference and differential equations
+
+ that had been revealed new aspects after the publication of Poincaré (1885) soon
+
+ captured Pincherle's attention, leading him to the concept of a distinguished integral
+
+ of a difference equation (Pincherle 1892): for the relations between Poincaré and
+
+ Pincherle I refer the reader to Chap. VI of Bottazzini ( 1994) and to Dugac (1989), where
+
+ a couple of letters between the two mathematicians have been published. Moreover, it
+
+ is from finite-difference equations that Pincherle was led to generalize the algorithm
+
+ of continued fractions (see, for instance, Pincherle 1890), a topic on which he had a
+
+ correspondence with Charles Hermite.
+
+ Turning back to the θ operator, we start from the Academic year 1893-1894, when
+
+ Pincherle gave a course on hypergeometric functions, a long account of which was then
+
+ printed in Pincherle (1894). There, for pedagogical reasons, Pincherle inserted several
+
+ sections devoted to difference and differential equations where he gave a detailed expo
+
+ sition of Casorati (1880b), reproducing part of the results and qualifying Casorati's
+
+ method as extremely ingenious (genialissimo) because
+
+ [it] offers an unrivalled simplicity and an interest that is not only scientific but also
+
+ pedagogical1 (Pincherle 1894, pp. 210-211 s Pincherle 1954, p. 275).
+
+ In Chap. 2 of Pincherle (1894), devoted to linear difference equations, Pincherle
+
+ emphasized the importance of the theorem on the Θ determinant, of which he gave
+
+ a proof that coincides, apart from a slight change of notation, with the original one
+ proposed by Casorati. Then, in Chap. IV (§27) Pincherle reviewed the content of
+
+ Chaper 2 of Casorati (1880b) where applications to Fuchs's theory of differential
+ equations had been illustrated. It is interesting to remark that whenever Pincherle
+ considered the distinctions of solutions in subgroups, he never mentioned (Casorati
+ 1881a), neither in Pincherle (1894) nor in Pincherle and Amaldi (1901) whose Chap.
+
+ XII is devoted to this subject.
+
+ If in Pincherle (1894), there are no original results on the θ operator, in 1895
+
+ Pincherle published a series of papers (Pincherle 1895a,b,c) where the operatorial
+
+ nature of θ plays a major rôle. In these papers, Pincherle laid the basis of his functional
+
+ calculus, based upon the properties of linear operators (operazioni distributive) acting
+
+ on a set of analytic functions, or to a properly delimited subset.
+
+ In Pincherle (1895a) Pincherle, soon after the definition of Θ, quoted Casorati to
+
+ emphasize the large spectrum of distributivity endowed by this operator, recalling Eqs.
+
+ (3.2) and (3.3). Then, in §2, he started to study the properties of the set of operators
+
+ F := ao(x) + α\(χ)θ + α2(χ)θ2 Η h am(x)em, (6.1)
+
+ 31 Offre una semplicità senza pari ed interesse scientifico non meno che didattico.
+
+ Ô Springer
+
+This content downloaded from 203.78.15.150 on Mon, 18 May 2020 09:20:14 UTC
+All use subject to https://about.jstor.org/terms
+
+ 182
+
+ R. Rosso
+
+ where {α&(*)} are given functions. Pincherle called operators like (6.1) linear differ
+
+ ence forms (forme lineari aile differenze) of the /nth order. They map a function f(x)
+ into
+
+ / t-»· F(f):=ao(x)f(x)+ai(x)f(x + l)+a2(x)f(x + 2) + 1- am(x)f(x+m).
+
+ Up to §20, Pincherle (1895a) is devoted to forms of finite order and there Pincherle did
+
+ not insist on the nature of the functions α,·( Jt) : ao(x) is only supposed not to vanish at
+
+ the points x+k, so that after a rescaling, it can be set equal to unity. On the contrary, in
+
+ the second part of Pincherle (1895a), devoted to series in Θ, he sketched the elements
+
+ of the systematic presentation of the theory contained in Pincherle and Amaldi (1901)
+
+ where much attention is devoted to characterize a suitable general functional space V
+
+ where θ is defined. Pincherle considered a region ao of the complex plane lying in the
+
+ strip 31(jc) e [0, 1] and then he defined the region
+
+ 00
+
+ where α* is obtained by translating ao of k units along the real axis. In any a* Pincherle
+
+ considered a meromorphic function oik(x) and defined another meromorphic function
+
+ α (χ) in α such that
+
+ α(χ) = ctk(x) if χ e at :
+
+ the set V of all meromorphic functions defined in this way is, by construction, an
+
+ invariant set for the operator θ and Pincherle considered forms (6.1) with coefficients
+
+ belonging to this set. [In particular, if ctk(x) is independent of k, we have linear
+
+ difference forms with constant (periodic) coefficients].
+
+ Pincherle was careful about the algebraic properties of the sets of operators he
+
+ considered, not only those in the class (6.1) but, in general, throughout his functional
+
+ calculus. As an early example of this attitude, we can quote the papers (Pincherle
+
+ 1884b, 1885a) that were markedly influenced by the works of Kronecker (1882) and
+
+ Dedekind and Weber ( 1882). To give a flavour of his attitude in the present context, we
+
+ now look at: (a) the extension of the Ruffini rule to form the quotient and the remainder
+ obtained when a form F is divided by the first-order form Ea := θ — a(x); (b) a
+
+ criterion to decide when a form Β divides another form A. We follow the presentation
+
+ as given in Pincherle and Amaldi (1901), which is more complete than the original
+
+ treatment in Pincherle (1895a).
+
+ After defining the non commutative product of a form A of order m time a form Β of
+ order η as the form AB mapping f(x) A[B(f(x))], Pincherle aimed at extending
+ the classical Euclidean algorithm to linear difference forms. By assuming η < m he
+ looked for a third form Γ, of order m - η, such that
+
+ Α-ΓΒ
+
+ Ô Springer
+
+This content downloaded from 203.78.15.150 on Mon, 18 May 2020 09:20:14 UTC
+All use subject to https://about.jstor.org/terms
+
+ A ^ah(x)eh, Β := &(*)#*. and Γ := ]Γ η(χ)θι,
+
+ the requirement on Γ yields the following linear system for the m — η + 1 coefficients
+ Yi(x)·
+
+ Felice Casorati's influence on Salvatore Pincherle
+
+ 183
+
+ is of order η - 1, at most. By setting
+
+ m η m—η
+
+ h=ο k=ο ;=ο
+
+ Clm(x) - Υηι-η{χ)βη(χ + m - ή) = 0
+ am-\(x) - γ/η-η(χ)βη~ι(χ + m — η) — ym_„_ι(χ)βη(χ + m- n- 1) = 0
+
+ am-r(x) - Σ;=0 Ym-n-j(x)Pn-r+j(x + m - Π - j) = 0
+
+ that can be solved provided that
+
+ βη(χ)βη(χ + \) ■ ■ ■ βη(χ + m - η- 1 )βη(χ + ηι - η) Φ 0, (6.3)
+
+ a condition automatically satisfied in Pincherle (1895a) where βη (χ) ξ 1. When (6.3)
+
+ is satisfied, the form Γ is uniquely determined, and it can be called the quotient of the
+ forms A and B. When the remainder vanishes one has A = Γ Β so that Β divides A.
+
+ When Β = θ - γ the conditions (6.2) become
+
+ βτη-\(x)=am(x)
+ βη,-2(χ) = am-i(x) + am(x)y(x + m - 1)
+ βηι-3(χ)=0ίηι-2(χ)+0ίηι-\(χ)γ(χ + m - 2)+α,„(χ)γ(χ+ηι-1)γ(χ+ηι-2)
+
+ β0(χ) = aiC*) +αχ(χ)γ(χ + 1) Η h αη(χ)γ(χ + 1) · · · y(x + m - 1),
+
+ (6.2)
+
+ (6.4)
+
+ that is the analogue of the classical Ruffini's rule to obtain the coefficients of the
+
+ quotient between a polynomial and binomial χ - a.
+
+ In terms of higher algebra, Pincherle defined irreducibility of a linear difference
+
+ form A with coefficients in a set Ω that is a field V say, (campo di razionalità, i.e
+ the Italian term for Rationalitatsbereich): A is irreducible in Ω if there is no linear
+
+ difference form with coefficients in Ω that divides A (Pincherle 1895a, §6, Pincherle
+
+ and Amaldi 1901, §295). In §296 of Pincherle and Amaldi (1901), the analogue of a
+ lemma employed repeatedly by Galois is stated:
+
+ Let Φ be a form of the order n, irreducible in a certain field, and let Φι another
+
+ form of the order m > η that shares a root φ with Φ, and whose coefficients belong
+
+ to the same field. Then, Φι is necessarily divided by Φ Ρ
+
+ 32 Sia una forma Φ, d'ordine n, irriducibile in un determinate) campo di razionalità, e sia Φι una forma di
+
+ ordine m > n, i cui coefficienti appartengono a quel campo, e che abbia una radice φ comune con Φ. La
+ Φι è allora necessariamente divisibile per Φ.
+
+ Ô Springe
+
+This content downloaded from 203.78.15.150 on Mon, 18 May 2020 09:20:14 UTC
+All use subject to https://about.jstor.org/terms
+
+ 184
+
+ R. Rosso
+
+ We recall that in Pincherle's language a root of a linear difference form (6.1) is an
+
+ element ω(χ) of V such that F(ω(χ)) = 0. Finally, in §297 of Pincherle and Amaldi
+
+ (1901) the dependence of irreducibility of a form on its domain is mentioned, together
+
+ with the fact that irreducible forms can be made reducible by adjoining suitable func
+ tions to the field where the coefficients lie.
+
+ We now turn to the second part of Pincherle (1895a) where Pincherle introduced
+
+ series in θ. There he clearly stated a difference between the traditional way of con
+
+ ceiving symbolic calculus and his own. As for series like
+
+ 00
+
+ n= 0
+
+ 2>„(*)0" (6.5)
+
+ he remarked (Pincherle 1895a, pp. 107-108) that
+
+ These series (...) have been conceived more as a concise style of symbolic repre
+
+ sentation rather than a means apt to yield the element of a genuine theory: here, we
+
+ aim at showing how, by placing suitable constraints on the functions that are acted
+
+ upon by these series, they can be taken as the basis of a truly rigorous calculus.33
+
+ As a consequence of this programme, Pincherle explored sufficient conditions for
+
+ the expressions (6.5) to make sense. He considered functions an(x) that belong to V,
+
+ and defined the functional field of convergence (campo funzionale di convergenza) of
+
+ (6.5) referred to the point jto 6 α as the subset of V such that (6.5) converges absolutely
+
+ in a neighbourhood of xo proving that any series (6.5) admits a non-empty field of
+
+ convergence. As an example of an elementary condition guaranteeing the convergence
+ of (6.5) Pincherle (1895a, p. 109) (see also §311 of Pincherle and Amaldi 1901, p.
+ 250) stated that:
+
+ Let (λη(χ)) be a sequence of functions that are finite in the set ao■ If the series
+
+ is absolutely convergent, and if the element φ{χ) is such that, Vx e ao,
+
+ 00
+
+ ^αη(χ)λη(χ)
+ n=0
+
+ φ(χ + η) < γ(χ)\λη(χ)\
+
+ for η > no, where γ(χ) is both positive and finite in a neighbourhood of a point
+ χ = xo e ao, then <p(x) belongs to the functional field of convergence of (6.5),
+
+ relative to the point xo
+
+ Let us now turn attention to the concept of functional derivative A' of a linear
+
+ operator A defined by Pincherle (1895b) as
+
+ Α'(φ) := Α(χφ) — χΑ(φ),
+
+ (6.6)
+
+ 33 Tali serie (...) sono state considerate più come un modo conciso di rappresentazione simbolica che
+
+ come atte fornire l'elemento di una vera teoria: noi qui ci proponiamo di mostrare come, assoggettando a
+
+ convenient! limitazioni le funzioni su cui si opera, queste serie siano suscettibili di essere prese a fondamento
+
+ di un calcolo perfettamente rigoroso.
+
+ <£) Springer
+
+This content downloaded from 203.78.15.150 on Mon, 18 May 2020 09:20:14 UTC
+All use subject to https://about.jstor.org/terms
+
+ Felice Casorati's influence on Salvatore Pincherle
+
+ 185
+
+ provided that φ(χ) and χφ(χ) belong to the domain of A. The Casorati operator θ
+
+ coincides with its derivative or, equivalently, it satisfies
+
+ θ' = θ
+
+ and so it plays a distinguished rôle, analogue to the exponential function in classical
+
+ calculus. Actually, in Pincherle (1895b), Pincherle showed that an operator A satis
+ fying A' = A has the form A = ΜΘ, where M is the multiplication by a suitable
+ function. In fact, by setting ε(χ) = A(l) and by using (6.6), the requirement A' = A
+
+ implies that
+
+ A(;t) = A(x ■ 1) = (x + l)e(;t) A(xn) = (x + 1 )"£(.*)
+
+ so that, if<p(x) belongs to the set «S1 of functions whose series expansions centered at
+
+ the origin have radius of convergence larger than 1, then
+
+ Α{φ{χ)) = ε(χ)φ(χ + 1) = ε(χ)θ.
+
+ As we have already seen, Casorati emphasized that the operator θ is distributive also
+
+ with respect to other operations besides sum. Pincherle deepened this property in
+
+ (Pincherle 1895b,c) where he introduced the operation of substitution (sostituzione),
+
+ denoted with S or Sa, that amounts at replacing φ(χ) with <p(a(x)), where a(x) is an
+
+ assigned function. By definition, the operation Sa satisfies
+
+ SW) = SWS(« and =
+
+ \Ά/ S (ψ)
+
+ like the operator θ that clearly corresponds to the particular choice a(x) = χ + 1 (see
+
+ also §122 of Pincherle and Amaldi 1901). In fact, it satisfies the first order symbolic
+
+ differential equation
+
+ S'a = (a(x) - x)Sa (6.7)
+
+ which, as we have just seen for the operator Θ, is a characteristic property of substitu
+
+ tions since any solution of (6.7) is of the form MS, where 5 is a substitution, and M
+
+ is the multiplication by a certain function. Proceeding in parallel with Fuchs's theory
+
+ of linear differential equations, Pincherle considered nth order symbolic differential
+
+ equations
+
+ λ0(χΜ(π) + ÀiU)A(n_1) + · · · + λη(*Μ = 0 (6.8)
+
+ <£) Springer
+
+This content downloaded from 203.78.15.150 on Mon, 18 May 2020 09:20:14 UTC
+All use subject to https://about.jstor.org/terms
+
+ 186
+
+ R. Rosso
+
+ and he proved that η operators A\,..., A„ solving (6.8) are linearly dependent if and
+
+ only if the determinant
+
+ A\ A2 ... A„
+ A' A' A'
+
+ Δ := A2 ... A„ (69)
+
+ 4(1—1) 4(1-1) 4(1-1)
+ /ij /I2 ... rt-n
+
+ is equal to zero (see also Chap. VI of Grévy 1894 for an analogue statement). Then he
+
+ proved that it is possible to build a fundamental system of solutions of (6.8) starting
+
+ from a particular set of substitution operators, defined as Sa„, where the η functions
+ ai(jt),..., an(x) are the roots of the characteristic equation
+
+ f(z) := λ0(χ)(ζ -x)n + λι(χ)(ζ -x)n~l Η μλ„_ι(Λ)(ζ -χ) + λη(χ) = 0.
+
+ Chapter XIV of Pincherle and Amaldi (1901) is devoted to a detailed study of the
+
+ expressions
+
+ m
+
+ k=0
+
+ called linear substitution forms (forme lineari aile sostituzioni). There, a parallel of the
+
+ theory to the one already illustrated for linear difference forms is drawn by referring
+
+ to results by Grévy (1894).
+
+ Given that, besides the Wronskian and the Casoratian determinants, there is also
+
+ (6.9), the question arises of looking for larger classes of operations for which a theorem,
+
+ analogous to that of the Wronskian, holds34 (Pincherle and Amaldi 1901, p. 430).
+
+ Chapter XV of Pincherle and Amaldi (1901) is devoted to answering this question
+
+ by looking at the common structure of the "Wronskian-like" theorems: to find out a
+
+ necessary and sufficient condition for η regular enough functions φ\,..., φη to satisfy
+ a relation
+
+ cm Λ-^φιΛ + cn(pn =0
+
+ where not all the coefficients c, vanish. The coefficients c,· are constant with respect to
+
+ a suitable linear operator A: if A = D = ^ then c,· are really constants; if A = θ then
+ Ci are periodic functions with period equal to 1; if A = 5μ, then c, (x) = c;(/x(.x)).
+
+ Pincherle and Amaldi note that the crucial steps to obtain a Wronskian theorem are:
+
+ (a) to show that
+
+ A(Ci) = 0
+
+ 34 Ricercare se esistano classi più ampie di operazioni, per le quali sussista un teorema analogo a quello
+ del Wronskiano.
+
+ <£] Springer
+
+This content downloaded from 203.78.15.150 on Mon, 18 May 2020 09:20:14 UTC
+All use subject to https://about.jstor.org/terms
+
+ where α,·7· and β, are functions that are not completely independent. In fact, by imposing
+
+ that A Op ψ) = A(yr<p)andthentesting(6.10)on ψ = 1 they got the simpler expression
+
+ Felice Casorati's influence on Salvatore Pincherle
+
+ 187
+
+ and (b) to show that a multiplication theorem holds, that is, a particular relation among
+
+ Α(φψ), Α{φ) and Α (ψ ) whose meaning, however, slightly varies on passing from D
+
+ to θ and to 5μ :
+
+ Β(φψ) = Ό{φ)ψ + φΰ(ψ) θ{φψ) = θ(φ)θ(ψ) 5μ(φψ) =
+
+ As a consequence, Pincherle and Amaldi restricted their attention to single-valued
+
+ linear operators such that
+
+ Α(φψ) = αοοφψ + α0\φΑ(ψ) + α\οψΑ(φ) + α\\Α{φ)Α{ψ)
+
+ +βϊφΑ(φ) + β2ψΑ(ψ), (6.10)
+
+ Α(φψ) = ξ(αξ - ί)φψ + (1 - αξ)[φΑ(ψ) + ψΑ(φ)]+αΑ(φ)Α(ψ) (6.11)
+
+ where oc := au and ξ := Λ(1) are independent from one another. If a = 0, the most
+
+ general linear operator satisfying (6.11) is
+
+ where ξ ι = A (χ) and Mç represents pointwise multiplication by ξ. On the other hand,
+
+ if α Φ 0 such a rôle is played by
+
+ A = (£i — ξχ)ΰ + Μξ,
+
+ A = —Ξμ + Ai* ι :
+ a * a
+
+ 7 Conclusions
+
+ The main obituaries of Pincherle, namely Amaldi (1937) and Tonelli (1937) refer to
+
+ the influence exerted by Casorati on some aspects of Pincherle's research. Resorting to
+
+ unpublished documents kept in the Casorati Nachlass, we have examined some aspects
+
+ of their relationship. In particular, we have found an unpublished note by Pincherle
+
+ centered on a paper by Tannery (1875) where Casorati's θ operator is used in the
+
+ new interpretation envisaged by Casorati himself to export finite-difference methods
+
+ in the realm of complex analysis. Casorati's paper (1880b) had the most influence
+
+ on Pincherle, as we showed in Sect. 6 through an overview of Pincherle's work on
+
+ this topic, culminating in the publication of his monograph (Pincherle and Amaldi
+
+ 1901). Moreover, other documents of the Nachlass made it possible to investigate the
+
+ â Springer
+
+This content downloaded from 203.78.15.150 on Mon, 18 May 2020 09:20:14 UTC
+All use subject to https://about.jstor.org/terms
+
+ hence, linear differential forms and substitution forms exhaust the class of linear oper
+
+ ators satisfying (6.11). For this class of operations, an analogue of the Θ-determinant
+ holds (see Pincherle and Amaldi 1901, §455). With Pincherle's work the results of
+
+ Casorati (1880b) found their natural place within functional calculus.
+
+ 188
+
+ R. Rosso
+
+ complex history behind Casorati's participation in the 1880 Grand Prix de Sciences
+
+ Mathématiques and to add some detail on the controversy he had with Stickelberger.
+
+ In particular, we have seen that Stickelberger claimed that the theorem on the now
+
+ called Casorati's determinant had already been proved by Christoffel more than 20
+
+ years before the publication of Casorati (1880b), though in the context of classical
+
+ finite-difference calculus. We plan to deepen other aspects of Pincherle's early career
+
+ in future publications.
+
+ Acknowledgments As already remarked in the text, most of the original documents are preserved in
+ the Casorati Nachlass at Pavia. It is a pleasure to thank once more Prof. Alberto Gabba for his kindness
+
+ in disclosing the Nachlass to me: without him, this paper would not have been written. 1 would like to
+
+ thank also prof. Umberto Bottazzini, prof. Salvatore Cohen, and prof. Otto Liess for useful information on
+
+ Pincherle's unpublished Ricerche e Saggi preserved in the historical section of the library of the Department
+
+ of Mathematics in Bologna; dr. Anna Biavati and dr. Claudio Cappelletti who helped me during my visit
+
+ at this library. I also acknowledge the kind assistance of dr. Alessandra Baretta and dr. Maria Piera Milani
+
+ during my visits at the historical archive of the University of Pavia. Finally, I express my gratitude to prof.
+
+ Mario Ferrari for his constant encouragement.
+
+ Appendix 1: Original letters concerning the 1880 Grand Prix des Mathématiques
+
+ Letter 1 : Casorati to Bertrand
+
+ Caro ed illustre Amico
+
+ Pavia, 27 dicembre 1879
+
+ Un mio compaesano, discontinuo ma passionato cultore dei nostri studî, è riu
+
+ scito a scoperte analitiche di grande momento, segnatamente efficaci nelle moderne
+
+ ricerche basate sulla variabilità complessa. (...) Egli ha già potuto impossessarsi dei
+
+ lavori [che sono] stati fatti in Germania, e vi ha subito introdotto belle ed importanti
+
+ semplificazioni, cosi da avere la certezza di figurare con onore tra concorrenti anche
+
+ fortunatissimi. Ma poiché i suoi concepimenti hanno un'importanza generale, e ripeto
+
+ grande, e non subordinata al tema su citato, cost egli, giustamente nell'interesse dei
+
+ suoi studî e nel suo, non vorrebbe tenerli segreti sino alia fine del 1880. Perô d'altra
+
+ parte, egli vorrebbe comportarsi in modo da conseguire la grande soddisfazione di un
+
+ premio dell'Accademia di Parigi, la quale vedrà con piacere uscire in luce le nuove
+
+ idee per mezzo delle sue pubblicazioni.35 Interessatissimo pel mio compaesano, pensai
+
+ di ricorrere in segreta confidenza a voi per consiglio; fidente nell'interessamento che
+
+ voi avete sempre altamente mostrato per i nostri studî, e nella benevolenza che avete
+
+ sempre accordato a chi vi scrive. Io dunque chiedo non al Segretario Perpetuo, ma
+
+ 35 Casorati added the following comment, that was not included in the letter: Qualunque sia per essere
+
+ I'esito del concorso, deploro di aver scritto questi pensieri. Essi erano naturali quando un fatale inganno
+
+ mifece credere commutativi due simboli d'operazione e mi condusse quindi a conseguenze d'incredibile
+
+ importanza. Ma rum dovevo estemarli subito, come feci, ad uno straniero; dovevo lasciar passare almeno
+
+ qualche giorno, secondo le buone regole, che non si violano impunemente. Che cosa potrebbe aver detto
+ Bertrand, se avesse letta bene la mia lettera? Ε perché, dopo riconosciuto il mio traviamento, non gli
+
+ scrissi per avvertirvelo ? Cid che rimaneva di accertato nelle mie ricerche era pur sempre meritevole, a mio
+
+ giudizio, di molta considerazione.
+
+ <£) Springer
+
+This content downloaded from 203.78.15.150 on Mon, 18 May 2020 09:20:14 UTC
+All use subject to https://about.jstor.org/terms
+
+ Felice Casorati's influence on Salvatore Pincherle
+
+ 189
+
+ all'amico benevolo, come dovrebbe il mio compaesano comportarsi? Se stampasse
+
+ anonime una parte delle cose sue, potrebbero essere ancora valutate in un manoscritto
+
+ presentato al Concorso? [...]
+
+ II vostro devotissimo
+
+ F. Casorati
+ F. Casorati
+
+ délia Université di Pavia
+
+ Pavia, 28 genn. 80
+
+ Letter 2: Casorati to Bertrand
+
+ Ch. mo Prof. (Bertrand)
+
+ (...) Questo silenzio, ch'io credo non meritato, ha già naturalmente prodotto il suo
+
+ triste effetto, di scoraggiare chi forse meritava incoraggiamento, di dissuaderlo dal
+
+ continuare in quelle applicazioni che aveva cominciato felicemente, con quell'ardore
+
+ che guida sempre a qualche risultato non volgare.
+
+ Ho sempre creduto che, come la grande maggioranza delle persone colte guarda
+ a Parigi con ammirazione ed affetto, come alia gran madre d'ogni progresso
+ dell'umanità, cosl voi Parigini, e voi particolarmente membri dell'Istituto, dobbiate
+
+ guardare con benevolo affetto tutti gli opérai del progresso, più ο meno distinti che
+
+ sieno, giovani ο no, purché onesti, purché sinceramente intenti al meglio dell'umanità.
+
+ Ma non aggiungerô altro, perché, rattristato come sono, vi riuscirei troppo molesto.
+
+ Letter 3: Bertrand to Casorati
+
+ Obbl.mo vostro
+
+ F. Casorati
+
+ dell'Université di Pavia
+
+ Paris, 31 janvier 1880
+
+ Très cher monsieur
+
+ (...) Je ne puis malhereusement engagé à l'avance ni l'académie, ni la Commission,
+
+ qui n'est pas même nommée et qui sera souveraine. Elle fera tout, j'en ai la convinction,
+
+ pour courronner une mémoire importante et les questions du forme, celles même du
+
+ publications antérieure, n'ont pas l'habitude du prévaloir sur le mérite du fond. Je peut
+
+ vous citer l'example du Kummer qui a obtenu le prix proponi pour le théorème de
+
+ Fermât, sans avoir concouru, son mémoir publié en langue allemande depuis plusieurs
+
+ annés, et traduit en Français depuis plus d'un an, a été jugé digne du prix et l'a obtenu
+
+ au grand étonnement du l'auteur qui n'y songeait pas. Je conseillerai donc à votre
+
+ ami d'imprimer en langue italienne les principaux résultats et d'envoyer un mémoire
+
+ détaillé qui, j'en ai la convinction, sera lu et jugé avec le même empressement que si
+
+ tout était inédit. Le secret qui doit être gardé sur le nom de l'auteur, sera, il est vrai,
+
+ violé: un juge formaliste pourrait y voir une difficulté et je n'ai pas le droit d'affirmer
+
+ £] Springer
+
+This content downloaded from 203.78.15.150 on Mon, 18 May 2020 09:20:14 UTC
+All use subject to https://about.jstor.org/terms
+
+ 190
+
+ R. Rosso
+
+ que cela n'arrivera pas, mais je ne pense pas, d'après mon habitudes et les ideés que
+
+ je connais à mon Confrères, que cela soit à craindre.
+
+ Je ne veux pas vous cacher que le sujet a été proposé pour moi et que j'avais pensé
+
+ en le rédigeant à la possibilité de récompenser les travaux de Mr. Laguerre sur les
+
+ équations differentiélles lineaires et particulièrement sur les invariants. Mr. Laguerre
+
+ lui même ignore d'ailleurs cette arrière pensée dont je n' ai pas fait part à mes Confrères,
+
+ mais si lui vient l'idée de concourir, il sera, vous le voyer, dans le même cas que votre
+ ami. (...)
+
+ J. Bertrand
+
+ Pavia, 6 febbraio 1880
+
+ Letter 4: Casorati to Bertrand
+
+ Carissimo Signore (Bertrand)
+
+ (...) Ora vi faccio una confessione. Il mio compaesano è quegli stesso che vi scrive.
+
+ Ma venendo ormai alPargomento, vi dirô, che, ritornato con lena agli studî dopo
+
+ un lungo soggiorno sulle Alpi, fui condotto ad interpretare il calcolo delle differenze
+
+ finite, diretto ed inverso, in modo da farlo diventare un potente ausiliario delle moderne
+
+ ricerche basate sulla variabilità complessa. Naturalmente, a questa interpretazione
+
+ aggiunsi alcuni teoremi affatto nuovi. Allorché poi Γutilità di queste mie cose mi
+
+ parve largamente dimostrata dall'applicazione alio studio, ora tanto in voga, delle
+
+ equazioni differenziali lineari, pensai che avrei potuto concorrere al premio proposto
+
+ dalla vostra Accademia su quest'argomento, e mi risolvetti a scrivervi la mia prima
+ lettera.
+
+ Perd voi avete interpretato questa lettera in un senso che io era lontanissimo dal
+
+ darle. Dite "Je ne puis malhereusement engage à l'avance ni l'Académie, ni la Com
+
+ mission, qui n'est pas même nommée et qui sera souveraine." Io lo credo bene! Ε non
+
+ avrei mai imaginato [sic !] di pretendere cose ingiuste. Ma tutto ciô sia come non detto.
+
+ L'essenziale ora si è che la vostra lettera mi ha rialzato e soddisfatto pienamente.
+
+ Accettando il vostro consiglio, farô stampare subito negli Annali di Matematica di
+
+ Milano una parte délia interpretazione suddetta con Fapplicazione per ora aile pro
+
+ priété fondamentali degli integrali delle equazioni differenziali lineari a coeff.[icienti]
+
+ monodromi. Ε non mandero alcun manoscritto; parendomi non necessario giacché mi
+
+ basta di sapere dalla vostra lettera, che la Comm.[issione] potrebbe anche prendere
+
+ in considerazione lavori pubblicati per la stampa. Io non avrei nessun gusto di fare
+
+ concorrenza al sig. Laguerre. Sono abbastanza pago di poter credere che ove il sig.
+
+ Laguerre non si risolvesse a concorrere, potrebbe essere presa in considerazione anche
+
+ la Memoria che io adesso pubblichero, e quelle altre sulle equazioni lineari ancora e
+
+ su altre ricerche con variabilità complessa che avessi agio di pure redigere in netto e
+
+ stampare.
+
+ Perdonatemi tutto questo disturbo, pur troppo grande per voi certamente accerchiato
+
+ da mille cose, ed aggradendo l'attestazione délia profonda mia stima e del mio affetto,
+
+ vogliate conservarmi la vostra preziosa benevolenza.
+
+ Dev.mo vostro
+
+ F. C.
+
+ Springer
+
+This content downloaded from 203.78.15.150 on Mon, 18 May 2020 09:20:14 UTC
+All use subject to https://about.jstor.org/terms
+
+ Felice Casorati's influence on Salvatore Pincherle
+
+ 191
+
+ Letter 5: Bertrand to Casorati
+
+ Paris, 15 février 1880
+
+ Cher monsieur,
+
+ J'ai reçu votre lettre avec grand plaisir très heureux de voir qu'il ne reste rien du
+
+ malentendue dont j'ai été, bien sans inténtions, la cause.
+
+ Je ne puis, comme je vous j'ai dit, prendre aucun engagement au nom d'une Com
+
+ mission qui n'existe pas encore et vous l'avez parfaitement compris mais je crois de
+
+ vous avoir laissé prendre pour une habitude de l'académie ce qui a été fait une fois
+
+ or deux seulement dans des circumstances exceptionelles. Les commissions peuvent
+
+ décerner le prix à des mémoirs imprimé et non envoyé au concours mais elles ne l'ont
+
+ fait que très rarement, en l'absence de plis régulièrement envoyés au concours et digne
+
+ de disputer le prix et lorsqu'aucune membre de la Commission n'envoquait la lettre
+
+ des programmes pour s'y opposer.
+
+ Si donc vous avez obtenu... .36 des résultats importants et si votre désir bien naturél
+
+ est de les faire courronner par l'académie des Sciences de Paris, il est prudent de les lui
+
+ envoyer et s'ils ont été imprimés par entier, vous pouver citer le pubblications, mais en
+
+ mettant sous les yeux des commissaires un37... complet de votre travail. En procèdent
+
+ autrement, vous ne rendrez pas le succès impossible parce qu'il y a des examples qui
+
+ sont tout semblables, mais vous en diminuerez singulièrement les chances. [...]
+
+ Letter 6: Casorati to Cremona
+
+ Caro Cremona,
+
+ J. Bertrand
+
+ Pavia, 25 febb. 1880
+
+ Sono scampato anch'io da una grave disgrazia. La mia Eugenia veniva assalita da
+
+ pleurite con minaccia di tifo, cosî da metterne per qualche giorno in pericolo la vita.
+
+ Fortunatamente il tifo non si sviluppô e la pleurite va attenuandosi. Benché sventata,
+
+ questa minaccia ha tanto prostrato le mie forze che non sono peranco capace di appli
+
+ carmi per un'ora alio studio. L'essersi ammalata in Milano, e il dovervisi naturalmente
+
+ fermare ancora molto tempo fa sî che non posso più vedermi nella solitaria casa di
+ Pavia.
+
+ Al principio di questo mese avevo fatto comunicar una mia lettera all'Ist.[ituto]
+ Lombardo alla quale tenevo assai. Ma nella seduta ultima mi mancava ogni lena
+ per spiegare come avrei desiderato ai colleghi mat.[ematici] le cose mie. Ora poi lo
+
+ sciopero degli opérai tipografi impedisce la stampa dei Rendiconti. Perciô avrei piacere
+
+ di fare ai Lincei la Comunicazione suddetta, e per mezzo tuo, che sai sostenere cosî
+ bene i tuoi clienti.
+
+ La comunicazione ha per titolo: "Il calcolo delle differenze finite interpretato ed
+
+ accresciuto di nuovi teoremi a sussidio principalmente delle odierne ricerche basate
+
+ sulla variabilité complessa".
+
+ 36 It was hard to decode Bertrand's manuscript here. It seems to me: comme j'en suis content
+
+ 37 Same remark as before. It looks like: essai.
+
+ â Springer
+
+This content downloaded from 203.78.15.150 on Mon, 18 May 2020 09:20:14 UTC
+All use subject to https://about.jstor.org/terms
+
+ 192
+
+ R. Rosso
+
+ In virtu della medesima moltissime ricerche che costarono gran fatica a matematici
+
+ valenti diventano ovvie traduzioni di quanto già da tempo è stato fatto nel calcolo delle
+
+ differenze finite. In questa prima Comunicazione dimostro la importanza della mia
+
+ interpretazione facendone applicazione a due argomenti: alio studio delle equazioni
+ algebriche a coefficienti monodromi; ed a quello ora di moda delle eq.fuazioni]
+ diff.[erenziali] lineari.
+
+ Potrai vedere nella la applicazione come riducasi a poche linee una metà delle
+
+ celebri e lunghe "Recherches sur les fonctions alg.[ébriques] del sig. Puiseux" e nella
+ 2a corne scendano immediatamente dalle note formole d'integrazione delle equazioni
+
+ aile differenze finite lineari e coi coeff.[icienti] costanti le propriété e le espressioni
+
+ degli integrali delle equaz.[ioni] differenziali lineari con coefficienti monodromi che
+
+ costarono tanta fatica al sig. Fuchs ( la sua Memoria) e diedero da fare ai signori Thomé
+
+ Frobenius Hamburger, Jurgens.
+
+ pure il determ.[inante] H.
+
+ Quel teorema sul determ.[inante] Θ parvemi veramente bello e di grande uso. Utile
+
+ Ero molto soddisfatto di questa interpretazione che sembrami di poter qualificare
+ come una scoperta analitica di grande fécondité, e m'avviavo a farne moite altre
+
+ applicazioni, quando la malattia dell'Eugenia venne a spaventarmi ed istupidirmi.
+
+ Se non ti displace di fare per me questa comunicazione nella prossima seduta Lincea
+
+ ti manderè il manoscritto, che in parte feci già leggere a Beltrami.
+
+ Non t'avrei dato questo disturbo se il ministère t'avesse trascinato già sino d'ora,
+
+ come si cominciava a dire, nel suo vortice.
+
+ Mille affettuosi e rispettosi saluti alla sig. Elisa ed aile tue care figlie, ed a te una
+
+ cordiale stretta di mano.
+
+ Letter 7: Casorati to Bertrand
+
+ Car.mo ed. illustr. Signore
+
+ Tuo F. C.
+
+ Pavia, 3 aprile 80
+
+ ( ) Mi sarei deciso di ritirare il manoscritto destinato agli Annali, ampliarlo e
+
+ riscriverlo meglio che potrô, e spedirlo al Segretario délia vostra Accad.femia] entro il
+
+ maggio, conformemente aile riflessioni della vostra ultima lettera. Ma devo pregarvi di
+
+ una risposta alla seguente domanda: Posso mandare un manoscritto in lingua italiana,
+ ο devo tradurlo in francese? Se aveste la bontà di darmi questa risposta, ve ne sarô
+
+ sempre più obbligato, e spero che sarà l'ultimo disturbo che vi avrô arrecato.
+
+ Perô non posso chiudere la lettera senza pregarvi vivamente, per quando riceverete
+
+ il mio articolo stampato dai Lincei, di volergli dare un'occhiata. Voi troverete tutto
+
+ facilissimo, e mi è caro sperare che il teorema pel determin.[ante] Θ, e le applicazioni
+ che ho indicate alla fine, e la évidente molteplicità delle altre applicazioni possibili,
+
+ non abbiano a parervi indegne della vostra attenzione.
+
+ Vostro devotissimo
+
+ F.C.
+
+ Univ.[ersità] di Pavia
+
+ Ô Springer
+
+This content downloaded from 203.78.15.150 on Mon, 18 May 2020 09:20:14 UTC
+All use subject to https://about.jstor.org/terms
+
+ Felice Casorati's influence on Salvatore Pincherle
+
+ 193
+
+ Letter 8: Bertrand to Casorati
+
+ Il n'y a pas de temps perdu, aucun mémoire n'a été envoyé jousqu'ici et la Com
+
+ mission qui doit les juger n'est pas encore nommée.
+
+ Un manuscrit en langue italienne sara certainement reçu et la lecture, j'en suis
+
+ certains, sera facile à tous les commissaires. Je pense cependant que si cela ne vous
+
+ est trop pénible, il vaut mieux écrire en Français; vous serait jugé plus facilement et
+
+ sans porter atteinte ou secret qui, éxigé pour les noms des concurrents, ne l'est pas
+
+ pour leur nationalité, mais reste cependent préferible. [...]
+
+ Paris, 7 avril 1880
+
+ Cher monsieur,
+
+ Votre amis très dévoué,
+
+ J. Bertrand
+
+ ce 22 mai 1880
+
+ Letter 9: Casorati in the billet cacheté
+
+ Félix Casorati
+
+ Professeur à l'Université de Pavie-Italie
+
+ Le manuscrit concernant les interprétations du Calcul aux différences dont j'ai fait
+
+ mention dans la préface a été comuniqué à Γ Institut Lombard de sciences et lettres dans
+
+ sa séance du 19 février, et devait être publié tout-de-suite dans les Annali di Matematica
+
+ (Milano). Mais une longue trêve des ouvrièrs interrompit tout travail dans l'imprimerie
+
+ des Annali. Alors j'ai comuniqué une copie de ce manuscrit à YAcadémie R. des Lincei
+
+ dans sa séance du 7 mars. Mais l'excès des travaux académiques à imprimer et une
+ grave malheur domestique, qui détournait mon esprit des études, retardèrent aussi
+ l'impression de cette comunication. Les deux manuscrits, maintenant quelque peu
+
+ amplifiés, vont enfin paraître publiés dans peu de jours. Mais leur lecture serait tout
+
+ à-fait inutile pour qui connaît le manuscrit présenté avec ce billet au concours.
+
+ Letter 10: Casorati to Brioschi
+
+ Madesimo presso Pianazzo
+
+ sullo Spluga, 31 luglio 80
+
+ Carissimo sig. Direttore (Brioschi)
+
+ Già le dissi in Milano di aver fatto qualche pensiero sul premio Bressa da conferirsi
+
+ stavolta all'Italiano che nel quadriennio 1877-1880 a giudizio delPAccad.[emia] di
+
+ Torino avrà fatto il miglior lavoro "sulle scienze fisiche e sperimentali, storia natu
+
+ rale, matematiche pure ed appl.[icate], chimica, fisiologia e patologia, non escluse la
+
+ geologia, la storia, la geografia e la statistica".
+
+ In verità, per la moltitudine delle materie ammesse a concorso, è assai poco proba
+
+ bile che il premio venga dato ad un matematico. Perè, dappoiché ciô è possibile, e
+
+ dappoiché a me sembra che la Memoria, che ora le dirigo (Il calcolo delle diff.[erenze]
+
+ Springer
+
+This content downloaded from 203.78.15.150 on Mon, 18 May 2020 09:20:14 UTC
+All use subject to https://about.jstor.org/terms
+
+ 194
+
+ R. Rosso
+
+ ecc.), sia la più importante tra le apparse nel quadriennio, in primo luogo per la estesa
+
+ applicabilité delle idee che vi sono esposte, in secondo luogo per la importanza dei teo
+
+ remi (specialmente quello del Θ ο Δ) e delle applicazioni che già in questo primo sag
+
+ gio potei abbastanza minutamente indicare, penso che sarebbe quasi colpevole negli
+
+ genza in me che ho famiglia, il nulla fare per mettermi in vista all'Accademia. Sentito
+
+ il parère di Beltrami, ne parlai con Genocchi, il quale aggradi moltissimo l'esposizione
+
+ che gli feci di una parte délia Memoria, allora non per anco uscita dalla Tipografia.
+
+ Ma a portare vie più l'attenzione dell'Accademia sulla medesima, servirebbe egregia
+ mente la proposta di Lei, quale socio dell'Accad.[emia], come pure quella di Betti.
+
+ Ε pertanto, lo scopo délia présente lettera è pregarla a voler dare un'occhiata alia
+
+ Memoria, ed a voler poi, nel caso che ne ricevesse impressione abbastanza favorevole,
+
+ scrivere due semplici righe all'Accademia, come già altri fecero pel 1° premio (...)
+
+ Ed ora devo pregarla di scusarmi, se, per questa eccezionale circostanza dovetti
+
+ lodare un mio lavoro. L'assicuro che questa necessità mi spiace assai, e che non penso
+
+ di prendere da qui le mosse per seguire le consuetudini dei francesi. (...)
+
+ Letter 11\ Casorati to Picard
+
+ il suo aff.mo F. Casorati
+
+ Pavie, ce 11 décembre 1880
+
+ Monsieur (Ε. Picard)
+
+ Vos travaux, et tout ce que m'a dit des vous M. Mittag-Leffler, en me visitant il
+
+ y a quelque mois, et la nouvelle de vôtre prochain marriage avec une fille du grand
+
+ Géomètre38, qui est une des plus pures et plus hautes gloires de la France, tout cela
+
+ m'ispire une vive estime et sympathie et, par conséquent, le désir d'établir avec vous
+ quelques rapports personnels. C'est pour cela que je me suis décidé à vous envoyer
+ tous les exemplaires qu'il m'est possible, des mes travaux de mathém.[atique] pure,
+
+ (deux paquets) avec cette lettre, en vous priant d'avoir la bonté de les agréer et de
+
+ vous souvenir possiblement de moi, lorsque vous dispenserez les exemplaires de vos
+
+ propres travaux.
+
+ Je vous enverrai dans une autre occasion quelques autre Mémoires, dont une partie
+
+ est déjà imprimée, contenants bon nombre d'applications du Calcul des différences
+
+ finies, lesquelles vous intéresseront, j'èspere, beaucoup. Dans pluiseurs d'entre elles
+
+ joue un rôle très important et très-élégant le detérminant
+
+ h h ■■■ fn
+ Δ/ί Δ/2 ... Afn
+
+ Δ"-1/! Δ"_1/2 ... Δ"-1/»
+
+ 38 Picard was going to marry Charles Hermite's daughter.
+
+ <£) Springer
+
+This content downloaded from 203.78.15.150 on Mon, 18 May 2020 09:20:14 UTC
+All use subject to https://about.jstor.org/terms
+
+ Felice Casorati's influence on Salvatore Pincherle
+
+ 195
+
+ formé avec les différences successives de pluiseurs fonctions f\,..., /„, d'une même
+ variable t, le quel j'écris aussi comme il suit
+
+ /l h ■■■ fn
+ θ fl θ f2 ... Bfn
+
+ en~lf\ en~lf2 ... θ"~1/η
+
+ en écrivant 9f, Θ2 f,... au lieu de /(f + 1), /(f + 2),.... De telle manière, on peut
+ regarder θ comme un symbole d'opération, ce qui est, comme vous verrez, très utile.
+
+ En envisageant la variabilité de t de plusieurs point des vue différents et en relations
+
+ avec d'autres variables qui jouent elles-mêmes le rôle de variables indépendantes,
+
+ on obtient plusieurs interprétations différentes du symbole θ, et autant de manières
+
+ correspondantes de traduire toutes les formules ou propositions, qui ont été acquiséz
+ jusqu'ici dans l'analyse directe et inverse des différences finies, dans des résultats
+
+ concernants d'autres branches de l'analyse mathématique. Le Calcul des différences
+
+ finies si négligé dans ces dernièrs temps acquiert par là une importance très-grande et
+
+ inattendue même pour l'analyse infinitésimale.
+
+ Mais je ne veux pas être trop indiscret, en vous entretenant plus longtemps sur mes
+
+ travaux. Veuillez donc agrée, je vous en prie de nouveau, les séntiments d'éstime et
+
+ de sympathie qui m'ont fait écrire cette lettre, et soyez si bon de me pas m'oublier
+ tout-à-fait.
+
+ Votre serviteur
+
+ F. Casorati
+
+ Prof, à l'Université de Pavie
+
+ Italie
+
+ Je vous serai très-obligé si vous voudrez m'assurer par quelques mots d'avoir reçu
+
+ les paquets.
+
+ Letter 12: Picard to Casorati
+
+ Toulouse, ce 17 décembre 1880.
+
+ Monsieur
+
+ J'ai été très flatté de votre aimable lettre et je serai très heureux d'établir avec vous
+
+ de relations amicales. Je vous remercie vivement des exemplaires de vos travaux que
+
+ vous m'avez envoyés; la plupart d'entre eux m'étaient déjà connus, et quant à votre
+
+ traité sur les fonctions d'une variable complexe c'est un livre excellent et que j'ai
+ pu apprécier d'autant mieux que les sujets qui y sont traités me sont extrêmements
+
+ familiers. Tout ce que vous me dites des différences finies et notamment du déterminant
+
+ des Δ, m'intéresse extrêmement, et j'attends avec impatience les résultats complets
+
+ de vos études sur ces importantes questions.
+
+ Je vous enverrai très prochainement les mémoires ou notes qu'ai publiés et dont
+
+ j'ai encore entre le mains de tirages et vous pouvez être assuré que dans l'avenir je
+
+ me ferai un devoir et un plaisir de vous réserver toujours un exemplaire de ce que
+
+ ô Springer
+
+This content downloaded from 203.78.15.150 on Mon, 18 May 2020 09:20:14 UTC
+All use subject to https://about.jstor.org/terms
+
+ 196
+
+ R. Rosso
+
+ je pourrai faire. Ce sont surtout les questions de la théorie générale des fonctions de
+ variables complexes qui m'ont beaucoup occupé depuis quelque temps. Les beaux
+
+ résultats de M. Weierstrass ont été le point de départ des mes propres récherches et
+
+ vous trouverez dans mon mémoire sur les fonctions entières un théorème qui, si je
+
+ ne me trompe, a peut être quelque importance. Je viens de corriger en ce moment les
+
+ épreuves d'un mémoire qui va prochainement paraître dans le Journal de Crelle,39 et
+
+ qui est relatif aux équations linéaires à coefficients doublement périodiques; j'espère
+
+ qu'il vous intéressera. Ce sont les recherches de M. Hermite sur l'équation de Lamé
+
+ qui m'ont jeté sur la voie des résultats auxquels je suis parvenu.
+
+ En ce moment, monsieur, mon mariage est la grand action qui me préocupe; j'ai du
+
+ revenir à Toulouse pour faire quelques cours à la Faculté et j'attends avec impatience
+
+ mon départ pour Paris, qui aura lieu dans trois jours.
+
+ Soyez persuadé que je recevrai toujours vos lettres avec joie et je serai heureux de
+
+ toutes les communications mathématiques que vous voudrez bien me faire. Permettez
+
+ de vous assurer de sentiments d'estime et de sympathie que je conserve pour vous.
+
+ professeur à la Faculté des Sciences
+
+ Emil Picard
+
+ de Toulouse.
+
+ Pavie, ce 6 février 1881
+
+ Letter 13: Casorati to Bonnet
+
+ Cher Monsieur et ami (Ossian Bonnet)
+
+ Avec ces lignes je vous envoye la traduction française d'une lettre que j'ai fait
+ insérer dans les Annali de M. Brioschi, à cause d'une Note publiée récemment par M.
+
+ Stickelberger;40 et je profite de l'amitié dont vous m'avez toujours honoré pour vous
+
+ prier de vouloir l'observer, et de compatir mon irritation, en égard à la peine que j'ai
+
+ dû essayer en voyant malveillance et, peut-être, mauvoise foi de la part d'un collègue.
+
+ Mon mâitre bien-aimé M. Brioschi me conseillez d'adresser à M. Hermite une
+
+ Note, pour être insérée aux Comptes Rendus, dans le but de faire toujours mieux
+
+ constater ma priorité dans l'application du Calcul des différences à la théorie des
+
+ équations différentielles linéaires. Cependant dans cette Note je n'ai rien dit qui pût
+
+ avoir l'aspect de personnalité, en me bornant à rappeller mon Memoire, et du rest
+
+ complétant la détermination des sous-groupes d'intégrales faite par M. Hamburger;
+
+ ce qui peut intéresser indépendamment de toute question personnelle.
+
+ Mais dans une lettre confidentielle à un ami, quelque manifestation de mécontente
+
+ ment personnel pourra être pardonneé.
+
+ L'année dernière je m'étais occupé avec ardeur de la theorie des équations différen
+
+ tielles linéaires, mais une maladie très-grave de ma fille ainée, étant survenue [à] trou
+
+ bler ma tête et deranger mes plans, je n'ai pu ne m'a permis de rediger mes recherches
+
+ qu'en partie d'une manière convenable pour être imprimées. Comme si cela n'était
+
+ pas assez pour me fâcher, M. Stickelberger vient maintenent essayer d'approprier à soi
+
+ 39 It is the paper (Picard 1881).
+
+ 40 This French version of Casorati (1880c) is (Casorati 1881b).
+
+ Ô Springer
+
+This content downloaded from 203.78.15.150 on Mon, 18 May 2020 09:20:14 UTC
+All use subject to https://about.jstor.org/terms
+
+ Felice Casorati's influence on Salvatore Pincherle
+
+ 197
+
+ même et à Riemann et a M. Hamburger une partie des idées qu'il m'a été cependant
+
+ possible de publier dans cette année malheureuse. Mais sa tentative ne peut qu'échouer.
+
+ Je n'ai pas la pretension que personne ne s'occupe de l'application du Calcul des dif
+ férences à la dite théorie ou à d'autres branches de l'analyse de la variabilité continue.
+
+ Au contraire je dois voir de bon gré paraître des travaux fondé sur les idées que j'ai
+
+ conçues et chercher à expliquer. Mais je ne puis pas être content que l'on cherche à
+
+ m'ôter ce qui m'appartient.
+
+ En redigeant sa Note avec calme, sans l'idée injuste de la faire passer pour con
+
+ temporaine de mon Mémoire, il aurait pu la livrer au public sous une forme beaucoup
+
+ meilleure et il n'aurait pas certainement suscité de récriminations de ma parte. La
+
+ méthode de Cauchy à la résolution du système d'équations aux différences, qui est
+ l'object de la première partie du §1 est bien faite; et la combination des formules
+
+ de résolution ainsi obtenues avec la formule de Weierstrass, effectué dans la première
+
+ partie du §3, vient à-propos; quoique ce tour ne soit nécessaire, comm'il semble croire,
+
+ pour arriver à la forme la plus simple de la distinction des intégrales en sous-groupes.
+
+ Mais, dans l'empressement de faire paraître sa Note, il ne s'est pas aperçu que le
+ seconde partie de ces deux paragraphes et les paragraphes restants (hormis le dernier
+
+ qui se rapport à un autre point) sont trop remplis de répétitions et des calculs superflus.
+
+ Le §2 particulierment, tout plein de calculs assez ennuyeuse, pouvait se remplacer par
+ quelques observations brèves, claires et sans calculs.
+
+ La personne à laquelle je fais allusion, au commencement de ma lettre imprimée,
+
+ est M. Frobenius, qui a travaillé et publié plusieurs articles en communion avec M.
+
+ Stickelberger. C'est pour cela que j'ai terminé cette lettre en rappellant mon chapitre
+ sur le determinant
+
+ yi ■■■ y η
+
+ yi ■■■ yn
+
+ Θ =
+
+ ou son égal Δ =
+
+ θη~χγ\ ... θη~\
+
+ Δ"-1?! ... A"~lyn
+
+ M. Frobenius tient fort beaucoup à ce qu'on le regarde comme l'auteur qui a le plus
+ soigné le determinant
+
+ y ι ··· yn
+
+ D
+
+ D"-ly1 ... Dn~xyn
+
+ et M. Stickelberger déclare pompeusement dans son dernier § qu'il désignera, d'après
+
+ M. Frobenius, par D(y\, yi,..., y„). N'est ce donc pas étonnant qu'il puisse oublier
+
+ mon chapitre susdit, qui comprend, comme cas particulier, tout ce que l'on peut dire
+
+ sur le determinant D? Mais le temps fera justice, car les applications nouvelles, qu'il
+
+ m'arrive de faire chaque fois que je reviens à ce determinant Θ, ne me laissent plus
+
+ douter qu'il soit pour prender une place distinguée parmi les instruments les plus utiles
+
+ et les plus élégants de l'analyse. Permettez-moi d'ajouter, qui je partage la répugnance
+ de la plus part des géomètre contre l'utilisation de notations ou dénominations nou
+
+ velles. Mais l'introduction d'un symbole (tel que Θ), pour désigner par 9f ce que une
+
+ fonction f devient par effet de la variation d'une nature prefixée, de certaines éléments
+
+ Springer
+
+This content downloaded from 203.78.15.150 on Mon, 18 May 2020 09:20:14 UTC
+All use subject to https://about.jstor.org/terms
+
+ 198
+
+ R. Rosso
+
+ dont elle dépend, m'a paru trop utile pour y renoncer. Parmi les advantages ce n'est
+
+ pas petit celui-ci, de pouvoir comprendre sous un même énoncé des propositions qui
+
+ se rapportent à des sphères des recherches très différentes. Dans les unes, la variation,
+
+ supposée par θ pourra consister dans le tour qu'une variable ou plusieurs variables
+
+ imaginaires, dont nos fonctions dépendront, doivent faire autour d'un ou plusieurs
+ systèmes des points singuliers; dans d'autres, la variation pourra consister dans un
+
+ système d'accroissement que les éléments variables doivent prendre dans d'autres,
+
+ enfin, la variation pourra consister dans tout autre chose. Et il va sans dire qu'il est
+
+ très utile, de pouvoir aussi employer plusieurs symboles θ, Θ',... simultanément.
+
+ Je voudrais bien vous entretenir un peu plus sur cet argument, mais je crois d'avoir
+
+ absorbé déjà trop de temps à vos occupations. Et la note de M. Stickelberger aurez
+
+ vous eu le temps et l'envie de la lire? Dans le cas négatif je serais encore plus coupable
+
+ d'indiscrétion! Mais votre bonté a été toujours très grande; j'èspere donc, même dans
+
+ ce cas, votre pardon. Et plus ancore, je compte aussi sur votre bienveillance pour
+
+ l'avenir, de sorte que pourrai toujours me souségner
+
+ votre ami dévoué
+
+ F. Casorati
+
+ Soyez aussi indulgent pour les
+
+ fautes que j'aurais commisés
+ en écrivant en français
+
+ Letter 14: Bertrand to Casorati
+
+ Paris 15 février 1881
+
+ Je vous remercie bien cordialement, très cher Monsieur, de la nouvelle, pour moi
+ si flattante, que vous voulez bien m'annoncer. Je ne suis pas digne de succeder à
+ mon illustre ami Mr· Chaises et n'en dois que plus de recoinnaissance à ceux qui ont
+
+ bien voulu songer à moi.41 Vous voudrez bien leur transmettre l'expression de mes
+
+ sentiments les plus sincèrement et entièrement dévoués.
+
+ L'Académie a décerné hier le Prix de Mathématiques pour la question des équations
+
+ linéaires. Un très beau et ingenieux mémoire dans laquel l'étude des point critiques est
+
+ éclairci et simplifiée par l'emploi des équations aux différences, avait attiré l'attention
+
+ de la Commission qui n'a pu cependant lui accorder qu'une mention très honorable.
+
+ Que le savant auteur veuille bien attendre pour condamner ses juges, la lecture du
+
+ mémoire très considérable qui a été couronné et dont l'auteur est Mr Halphen; notre
+
+ compatriote s'y montre beaucoup plus grand géomètre encore que les excellents debuts
+
+ ne l'avaient promis. Il étudie les changements d'une équation linéaire quand on rem
+
+ place la variable indépendante par une autre ou quand on multiplie l'inconnue par une
+ fonction choisie de manière à simplifier l'équation qui ne cesse pas d'être linéaire. Il
+
+ me semble qu'il équisse le sujet en tirant un très grand partie des invariants introduits
+
+ par M. Laguerre qui je crois n'a pas concours.
+
+ Veuillez recevoir, cher Monsieur Casorati, l'assurance de mes sentiments les plus
+
+ J. Bertrand
+
+ 41 Bertrand refers to his election to the Istituto Lombardo on Febraury 10th, 1881.
+
+ affectueuse.
+
+ <£} Springer
+
+This content downloaded from 203.78.15.150 on Mon, 18 May 2020 09:20:14 UTC
+All use subject to https://about.jstor.org/terms
+
+ Felice Casorati's influence on Salvatore Pincherle
+
+ 199
+
+ Letter 15: Casorati to Bertrand
+
+ Pavie, ce 21 février 1881
+
+ Cher Monsieur
+
+ je vous remercie de votre comunication, adressée à Milan m'est parvenue en ritard,
+
+ du 15 février, et particulièrement des expressions affectueuses dont vous confortez mon
+
+ esprit dans une circostance [sic!] où il en a vraiment tout le besoin. Car, je l'avait dit
+
+ avec Pascal dans ma devise, nous ne pouvons prendre plaisir à une chose qu'à condition
+
+ de nous fâcher si elle ne réussit pas. Et je ne puis à présent m'empêcher d'être fâché
+
+ douloureusement d'autant plus que j'ignore les terms précis du rapport. Vos Comptes
+
+ Rendus ne sont pas seulement la pubblication la plus observée par les professeurs de
+
+ mon Université, mais ils sont lus aussi par les étudiants qui sont inscrits dans l'école
+ normale annexée maintenent à cette Facultés des Sciences math.[ématiques] etc.
+
+ Un professeur de cette même Université, feu M. Codazzi, qui avait concouru au
+
+ prix relatif à la théorie des surfaces applicables l'une sur l'autre, a pu rester satisfait
+
+ de la simple mention qu'on lui avait accordée en Mars 1861. Mais alors le rapporteur,
+
+ que vous connaissez très-bien, avait écrit: "Les trois autres Mémoires, inscrits sous
+
+ les nos. 1, 2, et 5, remplissent complètement le programme tracé par l'Académie. Si
+
+ l'un quelconque des trois avait été présenté seul à notre examen, nous lui aurions sans
+
+ hésiter accordé le prix."42
+
+ Maintenent, qui sera le rapporteur?
+
+ Et connaîtra-t-il assez une position scolastique pour prendre bon soin de la ménager
+
+ par quelques expression de la valeur de celles que je vient de citer? Ce serait pour
+
+ lui d'autant plus facile que mon travail et celui de M. Halphen n'admettent pas, il
+
+ me semble, une comparaison rigoreuse; leur points de départ et leur directions étant
+
+ différents; et mon travail contienant aussi incontestablement des perfectionnements
+ importants. Je ne doute pas de la haute valeur du Mémoire du jeune géomètre que
+
+ vous avez couronné; mais son mérite n'exclut pas que mes applications du Calcul aux
+ differences soient tout-à-fait nouvelles, et que leur portée ne soit née à l'étude des
+
+ intégrales autour des points critiques, faite par M. Fuchs, comme on peut perçevoir
+
+ par mon manuscrit et comme on verra toujours mieux dans la suite.
+
+ A la vérité l'expression très honorable contenue dans votre lettre devrait me ras
+
+ surer; mais je vous prie de compatir ces craintes, dont je ne sais pas me délivrer sur
+
+ le moment. Du reste, je vous prie aussi de croire que je ne voudrai pas mal à mes
+
+ juges, ni à mon maître bien aimé, M. Brioschi, qui m'a inspiré l'idée du concours. Je
+
+ ne ferai que répéter ce que j'ai pensé dans d'autres moments de ma vie: d'être né sous
+ un étoile assez malheureuse.
+
+ Pardonnéz moi, cher Monsieur Bertrand, cette lettre trop longue et trop triste et
+
+ veuillez me conserver votre bienveuillance toujours précieuse.
+
+ 42 In fact, Bertand had written this report.
+
+ F. Casorati
+
+ Ô Springer
+
+This content downloaded from 203.78.15.150 on Mon, 18 May 2020 09:20:14 UTC
+All use subject to https://about.jstor.org/terms
+
+ 200
+
+ R. Rosso
+
+ Letter 16: Stickelberger to Brioschi.43
+
+ Schaffhause [sic!], 9 avril 1881
+
+ Monsieur le directeur
+
+ Puisque vous avez accordé quelque pages de vos annales à la lettre de M. Casorati,
+ ecrite à l'occasion de mon mémoire "Zur Theorie der linearen Differentialgleichun
+
+ gen", j'éspère que vous voudrez bien inséré dans le même recueil une response de ma
+
+ part, qui, du reste, ne sera pas longue.
+
+ M. Casorati part de la supposition que j'aie commencé mon travail ayant conais
+
+ sance de son mémoire; il me reproche d'avoir employé sa méthode sans en indiquer
+
+ l'origine. Voici ce que je pourrais lui répondre. C'est seulement après avoir trouvé
+
+ les principaux résultats des paragraphes 1 à 4 de mon écrit, que j'en parlai avec M.
+
+ Lindemann en faisant mention spéciale du calcul aux differences finies, et c'était pré
+
+ cisément cette mention qui l'engagea à me faire parvenir le mémoire de M. Casorati
+
+ que celui-ci venait de lui envoyer. Mais je crois ne pas avoir besoin de repondre au
+
+ [sic!] long à une imputation qui ne trouvera aucun credit auprès de tout ceux qui me
+ connaissent.
+
+ Au reste il est evident que M. Casorati n'a pas pris la peine de lire mon mémoire
+
+ en entier avant d'écrire sa lettre. S'il avait fait, il aurait remarqué que ce qui, pour lui,
+
+ est une idée cardinale, n'est pour moi qu'un moyen pour arriver à un but determiné;
+
+ il ne m'aurait pas demandé, pourquoi j'ai passé sous silence les recherches contenues
+
+ dans son chapitre deuxième et, en particulier, le théorème relatif à la condition pour
+
+ l'existence d'une équation linéaire à coefficients périodiques entre plusieurs fonc
+
+ tions d'une seule variable indépendante. D'ailleurs, s'il avait en lieu d'employer ce
+
+ théorème, je ne l'aurais pas emprunté à M. Casorati, mais à un Mémoire de M. Christof
+
+ fel "Ûber die lineare Abhàngigkeit von Functionen einer einzigen Verândlichen" pub
+ lié en 1858 dans le Tome 55me du journal de Borchardt, où ce suject est traité d'une
+
+ manière aussi elegante que complète. J'ai coutume de citer, dans toutes les questions
+
+ importants, les auteurs qui, à ma connaissance, ont proposé les prèmiers les théorèmes
+
+ dont je fais usage.
+
+ M. Casorati m'accuse d'avoir manqué de politesse vis-à-vis avec lui. Je laisse
+ aux lecteurs des Annali le soin de juger, s'il est plus courtois d'employer, dans une
+
+ critique purement objective, les mots "nicht rathsam", ou bien de se servir, dans
+
+ une résponse toute personnelle, d'éxpressions telles que "disgusto, malvolere, cattivi
+
+ pensieri".
+
+ Agréz, Monsieur, l'expression de mon plus profond respect
+
+ Votre dévué
+
+ L. Stickelberger
+
+ Pavia, 17 aprile 1881
+
+ Letter 17: Casorati to Brioschi
+
+ Carissimo sig. Direttore (Brioschi)
+
+ 43 In the Nachlass there is a copy written by Casorati's daughter, Eugenia.
+
+ Ô Springer
+
+This content downloaded from 203.78.15.150 on Mon, 18 May 2020 09:20:14 UTC
+All use subject to https://about.jstor.org/terms
+
+ Felice Casorati's influence on Salvatore Pincherle
+
+ 201
+
+ Ho letto la Memoria di Christoffel del 1858 e vi trovai infatti il teorema che la
+
+ eguaglianza
+
+ ^r±/(nt)/i(m + 1) ■ ■ ■ fn(m + n) = 0
+
+ è condizione necessaria e sufficiente affinché le funzioni
+
+ /(m), /ι(m),..., fn(m)
+
+ délia variabile discreta m abbiano tra loro una relazione lineare a coefficienti costanti.
+
+ Se avessi conosciuto questa Memoria, non avrei mancato di citare il Christoffel
+ nell'occasione del mio déterminante Θ come non mancherè di ricordarlo in una Ven
+
+ tura occasione. Ma il Christoffel non allude mai ai coefficienti periodici e molto meno
+
+ a coefficienti che sieno fiinzioni di una variabile complessa, monodrome intorno ad
+
+ un punto. Non puo essere che il malvolere dello Stickelberger capace di insinuare che
+
+ queste idee fossero implicite in quella Memoria. (...)
+
+ Appendix 2: Original letters concerning Pincherle's unpublished
+ note on Tannery's theorem
+
+ Letter 1: Pincherle to Casorati.
+
+ Chiarissimo Sig. Professore
+
+ Bologna, li 21/7/85.
+
+ Nella Memoria del Sig. Goursat (Sur une classe de fonctions representeés par des
+
+ intégrales définies—Acta Math., 1883) ho trovato l'enunciato di una proposizione data
+ dal Sig. Tannery, che è la seguente:
+
+ Se η funzioni sono tali chefacendo qualunque giro colla variabile intorno a ρ punti
+
+ ai, 02,..., ap, si ritrovano sempre combinazioni lineari a coefficienti costanti delle
+ η funzioni, esse funzioni soddisfano ad un'equazione differenziale lineare omogenea
+
+ a coefficienti monotropi rispetto ai punti a\, ai, ■ ■ ■, ap.
+
+ Non ho potuto vedere quale sia la dimostrazione che il Sig. Tannery dà di questo
+
+ teorema, essendo esso pubblicato nelle [sic!] Annales de l'Ecole [Sic!] Normale, che
+
+ non si trovano nella Biblioteca di Bologna.
+
+ Perô questa dimostrazione risulta come conseguenza immediata dal di Lei metodo
+
+ per lo studio dei valori di una funzione nell'intorno di un punto singolare, contenuto
+
+ nella Sua memoria II calcolo delle differenze finite ecc. (Annali di Matematica, t. X);
+
+ e spero che non le sarà discaro di leggere questa dimostrazione. Eccola in due parole:
+
+ Formiamo colle η funzioni date, e con η costanti arbitrarie, la funzione
+
+ E — c\E\ + C2E2 H \~cnEn;
+
+ eseguendo un giro intorno ad ai, ed essendo θ l'operazione da Lei introdotta nella
+ citata Memoria, sarà
+
+ Springer
+
+This content downloaded from 203.78.15.150 on Mon, 18 May 2020 09:20:14 UTC
+All use subject to https://about.jstor.org/terms
+
+ 202
+
+ R. Rosso
+
+ θ Ε = Υ.αθΕί
+ (·=1
+
+ η
+
+ η
+
+ θ Ε = YkuEj
+
+ 1 = 1
+
+ e per l'ipotesi fatta:
+
+ e cosî
+
+ ΘΓΕ = ^^kriEi, (r = 2, 3,..., η) :
+
+ η
+
+ ι=1
+
+ da queste eliminando \e Ει, E2,..., E„, viene:
+
+ ΚηθηΕ + Κη-ιθη~ιΕ + · · ■ + ΚιθΕ + K0E = 0,
+
+ dove le Ki sono costanti. Ma questa equazione (Casorati, mem. [oria] citata, § 10) indica
+
+ che la Ε soddisfa ad un'equaz.[ione] differenziale lineare a coefficienti monotropi in
+
+ a 1, sia
+
+ φοΕ(η) + φ\£(π_1) H \-φη-\Ε' + φηΕ = 0;
+
+ e di questa sarà Ε l'integrale generale. Ma lo stesso ragionamento dimostrerebbe
+ che la E è l'integrale generale di un'equaz.[ione] a coefficienti monotropi in <22. di
+
+ un'equaz.[ione] a coeff.[icienti] monotropi in «3, ecc., il che non puô essere che se
+
+ φο, φι,...,φη
+
+ sono monotropi in ai, «2. · · ·. <*p'i c.d.d.
+
+ Io credo che questa dimostrazione cosî semplice di una proposizione cosî importante
+
+ non sarà senza interesse. In ogni modo La lascio giudice di decidere se sia il caso di
+
+ farne una comunicazione a qualche Accademia; a me basta che risulti una volta di più
+
+ l'importanza di quella Sua bella Memoria.
+
+ Mi conservi la Sua preziosa benevolenza, e mi creda, ch— Sig. Professore
+
+ di Lei dev—
+
+ S. Pincherle
+
+ Hôtel Piora sopra Airolo (Svizzera)
+
+ 30 luglio 1885
+
+ Letter 2: Casorati to Pincherle.
+
+ Ô Springer
+
+This content downloaded from 203.78.15.150 on Mon, 18 May 2020 09:20:14 UTC
+All use subject to https://about.jstor.org/terms
+
+ Felice Casorati's influence on Salvatore Pincherle
+
+ 203
+
+ Caro Pincherle
+
+ Ricevo adesso da Pavia la sua lettera del 21 e rispondo come posso.
+
+ Sono assai distratto dagli studî e lontano dai libri, e non ebbi occasione di vedere
+
+ la Mem.[oria] di Tannery contenente la proposizione enunciata nella Mem.[oria] del
+
+ Goursat. Nondimeno convengo con Lei che tale proposizione non si possa dimostrare
+
+ in maniera più semplice dell' indicata nella sua lettera. Naturalmente, a me fa piacere di
+
+ veder presente in Lei lamia Mem.[oria] "II calc.[olo] delle differ.[enze] ecc." e farebbe
+ pur piacere di vederla per di Lei mezzo ricordata agli studiosi che credo potreb
+ bero fame facilmente moite applicazioni. Ma sembrerebbemi conveniente ch'Ella
+ desse un'occhiata a quella Mem.foria] Se fossi a Pavia, gliela manderei; ma cosi
+
+ bisognerebbe ch'Ella dimandasse il vol.[ume] degli Annali de l'Ecole [sic!] normale
+
+ a qualche collega di Milano, che potrebbe ritirarlo da quel collegio degli Ingegneri.
+
+ Taie occhiata potrebbe suggerirle anche altre applicazioni délia stessa mia Mem. [oria]
+
+ da presentarsi insieme con la già scrittami ai Lincei ο ad altra Accad.[emia]
+
+ Quando avr5 il piacere di vederLa, Le dirô dei non pochi progetti che feci anch'io
+
+ di correggere, semplificare, ricordare cose nostre [ai] matem.[atici] francesi in questi
+ ultimi anni.
+
+ Ma Ella, ch'è giovane, fa bene a non contentarsi del semplice fare progetti.
+
+ Se non potrà avere il Tannery da Milano, me lo scriva, che glielo mandero poi io
+
+ da Pavia.
+
+ Continui ad amar
+
+ Letter 3: Pincherle to Casorati.
+
+ l'aff.[ezionatissimo] suo F.C.
+
+ Bologna, li 3 Ottobre 1885
+
+ Ch— Sig. Professore
+
+ Secondo il suo Consiglio, ho aspettato a redigere la Nota sulle equazioni differen
+
+ ziali, per cercare prima la Memoria del Tannery: ma non mi è stato possibile avere
+
+ quel volume degli Annales de l'Ec., e non ho voluto disturbarla per questo finché Ella
+
+ si trovava presumibilmente in campagna.
+
+ Ora ella sarà forse tornato a Pavia: in questo caso Le sarei gratissimo se mi potesse
+
+ far avere quel volume (Serie 2, Tomo 4) degli Annali; e dopo letta la memoria del
+
+ Tannery, redigerô (se sarà ancora del caso) e Le spedirô la noticina, rimettendo a Lei
+
+ di decidere se convenga ο no presentarla a qualche Accademia.
+
+ In queste vacanze ho lavorato ad una Memoria sugl'integrali definiti atti a rappre
+
+ sentare funzioni analitiche, nella quale spero di dare alcuni risultati nuovi: ma ci vorrà
+
+ forse del tempo perché sia in ordine per la stampa, e l'argomento mi si fa sempre più
+
+ vasto. Mi consiglia Ella a sospendere per qualche tempo ogni pubblicazione, lavorando
+
+ intanto per il Premio dei Lincei dell'89, ο è troppa presunzione la mia?44
+
+ Sarei ben lieto che si présentasse quell'occasione, che Ella accenna nella sua lettera,
+
+ di poterla vedere qui; è un desiderio che nutro da molti anni, perché da molti anni non
+
+ 44 Pincherle shared this prize with Luigi Bianchi.
+
+ â Springer
+
+This content downloaded from 203.78.15.150 on Mon, 18 May 2020 09:20:14 UTC
+All use subject to https://about.jstor.org/terms
+
+ 204
+
+ R. Rosso
+
+ ho potuto discorrere dei miei studî con persona compétente e perché voglio ringraziarla
+
+ a voce délia benevolenza di cui Ella mi è stato prodigo in questo periodo di tempo.
+
+ Ε con questa speranza, La prego di credere all'affetto ed alia devozione del suo
+
+ Letter 4: Casorati to Pincherle.
+
+ Salvatore Pincherle
+
+ Pavia, 17 ott. 1885
+
+ Caro Pincherle
+
+ Circa il premio linceo io non trovo niente affatto presuntuoso il progetto suo di con
+
+ corrervi. Di più non vorrei dire; se non altro, perché impedito dalla lontananza di seco
+ conversare distesamente.
+
+ Rileggendo la Sua lettera del 21 luglio, vedo che la proposizione ivi considerata appar
+
+ tiene all'antica (1874) [sic!] Memoria del Tannery sulle equaz.[ioni] diff.ferenziali]
+
+ lineari; Memoria che a suo tempo lessi con attenzione. Ε perô, pur seguitando a credere
+
+ che la di Lei dimostrazione sia délia massima semplicità non oserei consigliarle il sacri
+
+ ficio del tempo occorrente alia redazione di una Nota per la stampa, se nella Nota non
+ dovesse entrare che la pura dimostrazione suddetta. Faccia dunque Ella ciô che le
+
+ pare conveniente; è certo ch'io ne resterô in ogni modo soddisfatto. Quanto al volume
+
+ contenente la Mem.[oria] del Tannery, glielo spediro appena sarà arrivata una delle tre
+
+ persone che tengono le chiavi délia libreria délia Scuola Normale di questa Université.
+ Le vacanze hanno ristorato assai le mie forze fisiche; ma sono tuttora sbalordito
+
+ dall'inaspettata perdita di mio fratello45. Era il solo superstite della mia famiglia
+ paterna, aveva per me indicibile affetto ed io per lui tenerezza e venerazione ad un
+
+ tempo.
+
+ Mi ricordi ai colleghi e mi voglia sempre bene.
+
+ Letter 5: Pincherle to Casorati.
+
+ Chiarissimo Sig. Professore
+
+ Suo F. Casorati
+
+ Bologna, li 19/10/85
+
+ Con vivo rincrescimento rilevo dalla Sua lettera la notizia della perdita del di Lei
+
+ fratello: io non ho avuto l'onore di conoscerlo, ma ne ho spesso sentito parlare con
+
+ deferenza e stima. Le auguro che il tempo e l'affetto dei suoi possano lenire il Suo
+ dolore, cui mi associo.
+
+ In questa circostanza non voglio più tediarLa con cose mie, che non possono avere
+
+ per Lei che un meschino interesse, e ringraziandoLa dell'offerta di spedirmi il vo
+
+ lume degli Annales, credo che Ella possa risparmiarsi questo disturbo se non vede
+
+ Γ opportunité di pubblicare quella dimostrazione. Certamente quella Memoria, essendo
+
+ 45 Luigi Casorati was a jurist. He was born in Pavia on January 26th, 1834 and died in Rome on August
+ 4th, 1885.
+
+ <£) Springer
+
+This content downloaded from 203.78.15.150 on Mon, 18 May 2020 09:20:14 UTC
+All use subject to https://about.jstor.org/terms
+
+ Felice Casorati's influence on Salvatore Pincherle
+
+ 205
+
+ del 1874 (cosa che non sapevo) non puô contenere risultati che non siano noti dopo i
+
+ più recenti lavori sulle equazioni differenziali.
+
+ Come già Le dissi, ho trovato quel Teorema citato dal Goursat, in una Memoria
+
+ che studiavo per i miei lavori sugl'integrali; e mi venne subito alla mente l'idea che
+
+ la dimostrazione di quella proposizione si dovesse ottenere nel modo più semplice
+ applicando il Suo metodo (l'operazione che Ella chiama Θ.) D'altronde questa osser
+
+ vazione non ha attinenza diretta coH'argomento che ora sto studiando, e di cui Ella
+
+ vedrà ira poco un primo saggio in una "Note sur une intégrale définie" che uscirà in
+
+ uno dei prossimi fascicoli degli Acta Mathematica.
+
+ Mi auguro che questo lavoro sia per incontrare la Sua approvazione, alla quale
+
+ tengo sopra tutto; e pregandola di riverire per me i Sig. Professori Beltrami, Bertini e
+
+ Maggi46, La prego, ch— signor Professore, di tenermi sempre per
+
+ Suo dev— e afP22·
+
+ S. Pincherle
+
+ 24 die. 85
+
+ Letter 6: Casorati to Pincherle.
+
+ Mio caro Pincherle
+
+ Voglia aggrad.[ire] coi miei aug.[uri] l'artic.[olo] che le invio.
+
+ Avrei voluto scriverle assai prima per dirle che ha dato repentinamente troppo
+
+ peso alla mia opin.[ione] circa quella tale dimostr.[azione] Del resto, io non potevo
+
+ vederne che con piacere la pubbl.[icazione], che Ella ad ogni modo avrebbe potuto
+
+ fare dicendo che proponevasi ricordare agli studiosi una Memoria forse meritevole di
+
+ qualche attenzione (e non di essere negletta, come si fa dai Francesi, non ostante la
+
+ lunga recensione fattane da non so chi nel Bulletin di Darboux47).
+
+ Letter 7: Pincherle to Casorati.
+
+ Chiarissimo Sig. Professore.
+
+ Ami sempre il suo aff. F.C.
+
+ Bologna, li 29 Xbre 85
+
+ Prima di tutto la Prego di accogliere i miei più sinceri auguri di felicità per il
+
+ prossimo anno: ed i miei ringraziamenti per la Memoria che Ella mi ha favorito.48
+
+ Questa Memoria è destinata certamente ad avere una grande importanza, e tocca
+ uno degli argomenti pul vitali délia Analisi. Anche a me—per quanto poco possa
+
+ 46 Eugenio Bertini was a distinguished algebraic geometer who taught in Pavia in the period 1880-1892.
+
+ Bertini theorems are still of use in current research in algebraic geometry. Gian-Antonio Maggi was Caso
+
+ rati's son in law and taught Rational mechanics and Mathematical physics in Modena, Messina, and Milan.
+
+ A set of equations to study non-holonomic systems is named after him.
+
+ 47 The review appeared in 1882 (Darboux et al. 1882).
+
+ 48 Pincherle presumably refers here to the preliminary version of Casorati (1886a,b) that was printed in
+ Milan in 1885.
+
+ Springer
+
+This content downloaded from 203.78.15.150 on Mon, 18 May 2020 09:20:14 UTC
+All use subject to https://about.jstor.org/terms
+
+ 206
+
+ R. Rosso
+
+ valere la mia opinione,—era sempre sembrato naturale che si dovesse poter trovare
+
+ proprietà della /0Z -^== ο della sua inversa anche se R(z) è di grado superiore al 4—;
+ e credo che se ciô non è stato fatto si deve attribuire in parte alla grande fecondità
+
+ delle idee di Abel e Jacobi, di considerare le inverse come funzioni di più variabili,
+ che non ha fatto cercare una estensione della Teoria delle f.[unzioni] Ellittiche nel
+
+ campo di una variabile sola. Sono persuaso che in questo ordine d'idee Ella giungerà
+
+ a dei risultati di somma importanza. Ε cosî, la Teoria delle f.[unzioni] Ellittiche verra
+
+ anch'essa ad acquistare maggiore importanza, trovandosi per cosl dire ail'intersezione
+
+ delle trascendenti Abeliane da una parte, delle Sue nuove trascendenti dall'altra.
+
+ Io avevo rinunziato all'idea di pubblicare quella Nota sulla Mem.[oria] di Tan
+ nery, più di tutto per non darLe il disturbo di spedirmi il volume degli Annales de
+
+ l'Ec.fole] Normale. Se Ella perô ha la compiacenza di farmelo avere, vedrô di sten
+ dere quella Nota, cercando anche d'applicare il Suo metodo ad altri Teoremi se è
+
+ possibile, e quando la Nota sia redatta, gliela spedirô ed Ella giudicherà se sia ο no da
+
+ pubblicare.
+
+ Desidererei pure dalla Sua Cortesia un'altro [sic!] favore, che spero Ella non mi
+
+ vorrà negare; e sarebbe (con tutto suo comodo) l'indicazione del tomo del American
+
+ Journal nel quale trovansi le memorie d'un certo Daniell sulla Teoria delle f.[unzioni]
+
+ Ellittiche secondo il Weierstrass.49 Se potessi avere quella indicazione, farei venire
+
+ quel volume per la via di questa Biblioteca, dalla Biblioteca Universitaria di Pavia,
+
+ dove si trova a quanto credo, l'American Journal.
+
+ Ho avuto il piacere di vedere poco fa il prof. Maggi, che mi ha dato le di Lei notizie
+
+ e mi ha fatto sperare una Sua gita a Modena e a Bologna. Sarei lietissimo di questa
+
+ circostanza, che mi auguro già da 5 anni.
+
+ Pregandola d'accogliere di nuovo i miei auguri ed i miei ringraziamenti, e di riverire
+
+ per me il Prof. Beltrami colla Sua Signora, ed i di Lei colleghi di costï
+
+ mi creda, Ch— Signor
+ Professore, di Lei dev—
+
+ S. Pincherle
+
+ Letter 8: Pincherle to Casorati.
+
+ Bologna, li 9 Gennajo 1886
+
+ Ch— Signor Professore
+
+ Le accludo la nota relativa al teorema di Tannery, lasciandola giudice
+
+ dell'opportunité di presentarla all'Istituto Lombardo. L'enunciato che ho dato è un
+
+ po' più generale di quello di Tannery, ed i coefficienti dell'equaz.[ione] differenziale
+ possono anche essere f.[unzioni] polidrome di specie determinata (f.[unzione] uni
+ forme d'un punto analitico) riguardando il campo Τ come una superficie di Riemann
+
+ ridotta, con tagli; semplicemente connessa.
+
+ Le spedisco pure, raccomandato, il volume degli Annali: la Memoria di Tannery, che
+
+ ho letto in questa occasione, non mi è sembrata nulla di straordinario, una compilazione
+
+ 49 The author's name is misprinted: the notes on Weierstrass theory of elliptic functions were written by
+ Daniels (1883a, b, 1884).
+
+ Ô Springer
+
+This content downloaded from 203.78.15.150 on Mon, 18 May 2020 09:20:14 UTC
+All use subject to https://about.jstor.org/terms
+
+ Felice Casorati's influence on Salvatore Pincherle
+
+ 207
+
+ dei lavori di Fuchs fatta discretamente e nulla più. Non vi è di notevole che il Teorema
+
+ che mi ha ispirato questa Nota.
+
+ prego di credermi sempre
+
+ La ringrazio nuovamente per il disturbo che Ella s'è preso di spedirmi il libro, e La
+
+ il Suo dev.— ed obblig—
+
+ S. Pincherle
+
+ Analisi: Sopra un teorema del Sig. Tannery
+
+ Scopo di questa breve Nota è di mostrare con una nuova applicazione, i vantaggi
+
+ che puô arrecare nello studio delle funzioni analitiche e del loro modo di compor
+
+ tarsi nell'intorno di punti determinati, il metodo ideato dal prof. Casorati ed esposto
+
+ nella Sua Memoria: "II calcolo delle differenze finite interpretato50 ecc., Annali di
+
+ Matematica, S.II, T. X." Ne faccio qui l'applicazione alla dimostrazione di un teorema
+
+ enunciato dal Sig. Tannery nella Memoria "Propriétés des intégrales des équations dif
+
+ férentielles linéaires, Annales ce l'Ec. Normale, S. II, T. IV, p. 130;" teorema notevole
+
+ per sé, e per una applicazione importante che ne ha fatto il Sig. Goursat.51
+
+ Il teorema è il seguente, sotto un enunciato un po' modificato: "Siano η funzioni
+
+ analitiche E\, E2,..., E„ a carattere regolare nell'intorno di ogni punto di un campo
+
+ Τ semplicemente connesso, eccettuati i punti a\, 02 ap in numéro finito e fra le
+ quali non passa alcuna relazione lineare a coefficienti costanti; se quando la variabile
+
+ gira senza uscire dal campo Τ intorno ad uno qualunque dei punti a\, d2,..ap, i nuovi
+ valori delle funzioni sono legati ai primitivi da relazioni lineari a coefficienti costanti,
+
+ queste funzioni sono gl'integrali di un'equazione differenziale lineare a coefficienti
+ monodromi in T."
+
+ Infatti, formiamo la funzione E i cui coefficienti c siano costanti arbitrarie
+
+ E = ci Ει + C2E2 H h cnEn;
+
+ (1)
+
+ eseguendo colla variabile un giro intorno ad ai, ed essendo θ l'operazione di Casorati,
+ viene
+
+ ΘΕ = ciOEi + C2QE2 + l· οηΘΕη
+
+ e per l'ipotesi fatta
+
+ ΘΕ = kuEi +*1,2*2 H h ki,nEn',
+
+ (2)
+
+ 50 V. un estratto particolareggiato di questa Memoria nel "Bulletin de Darboux, S. II, T. VI, 1882".
+
+ 51 Nella Memoria "Sur une classe des fonctions représentés per des intégrales définies. Acta Mathematica,
+ T.II".
+
+ Ô Springer
+
+This content downloaded from 203.78.15.150 on Mon, 18 May 2020 09:20:14 UTC
+All use subject to https://about.jstor.org/terms
+
+ R. Rosso
+
+ (3)
+
+ 208
+
+ analogamente
+
+ Θ2Ε = jfc2li£i + &2,2^2 + ■ · · + k2,nEn,
+
+ 0"£ = kn<iEi + kn,2E2 + -- + kn,nEn·,
+
+ eliminando 1, £i, £2. · · ■. En fra le (1), (2) e (3), viene una equazione
+
+ ΚηθηΕ + Κη-\θη~χΕ Η KqE = 0;
+
+ ma questa (Casorati, loc. cit. §10) indica appunto che la Ε soddisfa ad un'equazione
+ differenziale lineare a coefficienti monodromi nell'intorno di a\
+
+ φοΕΜ + φιΕ{η-χ) + ··· + ψηΕ =0,
+
+ di cui Ε è l'integrale generale. La stessa dimostrazione farà conoscere che
+ φο,φ\,... ,<Pn sono monodromi nell'intorno di 02,03,..., ap; onde il teorema è
+ dimostrato.
+
+ Se il campo Τ ricopre tutta la sfera una sol [sic!] volta, le funzioni φο, φ\,..., φη
+
+ sono uniformi. Non è escluso che il campo Τ possa essere una superficie di Riemann
+
+ ridotta semplicemente connessa coi tagli opportuni; nel quai caso le φ$, ψ\,..., φη
+
+ sarebbero funzioni uniforme [sic!] d'un punto analitico.
+
+ S. Pincherle
+
+ Letter 9: Pincherle to Casorati.
+
+ Chiarissimo Signor Professore
+
+ Bologna, li 27/2/86
+
+ Mi permetto di manifestarle di nuovo il mio compiacimento per aver potuto passare
+
+ qualche ora nella Sua compagnia: e sono ben grato al prof. Maggi di avermi procurato
+
+ col suo gentile invito l'occasione di quella visita che ho forse prolungata oltre i limiti
+
+ délia discretezza, ma che a me è sembrata troppo breve. Spero che nell'entrante Marzo
+
+ Ella farà, come ci ha fatto sperare, la sua gita a Roma passando per Bologna e mi
+
+ procurerà cosî il piacere di rivederLa.
+
+ Ho letto attentamente il paragrafo délia Memoria di Tannery che Ella mi ha indicato,
+
+ ma non ho potuto trovarvi una inesattezza. La dimostrazione è perô redatta poco bene,
+
+ e vi è un errore (di stampa probabilmente) alla linea 10 (p. 133) dove va letto m invece
+ di m — 1,
+
+ Le rimando il volume degli Annales; ho copiato il paragrafo in discorso per cui,
+
+ anche senza tenere più a lungo il volume presso di me, potro ripensare meglio a quella
+
+ dimostrazione: la quale si puo forse redigere come ho tentato nel poscritto seguente.
+
+ <£) Springer
+
+This content downloaded from 203.78.15.150 on Mon, 18 May 2020 09:20:14 UTC
+All use subject to https://about.jstor.org/terms
+
+ e sia ξ una funzione razionale di χ ed y, la quale come è noto, si pub scrivere:
+
+ f = «ο,ο + «ο,îy + OQ,2y2 Η 1- «ο,/ι-ΐ/1-1 (2)
+
+ dove le ah,k sono funzioni razionali di λ:. Si ha dalla (1)
+
+ Felice Casorati's influence on Salvatore Pincherle
+
+ 209
+
+ I professori Boschi52, Villari53 ed Arzelà mi hanno incaricato di contraccambiare
+
+ i Suoi saluti; insieme a questi, accolga ch— Professore, i saluti ed i sensi di affetto
+
+ del Suo dev—
+
+ S. Pincherle
+
+ La prego di riverire per me il prof. Beltrami
+
+ Tentativo di dimostrazione del teorema che ogni fiinzione algebrica soddisfa ad un
+
+ [sic!] equaz.[ione] differenziale lineare.
+
+ Sial'equaz[ione].
+
+ f(x,y) = 0 (1)
+
+ V f t f\
+ — + —y = 0,
+ dx dy'
+
+ onde y1 è una funzione della forma (2). Ora derivando la (2), viene ponendo per y il
+ suo valore dalla (3):
+
+ = <3i,o + a\,iy + t-ai,n—ι/1 1
+
+ = «2,0 + «2,iy H 1- «2,n-l>'"~1
+
+ (4)
+
+ gjB = ««,0 + an,iy + a„t„-iyn 1
+
+ e moltiplicando le (2) e (4) per i reciproci della prima colonna del déterminante
+
+ 1 «0,0 «0,1 ··· «0,71-1
+ 1 αι,ο αο,ΐ ··· «1,„_1
+
+ 1 «η, 0 «η, 1 ··■ «η,η-1
+
+ 52 Pietro Boschi (Rome, 7/6/1833-Bologna, 4/11/1887) taught projective and descriptive geometry in
+ Bologna.
+
+ 53 Emilio Villari (Naples, 25/9/1836-20/8/1904) was a chemist and a physicist who taught experimental
+
+ physics in Bologna from 1871 to 1889, when he moved to Naples. He discovered the variation in magnetic
+ susceptibility of a sample subject to mechanic tension (the Villari effect).
+
+ 4^ Springer
+
+This content downloaded from 203.78.15.150 on Mon, 18 May 2020 09:20:14 UTC
+All use subject to https://about.jstor.org/terms
+
+ 210
+
+ R. Rosso
+
+ supposto diverso da zero, viene un'eq.[uazione] della forma
+
+ dÉ dnÈ
+
+ A0Ç + Aif-...A„-4=0.
+
+ dx dx"
+
+ Nel caso speciale che la ξ sia la stessa y, viene l'equaz.[ione] di Tannery.54
+
+ Letter 10: Casorati to Pincherle.
+
+ Caro Pincherle
+
+ Pavia, 10 marzo 1886
+
+ Di matematica non dovrei scrivere nulla, perché non ho la testa a posto. Nondimeno
+
+ osserverô, rispetto alia dimostrazione del Tannery che l'errore di stampa (m -1 invece
+
+ di m) della linea 10 di p. 133 (dove parmi eziandio doversi leggere y° insieme con
+
+ y2, y3,..., ym ~1 ) non costituisca il difetto a cui io alludevo. Questo difetto si riferisce,
+
+ se la memoria non m'inganna, aile linee 12 e 13.
+
+ Prendiamo il caso di m = 2.
+
+ /(χ, y) = ay2 + by + c,
+
+ φ(χ) = ac — b2 = (ay2 + 2by + c) χ a + (2ay + 2b)
+
+ (-i'-i)
+
+ dy ay + β d2y yy + S
+ dx αφ{χ) ' dx2 α^-φ1
+
+ dove α, β, γ, δ sono funzioni intere di a,b,c e loro derivate Ie e 2e. L'eliminazione
+
+ di y0 fra queste espressioni dà
+
+ d2y δ dy aS - βγ
+ dxz αφ dx αζφζ
+
+ β~Γ~~2 λ ^ 2 2 y = '
+
+ 54 If Ai j is the η χ η minor associated with the (i j) element of the matrix (déterminante) A written above,
+ Pincherle actually considers
+
+ ΑΐΛξ + Α2Λ- + ··· + Αη+ΙΛ —
+
+ d£ άηξ
+
+ and, due to the identity (see, e.g. Pincherle 1909, p. 61)
+
+ n+\
+
+ ~^ajrAj,s = 0
+ j=1
+
+ that holds whenever r φ s if ajr is an element of Λ, he concludes that
+
+ d£ d"£
+
+ Ao? + A15i...A„ j^Uo:
+
+ by setting ξ = y, Pincherle thinks that Tannery's equation (5.3) is recovered.
+
+ "£) Springer
+
+This content downloaded from 203.78.15.150 on Mon, 18 May 2020 09:20:14 UTC
+All use subject to https://about.jstor.org/terms
+
+ Felice Casorati's influence on Salvatore Pincherle
+
+ 211
+
+ ma non è cosî visibile, come dice Tannery, che pure supponendo a costante si possa
+
+ ritenere costante il coeff[iciente], di , che Tannery riduce ad l.55
+
+ Letter 11: Pincherle to Casorati.
+
+ Chiarissimo Sig. Professore
+
+ Sono il suo aff.— F.C.
+
+ Bologna, 15/5/86
+
+ Eccomi ancora una volta a ricorrere alia di Lei gentilezza. Nel continuare le mie
+
+ ricerche sulle operazioni funzionali rappresentabili da integrali definiti, ricerche di
+
+ cui la prima parte è in corso di stampa, mi si è presentata una famiglia di trasfor
+
+ mazioni, che credo nuova e che permette di passare da qualunque equazione lineare
+
+ differenziale a coefficienti razionali, in una equazione di forma simile aile differenze
+
+ finite. Prendo la liberté di unirle una breve nota56 in proposito e Le sarei gratissimo
+
+ se Ella volesse gettarvi un'occhiata. Nel caso poi che questo risultato Le sembrasse
+
+ nuovo e degno d'intéressé, ed ove ciô non dovesse recarle disturbo, sarei ben lieto se
+
+ Ella si compiacesse di presentarla sia all'Istituto Lombardo, sia ai Lincei.
+
+ [.··]
+
+ Nella speranza che ella vorrà perdonare il nuovo disturbo che le reco, e pregandola
+
+ di salutare per me i Sig. professori Beltrami e Bertini, La prego, ch— sig. professore,
+
+ di credere ai sensi di profondo rispetto e di vivo affetto del Suo dev®
+
+ Possiamo sperare di vedere fra poco un ampliamento ed un seguito delle Sue
+
+ ricerche sulle funzioni a più di due periodi?
+
+ Letter 12: Pincherle to Casorati.
+
+ S. Pincherle
+
+ Bologna, 14/6/86.
+
+ Chiarissimo Signor Professore.
+
+ La ringrazio vivamente per la premura che Ella si è data circa alla mia nota sulle
+ equazioni differenziali, e sono lieto che Le sia sembrata intéressante. Ciô che mi ha
+
+ 55 On the back of this minute, Casorati wrote: "Noto qui, per future notizie che potrô dare a Pincherle,
+
+ che, sulla formaz.[ione] delleequaz.[ioni] diff.[erenziali] soddisfatte dalle radici di equaz.[ioni] algebriche,
+ havvi da leggere in:
+
+ Besso Sull'eq.[uazione] del 5° grado V.[ol] XIX dele Mem.[orie] lincee (Anno 1883-1884), e i successivi
+
+ lavori da lui presentati con questo al premio minist.[eriale] scaduto il 30 aprile 1885.
+
+ Heymann Ueber die Integration der Diff[erential]gl.[eichungen] + Am + Am_i +
+
+ 1- + Aoy = 0. Math. Annalen XXVI B[and], 4. H[eft]. Anno 1886."
+
+ 56 Casorati inserted in a footnote the title of the note, by writing: dal titolo "Sopra una trasformazione
+
+ delle eq.[uazioni] diff.[erenziali] lin.[eari] in equaz.[ioni] lin.[eari] aile differenze, e viceversa" F.C.
+
+ â Springer
+
+This content downloaded from 203.78.15.150 on Mon, 18 May 2020 09:20:14 UTC
+All use subject to https://about.jstor.org/terms
+
+ 212
+
+ R. Rosso
+
+ spin to a redigerla è stato il vedere che il Sig. Mellin, nell' ultimo fascicolo degli Acta
+
+ pubblico un teorema che è un caso molto, ma molto particolare della trasformazione
+ che ho indicata.
+
+ Suo S. Pincherle
+
+ References
+
+ Amaldi, U. 1937. Delia vita e delle opere di Salvatore Pincherle. In [Pincherle, 1954], 3-16.
+
+ Appell, P. 1882a. Sur les fonctions uniformes d'un point analytique (je, y). Acta Mathematica 1:109-131.
+ Appell, P. 1882b. Sur les fonctions uniformes d'un point analytique (x, y). (Seconde mémoire). Acta
+
+ Mathematica 1:132-144.
+
+ Boole, G. 1859. A treatise on differential equations. Cambridge, UK: Me Millan.
+
+ Boole, G. 1880. Calculus of finite differences, Fourth Edition, edited by J.F. Moulton. New York: Chelsea
+
+ Bortolotti, E. 1895. Un contribute alia teoria delle forme lineari aile differenze. Annali di Matematicapura
+
+ Bortolotti, E. 1937. Salvatore Pincherle. Annuario délia Regia Università di Bologna 1936-37,151-156.
+ Bottazzini, U. 1994. Va' Pensiero. Immagini della Matematica nell'Italia dell'Ottocento. Bologna: II
+
+ Bottazzini, U„ and J. Gray. 2013. Hidden harmony-geometric fantasies. The rise of complex function theory.
+
+ Butzer, P.L. 1981. An outline of the life and work of Ε. B. Christoffel (1829-1900). Historia Mathematica
+
+ Publishing Company.
+
+ ed applicata 23(S. II): 309-344.
+
+ Mulino.
+
+ New York: Springer.
+
+ 8: 243-276.
+
+ Casorati, Ε 1868. Teorica delle funzioni di variabili complesse. Volume I. Tip. F.Ui Fusi, Pavia.
+
+ Casorati, F. 1875. Sulla teoria delle soluzioni singolari delle equazioni differenziali. Rendiconti del Reale
+
+ Istituto Lombarde di Lettere, Scienze ed Arti 8(S. 2): 962-966. In [Casorati, 1952], 9-14.
+
+ Casorati, F. 1876. Nuova teoria delle soluzioni singolari delle equazioni differenziali di primo ordine e
+
+ secondo grado tra due variabili. Atti della Reale Accademia dei Lincei 3(S. II): 160-167. In [Casorati,
+ 1952], 15-24.
+
+ Casorati, F. 1878a. Analisi superiore nello [Anno] scolastico 1878-79. Pavia: Unpublished material in the
+
+ Casorati, F. 1878b. Sulla integrazione delle equazioni algebrico-differenziali di primo ordine e di primo
+ grado per mezzo di funzioni lineari. Rendiconti del Reale Istituto Lombarde di Lettere, Scienze ed Arti
+ 11(S. II): 804-808. In [Casorati, 1952], 96-101.
+
+ Casorati, F. 1879. Analisi superiore nello [Anno] scolastico 1879-80. Pavia: Unpublished material in the
+
+ Casorati Nachlass.
+
+ Casorati Nachlass.
+
+ Casorati, F. 1880a. Sull'equazione fondamentale nella teoria delle equazioni differenziali lineari. Rendiconti
+
+ del Reale Istituto Lombarde di Lettere, Scienze ed Arti 13(S. II): 176-182. In [Casorati, 1952], 102-108.
+
+ Casorati, F. 1880b. II calcolo delle differenze finite interpretato ed accresciuto di nuovi teoremi a sussidio
+
+ principalmente delle odierne ricerche basate sulla variabilité complessa. Annali di Matematica pura ed
+ applicata 10(S. II): 10-45. In [Casorati, 1951], 317-356.
+
+ Casorati, F. 1880c. Sopra un recentissimo scritto del sig. L. Stickelberger. Annali di Matematica pura ed
+
+ applicata 10(S. II): 154-157. In [Casorati, 1951], 357-361.
+
+ Casorati, F. 1881a. Sur la distinction des intégrales des équations différentielles linéaires en sous-groupes.
+ Comptes Rendus Hebdomadaires des séances de l'Académie des Sciences 92: 175-178; 238-241. In
+ [Casorati, 1952], 109-115.
+
+ Casorati, F. 1881b. Sur un écrit très-récent de M. Stickelberger. Pavia: Tip. F.Ui Fusi.
+ Casorati, F. 1886a. Les fonctions d'une seule variable à un nombre quelconque de périodes. Acta Mathe
+
+ matica 8: 345-359. In [Casorati, 1951], 223-238.
+
+ Casorati, F. 1886b. Les lieux fondamentaux des fonctions inverses des intégrales abéliennes et en particulier
+
+ des fonctions inverses des intégrales elliptiques de 2me et 3me espèce. Acta Mathematica 8: 360-386.
+
+ In [Casorati, 1951], 239-265.
+
+ Casorati, F. 1951. Opere, vol. I. Roma: Cremonese.
+
+ <£} Springer
+
+This content downloaded from 203.78.15.150 on Mon, 18 May 2020 09:20:14 UTC
+All use subject to https://about.jstor.org/terms
+
+ Felice Casorati's influence on Salvatore Pincherle 213
+
+ Casorati, F. 1952. Opere, vol. II. Roma: Cremonese.
+ Cauchy, A.-L. 1827. Sur l'analogie des puissances et des différences. In Exercices de Mathématique II
+
+ année. In Œuvres Complètes d'Augustin Cauchy 7(S. II): 198-235 (1889).
+
+ Cazzaniga, P. 1882. Il calcolo dei simboli d'operazione elementarmente esposto. Giornale di Matematiche
+
+ 20:48-78; 194-230.
+
+ Christoffel, E.B. 1858. Ueberdie lineare Abhângigkeitvon Functioneneinereinzigen Verândlichen. Journal
+
+ fiir die reine und angewandte Mathematik 55: 281-299.
+
+ Christoffel, E.B. 1910. Zusatz zu der vorstehenden Abhandlung ûber die lineare Abhàngigkeit von Funk
+
+ tionen einer einzigen Veranderlichen. In Gesammelte mathematische Abhandlungen, unter Mitwirkung
+ von A. Krazer und G. Faber; herausgegeben von L. Maurer. I Band, 106-109. Leipzig: Teubner.
+
+ Cremona, L. 1862. Introduzione ad una teoria geometrica delle curve piane. Bologna: Tip. Gamberini e
+
+ Daniels, A.L. 1883a. Note on Weierstrass' methods in the theory of elliptic functions. American Journal of
+
+ Daniels, A.L. 1883b. Second note on Weierstrass' theory of elliptic functions. American Journal of Math
+
+ Parmeggiani.
+
+ Mathematics 6: 177-182.
+
+ ematics 6: 253-269.
+
+ 7: 82-99.
+
+ Daniels, A.L. 1884. Third note on Weierstrass' theory of elliptic functions. American Journal of Mathematics
+
+ Darboux, G., Houël, J., and Tannery, J. 1882. Revue des publications académiques et périodiques. Bulletin
+
+ des Sciences Mathématiques et Astronomiques 62(S. II): 106-110.
+
+ Dedekind, R., and H. Weber. 1882. Theorie der algebraischen Functionen einer Verândlichen. Journal flr
+
+ die reine und angewandte Mathematik 92: 181-290.
+
+ Dugac, P. 1989. Henri Poincaré. La correspondance avec des mathématiciens de J à Z. Cahiers du Séminaire
+
+ Floquet, G. 1883. Sur les équations différentielles linéaires à coefficents périodiques. Annales scientifiques
+
+ d'Histoire des Mathématiques 10: 83-229.
+
+ de l'École Normale Supérieure 12(S. II): 47-88.
+
+ Hoquet, G. 1884. Sur les équations différentielles linéaires à coefficents doublement périodiques. Annales
+
+ scientifiques de l'École Normale Supérieure 1(S. III): 181-238.
+
+ Fuchs, J.L. 1866. Zur Theorie der linearen Differentialgleichungen mit verhândlicher Coefficienten. Journal
+
+ fiir die reine und angewandte Mathematik 66: 121-160.
+
+ Goursat, E. 1883. Sur une classe des fonctions représentées per des intégrales définies. Acta Mathematica
+
+ 2:1-71.
+
+ 11(S. III): 249-323.
+
+ Teubner.
+
+ Gray, J. 1986. Linear differential equations and group theoryfrom Riemann to Poincaré. Boston: Birkhâuser.
+
+ Gray, J. 2013. Henri Poincaré: A scientific biography. Princeton, NJ: Princeton University Press.
+
+ Grévy, A. 1894. Étude sur les équations fonctionnelles. Annales scientifiques de l'École Normale Supérieure
+
+ Guldberg, Α., and G. Wallenberg. 1911. Theorie der Linearen Differenzengleichungen. Leipzig und Berlin:
+
+ Halphen, G.-H. 1884. Sur la réduction des équations différentielles linéaires aux formes intégrables.
+ Mémoires présentés par divers savants à l'Académie des Sciences 28(S. Π): 1884,1-301. In Œuvres de
+ G.-H. Halphen vol. III, 1-260. Paris: Gauthier-Villars (1921).
+
+ Hamburger, H.L. 1873. Bemerkung iiber die Form der Integrate der linearen Differentialgleichungen mit
+
+ verândlichen Coefficienten. Journal fiir die reine und angewandte Mathematik 76: 113-125.
+
+ Hermite, C. 1849. Sur une question relative à la théorie des nombres. Journal de Mathématiques pures et
+
+ Hermite, C. 1881. Sur quelques points de la théorie des fonctions. Journal fur die reine und angewandte
+
+ appliquées 14(S. 1): 21-30.
+
+ Mathematik 91: 54-78.
+
+ Kronecker, L. 1882. Grundziige einer arithmetische Theorie der algebraischen Grôssen. Journal fir die
+
+ reine und angewandte Mathematik 92: 1-122.
+
+ Mellin, H. 1886. Zur Theorie der Gammafunctionen. Acta Mathematica 8: 37-80.
+
+ Muir, T. 1911. The theory of determinants in the historical order of development. Vol. II: The period
+
+ 1841-1860. London: MacMillan.
+
+ 1880-1900. London: MacMillan.
+
+ Exact Sciences 19: 1-89.
+
+ Muir, T. 1923. The theory of determinants in the historical order of development. Vol. IV: The period
+
+ Neuenschwander, E. 1978. Der Nachlass von Casorati (1835-1890) in Pavia. Archive for the History of
+
+ Nôrlund, N.E. 1924. Vorlesungen iiber Differenzenrechnung. Berlin: Springer.
+
+ <£) Springer
+
+This content downloaded from 203.78.15.150 on Mon, 18 May 2020 09:20:14 UTC
+All use subject to https://about.jstor.org/terms
+
+ 214
+
+ R. Rosso
+
+ Pascal, Β. 1835. Les Pensées. Rétablies suivant le plan de l'auteur. Dijon: Lagier.
+ Pascal, Ε. 1897a. Calcolo delle variazioni e calcolo delle differenze finite. (Ill parte del Calcolo infinitesi
+
+ male). Milan: Hoepli.
+
+ Pascal, E. 1897b. 1 determinanti. Teoria ed applicazioni con tutte le più recenti ricerche. Milan: Hoepli.
+
+ Picard, É. 1879. Sur une généralisation des fonctions périodiques et sur certaines équations différentielles
+
+ linéaires. Comptes Rendus Hebdomadaires des séances de l'Académie des Sciences 89: 140-144.
+ Picard, E. 1881. Sur les équations différentielles linéaires à coefficients doublement périodiques. Journal
+
+ for die reine und angewandte Mathematik 90: 281-303.
+
+ Pincherle, S. 1874. Sulle superficie di capillarità. Il Nuovo Cimento 12(S. II): 19-64.
+ Pincherle, S. 1875. Sulle costanti di capillarità. Il Nuovo Cimento 14(S. II): 17-25.
+ Pincherle, S. 1876a. Sopra alcuni problemi relativi aile superficie d'area minima. Rendiconti del Reale
+
+ Istituto Lombardo di Lettere, Scienze edArti 9(S. 2): 444-456.
+
+ Pincherle, S. 1876b. Sulle superficie d'area minima. Programma del R. Istituto Foscolo di Pavia. Pavia:
+
+ Succ. Bizzoni.
+
+ Pincherle, S. 1876c. Nota sulle superficie d'area minima. Giornale di Matematiche 14: 75-82.
+
+ Pincherle, S. 1877. Sulle equazioni algebrico-differenziali di primo ordine e di primo grado a primitiva
+ generate algebrica. Rendiconti del Reale Istituto Lombardo di Lettere, Scienze ed Arti 10(S. II): 143—
+ 151.
+
+ Pincherle, S. 1880. Saggio di una introduzione alla teoria delle funzioni analitiche secondo i principii del
+
+ Prof. C. Weierstrass. Giornale di Matematiche 18: 178-254; 317-357.
+
+ Pincherle, S. 1884a. Sui sistemi di funzioni analitiche e gli sviluppi in serie formati coi medesimi. Annali
+
+ di Matematica pura ed applicata 12(S. II): 11-41; 107-133.
+
+ Pincherle, S. 1884b. Sui gruppi lineari di funzioni di una variabile. Memorie délia Reale Accademia delle
+
+ Scienze dell'Istituto di Bologna 6(S. IV): 101-118.
+
+ Pincherle, S. 1885a. Alcune osservazioni generali sui gruppi di funzioni. Memorie délia Reale Accademia
+
+ delle Scienze dell'Istituto di Bologna 6(S. IV): 205-214.
+
+ Pincherle, S. 1885b. Note sur une intégrale définie. Acta Mathematica 7: 381-386.
+
+ Pincherle, S. 1886a. Sopra una trasformazione delle equazioni differenziali lineari in equazioni lineari aile
+
+ differenze, e viceversa. Rendiconti del Reale Istituto Lombardo di Lettere, Scienze ed Arti 19(S. II):
+ 559-562.
+
+ Pincherle, S. 1886b. Studi sopra alcune operazioni funzionali. Memorie délia Reale Accademia delle Scienze
+
+ dell'Istituto di Bologna 7(S. IV): 391^142. In [Pincherle, 1954], 92-141.
+
+ Pincherle, S. 1887. Delia trasformazione di Laplace e di alcune sue applicazioni. Memorie delta Reale
+
+ Accademia delle Scienze dell'Istituto di Bologna 8(S. IV): 125-143. In [Pincherle, 1954], 173-192.
+
+ Pincherle, S. 1890. Saggio di una generalizzazione delle frazioni continue algebriche. Memorie délia Reale
+
+ Accademia delle Scienze dell'Istituto di Bologna 10(S. IV): 513-538.
+
+ Pincherle, S. 1892. Sur la génération de systèmes récurrents au moyen d'une équation linéaire différentielle.
+
+ Acta Mathematica 16: 341-363.
+
+ Pincherle, S. 1894. Delle funzioni ipergeometriche e di varie questioni ad esse attinenti. Giornale di
+
+ Matematiche 32: 209-291. In [Pincherle, 1954], 273-357.
+
+ Pincherle, S. 1895a. Lalgebra delle forme lineari aile differenze. Memorie délia Reale Accademia delle
+
+ Scienze dell'Istituto di Bologna 5(S. V): 87-126.
+
+ Pincherle, S. 1895b. Sulle operazioni funzionali distributive. Rendiconti délia Reale Accademia dei Lincei
+
+ Pincherle, S. 1895c. Sopra alcune equazioni simboliche. Memorie délia Reale Accademia delle Scienze
+
+ dell'Istituto di Bologna 5(S. V): 663-675.
+
+ Pincherle, S., and U. Amaldi. 1901. Le operazioni distributive e le loro applicazioni all'analisi. Bologna:
+
+ 4j: 142-149.
+
+ Zanichelli.
+
+ Pincherle, S. 1909. Lezioni di Algebra Complementare. II: Teoria delle equazioni. Bologna: Zanichelli.
+ Pincherle, S. 1926. Il calcolo delle differenze finite. Bollettino deU'Unione Matematica Italiana 5:233-242.
+
+ Pincherle, S. 1954. Opere scelte, vol. I. Roma: Cremonese.
+
+ Poincaré, H. 1885. Sur les équations linéaires aux différentielles ordinaires et aux différences finies. Amer
+
+ ican Journal of Mathematics 7: 203-258.
+
+ Poincaré, H. 1923. Extrait d'une Mémoire inédit de Henri Poincaré sur les fonctions Fuchsiennes. Acta
+
+ Puiseux, V. 1850. Recherches sur les fonctions algébriques. Journal de Mathématiques pures et appliquées
+
+ Mathematica 39: 58-93.
+
+ 15(S. 1): 365-480.
+
+ Ô Springer
+
+This content downloaded from 203.78.15.150 on Mon, 18 May 2020 09:20:14 UTC
+All use subject to https://about.jstor.org/terms
+
+ Felice Casorati's influence on Salvatore Pincherle 215
+
+ Riemann, Β. 1857. Beitràge zur Theorie der Gauss'schen Reihe F (a, β, γ, χ) darstellbaren Functionen.
+
+ Abhandlungen der Koniglichen Gesellschaft der Wissenschaflen zu Gottingen, vol. 7. In Bernhard Rie
+
+ mann's Gesammelte mathematische Werke und wissenschaflicher Nachlass, 62-78. Leipzig: Teubner
+ (1902).
+
+ Rosanes, J. 1871. Ueber algebraische Differentialgleichungen erster Ordnung. Mathematische Annalen 3:
+
+ Stickelberger, L. 1881. Zur Theorie der linearen Differentialgleichungen. Leipzig: Teubner.
+ Tannery, J. 1875. Propriétés des intégrales des équations différentielles linéaires à coefficients variables.
+
+ Annales Scientifiques de l'École Normale Supérieure 4(S. II): 113-182.
+
+ Tonelli, L. 1937. Salvatore Pincherle. Annali délia Scuola Normale Superiore di Pisa 6(S. II): 1-10.
+ Vivanti, G. 1887. Ricerche sulle funzioni uniformi d'un punto analitico. Giornale di Matematiche 25:54-72;
+
+ 535-546.
+
+ 232-256.
+
+ Volterra, V. 1902. Betti, Brioschi, Casorati, trois analystes italiens et trois manières d'envisager les questions
+
+ d'analyse. In Compte rendu du II Congrès international des mathématiciens, Paris 1900,43-57. In Opere
+ Matematiche. Memorie e Note, ed. V. Volterra, vol. III (1900-1913), 1-11. Roma: Accademia Nazionale
+ dei Lincei (1957).
+
+ Weierstrass, Κ. 1876. Zur Theorie der eindeutigen analytischen Functionen. Abhandlungen der Koniglichen
+ Akademie der Wissenschaflen zu Berlin, 11-66. In Mathematische Werke von Karl Weierstrass, Band II,
+ 77-124. Berlin: Mayer and Millier (1895).
+
+ Ô Springer
+
+This content downloaded from 203.78.15.150 on Mon, 18 May 2020 09:20:14 UTC
+All use subject to https://about.jstor.org/terms
+
+

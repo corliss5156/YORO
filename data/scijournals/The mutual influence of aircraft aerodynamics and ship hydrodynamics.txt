@@ -1,0 +1,2155 @@
+ 
+
+ 
+
+ 
+
+ 
+
+The mutual influence of aircraft aerodynamics and ship hydrodynamics in theory and
+
+experiment
+Author(s): Larrie D. Ferreiro
+Source: Archive for History of Exact Sciences, Vol. 68, No. 2 (March 2014), pp. 241-263
+Published by: Springer
+Stable URL: https://www.jstor.org/stable/24569631
+Accessed: 19-05-2020 10:01 UTC
+
+JSTOR is a not-for-profit service that helps scholars, researchers, and students discover, use, and build upon a wide
+
+range of content in a trusted digital archive. We use information technology and tools to increase productivity and
+
+facilitate new forms of scholarship. For more information about JSTOR, please contact support@jstor.org.
+
+Your use of the JSTOR archive indicates your acceptance of the Terms & Conditions of Use, available at
+
+https://about.jstor.org/terms
+
+Springer is collaborating with JSTOR to digitize, preserve and extend access to Archive for
+History of Exact Sciences
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 10:01:26 UTC
+All use subject to https://about.jstor.org/terms
+
+ Arch. Hist. Exact Sei. (2014) 68:241-263
+ DOI 10.1007/s00407-013-0129-x
+
+ The mutual influence of aircraft aerodynamics and ship
+ hydrodynamics in theory and experiment
+
+ Larrie D. Ferreiro
+
+ Received: 11 July 2013 / Published online: 27 August 2013
+
+ © Springer-Verlag Berlin Heidelberg 2013
+
+ Abstract As early as 1784, sharp-eyed engineers and scientists noted striking similar
+
+ ities between the dynamics of seagoing vessels and aerial vehicles. By the early twen
+
+ tieth century, naval engineers and scientists were developing and designing airplanes
+
+ and dirigibles using empirical principles derived from naval architecture. Several key
+
+ researchers in aerodynamics began their career as naval architects (David A. Taylor,
+
+ William F. Durand and Jerome C. Hunsaker) and carried out their experiments in ship
+
+ testing facilities. By the 1930s, however, the transfer of knowledge was irrevocably
+
+ reversed as empiricism gave way to more fundamental, physics-based research. The
+
+ rapid evolution of complex aircraft systems and flight envelopes led to new theoretical
+
+ developments in aerodynamics and maneuvering, which quickly found their way into
+
+ naval ship design. The theoretical and experimental results for airfoils, rigid airships
+ and fixed-wing aircraft developed by Ludwig Prandtl, Theodore von Karman, Max M.
+
+ Münk and Hilda M. Lyon were employed in the hydrodynamic development of surface
+
+ ships and submarines. This paper examines how the ideas, concepts and data from one
+
+ discipline influenced the other and explores the processes by which that knowledge
+
+ was transferred between disciplines.
+
+ 1 Introduction
+
+ Naval architects were heavily involved early in the development of aircraft design. In
+
+ the early twentieth century, when the great steam-turbine passenger liners and dread
+
+ noughts were unquestionably the most advanced machines of the age, their designers
+
+ Communicated by: Jed Buchwald.
+
+ L. D. Ferreira (S)
+
+ Stevens Institute of Technology, 6837 Brimstone Lane, Fairfax Station, VA 22039, USA
+ e-mail: larrie.ferreiro@stevens.edu
+
+ <0 Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 10:01:26 UTC
+All use subject to https://about.jstor.org/terms
+
+ were regarded as among the most sophisticated of all engineers, and their services
+
+ were called upon in developing novel technologies like the airplane and dirigible.1
+
+ The reverse was also true: aviation had a profound impact upon the evolution of ships,
+
+ not only in the adoption of esthetically "streamlined" forms like that of the 1930s pas
+
+ senger liner Normandie, but also in the development of lightweight aluminum alloys
+
+ that found their way into marine construction (Peter 1996; Shatzberg 1999; Forrest
+ 1947).
+
+ 242 L. D. Ferreiro
+
+ But it was in the rapid progress of theoretical developments in fluid resistance
+
+ and dynamics that the connection between ships and aircraft was most profound.
+
+ At the dawn of aviation, the development of aircraft aerodynamics was informed
+
+ by empirical studies of stability, propellers and control surfaces derived from many
+
+ years of practical and experimental studies. Within a few years, however, this flow of
+
+ information reversed, and it was the theoretical developments in aircraft aerodynamics
+
+ (e.g., laminar and turbulent flow, circulation theory and maneuvering equations) that
+
+ now found their way into ship hydrodynamics, a state of affairs that has persisted to
+
+ this day. This article discusses the flow of information between the two disciplines
+ and examines the reasons for this reversal of flow.
+
+ 2 Initial flow: from ships to aircraft
+
+ A cursory glance at any aircraft designer's drawing board or computer screen reveals
+
+ the design heritage in the discipline of naval architecture. The body of an aircraft
+
+ is sometimes referred to as the "hull" (especially in airships), and its left and right
+
+ sides are designated as port and starboard. As with ships, the geometry of an aircraft is
+
+ defined by a series of transverse body stations, by buttock lines that run vertically down
+
+ its length and by waterlines that cut horizontally across it. The vertical reference plane
+
+ at the nose corresponds directly to a ship's forward perpendicular, and the longitudinal
+
+ cross-section for both is called the inboard profile. The aircraft designer used the very
+
+ same tools as the naval architect to draw these lines, including ships' curves (similar
+
+ to French curves) and splines or battens held in place with lead weights called ducks
+
+ or whales. Aircraft motions are referred to by the nautical terms roll, pitch and yaw.
+ The calculated surface of the aircraft is even called the wetted area, a direct reference
+
+ to naval practice (Raymer 2006). This naval heritage of aircraft can be traced all the
+
+ way back to the very first balloon flights of the late eighteenth century.
+
+ 2.1 "Two faces of the same problem": the ship and the aircraft, 1784-1910
+
+ The first balloon flights of the Montgolfier brothers in 1783 ignited the interest of
+
+ the scientific community to solve the various problems the inventors had experienced.
+
+ The French Academy of Sciences quickly identified the primary concerns of making
+
+ ' Naval architects did not just work on aircraft: during World War I, Winston Churchill specifically requested
+
+ that his Director of Naval Construction, Eustace Tennyson d'Eyncourt, head up the creation of complex
+
+ new armored vehicles he called landships, but which were later renamed tanks; to this day, tanks sport very
+
+ nautical hulls and turrets (Stein 1919. p. II).
+
+ Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 10:01:26 UTC
+All use subject to https://about.jstor.org/terms
+
+ Aircraft aerodynamics and ship hydrodynamics 243
+
+ balloons practical, the most important of which was to find a way of steering them.
+
+ Many observers noted the similarities between balloons and ships, quickly coining
+
+ the term aeronautical to describe the naval qualities of airborne craft. In 1784, several
+
+ inventors proposed and built rudder systems to guide dirigible (steerable) balloons,
+
+ although the concept ultimately proved ineffective for non-propelled balloons (Carra
+ 1784; Gillespie 1984).
+
+ It was not until 1852, when the French engineer Jules Henri Giffard successfully
+
+ demonstrated a steam-powered balloon that the possibility of a dirigible air vehicle
+
+ became a reality. By that time, numerous inventors had demonstrated man-powered
+
+ submersibles that could be controlled both horizontally and vertically through the
+
+ water (Roland 1978). In 1854, the mining engineer (and inventor of the modern tur
+
+ bine) Claude Burdin submitted a memoir before the French Academy of Sciences that
+
+ outlined in some detail the methods that could be used to propel and direct either a
+
+ submarine boat or an airship, arguing that the mechanisms for one—i.e., propellers,
+
+ rudders and horizontal planes—would be directly applicable to the other (Comptes
+ Rendues 1854).
+
+ This link between airships and submarines was reaffirmed by the French naval
+
+ constructor Stanislas Charles Henri Dupuy de Lome, famous for building the first
+
+ ironclad warships. In 1870 during the Siege of Paris, he constructed and tested a
+
+ propeller-driven dirigible balloon as a means of escaping the surrounding Prussian
+
+ troops, although the city fell before it could be used (Leclert 1872). In the 1880s,
+
+ he began work on the Gymnote electric submarine, which was completed after his
+
+ death by his colleague Gustave Zédé. Dupuy de Lome used his experience from his
+
+ aerial experiment to guide his submarine one, frequently noting that "the question of
+
+ aerostats and that of submarine boats are intimately linked; the day that the first is
+
+ solved, the second will be nearly so" (Zédé 1886).
+
+ The first heavier-than-air powered flights of Clément Ader and the Wright brothers
+
+ showed both the great advances in the technological understanding of aircraft, and the
+
+ vast deficit in knowledge of how to control and maintain dynamic flight. French Army
+
+ captain Ferdinand Ferber, who had been experimenting with gliders at the same time
+
+ as the Wright brothers, had developed his understanding of the longitudinal stability
+
+ of aircraft from examining torpedoes and submarines, which have fins and control
+
+ surfaces mounted at the tail. Carefully analyzing both the theoretical and practical
+
+ aspects of the problem, he modified the Wright brothers' glider configurations (which
+
+ all had forward canards that rendered them longitudinally unstable) by adding a fixed
+
+ tail to provide inherent longitudinal stability. This practice was quickly followed by
+
+ other aircraft builders (Ferber 1908).
+
+ In 1910, the technology journalist Henri Noalhat took his inspiration from Ferber
+
+ to examine the problems of aviation in a small book Aerial Navigation and Subma
+
+ rine Navigation: Two Faces of the Same Problem, in which he compared stability,
+
+ equilibrium and directional control for aerial craft (both heavier and lighter than air)
+
+ with those of submarines and torpedoes. Noalhat pointed out several then current
+
+ problems in manned flight that he believed could be rectified using marine technolo
+
+ gies. Noting that single-propeller airplanes tended to pull to one side due to propeller
+
+ torque, he suggested solutions following the practice for counter-rotating propellers
+
+ as on torpedoes, or by using two opposite-hand propellers as on submarines. Noalhat
+
+ Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 10:01:26 UTC
+All use subject to https://about.jstor.org/terms
+
+ 244 L. D. Ferreiro
+
+ also suggested the use of gyroscopes to stabilize airplanes, as such devices had been
+
+ used in torpedoes since the 1890s (Noalhat 1910). In 1913 Elmer Sperry, who had
+
+ made his name in naval gyroscopes, adapted the technology for aircraft, used first in
+
+ a gyro-stabilized, radio-controlled "aerial torpedo" (Hughes 1971, pp. 243-272).
+
+ 2.2 Naval architecture in aircraft design, 1911-1939
+
+ Within a decade of the Wright brothers' first flight, enthusiasts and professionals
+
+ around the world were designing, building and testing airplanes. Many of those early
+
+ aeronautical engineers had begun their careers as naval architects, transferring their
+
+ skills in stability and dynamics from one fluid to another. Naval architects dominated
+
+ the early days of aeronautics because they were familiar with the wide range of prob
+
+ lems inherent in aircraft design. They appreciated the role of weight and buoyancy (or
+
+ lift) on aircraft configuration and strength. They also understood how to apply prac
+
+ tical hydrodynamic principles of pressure distribution, potential flow and streamlines
+
+ to aircraft aerodynamics (Roenne 1913; Hunsaker 1916; Wyn-Evans 1921 ; Hovgaard
+ 1927; Richmond 1929a).
+
+ Much of this knowledge had been derived empirically from ship experimental model
+
+ basins, which had been pioneered in the 1870s and 1880s by the British father-and-son
+
+ engineers William and Robert Froude in Torquay and Haslar. The Froudes were the
+
+ first to develop a coherent theoretical basis for using small-scale models to simulate
+
+ full-scale performance of ships. In particular, they developed a method to separate ship
+
+ resistance into two components, viscous (frictiona!) and non-viscous (primarily wave
+ making) components. Similar techniques were developed to simulate the performance
+
+ of propellers behind a ship. Using the appropriate non-dimensional scaling laws for
+ each component, model test results could be used to predict the speed and power
+
+ of ships (Wright 1983; Brown 2006). By the turn of the twentieth century, a dozen
+
+ experimental model basins had opened across Europe and the USA. The engineers
+
+ and scientists working on naval topics soon turned their attention to the skies.
+
+ This was particularly evident in the USA, where the US Navy took an early leading
+
+ role in aeronautical research under the influence of David W. Taylor. Taylor was
+ a naval architect who in 1898 created the US Experimental Model Basin (EMB)
+
+ in Washington, D.C. to develop fundamental principles of hydrodynamics and test
+
+ warship designs. Starting in 1911, Taylor built the experimental wind tunnel at the
+
+ site to serve the same purposes for aircraft. He and his assistant William McEntee,
+ also a naval architect, established a formal Aircraft Division within the Bureau of
+
+ Construction and Repair (the Navy's ship design organization) and quickly populated
+
+ it with 35 naval architects to perform aircraft design and conduct experimental work.
+
+ These men, at once naval and aeronautical engineers, were instrumental in developing
+
+ the hull and pontoon designs for seaplanes that dominated much of early naval aviation
+ (Fulton 1963; Carlisle 1998; Trimble 2002; Stein 2007; Haas et al. 2011).
+
+ One of these "crossover" engineers was Jerome C. Hunsaker, who designed the
+
+ NC-4 Flying Boat that made the first transatlantic crossing. In the 1920s, Hunsaker
+
+ pointed out where aeronautical engineering had borrowed from naval architecture
+ (Hunsaker 1920, 1924):
+
+ <£) Springe
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 10:01:26 UTC
+All use subject to https://about.jstor.org/terms
+
+ Aircraft aerodynamics and ship hydrodynamics 245
+
+ - Methods for controlling weight and center of gravity
+
+ - The Froude method separation of resistance analysis
+
+ - The use of small models and scaling laws in experimental facilities to test full-sized
+
+ craft, largely following the Froudes' practice
+
+ - The design of propellers, also following the Froudes' practice
+
+ - The development and use of streamlined forms
+
+ - Buoyancy, trim and strength calculations for airships
+
+ - The design of floats for seaplanes
+
+ In Britain, the Admiralty's Airship Design Section was established in 1915 during
+
+ World War I and populated with ten naval architects, including Charles I.R. Campbell
+
+ (head of the design section), Harold Butler Wyn-Evans and Steven Payne, most of
+
+ whom were on loan from the submarine design section. Several went back to ship
+
+ design (notably aircraft carriers) in 1921 after the design section was transferred to
+
+ the Air Ministry, but Campbell tragically died that year in the notorious crash of the
+
+ R38 airship (Higham 1961, p. 176).
+
+ In Germany, a similar pattern emerged. Albert Betz was originally trained as a naval
+
+ architect at the Technische Hochschule Berlin-Charlottenburg and succeeded Lud
+
+ wig Prandtl as director of the Universität Göttingen aerodynamics research institute.
+
+ Johann Schütte, while serving as a professor of naval architecture at the Technische
+
+ Universität Danzig (Gdansk), became co-founder of the famous Schütte-Lanz Airship
+ Company (Lehmann 1999, pp. 135,458).
+
+ It is unsurprising that these early naval-turned-aviation engineers would bring their
+
+ body of knowledge with them and apply well-known naval architectural concepts,
+
+ notably the metacenter and propeller theory, to the design of aircraft. The concept of
+
+ the metacenter as a measure of ship's stability dates back to the eighteenth century.
+
+ The basic concept states that for positive stability at small angles of roll or pitch, the
+
+ vertical couple formed by the ship's upward buoyancy (passing through the centroid of
+
+ volumetric buoyancy B) and downward weight (through the center of gravity) produce
+
+ a net restoring force. For the ship to be stable (i.e., to have a positive righting moment),
+
+ the center of gravity G cannot rise above a certain point, called the metacenter M
+
+ (which is a function of displacement, V, and the righting moment at the waterplane,
+
+ ly), beyond which the couple turns negative and the ship will overturn if heeled. The
+
+ metacentric height is the distance between the center of gravity and the metacenter; the
+
+ larger the value, the greater the inherent stability.2 The formula for a ship's metacenter
+ G M is thus:
+
+ h
+ GM = BG~ —
+ V
+
+ In 1911, William McEntee proposed that a similar concept be employed for assessing
+
+ the stability of aircraft. In his formulation, the weight of the aircraft W is supported
+
+ by the "buoyancy," i.e., the upward lift, acting through the centroid of surface area
+
+ P. The aircraft metacenter GM (also called the "neutral point") is a function of the
+
+ 2 Note that the righting and pitching moments in the following equations have the dimension of [weight]
+ x [distance]. See Nowacki and Ferreiro (2003).
+
+ Ô Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 10:01:26 UTC
+All use subject to https://about.jstor.org/terms
+
+ dynamic pitching moment of pressure about its center of gravity, defined as Vm. The
+
+ resultant equation becomes:
+
+ 246 L. D. Ferreira
+
+ GM = PG - —
+ W
+
+ As with ships, the greater the distance between the aircraft center of gravity and
+
+ the metacenter, the greater its inherent stability. Early aircraft designers found this
+
+ simplified mathematical model useful in defining longitudinal stability. It was soon
+
+ replaced by more complex dynamic stability formulae that better accounted for aircraft
+
+ motions, though the metacenter formula is still found in aerodynamics textbooks as
+
+ a convenient way to explain the concept of aircraft stability (McEntee 1911; Mises
+ 1992, pp. 517-529).
+
+ In Germany and France, naval architects were also closely linked to develop
+ ments in aviation. When the Technische Universität Berlin-Charlottenburg opened its
+
+ new course for aircraft construction in 1925, it stipulated that candidates must "have
+
+ acquired sufficient knowledge of the basics of ship-building" to be admitted (Eckert
+
+ 2006, p. 131). In France, when the Service Technique Aéronautique was established
+
+ in 1916, its ranks were quickly filled by naval architects like Emile Leroux from the
+
+ Génie Maritime, who also taught aerodynamics at its Ecole d'Application. So closely
+
+ did the two disciplines evolve together that in 1924, the naval professional society
+
+ Association Technique Maritime (ATM) became the Association Technique Maritime
+
+ et Aéronautique (ATMA). ATMA devoted many pages of its annual Bulletin to aero
+
+ nautical research, for example comparative studies by Leroux on ship and aircraft
+ propellers (Leroux 1925, 1927; ATMA 2013).
+
+ In the USA, the naval architecture community was closely involved in the estab
+
+ lishment of the National Advisory Committee for Aeronautics (NACA) in the early
+
+ days of World War I. Originally conceived by the aeronautical pioneer Washington
+
+ Irving Chambers (who worked closely with Taylor's naval architects) as a scientific
+
+ research center, it was finally created along the lines of the Navy's experimental facil
+
+ ities as articulated by David Taylor and aimed at providing practical engineering data
+
+ for the design and construction of aircraft. From the beginning, naval architects were
+
+ a strong presence within NACA and guided its agenda; Taylor was Secretary in the
+
+ 1920s, while Hunsaker was Chairman in the 1940s and 1950s. Its first permanent
+
+ headquarters was housed from 1920-1941 in the Main Navy Building in Washington
+ D.C. (Roland 1985).
+
+ Perhaps the strongest technical influence that naval architects had upon aircraft aero
+
+ dynamics was in the domain of propeller design. One of the first proposals to NACA, to
+
+ conduct systematic tests of airplane propellers, came from William F. Durand at Stan
+
+ ford University. Durand had previously been a marine engineer with the US Navy,
+ then head of the Department of Naval Architecture at Cornell, and was intimately
+
+ familiar with both the theory and practice of ship propeller design. While at Cornell
+
+ he had tested a series of propellers to gain comparative results across a range of design
+
+ parameters (pitch, curvature, etc.). These tests, the results of which were published
+ in 1905, were soon emulated in the UK, France and at David Taylor's Experimental
+
+ Model Basin. In 1916, Durand teamed with fellow Stanford professor, and former
+
+ •£) Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 10:01:26 UTC
+All use subject to https://about.jstor.org/terms
+
+ Aircraft aerodynamics and ship hydrodynamics 247
+
+ naval architect, Everett P. Lesley to carry out similar parametric testing on airplane
+
+ propellers, funded by NACA. The NACA Secretary Holden C. Richardson, himself a
+ naval architect who developed one of the earliest models of hydrofoil boats, was the
+
+ liaison for this project until Durand was appointed NACA President in 1917.
+
+ The experiments conducted by Durand and Lesley were a classic example of
+
+ the transfer of methods, knowledge and expertise from the field of ship hydrody
+
+ namics to that of aircraft aerodynamics. The two men selected the design parame
+
+ ters for testing—rotational speed, distribution of pitch ratio, diameter—based upon
+
+ their experience testing ship propellers, then created 48 model airplane propellers
+
+ and systematically varied them. The tests results graphically detailed the perfor
+
+ mance data (efficiency, slip, etc.) for the entire family as functions of the parameters.
+
+ These highly successful experiments gave aircraft designers a ready tool for matching
+
+ desired propeller characteristics to their aircraft (Vincenti 1979, 1990, pp. 137-169;
+ Durand 1953).
+
+ Although most of maritime influence on aircraft occurred within military and
+
+ governmental bodies, the connection between naval architecture and aircraft design
+
+ extended into civilian aviation as well. Since the mid-nineteenth century, rules for
+
+ designing, building and surveying merchant ships had been established, not by govern
+
+ ments, but by independent classification societies such as Lloyd's Register (Britain),
+ Bureau Veritas (France), Det Norske Veritas (Norway) and the American Bureau
+
+ of Shipping (United States). In the early days of aircraft design, aviation compa
+
+ nies, insurance agents and government ministries turned to these societies to develop
+
+ rules for construction and survey of aircraft, and for the issuance of airworthiness
+
+ certificates. These classification societies created independent aeronautical branches
+
+ to help the fledgling aircraft industry develop and codify new procedures and prac
+
+ tices. In 1929, the Aircraft International Register (AIR) was established, which a
+
+ contemporary announcement stated "will be to commercial aircraft what Lloyd's
+
+ Register is to shipping," intended to provide an internationally accepted set of classi
+
+ fication rules ("Aircraft International Register" 1929; 1978, pp. 17-20; Anderson and
+
+ Collett 1989, pp. 104-106; American Bureau of Shipping 2006, p. 28; Watson 2010a,
+ pp. 196-199).
+
+ The use of a ship-based classification scheme for aircraft was never a good
+ fit and was ultimately short-lived. Classification societies were principally staffed
+
+ by naval architects and marine engineers, and the criteria they developed for ship
+ design and construction were based on empirical, rules of thumb lessons gar
+ nered over a century of practice. For example, requirements for plate thickness
+ and hull stiffness were not based on any explicit structural loading cases, but
+ rather as a simple function of ship's length and hull form. Aircraft designers,
+ driven in large part by the need to minimize weight, quickly began employing
+
+ first principles of physics and mechanics to develop loading and strength crite
+
+ ria that were used to establish minimum acceptable skin thicknesses and girder
+
+ dimensions (Younger 1935, pp. 11-17). Within a few years of their establishment,
+
+ most classification societies shuttered their aeronautical branches, and by 1939, the
+
+ AIR was disestablished as governments took on the role of issuing airworthiness
+ certificates.
+
+ Ô Springe
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 10:01:26 UTC
+All use subject to https://about.jstor.org/terms
+
+ 248 L. D. Ferreira
+
+ 3 Flow reversal: from aircraft to ships
+
+ By the 1930s, much of the "normal science" of ship hydrodynamics had reached its
+
+ limits. The physical and empirical rules developed over the previous half-century were
+
+ proving inadequate to explain what researchers were finding in their test results and
+
+ full-scale predictions. By that time, the insights from naval architecture were also
+
+ becoming irrelevant to aircraft designers, who themselves were developing increas
+
+ ingly sophisticated research tools to deal with the practical problems of trying to
+
+ reduce drag, extend lift and improve maneuverability at higher and higher speeds.
+ These involved scale effects and fluid compressibility problems not found in slow
+
+ speed ships traveling through water, an effectively incompressible fluid (Anderson
+ 1997, p. 319).
+
+ One reason for the disparity in the extent of theoretical developments between
+
+ these two fields was that governments were pouring far more money and resources
+
+ into aircraft aerodynamics than into naval hydrodynamics. In 1930, the USA had just
+
+ two ship model basins (EMB and at University of Michigan), while almost a dozen
+
+ wind tunnels had already sprang up in around the nation, including six run by NACA.
+
+ That same year, the EMB received less than $100,000 in appropriations, whereas
+
+ NACA was being funded to the tune of $1.3 million (Davidson 1936, p. A41; Annual
+
+ Report, 1930, p. 627; Mack 1998, p. 15).
+
+ At the same time, naval architects were faced with a crisis in predicting the perfor
+
+ mance of ships that were growing rapidly in size and speed. Simply relying on empirical
+ scale-model test results and decades-old rules of thumb was proving increasingly inad
+
+ equate to satisfy the increasingly onerous demands placed by navies and shipowners
+ for accuracy in predicting speed, power and maneuverability. Naval architects some
+ times found it "difficult to find two runs of the same model that yielded identical
+
+ results," and maneuvering tests often returned results of "doubtful validity." What was
+
+ clearly lacking, as explained by one naval architect, was a "solid foundation" of hydro
+
+ dynamic theory, which was now based "on ridiculous assumptions... there should be
+ less doctrine and more Physics" (Roop 1929; Carlisle 1998, pp. 114-115, 134).
+
+ Thus, by the 1930s, it was increasingly apparent that the "Physics" necessary to
+
+ build a solid theoretical foundation for naval architecture was to be found, not simply
+
+ by extending current work in ship hydrodynamics, but by borrowing insights from the
+
+ adolescent discipline of aircraft aerodynamics. This change in fundamental scientific
+
+ assumptions is often characterized as a "paradigm shift" (Kuhn 1962), but in this
+ instance, it is more accurate to call it a "flow reversal" between the two disciplines.
+
+ Much of the theoretical work in aircraft aerodynamics originated in Germany, which
+
+ in part due to its pioneering development of the research-oriented university and close
+ ties between academia and industry, has always "punched above its weight" in terms
+
+ of its worldwide impact on scientific developments. These developments were marked
+
+ early on by strong mathematical and physical bases, supported by extensive empir
+ ical confirmation. This very systematic and organized methodology extended into
+
+ its aerodynamic research and later into hydrodynamic research (Clark 2006; Watson
+ 2010b; Timmermann 1979, pp. 83-120; Nowacki 2000). Apart from the more obvi
+
+ ous applications to sailboats, seaplanes and air-cushion vehicles, three naval architec
+
+ tural domains in particular were the beneficiaries of aerodynamic research; frictional
+
+ Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 10:01:26 UTC
+All use subject to https://about.jstor.org/terms
+
+ Aircraft aerodynamics and ship hydrodynamics 249
+
+ resistance; propeller theory; and maneuvering and stability theory. A fourth domain,
+
+ submarine design, was heavily influenced by British work on airships.
+
+ 3.1 Frictional resistance and boundary-layer theory, 1904-1957
+
+ Since the 1870s, scientists and engineers working in ship hydrodynamics (notably the
+
+ aforementioned William and Robert Froude, the British scientist Osborne Reynolds
+ and Dutch naval architect Bruno Tideman) had used model test data to establish rea
+
+ sonably accurate estimates of skin friction drag at full scale. The methods used for
+
+ establishing frictional resistance in the early twentieth century had changed little over
+
+ two generations: measuring the towed resistance of various lengths of wood planks
+
+ coated with different varnishes to simulate surface roughness, then scaling up to full
+
+ size using the non-dimensional Reynolds number (a function of length, speed and fluid
+
+ viscosity) to simulate the skin of metal ships coated in paint. It was not a completely
+
+ satisfactory approach, as it did not accurately portray full-scale surface roughness
+
+ or hull form effects. A "crisis in ship-powering prediction" emerged, as explained
+
+ in an internal EMB report in 1929, which noted that "model basin testing is a very
+
+ uncertain process," yielding only an approximation to the resistance and powering of
+
+ a ship accurate to within 10 percent. "This is a rather discouraging state of affairs," the
+
+ report went on, arguing that the proper use of the model basin would be to bolster the
+
+ theoretical side of the hydrodynamics of skin friction through rigorous and long-term
+
+ experiments (Bailey 1995, pp. 62-63. Quotes: Carlisle 1998, p. 115).
+
+ The reigning problem in hydrodynamic theory at the time was that there was no
+
+ significant understanding of what happened at the surface of the body which could be
+
+ used to develop a more accurate picture of what contributed to frictional drag. Obser
+
+ vant sailors and shipbuilders had known for ages that the water directly on the skin of
+
+ the ship moved slower than the surrounding water, forming a sort of boundary layer:
+ as one shipbuilder explained in 1836 "that portion of the water accompanying a ship
+
+ which is immediately next to her body is not passed by so quickly as that a little dis
+
+ tance further off, etc.; consequently, the velocity of a ship through the water is actually
+
+ less than the velocity with which she moves forward."3 British scientist William John
+
+ Macquorn Rankine, writing in 1862, assumed that "the agitation in the water caused
+
+ by the friction on the ship's bottom extends only to a layer of water which is very
+
+ thin as compared with the dimension of the ship," although under certain conditions
+
+ "this assumption is not fulfilled" (Rankine 1862). William Froude himself implic
+
+ itly recognized this boundary layer, noting that "no particles of fluid can be strictly
+
+ regarded as sliding past the surface, in the sense in which a solid slides past a solid"
+
+ (Froude 1869; Brown 2006, p. 178). However, neither Rankine nor Froude exploited
+
+ these observations in their work on skin friction, nor would naval hydrodynamicists
+
+ systematically do so until the 1930s.
+
+ 3 Blackburn assumed that this fluid drag was a sort of added mass, a concept today used in analysis of the
+
+ motion of aircraft and ships, stating: "A sphere in motion is said to drag with it as much of the fluid as
+
+ is equal to six-tenths of the bulk of the sphere.... So the total resistance of a ship is more of a compound
+
+ and diversified nature by the circumstance of an atmosphere of water accompanying her" (Blackburn 1836,
+ pp. 39-43).
+
+ Ô Springe
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 10:01:26 UTC
+All use subject to https://about.jstor.org/terms
+
+ 250 L. D. Ferreira
+
+ Instead, it fell to a new generation of scientists, using higher mathematical and
+
+ physical tools, to develop a working theory of how fluids behaved right at the surface
+
+ of a solid body. In 1904, when Ludwig Prandtl (then a professor of mechanics in
+
+ Hannover) developed his concept of the boundary layer, his great insight was that there
+
+ existed not one, but two separate regimes of fluid resistance which could be analyzed
+
+ separately: ( 1 ) a thin viscous region, the boundary layer itself, where frictional effects
+
+ were felt, with the fluid adhering to the surface and gradually increasing in velocity
+
+ outward; and (2) the region outside the boundary layer, which was essentially inviscid
+
+ flow. The boundary layer and nature of resistance differed depending upon whether
+
+ the flow was laminar (generally at lower Reynolds numbers, i.e., smaller scale, slower
+
+ speeds and lower specific resistance) or turbulent (larger scale, higher speeds and
+
+ higher specific resistance). This concept completely changed prevailing theories of
+
+ frictional resistance and would revolutionize fluid dynamics.
+
+ Although many of the experiments that confirmed boundary-layer theory were done
+
+ in a hydraulic context, the aerodynamic community was, at first, the main beneficiary of
+
+ the results. Prandtl, now at the University of Göttingen, directed an institute for applied
+
+ mechanics and an expanding extramural aerodynamic research facility (which would
+
+ become the Aerodynamische Versuchsanstalt in 1919) where he continued to work on
+
+ the problems associated with the boundary layer. Over the next two decades, many of
+
+ Prandtl's students (again, often using hydraulic experiments) extended the theory of the
+
+ boundary layer. Heinrich Blasius worked primarily in the laminar flow regime, while
+
+ Theodore von Kârmân and Hermann Schlichting extended Prandtl's theories into the
+
+ frictional effects of roughness and turbulence. Turbulent flow, it was soon realized,
+
+ was the critical domain to explore; although small-scale models often experience
+ laminar flow conditions (and therefore lower resistance), at the scale of full-sized
+
+ ships and aircraft the flow of air and water at the surface quickly becomes turbulent.
+
+ Understanding the formation and characteristics of boundary layers in turbulent flow
+
+ was critical to accurate prediction of fluid skin friction.
+
+ Von Kârmân, one of Prandtl's first students, continued his work on turbulent flow
+
+ when he moved to the Aachen Technische Hochschule in 1912 and then at the Cal
+
+ ifornia Institute of Technology after 1930. Schlichting, who came to Göttingen in
+
+ 1927, worked directly with Prandtl during the crucial years of his research, later
+
+ using turbulent flow theory to help the German Navy and Air Force to develop low
+
+ drag rivets that reduced the resistance of ships and aircraft, and became the author
+
+ of seminal textbooks on boundary-layer theory (Eckert 2006, p. 186; Epple 2009,
+ pp. 295-297).
+
+ A fierce competition over fluid skin friction arose between Prandtl's group and von
+
+ Kârmân. "The competition was gentlemanly, of course," von Kârmân later recalled.
+
+ "But it was first-class rivalry nonetheless, a kind of Olympic Games, between Prandtl
+
+ and me, and beyond that between Göttingen and Aachen...The 'ball' was the search
+ for a universal law of turbulence" (Eckert 2006, pp. 107-128). In other words, both
+
+ men were searching for a single non-dimensional equation known as the "friction line"
+
+ or "skin friction coefficient (Cf)" that relates drag force to surface area and Reynolds
+
+ number (/?„), in order to predict fluid friction in turbulent flow. By 1930, it appeared as
+
+ though both men had arrived at similar conclusions concerning the logarithmic form
+ of the friction line, where k and C are constants (Eckert 2010):
+
+ Ô Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 10:01:26 UTC
+All use subject to https://about.jstor.org/terms
+
+ Aircraft aerodynamics and ship hydrodynamics 251
+
+ = logj0 (Rn ■ Cf) + C
+
+ The German aerodynamics community had thus made enormous progress during the
+
+ previous twenty-five years in the understanding of the boundary layer and its appli
+
+ cation to fluid friction, despite the upheavals of World War I and the subsequent
+
+ deprivations under the Treaty of Versailles. Their work quickly influenced the conduct
+
+ of aerodynamic research around the globe. The naval architecture community, how
+
+ ever, demonstrated little interest in or knowledge of the subject, apart from work being
+
+ done by Günther Kempf at the Hamburg Ship Model Basin and Friedrich Gebers at
+ the Vienna Model Basin. Outside of these two centers, there was almost no mention
+
+ of boundary-layer theory or references to Prandtl and von Karman in the papers of
+
+ ATMA, the Institution of Naval Architects (INA, UK) or Society of Naval Architects
+
+ and Marine Engineers (SNAME, USA) (cf. ATMA 1989; RINA 1960; SNAME 1946).
+ That was about to change. In May 1932, Kempf and his colleague Ernst Foerster
+
+ organized in Hamburg an international Conference on Hydromechanical Problems of
+
+ Ship Propulsion (Konferenz über hydromechanische Probleme des Schiffsantriebs).
+
+ It attracted enormous interest around the world, and the meeting room was filled with
+
+ representatives from the major ship model testing basins in Germany, France, Sweden,
+
+ Austria, the Netherlands and the USA (Bailey 1995, p. 95). This was the first time
+
+ that the global community of naval architects received such wide exposure to the
+
+ great theoretical leaps that had been made in the previous two decades by the German
+
+ aerodynamic community. The primary subjects covered were frictional resistance and
+
+ propeller hydrodynamics. This conference, more than any other event, served as the
+
+ signal that a change in the direction of knowledge "flow" between the naval and
+
+ aviation communities had begun, to where ship hydrodynamics began to be heavily
+
+ influenced by aircraft aerodynamics.4
+
+ The first part of the two-day conference was devoted to cuiTent research on frictional
+
+ resistance, the most advanced work being done at Aachen and Göttingen. Von Kârmân,
+
+ by then in California and unable to attend,5 submitted a paper outlining his "rational
+
+ theory of turbulence," in which he reiterated the logarithmic law and explained the
+
+ effects of surface roughness on specific resistance, arguing that roughness "only com
+
+ mences to increase resistance when it projects outside the laminar boundary layer."
+
+ This paper was commented upon by Prandtl, who did attend the conference but did
+
+ not present any findings of his own. Kempf outlined his experiments which confirmed
+
+ the theoretical formulations of von Kârmân and Prandtl. The final paper was a short
+
+ 4 The papers referred to in the following sections were: Theodore von Kârmàn, "Theorie des Reibungswider
+
+ standes," pp. 50-73; Günther Kempf, "Weitre Reibungsergebinsse an ebenen und rauhen Flächen,' pp. 74
+
+ 82; Karl E. Schoenherr, "The Influence of Temperature on the Frictional Resistance Experienced by Plane
+
+ Surfaces Moving in a Fluid," pp. 83-86 (Günther and Foerster 1932).
+
+ 5 Von Karman, who was Jewish, had been increasingly concerned about the rise of official anti-Semitism
+
+ in Weimar Germany. After several visits to the USA, he permanently left his post at Aachen in October
+
+ 1930, just after the German Federal elections that helped vault the Nazi party into prominence, and assumed
+
+ the directorship of the Guggenheim Aeronautical Laboratory at the California Institute of Technology in
+ Pasadena.
+
+ â Springe
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 10:01:26 UTC
+All use subject to https://about.jstor.org/terms
+
+ 252 L. D. Ferreiro
+
+ discussion of the effect of temperature on friction by a relatively unknown American
+
+ naval architect of German origin, Karl E. Schoenherr.
+
+ Schoenherr's short paper belied the much larger work that he was completing, just
+
+ as the Hamburg conference was taking place. Schoenherr had already led an eventful
+
+ life, having escaped a World War I prison camp by stowing away aboard ship to the
+ USA. He became a U.S. citizen, attended MIT and began working at the EMB in
+ Washington D.C. He became interested in the problem of turbulent flow and pursued
+
+ his PhD at Johns Hopkins University with a dissertation on the subject, knowing full
+ well that Prandtl and von Kârmân were ahead in the race.
+
+ Through the years 1931 and 1932, Schoenherr could be found working at the EMB
+
+ late into the night, long after his EMB colleagues had gone home, recording hundreds
+
+ of experimental data points from model basins in the USA, Germany and elsewhere on
+
+ massive sheets of graph paper, because (as he explained to his professors), "whoever
+
+ comes out first with an answer that seems internationally acceptable, has something
+
+ that builds a reputation" (Schoenherr 1989; Carlisle 1998, pp. 116-118). By 1932, he
+
+ had completed his groundbreaking thesis and presented the results several months after
+
+ the Hamburg conference, at the SNAME annual meeting in New York in November of
+
+ that year. Building upon Prandtl and von Kârmân's work, Schoenherr stated that the
+
+ best fit to the reams of data would be represented by the equation (Schoenherr 1932):
+
+ 0.242
+ —7=- = log,0(Än-Cf)
+ VCf
+
+ Naval architects who examined the data found that Schoenherr's equation agreed well
+ with the data. Even von Kârmân was impressed; in late 1932, he wrote to Prandtl,
+
+ saying that "Schoenherr has compiled the material very nicely and presented it in the
+
+ previous meeting of the American Society [of Naval Architects]" (Kârmân to Prandtl
+ 1932).
+
+ The impact of the 1932 Hamburg Conference was almost immediately felt in the
+
+ international naval architecture community, particularly in the domain of ship resis
+
+ tance and powering. In an after-dinner speech, consulting engineer Giovanni (John)
+
+ de Meo, at the instigation of Dutch naval architect Lauren Troost, "pleaded strongly
+
+ for international technical cooperation" in this domain. The following year, Troost
+
+ hosted a meeting of model basin supervisors in The Hague to outline the framework
+
+ for coordinating research and cooperation between model basins around the globe.
+
+ The association, which became known as the International Towing Tank Conference
+
+ (ITTC), continues to meet every three years to compare notes and coordinate work
+
+ (Troost 1933, pp. 7-8). A parallel American offshoot, the ATTC, was created in 1938.
+ Naval architects scrupulously examined the friction lines developed by Prandtl,
+
+ Kârmân and Schoenherr. After careful analysis, in 1947, the ATTC adopted Schoen
+
+ herr's equation as the standard friction line to be used for all resistance calculations in
+
+ US and Canadian ship model basins. In 1950, the British Ship Research Association
+
+ conducted full-scale hull friction tests on Lucy Ashton (a full-sized ship stripped of all
+
+ underwater appendages, and fitted with above-water jet engines for propulsion) which
+
+ showed that using Schoenherr's equation to calculate full-scale bare-hull frictional
+
+ resistance was accurate to within 3% of actual measurements, a vast improvement
+
+ •£) Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 10:01:26 UTC
+All use subject to https://about.jstor.org/terms
+
+ Aircraft aerodynamics and ship hydrodynamics 253
+
+ over previous methods. In 1957, a version of Schoenherr's equation, modified primar
+
+ ily by George Hughes at the UK National Physical Laboratory, was adopted by the
+ ITTC (Lewis 1988, vol. 2, pp. 7-17; Grigson 2000; ITTC 2013).
+
+ Naval architects took notice of the work on turbulent flow and boundary-layer
+
+ theory by Prandtl and von Karman in other ways. Where before almost no naval
+
+ hydrodynamic research had made reference to Aachen and Göttingen, now those
+
+ findings on frictional resistance took on great importance in response to the "crisis"
+
+ ship-powering predictions. One direct result was that model basins recognized the
+ need to stimulate turbulent flow in small-scale models (which, operating at lower
+
+ Reynolds numbers, often had laminar flow over significant portions of the hull) in order
+
+ to accurately predict full scale, fully turbulent frictional resistance. Based on early
+
+ work done by Kempf in Hamburg, model basins around the world began employing
+
+ trip wires, pins, sandpaper and other mechanisms near the bow of the ship model to
+
+ generate turbulent flow over the entire body, a practice that significantly improved the
+
+ correlation of model test data with full-scale data, and which is now taught to every
+
+ freshman-year naval architect (Hughes 1951,1952; Saunders 1957, vol. 1, pp. 89-154,
+ vol. 2, pp. 86-144).
+
+ 3.2 Propeller design and circulation theory, 1915-1952
+
+ In addition to exposing naval architects to the work of Prandtl and others on boundary
+
+ layer theory and turbulent friction, the 1932 Hamburg Conference on Hydromechani
+
+ cal Problems of Ship Propulsion also re-introduced naval architects to the concept of
+
+ circulation—also a product of Prandtl's research into aerodynamics—as a fundamen
+
+ tal principle of lift and drag, with particular reference to the action of ship propellers.
+
+ Prior to this conference, much of the research into shipboard screw propellers had been
+
+ informed by two theories that were born late in the previous century—momentum the
+
+ ory and blade element theory. Neither proved satisfactory in calculating the actions
+
+ of propellers in a way that allowed naval architects to overcome the "crisis in ship
+
+ powering prediction" that plagued them in the 1920s and early 1930s (Carlisle 1998,
+ p. 115).
+
+ In 1865, the momentum theory of propellers was evolved by Rankine, who modeled
+
+ the propeller as an infinitely thin disk (i.e., with an infinite number of blades) that
+
+ instantaneously imparts momentum to the fluid flowing through it, providing thrust.
+
+ Because he assumed an ideal fluid, the propeller did not experience energy loss due
+
+ to frictional drag. Rankine originally assumed that the propeller did not produce any
+
+ rotation in the fluid, a simplification later corrected by Robert Froude in 1887. The
+
+ theory defined an ideal efficiency for a propeller, bounded only by the losses due
+
+ to changes in momentum of the fluid (Lewis 1988, vol. 2, pp. 131-143; John 2007,
+ pp. 169-172).
+
+ The deficiency in this model was that it did not provide any means of calculating the
+
+ thrust and torque of real propellers, nor did it differentiate between a good design and
+
+ a bad one. William Froude, in 1878, sought to remedy this by introducing the blade
+
+ element theory, which accounted for the geometry of the propeller blades. In this for
+
+ mulation, propeller blades were divided into a large number of airfoil-shaped strips,
+
+ for each of which the lift and drag could be calculated (with appropriate assumptions
+
+ â Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 10:01:26 UTC
+All use subject to https://about.jstor.org/terms
+
+ 254 L. D. Ferreira
+
+ and approximations). Integrating the individual elements allowed for the direct calcu
+
+ lation of thrust and torque for the propeller. It did not, however, provide any means of
+
+ calculating the efficiency of the propeller, so that the results of momentum theory and
+
+ blade element theory were inconsistent. (William Perring, an aeronautical engineer,
+
+ unsuccessfully attempted to marry momentum theory with blade element theory; see
+
+ Perring 1928.) Moreover, the calculated values derived from the two theories were
+
+ often considerably different from the actual values of torque, thrust and efficiency of
+
+ real-world propellers.
+
+ In 1907, British engineer Frederick Lanchester published a book entitled Aerody
+
+ namics in which he introduced the concept that the thrust of an airfoil is the product of
+
+ what he termed "vortex emission" of fluid around the airfoil, and the resulting vortices
+
+ that trailed from the edges and tips of the foil by the blades of the propeller. Lanchester
+
+ had actually developed his ideas a decade earlier, but had initially failed to gain much
+
+ attention in the scientific community.6 In 1915, Lanchester introduced these concepts
+
+ to the world of naval architecture, in a paper he presented before the Institution of
+
+ Naval Architects on corrections to Robert Froude's momentum theory (Lanchester
+
+ 1915). However, his concepts fell upon apparently deaf ears, for Lanchester's theory
+
+ was barely referenced in any further work on ship propellers through the 1910s and
+ 1920s.
+
+ The similar concept of "circulation" was developed independently and almost
+
+ simultaneously by Wilhelm Kutta, Nikolai Joukowski, and most importantly, by Lud
+
+ wig Prandtl (Darrigol 2005, pp. 302-322; Bloor 2011). The key insight into their
+ theories is that a two-dimensional airfoil generates lift from two sources: (1) asymp
+
+ totically rectilinear uniform flow and (2) non-vanishing circulation around the foil. The
+ circulation around a three-dimensional airfoil also induces drag as the airfoil sheds
+
+ vortices from the tips. Much of the important experimental work that verified these
+
+ mechanisms of lift and drag was done at Prandtl's laboratory in Göttingen, from 1910—
+
+ 1918. Prandtl was ably helped by his assistant, naval-architect-turned-aerodynamicist
+
+ Albert Betz, as well as by his doctoral student Max M. Münk. As with the boundary
+
+ layer investigations, Prandtl's work on circulation was often conducted in friendly
+
+ but fierce competition with Kârmân's group in Aachen. Both groups maintained close
+
+ connections with the hydrodynamic laboratories in Hamburg and Berlin, influencing
+ naval architects such as Fritz Horn, Heinrich Helmbold and Fritz Gutsche (Lewis 1988,
+
+ vol. 2, p. 206).
+
+ It was not until after World War I that the results in circulation theory derived in
+
+ Göttingen and Aachen became widely known to the non-German scientific commu
+
+ nity. NACA was instrumental in this process, as part of a concerted effort to transfer
+
+ technical and scientific knowledge out of Germany, which was by then recognized
+
+ to be the world leader in aeronautical research and application. NACA paid Prandtl
+
+ handsomely for a lengthy report that detailed the state of knowledge that had been
+ achieved to date at Göttingen. In 1920, on the advice of Jerome Hunsaker, NACA
+
+ also hired Max Münk to work in its headquarters and later in one of its laboratories.
+
+ 6 One early exception to this oversight was the work of the German engineer and physicist Hermann
+
+ Föttinger, who in 1911 applied Lanchester's theory to turbine blades (Föttinger 1911). He later extended
+
+ this research to ship propellers.
+
+ Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 10:01:26 UTC
+All use subject to https://about.jstor.org/terms
+
+ Aircraft aerodynamics and ship hydrodynamics 255
+
+ During his six-year stint at NACA, Münk conducted both theoretical and experimen
+
+ tal research that married Prandtl's airfoil theory to practical design, resulting in many
+
+ of the successful "NACA profiles," a systematic series of airfoil shapes that became
+
+ widely used for aircraft wings as well as for ship and aircraft propellers (Prandtl 1923;
+ Münk 1924a; Eckert 2005).
+
+ The wider community of naval architects was re-introduced to circulation theory
+
+ as a result of the 1932 Hamburg Conference, this time bearing the imprint of Prandtl
+
+ rather than Lanchester. The main problem for circulation theory addressed at this
+
+ conference was the action of propellers in non-uniform flow behind ships. Unlike
+
+ most aircraft propellers which are mounted at the front of the wing or nose (thus in
+
+ a free stream), a ship's propeller is mounted behind the hull, so that the wake (flow
+
+ into a ship's propeller) varies greatly across the disk. The Hamburg papers gave some
+
+ early indications of how to use circulation theory to modify existing blade element
+
+ theories in order to account for the non-uniformity of flow.7
+
+ In 1944, the British naval architect Leonard Burrill, building on Prandtl's theories
+
+ and the work presented in Hamburg (especially that of Fritz Gutsche), developed an
+
+ analytical method that combined blade element and momentum theories with circula
+
+ tion theory in order to properly account for non-uniform flow. Burrill's straightforward
+
+ method could be performed by hand for quick-turnaround calculations of moderately
+
+ loaded propellers. In 1952, Hermann Lerbs, formerly a colleague of Kempf at the
+
+ Hamburg Ship Model Basin but by then working at the David Taylor Model Basin in
+
+ the USA, developed a more rigorous lifting-line analysis for designing wake-adapted
+
+ propellers. Complex to use, Lerb's method became more popular with the advent of
+
+ computer-aided calculations and is now the de-facto technique found in countless pro
+
+ peller design software applications (Burrill 1944; Lerbs 1952. See also Lewis 1988,
+
+ pp. 204-213; John 2007, pp. 174-182; and Saunders 1957, vol. 2, pp. 609-637).
+
+ 3.3 Theory of maneuvering and course stability, 1911-1946
+
+ Early studies of ship maneuvering at the turn of the twentieth century were concerned
+
+ with simple, straightforward measures such as tactical diameter, a measure of the
+
+ ability to attack or avoid an enemy. Naval architects examined the kinematics of
+
+ the problem, for example relating the diameter to speed, rudder angle and propeller
+
+ rotations, but did not address the physics behind it (Clarke 2003, p. 2).
+
+ By contrast, from the earliest days, aeronautical engineers were modeling the aero
+
+ dynamic forces on airplanes and airships, both mathematically and empirically. Even
+
+ before the Wright brothers, aircraft designers understood the need for inherent aircraft
+
+ stability in flight (that is, the ability of the aircraft to return to its original orienta
+
+ tion after a perturbation) and attempted to model the forces on control surfaces. In
+
+ 1911, a British mathematics professor, George H. Bryan, worked out the six-degree
+
+ of-freedom equations of motion for an aircraft. These equations calculated stability
+
+ 7 The papers dealing with circulation were by Alfred Betz, Fritz Weinig, Melitta Schiller (later to become
+
+ the sister-in-law of Claus von Stauffenberg; she was involved in the 1944 plot to assassinate Adolf Hitler,
+
+ surviving retribution only to be shot down in combat), Fritz Horn, Heinrich Helmbold, Einar Hogner and
+ Fritz Gutsche. (Günther and Foerster 1932, pp. 161-217, 343-396).
+
+ Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 10:01:26 UTC
+All use subject to https://about.jstor.org/terms
+
+ 256 L. D. Ferreira
+
+ derivatives based upon forces in straight-line motion as well as rotary motions of
+
+ roll, pitch and yaw. The rotary forces were particularly difficult to resolve, but Bryan
+
+ suggested a method using a whirling arm to measure them (Bryan 1911, pp. 45-46;
+ Abzug and Larrabee 2002, pp. 91-12, 266-267).
+
+ The whirling arm—essentially a long rotating arm with the model fixed at the
+
+ end—had initially been developed over a hundred years earlier as a way of measuring
+
+ airflow in a contained environment. Most European aeronautical faboratories—e.g.,
+
+ at Saint-Cyr in France, Göttingen in Germany and the National Physical Laboratory
+
+ at Teddington, UK—employed whirling arms, but they had problems with instrumen
+
+ tation and interference from the arm itself, so whirling arms were on their way out as
+
+ labs built fixed wind tunnels to provide more accurate results (Zahm 1914).
+
+ The need to measure rotary forces breathed new life into the whirling arm. It became
+
+ the principal method for developing rotary stability derivatives, which are the non
+
+ dimensional variations in forces and moments as a function of angular velocity in roll,
+
+ pitch and yaw. In Britain, for example, Leonard Bairstow used it to develop equations
+
+ for rolling during a banked turn (Bairstow 1920, p. 105; Hashimoto 2007).
+
+ In France, the whirling arm housed in the manège (roundabout) of Saint-Cyr became
+
+ the focus of attention for aircraft stability. Maurice Roy built upon the work of Bryan
+
+ and Bairstow to develop equations of motion that explicitly accounted for wind gusts
+
+ (Roy 1931). Both the manège and Roy's work came to the attention of French naval
+
+ architects, who were searching for a methodology to more rigorously calculate a ship's
+
+ course stability, i.e., its ability to maintain course after a perturbation. In the 1920s,
+
+ the planned expansion of the Paris model basin was to include a "manège (bassin de
+
+ giration)" i.e., a rotating-arm basin, but it initially conflicted with the adjacent flying
+ field at Issy-ies-Moulineaux, so construction could not start until 1938 (DGA/DCN
+
+ 1988, p. 23). That same year, Pierre Contensou applied Roy's equations of motion to
+
+ a ship's course stability and turning characteristics (Contensou 1938, 1946).
+
+ The start of World War II in 1939 halted all work on course stability. The nearly
+
+ completed rotating-arm basin—the first of its type in the world—was bombed during
+
+ the German occupation of Paris in 1940. It was not rebuilt until 1945, after which course
+
+ stability and maneuvering research (employing Roy's original concepts of aircraft
+
+ motion) went into full swing. These experiments were most famously performed under
+
+ the naval architect Jean Dieudonné,8 who developed the eponymous spiral maneuver
+
+ that is used to measure a ship's course stability (Bleuzen 1946; Dieudonné 1949).
+
+ A particularly telling example of the influence of aircraft aerodynamics is found in
+
+ the evolution of maneuvering theory by Ken Davidson at Stevens Institute of Tech
+
+ nology in Hoboken, NJ. Davidson was a former military pilot who initially used his
+
+ knowledge of aerodynamics in yacht design.9 In the 1930s, his work at Stevens had
+
+ been largely funded through the Research Corporation for Science Advancement, but
+
+ 8 Dieudonné's internal reports on maneuvering and course stability were collected and translated into
+
+ English by Harold Saunders at the David Taylor Model Basin (Saunders 1952). Note that the naval architect
+ Jean Dieudonné ( 1900-1972 ) should not be confused with the mathematician Jean Dieudonné ( 1906-1992).
+
+ 9 It is worth noting that in 1946. Stevens Institute brought another aviation specialist, Boris V. Korvin
+
+ Kroukovsky. former chief design engineer at Aeromarine and EDO Aircraft, into its hydrodynamics labo
+
+ ratory. There he made major contributions to ship theory, e.g.. Theory of Seakeeping, (Korvin-Kroukovsky
+ 1951).
+
+ Ô Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 10:01:26 UTC
+All use subject to https://about.jstor.org/terms
+
+ Aircraft aerodynamics and ship hydrodynamics 257
+
+ the advent of World War II shifted the emphasis to naval work. In 1939, he began exam
+
+ ining the turning performance of destroyers, but was hampered by lack of facilities to
+
+ test small models in turns. Undaunted, he arranged to conduct self-propelled model
+
+ tests in the swimming pools of Stevens Institute and Columbia University (nights and
+
+ weekends). The results, published in 1944 as "On the Turning and Steering of Ships,"
+
+ examined the performance of hulls in turns, but made little headway in establishing
+
+ quantitative control characteristics for course stability and maneuvering (Davidson
+ 1940a,b, 1944).
+
+ The results of these investigations convinced Davidson that existing theory and
+
+ experimental procedures were inadequate for the more demanding requirements of
+
+ naval work and began a literature search for other solutions. He happened upon current
+
+ research being performed by Leonard Schiff, a nuclear physicist who was working part
+
+ time on anti-submarine operations and torpedo maneuvering. Schiff alerted Davidson
+
+ to the large whirling arm at the Guggenheim Airship Institute in Akron, Ohio, which
+
+ had been built a decade earlier to examine the rotary forces on rigid airships. Davidson
+
+ realized that he needed a similar capability for his own work and applied to the US
+
+ Navy for funding. By 1945, a rotating-arm facility was up and running, which Davidson
+
+ and Schiff used to further develop the theory of ship maneuvering and control (Bruno
+ 1993, p. 13; ASME 1981).
+
+ The Davidson and Schiff paper which gave the results of these investigations, "Turn
+
+ ing and Course-Keeping Qualities," explicitly shows the influence of the aerodynamics
+
+ community. It was far more mathematically rigorous than the Davidson paper of just
+
+ two years earlier, as they carefully followed aerodynamic practice in defining forces
+
+ and moments acting on a ship, using essentially the same equations first employed
+
+ by Bryan. The hydrodynamic forces developed experimentally using the rotating arm
+
+ provided systematic, quantitative results for control derivatives. This marked a turning
+
+ point in the assessment of ship maneuvering and control; within a few years of the
+
+ facilities at Paris and Stevens Institute, rotating-arm basins became standard fixtures at
+
+ major naval architecture research establishments, and the aerodynamics-based repre
+
+ sentation of ship motions invoked by Davidson and Schiff became the ITTC worldwide
+
+ standard (Davidson and Schiff 1946; Lewis 1988, vol. 3, pp. 191^122; ITTC 2013).
+
+ 3.4 Airship influence on submarine design, 1924-1953
+
+ The modern submarine, with its streamlined body-of-revolution hull design, directly
+
+ traces its roots to airship design, in particular the British /? 101 program of the 1920s.
+
+ The early experimental submarines and submersibles of the nineteenth century—
+
+ lctineo,Gymnote and Holland, to name a few—were generally streamlined, following
+
+ the concept of a fishlike form. The later U-boats, fleet boats and other submarines of
+
+ the World War I and World War II eras were generally ship-shaped, as they operated
+
+ for long periods at high speed at the surface, with only short stints of underwater
+
+ operation, limited by battery power to low speeds, typically 6-8 knots.10
+
+ 10 One notable exception to ship-shaped submarines was the German V80 submarine ( 1939) with an "outer
+
+ casing shaped like a fish," designed by Hellmuth Walter with a closed-cycle engine that could give high
+ speeds underwater (Rössler 1981, pp. 168-172).
+
+ Ô Springe:
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 10:01:26 UTC
+All use subject to https://about.jstor.org/terms
+
+ 258 L. D. Ferreira
+
+ The streamlined airship was a product of the aerodynamic research conducted at
+
+ Göttingen for companies like Luftschiffbau Zeppelin GmbH, before World War I. A
+
+ series of experiments using the newly established wind tunnel confirmed Prandtl's
+
+ boundary-layer theory and further established that the optimal body of revolution
+
+ (i.e., one that produces minimum resistance) had a blunt nose and pointed tail. Prior to
+
+ this research, many airships resembled blunt-ended sausages. Afterward, all had the
+
+ now-commonplace airfoil shape (Eckert 2006, pp. 46-49).
+
+ After World War I, British aeronautical engineers were under pressure to produce
+
+ results comparable to or better than their German counterparts (Richmond 1929a,
+
+ p. 174). The R101 project was begun in 1924 as the Air Ministry side of a government
+
+ commercial competition to develop a troop-carrying fleet of airships (immortalized
+
+ in Shute 1954). The design team developed a series of minimum-drag hulls based
+
+ on elliptical forms, before settling on a slender form with no parallel middle body
+ (Richmond 1929b, p. 687; Cox 1929, pp. 800-809).
+
+ One of the team members, Hilda M. Lyon, was instrumental in the structural design
+
+ of R101 and contributed to the aerodynamic development of the craft. Her interest
+
+ in aerodynamics soon drew her to attend the MIT Department of Aeronautics from
+
+ 1930 to 1932. Her Master's thesis "The Effect of Turbulence on the Drag of Airship
+
+ Models" examined these effects on a pair of R10I models with different fullness
+
+ ratios and highlighted how initial test conditions affected experimental results (Lyon
+
+ 1930, 1932; Baker 1932, vol. 1, p. 210). Lyon subsequently studied under Prandtl at
+
+ Göttingen and was working on boundary layer theory and stability before her untimely
+ death in 1946.'1
+
+ R101 crashed in 1930 after just a few flights. Subsequent accidents such as those
+
+ which befell Akron and Hindenburg effectively ended the airship era by 1940. But
+
+ the airship hull form was resurrected by the US Navy after World War II in its search
+
+ for a submarine with high-speed submerged performance. In 1949, the Committee on
+
+ Undersea Warfare submitted an initial report on the optimum shape for a research sub
+
+ marine that could exceed 20 knots submerged. When several conventional submarine
+
+ forms were compared with a streamlined hullform based on RIOL the results were
+
+ startling; the R101 shape required less than half the power of the World War II fleet
+
+ submarine for the same speed. The RI01 airship thus became the starting point for
+
+ the model research that led to the USS Albacore, the US Navy's prototype for the
+
+ streamlined, body-of-revolution submarine. This submarine owed more than just its
+
+ hull form to the world of aerodynamics; several models of Albacore were tested in
+
+ the large NACA wind tunnel at Langley (Largess and Mandelblatt 1999, pp. 20-22;
+
+ Gertler 1950; Polmar and Moore 2004, p. 128). The equations of motion for the sub
+
+ merged hull were developed directly from airship equations of motion first elucidated
+
+ by Max Münk.12
+
+ USS Albacore, commissioned in 1953, was the forerunner of all modern submarine
+
+ hulls. The diesel boat Barbel and nuclear boat Skipjack were closely based upon it,
+
+ 1 ' Additional information on Hilda Lyon is from the author's correspondence and telephone interviews
+ with her niece Enid Greenwood, November 2009.
+
+ 12 Note that the pitch destabilizing force of a submarine moving at an angle of attack is referred to as the
+ "Münk moment." See Münk (1924b).
+
+ Ô Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 10:01:26 UTC
+All use subject to https://about.jstor.org/terms
+
+ Aircraft aerodynamics and ship hydrodynamics 259
+
+ both of which became the model for many Western submarines, both conventional and
+
+ nuclear. Even the Soviet Navy copied ihcAlbacore design from public and intelligence
+
+ sources, beginning in 1957 with K — 3 Leninsky Komsomol (Polmar and Moore 2004,
+
+ p. 74).
+
+ Interestingly, the Committee on Undersea Warfare report, which started it all back
+ in 1949, labeled the airship shape as the "Lyon Form," in honor of Hilda Lyon's
+ contributions to Ä101. It is therefore the name of aeronautical engineer Hilda Lyon
+
+ that has subsequently been used to describe the shape of the modern submarine.
+
+ 4 Conclusions
+
+ From the earliest days of flight, practitioners have noted the many similarities between
+
+ ships and aerial vehicles and sought to apply the principles and technologies used for
+
+ centuries at sea to the newfangled dirigibles and heavier-than-air craft. When the
+
+ development of airplanes and airships swung into high gear, naval architects initially
+
+ led the way, applying their theoretical knowledge and experimental techniques to their
+
+ design and production, along the way giving us the nautical terminology we use to
+
+ describe aircraft—port, starboard, roll, pitch and waterlines.
+
+ In less than a generation, the roles were reversed. Naval architects, faced with a
+
+ "crisis in ship-powering prediction," as well as the need to design wake-adapted pro
+
+ pellers and to accurately develop quantitative control characteristics for course stability
+
+ and maneuvering, quickly turned to the insights derived from aircraft aerodynamics
+
+ (frequently originating in Germany) to inform their research and engineering, leading
+
+ to a more formal approach to ship hydrodynamics. This culminated in the develop
+
+ ment of the modern submarine hullform, based upon airship design and corresponding
+
+ equations of motion.
+
+ The connection between aircraft aerodynamics and ship hydrodynamics is as strong
+ in the twenty-first century as it was in the early twentieth century. Modern day sub
+
+ marine designers continue to use airship and missile experimental data to examine
+
+ flow separation at angles of attack. The methods and techniques of computational
+
+ fluid dynamics, originally created as a joint effort between the hydrodynamic and
+
+ aerodynamic communities, are continuously developed, improved and shared across
+
+ both aircraft and naval fields.13 Planing boats, hydrofoils, air-cushion vehicles and
+
+ surface effect ships (and more recently wing-in-ground effect craft or ekranoplans)
+
+ are all representative artifacts of this crossover engineering and scientific discipline
+
+ (King 1966). Perhaps the most elegant example of the connection between aerody
+
+ namics and hydrodynamics is in the world of yacht design, notably that of the hi-tech
+
+ America's Cup. In 2010, the USA-17 trimaran handily won the competition, sporting
+
+ not a traditional sail but instead a rigid wingsail (Wolverton 2010), and the AC72-class
+
+ catamarans in the 2013 America's Cup all carry wingsails that would not look out of
+
+ place on a modern airliner.
+
+ 13 For example, a fundamental and highly cited study on three-dimensional flow that formed the basis for
+ computational fluid dynamics (Hess and Smith 1962) was carried out by Douglas Aircraft under the US
+
+ Navy Bureau of Ships fundamental hydromechanics research program NS 715-102, administered by the
+ David Taylor Model Basin.
+
+ "ö Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 10:01:26 UTC
+All use subject to https://about.jstor.org/terms
+
+ Acknowledgments I am grateful to Michael Eckert, Olivier Darrigol and Horst Nowacki for their knowl
+
+ edge, insights and suggestions.
+
+ 260 L. D. Ferreira
+
+ References
+
+ University Press.
+
+ ABS.
+
+ Cappelens Folag.
+
+ Abzug, Malcolm J., and E. Eugene Larrabee. 2002. Airplane stability and control. New York: Cambridge
+
+ Aircraft International Register. 1929. Flieht. 8 Aug, 1929, p. 863.
+
+ American Bureau of Shipping. 2006. The history of the American Bureau of Shipping 1862-2005. Houston:
+
+ Anderson. Hâkon, and John Collett. 1989. Anchor and balance: Det Norske Veritas 1864-1989. Oslo:
+
+ Anderson, John. 1997. A history of Aerodynamics. Cambridge: Cambridge University Press.
+
+ Annual Report. 1930. Annual Report of the Secretary of the Navy. Washington DC: US GPO.
+ ASME. 1981. American Society of Mechanical Engineers Landmarks brochure H072, "Rotating-Arm
+
+ Model Test Facility: An International Historic Mechanical Engineering Landmark".
+
+ ATMA. 1989. Association Technique Maritime et Aéronautique Centième Anniversaire. Paris: ATMA.
+ ATM A. 2013. "Histoire". http://www.atma.asso.fr/FR/histoire.htm. Accessed June 2013.
+
+ Bailey, David. 1995. Ships in the making: A history of ship model testing at Teddington and Feltham,
+
+ 1910-1994. London: Lloyd's of London Press.
+
+ Bairstow, Leonard. 1920. Applied Aerodynamics. London: Longmans, Green.
+
+ Baker, George S. 1932. Ship design, resistance und screw propulsion, vol. 2. Liverpool: Charles Burchill.
+ Blackburn. Isaac. 1836. The theory and science of naval architecture familiarly explained. Plymouth:
+
+ Bartlett.
+
+ Bleuzen, Jean. 1946. LEtude de la Giration au Bassin d'Essais des Carènes. Bulletin de l'Association
+
+ Technique Maritime et Aéronautique 45: 477-496.
+
+ Bloor, David. 2011. The enigma of the aerofoil: Rival theories in aerodynamics. 1909-1930. Chicago:
+
+ Brown, David K. 2006. The way of a ship in the midst of the sea: The life and work of William Froude.
+
+ Bruno, Michael S. 1993. The history of towing tank research at Stevens (pamphlet). Hoboken: Stevens
+
+ University of Chicago Press.
+
+ Penzance: Periscope.
+
+ University Davidson Laboratory.
+
+ Bryan, George H. 1911. Stability in aviation. London: MacMillan.
+ Bureau Veritas. 1978. Bureau Veritas 1828/1978: A record of 150 years. Paris: PEMA 2B.
+
+ Burrill, Leonard. 1944. Calculation of marine propeller performance characteristics. Transactions of North
+
+ East Coast Institute of Engineers and Shipbuilders 60: 269-294.
+
+ Carlisle, Rodney P. 1998. Where the fleet begins: A history of the David Taylor Research Center, 1898-1998.
+
+ Washington, DC: Naval Historical Center.
+
+ Carlton, John. 2007. Marine propellers and propulsion. Amsterdam: Elsevier.
+ Carra, Jean-Louis. 1784. Essai sur la nautique aérienne. Paris: Onfroy.
+
+ Clark, William. 2006. Academic charisma and the origins of the research university. Chicago: University
+
+ Clarke. David. 2003. The Foundations of Steering and Maneuvering. In 6th IFAC conference on maneuvering
+
+ and control of marine craft. Girona: University of Girona.
+
+ Comptes Rendues. 1854. Comptes Rendues Hebdomadaires des Séances de l'Académie des Sciences. 38:
+
+ of Chicago Press.
+
+ 953,998-999.
+
+ Contensou, Pierre. 1938. Mécanique du navire en route et en giration. Bulletin de l'Association Technique
+
+ Maritime et Aéronautique 42: 597-614.
+
+ Contensou, Pierre. 1946. Note sur la Cinématique Générale du Mobile Dirigé. Bulletin de l'Association
+
+ Technique Maritime et Aéronautique 45: 323-368.
+
+ Cox, Harold Roxbee. 1929. The external forces on an airship structure. Journal of the Royal Aeronautical
+
+ Society 33(225): 725-811.
+
+ Darrigol, Olivier. 2005. Worlds of flow. Oxford; Oxford University Press.
+ Davidson, Kenneth. 1936. An experimental towing tank for small models. Journal of Applied Mechanics
+
+ 3(2): A4I-A46.
+
+ <£j Springe
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 10:01:26 UTC
+All use subject to https://about.jstor.org/terms
+
+ Aircraft aerodynamics and ship hydrodynamics 261
+
+ Davidson, Kenneth, 1940a. Experimental Towing Tank 1940 Annual Report, no. 142, Research Corporation
+
+ for Science Advancement (Tucson, AZ) Archives Box 42 fol. 528.
+
+ Davidson, Kenneth, 1940b. Memo of December 13,1940. Research Corporation for Science Advancement
+
+ Davidson, Kenneth. 1944. On the turning and steering of ships. Transactions of the Society of Naval
+
+ (Tucson, AZ) Archives Box 36 fol. 503.
+
+ Architects and Marine Engineers 52: 287-324.
+
+ Davidson, Kenneth, and Leonard Schiff. 1946. Turning and course-keeping qualities. Transactions of the
+
+ Society of Naval Architects and Marine Engineers 54: 152-200.
+
+ DGA/DCN. 1988.1906-1988: Quatre-vingt-deux ans d'histoire du Bassin d'Essais des Carènes de Paris.
+
+ Paris: DGA/DCN.
+
+ Dieudonné, Jean. 1949. Note sur la Stabilité du Régime de Route des Navires. Bulletin de l'Association
+
+ Technique Maritime et Aéronautique 48:463-490.
+
+ Durand, William F. 1953. Adventures in the Navy. New York: McGraw Hill.
+
+ Eckert, Michael. 2005. Strategie internationalism and the transfer of technical knowledge: The United States
+
+ Germany and aerodynamics after World War 1. Technology and Culture 46(1): 104-131.
+
+ Eckert, Michael. 2006. The dawn of fluid dynamics. Weinheim: Wiley-VCH.
+
+ Eckert, Michael. 2010. A kind of Olympic Games: the Prandtl-Kârmân rivalry on turbulent skin friction.
+
+ In Conference on Fluid Resistance from Newton to the Present. Paris: Université Pierre et Marie Curie.
+
+ Epple, Moritz. 2009. Calculation, measurement and leadership: War research at the Kaiser Wilhelm Institute
+
+ for Fluid Dynamics, 1937-1945. In The Kaiser Wilhelm Society under National Socialism, ed. Susanne
+
+ Heim et al., 283-311. Cambridge, UK: Cambridge University Press.
+
+ Ferber, Ferdinand. 1908. Eaviation: ses débuts, son développement: de crête à crête, de ville d ville, de
+
+ continent à continent. Paris: Berger Levrault.
+
+ Forrest, Matthew G. 1947. Application and use of aluminum alloys in ship construction. Transactions of
+
+ the Society of Naval Architects and Marine Engineers 55: 305-331.
+
+ Föttinger, Hermann. 1911. "Über die physikalischen Grundlagen der Turbinen- und Propellerwirkung",
+
+ Zeitschrift für Flugtechnik und Motorluftschiffahrt. Berlin: R. Oldenbourg Verlag.
+
+ Froude, William. 1869. On Some Difficulties in the Received View of Fluid Friction. In British Association
+
+ for the Advancement of Science (Mechanical Science Section) Report Exeter: BAAS.
+
+ Fulton, Garland. 1963. The General climate for Technological Developments in Naval Aeronautics on the
+
+ Eve of World War I. Technology and Culture 4(2): 154-165.
+
+ Gertler, Morton. 1950. Resistance experiments on a systematic series of streamlined bodies of revolution
+
+ for application to the design of high-speed submarines, DTMB Report C-297. Washington, DC: DTMB.
+
+ Gillespie, Richard. 1984. Ballooning in France and Britain, 1783-1786: Aerostation and adventurism. Isis
+
+ 75(2): 248-268.
+
+ Grigson, Christopher. 2000. Accurate friction lines: An essential to understanding hull flow. Royal Institution
+
+ of Naval Architects magazine, The Naval Architect, 27-30.
+
+ Haas, David, et al. 2011. Birth of U.S. Naval Aeronautical Engineering and Phenomenal Rise to Excellence.
+ Bethesda: Naval Surface Warfare Center Carderock Division, Report NSWCCD-50-TR-2011/068.
+ Hashimoto, Takehiko. 2007. Leonard Bairstow as a Scientific Middleman: Early Aerodynamic Research
+
+ on Airplane Stability in Britain, 1909-1920. Historia Scientarium 17(2): 102-120.
+
+ Hess, John L., and Apollo Milton Olin Smith. 1962. Calculation of non-lifting potential flow about arbitrary
+
+ three-dimensional bodies. Long Beach: Douglas Aircraft report ES 40622.
+
+ Higham, Robin D.S. 1961. The British rigid airship, 1908-1931: A study in weapons policy. London: G.T.
+
+ Foulis.
+
+ Hovgaard, William. 1927. Deformations and stress distributions in rigid airships. Transactions of the Insti
+
+ Hughes, George. 1951. Turbulence stimulation on ship models. Transactions of the Society of Naval Archi
+
+ Hughes, George. 1952. Frictional resistance of smooth plane surfaces in turbulent flow. Transactions of the
+
+ tution of Naval Architects 69: 314-339.
+
+ tects and Marine Engineers 54: 281-314.
+
+ Institution of Naval Architects 94: 287-322.
+
+ Hughes, Thomas. 1971. Elmer sperry; Inventor and engineer. Baltimore: Johns Hopkins University Press.
+
+ Hunsaker, Jerome. 1916. A review of hydrodynamical theory as applied to experimental aerodynamics. In
+
+ Transactions of the international engineering congress 1915, 12 vols, vol. 11, 160-207. San Francisco:
+
+ Hunsaker, Jerome. 1920. Naval Architecture in Aeronautics. Aviation and Aeronautical Engineering 9(1):
+
+ Neals Publishing.
+
+ 10-14.
+
+ Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 10:01:26 UTC
+All use subject to https://about.jstor.org/terms
+
+ 262 L. D. Ferreira
+
+ Hunsaker, Jerome. 1924. Aeronautics in naval architecture. Transactions of the Society of Naval Architects
+
+ and Marine Engineers 32: 1-23.
+
+ ITTC. 2013. Website http://ittc.sname.org/ Accessed June 2013
+
+ Kempf, Günther, and Emst Foerster (eds.). 1932. Hydromechanische Probleme des Schiffsantriebs. Ham
+
+ burg: HSV.
+
+ King, Horace F. 1966. Aeromarine origins: The beginnings of Marine Aircraft. Winged Hull, Air-Cushion
+
+ and Air-Lubricated Craft. Planing Boats and Hydrofoils. London: Putnam.
+
+ Korvin-Kroukovsky, Boris V. 1951. Theory of seakeeping. New York: SNAME.
+
+ Kuhn, Thomas. 1962. The structure of scientific revolutions. Chicago: University of Chicago Press.
+
+ Lanchester, Frederick W. 1915. A contribution to the theory of propulsion and the screw propeller. Trans
+
+ actions of the Institution of Naval Architects 57: 98-116.
+
+ Largess, Robert, and James Mandelblatt. 1999. USS Albacore: Forerunner of the future. Portsmouth, NH:
+
+ Leclert, Emile. 1872. M. Dupuy de Lome's Aerial Ship. Naval Science 1: 280-285.
+
+ Lehmann, Eike. 1999. 100 Jahre Schiffbautechnische Gesellschaft: Biografien zur Geschichte des Schiff
+
+ Portsmouth Marine Society.
+
+ baus. Berlin: Springer.
+
+ Lerbs, Hermann W. 1952. Moderately loaded propellers with a finite number of blades and an arbitrary
+
+ distribution of circulation. Transactions iff the Society of Naval Architects and Marine Engineers 60:
+ 73-117.
+
+ Leroux, Emile. 1925. Note sur un paramètre de similitude mécanique dans les mouvements des fluides.
+
+ Bulletin de l'Association Tech nique Maritime et Aéronautique 29: 235-263.
+
+ Leroux, Emile. 1927. Cours d'aéronautique. Paris: C. Béranger.
+ Lewis. Edward (ed.). 1988. Principles of naval architecture, vol. 3. Jersey City: SNAME.
+
+ Lyon, Hilda M. 1930. The strength of transverse frames of rigid airships. Journal of the Royal Aeronautical
+
+ Society 34(236): 497-556.
+
+ Lyon, Hilda M. 1932. The Effect iff Turbulence on the Drag of Airship Models. Cambridge, MA: MIT
+
+ Master's thesis; also published as British Aeronautical Research Council. Report no. 1151.
+
+ Mack, Pamela. 1998. From engineering science to big science: the NACA and NASA Collier Trophy research
+
+ project winners. Washington, DC: NASA History Office.
+
+ McEntee, William. 1911. Some applications of the principles of naval architecture to aeronautics. Trans
+
+ actions of the Society of Naval Architects and Marine Engineers 19: 287-298.
+
+ Münk, Max M. 1924a. Simplifying assumptions, reducing the strict application of classical hydrodynamics
+
+ to practical aeronautical computations. Washington DC: NACA Technical Note No. 207.
+
+ Münk, Max M„ 1924b. The Aerodynamic Forces on Airship Hulls. Washington DC: NACA, Report 184.
+ Noalhat, Henri. 1910. Navigation aérienne et navigation sous-marine: deux faces d'un même problème.
+
+ Nowacki, Horst. 2000. Zur Entwicklung der Schiffshydrodynamik im 20. Jahrhundert. In 100 Jahre Schiff
+
+ bautechnische Gesellschaft: Jubiläumsverunstaltung an der TU Berlin, ed. Eike Lehmann. Berlin: STG
+
+ Paris: L. Geisler.
+
+ Vortrag.
+
+ Nowacki, Horst and Larrie Ferreira, 2003. Historical roots of the theory of hydrostatic stability of ships.
+
+ In Proceedings of the 8th international conference on the stability of ships and ocean vehicles, ed. Luis
+
+ Pérez Rojas, 1-30. Madrid: ETSIN, Reprinted as MPIWG Preprint 237, Berlin: Max Planck Institute
+
+ for the History of Science.
+
+ Perring, William. 1928. The vortex theory of propellers and its application to the wake conditions existing
+
+ behind a ship. Transactions of the Institution of Naval Architects 69: 226-238.
+
+ Polmar, Norman, and Kenneth J. Moore. 2004. Cold War Submarines. Washington DC: Brassey's.
+
+ Prandtl, Ludwig. 1923. Applications of modern hydrodynamics to aeronautics. Washington, DC: NACA
+
+ Report No. 116.
+
+ Peter, Quartermaine. 1996. Building on the Sea: Form and meaning in Modern Ship Architecture. London:
+
+ National Maritime Museum and Academy Group.
+
+ Rankine. William John Macquora. 1862. Abstract of an investigation of the resistance of ships. Journal of
+
+ the Franklin Institute 73: 22-29.
+
+ Raymer, Daniel P. 2006. Aircraft design: A conceptual approach. Reston, VA: AIAA.
+ Richmond, Vincent C. 1929a. Some modern developments in airship construction. Transactions of the
+
+ Institution iff Naval Architects 70: 173-209.
+
+ Richmond, Vincent C. 1929b. RIOL Journal iff the Royal Aeronautical Society 33(224): 686-723.
+
+ RINA. 1960. Royal Institution of Naval Architects Index to the Transactions 1860-1959. London: RINA.
+
+ Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 10:01:26 UTC
+All use subject to https://about.jstor.org/terms
+
+ Roenne, Baron A. 1913. Notes on Airship Construction. Transactions of the Institution of Naval Architects
+
+ Aircraft aerodynamics and ship hydrodynamics 263
+
+ Roland, Alex. 1978. Underwater Warfare in the age of sail. Bloomington: Indiana University Press.
+
+ Roland, Alex. 1985. Model Research: The National Advisory Committee for Aeronautics 1915-1958. Wash
+
+ Roop, Wendell, 1929. "Frictional Resistance of Ship Models", EMB Report 227, Washington D.C.; also in
+
+ Transactions of the Society of Naval Architects and Marine Engineers 37, pp. 45-64.
+
+ Rössler, Eberhard. 1981. The U-boat: The evolution and technical history of German submarines. London:
+
+ 55:117-135.
+
+ ington, DC: NASA.
+
+ Cassell.
+
+ et Aéronautique 35: 619-640.
+
+ Roy, Maurice. 1931. Stabilité des Régimes de Vol des Avions. Bulletin de l'Association Technique Maritime
+
+ Saunders, Harold. 1952. Collected French Papers on the Stability of Route of Ships at Sea, 1949-1950,
+
+ DTMB translation 246. Washington, DC: DTMB.
+
+ Saunders, Harold. 1957. Hydrodynamics in Ship Design, vol. 3. New York: SNAME.
+ Schoenherr, Karl. 1932. Resistance of flat surfaces moving through fluid. Transactions of the Society of
+
+ Naval Architects and Marine Engineers 40: 279-313.
+
+ Schoenherr, Karl. 1989. Coming to the United States—The Hard Way. New York: Vantage Press.
+
+ Shatzberg, Eric. 1999. Wings of wood, wings of metal. Princeton: Princeton University Press.
+
+ Shute, Nevil. 1954. Slide Rule: Autobiography of an Engineer. London: Heinemann.
+ SNAME, 1946. Society of Naval Architects and Marine Engineers Index to Transactions, years 1893 to
+
+ 1943. New York: SNAME.
+
+ Stein, Albert G. 1919. Tanks: 1914-1918. London: Hodder and Stoughton.
+ Stein, Steven K. 2007. From torpedoes to aviation; Washington Irving Chambers and technological inno
+
+ vation in the new Navy, 1876-1913. Tuscaloosa: University of Alabama Press.
+
+ Timmermann, Gerhard. 1979. Die Suche nach der günstigsten Schifform. Hamburg: Gerhard Stalling.
+
+ Trimble, William F. 2002. Jerome C. Hunsaker and the rise of American aeronautics. Washington, DC:
+
+ Smithsonian Institution Press.
+
+ Troost, Lauren (ed.). 1933. International conference of Tank Superintendants Collected papers. Wagenig
+
+ nen: Nederlands Scheepsbouwkundig Proefstation.
+
+ Vincenti, Walter. 1979. The air-propeller tests of W.F. Durand and E.P. Lesley. Technology and Culture
+
+ 20(4): 712-751.
+
+ Press.
+
+ Vincenti, Walter. 1990. What engineers know and how they know it. Baltimore: Johns Hopkins University
+
+ von Kärmän, Theodore, to Ludwig Prandtl. 1932 (9 December). Archive of the Max-Planck-Gesellschaft,
+
+ Berlin, III. Abstract Reports 61 (Prandtl papers), Number 793.
+ von Mises, Richard. 1992. Theory of flight, 2nd ed. New York: Dover.
+
+ Watson, Nigel. 2010a. Lloyd's Register, 250 years of service. London: Lloyd's Register.
+ Watson, Peter. 2010b. The German Genius. New York: Harper.
+
+ Wolverton, Mark. 2010. Winging it. Invention and Technology 25(1): 18-27.
+
+ Wright, Thomas, 1983. Ship Hydrodynamics 1710-1880. Ph.D. thesis, University of Manchester.
+ Wyn-Evans, Harold B. 1921. The standardization of data for airship calculations. Transactions of the
+
+ Institution of Naval Architects 63: 131-162.
+
+ Younger, John, et al. 1935. Structural design of metal airplanes. New York: McGraw-Hill.
+ Zahm, Albert. 1914. Report on European Aeronautical Laboratories. Washington, DC: Smithsonian Insti
+
+ tute.
+
+ Zédé, Gustave. 1886. Sur les navires sous-marins. Comptes Rendues Hebdomadaires des Séances de
+
+ l'Académie des Sciences 102: 808.
+
+ â Springe
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 10:01:26 UTC
+All use subject to https://about.jstor.org/terms
+
+

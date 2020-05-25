@@ -1,0 +1,2763 @@
+ 
+
+ 
+
+ 
+
+ 
+
+"Continuity and change": representing mass conservation in fluid mechanics
+Author(s): Alex D. D. Craik
+Source: Archive for History of Exact Sciences, Vol. 67, No. 1 (January 2013), pp. 43-80
+Published by: Springer
+Stable URL: https://www.jstor.org/stable/23319408
+Accessed: 19-05-2020 12:05 UTC
+
+JSTOR is a not-for-profit service that helps scholars, researchers, and students discover, use, and build upon a wide
+
+range of content in a trusted digital archive. We use information technology and tools to increase productivity and
+
+facilitate new forms of scholarship. For more information about JSTOR, please contact support@jstor.org.
+
+Your use of the JSTOR archive indicates your acceptance of the Terms & Conditions of Use, available at
+
+https://about.jstor.org/terms
+
+Springer is collaborating with JSTOR to digitize, preserve and extend access to Archive for
+History of Exact Sciences
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:05:26 UTC
+All use subject to https://about.jstor.org/terms
+
+ Arch. Hist. Exact Sci. (2013) 67:43-80
+ DOI 10.1007/s00407-012-0108-7
+
+ "Continuity and change": representing mass
+ conservation in fluid mechanics
+
+ Alex D. D. Craik
+
+ Received: 26 May 2012 / Published online: 10 August 2012
+ © Springer-Verlag 2012
+
+ Abstract The evolution of the equation of mass conservation in fluid mechanics
+ is studied. Following early hydraulic approximations, and progress by Daniel and
+ Johann Bernoulli, its first expression as a partial differential equation was achieved by
+
+ d'Alembert, and soon given definitive form by Euler. Later reworkings by Lagrange,
+ Laplace, Poisson and others advanced the subject, but all based their derivations on
+ the conserved mass of a moving fluid particle. Later, Duhamel and Thomson gave a
+ simpler derivation, by considering mass flow into and out of a fixed portion of space.
+
+ The later propagation of these derivations in nineteenth-century British textbooks and
+
+ treatises is also examined, including Maxwell's on the kinetic theory of gases.
+
+ 1 Introduction
+
+ The phrase "continuity and change" has become a cliche of historical talks and articles,
+
+ but is nowhere more apt than here. This paper considers the various manifestations of
+ the so-called "continuity equation" that describes conservation of mass and the con
+ tinuity of matter in fluid flows.1 Though several have considered the choice of words
+ unfortunate—e.g. Thomson and Tait (1867, p. 144), Batchelor (1967, p. 74)—they
+
+ 1 This is quite distinct from the so-called "continuity principle", an expression adopted in, for example,
+ (Mach 1919, pp. 140, 490) to denote a rather vague conceptual process of gradual adaptation that may
+ lead to new scientific insights. Mach ascribes the origin of such reasoning to Galileo. In a letter of 1739
+
+ to Leonhard Euler, Johann Bernoulli invoked an equally vague "principle of continuity" to assert that fluid
+ flows must vary gradually, rather than abruptly: see (Truesdell 1954a, XXXII-XXXIII). It is possible that
+
+ this prompted Euler's use of the same term when he derived the equation of mass conservation.
+
+ Communicated by: Jesper Liitzen.
+
+ A. D. D. Craik (El)
+
+ School of Mathematics and Statistics, University of St Andrews,
+ St Andrews KY16 9SS, Scotland, UK
+ e-mail: addc@st-and.ac.uk
+
+ Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:05:26 UTC
+All use subject to https://about.jstor.org/terms
+
+ 44
+
+ A. D. D. Craik
+
+ remain in common use. Leonhard Euler emphasized that his analysis of incompress
+ ible fluids excluded motions in which particles interpenetrate one another, and those
+
+ where a portion of fluid is expanded into a larger volume. For the latter, "the continuity
+
+ of the particles [is] violated" and so "individual droplets would separately perform the
+ motion." Likewise, in his study of compressible fluids, "both the continuity and the
+ impenetrability of the fluid impose a certain limitation ,..."2 Originally, then, "con
+ tinuity" did not imply mass conservation, but rather the connectedness of a mass of
+
+ fluid. Only if the fluid remains connected and particles cannot penetrate one another,
+
+ is it possible to express mass conservation by treating the fluid as a continuum.
+
+ Much, of varying style and scholarship, has been written on the historical devel
+
+ opment of fluid mechanics, from earliest up to quite recent times: for instance Dugas
+ (1955), Truesdell (1954a, 1955, 1968, 1984), Rouse and Ince (1963), Tokaty (1971),
+ Garbrecht (1987), Maffioli (1994), Anderson (1997), Darrigol (2002, 2005), Eckert
+ (2006), Simon Calero (2008), Darrigol and Frisch (2008), Grimberg et al. (2008).
+ The excellent contributions of Truesdell, Rouse and Ince, Darrigol, and Darrigol and
+
+ Frisch are particularly relevant, as they discuss at some length the historical develop
+ ment of the governing equations of motion: Euler''s equations for "ideal" non-viscous
+
+ flow, and the Navier-Stokes equations for viscous flow. These comprise three scalar
+ momentum equations and the continuity equation; also, for compressible fluids, an
+ equation of state that connects the fluid density to the pressure.3 Though Rouse and
+
+ Ince give a good account of early work on hydraulics, their treatment of more technical
+ mathematical developments is less full. Truesdell and Darrigol perceptively discuss
+ the development of the concepts of pressure and stress that are essential to the exten
+ sion of "Newton's laws" to fluid flows. There, the acceleration of each fluid particle
+
+ must equal the net force per unit mass exerted upon its surface by external pressure
+ or stresses, together with the net force acting on its volume due to body forces. The
+ effect of the surface forces is expressed by the gradients of pressure or stress at each
+
+ point within the fluid.
+
+ For convenience, we here state the Euler equations of inviscid flow in vector form,
+
+ the first being the momentum equation and the second the continuity equation that is
+ the subject of the present paper:
+
+ 3v V/7 dp
+ — +v-Vv = + F, — + V ■ (pv) = 0.
+ 31 p 31
+
+ body force per unit mass.
+
+ 3 Some authors reserve the name "Euler equation" or "Navier-Stokes equation" for the momentum equa
+
+ tion (in vector form), distinguishing it from the purely kinematic "continuity equation."
+
+ «£) Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:05:26 UTC
+All use subject to https://about.jstor.org/terms
+
+ Here, v denotes the velocity vector, p the pressure, p the density, and F any external
+
+ It is too often assumed by historians of science that the equations of fluid flow are
+
+ little more than a routine extension of Newton's laws of particle dynamics. However,
+
+ appreciation of the role of pressure (or, for viscous flows, stress) and of the impor
+
+ tance of the "continuity equation" for long proved elusive. In particular, the continuity
+
+ 2 Abstract of Euler (1761), as translated by W. Pauls; and introduction to Euler (1757a), as translated by
+ E. Burton and U. Frisch.
+
+ "Continuity and change" 45
+
+ equation that expresses mass conservation provides a kinematic constraint that is an
+ essential adjunct to "Newton's laws" when applied to a continuum, but which is absent
+ from the individual equations that govern discrete particles as envisaged by Newton,
+ as well as from hydrostatics.
+
+ Here, we trace the development of the expression of mass conservation in fluid
+ mechanics, from early hydraulics through the seminal works of Daniel and Johann
+ Bernoulli, Jean d'Alembert, Leonhard Euler, and Joseph-Louis Lagrange. The best
+ historical accounts to date are Truesdell (1954a), Darrigol (2005) and Darrigol and
+ Frisch (2008);4 but even they discuss only briefly some derivations of the continuity
+
+ equation, while highlighting others.5 By placing the continuity equation centre stage
+ in this paper, rather than as an adjunct to the momentum equations, we aim to give
+ a full and balanced view of its various manifestations, and their relationships to one
+
+ another. We also examine the later reception and reworkings by nineteenth-century
+ French and British writers. These include a simplified derivation espoused by William
+ Thomson and Jean Duhamel (a shift overlooked by historians, though that most famil
+
+ iar to today's fluid dynamicists), and James Clerk Maxwell's reformulation within the
+
+ kinetic theory of gases. But we begin with some modern versions that still reflect the
+
+ alternative modes of derivation used in the past.
+
+ 2 Some modern accounts
+
+ We recapitulate the accounts in three well-known mid-twentieth century textbooks:
+ Landau and Lifshitz (1959), Batchelor (1967) and Dryden et al. (1956), which of
+ course derive from earlier sources.
+
+ Landau and Lifshitz (pp. 1-2) begin by postulating a fixed volume Vq of space,
+
+ containing a mass of fluid f pdV, where p is the fluid density, v is the fluid velocity,
+ t is time, and integration is over Vq\
+
+ The mass of fluid flowing in unit time through an element df of the surface
+ bounding this volume is pv.df; the magnitude of the vector df is equal to the
+ area of the surface element, and its direction is along the [outward] normal...
+
+ The total mass of fluid (lowing out of the volume Vo in unit time is therefore
+
+ j) pv.df,
+
+ where the integration is taken over the whole of the closed surface surrounding
+
+ the volume in question.
+
+ 4 The description in Simon Calero (2008) is spoiled by many errors and misprints.
+
+ 5 For instance, Darrigol (2005) and Darrigol and Frisch (2008) describe a rather opaque and restricted
+ version in spherical polar coordinates found in Alembert (1747), that was missed by Truesdell; but their
+
+ discussion in modernized notation of later derivations by d'Alembert and Euler is less full than is given
+ here.
+
+ <£) Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:05:26 UTC
+All use subject to https://about.jstor.org/terms
+
+ Next, the decrease per unit time in the mass of fluid in the volume Vq can be
+ written
+
+ The account in Batchelor (1967, pp. 73-75) is similar, and both authors observe
+
+ where the operator D/Dt denotes the convective time derivative, representing the time
+ rate of change following fluid elements. Batchelor further notes that, following the
+ changing volume r it) of a given mass of fluid, the above results imply that
+
+ 46 A. D. D. Craik
+
+ Equating these two expressions and transforming the surface integral to a volume
+ integral "by Green's formula" yields
+
+ 3 ,
+
+ "dt I pdV
+ ■/'
+
+ /  ^ + div(pv)
+
+ ot
+
+ dV = 0.
+
+ (Here, differentiation under the integral sign is permitted because the volume Vq, and
+
+ so each element d V, is fixed in space.) "Since this equation must hold for any volume,
+
+ the integrand must vanish, i.e.
+
+ This is the equation of continuity."
+
+ ~ + div(pv) = 0. (2.1)
+ ot
+
+ that the equation can be rewritten as
+
+ Dp D 3
+
+ 1- pV • v = 0, — = 1- v.V
+
+ Dt Dt dt
+
+ where dS denotes the surface element dS of the moving boundary with the direction
+
+ of the outward normal. In the case of an incompressible fluid with constant density p,
+ one has both
+
+ dr
+ d?  = /«.dS = /
+
+ V • vdr
+
+ Dp
+ — = 0 and V.v = 0.
+ Dt
+
+ We shall see below that consideration of a moving element of fluid, rather than a fixed
+
+ portion of space through which fluid flows, was key to most early derivations of the
+
+ continuity equation. The latter viewpoint, though mathematically simpler, developed
+ much later.
+
+ The derivation in Dryden et al. (1956, pp. 33-35), in a chapter by Murnaghan, is
+
+ very different, using from the outset what is now usually referred to as the "Lagrangian
+
+ formulation".6 In this, individual fluid particles initially situated at points (a, b, c) in
+
+ rectangular Cartesian coordinates are subsequently located at later times t at
+
+ 6 Some time before Lagrange, Euler developed such a formulation: see Sect. 7 below.
+
+ *£} Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:05:26 UTC
+All use subject to https://about.jstor.org/terms
+
+ On differentiating the first of these velocity components with respect to t, using the
+
+ chain rule, the x-component of acceleration of fluid particles is found to be
+
+ x = x(a, b, c, f); y = y(a, b, c, t); z = z(a, b, c, t);
+
+ "Continuity and change" 47
+
+ and their velocities are
+
+ dx dy dz
+ — = u(x, y, z,t), ~ = v(x, y, z, t), — = w(x, y, z, t).
+ df at at
+
+ with similar expressions for the y and z components. In vector notation, these are just
+
+ d u 3 u 3 u 3 u 3 u
+ — = Km l-w \- w —,
+ df 31 dx dy dz
+
+ D\ ( 3
+ Dt \dt J
+
+ + v.V v
+
+ d(x,y,z)
+ ax = da db dc.
+ 3(a, b, c)
+
+ in which the convective time-derivative again appears.
+
+ Fluid initially occupying an infinitesimal rectangular volume element da db dc will,
+
+ at later times t, occupy an infinitesimal volume dr (not usually strictly rectangular)
+
+ given by the product of the initial volume and a Jacobian determinant:
+
+ Since the total mass of a portion of fluid remains constant, it follows that
+
+ /pdr = [ p ^ ^da dfrdc = / podadbdc
+
+ J 3(a, b, c) J
+
+ where po denotes the initial density distribution; and, since the initial volume is arbi
+
+ trary, one must have
+
+ d(x,y,z) /0 <Z2)
+
+ This expresses the conservation of mass for each portion of fluid.
+
+ To recover the continuity equation in the form given above, set dpo/dt = 0, since
+
+ po is a function of a, b,c only. This gives
+
+ dp d(x, y, z) + ^_d /d(x, y, z)\ _ Q
+ df 3(a,b,c) df \3(a,b,c)
+
+ where
+
+ d fd(x,y,z)\ d{u,y,z) d(x,v,z) d(x,y,w)
+ dt \d(a,b,c)J d(a,b,c) 3(a,b,c) d(a,b,c)
+
+ '£) Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:05:26 UTC
+All use subject to https://about.jstor.org/terms
+
+ 48 A. D. D. Craik
+
+ On substituting
+
+ 3u 3 u dx 3 u 3y 3u dz
+ 3a dx da dy da 3z da '
+
+ the first Jacobian on the right-hand side reduces to
+
+ and the others reduce similarly. It follows that
+
+ 3 (u,y,z) 3 it d(x,y,z)
+ 3 (a,b,c) dx 3 {a,b,c)'
+
+ du dv 3 w
+
+ 3x 3_v dz
+
+ )}  d(*. y,z) _ Q
+
+ d(a,b, c)
+
+ Cancelling the Jacobian yields the continuity equation, bearing in mind that d/dt
+ denotes the total (convective) time derivative. The result may be re-expressed, as
+ before, in the form
+
+ Clearly, this "Lagrangian" derivation is more technical and less physically-intuitive
+ than the former "Eulerian" one.
+
+ For future reference, we also mention a simplified version of the continuity equa
+ tion much used in engineering: that, for steady incompressible flow through a curved
+ tube (or a "stream tube" consisting of streamlines within a flow), the volumetric rate
+
+ of inflow must equal that of outflow. This is just
+
+ (2.3)
+
+ where S\, S2 denote the cross-sections of the tube at inflow and outflow, and the vector
+
+ dS denotes the element of surface area with direction along the outward normals of
+ Si and $2
+
+ In what follows, we retain original notations as far as possible, to avoid anachro
+
+ nisms. In particular, the derivations all predate vector calculus and usually employ
+ Cartesian coordinates. This poses a dilemma for historical writers: in Darrigol (2002,
+ 2005), modern vector and tensor notations are freely used for conciseness and ease
+
+ of understanding; but Truesdell (1954a, 1955) mostly avoids these, while introducing
+
+ some modernizations of the notation of analysis. It can be argued that any changes
+ of notation may lead to a distorted view of the original and sometimes conceal real
+ difficulties that would have been "obvious" with better notation. For instance, d' Alem
+
+ bert typically used poor notation; and retaining this is essential for a true appreciation
+
+ his work, good and bad. In contrast, Euler's notation is usually limpidly clear; but
+ streamlining it, as done in Truesdell (1954a) by using later Jacobian notation, can
+
+ Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:05:26 UTC
+All use subject to https://about.jstor.org/terms
+
+ impart a greater impression of generality than is warranted by the original.7 Similarly,
+ Lagrange's sometimes cavalier proliferation and manipulation of differential symbols
+ would be concealed by attempts at modernization. Even partial and ordinary differen
+ tiation were not distinguished by the now standard use of d/dx and A/Ax until quite
+
+ "Continuity and change" 49
+
+ late in the nineteenth century.
+
+ 3 Hydraulic beginnings
+
+ Archimedes (c.287-212 BCE) is rightly credited with the first theoretical advances in
+
+ hydrostatics in his treatise On Floating Bodies. But sound progress in understanding
+ fluid motion—as distinct from incorrect philosophical speculations—developed only
+
+ much later. Ingenious experiments involving hydraulics and pneumatics are described
+ in the Pneumatics of Heron of Alexandria (fl. c.150 BCE). Also, Heron's discussion
+
+ of the flow from a spring in his Dioptra contains, according to Rouse and Ince (1963,
+ p. 21): "the earliest known expression of the relationship between cross-sectional
+ area, velocity, volume, and time." In contrast, later Roman engineers, most notably
+
+ Vitruvius and Frontinus, despite their excellence in constructing water-supply systems
+
+ employing both pipes and open aqueducts, appear to have understood the underlying
+ principles of hydraulics less well than did Heron. The measure of the water delivered
+
+ to a consumer was then the cross-sectional area of the delivery pipe, rather than the
+
+ actual flow rate through it.8 Not until the Renaissance in Europe did clear improve
+
+ ments occur. Probably the earliest surviving accounts of "continuity" of flow in rivers
+
+ (and, of course, in other open channels) are those in the manuscripts of Leonardo da
+ Vinci (1452-1519), for instance (Rouse and Ince 1963, p. 49):
+
+ A river in each part of its length in an equal time gives passage to an equal
+ quantity of water, whatever the width, the depth, the slope, the roughness, the
+
+ Each movement of water of equal surface width will run the swifter the smaller
+
+ tortuosity.
+
+ the depth....
+
+ (Here, the flow is taken to be steady). Though some, e.g. Macagno (1987), have claimed
+
+ that Leonardo was the original discoverer of this and other results of hydraulics, others,
+
+ notably (Truesdell 1968, pp. 1-83), considered that Leonardo was probably recording
+ results already known.
+
+ Certainly, a strong Italian tradition in hydraulics developed from around this time.
+
+ Its major proponents were Benedetto Castelli (c. 1577-c. 1644) a former pupil of Gali
+ leo, Evangelista Torricelli (1608-1647) a student of Castelli, and later Domenico
+ Guglielmini (1655-1710) and Giovanni Poleni (1683-1761), who all wrote treatises
+
+ on hydraulics.9 Castelli's expression of the law of "continuity" for rivers is essentially
+
+ that stated earlier by Leonardo, and is equivalent to (2.3):
+
+ 7 In another instance, Truesdell (1954a, p. CXXIV) claims that Lagrange was "perhaps the first author to
+ differentiate a 3 x 3 determinant": but, in fact, he differentiated an algebraic expression that was only later
+
+ expressed as a 3 x 3 determinant.
+
+ 8 See Rouse and Ince (1963, pp. 27-32) and Garbrecht (1987, pp. 23-32).
+
+ 9 See Rouse and Ince (1963), Garbrecht (1987) and Maffioli (1994).
+
+ <£) Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:05:26 UTC
+All use subject to https://about.jstor.org/terms
+
+ 50 A. D. D. Craik
+
+ Sections of the same river discharge equal quantities of water in equal times,
+ even if the sections themselves are unequal.
+
+ Given two sections of a river, the ratio of the quantity of water which passes
+
+ [in a given time] the first section to that which passes the second is in pro
+
+ portion to the ratio of the first and second sections and to that of the first and
+ second velocities. Given two unequal sections by which pass equal quantities
+
+ of water, the sections are reciprocally proportional to the velocities.10
+
+ However, these writers made further advances on the important topic of efflux of
+
+ liquid from the bottom of a tank or reservoir.
+
+ Also noteworthy are the hydraulic and pneumatic works of the Frenchmen Edme
+
+ Mariotte (1620-1684) and Blaise Pascal (1623-1662), and the Englishmen Robert
+ Boyle (1627-1691) and Isaac Newton (1642-1727). Newton's famous Principia
+ (Newton 1687) (and later editions) contains much on fluid mechanics. Incorporating
+ sometimes dubious empirical assumptions, his Book II treats many problems, includ
+
+ ing efflux from vessels, resistance of moving bodies, vortex motion, and gravitational
+ oscillations of liquid in curved pipes. Truesdell's assessment (Truesdell 1954a, XII),
+ that "Almost all of the results are original, and but few correct" is sound, if harsh: for
+
+ one must admire Newton's bold attempts at mathematical modelling in contexts that
+ still lacked sound principles.
+
+ 4 Daniel and Johann Bernoulli
+
+ The next major advances were made by Daniel Bernoulli, whose Hydrodynamica
+ (Bernoulli 1738) is justly famous; and by his father Johann Bernoulli, whose Hydrau
+ lica (Bernoulli 1742), allegedly written in 1732, was a deliberate attempt to upstage
+ his son." Though Daniel Bernoulli's Hydrodynamica still contained nothing on the
+ governing differential equations of fluid flow, he successfully solved many original
+ problems by employing the "conservation of living force" (vis viva). This is a prin
+ ciple equivalent to the conservation of mechanical energy, in which he equates the
+ "potential ascent" and "actual descent" of all the particles of his system, subject to
+ gravitational attraction: see e.g. Truesdell (1954a, XXIV).
+
+ Throughout, Daniel Bernoulli's treatment of mass conservation is achieved by what
+
+ later became known as the "hypothesis of parallel sections." This, and the principle of
+
+ vis viva, were earlier applied by Bernoulli to flow in canals (Bernoulli 1729). Equally
+ applicable to flows in pipes and in open channels, this hypothesis is identical to the
+
+ hydraulic approximation discussed above: it is supposed that, at any plane section per
+
+ pendicular to the channel, all fluid particles flow with the same velocity perpendicular
+
+ to the plane, and that this velocity is "reciprocally proportional to the magnitude of the
+
+ section".12 For flows in open channels, this approximation is restricted to steady flows,
+
+ 10 Quotation from Rouse and Ince (1963, pp. 59-60).
+
+ '1 There is an English translation of both by Carmody and Kobus (Bernoulli and Bernoulli 1968).
+
+ 12 Trans. (Truesdell 1954a, XXIV) of Bernoulli (1738, III, sect. 2).
+
+ <£) Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:05:26 UTC
+All use subject to https://about.jstor.org/terms
+
+ "Continuity and change" 51
+
+ because the fluid depth may change in time-dependent flows; but for flows in rigid
+ pipes, this law of continuity remains (approximately) valid also for time-dependent
+ flows. Bernoulli exploited this fact to solve many time-dependent problems involving
+
+ flow through, and oscillations within, open-ended tubes of variable cross-section. It
+ is essential that the tube's cross-section and curvature vary sufficiently slowly for the
+
+ hypothesis to yield an adequate approximation. Similar application to flow in slender
+ stream-tubes was employed by many later writers: c.f. equation (2.3) above.
+
+ In his Hydraulica, Johann Bernoulli re-derived many of his son's results but
+
+ obtained no new ones. Rather, the advance that he made was methodological, sup
+ planting the global "conservation of living forces" by consideration of the forces
+ acting upon, and the consequent acceleration of, infinitesimal slices of fluid perpen
+
+ dicular to the pipe or channel. Though he confused the issue by reference to a vague
+ "eddy" (Latin gurges), he was the first to postulate a differential equation as fur
+ nishing the "true and genuine method"; and it was he, not Daniel, who first gave a
+
+ time-dependent version of what is now called "Bernoulli's equation" relating pressure
+
+ and flow velocity.13 However, for mass conservation, neither father nor son improved
+
+ upon the "hypothesis of parallel sections".
+
+ Meanwhile, in Scotland, Colin Maclaurin (Maclaurin 1742, sects. 537-550)
+ attempted to reconcile the work of Daniel Bernoulli with Isaac Newton's old
+ "cataract theory" for efflux from a hole in the bottom of a cylindrical vessel.
+
+ 5 Jean le Rond d'Alembert
+
+ Like Johann Bernoulli's Hydraulica, Jean d'Alembert's first book on fluid mechanics
+
+ (Alembert 1744) duplicated many results of Bernoulli's Hydrodynamica, but contained
+
+ nothing new, other than recasting problems in a form consistent with his Traite de dy
+ namique (Alembert 1743). In both of these works, problems of motion are reduced to
+
+ equivalent statical or hydrostatical ones by invoking a fictitious "accelerative force"
+ in place of actual acceleration, a concept that was central to d'Alembert's approach to
+ dynamics. An admirable overview of d'Alembert's life and writings in their historical
+ context is Hankins (1970).
+
+ Another work, Reflexions sur la cause generate des vents (Reflections on the gen
+
+ eral cause of winds) (Alembert 1747), won the 1746 prize competition of the Berlin
+ Academy, but failed to make a lasting impression. In this, d'Alembert envisaged the
+
+ atmosphere to be a thin layer of uniform density, and he addressed its equilibrium and
+
+ motion under the influence of gravity, the attraction of Sun or Moon, and the Earth's
+
+ rotation (but without the Coriolis force): in effect, he investigated atmospheric tides.
+
+ This work is often mentioned as containing the first partial differential equations to be
+
+ derived in mathematical physics. Among these is a version of the continuity equation
+
+ in spherical polar coordinates; but this is restricted to a "shallow atmosphere", such
+
+ that any change in its almost-uniform depth on the Earth's sphere is caused by gradi
+
+ ents of the depth-averaged horizontal velocity components, and the temporal rates of
+
+ change are taken as those associated with the Earth's angular velocity.
+
+ 13 See Truesdell (1954a, XXXIII).
+
+ <£} Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:05:26 UTC
+All use subject to https://about.jstor.org/terms
+
+ A careful analysis by Darrigol and Frisch (2008, pp. 1862-1863) of d'Alembert's
+
+ opaque reasoning and cumbersome notation (which we forebear to reproduce) identi
+
+ fies his continuity equation, in modern notation, as
+
+ 52 A. D. D. Craik
+
+ (Br) dr] sin0\ fdve ve 1 dv()>\
+ V = co [ — cos (b = — .
+ \d6 30 tan 6 J \ d0 tan0 sin 0 dcf> J
+
+ Here, r] denotes the change in local depth of the atmosphere, the dot is a time-deriva
+
+ tive, 6 and 0 are angular coordinates of co-latitude and longitude measured relative to
+ an Earth-axis directed towards the orbiting luminary, co is the Earth's angular veloc
+
+ ity, and vq , Vcf, are corresponding velocity components relative to the Earth, taken as
+
+ uniform over the local depth. The right-hand side is just the negative of the divergence
+ with respect to 6 and 0. Accordingly, this equation is close to that later derived by
+ Laplace in his study of the tides (see below).
+
+ In 1749, d'Alembert submitted an entry for another prize competition of the Berlin
+ Academy. This was entitled Essai d'une nouvelle theorie de la resistance desfluides
+
+ (Essay on a new theory of the resistance of fluids), subsequently published as Alembert
+
+ (1752). The Academy rejected all entries as unworthy, and urged the authors to com
+ pare their results with experiments; but the annoyed d'Alembert instead rushed into
+
+ print. Leonhard Euler was almost certainly involved in the rejection. Truesdell sug
+ gests that the given reason was merely an excuse, as "the truth, much more difficult to
+
+ substantiate to an author, [was] that d'Alembert's reasoning was inaccurate, tortuous,
+
+ incomprehensible, and that in the illustration of his equations he had not succeeded in
+ exhibiting a single How" (Truesdell 1954a, LVIII).14 Nevertheless, despite d'Alem
+ bert's frustrating shortcomings, this work contained a crucial new advance, and it is
+ hard to believe that Euler had overlooked it.
+
+ With rather opaque arguments, and with comprehensibility further hindered by mis
+
+ prints and badly labelled diagrams, d'Alembert deduced the following pair of partial
+ differential equations (Alembert 1752, sects. 43-45):
+
+ B' =-A -- & A' = B,
+
+ z
+
+ where A, B, A', B' are defined by
+
+ dq = Adx + Bdz & dp = A'dx + B'dz
+
+ as partial derivatives of q and p, respectively. Here, the velocity components of the
+ fluid in the jc and z directions are aq, ap, where a is a fixed reference velocity, the
+
+ fluid being incompressible with uniform density. It appears only belatedly that x and
+
+ 14 Truesdell's frequent criticisms of d'Alembert are too extreme, in marked contrast to his near-adulation
+ ofEuler. A more charitable view ofd'Alembert's style is taken by Darrigol andFrisch (2008). Nevertheless,
+ the present writer shares some of Truesdell's reactions: d'Alembert's merits are apparent only after consid
+ erable immersion in his writings, whereas modern readers have unconsciously inherited much of Euler's
+ analytical style.
+
+ <£) Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:05:26 UTC
+All use subject to https://about.jstor.org/terms
+
+ "Continuity and change" 53
+
+ Z denote axial and radial cylindrical polar coordinates and that d'Alembert envis
+ ages steady flow past an axisymmetric body. The first of the two equations correctly
+ describes the equation of continuity in these coordinates. It is derived by supposing
+ that the local velocity in any infinitesimal section varies reciprocally as the cross sec
+ tion, thereby applying the old hydraulic approximation to an infinitesimal portion of
+ fluid.15 Apart from the restricted version in spherical polars (Alembert 1747) that is
+
+ mentioned above, this is the first representation of the continuity equation in differen
+
+ tial notation. The second equation (which need not be considered here) derives from
+
+ a hidden assumption and is the condition for what is now called potential flow.
+
+ D'Alembert proceeds to give an alternative proof of these results (Alembert 1752,
+ sect. 48), described below, again unnecessarily imposing conditions that require the
+
+ flow to be a potential one. Subsequently, he notes the equivalent results for plane flow
+ with Cartesian coordinates x, z (Alembert 1752, sect. 73):
+
+ B' = —A & A! — B;
+
+ that is,
+
+ 3 q dp dp dq
+ — + — = 0 & — = —
+ dx 3 z dx 3 z
+
+ in modern notation, respectively expressing continuity and zero vorticity. Turning to
+
+ "elastic fluids" in which the density <5 may vary, d'Alembert later derives the continuity
+
+ equation for steady axisymmetric compressible flow (Alembert 1752, sect. 116):
+
+ d(Sp) d(Sg) &p_ _ Q
+
+ dz dx z
+
+ In view of its similarity with Euler's later definitive derivations, we conclude this
+
+ section by briefly describing d'Alembert's alternative proof of the continuity equation
+ for steady axisymmetric flow (Alembert 1752, sect. 48). He envisages an infinitesi
+ mal portion of fluid initially occupying the volume of a rectangular parallelepiped.
+ Opposite sides having corners at N, C, D, B and N', C', />', B', respectively, denote
+
+ two rectangles normal to the axis of symmetry. After an infinitesimal time dt, the fluid
+
+ particles initially at N, C, D, B move to new locations n, c, d, b\ and those initially at
+ N', C', D', B' similarly move to c', d', h'. Each of the six new faces are still almost
+ rectangular. D'Alembert argues that the deviations from true rectangles due to obliquity
+
+ and curvature of the sides involve infinitesimals of higher order that can be neglected.
+
+ Accordingly, the new shape is also a rectangular parallelepiped at leading order.
+
+ When the axial velocity at N is aq, that at C is aq + NC ■ a{dq/dx), and similar
+
+ reasoning applies to the other points. In this way, the new locations of every corner
+
+ point after a time dt may be found to the appropriate order of approximation. As the
+
+ volumes of the original and the new parallelepipeds must be equal because the fluid
+ is incompressible, the calculated leading-order change must be zero. This yields his
+
+ previously obtained result
+
+ 15 Euler had done similarly in the earlier (Euler and Robins 1745), but he did not there go on to derive the
+ continuity equation: see next section.
+
+ •£} Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:05:26 UTC
+All use subject to https://about.jstor.org/terms
+
+ 54
+
+ A. D. D. Craik
+
+ dp da p . p
+ -f- + -i + -=0, or B = —A — —.
+ dz dx z z
+
+ D'Alembert's concept of following the motion of an initial parallelepiped of fluid is
+ both original and sound.
+
+ Despite his frequent obscurities, d'Alembert deserves much credit for achieving
+
+ these, and some other, original results, including the famous "d'Alembert paradox",
+ that a body in a non-viscous irrotational flow experiences no net drag force.16 D'Al
+
+ embert went on to write much more on fluid mechanics in several memoirs published
+ in his Opuscules (Alembert 1761-80), and, more briefly, in articles of the Dictionnaire
+ Encyclopaedique des Mcithematiques (Alembert 1789). The fluid dynamical memoirs
+ in his Opuscules total over 300 pages of turgid meanderings, containing little that was
+ new.17 There are frequent references to his own previous treatises, and some to Daniel
+
+ Bernoulli's Hydrodynamica and Johann Bernoulli's Hydraulica, but he conspicuously
+ failed to learn from the clearer writings of Euler and Lagrange, and he continued to
+
+ claim priority over both as the discoverer of the theory of fluid motion based on partial
+
+ differential equations.18
+
+ Nevertheless, there was some justice in d'Alembert's claim to priority. Though
+
+ not a clear expositor, he was a deep and original thinker, whose methods could have
+ allowed more general expression of the governing equations than he achieved. The
+ suggestion of Darrigol and Frisch (2008, p. 1865), that it "would seem appropriate
+ to use "d'Alembert's condition" when referring to the condition of incompressibility,
+
+ written as a partial differential equation" is perhaps a step too far. But they are right to
+ emphasize that d'Alembert "was following an older tradition of mathematical physics
+
+ according to which general principles, rather than general equations, were applied to
+ specific problems."19 Unfortunately for d'Alembert, but fortunately for mathematics,
+
+ this tradition was overturned by Euler.20
+
+ 16 Though (Truesdell 1954a, XL) observes that Euler anticipated this result in his comments on Robins'
+ Gunnery [Euler and Robins 1745], the governing equations were not known at that time. A fuller account
+ of the paradox is in (Alembert 1761-80, 5, mem. 34). A recent authoritative discussion is (Grimberg et al.
+ 2007).
+
+ 17 See, e.g. Truesdell (1954a, CXII-CXVIII).
+
+ 18 These memoirs in Alembert (1761-80) are at: vol. 1 (dated 1759) 4th memoir, 137-168; vol. 5 (1768)
+
+ 31st, 32nd, 33rd, 34th memoirs pp. 41-138; vol. 8 (1780) 57th memoir, pp. 52-230. In claiming priority,
+ he wrote, for example: "on peut voir ce que nous en avons dit dans les Memoires deja cite. On peut voir
+ aussi les savants recherches de MM. de la Grange & Euler sur ce sujet,... recherches fondees sur les meme
+
+ principes qui servent de fondement a la theorie nouvelle, generale & rigoureuse que j'ai donnee le premier
+ du mouvement des fluides" (One can see what we have said in the Memoirs just mentioned. One can also
+ see the scholarly researches of Messrs. de la Grange and Euler on this subject,... researches founded upon
+
+ the same principles which provide the basis for the new, general and rigorous theory that I first gave for the
+ motion of fluids.) (Alembert 1761-80, 8: 135-136).
+
+ 19 After this paper was drafted, I was told by Olivier Darrigol of the thesis by Gerard Grimberg, D'Alem
+
+ bert et les equations aux derivees partialles en hydrodynamique, (Universite Paris 7, 1998). Unfortunately,
+ I have not been able to consult this.
+
+ For more on d' Alembert's relations with other scientists, particularly his rivalry with Euler, see Hankins
+ (1970, pp. 42-65). Hankins (pp. 63-64) also remarks on d'Alembert's style of writing, observing that
+ Laplace considered that his mathematical works lacked clarity and that C.G.J. Jacobi later complained that
+ "it is impossible today to choke down a single line of d'Alembert's mathematics, while most of Euler's
+ works can be read with delight."
+
+ Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:05:26 UTC
+All use subject to https://about.jstor.org/terms
+
+ "Continuity and change" 55
+
+ 6 Leonhard Euler
+
+ An interesting prelude to Euler's definitive work on fluid mechanics is his commentary
+ on the Englishman Benjamin Robins' New Principles of Gunnery (Euler and Robins
+ 1745). Without deriving the governing differential equations, he applies methods that
+ derive from Daniel Bernoulli to calculate the force exerted on a two-dimensional solid
+
+ body in uniform motion. Thereby, he anticipated the result now commonly known as
+
+ "d'Alembert's paradox" that the net drag is zero: a recent account is Grimberg et al.
+ (2008). In doing so, Euler considered flow in a thin curved "fillet" (or filament) of
+
+ fluid bounded by adjacent streamlines, noting that the local velocity v along the curve
+
+ and the local width 8z of the fillet are such that vSz remains constant along the fillet.
+
+ This, of course, is again the well-known hydraulic approximation, but viewed in terms
+
+ of local motion along streamlines within a more complex flow.
+
+ Leonhard Euler gave several derivations of the continuity equation, the two ear
+ liest long delayed in publication. His first attempt, "Recherches sur le mouvement
+ des rivieres" (Researches on the motion of rivers) (Euler 1767a), seems to have been
+
+ composed in 1750 or 1751.21 His next, the important "Principia motus fluidorum"
+ (Principles of the motion of fluids), was written in 1752 but not published until 1761
+ (Euler 1761); while his "Principes generaux du mouvement des fluides" (General
+ principles of the motion of fluids), the second of three major linked papers on fluids
+ written during 1753-55, was published more promptly (Euler 1757a). These three
+ papers therefore appeared in reverse order of composition.
+
+ A further derivation of the continuity equation for both incompressible and com
+
+ pressible fluids is contained in the second part of Euler's four-part Latin treatise on
+ fluid mechanics (Euler 1770). This appeared during 1768-1771 in successive volumes
+ of the proceedings of the St Petersburg Academy soon after Euler's return there in
+
+ 1766.22 The part containing the derivation of the equations of motion is entitled "Sec
+
+ tio secunda de principiis motus fluidorum" (Second section on the principles of the
+ motion of fluids).
+
+ Nowhere in these papers does he mention d'Alembert's prior work. However, else
+ where, he does make a few brief remarks about d'Alembert and other contemporaries
+
+ and predecessors.23 In view of their priority dispute, a couple of these, characterized
+
+ by faint praise, are worth noting.
+
+ The sequel to his "Principes generaux ...", entitled "Continuation des recherches
+ sur la theorie du mouvement des fluids" (Euler 1757b), begins with the following
+
+ paragraph (present author's translation):
+
+ In my previous two Memoirs, having reduced all the Theory of fluids, as much
+
+ their equilibrium as their motion, to two analytical equations, the consideration
+
+ 21 The dating of this and other manuscripts are those given by Enestrom and accepted by Truesdell: see
+ e.g. Truesdell (1954a, LVIII).
+
+ 22 A German translation in 1805 by H.W. Brandes became the first separately published treatise on hydro
+
+ dynamics to describe Euler's equations of motion.
+
+ ^ Just how few is evident from the remarkably brief index of names cited in vols. XII and XIII of Euleri
+ opera omnia (ser. 2, XIII (1955), 375). There are just 16 references to 10 individuals, and some of these
+ are to the editor's footnotes.
+
+ ■£) Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:05:26 UTC
+All use subject to https://about.jstor.org/terms
+
+ of these formulae may appear to be of the greatest importance, seeing that they
+ include not only all that has already been discovered by very different, and for
+
+ the most part hardly convincing methods, both about the equilibrium and motion
+ of fluids, but also all that one can still desire in this Science. However sublime
+
+ may be the researches on fluids for which we are indebted to Messrs. Bernoulli,
+
+ Clairaut and d' Alembert, they flow so naturally from my two general formulae
+
+ that one cannot enough admire this agreement of their profound meditations with
+
+ the simplicity of the principles from which I have drawn my two equations, and
+ to which I have been led immediately by the first principles of Mechanics.24
+
+ A few years later, in a Latin paper on the resistance of fluids (Euler 1763), he
+
+ 56 A. D. D. Craik
+
+ mentions d'Alembert's Essai:
+
+ The most celebrated d' Alembert has commented on these things concerning the
+ resistance of fluids in an extraordinary [Lat. peculiari] Tract: they more than
+
+ usually demonstrate, rather than remove, the greatest difficulty in investigating
+ the true resistance.25
+
+ (a) "Recherches sur le mouvement des rivieres" (Euler 1767a)
+
+ The writing in 1750-51 of his "Recherches sur le mouvement des rivieres" (Euler
+ 1767a) predates d'Alembert's Essai by a couple of years. That d'Alembert saw this
+ work in manuscript (though he does not identify its author) is clear from a statement
+
+ at the end of the Essai (Alembert 1752, p. 189). He is at pains to point out that:
+
+ I had found the principles on which my method is based by the end of 1749 ...
+ more than a year before the memoir in question fell into my hands .... It would
+ not even be impossible that the method presented in my work was unknown to
+
+ the author of the memoir of which I speak, and did not aid him in his researches
+ on the flow of rivers." (Translation by Truesdell 1954a, LVIII retaining d'Al
+ embert's errors of "unknown" for "known" and "did not aid" for "aided" that
+
+ reverse his intended meaning).
+
+ In this paper, Euler considers steady motion in two spatial dimensions, taking x
+
+ horizontally downstream and y vertically. He gives the first expression of the equations
+
+ of motion in material coordinates. Particles initially situated at heights z above the bed
+
+ at some chosen section of the river have coordinates at later times t denoted by x and
+
+ y, where
+
+ dx = Pdt + Qdz and dy = Rdt + Sdz
+
+ Equating the cross-derivatives gives
+
+ dP __ dQ ^ dR _ dS
+ dz dt dz dt
+
+ Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:05:26 UTC
+All use subject to https://about.jstor.org/terms
+
+ -4 It is interesting that Euler refers to his "two" equations, for continuity and momentum, though the latter
+
+ are three in number along coordinate directions: a proto-vectorial viewpoint!
+
+ 25 Author's translation of Eulerii opera omnia ser.2, XII, p. 219.
+
+ "Continuity and change" 57
+
+ Choosing points O and O' initially at z and z+dz, with respective horizontal and verti
+ cal velocity components P = m, R = —natOand/5 = m+dm, R = —n—dnat O',
+ Euler envisages that, after a short time dr, O and O' respectively move to o, and o', and
+ he shows that, at leading order, the area (he says "masse') O O'oo' is equal to mdzdr.
+
+ More generally, after any time t, O is at M and O' at M', with respective coor
+
+ dinates x, y and x + Qdz, y + Sdz\ and at time t + dx, they are at m and m' with
+ respective coordinates
+
+ x + Pdr, y + Rdx and x + Pdx + Qdz, y + Rdr + Sdz,.
+
+ At leading order, the area MM'mm! is found to be PSdzdr — QRdzdx, which by
+
+ conservation of mass must equal mdzdr. Accordingly, the equation of continuity is
+
+ PS - QR = m, or — — = —— = m (6.1)
+
+ dx dy dx 3v d(x, v)
+
+ dt dz dzdt 8 (t,z)
+
+ in modern notation.26
+
+ Euler himself says that this condition expresses the "continuity of the fluid"
+ ("la continuite du fluide") (Euler 1767a, sect. 12)—an early occurrence of the word
+ "continuity" to mean mass-conservation. This result is a precursor of the equation of
+
+ continuity expressed in so-called "Lagrangian coordinates", in which a Jacobian of the
+
+ transformation of space coordinates appears: see (2.2) above.27 ButEuler's version is
+
+ here restricted to steady, incompressible, and two-dimensional flow; and time t, rather
+ than a second material coordinate, appears in the Jacobian.28 But nowhere in this
+ paper does there appear the now familiar continuity equation expressed in so-called
+ "Eulerian variables", which, as seen above, d'Alembert derived in special cases.
+
+ (b) Principia motus fluidorum (Euler 1761)
+
+ Euler's "Principia motus fluidorum" (Euler 1761) was written in 1752, the same year
+ in which d'Alembert's Essai appeared in print and about two years after Euler had
+ seen it in manuscript. Here is the first of Euler's derivations of what we now know as
+ the Euler equations of incompressible hydrodynamics. This paper is summarized and
+ commented on in Truesdell (1954a, LXII-LXXV).29 There is also a brief online sum
+
+ mary, focusing on Euler's derivation of the continuity equation, by Sandifer (2008), and
+
+ another account (unfortunately marred by many misprints) in Simon Calero (2008).
+
+ Truesdell observed that Euler's treatment is the first to clearly separate kinematics
+
+ 26 Carelessly, Euler here uses m in two senses, to denote both the initial horizontal velocity component
+
+ and the position of a point. That in (6.1) is the horizontal velocity.
+
+ 27 Euler later returned to the equations in material coordinates in Euler (1762, 1766), around the same
+ time as did Lagrange: see Sect. 7 below.
+
+ The two-dimensional incompressible equivalent of (2.2), with material coordinates a. z, is formally
+
+ obtained by setting da = mdt in (6.1).
+
+ 29 There are now two full English translations: one by Enlin Pan in the online Euler Archive E258 at http://
+
+ www.math.dartmouth.edu/~euler/, the other by Walter Pauls in Physica D 237 (2008): 1840-1854.
+
+ Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:05:26 UTC
+All use subject to https://about.jstor.org/terms
+
+ 1 1 ,
+ -dxdy( 1 + Ldt)( 1 + mdt) — -Mldxdydt ,
+
+ which must equal the area Imn. Therefore,
+
+ Ldt + mdt + Lmdt2 — Mldt2 = 0
+
+ correct to second order. Cancelling dt and ignoring remaining infinitesimals yields the
+ desired condition
+
+ 58
+
+ A. D. D. Craik
+
+ from dynamics: Euler's first section concerns the continuity equation and his second
+ the equations connecting pressure and acceleration.
+
+ Euler's derivation of the continuity equation shows similarities with d'Alembert's
+
+ Essai, but it is much clearer and more general. He begins with two-dimensional flows,
+
+ introducing the now standard notation of u, v for velocity components in the Cartesian
+
+ x- and y-directions, and their partial derivatives defined by
+
+ du = Ldx + Idy, dv = Mdx + mdy.
+
+ He considers a small triangular element of fluid with vertices initially at/, m, n, where
+ Im = dx and In = dy. Taking (u, v) as the velocity components of the point /,
+ it follows that those of m and n are, respectively, (u + Ldx, v + Mdx), and (u +
+ Idy, v + mdy).30 Accordingly, after an infinitesimal time dt, the points /, m, n are
+ moved to the points p,q,r by respective distances parallel to the coordinate direc
+ tions of (udt, vdt), {(u + Ldx)dt, (v + Mdx)dt} and {(u + ldy)dt, (v + mdy)dt}.
+ Because the initial triangle Imn is infinitesimally small, "its sides cannot receive cur
+
+ vature from the motion" over the time dt; accordingly, pqr is also a triangle. The area
+
+ of Imn is just \dxdy. but that of pqr requires calculation by considering the areas of
+ three associated trapezia. He finds the area of pqr to be
+
+ L + m = 0, or 1 =0
+
+ 3 u dv
+
+ dx dy
+
+ in modern notation.
+
+ by
+
+ Euler then proceeds to consider motion in three dimensions, in which the velocity
+
+ at an arbitrary point X with Cartesian coordinates x, y, z has velocity components
+ u,v,w. The various partial derivatives of u,v,w with respect to x, v, z are defined
+
+ du = Ldx + Idy + Xdz, dv = Mdx + mdy + [idz, dw — Ndx + ndy + vdz.
+
+ Neighbouring points n,v,o are chosen with respective coordinates (x + dx, y, z),
+ (x, y + dy, z) and (x, y, z + dz): here, Euler uses X, /x and v in two senses, but
+
+ there is no risk of confusion. These four points define a triangular pyramid with volume
+
+ 30 Euler does not use such brackets.
+
+ Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:05:26 UTC
+All use subject to https://about.jstor.org/terms
+
+ "Continuity and change" 59
+
+ 5dxdydz■ The respective velocity components of the four points are (u, v, w), (u +
+ Ldx, v + Mdx, w + Ndx), (u+ldy, v + mdy, w+ndy) and (u+Xz, v + ^dz, w +
+ vdz).
+
+ In a short time interval dt, the points X, v, o are carried with these velocities
+
+ to the points it, </>, p, a, the coordinates of which are readily found. To calculate the
+ volume of the new pyramid defined by these points, Euler first has to determine the
+ volumes of four associated prisms, at length finding that the pyramidal volume is
+
+ ^dxdydz[ 1 + (L + m + v)dt + (Lm — Ml + Lv + mv — n/j, — NX)dt2
+
+ +(Lmv — Mlv — Ln/x + MnX — NmX + Nlfu,)dt^].
+
+ Here he assumes, as before, that the sides cannot become curved. As the two pyramidal
+
+ volumes must be equal, it follows by ignoring higher-order differentials that
+
+ L + m + v = 0, or 1 1 = 0
+
+ 3 u dv 3 w
+
+ dx dy dz
+
+ in modern notation.31
+
+ It might seem that Euler has here derived the continuity equation only for steady
+
+ flows. But he goes on to observe (sect. 38) that, for unsteady flows, it is only necessary
+ to write the differentials as
+
+ du = Ldx + Idy + Adz + L dt, dv = Mdx + mdy + jxdz + M dt,
+ dw = Ndx + ndy + vdz + N dt
+
+ and "it will still always hold that L + m + v = 0."
+
+ (c) Principes generaux du mouvement des fluids (Euler 1757a)
+
+ Written a few years after the Principia motus fluidorum, but published before it, this
+
+ was the second of three classic papers written in French on the equilibrium and motion
+ of fluids.32 Here, Euler's notation and exposition have matured, and this paper can be
+
+ read with ease and pleasure by any modern fluid-dynamicist.
+
+ For the continuity equation, the main differences are that Euler here considers fluid
+
+ with variable density; and, instead of a triangular pyramid, he takes his initial element
+
+ of fluid to be a rectangular parallelepiped with sides dx, dy, dz■ Representing velocity
+
+ 31 In his summary of this paper, Truesdell expresses the above results in suggestive but anachronistic
+ Jacobian notation, and he observes that Euler's higher-order terms in dt2 and dr are not generally correct
+ (Truesdell 1954a, LXIII-LXIV, LXXI-LXXII) as they omit terms involving second spatial derivatives of
+ the velocity. In fact, such additional terms are indeed negligible compared with those retained provided
+
+ the spatial infinitesimals dx, dy, dz are taken to be an order of magnitude smaller than the displacements
+ udt, vdt, wdt: but this was surely not in Euler's mind. In any case, only the leading-order terms matter, as
+ d'Alembert had earlier realized.
+
+ 32 An English translation by T.E. Burton, adapted by U. Frisch, is in Physica D 237 (2008), 1825-1839.
+
+ <£} Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:05:26 UTC
+All use subject to https://about.jstor.org/terms
+
+ 60
+
+ A. D. D. Craik
+
+ components by u, v,w as above, he determines the velocities at each corner of the par
+ allelepiped and hence their subsequent positions after an infinitesimal time dt. Unlike
+
+ in his Principia, he retains only leading-order terms from the outset: this ensures that
+
+ the shape of the new element is "infinitely little different from a rectangular parallele
+
+ piped"—as d' Alembert had earlier realized. With this simplification, it is easily found
+ that the new volume is
+
+ dxdydz (l + d, (£) +d, +d, (£)) .
+
+ By way of further justification, he adds: "If one still had any doubt of the justness of this
+ conclusion, one would only have to read my Latin piece: Principia motus fluidorum,
+
+ where I have calculated the volume without neglecting anything" (sect. 15)—however,
+
+ this would not appear in print for another four years.
+
+ If the initial fluid density within the element is q, this changes over the interval
+
+ dt to
+
+ "+d' (§)+ "dl (s)+ "" (^)+ wi' (£) •
+
+ because the leading-order displacement of the element has components udt, vdt, wdt.
+
+ (This is just q + dt(Dq/Dt), where Dq/Dt is the "convective derivative" of q following
+ the motion.) Euler then briefly observes that, "since the density is inversely propor
+
+ tional to the volume, this quantity will be to q as dxdydz to
+
+ dxdydz{l+d'i^+d'{^+d'{ji)) ■
+
+ Consequently,
+
+ (§)+«(S)+»(I)+<S)+' (S+' o+' (S) =»■
+
+ which reduces to the previous result for incompressible flow when q is constant.
+
+ This is the continuity equation in full generality in Cartesian coordinates: c.f. (2.1).
+
+ Euler's account is masterly: his argument is succinct and his clear notation is virtually
+
+ that adopted today.
+
+ (d) Sectio secunda de principiis motus fluidorum (Euler 1770)
+
+ In his later Latin treatise, Euler derived his equations of motion afresh. Perhaps feeling
+
+ that the above brief derivation of the continuity equation was insufficiently rigorous,
+
+ *£) Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:05:26 UTC
+All use subject to https://about.jstor.org/terms
+
+ "Continuity and change" 61
+
+ he surprisingly reverts to considering a pyramidal volume as in his Principia motus
+
+ fluidorum. Though in different notation, he proceeds much as before, this time finding
+
+ that the volume of his (almost) pyramidal element after time dt is
+
+ frdydz[l+dt
+
+ fdu\\f (dv\
+
+ ( dw\\ , .
+
+ 1 +
+
+ dt I —j— J J y(l — XX — mi — vv + 2Xfiv).
+
+ Here, X, ji and v are the cosines of the angles made by the three line elements joining
+ the new vertices of his pyramid. As each angle is close to 90°, these cosines are first
+
+ order infinitesimals and the term under the square root may be replaced by unity with
+ an error of the second order. Correct to first order, the volume is therefore
+
+ \dxdydz (l +d, (£) + dt (£)+dl (if))
+
+ If the initial density of the element is q and that after time dt is </', it follows that
+
+ q'— q q'— q (du\ (dv\ / dw\
+ q'dt qdt \dx J \dy) \dz )
+
+ as before.
+
+ where
+
+ q' = tI + „d,(dJ.) + vdl('!l) + wd, (d/)+dl^i
+
+ dx J \dy J \dz J \dt
+
+ since the displacements in the x, y, z directions during the time dt are udt, vdt, wdt.
+ The final continuity equation immediately follows, as stated above.
+
+ Later in this paper, Euler gives a clear derivation of the equations of motion in
+ material coordinates, employing a method that differs from that of Lagrange (1760
+ 61). Denoting the instantaneous coordinates of fluid particles at times t by x, y, z,
+
+ and those at the initial time t = 0 by X, Y, Z, he finds the continuity equation for
+
+ compressible flow in the form33
+
+ d ■ Kq
+
+ dt
+
+ = 0,
+
+ 33 This is in Euleri opera omnia ser.2, XIII, pp. 138, 142.
+
+ Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:05:26 UTC
+All use subject to https://about.jstor.org/terms
+
+ 62 A. D. D. Craik
+
+ where q is density and34
+
+ (e) Flow in tubes
+
+ Elsewhere, Euler gave approximate forms of the continuity equation for flow in curved
+ tubes of variable circular cross section. In Euler (1757b)35 he derives
+
+ rrqv = ff4>co — f rrds ( —
+
+ d t
+
+ Here, r denotes the radius of the tube, q the density, and v the velocity of the fluid,
+
+ all varying with axial distance s along the tube; /, (p, o:> are the respective values of
+ r, q, v at some chosen location; and the integral is taken along the tube between the
+ two locations. The connection with the hydraulic approximation of Sect. 3 is clear.
+
+ In a later paper (Euler 1767b)36 he gives the corresponding differential form,
+
+ d-^riA +rr
+
+ <u y+'rU/=a
+
+ The extension to flow in non-axisymmetric tubes is obvious: one only needs to replace
+ r2 by A/n, where A is the local cross-sectional area (compare equation (2.3)). Such
+ versions of the continuity equation in "streamline coordinates" occur frequently in
+ later literature and remain commonplace in engineering textbooks.
+
+ 7 Joseph-Louis Lagrange
+
+ Lagrange's writings on the governing equations of fluid mechanics are threefold: (i)
+ the concluding sections XL-LII of a long paper devoted to applying his recently
+ developed calculus of variations (Lagrange 1760-61); (ii) his "Memoire sur la theorie
+ du mouvement des fluides" (Lagrange 1781); and (iii) the final sections X-XII of the
+ second volume of his treatise Mecanique analytique (Lagrange 1788/1853-55). The
+ last is mainly an improved recapitulation of his earlier work.
+
+ His 1781 paper begins with a fulsome tribute to d'Alembert, who "has reduced
+ to analytical equations the true laws of movement of fluids." He states that a great
+
+ number of subsequent researches have appeared in the Opuscules of d'Alembert, and
+
+ 34 Euler's K is the same as Lagrange's 9 (see Sect. 7) and both are equal to the Jacobian t'le
+ coordinate transformation, as in (2.2).
+
+ 35 At Euleri opera omnia ser. 2, XII, p. 101.
+
+ 36 At Euleri opera omnia ser. 2, XII, p. 251.
+
+ Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:05:26 UTC
+All use subject to https://about.jstor.org/terms
+
+ "Continuity and change" 63
+
+ in the journals of the Academies of Berlin and of St Petersburg, but he fails to mention
+ Euler by name anywhere in this paper. He then proceeds to derive the equations in a
+
+ manner little different from Euler's, apart from some changes of notation.
+
+ For the continuity equation, he considers an infinitesimal parallelepiped with sides
+
+ of initial length <5jc, <5y, <5z, and he calculates its position and volume after a time
+
+ dt, neglecting "infinitely small quantities of third order". He duly arrives at the new
+ volume
+
+ where p, q, r denote the three velocity components in Cartesians x, y, z~, while the
+ new density has changed from A to
+
+ As mass is conserved, the product of these expressions must equal the original mass
+
+ A<5x<5)>(5z.The continuity equation results in the form
+
+ d(Ap) ^ d(Aq) ^ d(Ar) dA
+ dx dy dz dt
+
+ and Lagrange notes the reduction for incompressible flows.
+
+ Though Lagrange later tries to find some new solutions of the governing equations—
+ with very limited success—his derivation of these equations is totally unoriginal, and
+
+ his lack of acknowledgment of Euler's prior work seems churlish.
+
+ Nevertheless, his earlier paper (Lagrange 1760-61) contains fresh insights. In his
+ section XL, he expresses the equations of motion for incompressible flow as a varia
+ tional principle; and in his section XLIV, he gives his first derivation of the equations
+ of motion in terms of the initial locations X, Y, Z of fluid particles and the elapsed time
+
+ t. In the latter, the instantaneous coordinates x, y, z of fluid particles are regarded as
+ functions of their initial locations X, Y, Z and the elapsed time t. In sections XLVIII-L
+
+ he extends the variational formulation to "elastic fluids" of variable density; and in
+ section LI he briefly considers how these equations may be recast in terms of initial
+ locations X, Y, Z and time t.
+
+ Despite being a pioneer of variational calculus, Euler showed no interest in the var
+
+ iational formulation for fluid mechanics. However, around this time, he and Lagrange
+
+ corresponded about casting the equations in terms of material coordinates X, Y, Z,
+
+ and time t. A letter of January 1760 from Euler, published by Lagrange (Euler 1762)
+
+ and cited by him in Lagrange (1760-61), further supports Euler's priority in the use of
+
+ such "Lagrangian coordinates." He had first considered these (in restricted fashion) in
+
+ 1750-51 in his "Recherches sur le mouvement des rivieres" (Euler 1767a), a paper that
+
+ had still not appeared in print. Then, in Euler (1766, 1770), he published derivations
+
+ of the equations of motion in material coordinates that differ from that of Lagrange
+
+ <£) Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:05:26 UTC
+All use subject to https://about.jstor.org/terms
+
+ 64 A. D. D. Craik
+
+ (1760-61).37 But, whoever was first, Lagrange's account was the one that became best
+ known, and led to the misnomers of "Lagrangian" and "Eulerian" coordinates.38
+
+ All that is worthwhile in Lagrange's article (Lagrange 1760-61) is described again
+
+ in his Mecanique analytique (Lagrange 1788/1853-55), with better notation and the
+ removal of much analytical meandering. Accordingly, we discuss this later version,
+
+ with references mainly to the more accessible third edition.
+
+ Lagrange's Section X of volume 2 "on the principles of hydrodynamics" (Lagrange
+
+ 1788/1853-55,2:243-249) is a brief historical survey, mentioning the contributions of
+
+ Newton, Varignon, Torricelli, Daniel and Johann Bernoulli, Maclaurin, Clairaut and,
+ especially, d'Alembert. He praises d'Alembert's Essai (Alembert 1752) as having first
+ established "the rigorous equations of the movement of fluids, whether incompress
+ ible, or compressible or elastic, equations that belong to the class of those called of
+
+ partial differences ..." Incredibly, in his first edition, Lagrange here makes no mention
+
+ of Euler. But, in later editions, the following passage was inserted:
+
+ But these equations still did not have all the generality or simplicity to which
+
+ they were susceptible. It is to Euler that one owes the first general formulae for
+
+ the movement of fluids, founded on the laws of their equilibrium, and presented
+
+ with the simple and luminous notation of partial differences.
+
+ He proceeds almost immediately (Sect. XI) to state his variational formulation for
+
+ incompressible fluids:
+
+ d x
+
+ dt2
+
+ + X <5x +
+
+ dzy
+ dt2  + Y)Sy
+
+ dlz
+
+ dt2
+
+ + Z)Sz
+
+ Dm + SX8L = 0. (7.1)
+
+ Here, S is an integral taken over all the mass of fluid, Dm an element of mass, X, Y,
+
+ Z are now the Cartesian components of the external "accelerative force" acting on the
+ element, and x, y, z the position coordinates of the element. (In Lagrange's defini
+ tion, (X, Y, Z) are the components of the force per unit mass acting on the element
+ along the negative coordinate directions. The first integral derives from the variation
+
+ of the "Lagrangian" L — T — V, where T and V are the kinetic and potential energy,
+ respectively.) The incompressibility condition is L = DxDyDz — const., expressing
+ the constancy of volume of any infinitesimal parallelepiped of fluid, and X is an
+ "undetermined quantity" (nowadays called a "Lagrange multiplier"). The quantities
+ 8x, 8y, Sz, <5L denote arbitrary small variations of x, y, z, and L. This formulation
+
+ resembles those used in previous sections of the treatise for rigid bodies (without the
+
+ incompressibility constraint) and for hydrostatics (without the acceleration terms),
+ and it is in accord with Lagrange's objective to provide a general theory for all of
+ mechanics.
+
+ 37 A work with the same title as (Euler 1766) was presented to the Berlin Academy in December 1759: see
+
+ the Euler Archive Online, E306, citing C.G.J. Jacobi, http://www.math.dartmouth.edu/~euler/ (accessed 30
+
+ May 2012). In Lagrange (1760-61), the derivation of the continuity equation in material coordinates starts
+ from his already-established equation in the usual Cartesian coordinates, whereas Euler derives it from first
+
+ principles, considering the evolution of an initial infinitesimal tetrahedron of fluid.
+
+ 38 See (Truesdell 1954a,CXXn; 1954b, 30-3 In) for a full discussion of the question of priority.
+
+ Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:05:26 UTC
+All use subject to https://about.jstor.org/terms
+
+ "Continuity and change" 65
+
+ Lagrange's incompressibility condition L = DxDyDz — constant, where
+
+ ADxDyDz is the mass Dm of a parallelepiped with constant density A, has the
+ variation
+
+ 8L = <5(DxDvDz) = DxDvDz + —- + .
+
+ /D8x D Sy D<5z\
+
+ V Dx Dy Dz J
+
+ Substituting this into SXSL and integrating by parts produces
+
+ 5A5L = —S —8x H 8y H 8z ) DxDyDz + three surface integrals,
+
+ / DA. DA. DA \
+
+ \Dx Dy Dz J
+
+ the three latter integrals being supposed to vanish at the boundary of the fluid. Sepa
+
+ rating the independent variations 8x, 8y, 8z then yields the three dynamical equations
+
+ (d2x \ DA (d2y \ DA.
+ A I 7T + X ) =0, A I —ir + Y ) =0,
+ \dt2 J Dx \dt2 J Dy
+ fd2z \ DA
+ 4U+Zh^=0
+
+ Next, Lagrange derives from these equations the corresponding equations of motion
+
+ in material form that are satisfied by x, y, z as functions of initial position a, b, c and
+ time t. (These need not be stated here.) Later (art. 10), he shows that the acceleration
+
+ components can also be written as
+
+ d2x dp dp dp dp dry dq dq dq dq
+ . 9 = — h p— h q— 1- r 9 = — 1- p— 1- q— h r ——,
+ dtz dt dx dy dz dtz dt dx dy dz
+ d2z dr dr dr dr
+ —t = 1- P I- q b r —.
+ dt2 dt dx dy dz
+
+ Thereby result Euler's three momentum equations, with velocity components p,q,r
+
+ and with the "undetermined quantity" —A identified as the pressure.
+
+ The appearance of the pressure in this way, without any consideration of its physical
+ role, and its association with the constraint of mass conservation as an undetermined
+
+ multiplier (with which it has no obvious physical connection), still seem rather mys
+
+ terious: a bit of "mathematical magic" without physical interpretation. This no doubt
+
+ pleased Lagrange, whose aim was to reduce all of mechanics to analysis, and who
+ used no diagrams, and a minimum of physical discussion, in his treatise.
+
+ Returning to the incompressibility condition, replacing 8x, <5y, 8z by dx, dy, dz, and
+
+ dividing by dt yields (art. 7)
+
+ p-ar , , D-f Q
+ Dx Dy Dz
+
+ <£) Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:05:26 UTC
+All use subject to https://about.jstor.org/terms
+
+ A. D. D. Craik
+
+ As dx/dt, dy/dt, dz/dt are just the velocity components p,q,r, this is the now familiar
+ continuity equation for incompressible fluids; but one can hardly approve Lagrange's
+ cavalier handling of <5's, d's, and D's.
+
+ Lagrange then derives from this equation the corresponding one in material coordi
+
+ nates. Suffice to say that this, together with his derivation of the momentum equations
+ in material form, is a considerable analytical achievement. After considerable manipu
+
+ lation (arts. 5-7), it turns out that the above equation is equivalent to d6/dt = 0, where
+
+ dx dy dz dx dy dz dx dy dz dx dy dz dx dy dz dx dy dz
+
+ da db dc db da dc db dc da dc db da dc da db da dc db
+
+ Further, since x = a, y — b and z = c at time t= 0, 0 — 1
+
+ In his later section XII, he derives the corresponding equations for "compressible
+ and elastic fluids" where A is the variable density. Mass conservation is expressed as
+
+ fif.(ADxDvDz) = 0, (7.2)
+
+ and logarithmic differentiation yields
+
+ Replacing dx, dy, dz by pdt, qdt, rdt, changing D into d, substituting for d A its "com
+ plete value"
+
+ and then dividing by dt, he arrives at the continuity equation (2.1),
+
+ d A D dx Defy D dz
+
+ -|- -4- - 0.
+
+ A Dx Dy Dz
+
+ dA dA dA dA \
+
+ 1 p H a H r ) dt,
+
+ dt dx dy dz J
+
+ dA d • (Ap) d • (Aq) d ■ (Ar)
+
+ + —— + + 1—- = 0.
+
+ dt dx dy dz
+
+ this is precisely equation (2.2).
+
+ 8 Transmission and modification
+
+ Book 1 of Pierre Simon Laplace's influential Mecanique celeste provided an elemen
+
+ tary treatise of mechanics, serving as introduction for his many more specialized later
+
+ 19 In modern Jacobian notation, this is = 1. It is the incompressible version of the result derived
+
+ in Euler (1770): see Sect. 6(d).
+
+ Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:05:26 UTC
+All use subject to https://about.jstor.org/terms
+
+ (Again, one is struck by Lagrange's rather informal manipulations—but he knew the
+ answer in advance.)
+
+ He also derives the continuity and momentum equations for compressible fluid in
+
+ material coordinates. The former is AO = H, in place of 0 = 1 for incompressible
+ fluid, where H(a, b, c) is the value of the density A at t = 0, and 9 is as stated above:
+
+ "Continuity and change" 67
+
+ Books that eventually filled five volumes (Laplace 1799-1825). The final chapter
+ VIII of Book I is devoted to "The motion of fluids". Rather like Lagrange, he begins
+ by expressing the relation between force and acceleration of a fluid particle in the
+ variational form
+
+ where external force components P, Q, R (per unit mass) satisfy P ■ &x + Q ■ 8y +
+
+ R -Sz = 8V and p is the density. But he has already identified p as the pressure in his
+
+ previous section on hydrostatics: it is no longer an undetermined multiplier associated
+
+ with the continuity condition.
+
+ Adopting material coordinates, he then derives the continuity equation as
+
+ pP = (p),
+
+ (equivalent to Lagrange's AO — H above) where (p) denotes the initial density of
+ the particle, p that at time t, and fi the Jacobian given by 0 above. He then obtains
+
+ the equations of motion in now-so-called "Eulerian form," in notation close to Euler's
+
+ rather than Lagrange's, with velocity components represented by u, v, w. Later, he
+ goes on to re-express these equations of motion in spherical polar coordinates, needed
+
+ for his study of water waves and tides on the Earth's surface. In the latter, he was the
+
+ first to incorporate the so-called "Coriolis force" due to the Earth's rotation.
+
+ Simeon Denis Poisson derived the hydrodynamic equations in the last Book VI of
+
+ his popular Traite de mecanique (Poisson 1811). His account and notation are almost
+ the same as Euler's and so need no description. For the continuity equation, he con
+ siders the subsequent motion of an infinitesimal parallelepiped as described above.
+ It was through the work of Lagrange, Laplace, and Poisson that British scientists
+
+ first began to study theoretical fluid mechanics and to cast aside old-fashioned New
+ tonian prejudices. Rather improbably, among the first was Thomas Young (a brilliant
+
+ physicist, but reactionary mathematician) who gave an anonymous and rather eccentric
+ reworking of Book 1 of Laplace's Mecanique celeste (Laplace and Young 1821).40 He
+ replaced large sections of Laplace's writings with his own, inserted many diagrams,
+ and in his section "Of the motions of fluids", quoted many pages from Poisson's Traite
+
+ de mecanique (Poisson 1811) that he considered clearer than Laplace and "reduced to
+ more elementary principles." Other, more faithful, translations of Laplace's Book 1
+
+ were by the Cambridge-educated John Toplis (Laplace 1814) and the Dublin-educated
+ Henry Harte (Laplace 1822). Harte also translated Poisson's Traite de Mecanique
+ (Poisson 1842). In his introduction, Toplis favourably quotes the judgment of S.F.
+ Lacroix that "the Mechanique Analytique and the Mechanique Celeste are the true
+ sources from which a complete and methodical knowledge of all the properties of
+
+ the equilibrium and of the motion of bodies either solid or fluid ... can be obtained"
+ (Laplace 1814, Preface v (footnote)). It was no coincidence that Toplis's translation
+ was contemporaneous with the activities of the Cambridge Analytical Society that
+
+ 40 See also Craik (2010).
+
+ <£) Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:05:26 UTC
+All use subject to https://about.jstor.org/terms
+
+ 68 A. D. D. Craik
+
+ promoted the continental calculus by translating Lacroix's Traite elementaire (Lacroix
+ 1816). A freer translation and condensation of much more of Laplace's Mecanique
+ celeste is Mary Somerville's The mechanism of the heavens (Somerville and Laplace
+ 1831). Her Chapter VII on the motion of fluids contains derivations of the equations
+ of motion close to those of Laplace and Poisson. A more faithful translation and copi
+
+ ous commentary of all but the final volume of the Mecanique celeste was later given
+ by the American Nathaniel Bowditch (Laplace and Bowditch 1829). In contrast with
+ the attention to Laplace, there was no English translation of Lagrange's Mecanique
+ analytique until 1997 (Lagrange 1997).
+
+ An inauspicious contribution was made by Peter Barlow in his long article 'Hydro
+
+ dynamics' for the London-based Encyclopaedia Metropolitana (Barlow 1840). After
+
+ much about hydrostatics, efflux from vessels, and practical hydraulics, he at last comes
+ to the equations of motion (pp. 275-278). Following Poisson's "Traite de Mecha
+ nique", but choosing to re-express the analysis in outdated Newtonian 'dot' notation,
+ Barlow derives the continuity equation as
+
+ d du d v dw
+ - + — + — + — = 0
+
+ t x y z
+
+ where d is density and u, v,w the components of velocity. He concludes with the
+
+ common view that these fluid equations are intractable: "unfortunately, their general
+ integration cannot be obtained by any means at present known" (p. 278).
+
+ The others following all had Cambridge affiliations. George Biddell Airy's long
+ encyclopaedia article "Tides and Waves" (Airy 1841), important in other respects
+ (see, e.g. (Craik 2004)), follows Laplace's formulation of the continuity equation, but
+ restricts attention to incompressible flows in two dimensions and to tidal motions on
+ a sphere. John Henry Pratt's derivation for three-dimensional compressible flows in
+ The mathematical principles of mechanical philosophy (Pratt 1836, pp. 574—577) also
+ follows Laplace and Poisson. The same is true of the Cambridge textbooks of William
+ Hallowes Miller (1850, 4th edn., 62-63) and Thomas Webster (1836, pp. 137-139),
+ the latter of whom cites both Poisson and "the published papers of Professor Challis"
+ in his preface. More antiquated was the collection of problems on hydrostatics and
+ hydrodynamics published by William Walton (1847), that no doubt reflected much of
+
+ the teaching and examining at Cambridge at that time. His hydrodynamical problems
+
+ all concern efflux from and oscillations in pipes, employing the method of parallel
+ sections: nowhere do the general equations of motion appear.
+
+ James Challis, Cambridge's Plumian Professor, wrote several papers on fluid mec
+
+ hanics, all of them misguided. In Challis (1851, p. 32), he follows Lagrange in deriving
+
+ the continuity equation by setting to zero the variation of the total mass S(pDxD;yDz)
+ where S denotes integration, see (7.2) above. But Challis was convinced that the
+ established equations of motion were insufficient and that a further condition had to
+
+ be applied, namely that "the direction of motion is everywhere normal to a system of
+
+ continuous surfaces". An increasingly testy exchange took place with G.G. Stokes, by
+ then Cambridge's Lucasian Professor, who pointed out Challis's error (Stokes 1851).
+
+ "S Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:05:26 UTC
+All use subject to https://about.jstor.org/terms
+
+ "Continuity and change" 69
+
+ 9 A new derivation
+
+ It might seem that there is little more to be said about the continuity equation, but this
+
+ is not so. A major methodological puzzle remains. Why were all the above derivations
+ of the continuity equation based on a moving fluid element, relating its initial volume
+
+ to that after a time dtl As we have seen, this was first done by d'Alembert, refined and
+
+ generalized by Euler, and accepted and recapitulated by Lagrange, Laplace, and Pois
+ son. It was perhaps natural that the first derivations should have focused on a moving
+
+ particle of fluid, as this was necessary for expressing Newton's laws of momentum.
+ But the latter equations require consideration of just a single typical moment of time,
+
+ whereas the corresponding derivation of the continuity equation involves two moments
+
+ of time, with calculation of the new position of an element of fluid after an infinitesimal
+
+ time dt, in order to find its new volume. But this is an unnecessarily complicated way
+
+ of arriving at the result: it follows more naturally from considering a fixed portion of
+ space through which the fluid flows. The latter method involves just a single typical
+ moment of time, like the momentum equations, and is the true "Eulerian" derivation,
+
+ though unknown to Euler. This improvement was adopted by the next generation of
+
+ scientists in Britain. In the remainder of this section, we outline their reception of the
+
+ tradition and their reworking of it.
+
+ When the recently graduated William Thomson (later to become Baron Kelvin)
+ took over the editor's duties of the Cambridge Mathematical Journal, he enlarged its
+
+ scope and changed its name to the Cambridge and Dublin Mathematical Journal. For
+ it, he and his friend George Gabriel Stokes together wrote six "Notes on hydrodynam
+
+ ics" with the aim of countering the lack of suitable textbooks. The first note was "On
+ the equation of continuity" (Thomson 1847). Here, at last, is the simple derivation
+ based on fluid entering and leaving a fixed volume of space. He begins:
+
+ The following proof of the Equation of Continuity is simpler than that which is
+
+ generally given in treatises on Hydrodynamics .... Thus, instead of considering a
+ portion of the moving fluid and the varying space which the particles composing
+ it occupy at successive instants, as in the ordinary proof, we imagine a space S
+ fixed in the interior of the fluid, and we consider the fluid which flows into this
+
+ space, across part of the bounding surface, and that which flows out of it, across
+
+ the remainder in a given interval of time.
+
+ Considering a small parallelepiped with edges a, p, y parallel to the Cartesian coor
+
+ dinate axes, the quantity of fluid lost in time dt is
+
+ where p is density. Also, "the excess of the quantity of fluid which leaves the
+ parallelepiped across one of the faces f$y above that which enters it across the
+ other" is
+
+ dp
+
+ dt
+
+ dt • apy
+
+ dx
+
+ <£) Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:05:26 UTC
+All use subject to https://about.jstor.org/terms
+
+ 70 A. D. D. Craik
+
+ Adding to this the corresponding quantities associated with the other two pairs of
+ sides, it readily follows that
+
+ where u, v, w are the components of velocity. He then goes on to apply the result to
+
+ an arbitrary finite space S, involving integrals over its volume.
+
+ Thomson does not claim his demonstration as original, remarking in a footnote
+
+ that: "The proof in the text has been frequently given in lectures in Cambridge, and
+ elsewhere, and it is likely to occur to anyone reading Fourier's Theory of Heat; but I
+
+ am not aware that it has been hitherto published in any work except Duhamel's Cours
+ de Mecanique (Deuxieme Partie: Paris 1847)." Thus, he gives credit for first publica
+ tion to Duhamel (1845-46) shortly before his own note appeared; and it seems that
+
+ Duhamel at the Ecole polytechnique in Paris and others in Cambridge had previously
+
+ given this demonstration in lectures.41 But who in Cambridge would have given this in
+
+ lectures? It does not appear in any of the books mentioned above, and official lectures
+ in Cambridge were in any case then haphazard and ill-attended. Another possible
+ individual is Thomson's and Stokes' private tutor, William Hopkins; but the notes
+ on hydrostatics and hydrodynamics copied by Stokes and Thomson from Hopkins'
+ booklets contain nothing on Euler's equations (Stokes 1838^10; Thomson 1842-44).
+ What of Thomson's claim that "it is likely to occur to anyone reading Fourier's
+
+ Theory of Heat" (Fourier 1822)? Fourier derived the heat conduction equation as fol
+
+ lows, here given in the later English translation by Alexander Freeman (Fourier 1878,
+
+ pp. 101-102). Considering a "prismatic molecule enclosed between six planes at right
+ angles" having opposite corners at x, y, z and x + dx, y + dy, z + dz:
+
+ The quantity of heat which during the instant dt passes into the molecule across
+
+ the first rectangle dydz perpendicular to x, is
+
+ — Kdydz—dt,
+
+ dx
+
+ and that which escapes in the same time from the molecule, through the opposite
+ face, ... is
+
+ the differential being taken with respect to x only.
+
+ Here, v denotes temperature and K the "conductability" of the material. Considering
+ the other two pairs of opposite faces gives corresponding results. The net heat gained
+
+ by the molecule is therefore
+
+ 41 Duhamel's demonstration is at pp. 263-266 of his second volume. It differs from that given above only
+ by the use of dx, dy, dz in place of a, p, y.
+
+ <£) Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:05:26 UTC
+All use subject to https://about.jstor.org/terms
+
+ "Continuity and change" 71
+
+ ( dv
+ Kdydzd —
+ \dx
+
+ dt + Kdzdxd
+
+ — I dt + Kdxdyd
+ dy J
+
+ dt
+
+ or
+
+ Kdxdydz
+
+ and this must equal (CDdxdydz)dv where D is density, C is the heat capacity, and
+
+ dv the small change in temperature of the molecule in the time dt. The heat conduction
+ equation
+
+ follows.
+
+ With Thomson's versatility and capacity for seeing analogies between different
+ areas of physics, it was no doubt evident to him that a corresponding derivation could
+
+ be made of the continuity equation of fluid mechanics. But one must doubt whether
+ it would have occurred to "anyone" reading Fourier's Theory of Heat. Though the
+ matter seems simple nowadays, it had escaped d'Alembert, Euler, Lagrange, Laplace,
+ Poisson et al.
+
+ 10 Consolidation
+
+ Later British treatises and textbooks propagated the equations of hydrodynamics to
+
+ future generations of scholars and students. We here consider only the main ones.
+
+ A full account of the continuity equation was given in Thomson and Peter Guthrie
+ Tait's Treatise on Natural Philosophy (Thomson and Tait 1867, 1: 144-149) in their
+ long preliminary section on "Kinematics". Noting that the term "equation of conti
+ nuity" is "unhappily chosen"—a sentiment echoed in (Batchelor 1967, p. 74)—, they
+
+ proceed to the formulation in terms of material coordinates x, y, z that depend on the
+ initial values a, b,c and time t. Much as was done by Lagrange, they arrive at the
+ result
+
+ dx dy dz
+ da' da' da
+
+ dx dy dz
+
+ dx dy dz
+ dc' dc' dc
+
+ p db' db' db ~Po
+
+ where p is the density at time t and po that at the initial time.42
+
+ 42 This is just equation (2.2) and Lagrange's result A8 = H.
+
+ <£) Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:05:26 UTC
+All use subject to https://about.jstor.org/terms
+
+ To find the corresponding form in terms of velocity components, they then choose
+
+ a, b, c as the coordinates at the initial time t — dt and x, y, z those at the slightly later
+ time t. Thus,
+
+ where u,v,w are the velocity components at time t. Substitution into the determinant
+ yields the value
+
+ 72 A. D. D. Craik
+
+ dx dy dz
+ x — a = —dt — udt, y — b = —dt = vdt, z — c = —dt = wdt,
+ dt ' dt dt
+
+ on ignoring all higher powers of dt. "The corresponding ratio of variation of
+ density is
+
+ f du dv dw\
+
+ 1 —( — -|- — — J dt,
+
+ \da db dc J
+
+ Dp
+
+ 1 +
+
+ if Dp denote the differential of p ... as it moves from the position (a, b. c) to (x, y, z)
+
+ The continuity equation readily follows as
+
+ 1 (dp dp dp dp\ du dv dw
+ — ( —t" u —I" v ~JT + w T~ ) h ^ ~77 ~J~~ ~
+ p \dt da db dc J da db dc
+
+ Their shortcut gives a derivation far simpler, though less general, than that in Dryden
+ et al. (1956, pp. 33-35) described in Sect. 2.
+
+ Thomson and Tait then move on to the more direct derivation, considering flow
+ into and out of an infinitesimal parallelepiped, as done in Thomson (1847). They do
+ not give the equivalent derivation involving calculation of the volume of a moving
+ particle of fluid, already implicit in their previous demonstration.
+
+ William H. Besant (Besant 1859, pp. 125-127) gives a derivation similar to that
+
+ of Duhamel (1845-46) and Thomson (1847). In his third edition (Besant 1877, pp.
+ 168-171), Besant expands this account to derive the continuity equation in mate
+ rial coordinates, much as in Thomson and Tait (1867), explicitly citing Lagrange's
+ Mecanique analytique.
+
+ Horace Lamb's treatise (Lamb 1879, pp. 5-6) first gives a rather cursory derivation
+
+ of the continuity equation by considering a moving fluid particle, initially a parallel
+ epiped, but without detailed calculation of the disturbed volume, and he uses a now
+
+ confusing notation ^ to denote the total (convective) derivative. But a few pages later
+ (p. 9) he gives a better version, observing that if "2 denote the measure, estimated per
+
+ unit volume, of any quantity connected with the properties of fluid" its rate of increase
+
+ in a fixed rectangular space dxdydz is
+
+ dQ
+
+ dt
+
+ dxdydz
+
+ Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:05:26 UTC
+All use subject to https://about.jstor.org/terms
+
+ "Continuity and change" 73
+
+ and "the total gain of Q due to the flow across the boundary" is
+
+ - — 1 | dxdydz.
+
+ fd-Qu d ■ Qv d ■ Qw \
+ \ dx dy dz J
+
+ If Q is the density, the continuity equation is recovered.
+
+ In the first edition of his full treatise Hydrodynamics (Lamb 1895, pp. 4-7), Lamb
+
+ gave a more satisfactory derivation for a moving fluid particle, citing G.G. Stokes as
+
+ the originator of the notation D/Dt to denote differentiation following the motion. He
+
+ then gives "Another, and now more usual method" fixing attention on an element of
+ space dxdydz as in Thomson (1847). Then, in pages 14-15, he gives the "Lagrangian
+ equations" of motion in material coordinates, employing the Jacobian notation in the
+
+ continuity equation.
+
+ The derivations of the continuity equation in (Bassett 1888, pp. 7-9) are compact,
+ broadly similar to those of Thomson and Tait (1867), and also including its form in
+
+ spherical polars (first given by Laplace). But, rather than considering the net mass flux
+ into or out of a parallelepiped, Basset instead invokes "a particular case of Green's
+ Theorem" (Green 1828) that
+
+ JJJ + ~^jdxdydz — jj (/f + mrj + nt;)dS
+
+ where r], £ are any functions of x, y, z, and /, m, n are the direction cosines of each
+
+ point of the surface S drawn outwards.43 Basset later gives a brief derivation of the
+ equations of motion by the Principle of Least Action (Bassett 1888, pp. 32-33). In
+
+ this, the requirement of mass conservation occurs as an integral constraint, multiplied
+
+ by an undetermined function that turns out to equal the fluid pressure. This is as first
+
+ given by Lagrange, as in (7.1) onwards, but here more carefully argued. According to
+
+ Basset it is "as Mr Larmor has shown": but no reference is given, and Joseph Larmor
+ does not give this derivation in Larmor (1884), that seemed a likely source. There
+ seems to be no account of this variational derivation in any other nineteenth-century
+ British textbook.
+
+ 11 Extension to kinetic theory of gases
+
+ All of the derivations so far discussed employ the continuum hypothesis of a fluid, as
+
+ is still normally assumed in fluid mechanics. However, it is far from obvious, a priori,
+
+ that the continuum hypothesis is valid for liquids and gases, for they are known to
+ be composed of discrete molecules. The random motions of molecules of gases are
+ considerable; and those of liquids, though less so, are detectable as Brownian motion.
+
+ An early attempt to incorporate random molecular motions into a theory of fluids is
+ Section 10 of Daniel Bernoulli's Hydrodynamica (Bernoulli 1738). There, Bernoulli
+
+ describes pressure as due to the impact of particles of air on the wall of the containing
+
+ 43 This result, usually known as the Divergence Theorem, is commonly attributed to C.F. Gauss: see Crowe
+ (1985).
+
+ <£i Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:05:26 UTC
+All use subject to https://about.jstor.org/terms
+
+ vessel. This and later developments are surveyed in Truesdell (1968, VI) and Brush
+ (1976). For present purposes, the key advance was made by James Clerk Maxwell in
+ his paper "On the Dynamical Theory of Gases" (Maxwell 1867) following an earlier
+ attempt in 1860, see also the clear account of this and subsequent work in Jeans (1940,
+ Ch. IX).
+
+ 74 A. D. D. Craik
+
+ In Maxwell's own words
+
+ Molecular theories suppose that all bodies, even when they appear to our senses
+ homogeneous, consist of a multitude of particles .... In fluids the molecules are
+ supposed to be constantly moving into new relative positions, so that the same
+
+ molecule may travel from one part of the fluid to any other part.
+ If we consider an element of volume which always moves with the velocities
+ u,v,w, we shall find that it does not always consist of the same molecules,
+ because molecules are continually passing through its boundary. We cannot
+
+ therefore treat it as a mass moving with the velocity u, v, w, as is done in hydro
+ dynamics (Maxwell 1867, pp. 49-50, 68).
+
+ Instead, each molecule has velocity components «+f, v + rj, w + 'C,; and the number
+ dN of such molecules, per unit volume, having f?, < with values lying between §i
+ and + d^\, r]\ and r]\ + dr)\, and £i and £i + d£\, is given by
+
+ dN = /(§i, ?7i, S\)d%idr]]dS],
+
+ where / is some distribution function. (Maxwell also allows for gases composed of
+ molecules of two types with respective number densities N\, Ni and distributions
+ fuh-)
+
+ For an equilibrium state under collisions, Maxwell argued that
+
+ N g2+>)2+<2
+ /(£, tj, K) = jc ,
+ a37r 2
+
+ where a is a known constant, inversely proportional to the absolute temperature of the
+
+ gas. This is now known as the Maxwellian distribution, and was later established with
+
+ greater rigour.
+
+ Maxwell then considers a plane of unit area moving perpendicular to the x-axis
+
+ with velocity u!', observing that (m + % — u')dN molecules will pass from the negative
+
+ to the positive side of the plane in unit time, for each f. Denoting by Q "any property
+
+ belonging to the molecule, such as its mass, momentum, vis viva &c. which it carries
+
+ with it across the plane", then "the quantity of Q transferred across the plane in the
+
+ positive direction in unit time is
+
+ J («-u! +%)QdN, or... (u - u')QN +JQN",
+
+ where QN = f QdN and %QN = f £ QdN. He in turn takes Q to denote (i) the
+ mass M of each molecule, (ii) the momentum M(u + f) in the x-direction of each
+
+ molecule, and (iii) the kinetic energy of each molecule.
+
+ Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:05:26 UTC
+All use subject to https://about.jstor.org/terms
+
+ "Continuity and change" 75
+
+ dQN SQ d , , _ ,
+
+ He then considers the rate of variation of Q in an element of volume with sides dx,
+
+ dy, dz (p. 71), finding that "by the ordinary investigation of the increase or diminution
+ of matter in an element of volume as contained in treatises on Hydrodynamics",
+
+ - — {(» - Ii')QN + - j- {(u. - w')QN + IQN).
+
+ Here, "we employ the symbol 8 to denote the variation of Q due to actions of the first
+ kind on the individual molecules [i.e. that due to their mutual action or to external
+
+ forces], and the symbol 3 to denote the actual variation of Q in an element moving with
+ the mean velocity of the system The remaining terms express the changes due to
+
+ molecules passing into and out of the element across the three pairs of parallel sides.
+ Next, "If we perform the differentiations and then make u' = u, v' — v, w' = w, ...
+ the equation becomes
+
+ dQN — /du dv dw\ d d d SQ
+
+ + QN{— + — + —) + — GQN) + — (r,QN) + — UQN) = -£
+
+ at \ax dy dz' dx dy dz ot
+
+ N.
+
+ (This last process, holding u', v'. w' fixed while differentiating u, v, w, and then set
+ ting u' — u, v' = v, w' = w, seems decidedly dubious, though it yields correct
+ results.)
+
+ On choosing suitable values for Q, both the continuity equation and the momen
+ tum equations may be derived. Setting Q — M, the constant mass of a molecule, and
+
+ writing the density MN = p, it follows that
+
+ dp (du dv dw\
+
+ the usual continuity equation (2.1) (remembering that Maxwell's 3/31 denotes the
+ convective derivative). Also, putting Q = M(u + £), the x-component of momentum
+ of a molecule, the equation yields
+
+ 3 u d d — d —
+
+ Pt- + ) + -t-ipHvi) + = XP>
+
+ at dx dy dz
+
+ where X denotes an external force per unit volume in the x-direction. (In fact, Max
+
+ well's equation includes another term, here ignored, as he considers a gas consisting
+ of two species of molecules.) Corresponding equations for the y- and z-components
+ of momentum of course follow. The terms in d/dx, d/dy and d/dz in these three
+
+ equations are interpreted as gradients of normal and tangential stresses. Fluid dyna
+
+ mists will notice their close resemblance to the gradients of the "turbulent Reynolds
+
+ stresses" first proposed by Reynolds (1895) for the equations of mean velocity in
+ turbulent flows.
+
+ <£) Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:05:26 UTC
+All use subject to https://about.jstor.org/terms
+
+ 76 A. D. D. Craik
+
+ When the distribution function is Maxwellian, these stresses reduce to a pure pres
+
+ sure and so yield the equations of inviscid hydrodynamics. Under other hypotheses,
+ these stress gradients turn out to yield terms identical to those of the Navier-Stokes
+ equations of viscous fluid mechanics. The latter had been formulated by Stokes (1845),
+
+ and earlier versions were obtained by others under more restrictive hypotheses: see
+
+ Darrigol (2002). How Maxwell, and the later workers who extended his work, achieved
+
+ this correspondence is interesting and impressive; but this need not concern us here,
+ as the continuity equation is not affected. Suffice to say that the problem is a non
+
+ equilibrium one, where the Maxwellian distribution is modified by the varying motion
+
+ of the fluid. It was no doubt reassuring that the continuity equation is unaltered from
+
+ that based on the continuum hypothesis. But the main achievement of the kinetic the
+
+ ory of gases was that, by providing a molecular explanation of the continuum concepts
+
+ of pressure and viscosity, the full equations of fluid mechanics were validated for real
+ gases. In similar manner, it provided an explanation of heat conduction and, when
+ two species of molecules are present, of diffusion of concentration: see, e.g. (Jeans
+ 1940).
+
+ 12 Conclusion
+
+ The derivation of the equation of mass conservation, the so-called continuity equation,
+ passed through several manifestations. The first hydraulic approximations led to the
+ "doctrine of parallel sections" exploited by Daniel Bernoulli and later by Lagrange
+ and Laplace in situations where the full equations remained intractable (notably for
+
+ shallow-water waves and tides). The derivations by d'Alembert, restricted to axisym
+ metric and two-dimensional steady flows (but capable of generalization), prepared the
+ way for Euler's definitive versions for unsteady flows in three (Cartesian) dimensions.
+ Later accounts by Lagrange, Laplace, and Poisson were largely based upon that of
+ Euler (usually without acknowledgment—just as Eulerhad rarely acknowledged d'Al
+ embert); but Lagrange also developed the derivation in terms of material coordinates
+ (previously addressed by Euler), and a variational expression of the full equations of
+ motion employing the Principle of Least Action.
+
+ In retrospect, it is surprising that derivations of the continuity equation were so
+ long based upon calculating the shape and volume of a fluid element at a time t +dt,
+
+ given its shape as an infinitesimal parallelepiped or tetrahedron at time t. The first
+
+ published direct derivations, considering the net flow of mass into a fixed infinitesimal
+
+ volume of space, were those of Duhamel and Thomson, the latter of whom considered
+
+ it "likely to occur to anyone reading Fourier's Theory of Heat." Later British treatises
+
+ and textbooks incorporated the new version, while also giving variants of the older
+
+ ones.
+
+ Though usually derived and used in Cartesian form, some early derivations of the
+ continuity equation were given in other coordinate systems, namely d'Alembert's
+ restricted versions in spherical polar and cylindrical polar coordinates, and Laplace's
+
+ in spherical polar coordinates for his investigation of tides on a spherical earth. With
+
+ increased proficiency in the calculus of partial derivatives, it became an easy mat
+ ter to re-express the equations of motion in other coordinate systems. Also, the later
+
+ ^ Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:05:26 UTC
+All use subject to https://about.jstor.org/terms
+
+ "Continuity and change" 77
+
+ development of quaternion, vector, and tensor notations allowed more compact for
+ mulations, as in the introductory section of this paper: see also Crowe (1985), Aris
+ (1962), and Truesdell (1954b).
+
+ Yet the full equations of hydrodynamics and, a fortiori, those of viscous fluid
+
+ dynamics long defied solution in cases of practical interest. Nearly all the exact solu
+ tions of Euler's equations obtained before 1900 were for irrotational flows, for which
+ the troublesome nonlinear terms disappear to yield Laplace's equation. Even then,
+ solutions so obtained were often unrealistic, on account of the neglect of viscous
+ effects. Indeed, the troublesome d'Alembert paradox, that a finite body moving
+ through inviscid fluid experiences no drag force, led to an understandably hostile
+ reaction from engineers: see Darrigol (2005) and Eckert (2006) for the eventual
+ reconciliation. The one big early success was the theory of water waves and tides,
+ and there were advances in the theories of vortex motion and propagation of sound.
+ Eventually, however, new mathematical methods were discovered. Conformal trans
+
+ formations yielded solutions for inviscid flows past streamlined bodies and accurately
+
+ predicted aerodynamic lift; and the development of the boundary-layer approximation
+
+ for slightly viscous flows, and the low-Reynolds-number approximation for highly
+ viscous ones, led to crucial advances. Gradually, new areas of application, ranging
+ from meteorology to the swimming of micro-organisms, were successfully explored.
+ However, relatively few studies have employed the equations of motion in material
+ coordinates: rather, particle paths have usually been reconstructed from the "Eule
+
+ rian" velocities. With the advent of high-speed computing, a further revolution has
+ occurred. Now, even the full Navier-Stokes equations hold few terrors: off-the-peg
+ computer packages are readily available, and their results are at least sometimes
+ believable.
+
+ Acknowledgments There are many references in this article to the writings of the late Clifford A. Trues
+
+ dell. Fifty years ago, as a young lecturer, I discovered his masterly editor's introduction to the fluid dynamical
+
+ works of Euler (Truesdell 1954a), a copy presented to Sir Edmund Whittaker that found its way into the
+ St Andrews University Mathematics Class Library. For the first time, I realized that it was possible to
+ present technical mathematics from a historical perspective, and this awakened my interest in the history
+ of mathematics. Though I do not now agree with all of his trenchant opinions and interpretations, I remain
+
+ in his debt. I am also grateful to Olivier Darrigol. Jeremy Gray and the referees for helpful comments on
+ an earlier draft.
+
+ References
+
+ Airy, George B. 1841. Tides and waves. In Encyclopaedia metropolitana or universal dictionary of knowl
+ edge (1817-1845), Mixed Sciences, vol. 3, 2nd ed. eds. E. Smedley, Hugh J. Rose, and Henry J. Rose
+ (1845). London: Baldwin & Cradock. Also in Trigonometry, on the figure of the Earth, tides and waves
+ (Airy's articles from the Encyclopaedia Metropolitana).
+
+ Alembert, Jean le Rond d'. 1743. Traite de dynamique .... Paris: David.
+ Alembert, Jean le Rond d'. 1744. Traite de I'equilibre etdu mouvement des fluides .... Paris: David.
+ Alembert, Jean le Rond d\ 1747. Reflexions sur la cause generate des vents. Paris: David.
+ Alembert, Jean le Rond d'. 1752. Essai d'une nouvelle theorie de la resistance des fluides. Paris: David.
+ Alembert, Jean le Rond d'. 1761-80. Opuscules mathematiques, ou memoires sur differens sujets de
+
+ geometrie, de mechanique, d'optique, d'astronomie, &c. 8 vols. Paris: David.
+
+ Alembert, Jean le Rond d", Charles Bossut, Joseph La Lande et at. 1789. Dictionnaire encyclopaedique des
+
+ mathematiques. Paris: Panckoucke.
+
+ <£) Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:05:26 UTC
+All use subject to https://about.jstor.org/terms
+
+ Anderson, John D. (Jr.). 1997. A history of aerodynamics. Cambridge: Cambridge University Press.
+ Aris, Rutherford. 1962. Vectors, tensors, and the basic equations of fluid mechanics. London: Prentice-Hall.
+ Barlow, Peter, c. 1840. Hydrodynamics. In Encyclopaedia metropolitana or universal dictionary of knowl
+
+ edge III (Mixed sciences, vol. 1), ed. E. Smedley, Hugh J. Rose, and Henry J. Rose, 161-296, 2n ed.
+ (1845). London: Baldwin & Cradock.
+
+ Bassett, Alfred B. 1888. A treatise on hydrodynamics, 2 vols. Cambridge: Deighton, Bell.
+ Batchelor, George K. 1967. An introduction to fluid dynamics. Cambridge: Cambridge University Press.
+ Bernoulli, Daniel. 1729. Theoria nova de motu aquarum per canales quoscunque fluentium. Comm. acad.
+
+ sci. Petrop. 2 (1727): 111-125.
+
+ Bernoulli, Daniel. 1738. Hydrodynamica, sive de viribus et motibus fluidorum commentarii. Strasbourg:
+
+ 78 A. D. D. Craik
+
+ Dulsecker.
+
+ Bernoulli, Johann. 1742. Hydraulica nunc primum detecta ac demonstrata directe ex fundamentis pure
+
+ mechanicis. Anno 1732. Opera omnia 4: 387-493. Lausanne and Geneva: Bousquet.
+
+ Bernoulli, Daniel, and Johann Bernoulli. 1968. Hydrodynamics and hydraulics. English trans, by Thomas
+
+ Carmody and Helmut Kobus. New York: Dover.
+
+ Besant, William H. 1859, 1877. A treatise on hydromechanics (3rd ed. 1877). Cambridge: Deighton, Bell.
+ Brush, Stephen G. 1976. The kind of motion we call heat, 2 vols. Amsterdam: North-Holland.
+ Challis, James. 1851. On the principles of hydrodynamics. The London, Edinburgh and Dublin Philosoph
+
+ ical Magazine and Journal ofSciience 4th ser. 1: 26-38, 231-241, 477^178.
+
+ Craik, Alex D.D. 2004. The origins of water wave theory. Annual Review of Fluid Mechanics 36: 1-28.
+ Craik, Alex D.D. 2010. Thomas Young on fluid mechanics. Journal of Engineering Mathematics 67:95-113.
+ Crowe, Michael J. 1985. A history of vector analysis: The evolution of the idea of a vectorial system.
+
+ New York: Dover.
+
+ Darrigol, Olivier. 2002. Between hydrodynamics and elasticity theory: the first five births of the Navier
+
+ Stokes equation. Archive for History of Exact Sciences 56: 95-150.
+
+ Darrigol, Olivier. 2005. Worlds of flow: a history of hydrodynamics from the Bernoullis to Prandtl. Oxford:
+
+ Darrigol, Olivier, and Uriel Frisch. 2008. From Newton's mechanics to Euler's equations. Physica D 237:
+
+ Oxford University Press.
+
+ 1855-1869.
+
+ Dryden, Hugh L., Francis P. Murnaghan, and Harry Bateman. 1956. Hydrodynamics. New York: Dover.
+ Originally Report of Committee on Hydrodynamics, Division of Physical Sciences, National Research
+ Council, USA.
+
+ Dugas, Rene. 1955. A history of mechanics (English trans, by J.R. Maddox). Neuchatel: Griffon.
+ Duhamel, Jean Marie C. 1845-46. Cours de mecanique de I'ecole polytechnique (2 vols). Paris: Bachelier.
+ Eckert, Michael. 2006. The dawn of fluid mechanics. A discipline between science and technology.
+
+ Weinheim: Wiley-VCH.
+
+ Euler, Leonhard, and Benjamin Robins. 1745. Neue Grundsatze der Artillerie ... (Robins' New principles
+ of gunnery (1742) with extensive commentary by Euler.) English translation by Hugh Brown Mil, The
+ true principles of gunnery explained.... London: J. Nourse.
+
+ Euler, Leonhard. 1757a. Principes generaux du mouvement des fluides. Mem. acad. sci. Berlin 11 (1755):
+ 217-273. Also Euleri opera omnia ser. 2, XII (1954): 2-91. English translation by Thomes E. Burton,
+ adapted by Uriel Frisch, Physica D 237 (2008): 1825-1839.
+
+ Euler, Leonhard. 1757b. Continuation des recherches sur la theorie du mouvement des fluides. Mem. acad.
+
+ sci. Berlin 11 (1755): 316-361. Also Euleri opera omnia ser. 2, XII (1954): 92-132.
+
+ Euler, Leonhard. 1761. Principia motus fluidorum (written in 1752). Novi comm. acad. sci. Petrop. 6
+ (1756/7): 271-311. Also Euleri opera omnia ser. 2, XII (1954): 133-168. English translations by Enlin
+ Pan, Euler online archive E258. http://www.math.dartmouth.edu/~euler/. Accessed 24 Jan 2012; and by
+ Walter Pauls, Physica D 237 (2008): 1840-1854.
+
+ Euler, Leonhard. 1762. Lettre de M. Euler a M. de la Grange, Recherches sur la propagation des ebran
+ lemens dans un milieu elastique (dated January 1760). Misc. Taur. 2^ (1760-1761): 1-10. Also Euleri
+ opera omnia ser. 2, X: 255-263.
+
+ Euler, Leonhard. 1763. Dilucidationes de resistentia fluidorum. Novi comm. acad. sci. Petrop. 8 (1760/1):
+
+ 197-229. Also Euleri opera omnia ser. 2, XII (1954): 215-243.
+
+ Euler, Leonhard. 1766. Supplement aux recherches sur la propagation du son. Mem. acad. sci. Berlin 15:
+
+ 210-240. Also Euleri opera omnia, ser. 3,1: 452 - 483.
+
+ Euler, Leonhard. 1767a. Recherches sur le mouvement des rivieres (written c. 1750-51). Mem. acad. sci.
+
+ Berlin 16 (1760): 101-118. Also Euleri opera omnia ser. 2, XII (1954): 272-288.
+
+ Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:05:26 UTC
+All use subject to https://about.jstor.org/terms
+
+ "Continuity and change" 79
+
+ Euler, Leonhard. 1767b. De motu fluidorum a diverso caloris gradu oriundo. Novi comm. cicad. sci. Petrop.
+
+ 11 (1765): 232-267. Also Euleri opera omnia ser. 2, XII (1954): 244-271.
+
+ Euler, Leonhard. 1770. Sectio secunda de principiis motus fluidorum. Novi comm. acad. sci. Petrop.
+
+ 14 (1769): 270-386. Also Euleri opera omnia ser. 2, XIII (1955): 73-153.
+
+ Fourier, Joseph. 1822. Theorie analytique de la chaieur. Paris: Firmin Didot.
+ Fourier, Joseph. 1878. The analytical theory of heat. English translation of [Fourier 1822] by Alexander
+
+ Freeman. Cambridge: Cambridge University Press.
+
+ Garbrecht, Giinter (ed.). 1987. Hydraulics and hydraulic research: a historical review. Rotterdam:
+
+ Green, George. 1828. Essay on the application of mathematical analysis to the theories of electricity and
+
+ magnetism. Nottingham: privately printed.
+
+ Grimberg, Gerard, Walter Pauls, and Uriel Frisch. 2008. Genesis of d'Alembert's paradox and analytical
+
+ elaboration of the drag problem. Physica D 237: 1878-1886.
+
+ Hankins, Thomas L. 1970. Jean d'Alembert: science and the enlightenment. Oxford: Oxford University
+
+ Jeans, James H. 1940. An introduction to the kinetic theory of gases. Cambridge: Cambridge University
+
+ Balkema.
+
+ Press.
+
+ Press.
+
+ Lacroix, Silvestre F. 1816. -4/j elementary treatise of the differential and integral calculus. Trans, by Charles
+
+ Babbage, John Herschel, and George Peacock. Cambridge: Deighton.
+
+ Lagrange, Joseph-Louis. 1760-61. Application de la methode exposee dans le memoire precedent a la
+ solution de differents problemes de dynamique. Misc. Taur., 2. Also in Oeuvres de Lagrange, ed. J.-A.
+ Serret, 1 (1867): 365-468. Paris: Gauthier-Villars.
+
+ Lagrange, Joseph-Louis. 1781. Memoire sur la theorie du mouvement des fluides. Nouv. mem. acad. roy.
+
+ sci. et belles-lettres de Berlin, annee 1781. Also in Oeuvres de Lagrange, ed. J.-A. Serret, 4 (1869):
+ 695-748. Paris: Gauthier-Villars.
+
+ Lagrange, Joseph-Louis. 1788/1853-55. 1st ed. Mechanique analitique 1788 Paris: Desaint. 3rd ed. Meca
+ nique analytique. 1853-55, 2 vols. ed. M.J. Bertrand. Paris: Mallet-Bachelier. Also in Oeuvres de
+ Lagrange, ed. J.-A. Serret, v. 11-12 (1888-89). Paris: Gauthier-Villars.
+
+ Lagrange, Joseph-Louis. 1997. Analytical mechanics. 1811 ed. of Mecanique analytique. Translated and
+
+ edited by A. Boissonnade and V.N. Vagliente. Boston: Kluwer.
+
+ Lamb, Horace. 1879. A treatise on the mathematical theory of the motion of fluids. Cambridge: Cambridge
+
+ University Press.
+
+ Oxford: Pergamon.
+
+ Lamb, Horace. 1895. Hydrodynamics (6th ed. 1932). Cambridge: Cambridge University Press.
+ Landau, Lev D., and Evgeny M. Lifshitz. 1959. Fluid mechanics. Trans, by J.B. Sykes and W.H. Reid.
+
+ Laplace, Pierre-Simon. 1799-1825. Traite de mecanique celeste, 5 vols. Paris: Duprat.
+ Laplace, Pierre-Simon. 1814. A treatise upon analytical mechanics; being the first book of the Meca
+ nique Celeste of M. le Comte Laplace .... Translated and elucidated by John Toplis. Nottingham:
+ J. Barnett.
+
+ Laplace, Pierre-Simon, and Thomas Young. 1821. Elementary illustrations of the Celestial Mechanics of
+
+ Laplace. Part the first, comprehending the first book. London: Murray.
+
+ Laplace, Pierre-Simon. 1822. A treatise of celestial mechanics, by P.S. Laplace ..., part the first—book the
+ first. Trans, by Henry H. Harte. Dublin: Milliken; and London: Longman, Hurst, Rees, Orme & Brown.
+
+ Laplace, Pierre-Simon and Nathaniel Bowditch. 1829-39. Celestial mechanics by the Marquis de La Place,
+
+ 4 vols. Boston. Also 1966 reprint, New York: Chelsea.
+
+ Larmor, Joseph. 1884. On the direct application of the Principle of Least Action to the dynamics of solid
+
+ and fluid systems, and analogous elastic problems. Proceedings of the London Mathematical Society 15:
+ 170-184.
+
+ Macagno, Enzo O. 1987. Leonardo da Vinci: Engineer and Scientist. In Garbrecht (1987), 33-53.
+ Mach, Ernst. 1919. The science of mechanics: a critical and historical account of its development. Trans,
+
+ by T.J. McCormack, 4th ed. Chicago and London: Open Court.
+
+ Maclaurin, Colin. 1742. A Treatise on fluxions, 2 vols. Edinburgh: Ruddiman.
+ Maffioli, Cesare S. 1994. Out of Galileo: The science of waters 1628-1718. Rotterdam: Erasmus.
+ Maxwell, James Clerk. 1867. On the dynamical theory of gases. Philosophical Transactions of the Royal
+
+ Society of London 157: 49-88. Also in The scientific papers of James Clerk Maxwell (1890), 2: 26ff.
+ Cambridge: Cambridge University Press.
+
+ Miller, William H. 1850. The elements of hydrostatics and hydrodynamics, 4th ed. Cambridge: Deighton.
+
+ <£) Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:05:26 UTC
+All use subject to https://about.jstor.org/terms
+
+ Newton, Isaac. 1687. Philosophiae naturalis principia mathematica. London: Royal Society.
+ Poisson, Simeon David. 1811. Traite de mecanique. Paris: Courcier. 2nd ed., 1833, Paris: Bachelier.
+ Poisson, Simeon David. 1842. A treatise of mechanics. Trans, by Henry H. Harte. London: Longman;
+
+ Dublin: Milliken, Hodge & Smith.
+
+ Pratt, John Henry. 1836. The mathematical principles of mechanical philosophy. Cambridge: Deighton.
+ Reynolds, Osborne. 1895. On the dynamical theory of incompressible viscous fluids and the determination
+
+ of the criterion. Philosophical Transactions of the Royal Society of London A 186: 123-164. Also in
+ Reynolds' Papers on Mechanical and Physical Subjects, 3 vols. (1900-1903), 2: 535-577. Cambridge:
+ Cambridge University Press.
+
+ Rouse, Hunter and Simon Ince. 1963. History of hydraulics. Corr. ed. New York: Dover.
+ Sandifer, Ed. 2008. "How Euler did it: PDEs of fluids". MAA Online http://www.maa.org/news/
+
+ 80 A. D. D. Craik
+
+ Simon Calero, Julian. 2008. The genesis of fluid mechanics 1640-1780. Trans, by Veronica H.A. Watson.
+
+ howeulerdidit.html. Accessed 24 Jan 2012.
+
+ Dordrecht: Springer.
+
+ Somerville, Mary, and Pierre-Simon Laplace. 1831. The mechanism of the heavens. London: Murray.
+ Stokes, George Gabriel. 1838^-0. Mss. Stokes Collection: Add Ms. 7656, PA 18-19 (Microfilm reel 73).
+
+ Cambridge University Library.
+
+ Stokes, George Gabriel. 1845. On the theories of the internal friction of fluids in motion, and of the equi
+ librium and motion of elastic solids. Transactions of the Cambridge Philosophical Society 8: 287-319.
+ Also in Stokes' Math, and physical papers (1880-1905), v. 1. Cambridge: Cambridge University Press.
+
+ Stokes, George Gabriel. 1851. On the alleged necessity of a new general equation of hydrodynamics. The
+ London, Edinburgh and Dublin Philosophical Magazine and Journal of Science 4th ser. 1: 157-160. On
+ the principles of hydrodynamics, in reply to Professor Challis ibid. 393-394.
+
+ Thomson, William. 1842-44. Mss. Kelvin Collection: Add Ms. 7342, PA 16 (Microfilm reel 23).
+
+ Cambridge University Library.
+
+ Thomson, William. 1847. Notes on hydrodynamics: I. On the equation of continuity. Cambridge and Dublin
+
+ Mathematical Journal 2: 282-286. (Cambridge Math. J. 6).
+
+ Thomson, William (Baron Kelvin), and Peter G. Tait. 1867. Treatise on natural philosophy, part 1, 2nd ed.,
+
+ 2 vols. 1886, 1890: reprinted 1912. Cambridge: Cambridge University Press.
+
+ Tokaty, Gregory A. 1971. A history and philosophy of fluid mechanics. Corr. ed. New York: Dover.
+ Truesdell, Clifford A. 1954a. Rational fluid mechanics, 1687-1765. Editor's introduction to Euleri opera
+
+ omnia, ser.2, XII. Lausanne: Orell Fiissli.
+
+ Truesdell, Clifford A. 1954b. The kinematics ofvorticity. Bloomington: Indiana University Press.
+ Truesdell, Clifford A. 1955. Editor's introduction to Euleri opera omnia, ser. 2, XIII. Lausanne: Orell Fiissli.
+
+ Truesdell, Clifford A. 1968. Essays in the history of mechanics. New York: Springer.
+ Truesdell, Clifford A. 1984. An idiot's fugitive essays on science: methods, criticism, training, circum
+
+ Walton, William. 1847. A collection of problems in illustration of the principles of theoretical hydrostatics
+
+ stances. New York: Springer.
+
+ and hydrodynamics. Cambridge: Deighton.
+
+ Webster, Thomas. 1836. The theory of the equilibrium and motion of fluids. Cambridge: Deighton.
+
+ Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:05:26 UTC
+All use subject to https://about.jstor.org/terms
+
+

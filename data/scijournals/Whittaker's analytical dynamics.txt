@@ -1,0 +1,4628 @@
+ 
+
+ 
+
+ 
+
+ 
+
+Whittaker's analytical dynamics: a biography
+Author(s): S. C. Coutinho
+Source: Archive for History of Exact Sciences, Vol. 68, No. 3 (May 2014), pp. 355-407
+Published by: Springer
+Stable URL: https://www.jstor.org/stable/24569606
+Accessed: 19-05-2020 09:59 UTC
+
+ 
+REFERENCES 
+Linked references are available on JSTOR for this article:
+https://www.jstor.org/stable/24569606?seq=1&cid=pdf-reference#references_tab_contents 
+You may need to log in to JSTOR to access the linked references.
+
+JSTOR is a not-for-profit service that helps scholars, researchers, and students discover, use, and build upon a wide
+
+range of content in a trusted digital archive. We use information technology and tools to increase productivity and
+
+facilitate new forms of scholarship. For more information about JSTOR, please contact support@jstor.org.
+
+Your use of the JSTOR archive indicates your acceptance of the Terms & Conditions of Use, available at
+
+https://about.jstor.org/terms
+
+Springer is collaborating with JSTOR to digitize, preserve and extend access to Archive for
+History of Exact Sciences
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 09:59:34 UTC
+All use subject to https://about.jstor.org/terms
+
+ Arch. Hist. Exact Sei. (2014) 68:355-407
+ DOI 10.1007/s00407-013-0133-1
+
+ Whittaker's analytical dynamics: a biography
+
+ S. C. Coutinho
+
+ Received: 12 February 2013 / Published online: 7 November 2013
+
+ © Springer-Verlag Berlin Heidelberg 2013
+
+ Abstract Originally published in 1904, Whittaker's A Treatise on the Analytical
+ Dynamics of Particles and Rigid Bodies soon became a classic of the subject and
+
+ has remained in print for most of these 108 years. In this paper, we follow the book as
+
+ it develops from a report that Whittaker wrote for the British Society for the Advance
+
+ ment of Science to its influence on Dirac's version of quantum mechanics in the 1920s
+
+ and beyond.
+
+ Contents
+
+ 1 Introduction 356
+
+ 2 The author and his book 357
+
+ 2.1 The author 357
+
+ 2.2 The report 359
+ 2.3 The book 360
+
+ S. C. Coutinho (El)
+
+ e-mail: collier@dcc.ufrj.br
+
+ <0 Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 09:59:34 UTC
+All use subject to https://about.jstor.org/terms
+
+ Communicated by: Jeremy Gray.
+
+ This paper was made possible by the Internet Archive, the Gallica site of the Bibliothèque nationale de
+
+ France, Project Euclid, the American Mathematical Society and the Jahrbuch Database of the European
+
+ Mathematical Society, where many of the books and papers we mention can be downloaded at no cost.
+
+ I would like to thank Antonio Roberto da Silva for his help with the translations from the German, Jeremy
+
+ Gray for his many suggestions and R. Abraham, H. Bursztyn, J. Koiler, Y. Kosmann-Schwarzbach,
+
+ S. Sternberg and A. Weinstein for their help in clarifying the history of the geometric approach to
+
+ mechanics. The work on this paper was partially supported by a grant from the Brazilian National
+ Research Council (CNPq).
+
+ Departamento de Ciência da Computaçâo, Instituto de Matemâtica, Universidade Federal do Rio de
+ Janeiro, P. O. Box 68530, Rio de Janeiro, RJ 21945-970, Brazil
+
+ 356 S. C. Coutinho
+
+ 3 Contents 361
+
+ 3.1 The principles of dynamics 361
+ 3.2 Hamiltonian systems and contact transformations 366
+ 3.3 Celestial mechanics 377
+
+ 4 Reception 380
+ 4.1 An American point of view: E. B. Wilson 380
+ 4.2 A British point of view: G. H. Bryan 383
+ 4.3 The "Fictitious Problem" polemic 385
+ 4.4 Other reviews 388
+
+ 5 Discussion 391
+
+ 5.1 Style 392
+ 5.2 Impact 396
+ 5.3 Conclusion 402
+
+ 1 Introduction
+
+ Mathematics as a whole changed quite dramatically during the twentieth century, with
+
+ the appearance of new areas, like topology, and the complete refashioning of already
+
+ established ones, like algebra. Another area that underwent considerable changes in
+
+ this period was classical mechanics. Once a flourishing subject, where a remarkable
+
+ cross-breeding of mathematics and physics took place, classical mechanics was con
+
+ sidered by many to have reached a dead end by the first decades of the twentieth century,
+
+ except for eventual applications to other fields. By the 1950s, some physicists consid
+
+ ered classical mechanics as useful only as "the springboard for the various branches of
+
+ modern physics" and because it afforded "the student an opportunity to master many
+
+ of the techniques necessary for quantum mechanics" (Goldstein 1950, p. ix).
+
+ At about the time that physicists were expressing such thoughts, the tide was already
+
+ turning in favour of classical mechanics. This was spearheaded by the needs of the
+
+ age of space exploration and by new advances on the theoretical side. Chief among
+ these were Kolmogorov's results concerning Poincaré's "Problème Général de la
+ Dynamique" (Poincaré 1899, vol. 1, chapter 1, §13, p. 32). Presented at the 1954
+ International Congress of Mathematicians, these results would give rise to what is
+ now called KAM theory; see Arnold (1989, Appendix 8, p. 405) or Arnold et al.
+ (1997, Chapter 5, §3, p. 182). This new phase in the history of classical mechan
+ ics was characterized by a growing use of geometrical methods, especially those of
+
+ symplectic geometry. Although the word symplectic was only coined by H. Weyl
+
+ in 1939 Weyl (1939), the subject has its roots in the work of Lagrange and Poisson
+
+ Marie (2009), with important contributions by G. Darboux and S. Lie. The present
+
+ approach, in terms of differential forms, goes back to Lie's theory of contact trans
+
+ formations (Berührungstransformation) Geiges (2001); Hawkins (1991). Given the
+
+ cradle in which it was born, it is not surprising that symplectic geometry offers the
+
+ perfect language in which to express classical mechanics.
+
+ So dramatic have been the changes that mechanics has undergone in the twentieth
+
+ century that the style and even the contents of most books on dynamics written before
+
+ the 1930s look hopelessly dated to present-day readers. But there are exceptions.
+
+ £) Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 09:59:34 UTC
+All use subject to https://about.jstor.org/terms
+
+ Whittaker's analytical dynamics 357
+
+ A remarkable one is Whittaker's Analytical Dynamics or, to give it its full title A
+
+ treatise on the analytical dynamics of particles and rigid bodies, with an introduction
+
+ to the problem of three bodies. Published originally in 1904, the book went through
+
+ four editions and remains in print to this day. Moreover, it is not being used merely
+
+ as a historical document. Of the 114 papers and books listed in MathSciNet between
+
+ 2000 and 2012 that cite Analytical Dynamics as one of their references, only three
+
+ are of a historical nature. Even a cursory look at the table of contents of Analytical
+
+ Dynamics suggests why it is still useful: although couched in an older language,
+
+ one finds there most of the topics dealt with in modern tracts, including several that
+
+ we commonly associate with the symplectic approach that became prevalent since
+ the 1960s.
+
+ The main question we try to answer in this paper is what caused this book's remark
+
+ able longevity. We begin with some biographical information on Whittaker's life, with
+
+ emphasis on those aspects of it that seem most relevant to the history of the book. This
+
+ is followed by a sketch of the chronological history of the book itself, its editions
+
+ and translations. Next, we discuss the book's content, with emphasis on the chap
+ ters that deal with Hamiltonian dynamics. There are two reasons for this choice. The
+
+ first is that they present, in incipient form, the symplectic approach that we now use;
+
+ the second is that it provided the concepts from which Dirac developed his version
+
+ of quantum mechanics in 1925. Any book that has seen so many editions and that
+
+ has been in print for so long has also been often reviewed. In §4, we analyze some
+
+ of these reviews and the way they present Analytical Dynamics in the light of the
+ changes that mechanics underwent between 1904 and the 1990s. In the final section,
+
+ we discuss the book's style and its impact, and attempt to answer the question posed
+ above.
+
+ 2 The author and his book
+
+ We begin with a short biographical note with the aim of calling attention to those
+ aspects of Whittaker's life that help to explain both the choice of contents and the
+
+ style of his Analytical Dynamics.
+
+ 2.1 The author
+
+ Edmund Taylor Whittaker was born in Southport on the 24 of October 1873. Because
+
+ of his frail health as a child, he was taught by his mother until he was eleven years
+
+ old, when he was sent to study at Manchester Grammar School. As Temple writes in
+ (1956, p. 299):
+
+ [Whittaker] was on the classical side, which meant that three-fifths of his time
+
+ was devoted to Latin and Greek: in the lower forms, where the study was purely
+
+ linguistic, he did well: but his lack of interest in poetry and drama caused a
+
+ falling-off when he was promoted to the upper school, and he was glad to escape
+ by electing to specialize in mathematics. Only after he had left school did he
+
+ <0 Springe
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 09:59:34 UTC
+All use subject to https://about.jstor.org/terms
+
+ 358 S. C. Coutinho
+
+ discover the field of Latin and Greek learning that really appealed to him—
+
+ ancient and mediaeval theology, philosophy and science.
+
+ He kept this interest in classical learning throughout his life, and it must have been
+
+ of great help in his many scholarly pursuits. The most clear expression of Whittaker
+
+ the scholar is probably his book A history of the theories of aether and electricity
+
+ Whittaker (1910) first published in 1910. However, his scholarship is also apparent in
+
+ Analytical Dynamics where, as we shall see, he displays an impressive knowledge of
+
+ classical works by Newton, Euler, Lagrange, Laplace and many others.
+
+ Whittaker entered Trinity College, Cambridge, as a scholar in 1892, where he
+
+ was a pupil of G. H. Darwin and A. R. Forsyth. For the first two years, he was
+ coached by R. R. Webb, whom he left because he disliked the way he crammed
+ his students with tripos problems. As an undergraduate, he was more interested in
+
+ applied than in pure mathematics, and in 1894, he was the winner of the Sheepshanks
+
+ exhibition in astronomy. He was bracketed second wrangler (with J. H. Grace) in
+
+ the tripos of 1895 with T. J. I'A. Bromwich as senior wrangler. In 1896, he was
+
+ elected a Fellow of Trinity, and a year later, he was first Smith prizeman on a topic
+
+ of pure mathematics. His students at Cambridge included G. H. Hardy, J. H. Jeans,
+ A. S. Eddington, G. I. Taylor, J. E. Littlewood and G. N. Watson, who would col
+ laborate with him in the second (1915) edition of Modern Analysis Watson and
+
+ Whittaker (1963). The first edition, published in 1902, had Whittaker as its sole
+ author.
+
+ In 1898, the Council of the British Association for the Advancement of Science
+
+ requested that Whittaker write a "report on the planetary theory". His Report on the
+
+ progress of the solution of the problem of three bodies was published in the proceedings
+
+ of the Association's 69th meeting Whittaker (1900) which took place in Dover in 1899.
+
+ This report, which we will analyze in Sect. 2.2, formed the basis of the second part
+
+ (Chapters XIII to XVI) of Analytical Dynamics, whose first edition appeared in 1904.
+
+ Whittaker remained in Cambridge until 1906, when he was appointed Royal
+
+ Astronomer for Ireland and Andrews Professor of Astronomy at the University of
+
+ Dublin, the same posts held by W. R. Hamilton between 1827 and his death in 1865.
+
+ Among his duties were those of giving twelve lectures "open to the public" at every
+
+ session. This "public" consisted basically of students from Trinity College, Univer
+
+ sity College and the Royal College of Science of Ireland. A history of the theories
+
+ of aether and electricity was partly based on some of these lectures. According to
+ McCrea (1957, p. 237):
+
+ For what Whittaker regarded as the comparative leisure of his conditions of
+
+ life together with the very fine library facilities of Dublin, particularly of Trinity
+
+ College, permitted him to do the enormous amount of reading required to produce
+ the book.
+
+ In 1912, Whittaker left Dublin to take up the post of Professor of Mathematics
+
+ at the University of Edinburgh, where he succeeded George Chrystal. He stayed in
+
+ Edinburgh for the rest of his life and died there in 1956.
+
+ <0 Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 09:59:34 UTC
+All use subject to https://about.jstor.org/terms
+
+ Whittaker's analytical dynamics 359
+
+ 2.2 The report
+
+ As mentioned above, the second half of Analytical Dynamics derives from a report
+ that Whittaker wrote for the British Association. In 1898, "the Council of the British
+
+ Association resolved that 'Mr. E. T. Whittaker be requested to draw up a report on the
+
+ planetary theory'" (McCrea 1957, p. 236). Whittaker's paper, delivered the next year,
+
+ was called Report on the Progress of the Solution of the Problem of Three Bodies. In
+
+ the very first paragraph, he explains that the "above title has been adopted in place of
+
+ that originally chosen, as indicating more definitely the aim of the Report". And he
+
+ goes on to explain that:
+
+ The fundamental problem of dynamical astronomy is that of determining the
+
+ motion in space of any number of particles which attract each other according to
+
+ the Newtonian law. [...] The theory has hitherto been developed chiefly with the
+
+ object of determining the motion of the moon and the planets. While, however,
+
+ the lunar and planetary theories are, both of them, attempts to solve the problem
+
+ of three bodies, yet the results of the two theories are quite different in form; this
+
+ is owing to the fact that the assumptions on which the approximations are based
+ are not the same in the two cases.
+
+ He then explains that in the case of two planets "the mass of one body preponderates,
+
+ and the other bodies circle round it," while in the lunar theory, "it is assumed that two
+
+ of the bodies circle around each other, while circling together round a preponderating
+
+ third body". This gives rise to two different solutions in terms of infinite series.
+
+ The report covers "the last thirty years, 1868-1898", a period that "opens with
+ the time when the last volume of Delaunay's 'Lunar theory' was newly pub
+ lished" and closes with the publication of "the last volume of Poincaré's 'New
+ Methods of Celestial Mechanics" (p. 122). The second volume of Delaunay's La
+ théorie du mouvement de la lune was published in 1867 and the third volume of
+ Poincaré's Les Méthodes Nouvelles de la Mécanique Céleste appeared in 1899, the
+ same year the Report was published. As Whittaker explains at the beginning of the
+
+ Report:
+
+ The work will be distributed under the following seven headings:
+
+ §L- The differential equations of the problem.
+
+ §11.- Certain particular solutions of simple character.
+
+ §111- Memoirs of 1868-1889 on general and particular solutions of the differen
+
+ tial equations, and their expressions by means of infinite series (excluding
+
+ Gyldén's theory).
+
+ §IV- Memoirs of 1868-1889 on the absence of terms of certain classes from the
+
+ infinite series which represent the solution.
+
+ §V.- Gyldén's theory of absolute orbits.
+
+ §VI.- Progress in 1890-98 of the theories of §§III. and IV.
+
+ §VII- The impossibility of certain kinds of integrals.
+
+ Since these headings give a fair description of the contents of each section, we restrict
+
+ our comments to those topics that made their way into the second part of Analytical
+
+ Dynamics. As was to be expected, Whittaker begins §1 explaining that
+
+ *£) Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 09:59:34 UTC
+All use subject to https://about.jstor.org/terms
+
+ 360 S. C. Coutinho
+
+ The motion of three mutually attracting bodies is determined by nine differential
+
+ equations, each of the second order, or, as it is generally expressed, by a system
+
+ of the eighteenth order.
+
+ He then shows that it is possible to reduce the problem to a system of the sixth order
+
+ using a number of elementary first integrals. This is followed by a precise description of
+
+ "several problems of a more special character", such as the problem of three bodies in a
+
+ plane and the restricted problem of three bodies, after which he describes various ways
+
+ in which the equations for these problems can be formulated. The very short §11 deals
+
+ with generalizations of Lagrange's work on bodies that move on a line or that occupy
+
+ the vertices of an equilateral triangle (Lagrange Points). The next section is devoted
+
+ to the "derivation, nature, and properties of the infinite series by means of which the
+
+ problem [of three bodies] can be solved" and includes a sketch of G. W. Hill's work.
+
+ Hill's paper of 1877 Hill (1886) is described by Whittaker as marking "the beginning
+
+ of a new era in Dynamical Astronomy" (p. 130). The section also includes a discussion
+
+ of the problem of small divisors (p. 134). Section IV reports on miscellaneous results
+ related to the solutions mentioned in its title, while section V discusses the method
+
+ introduced by H. Gyldén (1841-1896) to calculate the motions of planets. Whittaker
+
+ begins section VI stating that "a new impetus was given to Dynamical Astronomy
+
+ in 1890 by the publication of a memoir of Poincaré" (p. 144). Not surprisingly, this
+
+ section, which discusses the results obtained by Poincaré (1890) and further polished
+
+ in Poincaré (1899), is the longest of the whole Report. Among the topics mentioned
+
+ by Whittaker are the definition of integral invariant, the existence of periodic and
+
+ asymptotic solutions and the question of the stability of the solar system. However,
+
+ as Barrow-Green points out (Barrow-Green 1997, p. 147), he does not mention some
+ of the ideas that we now regard as most characteristic of Poincaré's work, such as the
+
+ Poincaré map, and he says very little about Poincaré's doubly asymptotic solutions, the
+
+ ones that display the behaviour that has become known as chaotic. The final section
+
+ (VII) is less than three pages long and is mostly concerned with Bruns's theorem on
+
+ the algebraic integrals of the three body problem, which we discuss in more detail in
+ Sect. 3.3.
+
+ 2.3 The book
+
+ The publication history of the book, whose full title is A treatise on the analytical
+
+ dynamics of particles and rigid bodies; with an introduction to the problem of three
+ bodies, is as follows:
+
+ First edition: Cambridge University Press, 1904, xiii + 414.
+ Later editions: second edition, 1917; third edition, 1927; fourth edition, 1937, all
+
+ of them by Cambridge University Press.
+
+ First American printing: Dover Publications, 1944.
+
+ Reprint of the fourth edition: with a foreword by Sir William McCrea, Cambridge
+
+ University Press, 1988.
+
+ German edition: Analytische Dynamik der Punkte und starren Körper. Mit e. Einf
+
+ i.d. Dreikörperproblem u. mitzahlr. Übungsauf g, Grundlehren der mathematischen
+
+ <£) Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 09:59:34 UTC
+All use subject to https://about.jstor.org/terms
+
+ Whittaker's analytical dynamics 361
+
+ Wissenschaften in Einzeldarstellungen, based on the second edition, Springer,
+ Berlin, 1924.
+
+ Russian edition: Analiticheskaya dinamika, [B] Izhevsk: Nauchno-Izdatel'skij
+
+ Tsentr "Regulyarnaya i Khaoticheskaya Dinamika" (1999).
+
+ The first edition consisted of sixteen chapters, subdivided into 188 consecutively
+
+ numbered sections. Although Whittaker added many new sections to the second and
+
+ third editions, he never altered the chapter structure. Even the chapter titles were
+
+ kept, with two exceptions. Chapter IX, which was originally called The principles of
+
+ Hamilton and Gauss, became The principles of least action and least curvature in the
+
+ second edition, and Chapter XVI had its original title Integration by trigonometric
+
+ series shortened to Integration by series in the third edition. Both changes were kept
+ in later editions.
+
+ The book can be naturally divided into two parts. Part I, which consists of the
+
+ first twelve chapters, is an exposition of the basic principles of dynamics. The second
+
+ part (Chapters XIII to XVI) draws heavily on the report Whittaker had written for
+
+ the British Association. While the first part hardly changed from the second edition
+
+ on, the second part kept growing until the third edition. The fourth and final edition
+
+ differs from the third only in the correction of some errors and the addition of a few
+ references.
+
+ 3 Contents
+
+ A list of the chapters that make up the book, with their corresponding titles, is given in
+
+ Table 1. Throughout this section, all page numbers refer to the first edition of Analytical
+
+ Dynamics unless stated otherwise.
+
+ 3.1 The principles of dynamics
+
+ The purpose of part I is to give a state-of-the-art introduction to the principles of
+
+ dynamics as they stood in the first years of the twentieth century. As we will see, this
+
+ was considered as one of the book's strong points by the reviewers of the first edition.
+
+ The first chapter deals basically with the mathematical formalism required for
+
+ describing rigid motions, namely rotations (§§1 to 12) and translations. The latter
+
+ are introduced in terms of vectors (§13). More precisely, a vector quantity is defined
+
+ to be "any one of the equal and parallel lines of space which have a given length"
+
+ and which can be added together. Whittaker then proceeds to explain that not only
+
+ displacements but also velocities and accelerations are vector quantities (§ 14). Since
+
+ Whittaker defines vectors as what we would call equivalent classes of directed line
+
+ segments under parallelism, his vectors do not all have the same origin, as vectors are
+
+ now meant to have. This causes a problem when it comes to explaining the vectorial
+
+ character of angular velocity for, as he says in § 15, "an angular velocity about one line
+
+ is not equivalent to an angular velocity of the same magnitude about a parallel line".
+
+ He concludes that angular velocity "must therefore be regarded as a vector which is
+
+ localised along a definite line". It should be noted that although he defines vectors,
+
+ Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 09:59:34 UTC
+All use subject to https://about.jstor.org/terms
+
+ 362 S. C. Coutinho
+
+ Table 1 The chapter heads of
+ Analytical Dynamics
+
+ Chapter
+
+ Title
+
+ I
+
+ II
+
+ III
+
+ IV
+
+ V
+
+ VI
+
+ VII
+
+ VIII
+
+ IX
+
+ X
+
+ XI
+
+ XII
+
+ XIII
+
+ XIV
+
+ XV
+
+ XVI
+
+ Kinematical preliminaries
+
+ The equations of motion
+
+ Principles available for the integration
+
+ The soluble problems of particle dynamics
+
+ The dynamical specification of bodies
+
+ The soluble problems of rigid dynamics
+
+ Theory of vibrations
+
+ Nonholonomic systems, dissipative systems
+
+ The principles of Hamilton and Gauss (1st edition)
+
+ The principles of least action and least curvature
+
+ (2nd edition)
+
+ Hamiltonian systems and their integral invariants
+
+ The transformation theory of dynamics
+
+ Properties of the integrals of dynamical systems
+
+ The reduction of the problem of three bodies
+
+ The theorems of Bruns and Poincare
+
+ The general theory of orbits
+
+ Integration by trigonometric series
+
+ Integration by series (3rd edition)
+
+ Whittaker never uses the concept systematically, in the way that has become standard
+ since the 1930s, so that his equations are always expressed in terms of coordinates.
+
+ We will discuss Whittaker's use of vectors in Analytical Dynamics in Sect. 5.1.
+
+ With Chapter II, it becomes clear that this is by no means an elementary introduction
+
+ to mechanics. Although the chapter begins with a rather leisurely discussion of the
+
+ meaning of such concepts as rest, motion, frame of reference (§19), mass (§20) and
+ force (§21), it soon picks up momentum so that by §26 we are introduced to the
+
+ equations of motion in Lagrangian form. Other concepts discussed in this chapter
+
+ include work (§22), rigid body (§23), holonomic and non-holonomic systems (§25),
+
+ kinetic energy (§26), conservative forces (§27) and impulsive motions (§35).
+
+ There is very little in Chapter II about the integration of the equations of motion. The
+
+ closest we get to it is Whittaker's explanation in §32 that, in the absence of singularities,
+
+ power series provide solutions that "will give any information which may be required
+
+ about the initial character of the motion". However, the topic is exhaustively studied in
+
+ Chapter III, where after stating (§37) that a problem is soluble by quadrature when it
+
+ "can be completely solved in terms of the known elementary functions or the indefinite
+
+ integrals of such functions", he explains (p. 53) that
+
+ The problems of dynamics are not in general soluble by quadratures; and in those
+
+ cases in which a solution by quadratures can be effected, there must always be
+
+ some special reason for it,—in fact, the kinetic potential of the problem must
+
+ have some special character. The object of the present chapter is to discuss
+
+ those peculiarities of the kinetic potential which are most frequently found in
+
+ <0 Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 09:59:34 UTC
+All use subject to https://about.jstor.org/terms
+
+ Whittaker's analytical dynamics 363
+
+ problems soluble by quadratures, and which in fact are the ultimate explanation
+
+ of the solubility.
+
+ Topics discussed in this chapter include systems with ignorable coordinates (§§38^10),
+
+ conservation of energy and its use in reducing the number of degrees of freedom of a
+
+ system (§§41-42) and the method of separation of variables (§43). It is only in Chapter
+
+ IV that Whittaker gives examples of equations for concrete dynamical systems, and
+
+ then he proceeds to integrate them using the methods of Chapter III—among these, the
+
+ pendulum (§44), a particle free to move in a smooth tube whose motion is constrained
+
+ in some way (§45), central forces (§§46-50 and §53) and motion on a surface (§§54
+
+ 55). Not surprisingly, this is the first chapter where he uses elliptic functions (in §§48
+
+ and 54). Note that up to this point only systems of point masses have been considered.
+
+ Chapter V prepares the ground for the study of the dynamics of rigid bodies by
+
+ introducing "a number of the constants which can be assigned to a rigid body, and
+
+ which depend on its constitution" (§57), among them the moment of inertia (§§57—
+ 61) and the angular momentum (§62). The eleven articles of Chapter VI are con
+ cerned with the solution of problems of the dynamics of rigid bodies. These range
+
+ from exercises like describing the "motion of a rod on which an insect is crawling"
+
+ (§65) to the motion of a top (§§71-74). As usual, Whittaker is not shy at introducing
+
+ special functions whenever they are required. Thus, Weierstrass's ^-function, Riem
+
+ man's Ç-function and the Jacobi elliptic functions sn and cn are all used to solve
+
+ various problems concerned with the "motion of a body about a fixed point under
+ no forces" (§69). However, some functions were too exotic even for Whittaker. In
+
+ his study of Kovalevskaya's top (he calls her Mme S. von Kowalevski) in §74, he
+
+ derives the equations but stops short of solving them with the help of hyperelliptic
+ functions.
+
+ Chapter VII is concerned with another standard theme of classical dynamics, the
+
+ theory of vibrations. Whittaker presents the approach that has become standard; see,
+
+ for example Arnold ( 1989, Ch. 5) and Landau and Lifschitz ( 1976, Ch. V). He begins
+ explaining that only small oscillations will be considered, which are those whose
+
+ "divergence from the equilibrium-configuration will never become very marked"
+
+ (§76). This hypothesis implies that both the kinetic and the potential energies of the
+ system are quadratic forms. Assuming also that no coordinates have been ignored,
+
+ Whittaker shows that these two quadratic forms can be simultaneously diagonalized
+
+ using orthogonal transformations. The examples given in §85 include "vibrations about
+
+ steady circular motion of a particle moving under gravity on a surface of revolution
+
+ whose axis is vertical" as well as a top on a perfectly rough plane and a sleeping top.
+
+ As we will see in Sect. 4.3, Whittaker's use of the expression "perfectly rough plane"
+
+ caused an interesting exchange of letters in the pages of Nature a year after the book
+
+ was published.
+
+ While the systems considered in previous chapters have been holonomic and con
+
+ servative, those discussed in Chapter VIII are either non-holonomic or dissipative.
+
+ Holonomic systems had already been defined in §25, where it is said that they are
+
+ "characterised by the fact that the number of degrees of freedom is equal to the num
+
+ ber of independent coordinates required to specify the configuration of the system". In
+
+ §§88-90, the machinery developed in the previous chapters is used to study a number
+
+ •ö Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 09:59:34 UTC
+All use subject to https://about.jstor.org/terms
+
+ 364 S. C. Coutinho
+
+ of non-holonomic systems. A system described in §90 illustrates very nicely G. H.
+
+ Bryan's comment in his review of the first edition (Bryan 1905, p. 603) that some of
+
+ the examples in Analytical Dynamics contain "the substance of minor papers that have
+
+ been published abroad":
+
+ A heavy homogeneous hemisphere is resting in equilibrium on a perfectly rough
+
+ plane with its spherical surface downwards. A second heavy homogeneous hemi
+
+ sphere is resting in the same way on the perfectly rough plane face of the first,
+
+ the point of contact being in the centre of the face. The equilibrium being slightly
+
+ disturbed, it is required to find the vibration of the system.
+
+ In a footnote (p. 218), this problem is attributed to "Madame Kerkhoven-Wythoff".
+
+ This is Geertruida Kerkhoven (neé Wythoff), a Dutch mathematician who published
+
+ six papers between 1893 and 1902, several of which on analytical mechanics; see
+
+ Creese and Creese (2004, p. 111). The study of dissipative systems begins in §91 with
+
+ the discussion of frictional forces and includes articles on resisting forces that depend
+
+ on the velocity (§§92 and 93), vibrations of dissipative systems (§94) and impact (§§95
+ to 97).
+
+ Having applied the techniques introduced in the first three chapters to the analysis
+
+ of a large number of systems, Whittaker now proceeds to develop more advanced
+
+ topics beginning, in Chapter IX, with action principles. This chapter opens with the
+
+ very short §98, whose aim is to convey a single message: it is useful to consider
+
+ «-coordinates as defining a point in «-space, because that (p. 241) "makes it natural
+
+ to use geometric terms such as 'intersection', 'adjacency', etc when speaking of the
+
+ relations of different states or types of motion of the system". Although a present
+ day reader will automatically interpret the many «-tuples of the form (q\,..., qn)
+ that have appeared in previous articles as points or vectors in an «-dimensional
+ space, Whittaker waits until he gets to the more advanced chapters to make this
+ fact explicit. Up to this point such coordinates were considered as degrees of free
+
+ dom, which is essentially the rôle they play in Lagrange's Mécanique Analytique
+
+ (Lagrange 1889, vol. 2, Seconde Partie, Section Septième, p. 2); see also Kline (1990,
+ p. 589).
+
+ The next two articles introduce the principles of least action, for conservative holo
+
+ nomic systems that are now usually named after Hamilton (§99) and Maupertius
+
+ (§101). In the book, the appellation principle of least action is reserved for the sec
+
+ ond of these principles; the other one is simply called Hamilton's principle. However,
+
+ unlike present-day accounts, such as those in Arnold ( 1989, § 13A, p. 59) or Landau and
+
+ Lifschitz (1976, §2, p. 2), these principles are not taken as starting points, from which
+
+ the whole of dynamics can be derived. Hamilton's Principle, for instance, is shown
+
+ to follow from Lagrange's equation of motion, which in §26 Whittaker had derived
+
+ directly from Newton's Second Law. More surprisingly still, Whittaker never men
+
+ tions the calculus of variations in this chapter; indeed, in the first edition the expression
+
+ occurs only in § 110 (see below). The reason is probably that Whittaker's approach is
+
+ essentially geometrical. This becomes clear in §103 where, after extending the two
+
+ principles of least action to non-conservative systems (§101) and non-holonomic sys
+
+ tems (§102), he attempts to answer the question: "are the stationary integrals [that
+
+ appear in these principles] actual minima?". His discussion is based, down to the very
+
+ £) Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 09:59:34 UTC
+All use subject to https://about.jstor.org/terms
+
+ Whittaker's analytical dynamics 365
+
+ notation he uses, on the paper of Cul verwell ( 1892), a fellow of Trinity College Dublin.
+
+ Given that the avowed aim of Curvewell's paper is the "discrimination of maxima and
+
+ minima values in the calculus of variation", one is somewhat surprised to read in his
+
+ very first paragraph that although this subject "has possessed considerable interest
+
+ for mathematicians", it is "as yet, at all events, of little if any practical utility". After
+
+ explaining that
+
+ Except for the simplest case [...] the investigation supplied have been so difficult,
+
+ and have required such an amount of analytical skill, as to deter any but the most
+
+ competent mathematicians from considering cases of any degree of complexity,
+
+ he points out that:
+
+ The simplicity of the Jacobian result seemed to indicate that there must be some
+
+ simple way of obtaining it, and, guided by the desire to ascertain the degree
+
+ of continuity required in the variation, the simple, almost geometrical, method
+
+ explained in the following pages presented itself to me.
+
+ The "Jacobian result" is the criterion described by Jacobi (1837), see also Jacobi
+
+ (1838) and Todhunter (1962, pp. 243-253), to determine whether a given curve is a
+
+ maximum of a given integral. For a system with two degrees of freedom, Culverwell's
+ version of Jacobi's result can be described as follows. Let
+
+ x"
+
+ V = J fix, y, y)djr
+
+ be "the integral which is to be made a maximum". Culverwell denotes the variation 8y
+
+ by ct<p, where a is a "small constant, the order of magnitude of which determines, gener
+
+ ally speaking, the order of magnitude of <5y, since the function </> is supposed to be finite,
+
+ at least never infinite". Next he defines the coefficients Co, U\, Us, Coo, (A) I, Ci j using
+
+ the Taylor expansion
+
+ f(x,y + a(/),y + a<p) = f(x,y,y) + a(Uo<p + U\<p)
+
+ 1
+
+ +-a2(Uoo<t>2 + Uo\4><j> + U\\<i>2)
+
+ + terms involving a3 and higher powers (3.1)
+
+ At the end of § 1 of Part I of his paper, Culverwell defines conjugate points:
+
+ When it is possible to draw between two points P and Q two consecutive sta
+
+ tionary curves having at P and Q the same values for y and its [...] first fluxion,
+
+ the two points may be called conjugate.
+
+ The key result is his Proposition V (Culverwell 1892, p. 247):
+
+ When the limits are fixed, and when L/j jt/jc is negative throughout the integration,
+
+ the stationary value of C is a maximum, provided that x" is not beyond the point
+
+ "conjugate" to x'.
+
+ "£) Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 09:59:34 UTC
+All use subject to https://about.jstor.org/terms
+
+ In § 103 of Analytical Dynamics, Whittaker essentially repeats Curvewell's proof (with
+
+ maximum replaced by minimum) of this result in the case that
+
+ 366 S. C. Coutinho
+
+ U = J (auq\2 + 2a 12*71 <72 + a22<72 2)dt,
+
+ where q\, q2 are the coordinates of the mechanical system. Taking into account that the
+
+ quadratic form in the integrand defines the kinetic energy of the system and, as such,
+
+ must be positive definite, Whittaker concludes that U\\ is positive, so that "for finite
+
+ ranges the [Maupertius] Action is a minimum, provided the final point is not beyond
+
+ the kinetic focus of the initial point", where kinetic focus is used here as a synonym for
+
+ conjugate point. A modernized version of the Culverwell-Whittaker approach can be
+
+ found in Gray and Taylor (2007), where the "simple illustrative example" that appears
+
+ at the end of § 103 of Analytical Dynamics is quoted in full.
+
+ The three final articles of Chapter IX present the principle of least constraint of
+
+ Gauss and that of least curvature of Hertz. In § 107 Gauss's Principle is shown to be (p.
+
+ 253) "the basis of a form in which Appell has proposed to write the general equations
+
+ of dynamics".
+
+ 3.2 Hamiltonian systems and contact transformations
+
+ We now turn to Whittaker's presentation of Hamiltonian dynamics, which extends
+
+ from Chapters X to XII and includes the transformation-theory of dynamics (Chapter
+
+ XI), which, as we shall see in Sect. 5.2, greatly influenced Dirac's version of quan
+ tum mechanics. The exposition begins in §109 where Whittaker derives Hamilton's
+
+ equations
+
+ dqr 3 H dpr 3 H
+ — = —, = (r = 1,2 n) (3.2)
+ dt opr dt dqr
+
+ from the Lagrangian formalism by equating coefficients of two differential 1-forms,
+
+ in much the same way as it is still done in modern textbooks such as Arnold (1989,
+
+ Chapter 3, section 15, p. 65) and Landau and Lifschitz (1976, Chapter 7, §40, p. 131).
+
+ To justify the importance of these equations Whittaker proves in §110 a theorem of
+
+ Jacobi according to which "all the differential equations which arise from problems
+
+ in the Calculus of Variations, with one independent variable, can be expressed in
+
+ Hamiltonian form". Most of the remaining articles of Chapter X are concerned, directly
+
+ or indirectly, with integral invariants. Although these invariants are introduced with
+
+ a view to their application to Hamiltonian systems, Whittaker begins his exposition
+
+ with two articles in which he considers a general system of differential equations of
+
+ the first order and the first degree which he regards as "defining the motion of a point
+
+ whose coordinates are (jcj ,..., xn) in space of n dimensions". He continues (p. 262):
+
+ If now we consider a group of such points, which occupy a /»-dimensional region
+
+ £o at the beginning of the motion, they will at any subsequent time t occupy
+
+ another /»-dimensional region Ç. A /»-tuple integral taken over Ç is called an
+
+ Ô Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 09:59:34 UTC
+All use subject to https://about.jstor.org/terms
+
+ Whittaker's analytical dynamics 367
+
+ integral-invariant, if it has the same value at all times f, the number p is called
+
+ the order of the integral-invariant.
+
+ This is illustrated by the best known example of such an invariant, the volume of an
+
+ incompressible fluid. An article (§112) on variational equations is followed (§113) by
+
+ a discussion of the relation between integral invariants of order one (those defined by
+
+ the integration of 1-forms) and the existence of a first integral for the given system of
+ differential equations. In §114, Whittaker considers
+
+ Integrals which have the invariantive property only when the domain over which
+
+ the integration is taken is a closed manifold (using the language of «-dimensional
+
+ geometry); these are called relative integral-invariants.
+
+ He then shows how Stokes's theorem can be used to construct an (absolute) integral
+
+ invariant from a relative one. The application of integral invariants to Hamiltonian
+
+ systems begins in §115, where Whittaker shows that "the quantity /£"=i prdqr
+ is a relative integral-invariant of any Hamiltonian system of differential equations".
+ Today, this invariant is named after Poincaré, who introduced it and the notion of
+
+ integral invariant, see Barrow-Green (1997, p. 40), Poincaré (1899, vol. 3, Chapter
+
+ XXII) and Arnold (1989, Chapter 9, section 44, p. 238). Having shown that every
+ Hamiltonian system has a Poincaré invariant, Whittaker considers, in the next two
+
+ articles, ways by which a system with an integral invariant can be reduced to the
+
+ Hamiltonian form. Indeed, the main result of §116 is that (p. 269):
+
+ If a system of equations
+
+ 17= e" 17 = p',r = l'2 ">
+
+ possesses the relative invariant
+
+ (p\8q\ + p2Sq2 + •• • + pnSq„),
+
+ /<
+
+ then the equations have the Hamiltonian form
+
+ dqr dH dpr dH
+
+ j « * j « (^" 1,2,..., «),
+ dt opr dt dqr
+
+ which is the converse of the result considered in the previous article. The final articles
+
+ of this chapter are concerned with Jacobi's method of the last multiplier; for a modern
+
+ treatment see Goriely (2001, §2.11, p. 74). The method is described in great generality
+ in §§119 and §120 and applied to Hamiltonian systems in §121. In §122 Whittaker
+
+ shows that the last multiplier method can be used to construct "integral-invariants
+
+ whose order is equal to the order of the system"; that is integral invariants obtained
+
+ by integrating a differential n-form when the system of equations has dimension n.
+
+ In the final two articles of this chapter, last multipliers are applied to the reduction of
+
+ second order equations to Lagrangian form.
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 09:59:34 UTC
+All use subject to https://about.jstor.org/terms
+
+ Springer
+
+ 368 S. C. Coutinho
+
+ That brings us to Chapter XI, arguably the most celebrated of the whole book. In
+
+ his obituary of Whittaker, published in 1957, McCrea writes, concerning the subject
+
+ of this chapter, that it "seems to have been largely [Whittaker's] own formulation"
+ (McCrea 1957, p. 248). I see no reason to believe this statement. A careful look at
+ the sources listed in the fourth edition of Analytical Dynamics shows that Whittaker
+
+ merely organized material that he found in the works he cites, mostly papers by
+ Poisson, Jacobi and Lie. For example, the presentation of contact transformations in
+
+ terms of differential forms comes from Lie ( 1872) and is very similar to those found
+
+ in expositions of the same material by contemporary mathematicians like Poincaré
+
+ (1910, p. 3) and Liebmann (1914). Indeed, no similar claim is made in the Foreword
+ McCrea wrote when the book was reprinted in 1999 Whittaker (1999). Chapter XI
+
+ is also the first one to have changed substantially between the first and the second
+
+ editions. We begin with an exposition of the contents of §125 in the first edition,
+ which includes a formal definition of contact transformation.
+
+ Following Lie's approach (Hawkins 1991, p. 419), Whittaker defines contact trans
+
+ formations in terms of differential forms:
+
+ Let (<7i,..., qn, p\,..., pn) be a set of 2n variables, and let (Q\,..., Qn,
+ P\, Pn) be 2n other variables which are defined in terms of them by 2n
+
+ equations. If the equations connecting the two sets of variables are such that the
+ differential form
+
+ P\dQ\ + PjdQi + h PndQn ~ P\dq\ - P2dq2 Pndqn
+
+ is, when expressed in terms of (q\,... ,qn, pi p„) and their differen
+ tials, the perfect differential of a function of (q\,..., qn, p\,..., p„), then
+ the change from the set of variables (q\,..., q„, p\,..., pn) to the other set
+ (Qi, • • •, ßn, P\. • • •, Pn) is called a contact-transformation.
+
+ A couple of paragraphs later, he rephrases this definition in a less verbose way as
+ follows:
+
+ A contact-transformation leaves the differential form £ prdqr invariant, to the
+
+ modulus of an exact differential.
+
+ This surprisingly modern-sounding statement was omitted in later editions. Next,
+
+ Whittaker points out that:
+
+ The result of performing two contact-transformations in succession is to obtain
+
+ a change of variables which is itself a contact-transformation; this is gener
+
+ ally expressed by the statement that contact-transformations have the group
+
+ From our point of view, this definition leaves much to be desired, for no mention is
+ made of inverses and, furthermore, the examples show that these transformations do
+
+ not always have the same domain, so composing them may not even be possible. By
+
+ the time Analytical Dynamics was written, the modern concept of group had already
+ been defined, for instance, in Jordan's Traité des substituitions ( 1870, p. 22, §27) and
+
+ in Burnside's Groups of finite order ( 1897, § 12, Chapter II, p. 11 ). However, both these
+
+ property.
+
+ £) Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 09:59:34 UTC
+All use subject to https://about.jstor.org/terms
+
+ Whittaker's analytical dynamics 369
+
+ books dealt with finite groups while, as we have seen, Whittaker wrote from the point
+
+ of view of Lie's theory of continuous groups of transformations. Now, as pointed out
+
+ by Hawkins ( 1991 ), a group for Lie consisted of a set of invertible transformations of
+
+ an "m-dimensional manifold" whose elements were taken to be /n-tuples". Moreover,
+ Hawkins (1991, p. 191):
+
+ It was tacitly assumed that any group G possesses the defining property of
+
+ a permutation group: if 7j and 73 belong to G, then so does the composite
+
+ transformation 7j o 73. [Lie and Klein] took it for granted that, as in the case of
+
+ permutation groups, closure under composition implies closure under inversion.
+
+ Thus, if G had "the group property" of closure under composition, it was assumed
+ that T~] is in G whenever T is.
+
+ Article 125 is the first one to have changed substantially between the first and
+
+ the second editions of Analytical Dynamics. As Whittaker explains in the preface to
+
+ the second edition, "the new explanation of the transformation-theory of Dynamics
+
+ in §125 sprang from a desire to do justice to the earliest great work of Hamilton's
+
+ genius", by which he means Hamilton's Theory of Systems of Rays Hamilton (1828)
+
+ and its three supplements Hamilton ( 1830, 1831, 1837). Whittaker begins the new
+
+ §125 pointing out that Hamilton's work is based on the "connexion between dynam
+
+ ics and optics" which arises by comparing Fermat's Principle of least time to the
+
+ Principle of Least Action, "a connexion which is perhaps less obvious in our day
+
+ [1917] than in his, when the corpuscular theory of light was still widely held", (Whit
+
+ taker 1999, p. 288). This "connexion" allows one to conclude that "the trajectories
+
+ of the particles in the dynamical problem are the same as the paths of the rays in
+
+ the optical problem" (Whittaker 1999, p. 289) (italicized in the original). Moreover,
+
+ Whittaker (1999, p. 289)
+
+ The statement in itself is true whatever hypothesis regarding light be adopted:
+
+ therefore it supplies a means of connecting dynamics with the undulatory hypoth
+
+ esis. This idea is the starting-point of Hamilton's theory.
+
+ Now, the undulatory theory allows one to discuss the propagation of light in terms of
+
+ Huygens method of wave-fronts (Whittaker 1999, p. 289):
+
+ Consider a wave-front, or locus of disturbance in an optical medium, as it exists
+
+ at a definite instant t, having the form of a surface a. Each element of this
+ wave-front may be regarded as the source of a secondary wave, propagated
+
+ outwards from it; so that at a subsequent instant t'', the disturbance originating
+
+ in any point (x, y, z) of the original wave-front will extend over a surface. To
+
+ obtain the equation of this surface, we observe that the time taken by light to
+
+ travel through the medium from an arbitrary point (x, y, z) to another arbitrary
+
+ point (x', y', z') depends only on the six quantities (jc, y, z, x', y', z') : let it be
+
+ denoted by V(x, y, z, x', y', z'). This function V(x, y, z, x', y', z') was called
+
+ by Hamilton the characteristic function for the medium in question.
+
+ Therefore, at time t', the equation of the wave caused by the disturbance that occurred
+
+ in (x, y, z) at time t has the form
+
+ •Ö Springe:
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 09:59:34 UTC
+All use subject to https://about.jstor.org/terms
+
+ 370 S. C. Coutinho
+
+ V(x,y,z,x',y',z') = t-t'. (3.3)
+
+ However, by Huygen's Principle (Whittaker 1999, p. 289),
+
+ The wave-front that represents the whole disturbance at the instant t' is the
+
+ envelope of the secondary waves which arise from the various elements of the
+
+ original wave-front.
+
+ Let £ be the wave front at time f and denote by (/, m, n) the unit vector normal (or
+
+ "direction-cosines of the normal" in Whittaker's terminology) to a at (x, y, z) and by
+
+ (/', m', n') the unit vector normal to £ at (x', y', z'). Assuming that the medium is
+
+ isotropic, we have that the ray is normal to the wave front. Since "E is the envelope
+
+ of the surfaces V corresponding to points of a", it follows that there exist constants k
+ and X such that
+
+ /dV dV dV\ „ x /9V dV dV\ WI, , ,x
+ (a7-37- fe) = ">•■n)™d(i?'Wä?)='•m'"h ' '
+
+ Eliminating k and X from these equalities we find that
+
+ i dV _ i dv _ i dv i dV _ i dv _ l dV
+ 7 dx m dy n dz ^ /' dx' m' dy' n' dz'
+
+ which together with
+
+ i2i 2i 2 i/2 I /2 i „tl i
+ l m -f- n = i m -\- n — l,
+
+ give rise to a system of six equations from which we can determine the primed vari
+ ables in terms of the unprimed ones. Whittaker (1999, p. 290) observes that by these
+
+ equations
+
+ The behaviour of rays of light in the medium is completely specified in terms
+
+ of the single function V(jc, y, z, x', y', z'). It will be observed that they are not
+
+ differential equations, but that they give directly, in the integrated form, the
+
+ changes in any system of rays after a finite interval of propagation through the
+ medium.
+
+ Then comes the punch line:
+
+ From the point of view of Pure Mathematics, we regard the change from the
+
+ set of variables (x, y, z, l, m, n) to the set of variables (x', y', z', I', m', n'), or
+
+ (to express it geometrically) from the surfaces a, to the surfaces E, as a trans
+
+ formation. The function V is thus to be regarded as determining a transforma
+ tion of space which changes any surface a into a new surface E. It is evident
+ that if two surfaces o and a' touch at a point, the corresponding transformed
+
+ surfaces E and E' also touch at the corresponding point: on this account the
+
+ transformation has been called by S. Lie a contact-transformation. Thus any
+
+ function V(x, y, z, x', y', z') defines a contact-transformation, which transforms
+
+ Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 09:59:34 UTC
+All use subject to https://about.jstor.org/terms
+
+ Whittaker's analytical dynamics 371
+
+ any wave-front o into the wave-front £ which is derived from a by propagation
+
+ through the medium in the interval of time t' — t.
+
+ But it follows directly from (3.4) that the total differential of V satisfies the equation
+
+ dV = ic(ldx + mdy + ndz) + k(l'dx' + m'dy' + ndz). (3.5)
+
+ Considering the time it would take to move an infinitesimal distance along the radial
+
+ from the given points, Whittaker concludes that if the units are chosen such that the
+
+ speed of light in the vacuum (or "free aether" in his terminology) is one, then k = -p
+
+ and k = p', where p and p' represent the refractive indices of the optical medium at
+
+ (x, y, z) and (jc\ y', z'), respectively. Therefore, writing
+
+ I c. 4. 'l' *.///// f ta*
+
+ /i/ = Ç, \im = rç, un = £,/// = £ , fi m = rj, // n = £ ,
+
+ the total differential of V takes the form
+
+ r/V = (fi'dx' + r\dy + Ç'dz) - (Çdx + tjdy + Çdz). (3.6)
+
+ Hamilton called the vectors (if, p, Ç) and (if', p', f') the components of the normal
+ slowness of propagation of the wave at (jc, y, z) and (x',y',z'), respectively; see
+ Arnold (1989, p. 251) for more details. This illustrates how the definition of contact
+
+ transformations used by Whittaker can be accounted for in the context of Hamilton's
+
+ work on optics, for (3.6) can be interpreted as saying that the differential ë,dx + qdy +
+
+ Çdz is invariant, modulo the exact form dV, under the transformation (defined by V)
+
+ that takes (x, y, z, £, n, Ç) to (x', y', z', H', t)', Ç').
+
+ Assuming next that the interval /' — t = Ar is very small, Whittaker deduces from
+
+ (3.6) that there exists a function H such that
+
+ uu dxue , dy u , dzA* d$ u dnu d$ J
+ dH = —dÇ + —dt] + —dÇ - —dx - —dy - —dz. (3.7)
+
+ dt dt dt dt dt dt
+
+ The usual Hamiltonian system can be derived by equating the coefficients of dx, dy,
+
+ dz, dÇ, dp, dç on both sides of the equation. Whittaker ends the "new § 125" stating
+
+ that (Whittaker 1999, p. 292) (italicized in the original):
+
+ Our investigation shews that [the Hamiltonian system derived from (3.7)] may
+
+ be regarded as representing an infinitesimal contact-transformation, that is to
+
+ say, the motion of a wave-front from one position to a position indefinitely near
+
+ it.
+
+ As we shall see, he discusses this remark in more detail in § 134 which, unlike §§ 125
+
+ and 126, remained unchanged between the first and second editions.
+
+ With § 125 taken over by Whittaker's effort to commemorate the work of his illustri
+
+ ous predecessor as Royal Astronomer, the formal introduction of contact transforma
+ tions in the second edition was moved to § 126. In the first edition, this article contains
+
+ only a short discussion of ways under which a contact transformation can be defined
+
+ <£) Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 09:59:34 UTC
+All use subject to https://about.jstor.org/terms
+
+ when it happens to be (p. 283) "possible to eliminate (P\, Pi,..., Pn, p\,.. ■, pn)
+ completely, so as to obtain one or more relations between the variables
+
+ (Ô1, 02, ■ • •, Qn,ql, • • • ,qn)"
+
+ The remaining articles of Chapter XI were not changed in any essential way between
+ the first and later editions. Articles 127 and 128 are concerned with the bilinear
+
+ 372 S. C. Coutinho
+
+ covariant of the form a — £ prdqr. In modern parlance this is the 2-form da. As
+
+ usual, Whittaker begins (§127) by defining the bilinear covariant of a general 1-form
+
+ X\dx\ + Xjdx2 + ■••-(- Xndxn,
+
+ where "(Xi, Xi,..., X„) denote any functions of (jcj , X2,..., *„)" which are implic
+
+ itly assumed to be differentiable. He denotes the above expression by Oj and writes
+
+ Og = X]5xi + X2SX2 + • • • + X„8x„,
+
+ where "S is the symbol of an independent set of increments". A formal computa
+
+ tion "using the relations 8dxr = dSxr, which exist since the variations d and 8 are
+
+ independent" shows that
+
+ 86d - ddg = ^ ^ ajjdxjSx j (3.8)
+
+ n n
+
+ t=1 7=1
+
+ where "a,7 denotes the quantity 'dXj/dxj - dXj/dx". He finishes §127 proving
+ that this "quantity" is independent of the choice of coordinates, thus justifying the
+
+ name bilinear covariant by which he calls it. In §128, Whittaker shows that since the
+
+ "bilinear covariant of a differential form is not affected by the addition of an exact
+
+ differential to the form", it follows that
+
+ If the transformation from
+
+ (q\,...,qn,p\,...,pn) to (Ql,...,Qn,Pl,...,Pn)
+
+ is a contact-transformation, the expression
+
+ ^(8prdqr - 8qrdpr)
+ r=l
+
+ is invariant under the transformation.
+
+ The next three articles are concerned with the bracket expressions named after
+
+ Lagrange and Poisson. Lagrange's brackets were originally introduced as part of his
+
+ application of the method of variations of coefficients to the problem of the move
+
+ ment of bodies in the solar system, see Lagrange (1760/1761, p. 730). His approach
+
+ takes as its starting point the fact that the description of the elliptic orbit of a planet
+
+ Ô Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 09:59:34 UTC
+All use subject to https://about.jstor.org/terms
+
+ Whittaker's analytical dynamics 373
+
+ around the sun requires six parameters, or constants of the movement, if the sun and
+
+ planet system remains isolated. Taking into account the effect of the attraction of the
+
+ other planets, "the planetary orbits must be considered as ellipses whose dimensions
+
+ and positions in space change little by little"1 (Poisson 1809, p. 267). In order to
+
+ determine these changes, one must introduce into the differential equations terms that
+
+ take into account the effect of the other planets. Poisson explains in ( 1809, p. 267)
+ that
+
+ In order to solve these equations, one considers as variables the arbitrary con
+
+ stants of the integrals relative to the elliptical movement. It is remarkable that
+
+ this procedure, one of the most fertile of analysis, consists in taking as variable
+
+ quantities that have been until then considered as constants.2
+
+ Lagrange's approach required him to write the derivatives of each of the six keplerian
+
+ elements3 of the planet's orbit in terms of the derivatives with respect to these selfsame
+
+ elements of the potential that defines the perturbative force. The brackets that we
+
+ now name after Lagrange were introduced to simplify these formulae. Assuming that
+ <7i,... ,q„, p\ p„ are functions of the variables u and v, Whittaker defines the
+ Lagrange bracket of u and v as
+
+ ^\du 9o Su 8 vi
+
+ r=\
+
+ In 16 October 1809, Poisson read at the Institute de France a memoir "relative to that
+
+ same theory [Lagrange's 1808 work on the variation of parameters], that I regard from
+
+ a whole different point of vue" (Poisson 1809, p. 268).4 Comparing this memoir of
+
+ Poisson with his own earlier work, Lagrange writes (1760/1761, p. 812):
+
+ This memoir contains an expert analysis that is like the inverse of mine, and
+
+ whose object is to avoid the eliminations that mine required.5
+
+ Indeed, Poisson writes the derivative of the potential with respect to a keplerian element
+
+ in terms of the derivatives of those elements with respect to the time. Following
+
+ Lagrange, Poisson introduces a bracket notation in order to simplify his formulae.
+ Assuming that / and g are functions of q\,..., qn, p\,..., p„, Whittaker defines the
+
+ Poisson bracket of / and g by
+
+ 1 les orbite planétaires doivent être regardées comme les ellipses dont le dimensions et les position dans
+ l'espace, varient par dégres insensibles.
+
+ 2 l'on imagina, pour résoudre ces nouvelles équations, de considérer comme variables les constants arbi
+
+ traires des intégrales relatives au mouvement elliptique. Il est remarquable que ce procédé, l'un des plus
+ féconds de l'analyse, qui consiste à faire varier des quantités regradées d'abord comme constantes.
+
+ 3 Eccentricity, semimajor axis, inclination, longitude of the ascending node, argument of periapsis and
+ mean anomaly at epoch.
+
+ 4 relatives à cette même théorie, que je reprends en entier sous un nouveau point de vue.
+
+ ■ Ce Mémoire contient une savant analyse qui est comme l'inverse de la mienne, et dont l'objet est d'eviter
+ les éliminations que celle-ci exigeait.
+
+ <£) Springe
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 09:59:34 UTC
+All use subject to https://about.jstor.org/terms
+
+ 374 S. C. Coutinho
+
+ ^Wdpr dpr dqr /
+
+ Whittaker's notation for these brackets is the same introduced by Poisson in his memoir
+
+ of 1809; see Poisson ( 1809, p. 281 and 290). In Analytical Dynamics both brackets are
+ used to characterize contact transformations. Let (ßi,... Q„, P\,..., P„) be func
+
+ tions of (q i q„, p i,..., p„ ). Whittaker shows that "the conditions which must be
+
+ satisfied in order that the transformation from one set of variables to the other may be
+
+ a contact-transformation may be written" (p. 289, italicized in the original) in the form
+
+ [Pi, Pj] = IQi, Qj] = 0 (Ph Pj) = (Qi, Qj) = 0
+ [ßj. Pj] = 0if/' -fi j or (Qi, Pj) = 0iff ^ j where 1 < i, j < n,
+ IQi, Pi] = 1 (Qi,Pi) = 1
+
+ depending on which bracket one uses. Actually he derives the second of these sets
+
+ of conditions from the first using that if "(n i ,..., U2n) are 2n independent functions
+ of (q\,..., q„, p\,..., p„), so that conversely (q\,... ,qn, p\ pn) are functions
+ of («i,..., U2n)" then
+
+ 2n 2 n
+
+ ^(«f, ur)[ut, u,s] = Owhen r ^ s and ^(ut, ur)[ut, ur} = 1.
+ t=l r=i
+
+ These relations make explicit what Lagrange meant when he wrote (see above) that
+
+ Poisson's analysis was the inverse of his own. For a discussion of the rôle of the
+ Poisson bracket in the work of Lie on contact transformations see Hawkins (1991).
+
+ Article 132 is devoted to the study of the special case of those contact transfor
+
+ mations that leave the differential form £ prdqr invariant, rather than "invariant to
+
+ the modulus of an exact differential", a case first studied by Mathieu ( 1874, p. 273ff).
+
+ Whittaker points out that these transformations form a subgroup of the whole group
+
+ of contact transformations. However, as it might be expected, given his definition
+
+ of group, he defines a subgroup as what we would call a subset closed under the
+
+ composition of transformations.
+
+ Whittaker then turns to infinitesimal contact transformations (§133), defined as
+
+ "those in which the new variables [...] differ from the original variables [...] by quan
+
+ tities which are infinitesimal". He concludes that (p. 292)
+
+ The most general infinitesimal contact-transformation is defined by the equations
+
+ 3K dK
+
+ Qr=qr + — At, Pr = pr~—-At (r = 1,2,,..,«),
+
+ opr dp,
+
+ where K is an arbitrary function of (q\, qi..., qn, p\, • • •, Pn) and At is an
+
+ arbitrary infinitesimal quantity independent of (q\, q2, ■ ■ ■, qn, P\ > • • •. Pn)
+
+ He then points out that if / is a function of the ps and qs then its increment is equal to
+
+ (/, K)At when the arguments are subject to the transformation defined by the above
+
+ equations. He calls the Poisson bracket (/, K) the symbol of the given infinitesimal
+ transformation.
+
+ Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 09:59:34 UTC
+All use subject to https://about.jstor.org/terms
+
+ Whittaker's analytical dynamics 375
+
+ Whittaker begins the very short §134 explaining that, taking into account that the
+
+ motion of a Hamiltonian system is governed hy the equations (3.2),
+
+ It follows that we can interpret [equations (3.2)] as implying that the transfor
+ mation from the values of the variables at time t to their values at time t + dt is
+
+ an infinitesimal contact-transformation.
+
+ From which he concludes what has become the book's most often quoted statement
+ (p. 293):
+
+ The whole course of a dynamical system can thus be regarded as the gradual
+
+ self-unfolding of a contact-transformation.
+
+ Indeed, "this result, taken together with the group-property of contact-transformations,
+
+ is the foundation of the transformation theory of dynamics". The next major result is
+
+ proved in article 136, where it is shown that "a contact-transformation of the variables
+
+ (q\, qi,..., q,„ p\,..., p„ ) of any dynamical system conserves the Hamiltonian form
+
+ of the equations of the system". The same result is proved again in article 137 using
+
+ what Whittaker calls the first Pfaff's system of equations corresponding to the 1-form
+
+ a = X\dx\ + Xidx2 H + X2„+\dx2n+\,
+
+ which is the system of equations
+
+ 2/1+1
+
+ /=l
+
+ Uijdxj = Ofor 1 < j < 2n + 1
+
+ obtained by equating to zero the coefficients of <SjC| ,..., &X2„+\ in the bilinear covari
+
+ ant of a defined in (3.8). These equations are "from the mode of their formation [...]
+
+ invariantively connected" with a. Applying this to the form
+
+ p\dq\ + P2dq2 H \-p„dq„-Hdt (3.9)
+
+ he shows that (p. 297)
+
+ The dynamical system whose Hamiltonian function is H is invariantively con
+
+ nected with the differential form [(3.9)] inasmuch as the equations of motion of
+
+ the dynamical system, in terms of any variables Ui , jc?, *2«. t) whatever,
+
+ are the first Pfaff's system of the differential form
+
+ X\dx\ + X2dx2 -I 1- X„dx„ - Tdr,
+
+ which is derived from the form [(3.9)] by the transformation from the variables
+ (<7i, <72, • • • - <7«. P\ Pih t) to the variables (3:1,^2 xs,^ *)■
+
+ This is used, in articles 138 and 139, to determine how the Hamiltonian of a given
+
+ dynamical system changes under contact transformations and, in article 140, to show
+ that:
+
+ Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 09:59:34 UTC
+All use subject to https://about.jstor.org/terms
+
+ 376 S. C. Coutinho
+
+ The integration-problem [of a system whose Hamiltonian is //] is thus reduced
+ to the determination of a transformation for which the last term of the differential
+
+ form [(3.9)] becomes a perfect integral.
+
+ Chapter XII collects a number of results on Hamiltonian systems, mostly related
+
+ to their integrals. Whittaker begins (§142) by showing that if the Hamiltonian H of
+
+ a system is independent of time, then it can be used to reduce by one the number
+
+ of degrees of freedom of the system. He then (§143) deduces the Hamilton-Jacobi
+
+ differential equation
+
+ dW
+ or
+
+ ( dW dW dW \
+
+ + H [q\,q2, , — —-,f) =0 (3.10)
+
+ V dq i dq2 3 qn J
+
+ by assuming the existence of a contact transformation with IV = W{q\,..., qn,
+ Ql, • ■ ■, Qn, 0 as generating function (a terminology not used in Analytical Dynam
+
+ ics) that transforms the given system into one whose Hamiltonian is constant. The next
+
+ article is devoted to proving that "the integral of the kinetic potential" (the Hamilton
+
+ action integral) is a solution of the Hamilton-Jacobi equation. He then turns to infini
+
+ tesimal contact transformations and shows that (p. 308):
+
+ Integrals of a dynamical system, and [infinitesimal] contact-transformations
+
+ which change the system into itself, are substantially the same thing.
+
+ This result also brings back the Poisson bracket, for if <p is an integral of the system
+
+ then the corresponding infinitesimal transformation has (f, H) as its symbol. The rôle
+
+ of the Poisson bracket is further developed in § 145, where it is shown that "if <p and rfr
+
+ are two integrals of [a] system, the Poisson-bracket is constant throughout the motion"
+
+ (p. 309). This result, first observed by Poisson ( 1809, §7, p. 281 ), allows one to deduce
+
+ new integrals from old ones whose Poisson brackets are not constant. Whittaker notes
+
+ (§146) that the same holds for the Lagrange bracket, but that
+
+ Lagrange's result, unlike Poisson's, does not enable us to find any new integrals;
+
+ for we have to know all the integrals before we can form Lagrange's bracket
+
+ expressions.
+
+ Suppose now that u \ ur are functions of the ps and qs. If all the brackets
+
+ (ui,uk) are zero, these functions are said to be in involution. Using infinitesimal
+
+ transformations, Whittaker shows in §147 that (p. 311, italicized in the original)
+
+ If (mi, u2,...,ur) are in involution, and the equations
+
+ ui = 0, v2 = 0,..., vr = 0
+
+ are consequences of the equations
+
+ «1 = 0, u2 = 0,..., ur = 0,
+
+ then the functions (vj,..., ty) are in involution.
+
+ •£) Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 09:59:34 UTC
+All use subject to https://about.jstor.org/terms
+
+ Whittaker's analytical dynamics 377
+
+ This is used (§148) to prove a theorem of Liouville (1855) which we now state as:
+
+ if a system of n degrees of freedom has n integrals in involution then it is integrable
+
+ by quadratures; see Arnold (1989, Chapter 10, section 49, p. 271) and Lützen ( 1990,
+
+ pp. 670-679). This is followed by a discussion of a theorem of Levi-Civita's which,
+ as explained in the introduction of Ahmed and Ghori (1984), "provides a procedure
+
+ for constructing particular solutions of a [...] dynamical system by means of time
+
+ independent invariant relations in involution". The last three articles are devoted to
+
+ the integration "of systems which possess integrals of certain special kinds"; namely,
+
+ integrals that are linear in the momenta (§150) and integrals quadratic in the velocity
+ (§§152 and 153).
+
+ As we have pointed out before, Chapters XI and XII were the first to which Whittaker
+
+ made substantial changes between the first and second editions, the most obvious of
+
+ which concerns the first article (§125) of Chapter XI. As we saw above, the new
+
+ version of § 125 had its origin in Whittaker's wish to do justice to Hamilton's work on
+
+ dynamics. This may also be the reason why the Hamilton-Jacobi equation of the first
+
+ edition became the Hamilton equation in all later ones, matched by a corresponding
+
+ change in the title of § 142 from the Hamilton-Jacobi equation to Hamilton's partial
+
+ differential equation.
+
+ 3.3 Celestial mechanics
+
+ Chapter XIII marks the beginning of what we called in Sect. 2.3 the second part of
+
+ the book, which is devoted to the application of the principles explained in Part I
+
+ to the problem of three bodies. In this chapter, Whittaker introduces the differential
+
+ equations that describe the problem (§ 155) and shows that this system of the 18th order
+
+ (made up of nine equations of the second order) admits a number of first integrals
+
+ that allow one to reduce it to a system of the 6th order (§§157-159). In his words
+ (p. 346):
+
+ The problem of three bodies possesses 10 known integrals: namely, the six inte
+
+ grals of motion of the centre of gravity, the three integrals of angular momentum,
+
+ and the integral of energy; these are generally called the classical integrals of
+
+ the problem.
+
+ In the next articles he discusses the problem of three bodies in a plane (§161) and the
+
+ restricted problem of three bodies (§162).
+
+ Although the next chapter is 27 pages long, it contains only two articles, the first of
+
+ which is subdivided into eleven parts, the second into nine. Article 164 contains the
+
+ proof of Brun's theorem. It turns out that the ten integrals of the three body problem
+
+ mentioned in the quotation above are all of them algebraic functions. In a paper pub
+
+ lished in 1887, H. Bruns (1848-1919) showed that "the classical integrals are the only
+
+ independent algebraic integrals of the problem of three bodies" (p. 346). In his Report
+
+ to the British Association, Whittaker had noted that "a defect in Bruns's proof [...]
+
+ was pointed out and remedied by Poincaré in 1896" (Whittaker 1900, p. 159). Curi
+ ously, Whittaker's proof in Analytical Dynamics contains the very same mistake fixed
+
+ by Poincaré and mentioned in the Report (Whittaker 1900, p. 159). A modern proof
+
+ £) Springe
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 09:59:34 UTC
+All use subject to https://about.jstor.org/terms
+
+ 378 S. C. Coutinho
+
+ that addresses the many flaws found in Bruns's and all subsequent proofs, including
+
+ Whittaker's, can be found in Julliard-Tosel (2000). The second article of Chapter XIV
+
+ is concerned with (p. 368):
+
+ Another theorem on the non-existence of a certain type of integrals in the problem
+
+ of three bodies, which is in many respects analogous to that of Bruns, and was
+ discovered in 1889 by Poincaré.
+
+ This is one of the results for which Poincaré won the King Oscar Prize in 1889
+
+ Poincaré ( 1890). It is also the content of the chapter called Non-existence des intégrales
+
+ uniformes, of Poincaré's Méthodes Nouvelles (Poincaré 1899, Chapitre V, p. 233). See
+
+ also (Barrow-Green, 2002, p. 7Iff) and Verhulst (2012, p. 133ff).
+
+ Chapter XV is concerned with the description of the "motion of a particle which
+
+ is free to move in a plane under the action of conservative forces". In an introductory
+
+ article (§166) Whittaker explains that (p. 374)
+
+ The principal results which have been obtained hitherto relate to periodic orbits
+
+ (§§167-171), to the stability of a given orbit (specially of a periodic orbit) with
+
+ respect to small displacements from it (§§172-176), and to the stability of a
+
+ given group of orbits with respect to the time, i.e. the question as to how far
+
+ the orbits preserve their general character after the lapse of a very great time
+ (§§177-179).
+
+ The topics studied in this chapter include Lagrange's special solution of the three
+
+ body problem when the "mutual distances of the bodies are invariable throughout the
+
+ motion" (§170) and Poincaré's study of stability in terms of the system's characteristic
+ exponents (§§175-176).
+
+ The last chapter opens with an article where Whittaker explains the difficulties one
+
+ faces in finding a solution of a dynamical system in terms of convergent series. He men
+
+ tions analytical continuation of solutions and a transformation, based on Poincaré's
+
+ work on zetafuchsian functions Poincaré (1884), that maps a band of a given width
+
+ on each side of the real axis into a circle of radius one. However, as he explains at the
+
+ beginning of the next article (p. 397):
+
+ The series discussed in the preceding article are all open to the objection that
+
+ they give no evident indication of the nature of the motion of the system after
+
+ the lapse of a great interval of time [...]. Under these circumstances we are led
+
+ to investigate expansions of an altogether different type.
+
+ These are trigonometric series, and he motivates their introduction with examples of
+
+ their use in the "problem of the simple pendulum" and in celestial mechanics. The
+
+ remainder of the chapter is devoted to Whittaker's work Whittaker (1902) (p. 398) on
+
+ A method which is applicable to all dynamical systems and leads to solutions in
+
+ the form of trigonometric series: the method consists essentially, as will be seen,
+
+ in the repeated application of contact-transformations, which ultimately reduce
+
+ the problem to the equilibrium-problem.
+
+ This method applies to a system whose Hamiltonian H is independent of time. Solving
+
+ the equations
+
+ <?) Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 09:59:34 UTC
+All use subject to https://about.jstor.org/terms
+
+ Whittaker's analytical dynamics 379
+
+ dH dH
+ — = — =0 (r = 1,2 n),
+ dp,- dqr
+
+ one obtains
+
+ One or more sets of values (a\, az, ■ ■ ■, a„, b\, bi b„) for the variables
+ (q\.qi,..., <7h, p\ Pn)', and each of these sets of values correspond to a
+ form of equilibrium or (if the above equations are those of a reduced system)
+
+ steady motion of the system.
+
+ One then chooses one of these equilibrium points and translates the variables so that
+
+ the chosen point is at the origin. Thus, for sufficiently small values of the variables, it
+
+ is possible to write H as a power series whose homogeneous component of degree k
+ we will denote by HMoreover, Hq = H\ = 0 because the origin is an equilibrium
+ point of the system. Assuming that Hi is positive definite and that the eigenvalues
+
+ of the corresponding bilinear form are imaginary and distinct, Whittaker shows that
+
+ there exists a contact transformation that changes Hi into
+
+ \ ]£(/>,2 + sWr)
+
+ /•=!
+
+ Applying another (§184) contact transformation, the Hamiltonian can be written in
+ the form
+
+ «0.0 o + Xa"'-"2 "» cos(" 1 Pi + n2P2 + • • • + n„p„),
+
+ where the coefficients a are functions of q\,..., <7,, only. Moreover, the periodic part
+
+ of H is small when compared with the non-periodic part «0.0 0. so that (p. 403)
+ "when the variables <71, <72,..., q„ are small they vary very slowly, while the vari
+ ables p\, pi p„ vary almost proportionally to the time". In §§ 186-187, he shows
+
+ that by applying yet more contact transformations to the system one obtains a Hamil
+
+ tonian H whose periodic part "will become so insignificant that it may be neglected"
+
+ (p. 187). Therefore, we end up with a system whose Hamiltonian depends only on the
+ variables (q\,..., q„). Hence,
+
+ dqr
+ —— = Oand pr = — / —dt (r = I,...,«);
+ dt J dqr
+ J dqr
+
+ r dH
+
+ which allows us to integrate the system, obtaining
+
+ Pr = Pr' + Cr, whereP, = (r = 1 n).
+
+ dH
+
+ dqr
+
+ As we have mentioned before, the chapters on celestial mechanics were those that
+
+ changed the most between the first and the fourth editions. In both editions, Chapter
+
+ XV begins in article 166. However, in the first edition, Chapters XV and XVI have,
+
+ respectively, 14 and 9 articles, while in the fourth edition these numbers have increased
+
+ Ô Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 09:59:34 UTC
+All use subject to https://about.jstor.org/terms
+
+ 380 S. C. Coutinho
+
+ to 22 and 18. Instead of discussing the various topics that constitute the subjects of the
+
+ new articles, some of which are of a very technical nature, we will be satisfied with
+
+ pointing out some of the more conspicuous changes. From now on, article numbers
+
+ refer to the fourth edition of Analytical Dynamics. In Chapter XV, these include the
+
+ definition of Poincaré's doubly asymptotic orbits (§169), a study of the orbits of the
+
+ planets in the "general relativity-theory" (§ 170) and a whole article on The theory of
+
+ matrices (§ 176). The new articles in Chapter XVI are concerned with Whittaker's the
+
+ ory of adelphic integrals, originally published in Whittaker ( 1917). In §200, Whittaker
+
+ defines adelphic transformations as (Whittaker 1999, p. 442, italicized in the original)
+
+ Those infinitesimal transformations which change each trajectory of the system
+
+ into an adjacent trajectory, in such a way that every ordinary periodic solution
+
+ is changed into an adjacent periodic solution of the same family, i.e. having the
+
+ same period and the same constant of energy.
+
+ As he explains in a footnote (Whittaker 1999, p. 442), the name comes from the Greek
+
+ for brotherly because the original orbit and the transformed one are closely related
+
+ and also because "the integral corresponding to the transformation stands in a much
+
+ closer relation to the integral of energy than do other integrals of the system". For
+
+ the sake of simplicity, he studies in detail only systems with two degrees of freedom.
+
+ There are three cases depending on the ratio s\/s2 of the coefficients of <71 and qi
+
+ in the linear component of the Hamiltonian. In article 196, he derives the terms of
+
+ the adelphic integral up to order four in ^/q\ and Jqï when s\/s2 is irrational. The
+ resulting formula covers pages 434 and 435 of the fourth edition. Whittaker admits
+
+ that no proof of the convergence of these series "has yet been devised" (Whittaker
+ 1999, p. 437), but expresses the hope that the analogy with similar series devised by
+
+ Bruns, that have been proved to be convergent, "is favourable to the convergence" of
+
+ his adelphic integrals (Whittaker 1999, p. 438). As we will see in Sect. 4.4, Whittaker's
+
+ optimism concerning the convergence of these series was not shared by T. M. Cherry
+
+ in his review of the third edition Cherry (1928). He thought instead that they would
+
+ be "generally divergent and only exceptionally convergent".
+
+ 4 Reception
+
+ In this section, we use various reviews of the four editions of Analytical dynamics
+
+ to examine how the mathematical community reacted to Whittaker's book. The fact
+
+ that the book remains in print helps us to trace the evolution of the attitudes of that
+
+ community both to the subject and to the style of the book.
+
+ The first edition of Analytical Dynamics was reviewed very thoroughly in the
+
+ Bulletin of the American Mathematical Society by E. B. Wilson and in Nature by
+
+ G. H. Bryan. We discuss these long reviews in detail and then briefly mention a few
+
+ more reviews up to the 1980s.
+
+ 4.1 An American point of view: E. B. Wilson
+
+ Edwin Bidwell Wilson (1879-1964) graduated from Havard in 1899 and received
+ a Ph.D. from Yale four years later. In (Hunsaker and MacLane, 1973, p. 287)
+
+ "£) Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 09:59:34 UTC
+All use subject to https://about.jstor.org/terms
+
+ Whittaker's analytical dynamics 381
+
+ Wilson is described as "the last student of Gibbs", whose lecture notes he brought
+
+ "to a full and polished written form" in the book Wilson (1901). Wilson spent
+ the period 1902-1903 studying mathematics in Paris, mainly at the École Nor
+ male Supérieure. On his return to the United States, he became assistant professor
+ at Yale, but moved to the Massachusetts Institute of Technology in 1907, becom
+
+ ing a full professor there in 1911. He had a wide range of interests that extended
+ beyond mathematics and physics and included statistics and economics. The Bio
+ graphical Memoir (Hunsaker and MacLane 1973, p. 291) mentions his "extraordi
+ nary activity in reviewing books": between 1911 and 1914, for example, he wrote
+
+ thirty reviews for the Bulletin of the American Mathematical Society. Wilson's six
+
+ page-long review Wilson (1906) of Analytical Dynamics was published in the Bul
+
+ letin in 1906. The review opens with a lament for what Wilson sees as the imminent
+
+ encroachment by pure mathematics of territory that traditionally belonged to applied
+ mathematics:
+
+ At Cambridge, England, mathematics means for the most part mechanics, math
+
+ ematical physics, or even physics sometimes not so very mathematical. The
+
+ famous tripos—the mathematical tripos, of course, which goes back at any rate
+
+ to 1747—seems, at least to an outsider, to lay its main stress on the theoreti
+
+ cal applications of mathematics rather than on pure mathematics. Very likely
+ this is a tradition that has come down from the time of Newton, and it is cer
+
+ tainly maintained by the eminent physicists such as Stokes, Kelvin, Maxwell,
+
+ Rayleigh, J. J. Thomson, who have been high wranglers. This tripos with its
+
+ great prestige gives an attractive and distinctive touch to the university and
+
+ although the ever-increasing pressure of pure mathematics, with its possibili
+
+ ties for various kinds of unessential and mediocre work infinitely wider than
+
+ those to be found in theoretical applied mathematics, will probably tell on the
+
+ training at Cambridge sooner or later, may we not look forward to that date with
+
+ some regrets on the general uniformizing that is taking place and lament the
+
+ fact that other realms than physics are possessed of an entropy? (Wilson 1906,
+ p. 451)
+
+ But he immediately changes tone: "At present, however, there seems no immediate
+
+ danger" and the reason for that is Wilson ( 1906, p. 452)
+
+ The publication by Cambridge University Press of three large and highly impor
+
+ tant volumes by as many recent graduates of Cambridge typically Cantabrigian
+
+ in that they exhibit great mathematical power and attainements directed firmly
+
+ and unerringly along the direction of physical research.
+
+ The books are James Walker's Analytical Theory of Light, James Jeans's Dynamical
+
+ Theory of Gases and Whittaker's Analytical Dynamics. According to Wilson:
+
+ Mechanics is more largely a part of pure mathematics than the other branches
+
+ of physics because the data are fewer and simpler; the transition to the systems
+
+ of differential equations less recondite (Wilson 1906, p. 452).
+
+ He justifies his opinion by pointing out that most of the recent progresses in this area
+
+ have been attained by mathematicians. However,
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 09:59:34 UTC
+All use subject to https://about.jstor.org/terms
+
+ Springer
+
+ For the mathematician [...] the way has unfortunately been barricaded by the kind
+ of treatise on mechanics which has been available to the intermediate student.
+
+ 382 S. C. Coutinho
+
+ Among these, he mentions the "famous works of Routh", by which he means a series
+
+ of treatises on various aspects of mechanics that Routh published in the second half
+
+ of the nineteenth century; see Routh (1860, 1882, 1884, 1891, 1898). His opinion of
+
+ Routh's books, whose subject he considers "not so much mathematical as distinctly
+
+ mechanical", is not very high: "the reader learns how to do difficult and often artifi
+
+ cial problems rather than how problems are done". Although he admits that the kind
+
+ of training provided by Routh's books is "highly valuable and should precede other
+
+ work", he considers that Whittaker's book "breaks the barricade and opens the way to
+
+ fruitful advance". However, he also makes clear that this book "starts at the beginning
+
+ of the subject—but it is not for the beginner". Indeed, "the book is mathematical in
+
+ nature, written with a precision and developed with a logic sure to appeal to mathe
+
+ maticians". Moreover, the "diversity of method taken with the compact style makes
+
+ the book hard reading for any but the somewhat advanced student". Since "to solve
+
+ the exercises requires on the part of the reader a similar versatility", he concludes
+ that
+
+ One may see why and how it is that the Cambridge student well versed in
+
+ mechanics is also in reality thoroughly equipped in pure mathematics in so far
+
+ as present applications are concerned.
+
+ After these initial considerations, Wilson discusses the contents of the book. His
+
+ description of Chapters I to IX extends to four pages, halfway through which he
+
+ points out that from Chapter VII on
+
+ The amount of mathematics which the reader must know, or assimilate from the
+
+ meager indications in the text, is by no means inconsiderable—calculus of vari
+
+ ations, elementary divisors, integral invariants, and contact transformations may
+
+ be mentioned as examples. It is, then, just at this point that modern mechanics
+
+ begins.
+
+ In comparison, the last eight chapters are dealt with in just one paragraph, of which
+
+ we quote the beginning and the end:
+
+ The remaining one hundred pages of the book become successively more and
+
+ more full of the most recent researches. [...] How much the student of mechanics
+
+ proper may be interested in this matter [the subjects of the last four chapters] is
+
+ a question. The advisability of including such a treatment here cannot, however,
+
+ be well open to doubt. Mathematical astronomy as one conclusion of mechanics
+
+ is quite in the spirit of the present time.
+
+ Having said that, he concludes by suggesting two topics that he "should have been
+
+ happy to see introduced". The first is "the study of the application of Lagrange's
+
+ equations and the kinetic potential to problems of physics and chemistry" and the
+ second is "statistical mechanics". These choices are not at all surprising, given
+
+ that Wilson was a student of Gibbs and that he prepared Gibbs's lecture notes for
+
+ publication.
+
+ •£) Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 09:59:34 UTC
+All use subject to https://about.jstor.org/terms
+
+ Whittaker's analytical dynamics 383
+
+ 4.2 A British point of view: G. H. Bryan
+
+ G. H. Bryan (1864-1928) was brought up by his mother and his grandparents after
+
+ the death of his father, a Cambridge don, when he was still very young. Mrs Bryan
+
+ lived in the continent for long periods and, as a consequence, Bryan acquired a good
+
+ knowledge of several languages. He went up to Cambridge in 1883, graduated as fifth
+
+ Wrangler in 1886 and stayed there, as a fellow of Peterhouse, until 1895, the year he
+
+ was appointed Professor of Pure and Applied Mathematics in the University College
+
+ of North Wales, in Bangor. He stayed in Bangor until his retirement in 1926. Bryan's
+
+ research was mostly concerned with problems in hydrodynamics and thermodynamics,
+
+ but he also contributed important results to the bourgeoning science of aeronautics. His
+
+ book Stability in aviation, published in 1911, is described in Hunsaker (1916, p. 278)
+
+ as "the first rational theory of the dynamical stability of aeroplanes". According to
+
+ Bairstow ( 1933, p. 139), Bryan was a "friendly, kindly, very eccentric individual with a
+
+ keenness for 'unsolved problems' in dynamics and hydrodynamics". His eccentricity
+
+ was "attributed largely to the circumstances of his early upbringing". His strengths
+
+ and weaknesses were summed up by Love (1929, p. 240) as follows:
+
+ To understand Bryan, his achievement and his limitations, one must think of him
+
+ as a man with a passion for accuracy, a remarkably clear head, and a severely
+
+ practical outlook on life. His writings reflect his mind—always lucid and to the
+
+ point, never vague or mysterious, generally seeking for something of practical
+
+ value. He took little interest in laboratory work in physics, and perhaps less in
+
+ speculations as to the constitution of the universe or the nature of time and space.
+
+ He should be remembered as a man with a very uncommon gift for mathematics,
+
+ who was actuated by an intense desire to utilize it for the purpose of promoting
+
+ material progress.
+
+ As we will see this goes a long way towards explaining his criticisms of Analytical
+ Dynamics.
+
+ Whittaker's book was the last one of three "Cambridge Mathematical Works" that
+
+ Bryan reviewed for the issue of Nature published on April 27,1905, see Bryan ( 1905),
+
+ the other two works being Grace and Young's The algebra of invariants and James
+
+ Jeans's The dynamical theory of gases, which is also mentioned in Wilson's review.
+
+ The very first paragraph sets the tone for the whole review:
+
+ Whatever opinions may be felt as to the desirability of University Presses compet
+
+ ing with private firms in swelling the already too large flood of school geometries
+
+ or issuing cram books for compulsory Greek examinations, there can only be one
+
+ opinion as to the series of standard treatises on higher mathematics emanating
+
+ at the present time from Cambridge. In a country which, in its lack of national
+
+ interest in higher scientific research, particularly mathematical research, stands
+
+ far behind most other important civilised countries, it necessarily devolves on
+
+ a University Press to publish advanced mathematical works. We may take it as
+
+ certain that the present volumes will be keenly read in Germany and America,
+
+ and will be taken as proofs that England contains good mathematicians, though
+
+ "£) Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 09:59:34 UTC
+All use subject to https://about.jstor.org/terms
+
+ Englishmen as a nation may be unaware of their existence, with the exception
+
+ of the senior wrangler of one year, who is forgotten the next.
+
+ Bryan's first mention of Whittaker's book is in a paragraph which one can safely call
+ polemical:
+
+ 384 S. C. Coutinho
+
+ It is remarkable that physicists strain at gnats when put down to study kinetic the
+
+ ory or thermodynamics, and yet they swallow camels with complacency when
+
+ they read the subject of Mr. Whittaker's book, "Analytical Dynamics." Some
+
+ writers even go so far as to introduce pages and pages of the most unreal dynam
+
+ ical problems into what they call treatises on physics.
+
+ The next paragraph elaborates this further
+
+ "The soluble problems of particle dynamics" [which is the title of Chapter IV
+
+ of Analytical Dynamics] mostly represent things which have no existence. It
+
+ is impossible for a particle to move on a smooth curve or surface because, in
+
+ the first place, there is no such thing as a particle, and in the second place
+
+ there is no such thing as a smooth curve or surface. What constitutes the chief
+
+ interest of "Analytical Dynamics" is the possibility of forming clear mental
+
+ pictures of its results by imagining bodies capable of performing the motions
+ discussed.
+
+ He summarizes the contents of the book in two paragraphs. The first begins with "Mr.
+
+ Whittaker's treatment is essentially mathematical and advanced" and the second is
+
+ followed by: "The book is thus written mainly for the advanced mathematician". The
+
+ "large number of examples both in the text and at the end of the chapters" include "a
+ good many" that contain "the substance of minor papers" (cf. Sect. 3.1) while others
+
+ are followed by the reference Coll. Exam. :
+
+ Some of the questions bearing these references may give foreign mathemati
+ cians a little insight into the unpalatable nuts which Cambridge students are
+
+ expected to waste time in trying to crack for examination purposes. The antics
+
+ of insects crawling on epicycloids, or the vagaries of particles moving along the
+
+ intersections of ellipsoids with hyperboloids of one sheet, are of no scientific
+
+ interest, and the time spent in "getting out" problems of this character might
+
+ better be employed in learning something useful. Moreover, Cambridge college
+
+ examiners have a habit of endowing bodies with the most inconsistent properties
+
+ in the matter of perfect roughness and perfect smoothness. A perfectly rough
+
+ body placed on a perfectly smooth surface forms as interesting a subject for
+
+ speculation as the well-known irresistible body meeting the impenetrable obsta
+
+ cle. What the average college don forgets is that roughness or smoothness are
+
+ matters which concern two surfaces, not one body.
+
+ He proposes to replace such "fictitious problems" by "the more frequent introduction
+
+ of simple problems in resisted motion". Moreover,
+
+ Those who have the ability to do more difficult work should pass on to the
+
+ advanced parts of a book like Mr. Whittaker's and learn what foreign mathe
+
+ maticians have been doing; this is much more useful.
+
+ Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 09:59:34 UTC
+All use subject to https://about.jstor.org/terms
+
+ Whittaker's analytical dynamics 385
+
+ The high regard for what continental mathematicians had been doing and the insis
+
+ tence on problems of interest in applications immediately remind one of A. E. H.
+
+ Love's opinion of Bryan, quoted above. It is also interesting to compare Bryan's com
+
+ ments with those of Wilson. As it is so often the case, the outsider Wilson is touched by
+
+ the mystique of the mathematical tripos, whose "great prestige gives an attractive and
+
+ distinctive touch to the university". Bryan, the fifth wrangler, sees much to criticize in
+
+ a system under which a student must spent a lot of his time solving problems about
+
+ "ellipsoids rolling on perfectly smooth surfaces formed by the revolution of cissoids
+ or witches about their axes".
+
+ 4.3 The "Fictitious Problem" polemic
+
+ The Cambridge establishment must have been piqued by Bryan's comments, for a
+ letter was published (1905, p. 56) in Nature on May 18, 1905 under the title Ficti
+
+ tious Problems in Mathematics. Taking his cue from the comment by Bryan repeated
+
+ above, the writer signs himself simply "An Old Average College Don". After briefly
+
+ summarizing Bryan's criticisms, the anonymous writer adds
+
+ Will your reviewer give a reference to some page of Whittaker's book (that
+
+ under review), or to some page of any other text-book used in the last half
+
+ century at Cambridge, in support of his charge against Cambridge examiners?
+
+ Fifty years ago, William Hopkins was still directing the mathematical teaching of
+
+ Cambridge, and enforcing the conservation of energy where friction is taken into
+
+ consideration. A perfectly rough sphere moving on a rough surface is intended
+
+ to mean that, during the motion considered, the sphere rolls without any slip.
+
+ "A perfectly rough sphere moving on a smooth surface" would no doubt be
+
+ equivalent to "A sphere moving on a smooth surface": but where does the phrase
+ occur?
+
+ This is followed by a response from Bryan who claims that
+
+ The alleged inaccuracies of language in stating the assumed conditions of
+ smoothness or roughness prevailing between two bodies in contact are unfortu
+
+ nately so common that it is the exception rather than the rule to find any problem
+
+ in which these conditions are correctly worded.
+
+ Bryan claims to have come across two examples of such imprécisions in a chapter of
+
+ Besant's A Treatise on Dynamics but he does not give any exact reference. A search
+
+ through a digitized version of Besant's book Besant ( 1893) comes up with several
+
+ instances of perfectly rough, but perfectly smooth appears only twice and none of them
+
+ supports Bryan's claim. However, the example he quotes from Routh's Elementary
+
+ rigid Dynamics (Routh 1882, p. 69, example 4), where a "person is placed at one end
+
+ of a perfectly rough board which rests on a smooth table", seems a perfect fit. Routh
+
+ had been Bryan's Tripos coach (Warwick 2003, p. 517) and perhaps to soften the blow,
+
+ Bryan adds:
+
+ At the time of writing the review I was quite unaware that such an example
+
+ had found its way into a text-book written by so careful a teacher of applied
+
+ 4b Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 09:59:34 UTC
+All use subject to https://about.jstor.org/terms
+
+ mathematics as Dr. Routh, and it says much for the prevalence at Cambridge of
+
+ these erroneous forms of statement that this wording failed to attract the writers
+ attention.
+
+ 386 S. C. Coutinho
+
+ He finishes by saying that a similar misuse of the terms perfect elastic and inelastic
+
+ has been brought to his attention.
+
+ Besant and Routh had both retired in the 1880s (Warwick 2003, p. 280), but while
+
+ "Besant was too much engrossed by his proper work to add much to mathematical
+
+ literature" (GBM 1917, p. 310), Routh had actually made important contributions to
+
+ dynamics. Perhaps that goes some way towards explaining why Routh was the only
+
+ one to feel the need to reply to Bryan. In a note published on the May 25th, 1905 issue
+
+ of Nature (1905, p. 78), Routh explains that
+
+ When bodies are said to be perfectly rough, it is usually meant that they are
+
+ so rough that the amount of friction necessary to prevent sliding in the given
+
+ circumstances can certainly be called into play. [...] The board in question has
+
+ therefore no special peculiarity. All that is stated is that the coefficient of friction
+
+ between the man and the board exceeds a certain finite quantity.
+
+ He points out that such expressions are only abbreviations used to "make the question
+
+ concise" to allow the students attention to be "specially directed to the dynamical prin
+
+ ciple involved in the solution". He concludes by claiming that the problem mentioned
+
+ by Bryan has been "understood by so many students in the sense above described"
+
+ without any objection been raised that he thinks its "meaning must be perfectly clear",
+
+ so much so that he "cannot imagine what other meaning it could have".
+
+ Routh's letter on the 25th May 1905 issue of Nature is actually preceded by one
+
+ of A. B. Basset on the same subject. Basset notes that the statements about which
+
+ Bryan complains designate "an ideal state of matter" assumed to exist to simplify the
+
+ problem and make it "sufficiently easy for the beginner". He then explains that similar
+
+ "fictitious hypothesis", like that of a friction less liquid are required in hydrodynamics,
+ because
+
+ Viscosity leads to such formidable difficulties, that nobody has yet succeeded
+
+ in solving such a simple problem as the motion due to a doublet situated at the
+
+ centre of a sphere; and the solution, if it could be obtained, would throw much
+
+ light on the mode of attacking more difficult problems
+
+ Hydrodynamics was Bryan's main field of research.
+
+ The June 1st, 1905 issue of Nature (1905, p. 102) brought two more contributions
+
+ to the debate. The first, by C. B. Clarke, begins by saying that Routh set the example
+
+ to "test (inter alia) whether the pupil knew that, for any friction to arise, both the
+
+ surfaces must be rough". He then repeats the quote from Bryan's review reproduced
+
+ in the anonymous letter that started the exchange and adds that "this is the statement
+
+ which I called (and still call) in question", thus implicitly identifying himself as the
+
+ "average college don". Like Basset, Clarke explains that such simplifying hypotheses
+ are not restricted to exercises in textbooks:
+
+ In considering the pendulum, I probably begin by assuming no friction on the
+
+ axis of suspension, and, if I try afterwards to apply a correction for this friction,
+
+ "Ö Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 09:59:34 UTC
+All use subject to https://about.jstor.org/terms
+
+ Whittaker's analytical dynamics 387
+
+ I probably make an assumption which is inaccurate. Friction = pressure x a
+
+ constant is inaccurate, statically and dynamically.
+
+ Clarke's letter is followed by another one from Bryan where he tries to make clear
+
+ what it is that he is objecting to. His argument is essentially that if a "perfect rough
+
+ body" is one that never slips when brought in contact with another body and a "perfect
+
+ smooth body" is one that never offers "tangential resistance" then it does not make
+
+ sense to ask what happens when a "perfect rough" body slides against a "perfect
+
+ smooth" body. The problem, he says, is that terms such as "perfect roughness" and
+
+ "perfect smoothness" are not "attributes of a single body" because friction depends on
+
+ the properties of the two bodies that are being brought into contact. At the end of his
+
+ letter, he proposes ways by which this kind of "misleading language" can be avoided.
+
+ He suggests, for instance, that the example from Routh's book could be rephrased
+
+ as a "man walks without slipping along a plank which can slip without friction on a
+ horizontal table".
+
+ The issue of Nature published a week later (June 8, 1905) (1905, p. 127) brings
+
+ another letter of Routh on the same subject. He argues that Bryan's definition of a
+
+ "perfectly rough body" in (1905, p. 102) as one "which never by any chance slips on
+
+ any other body it is placed in contact" is not that in common use. Thus, the "proper
+
+ inference" is not that '"the average college' don forgets an elementary law of friction"
+
+ but that Bryan's definition is not "that in common use". Indeed, he says, the "various
+
+ letters sent to NATURE sufficiently show what meaning is usually attached to the
+ words".
+
+ The last letter Nature published on the polemic (on June 22, 1905) came from
+
+ Bryan. Turning to Routh's definition of "perfectly rough," he points out that it refers
+
+ to bodies being perfectly rough, while his "attack" is directed against saying that a
+
+ body is "perfectly rough". In his view
+
+ The definition given in the book in which the problem occurs is inapplicable to
+
+ the problem as at present worded. Otherwise we appear to be dealing with a plank
+
+ such that in the given circumstances, one [side] of which is resting on a smooth
+
+ table, the amount of friction necessary to prevent sliding can certainly be called
+
+ into play, and this is apparently inconsistent with Dr. Routh's interpretation.
+
+ He ends by challenging "An Average College Don" to "point to any text-book con
+
+ taining an explicit definition of a perfectly rough body (not bodies)" and adds:
+
+ If he succeeds, I anticipate no difficulty in furnishing him with examples of
+
+ questions which are either inconsistent with his definition, are ambiguously
+
+ worded, or are open to some equally serious objection.
+
+ Reading these letters 100 years after they were written, it is difficult not to view the
+
+ whole polemic as prompted by a bout of hair-splitting on the part of Bryan. His initial
+
+ claim is undoubtedly correct: friction is a property that has to do with how bodies
+
+ behave when they come into contact. Thus, a body on its own cannot be "perfectly
+
+ rough": that expression can only be applied when two bodies come into contact with
+
+ each other. As it often happens in such polemics, the boundary between the two factions
+
+ tends to get blurred when one looks at concrete examples. Although it is true that Routh
+
+ •£) Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 09:59:34 UTC
+All use subject to https://about.jstor.org/terms
+
+ 388 S. C. Coutinho
+
+ refers to a body and Whittaker to a plane (Whittaker 1904, p. 33) as "perfectly rough",
+
+ they do so only as a kind of shorthand, because both of them correctly define only
+
+ what it means for bodies (Routh 1882, p. 280) or surfaces (Whittaker 1904, p. 31 ) to be
+
+ "perfectly smooth". So, from Bryan's point of view, they give correct definitions but
+
+ later use them improperly. Routh, Basset and Clarke, on the other hand, claim that it
+
+ is tacit knowledge (at least in Cambridge) that one writes "a perfectly rough body" to
+
+ stand for the formal definitions correctly given by both Routh and Whittaker. It is hard
+
+ not to ask what it was really all about. Comparing Routh's letter of the 8th of June with
+
+ Bryan's final letter, one might even get the impression that those who opposed Bryan
+
+ simply misunderstood what he was complaining about. Although the whole polemic
+
+ derived from a comment of Bryan's in his review of Analytical Dynamics, the author
+
+ of that book never got involved in the polemic.
+
+ Bryan also wrote a review of the second edition (1917) of Analytical Dynamics
+
+ Bryan (1918). He begins by observing that at the time the first edition was published
+
+ aeroplanes "only existed in people's imagination and in reports of successes by the
+
+ Wright brothers", so that no one expected to find applications to "aerial navigation"
+
+ in a treatise on analytical dynamics. However, although since then "there has been
+
+ plenty of time for pure and applied mathematicians to provide material" to allow the
+
+ aeroplane to be "a predominating feature" of a book like Whittaker's, he finds in that
+
+ book no mention of the aeroplane or of any matter that he judges to be "suggestive, even
+
+ vaguely, of the existence of aerial navigation". He goes on to explain that he thinks
+
+ mathematicians have done very little on the subject and that most of the relevant
+
+ contributions have come from physicists and engineers. The way in which Bryan's
+ own interest and enthusiasm for aviation seems to fill his whole field of vision is rather
+
+ amusing. He refers to the problem of "stability of steady motion" as "out-and-out the
+
+ most important development of theoretical dynamics". And he thinks it "rather a pity"
+
+ that Whittaker did not treat of the subject in the second edition of Analytical Dynamics.
+ He concludes that:
+
+ The present work will be found of much use by such students of a future gener
+
+ ation as are able to find time to extend their study of particle and rigid dynamics
+
+ outside the requirements of aerial navigation, and it will also afford a valuable
+ source of information for those who are in search of new material of a theo
+
+ retical character which they can take over and apply to any particular class of
+
+ investigation.
+
+ 4.4 Other reviews
+
+ Ô Springer
+
+ Besides the two detailed reviews discussed above, the first edition of Analytical
+
+ Dynamics was also reviewed in the Jahrbuch über die Fortschritte der Mathematik
+
+ (JFM 35.0682.01). The review was written by Emil Lampe (1840-1918), a professor
+
+ at the Technischen Hochschule Charlottenburg, who was also the Jahrbuch's editor.
+
+ In his review of this "excellent work" (vortrefflichen Werks) Lampe says that
+
+ The careful treatment aimed at the training of students—that for half a century
+
+ has characterized the science of analytical mechanics in England, and which
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 09:59:34 UTC
+All use subject to https://about.jstor.org/terms
+
+ Whittaker's analytical dynamics 389
+
+ produced such works as Walton's collection of examples and the textbooks of
+
+ Routh, Thomson and Tait, Lamb, Love, Basset and many others—has had, as
+
+ a consequence, that the English student is directed with great energy towards
+
+ the study of mechanics in which he displays excellent performance, as can be
+
+ gauged from the many, and not at all easy, problems appended at the end of each
+
+ chapter of this book.6
+
+ The second edition was reviewed by E. P. Jourdain ( 1879-1919) in both The Mathe
+
+ matical Gazette Jourdain (1917) and Science in Progress (Jourdain 1917). The reviews
+
+ are very similar, but the Gazette one is longer and more detailed. After listing the sub
+
+ jects of the various chapters, Jourdain makes a number of very specific criticisms. The
+
+ first concerns a statement on the aether and the principle of relativity, which he consid
+
+ ers "of no value when put in such a magisterial form". In the second, he complains that
+
+ the "introduction (p. 29) of the equations of motion suffers from a defect". The only
+ "equations of motion" in p. 29 of the second edition are those that define Newton's
+
+ first law for cartesian coordinates in 3-space and the "defect" seems to be that Whit
+
+ taker did not give sufficient motivation so that, as Jourdain puts it, the student is "told
+
+ by implication that these equations [...] are identities". The third criticism concerns a
+
+ point of the history of mathematics, a subject that interested Jourdain so much that he
+
+ was preparing a book on it at the time of his death (1921). According to a footnote
+
+ on p. 34 of the second edition of Analytical Dynamics, Lagrange first formulated his
+
+ equations of motion in Lagrange (1760/1761), a paper published 28 years before his
+
+ Mécanique Analytique. Jourdain disagrees with Whittaker's claim and suggests that
+
+ "Prof. Whittaker should have given a rather more detailed justification for such a rev
+
+ olutionary statement". For a recent discussion of the relation between these two works
+
+ of Lagrange see (Pulte 2005, 212ft). The last point concerns, as he puts it at the end
+
+ of the Science in Progress review,
+
+ A rather noticeable [...] neglect of work published from 1904 to 1908 on the
+ questions that arise in formulating Hamilton's principle and the principle of
+ least action for non-holonomic conditions and generalised co-ordinates.
+
+ This work was done by Jourdain himself, as we learn from the more detailed Gazette
+ review, which ends thus:
+
+ However, all these criticisms do not touch the very great value of the book
+
+ which has been and will be the chief path by which students in English speaking
+
+ countries have been and will be introduced to modern work on the general and
+
+ special problems of dynamics.
+
+ G. D. Birkhoff wrote a very short review Birkhoff (1920) of the second edition of
+
+ Analytical Dynamics for the Bulletin of the American Mathematical Society in which
+
+ he praises the book for being "invaluable as a condensed and suggestive presentation
+
+ of the formal side of analytical dynamics" but suggests that there is "serious need
+
+ 6 Es ist kein Lehrbuch für den Anfänger, sondern vielmehr ein reichhaltiges Kompendium, in welchem der
+
+ Verf. mit grosser Sorgfalt und vielem Geschick alles verarbeitet hat. was die Forschung der besten Gelehrten
+
+ bis in die jüngste Vergangenheit über den Gegenstand zutage gefordert hat.
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 09:59:34 UTC
+All use subject to https://about.jstor.org/terms
+
+ Springer
+
+ 390 S. C. Coutinho
+
+ for a complementary type of treatise in which the main emphasis is laid upon the
+
+ deeper qualitative side which has played an increasingly larger part since the work of
+
+ Poincaré". As a "single instance of the incompleteness of Whittaker's treatment in this
+
+ respect" he cites the discussion of trigonometric series in Chapter XVI which is done
+
+ "in the spirit of Delaunay and does not even mention that these series are generally
+
+ divergent nor refer to their asymptotic properties".
+
+ Not surprisingly, the first book in English to complement Analytical Dynamics
+
+ in the way proposed by Birkhoff was his own Dynamical systems Birkhoff (1927),
+
+ whose first edition appeared in 1927, the same year that the third edition of Analytical
+
+ Dynamics was published. The Gazette featured a double review of these books by
+
+ T. M. Cherry (1898-1966) in 1928, see Cherry (1928). Cherry begins by explaining
+
+ that "General Dynamics as it has been developed during the past century is simply
+
+ the theory of differential equations of Lagrangian and Hamiltonian form". Of the
+
+ books he is reviewing, Whittaker's deals "largely" and Birkhoff's "almost entirely"
+
+ with "this 'higher' aspect of Dynamics". A brief discussion of Poincaré's work on
+
+ the stability of the solar system and the divergence of the trigonometric series used to
+
+ solve the three body problem sets the scene for the two reviews. Cherry's comments
+
+ are concerned mostly with the last two chapters of Analytical Dynamics which, he
+
+ explains, were "completely re-written in order to take account of recent developments
+
+ in this field". However, in his view, although Chapter XV (on the theory of orbits)
+
+ is a "great improvement on preceding editions", on the whole it "hardly lives up to
+
+ its title". Moreover, the discussion of Whittaker's adelphic integrals in Chapter XVI
+
+ "must be regarded as suggestive rather than conclusive" because "a process is given
+
+ for constructing the "adelphic integral" series [...] without the necessary proof that it
+ will be successful". As mentioned in Sect. 3.3, he also criticizes what he considers
+
+ as Whittaker's "optimistic view" concerning the convergence of these series. Unlike
+
+ Whittaker, he thinks that they will be "generally divergent and only exceptionally
+
+ convergent".
+
+ The most recent review of Analytical Dynamics appeared in Zentralblatt (Horneffer
+
+ 1988) when the fourth edition was reprinted in the Cambridge Mathematical Library.
+
+ The following quote is from its first paragraph:
+
+ First published in 1904 [the book] reflects the style of late 19th century and the
+
+ state of the mathematical apparatus of those days. The excessive use of elliptic
+
+ functions in the elaboration of explicit formulas, for example, is a fact maybe
+
+ surprising to the modern reader. The bulk of calculations contrasting with the lack
+
+ of figures (not so bad as with Lagrange 200 years ago: there none, here three!),
+
+ the newcomer in the discipline will be bewildered, but soon will appreciate the
+
+ clearness of physical thought and the development of formulas seldom found
+
+ in other texts. Nonetheless, as a first reading one would better give him another
+
+ text.
+
+ Analytical Dynamics has also been mentioned in the reviews of other books that treat
+
+ roughly the same material. For example, the same issue of the Bulletin of the American
+
+ Mathematical Society (volume 2, issue 2,1980) brought two different reviews of books
+
+ on mechanics, both of which mention Whittaker's book. Reviewing both Arnold's
+
+ Mathematical methods of classical mechanics Arnold ( 1989) and volume one of Walter
+
+ £) Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 09:59:34 UTC
+All use subject to https://about.jstor.org/terms
+
+ Whittaker's analytical dynamics 391
+
+ Thirring's A course in mathematical physics Thirring (1978), Ian Sneddon claims in
+ Sneddon (1980) that
+
+ The theoretical work of the century and more after the death of Lagrange was
+
+ crystallized by E. T. Whittaker in a treatise Whittaker ( 1904) which has not been
+
+ superseded as the definitive account of classical mechanics.
+
+ However,
+
+ The time was now ripe for a presentation of the theory of classical mechanics in
+
+ terms of the theory of differentiable manifolds which had been developed since
+
+ the appearance of the fourth edition of Whittaker's treatise.
+
+ The other one is a review, written by S. Sternberg, of the second edition of Foundations
+
+ of mechanics by Abraham and Marsden. Sternberg begins the review noting that
+
+ This excellent book is one of several superb books on mechanics which have
+
+ appeared in the past decade, such as those of Souriau [Souriau (1970)], Siegel
+
+ Moser [Siegel and Moser ( 1971 )], Arnold [Arnold ( 1989)] and Thirring [Thirring
+
+ (1978)], indicating a revitalized interest in the venerable subject of classical
+ mechanics.
+
+ At the end of the review, he points out that:
+
+ All the above books should be on the shelf of every serious student of mechanics.
+
+ One would like to be able to report that such a collection would be complete.
+
+ Unfortunately, this is not so. There exist topics in the classical repertoire, such
+
+ as Kowalewskaya's top which are not covered by any of these books. So hold
+
+ on to your copy of Whittaker ( 1904).
+
+ Analytical Dynamics also had its share of adverse criticism, the most notorious being
+
+ probably the comments in Goldstein's Classical Mechanics (Goldstein 1950, p. 27),
+ where it is called
+
+ A well-known treatise which presents an exhaustive treatment of analytical
+
+ mechanics from the older viewpoints. The development is marked, regrettably,
+
+ by an apparent dislike of diagrams (of which there are only four in the entire
+
+ book) and of vector notation, and by a fondness for the type of pedantic mechan
+
+ ics problems made famous by the Cambridge Tripos examinations. It remains,
+
+ however, a practically unique source for the discussion of many specialised
+
+ We will examine Goldstein's criticism in more detail in the next section.
+
+ topics.
+
+ 5 Discussion
+
+ In the last two sections we described the contents of Analytical Dynamics and exam
+
+ ined the way its various editions were received by the community. We will finish by
+
+ examining the book's style and discussing its impact on the development of mechanics
+
+ in the twentieth century.
+
+ ■0 Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 09:59:34 UTC
+All use subject to https://about.jstor.org/terms
+
+ 392 S. C. Coutinho
+
+ 5.1 Style
+
+ One characteristic that pleased the reviewers of the first edition of Analytical Dynam
+
+ ics was Whittaker's ability in presenting the very latest results in dynamics. Wilson
+
+ (1906, p. 452) puts it very nicely, when he says that Analytical Dynamics "is modern,
+
+ thoroughly modern with its bibliographical references running quite up into the year
+
+ 1904". Even G. H. Bryan, whose review is the most critical of those discussed in
+
+ Sect. 4, writes that (Bryan 1905, p. 603):
+
+ It will thus be seen that Mr. Whittaker's treatise collects into book form the
+
+ outlines of a long series of researches for which hitherto it has been necessary
+
+ to consult English, French, German, and Italian transactions.
+
+ Both reviewers also note that, although the book does not assume any previous knowl
+
+ edge of dynamics on the part of the reader, it is by no means elementary. G. H. Bryan
+
+ points out that the "book is thus written mainly for the advanced mathematician"
+
+ (Bryan 1905, p. 603) and E. B. Wilson observes that it "starts at the beginning of the
+
+ subject—but it is not for the beginner"; (Wilson 1906, p. 452) A similar opinion is
+
+ expressed by Lampe (1918),
+
+ This is no textbook for the beginner, but rather a rich compendium, in which the
+
+ author has handled with great care and much skill all the research that the best
+
+ scholars have brought to light on the subject until very recently.7
+
+ Indeed, the treatment is thoroughly analytical and presupposes a good knowledge of
+
+ special functions, the calculus of variations, and the theory of ordinary differential
+ equations. As Wilson (1906, p. 452) says in his review, the "book is mathematical in
+ nature, written with a precision and developed with a logic sure to appeal to mathe
+ maticians".
+
+ Although this is not attested in any of the reviews that I have found, Whittaker's
+
+ strict mathematical approach seems to have led to the book being criticized for being
+
+ too abstract. In his obituary of Whittaker McCrea (1957, p. 248) says that at the time
+
+ the first edition was published Whittaker "was criticized for wasting space on the
+
+ transformation theory of dynamics". This is echoed by C. Truesdell in the exordium
+
+ [reprinted in Truesdell (1984, p. 30)] of The classical field theories, a book he co
+
+ authored with R. Toupin. Writing about their book, he says they expect that some
+
+ people "will reproach us with too much abstract and useless formalism"; and adds as
+
+ an afterthought "not forgetting that such deprecation was directed towards Whittaker's
+
+ Analytical Dynam/cs'Truesdell ( 1984). Which also indirectly testifies to the status that
+
+ Whittaker's book had attained by the 1960s, when Truesdell's book with Toupin was
+
+ published. Whittaker himself writes in Whittaker (1940, p. 156) that
+
+ When my book Analytical Dynamics was published in 1904, I was criticised
+
+ severely for devoting a large part of it to such topics as the duality between
+
+ 7 Es ist kein Lehrbuch für den Anfänger, sondern vielmehr ein reichhaltiges Kompendium, in welchem der
+
+ Verf. mit großer Sorgfalt und vielem Geschick alles verarbeitet hat, was die Forschung der besten Gelehrten
+
+ bis in die jüngste Vergangenheit über den Gegenstand zutage gefördert hat.
+
+ Springe
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 09:59:34 UTC
+All use subject to https://about.jstor.org/terms
+
+ Whittaker's analytical dynamics 393
+
+ coordinates and momenta, contact-transformations, Poisson-brackets, integral
+
+ invariants, action, and so forth—mere mathematical playthings, the critics called
+ them.
+
+ That Analytical Dynamics is abstract cannot be denied. Not only is it not an intro
+
+ duction for beginners, as the reviewers rightly pointed out, it is a presentation of
+
+ mechanics as a mathematical theory. Even a cursory look at the book shows that the
+
+ discussion of the physical principles is kept to a minimum. Moreover the presentation
+
+ is unapologetically analytic, in Lagrange's sense of the word, with very little use of
+
+ geometric language. As the latter's Mécanique Analytique, the first edition of Analyt
+
+ ical Dynamics did not contain any pictures, although by the fourth edition Whittaker
+
+ had added four, all of them in Chapter XV (pages 392, 394 and 411 of Whittaker
+ (1999)).
+
+ Despite the fact that this is a book for mathematicians, it is not rigorous in the sense
+
+ we now use the word. One obvious flaw is the constant use of old style infinitesimal
+
+ arguments; a more subtle one is that often there is no clear separation between results
+
+ that hold only locally, and those that hold globally. A typical example occurs in §141
+
+ (p. 302), where Whittaker wants to solve an equation of the form H + h =0, for
+
+ some Hamiltonian function H of q\,..., q„, pi,... p„ and constant h, with respect
+
+ to the variable p\. Faced with a similar equation, we would now apply the Implicit
+
+ Function Theorem, which would allow us to conclude that the equation can be solved,
+
+ as desired, in the neighbourhood of any point where the required Jacobian is nonzero.
+
+ Not so Whittaker; he simply says "let this equation be solved for the variable p\".
+
+ Although this is by no means an isolated example, Whittaker is obviously aware that
+
+ a series often converges only in a small neighbourhood of a point. This is particularly
+
+ evident in the chapters concerned with celestial mechanics, where convergence of the
+
+ series that describe the orbits was one of the outstanding problems of the day. Thus, as
+
+ we saw in Sect. 3.3, he begins Chapter XVI explaining that (Whittaker 1904, p. 396)
+
+ We have already observed (§32) that the differential equations of motion of a
+
+ dynamical system can be solved in terms of series of ascending powers of the
+
+ time measured from some fixed epoch; these series converge in general for values
+
+ of t within some definite circle of convergence in r-plane, and consequently will
+
+ not furnish the values of the coordinates except for a limited interval of time. By
+
+ means of the process of continuation it would be possible to derive from these
+
+ series successive sets of other power series, which would converge for values of
+ the time outside this interval.
+
+ A different attitude to a similar problem occurs in Whittaker's discussion of stationary
+
+ integrals (§103). As we explained in Sect. 3.1, Whittaker first shows that "for small
+
+ ranges the Action is a minimum for the actual trajectory" and then determines that
+
+ the action is in fact a minimum "provided the final point is not beyond the kinetic
+
+ focus of the initial point" (p. 248). Therefore, although this result holds only locally,
+
+ it is possible to characterize the bounds within which it works; cf. (Chorlay 2011,
+
+ §3.2). All of this is fairly typical of the way mathematics was practiced in the early
+
+ twentieth century; a time when, as Chorlay shows in (2011 ), mathematicians were just
+
+ beginning to become aware of the local-global dichotomy.
+
+ "Ö Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 09:59:34 UTC
+All use subject to https://about.jstor.org/terms
+
+ 394 S. C. Coutinho
+
+ Although, to my knowledge, the book has not been criticized for its lack of rigour
+
+ with regard to the domains of convergence of the various series that it contains, the same
+
+ cannot be said of some characteristics that it also shares with contemporary works.
+
+ Predictably, such criticisms have been advanced in a book and in a review published
+ after 1950. As we saw in Sect. 4.4, Goldstein (1950, p. 27) speaks of Whittaker's
+ "apparent dislike of diagrams (of which there are only four in the entire book) and
+
+ of vector notation", while Horneffer (1988) talks of the "excessive use of elliptic
+
+ functions in the elaboration of explicit formulas" and also of the "bulk of calculations
+
+ contrasting with the lack of figures (not so bad as with Lagrange 200 years ago: there
+
+ none, here three!)"; actually four, as Goldstein says. Since this kind of criticism often
+
+ arises from a work being taken out of the context in which it was written, which should
+
+ include both its intended public and the historic period, we will first consider the rôle
+
+ of vectors and of diagrams in mechanics at the beginning of the twentieth century.
+
+ To begin with, one should remember that although Newton introduced several
+
+ quantities of a vectorial nature in Principia (Crowe 1967, p. 128), the concept of vector
+
+ and many of the vector operations we use today originated in W. R. Hamilton's works
+
+ on quaternions (1843) and in H. Grassman's Ausdehnungslehre (1844). Despite being
+
+ critical of quaternions, J. C. Maxwell realized that vectors helped to "fix the mind
+
+ at once on a point of space instead of its three coordinates, and on the magnitude
+
+ and direction of a force instead of its three components" as he put it in his Treatise
+
+ on electricity and magnetism (1873) (Maxwell 1954, p. 9). Given the influence of
+
+ Maxwell's book, it is not surprising that J. W. Gibbs and O. Heaviside, the creators
+
+ of vector analysis, became interested in vectors after reading it (Crowe 1967, p. 152
+
+ and 162). Gibbs first lectured on his vector system in 1879, but his Elements of Vector
+
+ Analysis was only privately published (in two volumes that appeared 1881 and 1884).
+ Heaviside developed his ideas, independently of Gibbs, in papers published between
+
+ 1882 and 1883 and got acquainted with Gibbs's Elements only in 1888. The first
+
+ volume of his Electromagnetic Theory, which "contained the first extensive published
+
+ treatment of modern vector analysis" (Crowe 1967, p. 169), appeared in 1893. Crowe
+
+ (1967, p. 225) points out that "the most influential force in producing acceptance [of
+ vector analysis] stemmed from the association of vectorial analysis with electrical
+
+ theory, an association to be credited to Maxwell and Heaviside". The first book solely
+
+ devoted to vector analysis to be commercially published was E. B. Wilson's Vector
+
+ Analysis Wilson (1901), (Crowe 1967, p. 228); see also Sect. 4.1 above.
+
+ Thus, at the time (1896-1904) Whittaker was giving the lectures that would later
+
+ become Analytical Dynamics, the use of vectors was mostly restricted to applications
+
+ in electromagnetism. Moreover, Maxwell's comment in the Treatise that "the methods
+
+ of Des Cartes are still the most familiar to students of science" (Maxwell 1954, p. 9)
+
+ continued to hold in 1904, for the first book completely devoted to vector analysis
+
+ had been published only three years before. A search through Poincaré's Leçons de
+
+ mécanique céleste Poincaré (1910), whose first volume was published a year after
+
+ Analytical Dynamics, shows the same sparing use of vectors and an almost complete
+
+ absence of vector equations. In fact, most uses of the word "vecteur" in volume I of
+
+ Poincaré (1910) occur in the expressions "rayons vecteurs" and "vecteur des aires",
+
+ although Poincaré also mentions "la somme géométrique des deux vecteurs" (p. 32)
+
+ *£) Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 09:59:34 UTC
+All use subject to https://about.jstor.org/terms
+
+ Whittaker's analytical dynamics 395
+
+ and "les vecteurs qui représentent en grandeur et direction les quantités de mouvement"
+
+ (p. 251).
+
+ Passing now to the question of diagrams one immediately sees that it cannot be
+
+ settled by any simple appeal to the historical context. Even a cursory look at Routh's
+ books Routh ( 1860,1882, 1884, 1891,1898) or Besant ( 1893) show that their texts are
+
+ peppered with diagrams to help the student along. However, these are rather elementary
+
+ texts, aimed at students, which is not the case of Analytical Dynamics, as both Wilson,
+
+ Bryan and Horneffer make clear in their reviews. Whittaker himself says in the Preface
+
+ to the first edition that the "connected account" of recent advances that he presents
+
+ in his book will "prove a stimulus to further research". McCrea observes in (1957, p.
+
+ 248) that this was Whittaker's "modest way of saying that this was the first book on
+
+ what was then and still remains [in 1957], modern fundamental dynamical theory". In
+
+ the same preface, Whittaker says that:
+
+ It would ill become of me to omit mention of the debt which I, in common with
+
+ all English students of Dynamics, owe to the influence which Dr Routh has so
+
+ long exercised on the study of the science.
+
+ About this, McCrea comments in McCrea (1957) that "although Routh's books are
+
+ useful even today [1957], Whittaker's book disclosed immeasurably wider horizons".
+
+ These remarks show that Analytical Dynamics should be considered as a research
+
+ monograph, and that it is with similar contemporary works that it should be com
+
+ pared. The title of Whittaker's book and Horneffer's parenthetical remark that it is
+
+ "not so bad as" Lagrange's Mécanique Analytique suggest that it should be compared
+
+ with other works in dynamics written in the tradition of Lagrange's great treatise. In
+
+ this respect, three books immediately come to mind: Jacobi's Vorlesungen über ana
+
+ lytische Mechanik Jacobi (2009) and Poincaré's Méthodes nouvelles de la mécanique
+
+ celeste, both of which are cited in Analytical Dynamics, and the latter's Leçons de
+
+ mécanique celeste. None of these books have anywhere near as many pictures as
+ Routh's books or most modern (post-1960) books on dynamics. For example, the first
+
+ volume of Poincaré (1910), published in 1905, a year after the first edition of Ana
+ lytical Dynamics, contains only three pictures (pp. 37, 69 and 363) in a total of 365
+
+ pages. One concludes that although Whittaker's book may be a rather extreme case
+
+ (no figures in 409 pages of the first edition), it is by no means atypical. Even Poincaré
+
+ who, by all accounts, was of a more geometric bent than Whittaker, included very few
+
+ pictures in his books devoted to mechanics.
+
+ As far as elliptic functions are concerned, a comparison of the works mentioned
+
+ in the previous paragraph with Analytical Dynamics reveals that the latter abounds
+
+ in them, while they do not appear at all in the first volume of Leçons de Mécanique
+
+ Céleste. As might be expected we fare better when we turn to Jacobi's Lectures on
+
+ Dynamics Jacobi (2009), where elliptic and abelian integrals appear in lectures 25,
+
+ 27 and 30 (Das Abelsche Theorem). However, Jacobi's work was, by then, almost
+
+ 50 years old and Poincaré's geometrical approach would soon move dynamics away
+
+ from exact solutions. So it seems that Whittaker's abundant use of elliptic functions
+
+ is both an echo of a bygone era and a reflection of his interest in what are now called
+
+ the special functions of analysis.
+
+ £) Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 09:59:34 UTC
+All use subject to https://about.jstor.org/terms
+
+ 396 S. C. Coutinho
+
+ Another characteristic of the book often mentioned by its reviewers is the examples
+
+ or exercises as we would now say. Some come with solutions and appear interspersed
+
+ throughout the actual text, though printed in smaller type. But there are also many
+
+ that come at the end of each chapter under Miscellaneous examples and are posed as
+
+ problems to be solved by the reader. As we have seen in Sect. 4.2, G. H. Bryan points
+ out that (Bryan 1905, p. 603)
+
+ An interesting feature [of Analytical Dynamics] is the large number of examples
+
+ both in the text and at the end of the chapters. Of these a good many really contain
+
+ the substance of minor papers that have been published abroad.
+
+ These examples are followed by the name of the author of the paper they come from.
+ However, most of the examples are followed by "Coll. Exam." or "Camb. Math.
+ Tripos" showing that they were originally posed as questions in examinations. Bryan
+
+ considered many of these questions artificial and said so very forcibly in his review, see
+
+ Sect. 4.3. The artificial nature of many of these problems was also noted by Goldstein
+
+ (1950, p. 27). It is difficult to argue against the view that, in choosing many problems
+
+ that even to his contemporaries seemed contrived, Whittaker was being not only too
+
+ much of a Cambridge man, but a somewhat old fashioned one at that. In this respect,
+
+ one should remember that those who opposed Bryan in the Fictitious Problems polemic
+
+ were men very much older than Whittaker: in 1904 Basset was 50 years old, Clarke
+ was 72 and Routh 73.
+
+ Finally, when reading Analytical dynamics one cannot help noticing the large num
+
+ ber of references to works that have become classical. In the first edition these are
+
+ mostly works by contemporary authors. Whittaker himself mentions "Lie, Rayleigh,
+
+ Klein, Hertz, Lorentz, Poincaré, Siacci, Bruns, Boltzmann, Larmor, Greenhill, Appell,
+ Painlevé, Stäckel and Levi-Civita" in the preface of the first edition, adding that a
+
+ "large proportion of the subject matter has hitherto been accessible only in scattered
+
+ memoirs" by these mathematicians. In later editions, however, he goes further back
+
+ in time, systematically quoting, with very specific references, from works by Newton,
+
+ Euler, the Bernoulli brothers, Lagrange and Laplace. This was, perhaps, also a fruit
+
+ of those hours he spent reading at the library during his Dublin years, see Sect. 2.1
+ above.
+
+ Analytical Dynamics has been very successful by most of the criteria used to judge a
+
+ book: it went through four editions, it was translated into both German and Russian
+
+ and the reviews published at the time of the various editions are full of praise for the
+
+ book. The main reason for this has to do with the fact, pointed out in all the reviews
+
+ of the first edition, that it presented the very latest results in dynamics. Moreover,
+
+ Whittaker's choice of topics, specially in the more advanced parts of the first half of
+
+ the book, proved to be along two of the main lines that dynamics would take in the
+
+ twentieth century. As McCrea puts it in McCrea (1957),
+
+ With an inspired appreciation of what is in the best sense useful in mathematics,
+
+ [Whittaker] has included in his books much that was found to be needed in
+
+ 5.2 Impact
+
+ <£) Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 09:59:34 UTC
+All use subject to https://about.jstor.org/terms
+
+ Whittaker's analytical dynamics 397
+
+ the development of quantum mechanics and wave-mechanics more than twenty
+
+ years afterwards. The part that British workers in particular were thus enabled to
+
+ contribute to this development owes a debt to Whittaker which seems scarcely
+
+ to have been sufficiently acknowledged.
+
+ Of course by "books" he means Modern Analysis and Analytical Dynamics.
+
+ The debt mentioned by McCrea was explicitly acknowledged by Dirac in 1977.
+
+ The events to be related occurred in 1925, while Dirac was a PhD student working
+
+ under Ralph Fowler. In August of that year, Fowler received from W. Heisenberg the
+
+ proof-sheets of Heisenberg's latest paper (van der Waerden 1967, pp. 261-276), and
+
+ passed them on to Dirac, who read them but at first found them not very interest
+
+ ing. It was only a week later, when Dirac read the paper for the second time, that
+
+ he realized how revolutionary Heisenberg's ideas really were. However, he felt that
+
+ Heisenberg's formulation was not very satisfactory and he began to try to rework it
+
+ "in a Hamiltonian scheme that would conform with the theory of relativity" (Kragh
+
+ 1990, p. 16). However, this required that Dirac find an expression in classical mechan
+
+ ics that would correspond to the commutators introduced by Heisenberg's theory.
+
+ In the course of one of the long walks he usually took on Sundays, Dirac began to
+
+ think about Poisson brackets. As Dirac reminisced in 1977 [quoted in Kragh (1990,
+ p. 17)]:
+
+ I remembered something which I had read up previously in advanced books on
+
+ dynamics about these strange quantities, Poisson brackets, and from what I could
+
+ remember, there seemed to be a close similarity between a Poisson bracket of two
+
+ quantities, u and v, and the commutator uv — vu. The idea first came in a flash,
+
+ I suppose, and provided of course some excitement, and then of course came the
+
+ reaction "No, this is probably wrong." I did not remember very well the precise
+
+ formula for a Poisson bracket, and only had some vague recollections. But there
+
+ were exciting possibilities there, and I thought that I might be getting to some
+ big new idea. It was really a very disturbing situation, and it became imperative
+
+ for me to brush up my knowledge of Poisson brackets and in particular to find
+
+ out just what is the definition of a Poisson bracket. Of course I could not do that
+
+ when I was right out in the country. I just had to hurry home and see what I could
+
+ then find about Poisson brackets. I looked through my notes, the notes that I had
+
+ taken at various lectures, and there was no reference there anywhere to Poisson
+
+ brackets. The textbooks which I had at home were all too elementary to mention
+
+ them. There was just nothing I could do, because it was a Sunday evening then
+
+ and the libraries were all closed. I just had to wait impatiently through that night
+
+ without knowing whether this idea was really any good or not, but still I think that
+
+ my confidence gradually grew during the course of the night. The next morning
+
+ I hurried along to one of the libraries as soon as it was open, and then I looked
+
+ up Poisson brackets in Whittaker's Analytical Dynamics, and I found that they
+
+ were just what I needed.
+
+ However, this is not the only version of these events left by Dirac. van der Waerden
+
+ reproduces in (van der Waerden 1967, p. 41) what Dirac purportedly told him in an
+ interview on June 26, 1961 :
+
+ <0 Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 09:59:34 UTC
+All use subject to https://about.jstor.org/terms
+
+ 398 S. C. Coutinho
+
+ At first I could not make much of [Heisenberg's paper], but after about two weeks
+
+ I saw that it provided the key to the problem of quantum mechanics. I proceeded
+
+ to work it out by myself. I had previously learned the Transformation Theory of
+
+ Hamiltonian Mechanics from lectures by R. H. Fowler and from Sommerfeld's
+
+ book Atombau und Spektrallinien.
+
+ In the second (1921) edition of Sommerfeld's book Hamiltonian mechanics is dis
+
+ cussed in the appendix, which includes a section on contact transformations (Sommer
+
+ feld 1921, §6, pp. 468-472). However, Poisson brackets are not mentioned anywhere
+
+ in the book, not even in this section. Since it is clear that, right from the beginning,
+
+ the brackets played a key rôle in Dirac's version of quantum mechanics (Dirac 1926),
+ it seems safe to trust Dirac's later recollection of events, rather than his claims in the
+ interview with van der Waerden.
+
+ The exposition of Hamiltonian dynamics and contact transformations in Analytical
+
+ Dynamics also contains, in incipient form, many of the results that would play an
+
+ important rôle in the geometrization of dynamics that took place in the second half of
+
+ the twentieth century. However, although the key players in this process were certainly
+
+ aware of the book's existence, it does not seem to have directly influenced them. Asked
+
+ whether Analytical Dynamics had any influence on his work, R. Abraham, whose
+
+ book on mechanics has become a classic presentation of the symplectic approach,
+ said (Abraham, Private communication):
+
+ I can only say that yes, I read Whittaker as a student and made much use of his
+
+ books during my work on mechanics... but no, they did not influence directly my
+
+ work in translating mechanics into modern symplectic geometry. In my book of
+
+ 1967, e.g., I did not include his portrait in the historical gallery at the beginning
+
+ of the book. Indirectly, perhaps ... My own history of the symplectic approach is
+
+ given on page 131 (notes for Chapter 3) of the first edition [of Abraham ( 1967)].
+
+ In these notes the history of geometrical mechanics is summarized in one paragraph
+ as follows:
+
+ This version of mechanics has been slowly evolving since Cartan [Cartan
+ (1922)]. The first modern exposition of Hamiltonian systems on symplectic
+
+ manifolds seems to be due to Reeb [Reeb (1952)] in 1952. An early version of
+
+ Lagrangian systems in this context appears in Mackey [Mackey (1963)]. This
+
+ formulation of mechanics was widely known in mathematical circles by 1962,
+
+ and is explained in a letter by Richard Palais that circulated privately at about
+ that time. This and other material from §14 and §15 [of Abraham (1967)] can
+
+ also be found in Sternberg [Sternberg (1964)], Jost [Jost (1964)], and Hermann
+ [Hermann (1962)].
+
+ When asked the same question, S. Sternberg, whom Abraham lists as one of his
+
+ direct influences, wrote (Sternberg, private communication):
+
+ I believe that Wintner, in his book The Analytic Foundations of Celestial Mechan
+
+ ics was the first to tie in (linear) "canonical relations" with the symplectic
+
+ group as discussed in the indigestible book The Classical Groups by Hermann
+
+ Weyl.
+
+ <£) Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 09:59:34 UTC
+All use subject to https://about.jstor.org/terms
+
+ Whittaker's analytical dynamics 399
+
+ Indeed, the paper van Kampen and Wintner (1936), which Aurel Wintner wrote with
+
+ E. R. van Kampen, is an extension to general canonical transformations of the results
+
+ in Wintner (1934), whose subject is what is now called linear symplectic geometry.
+
+ In van Kampen and Wintner (1936, §4, p. 855), a canonical transformation is defined
+ as follows:
+
+ Suppose that the 2n functions (of 2n + 1 variables [X = (jci X2„) and f])
+ which occur in [the] transformation formulae [E = E(X; r)] have continuous
+
+ partial derivatives of the second order and that the transformation determines
+
+ for every fixed t a locally one-to-one correspondence between the phase-spaces,
+
+ the 2n-rowed Jacobian being everywhere distinct from zero. A transformation
+ [E = Y(X: f)] which satisfies these requirements is said to be a canonical
+
+ transformation if it transforms every canonical system [(3.2)] into a system of
+
+ differential equations which is again canonical.
+
+ As the authors note, although the transformed system is required to be canonical, its
+
+ Hamiltonian function need not coincide with that of the target phase-space; when it
+
+ does, they call the transformation completely canonical. In van Kampen and Wintner
+
+ ( 1936, §7, p. 857) characterize canonical transformations are characterized in terms
+
+ of the Jacobian with respect to X — (x\,... , X2„) of the transformation E = Y(x: t).
+ Let C be the Jacobian and let
+
+ where c is the identity matrix and co the zero matrix, both of size nxn. Assuming that
+ the Hamiltonian h is time independent, their characterization amounts to the statement
+ that
+
+ E = E(jc) is a canonical transformation if and only if there exists a constant s
+
+ such that C'GC = sG, where the prime is taken to mean transposition.
+
+ In this case, the Hamiltonian of the transformed system is sh. Thus, a transforma
+
+ tion will be completely canonical when j = 1. Wintner and van Kampen warn their
+
+ readers that the traditional approach to canonical transformation, as presented, for
+
+ instance, in Prange's article Prange (1935) in the Encyklopädie der Mathematischen
+
+ Wissenschaften starts with the tacit assumption that 5 = 1. As Arnold points out
+
+ (Arnold 1989, p. 239), in the volume Mechanics of their famous Course of Theoret
+
+ ical Physics Landau and Lifschitz (1976, §145, p. 143) mistakenly "prove" that all
+
+ canonical transformations are completely canonical. No similar mistake will be found
+
+ in Analytical Dynamics, where all contact transformations, as defined in §125 of the
+
+ first edition, are automatically completely canonical, a fact proved by van Kampen
+
+ and Wintner in §12 of their paper (van Kampen and Wintner 1936, p. 861).
+
+ Incidentally, Whittaker's book is not listed as a reference in van Kampen and Wint
+
+ ner ( 1936) or Wintner ( 1934); however, both papers cite Birkhoff's Dynamical Systems
+
+ Birkhoff (1927) and Lezioni di meccanica razionale by T. Levi-Civita and U. Amaldi
+ Levi-Civita and Amaldi (1927). More surprisingly, Analytical Dynamics is also not
+
+ a reference in Wintner's The Analytical Foundations of Celestial Mechanics Wintner
+
+ <0 Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 09:59:34 UTC
+All use subject to https://about.jstor.org/terms
+
+ 400 S. C. Coutinho
+
+ (1941), where an exposition of his joint work with van Kampen on canonical transfor
+
+ mations can be found in Chapter 1. It should also be noted that in both van Kampen
+
+ and Wintner (1936) and Wintner (1941) Wintner understands by phase space a 2n
+ dimensional euclidean space. Although manifolds are absent from Wintner's work,
+
+ he has full command, unlike Whittaker, of the difference between local and global
+
+ properties. Thus, in the Preface of Wintner (1941), he says that:
+
+ In chapter I, emphasis is laid on a careful distinction between formal questions,
+
+ which are always local in nature, and questions in the large, which are the actual
+
+ problems of mathematical dynamics.
+
+ For a discussion of the use of the expression "in the large" in the early twentieth
+
+ century see Chorlay (2011).
+
+ Having called attention to Wintner's priority in relating symplectic maps to canon
+
+ ical transformations, Sternberg (Private communication) adds:
+
+ Although Prof. Wintner was my teacher and PhD advisor, I had not read his Ana
+
+ lytic Foundations as a student. My introduction to celestial mechanics came from
+
+ Carl Ludwig Siegel. Prof. Siegel gave a course in 1953 on celestial mechanics at
+
+ Johns Hopkins where I was a student. It was of course, amazing, dealing mainly
+
+ with his mastery of the problem of small divisors, but also with Bruns theorem
+
+ etc. I remember this course vividly, and had some correspondence with him. He
+
+ wrote the book Vorlesungen Uber Himmelsmechanik [Siegel (1956)], based on
+
+ this course, and this later morphed into Moser-Siegel [Siegel and Moser (1971)].
+
+ This brings us to another main contributor to the development of the symplectic
+ approach, C. L. Siegel. His paper Symplectic Geometry Siegel (1943), begins with
+ an introduction to linear symplectic geometry that covers essentially the same ground
+
+ as Wintner had done in Wintner (1941). However, although Siegel had published on
+
+ celestial mechanics, his aim in Siegel (1943) is to contribute to the then incipient
+
+ theory of several complex variables. More precisely, he decomposes an n x n sym
+
+ metric matrix with complex coefficients into real and imaginary parts and considers
+
+ the domain H formed by those symmetric matrices whose imaginary part is positive
+
+ definite. This domain, he claims, "is a generalization of the upper half-plane". The
+
+ symplectic group first appears in Theorem 1: "Every analytic mapping of H onto
+
+ itself is symplectic", (Siegel 1943, p. 3). Given Siegel's motivation, it is not surprising
+
+ that although he devotes Part II of his paper (Siegel 1943, pp. 8-16) to the symplec
+
+ tic group, he never refers to its being connected with the canonical transformations
+
+ of classical mechanics. It is only in his book Siegel (1956), mentioned by Sternberg
+
+ in the comment quoted above, that Siegel makes clear the connection between the
+
+ symplectic group and canonical transformations. Siegel's presentation prompted S. P.
+
+ Diliberto to note in his review Diliberto (1958) of Siegel (1956) that:
+
+ The first sections of Part I have a short but sound introduction to Lagrangian
+
+ derivatives, canonical transformations, and Hamilton- Jacobi theory, all treated
+
+ in a style to which they are not accustomed.
+
+ Ô Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 09:59:34 UTC
+All use subject to https://about.jstor.org/terms
+
+ Whittaker's analytical dynamics 401
+
+ Diliberto's review is full of superlatives, right from the first paragraph, where he claims
+
+ that the appearance of Siegel's book is "certainly one of the great mathematical events
+
+ Despite of his enthusiasm for Siegel's course, Sternberg (Private communication)
+
+ of the century".
+
+ says:
+
+ What really inspired me, however, was a visiting lecture by Prof. S.S. Chern.
+
+ I was so taken by his version of mathematics that I managed to spend several
+
+ summers at the University of Chicago where I attended his lectures, and was later
+
+ fortunate to have been appointed an instructor there 1957-1959. Prof. Chern
+ (who had been a student of Elie Cartan) introduced me to the works of Cartan
+
+ which, in one form or another, have been a major portion of my preoccupations.
+
+ My introduction to what developed into the symplectic approach to mechanics
+
+ came from Cartan's great book, "Leçons sur les Invariants Intégraux" [Cartan
+ (1922)].
+
+ Cartan's book is also mentioned by Sternberg in the introduction of Sternberg ( 1964,
+
+ p. ix), where he says:
+
+ This book, like all Cartan's work, is rich in geometrical ideas. It is also quite
+
+ readable—once the reader gets accustomed to the language of infinitesimals.
+
+ Indeed, although the language of Cartan's Leçons may be somewhat antiquated, it
+
+ contains an exposition of the theory of differential forms and its application to problems
+
+ of mechanics that has a far more modern feel than that of Analytical Dynamics.
+
+ The reminiscences of J. Marsden in Marsden ( 1993) nicely complement these com
+
+ ments of Abraham and Sternberg. According to Marsden,
+
+ In the period 1960-1965 geometric mechanics was "in the air". Some key papers
+
+ were available, such as Arnold's work on KAM theory and a little had made it
+ into textbooks, such as Mackey's book on quantum mechanics and Sternberg's
+
+ book on differential geometry. In this period Steve [Smale] was working on his
+
+ dynamical systems program. His survey article Smale (1967) contained impor
+
+ tant remarks on how geometric mechanics (specifically Hamiltonian systems on
+
+ symplectic manifolds) fits into the larger dynamical system framework. In 1966
+
+ at Princeton, Abraham ran a seminar using a preprint of the survey article and it
+
+ was through this paper that I first encountered Smale's work.
+
+ As it might be expected, the published version of Smale's survey contains the modern
+
+ definition of symplectic manifold (Smale 1967, section III.I, p. 805). Smale gives
+
+ two references where the interested reader will find "a complete discussion of this
+
+ material", one of them is Sternberg's book Sternberg ( 1964), the other one is Abraham's
+ Abraham (1967).
+
+ The conclusion seems to be that the rôle that Analytical Dynamics played at the time
+
+ geometrical mechanics was being developed was that of a useful and self-contained
+
+ source for many classical results. Indeed, this is a rôle it continues to play, as a search
+ in MathSciNet will reveal. Between 2000 and 2012, Whittaker's book was cited in 111
+
+ papers (excluding those works of a purely historical nature). Moreover, these citations
+
+ are not limited to works on mechanics and astronomy, but also includes papers on linear
+
+ €) Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 09:59:34 UTC
+All use subject to https://about.jstor.org/terms
+
+ 402 S. C. Coutinho
+
+ algebra, ordinary and partial differential equations, dynamical systems, differential
+
+ geometry, global analysis, control systems and quantum mechanics.
+
+ Finally, it should be noted that in his short summary of the history of geometric
+
+ mechanics, quoted above, Abraham mentions Jost's paper Jost (1964), which begins:
+
+ It was P. A. M. Dirac who emphasised most strongly the significance of the
+ Poisson brackets in classical analytical dynamics [see, e.g., P. A. M. Dirac,
+ Quantum Mechanics [sic] (Claredon Press, Oxford, 1947), 3rd. ed., Sec. 21,
+
+ p. 84 and earlier editions]. He not only did this but also gave what turns out
+
+ to be a complete axiomatic characterization of the Poisson brackets [see Dirac,
+
+ Eqs. (2)—(6); see also our Sec. 4 (a—f)].
+
+ Of course, the book mentioned by Jost is Dirac's The Principles of Quantum Mechanics
+
+ Dirac (1947). Further on, Jost adds that
+
+ [...] Diracs [sic] axioms lead to a phase space with coordinates and canonically
+
+ conjugate momenta [...] Once this is established, the "correct procedure" consists
+
+ of course in a complete elimination of any kind of coordinates. The principle
+
+ [sic] results of general analytical dynamics have to be derived by the exclusive
+ use of Poisson brackets.
+
+ Given, as we have seen, that Dirac's approach to quantum mechanics was greatly
+
+ influenced by Whittaker's exposition of Poisson brackets, Analytical Dynamics has
+
+ arguably exerted an indirect influence on the development of geometrical mechan
+
+ ics through its rôle in the development of Dirac's version of quantum mechanics.
+
+ More details on the history of symplectic geometry and the development of geometric
+ mechanics can be found in Kosmann-Schwarzbach (2013).
+
+ 5.3 Conclusion
+
+ As the evidence gathered in this paper shows, Analytical Dynamics had a substantial
+
+ rôle to play in the development of mechanics in the twentieth century, although the
+
+ character of this rôle kept changing with the passing of time. At the time its first
+
+ edition was published, Analytical Dynamics was praised for expounding the state of
+
+ the art in the most advanced parts of mechanics, especially in Hamiltonian dynamics
+
+ and celestial mechanics; see Sect. 4 above. The early reviewers also noted that the
+
+ book presented the fundamental theory of dynamics in great generality, instead of
+
+ developing tools to deal with specific systems. This led to the book being criticized for
+
+ what was considered its excessive abstraction, with some suggesting that the inclusion
+
+ of a chapter on the transformation theory of dynamics (Chapter XI) was wasted space;
+
+ see Sect. 5.1 above. Whittaker's approach would be vindicated in the 1920s when this
+
+ very chapter turned out to contain the tools that allowed Dirac to develop his version
+
+ of quantum mechanics. This was possible because Whittaker turned to continental
+
+ authors like Jacobi, Lie and Poincaré, who influenced both the subject matter and
+
+ the style of the book. The great degree of generality of Whittaker's approach has also
+
+ been one of the keys to the remarkable longevity of his book. Indeed, Routh's treatises,
+
+ even the more advanced ones, look very dated when compared with most books on
+
+ £) Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 09:59:34 UTC
+All use subject to https://about.jstor.org/terms
+
+ Whittaker's analytical dynamics 403
+
+ mechanics written since 1950. This applies both to Routh's choice of topics and to
+
+ his presentation. The same cannot be said about Analytical Dynamics. Except for the
+
+ absence of any tools of global analysis (manifolds, tangent and cotangent bundle), the
+
+ choice of topics is very close to that of a modern text like Arnold ( 1989).
+
+ Of course, like all human artifacts, Whittaker's book is limited, in many ways, by
+
+ the practices of the time and place at which it was written; in this case, early twentieth
+
+ century Cambridge. For example, convergence questions are usually handled in a very
+
+ cavalier fashion, and no clear distinction is made between results that hold globally and
+
+ those that hold only locally. Actually, some limitations were clear even to the reviewers
+
+ of the first edition, as is the case with G. H. Bryan's criticism of the artificial nature
+
+ of many of the exercises proposed by Whittaker. Chosen from college examinations
+
+ and the mathematical tripos, they were a remnant of nineteenth century Cambridge
+
+ and would soon be relegated to the past. Paradoxically, some of the characteristics that
+
+ make the book seem dated, like the frequent use of elliptic functions, may be one of the
+
+ reasons why it has remained useful to this day. As one reviewer Sneddon ( 1980) put
+
+ it, Analytical Dynamics "crystallized" the "theoretical work of the century and more
+
+ after the death of Lagrange" and remains a rich repository of results that otherwise
+
+ would have been scattered in hard to find historical periodicals published in several
+
+ different languages.
+
+ One final question remains: what were the qualities that allowed Whittaker to write
+
+ a book—actually two, for Modern Analysis has proved to be as longevous as Analytical
+
+ Dynamics—that remains useful to mathematicians working in several different areas,
+
+ more than one hundred years after it was written? The analysis in the previous sections
+
+ suggests that this was in good measure due to Whittaker's great knowledge of the
+
+ literature and to his ability to organize this knowledge in a systematic way. Moreover,
+
+ his reading was not limited to contemporaneous works, it also encompassed the classics
+
+ of the 18th and 19th centuries. The most notorious result of Whittaker's familiarity
+
+ with the classical mathematical and physical literature was his A history of the theories
+
+ of aether and electricity Whittaker (1910), which he revised in 1951 Whittaker ( 1951 )
+
+ and to which he added a new volume Whittaker (1953) two years later, to cover the
+
+ period from 1900 to 1926. However, Whittaker's scholarship is present in all of his
+
+ books, markedly so in Analytical Dynamics, where it is most evident in his choice of
+
+ topics and in the huge number of very precise citations of books and papers dating
+
+ back to the eighteenth century that appear in the footnotes of most pages of all editions
+ after the second. It seems to me that the success of Whittaker's books owes much to
+
+ the fact that he was one of that rare breed, a scientist who is also a scholar, of which
+
+ D'Arcy Thompson is probably the best known representative. People whose research
+
+ may not have been exceptional, but whose great knowledge of the literature, including
+
+ historical works, allowed them to "crystallize" in their books a vision of a whole
+
+ subject that would greatly influence later generations.
+
+ References
+
+ Ahmed, N„ and Q.K. Ghori. 1984. Levi-Civita's theorem for dynamical equations with constraint multi
+
+ pliers. Archive for Rational Mechanics and Analysis 85: 1-13.
+
+ •Ö Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 09:59:34 UTC
+All use subject to https://about.jstor.org/terms
+
+ Abraham, R. 1967. Foundations of mechanics: A mathematical exposition of classical mechanics with an
+
+ introduction to the qualitative theory of dynamical systems and applications to the three-body problem,
+
+ with the assistance ofJerrold E. Marsden. New York: W.A. Benjamin.
+
+ Arnold, V.l. 1989. Mathematical methods of classical mechanics, 2nd ed. Berlin: Springer.
+
+ Arnold, V.l., V. V. Kozlov, and A.I. Neishadt. 1997. Mathematical aspects of classical and celestial mechan
+
+ ics, 2nd ed. Berlin: Springer.
+
+ Barrow-Green, J. 2002. Whittaker and Watson's 'Modern Analysis'. European Mathematical Society
+
+ 404 S. C. Coutinho
+
+ Newsletter 45: 14-15.
+
+ Barrow-Green, J. 1997. Poincaré and the three body problem. American Mathematical Society and London
+
+ Mathematical Society. Providence: AMS Press.
+
+ Bairstow, L.E. 1933. George Hartley Bryan. Obit Not Fell R Soc 1: 139-142.
+
+ Besant, W.H. 1893. A treatise on dynamics. Cambridge: Deighton Bell.
+
+ Birkhoff, G.D. 1920. Review of a treatise of analytical dynamics. Bulletin of the American Mathematical
+
+ Birkhoff, G.D. 1927. Dynamical systems. Colloquium Publications IX, American Mathematical Society
+
+ Society 26: 183.
+
+ (1927).
+
+ Bryan, G.H. 1905. Three Cambridge mathematical works. Nature 71: 601-603.
+ Bryan, G.H. 1918. Analytical dynamics. Nature 100: 363-364.
+
+ Burnside, W. 1897. Theory of groups of finite order. Cambridge: Cambridge University Press.
+
+ Cartan, E. 1922. Leçons sur les Invariant Intégraux. Paris: Hermann.
+
+ Cherry, T.M. 1928. Review of Birkhoff's dynamical systems and the third edition of Whittaker's analytical
+
+ dynamics. Mathematical Gazette 195: 198-199.
+
+ Chorlay, R. 2011. "Local-Global": the first twenty years. Archive for History of Exact Sciences 65: 1-66.
+ Creese, M.R.S., and T.M. Creese. 2004. Ladies in the laboratory 2. New York: Scarecrow Press.
+
+ Crowe, M.J. 1967. A history of vector analysis: The evolution of the idea of a vectorial system. New York:
+
+ Dover.
+
+ Culverwell, The discrimination of maxima and minima values of single integrals with any number of
+
+ dependent variables and any continuous restrictions of the variables, the limiting values of the variables
+ being supposed given, Proc. London Math. Soc. 23 (1892), 241-265.
+
+ Diliberto, S.P. 1958. Review of Carl Ludwig Siegel's Vorlesungen über Himmelsmechanik. Bulletin of the
+
+ Dirac, P. A.M. 1926. The fundamental equations of quantum mechanics. Proceedings of the Royal Society
+
+ American Mathematical Society 64: 192-196.
+
+ A 109: 642-653; also in [105, 307-320],
+
+ Dirac, P. A.M. 1926. Quantum mechanics and a preliminary investigation of the Hydrogen atom. Proceedings
+
+ of the Royal Society A 110: 561-569; also in [105, p. 417-427],
+
+ Dirac, P. A.M. 1947. The principles of quantum mechanics, 3rd ed. Oxford: Oxford University Press.
+ Fictitious problems in mathematics. Nature (72) (1905), pp. 56,78, 102, 127 and 175.
+ GBM 1917. DR. W. H. BESANT, F.R.S. Nature 99: 310-311.
+
+ Geiges, H. 2001. A brief history of contact geometry and topology. Expositiones Mathematicae 19:
+
+ 25-53.
+
+ Goldstein, H. 1950. Classical mechanics. Reading: Addison-Wesley.
+
+ Goriely, A. 2001. lntegrability and nonintegrability of dynamical systems, advanced series in nonlinear
+
+ dynamics, vol. 19. Singapore: World Scientific.
+
+ Gray, C.G., and E.F. Taylor. 2007. When action is not least. American Journal of Physics 75: 434-458.
+
+ Hamilton, W.R. 1828. Theory of systems of rays. Transactions of the Royal Irish Academy 15:69-174.
+
+ Hamilton, W.R. 1830. Supplement to an essay on the theory of systems of rays. Transactions of the Royal
+
+ Hamilton, W.R. 1831. Second supplement to an essay on the theory of systems of rays. Transactions of the
+
+ Irish Academy 16(part I): 1-61.
+
+ Royal Irish Academy 16(part II): 93-125.
+
+ Royal Irish Academy 17: 1-144.
+
+ 187-278.
+
+ ley: University of California, Berkeley.
+
+ Hamilton, W.R. 1837. Third supplement to an essay on the theory of systems of rays. Transactions of the
+
+ Hawkins, T. 1991. Jacobi and the birth of Lie's theory of groups. Archive for History of Exact Sciences 42:
+
+ Hermann, R. 1962. Lectures on Hamilton-Jacobi-Lie theory and the calculus of variations, I, Notes. Berke
+
+ Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 09:59:34 UTC
+All use subject to https://about.jstor.org/terms
+
+ Whittaker's analytical dynamics 405
+
+ Hill. G.W. 1886. On the part of the motion of the lunar perigee which is a function of the mean motions
+
+ of the sun and the moon. Cambridge. MA: Press of John Wilson & Son; also Acta 8. 1-36 and in (Hill
+ 1905-1907, Volume I, pp. 243-270).
+
+ Hill, G.W. 1905-1907. The collected mathematical works of George William Hill. The Carnegie Institution
+
+ Horneffer, K. 1988. Review of the 1988 reprint of a treatise on the analytical dynamics of particles and
+
+ of Washington.
+
+ rigid bodies, Zentralblatt Zbl 0665.70002.
+
+ of the United States of America 2: 278-283.
+
+ National Academy of Sciences.
+
+ Hunsaker, J.C. 1916. Dynamical stability of aeroplanes. Proceedings of the National Academy of Sciences
+
+ Hunsaker, J„ and S. MacLane. 1973. Edwin Bidwell Wilson (1879-1964). Biographical Memoir of the
+
+ Jacobi, C.G.J. 1837. Zur Theorie der Variationsrechnung und der Differentialgleichungen. Journal für die
+
+ angewandte Mathematik 17: 68-82; also in (Jacobi 1881. Volume IV, pp. 39-55).
+
+ Jacobi, C.G.J. 1838. Sur le calcul des variations et sur la Thörie des équations différentielles. Journal de
+
+ Mathématiques Pures et Appliquées. Série 1(3): 44-59.
+
+ Jacobi, C.G.J. 2009. Vorlesungen über analytische Mechanik, second edition, edited by A. Clebsch, Georg
+
+ Reimer (1866); translated as Jacobi's Lectures on Dynamics, Hindustan Book Agency.
+
+ Jacobi. C.G.J. 1881. Gesammelte Werke, edited by C. W. Borchardt. E. Lottner. K. T. W. Weierstrass,
+
+ 7 volumes.
+
+ Jordan. C. 1870. Traité des substituitions. Paris: Gauthier-Villars.
+
+ Jost. R. 1964. Poisson brackets: (an unpedagogical lecture). Review of Modern Physics 36: 572-579.
+
+ Jourdain, E.P. 1917. Review of the first edition of "A Treatise on the Analytical Dynamics of Particles and
+
+ Rigid Bodies". Mathematical Gazette 131: 145-146.
+
+ Jourdain, E.P. 1917-1918. Review of the first edition of "A Treatise on the Analytical Dynamics of Particles
+
+ and Rigid Bodies". Science Progress in the Twentieth Century 12: 345.
+
+ Julliard-Tosel, E. 2000. Bruns' theorem: The proof and some generalizations. Celestial Mechanics and
+
+ Kline. M. 1990. Mathematical thought from ancient to modern times, vol. 2. Oxford: Oxford University
+
+ Dynamical Astronomy 76: 241 -281.
+
+ Press.
+
+ Kosmann-Schwarzbach, Y. 2013, La géométrie de Poisson, création du XXe' siècle. In Siméon-Denis Pois
+
+ son: Les mathématiques au service de la science, edited by Yvette Kosmann-Schwarzbach, Les Éditions
+ de l'École polytechnique, pp. 129-172.
+
+ Kragh. H. 1990. Dirac: A scientific biography. Cambridge: Cambridge University Press.
+
+ Lagrange. J.-L. 1760/1761. Application de la méthode exposée dans la mémoire précédent a la solution
+ de différents problèmes de dynamique. Miscellanea Taurinensia 2: 196-268: also in [59, t. I (1867),
+ 365-468],
+
+ Lagrange. J.-L. 1808. Mémoire sur las théorie des variations des éléments des planètes et en particulier des
+
+ grandes axes de leurs orbites, Mém. de 1*Institute de France, also in [59, t, VI. 711-768].
+
+ Lagrange. J.-L. 1810. Second mémoire sur las théorie de la variation des arbitraires dans le problèmees
+ de mécanique, dans lequel on simplifie l'application des formules générales a ces problèmes, Mém. de
+ 1'Institute de France, also in (Lagrange 1867-1892, t. VI, 809-816).
+
+ Lagrange. J.-L. Mécanique Analytique, quatrième édition, publié par Gaston Darboux. Gauthier-Villars t.
+
+ 1(1888). 1.11(1889).
+
+ Lagrange. J.-L. 1867-1892. Oeuvres de Lagrange, Gauthier-Villars.
+ Lampe. E. 1918. Review of the first edition of "A Treatise on the Analytical Dynamics of Particles and
+
+ Rigid Bodies", Jahrbuch über die Fortschritte der Mathematik, 35.0682.01.
+
+ Landau, L.D., and E.M. Lifschitz. 1976. Mechanics, course o theoretical physics, vol. 1.3rd ed. Amsterdam:
+
+ Levi-Civita, T., and U. Amaldi. 1927. Lezioni di Meccanica Rationale, vol. II. part 2. Bologna: Nicola
+
+ Elsevier.
+
+ Zanichelli.
+
+ XX: 137-138.
+
+ 238-240.
+
+ Lie, S. 1872. Zur Theorie partieller Differentialgleichungen, Göttinger Nachrichten, 480.
+
+ Liebmann, H. 1914. Berührungstransformation in Encyklopädie der mathematischen Wissenschaften mit
+
+ Einschluss ihrer Anwendungen III.D.7:441-502.
+
+ Liouville, J. 1855. Note sur les équations de la Dynamique. Journal des Mathématiques Pures et Appliquées
+
+ Love, A.E.H. 1929. George Hartley Bryan. Journal of London Mathematical Society Series 1(4):
+
+ <£) Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 09:59:34 UTC
+All use subject to https://about.jstor.org/terms
+
+ Lützen, J. 1990, Joseph Liouville 1809-1882: master of pure and applied mathematics, Studies in the
+
+ History of Mathematics and Physical Sciences, 15. Berlin: Springer.
+
+ Mackey, G.W. 1963. Mathematical foundations of quantum mechanics. New York: W.A. Benjamin.
+
+ Marsden, J. 1993. Steve Smale and geometric mechanics in Topology to Computation: Proceedings of the
+
+ Smalefest (Berkeley, CA, 1990), Springer, 499-516.
+
+ McCrea, W.H. 1957. Edmund Taylor Whittaker. Journal of the London Mathematical Society 32:234-256.
+
+ Marie, C.-M. 2009. The inception of symplectic geometry: the works of Lagrange and Poisson during the
+
+ years 1808-1810. Letters in Mathematical Physics 90: 3-21.
+
+ Martin, D. 1958. Sir Edmund Taylor Whittaker, F.R.S. Proceedings of the Edinburgh Mathematical Society
+
+ 406 S. C. Coutinho
+
+ (2)11:1-10.
+
+ Mathieu, E. 1874. Mémoire sur les équations différentielles canoniques de la mécanique. Journal des
+
+ Mathématiques Pures et Appliquées 19: 265-306.
+
+ Maxwell, J.C. 1954. A treatise on electricity and magnetism, vol. 1. New York: Dover.
+
+ Philip Edward Bertrand Jourdain. Proc London Math Soc 19: 59-60 (1921).
+ Poincaré, H. Mémoire sur les fonctions zétafuchsiennes. Acta Mathematica IV (1884), 211-278; also in
+
+ Poincaré, H. 1890. Sur le problème des trois corps et les équations de la dynamique. Acta 13 1-270 also in
+
+ (Poincaré 1916-1954, Volume 2, pp. 402-462).
+
+ (Poincaré 1916-1954, Volume VII, 262-479).
+
+ Poincaré, H. 1899. Les méthodes nouvelles de la mécanique céleste, Gauthier-Villars, 1.1 ( 1892), t. II ( 1893),
+
+ 1.111(1899).
+
+ Poincaré. H. 1910. Leçons de mécanique céleste : professées à la Sorbonne, Gauthier-Villars 1.1(1905),
+
+ t. II partie 1 (1907), t. II partie 2 (1909), t. III (1910).
+
+ Poincaré, H. 1916-1954. Oeuvres de Henri Poincaré, 12 volumes, Gauthier-Villars.
+
+ Poisson, S.-D. 1809. Sur la variation des constants arbitraires dans le question de Mécanique. Journal de
+
+ l'Ecole Polytechnique, 15éme cahier VIII: 266-344.
+
+ Prange, G. 1935. Die Allgemeinen Integrationsmethoden der Analytischen Mechanik, Encyklopädie der
+
+ Mathematischen Wissenschaften IV.12.U13, 505-804.
+
+ Pulte, H. 2005. Joseph Louis Lagrange, Méchanique Analitique. First Edition (1788), in Landmark Writings
+
+ in Western Mathematics 1640-1940, edited by I. Grattan-Guiness, Elsevier.
+
+ Reeb, G. 1952. Sur certaines propriétés topologiques des trajectoires des systèmes dynamiques, Acad. Roy.
+
+ Routh, E.J. 1860. An elementary treatise on the dynamics of a system of rigid bodies: With numerous
+
+ Belgique, Cl. Sei., Mém., Coll. 8° 27(9), 64 S.
+
+ examples. London: MacMillan.
+
+ Routh, E.J. 1882. The elementary part of a treatise on the dynamics of a system of rigid bodies, being part
+
+ I of a treatise on the whole subject. London: MacMillan.
+
+ Routh, E.J. 1884. The advanced part of a treatise on the dynamics of a system of rigid bodies, being part
+
+ II of a treatise on the whole subject. London: MacMillan.
+
+ Routh, E.J. 1891. A treatise on analytic statics. Cambridge: Cambridge University Press.
+ Routh, E.J. 1898. A treatise on dynamics of a particle with numerous examples. Cambridge: Cambridge
+
+ Siegel, C.L. 1943. Symplectic geometry. American Journal of Mathematics 65: 1-86.
+
+ Siegel, C.L. 1956. Vorlesungen über Himmelsmechanik. Berlin: Springer.
+
+ Siegel, C.L., and J. Moser. 1971. Lectures on celestial mechanics, translation by Charles I. Kalme. Berlin:
+
+ Smale, S. 1967. Differentiable dynamical systems. Bulletin of the American Mathematical Society 73:
+
+ University Press.
+
+ Springer.
+
+ 747-817.
+
+ Sneddon, I.N. 1980. Review of "Mathematical methods of classical mechanics" and "A course of mathe
+
+ matical physics, vol. 1 : Classical dynamical systems". Bulletin of the American Mathematical Society
+ (N.S.) 2: 346-352.
+
+ Souriau, J.M. 1970. Structure des systèmes dynamiques. Paris: Dunod.
+
+ Sommerfeld, A. 1921. Atombau und Spektrallinien, 2nd ed. Braunschweig: Friedr. Vieweg & Sohn.
+
+ Sternberg, S. 1964. Lectures on differential geometry. Englewood Cliffs: Prentice-Hall.
+
+ Sternberg, S. 1980. Review of Ralph Abraham and Jerrold E. Marsden, "Foundations of mechanics". Bulletin
+
+ of the American Mathematical Society (N.S.) 2: 378-387.
+
+ Temple, G. 1956. Edmund Taylor Whittaker. Biographical memoirs of fellows of the royal society 2:
+
+ 299-325.
+
+ Ô Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 09:59:34 UTC
+All use subject to https://about.jstor.org/terms
+
+ Thirring, W. 1978. A course of mathematical physics, vol. I. translated by Evans M. Hurrel. Berlin:
+
+ Whittaker's analytical dynamics 407
+
+ Springer.
+
+ Todhunter, I. 1962. A history of the calculus of variations during the nineteenth century. Berlin: Chelsea.
+
+ Truesdell. C. 1984. An idiot's fugitive essays on science. Berlin: Springer.
+
+ van Kampen, E.R.,and A. Wintner. 1936. On the canonical transformations of Hamiltonian systems. Amer
+
+ ican Journal of Mathematics 58: 851-863.
+
+ van der Waerden, B.L. 1967. Sources of quantum mechanics. New York: Dover.
+
+ Verhulst, F. 2012. Henri Poincaré: impatient genius. Berlin: Springer.
+
+ Warwick, A. 2003. Masters of theory: Cambridge and the rise of mathematical theory. Chicago.
+
+ Watson, G.N., and E.T. Whittaker. 1963. A course of modern analysis. 4th ed. Cambridge: Cambridge
+
+ University Press.
+
+ Weyl, H. 1939. The classical groups. Englewood Cliffs: Princeton.
+
+ Whittaker, E.T. 1900. Report on the progress of the solution of the problem of three bodies, in Report of
+
+ the Sixty-Ninth Meeting of the British Association for the Advancement of Science held at Dover in
+
+ September 1899, John Murray.
+
+ Whittaker, E.T. 1902. On the solution of dynamical problems in terms of trigonometric series. Proceedings
+
+ of the London Mathematical Society 34: 206-221.
+
+ Whittaker, E.T. 1940. The Hamiltonian revival. The Mathematical Gazette 24(260): 153-158.
+
+ Whittaker, E.T. 1904. A treatise on the analytical dynamics of particles and rigid bodies. I st ed. Cambridge:
+
+ Cambridge University Press.
+
+ Whittaker, E.T. 1910. A history of the theories of aether and electricity from the age of Descartes to the
+
+ close of the nineteenth century. London: Longmans.
+
+ Whittaker, E.T. 1917. A treatise on the analytical dynamics of particles and rigid bodies. 2nd edn. Cam
+
+ bridge: Cambridge University Press. Reprinted by Pranava Books (2008).
+
+ Whittaker, E.T. 1999. A treatise on the analytical dynamics of particles and rigid bodies, reprint of the
+
+ fourth edition with a forward by W. H. McCrea, Cambridge University Press, Cambridge.
+
+ Whittaker, E.T. 1916-1917. On the Adelphic integral of the differential equations of dynamics. Proceedings
+
+ of the Royal Society of Edinburgh 37: 95-116.
+
+ Whittaker, E.T. 1951. A history of the theories of aether and electricity: The classical theories. London:
+
+ Whittaker, E.T. 1953. A history of the theories of aether and electricity: The modern theories 1900-1926.
+
+ Nelson.
+
+ London: Nelson.
+
+ Wilson, E.B. 1901. Vector analysis: A text-bookfor the use of students of Mathematics and Physics founded
+
+ upon the lectures of J. Willard Gibbs. New York: Charles Scribner's Sons.
+
+ Wilson, E.B. 1906. Review of the first edition of "A Treatise on the Analytical Dynamics of Particles and
+
+ Rigid Bodies". Bulletin of the American Mathematical Society 12: 451—458.
+
+ Wintner, A. 1934. On the linear conservative dynamical systems. Annali di Matematica Serial V 13: 14-112.
+
+ Wintner, A. 1941. The analyticalfoundations ofcelestial mechanics. Englewood Cliffs: Princeton University
+
+ Press.
+
+ Ô Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 09:59:34 UTC
+All use subject to https://about.jstor.org/terms
+
+

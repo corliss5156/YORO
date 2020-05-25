@@ -1,0 +1,2307 @@
+ 
+
+ 
+
+ 
+
+ 
+
+Variations on a theme: Clifford's parallelism in elliptic space
+Author(s): Alberto Cogliati
+Source: Archive for History of Exact Sciences, Vol. 69, No. 4 (July 2015), pp. 363-390
+Published by: Springer
+Stable URL: https://www.jstor.org/stable/24569565
+Accessed: 18-05-2020 09:15 UTC
+
+ 
+REFERENCES 
+Linked references are available on JSTOR for this article:
+https://www.jstor.org/stable/24569565?seq=1&cid=pdf-reference#references_tab_contents 
+You may need to log in to JSTOR to access the linked references.
+
+JSTOR is a not-for-profit service that helps scholars, researchers, and students discover, use, and build upon a wide
+
+range of content in a trusted digital archive. We use information technology and tools to increase productivity and
+
+facilitate new forms of scholarship. For more information about JSTOR, please contact support@jstor.org.
+
+Your use of the JSTOR archive indicates your acceptance of the Terms & Conditions of Use, available at
+
+https://about.jstor.org/terms
+
+Springer is collaborating with JSTOR to digitize, preserve and extend access to Archive for
+History of Exact Sciences
+
+This content downloaded from 203.78.15.150 on Mon, 18 May 2020 09:15:55 UTC
+All use subject to https://about.jstor.org/terms
+
+ Arch. Hist. Exact Sci. (2015) 69:363-390 rwsMarV
+ DOI 10.1007/s00407-015-0154-z VB'
+
+ Variations on a theme: Clifford's parallelism
+ in elliptic space
+
+ Alberto Cogliati1
+
+ Received: 2 February 2015 / Published online: 12 May 2015
+
+ © Springer-Verlag Berlin Heidelberg 2015
+
+ Abstract In 1873, W. K. Clifford introduced a notion of parallelism in the three
+
+ dimensional elliptic space that, quite surprisingly, exhibits almost all properties of
+
+ Euclidean parallelism in ordinary space. The purpose of this paper is to describe the
+
+ genesis of this notion in Clifford's works and to provide a historical analysis of its
+ reception in the investigations of F. Klein, L. Bianchi, G. Fubini, and E. Bortolotti.
+
+ Special emphasis is placed upon the important role that Clifford's parallelism played
+
+ in the development of the theory of connections.
+
+ Contents
+
+ 1 Introduction 364
+
+ 2 A new kind of parallelism in elliptic space 366
+ 3 Klein's Zur Nicht-Euklidischen Geometrie 371
+
+ 4 An approach based upon differential geometry: Bianchi and Fubini .... 376
+
+ 5 Absolute parallelism versus Levi-Civita's parallelism: Enea Bortolotti . . . 379
+ 6 Conclusions 385
+
+ Appendix 386
+ References 388
+
+ Communicated by: Jeremy Gray.
+
+ H Alberto Cogliati
+
+ alberto.cogliati@unimi.it
+
+ Springe
+
+This content downloaded from 203.78.15.150 on Mon, 18 May 2020 09:15:55 UTC
+All use subject to https://about.jstor.org/terms
+
+ Dipartimento di Matematica, F. Enriques, Université degli Studi di Milano, Milan, Italy
+
+ 364 A. Cogliati
+
+ 1 Introduction
+
+ Euclidean parallelism in ordinary 3-space can be defined in a number of equivalent
+
+ ways. According to Zacharias,1 possible definitions can be grouped into three classes:
+
+ Straight lines can be considered to be parallel when (i) they lie in the same plane and
+
+ they do not intersect; (ii) they have the same direction; and (iii) they are equidistant.
+
+ A notion of parallelism can be attributed to non-Euclidean geometries too, but,
+
+ depending on the geometrical setting, namely hyperbolic or elliptic, to use a denomi
+
+ nation introduced by Klein, one has to single out a particular characterization among
+
+ the three just mentioned. Indeed, it is only in the Euclidean case that all of the three
+
+ groups of definitions turn out to be equivalent.
+
+ For example, in order to introduce Lobachevsky's parallelism in (real) hyperbolic
+
+ space, one can adopt the first characterization and define two parallels to a given
+
+ line as those limit lines that separate concurrent lines from those that are not. By
+
+ employing Cayley-Klein projective model,2 one can define Lobachevsky's parallels
+
+ to a given line as those two lines that intersect the given line at a point of the absolute
+
+ (ruled) quadric. In other words, one may define two lines to be parallel in the sense
+
+ of Lobachevsky if they meet the same couple of generators of the absolute quadric
+
+ (i.e., the canonical quadric of hyperbolic space) that belongs to different systems (of
+
+ generators). It might be helpful to recall that every point of a ruled quadric is obtained
+
+ as the intersection of two straight lines that lie upon the quadric. All these straight
+
+ lines can be grouped into two systems: Lines that belong to the same system are skew,
+
+ while lines belonging to different systems always intersect in a point of the quadric
+
+ itself.3 In view of this definition, it is clear, for example, that property (iii) must be
+ surrendered.
+
+ It is a discovery due to Clifford that a kind of parallelism could also be introduced
+
+ in elliptic 3-space. The notion can be most easily understood using the Cayley-Klein
+ projective model of elliptic space. Contrary to the definition of parallelism adopted
+
+ in the hyperbolic case, we cannot require that two real lines meet at a point of the
+ fundamental quadric for the simple reason that there are no distinct real lines in
+
+ the elliptic case that meet at a point of the absolute quadric.4 Nonetheless, since in
+ this case too the quadric admits a double system of (imaginary) generators, we can
+
+ define two straight lines to be parallel if they meet two generators that belong to
+
+ the same system of generators. This requires us to consider complex extensions of
+
+ straight lines to the complex extension of P3(R).5 It turns out that such parallels are
+
+ skew lines (i.e., they are not coplanar) that are also equidistant. Furthermore, there
+
+ exist motions (i.e., isometries of the elliptic space) that have the property of leaving
+
+ 1 Zacharias (1913, pp. 870-871); see also Vaney (1929, pp. 1-2).
+
+ 2 On Cayley-Klein projective models of non-Euclidean geometries, one can consult Giering 1982).
+
+ 3 In this connection see, for example, (Castelnuovo 1904, p. 633) or the appendix at the end of the present
+
+ paper.
+
+ 4 See in this respect Klein (1928, p. 236) and also Klein (1928, p. 49).
+
+ 5 See "Appendix." In the following, as was usual before a rigorous formalization of these concepts was
+ attained, a straight line in P3(M) will be tacitly identified with its complex extension, i.e., a real straight
+ line of P^C).
+
+ Ô Springe
+
+This content downloaded from 203.78.15.150 on Mon, 18 May 2020 09:15:55 UTC
+All use subject to https://about.jstor.org/terms
+
+ Variations on a theme: Clifford's parallelism in elliptic ... 365
+
+ congruences of parallel lines invariant,6 precisely as certain translations in Euclidean
+
+ space conserve all the lines which are parallel to a given line.7 It is interesting to
+
+ observe that none of these properties are shared by Lobachevsky's parallels, while,
+
+ in turn, Clifford's parallels are never coplanar and they never intersect (a fortiori in
+
+ a point of the fundamental quadric). As is remarked in (Bonola 1912, Appendix II)
+
+ equidistant lines can be coplanar only in Euclidean space , while skew parallels can
+
+ exist only in elliptic space.
+
+ It was observed by (Bortolotti 1935, p. 288) that Lobachevsky's and Clifford's
+
+ parallelism are, in a certain sense, complementary phenomena. Usually, properties
+
+ of Euclidean parallels seem to split into two classes whose intersection is empty:
+
+ One class of properties characterizes Lobachevsky's parallels, and the other Clifford's
+
+ parallels. In many respects, Clifford's parallelism seems to acquire a privileged position
+
+ with respect to Lobachevsky's since it retains almost all the essential characteristics
+
+ of ordinary Euclidean parallelism.
+
+ The present article gives a historical account of the emergence and further devel
+ opments of this curious and fascinating phenomenon. The history of Clifford's
+ parallelism is worth telling, not only for its intrinsic interest in the wider field of
+
+ researches in the history of non-Euclidean geometry but also because it assumed,
+
+ over the decades following its discovery (in 1873), a paradigmatic role. Indeed, new
+
+ developments in geometrical theories, such as Cayley-Klein projective models of
+
+ non-Euclidean spaces, the systematization of Riemannian geometry, the theory of
+
+ connections, and finally the search for generalizations of the notion of Riemannian
+
+ manifolds, often tried to assimilate Clifford's parallelism within new theoretical frame
+
+ works. As will be seen, the general aim of mathematicians seems to have been twofold,
+
+ depending on the context: On the one hand, to investigate more deeply its essence and
+
+ its theoretical grounds; on the other, either to employ it at a heuristic level to test new
+
+ conceptual tools or to provide relatively simple examples of more general phenomena.
+
+ Section 1 discusses the genesis of the notion in W. K. Clifford's work by indicating
+
+ its original motivation in the search for an algebraic and geometrical treatment of the
+
+ kinematics and the dynamics of rigid bodies in elliptic 3-space. Section 2 offers a
+
+ detailed account of Klein's interpretation of Clifford's parallelism in the context of
+
+ projective models of non-Euclidean geometries. Section 3 deals with the Italian school
+
+ of differential geometry, namely with L. Bianchi and G. Fubini's fruitful attempts, at
+
+ providing an analysis of elliptic space and Clifford's parallelism in the framework
+
+ of Riemannian geometry. Section 4 treats in detail the problem of understanding
+
+ Clifford's parallelism in light of Levi-Civita's theory of parallel displacement. In this
+ context, (Bortolotti 1925) is discussed in which the Italian mathematician Bortolotti
+
+ succeeded in characterizing Clifford's parallelism as a parallel displacement of an
+
+ absolute kind (i.e., independent of the path of displacement). Finally, an "Appendix"
+
+ is attached at the end of the paper that recalls some elementary facts concerning the
+
+ theory of polarity with respect to a given quadric surface.
+
+ 6 A congruence is a set of lines which depend on two parameters.
+
+ 7 For a list of some properties of Clifford's parallels, see (Bonola 1912, Appendix II).
+
+ Ô Springe:
+
+This content downloaded from 203.78.15.150 on Mon, 18 May 2020 09:15:55 UTC
+All use subject to https://about.jstor.org/terms
+
+ 366 A. Cogliati
+
+ The general aim of this paper is twofold: both to provide a historical analysis of
+
+ Clifford's parallelism per se and to emphasize its role, in particular within the con
+
+ text of the Italian school of differential geometry, in the historical development of
+ the dawning theory of connections. Indeed, as will be seen, Clifford's parallelism
+
+ represented a highly non-trivial example of absolute parallelism which fostered the
+ search for extension of the classical framework of Levi-Civita's connection. The his
+
+ torical analysis is here restricted to the Italian milieu with special emphasis on the
+
+ work by Bortolotti. However, in a forthcoming paper, we will provide a discussion of
+
+ Élie Cartan's response to the problem posed by Clifford's parallelism. In particular,
+
+ the important role played by Clifford's parallelism in guiding Cartan's researches on
+
+ absolute parallelisms and symmetrical spaces will be analyzed.
+
+ 2 A new kind of parallelism in elliptic space
+
+ What nowadays is known as Clifford's parallelism in three-dimensional elliptic space
+
+ was first sketched by Clifford in a short memoir (Clifford 1873) that was presented
+
+ at the London Mathematical Society in June 1873. Its title, Preliminary Sketch of
+
+ Biquaternions, seems to have little to do with the geometry of elliptic space; however,
+
+ the main focus of Clifford was to provide an algebraic and geometrical analysis of the
+
+ kinematics and dynamics of rigid bodies.
+
+ This subject situated Clifford's investigations in a fertile branch of research that,
+
+ since the works of Pliicker and Mobius, had pursued a geometrization program for
+
+ mechanics based upon projective geometry.8 Already in 1866, for example, Pliicker
+
+ had tried to "connect, in mechanics, translatory and rotatory movements with each
+ other by a principle in geometry, analogous to that of reciprocity (Pliicker 1866,
+ p. 361)." In 1871, Klein had extended this connection to non-Euclidean geometries
+
+ by observing:
+
+ Let us introduce such a metric [Cayley's metric] and let us replace, at the same
+
+ time, the oc6 movements of our space with as many linear transformations that
+
+ leave invariant the fundamental quadric surface; thus, we can speak in the same
+
+ way of forces acting along a straight line or about a straight line and of motions
+
+ along a straight line or about it. Both kinds or forces and motions would be
+
+ equivalent. A rotation about a straight line is thus equivalent to a translation
+
+ along its polar with respect to the fundamental quadric surface. Similarly, a
+
+ force acting along a straight line is tantamount to a force which produces a
+
+ rotation about its conjugate polar (Klein 1871a, p. 412).
+
+ In Great Britain as well, in the early 1870s, the geometrical representation of
+
+ mechanical entities such as the motion of, and action upon, rigid bodies was at the
+
+ center of the investigations of the astronomer and mathematician Robert Stawell Ball,
+
+ who developed a peculiar approach that welded rotational and linear quantities into
+
+ a single geometrical element, the screw. According to Ball's definition,9 a screw is
+
+ 8 On the historical development of geometrical mechanics, see Ziegler (1985).
+
+ 9 See, e.g., Ball (1876,1-2 §).
+
+ â Springer
+
+This content downloaded from 203.78.15.150 on Mon, 18 May 2020 09:15:55 UTC
+All use subject to https://about.jstor.org/terms
+
+ Variations on a theme: Clifford's parallelism in elliptic ... 367
+
+ a straight line with which a definite magnitude, termed the pitch, is associated. The
+
+ fecundity of this definition was derived from the two fundamental theorems of Chasles
+
+ and Poinsot according to which: Any rigid-body motion could be described as a rota
+
+ tion about a unique axis and a translation parallel to it (Chasles' theorem); any system
+
+ of forces upon a rigid body can be replaced by a force along a unique axis and a couple
+
+ in a plane perpendicular to it (Poinsot's theorem). Indeed, a general rigid-body motion
+
+ could be interpreted geometrically as a screw whose axis coincides with the rotation
+
+ axis and whose associated magnitude (the pitch of the screw) is given by the ratio
+
+ of the moduli of the translational and rotational velocity. Analogously, in the case of
+
+ forces acting on a rigid body, dynamics is described in terms of a screw whose axis is
+
+ the line of action of the single resultant force and the pitch is given by the ratio of the
+
+ magnitude of the couple to the magnitude of the force.
+
+ Apparently, Clifford's main aim (Clifford 1873) was to provide an algebra for
+
+ this extended range of mechanical entities, such as screws. Precisely, in the same
+
+ way as quaternions were introduced by Hamilton in order to extend the set of three
+
+ dimensional vectors to a non-commutative algebra which is closed not only under
+
+ addition but also under multiplication and division, biquaternions were introduced
+
+ by Clifford in order to extend the set of screws (Clifford called them motors) to an
+
+ algebra which is closed under addition, multiplication, and division. As Hamilton
+
+ interpreted a quaternion as the ratio of two three-dimensional vectors, for Clifford
+
+ too, a biquaternion could regarded as a ratio of two screws. The term "biquaternion"
+ was not a new one; Hamilton had already employed it to denote a quaternion ai +
+
+ bj + ck + d whose coefficients are complex numbers; however, since, as Clifford
+
+ explicitly remarked, "it is convenient to suppose from the beginning that all scalars
+
+ may be complex," he decided to employ it in a new way (thus, denoting something
+
+ essentially different from a complex quaternion).
+
+ From a purely algebraic point of view, a biquaternion is an expression of the form
+
+ q + cur, where q, r are Hamilton's quaternions, while ω is an operator which converts
+
+ every motor into a vector parallel to the axis of the motor and of magnitude equal to the
+
+ magnitude of the rotating part of the motor (Clifford named it rotor). As a consequence
+ of this definition, since the rotating part of a vector is null, one has: ω2 = 0. In
+
+ actual fact, however, the value to be attributed to ω2 remained somehow ambiguous
+ in Clifford's treatment: Depending upon the geometrical setting under consideration
+
+ (parabolic, elliptic, or hyperbolic) in which the calculus of biquaternions is carried
+
+ out, ω2 is forced to assume different values (0,1, or -1, respectively). Indeed, as is
+
+ clear from the analysis which Clifford carried out in Sects. 3,4, and 5 of his paper, in
+
+ the case of elliptic geometry the value of ω2 is ω2 = 1.
+
+ Clifford's parallels made their appearance in Sect. 3, where Clifford aimed at devel
+
+ oping an algebra of motors in the special case of elliptic geometry. The main reason
+
+ for such a specialization seems to lie in a technical difficulty which prevented him
+
+ from interpreting a biquaternion as a ratio of motors in a fully general case. The prob
+
+ lem is presented by Clifford as follows. Consider two motors which are denoted by
+ the expressions a + ωβ and γ + ωδ (α, β, γ, S are rotors; expressions like a + ωβ
+ consists of a translational and a rotational part, in accordance with the aforementioned
+
+ definition of motor); one wants to providing a meaning to the ratio and to write
+
+ it as a biquaternion q + a>r in such a way that the latter could be interpreted as the
+
+ <£) Springer
+
+This content downloaded from 203.78.15.150 on Mon, 18 May 2020 09:15:55 UTC
+All use subject to https://about.jstor.org/terms
+
+ 368 A. Cogliati
+
+ operator transforming γ + ωδ into a + ωβ, γ + ωδ — (q + ojr)(a + ωβ). However,
+
+ Clifford observed, this equation is not susceptible to interpretation as in the case of
+
+ a single quaternion q which transforms a vector into another. Indeed, he wrote, "the
+ expression q + a>r does not denote the sum of geometrical operations, which can be
+
+ applied to the motor as a whole; and the ratio of two motors is only expressed by
+
+ a symbol as the sum of two parts, each of which separately has a definite meaning
+
+ in certain other cases, but not in the case in point. [...] this difficulty will be partly
+
+ overcome by showing that the system here sketched is the limit of another in which it
+
+ does not occur." Likely, Clifford was here referring to the possibility of regarding the
+
+ Euclidean geometry as a limit case of the elliptic geometry where, he claimed, such a
+
+ difficulty could be evaded.
+
+ The reason for this was that, in this particular geometrical setting, Clifford was
+
+ able to provide a decomposition of a general motion (a motor) into what he called
+
+ left and right vectors, which, as will be seen, are a special kind of transformations
+
+ of elliptic space, similar in some respects to translations of ordinary space. Such a
+
+ decomposition allowed him to providing a precise geometrical meaning to both of the
+
+ addends in q + cor.
+
+ The geometrical setting is that of the so-called Cayley-Klein geometries. Clifford
+
+ explicitly referred to Cayley (1859) and Klein (1871b). Thus, he shared Cayley's
+ and Klein's view according to which metric geometry could be regarded as a part of
+
+ descriptive (i.e., projective) geometry. This interpretation of metric geometry could
+
+ be attained by fixing a quadric surface (the absolute) in (real) projective space (or
+
+ complex extension thereof) which, in the case of elliptic geometry, is characterized by
+
+ the fact that all of its points are imaginary.
+
+ After recalling the basic formulas for distance and angle in terms of cross-ratio,
+
+ Clifford considered two straight lines a, b (not lying in the same plane) and observed
+
+ that in general two lines that are polars of one another can be drawn so that each
+
+ meets a, b at right angles. These polar lines, Clifford claimed without proof, can be
+ determined as the lines which meet the two lines a, b and their polars a', b'. Indeed,
+
+ any line that cuts both a and a' is perpendicular to both (this is a consequence of the
+
+ trivial fact that any point of a is conjugate to any point of a'). Thus, any line which
+
+ meets the four lines a, a', b, b' cuts them all at right angles. Now, the three lines a, a', b
+
+ determine a ruled quadric surface10 since they are (pairwise) skew11 and the fourth
+
+ line b' meets this quadric in two points Ρ and Q. The generators p,q of the opposite
+
+ system (opposite with respect to the system of generators to which a, a', b belong)
+
+ passing through Ρ and Q are common transversals of the four lines a, a', b,b' and
+
+ thus cut them all at right angles. The fact that ρ and q are polar one of the other follows
+
+ by assuming that there are no more than two common perpendiculars.
+
+ However, there is an exceptional case that is of the utmost importance to the analysis.
+
+ This is the case in which the line b' belongs to the same system of generators as the
+ lines a, a', b. Then, there exists an infinite number of common perpendiculars to the
+
+ lines a, a', b, b' that coincide precisely with the second system of generators of the
+
+ 10 This is an auxiliary quadric that is not to be confused with the absolute quadric of elliptic geometry.
+
+ 11 See Castelnuovo (1904, §361-365).
+
+ <£) Springer
+
+This content downloaded from 203.78.15.150 on Mon, 18 May 2020 09:15:55 UTC
+All use subject to https://about.jstor.org/terms
+
+ Variations on a theme: Clifford's parallelism in elliptic ... 369
+
+ quadric. It can be proved in this case that the skew lines a and b are equidistant and,
+
+ furthermore, that they cut the same two generators of one system of the absolute
+
+ quadric. Depending upon the type of system of generators cut by the two lines a and
+
+ b, Clifford spoke of right or left parallels. This denomination appeared to him most
+
+ appropriate since he observed, again without proof, that "there are many points of
+
+ analogy between the parallels here defined and those of parabolic geometry." Clifford
+
+ cited a few of them, namely (i) the isogonality property according to which a line cuts
+
+ two parallels at equal angles, (ii) the existence of a ruled quadric of zero curvature
+
+ generated by all the parallel lines which meet a given line (this is the well known
+
+ Clifford's quadric).
+
+ Let us now turn to the aforementioned decomposition of a general movement
+
+ (motor) of elliptic space into the sum of two vector motions which, in a way, can
+
+ be assimilated to translations. In this respect, Clifford remarked:
+
+ A twist-velocity of a rigid body must be regarded as having two axes. For a
+
+ motion of translation along any axis is the same thing as a rotation about the
+
+ polar axis, and vice versa. Hence a twist-velocity is compounded of rotation
+
+ velocities about two polar axes; say these are θ, φ. Then the motion may be
+
+ regarded either as a twist-velocity about a screw whose pitch is | and whose
+
+ axis is the first axis, or about a screw whose pitch is | and whose axis is the polar
+ axis. In general, then, a motor has two axes and is expressible in one way only
+
+ as the sum of two polar rotors. There is, however, one case of exception which
+
+ the axes of a motor are indeterminate; that, namely, in which the magnitudes of
+
+ the two polar rotors are equal. [...] Such [...] a motor of pitch unity, or which
+
+ is its own polar, may [...] be regarded as having the nature of a vector [...]. For
+ we may define a vector as a motor whose axes are indeterminate; and the case
+
+ we are now considering is the only case of such indétermination which occurs
+
+ in elliptic geometry. Vectors will be called right or left according as the twist of
+
+ them is right- or left-handed (Clifford 1873, p. 390).
+
+ On the basis of these observations, Clifford stated the proposition according to which
+
+ every motor in elliptic space is the sum of a right and a left vector. Indeed, Clifford
+
+ observed, if A indicates a motor and A' is its polar motor then A = j(A + A') +
+
+ \ (A - A') and, by construction, A + A' and A — A' are right and left vectors.
+
+ Clifford's treatment suffers from a certain lack of technical details, but we can try to
+
+ make sense of it by making recourse to more familiar tools as follows. A twist-velocity
+
+ can be interpreted as motion of the elliptic space, i.e., as a real homography leaving the
+
+ absolute quadric invariant. In general, such a motion leaves invariant four generators
+
+ gi.gl, g'vg'2 of the absolute quadric (they are two couples belonging to different
+
+ systems of generators). This set of four lines determines a skew quadrilateral whose
+
+ diagonals are straight lines that are polar one of the other and are left invariant by the
+
+ motion itself. These are the axes of the motor to which Clifford referred. Furthermore,
+
+ the correspondence between translation along a line and rotation about its polar is due
+
+ to an elementary property of polarity according to which, while a point moves along
+
+ a line /, its polar plane rotates about I', the polar line of I. Furthermore, the case of
+
+ exception of a motor whose pitch is equal to 1 corresponds to what are nowadays called
+
+ Ô Springer
+
+This content downloaded from 203.78.15.150 on Mon, 18 May 2020 09:15:55 UTC
+All use subject to https://about.jstor.org/terms
+
+ 370 A. Cogliati
+
+ Clifford's translations. In view of Clifford's observation according to which a motor
+
+ is compounded of rotation velocities (θ, φ) about polar axes, we recognize that the
+
+ notion of motor with pitch equal to 1 can be interpreted in light of the characterization
+
+ of Clifford's translation provided by Coxeter (1998, p. 135): "a Clifford's translation
+
+ may be defined as the product of rotations through equal angles θ about two absolute
+
+ polar lines." Finally, the asserted decomposition of any motor into right and left vectors
+
+ corresponds to the possibility of writing a general motion Φ of the elliptic space into
+
+ the product of two Clifford's translations.
+
+ On the basis of these premises, Clifford was able to obviate the above-mentioned
+
+ difficulty concerning the definition of a biquaternion as the ratio of two motors. To
+
+ this end, he introduced the operator ω such that ω2 = 1; it is defined by means of
+
+ the following prescription: If α is a rotor, then "ωα will denote the rotor polar to
+
+ a and equal to it in magnitude." Then, he observed that a general motor could be
+
+ expressed in the form a + ωβ, where a and β denote two rotors; he then defined two
+
+ operators, namely ξ = ^ψ- and η = In view of the decomposition described
+ above, Clifford could finally write a generic motor as ξ y + ηδ and thus provide the
+
+ summands of a biquaternion with a geometrical meaning. Indeed, the operator which
+ converts a motor ξ γ + ηδ into a motor ξα + ηβ could be chosen to be Çq + ψ
+
+ where q, r are quaternions equal to the ratios of rotors α/γ, β/δ, respectively. As a
+
+ consequence of ηξ = ξ η = 0, each of the two summands Çq and ψ acquired a definite
+
+ meaning.
+
+ Far from being a fully satisfying treatment of the algebra of motions, Clifford (1873)
+
+ remained, in many respects, an exposition of audacious and fertile ideas which required
+
+ a patient work of systematization. Attempts at it were undertaken by R. Ball himself,
+
+ with whom the theory of screws had originated, A. Buchheim in the early 1880s
+ and, some years later, by E. Study. In particular, Ball devoted to the topic a memoir
+
+ which he presented to the Royal Irish Academy in November 1881. Interestingly,
+
+ Ball was able to characterize Clifford's vector motions of elliptic 3-space in terms of
+
+ invariance properties of the generators of the fundamental quadric, a characterization
+
+ which had remained implicit in Clifford's treatment, thus preparing the ground for
+
+ Klein's subsequent analysis. In this respect, Ball observed:
+
+ [The] name [vector] was applied by Clifford to a particular description of
+ displacement which a body can receive in elliptic space. In the most general
+
+ displacement of a rigid system two right generators and two left generators of
+ the absolute remained unaltered. In the movement which we call a vector, two
+
+ of the generators of one system and all of the generators of the other remained
+
+ unaltered. Clifford had shown that when a body is displaced by a vector each
+
+ point of the body moves through equal distances along parallel lines. [...] He
+
+ distinguishes between a right vector and a left vector, according to which system
+
+ of generators remains unaltered (Ball 1881, pp. 159-160).
+
+ Systematic investigations on biquaternions were carried out by Arthur Buchheim
+
+ ( 1859-1888). A most brilliant student of the Savilian Professor of Geometry in Oxford,
+
+ Henry Smith, who "spoke of him as the most promising young mathematician that
+
+ had appeared in the University of Oxford for a long series of years," he devoted a great
+
+ Springer
+
+This content downloaded from 203.78.15.150 on Mon, 18 May 2020 09:15:55 UTC
+All use subject to https://about.jstor.org/terms
+
+ Variations on a theme: Clifford's parallelism in elliptic ... 371
+
+ deal of attention providing a comprehensible treatment of Clifford's pioneering views
+
+ by seeking for an algebraic foundations of the new concept and also by exploring their
+
+ geometrical meaning. Before his premature death in September 1888, Buchheim, who
+
+ also studied with Klein in Leipzig, devoted three papers to this project of systematiza
+
+ tion. Of these, Buchheim (1883) provided a reinterpretation of Clifford's calculus of
+
+ screws in light of Grassmann's Ausdehnungslehre. In particular, Buchheim was able
+
+ to identify the notion of screw with that of linear complex and Clifford's operator
+
+ ω with that of Grassmann's conjugation Κ (Ergdnzung)12 By means of these tools,
+
+ extraneous to Clifford's original treatment, in Buchheim (1883, p. 91) deduced con
+
+ ditions for Clifford's parallelism in a very easy way; if a and b denote two lines, then
+
+ a, b are Clifford parallel lines if a ^ Ka = X(b ψ Kb), λ being an arbitrary constant.
+
+ Only a year later, Buchheim came back to the same topic in Buchheim (1884) by
+
+ providing an extension of Grassmann's calculus to the three kinds of uniform space
+
+ (i.e., parabolic, hyperbolic, and elliptic). The idea was simply that of interpreting the
+
+ operator Κ (ω in Clifford's notation) no longer as the Ergdnzung but as the polar of a
+
+ given geometric figure with respect to the absolute (in the sense of Cayley and Klein).
+
+ Eventually, this insight was fully developed in a long memoir (Buchheim 1885) where
+
+ he not only furnished an algebraic discussion of biquaternions but also conveyed a
+
+ very interesting treatment of their useful geometrical applications. In particular, the
+
+ algebra of the operator ω was explicitly linked to the curvature of the space under
+
+ consideration; indeed, Buchheim show how a consistent definition of the operator ω
+
+ could be attained by posing ω2 = k, where k indicates the curvature of the space
+
+ which is equal to -1,0,1 in the hyperbolic, parabolic, and elliptic cases, respectively.
+
+ A few years later, namely in Study (1891), Eduard Study also had recourse to the
+
+ notion of biquaternion in his researches upon the representation of motions in space,
+
+ and much later in Study (1913) he provided a general outline of the application of
+
+ biquaternions in theoretical kinematics.
+
+ 3 Klein's Zur Nicht-Euklidischen Geometrie
+
+ After the introduction by Clifford of the notion of parallelism in three-dimensional
+
+ elliptic space, the matter was thoroughly discussed by Klein in the first part of Klein
+
+ (1890), which appeared in the Mathematische Annalen. Klein had met Clifford in
+ September 1873, on the occasion of a session of the British Association for the
+ Advancement of Science in Bradford (UK) where Clifford had delivered a lecture
+ with the title "On a surface of zero curvature and finite extent." Since the text of Clif
+
+ ford's conference was not extant, Klein thought it useful to tackle the topic anew and
+
+ to discuss in more analytical detail some results that Clifford had sketchily dealt with
+
+ in various memoirs of his, such as Clifford (1873).13
+
+ Undoubtedly, Klein must have welcomed the publication of Clifford (1873) with
+
+ great favor, as Clifford took great profit from Klein's unitary approach to (non
+
+ Euclidean) geometry through the general framework offered by projective geometry
+
+ 12 In this respect, see Buchheim (1883, p. 85).
+
+ 13 On the relationship between Clifford and Klein, see Ziegler (1985, p. 175).
+
+ Ô Springer
+
+This content downloaded from 203.78.15.150 on Mon, 18 May 2020 09:15:55 UTC
+All use subject to https://about.jstor.org/terms
+
+ 372 A. Cogliati
+
+ that he (Klein) had been developing since the early 1870s.14 In particular, Klein com
+
+ mitted himself to providing an analytical expressions of those transformations of the
+
+ elliptic space that Clifford had called "vector motions." This special type of displace
+
+ ment of elliptic space plays a prominent role in the theory of Clifford parallels.
+
+ Klein started his analysis by first recalling the essential notions of the projective
+
+ interpretation of non-Euclidean geometry: He considered real three-dimensional pro
+ jective space P3(R) and its extension to the complex projective space P3(C); then,
+ he fixed a quadric surface Q C P3(C) which he called the absolute. Thus, a metrical
+
+ geometry can be interpreted as the theory of the projective relations of certain geo
+
+ metrical forms that are fixed by the introduction of the quadric surface with all other
+
+ geometrical forms. In the case of elliptic geometry, the absolute is a quadric Q with
+
+ real coefficients but with no real points (nulltheilege Flàche),
+
+ Q = |(*ο.*ι.*2,*3) e P3(C) I Xq + x\ + x\ -barf = θ].
+
+ This is a ruled quadric which admits two systems of (complex) generators (Erzeugen
+
+ den). They can easily be obtained starting from the following decomposition of the
+ quadric equation:
+
+ (*o + ixi)C*o ~ txi) + (X2 + ix3)C*2 - ix3) = 0.
+
+ The first system of generators parameterized by the complex number λ is given by:15
+
+ (/W; t = *» + '·*■ =_x
+
+ X2 — IX3 *0 - IX1
+
+ In turn, the second system can be written as follows (μ 6 C):
+
+ f. ! X0 + i*l X2-ÎX3
+ {Μ : μ = -r- = —· (2)
+ X2 + IX 3 XQ — 1*1
+
+ At this point, Klein considered all the real collineations of P3(C) which fulfill the
+
+ following requirement:16 (i) They leave the absolute quadric invariant; (ii) they trans
+
+ form generators of one system into generators of the same system. As a consequence
+
+ of the fact that a collineation transforms straight lines into straight lines in a bijective
+
+ way, these collineations induce, in a natural way, projective transformations of the
+
+ parameters λ, μ € C:
+
+ , _ αλ + β , _ α'μ + β'
+ γλ + 5 ' ^ γ'μ + δ1'
+
+ 14 On Klein's early geometrical works, see Rowe (1989).
+
+ 15 To uniform notation throughout the paper, the purely conventional choice of naming one system of
+
+ generators either "first" or "second" system adopted by Klein has been modified.
+
+ 16 Such collineations are sometimes called proper or direct collineations; see, e.g., Klein (1928, p. 112).
+
+ Ô Springer
+
+This content downloaded from 203.78.15.150 on Mon, 18 May 2020 09:15:55 UTC
+All use subject to https://about.jstor.org/terms
+
+ Variations on a theme: Clifford's parallelism in elliptic ... 373
+
+ Among such collineations, there exist special ones, which Klein called scrolls
+
+ (Schiebungen) of the first and the second type which are characterized by the property
+
+ of transforming generators of one system while leaving invariant the generators of the
+
+ other. Analytically, that means for a Schiebung of the first type:
+
+ Φ : (λ, μ) η» (λ', μ') with λ' = + f, μ' = μ,
+ χλ + <5
+
+ and analogously for scrolls of the second type.
+
+ Let us now focus upon scrolls of the first type only. Besides leaving invariant the
+
+ generators of the second system {i/x}, the maps Φ leave two generators R\x, R\2 of
+ the first system pointwise-invariant. The parameters λι, λ 2 are the solutions of the
+
+ quadratic equation λ = It should be observed that if Rx, is left invariant by a
+
+ scroll, and then Rx2 = Rx, ; i.e., the two generators of the first system that are left
+
+ invariant are complex conjugate one of the other.
+
+ Furthermore, under the action of a scroll of the first type, every point of the space
+
+ is displaced along straight line which intersects the generators Rxl, Rx2.
+
+ In order to obtain an analytical expression for the scrolls of the first type, Klein
+
+ deduced the following:
+
+ Lemma 1 Let RA indicate the straight line which is conjugate to a generator Rx
+
+ of the first system. Then, Rx is a generator of the first system too; i.e., there exists
+
+ X* 6 C such that Rx = Rx*. Furthermore, if X has polar expression X = re"^, then
+ χ* = -ϊείφ.
+
+ On the basis of this result, Klein's well-known correspondence between homographies
+
+ of the complex plane and rotations on the sphere could be applied. Let us see why and
+ how.
+
+ Klein recalled a standard technique which represents the extended complex plane
+
+ C U oo on the unit sphere
+
+ S2 = {(M,£)eR3l£2 + f2 + <2 = l}
+
+ by means of the stereographic projection π : S2 -> C U oo on the equatorial plane
+ that is given, for ζ φ 1, by:
+
+ x + iy = π(ξ, η, ζ) =
+
+ 1 - ζ
+
+ Points of the complex plane of type re'^ and —je'^ (just as λ and λ* in the preceding
+ lemma) are called diametral points since they correspond, through the stereographic
+
+ projection, to antipodal points on the sphere. As a consequence of this, the projective
+ transformation X' = Φ (λ) = corresponding to a scroll of the first kind, was
+ characterized by Klein as a Môbius transformation that is conjugate to a rotation on
+
+ the sphere; more explicitly, Φ can be written as π Rrt ~1, where R is a rotation. Already
+
+ Ô Springer
+
+This content downloaded from 203.78.15.150 on Mon, 18 May 2020 09:15:55 UTC
+All use subject to https://about.jstor.org/terms
+
+ 374 A. Cogliati
+
+ in his Vorlesungen iiber das Ikosaeder, Klein had conveyed an explicit formula for
+ transformations of this kind, which can be written as follows:
+
+ λ' = IlImI il!—a,b,c,de R, a2 + b2 + c2 + d2 = 1. (3)
+
+ (b + ια)λ + (d - ic)
+
+ In view of this result, the analytic expression for scrolls of the first type is achieved
+
+ by observing that from (1) and (2), and one obtains:
+
+ where ρ is an arbitrary proportionality factor. Upon substitution of (λ, μ) with (λ', μ),
+
+ where λ' is given by (3), Klein attained the desired expression:
+
+ for a general scroll of the first kind. In a completely similar way, upon consideration of
+
+ the second system of generators of the absolute quadric, Klein deduced the expression
+
+ for a general scroll of the second kind which reads as follows:
+
+ px ο = λμ + 1,
+
+ px ι=ι(-λμ + 1),
+
+ px2 = μ- λ,
+
+ . (4)
+
+ px 3 = /(λ + μ).
+
+ Xq = +dxo — cx ι + bx 2 — ax 3,
+
+ x\ = +cx0 + dxi — ax2 - bx3,
+
+ x'2 = -bx 0 + ax 1 + dx2 + cx 3,
+
+ X3 = +axo + bx 1 — CX2 + djC3,
+
+ Xq = +δχο - γχ ι + βΧ2 + <XX3,
+
+ x\ = +γχο + 5χι - ax2 + βΧ3,
+
+ I ' ~ - ■
+
+ (ο)
+
+ χ'2 = -βχο + αχ\ + 5x2 + yx3,
+
+ Χ3 = -αχο - βχ\ - γχ2 + 5x3,
+
+ where α, β, γ, δ € Μ are such that a2 + β2 + γ2 + S2 = 1. Thus, we can reformulate
+
+ Klein's result in the following
+
+ Theorem 1 A real collineation of the complex projective space P3(C), Φ : χ η*· χ'
+
+ that leaves the absolute quadric Q invariant andprojectively transforms the generators
+
+ {Rx} of the first system while leaving invariant the generators {Ιμ} of the second
+
+ system can be written in the form (5). In a completely analogous way, an analytical
+
+ representation for the scrolls of the second kind can be obtained. Furthermore, by the
+
+ action of a scroll of the first kind, a point of the space moves along the straight line
+
+ that meets the generators left invariant by the scroll itself. In other words, to any scroll
+
+ Springer
+
+This content downloaded from 203.78.15.150 on Mon, 18 May 2020 09:15:55 UTC
+All use subject to https://about.jstor.org/terms
+
+ Variations on a theme: Clifford's parallelism in elliptic ... 375
+
+ there is an associated congruence of straight lines, i.e., a 2-parameter set of straight
+
+ lines which meet on two generators of the quadric,17
+
+ Klein also pointed out that an isometry of the elliptic space could be represented by
+ means of unitary quaternions in a way that render evident the decomposition of a
+
+ general motion into scrolls of first and second kind. By indicating by q the unitary
+ quaternion q = d + ai + bi + ck and by identifying a point with homogeneous
+ coordinates (x\,X2, *3, xt) with the quaternion X3 + 1x2 + jx\ + kx 0, a scroll of the
+
+ first kind could be represented by
+
+ x3 + ix2 + îx'\ + kx'o = (*3 + ÎX2 + jxl + kxo) ■ q.
+
+ where it is intended that the product follows the multiplication rules for i, j, k. If a
+
+ scroll of the second type is represented analogously by left quaternion multiplication
+
+ by q' = 8+oti + fj + yk, then a general motion of the elliptic space, Klein remarked,
+ could be written as:
+
+ *3 + ix2 + jx[ + kx'0 = q' ■ (*3 + ix2 + jx 1 + kxo) · q■
+
+ At this point, Klein turned to investigating the geometrical significance of the scrolls.
+
+ To this end, he recalled the expression of the non-Euclidean distance (the so-called
+
+ Cayley-Klein metric) between two points χ, χ' e Ρ3 (Ε) which takes on the following
+ form:
+
+ , xLo xjx'i
+
+ d(x, χ ) = arccos . -, -. (7)
+
+ Klein observed that if x' is the image under the scroll Φ of an arbitrary point χ then
+
+ d(x,x') is constant. Furthermore, he explicitly pointed out an outstanding analogy
+
+ with the group of translations in ordinary, Euclidean space that in a way admitted a
+
+ generalization of the notion of Euclidean parallelism. Just as in ordinary space parallel
+
+ straight lines are preserved under a translation that is parallel to a given line, so in
+
+ elliptic geometry a given scroll preserves the line congruence corresponding to it via
+
+ theorem (1). Consequently, it was a natural choice to define two straight lines to be
+
+ parallel in the sense of Clifford if they belong to the same line congruence or, equiva
+
+ lently, if they meet the same conjugate pair of (imaginary) generators of the absolute.
+
+ Depending on the kind of congruence or of generators under consideration, Klein
+
+ spoke of right (rechtsgewundene) parallel straight lines or of left (linksgewundene)
+
+ parallel straight lines.
+
+ Interestingly, in (Klein 1890, p. 552) Klein referred to the introduction by Clifford
+
+ of parallels in elliptic space as a new theory of parallels (neue Parallelentheorie) and
+
+ explicitly emphasized the distinctiveness of the new parallelism with respect to the
+
+ 17 For a proof that this set of straight lines is a 2-parameter family, see, for example, Bianchi (1902,
+ pp. 446-447).
+
+ â Springe
+
+This content downloaded from 203.78.15.150 on Mon, 18 May 2020 09:15:55 UTC
+All use subject to https://about.jstor.org/terms
+
+ 376 A. Cogliati
+
+ ordinary (i.e., Lobachevsky's) parallelism of non-Euclidean geometry. The passage in
+
+ question is worth quoting:
+
+ In the light of the theorem just given [Klein referred to Theorem 1], the ground
+
+ for Clifford's new theory of parallels is attained. What parallel lines in parabolic
+
+ (Euclidean) space are, is a well established notion. As for the definition of parallel
+
+ lines in non-Euclidean space, we simply have to pay attention to the fact that
+
+ the definition must coincide with the ordinary Euclidean one as soon as the
+ non-Euclidean space reduces to the Euclidean one. This condition is fulfilled
+
+ through the ordinary position according to which lines are called parallel that
+
+ intersect in a point at infinity (i.e., in a point of the fundamental surface of
+
+ second degree). However, as Clifford has emphasized, the parallel lines thus
+
+ defined lose almost all the elegant properties that one encounters in Euclidean
+
+ space. These properties, according to Clifford, rely essentially upon this: by the
+
+ action of certain motions of the space, Euclidean parallel lines can be displaced
+
+ along themselves. But the lines that belong to a congruence (of either type) just
+
+ referred to have precisely this property in non-Euclidean space. Thus, a bundle of
+
+ Euclidean parallel lines can be regarded as the limiting case (Ausartung) of such
+
+ a congruence. Hence the following suggestion (Vorschlag): to treat as parallel
+
+ lines in non-Euclidean geometry those (skew) lines which belong to the same
+
+ congruence (either of first or second type) or, which is the same, that intersect
+
+ the same couple of imaginary generators (either of first or of second type) of our
+
+ fundamental surface (Fundamentalflche).
+
+ 4 An approach based upon differential geometry: Bianchi and Fubini
+
+ Soon after Klein's reexamination of Clifford's parallelism in the framework of pro
+
+ jective geometry, Luigi Bianchi devoted a great deal of attention to it. As early as his
+
+ degree thesis (1877), Bianchi explicitly referred to Klein's geometrical work, namely
+
+ (Klein 1871b), as a valuable source of inspiration for his early investigations on the
+
+ applicability of surfaces in spaces of constant curvature.
+
+ After his graduation at the Scuola Normale Superiore in Pisa, where he was student
+
+ of Enrico Betti and Ulisse Dini, Bianchi spent a year (Autumn 1879 to Autumn 1880)
+
+ of study under Klein's guidance in Munich, during which, besides dealing with the
+
+ theory of elliptic curves, he surely had the possibility of better assimilating Klein's
+
+ viewpoint on non-Euclidean geometries.
+
+ The first couple of papers18 by Bianchi on the subject of Clifford's parallelism
+
+ appeared in 1895 and 1896 when Bianchi tackled the subject of Clifford's zero
+ curvature surface that was mentioned before. In 1899, Bianchi included some of his
+
+ results on this subject in the German edition of his lectures on differential geometry.
+
+ But it was in the greatly augmented second Italian edition of his Lezioni di Geometria
+
+ Differentiate that Bianchi presented a complete account of Clifford's parallels in a
+
+ chapter devoted to spaces of constant curvature.
+
+ 18
+
+ Bianchi (1895, 1896).
+
+ <£] Springer
+
+This content downloaded from 203.78.15.150 on Mon, 18 May 2020 09:15:55 UTC
+All use subject to https://about.jstor.org/terms
+
+ Variations on a theme: Clifford's parallelism in elliptic ... 377
+
+ Bianchi's approach was based upon a reinterpretation of Clifford's and Klein's
+
+ results in light of metric Riemannian geometry to which he had been introduced by
+
+ the works of Eugenio Beltrami and Dini himself. After discussing the typical form of
+
+ the metric for spaces of constant curvature, Bianchi derived the metric of the elliptic
+ space from the Cayley-Klein distance as follows.
+
+ He first introduced homogeneous coordinates [xo x„] for the (complex) pro
+
+ jective space and fixed the quadric surface Ω(χ, χ) = Σ"=0xf = 0, in order to
+ obtain the so-called geodetic representation of elliptic space in Weierstrass's coor
+
+ dinates. This was a particular representation of spaces with constant curvature that
+ Beltrami had already used in his classical memoirs (Beltrami 1868a, b). The denom
+
+ ination "geodetic representation" means that geodesies of the non-Euclidean space
+
+ and those of the representative Euclidean space are paired off by the representation
+
+ map.19 Furthermore, Weierstrass's coordinates are deduced from Beltrami's geodetic
+
+ representation by passing to homogeneous coordinates. By indicating with d(x,x')
+
+ the Cayley-Klein distance between two points χ, χ', one has, in accordance with (7):
+
+ cos - = , (8)
+
+ . - . Ω (χ, χ')
+ (!)=
+ 1 D ' νΩ(χ,χ)·Ω(χ',χ')
+
+ where R is a real constant.
+
+ Interestingly, Bianchi did not deduce the Cayley-Klein metric from projective
+
+ considerations; on the contrary, he observed that (8) essentially coincides with the
+
+ expression for the length of a geodetic arc in Beltrami's (geodetic) representation as
+
+ given, for example, in Beltrami (1868b). In this respect, it should be borne in mind
+
+ that Klein himself had been explicit in recognizing the essential equivalence of Bel
+
+ trami's formulas with those of the so-called Cayley-Klein metric for non-Euclidean
+
+ geometries when he remarked that "[...] there is barely a step to be taken to pass from
+
+ Beltrami's formulas to those of Cayley."20
+
+ In order to derive the expression for the Riemannian metric corresponding to (8),
+
+ Bianchi considered two infinitesimally near points x,· and x,· + dx, upon an arbitrary
+
+ curve and indicated with e the infinitesimal increment of the arc-length in passing
+ from x,· to x,· + dx,. Then, he posed
+
+ / dx,· 1 d2x,· λ ,
+
+ d=e x,=Xl+-e+il-r^+0^)
+
+ and, upon replacement of these expressions into (8), he obtained:
+
+ 1 - £+»«>) = 0(.,x)+. + ϊ Σ*#2+»«2>· m
+
+ ί=0 ι=0
+
+ 20 See Klein (1871b, p. 578).
+
+ Springer
+
+This content downloaded from 203.78.15.150 on Mon, 18 May 2020 09:15:55 UTC
+All use subject to https://about.jstor.org/terms
+
+ 19 Beltrami (1865) has shown that surfaces of constant curvature can be represented upon a plane in such
+
+ a way that geodetic lines are mapped into straight lines and also that this property is shared by no other
+ surfaces.
+
+ 378 A. Cogliati
+
+ By equating the coefficients of the terms in e2, Bianchi deduced X x, and
+
+ thus, as a consequence of the fact that one can suppose Ω(χ, x) = X"=o x2 = 1,
+
+ he could conclude that Σ"_0 or, equivalently, that di2 = R2 Xdx2,
+
+ where it is understood that the x;'s are not independent variables, but they are linked
+ by Ω(χ,χ) = 1.
+
+ In this framework, as was said, geodetic lines are mapped into straight lines of
+
+ the representative Euclidean space. Thus, a geodesic is defined by giving of a point
+ Xj, i = 0 η and of the direction parameters ξ;, i = 0,..., η of the normal plane
+
+ to it.21 The coordinates of any other point x{ belonging to the geodesic are given by
+ the equations
+
+ x\ = λχ; + μξ(, i=0, ...,n
+
+ where λ2 + μ2 = 1. Now let d indicates the distance between x,· and x·. Then, as a
+
+ consequence of (8), Bianchi obtained λ = cos j and μ = sin and thus:
+
+ xi = cos +sin ι =0,... ,n.
+
+ It is then evident that straight lines are closed and of a finite length that is equal to π R.
+
+ On the basis of these results, which were specialized to the case η = 3, Bianchi set
+
+ out to provide a discussion of Clifford's parallelism that, contrary to Clifford's and
+
+ Klein's presentations, started from a definition of the elliptic scrolls Ψ (scorrimenti)
+
+ as those motions of the elliptic space which are characterized by the property that
+ d(jc, Ψ*) = cost for every x. Their characterization as biaxial homographies of the
+
+ underlying projective space, whose axes are identified with a couple of generators of
+ the absolute quadric, was obtained as a consequence of the aforementioned metric
+ definition.
+
+ In 1900, Guido Fubini, one of the Bianchi's most brilliant students at the Scuola
+
+ Normale Superiore in Pisa, dealt with Clifford's parallelism in his degree thesis. Once
+
+ again, the approach was that of metric geometry. Fubini's main achievement consisted
+
+ of an important technical innovation that obviated the need for extremely long and
+
+ tedious calculations in the study of curves and surface in elliptic space. This was the
+
+ introduction of new line coordinates, which Fubini called scroll parameters (parametri
+
+ di scorrimento). The idea was simple but at the same time very ingenious. As was
+
+ seen, a straight line (i.e., a geodetic line of the elliptic space) could be identified
+
+ by means of the coordinates (xo, *i> *2> *3) of one of its points and the coordinates
+
+ (to- 11» ?2> I3) °f a plane normal to it in (xo, x\,X2, *3)· In other words, a straight
+
+ line r is determined by specification of two conjugate points upon it. Now, there exist
+
+ two scrolls (one right-handed and one left-handed) which take the point (x) to the
+ point (ξ). Their parameters are (A, B, C, D) and (α, β, γ, S). As a consequence of
+
+ Σ?=ο = 0 and °f the explicit expressions for scrolls (5)—(6), one gets A = a = 0
+ and B2 + C2 + D2 = β2 + γ2 + S2 = 1. These quantities are what Fubini termed the
+
+ 21 f; are such that they satisfy £,· £,·*,■ = 0.
+
+ Springer
+
+This content downloaded from 203.78.15.150 on Mon, 18 May 2020 09:15:55 UTC
+All use subject to https://about.jstor.org/terms
+
+ Variations on a theme: Clifford's parallelism in elliptic ... 379
+
+ scroll parameters of the line. It is easy to see that they can serve as line coordinates
+
+ since they are nothing other than a linear combination of the usual Plucker coordinates.
+ Indeed, by indicating with pik = x£k-Xkh (i,k = 0,, 3) the Plucker coordinates
+
+ of the line, the scroll parameters take on the following form:
+
+ B = P01 + P23, C = P02 + P31, D = P03+Pl2
+
+ β = P01 - P23> Y = P02- P31, S = po3 ~ Pl2·
+
+ An elementary application of this new notion led to a straightforward procedure for
+
+ the determination of the two parallels through a point y = (yo, yi, y2. >3) to a given
+
+ line. Indeed, the scroll parameters realize the following property which Fubini termed
+
+ invariance under parallelism. This means that if two lines r, r' have equal (in module)
+
+ parameters of the same triple, B,C, D οτ β,γ,δ, then the two lines are Clifford paral
+
+ lel; in particular, if (Β, C, D) = ±(B', C', D'), r and r' are right Clifford's parallels,
+
+ while if (β, γ, δ) = ±00', γ', S), r, r' are left Clifford's parallel. As a consequence of
+
+ this, we get the following expressions for the cosine directions (|) of the two parallels:
+
+ for the right Clifford parallel to r \
+
+ fo =-Byι - Cy2 - Dy$
+
+ |l = Byo - Dy2 + Cy3
+
+ h = Cyo + Dyi - By3
+
+ f4 = Dyο - Cyi + By2,
+
+ fo = -βy\ - yy2 - <$y3
+
+ ft = βνο + Sy2 - yy3
+
+ f3 = yyo - Sy] + fiyi
+
+ f4 = δyo + yy 1 - βγ2.
+
+ for the left Clifford parallel. Another application of scroll parameters, which is useful
+
+ for our purposes,22 was offered by easy determination of the angle of parallelism
+
+ (angolo di parallelismo) between a pair of Clifford parallels through a point to a given
+
+ straight line r. The scope of Fubini's thesis went far beyond the mere introduction of
+
+ more efficient techniques of calculus; indeed, it made good use of the notion of scroll
+
+ parameter by applying it to a wide class of problems, already tackled by Bianchi
+
+ (1896), in the realm of the theory of curves and surfaces in elliptic 3-space.
+
+ 5 Absolute parallelism versus Levi-Civita's parallelism: Enea Bortolotti
+
+ Clifford's parallelism had been considered for decades as an isolated phenomenon
+
+ which was not susceptible of being interpreted within a general theoretical framework.
+
+ 22 See next section.
+
+ Ô Springer
+
+This content downloaded from 203.78.15.150 on Mon, 18 May 2020 09:15:55 UTC
+All use subject to https://about.jstor.org/terms
+
+ 380 A. Cogliati
+
+ Still in 1917, when Levi-Civita first proposed a geometrical interpretation of Christof
+
+ fel 3-index symbols by introducing the notion of metric connection in Riemannian
+
+ geometry,23 it was remarked that Clifford's parallelism (together with Lobachevsky
+
+ parallelism of hyperbolic geometry) represented, in a way, an anomaly that could not be
+
+ framed within the new theoretical scheme. Indeed, as Levi-Civita explicitly observed,
+
+ although elliptic space (regarded as a Riemannian manifold of constant curvature)
+
+ could be equipped with Levi-Civita's parallelism, nonetheless Clifford's parallelism
+
+ constituted a distinct phenomenon.
+
+ The following fact can be singled out as the most outstanding difference between the
+
+ two: While Levi-Civita's prescription for parallel displacement depended essentially
+
+ upon the chosen path, the notion of Clifford's parallelism was completely independent
+
+ of the path, thus qualifying it as a kind of absolute parallel displacement.
+
+ Interestingly, Levi-Civita chose a rather roundabout strategy to prove the irreducibil
+
+ ity of one kind of parallelism to the other. The matter was tackled by him in (Levi-Civita
+
+ 1917, §6). He first specialized his notion of parallelism to the case of manifolds with
+
+ constant positive Riemannian curvature and observed that, when such manifolds are
+
+ interpreted as submanifolds of Euclidean space, there is a close link between the ordi
+
+ nary parallelism of the ambient space and Levi-Civita's parallelism of the immersed
+
+ manifold. Indeed, let the submanifold Vn be represented by the the equation:
+
+ i>,2=i. <i3)
+
+ i=0
+
+ A vector stemming from Vn is identified with a direction of the surrounding Euclidean
+
+ space. Its components, denoted by a,·, satisfy the following condition which translates
+
+ the fact that the direction belongs to the hyperplane tangent to Vn :
+
+ ]Γα,·χ,·=0. (14)
+
+ ί=0
+
+ On the basis of these premises, Levi-Civita was able to characterize the notion of
+
+ parallelism upon Vn in terms of the ordinary parallelism in Euclidean space.
+
+ Theorem 2 (Levi-Civita 1917) Let C be a geodetic curve in Vn. Let a = («ο, · · ·,οίη)
+
+ be a direction orthogonal to C at some point χ 6 C. Then, the conditions which guar
+
+ antee that a(s) (now consider as a function of the arc-length s) is parallel displaced
+ along C are α· (s) = 0,i = 0,..., η. In other words, as far as orthogonal directions
+
+ are concerned, Levi-Civita's parallelism in Vn coincides with ordinary parallelism in
+
+ the surrounding Euclidean space (Levi-Civita 1917, p. 18).
+
+ If this result is specialized to the case η = 3, Levi-Civita observed, it is clear that the
+
+ notion of parallelism just introduced has no relation at all with the so-called Clifford's
+
+ parallelism. Indeed, if one considers a geodetic line C and considers through each
+
+ 23 On the history of Levi-Civita's parallelism and its early reception, see Reich (1992).
+
+ Ô Springer
+
+This content downloaded from 203.78.15.150 on Mon, 18 May 2020 09:15:55 UTC
+All use subject to https://about.jstor.org/terms
+
+ Variations on a theme: Clifford's parallelism in elliptic ... 381
+
+ point of it a line belonging to the same Clifford's congruence, the lines so obtained,
+
+ though orthogonal to C, are not parallels (in the ordinary sense) of the surrounding
+
+ space.
+
+ As Levi-Civita proved in full detail,24 it is indeed impossible to find a geodetic curve
+
+ C through each point of which lines belonging to the same Clifford's congruence are
+
+ drawn with equal inclination (as would be required by ordinary parallelism).
+
+ In his lectures on "infinitesimal Geometry" which he delivered at the University of
+
+ Pisa in 1922, Bianchi provided a treatment of Levi-Civita's innovative views "by pre
+
+ senting them in analytical form without recourse to infinitesimal considerations which
+
+ had represented Levi-Civita's starting point (Bianchi 1922, p. 150)." On this occasion,
+
+ Bianchi criticized Levi-Civita's employment of the denomination "parallelismo" to
+
+ denote the notion that Levi-Civita had introduced in 1917. A partial justification of
+
+ such usage, Bianchi admitted, was provided by the fact that Levi-Civita's parallelism
+
+ coincides with the ordinary parallelism in the case of Euclidean space. Nonetheless,
+ he wrote:
+
+ [...] in every other curved space, including all spaces with non-vanishing con
+
+ stant Riemannian curvature, Levi-Civita's parallelism is essentially bound to the
+
+ path along which the displacement is carried out. This circumstance, together
+
+ with the not irrelevant fact that in the geometry of spaces with constant, non
+
+ vanishing curvature the name parallelism is employed with a distinct and absolute
+
+ meaning (Lobachevsky's parallelism and Clifford's parallelism) render it doubt
+
+ ful whether the usage of this word should be regarded as appropriate. Instead, I
+
+ believe it more convenient to speak of bound parallelism of Levi-Civita's type.
+
+ Obviously, Bianchi's criticism was not directed toward the notion of Levi-Civita's
+
+ parallelism in itself which, on the contrary, he regarded very highly as a herald of
+
+ fertile advances. Nonetheless, his perplexity upon an apparently lexical issue hid a
+
+ much more fundamental question pertaining the relationship between Levi-Civita's
+ parallelism and those types of parallelism (in primis Clifford's parallelism) which were
+
+ termed by him absolute, in view of their independence from the path of displacement.
+
+ Some years later, Enea Bortolotti25 ( 1896-1942), a former student of Bianchi at the
+
+ Scuola Normale Superiore in Pisa, took up these observations and produced a detailed
+
+ treatment of Clifford's (and Lobachevsky's) parallelism that aimed at reinterpreting
+
+ it in light of the absolute differential calculus of Ricci and at providing an intrinsic
+ characterization thereof.
+
+ Clearly influenced by Bianchi's views, in the introduction to (Bortolotti 1925) where
+
+ Bortolotti explained the main motivation at the basis of his investigations, he wrote:
+
+ Already in 1917, in his classical memoir on parallelism in any variety, Levi
+
+ Civita remarked that the notion introduced by him was totally distinct from
+
+ that of Clifford in spaces 53 with constant curvature. Also, the parallelism of
+
+ 24 See in particular footnote 13 in Levi-Civita (1917, p. 18).
+
+ 25 For a biographical sketch of E. Bortolotti, see Bompiani (1942). Bortolotti's interest in the theory of
+
+ connection, namely in the notion of Levi-Civita's parallelism, can be traced back to January 1923, when he
+ wrote to Levi-Civita to ask him for some reading advice on the topic. See Archivio Levi-Civita, Biblioteca
+ della Accademia dei Lincei, E. Bortolotti, 1923.
+
+ Springe:
+
+This content downloaded from 203.78.15.150 on Mon, 18 May 2020 09:15:55 UTC
+All use subject to https://about.jstor.org/terms
+
+ 382 A. Cogliati
+
+ Lobachevsky, which can be defined in any S3 with negative constant curvature,
+
+ as is well known, never coincides with that of Levi-Civita. The only exception is
+
+ represented by Euclidean space, in which case all three types of parallelism coin
+
+ cide. This circumstance induces us to think that, despite the fact that the notions
+
+ of absolute parallelism according to Clifford and Lobachevsky are distinct from
+
+ that of bound (vincolato) parallelism of Levi-Civita and that it is not possible
+
+ to reduce one to the other, there should exist between them some noteworthy
+
+ relationship (Bortolotti 1925, p. 821).
+
+ Bortolotti's primary object was thus to draw a comparison between Levi-Civita's par
+
+ allelism on the one side and the parallelisms of Clifford and of Lobachevsky on the
+ other. The result was unexpected since he was able to obtain an invariant characteri
+
+ zation of the latter in terms of the former. This achievement could be attained using
+
+ the notion of associated directions that Bianchi had recently introduced in (Bianchi
+
+ 1922) while providing his own reformulation of Levi-Civita's parallelism. This inno
+
+ vation grew out of Bianchi's investigation of what he termed subordinate parallelism,
+
+ that is into the notion of parallelism on Riemannian submanifolds Vm that is naturally
+ induced by Levi-Civita's parallelism in the ambient manifold Vn (1 < m < η).
+
+ In modern terms, Bianchi's associated directions are, modulo an invariant factor,
+
+ no other than the values of the covariant derivative of the vector field ξ along the path
+
+ γ. Bianchi posed:
+
+ *-§+t{T λ,μ=1 1
+
+ and defined the associated directions /j,, i = 1,...,« by means of the following
+ formulas:
+
+ = « = 1,..., (16)
+
+ where R is a scalar quantity defined by
+
+ — /^~l. aik
+
+ V ik
+
+ Since, as was proved by Bianchi in full detail, the quantities Ω, transform under a
+
+ change of coordinates in a controvariant manner, is an invariant. Bianchi termed it
+
+ associated curvature (curvatura associata). Its geometrical meaning can be described
+
+ as a measure of the rapidity of deviation from Levi-Civita's parallelism of the directions
+
+ ξ(ί) along the curve γ.
+
+ In view of its intuitive geometrical interpretation, it must have been a natural choice
+
+ for Bortolotti to employ Bianchi's notion of associated directions in order to provide a
+
+ characterization of Clifford's parallelism in terms of its deviation from Levi-Civita's.
+ Let us see in some detail how this characterization was attained in (Bortolotti 1925).
+
+ Springer
+
+This content downloaded from 203.78.15.150 on Mon, 18 May 2020 09:15:55 UTC
+All use subject to https://about.jstor.org/terms
+
+ Variations on a theme: Clifford's parallelism in elliptic ... 383
+
+ In following Bianchi's treatment as described in the preceding section, Bortolotti
+
+ employed Weierstrass' coordinates Qto, x\, X2, *3) for the elliptic 3-space; the corre
+
+ sponding metric is thus given by ds2 = R2 Σ?=ο dxf, where, as usual, it is intended
+
+ that xq, ;q, X2, X3 are linked by the relation Σΐ=ο xf — 1 · The first step of Bortolotti's
+ analysis consisted in deriving the analytical expression for finite Clifford's displace
+
+ ment (trasporto finito per parallelismo di Clifford), i.e., the analytical prescription
+
+ according to which a direction ξ at a given point χ is Clifford parallelly displaced at
+
+ another point χ a finite distance from χ. To this end, it was crucial to use Fubini's scroll
+
+ parameters, which we referred to in the previous section. Let r be a geodesic in S3, i.e.,
+
+ a straight line of the associated projective space; let x, and £,· indicate the coordinates
+
+ of one of its point Ρ and the coordinates of the normal plane in Ρ, respectively. Then,
+
+ following Fubini, the scroll parameters of r are given by
+
+ Β = (£i*o - £0*1) ± (£3*2 _ £2*3)
+
+ C = (£2*0 - £0*2) ± (£1*3 - £3*1) (17)
+
+ D = (£3*0 - £0*3) ± (£2*1 - £1*2).
+
+ where it is intended that the upper and the lower signs refer to right-handed and
+
+ left-handed scrolls, respectively. After that the six scroll parameters of r have been
+
+ calculated, the directions f of the right and left Clifford's parallels drawn through a
+
+ point jc are given by the following equations:
+
+ £0 = —Bx 1 - Cx2 - Dx3
+
+ fi = Bx ο τ Dx2 ± Cx 3
+
+ 12 = Cx0 ± Dx 1 ψ Bx3
+
+ 13 = Dx ο Τ Cx 1 ± Bx 2.
+
+ Upon substitution of the expressions for B, C, D as given by (17), Bortolotti finally
+ obtained the equation for finite Clifford's displacement (there are actually two of
+ them):
+
+ £/ = τ(-ΐ)'
+
+ Xk Xr Xs
+
+ xk xr xs
+
+ £* £r £s
+
+ - xi Σ χχξλ + £(· Σ *λΧλ ' (19)
+
+ λ=0 λ=0
+
+ where (ikrs) is any even permutation of (0123).
+
+ Interestingly, Bortolotti provided a very intuitive description of the geometrical
+
+ significance of Clifford's displacement as compared to Levi-Civita's displacement
+
+ along geodetic lines. He obtained the following26
+
+ Theorem 3 (Bortolotti 1925) If a given direction ξ is (Levi-Civita) parallelly dis
+ placed along an orthogonal geodesic, then at every point of the geodesic the
+ Levi-Civita's parallel is the bisector of the two Clifford's parallels.
+
+ 26 The same result had been obtained by Cartan (1924).
+
+ Ô Springer
+
+This content downloaded from 203.78.15.150 on Mon, 18 May 2020 09:15:55 UTC
+All use subject to https://about.jstor.org/terms
+
+ 384 A. Cogliati
+
+ As for Levi-Civita's parallelism in S3, Levi-Civita himself had explicitly writ
+ ten down27 the differential equations for parallel displacement of a given vector
+
+ Hi, (i = 0,..., 3) (to be regarded as function of the arc-length s of a curve γ) along
+
+ a curve Xi(s) = y(s). By indicating with λ,· = R~j^' (i = 0,..., 3) the direction
+
+ cosines of the tangent vector ^ and with cos φ the cosine of the angle between the
+
+ vectors λ and ξ (i.e., cos φ = Σ; λ,-ξ;), these equations read as follows:
+
+ At this point, Bortolotti recalled that equations (20) could be most easily integrated
+
+ along a geodesic to give:
+
+ cos<^ · η ο ηηΛ
+ — = —Xi, ι=0, ...,3. (20)
+ ds R
+
+ Ht = £1 - cos φ —s— (x i + χ,), (21)
+
+ s ,
+ cos — - 1
+
+ sin —
+ R
+
+ where it is intended that \L indicates the direction parallel to Η in the point χ that is
+
+ obtained by Levi-Civita's displacement along the geodetic line joining χ to x; s is the
+
+ arc-length of the geodesic joining χ to x. Now, by defining ψ to be the angle between the
+
+ two Clifford's parallels f c and the Levi-Civita's parallel Hl, i.e., cos φ = Σί=0 %t '
+
+ it immediately follows from equations (19) and (21) that, independently from the kind
+
+ of Clifford's parallelism, one has:
+
+ cos  ψ = cos φ ^cos — 1^ + cos . (22)
+
+ The assertion of the theorem is readily deduced by setting cos φ = 0. Indeed, as
+
+ Bortolotti observed, one has cos φ = cos i.e., Φ = ρ which is exactly one half of
+
+ the angle between the two Clifford's parallels.28
+
+ Theorem (3) provided a vivid illustration of the geometrical relationship between the
+
+ two parallelisms; nonetheless, Bortolotti aimed at characterization of this relationship
+
+ also at an infinitesimal level, that is by means of the differential equations presiding
+
+ over parallel displacement. To this end, he first deduced the infinitesimal counterpart
+ of equations (19); by setting λ,· = (x,'(s), i = 0,..., 3 is now a generic curve,
+ not necessarily a geodesic), he obtained:
+
+ d£= (-1y
+ ds ^ R
+
+ λ-k ks
+
+ Xk Xr Xs
+
+ Hk Hr Hs
+
+ cos</>
+
+ 27 See Levi-Civita (1917, p. 18).
+
+ 28 As is clear from its expression, the angle between the two Clifford's parallels depends upon the distance
+
+ of the point xj and i,·. For an easy computation of this angle (first calculated by Fubini (1900)), see, e.g.,
+ Bianchi (1902, p. 453).
+
+ <£l Springer
+
+This content downloaded from 203.78.15.150 on Mon, 18 May 2020 09:15:55 UTC
+All use subject to https://about.jstor.org/terms
+
+ Variations on a theme: Clifford's parallelism in elliptic ... 385
+
+ where (ikrs) is an even permutation of (0123). Now, since equations (20) could be
+ interpreted by saying that the covariant derivative of ξ along the curve χ = x(s),
+
+ which is the same as Bianchi's associated direction Ω,·, is vanishing, equations (23)
+ could be rewritten as:29
+
+ λk kr ks
+
+ Xlc xr xs
+
+ Ik Ir Is
+
+ (24)
+
+ Correspondingly, Bortolotti determined Bianchi's associated curvature C that in this
+
+ case is easily seen to be equal to: C = ^ |sin φ\, φ being λξ.
+
+ This achievement constituted the starting point of an extensive research program
+
+ that Bortolotti developed in a series of papers that appeared in late 1920s. His aim
+
+ was to generalize Clifford's (and Lobachevsky's) parallelism to general Riemannian
+ manifolds other than those of constant Riemannian curvature. A first result in this
+
+ direction, which was limited to the case of three-dimensional Riemannian manifolds,
+
+ was attained already in (Bortolotti 1925) where Bortolotti indicated a generalization
+
+ of the parallel displacement defined by equations (23). The idea was to replace the
+
+ curvature Κ = ^ of the space by the sectional curvature of the 2-plane generated by
+ ξ and λ. Further investigations into absolute parallelism were carried out by him in a
+
+ brief memoir (Bortolotti 1927) presented by Levi-Civita to the Reale Istituto Veneto
+
+ in January 1927, where he provided a generalization of a type of absolute parallelism
+ in Riemannian manifolds introduced by Cartan and Schouten (1926) in the realm
+
+ of the geometry of Lie groups.30 Over the following years, Bortolotti developed a
+
+ peculiar approach to the theory of connections that took great profit of Giuseppe
+ Vitali's researches on absolute differential calculus. Before his premature death in
+
+ 1942, Bortolotti became the undisputed Italian leader in the field of connection theory.
+ As Fabio Conforto put it, Bortolotti's "main scientific achievements are concerned
+
+ with the study of spaces with connection, a theory which he brought back to Italy
+
+ where it was born [undoubtedly, here Conforto referred to Levi-Civita's 1917 paper];
+
+ Bortolotti enriched it with new concepts and results by constantly striving to grasp the
+
+ geometrical significance of the analytical developments beyond the intricacy of the
+ formalism."
+
+ 6 Conclusions
+
+ Starting from the early 1920s, Clifford's parallelism, which until then had represented
+ an isolated phenomenon, could finally be understood within the theoretical framework
+
+ of the dawning theory of connections. In this respect, the contribution of Bortolotti
+
+ constituted one of the first reflections of this general tendency. Almost at the same
+
+ time, in a joint work (Cartan and Schouten 1926) with Jan Arnoldus Schouten, Cartan
+
+ 29 An equivalent form for Clifford's displacement which does not require any recourse to Weierstrass'
+ coordinates was provided by Bortolotti (1930, p. 243).
+
+ 30 See Cartan and Schouten (1926).
+
+ ·£) Springer
+
+This content downloaded from 203.78.15.150 on Mon, 18 May 2020 09:15:55 UTC
+All use subject to https://about.jstor.org/terms
+
+ 386 A. Cogliati
+
+ succeeded in providing group-theoretical grounds for the explanation of this phenom
+
+ enon.31 By using techniques and notions stemming from his theory of generalized
+
+ (non-holonomic) spaces, he was able to interpret Clifford's parallelism as particular
+
+ case of a property shared by all Lie groups. More explicitly, Cartan and Schouten's
+
+ main achievement consisted in the discovery of three different types of connections
+
+ with which a given Lie group manifold can be endowed. Two of them define an absolute
+
+ parallelism (precisely as Clifford's parallelism is), and the other, insofar as far as the
+
+ Lie group can be provided with a Riemannian structure, defines a parallelism of Levi
+
+ Civita's type. As a consequence of the fact that the elliptic 3-space can be regarded as
+
+ a simple compact Lie group, a higher standpoint was thus obtained in virtue of which a
+
+ clear comprehension of the relation between Levi-Civita's and Clifford's parallelisms
+
+ was finally attained.
+
+ Cartan and Schouten (1926) marked somehow the beginning of a new and most
+
+ interesting story which eventually led Cartan (and Schouten) to build up a new disci
+
+ pline of research, the geometry of Lie groups. According to this innovative standpoint,
+
+ which implied at the same time major technical innovation with respect to classical
+
+ differential geometry, Lie groups came to be regarded as proper abstract manifolds
+
+ deserving of geometrical investigation in their own respect.
+
+ Appendix
+
+ This section provides some elementary material concerning projective geometry and
+
+ the theory of polarity with respect to a given quadric. Since the discussion of sections
+
+ (2) and (3) heavily relies upon these notions, it appears useful to gather some relevant
+
+ information in the present appendix.32
+
+ A second-order surface, i.e., a quadric, is the locus of points (either complex or
+
+ real) in the three-dimensional projective space that satisfies a second-order equation;
+
+ by employing homogeneous coordinates (xo, x\,X2, *3), the equation of a quadric Q
+ can be written as follows:
+
+ fix) = Σ aVx'xj ~ °> (25)
+
+ 3
+
+ 1,7=0
+
+ where a,·; are symmetrical constant coefficients. Consider now two distinct points of
+ the space Ρ = (χ,·), Ρ' = (y;); let Ρ Ρ' be the straight line connecting them consisting
+ of the points of type (kx, + yi),i = 0,..., 3. The intersections of PP' with Q are
+
+ easily obtained by replacing in (25) x,· with kxi +y,·, i = 0,..., 3. By doing so and
+
+ by setting fty = Eij=oa'jx'yj>one obtains:
+
+ k ■ fix) + 2k · f\ +/(y) = 0. (26)
+
+ ϋ
+
+ 31 We will deal with the collaboration between Cartan and Schouten upon this topic in a forthcoming paper.
+
+ 32 For a more extensive treatment, see, e.g., Bianchi (1904), Castelnuovo (1904), and Seidenberg (1962)
+
+ upon which this appendix relies.
+
+ Ô Springer
+
+This content downloaded from 203.78.15.150 on Mon, 18 May 2020 09:15:55 UTC
+All use subject to https://about.jstor.org/terms
+
+ Variations on a theme: Clifford's parallelism in elliptic ... 387
+
+ Now, by denoting by k\, ki the solutions of (26), the two intersections Q, Q' are given
+
+ by g = (Xi + k\yi) and Q' = (jc,· + kzyt). In the case in which /(*) = 0 (i.e., when
+ k\, ki are equal in modulus but with opposite sign), the cross-ratio of the four point
+ Ρ, P', Q, Q! is harmonic and the points Ρ, P' are said to be conjugate with respect
+
+ to the quadric. The set of points Qco, χ ι, xi, *3) which are conjugate to a fixed point
+
+ (xq, x\,x'v x'3) is given by the equation
+
+ («00*0 Η 1" Û03*3)*0 + b (α30χ'ο H + «33*3)*3 = 0.
+
+ This set of points represents a plane which is called the polar plane with respect to
+
+ the point (Xq, *ί . *2- *3) (Ae pole of the plane). In the case of an irreducible quadric;
+
+ i.e., when the determinant of the matrix [a,7], i, j = 0,..., 3 is not equal to zero,
+ the quadric determines a bijective correspondence a between points and planes; to
+
+ the point (yo, yi, y2, W). there corresponds the plane Σ*=ο &xk — °> where Çk =
+
+ Σΐ=οαΜί· Furthermore, if a point Ρ runs along a straight line P'P" so that its
+ coordinates can be written as χ; = χ ·+£*·',33 then the coordinates of the corresponding
+
+ polar plane are given by
+
+ &=!/ + *?/', i = 0.....3. (27)
+
+ Any two planes of the form (27) intersect in a straight line that is called the polar line
+
+ with respect to the line P'P". In other terms, while the pole Ρ runs along a straight
+
+ line r, the corresponding polar planes rotate around a fixed axis which coincides with
+
+ the polar line r' = a(r). As a consequence of this, any point of a given straight line r
+
+ is conjugate to any point lying on the polar line (with respect to r) r'.
+
+ It seems helpful to recall some basic properties of ruled quadric. To this end, we
+
+ appeal to the synthetic definition of quadric in terms of reguli of straight lines. By a
+
+ regulus, one means the set of lines meeting three mutually skew lines of the projective
+
+ space. In addition to the analytical definition given above, a quadric surface can be
+ defined as the set of points (either real or complex) lying on the lines of a regulus
+
+ (such regulus will be said to be the first regulus of the quadric or the first system of
+
+ generators of the quadric). It can be proved that any two lines of a regulus are mutually
+
+ skew. Furthermore, if a line meets three lines of the first regulus of the quadric then
+
+ it meets all the lines of the regulus. As a consequence of this, the lines that meet all
+
+ the lines of the first regulus form a new regulus that is called the second regulus of
+
+ the quadric (or alternatively, the second system of generators of the quadric). In a
+
+ completely symmetrical way, the first regulus consists of all the lines that meet all the
+
+ lines of the second regulus. Finally, through any point of the quadric, there are exactly
+
+ two lines belonging to distinct reguli.
+
+ In the case of the imaginary quadric surface which is relevant in the context of the
+
+ Cayley-Klein projective model of elliptic space,
+
+ Q = {(*o>*i,*2,*3) e ^(C) I x% + x\ + x\ + x\ = oj,
+
+ 33
+
+ It is intended that (x{) and (xj') are homogeneous coordinates of the points Ρ', P", respectively.
+
+ £) Springe:
+
+This content downloaded from 203.78.15.150 on Mon, 18 May 2020 09:15:55 UTC
+All use subject to https://about.jstor.org/terms
+
+ 388 A. Cogliati
+
+ through every (imaginary) point we have two imaginary lines belonging to distinct
+ reguli whose analytic expression is provided by formulae (1) and (2).
+
+ Let us consider the so-called elliptic polarity a induced by the absolute quadric Q
+
+ in the real projective space P3(R). It can be defined by the following equivalence:
+
+ (x0, *1, X2, X3) e a((y0, yi>y2, B))
+
+ xoyo+ *iyi +X2yi + X7,y?, =0, x,ye
+
+ Accordingly, we have an induced polarity involving straight lines which is denoted
+
+ by a, as well. In light of section (1), Clifford's original definition of parallels can be
+
+ reformulated in the following way: Two distinct straight lines a, bin P3(R) are said to
+
+ be Clifford's parallels if the four straight lines a, b, a(a), a(b) belong to one regulus
+ otir(K).34
+
+ This definition does not require any recourse to a complex extension of the real
+
+ projective space, which is instead required if one wants to define Clifford's parallels
+
+ in terms of the generators of the absolute quadric. In order to do so, one has to embed
+
+ the real projective space into its complex extension P3(C). A point χ € P3(C) is said
+ to be real if χ = (kxo, kx\, kx2, kx3) for xo, x\, X2, X3 e R and k e C. Points in
+
+ P3(C), which are not real, are said to be imaginary. Accordingly, a straight line I is
+
+ said to be real if there exist two real points x, y such that I consists of all points of
+
+ type λχ + μγ for λ, μ e C.35 As a consequence of this, a straight line in P3(C) is
+
+ real if / = I, where the bar denotes complex conjugation.36 It is easy to see that a real
+
+ line in P3 (C) is completely determined by one imaginary point. In this context, it is
+
+ important to note that a line in P3(R) was usually identified (e.g., by Klein) with its
+ complex extension in P3(C).
+
+ References
+
+ Co.
+
+ Ball, R.S. 1876. The theory of screws: A study in the dynamics of a rigid body. Dublin: Hodges, Foster and
+
+ Ball, R.S. 1881. Certain problems in the dynamics of a rigid system moving in elliptic space. Transactions
+
+ of the Royal Irish Academy 28: 159-184.
+
+ Beltrami, E. 1865. Risoluzione del problema: "riportare i punti di una superficie sopra un piano in modo
+
+ che le linee geodetiche vengano rappresentate da linee rette". Annali di Matematica pura ed applicata
+ 7:185-204. Also in (Beltrami Opere Matematiche, 1,262-280).
+
+ Beltrami, E. 1868. Saggio di interpretazione della geometria non-euclidea. Giornale di Matematiche 6:
+
+ 284-312. Also in (Beltrami Opere Matematiche, 1,374-405).
+
+ Beltrami, E. 1868-1869. Teoria fondamentale degli spazi a curvatura costante, Annali di Matematica pura
+
+ ed applicata, 2: 232-255. Also in (Beltrami Opere Matematiche, 1,406-429).
+
+ Beltrami, E. 1902-1920. Opere Matematiche, 4 Volumes, Hoepli, Milano.
+ Betten, D., and R. Riesinger. 2012. Clifford parallelism: Old and new definitions, and their use. Journal of
+
+ Geometry 103: 31-73.
+
+ 34 This is the formalization of Clifford's original definition provided in Betten and Riesinger (2012, pp.
+ 32-33).
+
+ 35 In this way, a line in IP3 (R) can be extended to a real line in P3 (C).
+
+ 36 It should be noticed that a real line I actually contains imaginary points. However, if ζ e / then also
+ ζ el.
+
+ Ô Springer
+
+This content downloaded from 203.78.15.150 on Mon, 18 May 2020 09:15:55 UTC
+All use subject to https://about.jstor.org/terms
+
+ Variations on a theme: Clifford's parallelism in elliptic ... 389
+
+ Bianchi, L. 1895. Sulle superficie a curvatura nulla negli spazi di curvatura costante. Atti dell'Accademia
+
+ delle Scienze di Torino 30: 475-487. Also in (Bianchi Opere, VIII, 256-265).
+
+ Bianchi, L. 1896. Sulle superficie a curvatura nulla in geoemtria ellittica. Annali di Matematica Pura ed
+
+ Applicata 25(2): 93-129. Also in (Bianchi Opere, VIII, 266-301).
+ Bianchi, L. 1902. Lezioni di Geometria Differenziale, vol. 1. Pisa: Spoerri.
+ Bianchi, L. 1904. Lezioni di Geometria Analitica. Pisa: Spoerri.
+ Bianchi, L. 1922. Sul parallelismo vincolato di Levi-Civita nella metrica degli spazi curvi. Rendiconti délia
+
+ Accademia delle Scienze di Napoli 28: 150-171. Also in (Bianchi Opere, X, 43-64).
+
+ Bianchi, L. 1952-1959. Opere, vol: 11. Roma: Edizioni Cremonese.
+ Bompiani, E. 1942. Enea Bortolotti. Rendiconti di Matematica e delle sue Applicazioni 3: 241-281.
+ Bonola, R. 1912. Non-euclidean geometry. Chicago: The Open Court Publishing Company.
+
+ Bortolotti, E. 1924-1925. (Enea), Parallelismo assoluto e vincolato negli S3 a curvatura costante ed esten
+
+ sione aile V3 qualunque, Atti del Reale Istituto Veneto di Scienze, Lettere ed Arti, 84: 821-858.
+
+ Bortolotti, E. 1927. Parallelism! assoluti nelle V„ riemanniane. Atti del Reale Istituto Veneto di Scienze,
+
+ Lettere edArti 84: 455-465.
+
+ Society 5: 242-248.
+
+ Bortolotti, E. 1930. On parallelisms and teleparallelisms in curved space. Journal of London Mathematical
+
+ Bortolotti, E. 1935. Lezioni di Geoemtria Superiore. Firenze: Poligrafica Universitaria.
+
+ Buchheim, A. 1883. On the theory of screws in elliptic space. Proceedings of the London Mathematical
+
+ Buchheim, A. 1884. On the theory of screws in elliptic space (supplementary note). Proceedings of the
+
+ Society 15: 83-98. (Read January 1884).
+
+ London Mathematical Society 16: 15-27.
+
+ Buchheim, A. 1885. A memoir on biquaternions. American Journal of Mathematics 7: 293-326.
+
+ Cartan, E., and J.A. Schouten. 1926. On the geometry of the group-manifold of simple and semi-simple
+
+ groups. Proceedings of the Royal Academy Amsterdam 29: 803-815. Also in (Cartan OEuvres, Part
+ 1, vol. II; 573-585).
+
+ Cartan, É. 1924. Les récentes généralisations de la notion d'espace. Bulletin des Sciences Mathématiques
+
+ 48: 294-320. Also in (Cartan OEuvres, Part 3, vol. I; 863-889).
+
+ Cartan, É. 1952-1955. Œuvres Complètes. Paris: Gauthier-Villars.
+ Castelnuovo, G. 1904. Lezioni di Geometria Analitica e Proiettiva, Roma-Milano.
+
+ Cayley, A. 1859. A sixth memoir upon quantics. Philosophical Transactions of the Royal Society of London
+
+ 149: 61-90. Also in (Cayley Mathematical Papers, II, 561-592).
+
+ Cayley, A. 1889-1897. Collected mathematical papers, 13 Volumes, Cambridge.
+
+ Clifford, W.K. 1873. Preliminary sketch of biquaternions. Proceedings of the London Mathematical Society,
+
+ 4, 64-65,381-395. Also in (Clifford Mathematical Papers, 181-200).
+
+ Clifford, W.K. 1882. Mathematical papers. London: MacMillan.
+ Conforto, F. 1948. Enea Bortolotti. Enciclopedia Italiana Treccani, II Appendice. Rome: Treccani.
+ Coxeter,H.S.M. 1998. Non-euclidean geometry, 6th ed. Washington D.C.: The Mathemamatical Association
+
+ of America.
+
+ Fubini, G. 1900. IIparallelismo di Clifford negli spazi ellittici. Tipografia Successori, Pisa: Tesi di Laurea.
+ Giering, O. 1982. Vorlesungen tiber hohere Geometrie. Braunschweig-Wiesbaden: Vieweg.
+
+ Klein, F. 1871. Notiz, betreffend den Zusammenhang der Liniengeometrie mit der Mechanik starrer Kôrper.
+
+ Math. Ann. 4:403-415. Also in (Klein Ges. Math. Abh., I, 226-240).
+
+ Klein, F. 1871. Ober die sogennante Nicht-Euklidische Geometrie. Math. Ann. 4: 573-625. Also in (Klein
+
+ Klein, F. 1890. Zur Nicht-Euklidische Geometrie. Math. Ann. 37:544-572. Also in (Klein Ges. Math. Abh.,
+
+ Ges. Math. Abh., I, 254-305).
+
+ 1,353-383).
+
+ Klein, F. 1921-1923. Gesammelte Mathematische Abhandlungen, 3 volumes. Berlin: Springer.
+ Klein, F. 1928. Vorlesungen iiber nicht-Euklidische Geometrie, Berlin.
+
+ Levi-Civita, T. 1917. Nozione di parallelismo in una varietà qualunque e conseguente specificazione geo
+ metrica della curvatura Riemanniana. Rendiconti del Circolo Matematico di Palermo 42: 173-205.
+
+ Levi-Civita, T. 1954-1973. Opere Matematiche, 6 Volumes, Zanichelli, Bologna.
+
+ Pliicker, J. 1866. Fundamental views regarding mechanics. Philosophical Transactions of the London Royal
+
+ Also in (Levi-Civita, IV, 1-39).
+
+ Society 156: 361-380.
+
+ Reich, K. 1992. Levi-CivitascheParallelverschiebung, affiner Zusammenhang, Ûbertragungsprinzip, 1916—
+
+ 1917-1922/1923. Archive for History of Exact Sciences 44: 77-105.
+
+ Spring* ;er
+
+This content downloaded from 203.78.15.150 on Mon, 18 May 2020 09:15:55 UTC
+All use subject to https://about.jstor.org/terms
+
+ 390 A. Cogliati
+
+ Rowe, D.E. 1989. The early geometrical works of Sophus Lie and Felix Klein. In The history of modern
+
+ mathematics /, eds. D.E. Rowe and J. McCleary, 210-273. New York.
+
+ Seidenberg, A. 1962. Lectures in projective geometry. New York: Dover.
+ Study, E. 1891. Von den Bewegungen und Umlegungen, I und II Abhandlung. Math. Ann. 39: 441-566.
+
+ Study, E. 1913. Grundlagen und Ziele der analytischen Kinematik. Sitzber. d. Bert. math. Ges. 13: 36-60.
+
+ Vaney, F. 1929. Le parallélisme absolu dans les espaces elliptiques réels à 3 et à 7 dimensions et le principe
+
+ de trialitédans l'espace elliptique à 7dimensions. Paris: Gauthier-Villars.
+
+ Zacharias, M. 1913. Elementargeometrie und elementare nichteuklidische Geometrie in synthetischer
+
+ Behandlung, Enzyklopddie der Mathematischen Wissenschaften mit Einschlufi ihrer Anwendungen,
+ Bd. 3-1-2, 862-1162. Leipzig: B.G. Teubner Verlag.
+
+ Ziegler, R. 1985. Die Geschichte der geometrischen Mechanik im 19. Jahrhundert. Stuttgart: Steiner.
+
+ Ô Springer
+
+This content downloaded from 203.78.15.150 on Mon, 18 May 2020 09:15:55 UTC
+All use subject to https://about.jstor.org/terms
+
+

@@ -1,0 +1,2201 @@
+ 
+
+ 
+
+ 
+
+ 
+
+Orbital motion and force in Newton's "Principia"; the equivalence of the descriptions in
+
+Propositions 1 and 6
+Author(s): Michael Nauenberg
+Source: Archive for History of Exact Sciences, Vol. 68, No. 2 (March 2014), pp. 179-205
+Published by: Springer
+Stable URL: https://www.jstor.org/stable/24569629
+Accessed: 19-05-2020 10:00 UTC
+
+ 
+REFERENCES 
+Linked references are available on JSTOR for this article:
+https://www.jstor.org/stable/24569629?seq=1&cid=pdf-reference#references_tab_contents 
+You may need to log in to JSTOR to access the linked references.
+
+JSTOR is a not-for-profit service that helps scholars, researchers, and students discover, use, and build upon a wide
+
+range of content in a trusted digital archive. We use information technology and tools to increase productivity and
+
+facilitate new forms of scholarship. For more information about JSTOR, please contact support@jstor.org.
+
+Your use of the JSTOR archive indicates your acceptance of the Terms & Conditions of Use, available at
+
+https://about.jstor.org/terms
+
+Springer is collaborating with JSTOR to digitize, preserve and extend access to Archive for
+History of Exact Sciences
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 10:00:57 UTC
+All use subject to https://about.jstor.org/terms
+
+ Arch. Hist. Exact Sei. (2014) 68:179-205
+ DOI 10.1007/s00407-014-0136-6
+
+ Orbital motion and force in Newton's Principia;
+ the equivalence of the descriptions in Propositions
+ 1 and 6
+
+ Michael Nauenberg
+
+ Received: 5 January 2014 / Published online: 26 February 2014
+
+ © Springer-Verlag Berlin Heidelberg 2014
+
+ Abstract In Book 1 of the Principia, Newton presented two different descriptions of
+
+ orbital motion under the action of a central force. In Prop. 1, he described this motion
+
+ as a limit of the action of a sequence of periodic force impulses, while in Prop. 6,
+
+ he described it by the deviation from inertial motion due to a continuous force. From
+
+ the start, however, the equivalence of these two descriptions has been the subject of
+
+ controversies. Perhaps the earliest one was the famous discussion from December
+
+ 1704 to 1706 between Leibniz and the French mathematician Pierre Varignon. But
+
+ confusion about this subject has remained up to the present time. Recently, Pourciau
+
+ has rekindled these controversies in an article in this journal, by arguing that "Newton
+
+ never tested the validity of the equivalency of his two descriptions because he does
+
+ not see that his assumption could be questioned. And yet the validity of this unseen
+ and untested equivalence assumption is crucial to Newton's most basic conclusions
+ concerning one-body motion" (Pourciau in Arch Hist Exact Sei 58:283-321, 2004,
+
+ 295). But several revisions of Props. 1 and 6 that Newton made after the publication
+
+ in 1687 of the first edition of the Principia reveal that he did become concerned to
+
+ provide mathematical proof for the equivalence of his seemingly different descriptions
+
+ of orbital motion in these two propositions. In this article, we present the evidence that
+
+ in the second and third edition of the Principia, Newton gave valid demonstrations of
+
+ this equivalence that are encapsulated in a novel diagram discussed in Sect. 4.
+
+ Communicated by: Niccolö Guicciardini.
+
+ M. Nauenberg (S)
+ Department of Physics, University of California, Santa Cruz, CA 95064, USA
+ e-mail: mnauenbe@ucsc.edu
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 10:00:57 UTC
+All use subject to https://about.jstor.org/terms
+
+ â Springer
+
+ 180 M. Nauenberg
+
+ 1 Introduction
+
+ In Sect. 2 of Book 1 of his Principia, Newton presented two different descriptions
+
+ for the orbital motion of a body due to the action of an attractive central force.1 One
+
+ of these descriptions, which appears in Prop. 1, presents the orbit as uniform motion
+
+ along the sides of a polygon, resulting from the action of a sequence of discrete
+
+ central force impulses at equal time intervals. Then the orbit due to a continuous
+
+ force is obtained by taking a limit of this polygonal motion when this time interval,
+
+ and the sides of the polygon become vanishingly small. In this proposition, Newton
+
+ proves that central forces lead to Kepler's area law. The other description that appears
+
+ in Prop. 6 considers locally a short segment of an orbital curve and determines the
+
+ deflection from inertial motion along the tangent of this curve due to the action of
+
+ a continuous central force during a short time interval. The magnitude of this force
+
+ is obtained by the limit when this time interval, and correspondingly the deflection,
+
+ becomes vanishingly small. In Prop. 6, the proof of Kepler's area law for central forces
+
+ is applied to express the time interval in geometrical form. Newton had developed a
+
+ geometrical calculus, which allowed him to deal in a precise mathematical fashion
+
+ with such limits of quantities which become vanishingly small, while their ratios
+
+ approach finite values. He discussed this calculus in eleven lemmas which constitute
+
+ the mathematical foundations on which the Principia rests.2 In a Scholium following
+ these lemmas, Newton wrote:
+
+ In any case I have presented these lemmas before the propositions in order to
+
+ avoid the tedium of working our lengthy proofs by reductio ad absurdum in the
+
+ manner of the ancient geometers (Newton 1999, 441 ).
+
+ To understand these propositions, it is helpful to take a historical perspective and
+
+ consider the origin of these propositions and their evolution, from Newton's first for
+
+ mulation in De Motu,3 the earliest draft of the Principia that he sent to Halley in 1684,
+
+ through the successive revisions which he made in the first (1687) and second (1713)
+
+ editions of the Principia. After the publication of the first edition of the Principia, there
+ is considerable evidence that will be discussed here that Newton became concerned in
+
+ providing further mathematical proof for his two propositions and their equivalence
+
+ in the continuum limit. The evidence for his concern is found in the changes and addi
+
+ tions which he made in the second edition (1713) of the Principia, in his formulation
+
+ of Props. 1 and 6 in Book 1. We will show that these modifications, which were also
+
+ included in the same form in the third edition (1726) of the Principia, clearly indicate
+
+ that Newton was well aware of the need to provide mathematical proof for the equiv
+
+ alence of his two description for orbital motion and force in these two propositions.
+
+ In particular, in the second edition of the Principia, Newton gave a proof that the
+
+ ' For this force, Newton coined the name centripetal, seeking the center, in contrast to Huygens' name
+
+ centrifugal, fleeing the center (Westfall 1980, 411).
+
+ 2 In spite of their importance, these lemmas are often ignored in discussions of the Principia.
+
+ 3 De motu corporum in gyrutn (On the motion of bodies) (Newton 1974, 30-74) was a nine page tract
+ which Newton wrote, in the Fall of 1684, in response to the visit of Edmond Halley, who asked Newton if
+
+ he knew the orbit for an inverse square attractive force.
+
+ Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 10:00:57 UTC
+All use subject to https://about.jstor.org/terms
+
+ Orbital motion and force in Newton's Principiu 181
+
+ measure for a central force that he obtained by taking the continuum limit of discrete
+
+ impulses in Prop. 1 is precisely the same as the one which he obtained in Prop. 6 from
+
+ a description of orbital motion based on calculating the deviation from 1 motion due
+
+ to the action of an uninterrupted force.
+
+ In a review of the second edition of the Principia by an anonymous writer in the
+
+ Acta Eruditorium (March 1713), the occurrence of changes in Props. 1 and 6 were
+
+ pointed out. But the significance of these changes—to clarify these two propositions
+
+ and to provide a proof of their equivalence—appears to have escaped the attention of
+
+ some commentators of the Principia up to the present time. For example, B. Pourciau
+
+ claims that "once in the Principia the text of both Prop. 1 and its demonstration remains
+
+ virtually the same through all three editions" (Pourciau 2004, 271). But he ignored
+
+ the important changes Newton made including new corollaries to this proposition and
+
+ a substantial reformulation of Prop. 6 in the second edition of the Principia. We show
+
+ that these changes provided a proof that in the continuum limit the measure of force
+
+ and orbital motion in Props. 1 and 6 are equivalent
+
+ In Sect. 2, we present a brief historical background on the role of the 1679 cor
+
+ respondence between Newton and Hooke, and on the eighteenth-century controversy
+
+ between Leibniz and Varignon on the different descriptions of force in Props. 1 and
+
+ 6. In Sects. 3 and 4, we review these two propositions as they appeared in the early
+
+ draft, and later revisions of De Motu sent to Halley in 1684, and in the first and second
+
+ editions of the Principia, indicating the significance of changes and additions that
+
+ Newton made to provide further mathematical proof to clarify the relation between
+
+ these two propositions.4 In Sect. 5, we discuss in detail the relation between the two
+
+ descriptions of orbital motion and central forces in these two propositions and demon
+
+ strate, with the aid of a novel diagram, Fig. 7, that in the second and third edition of the
+
+ Principia, Newton gave a valid mathematical proof of their equivalence. Since these
+
+ two propositions remained essentially unchanged in the third edition of the Principia,
+
+ we are able to quote from the excellent new English translation of this edition by
+ I. B. Cohen and Ann Whitmann Newton (1999). We conclude with a brief summary
+
+ in Sect. 6 and with three appendixes. Appendix 1 shows that Newton's expression
+
+ for the force in terms of the curvature of an orbit, Prop. 6, Cor. 3, corresponds to the
+
+ modern differential equation in polar coordinates, Appendix 2 gives a brief descrip
+
+ tion of Jacob Hermann's derivation of Kepler's area law, starting from Prop. 6, instead
+
+ of Prop. 1, and Appendix 3 discusses the important Lemma 11 for Prop, 6, and an
+
+ extension for its application to Prop. 1.
+
+ 2 Historical background
+
+ In the Fall of 1679, Newton and Robert Hooke had a long correspondence in which
+
+ they discussed fundamental problems concerning orbital motion. In the first one of
+
+ these letters sent by Hooke on November 24, 1679, he asked Newton for comments
+
+ 4 For other presentations, see Francois de Gant, Force and Geometry in Newton's Principia (de Gant 1995),
+ Niccolo Guicciardini, Reading the Principia (Guicciardini 1999), and I, B. Cohen, A Guide to Newton's
+ Principia (Newton 1999).
+
+ Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 10:00:57 UTC
+All use subject to https://about.jstor.org/terms
+
+ 182 M. Nauenberg
+
+ on a concept of planetary motion which Hooke had enunciated for the first time in
+
+ a remarkable lecture on "Planetary Movement as a Mechanical Problem," presented
+
+ at a meeting of the Royal Society of London on May 23, 1666, (Gunther 1930, 265;
+
+ Nauenberg 1994a, 336; Nauenberg 2005a, 15):
+
+ .. .And particularly if you will let me know your thoughts of that compounding
+
+ the celestiall motions of the planets of a direct motion by the tangent & an
+
+ attractive motion towards the central body [italics are mine]...(Newton 1960,
+ 297)
+
+ It is interesting to compare this early formulation of planetary motion by Hooke, with
+ a similar formulation that Newton had recorded in his notebook in 1664,
+
+ If a body moves progressively in some crooked [curved] line ... it may be con
+
+ ceived to consist of a number of straight lines. Or else, in any point of the crooked
+
+ line the motion may be conceived to be on the tangent (Herivel 1965, 145)
+
+ The second part of Newton's description of orbital motion corresponds closely to
+
+ Hooke's description. Evidently, he and Hooke had arrived, independently of each
+ other, at the same formulation of orbital motion which later Newton described in a
+
+ more precise mathematical form in Prop. 6: that at each moment of time, motion along
+
+ a curve can be viewed as straight line motion along the tangent of the curve, and that, as
+
+ Hooke proposed, this motion along the tangent can be "compounded" by an attractive
+
+ motion toward the central body. But a few days later, Newton responded to Hooke's
+
+ letter, stating that
+
+ .. .1 did not before ye receipt of your letter, so much as heare (that I remember)
+
+ of your Hypothesis of compounding ye celestial motion of ye Planets of a direct
+
+ motion by the tang[en]t of ye curve...(Newton I960, 81)
+
+ This response is disingenuous, because there is some evidence that Newton had read
+ Hooke's short tract (28 pages long), published in 1674, entitled On an Attempt to
+ Prove the Motion of the Earth by Observation, where Hooke had outlined his con
+
+ cept of planetary motion.5 Ten years earlier, Newton had also implemented such
+ a "compounding" of two motions mathematically, for the special case of uniform
+ circular motion, and he derived a relation for the acceleration toward the center of
+
+ the circle (Herivel 1965, 195). This relation states that the acceleration is directly
+
+ proportional to the square of the velocity and inversely proportional to the radius
+ of the circle, a relation that had been obtained earlier by Christiann Huygens.6-7
+
+ For general orbital motion, Newton first implemented mathematically the concept
+
+ 5 Hooke's tract was also reviewed in the Philosophical Transaction of the Royal Society 101, (1674) 11-13.
+
+ 6 Huygens kept his result secret for 15 years, until finally publishing it in his Horoloxium Oscillatorum in
+ 1674(Huygens 1929.253).
+
+ 7 Newton applied this relation for the acceleration to deduce from Kepler's harmonic law for planetary
+
+ motions (the square of the periods of the planets is proportional to the cube of their radii) that the gravitational
+
+ force on the planets dependence inversely on the square of the distance from the Sun. He also verified that
+
+ ö Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 10:00:57 UTC
+All use subject to https://about.jstor.org/terms
+
+ Orbital motion and force in Newton's Principia 183
+
+ of compounding the tangential motion with an attraction or deflection toward the
+ center of force in Theorem 3 of De Motu, which later became Prop. 6 of the Prin
+ cipia.
+
+ Shortly after the end of his correspondence with Hooke, Newton discovered that
+
+ Kepler's area law is a general property of orbital motion for central forces. In a later
+ recollection, he said that
+
+ In the year 1679 in answer to a letter from Dr. Hook...I found now[my italics]
+
+ that whatsoever was the law of the force which kept the Planets in their Orbs, the
+
+ area described by the Radius drawn from them to the Sun would be proportional
+
+ to the times in which they were described...(Bernard Cohen 1971, 293)
+
+ Newton's mathematical proof of the area law for "whatsoever was the law of the
+
+ force...," appeared as Theorem 1 of De Motu and later in Prop. 1, Book I, of the
+
+ Principia. This proof was based on his approximate description of orbital motion
+
+ by "straight lines," as he had recorded it in his notebook, some twenty years ear
+ lier.
+
+ In 1688, when Leibniz first read the Principia, but without acknowledging it,
+ he adopted the description of force in Prop. 1, where the deflection due to an
+ impulse could be described by uniform motion, apparently dispensing with accel
+
+ erated motion (Bertoloni Meli 1993, 80).8 On the other hand, a contemporary of
+
+ Leibniz, Pierre Varignon, preferred the description in Prop. 6 that led ab initio to
+
+ accelerated motion. This led to a lengthy debate between them that lasted from
+
+ December 1704 until 1706, aptly described as a "comedy of errors" (Bertoloni Meli
+
+ 1993, 81), because these two descriptions are equivalent, but this equivalence was
+ not clarified until 1713, when the second edition of the Principia appeared (see
+
+ Sect. 4). Leibniz also was able to express the description of orbital motion and cen
+
+ tral force in Prop. 1 in the language of his differential calculus, and remarkably, he
+
+ obtained the modern differential equation of motion in polar coordinates (Bertoloni
+ Meli 1993, 134-137; Nauenberg 2010, 281-283). In the early part of eighteenth
+ century, his pioneering work was followed by a number of able mathematicians in
+ Europe, including Jacob Hermann. Johann Bernoulli, and Pierre Varignon (Nauen
+
+ berg 2010, 269-300), who applied successfully Leibniz's differential calculus to the
+
+ propositions in the Principia. But confusion and errors about the connection between
+
+ Footnote 7 continued
+
+ the ratio of the gravitational force at the surface of the earth to the gravitational force on the moon was
+
+ "very nearly" proportional to the square of the ratio of the distance of the moon to the radius of the earth.
+ However, Newton obtained the value of about 4,000, instead of 3,600, because he had used an incorrect
+
+ estimate of the earth' radius (Herivel 1965,196).
+
+ 8 There was another more subtle reason for this choice that is generally not pointed out. Leibniz had
+
+ introduce the concept of first-order and higher-order differentials that were defined as differences between
+
+ lower order ones. The second-order differential associated with the displacement due to impulses in Prop.
+
+ 1 could be expressed as the difference of adjacent first-order differential representing the sides of the
+
+ polygonal trajectory. But this connection cannot be made with the second-order deflection from tangential
+
+ motion described in Prop. 6.
+
+ â Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 10:00:57 UTC
+All use subject to https://about.jstor.org/terms
+
+ 184 M. Nauenberg
+
+ Fig. 1 Newton's diagram in De
+ Fig. 1 Newton's diagram in De
+ Motu associated with his proof
+ Motu associated with his proof Vp
+ of Kepler's area law. It shows 7^ *'•*'*
+ of Kepler's area law. It shows
+ the construction of a polygonal ■ \ j
+ the construction of a polygonal
+ orbit, A BCDEF, with the
+ orbit, A BCDEF, with the
+
+ motion counterclockwise under
+ motion counterclockwise under »
+ the action of a sequence of radial \<
+ the action of a sequence of radial
+ impulses toward a center at 5 ' ...
+ impulses toward a center at S
+
+ a--'
+
+ JK.t
+
+ s
+ s
+
+ Newton's two propositions and its interpretation continues to occur up to the present
+ time.9 -10
+
+ 3 The development of Proposition 1
+
+ In order to discuss the significance of the changes that Newton made in his formulation
+
+ of Prop. 1 in the Principia, we review this proposition as it first appeared in early drafts
+
+ and in the subsequent editions of the Principia. After his initial description of orbital
+ motion in the De Motu, Newton became concerned in providing further mathematical
+
+ proof of his fundamental propositions and considered a major revision of his book.
+ The evidence for Newton's concern can be found by comparing the formulations of
+
+ these propositions in De Motu, and in the first and second edition of the Principia
+
+ In De Motu. Theorem I. Newton presented a geometrical construction for the orbit
+
+ of h a body moving under the action of central impulsive forces at equal intervals of
+ time. This construction corresponds to the description given in Prop. I, Book I of the
+
+ Principia. Referring to Fig. 1, which shows the original diagram associated with this
+ theorem, Newton gave a proof of Kepler's area law,
+
+ 9 For example, in discussing Prop. I, Eric Aiton wrote that "representing a curve by a sequence of first
+ order parabolic arcs is equivalent to representing the curve by a polygon with second-order infinitesimal
+ sides," and that the sides of the polygon in Prop. 1 could be interpreted as second-order infinitesimals
+ (Aiton 1989. 211). The same error also was made by Derek Whiteside (Newton 1974, 34—39, n. 19), and
+ subsequently, it has propagated in the literature; for example, in his recent Guide to Newton's Principia,
+ I.B. Cohen "warmly" recommends this erroneous analysis (Newton 1999, 115). But in Prop. 1, the correct
+ interpretation is that these polygon sides are first-order infinitesimals, as is demonstrated in Sect. 4.
+
+ 10 In a recent article in this journal (Arthur 2013. 580), Richard Arthur described Leibniz's treatment
+ of circular motion by introducing first- and second-order differentials of the radial distance, but these
+
+ differentials are equal to zero.
+
+ '1 An English translation of the second edition is not available at the present time, but fortunately Props.
+ 1 and 6 in the third edition are identically the same as in the second edition, and therefore, it is possibly to
+ use instead the recent English translation of the third edition (Newton 1999). For an English version of the
+ first edition, I have relied on the excellent translation of Mary Ann Rossi (Brackenbridge 1995, 235-267),
+
+ <0 Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 10:00:57 UTC
+All use subject to https://about.jstor.org/terms
+
+ Orbital motion and force in Newton's Principia 185
+
+ All orbiting bodies describe, by radii drawn to the center, areas proportional to
+ the time
+
+ which he generalized here for arbitrary central forces,
+
+ Let the time be divided into equal parts, and in the first part of the time let the body
+
+ by its innate force,12 describe the straight line AB. It would then in the second
+
+ part of time, were nothing to impede it, proceed directly to c, describing the line
+
+ Be equal to AB so as, when rays AS, BS, cS are drawn to the center, to make the
+
+ areas ASB, BSc equal. However, when the body comes to B, let the centripetal
+
+ force act in one single but mighty impulse13 and cause the body to deflect from
+
+ the straight line Be, and proceed in the straight line BC. Parallel to BS draw cC
+
+ meeting BC in C, and when the second interval of time is finished the body will
+
+ be found at C. Join SC and the [area of the]triangle SBC will then, because of
+
+ the parallels SB, Cc, be equal to the [area of the] triangle SBc and hence also
+
+ equal to [the area of) the triangle SAB. By a similar argument, if the centripetal
+
+ force acts successively at C, D, E..., making the body in separate moments of
+ time describe the separate straight lines CD, DE, EF,..., the triangle SCD
+ will be equal to the triangles SBC, SDE to SCD, SE F to S DE (and so on).
+
+ In equal times, therefore, equal areas are described. Now let these triangles be
+
+ infinitely small and infinite in number, such that to each individual moment of
+
+ time there corresponds an individual triangle, the centripetal force acting now
+
+ without interruption, and the proposition will be established. (Newton 1974,35)
+
+ In this first draft, however, Newton did not give the slightest indication on how to
+
+ implement the continuum limit by letting "these triangles be infinitely small and infinite
+ in number."14
+
+ One of the first persons to have seen a copy of De Motu, which had been sent by
+
+ Newton to Halley and registered at the Royal Society, was Robert Hooke.15 Evidently,
+
+ he recognized that Newton had implemented the concept of planetary motion that he
+
+ had described to Newton in his November 24,1679, letter, explaining the origin of the
+
+ gravitational force as a sequence of periodic "pulses" acting on the planets, and directed
+
+ 12 It seems strange that Newton regarded inertial motion as motion acted on by an innate or inherent force.
+
+ I. B. Cohen regards it "as the most puzzling of all the definitions in the Principia" (Newton 1999,96-102).
+
+ In definition 2 of De Motu, Newton states that "I call the force of a body or the force innate in a body by
+
+ reason of which it endeavors to persist in its motion along a straight line," a description that he maintained
+
+ also in the subsequent three editions of the Principia.
+
+ 13 Actually, this "mighty impulse (impulso unico sed magno)" is a first-order infinitesimal quantity giving
+
+ rise to an instantaneous infinitesimal change Sv in velocity along the direction of the impulse. At C, for
+
+ example, Sv = Cc/St, where St is the infinitesimal time interval between impulses, and the displacement
+
+ Cc is a second-order infinitesimal quantity.
+
+ 14 In his book, Never at rest, Richard S. Westfall commented that "the derivation could not have survived
+
+ critical examination, and Newton could not have built the Principia on a foundation so uncertain" (Westfall
+
+ 1980, 413). But in fact, Newton did precisely that, not changing his formulation by one iota, but adding
+
+ lemmas and corollaries that clarified the meaning of his proposition.
+
+ 15 The Royal Astronomer, John Flamsteed, complained to Newton " I am obliged to your kind concession
+
+ of ye perusall of your papers, tho I believe I shall not get a sight of them till our common friend Mr Hooke
+ & the rest of the towne have been satisfied" (Newton 1960,405).
+
+ "Ö Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 10:00:57 UTC
+All use subject to https://about.jstor.org/terms
+
+ 186 M. Nauenberg
+
+ Fig. 2 Upper right hand pail of
+ Fig. 2 Upper right hand part of
+ Hooke's September 1685
+ Hooke's September 1685
+ diagram for a discrete elliptical
+ diagram for a discrete elliptical
+ orbit rotating clockwise under
+ orbit rotating clockwise under
+ the action of a sequence of
+ the action of a sequence of
+ impulses toward O that depend
+ impulses toward O that depend
+ linearly on the distance to this
+ linearly on the distance to this
+
+ center. Some auxiliary lines
+ center. Some auxiliary lines
+ have been deleted to show its
+ have been deleted to show its
+
+ correspondence with Newton's
+ correspondence with Newton's
+ diagram. Fig. I. in the De Motu
+ diagram. Fig. I. in the De Motu
+
+ toward the sun (Nauenberg 2005a). He then proceeded to apply Newton's geometrical
+
+ construction in a novel way, by fixing the relative magnitude of the attractive impulses
+ which Newton had left undetermined in his description of Prop. 6. Hooke assumed
+ that these impulses depended linearly on the distance (Hooke's law) and obtained
+ graphically the resulting polygonal orbital motion which for this case has its vertices
+
+ on an ellipse with its center at the center of the impulsive force. His result, shown if
+
+ Fig. 2 where we have enlarged the upper half of his diagram, is similar to Newton's de
+ Motu diagram. Fig. 1, except that the body is rotating in the opposite sense. Hooke's
+
+ diagram and associated text16 was dated September 1685, a year and a half before the
+
+ appearance of the first edition of the Principia, but for unexplained reasons, it was left
+ unpublished (Pugliese 1989. 181-205: Nauenberg 2005a, 12).
+
+ Newton became aware that a discussion and proof of his limits in Prop. 1 was nec
+ essary, and in an initial revision of de Motu, he included eleven Lemmas that describe
+
+ the mathematical foundations—Newton's geometrical formulation of the calculus—
+ on which the entire Principia rests. In this revision, he added an important remark at
+
+ the conclusion of Prop. 1 :
+
+ ... and the proposition will then, by Corollary 4 of Lemma 3 be established
+ Q.E.D (Newton 1974. 125).
+
+ In this Lemma, Newton discussed the area under a monotonie curve by approximating
+
+ it by a sequence of rectangles or parallelograms. By evaluating both upper and lower
+
+ 16 For a full discussion of Hooke's diagram and text see (Nauenberg 1994a, 332).
+
+ 4ü Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 10:00:57 UTC
+All use subject to https://about.jstor.org/terms
+
+ Orbital motion and force in Newton's Principia 187
+
+ <f e
+
+ ...ES~
+
+ / \
+ /Z ?
+ /* / \ \
+
+ \.\ c
+
+ / / / '
+
+ / / X
+ / / X
+
+ / / /"
+ / / X v
+ / /' /
+
+ I if
+ \//y
+ if-:
+
+ Fig. 3 Newton's diagram in Prop. 1, but with the original lines Se, Sd, Se and Sf deleted, and a curve
+ ABC DE F added, that does not appear in the original, containing the vertices A to F
+
+ bounds, he then gave a geometrical proof that as the width of these parallelograms
+
+ become vanishingly small, the sum of their areas approaches the area under the curve.
+
+ It is clear that in order to apply Cor. 4 of Lemma 3 to Prop. 1, Newton would have had in
+
+ mind that the vertices A, B, C, D, E.. .of the triangles in his geometrical construction
+
+ in Prop. 1 were on a curve that remained fixed as these "triangles be infinitely smaller
+
+ and infinite in numbers." Although it was not shown in the diagram for Prop. 1, this
+ curve corresponds to the orbital curve in the continuum limit that Newton must have
+ assumed to be given (Nauenberg 2003, 441-456). This is also the interpretation that
+ Leibniz took, and later also Jacob Hermann, to translate Prop. 1 into the language of
+ Leibniz's differential calculus (Nauenberg 2010, 269-300).
+
+ In Cor. 2 of Lemma 3, Newton wrote,
+
+ ... the rectilinear figure that is comprehended by the chords of the vanishing
+ arcs AB, BC, CD, . .[Fig. 3] coincides ultimately with the curvilinear figure
+ (Newton 1999,434).
+
+ and in Cor. 3 of Lemma 3,
+
+ And it is the same for the circumscribed rectilinear figure that is comprehended
+ by the tangents of these same arcs (Newton 1999, 434).
+
+ In modern terms, for finite arc length, Cor. 2 gives a lower bound, and Cor. 3 an upper
+
+ bound for the area under the curve, and these areas coincide in the limit of vanishing
+
+ ':£j Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 10:00:57 UTC
+All use subject to https://about.jstor.org/terms
+
+ 188 M. Nauenberg
+
+ of the Principia,17
+
+ arc length. These corollaries remained essentially unchanged in all the three editions
+
+ In the first edition of the Principia, there is an important addition in Newton's
+
+ statement of Prop. I and in two corollaries that were added. The statement of Prop. 1
+
+ is now given in the form,
+
+ The areas that bodies driven in orbits describe with radii having been constructed
+
+ to a stationary center of force, lie in stationary planes and are proportional to the
+
+ times (Brackenbridge 1995, 245).
+
+ Comparing this statement with the previous one in de Motu, one sees that Newton has
+
+ included the property that for central forces, the orbits must lie in a plane. This property
+
+ follows immediately from his geometrical construction of an orbit for impulsive forces,
+
+ where the position of the plane of the orbit is determined by the initial conditions, i.e.,
+
+ the plane of the initial radial line 5/1 and the initial displacement AB not parallel to
+
+ 5/4. Newton added a comment to his previous description in Prop. 1:
+
+ then these [lines] lie in the same plane
+
+ referring to the lines comprising the polygonal orbit associated with force impulses.
+
+ It is evident that in the limit that this polygonal orbit becomes a continuous orbit, this
+
+ orbit must also be planar, that is, lying in the same plane which is determined by the
+
+ initial conditions. This constitutes a perfectly valid proof of for the planarity of orbits
+
+ under the action of centripetal force. The conclusion of Prop. 1 now reads
+
+ Now let the number of triangles be increased and the width be diminished indef
+
+ initely, and their ultimate perimeter AD F (by the fourth corollary of the third
+ lemma) will be a curved line; hence the centripetal force in which a body is
+
+ perpetually drawn away from the tangent of this curve, will act uninterruptedly;
+ but whatever areas S ADS and SAFS described which are always proportional
+
+ to the times of the descriptions, will be proportional to the same times in this
+ case,Q.E.D. (Brackenbridge 1995, 245)
+
+ Two added corollaries indicate the changes which occur if the force is not directed
+
+ to a common center. In practice, this is the case when additional external forces are
+
+ included, as is the case in the treatment of the motion of the moon and the planets
+
+ discussed in Book 3, and in the case of motion of body in a gas or fluid which Newton
+
+ treats as a resisting medium in Book 2 of the Principia.'8
+
+ 17 For a sequence of finite periodic impulses at equal time intervals ft, the time t„ at the n th vertex of
+
+ the polygonal orbit is t„ = nSt. According to Prop. 1, Ar is proportional to the equal area of the triangles
+
+ subtended by this orbit. Then, in the limit that ft vanishes, and n approaches infinity, t„ -*■ r, where t is the
+
+ time at a given point on the orbit that is kept fixed during this limiting process. Hence, the time t at a point
+
+ on the continuum orbit is proportional to the area subtended by the corresponding arc of this orbit.
+
+ 18 Corollary I states that
+
+ In non resisting media if the areas are not proportional to the times, [then] the forces are not directed
+
+ along the path of the radii (Brackenbridge 1995, 245).
+
+ and Corollary 2 adds.
+
+ Ô Springe
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 10:00:57 UTC
+All use subject to https://about.jstor.org/terms
+
+ Orbital motion and force in Newton's Principia 189
+
+ In the second edition of the Principia, Newton added six new corollaries to Prop. 1,
+
+ evidently intended as clarifications and further mathematical proof of this Proposition.
+
+ The original 2 corollaries were moved to Prop. 2.
+
+ Cor. 1 gives an expression for the velocity v in terms of the perpendicular distance
+
+ p from the center to the tangent of the orbit. This corollary implies that for central
+
+ forces the angular momentum / = vp is a constant of the motion.
+
+ In nonresisting places, the velocity of a body attracted to an immobile center is
+
+ inversely as the perpendicular dropped from the center to the straight line which
+
+ is tangent to the orbit. For the velocities in those places A, B,C, D, and E are
+
+ respectively as the bases of the equal triangles AB, BC, CD, DE, and EF, and
+
+ these bases are inversely as the perpendiculars dropped to them (Newton 1999,
+ 445).
+
+ The bases of the equal triangles correspond to vSt, and the perpendiculars that we
+
+ label p give the differential area of each of these triangles, SA = vpdt, that by Prop. 1
+
+ is proportional to St, i.e., vp is a constant.
+
+ Cor. 2 gives further evidence that in Prop. 1, Newton had in mind that the vertices
+
+ A, B,C... lie on a fixed curve,
+
+ If chords AB and BC of two arcs successively described by the same body in
+
+ equal times in non-resisting spaces are completed into the parallelogram ABCV,
+
+ and the diagonal B V (in the position that it ultimately has when those arcs are
+
+ decreased indefinitely) is produced in both directions, it will pass through the
+ center of forces(Newton 1999,445)
+
+ Evidently Newton had in mind that the sides AB, BC, CD..., of the polygon in
+ his geometrical construction for Prop. 1, Fig. 1, are the chords of successive arcs
+ AB, BC, CD ..., of a curve, but he did not draw this curve in his diagram. This
+ curve is the orbit of the body in the continuum limit (Nauenberg 2003,441-456) and
+
+ justifies Newton's application of Lemma III, Cor. 4, to describe this continuum limit in
+
+ Prop. I.19
+
+ Footnote 18 continued
+
+ In all mediums, if the description of areas is accelerated, the forces do not tend towards the point
+ where the radii meet but deviate forward [ or in consequentia] from it. (Newton 1999,447)
+
+ Cohen and Koyre (1971, 91) have pointed out that with some further revisions, Corollary 1 of the first
+
+ editions plus the addition in the MS Errata became in the second edition the Corollary 1 to Prop. 2 (see also
+
+ footnotes aa, bb, cc in I. B. Cohen, Guide to Newton's Principia (Newton 1999, p. 447)) which reads
+
+ In nonresisting spaces or mediums, if the areas are not proportional to the times, the forces do not
+
+ tend toward the point where the radii meet, but deviate forward [or in consequentia] from it, that
+
+ is, in the direction toward which the motion takes place provided that the description of the areas
+
+ is accelerated; but if it is retarded, they deviate backward [or in antecedentia, i.e., in a direction
+
+ contrary to that in which the motion takes place] (Newton 1999,447).
+
+ 19 Here, Newton has set the stage to obtain a measure of the force in the continuum limit. Since according to
+
+ Newton's construction in Fig. 1, Cc has been taken parallel to SB, it follows that for finite chords AB, BC
+
+ the diagonal BV is along the line SB. But in this corollary, Newton states that BV will "pass through the
+ center of forces" in the continuum limit, while in his diagram, this is also true for finite time intervals.
+
+ Evidently, Newton must have been aware that when AB and BC are finite chords of two arcs described in
+
+ £j Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 10:00:57 UTC
+All use subject to https://about.jstor.org/terms
+
+ 190 M. Nauenberg
+
+ In Cor. 3, Newton states that
+
+ If chords AB, BC and DE, E F of arcs described in equal times in nonresisting
+ spaces are completed into parallelograms ABCV and DEFZ, then the forces
+
+ at B and E are to each other in the ultimate ratio of the diagonals BV and EZ
+
+ when the arcs are decreased indefinitely. For the motions BC and EF of the
+ body are (by corol. 1 of the laws) compounded by the motions Be, BV and
+ Ef, EZ; but in the proof of this proposition BV and EZ, equal to Cc and Ff,
+
+ where generated by the impulse of the centripetal force at B and E, and thus are
+
+ proportional to these impulses (Newton 1999, 445)
+
+ In this corollary, Newton shows that the diagonals B V and E Z are equal to the
+
+ displacements Cc and Ff, which are proportional to the impulsive forces acting at
+
+ two distinct points B and E of the orbit. He then asserts, without giving a proof, that in
+
+ the continuum limit when BV and EZ become vanishingly small, their ratio BV/EZ
+
+ remains finite and approaches a finite value. This limit corresponds to the ratio of
+
+ the continuous force acting at B and at E, because these impulses act at equal time
+
+ intervals as will be discussed further in connection with Prop. 6 in the next section.
+
+ In this proposition, Newton gave a proof that in the continuum limit, the force at B
+
+ is the limit of the ratio BV/St2 of the displacement BV divided by the square of the
+
+ time interval St elapsed between impulses. Likewise, since the force at E is obtained
+
+ by the ratio EZ/St2, the ratio of these two forces is BV/EZ, and the existence of this
+ ratio in the continuum limit is therefore ensured.20
+
+ In Cor. 4, Newton added,
+
+ The forces by which any bodies in nonresisting spaces are drawn back from
+ rectilinear motions and are deflected into curved orbits are to one another as
+
+ those sagittas of arcs described in equal times which converge to the center of
+
+ forces and bisect the chords when the arcs are decreased indefinitely. For these
+
+ sagittas are halves of the the diagonals with which we dealt in corol. 3
+
+ Footnote 19 continued
+
+ "equal time" intervals, the location of C is not generally the same as the location obtained by his geometric
+
+ construction with finite chords, where equal time refers to time interval time elapsed between successive
+
+ inertial motion along the chord, instead of orbital motion along the arc, see Fig. 3. In Newton's geometrical
+
+ construction for Prop. 1. equal times correspond to equal areas of the triangles bounded by the chords and
+
+ the radii. But for continuous orbital motion and forces, which is the limit of vanishingly small triangles,
+
+ equal times for finite arcs of the orbit is associated with equal areas of the sectors bounded by these arcs
+
+ and the radial lines. Thus, for finite arcs. AB and BC, given A and B the position of C obtained by the
+
+ requirement that the areas of sectors ASB and BSC be the same, will in general differ from the position
+
+ C obtained from Newton's geometrical construction described in Prop. I, where equal areas refer to the
+
+ areas of the finite triangles ASB and BSC. In Cor. 2, Lemma 3, however, Newton indicated that in the
+
+ limit that "the width of the triangle becomes vanishingly small and the number goes to infinity" the sum of
+
+ the areas of the triangles bounded by chords, approach the area of the sum of the sectors bounded by the
+
+ corresponding arcs.
+
+ 20 In Prop. I, Newtow did not prove that the displacements Cc. Ff, etc., are second-order quantities and,
+ therefore, that the ratios Cc/dr. Ff/dr are finite in the limit that these differentials vanish. This proof
+
+ was given in Prop. 6 by applying Lemma 10, in the first edition, and lemma 11 in the second one, assuming
+ that the curvature is finite.
+
+ •ô Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 10:00:57 UTC
+All use subject to https://about.jstor.org/terms
+
+ Orbital motion and force in Newton's Principia 191
+
+ In this corollary Newton introduced the sagitta (arrow) of an arc which is a line
+
+ segment between the midpoint on the arc and a point on its chord which approaches the
+
+ middle of the chord in the continuum limit.21 Newton relates impulsive displacements,
+
+ such as BV and EZ discussed in the previous corollary, Cor. 3, with the sagittas of
+
+ a pair of adjacent arcs. For example, the chord of the two arcs AB and BC adjacent
+
+ to the point B is described by the line AC, which is the diagonal of the parallelogram
+
+ ABCV introduced in Cor. 1. Hence, half the line B V is then, by Newton's definition,
+
+ the sagitta of the arc AC,
+
+ Cor. 5 states,
+
+ And therefore these forces are to the force of gravity as the these sagittas are to
+
+ the sagittas, perpendicular to the horizon, of the parabolic arcs that projectiles
+ describe in the same time
+
+ In this corollary, Newton illustrated his description of force in the continuum limit
+
+ for an orbit under the action of gravity near the surface of the earth. In this case, the
+
+ force is approximately a constant directed perpendicularly toward the surface which
+ Newton refers here as the horizon. Galileo had demonstrated that in this case, the orbit
+
+ is a parabola, and Newton also found that finite arcs of this orbit are "parabolic arcs."
+
+ Since the motion along the sides of the polygonal orbit under the action of force
+
+ impulses is inertial motion, the velocity on each side is constant. Its magnitude u,
+
+ is given by the ratio of the first-order differential length <5/, of each side (labeled
+
+ here by the subscript i) divided by the periodic first-order differential time interval
+
+ St between pulses, i.e., v, = 8lj/8t which approaches a finite value in the limit that
+
+ 8t, and correspondingly <5//, vanishes. Each impulse gives an instantaneous change
+
+ in velocity 8v,- directed toward the center of force, but in Prop. 1, Newton did not
+
+ give a proof that its magnitude must be a first-order differential proportional to this
+
+ time interval, i.e., Svj = a,8t, where a, is a measure of the magnitude of the impulse
+
+ that in the continuum limit becomes the acceleration imparted by the force. Hence,
+
+ <52/, = 8v,8t is the magnitude of the displacement due to an impulse at the /th vertex,
+
+ transversed at the uniform differential velocity 8u, ; a second-order differential such
+
+ that a,- = <52/, /8t2 is in accordance with the definition of accelerative force in Prop. 6.22
+
+ Early on, by applying Prop. 1, both Leibniz and Hermann obtained an expression
+
+ for the force (acceleration) in terms of differentials. For example, Hermann's diagram,
+
+ shown in Fig. 4, clearly corresponds to a segment of Newton's Prop. 1 diagram, Fig. 3,
+
+ but with the motion directed clockwise along the curve ABCD around the center of
+
+ 21 Newton aptly chose the Latin word sagitta for arrow to describe the various displacements of the
+
+ midpoint of an arc from its chord. Andrew Motte, however, who in 1728 translated the Principia into
+
+ English, gave it the mathematical expression versed sine, which applies only to the special case that the
+
+ sagitta is normal to the chord.
+
+ 22 A proof that the deviations <52/; from inertia! motion due to impulses are second-order differentials,
+
+ requires the assumption that the arcs of the underlying orbital curve (left out of Newton's diagram for Prop.
+
+ 1 but included in Fig. 3) that determines the magnitude of these deviations have finite curvature. Then, a
+
+ proof can be obtained by a straightforward extension of Lemma 11, considering the deviation from inertial
+ motion from an extension of the chord, instead of the tangent, of an arc (see Appendix 3). For uniform
+
+ circular motion, which has constant curvature, such a proof was carried out by Leibniz (Bertoloni Meli
+ 1993, 80-81).
+
+ Springe
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 10:00:57 UTC
+All use subject to https://about.jstor.org/terms
+
+ 192 M. Nauenberg
+
+ Fig. 4 Hermann's version of
+ Fig. 4 Hermann's version of
+ Newton's diagram for Prop. I
+ Newton's diagram for Prop. I
+ (see Fig. 3). but with the motion
+ (see Fig. 3). but with the motion
+ along the arc ABCD directed
+ along the arc ABCD directed
+ clockwise
+ clockwise
+
+ / K ti
+ / K ü
+
+ +
+
+ / / .
+ / / .  k
+ / *'
+ / *'
+ //
+ //
+
+ f£
+
+ .Z... / fp
+ ... / i w
+ ]u A. 5
+ A. jS
+
+ *
+ M
+
+ force at 5. The impulse at C is represented here by the short line ED, taken parallel to
+ the radial line SC, where the vertex E is obtained by extending the chord BC to CE,
+
+ setting it equal in length to BC, and D is the intersection of this line with the curve.
+ Then, Hermann introduced Cartesian coordinates by taking the horizontal line LASI
+ as the x axis, and he obtained the displacement E D as a second-order differential,
+
+ ED = ddx^Jx2 + y2/x, (1)
+
+ where dx = BH, dx' = CG, and ddx = dx' — dx = KGp Assuming the validity of
+ Kepler's area law,24 he set the time interval df equal to twice the area of the triangles
+ BSC — CSD,\.e.,dt = xdy — ydx,25 and applying Prop. 6, he obtained a differential
+
+ expression for the force,26
+
+ 22 The first-order differentials d.v. d.v' are not equal, but defined to be transversed during equal time intervals
+ dr.
+
+ 24 At the time, Hermann, Varignon and others, failed to recognize that Prop. 1 demonstrates the validity
+ of Kepler's area law. In Cartesian differential coordinates, it takes the form d(xdy — ydx) = 0. A one line
+ proof is obtained by also expressing the displacement ED in terms of the second-order differential ddy,
+ which implies that ddy = (y/.v)ddx (Nauenberg 2010, 277). But neither Hermann nor his contemporaries
+ noticed this relation, and it took him another 6years before he developed a proof, based on Prop. 6 instead
+ of Prop. 1, of this fundamental theorem (see Appendix 2). He published it in his main work, Poronomia,
+ and claimed that it was the first valid proof of Prop. I (Guicciardini 1999,211-215).
+
+ 22 In polar coordinate r, H, the area d/1 of a differential triangle with a vertex at the center of coordinates,
+
+ base of length r, and height r AO is
+
+ AA = (\/2)r2AH. (2)
+
+ and substituting r- cos2 H for .r2. obtain
+
+ dA = ( 1 /2)(.rdy - ydx) (3)
+
+ In Cartesian coordinates, r = v/.v2 + y2. and tan ft = y/x. Hence d(tan ft)= dff/cos2ft = (xAy — yAx)/x2,
+
+ 26 According to N. Guicciardini, (Guicciardini 1999. 207), Hermann obtain this expression by "focusing"
+
+ on Prop. 6. But it is important to recognize that, like Leibniz, he first applied Prop. 1 to obtain a relation for
+
+ the force in terms of the displacement from the extension of the chord of an arc of the orbital curve, rather
+
+ than from its tangent as described in Prop. 6.
+
+ <0 Spri  nger
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 10:00:57 UTC
+All use subject to https://about.jstor.org/terms
+
+ Orbital motion and force in Newton's Principia 193
+
+ ED _ dd.xjx2 + y2
+ dt2 ~ x(xdy - yàx)2' ( )
+
+ that he solved for the inverse square force, F = 1 /(x2 + y2), demonstrating that the
+ orbit is an ellipse (Nauenberg 2010, 272-276).
+
+ 4 The development of Proposition 6, Book 1
+
+ In De Motu, Theorem 3, which later became Prop. 6 in the Principia, Newton gave
+
+ an expression for a continuous centripetal force acting on a body moving on a curve
+
+ that, according to Prop. 1, must satisfy Kepler's area law. Referring to the diagram
+
+ associated with this proposition, Fig. 5, he wrote,
+
+ If a body [located at the point] P in orbiting around the center S shall describe
+
+ any curved line A P Q, and if the straight line P R touches that curve at any point
+
+ P and to this tangent from any other point Q of the curve there be drawn QR
+
+ parallel to the distance S P, and if Q T be let fall perpendicular to this distance S P :
+
+ I assert that the centripetal force27 is reciprocally as the solid SP2 x QT2/QR,
+
+ provided that the ultimate quantity of that solid when the points P and Q come
+
+ to coincide is always taken (Newton 1974,41),
+
+ In the first edition of the Principia, this theorem became Prop. 6, theorem 5, and
+
+ except for minor clarifying alterations in language it remained essentially unchanged.
+
+ The only significant change was that Newton now cited Lemma 10 to justify his
+
+ assertion that the measure of central force is proportional QR/St2, where St is the
+
+ time interval elapsed for the body to travel from P to Q, that by Prop. 1 is proportional
+ to SP x g7.28 In Lemma 10, Newton demonstrated that,
+
+ Spaces which a body describes at the urging of any standard force are, at the
+
+ very start of motion, in the double ratio of the times. (Brackenbridge 1995,241)
+
+ This lemma is a generalization for the case, first considered by Galileo, of the accel
+ eration of falling bodies under a constant gravitational force. Then the arc QP is a
+
+ segment of a parabola (Fig. 5).29
+
+ The extended statement of Prop. 6 now reads:
+
+ 27 Newton considered here the accelerative centripetal force or simply the acceleration, as opposed to the
+
+ motive centripetal force that appears in the Principia, Definition 6, as the conventional definition - force
+
+ = mass times acceleration. But this distinction is often ignored by commentators of Prop. 6, although it is
+
+ evident that this proposition has nothing whatsoever to do with mass.
+
+ 28 The constant of proportionality is the inverse of the angular momentum / for unit mass, / = vSY.
+
+ where v is the velocity, and ST is the component of SP perpendicular to the direction of the velocity, i.e.,
+
+ St = (l/l)QT x SP (see Cor. 1 of Prop. 1). For Hermann's proof that I is a constant which is based only
+ on Prop. 6 see Appendix 2.
+
+ 29 For circular motion, it was first applied by Huygens in 1659 to derive the central acceleration a for a
+
+ body moving with uniform velocity v in a circular orbit of radius p. Huygens approximated the arc QP
+
+ of the circle by the arc of the parabola QR = (\/2p)RP~ with vertex at P. Then setting RP = vSt, and
+ QR = (l/2)aSt2, he found a = v2/p. In Prop. 6, the factor 1 /2 is missing.
+
+ Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 10:00:57 UTC
+All use subject to https://about.jstor.org/terms
+
+ 194 M. Nauenberg
+
+ Fig. 5 Newton's diagram for
+ Fig. 5 Newton's diagram for
+ Theorem 3 in De Motu, which
+ Theorem 3 in De Motu, which
+
+ 31
+
+ later became Prop. 6 in the
+ later became Prop. 6 in the
+ Principia. In this diagram, QR
+ Principia. In this diagram, QR
+ is drawn as an extension of SQ
+ is drawn as an extension of S Q
+
+ yt<
+
+ s
+
+ >A
+
+ In the indefinetely small figure QRPT, Fig. 1, the nascent line segment QR is,
+
+ given the time [ interval ], as the centripetal force (by law 2), and given the force,
+ as the square of the time (by Lemma 10) (Brackenbridge 1995, 252).
+
+ In other words, QR oc F St2, where F is the force (acceleration) acting during the
+ time interval St. Actually, QR = ( 1 /2)aSt2, where a is the acceleration, but the factor
+
+ ! /2 is missing in all the three editions of the Principia, where Newton confined his
+
+ expressions to proportionality relations. But this factor 1 /2 is important to relate, in the
+
+ continuum limit, the expression for accelerative force in Prop. 1 which is equivalent
+ to F — 2QR/8t2 (see Sect. 5).
+
+ In the second edition of the Principia, there appeared a drastic alteration in the
+ formulation of Prop. 6. The statement of this proposition that appeared in the first
+ edition is now relegated to a corollary, and the new statement of Prop. 6 reads as
+ follow:
+
+ If in a nonresisting space a body revolves in any orbit about an immobile center
+
+ and describes any just-nascent arc in a minimally small time, and if the sagitta of
+
+ the arc is understood to be drawn so as to bisect the chord and, when produced,
+
+ to pass through he center of forces, the centripetal force in the middle of the
+ arc will be as the sagitta directly and as the square of the time inversely For the
+
+ sagitta in a given time |interval] is as the force (by Prop. 1 and Cor. 4), and if
+ the time [interval] is increased in any ratio, then -because the arc is increased
+ in the same ratio - the sagitta is increased in that ratio squared (by Lemma 11,
+ Corols. 2 and 3), and therefore is as the force once and the time squared [the
+ product of the force and the square of the time interval].30 Take away from both
+ sides the squared ratio of the time, and the force will become as the sagitta
+ directly and as the time squared inversely Q.E.D. (Newton 1999, 453)
+
+ Newton defined the sagitta (arrow) associated with a point P on a small arc of a curve
+
+ by the segment PX of the radial line SP intersecting the chord of this arc at its midpoint
+ X. But he did not show this arc and the corresponding sagitta in his diagram, Fig. 6,
+
+ In the first edition of the Principia Newton referred to Lemma 10 for this relation, but he did not
+ invoke it in the second edition, referring instead to Lemma I I. In this lemma. Newton gave a proof that
+ QR = QP-/2p, when the force is directed along the radius of curvature p. For the case of a circle, his
+ proof corresponds to Euclid's Prop. 36 in Book 3. Since QP = vSl, in this case QR = aSt2, which is the
+ content of Lemma 10.
+
+ 0 Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 10:00:57 UTC
+All use subject to https://about.jstor.org/terms
+
+ Orbital motion and force in Newton's Principia 195
+
+ Fig. 6 Diagram for Prop. 6 in
+ Fig. 6 Diagram for Prop. 6 in -y f
+ ^ Y'
+ the second and third edition of " - Y
+ the second and third edition of
+ the Principia, with a section of
+ the Principia, with a section of ,.* p
+ /
+ the circle of curvature at P and
+ the circle of curvature at P and / /
+ center at C superimposed. The
+ center at C superimposed. The p
+ dashed line PC is the radius p / y UK yL
+ dashed line PC is the radius p
+ of this circle, with the chord
+ of this circle, with the chord y
+ PV = 2pcos(a) along the / /' / / /'
+ P V = 2pcas(a) along the
+ radial line 5 P. The dashed line / / / \ * * -
+ radial line SP. The dashed line
+ /.' PY' is the tangent line at /'. I /// Ot '' \Z'
+ Z'PY' is the tangent line at P.
+ which was drawn incorrectly in / ^ V
+ which was drawn incorrectly in
+ the original diagram as the black ( j ■ ■ / »;
+ the original diagram as the black
+ line ZPY / -A,
+ line ZPY
+
+ a
+
+ /
+
+ 31 We have added the sagitta PX to a corrected version of this diagram in Fig. 7.
+
+ 32 In his new statement of Prop. 6, Newton defined the centripetal force at a given point P of the orbit as
+
+ the limit of the ratio sagitta /i5t2, where the sagitta was first introduced in Cor. 4 of the version of Prop. 1
+ in the second edition of the Principia. In Prop. 6, Newton describes the saggita for a small arc of the orbit,
+ with P located on the middle of the arc, as a line from P which bisects the cord of the arc. A subtle point
+
+ here is what Newton meant by the middle of the arc where the centripetal force is defined. The answer is
+ obtained by turning to Prop. 1, Cor. 4 where the arc describing the sagitta is defined by two adjacent arcs
+ transversed in equal time intervals. Hence, the middle of the arc is not the geometrical middle, which is
+ obtained by dividing an arc into two arcs with the same length.
+
+ 0 Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 10:00:57 UTC
+All use subject to https://about.jstor.org/terms
+
+ associated with this proposition.31 As the paragraph following this new formulation
+ of Prop. 6 shows, Newton introduced the sagitta for the specific purpose of relating
+ the definition of a continuous central force in Prop. 6 to the definition of force in Prop.
+
+ 1, where it is given in terms impulses during equal time intervals in the limit that these
+
+ intervals vanish. For any finite arc, however, only one of Newton's two requirements
+
+ for the sagitta can be met simultaneously, unless the line "produced to pass through the
+
+ center of force" is normal to the tangent of the curve at P. But this problem disappears
+
+ in the limit that the arc length becomes vanishingly small.32
+
+ Newton followed his new statement of Prop. 6 with a new corollary, Cor. 1, which
+
+ consisted of the formulation of Prop. 6 in the first edition of the Principia. In Cor. 1,
+ Newton also added the statement that,
+
+ the displacement QR is equal to the sagitta of an arc which is twice the length
+ of arc QP, with P being in the middle. (Newton 1999, 454)
+
+ According to this description, the sagitta is nearly equal to QR, where QR is taken
+ parallel to SP, and the middle of the extended arc is now the geometrical middle,
+ because in this case the corresponding chord must be nearly parallel to the tangent
+ line ZPR (see Fig. 7). The sagitta, which is also taken parallel to SP, does not bisect
+
+ 196 M. Nauenberg
+
+ Y
+
+ J* c
+
+ B
+
+ /
+
+ Fig. 7 The diagram for Prop. 6 in the second and third edition of the Principia, Fig. 6, with a section of
+ the diagram for Prop. 1. Fig. 3, superimposed on it in dolled Hues. The cord B Q, not drawn in the original
+ diagram, of the arc B PQ.i s approximately parallel to the tangent line ZPY at P and intersects the radial
+ line SP at X, describing the saj>itta PX ss QR
+
+ the chord as announced in the statement of this proposition, but as we will show in the
+
+ next section, it does in the limit as Q approaches P.
+
+ In addition, Newton included an important new corollary, Cor. 3. based on the
+
+ geometrical concept of the local radius of curvature of a general curve, that he, and
+ independently Huygens, had developed earlier (Brackenridge and Nauenberg 2002).
+ In his 1679 correspondence with Hooke (see Introduction), there is evidence that he
+
+ applied this concept early on to obtain the approximate shape of orbits under the action
+
+ of general central forces (Nauenberg 1994b, 222-225). In a preliminary corollary, Cor.
+ 2, he applied the relation SY/SP = QT/QP, where SY is a line from the center of
+ force at S normal to the tangent line ZPR intersecting it at Y, to obtain that "the
+ centripetal force is inversely as the solid SF2 x QP2/QR."
+
+ Cor. 3 states,
+
+ If the orbit APQ either is a circle or touches a circle concentrically or cuts
+
+ it concentrically - that is, if it makes with the circle an angle of contact or of
+ section which is the least possible - and has the same curvature and the same
+
+ radius of curvature at point P, and if the circle has a chord going from the body
+
+ through the center of forces, then the centripetal force will be inversely as the
+ solid SY2 x PV. For PV is equal to QP2/QRP
+
+ In Newton's diagram for Prop. 6, the circle of curvature and its radius p was not drawn.
+
+ In Fig. 6, we show this circle with center at C by a dotted line and its radius of curvature
+ PC = p by a dashed line from P to the center of curvature C (Brackenbridge 1995,
+
+ -13 Around 1705. the expression for the central force in terms of the radius of curvature was obtained
+ independently by the mathematician Abraham De Moivre. who then showed it to Newton. But Newton
+ replied that he had already obtained a similar formula (Guicciardini 1999. 226).
+
+ ß Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 10:00:57 UTC
+All use subject to https://about.jstor.org/terms
+
+ Orbital motion and force in Newton's Principia 197
+
+ 115).34,35 Then the chord of this circle "going from the body [at P\ through the center
+
+ of forces" is P V = 2pcos(a), where a is the angle between p and the radial line SP.
+ The relation PV = QP2/QR follows from a generalization of Lemma 11, where
+ Newton shows that QR = QP2/2p for the special case that a = 0.36
+
+ This corollary, which was absent in the first edition of the Principia,37 is extremely
+
+ important, because it justifies, for curves with a finite radius of curvature p, the exis
+
+ tence of a limit for the ratio QR/QP2 when Q P -*■ 0. Moreover, it gives an expression
+
+ for the force in terms of finite instead of infinitesimal quantities. In particular, express
+
+ ing the radius of curvature in polar coordinates, it reduces to the modern differential
+
+ equation for the orbit in these coordinates [Nauenberg 2005b, 345 (see Appendix 7)].
+
+ 5 Proof of the equivalence of Propositions 1 and 6 in the continuum limit
+
+ In this section, we show that in the second and third edition of the Principia, Newton
+
+ gave a mathematical proof that established, in the continuum limit, the equivalency
+
+ of the two apparently distinct descriptions in Props. 1 and 6 of orbital motion under
+
+ the action of a centripetal force. In Prop. 1, the force is a periodic impulse that acts
+
+ instantaneously, while in Prop. 6, the force acts continuously in time. But in this
+
+ continuum limit, these two mathematical descriptions give the same result.
+
+ To demonstrate this equivalence, we combine in Fig. 7 the diagram associated with
+
+ Prop. 6 in the second and third edition of the Principia, Fig. 6, with a segment of the
+
+ diagram associated with Prop. 1, Fig. 3. This segment is shown in Fig. 7 by the dotted
+
+ lines, but the labels for the vertices in Fig. 3, and those in this figure are different.38
+
+ In particular, the arc ABC, which does not appear in the Prop. 1 diagram, but is
+
+ mentioned in Cor. 2 of this proposition, corresponds to the arc BPQ,39
+
+ According to Prop. 6, given any point P on the curve APQ, Fig. 7, the deviation
+
+ from inertial motion along the tangent line ZP Rio this curve at P, due to a continuous
+
+ force acting along the arc QP, is represented by the short line QR, parallel to SP,
+
+ from a nearby point Q, intersecting this tangent line at R. Correspondingly, according
+
+ 34 After Lemma 11, Newton devotes a Scholium to discuss curves for which the radius of curvature become
+
+ infinite at certain points.
+
+ 35 We have superimposed this circle on Newton's diagram as it appeared in the third edition of the Principia.
+
+ The original tangent line Z P Y at P had been drawn incorrectly, and an improved line is shown as a dashed
+
+ lineZ' PR' (The center C that is obtained by the intersection with the line perpendicular to Z P Y at P gives
+
+ a grossly exaggerated radius of curvature which does not contain the chord PV).
+
+ 36 For uniform motion with velocity a on a circle of radius p, by 1669 Newton already had shown that the
+ central acceleration a = a2/p. Since according to Prop. 1, a a 1/SK, then fora = 0,1/a a ST2 x PV oc
+ 2p/v2.
+
+ 37 But already in Prop. 28, Book3, in the first edition of the Principia, Newton applied his curvature relation
+
+ to obtain the shape of the lunar orbit due to the perturbation of the sun.
+
+ 38 The vertices A, B, C, c in Fig. 3, become B, P, Q, c, respectively, in Fig. 7.
+
+ 39 Cor. 2 starts with,
+
+ If chords AB and BC of two arcs successively described by the same body in equal times in
+ nonresisting spaces ...
+
+ Ô Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 10:00:57 UTC
+All use subject to https://about.jstor.org/terms
+
+ 198 M. Nauenberg
+
+ to Prop. 1, the deviation Qc, also parallel to SP, due to a radial impulse at P, is
+
+ obtained by extending the chord PB from a certain point B on the curve to a point
+ c such that Pc = PB.40 For a continuous force, the motion along QR is assumed
+ to be uniform accelerated motion from rest, and by Lemma 10, the acceleration is
+
+ a = 2QR/St2, while an impulse at P generates an instantaneous infinitesimal change
+ in velocity Sv = Qcßt along Qc. Hence, Qc is transversed with a constant but
+ infinitesimal velocity, as Leibniz had insisted in his lengthy exchange with Varignon
+
+ (see Introduction). But in the continuum limit, it corresponds to a radial acceleration
+ a1 = Sv/St = Qc/8t2. Hence, for the demonstration of equivalence, i.e., a' = a, it is
+
+ sufficient to show that in the limit that Q approaches P, Qc/QR = 2. Such a proof
+
+ is straight forward when the arc BPQ is the arc of a circle, which in this limit is the
+ curvature circle.41 42 •43
+
+ 6 Summary
+
+ After the publication of the first edition of his Principia in 1687, Newton started to
+
+ consider major revisions of his work in order to clarify and justify further some of
+
+ the fundamental propositions that supported his demonstrations (Brackenbridge 1995,
+
+ 141). In this paper, we discuss only those changes and additions that he made for this
+
+ purpose in propositions 1 and 6. In Prop. 1, Newton gave a proof for the area law
+
+ and the planarity property of orbital motion under the action of central forces, and
+
+ in Prop. 6, he derived a relation to calculate these forces for a given orbital curve
+
+ of finite curvature satisfying the area law. Newton's proofs in these two propositions
+
+ were based on two different descriptions of orbital motion. In Prop. 1, he described
+
+ the orbit in the continuum limit of polygonal motion due to periodic central force
+
+ impulses, while in Prop. 6, he attributed the orbit to the action of an uninterrupted
+
+ central force which continually deflected it from inertial straight line motion along
+
+ the local tangent of this orbit. While in the first edition of his Principia, Newton did
+
+ not relate these two different descriptions of orbital motion, the changes and additions
+
+ which appeared in the second edition indicate that he was well aware of the need to
+
+ demonstrate their mathematical equivalence. Indeed, in five new corollaries added to
+
+ Prop. 1, Newton demonstrated that the force measure in the continuum limit of forces
+
+ 40 To obtain the point c, first extend the line QR and then find its intersection with the extension of the
+ chord BP of an arc BP such that Pc = BP.
+
+ 41 Such a proof is obtained by replacing the tangent line in Lemma 11 with the extension of a chord, as
+ shown in Fig. 7 (see Appendix 3). In Cor. 4 of Prop. I, Newton asserted that PX = (l/2)ßc, which is
+
+ evident from his diagram for Prop. I.
+
+ 42 In the literature, it is customary to represent Newton's second law of motion in two forms: (1) F oc Sv
+
+ for an impulsive force and (2) F oc Sv/St for a continuous force (Newton 1999, 116). But in Prop. 1, we
+ have shown that for I ) the correct expression is SI oc Sv, where SI is an infinitesimal first-order impulse,
+
+ and that F = fil /Ht oc Sv/St. In the continuum limit, this is the same expression for force as in 2).
+
+ 42 According to Michel Blay, "it is nevertheless difficult to account for the exact relation between 'the force
+
+ acting at once with a great impulse", and the centripetal force acting uninterrupted'" (Blay 2001,233). This
+ quote is repeated in Cohen's guide to Newton's Principia (Newton 1999, 71,Note 73), but the supposed
+
+ difficulty is resolved by the realization that the impulse is not "great." as Newton misleadingly wrote in
+
+ Prop. I, but it is a first-order infinitesimal impulse SI = FSt, where F is the force in the continuum limit.
+
+ "ö Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 10:00:57 UTC
+All use subject to https://about.jstor.org/terms
+
+ Orbital motion and force in Newton's Principia 199
+
+ impulses corresponded to the force measure defined in Prop. 6. This proposition was
+
+ also substantially extended, with its original formulation becoming a corollary, and
+
+ with the addition of three important new corollaries. The new opening statement of
+
+ Prop. 6 expresses the deflection from inertial motion in terms of the sagitta of a small
+
+ arc of the orbital curve, instead of the equivalent displacement from the tangent at a
+
+ point on the curve, given in the first edition. This change was evidently introduced to
+
+ show the equivalence of the definition of force in this proposition and in corollaries 3
+
+ and 4 of Prop. 1.
+
+ Since the appearance of the first edition (1687) of the Principia, however, the
+
+ equivalence of the descriptions in these two propositions has been the subject of
+
+ controversies. Perhaps the earliest one was the exchange from December 1704 to
+
+ 1706 between Leibniz and Varignon (Bertoloni Meli 1993, 81), but confusion about
+
+ this subject has remained up to the present time. Recently, for example, B. Pourciau
+
+ has claimed that Newton took the equivalence of his two descriptions for orbital
+
+ motion for granted, either as an "axiom" or as "an article of faith" that does not
+
+ require any mathematical proof (Pourciau 2004, 284; Nauenberg 2012, 931). But as
+
+ has been shown in Sects. 3 and 4, there is ample evidence that Newton was concerned
+
+ to provide mathematical proof for the equivalence of these two descriptions. This
+
+ evidence is found in the changes for this purpose that Newton made to Props. 1 and 6
+
+ in the second edition of the Principia, which remained unchanged in the third one.
+
+ The description in Prop. 1 of central forces by impulses is in accordance with
+ Newton's formulation of the second law of motion, in all the three editions of the
+
+ Principia,
+
+ A change in motion [mass times velocity] is proportional to the motive force and
+
+ takes place along the straight line in which that force is impressed
+
+ But the fact that such impulses SI, and the corresponding velocity changes <St>, are
+
+ both first-order infinitesimals was not spelled out in the Principia, and this neglect
+ has been a source of continuous misunderstanding (see footnote 9). This problem is
+
+ clarified in Sects. 3 and 4, where we demonstrate that in the continuum limit, SI/St is
+
+ equal to the accelerative force F described in Prop. 6.44
+
+ Although Prop. 1 and Prop. 6 are equivalent, these two propositions lead to differ
+
+ ent mathematical expressions for central forces. In the Principia, Newton primarily
+
+ applied the continuum expression in Prop. 6, to deduce the force acting on bodies
+
+ moving on various orbital curves, while Leibniz and Hermann translated the impulse
+
+ formulation in Prop. 1 in terms of first- and second-order differentials, leading to
+
+ equations that could be solved for the orbital curve, given the radial dependence of the
+
+ force.45 The reason for not basing this translation on Prop. 6 was that in this proposi
+
+ tion, the deflection QR for the measure of the central force is taken from the tangent
+
+ 44 In definition 7, Newton wrote that
+
+ the accelerative quantity of centripetal force is the measure of this force that is proportional to the
+
+ velocity that is generated in a given time (Newton 1999,407).
+
+ 45 In this sense, Newton's and Leibniz's approach were not "equivalent in practice," as has been emphasized
+ by N. Guicciardini (Guicciardini 1999,250-255).
+
+ Ô Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 10:00:57 UTC
+All use subject to https://about.jstor.org/terms
+
+ 200 M. Nauenberg
+
+ line at a fixed point P of a curve. But such a tangent cannot be expressed directly in
+
+ terms of the differentials dx and dy associated with a curve in Cartesian coordinates x
+
+ and y, while these differentials are directly related to the sides of the polygonal orbit in
+
+ Prop. 1, when these sides are viewed as the chords of a limiting orbital curve. Then, the
+
+ difference between the differentials for adjacent chords is a second-order differential,
+
+ ddx = dx' - dx, and ddy = dy' - dy, that could be directly related to the action of
+
+ the force impulse, giving rise to a differential equation of motion (Nauenberg 2010,
+ 272—276).46
+
+ In some advanced applications, Newton also resorted to the description of forces
+
+ by the periodic impulses introduced in Prop. 1. For example, in Corollaries 3 and 4 of
+
+ Prop. 17, he outlined the effects of external perturbations to the elliptical motion due
+
+ to an inverse square force, by a periodic sequence of impulses that instantaneously
+
+ changed the parameters (major axis, eccentricity, and orientation) of the ellipse. In a
+
+ manuscript in the Portsmouth collection of his mathematical papers (Newton 1969,
+
+ 508-538), he also showed that in the continuum limit, this perturbation gave rise to
+
+ differential equations for the time evolution of these parameters that now are attributed
+
+ to Euler and Lagrange (Nauenberg 2000, 167-194).
+
+ To conclude, we quote Newton's own assessment of the equivalence of Prop. 1
+
+ and Prop. 6. When dealing with the effects of air resistance, in connection with Prop.
+
+ 10, Book 2 (Nauenberg 2011, 567-587), he remarked in a Scholium that remained
+
+ unpublished:
+
+ "It would have been permissible to imagine that the projectile were to proceed
+
+ in the chords, GH, H I, IK of the arcs, and be disturbed through the force of
+
+ gravity and the force of resistance at the sole points G, H, 1 and K, exactly as
+
+ in Proposition I of the first book a body was disturbed through an intermittent
+
+ centripetal force; and then the chords to be infinitely diminishes so that the forces
+
+ were rendered continuous. And the solution of the problem by this means would
+
+ have turned out very easy" (Newton 1981, 366).47
+
+ Acknowledgments I would like to thank Niccolö Guicciardini for many interesting comments on several
+
+ of the topics covered here.
+
+ 7 Appendix 1: Prop. 6, Cor. 3, on curvature and force in polar coordinates
+
+ In 1671, Newton obtained the radius of curvature p of a general curve in coordinates
+
+ that are equivalent to polar coordinates r, 8. Written in the language of Leibniz, in
+ terms of the first-order differentials dr, dd and the second-order differential ddr, it
+
+ takes the form (Newton 1969, 169-173; Nauenberg 2005b, 345),
+
+ 46 Varignon, Johann Bernoulli, de Moivre, Keill and Cotes, were able to translate Prop. 6 into differential
+
+ calculus after discovering that the second-order displacement from the tangent could be expressed in terms
+ of the radius of curvature of the orbit, before Newton included this connection in the second edition of the
+
+ Principia, in Cor. 3 of this proposition (Guicciardini 1999, 223, 220).
+
+ 47 I am indebted to N. Guicciardini for calling my attention to this interesting Scholium.
+
+ "£j Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 10:00:57 UTC
+All use subject to https://about.jstor.org/terms
+
+ where F is the central force (acceleration). Substituting Eq. 5 leads to the modern
+
+ equation of classical mechanics,
+
+ Orbital motion and force in Newton's Principia 201
+
+ 1 2d r2 — rddr + r2 dd2
+
+ » W/
+
+ p cos3(a) r3 dö2
+
+ where
+
+ rdO
+
+ cos(a) = -, . , = y. (6)
+
+ Vr2d6»2 + dr2
+
+ and a is the angle between the radial line and the normal to the tangent of the curve
+
+ at r, 8, shown in Fig. 6.
+
+ Since S Y = r cos(a), it follows from Prop. 6, Cor. 3, that48
+
+ 1 1 m
+
+ a SY2 x PV 2r2pcos3(a)'
+
+ '2Fa(è+1);' <8)
+
+ apart from the constant of proportionality. Setting dr = (1/2)(SP x QT)/l, where I
+
+ is the constant angular momentum for unit mass, one finds that this constant is I2.
+
+ By expressing the second-order displacement QR and the first-order line QT (see
+
+ Fig. 6) in polar coordinates, this equation can also be obtained from Newton's basic
+
+ expression for F in Prop. 6,
+
+ PFoc^. (9)
+
+ But such a derivation hides the important role of curvature in Newton's dynamics.
+
+ 8 Appendix 2: Hermann's derivation of Kepler's area law
+
+ It is of historical interest that in 1716, Jacob Hermann obtained a derivation of the
+
+ generalized Kepler area law that Newton had given for an impulsive central force in
+
+ Prop. 1 of the Principia, by starting, instead, with his expression for a continuous
+
+ central force in Prop. 6. For this purpose, he applied the relation for this force in terms
+
+ of the radius of curvature of the trajectory.49 Referring to the diagram, Fig. 8, associated
+
+ with this proposition, he set the differential time interval St = PQ/v, where v is the
+
+ velocity at P, and then demonstrated that the ratio I = SP x QT/St is a constant,
+
+ corresponding to the angular momentum (for unit mass) / = v x SY. In essence,
+
+ Hermann's proof was a consistency check, filling a gap in Newton's demonstration
+
+ 48 For similar derivations by Bernoulli and by Varignon see reference (Nauenberg 2010,285-289).
+
+ 49 First published in the 1713 (second) edition of the Principia in Prop. 6 Cor. 3.
+
+ <£] Springe
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 10:00:57 UTC
+All use subject to https://about.jstor.org/terms
+
+ 202 M. Nauenberg
+
+ Fig. 8 The diagram for Prop. 6
+ Fig. 8 The diagram for Prop. 6
+ in the second and third edition of
+ in the second and third edition of
+
+ the Principia, with the addition
+ the Principia, with the addition
+ of the line QY' tangent at Q, the
+ of the line QY' tangent at Q, the
+ normal SY' to this line, and the
+ normal ST' to this line, and the
+
+ radius of curvature p at P with
+ radius of curvature p at P with
+ center at C
+ center at C
+
+ "X"7r yi
+ / •
+ /a/ /
+
+ S^v Vs
+
+ /p \
+
+ J
+
+ 6cp /
+
+ !
+
+ [ .
+
+ ■>
+
+ -^s
+
+ V
+
+ of the equivalence of Prop. 6 with Prop. 1 that was lacking in the first edition of the
+
+ Principia,50 For completeness, we present a brief derivation of Hermann's proof in
+ somewhat different form.51
+
+ Referring to Fig. 8. which corresponds to Newton's diagram for Prop. 6, Fig. 6,
+ but with the addition of a line QY' tangent at Q, and the normal SY' to this line, let
+ p = SY, p = SY', Sp = SY' - SY, q = PY and 8s = PQ. Then
+
+ Sp = —qStp, (10)
+
+ Fr = — — , (12)
+
+ p p
+
+ and substituting 8t = 8s/v = p8(j>/v in Eq. 11,
+
+ d v = —8(/). (13)
+
+ 50 Hermann claimed that he was the first to give a proof of the area law (Guicciardini 1999,216), which is
+
+ valid provided it is qualified that his proof was based on Prop. 6. instead of Prop. 1.
+
+ 51 Hermann's original derivation is given in reference (Guicciardini 1999, 211-215).
+
+ 4T) Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 10:00:57 UTC
+All use subject to https://about.jstor.org/terms
+
+ where 8<p is the angle between the tangential lines QY and QY' and also between
+ the corresponding perpendicular lines PC at P, and QC at Q, which intersect a C.
+ Hence, PC = QC — p, the curvature radius of the arc PQ and 8s = pSs. We have
+
+ (Su = FpSt (11)
+
+ where Fj is the tangential component of the force. Applying the expression for this
+
+ component in terms of the radius of curvature p,
+
+ which corresponds to Eq. 13.
+
+ 9 Appendix 3: An extension of Lemma 11
+
+ In this appendix, we discuss Lemma 11 for Prop. 6 and an extension for its application
+
+ to the continuum limit in Prop. 1. In Fig. 9, associated with this lemma, Newton has
+
+ Orbital motion and force in Newton's Principia 203
+
+ Finally, substituting this relation for 8<j> in terms of 8v in Eq. 10,
+
+ 8p — ——8v (14)
+
+ v
+
+ which implies that the angular momentum I = pv is a constant of the motion.
+
+ To understand why the radius of curvature p does not appear in Eq. 13, we express
+
+ the second-order displacement QR from inertial motion in the form
+
+ where a is the angle between the lines SP and SY. Then, by Prop. 6,
+
+ 8s8d>
+
+ QR=T-^- (15)
+
+ 2 cos a
+
+ 2ßflsina
+
+ Ft = —-rt , (16)
+
+ and
+
+ Sv = FpSt = tana = v8(p— (17)
+
+ 8s8(b q
+
+ 8t p
+
+ Fig. 9 Newtons diagram for
+ Fig. 9 Newtons diagram for
+ Lemma 11, with an extended arc
+ Lemma 11, with an extended arc
+ B'b'A, and lines B'AD', b'Ad'
+ B'b'A, and lines B'AD', b'Ad'
+ superimposed in dotted lines
+ superimposed in dotted lines
+
+ d'
+ 4 D
+ A 4 D
+
+ b>
+
+ is
+
+ c
+
+ J
+
+ I
+
+ ® Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 10:00:57 UTC
+All use subject to https://about.jstor.org/terms
+
+ 204 M. Nauenberg
+
+ drawn the tangent AD at a point A of an arc A B of a curve and the perpendicular AG
+
+ to this tangent. The line DB is the perpendicular from B intersecting the tangent at
+
+ D, AB is the chord of the arc, and BG is a perpendicular to Aß intersecting AG at G.
+
+ The vertices d, b and g and corresponding lines are similar to those associated with
+
+ D, B and G. If AB is the arc of a circle with radius AJ / 2, then G = g = J and
+
+ DB = --, db = —— (18)
+
+ AB2 Ab2
+
+ AG Ag
+
+ For a general arc A B, in the limit that B and b both approach A, BG and bg intersect
+
+ at J, where AJ/2 is the radius of curvature of the arc at A.
+
+ In the absence of the tangent line AD, as is the case in Prop. 1, Newton's proof is
+
+ readily generalized by assuming that A is a point approximately in the middle of an
+ arc B'AB and b'Ab. Let AD' = AB be the extension of the chord AB' and Ad' the
+
+ corresponding extension of the chord Ab'. Then, if B'AB is the arc of a circle,
+
+ D'B = 2~, d'b = 2^, (19)
+
+ AG Ag
+
+ Likewise, for a general arc B'AB the proof is the same as the previous one.
+
+ References
+
+ Centuurus 31: 207-221.
+
+ 67: 553-593.
+
+ Aiton, Eric. 1989. Polygons and parabolas: Some problems concerning the dynamics of planetary orbits.
+
+ Arthur, Richard T.W. 2013. Leibniz's syncategorematic infinitesimals. Archive for History of Exact Sciences
+
+ Blay, Michel. 2001. Force, continuity, and the mathematization of motion in the seventeenth century. In
+ Isaac's Newton's natural philosophy, ed. Jed Z. Buchwald, and I. Bernard Cohen, 225-248. Cambridge,
+ MA: The MIT Press.
+
+ Brackenbridge, J. Bruce. 1995. The Key to Newton's Dynamics with and English translation from the Latin
+
+ of the first three sections of the 1687 edition of the Principia, by Mary Ann Rossi.
+
+ Brackenridge, J. Bruce, Nauenberg, Michael. 2002. Curvature in Newton's dynamics. In Cambridge Com
+
+ panion to Newton, ed. I. Bernard Cohen, and George E. Smith, 85-137. Cambridge: Cambridge Univer
+
+ Bernard Cohen, I. 1971. Introduction to Newton's Principia. Cambridge, MA: Harvard University Press.
+
+ Bertoloni Meli, Domenico. 1993. Equivalence and priority: Newton v.r. Leibniz. Oxford: Clarendon Press.
+
+ de Gant, Francois. 1995. Force and Geometry in Newton's Principia, translated by C. Wilson. Princeton:
+
+ sity Press.
+
+ Princeton Univ. Press.
+
+ Guicciardini, Niccolo. 1999. Reading the Principia. The debate on Newton's mathematical methods for
+
+ natural philosophy from 1687 to 1726. Cambridge: Cambridge University Press.
+
+ Gunther, R.T. 1930. Early Science in Oxford (Oxford University Press, Oxford 193) vol VI, p. 265; T. Birch
+
+ The History of the Royal Society of London (Royal Society, London, 1756-1757), pp. 91-92.
+
+ Herivel, John. 1965. The background to Newton's Principia. Oxford: Clarendon Press.
+
+ Huygens, Christiaan. 1929. De Vi Centrifuga, in Ouvres Complètes de Christiaan Huygens XVI, The Hague,
+
+ Nauenberg, Michael. 1994a. Hooke, orbital motion and Newton's Principia. American Journal of Physics
+
+ Nauenberg, Michael. 1994b. Newton's early computational methods for dynamics. Archive for the History
+
+ of Exact Sciences 46: 221-252.
+
+ pp. 253-301.
+
+ 62: 331-350.
+
+ Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 10:00:57 UTC
+All use subject to https://about.jstor.org/terms
+
+ Orbital motion and force in Newton's Principia 205
+
+ Nauenberg, Michael. 2000. Newton's Portsmouth perturbation method and its application to Lunar motion.
+ In The foundation of newtonian scholarship, ed. R. Dalitz, and M. Nauenberg. Singapore: World
+ Scientific.
+
+ Nauenberg, Michael. 2003. Kepler's area law in the Principia: Filling in some details in Newton's proof of
+
+ Proposition 1. Historia Mathematica 30: 441-456.
+
+ Nauenberg, Michael. 2005a. Robert Hooke's seminal contribution to orbital dynamics. Physics in Perspec
+
+ Nauenberg, Michael. 2005b. Curvature in orbital dynamics. American Journal of Physics 73: 340-348.
+
+ Nauenberg, Michael. 2010. The early application of the calculus to the inverse square force problem. Archive
+
+ for History of Exact Sciences 64: 269-300.
+
+ Nauenberg, Michael. 2011. Proposition 10, Book 2, in the Principia, revisited. Archive for History of Exact
+
+ tive 7: 4-34.
+
+ Sciences 65: 567-587.
+
+ Physics 80: 931-933.
+
+ Nauenberg, Michael. 2012. Comment on "Is Newton's second law really Newton's". American Journal of
+
+ Newton, Isaac. 1960. The correspondence of Isaac Newton, vol. II, 1676-1687, ed. H.W. Turnbull. Cam
+
+ bridge, MA: Cambridge University Press.
+
+ Newton, Isaac. 1969. The mathematical papers of Isaac Newton, Vol. 3, ed. D.T. Whiteside.
+
+ Newton, Isaac. 1974. The mathematical papers of Isaac Newton, Vol. 6, ed. D.T. Whiteside.
+
+ Newton, Isaac. 1981. The mathematical papers of Isaac Newton, Vol. 8, ed. D.T. Whiteside.
+
+ Cambridge, MA: Cambridge University Press.
+
+ Cambridge, MA: Cambridge University Press.
+
+ Cambridge, MA: Cambridge University Press.
+
+ Newton, Isaac. 1999. Principia, third edition. A new translation by I. Bernard Cohen and Anne Whitman
+ with a Guide to Newton's Principia by I. Bernard'Cohen. University of California Press, Berkeley.
+
+ Pourciau, Bruce. 2004. The importance of being equivalent: Newton's two models of one-body motion.
+
+ Archive for History of Exact Sciences 58: 283-321.
+
+ Pugliese, P. 1989. Robert Hooke and the dynamics of motion in a curved path. In Robert Hooke: New
+
+ studies, ed. M. Hunter, and S. Schaffer. Woodbridge: Boydell Press.
+
+ Westfall, Richard S. 1980. Never at rest: A biography of Isaac Newton. Cambridge, MA: Cambridge
+
+ University Press.
+
+ "ö Springe
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 10:00:57 UTC
+All use subject to https://about.jstor.org/terms
+
+

@@ -1,0 +1,1461 @@
+ 
+
+ 
+
+ 
+
+ 
+
+Emmy Noether's first great mathematics and the culmination of first-phase logicism,
+
+formalism, and intuitionism
+Author(s): Colin McLarty
+Source: Archive for History of Exact Sciences, Vol. 65, No. 1 (January 2011), pp. 99-117
+Published by: Springer
+Stable URL: https://www.jstor.org/stable/41134340
+Accessed: 19-05-2020 12:28 UTC
+
+JSTOR is a not-for-profit service that helps scholars, researchers, and students discover, use, and build upon a wide
+
+range of content in a trusted digital archive. We use information technology and tools to increase productivity and
+
+facilitate new forms of scholarship. For more information about JSTOR, please contact support@jstor.org.
+
+Your use of the JSTOR archive indicates your acceptance of the Terms & Conditions of Use, available at
+
+https://about.jstor.org/terms
+
+Springer is collaborating with JSTOR to digitize, preserve and extend access to Archive for
+History of Exact Sciences
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:28:07 UTC
+All use subject to https://about.jstor.org/terms
+
+ Arch. Hist. Exact Sci. (201 1) 65:99-1 17
+ DOI 10.1007/s00407-010-0073-y
+
+ Emmy Noether's first great mathematics
+ and the culmination of first-phase logicism,
+ formalism, and intuitionism
+
+ Colin McLarty
+
+ Received: 28 September 2010 / Published online: 2 December 2010
+ © Springer- Verlag 2010
+
+ Abstract Emmy Noether's many articles around the time that Felix Klein and David
+
+ Hubert were arranging her invitation to Göttingen include a short but brilliant note
+
+ on invariants of finite groups highlighting her creativity and perspicacity in algebra.
+
+ Contrary to the idea that Noether abandoned Paul Gordan's style of mathematics for
+
+ Hubert's, this note shows her combining them in a way she continued throughout her
+
+ mature abstract algebra.
+
+ 1 Introduction
+
+ Emmy Noether's first major article in mathematics was a four-page note on invariants
+
+ of finite groups, which she published while Felix Klein and David Hubert were arrang-
+ ing her invitation to Göttingen. One page essentially solves the problem merely by
+
+ stating it compactly, the next two pages give two explicit solutions, and the last page
+
+ describes related work. The opening line correctly claims that these explicit solutions
+
+ are shorter and simpler than the already known Hilbert-style proof that these solutions
+ exist Noether (1916, p. 89).
+
+ The article grew out of Noether's work on Hubert's algebra but she did not convert
+ to that and abandon the old-fashioned symbolic algebra of her dissertation teacher
+
+ Paul Gordan. On the contrary, this article marks her first step in merging Gordan's
+
+ methods with Hubert's, an approach to finite groups that she would continue to develop
+
+ Communicated by Jeremy Gray.
+
+ C. McLarty (IS1)
+
+ Department of Philosophy, Case Western Reserve University,
+ Cleveland, OH 44106, USA
+ e-mail: colin.mclarty@case.edu
+
+ 4u Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:28:07 UTC
+All use subject to https://about.jstor.org/terms
+
+ throughout the rest of her career, culminating in her plenary address at the 1932 Inter-
+ national Congress of Mathematicians in Zurich (Noether 1916, 1926, 1929, 1932).
+
+ And contrary to what is sometimes lazily supposed, and as Corry (1996, p. 170) justly
+ says, Hubert's axiomatic algebra was never abstract because it always had "immedi-
+
+ ate, intuitive significance" but Gordan on the other hand taught that highly practical
+ tools can be remote from classical intuition.
+
+ 100 C. McLarty
+
+ This article offers three histories of Noether (1916). Each one explains how Noether
+
+ came to the problem, how she solved it, and why she wrote it up as she did. Any one
+
+ of them would be entirely satisfactory by itself if the others did not exist. One shows
+
+ the article creating a symbolic formalism for calculating invariants in Gordan's style,
+
+ another bases the work on Galois theory, and the third makes it Noether's creative
+ response to Dedekind and Hubert's algebra of groups and modules. After discussing
+ Noether's generally ahistorical outlook the article closes by arguing that her abstract
+
+ algebra unified Gordan's view of mathematics with Hubert's.
+
+ 2 Klein's triad
+
+ Among mathematicians in general, three main categories may be distinguished;
+
+ and perhaps the names logicians, formalists, and intuitionists may serve to char-
+ acterize them.
+
+ -Klein (1894, p. 2)
+
+ It is very likely that Noether knew these terms, which Klein published in English,
+ because Klein was a family friend, Noether was certified to teach English, and all the
+
+ mathematicians Klein gave as examples were household names from her childhood on.
+
+ In any case Klein's typology illuminates the larger significance of her work. His logi-
+ cians, formalists, and intuitionists did not urge different foundations for mathematics
+
+ but used different working styles. Let us call thesefirst-phase logicism, formalism and
+
+ intuitionism. We cannot enter here into the lively history of how first L.E.J. Brouwer
+
+ and then Hubert co-opted the first-phase terms into the later foundational controversy
+
+ with the meanings that they have today, but we will say that the way to this co-optation
+ was cleared when Noether, among others, unified all three of these working styles so
+
+ smoothly that the first-phase meanings became idle.
+
+ Klein explained his terms this way:
+
+ (1) The word logician is used here, of course, without reference to the mathemat-
+
+ ical logic of Boole, Peirce, etc.; [it indicates an] ability to give strict definitions
+ and to derive rigid deductions therefrom. The great and wholesome influence
+ exerted in Germany by Weierstrass in this direction is well known. (2) The for-
+
+ malists among the mathematicians excel mainly in the skillful formal treatment
+
+ of a given question, in devising for it an "algorithm." Gordan [...] must be
+
+ ranged in this group. (3) To the intuitionists, finally, belong those who lay partic-
+
+ ular stress on geometric intuition, not in pure geometry only, but in all branches
+ of mathematics.
+
+ ^ Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:28:07 UTC
+All use subject to https://about.jstor.org/terms
+
+ Emmy Noether's first great mathematics 101
+
+ Clebsch must be said to belong both to the second and third of these categories,
+
+ while I should class myself with the third, and also the first.
+
+ (Klein 1894, p. 2)
+
+ Noether's dissertation was purely formalist in these terms. It relied on long sym-
+
+ bolic calculations devoid of geometry and burdened with famously obscure definitions
+
+ and deductions taken from Gordan. We will see that (Noether 1916) was a great step
+
+ toward making her a logician. Furthermore, at just about the same time, Noether was
+
+ absorbing Sophus Lie's geometrical group theory in order to produce her conservation
+ theorems in mechanics. Geometric intuition would underlie much of her work after
+
+ that. Most relevantly for us, her work directly descended from (1916) "introduced
+ the idea of representation space" by which Emil Artin says "she enables us to use
+ our geometric intuition" in group representation theory (Artin 1950, p. 67). Noether
+
+ was hardly alone in bringing rigor, calculation, and geometry together. Easier com-
+ munication and the sheer rising number of mathematicians required and facilitated
+
+ a trend to uniform styles of expression and standards of rigor. Publishers, notably
+
+ Springer- Verlag, disseminated these in ever more easily available books and journals.
+ But Noether was a key player and the algebraic style which she made by combining
+
+ these in her particular way would descend through van der Waerden and Bourbaki to
+
+ become the central unifying device of twentieth century mathematics. Once Klein's
+
+ three working styles all succeeded so well as to become largely common property of
+
+ all mathematicians, they were idle as a trichotomy.
+
+ 3 The place of the work in Noether's life
+
+ There was nothing rebellious in her nature; she was willing to accept conditions
+
+ as they were.
+
+ - Weyl(1935,p.43O)
+
+ Weyl probably heard this from Noether's younger brother Fritz, who was very close
+
+ to her, and it was probably true throughout her life in pretty, quiet Erlangen until
+ 1915 when she was 33, the year she sent her (1916) to the Mathematische Annalen.1
+
+ As is well known, her father Max Noether was a noted professor of mathematics at
+ Erlangen who encouraged her education and admired her work. The other Erlangen
+ mathematics professor was Gordan, who was more famous than her father, and even-
+
+ tually became her doctoral advisor when she turned to mathematics. She studied for
+
+ one semester in Göttingen in 1903, but her dissertation of 1908 with Gordan pursued a
+
+ huge calculation that had stumped Gordan forty years before and which Noether could
+
+ not complete either. So far as I know no one has ever completed it or even checked it
+
+ as far as she went. It was old-fashioned at the time, a witness to the pleasant isolation
+ of Erlangen, and made no use of Gordan's own work building on Hubert's ideas.2
+
+ 1 For biography of Noether see Dick (1981), Kimberling (1981), McLarty (2005), Roquette (2008) and
+ especially Tollmien (1990).
+
+ 2 Gordan (1893, 1899, 1900).
+
+ Ö Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:28:07 UTC
+All use subject to https://about.jstor.org/terms
+
+ 102 C. McLarty
+
+ She now supervised dissertations under her father's name. She was elected to the
+ Circolo Matematico di Palermo in Italy in 1908 and the Deutsche Mathematiker-
+
+ Vereinigung in 1909. By age 30 in 1912 she was known to and respected by most of
+
+ the important mathematicians in Germany, and she was well into what anyone would
+
+ have called a successful career as a mathematician, except, of course, that she had nei-
+
+ ther title nor salary. Noether probably saw no reason for any of this to change, and she
+
+ would be known today in the history of women in mathematics if it had not changed -
+
+ but change it did. When Gordan retired in 1910 he was replaced by two students of
+ Hubert: Erhard Schmidt (b. 1876) and Ernst Fischer (b. 1875), and Noether worked
+
+ with both. She especially worked with Fischer and they credit each other extensively
+
+ in their articles. In the next few years she became remarkably productive, publishing
+
+ on classical invariant theory, and on transcendental numbers using Zermelo's axiom
+
+ of choice. More importantly, conversations with Fischer especially led her to a series
+ of four articles (1913, 1915, 1916, 1918a), of which the third is our chosen focus. The
+
+ first lays out the whole series, so that the last incidentally shows how long Noether
+
+ might hold on to an article between doing most of the work and finishing the publica-
+
+ tion. The second addresses Hubert's 14th problem, is by far the longest, has the most
+
+ technical results, and covers the most topics. The fourth applies her results to Galois
+
+ theory.
+
+ Section 5 of (1915) includes the quantities x¡ ' and the polynomial <P(z, u) we
+
+ focus on and Noether reasonably says the result of our chosen article is "implicit"
+
+ here (1916, p. 92).3 The whole series shows Noether as a powerful creative algebraist
+
+ such as no one could have imagined from her work before - although it pales in com-
+
+ parison to the work to come - and (1916) has the most astonishing proof and is closest
+
+ to Fischer's question that motivated the whole series.4 The histories offered here draw
+
+ on the whole series and apply to the whole, but they lead especially to (1916).
+
+ In 1915 Noether went to Göttingen. Throughout the First World War and then the
+
+ German Revolution Noether lived on the edge of poverty, became a radical socialist, a
+
+ radical algebraist, and the teacher of "without exception all the better young German
+ mathematicians" according to the influential Solomon Lefschetz at Princeton, who
+ was himself unsympathetic to abstract algebra (Kimberling 1981, quoted p. 35). The
+
+ article on finite groups examined here is the first brilliant show of her strength.
+
+ 4 Theorem and proof
+
+ Noether's proofs were (and remain) startling in their simplicity.
+
+ - Jacobson (1983, Introduction p. 13)
+
+ We first comment on the basics of Noether (1916). A translation is included as an
+
+ appendix, to avoid quoting most of it repeatedly. We comment on different details
+
+ differently in each of the three histories.
+
+ 3 Noether thought (1915) might win her Habilitation. See Koreuber and Tobies (2008).
+
+ 4 See Noether (1915, p. 162, 1918a, p. 222).
+
+ 4Ü Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:28:07 UTC
+All use subject to https://about.jstor.org/terms
+
+ Emmy Noether's first great mathematics 103
+
+ The article opens with a standard problem in group theory of the time: find all the
+
+ polynomial invariants of a finite group f) of linear transformations.5 Noether wrote
+
+ the i, j-th component of each matrix A* as a' • . By matrix multiplication each matrix
+ A k carries each series of quantities {Größenreihe - we would say a vector) x' . . . xn
+
+ to a new series of quantities which Noether calls x[ . . . Xn . The specific equation is
+
+ The familiar matrix calculation shows the result of applying Aj to x¡ is x¡3 the
+ same as applying the composite AjAk to x¡.
+
+ An invariant of ft is a polynomial f(x' ...xn) whose value is unchanged by any
+
+ action of ft.6 That is, for each A* in ft
+
+ xi - 2Liaivxv
+ v=l
+
+ f(x) = f(XW)
+
+ Here x abbreviates the series x' . . . xn and x^ abbreviates the transformed series
+
+ x['..Xn'A simple example will help. Let S) contain just two matrices:
+
+ *-(i?)*-(~o-°.)
+
+ Because these are 2 x 2 matrices, the group acts on pairs of quantities x' , JC2. Since
+
+ Ai is the identity matrix it acts by
+
+ And A2 multiplies each quantity by -1:
+
+ xx - x' x2 - X2
+
+ Xi _ - - X' ri Xy _ - - X2
+ Xi ^.(2) _ - - X' ri Xy r(2) _ -
+
+ So a polynomial f(x' , X2) is invariant if and only if f(x' , X2) = f(-x' , -X2), and
+ it is easy to see that / meets this condition if and only if every term of / has even
+
+ degree, so that the minus signs cancel out. The invariants xx and x'X2 and x' give a
+ complete basis. Every invariant polynomial f(x' , X2) can be written as a polynomial
+
+ combination of these three in at least one way; for example, the invariant x'x' can be
+ written two ways:
+
+ {x'Ýxl or x'(xxX2Ý
+
+ 5 As was common, Noether is silent as to the field they are linear over. Noether (1915, p. 163) notes that
+ some steps require the field have characteristic 0. Noether (1926) introduces great new ideas to eliminate
+ that assumption.
+
+ 0 Noether here calls polynomials "integral rational functions," following the general tendency in Dedekind,
+
+ Hubert, and Weber to favor the field of rational functions over the ring of polynomials.
+
+ £i Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:28:07 UTC
+All use subject to https://about.jstor.org/terms
+
+ Noether essentially solved the problem merely by noting that an invariant is any
+
+ polynomial f(x) that is equal to the average of all its transformed values:
+
+ 104 C. McLarty
+
+ 1 h
+
+ f{x) = -Tf{x^) (1)
+
+ Any Aj acting on the two sides turns the left side to f{x^)' and it leaves the right hand
+ sum unchanged as it merely permutes the terms, turning each f(x^) into f(x^k^).
+ So each f(x^) equals that one sum. But since each term in the sum contains just one
+ of the x^k' every permutation of the series of quantities leaves the sum unchanged,
+ which solves the problem! The f) invariant polynomials are precisely those equal to
+
+ some polynomial symmetric in the transformed series of quantities x^k'
+
+ Note carefully what it means to be symmetric in several series of quantities. Noe-
+
+ ther was not now talking about functions that remain unchanged when the quantities
+
+ in any one series
+
+ xW = {x'k)...xW)
+
+ are permuted among one another. She was talking about polynomials in several series
+
+ jc(1) . . . x^ that are unchanged when these series are interchanged entirely with one
+
+ another. The superscripts are permuted while the subscripts are unchanged, so each
+
+ x¡J is changed to some x¡ .
+
+ Noether said it was "well known" that every polynomial symmetric in several
+
+ series is some polynomial combination of the "elementary symmetric functions" of
+ these several series.7 To find all the invariants for the group f), one takes the finitely
+
+ many elementary symmetric functions of the several series *(1) . . . *(/l) and replaces
+
+ each quantity x'k) by its equivalent in terms of the original x' . . . xn and the matrix
+
+ coefficients af^ . This gives a finite set of invariant functions of x' . . . xn . Every invari-
+ ant function of them is some polynomial combination of these. In short, these form a
+
+ finite complete system of invariants for ft. She gives a second complete system, which
+
+ we shall not consider, using power sums of these same x' '
+
+ Symmetric polynomials were part of classical nineteenth century algebra. The deep
+
+ difficulty in 1916, and still today, is to understand the jc^ , which Noether called quan-
+ tities {Größen). They cannot simply be numbers or elements of some field, for, to get
+
+ the basis of invariants we must distinguish x'k) from Xpj) whenever i ' ^ p or k ^ y,
+ and make the appropriate substitution in terms of the correct corresponding sum
+
+ n n
+
+ v=l v=l
+
+ ^a^xv or else ^a(pj)vxv
+
+ 7 Noether (1916, p. 90) has not one but two footnotes to this well-known fact, neither citing a proof. It is
+ not in Weber (1895, 1912). It is stated without proof in Encyklopädie der mathematischen Wissenschaften
+ Bd. 1, Teil IB, 3b. Junker (1893) proves it in terminology resembling Noether's. These polynomials were
+ Gordan's bread-and-butter means of forming invariants but I do not find this result stated in his work.
+
+ Inspired by Noether, Weyl (1939, p. 37) proves the result as the "First Main Theorem" of invariant theory.
+
+ £i Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:28:07 UTC
+All use subject to https://about.jstor.org/terms
+
+ Emmy Noether's first great mathematics 105
+
+ Each x¡ must register the identity of xi and A¿. But how? Before giving the histories
+ of Noether's article we look at the basic options at the time.
+
+ 5 Algorithmic versus the new algebra
+
+ The difference between Gordan-style algorithmic and Dedekind-Hilbert-style axio-
+ matics comes down to the difference between variables as calculating symbols and
+
+ variables as objects varying over the elements of some algebraic structure. That dis-
+ tinction was hard to make in 1916. Weber (1912), a textbook that Noether cites and
+
+ very likely owned, favors the traditional identification of "algebra" with algorithmic
+
+ and explains it this way:
+
+ In analysis one is accustomed to understand a "variable" as a sign which takes
+ successively different values. Algebra uses the word variable as well but in a
+ different sense. Here it is a mere calculating symbol (Rechnungssymbole) with
+ which one operates by the rules of calculating with letters (Buchstabenrech-
+ nung). (1912, p. 47)
+
+ This may seem clear. In analysis the variables vary over the real or complex num-
+
+ bers (or some related set) while algebra often calculates with letters by formal rules.
+ Weber's larger textbook says letter calculation is the chief tool of algebra. But his
+ fuller explanation shows the distinction is unstable:
+
+ The use of this tool is so general that one often uses the word Buchstabenr-
+
+ echnung as a synonym for algebra.... Equations between letter expressions are
+ so-called identities [when] two expressions set as equal can be deformed by
+ applying the calculating rules so that the two come to agree exactly. Then one
+
+ gets correct numerical equations from the letter equations when the letters are
+
+ replaced by any kind of number whether real or complex, so long as one has not
+
+ tried to divide by zero. The letters in such equations may also be called variables
+
+ because one may think, without falling into contradiction, that successively one
+
+ after another numerical value is set for the letters. (Weber 1895, p. 20)
+
+ In analysis variables take successively different values, while in Buchstabenrech-
+
+ nung we may, if we wish, think that they do! This is not a clear distinction. Weber was
+
+ deeply concerned with principles and did not merely intend a pragmatic orientation
+ for beginners. That was just the best he could do.8
+
+ Furthermore, Weber underrated how far symbolic calculation might differ from
+
+ numerical. In the symbolic method that Gordan taught to Noether, an equation P = Q
+ need not even imply P2 = Q2. Indeed, if the first equation holds with P a numerical
+
+ expression and Q a symbolic one, then the second is not even well-formed and using
+ it would lead to contradiction. Given the general binary quadratic form
+
+ 8 Gottlob Frege argued decisively that mathematics cannot all be formal but took no position on the legiti-
+ mate role of formalism. In personal communication Jamie Tappenden says Frege knew the symbolic method
+ for invariants but recorded no position on it, and Frege's sense of the formal shifted over time.
+
+ £i Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:28:07 UTC
+All use subject to https://about.jstor.org/terms
+
+ 106 C. McLarty
+
+ Ax2 + IBxy + Cy2
+
+ the method creates symbols a' , ai with
+
+ a2 = A and «1^2 = B and a' = C
+
+ so that
+
+ (flijc + a2 j)2 = Ajc2 + 2£x;y + Cy2
+
+ The symbols ai, «2 occur to total degree 2 in these equations. A numerical term can
+
+ be equated to a symbolic expression only when each symbol pair such as a' , #2 occurs
+ in the expression to total degree 2 (Gordan 1887, Vol. II, p. 2). For example, setting
+ the values A = C = 1 and B = 0 gives theorems on the particular quadratic form
+
+ X2 + Y2. But this substitution into the symbolic equation (a'a2)2 = a'a' would show
+ 0=1 this way:
+
+ 0 = B2 = (a'ai)2 = a'a' = AC = 1
+
+ The symbolic equation is correct and indispensable for Gordan. But it contains a' and
+
+ Ü2 with total degree 4, so numerical substitution is not allowed.
+
+ Today we use sets to model axioms on one hand; and symbolic calculation by string
+
+ matching, usually computerized, on the other. In the first, variables in the axioms range
+
+ over elements of those sets. The second uses finite symbol strings and is often regarded
+
+ as a coding of arithmetic. Noether's algebra would do a great deal in the 1920s and
+ 1930s to advance the first although she took little interest in logic or foundations. The
+ second could not become clear until Kurt Gödel, Emil Post, Alan Turing and others
+
+ produced the modern idea of algorithm in the 1 930s. But the Weber quotes above show
+
+ that nineteenth century mathematicians already made an important while unclear dis-
+
+ tinction between symbolic variables and variables which take successively different
+ values.
+
+ 6 Noether (1916) as symbolic algebra
+
+ The history of Noether (1916) closest to her own words depicts it as formalist in
+
+ Klein's sense, an example of Gordan's influence: each jc^ is a mere symbol explicitly
+ indicating a group element A* and a quantity x¿ . The calculations above constitute the
+
+ proof and need no interpretation. Noether calculates with the central tools of Gordan's
+
+ theory, which she called elementary symmetric polynomials in several series of quan-
+ tities and he called the elementary symmetric polynomials polarized in those several
+ series.9
+
+ 9 For each k < n the coefficient of zn~k in Noether's <P(z, u) is the polarization of the fc-th elementary
+
+ symmetric polynomial £?¿(jq . . . xn) as defined by Gordan (1875, p. 4). Polarization is a device which can
+ be defined either by polynomial expansion or by mixed partial derivatives, so that the complete polarization
+
+ £l Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:28:07 UTC
+All use subject to https://about.jstor.org/terms
+
+ Emmy Noether's first great mathematics 107
+
+ On this history, Noether used the kind of tools Gordan taught her and solved the
+
+ kind of problem he solved. In fact Noether gave a slicker solution than Gordan to a
+
+ more far-reaching problem. Gordan had found a complete basis of invariants for the
+
+ (infinite) group of all linear transformations of binary (i.e., two-variable) forms of
+
+ any fixed degree n, Noether found a complete basis of invariants for any finite group
+
+ acting linearly in any finite number of variables. Noether's problem had wider scope,
+
+ she found a more elegant solution than is yet known for Gordan's, and her method led
+
+ to vastly more further research.
+
+ There is, however, a mathematical problem. On this interpretation the proof is
+ merely plausible and attractive. Noether never stated a criterion for the correctness
+
+ and completeness of the symbolic rules, still less did she prove that they are complete.
+
+ It is far from clear that these rules yield all the relevant equations on actual polyno-
+
+ mials, and this is a mathematical defect no matter how productive the proof was to
+ be in the long term. But this is no objection to the historical account. If anything it
+
+ supports the account, since Gordan's method had the same defect to higher degree. It
+
+ was extremely persuasive at the time, and universally accepted, and his results have
+ since been confirmed by other means. But possibly no one ever understood Gordan's
+
+ proofs. As Max Noether said in his eulogy of Gordan
+
+ For each work he compiled volumes of formulas, very well ordered, but provid-
+
+ ing a minimum of text. His mathematical friends undertook to prepare the text
+
+ for press and correct the printer's proofs. They could not always produce a fully
+ correct conception and one often misses the deeper ground on which the con-
+
+ siderations are laid. Only a few of his publications, and especially the earliest,
+
+ express Gordan's specific style: bare, brief, direct, uninterrupted theorems one
+ after the other. (Noether 1914, p. 5)
+
+ Possibly Gordan did not think of anything we would call proofs. He calculated.
+
+ But he offered difficult theorems to show that in any given case these calculations will
+
+ come to an end with a complete set of invariants. The published proofs are opaque,
+ and at least one recent attempted reconstruction failed. Gian Carlo Rota worked sev-
+
+ eral years with Joseph Kung on Gordan's method, and they eventually reported "We
+ chose to describe and make rigorous [Gordan's] original notation and follow it as
+
+ closely as possible." They succeeded beautifully at that, only to add that they could
+ not find rigorous proofs resembling Gordan's: "A similar salvage operation could not,
+
+ unfortunately, be carried out on the proofs" (Kung and Rota 1984, p. 28).
+
+ 7 Noether (1916) as Galois theory
+
+ Primarily two great general concepts lead to a mastery of modern algebra ... the
+ concepts of group and field.
+
+ - Weber (1912, p. 180)
+
+ Footnote 9 continued
+
+ of a degree n polynomial in one variable series is a polynomial in n different series, linear in each series.
+ See Weyl (1939, p. 5) or Neusei (2006, pp. 123ff.).
+
+ Ö Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:28:07 UTC
+All use subject to https://about.jstor.org/terms
+
+ 108 C. McLarty
+
+ A second history makes Noether (1916) a gem crystallized from a mass of more
+
+ technical Galois theory. When Noether took up mathematics the paradigm finite groups
+ of linear transformations were Galois groups as seen by Dedekind. The prestigious
+
+ textbooks Weber (1895, 1896, 1912) propagated this theory, and the first also pursues
+
+ the project announced by Hubert ( 1 887) at the start of his career to reform invariant the-
+
+ ory by using the new field theory. Weber's account of invariants of finite groups centers
+ on a Galois resolvent <P(t) closely related to Noether's <P(z, w).10 This explains why
+
+ the Galois resolvent solution comes first in Noether ( 1 9 1 6). A shorter more elementary
+
+ solution using power sums comes second.
+
+ Weber showed that every Galois field K over the rational numbers has a primi-
+
+ uve element, that is a single element g e K such that every element a € K can be
+ expressed as a rational function q(g) of q:
+
+ f(p)
+
+ a = q(o) = -
+
+ h(Q)
+
+ Lagrange's theorem shows this is the same as saying no non-identity element of the
+ Galois group leaves q unaltered. This was central to Dedekind-Weber Galois the-
+ ory and is proved for example by Weber (1912, p. 258). Weber called the minimal
+ polynomial of any primitive element a Galois resolvent (1912, p. 240).
+
+ For any Galois field K over the rational numbers and subgroup ft of its Galois
+
+ group, the fixed field K*> consists of the invariant elements for ft: those x € K such
+ that x = Ak(x) for every A* in £j. Lagrange's theorem gives the key relation to resol-
+
+ vents: When 0 is any Galois resolvent of K over a fixed field K*>, then the elements
+
+ of the fixed field K^ are exactly the quantities expressible as rational functions of the
+
+ coefficients of 0. To see this it is enough to consider K as a Galois extension of the
+
+ extension of the ground field k by the coefficients of the resolvent.
+
+ The basic converse Galois problem is to take a finite group S) and find an extension
+ of the rational numbers with Galois group S). It is not yet known which groups S)
+ admit solutions. Hubert (1892, p. 123) used indeterminate polynomials to relate this
+ to rational function fields. Noether stated Hubert's result concisely:11
+
+ Let this equation
+
+ f(x) = xn + Fi(Xi - "kr)xn"1 + • • • + Fn(Xi . . . A.r) = 0
+
+ have Galois group S) over the field Q(A.i • • -Xr) of rational functions of the
+
+ parameters k' - -Xr with rational number coefficients. Then the parameters can
+
+ be replaced in arbitrarily many ways by rational numbers so that the resulting
+ polynomial
+
+ 10 Noether cited Weber (1899, §57-58), which corresponds to Weber (1896, §41-42).
+
+ 1 1 Hubert and Noether both applied this to any "number field" Í2, by which they mean any subfield of the
+
+ complex numbers. For simplicity we state it over the rational numbers.
+
+ £i Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:28:07 UTC
+All use subject to https://about.jstor.org/terms
+
+ Emmy Noether's first great mathematics 109
+
+ g(x)=xn+aìxn-ì + -..+an=0
+
+ has Galois group ft over the rational numbers. (Noether 1918a, p. 222)
+
+ The theorem does not say which finite groups $) admit such polynomials f(x).
+
+ Noether found a sufficient condition that is still pursued in research today (Swan
+
+ 1983). Consider the field Q(Ài . . . kh) of rational functions over Q with one param-
+ eter for each element of the group $), and the field of invariants Q(k' . . . kh)^ for
+
+ the action of ft permuting the parameters. Noether's general results show there is a
+
+ finite complete system for these invariants. Her (1918a, p. 226) shows that if there is
+
+ such a basis with all its elements algebraically independent then there is a polynomial
+ with Galois group $) over Q(A.i ...kh). By Hubert's theorem, then, this polynomial
+ parameterizes many polynomials with that Galois group over the rational numbers.
+
+ The general results center on fields of rational functions invariant under some group
+
+ of permutations of the variables. Noether called these fields "Lagrangesche Gattungsb-
+
+ ereiche" in reference to Lagrange's theorem and Kronecker's Gattungsbereiche}1 But
+
+ permuting variables takes polynomials to polynomials and a rational function
+
+ f(x'...xh)
+
+ g(x'...xh)
+
+ expressed in least terms is invariant if and only if each of f(x' . . . Xh) andg(;q . ..Xh)
+
+ is invariant. So it is enough to study invariant polynomials.
+
+ Noether saw that the key fact on Galois resolvents does not use the special features
+
+ of Galois field extensions. For, let a field be extended by adjoining any finite list of
+
+ quantities x' . . . xn with no equations imposed on the quantities. This yields the ring
+ of polynomials over the field in these variables. Let any finite group ft = {A' . . . Ah]
+
+ act linearly on these polynomials in whatever way, not necessarily by permuting the
+
+ variables x' . . . xn. An invariant polynomial is one equal to its own average over the
+ group action, and that average is a symmetric function of the transformed quanti-
+
+ (k)
+
+ ties x¡ = Ak(xi). The well-known theorem on symmetric functions shows that these
+ invariants are all polynomial functions of the coefficients of any "Galois resolvent."
+
+ According to this history Noether adopts a good bit of apparatus from Weber with-
+
+ out mentioning it. Following Weber (1899, p. 232) a primitive element in this context
+
+ is any quantity f{x' . . . Xh) such that no non-identity element A,- of ft leaves it unal-
+
+ tered; and a Galois resolvent is a minimal polynomial for a primitive element. The
+
+ Hubert irreducibility theorem gives primitive elements by forming an indeterminate
+ linear combination of the x¿ :
+
+ -u'x'
+
+ £i Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:28:07 UTC
+All use subject to https://about.jstor.org/terms
+
+ and each parameter u¡ and can be determined in arbitrarily many ways that make the
+ result primitive.
+
+ 12 Kronecker's term is well explained by Goldstein and Schappacher (2007, p. 82), but Noether's definition
+ is not actually a case of it.
+
+ None of this is explicit in Noether (1916). Explicitly she formed the polynomial
+
+ 110 C.McLarty
+
+ h
+
+ *(z, ii) = ]' (z + uix[k) + . . . + «„*<*>)
+
+ whose roots are h different conjugates of one indeterminate linear combination:
+
+ She treated the x'k) as distinct variables when expanding the polynomial. Then she
+ evaluated them in terms of the original jc¿ and A* to get a polynomial
+
+ h t XT ^ / x a «i an {(<* + al + * * * + an) = h'
+ zh h + t XT 2^Gaax...otn{x)zauxx...uan« ^ / x a «i an y a^h j
+
+ where each Gao¿i an (•*) is a polynomial in the original x' ...xn, invariant under the
+ action of 9). Conversely, any invariant is a polynomial function of the coefficients
+ of the resolvent &(z, u) for some choice of values for u' ... un. So it is certainly a
+
+ polynomial in these Ga ax an (x). The Ga ai an (x) give a finite complete system for ft.
+
+ On this history, Noether first treated the x¡ ' as formal variables for Buchstabenr-
+ echnung in order to expand the polynomial &(z, u), and then she evaluated them as
+
+ field elements, but she merged these two steps without comment into one equation. She
+
+ never distinguished them, and she soon abandoned the framework of Lagrangesche
+
+ Gattungsbereiche in favor of rings and modules.
+
+ 8 Noether (1916) as moving toward representation modules
+
+ The third history uses ideas that Noether had not clarified for herself in (1916) but
+
+ was already reaching toward, and would soon develop.13 Noether knew the works of
+ Dedekind, Frobenius, and Schur cited in Fischer (1915, 1916) and Fischer named her
+
+ as a collaborator on those articles. Though she would first publish the thought years
+
+ later, she already knew that:
+
+ Frobenius developed the theory of hypercomplex systems and their representa-
+
+ tions - especially the representation theory of finite groups - in a unified way.
+ It was founded on Dedekind's concept of group determinant.... But Frobenius
+
+ got his conceptually unified and transparent results by toilsome (mühevolle)
+ calculations. (Noether 1929, pp. 641-642)
+
+ Her new methods would give proofs as unified and transparent as the results.
+
+ Throughout this section notation not taken from Noether (1916) is based on
+
+ her (1929), especially §15 on representation modules. According to Noether (1929,
+
+ pp. 680, 682) the "usual" (übliche) definition of a representation of a group 9) over a
+
+ 13 This reading is particularly inspired by Neusei (2006).
+
+ ^ Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:28:07 UTC
+All use subject to https://about.jstor.org/terms
+
+ Emmy Noether's first great mathematics 111
+
+ field K correlates each element i € f) with annxn matrix A¡ over K, so that group
+
+ multiplication in $) corresponds to matrix multiplication of the A,-. Her (1916) used
+
+ a common variant of this where i} was conceived of as a group of matrices A,- in the
+
+ first place.
+
+ briefly below.
+
+ Noether used representation modules to shift attention from matrices to their action
+ on the module (today called a vector space) of n-tuples of elements of K. As was to
+
+ be crucial to her mature ideas, she also replaced the group f) by its group ring over K
+
+ (Roquette 2002), but the group ring sheds no light on (1916) and we just mention it
+
+ From this point of view, the quantities x' . . . xn in (1916) are basis elements for a
+
+ module we may call V.14 Noether's key insight in (1916) was to track the action of f)
+
+ on V before performing it, but she failed when she tried to express this by equations.
+
+ She tried to define an «-tuple of transforms x[ , . . . , jc„ for each A* by equations:
+
+ *f°=Za^ forali l</<, (2)
+
+ n
+
+ v=l
+
+ n
+
+ v=l
+
+ which fails. Her argument requires x'k) # x¡j) when k ^ j while it could easily happen
+ that the right hand sums are equal when evaluated in V.
+
+ Noether (1916) postpones evaluating the sums in V by taking the x' * collectively
+
+ as basis elements for a new module we name W. Intuitively each x¡® represents a pair
+ (A¿, x{) indicating that A* is to act on jc,- but, so to speak, has not acted yet. The group
+
+ $) acts naturally on W with each Aj taking each basis element x¡ to the basis element
+
+ x¡jk' indicating that the product AjAk is to act on jc1' .15
+
+ Noether (1916) could not use distinct modules V and W because at that time she
+
+ had no proper way to relate different modules. She had not adopted the idea of homo-
+
+ morphism which would become central to her heritage.16 Rather than our Eq. 2 above
+ which Noether gave unnumbered at the start of ( 1 9 1 6) she should have defined a homo-
+
+ morphism W -> V from W to V making each basis element xf^ of W correspond to
+ a sum in V:
+
+ x'k) -► ^a^xv for all 1 < / < n (2r)
+
+ 14 Connoisseurs will note the confusion between a basis element jc,- and the */ component of a vector in
+ that basis, reproducing the confusion explicit on the Noether (1929, p. 669) for example. Noether and others
+ slowly became more precise about this during the 1920s.
+
+ 15 Today we would say that W is the tensor product of the group ring of Si (with basis elements A¿) and
+ the vector space V (with basis elements jc, ) so W has a basis of formal products A^ ® x, .
+
+ 16 Inexplicit ideas of homomorphism occur in Dedekind (McLarty 2006). Frobenius and Schur used the
+ term "homomorphism" around 1900 (Curtis 1999, p. 155). It spread when Schur used it in three articles
+ in 1924 all reviewed in Zentralblatt by Noether. She used the adjective "homomorph" in (1927a, 1927b).
+ Krall, Schreier, and Artin took up the term and van der Waerden (1930) made it standard. As to its history
+ in English, it first appears on JSTOR in an 1932 article by Levitzki citing Noether (1929) for the definition.
+
+ Ö Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:28:07 UTC
+All use subject to https://about.jstor.org/terms
+
+ The left hand basis element x¡k) of W corresponds to the right hand sum in V. We can
+ call this the evaluation homomorphism from W to V.
+
+ Rather than her Eq. 1, Noether should have said a polynomial function f(x' . . . xn)
+
+ on V is invariant if and only if the evaluation homomorphism carries f(x^k)) to the
+ original /(jc), for all 1 < k < h, which is equivalent to saying it carries the average
+ to f(x).
+
+ 112 C.McLarty
+
+ 1 h
+
+ Since each term f(x^) in the average depends on just one series of variables x^k'
+ every permutation of the series leaves it unchanged. The invariants on V are exactly
+
+ the images of polynomials on W symmetric in the series x^k'
+
+ By the well-known theorem, polynomials symmetric in the variable series jc^ are
+
+ all polynomial functions of the completely polarized elementary symmetric polynomi-
+ als in one series. These are finite in number. Applying the evaluation homomorphism
+
+ to these finitely many polynomials on W gives a finite complete invariant base for
+
+ polynomials on V. This argument is rigorous by modern standards and indeed is used
+ in Smith (1995) and Neusei (2006).
+
+ 9 Noether and history
+
+ Historians have to ask which of these histories recounts Noether's thoughts. Noether
+
+ did not have to ask, and did not have to know. Certainly from 1913 to 1915 she thought
+
+ about symbolic calculation, and about Galois theory, and about modules and repre-
+ sentations, and there may be no way to separate the influences. There is no reason to
+
+ suppose she did.17
+
+ Noether was not a historical thinker.18 She assiduously credited earlier work in
+
+ every article she wrote, she was keenly interested in past figures as colleagues, that
+ is as sources of currently valuable ideas, and she edited works and correspondence
+
+ by Dedekind (Dedekind 1932; Noether and Cavaillès 1937): but she never regarded
+ earlier mathematicians as historical subjects.
+
+ She wrote as a colleague and not as a historian when she said, for example, that her
+
+ conservation theorems "rest on combining formal methods of calculus of variations
+
+ with Lie's group theory" (1918b, p. 235) or that her isomorphism theorem occurs "in
+ a somewhat more special form" in Dedekind (Noether 1927a, p. 4 In). She knew these
+ remarks wildly understate her advances. Some historians feel she was being modest,
+
+ 17 Influenced by Weyl and by the apt semi-historical account in Neusei (2006) the author began by believ-
+
+ ing something like the third history would show Noether converting from Gordan's viewpoint to Hubert's.
+ Close reading of Noether (1916) made the first history more plausible, while reading her other articles
+ around that time led to the second history.
+
+ 18 Her longest historical account is (1929, pp. 641-642) on 30 years of hypercomplex systems, which she
+ worked in for 15 of those years. She contrasted different approaches but within each one she described the
+ accumulation of theorems and gave almost nothing on developing concepts.
+
+ £l Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:28:07 UTC
+All use subject to https://about.jstor.org/terms
+
+ Emmy Noether's first great mathematics 113
+
+ but we know she was not modest. Her student and later colleague Taussky-Todd ( 1 98 1 ,
+
+ p. 84) says Noether irritated some people by bragging. Rather, she wrote these refer-
+
+ ences to acknowledge colleagues she had learned from, and from whom she would
+
+ learn more - albeit she never met them and they were no longer alive. She was not
+ interested in tracking how she changed their ideas.
+
+ The great question about Noether in this period is whether and how she made the
+
+ "transition from Gordan's formal standpoint to the Hubert method of approach", as
+ stated by Weyl (1935, p. 206). I have already said she did not. But Noether herself left
+
+ little by way of a comparison of the two men: A footnote in her (1919, p. 140n) cites a
+
+ "direct proof of Hubert's basis theorem by Gordan in 1899. Soon after that, Noether
+
+ and Schmeidler (1920, pp. 3,15) say Gordan's proof generalizes more aptly to their
+ problem than Hubert's. Her (1923, p. 178) calls Gordan's calculations "unsurveyably
+ vast (unübersehbar)" and notes that they could not prove the finiteness theorem for
+ classical invariants in many variables, while Hubert's concise method could. These
+ remarks are too thin. A serious account of Gordan's and Hubert' influences on Noether
+
+ will have to be more indirect.
+
+ 10 Gordan's student and Hubert's algebraist
+
+ Noether was keenly aware that Gordan produced only a tiny fraction of the mathe-
+ matics that Hubert was to produce, and that her dissertation under him led nowhere.
+
+ However, Gordan's lasting influence on her was not in the dissertation or the particu-
+
+ lars of his symbolic method, but in his general approach to concepts and calculations,
+
+ as described below. Later, when talking among friends, she would call her dissertation
+
+ "Mist," "Formelngestrupp," and "Rechnerei": that is crap, a formula-thicket, and mere
+
+ reckoning.19 By then Noether could look back at a string of articles each establish-
+
+ ing a new field of mathematics, and conversations that she never even published but
+ which established new methods in topology and algebraic geometry. The dissertation
+
+ was poor indeed in that company. By 1932 it appears that she had completely forgot-
+ ten Gordan's symbolic method,20 which makes sense because that method is solely
+ adapted to one problem which she had left more than 20 years before.
+
+ The key is to see that, while Noether came to define the Hubert school in algebra,
+ hers was not Hubert's own algebra! Hubert's algebra stayed close to classical struc-
+ tures like subfields of the complex numbers and polynomials over these fields. He
+
+ used algebraic axioms to isolate the key points for each problem but not to describe
+ new more remote structures:
+
+ Hubert's own use of the axiomatic method involved, by definition, an acknowl-
+ edgment of the conceptual priority of the concrete entities of classical mathe-
+
+ matics, and a desire to improve our understanding of them, rather than a drive to
+
+ encourage the study of mathematical entities defined by abstract axioms devoid
+
+ of immediate, intuitive significance. (Corry 1996, p. 170)
+
+ 19 The first appears in Dick (1981, p. 17), the latter two in Alexandroff (1981, p. 99).
+
+ 20 Letter to Hasse April 14, 1932 (Lemmermeyer and Roquette 2006, p. 158).
+
+ Ô Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:28:07 UTC
+All use subject to https://about.jstor.org/terms
+
+ 114 C.McLarty
+
+ Gordan on the other hand taught that perfectly concrete calculations, notably
+
+ in invariant theory, can lead far beyond the classical structures and intuitions. He
+
+ made Noether a "formalist," understanding that weird but carefully adapted calculat-
+ ing devices can solve problems. So in (1916) she calculated boldly with the poorly
+
+ explained terms x'k' Over the next few years Hubert and Dedekind made her a "logi-
+ cian" able to give strict definitions and deductions. That was sadly far from Gordan's
+
+ strength. When she combined those influences, she created representation modules
+
+ and crossed products as calculating tools which graduate students today meet in group
+
+ cohomology.21 They have a reputation for being abstract, and indeed they are abstract
+
+ in the sense of being remote from intuitions about classical structures. Yet they orga-
+
+ nize concrete calculations, most notably in their use in proving Fermaťs Last Theorem
+
+ (Washington 1997; McLarty 2010).
+
+ Gordan and Dedekind both taught that conceptual organization can "predict the
+ results of calculations" (Dedekind 1996, p. 102). Contrary to legend Gordan never
+
+ doubted Hubert's finiteness proof for classical invariants, still less did he reject it for
+
+ being merely an existence proof.22 He was probably dismayed at first to have his life's
+
+ work so roundly outdone - but he volubly confessed he had been outdone. He spent
+
+ years using Hubert's ideas to get better calculations and specified in print that he could
+
+ do this only because Hubert had seen "the value for invariant theory of certain ideas
+ which Dedekind, Kronecker, and Weber developed for use in other parts of algebra"
+ (Gordan 1893, pp. 132-133).
+
+ Gordan would have taught Noether that organization is the art of calculation, when
+
+ calculation means actually getting answers and not merely knowing a way to get them
+
+ in principle. Gordan's Erlanger Programm (1875) stresses the difficulty of improv-
+ ing his procedure, which works in principle for binary forms in all degrees, so as
+ to make it feasible in practice for degrees greater than 6. The great calculator Gor-
+
+ dan knew perhaps more viscerally than anyone else ever has how every procedure
+ for solving a problem necessarily becomes infeasible for large enough cases of that
+ problem. Conversely, he knew that organizing ideas without algorithms, as Hubert
+ (1889, pp. 450-452) did, may yet radically improve calculations. Gordan's work on
+ Hubert's proof produced the basic idea of Groebner bases now central to computa-
+ tional algebra.23
+
+ Noether absorbed all this and went beyond. The idea of modules as independent
+
+ structures shows the influence of Hubert and Dedekind, and often came to Noether
+
+ through Weber's textbooks; but abstract algebra in the specific sense of freely forming
+
+ agile new kinds of structures and morphisms unconstrained by classical intuitions yet
+ tailored for some specific calculation is not to be found in Hubert's work, and only
+ a little in that of Dedekind or Weber. Indeed, it is not really in Noether before her
+
+ (1927a, 1927b)- and it just begins to show in Noether (1916).
+
+ 21 See Mac Lane (1988), Basbois (2009).
+
+ 22 See fuller arguments on this in McLarty (201 1).
+
+ 23 See Eisenbud (1995, p. 367). At the same time Hubert (1893) proved the Nullstellensatz and a crucial
+ case of Noether normalization, which with Gordan's work made the classical invariant theorem entirely
+
+ constructive for w-ary forms in all degrees for all n. Even with current computers, though, the problem
+ quickly becomes infeasible. See Sturmfels (1993).
+
+ £} Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:28:07 UTC
+All use subject to https://about.jstor.org/terms
+
+ Emmy Noether's first great mathematics 1 1 5
+
+ Acknowledgments I thank Jeremy Gray, Mara Neusei, Norbert Schappacher, and Renate Tobies for
+ comments. This article benefited from discussion at Jamie Tappenden's seminar at Université de Paris
+ Diderot; and at the meeting on Cultures and Elements of Practices in Mathematics, 1800-1930, organized
+
+ by the Department of Mathematics, Northwest University, Xi'an and the Chinese Society for the History
+ of Mathematics.
+
+ References
+
+ Antipolis.
+
+ Dekker.
+
+ & Sohn.
+
+ in French 1877.
+
+ Alexandroff, P. 1981. M memory of Emmy Noether. In Emmy Noether: A tribute to her life and work, ed.
+
+ J. Brewer and M. Smith, 99-1 14. New York: Marcel Dekker. This 1935 eulogy at the Moscow Mathemati-
+
+ cal Society is also in N. Jacobson. ed. Emmy Noether collected papers, 1-1 1. New York: Springer- Verlag,
+ 1983; and Dick 1970, 153-180.
+
+ Artin, E. 1950. The influence of J.H.M. Wedderburn on the development of modern algebra. Bulletin of the
+
+ American Mathematical Society 56: 65-72.
+
+ Basbois, N. 2009. La naissance de la cohomologie des groupes. PhD thesis, Université de Nice Sophia-
+
+ Brewer, J., and M. Smith, éd. 1981. Emmy Noether: A tribute to her life and work. New York: Marcel
+
+ Corry, L. 1996. Modern algebra and the rise of mathematical structures. Basal: Birkhäuser.
+ Curtis, C. 1999. Pioneers of representation theory: Frobenius, Burnside, Schur, and Brauer. Providence,
+
+ RI: American Mathematical Society.
+
+ Dedekind, R. 1930-1932. Gesammelte mathematische Werke, three volumes. Braunschweig: Friedr. Vieweg
+
+ Dedekind, R. 1996. Theory of algebraic integers. Cambrige: Cambridge University. Originally published
+
+ Dick, A. 1981. Emmy Noether, 1882-1935. Boston: Birkhauser. An expanded version of a German version
+
+ with same title and publisher, 1970.
+
+ Eisenbud, D. 1995. Commutative algebra. New York: Springer- Verlag.
+ Fischer, E. 1915. Die Isomorphie der Invariantenkörper der endlichen Abelschen Gruppen lineaerer
+ Transformatioen. Nachrichten von der Gesellschaft der Wissenschaften zu Göttingen, Mathematisch-
+ Physikalische Klasse, 77-80.
+
+ Fischer, E. 1916. Zur Theorie der endlichen Abelschen Gruppen. Mathematische Annalen 77: 1-88.
+ Goldstein, C, and N. Schappacher. 2007. Several disciplines and a book (1860-1901). In The shaping
+ of arithmetic after CF. Gauss's disquisitiones arithmeticae, ed. C. Goldstein, N. Schappacher, and
+ J. Schweriner, 67-103. New York: Springer- Verlag.
+
+ Gordan, P. 1875. Über das Formensystem binaerer Formen. Leipzig: B.G. Tuebner.
+
+ Gordan, P. 1885-1887. Vorlesungen über Invariantentheorie. Leipzig: B.G. Teubner.
+ Gordan, P. 1893. Ueber einen Satz von Hubert. Mathematische Annalen 42: 132-142.
+
+ Gordan, P. 1899. Neuer Beweis des Hilbertschen Satzes über homogene Funktionen. Nachrichten von der
+
+ Gesellschaft der Wissenschaften zu Göttingen, Mathematisch-Physikalische Klasse, 240-242.
+
+ Gordan, P. 1900. Les invariants des formes binaires. Journal de mathématiques pures et appliquées 6:
+
+ 141-156.
+
+ ematische Annalen 28: 381-446.
+
+ 1889, 25-34 and 423^30.
+
+ Hubert, D. 1887. Über einen allgemeinen Gesichtspunkt für invariantentheoretische Untersuchung. Math-
+
+ Hubert, D. 1888-1889. Zur Theorie der algebraischen Gebilde. Göttinger Nachrichten 1888, 450-457;
+
+ Hubert, D. 1892. Ueber die Irreduzibilität ganzer rationaler Funktionen mit ganzähligen Koeffizienten.
+
+ Journal für die Reine und Angewandte Mathematik, 104-129.
+
+ Hubert, D. 1893. Uber die vollen Invariantensysteme. Mathematische Annalen 42: 313-370.
+
+ Jacobson, N. ed. 1983. E. Noether: Gesammelte Abhandlungen. New York: Springer- Verlag.
+ Junker, F. 1893. Ueber symmetrische Functionen von mehreren Reihen von Veränderlichen. Mathematische
+
+ Annalen 43: 225-270.
+
+ Kimberling, C. 1981. Emmy Noether and her influence. In Emmy Noether: A tribute to her life and work,
+
+ ed. J. Brewer and M. Smith, 3-64. New York: Marcel Dekker.
+
+ Klein, F. 1894. The Evanston colloquium lectures on mathematics. New York: MacMillan and Co.
+
+ ^ Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:28:07 UTC
+All use subject to https://about.jstor.org/terms
+
+ Koreuber, M., and R. Tobies. 2008. Emmy Noether - erste Forscherin mit wissenschaftlicher Schule.
+
+ In "Aller Männerkultur zum Trotz. " Frauen in Mathematik, Naturwissenschaften und Technik, ed.
+ R. Tobies, 149-176. Frankfurt a. M: Campus Verlag.
+
+ Kung, J., and G.-C. Rota. 1984. The invariant theory of binary forms. Bulletin of the American Mathematical
+
+ Society 10: 27-85.
+
+ Lemmermeyer, F., and P. Roquette. 2006. Helmut Hasse und Emmy Noether. Die Korrespondenz 1925-1935.
+
+ Göttingen: Universitätsverlag Göttingen.
+
+ Mac Lane, S. 1988. Group extensions for 45 years. Mathematical Intelligencer 10 (2): 29-35.
+
+ McLarty, C. 2005. Emmy Noether and the independent social democratic party of Germany. Science in
+
+ 116 C.McLarty
+
+ Context 18: 429^50.
+
+ 359-377.
+
+ (forthcoming).
+
+ McLarty, C. 2006. bmmy Noether s set theoretic topology: rrom Dedekind to the rise ot runctors. In
+ The architecture of modern mathematics: Essays in history and philosophy, ed. J. Gray and J. Ferreirós,
+
+ 211-235. Oxford: Oxford University Press.
+
+ McLarty, C. 2010. What does it take to prove Fermaťs Last Theorem? Bulletin of Symbolic Logic 16:
+
+ McLarty, C. 201 1. Theology and its discontents: David Hubert's foundation myth for modern mathematics.
+ In Mathematics and narrative, ed. A. Doxiadis and B. Mazur. Princeton: Princeton University Press
+
+ Neusei, M. 2006. Invariant theory. Providence, RI: American Mathematical Society.
+
+ Noether, E. 1908. Über die Bildung des Formensystems der temaren biquadratischen Form. Journal für die
+
+ reine und angewandte Mathematik 23-90. In E. Noether: Gesammelte Abhandlungen, ed. N. Jacobson,
+
+ 31-99. New York: Springer- Verlag, 1983.
+
+ Noether, E. 1913. Rationale Funktionenkörper. Jahresbericht DMV 22: 316-319. In E. Noether: Gesammelte
+
+ Abhandlungen, ed. N. Jacobson, 141-144. New York: Springer- Verlag, 1983.
+
+ Noether, E. 1915. Körper und Systeme rationaler Funktionen. Mathematische Annalen 76: 161-96. In
+ E. Noether: Gesammelte Abhandlungen, ed. N. Jacobson, 145-181. New York: Springer- Verlag, 1983.
+ Noether, E. 1916. Der Endlichkeitssatz der Invarianten endlicher Gruppen. Mathematische Annalen 77:
+ 89-92. In E. Noether: Gesammelte Abhandlungen, ed. N. Jacobson, 181-184. New York: Springer-
+ Verlag, 1983.
+
+ Noether, E. 1918a. Gleichungen mit vorgeschriebener Gruppe. Mathematische Annalen, 78: 221-229. In
+ E. Noether: Gesammelte Abhandlungen, ed. N. Jacobson, 231-239. New York: Springer- Verlag, 1983.
+ Noether, E. 1918b. Invariante Variationsprobleme. Nachrichten von der Gesellschaft der Wissenschaften zu
+ Göttingen, 235-257. In E. Noether: Gesammelte Abhandlungen, ed. N. Jacobson, 248-270. New York:
+
+ Springer- Verlag, 1983.
+
+ Noether, E. 1919. Die Endlichkeit des Systems der ganzzahligen Invarianten binärer Formen. Nachrichten
+
+ von der Gesellschaft der Wissenschaften zu Göttingen, 138-156. In E. Noether: Gesammelte Abhandl-
+
+ ungen, ed. N. Jacobson, 293-311. New York: Springer- Verlag, 1983.
+
+ Noether, E. 1923. Algebraische und Differentiahnvananten. Jahresbericht DMV 32: 177-184. In
+ E. Noether: Gesammelte Abhandlungen, ed. N. Jacobson, 436-443. New York: Springer- Verlag, 1983.
+ Noether, E. 1926. Die Endlichkeitssatz der Invarianten endlicher linearer Gruppen der Charakteristik
+
+ p. Nachrichten von der Gesellschaft der Wissenschaften zu Göttingen, 28-35. In E. Noether: Gesammelte
+ Abhandlungen, ed. N. Jacobson, 485^92. New York: Springer- Verlag, 1983.
+
+ Noether, E. 1927a. Abstrakter Aufbau der Idealtheorie in algebraischen Zahl- und Funktionenkörpern. Math-
+ ematische Annalen 96: 26-91. In E. Noether: Gesammelte Abhandlungen, ed. N. Jacobson, 493-528.
+
+ New York: Springer- Verlag, 1983.
+
+ Noether, E. 1927b. Der Diskriminantensatz für die Ordnungen eines algebraischen Zahl- und Funktio-
+
+ nenkörpers. Journalßrdie reine und angewandte Mathematik 157: 82-104. In E. Noether: Gesammelte
+ Abhandlungen, ed. N. Jacobson, 529-551. New York: Springer- Verlag, 1983.
+
+ Noether, E. 1929. Hyperkomplexe Grossen und Darstellungstheorie. Mathematische Zeitschrift 30:
+
+ 641-692. In E. Noether: Gesammelte Abhandlungen, ed. N. Jacobson, 563-614. New York: Springer-
+
+ Verlag, 1983.
+
+ Noether, E. 1932. Hyperkomplexe Systeme in ihren Beziehungen zur kommutativen Algebra und
+ Zahlentheorie. In Verhandlungen des Internationalen Mathematiker-Kongresses Zürich, vol. 1, 189-194.
+ Orell Füssli. In E. Noether: Gesammelte Abhandlungen, ed. N. Jacobson, 636-941. New York: Springer-
+ Verlag. 1983.
+
+ Noether, E., and J. Cavaillès. ed. 1937. Briefwechsel Cantor-Dedekind. Paris: Hermann.
+
+ Ô Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:28:07 UTC
+All use subject to https://about.jstor.org/terms
+
+ Emmy Noether's first great mathematics 1 1 7
+
+ Noether, E., and W. Schmeidler. 1920. Moduln in nichtkommutativen Bereichen, insbesondere aus Differ-
+
+ enzenausdrücken. Mathematische Zeitschrift 8: 1-35. In E. Noether: Gesammelte Abhandlungen, ed. N.
+
+ Jacobson, 318-352. New York: Springer- Verlag, 1983.
+
+ Noether, M. 1914. Paul Gordan. Mathematische Annalen 75: 1-41.
+
+ Roquette, P. 2002. Emmy Noether's contributions to the theory of group rings. http://rzuser.uni-heidelberg.
+
+ de/ci3/manu.html.
+
+ Roquette, P. 2008. Emmy Noether and Hermann Weyl. In Groups and analysis: The legacy of Hermann
+ Weyl, ed. K. Tent, 285-326. London: London Mathematical Society, http://rzuser.uni-heidelberg.de/ci3/
+ manu.html.
+
+ Smith, L. 1995. Polynomial invariants of finite groups. Wellesley, MA: A K Peters Ltd.
+
+ Sturmfels, B. 1993. Algorithms in invariant theory. New York: Springer- Verlag.
+
+ Swan, R. 1983. Noether's problem in Galois theory. In Emmy Noether in Bryn Mawr, ed. B. Srinivasan and
+
+ J. Sally, 21^0. New York: Springer- Verlag.
+
+ Taussky-Todd, O. 1981. My personal recollections of Emmy Noether. In Emmy Noether: A tribute to her
+
+ life and work, ed. J. Brewer and M. Smith, 79-92. New York: Marcel Dekker.
+
+ Tollmien, C. 1990. Sind wir doch der Meinung dass ein weiblicher Kopf nur ganz ausnahmweise in der
+
+ Mathematik schöpferische tätig sein kann. Göttinger Jahrbuch, 153-219.
+
+ van der Waerden, B.L. 1930. Moderne algebra. Berlin: Springer.
+ Washington, L. 1997. Galois cohomology. In Modular forms and Fermat 's last theorem, ed. G. Cornell,
+
+ J. Silverman, and S. Stevens, 101-120. Berlin: Springer- Verlag.
+
+ Weber, H. 1895. Lehrbuch der Algebra, vol. I, 1st ed. Braunschweig: F. Vieweg und Sohn.
+
+ Weber, H. 1896. Lehrbuch der Algebra, vol. II, 1st ed. Braunschweig: F. Vieweg und Sohn.
+ Weber, H. 1899. Lehrbuch der Algebra, vol. II, 2nd ed. Braunschweig: F. Vieweg und Sohn.
+ Weber, H. 1912. Kleines Lehrbuch der Algebra. Braunschweig: F. Vieweg und Sohn.
+ Weyl, H. 1935. Emmy Noether. Scripta Mathematica 3: 201-220. In Gesammelte Abhandlungen, ed.
+
+ H. Wevl. vol. 3. 425^44. Berlin: Sürineer-Verlae. 1968.
+
+ Weyl, H. 1939. The classical groups: Their invariants and representations. Princeton: Princeton University
+
+ Press.
+
+ ß Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:28:07 UTC
+All use subject to https://about.jstor.org/terms
+
+

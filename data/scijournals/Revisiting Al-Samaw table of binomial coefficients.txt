@@ -1,0 +1,3476 @@
+ 
+
+ 
+
+ 
+
+ 
+
+Revisiting Al-Samaw'al's table of binomial coefficients: Greek inspiration, diagrammatic
+
+reasoning and mathematical induction
+Author(s): Sanaa Bajri, John Hannah and  Clemency Montelle
+Source: Archive for History of Exact Sciences, Vol. 69, No. 6 (November 2015), pp. 537-576
+Published by: Springer
+Stable URL: https://www.jstor.org/stable/24569655
+Accessed: 18-05-2020 09:13 UTC
+
+ 
+REFERENCES 
+Linked references are available on JSTOR for this article:
+https://www.jstor.org/stable/24569655?seq=1&cid=pdf-reference#references_tab_contents 
+You may need to log in to JSTOR to access the linked references.
+
+JSTOR is a not-for-profit service that helps scholars, researchers, and students discover, use, and build upon a wide
+
+range of content in a trusted digital archive. We use information technology and tools to increase productivity and
+
+facilitate new forms of scholarship. For more information about JSTOR, please contact support@jstor.org.
+
+Your use of the JSTOR archive indicates your acceptance of the Terms & Conditions of Use, available at
+
+https://about.jstor.org/terms
+
+Springer is collaborating with JSTOR to digitize, preserve and extend access to Archive for
+History of Exact Sciences
+
+This content downloaded from 203.78.15.150 on Mon, 18 May 2020 09:13:02 UTC
+All use subject to https://about.jstor.org/terms
+
+ Arch. Hist. Exact Sci. (2015) 69:537-576 /ÎS rrn„MarV
+ DOI 10.1007/s00407-015-0156-x >5/
+
+ Revisiting AI-Samaw'al's table of binomial coefficients:
+ Greek inspiration, diagrammatic reasoning and
+ mathematical induction
+
+ Sanaa Bajri1 · John Hannah1 · Clemency Montelle1
+
+ Received: 11 April 2015 / Published online: 2 June 2015
+
+ © Springer-Verlag Berlin Heidelberg 2015
+
+ Abstract In a famous passage from his al-Bàhir, al-Samaw'al proves the identity
+ which we would now write as (ab)n = anbn for the cases η = 3,4. He also calculates
+
+ the equivalent of the expansion of the binomial (a + b)n for the same values of η
+
+ and describes the construction of what we now call the Pascal Triangle, showing the
+
+ table up to its 12th row. We give a literal translation of the whole passage, along
+ with paraphrases in more modern or symbolic form. We discuss the influence of the
+
+ Euclidean tradition on al-Samaw'al's presentation, and the role that diagrams might
+
+ have played in helping al-Samaw'al's readers follow his arguments, including his
+ supposed use of an early form of mathematical induction.
+
+ 1 Introduction
+
+ Al-Samaw'al ibn Yahyà al-Maghribï, born around 1130 in Baghdad, is a character of
+
+ some repute in the history of mathematics. Composing a substantial work on math
+ ematics at the prodigious age of nineteen, this son of a devout and learned Jew also
+
+ famously and publicly converted to Islam from Judaism, maintained a long and distin
+
+ guished career as an itinerant physician traveling throughout Iraq, Syria, Kûhistân and
+
+ Âdharbayjân, and wrote on a proliferation of topics including medicine, mathematics,
+
+ astronomy, religion, theories of love and erotica (Anbouba 1978).
+
+ Communicated by: Len Berggren.
+
+ ES Clemency Montelle
+
+ Clemency.Montelle@canterbury.ac.nz
+
+ 1 Department of Mathematics and Statistics, University of Canterbury, Christchurch, New Zealand
+
+ <£) Springer
+
+This content downloaded from 203.78.15.150 on Mon, 18 May 2020 09:13:02 UTC
+All use subject to https://about.jstor.org/terms
+
+ 538
+
+ S. Bajri et al.
+
+ However, al-Samaw'al is best known for his work on mathematics: Al-Bâhirfial
+
+ hisâb (literally: The Splendid Book on Arithmetic)1 (ca. 1150). This work is important
+
+ to the history of mathematics for a number of reasons. Firstly, the intellectual inspira
+
+ tion which al-Samaw' al owes to his predecessors is both substantial and acknowledged.
+
+ Al-Samaw'al gives summaries and syntheses of a number of his predecessors in the
+
+ Islamic tradition, including al-Khwàrizmi and al-Karajl, and turns his attention to
+
+ mathematical ideas that had been explored by mathematicians such as Qustâ ibn Luqà,
+
+ al-Sijzï, al-Khayyàm and Abu Kâmil (Anbouba). Furthermore, it is well established
+
+ that Greek mathematical works provided fundamental inspiration for almost all math
+
+ ematicians working in the Islamic tradition. Al-Samaw'al is no exception and, as we
+
+ shall see below, his mathematical style was influenced by many of his Greek predeces
+
+ sors, including Euclid, Heron and Diophantus, whose works clearly provided much
+ motivation for both the content and articulation of his mathematical ideas.
+
+ However, his work also contains some significant deviations from that of his Greek
+
+ predecessors. In particular, al-Samaw'al epitomizes a conflation of the geometric and
+
+ arithmetic approaches that had been developing in the works of many of his Islamic
+
+ predecessors as they assimilated, synthesized and then built on the approaches of their
+
+ Greek precursors. Notably, in various places in the Al-Bâhir, we can discern some
+
+ decisive breaks from Greek contexts, including advancing an increasingly abstract
+
+ articulation of number, algebraic styles of reasoning and a new significance for dia
+
+ grams. One result of these developments is that some features retained from the Greek
+
+ geometric styles of reasoning become redundant, superfluous or even unhelpful.
+
+ Al-Bâhir is a substantial work. Our study focuses on a small but significant part of
+
+ it—the opening passage from fourth chapter of the second section. This passage has
+
+ already attracted attention (Berggren 2003, 2007; Rashed 1972) because of its descrip
+
+ tion and rendering of a table of binomial coefficients, and because of its apparent use of
+
+ a mathematical mode of reasoning more frequently known today as mathematical (or
+
+ complete) induction. The table of coefficients, of course, is better known as the Pascal
+
+ Triangle, appearing in French mathematician Blaise Pascal's work Traité du triangle
+
+ arithmétique (published posthumously in 1665), but it has many attested antecedents
+
+ including from India, China, and Italy (Edwards 2002). The apparent use of induction
+
+ has seen al-Samaw'al's insights compared to similar achievements by mathematicians
+ in other cultures and times such as Pascal, Levi Ben Gerson, Maurolico, and Simon
+
+ Stevin, among others (Rashed 1972).
+
+ The passage in question begins with five propositions in rhetorical algebra which
+
+ set out rules for expanding expressions equivalent to (ab)n and (a + b)n for the cases
+
+ η = 3,4, followed by assertions about such expansions for higher powers. It concludes
+
+ with a description of the construction of the table of binomial coefficients and gives
+
+ the table up to its twelfth row.
+
+ We present here for the first time a literal English translation and detailed math
+
+ ematical commentary of this passage. Then, using direct evidence from this careful
+
+ textual scrutiny, we explore two issues raised by al-Samaw'al's exposition. Firstly, we
+
+ consider the influence of the Greek geometric and arithmetic heritage on al-Samaw'al
+
+ 1 Although some authors have chosen the title Al-Bàhir fi al-jabr, the evidence of the two manuscripts we
+
+ used supports our reading.
+
+ Springer
+
+This content downloaded from 203.78.15.150 on Mon, 18 May 2020 09:13:02 UTC
+All use subject to https://about.jstor.org/terms
+
+ Revisiting Al-Samaw'al's table of binomial coefficients.
+
+ 539
+
+ and the ways in which Al-Bâhir represents the transition between this source of inspi
+
+ ration and the new nascent modes of mathematical reckoning and practice. Secondly,
+
+ we examine the diversity and role of al-Samaw'al's diagrams in his exposition and the
+
+ ways in which they might have supported his mathematical arguments.
+
+ In addition, we will revisit the question of how this text is to be understood in
+
+ the historical development of mathematical induction. We will offer fresh insight into
+
+ recent scholarly discussion on this issue (see Acerbi 2000; Fowler 1994; Rabinovitch
+ 1970; Rashed 1972; Unguru 1991, 1994) using al-Samaw'al's exposition to advance
+ new perspectives on the strands of activity that may usefully be considered to fall
+
+ under the purview of this mode of mathematical reasoning.
+
+ 2 Text and translation
+
+ 2.1 Notes on the translation
+
+ This translation is based on the relevant excerpt from an edition of Al-Bâhir (Ahmad
+
+ and Rashed 1972, pp. 104-112) which was prepared by Ahmad and Rashed on the
+
+ basis of two manuscripts. The first manuscript, numbered 2718 of Aya Sofia (116ff),
+
+ was copied in 1324. The second is numbered 3155 Esat Efendi (88ff). Both are housed
+
+ in the Suleymaniye library (Istanbul, Turkey).2 This is the first time this section of
+
+ Al-Bâhir has been translated as a whole into English, and the first time the diagrams
+
+ in this section of Aya Sofia 2718 have been published and studied.3
+
+ For flow and clarity, we have arranged our translation and mathematical com
+
+ mentary proposition by proposition, and the numbered subheadings we have used to
+
+ delimit the presentation are ours (not al-Samaw'al's) and are intended for the reader's
+
+ convenience; the original text is continuous.
+
+ For each proposition, we have presented our mathematical analysis in two distinct
+
+ parts. This dual approach is based on 'paraphrasing' the mathematical content. The
+
+ 2 There seems to be some confusion with respect to the numbering and location of these manuscripts.
+ Ahmad and Rashed (1972, pp. 1-2) claim the Aya Sofia manuscript to be no. 2118, but in the collection in
+
+ Cairo (sic!), and the other manuscript, no. 3155 Esat ef., to be in the Suleymaniye library. Anbouba (1978)
+ states the Aya Sofia manuscript to be no. 2718 and 115ff and in Istanbul. King (1976) declares that both
+
+ manuscripts are in Istanbul and were discovered by Krause (1936) and that in 1961 Anbouba summarized
+
+ the work and further emphasized its importance to the scholarly community (Anbouba 1961). It may be
+ relevant to note that only Anbouba's contribution is cited by Ahmed and Rashed, who furthermore claim
+
+ responsibility for having revealed to the Suleymaniye library that ms. 3155 Esat Ef., previously classified
+
+ as 'anonymous,' was a copy of al-Samaw'al's Al-Bâhir (Ahmad and Rashed 1972, p. 2).
+
+ 3 It is true that Rashed discusses this whole passage in Rashed (1972, pp. 3-8,1994, pp. 63-68) as part of his
+
+ investigation into al-Karajï's and al-Samaw'al's role in the history of mathematical induction (al-Samaw'al
+
+ explicitly credits large portions of the contents of this passage to his predecessor al-Karajï (953-ca. 1029) and
+
+ at some points his terminology seems to suggest he may even be directly quoting him). Indeed, Rashed gives
+
+ full translations for propositions 1, 2 and 4 (admittedly with unacknowledged corrections to his edition)
+
+ and for the construction of the binomial table. However, he gives only a modern symbolic paraphrase for
+
+ proposition 3 and he omits completely the proof of proposition 5. He also omits all the diagrams and changes
+
+ the order of the propositions. Berggren (2007, pp. 552-554) has translated the portion of this passage which
+
+ gives the construction of the binomial triangle. A version of the diagrams from Aya Sofia 2718 was published
+
+ in Ahmad and Rashed (1972), but these omitted the red line segments visible in the diagrams accompanying
+
+ propositions 1,2 and 4, leaving instead a selection of the black dots marking the end points of the lines.
+
+ ·£) Springer
+
+This content downloaded from 203.78.15.150 on Mon, 18 May 2020 09:13:02 UTC
+All use subject to https://about.jstor.org/terms
+
+ 540
+
+ S. Bajri et al.
+
+ first paraphrase attempts to simplify the rhetorical presentation while staying as close
+
+ as possible to the original processes of exposition and reasoning (albeit using modern
+
+ notation). The second (where appropriate) is an explanation of the same proposition
+
+ but using modern operations and procedures and modern symbolic algebra. For exam
+
+ ple, the first paraphrase might retain the Euclidean language of ratios and operations
+
+ on them, while the second interprets these in terms of fractions. Or, again, the first
+
+ paraphrase might retain the original's sequential symbolic names for quantities (such
+
+ as a, b, c and so on), while the second takes advantage of algebraic symbolism to
+
+ identify products as ab (instead of c, say) or powers as a3 (instead of e, say). Thus,
+
+ the first paraphrase is designed to keep intact the original expressions and operations
+
+ that al-Samaw'al uses, while the second, more modern paraphrase, is for ease of com
+
+ prehension for those more familiar with modern mathematical procedures.
+
+ In translating this passage, we have attempted to be as literal as possible to convey
+
+ the fullest impression of the original text for non-Arabic readers and also to give a
+
+ sense of the distinct modes of expression original to this mathematical context. How
+
+ ever, on occasion there was need to suggest minor modifications to the text when the
+
+ mathematical context demanded it, or for the mathematical integrity and consistency
+
+ of the work. These have been clearly identified and noted. Emendations to the text
+
+ (as presented in the edition Ahmad and Rashed 1972) have been indicated by the use
+
+ of square brackets [· · · ] in the English translation. When English sense requires the
+
+ addition of words for fluency, or for glosses and supplementary material, we have
+
+ indicated the additions by round brackets: (···). Notes or comments which have been
+
+ deemed crucial for intelligibility have been indicated in footnotes.
+
+ 2.1.1 Letters as labels
+
+ Al-Samaw'al often uses Arabic letters to label the line segments (or their extremities)
+
+ that he invokes in the course of his demonstrations. In Aya Sofia 2718, these letters are
+
+ usually written with an over-bar to visually demarcate them in the text. We have used
+
+ lower case italics to transliterate the line segments, and upper case italics when the
+
+ letters indicate the extremities of line segments in order to avoid confusion. The order
+ in which he invokes these letters shows a clear Greek influence, in the tradition of
+
+ Euclid and his practice of lettering his diagrams, with features of the diagram labeled
+
+ in standard order as they arise during the demonstration (Netz 1999, p. 71). Indeed,
+
+ the Arabic letters which al-Samaw'al uses do not reflect the Arabic lexical ordering of
+
+ them, but rather the ancient Greek lexical ordering of first a, then β, then γ, then 8, and
+
+ so forth. Where exact transliterations to the Greek did not exist, the closest Arabic letter
+
+ was substituted. Since this standard ordering of labels seems to contribute the flow
+
+ of his diagrams (see Sect. 3.2), we have deviated from the traditional correspondence
+
+ between Arabic and Latin letters (Kennedy 1991-1992) and have tried to retain this
+
+ flow by using the equivalent English letters as they appear in English alphabetical
+
+ order, as shown in Table 1,4 We argue that the order in which the letters were placed
+
+ 4 Heath used a similar strategy when translating Euclid's Elements. Compare the diagrams in Ref. "Euclid"
+ (1883-1916) and Heath (1956).
+
+ Springer
+
+This content downloaded from 203.78.15.150 on Mon, 18 May 2020 09:13:02 UTC
+All use subject to https://about.jstor.org/terms
+
+ Revisiting Al-Samaw'al's table of binomial coefficients... 541
+
+ Table 1 Correspondence between Arabic and Latin letters used in our transliteration of the labeled diagrams
+
+ in Aya Sofia 2718
+
+ ab cdefghijkl
+
+ This preserves the alphabetic ordering of the labels
+
+ in the diagrams represents a crucial aspect of how these diagrams were intended to be
+ read.
+
+ 2.2 Translation and mathematical commentary
+
+ 2.2.1 Al-Samaw'al's title and opening statement
+
+ Chapter 4 from section 2 on the geometrical demonstrations used to extract unknown
+
+ numbers. There are two methods. The first method from chapter 4 section 2 consists
+ of the arithmetical foundations.
+
+ 2.2.2 Mathematical commentary
+
+ The aim of this part ofAl-Bâhir is to offer mathematicians various techniques that might
+
+ help them to solve equations (Ahmad and Rashed 1972, pp. 53-64). For example, al
+
+ Samaw'al himself later used the propositions and binomial table, that we study in this
+
+ paper, to develop methods for extracting nth roots (Rashed 1978). The arithmetical
+
+ methods mentioned here are being contrasted with geometrical methods, although as
+
+ we shall see these approaches are mingled together in the demonstrations. Our extract
+
+ marks the beginning of a series of propositions about numbers which are proved using
+ techniques similar to those in the arithmetical books in Euclid's Elements. The shorter
+
+ second part of Chapter 4 uses techniques similar to those in the geometrical books of
+
+ the Elements (Ahmad and Rashed 1972, pp. 64-66).
+
+ 2.2.3 Al-Samaw'al's proposition one
+
+ (For) any four numbers, the product of the surface5 of the first and the second by the
+
+ surface of the third and the fourth is equal to the product of the surface of the first and
+
+ the third by the surface of the second and the fourth.
+
+ 5 ΑΙ-Samaw'al has two ways to refer to the product of two numbers. He can use the Arabie Word 'سطح'
+
+ 0musattah) whieh literally means 'surface,' or he can use the Word 'ضرب' (darb) which means 'product.'
+
+ In order to capture the différence, we preserve his choice even though the mathematical meaning is the
+
+ sarae. The conesponding adjective in Euclid (VII, définition 16) is usually translated as 'plane' (as in 'plane
+
+ numbers,' the resuit of multiplying two numbers together), but it is sometimes rendered as 'representing
+ a surface.' H0yrup (2002) uses 'surface' to capture a similarly distinct notion of product in Babylonian
+ mathematics.
+
+ Springer
+
+This content downloaded from 203.78.15.150 on Mon, 18 May 2020 09:13:02 UTC
+All use subject to https://about.jstor.org/terms
+
+ 542
+
+ S. Bajri et al.
+
+ Fig. 1 Diagram accompanying
+ Fig. 1 Diagram accompanying
+ proposition 1 in Aya Sofya 2718
+ proposition 1 in Aya Sofya 2718
+
+ * t r t
+ t τ
+ ' I*
+
+ }.« *
+
+ • j
+
+ ■ -t
+ ■· ■ I-·
+
+ I
+ ll.
+
+ >
+ ^ 7" ■—'
+ L I '
+ . i i
+ . I
+ IX!
+ ^ z ■>
+ 1p
+
+ » 1
+
+ f.
+
+ ·»
+
+ f
+
+ 0
+
+ Let us consider four numbers a, b, c, d, and let us multiply a by b to get e, and let us
+ multiply a by c to get [/, and let us multiply b by d to get]6 g. Let us multiply c by d
+
+ to get h (see the manuscript diagram in Fig. 1).
+
+ Then, I say that the product of e and h is equal to the product of / and g.
+
+ Its demonstration: When the number a is multiplied (respectively) by the two numbers
+
+ b and c, then there results from the multiplication the two numbers e and /. Then, the
+ ratio of e to / is the same as the ratio of b to c.
+
+ Moreover, when the number d is multiplied (respectively) by the two numbers b and
+
+ c, then there results from the multiplication the two numbers g and h. Then, the ratio
+
+ We know that the ratio of e to / is the same as the ratio of b to c. Then, the ratio of e
+
+ of g to h is the same as the ratio of b to c.
+
+ to / is the same as the ratio of g to h.
+
+ Then, the surface of e and h is equal to the surface of / and g and this is what we
+ wished to demonstrate.
+
+ 2.2.4 Mathematical commentary
+
+ In symbolic terms, al-Samaw'al proves that (ab)(cd) = (ac)(bd). It is tempting
+ to think this proposition is obvious ('why not simply remove the brackets and use
+ be = cbT) and to ask why he sees a need to prove it. To some extent, this puzzle is
+ an artifact of viewing his rhetorical algebra in symbolic terms. Indeed, by the time
+ al-Samaw'al has named all the numbers he will need in the proof, the initial numbers
+ a, b, c, d have lost their identity in the proposed identity eh = fg. But it is also
+ not clear what his criteria were for a proposition to need a proof. For example, in the
+
+ course of proving proposition 3, he feels a need to refer to Elements 11,1 to justify
+ the rhetorical equivalent of (a + b)x = xa + xb but he is happy to state without
+
+ 6 Ahmad and Rashed (1972, p. 105) fix this omission by changing a letter written by the scribe and inserting
+
+ a missing phrase. Our emendation is slightly simpler, involving only a missing phrase at the start of a new
+ line in the manuscript and no corrections of written letters.
+
+ <£) Springer
+
+This content downloaded from 203.78.15.150 on Mon, 18 May 2020 09:13:02 UTC
+All use subject to https://about.jstor.org/terms
+
+ Revisiting Al-Samaw'al's table of binomial coefficients.
+
+ 543
+
+ Fig. 2 Transliteration of
+ Fig. 2 Transliteration of
+ diagram accompanying
+ diagram accompanying
+
+ proposition 1, preserving the
+ proposition 1, preserving the
+
+ 'alphabetic order' of the labels
+ 'alphabetic order' of the labels
+
+ proof7 the fact that we would now write as (pq)r = (pr)q. Similarly, in proposition 4
+
+ he states without proof various facts like the rhetorical equivalent of (3a2b)a = 3a3b.
+ In any case, having decided that proposition 1 needed a proof, he uses the same
+
+ techniques involving ratios that we see in Elements VII, 19 where Euclid proves that if
+
+ four numbers are in proportion then the product of the first and the fourth is the same
+
+ as the product of the second and the third.
+
+ First paraphrase: using modern symbols, but retaining his use of ratios. To help
+
+ the reader, each step of the argument is on a separate line. Al-Samaw'al's diagram,
+
+ translated in Fig. 2, may also help, as we shall see in Sect. 3.2, where we explore the
+
+ meaning of such diagrams and how al-Samaw'al and his readers might have used them
+
+ to help understand his proofs.
+
+ Let a, b, c, d be four numbers.
+
+ Let ab = e and ac — /, and let cd = h and bd = g.
+
+ Then I say that eg — fh.
+
+ Demonstration Multiplying a by b and c gives e and /, respectively.
+
+ Hence8 the ratio e : f is the same as the ratio b : c.
+
+ Moreover, multiplying d by b and c gives g and h respectively. Hence, the ratio g : h
+ is the same as the ratio b : c.
+
+ Thus9, the ratio e : f is the same as the ratio g : h.
+ Hence10 eh = fg which is what we wished to demonstrate.
+
+ Second paraphrase: using symbolic algebra and replacing ratios by fractions.
+
+ I say that (ab)(cd) = (ac){bd).
+
+ Demonstration Since
+
+ we have
+
+ ab b bd
+
+ ac c cd
+
+ (ab)(cd) = (ac)(bd).
+
+ 7 or without referring to proposition 1, if that was how he saw it being justified.
+
+ 8 Elements VI, 1 or VII, 17. Islamic mathematicians had various attitudes as to the distinction between
+
+ discrete numbers and continuous magnitudes (Oaks 2011); thus, we cite both the geometric and arithmetic
+ context from Euclid's work.
+
+ 9 Elements V, 11.
+
+ 10 Elements VI, 16 or VII, 19.
+
+ Ô Springer
+
+This content downloaded from 203.78.15.150 on Mon, 18 May 2020 09:13:02 UTC
+All use subject to https://about.jstor.org/terms
+
+ 544
+
+ S. Bajri et al.
+
+ Fig. 3 Diagram accompanying
+ Fig. 3 Diagram accompanying
+ proposition 2 in Aya Sofya 2718
+ proposition 2 in Aya Sofya 2718
+
+ D —
+
+ '\'Ur -fh
+ - 4 -J--'." —X^LrX
+ ji'—:£- . J«j>,
+ j * ·' I p\
+ f .-f V-H*
+ -> J ·>· ^ V, v,
+ ' r.J r
+ A ■ I· "■7
+ ' d€ ν
+
+ 2.2.5 Al-Samaw'al's proposition two
+
+ The surface of two sides each cubed is equal [to the cube]11 of their surface.
+ Let the cubic numbers be the two numbers a and b, and let their sides be c and d, and
+
+ let their squares be e and /, and let c be multiplied by d to get the number g, and let
+
+ a be multiplied by b to get h (see the manuscript diagram in Fig. 3).
+
+ Then, I say that the number h is equal to the cube of the number g.
+
+ Its demonstration: Indeed, it was explained in the arithmetical sections that if the
+ square number e is multiplied by the square number / there results from this multi
+ plication the square of the number g, the surface.
+
+ Then, if the result from this is multiplied by the surface of c and d, I mean by the
+
+ number g, there results from this the cube of the number g, and it is the product of the
+
+ surface of e and / and the surface of c and d.
+
+ But the result from the product of the surface of e and / and the surface of c and
+
+ d is equal to the result from the product of the surface c and e and the surface [of /
+ and]12 d, as we explained in the previous proposition.
+
+ Therefore, the result from the product of the surface of e and c and the surface of
+ d and / is equal to the cube of the number g. But, the result from the product c and e
+
+ [is the number a] and the surface of d and / is the number b.
+
+ Therefore, the surface of a and b, I mean the number h is equal to the cube of
+
+ number g, and this is what we wished to demonstrate.
+
+ 2.2.6 Mathematical commentary
+
+ In symbolic terms al-Samaw'al proves that (cd)3 = c3d3.
+
+ First paraphrase: using modern symbols, but staying close to his style of reasoning.
+
+ We add this for mathematical sense. Ahmad and Rashed (1972, p. 105) leave this phrase as it is, noting
+
+ ι ι ι
+
+ simply (and erroneously) in a footnote that the proposition says that (ab) 3 = a 3 b 3.
+
+ 12 This is originally inserted by Ahmad and Rashed (1972, p. 105).
+
+ â Springer
+
+This content downloaded from 203.78.15.150 on Mon, 18 May 2020 09:13:02 UTC
+All use subject to https://about.jstor.org/terms
+
+ Revisiting Al-Samaw'al's table of binomial coefficients.
+
+ 545
+
+ Fig. 4 Transliteration of
+ Fig. 4 Transliteration of
+
+ diagram accompanying
+ diagram accompanying
+
+ proposition 2, again preserving
+ proposition 2, again preserving
+ the 'alphabetic order' of the
+ the 'alphabetic order' of the
+ labels
+ labels
+
+ Let a and b be cubes: a = c3 and b = d3.
+
+ Let c2 = e and d1 = /.
+ Let cd = g and ab — h (see the manuscript diagram in Fig. 4).
+
+ Then I say that h = g3.
+
+ = S2·
+
+ Demonstration We already know that ef
+ Multiplying by cd = g gives (ef)(cd)
+ By proposition 1 we have (ef)(cd) = (ce)(fd)
+ and so (ce)(fd) = g3.
+ But ce = a and fd = b.
+ Thus ab = h = g3 which is what we wished to demonstrate.
+
+ -g3·
+
+ Second paraphrase: using symbolic algebra and its index notation for powers.
+
+ I say that c3d3 = (cd)3.
+
+ Demonstration We already know that c2d2 = (cd)2.
+ Multiplying by cd gives (c2d2)(cd) = (cd)3.
+ By proposition 1 we have (c2d2)(cd) = (c2c)(d2d)
+ and so (c2c)(d2d) — (cd)3
+ But c2c = c3 and d2d = d3.
+
+ Thus c3d3 = (cd)3 which is what we wanted.
+
+ Notice that this last version of the proof makes it much easier for one who knows
+
+ about the technique to see how one might use induction to prove that cndn = (cd)".
+
+ 2.2.7 Al-Samaw'al's proposition three
+
+ (When) any number is divided into two parts, then its cube is equal to (the sum of) the
+
+ cubes of its two parts and the product of each of its parts by the square of the other
+
+ part taken three times.
+
+ Its example: If a number A Β is divided at the point C (see the manuscript diagram in
+
+ Fig. 5), then I say that the cube of A Β is equal to the cube of AC and the cube of CB
+
+ and the product of AC by the square of CB taken three times and the product of CB
+
+ by the square of AC taken three times.
+
+ Its demonstration: Indeed, the square of AB is equal to the square of AC and the
+ square of CB and the product of AC by C Β taken twice.
+
+ Ô Springer
+
+This content downloaded from 203.78.15.150 on Mon, 18 May 2020 09:13:02 UTC
+All use subject to https://about.jstor.org/terms
+
+ 546
+
+ S. Bajri et al.
+
+ — - wu "~y- "y~ ,-y^ry-T —' ' u
+
+ ;• . z —--—
+
+ -?vtj.gL4M u^ui/j^jM,Luam
+ —'Ju ûU.icJUi/J^^Uut't/A
+
+ • I j - -VT ./ ■...— J
+
+ I '* i . ' ^ '
+
+ Fig. 5 Diagram accompanying proposition 3 in Aya Sofya 2718
+
+ If we multiply A Β by its square, we obtain its cube. So the cube of A Β is equal to the
+
+ product of Α β by the square of AC, the square of CΒ and the product of AC by Cβ
+ taken twice.
+
+ The product of Α β and any number is equivalent to the product of AC and CB by
+ this number, as Euclid explained in the first proposition of Book 2.
+
+ So the product of the square of AC by AC and by CB, and the product of the square
+ of CΒ by CΒ and by AC, and the product of double the surface encompassed by AC
+ and CB by AC, and the product of this also by CB, is equivalent to the cube of AB.
+ (So) the product of the square of AC and AC, that is the cube of AC, and the product
+ of the square of AC by Cβ [and the product of the square of CB and CB, that is the
+
+ cube of CB],13 and the product of the square of CB by AC and the product of double
+ the surface that is encompassed by AC and CB by each one of AC and CB [is the
+ cube of AB].14
+
+ But, for any surface, if we multiply the surface by one of its sides, then the result
+
+ from this product is equal to that which arises from the product of the square of that
+
+ side by the other side, since for any three numbers, the product of the first by the
+
+ second and then by the third is equal to the product of the first by the third then by the
+ second.
+
+ Thus, the existing cube15 of AB is equal to the cube of AC and the cube of CB and
+ the product of AC by the square of C Β taken three times and the product of CB by
+ the square of AC taken three times, and this is what we wished to demonstrate.
+
+ 2.2.8 Mathematical commentary
+
+ Al-Samaw'al's AB notation and the reference to Euclid (Elements 11,1) both suggest
+
+ geometric thinking. His simple diagram in Fig. 6 is the same diagram that Heron uses in
+
+ his proofs 'without a diagram' for the propositions in Elements II. It is possible that al
+
+ 13 There is clearly a problem with this section of the text. We propose to emend it as we have indicated
+ in accordance with mathematical sense. This problem is not mentioned in the édition (Ahmad and Rashed
+ 1972), but is implicitly corrected in Rashed's symbolic paraphrases in Rashed (1972, p. 4) and (1994, pp.
+ 64 65). See also the next footnote.
+
+ 14 This scribe appears to have omitted some terms here as well. We have corrected the text in line with the
+ corresponding step from proposition 4, adding a missing term, the cube of CB, as well as a reminder that
+ the whole sum cornes to the cube of AB.
+
+ أل The Arabie corresponding to this phrase is الكب الأوس
+
+ Springer
+
+This content downloaded from 203.78.15.150 on Mon, 18 May 2020 09:13:02 UTC
+All use subject to https://about.jstor.org/terms
+
+ Fig. 6 Transliteration of diagram accompanying proposition 3. The diagram for proposition 4 is similar
+
+ Samaw'al would have been familiar with these proofs from al-Nayrizi's commentary
+
+ on Euclid's Elements (Lo Bello 2009, p. 26).16
+
+ We offer a single paraphrase this time, replacing al-Samaw'al's line segments by
+
+ algebraic symbols and using symbolic algebra. To stay close to his notation, we have
+
+ replaced the lines AC, CB and AB by a, b and a + b, respectively.17
+
+ Paraphrase: I say that (a + &)3 = a3 + &3 + 3(ab2 + ba2).
+ Demonstration We already know that
+
+ (a + b)2 = a2 + b2 + 2 ab.
+
+ Multiplying by a + b we get
+
+ (a + bΫ = (a + b)(a2 + b2 + 2 ab).
+
+ For any number χ we have (a + b)x = ax + bx, as Euclid explains in Elements (11,1).
+ So we get
+
+ Revisiting Al-Samaw'al's table of binomial coefficients.
+
+ 547
+
+ B C A
+ Β C A
+
+ • • 9
+ β————————»———————————#
+
+ a2a + a2b + b2b + b2a + (2 ab)a + (2 ab)b = (a + b)3
+
+ or
+
+ a3 + a2b [ +b3 ] + b2a + (2ab)a + (2ab)b [ = (a + è)3]
+
+ But (xy)x — x2y since for any three numbers p, q, r we have {pq)r — (pr)q. Thus
+
+ (a + bf =a3 + b* + 3ab2 + 3 ba2
+
+ which is what we wished to demonstrate.
+
+ 2.2.9 Al-Samaw'al's proposition four
+
+ (When) any number is divided into two parts, then the square square of the divided
+
+ number is equal to the square square of each one of the two parts and the product of
+
+ 16 The point of Heron's proofs seems not to be to dispense with geometric thinking itself, since the diagram
+
+ is still clearly geometric. Rather, it seems that Heron wishes to transfer the bulk of the calculation to the
+
+ reader's imagination, leavingjust a divided line to record to essential relationships. This suits al-Samaw'al's
+
+ purposes particularly well here, since he conjures up calculations beyond the reach of plane geometry,
+
+ involving third and fourth powers.
+
+ 17 An intermediate paraphrase, in the style of our other first paraphrases, may be obtained by reversing
+ these substitutions. Thus, the statement would become ab3 = ac3 + cb3 + 3(ac.cb2 + cb.ac2) and so on.
+
+ <£] Springer
+
+This content downloaded from 203.78.15.150 on Mon, 18 May 2020 09:13:02 UTC
+All use subject to https://about.jstor.org/terms
+
+ 548
+
+ S. Bajri et al.
+
+ <
+
+ "c*v uy\f
+ — ~ ^ u
+
+ I >\ffKA*S(9
+
+ J t—c/'-^J^c) ^ J hj*~\)' w^C-'
+
+ Fig. 7 Diagram accompanying proposition 4 in Aya Sofya 2718
+
+ each one of the two parts by the cube of the other part taken four times and the product
+
+ of the square of one of them by the square of the other taken six times (Fig. 7).
+ Its example: When a number AB is divided into two parts, and they are AC and CB
+ (see the manuscript diagram in Fig. 7), then the square square of A Β is equal to the
+ square square of AC and the square square of CB and the product of AC by the cube
+ of CB taken four times, and the product of CΒ by the cube of AC taken four times,
+
+ and the product of the square of AC and the square of CB taken six times.
+
+ Its demonstration: Indeed, the square square18 of Α β is the product of A Β by its
+ cube, and we explained in the previous proposition that the cube of Λ β is equal to
+ the cube of AC and the cube of CB and the product of AC by the square of CB
+ taken three times and the product of CΒ by the square of AC taken three times. The
+ product of A Β by any number is equal to the product of that number by AC and by
+ CB, therefore, the product of the cube of AC by AC, which is the square square of
+ A C, and by CB, and the product of the cube of C Β by C Β, which is the square square
+
+ of CB, and by AC, [and the product of the surface of the square of AC by C Β taken
+ three times by AC and by CB]19 and the product of the surface of the square of CB
+ by AC taken three times by AC and by CB, is the square square of AB.
+ But, three times the product of the surface of the square of AC by CB by AC [is
+
+ equal to] three times the product of the cube of AC by Cβ. Similarly, three times the
+ surface of the product of the square of AC by C β by Ci? [is equal to] three times the
+
+ product of the square of AC by the square of CB. Similarly, three times the product
+ of the surface of the square of Cβ by AC by AC is equal to three times the product
+ of the square of AC by the square of CB. And three times the product of the surface
+ of the square of C5 by AC by Cβ is equal to three times the product of the cube of
+ Cfi by AC.
+
+ Therefore, the square square of Α β is equal to the square square of AC and the
+ square square of CB, and the product of AC by the cube of CB taken four times, and
+
+ the product of C Β by the cube of AC taken four times, and the product of the square
+
+ of AC by the square of CB taken six times, and this is what we wished to demonstrate.
+
+ 18 At this point in the proposition, al-Samaw'al switches to calling the fourth power by the 'arithmetical'
+
+ term نال تال (mal mal), instead of the 'geometrical' term مرح ربع (square square) used in the statement
+ of the proposition, even though he retains the term for square for the second power.
+
+ 19 For mathematical sense, we have inserted a term. Due to the fact that this phrase is almost identical to
+ the last, it seems plausible there has been some omission due to scribal oversight.
+
+ 4Ώ Springer
+
+This content downloaded from 203.78.15.150 on Mon, 18 May 2020 09:13:02 UTC
+All use subject to https://about.jstor.org/terms
+
+ Revisiting Al-Samaw'al's table of binomial coefficients.
+
+ 549
+
+ 2.2.10 Mathematical commentary
+
+ In this proposition, al-Samaw'al has retained the geometric notation used in proposi
+
+ tion 3. Thus, he repeats his diagram from the previous proposition (Fig. 6) and A Β once
+
+ again seems to signify a line segment. On the other hand, it is possible that his switch
+
+ part-way through the proof to the 'arithmetical' term mal mal for the fourth power
+
+ is an acknowledgement that square squares are hardly geometric. Our paraphrase in
+
+ terms of symbolic algebra uses the same conventions as in that proposition.
+
+ Paraphrase: I say that (a + b)4 = a4 + b4 + 4a b3 + 4ba3 + 6a2b2.
+ Demonstration We know that
+
+ (a + b)A = {a + b)(a + b)3
+
+ and we saw in proposition 3 that
+
+ (a + b)3 = a3 + b3 + 3 ab2 + 3 ba2
+
+ and we know that for any number χ we have (a + b)x = xa + xb. Therefore
+
+ a3 a + a3b + b3b + b3a + [(3 a2b)a + (3 a2b)b) + (3 b2a)a + (3b2a)b = (a + b)4
+
+ where a3a = a4 and b3b = b4.
+
+ But (3a2b)a = 3a3b. Similarly (3a2b)b = 3a2b2. Similarly (3b2a)a = 3a2b2 and
+ (3b2a)b = ?>b3a. Thus
+
+ (α + b)4 = a4 + b4 + 4 ab3 + Aba3 + 6 a2b2
+
+ which is what we wished to demonstrate.
+
+ 2.2.11 Al-Samaw'al's proposition five
+
+ The mal mal of the surface of any two numbers is equal to the surface of the mal mal
+ of each of them.
+
+ Let the numbers be the two numbers a and b and their surface be the number c. Then,
+
+ I say that the mal mal of c is equal to the product of the mal mal of a by the mal mal
+ of b.
+
+ Its demonstration: a is multiplied by itself to get d and a is multiplied by d to get e
+
+ and e is multiplied by a to get /, then / is mal mal of a.
+
+ Let b be multiplied by itself to get g and let g be multiplied by b to get h and h be
+
+ multiplied by b to get i, then i is mal mal of b.
+
+ c is multiplied by itself to get j and j is multiplied by c to get k and multiply k by c
+
+ to get /, then I is mal mal of c (see the manuscript diagram in Fig. 8).
+
+ Then, I say that I is equal to the surface of / and i.
+
+ Springer
+
+This content downloaded from 203.78.15.150 on Mon, 18 May 2020 09:13:02 UTC
+All use subject to https://about.jstor.org/terms
+
+ S. Bajri et al.
+
+ » jj*. » » * '
+
+ Fig. 8 Marginal diagram accompanying proposition 5 in Aya Sofya 2718 (rotated 90° clockwise). The
+ last row of line segments is labeled by a repeated Arabic word-perhaps qadr meaning magnitude—whose
+ significance is unclear to us
+
+ Therefore, because the two sides of c are the two numbers a and b, and the two sides
+
+ of j are the two numbers d and g, the squares, we obtain that the ratio of the surface
+
+ c to the surface j is compounded20 of the ratio of α to ci and the ratio of b to g.
+ But the ratio of a to d is equivalent to the ratio of d to e because the two numbers a
+ and d multiplied by a produce d and e.
+
+ And the ratio of b to g is equivalent to the ratio of g to h because the two numbers
+
+ b and g multiplied by the number b produce g and h.
+
+ [And the ratio of c to j is equivalent to the ratio of j to k because the two numbers c
+ and j multiplied by the number c produce j and A:].21
+
+ Therefore, the ratio of [j to k]22 is compounded of the ratio of d to e and the ratio of
+
+ g to h.
+
+ But j is the surface of d and g, so k is the surface of e and h.
+ This is evident from the converse of proposition 5 from Book VIII of The Elements,23
+
+ But, the ratio of d to e is equivalent to the ratio of e to / and the ratio of g to h is
+
+ equivalent to the ratio of h toi.
+
+ And the ratio of j to k is equivalent to the ratio of k to /.
+
+ Therefore, the ratio of k to / is compounded of the ratio of e to / and the ratio of h
+ to i.
+
+ But when e is multiplied by h we get k, so when / is multiplied by i we get I, and this
+ is what we wished to demonstrate.
+
+ 2.2.12 Mathematical commentary
+
+ First paraphrase: using modern symbols, but retaining his argument in terms of ratios.
+
+ Once again, referring to his diagram (Fig. 9) may help, as we shall see in Sect. 3.2.
+
+ Let the two numbers be a and b, and let their product be c.
+
+ Then I say that c4 = a4b4.
+
+ 20 8؛ماى> من ب a standard term for compounding ratios; ك
+ in the sense of Elements VIII,5.
+
+ 21 The mathematical argument is incomplete at this point. We have inserted this sentence, and modified
+ the following ratio, so that the argument conforms to the similar argument in the next paragraph.
+
+ 22 As indicated in the previous footnote, we have replaced the text's the ratio ء /٠ to ر' by the ratio ٠/ /■
+ to k.
+
+ 23 Elements VIII,5: Plane numbers have to one another the ratio compounded ofthe ratios ءءه/ه> sides.
+
+ â Springer
+
+This content downloaded from 203.78.15.150 on Mon, 18 May 2020 09:13:02 UTC
+All use subject to https://about.jstor.org/terms
+
+ Revisiting Al-Samaw'al's table of binomial coefficients.
+
+ 551
+
+ a d e f
+ a d e f
+
+ c j k I
+ c j k I
+
+ b g h i
+ b g h i
+
+ • • • • • •
+ • · · · · ·
+
+ mag mag mag mag
+ mag mag mag mag
+
+ Fig. 9 Transliteration of marginal diagram accompanying proposition 5, rotated clockwise 90°, and once
+
+ again preserving the 'alphabetic order' of the labels. The line segments in the bottom row have been labeled
+
+ mag to signify the conjectural translation magnitude
+
+ Demonstration Let a2 = d and ad = e and ae = /, so that / = a4.
+
+ And let b2 = g and bg — h and bh — i, so that i = bA.
+
+ And let c2 = j and cj = k and ck = I, so that / = c4.
+
+ Then I say that I = fi.
+
+ Since c = ab and j = dg, the ratio c : j is the ratio compounded of the ratios a : d
+
+ and b : g (Elements VIII,5).
+
+ e, respectively (Elements VII, 17).
+
+ But the ratio a : d is equal to the ratio d : e since a and d multiplied by a give d and
+
+ And the ratio b : g is equal to the ratio g : h since b and g multiplied by b give g and
+ h.
+
+ [And, the ratio c : j is equal to the ratio j : k since c and j multiplied by c give j and
+ k]
+
+ Therefore, the ratio [;' : k] is the ratio compounded of the ratios d : e and g : h.
+
+ But j — dg so k = eh, by the converse to Elements VIII,5.24
+
+ But the ratio d : e equals the ratio e : f,
+
+ and the ratio g : h equals the ratio h : i,
+
+ and the ratio j : k equals the ratio k : I.
+
+ Hence, the ratio k : I is the ratio compounded of the ratios e : f and h : i.
+ But k — eh so we get I = fi, which is what we wished to demonstrate.
+
+ Second paraphrase: using symbolic algebra and replacing ratios by fractions.
+
+ Since (ab)2 = a2b2, we know that
+
+ ab a b
+
+ (ab)2 a2 b2
+
+ But
+
+ a a2 b b2 ab (ab)2
+ ~cP" ~a} b2 = bi (^)2 = (^)3·
+
+ 24 In this context, Elements VIII,5 says that if j = dg and k = eh then the ratio j : k is the ratio
+ compounded of the ratios d : e and g : h. The converse needed here would say that, if the ratio j : k is
+ the ratio compounded of the ratios d : e and g : h and if j = dg, then k = eh. This converse is not in the
+ Elements.
+
+This content downloaded from 203.78.15.150 on Mon, 18 May 2020 09:13:02 UTC
+All use subject to https://about.jstor.org/terms
+
+ Springer
+
+ S. Bajrietal.
+
+ 552
+
+ Hence
+
+ Hence
+
+ But we know that (ab)2 = a2b2 so we must have (ai»)3 = a3fc3. Now
+
+ a2 a3 b2 b2, {ab)2 (ab)3
+
+ 0ab)2 _ a2 b2
+ (afr)3 a3 &3
+
+ (aè)3 a3 b3
+ (afc)4 = â4 ' M'
+
+ But we know that (abp = a3b3 so we must have (ab)4 = a4/?4.
+
+ Notice that the first half of this proof gives an alternative proof of proposition 2:
+
+ (afc)3 = a3fc3.
+
+ 2.2.13 Al-Samaw'al's on cases η = 5 and higher
+
+ By the same method, it can be demonstrated that the mal cube of the surface of any
+
+ two numbers is equal to the surface of the mal cube of one of them by the mal cube
+
+ of the other, and so on in increasing order.
+
+ For a person who understands what we have done then that person can demonstrate
+
+ that for any number divided into two parts the mal cube is equal to the mal cube of
+
+ each of the two parts and the product of each one by the mal mal of the other one taken
+
+ 5 times and (the product of) the square of each of them by the cube of the other taken
+
+ 10 times, and so on for the next ascending terms.
+
+ 2.2.14 Mathematical commentary
+
+ In symbolical terms, al-Samaw'al says that the same method (as in proposition 2 or
+
+ 5, presumably) can be used to show that
+
+ (ab)5 = a5b5.
+
+ Although it is not explicit, he also seems to claim that this same method will show the
+
+ general result (ab)n = anbn for η — 6, 7
+
+ Similarly, he says that anyone who has understood proposition 3 or 4 will also be
+
+ able to show that
+
+ (a + b)5 = a5 + b5 + 5 (ab4 + baA) + 10(α V + b2a3)
+
+ as well as the corresponding results for higher powers. At this stage, it is not clear
+
+ what those corresponding results are, but al-Samaw'al will tell us how to find out in
+
+ the following paragraphs.
+
+ Springer
+
+This content downloaded from 203.78.15.150 on Mon, 18 May 2020 09:13:02 UTC
+All use subject to https://about.jstor.org/terms
+
+ Revisiting Al-Samaw'al's table of binomial coefficients.
+
+ 553
+
+ flârn ri» in; v« re
+
+ triigj
+
+ jfo.W
+
+ Fig. 10 Diagram accompanying statement of binomial theorem in Aya Sofya 2718
+
+ 2.2.15 Al-Samaw'al's on how to construct the table
+
+ Let us now indicate a principle25 for knowing the number of times that are necessary
+
+ to multiply these powers26 by each other for any number divided into two parts.
+
+ Al-Karajï says: in order to achieve that, you place on a board27 one and one below it
+ (see the manuscript diagram in Fig. 10).
+ Then, move the (first) one into another column and add the (first) one to the one (that
+
+ was) below it, then there is two. Place it under it (the first one). Then, you place the
+ last one below it.
+
+ Then, there results one and two and one.
+
+ This shows you that for any number combined from two numbers, if you multiply
+ each of them by itself once, since the two ends are one and one, and if you multiply
+ one of them by the other twice, since the middle term is two, there results the square
+ of that number.
+
+ Then, we move the one from the second column to another column, and we add the
+ one to the two. There results three and we write it under the one. We add the two to
+
+ 25 The Arabie Word used here is اصلأ
+
+ 26 The Arabie Word invoked here (,martaba pl. maratib) means literally rank, grade, step, degree or levels,
+ so it is likely that there is a reference at least to the ordering we now represent by powers of an algebraic
+ symbol. See for instance Souissi (1969, p. 39-41) or Woepcke (1851, p. 6).
+
+ 27 This no doubt refers to the Arabie équivalent of a slate, a standard device for doing computations.
+
+ Ô Springer
+
+This content downloaded from 203.78.15.150 on Mon, 18 May 2020 09:13:02 UTC
+All use subject to https://about.jstor.org/terms
+
+ 554
+
+ S. Bajrietal.
+
+ the one below it, then we obtain three. We write it below the three. [Then, we place
+ the last one below it].
+
+ There results from this the third column, which is, individually: one and three and
+
+ three and one.
+
+ This teaches you that the cube of any number combined from two numbers is the
+
+ cube of each of them and the product of each of them by the square of the other taken
+ three times.
+
+ Then, we move the one from the third column to another column. Then, we add the
+
+ one to the three below it. There will be four. You write it below the one. Then, you
+ add three to the three below it. There will be six. You write it below the four. You add
+
+ the second three to the one. There will be four. You write it below the six. Then, you
+ move the one to under the four.
+
+ Then, there results from this another column, which is, individually: one and four
+
+ and six and four and one.
+
+ This teaches you that the construction of mal mal from a number combined from
+
+ two numbers is when you make the mal mal of each of them, because of the one at the
+
+ two ends, then you multiply each number by the cube of the other taken four times,
+
+ since the four follows as you come in from the two ends which are one and one, since
+
+ the root by the cube will be mal mal, then, you multiply the square of one of them by
+
+ the square of the other taken six times, since the six is the middle, and since the square
+
+ by the square is mal mal.
+
+ Then, you move the one from the fourth column into the fifth column. Then, you
+
+ add the one to the four below it, and the four to six below it, the six to the four below
+
+ it, and the four to the one below it. Then, you write down the results of that below the
+
+ one that was moved into the aforementioned adjacent (column) and you write after
+ this the remaining one.
+
+ We obtain from this the fifth column, its numbers: 1 and 5 and 10 and 10 and 5 and
+
+ 1.
+
+ This teaches you that for any number divided into two parts, its mal cube is equal to
+
+ the mal cube of each part, since the two ends are one and one, and the product of each
+
+ of them by the mal mal of the other taken 5 times, since fives are next as you come
+
+ in from the two end ones, and the product of the square of each one by the cube of
+ the other taken 10 times, since the numbers 10 are next after the two fives. Each one
+
+ from this group belongs to the type mal cube as the root by mal mal and the cube by
+
+ mal both give mal cube. By this procedure, one knows the number of times for mal
+
+ ing and cubing according to what result we want and here is its diagram (Table 2).
+
+ 3 Discussion
+
+ 3.1 Heritage versus development
+
+ This excerpt from Al-Bâhir is steeped in the tradition of classical Greek mathemat
+ ics. This can be seen in its mode of exposition, its reliance on Euclidean results,
+
+ its geometrical orientation, and the phrasing and grammatical conventions it often
+ exhibits. But in many respects, it is also emblematic of the ways in which Islamic
+
+ Springer
+
+This content downloaded from 203.78.15.150 on Mon, 18 May 2020 09:13:02 UTC
+All use subject to https://about.jstor.org/terms
+
+ Revisiting Al-Samaw'al's table of binomial coefficients.
+
+ 555
+
+ Table 2 Table of the
+ Table 2 Table of the
+
+ coefficients of the binomial
+ coefficients of the binomial
+
+ expression (a + b)n with η from
+ expression (a + b)n with η from
+ 1 to 12 in modern notation
+ 1 to 12 in modern notation
+
+ ,11 ,10 χ9 ,8 ,7 χ6 χ5
+ xn
+
+ X6 X5 x4
+
+ ,10
+
+ 1 1 1 111111111
+
+ 1 1
+
+ 1
+
+ 1
+
+ 1
+
+ 1
+
+ 1
+
+ 12 11 10 9 8 7 6 5 4 3 2 1
+
+ 9 8
+
+ 10
+
+ 11
+
+ 6
+
+ 5
+
+ 7
+
+ 66 55 45 36 28 21 15 10 6 3 1
+
+ 36 28
+
+ 55
+
+ 45
+
+ 21
+
+ 10
+
+ 15
+
+ 220 165 120 84 56 35 20 10 4 1
+
+ 56 35
+
+ 165
+
+ 120
+
+ 20
+
+ 84
+
+ 10
+
+ 495 330 210 126 70 35 15 5 1
+ 126 70
+
+ 330
+
+ 210
+
+ 35
+
+ 15
+
+ 5
+
+ 792 462 252 126 56 21 6 1
+ 1
+
+ 126 56
+
+ 252
+
+ 462
+
+ 21
+
+ 6
+
+ 924 462 210 84 28 7 1
+
+ 84 28
+
+ 462
+
+ 210
+
+ 7
+
+ 792 330 120 36 8 1
+ 1
+
+ 36 8
+
+ 120
+
+ 330
+
+ 9 1
+ 495 165 45 9 1
+
+ 165
+
+ 45
+
+ 220 55 10 1
+ 1
+
+ 55
+
+ 10
+
+ 1
+ 66 11 1
+ 11
+
+ 12 1
+ 1
+
+ 1
+
+ scholars were extending their results beyond this setting and propelling mathematics
+
+ in entirely new directions. In this way, the work can be considered as epitomizing
+
+ the transitional nature of mathematics during this period, in particular the blending
+
+ of the domains of arithmetic and geometry. Indeed, given these new ambitions for
+
+ mathematics, many of the imports from the original Greek setting become somewhat
+
+ less useful or even incompatible, particularly those terms which have explicit geomet
+
+ rical meaning. Indeed, in al-Samaw'al's account, we can directly appreciate how the
+
+ blending and synthesis of these concepts in new and unprecedented ways has given
+
+ rise to novel mathematical insights, such as his table of binomial coefficients. In this
+ section, we shall look at, on the one hand, al-Samaw'al's strict adherence to Euclidean
+
+ conventions for demonstrations, and on the other hand, his insightful use of algebraic
+
+ terms applied to geometry and arithmetic.
+
+ 3.1.1 Heritage: the art of deduction
+
+ The influence of Greek geometrical practice is appreciable both explicitly and implic
+
+ itly. Al-Samaw'al explicitly refers to Euclid's Elements only once in this extract (the
+ reference to proposition 1 of Book II, during the demonstration of proposition 3)
+
+ although it is used again without direct reference during the demonstration of his
+
+ proposition 4.28 However, al-Samaw'al's mode of expression harks back to Euclidean
+
+ writing,29 with each of his propositions following a structure similar to that which
+
+ Proclus observed in his commentary on Book I of the Elements.30 Thus, if we follow
+
+ 28 One other reference occurs during the demonstration of al-Samaw'al's proposition 5, where he mentions
+
+ the converse of proposition 5 from Book VIII, a converse not mentioned by Euclid.
+
+ 29 This is typical of Islamic authors. For other examples which have been analyzed in similar ways, see,
+ for instance, Oaks (2011) and the study of Abu Kâmil.
+
+ 30 We follow Heath's translation in Heath (1956, pp. 129-130). Netz gives an example of Proclus' divisions
+ applied to a Euclidean proposition in Netz (1999, pp. 9-11).
+
+ â Springer
+
+This content downloaded from 203.78.15.150 on Mon, 18 May 2020 09:13:02 UTC
+All use subject to https://about.jstor.org/terms
+
+ 556
+
+ S. Bajri et al.
+
+ proposition 1 as a typical example, al-Samaw'al's propositions begin with a statement
+
+ of the general result in rhetorical form:
+
+ (For) any four numbers, the product of the surface of the first and the second by
+
+ the surface of the third and the fourth is equal to the product of the surface of
+
+ the first and the third by the surface of the second and the fourth.
+
+ This corresponds to Proclus' enunciation, which is supposed to state what is given and
+
+ what is sought, but which also (as Heath observes) does this in quite general terms.
+
+ Next al-Samaw'al makes this general statement more concrete (this is Proclus' setting
+
+ out) by assigning names to any quantities mentioned:
+
+ Let us consider four numbers a, b, c, d, and let us multiply α by b to get e, and let
+
+ us multiply a by c to get [/, and let us multiply b by d to get] g. Let us multiply
+
+ c by d to get h.
+
+ As in the Elements, the names can be either single letters (as in propositions 1, 2
+
+ and 5) or paired letters representing a line segment (as in propositions 3 and 4). In
+
+ propositions 3 and 4 al-Samaw'al labels this step Its example?1 but there is no such
+
+ indication in propositions 1,2 and 5. Following this naming of quantities, al-Samaw'al
+
+ then restates the claim of the proposition in terms of these named quantities, often
+
+ opening with a characteristic phrase echoing Euclid's own usage, the use of the first
+
+ person singular statement (our italics):
+
+ Then I say that the product of e and g is equal to the product of / and h.
+
+ This corresponds to Proclus' definition or specification and Heath sees these last
+
+ two steps as a way of better focusing the reader's attention (Heath 1956, p. 130).
+
+ However, Netz (1999, Chapter 6) sees these first three steps as a way of stating a
+
+ general result of potentially infinite scope (the enunciation) before reducing the task
+
+ to proving a specific typical case (the setting out and its consequential definition).
+
+ Al-Samaw'al usually labels the next section as Its demonstration}2 Here, typically,
+
+ a chain of reasoning is built (Proclus' demonstration or proof33) culminating in a
+
+ restatement of the original claim (Proclus' conclusion).
+
+ Its demonstration: When the number a is multiplied (respectively) by the two
+
+ numbers b and c, then there results from the multiplication the two numbers e
+
+ and /. Then, the ratio of e to / is the same as the ratio of b to c. Moreover, when
+
+ the number d is multiplied (respectively) by the two numbers b and c, then there
+
+ results from the multiplication the two numbers h and g. Then, the ratio of h to
+
+ g is the same as the ratio of b to c. We know that the ratio of e to / is the same
+
+ 31 Proclus' word to describe this stage is ekthesis. In Arabic, al-Samaw'al marks it using the word: mithâl
+
+ (a noun that means 'example' or 'instantiation').
+
+ 32 Proclus' word to describe this section is apodeixis. In Arabic, al-Samaw'al marks it using the word
+
+ burhan (a noun meaning demonstration, proof) from the verb barhana, to prove, demonstrate.
+
+ 33 For a discussion on the translation as apodeixis as 'demonstration' rather than 'proof' see Catton and
+
+ Montelle (2012, p. 27ff).
+
+ Ô Springer
+
+This content downloaded from 203.78.15.150 on Mon, 18 May 2020 09:13:02 UTC
+All use subject to https://about.jstor.org/terms
+
+ Revisiting Al-Samaw'al's table of binomial coefficients.
+
+ 557
+
+ as the ratio of b to c. Then, the ratio of e to / is the same as the ratio of h to g.
+
+ Then, the surface34 of e and g is equal to the surface of / and h.
+
+ Often the logical steps rely on propositions from Euclid's Elements but, following
+
+ Euclid's own custom, this reliance is not usually explicit.35 The completion of the
+
+ demonstration is then announced in a phrase echoing Euclid's what it was required to
+ demonstrate,36
+
+ So al-Samaw'al is in many ways emblematic of the indebtedness of the Arabic
+
+ scholars to the Greek tradition of exposition and demonstration. There is no doubt
+
+ that he and his predecessors were well versed in the deductive style of mathematics
+
+ of Euclid from reading Arabic versions of the Elements.
+
+ 3.1.2 Developments for algebraic powers applied to arithmetic and geometry
+
+ On the other hand, al-Samaw'al's treatment of algebraic products and powers is part
+
+ of a story of continual revision and development, with his Arabic predecessors trans
+
+ forming and building on ideas inherited from Euclid and Diophantus.
+
+ Arabic mathematicians developed a notion of number in various ways from Greek
+
+ conceptions, sometimes conflating the domains of geometry and arithmetic in both
+
+ nuanced and direct manners. For instance, al-Khwârizmï (b. ca. 780) used what H0yrup
+
+ (2002, p. 412) would call naive, or cut-and-paste, geometrical demonstrations to val
+
+ idate his algebraic procedures (Oaks 2011). Later, Thâbit ibn Qurra (b. 836) would
+
+ use Euclidean geometry to justify al-Khwârizmï's algebraic rules (H0yrup 2002, p.
+
+ 412). On the other hand, Abu Kâmil (b. ca. 850) used both geometrical and arithmetical
+
+ 'proofs' alongside one another (Oaks 2011). Typically, this dual approach offered geo
+
+ metrical demonstrations, in the style of al-Khwârizmï, for specific calculations (such
+
+ as V9 · V4 = V9 · 4) but gave arithmetical demonstrations, in the style of Euclid's
+
+ material on number theory, for general results (such as Ja ■ *Jb = -Ja ■ b). Later
+
+ still, al-Khayyâm (b. 1048) was dedicated to the notion that number could only be a
+ positive integer, and held firm to the Aristotelian conviction that quantity was either
+
+ discrete or continuous. Consequently, for him, because algebra allowed both frac
+
+ tions and irrational roots, it belonged in toto to the domain of geometry (Oaks 2011,
+
+ p. 62).
+
+ As we shall see, al-Samaw'al also retains remnants of Greek conceptions while
+
+ adopting and extending the more developed notions of his direct predecessors. This is
+
+ most noticeable in al-Samaw'al's conflation of numerical and geometrical magnitudes.
+
+ To some extent, Euclid himself began this process with his definitions of plane and
+
+ solid numbers and their sides in Elements VII. We see a similar usage by al-Samaw'al
+
+ in proposition 5 above, where he says that the two sides of c are the two numbers a and
+
+ b and then goes on to talk of the surface c (formed from a and b). But al-Samaw'al goes
+
+ 34 Notice that al-Samaw'al uses the word surface here as a synonym for the word product which appeared
+
+ in the definition or specification earlier in the demonstration.
+
+ 35 For example, in this case, al-Samaw'al has used either Elements VI, 1 or VII, 17 to derive the equivalence
+
+ of the ratios e to / and b to c. He has also used Elements V,11 and either VI,16 or VII,19.
+
+ 36 For example, see Heath (1956, p. 248).
+
+ â Springer
+
+This content downloaded from 203.78.15.150 on Mon, 18 May 2020 09:13:02 UTC
+All use subject to https://about.jstor.org/terms
+
+ 558
+
+ S. Bajri et al.
+
+ Table 3 Al-Samaw'al's
+ Table 3 Al-Samaw'al's
+
+ terminology for geometrical and
+ terminology for geometrical and
+
+ algebraic terms applied to
+ algebraic terms applied to
+ arithmetic
+ arithmetic
+
+ Arabic
+ Arabic
+
+ English Symbolic
+ Symbolic
+ English
+
+ dil', shay', orjadhr
+ diV, shay', orjadhr
+
+ side, thing, root x
+ side, thing, root χ
+
+ mal, murabba', or majdhur
+ mal, murabba', or majdhur
+
+ mal, square, radicand x2
+ mal, square, radicand χ2
+
+ muka "ab
+ muka "ab
+
+ mal muka 'ab
+ mal muka 'ab
+
+ mal mal, or muraba' muraba'
+ mal mal, or muraba' muraba'
+
+ cube x3
+ cube χ3
+
+ square-square *4
+ square-square x4
+ square-cube x5
+ square-cube χ5
+
+ further. For instance, he uses two distinct terms to express the concept 'product.' The
+
+ first is 'darb' which is from the verb 'to multiply', usually used in a general context,
+
+ particularly arithmetic. The second, however, has geometric origins; 'musattah' which
+
+ he uses to express the product literally translates as 'surface.' Despite these different
+
+ origins, for al-Samaw'al these words are synonyms, as we see by the substitution of
+
+ one for the other in the setting out and final conclusion of proposition 1 above. On
+
+ the one hand, all such calculations yield numbers, as we see in proposition 2 where
+
+ he multiplies by the surface of c and d, I mean by the number g. But on the other
+
+ hand, the geometric meaning allows him to quote the geometric Elements 11,1 in an
+
+ arithmetic context like proposition 3.
+
+ Why keep two different words for what had become the same concept? Having
+
+ two words for multiplication may have been helpful in following the rhetoric of the
+
+ many repeated multiplications in these propositions. For example, in proposition 1,
+
+ the careful use of both words in the product of the surface of the first and the second
+
+ by the surface of the third and the fourth gives a structure to the statement that might
+ not be so apparent if all the multiplications were simply products. A similar usage in
+
+ proposition 4: the product of the surface of the square of AC by C Β by AC, makes
+
+ it clear that the choice of word was not driven by any geometric imagery. This use
+
+ of language shows how transitional this way of mathematical thinking was, as al
+
+ Samaw'al and his contemporaries shifted to an orientation where the ties to geometry
+
+ were increasingly less useful.
+
+ Al-Samaw'al's algebra is purely rhetorical and, in particular, he has no symbolism
+
+ to denote the algebraic powers which appear in these propositions. For the reader's
+ convenience, Table 3 summarizes al-Samaw'al's terminology for geometrical and
+
+ algebraic terms applied to arithmetic, along with their English and modern symbolic
+
+ equivalents.
+
+ When it comes to these higher algebraic powers, it is well known that Arabic math
+
+ ematicians introduced new terminology37 which had a greater degree of generality
+
+ than ever before. The names of the simplest powers of an unknown quantity (number
+
+ or length) have come down to us from al-Khwàrizmï (2009, p. 96): the unknown quan
+
+ tities themselves are called root, side or thing, while an unknown quantity multiplied
+
+ by itself is called mâ/38 (an arithmetical term) or square (its geometric equivalent).
+
+ 37 See for instance, Berggren (2003, pp. 102-103) or (2007, pp. 542-544).
+
+ 38 In Arabic JU. See the column headers in Fig. 10.
+
+ Ô Springer
+
+This content downloaded from 203.78.15.150 on Mon, 18 May 2020 09:13:02 UTC
+All use subject to https://about.jstor.org/terms
+
+ Revisiting Al-Samaw'al's table of binomial coefficients.
+
+ 559
+
+ Later writers expanded this vocabulary. Abu Kâmil (2012, pp. 444, 454, 478) uses
+
+ cube39 (a thing multiplied by a square), square-square (a square multiplied by itself),
+ cube-cube (a cube multiplied by itself) and square-square-square-square (a square
+
+ square multiplied by itself). There does not, at this stage, seem to be any systematic
+
+ generation of these powers, in that names seem to grow by concatenation as products
+ appear in algebraic calculations, typically expansions of squared binomials. Laws
+
+ involving products of these powers are certainly known, presumably from adding up
+
+ the number of factors involved. For example, Abu Kâmil knows that multiplying cube
+
+ by square gives the same as multiplying square-square by thing (Abu Kâmil 2012, p.
+ 454), but this product does not seem to have a standard name. Such standard names
+
+ seem to appear with the translation of Diophantus into Arabic. Thus, al-Karajï adopts
+
+ Diophantus's name square-cube for the product just mentioned, but whereas Diophan
+
+ tus's powers were generated from the products mentioned in their names Diophantus
+ of Alexandria (1893, pp. 2-5) (as with Abu Kâmil's names above), al-Karajï also
+
+ defines his powers by the successive addition of another single factor thing (Woepcke
+
+ 1982, p. 48). With this idea, he extends Diophantus's list (which went up to what
+
+ we would now call the sixth power) so that it includes powers up to the ninth power,
+
+ while retaining Diophantus's naming strategy of combining square's and cube's. Al
+
+ Samaw'al follows this tradition, and the top row of his table of binomial coefficients
+
+ (Fig. 10) shows names that go up to the twelfth power. However, it is important to note
+
+ that, with this naming system, the recursive relationship between successive powers
+ is not visible numerically (as we might now see in the numerical index of an jc",
+
+ for example). Indeed, this relationship is effectively obscured by having the powers
+
+ expressed as the appropriate combinations of square and cube. In the next section,
+
+ we shall see how al-Samaw'al removes this obscurity with the help of diagrams and
+
+ tabular arrays.
+
+ 3.2 The role of diagrams
+
+ There are two different traditions of diagrams represented in the text. The first, with
+
+ each number represented as a lettered line segment, is seen in propositions 1, 2 and
+
+ 5 (see Figs. 1, 3, 8). This is arguably the most common in the Arabic tradition of
+ diagrams and is in essence similar to Euclidean practice. In the second group of
+ diagrams, an initial sum is represented as a partitioned and lettered line segment, but
+
+ all other numbers involved in the proposition are omitted. These simple diagrams are
+
+ seen in propositions 3 and 4 (see Figs. 5, 7). Such diagrams can be traced back to
+
+ Heron's proofs 'without a diagram' in his commentary on book II of the Elements,
+
+ which al-Samaw'al was possibly familiar with, as we said earlier, through al-Nayrizi's
+
+ commentary (Lo Bello 2009). Al-Samaw'al's use of diagrams in this section thus is
+
+ another example of the way in which he both follows and adapts earlier Greek usage (in
+
+ particular Euclid's use of diagrams in the arithmetical books (VII to IX) of the Elements
+
+ وأ In Arabie مكعب See the column headers in Fig. 10.
+
+ â Springer
+
+This content downloaded from 203.78.15.150 on Mon, 18 May 2020 09:13:02 UTC
+All use subject to https://about.jstor.org/terms
+
+ 560
+
+ S. Bajri et al.
+
+ Fig. 11 Transliteration of
+ Fig. 11 Transliteration of
+
+ diagram accompanying
+ diagram accompanying
+
+ proposition 1. The top row
+ proposition 1. The top row
+
+ represents four given numbers,
+ represents four given numbers,
+
+ while the bottom row represents
+ while the bottom row represents
+
+ the relevant pairwise products of
+ the relevant pairwise products of
+ these numbers
+ these numbers
+
+ Fig. 12 Transliteration of
+ Fig. 12 Transliteration of
+
+ diagram accompanying
+ diagram accompanying
+
+ proposition 2. Powers of c and
+ proposition 2. Powers of c and
+
+ d, increasing from right to left,
+ d, increasing from right to left,
+
+ appear in the top and bottom
+ appear in the top and bottom
+
+ rows, respectively
+ rows, respectively
+
+ h 2_
+
+ which he would have seen in Arabic translation).40 Like Euclid, al-Samaw'al makes
+
+ no comment about his diagrams and, in both cases, the diagrams appear at first sight
+
+ to be an unstructured display of the numbers discussed in the relevant proposition.
+
+ However, we shall see that some features of al-Samaw'al's diagrams reflect important
+ relationships between these numbers and that similar structures can be found in some
+
+ Euclidean diagrams. In the absence of an abstract symbolic notation for the unknown
+
+ and its various powers, the alignment and 'flow' of such arrays function as a shorthand
+
+ for the processes of reasoning, offering a comprehensive view of the mathematical
+
+ relations of the proposition.
+
+ The diagram accompanying proposition 1 consists of two rows of lettered line
+ segments (Fig. 11). The letters correspond to the various numbers discussed in the
+
+ proposition, and as in Euclidean practice (Netz 1999, p. 71), they are named in alpha
+
+ betic order as they arise during the demonstration. Thus, four arbitrary numbers, a, b,
+
+ c and d, are listed in order in the top row, while the relevant products of pairs of these
+
+ numbers, e = ab, f — ac, g = bd and h = cd, are listed in the bottom row.41 It is
+
+ tempting to imagine a teacher drawing and labeling each line as each new number is
+
+ encountered during the demonstration.
+
+ The diagram associated with proposition 2 seems to have been constructed in the
+
+ same way (Fig. 12). Thus, the proposition claims that (erf)3 = c3d3 and the diagram
+
+ Ô Springer
+
+This content downloaded from 203.78.15.150 on Mon, 18 May 2020 09:13:02 UTC
+All use subject to https://about.jstor.org/terms
+
+ 40 Heath (1956), and Euclid (1883-1916) before him, are not reliable witnesses to the manuscript tradition
+
+ regarding diagrams. Forthe Elements, we shall rely on the witness of the Tehran manuscripts of the Elements
+
+ in Arabic, as well as the more readily accessible Bodleian manuscript. For Al-Bâhir, we refer to the Aya
+
+ Sofya 2718 manuscript since this is the only manuscript with completed diagrams.
+
+ 41 Just as in Arabic writing, these diagrams are usually read from right to left.
+
+ Revisiting Al-Samaw'al's table of binomial coefficients.
+
+ 561
+
+ shows the numbers constructed as we go through the demonstration. Again, alphabetic
+ order indicates the order in which the numbers are named or constructed. Thus, al
+
+ Samaw'al begins by naming the cubes (a = c3 and b = d3) and their corresponding
+ sides (c and d). He then constructs the corresponding squares (e = c2 and / = d2)
+
+ and finally constructs the products of the two sides (g = cd) and of the two cubes
+ (h = ab).
+
+ However, this diagram seems to be not just recording these quantities but also
+
+ highlighting the key relationships between them. Thus, the top and bottom rows list
+
+ the increasing powers of the basic quantities c and d, and the columns seem to group
+
+ them according to their degrees. For example, linear quantities (c and d) are shown
+ in the first (right-most) column, quadratic quantities (e = c2 and / = d2) in the
+ second column (from the right) and cubic quantities (a = c3 and b = d3) in the third
+
+ column. The products (g = cd and h = ab) are drawn at a level between the two rows,
+
+ perhaps symbolizing a mixture, and in the same degree-based order, but their exact
+
+ placement (with h further to the left and the line for g drawn horizontally instead of
+
+ vertically) suggests a looser connection to the other components of the diagram. Thus,
+
+ this diagram is carrying some of the information that nowadays we would record in
+ the algebraic symbolisme2, d2, c3, d3, cd and (cd)3.
+
+ By contrast, al-Samaw'al's diagrams for propositions 3 and 4 (the binomial expan
+ sions for η = 3 and η = 4) consist of a single line segment A Β representing the
+ number that has been divided into two parts AC and CB (Fig. 6). Such diagrams
+ would probably have been familiar from Heron's commentary on book II of the Ele
+
+ ments (Lo Bello 2009). Perhaps understandably there is no attempt to extend Euclid's
+
+ partitioned square which illustrates his demonstration of the case η = 2 (Elements II,
+
+ 4). The extension of algebra to higher powers has made such a diagram either difficult
+
+ (for proposition 3) or impossible (for proposition 4) to draw. By using a divided line
+
+ to record essential relationships, al-Samaw'al can transfer the bulk of the calculations
+
+ (applications of what we would call the distributive law) to the reader's imagination,
+
+ thus helping the reader through calculations which reach beyond plane geometry,
+ involving third and fourth powers.
+
+ Al-Samaw'al's diagram for proposition 5 (which, in modern terms, asserts that
+ (ab)4 = a4b4) has a similar (but not identical) structure42 to the one we saw for the
+
+ related proposition 2 (which says that (cd)3 = c3d3). Again the numbers are labeled
+
+ alphabetically in the order in which they arise in al-Samaw'al's exposition. Thus, al
+
+ Samaw'al begins by naming the numbers (a and b) and their product c = ab. He then
+
+ constructs the relevant powers of a (namely, d = a2, e = ad = a3 and / = ea = a4),
+
+ and of b (namely, g = b2, h = gb = b3 and i — hb = b4), and of c (namely, j = c2,
+
+ k = jc = c3 and I = kc = c4). Notice that, by naming these numbers in this order,
+
+ and then building this order into his diagram, he encodes the relationships between
+
+ successive powers, and then displays these relationships in a way which helps the
+
+ reader to 'see' the ordering which we would now encode using algebraic symbolism
+
+ 42 This time the whole diagram, letters as well as lines, has been rotated 90° to fit in the margin of the
+
+ manuscript. Unlike the diagram for proposition 2, all the lines are horizontal, allowing the structure of the
+
+ c = ab row to follow that of the a and b rows. The blank space for this diagram in the Esat Efendi 3155
+ manuscript is a similar shape and so was presumably intended to hold a similarly rotated diagram.
+
+This content downloaded from 203.78.15.150 on Mon, 18 May 2020 09:13:02 UTC
+All use subject to https://about.jstor.org/terms
+
+ Springer
+
+ 562 S. Bajri et al
+
+ a d e f
+ a d e f
+
+ • • • • • •
+ • · · · · · · ·
+
+ c j k I
+ c j k l
+
+ • · · · · · · ·
+
+ b
+ i
+ b g h i
+
+ h
+
+ 9
+
+ Fig. 13 Transliteration of marginal diagram accompanying proposition 5, rotated clockwise 90°. Powers
+
+ of a, b and c = ab appear in the top, bottom and middle rows, respectively. The seemingly irrelevant bottom
+ row of Fig. 9 has been omitted
+
+ and our index notation for powers. This time though, unlike the situation we saw for
+
+ proposition 2, the diagram is read from left to right (as we follow increasing powers of
+
+ a, b and c)43 Furthermore, the structure of the diagram is much tighter, with entries
+
+ in each column all corresponding to the same power of a, b or c. Thus, the first and
+
+ third rows list the increasing powers of the basic quantities a and b, while the second
+
+ row lists the increasing powers of their product c = ab.
+
+ Diagrams like Figs. 12 and 13, where a two-dimensional array reflects a mathemat
+
+ ical structure within an arithmetical proposition, have antecedents in the manuscript
+
+ tradition of Euclid's Elements44 We shall content ourselves here with looking at two
+
+ propositions (VII,27 and VIII,2) where the reader is offered such structured diagrams.
+
+ As witnesses to the manuscript tradition, we shall use the Tehran Elements (xxxx) (as
+ evidence of the Arabic tradition) and the Bodleian Elements (xxxx) (from the Greek
+
+ tradition but more readily accessible than the Tehran manuscripts). Firstly, consider the
+
+ diagram accompanying proposition VII,27: if two numbers are prime to one another,
+
+ then so are their squares, and so are their cubes. Figures 14 and 15 show the rele
+
+ vant images from the above manuscripts, and Fig. 16 gives clearer drawings of each
+ diagram.
+
+ The setting out of this proposition says45
+
+ Let α, β be two numbers prime to one another, let a by multiplying itself make
+
+ γ and by multiplying γ make 8, and let β by multiplying itself make e, and by
+
+ multiplying e make ζ.
+
+ Thus, the proposition deals with numbers α, β and their squares and cubes. Euclid
+
+ constructs the powers of a first, γ — a2 and <5 = a3, and then of β, with e = β2 and
+
+ ζ = β3. The relationship between these powers is displayed clearly in the Bodleian
+
+ image. In Fig. 16 (right), these powers are displayed down the left and right columns
+
+ 43 This change of direction does not seem to be caused by the rotated orientation of the diagram, since the
+
+ letters (and so the actual page) have been rotated too. Perhaps this demonstration, and its diagram, comes
+
+ from a different source. This may help explain why al-Samaw'al offered two different demonstrations that
+ (cd)3 = c3d3 in propositions 2 and 5.
+
+ 44 This may come as a surprise for readers brought up on Heath's translation of Euclid's Elements (Heath
+
+ 1956), or indeed for those familiar with Heiberg's critical edition (Euclid 1883-1916), but neither author
+
+ seems to have been concerned to reproduce the original diagrams. For a discussion of why and how modern
+ editions do not contain accurate diagrams see Saito and Sidoli (2012) or De Young (2005).
+
+ 45 For the reader's convenience, we use Heath's translation but use the letters from the Bodleian manuscript.
+
+ This matches the original Greek lettering from Heiberg's edition, except that it uses lower case rather upper
+ case letters.
+
+ <£) Springer
+
+This content downloaded from 203.78.15.150 on Mon, 18 May 2020 09:13:02 UTC
+All use subject to https://about.jstor.org/terms
+
+ Revisiting Al-Samaw'al's table of binomial coefficients.
+
+ 563
+
+ Fig. 14 Diagram from the
+ Fig. 14 Diagram from the
+ Tehran Euclid's Elements VII,
+ Tehran Euclid's Elements VII,
+ 27
+ 27
+
+ Fig. 15 Diagram from the
+ Fig. 15 Diagram from the
+ Bodleian version of Euclid's
+ Bodleian version of Euclid's
+
+ Elements VII, 27 in Greek
+ Elements VII, 27 in Greek
+
+ ?! î*
+
+ 11
+
+ ■■
+
+ . Uj*-|
+ . Uj*-^
+
+ i •t4vs** *
+ , ·ν!μ«t
+
+ U>t»rr''
+
+ ••ss»/ -
+
+ ET^Ct
+ flhjg*»
+
+ 3 cr> nnl
+ > w< nm
+
+ »
+ ι
+
+ crOT^*t>
+ rtrmrf*->
+ „,] ar-^o"
+ toi
+
+ .AO t
+ JU31 <*->
+
+ mtr- "V" VI
+ rtttr "T '5 'fi
+
+ t
+ *
+
+ o not
+ o'tOt
+
+ ! -tB p f. fJ "
+ ι *t» ρ t> « '"*
+
+ (respectively) and the relationships are further strengthened by numerical examples
+ (although these are almost certainly added by the scribal tradition since they are not
+ referred to in the text). The diagram in the Tehran image, Fig. 16 (left), has a similar
+ but looser structure, with the vertical flow broken somewhat by the squares being
+ displaced outwards, as if the Bodleian diagram had been squashed vertically. In both
+ cases, however, the structure of Fig. 16 closely parallels that in the first and third rows
+
+ of Fig. 13, although this times the line segments are vertical and increasing powers go
+
+ down the page.
+
+ Ô Springer
+
+This content downloaded from 203.78.15.150 on Mon, 18 May 2020 09:13:02 UTC
+All use subject to https://about.jstor.org/terms
+
+ 564
+
+ S. Bajri et al.
+
+ C  A
+ C  A
+
+ E
+ Ε
+
+ H
+ H
+
+ 16
+ 16
+
+ 64
+ 64
+
+ 27
+ 27
+
+ Fig. 16 (left) Diagram accompanying proposition VII, 27 in the Tehran Elements. The lines A Β and CD
+ Fig. 16 (left) Diagram accompanying proposition VII, 27 in the Tehran Elements. The lines A Β and CD
+ represent given co-prime numbers, Ε F and G H represent their respective squares, and IJ and Κ L represent
+ represent given co-prime numbers, Ε F and G H represent their respective squares, and IJ and Κ L represent
+ their respective cubes. The original lettering has been transliterated in accordance with the scheme in Table
+ their respective cubes. The original lettering has been transliterated in accordance with the scheme in Table
+ 1. fright) Transliteration of diagram accompanying Elements VII, 27 in the Bodleian. Powers of a and β
+ 1. fright) Transliteration of diagram accompanying Elements VII, 27 in the Bodleian, Powers of a and β
+ appear in the left and right columns, respectively. The diagram appears twice in the manuscript, once in
+ appear in the left and right columns, respectively. The diagram appears twice in the manuscript, once in
+ the margin of f.l37r and then within a space set aside in the text at the end of the demonstration on f,137v.
+ the margin of f.l37r and then within a space set aside in the text at the end of the demonstration on f,137v.
+ Greek letter numerals have been converted into modern Arabic numerals
+ Greek letter numerals have been converted into modern Arabic numerals
+
+ Fig. 17 Diagram from the
+ Fig. 17 Diagram from the
+ Tehran Euclid's Elements VIII, 2
+ Tehran Euclid's Elements VIII, 2
+
+ I bjleîôJ\u
+
+ L |1
+
+ β jUUsbb
+
+ h
+
+ ]>iUW^ii
+ l?oijt*jU
+
+ t
+ t oUh^jb
+
+ h
+ H
+
+ I
+ ι
+
+ if
+ \f
+
+ II
+
+ Our second example comes from Elements VIII,2 (to find numbers in continued
+
+ proportion, as many as may be prescribed, and the least that are in a given ratio).
+ Figures 17 and 18 show the relevant images from the above manuscripts. This time
+ the diagrams are essentially the same and Fig. 19 gives a clearer drawing of the
+ Bodleian diagram.
+
+ In this proposition, Euclid starts with two numbers α, β that are the least in the
+
+ given ratio. He then constructs three numbers in the continued proportion a : β, in
+ modern terms the numbers
+
+ Springer
+
+This content downloaded from 203.78.15.150 on Mon, 18 May 2020 09:13:02 UTC
+All use subject to https://about.jstor.org/terms
+
+ Revisiting Al-Samaw'al's table of binomial coefficients.
+
+ 565
+
+ Fig. 18 Diagram from the
+ Fig. 18 Diagram from the
+ Bodleian version of Euclid's
+ Bodleian version of Euclid's
+
+ Elements VIII, 2 in Greek
+ Elements VIII, 2 in Greek
+
+ 4Wsr6 [.<>y t
+
+ //•."Ό/ ·>»·>-· AWir^rpoji
+ * * *" T- *
+ » >- f i
+ • oirc- ] • t
+ • OiTC- j · !
+ ■ ■ i i
+ ί ί
+ r Ύηΐ ;.· ι . j
+ f> 'Tnt^ v i
+ <*r ,v : - 1
+ Ίμ* ί6·'} - *1 *·
+
+ *- ' ι
+
+ f': '' ;':0Srt;^
+
+ oi otiU i '
+ 01 Οΐφ
+ ' * r* t
+
+ i
+ I
+
+ ÎJ
+
+ 'î·' s» II
+ »t' s» 2.
+ j||: »« II h
+ "!<>' î« Il HI
+
+ ί* or>frî}J.
+ r» 0f» csrf |J. j
+
+ f It
+
+ ?«. < ,
+ '?!· * Λ
+
+ , i.ïVy
+
+ Si
+
+ *"01TT>«*> «
+ *Τ33Τ»<*>
+
+ , - r
+
+ <&Sf
+
+ jmp ~j
+ •»l<«» |
+ -J
+ Vjot
+ j
+
+ crl-l-oij,
+
+ ">>n<*'H-to>~'.-<r(rt> <, H <Jl4%«H -
+ ">>π<*·Μ-Ιο>ty-à g. ό-wft-ç Λ * .<£ oî<î
+
+ 3
+
+ 2
+
+ 3 2
+ 3 2
+
+ 9 6 4
+ 9 6 4
+
+ 27 18 12
+ 27 18 12
+
+ 27 18 12
+ 27 18 12 8
+
+ Fig. 19 Transliteration of
+ Fig. 19 Transliteration of
+ diagram accompanying
+ diagram accompanying
+ Elements VIII, 2 in the Bodleian
+ Elements VIII, 2 in the Bodleian
+ Euclid (1883-1916, f.l45r). The
+ Euclid (1883-1916, f,145r). The
+ numerical example has been
+ numerical example has been
+ repeated in a small array to the
+ repeated in a small array to the
+
+ right of the main diagram
+ right of the main diagram
+
+ Ô Springer
+
+This content downloaded from 203.78.15.150 on Mon, 18 May 2020 09:13:02 UTC
+All use subject to https://about.jstor.org/terms
+
+ γ = α2, δ — <χβ and e = β2.
+
+ Using these numbers, he then constructs four numbers in the same continued pro
+
+ portion, namely
+
+ ζ = αγ = α3, η — α<5 = α2β, θ = ae = αβ2, and κ = /Se = β3.
+
+ We see in Fig. 19 that the diagram records some of this structure, with the given
+
+ numbers α, β in the first row, the three numbers y, S, e in continued proportion in the
+
+ second row, and the four numbers ζ, η, θ, κ, in continued proportion in the third row.
+ Again numerical examples beside each line help to reinforce this structure. On the
+ surface at least, this diagram has similar themes to Fig. 12 with powers and products
+
+ displayed, but this time the rows of Fig. 19 represent separate sequences of numbers
+
+ in continued proportion rather than a conscious attempt to represent degree structure.
+ Similar diagrams, highlighting two-dimensional relationships between numbers,
+
+ were also used by al-Samaw'al's more immediate predecessors. For example, Fig. 20
+ shows a diagram used by Abu Kâmil in his Euclidean-style demonstration that if you
+
+ 566
+
+ S. Bajri et al.
+
+ Fig. 20 Transliteration of diagram accompanying Abu Kâmil's demonstration that the square root of a
+
+ product is the product of the square roots. The given numbers are a and b, and their respective square roots
+
+ are d and c. The product e = ab is placed between a and b, and its square root / = -Jab, and the product
+
+ of the roots g = s[a\fb, are both placed between the roots c and d. (Adapted from Oaks 2011)
+
+ multiply two numbers and then take the square root, then you get the same thing as the
+
+ product of the roots of the original numbers (Oaks 2011). Once again, the structure of
+
+ the diagram reflects some of the mathematical structure of the demonstration. Thus,
+
+ (following our convention for lettering) the given numbers b and a appear in the first
+
+ row, and their roots c = Vb and d = appear in the second row. The product e — ab
+
+ appears between b and a, as it did in our earlier diagrams for propositions 2 and 5 (see
+
+ Figs. 12,13), while its root / = Vab and the product of the roots g = Ja-Jb appear
+ in the second row between the roots c and d.
+
+ Finally, we note that the triangle (or Pascal Triangle) can be considered to be a
+
+ diagram too.46 This diagram presents the reader with a dilemma, since it needs to
+
+ be read in two different ways. Each column is constructed from top to bottom using
+
+ data from the previous column but, to be used as al-Samaw'al intended, each column
+ needs to be read from the outside ends inwards. Indeed, al-Samaw'al's statements for
+
+ propositions 3 and 4 both follow the latter order47
+
+ (a + b)3 = a3 + b3 + 3 (ab2 + ba2)
+
+ and
+
+ (a + b)4 = a4 + b4 + 4 (ab3 + ba3) + 6 a2b2
+
+ and it requires a special effort or insight to 'unfold' these expressions and see the
+
+ columns 1, 3, 3, 1 and 1, 4, 6, 4, 1 given in the table. Of course, these orderings
+
+ look obvious to us, at least partly because of our algebraic symbolism. In pre-symbolic
+
+ times, it might not have been so obvious, with the rhetorical fluency of (the equivalent
+
+ of) a4 + b4 + 4(ab3 + ba3) + 6a2b2 providing a counter-current to the influence of
+
+ degree diagrams like the one discussed earlier. These competing views of the binomial
+
+ 46 See Dôrfler (2004) where Dôrfler argues for a broader meaning for the term 'diagram' and discusses the
+
+ role of these more general 'inscriptions' in mathematical reasoning.
+
+ 47 Our modern algebraic symbolism is a little misleading here. For example, it forces us to identify the
+
+ individual parts a and b when the rhetorical form finds a way of mentioning the symmetric roles of each
+
+ part without naming either of them: (When) any number is divided into two parts, then its cube is equal
+
+ to the sum of the cubes of its two parts and the product of each of its parts by the square of the other part
+ taken three times.
+
+ Ô Springer
+
+This content downloaded from 203.78.15.150 on Mon, 18 May 2020 09:13:02 UTC
+All use subject to https://about.jstor.org/terms
+
+ Revisiting Al-Samaw'al's table of binomial coefficients... 567
+
+ Fig. 21 Al-Samaw'al's table of powers in Aya Sofya 2718
+ Fig. 21 Al-Samaw'al's table of powers in Aya Sofya 2718
+
+ Table 4 Al-Samaw'al's table of powers (Ahmad and Rashed 1972, p. 21)
+ Table 4 Al-Samaw'al's table of powers (Ahmad and Rashed 1972, p. 21)
+
+ 7 654321 01 2345 6 7
+ 7 654321 01 2345 6 7
+
+ mal cube mal mal cube mal thing unit part part part part part part part
+ mal cube mal mal cube mal thing unit part part part part part part part
+
+ mal cube cube mal thing mal cube mal mal cube mal
+ mal cube cube mal thing mal cube mal mal cube mal
+
+ cube mal cube cube mal
+ cube mal cube cube mal
+
+ 128 64 32 16 8 4 2 1 \ 1 \ H H H HI
+ 128 64 32 16 8 4 2 1 \ 1 \ H H H
+ 2187 729 243 81 27 9 3 1 i \
+ 2187 729 243 81 27 9 3 1 i \
+
+ cube
+
+ We have retained his rhetorical names for the powers. Thus, thing is what we would now call x, mal is
+ x2·, cube is x3 and so on. Reciprocals are indicated by part. We have also retained the factorizations in his
+ numerical examples. Notice that in the case χ = 2 these factorizations mirror the names of the powers. To
+ save space, we have omitted the two outermost columns at each end of the table, corresponding to the 8th
+ and 9th powers
+
+ expansions make al-Karajï's achievement all the more impressive. To construct the
+ triangle, he not only had to notice that the column entries arose from calculations like
+ 3+1=4 (done twice) and 3 + 3 = 6, done in no particular order, but also had to
+ observe that following some variation of degree order (for example, making the rows
+ of the triangle correspond to the degree of the second term) made those calculations
+ follow a simple pattern.
+
+ As we have seen, al-Samaw'al's rhetorical rendering of his quantities (square, cube,
+ square-square, and so on; see Table 3) does not easily indicate the various mathematical
+
+ relationships between them (there is no 'obvious' mathematical relationship between
+ the words 'cube' and 'square-square,' for instance). However, he does show an inno
+ vative attempt to present his quantities in a manner which demonstrates more clearly
+
+ the mathematical relations between his objects. This is not by symbolic representation,
+ but rather by diagrammatic arrays in which mathematical relations are embodied via
+ the relative spatial positioning of their contents. This can be seen most distinctly in
+
+ his diagram in the first chapter of the first section of Al-Bâhir, in which he presents a
+ diagrammatic array of his unknown quantities, arranged in successive 'powers' (see
+ Fig. 21; Table 4).
+
+ Along the top row are numbers, this time in abjad form: Ό' is in the middle,
+ and to the left and to the right, the numbers increase by one (up to 9). These are
+
+ Springer
+
+This content downloaded from 203.78.15.150 on Mon, 18 May 2020 09:13:02 UTC
+All use subject to https://about.jstor.org/terms
+
+ 568
+
+ S. Bajri et al.
+
+ effectively the 'indices' for the increasing degrees of his unknown quantities, although
+
+ he has no means to tag these on to a symbolic token for the unknown (such as we are
+
+ familiar with today in expressions such as xn). Instead, their relations are exhibited by
+
+ means of a tabular array. In the row underneath these numbers are listed al-Samaw'al's
+
+ rhetorical expressions for each of his quantities. Under zero is placed the word for 'one'
+
+ or 'unit' (to represent our equivalent λ:0), and then proceeding leftwards, under the
+
+ glyph Ί,' the Arabic shay (equivalent to xl), under the glyph '2,' the Arabic word
+
+ mal (equivalent to x2) and so on. Proceedings rightwards, he lists his terminology
+
+ for successive fractional powers of his quantities. This diagram, then, is directed at
+
+ capturing relations between his quantities spatially. The relations are captured not by
+
+ symbolic markers, but rather by relative positioning. Furthermore, one reasons not
+
+ via numerical-symbolic manipulations, but rather diagrammatically.48 As one moves
+
+ to the left or right in the diagram, one detects and establishes relationships between
+
+ the quantities, as al-Samaw'al himself explains to his readers when describing how to
+
+ multiply these powers (Berggren 2003, p. 114).
+
+ This principle can also be applied to his diagrams in our passages in question. This
+
+ can be seen most prominently in the table of binomial coefficients itself, the spatial
+
+ arrangement and alignment of whose entries contain multiple mathematical relation
+
+ ships and can be 'read' in various directions. However, this principle is also invoked
+
+ in the diagrams accompanying his propositions. Letters which symbolize the various
+
+ quantities in al-Samaw'al's propositions have been placed in a diagrammatic array
+
+ which preserves mathematical relations. For instance, in the diagram accompanying
+
+ proposition 5 (Fig. 13) along the top line, we have presented the letters a, d, e, f,
+
+ which, as the text reveals, are successive powers of a. This is the same in the second
+
+ and third row, but rather with successive powers of c and b, respectively. In addition,
+
+ reading vertically down the first column, we have a, c, b. However, c is also the prod
+
+ uct of a and b, so that the essence of the proposition (i.e., that c4 = (ab)4) is captured
+
+ visually by the respective arrangements of the three rows. Therefore, the reasoning set
+
+ out in the text is captured and can be followed diagrammatically in the array.49
+
+ Thus, al-Samaw'al offers a rendering of quantities and their relations which is in
+
+ many senses more mathematically descriptive than the rhetorical means he invokes, but
+
+ quite different to the symbolic representations of unknown quantities which are famil
+
+ iar to us. He represents relationships by spatial arrangement on the page, presenting
+
+ quantities and their mutual relations diagrammatically so that they can be understood
+
+ as one moves vertically or horizontally within the diagram. In the next section, we
+
+ shall consider how these structured diagrams might have helped al-Samaw'al's readers
+ to follow the rhetoric of his demonstrations.50
+
+ 48 Within a century of so, Ibn al-Bannâ' was offering a rule for calculating the 'exponent' of a term and
+
+ observing that you add exponents when you multiply different terms together Ibn al-Bannâ' (1969). We
+
+ would like to thank the referee for pointing out this reference to us.
+
+ 49 It is true that none of the above-mentioned authors (Euclid, or his Bodleian or Tehran copyists, or
+ Abu Kamil, or al-Samaw'al himself) makes any comment about this use of their diagrams. However, the
+
+ consistency of practice across time and cultural differences makes it unlikely that the observed structure is
+ accidental.
+
+ 50 Of course, the structured diagrams discussed above may also have helped Euclid's and Abu Kâmil's
+ readers (Oaks 2011) too.
+
+ Ô Springer
+
+This content downloaded from 203.78.15.150 on Mon, 18 May 2020 09:13:02 UTC
+All use subject to https://about.jstor.org/terms
+
+ Revisiting Al-Samaw'al's table of binomial coefficients.
+
+ 569
+
+ 3.3 Al-Samaw'al and mathematical induction revisited
+
+ After carefully setting out the five propositions, al-Samaw'al then goes on to describe
+
+ the procedure for the construction of his table of binomial coefficients. But before he
+
+ does, he makes some telling comments about generalizing the essence of these propo
+
+ sitions for higher powers (see Sect. 2.2.13). This passage has been deemed especially
+
+ significant (see Rashed 1972, 1994, pp. 63-68) because of the appearance here of the
+
+ so-called 'Pascal Triangle' in a distinctly different and notably earlier context, but also
+
+ for the appearance of a mode of reasoning closely related to mathematical induction—
+
+ a style of proof which has traditionally been viewed as being first formalized by Blaise
+
+ Pascal in 1654 (Acerbi 2000, p.57), five centuries after al-Samaw'al.
+
+ The search for antecedents to mathematical induction has led to much argument
+
+ in the scholarly literature, with possible attestations being reported ever earlier. Thus,
+
+ Vacca thought he recognized induction in the work of Maurolico in the sixteenth cen
+
+ tury (Vacca 1909; Bussey 1917; Ernest 1982) and Rabinovitch (1970) found it in the
+
+ work of Levi ben Gerson in the fourteenth century. On the other hand, Freudenthal
+
+ (1953) reasserted the primacy of Pascal and classified earlier methods as archaic pre
+
+ cursors of the form of mathematical induction used by Pascal. Rashed (1972) extended
+
+ Freudenthal's classification to take into account yet another precursor of induction that
+
+ he found in this present extract from al-Samaw'al's Al-Bâhir in the twelfth century.
+
+ Finally, several writers have debated the possible occurrence of induction in the ancient
+
+ mathematical corpus, including in Euclid and Plato (Itard 1961 ; Fowler 1994; Unguru
+ 1991, 1994; Acerbi 2000).
+
+ These disputes show that the quest to identify the first to articulate this mode of
+
+ reasoning is somewhat futile, particularly given that many early attempts were bound
+
+ to the context and conventions of their own cultures of inquiry in which the rigors of
+
+ formal logic, symbolic styles of expression and abstract conceptions of number were
+
+ either irrelevant or far from purview. Indeed, as Acerbi (2000, p. 58) succinctly put it,
+
+ the issue became to some extent historiographical: '...every single scholar sets up his
+ own reading of the principle of [complete induction], and on this basis he is able to
+
+ affirm or to deny that specific proofs constitute well formed examples of it.' Acerbi
+
+ then rather delightfully introduced his own contributions on the issue as 'adding to
+ the confusion,' rather than trying to settle the matter. More broadly his comments
+
+ touch upon a wider systemic issue in histories of mathematics: investigations which
+
+ prioritize locating the first instance of an important mathematical principle, rule or
+
+ concept are likely to encounter difficulty defending their resulting position.51 In light
+
+ of this, then, and taking our cue from Acerbi, we seek to explore what al-Samaw'al's
+
+ aim in this section of Al-Bâhir was and the extent to which his mode of reasoning has
+
+ affinities with the more formal process of mathematical induction.
+
+ Indeed, there has been a proliferation of ways in which to identify mathematical
+
+ induction in historical sources. After much scholarly discussion, this type of reasoning
+
+ is generally realized as a spectrum of techniques which include at one end the method
+
+ 51 For the historiographical implications surrounding the issues of priority see, for instance, Clark and
+ Montelle (2012).
+
+ â Springer
+
+This content downloaded from 203.78.15.150 on Mon, 18 May 2020 09:13:02 UTC
+All use subject to https://about.jstor.org/terms
+
+ 570
+
+ S. Bajrietal.
+
+ of generalizing examples and incomplete induction52 through to formal mathematical
+
+ induction at the other. Rashed (1994), building on the work of Freudenthal (1953),
+
+ highlights three precursors of mathematical induction which he labels R\, Ri and R$.
+
+ Two of these come from Freudenthal (see Rashed 1994, p. 73). Thus, Rashed's R2
+
+ is Freudenthal's quasi-general method of proof, where the proof would be valid for
+
+ any positive integer η but is, in fact, given only for one specific value of n. Similarly
+
+ Rashed's #3 is Freudenthal's regression, where the same argument is repeated for
+
+ each successively smaller integer until the smallest case is reached (again this method
+
+ typically starts with a specific integer, but the argument is thought of as applying more
+
+ generally). Rashed expands this catalog by introducing R\, a method which deals with
+
+ specific values of η but attempts to prove the transition η to η + 1 in a uniform way
+
+ that does not depend on η (Rashed 1994, p. 76). Rashed argues that al-Samaw'al uses
+
+ this last form of reasoning in the section of Al-Bâhir which we have been discussing,
+ and in this section, we wish to examine this claim.
+
+ If we express his propositions in algebraic form (to help modern readers appreciate
+
+ the overall structure) then al-Samaw'al proves the following results:
+
+ 1. (ab)(cd) = (ac)(bd)
+ 2. (cd)3 = c3d3
+ 3. (a + b)3 = a3 + b3 + 3(ab2 + ba2)
+ 4. (a + b)4 = a4 + b4 + 4(ab3 + ba3) + 6a2b2
+ 5. (ab)4 = a4b4 He then states the fifth-power equivalents of the last two proposi
+
+ tions:
+
+ 6. (cd)5 = c5d5
+ 7. (a + b)5 = a5 + b5 + 5(ab4 + ba4) + 10(a2b3 + b2a3)
+
+ saying that they can be proved, using the same methods, by anyone who has understood
+
+ those earlier demonstrations. In each case, the assertion concludes with a phrase like
+ 'and so on,' or 'in increasing order'. The meaning of this phrase is reasonably clear
+
+ in the case of proposition 5, but for proposition 4 al-Samaw'al needs to indicate how
+ those 'coefficients' (3, then 4 and 6, then 5 and 10) can be calculated. The ensuing
+
+ description shows how to construct and use the entries in his triangle, but it does not
+
+ give any further explanation as to why these are the right numbers to use.
+
+ It seems likely that al-Samaw'al saw this section of material as a coherent unit,
+
+ so the order of the material may hold clues to his way of thinking. In particular, the
+
+ way he interleaves the two themes, (ab)n = anbn and the binomial expansion of
+
+ (a + b)n, suggests that he may have been at least as interested in the general methods
+ of demonstration as in the results themselves.
+
+ Al-Samaw'al's demonstrations of propositions 2 through to 4 all deal with a transi
+
+ tion from a known case of a particular η to the next one η + 1. proposition 5 is slightly
+
+ different in that it proceeds from a known case η = 2 through a case η = 3 (which he
+
+ has already proven a different way in proposition 2) and on to the case η = 4. This
+
+ might show that he was interested not just in the particular instance covered in the
+
+ 52 In the terminology of Rashed (1994, p. 80) and Acerbi (2000, p. 60, footnote 13). This seems to be the
+
+ induction of the philosophers, where from a few cases you hope that you can draw a general conclusion.
+ Rashed and Acerbi refer to mathematical induction as complete induction.
+
+ â Springer
+
+This content downloaded from 203.78.15.150 on Mon, 18 May 2020 09:13:02 UTC
+All use subject to https://about.jstor.org/terms
+
+ Revisiting Al-Samaw'al's table of binomial coefficients.
+
+ 571
+
+ proposition, but rather its connection to other instances. Al-Samaw'al's assertions that
+
+ the η = 5 case of proposition 5 can be proved 'by the same method', and that this can
+ be done 'and so on in increasing order'—and similar assertions about the η = 5 case
+
+ of proposition 4—mean that he could see some similarity between the way the case
+
+ η = 4 was proved (from the case η = 3 perhaps) and the way to prove those higher
+ cases.
+
+ However, there are some steps that al-Samaw'al remains silent on which makes us
+
+ less sure of the emphasis of this passage. For instance, he does not make a similar
+
+ assertion after proposition 2, and he makes no comment about achieving another
+
+ demonstration of proposition 2 while proving proposition 5, and indeed, he makes
+ no comment about the similarity between the step η = 2 -* η = 3 and the step
+ η = 3 -> η = 4 within the demonstration of proposition 5. This may indicate that
+ there is some room for doubt about his intent.
+
+ Furthermore, while the general idea of multiplying the expansion for (a + b)"-1
+
+ through by (a + b) and expanding is clear enough, it is not clear in what sense al
+
+ Samaw'al has achieved a proof of the induction step for the binomial theorem. First
+
+ and foremost, al-Samaw'al lacks a way to express the mechanics of recognizing like
+
+ terms and gathering them in the general case. Even for proposition 4 (the expansion
+
+ of (a + b)4) just recognizing all the like terms, which we can accomplish in a single
+ line
+
+ but (3a2b)a = 3a3b, (3a2b)b = 3a2b2, (3b2a)a = 3a2b2 and (3b2a)b = 3è3a,
+
+ takes him half a dozen lines of rhetoric.
+
+ Both of al-Samaw'al's demonstrations for (ab)3 = a^b^ (in his demonstrations of
+
+ propositions 2 and 5) can be adapted to construct a fully general induction step. But
+
+ the lack of an algebraic notation for expressing the general statement seems to render
+
+ this step out of reach for al-Samaw'al. However, al-Samaw'al may have achieved this
+
+ in an alternative fashion. That is, his accompanying diagram, and the way in which
+ the reader is guided through the array, offer a visual representation of both the basic
+
+ mathematical relationships and the method of progress from the case η = 2 to the case
+
+ η = 3. Furthermore, the diagram does this in a way that allows the perceptive reader
+ to 'see' what the general induction step would look like and how it would proceed.
+ We explore this next.
+
+ 3.3.1 Mathematical induction via diagrammatic reasoning?
+
+ Algebraic symbolism can be a powerful aid to creative thinking in mathematics. In
+
+ the absence of such symbolism, diagrams can sometimes play a similar role (see
+
+ for example Grosholz 2007; Dôrfler 2004; Netz 1999; Macbeth 2010). Without any
+
+ symbolic algebra, it might seem a tall order for al-Samaw'al's readers to 'understand
+
+ what we have done' and see what the so-called 'same method' might be (we urge the
+
+ reader to read our literal translations in Sect. 2.2 without the help of the paraphrases).
+
+ However, let us look a little closer at the diagrams accompanying the demonstrations
+
+ of propositions 2 and 5, and particularly at how these diagrams might interact with
+ the demonstrations.
+
+ ^ Springer
+
+This content downloaded from 203.78.15.150 on Mon, 18 May 2020 09:13:02 UTC
+All use subject to https://about.jstor.org/terms
+
+ 572
+
+ S. Bajri et al.
+
+ Fig. 22 Relationships between
+ Fig. 22 Relationships between
+ quantities in proposition 2
+ quantities in proposition 2
+
+ Fig. 23 Possible diagram for
+ Fig. 23 Possible diagram for
+ proving the η = 4 case of
+ proving the η = 4 case of
+
+ proposition 2 with key
+ proposition 2 with key
+
+ relationships indicated
+ relationships indicated
+
+ We begin with the diagram for proposition 2. The defining relationships for the
+
+ quantities in the diagram could be represented by the arrows in Fig. 22.
+
+ Thus, the arrows along the two rows represent the generation of successive powers
+
+ of c and d, while the diagonal arrows represent the construction of the products g — cd
+ and h = ab. At the start of the demonstration, al-Samaw'al reminds us of a known
+
+ fact, another relationship between some the quantities in the diagram: ef = g2. His
+
+ demonstration is basically a process of getting from this relationship to the next case,
+
+ namely ab = g3. To function as an induction step, or even as an example of Rashed's
+
+ R\ mode of reasoning (Rashed 1994, p. 76), this process needs to be general, in the
+
+ sense that it is independent of the actual case under discussion. What is the process?
+
+ It consists of three steps:
+
+ 1. multiply both quantities (here ef and g2) by cd or (equivalently) g
+
+ 2. use proposition 1 to rearrange the resulting equality (giving (ec)(df ) = g3)
+
+ 3. recognize the bracketed terms as the appropriate powers of c and d.
+
+ We claim that the diagram helps the reader to make this final identification step and to
+
+ see what would be needed to use the 'same method' to prove the next case. Thus, to
+
+ show that (cd)4 = c4d4 the reader could use a diagram as in Fig. 23, where quantities
+
+ would be defined in a similar order to the ones in Fig. 12 so that e and / are the squares
+
+ of c and d, and g and h are the cubes, while i = cd and j = ab.
+
+ But the fact that al-Samaw'al actually offers second demonstration as part of propo
+
+ sition 5 may indicate that it was not so easy to see how the demonstration of proposition
+
+ <£) Springer
+
+This content downloaded from 203.78.15.150 on Mon, 18 May 2020 09:13:02 UTC
+All use subject to https://about.jstor.org/terms
+
+ Revisiting Al-Samaw'al's table of binomial coefficients.
+
+ 573
+
+ Fig. 24 Basic relationships in
+ Fig. 24 Basic relationships in
+ the diagram accompanying
+ the diagram accompanying
+ proposition 5
+ proposition 5
+
+ 2 generalizes to the higher powers. Perhaps the first two steps above were harder to
+
+ see in the diagram.
+
+ On the other hand, as we shall now see, his demonstration of proposition 5 can be
+
+ carried out more or less entirely within its diagram. As with the diagram for proposition
+
+ 2, the ordered labeling of the diagram imposes a structure on the diagram which reflects
+
+ some of the mathematical structure of the setting out. Thus, multiplying a and b gives c,
+
+ which we can think of as a vertical relationship within the first column of the diagram.
+
+ Next the powers of these three numbers are given by d, e, f and g, h, i and j, k, I,
+
+ respectively, a list which imposes a horizontal flow along the rows of the diagram,
+
+ with powers increasing as we move from left to right (See Fig. 24).
+
+ The demonstration begins by recalling two relationships c = ab and j — dg that
+
+ tell us about the structure of each of the first two columns of the diagram. Again, if
+
+ this demonstration is to function as an induction step, even at the level of Rashed's
+
+ R\, then the process of going from j = dg (or (ab)2 = a2b2) to k = eh and onwards
+
+ to I = fi needs to be in some sense independent of whether it started at j = dg or
+
+ k — eh and so on. As with the demonstration of proposition 2, we can follow the
+
+ process in the diagram. Thus, the first step uses Elements VIII,5 to express the ratio
+
+ c : j (the first step along the middle row) as the compound of the ratios a : d and
+
+ b : g (the first steps along the two outer rows). But multiplication by a, b and c carries
+
+ us along the upper, lower and middle rows (respectively) in sequences which are in
+
+ continued proportion. Hence, j : k (the second step along the middle row) must be the
+
+ compound of the ratios d : e and g : h (the second steps along the two outer rows). But
+
+ we know that j = dg, so the converse of Elements VIII,5 tells us that k = eh. This
+
+ ought to complete the induction step, but al-Samaw'al repeats the process to show
+
+ that I = fi. Perhaps he wanted to show that the same process can indeed be used and
+
+ that it just corresponds to moving over one column in the diagram. At any rate, it is
+
+ now clear how the rule can be extended to higher powers, and it is the structure of the
+
+ diagram which makes this clear.53
+
+ 3.4 Concluding remarks
+
+ The passage we have considered here from al-Samaw'al's Al-Bâhir has been singled
+ out by past studies because of its inclusion of a table of binomial coefficients and
+
+ the related mathematical reasoning which has similarities to mathematical induction.
+
+ However, through a careful, complete, and historically sensitive examination of the
+
+ whole passage in its entirety, we have revealed that there is more significance to
+
+ 53 We would like to emphasize that we are not claiming that al-Samaw'al is using the form of mathematical
+
+ induction that was first formulated by Pascal, but rather that his diagrams represent a way in which he could
+ convey to his readers the similarity of all the proofs n=k-+n = k + 1.
+
+ Springer
+
+This content downloaded from 203.78.15.150 on Mon, 18 May 2020 09:13:02 UTC
+All use subject to https://about.jstor.org/terms
+
+ 574
+
+ S. Bajri et al.
+
+ al-Samaw'al's exposition than being a more-or-less casual expression or informai
+ anticipation of mathematical induction.
+
+ Previous accounts of this passage have focused solely on al-Samaw'al's text, ignor
+
+ ing the accompanying diagrams and sometimes relying on modern paraphrases to help
+
+ the reader follow al-Samaw'al's arguments. Our literal translation of the whole pas
+
+ sage brings out the rhetorical nature of al-Samaw'al's exposition and highlights the
+
+ very real difficulties faced by his readers as they attempted not just to follow the
+
+ arguments but also, as bidden by al-Samaw'al, to extend the same arguments to more
+
+ general situations. Looking through modern eyes, as in our paraphrases, it is easy for
+
+ us to see embryonic arguments using mathematical induction which would achieve
+
+ the generalizations claimed by al-Samaw'al, but looking solely at the text, it is difficult
+ to see how even al-Samaw'al himself could have done this.
+
+ We argue that key to al-Samaw'al's line of reasoning are his structured diagrams,
+
+ which have evolved from the Euclidean tradition, but which are used with a slightly
+
+ different intent in this context. We have seen that both al-Samaw'al's presentation and
+
+ the content of his propositions are also clearly inspired by Greek mathematics. But
+
+ we have also revealed how al-Samaw'al's mathematical ambitions have outgrown the
+
+ Euclidean geometric context, now contemplating four-dimensional, five-dimensional
+
+ or even higher dimensional products. Despite this though, al-Samaw'al remains com
+ mitted to retaining some features of this mode of exposition (such as referring to
+
+ products as 'surfaces,' or using propositions about parallelogram areas to justify higher
+
+ dimensional calculations) even though, at first sight, they seem no longer useful or
+
+ maybe even unhelpful to him.
+
+ In particular, we have advanced the notion that al-Samaw'al's diagrams are not just
+
+ intended to be representative of a specific mathematical relation, but also prescriptive
+ of a process of reasoning. Although al-Samaw'al's text includes a method closer to
+
+ that of generalizing examples than a formal account of inductive reasoning, we argue
+
+ that his diagrams more immediately concern the latter. The active movement which
+
+ the diagrams compel the reader to engage in, in both a horizontal and vertical direc
+
+ tion, may be emblematic of a process he wants to model for extending his results
+ to higher powers in a manner similar to an inductive step, albeit achieved diagram
+
+ matically. Alphabetic ordering, alignment and mutual arrangement of elements in a
+
+ diagrammatic array all seem directed to this aim. Indeed, where notational symbolism
+
+ could not reveal the inherent relationships going from one 'power' of the unknown to
+
+ the next, relative positioning in the diagram could. Therefore, reading and interpret
+
+ ing both text and diagram as an integrated whole in this way gives us new insight, a
+
+ more complete picture of al-Samaw'al's intentions and a better understanding of how
+
+ rhetorical mathematics could make progress in the absence of the power of algebraic
+
+ symbolism. We also see a more complex picture of the development of mathematical
+
+ induction, not a story of linear progress but more of a tapestry of ideas, with diagram
+
+ matic reasoning appearing as a hitherto unnoticed thread, enriching a story that can
+
+ be traced from Plato to Pascal, and beyond.
+
+ Acknowledgments We would like to thank the many colleagues who gave us helpful advice during the
+
+ writing of this paper, including Jeff Oaks, Victor Katz, Glen Van Brummelen, Nathan Sidoli, and Len
+ Berggren. Special thanks also to Hasan Umut for assisting us in ordering one of our manuscripts. We are
+
+ *£) Springer
+
+This content downloaded from 203.78.15.150 on Mon, 18 May 2020 09:13:02 UTC
+All use subject to https://about.jstor.org/terms
+
+ Revisiting Al-Samaw'al's table of binomial coefficients.
+
+ 575
+
+ also grateful to the Bodleian, Siileymaniye, and Tehran libraries for supplying the images we have included
+
+ throughout.
+
+ References
+
+ Abu Kàmil. 2012. Algèbre et analyse diophantienne. In Rashed, R. (ed.) Berlin: de Gruyter.
+
+ Acerbi, F. 2000. Plato: Parmenides 149a7-c3. A proof by complete induction? Archive for History of Exact
+
+ Sciences 55: 57-76.
+
+ Ahmad, S., and R. Rashed. 1972. Al-Bâhir en Algèbre d'As-Samaw'al. Imp. de l'Université de Damas.
+ Al-Khwàrizml 2009. Al-Khwârizmî: The beginnings of algebra. In History of science and philosophy in
+
+ classical Islam, Rashed, R. (ed.) London: SAQI.
+
+ Anbouba, A. 1961. "Mukhtâràt min Kitâb al-Bàhir", al-Mashriq, 61-108.
+
+ Anbouba, A. 1978. Al-Samaw'al, ibn Yahyà al-Maghribï. In Complete dictionary of scientific biography,
+
+ vol. 12, Detroit: Charles Scribner's Sons, 91-95
+
+ Berggren, J.L. 2003. Episodes in the mathematics of medieval Islam. Berlin: Springer.
+
+ Berggren, J.L. 2007. Mathematics in medieval Islam. In The mathematics of Egypt, Mesopotamia, China,
+
+ India, and Islam: A sourcebook, ed. Victor Katz, 515—676. Princeton: Princeton University Press.
+
+ Bussey, W.H. 1917. The origin of mathematical induction. American Mathematical Monthly 24: 199-207.
+
+ Catton, P., and C. Montelle. 2012. To diagram, to demonstrate: To do, to see, and to judge in Greek geometry.
+
+ Philosophia Mathematica, (III) 20: 25-57.
+
+ Clark, Kathleen M., and Clemency Montelle. 2012. Priority, parallel discovery, and pre-eminence: Napier,
+
+ Burge and the early history of the logarithm relation. Revue d'Histoire des Mathématiques 18(2):
+ 223-270.
+
+ Diophantus of Alexandria. 1893. Arithmetica, In Diophanti Alexandrini Opera Omnia, vol. 1, ed. Paul
+
+ Tannery, Leipzig: Teubner.
+
+ De Young, Gregg. 2005. Diagrams in the Arabic Euclidean tradition. Historia Mathematica 32: 129-179.
+
+ Dôrfler, W. 2004. Mathematical reasoning: Mental activity or practice with diagrams. In Proceedings of the
+
+ 10th international congress on mathematical education, Copenhagen.
+
+ Edwards, A.W.F. 2002. Pascal's arithmetical triangle: The story of a mathematical idea. Baltimore: Johns
+
+ Ernest, Paul. 1982. Mathematical induction: A recurring theme. The Mathematical Gazette 66(436): 120
+
+ Hopkins University Press.
+
+ 125.
+
+ Euclid. 1883-1916. Euclidus opera ominia. In I.L. Heiberg and H. Menge (eds), Leipzig: Teubner.
+ Euclid. 2014. Elements, Books I-XV, MS D'Orville 301, Bodleian Library, Oxford. Available online
+ at http://bodley30.bodley.ox.ac.uk:8180/luna/servlet/s/6230q4 or from http://www.claymath.org/
+ euclids-elements (accessed 16th October 2014).
+
+ Euclid. Elements, MS Malik 3586, with its completion MS Danishgah 2120, Tehran.
+ Fowler, D. 1994. Could the Greeks have used mathematical induction? Did they use it? Physis XXXI:
+
+ Freudenthal, Hans. 1953. Zur Geschichte der vollsteandigen Induktion. Archives Internationales d'Histoire
+
+ Grosholz, E. 2007. Representation and productive ambiguity in mathematics and the sciences. Oxford:
+
+ Heath, T.L. 1956. The thirteen books of Euclid's elements, vol. 3. New York: Dover.
+
+ H0yrup, J. 2002. Lengths, widths, surfaces. A portrait of old Babylonian algebra and its kin. New York:
+
+ 253-265.
+
+ des Sciences 6: 17-37.
+
+ Oxford University Press.
+
+ Springer.
+
+ Ibn al-Bannâ', 1969. Talkhïs a'mal al-hisâb, Mohamed Souissi (ed. and trans.). Tunis: Université de Tunis.
+
+ Itard, Jean. 1961. Les Livres arithmétiques d'Euclide. Paris: Hermann.
+
+ Kennedy, E.S. 1991-1992. Transcription of arabic letters in geometric figures. Zeitschrifi fUr Geschichte
+
+ der Arabisch-Islamischen Wissenschaften 7:21-22.
+
+ King, David A. 1976. Review of "Al-Bahiren Algèbra d'As-Samaw'al by Salah Ahmad and Roshdi Rashed".
+
+ Isis 67(2): 307-308.
+
+ Krause, M. 1936. "Stambuler Handschriften islamischer Mathematiker", Quellen und Studien zur
+
+ Geschichte der Mathematik. Astronomie und Physik B3(4): 478.
+
+ Lo Bello, A. 2009. The commentary ofal-Nayrizi on Books II-IV of Euclid's elements of geometry. Leiden:
+
+ Brill.
+
+ Ô Springe
+
+This content downloaded from 203.78.15.150 on Mon, 18 May 2020 09:13:02 UTC
+All use subject to https://about.jstor.org/terms
+
+ 576
+
+ S. Bajri et al.
+
+ Macbeth, D. 2010. "Diagrammatic reasoning in Euclid's elements", 235-267. In Bart Van Kerkhove, Jonas
+
+ De Vuyst, and Jean Paul Van Bendegem, eds., Philosophical perspectives on mathematical practice.
+
+ Texts in philosophy, 12, London: College Publications.
+
+ Netz, R. 1999. The shaping of deduction in Greek mathematics: A study in cognitive history. Cambridge:
+
+ Cambridge University Press.
+
+ Oaks, J. A. 2011. Geometry and proof in Abu Kâmil's algebra. In Actes du I0eme Colloque Maghrébin sur
+
+ l'Histoire ds Mathématiques Arabes, Tunis: ^Association Tunisienne des Sciences Mathématiques.
+
+ Oaks, J.A. 2011. Al-Khayyâm's scientific revision of Algebra. Suhayl 10: 47-75.
+
+ Rabinovitch, N.L. 1970. Rabbi Levi ben Gerson and the origins of mathematical induction. Archive for
+
+ Rashed, R. 1972. L Induction mathématique: al-Karaji, as-Samaw'al. Archive for History of Exact Sciences
+
+ History of Exact Sciences 6: 237-248.
+
+ 9:1-21.
+
+ Rashed, R. 1978. LExtraction de la racine η-ième et l'invention des fractions décimales (XIe-XIIe siècles).
+
+ Archive for History of Exact Sciences 18: 191-244.
+
+ Rashed, R. 1994. The development of Arabie mathematics: Between arithmetic and Algebra. Kluwer Aca
+
+ demic Publishers, (Robert S. Cohen, Boston University, éd.), Transi. A. F. W. Armstrong, 156.
+
+ Saito, K., Sidoli, N. 2012. Diagrams and arguments in Greek mathematics. In Chemla, K. (ed.) The history
+
+ of mathematical proof in ancient traditions. Cambridge, 135-162.
+
+ Souissi, Mohamed (ed. trans.). 1969. Ibn al-Bannâ', Talkhis a'mâl al-hisàb. Tunis: CUniversité de Tunis.
+
+ Unguru, S. 1991. Greek mathematics and mathematical induction. Physis XXVIII: 273-289.
+ Unguni, S. 1994. Fowling after induction. Physis XXXI: 267-272.
+
+ Vacca, G. 1909. Maurolycus, the first discoverer of the principle of mathematical induction. Bulletin of the
+
+ American Mathematical Society 16: 70-73.
+
+ Woepcke, F. 1982. Extrait du Fakhrî, traité d'algèbre par Aboû Bekr Mohammed Ben Alhaçan Alkarkhî,
+
+ 1853. Reprint: Georg Olms Verlag, Hildesheim.
+
+ Woepcke, F. 1851. Lalgèbre d'Omar Alkhayyâmi. B. Duprat, Paris.
+
+ Ô Springer
+
+This content downloaded from 203.78.15.150 on Mon, 18 May 2020 09:13:02 UTC
+All use subject to https://about.jstor.org/terms
+
+

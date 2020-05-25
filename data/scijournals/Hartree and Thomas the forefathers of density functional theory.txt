@@ -1,0 +1,1292 @@
+ 
+
+ 
+
+ 
+
+ 
+
+Hartree and Thomas: the forefathers of density functional theory
+Author(s): Andrew Zangwill
+Source: Archive for History of Exact Sciences, Vol. 67, No. 3 (May 2013), pp. 331-348
+Published by: Springer
+Stable URL: https://www.jstor.org/stable/23479276
+Accessed: 19-05-2020 12:01 UTC
+
+JSTOR is a not-for-profit service that helps scholars, researchers, and students discover, use, and build upon a wide
+
+range of content in a trusted digital archive. We use information technology and tools to increase productivity and
+
+facilitate new forms of scholarship. For more information about JSTOR, please contact support@jstor.org.
+
+Your use of the JSTOR archive indicates your acceptance of the Terms & Conditions of Use, available at
+
+https://about.jstor.org/terms
+
+Springer is collaborating with JSTOR to digitize, preserve and extend access to Archive for
+History of Exact Sciences
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:01:12 UTC
+All use subject to https://about.jstor.org/terms
+
+ Arch. Hist. Exact Sci. (2013) 67:331-348
+ DOI 10.1007/s00407-013-0114-4
+
+ Hartree and Thomas: the forefathers of density
+ functional theory
+
+ Andrew Zangwill
+
+ Received: 10 December 2012 / Published online: 19 February 2013
+ © Springer-Verlag Berlin Heidelberg 2013
+
+ Abstract Douglas Hartree and Hilleth Thomas were graduate students together at
+ Cambridge University in the mid-1920s. Each developed an important approximation
+
+ method to calculate the electronic structure of atoms. Each went on to make significant
+
+ contributions to numerical analysis and to the development of scientific computing.
+
+ Their early efforts were fused in the mid-1960s with the development of an approach to
+
+ the many-particle problem in quantum mechanics called density functional theory. This
+
+ paper discusses the experiences which led Hartree and Thomas to their approximations,
+ outlines the similarities in their subsequent careers, and highlights the essential role
+
+ their work played in the foundational papers of modern density functional theory.
+
+ 1 Introduction
+
+ The year 1924 was quite hectic for Ralph Fowler's research group at Cambridge
+ University.1 His most senior Ph.D. student, Douglas Hartree, published three papers in
+
+ a continuing series that reported the results of Bohr-Sommerfeld calculations designed
+ to reveal the electron orbits responsible for the observed spectra of one-electron
+ like atoms. Another Ph.D. student, Paul Dirac, submitted five papers for publication,
+
+ beginning with a study of molecular dissociation in a temperature gradient and ending
+ with an analysis of the adiabatic invariance of action integrals. Fowler's most junior
+
+ Ph.D. student, Hilleth Thomas, wrote a paper that discussed adiabatic invariants from
+
+ 1 For students interested to do a theoretical PhD, Fowler was the only potential supervisor at Cambridge
+
+ with an interest in quantum theory (Mehra and Rechenberg 1982, Volume 4).
+
+ Communicated by: J. Buchwald.
+
+ A. Zangwill (E3)
+ School of Physics, Georgia Institute of Technology, Atlanta, GA 30332, USA
+ e-mail: andrew.zangwill@physics.gatech.edu
+
+ â Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:01:12 UTC
+All use subject to https://about.jstor.org/terms
+
+ 332 A. Zangwill
+
+ a statistical point of view and began classical calculations relevant to the passage of
+ charged particles through matter.
+
+ It is not surprising that old quantum theory topics figured prominently in the
+
+ activities of these students. By 1924, the spectacular successes of the Bohr
+ Sommerfeld theory for hydrogen and hydrogen-like atoms could be studied from
+
+ the latest (fourth) edition of Arnold Sommerfeld's Atombau und Spektrallinien. Max
+
+ Born's book devoted to the same subject, Vorlesungen iiber Atommechanik, was pub
+ lished early in 1925. On the other hand, calculations performed by rising stars like
+ James Franck, Hendrik Kramers, Werner Heisenberg, and John Van Vleck were unable
+
+ to reproduce those successes for helium and other non-hydrogen-like multi-electron
+
+ atoms (Mehra and Rechenberg 1982, Volume 4; Darrigol 1992). For that reason (Kragh
+ 2012),
+
+ Among many physicists in the period 1923-1925 there was a mounting feel
+ ing that the existing quantum theory of the atom had come to a dead end and
+
+ that further search for substantial progress within the framework of the Bohr
+
+ Sommerfeld theory was futile. The old framework had to be replaced by a new
+ one.
+
+ The new framework was supplied by Heisenberg, who sent a proof copy of his
+ paper "Quantum-theoretical re-interpretation of kinematic and mechanical relations"
+
+ to Fowler in August of 1925. Fowler passed the paper on to Dirac and the story of how
+ Dirac quickly grasped the essentials and went on to create his unique and profound
+ approach to quantum mechanics (beginning with a paper submitted only two months
+ later) has been told many times (Jammer 1966, Chapter 5; Mehra and Rechenberg
+ 1982, Volume 4).
+
+ In this paper, I examine the activities of Dirac's classmates, Hartree and Thomas,
+
+ during this period of rapid transition from the old quantum theory of Bohr and Som
+
+ merfeld to the new quantum theory of Heisenberg, Dirac, and Schrodinger. Sections
+ 2 and 3 review the experiences that led each to develop an approximation method to
+ compute the properties of many-electron atoms and the subsequent contributions each
+ made to numerical analysis and scientific computing. The approximation schemes
+ invented by Thomas and Hartree have historical importance because their general
+ izations and application to other many-electron systems have enjoyed many years of
+ quantitative success. Equally important, each stands out as an essential intellectual
+
+ precursor to a very successful approach to many-particle quantum mechanics devel
+ oped in the 1960s called density functional theory (Parr and Yang 1989). Section 4
+
+ outlines the foundations of modern density functional theory and highlights the debt
+ this theory owes to the Hartree and Thomas methodologies.
+
+ 2 Douglas Hartree and the self-consistent atom
+
+ The life of Douglas Rayner Hartree is recounted admirably in a biography writ
+ ten by his final Ph.D. student, Charlotte Froese Fischer (2003). Her book rightly
+ draws attention to Hartree's career-long interest and ability to find numerical solu
+ tions to scientific problems. This talent appeared early when he was recruited from
+ his first year of graduate studies at Cambridge to join a group of more senior
+
+ Ô Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:01:12 UTC
+All use subject to https://about.jstor.org/terms
+
+ Hartree and Thomas: the forefathers of density
+
+ 333
+
+ Cambridge-trained men (including his future Ph.D. advisor Ralph Fowler) studying
+
+ anti-aircraft gunnery in support of the British Ministry of Munitions during World
+ War I (van der Kloot 2011). The differential equations that determine the trajectory
+ of artillery shells are not solvable analytically when frictional drag and wind effects
+
+ are treated realistically. The 20-year-old Hartree introduced several innovations which
+
+ made the numerical integration of these equations fast and efficient (Darwin 1958).
+
+ Douglas Rayner Hartree (ca. 1939).
+
+ Courtesy of the AIP Emilio Segrè Visual Archive, Hartree Collection.
+
+ After his return to graduate school, Hartree discovered that he had no aptitude for
+ experimental work and initially contented himself to assist a fellow graduate student
+
+ from Ernest Rutherford's laboratory who recruited him to analyze the trajectories of
+ electrons in an inhomogeneous magnetic field (Hartree 1923a). Hartree's true research
+ career was launched by a set of lectures on quantum theory given at Cambridge
+ by Niels Bohr in 1922. Bohr's articles and lectures were famously qualitative and
+ Hartree was interested to obtain quantitative results from Bohr's theory of the spectra
+ of atoms. Fowler was well aware that this choice leveraged Hartree's unusual back
+
+ ground because "such an application must involve much numerical computation" and
+ "he is to be judged as a computing and classifying physicist".2 This opinion must
+
+ not have been limited to Fowler because, 50 years later, the American physicist John
+ Slater took umbrage with any characterization of Hartree as a "mere computer" and
+ preferred to describe him as a "matter-of-fact sort who indicates the argument behind
+
+ what he does and tries to write or speak in the most comprehensible manner possible"
+ (Slater 1975, Section 7).
+
+ Hartree's first Bohr-inspired paper on atomic spectra adopted the prevailing view
+
+ that the electrons in an atom move in planar elliptical orbits in a force field produced by
+ the nucleus and the electrons themselves (Hartree 1923b). For simplicity, he assumed
+ a central field of force so the associated potential function, v(p), depended only on the
+
+ variable ρ = r/αβ, the electron-nucleus distance scaled by the Bohr radius. He also
+
+ 2 From Fowler's unpublished report on Hartree's Ph.D. dissertation quoted in Jeffreys (1987).
+
+ Ô Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:01:12 UTC
+All use subject to https://about.jstor.org/terms
+
+ accepted Bohr's re-purposing of Sommerfeld's quantization conditions to explain the
+ structure of the periodic table and wrote
+
+ 334 A. Zangwill
+
+ Pl
+
+ 1/2
+
+ kl
+ rï
+
+ η — k = — J dp — e —
+
+ po
+
+ In this expression, the integer η is the principal quantum number, the azimuthal quan
+
+ tum number k quantizes the total angular momentum, and e is the orbit energy.3 The
+ largest and smallest values of the scaled orbit radii, p\ and po> are the roots of the
+ quantity in the square brackets in Eq. (1). Hartree introduced an "effective nuclear
+ charge" Z(p), using the electrostatic formula,
+
+ 00
+
+ P
+
+ (1)
+
+ (2)
+
+ and set his task as
+
+ the determination of Z(p) such that for given η and k the values of e calculated
+
+ from Eq. (1) and Eq. (2) become as nearly as possible those of the terms of the
+ [measured] optical and X-ray spectra... The assignment of quantum numbers
+ to the different terms is taken from Bohr's theory.
+
+ In other words, his goal was to work backwards from each atom's observed ionization
+
+ energies and the quantum numbers assigned to that energy level to find an empirical
+ potential function v(p) characteristic of that atom.
+
+ In a section of his paper labeled "Sketch of Practical Work", Hartree explained that
+ it was desirable to replace v(p) by Z(p) for numerical work [despite the extra numer
+ ical integration implied by Eq. (2)] because the latter was a slower varying function
+ with a smaller total range of variation. As a result, it was possible to "arrange the
+ computational part of the work in such a way that no apparatus is required beyond
+ a 10-inch slide rule and a table of squares". Hartree made a point to contrast his
+ explicitly numerical calculations with similar work published earlier by Erwin Fues
+ (a former student of Sommerfeld) who had used a piece-wise analytic approximation
+ for v(p) to avoid numerical integrations (Fues 1922a,b, 1923). This procedure intro
+ duced features into the results which Hartree believed made them "appear doubtful".
+
+ Hartree achieved some measure of success with this paper and with several related
+ papers published soon thereafter. He received his Ph.D. in 1926. Dirac also earned his
+
+ Ph.D. in 1926 and Hartree's biographer informs us that Hartree was "a great admirer of
+
+ Dirac" (Fischer 2003). That being said, there is no evidence that the quantum mechan
+
+ ical work of his classmate had a direct effect on him. By contrast, the publication of
+ Schrôdinger's four papers on the foundations of wave mechanics in the first half of
+ 1926 had a profound effect (Schrôdinger 1926a,b,c,d). This becomes clear from the
+
+ first two parts of the seminal paper which Hartree read to the Cambridge Philosophical
+ Society on November 21, 1927 (Hartree 1923a,b).
+
+ 3 The energies e and v(p) in Eq. (1) are scaled by the Rydberg constant to have dimensions of inverse
+ length.
+
+ £ Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:01:12 UTC
+All use subject to https://about.jstor.org/terms
+
+ Hartree and Thomas: the forefathers of density 335
+
+ In Part I of this paper, Hartree wrote out the Schrodinger equation for a typical
+ electron in a multi-electron atom and outlined the practical steps needed to solve it.
+ He adopted the Schrodinger perspective that \ψ|2 gives the volume density of charge
+
+ for an electron in a quantum state described by the wave function ψ. Moreover, he knew
+
+ from a theorem proved by Sommerfeld student Albrecht Unsold that a closed shell of
+
+ electrons produces a spherically symmetric distribution of charge (Unsold 1927). This
+
+ suggested to him that a wave mechanical calculation with "the assumption of a central
+
+ field may give results more satisfactory in detail than could be expected [from] the
+
+ older form of quantum theory." Accordingly, he used the known spherical harmonic
+ of order I, Si (θ, φ), to make the wave function ansatz,
+
+ ψ(ρ,θ,φ) = -^5ι(θ,φ).
+
+ Ρ (ρ)
+
+ Ρ
+
+ This form separates the one-particle Schrôdinger partial differential equation into an
+
+ ordinary differential equation for P(p) and a partial differential equation for which
+ Si(0, φ) is a solution. If v(p) and e have the same meanings as in Eq. (1), he concluded
+ that the radial function must be a solution of
+
+ Comparing Eq. (4) with Eq. (1) shows that k = -JI (/ +1 ) is the dimensionless angular
+ momentum of an electron described by the wave function in Eq. (3).
+
+ Characteristically, Hartree first pointed out the conceptual advantages of using the
+
+ function P(p) and then described in detail the method he had devised to solve Eq. (4).
+
+ He applied the method of "central differences" described in Whittaker and Robinson's
+ textbook The Calculus of Observations4 and proposed to
+
+ integrate the equation outward from Ρ = 0 at ρ — 0, and inward from Ρ — 0
+ at ρ = σο, and by trial find a value of e for which these solutions meet at some
+ convenient intermediate radius ρ...
+
+ All the work was done by hand, but he reported that
+
+ only one calculation in each interval requires a slide rule (or logs), namely, that
+
+ of P" from the differential equation; the rest involves only additions and subtrac
+
+ tions, largely of numbers with one or two significant figures, and multiplications
+ by 2, 3, j2, which can be done mentally.
+
+ Part II of Hartree's 1928 paper applied the methods of Part I to calculate the effec
+ tive nuclear charge Z(p) = P2(p)/p2 and spectral term energy e associated with
+ each electron for a variety of atoms. Hartree's key innovation was to use solutions
+ of the one-particle Schrôdinger equation (4) to approximate the charge density and
+ potential for a system properly described using a many-particle Schrodinger equation.
+
+ Proceeding entirely intuitively to define the potential v(p) in Eq. (4), he decided that
+
+ 4 Whittaker and Robinson (1924) was probably the first textbook devoted entirely to numerical analysis.
+ The authors intended it to be used by "astronomers, meteorologists, physicists, engineers, naval architects,
+ actuaries, biometricians, and statisticians."
+
+ (3)
+
+ (4)
+
+ Ô Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:01:12 UTC
+All use subject to https://about.jstor.org/terms
+
+ 336 A. Zangwill
+
+ each of the Ν electrons of an atom should experience the spherical average of the elec
+
+ trostatic potential in Eq. (2) produced by the nucleus and the Ν — 1 other electrons. A
+
+ crucial feature is that each electron wave function is determined from a potential field
+
+ which depends, in part, on the wave functions of all the other electrons. To deal with
+
+ this, Hartree began with a guess for the central potential to be used in the Schrodinger
+
+ equation for each electron. From the calculated wave functions, he found the charge
+ density associated with each electron and the electrostatic potential produced by all
+ the other electrons. The spherical average of the latter generally did not agree with
+ the initial guess potential. On the other hand, he could use this output potential in
+ place of the initial potential for a repetition of the entire process. After three repe
+
+ titions or so, Hartree found that his results were self-consistent in the sense that the
+
+ output potential equaled the input potential to within his desired numerical accuracy.5
+ Specifically,
+
+ In the numerical work, two places of decimals have usually been kept in Z(p) in
+ the initial and final fields, and the successive approximations towards a self
+ consistent field have been continued until the maximum difference in Zip)
+ between the initial and final fields became less than 0.1.
+
+ Hartree presented quantitative results for four atomic systems: He, Rb, Na , and
+ CI-. In each case, the initial guess potential was taken from a statistical treatment
+ of atoms published one year earlier by his classmate Hilleth Thomas (see the next
+ section). For helium, Hartree's calculated energy of 24.85 eV to remove the least
+ well-bound electron from the atom agreed very well with the observed value of 24.6
+
+ eV. For rubidium, he judged "the general agreement of X-ray and optical term values
+
+ calculated by the methods here given with those observed very satisfactory." Moreover,
+
+ a detailed study of the effective potential felt by the various electrons in the Rb atom
+
+ allowed him to make contact with Bohr's idea of penetrating versus non-penetrating
+ orbits (Kragh 2012). Finally, he used his calculated charge distributions for Na+ and
+ CI- to evaluate Bragg's formula for the scattering power of x-rays from rocksalt and
+ announced that the comparison with experiment was "very satisfactory indeed".6
+
+ Very soon, papers by John Slater and Vladimir Fock provided firm mathematical
+
+ support for Hartree's intuition (Slater 1930; Fock 1930). An orbital variational cal
+
+ culation based on the simplest guess for a many-electron wave function as a product
+
+ of one-electron orbitals reproduced Hartree's equations (except for his extra approx
+ imation to spherically average the potential). A similar variational calculation based
+ on the simplest guess for a many-electron wave function which builds in the Pauli
+ exclusion principle generates what are called the Hartree-Fock equations. The latter
+
+ are generally acknowledged as foundational to many parts of atomic physics and much
+ of quantum chemistry (Cowan 1981; Pople 1999; Park 1999).
+
+ ' Hartree cited self-consistent Bohr-Sommerfeld calculations using Eq. (1) by the American physicist
+ Robert Bruce Lindsay as precedent for the view that one should "find a field of force such that the distribution
+
+ of charge given by the wave functions for the core electrons shall reproduce the field." See pp. 29-31 and
+ p. 45 of Froese (2003) for more on Lindsay.
+
+ 6 The complete comparison was published later by James, Waller and Hartree (1928).
+
+ Ô Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:01:12 UTC
+All use subject to https://about.jstor.org/terms
+
+ Hartree and Thomas: the forefathers of density
+
+ 337
+
+ As a professor at the University of Manchester, and later back at Cambridge Uni
+
+ versity, Hartree continued to perform various kinds of self-consistent atomic structure
+ calculations for many years. His 1957 monograph, The Calculation of Atomic Struc
+ tures, summarized 30 years of work by himself, his students, and his collaborators. The
+
+ titles of two earlier books, Calculating Instruments and Machines (1949) and Numeri
+
+ cal Analysis (1952), reveal two other passions of his mature scientific life. Particularly
+ notable are the many contributions he made to the design, construction, and application
+
+ of an analog device designed to integrate differential equations mechanically called
+ a differential analyzer. He was also one of the first (scientific) users of the ENIAC
+ (Electronic Numerical Integrator and Computer), the first electronic, general-purpose
+
+ programmable digital computer. The last decade of his life was spent promoting and
+ popularizing the use of computers in all areas of science and engineering.
+
+ 3 Hilleth Thomas and the statistical atom
+
+ London native Llewellyn Hilleth Thomas was told that as a small child he "could say
+
+ at once what day of the week it would be on any date in the next few years" (Thomas
+ 1975). He recalled reading a popular account of the Bohr atom around the age of
+ 10 years and went up to Trinity College, Cambridge at age 18. As an undergraduate,
+ Thomas attended lectures given by a galaxy of scientific stars including Charles
+ G. Darwin, Thomas J. Bromwich, John E. Littlewood, Geoffrey I. Taylor, Arthur
+ S. Eddington, E. Arthur Milne, and Joseph Larmor (Jackson 2009). In his final term
+
+ (Easter 1924), he followed his usual practice and took careful notes of Ralph Fowler's
+ lectures on "The Quantum Theory of Spectra".7
+
+ Llewellyn Hilleth Thomas (ca. 1961)
+
+ Courtesy of the AIP Emilio Segrè Visual Archive.
+
+ ^ Thomas' lecture notes for his Cambridge courses (1922—1925) are available at the Archive for Sources
+
+ for History of Quantum Physics, American Philosophical Society Memoir 68, 1967, Microfilm 5.
+
+ Ô Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:01:12 UTC
+All use subject to https://about.jstor.org/terms
+
+ 338 A. Zangwill
+
+ In the fall of 1924, Thomas began graduate studies with Fowler just as the latter
+
+ left to begin an academic year-long visit to Bohr's institute in Copenhagen. The main
+
+ thrust of Thomas' thesis work was to be classical calculations relevant to the passage
+ of charged particles through matter.8 However, in Fowler's absence, Thomas worked
+
+ on an old quantum theory problem which became the subject of his first published
+
+ paper, "An extended form of Kronecker's theorem with an application which shows that
+
+ Burgers' theorem on adiabatic invariants is statistically true for an assembly" (Thomas
+
+ 1925). We discuss this little-known and awkwardly-titled paper—which won him the
+ coveted Smith Prize for 1925—because its content bears directly on Thomas' later
+ invention of the statistical atom.
+
+ As early as 1918, Bohr used ideas developed by his Leiden colleague Paul Ehrenfest
+
+ to justify the quantization rules which elevated certain classical electron orbits to the
+ status of "stationary states" (Darrigol 1992; Kragh 2012). These stationary orbits
+
+ needed to maintain their integrity in the presence of modest perturbations like the
+
+ application of external electric and magnetic fields. This implied that the phase integral
+
+ in Eq. (1) had to remain the same ("invariant") when very slow ("adiabatic") changes
+ were made to the Hamiltonian that defined the orbits. For his Ph.D. work, Ehrenfest's
+
+ student Johannes Martinus Burgers proved that this was true for multiply periodic
+ systems (like many-electron atoms) as long as the various frequencies present in the
+ Fourier decomposition of the orbital motions were not related to one another in a
+ simple way (Burgers 1917). Unfortunately, there was good reason to believe that
+
+ the unwanted relations between frequencies could not be avoided in practice. Early in
+ 1925, this motivated Dirac and Max von Laue to independently publish generalizations
+ of Burgers' theorem that removed this assumption (Dirac 1925; von Laue 1925).
+ Thomas was aware of the work of Dirac and von Laue and took a rather different
+
+ approach to the problem.9 His paper asserts that
+
+ The quantum conditions must be such that they are, statistically, adiabatic invari
+ ants, but need not necessarily be so for single systems. ...it is clear that the
+ average changes in [the invariant] can be made as small as we like in an assem
+
+ bly of similar systems sufficient in number for the state of the assembly to be
+ represented sufficiently by a continuous density in its phase space.
+
+ The remark about "a continuous density in its phase space" speaks to Thomas' aim
+ to prove Burgers' theorem as a statistical result using his own generalization of a
+ theorem proved by the mathematician Leopold Kronecker (Kronecker 1884). One
+ starts with the points {nx\,nx2,, nx^) in a -dimensional space where η — 1,2,...
+
+ and the Xk are independent irrational numbers. If one retains only the decimal part
+ of each nxm, Kronecker's theorem states that the points are densely distributed in
+
+ a ^-dimensional unit cube. The connection between this result and the dense filling
+ of phase space needed to compute statistical averages was by then well established
+
+ by scientists working to apply the methods of probability theory to physics problems
+
+ 8 This was a favorite subject of Fowler at the time. See Sect. 4 of the Bibliography of Milne (1945).
+
+ 9 Dirac (1925) thanks Fowler "for suggesting this investigation and for his help during its progress. Thomas
+ (1925) thanks "J.E. Littlewood for his criticism and encouragement" and Fowler "for his help". It is not
+ clear if Fowler actually suggested this topic to Thomas.
+
+ Ô Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:01:12 UTC
+All use subject to https://about.jstor.org/terms
+
+ Hartree and Thomas: the forefathers of density 339
+
+ (von Plato 1994). A statistical proof of the Burgers' theorem followed by applying
+ this idea to the orbits used to compute the Bohr-Sommerfeld phase integrals.
+
+ Fowler arranged for Thomas to spend his second academic year in graduate school
+ (1925-1926) at Bohr's institute in Copenhagen. This turned out to be his annus
+ mirabilis. Most famously, he exploited his knowledge of relativity learned at Cam
+ bridge from Arthur Eddington and applied Willem De Sittter's relativistic corrections
+
+ to the moon's motion to the motion of an electron with spin angular momentum
+ (Thomas 1975). This work, done "over a weekend at Christmas time" produced the
+ "Thomas precession factor of 1/2" that reconciled the magnitude of the atomic fine
+
+ structure in hydrogen with the anomalous Zeeman effect (Thomas 1926a). Apart from
+
+ this, and despite meeting Kramers, Heisenberg and Wolfgang Pauli, the remainder of
+
+ Thomas' activity in Copenhagen had nothing to do with the exciting work being done
+ by these physicists (or his classmate Dirac) to invent the new quantum mechanics. As
+
+ he later put it, "I was always slow in accepting new ideas and understood nothing of
+ this for four or five years" (Jackson 2009).
+
+ Our interest here is the work Thomas did at Bohr's institute motivated by his
+
+ familiarity with his classmate Hartree's Bohr-Sommerfeld calculations. Specifically
+ (Thomas. 1962),
+
+ it was a great deal of work to carry this through for any one atom, and the
+ question was whether one couldn't get by [with] a simple averaging assumption,
+
+ something which would be an approximation which would apply to all atoms.
+
+ The paper Thomas published on this subject, "The calculation of atomic fields", is very
+ terse (Thomas 1926b). A three-sentence introduction gives way quickly to "Assump
+ tions and the deduction from them of an equation". The explicitly stated assumptions
+
+ are (i) neglect relativity; (ii) the electrons possess an effective radial potential energy
+ V (r) which approaches zero as r -*■ oo and — Ze2/r as r 0 for an atom with
+ nuclear charge Z; (iii) the electrons are distributed uniformly in the phase space at
+ a rate of two for each phase space volume Λ3; and (iv) V(r) is determined by the
+ nuclear charge and the distribution of electrons as specified in (iii). The first two
+ assumptions were made by Hartree (1923b). The other two assumptions are more
+ interesting.
+
+ Thomas later recalled that the crucial assumption (iii) followed from his "old busi
+
+ ness of Kronecker's theorem and Burgers' theorem" which told him that "the Bohr
+ orbits filled up phase space uniformly. It was only a short step to saying that if you
+
+ have two electrons per orbit you just distribute them in the phase space and you have
+
+ naturally defined them up to a definite energy" (Thomas 1962). In other words, since
+
+ each differential element of phase space has volume d^pd^r, a spherical approxima
+
+ tion to the total volume of phase space occupied by all the electrons in a unit volume of
+
+ coordinate space at a radial distance r from the nucleus is (4π/3)p^ (r ), where po (r ) is
+ the momentum of the most energetic electron. Now, the statistical physics of the time
+ had established that each particle of even a classical system occupies a phase space
+ volume of Λ3 (Desalvo 1992). Therefore, using the recently deduced fact that each
+ Bohr orbit could accommodate two electrons (spin degeneracy), Thomas concluded
+
+ that the number density of electrons at each point in his statistical atom was
+
+ Ô Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:01:12 UTC
+All use subject to https://about.jstor.org/terms
+
+ 340 A. Zangwill
+
+ 2 4 ,
+
+ n(r) = -^-np0(r). (5)
+
+ This formula is true only for a system with uniform density; Thomas assumed it could
+
+ be used locally for an atom with a spatially varying number density. Therefore, if Ε ο is
+
+ the total energy of the most energetic electron so Eo = pl(r)/2m + V(r), the effective
+ potential determines the electron density from
+
+ n(r) = {2m[£-V(r)]}3/2.
+
+ (6)
+
+ Thomas' assumption (iv) makes the approximation that the electron density deter
+ mines the effective potential energy entirely through the Poisson equation of classical
+ electrostatics,
+
+ V2V(r) = -Ane2n(r).
+
+ Substituting Eq. (6) into Eq. (7) amounts to a requirement of self-consistency entirely
+
+ analogous to (albeit much simpler than) the later use of this concept by Hartree. Thomas
+ used a dimensionless radial distance ρ = r/a# and a dimensionless effective potential
+
+ φ(ρ) to write the one-dimensional, non-linear differential equation that results from
+ this substitution as
+
+ (7)
+
+ (8)
+
+ Today, Eq. (8) is called the Thomas-Fermi equation because Enrico Fermi indepen
+ dently derived Eqs. (5)-(8) about a year after Thomas' paper (Fermi 1927). For Fermi,
+
+ this was a natural application of the new statistics he had derived for particles that obey
+ the Pauli exclusion principle.10 We have seen that Thomas' line of reasoning was quite
+ different. Indeed, Thomas' derivation of Eq. (8) in Copenhagen preceded the publi
+ cation of the 1926 papers by both Fermi and Dirac where they announced what we
+ today call "Fermi-Dirac" statistics.11
+
+ The majority of Thomas' paper concerns the integration of Eq. (8). He only needed
+ to do this once because, with φ(ρ) in hand, a simple return to the original variables
+
+ (including the atomic number) made the results applicable to any atom. Thomas later
+ reported that the solution "took considerable time to do since it involved numerical
+ integration. I didn't know how to do numerical integration. I had to learn" (Thomas
+
+ 1962). Using logarithmic tables and the textbook by Whittaker and Robinson (1924),
+
+ he computed the effective nuclear charge from Eq. (2) and compared his results with
+ unpublished Bohr-Sommerfeld results for this quantity for cesium he had obtained
+ from Hartree. The agreement was quite satisfactory. Indeed, Hartree's first paper on
+
+ 10 See the commentary by Franco Rasetti on papers 43-38 of Fermi (1962).
+
+ " It is very unlikely Thomas would have seen the February 1926 Italian version of Fermi's paper on
+ quantum statistics. The easily accessible German version did not appear until April, one month after Thomas
+ completed his numerical integration of Eq. (8). Dirac's paper appeared in August.
+
+ "£) Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:01:12 UTC
+All use subject to https://about.jstor.org/terms
+
+ Hartree and Thomas: the forefathers of density 341
+
+ his self-consistent method (discussed in Sect. 2) remarks that "the [charge] distribution
+ given by Thomas' method is a good smoothed-out approximation to the distribution
+ giving the self-consistent field" (Hartree 1928a).
+
+ Dirac (1930) soon generalized the Thomas-Fermi atom to include quantum
+ mechanical exchange and Wilhelm Lenz (1932) showed that the Thomas-Fermi
+ equation follows naturally from a variational principle if the energy is chosen as a
+ specific functional of the density alone. An important advance was made when Carl
+ Friedrich von Weizsâcker (1935) introduced a density gradient Vp(r) into the Lenz
+ energy functional to provide a better description of density inhomogeneities. The
+ theory has been used extensively over the years in atomic physics, plasma physics,
+
+ astrophysics, nuclear physics, and condensed matter physics whenever the need to dis
+
+ cover broad trends was greater than the need for great accuracy. Indeed, a commentator
+ mused in 1991 that (Spruch 1991)
+
+ it would be interesting to contemplate how profitable it might have been for
+ Thomas and Fermi.. .to have formed a Thomas-Fermi Model Company. It would
+
+ certainly have been a growth industry, for there have been literally thousands of
+ published articles based on the model.
+
+ By the time he returned to Cambridge in the fall of 1926, Thomas had completed
+ (or nearly completed) the work for seven research papers.12 He received his Ph.D. in
+
+ 1927 and took an assistant professor position at Ohio State University in 1929. During
+
+ 17 years at Ohio State, Thomas published papers on diverse topics ranging from the
+ quantum theory of optical reflection from metallic surfaces to non-linearities in the
+
+ ro-vibrational spectrum of polyatomic molecules to the introduction of the "sector
+
+ focusing" method for charged particles in cyclotrons. He spent 3 years during World
+
+ War II at the Aberdeen Proving Ground where, like Hartree during World War I, he
+ was attached to a Ballistics Research Laboratory (Price 1994). A1946 move to the new
+ IBM Watson Scientific Computing Laboratory at Columbia University began a new
+ phase of his research career. Again like Hartree, Thomas contributed significantly to
+ both the design of computer hardware and to the development of numerical methods
+ designed to exploit the newly available computing power. Historians of computing
+ credit Thomas with the first variable-step-size algorithm for the efficient numerical
+ integration of differential equations (Gear and Skeel 1990).
+
+ At the Watson Lab (Brennan 1971),
+
+ Thomas pioneered in the development of an iterative computer method of approx
+
+ imating wave functions for three-particle problems and in adapting for computer
+
+ solution problems in hydrodynamics, elasticity theory and electron distributions
+
+ in atoms... As far back as 1946, he had considered the possibility of using tiny
+
+ pieces of various kinds of steels to store information magnetically and perform
+ logic—work which anticipated the subsequent development of magnetic core
+
+ memory.
+
+ 12 One of these (Thomas 1927), reports a tour-de-force classical calculation of electron capture by double
+
+ scattering which has withstood the test of time and subsequent quantum mechanical calculations (Shakeshaft
+ and Spruch 1979).
+
+ ^ Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:01:12 UTC
+All use subject to https://about.jstor.org/terms
+
+ An article entitled "The use of large scale computing in physics" was intended to
+ alert physicists to both the hardware and numerical methods then available to solve a
+
+ variety of problems they might encounter in their work (Sheldon and Thomas 1953).
+ Thomas moved to North Carolina State University in 1968 where he "continued his
+
+ role as encyclopedic scholar" until his retirement in 1976 (Jackson 2009).
+
+ 4 Density functional theory
+
+ 342 A. Zangwill
+
+ Essential features of Thomas' statistical atom and Hartree's self-consistent atom were
+
+ combined and generalized in the mid-1960s by an approach to the electronic structure
+
+ of many-electron systems called density functional theory (DFT). In its many vari
+ ations, DFT is arguably the most popular method used by contemporary physicists,
+
+ chemists, and material scientists who are interested to calculate (albeit approximately)
+ the electronic, mechanical, and thermal properties of atoms, molecules, and condensed
+
+ phases (Koch and Holthausen 2000; Louie and Cohen 2006). Several of the most highly
+ cited papers in the entire physics literature pertain to DFT (Redner 2005) and one-half
+
+ of the 1998 Nobel Prize for Chemistry was awarded for the development of the theory.
+
+ Density functional theory was born in 1964 when physics professor Walter Kohn
+ (then at the University of California at San Diego) and post-doctoral fellow Pierre
+ Hohenberg published a paper with the innocuous title "Inhomogeneous electron gas"
+ (Hohenberg and Kohn 1964). The paper's abstract establishes the authors' interest in
+
+ "the ground state of an interacting electron gas in an external potential t>(r)." A typical
+ example of the latter is the Coulomb potential produced by one or more positively
+ charged atomic nuclei fixed in space. In their introduction, Hohenberg and Kohn (HK)
+ single out the usefulness of the Thomas-Fermi method for its "simple though crude
+ descriptions of inhomogeneous systems like atoms and impurities in metals".13 They
+
+ alert the reader that the Thomas-Fermi method had seen "some important advances...
+ in the last decade" and announce that "the present paper represents a contribution in
+
+ the same area." In this way, they prepare the reader to engage with a work where "the
+ electronic density n{r) plays a central role."
+
+ The first result HK report is a four-line reductio ad absurdum proof that the exact
+
+ ground state energy of a many-electron system is a functional of the ground-state
+ electron density, i.e., Ε — £'[n(r)]. This was quite unexpected because, up to that
+
+ point, it was widely believed that any calculation of the ground state energy required
+
+ knowledge of either the many-particle wave function or the two-particle density matrix
+
+ (Lôwdin 1960; Pople 1999). HK then cite the long range of the Coulomb interaction as
+
+ motivation to "separate out the classical Coulomb energy" and write the total energy
+ functional in the form,
+
+ E[n\ = J d3r v(r)n(r) + ~ J d3r J + G[n]. (9)
+
+ HK do not refer to the original papers of either Thomas or Fermi. Instead, they direct the reader to a
+
+ review paper (March 1957).
+
+ Ô Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:01:12 UTC
+All use subject to https://about.jstor.org/terms
+
+ Hartree and Thomas: the forefathers of density 343
+
+ The first term on the right side of Eq. (9) is the interaction energy of the electrons
+
+ with the external potential u(r). The second term is the classical Coulomb self-energy
+ of the electrons. The functional G[«] in Eq. (9) includes the exact kinetic energy of the
+ electron system, as well as all the energy associated with electron-electron Coulomb
+
+ repulsions not already counted by the classical electrostatic energy. Specifically, the
+ classical term does not account for quantum mechanical exchange effects which tend
+
+ to keep electrons with the same spin apart and short-range correlation effects which
+ tend to keep electrons with opposite spin apart.
+
+ A major interest of HK was to study approximations to G[n] for electron systems
+
+ with nearly constant density or with a slowly varying density. In both cases, they used
+ information that was known at the time about the homogeneous electron gas. This is
+
+ a model system of quantum mechanical electrons with uniform density η and infinite
+
+ volume. For example, if the sum of the kinetic, exchange, and correlation energy per
+ particle for this gas is
+
+ £θ(Ό — foOO + ^exchange "1" ^correlation("),
+
+ (10)
+
+ one simple approximation to G[«] for an inhomogeneous gas is to evaluate Eq. (10)
+
+ using the local electron density at every point in the system, weight this energy/particle
+
+ by the local density itself, and integrate over all of space to get14
+
+ In a section designed to make contact with Thomas-Fermi theory, HK make a
+ drastic approximation to Eq. (10). They neglect the exchange and correlation energies
+
+ altogether and approximate the exact kinetic energy per particle to(n) by the kinetic
+
+ energy per particle of a non-interacting electron gas with uniform density n. The latter
+
+ is the kinetic energy per particle the electrons would have if they had no electric charge.
+ Using this approximation for go(n) to evaluate Eq. (11) gives
+
+ Substituting Eq. (12) and the potential energy u(r) = —Ze2/r into Eq. (9) produces
+ exactly the energy functional used by Lenz (1932) to derive the Thomas-Fermi equa
+
+ tion (8) by varying the density function. HK thereby demonstrated that the Thomas
+
+ Fermi method is the simplest possible version—and therefore the natural intellectual
+
+ precursor—of their more general density functional theory. Most of the remainder of
+
+ the HK paper examines systematic improvements to Eq. (11) from a formal point of
+
+ view. Among other insights, their analysis provided a way to explain (Hohenberg and
+ Kohn 1964)
+
+ 14 HK actually define go as the energy per unit volume rather than the energy per particle. We use the latter
+ here to simplify comparison with Kohn and Sham (1965) discussed later.
+
+ (11)
+
+ (12)
+
+ ^ Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:01:12 UTC
+All use subject to https://about.jstor.org/terms
+
+ 344 A. Zangwill
+
+ why neither the original Thomas-Fermi method.. .nor its generalizations by
+ the addition of gradient terms, have correctly yielded wave-mechanical density
+
+ oscillations, such as the density oscillations in atoms which correspond to shell
+
+ structure, or the Friedel oscillations in alloys which are of the same general origin.
+
+ One year later, Kohn and another post-doctoral fellow, Lu Jeu Sham, published a
+
+ paper (Kohn and Sham 1965) which they suggested would "offer the hope of new
+ progress" for the "theory of cohesive energies, elastic constants, etc. of real (i.e., inho
+
+ mogeneous) metals and alloys." In the introduction to this paper, Kohn and Sham
+ (KS) remind the reader that the Thomas-Fermi method uses the properties of a homo
+
+ geneous electron system to study the properties of inhomogeneous electron systems.
+
+ They then announce their goal to
+
+ use the formalism of HK to carry this approach further... [to] obtain a set of
+ self-consistent equations which include, in an approximate way, exchange and
+
+ correlation... [and] which are analogous to the conventional Hartree equations.15
+
+ The key insight used by KS was to partition the energy functional E[n] in a different
+
+ way than HK had done in Eq. (9). Specifically, they wrote
+
+ E[n] = TN[n\ + J d3r u(r)n(r) + ^J d3r J d+ Exc[n\. (13)
+
+ The first term on the right side of Eq. (13) is the exact kinetic energy of a collection of
+ non-interacting electrons with charge density «(r).16 The second and third terms are
+
+ the same as those in Eq. (9). The final "exchange-correlation" term Exc[n] is similar
+ to G\n\ in Eq. (9) in the sense that it accounts for all the energy associated with the
+ electron-electron Coulomb repulsions not already counted by the classical Coulomb
+ self-energy. However, where G[n] had also to account for the total kinetic energy of
+
+ the real electron system, Exc [«] has only to account for the difference in kinetic energy
+
+ between the real electron system an'd the non-interacting electron system. In this way,
+ Eq. (13) sweeps the most difficult part of the many-body problem into the exact and
+ universal (but generally unknown) functional Exc[ri\.
+
+ Kohn and Sham proceeded to vary their expression for E\n] with respect to the
+
+ density. However, their familiarity with the variational approach to Hartree theory17
+
+ informed them that the very same variational principle results if one considers a set of
+
+ Ν one-electron orbital functions <j>t(r), writes the electron number density as n(r) =
+
+ ΣίkL ι \4>k(r)\2, and use the exact quantum mechanical expression for the kinetic energy
+ of Ν non-interacting electrons assumed to occupy these orbitals:
+
+ 15 KS do not cite either the original paper by Hartree or any general review of his method. Presumably, they
+
+ assumed that the Hartree equations were "conventional" and well-known to their readers. This is plausible,
+ because their readers were mostly solid-state physicists and the standard solid-state textbook at that time
+ by Seitz (1940) discusses the Hartee equations thoroughly.
+
+ 16 This differs from the approximation to the kinetic energy discussed above Eq. ( 12) which uses the kinetic
+
+ energy of non-interacting electrons with uniform density to evaluate Eq. (11).
+
+ 17 Kohn had previously taught a class using the textbook by Seitz (1940), which reproduces the variational
+ derivation of Hartree's equation in its Appendix. See Kohn (1998).
+
+ Ô Spring er
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:01:12 UTC
+All use subject to https://about.jstor.org/terms
+
+ Τν = Σ/ d3/"^(r) [-^y2J ^(Γ)· (14)
+
+ By varying the orbitals rather than the density (just as Slater and Fock had done in
+ 1930), KS found that the orbitals satisfy exactly the self-consistent Hartree equations
+
+ except that the potential v(p) in the one-particle Schrodinger equation (4) contains an
+ extra term besides the external and classical Coulomb potentials. This new term comes
+
+ from the variational derivative of the exchange-correlation energy and is explicitly a
+
+ local function of position,
+
+ Hartree and Thomas: the forefathers of density 345
+
+ Γ Γ Ί
+
+ vxc(n( r)) =
+
+ &Exc[n(r)]
+
+ 5n(r)
+
+ This analysis permitted KS to establish an important point of principle. If Exc [n (r)]
+ is known, the exact solution of the many-body problem has the same form as (and
+ is no more difficult to solve numerically than) Hartree's self-consistent equations.
+ Of course, Exc[n] is not known in general (this would imply that the problem of
+ interest was already solved) and KS proposed to use a local density approximation
+ (LDA) based on exc (η), the exchange-correlation energy per particle of a homogeneous
+
+ electron gas:18
+
+ (15)
+
+ (16)
+
+ This suggestion could be used immediately for practical calculations because good
+ approximations for exc[n] had recently been summarized by Pines (1963). KS did not
+
+ report calculations of this kind themselves. Instead, they studied gradient corrections
+ to Eq. (16), considered a Hartree-Fock-like version of their theory, and compared
+ an explicit version of Eq. (16) with a local potential that had been proposed years
+ earlier by Slater (1951) to approximate the non-local exchange potential. Six months
+ later, Sham and one of Kohn's Ph.D. students, Bok Yin Tong, published numerical
+
+ results for the energies and charge densities of a series of atoms using the local density
+
+ approximation (Tong and Sham 1966). The results reported for the ionization energies
+ of a sequence of oxygen ions were judged by the authors to be "in good shape"
+ compared to experiment. LDA calculations became a growth industry soon thereafter.
+
+ 5 Conclusion
+
+ This paper has chronicled how two Cambridge classmates in the 1920s, Douglas
+ Hartree and Hilleth Thomas, used largely heuristic arguments to propose complemen
+
+ tary approximate theories for the electronic structure of many-electron atoms. Both
+ went on to have successful scientific careers and both made significant contributions
+
+ In the main body of their paper, KS propose Eq. (16) at the same time that they derive their Hartree-like
+
+ equations. A note added in proof points out that the definition of vxc(r) in Eq. (15) makes the Hartree-like
+ equations formally exact.
+
+ Ô Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:01:12 UTC
+All use subject to https://about.jstor.org/terms
+
+ 346 A. Zangwill
+
+ to numerical analysis and to computer hardware. 40 years later, Hohenberg, Kohn, and
+ Sham fused and generalized the work of Hartree and Thomas to produce a formally
+
+ exact theory applicable to any system of electrons subject to a fixed external potential.
+ The circumstances that motivated Kohn and his collaborators to develop density func
+
+ tional theory when they did, the subsequent history that attended the basic theory, the
+
+ responses to their proposed local density approximation, and the evolving reactions
+
+ of different segments of the physics and chemistry communities to DFT, are issues to
+
+ be explored in future publications.
+
+ References
+
+ Brennan, J.F. 1971. The IBM Watson Laboratory at Columbia University. A History. Armonk,
+ NY: International Business Machines Corporation. Available online at http://www.columbia.edu/cu/
+
+ Burgers, J.M. 1917. Adiabatic invariants of mechanical systems. Proceedings of the Royal Netherlands
+
+ computinghistory/brennan/index.html.
+
+ Academy of Arts and Science 20: 149-169.
+
+ Cowan, R.D. 1981. The Theory of Atomic Structure and Spectra. Berkeley: University of California Press.
+ Darrigol, O. 1992. From c-numbers to q-numbers. Berkeley: University of California Press.
+ Darwin, C.G. 1958. Douglas Rayner Hartree. 1897-1958. Biographical Memoirs of Fellows of the Royal
+
+ Desalvo, A. 1992. From the chemical constant to quantum statistics: a thermodynamic route to quantum
+
+ Dirac, P.A.M. 1925. The adiabatic invariance of quantum integrals. Proceedings of the Royal Society
+
+ Dirac, P. A.M. 1930. Note on exchange phenomena in the Thomas atom. Proceedings of the Cambridge
+
+ Fermi, E. 1927. A statistical method for the determination of some atomic properties (in Italian). Rendiconti
+
+ Society 4: 102-116.
+
+ mechanics. Physics 29: 465-537.
+
+ (London)A 107: 725-734.
+
+ Philosophical Society 26: 376-385.
+
+ Lincei 6: 602-607.
+
+ Scientific.
+
+ Fermi, E. 1962. Collected Papers, vol. 1. Chicago: University of Chicago Press.
+ Fischer, C.F. 2003. Douglas Rayner Hartree: His Life in Science and Computing. New Jersey: World
+
+ Fock, V. 1930. Approximate methods for the solution of the quantum mechanical many-body problem
+
+ Fues, E. 1922a. The calculation of non-hydrogen spectra from the central motions of the electrons
+
+ (in German). Zeitschrift fur Physik 61: 126-148.
+
+ (in German). Zeitschrift fiir Physik 11: 364-378.
+
+ Fues, E. 1922b. The calculation of non-oxygen spectra from the central motions of the electrons (in German).
+
+ Zeitschrift fur Physik 12: 1-12.
+
+ Fues, E. 1923. The relationship of the arc spectrum of sodium to the first spark spectrum of magnesium and
+
+ to the second spark spectrum of aluminum (in German). Zeitschrift fiir Physik 13:211-220.
+
+ Gear, C.W., and R.D. Skeel. 1990. The development of ODE methods: a symbiosis between hardware and
+ numerical analysis. In A History of Scientific Computing, ed. Stephen G. Nash, 88-105. Reading, MA:
+ Addison-Wesley.
+
+ Hartree, D.R.I 923a. On the correction for non-uniformity of field in experiments on the magnetic deflection
+
+ of β rays. Proceedings of the Cambridge Philosophical Society 21: 746-756.
+
+ Hartree, D.R. 1923b. On some approximate numerical applications of Bohr's theory of spectra. Proceedings
+
+ of the Cambridge Philosophical Society 21: 625-641.
+
+ Hartree, D.R. 1928a. The wave mechanics of an atom with a non-Coulomb central field. Part I. Proceedings
+
+ of the Cambridge Philosophical Society 24: 89-110.
+
+ Hartree, D.R. 1928b. The wave mechanics of an atom with a non-Coulomb central field. Part II. Proceedings
+
+ of the Cambridge Philosophical Society 24: 111-132.
+
+ Hohenberg, P., and W. Kohn. 1964. Inhomogeneous electron gas. Physical Review 136: B864-B871.
+ Jackson, J.D. 2009. Llewellyn Hilleth Thomas. Biographical Memoirs of the National Academy of Sciences.
+
+ Washington, D.C.: National Academy of Sciences Press.
+
+ Ô Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:01:12 UTC
+All use subject to https://about.jstor.org/terms
+
+ Hartree and Thomas: the forefathers of density 347
+
+ James, R.W., Waller, I., and Hartree, D.R. 1928. An investigation into the existence of zero-point energy in
+ the rocksalt lattice by an X-ray diffraction method. Proceedings of the Royal Society (London) A 118:
+ 334-350.
+
+ Jammer, M. 1966. The Conceptual Development of Quantum Mechanics. New York: McGraw-Hill.
+ Jeffreys, B.S. 1987. Douglas Rayner Hartree (1897-1958). Comments on Atomic and Molecular Physics
+
+ Koch, W., and M.C. Holthausen. 2000. A Chemist's Guide to Density Functional Theory. Weinheim: Wiley
+
+ Kohn, W. 1998. Nobel Prize Autobiography. Available online at http://www.nobelprize.org/nobel_prizes/
+
+ Kohn, W., and L.J. Sham. 1965. Self-consistent equations including exchange and correlation effects.
+
+ chemistry/laureates/1998/kohn-autobio.html
+
+ Physical Review 140: Al 133-A1138.
+
+ Kragh, H. 2012. Niels Bohr and the Quantum Atom. Oxford: Oxford University Press.
+ Kronecker, L. 1884. Approximate integer solution of linear equations (in German). Monatsberichte der
+
+ Koniglichen Preussischen Akademie der Wissenschaften zu Berlin 1179-1193: 1271-1299.
+
+ Lenz, W. 1932. On the applicability of statistical methods to ion lattices (in German). Zeitschrift fur Physik
+
+ Louie, S.G., and M.L. Cohen. 2006. Conceptual Foundations of Materials. Amsterdam: Elsevier.
+ Lôwdin, P.-O. 1960. Quantum theory of electronic structure of molecules. Annual Review of Physical
+
+ Chemistry 11: 107-132.
+
+ March, N.H. 1957. The Thomas-Fermi approximation in quantum mechanics. Advances in Physics 6:1-101.
+ Mehra, J., andH. Rechenberg. 1982. The Historical Development of Quantum Theory. New York: Springer
+
+ Milne, E.A. 1945. Ralph Howard Fowler. 1889-1955. Obituary Notices of Fellows of the Royal Society 5:
+
+ Park, B.S. 1999. Between accuracy and manageability: computational imperatives in quantum chemistry.
+
+ Historical Studies in the Natural Sciences 39: 32-62.
+
+ Parr, R.G., and W. Yang. 1989. Density Functional Theory of Atoms and Molecules. New York: Oxford
+
+ University Press.
+
+ Pines, D. 1963. Elementary Excitations in Solids. New York: W.A. Benjamin.
+ Pople, J.A. 1999. Quantum chemical models. Reviews of Modern Physics 71: 1267-1274.
+ Price, P.J. 1994. Llewellyn H. Thomas. Physics Today 47(9): 115-116.
+ Redner, S. 2005. Citation statistics from 110 years of 'Physical Review'. Physics Today 58(6): 49-54.
+ Schrôdinger, E. 1926a. Quantization as an eigenvalue problem. Part I (in German). Annalen der Physik 79:
+
+ Schrôdinger, Ε. 1926b. Quantization as an eigenvalue problem. Part II (in German). Annalen der Physik
+
+ Schrôdinger, Ε. 1926c. Quantization as an eigenvalue problem. Part III (in German). Annalen der Physik
+
+ Schrôdinger, Ε. 1926d. Quantization as an eigenvalue problem. Part IV (in German). Annalen der Physik
+
+ 20: 189-198.
+
+ VCH.
+
+ 77:713-721.
+
+ Verlag.
+
+ 60-78.
+
+ 489-527.
+
+ 79: 734-756.
+
+ 80: 437-490.
+
+ 81: 109-139.
+
+ 24: 235-242.
+
+ Seitz, F. 1940. The Modern Theory of Solids New York. New York: McGraw-Hill.
+ Shakeshaft, R., and L. Spruch. 1979. Mechanisms for charge transfer at asymptotically high impact veloc
+
+ ities. Reviews of Modern Physics 51: 369-40.
+
+ Sheldon, J., and L.H. Thomas. 1953. The use of large scale computing in physics. Journal of Applied Physics
+
+ Slater, J.C. 1930. Note on Hartree's method. Physical. Review 35: 210-211.
+ Slater, J.C. 1951. A simplification of the Hartree-Fock method. Physical Review 81: 385-390.
+ Slater, J.C. 1975. Solid State and Molecular Theory: A Scientific Biography. New York: Wiley.
+
+ Spruch, L. 1991. Pedagogic notes on Thomas-Fermi theory (and on some improvements): atoms, stars, and
+
+ the stability of matter. Reviews of Modern Physics 63: 151-209.
+
+ Thomas, L.H. 1925. An extended form of Kronecker's theorem with an application which shows that Burg
+
+ ers' theorem on adiabatic invariants is statistically true for an assembly. Proceedings of the Cambridge
+ Philosophical Society 22: 886-903.
+
+ Thomas, L.H. 1926a. The motion of the spinning electron. Nature 117: 514.
+ Thomas, L.H. 1926b. The calculation of atomic fields. Proceedings of the Cambridge Philosophical Society
+
+ 23: 542-548.
+
+ ^ Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:01:12 UTC
+All use subject to https://about.jstor.org/terms
+
+ Thomas, L.H. 1927. On the capture of electrons by swiftly moving electrified particles. Proceedings of the
+
+ Royal Society (London) A 114: 561-576.
+
+ Thomas, L.H. 1962. Transcript of an interview by T.S. Kuhn and G. Uhlenbeck, May 10, 1962. Niels Bohr
+
+ Library & Archives. Center for the History of Physics: American Institute of Physics.
+
+ Thomas, L.H. 1975. Reminiscences. International Journal of Quantum Chemistry S9: 3^1.
+ Tong, B.Y., and L.J. Sham. 1966. Application of a self-consistent scheme including exchange and correlation
+
+ effects in atoms. Physical Review 144: l^t.
+
+ Unsold, A. 1927. Articles on the quantum mechanics of the atom (in German). Annalen der Physik 82:
+
+ 348 A. Zangwill
+
+ 355-393.
+
+ 619-628.
+
+ van der Kloot, W. 2011. Mirrors and smoke: A.V. Hill, his Brigands, and the science of anti-aircraft gunnery
+
+ in World War I. Notes and Records of the Royal Society 65: 393-410.
+
+ von Laue, M. 1925. On the principle of mechanical transformability (in German). Annalen der Physik 76:
+
+ von Plato, J. 1994. Creating Modern Probability. Cambridge: Cambridge University Press.
+ von Weizsâcker, C.F. 1935. On the theory of nuclear masses (in German). Zeitschriftfiir Physik 96:431^458.
+ Whittaker, E.T., and G. Robinson. 1924. The Calculus of Observations. London: Blackie and Son.
+
+ Ô Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:01:12 UTC
+All use subject to https://about.jstor.org/terms
+
+

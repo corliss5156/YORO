@@ -1,0 +1,2228 @@
+ 
+
+ 
+
+ 
+
+ 
+
+Historical development of Teichmüller theory
+Author(s): Lizhen Ji and  Athanase Papadopoulos
+Source: Archive for History of Exact Sciences, Vol. 67, No. 2 (March 2013), pp. 119-147
+Published by: Springer
+Stable URL: https://www.jstor.org/stable/23479263
+Accessed: 19-05-2020 12:02 UTC
+
+JSTOR is a not-for-profit service that helps scholars, researchers, and students discover, use, and build upon a wide
+
+range of content in a trusted digital archive. We use information technology and tools to increase productivity and
+
+facilitate new forms of scholarship. For more information about JSTOR, please contact support@jstor.org.
+
+Your use of the JSTOR archive indicates your acceptance of the Terms & Conditions of Use, available at
+
+https://about.jstor.org/terms
+
+Springer is collaborating with JSTOR to digitize, preserve and extend access to Archive for
+History of Exact Sciences
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:02:50 UTC
+All use subject to https://about.jstor.org/terms
+
+ Arch. Hist. Exact Sci. (2013) 67:119-147
+ DOI 10.1007/s00407-012-0104-y
+
+ Historical development of Teichmuller theory
+
+ Lizhen Ji • Athanase Papadopoulos
+
+ Received: 26 May 2012 / Published online: 28 June 2012
+ © Springer-Verlag 2012
+
+ Abstract Originally, the expression "Teichmiiller theory" referred to the theory that
+ Oswald Teichmiiller developed on deformations and on moduli spaces of marked
+ Riemann surfaces. This theory is not an isolated field in mathematics. At differ
+
+ ent stages of its development, it received strong impetuses from analysis, geometry,
+ and algebraic topology, and it had a major impact on other fields, including low
+ dimensional topology, algebraic topology, hyperbolic geometry, geometric group the
+
+ ory, representations of discrete groups in Lie groups, symplectic geometry, topological
+
+ quantum field theory, theoretical physics, and there are certainly others. Of course, the
+
+ impacts on these various fields are not equally important, but in some cases (namely,
+
+ low-dimensional topology, algebraic geometry, and physics) the impact was crucial.
+ At the same time, Teichmiiller theory established important connections between the
+
+ fields mentioned. This, in part, is a consequence of the diversity and the richness of the
+ structure that Teichmiiller space itself carries. From a more subjective point of view,
+
+ the result of pondering on these connections and applications demonstrates the unity
+ of mathematics. The aim of this paper is to survey the origin of Teichmiiller theory
+
+ and the development of its early major ideas.
+
+ Communicated by Jeremy Gray.
+
+ L. Ji (El)
+
+ Department of Mathematics, University of Michigan, Ann Arbor, MI, USA
+ e-mail: lji@umich.edu
+
+ A. Papadopoulos
+ Institut de Recherche Mathematique Avancee, Universite de Strasbourg, Strasbourg, France
+ e-mail: papadop@math.unistra.fr
+
+ <£) Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:02:50 UTC
+All use subject to https://about.jstor.org/terms
+
+ 120 L. Ji, A. Papadopoulos
+
+ 1 Introduction
+
+ Many people made substantial contributions to Teichmiiller theory by discovering
+ new ideas, or formulating important problems, or proving major results. In fact, to
+
+ understand the origin of this theory, one has to ponder on the origins of both Riemann
+
+ surface theory and of the theory of complex functions. In this respect, we shall mention
+ a certain number of names, but two names appear to the forefront, Riemann and
+ Teichmiiller.
+
+ There are very few mathematicians whose works had as much influence on math
+ ematics as Riemann. Ahlfors (1953, p. 53) wrote: "The spirit of Riemann will move
+
+ future generations as it has moved us." Since our purpose in this paper is not to describe
+
+ the work of Riemann, but only the part of it related to Teichmiiller theory, his name
+
+ will be mainly attached to two fundamental objects: Riemann surfaces and the Rie
+ mann moduli space. The concept of Riemann surface arose in Riemann's attempt to
+ associate a surface to a multivalued algebraic function defined by a polynomial equa
+
+ tion so that the function becomes univalent, or "uniform" (this is probably the origin
+ of the word "uniformization"). Depending on the way one can represent a Riemann
+ surface, one can regard Riemann's moduli space from different points of view: as a
+
+ space of equivalence classes of branched coverings of surfaces, as a space of birational
+ equivalence classes of algebraic curves, as a space of equivalence classes of function
+ fields, etc. At Riemann's time, it was not easy to make precise relations between these
+
+ various points of view. Riemann wanted to understand the family of Riemann sur
+ faces, and his moduli space arose as an attempt to study the family of equivalence
+ classes of function fields on algebraic curves. One important step in the study of the
+ moduli space of surfaces was to count the number of parameters needed for the space
+ of equivalence classes of surfaces of a given topological type. Riemann made such a
+ parameter count although he did not have a topology or a complex structure on that
+ space, and therefore it is hard to give a precise meaning to this parameter count. In
+ this sense, Riemann's ideas are to be considered as a program rather than as results.
+ This was the opinion of Ahlfors (1982, vol. II, p. 207), of Klein (1882, pp. X and XI
+ of the Preface), and of several other people. Let us quote Ahlfors (1963a, p. 4):
+
+ Riemann's classical problem of moduli is not a problem with a single aim, but
+
+ a program to obtain maximum information about a whole complex of questions
+
+ which can be viewed from several different angles.
+
+ Let us also quote Bers, from a survey he wrote on the uniformization problem that
+ was started by Riemann (Bers 1976, p. 559):
+
+ A significant mathematical problem, like the uniformization problem which
+
+ appears as No. 22 on Hilbert's list, is never solved only once. Each generation of
+ mathematicians, as if obeying Goethe's dictum Was du ererbt von deinen Vatern
+ hast, erwirb es, um es zu besitzen} rethinks and reworks solutions discovered
+
+ by their predecessors, and fits these solutions into the current conceptual and
+ notational framework. Because of this, proofs of important theorems become,
+
+ 1 That which you have inherited from your fathers, earn it in order to possess it.
+
+ Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:02:50 UTC
+All use subject to https://about.jstor.org/terms
+
+ Teichmiiller theory
+
+ 121
+
+ and if by themselves, simpler and easier as time goes by—as Ahlfors observed
+ in his 1938 lecture on uniformization. Also, and this is more important, one
+ discovers that solved problems present further questions.
+
+ Monastyrsky wrote about Riemann (Monastyrsky 1987, p. 52): "It is difficult to
+
+ recall another example in the history of nineteenth-century mathematics when a strug
+
+ gle for a rigorous proof led to such productive results." A twentieth-century example
+ is certainly that of Teichmiiller. We can quote Ahlfors again, from his 1953 survey
+
+ Development of the theory ofconformal mapping and Riemann surfaces through a cen
+
+ tury (Ahlfors 1953, pp. 93 and ff.) written for a conference celebrating the hundredth
+
+ anniversary of Riemann's inaugural dissertation:
+
+ [...] Riemann's writings are full of almost cryptic messages for the future. For
+
+ instance, Riemann's mapping theorem is ultimately formulated in terms that
+
+ would defy any attempt of proof, even with modern methods. [...] In the pre
+
+ mature death of Teichmiiller geometric function theory, like other branches of
+
+ mathematics, suffered a grievous loss [...] Nothing could be more false than to
+ say that classical function theory has solved its problems and has therefore out
+
+ lived itself. Even without the introduction of completely new ideas the classical
+
+ problem of modules, vague as it is, and—to mention a more recent example—the
+
+ investigation of the true role played by Teichmiiller's extremal quasiconformal
+
+ mappings, are questions that can keep generations busy. [... ] Geometric function
+ theory of one variable is already a highly developed branch of mathematics, and
+
+ it is not one in which an easily formulated classical problem awaits its solution.
+
+ On the contrary it is a field in which the formulation of essential problems is
+ almost as important as their solution.
+
+ Today, 59 years after Ahlfors' statement, Teichmiiller theory is still growing, faster
+ than ever before. New ideas and new connections between this theory and several
+ domains in mathematics are still emerging.
+
+ The name of Teichmuller is attached to Teichmiiller space, i.e, the deformation space
+ of marked Riemann surfaces. Teichmuller space is an orbifold covering of Riemann's
+ moduli space. Riemann's problem of moduli was formulated precisely in terms of
+ complex geometry by Teichmuller, who emphasized the problem of understanding the
+
+ intrinsic properties of the moduli space as a variety. In particular, he realized the need
+
+ of using markings to unfold the singular points. Teichmuller (1939) after introducing
+
+ the deformation space that carries now his name, provided this space with a topology
+ that is induced from a metric (the so-called "Teichmiiller metric"). Teichmuller (1944)
+
+ equipped this space with the structure of a complex manifold, and this gave a meaning
+
+ to Riemann's parameter count. We also owe to Teichmuller the use of the theory of
+
+ quasiconformal mappings and that of quadratic differentials as two major ingredients
+
+ in the deformation theory of Riemann surfaces.
+
+ One special moduli space was well understood right from the beginning, and it
+ was certainly used as a motivation; this is the moduli space of the closed surface of
+ genus one (equivalently, the space of elliptic functions). From the point of view of
+ uniformization, this case was completely treated by Riemann (1857) (cf. Riemann's
+ remark, on Jacobi's Inversion Problem, p. 93 in the English Collected Works: "Until
+
+ 4?} Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:02:50 UTC
+All use subject to https://about.jstor.org/terms
+
+ 122
+
+ L. Ji, A. Papadopoulos
+
+ now the only parts of that investigation which have been worked out fully are those
+ mentioned in Sects. 1 and 2 and the first half of Sect. 3 related to elliptic functions").
+
+ We shall recall below that likewise, Teichmiiller space of the closed surface of genus
+
+ one was understood and completely analyzed by Teichmiiller.
+
+ Both Riemann and Teichmiiller had interior visions of theories on moduli that they
+ did not develop completely because both of them had short lives.2 Thus, they left
+ for other mathematicians—and not minor ones—the task of filling out the details
+
+ of their theories and transforming the sketches they left into complete and rigorous
+ results. Riemann's ideas were commented and complemented by Klein, and they
+ were the most influential on the works of Fricke, Koebe, Weierstrass, Poincare, Weyl,
+
+ and on the whole Italian school of algebraic geometry that grew up during the early
+
+ years of the twentieth century (one can mention the names of Castelnuovo, Enriques,
+ Torelli, Severi, and others). Teichmiiller's ideas were influential on all subsequent
+
+ developments of complex analysis, and they were at the basis of the works of Ahlfors,
+ Bers, Rauch, Kodaira, Spencer, and other complex analysts and geometers. It was
+ only after the work of generations of mathematicians that it became clear that the
+ intuitions that Riemann and Teichmiiller had were completely sound. Teichmiiller
+ theory had also an important impact on modern algebraic geometers, namely, Weil,
+ Grothendieck, Mumford, and many others. In some sense, ideas in the last paper of
+ Teichmiiller (1944) contributed to the birth of the modern theory of moduli spaces
+
+ in algebraic geometry and influenced the modern formulation of algebraic geometry
+ by Grothendieck (1960-1961). The fact that a large number of people contributed
+ to the foundations and the development of a single mathematical theory, each person
+
+ introducing an idea, or a technical tool, and sometimes a new problem, is an illustration
+
+ of how mathematics generally grows.
+
+ Andre Weil wrote, in a commentary to a 1958 paper in his Collected Works (1979,
+
+ vol. II, p. 545)
+
+ One should almost write a book, or at least a beautiful article, on the history of
+ moduli and moduli varieties; this has to be traced back to the beginning of the
+
+ theory of elliptic functions.
+
+ The present article is a small contribution to that project. The period we concentrate
+ on is roughly 1939-1959.
+
+ In what follows, we shall refer to foundational articles and surveys written by the
+
+ founders themselves and others written by other authors in the field.
+
+ We are grateful to the following colleagues with whom we corresponded regard
+ ing Teichmiiller's contribution: Oliver Baues, Peter Buser, Bill Fulton, Bill Gold
+
+ man, Bill Harvey, Linda Keen, Chris Leininger, Enrico Leuzinger, John Ratcliffe, and
+
+ Sumio Yamada. We are indebted to Bill Abikoff, to Scott Wolpert, and especially to
+
+ Jeremy Gray for several corrections and for valuable suggestions on a preliminary ver
+
+ sion of this paper. Remarks and corrections by Clifford Earle were essential. We are
+ most grateful to Norbert A'Campo for many valuable discussions and for his shared
+ enthusiasm.
+
+ 2 Riemann, born in 1826, died at the age of 39, and Teichmiiller, bom in 1913, died at the age of 30.
+
+ Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:02:50 UTC
+All use subject to https://about.jstor.org/terms
+
+ Teichmiiller theory
+
+ 123
+
+ 2 The quasiconformal theory
+
+ The classical proofs of several major results in Teichmiiller theory use the theory
+ of quasiconformal mappings even though the term "quasiconformal mapping" does
+ not always appear in the statements of these results. The results include the fact that
+
+ Teichmiiller space is homeomorphic to a cell, and the fact that it admits a canonical
+ holomorphic embedding in some CN.
+
+ We present in this section some aspects of the development of the theory of qua
+
+ siconformal mappings because of its importance. We start with Grotzsch's definition
+
+ and we shall review the use of this theory in Teichmiiller theory. We shall also describe
+
+ some major later developments and generalizations of quasiconformal mapping theory.
+ Before Teichmiiller, work on quasiconformal mappings was done in Grotzsch
+ (1932), Ahlfors (1935), and Lavrentieff (1935). Ahlfors gave a brief summary of the
+ early use of quasiconformal maps (Ahlfors 1964, p. 153). According to this account,
+
+ the first mention of quasiconformal mappings (by a different name) occurred in a 1928
+
+ paper by Grotzsch. Ahlfors adds, however, that the problem that Grotzsch solved there,
+
+ of finding the best mapping between a rectangle and a square, was first considered as
+
+ a mere curiosity, and that the full strength of quasiconformal mappings and their use
+
+ in the deformation theory of Riemann surfaces was first realized by Teichmiiller.3 Let
+ us quote Ahlfors (1964, p. 156):
+
+ The very genesis of quasiconformal mappings was connected with the elemen
+ tary extremal problem formulated by Grotzsch. Teichmiiller was the first to
+ extract a general principle: In a class of mappings it is required to find one
+ whose maximal dilatation is a minimum. It is to be expected that the solution is
+
+ unique, and that the extremal mapping is characterized by simple properties.
+
+ Likewise, Bers (1970, p. 180) writes:
+
+ [The approach of] applying quasiconformal mappings to the "problem of mod
+ uli" was pioneered by Teichmiiller 25 years ago.
+
+ In the rest of this section, after a quick review of the work of Grotzsch and of other
+ pioneers, we shall survey the work of Teichmiiller on quasiconformal mappings and
+
+ their subsequent use in Teichmiiller theory.
+
+ In (Grotzsch 1932), the author introduced the notion of quasiconformality of a map
+ between surfaces as a deviation from conformality. The quasiconformal deviation (or
+
+ "dilatation") of a differentiable map is defined as the supremum over all points on the
+
+ surface of the ratio of the major to the minor axes of the infinitesimal ellipses that are
+
+ images of infinitesimal circles. The following formula for the dilatation of a differen
+
+ tiable map / between two domains in the plane, at a point z, was given by Grotzsch:
+
+ . \fz(z)\ + \Mz)\
+ Z \fz(z)\-\Mz)\'
+
+ 3 Teichmuller, in his main paper (Teichmiiller 1939), quotes the papers of Grotzsch and of Ahlfors for the
+ notion of quasiconformal maps.
+
+ <£) Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:02:50 UTC
+All use subject to https://about.jstor.org/terms
+
+ 124
+
+ L. Ji, A. Papadopoulos
+
+ The dilatation of / is then
+
+ K(f) = sup Kf{z).
+
+ z
+
+ The dilatation of a map is invariant under composition by conformal mappings.
+
+ Ahlfors (1964, p. 153) writes that Grotzsch's paper was "buried in a small journal,"
+
+ that it first remained unnoticed, and that he himself learned of it by word of mouth in
+
+ 1931 and used it only in 1936.
+
+ In 1935, in the Soviet Union, Lavrentieff (1935) published a paper on partial differ
+
+ ential equations in which he introduced a notion of almost-analytic function ("fonction
+
+ presque-analytique") which is equivalent to the notion of quasiconformal mapping
+ considered by Grotzsch. Lavrentiev used these mappings in a study of the partial
+ differential equation that controls the flow of an incompressible fluid. He proved in
+
+ (Lavrentieff 1935) that if / is a sense-preserving homeomorphism between two sim
+ ply connected domains D and D' of the complex plane, then for almost all jc in D,
+ one can define the eccentricity of the infinitesimal ellipses that are images by / of
+ infinitesimal circles in D.
+
+ Ahlfors (1964, p. 153) says in his paper that it was not clear to him how the name
+
+ "quasiconformal mapping" originated. In a commentary on that paper (Ahlfors 1982,
+ vol. 1, p. 213), Ahlfors writes:
+
+ Quasiconformal mappings had been introduced already in 1928 by Grotzch, who
+ called them "nichtconforme Abbildungen" and almost simultaneously with my
+
+ paper by A. M. Lavrentiev, who used the term "fonctions presque analytiques". I
+
+ have been credited with being the first to have used the name "quasiconformal,"
+ which has become standard. The truth is that I cannot recollect having invented
+ the name, but I have also not been able to locate it elsewhere. Little did I know at
+
+ the time what an important role quasiconformal mappings would come to play
+ in my own work.
+
+ In any case, the expression appears in print in the fundamental paper on covering
+ surfaces (Ahlfors 1935).4 Again, according to Ahlfors (1964, p. 153):
+
+ In a few years it became increasingly clear that quasiconformal mappings merited
+
+ a theory of their own, a view that gained its strongest support from the more
+
+ prophetic than rigorous writings of Teichmiiller in 1938-1940.
+
+ In (Ahlfors 1978, pp. 72-73), he makes the following remarks on the status of
+
+ Teichmiiller's use of quasiconformal mappings
+
+ Quasiconformal mappings might have remained a rather obscure and peripheral
+
+ object of study if it had not been for Oswald Teichmiiller, an exceptionally gifted
+
+ and intense young mathematician and political fanatic, who suddenly made a fas
+
+ cinating and unexpected discovery. At that time, many special extremal problems
+ in quasiconformal mappings had already been solved, but these were isolated
+
+ without a connecting idea. In 1939, he presented to the Prussian Academy a
+
+ * This is the paper for which Ahlfors earned the Fields medal.
+
+ Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:02:50 UTC
+All use subject to https://about.jstor.org/terms
+
+ Teichmiiller theory
+
+ 125
+
+ now famous paper which marks the rebirth of quasiconformal mappings as a
+ new discipline which completely overshadows the rather modest beginnings of
+ the theory. With remarkable intuition he made a synthesis of what was known
+ and proceeded to announce a bold outline of a new program which he presents,
+ rather dramatically, as the result of a sudden revelation that occurred to him
+ at night. His main discovery was that the extremal problem of quasiconformal
+ mapping, when applied to Riemann surfaces, leads automatically to an intimate
+ connection with the holomorphic quadratic differentials on the surface. With
+
+ this connection the whole theory takes on a completely different complexion: A
+
+ problem concerned with non-conformal mappings turns out to have a solution
+
+ which is expressed in terms of holomorphic differentials, so that in reality the
+
+ problem belongs to classical function theory.
+
+ To say it briefly, Grotzsch solved the question of extremal quasiconformal mappings
+
+ between quadrilaterals, and after that, Teichmiiller addressed the problem of extremal
+ quasiconformal mappings between arbitrary Riemann surfaces. Teichmiiller (1939)
+ asserted that these mappings exist, that they are affine with respect to some singular
+
+ Euclidean structure on the surface, and that they are unique in their homotopy classes.
+
+ He introduced the notion of quadratic differential as an ingredient in this theory,
+ which provided an analytic setting to describe a quasiconformal mapping and the
+ underlying Euclidean structure for the extremal map and he gave a formula relating
+
+ the Beltrami coefficient of this extremal map to the quadratic differential. In that paper,
+
+ Teichmiiller used the notion of quasiconformality to define a metric on Teichmiiller
+
+ space. Starting from this work, quasiconformal mappings, used in measuring distances
+ between conformal structures, instead of being only "non-conformal" (as Grotzsch
+ had called them), became a basic ingredient of the theory of conformal mappings.
+ We shall further comment on this below. According to Ahlfors (1964, p. 156), after
+
+ he learned about the work by Grotzsch on extremal mappings between quadrilaterals,
+
+ Teichmiiller worked out the same problem for pentagons, and proved a result which
+ according to Ahlfors, is "already a sophisticated result. [...] The problem is more
+ complicated for hexagons, but can still be solved by the same method." Ahlfors then
+ adds:
+
+ Efforts to solve the [more general] problems had failed, but in a flash of genius
+ Teichmiiller came forth with a daring conjecture which he himself admitted
+ was based on almost nothing. In the few cases that could be solved explicitly he
+
+ observed that the solution was always given by a conformal mapping, followed by
+
+ an affine mapping, and by another conformal mapping. Teichmiiller conjectured
+
+ that the same would be true in all problems. For topological reasons, however, the
+
+ conformal mappings cannot be single-valued mappings, except in the simplest
+
+ cases, and by heuristic reasoning (we could say by sleight of hand), he concluded
+
+ that they must be determined, locally, by quadratic differentials with certain
+
+ special properties. [...] After hard work Teichmiiller finally managed to prove
+
+ his conjecture, but it took several years to produce a reasonably neat proof. Even
+ now, the available proofs leave much to be desired in way of directness and
+
+ simplicity.
+
+ Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:02:50 UTC
+All use subject to https://about.jstor.org/terms
+
+ 126 L. Ji, A. Papadopoulos
+
+ The most remarkable feature of this result is the direct connection it establishes
+
+ between quasiconformal mappings and quadratic differentials. This connection
+
+ is entirely unexpected and is a sure sign that the role of quasiconformal mappings
+
+ in function theory is far from superficial. Furthermore, any classically trained
+
+ analyst cannot dismiss as pure coincidence that the number of linearly indepen
+
+ dent quadratic differentials is precisely equal to the number of parameters, or
+ moduli, which according to Riemann characterize a closed Riemann surface of
+
+ given genus. TeichmUller does not fail to make the most of this observation.
+
+ The theory of quasiconformal maps has since been developed, extended and applied
+ to many different situations. The standard introduction and reference to quasiconfor
+
+ mal maps is the book (Ahlfors 1966), the first edition of which had educated gen
+ erations of mathematician. A book that emphasizes the low regularity character of
+ quasiconformal maps is Lehto and Virtanen (1965).
+
+ 3 Teichmiiller space
+
+ Teichmiiller space appeared for the first time in the literature in the paper by Teich
+ miiller (1939) entitled Extremale quasikonforme Abbildungen und quadratische Dif
+ ferentiate. Before that, a space of Riemann surfaces was only implicit in Klein (1883)
+ and in Klein and Robert (1897). A space of polygons in the hyperbolic plane that
+ parametrize Riemann surfaces is contained in the work of Poincare (1884), who used
+
+ it in an approach to the uniformization problem known as the "continuity method";
+ cf. the discussion in Gray (1986), also quoted in Ratcliffe (2006). A good refer
+ ence for this method and more generally for the uniformization theorem is the book
+ (Saint-Gervais 2010).
+
+ The name "Teichmiiller space" appears in a 1953-1954 survey article by Ahlfors,
+ but it seems that the expression was introduced by Weil; see the comments by Weil
+ in Weil's Collected Works (vol. II, p. 546), on his paper (Weil 1958a), where Weil
+ writes: "[...] this led me to the decision of writing up my observations on the moduli
+ of curves and on what I called 'Teichmiiller space' [...]"
+
+ Teichmiiller's (1939) paper is probably his most influential one, and it contains
+
+ the foundations of the theory. The paper contains ideas and few technical details. As
+
+ a matter of fact, this is the case with all of Teichmiiller's papers on the subject. In
+ the introduction, Teichmiiller declares that for some of his results, he gives only an
+ idea of the proof, and that his hope is to give sufficient heuristic justification that
+
+ will lead to complete proofs, and that this publication will encourage others to study
+ these problems. The setting is very general: an orientable or nonorientable surfaces
+
+ of finite topological type, with or without boundary, of genus g, with y cross-caps, n
+
+ boundary curves, h interior distinguished points, and k boundary distinguished points.
+
+ Teichmiiller calls this surface a Hauptbereich, i.e., a "principal region." The surface is
+
+ equipped with an atlas the charts of which take their values in the complex plane with
+ coordinate changes that are conformal or anti-conformal.5 Teichmiiller introduces the
+
+ 5 We note that Teichmiiller includes anti-conformal maps in his setting because the surface he is considering
+
+ might be nonorientable. We recall that the definition of an abstract Riemann surface is due to Weyl (1913).
+
+ ^ Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:02:50 UTC
+All use subject to https://about.jstor.org/terms
+
+ Teichmiiller theory 127
+
+ notion of marked surface (where the marking is a quasiconformal map) and the notion
+ of equivalence relation between marked surfaces. The mappings he considers preserve
+
+ the set of distinguished points.
+
+ Teichmiiller states that the set of equivalence classes of such Riemann surfaces (the
+
+ space which is called today "Teichmiiller space") is a topological manifold homeo
+ morphic to RCT, with er — p — 6g — 6 + 3y + 3n + 2h + k, where p is the number of
+
+ parameters of the group of holomorphic transformations of the surface. For the annu
+
+ lus, p — 1; for the torus, p = 2 and for a surface of higher genus, p — 0. Teichmiiller's
+ formula is valid in all cases.6
+
+ In this paper, Teichmiiller starts by reviewing Grotzsch s work on contormal maps
+
+ between rectangles. Grotzsch showed that between any two rectangles with marked
+
+ vertices, a diffeomorphism which preserves the marking of the vertices and that has
+
+ least dilatation is the affine map among those that preserve these marked vertices.
+ Teichmiiller gives to such a map the name extremal quasiconformal map. He then
+ solves the problem of extremal quasiconformal maps for annuli, and he considers tori,
+
+ showing that their deformation space is parameterized by the upper half-plane. After
+
+ that, he considers general surfaces ("principal regions"). He notes that since, in general,
+
+ Riemann surfaces are not conformally equivalent, one has to look at notions involving
+
+ quasiconformality. He considers the problem of finding maps between two principal
+
+ regions that have the least quasiconformal dilatation. He states that for such a map, the
+
+ quasiconformal dilatation must be constant, i.e., it must be the same at each point. He
+
+ then formulates the problem of characterizing infinitesimally extremal quasiconformal
+
+ mappings. He says that for the description of the best quasiconformal maps between
+
+ two surfaces, one can find vector fields on the surfaces that give the infinitesimal change
+
+ of direction in the major ellipses. He makes this more precise by introducing the notion
+
+ of meromorphic quadratic differentials.7 He then defines natural local holomorphic
+ parameters on the surface associated to quadratic differentials. These differentials
+ establish a link between quasiconformal maps and complex structures. Indeed, Teich
+ miiller gives a very simple local description of extremal homeomorphisms between
+ two Riemann surfaces by means of two holomorphic quadratic differentials on these
+
+ Footnote 5 continued
+
+ Ahlfors writes in (Ahlfors 1953) about (Wey 11913) "H. Weyl's book Die Idee der Riemannschen Fliiche was
+
+ the real eye-opener. Pursuing the ideas of Klein it brings, for the first time, a rigorous and general definition
+ of a Riemann surface, and it marks the death of the glue-and-scissors period." Unlike the definition used
+
+ by Riemann (using branched coverng of the sphere) or by Weierstrass (using power series expansions), the
+ surfaces in Weyl's definition are not associated to specific analytic functions, and they are free from any
+ embedding of the surface in some Euclidean space. It is a theorem that any compact Riemann surface is
+ biholomorphically equivalent to a surface defined by an algebraic curve or to a curve defined locally by
+ power series.
+
+ ® In the case of oriented surfaces without boundary and with no distinguished points, the dimension is
+ 6g — 6 + p. In the modern literature on the subject, one usually distinguishes between the case of surfaces
+ of genus > 2 (the dimension of the space is 6g — 6 in the closed case) and genus 1 (the dimension is 2,
+ which is not what the formula 6g — 6 gives).
+
+ 7 Teichmiiller introduced the more general notion of a differential of order n, as an object which in the
+
+ local parameters can be written as (pit) dtn, where ip(t) is a meromorphic function, satisfying an invariance
+
+ transformation rule with respect to local parameter changes. For n = 1, these are the usual differential forms
+ on Riemann surfaces and for n = 2 these are the quadratic differentials familiar to Teichmiiller theorists.
+
+ 4l) Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:02:50 UTC
+All use subject to https://about.jstor.org/terms
+
+ 128 L. Ji, A. Papadopoulos
+
+ surfaces, written in local parameters as d£2 and df '2 with £ = § + ir/ and t;' = %+irj'.
+ The extremal map is then given by f' = K%, rj' = r\. The local dilatation of this map is
+
+ constant (independent of the point). Denoting the local dilatation of an extremal map /o
+
+ by K (/o), Teichmiiller then uses the quantity log K (/o) to define a metric on the set of
+
+ equivalence classes of marked Riemann surfaces. This is the metric which was called
+ later on the Teichmiiller metric. In the case of genus one (elliptic curves), the space of
+
+ equivalence classes of marked Riemann surfaces is parametrized by the upper half
+ plane and the Teichmiiller metric coincides with the hyperbolic metric. Teichmiiller
+ proves that quadratic differentials provide the description of extremal infinitesimal
+ quasiconformal mappings, and he conjectures that the converse is also true. He states
+
+ several forms of this conjecture, including a global (as opposed to infinitesimal) ver
+ sion, stating the uniqueness of extremal mappings (i.e., that all extremal mappings
+ are associated to quadratic differentials). He supports his conjecture by special cases
+ which he works out in detail. He then makes a detailed discussion of quasiconformal
+
+ maps on ring domains. He discusses the Grotzsch-Ahlfors method and the paper ends
+
+ with a discussion on the role of quasiconformal mappings in the study of conformal
+ mappings.
+
+ TeichmUller proved his conjecture in a later paper (Teichmiiller 1943), in the form of
+
+ an existence result (see the above comments by Ahlfors and the comments of Ahlfors
+ and Bers which we reproduce below). Teichmiiller's existence proof is also based
+ on quadratic differentials, and it makes use of the continuity method. By means of
+ this existence and uniqueness result, Teichmuller states the existence and uniqueness
+ of geodesies between any two points in Teichmuller space and he uses this to show
+ that the space is homeomorphic to an open ball in the vector space of holomorphic
+ quadratic differentials, equipped with a suitable norm. He shows that this metric is a
+ Finsler metric, i.e., the distance between two points is the infimum of the lengths of
+
+ piecewise smooth paths joining them, where length of paths is measured by integrating
+ norms of tangent vectors. The dimension count for Teichmuller space follows from
+
+ its parametrization by the vector space of quadratic differentials that provides the ray
+
+ structure, the dimension of this vector space being known by the theorem of Riemann
+ Roch.
+
+ Other results of Teichmiiller that are contained in Teichmiiller (1939) include the
+
+ fact that the mapping class group acts properly discontinuously on Teichmiiller space
+
+ and that moduli space is the quotient of Teichmiiller space by this action. They also
+
+ include the investigation of the singular flat metric on the surface induced by a quadratic
+
+ differential and the representation of Riemann surfaces by Fuchsian groups.
+
+ Teichmiiller's (1939, 1943) papers were first considered by the other mathemati
+ cians as a program and not as finished papers. According to Abikoff, the fact that
+
+ several ideas were sketched is only consistent with the tradition of the journal in
+ which the article was published. Abikoff (1986) writes: "The tradition of Deutsche
+
+ Mathematik is one of heuristic argument and contempt for formal proof. Busemann
+
+ notes that Teichmiiller manifested those traits early in his career but when pressed
+
+ could offer a formal proof." It was after several years of hard work by several math
+
+ ematicians that all the arguments in these papers were considered as being sound. In
+ any case, Teichmiiller's 1939 paper stimulated several authors to study the problems
+
+ considered, and it is interesting to review some of the work done in this area.
+
+ £) Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:02:50 UTC
+All use subject to https://about.jstor.org/terms
+
+ Teichmiiller theory 129
+
+ In his ICM 1958 paper (Bers 1960c), Bers sketched a proof of Teichmiiller's char
+
+ acterization of extremal quasiconformal mappings, of the fact that Teichmiiller space
+ is a cell, and of the fact that this space has a natural complex structure. Bers writes:
+
+ Much of this work consists in clarifying and verifying assertions of Teichmiiller
+ whose bold ideas, though sometimes stated awkwardly and without complete
+ proofs, influenced all recent investigators [on the classical problem of moduli],
+ as well as the work of Kodaira and Spencer on the higher dimensional case.
+
+ Ahlfors' (1954) paper on quasiconformal mappings was motivated by Teichmiiller's
+
+ work. In the commentary to that paper, Ahlfors writes (Collected papers, Ahlfors 1982,
+ p. 1):
+
+ It had become increasingly evident that Teichmiiller's ideas would profoundly
+ influence analysis and especially the theory of functions of one complex vari
+ able, although nobody at that time could foresee the extent to which this would
+
+ be true. The foundations of the theory were not commensurate with the lofti
+ ness of Teichmiiller's vision, and I thought it was time to reexamine the basic
+
+ concepts. My paper has serious shortcomings, but it has nevertheless been very
+
+ influential and has led to a resurgence of interest in quasiconformal mappings and
+
+ Teichmuller theory. [...] In particular, a complete proof of the uniqueness part
+ of Teichmiiller's theorem was included. Like all the other known proofs of the
+ uniqueness it was modeled on Teichmiiller's own proof, which used uniformiza
+ tion and the length-area method. Where Teichmuller was sketchy I tried to be
+
+ more precise. In the original paper Teichmuller did not prove the existence part
+
+ of his theorem, but in a following paper (Teichmuller 1943) he gave a proof based
+
+ on a continuity method. I found his proof rather hard to read and although I did
+
+ not doubt its validity I thought that a direct variational proof would be preferable.
+
+ My attempted proof on these lines had a flaw, and even my subsequent correction
+
+ does not convince me today. In any case my attempt was too complicated and did
+ not deserve to succeed. Later, L. Bers (1960b) published a very clear version of
+ Teichmiiller's proof. The final credit belongs to R. Hamilton (1969), who gave
+ an amazingly short and direct proof of the existence theorem. The consensus
+ today is that the existence part is easier to prove than the uniqueness.
+
+ The proof of Teichmiiller's existence theorem by Bers (1960b) is close to Teich
+ miiller's 1943 proof and it also uses the continuity method.8 Bers' proof uses the
+ existence of solutions to the Beltrami equation. Hamilton's proof to which Ahlfors
+ refers does not use the continuity method. In his paper, Ahlfors (1954, p. 4) writes:
+
+ 8 The proof is based on Teichmiiller's ideas: Given a Riemann surface S, let 7 be its Teichmiiller space
+ and 2i(5) the unit ball in the vector space quadratic differentials of S (equipped with the L1 norm, i.e.,
+ the integral of the modulus of the differential on the surface). There is a map jr : Q i (S) -» T(S) which to
+ every quadratic 0 of essential norm satisfying 0 < ||0|| < 1 associates the element of Teichmiiller space
+
+ defined by the Beltrami equation of coefficient ^ = kfy. The new element is obtained by stretching, in
+
+ the natural coordinates of <p, by a factor K = The image 7r(0) is the structure S itself. The map n is
+ injective and continuous. A dimension count, again by the Riemann-Roch theorem, shows that the map n
+ is a homeomorphism.
+
+ ^ Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:02:50 UTC
+All use subject to https://about.jstor.org/terms
+
+ 130 L. Ji, A. Papadopoulos
+
+ In a systematic way the problem of extremal quasiconformal mapping was taken
+ up by Teichmiiller in a brilliant and unconventional paper (Teichmiiller 1939).
+ He formulates the general problem and, although unable to give a binding proof,
+
+ is led by heuristic arguments to a highly elegant conjectured solution. The paper
+
+ contains numerous fundamental applications which clearly show the importance
+
+ of the problem.
+ In a later publication, Teichmiiller (1943) has offered a proof of his main con
+
+ jecture. In many respects this proof is an anticlimax when compared with the
+ original article. It is based on the method of continuity, which of all classical
+
+ methods is the least satisfactory because of its nature of a posteriori verification.
+
+ It is also unduly complicated.
+ The main purpose of the present paper is to give a variational proof of Teich
+ miiller's theorem. It is not our contention that the new proof is simpler than
+ Teichmiiller's, especially if the latter would be rewritten with greater concise
+
+ ness. We claim for it merely the merit of greater directness. It relies heavily on
+
+ real variable techniques, and can therefore hardly be classified as elementary.
+
+ One of the last papers that Bers wrote—in fact, his penultimate paper—is entitled
+
+ On Teichmiiller's proof of Teichmiiller's theorem (Bers 1986). One could almost say
+ that Bers struggled all his life to understand Teichmiiller's ideas and to find a proof
+
+ of that theorem that would satisfy him. In the paper Bers (1986), Bers returned to the
+
+ assertion he made in his paper (Bers 1960b) that the parameters determining a marked
+
+ Fuchsian group depend continuously on the parameters determining the Teichmiiller
+
+ Beltrami coefficient. At the same time, this gave another proof of the existence part
+ of Teichmiiller's theorem, with an argument which is again close to Teichmiiller's
+ argument. Bers (1986, p. 58) writes:
+
+ This note is a postscript to a paper (Bers 1960b) which I published many years
+ ago and is, like that paper, essentially expository. [...] In proving a basic conti
+ nuity assertion (Lemma 1 in §14C of Bers (1960b)) I made use of a property of
+ quasiconformal mappings which belongs to the theory of quasiconformal map
+ pings with bounded measurable Beltrami coefficients (and seems not to have
+ been known to Beltrami). Some readers concluded that the use of that theory
+ was indispensable for the proof of TeichmUller's theorem. This is not so, and
+
+ Teichmuller's own argument is correct. This argument can be further simpli
+ fied and this simplified argument will be presented here. Then we will briefly
+ describe Teichmuller's actual argument.
+
+ We talked about Ahlfors and Bers, but there is another major figure on whom
+
+ Teichmiiller's papers were influential; this is Andre Weil. In his 1958 report at the
+ Bourbaki seminar (Weil 1958c, p. 413), Weil writes (translated from the French):
+
+ Teichmiiller proved, first heuristically, then (it is said) rigorously, that we can
+
+ define a topological space, homeomorphic to an open ball of dimension 6g — 6,
+ whose points are "naturally" in one-to-one correspondence with the classes of
+ Teichmiiller surfaces (classes with respect to the equivalence relation defined
+
+ by isomorphism); Ahlfors gave another proof of the same fact. In what follows,
+
+ we shall make a local study of this "Teichmiiller space," and mainly, define the
+
+ ^ Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:02:50 UTC
+All use subject to https://about.jstor.org/terms
+
+ Teichmtiller theory 131
+
+ structure of a complex manifold (of dimension 3g — 3), and even, of a Kahler
+
+ manifold. After that, a remark by L. Bers (very simple, but based, it seems, on
+
+ delicate results on partial differential equations with discontinuous coefficients)
+
+ allows to recover very rapidly the principal result of Teichmiiller.
+
+ In the same year, in a paper dedicated to Emil Artin, Weil (1958a, p. 413) writes:
+
+ Perhaps the most remarkable of Teichmiiller's results is the following: when
+ provided with a rather obvious "natural" topology, the set © of all classes of
+ mutually isomorphic Teichmiiller surfaces is homeomorphic to an open cell of
+
+ real dimension 6g — 6. This global result will neither be used nor discussed in the
+
+ following pages, the chief purpose of which is to consider the local properties
+ of 0 and to define on it a "natural" complex analytic structure, of complex
+ dimension 3g — 3, and a "natural" Hermitian metric.
+
+ In the same paper (Weil 1958a, p. 383), Weil describes a map from the Torelli
+
+ space into the Siegel space. Combining this with the map from Teichmiiller space
+ to the Torelli space, he gets a map from Teichmiiller space © to the Siegel space.9
+ He declares that this map is holomorphic when © is provided with its natural com
+ plex structure. The image is an analytic subvariety of the Siegel space the points of
+
+ which are all smooth except those corresponding to a hyperelliptic Riemann surface.
+ (We shall mention below Rauch's work on that case). Weil then says
+
+ As for M (moduli space) there is virtually no doubt that it can be provided with a
+
+ structure of algebraic variety (non-complete of course, and with multiple points),
+
+ the "variety of moduli," so the natural mapping of © onto M is holomorphic.
+
+ [...] In order to justify the statements that we have made so far, we shall make
+
+ use of the Kodaira-Spencer technique of variation of complex structures. This
+ can be introduced in an elementary manner in the case of complex dimension 1,
+
+ which alone concerns us here; this, in fact, had already been done by Teichmiiller;
+ but he had so mixed it up with his ideas concerning quasiconformal mappings
+
+ that much of its intrinsic simplicity got lost. Perhaps the worst feature of his
+ treatment, in the eyes of the differential geometer, is that his extremal mappings
+
+ are destructive of the differentiable structure; this corresponds to the fact that
+
+ his metric on © is almost certainly not to be defined by a ds2, even though it is
+
+ presumably a Finsler metric.
+
+ Weil (1958b, p. 91) writes:
+
+ [...] Teichmuller's chief contribution was to define on T (Teichmiiller's space) a
+
+ certain topology, the "natural" one in a sense described below, and then to prove
+
+ that T, with this topology, is homeomorphic to an open cell of real dimension
+
+ 6g — 6. So far, I have mainly been concerned with the local properties of the
+
+ Teichmiiller space and of its "natural" complex analytic structure. The definition
+
+ of the latter depends upon ideas introduced by Teichmiiller himself, but which
+
+ 9 The definitions of the Torelli space, the Siegel space and the map between them are recalled later on in
+
+ this paper.
+
+ <£) Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:02:50 UTC
+All use subject to https://about.jstor.org/terms
+
+ 132
+
+ L. Ji, A. Papadopoulos
+
+ do not appear to have been fully understood until Kodaira and Spencer attacked
+ similar problems for higher dimensions.
+
+ Weil then gives an outline of these ideas. On the same page (p. 391), he describes a
+ homeomorphism between T and a subset of R6#-6 using generators for the funda
+ mental group and their images as matrices representing group elements of hyperbolic
+ transformations. He then writes:
+
+ This gives a one-to-one mapping of T onto a subset of the coordinate space
+ R6.S-6 it turns out that the latter subset is open, and that the mapping and its
+
+ inverse are indefinitely differentiable (and even presumably, real-analytic) if T
+
+ is provided with its "natural" differentiable structure; the proof of the latter fact
+ is due to L. Bers.
+
+ We finally quote the comments on the AF final report that Weil wrote as an adden
+
+ dum to his Collected Works edition (Weil 1979, vol. II, p. 545) (translation from the
+ French):
+
+ The theory of moduli of curves, inaugurated by Riemann, has taken two decisive
+
+ steps in our time, first in 1935, with the work of Siegel (Ges. Abh. No. 20, § 13, vol.
+
+ I, pp. 394-405), and then with the remarkable works of Teichmiiller; it is true that
+
+ some concerns were raised about the latter, but these were finally cleared up by
+
+ Ahlfors in 1953 (J. d'An. Math. 3, pp. 1-58). On the other hand we realized at the
+
+ end that Siegel's discovery of automorphic functions belonging to the symplectic
+
+ group applied first to the moduli of Abelian varieties and then, only by extension,
+
+ to those of curves, via their Jacobians and using Torelli's theorem. Thus, thanks
+
+ to Siegel, we have at our disposal the first example of a theory of moduli for
+ varieties of dimension >1. We owe it to Kodaira and Spencer (Ann. of Math. 67
+ (1958), pp. 328-566) to have discovered that progress on cohomology allows us
+ not only to address a new aspect of the same problem but also, at least from the
+
+ local point of view, to tackle the general case of complex structures on varieties.
+
+ 4 On the complex structure of Teichmiiller space
+
+ The existence of a natural complex structure on Teichmiiller space and on the quotient
+
+ moduli space is one of the major results not only in Teichmiiller theory but also
+ in the field of complex geometry. This complex structure is not easy to describe,
+ except in the case where the Teichmiiller space has complex dimension one, i.e., if the
+
+ surface is the closed torus or the once-punctured torus; in these cases, the Teichmiiller
+
+ space is canonically biholomorphic to the upper half-plane equipped with its complex
+ structure. It can be noted that this result is not surprising since, by the Riemann
+
+ mapping theorem, there are only three distinct complex structures on simply-connected
+
+ Riemann surfaces, namely, the sphere, the complex plane, and the upper half-plane,
+
+ and that for the Teichmiiller space of the torus, one can easily exclude the first two.
+
+ We now discuss higher-dimensional Teichmiiller spaces.
+
+ Let us start with a general remark. We already recalled that any closed Riemann
+
+ surface is conformally equivalent to a complex algebraic curve and, more precisely, to
+
+ ^ Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:02:50 UTC
+All use subject to https://about.jstor.org/terms
+
+ Teichmiiller theory 133
+
+ the set of zeros of a collection of homogeneous polynomials with complex coefficients
+
+ in the projective space P3. Thus, one way of describing a varying complex structure
+ on a given topological surface would be to represent this surface as the set of zeros of
+ a collection of complex homogeneous polynomials and then to vary in a holomorphic
+ way the coefficients of these polynomials. In principle, this gives a way to get hold
+
+ on the complex structure of moduli space. Since the number of polynomials and their
+
+ degrees depend on the Riemann surfaces and might change, making this idea precise
+
+ enough for studying the structure, and in particular studying the singular points of
+
+ moduli space, the topology of that space, or even for simply computing the dimension
+
+ turns out to be very difficult.
+
+ There are other approaches to the complex structure of moduli space which are more
+
+ efficient, in which one starts by proving that Teichmiiller space is a complex manifold
+ (in particular a complex space without singularities). Indeed, Teichmiiller space is a
+
+ branched cover of the moduli space, and it was already realized by Teichmiiller himself
+ that it is much easier to start by defining a complex structure on Teichmiiller space
+ than on moduli space. This was done in his 1944 paper "Veranderliche Riemannsche
+ Flachen" (Variable Riemann surfaces) (Teichmiiller 1944), his last paper on the theory.
+
+ It also turns out that whereas Teichmiiller space is a complex manifold, moduli space
+ is a complex space which is not a complex manifold. By the way, it seems that the
+ notion of complex manifold in dimension > 1 was completely new at that time, and
+
+ it is safe to say that Teichmiiller space is historically the first interesting example of
+
+ such a manifold.10 After Teichmiiller, the complex structure of Teichmiiller space was
+
+ studied by Rauch, Weil, Ahlfors and Bers.
+
+ In his 1944 paper, Teichmiiller (1944) defined the complex structure on Teichmiiller
+
+ space by introducing the notion of a holomorphic family of Riemann surfaces ("ana
+ lytische Schar Riemannscher Flachen"). He proved the existence of a universal object
+ that was later called the "Teichmiiller universal curve." This is a fiber space over Teich
+
+ miiller space where above each point there is a Riemann surface which represents the
+ equivalence class of that point. The existence of the structure of a complex manifold on
+ that space gives the complex structure on Teichmiiller space. We shall say more about
+
+ that below. This is one way of defining this complex structure, and there are many oth
+ ers. Teichmiiller's paper has been translated into English by Annette A'Campo-Neuen,
+ see Teichmiiller (1944); see also the commentary in A'Campo-Neuen et al. (2013).
+
+ 10 Reinhold Remmert, one of the founders of the theory of several complex variables, says the following,
+
+ regarding the beginning of the theory of complex manifolds of higher dimensions (Remmert 1998, p. 225):
+
+ "It seems difficult to locate the first paper where complex manifolds explicitly occur. In 1944 they appear in
+ Teichmiiller's work on "Veranderliche Riemannsche Flachen" (Teichmiiller 1944, Collected Papers, p. 714);
+
+ here we find for the first time the German expression "komplex analytische Mannigfaltigkeit." The English
+ "complex manifold" occurs in Chern's work (Chern 1946, p. 103); he recalls the definition (by an atlas)
+ just in passing. And in 1947 we find "variete analytique complexe" in the title of Weil (1947). Overnight
+ complex manifolds blossomed everywhere." One may add that complex domains of higher dimension, i.e.,
+ domains of C, n > 2, had been studied earlier by several people, in particular, C. L. Siegel, in the context
+ of modular forms, or automorphic functions of many variables, but Teichmiiller space was not known yet
+
+ to be a complex domain. An embedding of that space in some C'v was found later on. See the Appendix of
+
+ this paper.
+
+ <£) Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:02:50 UTC
+All use subject to https://about.jstor.org/terms
+
+ 134 L. Ji, A. Papadopoulos
+
+ Before giving an overview of the various ways in which the complex structure on
+
+ Teichmiiller space can be defined, let us quote some of the major mathematicians who
+
+ worked on the subject.
+
+ In his paper, Ahlfors (1961a, p. 156) writes that "in recent work of several persons
+
+ it has been established that the Teichmiiller space of closed Riemann surfaces of genus
+ g > 1 carries a natural complex analytic structure," and he refers to his own paper
+ (Ahlfors 1960) and to (Kodaira and Spencer 1958). It is probable that since Teich
+ muller's paper (Teichmiiller 1944) is written in the language of algebraic geometry, it
+
+ did not attract Ahlfors' attention very much.
+
+ In the introduction to another 1960 paper (Ahlfors 1960), concerning the com
+
+ plex structure of Teichmiiller space, Ahlfors observed that Teichmuller set his sights
+ extremely high, without claiming complete success, and as a result Ahlfors found
+ himself unable to determine how much Teichmiiller had proved. He then presented his
+
+ own construction of the complex structure, by means of techniques from (Teichmuller
+
+ 1939), but not (Teichmuller 1944). In a commentary on the same paper, written as
+ a note in his Collected Papers edition (Ahlfors 1982, vol. II), Ahlfors mentions the
+ work of Rauch, who had by then (Rauch 1955a,b) published two notes in which he
+
+ settled the problem for nonhyperelliptic surfaces. Ahlfors commented that he had by
+
+ then a proof in the nonhyperelliptic case, but was delaying publication until he was
+
+ able to construct the complex structure for the whole space Tg. He then observed
+ that "Today Rauch's and my methods would both be considered obsolete, but the
+
+ variational formulae they led to are still of interest."
+
+ In the same year (1960), Grothendieck established the existence of a complex man
+
+ ifold structure on Teichmuller space that follows Teichmiiller's algebro-geometric
+ ideas, probably without having read Teichmiiller's paper. See the commentary
+ (A'Campo-Neuen et al. 2013) for more details.
+
+ In his 1964 survey paper on quasiconformal maps and their applications (Ahlfors
+
+ 1964, p. 152), Ahlfors writes:
+
+ Equally important, and in their ultimate consequences perhaps overwhelmingly
+ so, were the observations that poured forth from the uncanny brain of Teich
+
+ miiller. For better or for worse, his ghost has risen from an early grave to haunt
+
+ a great deal of the thinking that has gone on in postwar function theory. An
+
+ excellent way to acquaint the mathematical public with the trends in my special
+
+ field is to relate some of the experiences of this author and fellow specialists in
+
+ dealing with the heritage of Teichmiiller.
+
+ [...] Actually, the classical problem calls for a complex structure, and Teich
+
+ miiller was well aware that his method did not yet solve this problem. In fact, he
+
+ refutes his own method and says explicitly that it is no good for the purpose of
+
+ establishing a complex structure. This prediction turned out to be wrong.
+
+ [...] In a final effort Teichmiiller produced a solution of the structure problem,
+ by an entirely different method, but it was so cumbersome that it is doubtful
+
+ whether anybody else has checked all the details. Many years later E. Rauch and
+
+ this author found, independently of each other that the original method, used
+
+ primarily as a convenient parametrization, does lead fairly easily to the existence
+
+ of a natural complex structure on 7g. The most significant development, however,
+
+ Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:02:50 UTC
+All use subject to https://about.jstor.org/terms
+
+ Teichmuller theory 135
+
+ is due to Bers. He found, as has been indicated, that Teichmiiller's extremal
+
+ problem can be dispensed with altogether, and that the most direct approach is
+
+ via a closer study of the Beltrami equation. In other words, it is the full theory
+ of quasiconformal mappings, rather than a special problem, which is the right
+ clue to the moduli of Riemann surfaces.
+
+ [...] It is only fair to mention, at this point, that the algebraists have also solved
+
+ the problem of moduli, in some sense even more completely than the analysts.
+
+ Because of the different language, it is at present difficult to compare the algebraic
+
+ and analytic methods, but it would seem that both have their own advantages.
+
+ This says in particular (a fact that we already pointed out) that there are several ways
+
+ for defining the complex analytic structure of Teichmuller space. We also noted that in
+ the paper, (Teichmuller 1944) observed that Riemann's moduli space is a quotient of
+
+ Teichmiiller space by the action of the mapping class group. He proved that this action
+
+ is holomorphic and properly discontinuous. It is known, from a result of Cartan that
+ a holomorphic properly discontinuous action on a complex space induces a complex
+ structure on the quotient space. There are natural holomorphic functions with respect
+
+ to this structure, namely, the periods of Abelian differentials of the first kind, and
+ in fact, one can use these functions to define the complex structure. This method is
+ outlined at the end of (Teichmuller 1944) and it was later developed by Ahlfors and
+
+ Rauch. One can recall again that the case of surfaces of genus one was known. Indeed,
+
+ the fact that the shapes of complex tori represented by parallelograms in the complex
+
+ plane can be specified by periods of Abelian integrals (more precisely, by the ratio
+
+ co\ /a>2 of two periods) is a classical fact.
+
+ The fact that hyperelliptic surfaces in Teichmuller spaces of higher dimension are
+ a source of difficulties for the definition of the complex structure using the period
+ map was already pointed out by (Teichmiiller 1944). In his papers, Rauch (1955a,b)
+
+ gave prescriptions to find sets (each containing 3g — 3 elements) of periods of normal
+ Abelian integrals of the first kind that serve as local moduli near a given nonhyperel
+ liptic surface and analogous sets of 2g — 2 elements each serving as local coordinates
+ near a hyperelliptic point. The work of Rauch gave the correct number locally. This
+
+ difficulty was resolved by Ahlfors, who used Rauch's work and another ingredient for
+ hyperelliptic surfaces to show the existence of a complex analytic manifold structure
+
+ on 7g.
+
+ There is also holomorphic embedding of Teichmuller space in a complex linear
+ space CN, called the Bers embedding (see the Appendix to this paper), and we shall
+ dwell on this below. Ahlfors (1963a,b) proved that the set of Schwarzian derivatives of
+
+ univalent functions on the upper half-plane H2 is an open subset of the Banach space
+
+ of holomorphic functions with the norm sup# \4>(z)\2y2. The Schwarzian derivative
+
+ can be interpreted as a quadratic differential, and the embedding of Teichmuller space
+
+ by means of the Schwarzian derivative made new connections between uniformization
+
+ theory, quadratic differentials and Teichmiiller theory.
+
+ In his paper, Ahlfors (1961a) defined a fiber space over Teichmuller space where the
+
+ fiber above each point is a Riemann surface representing the point, and he described
+ a complex analytic structure on that fiber space. This is the same fiber space that
+ Teichmuller (1944) considered and which we already mentioned, but Ahlfors' methods
+
+ ^ Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:02:50 UTC
+All use subject to https://about.jstor.org/terms
+
+ were completely different. Let us quote Ahlfors from his ICM talk (Ahlfors 1963a,
+ P- 4):
+
+ 136 L. Ji, A. Papadopoulos
+
+ The present lecture reports on the results obtained by an analytic method which is
+
+ based on the geometric idea of quasiconformal mapping. This analytic treatment
+ has its roots in the work of O. Teichmtiller. [...] Teichmuller surmised, but did
+
+ not establish, a link between moduli and quasiconformal mappings. The results
+ on moduli that he achieved later were based on a different method which did not
+
+ have the simplicity of his original approach.
+
+ Teichmiiller's work was too sketchy to serve as a satisfactory theory. During the
+
+ 1950s, his results were confirmed and reorganized by H. Rauch, L. Bers, and the
+
+ speaker. Through these efforts it was firmly established that the space of moduli
+
+ has a natural complex analytic structure. As the work progressed, strong connec
+ tions became apparent with Beltrami's classical theory of conformal mapping
+ of surfaces with a Riemannian metric. Much more delicate existence theorems
+
+ were needed, but it was found that they had already been proved by C. Mor
+ rey for different purposes. Ideas of I. N. Vekua and Boyarskii led to important
+
+ simplifications of these existence proofs.
+
+ The proofs by Vekua and Boyarskii referred to by Ahlfors make use of the theory of
+
+ Calderon and Zygmund on singular integrals. A sketch of the proof is given in (Ahlfors
+ 1964).
+
+ Kodaira and Spencer, motivated by Riemann's and by Teichmuller's counts also
+
+ tried to count the number of moduli, and we shall mention their work below.
+
+ In what follows, we review in some detail several approaches to the definition of
+
+ the complex structure of Teichmiiller space.
+
+ 4.1 Quasiconformal maps and the Beltrami equation
+
+ In the approach to the complex structure using the Beltrami equation, Teichmiiller
+ space is considered as a space of equivalence classes of Beltrami differentials on a
+ fixed Riemann surface S. To make things more precise, we review some definitions.
+
+ We recall that a Beltrami differential fi on S is an invariant object which is writ
+ ten in any holomorphic coordinate chart U with holomorphic local coordinate z as
+
+ I.i(z)dz/dz, where // is an essentially bounded measurable function on U. The invari
+
+ ance of n means that in any other holomorphic local coordinate w = w(z),thc Beltrami
+
+ differential ji is written as v(io)dw7/dw, where
+
+ du; dw
+ v(w(z)) - ^(z) —/—.
+ d z d z
+
+ For such a Beltrami differential fi, the real-valued function | /z | which a priori is defined
+
+ only in local coordinates, is well defined on the surface S. The differential ji is said
+ to be essentially bounded if the essential supremum of |>u.| on S is <1.
+
+ Given an essentially bounded Beltrami differential /i on S, one associates to it the
+
+ partial differential equation
+
+ Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:02:50 UTC
+All use subject to https://about.jstor.org/terms
+
+ Teichmiiller theory
+
+ 137
+
+ fz = M/z
+
+ which is called the Beltrami equation with coefficient /x, in which fz = \(fx — ify)
+
+ and fj = 5 (fx+ify)-The in variance property of/i insures that the equation fj — \ifz,
+ which a priori is defined only in coordinate charts, is well defined on the surface S.
+
+ One searches for quasiconformal mappings / : S —> S which are solutions of
+ the Beltrami equation. The existence theory of such solutions is a difficult chapter in
+
+ analysis. When a solution / exists, then the Beltrami differential /i is called the complex
+
+ dilatation of /. If /l = 0, then a solution to the Beltrami equation is a conformal map
+ since the equation fj = 0 is equivalent to the classical Cauchy-Riemann equation.
+
+ There is a notion of equivalence between Beltrami differentials, defined in such a
+
+ way that equivalent conformal structures on S are represented by equivalent Beltrami
+ differentials.
+
+ Given a quasiconformal mapping f : S -*■ S satisfying the Beltrami equation,
+ a new conformal structure on S is obtained by composing the coordinate charts of
+ the original structure with maps induced from the quasiconformal homeomorphism
+ /. The basepoint of Teichmiiller space (i.e., the equivalence class of the surface S)
+ corresponds to the (equivalence class of the) Beltrami differential [i = 0.
+
+ The space of essentially bounded Beltrami differentials on S is the unit norm of
+
+ the complex vector space of measurable functions equipped with its natural structure
+ of a Banach complex space. The complex analytic structure of Teichmiiller space
+ is defined using this complex Banach space structure. This is Ahlfors' approach,
+ and it is still the most common way of defining the complex analytic structure of
+
+ Teichmiiller space. Though in some sense it is awkward that a complex structure on a
+
+ finite-dimensional space has to be defined through a complex structure on an infinite
+
+ dimensional space, the spaces involved are essentially finite dimensional since, as we
+
+ recalled, different Beltrami differentials can define the same complex structure, and
+
+ their equivalence classes give the Teichmiiller space. Picking out and identifying the
+ complex structure (or representatives) might not be obvious, and this infinite complex
+ dimensional Banach space provides the convenience and flexibility to go around this
+ difficulty. One must also add that this method also works for infinite-dimensional
+ Teichmiiller spaces.
+
+ For a concise survey on the development of the complex structure of Teichmuller
+
+ space using the Beltrami equation, we refer the reader to Earle (2010).
+
+ 4.2 The Ahlfors-Bers approach using holomorphic families
+
+ We already recalled that in his paper, Teichmiiller (1944) provided a description of the
+
+ complex structure of Teichmiiller space using holomorphic families of marked Rie
+ mann surfaces. Another approach using families was developed later on by Ahlfors
+ (1961a) and by Bers (1958), using solutions of the Beltrami equation with the Bel
+
+ trami coefficient depending on a parameter. In this approach, the complex structure on
+
+ Teichmiiller space is characterized by the fact that if is a Beltrami coefficient defining
+
+ a normalized complex structure obtained by solving the Beltrami equation fj = /ifz,
+ and if the Beltrami coefficient ji = /iu(z) depends continuously (respectively,
+
+ ^ Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:02:50 UTC
+All use subject to https://about.jstor.org/terms
+
+ 138 L. Ji, A. Papadopoulos
+
+ differentiably and holomorphically) on a variable u, then the map u [/n„] is contin
+ uous (respectively, differentiable and holomorphic). The Ahlfors-Bers theory gives a
+ precise version of this result, in which a family of Riemann surfaces is obtained by
+ means of Beltrami coefficients /x(z) = /iu (z) that depend on a complex parameter u.
+
+ The complex structure on the fiber space is defined locally using the projection on the
+ Riemann surface factor. The theory of the solution of the Beltrami equation is also
+ used, i.e., the fact that when one starts with a measurable function [x : C -» C whose
+
+ essential supremum ||/Lt|| is < 1, the Beltrami equation fj = [ifz has a unique solution
+
+ f11 that is a homeomorphism fixing 0,1 and oo, and that for any point z in the complex
+
+ plane, the map // /,x(z) is holomorphic from the unit ball of L°°(C) to C. This is
+ the so-called "measurable Riemann mapping theorem" of Ahlfors and Bers.
+
+ The development of the theory of holomorphic families of Riemann surfaces is
+
+ surveyed in the recent paper (Earle and Marden 2012).
+
+ 4.3 The complex structure defined by periods of Abelian differentials
+
+ As we already recalled, the complex structure of Teichmiiller space can also be defined
+
+ using periods of Abelian differentials, and this is related to the fact that this com
+ plex structure is expected to be natural in the sense that natural maps from Teich
+ miiller space to some known complex manifolds should be holomorphic. We also
+ noted that the idea of a construction of a complex structure on Teichmiiller space
+
+ 7g using periods is contained in (Teichmiiller 1944). Periods of Abelian differentials
+ define maps from Teichmiiller space to the Siegel upper half-space, which is a Her
+
+ mitian symmetric space Hg, and it was tempting to use this map to define a complex
+ structure on the Teichmuller space 7g. Though this map is not injective, it factors
+ through an injective map from the Torelli space Torg to Hg. This map was shown
+ by Rauch to be a local embedding away from hyperelliptic Riemann surfaces and
+
+ hence defines a complex structure on 7g outside the locus of hyperelliptic Riemann
+ surfaces. The complex structure was extended to the whole Teichmuller space by
+ Ahlfors.
+
+ We recall now more precisely some of these notions and constructions.
+
+ The Siegel upper half-space Hg of degree g (which is also called the Siegel gener
+
+ alized upper half-plane) is defined by
+
+ Hg = [X + iY | X, Y are real g x g symmetric matrices , Y > 0}.
+
+ When g = 1, this is the usual upper half-plane.
+
+ It is known that the symplectic group Sp(2g, E) acts holomorphically and transi
+
+ tively on the Siegel upper half-space, and that the stabilizer of ilg is isomorphic to
+
+ U (g). This implies that Hg can be written as
+
+ Hg = Sp(2g, R)/U (g),
+
+ and it is a Hermitian symmetric space of noncompact type, i.e., a symmetric space of
+
+ noncompact type with an invariant complex structure.
+
+ Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:02:50 UTC
+All use subject to https://about.jstor.org/terms
+
+ Teichmuller theory 139
+
+ We now recall the definition of the period map of Riemann surfaces. Let S = Sg
+
+ be a closed Riemann surface of genus g and a\, /3\,..., ag, /3g be a symplectic basis
+ for the first homology group H\ (S, Z), where the word symplectic means here that
+
+ the intersection numbers of the cycles satisfy a,- • aj = fy • Pj = 0 if i j and
+ of,- • fij = 5ij. With such a choice, given an Abelian differential w of the first kind
+
+ on S (i.e., a holomorphic 1-form on S), its periods are A j = fa w and Bj = fp. w.
+ Consider now a basis w\,.. .wg of Abelian differentials of the first kind satisfying
+
+ fa . Wj — Sij for all i and j. The matrix (Zi; ) = (L wi) is called the period of S with
+
+ respect to the symplectic basis ai, /3\,..., ag, fig. The Riemann bilinear relations
+ imply that (Zjy ) e Hg. Once a symplectic basis of the homology of a base Riemann
+
+ surface So in 7g is fixed, it gives a choice of a symplectic basis for the homology of
+
+ every marked Riemann surface in 7g. This defines a map
+
+ Tg > Hg . S I—^ (Zf'y).
+
+ The complex structure that we aim for on Teichmiiller space should satisfy the condi
+
+ tion that each such function is continuous and holomorphic.
+
+ Two choices of symplectic bases of H\ (S, Z) are related by elements in Sp(2g, Z),
+
+ and their corresponding periods lie in an Sp(2g, Z)-orbit in Hg. Therefore, we obtain
+ a well-defined map
+
+ J : M8 = Mod(50)\Tg -> Sp(2g, Z)\Hg.
+
+ The locally symmetric space Sp(2g, Z)\Hg is called the Siegel modular variety and
+
+ it is the moduli space of principally polarized abelian varieties of dimension g. For
+ each Riemann surface S, J(S) is the Jacobian variety of S. Because of this, the map
+
+ J is also called the Jacobian map. Reference for the period map and abelian varieties
+ include (Griffiths 1970; Griffiths and Harris 1994).
+
+ In equipping Teichmiiller space 7g with a complex structure by pulling back
+
+ the natural complex structure of the Siegel upper half-space, one needs to know
+ that the period map is a local immersion, and this was proved by Rauch at points
+
+ of Tg away from the locus of hyperelliptic Riemann surfaces. His method was to
+ compute differentials of the period via the so-called Rauch's variational formula.
+ Rauch (1955a, p. 43) says that Riemann's 3g — 3 count using Riemann-Roch and
+ Euler's characteristic for the number of parameters that are involved in the construc
+
+ tion of branched coverings of the sphere is "manifestly too vague a specification;
+ one would like numerical moduli—a set of numbers associated with each surface
+
+ whose equality would guarantee conformal equivalence between two surfaces." He
+
+ then describes a set of periods of Abelian integrals 7r(;- and declares that his result
+ solves "a reasonable and long-standing conjecture saying that a suitable subset of
+
+ 3g — 3 of the Ttij is a set of numerical moduli." He then says that the "key and
+ unifying element" would be "the application of the concept of quadratic differen
+ tial to conformal mappings by Teichmiiller." In a second paper, Rauch (1955b) pub
+ lished an extension of his results to surfaces with boundary. It seems that some of
+ Rauch's result had some gaps since Gerstenhaber produced Riemann surfaces that
+
+ Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:02:50 UTC
+All use subject to https://about.jstor.org/terms
+
+ have the same set of periods specified by Rauch and which are not conformally equiv
+ alent.11
+
+ 140 L. Ji, A. Papadopoulos
+
+ In his paper, Ahlfors (1960) also worked out the complex structure of Teichmiiller
+
+ space using holomorphic families and the period map, completing the work of Rauch.
+
+ We already mentioned that the period map Tg —> Hg is not injective and factors
+ through the Torelli space of a surface. It may be useful to recall that the Torelli space
+
+ Tor^ of a closed surface of genus g is a space of equivalence classes of "marked"
+ Riemann surfaces (/, S), where the marking here keeps track only of the action of the
+
+ homeomorphism / on the first homology group of the surface. Alternatively, one can
+
+ consider an element of the Torelli space as a Riemann surface equipped with a basis
+
+ for its first homology group. Note that in the classical marking of Riemann surfaces,
+
+ instead of specifying a homeomorphism / between the base surface and the varying
+
+ Riemann surface S, one can as well specify a basis for the first homotopy group of S.
+ In the case where the surface is the torus, the Teichmiiller and the Torelli spaces
+
+ coincide since the fundamental group of the surface is commutative and thus the first
+ homotopy group and the first homology group coincide.
+
+ In the same way, as the Riemann moduli space is a quotient of the Teichmiiller
+
+ space by the mapping class group Mod? = Mod?(S), the Torelli space is a quotient of
+ Teichmiiller space by the Torelli group 3g = 3g(S), i.e., the group of mapping classes
+ that induce the identity on the first homology group of the surface. The Torelli group
+
+ has no torsion. Indeed, a torsion element of the mapping class group acts as an isometry
+ for a certain hyperbolic metric on the surface, and such an isometry, if it is not the
+
+ identity, cannot act trivially on homology (Farkas and Kra 1992, Sect. V.3). The Torelli
+
+ group acts without fixed point on Teichmiiller space, and the Torelli space, which is the
+
+ quotient space of this action, is equipped with a complex manifold quotient structure
+
+ induced from that of Teichmiiller space. The moduli space Mg is the quotient of the
+ Torelli group by the quotient group Modg/3g = Sp(2g, Z). The mapping class group
+ has torsion, and the moduli space is an orbifold quotient space.
+
+ Andre Weil, in his 1958 Bourbaki seminar (Weil 1958c) and in his paper (Weil
+ 1958a), used the terminology Teichmiiller surface for the object called today a marked
+ Riemann surface. He also introduced the terminology Torelli surface. This choice of
+
+ names is coherent because it reflects clearly the sequence of maps 7g —> Torg —> M?
+ between the Teichmiiller, the Torelli and the Riemann spaces.
+
+ A Torelli surface is considered as reinforced, i.e., it carries more structure; the
+ adjective is used by Weil (1958a) in the same sense in which a Teichmiiller surface is
+ a reinforced Riemann surface.
+
+ It is clear that the period map 7g —► Hg is invariant under the action of the Torelli
+
+ group 3g, and hence it descends to a period map
+
+ Tor,, - 3\7g -» Hg.
+
+ Under the action of the Siegel modular group Sp(2g, Z), we recover the Jacobian map
+
+ J : Mg = Sp(2g, Z)\Torg —» Sp(2g, Z)\Hg.
+
+ 11 See Gerstenhaber's review of Rauch's papers in Zentralblatt (Zbl 0067.30502).
+
+ Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:02:50 UTC
+All use subject to https://about.jstor.org/terms
+
+ Teichmiiller theory 141
+
+ Let us now quote Rauch (1962) from his paper in which he derives the complex
+
+ structure on moduli space from that on the Torelli space (p. 390):
+
+ The set of conformal equivalence classes of compact Riemann surfaces (hence
+ forth: classes) of fixed genus g > 2 can be endowed with the structure of
+ a normal analytic space Mg of complex dimension 3g — 3. This structure is
+
+ derived from the structure of a complex analytic manifold, the Torelli space 3g,
+ by identification under the action of a properly discontinuous group of analytic
+ automorphisms, the reduced mapping class (Siegel modular) group Gg. In this
+
+ description, 3g appears as a branched covering of Mg. P e Sg, the branch locus,
+ if and only if it is a fixed point of a nontrivial finite subgroup Gg (P) of Gg, in
+ which case P lies over a class (an H-class) in Mg containing a surface S (H
+ surface) admitting at least one nontrivial conformal automorphism and G8(P)
+ is isomorphic with H (S), the automorphism group of S.
+
+ The local Torelli theorem amounts to the injectivity of the differential of the period
+
+ map at nonhyperelliptic curves, see Kodaira (1964, Theorem 17), where this result is
+ attributed to Andreotti and Weil.
+
+ 4.4 Teichmiiller space as a bounded complex domain
+
+ This is an important part of TeichmUller theory, but the presentation is too techni
+ cal, compared to the rest of the paper, and we have made it an Appendix. The Bers
+ embedding, which we describe there, embeds the Teichmiiller space T of a closed
+ surface of genus g as a bounded domain in C3^-3, and it can be used to define the
+ complex structure of that space. Again, quadratic differentials play here a prominent
+
+ role. In developing this theory, Bers considered a quadratic differential as a Schwarzian
+
+ derivative of the conformal extension of quasiconformal mappings, obtained using the
+ Beltrami equation. Ahlfors writes in his 1978 ICM paper (Ahlfors 1978, p. 79):
+
+ The Bers mapping is not concerned with extremal quasiconformal mappings,
+ and it is rather curious that one again ends up with holomorphic quadratic dif
+ ferentials. The Bers model has a Kahlerian structure obtained from an invariant
+
+ metric, the Peters son-Weil metric, on the space of quadratic differentials. The
+ relation between the Petersson-Weil metric and the Teichmiiller metric had not
+
+ been fully explored and is still rather mystifying.
+
+ 4.5 Kodaira-Spencer theory
+
+ In 1957, Kodaira and Spencer developed a theory of deformations of compact higher
+ dimensional complex manifolds using a notion of universal family (Kodaira and
+ Spencer 1958). They gave examples of such families, and the general existence result
+ of universal families was solved in Kuranishi (1962, 1965). In this approach, one
+ defines an almost complex structure on a manifold M to be a complex vector bun
+
+ dle structure on the real tangent bundle of M. This is given by an endomorphism J
+
+ satisfying J~ = —Id. A famous theorem of Newlander-Nirenberg gives a sufficient
+
+ Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:02:50 UTC
+All use subject to https://about.jstor.org/terms
+
+ 142
+
+ L. Ji, A. Papadopoulos
+
+ condition for an almost-complex manifold to be a complex manifold. The condition
+ is a kind of commutation condition of complex vector fields with respect to the oper
+
+ ator J, and it is called Frobenius complex integrability. In this theory, the space that
+
+ plays a major role is a cohomology group Hl (M, 0), where 0 is the sheaf of germs
+ of sections of the holomorphic tangent bundle (or, equivalently, holomorphic vector
+ fields) of the manifold. A deformation of a complex manifold given by an atlas is
+ then defined by moving the charts one relative to another, and the infinitesimal vari
+ ation of the structure is described as a variation of the collection of chart coordinate
+
+ changes. Such a variation gives rise to a holomorphic vector field on each component
+ of the intersection of two charts and this collection of holomorphic vector fields is
+ shown to satisfy cocycle conditions which arise from the compatibility relations sat
+
+ isfied by the holomorphic coordinate changes; therefore, they define elements of the
+ first cohomology group Hl(S, 0). Using Serre duality and a theorem of Dolbeault,
+ the space Hl(S, 0) is identified with the tangent space 7o(T(/?)) of the Teichmiiller
+ space T(S) at the basepoint. This makes the relation with our theory. In conclusion,
+ Kodaira-Spencer theory makes the space of infinitesimal deformations equal to the
+ cohomology space Hl(S, 0).
+
+ In surveying the complex structure of Teichmiiller space, it is natural to talk about
+
+ its Kahler structure. This is what we do in the next and final section.
+
+ 4.6 The Kahler structure and the Weil-Peters son metric
+
+ A Kahler metric is a Hermitian metric on a manifold satisfying an integrability condi
+
+ tion which says roughly that the holonomy group of its Riemannian part is contained
+ in the unitary group U(n) associated to the underlying complex structure. A Kahler
+ structure on a manifold is a kind of unifying structure since it involves at the same
+ time a Riemannian structure, a symplectic structure and a complex structure. When
+ a certain compatibility condition is satisfied, the three structures together determine
+
+ a Kahler structure. In any case, Kahler geometry is strongly related to the complex
+ structure of a manifold, and the fact that a metric on a complex manifold is Kahler has
+
+ many important consequences in algebraic geometry. For example, the Hodge decom
+ position of cohomology groups is crucial in the transcendental approach of algebraic
+ geometry. Kahler manifolds are also in some sense generalizations of projective vari
+ eties.
+
+ It seems that it is Andre Weil who first included the study of Teichmiiller space in
+
+ the setting of Kahler geometry. He introduced in (Weil 1958a) a Riemannian metric
+
+ on Teichmiiller space and he conjectured that it is Kahler. This metric is defined by
+
+ a version of an inner product which had been previously defined by Hans Petersson
+ in the context of automorphic forms (hence the name "Weil-Petersson metric"). Weil
+
+ concluded his paper (Weil 1958a) with the following (p. 389):
+
+ This raises the most interesting problems of the whole theory: is this a Kahler
+
+ metric? has it an everywhere negative curvature? is the space 0, provided with
+ its complex structure and with this metric, a homogeneous space? It would seem
+
+ premature even to hazard any guess about the answers to these questions.
+
+ Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:02:50 UTC
+All use subject to https://about.jstor.org/terms
+
+ Teichmiiller theory
+
+ 143
+
+ Weil comments on that paper, in his Collected Works (Weil 1979, vol. II, p. 546):
+
+ I was asked for a contribution to a volume of articles to be offered to Emil Artin
+
+ in March 1958 for his sixtieth birthday; this led me to the decision of writing
+ up my observations, even incomplete, on the moduli of curves and on what I
+ called "Teichmuller space." Soon later, I noticed that on more than one point I
+ was matching Ahlfors and Bers; these continued their research, and soon after
+ they overtook me. As for the questions that I asked at the end of (Weil 1958a),
+
+ they showed that the response is positive for the first two, and negative for the
+ third.
+
+ Ahlfors (1961a), in his paper, proved that the metric introduced by Weil on Teich
+ miiller space is Kahler. In the same paper, he wrote, as a footnote: "According to
+ an oral communication the fact has been known to Weil, but his proof has not been
+
+ published." Besides proving that the Weil-Petersson metric is Kahler, Ahlfors showed
+
+ that its holomorphic sectional and Ricci curvatures are negative. In his commentary
+ on his papers (Ahlfors 1961a,b) that he made for his Collected papers edition, vol. II
+ (p. 155), Ahlfors wrote:
+
+ Actually, it was Andre Weil's idea to make Teichmiiller space a Riemannian
+ space by using the Petersson bilinear product. [•..] Weil knew that the Petersson
+ metric was Kahlerian, but had not published the proof. This turned out to be an
+
+ almost immediate consequence of the calculation in Ahlfors (1961a,b) I showed
+
+ through hard work that the metric has negative Ricci and sectional curvatures.
+ When I reread the paper I was reminded of Dr. Johnson's remark about the
+
+ dancing poodle; it was not very good, but remarkable that it could be done at all.
+
+ Tremendous developments were done later on Teichmiiller theory. In particular, in
+
+ the 1970, a spectacular new point of view was brought by Thurston. We cannot expand
+
+ that here, since the aim of the article is not to report on the later developments, but
+ only on the foundation of Teichmiiller theory.
+
+ Appendix (Teichmiiller space as a bounded complex domain)
+
+ There are several known embeddings of Teichmiiller space as a bounded domain in a
+
+ complex vector space, such that the complex structure on Teichmiiller space is induced
+
+ from this embedding.
+
+ In his paper (Bers 1960a, with the corrigendum published in 1961), Bers showed
+
+ that the Teichmiiller space of a surface of finite type (g, n) has a canonical holomorphic
+ embedding as a bounded domain in CN, with N = 3g — 3 + n. In 1964, Bers and
+ Ehrenpreis showed that any finite-dimensional Teichmiiller space can be embedded
+ as a domain of holomorphy in some CN (Bers and Ehrenpreis 1964). (We recall that
+ a domain of holomorphy is a subset of a complex space CN, which is maximal in the
+
+ sense that there exists a holomorphic function on this set which cannot be extended to
+
+ a larger set. This notion is only interesting for higher-dimensional complex variable
+
+ theory since in dimension one every subset of C is a domain of holomorphy.) The Bers
+
+ ^ Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:02:50 UTC
+All use subject to https://about.jstor.org/terms
+
+ 144 L. Ji, A. Papadopoulos
+
+ embedding is defined in terms of Kleinian groups, and in that theory, quasiconformal
+ mappings and fine properties of their Schwarzian derivatives also play a central role.
+ The embedding is based on Bers' simultaneous uniformization theorem. To describe
+
+ this, we briefly review some elements of Kleinian group theory.
+
+ A Kleinian group is a torsion-free discrete subgroup of PSL(2, C). Such a group
+
+ acts by fractional linear transformations on the Riemann sphere S2, identified with the
+
+ extended complex plane C = CU {oo}. This action extends to hyperbolic 3-space, seen
+ as the extended upper half-space {(xi, xi, X3) | x\, X2 e R, X3 > 0} with boundary
+ the extended complex plane C. We can also view the hyperbolic 3-space as the unit
+ ball in 3-dimensional Euclidean space whose boundary is the unit sphere S2.
+
+ Given a Kleinian group V acting on H3, and given a point x in H3, the limit set
+ A = Ap of T is the intersection Tx fl 52, and it does not depend on the choice of x.
+
+ It is a closed invariant subset of S2. The group T acts properly discontinuously on the
+ complement S2 \ A = Q, called the domain of discontinuity of I\
+
+ A quasiconformal deformation of a Kleinian group T is a quasiconformal home
+
+ omorphism h : S2 -» S2 such that for any g in T there is an associated element
+ gh of PSL(2, C) defined by gh = h o g o h~l. The set of such transformations gh
+ forms a group called the deformed group Gh = hgh~l, and the map g gh is an
+ isomorphism between the group G and the deformed group Gh.
+
+ A quasiconformal deformation of a Kleinian group G with limit set A can be
+
+ described by means of a Beltrami coefficient /x for G, i.e., a Beltrami coefficient /a on
+ S2 satisfying /x| A = 0 and the equivariance condition
+
+ M (g(z)) g'(z)/g'(z) = m(z) Vg € G.
+
+ Let S2 be a normalized solution of the Beltrami equation with coefficient
+ li. Then, for every g in G, //x o g : S2 x S2 is again /x-conformal, therefore, there is
+ a Mobius transformation gi such that f^og — g ;o . In this way, the deformed
+ group G^ = fllG( fIJ-)~] is again a Kleinian group. This group is considered as a
+ quasiconformal deformation of the group G, and the map
+
+ G G"
+
+ defined by
+
+ is a quasiconformal isomorphism between G and G'1.
+
+ We have Q.(G'J-) = /^(^(g)) and A(GM) = f'1 (A(<?)). Furthermore, the
+
+ restricted map
+
+ f1 : Q(G) -> £2(GM)
+
+ induces a quasiconformal mapping between the (not necessarily connected) surfaces
+ Q(G)/G and Q(GA)/G^.
+
+ ^ Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:02:50 UTC
+All use subject to https://about.jstor.org/terms
+
+ Teichmiiller theory
+
+ 145
+
+ In the case where G is Fuchsian, is said to be quasi-Fuchsian. It fixes the circle
+
+ /''(R). If the Beltrami coefficient \x satisfies the condition
+
+ m(z) = Mz),
+
+ then G'1 is again Fuchsian.
+
+ A quasi-Fuchsian group can also be defined as a Kleinian group the limit set A
+ of which is a Jordan curve. The quotient by the group action of the two connected
+
+ components of S2 \ A consists in two Riemann surfaces. There is a preferred marking
+ between these two surfaces, and hence between such a surface and a base Riemann
+
+ surface. Such a pair of Riemann surfaces can therefore be considered as an element
+ of the product of two copies of Teichmiiller space. Thus, the same quasi-Fuchsian
+ group T uniformizes simultaneously (and exactly) two Riemann surfaces, Si = / T
+ and 5*2 = ^2/r. This is Bers' (1960a) simultaneous uniformization. Conversely,
+ any element in Tx Tdetermines a unique Kleinian group up to conjugation. Bers
+ showed that given any two Riemann surfaces of the same finite type and given any
+
+ orientation-reversing homeomorphism between them, there is a quasi-Fuchsian group
+ that simultaneously uniformizes the pair. The space of quasi-Fuchsian groups of a
+ given type is homeomorphic to a product T x 7 of Teichmiiller spaces of a given
+ surface. Fixing an element S in the first factor and taking it as a basepoint, one gets
+ an embedding of the second factor Teichmiiller space 1 = T(5) into the space of
+ Kleinian groups, and this embedding is called a Bers embedding.
+
+ References
+
+ Abikoff, William. 1986. Oswald Teichmiiller. Mathematical Intelligencer 8 (3): 8-16.
+ A'Campo-Neuen, Annette, Norbert A'Campo, Lizhen Ji, and Athanase Papadopoulos. 2013. Commentary
+ on Teichmiiller 1944. In Handbook of Teichmiiller theory, vol. IV, ed. A. Papadopoulos. Zurich: European
+ Mathematical Society (to appear).
+
+ Ahlfors, Lars V. 1935. Zur Theorie der iiberlagerungsflachen. On the theory of covering surfaces. Acta
+
+ Mathematica 65: 157-194. Collected papers, vol. I, pp. 214—251.
+
+ Ahlfors, Lars V. 1953. Development of the theory of conformal mapping and Riemann surfaces through a
+
+ century. Annals of Mathematics Studies 30: 3-13. Collected papers, vol. I, pp. 493-501.
+
+ Ahlfors, Lars V. 1954. On quasiconformal mappings. Journal d'Analyse Mathematique 3: 1-58. Collected
+
+ papers, vol. II, pp. 2-48; correction, pp. 207-208.
+
+ Ahlfors, Lars V. 1960. The complex analytic structure of the space of closed Riemann surfaces. Princeton
+
+ mathematical series, vol. 24, 45-66. Collected papers, vol. II, pp. 123-145.
+
+ Ahlfors, Lars V. 1961 a. Some remarks on Teichmiiller's space of Riemann surfaces. Annals of Mathematics
+
+ 74(2): 171-191. Collected papers, vol. II, pp. 156-176.
+
+ Ahlfors, Lars V. 1961b. Curvature properties of Teichmiiller's space. Journal d'Analyse Mathematique 9:
+
+ 161-176. Collected papers, vol. II, pp. 177-192.
+
+ Ahlfors, Lars V. 1963a. Teichmiiller spaces. In Proceedings of the international congress of mathematics,
+
+ Stockholm, 1962, 3-9. Collected papers, vol. II, pp. 207-213.
+
+ Ahlfors, Lars V. 1963b. Quasiconformal reflections. Acta Mathematica 109: 291-301. Collected papers,
+
+ vol. II, pp. 215-225.
+
+ Ahlfors, Lars V. 1964. Quasiconformal mappings and their applications. Lectures on Modern Mathematics
+
+ 2: 151-164. Collected papers, vol. II, pp. 301-314.
+
+ Ahlfors, Lars V. 1966. Lectures on quasiconformal mappings, 2nd ed. With supplemental chapters by C.J.
+ Earle, I. Kra, M. Shishikura, and J.H. Hubbard. University Lecture Series, vol. 38. Providence: American
+ Mathematical Society, 2006.
+
+ ^ Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:02:50 UTC
+All use subject to https://about.jstor.org/terms
+
+ Ahlfors, Lars V. 1978. Quasiconformal mappings, Teichmiiller spaces, and Kleinian groups. In Proceedings
+
+ of the international congress on mathematics, Helsinki 1978, vol. 1, 71-84. Collected papers, vol. II,
+ pp. 485^198.
+
+ 146 L. Ji, A. Papadopoulos
+
+ Ahlfors, Lars V. 1982. Collected papers, 2 vols. Boston: Birkhauser.
+ Bers, Lipman. 1960a. Spaces of Riemann surfaces as bounded domains. Bulletin of the American Math
+ ematical Society 66: 98-103 (1960); correction ibid. 67: 465-466 (1961). Selected works. American
+ Mathematical Society, part I, pp. 271-278.
+
+ Bers, Lipman. 1960b. Quasiconformal mappings and Teichmiiller's theorem. In Analytic functions. Prince
+
+ ton mathematical series, vol. 24, 89-119. Selected works, part I, pp. 323-354.
+
+ Bers, Lipman. 1960c. Spaces of Riemann surfaces. In Proceedings of the international congress of mathe
+
+ matics, 1958, 349-361. Selected works, part I, pp. 355-367.
+
+ Bers, Lipman. 1970. Universal Teichmiiller space. In Analytic methods in mathematical physics conference,
+
+ Bloomington, IN, 1968, 65-83. Selected works, part I, pp. 479^497.
+
+ Bers, Lipman. 1976. On Hilbert's 22nd problem. In Proceedings of symposia in pure mathematics, vol. 28,
+
+ 559-609. Providence: American Mathematical Society, Selected works, part II, pp. 219-269.
+
+ Bers, Lipman. 1986. On Teichmiiller's proof of Teichmiiller's theorem. Journal d'Analyse Mathematique
+
+ 46: 58-64. Selected works, part II, pp. 219-525.
+
+ Bers, Lipman, and Ehrenpreis, Leon. 1964. Holomorphic convexity of Teichmiiller spaces. Bulletin of the
+
+ American Mathematical Society 70: 761-764. Bers' Selected works, part I, pp. 397-400.
+
+ Chern, Shiing-Chen. 1946. Characteristic classes of Hermitian manifolds. Annals of Mathematics 47 (2):
+
+ 85-121.
+
+ Earle, Clifford J. 2010. Teichmiiller spaces as complex manifolds. In Teichmiiller theory and moduli problem,
+
+ 5-33. Lecture notes series, 10. Mysore: Ramanujan Mathematical Society.
+
+ Earle, Clifford J., and Albert Marden. 2012. Existence and uniqueness theorems for holomorphic families
+
+ of Riemann surfaces. Contemporary Mathematics (to appear).
+
+ Farkas, Herschel M., and Irwin Kra. 1992. Riemann surfaces, 2nd ed. Graduate texts in mathematics,
+
+ Gray, Jeremy. 1986. Linear differential equations and group theory from Riemann to Poincare. Boston:
+
+ vol. 71. New York: Springer.
+
+ Birkhauser. XXV. Second edition, 2000.
+
+ Griffiths, Paul A. 1970. Periods of integrals on algebraic manifolds. Ill: Some global differential-geometric
+ properties of the period mapping. Publications Mathematiques. Institut des Hautes Etudes Scientifiques
+ 38: 125-180. Selected works, part III, pp. 135-190.
+
+ Griffiths, Paul A., and Joe Harris. 1994. Principles of algebraic geometry, 2nd ed. Wiley Classics Library.
+
+ New York: Wiley.
+
+ Grothendieck, Alexander. 1960-1961. Techniques de construction et theoremes d' existence en geometrie
+
+ algebrique. Seminaire Henri Cartan. Tome 13, No. 1. Exposes 1 a 20.
+
+ Grotzsch, Herbert. 1932. Uber moglichst konforme Abbildungen von schlichten Bereichen. Ber Verh Sachs
+
+ Akad Leipzig 84: 114-120.
+
+ Hamilton, Richard S. 1969. Extremal quasiconformal mappings with prescribed boundary values. Trans
+
+ actions of the American Mathematical Society 138: 399-406.
+
+ Klein, Felix. 1882. Ueber Riemanns Theorie der algebraischen Funktionen und ihrer Integrate, Leipzig:
+ Teubner. English translation: On Riemann's theory of algebraic functions and their integrals; a supple
+ ment to the usual treatises. Translated from the German by Frances Hardcastle. Cambridge: Macmillan
+ and Bowes, 1893. Reprint: New York: Dover Publications, 1963.
+
+ Klein, Felix. 1883. Neue Bitrage zur Riemannschen Functionentheorie. Mathematische Annalen 37: 544
+
+ 572. Gesammelte Mathematische Abhandlungen, vol. III. Berlin: Springer, 1923, pp. 531-710.
+
+ Klein, Felix, and Robert, Fricke. 1897. Vorlesungen uber die Theorie der Automorphen Functionen.
+
+ Stuttgart: Druck und Verlag B. G. Teubner, I (1897), II (1912).
+
+ Kodaira, Kunihiko. 1964. On the structure of compact complex analytic surfaces. I. American Journal of
+
+ Mathematics 86: 751-798. Collected works, vol. Ill, pp. 1389-1436.
+
+ Kodaira, Kunihiko and Donald C. Spencer. 1958. On the deformations of complex analytic structures I, II.
+
+ Annals of Mathematics 67 (2): 328^160. Collected works, vol. II, pp. 772-909.
+
+ Kuranishi, Masatake. 1962. On the locally complete families of complex analytic structures. Annals of
+
+ Mathematics 75 (2): 536-577.
+
+ Kuranishi, Masatake. 1965. New proof for the existence of locally complete families of complex structures.
+ In Proceedings of the conference on complex analysis (Minneapolis, 1964), 142-154. Berlin: Springer.
+
+ Lavrentieff, Mikhail A. 1935. Sur une classe de representations continues. Mat. Sb. 42: 407-423.
+
+ 4?) Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:02:50 UTC
+All use subject to https://about.jstor.org/terms
+
+ Teichmiiller theory 147
+
+ Lehto, Olli, and Kaarlo I. Virtanen. 1965. Quasiconformal mappings in the plane, 2nd ed. Translated from
+
+ the German by K.W. Lucas. Die Grundlehren der mathematischen Wissenschaften, Band 126. New York:
+
+ Springer, 1973.
+
+ Birkhauser.
+
+ Monastyrsky, Michael. 1987. Riemann, topology and physics (translated from the Russian). Boston:
+
+ Poincare, Henri. 1884. Sur les groupes des equations lineaires. Acta Mathematica 4: 201-311.
+ Ratcliffe, John G. 2006. Foundations of hyperbolic manifolds, 2nd ed. Graduate texts in mathematics, vol.
+
+ 149. New York: Springer.
+
+ Rauch, Harry E. 1955a. On the transcendental moduli of algebraic Riemann surfaces. Proceedings of the
+
+ National Academy of Sciences of the United States of America 41: 42-49.
+
+ Rauch, Harry E. 1955b. On the moduli of Riemann surfaces. Proceedings of the National Academy of
+
+ Sciences of the United States of America 41: 236-238; Errata. Ibid. 421.
+
+ Rauch, Harry E. 1962. The singularities of the modulus space. Bulletin of the American Mathematical
+
+ Society 68: 390-394.
+
+ Remmert, Reinhold. 1998. From Riemann surfaces to complex spaces. In Material on the history of math
+
+ ematics in the 20th century: Proceedings of the colloquium to the memory of Jean Dieudonne, Nice,
+ France, January 1996. Marseille: Societe Mathematique de France. Seminar Congress 3: 203-241.
+
+ Riemann, Bernhard. 1857. Theorie der Abel'schen Functionen (The theory of Abelian functions). Journal
+
+ fur die Reine und Angewandte Mathematik 54: 115-155. Reprinted in his Gesammelte mathematische
+ Werke, H. Weber and R. Dedekind, ed. Leipzig: Teubner. Collected papers, English translation, Kendrick
+ Pess, 2004.
+
+ Saint-Gervais, Henri Paul de. 2010. Uniformisation des surfaces de Riemann: Retour sur un theoreme
+
+ centenaire. ENS Editions.
+
+ Teichmiiller, Oswald. 1939. Extremale quasikonforme Abbildungen und quadratische Differentiale. Abh.
+
+ Preuss. Akad. Wiss., Math.-Naturw. Kl. 22: 1-197. Collected papers. Springer, pp. 337-531.
+
+ Teichmiiller, Oswald. 1943. Bestimmung der extremalen quasikonformen Abbildungen bei geschlosse
+ nen orientierten Riemannschen Flachen. Abh. Preuss. Akad. Wiss., Math.-Naturw. Kl. 1943, No.4, 42
+
+ Collected papers. Springer, 637-676. Collected papers, Springer, pp. 712-727.
+
+ Teichmiiller, Oswald. 1944. Veranderliche Riemannsche Flachen. Abh. Preuss. Deutsche Mathematik 7:
+
+ 344-359. English translation by Annette A'Campo in: Handbook of Teichmiiller theory, vol. IV, A.
+ Papadopoulos, ed. Zurich: European Mathematical Society (to appear in 2013).
+
+ Weil, Andre. 1947. Sur la theorie des formes differentielles attachees a une variete analytique complexe.
+
+ Commentarii Mathematici Helvetici 20: 110-116.
+
+ Weil, Andre. 1958a. On the moduli of Riemann surfaces (to Emil Artin on his sixtieth birthday). Unpublished
+
+ manuscript. Collected papers, vol. II, pp. 381-389.
+
+ Weil, Andre. 1958b. Final report on contract AF A8(603-57). Unpublished manuscript. In Collected papers,
+
+ Weil, Andre. 1958c. Modules des surfaces de Riemann. In Seminaire Bourbaki. Expose No. 168, Mai 1958,
+
+ vol. II, pp. 390-395.
+
+ pp. 413-419.
+
+ Weil, Andre. 1979. Collected papers, 3 vols. Springer, 2nd printing, 2009.
+ Weyl, Hermann. 1913. Die Idee der Riemannschen Flache. Leipzig: B.G. Teubner.
+
+ ^ Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:02:50 UTC
+All use subject to https://about.jstor.org/terms
+
+

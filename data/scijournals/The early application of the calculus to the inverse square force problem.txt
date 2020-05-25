@@ -1,0 +1,2218 @@
+ 
+
+ 
+
+ 
+
+ 
+
+The early application of the calculus to the inverse square force problem
+Author(s): M. Nauenberg
+Source: Archive for History of Exact Sciences, Vol. 64, No. 3 (May 2010), pp. 269-300
+Published by: Springer
+Stable URL: https://www.jstor.org/stable/41342419
+Accessed: 19-05-2020 12:40 UTC
+
+JSTOR is a not-for-profit service that helps scholars, researchers, and students discover, use, and build upon a wide
+
+range of content in a trusted digital archive. We use information technology and tools to increase productivity and
+
+facilitate new forms of scholarship. For more information about JSTOR, please contact support@jstor.org.
+
+Your use of the JSTOR archive indicates your acceptance of the Terms & Conditions of Use, available at
+
+https://about.jstor.org/terms
+
+Springer is collaborating with JSTOR to digitize, preserve and extend access to Archive for
+History of Exact Sciences
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:40:18 UTC
+All use subject to https://about.jstor.org/terms
+
+ Arch. Hist. Exact Sci. (2010) 64:269-300
+ DOI 1 0. 1 007/s00407-009-0056-z
+
+ The early application of the calculus to the inverse
+ square force problem
+
+ M. Nauenberg
+
+ Received: 10 December 2009 / Published online: 3 February 2010
+ © The Author(s) 2010. This article is published with open access at Springerlink.com
+
+ Abstract The translation of Newton's geometrical Propositions in the Principia
+ into the language of the differential calculus in the form developed by Leibniz and his
+ followers has been the subject of many scholarly articles and books. One of the most
+
+ vexing problems in this translation concerns the transition from the discrete polygonal
+
+ orbits and force impulses in Prop. 1 to the continuous orbits and forces in Prop. 6.
+ Newton justified this transition by lemma 1 on prime and ultimate ratios which was
+ a concrete formulation of a limit, but it took another century before this concept was
+
+ established on a rigorous mathematical basis. This difficulty was mirrored in the newly
+
+ developed calculus which dealt with differentials that vanish in this limit, and there-
+
+ fore were considered to be fictional quantities by some mathematicians. Despite these
+
+ problems, early practitioners of the differential calculus like Jacob Hermann, Pierre
+
+ Varignon, and Johann Bernoulli succeeded without apparent difficulties in applying
+ the differential calculus to the solution of the fundamental problem of orbital motion
+
+ under the action of inverse square central forces. By following their calculations and
+
+ describing some essential details that have been ignored in the past, I clarify the reason
+
+ why the lack of rigor in establishing the continuum limit was not a practical problem.
+
+ 1 Introduction
+
+ At the beginning of the eighteenth century, the differential calculus in the form devel-
+
+ oped by Leibniz was applied by his most prominent followers, Jacob Hermann, Pierre
+
+ Varignon, and Johann Bernoulli, to the fundamental problem of planetary motion - to
+
+ Communicated by Niccolò Guicciardini.
+
+ M. Nauenberg (И)
+ Physics Department, University of California Santa Cruz, Santa Cruz, CA, USA
+ e-mail: michael@physics.ucsc.edu
+
+ ^ Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:40:18 UTC
+All use subject to https://about.jstor.org/terms
+
+ 270 M. Nauenberg
+
+ describe the orbit of planets under the assumption that their motion is determined by
+
+ an attractive force towards the Sun that varies inversely with the square of the distance.
+
+ In 1679, Robert Hooke (Nauenberg 2005) wrote to Isaac Newton asking him
+
+ ...and particularly if you will let me know your thoughts of that of compound-
+
+ ing the celestiali motions of the planetts of a direct motion by the tangent & an
+ attractive motion towards the centrali body (Newton 1960)
+
+ In the Principia , Newton took a great step forward by extending the application of
+ Euclidean geometry to the concept of force impulses which he represented by line
+
+ segments that in a limit have vanishing small magnitude,1 leading to the emergence of
+ a finite and continuous force. Such evanescent quantities appeared already in Greek
+
+ geometry, in the method of exhaustion which, for example, was applied by Archime-
+
+ des to obtain a rigorous relations between the circumference and the area of a circle,
+
+ as well as bounds for these quantities that he calculated algebraically.2
+
+ Shortly after the publication of the Principia in 1687, Leibniz applied Prop. 1 to
+
+ derive the now well-known differential equation of motion for central forces in polar
+
+ coordinates. Then he gave an analytic proof that for elliptical orbital motion satisfying
+
+ Kepler's area law, the resulting force depends inversely on the square of the distance
+
+ from the center,3 in accordance with Newton's geometric proof in Prop. 11. Leibniz
+
+ stimulated Johann Bernoulli and Pierre Varignon to apply the differential calculus to
+ the solution of propositions in the Principia , and Jacob Hermann (1710a, 1710b)4
+
+ used Cartesian coordinates instead of Leibniz's polar coordinates to show that under
+ the action of inverse square forces, the orbit is a conic section. In Prop. 1, Newton
+ described the orbit for a general central force by a polygon, see Fig. 1, which Her-
+
+ mann interpreted to be a sequence of chords of a continuous curve, see Fig. 2. He
+ represented the Cartesian components of these cords by first-order differentials, and
+
+ found that the components of Newton's line segments for the force impulses in Prop.
+ 1, introduced geometrically in the Principia , were second-order differentials.5 Given
+
+ 1 In the seventeenth century, the concept of a differential or infinitesimal quantity was not well defined.
+ Newton observed that
+
+ Fermat in his method de maximis et minimis & Gregory in his method of Tangents & Newton (in his
+
+ method) of the first and last ratios use the letter о to signify a quantity not infinitely but indefinitely
+ small & in this methods of tangents uses the letters a & e to become infinitely little... (Newton
+ 1968).
+
+ The most colorful characterization of infinitesimals was given by Bishop George Berkeley, who called them
+ "the ghost of departed quantities" (Boyer 1989).
+
+ 2 Archimedes showed that the circumference с of a circle is proportional to its diameter d, and that the
+ area is proportional to the square of the diameter. He also calculated lower and upper bounds for the ratio
+ c/d = 7Г, namely, 223/71 < л < 22/7.
+
+ Leibniz claimed that when he carried out his derivation he had not seen the Principia but only a review
+
+ that had appeared in the Acta Eruditorum. It has been shown, however, that Leibniz's had obtained his
+
+ heavily annotate copy of the Principia before the publication of his work (Bertoloni Meli 1991).
+
+ 4 Hermann had been a student of Jacob Bernoulli in Basel where he learned the calculus in Leibniz's
+ notation.
+
+ 5 Whiteside claimed, however, that the sides of the polygons in Prop. 1 are second-order differentials
+ (Newton 1974), but his incorrect analysis has been warmly endorsed by I. B. Cohen in his Guide to
+
+ Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:40:18 UTC
+All use subject to https://about.jstor.org/terms
+
+ The early application of the calculus 27 1
+
+ any dependence of the force impulse with the distance from the center of force, Her-
+
+ mann obtained an exact algebraic relation of this second-order differential in terms of
+
+ quadratic terms of the first-order differentials which mirrored Newton's geometrical
+
+ relation. For the case that the force impulses vary inversely with the square of the
+ distance, he solved his algebraic relation between finite differentials approximately
+
+ by applying the rules of the differential calculus developed by Newton and Leibniz. It
+
+ will be shown that a detailed study of Hermann's work is an excellent introduction to
+
+ the calculus of differentials and its application to the solution of dynamical problems
+
+ as it was practiced in the early part of the eighteenth century.
+
+ In his response to Hermann, Bernoulli (1710) criticized his approach, claiming
+
+ that it was inadequate (Guicciardini 1999), and then he presented a different analytic
+
+ method to evaluate the orbit for general central forces that was based on Newton's Prop.
+
+ 41 integral. In a subsequent treatment, he also gave an alternate differential method
+
+ based on Prop. 6 which will be shown to be equivalent to Hermann's treatment, except
+ that in contrast with Hermann's use of Cartesian coordinates, Bernoulli, like Leibniz
+
+ before him, made use of polar coordinates. Guicciardini has remarked that Bernoulli's
+
+ evaluation of the integral in Prop. 41 for the case of an inverse square force was "the
+ outcome of a protracted and successful research on the application of Liebniz's calcu-
+ lus, most notably differential equations, to natural philosophy" (Guicciardini 2008).
+ But in contrast to Herman, who based his method on the differential calculus, Bernoulli
+
+ evaluated the integral in Prop. 41 for the case of inverse square forces by methods of
+
+ algebra and geometry that were already familiar to mathematicians in the seventeenth
+ century including Fermat, Huygens, Newton, and Pascal (Boyer 1989; Kline 1972).
+ In the next section, I discuss Herman's analysis in Cartesian coordinates in some
+
+ detail, because it is the simplest and most straightforward application of the differential
+
+ calculus to the solution of the problem of planetary motion formulated geometrically
+ in Newton's Principia . A new result that emerges from this discussion is the con-
+
+ nection of Hermann's first integral to Newton's geometrical construction in Prop. 17.
+ In Sect. 2, 1 describe the corresponding derivation in polar coordinates by Leibniz's
+
+ which apparently even Newton had some difficulties to understand.6 In Sect. 3, 1 dis-
+
+ cuss the analysis of Bernoulli and Varignon who also represented differentials in polar
+
+ coordinates, but instead of treating the force by a sequence of discrete impulses, they
+
+ based their treatment on a representation of a continuous force in terms of the radius
+ of curvature of the orbit which had been obtained in differential form by Bernoulli.7
+
+ The method employed by Bernoulli and Varignon, was based on an expression for
+ the force in terms of the radius of curve communicated by d'Moivre to Bernoulli in
+ 1706. Newton, who had derived this expression earlier, included it in the 1713 edi-
+
+ Footnote 5 continued
+
+ Newton's Principia (Cohen 1999). Evidently, in the eighteenth century, Newton's limiting procedures were
+ better understood than in our present time. A detail discussion of Prop. 1 is given in reference (Nauenberg
+ 2003).
+
+ ^ Newton claimed erroneously that Leibniz had made an error in handling second-order differentials in his
+ equation.
+
+ 7 Bernoulli's differential expression for the curvature first appeared in section 78 of L'Hospital textbook
+ of the calculus Analyse des Infiniment Petits pour L'Intelligence des Lignes Courbes.
+
+ ô Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:40:18 UTC
+All use subject to https://about.jstor.org/terms
+
+ 272 M. Nauenberg
+
+ Fig. 1 Newton's diagram for
+ Prop. 1 , Book 1 of the Principia
+
+ tion of the Principia , in a revised version of Prop. 6 that contained several additional
+ corollaries. In Sect. 4, 1 discuss Bernoulli's solution based on Prop. 41, and describe
+ a geometrical representation which he developed to present his result, followed by a
+ proof that this representation corresponds to the algebraic equation for conic sections
+
+ in Cartesian coordinates.8 Section 5 contains some conclusions followed by Appendix
+ 1 on the early derivation of the fundamental theorem of the calculus, and Appendix
+
+ 2 on a succint derivation with the aid of vector calculus of the results in the previous
+ sections.
+
+ 2 Hermann's solution for the inverse square force problem
+
+ Hermann's solution (1710a, 1710b) of the inverse problem of dynamics - given a
+ central force to obtain all the orbits satisfying Kepler's area law - was based on the
+
+ representation in Cartesian coordinates of Newton's geometrical construction in Prop.
+ 1, Book 1 of the Principia , and on the application of the differential calculus.9 In
+ Prop. 1, Newton gave a proof that under the action of a continuous central force, a
+
+ body moves in a planar orbit, and the "areas describe by radii drawn to the center of
+
+ force are proportional to the times". Newton started the proof of this proposition by
+
+ assuming that the force consisted of a sequence of impulses in a plane directed towards
+
+ a common center at equal time intervals. Then, in between impulses, the motion takes
+
+ place along straight lines with constant velocity shown in his diagram, Fig. 1., as the
+
+ polygon with sides AB , ВС , etc. At each vertex of this polygon, Newton compounded
+
+ 8 For another discussion of the contributions of Leibniz, Bernoulli, Hermann, and Varignon to the inverse
+ problem of central forces, see references Guicciardini (1999), Aitón (1962), and Aitón (1954).
+
+ 9 The source of Hermann's diagram has been either neglected (Mazzone and Roero 1997; Bernoulli 2008)
+ or errorneously assumed to be based on Prop. 6 of the Principia (Guicciardini 1999; Wilson 1994).
+
+ Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:40:18 UTC
+All use subject to https://about.jstor.org/terms
+
+ The early application of the calculus 273
+
+ Fig. 2 Herman's geometrical
+ construction for an orbit for
+
+ central forces
+
+ the previous velocity with the instantaneous change of velocity due to a force impulse
+
+ directed towards the center at S. For example, in Fig. 1 the effect of an impulse at В
+ is described by a short line С с parallel to BS , where с is the position at the end of
+
+ the time interval in the absence of the impulse, found by extending the line AB by an
+ equal length Be. Then Newton showed that the area of the triangles A SB and BSC
+ are equal, and repeated this construction in sequence at each vertex of the polygon.10
+ He considered a continuous force to be the limiting case of a discrete sequence of such
+
+ impulses as the time interval between these impulses becomes vanishingly small. Cor-
+
+ respondingly, the areas of the triangles which are proportional to these time must also
+
+ become vanishingly small. In order to indicate how such a limit could be approached
+ geometrically, Newton referred to Lemma 3, Cor. 4 which presupposed the existence
+
+ of a continuous curve such that the vertices of the polygon lie on the curve and the
+
+ sides of the polygon are the chords of arcs of this curve. In this case, for each time
+ interval, the magnitude of the displacements due to the force impulses are uniquely
+
+ determined. In Lemma 1 1 , Newton gave a proof that for such a limit to exist, the curve
+ must have a finite radius of curvature.
+
+ In his diagram, Fig. 2, Hermann reproduced the first two vertices of the polygon
+
+ in Prop. 1, but he turned the counter clockwise direction of rotation on this polygon
+ around the center of force at S into a clockwise rotation. To represent Newton's geo-
+
+ metrical construction algebraically, Hermann introduced Cartesian coordinates, and
+ obtained an expression for the force impulse E D in terms of a second-order differen-
+ tial. It will be shown that Hermann's equations are exact algebraic relations between
+
+ differentials, but that his two-step integration procedure to solve these equations for
+
+ the case of an inverse square force involve approximations in that higher order differ-
+
+ entials are neglected, in accordance with the rules of the differential calculus rules.
+ These rules were formulated in the same form by Newton and by Leibniz.11
+
+ 10 Since the time interval to travel along Be and ВС are the same, it appears that the time interval to travel
+
+ along Cc must vanish. To consider the continuum limit, however, Newton treated this time interval as a
+ second-order differential.
+
+ 1 1 By 1669, Newton had developed the differential form of the calculus, but his manuscript where circu-
+
+ lated only privately by John Collins and were not published until 1711. Excerpts from the letter that Newton
+
+ Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:40:18 UTC
+All use subject to https://about.jstor.org/terms
+
+ 274 M. Nauenberg
+
+ In his letter to Bernoulli, Hermann did not mention the origin of his geometrical
+
+ representation of central forces, Fig. 2, but in a more detailed article in the Giornale
+ de' Letterati ď Italia (Hermann 1710b), he acknowledged that it came from Newton's
+
+ Prop. 1. By including in his diagram an orbital curve which was absent in Newton's
+ diagram, Hermann showed explicitly how to obtain a continuous force as a limit of
+ force impulses when the triangles associated with this construction are made vanish-
+
+ ingly small. 12 Hermann's method is equivalent to an earlier derivation by Leibniz, also
+ based on Prop. I,13 who used polar coordinates in his derivation of a second-order
+
+ differential equation for central forces. In his response letter to Hermann, Bernoulli
+
+ also obtained Leibniz's differential equation in polar coordinates, but this derivation,
+
+ which I will discuss below, was straightforward because it was based on a differential
+
+ expression for the radius of curvature that he had obtained previously.
+
+ In Hermann's diagram, which consists of a segment of three consecutive vertices
+
+ of the diagram associated with Prop. 1, the curve ABC D represents an orbit, the
+ center of force is at 5, and the line LE is obtained by extending the chord between
+ two nearby points В and С on this curve on one side to Ey where СЕ = С В, and
+ on the other side to L at the intersection of LE with a horizontal line LI. The line
+
+ LI is the a>axis for a Cartesian coordinate system x , у , with the origin at 5, which
+ intersect the curve ABC D at A. In this Cartesian representation, the coordinates of
+ С and В are x - 5/, у = С/, and x - dx, у - dy , respectively, where dx, d у are
+ first-order differentials dx = В H and dy = CH. The radial line CS completes the
+ triangle С SB, and its area in terms of the Cartesian coordinates can be shown to
+ be ('/2)(ydx - xdy). In Prop. 1, Newton gave a geometrical proof that under the
+ action of a central force, with center at 5, this area is proportional to the time inter-
+ val dt for a body to move from В to C. Following Newton's demonstration, in the
+ absence of a force, a body would move, from С to E during a second equal time
+ interval dt. But when a force impulse towards S occurs at B, the next location of the
+
+ body is at D on the curve ABC D , where its location is obtained by drawing from
+ E a line DE that is parallel to С S intersecting the curve. According to Prop. 1, the
+
+ length of the segment DE is a measure of the magnitude of the central force impulse
+
+ Footnote 1 1 continued
+
+ sent to Leibniz via Oldenburg and further material sent by Newton appeared in volume 2 of Wallis's Opera
+ (1693) (Guicciardini 2009). Some of the principal concepts, however appeared in Lemmas in Sect. 1, Book
+ 1, and in Lemma 2, Book 2 of the Principia. Leibniz published his first results in 1684 in the Acta Erudi-
+
+ torum, and he had contacts with the Johann and Jacob Bernoulli who promoted the early dissemination of
+ the calculus in the Continent.
+
+ 12 In Newton's words, "Now let the number of triangles be increased and their width decreased indefinitely,
+ and their ultimate perimeter ADF will (by lemma 3, corol. 4) be a curved line". In Hermann's diagram,
+ Fig. 2, this limit "curved line " is ABCD> the center of force is at 5, the central force impulse at В is DE,
+ and two of Newton's triangles of equal area are ВС S and CDS. In the diagram associated with Prop. 1, a
+ limit curve is not drawn, but its existence is implied by Newton's reference to lemma 2, corol. 4. Indeed,
+
+ such a curve is essential to specify Newton's geometrical construction when "'the number of triangles be
+ increased. . .indefinitely" (Nauenberg 2003). Although the necessity for assuming such a curve escaped the
+ attention of contemporary commentators of Prop. 1, it was recognized first by Leibniz and then by Herman
+ in his diagram which represents the essential features of this proposition.
+
+ 13 Leibniz claimed that he had obtained his result before he had seen a copy of the Principia , but his
+ heavily annotated copy of Newton's has been found to pre-date his work (Bertoloni Meli 1991; Leibniz
+ 1973), demonstrating a remarkable lack of candor on his part.
+
+ Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:40:18 UTC
+All use subject to https://about.jstor.org/terms
+
+ The early application of the calculus 275
+
+ at В , and the object of Hermann's diagram was to express this magnitude in terms
+ of differentials. Representing the Cartesian coordinates of D by x + dx', у + d yf,
+ where dx' = CK, and dyf = D К , the line segments D F and E F = representing
+ the Cartesian components of D E are determined by the second-order differentials
+ D F = -ddx = dx - dx', and EF = -ddy = d y - dy'.14 It is important to rec-
+
+ ognize that in contrast with the first-order differentials dx, dy , where either one or a
+ combination of the two can be chosen as an arbitrary small quantity, the subsequent
+
+ differentials dxf , dy' are both determined, when a curve ABC D is assumed to be given.
+
+ Hence, the second-order differentials ddx, ddy also depend on the magnitude of these
+
+ first-order differentials.15 Geometrically, this dependence is evident from Herman's
+
+ diagram, Fig. 2, which shows that the position of D on the curve ABC D depends
+ on the value chosen initially for x and dx. The object of the differential calculus is
+
+ to find this curve given, the dependence of the central force / on the distance CS,
+
+ e.g., for an inverse square force, / ос 1/CS2. By similarity of the triangles EDF and
+ CSI ,
+
+ ED = ddx-x2+y2. (1)
+
+ X
+
+ Assuming that the orbital curve A BC D has a finite curvature , Newton gave a proof
+ in Lemma 1 1 of Book 1 of the Principia that the magnitude of the force impulse E D
+
+ depends quadratically on the length ВС - y/dx 2 + dy2. Since the time interval dt
+ is proportional to the area of the triangle CBS = (1/2) | xdy - ydx' , which depend
+ linearly on dx and dy , the ratio ED/dt 2 has a finite limit when dx, dy become van-
+
+ ishingly small. In Prop. 6, Newton defined a continuous force / by the relation (see
+ Fig. 4)
+
+ r QR n'
+
+ a (SP x QT)2
+
+ where QR = (1/2 )ED and SP x QT corresponds to twice the area of the triangle
+ CBS, in the limit that the triangle CBS becomes vanishingly small. Substituting Her-
+ mann's second-order differential expression for ED, Eq. 1, in Newton's relation for
+
+ the force, Eq. 2, leads to an expression for the force
+
+ - ddaV x2 + y2 ' (3)
+
+ a x(ydx - xdy)2 '
+
+ where the minus sign appears when / is an attractive central force.
+
+ 14 In section IV of the Analyse des Infiniment Petits , second-order differentials are defined as the difference
+ between two consecutive first-order differentials, in accordance with Hermann's application.
+
+ 15 At this stage, it should become clear why Hermann's analysis required three adjacent vertices from the
+
+ polygon in Prop. 1 , because a second-order differential like ddx is determined by the difference of two
+
+ adjacent first-order differentials, dx and àx' .
+
+ Ô Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:40:18 UTC
+All use subject to https://about.jstor.org/terms
+
+ For an inverse square force, / oc 1 /( x 2 + y2), Herman then obtained an equation
+
+ 276 M. Nauenberg
+
+ for the second-order differential ddx in the form
+
+ x(ydx - xdy)2
+
+ _ a(x2 + y2)3/2 ( >
+
+ where a is a constant with the dimensions of length, introduced to convert Newton's
+
+ proportionality relation for force, Eq.2 into an equality.16 Such an algebraic relation
+ between first- and second-order differentials, however, remains undetermined until a
+
+ further condition is imposed on the first-order differential dx and d y, because these
+
+ differentials cannot be varied independently. Hermann's relation was obtained from
+
+ Prop. 1 geometrical construction which leads to the constraint that the first-order dif-
+
+ ferential ydx - xdy is a constant, that is
+
+ d(ydx - xdy) = 0. (5)
+
+ This condition implements in differential form Kepler's area law which, in Prop. 1 ,
+ Newton had shown to follow from central forces, and Hermann's differential relation,
+
+ Eq. 4, was derived by applying this constraint. 17 To integrate18 his differential relation,
+
+ Hermann had to impose this condition which then becomes an additional second-order
+
+ differential relation which he applied implicitly in his integration of Eq. 4.
+
+ In his treatment, Hermann neglected to consider an equivalent representation for
+ / obtained by substituting for ED in Eq.2 the expression obtained in terms of the
+ second-order differential dd y,
+
+ ED = -У-y/ x2 + y2. (6)
+
+ У
+
+ When substituted in Newton's relation for the force, Eq. 2, this expression leads to the
+ equivalent relation
+
+ ddy^/x2 + y2
+
+ J Í A A '2 ' ( )
+ y(ydx Í A - xdy)2- A '2
+
+ â Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:40:18 UTC
+All use subject to https://about.jstor.org/terms
+
+ 16 For an elliptic orbit, the constant a is the latus rectum of the ellipse. Setting ydx - xdy = Idt and
+ / = ix/(x2 + y2), where / is the angular momentum, and д is the strength of the inverse square force,
+ leads to the relation a = /2/д that determines the value of a.
+
+ 17 For central forces, this condition corresponds to the conservation of angular momentum /, which in New-
+
+ ton's fluxional calculus, as well as in modern calculus, is represented by / = yx - xý , and / = yx - xy = 0,
+ The dot superscript corresponds to a derivative with respect to time.
+
+ 18 In Leibniz's calculus, to integrate a relation between differentials meant to find a relation between dif-
+
+ ferentials of a lower order which satisfies the requisite relation between the higher order differentials. By
+ the fundamental theorem of the calculus, this operation corresponds to the calculation of the area under a
+
+ given curve (see Appendix 1). It should be pointed out that without specifying the first-order differentials
+
+ in the problem that are kept fixed, the concept of a second order or higher order differential is meaningless.
+ In Hermann's calculations, the linear combination of differentials ydx - xdy a dt is kept fixed.
+
+ The early application of the calculus 277
+
+ and for an inverse square force, / = 1 /{x2 + y2), leads to the second-order differential
+ relation
+
+ Му = ~У1(х2+у2)У2 ' (8)
+
+ which is analogous to Eq.4, and must also be satisfied. By multiplying Eq.4 by у and
+
+ Eq. 8 by x, one finds that the condition
+
+ xddy - yddx = d ( xdy - ydx) = 0 (9)
+
+ is then automatically satisfied when both Eqs.4 and 8 are valid. Actually, this result is
+
+ a straightforward proof, based on the application of the differential calculus, of New-
+
+ ton's theorem in Prop. 1 that ". . .equal areas are described during equal time intervals".
+
+ But Hermann missed this simple proof, and it took another 6 years before he came
+ up with a different and rather convoluted proof (Guicciardini 1999) that was based
+ on the expression for the force in terms of the radius of curvature of the orbit. This
+
+ alternate expression for the force appeared for the first time in the second edition of
+
+ the Principia , and it was derived by Bernoulli who in turn had learned it from a private
+ communication by De Moi vre (Guicciardini 1999)
+
+ For the first integral of his second-order differential relation, Eq.4, Hermann set
+
+ (ydx - xdy) equal to a constant and obtained
+
+ y (ydx - xdy)
+
+ dx=
+
+ ajx2 + y
+
+ d (uv) = (u + d u)(v + du) - uv = udv + vdu + dudv, (11)
+
+ but the assumption that du and d v are small quantities which ultimately vanish, implies
+
+ that in this limit the product dudv can be neglected compared to the terms linear in
+ du and du, that is
+
+ d(uv) % udv + vdu. (12)
+
+ I have introduced here the sign ^ to indicate that this relation is an approxima-
+ tion.19 It is the basis of the differential calculus of Newton and Leibniz, and appears
+
+ ^ For finite values of du and du, the common use of the equality sign, which unfortunately is standard
+
+ form in the literature on this subject, leads often to confusion.
+
+ â Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:40:18 UTC
+All use subject to https://about.jstor.org/terms
+
+ But to establish this result, an essential approximation was to neglect all higher order
+
+ terms in the differentials dx , and d y that appear in the calculation of the differential
+
+ on the right hand side of his relation. It is instructive to examine this step in some
+ detail, because it illustrates the treatment of differentials in the calculus of Newton
+
+ and Leibniz, and the nature of the approximations that are made at each step in its
+
+ implementation.
+
+ The differential of the product of two quantities u, v is, by definition ,
+
+ 278 M. Nauenberg
+
+ prominently as Prop. II in L'Hospital 1696 book, Analyse des Infinitiment Petits , the
+ first text-book on this new calculus. The justification given for neglecting dudv is that
+
+ . . .dudv is a quantity infinitesimally small compared to the other terms udv , and
+
+ vd u' because if one divides, for example, udv and dudv by dv, one finds on the
+ one hand w, and on the other du that is its differential, and consequently it is
+
+ infinitesimally smaller than it.20
+
+ For Hermann's problem, let и = y, v = 1 /у/х2 -f у2, then the next step is to
+
+ obtain an approximation for the differential dv. Setting z - '/ v, and applying repeat-
+
+ edly the basic calculus rule, Eq. 12, one finds d z2 ^ 2 zdz ^ 2(xdx + ydy) or dz ъ
+ v(xdx + ydy), and since d(zv) = 0, dv ъ -v2d z & - v3(xdx + ydy). Hence
+
+ vdu = ¿+У2)У2' (14)
+
+ and fínally
+
+ л< ^ dl л( У V I !=» x(xdy-j/dx)
+ d(«D) л< ^ = dl - ===== I !=» - -=
+
+ Vn/^+7/ - ===== ( -=
+
+ which verifies that Eq. 10 is the first integral of Eq.4. Actually, the differential dv is a
+
+ power series expansion, which according to Newton's generalized binomial theorem,
+
+ consisted of an infinite number of terms of higher powers in dx and d y. But a proof
+
+ that the infinite sum of all these neglected terms is of higher order and therefore can
+ be neglected, was not available. Hence, for a finite value of da:, d(uv)dt & addx,
+ and for finite differentials Eq. 10 satisfies Eq. 4 only approximately. But in accordance
+
+ with the fundamental theorem of calculus, in the limit that dx becomes vanishingly
+ small,21 Eq. 10 is an exact integral of Eq.4.
+
+ In a similar way, Herman found that the integral of Eq. 10 is
+
+ a yjx1 + y2
+
+ - =
+ X X
+
+ Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:40:18 UTC
+All use subject to https://about.jstor.org/terms
+
+ 20 ...dudv est une quantité infiniment petit par rapport aux autres terms udv & vdu ; car si l'on divise,
+
+ par example, udv & dudv par dv, on trouve d'une part и, & de l'autre du qui en est la différence, & par
+ conséquent infìnitment moindre qu'elle.
+
+ 21 Regarding the approximations in relations involving finite differentials, Leibniz commented that
+
+ at the same time one has to consider that these ordinary incomparables themselves are by no means
+ fixed or determined; they can be taken as small as one wishes in our geometrical arguments. Thus
+
+ they are effectively the same as rigorous, infinitely small quantities, for if an opponent would deny
+
+ our assertion, it follows from our calculus that the error will be less than any error which he will be
+
+ able to assign, for it is in our power to take the incomparably small small enough for that, as one
+ can always take a quantity as small as one wishes (Bos 1973).
+
+ The early application of the calculus 279
+
+ where с is a constant.22 Again, this result can be verified by taking differentials on
+ both sides of this relation, applying the Kepler area law condition (conservation of
+
+ angular momentum), Eq. 9, and keeping only terms that appear in the resulting series
+
+ expansion that are first order in the differentials dx and d у. This relation is the alge-
+ braic equation for a conic section.23 with eccentricity c; a parabola for с = 1, an
+ ellipse for с < 1, and a hyperbola for с > 1. For an ellipse, the constant a is the
+ latus rectum , and a/( 1 - c2) is the major axis, providing the role of unit of length
+ to the constant a introduced by Hermann. Hermann's solutions constrain the axis of
+
+ the conic to lie along an arbritraly chosen horizontal, but this restriction is invalid for
+
+ arbitrary initial values of position and velocity. But by including in the first integral,
+
+ the missing constant of integration e(yx - xá у) pointed out by Bernoulli, one obtains
+
+ the solution for a general conic section
+
+ a = y/x2 + y2 + cx + ey (17)
+
+ It is instructive to apply the differential calculus to obtain the solution of the direct
+
+ problem in dynamics - given a planar orbit satisfying Kepler' area law, to obtain the
+ radial dependence of the central force. In Props. 11-13, Newton gave a geometrical
+
+ proof that for orbits that are conic section, the force depends inversely with the distance
+
+ from a center. Starting with the Cartesian coordinate representation of a conic section
+
+ given in Eq. 16, and taking his differential steps in reverse order by applying repeat-
+
+ edly the chain rule to this representation, leads to the expressions for the first- and
+
+ second-order differential dx , Eq. 10, and ddx, Eq. 4, provided that the area ydx - xdy
+
+ of the triangle BSC is kept constant.24 In Cartesian coordinates, Eq. 3 corresponds to
+
+ Newton's definition for a central force / given in Prop. 1 and Prop. 6, and substituting
+
+ for ddx in this equation the relation given by Eq.4 yields for the force the inverse
+ square radial dependence, / a l/(x2 + y2).
+
+ 22 The ± sign corresponds to the two possible choices for the foci of a conic section as the center of the
+
+ inverse square force.
+
+ 23 In his evaluation, Herman introduced a spurious constant b , describing his result by the value of a con-
+ stant c/b , "...qui est une équation aux trois Sections Conique; savoir à la Parabole si b = c, à l'Ellipse si
+ b > c, & à TdHyperbole si b < c".
+
+ 24 The first-order differential of the algebraic equation for a conic section, Eq. 16, including an additional
+
+ term ey , where e was a constant pointed out by Bernoulli is
+
+ da=-_^ + y^+cdx 2 + edy_ (l8)
+
+ y/X2 + y 2
+
+ and since a is a constant da = 0 Setting ydx - xdy = d t, where dř is treated as a constant when taken a
+ differential of this relation, one obtains an equation for dx by substituting d y = ('/x)(ydx - dt) in this
+
+ equation,
+
+ (J V X2 -f- y2 + cx + ey) dx = ^ + ed t. (19)
+ V Jx2 + y
+
+ â Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:40:18 UTC
+All use subject to https://about.jstor.org/terms
+
+ But for the conic section, Eq. 16, the coefficient of dx is equal to a, which shows that this equation corre-
+
+ sponds to Hermann's first integral, Eq. 10 including a missing constant of integration.
+
+ 280 M. Nauenberg
+
+ Bernoulli responded to Hermann with a harsh criticism of his work Bernoulli (1710),
+
+ remarking that Hermann had not provided any direct procedure to obtain the first inte-
+
+ gral, Eq. 10, of his second-order differential equation, Eq.4 and that he had obtained
+ his result because he already knew the answer - that his second integral was a conic
+
+ section, Eq. 16. Actually in practice, integration of a nonlinear differential equation
+
+ by an application of the fundamental theorem of the calculus usually involves an edu-
+
+ cated guess of the solution, followed by the verification that its derivative satisfies the
+
+ differential equation.25 Bernoulli also pointed out that in the first integration Hermann
+
+ had neglected to include a constant term. This term has to be a first-order differential,
+ and since ydx - xá y is treated as a constant, it has the unique form e (ydx - xd y),
+
+ where e is an additional constant of integration. For this reason, Bernoulli stated that
+
+ "one might be left in doubt that there is another kind of curve, other than the conic sec-
+
+ tions, that satisfies your problem", claiming that Herman had failed to prove that conic
+
+ sections were a unique solution of his differential relation. Then Bernoulli showed that
+ his constant leads to an additional term of the form ey/x on the right hand side of
+ Herman's second integral, because
+
+ d (y/x) ^ - '{ydx - xdy). (20)
+
+ Xa
+
+ It can be verified that with this additional term, Eq. 16 leads to the algebraic equa-
+
+ tion for a conic section with its major axis rotated relative to the jc-axis by an angle
+ co = atan(e/c). Ironically, Bernoulli's own proof that the solution he obtained from
+ an application of Prop. 41 in Newton's Principia satisfied the algebraic equation for
+ a conic section also was restricted to the special case that e - 0, as will be shown in
+ the next section.
+
+ Setting dt = ('/l)(ydx - xdy), where / is a constant correspond to the angular
+ momentum, indicates that Herman's first integral, Eq. 10, with the additional constant
+
+ e introduced by Bernoulli, can be written in the alternate form
+
+ where vx = dx/dt is the x component of the velocity v. If Herman had also solved
+
+ for Vy = dy/dt, where vy = ( y/x)vx -l/x, according to Kepler's area law, he would
+ have found that
+
+ a y
+
+ e = jvx 1
+ 1 ']хг + уг
+
+ a x
+
+ C = ~JVy 1 yjxL / 2 + i yL 2 '
+
+ 1 yjxL / 2 + i yL 2
+
+ Hence, given the position x, у relative to the center of force, and the velocity vx, vy
+ at some point along the orbit, called the initial conditions , the angular momentum
+
+ constant I = yvx - xvy is fixed and all the parameters of the conic section are deter-
+
+ 25 For this purpose, both Newton and Leibniz created extensive tables of derivates of elaborate functions,
+
+ and ever since such tables have become a standard aid for the analytic evaluation of difficult integrals.
+
+ Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:40:18 UTC
+All use subject to https://about.jstor.org/terms
+
+ The early application of the calculus 28 1
+
+ mined in units of Hermann's length parameter a. In this form, Herman's result can be
+
+ recognized as the components of a vector
+
+ € =
+
+ v X I r
+
+ ß r
+
+ where / is the vector angular momentum taken normal to the plane of the orbit along the
+
+ negative z axis (Herman's diagram corresponds to clockwise rotation around the center
+
+ of force 5), and ß = a/ 12 is a constant that determines the magnitude of the inverse
+ square force, / = ¡jl/(x2 + у2). This vector ? is a constant of the motion directed
+ along the axis of conic section with a magnitude corresponding to its eccentricity e,
+
+ where €x = c, and €y - e. Ninety one years later, it was derived in a similar manner
+ by Simon Pierre Laplace (1798) who apparently was unaware of Herman's result.
+ Actually, this special invariant of the motion for inverse square forces had already
+
+ been described in geometrical form by Newton in the Principia , Book 1 , Prop. 17, but
+
+ this connection has not been made in the past. In this way, Prop. 17 establishes the
+
+ uniqueness of conic sections, a fact that was already recognized by Euler (1736), but
+
+ still leads to misconceptions up to the present time. In the first edition of the Principia ,
+
+ Newton gave an argument for the uniqueness of conic sections in Cor. 1 to Prop. 13
+
+ which was considered to be insufficient and lead to disputes. But in the second edition,
+ Newton added the remark that
+
+ For if the focus and the point of contact and the position of the tangent are given,
+ a conic can be described that will have a given curvature at that point. But the
+
+ curvature is given from the given centripetal force and velocity of the body,
+ and two different orbits touching each other cannot be described with the same
+
+ centripetal force and the velocity.
+
+ In the differential calculus, the uniqueness of the conic section solution for inverse
+
+ square force is based on the fundamental theorem of the calculus (see Appendix 1).
+
+ 3 Leibniz differential equation for motion in polar coordinates
+
+ In 1688, after studying the Principia , Leibniz's was able to apply his calculus to
+ obtained the differential equation of motion for central forces in polar coordinates
+
+ which appeared in his Tentamen de motuum coelestium causis (Bertoloni Meli 1991).
+ Like Hermann's derivation, Leibniz's treatment was also based on Newton's Prop. 1.
+
+ For clarity, in Fig. 3 taken from E. J. Aiton (1995), I show only the section of Leib-
+ niz's diagram relevant to his analysis, which is also similar to Hermann's diagram,
+ Fig. 2. The curve M', Mi, M$ represents the orbit of planet moving under the action
+ of a force centered at the point indicated here by the symbol for the Sun (a circle
+ with a small dot in the center which will be called S here). Leibniz draws the chord
+
+ M i M2 which he extends by an equal length to a point L, and from there draws the line
+
+ segment LM3, parallel to the radial line M2S that intersects the curve at Л/3. In this
+
+ way, given any two nearby points M' and M 2 on the curve, the location of the third
+
+ point Л/3 is determined. Hence, except for change in notation, Leibniz's construction
+
+ Ö Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:40:18 UTC
+All use subject to https://about.jstor.org/terms
+
+ 282 M. Nauenberg
+
+ Fig. 3 A section of Leibniz
+ diagram
+
+ is the differential change in the radial coordinate from M ' to A/2, and
+
+ dr' = -M2T2 = ~(LM3 + GD2 - T2D2). (25)
+
+ is the corresponding change from M2 to M3. By equality of the triangles M' M2N and
+ M3D2G, NM2 = GD2i and PN = D2T2. Hence
+
+ dr = -(LM3 + NM2 - PN) (26)
+
+ corresponds to Newton's construction in Prop. 1, shown in Fig. 1. The only difference
+ is that Leibniz changed the sense of rotation in the Prop. 1 diagram to a clock-wise
+
+ rotation, in the same manner that Hermann did later on in his diagram, Fig. 2.
+
+ The additional lines in Leibniz's diagrams are auxiliary lines to derive the necessary
+
+ relations among the differentials. The lines M' N and Л/3 D2 represent differential nor-
+
+ mals to the radial line SM2 drawn from the vertices M' and M3, respectively, and M' P
+ and Л/3Г2 are corresponding differential arcs centered at S. In addition, a line M3G
+ is drawn parallel to M2L. Then setting SM' = r - dr, SM2 = r and SM3 = r + dr',
+
+ dr = -(PN + NM2) (24)
+
+ and
+
+ where
+
+ Springer
+
+ ddr = d r' -dr = -LM3 + 2 PN (27)
+
+ (м,ло2
+
+ <28)
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:40:18 UTC
+All use subject to https://about.jstor.org/terms
+
+ The early application of the calculus 283
+
+ to second order in M'N . Since Leibniz followed Newton's geometric construction in
+ Prop. 1, the triangles M' SMi and M2SM3 have equal areas A = (1/2 )(M' N x SM2 ),
+ and the elapsed time interval dt satisfies Kepler's area law dt = ('/a)A. Here a is a
+ constant of proportionality introduced by Leibniz on dimensional grounds which we
+ recognize as the angular momentum for unit mass. Setting SM2 = r , and M'N =
+ adt /г, one obtains
+
+ a2dt2
+
+ PN = ^T' <29>
+
+ Substituting in Eq. 27 this expression for PN and LM3 = fdt 2, where / is the central
+
+ force, Leibniz obtained the now well-known differential equation of motion in polar
+ coordinates,
+
+ a2dt2 9
+
+ ddr
+
+ r 0
+
+ Leibniz also demonstrated that when the orbital curve is an ellipse and the motion
+ satisfies Kepler's area law, d A = 0, the force / is an inverse square force / a 1/r2.
+
+ His proof, which he obtained by evaluating the second-order differential ddr from a
+
+ first-order differential expression for the elliptical orbit (Aiton 1995), corresponds to
+
+ Newton's geometric proof in Prop. 11.
+
+ It has been argued that Leibniz's representation of orbits by discrete polygons
+ instead of continuous curves was just a matter of convenience (Aiton 1962; Bertoloni
+
+ Meli 1991 ; Guicciardini 2008), but this is not the case. In Prop. 6, Newton represented
+
+ a segment of the orbit by an arc, PQ , and the force by the deviation QR from a line
+
+ Z PRY tangent at one end P of the arc, Fig. 4. In order to apply the differential calculus
+
+ to this representation, however, an analytic expression for this tangent line is required,
+
+ but this is an unknown quantity which cannot be expressed in terms of differentials
+
+ from the geometric quantities given in Prop. 6. In fact, three nearby points of the orbit
+
+ are required to obtain a unique circular arc, and then the tangent line at any point on
+ this arc can also be obtained. Such a construction was pointed out to Leibniz by Pierre
+
+ Varignon, and if the tangent line is placed midway on the arc, it leads to half as large a
+ value for the force impulse obtained by Leibniz and by Hermann (Guicciardini 2008).
+
+ This procedure is equivalent to Leibniz's original construction, Fig. 3.26
+
+ Although Leibniz derived his analytic equation of motion directly from Newton's
+ geometrical construction in Prop. 1, he gave it a completely different physical inter-
+
+ pretation. Regarding the issue of how mathematics can mirror reality, it is of interest
+ to discuss Leibniz's interpretation, because it illustrates ambiguities that can occur at
+ the initial stages when a new theory is in the first stage of development. Following
+
+ 26 In the second edition of the Principia , Newton altered Prop. 6 to read
+
+ . . .the sagitta of the arc is understood to be drawn so as to bisect the chord and, when produced,
+
+ to pass through the center of force...
+
+ This sagitta is the displacement associated with the force, which corresponds to Varignon's construction,
+ but Newton did not alter the diagram, Fig. 4, associated with Prop. 6 accordingly.
+
+ â Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:40:18 UTC
+All use subject to https://about.jstor.org/terms
+
+ 284 M. Nauenberg
+
+ Fig. 4 Newton's diagram for
+ Prop. 6, Book 1 of the Principia
+
+ 'Y
+
+ L i.
+
+ the Cartesian argument that planets rotate around the sun because they are carried by
+
+ vortices of unseen particles or a fluid circulating the sun, Leibniz argued that Kepler's
+
+ area law gave a mathematical description of these vortices, namely, that the circulation
+
+ velocity of a vortex depends inversely with the distance from the sun. A consequence
+ of Leibniz's interpretation is that planets experience an acceleration or force which,
+
+ in accordance with Prop. 2 in the Principia 27 is directed towards the sun, and is repre-
+ sented by LM3 in Leibniz's diagram, Fig. 3, but Leibniz did not give any justification
+ that this force must be a central force. For circular motion, this central force which
+
+ Leibniz re-named solicitation of gravity is balanced by an outward centrifugal conatus
+
+ represented by the term a2dt2/r 3 in Leibniz's equation of motion, Eq. 30. Leibniz
+
+ interpreted this term as a real force due to the Cartesian vortices acting on the planet,
+
+ which depends on the parameter a. Since the rotational velocity of the planet is the
+
+ same as that of the vortex, a is also an intrinsic property of the planet corresponding to
+ it angular momentum. Planets, however, do not rotate in circular orbits, as would be
+
+ expected in this Cartesian model, but instead move in elliptical orbits crossing differ-
+
+ ent vortices, and Leibniz explained the variation in radial distance, expressed by the
+
+ second-order differential ddr, by the difference between the solitication of gravity and
+ the centrifugal connatus. But this radial acceleration is also a consequence of Prop.
+ 1, and it does not require the existence of vortices. In fact, such an explanation for
+
+ the radial oscillations in the orbit was already given by Newton in a cryptic remark in
+
+ his 1679 correspondence with Hooke, and in his 1681 correspondence with Crompton
+
+ regarding a question of Flamsteed about the motion of comets near the sun (Nauenberg
+ (1994)). The vortex interpretation had one advantage over Newton's theory, because
+ it offered an explanation why the planets all rotated along the same direction.28 But
+ this explanation had to be abandoned when comets were found to rotate around the
+
+ sun in directions opposite to that of the planets.29
+
+ 27 In Prop.2, Newton gives a proof that "every body... that describes areas around a point proportional to
+
+ the times, is urged by a centripetal force toward the same point". But Newton's proof is based on the concept
+ of inertial straight line motion in the absent of an external force, which Leibniz ignored.
+
+ 28 The modern explanation is based on the theory for the origin of the planets from an initial dense gas
+ of particles circulating the sun which holds also for numerous recently discovered extrasolar planetary
+ systems.
+
+ 29 It is interesting to compare the seventeenth century vortex theory based on unobserved particles with
+ our current speculations of dark matter. This matter, which is also associated with unobserved particles, has
+
+ been invoked to account for the peculiar rotational velocity of some stars that cannot be explained with our
+ current theory of gravity by the amount of observable matter in galaxies.
+
+ Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:40:18 UTC
+All use subject to https://about.jstor.org/terms
+
+ The early application of the calculus 285
+
+ 4 Bernoulli's and Varignon's derivations of Prop. 39 and 41.
+
+ In his response letter to Hermann (Bernoulli 1710), Bernoulli applied the differential
+
+ calculus to derive Newton's expression for the energy conservation principle, Prop.
+
+ 39, and the integral for the orbital curve in polar coordinates, Prop. 41, for a general
+ central force. A similar derivation was given by Varignon in the same issue of the
+ Memoires of the Academy des Sciences where the letters of Hermann and Bernoulli
+
+ appeared. Varignon's derivation differs from Bernoulli's only in the form that each
+
+ one used for the central force. In 1706, Bernoulli learned the expression for a central
+
+ force in terms of the radius of curvature p of the orbit from a correspondence with
+ De Moivre, although he did not acknowledge it (Guicciardini 2008).30 On the other
+
+ hand, by following Newton's geometrical derivation of Prop. 39, Varignon obtained an
+
+ expression for the force in terms of the second-order differential of the arc length of the
+
+ orbit. Bernoulli gave an expression for p in terms of first and second-order differentials
+
+ in polar coordinates, without indicating how he obtained it.31 But his derivation of the
+
+ equations of motion also follow directly from Herman's algebraic treatment of Prop. 1
+
+ by using polar coordinates г, в instead of Cartesian coordinates x, у . It is instructive to
+
+ follow these steps which are similar to Leibniz's original derivation of the differential
+
+ equations of motion in polar coordinates discussed in the previous section.32
+
+ Turning to Bernoulli's notation, r - x and rdO = d y, Eq. 38 corresponds to Ber-
+ noulli's expression for the force, which he obtained by applying the relation for the
+ central force /, in terms of the curvature of the orbit, that he had obtained from De
+ Moivre,
+
+ / = - - , (39)
+
+ P3(2p)
+
+ where p = rsinx/s = dy/y/dx2 + d у2, and p is the radius of curvature of the orbit.
+
+ For p, Bernoulli wrote the expression
+
+ P - - ö
+
+ x(dx2 + d у2)ъ/2
+
+ â Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:40:18 UTC
+All use subject to https://about.jstor.org/terms
+
+ dx¿d y + d yó -f xdxddy - xdyddx
+
+ 30 Newton had derived this relation earlier, but he did not include it in the first edition of the Principia
+ (Nauenberg 1994). It appear in the second edition (1713) of the Principia in several new corollaries to a
+ revised form of Prop. 6. In Lemma 1 1, Newton discussed the radius of curvature to justify the existence of
+
+ the ratio, Eq. 2, that gives the magnitude of a central force in Prop. 6 in the limit that the square of the area
+
+ of the triangle in this proposition becomes arbitrarily small.
+
+ 31 In 1 69 1 , Bernoulli obtained a differential expression for the radius of curvature p that impressed L'Hos-
+
+ pital, who offered him a position as his private tutor in the differential calculus (Bos 1973). L' Hospital's
+ celebrated Analyse des Infiniment Petits was based on Bernoulli's lectures, and he devoted an entire section
+ entitled Usage des calcul des differences pour trouver les Dévelopées to Huygens's theory of evolutes based
+ on Bernoulli's 15th lecture (Bernoulli 1914). Johann Bernoulli's older brother Jacob Bernoulli also derived
+
+ and expression for p by applying the calculus. The source for both Bernoulli brothers was the general
+ expression for p in Huygens's Horologium Oscillatorium (1673).
+
+ 32 In Hermann's diagram, Fig. 2, set SC = r, SB = r - dr, SD = r + d r' and with vertex at S, set angle
+ BSD = d0 and angle CSD = d0. Let ' ft be the angle BC S with vertex at C. Then
+
+ without indicating its origin,33 and restricting the variation of the differentials by the
+
+ area law condition which in polar coordinates takes the form
+
+ 286 M. Nauenberg
+
+ d(xdy) = xddy + dxdy = 0 (41)
+
+ Footnote 32 continued
+
+ BCsin('Js ) = (r - dr)d0 , (31)
+
+ and the conditions, С D parallel to ВС, leads to the relation
+
+ C£sin(iH = (r + d/)d0' (32)
+
+ Since CE = CD = BC> by equating Eqs. 31 and 32, 1 obtain
+
+ ddö = dé»' -dö = -drdô (33)
+
+ Г
+
+ which relates the second-order differential dd0 to the first-order differentials d r and d6. To third order in
+
+ the differentials d r and de, I find that
+
+ BC2 =dr2 +r(r -dr)de2, (34)
+
+ and
+
+ CE2 = d r'2 + r(r + dr')á$'2 + IE D Ar, (35)
+
+ and taking the difference between these two terms, I obtain
+
+ CE2 - ВС 2 = 2(drddr + r2 d0dd0 + rdrde2 + EDdr') (36)
+
+ Then, setting СЕ - ВС , and substituting for dd0 the expression given in Eq.33, yields
+
+ ED = rde2 - ddr (37)
+
+ , rd02 - ddr
+
+ <3"
+
+ 33 This expression for the radius of curvature p can be obtained by substituting polar coordinates in an
+ expression for p in Cartesian coordinates obtained by Jacob Bernoulli.
+
+ Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:40:18 UTC
+All use subject to https://about.jstor.org/terms
+
+ This relation for the impulse ED was first derived by Leibniz using an equivalent approach (Aiton 1962).
+ In polar coordinate, the area of triangles BSC an CSE, which are equal by construction, is (l/2)r2d0 and
+ according to Prop. 6, the force / given by Eq. 2, is
+
+ The early application of the calculus 287
+
+ he obtained34
+
+ _ x(dx2 + d y2)3/2
+ ^ _ ( dy 3 - xdyddx)
+
+ Substituting this expression for p in Eq. 39 yields.35
+
+ ф - & -^Mx (44)
+
+ where с = xdy Apart from a factor 2, this is the same expression for the force, Eq. 38,
+
+ obtained directly from Hermann's diagram. Multiplying both sides of this equation by
+
+ dx , and applying Eq. 41 to substitute dxdy = -xddy on the right hand side yields
+
+ or equivalently
+
+ d(da;2 + dy2)
+
+ ф dx =
+
+ f dx 2 + dy 2
+
+ I f </>dx =
+
+ where n is a constant of integration. Setting с = dt, this relation can be recognized as
+ a derivation via the differential calculus of the principle of conservation of energy E
+ for central forces,36 where E = 2n that Newton had demonstrated by a geometrical
+
+ 34 Since Hermann analysis satisfies Kepler's area law condition d(xdy) = 0, Bernoulli's restricted expres-
+ sion for p , can be obtained by finding the radius of a circle containing the points В , С and E in Hermann's
+
+ diagram of Prop 1 , Fig. 2. The center of this circle is located at a point О where three lines of equal length
+ drawn from В, С and E intersect. Hence the length p of these lines is determined by the differential chords
+ ВС and CE and their relative orientation. Bernoulli's expression differs, however, from the conventional
+
+ expression for p in polar coordinates, first obtained in 1671 by Newton (Newton 1670-1673), which has
+ the form
+
+ _ (d r2 + r2de2)3/2 (42)
+
+ ^ _ d$(r2de2 + 2d r2 - rd2r)
+
+ because the second-order differential d2r is obtained by assuming that d в remains constant.
+
+ 35 Bernoulli's notation for force is ф.
+
+ 36 A modern version of Bernoulli's derivation starts with his differential equations in the form
+
+ r -rdO2 = -ф. (47)
+
+ where / = r20 is the constant angular momentum. Applying the identities
+
+ â Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:40:18 UTC
+All use subject to https://about.jstor.org/terms
+
+ analysis in Prop. 39. Finally, substituting d y = c/x, Bernoulli obtained
+
+ where d s is the differential arc length traversed during a differential interval of time
+
+ dt. For a central force /, ft = fdr/ds , which leads to Varignon's relation for /, apart
+ from a missing minus sign,
+
+ ds dds
+
+ / ,54)
+
+ 288 M. Nauenberg
+
+ dx
+
+ d У = , - (52)
+
+ yj , 4x2(n - f фдх') - 1
+
+ which is a relation between first-order differentials corresponding to Newton's quad-
+
+ rature or integral in Prop. 41 given in terms of the differential d z = aàO = aáy/x.
+
+ In an article that followed the exchange of letters between Hermann and Bernoulli,
+
+ Pierre Varignon gave another derivation of Prop. 39 and 41 based on the differential
+
+ calculus (Varignon 1710). Varignon's derivation follows Newton's original derivation
+
+ in the Principia by starting with a representation in polar coordinates of Proposition
+ 39 for the conservation of energy in the language of the calculus. For an attractive
+
+ force, the component ft tangent to the orbit is
+
+ /, = -dds/dt2 (53)
+
+ Footnote 36 continued
+
+ and
+
+ to the relation
+
+ then shows that
+
+ â Springer
+
+ Гф = ^ <t>dr^ (49)
+
+ ^/••-^ + ^ = 0 (50)
+
+ 5('2 + Д) + /^ = £ <5I>
+
+ where E is a constant corresponding to the total energy.
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:40:18 UTC
+All use subject to https://about.jstor.org/terms
+
+ Introducing polar coordinates y , z, where y = r is the radial distance, z is the polar
+ angle in units of the arc of a circle with arbitrary radius a, and dx = ydz. Then ydx
+
+ corresponds to the equal areas of the differential triangles in Prop. 1 and is propor-
+
+ tional to the differential time interval dt. Varignon failed to recognize that according
+ to Prop. 1 , this relation is a direct consequence of the assumption that the force /
+ is a central force, but he did consider as an example, the case that the second-order
+
+ The early application of the calculus 289
+
+ differential dds is evaluated under the hypothesis that ydx and dt are kept constant.
+
+ Setting dsdds ъ (l/2)d(ds2), leads to the first integral of Eq.54
+
+ f ds2
+
+ 2 J f fdy = --^+n (55)
+
+ where « is a constant. Since ds/dt is the velocity, we recognize that n = 2 E where E
+
+ is the modern constant representing the conservation of energy principle.
+
+ The next step in Varignon's derivation was to express the differential arc length
+
+ ds in polar coordinates, ds = y/dx2 + d y2, and to set dt = ydx. Substituting this
+
+ expression in Eq. 55, and solving the resulting algebraic equation for dx , he obtained
+
+ dx = dy (56)
+
+ Jny2 -2y2 f fdy - 1
+
+ Varignon's result corresponds to Newton's result in Prop. 41 , and to Bernoulli's result,
+ Eq. 52, except that Newton introduced a constant Q = ydx/dt corresponding to the
+ angular momentum, which then leads to his relation
+
+ dx = (57)
+
+ ödy
+
+ yjny1 - 2 y2 f fdy - Q2
+
+ •*7 In conformance with the notation in Bernoulli's article, in this section, x refers to the radial coordinate
+ r instead of the conventional cartesian coordinate x for the horizontal axis.
+
+ 38 The constant ab = IE where E is the total energy, and the constant ac = / where / is the angular
+ momentum. Bernoulli dropped a factor 2 which should multiply the constant a2g.
+
+ a2cdx
+
+ dz = , _ _ (58)
+
+ xy/abx2 , + a2gx - a2c2
+
+ Ö Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:40:18 UTC
+All use subject to https://about.jstor.org/terms
+
+ except for the factor 2 in the denominator. But neither Varignon, nor Bernoulli or
+ Hermann considered the integration of dt = ('/Q)ydx to determine the time along
+ the orbit.
+
+ 5 Bernoulli's integration of the quadrature in Prop. 41 for an inverse square
+
+ force
+
+ In his letter to Hermann, Bernoulli translated into Leibniz's notation Newton's descrip-
+
+ tion in Prop. 41 for an integral that determines the dependence of the polar angle of
+ an orbit on the radial distance from the center of a general central force / (Bernoulli
+
+ 1710; Brackenridge 2003; Erlichson 1994). Afterwards, he also derived this integral
+ from a differential expression for the force, as has been shown in the previous section.
+ For an inverse square force, / = a2g/x2, where x is the radial distance from the
+ center of force.37 a is a constant with dimension of length, and g is a constant with
+ dimension of acceleration, Bernoulli obtained38
+
+ 290 M. Nauenberg
+
+ where d z = adO is an infinitesimal arc of a circle with radius a. Bernoulli obtained
+
+ this result by a direct translation of Newton's expression for this arc, given for an
+
+ arbitrary central force in geometrical language, into the cartesian notation for differ-
+
+ entials developed by Leibniz.39 In order to transform this expression into the "ordinary
+ differential of the arc of a circle", Bernoulli's first step was to introduce the inverse
+ transformation
+
+ x=- , (59)
+
+ a i2
+
+ У
+
+ to a variable y, which leads to the relation
+
+ dz = - cdy ===. (60)
+
+ y/ab + gy- (c2/a2)y2
+
+ Then shifting the origin of the coordinate у by setting у = a - t, where a is a constant
+
+ and Ms a variable, Bernoulli determined a by the requirement that on substitution of
+
+ this expression for у in the argument of the square root in Eq. 60, the term linear in
+ t vanish. This condition gives a = a2#/2c2, and in terms of the new variable t he
+ obtained
+
+ and
+
+ 1 = m
+
+ dz dt
+
+ d$ = 7 = WTi ř <62)
+
+ where h = ( a/c)yjab + a2g2/Ac2. At this point, Bernoulli recognized that while the
+ left hand side of Eq.62 is the differential angle for the polar angle в = z/a of the
+ orbit, the right hand side of this equation is the expression in cartesian coordinates for
+ the differential angle associated with a circle of radius /г.40 In Cartesian coordinates
+
+ X , y, the differential length of the arc is ds = y/dx2 + d у2, and for a circle of radius
+
+ h = y/x2 H- у2,
+
+ xdx 4- vdv
+
+ dh = - = 0. (63)
+
+ Hence dy = - (x /y)dx, and substituting this relation fordy in di gives d в = ds/ h =
+ dx/ ' Ih2 - x 2. On geometrial grounds, this identification had already been made by
+
+ The only additional step that Bernoulli had to undertake was the evaluation of the integral in Prop. 39 for
+
+ the area bounded by the curve associated with an inverse square force, namely J dx('/x2) = - '/x. Such
+ integrals, however, were already well known over half a century earlier from the work of Fermat (Kline
+ 1972). Presently, this integral is called the potential for the inverse square force.
+
+ ^ . . .qui est une différentielle d'arc de cercle dont le rayon est=/i, & son sinus=i divise par son rayon.
+
+ â Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:40:18 UTC
+All use subject to https://about.jstor.org/terms
+
+ which is the now familiar equation in polar coordinate for a conic section with eccen-
+
+ The early application of the calculus 29 1
+
+ several mathematician in the seventeenth century. Hence, in modern notation41, t =
+ hsin(6 - 0o ), and Eq. 61 takes the form
+
+ 1 - €Sin(0 - 0o)
+
+ where x = XY, y = YQ. The condition that for y = a2 g /2с2 we have x = 2c2/ g
+ implies that OQ = atg/lc1 and OZ = 2 c2/g, and then OZ ■ OQ = a2 The con-
+ nection to the angular variable is obtained by shifting the origin of coordinates from
+
+ Q to the point О along the horizontal y- axis, and constructing a circle T SM centered
+ at О , with radius
+
+ where О Г is along the horizontal and О M along the vertical axis. Then OY = t and
+ the condition
+
+ 2c2 /q
+
+ X =
+
+ tricity
+
+ € = 2c1 h ! a1 g = yj 1 + 4 c2h/ag2. (65)
+
+ In the tradition of seventeenth century mathematics, Bernoulli also gave a geometrical
+ construction to describe this conic section, but his description has not received the
+ attention is deserves.
+
+ Referring to Fig. 5, the axis for the cartesian coordinates x, y are the inverted ver-
+
+ tical line RQ , and the horizonal line OQ respectively with origin at the intersection
+ Q. The inverse relation between the variables x and y is expressed by the curve VXZ
+
+ which is a hyperbola determined by the proportion
+
+ H = ££. (66)
+ OZ YQ
+
+ ОТ = OM = h (67)
+
+ OA = OZ = - . (68)
+
+ 2c2
+
+ 9
+
+ and t = Y О = O Q - Y Q. The intersection at 5 of a straight line OS with the circle
+
+ TSM, drawn at an angle в = SOM from the vertical line OA, determines Y and X
+ by the intersections of a vertical line through S with the horizontal line О Q and the
+ hyperbola VXZ , respectively. Then extending the line OS to B, such that OB = XY
+ is the radial distance, and varying the angle в = SOM with vertex at 0, the path of
+ В describes geometrically the curve ABC corresponding to orbit, where
+
+ 41 Bernoulli did not use a notation for the ratio t/ h which corresponds to the trigonometric function sine
+
+ of the angle в.
+
+ Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:40:18 UTC
+All use subject to https://about.jstor.org/terms
+
+ 292 M. Nauenberg
+
+ Fig. 5 Bernoulli's geometrical
+ construction for the orbit of a
+
+ Soit donc ici ( où les mêmes lettres marquent les mê-
+
+ conic section
+
+ mes chofes que dans la A
+ Fig. precedente ) perpen- JSc^ - ' ye
+ diculairemcnt en О Гиг v
+ АО la droite
+ Ы du centre pentire les / у ' '
+ afymptotes gjj , gjt , < С T F Y О
+ une hyperbole equilatere
+ VXZ , donc le re&angle
+
+ (descoordonnées)e^rj:ou /%* Jg
+ J¡)OZ*aiAASo't prolongée /%*
+ une ordonnée quelcon- /
+ que -XT de l'hyperbole /
+ jufqu'à ce qu'elle rencon- /
+ tre le cercle MST en S , /
+ par lequel point «Í foie R /y
+ menée OS , fur laquelle
+ ( prolongée s'il en eft befoin ) foie prife OB : =¡XT. Je dis
+ que le point В fera un de çeux de la řrajettoire ЛВС %
+
+ puifque
+
+ OQ • OA
+
+ OB = -
+
+ - OQ-OY
+
+ Substituting in this expression OY = OTsin(0 ), e = ОТ /OQ - h(2c2/a2g) and
+ OA = 2 c2/g, shows that Bernoulli's geometric construction42 for the curve ABC
+ corresponds to Eq. 64.
+
+ In his next step, Bernoulli gave an algebraic proof that the curve ABC , determined
+ geometrically in polar coordinates г, в , satisfies the algebraic equation for a conic
+ section, in cartesian coordinates,43 x = OF and у = F В , where F is the intersection
+
+ of the vertical line from В , with the horizontal line OQ. In his diagram, Fig. 5, the
+ origin of coordinates at О is one of the foci of the conic, and
+
+ x = - (70)
+
+ OB • OY
+
+ ОТ
+
+ OB-SY
+
+ y of ^
+
+ After this geometrical considerations, Bernoulli obtained an algebraic equation for
+ x , у by eliminating the variable t which appears in Eqs. 70 and 71, but he did not
+ describe his derivation which is, however, easy to reconstruct.
+
+ 42 Newton, who expressed his propositions and solutions in the Principia in geometrically form, could
+ have used Bernoulli's construction in the second and third edition of his Principia to include the famous
+ "missing" corollary of Prop. 41 for inverse square forces. Most likely, however, he failed to do this because
+ his animosity towards Bernoulli, which also led to his refusal to give him any credit for this achievement.
+
+ ^ We follow here Bernoulli who used the same notation for the radial coordinate, and for its cartesian
+ component along the jc-axis.
+
+ Ô Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:40:18 UTC
+All use subject to https://about.jstor.org/terms
+
+ where OB = a2/(a2g/2c 2 - t), Eq. 61, OY/OT = t/h and SY/OT =
+ J(h2-t2)/h.
+
+ and substituting this expression for t in Eq. 71 for y gives
+
+ The early application of the calculus 293
+
+ Setting ï] = a2g/2c 2, Eq. 70 for x yields
+
+ rihx
+
+ ' = (72)
+
+ (rj2 - h2)x2 = la2hx - r¡2y 2 + я4, (73)
+
+ where h/r¡ = e is the eccentricy parameter.44 In this manner, Bernoulli gave an alge-
+ braic proof that his geometrical curve ABC corresponds to the curve for a conic
+ section, Eq. 64, which he wrote in the corresponding form
+
+ ( a4 g 2 - 4 c4h2)x2 = 8 a2c4hx - a4g2y 2 + 4a4c4. (74)
+
+ In reference to Bernoulli's translation of Props. 39-41 in the Principia into the
+
+ notation introduced by Leibniz, Keill perceptively observed that
+
+ The solution of M.Bernoully does not differ from that of M.Newton except in
+ the characters or symbols... it will result that that formula does not differ from
+ the Newtonian more than the same words when written in Latin and in Greek
+
+ (Guicciardini 2008)
+
+ Keill's judgement hits the nail on its head.45 Like Newton, Bernoulli was well versed
+
+ in both geometrical and algebraic techniques, and he employed both approaches to
+ achieve his result.
+
+ 6 Concluding remarks
+
+ In the late seventeenth century, the analytic calculus of Newton and Leibniz introduced
+
+ finite differentials which were grounded on geometrical quantities readily comprehen-
+
+ sible to its practitiones. The difficulty associated with the mathematical limit - that at
+
+ the end of a calculation the differentials, like ghosts, had to vanish - was not resolved
+
+ rigorously until a century later, but this problem was left to be debated as a philo-
+
+ sophical problem of mathematics; it did not delay progress in the development and
+ application of the new calculus. Later on, after Clairaut, d'Alembert and Euler formal-
+
+ ized the calculus into the form familiar to us today, all traces of the geometrical origin
+
+ 44 Setting h/ïj = с, Bernoulli's algebraic equation corresponds to Herman's result, Eq. 16, with a substi-
+
+ tuted by a/y/rj.
+
+ 45 Although Guicciardini agrees that Bernoulli's expression, Eq. 58, is "a translation of Newton's geomet-
+ rical proportionalities into the language of calculus", he questions whether Newton could have performed
+ such a translation, claiming that "he used his own method of series and fluxions that is equivalent and yet
+ different from Leibniz's algorithm" (Guicciardini 2008). Yet the explanation that Newton gave to David
+ Gregory on how he obtained the solution for the inverse cube force, described in Cor. 3 of Prop. 41, shows
+ that Newton's procedures were virtually identical to those of Bernoulli.
+
+ 40 Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:40:18 UTC
+All use subject to https://about.jstor.org/terms
+
+ of these equation were removed. Leibniz foresaw this development with his remark
+ that
+
+ 294 M. Nauenberg
+
+ Fig. 6 Newton's diagram for
+ Lemma 2, sect 1 of the Principia
+
+ In truth no one before Leibniz has had the idea of constituting out of this new cal-
+
+ culus and algorithm whereby the imagination would be freed from the perpetual
+ attention to figures (Leibniz 1849)
+
+ In a letter to Christiann Huygens, he wrote
+
+ For what I love most about my calculus is that it gives us the same advantages
+ over the Ancients in the geometry of Archimedes, that Viète and Descartes have
+
+ given us in the geometry of Euclid or Apollonios, in freeing us from having to
+ work with the imagination (Huygens 1905)
+
+ Leibniz's remarks offers some insight why the connection between mathematics
+ and reality has become a riddle in modern times. The standard abstract formulation
+
+ of Newtonian mechanics based on the equation / = ma , where the acceleration a
+
+ is represented by a second derivative, hides its geometric origins. Indeed, it is the
+
+ "attention to figures", which Newton advocated, that give us some understanding of
+ the connection of this differential equation to reality. We have shown that in the work
+
+ of Bernoulli, Hermann, Leibniz and Varignon, the problem of inverse square forces
+ was first visualized geometrically, and then solved analytically with finite differentials
+ that satisfy algebraic equations.
+
+ 7 Appendix 1. Early formulation of the fundamental theorem of the calculus
+
+ In Prop. X: 1 1 of his 1668-1669 Geometrical Lectures (Barrow 1916; Mahoney
+ 1990), Isaac Barrow gave a rigorous geometrical proof of the fundamental theorem of
+
+ Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:40:18 UTC
+All use subject to https://about.jstor.org/terms
+
+ The early application of the calculus 295
+
+ the calculus.46 Barrow proved that the subtangent of a curve with ordinate Yx for the
+
+ area bounded by another curve yx at a corresponding value of x of the abscissa, is pro-
+
+ portional to the ratio Yx/yx. In a 1693 article in the Acta Eruditorum (Leibniz 1693),
+ Leibniz essentially took over Barrow's geometrical proof, substituting the differential
+
+ form for the subtangent, Yxdx/dYx, to write Barrow's result, Yxdx/dYx - aYx/yx ,
+
+ in the form aYx = f yxdx , where a is an arbitray constant of proportionality with the
+ dimension of length.
+
+ In an appendix to his lectures, Barrow also gave a bound for the area of a curve by
+
+ the sum of the areas of rectangles, which later Newton adopted as Lemma 2 of Sect. 1
+
+ in the Principia. Barrow's bound served as the starting point for an analytic proof of the
+
+ fundamental theorem along the lines developed by Leibniz and Newton. Referring to
+
+ Fig. 6, which corresponds to Barrow's diagram as it appeared in Lemma 2, let y¡ be the
+ ordinate of the curve at x¡ for i = 1-5. Then y' - Aa,yi = Bb, y$ = Cd , 2/4 = Dd
+ and У5 = Ее, and x' = 0, X2 = AB , x$ = AC, X4 = AD , and xs = AE, where
+ AB = ВС = CD = DE, i.e., the corresponding rectangles have equal differential
+ widths dx = X/+1 - Xi à The upper bound U for the area under the curve is
+
+ /=4
+
+ i=t
+
+ 1 = 4
+
+ 1=2
+
+ и = ^ y¡dx, (75)
+
+ the lower bound D is
+
+ D - y^y¡áx, (76)
+
+ and the difference U - D is the area of the first rectangle
+
+ U - D = yxdx. (77)
+
+ Geometrically, this result can also be seen to be the sum of the area of the residual
+ rectangles albK, bmcL , cndM and deED. Of course, this result applies also for a
+ subdivision with n equal rectangles. It follows that when the magnitude of the differ-
+ ential d# is decreased, and accordingly the number n of rectangles is increased, the
+ difference U - D between the upper and lower bounds to the area under the curve,
+
+ which is proportional to dx, also decreases. In the limit that dx becomes vanishingly
+ small, this difference becomes zero giving a proof equivalent to Archimedes method
+
+ by exhaustion that either bound approaches the area.
+
+ Hence, by taking a sufficiently large number n of rectangles, the sum of differentials
+
+ 46 In a letter to Oldenburg meant for Leibniz, written on Oct 24, 1676, Newton formulated this theorem in
+
+ the form of an anagram that reads "given an equation involving any number of fluent quantities to find the
+ fluxions, and conversely" (Newton 1676).
+
+ Y„ = У, Vidx (78)
+
+ i=n
+
+ /=1
+
+ Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:40:18 UTC
+All use subject to https://about.jstor.org/terms
+
+ 296 M. Nauenberg
+
+ for i = 1 to i = n , where dx = x,+i - х/ is a constant, determines the area under
+
+ the curve in the interval x = 0, x = xn to any desired accuracy.47 In turn, the sum Y¡
+
+ satisfies the property that the difference
+
+ àYi = Yi+x-Yi=yi+xáx (79)
+
+ is determined by 2/,-+ j and the magnitude of the differential dx. Taking x as a variable,
+
+ let Yx be the area bounded by the curve yx = y¡, and the ordinates x' and x. Then in
+
+ the limit that dx -» 0 the ratio dYx/dx approaches the tangent of the curve Yx , and
+ according to Eq. 79
+
+ d Yx
+ -7^ -> Ух (80)
+ dx
+
+ This relation represents in algebraic form Barrow's geometrical theorem. In Leib-
+
+ niz's suggestive notation where the summation sign ^ is replaced by the integral
+ sign/
+
+ X
+
+ XI
+
+ Yx = J yxdx (81)
+
+ In Newton's equivalent language for the calculus, 48 the ordinate yx with x as a uni-
+
+ formly increasing variable, i.e. x = 1, represents the fluxion associated with the fluent
+
+ Yx , and the differential relation between Yx and yx is denoted in Newton's notation
+
+ by a dot on Yx,
+
+ Yx = Ух- (82)
+
+ It is surprising that Newton did not introduce a notation for the integral of yx compara-
+
+ ble to Leibniz's, Eq. 8 1 and instead, he referred to the fluent Yx always as the quadrature
+
+ or area associated to the curve yx. He defined also the moment of any fluent Yx or curve
+ by Yxo , where о is a small quantity corresponding to Leibniz's differential dx. It is
+ also important to recognize, that Leibniz's differential dYx = Yx+ ¿x - Yx is the same
+ as Newton's moment Yx dx only to first order in dx.49
+
+ 47 Although the sum X/=ï 2/i increases with increasing n without bounds, the product (X/=ï Vi )&x
+ remains finite, because dx = ( x - x')/n decreases with increasing n in the same proportion.
+
+ 48 Leibniz's rules for the differential calculus are the same ones that Newton developed for his calculus of
+
+ fluxions. In 1696, the Marquis De L'Hospital published Analyse des Infiniment Petits pour L'Intelligence
+ des Lignes Courbes , based on lectures that he had received from Bernoulli, which became the first textbook
+
+ on the differential calculus in the Continent. It was translated from French to English in 1730 by E. Stone
+ under the title The Method of Fluxions both Direct and Inverse. Stone changed Leibniz differential notation
+ into Newton's dot notation for fluxions, e.g., dx became xdt, and he added his own description of the
+ integral calculus.
+
+ 49 The ratio d Y' /dx of Leibniz's "characteristic triangle" with sides dx and dY ' is equal to the tangent Y
+ at x. Leibniz used the same symbol d Y for this different definition of the differential d Yr , which for a fixed
+ value of dx is equal to Newton's definition of the moment of Y.
+
+ Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:40:18 UTC
+All use subject to https://about.jstor.org/terms
+
+ The early application of the calculus 297
+
+ While a rigorous mathematical formulation of the limit dx -> 0 had to wait for
+ another century, in Lemmal, Sect. 1 of the Principia Newton expressed this limit
+
+ concisely under the heading of "first and ultimate ratios" as follows:
+
+ Quantities and also ratios of quantities, which in any finite time constantly tend to
+
+ equality, and which before the end of that time approach so close to one another
+
+ that their difference is less than any given quantity, become ultimately equal.
+
+ In practice, differentials, either geometrical or algebraic, were always represented
+ by finite albeit very small quantities. Both Newton and Leibniz recognized that for
+ sufficiently small values of these differentials, the results obtained from approximate
+
+ relations in which the contributions of higher order differentials were neglected would
+
+ be accurate to any desired degree.
+
+ 8 Appendix 2
+
+ Using vector notation with Cartesian components along the x, y axis and origin at the
+ center of force, we give a succinct derivation of the second-order differentials ddx
+
+ and dd y for the force impulse along the lines given by Hermann based on Prop. 1 in
+ Newton's. This derivation is contrasted with Bernoulli's, which was given in polar
+
+ coordinates, and with by a comparable derivation based on Prop. 6.
+
+ In reference to Hermann's diagram shown in Fig. 2, let the positions В , С and E
+ on the curve ABC D . be represented by the vectors r# = r(t),r с = r(t -f di), and
+ rD = r(t + 2d t). Then ?e = 2 rc - гв , and ED = r¿> - r# is given by
+
+ ED = r(t + 2d t) + r(t) - 2 r(t + d t)) (83)
+
+ Defining the first-order differential by d r(t) = r(t + d t) - r(t ), and the second-order
+
+ differential by ddr(/) = d r(t -|- d t) - dr(/), we find that
+
+ ED = ddr(i). (84)
+
+ For an attractive central inverse square force ED = E Dr /г, where г = Ух2 -h у 2,
+ ED = -(xá у - yáxÝ/ar 2, and we obtain
+
+ ddr = -^r(xdy - ydx)2. (85)
+
+ r3
+
+ which corresponds to Hermann's result, Eq. 4, for the x component of r.
+
+ In polar coordinates г, в , one also must take into account that the reference unit
+
+ vectors i/, v along the radial and transverse direction are not fixed in space, but satisfy
+ the conditions du = vdO , and dv = udO. Setting r = гй, we have
+
+ dr = drü + rdOv, (86)
+
+ Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:40:18 UTC
+All use subject to https://about.jstor.org/terms
+
+ In the diagram associated with Prop. 6, shown in Fig. 4, let r/> = r(t), ?q =
+
+ r(t + di)) represent the positions Q and P on the curve, and r¡t(t) = r(t ) -I- v(t)dt,
+ the position of R9 where v(t) is the velocity at P along the tangent line RP . Hence
+ the change in position RQ - ?r -7q, is
+
+ 298 M. Nauenberg
+
+ and
+
+ Then
+
+ ddr = (dd r - rde2)u + (rdde + 2drd0)t>. (87)
+
+ For a force impulse along the radial direction, the second-order differential com-
+ ponent of ddr along the transverse direction v must vanish, leading to Kepler's area
+ law in the form
+
+ d(r2d6>) = 0. (88)
+
+ £ <x ddr - rd02 (89)
+
+ which is the form originally obtained by Leibniz and re-derived by Bernoulli. Setting
+ £ = -2 фс2, where ф is the force and с = r2d0 is a constant, we recover Bernoulli's
+ result
+
+ ф m
+
+ RQ = - dr(/) + v(t)dt. (91)
+
+ To convert this expression to differentials, we need to express the velocity vector v(t)
+
+ in terms of first-order differentials dr(ř) with the property that in the limit when Q
+
+ approaches P, this vector remains tangential to the curve at P up to third order in
+ powers of dt. Introducing Q ' for the position on the orbit at time t - dt, which is not
+
+ shown in Newton' diagram, where rg> = r(t - dt), this property is satisfied uniquely
+ by the chord 7q - ?q> = dr(i) 4- dr(/ - dt). Hence, we approximate v(t) by the
+ relation
+
+ v(t)dt = i(d r(0 + dr(i - dt)), (92)
+
+ and substituting this expression for v(t)dt in Eq. 91, we obtain
+
+ RQ = iád r(0 (93)
+
+ Acknowledgements I would like to thank Niccolo Guicciardini for numerous discussion and many help-
+ ful comments and corrections of an earlier draft of this manuscript.
+
+ â Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:40:18 UTC
+All use subject to https://about.jstor.org/terms
+
+ The early application of the calculus 299
+
+ Open Access This article is distributed under the terms of the Creative Commons Attribution Noncom-
+ mercial License which permits any noncommercial use, distribution, and reproduction in any medium,
+
+ provided the original author(s) and source are credited.
+
+ References
+
+ Aiton, E. J., 1954 The Inverse Problem of Central Forces. Annals of Science 20:81-99
+ Aiton, E. J., 1962 The Celestial Mechanics of Leibniz. Annals of Science 16:65-82
+
+ Aiton, E. J., 1995 The vortex theory in competition with Newtonian celestial dynamics. Planetary astronomy
+
+ from the Renaissance to the rise of astrophysics, part B, edited by R. Taton and C. Wilson (Cambridge
+ University Press) pp. 3-21
+
+ Barrow, I., 1916 The Geometrical Lectures of Isaac Barrow. Translations and notes by J. M. Child (Open
+
+ Court, London), Quoted by N. Guicciardini in reference (Guicciardini 2009)
+
+ Bernoulli, J., 1710 Extrait de la Résponse de M. Bernoulli à M. Herman, datée de Basle le 7. Octobre 1710.
+
+ Mémoires de l'Academie Royale des Sciences pp. 521-533
+
+ Bernoulli, J., 1914 Die erste Integralrechnungen Ostwald Klassiker nr. 194 (Leipzig und Berlin, 1914)
+
+ 63-67. Archives for the History of Exact Sciences 46, 222-25 1
+
+ Bernoulli, J., 1999 Die Werke von Jakob Bernoulli: Bd. 5: Differentialgeometrie edited by D. Speiser, A.
+
+ Bernoulli, 2008 Die Werke von Johannn I und Nicolaus II Bernoulli ed. P. Radelet-de Grave (Birkhäuser)
+
+ Weil and M. Mattmüller (Birkhaüsser)
+
+ pp. 125-128
+
+ Bertoloni Meli, D., 1991 Equivalence and priority: Newton vs. Leibniz (Clarendon Press, Oxford)
+ Boyer, С. В., 1989 A History of Mathematics (Wiley, New York)
+
+ Bos, H. J. M., 1973 Differentials, Higher-Order Differentials and the Derivative in the Leibnizian Calculus.
+
+ Arch. Hist. Exact Sci. 14:1-90
+
+ Brackenridge, J. В., 2003 Newton 's Easy Quadratures " Omitted for the Sake of Brevity ". Archive for
+
+ History of Exact Sciences 57, 313-336
+
+ Cohen, I. В., 1999 Isaac Newton The Principia. A new translation by I. B. Cohen and Anne Whitman
+ assisted by Julia Budenz, and A Guide to Newton's Principia by I. B. Cohen (University of California
+ Press) p.l 15
+
+ Erlichson, H., 1994 The Visualization of Quadratures in the Mystery of Corollary 3 to Proposition 41 of
+
+ Newton's Principia. Historia Mathematica 21, 148-161
+
+ Euler, L., 1736 Medianica (St. Petersburg) Quoted in reference (Bertoloni Meli 1991) p. 214
+ Guicciardini, N., 1999 Reading the Principia: The Debate on Newton's Mathematical Methods for Natural
+
+ Philosophy from 187 to 1736. (Cambridge University Press, Cambridge) pp. 207-225
+
+ Guicciardini, N., 2008 Isaac Newton and Johann Bernoulli on central force motion, (to be published)
+ Guicciardini, N., 2009 Isaac Newton on Mathematical Certainty and Method (M.I.T. Press, Cambridge)
+ Hermann, J., 1710a Extrait d'une Lettre de M. Herman à M. Bernoulli, datée de Padoiie le 12. Juillet 1710.
+
+ Mémoires de l'Academie Royale des Sciences pp. 5 19-521
+
+ Hermann, J., 1710b Metodo d'investigare l'Orbite de' Pianeti... Giornale de' Letterati ď Italia , voi. 2,
+
+ Huygens, C., 1673 Horologium Oscillatorium (Paris). Reproduced in Ouvres Complètes de Christiaan
+ Huygens, voi. 8 (Martinus Nijhoff). English translation in Richard J. Blackwell, Christiaan Huygens's
+ Pedulum Clock (Ames 1986)
+
+ Huygens, С., 1905 Ouvres Complètes des Christiaan Huygens vol. 10 Correspondance 1691-1695 (Martinus
+ Nijhoff, The Hague) p. 227. Translation from French to English by N. Guicciardini in réf. (Guicciardini
+ 1999) p. 166
+
+ Kline, M., 1972 Mathematical Thought from Ancient to Modern Times, vol. 1 (Oxford University Press,
+
+ 447-467
+
+ Oxford)
+
+ Laplace, P. S., 1798 Traité de Méchanique Celeste Tome I, Premier Partie, Livre II, (Gauthier- Villars, Paris)
+
+ p. 165, Ouvres Complètes de Laplace (Gauthiers- Villars, Paris, 1843) p. 181
+
+ Leibniz, G., 1693 Supplementum geometriae dimensoriare ... Acta Eruditorum, 385-392. Translated into
+ English from Leibniz, Mathematische Schriften , Abth. 2, Band I, 294-301, in A source book in mathe-
+ matics, edited by E.D. Struik (Harvard University Press 1969) pp. 282-284
+
+ Leibniz, G. W., 1849 Mathematische Schriften vol. 5, ed. С. I. Gerhardt (Berlin) p. 393
+
+ â Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:40:18 UTC
+All use subject to https://about.jstor.org/terms
+
+ Leibniz, G. W., 1973 Marginalia in Newoni Prncipia Mathematica ( Ì687) edited by E. A. Fellman (Librarie
+
+ Philosophique J Vrin, Paris)
+
+ Mahoney, M. S., 1990 Barrow's mathematics: between ancients and moderns , in Before Newton: The life
+
+ and times of Isaac Barrow, edited by Mordechai Feingold (Cambridge University Press, Cambridge) pp.
+ 179-249
+
+ 300 M. Nauenberg
+
+ Mazzone, S. and Roero, C. S., 1997 Jacob Hermann and the diffusion of the Leibnizian calculus in I tally
+
+ (Olschki, Firenze)
+
+ Nauenberg, M., 1994 Newton's Early Computation for Dynamics
+
+ Nauenberg, M., 2003 Kepler's area law in the Principia : filling in some details in Newton 's proof of Prop-
+
+ osition 1. Historia Mathematica 30:441-456
+
+ Nauenberg, M., 2005 Robert Hooke's seminal contributions to orbital dynamics. Physics in Perspective 7,
+ 4-34; reprinted in Robert Hooke Tercentennial Studies, edited by M. Cooper and M. Hunter (Ashgate,
+ Cornwall, 2006) Physics in Perspective
+
+ Newton, I., 1670-1673 The Mathematical Papers of Isaac Newton vol. 3, 1670-1673, edited by D.T. White-
+
+ side (Cambridge University Press) pp. 154-155
+
+ Newton, I., 1960 The correspondence of Isaac Newton vol. 3 edited by H. W. Turnbull (Cambridge Uni-
+
+ Newton, I., 1968 The Mathematical Papers of Isaac Newton vol. 2, edited by D.T. Whiteside (Cambridge
+
+ versity Press) p. 297
+
+ Universit Press, Cambridge) p. 270
+
+ Newton, I., 1974 The Mathematical Papers of Isaac Newton vol. 6, 1684-1691, edited by D.T. Whiteside
+
+ (Cambridge University Press, 1974) pp. 35-37
+
+ Newton, I., 1676 The correspondence of Isaac Newton , vol. 2, 1676-1687, edited by H.W. Turnbull (Cam-
+
+ bridge University Press 1976)
+
+ Varignon, M., 1710 Des forces Centrales Mémoires de Г Academie Royale des Sciences 533-544
+ Wilson, С., 1994 Newton's Orbit Problem: A Historian's Response. The College Mathematics Journal
+
+ 25:193-205
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:40:18 UTC
+All use subject to https://about.jstor.org/terms
+
+

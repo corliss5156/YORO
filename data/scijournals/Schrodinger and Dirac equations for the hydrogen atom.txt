@@ -1,0 +1,2248 @@
+ 
+
+ 
+
+ 
+
+ 
+
+Schrödinger and Dirac equations for the hydrogen atom, and Laguerre polynomials
+Author(s): Jean Mawhin and  André Ronveaux
+Source: Archive for History of Exact Sciences, Vol. 64, No. 4 (July 2010), pp. 429-460
+Published by: Springer
+Stable URL: https://www.jstor.org/stable/41342425
+Accessed: 19-05-2020 12:38 UTC
+
+ 
+REFERENCES 
+Linked references are available on JSTOR for this article:
+https://www.jstor.org/stable/41342425?seq=1&cid=pdf-reference#references_tab_contents 
+You may need to log in to JSTOR to access the linked references.
+
+JSTOR is a not-for-profit service that helps scholars, researchers, and students discover, use, and build upon a wide
+
+range of content in a trusted digital archive. We use information technology and tools to increase productivity and
+
+facilitate new forms of scholarship. For more information about JSTOR, please contact support@jstor.org.
+
+Your use of the JSTOR archive indicates your acceptance of the Terms & Conditions of Use, available at
+
+https://about.jstor.org/terms
+
+Springer is collaborating with JSTOR to digitize, preserve and extend access to Archive for
+History of Exact Sciences
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:38:33 UTC
+All use subject to https://about.jstor.org/terms
+
+ Arch. Hist. Exact Sci. (2010) 64:429-460
+ DOI 1 0. 1 007/s00407 -0 1 0-0060-3
+
+ Schrödinger and Dirac equations for the hydrogen
+ atom, and Laguerre polynomials
+
+ JeanMawhin • André Ronveaux
+
+ Received: 3 April 2009 / Published online: 30 April 2010
+ © Springer- Verlag 2010
+
+ Abstract It is usually claimed that the Laguerre polynomials were popularized by
+
+ Schrödinger when creating wave mechanics; however, we show that he did not imme-
+
+ diately identify them in studying the hydrogen atom. In the case of relativistic Dirac
+
+ equations for an electron in a Coulomb field, Dirac gave only approximations, Gordon
+ and Darwin gave exact solutions, and Pidduck first explicitly and elegantly intro-
+ duced the Laguerre polynomials, an approach neglected by most modern treatises and
+
+ articles. That Laguerre polynomials were not very popular before their use in quan-
+ tum mechanics, probably because they had been little used in classical mathematical
+
+ physics, is confirmed by the fact that, as we show, they had been rediscovered inde-
+
+ pendently several times during the nineteenth century, in published or unpublished
+ studies of Abel, Murphy, Chebyshev, and Laguerre.
+
+ 1 Introduction
+
+ In 1923, Louis de Broglie published three short communications (de Broglie
+ 1923a,b,c), in which he proposed to associate a wave to any moving particle, thus
+
+ extending the dual character of the photon. De Broglie's ingenious intuition was con-
+
+ firmed 4 years later by the experiments of Clinton J. Davisson , Lester H. Germer, and
+ George P. Thomson on diffraction waves of the electron, but an equation describing
+ this mysterious wave and taking into account its dynamics was still missing from de
+ Broglie's study. Erwin Schrödinger, at the time a professor in Zürich, was told by
+
+ Communicated by Jeremy Gray.
+
+ J. Mawhin (E2) • A. Ronveaux
+
+ Département de Mathématique, Université Catholique de Louvain, Chemin du Cyclotron,
+ 2, 1348 Louvain-la-Neuve, Belgium
+ e-mail: jean.mawhin@uclouvain.be
+
+ Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:38:33 UTC
+All use subject to https://about.jstor.org/terms
+
+ 430 J. Mawhin, A. Ronveaux
+
+ Einstein about de Broglie's articles in 1925 and solved this problem in January 1926
+ (Schrödinger 1926a). His article built on his earlier presentation of his famous (sta-
+
+ tionary) equation, which had taken in three pages, four equations, and two fruitful and
+
+ ingenious Ansatz, and became an important article of 15 pages, in which Schrödinger
+ also solved his equation in the case of the hydrogen atom, using Fuchs' theory of
+
+ linear differential equations and the Laplace transform. He also recovered in this way
+
+ the formulae for the energy levels given by Bohr in 1913. Both his way of introducing
+
+ the wave equation, and his way of solving it for the hydrogen atom have disappeared
+ from standard treatises and textbooks on quantum mechanics.
+
+ One aim of this article is to clarify the claim of some mathematicians involved
+
+ in the theory of special functions that the Laguerre polynomials were popularized
+ by Schrödinger when creating wave mechanics. It is partly true, but the Austrian
+
+ physicist did not immediately identify the polynomials occurring in the Hydrogenic
+
+ wave functions with Laguerre polynomials. A part of this story is very well described
+ and documented in the remarkable book of Mehra and Rechenberg (1987), and in
+ Rechenberg (1988), but is not mentioned in the other famous history of quantum
+ mechanics by Jammer (1966). In contrast, the fact is emphasized in Walter Moore's
+
+ interesting biography of Schrödinger, (Moore 1989), who writes on p. 199:
+
+ It is surprising that Schrödinger had so much difficulty in solving the radial
+ equation. He was using as a reference the little book of Ludwig Schlesinger,
+ Introduction to the Theory of Differential Equations , published in 1900. As the
+
+ title indicates, it is not a book devoted to the practical problems of solving dif-
+
+ ferential equations of mathematical physics. Schrödinger evidently was not yet
+
+ using the book that became the vade mecum of theoretical physicists, Methoden
+ der Mathematische Physik /, published in 1924 by Richard Courant and David
+
+ Hilbert. On page 161 of this book, the equation satisfied by the Laguerre poly-
+ nomials appears, and its form is very close to that of the radial equation for the
+ H-atom, but the associated Laguerre polynomials, which actually provide the
+ solutions for Schrödinger equation are not cited. The book of Frank and von
+
+ Mises, Die Differential-und Integralgleichungen der Mechanik und Physik was
+ published only at the end of 1925; this gave a complete account of the associ-
+ ated Laguerre polynomials and their corresponding differential equations, but it
+ would have been just too late to help Schrödinger.
+
+ We discuss those questions in Sect. 2.
+
+ If the Laguerre polynomials are now universally accepted and used in solving
+
+ Schrödinger equation with a Coulomb potential, then the situation is quite different
+ in the case of the Dirac equations of relativistic quantum mechanics. The second aim
+
+ of this study is to survey the various approaches used to solve the Dirac equations for
+
+ the relativistic electron, in which the explicit use of Laguerre polynomials is far less
+ popular. In the preface of the second edition of his monumental treatise (Frank and
+
+ von Mises 1925-1935) written in collaboration with Richard von Mises, Philipp Frank
+
+ mentions that the first edition of volume 2 was in print when Schrödinger's first arti-
+ cles on wave mechanics appeared. However, the second edition contains a new sixth
+
+ part, more than one hundred pages long, entirely devoted to the new wave mechan-
+
+ ics, including the relativistic wave equation of Paul Dirac. Laguerre polynomials are
+
+ Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:38:33 UTC
+All use subject to https://about.jstor.org/terms
+
+ Schrödinger and Dirac equations for the hydrogen atom, and Laguerre polynomials 43 1
+
+ explicitly used in the solution of the problem of the electron in a Coulomb field for the
+
+ Schrödinger equation, but not for the Dirac equations. In fact, Dirac (1928) did not
+ solve his relativistic equations for the hydrogen atom exactly in his seminal article,
+ but only discussed the first two approximations. A few months later, Walter Gordon
+
+ and Charles G. Darwin independently solved the equations using power series, which
+
+ Gordon recognized as confluent hypergeometric functions (related to Laguerre poly-
+ nomials) (Gordon 1928; Darwin 1928). Those polynomials were explicitly introduced
+
+ in the solution of the relativistic electron in a Coulomb field 1 year later by Pidduck
+
+ (1929). We analyze these questions in Sect. 3.
+
+ Laguerre polynomials were not very popular before their use in quantum mechan-
+
+ ics, as is confirmed by their own story, which seems to require some amplifications and
+
+ corrections. We show in the Appendix that, although usually named after Edmond-
+ Nicolas Laguerre, those polynomials were rediscovered independently several times
+ during the nineteenth century, in published or unpublished studies of several math-
+ ematicians, such as Joseph-Louis Lagrange, Niels-Hendrik Abel, Robert Murphy in
+ 1835, Pafnuti L. Cheby shev in 1859, and Laguerre himself in 1879. We analyze the
+
+ corresponding contributions and their contexts in the Appendix. For a long time,
+ Laguerre polynomials remained much less popular than other special functions such
+
+ as Bessel or hypergeometric functions, and Legendre or Hermite polynomials, proba-
+
+ bly because they were less used in problems on classical mathematical physics of this
+ time. This is confirmed by their late inclusion in classical treatises of analysis.
+
+ 2 The Schrödinger equation for the hydrogen atom
+
+ 2.1 Schrödinger equation
+
+ Schrödinger's first article on quantization and eigenvalues proposed a fairly surpris-
+
+ ing and nowadays almost forgotten method for obtaining the wave equation for the
+
+ hydrogen atom (Schrödinger 1926a). This cited article and its genesis have been nicely
+ analyzed (Bloch 1976; Gerber 1969; Kragh 1982; Kubli 1970; Wessels 1979), and we
+ concentrate here on the essential aspects.
+
+ The classical Hamiltonian for the Keplerian motion of an electron around a posi-
+
+ 2
+
+ tively charged fixed nucleus, with Coulomb potential V(r) = - y, is given by
+
+ 'p' 2
+ H(q, p) =*-?- 'p' 2m + V(r) = E,
+
+ 2m
+
+ where E is the energy, q = (jc, y, z) the position of the electron, r = (x2 + y2 H- z2) 1/2
+
+ its distance from the nucleus, p = (m ^ , m ^ , m its linear momentum, and e and
+
+ m, respectively, its charge and mass. The corresponding Hamilton-Jacobi equation for
+ the action S of the classical motion of the electron is the nonlinear first-order partial
+
+ differential equation
+
+ Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:38:33 UTC
+All use subject to https://about.jstor.org/terms
+
+ 432 J. Mawhin, A. Ronveaux
+
+ S = K'og}//
+
+ The first Ansatz in Schrödinger (1926a) consists in introducing a new function x/r
+ linked to S by the relation
+
+ for some constant K. Kubli (1970) has noticed that such a transformation had already
+
+ appeared in 191 1 in an article by Sommerfeld and Runge (the daughter of Carl Runge)
+ (1911), who attributed the idea to the Dutch physicist Peter Debye. Kubli has sug-
+
+ gested that Debye, then professor at the University of Zürich, could have passed this
+ information on to Schrödinger, who quoted the article in later publications. Indeed,
+ when approximating a wave equation
+
+ Аф + п2к2ф = 0
+
+ for к large, the transformation
+
+ ^ = AexpO'fcS) (1)
+
+ is used where A and S are considered as slowly varying functions to obtain, in first
+ approximation, the eikonal equation
+
+ |VS|2 = n2.
+
+ Schrödinger's Ansatz appears as the inverse of the transformation (1). Instead of solv-
+ ing the transformed equation
+
+ ШЧ!)2+Ш2-!К)*2-°' «
+
+ Schrödinger introduced without any comment, in a bold second Ansatz , the integral
+ over the whole space of its left-hand member (keeping the same notation ^ 0
+
+ ///[Ш
+
+ and studied its extrema over a suitable (but not very precisely defined) class of function
+
+ '¡r that vanish at infinity. The corresponding Euler-Lagrange equation is the second-
+ order linear partial differential equation
+
+ d2'¡r d2'¡r d2'¡r 2m ( e2'
+ J^ d2'¡r + W d2'¡r + J? d2'¡r + 2m k¡{e ( + 7)* e2' = 0- (3)
+
+ In a correction added at the end of the article, Schrödinger suggested imposing the
+ normalization condition / / /кз Ý2 = 1» without discussing its relations with the
+ boundary conditions at infinity. Although Schrödinger gave no explanation and no
+
+ Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:38:33 UTC
+All use subject to https://about.jstor.org/terms
+
+ Schrödinger and Dirac equations for the hydrogen atom, and Laguerre polynomials 433
+
+ heuristics for his second Ansatz, one can think that, in his quest of an eigenvalue prob-
+
+ lem that would give Bohr's energy levels as eigenvalues, he realized that the quadratic
+
+ left-hand member of (2) used as the argument in the integral functional of a variational
+
+ problem gives as its Euler-Lagrange equation a linear partial differential equation of
+ the second order.
+
+ 2.2 The solution for the hydrogen atom
+
+ Schrödinger passed from (jc, y, z ) to spherical coordinates (r, 9 , <p ), and obtained the
+
+ radial equation for x (r)
+
+ d2X , 2dx , (2mE , 2 me2 n(n + l)' A
+ dr2 r dr ' K2 K2r r2 /
+
+ by taking Eq. 3, written in those coordinates, and setting ^(r, в , ц> ) = Ул,*(0, <p)x (r)>
+
+ where Yn¿ is the spherical harmonic and 'k' <n;n,k are integers.
+
+ In order to apply the Laplace transform with kernel ezr to (4) (Ince 1927), the
+ centrifugal term in is eliminated through the change of unknown xi'*) = rnU(r ),
+ which gives the following Laplace-type equation:
+
+ d2U / SAdU i ei'„
+ d2U fr2 + (áo / + 7j SAdU ďT + (eo i + 7; ei'„ U = °' (5)
+
+ for U , where
+
+ <$0 = 0> ¿i = 2 (n + 1), €0 = ' 61 = % '
+
+ 2m E Ime 2
+
+ Then, Schrödinger took the solution as given in a textbook of 1900 by Schlesinger
+ (1900), and used the same notation:
+
+ U(r) = J ^(z-c.r-'^-czr-'dz,
+
+ L
+
+ where the integral is taken along a path L such that the function
+
+ is a solution of (5). In those integrals,
+
+ / ^ezr^-c^a,^-c2)a2]dz
+
+ L
+
+ €'+8'C' €2+&'C2
+
+ Oil =
+
+ с 1 - С 2 С 2 - с 1
+
+ â Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:38:33 UTC
+All use subject to https://about.jstor.org/terms
+
+ and c', C2 are solutions of the quadratic equation (leading term in the equation in z)
+
+ Some delicate arguments based on the condition at infinity, and suitable manipulations
+
+ of the signs of E , allowed him to deduce the existence of "discrete states," implying
+
+ that a' - (ri + 1) = KJ^2mE ÌS a positive integer / > n. Now, with a' - 1 = I + n,
+ ai = - I + n, the computation of U ( r ) after expansion of the algebraic factor gave
+
+ 434 J. Mawhin, A. Ronveaux
+
+ z 2 + Soz + 60 = 0.
+
+ X(r) = / (г^2тЁк) , (6)
+
+ with
+
+ where
+
+ (p'_ Г(р+1)
+ 'g) r(q + 1)Г(/? - q + ')
+
+ is the binomial coefficient, with
+
+ +00
+
+ о
+
+ Г(*) = J e~V_1 d t (jc > 0)
+
+ Euler's Gamma function.
+
+ In his first article, Schrödinger did not recognize the polynomial part of f(x),
+ essentially a Laguerre polynomial. He focused his interest on the energy spectrum
+ {#i}, rather than on the eigenfunctions, giving the formulae
+
+ 2n2me4
+
+ 1 =
+
+ after setting К = ^ for dimensional reasons, h being Planck's constant (see Mehra
+ and Rechenberg 1987, p. 494, last paragraph). One should notice that, in a footnote
+
+ of his first article, Schrödinger thanked Hermann Weyl, then professor at the Univer-
+
+ sity of Zürich, for having provided him with the necessary information for treating
+ equation (4), and sent the reader to Schlesingers book mentioned above. Therefore,
+
+ we see that Weyl himself, an outstanding mathematician, did not recognize Laguerre
+ polynomials.
+
+ â Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:38:33 UTC
+All use subject to https://about.jstor.org/terms
+
+ црм.л. z<-i>" n (:::) / ' ¡u m 1 J m
+
+ _ m =0 J
+
+ where a is a real or complex parameter (Rainville 1960). In the past, the functions
+
+ L^0) := Ln were called Laguerre polynomials and the functions L ^ (ос Ф 0) asso-
+ ciated or generalized Laguerre polynomials. The expression Sonine polynomials (see
+ below) was also sometimes used when a = m, was a positive integer. This distinction
+
+ Schrödinger and Dirac equations for the hydrogen atom, and Laguerre polynomials 435
+
+ 2.3 The occurrence of Laguerre polynomials
+
+ In a footnote of his second (and longer) article, Schrödinger thanked Erwin Fues, at
+ this time, his assistant in Zürich, for identifying the eigenfunctions of Planck's oscil-
+
+ lator with Hermite polynomials, and observed that he has identified the polynomials
+
+ obtained in his first article with the (2 n + 1 )th derivative of the ( n + /)th Laguerre
+ polynomial (Schrödinger 1926b). Thus, Schrödinger definitely abandoned Schlesing-
+ ers approach and, following a suggestion of Weyl and Fues, referred to the recent
+
+ Methoden der mathematischen Physik of Richard Courant and David Hilbert pub-
+ lished in 1924, with the aim of providing the mathematical foundations of classical
+ physics (Courant and Hilbert 1924). In the French translation of Schrödinger (1927)
+ published in 1933, Schrödinger advised the reader to forget about his first approach,
+ and suggested it would be rather better to consult recent books on wave mechanics,
+
+ instead of his articles, for a clearer and simpler approach.
+
+ The explicit definition of the Laguerre polynomials of degree n (up to a multipli-
+
+ cative constant An) is
+
+ n / ' m 1
+
+ is now abandoned, and the expression Laguerre polynomial is used for Ln for any
+ value of a.
+
+ (ex)
+
+ The choice An = 1 comes from the generating function
+
+ FAx,t) = ('-tya-{t^ (8)
+
+ giving, by expansion in powers of t ,
+
+ Fa(x,t) = Y.Ln)^t" (l'l<D. (9)
+
+ oo
+
+ n= 0
+
+ Easy consequences of (9) are the relations
+
+ (n + l)L^j(x) - (In -ha + 1 -x)L^'x) + (n + a)L{"'(x) = 0,
+
+ Л1
+
+ = nL("'x) - (n +a)L("^{x), (10)
+
+ = -¿¡T-V'w. <">
+
+ Ö Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:38:33 UTC
+All use subject to https://about.jstor.org/terms
+
+ 436 J. Mawhin, A. Ronveaux
+
+ so that satisfies Laguerre differential equation
+
+ <ťy d y
+
+ áx¿ dx
+
+ x-r-z + (fit + 1 x)- - '- ny = 0. (12)
+
+ Iteration of formula (11) gives
+
+ ар i M
+ Í-^¡- ар i = (-1 )pL^'p' P
+ dx P P
+
+ but physicists prefer to write
+
+ dpLn „
+ ~ďŽ = L» „ <13>
+
+ (without parenthesis for p), taking into account that the degree of L„ (x) is no longer n
+
+ but n - p. Another interesting expression of L(„a> is Rodrigues ' representation formula :
+
+ L(na)(x) =
+
+ n' dxn
+
+ When a is real and larger than -1, the Laguerre polynomials L satisfy the
+
+ orthogonality conditions
+
+ 00
+
+ о
+
+ I c-xx"W(x)L%4x)dx = (An)2r(^ + ^|)1)3W,„, (14)
+
+ where <Sm,„ denotes Kronecker's symbol. Concerning the constant A„ , mathematicians
+
+ often prefer to consider monic Laguerre polynomials with leading term 1, such
+ that
+
+ but physicists, who work in the orthogonality domain a > - 1 , prefer the orthonormed
+
+ Laguerre polynomials Z,*1"' such that
+
+ /(<*) _ (~')У»)
+ L* _ ~ n! " '
+
+ 00
+
+ 0
+
+ J e~xxa [l*¿°4x)]2 dx = 1.
+
+ Equation 1 2 is the special case of the confluent hyper geometric or Kummer equa-
+
+ tion , introduced in 1836 by Ernst Eduard Kummer
+
+ á2y d y
+ xfc2+(c-x)fc-ay = °> <15>
+
+ ^ Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:38:33 UTC
+All use subject to https://about.jstor.org/terms
+
+ Schrödinger and Dirac equations for the hydrogen atom, and Laguerre polynomials 437
+
+ with a = -n and c = a + l (Kummer 1836). The solution of (15) analytic at x = 0
+ is the confluent hypergeometric function 'F'(a, c' x) (Buchholz 1969; Slater 1960),
+
+ given fore ф -N, N positive integer, by
+
+ iFi(a,c; x) = ^7777. (c)< k ! (16)
+
+ П5 (c)< k !
+
+ where (a) * := a(a + 1) • • • {a + k - 1) = Г(а -f- к)/ Г(я). Therefore,
+
+ L("'x) = -^7-3-77 я!Г(а + 1) 'F'(-n,a + (17)
+
+ я!Г(а + 1)
+
+ For more details, see, for example, the classical treatises in the area (Buchholz
+ 1969; Henrici 1974-1986; Lavrentiev and Shabat 1977; Lebedev 1965; Nikiforov
+ and Ouvarov 1976; Rainville 1960; Slater 1960).
+
+ With the notation of (13), the function f(x) in formula (6) is written, up to
+
+ a multiplicative constant, as the Laguerre function xner^x^L^¡l(x) instead of
+
+ j twe_(*/2)L^_ij(jc). Let us also notice that in books on quantum physics, n and /
+ are permuted and, therefore, the quantum number I becomes smaller than n. Follow-
+
+ ing Schrödinger's theory, the probability that the electron is located at a distance r from
+ the nuclei is controlled by L (Ar), where the constant к depends on the choice of
+
+ units and the quantum number /. This probability vanishes, therefore, at the zeros of
+ those Laguerre polynomials. For each /, the n - / - 1 zeros xlN . of (*), where
+ N = n - I - 1, generate the "universal" sequences of "excited nodes":
+
+ d _( ' хн,2 xN, 3
+ N~' xl ' xl ""V I
+ ' XN,' XN, 1 XN,' /
+
+ In his third article, where he introduced his famous perturbation method, Schröding-
+
+ er used parabolic coordinates to study Stark's effect, when a constant electric field is
+ added to the Coulomb force (Schrödinger 1926c). In this case, the separation of vari-
+ ables introduces two different Laguerre polynomials with different arguments. This
+ article contains in a Mathematical appendix , a section called The orthogonal func-
+
+ tions and the generalized Laguerre polynomials where Schrödinger summarizes, with
+ reference to the treatise Courant-Hilbert mentioned above, the definition and main
+
+ properties of Laguerre polynomials, and explicitly evaluates the two important inte-
+
+ grals:
+
+ 00
+
+ о
+
+ 00
+
+ о
+
+ J' = J xpe~xL^lk(x)L^lk,(x)dx
+
+ Jl= J xpe~*¥xL(flk(ax)L<£lk,(ßx)dx,
+
+ Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:38:33 UTC
+All use subject to https://about.jstor.org/terms
+
+ 438 J. Mawhin, A. Ronveaux
+
+ using the generating function of Laguerre polynomials,
+
+ In order to sum up, Schrödinger did not seem to be very familiar with special
+
+ functions at the time he developed his wave mechanics, even if he checked that the
+ polynomial part of f(x) was not that of Legendre's, and even though he had earlier
+
+ solved the problem of the infinite vibrating string with the Bessel functions Jn . His
+ reference book (Schlesinger 1900) contained a whole chapter on Gauss's differential
+ equation for hypergeometric functions, but did not cover the confluent form that con-
+
+ tains, as we have seen, Laguerre's differential equation as a special case. Like many
+
+ other first class scientists, Schrödinger first solved his equation for the hydrogen atom
+
+ using the mathematical tools he had learned at university, instead of searching more
+ recent information. The same attitude also appears in the way that the equation in
+ X(r) is solved in the famous Lectures on physics (Feynman et al. 1966) of Richard
+
+ P. Feynman, where power series are used, thereby avoiding the explicit introduction of
+
+ Laguerre polynomials, in this case for pedagogical reasons linked to the mathematical
+ level of the students.
+
+ 3 Dirac equations for the hydrogen atom
+
+ 3.1 Dirac: a perturbation approach
+
+ The history of Dirac's relativistic theory of electrons is nicely described in Kragh's
+
+ studies (1 98 1 ; 1 990). Dirac's system of equations for an electron in an electromagnetic
+ field with scalar potential Ao and vector potential A = (A' , A2, A3) is
+
+ po I + a J Pi + QL'mc (18)
+
+ 3
+
+ •>=l
+
+ where ý = (^ь ^2, ifa.
+
+ h 3 e h de
+
+ PO = --z 2nicdt - --г; + -Ao, Pj = -
+
+ 2nicdt --г; с InidXj с J
+
+ and ai , . . . o?4 are (4 X 4)-matrices satisfying the relations (Dirac 1928)
+
+ aras -h asar = 2 6r,sl (r,s = 1,2, 3, 4).
+
+ In the special case of a central field of force, where A' = A2 = A3 = 0 and
+ Ao = § V(r), with solutions periodic in time (so that po is now a parameter equal to
+ l /с times the energy level E ), Dirac showed, after lengthy considerations based on
+
+ arguments drawn from noncommutative algebra instead of the classical separation of
+ variables, that the radial part of the first and the third components an(i Ý3 of x/r
+ must satisfy the system of first-order differential equations
+
+ Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:38:33 UTC
+All use subject to https://about.jstor.org/terms
+
+ Schrödinger and Dirac equations for the hydrogen atom, and Laguerre polynomials 439
+
+ [po + V(r)]ijf' - - -
+
+ h <Мз ih
+
+ 2ж ar 2л r
+
+ [po + V(r)'Ý 3 H- - -
+
+ h dîAi ih ( }
+ 2я ar 2тс r
+
+ where j is an integer (Dirac 's quantum number). The two other components of тД
+ satisfy the same system.
+
+ The elimination of ý' implies that 1Д3 satisfies a second-order differential equation
+
+ of the form
+
+ + , L Г
+
+ dV3 , Г (Po + V)2 - m2c2 УС/ + D1 , 1 àV (à , j' , л ,лпч
+
+ where В = (po -f V + тс)/ h. The acceptable values of the parameter po = j are
+ those for which (20) has a solution that is finite at r = 0 and at r = 00. In order to
+
+ compare this equation with those of previous theories, Dirac put 1Д3 = rx, so that x
+ must be solution of
+
+ TT d r¿ + ? r T ar + Л - (T)2 ' h J - *^1 r¿ *
+ TT d r¿ r T ar ' Л / ' h J r¿
+
+ By neglecting the last term, which is small because h В is large, one recovers the
+ Schrödinger equation (4) for V(r) = c2/cr , with a relativistic correction included.
+
+ Dirac then showed that the next approximation gave corrections - 2w^2r3 Ü + 1)
+
+ and 2m j 9 coincided with the ones given by the earlier theory of Wolfgang
+ Pauli and of Darwin, thus incorporating the spin in Schrödinger's theory (Pauli 1927;
+ Darwin 1927).
+
+ We see that Dirac did not solve his equation for the hydrogen atom exactly but
+ restricted himself to the first two approximations. Why did such a mathematically
+
+ gifted theoretical physicist refrain from solving Eq. 21 exactly for the Coulomb field?
+
+ Kragh (1981, 1990) has suggested the following explanation:
+
+ According to Dirac 's own account, he did not even attempt to solve the equa-
+
+ tion (2 1 ) exactly, but looked for an approximation from the start. Dirac explains it
+
+ [...]: 'I was afraid that maybe they [i.e., the higher order corrections] would not
+
+ come out right.' [...] I shall propose a somewhat different version [...]. Having
+ found equation (21) and having realized that it contained the correct spin, Dirac
+
+ was in a hurry to publish and was not prepared to waste time in a detailed exam-
+ ination of the exact energy levels of the hydrogen atom. He realized that it was
+
+ not a mathematically simple problem and decided to publish the first approxi-
+ mation. [...] Dirac knew that other physicists were also on the trail, so he may
+ indeed have been motivated by [...] fear of not being first to publish, not any
+
+ fear that the theory have serious shortcomings. This conjecture is substantiated
+
+ â Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:38:33 UTC
+All use subject to https://about.jstor.org/terms
+
+ 440 J. Mawhin, A. Ronveaux
+
+ by the fact that he did not attempt to obtain the exact agreement, not even after
+
+ he had published his theory.
+
+ 3.2 Gordon: using confluent hypergeometric functions
+
+ It did not take long for other physicists to obtain the complete solution. The first was
+
+ Gordon, and the story is pleasantly told on p. 63 of Kragh's monograph (Kragh 1990):
+
+ Within two weeks following submission of the article, Walter Gordon in Ham-
+ burg was able to report to Dirac that he had derived the exact fine structure
+
+ formula from the new equation and that Heisenberg^ first question [getting the
+ Sommerfeld formulas in all approximations] could thus be answered affirma-
+
+ tively. Reporting the main steps in the calculation, Gordon wrote : 'I should like
+
+ very much to learn if you knew these results already and if not, if you think I
+ should publish them.'
+
+ Dirac's answer must have been positive, and, in an article received on February 23th
+
+ 1 928, Gordon started from the system of equations ( 1 9) obtained by Dirac with V (r ) =
+
+ |r, namely
+
+ = -ý' . + , -тс h I 1
+
+ j . , Г 2* I ( 1 E ' a]
+ d r r L h ' тс2 j J г J
+ d^3 Г 2тг / £' al j К '
+ d^3 ^ = [ттс{1 Г 2тг / + ^) £' + al 7'^-7^ j
+
+ where E was the energy of the electron including the energy at rest me2, a =
+
+ was Sommerfeld's fine structure constant, and j is the quantum number introduced
+ by Dirac (Gordon 1928). Letting
+
+ I £~ I £~
+ V V mcz 2 Y mc¿
+
+ ^1 = V V 1
+
+ and then
+
+ a, = e~*or fu cr2= e~*or /2 ,
+
+ d/i _ ° alme1 1 ' 1 ( 1 , ( a ^ f2
+ dr _ V ° Vi - ( E/mc 2)2 r ) 1 I" 1 ( Ji - ( E/mc 2)2 / г
+
+ (23)
+
+ àfo _ ( .
+ dr _ V
+
+ â Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:38:33 UTC
+All use subject to https://about.jstor.org/terms
+
+ with ko = ( ko > 0 for the discrete spectrum), Gordon obtained the
+ system
+
+ /i(r) = r^ciV, /2 (r) = r"^4V
+
+ which gave, by identification,
+
+ Schrödinger and Dirac equations for the hydrogen atom, and Laguerre polynomials 441
+
+ He then searched for solutions of the form:
+
+ 00 00
+
+ v=0 v=0
+
+ P = '] j2 - a2 (24)
+
+ and
+
+ c(i) n
+
+ £o_
+
+ (2) - « . - j
+ 0 ^'-(Е1тсг)
+
+ (,) = (~21С0У(П- 1)(л- 2) •••(«- V) (1)
+ 0,1 = v !(2 p + 1)(2 p + 2) • • • (2 p + V) C° '
+
+ (2) _ ~ (~2ko)vn(n -!)•••(" - v + 1>C(I)
+ C" _ ~ v!(2/o + l)(2p + 2)---(2p + v)C° '
+
+ (y = 1,2,...), where
+
+ n = - - , - . - P- (25)
+ mc2y/' - , - ( E /тс 2)2 - .
+
+ From this, Gordon concluded that
+
+ CTI (Г) = c^c-brr v/^î , F, (-Л + 1 , 2p + 1 ; 2*0r),
+
+ ________ (26)
+
+ o2(r) = c^e-^rV/2"«2 , F'(-n, 2/0 + 1; 2Â:0r),
+
+ where jFi is the confluent hypergeometric function defined in (16); (Gordon wrote
+ F instead of the more recent notation i Fi). He noticed that the о j are of the same
+
+ type as Schrödinger's eigenfunctions for the hydrogen atom, which can be written as
+ X (r) = t~k°rrl i F' (-n, 21 + 2, 2kor). Excluding the case where ß = 0 or a negative
+ integer, Gordon observed that i F' (a, ß , r) was a polynomial in r of degree - a when
+ a is a negative integer, so that, for и = 1,2,3,..., one obtains a solution. When a and
+ ß are real numbers that are not non-positive integers, Gordon showed that the corre-
+
+ sponding solutions grow exponentially, and cannot satisfy the normalization condition.
+ This is also in the case when n - 0 and j > 0, although an acceptable solution exists
+
+ when n - 0 and j < - 1. Taking into account the relation (17) between the Laguerre
+
+ polynomials and confluent geometric functions, one can say that Gordon implicitly
+ solved the hydrogen problem for Dirac equations with Laguerre polynomials.
+
+ ^ Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:38:33 UTC
+All use subject to https://about.jstor.org/terms
+
+ 442 J. Mawhin, A. Ronveaux
+
+ 3.3 Darwin: using power series
+
+ The same problem was treated independently the same year in an article by Darwin,
+ received March 6th 1928 (2 weeks later than Gordon!) (Darwin 1928). As mentioned
+
+ by Kragh (1990), Darwin went to Cambridge a few days before Christmas 1927, and
+ wrote a letter to Niels Bohr about his surprise at learning of Dirac's new electron
+
+ theory:
+
+ I was at Cambridge a few days ago and saw Dirac. He has now got a completely
+ new system of equations for the electron which does the spin right in all cases
+
+ and seems to be 'the thing.' His equations are first order, not second, differential
+
+ equations ! He told me something about them but I have not yet even succeeded
+
+ in verifying that they are right for the hydrogen atom.
+
+ In contrast to Gordon, whose article is purely technical, Darwin started with some
+ comments about Dirac's abstract approach to relativistic quantum mechanics:
+
+ There are probably readers who will share the present writer's feeling that the
+ methods of non-commutative algebra are harder to follow, and certainly much
+
+ more difficult to invent, than are operations of types long familiar to analysis.
+
+ Wherever it is possible to do so, it is surely better to present the theory in a math-
+
+ ematical form that dates from the time of Laplace and Legendre, if only because
+
+ the details of the calculus have been so much more thoroughly explored. There-
+
+ fore, the object of this study is to take Dirac's system and treat it by ordinary
+ methods of wave calculus.
+
+ The same opinion was also expressed in a letter of Darwin to Niels Bohr quoted by
+ Kragh (1990):
+
+ I continue to find that though Dirac evidently knows all about everything the
+
+ only way to get it out of his writings is to think of it all for oneself in one's own
+
+ way and afterwards to see it was the same thing.
+
+ In order to find the energy levels in the radial field of force, Darwin set po =
+
+ ^[E + eV(r)], omitted the vector potentials, wrote the corresponding Dirac equa-
+ tions as an explicit system of four equations in four stationary wave functions ýj
+ О* = 1,2,3,4)
+
+ 2ni í e2 л , /а . а ' , а ,
+ -'Е 2ni í + -+тс e2 л , /а . -)Ýt+-Ý3=0 а ' , а ,
+
+ bri /„ e2 Л , /3 . 9 ' , 3 ,
+ bri - {Е /„ + -+тс Л )t2 , + '- /3 + l-)^--Ý4 . 9 ' , 3 , = 0
+
+ 27ti / e2 л , /а . а ' , 9 ,
+ i¿'E 27ti / + 7+mc)^ л , + 'T*-%r2 /а . а ' , + Tz*'=° 9 ,
+
+ lni ( e 2 л /а а ' 9
+ -¡¡Г lni (£ ( + 7 e + тс л ) + (аГ /а - %) а ' *> - Н*2 9 - 0'
+
+ (27)
+
+ <0 Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:38:33 UTC
+All use subject to https://about.jstor.org/terms
+
+ Schrödinger and Dirac equations for the hydrogen atom, and Laguerre polynomials 443
+
+ and, this time using the classical method of separation of variables, expressed the four
+
+ functions as spherical harmonics multiplied by radial functions. He showed that ^1 , Ф2
+ must involve the same radial function F(r), and ^3, ^4 the same radial function G(r).
+
+ Taking as trial solutions
+
+ Ь = -iai F(r)Pk"+i , Ý2 = ~ia2F(r)P$ ,
+
+ V^3 = азС(г)Р£, ф 4 = а4С(г)/^м+|,
+
+ where Pjf denotes the whole spherical harmonic (called Yu¿ in Sect. 2.2), and trying
+ to adjust the aj so that all four equations in (27) are satisfied, Darwin found
+
+ a i = l, «2 = Ь яз =k + u + 1, a 4 = -к + и
+
+ with F and G solutions of the following system of equations
+
+ 2п г от dG к
+ - г Г F + e V (г) + me от 1 F H
+ he L dr r
+
+ 2тг r 91 dF к + 2
+
+ ne J d r r
+
+ a'=k + u, Ü2 = - fc + w + 1, 03 = 1, 04 = 1,
+
+ with F and G solutions of the system.
+
+ 2л r dG к + 1
+ - r [F 4- eV(r) + me2] F -h - - I
+
+ he d r r (29)
+ lit r ?1 dF к - 1
+
+ he L dr r
+
+ A 2 := t^(F + тс2), B2 := ^(- he F H- тс2)
+
+ he he
+
+ / o 2 v ' dG к _ л
+ * o 2 + 7)/Г v ' + ^Г-ГС=° dr r _ л
+
+ / ~ у ' dF к + 2 ^
+ (в2--) / ~ у ' G + - +
+ V r / dr r
+
+ dr r (30)
+
+ Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:38:33 UTC
+All use subject to https://about.jstor.org/terms
+
+ The corresponding solution was named ( F ь G¿)- Another way of elimination gave
+
+ Observing that (29) is the same as (28) after the substitution к -+ -к - 1 , Darwin
+ denoted the solution of (29) by (F_ , G_¿_i ).
+
+ In order to discuss system (28) in the case of the Coulomb potential V (r) = f ,
+
+ Darwin introduced the positive numbers A and В defined by
+
+ and the fine structure constant у := Then, system (28) becomes
+
+ 444 J. Mawhin, A. Ronveaux
+
+ and Darwin tried to solve this system in series of the form:
+
+ F(r) = e~Xr (a0rß + airß~l + a2rß~2 + ■ ■ ■ )
+
+ G(r) = e-Xr ( b0rß + birß~l + b2rß~2 + •■•).
+
+ This gave him
+
+ bs - Cs |V д + ß H- к -+ 2 - s j
+
+ B Г A О , 1
+
+ ös = CsÄ r 5 ~
+
+ with the с s such that, with k! - y/(k + l)2 - y2 supposed positive,
+
+ 2 AB(s + l)c,+i = -cs(ß + 1 - 5 - k')(ß + 1-5 + ť),
+
+ and so
+
+ 2^.5!(ЛВ)5
+
+ In order that those solutions remain finite throughout space, the series must terminate
+
+ for some value of s such that ß - s > 0. It is, therefore, necessary that ß = к! + n' - 1
+ for some integer nf > 0, which determines the energy levels
+
+ E = mc2[l + WT^' "2- <31)
+
+ Observing that the positivity of к was nowhere used in the process above, Darwin
+
+ concluded that the same solution holds for (29) with Coulomb potential provided that
+ к is replaced by -к - 1 .
+
+ Formula (31) was the same as the one already obtained by Sommerfeld in the frame
+
+ of the old relativistic theory of quanta. As pertinently observed by Kragh (1990, p. 63),
+
+ The fact that Dirac equations yielded exactly the same formula for the hydrogen
+
+ atom that Sommerfeld had found 13 years earlier was another great triumph.
+ It also raised the puzzling question of how Sommerfeld's theory, based on the
+
+ old Bohr's theory and without any notion of spin, could give exactly the same
+
+ energy levels as Dirac's theory. However, this was a historical curiosity that did
+ not bother the physicists.
+
+ In contrast to Gordon, Darwin did not relate his solutions to any special functions.
+
+ Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:38:33 UTC
+All use subject to https://about.jstor.org/terms
+
+ Schrödinger and Dirac equations for the hydrogen atom, and Laguerre polynomials 445
+
+ 3.4 Pidduck: using Laguerre polynomials
+
+ Less than lyear after Gordon and Darwin, Pidduck, in the article, (Pidduck 1929)
+ received November 6th, 1928, solved the Dirac equations for the hydrogen atom using
+
+ Laguerre polynomials explicitly and elegantly. Let us first write a few words on this
+ scientist, who is somewhat less known than the other ones mentioned already. Freder-
+
+ ick Bernard Pidduck was born on July 17th, 1885, in Southport, England. After high
+ school in Manchester Grammar School, he proceeded to Exeter College, Oxford, in
+ 1903. He took a First Class degree in Maths Moderations in 1904, was awarded a
+ Johnson University Scholarship in 1907, took a First Class degree in physics in 1907,
+ his MA in 1910 and Dr. Sci. in 1923. His thesis included two important contributions
+ to the kinetic theory of gases. Between 1907 and 1921, he was a Fellow at Queen's
+
+ College, Oxford, and was then a Fellow of Corpus Christi College, Oxford from 1921
+ until his retirement in 1950. He served twice as Vice-President of the College (1924-
+
+ 1926; 1931-1932), and was University of Oxford Pro-Proctor (1923-1924). During
+ the First World War, he was a Ballistic Research Officer at the Woolwich Arsenal
+
+ (1916-1919), where his study gained official commendation. It seems that Pidduck
+
+ entered a little later into the life of his Colleges and University and was apt to dwell on
+
+ grievances (Anonymous obituary 1952). His lack of social contacts may have contrib-
+
+ uted to his somewhat justified feeling that he lacked public recognition for his notable
+ achievements. After retirement, he lived at Keswick. An all-the-year round swimmer
+
+ and amateur photographer, Pidduck died June 1 8th, 1 952 and his body was found on
+ July 1st on a Lakeland mountainside (Anonymous obituary 1952).
+
+ More than a theoretical physicist, Pidduck was an applied mathematician in the
+
+ pure British tradition, and contributed mostly to the mathematical theory of electric-
+ ity, with special attention to diffraction of waves and the magnetron oscillator. He
+ published a Treatise on Electricity in 1916 that was translated into Spanish in 1921
+ and re-edited in 1925, his Lectures on Mathematical Theory of Electricity in 1937, and
+
+ his Currents in aerials and high-frequency networks in 1946. He was an enthusiast for
+
+ the M.K.S. system of electrical units, co-authoring with R. K. Sas a pamphlet on The
+ Metre-kilo gram- second System of Electrical Units in 1947. All this study, of course,
+ made Pidduck familiar with the use of orthogonal polynomials and special functions,
+ and indeed in 1910, he introduced a class of polynomials that he denoted (n,À), and
+
+ which were generated by the function (Pidduck 1910), in a contribution to
+
+ fluid mechanics, The polynomials (и, k) are now sometimes referred as Pidduck poly-
+ nomials (Bacry and Boon 1985), and are related to others such as the Mittag-Leffler,
+ Hardy, and Pollaczek polynomials (Pollaczek 1956).
+
+ Let us now come to Pidduck's contribution to the solution of Dirac equations for
+
+ the electron. He started his article as follows:
+
+ The radial functions in Dirac's theory of the electron were found by Gordon for
+
+ the field of a single nucleus and shown to be degenerate hypergeometric func-
+
+ tions of the type used by Schrödinger. Gordon's results are obtained here by a
+
+ slightly different method, in which the two functions are made to depend on a
+ single function satisfying Laguerre's differential equation.
+
+ <0 Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:38:33 UTC
+All use subject to https://about.jstor.org/terms
+
+ 446 J. Mawhin, A. Ronveaux
+
+ Strangely, Pidduck did not quote Darwin's article of 1928, but, when writing the
+ equations for the radial functions supposedly taken from Gordon's article of 1928, he
+
+ in fact started from Darwin's system (30) (with F replaced by - F), not from Gordon's
+
+ system (23). He defined j to be k + 1 when it is positive, and -k when it is negative
+ (the value zero being excluded), to obtain
+
+ i£ d + i±lf_|L('_ft„+mc2_£!)c = o, (33)
+ d r r ne ' r )
+
+ and stated: "write, with a small modification of Darwin's notation" (our emphasis),
+
+ He then changed the independent variable by letting x = ~ to obtain the system
+
+ 2тг / ^ é?2' d G j- 1
+ - 2тг [hv / - f me2 ^ H
+ ne ' r ) dr r
+
+ У = -т- , hv =
+
+ lne2 mc2N 2 n h h2
+ ne n Aitmcy 8 7t¿me¿
+
+ n^N 2,/ X + y~'F J -X^- ^ + ( j - 1)G = 0
+ 2,/ J ^ (35) 1 '
+ d F ,чг, Г/j-ZV 1 n (35) 1 '
+ X- d F + (j + ')F-)í-X-Y'G=0. ,чг, Г/j-ZV 1 n
+
+ Pidduck's ingenious idea consisted then in looking for F and G in the form
+
+ F(x) = e~KxxJ~l ( Px^-(x) + Qz(x) '
+
+ ' ^ ш
+
+ (d /?* - (*) + Sz(jc) V J , (3o) ш
+ (d /?* - (*) + Sz(jc) J ,
+
+ which involve the single function z, where K, Jy P, Q, R, S are undetermined con-
+
+ stants. The identification of the two second-order differential equations generated by
+ introducing (36) into (35) allowed him to compute those constants, namely
+
+ jr.'. W-Л'/». §-JL. £_-£y. i-H+j+s.
+
+ Now, the first equation reduces to
+
+ d2z d z
+
+ <0 Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:38:33 UTC
+All use subject to https://about.jstor.org/terms
+
+ Xáx2 + ^ + 1 ~ X^dx + PZ ~ ° (P = N - J,q = 2 J)
+
+ and so z = Lp, to insure that F and G vanish at infinity.
+
+ N =
+
+ yE r
+
+ mc2yf ' - (E/mc2)2
+
+ Schrödinger and Dirac equations for the hydrogen atom, and Laguerre polynomials 447
+
+ An explicit use of the structure relation (10) for Laguerre polynomials allowed
+ Pidduck to write the solutions F and G as a linear combination of two Laguerre
+ polynomials
+
+ F{x) = [(n + j)L?(x) + (N + y)Lj_,(jc)] (37)
+
+ CW = e~ [(и + j)Lpq{x) ~(N + J)Lqp_t(x)] . (38)
+
+ Pidduck concluded by observing that
+
+ one can now calculate the integrals required in the theory of perturbations with
+
+ the same facility as in Schrödinger's theory, since the methods of Schrödinger
+ (1926c) do not require q to be an integer.
+
+ In order to compare Pidduck's results with Gordon's, we notice that, Gordon's a is
+ Pidduck's y (Sommerfeld's fine structure constant), and writing E = hv in (34) we
+ obtain
+
+ and
+
+ , = __Ä_-ü2-y2)1'2. ч = 1 U2 -У2)"2-
+
+ mc2y/' - (E/mc2)2
+
+ Hence, (25) shows that p is equal to Gordon's n , and (24) shows that q is equal to two
+
+ times Gordon's p. Consequently, relation (17) implies that Gordon's solution (26) and
+ Pidduck's solution (37) indeed does imply the same Laguerre polynomials.
+
+ 3.5 Further literature
+
+ In contrast to the case of the Schrödinger equation, Laguerre polynomials do not seem
+
+ to have been adopted by classical textbooks on relativistic quantum mechanics when
+
+ solving the Dirac equations for the hydrogen atom. In his epoch-making monograph
+ of 1930, Dirac included a solution of his equation for the hydrogen atom and only
+
+ quoted Gordon's article of 1928 (Dirac 1930). However, Dirac's approach is closer to
+ Darwin's, as he solved the radial equation through a series, without any mention of
+
+ confluent hypergeometric functions or Laguerre polynomials. Darwin's approach was
+
+ chosen by Louis de Broglie to explain the fine structure of hydrogen atom in his mono-
+
+ graph (de Broglie 1934), which describes Dirac's theory and gives a very clear and
+ detailed exposition of Darwin's contribution. Weyl's monograph and the well-known
+ survey articles of E. L. Hill-R. Landshoff and of Hans A. Bethe and Edwin E. Salpeter
+ (born in 1924) in the Handbuch der Physik , all follow Gordon in representing the two
+ functions as a linear combination of confluent hypergeometric functions j F' (a, b ; x)
+
+ with polynomial coefficients, although Hill-Landshoff also describe Darwin's article
+
+ Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:38:33 UTC
+All use subject to https://about.jstor.org/terms
+
+ 448 J. Mawhin, A. Ronveaux
+
+ (Weyl 1928; Hill and Landshoff 1938; Bethe and Salpeter 1957). The volume 4 of
+ the monumental treatise of Landau and Lifchitz (1972) only quotes Gordon and Dar-
+
+ win, and gives Gordon's solution in terms of the confluent hypergeometric functions,
+ although the well-known monograph of Schiff (1968) follows essentially Darwin's
+ approach.
+
+ A clear and detailed treatment of Dirac equations for the Coulomb field is given in
+ the book of Nikiforov and Uvarov (1988). Starting from Dirac equations in the form
+
+ given in Bethe and Salpeter (1957), they look for solutions of the form:
+
+ (Jj) = та Лт(е,ф)
+
+ where j is a quantum number specifying the total angular momentum of the particle
+ (j = 1/2, 3/2, ...);/ and V are orbital angular momentum quantum numbers, which,
+
+ for given j, can have the values j - ' and j + with V = 2j - /; the quantum
+ number m takes half-integral values between the numbers - j and j. The functions
+
+ Sljim and Slji'm , called spherical spinors, are connected to spherical harmonics Yim.
+ Substitution gives a system of first-order linear equations in / and g whose solution
+ must be such that rf(r) and rg(r ) are bounded near 0 and
+
+ +00
+
+ J r2[f2(r) + g2(r)]dr = 1.
+ 0
+
+ A careful and detailed elimination procedure leads to the solution of a differential
+ equation of the form
+
+ xy" + (2v - X )/ + ny = 0
+
+ whose only polynomial solutions are the Laguerre polynomials BnL2„~x . This makes
+ it possible to express / and g in terms of products of xv~lt~x /2 with suitable lin-
+ ear combinations of xL^[l(x) and L2v~~l(x). Notice that no reference is made to
+ Gordon or Pidduck, and that Nikiforov-Uvarov's treatment is less elegant and more
+ complicated than Pidduck's.
+
+ Pidduck's contribution was also overlooked by Leverett Davis Jr, who started his
+
+ article (Davis 1939) as follows :
+
+ It does not appear to have been noticed that the radial functions that arise in the
+
+ treatment of Dirac's relativistic hydrogenic atom can be expressed in terms of
+ generalized Laguerre polynomials.
+
+ He wrongly believed that he was the first to express the radial functions in terms of
+ Laguerre polynomials L" for values of a and n related to the quantum numbers. He
+ quoted neither Gordon nor Darwin. That the situation has not improved since is tes-
+
+ tified by the recent article (Au vil and Brown 1978), where the Dirac equation for the
+
+ â Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:38:33 UTC
+All use subject to https://about.jstor.org/terms
+
+ Schrödinger and Dirac equations for the hydrogen atom, and Laguerre polynomials 449
+
+ hydrogen atom is solved in terms of Laguerre polynomials, using a procedure used by
+ Schiff (1968) for Klein-Gordon equation. The authors pertinently observe that
+
+ A number of well-known quantum-mechanics texts derive the energy spectrum,
+
+ but do not derive, or even quote, the eigenfunctions.
+
+ In a more recent article devoted to the role of orthogonal polynomials in the hydrogen
+ atom, Dehesa et al. (1991) noticed that
+
+ For the Dirac equation, [...] the corresponding radial wave functions do not
+ involve any longer a single Laguerre polynomial but a combination of two
+ Laguerre polynomials [see also (Auvil and Brown 1978)], which receive the
+ name of Dirac polynomials.
+
+ If we remember that Dirac did not find a rigorous solution of his equation (21), then the
+
+ name Pidduck polynomials should be historically more appropriate! Laguerre poly-
+ nomials are also absent in the quoted articles on the history of Dirac equations, and in
+
+ Dirac's authoritative scientific biography (Kragh 1990).
+
+ Let us end with a very recent development related to Dirac equations and La-
+
+ guerre polynomials, due to Antonio J. Durán and F. Alberto Grünbaum. In 1949, Mark
+
+ G. Krein developed a theory of matrix- valued orthogonal polynomials without any ref-
+
+ erence to differential equations (Krein 1 949). In 2004, Durán and Grünbaum developed
+
+ a method for producing matrix- valued polynomials associated to second-order differ-
+
+ ential operators with matrix coefficients (Durán and Grünbaum 2004). Observing that
+ the Schrödinger equation is solved in several special problems through the use of
+
+ orthogonal polynomials, and that Dirac equations can be seen as a first-order differen-
+
+ tial equation with matrix coefficients acting on a four-component vector function, they
+ established a connection between the solution of Dirac equations for a central Coulomb
+
+ potential and the theory of matrix-valued orthogonal polynomials initiated by Krein
+ (Durán and Grünbaum 2006). They quoted Darwin's article, but neither Gordon's nor
+ Pidduck's ones, despite the fact that both Laguerre polynomials and hypergeomet-
+ ric confluent functions are mentioned there, and absent in Darwin's treatment. They
+
+ grounded their discussion on the solutions of Dirac equations given in recent treatises
+ (Rose 1961; Nikiforov and Ouvarov 1976).
+
+ The systematic lack of reference to Pidduck's article has a possible explanation.
+ After 1926, most of the fundamental articles in quantum mechanics were published
+
+ in the journals Zeitschrift für Physik or Proceedings of the Royal Society of London.
+ Pidduck's article appeared in the Journal of the London Mathematical Society , which
+ was not very popular among contemporary physicists, and was completely forgot-
+ ten until the publication in 1940 of Hille-Shohat-Walsh's important bibliography on
+ orthogonal polynomials (Hille et al. 1940).
+
+ 4 Conclusion
+
+ In spite of their multiple paternity (see the Appendix), Laguerre polynomials have
+ taken more time to penetrate the classical treatises of analysis of the end of the nine-
+
+ teenth and the beginning of the twentieth century than other special functions such
+
+ ^ Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:38:33 UTC
+All use subject to https://about.jstor.org/terms
+
+ 450 J. Mawhin, A. Ronveaux
+
+ as Legendre polynomials, Bessel functions, hypergeometric functions, Chebyshev, or
+ Hermite polynomials. For example, there is no trace of Laguerre polynomials in the
+
+ monumental treatises of analysis of the French mathematicians Laurent (1885-1991),
+ Jordan ( 1 887), Picard ( 1 89 1-1 897), Goursat ( 1 9 1 0-1 9 1 5), or Hadamard ( 1 927-1 930).
+
+ The same is true for the classical Modern Analysis of the British mathematicians
+
+ Whittaker and Watson (1902), concentrating on special functions, and the compre-
+ hensive book Die partiellen Differential-Gleichungen der Mathematischen Physik of
+ the German mathematician Weber (1900-1901) devoted to mathematical physics.
+ This may be the reason why Laguerre polynomials were not immediately iden-
+
+ tified by Schrödinger when solving his equation for the hydrogen atom. However,
+
+ besides their presence in the solution of this important physical problem, the role of
+ Hermite's polynomials in solving the linear oscillator in wave mechanics showed that
+
+ further developments and computational successes of Schrödinger's quantum mechan-
+
+ ics strongly depended on the appropriate tools developed by mathematicians involved
+ in special functions and spectral theory, as surveyed in volume 1 of the Methoden
+
+ der mathematischen Physik of Courant and Hilbert (1924). In return, those physi-
+ cal applications popularized mathematical concepts that had remained rather little
+ known. It is the case of Laguerre polynomials, where this is examplified, for exam-
+ ple, by their systematic inclusion in subsequent treatises on analysis, such as those
+ of Valiron (1942-1945), Favard (1960-1963), Smirnov (1969-1984), Lavrentiev and
+
+ Shabat (1977), or Chatterji (1997-1998), and in most recent study on special functions
+ (Erdélyi et al. 1953; Nikiforov and Ouvarov 1976). One can also consult the historical
+
+ and technical articles contained in a conference devoted to orthogonal polynomials
+ (Brezinski et al. 1985).
+
+ The fruitful interplay between mathematics and physics always is a two-winners
+
+ game.
+
+ Acknowledgments Some technical and historical information contained in this article must be accredited
+
+ to a number of people we want to acknowledge: A. P. Magnus and M. Singleton (Université Catholique de
+ Louvain), some members of Pidduck's family in Canada and the United Kingdom, librarians and archivists
+
+ of the Moretus-Plantin Library and Faculty of Science of the Louvain Academy, the Corpus Christi College
+ of Oxford University, and the Institut Henri-Poincaré in Paris. We also thank the anonymous referees for
+ their suggestions and style corrections, which have significantly improved the presentation of the article.
+
+ Appendix: Laguerre polynomials: a historical survey
+
+ Introduction
+
+ At the end of nineteenth century, the polynomials (7) with a = 0 were called poly-
+ nomials of E. N. Laguerre , an expression switching to Laguerre polynomials at the
+
+ beginning of the twentieth century. Richard Askey, in his comments on Szëgo's article
+ (Szegö 1968), given in the Collected Papers of Szegö, observed (Askey 1982):
+
+ There is no adequate historical treatment of orthogonal polynomials which is
+ a shame for many reasons. First, a number of important parts of mathematics
+
+ are directly related to orthogonal polynomials. Many of the methods developed
+ to study orthogonal polynomials have been used in other parts of mathematics.
+
+ Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:38:33 UTC
+All use subject to https://about.jstor.org/terms
+
+ Schrödinger and Dirac equations for the hydrogen atom, and Laguerre polynomials 45 1
+
+ Finally, a source exists which makes it easy to find most of the important early
+ article. This is (Hille et al. 1940). I think it is the best bibliography that has
+
+ been compiled on any large part of mathematics. I have not found it very useful
+ for research study but for historical study it is invaluable. [...] The classical
+ orthogonal polynomials are mostly attributed to someone other than the person
+
+ who introduced them. Szegö refers to Abel and Lagrange and Tschebyscheff in
+
+ Szegö 1959, Chapter 5, for study on the Laguerre polynomials LPn(x). Abel's
+ study was published posthumously in 1881. Probably the first published study
+ on these polynomials that uses their orthogonality was by Murphy (Murphy
+ 1833-1835).
+
+ The same names are quoted by Gautschi (1981). In the special case of Laguerre poly-
+
+ nomials, we shall try to amplify and complete this historical sketch.
+
+ Lagrange
+
+ In a section of his memoir Solution de différents problèmes de calcul intégral of 1762
+
+ entitled Recherche des cas ď intégration de V équation +ayt2m = T (with 2 m
+ erronously replaced by m), Lagrange (1762) first considered the equation
+
+ d2z о
+ -4 + azt2m о = 0, (39)
+
+ d t2
+
+ and substituted the independent variable и = to reduce (39) to
+
+ d 2z n dz
+ 3^ + ^ + ог = 0'
+
+ where n = Introducing the new unknown given by z = xQku, with k2 + a = 0,
+ Lagrange obtained the differential equation
+
+ d2x / n' dx nk
+ -j + ( 2 к -i - ) - - I
+ d и1 V и/ du и
+
+ and searched for a solution in the form:
+
+ d2x / ч d X n
+
+ through the change of variable и = - . Polynomial solutions of degree n = - |
+
+ can effectively be written as Laguerre polynomials (0» but with a parameter
+
+ Ö Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:38:33 UTC
+All use subject to https://about.jstor.org/terms
+
+ X = Aur + Bur+l + Cur+2 + ... .
+
+ In modern terminology, Eq. 40 is a confluent hypergeometric equation (15), which
+ can be written in the more standard form:
+
+ 452 J. Mawhin, A. Ronveaux
+
+ a = n - 1 depending upon ni Kummer polynomials would probably be more appro-
+ priate (see Humbert 1922). It seems, therefore, more accurate to say that Lagrange
+ reduced the integration of Eq. 39 to a Kummer equation, and gave a polynomial
+ solution of it. The link with Laguerre polynomials is not very strong. Notice that in
+ Lagrange's transformation for passing from (39) to (40), the chosen constants
+
+ and k2 = -a could be arbitrary without changing the Kummer-type character of the
+ equation for x(u).
+
+ Now, as can be seen on p. 284 of volume II of his complete studies, (Sylow and Lie
+ 1881) an unpublished manuscript of Abel written in 1826 and entitled Mémoires de
+
+ mathématiques par N. H. Abel contains, on pp. 75-79 a sequence of computations
+ entitled Sur une espèce particulière de fonctions entières nées du développement de
+
+ Abel
+
+ la fonction y^e i - ^ suivant les puissances de v. Writing
+
+ i - Jrv
+
+ - = y'<Pm(x)vm,
+ 1 - V
+
+ Abel found
+
+ , ч , m (m - 1) x2 m (m - 1 )(m - 2) jc3
+
+ |M*, , ч = l-mx+ , - -
+
+ xm~' xm
+
+ ±m
+
+ 2.3---(m - 1) 2.3. --m
+
+ Thus, Abel's (pm is identical to the Lm given in (7) with a = 0, and is obtained through
+
+ the generating function (8) with a = 0. Furthermore, multiplying each member of the
+ identity
+
+ 1 _ ÏV _ xu V- ^ ^-1
+
+ by e~x and integrating over (0, oo), Abel obtained
+
+ I _ vu = ХЕ""""! e~x<pm(x)<pn(x)dx,
+
+ OO
+
+ о
+
+ from which he concluded, because of the identity
+
+ - ! - = Улл,
+
+ 1 - vu
+
+ that the integral
+
+ â Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:38:33 UTC
+All use subject to https://about.jstor.org/terms
+
+ Schrödinger and Dirac equations for the hydrogen atom, and Laguerre polynomials 453
+
+ oo
+
+ J e~x<Pm(x)<p„(x) d*
+ 0
+
+ is equal to one if m - ny and to zero if m ф п. This is the orthogonality condi-
+ tion (14) with a = 0. Finally, Abel also gave the development of xß in terms of
+
+ <po(x), . . . , <pp(x)9 namely
+
+ x* = Ao^oW + A'<P'(x) H
+
+ A m iynr(/x + 1) Г(д + 1)
+
+ m T(m + 1) Г(д - w -Ь 1)
+
+ This link with Laguerre polynomials seems to have been first noticed by Milne (1915).
+
+ with
+
+ Murphy
+
+ The contribution of Robert Murphy is quite remarkable. In the second of the three
+ memoirs quoted in Murphy (1833-1835, p. 146), he introduced a family of poly-
+ nomials Tn(z), of degree n , with z = lnř (written as h.l.t for hyperbolic logarithm
+ of t):
+
+ and computed the integrals
+
+ / (n, m) = J r„(lní)(lní)mdí, (42)
+
+ l
+
+ 0
+
+ using fg (In t)r d t = (- iy>! Now I ( n , m) becomes
+
+ (-ir«t±(-i)»-(;)2i=2.
+
+ and Murphy proved, and used, the interesting combinatorial identity
+
+ ^(_ D*+>" in ' (k + m)' =Q for m<n
+ k= О V / •
+
+ <0 Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:38:33 UTC
+All use subject to https://about.jstor.org/terms
+
+ 454 J. Mawhin, A. Ronveaux
+
+ showing in that way, from (42), the orthogonality of the families Tn(lnt) on ]0, 1[ .
+ With Ln(x) = Tn(- In t), t = e*, Laguerre's orthogonality formula (14) (fora = 0)
+ is recovered. Murphy's trick in proving the combinatorial identity came from the
+ expansion of the product, in powers of h, of
+
+ (1 ,+;) ' -(w + l) •
+ (1 ,+;) ' -(w + l)
+
+ for which the constant term, equal to zero for n > m coincides with the left-hand side
+
+ of the identity. Murphy also obtained a Rodrigues-type representation formula (14)
+
+ and a generating function for the family Tn( In t). The technique used here was based
+
+ on Lagrange's inversion theorem, exactly in the same way as in the article of James
+ Ivory and Carl Gustav Jacobi, published 2 years later (Ivory and Jacobi 1837), and
+
+ dealing with the generating function and Rodrigues-type representation formula for
+ Legendre polynomials (see Ronveaux and Mawhin 2005).
+
+ Chebychev
+
+ Chebyshev's fundamental article on orthogonal polynomials (Chebyshev 1859) is a
+
+ continuation of a previous article on approximation (Chebychev 1858). There, given
+ n + 1 values F(*o), F(x' ), . . . , F(xn) of a function F(x) defined on an interval /, and
+
+ a probability law 0(x), Chebyshev searched for a polynomial approximation P(jc) of
+ degree m < n minimizing the expression
+
+ n
+
+ 1=0
+
+ П
+
+ ^0(xi)ifj(xi)ij/k(xi) = Sjtk.
+ í=0
+
+ He showed that if f(x) := П"=о(* ~x¡), and if the expression was expanded
+
+ in a continued fraction, its jth member ф j was a polynomial of degree j such that
+
+ In his article of 1859, Chebyshev extended his approach to different cases where
+
+ the sums above are replaced by integrals, and showed that the corresponding sequence
+ of polynomials could be used to obtain developments of functions in series of those
+
+ polynomials 'analogous to Fourier series'. In particular, when / = [0, oo) and 0(x) =
+ ke~kx. Chebychev's method provided the development
+
+ Spring er
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:38:33 UTC
+All use subject to https://about.jstor.org/terms
+
+ J kc~kxÝ'(x)dx
+ о
+
+ Schrödinger and Dirac equations for the hydrogen atom, and Laguerre polynomials 455
+
+ f ke~kx 'j/o(x) F (x) dx
+
+ F(x) =
+
+ oo
+
+ 00
+
+ f kt~kx'¡r'(x)F{x)áx
+
+ f ke~kx'lfçj(x) áx
+ о
+
+ where ýo(x), 00» ... are the denominators of the convergents in the development
+
+ in continued fraction of the function J0°° ^¡¡-du. Cheby shev found the following
+ simple expressions for the functions 00» Ф' 00» • • • »
+
+ , , ч ekx kx -kx kx, , , ч ex kxd(xe~kx) , , ч kxdl(xle~kx) *
+
+ фо(х) , , ч = ekx kx ■ e -kx kx, ф'(х) , , ч = ex - - - , . . . , V/U) , , ч = e *
+
+ Hence, referring to formula (14) with« = 0, we see that, fork = 1, ýn(x) = n'Ln{x).
+ Some recent studies give a nice description of Cheby shev 's contributions (Akhieser
+
+ 1998; Steffens 2006). The priority of Chebyshev over Hermite (for Hermite's polyno-
+
+ mials) and over Laguerre (for Laguerre's polynomials) was also noticed by Dieudonné
+ (1985). In the Russian mathematical literature, Laguerre polynomials are frequently
+ called Chebychev-Laguerre polynomials (Lavrentiev and Shabat 1977).
+
+ 4.1 Laguerre
+
+ It remained for Laguerre to be the first to give the main properties of Lm in the same
+
+ article: orthogonality, the three-term recurrence relations, the differential equation, the
+
+ generating function, and the inversion formula
+
+ xn =п'^(-')к(ПЛьк(х),
+
+ к= 0 ^ '
+
+ which is nothing but Abel's unpublished formula (41) (Laguerre 1879a). Laguerre
+ obtained his polynomials as denominators of the convergents of a development in
+ continued fractions of the function f(x) = cx dt. He did not quote any of the
+ authors we have just mentioned.
+
+ However, in another article, Laguerre gave a general second-order differential equa-
+
+ tion satisfied by a larger class of orthogonal polynomials {Рл(д:)} (Laguerre 1885),
+ called today semi-classical orthogonal polynomials (Hendriksen and van Rossum
+ 1985). This equation, rediscovered by Oskar Perron in the context of Padé ap-
+ proximants, is now sometimes called Laguerre-Perron's equation (Perron 1929).
+ Using Laguerre's notation, this equation for the semi-classical orthogonal polynomial
+ y = Pn is
+
+ Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:38:33 UTC
+All use subject to https://about.jstor.org/terms
+
+ 456 J. Mawhin, A. Ronveaux
+
+ d2y Г / du; ' dOn 1 dv
+
+ w(x)0n0c)^z + Г I ( / 2v(x) + - Oc) J 0n(x) - u,W-£M' dOn 1 ¿ + кп(х)у = 0,
+
+ where v(jc) and w(x) are polynomials occurring in a first-order linear inhomogeneous
+
+ differential equation for the Stieltjes function / linked to the orthogonality weight p
+
+ by the relation
+
+ J X - z
+
+ The polynomials 0n and кп, with degree independent of n, are in general difficult to
+ compute from v and w. Laguerre developed the case where w(x) = x and 2v(x) =
+ a - X in detail, finding 0n(x) - 1 and кп( x) = n, discovering in the cited article the
+
+ generalized Laguerre polynomials L„(j t), and giving their explicit representations.
+ Hence, it is incorrect to write, as in Lebedev (1965, p. 76), that Laguerre only studied
+ the case where a = 0.
+
+ This important article, which was published 1 year before Laguerre's death, was
+
+ omitted by Eugène Rouché from the list of Laguerre's scientific articles that concluded
+
+ Laguerre' s obituary (Rouché 1886) and was forgotten by the editors when compiling
+ Volume I of Laguerre's Oeuvres (Hermite et al. 1898-1905) devoted to algebra and the
+ integral calculus. It was, however, added at the end of Volume II, which is otherwise
+
+ devoted to geometry. This omission can possibly be explained by the existence of two
+ earlier short publications of Laguerre (1879b, 1884) that have (almost) the same title
+
+ and are reproduced in Volume I of the Oeuvres. They were published, respectively,
+ in the Bulletin de la Société mathématique de France , and the Comptes Rendus des
+
+ séances de l'Académie des Sciences , and were both related to the longer important
+ article of Volume II of the Oeuvres. There is some confusion about the three titles,
+ in the articles and in the table of contents of the Oeuvres : "fonction" and "fraction"
+
+ appear randomly in "Sur la réduction en fractions continues d'une fraction (or fonc-
+
+ tion).. . ." In fact "fraction" is probably a misprint, "fonction" being more appropriate.
+ Furthermore, the 1884 note is wrongly dated from 1879 on p. 445 of the Oeuvres ,
+ and refers to the longer article of 1885. The version of this 1885 article given in
+ the Oeuvres , vol. II, corrects the incorrect numbering of the sections and formulas
+
+ in the original article, but omits its last sentence, where Laguerre promises to come
+
+ back to the integration of some systems of difference equations, already considered,
+ in special cases, by Jacobi and Carl Wilhelm Borchardt, using elliptic and abelian
+ functions:
+
+ Je reviendrai du reste sur ce point particulier, en essayant de compléter à certains
+ égards les résultats obtenus par ces illustres géomètres.
+
+ Observe that, in his observation on Laguerre, Michael Bernkopf insists on the
+ fact that this edition of the Oeuvres "teems with errors and misprints," but also
+ misses introduction of the general family L„ in Laguerre (1879b) (Bernkopf
+ 1991).
+
+ â Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:38:33 UTC
+All use subject to https://about.jstor.org/terms
+
+ Schrödinger and Dirac equations for the hydrogen atom, and Laguerre polynomials 457
+
+ Sokhotskii and Sonine
+
+ The same extension of Ln was given in 1873 by Yulian V. Sokhotskii in his thesis
+ (Sokhotskii 1873), and, 7 years later, in a long article of Sonine (1880) on cylindrical
+
+ Bessel functions. There, in Section 40, the polynomials T£ of degree n, still sometimes
+
+ referred as Sonine polynomials , are defined via the generating functions
+
+ / л e~r Jm(2i*/rx) n
+
+ Ыг'*)= / л =¿0Tm(x)r' n
+
+ where Jm is the Bessel function of first kind, and m is an integer. From the differential
+
+ equation obtained by Sonine, it is easy to identify T£ (x) (up to a constant factor) with
+
+ the polynomials 'F'(-nym + 1; jc) or L«m)(j t). As Sonine's article was submitted
+ in August 1879 and Laguerre's article (1879a) was published the same year, it is not
+
+ surprising that Sonine did not quote Laguerre.
+
+ Fejér
+
+ In an article of 1909, announced in a short note at the Comptes Rendus , Leopold
+
+ Fejér, without any mention of Laguerre or any of the other authors above, obtained
+
+ the asymptotic development of the function:
+
+ i
+ e^
+
+ -
+
+ (1 - z)p
+
+ „(И) •
+
+ XU)
+
+ In a note to those articles, Turán observed that being the generating function
+
+ of the Laguerre polynomials L ^ , (43) provides the first asymptotic development of
+ those polynomials, which, is explicitly given by (Turán 1970)
+
+ L^'x) ~ -^=еа/2х cos - (2a + 1)^J .
+
+ References
+
+ Akhieser, N.I. 1998. Function theory according to Chebyshev. In Mathematics of the XlXth century , vol. 3,
+
+ ed. A.N. Kolmogorov and A.P. Yushkevich, 1-81. Basel: Birkhäuser.
+
+ Anonymous. 1952. Dr. F.B. Pidduck. Nature No. 4317. July 26: 141.
+ Askey, R. 1982. Comments to (Szegö, 1968). In Collected papers of G. Szegö , vol. 3, ed. R. Askey, 866-869.
+
+ Boston: Birkhäuser.
+
+ â Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:38:33 UTC
+All use subject to https://about.jstor.org/terms
+
+ where p is a real number (Fejér 1908, 1909). Fejér gave the expression
+
+ 1 Sin [2y7T +(! - §) g]
+
+ Auvil, P.B., and L.M. Brown. 1978. The relativistic hydrogen atom: a simple solution. American Journal
+
+ Bacry, H., and M. Boon. 1985. Lien entre certains polynomes et quelques fonctions transcendantes. Comptes
+
+ 458 J. Mawhin, A. Ronveaux
+
+ of Physics 46: 679-681.
+
+ Rendus de V Academie des Sciences Paris 1 301 : 273-276.
+
+ Bernkopf, M. 1991. Laguerre, Edmond Nicolas. In Biographical dictionary of mathematics, vol. 3, ed. C.C.
+
+ Gillipsie, 1315-1317. New York: Charles Scribner's Sons.
+
+ Bethe, H.A., and E.E. Salpeter. 1957. Quantum mechanics of one- and two-electrons systems. In Handbuch
+
+ der Physik , vol. 35, ed. S. Flügge, 88-436. Berlin: Springer.
+
+ Bloch, F. 1976. Heisenberg and the early days of quantum mechanics. Physics Today. December: 23-27.
+ Brezinski, С., A. Draux, A.P. Magnus, P. Maroni, and A. Ronveaux, eds. 1985. Polynomes orthogonaux et
+
+ applications (Bar-le-Duc, 1984). Lecture Notes in Mathematics No. 1 171. Berlin: Springer.
+
+ Buchholz, H. 1969. The confluent hypergeometric function. Berlin: Springer.
+ Chatterji, S.D. 1997-1998. Cours d'analyse , 3 vol. Lausanne: Presses polytechniques et universitaires
+
+ romandes.
+
+ Chebychev, P.L. 1858. Sur les fractions continues. J. Math. Pures Appi 3 (2): 289-323. Oeuvres. St. Peters-
+
+ burg: Acad. Imp. Sciences. Reprint New York: Chelsea, 1962, vol. 1: 201-230.
+
+ Chebyshev, P.L. 1859. Sur le développement des fonctions à une seule variable. Bull. Phys.-Math. Acad.
+ Imp. St. Pétersbourg 1: 193-200. Oeuvres. St. Petersburg: Acad. Imp. Sciences. Reprint New York:
+ Chelsea, vol. 1: 501-508.
+
+ Courant, R., and D. Hilbert. 1924. Methoden der Mathematischen Physik , vol. 1. Berlin: Springer.
+
+ Darwin, C.G. 1927. The electron as a vector wave. Proceedings of the Royal Society of London Series A
+
+ 116:227-253.
+
+ A 1 18: 654-680.
+
+ Darwin, C.G. 1928. The wave equation of the electron. Proceedings of the Royal Society of London Series
+
+ Davis, L., Jr. 1939. A note on the wave equations of the relativistic atom. Physical Review 56: 186-187.
+ de Broglie, L. 1923a. Ondes et quanta. Comptes Rendus de l' Academie des Sciences Paris ill: 507-510.
+ de Broglie, L. 1923b. Quanta de lumière, diffraction et interférences. Comptes Rendus de l'Academie des
+
+ Sciences Paris 177:548-550.
+
+ de Broglie, L. 1923c. Les quanta, la théorie cinétique des gaz et le principe de Fermat. Comptes Rendus de
+
+ l'Academie des Sciences Paris ill: 630-632.
+
+ de Broglie, L. 1934. L' électron magnétique ( Théorie de Dirac). Paris: Hermann.
+
+ Dehesa, J. S., F. Dominguez Adame, E.R. Arriola, and A. Zarzo. 1991 . Hydrogen atom and orthogonal poly-
+ nomials. In Orthogonal polynomials and their applications (Erice, 1990). IMACS Annals Computing
+ and Applied Mathematics, vol. 9, 223-229. Basel: Baltzer.
+
+ Dieudonné, J. 1985. Fractions continuées et polynomes orthogonaux dans l'oeuvre de E.N. Laguerre. In
+ Polynômes orthogonaux et applications (Bar-le-Duc, 1984). Lecture Notes in Mathematics No. 1171,
+ 1-15. Berlin: Springer.
+
+ Dirac, P. A.M. 1928. The quantum theory of the electron I. Proceedings of the Royal Society of London A
+
+ 117:610-624.
+
+ Dirac, P. A.M. 1930. The principles of quantum mechanics. Oxford: Clarendon Press.
+
+ Durán, J., and F.A. Grünbaum 2004. Orthogonal matrix polynomials satisfying second-order differential
+
+ equations. International Mathematics Research Notices 10: 461-484.
+
+ Durán, J., and F.A. Grünbaum 2006. PAM Dirac meets M G Krein: matrix orthogonal polynomials and
+
+ Dirac's equation. Journal of Physics A: Mathematical and General 39: 3655-3662.
+
+ Erdélyi, A., W. Magnus, F. Oberhettinger, and F.G. Tricomi. 1953. Higher transcendental functions, 3 vol.
+
+ New York: McGraw-Hill.
+
+ Favard, J. 1960-1963. Cours d'analyse de l'Ecole Polytechnique , 3 vol. Paris: Gauthier- Villars.
+ Fejér, L. 1908. Sur une méthode de M. Darboux. Comptes Rendus de l'Académie des sciences Paris 147:
+ 1040-1042. Leopold Fejér Gesammelte Arbeiten, vol. I, ed. P. Turán, 444-445. Basel: Birkhäuser.
+
+ Fejér, L. 1909. On the determination of asymptotic values (Hungarian). Mat. és Term. Értesitó 27: 1-33.
+ German translation in Leopold Fejér Gesammelte Arbeiten, vol. I. Basel-Birkhäuser. 1970: 474-502.
+
+ Feynman, R.P., R.B. Leighton, and M. Sands. 1966. The Feynman lectures on physics. Quantum mechanics.
+
+ Boston: Addison Wesley.
+
+ Frank, Ph., and R. von Mises. 1925-1935. Die Differential- und Integralgleichungen der Mechanik und
+ Physik. Braunschweig: Vieweg. Vol. 1, 1st ed. Vol. 1, 1925. Vol. 2 1928. 2nd Vol. 1, 1930. Vol. 2, 1935.
+
+ â Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:38:33 UTC
+All use subject to https://about.jstor.org/terms
+
+ Schrödinger and Dirac equations for the hydrogen atom, and Laguerre polynomials 459
+
+ Gautschi, W. 1981. A survey of Gauss-Christoffel quadrature formula. In E.B. Christoffel. The influence
+
+ of his work on mathematics and the physical sciences , ed. P.L. Butzer and F. Fehér, 72-147. Basel:
+ Birkhäuser.
+
+ Gerber, J. 1969. Geschichte der Wellenmechanik. Archive for History of Exact Sciences 5: 349-416.
+
+ Gordon, W. 1928. Die Energieniveaus der Wassenstoffatoms nach der Diracschen Quantentheorie des Elek-
+
+ trons. Z.f Phys. 48: 1 1-14.
+
+ Goursat, É. 1910-1915. Cours d'analyse mathématique , 3 vol. Paris: Gauthier- Villars.
+ Hadamard, J. 1927-1930. Cours d'analyse de l'École Polytechnique , 2 vol. Paris: Hermann.
+ Hendriksen, E., and H. van Rossum. 1985. Semi-classical orthogonal polynomials. In Orthogonal polyno-
+ mials and applications (Bar-le-Duc 1984). Lecture Notes in Mathematics No. 1171, 354-361. Berlin:
+ Springer.
+
+ Henrici, P. 1974-1 986. Applied and computational complex analysis , 3 vol. New York: Wiley-Interscience.
+ Hermite, Ch., H. Poincaré, É. and Rouché, eds. 1898-1905. Oeuvres de Laguerre , 2 vol. Paris: Gauthier-
+
+ Villars. Reprinted New York: Chelsea, 1972.
+
+ Hill, E.L., and R. Landshoff. 1938. The Dirac electron theory. Reviews of Modern Physics 10: 87-132.
+
+ Hille, E., J. Shohat, and J.L. Walsh. 1 940. A bibliography of orthogonal polynomials. Bulletin of the National
+
+ Research Council No. 103. Washington, DC.
+
+ Humbert, P. 1922. Monographie des polynômes de Kummer. Ann. de Math. 1 (5): 81-92.
+ Ince, E.L. 1927. Ordinary differential equations. London: Longmans. Reprint New York: Dover, 1958.
+ Ivory, J., and C.G.J. Jacobi. 1837. Sur le développement de (1 - 2xz + z ) ' . J. Math. Pures Appl. 2:
+
+ Jammer, M. 1966. The conceptual development of quantum mechanics. New York: Mc-Graw-Hill.
+ Jordan, C. 1887. Cours d'analyse de l'École Polytechnique. 3 vol. Paris: Gauthier- Villars. 2e éd, 1893.
+ Kragh, H.S. 1981. The genesis of Dirac's relativistic theory of electrons. Archive for History of Exact
+
+ Kragh, H.S. 1982. Erwin Schrödinger and the wave equation: the crucial phase. Centaurus 26: 154-197.
+ Kragh, H.S. 1990. Dirac. A scientific biography. Cambridge: Cambridge University Press.
+
+ Krein, M.G. 1949. Infinite j-matrices and a matrix moment problem (Russian). Doklady Akademii Nauk
+
+ Kubli, F. 1970. Louis de Broglie und die Entdeckung der Materiewellen. Archive for History of Exact
+
+ 105-106.
+
+ Sciences 24: 31-67.
+
+ SSSR 69: 125-128.
+
+ Sciences 7: 26-68.
+
+ Kummer, E.E. 1836. Ueber die hypergeometrische Reihe F(a, ß, y). Journal für die reine Und angewandte
+
+ Mathematik 15: 39-83, 127-172.
+
+ Lagrange, J.L. 1762. Solution de différents problèmes de calcul intégral. Miscellanea Taurinensia 3 (1762-
+
+ 1765). Oeuvres, vol. 1, 471-668. Paris: Gauthier- Villars.
+
+ Laguerre, E.N. 1879a. Sur l'intégrale e x x • Bull- Soc. Math. France 7: 428-437. Oeuvres , vol. I,
+
+ 428-437.
+
+ Laguerre, E.N. 1879b. Sur la réduction en fractions continues d'une fonction qui satisfait à une équation
+
+ linéaire du premier ordre à coefficients rationnels. Bull. Soc. Math. France 8: 21-27. Oeuvres , vol. I,
+ 438-444.
+
+ Laguerre, E.N. 1884. Sur la réduction en fractions continues d'une fraction qui satisfait à une équation
+ linéaire du premier ordre à coefficients rationnels. Comptes Rendus de l' Academie des Sciences Paris
+ 98: 209-212. Oeuvres, vol. I, 445-448.
+
+ Laguerre, E.N. 1885. Sur la réduction des fractions continues d'une fraction qui satisfait à une équation
+ différentielle linéaire du premier ordre dont les coefficients sont rationnels. J. Math. Pures Appl. 1 (4):
+ 135-165. Oeuvres, vol. II, 685-71 1 .
+
+ Landau, L., and E. Lifchitz. 1972. Théorie quantique relativiste. Premiere partie. Moscou: Mir.
+ Laurent, H. 1885-1991. Traité d'analyse, 7 vol. Paris: Gauthier-Villars.
+ Lavrentiev, M., and B. Shabat. 1977. Méthodes de la théorie des fonctions d une variable complexe. Moscou:
+
+ Mir.
+
+ 1972.
+
+ Lebedev, N.N. 1965. Special functions and their applications. Prentice-Hall. Reprint New York: Dover,
+
+ Mehra, J., and H. Rechenberg. 1 987. The historical development of quantum theory. Vol. 5: Erwin Schroding-
+
+ er and the rise of wave mechanics , 2 vol. New York: Springer.
+
+ Milne, A. 1915. On the roots of the confluent hypergeometric equation. Proceedings of the Edinburgh
+
+ Mathematical Society 33: 48-64.
+
+ Moore, W. 1989. Schrödinger: life and thought. Cambridge: Cambridge University Press.
+
+ Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:38:33 UTC
+All use subject to https://about.jstor.org/terms
+
+ 460 J. Mawhin, A. Ronveaux
+
+ Murphy, R. 1 833- 1 835. On the inverse method of definite integrals, with physical applications. Transactions
+
+ of the Cambridge Philosophical Society 4: 355-408; 5: 13-148, 315-393.
+
+ Nikiforov, A., and V. Ouvarov. 1976. Éléments de la théorie des fonctions spéciales. Moscou: Mir.
+
+ Nikiforov, A., and V. Uvarov. 1988. Special functions of mathematical physics. Basel: Birkhäuser.
+ Pauli, W. 1927. Zur Quantenmechanik des magnetischen Elektrons. Z. f. Physik 43: 601-623.
+ Perron, O. 1929. Die Lehre von den Kettenbrücken , 2nd ed. Leipzig: Teubner. Reprint New York: Chelsea.
+ Picard, É. 1891-1897. Traité d'analyse , 3 vol. Paris: Gauthier- Villars.
+
+ Pidduck, F.D. 1910. On the propagation of a disturbance in a fluid under gravity. Proceedings of the Royal
+
+ Pidduck, F.D. 1929. Laguerre polynomials in quantum mechanics. Journal of the London Mathematical
+
+ Society of London A 83: 347-356.
+
+ Pollaczek, F. 1956. Sur une généralisation des polynômes de Jacobi. Mémorial des sciences mathématiques
+
+ Society 4(1): 163-166.
+
+ No. 131. Paris: Gauthier- Villars.
+
+ Rainville, E.O. 1960. Special functions. New York: McMillan.
+ Rechenberg, H. 1988. Erwin Schrödinger and the creation of wave mechanics. Acta Physica Polonica В 19:
+
+ 683-695.
+
+ Ronveaux, A., and J. Mawhin. 2005. Rediscovering the contributions of Rodrigues on the representation
+
+ of special functions. Expositiones Mathematicae 23: 361-369.
+
+ Rose, M.E. 1961. Relativistic electron theory. New York: Wiley.
+ Rouché É. 1886. Edmond Laguerre, sa vie et ses travaux. Journal de l'École Polytechnique 56: 213-271.
+ Schiff, L.I. 1968. Quantum mechanics , 3rd ed. New York: McGraw-Hill.
+
+ Schlesinger, L. 1900. Einfuhrung in die Theorie der Differentialgleichungen mit einer unabhängigen Vari-
+
+ abein. Sammlung Schuber No. XIII, G.J. Göschensche Verlag.
+
+ Schrödinger, E. 1926a. Quantisierung als Eigenwertproblem. (Erste Mitteilung). Annalen der Physik 79
+
+ Schrödinger, E. 1926b. Quantisierung als Eigenwertproblem. (Zweite Mitteilung). Annalen der Physik 79
+
+ (4): 361-376.
+
+ (4): 489-527.
+
+ Schrödinger, E. 1926c. Quantisierung als Eigenwertproblem. (Dritte Mitteilung: Störungstheorie, mit An-
+
+ wendung auf den Starkeeffekt der Balmerlinien). Annalen der Physik 80 (4): 437-490.
+
+ Schrödinger, E. 1927. Abhandlungen zur Wellenmechanik. Leipzig: Barth. English translation Collected
+ papers on wave mechanics. London: Blackie & Son, 1928. French translation Mémoires sur la méca-
+ nique ondulatoire. Paris: Félix Alean, 1933.
+
+ Slater, L.J. 1960. Confluent hypergeometric functions. Cambridge: Cambridge University Press.
+ Smirnov, V. 1969-1984. Cours de mathématiques supérieures , 4 vol. Moscou: Mir.
+
+ Sokhotskii, Yu.W. 1 873. On definite integrals and functions used in series expansions (Russian). PhD thesis,
+
+ St. Petersburg.
+
+ chen Optik. Ann. f. Phys. 35 (4): 277-298.
+
+ en séries. Math. Ann. 16: 1-80.
+
+ Sommerfeld, A., and J. Runge. 191 1. Anwendung der Vektorrechnung auf die Grundlagen der geometris-
+
+ Sonine, N., 1880. Recherches sur les fonctions cylindriques et le développement des fonctions continues
+
+ Steffens, K.G., 2006. The history of approximation theory. From Euler to Bernstein. Basel: Birkhäuser.
+ Sylow, L., and S. Lie, eds. 1881. Oeuvres complètes de Niels Hendrik Abel, 2 vol. Christiana: Grondhal &
+
+ Son.
+
+ Szegö, G. 1959. Orthogonal polynomials , 2nd ed. Providence: American Mathematical Society.
+ Szegö G. 1968. An outline of the history of orthogonal polynomials. In Proceedings of the conference on
+
+ orthogonal expansions and their continuous analogues , 3-11. Carbondale: Southern Illinois University
+ Press. Collected Papers. Vol. 3, 1982: 857-865.
+
+ Turán, P. 1970. Bemerkungen. In Leopold Fejér Gesammelte Arbeiten, vol. I, ed. P. Turan, 502-503. Basel:
+
+ Valiron, G. 1942-1945. Cours d'analyse mathématique , 2 vol. Paris: Masson.
+
+ Weber, H. 1900-1901. Die partiellen Differential-Gleichungen der Mathematischen Physik , 2 vol. Braun-
+
+ Wessels, L. 1979. Schrödinger's route to wave mechanics. Studies in History and Philosophy of Science
+
+ Weyl, H. 1928. Gruppentheorie und Quantenmechanik. Leipzig: Hirzel. English transi. London: Methuen,
+
+ 1931. Reprint New York: Dover.
+
+ Whittaker, E., and N. Watson. 1902. Modern analysis. Cambridge: Cambridge University Press.
+
+ Birkhäuser.
+
+ schweig: Vieweg.
+
+ 10:311-340.
+
+ Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:38:33 UTC
+All use subject to https://about.jstor.org/terms
+
+

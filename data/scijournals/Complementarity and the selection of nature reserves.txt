@@ -1,0 +1,2219 @@
+ 
+
+ 
+
+ 
+
+ 
+
+Complementarity and the selection of nature reserves: algorithms and the origins of
+
+conservation planning, 1980–1995
+Author(s): Sahotra Sarkar
+Source: Archive for History of Exact Sciences, Vol. 66, No. 4 (July 2012), pp. 397-426
+Published by: Springer
+Stable URL: https://www.jstor.org/stable/23251737
+Accessed: 19-05-2020 12:09 UTC
+
+JSTOR is a not-for-profit service that helps scholars, researchers, and students discover, use, and build upon a wide
+
+range of content in a trusted digital archive. We use information technology and tools to increase productivity and
+
+facilitate new forms of scholarship. For more information about JSTOR, please contact support@jstor.org.
+
+Your use of the JSTOR archive indicates your acceptance of the Terms & Conditions of Use, available at
+
+https://about.jstor.org/terms
+
+Springer is collaborating with JSTOR to digitize, preserve and extend access to Archive for
+History of Exact Sciences
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:09:10 UTC
+All use subject to https://about.jstor.org/terms
+
+ Arch. Hist. Exact Sci. (2012) 66:397-426
+ DOI 10.1007/s00407-012-0097-6
+
+ Complementarity and the selection of nature reserves:
+ algorithms and the origins of conservation planning,
+ 1980-1995
+
+ Sahotra Sarkar
+
+ Received: 20 October 2011 / Published online: 15 May 2012
+ © Springer-Verlag 2012
+
+ Abstract This paper reconstructs the history of the introduction and use of iterative
+
+ algorithms in conservation biology in the 1980s and early 1990s in order to prioritize
+
+ areas for protection as nature reserves. The importance of these algorithms was that
+ they led to greater economy in spatial extent ("efficiency") in the selection of areas
+ to represent biological features adequately (that is, to a specified level) compared to
+ older methods of scoring and ranking areas using criteria such as biotic "richness"
+ (the number of features of interest). The development of these algorithms was critical
+
+ to producing a research program for conservation biology that was distinct from ecol
+
+ ogy and eventually led to what came to be called systematic conservation planning.
+ Very similar algorithmic approaches were introduced independently in the 1980-1990
+
+ period in Australia, South Africa, and (arguably) the United Kingdom. The key rules
+
+ in these algorithms were the use of rarity and what came to be called complementar
+ ity (the number of new or under-represented features in an area relative to those that
+ had already been selected). Because these algorithms were heuristic, they were not
+ guaranteed to produce optimal (most "efficient") solutions. However, complementar
+
+ ity came to be seen as a principle rather than a rule in an algorithm and its use was also
+ advocated for the former reason. Optimal solutions could be produced by reformu
+ lating the reserve selection problem in a mathematical programming formalism and
+ using exact algorithms developed in that context. A dispute over the relevance of full
+
+ optimality arose and was never resolved. Moreover, exact algorithms could not easily
+
+ incorporate criteria determining the spatial configuration of networks of selected areas,
+
+ in contrast to heuristic algorithms. Meanwhile metaheuristic algorithms emerged in
+
+ Communicated by : Manfred Laubichler.
+
+ S. Sarkar (E3)
+
+ Department of Philosophy and Section of Integrative Biology, University of Texas at Austin,
+ Austin, TX 78712, USA
+ e-mail: sarkar@mail.utexas.edu
+
+ •£) Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:09:10 UTC
+All use subject to https://about.jstor.org/terms
+
+ 398 S. Sarkar
+
+ the 1990s and came to be seen as a credible more effective alternative to the heuristic
+
+ algorithms. Ultimately what was important about these developments was that the
+ reserve selection problem came to be viewed a complex optimal decision problem
+ under uncertainty, resource, and other constraints. It was a type of problem that had
+ no antecedent in traditional ecology.
+
+ Keywords Biodiversity • Complementarity • Conservation biology, history
+ Reserve design • Reserve selection • Systematic conservation planning
+
+ 1 Introduction
+
+ Theoretical work in the biological sciences typically consists of constructing models
+ and more general theories guiding model building (Sarkar 2007c). The development
+ of (scientific) ecology during the last two decades of the twentieth century exempli
+ fies this pattern (Sarkar 2007b). During the same period, a discipline that was widely
+
+ initially regarded either as a part of ecology, conservation biology, emerged as an insti
+ tutionalized discipline, initially in north America, but subsequently elsewhere.' What
+ was unique about conservation biology in the context of the biological sciences—
+ and only slightly less generally in the context of all the empirical sciences—was that
+
+ theoretical innovation in several important cases consisted in the design of better algo
+
+ rithms, similar to innovation in computer science, operations research, and some of the
+
+ decision sciences. This was particularly true in the sub-discipline within conservation
+ biology that came to be known as systematic conservation planning (Margules and
+ Pressey 2000). Even though there was little formal contact or collaboration between
+ conservation biologists and operations researchers during the formative 1980-1995
+ period when the framework of systematic conservation planning was established (for
+ a contrary interpretation, see Kingsland 2002), what emerged was a discipline that
+ drew as much from operations research and other areas outside biology as from within
+ the biological sciences.
+
+ This paper is a history of the introduction and elaboration of algorithms within
+ conservation biology during the 1980-1995 period.2 The choice of the initial date is
+
+ based on it being the year the first such algorithm was developed (Kirkpatrick et al.
+ 1980). The terminal date was selected as 1995 because a different class of algorithms
+ (metaheuristic ones—see Sect. 6) began to be used starting 1996 (Ball 1996). What is
+ interesting about the developments analyzed here—besides the formal issues which
+
+ dominate the discussions of this paper—is the extent to which conservation biology,
+ as it developed, departed from traditional ecology. This was also the period during
+
+ which the term "biodiversity" was introduced and conservation biologists came to see
+
+ their discipline as that which was devoted to the protection of biodiversity (Takacs
+ 1996).
+
+ ' For brief histories of these developments, see Takacs (1996) and Sarkar (1998, 2004, 2005); a detailed
+
+ history is yet to be written and would not go unnoticed.
+
+ 2 See Justus and Sarkar (2002), Kingsland (2002), and Pressey (2002).
+
+ <£) Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:09:10 UTC
+All use subject to https://about.jstor.org/terms
+
+ Complementarity and the selection of nature reserves 399
+
+ Throughout this period, the preferred strategy for biodiversity conservation was
+
+ through the designation of nature reserves, the number of which saw a dramatic growth
+ between 1985 and 1995 (Brockington et al. 2008). The late 1980s saw the emergence
+ of what has since become a standard protocol for the selection of networks of such
+ reserves (Margules and Pressey 2000), though the popularity of strict protection of
+ habitats in reserves through human exclusion became controversial.3 Much of this
+ framework was initially developed in Australia. Even though conservation biology
+
+ was at that time being institutionalized in the United States, perhaps surprisingly, the
+
+ earlier framework used there, emerging mainly from island biogeography theory in
+ the 1970s, was almost entirely rejected.
+
+ The new framework envisioned solving what was variously called the "reserve
+ design" or "reserve selection" problem.4 It was eventually conceptualized as a con
+ strained optimization problem, the maximization of the representation of biological
+ features (the term "biodiversity" was almost never used in this early period) in min
+ imum area, that was supposed to be solved using formal algorithms and state-of-the
+ art computational tools eventually typically based on a Geographic Information Sys
+ tem (GIS) platform. Proponents of these methods criticized earlier strategies to select
+
+ protected areas (see Sect. 3) as ad hoc on the ground of sub-optimality (Pressey 1990,
+ 1994; Pressey and Tully 1994). There was considerable argument over the algorithms
+ to be used, a question that was never fully resolved.
+
+ 2 Background
+
+ Two themes dominated earlier work on the design of nature reserve systems against
+
+ which the new framework of conservation planning emerged: (i) that reserves should
+
+ be viewed as islands surrounded by inhospitable "oceans" of developed lands; and (ii)
+
+ that the conservation value of an area could be represented by a single score, typically,
+ its species "richness," that is, the number of species in it. Both themes will be briefly
+ explored in this section to clarify the sense in which the new framework marked an
+
+ innovative departure from past work in ecology.
+
+ 2.1 Reserves as islands
+
+ Though conservation biology was officially viewed as an inter-disciplinary enterprise,
+
+ at least by the 1980s (Soule 1985), its immediate historical roots lie in the ecology of
+ the 1970s (Takacs 1996). Consequently, it is not surprising that early efforts to solve
+ the reserve design problem invoked work in island biogeography theory which had
+
+ emerged in the late 1960s as one of the more innovative developments in theoretical
+ ecology (MacArthur and Wilson 1967).That theory attempted to predict species
+
+ 3 The alternative was to allow multiple use of habitats, including compatible human use (Sarkar et al. 2006;
+ Margules and Sarkar 2007; Brockington et al. 2008).
+
+ 4 For "reserve design" see, e.g., Diamond (1975, 1986), Higgs (1981), Margules et al. (1988), Simberloff
+ (1988); for "reserve selection," see Cocks and Baird (1989), Nicholls and Margules (1993), Pressey (1994,
+ 2002), etc.
+
+ ^ Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:09:10 UTC
+All use subject to https://about.jstor.org/terms
+
+ 400 S. Sarkar
+
+ Fig. 1 Diamond's Rules for
+ Reserve Design (from Diamond
+ 1975) These six rules were
+
+ better worse
+
+ supposed to have been derived
+ from island biogeography
+ theory. The organization is
+ supposed to presume a
+ homogeneous landscape.
+ Otherwise, for instance, Rules B
+
+ and C would not be applicable
+ since several distant reserves
+
+ would be needed to sample
+ all species
+
+ O * o
+
+ B OO
+ OO
+
+ ^ ° o
+ OO c
+ OO o o
+
+ o
+
+ OO D ooo
+
+ OOO E ooo
+
+ O F c=>
+
+ It was thus perhaps natural to conceptualize such reserves as potential islands of
+ protected areas ("refugia") surrounded by terrain that was inhospitable to biota. This
+
+ was the route taken by E. O. Wilson, one of the founders of island biogeography the
+ ory. Wilson and Willis (1975) and Diamond (1975) proposed the use of the theory
+ for the design of nature reserves (see, also, Diamond and May 1976). These rules
+ were supposed to be based on community-level processes (that is, those that involved
+
+ a suite of interacting species in the same geographical area) determining persistence
+ (or extinction) of species. Diamond produced six geometrical rules (see Fig. 1 from
+ Diamond 1975, p. 143):
+
+ A Large reserves were preferable to smaller ones.
+
+ B A single large reserve was preferable to several smaller ones adding up to the same
+
+ C Reserves that were closer to each other were better than those that were not.
+
+ D Equidistant reserves were better than those that were not.
+
+ area.
+
+ •£) Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:09:10 UTC
+All use subject to https://about.jstor.org/terms
+
+ richness from ecological assumptions. It predicted the richness in an island assuming
+ an equilibrium between immigration and extinction. Relevant parameters included the
+ size (area) of an island and its distance from the mainland. The operative model for a
+ reserve during this period was that of a U.S.-style national park, clearly demarcated
+ from the surrounding landscape matrix and, ideally, divorced from all non-esthetic
+ and non-scientific human use.
+
+ Complementarity and the selection of nature reserves 401
+
+ E Reserves connected through corridors were better than those that were not.
+ F A circular reserve was better than an elongated one.
+
+ By 1980, these rules were endorsed by the World Conservation Strategy of the Inter
+ national Union for the Conservation of Nature [IUCN] (1980); by 1985 they found
+ their way into textbooks (e.g., Krebs 1985; and they even received endorsement from
+ the World Bank Simberloff 1988).
+
+ Yet, by the end of the 1980s these rules—and island biogeography theory, in
+ general—had generally been abandoned as a guide to the design of nature reserves.5
+
+ Two problems bedevilled attempts to use these rules from the beginning. The first was
+
+ skepticism about the empirical status of island biogeography theory independent of
+ conservation concerns, especially because any assumption of equilibrium in natural
+ systems was almost never likely to be warranted (Gilbert 1980; Simberloff 1988). The
+
+ second, and more important, problem was the relevance of islands to nature reserves
+
+ which, according to critics, were not sufficiently analogous to islands. In particular,
+
+ habitat between reserves was not typically as inhospitable to their biota as oceans were
+
+ to terrestrial biota. The critics emphasized that the assumption of close analogy was an
+
+ empirical claim that had not been established through appropriate experiments (Higgs
+ 1981; Margules et al. 1982; Zimmerman and Bierregaard 1986; Simberloff and Cox
+ 1987; Simberloff 1988). Moreover, they also pointed out that Diamond's geometric
+ rules had not been tested in the field with any genuinely representative set of data.
+ Meanwhile, the invocation of island biogeography theory generated a decade-long
+ "Single Large or Several Small" (SLOSS) dispute which was finally acknowledged as
+ having no resolution: island biogeography theory provided no unequivocal guidance
+ (whether or not it was relevant to conservation), except for Diamond's trivial Rule A
+
+ (a big protected area is better than a smaller one), and there was no non-contextual
+ answer to the SLOSS question (Soule and Simberloff 1986; Simberloff 1988). The
+ only claims that were beyond dispute were that a single large reserve is better than a
+ small one and several large reserves were better than a single one. These were hardly
+
+ surprising.
+
+ 2.2 Scoring and ranking
+
+ Island biogeography theory presumed to answer how many species could survive in a
+
+ given insular habitat. But what were the species (or other biota) that should be included
+
+ in a particular protected area? If island biogeography theory was equally applicable to
+
+ all species under all circumstances, as its proponents at least implicitly assumed and
+
+ its critics explicitly denied (see, especially, Higgs 1981), and there was no constraint
+
+ on the amount of land that could be put under protection, then the question of iden
+
+ tifying such species was moot. But, after the use of island biogeography theory was
+ abandoned, and the stalemate in the SLOSS debate led to a recognition that strategies
+
+ to ensure the persistence of biota had to be context-dependent, the question of identi
+
+ fying the relevant species became conceptually prior to that of devising strategies for
+
+ 5 Simberloff (1988) provided a comprehensive contemporary review.
+
+ Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:09:10 UTC
+All use subject to https://about.jstor.org/terms
+
+ 402 S. Sarkar
+
+ their persistence. Management strategies would depend on what the biota were that
+ were slated for protection (Margules et al. 1982).
+
+ Perhaps even more importantly, once it was realized—by the late 1970s Interna
+
+ tional Union for the Conservation of Nature [IUCN] (1980)—that not all biologically
+
+ interesting areas would be protected as reserves (there were other powerful demands on
+
+ land, in particular, for economic development, especially in the post-colonial tropics),
+ it became critical to determine which areas deserved protection. Though terminolog
+ ical usage is not entirely consistent during this period (the 1980s), there is a gradual
+
+ shift from talk of "reserve design" to "reserve selection:" it mattered where reserves
+ were to be geographically situated. Thus, the new framework of reserve selection
+ algorithms arose from attempts to specify precise "conservation value" in the pres
+ ence of an over-riding concern for what was called "efficiency" (Pressey and Nicholls
+
+ 1989b). The new framework was important not as much for its rejection of the use of
+ island biogeography theory as for its focus on the conceptually antecedent problem of
+
+ identifying conservation priorities in terms of both areas and biota.
+
+ These attempts can be traced back to a paper by Ratcliffe (1971) which, for the
+
+ first time, laid down explicit criteria for the selection of nature reserves. For Ratc
+
+ liffe and others from that period, the goal was to make attributions of natural value
+
+ less subjective; the hope was that, ultimately, if quantitative criteria could be devised,
+ a scoring process would be repeatable. By 1977, Ratcliffe had identified ten such
+ criteria: (i) size; (ii) diversity (interpreted as richness of communities and species);
+ (iii) naturalness; (iv) rarity; (v) fragility; (vi) typicalness; (vii) recorded history; (viii)
+ location in an ecological or geographical unit; (ix) potential value; and (x) intrinsic
+ value. Between 1971 and 1978, at least seven other studies suggested richness or
+ diversity (typically interpreted as richness); six suggested rarity; five suggested area;
+ four suggested naturalness; and four suggested representativeness or typicalness.6
+ Other proposed criteria included scientific, educational, or amenity value, recorded
+ history, uniqueness, wildlife reservoir potential, and management considerations. In
+ an influential early review (from 1981), Margules and Usher classified these criteria
+ and clearly distinguished between those that were biological and those that were not
+ (Margules and Usher 1981). The former were treated as more important but the latter
+ were also considered relevant because the designation of reserves was recognized as
+ ultimately being a political act.
+
+ The aspect of all of these scoring approaches that became a matter of controversy—
+
+ and ultimately a source of innovation—was that their use was envisioned as static
+ (a one-off step): scores were to be computed once and then areas were ranked accord
+
+ ing to these scores. The feature that was most commonly used was richness (or diversity
+
+ interpreted as richness). In all such cases, as Kirkpatrick (1983, p. 128) pointed out:
+ "A major drawback of a listing of priority areas on the basis of a single application
+
+ of a formula is that there is no guarantee that the priority area second or third on the
+
+ list might not duplicate the species, communities, or habitats that could successfully
+
+ be preserved in the first priority area." For instance, the first and second areas may
+
+ both have very high species richness; however, if they have many species in common,
+
+ 6 These developments are reconstructed in detail in Justus and Sarkar (2002).
+
+ Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:09:10 UTC
+All use subject to https://about.jstor.org/terms
+
+ Complementarity and the selection of nature reserves 403
+
+ selecting both of them may not lead to as many total species being represented as
+ selecting the first and a more depauperate but sufficiently different third area. The
+
+ problem was particularly severe if there was a constraint on how many areas could be
+ prioritized for reservation as was always the case in practice.
+
+ Kirkpatrick's response was to develop a dynamic method, dynamic in the sense
+ that it invoked an iterative process that relied on scores being updated as each area
+ is prioritized. It was, as Pressey (2002) has pointed out, the "first reserve selection
+ algorithm." The history of these algorithms will occupy the rest of this paper. How
+
+ ever, it should be noted that there were at least some conservation biologists from this
+
+ period who did not embrace the algorithmic approach but yet identified one feature
+
+ that would recur in the algorithms: that feature was endemism. In particular, Myers
+
+ (1988) began a program of designating "hot spots" on the basis of endemism and threat.
+ Even Diamond (1986), when he proposed a network of reserves for Indonesian New
+ Guinea (then known as Irian Jaya), relied on endemism and representativeness (and
+
+ barely invoked his geometrical rules of a decade earlier). Range restriction (including
+ endemism) was also used by Thomas and Mallorie (1985) for an area prioritization
+ exercise for butterflies in the Atlas mountains of Morocco.
+
+ 3 Iteration and the representation of diversity
+
+ As noted earlier, the replacement of scoring and ranking methods by iterative pro
+ cedures began as early as 1980 with the work of Kirkpatrick in Tasmania (Pressey
+ 2002). The crucial innovation of these procedures was that they were dynamic: the
+ present conservation value of an area had to be updated relative to what areas were
+
+ already selected. Variants of what is essentially the same strategy were independently
+
+ introduced four times, twice in Australia, arguably once in the United Kingdom, and
+ once in South Africa.7
+
+ 3.1 Endemic plants of Tasmania
+
+ Kirkpatrick prioritized areas for 25 out of 60 endemic or endangered plant species of
+ the central east coast region of Tasmania; the other 35 were deemed to be already ade
+
+ quately protected in reserves. His algorithm is described in detail in Box 1.8 It was first
+
+ published in an obscure report in 1980 (Kirkpatrick et al. 1980) but brought to a wider
+ audience through republication in 1983 in what was then the easily the most influ
+ ential and widely read journal devoted to conservation, Biological Conservation in
+
+ 1983 (Kirkpatrick 1983). The occurrence and abundance of the species were recorded
+ on 460 1 x 1 km2 grid squares. In line with earlier scoring and ranking approaches,
+
+ 7 A preliminary analysis of some of these algorithms is to be found in Justus and Sarkar (2002); this paper
+
+ updates that account, in particular, taking into cognizance the important contributions of Kirkpatrick et a!.
+ (1980) and Margules and Nicholls (1987).
+
+ 8 Throughout this paper, algorithms will be reconstructed using the same notation as far as possible. The
+
+ formalism will be restricted to what is necessary. When there is any divergence between the reconstruction
+
+ and the (occasionally verbal) descriptions of the original sources, it will be explicitly noted.(Throughout
+ "a" is being used for "such that.")
+
+ Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:09:10 UTC
+All use subject to https://about.jstor.org/terms
+
+ Kirkpatrick classified the 25 species into four categories: (i) not in reserves and largely
+ confined to the study area; (ii) poorly represented in reserves and largely confined to
+ the study area; (iii) not in reserves and more common outside the study area; and
+ (iv) poorly represented in reserves and more common outside the study area. He gave
+
+ these four classes initial priority values (ttj in Box 1) of 100, 50, 25, and 10, respec
+ tively. Now, if, for each grid each grid square, the priority values of the species are
+
+ added up, a conservation value (k, ) is obtained for that square. However, Kirkpatrick
+
+ noticed that many of the squares with high conservation value had the same species
+ in them.
+
+ 404 S. Sarkar
+
+ Box 1
+ Box 1
+
+ Kirkpatrick's 1980/1983 Algorithm
+ Kirkpatrick's 1980/1983 Algorithm
+
+ Let E be the set of areas (sites, landscape units), with 07 e E, i = 1
+ being the individual areas. Let A be the set of species, with Xj e A, 7 =
+ I,... ,m, being the individual species. Let the priority value of the / th species
+
+ be 71 j. Let the conservation value of the i th area, 07 , be K,; let the minimal con
+ servation value for a potential protected area be K. Let the conservation value
+
+ of the j th species, Xj, in the (th area, 07, be 1/^7- Let r be the set of areas that
+ have already been selected.
+
+ Let X,j
+
+ 1 if Xj € CT;
+ 0 if Xj £ at '
+
+ Set T equal to the null set, 0.
+
+ The algorithm consists of repeating the following four stages until Vct, € E\r,
+ Ki < K:
+
+ 1. VXj e A, 07 e £\r,
+
+ set x/rij =
+
+ 7tj if Xj occurs once in p (F)
+ jiTj if Xj occurs twice in p (F)
+
+ 0 if Xj occurs more than twice in p (F)
+
+ 2. Vore E\r, set Ki = 27=1 Xijilfij.
+ 3. Select cr^ e E\F a- /Cjt = maxK| (E\F), that is, the remaining area in E\T
+
+ with the highest conservation value.
+
+ 4. Update T to T U {ct^}.
+
+ His response was to pick only the best of these squares (Stages 3 and 4 in Box 1).
+
+ After that the conservation values of a species in a cell (i/r/y in Box 1; see Stage 1)
+ was updated by downgrading depending on the number of squares in which it already
+ occurred. Squares continued to be selected until no remaining area had a conser
+ vation value less than a minimum (K in Box 1, set to 30 in Kirkpatrick's applica
+ tion). The selected squares were grouped and surrounded by 0.5 km buffers to cre
+ ate seven nominal reserves; they were all eventually legally protected though the
+
+ <£) Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:09:10 UTC
+All use subject to https://about.jstor.org/terms
+
+ Complementarity and the selection of nature reserves 405
+
+ process took almost 20 years. Thus, the results of the first reserve selection algorithm
+ were fully implemented; it remains the only such case (Pressey 2002; Sarkar et al.
+ 2006). Subsequently, Kirkpatrick and Harwood (1983) used the same algorithm to
+ prioritize Tasmanian wetlands as well as areas in Tasmania's alpine region (Kirkpatrick
+ 1986). A few years later, it was also used to prioritize areas for angiosperm conser
+ vation for all of Tasmania on a 10 x 10 km2 grid with the additional constraint that
+
+ each endemic species had to occur in at least two selected squares (Kirkpatrick et al.
+ 1991).
+
+ 3.2 Milkweed butterflies of the world
+
+ In 1984, P. R. Ackery and R. I. Vane-Wright of the Butterfly Section of the Brit
+ ish Museum (Natural History) published a comprehensive account of the milkweed
+ butterflies (Danainae, subfamily of the Lepidoptera, Nymphalidae) (Ackery and Vane
+ Wright 1984). The book was almost entirely about the cladistics and organismic biol
+ ogy of danaine butterflies; however, one short (three pages, pp. 156-158) section
+
+ broached the problem of conservation. It is sometimes interpreted to present an algo
+ rithm for the prioritization of areas (e.g., Pressey et al. 1993; Justus and Sarkar 2002;
+
+ Sarkar 2005) but this may well be only because Vane-Wright and collaborators were
+
+ responsible for the introduction of the term, "complementarity" (Vane-Wright et al.
+ 1991) and most of these algorithms came to known as complementarity-based algo
+ rithms (see Sect. 4).
+
+ Box 2
+ Box 2
+
+ Ackery and Vane-Wright's 1984 Algorithm
+ Ackery and Vane-Wright's 1984 Algorithm
+
+ Let £ be the set of islands and biogeographic zones, with 07 e E, i = 1
+
+ being the individual units. Let A be the set of species, with Xj e A, j —
+ 1,,m, being the individual species. Let V be the set of areas that have
+ already been selected.
+
+ Set X ■ — 1 if e ai
+ set Aij - Q ,f ^ •
+ Set T equal to the null set, 0.
+
+ The algorithm consists of the following two stages:
+
+ 1. V\j e A, repeat:
+
+ If X"=i Xjj = 1, then update T to T U {cr^} if X^ = 1.
+
+ 2. Update T to T U Q. where Q C E 3
+
+ SCT,6r %ij = m and |£2| is the minimum possible.
+
+ To the extent that Ackery and Vane-Wright produced an algorithm, it is recon
+ structed in Box 2. They divided the world into islands and biogeographic zones in
+
+ <£) Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:09:10 UTC
+All use subject to https://about.jstor.org/terms
+
+ continental landmasses. Then they prioritized each of the units that had at least one
+ endemic species (Stage 1 in Box 2). Then they required the prioritization of the min
+ imum number of units that would ensure full coverage of all the species (Stage 2 in
+ Box 2). The sense in which this description is not an algorithm is that the second
+ stage is under-specified: it stated a problem to be solved (a constrained optimization
+ problem) but did not provide step-by-step instructions to solve it (which is what an
+
+ algorithm, by definition, is supposed to do).
+
+ 406 S. Sarkar
+
+ 3.3 Minimal sets in Australia
+
+ Ackery and Vane-Wright's algorithm was an advance over Kirkpatrick's only in the
+ very mitigated sense that it used no arbitrary scoring of species according to their
+ presumed conservation value: all species were slated for representation at least once.
+ However as an algorithm, it was a step backward, as noted earlier, because of under
+
+ specification. The next advances in algorithm design came from Australia in work done
+
+ by Chris Margules and several collaborators, mainly at the Commonwealth Scientific
+ and Industrial Research Organisation (CSIRO) Division of Water and Land Resources
+
+ in Canberra. Four different algorithms were developed by this group, along with two
+
+ relatively minor variants. Unlike Kirkpatrick's analysis, in another important innova
+
+ tion, these algorithms were encoded into computer programs (written in Fortran) by
+ Nick Nicholls from CSIRO (Margules and Sarkar 2007) and were used to produce
+ nominal reserve networks for further analysis.
+
+ In retrospect the first algorithm, from 1987, appears to have been the most con
+ ceptually innovative though it was not developed further. Unlike the later algorithms,
+ it attempted to predict and use probabilities of occurrence of biota in habitat units
+ (individual areas). In contrast, later algorithms assumed that a feature was definitely
+
+ present at a site or that it was not: there was no option to incorporate uncertainty. The
+ 1987 algorithm was due to Margules and Nicholls and was part of a prioritization
+ of 101 areas (mallee patches9) by conservation value in South Australia on the basis
+ of vegetation assemblages. (Margules and Nicholls 1987). They used a hierarchical
+
+ aggregation method to classify the vegetation into six "communities." Logistic regres
+
+ sion was then used to estimate a probability of occurrence for each community on each
+
+ habitat patch.
+
+ Areas (patches) were then prioritized using the algorithm reconstructed in Box 3.
+
+ This algorithm implicitly assumed that the probabilities of occurrence of communities
+
+ in different areas were independent of each other. It tried to ensure a 95 % probability
+
+ of occurrence of each community in at least one of the selected areas. In Stage 1, the
+
+ six areas with each of the highest probabilities of occurrence for each community is
+
+ selected (in Box 3, the cell with the highest zuij): it is presumed that these are unique
+ in the sense that no area has the highest probability of occurrence for more than one
+
+ community. In Stage 2, areas are selected to ensure the satisfaction of the 95 % target
+
+ 9 These are patches with any of a large class of eucalyptus species.
+
+ •£) Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:09:10 UTC
+All use subject to https://about.jstor.org/terms
+
+ Complementarity and the selection of nature reserves 407
+
+ for each community.10 Patches are selected that contribute the highest probability for
+
+ a community that is still represented at a level below the 95 % target; ties are broken
+
+ using the area of the patch. The targets were all achieved with 12 patches. If the target
+ was changed to 99%, 17 patches were required.
+
+ Box 3
+ Box 3
+
+ Margules and Nicholls' 1987 Algorithm
+ Margules and Nicholls' 1987 Algorithm
+
+ Let £ be the set of areas (patches), with er, e E, z = 1,..., n, being the indi
+
+ vidual units. Let A be the set of plant communities, with ^eA,; = l,...,m,
+ being the individual plant communities. Let ujij be the probability of occur
+
+ rence of the jth community, Xj, in the / th patch, 07. Let f be the set of patches
+ that have already been selected.
+
+ Set T equal to the null set, 0.
+
+ The algorithm consists of the following two stages:
+
+ 1. VXj e A:
+
+ (a) Select e E e- uikj = maxOTi7(E).
+ (b) If there are ties, select the or* with the largest area.
+ (c) Update r to T U {cr*}.
+
+ 2. If 3kj e A B- PI (1 — uyjj) > 0.05, for each such Xf.
+
+ Oi Gr
+
+ (a) Select cr* € E\r e- mu = maxmj/(Z).
+ (b) If there are ties, select the cr* with the largest area.
+ (c) Update f to T U {07}.
+
+ The following year, Margules, Nicholls, and Bob Pressey,11 presented two algo
+ rithms in perhaps the single most influential paper on reserve selection from that
+ period. While Margules and Nicholls (1987) seem to have been unaware of Kirkpa
+ trick's work, this paper referred to it explicitly. The aim was to prioritize a set of
+ wetlands from a total of 432 such areas in the Macleay Valley in coastal New South
+ Wales in Australia.
+
+ 10 The reconstruction in Box 3 follows Margules and Nicholls' (1987, p. 97) numerical treatment rather
+
+ than their verbal description which states that Stage 2 is carried out for all communities at each stage rather
+
+ than only for those that have yet to meet the target in F. This is critical because, otherwise, the algorithm
+
+ would reduce to a variant of maximizing richness which was clearly not their intention (p. 87). The verbal
+
+ description also does not mention that ties in maximum probabilities were supposed to broken using the
+ area of the patch in Stage 1.
+
+ 11 In contrast to Margules and Nicholls, Pressey was not form CSIRO but from the New South Wales
+ National Parks and Wildlife Service.
+
+ Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:09:10 UTC
+All use subject to https://about.jstor.org/terms
+
+ 408 S. Sarkar
+
+ Box 4
+ Box 4
+
+ Margules, Nicholls, and Pressey's 1988 Algorithm I
+ Margules, Nicholls, and Pressey's 1988 Algorithm I
+
+ Let X be the set of wetlands, with a,- € E, i = I,... ,n, being the individual
+
+ units. Let A be the set of plant species, with Xj e A, j = I,... ,m, being the
+ individual plant species. Let T be the set of wetlands that have already been
+ selected. Let A' be the set of species represented in T.
+ I et X- ■ — ^ ^ cr'
+ AlJ ~ 0 if Xj i Oi '
+
+ Let pj = 1 v , which measures the rarity of A.,-.
+
+ Let (p ; = '' , which measures the frequency of X
+
+ 2-;=l xij
+
+ y"_ x -
+
+ 2sj=\ 2-i=i xu
+
+ Set T and A' equal to the null set, 0.
+
+ The algorithm consists of the following two stages:
+
+ 1. VXj e A, Vct; e E, if 3\ok 3- Xjy = 1, update T to F U {ak}.
+ 2. Repeat until A' = A:
+
+ (a) Select Xp 3- pp = maxPy (A\A')
+ (b) Select a* 3- X^p — 1.
+
+ (c) If there is a tie, select aq e- Xa(<ea\a' %qj's lhe maximum; otherwise,
+
+ Oq — Ok
+
+ 0> = Oq.
+
+ (d) If there is a tie, select ar 3- X;.7eA\A' Xij^j is the minimum; otherwise,
+
+ (e) If there is a tie, select ers by lexical order; otherwise, as = ar.
+ (f) Update T toFUjffj}.
+
+ (g) VXj e A\A', if Xa/sr %-ij > 0, update A' to A' U {A.7}.
+
+ The first algorithm, reconstructed in Box 4, was designed to represent each of 118
+
+ plant species at least once in a minimal set of wetlands. In the first stage (Stage 1 of
+ Box 4), each wetland that contained at least one species unique to it was selected. In the
+
+ second iterative stage, the algorithm first tried to select a wetland with the rarest species
+
+ not yet represented (in F, with rarity parameterized by pj \ Steps 2(a)-(b) in Box 4). If
+ there was a tie, the algorithm selected the wetland that contributed the highest number
+
+ of unrepresented species (Step 2(c)). If a tie still remained, it selected the wetland with
+
+ the least frequent group of species (with frequency measured by <pj in Box 4, Step
+ 2(d)). (In retrospect, this step is problematic: a unit with a very few common species
+ would potentially be selected over one with many rare species. This step disappears
+
+ or is replaced in all published later variants of this algorithm.) Remaining ties were
+ broken using the first wetland in the list. The iteration terminated when all species
+ were represented. Twenty wetlands were required for this purpose. Straightforward
+
+ modifications allowed the required representation level to be increased to n > 1.
+
+ *£) Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:09:10 UTC
+All use subject to https://about.jstor.org/terms
+
+ Complementarity and the selection of nature reserves 409
+
+ Box 5
+ Box 5
+
+ Margules, Nicholls, and Pressey's 1988 Algorithm II
+ Margules, Nicholls, and Pressey's 1988 Algorithm II
+
+ Let £ be the set of wetlands, with 07 e E, / = 1being the individual
+ units. Let A be the set of plant species, with Xj e A, j = 1,,m, being
+ the individual plant species. Let S be the set of habitat types, with |/ e S,
+ / = I,..., p, being individual habitat types. Now, S constitutes a partition
+ of £: each habitat type is composed of a certain number of wetlands and no
+ wetland belongs to more than one habitat type.
+ Let T be the set of wetlands that have already been selected. Let A' be the set
+
+ of species represented in F.
+ Let X ■ — ^ ^ (J'
+ Let a,j _{o if Xj i oi ■
+
+ Set T and A' equal to the null set, 0.
+
+ Repeat the following procedure until f = T:
+
+ 1. Vf/ e S, select o> e a- XJ=i %kj is the maximum.
+ 2. Vf, e S, if 3aj 3Xj e A\A' with X,7 = 1:
+
+ (a) Select ak a- ak = maxCT,.6f;n(£\r) Z^€a\a' *i;
+ (b) Update f to T U {rr^.}; update A'.
+
+ The second algorithm, reconstructed in Box 5, was designed to ensure the represen
+ tation of all habitat types besides species. The wetlands were classified into nine types
+
+ (£/ in Box 5). In the first stage, the algorithm selected the wetland from each type with
+
+ the highest species richness (Stage 1 of Box 5). (In retrospect this stage is problematic
+ because it did not assay wetlands for the number of shared species, which it should
+ have even though the similarity was likely to be small because of the difference in
+ type.) In the second stage, until all species were represented, the algorithm continued
+ to select one wetland from each type which maximized the number of new species
+ (Step 2(a) of Box 5).
+
+ The first of these two algorithms (hereafter, the "MNP" algorithm, with the acronym
+
+ interpreted as the algorithm without Step 2(d)) became the basis for further develop
+
+ ment by this group. In 1989, Margules (1989b) used an algorithm that replaced the
+ problematic Step 2(d) of the MNP algorithm by a second use of rarity; it also allowed
+
+ ties to be broken in favor of larger areas before invoking lexical order. Variable required
+
+ levels of representation were allowed from the beginning. The algorithm was used to
+ select reserves to include vegetation alliances in natural vegetation remnants in the
+ mallee lands of South Australia. Because of its publication in a somewhat obscure
+
+ Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:09:10 UTC
+All use subject to https://about.jstor.org/terms
+
+ book Bradstock and Noble (1989), this algorithm went unnoticed even though it cor
+
+ rected a fairly obvious flaw of the MNP algorithm (viz., Step 2(d)). Pressey and Nicholls
+
+ (1989a) modified the MNP algorithm in a different way: before invoking lexical order,
+
+ their algorithm encoded a preference for the smallest unit among which there was a tie.
+ They prioritized pastoral properties in part of western New South Wales to represent
+
+ all land systems. The results were interesting but what is even more important was
+
+ that, by then, devising the correct algorithm had become a theoretical problem in its
+
+ own right as, especially, the work of Cocks and Baird (1989), discussed below in Sect.
+ 5, shows.
+
+ 410 S. Sarkar
+
+ The final, much more elaborate, algorithm that emerged from these efforts was
+
+ published by Nicholls and Margules (1993). Two criticisms motivated the elabora
+ tion: that there should be a premium on having less distance between reserves, and
+
+ that invoking lexical order to break ties made selected sets far too dependent on the
+ order of presentation of the data.12 This algorithm is reconstructed in Box 6. It began
+
+ with an option for the initialization of the set of reserves with some specified units
+ (in set I in Box 6); this allowed the inclusion of existing reserves. The first stage
+ (Stage 1 of Box 6) was identical to the MNP algorithm as were the first three steps
+ (Steps 2(a)-(c)) of the second stage. If a tie still remained, the unit to be selected
+
+ was the one that was closest (by dij to one of the already selected units (in T; Step
+ 2(d) in Box 6)). The next step (Step 2(e)) again tries to break any remaining tie by
+ maximizing the representation of features which were yet to achieve their targeted
+ levels.
+
+ Further ties were to be broken with two successive appeals to the representation of
+
+ rarest surrogates (Steps 2(f)-(g)).13 If there was still a tie, the algorithm selected the
+
+ unit with the least area provided that it would enable the feature to achieve its targeted
+ level; otherwise, it selected the unit with the largest area (Step 2(h)). Nicholls and
+ Margules offered no justification for this rule (and, in retrospect, it is far from clear
+ that any could be forthcoming). If there remained a tie, the unit with the largest area
+ was selected (Step 2(i)). Further ties were resolved by lexical order (Step 2(j)).
+
+ 12 As Nicholls and Margules correctly argued, a third criticism, that the data used by the algorithms were
+ inadequate, was irrelevant to the question of the performance of the algorithms.
+
+ 13 The reconstruction in Box 6 differs from the verbal description of Nicholls and Margules (p. 160) which
+
+ makes Step 2(g) identical to Step 2(f), instead of Step 2(g) using the next rarest feature after the execution
+ of Step 2(f) as in Box 6. Otherwise, Step 2(g) becomes redundant.
+
+ ^ Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:09:10 UTC
+All use subject to https://about.jstor.org/terms
+
+ Complementarity and the selection of nature reserves 411
+
+ Box 6
+ Box 6
+
+ Nicholls and Margules' 1993 Algorithm
+ Nicholls and Margules' 1993 Algorithm
+
+ Let £ be the set of units, with cr; e E, i — 1,...,«, being the individual
+ units. Let a,- be the area of the unit a,. Let A be the set of biological features,
+
+ with Xj € A, j — I,... ,m, being the individual features. Let T be the set of
+ representation levels for these features, with xj e T, j = 1,..., m, being the
+ individual features
+
+ Let / be the initial set of selected reserves which may be equal to 0. Let F be
+ the set of units that have already been selected. Let A' be the set of features
+
+ represented in F.
+
+ Let X ■ — 1 if € ai
+ Let x.j - Q ,f ^ ^ .
+ Let drs be the distance between units ar and as.
+ Let p: — 1 the rarity of A,-.
+
+ 2-;=i XU
+
+ Set T equal to I and A' equal to the null set, 0.
+
+ The algorithm consists of the following two steps:
+
+ 1. WXj e A, Vct, e E, if 3!ct^ 5- Xy = 1, update F to T U {o^}.
+ 2. Repeat until r" = T:
+
+ (a) Select Xp a- pp = maxPy.(A').
+ (b) Select er* B- Xkp = 1.
+
+ (c) If there is a tie, select aq 2^eA\A' Xqj is the maximum; otherwise,
+
+ (d) If there is a tie, select ar 3- e r, Voy e E\T, def has dek as the
+
+ minimum; otherwise o> = oq.
+
+ (e) If there is a tie, select as Xa sa.\a■ Xsj is the maximum; otherwise
+
+ ffg = <?k
+
+ <7j = Or.
+
+ (f) If there is a tie, select a, a- pk = mmPj (A\A') and S^ru^,} X'k >
+
+ ric; otherwise at = as.
+
+ (g) If there is a tie, select au e- pi = minPy (A\(A' U {X*})) and
+
+ SCT,eru{CT„} xf > rf, otherwise cr„ = er,.
+
+ (h) If there is a tie, select ov 3- p* = minPj (A\A') A (av is the minimum
+ if Z^en^} xik > Tk or av is the maximum if Zai6ru{<T„} x'ik < Tk\
+ otherwise av — au;
+
+ (i) If there is a tie, select aw e E\T e- aw is the minimum; otherwise
+
+ = &v
+
+ (j) If there is a tie, select az by lexical order; otherwise, as — aw.
+ (k) Update T to T U {<r,}.
+
+ (1) VXj e A\A', if XtT,er X'j > Tj' update A' to A' U fAj}.
+
+ Nicholls and Margules presented an example (from south-eastern New South Wales,
+
+ divided into 371 regular 3 x 3 km2 grid cells with 31 forest tree communities). But
+
+ the focus of the work was the algorithm itself. In particular, they emphasized the
+
+ ^ Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:09:10 UTC
+All use subject to https://about.jstor.org/terms
+
+ 412 S. Sarkar
+
+ contrast between results obtained with spatial distance was incorporated (Step 2(d)
+ of Box 6) versus when it was not. Even earlier, Pressey and Nicholls (1989b) had
+ introduced a measure for the "efficiency" of a reserve network: e = 1 — where x
+ is the size of the units selected to represent biological features adequately and t is the
+
+ total size of all the units.14 By this measure, any of the iterative algorithms developed
+
+ by this group outperformed the use of static scores to select units. Nevertheless, these
+
+ algorithms were heuristic and not guaranteed to produce the most efficient solutions.
+
+ Attempts to produce optimal (most "efficient" in this terminology) solutions would
+ lead to another set of developments, also initiated at CSIRO's Division of Wildlife and
+ Ecology (Sect. 5).
+
+ 3.4 Fynbos vegetation in South Africa
+
+ Iterative algorithms were also independently introduced in South Africa in 1990 to
+ prioritize areas to protect Fynbos vegetation15 in the Cape Floristic Region. (The
+ algorithm is reconstructed in Box 7.) A. G. Rebelo and W. R. Siegfried, at the Percy
+ Fitzpatrick Institute of African Ornithology of the University of Cape Town, used a
+ 12 x 12 km2 grid to map 326 taxa (species and distinct subspecies). They first dis
+ tributed four intersecting transects across the study area based on richness (Rebelo
+ and Siegfried 1990). On each transect, a grid cell (the "primary core square"; p. 20)
+ was selected using the highest richness (Stage 1 in Box 7). At the next stage, cells
+ ("secondary core squares") were iteratively selected along the transect provided that
+
+ they shared less than half their species with those already in the selected squares and
+ added at least a quarter new species (Stage 2 in Box 7). Finally, cells were selected
+ from the rest of the study area on the basis of new species that they contained (Step
+ 3(a)); ties were broken using richness (Step 3(b)); remaining ties were broken using
+ the amount of Fynbos vegetation in a cell (Step 3(c)). It was assumed that there would
+
+ be no further ties. They found that 95 % of the species could be accommodated in 16 %
+
+ of the study area. Even more importantly, they pointed out that <17 % of the existing
+ and <50 % of the proposed protected areas were in cells with high species endemism.
+
+ For this group, too, algorithms immediately became the focus of research. In
+
+ 1992, they produced two algorithms based on two rules used in the MNP algorithm
+ (Rebelo and Siegfried 1992): (i) which cells added the most new species; and (ii)
+ which cells added the rarest species. Their first algorithm used Rule (i) first and Rule
+
+ (ii) to break ties. The second algorithm reversed this order. In both cases remaining ties
+
+ were broken by a random selection of a cell. With respect to efficiency (sensu Pressey
+
+ and Nicholls 1989b), both algorithms performed almost equally well. Strangely, they
+
+ interpreted Rule (i) as being richness and explicitly, but mistakenly, disagreed with
+
+ Margules et al.'s (1982) criticism of the use of richness to prioritize areas. They seemed
+
+ 14 Size was to be interpreted either as the number of units or their total area.
+
+ 15 This consists of natural shrubland or heathland vegetation which occurs in a small belt of the Western
+ Cape of South Africa.
+
+ "21 Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:09:10 UTC
+All use subject to https://about.jstor.org/terms
+
+ Complementarity and the selection of nature reserves 413
+
+ to have been unaware that this rule now had a name: "complementarity," which is the
+ focus of the next section.
+
+ Box 7
+ Box 7
+
+ Rebelo and Siegfried's 1990 Algorithm
+ Rebelo and Siegfried's 1990 Algorithm
+
+ Let E be the set of areas, with cr,- e E ,i — 1being the individual units;
+ let </>,- be the amount of Fynbos vegetation in each cr,. Let A be the set of plant
+ species, with Xj e A, j = 1,,m, being the individual plant species. Let
+ T be the set of richness transects, with r;, Z = 1,..., p being the individual
+ transects. Let V be the set of areas that have already been selected. Let A' be
+
+ the set of species represented in F.
+
+ i et X - — ^ ^ ^ ^ a'
+
+ AlJ ~ 0 if Xj i ai '
+
+ Set T and A' equal to the null set, 0.
+
+ The algorithm consists of the following stages:
+
+ 1. Vti e T :
+
+ 2. Vzr, e T,
+
+ (a) Select U( s r/ ^ 2a ea ^kj is the maximum.
+ (b) Update T to T U {a>}; update A'.
+
+ .... ... 2j.,Ern{<7i.) xkj Yjl:e:ru\ak)Xkj
+ (a) V<?k e x,, if crken> J [A,* < 0.5 V ' |A>* > 0.25.
+ (b) Update T to T U {er*}; update A'.
+
+ 3. Order the remaining areas according to the rule:
+
+ (a) Select Ok e E\r a- 2A,eA\A' ^jk is the maximum.
+
+ (b) If there is a tie, select ap 5- 2xy eA %jk is the maximum; otherwise
+
+ &p = G/c
+
+ (c) If there is a tie, select oq B- (pi is the maximum; otherwise oq = ap.
+ (d) Update r to V U {aq)\ update A'.
+
+ 4 Complementarity as principle
+
+ One theme ran through the thinking of all four of these groups (from Sect. 3): that
+ selecting reserves was best accomplished iteratively by using as one of the rules the
+
+ prioritization of an area that added the most features that were not yet included in the
+ selected set up to the required level of representation. Second, they all emphasized
+
+ rarity and endemism to some extent, with the MNP algorithm and its derivatives giving
+
+ rarity precedence over all other rules. By 1989, Margules had stated the constrained
+ optimization problem that was being solved explicitly: "what is the minimum set of
+
+ Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:09:10 UTC
+All use subject to https://about.jstor.org/terms
+
+ 414 S. Sarkar
+
+ sites in an ecological domain which represents all species (or other units of diversity)
+ at least once? (Margules 1989a, p. 7)." He had gone on to note: "This minimum set
+
+ .. .is the smallest set of sites that are required for a reserve network if all species are to
+
+ be represented. It is the bottom line; the bare minimum. Anything less would constitute
+ an inadequate representation of biological diversity (p. 7)." Meanwhile, Pressey and
+ Nicholls (1989b) had introduced their notion of "efficiency" to provide a quantitative
+
+ measure of this optimality. In retrospect, given that they were working in the context
+ of algorithm design, it was not the happiest of terms to use: in computer science,
+
+ efficiency referred to the speed of an algorithm. But the term came to be widely used
+
+ during this period.
+
+ What remained to be explicitly named was the first theme mentioned above. Vane
+
+ Wright et al. (1991) proposed a term that eventually came to be adopted by the entire
+ community. They noted that:
+
+ "procedures [from Sects. 3.1-3.3] are based on a guiding principle—which we
+ call complementarity.
+
+ In carrying out a simple critical faunas analysis (that is, representation of critical
+ fauna in notional reserves), once the first choice has been made, all further con
+
+ siderations of species included with that region are eliminated. The second area
+
+ is then drawn from the taxonomic complement of the first—the remaining fauna
+ with the highest number of endemics, and all additional non-endemics that the
+
+ area happens to contain. Once the first two faunas have been added, the reduced
+
+ complement is then searched for the third area. This algorithmic procedure is
+ repeated until all species are accounted for (the total complement) (pp. 244-245;
+ italics in the original)."
+
+ The choice of term was concordant with the use of "complement" in set theory. It
+ came to dominate the field, with any algorithm that used a complementarity calcu
+ lation coming to be called complementarity-based even if it not only used but gave
+ precedence to some other rule (for instance, rarity in the case of the MNP algorithm)
+ (Justus and Sarkar 2002).
+
+ But, was complementarity an algorithm or a principle? Vane-Wright et al. wanted it
+
+ both ways. There was no obvious inconsistency there: a principle could embedded as a
+
+ rule in an algorithmic procedure. However, if it is the algorithm that mattered, it would
+
+ have to be judged against other algorithms designed to solve the same (class of) prob
+ lems; however, a principle was immune to such criticism because its value depended
+
+ on something beyond algorithmic efficiency—these questions will occupy Sect. 5. In
+ the early 1990s, apparently all those who were involved in the development of the
+ iterated procedures of Sect. 3 viewed complementarity as a principle (Pressey et al.
+ 1993; Justus and Sarkar 2002). As they increasingly demonstrated through system
+ atic data analyses, existing reserve networks were not "efficient" but ad hoc (Pressey
+ 1990,1994; Pressey and Tully 1994) because they had been selected opportunistically
+
+ (Pressey et al. 1993). Their alternative was to invoke complementarity as the goal of
+ new reserves: intuitively, it captured the sense that, when it came to diversity, it is
+ differences that matter (Vane-Wright 1996).
+
+ Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:09:10 UTC
+All use subject to https://about.jstor.org/terms
+
+ Complementarity and the selection of nature reserves 415
+
+ 5 Heuristics and optimality
+
+ What happened if complementarity was viewed as an algorithm? It was what was
+ known in computer science as a "greedy algorithm:" at each iteration, the best solu
+ tion at that iteration is selected. Vane-Wright et al.16 (1991) were aware of this and
+
+ also that it did not guarantee optimal solutions but went on to argue, incorrectly, that
+
+ no exact (optimal) solution may be available for large data sets:
+
+ "[These] methods proceed by choosing a single site, ideally with a maximum
+
+ score, at each step. Once a step has been taken, the site is fixed, and only the
+ distribution of the remaining ...complement is considered at the subsequent
+ step. However, a more optimal strategy for obtaining higher average diversity
+ scores per site is possible if multiple-site choices are considered. At the limit
+ this involves selection in one step of a set that contains the entire complement
+
+ in the smallest possible number of sites. Such multiple site-sets are much more
+
+ difficult to calculate (indeed, exact methods may not be available for large data
+
+ matrices, this task being a variant of the 'traveling salesman' problem).
+
+ What they should have said that the problem was NP-hard with some large data sets
+ possibly being computationally intractable by exact methods.'7 More importantly, in
+ the passage quoted in Sect. 4, Vane-Wright et al. were not thinking of the greedy
+ algorithm when they defined complementarity: they were concerned with including
+
+ both endemic species and new species, and not just the latter (as the greedy algorithm
+
+ required). What they described had the same effect as a use of the greedy algorithm
+
+ but that was not the expressed intent.
+
+ Exact algorithms (those guaranteed to produce optimal solutions) had already been
+ brought into the discussion at CSIRO by Cocks and Baird (1989) who noted that the
+ problem could be formulated and solved as a mathematical programming problem.
+
+ They first showed that a relatively simple linear programming problem was relevant to
+ reserve design. Let V be the aggregate value of a reserve system; V was then the objec
+ tive function to be maximized. Let the individual sites (areas) that could be included
+ in reserves be indexed by j e {1,2,..., J}. Let R(j) be the reservation value of the
+ y th site, and let x(j) be the fraction of it which would be included in the reserve sys
+ tem. Then, J = l R(j)x(j)- Let the attributes that were to be represented in the
+ reserve system be indexed by j e {1,2,...,/}, and let b(i) be a level for this attribute
+ that must not be exceeded. Let the contribution of the y th site to the conservation of
+
+ the (-attribute be a{i, j). Then the reserve selection problem becomes:
+
+ 16 This was first pointed out by Underhill (1994) which will be discussed further later in this section.
+
+ 17 The allusion to the traveling salesman problem was also misleading; the optimization problem was the
+ set cover problem—see below, in the text. For a discussion of complexity concepts such as NP-hardness
+ tailored to this context, see Sarkar et al. (2006).
+
+ 0} Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:09:10 UTC
+All use subject to https://about.jstor.org/terms
+
+ 416 S. Sarkar
+
+ Maximize J = ^ R(j)x(j)
+
+ J
+
+ 7=1
+
+ subject toX«('. ■/')■*(•/') — &0') with (jc(;) > 0).18
+
+ J
+
+ 7=1
+
+ Cocks and Baird noted, this problem was easy to solve because the x(j) could
+ take continuous values between 0 and 1 and was not restricted to either 0 (the site
+
+ was excluded) or 1 (the site is included). This made it a linear programming problem
+
+ rather than an integer programming problem and Karmakar (1984) had already shown
+
+ that the former belonged in P.19
+
+ Once jc(i') was restricted to integer values, the were faced with what they called an
+ "integer goal programming (IGP) formulation (p. 117)" and what was usually called
+
+ an integer programming problem (Underhill 1994). They provided a complex formula
+
+ tion of the problem to ensure flexibility so that the objective function could incorporate
+
+ a wide variety of natural values relevant to conservation. All that was required was
+ that some quantitative function (such as J) could be devised which would measure
+
+ all the natural values that were deemed worthy of protection. This formulation will
+
+ not be reconstructed here because they did not provide an explicit objective function
+
+ for the reserve selection problem which is the one they solved for the same data set
+ used by Margules and Nicholls (1987, Sect. 3.3). Let x(j) be restricted to 0 or 1 as
+ indicated earlier, with j e 1,2,...,/*, where J* sites were selected. Let p(i, j) be
+ the probability of the presence of the ith community in the jth site. Cocks and Baird
+ now conceptualized the problem to be one of minimizing the number of sites subject
+ to the constraint.
+
+ Vi, ^ 1 p(i, j) + 0(1 - p(i, j)) > 2.
+
+ J"
+
+ 7 = 1
+
+ In this somewhat unnecessarily elaborate formulation, the values for the x(j) have
+
+ been filled in and the required level of expected representation has been set to 2. Cocks
+
+ and Baird observed that commercial software packages encoding exact algorithms for
+
+ integer programming problems were available. When they used one of these packages
+
+ to solve Margules and Nicholls' original problem, they found 11 sites to satisfy the
+ constraints; recall that Margules and Nicholls had found 12 (Sect. 3.3). The move to
+
+ exact algorithms had not led to any spectacular improvement of optimality. But what
+
+ Cocks and Baird were more interested in was the flexibility of their framework to
+
+ incorporate all natural values, not only the representation of biological features.
+
+ 18 If, as was true for all cases discussed in Sect. 3, the level is a minimum to be achieved, the inequality
+ in the constraint would just have to be reversed. The formula given above corrects an error on Cocks and
+ Baird (p. 116) where the summation in the constraint relation was incorrectly taken to be over i.
+
+ " Roughly, this means that, as the size of the problem grows, the time taken to solve the problem (by an
+ exact algorithm) would only grow as a polynomial function of the size.
+
+ ^ Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:09:10 UTC
+All use subject to https://about.jstor.org/terms
+
+ Complementarity and the selection of nature reserves 417
+
+ Four years later, Hugh Possingham and three collaborators, also in Australia (at
+ the University of Adelaide) provided the standard integer programming formulation
+ of the reserve selection problem (Possingham et al. 1983). Let i e 1,2,..., m be an
+ index running over sites and j e 1, 2,..., n be the index running over species. Two
+ control variables were introduced. Let:
+
+ a,-;
+
+ 1 if species j is present at site i
+ and
+ 0 otherwise
+
+ 1 if site i is included in the reserve network
+
+ v -
+
+ 0 otherwise
+
+ Then the "minimum set problem (p. 538)" becomes:
+
+ Minimize ^ x/
+
+ i=i
+
+ ,. z anxi > 1
+
+ subject to ,t~j
+ Xi € 0, 1
+
+ j = 1,2,... ,n.
+
+ Possingham and his collaborators showed that the use of complementarity alone or
+ of rarity followed by complementarity did not necessarily lead to optimal solutions
+ even with small data sets. However, instead of urging the use of exact algorithms,
+ they explored using heuristic rules repeatedly implicitly acknowledging the power of
+
+ metaheuristic algorithms (Sect. 6).
+
+ However, strong criticism of the use of heuristic algorithms came from Underhill
+
+ (1994) of the University of Cape Town who noted that complementarity, interpreted
+
+ as an algorithm was what computer scientists called a greedy algorithm. He, too, pro
+ duced a simple example in which the use of complementarity did not lead to the optimal
+ solution and urged the use of exact algorithms (more specifically, the "branch-and
+ bound" algorithm) but, because he did not analyze a single data set with field (rather
+ than artificial) data, there was no progress on the question whether exact algorithms
+ would prove tractable in practice. The tone of the paper was hostile, especially to
+ Vane-Wright et al.'s (1991) elevation of complementarity to a principle. More valu
+ ably, Underhill urged a different reserve selection problem to be solved: "maximize
+
+ the number of species that can be conserved within a fixed financial budget or total area
+
+ (p. 86)." The importance of this problem—what should be preserved in the presence
+
+ of ubiquitous budget constraints—would not be recognized in the period before 2000.
+
+ Underhill also called for conservation biologists to make more use of techniques devel
+
+ oped by decision theorists, in particular, multi-criteria analysis. Once again, this idea
+
+ was not embraced at the time. Underhill had little influence, probably partly because
+
+ of the hostile tone of his remarks, but more likely because he did not analyze a single
+ field-based data set.
+
+ UnderhilFs intervention provoked a response from Pressey, Possingham, and Mar
+
+ gules whose data showed that the sub-optimality of a variety of heuristic procedures
+
+ was minimal while exact algorithms became intractable quite easily (Pressey et al.
+
+ •£) Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:09:10 UTC
+All use subject to https://about.jstor.org/terms
+
+ 418 S. Sarkar
+
+ 1996). Several other studies from the same period produced similar results though
+ the extent of the intractability of exact algorithms remained inadequately delineated
+ (Csuti et al. 1997; Pressey et al. 1997). There was no resolution of the dispute that
+ satisfied both sides though a consensus set in that, given the complexities of reser
+ vation decisions in the field, the apparently slight loss of optimality by the use of
+ fast heuristic algorithms was more than compensated by the flexibility of creating
+ and exploring many scenarios. Moreover, the complexities of the factors influencing
+ "real-world" implementation of the minimum sets produced by the algorithms made
+
+ worries about limited sub-optimality seem baroque (Pressey 1998). Some of these new
+
+ studies came from the United States, marking the maturation of personal and collab
+ orative contacts that would eventually lead to a consensus framework for systematic
+ conservation planning (Sarkar 2002).
+
+ Probably the chief factor in exact algorithms not making any headway during this
+
+ period is the failure of their advocates to analyze sufficiently many "realistically com
+
+ plex" data sets to convince critics of their tractability. In retrospect, what is also ironic
+
+ is that the proponents of the exact algorithms do not seem to have been aware that
+ the reserve selection algorithm was one of the most-studied mathematical program
+
+ ming problems and was dubbed the "set covering problem" as early as 1971 (Toregas
+ et al. 1971). Consequently, it was known exactly how sub-optimal the use of a greedy
+ algorithm could be (Chvatal 1979): if m is the maximum richness of one of the sites
+
+ in the data set, then the size of the solution produced by the greedy algorithm could
+ potentially be more than that of the optimal solution by a multiplicative factor of
+
+ H(m) = XH=i J- By the time m reaches 5, that is, some unit could have as many
+ as 5 species (or whatever biological feature is of interest), the solution produced by
+ complementarity could potentially have twice as many units as the optimal solution.
+ This is speculative but, had the proponents of the exact algorithms been more cogni
+
+ zant of ongoing research in operations research, some of the differences between them
+
+ and proponents of heuristic algorithms may have been clarified and, perhaps, partially
+ resolved.
+
+ 6 Denouement
+
+ The next decade saw the development of a wide array of software tools implementing
+
+ algorithms for reserve selection. There was also a widespread belief that the spatial
+ configuration of reserves should be incorporated into their selection, as Nicholls and
+
+ Margules (1993) had already begun to do—this point will merit further discussion in
+ Sect. 7.2. The most important conceptual innovation was the introduction of meta
+ heuristic algorithms which were designed to achieve a higher degree of optimality
+
+ than heuristic algorithms but without sacrificing speed (as in the case of exact algo
+ rithms). Metaheuristic algorithms repeatedly applied a one-step heuristic rule (such
+
+ as the greedy algorithm) to improve performance until an independent exit condition
+ was satisfied.
+
+ In 1996, Ian Ball at the University of Adelaide produced a program called SPEX
+ AN (which was supposed to stand for "spatially explicit annealing") as part of a
+
+ <£) Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:09:10 UTC
+All use subject to https://about.jstor.org/terms
+
+ Complementarity and the selection of nature reserves 419
+
+ doctoral dissertation (Ball 1996).20 It used simulated annealing to solve the repre
+ sentation problem while optimizing for compact shape. This was the first published
+ use of a metaheuristic algorithm for the reserve selection problem.21 The significance
+ of simulated annealing was that it allowed for much greater control over the spatial
+
+ configuration of reserves than what heuristic algorithms, such as those of Nicholls and
+
+ Margules (1993), could achieve. It also remained tractable when faced with the largest
+ data sets analyzed in the 1990s. Starting in 1997, another metaheuristic algorithm,
+ tabu search, began to be used (Okin 1997) though, initially, without considerations of
+
+ spatial design.22
+
+ Around the same time or shortly afterward, a variety of software tools for the reserve
+
+ selection problem began to be developed which continued to use heuristic algorithms.
+ These included WorldMap (which had been developed by 1991) (Vane-Wright et al.
+ 1991), C-Plan (Pressey 1998), Target(which included cost trade-offs in a new definition
+
+ of complementarity) (Walker and Faith 1998), ResNet (Kelley et al. 2002; Sarkar et al.
+ 2002) (based on the original MNP algorithm), and Zonation (Moilanen et al. 2005).
+ Exact algorithms continued to have advocates (Rodrigues et al. 2000; Revelle et al.
+ 2002; Rodrigues and Gaston 2002) but it became clear that complex spatial problems
+ with large data sets could not be solved in reasonable time using exact algorithms.23
+
+ To the extent that issues of spatial configuration mattered, for the decade after 1995,
+
+ metaheuristic algorithms had come to stay. Shape was not the only criterion used in
+
+ algorithm design; connectivity and dispersion, alignment (with habitat types or even
+
+ with political units), and a variety of other spatial criteria began to be explored (Sarkar
+ et al. 2006).
+
+ 7 Discussion and conclusions
+
+ How important was the development of these algorithms? As far as practical conserva
+ tion decisions are concerned, at least up to 2000, they were of little significance (Justus
+
+ and Sarkar 2002). The only result of the algorithms that was fully implemented by on
+ ground protection of areas was that produced by Kirkpatrick (1983) in Tasmania
+ with the very first use of such an algorithm as discussed earlier in this paper
+ (Sect. 3.1). Moreover, successful implementation was a result of the political con
+ text of Tasmania—and Kirkpatrick's personal and institutional relations—rather than
+ any recognition of the innovativeness of the method (Pressey 2002). There were
+ some initial partial implementation in New South Wales in the mid-1990s but these
+
+ efforts were subsequently abandoned (Finkel 1998a,b; Justus and Sarkar 2002). That
+
+ SPEXAN eventually morphed into MARXAN, a widely used software package for the selection of
+
+ reserve networks—see Ball et al. (2009) for this history.
+
+ 21 Even though the term "metaheuristic" was introduced as early as 1986 in the context of tabu search
+ (Glover 1986), and simulated annealing is a metaheuristic algorithm, it was not used in this context until
+ 2006 (Sarkar et al. 2006).
+
+ 22 For recent extensions, see Ciarleglio (2008); Ciarleglio et al. (2009).
+
+ For a historically sophisticated scientific review of this problem, which is only slightly more optimistic
+
+ about exact algorithms, see Williams et al. (2005).
+
+ ^ Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:09:10 UTC
+All use subject to https://about.jstor.org/terms
+
+ 420 S. Sarkar
+
+ situation began to change somewhat after 2000 but that story is beyond the scope of
+ this paper (Margules and Sarkar 2007).
+
+ However, what was really important about the algorithmic turn is that it led to con
+
+ servation biology embracing a distinctive set of formal theories and technical practices
+
+ that were not in vogue in the ecology of that period. By the time Cocks and Baird (1989)
+
+ introduced mathematical programming into the discussion, algorithms had become a
+ focus of research, a development then unknown to ecology. This focus was made pos
+ sible by Margules, et al.'s (1988) clear distinction between the "representativeness"
+ problem and the "persistence" problem. The first algorithms, before spatial configu
+ ration became an issue, were only supposed to solve the former problem. The earlier
+
+ attempts to use island biogeography to design reserves (recall the discussion of Sect.
+
+ 2.1) were restricted to the latter. 24 The critical point is that the representation problem
+
+ did not require biological solution: it was a formal problem to be solved using math
+
+ ematical tools (albeit those from the type of applied mathematics typically studied in
+
+ computer science and operations research).
+
+ However, it was not true that ecology had no theoretical tool with which repre
+
+ sentativeness could be analyzed. As Magurran (2003) has claimed, complementarity
+ was a measure of what ecologists had long explored as -diversity. Yet, /3-diversity
+ finds no mention in the developments discussed in this paper (though Rebelo and
+ Siegfried (1990, p. 15) and Vane-Wright et al. (1991, p. 237) do mention it)—this
+ issue is discussed in Sect. 7.1. What is more interesting is that the move to incorporate
+
+ considerations of spatial configuration at least seems as if it is a return to the geometric
+ rules of island biogeography theory. This issue is briefly discussed in Sect. 7.2 though
+
+ a full discussion is beyond the scope of this paper because most of the relevant work
+ comes from a later period.
+
+ 7.1 Why Not /J-Diversity?
+
+ As early as 1960, Whittaker (1960) had distinguished between three concepts of diver
+ sity: a-diversity, /3-diversity, and y -diversity. A region was supposed to be divided
+
+ 24 Margules et al. (1988, p. 64) explicitly note this difference in the motivations of the work in conservation
+ biology in the late 1980s and the earlier work of the ecologists. A strangely obtuse misinterpretation of
+ these developments has recently been provided by Linquist (2008) who criticizes these algorithms (and
+ Margules and his collaborators explicitly) for not incorporating persistence into the original reserve selec
+ tion algorithms (and, more specifically, the MNP algorithm). The criticism is bizarre: "the persistence of
+
+ biological diversity in perpetuity (Margules et al. 1988, p. 64)" was supposed to be ensured through proper
+ management of reserves after the algorithms were used to ensure that the set of reserves represented the
+ biological features adequately; adequate representation was a "prerequisite" for measures to ensure persis
+ tence (p. 64). Rebello and Siegfried (1990, p. 24) also make this point explicitly. Linquist also seems to
+ be entirely oblivious of the fact that what was guiding the design of these algorithms was a concern for
+ cost, as Kirkpatrick (1983) explicitly noted, and what Pressey and others (e.g., Pressey and Nicholls 1989b;
+ Vane-Wright et al. 1991; Rebelo and Siegfried 1992) called "efficiency" starting in the late 1980s. Island
+
+ biogeography theory and reserve selection algorithms were intended by their proponents to solve different
+ problems. Diamond explicitly noted that his rules would sometimes have to be violated to sample (that is,
+ represent) all species adequately, for instance, on a heterogeneous landscape (Diamond 1975, p. 144). For
+ a recent reappraisal of the relations between the two research programs, see Williams et al. (2005) which
+ Linquist ignores.
+
+ £} Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:09:10 UTC
+All use subject to https://about.jstor.org/terms
+
+ Complementarity and the selection of nature reserves 421
+
+ into a set of units (areas), a-diversity was supposed to measure the diversity within a
+ unit. Over the years, a large variety of measures were proposed for it; most of these
+ focused on species richness and evenness.25 In the 1960s and 1970s, a central claim of
+
+ ecology was that higher a-diversity led to greater stability of ecosystems. By the 1980s
+ attempts to establish or disprove this claim had reached an empirical and theoretical
+ impasse (from which it is yet to recover).
+
+ In contrast, ^-diversity was supposed to represent the diversity between units—
+ a measure of the extent to which they were different, y -diversity was supposed to
+
+ measure the total diversity of a region. The former had a clear connection to comple
+
+ mentarity: a standard measure of ^-diversity was the ratio of shared to the total species
+
+ in two units. If a set of already selected areas is taken as one unit, the new unit which
+
+ would maximize this measure of /i-diversity would be the one with the highest com
+
+ plementarity (as calculated, for instance, in the MNP algorithm). Yet, though Rebelo
+ and Siegfried (1990) and Vane-Wright et al. (1991) mentioned ^-diversity in passing,
+ and explicitly used complementarity, they did not make that connection. Neither did
+
+ anyone else throughout the 1990s.
+
+ Sarkar (2007a) has speculated that the general impasse in the diversity-stability
+ debate led to conservation biologists ignoring all diversity measures from ecology.
+ However, there could also have been two conceptual reasons in play: (i) ^-diversity
+ was usually not conceptualized as a dynamic measure to be updated iteratively. As a
+ result, those who were developing complementarity-based algorithms did not think
+
+ of complementarity as /^-diversity, (ii) Complementarity was typically computed for
+
+ a large number of small units (individual cells), and relativized to one large unit (the
+ set of already selected cells). In contrast, /(-diversity was thought of as more "sym
+ metric" in the sense of quantifying a relation (of dissimilarity) between two similar
+
+ units, usually with the same area. Consequently, it did not seem obvious to anyone to
+ interpret complementarity as -diversity.
+
+ 7.2 Spatial configuration
+
+ Nicholls and Margules (1993) introduced closeness as a criterion for the selection of
+ reserves into a network. The metaheuristic algorithms of the 1990s used shape as a
+ criterion (Sect. 6); more recent such algorithms have introduced connectivity (and a
+ variety of other spatial criteria) (Ciarleglio et al. 2009). Was this a return to the geo
+
+ metric rules produced by Diamond and others in the 1970s (Sect. 2.1) which Margules
+
+ and those who followed the algorithmic tradition had once vehemently rejected?
+
+ The answer to this question is not straightforward for the period covered by this
+ paper (and has become even less straightforward since).26 In one sense, the answer
+
+ is obviously "yes:" spatial criteria were being invoked to incorporate concerns about
+ persistence as was the case in the use of island biogeography theory in the 1970s.
+
+ Moreover, this was typically done with no more concern for empirical validation than
+
+ with island biogeography theory in the 1970s.
+
+ 25 For a history of these developments, see Sarkar (2007a).
+
+ 26 For a recent scientific review, which has been cited earlier several times, see Williams et al. (2005).
+
+ Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:09:10 UTC
+All use subject to https://about.jstor.org/terms
+
+ 422 S. Sarkar
+
+ But, in a more interesting sense, the answer is "no." Nicholls and Margules (1993)
+
+ had clearly recognized that their spatial closeness criterion was "optional." All algo
+ rithms since (including those based on simulated annealing and other metaheuristics)
+ have similarly left issues of spatial configuration to be decided by contextual consid
+ erations. There was no claim of universal principles of reserve design, nothing along
+ the lines of Diamond's (1975) Rules A-F (Fig. 1). The focus was on flexibility in the
+
+ face of uncertainty. But the irony remains that, on the critical issue of persistence, the
+
+ algorithms made no progress from the 1970s.
+
+ 7.3 Concluding remarks
+
+ What is perhaps more important is that conservation biologists taking the algorith
+ mic turn were motivated by three assumptions. The first was explicitly recognized
+ as uncontroversial from the moment it was introduced—by Kirkpatrick (1983): that
+ richness (or any other static measure) would not lead to "efficient" reserve network
+ design. The influence of this recognition on the development of the field would be
+
+ difficult to over-estimate. Even when optimal and metaheuristic algorithms began to
+ compete with the complementarity-based heuristic algorithms of Sect. 3, there was no
+ return to static measures.27
+
+ The second was the realization that conservation decisions must be made immedi
+
+ ately with limited data. In the words of Margules and Nicholls (1987, p. 89):
+
+ "identifying suitable reserves ...should be based on information from experi
+ ments and correlational analyses but such information is rarely available, espe
+ cially in the detail desired. If the problem is ignored until sufficient experimental
+ results are available, conservation options will be severely reduced. The urgency
+ for decisions makes it necessary to generate some minimum set of ...options."
+
+ Rebelo and Siegfried were equally explicit, claiming that their "approach [was] more
+ than justified by the paucity of information ...and an urgent need for a strategy for
+
+ maximizing the protection of Fynbos floral diversity (Rebelo and Siegfried 1990, p.
+ 16)." This realization led to many critically important decisions, especially that of
+ basing conservation decisions on presumed (and rarely proven) surrogates for biodi
+ versity (Sarkar and Margules 2002). This was open—and subjected—to criticism on
+
+ the ground that Margules et al. (1982) used to criticize the use of island biogeography
+
+ theory, that rules were being used without regard to their empirical status. Eventually,
+ methods were developed to test the adequacy of surrogates.28 In the context of this
+
+ paper, the assumption of urgency led to the demand that reserve selection methods be
+
+ fast and flexible.29 Flexibility required speed so that a variety of alternatives could be
+
+ rapidly explored. This, in turn, led to computer-aided design and thus, inexorably, to
+ algorithms.
+
+ 27 Optimal and metaheuristic algorithms necessarily work by updating some function, typically an objective
+ function. These technical issues are beyond the scope of this paper.
+
+ This work came mainly after 2000 and is reviewed by Margules and Sarkar (2007).
+
+ 29 Recall the emphasis that Cocks and Baird (1989) put on flexibility (Sect. 5).
+
+ vi Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:09:10 UTC
+All use subject to https://about.jstor.org/terms
+
+ Complementarity and the selection of nature reserves 423
+
+ The third and, in retrospect, most important assumption was that cost was impor
+ tant and policies should be assayed for their economy. Richness was a poor criterion
+ for selecting reserves because there was a limit on how many reserves a region could
+
+ afford. The reserve selection problem, from the very beginning (Kirkpatrick 1983),
+ was conceptualized as a constrained optimization problem with cost being a criti
+
+ cally important constraint. Efforts to incorporate costs into reserve selection protocols
+
+ using standard economic measures were already under way by the mid-1990s (Faith
+
+ 1995). Multi-criteria analyses based on methods from the decision sciences eventually
+
+ became routine (and were reviewed by Moffett and Sarkar 2006).
+
+ Ultimately, the use of algorithmic methods came to be definitive of what Mar
+ gules and Pressey (2000) dubbed "systematic conservation planning" in 2000. It was
+ a strategy to prioritize areas for conservation, designate "conservation areas"—which
+
+ replaced "reserves"30—and then focus on questions of persistence. Systematic con
+ servation planning eventually came to be widely embraced, particularly by Western
+ based large non-governmental organizations with financial resources that dominated
+ the economies of many of the regions in which they chose to work (Dowie 2009).
+ What—and how much—these methods contribute to the persistence of the natural
+ features of the world remains to be seen.
+
+ Acknowledgments This study was supported by the United States NSF Grant No. SES-0645884, 2007
+ 2010. Several students have contributed to the development of these ideas: thanks are particularly due (in
+ alphabetical order) to Anshu Aggarwal, Michael Ciarleglio, Trevon Fuller, Justin Garson, Alex Moffett,
+ and Chris Pappas. For collaboration and discussions, now spanning more than a decade, thanks are due to
+ Chris Margules. For discussions (in 1999) on the development of the early algorithms, thanks are due to
+ Nick Nicholls.
+
+ References
+
+ University Press.
+
+ Ackery, P.R., and R.I. Vane-Wright. 1984. Milkweed butterflies: Their cladistics and biology. Ithaca: Cornell
+
+ Ball, I.R. 1996. Mathematical applications for conservation ecology: The dynamics of tree hollows and the
+
+ design of nature reserves. PhD dissertation, University of Adelaide
+
+ Bail, I.R., H.P. Possingham, and M.E. Watts. 2009. Marxan and relatives: Software for spatial conservation
+ prioritization. In Spatial Conservation prioritization: Quantitative methods and computational tools, ed.
+ A. Moilanen, K.A. Wilson, and H.P. Possingham, 185-195. Oxford: Oxford University Press.
+
+ Bradstock, R., and J.C. Noble. 1989. Mallee ecosystems and their management. Melbourne: Commonwealth
+
+ Scientific and Industrial Research Organisation.
+
+ Brockington, D., R. Duffy, and J. Igoe. 2008. Nature unbound: Conservation, capitalism, and the future of
+
+ Chvatal, V. 1979. A greedy heuristic for the set-covering problem. Mathematics of Operations Research 4:
+
+ protected areas. London: Earthscan.
+
+ 233-235.
+
+ Ciarleglio, M. 2008. Modular abstract self-learning tabu search (MASTS): Metaheuristic search theory
+ and practice. PhD dissertation, University of Texas at Austin, Graduate Program in Computational and
+ Applied Mathematics
+
+ Ciarleglio M., J.W. Barnes, and S. Sarkar. 2009. ConsNet: New software for the selection of conservation
+
+ area networks with spatial and multi-criteria analyses. Ecography 32: 205-209.
+
+ Cocks, K.D., and I.A. Baird. 1989. Using mathematical programming to address the multiple reserve
+ selection problem: An example from the Eyre peninsula, South Australia. Biological Conservation 49:
+ 113-130
+
+ See Sarkar (2003) for the political and ethical considerations behind this move.
+
+ ^ Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:09:10 UTC
+All use subject to https://about.jstor.org/terms
+
+ Csuti, B., S. Polasky, P.H. Williams, R.L. Pressey, J.D. Camm, M. Kershaw, A.R. Kiester, B. Downs, R.
+
+ Hamilton, M. Huso, and K. Sahr. 1997. A comparison of reserve selection algorithms using data on
+ terrestrial vertebrates of Oregon. Biological Conservation 80: 83-97.
+
+ Diamond, J.M. 1975. The island dilemma: Lessons of modern biogeographic studies for the design of nature
+
+ reserves. Biological Conservation 7: 129-146.
+
+ Diamond, J.M. 1986. The design of a nature reserve system for Indonesian New Guinea. In Conservation
+
+ biology: The science of scarcity and diversity, ed. M.E. Soule, 485-503. Sunderland: Sinauer.
+
+ Diamond, J.M., and R.M. May. 1976. Island biogeography and the design of nature reserves. In Theoretical
+
+ ecology: Principles arid applications, ed. R.M. May, 163-186. Oxford: Blackwell.
+
+ Dowie, M. 2009. Conservation refugees: The hundred-year conflict between global conservation and native
+
+ peoples. Cambridge: MIT Press.
+
+ Faith, D.P. 1995. Biodiversity and regional sustainability analysis. Tech. Rep. Lyneham: Commonwealth
+
+ Scientific and Industrial Research Organisation.
+
+ Finkel, E. 1998a. Forest pact bypasses computer model. Science 282: 1968-1969.
+ Finkel, E. 1998b. Software helps Australia manage forest debate. Science 281: 1789-1791.
+ Gilbert, F.S. 1980. The equilibrium theory of island biogeography: Fact or fiction? Journal of Biogeography
+
+ 424 S. Sarkar
+
+ Glover, F. 1986. Future paths for integer programming and links to Artificial Intelligence. Computers and
+
+ 7:209-235.
+
+ Operations Research 13(5): 533-549.
+
+ Higgs, A.J. 1981. Island biogeography and nature reserve design. Journal of Biogeography 8: 117-124.
+ International Union for the Conservation of Nature (IUCN). 1980. World conservation strategy.
+ Justus, J., S. Sarkar. 2002. The principle of complementarity in the design of reserve networks to conserve
+
+ biodiversity: A preliminary history. Journal of Biosciences 27(S2): 421 —435.
+
+ Karmakar, N. 1984. A new polynomial time algorithm for linear programming. Combinatorica 4: 375-395.
+ Kelley, C., J. Garson, A. Aggarwal, and S. Sarkar. 2002. Place prioritization for biodiversity reserve network
+
+ design: A comparison of the SITES and ResNet software packages for coverage and efficiency. Diversity
+ and Distributions 8: 297-306.
+
+ Kingsland, S.E. 2002. Designing nature reserves: Adapting ecology to real-world problems. Endeavour 26:
+
+ 9-14.
+
+ Kirkpatrick, J.B. 1983. An iterative method for establishing priorities for the selection of nature reserves:
+
+ An example from Tasmania. Biological Conservation 25: 127-134.
+
+ Kirkpatrick, J.B. 1986. Conservation of plant species, alliances abd associations of the treeless high country
+
+ of Tasmania, Australia. Biological Conservation 25: 43-57.
+
+ Kirkpatrick, J.B., and C.E. Harwood. 1983. Conservation of Tasmanian macrophytic wetland vegetation.
+
+ Papers and Proceedings of the Royal Society of Tasmania 117: 5-20.
+
+ Kirkpatrick, J.B., M.J. Brown, and A. Moscal. 1980. Threatened plants of the Tasmanian Central East
+
+ Coast. Hobart: Tasmanian Conservation Trust.
+
+ Kirkpatrick, J.B., L. Gilfedder, F.D. Duncan, and S. Harris. 1991. Reservation status and priorities for Tas
+ manian plants. 1. Angiospermae (Dicotyldonae). In Aspects of Tasmanian botany, ed. M.R. Banks, S.J.
+ Smith, A.E. Orchard, and G. Kantvilas, 163-172. Hobart: Royal Society of Tasmania.
+
+ Krebs, C.J. 1985. Ecology: The experimental analysis of distribution and abundance, 3rd edn. New York:
+
+ Linquist, S. 2008. But is it progress? on the alleged advances of conservation biology over ecology. Biology
+
+ MacArthur, R.H., and E.O. Wilson. 1967. The theory of island biogeography. Princeton: Princeton Univer
+
+ Magurran, A.E. 2003. Measuring biological diversity. Oxford: Blackwell.
+ Margules, C.R. 1989a. Introduction to some Australian developments in conservation evaluation. Biological
+
+ Harper & Row.
+
+ and Philosophy 23: 529-544
+
+ sity Press.
+
+ Conservation 50: 1-11.
+
+ Margules, C.R. 1989b. Selecting nature reserves in the South Australian mallee. In Mallee ecosystems and
+
+ their management, ed. R. Bradstock, J.C. Noble, 398^105. Melbourne: Commonwealth Scientific and
+ Industrial Research Organisation.
+
+ Margules, C.R., and A.O. Nicholls. 1987. Assessing the conservation value of remnant habitat 'islands':
+ Mallee patches on the Western Eyre peninsula, South Australia. In Nature conservation: The role of
+ remnants of native vegetation, ed. D.A. Saunders, G.W. Arnold, A.A. Burbridge, and A.J.M. Hopkins,
+ 89-102. Chipping Norton: Surrey Beatty and Sons.
+
+ Margules, C.R., and R.L. Pressey. 2000. Systematic conservation planning. Nature 405: 245-253.
+
+ Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:09:10 UTC
+All use subject to https://about.jstor.org/terms
+
+ Margules, C.R., and S. Sarkar. 2007. Systematic Conservation Planning. Cambridge: Cambridge University
+
+ Complementarity and the selection of nature reserves 425
+
+ Margules, C.R., M.B. Usher. 1981. Criteria used in assessing wildlife conservation potential: A review.
+
+ Press.
+
+ Biological Conservation 21: 79-109.
+
+ Margules, C.R., A.J. Higgs, and R.W. Rafe. 1982. Modern biogeographic thoery: Are there any lessons for
+
+ reserve design? Biological Conservation 24: 115-128.
+
+ Margules, C.R., A.O. Nicholls, and R.L. Pressey. 1988. Selecting networks of reserves to maximize bio
+
+ logical diversity. Biological Conservation 43: 63-76.
+
+ Moffett, A., S. Sarkar. 2006. Incorporating multiple criteria into the design of conservation area networks:
+
+ A minireview with recommendations. Diversity and Distributions 12: 125-137.
+
+ Moilanen, A., A.M.A. Franco, R.I. Early, R. Fox, B. Wintle, and C.D. Thomas. 2005. Prioritizing multiple
+
+ use landscapes for conservation: Methods for large multi-species planning problems. Proceedings of the
+ Royal Society (London) B 272: 1885-1891
+
+ Myers, N. 1988. Threatened biotas: "Hot spots" in tropical forests. Environmentalist 8: 187-208
+ Nicholls, A.O., C.R. Margules. 1993. An updated reserve selection algorithm. Biological Conservation 64:
+
+ Okin, W.J. 1997. The biodiversity management area selection model: Constructing a solution approach.
+
+ Master's thesis, Univesity of California, Santa Barbara
+
+ Possingham, H.P., J. Day, M. Goldfinch, and F. Salzborn. 1983. The mathematics of designing a network of
+ protected areas for conservation. In Decision sciences: Tools for today, ed. D. Sutton, E. Cousins, and
+ C. Pierce, 536-545. Proceedings of the 12th Australian Operations Research Conference, Australian
+ Society for Operations Research, Adelaide, Australia
+
+ Pressey, R.L. 1990. Reserve selection in New South Wales: Where to from here? Australian Zoologist 26:
+
+ 165-169
+
+ 70-75.
+
+ Pressey, R.L. 1994. Ad Hoc reservations: Forward or backward steps in developing representative reserve
+
+ systems. Conservation Biology 8: 662-668.
+
+ Pressey, R.L. 1998. Algorithms, politics, and timber: An example of the role of science in a public, polit
+ ical negotiation process over new conservation areas in production forests. In Ecology for everyone:
+ Communicating ecology to scientists, the public and the politicians, ed. R. Wills and R. Hobbs, 73-87.
+
+ Sydney: Surrey Beatty.
+
+ Pressey, R.L. 2002. The first reserve selection algorithm: A retrospective on Jamie Kirkpatrick's 1983 paper.
+
+ Progress in Physical Geography 26: 434-441.
+
+ Pressey, R.L., and A.O. Nicholls. 1989a. Application of numerical algorithm to the selection of reserves in
+
+ semi-arid New South Wales. Biological Conservation 50: 263-278.
+
+ Pressey, R.L., and A.O. Nicholls. 1989b. Efficiency in conservation evaluation: Scoring versus iterative
+
+ approaches. Biological Conservation 50: 199—218.
+
+ Pressey, R.L., and S.L. Tully. 1994. The cost of ad hoc reservation: A case study in New South Wales.
+
+ Australian Journal of Ecology 19: 375-384.
+
+ Pressey, R.L., C.J. Humphries, C.R. Margules, R.I. Vane-Wright, and P.H. Williams. 1993. Beyond oppor
+ tunism: Key principles for systematic reserve selection. Trends in Ecology and Evolution 8: 124-128.
+ Pressey, R.L., H.P. Possingham, and C.R. Margules. 1996. Optimality in reserve selection algorithms: When
+
+ does it matter and how much? Biological Conservation 76: 259-267.
+
+ Pressey, R.L., H.P. Possingham, and J.R. Day. 1997. Effectiveness of alternative heuristic algorithms for
+ identifying indicative minimum requirements for conseravtion reserves. Biological Conservation 80:
+ 207-219.
+
+ Ratcliffe, D. 1971. Criteria for the selection of nature reserves. Advances in Science 27: 294-296.
+
+ Rebelo, A.G., W.R. Siegfried. 1990. Protection of Fynbos vegetation: Ideal and real-world options. Biolog
+
+ ical Conservation 54: 15-31.
+
+ Rebelo, A.G., W.R. Siegfried. 1992. Where should nature reserves be located in the cape floristic region,
+
+ south africa? Conservation Biology 6: 243-252.
+
+ Revelle, C.S., J.C. Williams, and J.J. Boland. 2002. Counterpart models in facility location science and
+
+ reserve selection science. Environmental Modeling and Assessment 7: 71-80.
+
+ Rodrigues, A.S., K.J. Gaston. 2002. Optimisation in reserve selection procedures—Why not? Biological
+
+ Conservation 107: 123-129.
+
+ Rodrigues, A.S., J.O. Cerdeira, and K.J. Gaston. 2000. Flexibility, efficiency, and accountability: Adapting
+
+ reserve selection algorithms to more complex conservation problems. Ecography 23: 565-574.
+
+ Sarkar, S. 1998. Restoring wilderness or reclaiming forests? Terra Nova 3(3): 35-52.
+
+ <£) Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:09:10 UTC
+All use subject to https://about.jstor.org/terms
+
+ 426 S. Sarkar
+
+ Sarkar, S. 2002. Preface: Conservation biology: The new consensus. Journal of Biosciences 27(S2): i-iv.
+ Sarkar, S. 2003. Conservation area networks. Conservation and Society I: v-vii.
+ Sarkar, S. 2004. Conservation biology. In The Stanford encyclopedia of philosophy, ed. E.N. Zalta. Stanford:
+
+ Stanford University, http://plato.stanford.edu/archives/sum2004/entries/conservation-biology/.
+
+ Sarkar, S. 2005. Biodiversity and environmental philosophy: An introduction to the issues. Cambridge:
+
+ Cambridge University Press.
+
+ Sarkar, S. 2007a. Doubting Darwin? Creationist designs on evolution. Oxford: Blackwell Press.
+ Sarkar, S. 2007b. From ecological diversity to biodiversity. In The Cambridge companion to the philosophy
+
+ of biology, ed. D.L. Hull and M. Ruse, 388^4-09. Cambridge: Cambridge University Press.
+
+ Sarkar, S. 2007c. Haldane and the emergence of modem evolutionary theory. In Handbook of the philosophy
+
+ of biology, ed. M. Matthen and C. Stephens, 49-86. New York: Elsevier.
+
+ Sarkar, S., and C.R. Margules. 2002. Operationalizing biodiversity for conservation planning. Journal of
+
+ Biosciences 27(S2): 299-308.
+
+ Sarkar, S., A. Aggarwal, J. Garson, C.R. Margules, and J. Zeidler. 2002. Place prioritization for biodiveristy
+
+ content. Journal of Biosciences 27(S2): 339-346.
+
+ Sarkar, S., R.L. Pressey, D.P. Faith, C.R. Margules, T. Fuller, D.M. Stoms, A. Moffett, K. Wilson, K.J. Wil
+
+ liams, P.H. Williams, and S. Andelman. 2006. Biodiversity conservation planning tools: Present status
+ and challenges for the future. Annual Review of Environment and Resources 31: 123-159.
+
+ Simberloff, D. 1988. The contribution of population and community biology to conservation science. Annual
+
+ Review of Ecology and Systematics 19: 473-511.
+
+ Simberloff, D„ J. Cox. 1987. Consequences and costs of conservation corridors. Conservation Biology 1:
+
+ Soule, M.E. 1985. What is conservation biology? Bioscience 35: 727-734.
+ Soule, M.E., and D. Simberloff. 1986. What do genetics and ecology tell us about the design of nature
+
+ reserves? Biological Conservation 35: 19-40.
+
+ Takacs, D. 1996. The idea of biodiversity: Philosophies of paradise. Baltimore: Johns Hopkins University
+
+ Thomas, C.D., and H.C. Mallorie. 1985. Rarity, species richness and conservation: Butterflies in the Atlas
+
+ mountains of morocco. Biological Conservation 33: 95-117.
+
+ Toregas, C., R. Swain, C. ReVelle, and L. Bergman 1971. The location of emergency service facilities.
+
+ Operations Research 19: 1363-1373.
+
+ Underhill, L.G. 1994. Optimal and suboptimal reserve selection algorithms. Biological Conservation 70:
+
+ 63-71.
+
+ Press.
+
+ 85-87.
+
+ Vane-Wright, R.I. 1996. Identifying priorities for the conservation of biodiversity: Systematic biological
+ criteria within a socio-political framework. In Biodiversity: A biology of numbers and difference, ed.
+ K.J. Gaston, 309-344. Oxford: Blackwell.
+
+ Vane-Wright, R.I., C.J. Humphries, and P.H. Williams. 1991. What to protect? Systematics and the agony
+
+ Walker, P.A., and D.P. Faith. 1998. TARGET software package. Tech. Rep. Canberra: Commonwealth
+
+ of choice. Biological Conservation 55: 235-254.
+
+ Scientific and Industrial Research Organisation.
+
+ Whittaker, R.H. 1960. Vegetation of the Siskiyou Mountains, Oregon and California. Ecological Mono
+
+ graphs 30: 279-338.
+
+ Williams, J.C., C.S. ReVelle, and S.A. Levin. 2005. Spatial attributes and reserve design models: A review.
+
+ Environmental Modeling and Assessment 10: 163-181.
+
+ Wilson, E.O., and E.O. Willis. 1975. Applied biogeography. In Ecology and the evolution of communities,
+
+ ed. M.L. Cody and J.M. Diamond, 522-534. Cambridge: Harvard University Press.
+
+ Zimmerman, B.L., and R.O. Bierregaard. 1986. Relevance of the equilibrium theory of biogeography and
+
+ species-area relations to conservation with a case from Amazonia. Journal of Biogeography 13: 133-143
+
+ <£} Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:09:10 UTC
+All use subject to https://about.jstor.org/terms
+
+

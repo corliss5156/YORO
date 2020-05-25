@@ -1,0 +1,2549 @@
+ 
+
+ 
+
+ 
+
+ 
+
+Chemical kinetics and diffusion approach: the history of the Klein-Kramers equation
+Author(s): Stefano Zambelli
+Source: Archive for History of Exact Sciences, Vol. 64, No. 4 (July 2010), pp. 395-428
+Published by: Springer
+Stable URL: https://www.jstor.org/stable/41342424
+Accessed: 19-05-2020 12:38 UTC
+
+ 
+REFERENCES 
+Linked references are available on JSTOR for this article:
+https://www.jstor.org/stable/41342424?seq=1&cid=pdf-reference#references_tab_contents 
+You may need to log in to JSTOR to access the linked references.
+
+JSTOR is a not-for-profit service that helps scholars, researchers, and students discover, use, and build upon a wide
+
+range of content in a trusted digital archive. We use information technology and tools to increase productivity and
+
+facilitate new forms of scholarship. For more information about JSTOR, please contact support@jstor.org.
+
+Your use of the JSTOR archive indicates your acceptance of the Terms & Conditions of Use, available at
+
+https://about.jstor.org/terms
+
+Springer is collaborating with JSTOR to digitize, preserve and extend access to Archive for
+History of Exact Sciences
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:38:26 UTC
+All use subject to https://about.jstor.org/terms
+
+ Arch. Hist. Exact Sci. (2010) 64:395-428
+ DOI 10. 1007/s00407-010-0059-9
+
+ Chemical kinetics and diffusion approach: the history
+ of the Klein-Kramers equation
+
+ Stefano Zambelli
+
+ Received: 1 March 2010 / Published online: 20 May 2010
+
+ © Springer- Verlag 2010
+
+ Abstract In this essay, the first statistical and stochastic treatments of chemical
+
+ dynamics are analyzed and discussed, in particular the diffusive description of chem-
+ ical reactions. The first part of the paper introduces the historical and methodolog-
+ ical basis of the theories about stochastic processes and diffusion as well as their
+
+ lesser-known applications in chemical kinetics, which were advanced by Jens Anton
+ Christiansen (1888-1969). In the second, part we will focus our attention on the early
+
+ works of Oskar Benjamin Klein (1894-1977) and Hendrik Anton Kramers ( 1 894-
+
+ 1952) on electrolytes and the latter' s more mature work, which completes and gives a
+
+ firm theoretical background to Christiansen's description.
+
+ Keywords Christiansen • Kramers • Diffusion • Reaction • Kramers-Klein •
+ Stochastic
+
+ 1 Introduction
+
+ The main development of the history of chemical kinetics, as it is usually known, seems
+
+ to be nearly linear. This may be largely true but there are several notable exceptions,
+
+ including Perrin's radiation hypothesis and the diffusion approach to chemical dynam-
+ ics. Introduced in 1915 and developed until 1928, the radiation hypothesis turned out
+ to be unsuccessful, but in spite of its failure that hypothesis was fiercely debated
+
+ Communicated by Tilman Sauer.
+
+ S. Zambelli
+
+ Silcart S.r.L., via Spercenigo 5, 31030 Carbonera (TV), Italy
+
+ S. Zambelli (E3)
+ Museo di storia della fisica, via Loredan 10, 35121 Padova, Italy
+
+ e-mail : Zambelli .Stefano @ gmail .com
+
+ â Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:38:26 UTC
+All use subject to https://about.jstor.org/terms
+
+ 396 S. Zambelli
+
+ during its brief lifetime (King and Laidler 1984). The diffusion description, however,
+
+ elaborated by Christiansen around 1935 (Christiansen 1936) and fully systematised in
+
+ 1940 by Kramers (1940), was an interesting and successful method complementary to
+
+ transition state theory (TST). It received, however, little or no attention in chemistry
+
+ circles for a long time. The mechanical approach to molecular interactions and reac-
+
+ tion dynamics, in combination with the newly developed quantum theory (Polanyi and
+
+ Eyring 1931a), provided a strong foundation for the historical achievement of transi-
+ tion state theory by Henry Eyring (1901-1981) and Michael Polanyi (1891-1976) in
+
+ 1935 (Eyring 1935; Evans and Polanyi 1935). This represented the first self-consistent
+ theory on chemical kinetics not flawed by phenomenological data or approximations.
+
+ At about the same time, Christiansen introduced the diffusive-stochastic approach to
+
+ reaction dynamics. In this approach chemical reactions are interpreted as diffusive pro-
+
+ cesses. This description derived from the tradition of studies about Brownian motion
+
+ and colloid dynamics started by Albert Einstein (1879-1955) and Marion von Smolu-
+ chowski (1853-1932) (Einstein 1905; Smoluchowski 1906, 1916) and culminated in
+
+ a significant paper by Kramers in 1940.
+
+ Didactical explanations follow the history of kinetics from 1800 to the develop-
+
+ ment of TST, see, e.g., Laidler and King (1983). As it had happened during the thirties,
+
+ diffusion-controlled reactions and the Christiansen-Kramers approach are again being
+
+ ignored. This approach is treated only in rather advanced and specific courses of phys-
+
+ ical chemistry. A similar situation exists regarding the researches in this field. Few
+
+ scholars are today directly concerned with chemical kinetics, although there are many
+
+ of them indirectly involved. The stochastic-diffusion description of chemical dynam-
+
+ ics, in particular, involves only a handful of researchers in theoretical and computa-
+
+ tional chemistry. Owing to its intrinsic difficulties and the great chemical success of
+
+ TST, due probably to its "pseudo-molecular dynamics" vision, the diffusion descrip-
+
+ tion has been completely forgotten for nearly thirty years. It was only rediscovered,
+ with some notable prior exceptions (Delbrück 1940; McQuarrie 1967), at the end of the
+
+ seventies (Skinner and Wolynes 1978), with the birth of computational chemistry. The
+
+ Christiansen-Kramers vision has some advantages over TST because, being equally
+ independent from phenomenologies and approximations, it considers intrinsically the
+
+ interactions with a solvent, even though results are more difficult to apply to real sys-
+ tems that are not extremely simple. It describes better the case of diffusion-controlled
+
+ reactions, which, however, are relatively rare. A description of the origins and the
+ developments of the Christiansen-Kramers approach is useful to comprehend the rea-
+
+ sons why it was underestimated and its chequered history. In the last two sections, the
+
+ main part of this essay, I will carefully examine one of the first papers written by Klein
+ (1922) and the work of Kramers himself, which was exposed in the today famous
+ paper of 1940: "Brownian motion in a field of force and the diffusion model of chemi-
+
+ cal reactions ". The paper of Klein resulted from an early collaboration with Kramers,
+
+ and in it we will discover the origins of the well-known Klein-Kramers equation.
+
+ 2 Einstein's theory of Brownian motion
+
+ As a background for the later development, we will briefly review here Einstein's work
+ on Brownian motion and its historical relevance. These remarks are not intended as a
+
+ Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:38:26 UTC
+All use subject to https://about.jstor.org/terms
+
+ Chemical kinetics and diffusion approach 397
+
+ thorough discussion of Einstein's and Smoluchowski's work, but rather to place these
+ works into a historical perspective relevant for the diffusion approach to chemical
+
+ kinetics. Around the turn of the twentieth century the debate about the compatibility
+
+ of the kinetic theory of gases, more generally the new statistical mechanics, and clas-
+
+ sical thermodynamics was at a critical point (Brush 1976), particularly concerning the
+
+ explanation of Brownian motion. From a purely abstract point of view the question
+ had already been resolved by Ludwig Eduard Boltzmann (1844-1906), relative to the
+
+ maximal entropy tendency of systems, but his work was fully recognized only after the
+
+ first decade of the twentieth century. It was therefore necessary to gain an alternative
+
+ vision to conjugate the kinetic and thermodynamic models.
+
+ Albert Einstein found such a solution in 1905 (Renn 2005). He began research on
+ the mechanical nature of heat in 1903 (Einstein 1903) with a first paper in this field,
+
+ Eine Theorie der Grundlagen der Thermodynamik , then in 1904 (Einstein 1904) fol-
+ lowed it with a second one, Zur allgemeinen molekularen Theorie der Wärme . The
+
+ second work laid the basis for two of the papers of 1905, the annus mirabilis. One of
+
+ these two papers is particularly important in our context: Ueberdie von der molekular-
+ kinetischen Theorie der Wärme geforderte Bewegung von in ruhenden Flüssigkeiten
+
+ suspendierten Teilchen (Einstein 1 905). This work is of extraordinary significance and,
+
+ although it is less esteemed than other papers of the annus mirabilis , it established
+
+ the starting-point for all disciplinary ambits. In his paper, Einstein emphasized that he
+
+ had no experimental data for his theory on Brownian motion, the existing data lacking
+
+ precision or sense. Direct experimental observations suggested the absurd conclusion
+ that the velocity of Brownian particles grew larger when times of observation were
+
+ smaller. The velocity would be infinite in the limit of infinitesimally small observation
+
+ time. As we know today, from a statistical point of view, it is impossible to define
+ the distance covered by a single Brownian particle, so it is impossible to obtain the
+
+ classical velocity of that particle. Einstein assumed another fundamental discordance
+
+ with macroscopical behaviour: classical thermodynamics was inapplicable for micro-
+ scopically small systems. On the other hand, if the assumptions relative to Brownian
+ motion are inconsistent the kinetic-molecular description of heat would be false. How
+
+ did Einstein resolve this conflict? He introduced, indirectly, the modern concept of fluc-
+
+ tuations. There is a first exception to thermodynamics if we find an osmotic pressure
+
+ for particles suspended in a solution (colloids). Then the free energy of the system
+ does not change, because it is independent of the position of these particles or of a
+
+ half-permeable barrier. So, according to thermodynamics, there will be no particular
+
+ forces against the barrier. On the other hand, according to kinetic theory, the irregular
+ motion of the suspended particles may very well generate forces against the barrier.
+ Einstein assumed that suspended particles are not different from solute molecules or
+
+ ions and obtained the expression for osmotic pressure from Newton's equations of the
+
+ particles in phase space and from thermodynamical expressions for the entropy and
+
+ free energy. After these considerations on osmosis it is natural to consider the diffusion
+
+ of suspended particles. Assuming dynamical equilibrium, Einstein noted that the free
+
+ energy does not change for an arbitrary motion of a suspended substance. He obtained
+ the free energy as a function of internal energy and entropy using Boltzmann's H
+ theorem. The equilibrium is between osmotic pressure and irregular forces due to
+ thermal agitation. Assuming spherical particles and applying Stoke's law Einstein
+
+ Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:38:26 UTC
+All use subject to https://about.jstor.org/terms
+
+ found a relation between the diffusion coefficient and the viscosity (Kirchhoff 1897,
+
+ p. 26, Vorlesung 4). This is the simplest and earliest form of what we today call the
+
+ fluctuation-dissipation theorem. In particular, Einstein ignored the apparent incompat-
+
+ ibility of these two coefficients, the first obtained from thermodynamics, the second
+
+ from micro-mechanics. There is no explicit demonstration of the consistency between
+
+ these different conceptual frameworks, but Einstein's carelessness in this respect,
+ which was probably intended, opened the way for that demonstration, which would
+
+ later be given explicitly by Smoluchowski, and for the development of the concept of
+
+ fluctuations. Einstein put down two fundamental premises relative to the motion of
+ the particles:
+
+ 398 S. Zambelli
+
+ (1) Their motion is mutually independent (in the limit of low concentration). Simi-
+
+ larly, the motion of a single particle is independent of its previous movements.
+
+ (2) Time intervals must be short in relation to observation times but long enough to
+
+ validate the first premise.
+
+ These conditions are similar to those of the Markov processes, the simplest cases of
+ stochastical dynamics. Although Norbert Wiener (1894-1964) in 1923 and Andrej
+ Nikolaevič Kolmogorov (1903-1987) in 1930 were the first scientists who treated the
+
+ Markov processes with rigour and provided the foundation of a general theory for
+ them, the pioneering use of their assumptions by Einstein is very interesting. Andrej
+ Andreevič Markov (1856-1922) did his research on this subject around 1900 (Markov
+ 1906) and it would be interesting to know whether or not Einstein knew the Russian's
+
+ work. In any case, the use of statistics in the Einstein paper is relatively basic. He
+
+ introduced the distribution function for particle displacements and compared it with
+
+ the solution's concentration, finding, from a purely statistical consideration, the sec-
+
+ л y-i rj2 ^
+
+ ond law of Fick (which says: ^ = ^^pf)- The displacement probability follows a
+ Gaussian distribution, the same as for random errors. The same result turns out to be
+
+ valid for variations of concentration in a given volume in time:
+
+ C<*',)= véš7exp<"S7'- <2I)
+
+ Here C(x,t) is the concentration at the position x at the instant of time t , n denotes
+ the number of particles and D the diffusion coefficient. With a Gaussian distribution
+
+ we can consider the standard deviation of the displacement rather than the displace-
+ ment itself for the study of the motion of Brownian particles. The same conclusion is
+
+ valid for concentration variations. This was the reason for the lack of significance of
+ previous measurements of Brownian motion, as they were based on the direct obser-
+ vation of displacements rather than on their standard deviation. Einstein found his
+
+ well-known formula, Sx = yfx^ = л/2 Dt, where he put into relation the standard
+ deviation of the displacements Sx with the diffusion coefficient D and time t. So the
+
+ resulting movement is statistically proportional to the square root of time, not directly
+ to time as in a classical description. In the last and most famous part of the paper,
+ Einstein used these relations to obtain the Avogadro number Na as:
+
+ ' RT
+
+ N* = (2-2)
+
+ â Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:38:26 UTC
+All use subject to https://about.jstor.org/terms
+
+ Chemical kinetics and diffusion approach 399
+
+ With water at 17°C, its viscosity coefficient £, a radius of Brownian particles of
+
+ R = 1 д, and a mean square displacement x2 of 6 ß after a time t of 1 min, the
+ resulting value for Na = 6 x 1023 was in good agreement with other estimates, and so
+
+ Einstein's methodology was confirmed. This was the first theoretical self-consistent
+
+ proof of the validity of an atomistic theory and hence of the existence of atoms as well.
+
+ The issue was so important that Einstein reconsidered it a year later in 1906. But he
+
+ remained on theoretical grounds and left the experimental proof to Perrin.
+
+ Jean Baptiste Perrin (1870-1942) was awarded the Nobel prize in physics in 1926
+ for his work on the discontinuous structure of matter and for his discovery of sedimen-
+
+ tation equilibrium. Using Zeiss cells he did microscopic observations and counting of
+ colloid particles of constant and known size.
+
+ Apart from the extraordinary importance of the first direct demonstration of atomic
+
+ theory there is another fundamental point to consider in the work of Einstein and
+ Perrin. On a theoretical level their work gave the basis for the mechanics of stochastic
+
+ processes, a necessary basis for their application to physical and chemical systems.
+ Furthermore, Einstein introduced the first material examples of Boltzmann's statistical
+
+ description, thus reconciling the apparent incompatibility between thermodynamics
+
+ and gas kinetics. On a practical level, the work of Perrin allowed important develop-
+ ments in the observation of colloids and diffusion.
+
+ Smoluchowski would continue to develop this work. He found laws for the dynam-
+
+ ics of suspended particle solutions and for diffusion processes in general. From these
+
+ researches the first applications to chemical systems and reactions would be developed.
+
+ 3 Smoluchowski's applications to colloids and chemistry
+
+ The study of diffusion is fundamental for the understanding of the nature of fluids and
+
+ of their dynamics. It is thereful useful not only in the investigation of specific chemi-
+
+ cal phenomena, like electrolysis, but also for the investigation of all condensed-phase
+ chemical processes..
+
+ The theoretical basis of diffusive processes in chemistry was established by the
+
+ Polish physicist Marion von Smoluchowski, who studied mainly diffusion and related
+ topics (Teske 1977). He arrived at almost the same conclusions as Einstein about
+ Brownian motion but he published his results a year later in 1906 (Smoluchowski
+
+ 1 906). Interesting to us are his work around 1915 and two papers that appeared in 1 9 1 6
+ (Smoluchowski 1916) and 1917 (Smoluchowski 1917). Those publications, together
+ with the works of Paul Langevin (1872-1946), bear directly on the Christiansen-
+ Kramers view of chemical reactions as diffusive processes.
+
+ Smoluchowski examined the diffusion and coagulation dynamics of colloidal solu-
+ tions. It is curious that the same Smoluchowski denounced the scientific community's
+
+ lack of attention to this argument in the introduction of the 1916 paper, because the
+
+ debate about atomic theory, confirmed by Einstein's theory and Perrin's experiments
+
+ (Perrin 1913), nearly monopolized the scientific debate in that period. What exactly
+ did Smoluchowski intend?
+
+ He referred (Smoluchowski 1916) to the part of Einstein's paper that in his opinion
+
+ was less well-reputed: the first successful attempt to reconcile thermodynamics with
+
+ Ô Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:38:26 UTC
+All use subject to https://about.jstor.org/terms
+
+ statistical mechanics for a general system that is relevant in practice: a fluid where
+ Brownian motion is observable. As mentioned above, Boltzmann's reconciliation with
+
+ a statistical system, which is well-known today, was too abstract and theoretical. As
+ we will see, Smoluchowski built a more representative example with a specific real
+
+ 400 S. Zambelli
+
+ system.
+
+ Smoluchowski associated Einstein's probability distribution of displacements with
+
+ the mean free path in the kinetic theory of gases. Then he introduced the simplest
+ model of Brownian motion: a one-dimensional random walker.
+
+ Subramaniam Chandrashekhar (1910-1995) was to take up this simple model again
+ in his 1943 review of Kramers's problem and its first applications (Chandrashekhar
+
+ 1943). It consists of an object that moves indifferently, by discrete, random steps,
+
+ to the right or left along a straight line. The probability that the object reach a def-
+
+ inite position after a certain number of steps, if the distance of the final position is
+
+ small compared with the total number of steps times the step width, is a result that is
+
+ equivalent to Einstein's distribution of the displacements of a Brownian particle.
+
+ There is a nice practical realization of that model: a marble that rolls down an
+ inclined plane bouncing on a lattice of nails. If we let several marbles start from
+ the same point we will observe a Gaussian distribution at the bottom of the plane.
+ Using this simple apparatus, the Galton Box, Smoluchowski evaluated what would
+
+ happen when the system possessed a definite initial configuration. He imagined the
+ marbles rolling free from different initial positions, as in the case of real diffusion.
+
+ Smoluchowski found that the real cause of diffusion and of osmotic pressure is the
+ Brownian motion of the suspended particles and the temporal evolution of their dis-
+
+ tribution. There are, however, some discrepancies between the expressions obtained
+
+ via Brownian motion and those deduced from the diffusion equation. The diffusion
+ equation gives a mean value of the position of single particles, while the Brownian
+ motion of a single particle is described by deviations from that mean value. Smolu-
+
+ chowski argued that a theory about fluctuations ("Schwankungen") of concentration
+
+ would be necessary for the investigations of these statistical deviations. Such a theory
+ would be based on the observation of a fixed microscopic volume inside a solution
+ while diffusion occurred. Studying the amplitude and frequency of these fluctuations
+
+ Smoluchowski obtained a microscopic theory of equilibrium, and this theory pro-
+ duced interesting results for their similarities with actual theories of non-equilibrium
+
+ processes, in particular for the definition of the boundary conditions imposed on the
+ intensive variables of a sample in a non-equilibrium state and the definition of the so
+
+ called thermodynamics forces. Although such theoretical efforts had not been made in
+
+ that period some interesting approaches by the Swedish chemist Theodore Svedberg
+
+ (1884-1971) in this direction were made. Svedberg confronted the results of the theory
+
+ of probabilities with the observed counting of gold colloidal particles in a microscopic
+ sample volume of a homogeneous suspension in a given time (Svedberg 1912). He
+
+ found that the fluctuations of the number of particles depend only on their average
+
+ number, but not on the physical nature of the system. We now know that, according to
+ statistical mechanics, this independence is a general property of fluctuations, and the
+
+ resulting distribution law results independent of the considered mechanical system.
+ This independence is the theoretical justification for the phenomenological similarities
+ mentioned above.
+
+ Ê Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:38:26 UTC
+All use subject to https://about.jstor.org/terms
+
+ Chemical kinetics and diffusion approach 401
+
+ Smoluchowski also investigated another essential aspect of diffusion processes:
+
+ while the distribution law and the entity of fluctuations do not depend on the particular
+
+ system this is not strictly true for the frequencies of the fluctuations. Svedberg had
+
+ observed this fact experimentally, and Smoluchowski examined it from a quantitative
+
+ point of view, considering one of the simplest physical variables of the system, the
+ volume.
+
+ Smoluchowski calculated the fluctuation of the number of particles inside a given
+
+ volume given the displacement distribution for the particles in solution. In other words,
+
+ he found the variation of the concentration in a given volume of the sample. He found an
+
+ important discrepancy in Einstein's formula for the mean square displacement because
+
+ in Einstein's theory it was assumed that a displacement is statistically independent of
+
+ previous movements of the particle. In Smoluchowski's case the number of particles
+
+ that occupies a given volume in a given time will not vary drastically. The actual num-
+ ber of molecules partially determines the subsequent number and the microscopic
+ events and therefore the number of particles at one point is not statistically indepen-
+
+ dent of its prehistory. Smoluchowski developed a theoretical description for this case
+
+ and discussed practical examples of that description. This consideration determines a
+ limit between macroscopic samples, which obey thermodynamic irreversibility, and
+ microscopic samples, described by mechanical and dynamically reversible models.
+ Smoluchowski posed the question in terms of times of recurrence, taking up an ear-
+ lier debate by Ernst Friedrich Ferdinand Zermelo (1871-1973), Jules Henri Poincaré
+ ( 1 854-1 9 1 2), and Boltzmann. He considered the time that would elapse between recur-
+
+ rences of a certain configuration, the number of particles in a given volume in this
+
+ case, for larger and larger systems. If the size of the volume of the system, and so the
+ number of its constituents, increases the reoccurrence of a determinate configuration
+
+ is more and more improbable, or alternatively longer and longer times elapse between
+ the occurrence of the same state of affairs.
+
+ Smoluchowsi (1967) took up Boltzmann's justification of the apparent irreversibil-
+
+ ity of macroscopic systems, but he considered a specific physical example. Considering
+
+ different samples of air (in cubes of side length /) he calculated the recurrence time
+
+ r of the following event: the variation, caused only by fluctuations of air density, of
+
+ exceeding the mean oxygen density in one half of the container by 1%. The results
+
+ found by Smoluchowski are represented in the following table:
+
+ / (cm)
+
+ 1
+
+ 5 X IO-5 IO68
+ 3 X IO-5 IO6
+ 2.5 X IO"5 1
+
+ 10~5
+
+ From these results we can see that for microscopic samples (around 0, 1 д) the
+
+ recurrence is extremely fast, so the dynamics of the system is completely reversible
+ in accordance with statistical mechanics. At this level, the Brownian motion begins to
+
+ be observable, too.
+
+ Smoluchowski generalized the role of fluctuations also in other fields. For example
+ he assumed that the diffusion of heat depends on energy fluctuations. Smoluchowski
+
+ Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:38:26 UTC
+All use subject to https://about.jstor.org/terms
+
+ also paid particular attention to the experimental works on colloids, conducted by
+ important researchers like Perrin, Louis Marcel Brillouin (1854-1948), Svedberg and
+ others. He was particularly interested in those systems because he wanted to gener-
+ alize diffusion theory for the case where forces, like gravitation or inter-molecular
+
+ interactions, are present. From the papers of 1916 and 1917 the famous expression
+ for generalized diffusion that bears his name was deduced (the case presented is for a
+ single particle):
+
+ 402 S. Zambelli
+
+ dP(x,XQ,t) d2P(x,xo,t) 9 'F(x) ]
+
+ where P is the probability density function, t the time, D the diffusion constant, x
+
+ the position, with xo the initial configuration, F(x) a generic force, and £ the viscos-
+
+ ity coefficient. If we consider only the first term on the right side of the equation it
+ corresponds to the common diffusion equation. The second term represents the case
+
+ in which a field of force F(x) is present. This expression is strictly valid only in the
+
+ case of large viscosity £ and differs from the Fokker-Planck equation by being inde-
+ pendent from velocity which is supposed to follow from a Maxwell distribution. It
+
+ is important to mention briefly another important formula that Smoluchowski intro-
+
+ duced in 1916 (Smoluchowski 1916), an integrodifferential equation describing the
+ coagulation dynamics of colloid solutions:
+
+ d fík 1 v ^ л v ^
+
+ = 2 ßijninj л ~~ ßikni • (3.2)
+
+ i+j=k /=1
+
+ This relation expresses the concentration dynamics of coagulated particles к by means
+
+ of the balancing between the formation (first term on right) and disappearance (second
+
+ term on right) of these particles, ßij represents the probability of collision between
+ the ith and jth particles.
+
+ Smoluchowski 's conclusions in this case are very interesting for chemistry because
+ they describe also the dynamics of diffusion-controlled reactions. In those reactions,
+
+ the diffusion of approaching reactants is the long stage with respect to the reactive
+ interaction itself. We can extend an analogy between coagulation and diffusion con-
+ trolled reaction phenomenologies, for example.
+
+ 4 The Christiansen-Kramers collaboration
+
+ From the main biography of Kramers (Dresden 1987), we know that Kramers arrived
+
+ in Copenhagen during the middle of the First World War, in August 1916. Soon after
+ his arrival, he became a close collaborator of Niels Bohr (1885-1962), some years
+ before the official foundation of the Institute of Theoretical Physics, today Bohr Insti-
+ tute, in March 1921. In the subsequent years, Kramers often acted as a spokesman
+ for Bohr's ideas: he gave lectures around Europe to present and explain Bohr's ideas
+ and he also introduced these concepts to new students and assistants of Bohr's. It is
+
+ Ö Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:38:26 UTC
+All use subject to https://about.jstor.org/terms
+
+ Chemical kinetics and diffusion approach 403
+
+ possible that Kramers encountered Christiansen thanks to this mediating role in the
+
+ Copenhagen institute. Christiansen visited the Bohr Institute around 1922 after his
+
+ PhD graduation for a period of nearly 1 year (Bak 1974). It is possible that he already
+ came to Copenhagen with the hope of finding some mathematical-physical assistance
+ for his studies of chemical reactions.
+
+ Christiansen's PhD thesis treated the dynamics of specific chemical reactions: in
+ this work he introduced for the first time the term chain reactions ( ketten reaction in
+
+ Danish). Christiansen tried to apply the description and the model of chain reactions
+ to different mechanisms of chemical reaction. He was particularly interested in the
+
+ problem of activation, as can be seen in a paper of August 1922 (Christiansen 1922).
+ In this work he confronted the two mechanisms of activation by radiation and by col-
+
+ lisions, in particular for uni-molecular reactions. He anticipated Kramers interest; this
+
+ will happen again 15 years later for the diffusive approach to chemical kinetics. Today
+ we know that pure uni-molecular reactions, where a stable isolated molecule trans-
+ forms itself spontaneously, do not exist: there is always a contribution due to thermal
+ collisions. Kinetic expressions of reaction rates of some chemical processes, mainly
+ dissociations, induced chemical physicists between 1920 and 1930 to elaborate the
+ so-called radiative hypothesis (King and Laidler 1984), in which energy activations
+ and relaxations of molecules are entirely or mainly due to radiations exchange. Perrin
+
+ was the main promoter of this school (Perrin 1922). In the work of 1922 Christiansen
+ examined the works of Dusham and Trautz (Dusham 1921; Trautz 1920) in the light
+
+ of Einstein's coefficients of emission and absorption. He showed a mild scepticism
+ about radiation mechanisms. In a supplement to the paper Christiansen thanked Bohr
+
+ for his help on the interpretation of Einstein's radiative coefficients from a molecular
+
+ point of view and for the observations Bohr made relative to the underestimation of
+ collisions factors.
+
+ A year later Christiansen wrote another paper on this subject, this time together with
+
+ Kramers. Bohr may also have contributed to the ideas of this publication because the
+
+ authors again thanked him at the end of the paper (Christiansen and Kramers 1923).
+
+ Probably Bohr assigned Kramers the task to help Christiansen due to Kramers exten-
+ sive interest in atomic and molecular spectroscopy, as we can see from the number of
+
+ papers and works in this field that he published in that period (Mehra and Rechenberg
+ 1982, p. 490).
+
+ In their joint paper, " Über die Geschwindigkeit chemischer Reactionen " (Chris-
+ tiansen and Kramers 1923), the dynamics of a general uni-molecular gaseous reaction
+
+ is treated first purely on the basis of a collision activation mechanism and the results
+ are then confronted again with an analysis of a mechanism of activation by radia-
+ tion, as in Perrin's hypothesis. Christiansen and Kramers estimated the exponential
+ factor obtained in the radiative and collision mechanisms and compared that estimate
+
+ with experimental data. Kramers and Christiansen considered the gaseous dissocia-
+ tion represented by the following reaction: n - > n' + n" , where n is the original
+ gas molecule and n' n" the dissociated species. Christiansen took again the viewpoint
+ of S vante August Arrhenius (1859-1927) where dissociation happens when activated
+ molecules, which are in thermal equilibrium with reactants, spontaneously turn to
+
+ products. The ratio between the concentration of activated molecules Ca and the
+
+ Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:38:26 UTC
+All use subject to https://about.jstor.org/terms
+
+ concentration of reacting molecules Cn is given by the expression:
+
+ 404 S. Zambelli
+
+ £l = Ele-^t (4.1)
+ Cn Pn
+
+ where s and p are the energy and the statistical weight of the considered species,
+ R the gas constant and T the absolute temperature. If A is the probability of change
+ per second, the rate of reaction is then obtained by the following expression:
+
+ k = IdCn = APae-*tfL (42)
+
+ Cn dt pn
+
+ This expression, a kinetic rate in the Arrhenius form with the pre-exponential factor
+
+ calculated as a function of the radiation-matter interactions is typical in the ambit of
+
+ radiation hypothesis as discussed in the first part of this paragraph. The frequency
+ of change per volume and per second according to Einstein's equations results in:
+
+ Nrad = CnB%pv , where B£pv is the probability per second of a stimulated tran-
+ sition n - ► a promoted by blackbody radiation of energy density pv (Einstein
+ 1917).
+
+ It is important to note that in the original Einstein paper, Zur Quantentheorie der
+
+ Strahlung , published in 1917, there is only an allusion to molecular transition or in
+
+ general to chemistry. Einstein's work of 1917 mainly concerns the nature of radiation.
+
+ The use of the transition coefficients, basic for spectroscopy, in chemical kinetics,
+
+ was introduced later by Perrin in the context of his radiation hypothesis (Perrin 1919),
+ a theory that Einstein considered with mild scepticism as we can see from a let-
+
+ ter between the two scientists around 1920 (Einstein 1972). Considering Einstein's
+ coefficients Kramers and Christiansen found in the radiative case a pre-exponen-
+
+ tial factor for the rate constant: £rad ^ 10V~$' where Q = ea - en represents
+ the heat of activation. The calculations in the collision case give a greater constant:
+
+ &COLL ^ 1010^~^ , supposing the collisions happen between reactive molecules. So
+
+ Kramers and Christiansen demonstrated that a simple activation by radiation (with-
+
+ out considering more complex mechanisms like the contributions of multiple photons
+
+ or different frequencies of activation and so on), has negligible results in compari-
+ son to a pure collision activation. The problem is also that a simple mechanism by
+ collision is not sufficient to justify the much greater experimental value for uni-molec-
+
+ ular gaseous reactions: k^xp ^ 1014e~$' Christiansen and Kramers, excluding the
+ mechanism by radiation, had to consider other possible collisions inside the sys-
+ tem. In particular, they supposed that rich energy products, called a' collide with
+
+ the molecules of reactants n, promoting them to the activated state a. In stationary
+ conditions the concentrations of energized products and activated complexes do not
+ change: d Ca /dt = àCa> /dt = 0. Taking into account all the processes that increase
+ or decrease the concentrations of the considered species the authors introduced the
+ following expression:
+
+ d С
+
+ = С2пК$ + <*C„Ca.ZÏ - ACa - CnCaZan (4.3)
+
+ ö Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:38:26 UTC
+All use subject to https://about.jstor.org/terms
+
+ Chemical kinetics and diffusion approach 405
+
+ and, assuming stationarity for a' the following rate constant is obtained:
+
+ fc 1 dC" л C"Z^ (44)
+
+ C„ di CnZ"a+A(l-a)'
+
+ where Z„, Z^', Z£ are the numbers of collisions per second between, respectively,
+ two n molecules, n and a ' molecules, a and n molecules, £ and a are coefficients that
+
+ determine the probability for the collisions to be activating, С is as usual the concen-
+
+ tration and finally A is the probability per second of the spontaneous transformation:
+ a - > a'. Kramers and Christiansen assumed equilibrium between reactants and the
+
+ activated complex obtaining: Cj¡Z%¿; = CnCaZna. Combining this equation with the
+ (4.4), and assuming that a = 1, they obtained again:
+
+ k = A- e (4.5)
+
+ Pn
+
+ in accordance with Arrhenius' equation. So the lifetime of the activated state is related
+ to A and is found to be of the order 10~14 s, but this lifetime is shorter than the esti-
+
+ mated time between two successive collisions, 10" 13 s. This fact brought Christiansen
+ and Kramers to suppose that the reaction arises solely from collisions among reac-
+
+ tant molecules and energized products, and that these collision processes have to be
+ seen as elementary. They supposed moreover a deactivation mechanism, introduc-
+ ing a description that would later be found useful in the analysis of chain reactions.
+ The assumption of a deactivation mechanism is very important because it excludes
+
+ the necessity of a stable activated state, an improbable fact according to its too brief
+ lifetime. Moreover this hypothesis would play a role in future works of the authors
+
+ approximately 10 years later, where they did not need to consider a definite and dis-
+
+ crete activated state, looking at a chemical reaction as a continuous series of stages of
+
+ an interatomic diffusion process. Kramers and Christiansen, in any case, considered
+
+ the possible existence of the activated state but thought that its exact description would
+
+ be very complex because the briefness of its lifetime requires not only simple time-
+
+ independent quantum mechanics but time-dependent quantum dynamics. The authors
+
+ removed the problem of the discrepancy between the lifetime of the activated com-
+
+ plex and the interval between consecutive collisions by the argument that the activation
+
+ process itself needs a certain time to happen. With these considerations, Christiansen
+ and Kramers reached the following conclusion about the a factor that appears in the
+
+ previous expression for the rate constant. They argued that for uni-molecular mech-
+ anisms this factor must be near one, but in most cases it is found almost zero. This,
+
+ they reasoned, means that the majority of reactions follow a bi-molecular mechanism.
+ In the case of chain reactions a would be greater than unity.
+
+ The last part of the 1923 paper would be revisited by Cyril Norman Hinshelwood
+ (1897-1987) and Nikolaj Nikolaevič Semenov (1896-1986) around 20 years later in
+ their works about uni-molecular and chain reactions clearly explained in the lectures
+ the two scientists held on occasion of receiving the Nobel Prize in 1956 (http://
+
+ nobelprize.org/nobel_prizes/chemistry/laureates/ 1 956/hinshel wood- lecture.pdf ;
+
+ http://nobelprize.org/nobel_prizes/chemistry/laureates/1956/semenov-lecture.pdf).
+
+ â Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:38:26 UTC
+All use subject to https://about.jstor.org/terms
+
+ 406 S. Zambelli
+
+ But in spite of the fact that the radiation hypothesis was intensely debated in the theory
+
+ of chemical kinetics during that period, their work did not receive much attention.
+
+ The interesting idea that highly energized products may activate the reactants in
+
+ a chain mechanism has, however, a major flaw. As a reaction advances, the mole-
+
+ cules produced are more and more numerous and there is no reason why they cannot
+
+ exchange energy among themselves. The assumption that they must exchange energy
+
+ exclusively with reactants is arbitrary. In Kramers's and Christiansen's paper there are
+ also some interesting remarks about reactions in solution and the role of collisions
+
+ with solvent molecules. The treatment of reactions in condensed phase would become
+ the main thrust of the work of Christiansen around 1935 and the basis for the famous
+
+ paper of Kramers in 1940 that will be treated in the following section of this article.
+
+ 5 Christiansen's approach
+
+ Christiansen developed the model of a chemical reaction as an intra-molecular dif-
+
+ fusion process during the first half of the thirties. He published two papers in 1935
+ (Christiansen 1935) and 1936 (Christiansen 1936) on this research. The paper of 1936
+
+ is particularly significant, while the earlier one simply established the basic thermody-
+ namic treatment necessary for the subsequent work. Christiansen confronted Arrhe-
+
+ nius's theory of activated states (Arrhenius 1889) with a little known theory (Nernst
+ 1893b) of Walther Hermann Nernst (1864-1941). In Nernsťs theory, the reaction
+ velocity is obtained, by analogy with Ohm's law, as the ratio between a chemical
+
+ potential and a chemical resistance. Christiansen took the chemical force or potential
+ (both Nernst and Christiansen present some ambiguity on this point) as the difference
+
+ of the chemical activities of the beginning and the final states and the chemical resis-
+
+ tance is represented by a particular integral depending on temperature and diffusion
+
+ constant. The purpose of Christiansen was to demonstrate, extending Arrhenius's con-
+
+ ception, that the methods of Nernst and Arrhenius are analogous. The generalization
+
+ of Arrhenius's theory is obtained by supposing an open, possibly infinite, sequence
+ of many consecutive steps, thus gaining an expression consistent with that of Nernst.
+
+ Christiansen discretized a chemical reaction of the kind A' => Bnt considering not
+ only one activated state, as in Arrhenius's model, but a series of consecutive n stages
+ which result in reciprocal virtual equilibrium: A' => X' =» X2 ... =Ф Xn_i =>
+ Bn . He also assumed that the elementary steps of this sequence were composed of
+ uni-molecular reactions and obtained the following expression for the reciprocal rate
+ of reaction:
+
+ 1111 1
+
+ V a'w¡ *2^3 xn-'wn
+
+ where a' is the reactant concentration, *,• the equilibrium concentration of activated
+
+ complexes and w±¡ is the probability per unit time that reactants, products or inter-
+ mediates transform into each other by the uni-molecular reactions ±i.
+
+ The terms of the previous equation are of a purely thermodynamic nature, in the
+
+ sense that they can be imagined as being derived from virtual equilibrium expressions
+
+ â Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:38:26 UTC
+All use subject to https://about.jstor.org/terms
+
+ Chemical kinetics and diffusion approach 407
+
+ between species with a lifetime too brief to get real equilibria. The equilibria between
+
+ reactants, products and intermediates are supposed to be valid because Christiansen
+
+ considered the quantity of intermediates constant during the slow stages of reaction, so
+
+ the process is stationary or quasi-stationary. These are a group of assumptions similar
+
+ to those made in the theory of diffusion. In fact, according to Christiansen's hypoth-
+
+ esis, the equilibrium quantity of the activated complexes may be put in relationship
+ to the concentrations of a diffusing substance along the sections of a column. From
+
+ this diffusive description, he obtained an expression for the reciprocal reaction rate
+
+ which was consistent with the previous one, obtained on a thermodynamic basis. He
+
+ introduced the activity coefficients cpi relating them to single stage transition rates Wi
+
+ to justify also the deviations from equilibrium or from a uniform distribution. Chris-
+ tiansen considered a column in which a potential field is present, so that the diffusing
+
+ molecules are influenced by forces. The concentrations of the diffusing substance at
+
+ the ends of the column x = 0, x = / are constant and equal to co and cn. A stationary
+
+ gradient of concentration will be achieved after a certain time, and Christiansen's task
+
+ was to find the quantities of substance diffusing per unit time assuming stationarity.
+ He divided the column in n + 1 cells separated by n slices, with the thickness of the
+
+ ith cell equal to А/. The probability per unit time that a molecule in the i - 1th cell
+ passes into the ith cell is denoted by w¡, and w-i indicates the reverse process, as
+ before for activated complexes, reactants and products. Christiansen assumed that the
+
+ products of the activity coefficients <p, and equilibrium concentrations are equal at
+
+ different positions of the column and from this deduced:
+
+ 0 Ф0 * о Фп SSL
+ Cj 0 - со - and * c¡ о = cn - SSL (5.2)
+
+ (Pi (Pi
+
+ n - 1
+
+ v У ~~Г^ - = C0<P0 - Cn<Pn- (5-4)
+ ^ A|U>i+i
+
+ Since this expression, similar to an equivalent diffusion process, results independent
+
+ from the size of the column cells, so it must be for their sum: J = Xo~' лД-н ' and'
+ in the limit, this sum can be represented by the integral:
+
+ J = lim V А *L_A= [ ï-dx D (5.5)
+
+ n->OQ А Ш/4-1 J D
+
+ 0 0
+
+ £) Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:38:26 UTC
+All use subject to https://about.jstor.org/terms
+
+ for positive and negative reactions. From the expression (5.1) for reciprocal velocity
+ he found:
+
+ W0=y _JPi_ and c_nïl = Y_Vi_ (5.3)
+ V+ ~ A/W/+1 V- ~ A ¡W-Í
+
+ for direct and inverse processes. Taking the velocity of the net process to be v = v+ -v-
+ Christiansen obtained:
+
+ with D = Л2 w and q> as a continuous function of the position jt.
+
+ Christiansen thus obtained the rate of diffusion as: v = (co<po - с n<pn)/ J. The
+
+ expression for J is yet dependent on the length / of the column, so Christiansen con-
+
+ sidered the passage only through a column section (in stationary conditions v must be
+ constant in all the sections of the column):
+
+ 408 S. Zambelli
+
+ v = ~Acv7+ÃI
+
+ I Ddx
+
+ X
+
+ which in differential form turns into a diffusion law:
+
+ D dew
+
+ "-í-ãf D dew (5-7)
+
+ This expression implies that the transport of molecules is produced by the concentra-
+ tion gradient and possibly also by forces acting on the molecules (their contribution
+
+ is represented by the activities (p ). Separating the activity contribution, Christiansen
+ obtained the following expression:
+
+ Эс ^ din (D
+
+ v = -D^-Dc~^r- ^ <5'8)
+
+ in which the first term on the right represents an ordinary diffusion without a field.
+
+ The second term, if we call '¡r the potential energy in a given position and К the force,
+ is equal to -J^cK, considering that К = - and RT In (p = ф from Boltzmann's
+ principle. Equation 5.8 then becomes:
+
+ dc D
+
+ V = ~DÌ H + lfcK' <5-9)
+
+ which is analogous to that obtained by Smoluchowski and Einstein, but Christian-
+
+ sen was the first scholar who applied it to reaction kinetics, thus showing the close
+ analogy that exists between the rate of reaction and the rate of diffusion. He inves-
+
+ tigated also the possibility of dividing a chemical process into a continuous number
+
+ of stages, citing the famous paper written in 1931 by Eyring and Polanyi, where, for
+ the first time, a continuous description of chemical potential energy along reaction
+ coordinates was found (Polanyi and Eyring 1931b). In particular Christiansen's work
+ will be scarcely cited later in the mainstream researches on chemical kinetics and
+
+ only about his contributions to catalysis as can be seen examining the most important
+
+ publications of the sector, from the introductory one (Eyring and Eyring 1963; Laidler
+
+ 1997) to the more complex (Eyring 1975). The publication of 1963 (Eyring and Eyring
+
+ 1963) is emblematic: there is only an hint about Christiansen's method in the transport
+
+ mechanism chapter, but Christiansen's work is not cited explicitly and used only for
+ specific systems, not generalized for all chemical reactions; the work of Kramers was
+ completely ignored.
+
+ â Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:38:26 UTC
+All use subject to https://about.jstor.org/terms
+
+ Chemical kinetics and diffusion approach 409
+
+ Fig. 1 Bi-stable potential
+ barrier, the figure is taken from
+
+ Christiansen's 1936 paper
+ (Christiansen 1936)
+
+ . ö +1 -
+
+ The generalization of the Arrhenius conception brings us naturally to consider the
+
+ transformation of a molecule during a reaction as an intra-molecular diffusion. To
+
+ demonstrate this generalization Christiansen made some fundamental assumptions.
+ He considered the case of a simple potential barrier, a symmetrical bi-stable one as
+ shown in Fig. 1.
+
+ This case will be used again by Kramers in his work of 1940. There are other
+
+ assertions, as we will see, that are similar in Christiansen's and Kramers's papers:
+
+ Christiansen considered various events that occur in the function of the energy of the
+
+ system. If the diffusing particle has an energy lower than '¡rm , without considering tun-
+
+ nelling quantum effects, the rate of reaction will be zero. The particle simply cannot
+ overcome the potential barrier. In the opposite case, when the particle has an energy
+
+ greater then '¡rm , it will oscillate between the two potential minima indefinitely. So it
+
+ is impossible to observe a definite transformation, because of the large frequency of
+ oscillation. Half of the time, the molecule will have one form, the other half a different
+ form. To observe a definite transformation Christiansen affirmed that it is senseless
+
+ to assume a definite energy for the chemical system, and even that it is impossible
+ to realize a similar case because the reacting molecules will always exchange energy
+ directly with the medium or by radiation. Therefore only the case of definite tem-
+ perature and fluctuating energy is realistic because of the external disturbances. If
+
+ these disturbances are rare the rate will be defined mainly by the reacting molecules'
+ interactions, and the reaction can be seen as a bi-molecular one. On the other hand,
+
+ if the experiment shows a uni-molecular behaviour, the disturbances are frequent and
+ influential.
+
+ With the expression v = (co<po - cn<pn)/J, Christiansen quantified Nernst's qual-
+
+ itative description. He obtained this expression by increasing the intermediate states
+
+ of the Arrhenius conception in which only one intermediate or activated state is con-
+ sidered. In this sense the Arrhenius conception is connected to that of Nernst. There
+
+ are other interesting conclusions drawn by Christiansen that will be fundamental for
+ future works in this field. The first conclusion is about the constant of inter-molecu-
+
+ lar diffusion D . If this constant varies during the reaction the resulting equations are
+
+ extremely difficult to solve. So we have to assume D to be a characteristic constant of
+ the reaction. The related problem of viscosity change was re-examined by Kramers
+ and remains an essential, unresolved issue today. The second conclusion is that the
+
+ main problem is to find solutions of a second order partial differential equation for the
+
+ â Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:38:26 UTC
+All use subject to https://about.jstor.org/terms
+
+ 410 S. Zambelli
+
+ determination of chemical activity as a function of space and time. The rate of reaction
+
+ thus results as an intensity of current inside the molecule. Christiansen emphasized
+
+ the fact that finding special solutions of this differential equation for a given potential
+
+ is not so difficult: the difficulty is the search for a reasonable physical solution. We can
+
+ clearly demonstrate the pioneering intuition of Christiansen by citing the last sentence
+ of the 1936 paper (Christiansen 1936):
+
+ This task is similar to that of quantum theory, and it would seem premature if at
+ the present moment I could get some conclusion.
+
+ The link between the mathematical structure of a diffusive stochastic description and
+
+ a quantum mechanical description of a system has interesting and profound relations
+
+ that we will briefly examine in the following sections of this paper.
+
+ 6 Klein's visit to Copenhagen
+
+ The main biographers of Kramers, in particular Dirk ter Haar, claim that his interest
+
+ in chemical kinetics is a simple mathematical exercise of style (ter Haar 1998, Chap.
+ 6). I am convinced that this is only partly true, and, in particular, I claim that Kra-
+ mers's work would be impossible without Christiansen's previous contribution. We
+
+ will argue for this claim more fully in Sects. 7 and 8 of this paper, where we will exam-
+
+ ine the early work of Kramers and Klein, Kramers' paper of 1940 (Kramers 1940) and
+
+ the quantitative applications of stochastic processes to chemical kinetics. Although
+ Kramers is most known for his works in quantum mechanics and spectroscopy, he
+
+ was a wide-ranging thinker and the range of his interests was impressive. The paper of
+ 1940 was a generalization and an application to chemical dynamics of some not very
+ well known and appreciated works done by Kramers and Klein soon after Kramers
+ arrival in Copenhagen. To clarify Klein's role in this phase we have to consider some
+
+ biographical hints of this period. During the years from 1917 to 1921 Klein travelled
+
+ many times back and forth between Copenhagen and Stockholm. He became a student
+
+ of Svante Arrhenius at the Nobel Institute and later he was on his way to Jean Baptiste
+
+ Perrin in France when First World War broke out and he was drafted into the military.
+ His initial studies were on solubility. At the end of his military service in 1917 Klein
+
+ received a fellowship to study abroad and arrived in Copenhagen for a longer stay in
+
+ 1918. Klein did work for both Arrhenius and Bohr in this period, spending the sum-
+
+ mer of 1919 with Kramers, and finally returned to Stockholm. In the same year Bohr
+
+ travelled to Stockholm to visit Klein and convinced him to return to Copenhagen and
+ work with him at the institute for theoretical physics. Klein continued his studies on
+
+ solutions turning his attention from solubility to ionic diffusion. This research led him
+
+ to his PhD thesis in which he examined the forces between ions in strong electrolyte
+ solutions using the statistical mechanics of Josiah Willard Gibbs (1839-1903). The
+ result was a generalized description of liquid dynamics and the formulation of what
+ we call today the Klein-Kramers equation in a paper of 1922 (Klein 1922).
+
+ We will discuss in some detail Klein's paper: "Zwr statistischen Theorie der Sus-
+
+ pensionen und Lösungen " (Klein 1922), a statistical theory about suspensions and
+ solutions. This work was written in 1921, toward the end of Klein's doctorate, and
+
+ â Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:38:26 UTC
+All use subject to https://about.jstor.org/terms
+
+ Chemical kinetics and diffusion approach 4 1 1
+
+ represents a sum of the collaboration with Kramers during the two preceding years.
+ This collaboration was very fruitful because this work gave the fundamental theoret-
+
+ ical basis for a complete and general statistical-mechanical description of solutions.
+ It introduced for the first time the Klein-Kramers equation. It is interesting to note
+
+ that many experts in stochastic methods also today do not know the origins of this
+
+ fundamental equation which they use. Its origins are hidden in one of the first works
+ of a young graduate student and they are published in a minor journal with little
+ international circulation outside of Scandinavia.
+
+ Let us now focus on Klein's paper in its details to observe the discovery of the
+ famous equation, but also its links with the work of Einstein and Smoluchowski
+ described in the previous parts of this paper.
+
+ 7 The discovery of the Klein-Kramers equation
+
+ In the work of 1921, Klein considered a statistical mechanical treatment of a sus-
+
+ pension of tiny particles in a viscous fluid. He considered dilute solutions and strong
+ electrolytes and assumed the presence of both external fields and internal forces. The
+
+ important question for Klein was the interaction of the solvent medium with the sol-
+ ute or suspended particles. In need of a mechanical model for the fluid he looked for
+ analogies with the problem of the mean free path in the gaseous phase. This was a
+
+ purely theoretical assumption, a real fluid is much more complex, as Klein very well
+ knew, but approaching the problem by means of statistical methods and on the basis
+
+ of experimental data on viscosity a theory based on a rough model that included the
+ interactions inside liquids was possible.
+
+ The action of the solvent on a solute or suspended particle depends on the velocity
+
+ of the particle or ion and varies quickly and randomly according to the equiparti-
+
+ tion principle at the temperature of the fluid under consideration. The same assump-
+ tion is valid for the angular momentum. In fact, these hypotheses are really valid
+
+ only for suspensions because of the great dimension of the particles, as Einstein and
+ Smoluchowski had demonstrated. Klein wanted to correlate a theoretical mechani-
+
+ cal-statistical description of the system to other phenomenological characteristics of
+ the solutions or suspensions, such as the electric conductivity of electrolytes. Using
+
+ Gibbs's description Klein's goal was to solve the differential equation that describes
+
+ the system. But it was necessary to impose boundary conditions relating to the mechan-
+ ical state of the fluid. Klein's innovative approach consists in making no preliminary
+
+ assumptions at the outset, introducing further assumptions only in a second step, for
+ the solution of cumbersome calculations. He used the conclusions of Hendrik Antoon
+
+ Lorentz (1853-1928) about energy equipartition to assume the conservation of the
+
+ mean square displacements of the particles due to Brownian interactions and linked
+ them to the macroscopic properties of the fluid: viscosity and temperature. Thanks
+ to Einstein's work this can be done with nearly any hypothesis on the nature of the
+
+ system. The irregular thermal impulses determine a velocity distribution of the sus-
+
+ pended particles, which generates a diffusion current that adds to that due to external
+ forces. Klein introduced a phase space description for the treatment of this current and
+
+ obtained a Gibbs equation that takes into account irregular impulses from the fluid.
+
+ 4^ Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:38:26 UTC
+All use subject to https://about.jstor.org/terms
+
+ 412 S. Zambelli
+
+ Klein obtained a general equation for the probability distribution of the suspension and
+ studied its dynamics, generalizing and correcting Einstein and Smoluchowski works.
+ For this goal Klein introduced some approximations to solve the difficult equations
+ obtained and applied them to the problem of electrolytic conductivity. Klein's major
+
+ contribution consists in finding a general integral that solves Gibbs equations for this
+ system and takes into account the influences of external and internal forces.
+
+ After Arrhenius had opened the way to the study of solutions with the theory of
+
+ electrolytic dissociation, Klein wanted to comprehend and justify the deviations for
+
+ strong electrolytes, taking into account the reciprocal action between ions due to their
+ electrical charge and the physical characteristics of the solvent such as its viscos-
+
+ ity. Klein, following some works (Hevesy 1914, 1916) of George Charles de Hevesy
+ (1885-1966) about the ionic mobility, wanted to correlate the influence of the ionic
+
+ charge to the characteristics of the solution. For this purpose, it is necessary to intro-
+ duce some approximation from the beginning: the interaction of the medium with
+ an ion is independent from the presence of other ions. The electrostatic interactions
+
+ between strong electrolytes determine some deviation from the behaviour of an ideal
+
+ solution: the properties that depend on the number of ions take on values that derive
+
+ from a smaller number of ions than are actually present in the solution, such as for a
+ weak electrolyte only partially dissociated. This deviation also affects the Arrhenius
+ mass action law. Also Nernst (1893a), Joseph John Thomson (1856-1940) (Thomson
+
+ 1893) had studied, for example, the influence of the apparent low dissociation on the
+ dielectric constant of the solution. But in the consideration of these deviations, it is
+
+ not sufficient to introduce only a correction to the concentrations, it is necessary to
+
+ introduce more than one correcting term that also depends on the respective devia-
+
+ tion. Klein followed Bjerrum's work and introduced a coefficient for osmotic pressure
+ /о and another one for conductivity /u that corresponds to the ratio of the real and
+
+ ideal quantities for solutions with the same number of particles. He obtained an activ-
+ ity coefficient /a from the osmotic pressure /о that characterizes the deviation from
+
+ the ideal free energy. Klein generalized Bjerrum's empirical formula for the osmotic
+ coefficient with the following expression:
+
+ (7Л)
+
+ where g is the valence of the ion, T the temperature, с the concentration, e the dielectric
+
+ constant. <p cannot be a linear function of the argument, as Bjerrum thought, because
+ then the potential energy would diverge for high temperatures. Klein found a similar
+ result for electrolytic conductivity, generalizing Walden's results. He wanted to con-
+ sider also the osmotic pressure with a similar description as Milner had done. In a
+
+ very interesting note, in which he criticized some errors in Milner's expressions that
+ would violate the virial theorem (Milner 1912), he cited the name of Kramers and
+ promised a future paper written jointly with him. Such a work, however, would never
+
+ be written, a work by Kramers and also Klein in this case, and we have here therefore
+ another near missed discovery , as we will see at the end of this section. Klein also
+
+ wanted to consider dipolar solutes, not only ions, but the extreme difficulties that he
+
+ encountered in finding the basis for a generalization of Peter Debye's (1884-1966)
+
+ 4^ Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:38:26 UTC
+All use subject to https://about.jstor.org/terms
+
+ Chemical kinetics and diffusion approach 413
+
+ theories (Debye 1912) led him to make only some qualitative considerations. At the
+ end of the introduction Klein thanked Professor Arrhenius and Professor Bohr, who
+
+ hosted him in Copenhagen in that period, Klein's best period in his own words (Klein
+ 1922).
+
+ To achieve those goals, Klein considered a dilute solution of n suspended parti-
+ cles. In this case deviations from an ideal solution are proportional to various powers
+
+ of concentration and derive from the interactions of the particles with the glass wall
+ and between themselves. The system is considered nearly adiabatic, and the parti-
+ cles are assumed spherical and homogeneous. The translational and rotational degrees
+ of freedom of the particles are independent, but Klein considered only translational
+ motion. The positions of the particles are characterized by Cartesian coordinates of
+ their mass centres in the fluid system of reference. The velocities of the particles are
+
+ the simple time derivatives of the coordinates. The masses of the suspended particles
+ mass are much greater than the mass of the molecules of the medium, so one can
+ consider a time interval in which their motion is negligible compared to the motion of
+
+ the solvent. There are three kinds of forces that act on particles: external forces, fluid-
+
+ particle interactions or solvent forces, and interactions between particles, or reciprocal
+ forces. Solvent forces consist in a succession of rapid irregular impulses that derive
+
+ from configuration relaxations of the liquid. Particle motions determine configura-
+ tion changes in the solvent. These facts are in accordance with the dependence of
+ the shear stress on the velocity of a body inside a fluid. Solvent interactions thus
+
+ depend on the temperature of the system and on the velocity of suspended particles
+ but we have to consider also the influence of external and internal fields of force.
+
+ For example, if a tiny particle carries a strong charge it exerts a strong action on
+ the solvent and so the frictional force is altered significantly. To describe the influ-
+ ences of the last two contribution we write the equation of motion of the particles
+
+ with the resultants of the velocities along the Cartesian axis of internal and external
+ fields:
+
+ áu i dx¡
+
+ at at
+
+ tni -r~ - Xi H- KXi , Ui = -
+
+ dv< v , „ _ dyi n ( 7 .2) лч
+ m¡ ^ - Y¡ v -|- , Kyi „ , v¡ _ - ^ n ( 7 .2) лч
+
+ dw, d Zi
+ т,- = Z, + /Í,„u, = -
+
+ where m, is the mass of the ith particle, X/, Y¡, Z¡ the components of the forces
+
+ due to thermal collisions and Kx¡ , Ky¡ , KZi the terms introduced for external and
+ internal fields. X, , У, and Z, vary so quickly and irregularly around their mean val-
+ ues that we can consider a time r in which the velocities and field forces change
+
+ negligibly. With these classical assumptions Klein discussed directly a Gibbsian
+ statistical mechanics of the system. He considered a number of system copies in
+
+ thermal equilibrium at temperature T that differs not so much for positions and
+ velocities of the particles but mainly for the forces acting on them. As usual he
+ introduced a 6 -n dimensional phase space and a system density that depends on the
+
+ considered volume, its position and time. Initially, a current moves the particles, and
+
+ Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:38:26 UTC
+All use subject to https://about.jstor.org/terms
+
+ X/, У/, Zi are discontinuous quantities. The integrals of these forces over time r,
+ which are the linear momenta, turn out to be independent of each other and discon-
+ tinuous:
+
+ 414 S. Zambelli
+
+ пчШ= J X¡d t
+
+ m¡g¡( r) = J Zjdt
+
+ /+Г
+
+ f+T
+
+ /+Г
+
+ t
+
+ t
+
+ t
+
+ = J y¡dt (7.3)
+
+ F7 л а' г
+
+ F7 ft( r) л =
+
+ rtii m¡
+
+ çv(r) =
+
+ m i m i
+
+ rfi(z) = - - V¡T - - KyiT (7.4)
+
+ m, m i
+
+ ft , rji and çí have a Gaussian distribution for specific forms of the forces X/ , У, , Z; .
+
+ Their mean values are local functions of the phase space:
+
+ £,?(r) = 2x,r
+
+ nf( т) = 2Я,г (7.5)
+
+ çf(r) = 2щт
+
+ The quantities Xi » ^ » fli had been calculated by Lorentz considering thermal equi-
+ librium between particles and solvent and turn out to be independent from the
+ particles' velocity (Lorentz 1916). Klein then defined the probability that the val-
+ ues of ft(r), rç, (r), çí(t) would be found between ft and ft + dft, rj¡ and тц +
+ drç/, çí and g¡ -h ág¡y for all i, and obtained the probability that a point in the
+
+ phase space with initial position and velocity jtp . . . , w® after time r would have
+ velocity components between the limits u' and u' + dwi, . . . , wn and wn + d wn
+ as:
+
+ W(£i, • • • , Çn, и?, • . . , w^áui . . .d wn. (7.6)
+
+ Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:38:26 UTC
+All use subject to https://about.jstor.org/terms
+
+ The quantities и/, и/, tu/, А*,, refer to the initial time í, B¡ is the friction
+ coefficient of the / -particle and a¡ a constant that depends on the nature of the solvent
+
+ and of the particles. We obtain also that the mean square values of the impulses result
+ proportional to г :
+
+ Chemical kinetics and diffusion approach 415
+
+ The number of phase space points with initial position between jcj* andjt^+clti, . . z®
+ and -f dzi and velocity between u® and u® + d§i , . . w® and w® + dg' is given
+
+ by:
+
+ vf(x0{i . . . , zi к?, . . . , W°n, t)dx 1 . . . dzn^' ...dgn, (7.7)
+
+ where v represents a number of system copies sufficient to fill the entire space of the
+
+ recipient walls and the volume of the particles themselves, the element d%' . . . dgn is
+
+ small compared with du' ... d wn . If we consider a volume element of the phase space
+ dct) = dx' .. .dzndu ' . . . d wn, where x' = + u't, zn = z„ + w'x , so small that
+ all points have passed through it from the initial volume after a time r, the number of
+
+ these points will be:
+
+ vf(x 1, . . . , wn, t + r)d CO. (7.8)
+
+ / is obtained by integration over all possible velocities, considering и Ç, . . . , w® as
+ functions of £i ... gn :
+
+ + 00 +00
+
+ f(xi,...,wn,t + T)= J J /(*?
+
+ - OO -00
+
+ X ...,u>°)d$i ...dçn (7.9)
+
+ |(. = ui и® (7.10)
+
+ m = v¡ - v? - -z
+
+ Çi = w¡ -w¡
+
+ m,
+
+ m,-
+
+ o Kz>
+
+ mi
+
+ Klein expanded the integral (7.9) into a power series to first order:
+
+ i |/(*l , • • • , W„, t + r) - /(*?, . . . , w°, o]
+ X-1 '( + d^(4i f)'
+ ~ h Lv"^r э»? + э «,? )
+
+ y dut dvj dwi J _ ' 3 Xi + 3 yi 3z//J
+
+ žszA _ с„д 3 + „д 3 + „д)! 3z//J an>
+
+ The solution of this equation determines the number of points that migrate from a
+ volume in time r, and this represents a diffusion equation. Introducing the mean val-
+ ues of £j(r), гц{ г) and g¡( г) previously obtained in (7.4), the Eq.7.1 1 turns into the
+ differential form:
+
+ â Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:38:26 UTC
+All use subject to https://about.jstor.org/terms
+
+ a, л ( Э2(Х./) I a2(À,/) . 32(W/)' , fl, /Э(«,-/) + , d(v¡f) + . 3(ui,/)'
+ 2l_ a, _ Y 9u? I 3u? dwf J m V Зи, + 3 Vi + 9wj )
+
+ dt '=' _ +2Žjr (*" + H + Kli M ) ~~ ("' + Vi I« + Щ Ю _
+
+ where a' and b' are constants independent from the velocity и '. However,
+ the mean values of are: Xi = so ¿*iand b' must
+ be zero. The presence of forces , KZn cannot change these values pro-
+ vided that they have no influence on B¡. Klein then considered the presence of
+
+ forces due to potential fields independent of time: (a,- - l)KXhyitZi = дхд ^ z. ,
+ but dependent on the nature of the fluid and the temperature by virtue of
+ the constant a, . The Klein-Kramers equation finally assumes the well-known
+ form:
+
+ 416 S. Zambelli
+
+ (7.12)
+
+ This new equation determines the distribution function and represents the first form
+ of the Klein-Kramers equation. Its validity is limited to times of the order of r,
+ for arbitrary times we have to consider the general Gibbs equation but we would
+ have to know also the exact mechanical properties of the liquid. Klein, by integra-
+ tion of the preceding equation, obtained the quantities /,* , . . . , дп in the absence
+ of active forces and with the assumption of a Maxwell distribution for the veloci-
+ ties:
+
+ kT Bi m'ïï.2
+
+ Xi =
+
+ mi
+
+ n Г kTBj ( Э2/ Э2/ Э2Л Bi ( dim/) djvif ) d(Wjf)'
+ 2L _ у mi ' ãw, щ щ) m¡ ' dui dvi du>i )
+ dt ' -U 1 (dV ÈL + J- dV <y_ + , dV dj_' - / . a/ + , Э/ + , df'
+ L+^7 -U 'J)xidu¡ ÈL + J- 357ÏÏÏ7 <y_ + , - 'u4x¡ . + , v¡Wi + ,
+
+ (7.14)
+
+ Kle in wanted to apply the Klein-Kramers equation to different cases, once its gen-
+ eral form had been obtained. He noted that Einstein and Smoluchowski had treated
+
+ extensively the case without external forces. In those works, nevertheless, only the
+ positions of the particles are considered, not their velocities. The simple assump-
+ tion on the time allows him to obtain the Maxwell distribution for velocities. In any
+ case, Klein's approach is very different from that of Einstein's (1905) and Smolu-
+
+ chowski 's (1916). He tried to apply the dynamical equation of the distribution func-
+ tion for any time even if this has no practical meaning. Maxwell's distribution is
+ valid also in presence of external forces, as Smoluchowski had demonstrated. Klein,
+
+ however, asserted that Smoluchowski in person had showed him that his theory was
+ not valid for very short times. There are some problems also for longer times. To
+ gain a description for all times, not only for r, Klein limited his treatment to one
+
+ system of v particles with only one copy: n - 1. This limitation makes the phase
+ space simply correspond to two three-dimensional spaces, one for positions and the
+
+ other for velocities. The coordinate space corresponds to the volume occupied by
+
+ â Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:38:26 UTC
+All use subject to https://about.jstor.org/terms
+
+ Chemical kinetics and diffusion approach 4 1 7
+
+ the solution. In order to simplify the system Klein introduced the classical exam-
+ ple of a thin, infinitely long cylinder. External forces act only along the cylinder
+ axis, and the cylinder walls play no role in the considered example. The motion
+ along the cylinder is free with any possible distribution of particles whereas the
+ motion perpendicular to axis direction is negligible or considered in an equilib-
+ rium state. So we are considering a one-dimensional system. For this case, Klein
+ begins by applying the Klein-Kramers equation to the following distribution func-
+ tion:
+
+ _ 1 / tnip- . '/'
+
+ f = e _ W'~T' )(p(x,u,t)t (7.15)
+
+ where cp represents a measure of the deviations from equilibrium distribution. The
+
+ Klein-Kramers equation for (p then becomes:
+
+ d(p irTttd2<f> ~ ft d(p
+ - dt = kTß-j ¿ ~ ßu~z ft
+
+ dt ou ¿ ou m "ã- ox ä ou ox m
+
+ Klein emphasized the great difficulties in the integration of this equation in the
+ presence of external forces. He took up Smoluchowski's treatment of an harmonic
+
+ potential: V = |jc2, a = mßy , where y is a positive constant much smaller
+ than ß , a quantity related to the viscosity. Smoluchowski had used this treatment
+ for a statistical proof of the second theorem of thermodynamics, as we have seen
+ in the third section of this paper. Klein, beginning as usually from the particles'
+
+ equation of motion, found the analytical solution of Eq. 7.16. It has the cumbersome
+ form:
+
+ m r'r2
+
+ 'J _ 'П-Г2)
+
+ х}- , (7.17)
+
+ f{x, u, t + r) = J j f (^0, И0, t)e-VT("2+ßYx2)<pdxoduo. (7.18)
+
+ +00 4-00
+
+ - 00 -00
+
+ Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:38:26 UTC
+All use subject to https://about.jstor.org/terms
+
+ ^ 2пкТе~ят(и2+РУх2) i _ ( r'+rì' е-2щ
+
+ where r' and гг are the solutions of the equation r2 - ßr + ßy = 0, p = x - ^
+ and b - xo - This formula represents a valid solution of all statistical problems
+ about solutions or suspensions if we consider times of a magnitude much greater
+
+ than 1/ ß. Starting from an initial distribution / (*o> "о» 0 the current distribution
+ results:
+
+ If П =0 we are considering a system without external forces. For t -> oo we find
+
+ the equilibrium distribution as excepted to be:
+
+ 418 S. Zambelli
+
+ fix, u, oo) = (7.19)
+
+ IttkT
+
+ Klein then compared his results with that of Smoluchowski (3.1). Smoluchowski
+
+ had studied only overdamped dynamics imposing an instantaneous equilibrium for
+ the velocities. The interesting thing is that Klein not only confirmed Smoluchow-
+ ski's equations and solutions but obtained general results that are applicable to dif-
+
+ ferent cases. Klein found that Smoluchowski's expressions were correct only by
+
+ virtue of imposing a particular distribution for initial velocities: uo/ß % 0, the ratio
+ between initial velocity and friction must be nearly zero, but Smoluchowski had not
+
+ imposed this assumption explicitly in his treatment. Klein found the solutions for the
+
+ three-dimensional case from the simple one-dimensional cylinder system and again
+ confronted his results with that of Smoluchowski. The expressions of the Polish sci-
+
+ entist turn out to be valid in general if the variation of the acting forces on a sus-
+
+ pended particle is small over a displacement ofü/ß. Klein's theoretical and more
+ methodical approach to this kind of systems was necessary for the description of
+ ionic solutions and processes like electrolysis, the precedent works being only valid
+ for colloidal suspensions. Finding exact solutions for this kind of systems however
+ presents, also today, insurmountable difficulties in most of the cases. So Klein intro-
+
+ duced, qualitatively and quantitatively, the first necessary approximation needed to
+ obtain some useful results: he considered only a single ion and the mean value of
+ reciprocal actions of other ions by setting it constant. The mean action of other ions
+ was in such a way considered together with the solvent's action. For ionic solutions,
+
+ the description of Einstein and Smoluchowski is too simple because in this case the
+
+ viscosity and its dependence on temperature are influenced also by Coulomb inter-
+ actions. Klein considered ionic friction as a product of the macroscopic viscosity
+ coefficient of the solvent multiplied by quantities dependent on the nature of the
+
+ considered ion but independent from temperature. Temperature dependence remains
+ included in the viscosity coefficient. In a similar way he rescaled the positions, time,
+
+ and the concentration, and he demonstrated the validity of his expressions for solutions
+
+ with different temperatures and concentrations. At the end of the paper, Klein found
+
+ again the expression for the conductivity coefficient. The new expression is consistent
+
+ with Bjerrum's. Bjerrum's formula was shown to be a special case of Klein's general
+ expression. Thanks to Klein's work the study of bipolar solutions gained a formal
+
+ basis. Klein's and Kramers's purely theoretical approach was necessary for a general
+ description of solution dynamics. It allowed for the theoretical description of solution
+ characteristics, varying the number of the solute particles, the solvent, the interaction
+
+ between them, as well as external influences. This work established the general basis
+ for the description of complex condensed phase phenomena like the deviation from
+ the behaviour of ideal solutions, diffusion, electrolysis, and the kinetics of chemical
+ reactions.
+
+ Solutions and ionic reactions are suitable systems of charged particles to be studied
+
+ by Boltzmann's statistical methods. Before the publication of Klein's paper of 1922,
+
+ <0 Spring er
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:38:26 UTC
+All use subject to https://about.jstor.org/terms
+
+ Chemical kinetics and diffusion approach 419
+
+ Kramers and Klein came also to the important result that the logarithm of the activity
+
+ coefficient was proportional to the square root of the ionic strength. But they were
+
+ unsatisfied with their formal derivation, Kramers in particular intended to obtain that
+
+ result using Gibbs statistical mechanics more rigorously. However, both Klein and
+ Kramers soon became occupied with others problems. Klein began his work on rel-
+
+ ativity and Kramers returned to atomic physics, his main research subject during his
+ Copenhagen years.
+
+ In 1923, in a famous paper (Debye and Hückel 1923), Peter Debye and Erich
+ Armand Arthur Joseph Hückel (1896-1980) obtained exactly the same law consid-
+ ered earlier by Kramers and Klein:
+
+ AG = - log Y± = Z+Z-A (7.20)
+
+ 1 + BasTl
+
+ Four years later Kramers returned to this topic and published a paper on the statistical
+ mechanics of ionic solutions, always using Gibbsian statistics. His work was more
+
+ systematic than that of Debye and Hückel. In fact, Kramers introduced corrections to
+ their law (Kramers 1927). But the impact and importance of that result was in any
+
+ case much smaller than that of the original Debye-Hückel paper.
+
+ The joint work of Kramers and Klein on the theory of strong electrolytes is a good
+
+ example of what Max Dresden, one of the most famous students of Kramers and his
+ major biographer, called the conundrum of the near misses (Dresden 1987, p. 446).
+ Many times during his career Kramers was very near to conclusive theoretical concep-
+
+ tions but he abandoned them without publishing his main results, or he published later
+
+ only minor and misunderstood papers. As Dresden noted, this was due to Kramers
+ personality, he was very timid and consequently cautious about his results. Another
+
+ reason may be Kramers impressive eclecticism that led him to shift from one subject
+
+ to another in quick and rapid succession.
+
+ 8 Kramers work in 1940
+
+ This was Kramers's first approach to solution dynamics, and, after the brief collabo-
+ ration with Christiansen, he returned to the study of chemical reactions only around
+ 1940.
+
+ The little attention that Kramers paper of 1940 (Kramers 1940) received at the time
+
+ has led many physicists and historians of science to consider this work as a simple
+ exercise of style, a curious and interesting application of advanced statistical mechan-
+ ics. Notable in this sense are the words spoken by Nicholas van Kampen, the most
+ famous of Kramers's students, during the after-dinner speech to the 50 years after
+
+ Kramers meeting in 1991 (Hanggi and Troe 1991) as reported in the excellent book of
+ D. ter Haar (1998), another famous student and biographer of Kramers. Van Kampen
+
+ suggested that although the apparent motivation of Kramers's paper was a discussion
+ of chemical dissociation, and, possibly, nuclear fission, the real reason for this research
+ was his fascination with the mathematical intricacies of the problem.
+
+ Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:38:26 UTC
+All use subject to https://about.jstor.org/terms
+
+ 420 S. Zambelli
+
+ Van Kampen's statement may carry some truth but as we have seen in our
+
+ reconstruction of the origins of the 1940 paper (Christiansen 1936), reaction kinet-
+
+ ics and chemical dynamics were important fields of study that interested Kramers
+
+ profoundly although he attended to it only irregularly. There are about six papers ded-
+
+ icated directly to chemistry and another 20 related to that field in his whole oeuvre
+ of 148 publications (ter Haar 1998). In the chemistry papers, Kramers shows good
+ knowledge of chemical problems, and the bibliographical references demonstrate that
+
+ he was aware of the debates and problems inside the physical chemistry community.
+
+ The paper of 1940 presents what today we call the "Kramers problem": the dynam-
+
+ ics of a particle moving in a bi-stable external field of force, subject to the irregular
+
+ forces of a surrounding medium in thermal equilibrium. The particle, originally caught
+
+ in a potential well, may escape by passing over a potential barrier. Constructing a dif-
+
+ fusion equation for the density distribution of particles in phase space it is possible
+
+ to calculate the probability and the escape rate as a function of the temperature and
+ viscosity of the medium.
+
+ It is important to note that also today one does not know a model for Kramers' s
+
+ problem which is valid over the whole range of possible values for the viscosity.
+ Approximations have to be made and, as van Kampen said: "it seems as if almost
+
+ everything that can be done in that direction has been done by Kramers". Van Kam-
+ pen's comments are precise and well-phrased and it is hard to say anything more
+ significant, so I shall limit myself here to relate some of them.
+
+ The 1940 paper is, as van Kampen puts it, "a typical Kramers paper, containing
+
+ many gems, but as a whole somewhat confusing. It needs a careful perusal and that
+ may well be the reason that it was not well known for many years" (ter Haar 1998,
+ p. 95).
+
+ Kramers considered the one dimensional motion of a particle of unit mass starting
+
+ from a Langevin equation for the system:
+
+ àv u ^ ч --Ai, dV(x)
+ - àv = -{„ u + /(,) ^ ч --Ai, dV(x) (8.1)
+
+ where V(jc) is the potential field, £ the friction and / (t) a time dependent stochastic
+
+ force with the following statistical properties:
+
+ (fit)) = 0, </«>)/(/)> = C8(t). (8.2)
+
+ Kramers searched in particular for the distribution law of the particles in phase space
+ on the basis of a given distribution of the random forces. He obtained the diffusion
+
+ equation for the particle distribution from the statistical moments of the random force:
+
+ dP(x,xo,v,vo,t)
+
+ a dv(*) a a / a '
+
+ r = "3î-- <8-4>
+
+ Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:38:26 UTC
+All use subject to https://about.jstor.org/terms
+
+ where the operator Г is defined as:
+
+ Chemical kinetics and diffusion approach 421
+
+ Fig. 2 Kramers's asymmetric potential, taken from Kramers's 1940 paper (Kramers 1940)
+
+ This expression is generally known as the Kramers equation although it had been
+ derived originally by Klein in 1922 as we have discussed above. Kramers looked for
+
+ solutions of Eq. 8.4 for the cases of two different potentials, an asymmetric one with
+
+ a smooth barrier (see Fig. 2) and a symmetric one with a sharp barrier. Taking up van
+
+ Kampen's words, the first gem of the paper is the discovery that it is sufficient to inves-
+
+ tigate the stationary case, even though one is interested in a decay rate (ter Haar 1 998, p.
+
+ 95). This fundamental assumption, at least for a symmetric potential, was really due to
+
+ Christiansen (1936), as we have seen, albeit only in a qualitative way Kramers (1940).
+
+ We remark that the stationarity condition is not strictly an approximation, but rather
+
+ the simplest case of a non-equilibrium state of a system. However, we can approximate
+
+ the distribution near A and B, the initial and final potential well, with an equilibrium
+
+ distribution if the barrier is high compared to квТ and the diffusion will be slow.
+
+ Kramers did not succeed in finding solutions for the whole range of values of the
+
+ friction coefficient, but only considered the limiting cases of large and small values of
+
+ £. He first considered the case of large viscosity, and, in van Kampen's words, this is a
+
+ second gem : "in the limit of large friction the equation reduces to a diffusion equation
+ in coordinate space alone" (ter Haar 1998, p. 96). This requires the elimination of
+ the momentum of the particle, which Kramers achieved by means of an ingenious
+ step. Assuming a Maxwell distribution for the velocities (the fast variables with large
+
+ friction) we can write directly:
+
+ where <j(jc, t)is the distribution over spatial coordinates. The diffusion equation may
+ then be written as:
+
+ P(xyv,t) - a(x,t)e 2кът , (8.5)
+
+ - __v^_
+
+ <0 Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:38:26 UTC
+All use subject to https://about.jstor.org/terms
+
+ Э a(x,t) kBTd2a(x,t) Э f F(x) , J
+ ~»Г a(x,t) = - ìx [Т'"1 f F(x) , "J J ' <8'6)
+
+ where F(x ) is the force of the field and D the diffusion coefficient. This corresponds
+
+ to the well-known Smoluchowski Eq.3.1 and is obtained from the Kramers equation
+
+ of diffusion by an integration along a straight line x -f v/Ç = x' = const. One can see
+
+ the similarities with Klein's discussion. The solution for the flux w in the stationary
+ case is:
+
+ One can now ask the question: what is the mean first passage time, or the probability
+ of escape from A to B?
+
+ We now have van Kampen's third gem : "having obtained the one-dimensional dif-
+
+ fusion equation Kramers found the mean first passage time by deriving a formula for
+ it, which is today common knowledge, although it is occasionally rediscovered (ter
+ Haar 1998, p. 97)".
+
+ The escape probability r turns out to be:
+
+ 422 S. Zambelli
+
+ w = (8.7)
+
+ r - w/ria ,
+
+ where na is the number of particles near A. This method to obtain the rate r is today
+
+ known as the flux over population method. Kramers estimated r also in another way
+ which van Kampen takes to be the fourth gem : "He decomposed the range of the
+
+ coordinate into one region around the top of the potential region, and another region
+
+ covering the potential well. This has now become a standard trick of singular pertur-
+
+ bation theory. It enables one to apply different expansions in both regions, provided
+
+ one can fit them smoothly together so as to get an approximation that covers the whole
+
+ range (ter Haar 1998, p. 97)" Assuming that the potential well near A can be approx-
+
+ imated as a harmonic potential: V (*д) = ¿(Inco^x2, and that the potential near the
+ top of the barrier of height Q at position С can similarly approximated by a quadratic
+ potential:
+
+ v C*c) = Q - ^(2W)2(x - xc )2. (8.8)
+
+ Kramers finds, in the case of the asymmetrical potential:
+
+ 2jT(0(0f _ J2_
+
+ r ^
+ r'
+
+ where rj is the viscosity. For the symmetric potential, he obtained:
+
+ 2л co2 I tcQ -JÉL
+
+ • (8Л0)
+
+ Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:38:26 UTC
+All use subject to https://about.jstor.org/terms
+
+ Chemical kinetics and diffusion approach 423
+
+ In stationary conditions, by approximating a bi-stable asymmetric potential near the
+ barrier with the preceding expression (8.8) for V(jtc), it is possible to solve Kra-
+
+ mers diffusion equation exactly near the potential well for all values of viscosity. Van
+
+ Kampen talks of the fifth real gem : "the very ingenious construction of a solution in
+
+ the barrier region. It is true that this is only a special solution, but it is precisely the
+
+ one he needs: no incident particles from infinity, and thermal equilibrium on the side
+
+ of the well. Hence it can be attached smoothly to the equilibrium distribution inside
+ the well (ter Haar 1998, p. 98)".
+
+ In the case of medium-small viscosities (rj >> w>) we get:
+
+ г ъ со • e'1**7 = rTR , (8.11)
+
+ a result that is independent of viscosity. This is the transition state theory (TST) value
+ of Henry Eyring (1935) and Michael Polanyi (Evans and Polanyi 1935), who did not
+ consider the role of the. It may seem impressive to see that the results of TST, based
+
+ on quantum mechanics (Polanyi and Eyring 1931a), come out as a particular case of
+ Kramers' pure classical method. But there are precise limitations to the use of Kra-
+ mers's method as we will see in the conclusions.
+
+ Then Kramers examined the case of very small viscosity that also gave results
+ different from the TST value. TST assumes a perfect thermodynamic equilibrium
+
+ between reactants, (particles in A in our case), and products (particles in B). However,
+
+ van Kampen notes: "Kramers also realised that for very small friction the fluctuations
+
+ might not be able to maintain the equilibrium in the well; rather the leakage across
+ the barrier would deplete the high energy tail of the distribution. For this case he
+
+ introduced the sixth gem. In the limit of low friction the particle in the well oscillates
+
+ roughly with a constant energy. It is therefore possible to average out the phase. This
+ leads to a one-dimensional diffusion equation in the energy scale, from which it is
+
+ easy to compute the average time needed to reach the energy of the top of the barrier".
+ Kramers introduced the action 1(E) instead of the energy, which represents the
+
+ area in phase space within a curve of constant energy:
+
+ I{E)=j>vdx. (8.12)
+
+ He thus found a diffusion equation for the ensemble density:
+
+ Т,="Ь{" + к'т,ш)- <8I3)
+
+ The motion of the particles in the potential wells will be oscillatory, with a period of
+ oscillation a which satisfies the equation:
+
+ - (8.14)
+
+ Ô Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:38:26 UTC
+All use subject to https://about.jstor.org/terms
+
+ In the stationary state, the solution of the ensemble density diffusion equation is:
+
+ w = -r)kBTIe~&-^(ee1ŠT>j. (8.15)
+
+ In the small viscosity case, the escape probability results as:
+
+ 424 S. Zambelli
+
+ ГЪ1)0;е~1ЪГ- (8.16)
+
+ Thus Kramers found solutions and the rate of the process for a great part of viscos-
+
+ ity range: very small, small, and large. The intermediate region that would join the
+ different regimes was not considered by Kramers because it is difficult to find useful
+
+ approximation schemes. This problem remains a complex question, and even today
+ no definite solution for the whole viscosity range is known, although the Russian
+ physicists Sergey V. Meshkov and mainly Vladimir Ivanovich Mel'nikov found a
+ description for the intermediate range in 1990 (Melnikov and Meshkov 1986).
+
+ 9 Conclusions
+
+ The second section of this paper may appear as yet another discussion of Einstein
+
+ well-known annus mirabilis paper, but it was included here to present again Einstein's
+
+ work in the context of the application of stochastic methodologies to chemical kinet-
+ ics, which has not received much consideration by historians of science until now. A
+ similar observation holds for the third section about Smoluchowski's lesser known
+
+ work, but again one may consider his work as the first quantitative description of
+
+ diffusion-controlled reactions and therefore as a basis for a different way of seeing
+ chemical processes.
+
+ Christiansen's work of the years 1935-36 is largely misunderstood, known only for
+
+ his research on chain reactions, and also in this field its significance is obscured by
+ the Nobel Laureates Semenov and Hinshelwood. Christiansen left the description of
+ chemical reaction as diffusion processes largely incomplete and only on a qualitative
+ basis. But he made the right conjectures and introduced the necessary conditions for
+ the formal approach that Kramers would develop in 1940.
+
+ All of van Kampen's gems make a precious jewel for chemistry: a very basic
+
+ model for the description of reactions in condensed phase. It is very important because
+
+ the major deficiency of TST is that it treats the reactive event by considering only
+ the interactions between single molecules of the reactant and not with the medium.
+
+ The interaction with the medium may be included only via phenomenological fac-
+ tors. To get an exact description of condensed phase reactions by TST one needs a
+ quantum mechanical description of all molecules of the solvent involved in addition
+
+ to the molecules directly involved in the reaction. This in turn results in an impractical
+ complexity of the quantum mechanical description.
+
+ Furthermore TST, imposing an equilibrium condition, treats a dynamical event
+ as a static one. The reaction, from a microscopic point of view, is considered as a
+
+ "big" molecule that comprises, configuration states, reactants, activated complex and
+
+ Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:38:26 UTC
+All use subject to https://about.jstor.org/terms
+
+ Chemical kinetics and diffusion approach 425
+
+ products. It is not a dynamical description of the process and this is another flaw
+
+ of TST. In fact, the equilibrium condition, although useful, is the most questionable
+
+ assumption of TST. Kramers, on the other hand, made a better assumption: the sta-
+ tionarity condition. This is a more reasonable assumption because it is dynamical and
+ it represents the simplest case of a non-equilibrium process, as a chemical reaction is
+
+ when it takes place. As Max Dresden (1988) pointed out, Kramers was more familiar
+ with non-equilibrium statistical mechanics and its subtleties than most other physi-
+ cists. In classes, lectures, seminars and discussions, he pointed out the difficulties and
+
+ also the inconsistencies that were present in many traditional treatments of the subject
+ (Melnikov and Meshkov 1986). A possible link between Kramers and Eyring could
+ have been the theory of plasticity that Eyring elaborated around 1955: Eyring used
+ analogous premises to that of stochastic diffusion methods but did not generalize it,
+
+ applying instead a modified application of transition state theory (Bak 1974).
+
+ But, as we have seen, Christiansen had resumed his studies on kinetics before
+
+ Kramers, in the first half of the thirties and published two papers in 1935 (Christiansen
+
+ 1 935) and 1 936 (Christiansen 1 936). The paper of 1 936 is of great importance because
+
+ Christiansen introduced the basis of a purely diffusion treatment of chemical reaction
+
+ in the condensed phase. Christiansen's description is formally weak and not so rigor-
+
+ ous but he without doubt took the right way of the stationary state from a qualitative
+
+ and intuitive point of view.
+
+ The role of Christiansen is largely misunderstood even for scientists working on
+
+ thermodynamics and stochastic or diffusion processes; so it is not surprising that his
+
+ work is barely known by the majority of the scientific community. This fact may be
+ observed at various stages, from scientific popularization to scholarly studies. It is
+ not so surprising, on the side of popular science, that these concepts are not known.
+ They treat profound questions that are not simply accessible to people outside the
+ scientific community because of their theoretical and formal complexity. Inside the
+
+ scientific community those concepts are obviously more known but only few special-
+ ized researchers are deeply concerned directly with them. They are revolutionary as
+
+ much as relativity and quantum mechanics although less spectacular and evident.
+
+ The general difficulties about statistical mechanics are, however, not sufficient to
+
+ comprehend completely the scant and delayed interest in the Christiansen-Kramers
+ approach to activated processes. The problems of TST would lead one to think that
+ the diffusive model is better, also because the TST expression results as a particular
+
+ case of Kramers's treatment. So why has this approach not been considered for nearly
+
+ thirty years and why is it even today underestimated? The causes are manifold, for
+ historical and methodological reasons.
+
+ Christiansen, timidly, tried to popularize his approach, as we can see from his
+ own words spoken at the 67th general discussion of the Faraday Society in 1938
+ (Guggenheim and Weiss 1938), titled Reaction Kinetics, during the debate of the
+ lecture of Edward Armand Guggenheim (1901-1970) and J. Weiss.
+
+ As to whether it is permissible to assume, in the neighbourhood of the critical state,
+
+ anything like an equilibrium state density of representative points, I have sought to
+ show that it is at least natural to consider a chemical reaction as an intramolecular
+
+ diffusion process. According to this picture the velocity of reaction must be identified
+
+ with the intensity of flow of representative points at that part of the reaction path which
+
+ ô Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:38:26 UTC
+All use subject to https://about.jstor.org/terms
+
+ 426 S. Zambelli
+
+ correspond to maximum potential energy. If we set out the differential equation for
+
+ the diffusion process and, as a first approximation, solve it for the case of a stationary
+
+ flow, we find that the density of points at the place of maximum potential is exactly
+ half of the equilibrium value calculated from the number of systems in the original
+ state, if we assume that, in the final state the reacting molecules are practically not
+ existent (p. 73).
+
+ Chistiansen received no response. Although he inherited the chair of Johannes
+
+ Nicolaus Br0nsted (1879-1947) of physical chemistry in Copenhagen, he remained
+ a relatively isolated scientific figure and did not write many papers. He gained some
+ influence only in his own country, Denmark (Bak 1974).
+
+ Kramers's paper of 1940 (Kramers 1940), on the other hand, seems to have come
+
+ out of nowhere. He worked directly on chemical kinetics only once before with
+ Christiansen in 1923 (Christiansen and Kramers 1923). We can assume that Kra-
+
+ mers kept a particular interest in this theme and stayed in contact with Christiansen
+
+ but only in private. Kramers's studies on this subject are eclipsed by his more relevant
+ contributions to quantum mechanics.
+
+ The great success of TST in a similar way eclipsed Christiansen's approach in the
+
+ chemical ambit. This approach is purely classic and was born in a period in which
+
+ the attention of scientific community was catalyzed by the first developments and the
+ formalization of quantum mechanics. During and after the second world war these
+
+ studies were almost totally forgotten, with the notable exception of Chandrashekhar's
+
+ review of 1943 (Chandrashekhar 1943). That work is the only one explicitly cited by
+ Eyring and collaborators for example and only for very specific cases of diffusion
+
+ controlled reactions and processes in the condensed phase (Eyring et al 1980; Eyring
+ and Eyring 1963; Laidler 1997; Eyring 1975).
+
+ Methodologically, even if the diffusive stochastic approach has some theoretical
+
+ advantages, it is more difficult to adapt and apply to the description of chemical reac-
+
+ tions than TST. It requires notable mathematical knowledges and physical concepts
+ that are not so familiar in chemistry. TST on the other hand, relying on the pow-
+ erful means of quantum mechanics, produces more predictive results, although one
+ has to apply phenomenological coefficients in some cases and make some arbitrary
+ assumptions.
+
+ Mathematically, the stochastic operators have the same structure as Hamiltonian
+
+ operators, so one could think of applying the same approximation techniques that
+ have brought about the extraordinary progress of quantum mechanics. Unfortunately,
+
+ this is not possible because there are no analytical solutions for a complex phenom-
+ enology such as the temporal evolution of a distribution of particles interacting with
+ the medium, neither for the simplest cases (excluding the phenomenology with no
+ potential present). On the contrary, in quantum mechanics there is a simple phenom-
+ enology described analytically: the motion of an electron around a nucleus or the
+
+ hydrogen atom. This is mainly the reason why stochastic methods were rediscovered
+
+ during the sixties in chemistry and in physics. The introduction and the first develop-
+
+ ments of computer science have allowed one to fill partially the gap of the deficiency
+
+ of a fundamental analytical solution by means of computational methods. In this way,
+ the Christiansen-Kramers theories have found today a new strength and are applied
+ in various chemical problems, as we can see looking at the titles of the papers of a
+
+ Spring er
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:38:26 UTC
+All use subject to https://about.jstor.org/terms
+
+ Chemical kinetics and diffusion approach 427
+
+ congress dedicated to Kramers in 1990 Hanggi and Troe (1991). In particular, today
+ the Christiansen-Kramers approach and the Eyring-Polanyi mainstream theory are
+
+ treated together Berglung and Gents (2008). This is fortunate because the diffusion
+
+ approach could also have been forgotten.
+
+ Acknowledgements I am very grateful to Prof. Giorgio Moro and Prof. Giulio Peruzzi of the University
+
+ of Padova, Italy, for the fruitful discussions and the essential advices they gave me on the draft of this paper.
+
+ References
+
+ Z Phys. Chem. 4:226.
+
+ Arrhenius, S.A. 1889. Über die Reaktionsgeschwindikeit bei der Inversion von Rohrzucker durch Saiiren.
+
+ Bäk, T.A. 1974. The History of Physical Chemistry in Denmark. Ann. Rev. Phys. Chem. 25:1.
+ Berglung, N., and Gents, B. 2008. The Ey ring-Kramers law for potentials with non quadratic saddles.
+
+ arXiv:0807.1681vl [math.PRl.
+
+ Brush, S.G. 1968. A History of Random Processes. Arch. Hist. Exact. Sci. 5: 1 ; see also The Kind of Motion
+
+ We Call Heat. (Amsterdam: North-Holland, 1976) Chap. 15.
+
+ Chandrashekhar, S. 1943. Stochastic Problems in Physics and Astronomy. Rev. Mod. Phys. 15:1.
+ Christiansen, J. A. 1922. Über das Geschwindigkeitsgesetz monomolekularer Reactionen, Z. Phys. Chem.
+
+ 103:91
+
+ Christiansen, J. A. 1935. Einige Bemerkungen zur Anwendung der Bodensteinschen Methode der stationären
+
+ Konzentrationen der Zwischenstoffe in der Reakionskinetik. Z Phys. Chem. 28B:303.
+
+ Christiansen, J.A. 1936. Über eine Erweiterung der Arrheniusschen Auffassung der chemischen Reaction.
+
+ Christiansen, J.A., and Kramers, H.A. 1923. Über die Geschwindigkeit chemischer Reaktionen. Z. Phys.
+
+ Z Phys. Chem. 33B:145.
+
+ Chem. 104:451
+
+ Debye, P. 1912. Einige Resultate einer kinetischen Theorie der Isolatoren. Phys. Z. 13:97.
+ Debye, P., and Hückel, E. 1923. Zur Theorie der Elektrolyte. Physik. Z 24: 185.
+ Delbrück, M. 1940. Statistical Fluctuations in Autocatalytic Reactions. J. Chem. Phys. 8:120.
+ Dresden, M., 1987. H.A. Kramers between tradition and revolution. New York: Springer.
+ Dresden, M. 1988. Kramers's Contributions to Statistical Mechanics. Phys. Today 41(9):26.
+ Dusham, S. 1921. A Theory of chemical Reactivity. Calculations of rates of Reactions and equilibrium
+
+ Constants. J. Am. Chem. Soc. 43:397.
+
+ Einstein, A. 1903. Eine Theorie der Grundlagen der Thermodynamik. Ann. d. Phys. 1 1 :76.
+ Einstein, A. 1904. Zur allgemeinen molekularen Theorie der Wärme. Ann. d. Phys. 14:98.
+ Einstein, A. 1905. Über die von der molekularkinetischen Theorie der Wärme geforderte Bewegung von in
+
+ ruhenden Flüssigkeiten suspendierten Teilchen. Ann. d. Phys. 17:549.
+
+ Einstein, A. 1917. Zur Quantentheorie der Strahlung. Phys. Z. 18:121.
+ Einstein, A., to J. Perrin, 5 November 1919, In: D. Kormos Buchwald et al. (eds), The Collected Papers
+
+ of Albert Einstein, Vol. 9: The Berlin Years. Correspondence, January 19 19- April 1920, Princeton:
+ Princeton University Press, 2004, Doc. 156; quoted by M.J. Nye in Molecular Reality: A Perspective on
+ the Scientific Work of Jean Perrin. Science History Publications, New York: Neale Watson Academic
+ Publications, 1972, p. 177.
+
+ Evans, M.C., and Polanyi, M. 1935. Some Applications of the Transition State Method to the Calculation
+
+ of Reaction Velocities. Especially in Solution, Trans. Faraday Soc. 31:875.
+
+ Eyring, H. 1935. The activated complex in chemical reactions. J. Chem. Phys. 3:107.
+ Eyring, H. 1975. Reaction in Condensed Phases. New York: Academic Press.
+
+ Eyring, H., and Eyring, E.M. 1963. Modern Chemical Kinetics. New York: Reinhold.
+ Eyring, H., and Ree, T. 1955. A Generalized Theory of Plasticity involving the Virial Theorem. Proc. Natl
+
+ Acad. Sci. USA 41:118.
+
+ Eyring, H., Lin, S.H., and Lin, S.M. 1980. Basic Chemical Kinetics. New York: Wiley.
+ Guggenheim, E.A. and Weiss, J. (1938). The Application of Equilibrium Theory to Reaction Kinetics.
+
+ Hanggi, P., and Troe, J. 1991. Rate Processes in Dissipative Systems: 50 Years after Kramers. Ber. Buns-
+
+ Trans. Faraday Soc. 34:57.
+
+ enges. Phys. Chem. 95(3):225.
+
+ Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:38:26 UTC
+All use subject to https://about.jstor.org/terms
+
+ Hevesy, G.v. 1914. Ueber die Grosse und Beweglichkeit der Elektrizitätsträger in Flüssigkeiten, Jahrbuch
+
+ 428 S. Zambelli
+
+ Hevesy, G.v. 1916. Ueber die Grösse und Beweglichkeit der Elektrizitätsträger in Flüssigkeiten, Jahrbuch
+
+ King, M.C., and Laidler, K.J. 1984. Chemical Kinetics and the Radiation Hypothesis. Arch. Hist . Exact.
+
+ d. Rad. u. Elektronik 1 1:419.
+
+ d. Rad. u. Elektronik 13:271.
+
+ Sci. 30:45.
+
+ Kirchhoff, G. 1897. Vorlesungen über Mechanik, 26, Vorlesung §4. Leipzig: Teubner.
+ Klein, O. 1922. Zur statistischen Theorie der Suspensionen und Lösungen. Arkiv Mat. Astr. Fys. 16(5): 1 .
+
+ Kramers, H.A. 1927. Investigations on the Free Energy of a Mixture of Ions. In: Amsterdam Proceedings,
+
+ Kramers, H.A. 1940. Brownian Motion in a Field of Force and the Diffusion Model of Chemical Reactions.
+
+ Laidler, K.J. 1997. Chemical Kinetics. Ottawa: Prentice Hall.
+
+ Laidler, K.J., and King, M.C. 1983. The development of Transition-State Theory. J. Phys. Chem. 87:2657.
+ Lorentz, H.A. 1916. Les Théories statistiques en thermodynamique. Leipzig: Teubner.
+
+ Markov, A.A. 1 906. Izvestiya Fiziko-matematicheskogo obschestva pri Kazanskom universitete. Tom 2: 1 5-
+
+ vol. 30, p. 145.
+
+ Physica 7:284.
+
+ 135.
+
+ McQuarrie, D.A. 1967. Stochastic Approach to Chemical Kinetics. London: Methuen.
+
+ Mehra, J., and Rechenberg, H. 1982. The Historical Development of Quantum Theory, vol. I, part 2. New
+
+ Melnikov, V.l., and Meshkov, S.V. 1986. Theory of activated rate processes: exact solution of the Kramers
+
+ Milner, S.R. 1912. The Virial of a Mixture of Ions. Philos. Mag. 23:551.
+ Nernst, W. 1893a. Über die Beteiligung eines Lösungmittels an chemischen Reaktionen. Z. Phys. Chem.
+
+ Zork: Springer, Chap. 4, p. 490.
+
+ problem. / Chem. Phys. 85:1018.
+
+ 11:345.
+
+ und Temperatur.
+
+ Perrin, J.B. 1913. Les Atomes. Paris: Alean.
+ Perrin, J.B. 1919. Matière et lumière. Ann. de Phys. 1 1:5.
+
+ Nernst, W. 1893b. Theoretische Chemie, Thermochimie IV, 4 Kapitel. Stuttgart: Reaktiongeschwindigkeit
+
+ Perrin, J.B. 1922. Radiation and Chemistry. Trans. Faraday Soc. 17:546.
+ Polanyi, M., and Eyring, H. 1931a. On Simple Gas Reaction. Z Phys. Chem. 12B:279.
+ Polanyi, M., and Eyring, H. 1931b. Über einfache Gasreaktionen. Z. Phys. Chem. 12B:279.
+
+ Renn, J. 2005. Einstein's Invention of Brownian Motion. Ami. Phys. (Leipzig) 14(Suppl):23; see also Nott,
+
+ M. Molecular reality: the contributions of Brown Einstein and Perrin. School Sci. Rev. 86:39.
+
+ Skinner, J., and Wolynes, P.G. 1978. Relaxation Processes and Chemical Kinetics. J. Chem. Phys. 69:2143.
+ Smoluchowski, M.v. 1906. Kinetische Theorie der Brownschen Bewegung und der Suspensionen. Ann.
+
+ d. Phys. 21:756-780.
+
+ Smoluchowski, M.v. 1916. Drei Vorträge über Diffusion, Brownsche Molekularbewegung und Koagulation
+
+ von Kolloidteilchen. Physik. Zeit. 17:557.
+
+ Smoluchowski, M.v. 1917. Versuch einer mathematischen Theorie der Koagulationskinetik kolloider Lösun-
+
+ gen. Z. Phys. Chem. 92:129.
+
+ Smoluchowski, M.v. 1914. Gültigkeitsgrenzen des Zweiten Hauptsatzes der Wärmetheorie. Vorätrge über
+
+ die Kinetische Theorie der Materie und der Elektrizität (Leiozie: Teubner 1914Ì
+
+ Svedberg, T. 1912. Die Existenz der Molecule, Leipzig: Akademische Verlag.
+ ter Haar, D. 1998. Master of Modern Physics : The Scientific Contributions of H. A. Kramers. Princeton:
+
+ Princeton University Press.
+
+ Teske, A. 1977. Marian von Smoluchowski. Leben und Werk. Wroclaw: Zaklad Narodowy imienia Osso-
+
+ linskich Wydawnictwo Polskiej Akademii Nauk.
+
+ Thomson, J.J. 1893. On the effect of electrification and chemical action on a steam-jet, and of water-vapour
+
+ on the discharge of electricity through eases. Philos. Мая. 36:313.
+
+ Trautz, M. 1920. Die quantentheoretische Bedeutung der Geschwindigkeitskonstanten. Zeitschr. F. Physik
+
+ 2:117
+
+ Ô Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:38:26 UTC
+All use subject to https://about.jstor.org/terms
+
+

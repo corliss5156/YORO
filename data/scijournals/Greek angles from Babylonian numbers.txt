@@ -1,0 +1,1456 @@
+ 
+
+ 
+
+ 
+
+ 
+
+Greek angles from Babylonian numbers
+Author(s): Dennis Duke
+Source: Archive for History of Exact Sciences, Vol. 64, No. 3 (May 2010), pp. 375-394
+Published by: Springer
+Stable URL: https://www.jstor.org/stable/41342421
+Accessed: 19-05-2020 12:40 UTC
+
+JSTOR is a not-for-profit service that helps scholars, researchers, and students discover, use, and build upon a wide
+
+range of content in a trusted digital archive. We use information technology and tools to increase productivity and
+
+facilitate new forms of scholarship. For more information about JSTOR, please contact support@jstor.org.
+
+Your use of the JSTOR archive indicates your acceptance of the Terms & Conditions of Use, available at
+
+https://about.jstor.org/terms
+
+Springer is collaborating with JSTOR to digitize, preserve and extend access to Archive for
+History of Exact Sciences
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:40:29 UTC
+All use subject to https://about.jstor.org/terms
+
+ Arch. Hist. Exact Sci. (2010) 64:375-394
+ DOI 1 0. 1 007/s00407-0 1 0-0058-x
+
+ Greek angles from Babylonian numbers
+
+ Dennis Duke
+
+ Received: 5 February 2010 / Published online: 23 March 2010
+ © Springer- Verlag 2010
+
+ Abstract Models of planetary motion as observed from Earth must account for two
+
+ principal anomalies: the nonuniform speed of the planet as it circles the zodiac, and the
+
+ correlation of the planet's position with the position of the Sun. In the context of the
+
+ geometrical models used by the Greeks, the practical difficulty is to somehow isolate
+
+ the motion of the epicycle center on the deferent from the motion of the planet on its
+
+ epicycle. One way to isolate the motion of the epicycle center is to determine the lon-
+
+ gitude and time of oppositions of the planet with the mean Sun. A Greek astronomer
+ might have realized that the predictions of mean oppositions by Babylonian models
+ could serve as useful proxies for real empirical observations. It is shown that a Greek
+
+ astronomer with a reasonable understanding of Babylonian System A models for the
+ outer planets and the Sun-Moon could have used those models to estimate approxi-
+ mate values for the eccentricity e and longitude of apogee A required for geometrical
+ models. The same method would work for the inner planets if conjunctions were
+
+ observable, but they are not, and the variation of the observable synodic events - first
+
+ and last morning and evening visibilities - is dominated more by the motion of the
+
+ planet in latitude than the nonuniform motion of the epicycle center.
+
+ Models of planetary motion as observed from Earth must account for two principal
+ anomalies: (1) the nonuniform speed of the planet as it circles the zodiac, and (2) the
+
+ correlation of the planet's position with the position of the Sun. In the context of the
+
+ geometrical models used by the Greeks, the practical difficulty is to somehow isolate
+ the motion of the epicycle center on the deferent, which is responsible for the first
+
+ anomaly, from the motion of the planet on its epicycle, which is responsible for the
+
+ Communicated by Alexander Jones.
+
+ D. Duke (Ê3)
+ Florida State University, Tallahassee, FL, USA
+ e-mail: dduke@fsu.edu
+
+ Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:40:29 UTC
+All use subject to https://about.jstor.org/terms
+
+ 376 D. Duke
+
+ second anomaly. This then allows determination of, first, the eccentricity e and longi-
+
+ tude A of the apogee of the deferent and the positions Àoof the epicycle center and ão
+
+ of the planet on the epicycle at some time to , and second, the radius r of the epicycle.
+
+ One way to isolate the motion of the epicycle center for the outer planets is to
+
+ determine the longitude and time of oppositions of the planet with the mean Sun. At
+
+ the moment of such an opposition, the radius of the epicycle is pointing directly at
+ the Earth and so the size of the epicycle has no impact. Even so, the determination
+ of the longitude and time of opposition is not easy. It requires both a sequence of
+ timed longitude measurements of the planet both before and after opposition, while
+
+ the planet's motion is retrograde, and an adequately calibrated solar theory to get the
+
+ corresponding longitudes of the mean sun. The actual longitude and time of opposition
+
+ is then a result of some sort of data reduction scheme. Using just three such oppositions
+
+ and an elegant iterative geometrical analysis, Ptolemy shows in Almagest X-XI how
+
+ to determine e, A, Xo, and ão (Toomer 1984). It turns out, however, that the parameter
+
+ values determined using this method are extremely sensitive to small variations in the
+
+ input data. It seems likely, in fact, that the values of the final model parameters found
+
+ in th Q Almagest are the culmination of a chain of developments using simpler methods
+ that may well have extended over several decades, if not centuries (Duke 2005a). With
+
+ these simpler methods one can use several more oppositions, perhaps a dozen or more,
+
+ to determine the parameters and to a large extent avoid the extreme sensitivity that
+ afflicts the Almagest method (Evans 1998, p. 362-368). Either way, once the values
+ of e, A, Xo, and ão are determined, a simple analysis of a single observation of the
+
+ planet away from opposition yields a value for the epicycle radius r. Implicit in both
+
+ analyses is a rough knowledge of the mean motions on the deferent and the epicycle,
+ but these are easily determined using well-known period relations.
+
+ Given the extensive observational program required to determine the oppositions
+
+ of each outer planet with the mean Sun, it would certainly not be surprising to suppose
+
+ that if a shortcut was available for getting the empirical information necessary for
+ determining the model parameters, some Greek astronomer(s) would use it, either for
+
+ some sort of preliminary or exploratory analysis, or to confirm a conventional analysis
+ of the type outlined above, or perhaps even in lieu of real observations. Thus, a Greek
+
+ astronomer might have realized that, to the extent that they agree with observation, the
+
+ predictions of mean oppositions by Babylonian models could serve as useful proxies
+ for real empirical observations.
+
+ In addition, however, a Greek astronomer might also have realized how to extract
+
+ from System A models for the outer planets the very nonuniform time variation of
+
+ model angles that his kinematical models are designed to produce, namely the equa-
+ tion of center q - к - À, which is the difference between the true and mean longitude
+ of the epicycle center. In particular, in the geometrical models, at least as formulated
+
+ in the Almagest , the time t is the independent variable and the equation of center is
+ given as a function of the eccentricity e and the angle
+
+ a = со it - A
+
+ = X - A
+
+ Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:40:29 UTC
+All use subject to https://about.jstor.org/terms
+
+ Greek angles from Babylonian numbers 377
+
+ Then the equation of center q for the eccentric model is
+
+ and for the equant
+
+ - 2e sina
+
+ tan q =
+
+ R -f 2e cosa
+
+ - 2e sina
+
+ tan<7 = / 0 2 . =
+
+ V R 0 2 - e2 sinz a + e cos a
+
+ In the above equations the normalization is such that the total eccentricity of the
+ eccentric model is the same as the Earth-equant distance in the equant model,
+ namely le.
+
+ In System A models the true longitude к is the independent variable and the time
+
+ and mean longitude are functions of À, so it is convenient to invert the above relations
+
+ and give q as a function of the angle у - X - A. Thus, for the eccentric we have
+
+ 2e .
+
+ sin q 4 -
+ q 4
+
+ and for the equant
+
+ tan q =
+
+ - 2e sin у
+
+ but for the equant
+
+ d q
+ - = -2 e/R at apogee
+ dÀ
+
+ = +2 e/R at perigee
+
+ d q -2 e/R
+
+ - =
+ - dk =
+
+ 2 e/R
+
+ =
+
+ ^ Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:40:29 UTC
+All use subject to https://about.jstor.org/terms
+
+ V R2 - e2 sin2 у - e cos у
+
+ These expressions for the equation of center are qualitatively similar to each other but
+ differ in some details. For both models q = 0 at apogee and perigee, which are in each
+
+ model 180° apart, and the extreme values of q are symmetric about the À-axis, with
+ values dhsin_1(2e/^) for the eccentric and ±2 tan-1 (e/R) for the equant, the latter
+
+ being smaller than the former (see Fig. 1). The models differ, however, in that while
+ for the eccentric the extreme values are 1 80° apart, for the equant the distance from
+
+ maximum to minimum, and hence crossing apogee, is smaller than the distance from
+
+ minimum to maximum, crossing perigee. Consequently, for the eccentric we have
+
+ equation of center for 2e/R = 0.5
+
+ 378 D. Duke
+
+ 40 q
+
+ 30:_-
+
+ 20;_^eguant
+
+ I « '
+
+ g> oj
+
+ 2--10;
+
+ -20 :
+
+ 'ч /'
+
+ -30 :
+
+ -40 - i i i i i i i i - i i i i i r i i - i i » i i i i i - i i i i i » i i
+
+ 0 90 180 270 360
+ lambda
+
+ Fig. 1 A comparison of the equation of center for an eccentric (dashed line) and an equant (solid line). The
+
+ eccentricity is intentionally large so that the differences can be seen. However, the differences are much
+ smaller for all real planets relevant for ancient astronomy
+
+ so that the derivative of q for the equant is larger in absolute magnitude at apogee
+
+ than at perigee. We will see later that this property of the equant is reflected in most
+ System A models for the outer planets, although whether anyone realized that is at
+
+ present unclear.
+
+ In any event, however, note that knowledge of where q = 0 when its extrema are
+
+ equidistant from the À-axis gives the apogee and perigee of the deferent, and both the
+
+ values of dqldk atq = 0 and the extreme values of q give estimates for e/R. Our task
+ now is to see how a Greek astronomer could with relative ease determine the effective
+
+ equation of center q (A.) implied by a System A model, and hence estimate e and A by
+
+ comparing the functions given above with his System A estimates.
+
+ Thus the plan of this paper is to
+
+ (a) assume that some Greek astronomers were trying to explain the zodiacal anomaly
+ using geometrical models in a way that isolates the zodiacal anomaly from the
+ effects of the solar anomaly,
+
+ (b) assume that the Greek astronomers understood enough about how System A plan-
+ etary models work to realize that they might be useful for such an explanation,
+
+ (c) discuss whether it is even possible to use System A models to estimate the param-
+ eters of Greek geometrical models using methods that are plausible for Greek
+ mathematicians.
+
+ Regarding assumption (a), Ptolemy, speaking of Hipparchus, writes (Toomer 1984):
+
+ For, we may presume , he [Hipparchus] thought that one must not only show that
+
+ each planet has a twofold anomaly , or that each planet has retrograde arcs which
+ are not constant, and are of such and such sizes (whereas the other astronomers
+
+ had constructed there geometrical proofs on the basis of a single unvarying anom-
+
+ aly and retrograde arc); nor that these anomalies can in fact be represented either
+
+ by means of eccentric circles or by circles eccentric with the ecliptic, and carry-
+ ing epicycles, or even combining both , the ecliptic anomaly being of such and
+
+ such size , and the synodic anomaly of such and such (for these representations
+
+ Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:40:29 UTC
+All use subject to https://about.jstor.org/terms
+
+ Greek angles from Babylonian numbers 379
+
+ have been employed by almost all of those who have tried to exhibit the uniform
+
+ circular motion by means of the so-called 'Aeon-tables', but their attempts were
+
+ faulty and at the same time lacked proofs: some of them did not achieve their
+
+ object at all, the others only to a limited extent); but, he reckoned that one who
+
+ has reached such a pitch of accuracy and love of truth throughout the mathemat-
+ ical sciences will not be content to stop at the above point, like the others who
+ did not care. . . (italics added).
+
+ So, although Ptolemy does not directly say that Hipparchus left the informa-
+
+ tion above in his writings, he is at least willing to 'presume' what Hipparchus was
+ thinking - that it was important to explain both anomalies with geometrical models,
+ and that while many people had tried, none had yet succeeded. If Ptolemy was willing
+
+ to presume that, then I suggest we should also be willing. This conclusion is fur-
+ ther supported by the Hindu planetary models, which are generally considered to be
+
+ pre-Ptolemaic and which definitely are geometrical attempts to explain both anoma-
+ lies (Neugebauer 1956; Pingree 1976, 1978; Duke 2005b), and which may in fact be
+ among those Ptolemy, and as he presumed, Hipparchus, were alluding to above.
+
+ Assumption (b) is supported by the fact that Greek papyri give System A plane-
+
+ tary model results using parameters adopted by Greek astronomers (Britton and Jones
+
+ 2000). Such adaptations show clearly that at least some Greek astronomers were capa-
+
+ ble of understanding the structure of System A models well enough to modify them
+
+ and bring them into conformance with Greek astronomy and Greek calendars.
+
+ As will be explained in detail in the following, given assumptions (a) and (b) the
+ question posed in point (c) can be answered in the affirmative. In particular, however,
+
+ while there is very tentative evidence discussed below from a papyrus that might be
+ associated with Mars that someone might have gone down the path we discuss, that
+
+ evidence is far from conclusive and might even be an illusion. Nevertheless, that does
+
+ not affect the main result of this paper - that the proposed scenario might have plau-
+
+ sibly happened. However unsatisfactory all of the uncertainty may seem, it is really
+ no different than the same uncertainty we face in many other places in the history of
+
+ ancient mathematical astronomy. We can see that some development was possible, and
+ we can see that if some development happened then it would explain something we
+
+ do reliably see, but we simply have no direct evidence to support the original premise
+
+ that the said development did occur.
+
+ Unlike the Greek geometrical models, which are kinematical and based on explic-
+
+ itly continuous motion in space and time, the Babylonian models are based entirely on
+ simple arithmetic and aim to explain only the location in space and time of a sequence
+ of synodic events, which are appearances of a planet in a given relationship to a uni-
+ formly moving Sun, which a Greek astronomer would identify as the mean Sun. In
+ order to clearly understand the underlying phenomena, let us begin by considering
+
+ conjunctions of an outer planet, say Jupiter, with the Sun, and for now ignore the fact
+ that such conjunctions are not in fact visible. Suppose that we see such a conjunction
+ at a time t when the Sun and Jupiter both have longitude к. Let us now suppose that
+
+ the next conjunction occurs at some known longitude к -f Ак. Our problem is to find
+ the time this next conjunction occurs. Since the Sun moves much faster around the
+
+ zodiac than Jupiter does, the time interval At between conjunctions is the time it takes
+
+ ^ Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:40:29 UTC
+All use subject to https://about.jstor.org/terms
+
+ the Sun to complete one full orbit from к back to À, which is of course 1 year of
+
+ y 365^d, plus the time it takes the Sun to go the additional distance AÀ. If the Sun
+ moves uniformly, or more realistically, if we simply assume the Sun moves uniformly,
+
+ whether it does or not, then the Sun will complete the final А к in time AX/ws , where
+
+ с os - 360°/365^d, so in total
+
+ 380 D. Duke
+
+ AX
+
+ A t = y + -
+ со s
+
+ and in fact this is exactly how the Babylonian System A models computed the time
+
+ interval between synodic events for the outer planets, except that they had to allow for
+
+ the fact that they used tithis, schematic days equal to l/30th of a lunar month, instead of
+
+ days, and they approximated the Sun's speed as '°/tlthl . Note that this computation of
+
+ the time interval remains the same if we use oppositions rather than conjunctions, and
+
+ in fact if you use events at any constant elongation of the planet and the Sun. This line
+
+ of analysis was first elaborated by van der Waerden, who called it his "Sun-distance
+ principle" (van der Waerden 1974; see also Schmidt 1969).1
+
+ Stations and horizon phenomena such as acronychal rising and first and last visibil-
+
+ ity were considered and modeled by Babylonian astronomers. However, it is difficult
+
+ to accurately determine by observation both the position and time of these events, and
+
+ it is only approximately true that the planet has a fixed relation to a uniformly moving
+
+ Sun, or the real Sun, for that matter, in a sequence of such events. Whether or not the
+
+ Babylonian astronomers understood the calculation in this way is, for our purposes,
+
+ not important. What is important is that a Greek astronomer might have realized that
+
+ the mathematical constraints and assumptions built into System A models, and in par-
+
+ ticular the assumption of a fixed relationship to a uniformly moving Sun, match very
+
+ well with the actual properties of mean oppositions in geometrical models.
+
+ The following discussion will use algebraic notation for the convenience of the
+ modern reader, but there is of course no implication that any ancient mathematician
+
+ used such methods. What is important is that all of the operations needed are within
+ reach of known Hellenistic mathematical methods.
+
+ Fundamental to System A are integral period relations (Aaboe 1958). Let Y, L, A
+
+ (not to be confused with apogee) andZ be positive integers, with A and Z relatively
+
+ prime, and suppose that in Y years a planet, and most important for our purposes, the
+
+ epicycle center, completes L revolutions in the zodiac, during which A synodic events
+ of the same kind are observed, and the location of the synodic events completes Z
+ revolutions in the zodiac. For the outer planets
+
+ and for the inner planets
+
+ Y = L + A
+
+ Y = L
+
+ 1 An excellent exposition of van der Waerden's (1974) analysis of System A based on his Sun-distance
+ principle may be found in his Science Awakening II.
+
+ â Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:40:29 UTC
+All use subject to https://about.jstor.org/terms
+
+ Greek angles from Babylonian numbers 381
+
+ with Z - L for Saturn, Jupiter, and Mercury and Z = L - Л for Mars and Venus.
+
+ Then the mean values of the synodic arcs - the changes in longitude of the synodic
+
+ event and the planet (and its epicycle) between successive synodic events in units of
+ revolutions - are
+
+ and the number (integer plus fraction) of mean synodic arcs in one revolution is
+
+ The interval in years between successive mean synodic events is
+
+ and the mean intervals in years for the epicycle and the event to circle the zodiac are
+
+ With y days per year, the corresponding mean speeds of the epicycle, the event, and
+
+ the Sun, in units of degrees per day, are
+
+ - Z
+ A Xz = -
+ A
+
+ - L
+ AXL = -
+ A
+
+ Z
+
+ A
+
+ = - for Saturn and Jupiter
+
+ = - ( 1 + - I for Mars
+
+ A' Z J
+
+ P - 1 - A
+ A Xz %
+
+ At = TA = -
+ A
+
+ Y Y
+ 7¿ L = - and Tz = -
+ L = - L Tz = - Z
+
+ 360° L ~KXL
+
+ 0)1 " yY ~
+
+ coz =
+
+ Ù)S =
+
+ 360° z ÄXZ
+
+ yY At
+
+ 360° ÃXS
+
+ y At
+
+ Note that on average Saturn and Jupiter advance AX z =_AXl and the Sun advances
+ 360° -f ÃXzin time 7д, while Mars advances 360° + AXz and the Sun advances
+ 720° +ÃXz in time 7д. Finally, since Mars advances 360° in time it requires the
+ time interval TA-TL- TA/(' + A/Z) to advance its final AXZ.
+
+ ^ Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:40:29 UTC
+All use subject to https://about.jstor.org/terms
+
+ The relations given above are all average values, and in reality the arcs and intervals
+
+ between successive synodic events fluctuate about the mean, but the period relations
+
+ tell us that if a synodic event is observed at some longitude Ào, then after Y years and
+
+ A successive events, and not before, the location of the synodic event will return to A.o,
+
+ having circled the zodiac Z times, and the epicycle will have circled the zodiac L times,
+
+ so that the event will have landed on A - 1 distinct other values of к in the process.
+ System A models this by distributing Ak's on a circle at intervals /,, i = 1. . .Л, and
+
+ successive synodic events progress in steps of Z intervals (Aaboe 1964). In principle,
+
+ the A intervals /, are of arbitrary size subject to the constraint
+
+ 382 D. Duke
+
+ but, in reality, synodic arcs and intervals vary smoothly as a function of longitude, so
+
+ for this reason and for computational efficiency the Babylonian astronomers assumed
+
+ that the intervals are constant in zones of the ecliptic, with the number N of zones
+
+ in all known systems being between two and six, and usually not of equal size. With
+ N zones of size a, and constant interval /,, there are N¡ = a,-//,- intervals in the ith
+ zone, and
+
+ л
+
+ i='
+
+ £/, = збо°
+
+ N
+
+ 1=1
+
+ Usually, but not necessarily, the N¡ intervals completely fill each zone and N¡ is an
+
+ integer. A synodic arc tu, = Z/, is associated with each zone, so a¡ / tu,- is the number
+ (integer plus fraction) of such arcs in the ith zone. Since there are P arcs in 360°, the
+
+ values of tu, are subject to the constraint
+
+ N N AT Г 1 N A
+ Nili AT Г 1 1 A A
+
+ tu- w* ~ z Z/' / ~~Z Z i ~ Z Z _
+
+ ,=1 tu- w* ,= i Z/' z / ~~Z Z ,=i Z Z
+
+ Furthermore, if an event lands in the ith zone at some k, then the next event will be Z
+
+ intervals farther, regardless of the size of the intervals. Thus if the next position is still
+
+ in the ith zone, then its longitude is kf = к + tu,- = к -h Z/,-, but if that position is in
+ the ( i + l)th zone its longitude will be kf = к H- m/, H- (Z - m)/,+i , where к -h m/,
+
+ is the longitude of the beginning of the (i + l)th zone, and similarly if the event lies
+ in the (i + 2)th zone (as actually happens for Mars and Mercury).
+
+ Since A/Z = Tz/Ta , the relation^ = § may be rewritten as
+
+ i
+
+ Œi V ai r
+ 2
+
+ â Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:40:29 UTC
+All use subject to https://about.jstor.org/terms
+
+ Greek angles from Babylonian numbers 383
+
+ For Saturn and Jupiter Z = L and 7z = 7¿, so the epicycle has mean speed
+
+ ví = jí = =4 in the ith sector, and the sum of the times spent in each sector, which
+ are di/ Vi, is the time Tz = required for the epicycle to complete a single trip
+ around the zodiac.
+
+ For Mars we can use instead
+
+ Z w~i=Ž cti _ A ^ = I' A Z + Z A = _TL( Ta A' z)
+
+ w~i=Ž _ ^ = I' Z = Ta ' z)
+
+ or
+
+ Щ ' 'A = п
+
+ ' 'A
+
+ where rA = TA/(l + A/Z) = TA-TL.
+
+ There is one remaining problem to be addressed. If the planet is in opposition to
+ the mean Sun, and in time interval Та = y H- AXz/cos the planet advances an amount
+ Wi while the mean Sun advances an amount A Àz, then at the end of the time interval
+
+ the planet is not in fact in opposition to the mean Sun. System A planetary models
+
+ resolve this problem by adjusting the time interval for a synodic arc AX of length Wi
+
+ according to
+
+ At =Ãi+^(Ak-Ãkz)
+
+ = Ta + - - for Saturn and Jupiter
+
+ , (Wi - A kz)
+
+ = TA , H
+
+ cos
+
+ с os
+
+ so that the time interval required for the planet to advance w¡ differs from the
+
+ mean time by the amount that the time required for the Sun to advance w¡ differs
+ from the time required to advance the mean distance A Xz (van der Waerden
+ 1974, p. 256). Note that for Saturn and Jupiter, Ta is close to 400 days, while
+ (wi - AXz)/o>s is about ±1 day for Saturn and ±3days for Jupiter, so the correction
+
+ from mean to true time is not significant. However, for Mars T'A is about 93 days
+
+ and ( Wi - ~KXz)/cos varies between about -19d and 41d, so the correction is quite
+
+ important.
+
+ The adjustment of the time intervals, and hence the implied speeds of the epicycle,
+
+ does not upset the constraint on the u>, values. For Saturn and Jupiter the true speeds
+ in each sector are now
+
+ ' - HI - Wi
+ 1 At wj-Ãkz
+
+ Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:40:29 UTC
+All use subject to https://about.jstor.org/terms
+
+ Ta (1 + ^sTÂ ~ )
+
+ = у^ ^ + _1уа(._^у^
+
+ ^ Vi cos . . Vi
+
+ i i i
+
+ Repeating the above for Mars using TfA = 7д/(1 + A/Z) = Та - Tl instead of
+
+ Та yields exactly the same result:
+
+ 384 D. Duke
+
+ _
+
+ Vi
+
+ ~ 1 4. HL _ <£Z.
+
+ (OS (OS
+
+ so we have
+
+ ¿r* v' 1 ¿r* Vi V cos - (OS )
+
+ i 1 i
+
+ - coz'
+
+ 360° (ozTz
+
+ - Tz Л
+ cos cos
+
+ = Tz + y - у
+
+ = TL
+
+ Щ--П
+
+ Thus the constraint imposed by the period relation still holds exactly, and the epicycle
+
+ in each case still completes one revolution in 7¿ years. In passing, note that if we had
+ assumed that
+
+ At = TA + p (u)i - Akz)
+
+ for any value of p , then the periodicity will still be preserved.
+
+ Using the above analysis it is now straightforward to find the equation of center
+ q{k) = к - к for the outer planets. Since each System A model is a sequence of
+
+ zones, we have that A k¡ = a, in each zone. Since v¡ is constant in each zone, the time
+ required to traverse each zone is Ar,- = a¡/v¡ and during that time interval the mean
+
+ longitude advances by the amount A k¡ = coi Ar,- . Thus, from the beginning to the end
+ of each zone, <7, changes by the amount
+
+ A q¡ = A ki - A ki
+
+ =«<('-?)
+
+ and dq/dk in each zone is, for the piecewise linear System A models, exactly equal to
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:40:29 UTC
+All use subject to https://about.jstor.org/terms
+
+ Greek angles from Babylonian numbers 385
+
+ d <7 _ Aq¡_ _ j _ (Ol
+ áX щ v'¡
+
+ From the values Aq¡ one can reconstruct q and adjust its level so that the extreme
+
+ values are equidistant from the À-axis, and the longitude A of apogee will be where
+ q(k) crosses the axis in a descending direction. Then, from the extreme values of q
+
+ and from the slopes of q in the zones where q crosses the À-axis, we can get estimates
+ of e.
+
+ The parameters defining the various planetary models are available in many places
+
+ (Jones 1998, see particularly Table 2, p. 6). 2 The following charts compare for each
+
+ outer planet the functions q(k) derived from the known System A models with the
+ q(X) that follows from the equant using the parameters in the Almagest (Figs. 2, 3,
+ and 4).3
+
+ Although the discussion to this point has been entirely hypothetical, there is some
+
+ evidence that might suggest the analysis discussed above was actually done by some
+ ancient Greek astronomer. Neugebauer suggested that the contents of two Greco-
+ Roman papyrus fragments are evidence for a greatly modified Babylonian System A
+
+ scheme for Mars (Neugebauer 1942, 1960), based on the fact that the heading for one
+ of the six tables is Taurus-Gemini, which is also one of the six System A zones for
+
+ Mars and, according to Neugebauer, the only known use of a Taurus-Gemini pairing.
+ Jones clarified and extended Neugebauer's analysis to reconstruct the six underlying
+ values of Wi used in the scheme (Jones 1990), and suggested that the papyrus might
+
+ be modeling a Greek kinematic model based on eccentricity le ^ 5, rather than the
+ conventional 2e = 12. However, when a single table of very similar but not identical
+
+ structure turned up in the papyri of Oxyrhynchus, the association with Mars and Sys-
+
+ tem A seemed to Jones less probable (Jones 1999). Nevertheless, in light of the above
+
+ analysis in this paper, and in spite of the tenuous connection of the papyrus with either
+
+ Mars or System A, it is worth considering an alternative interpretation, namely that
+ the papyrus documents an analysis of Mars' equation of center q from a System A
+ scheme, much as outlined above. Indeed, let us consider a Mars scheme as above
+
+ Zai щ _ " V 4- (aí' a¡ ~ _ J
+
+ v щ - v " _ 4- (aí' _ ~ J L
+ - Tf) v ' w
+
+ and assume the numbers given in the papyrus are not Wi values, as assumed by Neu-
+
+ gebauer and Jones, but are instead w ¡ values. Then from the w- values one may derive
+ both the underlying values for the scheme, which are
+
+ 2 For the Jupiter System A " model see (Britton and Jones 2000). For the Saturn System A ' model see
+ Swerdlow (1998).
+
+ ^ In particular, the charts use the tropical longitude of apogee values that Ptolemy assigns for about A.D.
+ 140. The correspondence between these tropical values and the sidereal Babylonian values is approximately
+ As = h + 3.08° + 0.013825°/yO>s _ .V/)' where is a longitude in year vs, roughly 200 B.C. for the
+ Babylonian System A models, and kt is a longitude in year yt. See, for example, Rochberg (1998).
+
+ Ö Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:40:29 UTC
+All use subject to https://about.jstor.org/terms
+
+ "O J) * :
+
+ "O ? ф J) °r : - ; i ' 'V i •/ j/ř jA
+ TT ^ ; ! W. ¿Jr
+
+ ^ * ;
+
+ 386 D. Duke
+
+ 15 n
+
+ ■ ^ars
+
+ 10
+
+ у' ч>ч' ' Almagest ¿y4 '
+
+ ~ 5:
+
+ I °- :
+
+ ff °- s ; - ' /7
+ " - V -10 :
+
+ -15 1
+
+ 0 60 120 180 240 300 360
+
+ lambda
+
+ Fig. 2 The equation of center for Mars from the Almagest (< dotted line), the Babylonian System A (solid
+ line), and a Greek papyrus [(Jones 1990), dashed line ]
+
+ Fig. 3 The equation of center
+ for Jupiter from the Almagest
+ (dotted line), the Babylonian
+ System A (solid line) and
+ System A' (dashed line), and a
+ Greek papyrus [(Britton and
+ Jones 2000), dot-dashed line]
+
+ 10 q
+
+ g : _
+
+ 6 : tagest A
+
+ Ъ i Syf^'papy™8
+ ф - jA
+
+ TT ^ -4 :
+
+ , SysA
+
+ -8 j
+
+ -10 1 '' I ' I I I I I ' I i I I I I I I I I I I i i I I I I I I I I I » 1
+
+ 0 60 120 180 240 300 360
+
+ lambda
+
+ <(i-ÃXz/n)
+ O-wÍ/Ta)
+
+ as well as the corresponding equation of center qik), which is shown in the Mars
+
+ chart. If this interpretation is correct, then the scheme in the papyrus is clearly not
+ derived directly from the standard Babylonian System A scheme, but we cannot rule
+ out that it was derived from some other scheme that does not differ too much from
+
+ the standard scheme. Indeed, it seems possible that it might be an incomplete account
+ of an attempt to derive a System A scheme starting with a geometric model of Mars,
+
+ but I see no way to advance the argument further given that the papyrus gives no hint
+ about how the numbers were ever used.
+
+ The apogees and perigees in the various System A models are shown in Table 1.
+
+ Note that in some case the apogees and perigees are not 180° apart.
+
+ To get the e implied by a System A model, we compute ^ = 1 - for the zones
+
+ which ascend and descend through the X-axis, and from these slopes we compute the
+
+ Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:40:29 UTC
+All use subject to https://about.jstor.org/terms
+
+ Greek angles from Babylonian numbers 387
+
+ 10
+
+ : I i Saturn I
+ Svs A A' I
+
+ 6 i
+
+ ^ 4 :
+
+ I* 0 : /ß ;
+ ^ -2 1 //'
+
+ V A 'rýf
+
+ -8 ^
+
+ ¿л : i ! ! s
+ -10 ¿л I i i > i - i i i i i i ' i i i i i i i i i i i i i i i i i i i i i i i i
+
+ 0 60 120 180 240 300 360
+
+ lambda
+
+ Fig. 4 The equation of center for Saturn from the Almagest {dotted line ) and the Babylonian System A
+ (solid) and System A' [(Jones 1998), dashed line]
+
+ Table 1 The deferent apogee and perigee values deduced from the various System A models and compared
+ to the Almagest values
+
+ Apogee Perigee Almagest
+
+ Mars A 126° 306° 115.5°
+
+ Mars (papyrus) 115.5(!) 297.5
+ Jupiter A 165.5 342.5 161
+ Jupiter A' 154.5 345.5
+ Jupiter A" 166 340
+ Saturn A 230 50 233
+
+ Saturn A 225 45
+
+ dť/ЛЩА) dg/dA.(P) Equant Eccentric Almagest e
+
+ e(A) e(P) e(A) e(P)
+
+ Mars A -0.2970 +0.2183 7.76 7.35 8.91 6.55 6.00
+ Mars (papyrus) -0.1988 0.1476 5.43 4.78 5.96 4.42 6.00
+ Jupiter A, A', A" -0.0961 +0.0727 2.75 2.26 2.88 2.18 2.75
+ Saturn A -0.0775 +0.0967 2.23 3.05 2.32 2.90 3.42
+
+ Saturn A'
+
+ effective e from the System A values of d qldk using the equations given earlier. The
+ results are shown in Table 2.
+
+ For comparison, the Almagest values of e give the slopes in Table 3.
+ Generally, one would expect the widest zones to be associated with the fastest
+
+ speeds, and vice versa, and so the perigee would fall in the widest zone and the apogee
+ in the shortest. This is indeed the case for Jupiter, and for Mars all of the zones are
+
+ equal width (60°) so the rule is indeterminate. For Saturn, the usual two-zone System
+ A model has the situation reversed - the slow zone is shorter than the fast zone. How-
+
+ ô Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:40:29 UTC
+All use subject to https://about.jstor.org/terms
+
+ Table 2 The eccentricities of the deferent deduced from the slopes dq/dk at apogee and perigee of the
+ various System A models and compared to the Almagest values
+
+ Table 3 The slopes dqldk at apogee and perigee that follow from the Almagest equations of center for the
+ outer planets
+
+ Table 4 The eccentricities of the deferent deduced from the extreme values of the various System A models
+ and compared to the Almagest values
+
+ ever, there is an alternate Saturn model, denoted A' in the table, in which the slow
+
+ zone is wider, in agreement with expectations (Swerdlow 1998).
+
+ The three Jupiter System A models have the same minimum and maximum synodic
+
+ arcs (30° and 36°), and so give the same values for àqlák and e(A) and e(P). Note that
+
+ e(A) agrees exactly with the Almagest value, but e(P) is too small. For the Babylonian
+
+ Mars model both e(P) and e(A) are too large, and for the Mars model suggested by the
+ papyrus, both e(P) and e(A) are too small. For Saturn, all of the values are too small.
+
+ Note also that for all the Mars and Jupiter models, and Saturn System A' but not
+
+ System A, the values of àqlák are generally of the form suggested by the equant: àqlák
+ (A) is more negative than d#/dÀ(P) is positive. Whether this reflects some observable
+
+ property of the synodic arcs, or whether it was noticed by our assumed Greek astron-
+
+ omer and somehow motivated the equant, or is simply an artifact of the System A
+ construction constraints, is not clear.
+
+ An alternative method to find e is to use the extreme values of q (k) . For the eccentric
+
+ model these are sin-1 (2 e/R), and for the equant 2 tan ~l(e/R). The resulting values
+ are in Table 4.
+
+ 388 D. Duke
+
+ Value of e 2 e/R dq/dk(A) dq/dk(P)
+
+ Mars 6 0.2000 -0.2222 -j-0.1818
+ Jupiter 2.75 0.0917 -0.0961 +0.0876
+
+ Saturn
+
+ (<7max - <7minV2 e (eccentric) e (equant) Almagest e
+
+ Mars A 13.21 6.85 7.04 6.00
+
+ Mars (papyrus) 10.26 5.34 5.43 6.00
+ Jupiter A 7.45 3.88 3.92 2.75
+ Jupiter A' 5.77 3.01 3.03 2.75
+ Jupiter A" 4.81 2.52 2.52 2.75
+ Saturn A 7.73 4.04 4.07 3.42
+
+ Saturn A'
+
+ In the models with only two zones the sharp breaks at the maximum and minimum
+
+ values of q do not model the function very well and are responsible for the discordant
+
+ values of e derived from the extreme values of q . The models with more zones gener-
+ ally improve the models near the maxima and this is reflected in better estimates of e.
+
+ We have seen that for oppositions of the outer planets with the mean Sun it is useful
+
+ to think of System A in terms of a discrete set of A points distributed around the
+ zodiac, with subsets of the points evenly distributed at intervals /, in zones of width
+
+ а/. Within the ith zone it is useful to think of the epicycle center as moving through
+ adjacent points at a constant speed
+
+ ^ Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:40:29 UTC
+All use subject to https://about.jstor.org/terms
+
+ Greek angles from Babylonian numbers 389
+
+ so in time interval А Ц = // /v' the epicycle center will advance in mean longitude by
+ an amount
+
+ v' - ÜÜ - Wi
+ 1 At Ta + w'~Akz
+
+ AL, = colAÍÍ
+
+ where col is the mean motion in longitude of the epicycle center. Then the change in
+ the equation of center is simply Aq¿ = /, - AL/. Note that the additive correction to
+
+ Ta in the expression for v¡ accounts for the fact that when the epicycle center advances
+
+ by a distance w¡ instead of the average distance w = Akz , the faster-moving mean
+
+ Sun will return to opposition with the epicycle center in time At = y + ^-instead of
+
+ the average time At = Ta = y H- ~ (in these expressions we have y for Jupiter and
+ Saturn, which becomes 2 y for Mars).
+
+ Note also that instead of referring the opposition to the mean Sun and the epicycle
+
+ center, we could just as well refer to the planet and its epicycle center, as long as we
+
+ use the mean motion on the epicycle referred not to the epicycle apogee, in which case
+
+ the speed would be the mean motion in anomaly coa = cos- col, but to a fixed sidereal
+ direction, in which case the speed is simply cos = col + coa- Relative to such a fixed
+
+ sidereal direction, e.g. the apogee of the deferent, the epicycle center advances on the
+
+ deferent by w¿ and the planet advances on its epicycle by 360°+ w¡ in time interval
+
+ At = y H
+
+ At - 2y H
+
+ Wi
+
+ cos
+
+ Wi
+
+ cos
+
+ Thus, we can understand that the reason that a geometrical analysis of the System A
+
+ models actually works, and that the same System A model works for multiple synodic
+
+ phenomena, is that the various synodic phenomena for the outer planets are, in fact,
+ all reasonably consistent with the System A assumption that synodic intervals in time
+ are linear functions of the synodic arcs in longitude, and that the slope of the line is
+
+ l/a>s, where cos is the uniform speed of the planets on its epicycle relative to a fixed
+ sidereal direction.
+
+ Inferior and superior conjunctions of the inner planets with the true Sun are, in
+
+ principle, essentially identical to the above treatment of the outer planets. For an inner
+ planet the epicycle center moves with variable speed around the deferent, the varia-
+ tion is about the mean speed col - cos of the Sun, and the planet moves uniformly
+ on its epicycle with speed cop = cos + coa measured with respect to a fixed sidereal
+ direction.4 Thus all of the results discussed above would be immediately applicable if
+
+ 4 Measuring the mean motion of a planet, outer or inner, on its epicycle with respect to a fixed sidereal
+ direction is seen in the Keskintos Inscription (ca. 100 B.C.) (Jones 2006); throughout all of ancient Hindu
+
+ astronomy, generally thought to be of Greek origin and pre-Ptolemaic (Duke 2008, and references therein);
+ and in Ptolemy's Planetary Hypotheses, but not the Almagest (Duke 2009).
+
+ Ö Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:40:29 UTC
+All use subject to https://about.jstor.org/terms
+
+ Fig. 5 The distribution of synodic arcs (dk) vs. synodic time intervals (dt) for all full moons between
+ -200 ВСЕ and - 100 ВСЕ ( small diamonds). The nearly horizontal line through the center shows the same
+
+ distribution for oppositions of the real Sun and the mean Moon. The nearly vertical line through the center
+ shows the same distribution for oppositions of the mean Sun and the real Moon. In all cases the points
+ anywhere along the upper and lower edges have the Moon near apogee and perigee, respectively, and the
+ points anywhere along the left and right edges have the Sun near apogee and perigee
+
+ not for the fact that (1) conjunctions of an inner planet with the Sun are not observable
+
+ due to the glare of the Sun, and (2) for a variety of reasons, but principally the motion
+
+ in latitude, the synodic time intervals and synodic arcs in longitude of the first and
+ last visibilities do not, in general, all have the same linear relationship and so do not
+ satisfy the expected relationships
+
+ 390 D. Duke
+
+ ы = хг + щ forM
+
+ cop
+
+ _ 720° + Wi r Л7
+
+ At _ =
+
+ (Op
+
+ As a result, while the System A models for Mercury and Venus do a credible job of
+ modeling the observed synodic phenomena,5 they do not do a good job of modeling
+ the nonuniform movement of the epicycle center around the deferent and so do not
+
+ yield useful information regarding the parameters of geometrical models.
+
+ Synodic months for the Moon-Sun system are strongly influenced by the nonuni-
+ form motion of both the Moon and the Sun. The figure below shows the synodic
+ time interval At versus the synodic arc Ak for all full moons in the 100-year interval
+ beginning with -200 January 1 (Fig. 5).
+
+ The events along the left and right vertical edges occur when the Sun is near apogee
+
+ and perigee, respectively, and similarly, those along the lower and upper horizontal
+ edges occur when the Moon is near perigee and apogee. If in reality the Sun was mov-
+
+ ing nonuniformly and the Moon uniformly, the distribution would collapse vertically
+ and the events would all be on a line of relatively shallow slope of the form
+
+ 5 For Mercury see Swerdlow (1998, pp. 104-132), for Venus see Britton (2001).
+
+ Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:40:29 UTC
+All use subject to https://about.jstor.org/terms
+
+ Greek angles from Babylonian numbers 391
+
+ Fig. 6 The distribution of synodic arcs (dÀ) vs. synodic time intervals (di) from the Babylonian lunar
+ System A for all full moons between -200 ВСЕ and -100 ВСЕ ( small diamonds ) compared to reality
+ (i open circles ). The large vertical extension in time shows the effect of column G and is entirely due to
+ lunar anomaly. The small vertical extension in time shows the effect of column J and is entirely due to
+ solar anomaly. The solid lines through the center thus show the distribution of System A full moons if
+ there was only a lunar anomaly ( vertical line) or only a solar anomaly (nearly horizontal line). The heavy
+
+ accumulation of points along the left and right edges for System A reflects the fact that lunar System A has
+
+ only two zones, and most synodic arcs are entirely contained in one of the zones. The sparse points not on
+
+ an edge are the arcs that cross a zone boundary. The lack of a slant to the right in the System A distributions
+
+ is due to the fact that System A adjusts the synodic time interval, but not the synodic arc, for the effects of
+ lunar (col. G) and solar (col. J) anomaly
+
+ Д' - 27îd + %
+
+ where col is the lunar mean motion in longitude. Syzygies at the extreme left and right
+
+ ends of this line therefore have the Sun moving at minimum and maximum speed,
+
+ respectively, and the Moon moving at mean speed. On the other hand, if in reality
+ the Moon was moving nonuniformly and the Sun uniformly, the distribution would
+
+ collapse horizontally and the events would all be on a line (red in the figure above) of
+
+ relatively steep slope of the form
+
+ w
+
+ At ~ -
+ с os
+
+ Syzygies at the extreme upper and lower ends of this line therefore have the Moon
+ moving at minimum and maximum speed, respectively, and the Sun moving at mean
+ speed. Note that the lines cross at the point w = 29.1 Io and At = 29.53d, which are
+ the mean synodic arc and synodic time for the Moon-Sun system.
+
+ The System A model for the Moon incorporates the nonuniform motion of both the
+ Moon and the Sun, and so the analysis is somewhat more involved that we found for
+ the outer and inner planets (van der Waerden 1974, pp. 210-236). The synodic event
+ is assumed to advance by arcs of w' = 30° and W2 = 28 */8° in its two zones and
+ the time interval At is 29d plus two corrections, both given in units of large hours H,
+
+ which are four regular hours or l/6th of a day (the major unit in the vertical scale of the
+
+ figure). One correction, column G, depends on how far the Moon is from its apogee,
+
+ Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:40:29 UTC
+All use subject to https://about.jstor.org/terms
+
+ 392 D. Duke
+
+ and the second, column J, depends on how far the Sun is from its apogee. Column G
+
+ assumes that the Sun is in its fast zone, and so near the right vertical edge of the chart,
+
+ and the correction to At given by column G varies between about 2 2/3 H to just short
+
+ of 5H , in good agreement with the real variation, as shown in the figure below (Clarke
+
+ and Steele 2002). When the Sun is in its fast zone, and so near the right edge of the
+
+ chart, column J gives no correction, but when the Sun is in its slow zone, and so near
+
+ the left vertical edge of the chart, column J subtracts about 0;57H from A t, again in
+ good agreement with reality (Fig. 6).
+
+ In order to estimate the values of e/R and r/R implied by the System A lunar
+
+ theory, we may use the values of А к and At at the endpoints of the central lines. In
+
+ general, syzygies on the nearly horizontal central line have
+
+ As(0 = Às (t) + qs(t) = Ãm(0
+
+ and from any two successive syzygies at times t' and t2 we get the relation
+
+ AÀ = cosAt + q{ti) - q(t') = 0)y[At
+
+ where o>s and сом are the mean motions in longitude of the Sun and Moon. Syzygies
+ at the ends of the line have as = ks - = 0°or 180° and so q(t') = 0°and since
+ in the time interval А/ we have as advancing by the amount cosAt we have, with
+
+ 1 = сом - cos,
+
+ at apogee and
+
+ q{tl) = sin-1 ^ sin (AÀ)^ = r¡At
+
+ q(t2) = sin-1 sin (AA. + 180°)^ = rjAt
+
+ at perigee. Solving these for e/R we find e = 2.26 and e = 1.92, which average to
+ e = 2.09 and which is close to the true value.
+
+ Similarly, for syzygies on the vertical central line we have
+
+ *м(0 = ^м(0 H- <7м(0 = ks(t)
+
+ and from any two successive syzygies at times t' and t2 we get the relation
+
+ AX = comAí + q(t2) - q(t') = cosAt
+
+ In this case ам advances by the amount АЛ - (сом - o)a)A t, where coa is the lunar
+ mean motion in anomaly, and we find
+
+ r _ sin(rçA/)
+ R sin(AÀ - (сом - û>a)A t)
+
+ Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:40:29 UTC
+All use subject to https://about.jstor.org/terms
+
+ Greek angles from Babylonian numbers 393
+
+ at apogee and
+
+ r sin (r]At)
+
+ R sin(AÀ - (<¿>m - coa)At -f 180°)
+
+ at perigee, which yield r - 4.74 and r = 6.39, 6 and which average to 5.57, somewhat
+
+ larger than the true value which is near 5.25.
+
+ In summary, it seems plausible that a Greek astronomer with a reasonable under-
+ standing of Babylonian System A models for the outer planets and the Sun-Moon
+ could have used those models to estimate the zodiacal variation of the equation of
+
+ center for each planet, and from this, approximate values for the eccentricity e and
+ longitude of apogee Ad required for geometrical models. The same method would
+ work for the inner planets if conjunctions were observable, but they are not, and the
+
+ variation of the observable synodic events - first and last morning and evening visibil-
+
+ ities - is dominated more by the motion of the planet in latitude than the nonuniform
+
+ motion of the epicycle center.
+
+ References
+
+ Aaboe, A. 1958. On Babylonian planetary theories. Centaurus 5:209-277.
+ Aaboe, A. 1964. On period relations in Babylonian astronomy. Centaurus 10:213-231.
+ Britton, J. P. 2001. Remarks on a System A Scheme for Venus: ACT 1050. Archive for History of Exact
+
+ Britton, J.P., and Jones, A. 2000. A new Babylonian planetary model in a Greek source. Archive for History
+
+ Clarke, A. J. M., Steele, J. M. 2002. A computer generated Babylonian system A lunar ephemeris. Journal
+
+ Sciences 55:525-554.
+
+ of Exact Sciences 54:349-373.
+
+ for the History of astronomy 33:279.
+
+ Duke, D.W. 2005a. Ptolemy's treatment of the outer planets. Archive for History of Exact Sciences 59: 1 69-
+
+ Duke, D.W. 2005b. The equant in India: The mathematical basis of Indian planetary models. Archive for
+
+ History of Exact Sciences 59:563-576.
+
+ Duke, D.W. 2008. Mean motions and longitudes in Indian astronomy. Archive for History of Exact Sciences,
+
+ Duke, D.W. 2009. Mean motions in Ptolemy's planetary hypotheses. Archive for History of Exact Sciences
+
+ Evans, J. 1998. The History and Practice of Ancient Astronomy, 362-368. New York: Oxford University
+
+ Jones, A. 1990. Babylonian and Greek astronomy in a papyrus concerning Mars. Centaurus 33:97-1 14.
+ Jones, A. 1998. Studies in the astronomy of the Roman Period III. Planetary epoch tables. Centaurus
+
+ Jones, A. 1999 .Astronomical Papyri from Oxyrhynchus: (P. Oxy. 4133-4300A ), 231-232. Philadelphia:
+
+ Memoirs of the American Philosophical Society.
+
+ Jones, A. 2006. The Keskintos astronomical inscription: Text and interpretations. SCIAMVS 7:3-41.
+
+ Neugebauer, О. 1942. On some astronomical Papyri and related problems of ancient geography. Transac-
+
+ tions of the American Philosophical Society N.S. 32:251-263.
+
+ Neugebauer, О. 1956. The transmission of planetary theories in ancient and medieval astronomy. Scripta
+
+ mathematica 22: 1 65- 1 92.
+
+ Neugebauer, О. 1960. A New Greek Astronomical Table (P. Heid. Inv. 4144+ P. Mich. 151). Historisk-filo-
+
+ sofiske meddelelser/Det Kongelige Danske Vulenskabernes Selskab 39. 1 .
+
+ 187.
+
+ 62:489-509.
+
+ 63:635-654.
+
+ Press.
+
+ 40:1-41.
+
+ 6 These two estimates of r from the System A lunar model are intriguingly similar to the values r = 4.75
+
+ and r - 6.25 that Ptolemy attributes to Hipparchus in Almagest IV 1 1 .
+
+ Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:40:29 UTC
+All use subject to https://about.jstor.org/terms
+
+ Pingree, D. 1976. The recovery of early Greek astronomy from India. Journal for the history of astronomy
+
+ 394 D. Duke
+
+ vii: 109-123.
+
+ 633.
+
+ Press.
+
+ Pingree, D. 1978. History of Mathematical astronomy in India. Dictionary of Scientific Biography 15:533-
+
+ Rochberg, F. 1998. Babylonian horoscopes , 19-20. Philadelphia: American Philosophical Society.
+ Schmidt, O. 1969. A mean value principle in Babylonian planetary theory. Centaurus 14:253-283.
+
+ Swerdlow, N.M. 1998. The Babylonian Theory of the Planets , 93-94. Princeton, NJ: Princeton University
+
+ Toomer, G.J., trans. 1984. Ptolemy's Almagest. London: Princeton University Press.
+ van der Waerden, B. 1957. Babylonische Planetenrechnung. Viertaljahrschrift den Naturforschenden
+
+ Gesellschaft in Zürich 102:39-60.
+
+ van der Waerden, B. 1974. Science Awakening //, 250-283. New York: Oxford University Press.
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:40:29 UTC
+All use subject to https://about.jstor.org/terms
+
+

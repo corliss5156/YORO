@@ -1,0 +1,1368 @@
+ 
+
+ 
+
+ 
+
+ 
+
+On Jacobi's transformation theory of elliptic functions
+Author(s): Alberto Cogliati
+Source: Archive for History of Exact Sciences, Vol. 68, No. 4 (July 2014), pp. 529-545
+Published by: Springer
+Stable URL: https://www.jstor.org/stable/24569618
+Accessed: 19-05-2020 09:57 UTC
+
+JSTOR is a not-for-profit service that helps scholars, researchers, and students discover, use, and build upon a wide
+
+range of content in a trusted digital archive. We use information technology and tools to increase productivity and
+
+facilitate new forms of scholarship. For more information about JSTOR, please contact support@jstor.org.
+
+Your use of the JSTOR archive indicates your acceptance of the Terms & Conditions of Use, available at
+
+https://about.jstor.org/terms
+
+Springer is collaborating with JSTOR to digitize, preserve and extend access to Archive for
+History of Exact Sciences
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 09:57:42 UTC
+All use subject to https://about.jstor.org/terms
+
+ Arch. Hist. Exact Sci. (2014) 68:529-545
+ DOl 10.1007/s00407-013-0131-3
+
+ On Jacobi's transformation theory of elliptic functions
+
+ Alberto Cogliati
+
+ Received: 4 July 2013 / Published online: 12 October 2013
+
+ © Springer-Verlag Berlin Heidelberg 2013
+
+ Abstract The main interpretative challenge set by the Fundamenta Nova Theoriae
+
+ Functionum Ellipticarum lies in Jacobi's transformation theory upon which the entire
+
+ theoretical edifice of the treatise depends. Unfortunately, Jacobi did not convey any
+
+ indication of how he attained his general formulae for rational transformations of ellip
+
+ tic functions. He limited himself to providing a posteriori verification of the validity of
+
+ his claims. The aim of this paper is precisely to describe the heuristic path by which in
+
+ 1827 Jacobi succeeded in finding these transformation formulae. The proposed histor
+
+ ical reconstruction will hopefully shed new light upon the emergence in Jacobi's work
+
+ of the inversion process of elliptic integrals of the first kind and thus of the elliptic
+ function sinamw itself.
+
+ Contents
+
+ 1 Introduction 529
+ 2 The genesis of the theory 531
+ 3 "Demonstratio theorematis.. 534
+ 4 Further developments 541
+ 5 Appendix: algebraic derivation of third-order transformation 543
+
+ 1 Introduction
+
+ Jacobi's Fundamenta Nova Theoriae Functionum Ellipticarum represents a landmark
+
+ in the history of analysis; in it, a systematic treatment of the emerging theory of elliptic
+
+ Communicated by: Umberto Bottazzini.
+
+ A. Cogliati (IS)
+ Université degli Studi di Milano, Via C. Saldini 50, 20133 Milano, Italy
+ e-mail: alberto.cogliati@unimi.it
+
+ £l Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 09:57:42 UTC
+All use subject to https://about.jstor.org/terms
+
+ 530 A. Cogliati
+
+ functions was provided for the first time. Despite its undisputed importance and long
+
+ lasting influence throughout the 19th century, this treatise, which is almost two hundred
+
+ pages long, is nonetheless difficult to understand, because of both the algorithmically
+
+ oriented character of the mathematical formulation of the theory and the extremely
+
+ synthetic style of presentation, which, in this respect, seems to be strongly affected by
+
+ its being written in Latin.
+
+ From a purely historical standpoint, the main interpretative challenge set by the
+
+ Fundamenta lies in Jacobi's transformation theory upon which the entire theoretical
+
+ edifice of the treatise heavily depends. There are two reasons for this. First, essential
+
+ components of the whole of Jacobi's elliptic function theory—such as the theory of
+
+ modular equations, the theory of multiplication, and the introduction of the celebrated
+
+ theta functions—were presented by Jacobi as by-products of his preliminary investi
+
+ gations of the transformation problem for elliptic integrals of the first kind. Second, the
+
+ way in which the well-known formulae for rational transformations of any order were
+
+ attained was obscured by Jacobi's peculiar mode of presentation, which consisted in
+
+ conveying the relevant formulae without any contextual justification whatsoever and
+
+ with proofs being given only at a later stage.
+
+ The reader has the feeling that Jacobi's discoveries were the product of an act of
+
+ divination or, at best, the result of a fortunate sequence of trial and error. The remarks of
+ the Italian astronomer and mathematician, Giovanni Plana, who seemed to have shared
+
+ this feeling and, at the same time, tried to reduce it by improving the readability of
+
+ Jacobi's results, are a good example which is worth quoting:
+
+ By reflecting upon the proof provided by Jacobi, one does not understand easily
+
+ by what chain of ideas he could have achieved the singular form that he gives
+ to a certain rational function of one variable which represents the basis and the
+
+ point of departure of his demonstration. Chance could not produce such a hidden
+ result.1
+
+ Here, Plana was referring to the first proof conveyed by Jacobi in (Jacobi 1827c), but
+
+ his critique could aptly be repeated for the reformulation of the theory provided in the
+ Fundamenta Nova.
+
+ Similar objections were put forth by Legendre in his report on Jacobi's theory,
+
+ which was published in Nr. 130 of the Astronomische Nachrichten:
+
+ [...] it is regrettable that the author fulfills the aim which he has imposed to him
+
+ self by a sort of divination, without sharing with us the secret whose conception
+
+ has progressively led him to the form for 1 - y which is required in order to
+
+ satisfy the conditions of the problem.2
+
+ 1 En réfléchissant sur la métaphysique de la démonstration donnée par Mr. Jacobi, on ne comprend pas
+
+ facilment par quel enchaînement d'idées il a pû être conduit à la forme singulière qu' il attribue à une certaine
+
+ fonction rationelle d'une seule variable, qui constitue la base et le point de départ de sa démonstration. Le
+
+ hasard ne saurait enfanter un résultat aussi profondément caché (Plana 1829,333).
+
+ 2 [...) on doit regretter que l'auteur remplisse la tâche qu'il s'est imposée par une sorte de divination, sans
+ nous mettre dans le secret des idées dont la filiation l'a amené progressivement à la forme que doit avoir
+
+ 1 — y pour satisfaire aux conditions du problème (Legendre 1828a, 203).
+
+ <£) Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 09:57:42 UTC
+All use subject to https://about.jstor.org/terms
+
+ On Jacobi's transformation theory 531
+
+ The aim of the present paper is precisely to describe and explain in full detail the
+
+ heuristic process by which Jacobi obtained these transformation formulae. The pro
+
+ posed historical reconstruction will also shed new light upon the emergence in Jacobi's
+
+ work of the inversion process of elliptic integrals of the first kind and thus of the elliptic
+ function sinamn itself.
+
+ Indeed, I believe that a close examination of Jacobi's early researches on transfor
+
+ mation theory in the period June-December 1827 will illuminate some crucial loci of
+
+ the Fundamenta and partially dissolve the aura of obscurity which surrounds them.
+
+ No historical investigation on Jacobi's theory of elliptic functions can avoid a com
+
+ parison with Abel's contemporary work3 on the same subject. However, this is not
+
+ my main goal. I will limit myself to some sporadic remarks when such a comparison
+
+ sheds light on Jacobi's own investigations.
+
+ 2 The genesis of the theory
+
+ According to (Koenigsberger 1904,35-36), Jacobi began his research on the transfor
+
+ mation theory of elliptic integrals in the winter of 1826-1827. Like Abel, who seemed
+
+ to have taken an interest in the subject after reading Gauss's hints about the theory
+
+ of cyclotomy contained in the Disquisitiones Arithmeticae, Jacobi's choice is likely
+
+ to have been triggered by the work of Gauss as well. In particular, it was his atten
+
+ tive study of a celebrated memoir (Gauss 1818) on the determination of the secular
+
+ variations of the orbit of a planet that is subject to the influence of another planet that
+
+ fostered his first steps into the realm of a new mathematical discipline: elliptic function
+
+ theory. On that occasion, Gauss had tackled and solved the problem of reducing the
+
+ elliptic differential
+
+ yJ{A - a cos ΕΫ + (Β-b sin Ε)2 + C2
+
+ to a simpler form, namely:
+
+ dΡ
+
+ \J G + G' cos2 Ρ + G" sin2 Ρ
+
+ As Gauss proved in full detail, it turned out that such a reduction could be attained by
+
+ means of a rational transformation of type
+
+ a + a' cos Ρ + a" sin Ρ
+
+ cos Ε —
+
+ γ + γ' cos Ρ + γ" sin Ρ
+
+ . „ β + β' cos Ρ + β" sin Ρ (
+
+ sin Ε = ——-,
+
+ γ + Υ cos Ρ + γ" sin Ρ
+
+ if the 9 coefficients α,..., γ" are properly chosen.
+
+ (»
+
+ (2)
+
+ Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 09:57:42 UTC
+All use subject to https://about.jstor.org/terms
+
+ 3 On Abel's fundamental contributions to elliptic function theory, see (Houzel 2004) and (Bottazzini and
+ Gray 2013, Chap. I).
+
+ 532 A. Cogliati
+
+ Jacobi soon discovered that he could provide a generalization of Gauss's theorem
+
+ to the case of elliptic-type integrals of 2 variables. In his words:
+
+ While, on several occasions, I devoted myself to that illustrious paper, I realized
+
+ that the same analysis could be employed to obtain an outstanding transfor
+
+ mation of some double integral. I believe that the result is all the more worth
+
+ communicating to geometers since the theory of double integrals appears to be
+
+ very much neglected.4
+
+ His achievements resulted in a short paper published in June 1827 in Crelle 's Journal
+
+ under the title De singulari quadam duplicis Integralis trasformatione, (Jacobi 1827a).
+
+ Almost at the same time, under the stimulus of these researches, Jacobi began his first
+
+ systematic investigations of the theory of elliptic integrals himself. The subject had
+
+ recently been elevated to the rank of an autonomous and promising discipline by the
+
+ indefatigable, solitary work of Adrien-Marie Legendre, who had been dealing with it
+
+ for almost twenty years. Starting in the late 1780s, Legendre had provided a thorough
+
+ examination of the subject that essentially consisted of the complete classification of
+
+ elliptic integrals into three distinct kinds and the elaboration of suitable techniques for
+
+ constructing numerical tables, thus enriching the mathematical treatment of known
+
+ transcendental functions beyond the elementary cases of the exponential and trigono
+ metric functions.
+
+ Transformation theory turned out to be essential for this general aim. For the sake of
+
+ simplicity, we will limit ourselves to considering the case of the (so-called) quadratic
+
+ transformations of elliptic integrals of the first kind. We will follow Legendre's discus
+
+ sion contained in (Legendre 1825, Chap. XVII). In Legendre's words, his motivation
+ was the following:
+
+ We will now see how one can, by a very simple law, form an infinite number of
+
+ elliptic functions of the first kind which differ one from another both by module
+
+ and amplitude and which, nonetheless, have the most remarkable property of
+
+ being in constant ratios.5
+
+ Indeed, by denoting with F {φ, c), the elliptic integral of the first kind
+
+ Φ
+
+ m.c)  -s  y/l - c2 sin2 φ
+
+ ο
+
+ d φ
+
+ Legendre obtained the following important result:
+
+ Theorem 1 (Legendre 1825) Let F(0, c) and Ρ(φ', c') two elliptic integrals with
+ amplitudes and modules subject to the following two conditions: sin(2φ' - φ) =
+
+ 4 Dum egregiae illi commentationi identidem incumbebam, non fugit me, eandem fore analysin ad duplicis
+
+ Integralis cujusdam insignem transformationem adhiberi posse, quam communicare cum geometris eo
+
+ minus dubito, quod duplicium Integralium theoria valde jacet (Jacobi 1827a, 234).
+
+ 5 Nous allons faire voir qu'on peut, par une loi très simple, former une infinité de fonctions elliptiques de
+
+ première espèce, qui diffèrent les une des autres tant par le module que par l'amplitude, mais qui ont la
+
+ propriété fort remarquable d'être entre elles dans des rapports costans.
+
+ Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 09:57:42 UTC
+All use subject to https://about.jstor.org/terms
+
+ It should be observed that the relevant transformation sin φ ι—► sin φ' is quadratic
+
+ only in a broad sense, since in this case, irrationalities do appear.
+
+ Legendre exploited the existence of this transformation for the numerical compu
+
+ tation of elliptic integrals by constructing a doubly infinite scale (échelle) of modules
+
+ ..., c00, c°, c, c', c"... iteratively defined by c' = and its backward counterpart
+ co _ i-ZT?
+
+ On Jacobi's transformation theory 533
+
+ csin0, c' = Then one has:
+
+ Jacobi's first results were precisely concerned with the extension of Legendre's
+
+ transformation theory. In a letter dated June 13,1827 to H. C. Schumacher, the founder
+
+ of the Astronomische Nachrichten, Jacobi announced the discovery of an infinite num
+
+ ber of rational transformations for elliptic integrals of the first kind. The communica
+
+ tion did not contain any proofs, but Jacobi was able to exhibit explicit expression for
+
+ transformations of order 3 and 5 together with a sketchy discussion of related issues
+
+ concerning the multiplication problem.
+
+ Reactions to Jacobi's announcement ranged from Gauss's icy indifference to Legen
+
+ dre's loyal acknowledgement of the scientific value of Jacobi's achievements. In a letter
+
+ to Schumacher, Gauss expressed his intention to refrain from making any judgement
+
+ on Jacobi's work saying that he was perplexed by the habit of publishing statements
+
+ without proof or any justification whatsoever. At the same time, he wrote that he could
+
+ find nothing new in Jacobi's announcement, since he was in possession of even more
+
+ general results even though he had not published any.
+
+ On the contrary, Legendre's reception was enthusiastic and very encouraging, as
+
+ emerges from the well-known epistolary exchange with Jacobi that had begun on
+ August 5, 1827. This is the date of the first letter which Jacobi sent to the unani
+
+ mously recognized master of elliptic integrals in order to present the results of his
+
+ early researches. He wrote the following:
+
+ Sir, a young geometer dares to present to you some discoveries of his own in the
+
+ realm of elliptic function theory to which he has been led by the restless study of
+
+ your beautiful works. It is to you, Sir, that this brilliant branch of analysis owes
+
+ its high degree of perfection to which it has been driven. It is only by marching
+
+ along the footsteps of such a great master that geometers will be able to take
+
+ it beyond the boundaries which have been imposed to this discipline thus far.
+
+ Then, it is you the person to whom I feel obliged to offer what is to follow as
+
+ loyal tribute of admiration and gratitude.6
+
+ 6 Monsieur, un jeune géomètre ose vous présenter quelques découvertes faites dans la théorie des fonctions
+
+ elliptiques, auxquelles il a été conduit par l'étude assidue de vos beaux écrits. C'est à vous, Monsieur, que
+
+ cette partie brillante de l'analyse doit le haut degré de perfectionnement auquel elle a été portée, et ce n'est
+
+ qu'en marchant sur les vestiges d'un si grand maître, que les géomètres pourront parvenir à la pousser au
+
+ delà des bornes qui lui ont été prescrites jusqu'ici. C'est donc à vous que je dois offrir ce qui suit comme
+ un juste tribut d'admiration et de reconnaissance (Jacobi's Werke, 1,390).
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 09:57:42 UTC
+All use subject to https://about.jstor.org/terms
+
+ Springer
+
+ 534 A. Cogliati
+
+ Legendre informed Jacobi that he already knew of the existence of the module
+ scale associated to the number 3 (indeed, this discovery of his was already con
+ tained in (Legendre 1825, Chap. XXXI) unknown to Jacobi); nonetheless, as he
+ fully recognized the discovery of a third scale associated with the prime number
+
+ 5 was of the uttermost importance, not to speak of the assertion that there exists
+
+ a rational transformation corresponding to every prime number. At first, Legendre
+
+ had to admit that he doubted the validity of such an audacious statement. However,
+
+ upon reading Jacobi's more detailed letter of August 5, he convinced himself that
+
+ the young geometer could actually rely upon a solid theoretical framework rather
+
+ than on an unrigorous inductive methodology. For this reason, Legendre urged Jacobi
+
+ to provide more analytical details shedding light on the undeniable efficiency of his
+
+ techniques.
+
+ 3 "Demonstratio theorematis..
+
+ Already on November 18, 1827, Jacobi had completed a short paper, to appear in
+ the Astronomische Nachrichten Nr. 130, which set out the foundations of his trans
+
+ formation theory of elliptic integrals, and at the same time, he provided the first
+
+ proof of his ground-breaking announcements. At the start of the paper, he wrote the
+
+ following:
+
+ In the 123th number of the Astr[onomische] N[achrichten] I conveyed some
+
+ properties of elliptic functions which appeared to be new and worth of the inter
+
+ est of geometers. The researches to which those results gave birth had advanced
+ further and offer, if I am not mistaken, an outstanding extension of Legendre's
+
+ theory. Although I cannot determine yet the time by which it will be possible
+
+ to complete a treatise comprising all these investigations, I hope that geometers
+
+ will appreciate that I briefly convey a fragment of these researches, namely
+ the proof of a fundamental theorem in the transformation theory of elliptic
+ functions.7
+
+ Jacobi's transformation theory consists of two essentially distinct steps: a purely alge
+
+ braic one relying only on the manipulation of polynomials and the counting of arbitrary
+
+ constants, and an analytical-transcendental one by means of which the explicit expres
+
+ sion for the sought-for transformations could be attained. In this respect, the inversion
+
+ of elliptic integrals and the complexification process turned out to be decisive for fur
+
+ ther investigation; in spite of that, they played no part at all in the elaboration of the
+
+ preliminary algebraic component of the theory, as will be seen.
+
+ 7 Proprietates functionum ellipticarum quasdam in n. 123 Astr. N. tradidi, quae novae atque attentione
+
+ georaetrarum non indignae videbantur. Disquisitiones, quibus illae originem debent, exinde ulterius contin
+
+ uatae sunt egregiainque, ni fallor, amplificationem theoriae a Legendre datae praebent. Cum autem tempus,
+
+ quo tractatui, hasce disquisitiones complectenti, finem imponere licebit, definire nondum queam, geometris
+
+ non ingratum fore spero, si fragmentum harum disquisitionum, demonstrationem scilicet theorematis in
+ doctrina de transformatione functionum ellipticarum fundamentalis, hie breviter exponam (Jacobi 1827c,
+
+ 133).
+
+ <£l Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 09:57:42 UTC
+All use subject to https://about.jstor.org/terms
+
+ Jacobi's starting point in (Jacobi 1827c) consisted of finding conditions on poly
+
+ nomials U(x), V(x) that guarantee the possibility of transforming the differential
+
+ *JY(y) V(1 - ay)(l - a'y)(l - ot"y){ 1 - a"'y)
+
+ On Jacobi's transformation theory 535
+
+ expression
+
+ into
+
+ dy dy
+
+ dx dx
+
+ M^X(xj MV( 1 - βχ){\ ~ β'χ)(1 ~ β"χ)(1 ~ β"'x) '
+
+ where Μ designates a constant quantity, by means of a rational substitution y =
+
+ U(x)/V(x). When the expression for y is substituted in Eq. (4), as a consequence of
+
+ (4)
+
+ (5)
+
+ V4y ^y = ^ = (V - aU)(V - a'U)(V - a"U){V - a"'U)
+
+ and of
+
+ one obtains
+
+ dx dx
+
+ VT~ _i/T"
+ dx dx
+
+ dy
+ Vf VG(U, V) '
+
+ . Indeed, since U and V are supposed to contain no common factors, it is
+
+ where G(U, V) indicates the homogeneous 4th order function V4Y (y = y). Now,
+ Jacobi supposed, if G(U, V) contains a quadratic factor (χ - γ)2, then (x — y) divides
+ Vlx ~
+ clearthat (x-y)2 must divide one of the terms (V-aU), (V-a'U), (V-a"U), (V —
+ a"'U) only. Otherwise, suppose that there exist polynomials W(x), W'(x) such that
+ (V —aU) = (x-y)W(x) and (V-a'U) = (x — y)W(x), then it is easy to see that
+ U(x) and V(x) have (x — y) as a common factor, contrary to the hypothesis. As a
+ consequence of this, and of the identity = (V-yU)^--U -^(V-yU),
+ Jacobi observed that if G(U, V) contains a square factor (x - y)2, then (x - y) also
+ divides V§ - U%.
+
+ Thus, if G{U, V), which is of degree 4n in the variable χ (η being the maximum
+
+ exponent of χ in the polynomials U, V), contains 2n -2 such square factors so that
+
+ G(U, V) = (1 - βχ){\ - β'χ){\ - β"χ){\ - β"'χ)Τ2(χ),
+
+ then Τ divides V ^ - U . Since the degree of V ^ - U cannot be greater than
+ 2η - 2, there exists a constant M such that = T/M.
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 09:57:42 UTC
+All use subject to https://about.jstor.org/terms
+
+ 4f) Springer
+
+ 536 A. Cogliati
+
+ The following theorem, which Jacobi considered to be fundamental for the entire
+
+ transformation theory,8 was thus proved.
+
+ Theorem 2 Let U, V, Τ be polynomials (functiones rationales intégras J in the vari
+ able χ such that
+
+ (V - aU)(V - a'U)(V - a"U)(V - a"'U)
+
+ = (1 - βχ)(ί - β'χ)(1 - β"χ)(I - β"'χ)Τ\χ), (6)
+
+ then the expression
+
+ dy dy
+
+ dx dx
+
+ *>/Y(y) -ν/(1 - ay)(l - a'y)(l - a"y)( 1 - a'"y) '
+
+ as a result of the substitution y = U(x)/V(x), is transformed into
+
+ MjXÎxj MV(1 - βχ)(1 - β'χ)(ΐ - β"x)(Ι - β"1 x) '
+
+ where Μ indicates a constant quantity.9
+
+ Jacobi pointed out that the result could easily be applied to elliptic integrals of
+
+ the first kind. Indeed, it suffices to set a = —a' = 1, α" = —a'" = λ and β =
+ -β' = 1, β" = —β'" = k in order to obtain a rational substitution, which transforms
+
+ να-Λα-λ2}-2) V(i-*2)0-*2*2)'
+
+ into
+
+ It should be remarked that this theorem does not by itself guarantee the existence
+
+ of rational transformations of any order. It only asserts that if one is able to produce
+
+ polynomials U, V satisfying (6), then y = U/V is the desired transformation.
+
+ A rough computation of the number of unknown constants involved, which Jacobi
+
+ provided in a letter to Legendre and much later in the Fundamenta Nova, makes it
+
+ clear that the determination of the coefficients of U and V should be possible since the
+
+ number of unknown coefficients is greater than the number of necessary conditions to
+
+ be imposed. When reconstructing the heuristic path which had led him to the conjecture
+
+ concerning the existence of transformations of any prime order, Jacobi explained that
+
+ his first discovery consisted of the equation Τ = V — ί/^j, from which he could
+ draw the conclusion that the deduction of transformations of any order was possible
+
+ because, as he wrote to Legendre, it could be traced back to a problème d'Analyse
+
+ algébrique déterminé (a determined problem of algebraic Analysis).
+
+ However, this simple argument is not sufficient to guarantee the existence of rational
+
+ transformations, as Poisson explicitly observed in his report on Jacobi's Fundamenta
+ Nova.
+
+ 8 Theoremate hoc fundamentum transformationis trascendentium ellipticarum continetur (The foundations
+
+ of the transformation of elliptic transcendents are contained in this theorem) (Jacobi 1827c, 135).
+
+ 9 (Jacobi 1827c, 135).
+
+ £) Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 09:57:42 UTC
+All use subject to https://about.jstor.org/terms
+
+ On Jacobi's transformation theory 537
+
+ Nonetheless, this enumeration of unknown quantities and conditional equations
+
+ is not sufficient to guarantee a priori the possibility of equation (2); since it
+
+ might happen that the conditional equations are incompatible and that one cannot
+
+ satisfy them either with real values or with imaginary values of the unknowns,
+
+ despite the fact that the number of the latter is greater than that of equations.10
+
+ For this reason, the actual existence of transformations of any order could be attained
+
+ only by producing polynomial functions satisfying the hypothesis of theorem (2).
+
+ Already in the above-mentioned letter on August 5 to Schumacher, Jacobi had com
+
+ municated, without proof, the general form for the pth order transformation (p being
+
+ an odd number) equation by means of the following trigonometric expression:
+
+ (π ψ\ (π φ\ tan21*^ tan αΡ~}±φ
+
+ t£m ( 4 ~ 2 ) = ten \4 * l) tan^ ' ' ' tan αΡψφ ' (?)
+
+ where am is so chosen as to satisfy the relation F(k, am) = jK, and it is agreed that
+ the upper sign is to be taken when ρ is of the form An+\ and the lower sign when it is of
+
+ the form 4n -1. The first rigorous proof of (7) was provided by J acobi only in December
+
+ 1827 when, after reading Abel's memoir, he explicitly introduced the inverse function
+
+ sinam£ to denote the sine of the angle (amplitude>) φ that satisfies the relation
+
+ ==/ ί
+
+ \J\ - k2 sin2 φ
+
+ ο
+
+ It should be observed that already in (7) Jacobi implicitly made use of the
+ inverse function. Indeed, the coefficients am are defined precisely by the relations
+
+ sinam =sinam|A\ where K, the so-called complete integral, is defined to be equal to
+
+ ÏÏ j j
+
+ =. Nonetheless, it is still unclear whether Jacobi had the idea of inverting
+
+ elliptic integrals before getting to know Abel's results. One can safely say that Abel's
+
+ emphasis on the necessity of dealing with inverse functions from the very beginning of
+
+ his investigation has no match in Jacobi's early researches. While in Abel's Recherches
+
+ (Abel 1827, 1828) the inversion process appeared as a preliminary step to highlight
+ essential properties of elliptic functions such as double periodicity, Jacobi was led to
+
+ the inversion of elliptic integrals in a somehow indirect way through his detailed study
+
+ of transformation theory. We will see later on how the coefficients sinam j Κ emerged
+ in a quite fortuitous form along a very interesting heuristic path.
+
+ How can one evaluate the impact played by Abel's work on Jacobi's discovery of
+
+ the existence of rational transformations of any order as proven in (Jacobi 1827c)?
+
+ Despite the fact that the proof provided in (Jacobi 1827c) made no use of either
+
+ 10 Mais cette énumération des inconnues et des équations de condition ne suffit pas pour établir a priori la
+
+ possibilité de l'équation (2); car il pounrait arriver que les équations de condition fussent incompatibles, et
+
+ qu'on n'y pût satisfaire, ni par de valeurs réelles, ni par des valeurs imaginaires des inconnues, quoique le
+ nombre de celles-ci fût plus grand que celui des équations (Poisson 1831, 87). By Eq. (2) Poisson referred
+ to Eq. (6) above.
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 09:57:42 UTC
+All use subject to https://about.jstor.org/terms
+
+ Ô Springer
+
+ 538 A. Cogliati
+
+ complexification or of double periodicity so fundamental for Abel's Recherches, the
+
+ introduction of the function sinamu turned out to be essential. In particular, Jacobi
+
+ exploited the single periodicity sinam(« + 4K) = sinamu in order to deduce algebraic
+
+ properties required for the application of Theorem (2). It should be remarked that in
+
+ his previous investigations, Jacobi had merely limited himself to considering specific
+
+ values of the function sinamu, namely those corresponding to rational multiples of the
+
+ complete integral Κ. It was only in (Jacobi 1827c), after reading Abel, that the abstract
+
+ notion of the inverse function was given autonomous status and, consequently, was
+
+ made the central object of his analysis.
+
+ The structure of the proof provided by Jacobi was quite simple in principle. He
+
+ rewrote the transformation (7) in the following form:11
+
+ y=u=x AAm=1
+
+ (8)
+
+ x2
+
+ sin2 am^
+
+ , ,22-2 2m Κ
+ 1 - rjt sin am
+
+ ll«=l
+
+ and he verified a posteriori that the polynomials U and V satisfy the hypotheses of
+ Theorem (2).
+
+ In order to do that, Jacobi relied upon an outstanding symmetry property of the
+
+ differential equation
+
+ yjï -y2)(i -k2y2) My/( 1 -*2)(1 -*2x2)
+
+ (9)
+
+ according to which the Eq. (9) remains invariant upon simultaneous substitution of χ
+
+ by and of y by ^. As a consequence of this, Jacobi succeeded in providing explicit
+ expression for the quantities 1 ± y, 1 ± λγ from which he could draw the conclusion
+
+ that there exists a polynomial function Τ (χ) such that
+
+ (V -UXV + U)(V - W)(V + kU) = (1 - χ2) (1 - k2x2) T2(x), (10)
+
+ as was required by the purely algebraic statement of Theorem (2).
+
+ It should be remarked, as in (Legendre 1828a), that such a computational trick,
+
+ which Legendre called double substitution principle, played a decisive role in the
+
+ proof, since a direct verification of the formula (8) would otherwise be forbidding. In
+
+ this respect, Legendre wrote the following:
+
+ The difficulty which one experiences here is such that there would not be any hope
+
+ of attaining the general demonstration, had not Jacobi found a very ingenious
+
+ way of avoiding the substitution of the formulae into the differential equation
+
+ 11 It is by no means trivial to prove that the two expressions are indeed equivalent. A careful verification
+ of this fact was provided in (Legendre 1828b, 5-6).
+
+ £) Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 09:57:42 UTC
+All use subject to https://about.jstor.org/terms
+
+ On Jacobi's transformation theory 539
+
+ which consists in exploiting a particular property of this equation which is shared
+
+ by its integrals too.12
+
+ We now tackle the question of how Jacobi could have come to his conjecture. Once
+
+ again, the already mentioned letter to Legendre (April 1828) turns out to be very
+
+ enlightening. Jacobi wrote the following:
+
+ You wanted me to have given the chain of ideas which led me to my theorems.
+
+ However, the path which I pursued is not susceptible to geometrical rigor. Once
+
+ the result was found, one could replace it with another one which could be
+
+ achieved in a purely rigorous way. Then, it is for you only, Sir, that I add what
+ follows:
+
+ The first thing which I found (in March 1827) was the equation Τ = ;
+
+ from which I recognized that, for any number n, the determination was a known
+
+ problem of algebraic analysis, the number of arbitrary constants being always
+
+ equal to the number of conditions. By means of undetermined coefficients, I
+
+ was able to produce the transformations of order 3 and 5 [...] By a fortunate
+
+ groping, I noticed in both these cases the complementary transformation giving
+
+ rise to the multiplication formula. At that moment I wrote my first letter to Schu
+
+ macher, the method being general and verified by some examples. Afterward,
+
+ by a closer examination of the two transformations ζ = y = a'i+fxf
+ written in the form which I conveyed in my first letter, I discovered that by
+
+ putting χ =sinam^, ζ must vanish and, since, in the mentioned form, j was
+ positive, I concluded that y also vanished. In this manner, I found by induction
+
+ the factorization; this being confirmed by some examples, I conveyed the general
+
+ theorem in my second letter to Schumacher.13
+
+ As will be shown in the appendix, Jacobi was able to obtain the expression for third
+
+ order transformations by purely algebraic means. The first transformation, which he
+
+ 12 La difficulté qui se présente ici est d'une telle nature qu'il ne resterait guère d'espoir de parvenir à la
+ démonstration générale, si Mr. Jacobi n'eût trouvé un moyen très ingénieux d'éviter la substitution à faire
+
+ dans l'équation différentielle, et d'y suppler par une propriété particulière de cette équation qui doit être
+ commune aux intégrales qui la représentent (Legendre 1828a, 204).
+
+ 13 Vous auriez voulu que j'eusse donné la chaîne des idées qui m'a conduit à mes théorèmes. Cependant
+ la route que j'ai suivi n'est pas susceptible de rigueur géométrique. La chose étant trouvée, on pourra y
+
+ substituer une autre sur laquelle on aurait pu y parvenir rigoureusement. C'est ne donc que pour vous,
+ Monsieur, que j'ajoute le suivant: La prémière chose que j'avais trouvée (dans le mars 1827), c'était
+
+ l'équation Τ = - —g- ; de là je reconnus que, pour un nombre η quelconque, la détermination était
+ un problème d'Analyse algébrique déterminé, le nombre des constantes arbitraires égalant toujour celui des
+
+ conditions. Au moyen des coefficients indéterminés, je formai les transformations relatives aux nombres 3 et
+
+ 5 [...] Par un tâtonnement heureux, je remarquais dans ceux deux cas l'autre transformation complémentaire
+
+ pour la multiplication. Là j'écrivis ma prémière lettre à M. Schumacher, la méthode étant générale et vérifiée
+
+ par des examples. Depuis, examinant plus de proche les deux substitutions ζ = , y = α'χ+^'ϊ3
+
+ \+ciyi l+c'xz
+
+ et comme, dans ladite forme, g était positif, j'en conclus que y devra s'évanouir aussi. De cette manière
+ je trouvai par induction la résolution en facteurs, laquelle étant confirmée par des examples, je donnai le
+ théorème général dans ma seconde lettre à Schumacher (Jacobi's Werke 1,415-416).
+
+ h
+
+ ί) Spring* ;er
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 09:57:42 UTC
+All use subject to https://about.jstor.org/terms
+
+ sous la forme présentée dans ma première lettre, je vis qu'étant mis χ = sinam^r-, ζ devra s'évanouir,
+
+ referred to in the above letter to Legendre as ζ = was written in (Jacobi 1827b,
+
+ p. 34) in the following trigonometric form:14
+
+ 540 A. Cogliati
+
+ The second transformation y = took on the following form:
+
+ sirn/s = j r————τ —. (11)
+
+ sin φ
+
+ <o
+
+ +
+
+ . α ,
+
+ (τ) | sin2 0 j
+
+ c2 + | :.·) M
+
+ | sin2 φ
+
+ sin θ Γ-3ac + (2^)2 sin2 #1
+
+ sin φ — ——=— , . .. ,—;—-. (12)
+ a2 - 3 (-γ:) ) sin2 θ
+
+ We are now in the position to fully understand Jacobi's observation. As a consequence
+ of the relation
+
+ άψ 3d0
+
+ \/l - κ sin2 φ ν7! - κ sin2 θ
+
+ = (^) . (13)
+
+ it is clear that ζ (= sin ψ), when considered as a function of χ (= sin θ), vanishes
+
+ when χ = sinam^. Indeed, if F (ψ, Jlc) — 3 F (am^, </ic) = 2 K, then, since
+
+ π/2 π
+ r djr _ r άψ
+ J J\ - κ sin2 φ J J\ - κ sin2 φ
+ 0 r π/2 v Y
+
+ ψ = ti and ζ (x — sinam^) = 0. Now, in order to conclude that y (sinam^·) = 0,
+ we have to prove that the product ac in (11) is positive. Indeed if, by absurdum
+
+ y (sinam-^·) Φ 0, we would have
+
+ which contradicts the requirement that ac > 0.
+
+ In order to prove this, we observe that the transformation (11) satisfies the following
+
+ differential relation
+
+ 14 With a slight change in notation. A minor misprint contained in the first formula of Théorème I (Jacobi
+
+ 1827b, 34) should be pointed out The square outside the square bracket must be shifted to the term sin φ.
+ A corrected version of the formula is contained in (Jacobi's Wetke, 1,32).
+
+ <£) Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 09:57:42 UTC
+All use subject to https://about.jstor.org/terms
+
+ On Jacobi's transformation theory 541
+
+ άψ d φ
+
+ (14)
+
+ If we insist, as Jacobi did, that the modules of the two elliptic integrals lie between
+
+ -1 and 1, we see that 1 < § < 3 and thus that ac > 0, which is what was to be
+ proved. In this respect, it is interesting to note that the limitation of Jacobi's analysis
+
+ to the real domain, though provisional, turned out to be providential at this stage of
+
+ the discovery process.
+
+ By pursuing the heuristic path here described, Jacobi thus deduced the correct
+
+ factorization of the numerator of (7) in the order 3 case. Indeed, as a consequence of the
+
+ oddness of the function ( 12), the existence of the other zeros, - sinam and 0, follows
+
+ immediately. As for the generalization of the formula to any prime number p, at least
+
+ until November 1827, it remained a fortunate and audacious conjecture, despite the
+
+ fact that Jacobi had venture claimed it already in August of that year. As he confessed to
+
+ Legendre, the proof of the theorem was attained only at a later stage.15 In this respect,
+
+ it is interesting to emphasize that Jacobi's confidence in the efficiency of his techniques
+
+ extended well beyond his capability of providing rigorous proofs. Of course, as with
+
+ the whole of mathematical knowledge, standards and rules for public communication
+
+ of mathematical results are not immutable entities; as such, they too are subject to
+
+ developments imposed by history. But at the same time, Gauss's above-mentioned
+
+ sharp reproach of the bad habit of publishing statements of theorems without contextual
+
+ proof is a sign of a changing attitude toward standards of rigor and prerequisites for
+
+ publication. Finally, I suggest that Jacobi's audacity could be explained by his faith
+
+ in the purely algebraic method that consists in the counting of arbitrary constants and
+
+ conditional relations that might have induced him to underestimate caveats like those
+
+ pointed out by Poisson in his Rapport.
+
+ 4 Further developments
+
+ On September 9, 1828, Jacobi wrote to Legendre that his researches of the last 18
+
+ months, in which all of his energy and attention had been absorbed, night and day,
+
+ by the study of elliptic functions, would be gathered into a petit ouvrage under the
+
+ title: Fundamenta Nova Theoriae Functionum Ellipticarum. Despite Jacobi's modest
+
+ estimate, the result was by no means petit·, on the contrary, the treatise stood out for
+
+ his thoroughness and systematic character, which assured him a long-lasting influence
+
+ upon investigations to come.
+
+ As for transformation theory, to which the first part of the Fundamenta Nova was
+
+ devoted, Jacobi did not limit himself to presenting his previous results again. On the
+
+ contrary, he conveyed a reformulation of the entire theory which provided a powerful
+
+ extension of the version contained in (Jacobi 1827c).
+
+ 15 (Jacobi's Werice, 1,416).
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 09:57:42 UTC
+All use subject to https://about.jstor.org/terms
+
+ Φ Spring» ;er
+
+ 542 A. Cogliati
+
+ In this respect, to be sure, the reading of Abel's works played an essential role in
+
+ shaping Jacobi's reformulation of his previous ideas, as the epistolary exchange with
+
+ Legendre witnesses. The centrality of the inversion of elliptic integrals, the recourse to
+
+ the complexification of the argument of the function sinamu, and the focus on double
+
+ periodicity should be regarded as a direct manifestation of Abel's decisive influence.
+
+ This is not to underestimate Jacobi's contributions to elliptic function theory. On the
+
+ contrary, the historians' problem consists in placing his contributions in the proper
+
+ context. While, despite their undisputed ingenuity and sagacity, Jacobi's early investi
+
+ gations were more in the spirit of Legendre's work, the Fundamenta Nova represented
+
+ a departure from that tradition. Although Jacobi maintained his own priorities and
+
+ peculiarities, he was able to enrich them with the stimuli which he had long been
+
+ absorbing from Abel.
+
+ Not only was transformation theory endowed with a brand new depth, but also its far
+
+ reaching consequences were carefully investigated. As for transformation theory, the
+
+ introduction of complex arguments for the function sinamu—via what Jacobi called
+
+ théorème fondamental de Abel, i.e., the equation sinam(i£, k) = i tan(£, k') (with
+ k'2 = 1 - k2)—played a dominant role. It allowed Jacobi to extend the number of
+
+ possible rational transformations of a given order; it turned out that there exist ρ + 1
+
+ of them if ρ is the order of the transformation.
+
+ Perhaps, the more striking consequence of this new systematization consisted in the
+
+ well-known development of elliptic functions sinamu and cosamu into ratios of infinite
+
+ products. These achievements directly stemmed from transformation theory. Indeed,
+
+ Jacobi succeeded in obtaining a special type of transformation, which he called prima
+
+ transformatio supplementaria, that allowed him to express the function sinamfriu, k)
+
+ in terms of sinam(·^, λ). By replacing u with ft and taking the limit for η -» oo, he
+ obtained the following expansion for sinamu:
+
+ where y = sin and Κ = [Σ2 —=ÉÈ===, Κ' = [Σ2 , d^ ,=====■
+
+ } ΊΚ J0 Vl~*2sinV 0 Vl-(l~*2)2sin20
+
+ This and similar formulae were exploited to obtain the well-known infinite product
+
+ developments of the module k and the complete integral Κ with respect to
+
+ sinamu = /Λ 7 (15)
+
+ IK, ('-=%)
+
+ * nr., (' - -TEpr)
+
+ Κ
+ q = exp~F'
+
+ A crucial step was finally represented by the introduction of the theta function
+
+ 0(u) = 0(O)exp J Z(i)df, (16)
+
+ U
+
+ ο
+
+ 4t) Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 09:57:42 UTC
+All use subject to https://about.jstor.org/terms
+
+ On Jacobi's transformation theory 543
+
+ where Z(t ) was defined in terms of the elliptic integrals of first and second kind, which
+
+ was to play a completely anew foundational role in his later formulation of the theory.
+
+ In Jacobi's skillful hands, elliptic function theory and its plethora of new formulae
+
+ attained complete autonomy. The Fundamenta Nova somehow marked the dawn of an
+
+ independent discipline that, along with many fruitful applications in the realm of num
+
+ ber theory and projective geometry, was to acquire a decisive role in the development
+
+ of nineteenth-century analysis.
+
+ 5 Appendix: algebraic derivation of third-order transformation
+
+ The first published version of the algebraic deduction of the existence of third-order
+
+ transformations is contained in Jacobi's Fundamenta Nova. Such a delayed appearance
+
+ somehow betrayed the actual historical development of the theory. Nonetheless, at the
+
+ same time, the fact that Jacobi decided to include it in his first systematic presentation
+
+ of the dawning theory elliptic functions is highly indicative of the strategic role played
+
+ by algebraic considerations in the discovery path pursued by Jacobi. Even more so,
+
+ since the algebraic treatment of transformations of order 3 (and 5) was presented
+
+ as a useful exemplification of an extensive preliminary, algebraic investigation on
+
+ transformation theory.
+
+ Before discussing the particular case of order 3, it is first necessary to cany out
+
+ some general consideration concerning transformations of odd order ρ = 2m + 1.
+
+ The case of interest will then represent the easiest possible eventuality (m = I).
+
+ By following Jacobi, we will consider a general rational transformation of the
+
+ following form:
+
+ U x [a + a'x2 + a"x4 -I Κ a^x2m)
+
+ y=V= l + b'x2 + b"x* + --- + b(mh2m ' (17)
+
+ In order to attain the desired transformation, we have to require the following equations
+ to be true:
+
+ V + U = (l+x)A2(x), (18)
+ y - U = (1 - x)B2(x), (19)
+ y + λϋ = (1 + kx)C2{x) (20)
+ y - kU = (1 - kx)D2(x). (21)
+
+ As for the counting of conditional relations and arbitrary coefficients, to which Jacobi
+
+ referred in his April 1828 letter to Legendre, it seems useful to recall what Jacobi
+ wrote
+
+ Here too, one has to satisfy equations (1), (3) [i.e. (18), (20)] only, from which, by
+
+ changing χ in -x, the other two follow directly. In order for V + U and V + XU
+
+ to satisfy these equations it is necessary that each of them contains m linear
+
+ factors pairwise equal; to this end, 2m conditional equations must be satisfied to
+
+ which one has to add that V + U contains the factor (1 -fx). Therefrom it follows
+
+ Ô Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 09:57:42 UTC
+All use subject to https://about.jstor.org/terms
+
+ 544 A. Cogliati
+
+ that the number of conditional equations is 2m + 1 which coincides with the
+ number of undetermined quantities a, a', a",b', b" b{m). Hence,
+ the problem is determined in this case too.16
+
+ At this point, Jacobi introduced a lemma which highly simplifies the task. Referring
+
+ to equations (18) and (20) above, he states the following:
+
+ I affirm that if the functions U, V are determined in such a way that, by replacing
+
+ χ with jj, y = γ is transformed in ^ then any of the two equations
+ directly follows from the other.17
+
+ Thus, if one puts U = xF(x2), V = <p(x2) and one supposes, according to the
+
+ Now, in order to obtain the expression for the 3rd-order transformation, let us
+
+ suppose m — I. Thus, we have U = χ (a + a'x2) and V = 1 + b'x2. In addition,
+
+ previous lemma, that F(x2) = y —-—x2m<p f j, then the only condition to be
+ imposed reduces to the requirement that the quantity
+
+ /pm+T / ι \
+
+ + ^ y + u
+
+ l+x 1 + χ
+
+ is a square factor.
+
+ and
+
+ /—
+
+ As a consequence of this, if we assume A2 to be of the form ( 1 + ax)2 it is sufficient
+
+ to require that V + U = (1 + x)A2. We thus find the following:
+
+ α = 1 + 2α, α' = α2, b' = a(2 +α), where a = j^~. (23)
+
+ Jacobi thus easily obtained the transformation sought for which, despite a different
+
+ choice of parametrization, coincided with the one conveyed in the first letter to Schu
+
+ macher (Jacobi 1827b, 34):
+
+ (1 + 2a)x + a2*3
+
+ y = 1 +α(2 + «)*2 · (24)
+
+ 16 Hic quoque solummodo aequationibus (1), (3) [i.e. (18), (20)] satisfaciendum erit, quippe e quibus
+ mutando χ in-x duae reliquae sponte manant. Ut illis satisfiat, et V + U et V + XU singulae m vicibus
+
+ duos inter se aequales habeant factores lineares necesse est, quem in finem 2m aequationibus condition
+ alibus satisfaciendum erit, quibus una accedit, ut insuper V + U nanciscatur factorem (1 + x). Hinc
+ numerum aequationum conditionalium esse videmus 2m + 1, qui et ipse est numerus indeterminatarum
+ a, a', a" a(m' ; b', b" b<m^. Unde et hoc casu determinatum est problema (Jacobi 1829, §10).
+
+ 17 Iamdico,siquidemitafunctiones U, V determinentur,ut,loco* posito ^.abeaty = y in = jjj,
+ aequationes illas alteram ex altera sponte sequi (Jacobi 1829, §12).
+
+ Φ Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 09:57:42 UTC
+All use subject to https://about.jstor.org/terms
+
+ On Jacobi's transformation theory 545
+
+ References
+
+ 2: 101-181.
+
+ Abel, N.H. 1827. Recherches sur les fonctions elliptiques. Journalflir die reine undangewandteMathematik
+
+ Abel, N.H. 1828. Recherches sur les fonctions elliptiques. Journal fur die reine und angewandte Mathematik
+
+ 3:160-190. Also in [Abel's Oeuvres complètes, 1,263-388].
+
+ Abel, N.H. 1881. Oeuvres complètes de Niels Henrik Abel, eds. Sylow, L„ and S. Lie, 2 vol. Christiania
+
+ Bottazzini, U., and J. Gray. 2013. Hidden Harmony—Geometric Fantasies: The rise of complex function
+
+ (Oslo): Grpndahl and spn.
+
+ theory. New York: Springer.
+
+ Gauss, C.F. 1818. Determinatio attractionis quam in punctum quodvis positionis datae exerceret planeta
+
+ si eius massa per totam oibitam ratione temporis quo singulae partes describuntur uniformiter esset
+
+ dispertita, Commentationes societatis regiae scientiarum Gottingensis recentiores, vol. iv. pp 21-48
+
+ Houzel, C. 2004. The work of Niels Henrik Abel, in [Laudal and Piene, p. 21-179].
+ Jacobi, C.G.J. 1827a. De singulari quadam duplicis Integralis transformatione. Journal fir die reine und
+
+ angewandte Mathematik 2: 234-242. Also in [Jacobi's Werke, ID, p. 55-66],
+
+ Jacobi, C.G.J. 1827b. Extraits de deux lettres de Mr. Jacobi de l'Université de Kônigsberg à l'éditeur,
+
+ Astronomische Nachrichten, Nr. 123:33-38. Also in [Jacobi's Werke, I, p. 29-36],
+
+ Jacobi, C.G.J. 1827c. Demonstrate theorematis ad theoriam functionum ellipticarum spectantis,
+
+ Astronomische Nachrichten, Nr. 127:133-142. Also in [Jacobi's Werke, I, p. 37-48],
+
+ Jacobi C.G.J. 1829. Fundamenta nova theoriae functionum ellipticarum, Sumptibus fratrum Borntrâger,
+
+ Regiomonti. Also in [Jacobi's Werke, I, p. 49-239].
+
+ Jacobi, C.G.J. 1881-1891. C.G.J. Jacobi's Gesammelte Werke. Borchardt C.W., and Weierstrass, K. (eds).
+
+ 7 vols, and Supplementband. G. Reimer, Berlin.
+
+ Koenigsbeiger, L. 1904. Festschrift zur Feier der hundersten wiederkehr seines Geburstages. Leipzig:
+
+ Laudal, O.A., and R. Piene. (eds.) 2004. The legacy of Niels Henrik Abel: The Abel bicentennial, Oslo
+
+ 2002. New York: Springer.
+
+ Legendre, A.-M. 1825. Traité des fonctions elliptiques et des intégrales euleriennes. Paris: Tome Premier,
+
+ Teubner.
+
+ Huzard-Courcier.
+
+ Huzard-Courcier.
+
+ Legendre, A.-M. 1828a. Note sur les nouvelles propriétés des fonctions elliptiques découvertes par M.
+
+ Jacobi. Astronomische Nachrichten, Nr. 130: 201-205.
+
+ Legendre, A.-M. 1828b. Traité des fonctions elliptiques et des intégrales euleriennes. Paris: Tome Troisième,
+
+ Plana, G. 1829. Méthode élémentaire pour décrouvir et démontrer la possibilité des nouveaux théorèmes sur
+ la théorie des transcendentes elliptiques publiés par Mr. Jacobi [etc.]. Memorie délia Reale Accademia
+ delle Scienze di Torino 33: 333-356.
+
+ Poisson, S.D. 1831. Rapport sur l'ouvrage de M. Jacobi intitulé: Fundamenta nova theoriae functionum
+ ellipticarum, (Lu à l'Académie des Sciences, le 21 décembre 1829). Mémoires de l'Académie Royale
+ de Sciences de l'Institut de France 10: 73-117.
+
+ Ô Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 09:57:42 UTC
+All use subject to https://about.jstor.org/terms
+
+

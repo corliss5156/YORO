@@ -1,0 +1,5338 @@
+ 
+
+ 
+
+ 
+
+ 
+
+A summary of Euler's work on the pentagonal number theorem
+Author(s): Jordan Bell
+Source: Archive for History of Exact Sciences, Vol. 64, No. 3 (May 2010), pp. 301-373
+Published by: Springer
+Stable URL: https://www.jstor.org/stable/41342420
+Accessed: 19-05-2020 12:40 UTC
+
+JSTOR is a not-for-profit service that helps scholars, researchers, and students discover, use, and build upon a wide
+
+range of content in a trusted digital archive. We use information technology and tools to increase productivity and
+
+facilitate new forms of scholarship. For more information about JSTOR, please contact support@jstor.org.
+
+Your use of the JSTOR archive indicates your acceptance of the Terms & Conditions of Use, available at
+
+https://about.jstor.org/terms
+
+Springer is collaborating with JSTOR to digitize, preserve and extend access to Archive for
+History of Exact Sciences
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:40:21 UTC
+All use subject to https://about.jstor.org/terms
+
+ Arch. Hist. Exact Sci. (2010) 64:301-373
+ DOI 10.1 007/s00407 -0 1 0-0057-y
+
+ A summary of Euler's work on the pentagonal
+ number theorem
+
+ Jordan Bell
+
+ Received: 22 April 2008 / Published online: 20 May 2010
+ © Springer- Verlag 2010
+
+ Abstract In this article, we give a summary of Leonhard Euler's work on the pen-
+ tagonal number theorem. First we discuss related work of earlier authors and Euler
+ himself. We then review Euler's correspondence, papers and notebook entries about
+
+ the pentagonal number theorem and its applications to divisor sums and integer parti-
+
+ tions. In particular, we work out the details of an unpublished proof of the pentagonal
+ number theorem from Euler's notebooks. As we follow Euler's discovery and proofs
+
+ of the pentagonal number theorem, we pay attention to Euler's ideas about when we
+ can consider a mathematical statement to be true. Finally, we discuss related results
+
+ in the theory of analytic functions.
+
+ 1 Introduction
+
+ The pentagonal number theorem is the expansion of the infinite product (1-х)
+ (1 - jc2)(1 - X 3) • • • as the following power series
+
+ Communicated by Niccolò Guicciardini.
+
+ Ontario, Canada.
+
+ J. Bell (ED
+ Department of Mathematics, University of Toronto, Toronto, ON, Canada
+ e-mail: jordan.bell@gmail.com
+
+ ^ Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:40:21 UTC
+All use subject to https://about.jstor.org/terms
+
+ 00 oo
+
+ n = 1 II - - oc
+
+ Y'( 1 -x")= £ (-D"*"(3""l)/2-
+
+ Part of this work was done at the School of Mathematics and Statistics, Carleton University, Ottawa,
+
+ 302 J. Bell
+
+ Fig. 1 The pentagonal numbers
+ co i = 1, (D2 = 5, coi = 12, Û>4 =
+ 22
+
+ This is true as a formal identity; see Rademacher 1973, Chap. 12 for a rigorous expla-
+ nation of formal power series. This is true analytically for all complex x such that
+ M < 1.
+
+ This result is called the pentagonal number theorem because the numbers con =
+
+ n(3n - l)/2 are the pentagonal numbers , a type of polygonal number. Euler clearly
+ explains polygonal numbers in his Vollständige Anleitung zur Algebra (1770, §§402-
+ 439); here we give a brief summary. The nth m-gonal number is the sum of the first
+
+ n terms of the arithmetic progression starting at 1 with difference m - 2. For exam-
+
+ ple, the nth triangular number (=3-gonal number) isl+2 + ЗН
+
+ The nth square number (=4-gonal number) is 1 + 3 + 5 H
+
+ n + 2(1 -f 2 + • • • + (n - 1)) = n2. The nth pentagonal number (=5-gonal number)
+ is 1 + 4 + 7 + - - ■ + (1 + 3(n - 1)) = n + 3(1 + 2 + . . . + (n - 1)) =
+
+ The pentagonal numbers con are the numbers of points that can be arranged to
+ form homothetic pentagons of side length n with n evenly spaced points on each side,
+ n = 1, 2, . . .. Figure 1 shows this for n = 1, 2, 3, 4.
+
+ It will be useful to give an equivalent definition of polygonal numbers. A sequence
+ ao, я i , . . . is an arithmetic progression of order n if A nak is the same for all к. The
+
+ nth differences are defined by Дя* = аь+' - я* and А п_ия* = Апя*+1 - А пя*.
+ m-gonal numbers are second-order arithmetic progressions starting at 1 with a second
+
+ difference of m - 2. Thus, the triangular numbers have second difference 1 , the squares
+ have second differences 2, the pentagonal numbers have second differences 3, etc.
+
+ The purpose of this article is to give a summary of Euler's work on the pentagonal
+ number theorem. First, in §2, we mention related earlier work; in particular we give a
+ sketch of similar work of Euler's on the infinite products for sin z and Ç (s). Then, in
+
+ §3, we outline Euler's discussions in his correspondence about the pentagonal number
+ theorem and explain his published proofs of it. Then, we examine an unpublished
+ proof from Euler's notebooks and fill in the missing details. In §§4 and 5, we review
+ Euler's use of the pentagonal number theorem to prove recurrence relations for the
+
+ sum of divisors function and partition function, respectively. Finally, in §6, we look
+ at the infinite product (1 - x)(l - x2)(l - x 3) • • • explicitly as a complex function.
+
+ Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:40:21 UTC
+All use subject to https://about.jstor.org/terms
+
+ Euler's work on the pentagonal number theorem 303
+
+ Let us take a moment to explain what this article is useful for. First, it is a more or
+
+ less exhaustive and reliable reference for use in further study of Euler's work - partic-
+
+ ularly his extension of the toolbox in analysis of infinite expressions we are familiar
+
+ with to include infinite products with variable terms - and succeeding work on elliptic
+
+ functions and analytic number theory (cf. Patterson 2007, p. 51 1 on determining the
+ argument of Gauss sums). We can sort out the following timeline from the mass of
+ details:
+
+ 1740 After being asked about partitions by Philippe Naudé junior in Naudé's August
+
+ 29, 1740 letter, Euler investigates the products П/jli ьгрг FEiii 0 -xn).
+ Euler discovers the pentagonal number theorem, and seems to have first men-
+ tioned it in a November 30, 1740 letter to Daniel Bernoulli.
+
+ 1741 Euler states the pentagonal number theorem without proof at the end of his
+
+ "Observationes analyticae variae de combinationibus", El 58. The paper is
+ presented to the St. Petersburg Academy on April 6, 1741, but is not published
+ until 1751.
+
+ 1747 Euler finds that the pentagonal number theorem implies an unexpected recur-
+ rence relation for sums of divisors, and mentions this first to Goldbach in
+
+ his March 21/April 1, 1747 letter, and then in his "Découverte d'une loi tout
+
+ extraordinaire des nombres, par rapport à la somme de leurs diviseurs", El 75,
+
+ presented to the Berlin Academy on June 22, 1747 and published in 1751.
+
+ 1748 The pentagonal number theorem appears without proof in Euler's Introductio
+
+ in analysin infinitorum , E101.
+
+ 1750 Euler works out a proof of the pentagonal number theorem, which he sends first
+
+ to Goldbach on June 9, 1750. This proof is then published in Euler's "Demonst-
+ ratio theorematis circa ordinem in summis divisorům observatum", E244, in
+ 1760.
+
+ 1775 Euler revisits the pentagonal number theorem in two papers, E541 and E542.
+
+ Second, this article begins by describing Euler's infinite product for sin z (which
+ involves Newton's identities for the roots and coefficients of polynomials) and his
+ infinite product for Ç(s). The article also refers to Euler's work on summing related
+ infinite series (namely in E 190) and finding expressions for certain series in terms
+ of more workable functions. The pentagonal number theorem is a significant case of
+
+ Euler's strategy to find different expressions for the same thing and to exploit these to
+ find out new facts.
+
+ Third, this is a detailed case study for Euler's work habits. Following the life of a
+ discovery is an excellent way to appreciate Euler's persistent work solving problems,
+
+ investigating related problems, and then taking up the topic again later, refining the
+ solutions that he had found and contriving other related problems.
+
+ Fourth and finally, this article carefully shows Euler's understanding of the pentag-
+ onal number theorem's changing epistemological status (cf. Pólya 1954, Chap. VI).
+ Examples of a statement can either just show that it is true in various cases, or can
+ give insight into how a general proof of the statement would work. The pentagonal
+ number theorem is an excellent case for understanding the relation to Euler between
+
+ examples of a theorem that seem like they could be generalized and a general proof
+
+ of the theorem. Having the right notation can let us see more clearly how an argument
+
+ ô Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:40:21 UTC
+All use subject to https://about.jstor.org/terms
+
+ 304 J. Bell
+
+ product notation.
+
+ works and then how to carry it out in general; this article shows the notation that
+
+ Euler used, and explains these arguments using subscript notation and summation and
+
+ An equivalent statement to the pentagonal number theorem as a formal identity is
+
+ that if pe(n) is the number of partitions of n into an even number of distinct positive
+
+ integers and p0{n) is the number of partitions of n into an odd number of distinct
+
+ positive integers, then
+
+ Pe(n) , , - Po(n , , ) = .
+
+ , , - , , ) = '(-I)7', if n = j(3j - l)/2,
+
+ 0, otherwise, .
+
+ (cf. Legendre 1 830, §458). We discuss an entry from Euler's notebooks that says some-
+
+ thing like this in §5. There is an elementary proof of this version which is explained
+ very clearly by Hardy and Wright (1980, §19.1 1).
+
+ We will now introduce definitions and notation that will be used in this article. The
+
+ sum of divisors function o{n) is defined as the sum of the positive divisors of n. The
+ partition function p(n) is defined as the number of ways of writing л as a sum of
+ positive integers, disregarding the order. For example, 1 + 1-1-2 and 1 + 2 + 1 are
+ considered the same, while 2 + 2 and 2 + 1 + 1 are considered different. Euler uses
+
+ the notation fn for the sum of divisors function, i.e., fn = cr(n), and ю(оо) for the
+ partition function, that is w(oo) = p(n); in general he defines or (я)(,п) to be the
+
+ number of ways of writing nasa sum of positive integers <m, disregarding the order.
+ Cajori (1929, §§406^20) gives the history of the notations for the sum of divisors
+ function and partition function.
+
+ 2 Background
+
+ Pierre de Fermat (1601 or 1607/1608-1665) claims in a note (Tannery and Henry
+ 1891, Deuxième partie, §XVIII) to Question XXXI, Book IV of Bacheťs edition of
+ Diophantus's Arithmetica that every nonnegative integer is the sum of m or fewer
+ m-gonal numbers (cf. Weil 1984, Chap. II, §V). Euler remarks, e.g., in his August
+ 17, 1750 letter to Goldbach (Juškevič and Winter 1965, Brief 147), and in his paper
+ "Considerationes super theoremate Fermatiano de resolutione numerorum in numéros
+
+ polygonales" (1785), presented to the St. Petersburg Academy on December 12, 1774
+ (Nevskaja 2000, p. 621 ) that a very natural way to prove Fermaťs claim is to show for
+
+ (00 2У"'(П)) =¿ranx»,
+ (00 /1=1 2У"'(П)) 'm / Л=| OO
+ /1=1 / Л=|
+
+ that a„ > 1 for all n > 1, where bm(n ) = n + (m - 2)(1 + 2 + • • • + (n - 1)) =
+ n + (m-l)(n - ' )n is the nth m_gonal number (Cf Wei] 1984 Chap In §§IV, XXI). In
+
+ particular, to show that every nonnegative integer is the sum of four or fewer squares,
+ with
+
+ Spring er
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:40:21 UTC
+All use subject to https://about.jstor.org/terms
+
+ Euler's work on the pentagonal number theorem 305
+
+ 5 = 1 +x +x4 +x9 +x16 +X25 +X36 +ČÍC.
+
+ it is equivalent to show that all the coefficients an in the power series expansion of s 4
+ are nonzero. A discussion of the history of polygonal numbers is given by Dickson
+ (1919b, Chap. I), who in particular notes that Fermaťs polygonal number theorem
+ was first proved by Cauchy.
+
+ Earlier work on partitions by Leibniz (1646-1716) is summarized by Knobloch
+
+ (1974). Eneström (1908) writes about Jacob I Bernoulli's (1654-1705) study of power
+
+ series whose exponents form a second-order arithmetic progression, like the series
+ expansion in the pentagonal number theorem. For example, Bernoulli looks at the
+ power series
+
+ m - m2 H- m4 - m5 + m8 - m9 H- m13 - m14 -f m19 - • • • ,
+
+ in his Ars Conjectandi (van der Waerden 1975, T 3, Pars Prima, Problema I), in which
+
+ the exponents are alternately from the sequence 1 , 4, 8, 13, 19, . . . and 2, 5, 9, 14, . . .,
+
+ which are both second-order arithmetic progressions, namely with second differences
+ 1. Euler writes to Carl Leonhard Gottlieb Ehler (1685-1753) on February 1 1/22, 1737
+
+ (Smirnov 1963, pp. 369-385), about finding the sum of the series 1 + 1 + d -h ¿/3 +
+
+ ¿r (л- 2) _ _
+
+ d° + -•+ d 2 +•••; this letter is R. _ 594 (Résumé _ number) in the annotated
+
+ index of Euler's correspondence in the Opera omnia (Juškevič et al. 1975). Euler cor-
+
+ responded with Ehler about number theory between 1735 and 1742 (see Juškevič et al.
+ 1975, R. 581-600). Ehler was a Bürgermeister in Danzig in 1740-1753 and presid-
+
+ ing Bürgermeister in 1741-1742, 1745-1746 and finally 1750-1751; there were four
+ Bürgermeisters in Danzig, of which one was a president and one was a vice-president.
+
+ This question is also mentioned in a letter from Daniel Bernoulli (1700-1782) to Euler
+ on April 14, 1742 (Fuss 1843, D. Bernoulli-Euler, Lettre XXIV). In his later paper
+ "De plurimis quantitatibus transcendentibus, quas nullo modo per formulas integrales
+ exprimere licet" (Euler 1784), E565 in the Eneström index (1913), presented to the
+ St. Petersburg Academy on October 16, 1775 and published in the Acta in 1784, Euler
+ looks at series which cannot be expressed as a closed formula using integrals of ele-
+
+ mentary functions. For example, for |jc | < 1 the power series for the natural logarithm
+ log(l +x) is which is equal to the integral of and thus the series
+
+ я +1 can indeed be expressed as the integral of an elementary function. In
+
+ this article Euler deals with the power series l-b*+*3+*6+.x;10+A;15-f.x;21+etc.,
+ where the exponents are the triangular (3-gonal) numbers . As we observed in
+ §1 the triangular numbers are a second-order arithmetic progression, with a constant
+ second difference of 1 . He mentions (in §6 of E565) that if we had a finite expres-
+
+ sion for this power series, then our problem would become resolving the cube of this
+
+ expression into a power series and showing that all the powers of x occur: "Maximi
+ autem sine dubio momenti foret, si summa huius seriei
+
+ l+i+i3+i6 +x10 + x15 -bete.
+
+ Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:40:21 UTC
+All use subject to https://about.jstor.org/terms
+
+ finita expressione, quantumvis transcendente, exhiberi posset. Inde enim solidissima
+
+ demonstratio theorematis Fermatiani peti potest, quod omnes numeri integri sint sum-
+
+ mae trium trigonalium; tantum enim opus foret cubum illius summae in seriem resol-
+
+ vere atque ostendere tum omnes plane potestates ipsius x occurrere debere." ["It would
+ without doubt be most momentous if the sum of this series
+
+ 306 J. Bell
+
+ 1 + x+*3+*6+x10+;tl5+etc.
+
+ could be exhibited in a finite expression, however transcendental. For from this a very
+ firm demonstration of the theorem of Fermat could be approached, that all integral
+ numbers are the sum of three trigonal numbers; for the problem would just be to
+ resolve the cube of this sum into a series and then to show that all the powers of x
+ must occur."]
+
+ Calinger (1996, §11) lists sources that Euler had read. In particular, notes sug-
+ gest that Euler had examined Jacob I Bernoulli's articles on infinite series and Ars
+ Conjectandi, and John Wallis's Arithmetica infinitorum , in 1725 when he was a
+ student in Basel. Euler had seen Fermaťs Varia opera mathematica (in which Fer-
+
+ mat states his polygonal number theorem mentioned in §1) in 1729 (Calinger 1996,
+ §III.A), and indeed Euler mentions it in his second letter to Goldbach, on June 4,
+ 1730.
+
+ In his paper "De summis serierum reciprocarum" (Euler 1740), E41, presented
+ to the St. Petersburg Academy on December 5, 1735, Euler finds an expression for
+ Ç (2) = namely Ç (2) = by representing sin s as an infinite product. The
+ zeros of sin s are precisely л n , n an integer (Euler proves this in 1 742 as a consequence
+ of his formula els = cosí + i sin s; cf. Weil 1984, Chap. III, §XIX), hence, we have
+ the infinite product expansion
+
+ ?-ñ(-±)-ñO-£)- N '
+
+ n=-o о n- 1 N '
+ пф 0
+
+ Therefore, writing x = s2, we get
+
+ oo n 00
+
+ /1=0 4 n=l
+
+ Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:40:21 UTC
+All use subject to https://about.jstor.org/terms
+
+ Euler then applies Newton's identities for the roots and coefficients of a polynomial
+ (given in Isaac Newton's Arithmetica universalis ; cf. Struik 1969, Chap. П, §9) to the
+ roots of the above infinite product and the coefficients of the above power series to
+ obtain
+
+ Euler's work on the pentagonal number theorem 307
+
+ oo 1 -
+ Y_L_ 1 = I -
+ n^' И2*2 3!
+
+ V- ¿-nW L = (lV_2-
+ ¿-nW = '3! / 5!
+
+ П - 1
+
+ ^ 1 ilV , 1 1 , 1
+ /1 ^ ^n6jr6 = 1 1 (з!/ ilV , ' 3! 1 ' 5! 1 + , 7! 1
+
+ /1 = 1
+
+ etc.
+
+ from which we get <(2) = £(4) = я4(ф2 - 2 • -^g) = f (6) = etc.
+ Sandifer (2007b, Chap. 21) thoroughly presents Euler's arguments in E41.
+
+ In general, it is often fruitful to expand an infinite product as a power series, or to
+
+ expand a power series as an infinite product, both as formal identities and functions
+ analytic in some domain.
+
+ The Riemann zeta function Ç (s) is defined by Ç (s) = X^=i n~s f°r №(s) > 1- In
+ his paper "Variae observationes circa series infinitas" (Euler 1744, Theorema 8), E72,
+ presented to the St. Petersburg Academy on April 25, 1737 (Nevskaja 2000, p. 192),
+
+ Euler expresses Ç(s) as an infinite product over the primes
+
+ <» = ПгГ^7- И <'>
+
+ P И
+
+ 00
+
+ J~[(l - p~s) = ß(n)n~s ,
+ p n='
+
+ Philippe Naudé junior (1684-1745) writes to Euler on August 29, 1740 (Juškevič
+ et al. 1975, R. 1903). Naudé was a professor of mathematics at the Joachimsthal Gym-
+ nasium in Berlin. He asks for the details on Euler's summation of Ç {In), and asks Euler
+
+ about the number of ways to write a number m as a sum of д positive integers.
+
+ Euler responds to Naudé on September 12/23, 1740 (Smirnov 1963, §15, pp. 179-
+
+ 206), R. 1904. He explains that he has been afflicted with weak vision for several
+ weeks. Now his strength has just recently recovered, and he has read Naudé's letter
+
+ with great pleasure. Euler says that Naudé's problem about the partition of numbers
+ seemed very nice, and that he wanted a complete explanation even more because he
+ had previously thought about this but had not been able to obtain a clear solution,
+ "eoque magis absolutam hac de re explanationem videre cuperem, quod ego quoque
+
+ Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:40:21 UTC
+All use subject to https://about.jstor.org/terms
+
+ The Möbius function ji (n) is defined to be: 0 if л has a repeated prime factor (i.e. n has
+
+ a square factor), 1 if n is 1, and (- l)m if n is the product of m distinct prime factors.
+ In his Introductio in analysin infinitorum (Euler 1748, Caput XV, §277), E101, Euler
+ notes that
+
+ so this is the series expansion of the reciprocal of (1). Sandifer (2007b, Chap. 32)
+ explains E72.
+
+ 308 J. Bell
+
+ jam antehac in eadem problemata incidi, ñeque vero ad satis concinnam atque expe-
+ ditam solutionem, qualem desideraveram, pertingere potui" ["and I would like to see
+
+ a complete explanation on this point, all the more because I too have encountered the
+
+ same problems, but have not been able to come upon a solution as sufficiently neat
+ and easy as I had wanted"].
+
+ Then Euler explains his method of finding f (2 n), and looks at expressions for the
+
+ cotangent series. After this Euler deals with partitions of integers. First, if the infinite
+
+ product (1 + nx)(' +n2x)( 1 + n3x)( 1 + /i4jc)( 1 + n5x) etc. is multiplied out ("quodsi
+ enim hi factores actu in se invicem multiplicentur" ["if these factors are actually mul-
+ tiplied into each other"]) then in the resulting series, the coefficient of xln3 will be
+
+ the number of ways in which j can be written as a sum of i distinct positive integers,
+
+ disregarding order. For example, in the series of terms multiplying jc2, the coefficient
+
+ of n} indicates the number of ways j can be written as a sum of two distinct positive
+
+ integers. In the series multiplying x 3, the coefficient of shows the number of ways
+ j can be written as a sum of three distinct positive integers, and so on.
+
+ It is also apparent that the series by which x is multiplied arises if n is divided
+
+ by 1 - n' next the series of xx arises from the division of n? by (1 - n){ 1 - nn );
+
+ third, the series of *3 is the quotient arising from the division of the power n 6
+ by (1 - n)(l - n2)( 1 - л3), and so on.1
+
+ Letting ( A)^ denote the number of ways A can be written as a sum of p unequal parts,
+ Euler says "Deinceps etiam ad series sequentes ex antecedentibus eruendas inveni hanc
+
+ regulam" ["I have also found this rule for working out the following series from the
+ preceding"], namely (A)(p) = (A - p){p) + (A - p)(p~{), where if A < P(P+l) then
+ (A)(^ = 0.
+
+ Euler then looks at partitions into parts that are not necessarily distinct. The infinite
+
+ product
+
+ 00 . oo
+
+ Пгг7 4 = Х^' (2)
+
+ k= 1 4 *=0
+
+ 1 "Praeterea patet seriem, per quam x multiplicatur, oriri, si n dividatur per 1 - n' deinde seriem ipsius *л:
+ oriri ex divisione ipsius tv* per (1 - n)(' - nn); tertio seriem ipsius jt3 esse quotum ex divisione potestatis
+ n6 per divisorem (1 - n)(' - n2)( 1 - n 3) ortum, et ita porro." (Smirnov 1963, pp. 179-206).
+
+ function,
+
+ Ô Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:40:21 UTC
+All use subject to https://about.jstor.org/terms
+
+ (1 - nx){ 1 - n2x)( 1 - n}x) etc.
+
+ "per continuam divisionem evolvatur" ["expanded by repeated division"] gives the
+ series where the coefficient of x'n 7 indicates the number of ways j can be written
+ as a sum of i positive integers. Letting (A)(p) now be the number of ways to write
+ Л as a sum of p positive integers, not necessarily distinct, Euler also observes that
+ (A)(p) = (A - PÝP) + (A - l)^"1*.
+
+ For x = 1 the second infinite product is the generating function for the partition
+
+ Euler's work on the pentagonal number theorem 309
+
+ where we define p{ 0) = 1.
+
+ Previously, generating functions had been used by Pierre Rémond de Montmort
+
+ (1678-1719) in his Essay d'analyse sur les jeux de hazard (1708), Abraham de Moi-
+ vre (1667-1754) in his The doctrine of chances (1718, first ed.), and Jacob I Bernoulli
+
+ in his Ars Conjectandi (1713). The publication history of the Ars Conjectandi van
+ der Waerden and Kohli (van der Waerden 1975, K. 3, pp. 391-401). Cantor (1901,
+ Kapitel 96) summarizes earlier work on combinatorics and generating functions. How-
+
+ ever, it seems that Euler came up with the idea of generating functions independently
+ (Scharlau 1983, §4).
+
+ 3 Discovery and Proof
+
+ The first time the pentagonal number theorem is mentioned in Euler's published corre-
+
+ spondence is in a letter from Daniel Bernoulli to Euler on January 28, 1741 , R. 140. In
+
+ this letter, Bernoulli discusses a number of problems that Euler seems to have proposed
+
+ in a letter on November 30, 1740 which is not extant (cf. Rudio 1915, p. xviii, footnote
+
+ 3 and Eneström 1906). In particular, Bernoulli mentions the problem of finding all the
+
+ partitions of an integer:
+
+ The problem about combinations of numbers making a given sum is quite easy
+ in particular cases: but it turns out that one cannot perceive the general rule,
+
+ although one can still indicate the general method. I have not done the calculation
+
+ for your example of dividing the number 50 into 7 parts, but I gave it to my cousin
+
+ Nicolaus Bernoulli, who found exactly the number that Your Honour worked out.
+
+ The other problem, to transform the expression (l - £) ^1 - ^ ^1 - ^ into
+
+ the series 1 - - - y -b 4r + Л
+
+ n nl y n* n1 nlz nn ts J J
+
+ induction, when one actually multiplies many factors of the given expression.2
+
+ It looks like Bernoulli is saying that we cannot hope to find a general formula for
+
+ partitions because of all the particular cases that arise, but we can at least get a general
+ understanding of how partitions work and maybe find rules to make computations
+ simpler. Here a "regula generalis" ["general rule"] would be something like a formula
+
+ to give the number of partitions of a number /2, while a "methodus generalis" ["gen-
+ eral method"] would be an algorithm for calculating the number of partitions of n.
+ An analogy might be how we would not expect to be able to find a simple formula
+ (namely a rule) for the nth prime number (cf. Hardy and Wright 1980, §§2.7, 22.3),
+
+ although, we can find the nth prime just by checking numbers one by one, and indeed
+
+ 2 "Das problema de combinandis numeris datam summam efficientibus, ist in casibus particularibus gar
+ leicht: einige Circumstanzen machen, dass man die regulam generálem nicht siehet, doch aber kann man die
+ methodum generálem anzeigen. Den calculum von Ihrem Exempel de numero 50 in 7 partes dividendo habe
+ ich nicht gemacht, solches aber meinem Vetter Nicoiao Bernoulli gegeben, welcher eben die Zahl gefunden
+
+ die Ew. herausgebracht. Das ander problema, transformare expressionem ^1 - ^1 - ^1 - in
+
+ seriem 1 -
+
+ n nz ip n' nl¿ /г1- ... -if
+
+ man viele factores von der proposita expressione actu multipliciret." ... (Fuss 1843, D. Bernoulli-Euler, -if Lettre
+ XX).
+
+ Ô Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:40:21 UTC
+All use subject to https://about.jstor.org/terms
+
+ 310 J.Bell
+
+ Wright 1980, §1.4).
+
+ there are methods that are better than this, e.g., the sieve of Eratosthenes (Hardy and
+
+ Daniel Bernoulli was a close colleague to Euler at the St. Petersburg Academy
+
+ from 1727 to 1733. Bernoulli came to St. Petersburg in 1725, and Euler came in 1727.
+ Daniel Bernoulli was interested in recurrent series and wrote several papers about
+ them (Gillispie 1980, Volume II, "Daniel Bernoulli", pp. 36-46; cf. Hofmann 1959,
+ §11). Euler's correspondence with Daniel Bernoulli's cousin Nicolaus I Bernoulli on
+
+ the pentagonal number theorem is summarized later in this section.
+
+ Euler states without proof on p. 51 of his Fourth Notebook, "Haec expressio (1 -
+
+ n)( 1 - n2)( 1 - n3)(l - n4){ 1 - n 5) etc. transmutatur in hanc seriem:
+
+ l-n-n2 + n5+n7-n12-n15 + n22 + n26 - л35 - n40 + etc.
+
+ exponentes continentur in hac forma 3xx^x ["The expression (1 - n)( 1 - и2)(1 -
+ л3)( 1 - n4)( 1 - n 5) etc. transforms into this series:
+
+ l-n-n2 + n5+n7-nI2-n15+ n22 + n 26 - n35 - n40 + etc.
+
+ whose exponents are contained in the form 3xx^x ."]
+
+ Euler's Fourth Notebook covers the period 1740-1744, and Euler's Fifth Notebook,
+ titled "Diarium mathematicum", covers 1749-1753 (Mikhajlov 1959, §Ш). It seems
+
+ that Euler had one notebook covering the years 1745-1749 that was not kept.
+
+ The first paper in which Euler mentions the pentagonal number theorem is his
+
+ "Observationes analyticae variae de combinationibus", presented to the St. Petersburg
+ Academy on April 6, 1741 (Nevskaja 2000, p. 256) and published in 1751 in the
+ Commentarii (Euler 1751b), E158. In this article, Euler first develops some general
+ results about infinite series and products. Generally, Euler is working out a lot of rela-
+
+ tions between different infinite series and products that are symmetric in the (infinitely
+
+ many) variables a, b, c, d , e , etc.
+
+ Then in section §§17-37 of the paper Euler talks about partitions, applying the
+
+ general results from the first part of the paper with a = n,b = n2, с = я3, etc.
+ This lets us group lots of terms together as geometric series. For example, instead of
+ ab + ас -I- ad + ae + bd + etc. we now have First, Euler proves results
+
+ about partitions of m into д distinct parts and partitions of m into ¡x not necessarily
+ distinct parts, which he denotes by and m ^ respectively. In §22, Euler starts
+ to look at how the denominator of expands from a product into a
+
+ k(k+ 1)/2
+
+ sum, for example (,_n)ť,_"n6;)(|_n3) = t_n_nlfni+ni_n6. In §27, he proves the recur-
+ rence relation = (m + д)(д)| - /n(/i)ť and in §34, the recurrence relation
+ = (m - д)(м) + (m - 1)(д_1), which as we noted in §2 he had already stated
+
+ in his 1740 letter to Naudé. In §36 of the paper, Euler states that he has found an
+
+ interesting result that he has not been able to prove with complete rigor:
+
+ There is a noteworthy observation to make at the end of this article, which how-
+
+ ever I have not been able to prove with geometric rigor. Namely I have observed
+
+ Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:40:21 UTC
+All use subject to https://about.jstor.org/terms
+
+ Euler's work on the pentagonal number theorem 3 1 1
+
+ that this product of infinitely many factors
+
+ (1 - n)( 1 - n2)( 1 - n3)( 1 - n4)( 1 - n 5) etc.
+
+ if expanded by actual multiplication yields this series
+
+ 1 - n - n2 + n5 + n7 - n12 - n15 + n22 + n26 - n 35 - n40 + n 51 + etc.,
+
+ where the only powers of n that occur in it are those whose exponents are con-
+ tained in the form ; and if x js an 0dd number the powers of n , which are
+
+ , have the coefficient -1, while if x is an even number then the powers
+
+ 3jcjc±.V nr. . ^
+
+ n~~ 2~~ have the coefficient nr. . +1.
+
+ In §37 of the paper, Euler notes as well that the product of the power series on the
+
+ right-hand side of (2) and the above power series is unity, since they are the series
+ expansions of reciprocal infinite products. We talk about Euler's recurrence relation
+ for p(n) more in §5.
+
+ This article was reviewed in the June 1755 Nova acta eruditorum (pp. 361-363),
+
+ An observation is made at the conclusion of this paper which, though the Author
+
+ has not yet been able to demonstrate it with geometric rigor, is still noteworthy.
+ For with the terms
+
+ (1 - n)(l - n2)( 1 - n3)(l - n4)(l - n5), &c.
+
+ actually multiplied, a series is produced in which the only powers of the letter
+
+ n that occur are those whose exponents are contained in the form 3x . Also,
+
+ if x is an odd number, the powers n ~~т~~ would have the coefficient - 1 , while
+
+ truly if x is an even number, the coefficient will be -t-1.4
+
+ 3 "Finem huic dissertationi faciat observatio notatu digna, quam quidem rigore geometrico demonstrare
+ mihi nondum licuit. Observavi scilicet hoc infinitorum factorum productum
+
+ (1 - n){ 1 - n2)( 1 - "3)0 - i4)( 1 - n5) etc.
+
+ si per multiplicationem actu evolvatur, praebere hanc seriem
+
+ ,_n_n2+n5+n7_„12_n15+„22 + n26_„35_„40 + „5.+etc
+
+ ubi eae tantum ipsius n potestates occurrunt, quarum exponentes continentur hac forma ^хх^х . Ac si x sit
+
+ numerus impar, potestates ipsius w, quae sunt n 2 , coefficientem habent -1; si autem x sit numerus
+
+ 3-t-t±jç
+
+ par, tum potestates n ~ "7- coefficientem habent + 1 (Euler 175 lb, §36), El 58.
+
+ 4 "Coronam huic dissertationi imponit observatio, quam quidem rigore geometrico demonstrare Auetori
+ nondum licuit, notatu tarnen digna. Terminis enim
+
+ (1 - n)(l - n2)( 1 - n3)(l - л4)(1 - И5), &c.
+
+ <£) Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:40:21 UTC
+All use subject to https://about.jstor.org/terms
+
+ 312 J.Bell
+
+ Sandifer (2007b, Chap. 48) gives a step by step explanation of El 58.
+
+ El 58 was the last paper Euler presented to the St. Petersburg Academy before he
+
+ went to Berlin. He left St. Petersburg on June 19, 1741, and arrived Berlin on July 25
+ (Gillispie 1980, Volume IV, "Leonhard Euler", pp. 467-484).
+
+ The next time the expansion of the infinite product 1 ~х") into a series comes
+
+ up in Euler's correspondence is in a letter from Euler to Nicolaus I Bernoulli ( 1 687-
+ 1759) on September 1, 1742 (Fellmann and Mikhajlov 1998, pp. 510-532). Euler
+
+ discusses the problem of expressing the power series for sin 5, s - ^ - etc.
+
+ as the infinite product s ^1 - ^1 - etc. in this letter. Euler tells
+ Bernoulli the generating function for the partition function, and that,
+
+ This series also arises from division, if unity is divided by
+
+ (1 - n)( 1 - n2){ 1 - n3)( 1 - nA){ 1 - n5) etc.;
+
+ this product, if actually expanded, gives this expression
+
+ 1 - n - n2 + n5 + n1 - nn - и 15 -h n22 + n26 - n35 - etc.
+
+ in which I have not been able to observe from the nature of the series how the
+
+ exponents proceed, although by induction I have concluded that no other expo-
+ nents occur except those contained in the formula 3xx±x ; and that a power of n
+
+ has the + sign if its exponent arises from an even number substituted for x.5
+
+ Then Euler talks about determining the power series expansion in a of s2 for s =
+
+ HkLo ¡dtp He says that
+
+ ,2 " ak * !
+ 2 hkn+2h>jn+v
+
+ "cujus Veritas quidem per probationem, sed tarnen difficulter elucet; demonstratio-
+
+ nem vero nonnisi per differentiationem et integrationem adornare possum" ["whose
+
+ Footnote 4 continued
+
+ actu multiplicatis, prodit series in qua eae tantum occurrunt potestates litterae n, quarum exponentes forma
+ 3jc^±jc . 3.t^±.r
+
+ 2 - contmentur. Ac si x sit numerus impar, potestates n 3 coefficientem habent - 1 , sin vero л;
+
+ numerus par sit, coefficiens erit +1." June 1755 Nova acta eruditorum (pp. 361-363).
+
+ 5 "Oritur autem haec series per divisionem, si unitas dividatur per
+
+ (1 - n)( 1 - n2){ 1 - n3)( 1 - /i4)(l - n5) etc.
+
+ quod productum si actu evolvatur dat hanc expressionem
+
+ 1 -/i-fl2 + n5+n7-«l2-«,5+/i22+n26- n35 - etc.
+
+ in quam quemadmodum exponentes progrediuntur ex natura seriei perspicere non potui, per inductionem
+ autem conclusi alios exponentes non occurrere, nisi qui in formula contineantur; hocque ita ut pot-
+ estas ipsius n habeat signum + si ejus exponens ex numero pari pro jc substituto nascatur." (Fellmann and
+ Mikhajlov 1998, pp. 510-532).
+
+ Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:40:21 UTC
+All use subject to https://about.jstor.org/terms
+
+ Euler's work on the pentagonal number theorem 3 1 3
+
+ truth indeed appears by examination, though with difficulty. In truth I am only able to
+
+ furnish a demonstration by differentiation and integration"].
+
+ Nicolaus I Bernoulli replies to Euler on October 24, 1 742 (Fellmann and Mikhajlov
+ 1998, pp. 532-550). Bernoulli says that Euler's discovery of the generating function
+
+ n£Li yzpr for p{n) is an elegant result. Then Bernoulli works out a "novam speciem
+ trianguli arithmetici" ["new type of arithmetic triangle"] for recursively calculating
+
+ partitions. He works out two triangles. In the first, the kth entry in the rth row (ending
+
+ in the Roman numeral r ) counting from right to left is equal to the number of partitions
+
+ of r in which the largest part occurs exactly к times; however, the way Bernoulli writes
+
+ the triangle, this breaks down in the (|_§J + l)th entry in each row, i.e., the left-most
+ nonzero entry in each row. Bernoulli puts 1 in each of these spots, while there are in
+
+ fact 0 partitions of r with the largest part occurring exactly |_§J + 1 times. However,
+ the way Bernoulli uses the triangle, these 1 's could in fact be put at the left end of the
+
+ row instead of in the (|_§J + l)th entry of the row. For each partition of r + 1 with
+ largest part occurring exactly once, removing 1 from the largest part yields a partition
+ of r; and on the other hand, adding 1 to the largest part of a partition of r yields a
+
+ partition of r + 1 with largest part occurring exactly once. Hence the 1 st entry in the
+ rth row is p(r - 1). Bernoulli spells out what the entries are in row IX, r = 9. There
+
+ are 22 partitions of 9 in which the largest part occurs exactly once, 4 in which it occurs
+
+ exactly twice, 2 in which it occurs exactly three times, and so on. Bernoulli explains
+
+ how the entries in the triangle can be recursively calculated, which amounts to there
+
+ being as many partitions of r with the largest part occurring exactly к times as there are
+
+ partitions of г - к with the largest part occurring at least к times. It is straightforward
+
+ to show this using the Ferrers diagram (Andrews 1998, §1.3) for partitions. In each
+
+ partition of r with the largest part occurring exactly к times, subtract 1 from each of
+ the к largest parts. Then there is a partition of r - к with the largest part occurring
+
+ at least к times. For example, there are 14 partitions of 13 with largest part occurring
+
+ exactly twice (here r = 13 and к = 2), and there are 8 + 3 + 1 + 1 + 1 partitions of
+ 11 = 13 - 2 with largest part occurring at least twice.
+
+ In the second triangle, the entry in column r (beneath the Roman numeral r) and
+ row j counting downwards starting at row 7=0 represents the number of partitions
+
+ of r with largest part equal to j . For example, for XII, r = 1 2, 1 3 is the entry for j = 5,
+
+ in other words there are 1 3 partitions of 1 2 with largest part equal to 5. Let (j , r ) be the
+
+ entry in row j and column r, so (5, 12) = 13. The entries are calculated recursively as
+ follows: the entry in (7, r) is equal to the sum of all the entries ( к , r - 7), 0 < к < j.
+ For r = 12, j = 5, the entry (5, 12) = 13 is equal to the sum of all the entries ( к , 7),
+ 0 < к < 5, which is (0, 7)+(l, 7)+(2, 7)+(3, 7)+(4, 7)+(5, 7) =0+1+3+4+3+2.
+ For, adding the part j to a partition of r - j with largest part no greater than j yields
+
+ a partition of r with largest part j.
+
+ Bernoulli goes on to mention the pentagonal number theorem,
+
+ In this series
+
+ n° - nx - n2 + n5 + n1 - nn - nX5 + n22 + n 26 - n 35 - etc.
+
+ which you have found equal to the expanded product (1 -n)( 1 -nn)( 1 - n3) etc.
+ the differences of the exponents progress as 1, 1, 3, 2, 5, 3, 7, 4, 9, 5, etc. which
+
+ â Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:40:21 UTC
+All use subject to https://about.jstor.org/terms
+
+ numbers are alternately drawn from the series 1, 3, 5, 7, 9, etc. and from the
+ series 1, 2, 3, 4, 5, etc. This property will perhaps be able to be demonstrated
+
+ from the nature of the matter and not only by induction; but I do not have time
+ at the moment to look into this matter.6
+
+ 314 J.Bell
+
+ it
+
+ Then Bernoulli talks about the series s = Xju=o БГ+Т» writing "Valde mihi placet
+ methodus inveniendi et summandi series per differentiationem et integrationem, eam-
+
+ que ulterius extendi posse existimo" ["I find very pleasant this method for finding and
+
+ summing series by differentiation and integration, and I believe that it can be further
+ extended"]. Bernoulli works out s 2 and s3.
+
+ In fact one can easily derive Euler's statement that the general term is of the form
+
+ 2 fr°m Bernoulli's statement about the differences of the terms. From the theory
+ of finite differences (Chrystal 1964, Chap. XXXI, §§1-5), if ao» яь ... is an arithmetic
+
+ progression of order n then
+
+ ak = ^(k'AJa0.
+ j= о v//
+
+ Let со = 0, c' = 1 , C2 = 2, C3 = 5, с 4 = 7, es = 12, = 15, c-j = 22, c% =
+ 26, C9 = 35, etc., and let ak = C2k and bk = С2*+ь so ao = 0, a' = 2, Я2 = l,a$ =
+ 15, «4 = 26, etc. and b0 = l,bj = 5,¿>2 = 12, ¿>3 = 22, ¿74 = 35, etc. Bernoulli has
+ observed that bk - я* = 2k + 1 and ak - bk- 1 = k. Hence, bk - bk-' - 3k + 1 and
+
+ я*+1~я* = Зк+2. Here, A%) = 0, Дяо = 2, Д2яо = 3,so ak = 0+2 к+к^1^3 =
+
+ On the other hand, A°bo = 1 , AZ?o = 4, A2bo = 3, so bk = 1 + 4k + 3*2^~3* ,
+
+ thus bk- 1 = Ък2^к •
+
+ But it can be useful to formulate a problem in different ways. As we mentioned
+ above, Nicolaus I Bernoulli also had some good ideas about making a "triangle" for
+ finding recurrence relations for partitions.
+
+ Euler next writes to Nicolaus I Bernoulli on November 10, 1742 (Fellmann and
+
+ Mikhajlov 1998, pp. 551-579), the last letter in their correspondence that deals with
+ the pentagonal number theorem. Euler tells Bernoulli how pleased he was with the
+ ideas Bernoulli communicated about partitio numerorum, "Plurimum autem me delec-
+
+ tarunt, quae de partitione numerorum (sic enim appellabat hunc problema Clar. Nau-
+ daeus, qui id mihi primům jam Petropoli proposuerat) mecum communicare voluisti"
+
+ ["What you were gracious enough to communicate to me about partitio numerorum
+
+ (for this is what the problem was called by Mr. Naudé, who first proposed it to me
+ when I was in St. Petersburg) was a great pleasure to me"]. Then Euler explains to
+
+ n° -n] - n2 + л5 +л7 - /i12 - /i15 +л22 +n26 - n35 - etc.
+
+ quam invenisti aequalem producto (1 - я)(1 - nn)(ì - я3) etc. expanso, differentiae exponentium prog-
+ rediuntur ita 1, 1, 3, 2, 5, 3, 7, 4, 9, 5, etc. qui numeri alternatim depromti sunt ex serie 1, 3, 5, 7, 9, etc.
+
+ et ex serie 1, 2, 3, 4, 5, etc. quae proprietas fortassis ex natura rei пес solum per inductionem demonstran
+ potent; sed in hanc rem inquirere nunc non vacat." (Fellmann and Mikhajlov 1998, pp. 532-550).
+
+ 6 "In hac serie
+
+ Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:40:21 UTC
+All use subject to https://about.jstor.org/terms
+
+ Euler' s work on the pentagonal number theorem 3 1 5
+
+ Bernoulli in more detail his approach to finding the number of partitions of a given
+
+ number N into n distinct parts, and the number of partitions of a given number N into
+
+ n parts which are not necessarily distinct. For the first problem Euler explains that if
+
+ the product
+
+ (1 + mz)( 1 + m2z)( 1 + m3z){ 1 + m4z) etc.
+
+ is expanded into a series, "hie ex natura genesis coefficiens numericus cuj usque termini
+
+ indicat, quot variis modis exponens ipsius m in tot partes inaequales dispertiri possit,
+
+ quot exponens ipsius z contineat unitates" ["here because of how they are formed, the
+ numerical coefficient of each term indicates how many different ways the exponent
+
+ of m can be distributed into as many unequal parts as the exponent of z."] That is, the
+
+ sum of all the coefficients of the mNzn terms is equal to the number of partitions of N
+ into n distinct parts. Letting (1 +mz)( 1 +m2z)( 1 + m3z)(l +m4z) etc. = 1 +<xz +
+ ßz2 + yz3 +Sz4 -I- etc., then because (1 + m2z)( 1 +m3z)( 1 +m4z)( 1 +m5z) etc. =
+ 1 H- amz + ßm2z 2 + ym3z3 + Sm4z4 + etc., Euler gets
+
+ (1 + mz){ 1 + m2z)(' + m3z)( 1 + m4z) etc.
+
+ m z m3 z2 m6z 3
+
+ - Il
+
+ Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:40:21 UTC
+All use subject to https://about.jstor.org/terms
+
+ 1 - m (1 - m)( 1 - m2) (1 - m)( 1 - m2){ 1 - m3)
+
+ Euler explains similarly that when we expand
+
+ (1 - mz)( 1 - m2z)( 1 - m3z)(l - mAz) etc.
+
+ into a series, "coefficiens cujusque termini indicat quot variis modis exponens ipsius m
+
+ dispertiri possit in tot partes quot exponens ipsius z continet unitates" ["the coefficient
+ of each term indicates how many ways the exponent of m can be distributed into as
+
+ many parts as the exponent of z."] Euler also states
+
+ (1 - mz)( 1 - m2z)( 1 - m3z) etc.
+
+ mz mz mz
+
+ 2 2 3 3
+
+ _ 1 _|
+
+ 1 - m (1 - m)( 1 - m2) (1 - m)( 1 - m2)( 1 - m3)
+
+ and says that it follows by the same argument as above.
+
+ Euler then writes:
+
+ That the expression (1 - n)( 1 - n2){ 1 - n3)(l - n 4) etc. expanded gives the
+ series 1 - n - n2+n5 +П1 - etc. , in which no other exponents occur except those
+
+ contained in 3дГ2=Ьс» I believe I have concluded by a legitimate induction; but at
+ the same time, I have in no way been able to find a demonstration, even though I
+
+ expended no small amount of time on it. I have indeed found that the expression
+ (1 - n)( 1 - n2)( 1 - n3)( 1 - n 4) etc. can be transformed into this series
+
+ 1 - п (1 - п)( 1 - п2) (1 - п)( 1 - и2)( 1 - п3)
+
+ whose value would then be equal to the sum of the series 1 - и 1 - n2 +n5 +П1 -
+ nn - я 15 + etc. Now since the law of the progression of this series is known,
+ then the character of the other series 1 + 1 n + 2n 2 + 3n 3 + 5 n4 + In5 -f etc.
+
+ can be described as recurrent, having this scale of relation
+
+ 1 -j- 1 -Ь О -Ь 0 - 1 -b 0 - 1 - 1- 0 - 0 - |- 0 - |- 0 -J- 1 - |- 0 - |- 0 -f- 1 - |- 0 - H 0 H~ etc.
+
+ by means of which it may be easily continued.
+
+ What you have written to me, worthy Sir, about the investigation of powers of
+
+ the series
+
+ 1 - n (1 - м)( 1 - n2) (1 - /!)(1 - H )( 1 - ft )
+
+ cujus adeo valor aequatur summae seriei 1 - nì -n2 + ß54-n7-/il2-nl5+ etc. Quare cum lex
+ progressionis hujus seriei sit cognita, hinc alterius seriei 1 -f 1м + 2 n2 + 3 л3 + 5 я4 -f In5 + etc. indoles
+ ita describi poterit, ut sit recurrens, habens scalam relationis hanc
+
+ 316 J.Bell
+
+ П П 3 П6
+
+ 1
+
+ 2 3
+ a aL 2 aD 3
+
+ 1 -|
+
+ n -f- 1 2.П -f" 1 -b 1
+
+ shows quite clearly how much your method, proceeding a priori, surpasses that
+
+ other method, which I used, proceeding a posteriori. For, from the series which
+
+ you showed for the cube of this series it would be very difficult to find its sum a
+
+ posteriori. And so, the more profit I hope that I will reap from this method, the
+
+ more grateful I am to you.
+
+ By the way, on occasion of the series 1 - n -n2+n5 +и7 -w 1 2 -и 1 5 -bete, it came
+
+ to my mind how many truths in mathematics, particularly about the properties
+
+ of numbers, we take to be accepted just by induction. Of this kind are that every
+
+ number is a sum of four or fewer squares; that every prime number of the form
+
+ An 4- 1 is a sum of two squares; and that the sum of two cubes cannot be a cube.7
+
+ 7 "Quod expressio (1 - и)(1 - л2)(1 - л3)( 1 - л4) etc. evoluta det seriem 1 -n - n 2 +л5 -f n1 -etc., in
+ qua alii exponentes non occurrunt nisi qui contineantur in , per legitimam induetionem mihi equidem
+ conclusisse videor; interim tarnen demonstrationem nullo pacto invenire potui, etiamsi non parum temporis
+ in id impenderem. Inveni autem expressionem ( 1 -n)( 1 - л2)(1 - л3)(1 - n 4) etc. quoque in hanc seriem
+ transmutare posse
+
+ n л3 л6
+
+ 1 -
+
+ 1 + 1+ 0 + 0-1+0-1+0 + 0 + 0 + 0+1+0 + 0+1+0 + 0 + etc.
+
+ cujus ope facile continuatur.
+
+ Quae mihi scripsisti Vir Amplissime de investigatione potestatum seriei
+
+ 2 * 3
+ a a * aJ 3
+
+ 1 H
+
+ n + 1 2n + 1 3n + 1
+
+ â Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:40:21 UTC
+All use subject to https://about.jstor.org/terms
+
+ Euler's work on the pentagonal number theorem 317
+
+ It turns out that Euler does not use the device of differentiation and integration in his
+
+ proofs of the pentagonal number theorem. However, Euler does use these methods
+ to find his recurrence relation for sums of divisors, which we talk about in §4 of this
+
+ article. Euler's work on the theorems that every nonnegative integer is a sum of four
+
+ squares, that every prime of the form 4n + 1 is a sum of two squares, and that a sum
+ of two cubes cannot be a cube is explained by Weil (1984, Chap. III).
+
+ The next time Euler discusses the pentagonal number theorem in his correspon-
+ dence is in a letter to Christian Goldbach ( 1 690-1 764) on October 4/15,1 743 (Juškevič
+
+ and Winter 1965, Brief 74). Euler states here,
+
+ When these factors (1 - n)( 1 - n2)( 1 - n3)( 1 - nA){ 1 - n5)( 1 - n 6) etc. are
+
+ actually multiplied with each other out to infinity, the following series comes out
+
+ 1 - nx - n2 + n5 + n1 - я 12 - л 15 + n 22 + n 26 - n35 - n40
+
+ +n5i + n57 - etc.,
+
+ from which it is apparent by induction that all the terms are contained in the form
+
+ n , and that they have the prefixed sign + when x is an even number, but the
+
+ sign - when x is an odd number. But I have still not been able to find a method by
+ which I could demonstrate the identity of these two expressions. Prof. Nicolaus
+
+ Bernoulli also has not been able to get anything out of it except by induction.8
+
+ Goldbach replies to Euler's problem in a letter dated December 1743 (Juškevič
+
+ and Winter 1965, Brief 75). His copybook has been checked and we now know that
+ the letter was written December 14; Goldbach kept correspondence books in which
+
+ he entered complete or partial copies of the letters he sent to various correspondents.
+
+ He does not give any explicit ideas for how to tackle proving the pentagonal number
+ theorem, and instead poses a new related problem. He says,
+
+ Footnote 7 continued
+
+ satis declarant quantopere methodus Tua a priori procedens praestet alteri illi a posteriori, qua usus sum. Ex
+
+ serie enim, quam pro cubo hujus seriei exhibuisti, difficillimum foret a posteriori ejus summam invenire;
+
+ eo majores igitur Tibi habeo gratias, quo majorem fructum me ex ea methodo capturum spero.
+
+ Caeterum occasione illius seriei 1 - etc. mihi in mentem venit, quot
+
+ veritates in mathesi soli inductioni acceptas referamus, praecipue circa proprietates numerorum. Cujusmodi
+ sunt omnem numerum esse summam quatuor pauciorumve quadratorum; item omnem numerum primum
+ formae 4 n + 1 esse summam duorum quadratorum; item summam duorum cuborum non posse esse cubum."
+ (Fellmann and Mikhajlov 1998, pp. 551-579).
+
+ 8 "Wann diese factores in infinitum wiirklich mit einander multipliziert werden, (1 - n)( ' - и2)(1 - л3)(1 -
+ л4)( 1 - л5)(1 - и6) etc., so kommt nachfolgende Series heraus
+
+ 1-„1-л2+|15+я7-я12_||15+л22+я26_|135_я40
+
+ +н51 + и57 - etc.,
+
+ wovon per inductionem leicht erhellet, daß omnes termini in hac forma begriffen sind n 2 , und das
+ signum -I- praefixum haben, wann jc ein numerus par, das signum - aber, wann л: ein numerus impar ist. Ich
+ habe aber noch keine Methode finden können, wodurch ich die Identität dieser 2 Expressionen demonstri-
+
+ eren könnte. Der H. Prof. Nicolaus Bernoulli hat auch praeter inductionem nichts darüber herausbringen
+
+ können." (Juškevič and Winter 1965, Brief 74).
+
+ 3.y.y±.t
+
+ â Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:40:21 UTC
+All use subject to https://about.jstor.org/terms
+
+ A particular problem has occurred to me concerning the series ( 1 - n) ( 1 - n2) ( 1 -
+
+ n 3) etc.: given a series A of infinitely many terms proceeding with the signs +
+
+ and - varying in a given order, to find a series В of such a nature that in the prod-
+
+ uct AB, the signs + and - proceed in the same order as they were proceeding in
+ A. This problem can very easily be solved in the case A = (1 - n)( 1 - n2)( 1 -
+ n3) etc., for although Your Honour has noted that the signs +, - alternate in a
+
+ quite unusual way, when I put ß = ^1 - n2^ ^1 - ni^i_ etc., thus A
+ multiplied by В becomes a new series, which itself has the same variation of
+ signs.9
+
+ 318 J.Bell
+
+ Probably what Goldbach means by "die signa +,- auf eine gar ungewöhnliche Art
+ abwechseln" ["the signs +, - alternate in a quite unusual way" ] is the following.
+ When we expand the product IX^Li 0 - xn) into a power series anXn, a rule
+ for the coefficients ("signa", since an = - 1, 0 or 1) an is not obvious like a geo-
+
+ metric series. It looks like Goldbach did not have any ideas himself how to prove the
+
+ pentagonal number theorem, but wanted to pose a related question that might inspire
+ Euler.
+
+ Euler writes back to Goldbach about this on January 10/21, 1744 (Juškevič and
+
+ Winter 1965, Brief 76), in which he says,
+
+ Your Honour's reflection on the expression (1 - n)( 1 - n2)( 1 - n 3) etc. with
+
+ respect to the product ^1 - л 2 ^ ^1 - л 2 ^ ^1 - л 2 ^ etc. that this product when
+ expanded gives the same variation of signs, could perhaps be put to some use in
+
+ other investigations; but so far I haven't been able to make any use of it in the
+ series which I have derived.10
+
+ On March 25/April 5, 1746, Euler writes another letter to Goldbach about the pen-
+
+ tagonal number theorem (Juškevič and Winter 1965, Brief 102). In this letter, he gives
+ some expansions of products. First, he lets
+
+ s = (1+ e)(l + a2)( 1 + a4) ■ • • (1+ a2").
+
+ ои+l 2W"^ i
+
+ wann ich setze В = o-oo-oo - n 2 ^ etc., so wird A multiplicata per В eine neue series,
+ welche dieselbe variationem signorům in sich hält." (Juškevič and Winter 1965, Brief 75).
+
+ 10 "Ew. Wohlgeb. Reflexion über die Expression (1 - л)(1 - л2)( 1 - w3) etc. in Ansehung eines factoris
+
+ ä)(, - л 2^ etc., also, daß das factum, si evolvatur, eine gleiche Abwechslung der
+
+ signorům + et - gebe, könnte vielleicht bei andern Untersuchungen einigen Vorteil bringen; allein in der
+ Serie, welche ich daraus hergeleitet, habe ich daraus noch keinen Nutzen ziehen können." (Juškevič and
+ Winter 1965, Brief 76).
+
+ â Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:40:21 UTC
+All use subject to https://about.jstor.org/terms
+
+ But (1 - a)s = 1 - a2 ои+l , and hence s = a a_¡ i . However, there is not an obvious
+
+ simple expression for the product (1 - a)( 1 - a2)(l - aA) • • • (1 - a2"), and indeed
+
+ 9 "Bei der serie (1 - л)(1 - л2)( 1 - и3) etc. ist mir ein besonderes problema eingefallen: Data serie A
+ infìnitorum terminorum signis + et - dato ordine variantibus procedentium invenire seriem В huius natu-
+ rae, ut in producto AB signa + et - eodem ordine sibi succédant, quo ordine sibi succedebant in A. Dieses
+ problema kann sehr leicht solvieret werden in dem casu A = (1 - n)(' - n2)( 1 - и3) etc. obgleich darin,
+ wie E. Hochedelgeb. angemerkt haben, die signa +,- auf eine gar ungewöhnliche Art abwechseln, dann
+
+ Euler's work on the pentagonal number theorem 319
+
+ Euler remarks that actual multiplication of the first factors of the product gives
+
+ J- a_ fl2+a3- a4 + a5+a6_a7_a8+a9 + a10_al.+a12_a.3_al4
+
+ +a15_a16+a.7etc
+
+ Euler then says,
+
+ "wo die ordo signorům merkwürdig ist" ["where the order of the signs is remarkable"].
+
+ I believe that I have already also written to Your Honour that when this infinite
+ product (1 - a)( 1 - a2)( 1 - a3)( 1 - a4)( 1 - a5) etc. is expanded, this series
+ 1 - a - a2 + a5 + a7 - ax2 - a15 H -a22 + a26 - a 35 - a40 -bete, results, where
+
+ the sequence of the exponents is very remarkable, and it can be determined by
+
+ induction that everything is contained in the formula Ъхх^х , although I have not
+ been able to derive this observed law from the nature of the matter. 1 1
+
+ Euler is saying that he has found a pattern when he actually works out particular
+ cases, but that he has not so far been able to understand why this pattern would work
+
+ in general. However, he has some sense that a proof would be similar to how he ver-
+ ifies the individual cases. For, when the partial products (1 - x) • • • (1 - xN) and
+ (1 - x) • • • (1 - jc^1) are expanded as sums, they will have the same coefficients
+ at least for all powers <N, since all the terms in - jc^4"1 (1 - x) • • • (1 - xN) will
+ have exponents >N + I. Thus to find the coefficients of the powers <N in the series
+ expansion of the infinite product (1 - x)(' - x2) • • -, we need to expand at most the
+
+ first N factors. Still, in effect this means that he has only been able to guess the pattern,
+
+ and has not found a proof.
+
+ In a letter to Euler on April 15, 1747 (Juškevič and Winter 1965, Brief 1 14), Gold-
+ bach responds to Euler's previous letter, which had given a recurrence relation for
+ the divisor function (see §4 of this article). In that letter, Euler had remarked that his
+
+ proof assumes the pentagonal number theorem, which he had not been able to prove
+ rigorously. Goldbach declares that,
+
+ the observation which Your Honour has communicated to me seems to me by
+
+ means of the aforementioned induction already shown to the extent that one
+ could bet on its truth one hundred to one. Otherwise, Your Honour already
+ observed awhile ago that A ... (1 - x)(' - x2)(l - *3)(1 - x4) etc. = В . . . 1 -
+ x - x2 -i- x5 -h x1 - x12 - xX5 + etc. and I remember that I derived from it
+
+ the very simple consequence that, when the powers of x are doubled in В and
+ put as С = 1 - x2 - x4 + xxo + xX4 - xx2 - x30 + etc., then it must be
+ £ = (1 - jc)(1 - лг3) ( 1 - *5)(1 - x1) etc.12
+
+ 1 1 "Ew. Hochwohlgeb. glaube ich auch schon geschrieben zu haben, daß wann man dieses produetum
+ infinitum (1 -я)(1 -a2)( 1 -л3)( 1 -я4)( 1 - я5) etc. evolviert, diese series herauskomme 1 -a-a1 +
+ a5 _j_ fl7 _ ^12 _ a15 _|_ a22 _|_ a26 _ a35 _ ß40 _|_ etc ^ w0 ¿er 0r(j0 exponentium sehr merkwürdig ist
+
+ und sich per induetionem also bestimmen läßt, daß alle in hac formula ^xx^zx enthalten sind, ungeacht ich
+ diese legem observatam noch nicht ex rei natura habe herausbringen können." (Juškevič and Winter 1965,
+ Brief 102).
+
+ 12 "die Observation, welch Ew. H. mir kommuniziert haben, scheinet mir bereits durch die angeführte
+ Induktion dermaßen erwiesen, daß man auf deren Wahrheit hundert gegen eins halten könnte. Sonst haben
+
+ Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:40:21 UTC
+All use subject to https://about.jstor.org/terms
+
+ In his previous letter to Goldbach, supposing the pentagonal number theorem Euler
+ proved a recurrence relation for the sum of divisors function or(n). But Euler said
+
+ he could not find a rigorous proof of the pentagonal number theorem, which left this
+
+ recurrence relation hanging. Goldbach seems to say that Euler gave a pretty good argu-
+
+ ment a few years ago; yet, Euler would like a more rigorous proof. Also, it is in fact
+
+ ^ = (1 - *)(1 - jc3)(1 - jc5)(1 - jc7) etc., not § = (1 - *)(1 - jc3)(1 - jc5)(1 - jc7) etc.
+ like Goldbach says here.
+
+ Euler replies to Goldbach on May 6, 1747 (Juškevič and Winter 1965, Brief 115),
+
+ 320 J. Bell
+
+ saying:
+
+ The remark which Your Honour made about the equality A . . . (1- jc)(1- jc2)(1 -
+ jc3)(1 -jc4)etc. = В ... 1 -X - X2 + jc5 + X7 - etc., that, if С = '-x2-x4 +
+
+ *10 + jc14 - jc24 - jc30 +etc. then it would be ^ = (1 - jc)(1 - jc3)( 1 - x5) etc.,
+ I still remember well. But neither from this nor from other approaches have I
+ been able to properly demonstrate the equality between the formulas A and B'
+
+ for that A = В and that in В the exponents of x just come out according to the
+
+ series 1, 2, 5, 7, 12, 15, 22, 26, 35, 40, 1 have shown only by induction, which I
+
+ have in fact continued so far that I can hold the theorem as a complete truth; I
+
+ would however be very eager to see a direct demonstration of it, which certainly
+
+ would open the way to the discovery of many other marvelous properties of the
+
+ integers: but so far all my efforts towards this have been in vain.13
+
+ Then Euler gives some results about representing numbers as sums of squares.
+
+ As we remarked about the above letter, it is ^ = (1 - jc)(1 - jc3)(1 - jc5) etc. not
+
+ § = (1 - *)( 1 - *3)( 1 - x5) etc.; photographs of the original letters have been checked
+ and indeed Goldbach and Euler both make this slip of the pen. Possibly Goldbach made
+ this slip because he uses A and В differently here than in his December 1743 letter
+
+ (Juškevič and Winter 1965, Brief 75), which has already been quoted above. There A
+ is a product over the even powers of nx!2 and В is a product over the odd powers of
+
+ л1/2, and thus AB is a product over all powers of л1/2, while here A = В is a product
+
+ over all powers of x and С is a product over the even powers of jc, and thus ^ is a
+ product over all the odd powers of jc.
+
+ Footnote 1 2 continued
+
+ E. H. schon längst angemerket, daß A . . . (l-jt)(l - jc2)( 1 - jc3)( 1 -jc4)etc. = В . . . 1 -jc-jc2+jc5+ jc7 -
+
+ x 12 - x 15 4- etc. und ich erinnere mich, daß ich daraus die an sich selbst sehr leichte consequence gezogen,
+ daß, wann die potestates ipsius x in В verdoppelt werden und С = 1 -jc2-jc4+jc,0+jc14-jt12-jt30+etc.
+
+ gesetzt wird, alsdann § = (1 - дг)(1 - *3)(1 - дг5)(1 - x1) etc. sein muß." (Juškevič and Winter 1965,
+ Brief 1 14).
+
+ 13 "Die Anmerkung welche Ew. Hochwohlgeb, über die Gleichheit А . . . (1 - x)(' - Jt2)(l - дг3)(1 -
+ x4)etc. = В ... l-*-.*2+.x5+.*7 -etc. gemacht, daß, wann С = 1 -jt2-jt4+jc10+jc14-.x;24-jt30+etc.,
+
+ alsdann sei § = (1 - *)(1 - *3)(1 - *5) etc., erinnere ich mich noch wohl. Ich habe aber weder daraus,
+ noch aus andern Betrachtungen die Gleichheit zwischen den Formuln A und В richtig dartun können; dann
+ daß А = В und daß in В die Exponenten von x just nach dieser Serie 1 , 2, 5, 7, 12, 15, 22, 26, 35, 40, etc.
+
+ fortgehen, habe ich auch nur per inductionem geschlossen, welche ich zwar so weit fortgesetzet, daß ich die
+ Sach für völlig wahr halten kann; allein ich wäre sehr begierig, davon eine demonstrationem directam zu
+
+ sehen, welche gewiß zu Entdeckung vieler anderer herrlichen Eigenschaften der Zahlen den Weg bahnen
+ würde: bisher ist aber alle meine darauf angewandte Mühe umsonst gewesen." (Juškevič and Winter 1965,
+ Brief 115).
+
+ Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:40:21 UTC
+All use subject to https://about.jstor.org/terms
+
+ Euler's work on the pentagonal number theorem 321
+
+ Later, in a letter to Jean le Rond d'Alembert (1717-1783) on December 30, 1747
+ (Juškevič and Taton 1980, Euler-d' Alembert, Lettre No. 11), Euler writes that he has
+
+ learned from Maupertuis (the President of the Berlin Academy) that d'Alembert wants
+
+ to leave his mathematical research for some time to regain his health. Euler approves
+
+ this idea, and goes on to say,
+
+ If in your respite you have the desire to do some research that is not too demand-
+ ing, let me take the liberty of proposing to you this expression (1 - x)(' -
+ x2)(' - jc3)(1 - ;t4)(l - jc5)(1 - X6) etc., which, when expanded by actual
+ multiplication, gives this series
+
+ 1 - xl - X2 + X5 + X1 - XX1 - XiS -hx22 + X26 - X35 - X40 +Jt51 +JC57
+
+ -X10 - X11 + etc.
+
+ which seems quite remarkable to me because of the pattern that one easily discov-
+
+ ers; but I do not see how this law could be deduced from the proposed expression
+
+ otherwise than by induction.14
+
+ As a postscript Euler says15
+
+ If we let s = (1 - jc)(1 - x2)(' - jc3)( 1 - x4)(' - x5)(l - x6) etc. then I can
+ demonstrate that we will have
+
+ _ j JC + je3
+
+ 5 _ j 1 - A + (1 - jc)(1 - X2)
+
+ _i
+
+ x'o
+
+ <0 Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:40:21 UTC
+All use subject to https://about.jstor.org/terms
+
+ s = 1 ~ 1 -* + (1 -x)(l - x2) ~ (1 -*)(1 -x2)(' -*3)
+
+ X X 3 X6
+
+ H
+
+ Xю
+
+ (1 - JC)(1 -X2)(' -JC3)(1 - x4) -л
+
+ D'Alembert may have been fatigued because of his work on the three-body prob-
+
+ lem/the motion of the line of apsides of the moon's orbit, and because of his involve-
+
+ ment with the Encyclopédie (Juškevič and Taton 1980, Euler-d' Alembert, Lettre No.
+
+ 14 "Si dans vos divertissemens vous avés envie de faire quelque recherche, qui ne demande pas beaucoup
+ d'application, je prendrai la liberté de vous proposer cette expression (1 - *)(1 -*2)(1 ~*3)G -*4)U -
+ je5 )( 1 - jt6) etc., laquelle étant développée par la multiplication actuelle, donne cette serie
+
+ 1-х1 - x2 +*5 +JC7 - xX1 - x15 -hx22 + .Ï26 - je35 - Л'40 +дг51 +x57 - X70 - x11 + etc.
+
+ qui me paroit fort remarquable à cause de la loi qu'on y découvre aisement; mais je ne voi pas comment
+ cette loi pourrait être deduite sans induction de l'expression proposée même." (Juškevič and Taton 1980,
+ Euler-d' Alembert, Lettre No. 1 1).
+
+ 15 "Si l'on met s = (1 - лг)(1 -*2)(1 - jc3)(1 -x4)(1 -*5)(1 - a6) etc. je puis démontrer qu'il y aura
+
+ (1 -x)(' -x2)(' - jc3)(1 - x4)
+
+ (Juškevič and Taton 1980, Euler-d' Alembert, Lettre No. 1 1).
+
+ 322 J. Bell
+
+ 11, Note 1). Euler probably thought that this might catch ďAlemberťs interest. Euler
+
+ was looking for people to talk to about number theory in general (see Scriba 1 984, §4).
+
+ D'Alembert replies to Euler in a letter on January 20, 1748 (Juškevič and Taton
+
+ 1980, Euler-ď Alembert, Lettre No. 12). He begins by saying that by taking a break
+
+ from work his health is presently much better. He says, "à l'égard de la suite dont vous
+
+ me parlés elle est fort singulière, j'y ay un peu pensé, mais je ne vois que l'induction
+ pour la demontrer" ["with regard to the series which you wrote me about, it is most
+
+ singular, and I've given it some thought, but I don't see anything other than induction
+
+ for a proof'].
+
+ In §323 (in Chapter XVI, "De partitione numerorum") of the Introductio in anal-
+
+ ysin infinitorum (Euler 1748), E101, published in 1748, Euler states the pentagonal
+ number theorem, and observes the fact that the product (1 - jc)(1 - x2)(l - jc3) etc. is
+
+ the reciprocal of the generating function for p(n). Then in §324, he states a recurrence
+ relation for р(я),16
+
+ Therefore because of the recursion pattern
+
+ -+-1, +1, 0, 0, - 1, 0, - 1, 0, 0, 0, 0, -|-1, 0, 0, H-l, 0, 0, etc.,
+
+ from the expansion of the fraction
+
+ (1 - jc)(1 - Jt2)(l - jc3)(1 - Jt4)(l - JC5)(1 - л:6)(1 - X1) etc.
+
+ this recurrent series will arise
+
+ 1
+
+ 1+ * + 2л:2 + Зл:3 + 5л:4 + 7л:5 + 1 1л:6 + 15л:7 + 22л:8
+
+ +30л:9 + 42л:10 + 56*11 + 77л:12 + 101л:13 + 135лг14
+
+ + 176* 15 + 231л: 16 + 297* 17 + 385л:18 + 490л:19 + 627л:20
+
+ +792*21 + 1002л:22 + 1255л:23 + 1575л24 etc.
+
+ This is ]Г р(п)хп for п from 0 to 24.
+
+ 16 "Cum igitur scala relationis sit
+
+ series recurrens ex evolutione fractionis
+
+ + 1, +1,0, 0, -1,0, -1,0, 0, 0, 0,-1-1,0, 0, +1,0, 0, etc.,
+
+ Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:40:21 UTC
+All use subject to https://about.jstor.org/terms
+
+ (1 - Jt)(l - JC2)(1 - JC3)(1 - *4)(1 - *5)(1 - *6)(1 - X1) etc.
+
+ oriunda erit haec
+
+ 1 + X + 2л2 + 3x3 + 5x 4 + 1хъ + 1 1*6 + 15дг7 + 22л:8
+
+ +30л:9 + 42дс 10 + 56л: ' ' +77л:12 + 101л:13 + 135л:14
+
+ + 176*15 + 231л:16 + 297л17 + 385л:18 + 490л19 + 627л20
+
+ +792л21 + 1002л22 + 1255л23 + 1575л24 etc."
+
+ (Euler 1748, §324), E 101.
+
+ and asks different questions about it. If д: = an for n a nonnegative integer, then
+ s = п. In particular, if a = 10 then s interpolates the common logarithm of x.
+ For x = 9 and a = 10 he calculates the first 11 terms of the series to get s =
+ 0.89705058521067321224 (the calculation is incorrect, and for x = 9 and a = 10
+ we will in fact get s = 0.897778586588 . . .). Actually log10(9) = 0.9542425094 -
+ Next, in §6 of the paper, Euler writes s as
+
+ Euler's work on the pentagonal number theorem 323
+
+ Euler proves several results about series and infinite products in his paper "Con-
+
+ sideratio quarumdam serierum, quae singularibus proprietatibus sunt praeditae", E 190,
+
+ read at the June 19, 1749 meeting of the Berlin Academy (Winter 1957, Nr. 134), sent
+ to Johann Daniel Schumacher (1690-1761) on December 18/29, 1749 (Juškevič and
+
+ Winter 1961, Brief 108), presented to the St. Petersburg Academy on January 26,
+ 1750 (Nevskaja 2000, p. 369), and published in the Novi Commentarii in 1753 (Euler
+ 1753a; cf. Knobloch 1984, III, Nr. 168). Schumacher was the administrator of the St.
+
+ Petersburg Academy.
+
+ In this article Euler looks at a series that interpolates 'oga . Euler defines the series
+
+ S =
+
+ 1-Х (1 -x)(a-x) (1 -x)(a - x)(a2 - x)
+ 1 - a a - aô aò - a°
+
+ (1 -x)(a -x)(a2 -x)(a3 - x)
+
+ H
+
+ a6 7 - a10 fñ
+
+ OO J n- 1
+
+ «(•*) = X an(n-')/2 _ an(n+')/2 №' ~
+
+ n= 1 *=0
+
+ i.e.,
+
+ 1.e.,
+
+ Í = - 1 ! - (1 - x) + 1 1 a1 2(1 - x) (l V - -) at
+ 1 - a 1 - a1 V at
+
+ OO 1 n - 1
+
+ -Zrbno-j). 1 <3>
+
+ n= 1 k=0
+
+ â Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:40:21 UTC
+All use subject to https://about.jstor.org/terms
+
+ and he defines t(x) = s (ax). Subtracting the first series from the second,
+
+ t-s = x + -( 1 -*) + 4(1 a¿ -*) (l ' - -) + Л(1 aô -*) (l - -) а/ 0 ' - 4) az / +etc-
+
+ a a¿ ' a' aô ' а/ ' az /
+
+ Now, all the terms in the series 1 + s - t have a factor of 1 - x, so
+
+ Then, "Hic factor posterior autem porro divisibilis est per 1 - |, unde fit
+
+ 324 J. Bell
+
+ 1 + 5 - t = (1 - X) (l v - -) af (l ' - - - 4 a5 (l ' - - ) / - etc.) / .
+
+ v af ' aa a5 ' aa / /
+
+ Hie denuo factor deprehenditur 1 - ^ hocque seorsim expresso factor apparebit 1 - ^
+ et ita porro, unde tandem reperitur fore
+
+ ["Here the second factor is in turn divisible by 1 - whence it will be
+
+ '+s-t = (l-x)(l--)('- V - - a5 (l ' - - ) - etc.) .
+
+ V a/ ' aa a5 ' aa / /
+
+ Next, here one sees the factor 1 - and after removing it the factor 1 - ^ will
+ appear and so on, and thus one finally obtains
+
+ Next in §§8-11, Euler takes x - and looks for different ways to express 5 for
+
+ n = 1, 2, .... In particular, he writes В for the series s with x = £ and says that for
+ a = 10,
+
+ В = -0.109989900001001;
+
+ of course log10(^j) = -1, and so 5 does not interpolate logö at negative integer
+ powers of a.
+
+ In §10 Euler defines u(x) = s(a2x) and with some simple manipulations gets
+ и = 2t - s + ax(' + s - t). In §1 1 he states the following lemma, which is useful
+ when working with infinite products17:
+
+ А, В , С, D, E , F, etc.
+
+ A , В , С, D, £, F, etc.
+
+ series quantitatum quarumvis sitque
+
+ Atque hinc obtinebitur
+
+ (1 - A)( 1 - ß)(l - C)( 1 - D)( 1 - E) etc. = 5.
+
+ 1 - A - B(' - A) - C(1 - A)( 1 - B) - D{ 1 - A)(l - Я)(1 - С) - etc. = 5;
+
+ haec enim formula facillime reducitur ad illam." (Euler 1753a, § 1 1), E 190.
+
+ For let
+
+ 17 "Sitenim
+
+ ^ Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:40:21 UTC
+All use subject to https://about.jstor.org/terms
+
+ Euler's work on the pentagonal number theorem 325
+
+ be any series of quantities and let
+
+ (1 - A)( 1 - B)(l - C)( 1 - D)(l - E) etc. = S.
+
+ One will then obtain
+
+ 1 - A - B(' - A) - C(1 - A) ( 1 - В )
+
+ -D( 1 - A)(l - Д)(1 - C) - etc. = 5; (4)
+
+ for this formula can easily be reduced to the former.
+
+ Then in §14 Euler says he wants to express the series л; as a power series in x :
+
+ "Revertor autem ad seriem initio assumtam
+
+ s = г- 1 - - (1 -x)+ 1 1 a1 2(1 -x) (l ' - -)
+ 1 - a 1 - a1 ' a /
+
+ +rb<-> (":)(' -?)+*■
+
+ quam in aliam formam, in qua termini secundum potestates ipsius x procédant, trans-
+
+ fundere animus est." ["I shall return now however to the originally presented series
+
+ S = 7^ 1 - (1 -X) + 1 1 a1 2(1 - x) (l V - -)
+ 1 - a 1 - a1 V a/
+
+ +гЬз(1_Х)(1_^) (1_Ž)+etC''
+
+ and the intent is to transform it into another form, in which the terms proceed in powers
+ of jc"]. Let s(x) = °=0апхп . Euler uses the formula и - 2t + s = ax(' + s - t)
+ from §10 to find by comparing coefficients of powers of x that an-'a(l - an~]) =
+ an( 1 - an)2 and a' = This leads in §15 to
+
+ °° anxn
+
+ ■ W=»(0H-X I _o)„ (, _a.r
+
+ /1=1
+
+ In §§16-18, Euler says something like
+
+ »(«,) - ,(x, = - Z
+
+ 00 nn xn
+
+ which gets rid of the constant term s(0) and the square of the factor 1 - an in the
+ denominator,
+
+ Next in §§19-22, Euler looks in particular at the following product P (where j^r
+
+ is the mth term in the series (3) for s),
+
+ ^ Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:40:21 UTC
+All use subject to https://about.jstor.org/terms
+
+ 326 J. Bell
+
+ as m -» oo. In §26, Euler puts
+
+ P = 1 - ax + ßx2 - у: с3 + «Sx4 - e*5 + etc.
+
+ and defines ß(jt) = P(a;c).Now, Q = P -axP, and then comparing the coefficients
+ of powers of X Euler gets
+
+ This article is reviewed in the June 1759 Nova acta eruditorum (pp. 315-316).
+ At last in a letter from Euler to Goldbach on June 9, 1750 (Juškevič and Winter
+
+ 1965, Brief 144), Euler gives a proof of the pentagonal number theorem. This proof is
+
+ based on the lemma (4), which expands an infinite product into a series of products.
+ We can write this lemma as
+
+ P=Z ~ a- ' + (a- 1 )(a2 - ') ~ (a - 1 ){a2 - 1 )(a3 - 1)
+
+ (a - 1 )(a2 - l)(a3 - 1 )(a4 - 1)
+
+ OO 00
+
+ /1 = 1 n='
+
+ J](l -a„) = 1 - 2>„(1 - a,) • • • (1 - a„_i). (5)
+
+ This distributes (trivially) the factor 1 - a', then the factor 1 - ¿*2, then the factor
+ 1 - аз, etc. Euler describes it as follows,18
+
+ But since then I have also found the demonstration of this theorem, which is
+ based on this lemma: (1 - a)(l - ß)(' - y)( 1 - 8) etc. = 1 - a - ß(' -
+ a) - y( 1 - a)(l - ß) - 5(1 - a)(l - ß)(l - y) - etc., whose demonstration
+ is immediately evident.
+
+ а л aa ßa n ya
+
+ a =  a - 1 a¿ - 7' 1 I, - 7' 1 1 ar - 1
+
+ and thus
+
+ 2 2 3 3
+ ÖJC ЯЛГ ¿ГДГ
+
+ H
+
+ 4 4
+ a*x4 4 4
+
+ Thus according to this lemma it is:
+
+ (1 - *)(1 - x2)(l - дг3)(1 - x4)(l - X5) etc. = s
+
+ = 1 - X - x2(l - x) - *3(1 - *)(1 - X2) - jc4(1 - jc)(1 - x2)(' - Jt3) - etc.
+
+ 18 "Seit der Zeit aber habe ich auch die Demonstration dieses theorematis gefunden, welche sich auf dieses
+ Lemma gründet: (1 -a)(l - ß)(l -y)(l -8) etc. = 1 - a-ß(' -a) - y(' -a)(' -ß)-S( 1 -cr)(l -
+ ß){' - y) - etc., dessen Demonstration sogleich in die Augen fallt.
+
+ Also ist nach diesem lemmate:
+
+ (1 - JC)(1 - л2)(1 - x3)(l - jc4)( I - *5) etc. = s
+
+ = 1 - x - x2(i - x) - *3(1 - *)(1 - x2) - x*(' - дг)( 1 - x2)(i - дс3) - etc."
+
+ (Juškevič and Winter 1965, Brief 144).
+
+ â Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:40:21 UTC
+All use subject to https://about.jstor.org/terms
+
+ ]~[(1 - a„) - алг+iO - öi) • • • (1 -aN) = 1 - ^a„( 1 -ai)-(l
+ П-ì П- 1
+
+ Euler's work on the pentagonal number theorem 327
+
+ We will give an explicit proof by induction. Trivially 1 - a' = 1 - a' . Assume up
+
+ to some N that
+
+ N N
+
+ П = 1 /î = l
+
+ N N+ 1
+
+ If we subtract ан+' (1 - a') • • • (1 - an) from both sides we get
+
+ f]d -a„) = '- £>„( 1 - a,) • • • (1 - a„-').
+
+ But the left-hand side is precisely
+
+ N N N+ 1
+
+ «=1 n=' n- 1
+
+ f](l -a„)-aN+' f](l -an)= [](1 "««)•
+
+ Thus the claim holds for + 1 . Then letting N -> oo implies (5).
+
+ Euler is referring in the above to his March 21 /April 1, 1747 letter to Goldbach,
+
+ where he found the recurrence relation for a(n) assuming the pentagonal number
+
+ theorem. Now Euler says that since that time he has found a proof of the pentago-
+ nal number theorem that satisfies him. Euler then gives a proof by induction of the
+
+ pentagonal number theorem using (5), taking an - xn for all n.
+
+ Euler does the following. Let s = 1 - x - Ax2, where A = 1 - * + *(1 - *)(1 -
+
+ X2) + jc2(1 - *)(1 - Jt2)(l - Jt3) + etc. Then distributing the factor 1 - x in each
+
+ term we get
+
+ A= i-x -x2(l - x2) -x3(' - x2){' - x3) -etc.
+
+ + x(l - x2) +x2(' - Jt2)(l - x3) +x3(' - x2)(' - x3)(' - x4) -I- etc.
+
+ Then combining the pairs of terms,
+
+ A = 1 - x3 - x5(' - x2) - jc7(1 - *2)(1 - x3) - etc.
+
+ Euler does not explicitly do the induction step. Instead he works out enough steps to
+ make it clear how we could do the induction step.
+
+ Now let A = 1 - jc3 - Bx5, and
+
+ В = I - x2 + x2{' - JC2)(1 - x3) + JC4(1 - *2)(1 - л3)(1 - *4) + etc.
+
+ Then expanding the factor 1 - x2,
+
+ B = 1-х2 -*4(1-jc3) -x6(l - *3)(1 - jc4) -etc.
+
+ +x2(l -x3) +JC4(1 - JC3)(1 -X4) +*6(1 - JC3)(1 - JC4)(1 - л:5) H- etc.
+
+ â Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:40:21 UTC
+All use subject to https://about.jstor.org/terms
+
+ Again the pairs of terms are combined, which gives
+
+ В = 1 - X5 - *8(1 - *3) - Jcn(l - *3)(1 - X4) - etc.
+
+ Next let В = 1 - x5 - Cjc8, and so on. Euler explicitly works out this case, then
+
+ 328 J. Bell
+
+ 19
+ says1* 19
+
+ It will thus be
+
+ s = 1 - x - Ax 2 s = 1 - x - Ax2
+ A = 1 - x3 - Bx5 Ax2 = jc2(1 - jc3) - Bx7
+ В = Ì - x5 - Cx8 or Bx7 =x7(l -x5)-Cx15
+ С = 1 - x7 - D xu С; с15 = jc15(l - x7)- Dx26
+ D= 1-х9 - Ex 14 Dx26 = Jt26(l - jc9) - Ex 40
+
+ etc. etc.
+
+ from which it follows with no doubt at all that
+
+ s = 1-х - jc2(l - jc3) + jc7(1 - jc5) - jc ,5(1 - jc7) +jc26(1 - jc9) - etc., or
+
+ s = 1 - jc - jc2 + jc5 + jc7 - jc12 - jc15 + jc22 + jc26 - jc35 - etc.
+
+ Let us now explicitly work out the induction in Euleťs above proof of the pentagonal
+
+ number theorem. Let
+
+ 00
+
+ n= 1
+
+ Here S' = Af S2 = B, S$ = C, etc. First, we shall show that
+
+ SN = 1 -x2N+i -SN+ix3N+2 (6)
+
+ 19 "Also wird sein:
+
+ s = 1 - x - Ax 2 s = 1-х - Ax2
+ A - 1 - jc3 - B; t5 Ax2 = jc2 ( 1 - jc3) - Bx 7
+ В = 1 - x5 - Cjc8 oder Bx1 = jc7 ( 1 - jc5) - Cj с 15
+ С = 1 - jc7 - Dxu Cx]5 = jc15(1 - x1) - Dx 26
+ D = 1 - JC9 - £JC14 DJC26 = JC26(1 - jc9) - £j с 40
+
+ etc. etc.
+
+ Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:40:21 UTC
+All use subject to https://about.jstor.org/terms
+
+ woraus dann gantz ungezweifelt folget
+
+ s = ' - x - x2(' - *3) + x7(l - jc5) - jc 15 (1 - jc7) +*26(1 - x9) - etc., oder
+
+ s = 1 - x - x2 + x5 x1 - JC12 - JC15 + JC22 JC26 - JC35 - etc."
+
+ (Juškevič and Winter 1965, Brief 144).
+
+ Euler's work on the pentagonal number theorem 329
+
+ for all N > 1, like how we showed that A = 1 - x3 - Bx 5, В = 1 - x5 - Cx8, etc.
+
+ SN = - xN) ■ ■ ■ (1 - д:"+л,_|)
+
+ oo
+
+ П - 1
+
+ OO
+
+ И = |
+
+ oo
+
+ П = 1
+
+ OO
+
+ n=i
+
+ OO
+
+ n='
+
+ OO
+
+ n= 1
+
+ -^jtWn(l -xN+ì)---(ì -xn+N-x)
+
+ = 1 + ^xNn(' - xN+i)- • • (1 - x"+N)
+
+ - £*""(! - xN+l) • • • (1 - x"+N-1)
+
+ = 1 - ^*"«+"+»(1 _ ** + !). . . (1 _ Х»+^-1)
+
+ = 1 _ x^+l _ ^ xNn+2N+n+i (1 _ /+1) Xn+N)
+
+ = 1 _ x2N+l _ x3N+2 _ XN+ 1} . . . (1 _ Xn+N)
+
+ OO
+
+ n= 1
+
+ OO
+
+ n= 1
+
+ = l-X2N+l-X™+2SN+U
+
+ thus showing that (6) holds for all N > 1 .
+
+ Now, we shall show that
+
+ „ я(Зл+1) ,
+
+ s = £ ((-1)"*- „ я(Зл+1) I- + (- 1) , дс
+
+ N-'
+
+ n= 0
+
+ N- 1
+
+ N- 1
+
+ Z, ((-1)"*- ... n (3/i J- + 1 ) + (- 1) i i *
+ n= 0
+
+ ((-1)"*- ... n (3/i J- + 1 ) + (- 1) i i *
+
+ +(-l)^™(l-*2"+l-*3"+2W
+
+ = ¿ ((-i)«*20?11 + (-1)"+1х!£±1^)
+
+ +(-1 A ™ + (_1)N+l;c^±ll+2yV+. + {_1)N+Íx^+™+2Sn+i
+
+ ö Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:40:21 UTC
+All use subject to https://about.jstor.org/terms
+
+ for all N > 1. First, s = ' - x - x2S' since S' = A. Now assume that (7) holds for
+ some N > 1 . Then using (6),
+
+ ("_!)„, «s»1!! +(.,г,шр +{_1)«+,1И1!¥Ш^+|
+
+ = ¿ ((-1)"^ + (-l)"+4!s±!1řca) + "PíJm,
+
+ /1=0
+
+ so (7) holds for all N > 1, thus proving the pentagonal number theorem.
+
+ In his "Demonstratio theorematis circa ordinem in summis divisorům observatum",
+
+ published in the Novi Commentarii in 1760 (Euler 1760a), E244 (cf. Knobloch 1984,
+
+ I, Nr. 43), Euler gives the above proof of the pentagonal number theorem from his
+
+ letter to Goldbach with a bit more detail. Schumacher acknowledges in his April 4/15,
+
+ 1752 letter to Euler (Juškevič and Winter 1961, Brief 189) having received the paper
+
+ with Euler's March 7/18, 1752 letter (Juškevič and Winter 1961, Brief 185), though
+ the paper is not mentioned in that letter. In this article Euler first recalls that some
+
+ time ago he had discovered a recurrence relation for the divisor function, for which
+
+ the differences in the arguments are the pentagonal numbers. However, his proof was
+
+ not rigorous enough to him, since it relied on the pentagonal number theorem, which
+
+ previously he had not been able to find a rigorous proof for. But now he declares that
+
+ he has finally found a demonstration of the pentagonal number theorem. Proposition
+ 1 is our (5), for a' = -a, 02 = - яз = -у and so on. His demonstration is the
+ following,20
+
+ 330 J. Bell
+
+ Atque sic in infinitum procedendo summa totius seriei seu omnium eius terminorum perducetur ad hoc
+ produetum
+
+ For since the first term is (1 + a) and the second = ß(' -h a), the sum of the
+ first and second will be = (1 +a)(l + ß); now if the third term y(l+a)('+ß)
+ is added it will yield (1 + a)(l + ß){' + y); let the fourth term, which is
+
+ ^ "Cum enim seriei prímus terminus sit (1 + a) et secundus = ß{' + a), erit summa primi et secundi
+ = (1 +a)(l +ß)' si iam addatur tertius terminus y{' +a)(l +ß), prodibit (1 +<*)(1 +£)(1 +y);addatur
+ insuper terminus quartus, qui est ¿(1 + a)(l + ß){' + у ); erit summa
+
+ = (l+a)(l+0)(l+y)(l+Ä).
+
+ (1 + <*)(1 + ß)(' + y){ 1 + 8) (1 + 0(1 + О etc.
+
+ s = ( 1 + of)(l + ß){' + y)(l + S)( 1 + €)(1 + О etc.,
+
+ s = (1 + a) + ß(l + of) + к(1 -f a)(l + ß) + ¿(1 + of)(l + ß)(' + y) + etc."
+
+ Unde manifestum est, si fuerit
+
+ fore vicissim
+
+ â Springer
+
+ (Euler 1760a, Propositio 1), E244.
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:40:21 UTC
+All use subject to https://about.jstor.org/terms
+
+ Euler's work on the pentagonal number theorem 33 1
+
+ 5(1 + a)(l + ß)(' + y), be added on top; the sum will be
+
+ = (l+a)(l+0)(l+y)(l+Ä).
+
+ And proceeding thus onto infinity, the whole of the series, or all of its terms, will
+
+ be led to this product
+
+ (1 + a)(l + ¿0(1 + y)(l + S) (1 + 0(1 + ?) etc.
+
+ Whence it is clear that if
+
+ it will be in turn
+
+ j = (1 + a)(l + ß)(l + к)(1 + (5)(1 + €)(1 + Ç) etc.
+
+ 5 = (1 + a) + ß{' + a) + y( 1 + a)(l + ß) + ¿(1 + a)(l + ß){' + y) + etc.
+
+ Euler uses this to prove the pentagonal number theorem. In Proposition 2 he takes
+ a = - x,ß = - X 2, y = -X 3,<5 = - jc4,€ = -X5, etc. Then s = (1 - Jt)(l - x2)(l -
+ jc3)(1 - jc4)(1 - jc5)(1 - X6) etc., and
+
+ s = 1 - X - x2(l - x) - Jt3(l - Jt)(l - X2) - jc4(1 - jc)0 - x2){' - X 3) - etc.
+
+ Then in Proposition 3, Euler proves the pentagonal number theorem. It is the same
+
+ proof he gave in his above letter to Goldbach, but he gives a bit more detail. He
+ concludes,
+
+ Therefore, we will have
+
+ s = 1 - x - x2{' - *3) + *7(1 - jc5) - xl5(l - x1) + Jt26(l - x9)
+
+ - jc40(1 - jc11) + etc.
+
+ or that very thing which is to be demonstrated,
+
+ 5 = I - x - X2 +JC5 + X1 - X12 - JC15 + X22 + X26 - x35 - X40 + x5i -bete.,
+
+ from which the law of the exponents indicated above is clearly seen at once.21
+
+ 21 "Quamobrem habebimus
+
+ sive id ipsum, quod demonstran oportet,
+
+ 5=1 - x - JC2(1 - JC3) + jc7(1 - JC5) - JC15(1 - JC7) + JC26(1 - JC9) - Xa0 (' - *u) + etc.
+
+ , = 1 _ * _ *2 + *5 + *7 _ ,12 _ ,15 + ,22 + ,26 _ ,35 _ ,40 + ,51 + ^
+
+ unde simul lex exponentium supra indicata per differentias luculenter perspicitur." (Euler 1760a, Propositio
+ 3), E244.
+
+ Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:40:21 UTC
+All use subject to https://about.jstor.org/terms
+
+ 332 J. Bell
+
+ Euler then uses the pentagonal number theorem to finally give a rigorous proof of
+
+ his recurrence relation for the divisor function, which we discuss in §4.
+
+ In the 1752 Bibliothèque impartiale (juillet et août), tome VI, première partie, arti-
+
+ cle IX, "Demonstration de la Loi d'une suite de termes de la Quantité composée qui
+ est faite par la multiplication des Binômes 1 - jc, 1 - jc2, 1 - jc3, & c.", pp. 1 1 1-126,
+
+ there is a proof of the pentagonal number theorem by an anonymous author.
+
+ Euler leaves Berlin on June 9, 1766, spends ten days in Warsaw, and arrives in St.
+
+ Petersburg on July 28. By 1771, he was completely blind (Gillispie 1980, Volume IV,
+ "Leonhard Euler", pp. 467-484).
+
+ Euler gives two proofs of the pentagonal number theorem in his later paper "Evo-
+
+ lutio producti infiniti (1 - x)(' - jcjc)(1 - лг3)(1 - jc4)( 1 - jc5)(1 - Xе) etc. in seriem
+ simplicem", delivered to the St. Petersburg Academy on August 14, 1775 (Nevskaja
+ 2000, p. 627) and published in 1783 in the Acta (Euler 1783b), E541. The first proof
+ is a reworking of the proof in E244, while the second is a little different. We will
+ explicitly work out the inductions in both of them. Euler takes
+
+ 5 = (1 - x)(l - x2)(' - jc3)(1 - X4) etc.
+
+ and "facile patet fore" ["it is not difficult to see that"]
+
+ s = ' - X - x2(l - x) - Af3(l - jc)(1 - X2) - jc4(1 - jc)(1 - jc2)(1 - X 3) - etc.
+
+ and "quaeritur, si singuli eius termini evolvantur, qualis series secundum simplices
+ potestates ipsius x sit proditura" ["we want to find what series will be produced in
+ simple powers of x if all the terms are expanded"].
+
+ In the first proof (§§1-10 of E541), let
+
+ A = ^V+I(1 -х2)---0-хп)-^хп+2(' -x2)---(l-xn).
+
+ A = x2 + ^xn+2( 1 x2} • • • (1 - x2) • • • (1 -x"),
+
+ A = £V+I(1 - x) • • • (1 - xn),
+
+ oo
+
+ П - '
+
+ so s = 1 - x - A. We may expand by the factor 1 - x to get
+
+ oo oo
+
+ n- 1 n- 1
+
+ Then
+
+ oo oo
+
+ n = 1 n = 1
+
+ A = X2 - 5>2"+30 - X2) • • • (1 - xn).
+
+ 00
+
+ n='
+
+ â Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:40:21 UTC
+All use subject to https://about.jstor.org/terms
+
+ and adding the series together
+
+ В = £У"+5(1 - JC3) - - - (1 - x"+1) - ^V"+7(l - X3) • • • (1 - xn+l)
+
+ Я = x1 + ^V/,+7(l - л:3) • • • (1 -xn+2) - £>2"+7(l - -ï3) • • • (1 -xn+ì).
+
+ Then we add the two series together and get
+
+ oo
+
+ n=l
+
+ 00
+
+ n - '
+
+ 00
+
+ n = 1
+
+ 00
+
+ П= 1
+
+ 00
+
+ n-l
+
+ 00
+
+ П= 1
+
+ Euler's work on the pentagonal number theorem 333
+
+ A=x2 -x5 ~^x2n+5( 1 - X2) • • • (1 -jc"+i).
+
+ В = 2Vn+5(l - X2) • • • (1 ~xn+l),
+
+ so A = x2 - X5 - B. We can expand by the factor 1-х2. Then
+
+ 00 00
+
+ n= 1 n - 1
+
+ and so
+
+ 00 00
+
+ П- 1 /1=1
+
+ B=x1 - ^V"+9(l - л3) • • • (1 -
+
+ And so
+
+ Now let
+
+ thus
+
+ Next let
+
+ в = X1 - x12 - 2У"+|2(1 - д:3) • • • (1 - x"+2).
+
+ С = ^Jt3"+12(l - je3) . . (1 - xn+2),
+
+ so В = x7 - x12 - С.
+
+ where
+
+ Euler also works through the next cases С = x 15 - x22 - D and D = x26 -x35 - E ,
+
+ D = ^V"+22(l - x4) ■ ■ ■ (1 - х"+3)
+
+ Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:40:21 UTC
+All use subject to https://about.jstor.org/terms
+
+ On the other hand, the exponents ofthe preceding terms were 1, 5, 12, 22, 35,
+
+ 51 , etc.; these differ from the succeeding exponents by 1 , 2, 3, 4, 5, 6, etc.
+
+ and in general by n itself, so that the exponent preceding the formula Ъпп+п
+ will be
+
+ 334 J. Bell
+
+ and
+
+ 00
+
+ /1 = 1
+
+ E = £x5"+35(l - *5) • • • (1 - л:и+4).
+
+ Euler says in §9, 22
+
+ From these it is now clear that the differences of the numbers 2, 7, 15, 26, 40,
+
+ 57, etc. constitute an arithmetic progression, whence the general term of
+ these numbers will be
+
+ 2 о . с/ 1ч , 3(л-1)(л-2) 3 nn+n
+
+ 2 о + . 5(n с/ - 1) 1ч + ,
+
+ 3 nn - n
+
+ 2 '
+
+ To do this proof explicitly using induction, let
+
+ SN = (1 _ *") ... (1 _ ,«+"-1).
+
+ 00
+
+ /1=1
+
+ Here, S i = A, S2 - В, S3 = С, etc. Thus, so far we have done s = 1 - x - S',
+ Si = x2 -x5 - S2, S2 = x1 - x12 - S3, S3 = x15- x22 - S4, andS4 = x26 - x35 - S5.
+ We shall show that
+
+ ЛЩ+12 ф+ЩЗМ+2)
+
+ Sn = x - x Чг - Sw+i (8)
+
+ Зпп - n ff
+
+ 2 '
+
+ (Euler 1783b, §9), E541.
+
+ Êl Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:40:21 UTC
+All use subject to https://about.jstor.org/terms
+
+ 22 "Ex his iam manifestum est numerorum 2, 7, 15, 26, 40, 57, etc. differentias progressionem arithmeti-
+ cam constituere, unde horum numerorum terminus generalis erit
+
+ 2 + 5(w-i)+3^-1)("-2) = 3"" + ".
+
+ 1-2 2
+
+ Exponentes autem, qui hos antecedunt, erant 1, 5, 12, 22, 35, 51, etc. ab illis numeris 1, 2, 3, 4, 5, 6, etc. et
+ in genere ipso numero n diversi, ita ut exponens, qui formulam praecedit, futurus sit
+
+ Euler's work on the pentagonal number theorem 335
+
+ for all N > 1.
+
+ SN = j Г * Nn+Ш^ (] _ . . . (1 _ ,«.+*-!)
+
+ - ¿*""+^+"(1 - xN+l) • • • (1 - xn+ »-*)
+
+ = xN+m^i + ^xNn+m^i+N(i _ xN+ly . . (1 _ ^
+
+ « = 1
+
+ - ¿*"«+^+"(1 - *"+') • • • (1 - x"+N-1)
+
+ = хшр1 _ ^^(A,+1)n+w^n+2/V(1 _ x„+ì) (1 _ x„+N_ 1}
+
+ oo
+
+ n= 1
+
+ = x лц^+п _
+
+ _ x(N+l)n+N+'+NOI^-'>+2N ^ _ xN+') . . . (] _ дП+ЛГ)
+
+ N(3^+1) (N+l)(3W+2)
+
+ = - л: 2 - S/4+'
+
+ for all N > 1.
+
+ Next, it is straightforward to show using induction that
+
+ 00
+
+ /1 = 1
+
+ CX)
+
+ n= 1
+
+ CX)
+
+ n-'
+
+ 00
+
+ n= 1
+
+ N- 1
+
+ Z, ((- 1)"JC - - /i(3/I+1) 2 - + (_1)»+'JC 1
+ n= 0
+
+ ((- 1)"JC - - /i(3/I+1) 2 - + (_1)»+'JC 1
+
+ for all N > 1 . Since S' = A and s = 1 - x - A this is true for N = 1 . If we assume it
+
+ is true for some N > l9 using (8) it follows right away that it is true for N + 1, which
+
+ proves the pentagonal number theorem.
+
+ This proof is essentially the same as the proof from E244. However, it indeed ends
+
+ up being simpler to pack everything into S n and prove (8), since the pentagonal num-
+ ber theorem follows almost immediately from this, while in E244 we have to show
+ (6) and then show (7).
+
+ Euler had written down this proof on p. 100 of his Fifth Notebook; his unpublished
+
+ proof of the pentagonal number theorem is on pp. 97-99 of his Fifth Notebook, and
+ we shall describe that proof in this section after we finish discussing E541. In this
+ proof he takes s = (1 - jc)(1 - x2)(' - jc3) ( 1 - Jt4) etc. and expands this product
+ as s = 1 - x - x2(l - Jt) - x3(l - x)(l - x1) - дс4(1 - x)(l - x2)(l - x3) - etc.
+ Euler works out the steps s = 1 - x - A, A = x2 - x5 - В, В = x1 - xn - C,
+ С = x 15 - x22 - D and D = x26 - x35 - E of the above proof, and then writes down
+
+ Ô Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:40:21 UTC
+All use subject to https://about.jstor.org/terms
+
+ the general step. However, his notation for the general case is unwieldy. Let
+
+ M = xm - x" - xn+p{' - xp) - x"+2p(l - xp)(' -xp+i)
+
+ -x"+lp(l - XP)( 1 - xp+lW - xp+2) - etc.
+
+ Euler puts M = xm - xn - N, and then finds that
+
+ д f = X"+P _ Д.И+3/Н-1 _ xn+4p+2^ I _ Д.Р+1)
+
+ 336 J. Bell
+
+ _ xp+l)(! _ xp+ 2) _ etc (9)
+
+ Using the notation Sp = Xb=i xPk+" '2~ ' (1 - xp) • • • (1 - xk+p~ '), with m =
+ (p - 1)(3 p - 2) /2 and n = p(3p - l)/2 we have M = Sp- ь N = Sp. Verifying
+ (9) corresponds to verifying (8). In Euler's published papers he makes clear how the
+ pattern works with the initial cases but he does not explicitly write down the general
+ case as he does here.
+
+ Then in the second part of the paper, "Alio investigatio eiusdem seriei" ["Another
+ investigation of the same series"], Euler gives a different proof of the pentagonal
+ number theorem. This proof is more complicated than the first. First,
+
+ s = '- ^*"(1 - •*) • • • (1 - я"-1)
+
+ = 1 - X - ^Jtw + ,(1 - x) • • • (1 - Xn),
+
+ 00
+
+ n= 1
+
+ oo
+
+ n= 1
+
+ oo
+
+ n='
+
+ s = ' - x - x2{' - x) - ^ jcw+2(1 - x) • • • (1 - xn+x).
+
+ and then
+
+ We take
+
+ so
+
+ Ô Springer
+
+ s = 1 - x - x2 + A,
+
+ A = x3 - ^V+2(l -*)•••(!- л:"+1).
+
+ 00
+
+ П = '
+
+ We expand out the factor 1 - jc in the series,
+
+ oo oo
+
+ n- 1 /1=1
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:40:21 UTC
+All use subject to https://about.jstor.org/terms
+
+ A = x3 - ^лг"+2(1 - л:2) • • • (1 - je"+i) + 2>"+3(l - x2) ■■■ (1 - л:"+|),
+
+ Euler's work on the pentagonal number theorem 337
+
+ and then,
+
+ where
+
+ Next,
+
+ 00
+
+ n= I
+
+ oo
+
+ n='
+
+ oo
+
+ n=l
+
+ oo
+
+ n= 1
+
+ A = x3 - jc3(1 - x2) - ^x"+3(l - X2) ■ ■ • (1 - x"+2)
+
+ + Хл:"+3(1 - x"+ì )
+
+ = X5 + ^[V"+5(l - X2) ■ ■ ■ (1 - xn+l)
+
+ oo
+
+ n= 1
+
+ oo
+
+ n= 1
+
+ = x5 + x7 - B,
+
+ = X5 + x7(l - X2) + ^*2"+7(l - x2) ■ ■ ■ (1 - x"+2)
+
+ В = x9 - ^x2"+7(¡ - x2) ■ ■ ■ (1 - x"+2).
+
+ oo
+
+ n='
+
+ oo
+
+ П - '
+
+ 00
+
+ n=l
+
+ oo
+
+ n= I
+
+ 00
+
+ П = 1
+
+ oo
+
+ n = 1
+
+ В =x9 - ^Vn+7(1 - л3) • • • (1 - xn+2)
+
+ + ^x2n+9(' -x3)---(l - xn+2)
+
+ = x9 - x9(l - x3) - ^ x2n+9{' - x3) ■ ■ ■ (1 - д:"+3)
+
+ + X*2n+9(1 ~ -*3) ' ' ■ (1 ~ x"+2)
+
+ = x'2 + ]Г*3п+12(1 - X3) ■ ■ ■ (1 - xn+2)
+
+ = JC12 + xl5(l - JC3) + ]Г*3"+15(1 - *3) * ' ' 0 - Xn+3)
+
+ = ^12+jc15_Cî
+
+ where
+
+ С = JC18 - JC3"+15(1 - JC3) . - (1 - хп+ъ).
+
+ Ö Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:40:21 UTC
+All use subject to https://about.jstor.org/terms
+
+ Euler continues this and shows С = x 22 + jc 26 - D and D = jc35 + x 40 - £.
+
+ Using the following definition of Sn, we have Л = S' , Z? = S2, С = S3, D = 54 and
+ £ = Ss . Let
+
+ 338 J. Bell
+
+ ЗЛГ(ЛЧ-1) , ЛГ(ЗЛЧ-1)
+
+ 5yv =JC-V^ ЗЛГ(ЛЧ-1) , ЛГ(ЗЛЧ-1) - *"+*).
+
+ 00
+
+ n=l
+
+ If we now substitute in the values that we've found of the letters
+
+ Euler writes23
+
+ А, В, C, D,
+
+ E, etc., the following series will result
+
+ 1-х - jcjc, +Jt5 + jc7, - x12 - jc15, + jc22 + jc26, -x35 - jc40, -hete.
+
+ The order of the exponents here is easily seen. For first, in the values ini-
+
+ tially given for the letters А, В , С, Z), £, etc., the initial single terms were
+
+ x 3, jc9, jc18, jc30, jc45, etc. The exponents of these terms are clearly thrice
+
+ the triangular numbers, and generally the exponent corresponding to the
+
+ number n will be 3nn£3n . These terms are preceded by two powers of jc
+ each less by the same difference n ' thus by subtracting the number n twice
+
+ from this formula, two powers in the desired series are produced whose
+ exponents are
+
+ Ъпп + n г Ъпп - п
+
+ -
+
+ 2 2
+
+ (N+l)(3N+2) (tf+l)(3tf+4)
+
+ SN =JC ъ -h JC i -SN+ 1 (10)
+
+ 23 "Inventis igitur his valoribus litterarum А, В, С , D , E, etc. si singuli successive substituantur, resultabit
+ ista series
+
+ 1 - x - XX, +JC5 + x1 , -x12 - jc15, +JC22 + jc26, -jc35 - jc40, + etc.
+
+ Hic autem ordo exponentium facilius perspicitur. Cum enim in valoribus litterarum А, В, С , D, £, etc.
+
+ primo constitutis primi termini simplices essent jc3, jc9, jc18, jc30, jc45, etc. exponentes manifesto sunt
+
+ numeri trigonales triplicad, unde generatim pro numero n erit ipse exponens 3n/l^~3w . Verum hi termini
+ sequuntur binas potestates ipsius * praecedentes per eandem differentiam n, unde numerum n ab hac
+
+ formula bis subtrahendo orientur binae potestates in seriem quaesitam ingredientes, quarum exponentes
+ consequenter erunt
+
+ Ъпп + n Ъпп - n .
+ 2 et 2 '
+
+ (Euler 1783b, §16), E541.
+
+ Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:40:21 UTC
+All use subject to https://about.jstor.org/terms
+
+ We now work out the induction explicitly. We shall show that
+
+ Euler's work on the pentagonal number theorem 339
+
+ for all N > 1.
+
+ Sn = - f>""+^(l - л») ■■■ (1 -
+
+ /1=1
+
+ H=l
+
+ + ^х„п+ШЩ±!1{1 _ xN+i) (1 _ x„+N)
+
+ шит 2 hí^±I)z1 2 N+ ^ к
+ = X 2 - X 2 (1 - JC N+ ^ к )
+
+ -*'V+I)---(1 -лгп+л,+1)
+
+ + 2>л'"+МгШ(1 - xw+1) ••• (1 - xn+N)
+
+ = + х(Л,+ 1)п + И±11^±2, (1 _ ^ + 1) (1 _ x„+N)
+
+ п='
+
+ = x(N+l)ÇN+2) +^íN±Ii™(i _^+1}
+
+ oo
+
+ П= 1
+
+ oo
+
+ n=i
+
+ OO
+
+ П = 1
+
+ OO
+
+ n=l
+
+ + X *(Л/+,)"+ <Л,+1)2ЗЛ,+4) ( 1 _*«+"+.)
+
+ (ЛГ+1)(ЗЛГ+2) (ЛГ+1)(3#+4)
+
+ = X 3 + л: 3 - SyV-f i •
+
+ N
+
+ n= 1
+
+ / «(3/1-1) n(3w+l) ' v i i
+
+ (-1)" / «(3/1-1) + n(3w+l) ' ) + (-lf+lSN v i i
+
+ for all N > 1, which yields the pentagonal number theorem.
+
+ Andrews (1983) proves the pentagonal number theorem as a particular case of a
+ more general result. Let f{x,q) = 1- yŽ^L'(l-xq)('-xq2) • • • (1 - xqn~l)xn+lqn .
+ The pentagonal number theorem is the power series expansion of / ( 1 , q ) = П^= i О ~
+ qn). One shows that /(j c, q) satisfies the functional equation f(x , ¿7) = 1 - x2q -
+ x3q2f(xq, q), and then that
+
+ f(x,q) = 1 + ^(-1)"(*3""У(3"_1)/2 +;rV(3n+l)/2)-
+
+ oo
+
+ « = 1
+
+ Taking X = 1 yields the pentagonal number theorem.
+
+ In his Fourth Notebook, p. 174, after noting that (2) is the generating function for
+
+ p(n ), Euler writes,
+
+ Ô Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:40:21 UTC
+All use subject to https://about.jstor.org/terms
+
+ Now, 5 = 1- je - jc2 + 5i, and one then shows using induction with (10) that
+
+ Also, this series emerges from the resolution of the fraction
+
+ (1 - JC)(1 -x2){' -jc3)(1 - JC4)
+
+ Now, using the fact that = A + -j 4^,
+
+ 1 - JC (1 -JC)(1 - JC2) ~
+
+ (1 - дг)(1 - x2){' - JC3)(1 - JC4)(1 - JC5)
+
+ 1-х2 (1 - *2)(1 - X3) (1 - JC2)(1 - JC3)(1 - JC4)
+
+ 340 J. Bell
+
+ 1 - 1 n - n2 + n5 + n1 - nxl - n15 + n22 + n 26 - я35 - n40 + n51
+
+ 1
+
+ all of whose exponents are contained in the form n 24
+
+ Euler gives another proof of the pentagonal number theorem on pp. 97-99 of his
+
+ Fifth Notebook. It is described by Kiselev and Matvievskaja (1965, §6). We will outline
+ Euler's notes, and then fully work out the proof. Let s = (1 - jc)(1 -x2)(l - jc3)( 1 -
+ jc4)(1 - jc5)(1 - jc6)(1 - X1) etc. Then
+
+ ^ JC JC3 JC6
+
+ I - X (I - JC)(1 - X2) (I - Jt)(l - JC2)(1 - X 3)
+
+ J
+
+ JC10
+
+ s = 1 - X - X
+
+ 3 3
+
+ 2 x x
+
+ , X*
+
+ (i-x)d-x2)
+
+ Then
+
+ s __ ] x *Ъ *6
+
+ 1 - x (1 - x)(l - x2) (1 - jc)(1 - x2)(l - JC3)
+
+ ^"(1
+
+ = 1 - p
+
+ JC15
+
+ p = X 4- JC2 - i
+
+ r5 r9 * v 14
+
+ 4- - - - - - - - - - - - - - - - CtC
+
+ (1 - x2)(' - *3)(1 - x4)(l - JC5)
+
+ JC20
+
+ = x + je2 - Q
+
+ 24 "Ceterum series haec emergit ex resolutione hujus fractionis
+
+ qui exponentes omnes continentur in forma n 2 (Euler's Fourth Notebook, p. 174).
+
+ Злс.*±лг
+
+ Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:40:21 UTC
+All use subject to https://about.jstor.org/terms
+
+ 1 - 'n - n? + + w? - fl!2 - «15 4- n22 _j_ n2b _ ^35 _ n40 _|_ n5'
+
+ (1 - jc4)(1 - л:5)(1 -x6)(l -X1)
+
+ = xX2+xX5-S
+
+ (1 - x5)(l - x6)(l - л:7) (1 - x5)(l - x6)(l - jc7)(1 - X8)
+
+ Then, "Generaliter si sit" ["In general if it is"]
+
+ ~ 1 -xn ~ (1 -xn)(' - xn+i) + (1 - JC")(1 - xn+l)(' -xn+2)
+
+ (1 - x")(l - JC"+I)(1 - x"+2)(l - x"+3)
+
+ Euler's work on the pentagonal number theorem 341
+
+ v 12 v 18 v25
+
+ r' 5 7
+ g=* r' + * - J _л3 + (1 _л3)(1 _x4) ~ (! _x3)(1 _л4)(1 _^5)
+
+ (1 -Jf3)(l õ - jc4)(1 ^ - JC5)(1 Č - л:6) z
+
+ H
+
+ = X5 +X1 - R
+
+ _l
+
+ JC33
+
+ Jt49
+
+ ff _ r'2 , „15 _
+
+ v22 X v30 „39
+
+ 1-х4 (1 - x4)(l - x5) (1 - x4)(l - x5)(l - X6)
+
+ S - X22 4- + JC26 - -
+
+ 4- + - - 1 -*5
+
+ v35 л v45
+
+ x56 д.68
+
+ 3 n^-n 3н2+3» 3/I^+7/I+2
+
+ X~^~ X 2 X 2
+
+ З/ï2 + 1 l/i+6
+
+ X
+
+ 3 н2- н 3 />2+/» X ? X %
+
+ 3н2+3н 3» ^ +3/1
+
+ Y - X 2 -j- X 2 -j-
+
+ 1-х" (1 -*")(! -*"+')
+
+ 3/1 2 +5/1+2
+
+ v 2
+
+ (l-.v")(l-.v"+1)
+
+ Then putting
+
+ 3 н2- /; 3/f 2 +//
+
+ У = jc"T- - Z,
+
+ 3H2+5/»+2
+
+ it will be Z = ^ я+i
+ thus arises from Y by putting n + 1 in place of n"].
+
+ then
+
+ Let
+
+ _ * (-1)"*^
+
+ SN _ П-' I (1 -x)---(l -хпУ
+
+ П-' I
+
+ â Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:40:21 UTC
+All use subject to https://about.jstor.org/terms
+
+ This proof is pretty complicated and it is worthwhile to work out all the details.
+
+ 1 - X (1 - Jt)(l - X2)
+
+ 342 J. Bell
+
+ and let
+
+ / m(3m-') ю(3/и+1) '
+
+ (-ír^-S-^+x- / m(3m-') ю(3/и+1) I-1) '
+
+ м- 1
+
+ m= 1
+
+ n-M
+
+ The plan of the proof is to show that Sqq = S2;oo, and that sm;<x> = sm+1;oo for all M .
+ Since Sqo = UT=' ~ x")> ^is will prove the pentagonal number theorem.
+
+ First,
+
+ 3
+ X XJ 3
+
+ Sl 1 - X (1 - jc)(1 - X2)
+
+ 3 3
+ 9 лг ЛГ
+
+ = 1 - X - X -
+
+ = 1 - X - X + -h
+
+ 2 л;5
+
+ + -h
+
+ y 5 y6
+
+ = l~X~X + 1 _x2 + (] _ХЦ1_Х2 y
+
+ Now assume that for some N
+
+ 2 Л (~ì)"x "-^+п
+
+ + (l-x)...('-x "У UU
+
+ Then
+
+ „+1 +f2 n=¿
+
+ n=¿
+
+ N (N+l)(N+ 2 2) N + 1 (N+l)(N+ 2)
+
+ ( - 1)/V N JC 2 ( (- 1)/V N + 1 1JC 2
+
+ + (1 - лг) - - - (1 -xN) + ( (1 (1 -д:^1)
+
+ (
+
+ + (1 -**+')
+
+ +g(,
+
+ n-L
+
+ â Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:40:21 UTC
+All use subject to https://about.jstor.org/terms
+
+ Euler's work on the pentagonal number theorem 343
+
+ (-1)^+1^ (N+U¡N+2)+N+Í xiN+i)¡N+2> +N+2
+
+ + (1 -;t2)---(l -xN+i) + (1 - JC) - - • (1
+
+ 2 , ™ (-1)"^+«
+
+ = 2 +g(l-, , 2).
+ (-1)/у+|л№+Т+3>
+
+ + (1 - JC) - - (1 - д:л'+1)'
+
+ Thus by induction (1 1) is true for all N. That is,
+
+ (_,)»,
+
+ W = + (I
+
+ for all N. Therefore, Soo = s2;oo-
+
+ We will now show that sm,oq = ¿м+1;оо f°r aN M.
+
+ м-'
+
+ (-l)mU - 2 - -i-je - 3 - )
+ Z (-l)mU - m (3 m 2 - - l) -i-je - mOm+i) 3 -
+ m= 1
+
+ (-1 )MxM(Mí+,)+(M-í)M
+
+ +
+
+ + -*")
+
+ n=M + l
+
+ M- 1
+
+ Z.„ (-l)m + J
+ Z.„ (-l)m / m(3m - i) + wi(3mi+1) ' J
+ m= 1
+
+ +(-1)млМтШ+(А,"|>м + (-1)W хт?т+(м~1)м+м
+
+ (_ 1 ) M X ИМ - 1 ) M +2M
+
+ + -
+
+ +_ Z, о
+
+ M
+
+ Z... (-l)m (х-Т- / w(3m-l) + *" /и(Зж Г~ + 1)' j
+ Z... (-l)m (х-Т- / w(3m-l) + *" /и(Зж Г~ + 1)' j
+ m- 1
+
+ (_ J ) M X HM - 1 ) M +2M
+ + - ¿5#
+
+ + о o-*")'
+
+ и=Л/+1
+
+ Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:40:21 UTC
+All use subject to https://about.jstor.org/terms
+
+ N i_n"v2iiTü+(«-l)n
+
+ x''M+i)¡M+2) +(М-')(М+')
+ + (1 -хм)(' -XM + i)
+
+ 344 J. Bell
+
+ So for N = M + 1 we have
+
+ M
+
+ M
+
+ M
+
+ Z.„ (-1Г / /м(3/н - 1) + ш(Зш+1)' )
+ Z.„ (-1Г / /м(3/н - 1) + ш(Зш+1)' )
+ m- 1
+
+ (_ 1 )МХ M(^+1> +(М- i)M+2M
+
+ + + -
+
+ + + -
+
+ Z„. (-l)m (je /
+
+ Z„. (-l)m (je /
+ m= 1
+
+ (-1 )M+' ХЩМ1~Х) +(M-')M+2M+M+'
+
+ + (1 - д:л/)(1 -хм+х)
+
+ Z.„ (-l)m / m ( 3/н - 1 ) +л- m(3m r^j + ') '
+ Z.„ (-l)m / m ( 3/н - 1 ) +л- m(3m r^j + ') '
+ m= 1
+
+ (_1)М+1;с*/(Д2+'>+(А/-1)М+2М+Л/+1
+
+ + !-*"+■
+
+ (_ 1 ) M+' x napil +(M- ')M+2M+M + 1 +M
+
+ + (1 -XM){' -XM+i) '
+
+ Now assume that for some N> M + 1 ,
+
+ ж - < / »i(3/h-1) w(3wi+l) '
+
+ = 1 + Х(_1) ж - < (Л_Г_ / »i(3/h-1) +Х~7~~ w(3wi+l) ) '
+
+ M
+
+ т= 1
+
+ д, (ЛЩИЛЧ2)+(Д/_|)(Л, + 1)
+
+ 4-1 и *
+ (1 -хм)--('
+
+ But
+
+ Springer
+
+ (_l)WJC(Ar+'^(Ar+2)+(M-l)(Af+l) (_})^+1л:<Л'+1>г(Л'+2> +(M-l)(N+l)
+
+ (1 -Xм)- - xN) + (1 -xM) -(l -xN+i)
+
+ (-l)Af + lA.(7V+l)2'W+2)+(Af-l)(N + l)+/V+l
+
+ = (1 -Xм) - - О - XN + i)
+
+ (_l)Af + lA;(W'l"l)jA'+2>+(A/-l)(Ař+l)+/ť+l
+
+ = (1 -л:м+|)--(1 -л:л,+|)
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:40:21 UTC
+All use subject to https://about.jstor.org/terms
+
+ Euler's work on the pentagonal number theorem 345
+
+ (_])/V+1a:W+')2W+2)+(M - l)(W+l)+jV+l+M
+
+ + (1 - Xм) • • • (1 -**+•)
+
+ (_1)^+1a-(A,+I)ž"V+2) +M(N+ 1) (_^N+i x{N+2)¡N+3) +(M-i)(N+2)
+
+ = (1 -л:м+1)---(1 - jc'v+i) + (1 -xM)---(l -xN+i)
+
+ Hence
+
+ Z (-l)m (je /
+
+ (-l)m (je /
+
+ m - '
+
+ " (-1 Гх'^М"
+
+ + п=м Ti, 4-1 d -*Ař+l)---(l -Xя)
+
+ п=м 4-1
+
+ M
+
+ M
+
+ (-1)'" [x~T~ wi(3w - 1) +x^z-) /»(3/» + l)
+ Z (-1)'" [x~T~ / wi(3w - 1) +x^z-) /»(3/» + l) '
+ m= 1
+
+ + ,k» (1 -,«+■)■-•(! -л:")
+
+ (_l)^+lJC(iV+y+3)+(M-l)(^+2)
+
+ + (1 - Xм) • • • (1 -XN + X)
+
+ (_])AfA:(A,+')2iV+2)+(^-l)(Af+l) (_iyN+lx{N+í)lN+2)+(M-l)(N+l)
+
+ + (1 - xM) • • • (1 - xN) + (1 ~xn+x)
+
+ Thus, (12) is true for all N. Therefore sm;oo = $л/+1;оо for all M, thus completing
+
+ the proof.
+
+ In §6, we indicate two other proofs of the pentagonal number theorem, one using
+
+ theta functions and one using modular forms.
+
+ 4 The Sum of Divisors Function
+
+ Two problems involving the sum of divisors function cr(n) Euler was interested in are
+
+ perfect numbers, which are numbers n such that cr(n) = 2 n, and amicable numbers,
+ which are pairs of numbers m and n such that o(m) - m = n and cr(n) - n = m.
+ Fermat looks at a lot of questions about the function n cr(n) - n, the sum of the
+
+ proper divisors of n (see Weil 1984, Chap. II, §IV). The history of perfect numbers
+ and amicable numbers and in particular Euler's results on them is given by Dickson
+ (1919a, Chap. I).
+
+ On p. 445 of his Fourth Notebook, Euler writes that, "Series 1 - n - n2 + n5 +
+ n1 - nxl - n 15 + etc. = (1 - n)( 1 - n2)( 1 - n 3) etc. hanc habet proprietatem, ut,
+ posita series = 5 sit - = n + 3n2 + 4n3 + In 4 + 6 n5 + etc. cujus seriei quilibet
+
+ â Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:40:21 UTC
+All use subject to https://about.jstor.org/terms
+
+ coefficiens continet summam divisorům exponentis. Ergo erit
+
+ 346 J. Bell
+
+ i *^2 ^ 3 ^4 ^5 6 ^7
+
+ -Is i = n + -/Í + -/r 3 + -n -h -rť + -n 6 + -n1 + etc.
+
+ 2 3 4 5 6 7
+
+ ["The series 1 - n - n2 + n5 + и7 - nxl - n15 + etc. = (1 - n){ 1 - n2)(l - л3) etc.
+ has the property that, with the series put = s, it follows that - = n + 3 n2 + 4 n3 +
+
+ In 4 + 6n5 H- etc., of which each coefficient is the sum of the divisors of the exponent.
+ Thus it will be
+
+ -/s = /1 + -и i + -и3 3 + - n 4 4 + -n5 + - n6 6 + -n1 7 H- etc."]
+
+ 3 i 4 3 7 4 4 6c 12 6 8 7
+ 2 3 4 5 6 7
+
+ However, Euler does not state his recurrence relation for sums of divisors here.
+
+ Euler first discussed his recurrence relation for the divisor function in a letter to
+
+ Goldbach on March 21/April 1, 1747 (Juškevič and Winter 1965, Brief 1 13). He says
+ "Letztens habe ich eine sehr wunderbare Ordnung in den Zahlen, welche die sum-
+ irías divisorům der numerorum naturalium darstellen, entdecket, welche mir um so
+
+ viel merkwürdiger vorkam, da hierin eine große Verknüpfung mit der Ordnung der
+ numerorum primorum zu stecken scheint. Dahero bitte Ew. Hochwohlgeb., diesen
+ Einfall einiger Aufmerksamkeit zu würdigen." ["I have recently discovered a won-
+ derful pattern among those numbers which represent the sums of the divisors of the
+ natural numbers. This seemed all the more remarkable to me, since there seems to be
+
+ here a great connection with the sequence of prime numbers. I request Your Honour
+
+ to give some attention to this idea."] Euler defines the symbol fn as the sum of all the
+ divisors of the number n and works it out for n = 1 to 16, and then writes
+
+ Taking this meaning for the symbol /, I have thus found that
+
+ fn = f(n - 1) + f(n - 2) - f(n - 5) - f(n - 7) + f(n - 12) + f(n - 15)
+
+ -f (n - 22) - f(n - 26) + etc.
+
+ where 2 signs + and - constantly follow each other.25
+
+ Euler says that the recurrence stops at negative numbers, and that n needs to be written
+ in place of f(n - n).
+
+ Euler shows that this rule holds for n = 1 to 12, and then says
+
+ The reason for this pattern is so much the less obvious, that one does not see
+ in what way the numbers 1,2,5,7,12,15, etc. would be related with the nature
+
+ of divisors. Neither can I boast that I have a rigorous demonstration of it. Even
+
+ 25 "Diese Bedeutung des Zeichens J vorausgesetzt, so habe ich gefunden, daß
+
+ Jn = f(n - 1) + f(n - 2) - f(n - 5) - f(n - 7) + f(n - 12) + f(n - 15)
+
+ -f ( n - 22) - f(n - 26) + etc.
+
+ wo immer 2 Zeichen + und - aufeinander folgen/' (Juškevič and Winter 1965, Brief 1 13).
+
+ â Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:40:21 UTC
+All use subject to https://about.jstor.org/terms
+
+ = m + T^2 + тзтз + г^4 + 7375 + rr^ + etc-
+
+ When all the fractions on the right hand side are transformed into geometric series
+
+ Euler's work on the pentagonal number theorem 347
+
+ though I had none, one could still not doubt about the truth, since until over 300
+ this rule always holds. In the meanwhile, I have nevertheless properly derived
+
+ this theorem from the following theorem.26
+
+ Assuming the pentagonal number theorem, Euler gives the following derivation
+ of his recurrence relation for f ( n ). Let s = (1 - x)(l - x2)(l - x3) etc., and so
+ s = Ì - X - X2 + X5 + etc. Thus,
+
+ Therefore,
+
+ they become
+
+ and thus
+
+ ds dx 2xdx 3 x2dx 4x3dx 5x4dx
+
+ s 1-х 1-х2 1 - JC3 1 - JC4 1-х5
+
+ and on the other hand
+
+ ds -dx - 2xdx + 5jc4djc 4- 7jc6djc - 1 2jc 1 1 djc - 15jc14djc 4- etc.
+
+ 5 1 - je - je2 -I- JC5 -hJc7 - л:12 - л:15 -f- etc.
+
+ 1 + 2x - 5jc4 - lx6 + 12* 11 + 15jc14 - etc.
+
+ I - X - X2 + л;5 H- X1 - X12 - X15 -f etc.
+
+ I 2x 3x2 4x3 5x4 6x5
+
+ 1 +JC +Jt2 +Jt3 +*4 -I-je5 +*6 +JC7 +Jt8 +*9 +x10 +xu +*12 +etc.
+
+ +2x H-2jc3 +2jc5 +2jc7 +2x9 +2xu
+ +3x2 +3x5 +3jc8 +3jch
+ +4jc3 +4x 7 +4x 1 1
+
+ +5jt4 +5*9
+
+ +6* 5 +6* 11
+
+ +7jc6
+
+ H-8jc7 +9jc8 + 10jc9 +1 Ijc10 + 12jch +13jc12 + etc.
+
+ 1 + f 2x + f Зх2 + f4x3 + f5x4 H- f6x5 + f7x6 + fSx7 + f9x8 +etc.
+
+ _ ^ + 2jc - 5x4 - lx6 + 12jc 1 1 + 15jc14 - 22xlx - 26jc25 + 35jc34 + etc.
+
+ I - X - X2 + X5 + X1 -xx2 - X15 + л:22 + X26 - X 35 - etc.
+
+ 26 "Der Grund dieser Ordnung fällt um so viel weniger in die Augen, da man nicht sieht, was die Zahlen
+ 1, 2, 5, 7, 12, 15, etc. für eine Verwandtschaft mit der natura divisorům haben. Ich kann mich auch nicht
+ rühmen, daß ich davon eine demonstrationem rigorosam hätte. Wann ich aber auch gar keine hätte, so
+ würde man an der Wahrheit doch nicht zweifeln können, weil bis über 300 diese Regel immer eingetroffen.
+
+ Inzwischen habe ich doch dieses theorema aus folgendem Satz richtig hergeleitet." (Juškevič and Winter
+
+ 1965, Brief 113).
+
+ ö Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:40:21 UTC
+All use subject to https://about.jstor.org/terms
+
+ "woraus das gegebene theorema leicht fließt. Man sieht aber zugleich, daß dasselbe
+ nicht so obvium ist, und daß zweifelsohne darin noch schöne Sachen verborgen liegen
+ müssen." ["from which the given theorem follows easily. But at the same time one
+
+ sees that this is still not so obvious, and that without doubt many beautiful things must
+ still lie hidden in it."]
+
+ Let us write this out using summation and product notation. First,
+
+ 2><i-*") OO = iog( Xi-n-^Y
+ /1=1 'л=-оо /
+
+ 348 J. Bell
+
+ oo oo
+
+ n=' n=-o О
+
+ Then taking the logarithm of both sides,
+
+ OO /00 '
+
+ Now taking the derivative of both sides,
+
+ y- -I*"1
+
+ Hence,
+
+ Therefore,
+
+ 00 oo voo /
+ уу-м"-1/ = voo /
+ п= U=0 ж- Z„=-oo(-l)^ .no X 2
+
+ ж- .no X я(Зя-1)
+
+ 00 00 voo , n„ I} nOn-i)
+ YY-nxk" = voo , n„ I} .
+ n- I к- I ¿Ln=-o o^ ( 1 'n ) ^
+
+ ^ ( 1 'n Л ^
+
+ The left-hand side is equal to
+
+ 00
+
+ 7 = 1
+
+ We remark that Jacob I Bernoulli in "Attollere Infinitinomium ad potestatem inde-
+
+ finitam", in his Varia Posthuma (Cramer 1744, Art. I, pp. 993-998), takes two equal
+ expressions
+
+ (oo n=0 'm / /7=0 oo
+
+ n=0 / /7=0
+
+ =^ь»х"
+
+ ^ Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:40:21 UTC
+All use subject to https://about.jstor.org/terms
+
+ Euler's work on the pentagonal number theorem 349
+
+ takes the logarithm, differentiates and then cross multiplies to express each bn in
+ terms of bo, . . . ,bn-' and яо> . . . , an. Ferraro (2008, Chap. 10) explains the
+ development of the idea of recurrent series.
+
+ The first paper in which Euler gives his recurrence relation for the divisor function
+
+ is his "Découverte d'une loi tout extraordinaire des nombres, par rapport à la somme
+
+ de leurs diviseurs", presented to the Berlin Academy on June 22, 1747, and published
+ in the Bibliothèque impartiale in 1751 (Euler 1751a), E175 (cf. Winter 1957, Nr. 45
+ and Knobloch 1984, 1, Nr. 5, III, Nr. 84). He begins by saying that it seems that the
+
+ order of the prime numbers is a mystery the human spirit will never penetrate. Then,
+
+ I too believe myself quite far from this end, but I have discovered a very strange
+
+ law on the sums of the divisors of the natural numbers, which, at first sight, seem
+
+ as irregular as the progression of the prime numbers, and which appear even to
+
+ envelop the latter. This law, which I shall explain, is in my opinion all the more
+
+ important because it belongs to a type whose truth we can be assured of even if
+ we cannot give a perfect demonstration of it. Nevertheless I shall present such
+ evidence for this that one may consider it as almost equivalent to a rigorous
+ demonstration.27
+
+ Euler states fn for n = 1 to 100, and then states his recurrence relation for fn in
+
+ the following way28:
+
+ I remark nevertheless that this progression follows a well-defined law, and can
+ even be counted among the class of progressions which Geometers call recur-
+ rent, such that one can always form each term from some of the terms preceding
+
+ it, according to a constant rule. For if fn denotes any term of this irregular pro-
+
+ gression, and f(n - 1), f (n - 2), f (n - 3),f (n-4),f (n - 5), etc. the preceding
+ terms, I say that the value of fn is always composed of some of the preceding
+
+ 27 "Je me crois aussi bien éloigné de ce but, mais je viens de découvrir une loi fort bizarre parmi les sommes
+
+ des diviseurs des nombres naturels, qui, au premier coup d'oeil, paraissent aussi irrégulieres que la progres-
+
+ sion des nombres premiers, et qui semblent même enveloper celle-ci. Cette régie, queje vai expliquer, est à
+ mon avis d'autant plus importante qu'elle appartient à ce genre dont nous pouvons nous assurer de la vérité,
+ sans en donner une démonstration parfaite. Néanmoins, j'en apporterai de telles preuves, qu'on pourra
+ presque les envisager comme équivalentes à une démonstration rigoureuse." (Euler 1751a, §1), E 175.
+
+ 28 "Néanmoins, j'ai remarqué que cette progression suit une loi bien réglée et qu'elle est même comprise
+ dans l'ordre des progressions que les Geometres nomment recurrentes, de sorte qu'on peut toujours former
+ chacun de ces termes par quelques-uns des précédens, suivant une régie constante. Car si fn marque un
+ terme quelconque de cette irréguliere progression, et f(n-l), fin - 2), fin - 3), fin - 4), fin - 5), etc.
+ des termes précédens, je dis que la valeur de fn est toujours composée de quelques-uns des précédens
+ suivant cette formule:
+
+ fn = fin - 1) + f(n-2)-f(n-5)-f(n-7) + f(n - 12) + fin - 15)
+
+ -fin -22) -fin -26) -h fin -35) + fin -40)- f in - 5Ì) - fin - 57)
+
+ +fin - 70) + fin- 77) - fin -92) - fin - 100) + etc."
+
+ (Euler 1751a, §5), E 175.
+
+ â Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:40:21 UTC
+All use subject to https://about.jstor.org/terms
+
+ 350 J. Bell
+
+ terms according to this formula:
+
+ fn = f(n - 1) + J(n - 2) - f(n - 5) - f(n - 7) + f(n - 12) + f(n - 15)
+
+ -f (n - 22) - f(n - 26) + f(n - 35) -b f (n - 40) - f(n - 51)
+ -f (n - 57) -h f(n- 70) + f(n-77)-f(n- 92) - f(n - 100) + etc.
+
+ He then states the general rule for the recurrence relation, that the plus and minus
+
+ signs switch back and forth in pairs, and that the differences 1 , 3, 2, 5, 3, 7, 4, 9, 5, etc.
+
+ of the numbers subtracted from n are alternately from the sequence of all natural num-
+
+ bers and the sequence of the odd numbers, and that f(n - n) must be replaced by n.
+ He verifies the recurrence for n = 1 to 20, and also n = 101 and n = 301.
+
+ Euler explains that he found this recurrence relation for sums of divisors in his
+
+ research on the pentagonal number theorem, which he is still not able to prove:
+
+ I admit that I did not fall upon this discovery purely by chance; rather, another
+
+ proposition of the same nature, which must be judged to be true even though
+ I am not able to give a demonstration of it, opened the way for me to find this
+
+ pretty property.29
+
+ Namely, if
+
+ (1 - x)(l - *2)(1 - *3)(1 - *4)(1 - *5)(1 - JC6)(1 - Jt7)(l - л:8) etc.
+
+ = 1 - X - X2 + *5 +X1 - X12 - X15 + X22 + X26 - X 35 - X40 + etc.,
+
+ then the recurrence relation for sums of divisors follows by taking the logarithmic
+ derivative of both sides. Euler says,
+
+ Having thus discovered that these two infinite expressions are equal, although
+ the equality cannot be demonstrated, all the conclusions which one can deduce
+
+ from this equality will be of the same nature, that is to say true without being
+ demonstrated.30
+
+ Pólya (1954, Chap. VI) looks at Euler's use of "inductive reasoning" to justify
+ the recurrence relation he found for cr(n). Pólya translates and gives commentary on
+ E175.
+
+ Euler explains his ideas about induction, e.g. in his 1 736 paper "Theorematum quor-
+
+ undam ad números primos spectantium demonstratio", E54, his 1748 paper "Dem-
+ onstration sur le nombre des points, où deux lignes des ordres quelconques peuvent
+ se couper", E148, and his 1753 paper "Specimen de usu observationum in Mathesi
+ pura", E256. In the "Summarium" (editorial summary) of E256, Euler writes,
+
+ 29 "J'avoue aussi que ce n'a pas été par un pur hazard queje suis tombé sur cette découverte; mais une autre
+
+ proposition d'une pareille nature qui doit être jugée vraie, quoique je n'en puisse donner une démonstration,
+ m'a ouvert la chemin de parvenir à cette belle propriété." (Euler 1751a, §8), El 75.
+
+ 30 "Ayant donc découvert que ces deux expressions infinies sont égales, quoique l'égalité ne puisse être
+ démontrée, toutes les conclusions qu'on pourra déduire de cette égalité seront de même nature, c'est-à-dire
+ vraies sans être démontrées." (Euler 1751a, §10), El 75.
+
+ ô Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:40:21 UTC
+All use subject to https://about.jstor.org/terms
+
+ Euler's work on the pentagonal number theorem 35 1
+
+ It is clear from this that in the science of numbers, which is still quite imperfect,
+
+ much can be expected from observations, indeed from which new properties of
+
+ numbers are constantly recognized, but a great deal of effort would need to be
+
+ expended subsequently in proving these new properties.31
+
+ In his published papers on the pentagonal number theorem, Euler does not work
+ out the general case explicitly, but he makes it clear how to do it from the starting
+
+ cases, i.e. the difference between not having found a proof and having found a proof
+
+ is that when he found a proof, he finally understood exactly how to do the induction
+
+ step, while before it was just observation. We saw in §3 that in his unpublished notes
+
+ he works out the induction explicitly.
+
+ Georg Wolfgang Krafft (1701-1754) writes to Euler on July 7, 1747 (Juškevič and
+ Winter 1976, Brief Nr. 169) and says that Euler's recurrence relation for sums of divi-
+
+ sors very much impressed him. Krafft says that previously he had considered 1 to be a
+
+ prime number, but that this article has changed his opinion, since it follows from it that
+ cr(l) = 1 instead of <r(l) = 2. Krafft had discussed the sums of divisors of numbers
+
+ in previous letters to Euler, and also in papers in volume 7 of the Commentarii and
+ volume 3 of the Novi Commentarii. Krafft was a physicist who had been a colleague
+
+ of Euler's at the St. Petersburg Academy (Fellmann 1995, Kapitel И, p. 36). Krafft had
+
+ been in St. Petersburg from 1728 to 1744, and then was a professor of mathematics
+
+ and natural philosophy at the University of Tübingen.
+
+ Euler next writes to d'Alembert about the pentagonal number theorem in a letter
+ on February 15, 1748 (Juškevič and Taton 1980, Euler-ď Alembert, Lettre No. 13).
+ Euler writes:
+
+ With regard to the series l-x-x2 +x5+x1 etc. = (1- x)(l- x2){'- *3)(1- x4)
+ which I have spoken about with you, I have found from it a very singular property
+
+ of numbers, concerning the sum of the divisors of each number. With f n indi-
+
+ cating the sum of all the divisors of the number n, such that /1 = 1; /2 = 3;
+ /3 = 4; /4 = 7; /5 = 6; /6 = 12; /7 = 8 etc., it seems at first nearly
+ impossible that one could discover any pattern in the series of these numbers
+ 1, 3, 4, 7, 6, 12, 8, [15, ] 13, 18, etc., but I have found that each term depends on
+
+ several of the preceding, according to this formula:
+
+ fn = f(n - 1) + f(n - 2) - f(n - 5) - f(n - 7) + f(n - 12) + f(n - 15)
+
+ - / (n - 22) - etc.
+
+ where it is remarked Io that the numbers
+
+ 1, 2, 5, 7, 12, 15, 22, 26, 35, 40, etc.
+
+ 132537495
+
+ Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:40:21 UTC
+All use subject to https://about.jstor.org/terms
+
+ are formed easily by considering the differences alternately.
+
+ ^ "Ex quo perspicuum est in scientia numerorum, quae etiam nunc maxime est imperfecta, plurimum ab
+ observationibus esse expectandum, quippe quibus ad novas proprietates numerorum continuo deducimur,
+ in quarum demonstratione deinceps sit elaborandum." (from the "Summarium" of E256).
+
+ 2° In each case one takes only those terms where the numbers after the / sign
+ are not negative.
+
+ 3° If one comes to the term /0 or f(n - n ), one takes for its value the number
+ n itself.
+
+ 352 J. Bell
+
+ Thus, you can see that
+
+ /4 = /3 -f /2 = 7;
+
+ /9 = /8 + /7 - /4 - /2 = 15 + 8 - 7 - 3 = 13;
+
+ /15 = /14 + /13 - /10 - /8 + /3 + /0 = 24 + 14 - 18 - 15 + 4 + 15 = 24;
+
+ /35 = /34 + /33 - /30 - /28 + /23 + /20 - /13 - /9 + /0
+
+ = 54 + 48 - 72 - 56 + 24 + 42 - 14 - 13 + 35 = 48.
+
+ Next, every time that n is a prime number one will find that Jn = n + 1 and
+ hence, since the nature of the prime numbers enters into this consideration, this
+ law seems to me all the more remarkable.32
+
+ D'Alembert replies to Euler in a letter on March 30, 1748 (Juškevič and Taton 1980,
+
+ Euler-d' Alembert, Lettre No. 14), saying, "Il ne me reste de place que pour vous dire
+
+ que votre Theoreme sur les suites me paroit tres beau" ["I only have enough space left
+ to say to you that your Theorem on series seems very beautiful to me"]. D'Alembert
+
+ 32 "A l'égard de la suite 1 - * - jc2 + *5 + *7 etc. = (1 - ;t)(l - jc2)( 1 - *3)(1 - jc4) etc. dont
+ je vous ai parlé, j'en ai tiré une propriété fort singulière des nombres par rapport à la somme des div-
+ iseurs de chaque nombre. Que f n marque la somme de tous les diviseurs du nombre n de sorte que
+ /1 = 1; / 2 = 3; / 3 = 4; /4 = 7; /5 = 6; / 6=12; /7 = 8 etc. il paroit d'abord presque impossible de
+ découvrir aucune loi dans la suite de ces nombres 1,3,4, 7,6, 12, 8, [15, ] 13, 18, etc. mais j'ai trouvé que
+ chaque terme depend de quelques uns des precedents selon cette formule:
+
+ Jn = /(« - 1) + /(« - 2) - ¡{n - 5) - J(n - 7) + /(n - 12) + /(и - 15) - /(л - 22) - etc.
+
+ où il est à remarquer Io que les nombres
+
+ 1, 2, 5, 7, 12, 15, 22, 26, 35, 40, etc.
+
+ 132537495
+
+ = 54 + 48-72-56 + 24 + 42-14- 13 + 35 = 48.
+
+ Donc toutes les fois que n est un nombre premier on trouvera que Jn = n + 1 et partant puisque la nature des
+ nombres premiers entre dans cette consideration cette loi me paroit d'autant plus remarquable." (Juškevič
+ and Taton 1980, Euler-d' Alembert, Lettre No. 13).
+
+ â Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:40:21 UTC
+All use subject to https://about.jstor.org/terms
+
+ se forment aisement par les differences considérées alternativement.
+
+ 2° Dans chaque cas on ne prend que les termes, où les nombres après le signe / ne sont point négatifs.
+ 3° S'il arrive ce terme /0 ou f (n - n), on prendra pour la valeur le nombre n même.
+ Ainsi vous verres que
+
+ /4 = /3 + /2 = 7;
+ /9 = /8 + /7-/4-/2 = 15 + 8 - 7 - 3= 13;
+
+ /15 = /14 + /13 -/10-/8 + /3 + /0 = 24+ 14- 18- 15 + 4+ 15 = 24;
+
+ /35 = /34 + /33 - /30 - /28 + /23 + /20 - /13 - /9 + /0
+
+ Euler's work on the pentagonal number theorem 353
+
+ also tells Euler in this letter that his health is now very good, and that he soon hopes
+ to send some memoirs to the Berlin Academy.
+
+ On March 7/18, 1752, Euler sends his paper "Observado de summis divisorům"
+ (Euler 1760b), E243, to Schumacher (Juškevič and Winter 1961, Brief 185). It was
+
+ presented to the St. Petersburg Academy on April 6, 1752 (Nevskaja 2000, p. 396)
+ and published in 1760 in the Novi Commentarli', the paper had been presented to the
+
+ Berlin Academy on September 9, 1 75 1 (Knobloch 1 984, 1, Nr. 29; cf. Winter 1 957, Nr.
+
+ 226, Anm. 1). Euler remarks that it is unexpected that the sums of divisors of numbers
+
+ would have a connection with the pentagonal numbers, writing "Interim tamen non
+ fortuito et quasi divinando ad cognitionem huius veritatis perveni; cui enim in men-
+
+ tem venire potuisset ordinem, qui forte in summis divisorům locum habuerit, ex natura
+
+ serierum recurrentium ac numerorum pentagonalium per solam coniecturam elicere
+
+ velie?" ["But in the meantime, I have come to knowledge of this truth not by chance
+
+ and, as it were, by divination; for to whom could it have occurred to wish to elicit
+
+ the order that might exist in the sum of divisors from the nature of recurrent series
+
+ and pentagonal numbers by guesswork alone?"] In this article Euler again derives his
+
+ recurrence relation for f n using the pentagonal number theorem:
+
+ I was led to this observation by consideration of this infinite formula
+
+ s = (1 - Jt)(l - JC2)(1 - x3)(l - x4)(l - лг5)( 1 - *6)(1 - Jt7)(l - X8) etc.,
+
+ whose value, if it is expanded by actual multiplication of all the factors and
+
+ arranged according to powers of x, I have found to be converted into the follow-
+
+ ing series
+
+ - etc.,
+
+ s = 1 - X - X2 -h X5 + X1 - X12 - xì5 + X22 -h X26 - л;35 - x 40 + x5i -h x51
+
+ where in the exponents of x the same numbers occurs which I described above,
+
+ namely the pentagonal numbers, both themselves and continued backwards.33
+
+ This article was reviewed on May 1761 Nova acta eruditorum (p. 218), which
+
+ reviewed volume 5 of the Novi Commentarti,
+
+ The illustrious author thus considered in this article the sum of all the divisors of
+
+ any number, not to the ends that others typically pursue, for the investigation of
+
+ 33 "Deductus autem sum ad hanc observationem per considerationem istius formulae infinitae
+
+ S = ( 1 - jc) ( 1 - jc2)(1 - x3)(l - JC4)( 1 - x5)(' - JC6)(1 - *7)(1 - jc8) etc.,
+
+ cuius valorem, si multiplicatione singulorum factorum actu instituía evolvatur ac secundum potestates ipsius
+
+ jc disponatur, deprehendi in sequentem seriem converti
+
+ ^ = 1 - JC - jc2 + JC5 + x1 - jc12 - JC15 +JC22 +JC26 - л:35 -л40 + ^51 4- x51 - etc.,
+
+ ubi in exponentibus ipsius jc iidem numeri occurrunt, quos supra descripsi, numeri scilicet pentagonales
+ cum ipsi tum retro continuati." (Euler 1760b), E243.
+
+ Ö Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:40:21 UTC
+All use subject to https://about.jstor.org/terms
+
+ perfect or amicable numbers and other questions of this kind, but to consider the
+
+ order and the law by which the sums of the divisors for all numbers proceed. This
+
+ should indeed be considered as most deeply hidden, since for prime numbers the
+
+ sum of divisors exceeds them by one, but for composites it is the greater the more
+
+ prime factors that comprise them. Therefore since the rule of the progression
+
+ of the prime numbers is still considered among the mathematical mysteries, in
+
+ which not even Fermat was permitted to penetrate, could anyone fail to gather
+
+ from this the difficulty of the problem? In solving this, the Illustrious Euler was
+
+ so fortunate that he not only uncovered the law but also proved it in his third
+ paper.34
+
+ 354 J. Bell
+
+ The third paper in the mathematics section of volume 5 of the Novi Commentarti is
+ Euler's "Demonstratio theorematis circa ordinem in summis divisorům observatum",
+ E244.
+
+ Euler's paper "Demonstratio theorematis circa ordinem in summis divisorům
+ observatum" (1760a) was published in the same volume of this journal (cf. Juškevič
+
+ and Winter 1961, Brief 189). In this article he gives an inductive proof of the pentag-
+ onal number theorem, which we discussed in §3. Then in Proposition 4, or "Theor-
+ ema principale demonstrandum" ["The principal theorem to be demonstrated"] Euler
+
+ gives a rigorous proof of his recurrence relation for fn. As we remarked previously,
+ Euler had earlier derived the recurrence relation from the pentagonal number theorem,
+
+ which he hadn't been able to prove. Now he again derives it, and says "sicque habetur
+
+ plena ac perfecta demonstratio theorematis propositi, quae, cum praeter tractationem
+
+ serierum infinitarum, per logarithmos et differentialia procedat, minus quidem natu-
+
+ ralis, sed ob hoc ipsum multo magis notabilis est aestimanda." ["and thus a complete
+
+ and perfect demonstration of the proposed theorem is obtained, which, since it goes
+ beyond the treatment of infinite series and proceeds by logarithms and differentials,
+
+ is indeed not entirely natural, but because of this it should be thought all the more
+ notable."]
+
+ Goldbach writes a letter to Euler on May 9, 1752 (Juškevič and Winter 1965, Brief
+
+ 157; cf. Juškevič and Winter 1961, Brief 185), in which he says
+
+ Your Honour's paper on the sums of divisors, which you sent to our Academy
+ of Science, has been communicated to me by Prof. Grischow. I do not now
+
+ think myself capable of judging its quality, but your well known insight in these
+ matters permits me no doubts about the correctness of what is contained in
+
+ the above-mentioned paper; in particular I saw with pleasure that Your Honour
+ noticed such a beautiful pattern in the numbers 1, 2, 5, 7, 12, 15, 22, etc. But it
+
+ 34 "Auctor igitur illustris in hac dissertatione summam omnium divisorům cuiuscunque numeri contem-
+ platur, non eo Consilio, ut alias in investigatione numerorum perfectorum vel amicabilium, aliarumque
+ huiusmodi quaestionum fieri solet, sed ut ordinem et legem, qua istae summae divisorům singulis numeris
+ convenientes progrediuntur, exploret. [Q]uae profecto maxime abscondita videri debet, cum pro numeris
+ primis summa divisorům ipsos unitate superet, pro compositis vero eo magis, quo plures factores primos
+ in se complectuntur. Quoniam igitur ratio progressionis numerorum primorum inter mystéria mathemati-
+ ca adhuc refertur, in quae ne Fermatio quidem penetrare licuit, ecquis inde difficultatem problematis non
+ colligat? Illustri Eulero in eo solvendo ita felici esse licuit, ut non solum illam legem detegeret, sed IHtia
+ dissertatione etiam demonstrarei." May 1761 Nova acta eruditorum (p. 218).
+
+ Ô Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:40:21 UTC
+All use subject to https://about.jstor.org/terms
+
+ Euler's work on the pentagonal number theorem 355
+
+ occurred to me and I believe completely, that there are series such that the law
+
+ of the progression, be it ever so short and simple in itself, nevertheless is not
+ to be grasped, even from more than 100 consecutive terms of the series, as for
+ example: Let the series be
+
+ whose progression is such that given any term A corresponding to the index я,
+
+ let A ± у/ (2 • 3n - 2 A2) = the next following term В , taking the sign + or -
+ so that В will not be divisible by 3. This series has a sister series
+
+ (1) (2) (3) (4) (5) (6) (7)
+ a... 1, 1, 5, 7, 1,23, 43, etc.
+
+ (1) (2) (3) (4) (5) (6) (7)
+ ß... 1, 2, 1, 4, 11, 10, 13, etc.
+
+ made such that twice the square of the term whose exponent is n in the series
+
+ ß , added to the square of the term whose exponent is the same n in the series a,
+
+ would give 3", whence it is immediately apparent that the law of the progression
+ of this series ß is A ± '/3n - 2 A2 = В , taking + or - so that В will not be
+ divisible by 3.35
+
+ Augustin Nathanael Grischow (1726-1760) was the conference secretary of the
+ St. Petersburg Academy from 1751 to 1754. In the previous letters in their correspon-
+ dence Euler and Goldbach were talking about Fermaťs polygonal number theorem.
+
+ Edward Waring (1736-1798) mentions Euler's recurrence relation for o(n) in the
+ preface of the 1762 edition of his Miscellanea analytica de aequationibus algebraicis
+ et curvarum proprietatibus.
+
+ 35 "Eurer Hochedelgebornen Dissertation de summis divisorům, welche Sie an die hiesige Akad. der Wiss.
+ übersandt haben, ist mir von dem Prof. Grischow kommunizieret worden. Ich befinde mich jetzo nicht
+
+ imstande, davon pro dignitate zu urteilen, allein Dero bekannte Einsicht in dergleichen Sachen lässet mich
+ an der Richtigkeit alles dessen, was in bemeldter Dissertation enthalten ist, nicht zweifeln; insonderheit
+ habe ich mit Vergnügen gesehen, daß in den numeris 1, 2, 5, 7, 12, 15, 22, etc. eine so schöne Ordnung
+ von Ew. Hochedelgeb. bemerket worden und glaube gänzlich, daß es series gibt, aus deren mehr als 100
+ terminis consequentibus die lex progressionis, ob sie gleich an sich selbst kurz und leicht ist, dennoch nicht
+ zu ersehen sein wird, als zum Exempel: Sit series
+
+ cuius progressio haec est, ut dato termino quocunque A et exponente termini л, fiat Л ± У (2 • Зп - 2A2) =
+ termino proxime sequenti В sumendo signum + vel - ita ut В non fiat divisibilis per 3, ex quo sequitur
+ seriem habere sororem
+
+ (1) (2) (3) (4) (5) (6) (7)
+ a... 1, 1, 5, 7, 1, 23, 43, etc.
+
+ (1) (2) (3) (4) (5) (6) (7)
+ ß... 1, 2, 1, 4, И, 10, 13, etc.
+
+ ita comparatam ut duplum quadrati termini cuius exponens est n in serie ß additum ad quadratum ter-
+ mini cuius exponens est idem n in serie a det 3rt unde simul apparet legem progressionis seriei ß esse
+
+ A ± у/Ъп - 2 Л2 = В , sumendo + vel -, ita ut В non fiat divisibilis per 3." (Juškevič and Winter 1965,
+ Brief 157).
+
+ Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:40:21 UTC
+All use subject to https://about.jstor.org/terms
+
+ Johann Heinrich Lambert (1728-1777) in his 1771 Anlage zur Architectonic ,
+
+ 356 J. Bell
+
+ volume II, Chap. XXXI, §875, pp. 506-511 deals with the series an(i
+
+ Zoo /1 = 1 1-х" nx"
+ /1 = 1 1-х" •
+ Other recurrence relations and results for the sum of divisors function are given by
+
+ Dickson (1919a, Chap. X).
+
+ 5 The Partition Function
+
+ The partition function is defined to be the number of ways of expressing n as a sum
+ of positive integers less than or equal to m, disregarding order. In particular p(n) =
+ „(00) If j-joo |(1 _ x„y = anx", then since П,^1 тг^г = Z^Lo />(")•*">
+
+ p(n)ao + p(n - ')a' H
+
+ for all n > 1. As we saw in §3, Euler first explicitly notes this in his 1741 "Obser-
+ vationes analyticae variae de combinationibus" (Euler 1751b, §37), E158. We also
+ saw that he explains how the recurrence relation for p(n) follows from the pentag-
+ onal number theorem in his November 10, 1742 letter to Nicolaus I Bernoulli. He
+
+ also states the recurrence in his Introductio in analysin infinitorum (Euler 1 748, Caput
+ XVI, §324).
+
+ The next time the recurrence for p{n) occurs in Euler's work is in the paper "De par-
+
+ titione numerorum", presented to the St. Petersburg Academy on January 26, 1750
+ (Nevskaja 2000, p. 369) (sent to Schumacher on December 18/29, 1749 (Juškevič
+ and Winter 1961, Brief 108)) and published in the Novi Commentarii in 1753 (Euler
+
+ 1753b), E191. In E158 and the Introductio , Euler had only briefly mentioned the
+ recurrence relation for p(n) and he probably wanted to give some detailed examples
+ now. In §§37-39, he looks at recurrence relations for n(oo). Then in §40, he states the
+
+ pentagonal number theorem, and that (1 - дг)(1 - x2)(' - x 3) etc. is the reciprocal of
+ the generating function for n(oo). In §41, he observes that this provides a recurrence
+ relation for n^°°'
+
+ This form therefore provides for us a scale of relation of the sought series, by
+ which it is certain that
+
+ n(00) = (л - 1)(00) + (И - 2)(oo) - (и - 5)<oo) - (Л - 7)(00) + (n - 12)(00)
+
+ +(л - 15)(00) - (и - 22)(00) - (л - 26)(oc) + (л - 35)(oo)
+
+ +(л - 40)(oo) - (л - 51)(oo) -{n- 57)(oo) + etc.
+
+ That this law of progression holds will be evident to anybody testing it. For let
+ n = 30, and it will be found that
+
+ 30(°°) = 29(oo) + 28(oo) - 25(oo) - 23(oo) + 18(oo) + 15(oo) - 8(oo) - 4(oo)-
+
+ ^ Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:40:21 UTC
+All use subject to https://about.jstor.org/terms
+
+ Euler's work on the pentagonal number theorem 357
+
+ taking these numbers from the table it is
+
+ 5604 = 4565 + 3718 - 1958 - 1255 + 385 4- 176 - 22 - 5.
+
+ And the series can thus be continued in this way as far as please.36
+
+ This article is reviewed in the June 1759 Nova acta eruditorum (pp. 316-317).
+ As we remarked in §1, as a formal identity the pentagonal number theorem is
+
+ equivalent to
+
+ Pein) , , - Po(n) , , = .
+
+ Pein) , , - Po(n) , , = '(-0Л if n = j(3j - l)/2,
+
+ 0, otherwise, .
+
+ where pe(n) is the number of ways to write nasa sum of distinct positive even integers
+
+ and Po(n) is the number of ways to write nasa sum of distinct positive odd integers.
+ On p. 97 of his Fifth Notebook, around 1750-1751 (Kiselev and Matvievskaja 1965,
+ §6), Euler puts
+
+ (1 - *)(1 - x2)(l - JC3)(1 - *4)(1 - x5) etc.
+
+ = 1 - (1)лг - (2)x2 - (3)jc3 - (4)x4 - (5)лг5 - ( 6)x 6 - (l)x1 - etc.
+
+ where (и) denotes the coefficient of x" in this power series. He says "et hujus seriei
+ coefficientes ex natura formae ita determinabuntur" ["and the coefficients of this series
+
+ will be thus determined from the nature of the form"], and works out (n) for n = 2 to
+
+ n = 22 in the following way:
+
+ (2) = 1
+
+ (3) = 1 - 1
+
+ (4) = 1 - 1
+
+ (5) = 1 - 2
+
+ (6) = 1 - 2 + 1
+
+ "Haec igitur forma nobis suppeditat scalam relationis seriei quaesitae, qua constat fore
+
+ „«*» = (n - I)«*» + (n - 2)(oo) - (n - 5)(oc> - (n - 7)(oo) + (и - 12)(0°> + (n - 15)(oc)
+
+ -(n - 22)(oo) - (и - 26)(oo) + (n - 35)(oc) + (n - 40)<oo) - (n - 51)(oo) - (n - 57)(oo)
+
+ + etc.
+
+ Hanc autem legem progressionis locum habere tentanti facile patebit. Sit enim n = 30; reperietur fore
+
+ 30(°°) = 29^°°) + 28(oo) - 25(oc) - 23(oo) + 18(oc) + 15(oc) - 8(oc) - 4(oo);
+
+ est enim his numeris ex tabula desumtis
+
+ 5604 = 4565 + 3718 - 1958 - 1255 + 385 + 176 - 22 - 5.
+
+ Atque hoc modo ista series, quousque libuerit, continuari potest." (Euler 1753b, §41), El 9 1 .
+
+ â Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:40:21 UTC
+All use subject to https://about.jstor.org/terms
+
+ 358 J. Bell
+
+ (7) = 1 - 3 + 1
+
+ (8) = 1 - 3 + 2
+
+ (9) = 1 - 4 + 3
+
+ (10) = 1- 4 + 4-1
+
+ (11) = 1-5 + 5-1
+
+ (12) = 1- 5 + 7-2
+
+ (13) = 1- 6 + 8-3
+
+ (14) = 1- 6 + 10-5
+
+ (15) = 1- 7 + 12-6+1
+
+ (16) = 1- 7 + 14-9+1
+
+ (17) = 1-8+16-11+2
+
+ (18) = 1- 8 + 19-15 + 3
+
+ (19) = 1- 9 + 21-18 + 5
+
+ (20) = 1- 9 + 24-23 + 7
+
+ (21) = 1 - 10 + 27-27 + 10-1
+
+ (22) = 1 - 10 + 30-34+ 13-1
+
+ This expresses ( n ) as the number of ways to write n as a sum of one positive inte-
+
+ ger, minus the number of ways to write и as a sum of two distinct positive integers,
+
+ plus the number of ways to write и as a sum of three distinct positive integers, minus
+
+ the number of ways to write и as a sum of four distinct positive integers, etc. For
+ instance, 7 = 7, 6+1,5 + 2, 4 + 3,3 + 2 + 1, hence (7) = 1 - 3 + 1 = - 1 ; while
+ 8 = 8, 7 + 1,6 + 2, 5 + 3, 5 + 2+ 1,4 + 3 + 1, hence (8) = 1 - 3 + 2 = 0. This is
+ the same as saying that ( n ) = p0(n) - pe(n).
+
+ Other recurrence relations and results for the partition function are given by Dickson
+
+ (1919b, Chap. III).
+
+ to determine p(n) for n < 200.
+
+ recurrence relation
+
+ Hardy and Ramanujan (1918, Table IV) uses Euler's recurrence relation for p(n)
+
+ Let R(N ) be the number of steps to compute p(n) for n = 1 , . . . , N using Euler's
+
+ p(n) = p(n - 1) + p(n - 2) - p(n - 5) - p(n - 7) H
+
+ n- 1
+
+ Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:40:21 UTC
+All use subject to https://about.jstor.org/terms
+
+ for p(n). There are approximately 2 terms on the right hand side of (13). Thus to
+
+ compute p(n) for n = I, N, there are approximately
+
+ steps, which is upper bounded by 2yj' • Ms/I!. Hence, R(N) = 0(N 3/2).
+
+ ft(v, T) = Y[('-q2n) ■ По +q1"-X¿"iv) ■ Y'(l+12"-le-2*iv). (15)
+
+ Proofs for these properties of #3 are given by Chandrasekharan (1985, Chap. V).
+
+ Using the product expansion (15) for #3, we find that
+
+ Euler' s work on the pentagonal number theorem 359
+
+ 6 Analytic Functions
+
+ The Jacobi theta functions 0j, #2» #з, 0 are functions of two complex variables that
+
+ are used to define elliptic functions, and which also have interesting applications to
+
+ number theory. An excellent introduction is Chandrasekharan (1985, Chap. V). In the
+
+ following we outline two proofs of the pentagonal number thereom using the Jacobi
+
+ theta functions; the latter also involves the theory of modular forms.
+
+ It will be convenient to use 6y, however, like the trigonometric functions
+ sin, cos, tan, etc., each of the theta functions can be used to define the others. #3
+
+ is defined by
+
+ fc(v,T)= X 4n2e2nniv, (14)
+
+ 00
+
+ n=-oo
+
+ where q = eniT г > 0 and v is any complex number. For a fixed r, we can show
+ that % converges absolutely and uniformly on compact sets, and hence for fixed г, O3
+ is an entire function of v. We can also show that O3 has the product expansion
+
+ 00 00 00
+
+ n= 1 n= 1 n= 1
+
+ 2 + '^) = X[V-e2*in^
+
+ (1 2 + '^) ' = 00
+
+ П = 1
+
+ But by the definition of #3,
+
+ I + £,32»= V 2 егшп'+2пт('+Ь) = ^ (-')"enJ^r11-2niz,
+ (1 I + £,32»= V ' 2 00 егшп'+2пт('+Ь) = n ^ 00 -
+
+ ' л =-00 n - - 00
+
+ which gives the pentagonal number theorem, namely with x = e2jTlz.
+
+ Carl Gustav Jacob Jacobi (1 804-1851) proved many identities involving series and
+
+ products. Chandrasekharan (1985, Chap. V) gives notes on this. Jacobi says in a letter
+ (Stäckel and Ahrens 1908, Brief 10) that "Die Eulersche Formel ist ein spezieller
+ Fall einer Formel, welche wohl das wichtigste und fruchtbarste ist, was ich in reiner
+ Mathematik erfunden habe" ["The Eulerian formula is a special case of a formula that
+
+ is the most important and most fruitful I have found in pure mathematics"], namely
+
+ the product expansion ( 1 5) for 63 .
+
+ The Dedekind eta function is defined by r¡{z) = enizlxl • n^=i(^ ~ e2ninz ), for
+
+ > 0. It is holomorphic in the upper half plane > 0. One can show that the
+
+ <0 Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:40:21 UTC
+All use subject to https://about.jstor.org/terms
+
+ Dedekind eta function satisfies the functional equation r] (-7) = yff • *](z) for
+
+ > 0. Clearly rj(z -f 1) = eni^2r](z).
+ We will now outline a proof due to Carl Ludwig Siegel (1896-1981) of the pentag-
+
+ onal number theorem using the Dedekind eta function; this proof is given in detail by
+
+ Chandrasekharan (1985, Chap. VIII). This proof uses the definition of O3 by (14) and
+
+ does not assume the product expansion (15) for 63. Let g(z ) = е7ТП^12вз (j + §, 3 z)
+
+ for > 0. We can show that g (-7) = yff * g(z )• It is clear that g(z + 1) =
+ eni/i2g(z).
+
+ 360 J. Bell
+
+ Now define K(z) = for > 0. Then K(z + 1) = K(z) and K(-') =
+ К (z) for %z > 0. Since the full modular group SL2 W is generated by the transforma-
+
+ tions z + it follows that for all ^ ^ € S¿2(Z), = K(z),
+ for > 0. Also, r] and g are holomorphic in the half plane > 0, and r] has no
+ zeros in > 0; hence, К is holomorphic in %z > 0. This means that К is a modular
+ form of weight 0 for S¿2(Z); therefore, К (z) is constant on > 0, and must be zero
+
+ because K(z) -> 0 as -> +00. Therefore, r¡{z) = елп^2 • #з(^ H- §, 3 z), which
+ yields the pentagonal number theorem.
+
+ Chandrasekharan gives historical references for the Jacobi theta functions (1985,
+ Chaps. V and VIII) and the Dedekind eta function (1985, Chap. VIII). Indeed, the
+ pentagonal number theorem is precisely the Fourier expansion of the Dedekind eta
+ function.
+
+ The 24th power of rj is a constant multiple of the modular discriminant , A(z) =
+ (2n)X2e2niz n^LiO - e2ninz)24, %z > 0. A is a cusp form of weight 12forS¿2(Z).
+ The Fourier coefficients of modular forms have interesting number theoretic proper-
+ ties. For example, the Ramanujan tau function is defined as the Fourier coefficients of
+
+ A. The pentagonal number theorem tells us the Fourier coefficients of rç. Rademacher
+ (1940) talks about the Fourier coefficients of modular forms.
+
+ Assuming Euler's pentagonal number theorem, we can prove the functional equa-
+ tion r](- '/z) - л/ - i z • rf(z) of the eta function using twisted Poisson summation
+
+ (Bump 1998, Chap. 1, Eq. 1.10). Twisted Poisson summation is a way of expressing
+ a series J^L-oo X(n)f(n) in terms of Y,T=-oo X(n)f(n/N); here, x is a primitive
+
+ Dirichlet character modulo N and / is the Fourier transform of /. Now,
+
+ 1, n = ± 1 (mod 12),
+
+ X(n) = -1, n = ±5 (mod 12),
+
+ 0, otherwise.
+
+ is a primitive Dirichlet character modulo 12. For q = e2niz , rj(z ) is equal to
+
+ 00 00 «
+ J_ X - * 3 n¿+n x: - < „ (6fl+lr
+ 4 J_ Z X - * 3 n¿+n = Z x: - < <-!)"* „ -я- (6fl+lr
+
+ П - - 00 n=-oo
+
+ Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:40:21 UTC
+All use subject to https://about.jstor.org/terms
+
+ Euler's work on the pentagonal number theorem 36 1
+
+ °° „2
+
+ n= I
+
+ We then apply twisted Poisson summation to this series. This is worked out by Bump
+ (1998, Chap. l,pp. 29-30).
+
+ One can define automorphic forms for Г = SLifä) (or indeed a discrete subgroup
+ Г of SL2W) for any real weight k using "multiplier systems" (see Iwaniec 1997,
+ Chap. 2). This is to take care of branches of the logarithm. The Dedekind eta function
+
+ is an automorphic form of weight к = 1/2 for SL2® and a certain multiplier system,
+ which is explained by Iwaniec (1997, §2.8).
+
+ We remarked in §1 that Euler thought the most natural way to prove that every
+
+ nonnegative integer is the sum of four squares is by showing that for
+
+ an> 0 for all n. Chandrasekharan (1985, Chap. X) gives a proof due to Jacobi using
+ theta functions that
+
+ (00 I>"2)
+ (00 n= I>"2) 0 ' / 4 #1= 00
+ n= 0 / #1= 0
+
+ Z <7*2) =2><и>9Я'
+ (00 к=-о Z о <7*2) ' / 4 n= 00
+ к=-о о / n= 0
+
+ where r(n) = 8^¿|h 4 'd^ for л > 1 and r(0) = 1, which implies a fortiori that
+ every nonnegative integer is the sum of four squares, since no integer has 4 as its only
+
+ divisor. Chandrasekharan gives historical references for Jacobi's work on this.
+
+ It will be helpful to clarify the relation between formal power series and analytic
+
+ functions. This will let us understand why showing that the product Yl^Li 0 - xn) is
+
+ equal formally to ^с^=_00(-1)пхп^п~1^2 suffices to show that they are equal as ana-
+ lytic functions on the unit disk D. Let fn be a sequence of functions analytic on an open
+
+ set U . If fn converges uniformly to / on every compact subset of U, then / is analytic
+ on U (see Titchmarsh 1939, §2.81, iv). Furthermore, the product ПО + un{z)) con-
+
+ verges uniformly in any compact set where the series 'un(z) ' converges uniformly
+ (Titchmarsh 1939, §1.44). Now, let un(z) = -zn . The series I z Iя converges uni-
+ formly in any compact subset of |z| < 1 ; hence, the product Пя^=1 0 - zn) converges
+ uniformly in any compact subset of 'z I < 1. Since, fn(z) = (1 - z)(l - z2) • • • (1 - zn)
+ is analytic in 'z' < 1 for each fixed n, f(z) = rKiiO - zn) is analytic on 'z' < 1.
+ Then it follows from Taylor's theorem (Titchmarsh 1939, §2.43) that for some an ,
+ П^=1(1 - zn) = anZn for all |z| < 1. Two functions that are analytic in
+ |z| < R are equal in 'z' < R if and only if all the coefficients in their power series are
+ equal (Titchmarsh 1939, §2.5).
+
+ Let F be the set of all formal power series with complex coefficients. There are
+
+ two natural topologies for F . The first is the product topology on C°° where each С
+
+ has the discrete topology, and the other is the product topology on C°° where each С
+ has the usual topology, which we will denote by 0' (F) and 02(F) respectively.
+
+ â Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:40:21 UTC
+All use subject to https://about.jstor.org/terms
+
+ 362 J. Bell
+
+ In 0' ( F ), a sequence fn = Хь=о ^ converges to / = Xjb=o ^ f°r eac^ **хе(*
+
+ к , a¿n) = for all sufficiently large n. The idea is that for any given N , after some
+ point the terms with superscripts <N do not change in the sequence. In O2 (F), a
+ sequence fn = Xju=o я*"* converges to / = ^ ^ f°r eac^ **хес* ak^ h
+ as n -> 00. Also, Oi (F) is finer than 02(F), i.e., 0' (F) ç 02(F). So if /„ -> / in
+ Oi(F) then fn -> / in 02(F).
+
+ On the other hand, the set H (D) of functions that are analytic on the open unit disk
+
+ can be given the topology of uniform convergence on compact sets, where a sequence
+
+ fn converges to / if for every compact subset К of D, fn converges uniformly to /
+ on К (Cartan 1995, Chap. V, §1). Now, the map H(D) -► H(D) that sends / to its
+ kih derivative / ^ is continuous. Since {0} is a compact subset of £>, for each fixed к
+
+ the constant coefficient of f^ approaches the constant coefficient of / ^ as n -* 00.
+ Thus, the map Го: H(D) -» (F, 02(F)) that sends a function analytic in D to its
+ (formal) Taylor series is continuous; this is because Го preserves the convergence of
+ sequences and H(D) is a metric space (Cartan 1995, Chap. V, Proposition 3.1).
+
+ Let fn: D -> D be defined by m rEi=iO - zm ) and gn: D -> D be defined by
+
+ z h» ')tnzmOfn-')/2 These ^ sequences in H(D) that converge in H(D)
+ to some functions /, g. Now, the sequence of formal power series To(fn) converges in
+ Oi (F) to P = rimLi (1 ~~ anc* s®4uence °f formal power series To(g„) con-
+ verges in Oi(F) to Q = Zm=-oo(-1)m^m(3w"1)/2' Then since Oi(F) is finer than
+ 02(F), To(fn) converges in 02(F) to P and To(gn) converges in 02(F) to Q. Now,
+ P - Q, But since Го: H {D) (F, 02(F)) is continuous, Го(/„) -* Го(/) and
+ To(gn) To(g) in 02(F). Indeed 02(F) is Hausdorff, so it follows that Го(/) = P
+ and To(g) = Q; hence, To(f) = To(g). Therefore, f = g as analytic functions on D.
+
+ To find recurrence relations and identities for the partition function it suffices to use
+
+ formal power series. But if we treat the infinite product JXiiO - ť1) as an analytic
+ function in the unit disk then there are tools from complex analysis that we can use to
+
+ get more information about the coefficients of
+
+ 1 00
+
+ F(z)=m ^0^=2>)Л
+
+ Treating the product as an analytic function lets us use information about the function
+
+ as a whole, instead of just looking at each of the coefficients separately. Using the
+ residue theorem we get
+
+ p(n ) = J F(z)z~n~xáz
+
+ kl =r
+
+ for any 0 < 'r' < 1. In fact one can find an exact formula for p(n) as a certain series.
+ This is worked out by Rademacher (1973, Chap. 14).
+
+ Ferraro (2008, Chaps. 17-19) gives some more information on ideas about formal
+
+ and analytic power series in the eighteenth century.
+
+ Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:40:21 UTC
+All use subject to https://about.jstor.org/terms
+
+ Euler's work on the pentagonal number theorem 363
+
+ We saw in §3 that Euler in his 1749 paper "Considerado quarumdam serierum
+
+ quae singularibus proprietatibus sunt praeditae" (Euler 1753a), E 190, evaluates series
+
+ related to the infinite product (1 - x) (l - |) (■ - í) о - *) о - etc. for
+ a = 10 and particular values of x. In §§28-32 of that paper, Euler is interested in
+ approximating the value of c^- *ast secti°n of Euler's "Methodus gen-
+ eralis summandi progressiones" (Euler 1 738, §2 1 ), E25, presented to the St. Petersburg
+ Academy on June 20, 1732 (Nevskaja 2000, p. 1 16). Let d(n) denote the number of
+ positive divisors of n , for example d( 1) = 1, d(6) = 4 and d(l) = 2. In §32 of E190,
+ Euler remarks that = E 190 is discussed in detail by Koelink
+ and Van Assche (2009) and Gautschi (2008).
+
+ Let f(x,m) = 1+¿¿=i(- ')k(xk(3k~l)/2 + хШМ)/2^ andg(jc, m) = ПГ=1^ -
+ хк). For any 'х' < 1, /(; с, оо) = g(x , оо). For a given |jc| < 1 and number r of deci-
+
+ mal places, we would like to know how many terms N we need to take so that the first r
+ decimal places of /(jc, Л0 or g(x, N) agree with /(jc, oo) = g(jt , oo), in other words
+ so that |/(jc, N) - f(x , oo)| < 10~r or |g(;c, N) - g(x, oo)| < 10~r, respectively.
+
+ For instance, / (^, oo) = g (¡, oo) = 0.2887880950 /(¡,5) = 0.2887880
+
+ 950 . . . and g (5, 5) = 0.2980041503
+ partial product, we have to take m = 35.
+
+ Here is another example. /(5,0 o) = g (5, 00) = 0.7603327958 ...,/(5,3) =
+
+ 0.7603327958 . . . and g (j, 3) = 0.761856. To get this many digits of accuracy with
+ the partial product we have to take m = 15.
+
+ Foran alternating series ^^(-l)"^ with decreasing terms, | l)nan' <
+ ayv. For real 0 < x < 1, /(jc, 00) is an alternating series with decreasing terms, which
+
+ gives us an upper bound for the number of terms of the partial sum we need to take
+
+ to obtain a given number of accurate digits. Now, let us work out an upper bound for
+
+ how many terms in the product we need to multiply to get a given number of accurate
+
+ digits.
+
+ OO OO OO пь
+
+ ю.по-*"> = zzv
+
+ n=N n=N k= 1
+
+ oo oo
+
+ n=N к= 1
+
+ _ ~
+
+ Now, Hence
+
+ 00 .,Nlc 1 00
+
+ у - - r < - - -
+ ¿Í у - i-w'-i-wéí - r < - - -
+
+ i*i* 1
+ 1 -1*1 ' 1 -'X'N~
+
+ Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:40:21 UTC
+All use subject to https://about.jstor.org/terms
+
+ 364 J. Bell
+
+ Then if 0 < X < 1 ,
+
+ П(1-^)-П(1--")= П(1 -*")( 1 - П(1 -*и)р 1
+ п= 1 п=' п= 1 V n=N /
+
+ 00 / rN 1 '
+ П (!-*")> exp
+
+ n=N
+
+ Thus
+
+ N- 1 oo N- 1 / oo '
+
+ "Ц-ГГГГГтО'
+
+ Probably Euler would have been interested in evaluating the product f(x) =
+ 0 - xn) for particular x, 'x' < 1, but it is not simple to find any x aside from
+
+ X = 0 which give a nice result. Thus, Euler mostly used (1 - jt)(l - x2)(l - jc3) etc.
+ as a formal power series.
+
+ We can get a neat closed expression for rj(i ) using some elliptic function theory. The
+ results about elliptic and modular functions that we use are given by Markushevich
+ (1967, Chap. 5, §§21-24) and Bump (1998, §1.3).
+
+ Let Л be the lattice generated by a and ai and p(z) = p(z; A) the Weierst-
+ rass p function for the lattice. Here, a is a positive real number that we will choose
+ appropriately to get a closed expression for rj(i).
+
+ The Weierstrass function p (z) satisfies the following differential equation
+
+ p'2(z) = 4 p3(z) - g2P(z) - 83,
+
+ where g2 = gi (A) and g 3 = #з(Л) are defined by
+
+ g 2 = 60 + nai)~ 4, gi = 140 ^( ma + nai)~ 6,
+
+ with summation over all (m, n) Ф (0, 0).
+ It is helpful to define the functions
+
+ Gikiz ) = + nz)~2k
+
+ with summation over all (m, n) ф (0, 0); these are called Eisenstein series, and are
+ modular forms for SL2CI) of weight 2k. Then £2(Л) = ™Ga(í) and g3(A) =
+
+ Let S = e SL,2(Z), which sends z to - '/z. Since, Ge is a modular
+
+ G6(i ).
+
+ form of weight 6,
+
+ Ö Springer
+
+ Ge(Si) = i6G6(i).
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:40:21 UTC
+All use subject to https://about.jstor.org/terms
+
+ Euler's work on the pentagonal number theorem 365
+
+ But Si = i, so Gb(i) = 0.
+
+ The modular discriminant is defined by Д = (6OG4)3 - 27(140Сб)2. One can
+ show that rç24 = (27t)_12A. Since, Ge(i) = 0, A(/) = (6OG4O'))3. Therefore to find
+
+ r/(i) it suffices to find G 4(1).
+
+ It follows from the Fourier series expansion of G 4 (z) that G4O) is a positive real
+ number. Therefore we can choose some (positive real) a to make g2 = 4. Then since
+
+ 4
+
+ G4O') = to find G4O) it suffices to get an expression for a. To do this, we will
+ evaluate a certain integral in two different ways. In the first evaluation we will do the
+ substitution X = p(z).
+
+ Since g2 = 4, p ( z ) satisfies the differential equation
+
+ p'2(z ) = 4(р3(г) -р(г)).
+
+ One can show that p'iz) = 0 for z = a/2, ( a + ai) /2, ai/ 2. Then p(a/2), p((a +
+ ш)/2), p (ai /2) are the three roots of 0 = 4(x3 - x). We know that the three roots of
+
+ this equation are 0, 1 , - 1 .
+
+ Now, one can show that p is one-to-one in the closed rectangle with vertices
+ 0,ö/2, ( a + ai)!2,aij2. Also, p is real on the four lines x = 0, x = a/2, y =
+ 0, y = a/2. Since p(z) = z~2 + o(') at z = 0, it follows that as z moves along
+ the rectangle from 0 to a/2 to ( a + ai) /2 to ai /2 to 0, p (z) goes from +00 to -00.
+ Therefore, p(a/2) = 1, p((a + ai)/ 2) = 0, piai/ 2) = -1.
+
+ Let yf be the branch of the square root such that y/r > 0 for positive real r.
+
+ _ r p (z)dz
+
+ J '/p3(z) - p(z)
+
+ 00
+ Í dx
+
+ 7 = ./
+ 1
+
+ a/2
+
+ a/ 2
+
+ = 2/dz
+
+ 0
+
+ = a.
+
+ J
+
+ 1
+
+ 1 f d t
+
+ ~ 2 J
+ 0
+
+ But on the other hand,
+
+ Ö Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:40:21 UTC
+All use subject to https://about.jstor.org/terms
+
+ = Х-В{ 1/4, 1/2)
+
+ _ 1 Г(1/4)Г(1/2)
+
+ 366 J. Bell
+
+ where В(х, у) = J0' tx~ 1 ( 1 - ř)v~'dí is the beta function, fix, ¡Ну > 0. The beta
+ function can be expressed using the gamma function as
+
+ 2 Г (3/4)
+
+ _ Г(1/4)2
+ 2<Дх '
+
+ D/ ч Г(х)Г(у)
+ в(х> D/ У ч ) = "FTTT"
+
+ "FTTT" Г(* + у)
+
+ Therefore, а = ^0-, and so G4(í) = ^g2 = ^¡^т- But (^('))24 = (2л-)"12
+
+ Д(0 and Д (/) = (60G4(ï))3, and putting this together gives i](i) = ^Ifi =
+
+ 0.7682254223
+
+ we thus took the positive real 24th root of (2тг)~12 A(i).
+
+ The Chowla-Selberg formula gives similar evaluations of r)(a) when Z[a] is the
+
+ ring of integers of an imaginary quadratic field with class number one (see Weil 1976,
+ Chap. IX, Eq. 7).
+
+ The sum of reciprocals of the triangular numbers is 2, and the sum of reciprocals of
+
+ the squares is It is natural to ask what the sum of the reciprocals of the pentagonal
+ numbers is.
+
+ Let 'lr(z) = -Щ) anc* let С be Euler's constant,
+
+ 2
+
+ р/
+
+ С = lim (y'' -lognV
+
+ Taking the logarithmic derivative of the Weierstrass product for Г (г), namely the
+
+ logarithmic derivative of Г(г) = JXii 0 + f )"' ez,n, we obtain
+
+ 00
+
+ Ý(z + l) = -C + Y, n(z , 1 + rt) 4, (16)
+
+ n(z , + rt)
+
+ П - 1
+
+ Then letting pr(n) be the «th r-gonal number, pr(n) = ^ n((r - 2 )n - (r - 4)), and
+
+ taking z = - při for r > 5, it follows that
+
+ It turns out that ф (I) = - С + | log(3). Thus the sum of the reciprocals of the
+
+ pentagonal numbers (namely r = 5) is 3 log(3> - -д, which is = 1.482037501 . . ..
+
+ â Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:40:21 UTC
+All use subject to https://about.jstor.org/terms
+
+ Euler's work on the pentagonal number theorem 367
+
+ In particular (16) implies the result of Pietro Mengoli (1625-1686) in his 1650
+
+ Novae quadraturae arithmeticae that
+
+ °o л л 1
+
+ Zn  k(n + к) 1 2 n
+
+ for positive integral п. This is because for positive integral n, ' ¡r(n) = Ì ~ C-
+ In §§17-18 of his 1775 paper "Evolutio producti infiniti (1 - jc)(l - jcjc)(1 - jc3)(1 -
+
+ X 4) etc. in seriem simplicem" (Euler 1783b), E541, Euler remarks that because of the
+ pentagonal number theorem, the series s = 1 - x - x2 +x5 +X1 - xX2 - jc 15 + x22 +
+ X26 - x35 - etc. will have the factors 1 - jc, 1 - jc2, 1 - jc3, 1 - jc4, 1 - x5, etc., and
+
+ thus that every root of unity will be a zero with infinite multiplicity.
+
+ The last paper in which Euler discusses the pentagonal number theorem and its
+ applications is his "De mirabilibus proprietatibus numerorum pentagonalium", pre-
+ sented to the St. Petersburg Academy on September 4, 1775 (Nevskaja 2000, p. 628)
+ and published in the Acta in 1783 (Euler 1783a), E542. In §2, Euler notes that every
+ pentagonal number is one-third of a triangular number (those numbers in the form
+
+ n^2 ), and in §4 he gives his recurrence relation for the divisor function. Then in §7,
+ Euler states the pentagonal number theorem, remarking that "Haec igitur non minus
+ admirationem nostram meretur quam proprietas ante commemorata, cum nulla certe
+
+ appareat ratio, unde ullus nexus intelligi possit inter evolutionem illius producti et no-
+
+ stras numeras pentagonales" ["This therefore deserves our admiration no less than the
+
+ property mentioned above, since there is certainly no obvious reason why there should
+
+ be any connection that could be understood between the expansion of this product and
+
+ our pentagonal numbers"].
+
+ In the rest of this article, Euler considers the summation of series of the pentagonal
+
+ numbers. We would say that he sums this series by the (£, con) and (A, con) methods
+ of summation; these are defined by Hardy (1949). As
+
+ OO oo
+
+ Пж-- (i-*")= y, ч
+
+ Пж-- (i-*")= y, ч ... л(Зл + 1)
+ n = 1 П- oo
+
+ where every root of unity is a root of the left-hand side, Euler uses Newton's identities
+ to sum series that involve roots of unity and the pentagonal numbers. Writing
+
+ -5 = 1 -5 + 12-22 + 35 -51 +70
+
+ n= 1
+
+ л + 1 П@п - 1)
+
+ -t = 2 - 1 + 15 - 26 + 40 - 57 + 77
+
+ n= 1
+
+ ^ Springer
+
+ ^ „4-1 n(3n + 1)
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:40:21 UTC
+All use subject to https://about.jstor.org/terms
+
+ 368 J- Bell
+
+ Euler obtains
+
+ _ 1 4 3 _
+
+ ~Ä-2~4 _ + 8_-8 _
+
+ _ 2 _ 5 + 3_1
+ _í~2_4 _ _ + 8~8'
+
+ -1 -2 + 5 + 7- 12- 15 + 22 + 26-35 -40 + 51 +57 -70-77 + •••
+
+ and thus
+
+ = 1)W(&V 1 + M-n) = 0,
+
+ OO
+
+ «=1
+
+ where соп = n^n~x^ . This is explained completely by Rademacher (1969).
+
+ For f(z ) = X^=i » Fabry's gap theorem (Segal 2008, Chap. 6, Theorem 4.3)
+
+ tells us that if the exponents kn satisfy
+
+ lim - = 0
+ П-+ЭО Xn
+
+ then there is no analytic continuation of / to a domain that properly contains the
+ unit disc. But ^ = з^у - ► 0 and -> 0 as n - > oo. Thus, f(z) =
+
+ 1 +
+
+ unit disc.
+
+ 1 Conclusion
+
+ The pentagonal number theorem is important for three reasons:
+
+ (1) developing the theory of infinite products,
+ (2) Euler's theory of partitions, and generating functions,
+ (3) elliptic and modular functions.
+
+ It can be very useful to represent a product or series in different ways. One reason
+ is that it can tell us things about the product or series. For example, when we study
+
+ the Riemann zeta function, or L -functions in general, it can be useful to express the
+ function as an Euler product over the primes or as a product over its zeros. Another
+
+ reason is that we might be interested in the terms in the power series expansion, and
+
+ thus if we have two power series expansions we can compare the terms.
+
+ In §3, we worked out an unpublished proof of the pentagonal number theorem from
+ Euler's notebooks. It turns out to be much more complicated than Euler's published
+ proof, and this is probably the reason why it wasn't published.
+
+ Euler used incomplete induction as an instrument of scientific research. Juškevič
+ (Gillispie 1980, Volume IV, "Leonhard Euler", pp. 467-484) writes the following: "It
+
+ Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:40:21 UTC
+All use subject to https://about.jstor.org/terms
+
+ Analytic results on o{n) are stated by Dickson (1919a, Chap. X). Kempner (1923)
+
+ gives the history of the analytic study of p(n).
+
+ Euler's work on the pentagonal number theorem 369
+
+ is frequently said that Euler saw no intrinsic impossibility in the deduction of math-
+ ematical laws from a very limited basis in observation; and naturally he employed
+ methods of induction to make empirical use of the results he had arrived at through
+ analysis of concrete numerical material. But he himself warned many times that an
+ incomplete induction serves only as a heuristic device, and he never passed off as
+ finally proved truths the suppositions arrived at by such methods" (also cf. Weil 1984,
+ Chap. II, §111 and Cajori 1918).
+
+ Euler explains his ideas about truth in letters CXV to CXX of his Lettres à une
+
+ princesse d'Allemagne sur divers sujets de physique & de philosophie , E344, pub-
+ lished in 1768 (Euler 1768). He says that all the truths which are within our grasp
+ can be divided into three classes: "toutes les vérités, qui sont à la portée de notre con-
+ noissance, se rapportent à trois classes essentiellement distinguées" ["all the truths
+
+ which are within the reach of our understanding can be divided into three essentially
+ distinguished classes"] (letter CXV, dated March 31, 1761). The first class are truths
+ of experience, and they are established by evidence of the senses. The second class
+
+ are truths of rational thought, established by correct reasoning. The third are truths of
+
+ belief, established by credible statements.
+
+ Although the three classes of truths are indeed separate, the status of some truth
+
+ can change with time or be different for different people. As an example, in letter
+ CXV Euler says that the fact that Russians and Austrians (namely soldiers) had been
+
+ in Berlin is a truth of the third class for the princess, since she did not see them but
+
+ only was told of them, while for Euler it is a truth of the first class since he saw them
+ and talked with them.
+
+ In this letter, Euler also writes that "Dans l'exemple de l'aimant nous ne savons
+
+ pas, comment l'attraction du fer est un effet nécessaire de la nature, tant de l'aimant,
+
+ que du fer; mais nous ne sommes pas moins convaincus de la vérité du fait" ["With the
+
+ example of the magnet we do not know how attraction of iron is a necessary effect of
+
+ the nature of either the magnet or of iron; but we are nonetheless convinced of the truth
+ of the fact"]; earlier in the letter Euler had given the fact that a magnet attracts iron
+
+ as an example of a truth of the first class. Perhaps if Euler could deduce the behavior
+
+ of magnets from a more general theory he would have considered this a truth of the
+ second class.
+
+ In letter CXX (dated April 1 8, 1 761 ), Euler talks about how we can learn something
+
+ about gravity by doing tests dropping stones, even though we have not dropped every
+
+ possible stone from every possible position at every possible time. But Euler says
+ that, "Cet exemple suffit pour faire voir à V[otre] A[ltesse] comment les experiences,
+ quoiqu'elles ne roulent que sur des objets individuels, ont conduit les hommes à des
+ connoissances très universelles: mais il faut convenir que l'entendement & les autres
+
+ facultés de l'ame s'y mêlent d'une maniere, qu'il est très difficile de bien développer:
+ & si l'on vouloit être trop scrupuleux sur toutes les circonstances, on n'avancerait
+ rien dans toutes nos connoissances, & l'on serait arrêté à chaque pas" ["This example
+
+ suffices to let Your Highness see how experiments, although they are conducted only
+
+ on individual objects, have led men to very universal knowledge. However, we must
+
+ also recognize that understanding and the other faculties of the soul are involved in
+
+ some way that is very difficult to elaborate on; and if we wish to be overly fastidious in
+ all situations, we won't advance at all in our understanding, and we will halt at every
+
+ ^ Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:40:21 UTC
+All use subject to https://about.jstor.org/terms
+
+ 370 J. Bell
+
+ step"]. So we do not know a truth in physics just by doing a lot of tests, but rather we
+ also need to use our intellect to know that these tests suffice.
+
+ Now, we have seen that when Euler was expanding the product (1 - jc)(1 - jc2)(1 -
+
+ jt3) etc. to check the pentagonal number theorem, he started to get an idea of how
+
+ to prove the theorem. Working out examples like these gives us insight into why a
+
+ theorem is true, instead of just showing that the theorem is true for lots of cases.
+
+ One reason why Euler would want to talk about a statement being true which he
+
+ had not been able to demonstrate yet is to focus his work on fruitful areas. If a state-
+
+ ment is probably false, then assuming it might only lead to vacuous statements. But
+
+ certainly Euler still wanted to find a proof of the pentagonal number theorem, even
+
+ though he was convinced of its truth already by the examples he had checked. Euler
+ mentions that having a proof of the pentagonal number theorem would give us deeper
+
+ understanding of it and could lead us to new insights. In other words, having a proof
+
+ would let us know why the theorem is true instead of just knowing it is true.
+
+ Euler had a good idea of what a proof was, and would only say he had proved
+
+ something if he thought he had a really rigorous proof. But he might still say that we
+
+ can be absolutely certain about something that we cannot yet prove. But to know that
+
+ something is certain by experience we need more than just a lot of cases, e.g., to know
+
+ that a proposition P(n) is true for all n we need to know more than just the truth of
+ P{ 1), . . . , P{ 10000), we need some information about P(n) that our insight/experi-
+ ence/understanding can work on.
+
+ Subscript notation would make complicated inductive arguments easier. In partic-
+
+ ular it would make it clearer when it is an actual induction and not just specific cases.
+ Sandifer (2007a) talks about this.
+
+ Acknowledgments The author was supported by NSERC. The author benefited from many exchanges
+ with Martin Mattmüller. The author would like to thank Gleb K. Mikhajlov for making copies of Euler's
+ notebooks available, and Martin Mattmüller for checking photographs of the original letters between Euler
+
+ and Goldbach. The author is very grateful to Polina Vinogradova and Stacy Langton for reading several
+ Russian sources. Finally, the author would like to thank John Grant, Rüdiger Thiele and Robin Chapman
+ for answering many questions.
+
+ Andrews, G.E. 1983. Euler's pentagonal number theorem. Mathematics Magazine 56(5): 279-284.
+ Andrews, G.E. 1998. The theory of partitions. Cambridge University Press.
+
+ Bump, D. 1998. Automorphic forms and representations , vol. 55 of Cambridge Studies in Advanced Math-
+
+ ematics. Cambridge University Press.
+
+ Cajori, F. 1918. Origin of the name "mathematical induction". American Mathematical Monthly 25(5):
+
+ Cajori, F. 1929. A History of Mathematical Notations , vol. II. Chicago: The Open Court Publishing Com-
+
+ Calinger, R. 1996. Leonhard Euler: the first St. Petersburg years (1727-1741). Historia Mathematica 23(2):
+
+ Cantor, M. 1901. Vorlesungen über Geschichte der Mathematik. Dritter Band. Vom Jahre 1668 biz zum
+
+ Jahre 1758. Leipzig: B. G. Teubner, Zweite Auflage. Reprinted by Johnson Reprint Corporation, New
+ York, 1965.
+
+ Cartan, H. 1995. Elementary theory of analytic functions of one or several complex variables. Mineóla,
+
+ NY: Dover Publications. Translated from the French.
+
+ References
+
+ 197-201.
+
+ pany.
+
+ 121-166.
+
+ Ô Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:40:21 UTC
+All use subject to https://about.jstor.org/terms
+
+ Euler's work on the pentagonal number theorem 37 1
+
+ Chandrasekharan, K. 1985. Elliptic functions , Die Grundlehren der mathematischen Wissenschaften, vol.
+
+ 281. Berlin: Springer- Verlag
+
+ Chrystal, G. 1964. Algebra: an elementary text-book, Part II. New York: Chelsea Publishing Company,
+
+ seventh edition. Reprinted by AMS Chelsea Publishing, 1999.
+
+ Cramer, G., editor. 1744. Jacobi Bernoulli, Basileensis, Opera. Tomus Secundus. Sumptibus Haeredum
+ Cramer & Fratrum Philibert=Héritiers Cramer et frères Philibert, Genevae. With the editorial assistance
+ of Nicolaus I Bernoulli.
+
+ Dickson, L.E. 1919a. History of the theory of numbers, vol. I. Washington, D.C.: Carnegie Institute. Pub-
+
+ Dickson, L.E. 1919b. History of the theory of numbers, vol. II. Washington, D.C.: Carnegie Institute. Pub-
+
+ Eneström, G. 1906. Der Briefwechsel zwischen Leonhard Euler und Daniel Bernoulli. Bibi. Math., 3. Folge
+
+ lication Number 256.
+
+ lication Number 256.
+
+ 1: 126-156.
+
+ Eneström, G. 1908. Jakob Bernoulli und die Jacobischen Thetafunktionen. Bibl. Math., 3. Folge 9: 206-210.
+
+ Eneström, G. 1910/1913. Verzeichnis der Schriften Leonhard Eulers. B. G. Teubner, Leipzig. Jahresbericht
+
+ der Deutschen Mathematiker- Vereinigung, Ergänzungsband IV, Lief. 1, 2.
+
+ Euler, L. 1738. Methodus generalis summandi progressiones. Commentarii Academiae Scientiarum Impe-
+
+ rialis Petropolitanae , 6: 68-97. E25, Opera omnia 1.14, pp. 42-72.
+
+ Euler, L. 1740. De summis serierum reciprocarum. Commentarii Academiae Scientiarum Imperialis Pet-
+
+ ropolitanae 7: 123-134. E41, Opera omnia 1.14, pp. 73-86.
+
+ Euler, L. 1744. Variae observationes circa series infinitas. Commentarii Academiae Scientiarum Imperialis
+
+ Petropolitanae , 9: 160-188. E72, Opera omnia 1.14, pp. 217-244.
+
+ Euler, L. 1748. Introducilo in analysin infinitorum. Tomus primus. Apud Marcum-Michaelem Bousquet &
+
+ Socios=Marc-Michel Bousquet & Compagnie, Lausannae. E 101, Opera omnia 1.8.
+
+ Euler, L. 1751a. Découverte d'une loi tout extraordinaire des nombres par rapport à la somme de leurs
+
+ diviseurs. Bibliothèque Impartiale , 3(1): 10-31. E 175, Opera omnia 1.2, pp. 241-253.
+
+ Euler, L. 175 lb. Observationes analyticae variae de combinationibus. Commentarii Academiae Scientiarum
+
+ Imperialis Petropolitanae 13: 64-93. E 158, Opera omnia 1.2, pp. 163-193.
+
+ Euler, L. 1753a. Consideratio quarumdam serierum, quae singularibus proprietatibus sunt praeditae. Novi
+
+ Commentarii Academiae Scientiarum Imperialis Petropolitanae 3: 86-108. E190, Opera omnia 1.14,
+ pp. 516-541.
+
+ Euler, L. 1753b. De partitione numerorum. Novi Commentarii Academiae Scientiarum Imperialis Petropo-
+
+ litanae 3: 125-169. E191, Opera omnia 1.2, pp. 254-294.
+
+ Euler, L. 1760a. Demonstratio theorematis circa ordinem in summis divisorům observatum. Novi Commen-
+
+ tarii Academiae Scientiarum Imperialis Petropolitanae 5: 75-83. E244, Opera omnia 1.2, pp. 390-398.
+ Euler, L. 1760b. Observatio de summis divisorům. Novi Commentarii Academiae Scientiarum Imperialis
+
+ Petropolitanae 5: 59-74. E243, Opera omnia 1.2, pp. 373-389.
+
+ Euler, L. 1768. Lettres à une princesse d'Allemagne sur divers sujets de physique & philosophie, Tome
+
+ second. Academie Impériale des Sciences, Saint Petersbourg. E344, Opera omnia III. 12.
+
+ Euler, L. 1770. Vollständige Anleitung zur Algebra. Erster Theil. Kays. Acad. der Wissenschaften, St.
+
+ Petersburg. E387, Opera omnia 1. 1 .
+
+ Euler, L. 1783a. De mirabilibus proprietatibus numerorum pentagonalium. Acta Academiae Scientiarum
+
+ Imperialis Petropolitanae 4: 56-75. E542, Opera omnia 1.3, pp. 480-496.
+
+ Euler, L. 1783b. Evolutio producti infiniti (1 - jc)(1 -jcjc)(1 -jc3)(1 -jc4)(1 -jc5)(1 -jcõ)etc. in seriem
+ simplicem. Acta Academiae Scientiarum Imperialis Petropolitanae 4: 47-55. E541, Opera omnia 1.3,
+ pp. 472-479.
+
+ Euler, L. 1784. De plurimis quantitatibus transcendentibus, quas nullo modo per formulas integrales expri-
+
+ mere licet. Acta Academiae Scientiarum Imperialis Petropolitanae 4: 31-37. E565, Opera omnia 1.15,
+ pp. 522-527.
+
+ Euler, L. 1785. Considerationes super theoremate Fermatiano de resolutione numerorum in numéros po-
+
+ lygonales. Opuscula Analytica 2: 3-15. E586, Opera omnia 1.4, pp. 125-135.
+
+ Fellmann, E. A. 1995. Leonhard Euler. Rowohlt Taschenbuch, Reinbek bei Hamburg. Rowohlts Mono-
+
+ graphien, Band 387.
+
+ Fellmann, E.A., and Mikhajlov, G.K., editors. 1998. Leonhardi Euleri Opera omnia. Series quarta A:
+ Commercium epistolicum. Volumen secundum: Commercium cum Johanne (I) Bernoulli et Nicolao (I)
+ Bernoulli. Basel: Birkhäuser.
+
+ Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:40:21 UTC
+All use subject to https://about.jstor.org/terms
+
+ Ferraro, G. 2008. The rise and development of the theory of series up to the early J 820s. Sources and Studies
+
+ in the History of Mathematics and Physical Sciences. Springer- Verlag.
+
+ Fuss, P.-H., editor. 1843. Correspondance mathématique et physique de quelques célèbres géomètres du
+
+ XVIIIème siècle. Tomes I, II. L'Académie Impériale des Sciences de Saint-Pétersbourg, St.-Pétersbourg.
+ The Sources of Science, No. 35, Johnson Reprint Corporation, New York and London, 1968.
+
+ Gautschi, W. 2008. On Euler's attempt to compute logarithms by interpolation: A commentary to his letter
+
+ of February 16, 1734 to Daniel Bernoulli. Journal of Computational and Applied Mathematics 219(2):
+ 408-415.
+
+ 372 J. Bell
+
+ Gillispie, C.C., editor. 1970-1980. Dictionary of Scientific Biography. New York: Charles Scribner's Sons.
+ Hardy, G.H. 1949. Divergent series. Oxford University Press.
+
+ Hardy, G.H., and Ramanujan, S. 1918. Asymptotic formulae in combinatory analysis. Proceedings of the
+
+ London Mathematical Society, Series 2 17: 75-1 15. Table IV calculated by Percy A. MacMahon.
+
+ Hardy, G.H., and Wright, E.M. 1980. An Introduction to the theory of numbers. Oxford University Press,
+
+ fifth edition.
+
+ Hofmann, J. E. 1959. Um Eulers erste Reihenstudien. In: Schröder, K. (ed.), Sammelband der zu Ehren des
+
+ 250. Geburtstages Leonhard Eulers der Deutschen Akademie der Wissenschaften zu Berlin vorgelegten
+ Abhandlungen , pp. 139-208. Berlin: Akademie-Verlag.
+
+ Iwaniec, H. 1997. Topics in classical automorphic forms, vol. 17 of Graduate Studies in Mathematics.
+
+ American Mathematical Society.
+
+ Juškevič, A.P., Smirnov, V.l., and Habicht, W., editors. 1975. Leonhardi Euleri Opera omnia. Series quarta
+
+ A: Commercium epistolicum. Volumen primům: Descriptio commercii epistolici. Basel: Birkhäuser.
+
+ Juškevič, A. P, and Taton, R., editors. 1980. Leonhardi Euleri Opera omnia. Series quarta A: Commercium
+ epistolicum. Volumen quintum : Correspondance de Leonhard Euler avec А. С. Clairaut, J. d'Alembert
+ et J. L. Lagrange. Basel: Birkhäuser.
+
+ Juškevič, A.P., and Winter, E. (eds.). 1961. Die Berliner und die Petersburger Akademie der Wissens-
+ chaften im Briefwechsel Leonhard Eulers. Teil 2: Der Briefwechsel L. Eulers mit Nartov, Razumovskij,
+ Schumacher, Teplov und der Petersburger Akademie 1730-1763. Quellen und Studien zur Geschichte
+ Osteuropas. Berlin: Akademie-Verlag.
+
+ Juškevič, A. P., and Winter, E. (eds.) 1965. Leonhard Euler und Christian Goldbach. Briefwechsel 1729-
+ 1764. Berlin: Akademie- Verlag. Abhandlungen der Deutschen Akademie der Wissenschaften zu Berlin.
+ Jahrgang 1965 Nr. 1.
+
+ Juškevič, A. P., and Winter, E., editors. 1 976. Die Berliner und die Petersburger Akademie der Wissenschaften
+
+ im Briefwechsel Leonhard Eulers. Teil 3: Wissenschaftliche und wissenschaftsorganisatorische Korre-
+ spondenzen 1726-1774. Quellen und Studien zur Geschichte Osteuropas. Berlin: Akademie-Verlag.
+ Kempner, A.J. 1923. The development of "partitio numerorum," with particular reference to the work of
+
+ Messrs. Hardy, Littlewood and Ramanujan. American Mathematical Monthly 30(7): 354-369.
+
+ Kiselev, A.A., and Matvievskaja, G.P. 1965. Neopublikovannye zapisi Eilera po partitio numerorum. Istor-
+
+ iko-Matematicheskie Issledovaniya 16: 145-180.
+
+ Knobloch, E. 1974. The mathematical studies of G. W. Leibniz on combinatorics. Historia Mathematica
+
+ 1(4): 409-430.
+
+ Knobloch, W., editor. 1984. Leonhard Eulers Wirken an der Berliner Akademie der Wissenschaften 1741-
+ 1766. Berlin: Akademie-Verlag. Studien zur Geschichte der Akademie der Wissenschaften der DDR.
+ Band 1 1 .
+
+ Koelink, E., and Van Assche, W. 2009. Leonhard Euler and a -analogue of the logarithm. Proceedings of
+
+ the American Mathematical Society 137(5): 1663-1676.
+
+ Legendre, A.-M. 1830. Théorie des nombres. Tome II. Firmin-Didot, Paris, third edition.
+
+ Markushevich, A.I. 1967. Theory of functions of a complex variable , vol. III. Prentice-Hall. Translated from
+
+ the Russian. Revised English edition translated and edited by Richard A. Silverman.
+
+ Mikhajlov, G.K. 1959. Notizen über die unveröffentlichten Manuskripte von Leonhard Euler. In Schröder,
+ K. (ed.), Sammelband der zu Ehren des 250. Geburtstages Leonhard Eulers der Deutschen Akademie
+ der Wissenschaften zu Berlin vorgelegten Abhandlungen, pages 256-280. Berlin: Akademie- Verlag.
+
+ Nevskaja, N.I., editor. 2000. Letopis' Rossiiskoi Akademii Nauk. Nauka, St. Petersburg.
+
+ Patterson, S.J. 2007. Gauss sums. In Goldstein, C., Schappacher, N., and Schwermer, J., editors. The shaping
+ of arithmetic after C. E Gauss's Disquisitiones arithmeticae , pages 505-528. Berlin: Springer- Verlag.
+ Pólya, G. 1954. Mathematics and plausible reasoning. Induction and analogy in mathematics, vol. I. Prince-
+
+ ton University Press.
+
+ Ö Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:40:21 UTC
+All use subject to https://about.jstor.org/terms
+
+ Euler's work on the pentagonal number theorem 373
+
+ Rademacher, H. 1940. Fourier expansions of modular forms and problems of partition. Bulletin of the
+
+ American Mathematical Society 46:59-73.
+
+ Rademacher, H. (1969). Comments on Euler's "De mirabilibus proprietatibus numerorum pentagonalium".
+ In Number theory and analysis ( papers in Honor of Edmund Landau), pages 257-268. New York:
+ Plenum.
+
+ Rademacher, H. 1973. Topics in analytic number theory. Springer- Verlag, New York. Edited by Grosswald,
+
+ E., Lehner, J., and Newman, M. Die Grundlehren der mathematischen Wissenschaften, Band 169.
+
+ Rudio, F., editor. 1915. Leonhardi Eule ri Opera omnia, series I, volumen II: Leonhardi Euleri Commenta-
+
+ tiones arithmeticae, volumen primům. В. G. Teubner, Leipzig and Berlin.
+
+ Sandifer, C.E. 2007a. Some facets of Euler's work on series. In Bradley, R.E., and Sandifer, C.E., editors.
+
+ Leonhard Euler: Life, Work and Legacy , pages 279-302. Elsevier. Studies in the History and Philosophy
+ of Mathematics, vol. 5.
+
+ Sandifer, C.E. 2007b. The early mathematics of Leonhard Euler. The MAA Tercentenary Euler Celebration ,
+
+ vol. 1. Spectrum Series. The Mathematical Association of America.
+
+ Scharlau, W. 1983. Eulers Beiträge zur partitio numerorum und zur Theorie der erzeugenden Funktionen.
+
+ In: Burckhardt, J.J., Fellmann, E.A., and Habicht, W., editors. Leonhard Euler 1707-1783. Beiträge zu
+ Leben und Werk. Gedenkband des Kantons Basel-Stadt , pages 135-150. Basel: Birkhäuser.
+
+ Scriba, C.J. 1984. Eulers zahlentheoretische Studien im Lichte seines wissenschaftlichen Briefwechsels.
+
+ In: Knobloch, E., Louhivaara, I.S., and Winkler, J., editors. Zum Werk Leonhard Eulers. Vorträge des
+ Euler- Kolloquiums im Mai 1983 in Berlin, pages 67-94. Basel: Birkhäuser.
+
+ Segal, S.L. 2008. Nine introductions in complex analysis, vol. 208 of North- Holland Mathematics Studies.
+
+ Elsevier, revised edition.
+
+ Smirnov, V.l., editor. 1963. Pis'ma к uchenym. Nauka, Moscow-Leningrad.
+ Stäckel, P., and Ahrens, W. 1908. Der Briefwechsel zwischen С. G. J. Jacobi und P. H. von Fuss über die
+
+ Herausgabe der Werke Leonhard Eulers. B. G. Teubner, Leipzig.
+
+ Struik, D.J., editor. 1969. A source book in mathematics, 1200-1800. Source Books in the History of the
+
+ Sciences. Harvard University Press.
+
+ Tannery, P., and Henry, C., editors. 1891 . Oeuvres de Fermat. Tome I. Gauthier- Villars et fils, Paris.
+ Titchmarsh, E.C. 1939. The theory of functions. Oxford University Press, second edition.
+ van der Waerden, B.L., editor. 1975. Die Werke von Jakob Bernoulli. Band 3. Wahrscheinlichkeitsrechnung.
+
+ Birkhäuser, Basel. Herausgegeben von der Naturforschenden Gesellschaft in Basel.
+
+ Weil, A. 1976. Elliptic functions according to Eisenstein and Kronecker, vol. 88 of Ergebnisse der Mathe-
+
+ matik und ihrer Grenzgebiete. Springer- Verlag.
+
+ Weil, A. 1984. Number theory: an approach through history from Hammurapi to Legendre. Birkhäuser.
+ Winter, E., editor. 1957. Die Registres der Berliner Akademie der Wissenschaften 1746-1766. Dokumente
+
+ für das Wirken Leonhard Eulers in Berlin. Berlin: Akademie-Verlag.
+
+ Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:40:21 UTC
+All use subject to https://about.jstor.org/terms
+
+

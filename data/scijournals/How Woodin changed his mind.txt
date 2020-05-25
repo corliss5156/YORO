@@ -1,0 +1,2222 @@
+ 
+
+ 
+
+ 
+
+ 
+
+How Woodin changed his mind: new thoughts on the Continuum Hypothesis
+Author(s): Colin J. Rittberg
+Source: Archive for History of Exact Sciences, Vol. 69, No. 2 (March 2015), pp. 125-151
+Published by: Springer
+Stable URL: https://www.jstor.org/stable/24569622
+Accessed: 18-05-2020 09:20 UTC
+
+JSTOR is a not-for-profit service that helps scholars, researchers, and students discover, use, and build upon a wide
+
+range of content in a trusted digital archive. We use information technology and tools to increase productivity and
+
+facilitate new forms of scholarship. For more information about JSTOR, please contact support@jstor.org.
+
+Your use of the JSTOR archive indicates your acceptance of the Terms & Conditions of Use, available at
+
+https://about.jstor.org/terms
+
+Springer is collaborating with JSTOR to digitize, preserve and extend access to Archive for
+History of Exact Sciences
+
+This content downloaded from 203.78.15.150 on Mon, 18 May 2020 09:20:01 UTC
+All use subject to https://about.jstor.org/terms
+
+ Arch. Hist. Exact Sci. (2015) 69:125-151
+ DOI10.1007/S00407-014-0142-8
+
+ How Woodin changed his mind: new thoughts
+ on the Continuum Hypothesis
+
+ Colin J. Rittberg
+
+ Received: 7 March 2014 / Published online: 16 December 2014
+
+ © Springer-Verlag Berlin Heidelberg 2014
+
+ Abstract The Continuum Problem has inspired set theorists and philosophers since
+
+ the days of Cantorian set theory. In the last 15 years, W. Hugh Woodin, a leading set
+
+ theorist, has not only taken it upon himself to engage in this question, he has also
+
+ changed his mind about the answer. This paper illustrates Woodin's solutions to the
+
+ problem, starting in Sect. 3 with his 1999-2004 argument that Cantor's hypothesis
+
+ about the continuum was incorrect. From 2010 onwards, Woodin presents a very dif
+
+ ferent argument, an argument that Cantor's hypothesis is in fact true. This argument is
+
+ still incomplete, but according to Woodin, some of the philosophical issues surround
+
+ ing the Continuum Problem have been reduced to precise mathematical questions,
+
+ questions that are, unlike Cantor's hypothesis, solvable from our current theory of
+ sets.
+
+ Contents
+
+ 1 Introduction 126
+
+ 2 Large cardinal axioms 127
+ 3 The case against CH 129
+ 3.1 Exploring the universe from below 130
+ 3.2 A brief introduction to Ω-logic 133
+ 3.2.1 Ideas and concepts 133
+ 3.2.2 Technicalities 134
+ 3.3 Ω-Logic and the (*)-axiom 136
+
+ Communicated by: Jeremy Gray.
+
+ C. J. Rittberg (IS)
+ Hatfield, UK
+
+ e-mail: jakob.rittberg@gmail.com
+
+ Springer
+
+This content downloaded from 203.78.15.150 on Mon, 18 May 2020 09:20:01 UTC
+All use subject to https://about.jstor.org/terms
+
+ 126
+
+ 3.4 Summary
+ 4 The case for C H
+
+ 4.1 The fate of the Ω-conjecture
+ 4.2 Inner model theory ....
+ 4.3 Mathematical traction . . .
+
+ 5 Appendix A: Large cardinal axioms
+
+ 6 Appendix B: Definitions and results
+
+ 6.1 Results
+
+ 6.1.1 Universally baire sets .
+
+ 6.1.2 Projective determinacy
+
+ 6.2 Definitions
+
+ 1 Introduction
+
+ C. J. Rittberg
+
+ 139
+
+ 139
+
+ 139
+
+ 140
+
+ 145
+
+ 146
+
+ 147
+
+ 147
+
+ 147
+
+ 148
+
+ 149
+
+ The Continuum Problem is the question of how many subsets there are of the natural
+
+ numbers. This problem arose from the original works of Cantor. His proposed solution
+
+ has become known as the Continuum Hypothesis, CH: every infinite subset of the
+
+ natural numbers is either countable or can be brought into a one-to-one correspondence
+
+ with the whole powerset of the natural numbers. Cantor was unable to prove this
+
+ hypothesis, and today we know that it is neither provable nor disprovable from our
+
+ current theory of sets; it is an independent statement. The issue became a philosophical
+
+ matter and has been discussed in that way ever since.1
+
+ The CH is only one of the many known examples of mathematically interesting
+ statements, which are independent from our current theory of sets. In the wake of
+
+ the realisation of this, a new philosophical view on set theory arose. Assume, as so
+
+ many set theorists do, some form of Platonism; that is, assume that there is a fact
+
+ of the matter how the universe of sets looks like. Do the independence results show
+
+ that there are in fact many different true universes, or is it the case that our theory is
+
+ just not good enough yet to describe the one and only true universe fully? This is the
+
+ pluralism/non-pluralism debate, explored further in Koellner (2014). This debate has
+
+ obvious implications for a discussion of C H : if pluralism is true, then there are simply
+
+ (true) universes where the CH is true and (true) universes where the C H fails. On a
+
+ non-pluralist account, CH is either true or false in the one and only true universe of
+
+ sets. As such, this debate sets a philosophical stage for what follows.2
+
+ W. Hugh Woodin introduces his readers to the discussion on the CH by stating
+
+ The generally accepted axioms for set theory- but I would call these the
+
+ twentieth-century choice- are the Zermelo-Fraenkel Axioms together with the
+ Axiom of Choice, ZFC. (Woodin 2001a, p. 567).
+
+ 1 See for example Ferreirôs (2007, pp. 190,21 Off, 333,382ff), or Koellner (2013) for more on the Continuum
+ Hypothesis.
+
+ 2 Non-platonist conceptions of the metaphysics of set theory are dismissed by Woodin as basically untenable
+
+ and are not discussed in this paper. See Woodin (2009a) for Woodin's argument against non-platonism.
+
+ £j Springer
+
+This content downloaded from 203.78.15.150 on Mon, 18 May 2020 09:20:01 UTC
+All use subject to https://about.jstor.org/terms
+
+ How Woodin changed his mind
+
+ 127
+
+ Here the thought that the ZFC axioms are merely our current choice and that new
+
+ and better choices are possible is already visible. New axioms are necessary to resolve
+ the Continuum Problem, but how would one find these new axioms? Woodin refers to
+
+ the Axiom of Projective Determinacy, Ρ D, (see Sect. 6) which has been, according
+
+ to him, largely accepted as true.
+
+ But the truth of [PD] became only evident after a great deal of work. For
+
+ me, the remarkable aspect of this is that it demonstrates that the discovery of
+
+ mathematical truth is not a purely formal endeavour. (Woodin 2001a, p. 569).
+
+ Hence, Woodin has reason to hope that the Continuum Problem can be solved. More
+
+ strongly, Woodin has reasons to believe that it can be solved on the basis of a non
+
+ pluralist account, and
+
+ arguefs] that modulo the Ω-Conjecture [...], the generic-multiverse position [i.e.
+
+ a form of pluralism] outlined above is not plausible. (Woodin 2009b, p. 17).
+
+ Woodin has recently changed his opinion on the answer to the Continuum Problem.
+
+ Ten years ago, he argued for it to be false, now he believes that it will turn out to be
+
+ true. This paper explores his changing positions by presenting both the old argument
+
+ against CH as well as the new argument for the truth of CH. Especially for the
+
+ second argument, large cardinal axioms will be of importance, so I briefly introduce
+ them here.
+
+ 2 Large cardinal axioms
+
+ A large cardinal axiom is a statement that a very big set with certain properties exists.
+
+ There are many different large cardinal axioms (also referred to as axioms of strong
+
+ infinity), all proclaiming the existence of sets with certain properties. All such sets
+ would be cardinals (hence the name), but the existence of such cardinals cannot be
+
+ proved by our theory of sets, ZFC. One of the most illuminating examples of this is
+ the large cardinal axiom, which states that there is an inaccessible cardinal (for the
+
+ definitions of any large cardinal axiom mentioned in this paper, see Sect. 5). If there
+ is an inaccessible cardinal, then we have a model for ZFC. But having a model for
+ ZFC is equivalent to knowing that there are no contradictions following from ZFC,
+ i.e. knowing that ZFC is consistent. By Godel's Second Incompleteness Theorem,
+
+ we know that a theory can prove its own consistency if and only if it is inconsistent.
+
+ Hence, if ZFC could prove that there is an inaccessible cardinal, then it could prove
+
+ its own consistency and would hence be inconsistent.3 Note that this does not mean
+
+ that there are no inaccessible cardinals. It only means that ZFC cannot prove that
+ such cardinals exist.
+
+ 3 Remark: it is unknown, in fact unprovable from the ZFC axioms, if ZFC is consistent. The same holds
+
+ true for number theory, for example. However, experience with these axiom systems makes it reasonable to
+
+ expect that these systems are in fact consistent. It is common practice in set theory to assume the consistency
+ of ZFC, and Woodin does so as well: "There will be no discovery ever of an inconsistency in Ζ F + AD"
+ (Woodin 2009b, p. 10) (note that the consistency of ZF implies the consistency of ZFC by Gôdel's
+ construction of L). I shall follow Woodin in this throughout this paper.
+
+ Ô Springer
+
+This content downloaded from 203.78.15.150 on Mon, 18 May 2020 09:20:01 UTC
+All use subject to https://about.jstor.org/terms
+
+ 128
+
+ C. J. Rittberg
+
+ Not only can the existence of such large cardinals not be proven from ZFC, it is
+ not even known whether the existence of such sets is even consistent with ΖFC.4 But
+
+ we do know that the large cardinal axioms can be well ordered by their consistency
+
+ strength.5 Here is an (incomplete) list of large cardinal axioms, with the strongest at
+
+ the top and the weakest at the bottom:
+
+ There is a Reinhardt cardinal
+
+ There is a η-huge cardinal
+
+ There is a Huge cardinal
+ There is an Extendible cardinal
+
+ There is a Supercompact cardinal
+
+ There is a Superstrong cardinal
+ There is a Woodin cardinal
+
+ There is a Measurable cardinal
+
+ There is an Inaccessible cardinal
+
+ Large cardinal axioms have an interesting feature: they can decide some of the
+
+ problems, which are unsolvable from ZFC alone. An example of this to which I will
+ come back in Sect. 4 is that the existence of a measurable cardinal implies that the
+
+ universe of sets is larger than Gôdel's constructible universe. Another one we saw
+ above: ZFC+'There is an inaccessible cardinal' implies the consistency of ZFC.
+
+ This feature of large cardinal axioms plus the fact that they can be well-ordered results
+
+ in something very interesting. Let φ and ψ be two set theoretic statements which
+
+ ZFC neither proves nor disproves. It is then often the case that there are two large
+ cardinal axioms LCA\ and LCAi such that ZFC + LCA\ proves (or disproves) φ
+ and ZFC 4- LCA2 proves (or disproves) ψ. But LCA\ and LCA2 are well ordered
+ by the large cardinal hierarchy, say, for example, LCA\ is stronger than LCA2■ We
+ can hence say that φ has a higher degree of unsolvability than ψ because it needs
+
+ a stronger large cardinal assumption to be proven (or disproven). That is: the large
+ cardinal axioms give us a hierarchy of degrees of unsolvability. See Koellner (2011)
+ for further details.
+
+ Despite their usefulness, large cardinal axioms cannot decide CH. To explain this,
+
+ I need to briefly discuss forcing.
+
+ A model of the language of set theory consists of a collection of sets and a relation
+ defined on them, which models the e-relation. Such a model is a model for ZFC if all
+
+ the axioms of ZFC are true in the model. Cohen introduced the method of forcing,
+
+ which allows the set theorist to very carefully add a specific set to a model of ZFC
+
+ whilst simultaneously making sure that the resulting structure is still a model of Ζ FC.
+
+ The latter part of that statement is highly non-trivial. Forcing has become one of the
+
+ major tools of the set theorist. See Kunen (2006) for a good introduction to forcing,
+
+ see Jech (2006) for deeper results.
+
+ 4 There is one exception to this. Kunen has proved that the existence of a Reinhardt cardinal is inconsistent
+
+ with ZFC. The proof relies on the Axiom of Choice, and it is unknown if the existence of a Reinhardt is
+ inconsistent with Ζ F (i.e. ZFC minus the Axiom of Choice). See Jech (2006) for details.
+
+ 5 Consistency strength: theory Γ has a higher consistency strength than theory 5 if the consistency of Τ
+
+ implies the consistency of 5.
+
+ â Springer
+
+This content downloaded from 203.78.15.150 on Mon, 18 May 2020 09:20:01 UTC
+All use subject to https://about.jstor.org/terms
+
+ How Woodin changed his mind
+
+ 129
+
+ In particular, the CH can be made true or false by forcings, which are small in
+
+ the sense that they act only on the lower (infinite) levels of the cumulative hierarchy.6
+
+ In (1967), Lévy and Solovay proved that these kinds of small forcings do not act on
+
+ the level of a measurable cardinal. That is, such small forcings only affect the lower
+
+ levels, whilst the higher levels, the levels of a measurable cardinal and above, are not
+
+ affected by the forcing. Hence, the existence of a measurable cardinal (or any stronger
+
+ large cardinal) simply has no bearing on the truth value of the CH. This is the famous
+
+ Lévy-Solovay Theorem.
+
+ But even if large cardinals are not an instant-decision tool, the hierarchy of degrees
+
+ of unsolvability has proven to be useful. This is at least one of the reasons why set
+
+ theorists try to account for large cardinals. They are looking for arguments for the
+ consistency of large cardinals with ZFC and frequently use large cardinals in their
+
+ everyday work. This issue will be further touched upon in Sect. 4.
+
+ I now come back to the main topic of this paper: Woodin's arguments for and against
+
+ CH. Since his argument against the CH was prior to his argument in favour of the
+ statement, I shall start there.
+
+ 3 The case against CH
+
+ Woodin gave three very similar yet different arguments against CH. The first one
+
+ was a technical tour-de-force, presented in Woodin (1999). Woodin was then able
+
+ to capture the insights of this argument in his notion of Ω-logic. The study of this
+
+ strengthening of classical first-order logic has become a centre piece of Woodin's
+ research and is explained below. Using Ω-logic, Woodin could restate the case
+ against CH more easily. Whilst this case was already made in Woodin (1999),
+ it was expanded upon in the papers (Woodin 2001a, b). In these papers, Woodin
+ considered even stronger logics, £2*-logics, to make his point. These logics, so he
+
+ realised in Woodin (2004), can be dropped by introducing a satisfiability notion for
+ Ω-logic. The case against CH, however, always stays essentially the same. By a
+ rational reconstruction of already existing arguments for new axioms (which have
+ been largely accepted according to Woodin), Woodin identifies certain desirable
+ properties of these axioms. Statements that satisfy these properties (for a certain
+ structure) are called good. Woodin showed that there are good statements which
+ could hence function as new axioms for an extension of ZFC. He did so by pro
+ ducing an example: the (*)-axiom (Star-axiom). The (boiled down) case against
+ CH is that all good axioms imply ->CH, and the (*)-axiom shows that there are
+ axioms, which are good. According to Woodin, we should be looking to extend
+
+ ZFC by good axioms, and all those extensions imply -<CH. This is the case against
+ CH.
+
+ 6 The cumulative hierarchy incorporates the idea that the universe of sets is build-up from below by taking
+
+ the powerset and the union operation. This results in 'levels' within the hierarchy. See also the definition
+ of the von Neumann universe V in Sect. 6.
+
+ Ô Springer
+
+This content downloaded from 203.78.15.150 on Mon, 18 May 2020 09:20:01 UTC
+All use subject to https://about.jstor.org/terms
+
+ 130
+
+ C. J. Rittberg
+
+ 3.1 Exploring the universe from below
+
+ In his two 2001 papers on the Continuum Hypothesis, Woodin was encouraged by the
+
+ success that the Axiom of Projective Determinacy, PD, had enjoyed.7
+
+ Projective Determinacy is the correct axiom for the projective sets; the ZFC
+
+ axioms are obviously incomplete and, moreover, incomplete in a fundamental
+
+ way. (Woodin 2001a, p. 575).
+
+ This axiom had emerged from the study of a certain part of the universe of sets and had,
+
+ according to Woodin, led to a canonical set theoretical theory of this sub-structure,
+
+ which was previously missing. An idea of the 2001 papers was that it should therefore
+
+ be possible to find a canonical theory for a larger part of the transfinite universe, and
+
+ Woodin presented a candidate for such a theory.
+
+ Formal arithmetic is defined via the axioms of Peano Arithmetic, PA. As Woodin
+
+ stated:
+
+ It seems that most mathematicians do believe that arithmetic statements are either
+
+ true or false. (Woodin 2001a, p. 568).
+
+ That is, PA is empirically complete: we do not know of any natural arithmetical
+
+ statement, which is independent (i.e. neither provable nor disprovable) from PA. Of
+
+ course, due to Godel's incompleteness theorems, there are statements in the language
+
+ of arithmetic that are independent from PA, and this is why Woodin talked about
+ natural statements here. Statements are natural if mathematicians come across them
+
+ in their endeavours. Gôdel sentences and the like are artificial in that they serve to
+
+ prove certain theorems, but are otherwise of no particular interest. These definitions
+
+ are vague, but nonetheless it seems largely clear to the mathematical community what
+ a natural and what an artificial statement is.
+
+ The empirical completeness of PA is supported even further by the forcing com
+
+ pleteness of PA. It is an elementary fact about Cohen's method of forcing that inde
+
+ pendence from PA cannot be shown by going to a forcing extension.8
+
+ I need to make one small detour here. There are two major ways in which the
+
+ universe of sets can be given. By far the most common and well known is the von
+
+ Neumann Hierarchy, i.e. the universe of sets is given in terms of the Va where a is an
+ ordinal.9
+
+ Another way of stratifying the universe of sets is in terms of the Η (κ) for cardinals
+
+ κ, where Η {κ) contains all sets whose transitive closure is less than κ.10 It then holds
+
+ 7 The Axiom of Projective Determinacy will play only a minor part in this paper, and I shall neither give a
+
+ formal definition nor an explanation of it here. The reader is referred to Jech (2006) and Kanamori (2009)
+ for details.
+
+ 8 Woodin remarked that it is theoretically possible that a generalisation of forcing could be found, which
+ could be used to prove independence results about PA. But not even an idea of how to come by such a
+
+ generalisation, let alone the generalisation itself, is currently present.
+
+ 9 For a formal definition, see Sect. 6.
+
+ 10 A set a is transitive if from b e a and c e b follows that c e a. Transitive sets turn out to be of particular
+ interest to the set theorist. The transitive closure of a set χ is the smallest transitive set, which contains x.
+
+ <£j Springer
+
+This content downloaded from 203.78.15.150 on Mon, 18 May 2020 09:20:01 UTC
+All use subject to https://about.jstor.org/terms
+
+ How Woodin changed his mind
+
+ 131
+
+ that νω = Η (ω). Similarly, if CH holds, then Vœ+2 = Η (ω 2), and if the Generalised
+
+ Continuum Hypothesis (2**· = Κί+ι for all i) holds, then these similarities are carried
+
+ upwards. However, if CH fails, then Η {ω 2) is less rich than Va+2- On the other hand,
+
+ the union of all the Va for all ordinals a is just the same as the union of all the Η (κ )
+
+ for all cardinals κ, namely the whole universe. Hence, the Η (κ) stratification is more
+
+ fine grained than the von Neumann's Va stratification. As Woodin put it:
+
+ If CH fails, then these two structures can be very different, with the former struc
+
+ ture [{H(u)\), e)] possibly being fundamentally simpler than the latter structure.
+ (Woodin 2001a, p. 570).
+
+ This is why Woodin worked with the Η (κ) s rather than the von Neumann universe.
+
+ In terms of completeness, it is well known that one can transform any model of
+
+ arithmetic into a model of set theory. Woodin did this and obtained (Η (ω), e). The
+
+ theory that holds in this structure, i.e. the structure theory of (Η (ω), e), is ZFC with
+
+ the Axiom of Infinity replaced by its negation. Just as with PA, this theory is then
+
+ empirically and forcing complete for the structure. In fact, PA and this theory are
+
+ logically equivalent.
+
+ Woodin then turned his attention to the structure {H(a> 1), e), whose structure the
+
+ ory is second-order number theory.11 For this structure, the theory ZFC + ΡD is
+
+ empirically complete, where Ρ D stands for the Axiom of Projective Determinacy.
+
+ Projective Determinacy settles (in the context of ZFC) the classical questions
+
+ concerning the projective sets and moreover Cohen's method of forcing cannot
+
+ be used to establish that questions of second order number theory are formally
+
+ unsolvable from this axiom. (Woodin 2004, p. 3).
+
+ However, unlike PA, PD is not forcing stable, i.e. PD can be destroyed by forcing.
+
+ This can be circumvented by assuming class many Woodin cardinals,12 as will be seen
+
+ in the next section. ZFC + PD is hence effectively forcing complete.
+
+ Ρ A and ZFC + PD sue hence, for their respective structures, both empirically and
+
+ (effectively) forcing complete. Woodin called such theories canonical. But canoni
+
+ calness alone did not suffice for Woodin. Recall that he is a non-pluralist platonist.
+
+ If canonicalness were everything, there is to a good set theoretic theory, and then, it
+
+ would be unclear why there should be only one such theory for every structure. In fact,
+
+ as we will see below, in general, there are many of them. It is hence important that
+
+ the axioms of the canonical theory are also true. The truth of PA and ZFC is usually
+ unquestioned, and Woodin did not even mention his agreement here. The problem
+
+ lies with ΡD. Why should PD be seen as true? Set theorists have studied this axiom
+
+ extensively, and their results are seen by many to support the truth of Ρ D. A discussion
+
+ of these results would lead too far astray. The reader is referred to Woodin (2001a) for
+
+ 11 Second-order languages allow quantifications not only over variables, but also over sets of variables.
+
+ 12 A proper class is a collection, which is too big to be a set. Classical examples of a proper classes are
+
+ the universe of all sets and the collection of all the ordinal numbers. Classes are too big to be measured by
+ standard measurements via cardinalities. A collection is said to contain class many elements if it contains
+ as many elements as there are ordinals.
+
+ Ô Springer
+
+This content downloaded from 203.78.15.150 on Mon, 18 May 2020 09:20:01 UTC
+All use subject to https://about.jstor.org/terms
+
+ 132
+
+ C. J. Rittberg
+
+ a brief discussion of some of these results or to Sect. 6 for a short example. Woodin
+
+ answered the question about the truth of ΡD as follows:
+
+ Finally the intricate connections between this axiom [PD] and large cardinal
+
+ axioms provide compelling evidence that this axiom is true. For me, granting
+
+ the truth of the axioms for Set Theory, the only conceivable argument against
+
+ the truth of this axiom, would be its inconsistency. I also claim that, at present,
+
+ the only credible basis for the belief that the axiom is consistent is the belief
+
+ that the axiom is true. This state of affairs could change as the number theoretic
+
+ consequences of the axiom become more fully understood. (Woodin 2004, p. 3).
+
+ Woodin hence argued that the mathematical results proven by the set theoretic
+
+ community can support the truth of this axiom. Recall here also the citation given
+ above
+
+ the truth of [PD] became evident only after a great deal of work. For me, a
+
+ remarkable aspect of this is that it demonstrates that the discovery of mathemat
+
+ ical truth is not a purely formal endeavour. (Woodin 2001a)
+
+ That is, for Woodin, it was possible to discover true axioms via mathematical results.
+
+ It was hence possible to find true canonical theories for structures for which previously
+
+ no such theory was known. Woodin found this encouraging. He was now in a situation
+
+ where there is a true canonical theory for (Η {ω), e) and a true canonical theory for
+ (Η{ωι), e). He then took the next step: (Η(0)2), e).
+
+ In the structure {Η(ω2), e), the Continuum Hypothesis is decided. This is because
+
+ the CH can be expressed as a statement about Η(ω2). Therefore, if a true canonical
+
+ theory for (H(co2), e) would be found, the CH would have found an answer. This was
+
+ Woodin's goal. The problem was how to come up with a canonical theory for this
+ structure.
+
+ What Woodin was looking for was a theory for H{002), which is forcing invari
+
+ ant, i.e. for which independence results cannot be proven via forcing. A major prob
+ lem was that such a theory cannot be generated by large cardinal extensions of
+ ZFC; see the Lévy-Solovay Theorem discussed in Sect. 2. So how to find suitable
+
+ axioms that, when added to ZFC, form a theory that satisfies the request for forcing
+ invariance?
+
+ Woodin (1999) explored the non-stationary ideal13 on ω\ and managed, in a tech
+
+ nical tour de force and with the help of additional assumptions, to derive a statement
+
+ (*) that, when added to ZFC, resulted in a forcing invariant theory. In the same
+
+ book, Woodin realised that the needed technicalities can be captured by a strengthen
+
+ ing of classical logic to Ω-logic. This paper will be concerned only with the Ω-logic
+
+ approach.
+
+ <£) Springer
+
+ 13 A treatment of the non-stationary ideal on ω\ is beyond the scope of this paper; see Jech (2006) for
+ details; see Sect. 6 for a formal definition.
+
+This content downloaded from 203.78.15.150 on Mon, 18 May 2020 09:20:01 UTC
+All use subject to https://about.jstor.org/terms
+
+ How Woodin changed his mind
+
+ 133
+
+ 3.2 A brief introduction to Ω-logic
+
+ Ω-logic was first introduced by Woodin in the first edition of Woodin (1999).14 Since
+
+ then it has received further refinement by Woodin. The brief introduction to the topic
+ that follows is based on these refinements and is meant as a short overview for the
+
+ reader rather than as a description of a historical development. In the first part of this
+
+ section, the ideas and concepts of Ω-logic are informally introduced. The second part
+
+ then revisits these concepts and explains them in more technical detail.
+
+ 3.2.1 Ideas and concepts
+
+ In formal endeavours, there are two classical ways to decide whether a certain con
+
+ clusion C follows from some premisses Pq Pn. The first is to follow certain rules
+
+ to construct a proof of the conclusion from those premisses. These rules of proof are
+
+ captured in the provability notion, a syntactic notion, and we write Pq Pn\- C.
+
+ The second way to decide whether the conclusion follows from the premisses is to
+
+ construct a counter-example, i.e. a situation in which all the premisses are true, but
+ the conclusion is false. Such a situation amounts to the construction of a model where
+
+ all the premisses are true, but the conclusion is false. Of course, this disproves the
+
+ conclusion. Turning this around, one obtains that the conclusion follows from the
+
+ premisses if for all models in which the premisses hold, the conclusion holds as well.
+
+ This is the validity notion, a semantic notion, and we write Pq Pn I= C. For the
+
+ construction of Ω-logic, both the provability and the validity notion will be changed.
+
+ The method of forcing can change the truth values of some statements in the lan
+
+ guage of set theory (e.g. CH) but not of all of them (e.g. ZFC holds in every forcing
+ extension of a ZFC model). The main idea of Ω-logic is to define a new validity
+
+ notion such that all statements which are true in the ground model and whose truth
+
+ value cannot be altered by forcing are considered to be valid. This makes Ω-logic a
+ strong logic in the sense that every statement which is valid in classical (first order)
+
+ logic is also valid in Ω-logic but not vice versa. For example, the consistency of ZFC,
+ Con(ZFC), is Ω-valid from ΖFC (->Con(ZFC) is not forceable from a Ζ FC model)
+
+ but famously not classically valid from ZFC; cf. (Bagaria et al. 2006, p. 4).
+
+ With the semantic notion of Ω-validity in place, the search for an Ω-provability
+
+ notion begins. In classical logic, proofs are finite. However, Ω-logic is a strong logic,
+
+ and so it is reasonable to expect (or demand) that proofs are no longer finite but may
+
+ be infinite. This is not unprecedented. Via Gôdel numbering we are already used to
+
+ regard formulae as natural numbers. Proofs are then finite sets of natural numbers. It is
+
+ then a small step to allow for infinite sets of natural numbers as proofs. An infinite set
+
+ of natural numbers is a real (i.e. an element of R), and a collection of such infinitary
+
+ proofs is hence a set of reals. In Ω-logic, a proof is such a set of reals, i.e. an Ω-proof is a
+
+ subset of the reals. This makes a proof in Ω-logic big in the sense that it is uncountable,
+
+ but it is also not too big in the sense that its cardinality is at most the cardinality of the
+
+ continuum. Woodin then demanded of his Ω-validity notion that the proof survives
+
+ 14 Note that Woodin's Ω-logic is different from ω-logic.
+
+ Springer
+
+This content downloaded from 203.78.15.150 on Mon, 18 May 2020 09:20:01 UTC
+All use subject to https://about.jstor.org/terms
+
+ 134
+
+ C. J. Rittberg
+
+ the transition into forcing extensions. This is made precise by the notion of A closed
+
+ models (see below), where A is the Ω-proof. The Ω-provability notion is hence, in
+
+ a well-defined sense, invariant under forcings. This links to the considerations about
+
+ Ω-validity above.
+
+ provable.
+
+ A question is if the semantic (=n and the syntactic notions in Ω-logic match
+
+ in the sense of Gôdel's completeness theorem for first-order logic.15 Soundness is
+
+ Theorem 3.1 (Ω-soundness) Suppose that Τ is a set of sentences, that φ is a sentence,
+ and that Τ φ. Then Τ |=ω Φ- (Woodin 2004, p. 7).
+
+ For completeness on the other hand, a proof is still missing and Woodin has formulated
+
+ this completeness as the Ω-conjecture (see below).
+
+ 3.2.2 Technicalities
+
+ As mentioned above, the idea behind the definition of Ω-logic is to define a logic
+
+ whose validity notion is forcing invariant. The new validity notion |=ω is defined as
+
+ For all statements φ in the language of set theory: ZFC [=ω φ if, for all ordinals
+
+ a, in all forcing extensions in which ZFC holds at the at h level, φ holds at the
+ ath level as well.
+
+ This definition can be generalised by replacing ZFC by any recursively enumerable
+
+ extension Τ of ZFC.
+
+ ZFC |=ω φ is an (at most Π2) formula, which can be expressed in the language of
+
+ set theory. It hence makes sense to ask if Ζ FC (=q φ holds in some forcing extension
+ of the universe of sets V. Using this, one can now make the question for the forcing
+
+ invariance of \=q more precise:
+
+ Is it the case that ZFC |=ω φ holds in V if and only if ZFC |=ω Φ holds in
+ every forcing extension of VI
+
+ Woodin (1999) had shown that if there is a proper class of Woodin cardinals, then
+
+ the above holds.
+
+ The assumption that there is a proper class of Woodin cardinals is often made
+
+ by Woodin. In fact, many results of Ω-logic rely on it. Here is an argument for this
+
+ assumption. It is a very subtle one and one that was not explicitly made by Woodin in
+
+ his papers. Recall that for him ΡD is a true axiom. PD is equivalent to the statement
+
+ 'for every η there is a Mn such that Mn is a specific model in which η Woodin cardinals
+
+ exist'. The truth of ΡD is hence a good argument for the truth of this statement. The
+
+ problem is, however, that the statement is not a large cardinal axiom in the strict sense
+
+ as it posits the existence of models and not sets. The weakest large cardinal assumption
+
+ that implies Ρ D is that there are infinitely many Woodin cardinals, but then there is
+
+ wiggle-room in consistency strength (i.e. the reverse direction of the implication does
+
+ 15 Α-logic is sound if from the fact that there is an A-proof of the statement φ from some premisses T, i.e.
+
+ Τ hA φ, it follows that φ is also Λ-valid from T, i.e. Τ [=/\ φ. Λ-logic is complete if Γ \=α φ implies that
+
+ Τ hA φ. From Godel's Completeness Theorem, it follows that for classical logic, Τ 1= φ iff Τ l· φ.
+
+ Ô Springer
+
+This content downloaded from 203.78.15.150 on Mon, 18 May 2020 09:20:01 UTC
+All use subject to https://about.jstor.org/terms
+
+ How Woodin changed his mind
+
+ 135
+
+ not hold). Nonetheless, the existence of infinitely many Woodin cardinals can be seen
+
+ as an argument for the truth of Ρ D. But Woodin wanted PD to hold through forcing
+
+ extensions (it is a true axiom; hence, it should be true in all forcing extensions). By
+
+ moving to a forcing extension, we can 'kill' Woodin cardinals, i.e. the Woodin cardinal
+
+ looses its property of being a Woodin cardinal in a forcing extension. Hence, if there
+
+ are only infinitely many Woodin cardinals, then we could 'kill enough of them' to
+
+ reach a forcing extension where there are no longer enough of them to ensure ΡD.
+
+ To remedy this, we need unboundedly many Woodin cardinals in the ground model.
+
+ In this scenario, no matter how many Woodin cardinals we kill, there will always
+
+ remain enough to ensure ΡD. This means that we need class many Woodin cardinals
+
+ to start with.16 Hence, we have an argument for 'there is a proper class of Woodin
+ cardinals'.17
+
+ With a definition of the semantic notion |=& in place, we now look for a correspond
+
+ ing syntactic notion l·^. As mentioned above, classically proofs are finite sequences
+
+ of statements, i.e. via Gôdel numbering, finite sequences of natural numbers. Infinite
+
+ proofs are hence infinite sets of natural numbers, i.e. reals. The provability notion
+
+ of Ω-logic relies on multiple infinite proofs, i.e. sets of reals A ç R. For technical
+
+ reasons beyond the scope of this paper, it is assumed that A is universally Baire; see
+
+ Sect. 6 for a definition. Such a set of proofs then proves many different formulae.
+
+ However, (thanks to A being universally Baire), we can use the Wadge hierarchy (see
+
+ Sect. 6) to define the length of an Ω-logic proof. It makes therefore sense to talk about
+
+ the shortest Ω-proof A for φ. An Ω-proof hence has similarities to an ordinary proof.
+
+ The forcing invariance of F-q translates into this picture as 'carrying over' A into
+
+ the forcing extension. We are in a position where we have an Ω-proof A (which is
+
+ just a subset of the reals) in some model M and we wish that A survives the transition
+
+ into a forcing extension of M. This can be made precise by demanding that M is
+
+ Α-closed. Woodin has introduced many different ways to formalise this, all of which
+
+ are equivalent; cf. (Bagaria et al. 2006, Prop. 2.9).18
+
+ With this in mind recall Gôdel's Completeness Theorem:
+
+ A theory proves φ if and only if all models of said theory also model φ.
+
+ That is, as test-structures, all models are allowed. By restricting the class of test
+ structures, one obtains a stronger logic. A maximal case of this is allowing only a
+
+ single test-structure, in which case the strong logic would decide every statement. The
+
+ 16 For connoisseurs: To demand unboundedly, many Woodins is to demand a process. That this process
+
+ can be regarded as an object in its own right is due to a principle already present in Cantor: 'for every rule
+ or process by means of which a collection of elements is obtained there is a set which contains exactly
+
+ the elements which conform to the rule, or are obtained in the process, respectively' (Fraenkel et al. 1984,
+ pp. 30-31). Of course today we know that the above formulation leads to inconsistencies (it allows for
+
+ the Russell set) and have hence changed the word 'set' to 'class' in the above. The process of having
+
+ unboundedly many Woodin cardinals is hence simply the same as having a class of Woodin cardinals.
+
+ 17 I am indebted to José Ferreirôs and especially Dominik Adolf for drawing my attention to this subtlety.
+
+ 18 For connoisseurs: Given a universally Baire set A, an e-model M of (a fragment of) ZFC. Then, M is
+ Α-closed if for all posets Ρ e M and all V generic filters GÇP;
+ V[G] μ M[G] Π e M[G].
+
+ Springer
+
+This content downloaded from 203.78.15.150 on Mon, 18 May 2020 09:20:01 UTC
+All use subject to https://about.jstor.org/terms
+
+ 136
+
+ C. J. Rittberg
+
+ above considerations present us with a different class of test-structures: the Λ-closed
+ models.19
+
+ Woodin defined the Ω-provability relation as
+
+ ZFC φ if there exists a universally Baire set A such that for all A-closed,
+ countable, transitive models M and for all ordinals a in M\ if Μ Π Va \= ZFC
+ then Μ Π Va |= φ.
+
+ Notice that the relation is defined only in case there is a model of ZFC, i.e.
+
+ the consistency of ZFC is a necessary assumption for Ω-logic. Notice also that the
+
+ above definition is given under the assumption that there is a proper class of Woodin
+
+ cardinals. As mentioned elsewhere, this assumption is frequently made when dealing
+
+ with Ω-logic. However, it is possible to define without this assumption, see Bagaria
+
+ et al. (2006). Where the assumption is needed is for the forcing invariance of the
+
+ relation. That is, if there is a proper class of Woodin cardinals, then ZFC φ holds
+
+ in V if and only if it holds in every forcing extension of V.
+
+ We now have a semantic and a syntactic notion. A natural question to ask is if
+ these two coincide. Woodin (1999) showed soundness, i.e. that 'ZFC φ implies
+ ZFC (=Ω Φ'· Completeness, i.e. the other direction of the implication, is still an open
+
+ problem. Woodin has formulated this as the
+
+ Ω-Conjecture: If there is a proper class of Woodin cardinals, then ZFC φ
+ if and only if ZFC )=ω Φ·
+
+ 3.3 Ω-Logic and the (*)-axiom
+
+ I now return to Woodin's search for a canonical (i.e. empirically complete and effec
+
+ tively forcing complete) axiomatisation of (Η(ω2), e). Canonical axiomatisation was,
+
+ from Woodin's point of view, left as an imprecise notion. Given the above consider
+ ations about Ω-logic, Woodin saw himself in a position to make this notion more
+
+ precise, namely by formalising it using the new notion of Ω-provability. His point
+
+ can be put thus: an empirically complete theory is empirically complete because we
+
+ cannot prove the independence of (natural) mathematical statements from this theory.
+
+ Independence proofs are (mostly) done via forcing; hence, these empirically complete
+
+ theories are effectively forcing complete (i.e. they are canonical). To model this sit
+
+ uation by a proof relation in a strong logic therefore requires the new proof relation
+
+ to be invariant under forcing. As seen above, is invariant under forcing (assuming
+
+ a proper class of Woodin cardinals). Therefore, according to Woodin, Ω-provability
+
+ can model canonicalness of theories. The following theorem is an intuition pump for
+ this:
+
+ 19 For connoisseurs: There are only countably many sentences in the language of set theory, and the
+
+ universally Baire sets are closed under preimages by Borel functions and countable unions. Therefore,
+ there exists a single Λβ such that the class of models under consideration here are the -4 q-closed models.
+
+ Φ Springer
+
+This content downloaded from 203.78.15.150 on Mon, 18 May 2020 09:20:01 UTC
+All use subject to https://about.jstor.org/terms
+
+ How Woodin changed his mind
+
+ 137
+
+ Theorem 3.2 Suppose there exists a proper class of Woodin cardinals. Then for each
+
+ sentence φ,
+
+ if and only if
+
+ Woodin (2001b).
+
+ ZFC Ηω"<Η(ωχ),ϊ)\=φ"
+
+ (Η(ωi),e> \=φ.
+
+ We have already seen that there is a canonical theory for (Η(ω\), e).20 Woodin's
+
+ idea was that the above theorem expresses this canonicalness.
+
+ The search for a canonical theory for (Η{ωι), e) could hence be expressed thus:
+
+ Can there exist a sentence ψ such that for all sentences φ either
+
+ ZFC + irhn
+
+ or
+
+ ZFC + "(H(ft)2), e) μ -0"
+
+ and such that ZFC + ψ is Ω-consistent? (Woodin 2001b, p. 686).
+
+ Call such ψ good. A good ψ is hence such a ψ that, when added to ZFC, completely
+
+ determines, in Ω-logic, the structure theory of {Η(ω2), e). Such a ψ would, granting
+
+ Ω-logic, generate a canonical theory for (H(c02), e). It would hence decide the CH
+
+ (recall that CH becomes decided in this structure). But is there such a good ψΐ
+
+ Woodin came close to constructing a good ψ. The additional assumption he needed
+ was that there is an inaccessible cardinal, which is a limit of Woodin cardinals. Given
+
+ this assumption, his (*)-axiom (Star-axiom) is good.21 The definition of this axiom
+ is technical. I shall give it here and refer the reader to Sect. 6 for a discussion of the
+
+ relevant concepts.
+
+ Axiom (*): There is a proper class of Woodin cardinals, and for each projective set
+ X ç R, for each Π2 sentence φ, if the theory
+
+ ZFC + "(H{a)j),INs,X,e) \=φ"
+
+ is Ω-consistent, then
+
+ Woodin (2001b, p. 687).
+
+ {H((02),Iat5.X,c) h Φ
+
+ 20 Keep in mind that the existence of a proper class of Woodin cardinals guarantees PD.
+
+ 21 For connoisseurs: The assumption is needed for Ω-consistency.
+
+ Ô Springer
+
+This content downloaded from 203.78.15.150 on Mon, 18 May 2020 09:20:01 UTC
+All use subject to https://about.jstor.org/terms
+
+ 138
+
+ C. J. Rittberg
+
+ This axiom is provably good in the above sense. Furthermore, the following important
+
+ result can be proven:
+
+ Theorem 3.3 The (*)-axiom implies 2K° = K2,
+
+ i.e. the (*)-axiom implies that the CH is false. This amounts to a case against CH.
+ Recall that (*) is good. By the representation of canonicalness via the relation,
+ this means that Ζ FC + (*) is a canonical theory, i.e. ZFC + (*) is effectively forcing
+
+ complete and empirically complete. But this is what Woodin had individuated as
+ criteria that the theories PA (or its set theoretic representation) and ZFC + PD
+ satisfy. ZFC + (*) satisfies these criteria also and hence could be seen as suitable or
+ even as true.
+
+ The above argument is weak. There might be other axioms that, when added to
+
+ ZFC, also satisfy these criteria. Whilst true, this is not troublesome. Here is the
+
+ argument. Consider, for any good axiom ψ, the theory Τψ which contains all those φ
+ such that H(a>2) f= φ is Ω-valid from ZFC + ψ. That is: Τψ = {φ | ZFC + ψ (=ω
+ "Η(ω2) \= φ"}. Woodin had shown that if there is a proper class of Woodin cardinals
+
+ and the Ω-conjecture holds, then -<CΗ is an element of Τψ for all good ψ. This means
+ that as long as we add a good axiom to ZFC we will get a structure theory for Η (ω 2)
+
+ which includes the negation of the CH, i.e. which says that CH is false. In short: all
+
+ good extensions of ZFC imply that CH is false.
+
+ There is, however, another problem. By a result of 2009 by Koellner and Woodin,
+
+ the good extensions of ZFC are manifold. They managed to construct out of a good
+
+ extension of ZFC, Τψ0, another good extension of ZFC, Τψι, such that Τψ0 φ Τψί.
+ So even though the theories all agree that the CH is false, they disagree elsewhere.
+ But then: which theory should we accept? This question is important, especially in
+
+ the light of a non-pluralist understanding of the metaphysics of set theory.
+
+ Woodin has given no clear answer to this question. In Woodin (2001b), he presented
+
+ 7(*) as the most promising candidate. Nonetheless, he concluded his paper with
+
+ So, is the Continuum Hypothesis solvable? Perhaps I am not completely con
+
+ fident the 'solution' I have sketched is the solution, but it is for me convincing
+
+ evidence that there is a solution. (Woodin 2001b, p. 690).
+
+ A possible reading of this quote is that Woodin made a case against CH, not a
+
+ case for the (*)-axiom. The (*)-axiom was only used to show that there are good
+ axioms. This conflicts with his focus on the (*)-axiom in the paper. Throughout the
+
+ paper, it seems that the (*)-axiom is presented as the axiom candidate we should
+
+ accept. Accepting this axiom would not only show that the C Η is false (as every good
+
+ axiom would) but it would settle the question of the power of the continuum: under
+ the (*)-axiom 2**° = K2.
+
+ Woodin (2004) only discussed the (*)-axiom. The whole confusion that there are
+ other good axioms were left out. This pushed the (*)-axiom again as the good axiom
+
+ we should accept.
+
+ Koellner (2013) showed that 7(*) is in a well-defined sense maximal amongst the
+
+ Τψ (for good ψ). Therefore, we should accept the (*)-axiom. This seems reasonable,
+
+ but an argument why we should accept maximal theories is not given. In fact, Γ(*) is
+
+ £1 Springer
+
+This content downloaded from 203.78.15.150 on Mon, 18 May 2020 09:20:01 UTC
+All use subject to https://about.jstor.org/terms
+
+ How Woodin changed his mind
+
+ 139
+
+ maximal for an enrichment of Η (ω2) by the non-stationary ideal (on ω\) and a subset
+
+ of the reals of L(R).22 Why is maximality for this structure desirable? This question
+
+ is not answered in Koellner's paper.
+
+ 3.4 Summary
+
+ Woodin had considered fragments of the universe of sets V. The first fragment, Η (ω),
+
+ is (equivalent to) the structure of (first order) number theory. ZFC with the Axiom of
+
+ Infinity replaced by its negation is a canonical (i.e. good) theory for this structure.
+
+ The second fragment is Η (ω \). The canonical theory for this structure is ZFC +
+
+ ΡD. This theory was found only by much work, work which has not been discussed
+
+ in this paper.
+
+ The third fragment of V is Η (ω2). It is in this fragment that the CH becomes
+ decided. Via Ω-logic (plus the assumption that there is a proper class of Woodin
+ cardinals; that there is an inaccessible cardinal which is a limit of Woodin cardinals;
+
+ and that the Ω-conjecture holds), Woodin could show that there is a canonical theory
+ for this structure: ZFC + (*). This theory implies 2K° = K2 (i.e. ->CH). What is
+ more, every canonical theory for this structure implies -<CΗ.
+
+ Is this process of gradually working ourselves upwards the infinite ladder of the
+
+ fragments of V satisfying? Could it not be that the process stops at some point? And
+
+ is it not off-putting that we have analysed only such a minuscule part of the transfinite
+
+ universe? Woodin disagrees:
+
+ I see no reason why this [process] should stop here and I am not unduly dis
+
+ couraged by the fact that these structures are negligible initial segments of the
+
+ universe of sets. (Woodin 2004, closing words).
+
+ 4 The case for CH
+
+ In 2010, Woodin's tone changes. Where he was earlier ready to analyse the set theoretic
+
+ universe fragment by fragment, he now presents an argument for a form of extension
+
+ of ZFC based on the whole universe. He moved from a local to a global argument.
+ This change came about, according to Woodin, because of new mathematical results
+
+ that he was able to prove.
+
+ 4.1 The fate of the Ω-conjecture
+
+ The results in Sect. 3 rely on the Ω-conjecture. Without it, Ω-logic would be far less
+
+ compelling, which would in turn weaken Woodin's results. So the question becomes:
+
+ How to prove the Ω-conjecture?
+
+ As a first observation it has to be noted that if the Ω-conjecture holds in V, then
+
+ it holds in every forcing extension of V. This is a very strong result, which indicates
+
+ 22 See Sect. 6 for a discussion of L(R).
+
+ <£} Springer
+
+This content downloaded from 203.78.15.150 on Mon, 18 May 2020 09:20:01 UTC
+All use subject to https://about.jstor.org/terms
+
+ 140
+
+ C. J. Rittberg
+
+ that the Ω-conjecture might be disprovable. After all, we would only have to find a
+
+ forcing extension of V where the conjecture does not hold in order to disprove it.
+
+ Thus it is not unreasonable to expect both that the Ω-Conjecture has an answer
+
+ and further if that answer is that it is false, then the Ω-Conjecture be refuted
+
+ from some large cardinal hypothesis. (Woodin 2010b, p. 4).23
+
+ But it turns out that the level of such a large cardinal in the large cardinal hierarchy
+
+ would have to be rather big; it would have to be beyond the level accounted for by a
+
+ certain type of inner model. This will be explained in more detail below. But if the
+
+ Ω-conjecture would be true, then there would be no such critical level. This question,
+
+ is there a critical level or not, is Woodin's motivation to start his project in inner model
+
+ theory, the results of which can be found in large parts in Woodin (2010b) and Woodin
+ (2011).
+
+ As it turns out there is evidence (but no formal proof) that there is no such critical
+
+ level and that the Ω-conjecture is in fact true. But in the course of collecting the
+
+ evidence for this, something else happened. Woodin was able to show that if an inner
+
+ model could be found which accommodates supercompact cardinals, then, contrary to
+
+ what holds for smaller large cardinals, this inner model would accommodate all other
+
+ large cardinals (consistent with ZFC). This remarkable result (or more precisely:
+
+ the work surrounding it) then gives rise to a new kind of axiom, the axiom that V is
+
+ Ultimate-!. In turn, this axiom would decide the independent statements, statements
+ such as the CH. The aim of this section is to make what has been said thus far more
+
+ precise.
+
+ 4.2 Inner model theory
+
+ Gôdel had shown the consistency of the Axiom of Choice, AC, with Ζ F (the axioms
+
+ of ZFC without AC) by a construction of a model for ZF. Gôdel assumed that the
+ Ζ F axioms are consistent and constructed the so-called constructible universe, which
+
+ is classically denoted by L; (Gôdel 1938, 1939, 1940). In this model, AC holds.
+ Hence, assuming the consistency of ZF, there is no inconsistency in ZF + AC (i.e.
+
+ ZFC). This model, L, gives a very well understood structure, and its structure theory
+
+ is effectively complete in a sense similar to the effective completeness of ZFC + Ρ D
+
+ for Η(ωι). So why not accept V — L, i.e. the axiom which states that the universe of
+ sets is in fact the constructible universe, as correct? ZFC+V = L is a well understood
+
+ theory which resolves most set theoretical questions. For example, it proves the CH.
+
+ However, L does not accommodate large cardinals. This was shown by Scott:
+
+ Theorem 4.1 Suppose there is a measurable cardinal. Then V φ L; Scott (1961).
+
+ Woodin is known to add in his presentations after Scott's theorem the following "(meta)
+ corollary" [e.g. in Woodin (2010c)].
+
+ Corollary 4.2 V Φ L
+
+ 23 This argument can be strengthened by regarding the corresponding claim for the non-trivial Ω
+ satisfiability of the Ω-conjecture, see (Woodin 2010b, p. 4).
+
+ â Springer
+
+This content downloaded from 203.78.15.150 on Mon, 18 May 2020 09:20:01 UTC
+All use subject to https://about.jstor.org/terms
+
+ How Woodin changed his mind
+
+ 141
+
+ Woodin expresses here his convictions that there are measurable cardinals. Measurable
+
+ cardinals are relatively small large cardinals (i.e. they are low in the hierarchy). And
+
+ if L cannot accommodate these small large cardinals, it cannot accommodate any
+
+ larger large cardinals. So, if V = L, then there are no large cardinals at the level of a
+ measurable cardinal or above. This is Woodin's case against V = L, and it is a case
+
+ which he shares with a majority of the set theoretical community.
+
+ The inner model programme seeks L-like structures, i.e. models which are as well
+
+ understood as L, and which can accommodate large cardinals. This programme is
+
+ based on work of Lévy (1957,1960) and Hajnal (1956,1960). These mathematicians
+
+ presented independently from each other the generalisations L[E] and L(E) of L,
+
+ respectively.24 Scott's theorem cited above can be said to have started the inner model
+
+ programme; (Mitchell 2012, p. 5). Solovay, working on measurable cardinals at the
+
+ time, then initiated work on L[E] as analogous to L. One of the main results of this
+
+ direction of study is that L[E] can be constructed in such a fashion that it contains
+
+ a measurable cardinal. However, Solovay also showed that this L[E] only contains a
+
+ single measurable cardinal and cannot contain any large cardinal, which is higher in
+
+ the large cardinal hierarchy than a measurable cardinal; in L[E], a version of Scott's
+
+ theorem holds. L[E] is an inner model, a concept introduced by Shepherdson who
+
+ had largely proof-theoretic aims in mind; (Shepherdson 1951). Today the term 'inner
+
+ model' is reserved for a special case: A proper class M is an inner model if and only
+
+ if M is a transitive é-model of Ζ F (Kanamori 2009, p. 33).
+
+ Powell (1974) introduced the concept of extenders in a general context. Extenders
+
+ are functions derived from elementary embeddings, where elementary embeddings are
+
+ functions between models, which preserve truth. Mitchell (1979) then used extenders
+
+ in large cardinal theory and his work was further extended by Dodd (1982). The idea
+
+ was that large cardinals can be defined in terms of elementary embeddings from which
+
+ extenders can be derived. These can then be used in the construction of Solovay's
+ L[E] for example. By allowing extender sequences, Mitchell, Jensen and Dodd were
+ able to construct L-like models for strong and superstrong cardinals. There is not
+
+ enough room here to fully develop the history of the inner model programme. It was
+
+ influenced by work on determinacy and by its brother-programme, the core model
+
+ programme. See Kanamori (2009) for the early stages of this history, see Mitchell
+
+ (2012) for more recent developments. Today the best results, according to Woodin,
+
+ are the Mitchell-Steel extender models, presented in Mitchell and Steel (1994), which
+ can accommodate Woodin cardinals.
+
+ To understand the heuristic of the inner model programme, it will be helpful to
+
+ sketch the construction of Solovay's L[E] in the modern extender-terminology.
+
+ Assume we are looking for a model which accommodates a measurable cardinal.
+
+ Just as Gôdel assumed the consistency of Ζ F for the construction of L, we now
+
+ 24 In the ordinary construction of L, we use the definable powerset operation Voef for successor steps:
+ La+1 = ~PDef(La), where La+\ contains all those subsets of La that are definable from a finite number
+ of elements of La by a formula relativised to La. For the construction of L[E], not only the elements of
+
+ La are used as defining parameters, but also elements of E. The construction of L(E) proceeds just like
+
+ the construction of L but rather than starting form the empty set 0 the construction is started from the set
+ E. See Sect. 6 for formal definitions. The differences between L.\E] and L(E) are most clearly seen by
+ observing that, in general, Ε e L(E) but not Ε e L[E\.
+
+ Springer
+
+This content downloaded from 203.78.15.150 on Mon, 18 May 2020 09:20:01 UTC
+All use subject to https://about.jstor.org/terms
+
+ 142
+
+ C. J. Rittberg
+
+ assume the consistency of ZFC+'There is a measurable cardinal'.25 The idea is to use
+
+ Lévy's model L[E], Let Ε be the extender given to us by the elementary embedding,
+ which defines the measurable cardinal. Then, L[E] is the model one obtains when
+
+ constructing L whilst using the information coded in E. In this model, ZFC+'There
+
+ is a measurable cardinal' holds. This was the first goal. But furthermore this model is,
+
+ similar to L, 'simple' and can be very well analysed; it is L-like.
+
+ As stated above, this L-likeness even goes so far that there is a corresponding result
+
+ to Scott's theorem in L[E]\ L[E] cannot accommodate any large cardinals above the
+
+ level of a measurable cardinal. That is why there has never been a proposal for a new
+ axiom of the form V = L[E]. So it is up to the inner model programme again to
+ find L-like structures, which could accommodate even stronger axioms. However, it
+
+ turns out that this is not possible with a single extender. That is, the example given
+
+ above is the only case in which an L-like structure can be obtained by one extender.
+
+ The problem lies in the derivation of the extender Ε from the elementary embedding.
+
+ Recall that the elementary embedding is closely linked to the large cardinal under
+
+ consideration. An extender then codes some of the information about this embedding,
+
+ but not all of it. The problem is that for stronger large cardinals, a single extender does
+
+ not code enough information about the embedding, too much gets lost.
+
+ There is an obvious remedy to this—allow for sequences of extenders—but it comes
+
+ with a problem. The more information is fed into the construction of the new L-like
+
+ structure, the less L-like it is going to be. The new structure will be more and more
+
+ complicated and less and less well analysable. It is this trade-off between reaching
+
+ larger large cardinals and the loss of L-likeness that the inner model programme has
+ to balance.
+
+ Mitchell, Jensen and Dodd allowed for sequences of extenders, which changed the
+ heuristic as follows: target the large cardinal axiom φ and assume ZFC + φ to be
+ consistent. Hence, there is an elementary embedding. From this embedding, one can
+
+ generate a sequence of extenders. Add the information coded in this sequence to the
+ construction of L to obtain a model for ZFC + φ. This method has proven to be
+ very fruitful in the sense that models which can accommodate large cardinals which
+ are stronger than measurable cardinals have been constructed. However, a version
+
+ of Scott's theorem holds again in all these models. Hence, every model constructed
+
+ in this way is limiting, it can only accommodate large cardinals up to the targeted
+
+ large cardinal axiom, but no larger one. So it is up to the inner model programme to
+
+ find yet another model to reach higher and higher levels of large cardinal axioms. As
+ mentioned above, Mitchell-Steel extender models can accommodate Woodin cardinals
+
+ and, assuming an iteration hypothesis, they extend it to a level just below that of a
+
+ supercompact.26
+
+ 25 Notice one key difference in the assumptions between Godel's construction of a model and how the inner
+ model programme resolves the issue. Gôdel did not assume anything about AC or CH, yet his resulting
+ model believed both statements. Hence, he had proven consistency of AC and CH with ZF. The inner
+
+ model programme on the other hand assumes the consistency of ZFC plus whatever large cardinal axiom
+
+ is under scrutiny and then tries to find a model for it. That is, the inner model programme does not prove
+
+ consistency of ZFC plus the large cardinal axiom because consistency is already set as a premiss.
+
+ 26 The reader might find it helpful to refer back to Sect. 2 and the (incomplete) list of large cardinal axioms
+
+ given there to 'see the picture'.
+
+ Springer
+
+This content downloaded from 203.78.15.150 on Mon, 18 May 2020 09:20:01 UTC
+All use subject to https://about.jstor.org/terms
+
+ How Woodin changed his mind
+
+ 143
+
+ Recent work of Woodin has led to a remarkable result (Woodin 2010b). Woodin
+
+ starts by assuming that there is an inner model, which can accommodate a supercom
+
+ pact cardinal. It has to be noted that this is a strong assumption. No such model has
+ been found thus far (in the sense in which a model which can accommodate a mea
+
+ surable cardinal has been found). The surprising result is that if such an inner model
+
+ could be found, then it would accommodate all large cardinals (that are consistent
+ with ZFC).
+
+ [T]his is a paradigm shift in the whole conception of inner models. (Woodin
+ 2009a, p. 21).
+
+ Where the structures thus far produced by the inner model programme stop somewhere
+
+ near the middle of the large cardinal hierarchy (due to versions of Scott's theorem),
+
+ this new model would go all the way up to the top. Furthermore, this inner model
+ would be 'close to V' in a well-defined sense. This makes this model the, as Woodin
+
+ calls it, Ultimate L. It is L-like, can accommodate all large cardinal axioms (consistent
+ with ZFC) and is 'close to V\ Furthermore, the axiom V = Ultimate L could resolve
+
+ the undecidability problems. This is discussed in more detail below.
+
+ To recapitulate. The Inner Model Programme seeks L-like structures that can
+
+ accommodate large cardinal axioms. Each such structure comes with a version of
+
+ Scott's theorem, resulting in the fact that the targeted large cardinal can be accom
+
+ modated, but no stronger one. This changes at the level of a supercompact cardinal.
+
+ However, this level has not been reached yet.
+
+ In fact, the level of a supercompact cannot be reached by the current methods of the
+
+ Inner Model Programme. The point is that up until now extender models have been
+ used by the Inner Model Programme. However, no (Mitchell-Steel) extender model
+
+ can accommodate supercompact cardinals, as Woodin has shown (Woodin 2010b). But
+
+ this does not mean that supercompact cardinals cannot be accommodated in any inner
+
+ model, it only means that the methods currently used are insufficient for Woodin's aim.
+
+ Woodin changes the methods and presents strategic extender models. A definition and
+
+ explanation of these kinds of models lie beyond the scope of this paper. Instead I shall
+ discuss how Woodin came to individualise them.
+
+ HOD stands for Hereditary Ordinal Definable and the class it refers to contains
+
+ all those sets which are definable from ordinal parameters.27 It was Gôdel who first
+ proposed the concept of ordinal definability in a talk in 1946, cf. Gôdel (1965). The
+
+ theory of this class was developed independently by Vopënka et al. (1968) and Myhill
+ and Scott (1967). HOD is a model for ZFC, but, unlike L, HOD is not absolute.
+
+ That means that depending on in which model HOD is calculated, HOD changes.
+
+ For example, if calculated in L, then HOD = L, but if calculated in V (and assuming
+ a technical assumption), then HOD φ L. This makes HOD very difficult to study
+ and we know very little about this structure (compared to our knowledge about L).
+
+ But it also makes it a very interesting structure to study since (in general) there are no
+
+ versions of Scott's theorem in HOD. That means that HOD can accommodate very
+ strong large cardinal axioms, depending on where HOD is calculated.
+
+ 27 See Sect. 6 for a formal definition.
+
+ ■£) Springer
+
+This content downloaded from 203.78.15.150 on Mon, 18 May 2020 09:20:01 UTC
+All use subject to https://about.jstor.org/terms
+
+ 144
+
+ C. J. Rittberg
+
+ In the late 1950s, there was a renewed interest in infinite games amongst Polish
+
+ mathematicians. Mycielski and Steinhaus proposed in their paper Ά mathematical
+
+ axiom contradicting the axiom of choice' of 1962 the Axiom of Determinacy, AD,
+
+ which states that every game is determined, i.e. has a winning strategy. This axiom,
+
+ though powerful, contradicts the Axiom of Choice, as Mycielski's and Steinhaus' title
+
+ shows. The authors accepted AC but noted that there might be subuniverses of the
+ universe of sets
+
+ which reflect some physical intuitions which are not fulfilled by the classical
+ sets (e.g. paradoxical decompositions of the sphere are eliminated by [AD])
+
+ (Mycielski and Steinhaus 1962)
+
+ The natural possibility for such a universe is L(R), as Solovay pointed out (see also
+
+ L{E)), and in the late 1960s, he conjectured that AD holds in L(M) relative to the
+
+ existence ofa supercompact cardinal (Solovay 1969). L(M) became the focus of serious
+
+ study and is today a very well understood structure. This makes it natural to look at
+ HOD calculated in L(R), written as HODl^\ What happens is summed up in the
+ following theorem.
+
+ Theorem 4.3 (Woodin) Assume there is a proper class of Woodin cardinals. Then
+ HODl( ) is not a Mitchell-Steel extender model. Woodin (2010a, p. 16), emphasis
+ in original.
+
+ Woodin asks the relevant question:
+
+ But then what is Η Ο ? It belongs to a different, previously unknown, class
+ of extender models, these are the strategic extender models. (Woodin 2010a, p.
+
+ 16), emphasis in original.28
+
+ In what way do these strategic extender models help us? Can they accommodate
+
+ supercompact cardinals? We do not know yet. But they have a different feature which
+
+ is of major importance:
+
+ The structure and theory of strategic extender models will be fully revealed by
+
+ the inner models Η Ο DL(-A'^\ where A is universally Baire. (Woodin 2010a, p.
+ 16).
+
+ This means that by studying these structures HODL^A ^ we might reveal that
+
+ there is an inner model which can accommodate supercompact and hence all large
+ cardinals that are consistent with ZFC. The
+
+ understanding (and even discovering) [of] large cardinal axioms would have to
+
+ depend on structural considerations of "Ultimate-L". (Woodin 2009b, p. 32).
+
+ Hence the philosophical debate on large cardinals is given mathematical traction by
+ Woodin's results.29
+
+ 28 For connoisseurs: the concept of a strategic extender model is an evolution of Jensen's and Dodd's
+
+ concept of a mouse. I am indebted to Dominik Adolf for pointing this out to me.
+
+ 29 This term was coined in Koellner (2013).
+
+ Ô Springer
+
+This content downloaded from 203.78.15.150 on Mon, 18 May 2020 09:20:01 UTC
+All use subject to https://about.jstor.org/terms
+
+ How Woodin changed his mind
+
+ 4.3 Mathematical traction
+
+ 145
+
+ There is more to the mathematical traction than mentioned above. But before dis
+
+ cussing this, it will be useful to retrace the steps that have led us to where we are.
+
+ It all started with the Ω-conjecture. A way to disprove it would be via large cardi
+
+ nals. This led to a study of large cardinals and in particular to structures, which can
+
+ accommodate these large cardinals. As it turns out, the classical approaches by the
+
+ Inner Model Programme do not suffice for our purposes. Hence, Woodin introduces
+
+ a new approach via strategic extender models. If these models can accommodate a
+
+ supercompact cardinal, then they can accommodate all large cardinals (whose exis
+
+ tence is consistent with Ζ FC). This is a remarkable and completely surprising result.
+
+ If such a model could be found, it would reflect back to the Ω-conjecture and serve
+
+ as an argument for (but not a proof of) the correctness of the conjecture. Let us, with
+
+ Woodin, call such a strategic extender model . Whether such an L® exists will,
+ according to Woodin, be revealed by studying the strategic extender models of the
+
+ form HODL(-a'^\ where A is universally Baire.
+
+ Recall that Woodin has rejected V = L on the basis that this axiom is too limiting,
+
+ it does not allow for all large cardinals that are consistent with ZFC. But what about
+
+ V = L^? This axiom would not be limiting in this way because, as mentioned
+ above, a model which can accommodate a supercompact cardinal can accommodate
+
+ all large cardinals consistent with ZFC. Interestingly, this axiom can, in the light of
+
+ the existence of a supercompact cardinal, be formulated thus:
+
+ Definition 4.4 (The axiom V = Lf) There is a proper class of Woodin cardinals.
+ Then for each Π2 sentence φ which holds in V there is a universally Baire set A such
+ that
+
+ H0DL(AM n μ φ
+
+ where Θ = with ©ΜΑ,Μ) being the supremum of all the ordinals a such that
+ there is a surjection π : Ε -* a such that π e L(A, R).
+
+ This axiom states that V is Ultimate-L. With this axiom, the questions about truths
+
+ in V reduce to questions about models of the form ΗΟΰι<·Α·^\ But these structures
+
+ are accessible to study by our current means: L(A, R) is L-like, which makes HOD
+
+ calculated in this structure L-like as well (keeping in mind that L-likeness is left as a
+
+ vague notion).
+
+ Here is the main result of this section:
+
+ Theorem 4.5 The axiom V — implies the CH (Woodin 2010a).
+
+ But this result fades into the background when considering the full fruitfulness of the
+
+ axiom: V = L^ is generalisable. One could allow for more or different φ and instead
+ of a single universally Baire set A a whole sequence Γ of them might be considered,
+
+ i.e. L(T, R) instead of L(A, R). Together with these generalisations, V = Lf would,
+ so Woodin believes (but there is no formal proof), reduce all undecidable statements
+
+ of set theory to questions about large cardinals. As Woodin expresses it, it would
+
+ banish the spectre of undecidability as demonstrated by Cohen's method of
+ forcing. (Woodin 2010a), closing words.
+
+ <£) Springer
+
+This content downloaded from 203.78.15.150 on Mon, 18 May 2020 09:20:01 UTC
+All use subject to https://about.jstor.org/terms
+
+ 146
+
+ C. J. Rittberg
+
+ This is mathematical traction. The philosophical pluralism/non-pluralism debate
+
+ mentioned in Sect. 1 could be settled on the basis of answers to precise mathematical
+
+ questions. These are questions about structures that we already know and which we
+ can define, questions about the HOD^.R) These questions about Η00ΙΑΑ^) are
+ not independent from ZFC; independence would cease to be an issue.
+
+ And if V = Lf should turn out to be true, then the CH would be true as well.
+
+ But here a problem slips in. V = L^ is not the only axiom for 'V is Ultimate-L'.
+
+ If there is one such Ultimate-L, then there are many. And another one, such as L®y
+ for example, would imply that the CH is false. But this no longer matters too much.
+
+ All axioms that state that V is Ultimate-L resolve all independence questions (at least
+ so Woodin hopes). And all of them involve the study of already known structures,
+
+ i.e. they all reduce independence questions to precise mathematical questions, which
+ have solutions. This is what makes V = Ultimate-L interesting; the question about
+
+ C Η has become secondary.
+
+ At a conference in Bristol in 2013, Woodin implied that he believes that L^ will
+ be the correct Ultimate-L. This would mean that CH is true, and this also means that
+
+ Woodin has changed his believe about the truth of CH.
+
+ Many questions remain; precise mathematical questions. They are mathematically
+
+ difficult questions to be sure, but we have no reason to believe that they do not have
+
+ an answer. And Woodin has started to try and solve them.
+
+ Acknowledgments I would like to thank Brendan Larvor, Dominik Adolf, Jeremy Grey and José Ferreiôs
+
+ for their helpful comments.
+
+ 5 Appendix A: Large cardinal axioms
+
+ This appendix gives definitions of all the large cardinal axioms mentioned in Sect. 2.
+
+ All of the definitions are minor reformulations of the definitions given in Jech (2006)
+ and Kanamori (2009). The latter is considered to be a classical text on the historical
+
+ development of large cardinal axioms. A good and short introduction to the topic is
+ Honzik (2013).
+
+ An elementary embedding, j, is a truth-preserving function between two models.
+
+ The critical point of j, crit(j), is the smallest ordinal a such that α φ j(a). A simple
+
+ proof by transfinite induction shows that crit(j) < j{crit{j)), and it can be shown
+
+ that crit(j) is always a cardinal. The identity-embedding is the trivial elementary
+
+ embedding and in all the definitions that follow j is non-trivial.
+
+ Definition 5.1 AReinhardtcardinalisaic = cri t ( j ) for some elementary embedding
+
+ j : V -*■ V.
+
+ Definition 5.2 An η-huge cardinal is a cardinal κ such that there exists an elementary
+ embedding j : V -> M with critical point κ such that M' ^ c M.
+
+ Definition 5.3 A huge cardinal is a cardinal κ such that there is an elementary embed
+
+ ding j : V -» M with critical point κ such that M^<K> c M.
+
+ Definition 5.4 An extendible cardinal κ is such that for every a > κ there is an
+
+ ordinal β and an elementary embedding j : Va -*■ Vp with critical point κ.
+
+ Ô Springer
+
+This content downloaded from 203.78.15.150 on Mon, 18 May 2020 09:20:01 UTC
+All use subject to https://about.jstor.org/terms
+
+ How Woodin changed his mind
+
+ 147
+
+ Definition 5.5 A supercompact cardinal is an uncountable cardinal κ such that for
+
+ every A with cardinality greater or equal to κ there exists a normal measure on PK(A) =
+ {X C A I \X\ < κ}.
+
+ Definition 5.6 A superstrong cardinal is a cardinal κ such that there exists a elemen
+
+ tary embedding j : V ->· M with critical point κ such that y m c M.
+
+ Definition 5.7 A Woodin cardinal is a cardinal S such that for all A c Vj there are
+
+ arbitrarily large κ < S such that for all λ < 8 there exist an elementary embedding
+
+ / : V -* M with critical point λ: such that j(jc) > λ, V\ C M and Λ Π V/ = j(A)C\V\.
+
+ Definition 5.8 A measurable cardinal is an uncountable cardinal κ such that there
+
+ exists a κ-complete non-principal ultra-filter on κ.
+
+ Definition 5.9 A (strongly) inaccessible cardinal κ is such that κ is uncountable,
+
+ regular and for every λ < κ, 2λ < κ.
+
+ 6 Appendix Β: Definitions and results
+
+ This appendix collects technical definitions and results left out in the main body of
+ this article.
+
+ 6.1 Results
+
+ The von Neumann hierarchy is formally defined as follows, where V is the universe
+ of sets and the Va are levels within this universe.
+
+ Definition 6.1 V = Uaeo/v Va, where
+
+ Vo = 0
+ Va+i = V(Va)
+
+ Va = U{^/3 I β < <*} where α is a limit ordinal
+
+ The non-stationary ideal on ω\, Ins, is defined as follows:
+
+ Definition 6.2 Ins is the σ-ideal of all sets A ç a>\ such that ω\ \ A contains a closed
+
+ unbounded set. A set 5 ç ω\ is stationary if for each closed unbounded set C c ω\,
+
+ S Π C Φ 0. A set S ç ω\ is co-stationary if the complement of S is stationary (Woodin
+ 2001b).
+
+ 6.1.1 Universally baire sets
+
+ Definition 6.3 A set A in a compact Hausdorff space Ω has the property of Baire if
+
+ there is an open set Ο ç Ω such that the symmetric difference OAA is meager. A
+
+ meager set is a union of countably many nowhere dense sets. A nowhere dense set is
+
+ a set whose closure has empty interior.
+
+ Ô Springer
+
+This content downloaded from 203.78.15.150 on Mon, 18 May 2020 09:20:01 UTC
+All use subject to https://about.jstor.org/terms
+
+ 148
+
+ C. J. Rittberg
+
+ Definition 6.4 A set A ç W is called universally Baire if for every continuous
+ function
+
+ F : Ω -*■ M",
+
+ where Ω is a compact Hausdorff space, the preimage of A by F has the property of
+ Baire.
+
+ Lemma 6.5 · Every Borel set is universally Baire.
+
+ • The universally Baire sets form α σ-algebra, which is closed under preimages of
+
+ Borel functions.
+
+ • The universally Baire sets are Lebesgue measurable.
+
+ Definition 6.6 (Wadge Hierarchy) A <w β iff A = f~l(B) for some continuous
+ / :ω ω->ω ω (Kanamori 2009).
+
+ In the presents of the Axiom of Determinacy, the Wadge hierarchy is a well order of
+
+ the universally Baire sets, as Martin has shown in an unpublished article in 1973 called
+
+ 'The Wadge Degrees are well ordered'. In the absence of this axiom, the following
+
+ theorem holds. Hereby is IK the Cantor set and a set A ç Κ is said to be strongly
+ reducible to Β ç Κ if there is a continuous function g : Κ —► Κ such that A = f~l(B)
+
+ and for all x, y € Κ, | f{x) - f(y)\ < (1/2) |x - y\.
+
+ Theorem 6.7 Suppose that (A* : k 6 N) is a sequence of subsets of Κ such that for
+ all k e Ν both Ak+ι and Κ \ A*+i are strongly reducible to A*. Then there exists
+
+ a continuous function g : Κ -> Κ such that g_1(Ai) does not have the property of
+ Baire (Woodin 2001b).
+
+ Because the universally Baire sets are closed under preimages of Borel functions,
+
+ the above theorem shows well-foundedness of <w on the universally Baire sets.
+
+ 6.1.2 Projective determinacy
+
+ As mentioned in the article, too much would have to be said to give an argument as
+
+ to why the Axiom of Projective Determinacy, Ρ D, should be accepted. I will here
+
+ only give a very brief sample case as presented in Woodin (2001a): the Banach-Tarski
+ Paradox.
+
+ Given the unit sphere in a three-dimensional space, there is a finite partition of the
+
+ sphere into pieces which, after moving them around without changing their size, can
+
+ be put together again to obtain two copies of the unit sphere. This is the Banach-Tarski
+
+ Paradox. As is well known, it is an implication of the Axiom of Choice, AC. Hence, if
+
+ one wants to keep AC, one may only hope to put constrains on the type of partitions in
+
+ which the sphere may be divided. Ρ D implies that these pieces may not be projective
+ sets.
+
+ The projective sets are generalisations of the Borel sets.
+
+ Definition 6.8 (Luzin) A set X ç Μ" is a projective set if for some integer k it can
+
+ be generated from a closed subset of Rn+k in finitely many steps, applying the basic
+
+ operations of taking projections and complements (Woodin 2001a).
+
+ Ô Springer
+
+This content downloaded from 203.78.15.150 on Mon, 18 May 2020 09:20:01 UTC
+All use subject to https://about.jstor.org/terms
+
+ How Woodin changed his mind
+
+ 149
+
+ The sets encountered in everyday mathematics are all projective sets. This may instil
+ the idea that the projective sets are somehow 'reasonable'. Hence, with PD, any
+
+ partition of the unit sphere into reasonable pieces will not allow for the paradox. This
+
+ is seen by some as argument for the truth of PD. See Woodin (2001a) for further
+ details on PD and the Banach-Tarski-Paradox.
+
+ As mentioned in the above, ZFC + PD is not a forcing complete theory:
+
+ Theorem 6.9 Ρ D is not forcing stable, i.e. there is a forcing which destroys Ρ D.
+
+ Proof (sketch) Let A be a set of ordinals, which codes all of R. If A# would exist in
+ L[A], then there would be a Reinhardt cardinal in L[A]. This contradicts AC. Hence,
+
+ A" does not exist in L[A]. Now force with Col {ω, A) to collapse A onto ω. Since A# is
+
+ effectively a definable subset of A and Co/-forcing is homogeneous, A# does not exist
+
+ in the forcing extension either. Since A is countable in the extension, A is effectively
+
+ a real in the extension. By "Π|(*) determinacy iff jcd exists" (proven by Harrington
+
+ 1978) it follows that Π} (at) determinacy, and hence PD, fails in the extension.30 □
+
+ 6.2 Definitions
+
+ The following two definitions formally define what I have called 'defining L by using
+
+ the information coded in £" and 'adding A to L\respectively.
+
+ Definition 6.10 Let £ be a set. Then,
+
+ 1. L0[E] = 0
+ 2. La+1 = ^Def(Z), where
+
+ Ζ = La[E] U {£ Π La[E]}
+
+ and i^Def(Z) refers to the definable powerset of Z.
+
+ 3. La = \J{LP I β, α} for a limit ordinal.
+
+ and L[E] is the class of all sets a such that a e La[E] for some a.
+
+ Definition 6.11 Suppose that A is a transitive set. Then,
+
+ 1. L0(A) = A
+ 2. (Successor Case) Ζ,α+ι(Α) = <^oe/(£a(A))
+ 3. (Limit Case) La{A) = 1J{L^(A) | < a}
+
+ and L(A) is the class of all sets a such that a 6 La(A) for some a.
+
+ References
+
+ Bagaria, Joan, Neus Castells, and Paul Larson. 2006. An Ω-logic primer. In Set theory, ed. Joan Bagaria,
+
+ and Stevo Todorcevic, 1-28. Basel: Birkhâuser.
+
+ 30 I am indebted to Dominik Adolf for this proof.
+
+ Φ Springer
+
+This content downloaded from 203.78.15.150 on Mon, 18 May 2020 09:20:01 UTC
+All use subject to https://about.jstor.org/terms
+
+ Dodd, Anthony. 1982. The core model; London Mathematical Society, lecture note series no. 61. Cambridge:
+
+ Cambridge University Press.
+
+ Ferreiros, José. 2007. Labyrinth of thought, 2nd ed. Basel: Birkhâuser.
+
+ Fraenkel, Abraham, Yehoshua Bar-Hillel, and Azriel Levy. 1984. Foundations of set theory, 2nd ed. Ams
+
+ 150 C. J. Rittberg
+
+ terdam: North-Holland.
+
+ Gôdel, Kurt. 1938. The consistency of the axiom of choice and of the generalized continuum hypothesis.
+
+ Proceedings of the National Academy of Sciences 24: 556-557.
+
+ Gôdel, Kurt. 1939. Consistency-proof for the generalized Continuum-Hypothesis. Proceedings of the
+
+ Gôdel, Kurt. 1940. The consistency of the Continuum Hypothesis, annals of mathematics studies no. 3.
+
+ National Academy of Sciences 25: 220-224.
+
+ Princeton: Princeton University Press.
+
+ Gôdel, Kurt. 1965. Remarks before the Princeton bicentennial conference on problems in mathematics. In
+ The undecidable. Basic papers on undecidable propositions, unsolvable problems and computable
+ functions, ed. Davis Martin, 84-88. New York: Raven Press.
+
+ Hajnal, Andrâs. 1956. On a consistency theorem connected with the generalized continuum problem.
+
+ Zeitschriftfiir mathematische Logik und Grundlagen der Mathematik 2: 131-136.
+
+ Hajnal, Andrâs. 1960. On a consistency theorem connected with the generalized continuum problem. Acta
+
+ mathematicae Academiae Scientiarum Hungaricae 12: 321-376.
+
+ Harrington, Leo. 1978. Analytic determinacy and 0#. The Journal of Symbolic Logic 43(04): 685-693.
+
+ Honzik, Rader. 2013. Large cardinals and the Continuum Hypothesis, http://logika.ff.cuni.cz/radek/papers/
+
+ failureCHandLargecardinals. Accessed 13 Aug 2014.
+
+ Jech, Thomas. 2006. Set theory. Heidelberg: Springer.
+
+ Kanamori, Akihiro. 2009. The higher infinite, large cardinals in set theory from their beginnings. Heidelberg:
+
+ Springer.
+
+ Koellner, Peter. 2011. Independence and large cardinals. In The Stanford encyclopedia of philosophy,
+ (Summer 2011 Edition), ed. Edward N. Zalta. http://plato.stanford.edu/archives/sum2011/entries/
+ independence-large-cardinals/. Accessed 13 Aug 2014.
+
+ Koellner, Peter. 2013. The Continuum Hypothesis. In The Stanford encyclopedia of philosophy, ed. Edward
+
+ N. Zalta. http://plato.stanford.edu/archives/sum2013/entries/continuum-hypothesis/. Accessed 13
+ Aug 2014.
+
+ Koellner, Peter. 2014. Large cardinals and determinacy. In The Stanford encyclopedia of philoso
+ phy (Spring 2014 Edition), ed. Edward N. Zalta. http://plato.stanford.edu/archives/spr2014/entries/
+ large-cardinals-determinacy/. Accessed 13 Aug 2014.
+
+ Kunen, Kenneth. 2006. Set theory, an introduction to independence proofs, 10th impression. Amsterdam:
+
+ Lévy, Azriel. 1957. Indépendance conditionnelle de V=L et d'axiomes qui se rattachent au système de M.
+
+ Gôdel. Comptes rendus des séances de l'Académie des Sciences 245:1582-1583.
+
+ Lévy, Azriel. 1960. A generalization of Gôdel's notion of constructibility. The Journal of Symbolic Logic
+
+ Elsevier.
+
+ 25: 147-155.
+
+ 234-248.
+
+ Lévy, Azriel, and Robert M. Solovay. 1967. Measurable cardinals and the Continuum Hypothesis. IJM 5:
+
+ Mitchell, William. 1979. Hypermeasurable Cardinals. In Logic Colloquium '78, vol. 97 of Studies in Logic
+
+ and the Foundations of Mathematics, pp. 303-316. Elsevier: North-Holland, Amsterdam.
+
+ Mitchell, William J. 2012. Inner models for large cardinals. In Set's and extensions in the twentieth century,
+
+ volume 6 of the handbook for the history of logic, ed. Dov M. Gabbay, Akihiro Kanamori, and John
+ Woods, 415-456. Cambridge: Cambridge University Press.
+
+ Mitchell, William J., and John Steel. 1994. Fine structure and iteration trees. Lecture notes in logic, vol. 3.
+
+ Mycielski, Jan, and Hugo Steinhaus. 1962. A mathematical axiom contradicting the axiom of choice.
+ Bulletin de l'Académie Polonaise des Sciences, Série des Sciences Mathématiques, Astronomiques et
+
+ Heidelberg: Springer.
+
+ Physiques, Vol. X.
+
+ Myhill, John R., and Dana S. Scott. 1967. Ordinal definability. In Axiomatic set theory, proceedings of
+
+ the symposium of pure mathematics, vol. XIII, Part I, ed. Dana S. Scott. Los Angeles: University of
+ California.
+
+ Powell, William C. 1974. Variations of Keisler's theorem for complete embeddings. Fundamenta Mathe
+
+ maticae 81: 121-132.
+
+ Ô Springer
+
+This content downloaded from 203.78.15.150 on Mon, 18 May 2020 09:20:01 UTC
+All use subject to https://about.jstor.org/terms
+
+ Scott, Dana. 1961. Measurable cardinals and constructible sets. Bulletin de l' Académie Polonaise des
+
+ Sciences, Série des sciences mathématiques, astronomiques et physiques 9: 521-524.
+
+ Shepherdson, John C. 1951-1953. Inner models for set theory? Part I-III. Journal of Symbolic Logic 16-18:
+
+ How Woodin changed his mind 151
+
+ 161-190; 225-237; 145-167.
+
+ Solovay, Robert. 1969. The cardinality of sets of reals. In Foundations of mathematics, symposium
+ papers commemorating the sixtieth birthday of Kurt Godel, ed. Jack J. Bulloff, Thomas C. Holyoke,
+
+ and Samuel W. Hahn. Berlin: Springer.
+
+ Vopënka, Petr, Bohuslav Balcar, and Petr Hâjek. 1968. The notion of effective sets and a new proof of the
+
+ consistency of the axiom of choice. Journal of Symbolic Logic 33: 495-496.
+
+ Woodin, W. Hugh. 1999. The axiom of determinacy, forcing axioms, and the nonstationary ideal, Vol. 1 of
+
+ de Gruyter series in logic and its applications. Berlin: de Gruyter.
+
+ Woodin, W. Hugh. 2001a. The Continuum Hypothesis Part I. Notices of the AMS 48(6): 567-576.
+
+ Woodin, W. Hugh. 2001b. The Continuum Hypothesis Part II. Notices of the AMS 48(7): 681-690.
+
+ Woodin, W. Hugh. 2004. Set theory after Russell. In One hundred years of Russell's paradox, ed. G. Link.
+
+ Woodin, W. Hugh. 2009a. The transfinite universe. Exploring the frontiers of incompleteness. http://logic.
+
+ Woodin, W. Hugh. 2009b. The realm of the infinite, exploring the frontiers of incompleteness. http://logic.
+
+ New York: de Gruyter.
+
+ harvard.edu/efi. Accessed 13 Aug 2014.
+
+ harvard.edu/efi. Accessed 13 Aug 2014.
+
+ Woodin, W. Hugh. 2010a. Strong axioms of infinity and the search for V. In Proceedings of the international
+
+ congress of mathematicians, Hyderabad, India.
+
+ Woodin, W. Hugh. 2010b. Suitable extender models I. Journal of Mathematical Logic 10: 101-339.
+
+ Woodin, W. Hugh. 2010c. Ultimate L. Talk given at the University of Pennsylvania 15th October, http://
+
+ philosophy.sas.upenn.edu/WSTPM/Woodin. Accessed 13 Aug 2014.
+
+ Woodin, W. Hugh. 2011. Suitable extender models II. Journal of Mathematical Logic 11(2): 115-436.
+
+ <£) Springer
+
+This content downloaded from 203.78.15.150 on Mon, 18 May 2020 09:20:01 UTC
+All use subject to https://about.jstor.org/terms
+
+

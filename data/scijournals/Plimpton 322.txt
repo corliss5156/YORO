@@ -1,0 +1,3301 @@
+ 
+
+ 
+
+ 
+
+ 
+
+Plimpton 322: a review and a different perspective
+Author(s): John P. Britton, Christine Proust and  Steve Shnider
+Source: Archive for History of Exact Sciences, Vol. 65, No. 5 (September 2011), pp. 519-566
+Published by: Springer
+Stable URL: https://www.jstor.org/stable/41287706
+Accessed: 19-05-2020 12:19 UTC
+
+JSTOR is a not-for-profit service that helps scholars, researchers, and students discover, use, and build upon a wide
+
+range of content in a trusted digital archive. We use information technology and tools to increase productivity and
+
+facilitate new forms of scholarship. For more information about JSTOR, please contact support@jstor.org.
+
+Your use of the JSTOR archive indicates your acceptance of the Terms & Conditions of Use, available at
+
+https://about.jstor.org/terms
+
+Springer is collaborating with JSTOR to digitize, preserve and extend access to Archive for
+History of Exact Sciences
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:19:47 UTC
+All use subject to https://about.jstor.org/terms
+
+ Arch. Hist. Exact Sci. (201 1) 65:519-566
+ DOI 10.1007/s00407-01 1-0083-4
+
+ Plimpton 322: a review and a different perspective
+
+ John P. Britton • Christine Proust • Steve Shnider
+
+ Received: 12 May 201 1 / Published online: 3 August 201 1
+
+ © Springer- Verlag 201 1
+
+ 1 Part I: A review
+
+ 1.1 Introduction
+
+ One may reasonably question the value of yet another discussion of this
+ famous Mesopotamian tablet. However, recent discussions by Eleanor Robson1 and
+
+ Communicated by : Alexander Jones.
+
+ 1 Robson (2001, 2002a, 2002b).
+
+ To the great sorrow of his coauthors and many other colleagues, friends and relatives, John Britton died
+
+ suddenly when this paper was in the last stages of preparation. He was very pleased with the final version,
+
+ which he was reviewing when he passed away. In completing the article, the coauthors, with the kind
+
+ assistance of Claudine Britton, made every effort to maintain the text as John had last seen it and preserve
+
+ a sense of his presence throughout. We dedicate this article to his memory.
+
+ This paper came together as a result of a seminar led by Zoe Misiewicz under the supervision of Alexander
+ Jones, held at the Institute for the Study of the Ancient World (ISAW), an affiliate of New York University
+ (NYU), New York, NY on March 3, 2010. Part I was largely completed by Britton, but with corrections
+ and substantial improvements contributed by his fellow authors. Part II was a collective composition .
+
+ J. P. Britton
+
+ Institute for the Study of the Ancient World, NYU, Wilson, WY, USA
+
+ C. Proust (E3)
+ Centre national de recherche scientifique (CNRS), Paris, France
+ e-mail: christine.proust@wanadoo.fr
+
+ S. Shnider
+
+ Department of Mathematics, Bar Ilan University, Ramat Gan, Israel
+ e-mail: shnider@math.biu.ac.il
+
+ Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:19:47 UTC
+All use subject to https://about.jstor.org/terms
+
+ 520 J. P. Britton et al.
+
+ Joran Friberg,2 suggest that a dispassionate review of what is known, suspected, and
+
+ conjectured about this unique text may be worthwhile. This article is divided into two
+
+ part. In Part I, we survey the historical development of the current understanding of
+ the mathematical content of the text and estimate its likely manner of calculation and
+
+ unbroken extent. In Part II, we attempt to place the text in its mathematical context
+
+ and present some new perspectives based on comparisons with other texts from the
+ same period and region.
+
+ At the outset, a few words about terminology and notation may be helpful. By
+
+ "Babylonian", we refer to scholar-scribes and their pupils residing in central and
+ southern Mesopotamia and environs and using cuneiform script in their writings.
+
+ Babylonian mathematical texts employ a uniquely powerful system of numerical nota-
+
+ tion, which consisted of "digits" ranging from 1 to 59 and a place- value system in which
+
+ successive digits from right to left represented successively higher powers of 60. The
+
+ notation did not distinguish between integers and fractions, and absolute magnitudes
+ had to be determined from contexts.
+
+ Digits were depicted by combinations of two signs, angled wedges K denoting
+
+ tens followed by vertical wedges I denoting units, arranged in tiers of not more
+ than three,3 a feature which allowed instant recognition without counting. In Old
+
+ Babylonian (OB) mathematical texts, an intermediary "zero" was conventionally indi-
+
+ cated, if at all, by omission, either of tens or units or both. This led to frequent errors,
+ such as confusing 50,6 and 56 as we shall see, which by Late-Babylonian times (ca.,
+
+ -600) had led to the insertion of two small stacked angled wedges ^ as a separation
+
+ sign4 to signal either a complete missing digit or the absence of tens, when a digit
+ lacking units was followed by one lacking tens as in the example just noted.
+
+ Different conventions have been adopted for transcribing and translating
+
+ Babylonian numbers. In transcriptions, we use spaces as in the Babylonian originals
+
+ to reflect missing digits or tens, and transcribe digits which lack units as 10, 20, 30, . . .
+
+ etc. In translations, we follow Neugebauer's convention, separating digits by commas,
+
+ translating missing digits by "0", and when the magnitude is known separating the
+
+ integer and fractional parts of numbers with a semi-colon (";").
+
+ Division in Babylonian arithmetic was accomplished by multiplying the dividend
+
+ by the reciprocal of the divisor. Consequently "regular numbers", whose reciprocals
+ have terminating sexagesimal expressions, play a prominent role. Such numbers con-
+
+ tain only the prime factors 2, 3, and 5 comprising 60 and consequently are expressible
+ as N = 2a - 3h • 5C (a, b , and c being integers).
+
+ Although a minor point of probably hopeless protest, dates cited here follow the
+ "long chronology" affirmed by Huber et al. (1982), in which 1 Hammurapi= 1848
+ BCE, 56 years earlier than according to the "middle chronology" still widely used
+
+ 2 Friberg (2007).
+
+ 3 In formal arithmetic; less formal notation sometimes used two tiers of units for "7" and "8".
+
+ 4 H0yrup (2002, p. 1 5, n 1 9) notes two texts from Susa, TMS XII and XIV, which use the same (!) separation
+ sign to signify the absence of units (TMS XII) or tens (TMS XIV) in otherwise unambiguous numbers, in
+ contrast to the later usage. Consequently he doubts that these should be interpreted as intermediary "zero"s.
+
+ Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:19:47 UTC
+All use subject to https://about.jstor.org/terms
+
+ Plimpton 322 521
+
+ by Assyriologists despite being quite certainly wrong.5 Given the strength of Huber's
+
+ analysis and the quality of his collaborators,6 one might expect historians of mathe-
+
+ matics to at least alert their readers to the existence of this issue, but for the most part
+
+ dates based on the untenable "middle chronology" continue to dominate contemporary
+
+ discussions of OB mathematics without qualification.
+
+ Plimpton 322 is an OB mathematical table text, of uncertain provenance. It was
+
+ purchased by George Plimpton in 1922 or 1923 from the dealer Edgar Banks, and
+ bequeathed to Columbia University in 1936, where it now resides in the Rare Book
+
+ and Manuscript Library in the Butler Library (Robson, 2001, 17 Iff). Its name derives
+
+ from its entry in Mendelsohn's catalogue of the university's cuneiform tablets, which
+ describes it as follows:7
+
+ 322. Clay tablet, left-hand edge broken away, bottom of right-hand corner, and
+ a piece of columns 3 and 4 chipped off; fairly well preserved, dark-brown.
+ 8.8 x 12.5 cm; on obverse 4 columns with 16 lines, reverse blank. Content:
+ Commercial account. No date.
+
+ According to Banks,8 the tablet's provenance was "Senkereh", ancient Larsa, and
+
+ Robson notes (2001, p. 172; 2002a, p. 110) that its headings, rightmost column and
+ landscape format are similar to characteristics of administrative tablets from Larsa
+
+ written between 1878 and 1850. Goetze (Neugebauer and Sachs 1945, pp. 146-151)
+
+ assigned the text provisionally to "group 1" from Larsa,9 but noted (Neugebauer and
+
+ Sachs 1945, p. 147, n353) that it "may or may not belong here". H0yrup (2002, pp. 337,
+
+ 386) notes that its orthography "points to group 6 with at least as high plausiblity as
+
+ group 1" and thinks the text more likely belongs with texts from the periphery, where
+ most of the texts which utilize the Diagonal Rule10 originate. However, two texts
+ from the Sch0yen collection (MS 3052 and MS 3971), attributed by Friberg (2007,
+
+ 5 Huber et al. (1982) showed that the "long chronology" agrees far better with both month-length data
+ from OB reigns and data from the so-called Venus Tablet of Ammisaduqa than any of the other pos-
+ sible chronologies consistent with the Venus data, and that this agreement was better than would be
+ expected from the best of a random set of wrong chronologies. Furthermore, both sets of data strongly
+ and independently exclude the accepted "middle chronology", which was initially adopted without empir-
+ ical support simply as a diplomatic compromise between the "long" and "short" chronologies champi-
+ oned by Goetze and Kammenhuber. Pottery evidence is thought to support a later chronology, which
+ however requires rejecting the Venus data as relevant evidence. Huber (2000) has shown that all astro-
+ nomical evidence - Venus data, month-length data, eclipse reports, and omens - support a single consis-
+ tent chronology for the dynasties of Akkad, Ur III, and Babylon 1 with the following key dates (BCE):
+ 1 Naram-sin = 2301; 1 Amar-sin = 2094; 1 Ammisaduqa = 1702. The principal evidence against this chro-
+ nology is a single "floating" tree-ring analysis of a Turkish burial chamber, acknowledged to be inconsistent
+ with a later tree ring analysis (Manning et al. 2001).
+
+ 6 A. Sachs, M. Stol, R. M. Whiting, E. Leichty, C. B. F. Walker, and G. van Driel.
+
+ 7 See Mendelsohn's catalogue page 71, in the Butler Rare Book and Manuscript Collection, Columbia
+ University.
+
+ 8 Undated price list describing four tablets sent to Plimpton (Robson 2001, pp. 171, 203), three of which
+ are described as coming from Senkereh and the fourth from Drehem.
+
+ 9 Citing the spelling ( sa and u) of in-na-as-sa-hu-u-ma.
+
+ 10 We use the expression "Diagonal Rule" (rather than the anachronistic "Pythagorean Theorem") to des-
+ ignate the relation between length, width and diagonal of a rectangle, as well as the proof of this relation,
+ as attested for example in the tablets Db 2 146 and MS 3971 #2 (see below).
+
+ Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:19:47 UTC
+All use subject to https://about.jstor.org/terms
+
+ 522 J. P. Britton et al.
+
+ 449-451) to Goetze's Group 3 from Uruk (Neugebauer and Sachs 1945, p. 146),
+ utilize the rule, undercutting this argument. Since Banks may have actually known the
+
+ provenance of the text, we give his testimony particular weight. See Part II for more
+ details.
+
+ The tablet's mathematical character was recognized by Neugebauer, who with Sachs
+
+ (1945) under the heading "Pythagorean Numbers" and showed that the text concerns
+
+ numbers which satisfy the relationship,
+
+ d2 = i2+b2, (1)
+
+ where d, t, and b are respectively the diagonal, length (long-side) and width (short-
+ side) of a rectangle or right triangle. Since then, the tablet has been the object of
+ extensive discussion and debate concerning its construction, interpretation and likely
+
+ contents when complete.11
+
+ 1.2 Physical description
+
+ The existing tablet is a large fragment, written in landscape orientation, containing
+ four columns of numbers aligned by vertical scoring, cleanly broken at the vertical
+
+ scoring on the left side of the first preserved column. Top, bottom and right edges are
+ preserved. Columnar scoring continues over the bottom edge and onto the reverse,
+ both of which are otherwise blank. Two lines of column headings at the top of obverse
+
+ are followed by 15 rows of numbers, uniformly aligned within horizontal scorings
+
+ (see photo in Appendix B).
+
+ The writing is clear and remarkably uniform (the succession of "KT's in column IV'
+
+ are virtually indistinguishable). Column widths reflect the maximal length of the com-
+
+ ponent numbers plus space for an additional (sexagesimal) "digit". For the most part
+
+ vertical alignment of digits is preserved.12 Column IV' reflects a less formal numerical
+
+ notation than the other, strictly mathematical, columns wherein "4" is depicted as 2 + 2
+ (two tiers of two verticals) and "7" and "8" as 4 + 3 and 4+4, respectively,13 Thereby,
+
+ emphasizing its different character. Generally, and despite the errors discussed below,
+ the tablet reflects a high level of professional competence. It is not student work.
+
+ The dimensions are the following. Outer: 127 mm (long) x 88 mm (high) x 32 mm
+
+ (thick); writing surface: 125 mm x 83 mm (the rest is edge curvature). Column- widths:
+ I' = 57 mm, II' = 24 mm, III' = 25 mm, IV' = 19 mm. Heading height: 13 mm; 15
+
+ rows = 70 mm ~ '' mm/row. The rows are remarkably uniform; the largest variation
+ is between row 1 (5 mm) and row 2 (4 mm); the rest are visually uniform and slightly
+
+ less than 5 mm. The writing is similarly uniform with one sexagesimal "digit" com-
+
+ prised of tens and units taking 7 mm or a little less pretty consistently, except where
+
+ Extensive bibliographies may be found in Robson (200 1 , pp. 203-206) and Friberg ( 1 98 1 , pp. 3 1 7-3 1 8).
+
+ Both omit Anagnostakis and Goldstein (1974) despite its relevance to their interpretations.
+
+ 12 Exceptions include misalignments implying empty "digits" in column I', rows 5 and 6.
+
+ 13 However is written in standard notation as 3 tiers of 3 contra Robson (2001, p. 173) but as reflected
+
+ in her copy.
+
+ Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:19:47 UTC
+All use subject to https://about.jstor.org/terms
+
+ Plimpton 322 523
+
+ the initial digit is "1". "KI" at the beginning of each entry in column IV' similarly
+ takes 7 mm (with 1 mm extending over the scoring into the end of column III'). The
+
+ total distance vertically scored but empty on lower edge and reverse equals ~105 mm
+
+ (lower edge, 22 mm; reverse, 83 mm), which is equivalent to space for an additional
+
+ 22 or 23 rows of a height similar to those on the obverse.
+
+ The maximum thickness of the fragment is slightly right of the middle of col. I',
+
+ 95 mm from right edge of the writing surface and 30 mm from the break at the left
+
+ edge. By symmetry roughly 65 ± 5 mm of writing surface should be missing on the
+ left side of the tablet,14 implying a total original length of ca., 190 mm and original
+ dimensions of roughly 8^" x 3 V x 1
+
+ Neugebauer and Sachs (1945, pp. 39) report the presence of modern glue on the
+
+ broken left edge of the tablet prior to baking and infer that the missing part was lost
+
+ after its excavation. Robson (2001 , p. 172) suggests that an extraneous fragment might
+
+ have been attached to give an appearance of completeness, which Banks would have
+
+ recognized and removed. The nature of the break, however, combined with the careful
+
+ scoring and uniform writing would have made any such "amplification" immediately
+
+ apparent and hardly worth the effort. More likely is that that the tablet broke, was
+
+ repaired following excavation, and broke again at the weak repair with the resulting
+ fragment(s) becoming separated prior to reaching Banks. Many tablets from Larsa
+ were purchased around the same time by museums and collectors, and the missing
+ fragment may well remain unrecognized among them.
+
+ 1.3 Copy and transcription
+
+ Robson (2001, p.193, 2002a, p. 105) presents a clear copy, which depicts the text's
+ contents accurately15 in both substance and spacing. A flake of destroyed surface at
+
+ the top left results in lost or damaged signs at the beginning of both lines of the heading
+
+ of column I' and obscures the initial two or three digits of the numbers in rows 1 to 4
+ of column I'.
+
+ A transcription of the tablet roughly consistent in spacing and alignment with the
+
+ tablet (see the photo in Appendix B and Robson's copy) is presented in Table 1, where
+ the heading of column I' also follows Robson (2001 , p. 191) restoration. Friberg (2007,
+
+ p. 441) proposes to insert "a-sa" to the left of ta-k]i-il-ti in line 1 of column I'. However,
+
+ there is clearly not room for this within the boundaries of column I', nor any reason
+
+ for the heading to extend into the preceding column, since ample room remains to the
+
+ right to accommodate it. There has been a persistent debate whether column I' begins
+
+ 14 de Solla Price (1964, p. 1) estimates the missing fragment as "somewhat more than half as wide as that
+ preserved", thus ca., 65-75 mm. Robson (2001, p. 193) estimates that no more than 50 mm is missing, but
+ from the shape and thickness of the existing fragment, this is clearly too little. From the nature of the break
+ Friberg (1981, p. 283) suggests that "as much as perhaps a third of the whole tablet is missing", which is
+ consistent with the above estimate from curvature alone. Recently, however, he increased his estimate of the
+
+ missing tablet, first to "a third or more" (Friberg 2007, p. 434), then (p. 441 ) to "nearly half' (ca., 100 mm),
+
+ which is clearly inconsistent with the existing curvature and much less likely than his earlier estimate.
+
+ 15 A trivial exception depicts "7" = 4 + 3 in column IV' as "6" = 3 + 3. Muroi (2003, n.4) suggests there
+ may be other errors, but gives no details, and we have found none.
+
+ Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:19:47 UTC
+All use subject to https://about.jstor.org/terms
+
+ 1 i ta-k]i - il- ti si - li -ip - tim lb-sig sag lb-sig si-li-ip-tim mu-bi-im
+ 2 1 Sal in] -na-as-sa-hu-u-ma sag i-il-lu-u
+
+ 524 J. P. Britton et al.
+
+ Table 1 Transcription of Plimpton 322
+
+ obv
+
+ 3 j 1 59 15
+
+ 4 |1 56 56 58 14 56 15
+
+ 5 ; 1 55 7 41 15 33 45
+
+ 6 :1 53 10 29 32 52 16 3 31 49
+
+ 7 j 1 48 54 1 40 1 5
+
+ 8 j1 47 6 41 40
+
+ 9 1 1 43 11 56 28 26 40
+
+ 10 1 1 41 33 59 3 45
+
+ 11 j1 38 33 36 36
+
+ 12 1 1 35 10 2 28 27 24 26 40
+
+ 13 j 1 33 45
+
+ 14 1 1 29 21 54 2 15
+
+ 15 !1 27 3 45
+
+ 16 11 25 48 51 35 6 40
+
+ 17 1 1 23 13 46 40
+
+ Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:19:47 UTC
+All use subject to https://about.jstor.org/terms
+
+ with "1", which is mysterious, since remnants of the top of the vertical wedge, "1",
+
+ are visible on the tablet in lines 7 through 1 1 and more clearly so in lines 14 through
+
+ 17, as reflected in Robson's copy and as we observed in the original.
+
+ In Table 1 , numbers readable in any part are shown in bold; errors are italicized
+
+ and underlined. Shaded sections approximately reflect surface damage where text is
+
+ unreadable or missing. Digit spacing is as in the text, especially lines 1, 7, 8, and 13.
+
+ 1 .4 Errors
+
+ There are six well-known errors.16 Two appear to be copy errors (presumably from a
+ work tablet), to wit:
+
+ row 2, col. V 56 = copy error for 50, 6
+ row 9, col. II' 9 = copy error for 8
+
+ The other four errors have implications for interpretation and the manner of calcu-
+
+ lation. They are:
+
+ 16 In line 7, a blank space appears in the tablet between 54 and 1, but there is no zero there; idem in line
+ 8 between 47 and 6. In row 13, col. I' 1;27, 0, 3,45 is correct and consistent with Robson's copy, contra
+ Robson (2001, p. 175, Table 2) who reads 1 ;27, 3,45 with Neugebauer and Sachs (1945), but corrected in
+ Neugebauer ( 1 95 1 , p. 37).
+
+ Plimpton 322 525
+
+ row 2, col.III' 3,12 , 1 , = copy error for 3,13; it should be 1,20,25
+ row 8, col V 59 = an error for 45,14 resulting from a medial zero copy
+
+ error in its calculation, but with implications for the
+
+ manner of calculation (cf. Anagnostakis and Goldstein,
+ 1974).
+
+ row 13, col. II' 7,72, 1 is the square of expected 2,41 or, alternatively, a
+
+ row 15, col. II' 56 is twice expected 28, or 53 is half 1,46.
+
+ copy error for 7,13.
+
+ 1.5 Contents
+
+ 1.5. J Columns
+
+ I' . The numerical contents of column I' consist of progressively diminishing numbers,
+
+ S2 = l+^[=(d/i)2] (2)
+
+ where S and have terminating sexagesimal digits. As noted by de Solla Price (1964,
+
+ p. 223) these numbers express the Diagonal Rule relationships among the dimensions
+ of a series of progressively flatter rectangles or right triangles with unit length=l,
+ width (short side) = fi <1, and diagonal, S = ^/(l + fi2).]7 They can be scaled up to
+ give the dimensions of any specific rectangle of proportionate size by multiplying 8
+
+ and f$ "with" (as Babylonian terminology would put it) the actual (or desired) length,
+
+ i, so that for a given t,
+
+ b = p-lmdd = 8'l (3)
+
+ Column I' is thus an explicit statement of the Diagonal Rule applied to rectangles with
+
+ unit length and progressively smaller short sides, starting with a rectangle very nearly
+ square ({$ = b/i = 0; 59, 30).
+
+ The heading of this column has long been uncertain with respect to both its read-
+ ing and interpretation. However, Robson (2001, 191),18 has proposed inserting a "1"
+ between the requisite sa and the missing in- at the beginning of line 2, and shown that
+
+ what can be read of the fragmentary signs of the last word can only be consistent with
+
+ i-il-lu-u .19 With this restoration the heading becomes intelligible as
+
+ 17 Neugebauer and Sachs (1945, p. 39) describe the contents as progressively diminishing ratios, (d/£)2,
+ which is mathematically equivalent but misses both the sense of a series of normalized rectangles with unit
+ length and the implicit expression of the Diagonal Rule (2) by the number, its integer, and its fractional
+
+ part.
+
+ 8 Citing an earlier suggestion by Bruins (1949, 1967)
+
+ 19 Following Goetze as reported by de Solla Price (1964, p. 226).
+
+ Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:19:47 UTC
+All use subject to https://about.jstor.org/terms
+
+ 526 J. P. Britton et al.
+
+ takilti siliptim sa 1 innassahuma sag illu
+
+ the takiltum of the diagonal (from) which 1 is torn out (i.e., subtracted) and (that of)
+
+ the width comes up.
+
+ We discuss takiltum in more detail subsequently. For now it suffices to note that if it
+
+ is translated simply as "square", following Thureau-Dangin,20 the heading accurately
+ describes the contents of the column.
+
+ 1.5.2 Columns If and Ilf
+
+ Excepting errors, these columns give the integer dimensions of the width (sag)
+ and diagonal {siliptim) of the rectangles whose relative proportions are implicit in
+ column V . Each descriptive heading (sag or siliptim) is preceded by the qualifying
+ term lb-sis, a term frequently encountered in quadratic problem texts denoting the
+ linear dimension or "equalside" of the completed square.21 Thus the term may sim-
+
+ ply be a qualifier indicating that a linear dimension or line segment is meant, but it
+ may also imply some purposeful connection with the associated square defined by
+ this dimension. Translations as "equalside width" (II') and "equalside diagonal" (III')
+
+ convey both possibilities. If the term only emphasizes that line segments are described,
+ then "short-side" and "diagonal-side" would serve as well. Neugebauer's and Sachs's
+
+ suggested interpretation of lb-sis as "solving-number" (Neugebauer and Sachs 1945,
+
+ p. 39), seems not only removed from the semantic range of the term, but unhelpfully
+ opaque as well. H0yrup (2002, 25ff.) discusses the relevant issues at length.
+
+ 1.5.3 Column IVf
+
+ The last column successively numbers the rows as ki n meaning No. n (or nth), begin-
+
+ ning with n = 1 in line 1. The heading, mu-bi-im, often translated as "its name", more
+
+ accurately here means "its line" or even more simply, "line" or "item".
+
+ Robson (2001, p. 173), following Friberg,22 remarks that the numbers in this col-
+ umn are written differently than in the preceding columns with "4" written as two
+ tiers of two wedges and "7", "8" and "9" written as two tiers of 4+3, 4+4 and 5+4
+ vertical wedges, in contrast to the conventional three-tier notation in the preceding col-
+ umns.23 This suggests that OB notation distinguished between "mathematical" and
+ more casual "descriptive" numbers, a distinction which disappears in Late Babylonian
+ and Seleucid texts.
+
+ 20 Thureau-Dangin (1938, p. 226).
+
+ 21 Attinger (2008) asserts persuasively that the conventional transcription, fb-sig, retained here for its
+ familiarity, should instead be fb-sa. See also H0yrup (2002, p. 27, n45).
+
+ 22 Friberg (1981, p. 295), not cited by Robson.
+
+ 23 However, contra Robson (2001 , p. 1 73), "9" is written in the normal 3-tier notation as shown in her copy
+ (2001, p. 171).
+
+ Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:19:47 UTC
+All use subject to https://about.jstor.org/terms
+
+ Plimpton 322 527
+
+ Fig. 1 Quadratic solution
+
+ 1.5.4 Takiltum
+
+ The term takiltum is a nominative form of the verb sutakulum (to make hold fast
+
+ together), the causal/reciprocal (St) stem of the verb kullum (to hold fast),24 which
+
+ is used for multiplication in the context of rectangularization (H0yrup 2002, p. 23).
+
+ H0yrup (2002) translates it as "the made hold". Muroi (2003) has collected 12 attested
+
+ instances of takiltum , one of which is Plimpton 322. Nine of the others refer to the side
+
+ of the auxiliary square which is added to a previously computed area to "complete the
+
+ square", whose side - increased or decreased by the takiltum - is the solution to the
+ problem.
+
+ Most of the instances occur in the context of solving a quadratic equation effec-
+
+ tively reduced25 to the form x2 ±bx = c, for which (in modern notation) the solution
+ proceeds as x = y/[c + (b/2)2} ± b/ 2, in the following steps (Fig. 1):
+
+ (1) given x2 ±bx = c, compute b/2
+ (2) multiply b/2 by itself to give (b/2)2
+ (3) add (b/2)2 to c, [completing (x + b/2)2]
+ (4) obtain the square root of [c + {b/2)2} 26
+ (5) subtract (or add) b/2, "your takiltum " [to find your answer].
+
+ In each case "takiltum" appears only in step (5) where it refers to the quantity b/2
+ multiplied by itself in step (2) to make an auxiliary square, whose area completes the
+ square with side x ± b/2. In these cases, therefore, takiltum refers strictly to the side
+
+ 24 A debate persists as whether Sutakulum is a form of akalum (to eat) or kullum (to hold fast), alternatives
+ which are indistinguishable in cuneiform writing. Thureau-Dangin, H0yrup and Robson have interpreted
+ the verb as a form of kullum meaning "to make hold fast together". Neugebauer and Sachs, Muroi, and
+ Friberg have interpreted it as a form of akalum meaning "to make eat one another". H0yrup (2002, p. 23),
+ summarizes the arguments pro- and con- and argues - compellingly in our opinion - for the more sensible
+
+ "make hold" interpretation. Everyone agrees that takiltum can only derive from kullum.
+
+ 25 In the more general case of ay2 ± by = c, the first step is to multiply by a, making the expression
+ quadratic in ay = jc, finding y in the last step as y = x • 1 /a.
+
+ 26 Typically expressed as "«2-e nib-sis", "by /i2, n is the equal side".
+
+ Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:19:47 UTC
+All use subject to https://about.jstor.org/terms
+
+ of the completing square, which is removed (subtracted or added) in the last step from
+
+ the side of the completed square, x ± b/2, to give x. Moreover, in no case is the area
+
+ of the completed square, c + (b/2)2 in steps (3, 4), described as other than a number.
+
+ An instructive variation on this procedure occurs in VAT 85 1 2.27 Here, the prob-
+
+ lem concerns a triangular field (Fig. 2) divided into two unequal parts by a transverse
+
+ barrier ( pirkum = jc); one of the parts (A) has 7,0 units more area than the other (B)
+
+ whose baseline, however, is 20 units longer than A's. The problem set is to find: the
+
+ length of the barrier (jc); the areas A and B, and the lengths of the respective baselines,
+
+ y and y + 20. However, takiltum appears only in the course of first finding jc, the
+
+ length of the barrier, whose solution proceeds as follows.
+
+ (1) a rectangle is constructed on the 20-unit excess of the base-line of B whose area
+
+ equals the 7,0 units by which the area of A exceeds that of B, making its other
+
+ dimension equal to 21 units.
+
+ (2) this rectangle is extended by the length of the base-line (i.e., to length 2 y + 20),
+
+ forming a trapezoid with the subject triangle, which the barrier - extended to the
+
+ edge of the trapezoid (i.e., by the 21 units of height of the added base) - will bisect
+ into equal areas.
+
+ (3) the square of length of the extended barrier is then found by the formula for
+
+ bisecting trapezoids as the average of the squares of the parallel sides (si and S2),
+ thus
+
+ 528 J. P. Britton et al.
+
+ Fig. 2 VAT 8512
+
+ (JC + 21)2 = 1/2 (j? + jf) = 1/2 (512 + 212) ,
+
+ from which,
+
+ (4) JC = V {1/2 (*2 + j|)} - S2 = v (1/2 (512 + 212)) - 21 = 18.
+
+ This type of problem is discussed further in Part II. See Fig. 13.
+ The key part of the text (lines 11-17) covering steps (3) and (4) reads as follows
+
+ (H0yrup 2002, pp. 234-235):
+
+ 27 H0yrup (2002, pp. 234-238), Neugebauer (1935-1937, 3410, Thureau-Dangin (1938, pp. 101-103).
+
+ Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:19:47 UTC
+All use subject to https://about.jstor.org/terms
+
+ Plimpton 322 529
+
+ 1 1-12. . . .51 it-ti 51 su-ta-ki-il-ma 43,21
+ 13. 21 sa re-es-ka u-ka-lu it-ti 21
+
+ 14. su-ta-ki-il-ma 7,21 a-na 43,21 si-ib-ma 50,42
+ 15. 50,42 a-na si-na he -pe -ma 25,21
+ 16. lb-sis 25,21 mi-nu-um 39
+ 17. i-na 39 21 ta-ki-il-tum u-s u-uh-ma 18
+
+ 11-12. . . .51 with 51 make hold: 43,21
+ 13. 21, which your head holds, with 2 1
+ 14. make hold: 7,21 to 43,21 append: 50,42
+ 15. break 50,42 in two: 25,21
+ 16. equal-side of 25,21, what? 39
+ 17. from 39 tear out 21, the made hold: 18.
+
+ or, more familiarly:
+
+ 51x51=43,21
+
+ 21 (which you computed earlier) x 21 = 7,21
+ 7,21 +43,21=50,42
+ 50,42 2 = 25,21
+ V25,21 =39
+ 39-21, the takiltum = 18 = x
+
+ Here, we have a different formula applied, but again the construction of an
+
+ auxiliary square with side S2 = 21, which is not part of the subject figure, whose
+ area is combined with that of the square on s' to give a quantity equal to twice the
+ square on x + S2. Halving this and finding the square-root as before yields x + 52,
+ from which S2 , parenthetically called the takiltum , is subtracted to obtain x. Four lines
+ later the same dimension is subtracted from 51 28 to restore s' = 30. However, here
+ instead of takiltum it is described as
+
+ 21. . . .21 sa a-na ra-[ma-ni-su tu-us-ta-ki-lu i-na 51]
+
+ . . .21, which you made hold itself, from 51. . .
+
+ Apart from offering further evidence, should any be needed, that sutakalum derives
+
+ from kullum , not akalum , the distinct descriptions, suggest that takiltum implies an
+ element that is a key step in the process of solution, and not simply a particular
+ dimension.
+
+ In each instance where its meaning is clear takiltum refers to the side of an auxil-
+ iary square, which plays a key role in solving a quadratic equation. Two exceptions
+ occur. In TMS 19 after referring to b/2 as described above, takiltum appears again
+
+ referring to b , most probably as simply a scribal error. The other appears in VAT 8389
+ (Neugebauer 1935-1937, pp. 317-319), in a problem concerning the rents and yields
+ of two fields. Here no square is formed, and the damaged term as restored by Neu-
+ gebauer and Thureau-Dangin refers to two previously calculated results of division,
+ effectively "yields" which are subsequently added together. Neugebauer took the term
+
+ to mean something like "factor" or "coefficient", and this divergent meaning persuaded
+
+ 28 Also squared in the process and to whose square s~; is added, but which is only indirectly involved in
+ the calculation of x and never referred to as takiltum.
+
+ £) Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:19:47 UTC
+All use subject to https://about.jstor.org/terms
+
+ 530 J. P. Britton et al.
+
+ him to leave takiltum un-translated elsewhere. H0yrup (2002, p. 80, nl06) suggests
+ restoring takirtum "change" for the two damaged occurrences (ta-ki-i[rn- -tarn] and
+
+ [ ta-ki-ir^ytam ), which arguably better fits the context of the problem. Whatever the
+
+ explanation, the context is clearly anomalous and inconsistent with all of the other
+ attestations.
+
+ In the foregoing examples, takiltum refers to the side of the auxiliary square but is
+
+ immediately preceded by the operation of finding the side of the completed square,
+
+ introduced by the term lb-sis indicating that linear quantities are now involved rather
+
+ than areas. It seems plausible, therefore, that takiltum connotes both the auxiliary
+ square and its defining side, in the same way as mithartum describes both "side" and
+ "square configuration" in BM 15285 (H0yrup 2002, pp. 60-6 1).29 In this sense ta-
+
+ kiltum seems to have denoted an abstract square quantity, conceptually separate from
+
+ the geometrical elements comprising the problem, introduced as a transitory element
+ to enable a solution, which is removed as the solution is achieved. A translation as
+
+ "number square" to connote a purely numerical quantity distinct from the geometric
+
+ components of the problem, or, even more simply "square", as tentatively proposed,
+
+ would seem to capture this sense of the term, while remaining consistent with H0yrup's
+
+ more literal translation as "(the) made hold". Thus a more precise translation of the
+
+ heading of column I' might be
+
+ The number square of the diagonal (from) which
+ 1 is subtracted and (that of) the width comes up.
+
+ This interpretation encompasses the "square" element of previous interpretations
+
+ proposed by de Solla Price (1964, p. 7), Robson (2001 , p. 193), and even Friberg (2007,
+
+ p. 440), although without requiring the unlikely addition of "a-sa" as Friberg proposes.
+
+ It goes beyond these, however, in emphasizing an abstract numerical construct such as
+
+ we find in connection with auxiliary squares used in the solution of quadratics, which
+
+ is the sole context for which it is unambiguously attested. Muroi (2003, p. 262) leans
+
+ in this direction and understands the term to apply to the process of completing the
+
+ square, but attributes the term effectively to the whole quantity {ax +&/2)2, in conflict
+ with its consistent use in the examples he collects.
+
+ As an aside, the geographical distribution of texts containing takiltum parallels that
+
+ of those employing the Diagonal Rule. Thus of the nine texts with consistent takiltum
+
+ references two are from the south,30 while seven are from the periphery.31 By compar-
+
+ ison, Friberg's recent (2007, p. 450) list of texts employing the Diagonal Rule includes
+
+ four from the south32 and twelve from the periphery.33 Thus the term, which appears
+
+ to lack a Sumerian equivalent, may have originated in the periphery and diffused to
+
+ the center, perhaps in the company of the Diagonal Rule.
+
+ 29 See also Robson's discussion of lb-sig in Robson (2001, p. 173).
+
+ 30 VAT 8512 and VAT 8520 from Uruk.
+
+ 31 IM 53201 from Eshnunna; TMS 21, TMS 24, TMS 19, and TMS 12 from Susa; and YBC 6967 from
+
+ "northern (group 5)".
+
+ 32 Plimpton 322, attributed to Larsa and MS 3052, MS 3071 and YBC 8633 from Uruk.
+
+ 33 BM 85194, BM85196, BM 96957, IM 55357, IM 671 18, MS 3049, MS 3876, TMS 1, 2 and 19, VAT
+ 7531, and VAT 7289.
+
+ Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:19:47 UTC
+All use subject to https://about.jstor.org/terms
+
+ Two questions have remained partially or inconclusively answered by previous com-
+ mentators.
+
+ declines more or less steadily at the rate of roughly 0;1 per row. Pythagorean num-
+
+ bers - i.e., triples of integers satisfying the Diagonal Rule (1) - were thought to have
+
+ then been formed with these values of r and s by the number-theoretical formula
+
+ Plimpton 322 531
+
+ 1 .6 Numerical analysis
+
+ (1) Where do the numbers come from and what principle governed their selection
+
+ and organization?
+
+ (2) How were the numbers computed and what does this imply about the author's
+
+ approach to the exercise and understanding of the relationships involved?
+
+ Where do the numbers come from? Neugebauer and Sachs (1945, pp. 38-41) con-
+ cluded that the tablet was constructed by first selecting regular numbers r and s (in
+
+ Friberg's notation) so that
+
+ d/i = '/2(r/s+s/r) (4a)
+
+ d = r2 + s2,b = r2 -s2,l = 2 rs. (4b)
+
+ This conclusion was emphasized in Neugebauer's Exact Sciences in Antiquity 34
+ and became regarded as the number- theoretical essence of the authors' understand-
+ ing of the text, eclipsing the earlier conclusion35 that the numbers in the text arose
+
+ from the selection of pairs of regular numbers, r and s , whose ratios , combined as in
+
+ (4), resulted in desired values of d/i meeting the essentially subjective criterion of a
+
+ steady rate of decrease. No constraint was suggested for r and s beyond the suggestion
+
+ that they were taken from combined multiplication tables, which of course included
+
+ standard tables of reciprocals.
+
+ Subsequent commentators, notably Bruins (1949, 1955, 1957), Schmidt (1980),
+ Voils (per Buck, 1980) and most recently Robson (2001), argued that the more likely
+
+ starting point for the construction of the text was the ratios, r/s, and their reciprocals,
+
+ rather than their components, a possibility acknowledged but rejected by Neugebauer
+ and Sachs, who believed that "only the simple numbers r and s" could have been the
+
+ "point of departure". In the alternative view, the starting point for the construction of the
+
+ text consisted of pairs of reciprocals extracted from lists of extended reciprocals sub-
+ ject to some limitation on the number of places (i.e., sexagesimal "digits") comprising
+ either or both. Robson (2001) champions this interpretation but also acknowledges its
+ shortcomings, namely that among OB mathematical texts no such tables of extended
+
+ reciprocals are known, and further that if r/s is restricted to 4 places and s/r to 3
+
+ (a more severe limitation than exhibited in the text), then missing from the text are
+
+ entries corresponding to three such reciprocal pairs, namely:36
+
+ 34 Neugebauer (1951, p. 38).
+
+ 35 Neugebauer and Sachs (1945, p. 41).
+
+ 36 Robson (2001, p. 197, Table 8).
+
+ Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:19:47 UTC
+All use subject to https://about.jstor.org/terms
+
+ 532 J. P. Britton et al.
+
+ No r s r/s s/r (d/tj1 = V
+ 4a 4,48 2,5 2;18,14,24 0;26,2,30 1,51,27,6,59,24,9
+ 8a 2,15 1,4 2;6,33,45 0;28,6,40 1;40,6,47,17,32,36,15
+ 11a 2,5 1,4 1;57, 11,15 0;30,43,12 1;3 1,9,9,25,42,2, 15
+
+ all of which result in values of ( d/t )2 with fewer "digits" than that in row 10 of the
+ text.37
+
+ These critiques (other than Bruins' which came earlier) ignore the more plausible
+
+ answer proposed by de Solla Price (1964) and affirmed by Friberg (1981), namely that
+
+ the contents of the text arise naturally from the set of all distinct ratios of regular inte-
+ gers, r/s, where 1 < r/s < ^2+1 = 2; 24,51, 10 = 2; 25 and s is a regular sexagesi-
+ mal "digit" (i.e., 1 < s < 1, 0).38 The right side of the first condition is a consequence
+ of considering only rectangles (or corresponding right triangles) where b < i and
+ therefore b/i = 1/2 {r/s- s/r) < 1. Since d/t = 1 /2(r/s+s/r) < ^/2, (< d+b)/l =
+ r/s < *J2 + 1 = 2; 25, and the left side follows from 0 < b/i = 1/2 (r/s - s/r )
+ which implies 1 < r/s.
+
+ There turn out to be just 38 reduced combinations of r and s which satisfy the above
+
+ conditions, whose first 15 ratios, arranged in descending order, lead to precisely the
+
+ examples found in the text. All of which was understood and explained in detail by
+ de Solla Price, who observed, contra Neugebauer and Sachs, that "...it follows that
+
+ the regularity of decrease of [r/s] or in column [I'] is simply the result of considerable
+
+ uniformity in the density of such regular numbers among the integers, (de Solla Price
+ 1964, p. 3)
+
+ de Solla Price made another significant observation, namely that the tablet, scored
+
+ as it is over the lower edge of the obverse and on the reverse, appears unfinished and
+
+ that the space remaining is just sufficient to accommodate entries corresponding to the
+
+ remaining 23 ratios of r and s 39 See the photo of the reverse in Appendix B. Careful
+
+ measurement supports this estimate, and the close fit40 implies that the dimensioning
+
+ of the tablet was done with this objective in mind. Thus to the question: where do the
+
+ numbers come from and what principal governed their selection, the answer seems
+ unambiguous. The tablet represents the unfinished result of an investigation of all
+ ratios, r/s, of regular numbers, where 1 < r/s < 2; 25 and 1 < s < 1, 0, arranged in
+ descending order of r/s.
+
+ Table 2 shows the values of r for each value of s, which lead to unique reduced
+
+ ratios with 1 < r/s < 2; 25. Table 3 shows the resulting values of r/s arranged in
+
+ descending order. In a sense, the "point of departure" for the construction of the text
+
+ was indeed the simple regular numbers r and s , as suggested by Neugebauer and Sachs,
+
+ but with s limited to sexagesimal digits, and r constrained only by the condition that
+
+ 37 Joyce (1995) follows a similar line of argument, but caps p at 2, 5, reducing the number of missing
+ entries to one (11a).
+
+ 38 de Solla Price (1964, p. 221) observes that the restriction of s to sexagesimal "digits" is demonstrated
+ by the omission of entries for r/s = 125/64 (2,5/1,4) and 135/64 (2,15/1,4) which "would have occurred
+ between lines 8 and 9 and 1 1 and 1 2, respectively".
+
+ 39 Friberg (1981, 2007) embraces de Solla Price's conjecture; Robson (2001, 2002a, 2002b) ignores it.
+
+ 40 The likely arrangement would seem to be: 4 rows on the lower edge; 17 rows on the reverse; and 2 rows
+ curving over on to the back side of the top edge.
+
+ Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:19:47 UTC
+All use subject to https://about.jstor.org/terms
+
+ Table 2 Regular numbers r and s, such that r and s have no common factors, and 1 < s < 1,0 and
+ 1 < r/s < 2; 25
+
+ Plimpton 322 533
+
+ s r __s
+
+ 1 ^ 18
+ 2 3 20 27
+
+ 3 4 5 24 25
+
+ 4 5 9 25 27 32 36 48 54
+
+ 5 6 8 9 12 27 32 40 50 64
+
+ 8 9 15 32 45 75
+ 9 10 16 20 40 81
+
+ 12 25 45 64
+
+ 15 16 32 50 81
+ 16 I 25l 27l II 54 I 1251
+
+ Table 3 s,r, r/s and s/r arranged in descending order of r/s for all regular numbers, r and s , with no
+ common factors, 1 < s < 1 , 0 and r/s <2;25. Shown in bold are the elements underlying row n in Plimpton
+ 322
+
+ txt r/s = in descending order
+
+ No s r r/s = a
+
+ 1 5 12 2 24 25 20 5 8 1 36 37 30
+
+ 2 27 64 2 22 13 20 25 18 45 21 16 25 1 33 45 38 24
+
+ 3 32 75 2 20 37 30 25 36 22 2 3 1 30 40
+
+ 4 54 125 2 18 53 20 25 55 12 23 27 40 1 28 53 20 40 30
+
+ 5 4 9 2 15 26 40 24 25 36 1 26 24 41 40
+
+ 6 9 20 2 13 20 27 0 25 45 64 1 25 20 42 11 15
+
+ 7 25 54 2 9 36 27 46 40 26 32 45 1 24 22 30 42 40
+
+ 8 15 32 2 8 28 7 30 27 18 25 1 23 20 43 12
+
+ 9 12 25 2 5 28 48 28 20 27 1 21 44 26 40
+
+ 10 40 81 2 1 30 29 37 46 40 29 3 4 1 20 45
+
+ 11 1 2 2 30 30 25 32 1 16 48 46 52 30
+
+ 12 25 48 1 55 12 31 15 31 4 5 1 15 48
+
+ 13 8 15 1 52 30 32 0 32 5 6 1 12 50
+
+ 14 27 50 1 51 6 40 32 24 33 27 32 1 11 6 40 50 37 30
+
+ 15 5 9 1 48 33 20 34 8 9 1 7 30 53 20
+
+ 16 9 16 1 46 40 33 45 35 9 10 1 6 40 54
+
+ 17 16 27 1 41 15 35 33 20 36 25 27 1 4 48 55 33 20
+
+ 18 3 5 1 40 36 37 15 16 1 4 56 15
+ 19| 50 1 81 1 1 37 12 I 37 2 13 2o|| 38| 24' 25' 1 2 30 I 57 36
+
+ r/s be greater than 1 and less than y/2 + 1 . At issue remains whether r and s continued
+
+ to play any further role in the construction of the text, as Neugebauer and Sachs inter
+
+ alia affirmed, or whether their role was limited to defining the set of reciprocal ratios
+ which comprised its basic raw material. For the answer, we need to look at the likely
+ manner of its computation.
+
+ How were the numerical entries computed? Two distinct approaches have domi-
+ nated the discussion of this question. Neugebauer and Sachs (1945) - and especially
+ Neugebauer (1951) - followed by Gillings (1953), Aaboe (1964), and de Solla Price
+ ( 1 964), assumed use of the number-theoretical generating function (4b above) whereby
+
+ <£) Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:19:47 UTC
+All use subject to https://about.jstor.org/terms
+
+ 82 (I') = (d/e)2 = {(r2 + *2) /2 rs}2 (5a)
+ b (II') = r2 - s2,
+ d(m')=r2+s2,
+
+ 534 J. P. Britton et al.
+
+ and thus i = 2 rs.
+
+ An alternate procedure was proposed by Bruins, initially in two papers (Bruins
+ 1949, 1955), whose shortcomings41 included gross mistakes, limited accessibility, and
+
+ an undisguised animosity towards Neugebauer that impeded serious consideration of
+ his views. He may have realized this, for a subsequent paper in The Mathematical
+
+ Gazette (Bruins, 1957)42 presents a succinct analysis of the text in a straightforward,
+
+ comprehensible style, unencumbered by hyperbole or hints of personal animus. While
+
+ certain of his proposals are incorrect,43 his principal contribution was to emphasize
+
+ the reciprocal formulation of the problem, whereby
+
+ S2 (I') = {1/2 (r/s + s/r))2 = 1/4 |(r/s)2 + (5/r)2} + 1/2, (5b)
+
+ £2 (I') = {1/2 (r/s - s/r)}2 = 82 (i') - 1,
+
+ b (llr) = (r/s - s/r) • rs = 2/3 • rs , and
+
+ d (ill') = ( r/s + s/r) - rs = 28 - rs ,
+
+ and to have proposed explanations for each of the errors encountered, which were
+
+ arguably more "natural" than those advanced by advocates of the number-theoretical
+ formulation.
+
+ Apart from utilizing the reciprocal formulation (5b), a central feature of Bruins'
+ approach was a method for computing b and d , which skirted direct multiplication
+
+ by rs implied by (5b) above. Instead, Bruins proposed that this was accomplished by
+ removing common regular factors from and 8 by repeated multiplications by the
+
+ reciprocals of regular factors in the last "digit" of the resulting number, and continuing
+
+ this procedure until no regular factors remained in the last digit of at least one of the
+
+ pair. Friberg (2007, p. 24) calls this the "trailing part algorithm", and it is essentially
+ a variant of the "Technique" described by Sachs (1947)44 for finding the reciprocal of
+
+ any regular number. Done correctly (i.e., by the same factors for b and d) it yields the
+ same result as 1/2 (r/s ± s/r) • 2 rs.
+
+ Bruins' approach was reiterated with some variation of detail (and considerable
+ variation in clarity) by Schmidt (1980), Voils 45 Buck (1980), Friberg (1981, 2007)
+ and Robson (2001, 2002a), none of whom mentioned his unique explanation of the
+
+ 41 Described in Robson (2001, p. 185).
+
+ 42 Curiously mentioned by neither Friberg (1981) nor Robson (2001).
+
+ 43 Notably his belief that column I' contained only / 3 2 and lacked a left-most "1", and his claim that the
+ text reflected all ratios of regular numbers between 2;24 and 1;48 inclusive, as noted by Robson (2001, pp.
+ 185-186).
+
+ 44 See also VAT 6505 (Neugebauer 1935-1937, 270ff.) and Proust (201 1).
+
+ 45 In an unpublished paper destined for Historia Mathematica as described by Buck (1980).
+
+ ^ Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:19:47 UTC
+All use subject to https://about.jstor.org/terms
+
+ Plimpton 322 535
+
+ error in row 13 (see below). Its application to Plimpton 322 is shown in Table 4. Row
+ 11 is once again exceptional, since there we should find b = 3, d = 5, were the
+
+ procedure strictly applied. However, as noted, the canonical form of this relationship
+
+ is 45:1,0:1,15, so this discrepancy is without significance. Apart from avoiding mul-
+ tiplication by numbers outside the standard multiplication tables (e.g., 57 in row 2)
+ and by 2-digit numbers (e.g., 57,36 and 1,48 in rows 2 and 10), it is hard to see much
+
+ benefit from this procedure over direct multiplication by rs. However, as we shall see
+
+ from the analysis of errors, it does appear to have been the procedure followed.
+
+ We can appraise the relative likelihood of the two techniques by examining how
+
+ each might have led to the four non-trivial errors in the text.
+
+ I'(8): 1,41,33,59,3,45 instead of 1,41,33,45,74,3,45. Robson glosses over this error,
+
+ characterizing it46 as a "simple arithmetical error: two places added together" and
+
+ lumping it with the copy errors as an artifact without computational consequence of
+ transferring calculations from the work-tablet or copy board to finished tablet. How-
+ ever, as Anagnostakis and Goldstein (1974) showed in a note overlooked by both
+ Friberg and Robson,47 the error results naturally from ignoring a medial zero in the
+
+ course of calculating this entry. Specifically, they showed that if I'(8) was calculated as
+
+ S2 = {1/2 (r/s + s/r)}2 = 1/4 {(r/s)2 + ( s/r )2 + 2 r/s • s/r }
+
+ = 1/4 {{r/s)2 + {s/r)2} + 1/2 (r = 32, s = 15) ,
+ = 1/4 1(2; 8)2 + (0; 28, 7, 30)2} + 0; 30 (i)
+ = 1/4 {4; 33, 4 + 0; 13, 11,0,56, 15} + 0; 30 (ii)
+ = 1/4(4; 46, 15,0,56, 15) + 0; 30 (iii)
+ = 1; 41, 33, 45, 14,3,45, (iv)
+
+ but if the medial zero in (s/r2) is ignored in either step (ii) or step (iii) of the calculation,
+
+ 82 = 1/4 • (4; 46, 15, 56, 15) + 0; 30 (iii)
+ S2 = 1;41,33,59,3,45 (iv)
+
+ results instead, as we find.
+
+ Bruins (1957, p. 27), who believed column V to comprise only /$2, proposes a
+
+ similar explanation from calculating fi2 alone, to wit:
+
+ P2 = 0; 49, 56, 152 = (0; 50 - 0; 0, 3, 45)2 (i)
+ = 0; 41, 40 + 0; 0, 0, 0,14,3,45-0; 0, 6, 15) (ii)
+ = 0;41,33,45,14,3,45, (iii)
+
+ but, if the second term is telescoped by a sexagesimal place to 0;0, 0,14,3,45, the
+ result is
+
+ p2 =0; 41, 40 + 0; 0,0,14,3,45-0; 0,6, 15 (ii)
+
+ = 0;41,33,59,3,45 (iii)
+
+ 46 Robson (2001, p. 175, Table 2).
+
+ ^ Friberg (1981), Robson (200 1 ). No reference to it appears in either text or bibliography of either paper.
+
+ Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:19:47 UTC
+All use subject to https://about.jstor.org/terms
+
+ Table 4 Computation of columns II' (b) and IIIr(d) by the trailing part algorithm
+
+ 536 J. P. Britton et al.
+
+ row s r r/s s/r Vzjr/s -s/r) ' x V2 {r/s + s/i) ' x
+ 1 5 12 2 24 25 59 30 j 2 1 24 30 j 2
+
+ 2 27 1,4 2 22 13 20 25 18 45 58 27 17 30 j 2 1 23 46 2 30 j 2
+ 1 56 54 35 1 12 2 47 32 5 j 12
+ 23 22 55 ! 12 33 30 25 j 12
+ 4 40 35 j 12 6 42 5 j 12
+ 56 7 j 1 20 25 | 12
+ j 16 5 j 12
+ ' 3 13 |
+
+ 3 32 1,15 2 20 37 30 25 36 57 30 45 j 4 1 23 6 45 j 4
+ 3 50 3 | 20 5 32 27 j 20
+
+ 4 54 2,5 2 18 53 20 25 55 12 56 29 4 j 15 1 22 24 16 j 15
+ 14 7 16 j 15 20 36 4 j 15
+
+ 5 4 9 2 15 26 40 54 10 j 6 1 20 50 j 6
+ 5 25 | 12 8 5 | 12
+
+ 6 9 20 2 13 20 27 53 10 j 6 1 20 10 j 6
+
+ 2 32 44 | 15 3 56 4 j 15
+
+ 8 15 32 2 8 28 7 30 49 56 15 j 4 1 18 3 45 i 4
+ 3 19 45 j 4 5 12 15 j 4
+
+ 9 12 25 2 5 28 48 48 6 j 10 1 16 54 M0
+
+ 12 25 48 1 55 12 40 41 58 30 i 2 1 13 13 30 I 2
+ 1 23 57 j 20 2 46 27 j 20
+
+ 14 27 50 1 51 6 40 32 24 39 21 20 ! 3 1 11 45 20 ! 3
+ 1 58 4 ! 15 3 35 16 j 15
+
+ 15 5 9 1 48 33 20 37 20 j 3 1 10 40 j 3
+ 1 52 j 30 3 32 I 15
+
+ as we find. Bruins claims that this binomial computation of f$2 is simpler than squaring
+
+ the semi-sum of the reciprocals, at least for 12 of the 14 relevant entries. If so, column
+ I' could have easily been calculated as <5 2 = ft1 -I- 1, instead of directly. Although
+
+ Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:19:47 UTC
+All use subject to https://about.jstor.org/terms
+
+ 10 40 1,21 2 1 30 29 37 46 40 45 56 6 40 j 3 1 15 33 53 20 j 3
+
+ 2 17 48 20 1 3 3 46 41 40 j 3
+ 6 53 25 | 12 11 20 5 j 12
+
+ Plimpton 322 537
+
+ seemingly more prone to similar errors than the computational procedure described
+
+ by Anagnostakis and Goldstein, Bruins' conjecture is supported by the error in II'
+ (13), discussed below, where b2 appears in place of b.
+
+ While at first glance this appears to compel a computational path based on recip-
+
+ rocals, an opportunity to make a similar error arises from Neugebauer's and Sachs's
+
+ procedure (5a). Properly computed this entails the following steps
+
+ S2 = (r2 + S2)2 / (4r2s2)
+
+ = (322 + 152)2 • (0; 15) • (0; 1, 52, 30)2 • (0; 4)2 (i)
+ = (20, 49)2 • (0; 15) • (0; 0, 3, 30, 56, 15) • (0; 0, 16) (ii)
+ = (7, 13, 20, 1) • (0; 0, 3, 30, 56, 15) • (0; 0, 4) (iii)
+ = 1;41,33,45,14,3,45. (iv)
+
+ However if 7,13,20, 1 is mistaken as 7,13,21 (as in I' (2)), the result is also
+
+ 8 2 = (7, 13, 21) • (0; 0, 3, 30, 56, 15) • (0; 0, 4) (iii)
+
+ = 1; 41, 33, 59,3,45 (iv)
+
+ Thus, there are several paths, all entailing misplaced or telescoped sexagesimal
+
+ digits, which can have led to the error in I'(8). Whichever the path, however, the error
+
+ clearly arises in the course of computation, and is not simply an artifact of some copy-
+
+ ing process. Since it did not affect the correct calculation of b or d in the two subsequent
+
+ columns, it shows that columns IIr and III' were not computed from column If .
+
+ We are left with three errors in columns II'(b) and III'(d),
+
+ III'(2): d = 3, 12, 1 instead of 1,20,25
+ II'(13): b = 7, 12, 1 instead of 2,41
+ II, III/(15): b = 56, instead of 28, or d = 53 instead of 1,46
+
+ and two computational paths to choose from:
+
+ b = r2 - s 2, d = r2 + s2, (6a)
+
+ and
+
+ b = 1/2 (r/s - s/r ) - kb, d = 1/2 ( r/s + s/r) • kd . (6b)
+
+ III'(2):d = 3,12,1 (or 3,13) for 1,20,25. This has been widely recognized to have
+ resulted from two separate errors, one of which Bruins proposed48 was simply a copy
+
+ error of 13 as 12,1. By (6a),
+
+ d = 1, 42 + 272 = 212 + 36 = 1, 8, 16 + 12, 9 = 1, 20, 25,
+
+ which is so straightforward it is difficult to see a plausible path to either result. Nor
+
+ have the proponents of this approach been able to propose one.
+
+ 48 Bruins (1957, p. 27) followed by Friberg (1981, 2007) and Robson (2001, 2002a, 2002b).
+
+ Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:19:47 UTC
+All use subject to https://about.jstor.org/terms
+
+ 538 J. P. Britton et al.
+
+ By (6b) the procedure is shown in Table 4, row 2. For b, three successive elimina-
+
+ tions of the factor 5 (i.e., multiplications by 12) lead to the non-regular result 56, 7,
+
+ and the factoring of d should have stopped there. However, it appears that the factoring
+
+ of d continued without regard to b , until it reached the non-regular number 3,13 after
+
+ two more steps. Thus by this approach, the error is a combination of copy error from
+
+ 13 to 12,1 plus an uncoordinated application of the trailing part algorithm, both of
+
+ which seem perfectly plausible.
+
+ 11(13) :b = 7, 12, 1 (or 7,13), instead of 2,41. Neugebauer and Sachs note (1945,
+
+ p. 38, nl07) that the number is the square of the correct number, and virtually all
+
+ subsequent commentators have considered it such, without offering a compelling ratio-
+
+ nale for why it should be.49 Exceptionally, Bruins (1957, p. 27) proposed that rather
+
+ than the square of 2,41, the number is a copy error for 7,13 similar to that apparently
+ affecting III/(2), and that instead of (r/s - s/r) = 1,20,30, the author miscopied
+ (r/s + s/r) as 2,24,20 leading to multiplication by 3 instead of 2 in the trailing part
+
+ algorithm, and thus to 7,13. This, however, effectively assumes three errors, at least
+
+ one too many to be plausible. A simpler explanation, favoring the reciprocal algorithm,
+
+ is that column I' was computed as f$2 + 1, and that ft1 was mistakenly used to obtain
+
+ b by the trailing part algorithm.
+
+ II', III'(15) :b = 56 for 28 or d = 53 for 1,46. The alternatives are:
+
+ b = r2 - s2 = 1, 21 - 25 = 56, d = r2 + s2 = 1, 21 + 25 = 1, 46, (7a)
+
+ and
+
+ b = l/2(r/s - s/r) • 2 rs, d = 1/2 (r/s + s/r) • 2 rs (7b)
+
+ The presence of the factor 2 in (7b) makes the error more easily explained as arising
+
+ from multiplying 1/2 (r/s +s/r) by rs instead of 2 rs, than from (7a), where the factor 2
+
+ does not appear. More plausibly, applying the trailing part algorithm, but in computing
+
+ b either stopping a step short or removing only the factor 2 in the last step, instead of
+
+ 4 as in computing d , leads to the numbers we find, and suggests that the error was in
+ II' (15), which should have been 28 instead of 56.50 Details are in Table 4 for row 15.
+
+ In sum, the number- theoretical algorithm (7a) offers a plausible explanation for the
+
+ error in I' (8) but fails to explain any of the errors in columns II' and III'. In contrast
+
+ the reciprocal procedure (7a), utilizing the trailing part algorithm, offers explanations
+
+ of all four significant errors, based on one or more of the following plausible errors:
+
+ - medial zero or place value error: [I' (8)]
+ - copy or reading errors: 12, 1 for 13 [III' (2)]
+ - disparate factorization or factorization steps [III' (2), II' (15)]
+ - use of ft2 from computation of I' for [II' (13)]
+
+ 49 Friberg (1981) speculates from the relative paucity of errors in column I' that it was checked by comput-
+ ing b2 • (1/ £2) and that b2 was simply written down by mistake in place of b. However, column I' appears
+ no more accurate than II' or III', and the error in l'(8) argues against his explanation.
+
+ 50 As in Robson (2001, p. 175, Table 2).
+
+ Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:19:47 UTC
+All use subject to https://about.jstor.org/terms
+
+ Plimpton 322 539
+
+ On balance, there is no contest; the reciprocal procedure yields plausible expla-
+
+ nations for all but one of the text's non-trivial errors, while the number-theoretical
+
+ algorithm fails to offer likely, let alone compelling, explanations for any of the errors
+
+ in columns II' and III'. Thus we may confidently exclude the number- theoretical for-
+
+ mulation (5a) as the basis for the text's computation.
+
+ 1 .7 Missing columns
+
+ Any attempt to estimate the missing contents of the tablet is necessarily speculative.
+ However, by paying close attention to the physical characteristics of the surviving
+ tablet, the possibilities can be reduced. Furthermore, since it is possible, even likely,
+
+ that at least part of the missing fragment is buried in some collection, perhaps mis-
+ characterized as was Plimpton 322, it seems worthwhile to hazard a guess as to the
+
+ possible contents, in the hope of possibly aiding its future identification.
+
+ At the outset we noted that by symmetry from the thickest part of the tablet it
+
+ appears that between 60 mm and 70 mm of writing surface is missing to the left,
+ and that each column of complete sexagesimal "digits" (i.e., containing both tens and
+
+ units) takes up ~7 mm or a little less horizontally. Consequently the missing section
+
+ should have had room for 8^ to 10 columns of full sexagesimal "digits", and perhaps
+
+ up to lO1^ if the missing width is slightly greater than our estimate.51 This limitation
+ rules out the possibility that the complete tablet contained all the numbers entailed in
+
+ its production, each of which requires space for the number of digits shown below.52
+
+ (Here digits lacking 10s are treated as requiring ' digit; those lacking units are treated
+
+ as whole digits, consistent with preserved text.)
+
+ A glance at Table 5 shows that the missing fragment could have contained either
+
+ and 8 or r/s and s/r, but not both pairs, contra Friberg's most recent (2007) proposal.
+
+ The latter pair could have been accompanied by either r and 5 or by 2 rs for a total
+
+ of 10 digits taking up 70 mm of width, but combining and 8 with either r and s or
+
+ 2 rs, would add up to 1 1 digits requiring 77 mm, exceeding the likely maximal extent
+
+ of the missing fragment. In the other direction including only the pair of reciprocal
+
+ ratios as proposed by Robson (2001) would seem to take up too little space. Thus the
+
+ likely alternatives appear to be either the pair /3 and 8, or r/s and s/r plus either r and
+ s or 2 rs.
+
+ Of these, it seems far more likely that the missing fragment contained and 8
+
+ on several grounds. First, the likely method of computation of columns II' and III'
+ requires both and appears to have been unaffected by errors in column I'. Further-
+ more, since at least part of the tablet concerns the dimensions of rectangles of unit
+ length, as reflected in column I', beginning the tablet with would have amounted to
+
+ a statement of the relative flatness of the rectangles in each line. Finally, the inclusion
+
+ 5 1 de Solla Price, who had a good eye for such things, estimated "more than a third" of the tablet to be
+ missing. This would seem consistent with slightly more than my estimate, perhaps 70-75 mm, which would
+
+ allow room for 10 or 101/2 digits but probably not 1 1 .
+
+ 52 In the existing text, the initial "1" in column V evidently takes up less than a full digit's space, while all
+ three columns leave room for units following a last digit which contains only tens.
+
+ Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:19:47 UTC
+All use subject to https://about.jstor.org/terms
+
+ Table 5 Possible elements and width of missing columns
+
+ of ft and 8 followed in column I' by the diagonal triple, <5 2 = 1 + would seem to
+ follow a natural order, all of whose elements concern normalized rectangles of unit
+
+ 540 J. P. Britton et al.
+
+ ~~rj7Tr~i I Combined
+
+ Element [digits] ^ | width (mm) ~
+
+ s[l],r[l%]
+
+ r/s [3*4 s/r
+
+ t: 2rs
+
+ /?: Vijr/s - s/r)
+
+ &. Vi(r/s + s/r) 4X 31.5
+
+ length.
+
+ The alternative - including the reciprocal ratios plus either their component digits
+
+ or 2 rs - suffers in comparison, first by omitting and 8 , needed for the computation
+ of columns If and III' but also because the ratios are at least a step removed from
+
+ the remaining contents of the tablet. Furthermore, while one might expect columns
+ II' and III' to have been accompanied by the corresponding lengths equal to 2 rs, the
+
+ natural place for this to have appeared would have been between columns I' and II'.
+ Placing 2 rs before column I' would have made no logical sense, and making it the
+ first column would have introduced the appearance of random order conflicting with
+
+ both convention and the text's natural order. Finally, since neither r nor s seem to play
+
+ any direct role in the remainder of the tablet, there seems no motivation for including
+ them.
+
+ On balance, we think it can be assumed with fair confidence that the missing frag-
+
+ ment contained p and 8 as suggested in Friberg (1981), probably unaccompanied by
+
+ 5, r, or 2 rs as displayed in Table 6.
+
+ 1.8 Purpose
+
+ Friberg and Robson both regard Plimpton 322 as a pedagogical "teacher's aid" intended
+ to serve as a source of parameters and checkable intermediate results for sets of "solv-
+
+ able" problems - "solvable" meaning solutions comprised of numbers with finite sex-
+ agesimal expressions, called "semi-regular" by Friberg. Less clear is exactly what
+ sorts of problems were the object of the exercise. Robson (2001, p. 201) summarizes
+ the dilemma succinctly as follows:
+
+ . . .But we are still left with a decision to make: was this teachers' list a compen-
+
+ dium of suitable sets of right triangles (Friberg) or reciprocal pairs (Voils/Buck)?
+
+ If we go with Friberg, we have to explain why Column I is in the table and why
+ there is no (extant) column for /. If on the other hand we follow Voils/Buck, the
+
+ problem is to explain why Columns II and III contain values which have been
+ scaled up by the factor / - and why the word "diagonal" crops up in the heading
+ of Columns I and III.
+
+ ^ Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:19:47 UTC
+All use subject to https://about.jstor.org/terms
+
+ Table 6 Plimpton 322. Conjectured reconstruction of the contemplated completed tablet
+
+ sag $bli-ip-tum ta-k]i-il-ti $i-li-ip - tim | lb.si8 sag . ib.si8 , mu.bi.im |
+
+ Robson notes that neither Friberg (1981) nor Buck (1980) satisfactorily resolves
+
+ the issue and takes a contextual run at it before conceding that the manner in which
+
+ the text was computed (i.e., by reciprocal sums and differences) does not necessarily
+ reflect the problems it was designed to set, which, she concludes, edging towards
+ Friberg (1981), must be "some sort of right triangle problems" (Robson 2001, p. 202).
+
+ Meanwhile, Friberg, who concluded in (1981, p. 300)
+
+ that it may have been the intention of the author of the tablet to find the front and
+
+ diagonal of all rational right triangles with flank (i.e., length) = 1 under the sole
+ condition for practical reasons that the parameter t = s/r ...must be a regular
+ sexagesimal number such that, for instance, s < 1,0.
+
+ simply noting (1981, p. 303) as a secondary matter,
+
+ the interesting possibility of a close connections between the "Babylonian trian-
+
+ gle parameter equations" and the treatment of some types of quadratic equations
+ in Babylonian mathematics
+
+ Plimpton 322 541
+
+ P * b d N°
+
+ t-n [01
+
+ "59
+
+ 58 27 17 30 1 23 46 2 30 1 56 56 58 14 50 6 15 56 7 1 20 25 ki 2
+ 57 30 45 1 23 6 45 1 55 7 41 15 33 45 1 16 41 1 50 49 kl 3
+ 56 29 4 1 22 24 16 1 53 10 29 32 52 16 3 31 49 5 9 1 ki 4
+ 54 10 1 20 50 1 48 54 1 40 1 5 1 37 ki 5
+ 53 10 1 20 10 1 47 6 41 40 5 19 8 1 ki 6 obv
+ 50 54 40 1 18 41 20 1 43 11 56 28 26 40 38 11 59 1 ki 7
+ 49 56 15 1 18 3 45 1 41 33 45 14 3 45 13 19 20 49 ki 8
+ 48 6 1 16 54 1 38 33 36 36 8 1 12 49 ki 9
+ 45 56 6 40 1 15 33 53 20 1 35 10 2 28 27 24 26 40 1 22 2 16 1 ki 10
+ 45 1 15 1 33 45 45 1 15 ki 11
+ 41 58 30 1 13 13 30 1 29 21 54 2 15 27 59 48 49 ki 12
+ 40 15 1 12 15 1 27 0 3 45 2 41 4 49 ki 13 U
+ 39 21 20 1 11 45 20 1 25 48 51 35 6 40 29 31 53 49 ki 14 R
+
+ 37 20
+
+ "36 27 30 [i"l"o~12" 30 1 22 9 12 36 15 I 2 55 I 5 37 ki 16 I
+ 32 50 50 1 8 24 10 1 17 58 56 24 1 40 7 53 16 25 ki 17 I lo.e
+ 32 1 8 1 17 4 8 17 ki 18 1
+
+ 30 4 53 20 * 1 7 7 " 6 40 1 15 4 53 43 54 4 26 40 1 7 41 2 31 1 ki 19 I
+ "~29 15 * 1 6 45 " 1 14 15 33 45 39 1 29 ki 20 I
+ 27 40 30 1 6 4 30 1 12 45 54 20 15 6 9 14 41 ki 21 I
+ 25 1 5 1 10 25 5 13 ki 22 I
+ 24 11 40 1 4 41 40 1 9 45 22 16 6 40 14 31 38 49 ki 23 I
+ 22 22 1 4 2 1 8 20 16 4 11 11 32 1 ki 24
+ 21 34 22 30 1 3 45 37 30 1 7 45 23 26 38 26 15 34 31 1 42 1 ki 25
+ 20 51 15 1 3 31 15 1 7 14 53 46 33 45 16 41 50 49 ki 26 rev
+ 20 4 1 3 16 1 6 42 40 16 5 1 15 49 ki 27
+ 18 16 40 1 2 43 20 1 5 34 4 37 46 40 5 29 18 49 ki 28
+ 17 30 1 2 30 1 5 6 15 7 25 ki 29
+ 14 57 45 1 1 50 15 1 3 43 52 35 3 45 6 39 27 29 ki 30
+ 13 30 1 1 30 1 3 2 15 9 41 ki 31
+ 11 11 12 1 11 1 1 ki 32
+ 10 14 35 1 0 52 5 1 1 44 55 12 40 25 4 55 29 13 ki 33
+ 7 5 1 0 25 1 0 50 10 25 17 2 25 ki 34
+ 6 20 1 0 20 1 0 40 6 40 19 3 1 ki 35
+
+ 4 37 20
+
+ "~~3 52 30
+
+ 2 27
+
+ Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:19:47 UTC
+All use subject to https://about.jstor.org/terms
+
+ 542 J. P. Britton et al.
+
+ tacks back in (2007, p. 433), and describes the text in the title of Appendix 8 as "Plimp-
+
+ ton 322: a Table of Parameters for igi-igi.bi Problems." Here he is clearly influenced
+ by the discovery of two previously unknown texts, MS 3971 and MS 3052, which
+
+ contain six similar problems: given igi = r/s and thus implicitly igibi = s/r, find the
+ short side /3 as ^/{l /2(r/s + s/r)2 - 1}. As Friberg notes, solutions to the 5 prob-
+ lems in MS 3971 comprise lines 18, 22, 29, 32, and 37 in the completed extension of
+
+ Plimpton 322 shown in Table 6, while MS 3052 concerns the simplest of ratios: r/s =
+
+ igi = 2, igibi- 0;30, p = 0;45, corresponding to line # 1 1 in the actual text.
+
+ Significantly, all six of these problems assume a normalized rectangle with unit
+
+ length, X = 1, and all employ a round-about solution path starting with r/s = a and
+ computing l/a,8 = 1/2 (a + '/a),82,p2 = 82 - 1, and finally = ^/{ 8 2 - 1},
+ largely reversing the construction of column V in Plimpton 322 and eschewing the
+ shortcut of = 1/2 (a - 1 /a) implicit in the underlying algorithm. Since the pro-
+ cedure works for any regular a < 2; 25, it is hard to see what Plimpton 322 would
+ contribute, apart from the (strangely indirect) intermediate calculations and answers.
+
+ Finally, as Robson notes, what is to be made of columns II' and III' in the absence of
+
+ their widely varying third dimension, l=2rsl
+
+ Thus, despite their sometimes spirited differences Friberg and Robson arrive by
+
+ different paths at a largely similar view that Plimpton 322 was intended to serve as
+ a teachers' aide linking reciprocal relationships to the Diagonal Rule, without ever
+ quite pinpointing what problems it would have uniquely helped construct, or what
+ mathematical purpose it might have served. Otherwise they differ in emphasis and
+
+ perspective with Robson minimizing the tablet's mathematical character in favor of
+
+ its more prosaic pedagogical attributes, and Friberg - embracing de Solla Price's con-
+
+ jecture that it was intended to encompass a complete set of entries - emphasizing its
+ mathematical attributes.
+
+ 1.9 Summary
+
+ - Plimpton 322 concerns sets of diagonal triples, /3, 1,3, for normalized rectangles
+
+ of unit length computed from ratios r/s of regular numbers as
+
+ P = 1/2 (r/s - s/r), 8 = 1/2 (r/s + s/r).
+
+ - From the scoring on the lower edge and reverse and measurements of the unwritten
+ surface area it appears the its author intended to include entries for all 38 unique
+ ratios, r/s satisfying the conditions
+
+ 1 < r/s < 1 -I- *J2, and 1 < s < 1, 0.
+
+ - It is highly likely that the missing fragment to the left contained only /3 and 8.
+ - Column I' reflects the fundamental diagonal relationship, 82 = 1 4- ^2, in a single
+ number for each entry, probably computed in the same fashion. The term takilti in
+
+ its heading means "square" but with emphasis on its abstract numerical rather than
+
+ concrete geometrical nature.
+
+ Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:19:47 UTC
+All use subject to https://about.jstor.org/terms
+
+ Plimpton 322 543
+
+ - Columns II' and III', reflecting the integer values for width and diagonal corre-
+
+ sponding to each /?, were computed by successive applications of the "trailing part
+ algorithm" to and 8.
+
+ - The four non-trivial errors can be explained as due to
+
+ • medial zero or place value error: [Y (8)]
+ • copy or reading error: 12, 1 for 13 [III' (2)], or
+ • disparate factorization steps [III' (2), II' (15)]
+ • use of f$2 from computation of I' for [II' (13)].
+
+ - The writing, layout, and construction of the tablet reflect a high degree of skill on
+
+ the part of its author.
+
+ 2 Part II. A Different Perspective
+
+ Many of the difficulties encountered by Robson and to some extent Friberg in describ-
+
+ ing the purpose of Plimpton 322, arise from their shared assumption that the tablet
+
+ was created to serve a restricted pedagogical purpose. The following discussion aban-
+ dons this assumption and considers the tablet's place as a mathematical artifact in its
+ historical and mathematical context. We draw heavily upon the new material from
+ the Sch0yen Collection, published with illuminating commentary by Friberg (2007),
+ as well as upon the geometrical perspectives advanced by H0yrup (2002) and earlier
+
+ papers.
+
+ We find the tablet intimately connected with the discovery of the algorithm for
+ finding triples of finite sexagesimals satisfying the Diagonal Rule, therefore closer
+ to a problem text than has hitherto been proposed, and substantively "deeper" than
+ a mere pedagogical aid. In the following commentary, we have avoided, as much as
+
+ possible, using the term "triples", since there is no reference to triples in the texts under
+
+ consideration, including P 322, but to pairs (width and diagonal). These two numbers
+
+ define completely the rectangles which are the object of the problem, that is, rectangles
+
+ with length, width and diagonal represented by finite sexagesimal numbers. We will
+ call such rectangles "finite sexagesimal rectangles". (In the spirit of Old Babylonian
+
+ mathematics, we refer to the associated rectangles, instead of the right triangles.)
+
+ Our understanding of the historical and mathematical context is derived from a
+
+ quite rich collection of cuneiform mathematical tablets dating from approximately
+ the same period, that is, Old Babylonian, and coming from the same geographical
+ region (according to a provisional assessment of both provenance and date). These
+ texts reflect diverse scribal traditions. The Old Babylonian period covers several cen-
+ turies: an early formative period (Isin-Larsa) ending with the conquest of Larsa by
+ Hammurabi; an overlapping period encompassing the reigns of Hammurabi (1 848-
+ 1806) and Samsu-iluna (1805-1768) up to the abandonment of the southernmost cities
+ (Ur, Uruk, Larsa) by 1795 and of Nippur and Isin by around 1776; and a late period
+ during which scribes fled to the north after the destruction of the southern cities and
+
+ which extended past the end of the first dynasty of Babylon (1651) into the period
+ of Kassite rule. With respect to the provenance of cuneiform mathematical texts,
+ there are several regions: the south - Larsa, Uruk, Ur, comprising the post-Ur III
+
+ "core" in H0yrup's terminology, the center - Nippur, Isin; the northern region of the
+
+ Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:19:47 UTC
+All use subject to https://about.jstor.org/terms
+
+ 544 J. P. Britton et al.
+
+ Mesopotamian plain - Kis and Sippar; the middle Euphrates, Mari and the kingdom
+ of Esnunna; and finally Susa to the east. The last three are often called "peripheral".
+
+ Common linguistic features, first analyzed by Goetze, Neugebauer and Sachs ( 1 945 ,
+
+ pp. 146-151), and more recently and extensively by H0yrup (2002, pp. 315-361) have
+
+ led to the recognition of several groups of texts, some of which can be correlated with
+ varying degrees of certainty with distinct locations. Thus using Goetze's groupings
+ as expanded by H0yrup, texts comprising groups 7 and 8 are known to come from
+ Esnunna and Susa, respectively. They are also among the earliest and the latest of
+ Old Babylonian mathematical texts, the former being dated to around 1840 to 1830
+ and the latter thought to be late from paleographic criteria (H0yrup 2002, p. 318).
+ Texts from group 6 are probably from Sippar (H0yrup 2002, p. 332). The few texts
+
+ comprising group 5 are not specifically located but reflect both northern and southern
+
+ characteristics and are believed to come from the periphery after the abandonment of
+
+ at least the southernmost cities in 1795. Texts from groups 1 to 4 are all from the south,
+
+ with group 1 attributed "in all probability" (Goetze, Neugebauer and Sachs (1945),
+ p. 148) to Larsa, and groups 3 and 4 attributed to Uruk.
+
+ Temporally, texts from Esnunna are from before ca., 1830, from Ur, Larsa and Uruk
+
+ before 1795, those from Sippar and group 5 probably after 1795, and those from Susa
+
+ probably later but before the end of the first dynasty of Babylon in 1651. A separate
+ group of "series texts" is also thought to be late from paleographic and substantive
+ considerations.
+
+ 2.1 Provenance
+
+ Since evidence of mathematical activity at the southernmost cities disappears after
+
+ 1795, the historical context of the tablet is intimately related to its provenance. H0yrup
+
+ (2002, p. 386) has questioned the likelihood of a Larsa provenance, noting,
+
+ Goetze ascribes Plimpton 322 very tentatively to group 1 saying that 'it may or
+ may not belong here' [Neugebauer and Sachs (1945), pp. 147, 353]. His only
+ argument is the spelling [ in-]na-as-sa-hu-u-ma , which may indeed just as well
+
+ (if not better) point to group 6.
+
+ Similarities of vocabulary - elum (comes up) for results, nahasu for subtract, sutak-
+ ulum for rectangularization and lb-sis as a nominal rather than verbal form point
+ perhaps even more strongly to group 5, which H0yrup (H0yrup 2002, p. 332) finds
+ closely related to the body of texts from Esnunna.
+
+ H0yrup's other reason for doubting a Larsa provenance was the greater frequency
+
+ of problems invoking the Diagonal Rule in texts from the periphery rather than from
+
+ the south, suggesting that P 322 fits better with the former than the latter, as well as a
+
+ later date than would be plausible for texts from the south. Friberg's discovery of texts
+
+ in the Sch0yen Collection apparently from the south which involve the Diagonal Rule,
+ weakens but hardly refutes this argument. A stronger case for a late date, moreover,
+
+ can be made from the quasi absence of evidence of finite sexagesimal rectangles other
+ than the classical triple 45:1:1,15, presumably known from deep antiquity.
+
+ Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:19:47 UTC
+All use subject to https://about.jstor.org/terms
+
+ Plimpton 322 545
+
+ Thus, before considering the text's mathematical context, we shall examine in
+
+ greater detail the evidence bearing on whether it originated in the south, implying
+
+ a pre- 1795 date, and specifically from Larsa. The chief evidence for a southern origin,
+
+ if not specifically Larsa, is found in MS 397 1 , published in Friberg (2007, pp. 245-254
+
+ and especially #3, pp. 252-253). It describes five problems of determining the diago-
+
+ nals and widths of rectangles of implicitly unit length from the sums and differences
+ of reciprocals. As noted by Friberg (2007, p. 444) the five problems correspond to
+ line numbers 37, 18, 22, 29, and 32, from the unfinished section of P 322. Apart
+ from BM 85200+ VAT 6599 #16 which also reflects the other classictriple, 5:12:13,
+
+ corresponding to (unfinished) line 22, and seemingly known from Sargonic times, the
+ examples from MS 3971 are the only Old Babylonian evidence of finite sexagesimal
+
+ rectangles (other than the classic two) attested or implied in P 322. Significantly, they
+
+ also imply that someone completed the unfinished exercise contemplated by P 322's
+ author. Friberg places MS 3971 firmly in Goetze's group 3 from Uruk, based on an
+ analysis of similarities among Sumerian elements. While this may merit confirmation
+
+ from further analysis, it strongly suggests a temporal proximity between P 322 and
+ MS 397 1 , which would rule out a late date for P 322, and makes a southern provenance
+
+ more likely than not.
+
+ A less compelling, but still significant, bit of evidence favoring an earlier over a
+
+ later date is the correct, extremely precise, and very fine handwriting of the tablet's
+
+ author (seen clearly in the photograph) which reflects none of the cursive writing found
+ in later "series" or Susa texts. While not indicative of even regional origins, it does
+
+ suggest an association of the author with the scribal traditions of a major center.
+
+ The foregoing evidence suggests on balance that P 322 came from the south more
+
+ probably than not, and - based on orthography and terminology - from somewhere
+ other than Uruk. As noted in Part I the strongest evidence for a Larsa provenance is
+
+ Banks's specific statement that the tablet was found at Senkereh. In an undated pro-
+
+ spectus, probably written around 1923, describing four tablets and their prices, Banks
+
+ described the tablet (No. 3) to Plimpton as follows
+
+ No. 3 $ 10.00 Found at Senkereh. A very large burned tablet with one edge broken
+
+ away, but with the inscription practically complete. It is a mathematical tablet,
+
+ and the column at the right contains the numerals 1 to 15. The numbers in the
+
+ columns at the left are very large, and it seems to me that they are the cubes or
+
+ squares of the numbers in the column on the right. It was used as a mathematical
+ text book (sic). The date is about 2250 B.C." (i.e., during the reign of Hammurabi
+ as thought then). (Plimpton file, Rare Book and Manuscript Library, Columbia
+ University)
+
+ Tablets Nos. 1 and 2 were also described as from Senkereh, while No. 4, an Ur III
+
+ accounting of sheep and goats, was found at Drehem. Other tablets offered to Plimp-
+ ton around this time were all individually provenanced, with most from Senkereh,
+ some from Ur, one from Drehem and one (P348) from Jokha (ancient Umma). Thus
+
+ all of the tablets offered by Banks to Plimpton came from locations in the south with
+
+ the northernmost coming from Drehem. A similar pattern of origins characterized the
+
+ much larger volume of tablets sold by Banks to collectors and institutions across the
+
+ Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:19:47 UTC
+All use subject to https://about.jstor.org/terms
+
+ 546 J. P. Britton et al.
+
+ continent both before and shortly after World War I, the vast majority of which came
+ from the south.
+
+ The pattern of Banks's tablet sales correlates with his travels and connections within
+
+ Iraq. After obtaining his Ph.D. at Breslau under Delitzsch in 1897, Banks spent sev-
+
+ eral years in Bagdad endeavoring to obtain permision to excavate first Ur, which was
+ denied, and then to Bismaya (ancient Adab), which was eventually granted in 1903 to
+
+ the University of Chicago. The university then appointed him "Field Director of the
+
+ Babylonian section of the Oriental Exploration Fund" and an "instructor in Turkish
+
+ and Semitic languages". While serving as field director, he made many acquaintances
+
+ among the "dealers and manufacturers" of antiquities, as he describes them in his 1912
+
+ account of the expedition to Bismaya. On his travels to and from Bismaya he passed
+
+ through Hillah and Nippur, and late in 1904 he made a trip south via the Euphrates
+ to visit the main southern sites of Uruk, Larsa and Ur. Of Larsa he wrote (Bismaya
+
+ 418) "Of all the ruins in Babylonia Senkera (sic) is the most promising, and this the
+ illicit Arab diggers have long known." Suspected by Turkish authorities of playing
+ loose with the antiquities laws, he resigned his position with the expedition at the end
+ of 1904 and left Iraq. In 1912 he returned to Bagdad and purchased the remaining
+
+ 1 1,000 or so of a huge trove of illicitly excavated Ur III tablets mostly from Drehem
+
+ and Jokha, which he sold widely to US institutions and collectors in subsequent years.
+
+ In a 1937 letter to J.G. Phelps Stokes, to whom he had recently sold a Nebuchad-
+
+ nezzar cylinder, Banks described his source of tablets as follows.
+
+ Dear Mr. Stokes,
+
+ I thank you for your fine letter and for the enclosed check in full payment for the
+
+ Nebuchadnezzar cylinder. I can give you very little further information regard-
+
+ ing the cylinder. I obtained it in Bagdad some years ago from a native friend
+ who has supplied me with such antiquities as he can get from the natives who
+ find them. These native have been trained, some of them by myself, to search
+
+ among the ruins and to take to Bagdad whatever they find. In this way I built up
+
+ my collections during the past forty years or more. In the earlier days under the
+
+ Turks [i.e. pre WW I], all of the Babylonian objects which reached this country
+ came in this manner, and it was about the only way to save them from the Turkish
+
+ Museum, where they were dumped into the basement and left to perish. How-
+ ever, the conditions now with an archaeological school and museum in Bagdad
+
+ are much better. . .(Plimpton file, Rare Book and Manuscript Library, Columbia
+
+ University)
+
+ P 322 probably followed the same route, which would imply that the tablet passed
+
+ through the hands of at least two other persons besides Banks - his agent in Baghdad
+ and the local excavator. The latter would almost certainly be associated with a single
+
+ location known to the agent, so the most likely source of provenance error would
+ lie with the agent's record keeping. It also seems likely that it would have been the
+ Baghdad agent who glued the missing fragment to the tablet, which subsequently
+ re-broke.
+
+ Banks appears to have been conscientious in passing on the information available
+
+ to him regarding the provenance of all the tablets that he sold and open about acknowl-
+
+ edging uncertainties of provenance where he was aware of them. His reported contacts,
+
+ Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:19:47 UTC
+All use subject to https://about.jstor.org/terms
+
+ Plimpton 322 547
+
+ experience and travels were restricted to Baghdad and areas to its south, and there is
+
+ no evidence that he ever visited Esnunna or the middle Euphrates north of Hillah.
+ Tablets sold by him, both before and after WWI, came largely from the deep south,
+ the principal exception being NB tablets from Babylon, acquired while Babylon's
+ excavation by Koldewey was ongoing. Banks was certainly familiar with both the
+
+ process and people engaged in the illegal antiquities trade and specifically with both
+
+ the promise and vulnerability of Larsa for pillage. Banks's notoriety notwithstanding,
+
+ there seems little reason to doubt his assertion that P 322 was found at Larsa, apart
+ from the possibility that he or his agent in Baghdad mis-recorded its provenance.
+
+ Thus while a "middle" peripheral site such as Sippar cannot be completely ruled
+
+ out, a substantial preponderance of evidence supports the conclusion that P 322 was
+
+ indeed found at Larsa. This suggests that the tablet was probably slightly later than
+
+ tablets from Esnunna in the north and either slightly earlier or contemporaneous with
+ tablets from Uruk such as MS 3971.
+
+ 2.2 Mathematical context
+
+ The following discussion is based on examples from other tablets which may be rea-
+
+ sonably considered as from the same general area and the same period. Theses related
+ texts are mainly the ones published and commented by Friberg in A Remarkable
+ Collection of Babylonian Mathematical Texts , Manuscripts in the Sch0yen Collec-
+ tion Cuneiform Texts I (2007). We argue that P 322 presents a coherent mathematical
+ project, which is to generate a series of finite sexagesimal rectangles from a basic
+ algorithm, or, in other terms, that P 322 is a problem text including a complete solu-
+
+ tion. To a large extent, this approach revives Neugebauer's original interpretation as
+
+ modified by Bruins' introduction of reciprocals and other subsequent improvements.
+ In H0yrup (2002 and earlier) ground-breaking papers, H0yrup showed that much
+ of Old Babylonian mathematics rested upon a geometrical foundation variously char-
+
+ acterized as "naive" or "cut and paste" geometry (H0yrup) or "metrical algebra" (Fri-
+
+ berg), involving a series of procedures based on diagrams that may have been sketched
+
+ on a sandy floor with a pointer. Babylonian mathematics appears to have developed
+ around the practical needs and knowledge of surveyors at an early date, and subse-
+
+ quently melded with the arithmetic of accountancy by the Ur III period, if not earlier.
+ Whatever its precise chronology, it preceded P 322, and some of the basic construc-
+ tions, (Figs. 3, 4, 5 below) could have formed the background for its context.
+
+ The notation in this part is chosen to be consistent with part I:
+
+ - For a rectangle of length 1 (as in column I' of P 322) the width will be denoted by
+
+ - For an arbitrary rectangle the width will be denoted by b, the length by a and the
+
+ P and the diagonal by 8
+
+ diagonal by d.
+
+ The simplest "sand-stick" construction is shown in Fig. 3. It shows a relation
+
+ between two concentric squares:
+
+ Figure 4 shows the Old Babylonian representation of the Diagonal Rule:
+
+ <£) Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:19:47 UTC
+All use subject to https://about.jstor.org/terms
+
+ 548 J. P. Britton et al.
+
+ a b
+
+ Fig. 3 (a + b)2 = (a - b )2 + 4 ab (8)
+
+ Fig. 4 d2 = (a + b )2 -2 ab = a2 + b2 (9)
+
+ Fig. 5 Standard solution of quadratic problems
+
+ Figure 5 illustrates another important relation from Old Babylonian mathematics.
+
+ It gives a geometric representation of the method of completing the square starting
+ with a rectangle of sides a and b.
+
+ This figure illustrates the standard solution of quadratic problems such as: given
+ ab = A and a - b = c, find a and b. The solution proceeds by completing the square
+
+ Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:19:47 UTC
+All use subject to https://about.jstor.org/terms
+
+ Plimpton 322 549
+
+ on
+
+ Hence,
+
+ a - (1/2 )c = b + (1/2 )c = l/2(a + b),
+
+ (l/2(a+b))2 = ab+(l/2(a-b))2. (10)
+
+ l/2(a+^) = V(A + ((l/2)c)2) (11)
+
+ a = V {a + ((l/2)c)2} + (l/2)c. (11a)
+ b = v{a + ((1/2)c)2}-(1/2)c. (lib)
+
+ The mathematical contribution of P 322 is making a connection between the Diag-
+
+ onal Rule, as shown in Fig. 4 and expressed in Eq. 9 and the procedure of completing
+
+ the square, as shown in Fig. 5 and expressed in Eq. 10.
+
+ Figures 4 and 5 are used by H0yrup (2002, pp. 257-261) to interpret the solution
+ path and subsequent proof of the problem presented in Db2-146, a tablet from Esnun-
+
+ na, dating to around 1 830, and thus probably (although not certainly) slightly earlier
+ than P 322.
+
+ The translation and transliteration of Db2 - 146 after Baqir (1962, pl. 2-3) and
+
+ H0yrup (2002), pp. 258-259, with some corrections, is as follows.53
+ Obverse
+
+ 1 . sum-ma si-li-ip-ta-a-am i-sa-lu-ka
+ 2. um-ma su-u-ma 1,15 si-li-ip-tum 45 a-sa
+
+ 3. si-di u sag-ki ki-ma-a-si at-ta [i]-na e-pe-si-ka
+ 4. 1,15 si-li-ip-ta-ka me-he-er-su i-di-i-ma
+ 5. su-ta-ki-il-su-nu-ti-i-ma 1,33,45 i-li
+ 6. 1,33,45 su KU.U.ZU/BA?
+ 7. 45 a-sa -ka a-na si-na e-bil-ma 1,30 i-li
+
+ 8. i-na 1,33,45 hu-ru-us-ma l,33,45sicsa-pi-il-tum
+ 9. ib-si 3,45 le-qe-e-ma 15 i-li mu-ta-su
+ 10. 7,30 i-li a-na 7,30 i-si-i-ma 56,16 sici-li.
+ 11. 56,15 su -ka 45 a-sa -ka e-li su -ka
+
+ 12. 45,56,15 i-li ib-si 45,56,15 le-qe-ma
+ 13. 52,30 i-li 52,30 me-he-er-su i-di-i-ma
+ 14. 7,30 sa tu-us-ta-ki-lu a-na is-te-en
+ 15. si-ib-ma i-na is-te-en
+
+ 16. hu-ru-us 1 us -ka 45 sag-ki sum-ma 1 us
+
+ 53 According to the handcopy by Baqir (1962, pl. 2), Baqir and/or H0yrup's transliteration should be cor-
+ rected as follows. In li. 3: -[/]-, not ; li. 4: me not me-' li. 6: U, not U; li. 7: - bil not - bi-il li 10;
+
+ 165/c, not 15; li. 17: [45 <sag>-ki], not 45 sag-ki; li. 19: -[es]-'ka], not - es-ka -; li. 22: -qe-, not -[qe]-' li.
+ 23 :-<ta>~, not ~[ta]~.
+
+ Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:19:47 UTC
+All use subject to https://about.jstor.org/terms
+
+ 550 J. P. Britton et al.
+
+ 17. ["45 <sag>-ki~| a-sa u si-li-ip-ti ki-ma-si
+ 18. [at-ta i-na e ] - 'pe' -si-ka si-da su-ta-ki-il-ma
+ 19. [1 i-li ...] re'es'-'kd'li-ki-il
+
+ Reverse
+
+ 20. fx x x] -ma 45 sag-ki su-ta-ki-il-ma
+ 21. 33,45 i-li a-na si-di-ka sf-ib-ma
+
+ 22. 1,33,45 i-li ib-si 1,33,45 le-qe-ma
+ 23. 1,15 i-li 1,15 si-li-ip-<ta>-ka us -ka
+ 24. a-na sag-ki i-si 45 a-sa-fca
+ 25. ki-a-am ne-pe-sum
+
+ Obverse
+
+ 1. If, about a (rectangle with) diagonal, (somebody) asks you
+ 2. thus, 1,15 the diagonal, 45 the surface;
+
+ 3. length and width corresponding to what? You, by your proceeding,
+ 4. 1,15, your diagonal, its counterpart lay down:
+ 5. make them hold: 1,33,45 comes up,
+ 6. 1,33,45 may (?) your (?) hand hold (?)
+
+ 7. 45 your surface to two bring: 1,30 comes up.
+ 8. From 1,33,45 cut off: 3,45! the remainder.
+
+ 9. The equalside of 3,45 take: 15 comes up. Its half-part,
+ 10. 7,30 comes up, to 7,30 raise: 56,15 comes up
+ 11. 56,15 your hand. 45 your surface over your hand,
+ 12. 45,56,15 comes up. The equalside of 45,56,15 take:
+
+ 13. 52,30 comes up, 52,30 its counterpart lay down,
+ 14. 7,30 which you have made hold to one
+ 15. append: from one
+
+ 16. cut off. 1 your length, 45 the width. If 1 the length,
+
+ 17. 45 the width, the surface and the diagonal corresponding to what?
+ 18. (You by your) making, the length make hold:
+ 19. (1 comes up . . .) may your head hold.
+
+ Reverse
+
+ 20. [...]: 45, the width, make hold:
+
+ 21. 33,45 comes up. To your length append:
+ 22. 1,33,45 comes up. The equalside of 1,33,45 take:
+ 23. 1,15 comes up. 1,15 your diagonal. Your length
+ 24. to the width raise, 45 your surface.
+ 25. Thus the procedure.
+
+ The problem presented is: given the diagonal, d , and area, ab , of a rectangle, what
+ are its dimensions? The solution first forms the square on the diagonal as in Figure 4,
+ then subtracts twice the area {lab) to obtain the square on a - b, and thence a - b,
+ equivalent to c in the example above. It then proceeds to find a and b by quadratic
+ completion, Eq. 10, and finishes by proving that the results yield the diagonal by
+
+ Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:19:47 UTC
+All use subject to https://about.jstor.org/terms
+
+ Fig. 6 Diagram drawn at the end of the text of Db2- 1 46. Handcopy by Baqir ( 1 962, pl. 2)
+
+ the Diagonal Rule (lines 16-25), showing unequivocally, as H0yrup notes, that the
+ Diagonal Rule was known in Esnunna by this date.
+
+ Another example of quadratic completion, YBC 6967, is cited by Robson (2001,
+
+ pp. 1 83-1 85) as illustrating the connection between P 322 and igiligibi problems. Here
+ the difference in the above example is described as the excess of the igibi over the
+
+ igi , i.e., igibi-igi=l , and the solution method is once again based on Eq. 10. The right
+ side of (10) is calculated in line 9 below. The solution assumes that the product, igibi
+
+ x igi= 60, leading to igibi = 12, igi = 5. The problem as defined, replaces conventional
+
+ length and width with the slightly more abstract igibi and igi, thereby establishing the
+
+ area of the subject rectangle indirectly, but otherwise has no bearing on the Diagonal
+ Rule since 60 is not a square number (Fig. 7).
+
+ YBC 6967 (Transliteration and translation after H0yrup 2002, pp. 55-57)
+ Obverse
+
+ Plimpton 322 551
+
+ 1. [igi]- [bile-// igi 7 i-ter
+
+ 2. [igi] u igi-bi mi-nu-um
+ 3. 'at-ta~'l sa igi-bi
+ 4. ugu igi i-te-ru
+ 5. a-na si-na he-pe-ma 3,30
+ 6. 3,30 it-ti 3,30
+ 7. su-ta-ki-il-ma 12,15
+ 8. a-na 12,15 sa i-li-kum
+ 9. [1 2L-lk]^~am si-ib-ma 1,12,15
+ 10. [ib-si8 1], 12,15 mi-nu-um 8,30
+
+ Fig. 7 Solution of YBC 6967
+
+ Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:19:47 UTC
+All use subject to https://about.jstor.org/terms
+
+ 552 J. P. Britton et al.
+
+ 11. [8,30 u] 8,30 me-he-er-su i-di-ma
+
+ Reverse
+
+ 1. 3,30 ta-ki-il-tam
+ 2. i-na is-te-en u-su-uh
+
+ 3. a-na is-te-en si-ib
+
+ 4. is-te-en 12 sa-nu-um 5
+
+ 5. 12 igi-bi 5 i-gu-um
+
+ Obverse
+
+ 1. The igibi over the igi, 1 it goes beyond,
+ 2. igi and igibi what?
+ 3. You, 7 which the igibi
+ 4. over the igi goes beyond
+ 5. to two break: 3,30;
+
+ 6. 3,30 together with 3,30
+ 7. make hold: 12,15.
+
+ 8. to 12,15 which comes up for you
+ 9. [1 the surface] append: 1,12,15
+ 10. [The equalside of 1],12,15 what? 8,30.
+ 11. [8,30 and] 8,30, its counterpart, lay down.
+
+ Reverse
+
+ 1. 3,30, the made hold,
+
+ 2. from one tear out,
+
+ 3. to one append.
+ 4. The first is 12, the second is 5
+
+ 5. 12 is the igibi, 5 is the igi.
+
+ We now examine in more detail the evidence provided by tablets from Sch0yen
+
+ collection which are conceptually closely linked to P 322. Consider first problems #2
+ and #3 of MS 3971 which provide a key to the understanding of P 322.
+
+ MS 3971 #2 (Friberg 2007, p. 251, with notations following the conventions of this
+ article as well as some slightly modifications54)
+
+ 1 . 1,15 si-li-ip-tum 45 a-sa
+ 2. us u sag en.nam
+ 3. 1,15 du7-du7 1,33,45 in-si
+
+ 54 li. 1 : Friberg's transliteration reads: 15 si-i[l-i]p-tum. According to the copy by Al-Rawi (Friberg 2007,
+ 249) and the "conform transliteration" by Friberg (ibid, 248), the reading of all the signs are clear and
+ therefore there is no need of bracket in this word; moreover, the second sign is //, not il (note that this
+
+ orthography is the same as in P 322).
+
+ li. 4: Friberg's transliteration reads e-ta[b], but /tab/ is clear on the tablet (ibid).
+ li. 5: Friberg's transliteration reads d[ah], but /dah/ is clear on the tablet (ibid).
+
+ li. 12: in-si3 is written under sag.
+
+ Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:19:47 UTC
+All use subject to https://about.jstor.org/terms
+
+ Plimpton 322 553
+
+ 4. 45 a-sa a-na 2 e-tab 1,30
+
+ 5. 1,30 a-na 1,33,45 dah 3,3,45
+
+ 6. 3,3,45-e 1,4[5 ib]-si8
+
+ 7. 1/2 1,45 gaz 5[2,30 in-si]
+ 8. 52,30 du7-du7 45,5[6],15 in-si
+ 9. 45 a-sa i-na 45,56,15 zi
+ 10. 56,15 in-si 56,15,7,30 lb-sis
+ 11. 7,30 a-na 52,30 dah 1 us in-si
+
+ 12. 7,30 i-na 52,30 zi 45 sag / in-si
+
+ 1. 1,15 the diagonal, 45 the surface.
+
+ 2. The length and the width are what?
+ 3. 1,15 square 1,33,45 it gives.
+
+ 4. 45, the surface, to 2 you repeat, 1,30.
+ 5. 1,30 to 1,33,45 join, 3,3,45.
+ 6. 3,3,45 makes 1,45 equalsided.
+ 7. 1/2 of 1,45 break, 52, [30 it gives.]
+ 8. 52,30 square, 45,56,15 it gives.
+ 9. 45, the surface, from 45,56,15 tear off,
+ 10. 56,15 it gives. 56,15 <makes> 7,30 equalsided.
+ 11. 7,30 to 52,30 join, 1, the length, it gives.
+ 12. 7,30 from 52,30 tear off, 45, the width, it gives.
+
+ The problem is to find the length (a) and the width (b) of a rectangle given the
+
+ diagonal and the area. The solution procedure is explained as follows:
+ Line 3: an "oblique" square is constructed on the diagonal (see Fig. 4).
+ Lines 4-5: the four lateral 1/2 rectangles (total area 2 times 45 equals 1,30) are added
+ to this oblique square (area 1,33,45), providing the area of the large square (3,3,45).
+ Line 6: the side of the large square is obtained by taking square root ("3,3,45
+ makes 1,45 equalsided"). This provides a + b. The scribe then computes 1/2 of this,
+
+ (< a + b)/ 2, because he is considering the upper left quarter of Fig. 5 for the particular
+ case ab = A = 45.
+
+ Line 7-10: in order to calculate (a-b)l 2, the scribe subtracts from the area the gnomon
+
+ (the grey area in Fig. 5) which equals the area of the initial rectangle and calculates
+ ((< a + b)/2)2 - ab = ((a - b)j 2)2, Eq. 10 above.
+ Lines 1 1-12: a and b are calculated by adding and subtracting (a + b)/2 and (a - b)/2.
+
+ There are several things worth noting: First, for the calculation of ( a - b)/ 2, the
+ scribe could calculate the area of the small square by subtracting the four lateral 1/2
+ rectangles from the oblique square (as in Db2-146), but he prefers to focus on the
+ gnomon. Second, in this example the half-sum and half-difference relate the length
+ and the width, whereas in P 322, half-sum and half-difference relate the width and the
+
+ diagonal. Third, line 6 involves finding a square root, and the result will not always be
+ a finite sexagesimal. For a particular problem with d2 + 2 A a perfect square, i.e., the
+
+ square of a finite sexagesimal (in line 6, *J(d2 + 2 A) = 1,45), the solution procedure
+ gives a + b = y/(< d 2 -1- 2 A), see Eq. 1 1 above. If (a + b)/2)2 - A is also a perfect
+ square, 1/2 (a - b) = J((a + b)/2)2 -A = J ((1/2 (a + b))2 - ab) (lines 10,11,
+ (i a -b)/2 = 7,30), then the length a and width b are both finite sexagesimals. This is
+
+ Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:19:47 UTC
+All use subject to https://about.jstor.org/terms
+
+ Fig. 8 Solution of MS 3971 #3
+
+ fine for a single problem, but what if the problem is to generate a list of examples as
+ in MS 3971 #3?
+
+ 554 J. P. Britton et al.
+
+ MS 3971 #3 (Friberg 2007, pp. 252-254) gives five examples of how to compute
+
+ 8 and /3 from pairs of reciprocals, all of which are among the 23 entries which would
+
+ have completed P 322. Removing any doubt as to the object of the exercise, the section
+
+ is introduced as " assum 5 silipatum amarika - in order for you to see (i.e., construct)
+
+ 5 diagonals - and concludes with the summary emphasis "5 silipatum ".
+
+ MS 3971 #3 (Friberg 2007, pp. 252-253, with notations following the conventions of
+ this article as well as some slightly modifications55)
+
+ 3a 1-2. as-sum 5 si-il-pa-tum / a-ma-ri-ka
+
+ 3. [1,04] igi u igi-bi 5[6],15!
+ 5-8. [...]
+
+ 3b 1. ki 2 [1,40 igi 36 igi-bi]
+
+ 2. 1 ,40 u 3 [6 gar-gar 2,16 in-si]
+ 3. 1/2 2,16 gaz [1,8 in-si]
+ 4. 1,08 du7-du7 [1,17,4 in-si]
+ 5. 1 i-na 1,17,4 |"zil
+ 6. 17,4 in-si 17,4-e [32 ib-si8]
+ 7. 32 sag in-si
+
+ 55 3a, li. 1-2: Friberg's transliteration reads: s;i-il-p[a-tum'. According to the copy by Al-Rawi and the
+ "conform transliteration" by Friberg, signs are clear, thus there is no need of bracket in this word. Idem for
+ ka in a-ma-ri-ka.
+
+ 3a, li. 3: the line begins probably by ki 1. The entry with ki 1 is consistent with the following sections,
+ and there is room for these signs. Otherwise, the restoration of the pair 1,4/56,15 is uncertain and fits
+
+ poorly in the following series of igi / igibi.
+
+ 3b, li. 2: according to the other sections (and according to the Friberg's translation), the line ends with
+
+ /in-si/; Friberg omitted to restore this sequence in his transliteration.
+
+ 3b, li. 5: Friberg repeats twice "17 04 in-si". Since this sequence appears in the beginning of line 6, there
+
+ is no reason that it appears in the end of the line 5, in the damaged part.
+
+ 3c, li. 4: Friberg's transliteration reads < 1 i-na 1 10 25 zi>. The tablet is damaged, and there is room for
+
+ this sequence, which could be restored.
+
+ 3d, li. 4: typo: insertion of "333" in the transliteration.
+
+ Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:19:47 UTC
+All use subject to https://about.jstor.org/terms
+
+ Plimpton 322 555
+
+ 3c 1. ki 3 1,30 igi 40 igi-bi
+
+ 2. 1,30 u 40 gar-gar 2,10 in-si
+ 3. [1/2] 2,10 gaz 1,5 in-si
+ 4. 1,5 duvdu7 1,10,25 [1 i-na 1,10,25 zi] 10,25 in-si
+ 5. 10,[25-e ] 25 sag ki 3
+
+ 3d 1 . ki 4 1 ,20 igi 45 igi-bi 1 ,20 u 45
+
+ 2. gar-gar 2,5 1/2 2,5 gaz 1,2,30 [in-si]
+ 3. 1,2,30 du7-du7 1,5,6,15
+ 4. 1 a-na us zi 5,6,15 in-si
+ 5. 5,6,15-e 17,30 ib-si8
+ 6. 17,30 sag s/ - 'li-ip'-ti ki 4
+
+ This is precisely the algorithm that explains the first existing column of P 322.
+
+ 3e 1. ki 5 1,12 igi 50 igi-bi 1,12 u 50 [gar-gar]
+
+ 2. 2,2 1/2 2,2 gaz 1,1
+ 3. 1,1 du7-du7 1,2,1
+ 4. 1 i-na 1,2,1 zi 2,1 in-si
+
+ 5. 2,1-e 1 1 lb-sig 1 1 sag ki 5
+
+ si-il-pa-tum
+
+ As noted by Friberg, the term siliptum means both the diagonal and the rectangle.
+
+ The algorithm applied in these five examples is based on the relation
+
+ (1/2 (igi +igibi))2 - 1 = (1/2 (igi - igibi))1.
+
+ Thus if 8 = 1/2 (igi + igibi ), and A = 1, then 82
+ 0 = 1/2(i^i - igibi) (Fig. 8).
+
+ 3a 1-2 In order for you to see five diagonals:
+
+ 3 1,4 (is) the igi, and the igibi 56,15
+ 5-8 [...]
+
+ 3b 1 The 2nd (example). 1,40 the igi , 36 the igibi.
+
+ 2 1,40 and 36 heap, 2,16 it gives.
+ 3 1/2 of 2,16 break, 1,8 it gives.
+ 4 1,8 square, 1,17,4 it gives.
+ 5 1 from 1,17,4 tear off,
+ 6 17,4 it gives. 17,4 makes 32 equalsided.
+ 7 32, the width, it gives.
+
+ 3c 1 The 3rd. 1,30 the igi , 40 the igibi.
+
+ 2 1,30 and 40 heap, 2,10 it gives.
+ 3 1/2 of 2,10 break, 1,5 it gives.
+ 4 1,5 square, 1,10,25.
+
+ 1 from 1,10,25 tear off, 10,25 it gives.
+
+ 5 10,25 makes <25 equalsided>. 25, the 3rd width.
+
+ 3d 1 The 4th. 1,20 the igi, 45 the igibi. 1,30 and 45
+
+ 2 heap, 2,5 it gives. 1/2 of 2,5 break, 1,2,30 it gives.
+ 3 1,2,30 square, 1,5,6,15.
+ 4 1 from the length tear off, 5,6,15 it gives.
+
+ Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:19:47 UTC
+All use subject to https://about.jstor.org/terms
+
+ 556 J. P. Britton et al.
+
+ 5 5,6,15 makes 17,30 equalsided.
+ 6 17,30, the width of the 4th diagonal.
+
+ 3e 1 The 5th. 1,12 the igi, 50 the igibi.
+
+ 2 1,12 and 50 heap, 2,2 it gives. 1/2 of 2,2 break, 1,1.
+ 3 1,1 square, 1,2,1.
+ 4 1 from 1,2,1 tear off, 2,1 it gives.
+ 5 2,1 makes 1 lequalsided. 1 1, the 5th width.
+
+ 5 diagonals.
+
+ This relation is a particular example of Fig. 5, and Eq. 10, with b replaced by 1 la,
+
+ and the area ab of the gnomon in the upper left corner equal to 1. The difference
+
+ between the squares is not geometrically a square, but rather the shaded gnomon with
+
+ area 1. Indeed it is the property of the number 1, that the result of its multiplication by
+
+ itself is still 1, that makes Eq. 5 a general algorithm for finding sets of numbers which
+ obey the Diagonal Rule:
+
+ (1/2 (a + b ))2 - (1/2 (a - b ))2 = (1/2 (a + 1 /a))2 - (1/2 (a - 1/a))2 = 1 = l2
+
+ (12)
+
+ The significance of this step can hardly be overstated, for it represents a distinct depar-
+
+ ture from the purely geometric demonstrations which preceded it towards a relationship
+
+ depending on the properties of numbers , and which was, in fact, not demonstrable by
+ traditional techniques. The essential insight, that l2 = 1, which also reflects a dif-
+ ferent application of terminology and understanding of reciprocation than is found
+ in YBC 6967, appears explicitly in line 7 of MS 3052 #2, with the consequence that
+ S2 - ft2 = 1 is a relation involving a triple of square numbers.
+
+ MS 3052 #2 (Friberg 2007, p. 275)
+
+ 1 . [igi] 2 us sag u si-li-ip-tum / en-nam
+ 2. [za]-e ak-da-zu-de
+
+ 3. [2] igi u igi-be-e en-nam (?)
+ 4. 2 igi u 30 'igi-be' - e gar
+ 5. 2 igi u 30 [igi-bi gar(?)]-gar-m<z
+ 6. 2,30 in-[si 1/2 2,30 gaz-ma 1,15 in]- fsi"! 1,15 si-li-ip-tum
+ 7. 1 ,[15 du7-du7-raa 1,33,45 in-si] 1 us du-j-duj-ma 1 in-si
+ 8. 1 [i-na 1,33,45 zi -ma] 33,45 in-si
+
+ 9. 33,[45-e 15 fb-sis 15] fsagl in-si
+
+ 1. The igi (is) 2. Length, width, and diagonal, what?
+ 2. You, with your doing:
+ 3. [2] the igi and the igibi , set.
+
+ 4. 2 the igi , and 30, the igibi, set.
+
+ 5. 2, the igi, and 30, the igibi , heap,
+
+ 6. then 2,30 it gives. 1/2 of 2,30 break, 1,15 it gives. 1,15 is the diagonal.
+ 7. 1,15 (let) butt (itself), then 1,33,45 it gives. 1, the length, square, then 1 it gives.
+
+ 8. 1 from 1,33,45 tear off, then 33,45 it gives.
+ 9. 33,45 makes 15 equalsided. 15, the width, it gives.
+
+ Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:19:47 UTC
+All use subject to https://about.jstor.org/terms
+
+ The problem defines a in expression (8) as the "igi" = 2 and asks for the length,
+
+ width and diagonal of the rectangle this is assumed to define. The text then steps pains-
+
+ takingly through the solution, first calculating I /a = 0; 30, then a + I /a = 2; 30,
+ then 1/2 (a + 1 /a) = 1; 15, which it declares to be the diagonal, <5, revealing an
+ implicit assumption that the length ostensibly sought is equal to 1 . At this point one
+
+ might expect the calculation of the width as /? = 1/2 (a - 1 /a), but instead the text
+ follows the diagonal algorithm and computes the width as
+
+ Plimpton 322 557
+
+ p = j(s2-'2).
+
+ carefully remarking in line 7, that "1, the length, multiplied by itself, gives 1" (1 us
+ du7. du-j-ma 1 in-si). This 1, i.e., I2, is then subtracted from <52 to give thence p,
+ which corrected for typos56 is found to be 0;45 (see again Fig. 10).
+
+ MS 3052 #2 misstates its problem and assumes, rather than finds, a rectangle of unit
+ length. Nevertheless, its careful explanation that 1x1 = 1, suggests the central role
+
+ which this observation played in the discovery of the diagonal algorithm. The fact that
+
+ the solution follows the path of the Diagonal Rule, rather than simply assuming the
+
+ diagonal algorithm, also suggests that the latter was a novelty, to be used sparingly, and
+
+ that following the Diagonal Rule to a solution was regarded as a sounder procedure
+ than relying entirely on the diagonal algorithm.
+
+ MS 3052 #2 departs from the conventions reflected in YBC 6967, most obviously
+
+ in assuming that product igixigibi = 1, rather than 60, but also and more subtly
+ in associating igi with the length (the longer dimension) and igibi with the width
+ (the smaller dimension). In YBC 6967 the opposite convention is employed, and igi
+ is associated with the shorter of the implicit dimensions and igibi with the longer
+ one. Whether this is significant or happenstance is unclear, but it is interesting that
+
+ it appears in association with a different basis for reciprocation, the discovery of the
+
+ diagonal algorithm, and a move away from geometrical towards more purely numerical
+ analysis.
+
+ In MS 3971 #3 the area <5 2 is found, and then the side is computed as the square
+
+ root of <5 2 - 1.
+
+ The similarities between MS 3971 #3 and P 322 are striking:
+
+ - Both are underdetermined problems. While the MS tablet gives five samples, P 322
+ gives the complete list of solutions in a given set of numbers (see in part I the
+ conditions on rand s).
+
+ - In both texts, the samples are numbered by the index "ki + N".
+
+ This suggests that the problem solved in P 322 is a kind of generalization of the
+ problem solved in MS 3971 #3. The problem of P 322, which could be formulated by
+
+ something like "In order for you to see all the diagonals". Moreover, the indexing of
+ samples by the "ki + N" system is a unique feature, not attested in other mathemati-
+
+ 56 Correcting 1 5 to 45 in line 9. Regrettably, Friberg's valuable volume has been wretchedly copy -edited,
+ leaving it infected with a distressing number of errors, of which inexcusably omitting column I' from the
+ "transliteration" of Plimpton 322 on page 434 is only one example of many.
+
+ Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:19:47 UTC
+All use subject to https://about.jstor.org/terms
+
+ cal texts,57 and thus could reveal that authors of P 322 and MS 3971 were sharing a
+ common scribal culture.
+
+ 558 J. P. Britton et al.
+
+ 2.3 A new approach to P 322
+
+ First, let us consider the heading of column V .
+
+ The number square [takilti] of the diagonal [siliptim'(8) from which 1 is sub-
+ tracted and (that of) the width [sag](/i) comes up.
+
+ The terms "diagonal" and "width" leave no doubt that the subject of column V is a
+ series of rectangles whose diagonals and widths, denoted (column IV') by 8 and j$,
+ are related as described in the heading of column I' as:
+
+ 82 = 1 +yS2.
+
+ The relation described in the heading could be illustrated in Fig. 9:
+
+ In fact, the text does not say explicitly that the 1 that is subtracted is a square. Nor
+
+ does it say that the result after subtracting is a square, rather, "sag ///«", that is, "the
+
+ width comes up." It seems that the term "sag" actually is being used for the square with
+
+ side /?, which would explain the appearance of the term "lb-sis" in columns IF and III'
+
+ which refer to linear dimensions. Or it may be that takilti is being used to refer to both
+
+ the sag and siliptim. Another important point is, as explained in Part I, that the use
+ of the term "takiltum " suggests that the square with side p, the takiltum, is included
+
+ in the square with side 8 as in Fig. 10 below, with a gnomon of area 1 in between.
+
+ In any case, the appearance of the term takiltum is significant, because it reflects the
+
+ configuration illustrated in Fig. 10, the square of side {$ is contained in the square of
+
+ side 8 which is the configuration appearing in the method of "completing the square".
+
+ A derivation of the algorithm underlying the examples in MS 397 1 #3 and MS 3052
+
+ #2 can be given in the spirit of Old Babylonian mathematics by cutting and pasting
+ the "leg" of the gnomon in Fig. 10 producing a rectangle of area 1 and sides 8 +
+ and 8 - ft, as in Fig. 11.
+
+ Thus
+
+ 1 =82-p2 = (8+p)(8-P)
+
+ and the dimensions are reciprocal numbers igi and igibi:
+
+ 8 + f$ = igi and 8 - f$ = igibi
+
+ The initial values ft and 8 can be then easily found by adding and subtracting the two
+
+ equations,
+
+ 8 = 1/2 (igi + igibi) and = 1/2 (igi - igibi).
+
+ With the examples of MS 3971 #3 as background, we offer our interpretation of
+
+ the problem underlying P 322, which may be stated:
+
+ 57 A comparable system is attested in some omen texts (Glassner 2009).
+
+ <£) Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:19:47 UTC
+All use subject to https://about.jstor.org/terms
+
+ Plimpton 322 559
+
+ 1
+
+ M
+
+ Fig. 9 Representation of the heading of column V
+
+ Fig. 10 Other representation of the heading of column V
+
+ Fig. 11 Derivated rectangle of area 1
+
+ "Make the list of all the rectangles with length (us) equal to 1 and width (sag) and diago-
+
+ nal ( siliptum ) finite sexagesimal numbers, (column - 1 and 0) and represent the dimen-
+ sions, in reduced form, without common sexagesimal factor (columns II' and III')"
+
+ Something like this statement could have been noted in the heading of one of the lost
+
+ columns. In this case, the heading of column I' may be interpreted as a verification of
+ col. -1 and 0, as suggested by tablet Db2-146 (lines 16-25).
+
+ Robson and Friberg consider the purpose of P 322 to be a "teacher's aid" for the
+
+ setting of problems related either to the diagonal of a normalized rectangle or for rect-
+
+ angular-linear systems of equations where either the sum or the difference of igi and
+
+ igibi is known. To the contrary, we consider the text itself as presenting a challenging
+ mathematical problem and its solution, comparable to the example given in M 3971
+ #3, but complete.
+
+ Let us come back to some problems:
+
+ The absence of a column for the length of the normalized rectangle in the preserved
+ part of P 322 should be explained. The length of third side is not listed because the
+ purpose of columns II' and III' was to find the relationship between the dimensions,
+
+ P (sag) and 8 ( siliptum ) in reduced form.
+
+ ^ Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:19:47 UTC
+All use subject to https://about.jstor.org/terms
+
+ 560 J. P. Britton et al.
+
+ In terms of floating sexagesimal notation the half sum or difference of reciprocals
+
+ would be a product of two factors
+
+ 1/2 (r/s + s/r) - | V 2 + s2^ / (2 rs) = ^r2 + s2^ (2rs)
+
+ where 2 rs represents the reciprocal of 2rs. Columns I I' and III' represent the result of
+
+ factoring out the common factor (2 rs) in
+
+ and
+
+ 5= (r2+*2)(2^).
+
+ This is the same as what we would regard as expressing the ratio fi/8 in reduced
+ form p/8 = n/d. Columns II' and III' may be regarded as completing a conceptual
+
+ process not generally reducible to the single regular number, n/d , since with only two
+
+ exceptions in Table 7, d is an irregular number. Moreover, the length of the "primitive"
+ rectangle (/) is easily found as the reciprocal of common divisor of ^ and 8 , that is,
+
+ the product of the factors which appear in the right sub-column when applying the
+
+ trailing part algorithm to p and 8 (see Table 6). For example, for the data given in the
+ table in Part I, above:
+
+ In ki 2, the length of the "primitive" rectangle (/) is 2 x 12 x 12 x 12 (that is 57,36).
+
+ In ki 15, the length of the "primitive" rectangle (/) is 3 x 30 x 30 (that is 45).
+
+ Thus, the length of the "primitive" rectangle is automatically provided by the appli-
+ cation of the trailing part algorithm to and <5. Friberg's explanation of columns II'
+ and III' involves finding the "factor-reduced core" of the terms in column I', that is
+ 8 2, which goes hand in hand with his conclusion that "it was never the intention of
+
+ the author of P 322 to reduce his series of normalized diagonal triples (with a length
+
+ equal to 1) to a corresponding series of primitive diagonal triples (with the width, the
+ length and the diagonal integers without common factors)." The difference between
+
+ his approach and the method of the trailing part algorithm applied to and 8 in parallel,
+
+ as demonstrated in Part I, is seen clearly in lines 2 and 15, where Friberg's reduction
+
+ is carried out to a different number of steps for ft1 and 82. Thus, the entry in column
+ III' line 2 (read as 3,13) and the entry in column III' line 15 (56) are not considered as
+
+ errors, even though they do not give the correct pair of terms in a finite sexagesimal
+ rectangle.
+
+ Another problem is the hypothesis that the pairs and 8 derive from a set of igi
+ and igibi pairs, r/s and s/r. In this connection it is noteworthy that problems C20 -
+ C33 in the series text YBC 4668 (Neugebauer 1935-1937, pp. 430-43 1) involve ratios
+ of lengths to widths, their inverses and their sums and differences, closely analogous
+ to r/s, s/r, r/s + s/r, r/s - s/r, accompanied by the technical term and formula,
+ "igi-te-en sa sag us-se", "relation of width towards length", which proves to be the
+
+ ratio of length divided by width (us/sag). This shows that ratios similar to those under-
+
+ lying P 322 were sufficiently remarkable to have a technical term describing them.
+
+ Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:19:47 UTC
+All use subject to https://about.jstor.org/terms
+
+ Plimpton 322 561
+
+ Interestingly, the parameters of the problem set, us = 30, sag = 20, are not components
+
+ of a finite sexagesimal rectangle; nor is there any evidence in the text of awareness of
+
+ the diagonal algorithm. Nevertheless, the product of such ratios and their inverses is
+
+ clearly equal to 1, and it is not hard to imagine the discovery of the diagonal algorithm
+
+ emerging from work with such problems.
+
+ Finally, the appearance in MS 3971 #3 of 5 examples from the unfinished extension
+
+ of P 322 suggests that a completed version of the tablet was known to the author of
+
+ MS 397 1 . Remarkably, this text and MS 3052 are also the only evidence for knowledge
+
+ of the underlying diagonal algorithm apart from P 322 itself.
+
+ Seen in this light P 322 appears to be an elucidation, and perhaps even celebration,
+
+ of the discovery of the bridge between the Diagonal Rule and the method of completing
+
+ the square. As such, the tablet and its composition seem a much more deeply mathe-
+ matical undertaking than simply constructing a pedagogical aid - something already
+ suggested by the discovery that the scribe contemplated encompassing a complete
+ set of reasonably defined arguments.58 The historical relation between the discovery
+
+ and the text is not presently knowable. That they may have been contemporaneous is
+
+ suggested by the lack of evidence, apart from MS 3052 and 3971, of either awareness
+ or use of it until much later. Whatever the case, P 322 is mathematics as Neugebauer
+
+ recognized, not exactly as Neugebauer understood it, but real mathematics focused on
+
+ a discovery which significantly expanded the capabilities of the art. As such it appears
+
+ far more deeply rooted than simply a utilitarian exercise in pedagogical convenience.
+
+ This is not to argue that P 322 served no utilitarian purpose. Its headings clearly
+
+ reflect a focus on the dimensional relationships of a set of rectangles intended to com-
+
+ prise all rectangles of unit length for which ft < 1 and constructed from ratios of regular
+
+ numbers to regular sexagesimal digits. The resulting distribution of the normalized
+
+ rectangles preserved in the text is illustrated to scale in Fig. 12, whose components
+
+ are readily scalable by any factor, regular or otherwise, further reason for assuming
+
+ the presence of fi and S in the missing fragment.
+
+ The link between the finite sexagesimal rectangles and problems involving partition
+
+ of triangle and trapezoid59 was underlined by Vaiman (1961, pp. 192-206). Figure 13
+ illustrates the relationship between the Diagonal Rule as conceptualized in P 322 and
+
+ the bisection of the trapezoid (the light gray area) is equal to the dark gray one:
+
+ In fact, Trapezoid Rule appears to have been known much earlier, as evidenced by
+
+ IM 58045 (Friberg, 1990, p. 541), which dates from the Sargonic reign of Sar-kali-sari
+ and describes the bisection of a trapezoid with sides 7 and 17, implying knowledge
+
+ 58 Extending s to 2 places, i.e., considering all reduced ratios for 1 < r/s < 1 ;24,5 1,10 and 1< s < 1, 0,
+ 0, yields few entries outside the range of Plimpton 322 if completed. These include the couple r = 52,5, s
+ = 21,36 and p = 0;59,53,46,54,24 at the upper end of the range and at the lower end: the couple r = 4,10,
+ s = 4,3 and = 0; 1,42, 15, 6,40; the couple r = 2,8, s = 2,5 and (5 = 0; 1,25 ,20, 15; the couple r = 52,5, s
+ = 51,12 and fi = 0; 1,1, 34, 57, 40, 30; the couple r = 1, 21, s = 1,20 and £ = 0;0,44,42,30; and finally the
+ couple r = 34, 8, s = 33,45 and f$ = 0; 0,40,39,33,26,15. Reflecting continuity and extended application of
+ the algorithm the couple r = 1, 21, s = 1,2 w attested in the Seleucid text from Uruk AO 6484 rev. 10-27
+ (Neugebauer 1935-1937, pp. 98-99; Friberg, 2007, pp. 444-447), where the problem set is to find igi (r/s)
+ and igibi ( s/r ) given their sum as 8, 82, ft2 = 82 - 1 , f3, (5 + 8 = igi, f$ - 8 = igibi.
+
+ 59 These problems played an essential role in cuneiform mathematics since the third millennium, See for
+ exemple the Old Akkadian tablet from Nippur IM 58045 (CDLI: P2 16852) and the analysis by Friberg of
+ Ur III field plans (CDLJ 2009:3).
+
+ Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:19:47 UTC
+All use subject to https://about.jstor.org/terms
+
+ Fig. 12 The 1 5 normalized rectangles of P 322
+
+ Fig. 13 Bisection of the trapezoid
+
+ of the trapezoidal triple, 7:13:17. Certainly, the 3:4:5 triple, conventionally expressed
+ unreduced as 45:1,0:1,15, and its (reduced) trapezoidal equivalent, 1:5:7, were also
+ known by this time, and it seems likely that all of the relationships described above
+ may date from at least the Sargonic period, perhaps explaining the later reference
+ noted above to the "Akkadian method".
+
+ 562 J. P. Britton et al.
+
+ As a consequence, the triples 1 + p, <5, and 1 - associated with each line of P 322
+ could be considered as giving a bisection of the trapezoids with parallel sides of length
+ 1 and p. Therefore it would have been a simple exercise to compute the parameters
+ for trapezoidal bisection problems from the tablet P 322. Perhaps the line numbering
+
+ in column IV' contemplated linkage with a second tablet with these parameters, the
+ potential details of which appear in Appendix A. That the author may have had other
+
+ practical purposes in mind seems perfectly possible but also wholly speculative. What
+ seems less speculative is that - its occasional errors not withstanding - P 322 reflects
+
+ a high degree of mathematical sensibility which distinguishes both it and its author
+ from the typical standard of everyday Old Babylonian mathematical practice.
+
+ Acknowledgments The authors wish to thank ISAW for the seminar program and facilities, which sub-
+ stantially contributed to the completion of this article. The third author would like to thank the Courant
+ Institute of Mathematical Sciences at NYU for its support during the academic year 2009-2010, when
+ he was a Visiting Scholar. Our special thanks to Alexander Jones, who was a great help in preparing the
+
+ Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:19:47 UTC
+All use subject to https://about.jstor.org/terms
+
+ Plimpton 322 563
+
+ manuscript for publication, especially in improving many of the diagrams, and to Teije de Jong for carefully
+
+ reading the article and informing us of some necessary corrections. Our deep gratitude goes to Jane Siegel,
+
+ who graciously welcomed us at the Rare Book and Manuscript Library, Columbia University, allowed us
+ to examine the tablet and to take pictures, and helped us to consult archives, especially Bank's papers.
+
+ 3 Appendix A: Trapezoidal triples
+
+ Table 7 Trapezoidal triples (/i, 8, v) and normalized trapezoidal triples (m, c, n) corresponding to the 38
+ lines of reconstructed P322
+
+ H = 1+P
+
+ 1 59 30 1 24 30 0 0 30 3 59 2 49 1 1
+
+ 1 58 27 17 30 1 23 46 2 30 0 1 32 42 30 1 53 43 1 20 25 1 29 2
+
+ 1 57 30 45 1 23 6 45 0 2 29 15 2 36 41 1 50 49 3 19 3
+
+ 1 56 29 4 1 22 24 16 0 3 30 56 7 16 49 5 9 1 13 11 4
+
+ 1 54 10 1 20 50 0 5 50 2 17 1 37 7 5
+
+ 1 53 10 1 20 10 0 6 50 11 19 8 1 41 6
+
+ 1 50 54 40 1 18 41 20 0 9 5 20 1 23 11 59 1 6 49 7
+
+ 1 49 56 15 1 18 3 45 0 10 3 45 29 19 20 49 2 41 8
+
+ 1 48 6 1 16 54 0 11 54 18 1 12 49 1 59 9
+
+ 1 45 56 6 40 1 15 33 53 20 0 14 3 53 20 3 10 41 2 16 1 25 19 10
+
+ 1 45 1 15 0 15 7 5 111
+
+ 1 41 58 30 1 13 13 30 0 18 1 30 1 17 59 48 49 12 1 12
+
+ 1 40 15 1 12 15 0 19 45 6 41 4 49 1 19 13
+
+ 1 39 21 20 1 11 45 20 0 20 38 40 1 14 31 53 49 15 29 14
+
+ 1 37 20 1 10 40 0 22 40 1 13 53 17 15
+
+ 1 36 27 30 1 10 12 30 0 23 32 30 7 43 5 37 1 53 16
+
+ 1 32 50 50 18 24 10 0 27 9 10 22 17 16 25 6 31 17
+
+ 1 32 1 8 0 28 23 17 7 18
+
+ 1 30 4 53 20 1 7 7 6 40 0 29 55 6 40 3 22 41 2 31 1 1 7 19 19
+
+ 1 29 15 1 6 45 0 30 45 1 59 1 29 41 20
+
+ 1 27 40 30 1 6 4 30 0 32 19 30 19 29 14 41 7 11 21
+
+ 1 25 1 5 0 35 17 13 7 22
+
+ 1 24 11 40 1 4 41 40 0 35 48 20 50 31 38 49 21 29 23
+
+ 1 22 22 1 4 2 0 37 38 41 11 32 1 18 49 24
+
+ 1 21 34 22 30 1 3 45 37 30 0 38 25 37 30 2 10 31 1 42 1 11 29 25
+
+ 1 20 51 15 1 3 31 15 0 39 8 45 1 4 41 50 49 31 19 26
+
+ 1 20 4 1 3 16 0 39 56 20 1 15 49 9 59 27
+
+ 1 18 16 40 1 2 43 20 0 41 43 20 23 29 18 49 12 31 28
+
+ 1 17 30 1 2 30 0 42 30 31 25 17 29
+
+ 1 14 57 45 1 1 50 15 0 45 2 15 33 19 27 29 20 1 30
+
+ 1 13 30 1 1 30 0 46 30 49 41 31 31
+
+ 111 1 1 0 49 111 1 1 49 32
+
+ 1 10 14 35 1 0 52 5 0 49 45 25 33 43 29 13 23 53 33
+
+ 1 7 5 1 0 25 0 52 55 2 41 2 25 2 7 34
+
+ 1 6 20 1 0 20 0 53 40 3 19 3 1 2 41 35
+
+ 1 4 37 20 1 0 10 40 0 55 22 40 12 7 11 17 10 23 36
+
+ 1 3 52 30 1 0 7 30 0 56 7 30 8 31 8 1 7 29 37
+
+ 1 2 27
+
+ Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:19:47 UTC
+All use subject to https://about.jstor.org/terms
+
+ 564 J. P. Britton et al.
+
+ 4 Appendix B: Photo of the tablet
+
+ Plimpton Cuneiform 322, Rare Book and Manuscript Library, Columbia University,
+ Courtesy Jane Siegel, photo C. Proust (see Figs.14, 15).
+
+ Fig. 14 Plimpton 322, obverse
+
+ Fig. 15 Plimpton 322, reverse
+
+ Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:19:47 UTC
+All use subject to https://about.jstor.org/terms
+
+ Plimpton 322 565
+
+ References
+
+ Centaurus 18: 64-66.
+
+ Archaologie 98: 12-19.
+
+ Aaboe, A. 1964. Episodes from the early history of mathematics. New Mathematical Library, Vol. 13.
+
+ Washington: Mathematical Association of America.
+
+ Anagnostakis, C., and B.R. Goldstein. 1974. On an error in the Babylonian table of Pythagorean triples.
+
+ Attinger, P. 2008. Racines carrees et racines cubiques. Zeitschrift fur Assyriologie und Vorderasiatische
+
+ Baqir, T. 1962. Tell Dhiba'i: New mathematical texts. Sumer 18: 1 1-14.
+ Bruins, E.M. 1949. On Plimpton 322. Pythagorean numbers in Babylonian mathematics. Koninklijke Ne-
+
+ derlandse Akademie van Wetenschappen: Proceedings 52: 629-632.
+
+ Bruins, E.M. 1955. Pythagorean triads in Babylonian mathematics: The errors in Plimpton 322. Sumer 11:
+
+ 117-121.
+
+ Bruins, E.M. 1957. Pythagorean triads in Babylonian mathematics. The Mathematical Gazette 41: 25-28.
+ Bruins, E.M. 1967. Reciprocals and Pythagorean triads. Physis 9: 373-392.
+ Buck, R.C. 1980. Sherlock Holmes in Babylon. American Mathematical Monthly 87: 335-345.
+ de Solla Price, D.J. 1964. The Babylonian Pythagorean triangle tablet. Centaurus 10: 219-231.
+ Friberg, J. 1981. Methods and traditions of Babylonian mathematics: Plimpton 322. Pythagorean triples
+
+ and the Babylonian triangle parameter equations. Historia Mathematica 8: 277-318.
+
+ Friberg, J. 1990. Mathematik (in English). In RlA=Reallexikon der Assyriologie und vorderasiatischen
+
+ Archaologie , ed. D.O. Edzard, 531-585. Berlin: Springer.
+
+ Friberg, J. 2007. A remarkable collection of Babylonian mathematical texts , sources and studies in the
+
+ history of mathematics and physical sciences. Berlin: Springer (especially, Appendix 8 Plimpton 322, a
+ Table of Parameters for igi-igi.bi Problems).
+
+ Gillings, R.J. 1953. Unexplained errors in Babylonian Cuneiform tablet, Plimpton 322. Australian Journal
+
+ of Science 16(1): 54-56.
+
+ Glassner, J.-J. 2009. Ecrire des livres a l'epoque paleo-babylonienne: le traite d'extispicine. Zeitschrift fur
+
+ Assyriologie und Vorderasiatische Archaologie 99: 1-81.
+
+ H0yrup, Jens. 2002. Lengths, widths , surfaces, sources and studies in the history of mathematics and
+
+ Huber, P.J. 1957. Bemerkungen iiber mathematische Keilschrifttexte. U Enseignement Mathematique 3:
+
+ physical sciences. Berlin: Springer.
+
+ 19-57.
+
+ Huber, P.J. 1982. Astronomical dating of Babylon I and Ur III, Monographic Journals of the Near East,
+ Occasional Papers. 1/4, June 1982, (with cooperation of A. Sachs, M. Stol, R.M. Whiting, E., Leichty,
+ C.J.P. Walker, G. van Driel).
+
+ Huber, P.J. (2000). Astronomy and ancient chronology. Akkadica , 1 19-120; 159-176.
+ Joyce, D.E. 1995. Plimpton 322. http://alephO.clark.edu/~djoyce/mathhist/plimpnote.html.
+
+ Manning, S.W., B. Kromer, P.I. Kuniholm, and M.W. Newton. 2001 . Anatolian tree rings and a new chronol-
+
+ ogy for the east mediterannean bronze-iron ages. Science 294: 2532-2535.
+
+ Muroi, K. 2003. Mathematical term Takiltum and completing the square in Babylonian mathematics.
+
+ Historia Scientiarum 12(3): 254-263.
+
+ Neugebauer, O. 1935-1937. Mathematische Keilschrift-Texte , Quellen und Studien zur Geschichte der
+
+ Mathematik, Astronomie und Physik, Vol. A3 (3 vols.). Berlin: Verlag von Julius Springer.
+
+ Neugebauer, O. 1951. The exact sciences in antiquity. Princeton: Princeton University Press. 2nd ed. in
+
+ 1957, Copenhagen: Munksgaard, Brown University Press. Reprinted in 1969, New York: Dover.
+
+ Neugebauer, O. and Sachs, A.J. 1945. Mathematical Cuneiform texts, American Oriental Series, Vol. 29.
+
+ New Haven: American Oriental Society.
+
+ Proust, C. 201 1. Interpretation of reverse algorithms in several Mesopotamian texts. In History of math-
+ ematical proof in ancient traditions: the other evidence , ed. K. Chemla (trans. M. Ross). Cambridge:
+ Cambridge University Press.
+
+ Robson, E. 2001 . Neither Sherlock Holmes nor Babylon: A reassessment of Plimpton 322. Historia Math-
+
+ ematical 8: 167-206.
+
+ 109: 105-120.
+
+ Robson, E. 2002a. Words and picture: New light on Plimpton 322. American Mathematical Monthly
+
+ Robson, E. 2002b. Guaranteed genuine originals: The Plimpton collection and the early history of mathe-
+
+ matical assyriology. In Mining the archives , ed. C. Wunsch. Dresden: ISLET Verlag.
+
+ Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:19:47 UTC
+All use subject to https://about.jstor.org/terms
+
+ Sachs, A.J. 1947. Babylonian mathematical texts I: Reciprocals of regular sexagesimal numbers. Journal
+
+ Schmidt, O. 1980. On Plimpton 322. Pythagorean numbers in Babylonian mathematics. Centaurus
+
+ 566 J. P. Britton et al.
+
+ of Cuneiform Studies 1: 219-240.
+
+ 24:4-13.
+
+ Lux, Vol. 1 . Leiden: Brill.
+
+ Thureau-Dangin, F. 1 938. Textes mathematiques babyloniens. Publications de la societe orientale Ex Oriente
+
+ Vaiman, A. A. 1961. Sumero-baby Ionian Mathematics in the third to first millennia b.o.e. (Shumero-vaviv-
+
+ onskaya matematika lll-l tysyacheletiya do n.e.). Moscow: Izdatel'stvo Vostocnoj Literatury.
+
+ Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:19:47 UTC
+All use subject to https://about.jstor.org/terms
+
+

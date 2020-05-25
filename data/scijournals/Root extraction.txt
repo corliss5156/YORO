@@ -1,0 +1,1473 @@
+ 
+
+ 
+
+ 
+
+ 
+
+Root extraction by Al-Kashi and Stevin
+Author(s): Nuh Aydin and  Lakhdar Hammoudi
+Source: Archive for History of Exact Sciences, Vol. 69, No. 3 (May 2015), pp. 291-310
+Published by: Springer
+Stable URL: https://www.jstor.org/stable/24569553
+Accessed: 18-05-2020 09:19 UTC
+
+JSTOR is a not-for-profit service that helps scholars, researchers, and students discover, use, and build upon a wide
+
+range of content in a trusted digital archive. We use information technology and tools to increase productivity and
+
+facilitate new forms of scholarship. For more information about JSTOR, please contact support@jstor.org.
+
+Your use of the JSTOR archive indicates your acceptance of the Terms & Conditions of Use, available at
+
+https://about.jstor.org/terms
+
+Springer is collaborating with JSTOR to digitize, preserve and extend access to Archive for
+History of Exact Sciences
+
+This content downloaded from 203.78.15.150 on Mon, 18 May 2020 09:19:09 UTC
+All use subject to https://about.jstor.org/terms
+
+ Arch. Hist. Exact Sci. (2015) 69:291-310
+ DOI 10.1007/S00407-015-0150-3
+
+ Root extraction by Al-Kashi and Stevin
+
+ NuhAydin1 · Lakhdar Hammoudi2
+
+ Received: 29 January 2015 / Published online: 24 March 2015
+
+ © Springer-Verlag Berlin Heidelberg 2015
+
+ Abstract In this paper, we study the extraction of roots as presented by Al-Kashi
+ in his 1427 book "Key to Arithmetic" and Stevin in his 1585 book "Arithmetic". In
+
+ analyzing their methods, we note that Stevin's technique contains some flaws that we
+
+ amend to present a coherent algorithm. We then show that the underlying algorithm
+ for the methods of both Al-Kashi and Stevin is the same.
+
+ 1 Introduction
+
+ In 1427, Jamshid Al-Kashi completed a monumental book in Arabic on arithmetic
+
+ called Miftâh al-hisâb, "Key to Arithmetic" that encompasses arithmetic, algebra,
+
+ and measurement. In this book, among other things, Al-Kashi provides a method of
+
+ extracting nth roots and apply it to numbers in the trillions. Given a positive integer
+ N, his algorithm produces an approximation R = to \/N such that Rn < N.
+ Moreover, when A is a perfect nth power, it produces the exact root.
+
+ Communicated by: George Saliba.
+
+ Research partially supported by Great Lakes Colleges Association New Directions Initiative Program
+ Grant.
+
+ S NuhAydin
+
+ aydinn@kenyon.edu
+
+ Lakhdar Hammoudi
+
+ hammoudi@ohio.edu
+
+ OH 43022, USA
+
+ 2
+
+ 1 Department of Mathematics and Statistics, Kenyon College, 201 N. College Rd, Gambier,
+
+ Department of Mathematics, Ohio University, 101 University Drive, Chillicothe, OH 45601, USA
+
+ Φ Springer
+
+This content downloaded from 203.78.15.150 on Mon, 18 May 2020 09:19:09 UTC
+All use subject to https://about.jstor.org/terms
+
+ 292 Ν. Aydin, L. Hammoudi
+
+ In 1585, Simon Stevin published an influential book in French called L'arithmétique,
+
+ "Arithmetic". Actually, it is two books put together, with definitions in the first book
+
+ and operations that include rules of ordinary arithmetic, radicals, polynomials, and
+
+ equations in the second book. In the second part of this book, Stevin dedicated a sec
+
+ tion to extracting roots. He applied the method he presented to the extraction of roots
+
+ of integers and fractions to any degree of accuracy.
+
+ The problem of the extraction of roots has been extensively studied, and many
+
+ methods have been developed throughout the centuries (Dakhel 1960; Rashed 1978,
+
+ 1994). Here, we look at the two previously mentioned examples emanating from two
+
+ mathematicians who had great influence in their respective regions at different periods
+
+ of time. In exploring Stevin's method, we found that it presents some flaws mainly due
+
+ to oversimplifying some optimizations. We provide amendments that make Stevin's
+
+ method viable. Then, we show that although the presentations of the methods as given
+
+ by Al-Kashi and Stevin look different, the underlying algorithm is in fact the same.
+
+ We note that, to the best of our knowledge, there is no proof of direct link between
+
+ Al-Kashi and Stevin. Following Berggren (1986), we will provide a justification for
+ the extraction of roots.
+
+ 2 Brief history
+
+ Jamshid Al-Kashi (1380—1429) was an Islamic scientist who was born in Kashan
+
+ (modern day Iran) around 1380 and passed away in Samarkand (modern day Uzbek
+
+ istan) on June 22,1429. His accomplishments, mostly in mathematics and astronomy,
+
+ have been well documented and dated. His best work was achieved under the patronage
+
+ of Ulugh Beg who was a great scientist in his own right and the ruler of Samarkand
+ at the time. As Samarkand grew into a world-class scientific center, Al-Kashi was
+
+ considered as one of the leading scientists in the city. His work spanned many areas of
+
+ mathematics and astronomy, dealing with arithmetic, algebra, trigonometric functions,
+
+ astronomical tables, and numerical approximations. In terms of findings and exposi
+
+ tion, he was well ahead of his time. For example, Al-Kashi used a fine pedagogy (Taani
+
+ 2014), explicitly and thoroughly explained decimal fractions in his work more than a
+
+ hundred and fifty years before Stevin (Luckey 1951), and obtained an approximation
+
+ of π correct to 16 decimal places (Hogendijk 2009) that was unsurpassed for nearly
+
+ 200 years. Without doubt, Al-Kashi's most remarkable book is Miftàh al-hisâb, "Key
+
+ to Arithmetic", which he finished on March 2, 1427. It is a part of this book that we
+
+ are concerned with in this paper.
+
+ Simon Stevin (1548-1620) was a Flemish scientist born in Bruges in present
+
+ day Belgium around 1548 and passed away in The Hague on February 1620. His
+ work covered many areas such as architecture, geography, mathematics, music, and
+
+ navigation. Many of his scientific accomplishments came out while he was working
+ for the Prince Maurice, Count of Nassau, first as an advisor and later at different other
+
+ positions as a public officer. Stevin was a renowned scientist who contributed to the
+
+ dissemination and acceptance of many mathematical concepts in Europe. For example,
+
+ it is through the English translation of his book "La Theinde", that Thomas Jefferson
+
+ proposed a decimal currency in the USA. Stevin's introduction and popularization of
+
+ Ô Springer
+
+This content downloaded from 203.78.15.150 on Mon, 18 May 2020 09:19:09 UTC
+All use subject to https://about.jstor.org/terms
+
+ Root extraction by Al-Kashi and Stevin 293
+
+ many mathematical notations that are still in use today, such as the square root symbol,
+
+ is another legacy of his. Just like Al-Kashi, Stevin usually provides the reader with
+
+ many examples and methods for solving a given problem. This is a striking similarity
+
+ with Al-Kashi that we are bound to observe in his book L'arithmétique, "Arithmetic"
+
+ which he published in 1585. It is a part of this book that we are dealing with in this
+
+ paper.
+
+ 3 Root extraction in Al-Kashi's work
+
+ In Mifiah, Al-Kashi starts the process of extracting roots by defining roots. He intro
+
+ duces and explains the idea of cycles that is central in his method of extracting roots.
+
+ Then, he describes the square root algorithm and its layout in general for an arbitrary
+
+ number. The algorithm is executed using a table, and his description is purely in prose.
+
+ He illustrates the algorithm with a few examples, but he does not provide a formal
+
+ justification as to why it works. Dakhel (1960) and Berggren (1986) give a theoretical
+
+ basis and justification for the algorithm. Al-Kashi then goes on to describing a general
+
+ algorithm to approximate a root of any degree. The general algorithm is a natural
+
+ generalization of the square root algorithm. Hence, we start by describing the square
+
+ root algorithm in some detail and then, we provide the general case of extraction of
+ roots.
+
+ 3.1 The square root algorithm of Al-Kashi
+
+ In chapter five of Al-Kashi (1977), Al-Kashi describes his square root algorithm in
+
+ general but entirely in words. Here, we closely follow his description although in the
+
+ language and notation of modern mathematics. To provide a clear and concise account
+
+ without loss of generality, we illustrate the algorithm using an integer with a given
+
+ number of digits. The general case of an integer with any number of digits is then
+
+ obvious, and we undertake that task in the description of the extraction of nth roots
+ that follows.
+
+ Given an integer N, its digits are divided into groups of two that Al-Kashi calls
+
+ "cycles" starting from the units digit. Let us assume, for the sake of illustration, that Ν
+
+ is a 6-digit integer, say Ν = abcdef (the argument applies to integers of any number
+
+ of digits). So, for a 6-digit number, the cycles are ab, cd, and ef. (If Ν was a 5-digit
+
+ integer, the last cycle would have contained one digit). Among their other uses in the
+
+ algorithm, the cycles determine the number of digits in the integer part of the square
+
+ root. So, for example, since in our case, the number Ν has 3 cycles; the square root
+
+ will be formed by 3 digits, that is, a number in the hundreds. After creating the cycles,
+
+ Al-Kashi looks for -JN one digit at a time starting form the left. First, he looks for
+
+ the integer part of the root of the left most cycle. So, Al-Kashi will be looking for the
+
+ square root of ab first. He considers the greatest integer A whose square is less than
+
+ or equal to the number formed by the cycle; A2 < ab. A will be the left most digit of
+
+ the integer part of -J~N. He then computes the difference Pq = ab - A2 and forms a
+ new number Pocd, where Pocd is the concatenation of Pq and cd. Observe that, since
+
+ ab is a number with two digits, Pq is a digit and the number Pocd is in the hundreds.
+
+ £) Springer
+
+This content downloaded from 203.78.15.150 on Mon, 18 May 2020 09:19:09 UTC
+All use subject to https://about.jstor.org/terms
+
+ 294 Ν. Aydin, L. Hammoudi
+
+ Now, Al-Kashi looks for the greatest integer Β such that (2A -10 + B) ■ Β < Pocd,
+
+ where 2A is the double of A. That number Β is the second digit of -JN. To look for
+
+ the third digit, Al-Kashi considers the difference P\ = Pocd - (2A ■ 10 + B) ■ Β and
+
+ forms the number P\ef, where 2A is the double of A and P\ef is the concatenation
+
+ of P\ and ef. At this point, he proceeds as he did previously to find A and Β. He
+
+ looks for the largest integer C such that (2 A Β ■ 10 + C) · C < P\ef, where A Β
+ is the concatenation of A and B, and 2AB is the double of AB. This digit C is
+
+ the third digit (from the left) of the integer part of y/~N. At last, he computes the
+
+ difference Pi — P\ef - (2 A Β ■ 10 + C) ■ C. If Pi = 0, then the process is finished
+
+ and ABC — -/N. Otherwise, Al-Kashi takes Pi as the numerator of the fractional part
+
+ of the square root and (2A β ■ 10 -F C) + C +1 = 2 ABC +1 as the denominator. Thus,
+
+ 2AB&+1 ke the fractional part of the square root. In other words, ABC 2A/ç+1 *s
+
+ an approximation to s/~N.
+
+ We remark that Al-Kashi made great use of approximate square roots in his remark
+
+ able approximation of π (Hogendijk 2009).
+
+ 3.2 Example
+
+ Here, we provide an example of extraction of a square root, taken from Miftah
+
+ (Al-Kashi 1969, 1977), and show how to execute the algorithm described above using
+
+ a table as presented by Al-Kashi. The example is important as it provides the prac
+
+ tical framework [it is also explained in Berggren (1986)]. We use the same notation
+
+ as in the general description for further clarity. We would like to extract the square
+ root of the number 331781. Al-Kashi divides this number into cycles of two digits
+ ab = 33, cd = 17 and ef — 81 using a table as follows.
+
+ First, find the greatest integer A whose square is less than or equal to the number
+
+ formed by the cycle 33. A2 < 33; A = 5 and place it on the top and bottom of the
+
+ table to get the next table.
+
+ 33 17 81
+
+ 33 17 81
+
+ 8
+
+ 5
+
+ Now, we compute Pq = 33 - 52; Po = 8 and put it underneath the 33. We consider
+ the number 817. We also double 5; 2 · 5 = 10 and write it above the bottom 5 shifted
+
+ one place to the right
+
+ £) Springer
+
+This content downloaded from 203.78.15.150 on Mon, 18 May 2020 09:19:09 UTC
+All use subject to https://about.jstor.org/terms
+
+ Root extraction by Al-Kashi and Stevin 295
+
+ Next, look for the greatest number Β such that (2-5-10 + B) ■ Β < 817. By
+
+ inspection, we find that Β = 7 which we write on the top and the bottom of the second
+ column.
+
+ 5 7
+
+ 33  17 81
+
+ We compute the difference Pi = 817 - (2 ■ 5 · 10 + 7) ■ 7, so, Pi = 68. We put it in
+
+ the second column below 17 and form the number 6881. We also double the last digit
+
+ of 107 which becomes 114 and write it above the 107 shifted one place to the right.
+
+ 33  17  81
+
+ 0
+
+ 07
+
+ 8
+
+ 1
+
+ 5
+
+ 8
+
+ 1
+
+ 5
+
+ 1
+
+ 5
+
+ 33
+
+ 17
+
+ 81
+
+ 8
+
+ 68
+
+ 4
+
+ 11
+
+ 07
+
+ Now, we look for the greatest number C such that (114 -10 + C) · C < 6881. We
+
+ find, C = 6 which write on the top and the bottom of the third column.
+
+ Φ Springer
+
+This content downloaded from 203.78.15.150 on Mon, 18 May 2020 09:19:09 UTC
+All use subject to https://about.jstor.org/terms
+
+ 296 Ν. Aydin, L. Hammoudi
+
+ 6
+
+ 81
+
+ 46
+
+ 7
+
+ 17
+
+ 68
+
+ 11
+
+ 07
+
+ 5
+
+ 33
+
+ 8
+
+ 1
+
+ 5
+
+ Next, P2 = 6881 - (2 · 57 · 10 + 6) · 6 That is, P2 = 5. Put it in the third column
+
+ below 81. The integer part is found, and P2 = 5 φ 0 is the numerator of the fractional
+
+ part of the root. Doubling the last digit of 1146, it becomes 1152. The denominator is
+ 1152+ 1 = 1153.
+
+ So, we found V331781 » 576——·
+
+ 1153
+
+ 3.3 Extraction of higher order roots in Al-Kashi's work
+
+ Although the computations become more tedious, the same algorithm can be naturally
+
+ generalized to obtain approximate roots of higher orders. Al-Kashi gives a general
+
+ description of his algorithm for extraction of roots of any order, again purely in prose.
+
+ He illustrates his method (Al-Kashi 1969, 1977) by finding the fifth root of the number
+ Ν = 44240899506197. We will consider this example after we describe Al-Kashi's
+ general method using the language and notation of modern mathematics. We keep the
+
+ notations of the previous section.
+
+ Let Ν = a\a2 ... am, m > 2 be an m-digit integer. To extract its nth root, Al-Kashi
+
+ divides the digits of Ν into cycles of length η starting from the right. He looks at the left
+
+ most cycle of N, let us say a\a2 ■ ■ ■ at, where k < η and finds the integer part of its nth
+
+ root. That is the largest integer A whose nth power is less than or equal to the number
+
+ formed by the cycle; A" < a\U2.. .α*. A will be the left most digit of the integer
+
+ part of y/N. To look for the next digit of the root, Al-Kashi computes the difference
+
+ Pq = a\ci2... ak - An and forms a new number Po<++l · · · <++«> where α*+ι... ak+n
+
+ is the second (from the left) cycle of N, and Poak+ι... ak+n is the concatenation of
+
+ Po and ak+1... ak+n. He then considers the quantity
+
+ /1(Β) = ^"^10"-1Α"-1β° + ···+ ^101A1Bn-2 + ^IOVb"-1^.
+
+ Al-Kashi computes f\ (B) in several steps and by the help of a table [see Berggren
+ (1986) for more details] and looks for the largest integer Β such that f{B) <
+ Poak+ι... ak+n- That number Β is the second digit of (integer part of) \'/N. To look
+
+ for the third digit, Al-Kashi considers the difference P\ = Po+fc+i · · ■ ak+n - fi(B)
+
+ and forms the number P\dk+n+\ · · -ak+in, where dk+n+] ■ ■ ■ +t+2« is the third
+
+ Ô Springer
+
+This content downloaded from 203.78.15.150 on Mon, 18 May 2020 09:19:09 UTC
+All use subject to https://about.jstor.org/terms
+
+ Root extraction by Al-Kashi and Stevin 297
+
+ (from the left) cycle of N, and P\dk+n+\ ■.. ak+2n is the concatenation of P\ and
+
+ aic+n+i ■ ■ ■ ak+2n- Now, he considers the quantity
+
+ /2(C) = + · · · + " JlO'iA*)1?
+
+ 1 /~*n—2
+
+ +
+ -^100(AB)°C"-^C
+
+ and looks for the largest number C such that /2(C) < P\ak+n+i ■ ■ ■ α*+2η· This digit
+
+ C is the third digit (from the left) of the integer part of y/N. He continues in this
+
+ way until he gets all the digits of y/N. The last difference is Pff ], where Γ7Ι is the
+
+ smallest integer not less than f- If Pj-ai = 0, then the process is finished, and y/N
+
+ is an integer r = ABC... Otherwise, y/N s» is an underestimation of the root,
+ where r = ABC... is the largest integer such that rn < N,u = P\<n-\ = Ν — r" and
+ υ = (r + 1)" — rn.
+
+ According to Rashed (1994), Al-Kashi's algorithm for extracting nth roots is a
+
+ special case of what is known as the Ruffini-Horner method, which Dakhel states
+
+ is a misleading name because "the method was already used by Islamic and Chinese
+
+ mathematicians long before either Ruffini or Horner lived" (Dakhel 1960). Rashed also
+
+ states that Al-Kashi's algorithm comes from Al-Karaji school, after the tenth-century
+
+ mathematician Abu Bakr ibn Muhammad Ibn Al-Husayn Al-Karaji (953-1029) who
+
+ is well known for his work in algebra (Rashed 1978, 1994).
+
+ 3.3.1 Example
+
+ Al-Kashi illustrates his method on the example of finding the fifth root of Ν =
+
+ 44240899506197. From the description of the general algorithm, we know apriori
+ that his approximation will produce R — r^, where r is the largest integer such
+ that r5 < Ν, u = Ν — r5 and ν = (r + l)5 - r5. Therefore, the outcome on
+
+ this particular example will be 5364^423774ό2§1 · The digits of r are again obtained
+ one at a time using the cycles. In the case of the 5th root, the cycles have 5 dig
+ its (in the general case of nth root, cycles have η digits). The cycles count the
+
+ numbers of 10°, 105,1010,... in A (each being a perfect 5th power), and the num
+ ber of cycles determines the number of digits in r. In this example, r = ABC,
+ each digit corresponding to one of the cycles 4424, 08995, and 06197. The first
+
+ step in the algorithm is to find the largest integer (digit) A such that A5 < 4424.
+
+ By inspection, A = 5. In finding other digits, Al-Kashi makes use of the identity
+
+ (x + y)5 - y5 = ((((((s)y + (4)*)y + @J:2)y + (2)·* )y + (f)^4)^)^· He arranges
+ his work in a more elaborate table to facilitate the computation of the quantity on the
+
+ right side of the last equation. Even though computational details are more involved,
+
+ the main idea behind the procedure remains the same. More details can be found in
+ Berggren (1986).
+
+ <£) Springer
+
+This content downloaded from 203.78.15.150 on Mon, 18 May 2020 09:19:09 UTC
+All use subject to https://about.jstor.org/terms
+
+ 298 Ν. Aydin, L. Hammoudi
+
+ 4 Root extraction in Stevin's work
+
+ In L'arithmétique, Stevin dedicates 16 examples of a variety of extractions of roots.
+
+ He starts by laying out the grounds for a general scheme in problem XVIII: "Given
+
+ a simple geometric number, find its required root." To solve this problem, Stevin
+ produces Pascal-like triangles:
+
+ 2 20
+
+ 3*3 3 * 30
+ 4 * * * 4 4 * 6 * 40
+ 5 5 5 * 10 * 10 * 50
+ 6 6 6 * 15 * 20 * 15 * 60
+
+ Then, he uses them in the extraction of square roots, cube roots, fourth roots, and
+
+ fifth roots. Just as in Al-Kashi's examples, there is no proof or justification of why
+
+ the algorithm works. There are, however, checks that the roots found are the desired
+
+ ones. Moreover, the general algorithm here is a natural generalization of the square
+
+ root algorithm, just like Al-Kashi's. We start by describing the square root algorithm.
+
+ It is worth mentioning that all the examples that Stevin treats are numerical with no
+ variables.
+
+ 4.1 The square root algorithm of Stevin
+
+ In our investigation of the algorithm, we analyze Stevin's first examples as described in
+
+ his book (Stevin 1625) and describe it in modern mathematics. By following Stevin's
+ method word for word, we found a flaw in his method and noticed that it does not work
+
+ in general. For example, Stevin extracts the square root of the number 186624 and
+
+ finds the correct root which is 432, but if we apply the same algorithm to the number
+
+ 331781 from Al-Kashi's work (given above) then Stevin's method does not work.
+
+ We illustrate this with the two numbers just mentioned and pinpoint where Stevin's
+
+ method fails. We will then show how to remedy the situation.
+
+ 4.1.1 Stevin's example of square root extraction
+
+ This is the authors' translation from the French of Stevin's first example in pages
+
+ 102-103 of his book (Stevin 1625). Stevin's second example is similar to the first one
+
+ and runs into the same problems.
+
+ Beginning of translation.
+
+ First example of extraction of square root of an integer with its commensurable
+
+ Explanation of the given. Given a square number 186624. Explanation of the
+
+ required. One must find its square root. Construction. We draw under the given num
+
+ ber two lines and between them, we put a dot under the first digit to the right, namely
+ under the 4.
+
+ Similarly, a dot under the 6, leaving a digit in two. Then, a dot under 8, similarly
+
+ leaving a digit in two. Similarly, we put more dots if there are more digits. These three
+
+ root.
+
+ Springer
+
+This content downloaded from 203.78.15.150 on Mon, 18 May 2020 09:19:09 UTC
+All use subject to https://about.jstor.org/terms
+
+ Root extraction by Al-Kashi and Stevin 299
+
+ dots indicate the three positions of the three digits which will come out of the required
+
+ root, so that the disposition is as follows. Then, it is necessary to take the square root
+
+ in integer part of 18, as close as possible but lower which is 4. We put it on the first
+ dot under the 8.
+
+ Then, we subtract the square of 4 which is 16 from 18. It remains 2 which we put
+
+ above the 8 and cross 16 and 18. Their disposition is then as follows.
+
+ 18 66 24
+
+ 2
+
+ Jt8T 66 24
+
+ But to find the second digit of the root, one must put aside 20 (which is the number
+
+ serving in general in the extraction of any square root, as we said above in the note of
+
+ this problem). In front of this same 20, one must put what comes as a root, namely 4.
+
+ We multiply the 20 by 4 to get 80: Similarly, we need to divide the 266 and find as a
+
+ quotient 3, which is put on the second dot between the lines and also joining the 20
+
+ which are put aside: Also, we put under the 3 its square 9, and their disposition is as
+ follows.
+
+ 4. 20. 3. 2
+
+ 9. J# 66 24
+
+ Then, it is necessary to multiply the 20 by the 4 which is 80, and this same number
+
+ by 3 to get 240 which we put by the 3 and add 9 to get 249. We put it also below
+
+ the 266 and subtract them. The remainder is 17, and their disposition will be then as
+ follows.
+
+ 4. 20. 3. 240. % 17
+
+ 9. 9. M 24
+
+ 249.
+
+ %
+
+ Φ Springer
+
+This content downloaded from 203.78.15.150 on Mon, 18 May 2020 09:19:09 UTC
+All use subject to https://about.jstor.org/terms
+
+ 300 Ν. Aydin, L. Hammoudi
+
+ But to find the third digit of the root, one must proceed in the same way as we
+
+ did in finding the second digit. We put then, as above, aside 20 (namely the 20 which
+
+ generally helps in any extraction of square root) and in front of this same 20, we put
+
+ what comes out as a root, namely 43. By multiplying the 20 by 43, we get 860 by
+
+ which is divided 1734 [probably a typo, should be 1724] to find 2 as quotient which
+
+ we put on the third dot between the lines and also joining the 20 which are put aside.
+
+ Also, we put below the said 2 its square 4 and the disposition is such.
+
+ Then, we multiply the 20 by 43 which make 860 and this same number by 2 to get
+
+ 1720 which are put next to the 2 and by adding to it again 4, the sum becomes 1724.
+
+ We put it also under the 1724 of the extraction and subtract them to find zero as a
+
+ reminder. Then, the achieved disposition is such that.
+
+ 4. 20. 3. 240. % 17
+
+ 9. 9. IS M 24
+
+ 249. 4 3 2
+
+ 43. 20. 2. AS
+
+ 4. %
+
+ 4. 20. 3. 240.
+
+ 43. 20. 2. 1720.
+
+ 9. 9.
+
+ 249.
+
+ 4. 4.
+
+ 1724.
+
+ % ¥T
+
+ IS m 24
+
+ 4 3 2
+
+ Â9 M
+
+ % ιr
+
+ I say that 432 is the required root. Proof. By multiplying 432 by itself, we get the
+
+ product 186624 which is equal to the given square number. So, 432 is the true root
+
+ which is required to prove.
+
+ End of translation.
+
+ 4.1.2 Counterexample to Stevin's square root extraction
+
+ The above example of Stevin's provides the correct square root of the number
+ 186624, V186624 = 432. However, it has a flaw that one can detect with the fol
+
+ lowing counterexample. Let us follow Stevin's method as described above and try to
+
+ find the square root of the number 331781 from Al-Kashi. We found using Al-Kashi's
+
+ method that V331781 ~ 576 γ^.
+
+ <£) Springer
+
+This content downloaded from 203.78.15.150 on Mon, 18 May 2020 09:19:09 UTC
+All use subject to https://about.jstor.org/terms
+
+ Root extraction by Al-Kashi and Stevin 301
+
+ To extract the square root of the number 331781 using Stevin's method, divide
+
+ it into cycles of two digits, by spacing them and drawing horizontal lines with dots
+
+ between them at the beginning of each cycle.
+
+ Let us find the greatest integer Λ whose square is less than or equal to the number
+
+ formed by the cycle 33. A2 < 33; A = 5 and place it on the first dot under the 3. We
+
+ compute 33 - 52 = 8. Cross 25 and 33 to get the next table.
+
+ 33 17 81
+
+ 39 17 81
+
+ 8
+
+ yz
+
+ To find the second digit of the square root, we put aside 20 and in front of it 5. We
+
+ multiply 20 · 5 = 100. We consider the number 817 and divide it by 100. Its integer
+
+ part is 8 which we put as the second digit of the root on the second dot.
+
+ 5. 20. 8. 8
+
+ 64. 39 17 81
+
+ 8
+
+ 29
+
+ We can readily see that the process is giving us the wrong square root of 331781
+
+ as the second digit of the square root is found to be 8 instead of the correct digit 7.
+
+ Moreover, if we continue the process, then we would have to subtract 20 · 5 · 8 + 64 =
+
+ 864 from 817 which is not possible for such an algorithm (Stevin never gets negative
+
+ numbers in the execution of the algorithm). The problem is mainly due to the fact
+
+ that in looking for the second digit of the square root, Stevin uses a simple division
+
+ operation instead of the more complex constraint equation (inequality) used in Al
+ Kashi's method. This appears to be the case at all stages where satisfying such a
+
+ constraint is required. Actually, right after that glitch in the process, Stevin goes on
+
+ to subtracting those same quantities that should have been optimized in the previous
+
+ step. So, in fact, Stevin is using formulas and quantities in his process of subtraction
+
+ that should have been used earlier. For example, in this counterexample, one can look
+
+ for the second digit of the root as the number (digit) that satisfies the constraint:
+ the greatest number Β such that 20 · 5 ■ Β + Β2 < 817. This yields Β = 7. In
+ considering the division of 817 by 20, Stevin misses out the B2 part. That did not
+
+ Springi ;er
+
+This content downloaded from 203.78.15.150 on Mon, 18 May 2020 09:19:09 UTC
+All use subject to https://about.jstor.org/terms
+
+ 302 Ν. Aydin, L. Hammoudi
+
+ matter in Stevin's example as B2 = 9 is small compared to Al-Kashi's example where
+
+ B2 = 49. Moreover, in the next step of the process of finding the square root, had Stevin
+
+ found the correct Β, he would have considered the subtraction 817 — (20 · 5 Β + Β2)
+
+ which would have been correct. In conclusion, the only problem that we found in
+
+ Stevin's algorithm is his failing to use the optimization at all the stages where it is
+
+ required. This becomes more tedious in the extraction of higher roots.
+
+ Let us now apply the above proposed remedy to Stevin's algorithm and describe
+
+ it in modern mathematics. Since most of the algorithm works well, we will clearly
+
+ specify our amendment below. Then, we will briefly take on Al-Kashi's example to
+ show how this amended algorithm works.
+
+ 4.1.3 The square root algorithm of Stevin, amended
+
+ We adopt analogous notations to Al-Kashi's extraction of roots method described
+ above.
+
+ Given a number N, Stevin divides the digits constituting Ν into pairs starting from
+
+ the right. If the number of digits forming Ν is odd, then the last cycle in the left
+
+ will have only one digit. This subdivision of the digits corresponds to the cycles in
+
+ Al-Kashi's work and provides the number of digits in the square root. Stevin looks
+
+ for (integer part of) -JN one digit at a time starting form the left. Each cycle will
+
+ provide a digit of the root. Without loss of generality, and following our investigation
+ of Al-Kashi's square root extraction above, we let Ν — abcdef. A generalization
+
+ of the process to an integer with any number of digits follows naturally. To find the
+
+ first digit of the square root, Stevin considers the greatest integer A with A2 < ah.
+ A will be the left digit of the integer part of ~/N. He then computes the difference
+ % = ab - A2 and considers the number 20A.
+
+ (He then, looks for the integer Β of the division of %cd by 20A, where %cd is the
+
+ concatenation of To and cd.)
+
+ Amendment: He then, looks for the greatest integer Β such that 20Αβ + B2 <
+
+ To cd, where Α β is the concatenation of A and B, 20 A Β is 20 times the number A Β
+
+ and To cd is the concatenation of To and cd.
+
+ That number Β is the second digit of fJî. Now, Stevin considers the difference Ti =
+
+ To cd - (20 AB + B2) and forms the number Τ\ef, where Tie/ is the concatenation
+ of Tj and ef.
+
+ (Then, as he did previously, he proceeds to find the number C as the integer part of
+
+ the division of Tie/ by 20 AB, where Tie/ is the concatenation of Ti and ef.)
+
+ Amendment: Then, as he did previously, he proceeds to find the greatest integer
+
+ C with the property 20ABC + C2 < Tie/, where ABC is the concatenation of Α, β
+
+ and C and Tie/ is the concatenation of Ti and ef.
+
+ This number C is the third digit (from the left) of the integer part of J~N. Finally,
+
+ he computes the difference T2 = Tie/ — {20ABC + C2). IfT2 = 0, then the process
+
+ is finished and ABC = \fN. Otherwise, -J~N ABCis an approximation
+ of the square root.
+
+ <£) Springe
+
+This content downloaded from 203.78.15.150 on Mon, 18 May 2020 09:19:09 UTC
+All use subject to https://about.jstor.org/terms
+
+ Let us find the greatest integer A whose square is less than or equal to the number
+
+ formed by the cycle 33. A2 < 33; A = 5 and place it on the first dot under the 3.
+
+ Compute To = 33 - 52 = 8. Cross 25 and 33 to get the next table.
+
+ Root extraction by Al-Kashi and Stevin 303
+
+ 4.1.4 Example
+
+ Here, we illustrate the amended Stevin's method using a specific example. To draw a
+
+ parallel with Al-Kashi's method, we use the same number as in Al-Kashi's, namely
+
+ 331781. Moreover, this number will help us tackle Stevin's method of finding the
+
+ fractional part of the square root. In his book, Stevin uses 186624 which is a perfect
+
+ square number of the same order. Thus, in one setting, we are showing two examples
+
+ from Stevin's book, extraction of the integer part of the square root and finding its
+
+ fractional part. The example below is important as it presents the practical framework.
+
+ To extract the square root of the number 331781, Stevin divides it into cycles of
+
+ two digits, ab = 33, cd = 17 and ef = 81 by spacing them and drawing horizontal
+
+ lines with dots between them at the beginning of each cycle.
+
+ 33 17 81
+
+ To find the second digit of the root, we put aside 20 and in front of it 5. We multiply
+
+ 20 · 5 = 100 and consider the number 817 to look for the greatest integer Β such that
+ 20 · 5 · Β + Β2 < 817. Β = 7, which is put on the second dot between the lines and
+
+ also joining the 20. We also put under the 7, its square 49 and their disposition is as
+ follows.
+
+ 39 17 81
+
+ 8
+
+ 29
+
+ 5. 20. 7. 8
+
+ 49. 39 17 81
+
+ 29
+
+ £l Springer
+
+This content downloaded from 203.78.15.150 on Mon, 18 May 2020 09:19:09 UTC
+All use subject to https://about.jstor.org/terms
+
+ 304 Ν. Aydin, L. Hammoudi
+
+ Then, compute Tj. Put 20 · 5 · 7 = 700 next to 7. Then, we add 700 + 49 = 749
+
+ which we put below the 817 also. We get Ti = 817 - 749 = 68.
+
+ 5. 20. 7. 700. 0 68
+
+ 49. 49. SS VT 81
+
+ 749.
+
+ 2$ m
+
+ 7
+
+ Now, we look for the third digit. We put aside 20 and in front of it, we put 57. We
+
+ multiply 20 · 57 = 114 and consider the number 6881 to look for the greatest integer
+ C, with 20-57 ■ C + C2 < 6881. C = 6, which is put on the second dot between
+ the lines and also joining the 20. We also put under the 6, its square 36 and their
+
+ disposition is as follows.
+
+ 5. 20. 7. 700. 0 68
+
+ 49. 49. as IT 81
+
+ 749. 576
+
+ 57. 20. 6. A8
+
+ 36. 7
+
+ 20. 7. 700.
+
+ 49. 49.
+
+ 749.
+
+ 36.
+
+ 36.
+
+ 6876.
+
+ 57.
+
+ 20. 6.
+
+ 6840.
+
+ 0 as
+
+ as XT 8i
+
+ 5 7 6
+
+ m 2S
+
+ 7 as
+
+ Finally, we found that the integer part of the square root is 576 and since the last
+
+ difference T2 = 5 ψ 0, the square root has a fractional part with a numerator of 5 and
+
+ a denominator of 2 ■ 576 + 1. Thus, λ/331781 « 576 γ^·
+
+ 4.2 Extraction of higher order roots in Stevin's work
+
+ In extracting cube roots, fourth roots, and fifth roots, Stevin uses the same method as in
+
+ square root extraction. In the previous section, we detected some problems in his algo
+
+ 4?) Springer
+
+This content downloaded from 203.78.15.150 on Mon, 18 May 2020 09:19:09 UTC
+All use subject to https://about.jstor.org/terms
+
+ Then, we compute I2· We start by computing 20 · 57 · 6 = 6840 and put it next to
+
+ the 6. Then, we add 6840 + 36 = 6876 which we put below the 6881 also.
+
+ We get T2 = 6881 — 6876 = 5. Then, the achieved disposition is such that.
+
+ Root extraction by Al-Kashi and Stevin 305
+
+ rithm which we amended to provide a correct one. That same exact problem of using a
+
+ simple division to find the digits of the root instead of the far more complex optimiza
+
+ tion process persists in all of his extractions of roots at all stages where such a process
+
+ is called. Since all of the other stages of Stevin's algorithm are correct, we propose
+
+ amendments to provide a correct root extraction algorithm. We follow the square root
+
+ algorithm description and use analogous notations. Moreover, we keep our account of
+
+ the process close to the process of Al-Kashi to better compare the two algorithms. We
+
+ then provide a brief example showing how the algorithm effectively works.
+
+ 4.2.1 Extraction of higher order roots in Stevin's work, amended
+
+ Consider an m-digit integer Ν = a\a2... am, m > 2. The aim is to extract its nth
+
+ root. To that end, Stevin divides the digits of Ν into cycles of length η starting from
+
+ the right. Assuming that a\ai... α*, k < η is the left most cycle of N, Stevin finds
+
+ the greatest integer A such that A" < a\ai... a*. This integer A is the left most digit
+
+ of the integer part of Ζ/Ν. He then computes the difference To = a\02... ak — A"
+ and considers the number lC^nA"-1.
+
+ (He then, looks for the integer Β of the division of Τοα^+ι... a*+« by 10"_1n A"-1,
+
+ where α*+ι... α*+„ is the second (from the left) cycle of N, and Toajt+i... α*+„ is
+
+ the concatenation of To and ak+1 · · · ak+n·)
+
+ Amendment: He then, looks for the greatest integer Β such that g\(B) <
+ %ak+\ ...ak+n, where α*+ι...α*+„ is the second (from the left) cycle of N,
+ %ak+\... ak+n is the concatenation of To and ak+1... ak+n, and
+
+ $!(!*) = φΐΟ^Α"-1*1 + ··· + ^ " JlO'A1*"-1 + QlO°A°fl".
+
+ That number Β is the second digit of \/N. Now, Stevin computes the difference
+ Τι = Τοα*+ι... ak+n —81(B), where ak+\. ■. ak+n is the second (from the left) cycle
+ of N, and %ak+\... ak+n is the concatenation of To and α*+ι... ak+n. He then forms
+
+ the number Tiat+„+i... ak+2n, where ak+n+i ■ · · a*+2n is the third (from the left)
+
+ cycle of N, and 1\ak+„+\ ... ak+2n is the concatenation of Ti and ak+n+1 · · · α*+2η·
+
+ (Then, as he did previously, he proceeds to find the number C as the integer part of
+
+ the division of1iak+n+i ■ ■ -ak+2n by 10"_1n(Afl)"_1.)
+
+ Amendment: Then, as he did previously, he proceeds to find the greatest integer
+
+ C with the property g2(C) < Τια*+„+ι... ak+2n, where
+
+ *2(C) = ^KV-^Afir^C1 + · · · + (n " JlO^A^C"-1
+
+ This integer C is the third digit (from the left) of the integer part of y/N. His next
+
+ step is to compute the difference T2 = Τια*+„+ι... ak+2n - 82(C) and he proceeds
+
+ as before to find the next digit constituting the integer part of VN. One has to do so
+
+ £) Springer
+
+This content downloaded from 203.78.15.150 on Mon, 18 May 2020 09:19:09 UTC
+All use subject to https://about.jstor.org/terms
+
+ 306 Ν. Aydin, L. Hammoudi
+
+ with the appropriate amendments in mind. He continues in this way until he gets all
+
+ the digits of the integer part of y/N. The last difference is Tra-i, where is the
+
+ ' tl ' **
+
+ smallest integer not less than ~ If Tr-m-i = 0, then the process stops and y/~N is an
+
+ η 1 η '
+
+ integer r = ABC··· Otherwise, \fN ~ is an underestimation of the root, where
+ r = ABC... is the largest integer such that r" < N, u = T[-B] = A - r" and
+ ν = (r + 1)" — r".
+
+ 4.2.2 Example
+
+ In this example, we briefly discuss Stevin's method applied to the extraction of the
+
+ fifth root of the number 44240899506197. He starts by making two columns of the
+
+ 9 digits and their fifth powers starting with 1 and ending with 9. On the other hand,
+
+ he divides the number into cycles of 5 digits starting from the right. So, he gets
+
+ the cycles 4424, 08995, and 06197. The first digit of fifth root of the number is the
+
+ greatest integer Λ such that A5 < 4424. By looking at the table of fifth powers, he
+ finds A = 5; 55 = 3125. He computes the difference To = 4424 - 3125 = 1299 and
+ considers the number 129908995. Also, he considers A4 = 625 which he did compute
+
+ to find the table of fifth powers, and then multiply 50000 · 625 = 31250000. This is
+
+ just 104 · 5 · A4. Stevin would then divide 129908995/31250000 and take the integer
+
+ part as the second digit of the fifth root. In this case, we will find 4 which is not the
+
+ correct digit of the fifth root as seen from Al-Kashi's example above. So, we must
+
+ work with the amended version and compute the whole quantity
+
+ gl(B) = 104 · 5 · 54 · Β + 103 · 10 · 53 · Β2 + 102 · 10 · 52 · δ3 + 101 · 5 · 51 · B4
+
+ +10° ■ 1 · 5° · B5.
+
+ So, gi(B) = 31250000β + 1250000B2 + 25000J33 + 250B4 + Β5. Now, we look
+ for the greatest integer Β such that g\(Β) < 129908995 which is found to be 3.
+ Stevin's process can be continued in this way to find the third digit 6. The computa
+
+ tion of the fractional part is similar to that of Al-Kashi and it is 414237741)281 ' Thus,
+
+ y/·44240899506197 % 5364^55^^·
+
+ 5 Justification of the root extraction algorithms
+
+ Our justification of Al-Kashi's square roots algorithm closely follows Berggren (1986).
+
+ The same justification applies to Stevin's algorithm as well.
+
+ Given an integer A, its digits are divided into groups of two, called "cycles" starting
+
+ from the units digit. Let us assume, for the sake of illustration, that A is a 6-digit integer,
+
+ say A = abcdef (the argument applies to integers of any number of digits). So, for
+
+ a 6-digit number, the cycles are ab, cd, and ef. (If A was a 5-digit integer, the last
+
+ cycle would have contained one digit). The cycles are useful because the first cycle
+ counts the number of units in Α, the second cycle counts the number of 100's in Α,
+
+ etc., and the numbers 1,100,10000 are perfect squares. This means we can regard A
+
+ as A = ab ■ 104 + cd ■ 102 + ef ■ 10°. In the case, A is a perfect square, VÂ is another
+
+ <£) Springer
+
+This content downloaded from 203.78.15.150 on Mon, 18 May 2020 09:19:09 UTC
+All use subject to https://about.jstor.org/terms
+
+ Root extraction by Al-Kashi and Stevin 307
+
+ integer, otherwise it is an irrational number. Al-Kashi's algorithm finds the exact square
+
+ root in the former case (say r = *J~N) and produces a rational number R = r%, where
+
+ r, u, ν are positive integers, as an approximation to -J~N in the latter case which is much
+ more common. His approximation is always an underestimation, that is R2 < N, when
+ Ν is not a perfect square. He knows that r will contain 3 digits, say r = ABC. He
+ determines the digits one at a time. The digit A is chosen as the largest digit such
+ that A2 < ab. From this, it is not difficult to show that ((A + 1 ) 100)2 > N, which
+
+ means A + 1 cannot be the hundreds digit of r. Then, he computes the difference
+ D\ Ν — (A · 100)2 = (ab — A2) ■ 1002+cd ■ 102 +ef. To determine the next digit
+ B, Al-Kashi notes that (100 · A + 10 · Β)2 must be as close to Ν as possible without
+ exceeding it, i.e., the difference Ν — (100 · A + 10 · Β)2 must be positive and as small
+ as possible. This difference can be written as Z>2 := D\ — (2A 10 + Β)Β ■ 100.
+ In the execution of the algorithm with the help of a table, Al-Kashi makes use of
+ this expression. Finally, he determines the units digit of r from the condition that
+ Ν — (100 · A + 10 · β + C)2 must be positive and as small as possible. This quantity
+ can be expressed as Dj Di — (2 · 100 · A + 2 · 10 · Β + C) · C. Al-Kashi takes
+ advantage of the fact that previous differences are already computed in the table. He
+ also makes use of place values to simplify certain computations.
+
+ In obtaining the fractional part of the approximate square root, Al-Kashi uses a
+
+ linear approximation. In the case when Ν is not a perfect square, it is clear that
+ < Ν < (r + l)2, equivalently, r < -χ/ÏV < r + 1. Consider the secant line t to the
+ curve y = sfx that goes through the points (r2, r) and ((r + l)2, r + 1). The idea of
+ the approximation is to use the value on this line whose ^-coordinate is Ν (whereas
+ the exact value lies on the curve y — ^/x with the same abscissa, see figure below.)
+
+ The equation of this line is £(x) = r + fjrpy, hence t(N) = r + 2Γ+Ι · This is exactly
+ what is obtained from the algorithm where r is the integer part. By doubling each new
+
+ digit obtained, Al-Kashi keeps 2r in the bottom of the table. At the very end, he adds
+
+ 1 to that quantity because the 2r + 1 is required for this linear approximation. Note
+ that since the function y = s/x is concave down, this secant line is below the curve,
+ hence the approximation is an underestimate. Also, note that in the case when A is a
+
+ perfect square, the fractional part will be 0, hence the exact value is obtained.
+
+ (r + !)
+ (r + 1)
+
+ 2 X
+
+ (r + l)2
+ (r + 1)
+
+ y = \fx
+ y = <Jx
+
+ ζ] Springer
+
+This content downloaded from 203.78.15.150 on Mon, 18 May 2020 09:19:09 UTC
+All use subject to https://about.jstor.org/terms
+
+ 308 Ν. Aydin, L. Hammoudi
+
+ It is actually possible to increase the accuracy of this approximation by using the
+
+ identity tfN = ^^°"k and the fact that the difference between the curve y = ~Jx and
+ the line y = ί(χ) on the interval [r2, (r + l)2] gets smaller as r (hence x) increases.
+
+ In fact, it is easy to show that the maximum of the difference D{x) = */x - l{x) on
+ the interval [r2, (r + l)2] is which goes to 0 as r -> oo. Hence, the error in the
+
+ approximation can be made as small as desired by taking k large enough. According to
+
+ Berggren (1986), the identity Z/~N = jqI0"* was known as early as al-Khwarizmi's
+ time (d. 850 CE).
+
+ The justification of the algorithm for higher order roots is very similar.
+
+ 6 Concluding remarks
+
+ • In studying the methods of Al-Kashi and Stevin for extracting roots, we found
+
+ that both mathematicians use a fine pedagogy with many examples and variations
+
+ of the methods whenever possible. It is, however, often the case that what they
+
+ call another method is actually just a variation in executing some of the steps of
+
+ the same algorithm instead of it being a substantially new method or algorithm.
+
+ Another noticeable similarity is the intentions of Al-Kashi and Stevin to write their
+
+ arithmetic books for beginners and for real-life practitioners of other disciplines.
+
+ • Concerning the root extraction per se, Al-Kashi and Stevin methods use the binomial
+
+ expansion implicitly with Stevin making Pascal's triangle more apparent. We also
+
+ found that neither of them explain or justify why their methods work. They only
+
+ check that the roots found are the required roots.
+
+ • Another similarity is the handling of the fractional part of the root. Both Al-Kashi
+
+ and Stevin find the same fractional part with a small difference in the approach. It
+
+ is, however, worth pointing out that the authors felt that Stevin did not fully grasp
+ the addition of 1 to find the denominator because in his book Stevin (1625) on
+
+ pages 117-118, he writes a note1 regarding this addition. He noticed that Nicolas
+
+ Tartaglia does not add 1 while he does, just like Juan De Moya. He further argues
+
+ with examples that it is better to add 1 rather than not to add 1, which suggests that
+
+ Stevin did not see that the added 1 was coming from the expression (r+l)n—rn.
+
+ • In Sect. 4.2.2, we provided a brief example of how to extract the fifth root, using
+
+ Stevin's method, of the number 44240899506197 which was used by Al-Kashi. We
+
+ did so to make it easy for the reader to compare Al-Kashi's and Stevin's methods as
+
+ we did in previous examples. Actually, in Sect. 4.2.2, we could have used Stevin's
+
+ number 3570467226624 to reach the same conclusion, namely that Stevin's method
+
+ has some flaws and that the amended version works similarly to Al-Kashi's. It is
+
+ true that, in example 16 (Stevin 1625, pp. 125-126), Stevin provides the tables of
+ numbers and the correct fifth root of3570467226624, which is 324. One must notice
+
+ 1 Stevin (1625 p. 118) " ... by wanting to give a general rule (method), there is even more reason to add
+
+ it than to leave it. It is true that there is no example which we can approximate it better by leaving it, but
+
+ there also others which are to the contrary can be approached better by adding it."
+
+ â Springer
+
+This content downloaded from 203.78.15.150 on Mon, 18 May 2020 09:19:09 UTC
+All use subject to https://about.jstor.org/terms
+
+ Root extraction by Al-Kashi and Stevin 309
+
+ though that he does not provide his usual steps to find the root.2 Actually, if we
+
+ follow his method as it was presented in the extraction of square roots, cube roots,
+
+ and fourth roots, then we encounter the same problem in finding the second digit as
+
+ discussed in Sect. 4 above. Given the correct setup and correct root in Stevin's work,
+
+ it is the authors' opinion that Stevin may have not actually done all the computations
+
+ and may have just used the fact that 3245 = 3570467226624. This is confirmed by
+
+ the fact that Stevin computed, in his examples 8 and 9, -^34012224 = 324 and in his
+
+ example 15, 1019960576 = 324 where his method, although flawed, gives the
+ correct root. The fact that his tables in his example 16 are correct is understandable
+
+ as Stevin's method has no problems in the setup and its relevant computations, but
+
+ rather in the use of a simple division instead of a far more complex optimization to
+
+ find the digits of the root after finding the first one.
+
+ • Although decimal fractions are not our main focus in this work, it is interesting to
+
+ note the following fact that adds another dimension to possible connections between
+
+ Al-Kashi and Stevin. Reportedly, many historians held the view that Stevin was
+ the first to introduce decimal fractions (O'Conner and Robertson 1999; Rashed
+
+ 1994), which was proven false when Luckey (1951) showed that in Miftah Al
+ Kashi gives as clear a description of decimal fractions. However, Al-Kashi was
+
+ not actually the original inventor of decimal fractions because according to best
+
+ available records Al-Uqlidisi (around 952 CE) used them some five centuries before
+
+ Al-Kashi (Berggren 1986; Saidan 1966, 1978). According to Berggren, "Stevin's
+
+ awkward notation was nowhere near so good as Al-Uqlidisi's" (Berggren 1986).
+
+ From what we have seen in the original works of Al-Kashi and Stevin and related
+
+ facts about the origin of the root extraction reported by Rashed (1994), something
+
+ similar to the development of decimal fractions may have taken place in the case
+ of root extraction as well.
+
+ • At last, but not the least, it is of particular interest to explore possible links between
+
+ Al-Kashi and Stevin in light of the existence of many similarities.
+
+ References
+
+ Al-Kashi, G. J.M. 1969. Miftah al-Hisab (edition, and commentary by Amad Sa 'id al-Dimirdash and Muam
+
+ mad Hamdi al-Hifni al-Shaykh). Cairo: Dar al-Katib al-Arabi.
+
+ Al-Kashi, G.J.M. 1977. Miftah al-Hisab. (edirion, commentary and notes by Nabulsi Nader). Damascus:
+
+ Berggren, J.L. 1986. Episodes in the mathematics of medieval Islam. Berlin, Heidelberg, New York:
+
+ University of Damascus Press.
+
+ Springer-Verlag.
+
+ Dakhel, A. 1960. In The extraction of the n-th root in the sexagesimal notation. A study of chapter 5, treatise
+
+ 3 of Miftah al-hisab, ed. W.A. Hijab, and E.S. Kennedy. Beirut: American University of Beirut.
+
+ Hogendijk, J.P. 2009. Al-Kashi's determination of π to 16 decimals in an old manuscript. Zeitschrift ft
+
+ Geschichte der arabisch-islamischen Wissenschaften 18: 73-152.
+
+ Luckey, P. 1951. Die Rechnenkunst bei Gamsid b. Masud Al-Kasi. Wiesbaden.
+
+ O'Conner J. J., and E. F. Robertson. 1999. The MacTutor history of mathematics archive, http://
+
+ www-history.mcs.st-andrews.ac.uk/index.html
+
+ 2 Stevin (1625 p. 125) "We will not give in this construction any verbal explanation but only the disposition
+ of digits of the achieved Operation ..."
+
+ £} Springe
+
+This content downloaded from 203.78.15.150 on Mon, 18 May 2020 09:19:09 UTC
+All use subject to https://about.jstor.org/terms
+
+ 310 Ν. Aydin, L. Hammoudi
+
+ Rashed, R. 1978. 12Extraction de la Racine n'ime et l'Invention des Fractions Décimales (XIe - XIIe
+
+ Siècles). Archive for History of Exact Sciences 18(3): 191-243.
+
+ Rashed, R. 1994. The development of Arabie mathematics between arithmetic and algebra (trans: Arm
+
+ strong, A.F.W.). Dordrecht: Kluwer.
+
+ Saidan, A. 1966. The earliest extant arabic arithmetic, his 57(194): 475-490.
+
+ Saidan, A. 1978. The arithmetic of al-Uqlidisi: The story of Hindu-Arabic arithmetic as told in Kitab
+
+ al-Fusulfi al-Hisab al-Hindi (trans and annotated: Saidan, A.S.). Dordrecht: Reidel Publishing.
+
+ Stevin, S. Ε arithmétique, corrected and augmented by Albert Girard, De l'imprimerie des Elzeviers, 1625.
+
+ http://www.arcliive.org/details/laritlimetiqvedesOOstev.
+
+ Taani, 0.2014. Multiple paths to mathematics practice in Al-Kashis key to arithmetic. Science & Education
+
+ 23(1): 125-141.
+
+ ^ Springe:
+
+This content downloaded from 203.78.15.150 on Mon, 18 May 2020 09:19:09 UTC
+All use subject to https://about.jstor.org/terms
+
+

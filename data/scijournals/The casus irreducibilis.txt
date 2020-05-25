@@ -1,0 +1,3007 @@
+ 
+
+ 
+
+ 
+
+ 
+
+The "casus irreducibilis" in Cardano's "Ars Magna" and "De Regula Aliza"
+Author(s): Sara Confalonieri
+Source: Archive for History of Exact Sciences, Vol. 69, No. 3 (May 2015), pp. 257-289
+Published by: Springer
+Stable URL: https://www.jstor.org/stable/24569552
+Accessed: 18-05-2020 09:19 UTC
+
+ 
+REFERENCES 
+Linked references are available on JSTOR for this article:
+https://www.jstor.org/stable/24569552?seq=1&cid=pdf-reference#references_tab_contents 
+You may need to log in to JSTOR to access the linked references.
+
+JSTOR is a not-for-profit service that helps scholars, researchers, and students discover, use, and build upon a wide
+
+range of content in a trusted digital archive. We use information technology and tools to increase productivity and
+
+facilitate new forms of scholarship. For more information about JSTOR, please contact support@jstor.org.
+
+Your use of the JSTOR archive indicates your acceptance of the Terms & Conditions of Use, available at
+
+https://about.jstor.org/terms
+
+Springer is collaborating with JSTOR to digitize, preserve and extend access to Archive for
+History of Exact Sciences
+
+This content downloaded from 203.78.15.150 on Mon, 18 May 2020 09:19:05 UTC
+All use subject to https://about.jstor.org/terms
+
+ Arch. Hist. Exact Sci. (2015) 69:257-289
+ DOI 10.1007/s00407-015-0149-9
+
+ The casus irreducibilis in Cardano's Ars Magna
+ and De Régula Aliza
+
+ Sara Confalonieri
+
+ Received: 1 July 2014 / Published online: 11 March 2015
+
+ © Springer-Verlag Berlin Heidelberg 2015
+
+ Abstract In Cardano's classification in the Ars Magna (1545,1570), the cubic equa
+
+ tions were arranged in thirteen families. This paper examines the well-known solution
+ methods for the families χ3 + a\x = ao and x3 = a\x + ao and then considers thor
+
+ oughly the systematic interconnections between these two families and the remaining
+
+ ones and provides a diagram to visualize the results clearly. In the analysis of these
+
+ solution methods, we pay particular attention to the appearance of the square roots
+
+ of negative numbers even when all the solutions are real—the so-called casus irre
+
+ ducibilis. The structure that comes to light enables us to fully appreciate the impact
+
+ that the difficulty entailed by the casus irreducibilis had on Cardano's construction in
+
+ the Ars Magna. Cardano tried to patch matters first in the Ars Magna itself and then
+
+ in the De Régula Aliza (1570). We sketch the former briefly and analyze the latter in
+
+ detail because Cardano considered it the ultimate solution. In particular, we examine
+ one widespread technique that is based on what I have called splittings.
+
+ 1 Introduction
+
+ At the middle of the sixteenth century in Europe, equations were dealt with in the con
+
+ text of algebra treatises. During the early Renaissance, the Arabic algebraic tradition
+
+ had already reached Europe through the mercantile paths, and its knowledge of equa
+
+ I would like to thank Veronica Gavagna, Marco Panza, Sabine Rommevaux, and Klaus Volkert for their
+
+ Communicated by: Jeremy Gray.
+
+ help.
+
+ S. Confalonieri (ISJ)
+
+ Bergische Universitat, GauBstraBe 20,42119 Wuppertal, Germany
+ e-mail: sara.confalonieri@gmail.com
+
+ Springer
+
+This content downloaded from 203.78.15.150 on Mon, 18 May 2020 09:19:05 UTC
+All use subject to https://about.jstor.org/terms
+
+ 258 S. Confalonieri
+
+ tions had been assimilated. For many centuries, scholars could solve any quadratic
+
+ equation provided that it has real solutions. On the other hand, solving cubic equa
+ tions in general by radicals still constituted an obstacle. Here and there, even before
+
+ the 16th century, some cubic equations with numerical coefficients had been solved,
+
+ but particular methods (that is, methods that depend on the coefficients and cannot be
+
+ generalized to any cubic equation) were employed. Some approximation methods had
+ also been developed to deal with cubic equations.
+
+ The topic of cubic equations was successfully approached for the first time in the
+
+ context set by the abaco tradition in what is today northern Italy. There a certain
+
+ number of scholars, Scipione del Ferro, Tartaglia, Girolamo Cardano, and Ludovico
+
+ Ferrari among them, worked on this subject. As it is well known, the paternity of
+
+ the solution methods for cubic equations was highly disputed. Allegedly, Scipione del
+
+ Ferro discovered some of the solution methods in Bologna before his death in 1526, but
+
+ he kept the lid on his results until the very end of his life. A few years later, Tartaglia,
+
+ during a mathematical public duel with del Ferro's pupil, came to some comparable
+
+ results, and the news reached Cardano. In 1539, he managed to make Tartaglia reveal
+
+ his methods to him, and six years later, he published an improved and augmented
+
+ version of these. This gave rise to the well-known dispute between Tartaglia, who felt
+
+ robbed, and Cardano's pupil Ferrari, who had by now also come to the solution of
+
+ quartic equations.
+
+ In the following, we focus on Cardano's algebraic treatises. We deal in particular
+
+ with the solution methods for cubic equations that are delivered in the middle of his
+
+ masterpiece, the Ars Magna, and with the (expected) patch to these methods that
+
+ should have been contained in the De Régula Aliza.
+
+ 2 A precision concerning Cardano's cubic equations
+
+ In order to best grasp Cardano's treatment of cubic equations, we need to start from the
+
+ very beginning. In this section, I would like to take stock of equations in his algebraic
+
+ works,1 and in particular of the way in which cubic equations are expressed. This will
+
+ let us see that Cardano did not have a terminology available for speaking of cubic
+
+ equation in the abstract—that is, when the coefficients are completely unspecified—
+
+ and so, he needed to take into account many different families of cubic equations and
+
+ classify them according to some criteria.
+
+ 1 Namely, they are the Practica Arithmeticae (1539), the Ars Magna Arithmeticae (1663), the Ars Magna
+ (1545,1570), and the De Régula Aim (1570).
+
+ Concerning in particular the Ars Magna Arithmeticae, we remark that the only edition that we have available
+
+ is the one posthumously printed in Cardano's Opera Omnia. For a long time, it has been considered as a
+
+ minor work and in any case as a late work (see Bortolotti 1926; Loria 1950, p. 298). Cardano himself did
+
+ not mention this treatise in his autobiographies and never sent it to be printed. Moreover, the (supposedly
+
+ chronological) position of the published version in the framework of the 1663 Opera Omnia contributed
+
+ to the misunderstanding because the Ars Magna Arithmeticae was wrongly placed after the Ars Magna.
+ Thanks to some recent reappraisals of Cardano's mathematical writings (see Tamborini 2003, pp. 177—
+ 179; Gavagna 2012), it is nowadays commonly agreed that the Ars Magna Arithmeticae was conceived
+ before—or at least at the same time as—the Ars Magna.
+
+ £) Springer
+
+This content downloaded from 203.78.15.150 on Mon, 18 May 2020 09:19:05 UTC
+All use subject to https://about.jstor.org/terms
+
+ The casus irreducibilis in Cardano's Ars Magna 259
+
+ In agreement with Renaissance habits, Cardano wrote equations in words, employ
+
+ ing the common Latin terminology. The coefficient of the term of degree zero—as
+
+ we call it nowadays2—is called a 'number (numerus)', the unknown a 'thing (res)' or
+
+ 'position (positio)', the unknown to the second power a 'square (quadratus)' or 'cen
+
+ sus', and the unknown to the third power a 'cube (cubus)'.3 We can consider that for
+
+ Cardano, an equation is written in the standard form when it is monic. Indeed, in the
+
+ great majority of the cases, he directly took into account monic equations and, when
+
+ the equation is not, the first step is to reduce it to a monic one. When the coefficients
+
+ of the unknown or of its powers are different from 1 and Cardano did not want to
+
+ specify their numerical value, he employed plural forms, like 'some things (res)' or
+
+ 'some squares (quadrati)'. We remark that even though Cardano had available this
+
+ work around for speaking about families of equations where the numerical value of
+
+ the coefficients is not pointed out, he did not have any particular preference to employ
+
+ it rather than to specify the coefficients. Indeed, as it was common at that time, one
+
+ could do mathematics in a general way, but yet not in the abstract.
+
+ Abbreviations, like 'p: ' or 'p. ' for 'plus', are frequently used, but they are not always
+
+ stable (for instance, 'cube' is sometimes abbreviated 'cub.' or 'cu.' and sometimes
+
+ written in full words). The role of these shorthand expressions, far from being an
+ established formalism, is to shorten the text, in the same manner as the accents in
+ Renaissance Latin did.
+
+ Cardano was of course interested in finding the real solutions of the equations
+
+ that he considered. He usually preferred the positive ones [called 'true (vera)'], but
+
+ it sporadically happens that also the negative ones [called 'fictitious (ficta)'] were
+ mentioned.4
+
+ At this point, one is quite naturally led to wonder what, for Cardano, are the quan
+
+ tities that I have called 'coefficients' above. The status of these quantities depends to a
+
+ great extent on what Cardano considered to be a numerus. In comparison to our sets of
+
+ 2 I have deliberately chosen to expound Cardano's mathematics using some terminology and symbols that
+
+ he did not employ. Of course, this betrays to a certain extent the text and can lead to over-interpreting it.
+
+ However, I believe that the advantages for the reader in terms of grasping the contents precisely are worth
+
+ the risk. For the same reason and for the sake of brevity, I use certain notations, especially the discriminant
+
+ Δ3, that refer to Cardano's equations. In this case, the discriminant is not to be understood in the modem
+
+ sense, that is, as a symmetric function of the roots of the corresponding polynomial. Rather it is a shorthand
+
+ for the number that is under the square root in Cardano's formulae (even though this number has the same
+
+ value up to a constant as the symmetric function evaluated at an appropriate point).
+
+ 3 Here and there in Cardano's mathematical treatises, we also find equations of higher degrees. The prime
+
+ degrees of the unknown greater than three that Cardano mentioned are the 'first related (relatus primus)' for
+
+ degree five and the 'second related (relatus secundus)' for degree seven. The non-prime degrees are obtained
+
+ by multiplication of prime factors, such as for instance the 'square of a square (quadrati quadratus)' for
+ degree four, the 'cube of a square (quadrati cubus)' for degree six, the 'square of a square of a square
+
+ (ιquadrati quadrati quadratus)' for degree eight, the 'cube of a cube (cubi cubus)' for degree nine.
+
+ 4 Interestingly, in Ars Magna, Chapter XXXVII Cardano gave a justification of the fact that one is also
+
+ entitled to take into account negative solutions. Indeed, a negative solution of a certain family of equations
+
+ is admissible as long as it corresponds to a positive solution of another family of equations where some of
+
+ the coefficients are opposite in sign. For instance, this happens for x2 = a\x + ao and y2 + a\y = ao, see
+
+ Cardano (1545, Chapter XXXVII, rule I, p. 65v) but also for x3 + ao = a\x and y3 = a\y + oq, and for
+ x3 + açx2 = αο and y3 4- oq = «çy2 (see Cardano 1545, Chapter I, Paragraphs 5-6 and 8, pp. 4r-4v and
+ 5r-5v).
+
+ Ώ Springer
+
+This content downloaded from 203.78.15.150 on Mon, 18 May 2020 09:19:05 UTC
+All use subject to https://about.jstor.org/terms
+
+ 260 S. Confalonieri
+
+ numbers, he had available only an incomplete system of numbers that was not closed
+
+ under every algebraic operation. More precisely, he took the freedom to consider that
+
+ when he performed some algebraic operations on rational numbers, other numbers
+
+ that he knew how to deal with were produced. For instance, the operation of taking
+
+ the square root applied to 2 gives V2, and Cardano knew how to further perform
+
+ algebraic operations on this number. This remark opens a broad-ranging issue: how
+
+ can we characterize Cardano's numbers? And, moreover, was Cardano's conception
+ of numbers common at that time?
+
+ These fundamental questions are far from being naive, and trying for an answer is not
+
+ the aim of this paper. Therefore, rather than attempting for an interpretation, I provide
+
+ only a descriptive account. In Cardano's algebraic treatises, these coefficients are
+
+ always nonzero, positive numbers. Wherever we would write a negative coefficient, we
+
+ find that in Cardano's equations, it has been moved on the other side of the equality.5 In
+
+ the great majority of the examples, the coefficients are rational (even natural) numbers,
+
+ but in a small handful of cases, irrational numbers also appear (see, for instance,
+ Footnote 19).
+
+ Concerning cubic equations in particular, Cardano classified them according to the
+
+ following criteria. He took into account only those that cannot be solved in elementary
+
+ ways, that is, equations that cannot be solved by simply taking the third root and
+
+ that do not come down in degree by means of a substitution. Therefore, when it
+ comes to solving cubic equations, the families χ3 = ao, x3 = a\x, χ3 = aix2,
+ x3 = a2X2+a\x,x3+a2X2 = aix,andx3+aix = ajx2 are not considered. Moreover,
+ since Cardano considered equations with positive (real) solutions, the families of
+ equations x3 + a\x + ao = 0, x3 + ajx -F ao = 0, and x3 + a2X2 + a\x + ao = 0
+ do not appear in the classification either. In the end, Cardano had thirteen families of
+ cubic equations divided into:
+
+ - depressed equations lacking a second degree term:
+
+ x3 + a\x = ao or cubus et res aequales numéro,
+
+ χ3 = aix + ao or cubus aequalis rebus et numéro,
+
+ x3 + ao = ajx or cubus et numerus aequales rebus;
+
+ - equations lacking a first degree term:
+
+ χ3 = a2X2 + ao or cubus aequalis quadratis et numéro,
+
+ χ3 + a2X2 = ao or cubus et quadrati aequales numéro,
+
+ x3 + ao = a2X2 or cubus et numerus aequales quadratis;
+
+ 5 Sometimes, Cardano wrote an equation such as λ3 = α2*2 + αο in the form x2(x — 02) = ag. Despite
+ the fact that a minus sign appears, we observe that this does not mean that Cardano allowed negative
+
+ numbers in an equation since ag > 0 implies that χ — 02 > 0 (but it would have been so if he had written
+ λ3 - U2X2 = ag, which he never did).
+
+ Ô Springer
+
+This content downloaded from 203.78.15.150 on Mon, 18 May 2020 09:19:05 UTC
+All use subject to https://about.jstor.org/terms
+
+ The casus irreducibilis in Cardano's Ars Magna 261
+
+ - complete equations:
+
+ *3 + <22*2 + a\x = ao or cubus, quadrati et res aequales numéro,
+
+ *3 + <2j* = <22*2 + ao or cubus et res aequales quadratis et numéro,
+
+ *3 + <22*2 = αϊ* + αο or cubus et quadrati aequales rebus et numéro,
+
+ *3 = α2*2 + αϊ* + αο or cubus aequalis quadratis, rebus et numéro,
+
+ *3 + αο = α2*2 + αϊ* or cubus et numerus aequalis quadratis et rebus,
+
+ *3 + ai* + ao = a2*2 or cubus, res et numerus aequales quadratis,
+
+ x -F a2* + ao = ai* or cubus, quadrati et numerus aequales rebus.
+
+ This provides an effective way of arranging cubic equations in families so that it is
+
+ easier to speak about them. In the main, Cardano's classification conveys a combina
+
+ tory oriented, linguistic concern, rather than being governed by purely mathematical
+
+ requirements.6
+
+ 3 Cardano solves cubic equations in the Ars magna
+
+ The so-called Ars Magna appeared in 1545,7 where the most advanced results of
+ that time on equations were released. The importance of the Ars Magna can only be
+
+ understood by contrasting it with what came before: for the first time, all the scattered
+
+ procedures, techniques, and particular cases that had been discovered were replaced
+
+ by a highly systematic treatment of cubic equations, which also included proofs. This
+
+ does not mean, however, that the Ars Magna itself is a systematic treatise: even though
+
+ we can identify in the middle of the book (Chapters XI-XXIII) the consistent block
+
+ that delivers the famous solution methods for cubic equations, what comes before and
+
+ after is still a miscellany of rules. As such, the tricky contents of the Ars Magna also
+
+ moved away from the usual considerations of the algebra treatises of that time.
+
+ Every chapter in the middle block has the same structure. For each one of the
+
+ thirteen families of cubic equations, Cardano first provided a proof (demonstratio)
+ of its solution method,8 from which he subsequently deduced a rule (régula), that
+
+ 6 We remark that a classification in the same vein can already be found, for instance, in al-Khayyâm's
+
+ 7 The full title is Hieronymi Cardani, praestantissimi mathemarici, philosophi, ac medici, artis magnae sive
+
+ de regulis algebraicis, liber unus, qui et [sic] totius opens de arithmetica, quod opus perfectum inscripsit,
+ est in ordine decimus, see Cardano (1545). This first edition was published in Nuremberg in 1545 by
+ Iohannes Petreium. The second edition was published in Basel in 1570 by Oficina Henricpetrina and was
+
+ a joint volume together with the De Proportionibus and the De Régula Aliza. There is, moreover, a third
+
+ posthumous edition in the Opera Omnia. The second edition contains some additions, while the third edition
+
+ is virtually the same as the second one. We also have the available manuscript Plimpton 510/1700: s.a.,
+
+ which is entitled L'algebra, at the Columbia University Library in New York.
+
+ According to the title, the Ars Magna should have filled up the tenth volume of a certain Opus Arithmeticae
+
+ Perfectum, which was never realized. This should have been an encyclopedic work on mathematics com
+ posed of fourteen books and was probably conceived between the 1530s and the 1560s. For an extensive
+
+ explanation of this reference, see Gavagna (2010, p. 65) and Cardano (2004, pp. 64-66).
+
+ 8 Whether, and if so to what extent, these proofs contain geometrical arguments is up to discussion.
+
+ fi Springer
+
+This content downloaded from 203.78.15.150 on Mon, 18 May 2020 09:19:05 UTC
+All use subject to https://about.jstor.org/terms
+
+ 262 S. Confalonieri
+
+ is to say, a step-by-step description of the operations that one has to perform on the
+
+ coefficients of the equation under consideration in order to get a solution. This is a
+
+ numerical value that substituted in the equation returns a true equality. In three cases
+
+ (namely, in Chapters XI, XII, and XIV), the rule is in fact a formula that allows one
+
+ to write a solution by combining the coefficients of the equations directly through the
+
+ usual algebraic operations. In the other cases, the rules involve some substitutions for
+
+ transforming the equation at issue into another one, the solution method of which has
+
+ already been explained. After that, we sometimes find an additional and/or alternative
+
+ proof and always some numerical examples.
+
+ 3.1 The two pristine solution methods and the casus irreducibilis
+
+ In Chapters, XI and XII Cardano dealt, respectively, with the pristine family of equa
+ tions x3 + a\x = ao and χ3 = a\x + αο· Indeed, as we will see in Sect. 4, the solution
+
+ methods for all the families of cubic equations can be reduced to one of these two.
+
+ Many accounts have been given in the secondary literature,9 and for our purpose, it
+
+ is enough to sketch the overall structure of the arguments. In these chapters, Cardano
+
+ argued in a completely analogous, though independent way. First, as he always did,
+
+ he translated the algebraic setting into a geometrical environment, where I use 'geo
+
+ metrical' merely to mean that Cardano spoke about points, segments, surfaces, and
+
+ solids.10 The tricky parts of the proofs in these chapters follow from the key idea,
+ which is to write, respectively, χ = y -ζ and χ = y + z and to take, respectively, the
+
+ systems
+
+ and
+
+ 3 3
+
+ ao = y — z
+
+ f = yz
+
+ ao = y3 + z3
+
+ f = yz.
+
+ where the coefficients of the two equations are associated to some functions of y and
+
+ z. Then, Cardano used the development of the cube of a binomial and the properties of
+
+ the operations on the measures of segments to show that such χ s are solutions of the
+
+ equations. Indeed, speaking about geometrical objects, he performed the actions that
+
+ 9 These solution methods are indeed the most taken into account in the secondary literature: see, among
+
+ others, Cantor (1892), Bortolotti (1926), Boyer (1991), Bashmakova and Smirnova (2000) and Maracchia
+ (2005). For a detailed account of these two solution methods as well as all the others, see also Confalonieri
+ (2013, pp. 103-151).
+
+ 10 In other words, I employ the term 'geometrical' only on a superficial linguistic level, and I do not
+
+ associate to it a precise interpretation of what geometry was for Cardano. Note in particular that the fact
+
+ that Cardano spoke about points and other such objects does not necessarily mean that he also employed
+
+ the positional properties of these objects. Concerning the general relation between geometry and positional
+ arguments, see Panza (2007).
+
+ Springer
+
+This content downloaded from 203.78.15.150 on Mon, 18 May 2020 09:19:05 UTC
+All use subject to https://about.jstor.org/terms
+
+ The casus irreducibilis in Cardano's Ars Magna 263
+
+ are equivalent to replacing such assumed values of x, a\, and ao in the equations. These
+
+ proofs, like all the ones in the middle block of the Ars Magna, give no hint of how
+
+ Cardano got the key idea—in these two cases, to use the substitutions χ = y ± ζ and
+
+ the above systems.11 We, moreover, remark that once one has made the substitutions
+
+ and has the systems, one also has at hand the rules, which—as has been said—are
+
+ descriptions of the cubic formulae in algorithmic terms. Indeed, the formulae are
+
+ obtained by solving the systems depending on y3, z3 (which is possible since solving
+
+ these systems is equivalent to solve two quadratic equations), taking the (real) cubic
+
+ roots of their solutions, and exploiting their internal symmetries to reduce the number
+ of solutions.
+
+ There is nevertheless a very remarkable difference between the solution methods for
+
+ the families of equations x3 + a\x = ao and χ3 = αχχ+αο: in the first case, the cubic
+
+ formula never contains square roots of negative numbers, whereas this can happen in
+
+ the second case. To verify this, it is enough to have a look at the two formulae
+
+ (t)2 + (t)3
+
+ ao
+
+ 2
+
+ 11 Historically speaking, it seems very likely that the idea came straight from Tartaglia's poem (up to a
+
+ change of variables). Indeed, its first two verses describe the substitutions and the systems:
+
+ When the cube with the things next to it
+
+ is made equal to some other discrete number
+ find two others the difference of which [is] this.
+
+ Hereafter, you will consider this customarily
+
+ that their product always will be exactly equal
+
+ to the third of the cube of the things.
+
+ Its general remainder then
+
+ of their cube sides appropriately subtracted
+
+ will be the value of your principal unknown.
+
+ In the second of these acts
+
+ when the cube remains alone,
+
+ you will observe these other arrangements,
+
+ you will immediately make of the number two such parts
+
+ that the one times the other will produce straightforward
+
+ the third of the cube of the things
+
+ of which then by common precept
+
+ you will take the cube sides joined together
+
+ and this sum will be your concept.
+
+ (Quando che Ί cubo con le cose appresso\se agguaglia à qualche numéro discreto\lrovan dui altri différend
+ in esso.\Da poi terrai questo per consueto\che Ί lor produtto sempre sia eguale\al terzo cubo delle cose
+
+ neto.\El residue poi suo generale\delli lor lad cubi ben sottratd\varra la tua cosa principale.Mn el secondo
+
+ de codesd atti\quandi che Ί cubo restasse lui solo\tu osservarai quest'altri contratti,\del numéro farai due
+
+ tal part'àl voloVhe I'una in l'altra si produca schietto\el terzo cubo delle cose in stolo\delle quai poi, per
+
+ comun precetto\torrai li lad cubi insieme giontbe tal somma sara il tuo concetto), see Tartaglia (1959,
+ Quesito ΧΧΧΙΠ, p. 119). Nevertheless, this only displaces the difficulty to finding out how Tartaglia (or
+ whoever else) got the key idea.
+
+ Φ Springer
+
+This content downloaded from 203.78.15.150 on Mon, 18 May 2020 09:19:05 UTC
+All use subject to https://about.jstor.org/terms
+
+ 264 S. Confalonieri
+
+ and
+
+ 3 <20 , /aoγ (a\\* 3 oo \lao\z
+
+ * V 2 V ( 2 / ( 3 ) Y 2 V ( 2 ) ( 3 ) '
+
+ respectively, for χ3 + ajx = αο and χ3 = αιχ + αο in Chapters XI and XII. Nowadays
+
+ we know, as an elementary consequence of Galois theory, that when a cubic equation
+
+ has three real distinct solutions, imaginary numbers necessarily appear in the cubic
+
+ formula. This means that—roughly speaking—in order to arrive at a simple solution,
+ one cannot avoid passing through a more complicated formula. Down the centuries,
+ this has been called the casus irreducibilisP Since Cardano did not allow square
+ roots of negative numbers,13 he had to count them out by imposing a condition on the
+
+ coefficients of x3 = a\x + clq. In 1545 Ars Magna, the condition is stated as follows:
+
+ when the cube of the third part of the number of the things exceeds the square
+
+ of the half of the number of the equality, which happens whenever the number
+
+ of the equality is less than | of this cube or when a number greater than the
+
+ number of the equality is produced from | the number of the things times the
+
+ root of j the same number, then this can be solved by the aliza question, which
+ is discussed in the book on the geometrical questions. But if you wish to avoid
+
+ such a difficulty, you may be satisfied for the most part by Chapter XXV of this
+
+ ([a]t ut cubis tertiae partis numeris re rum, excedat quadratum dimidij numeri,
+
+ aequationis, quod accedit quandocunque numerus aequationis est minor | cubi
+
+ 0 1
+
+ <£) Springer
+
+This content downloaded from 203.78.15.150 on Mon, 18 May 2020 09:19:05 UTC
+All use subject to https://about.jstor.org/terms
+
+ illius, vel ubi ex | numerum rerum, producitur in R j eiusdem numeri maior
+ numerus numéro aequationis, tunc hoc dissolvitur per quaestionem alizam, de
+
+ 12 We do not know exactly when this term came into use. The first occurrence of which I am aware is in
+
+ Lagny (1697). I thank David Rabouin for this reference.
+
+ 13 This also happened in the case of quadratic equations. Considering x2+ao = a\x in Chapter V, Cardano
+
+ asked for a condition on the coefficients (namely, (^)2 - ao > 0) so that negative numbers never appear
+ under square roots. More precisely, the condition is "[i]f that subtraction of the number from the square of
+
+ the half of the number of the things cannot be done, the question itself is false and what has been proposed
+
+ cannot be ("[q]uod si detractio ipsa numeri a quadrato dimidii numeri rerum fieri nequit, quœstio ipsa est
+ falsa, necesse potest quod proponitu)", see Cardano (1545, Chapter V, p. 1 lv).
+
+ Nevertheless, there is an isolated passage in the Ars Magna where Cardano tried to justify the square roots
+
+ of negative numbers. This is in Chapter XXXVII, while discussing "the rules for assuming a false (régula
+
+ falsum ponendi)" and in particular in the proof of Rule II (see Cardano 1545, p. 66r). This is about solving
+
+ a certain system equivalent to a quadratic equation with two complex, nonreal solutions. Cardano used the
+
+ quadratic formula to find their (correct) value (namely, "5 p: R m: 5 and 5 m: R m: 5", that is, 5 ± V-15),
+
+ and then provided a proof, which is in short a geometrical interpretation of the quadratic formula. There,
+
+ he had a try at linking the expression V-15 to a geometrical object, namely to the difference between a
+
+ surface and a segment (where the surface is called AD and measures 25 and the segment AB that measures
+
+ 10 is taken four times: "imaginaberis R m: 15, id est differentiae AD et quadrupli AB"). A few lines later,
+
+ Cardano commented that this is "sophisticated" since one cannot carry it out with the same operations with
+
+ a negative quantity ("quae vere est sophistica, quoniam per earn, non ut in puro m: nec in aliis, operationes
+ exercere licet"). In my opinion, this amounts to one of the earliest investigations of the square roots of
+
+ negative numbers. At the same time, it also shows how far Cardano was from being acquainted with these
+
+ kinds of numbers. It is in fact significant that this chapter comes long after the ones that deliver the solution
+
+ methods for quadratic and cubic equations and that it was a marginal comment.
+
+ The casus irreducibilis in Cardano's Ars Magna 265
+
+ qua in libro de quaestionibus geometricis dictum est, sed si libet tantam effugere
+
+ difficultatem, plerumque capitulum 25m huius tibi satisfaciet)}A
+
+ while in 1570, the last part of the quotation was modified into "then consult the book of
+
+ alizahere appended (tunc consules librumAlizae hie adjectum)", see Cardano (1570a,
+
+ Chapter ΧΠ, p. 62).
+
+ 3.2 The other solution methods
+
+ In Chapter XIII, Cardano dealt with the family of equations χ3+ao = a\x. Its solution
+
+ method, as it is expounded in the proof, consists in transforming the equation at issue
+
+ into y3 = aiy + ao through one of the substitutions15
+
+ ->(§)·
+
+ As before, no hint is given about how the substitutions were discovered, and in this
+
+ case, Tartaglia's poem only tells about a certain connection with y3 = a\y + ao,
+ without going any further. Cardano provided also an additional proof to show how,
+
+ given a (real) solution of the equation at issue, one can obtain a second solution (when
+ a real one exists).
+
+ All the remaining solution methods consist in giving a suitable substitution for
+
+ transforming the equation at issue either into one of the three discussed above or into an
+
+ equation that Cardano knew how to solve without using a cubic formula (namely, into
+
+ x3 = ao or x3 = aix). In Chapters XIV-XVI, Cardano dealt with the cubic equations
+
+ lacking in the first degree term and in Chapters XVII-ΧΧΠΙ with the complete ones.
+
+ Let us consider an example. Chapter XIV is about the family of equations jc3 =
+
+ a2X2 + ao- This chapter is quite short, and in this sense, it is illustrative of Cardano's
+
+ ways of proceeding: it starts with a brief remark, followed by a proof (which fills
+ up most of the chapter), then the rule derived from it, and then one example. The
+
+ structure of this chapter is simple because the family of equations jc3 = a2X2 + ao, as
+ was already the case with x3+a\x = ao, never falls into the casus irreducibilis, so that
+
+ Cardano neither needed to add a condition nor to provide many examples. The opening
+
+ remark points out that the equation at issue can be changed into16 y3 = a\y + oq. The
+
+ 14 See Cardano (1545, Chapter XII, p. 31 v). The condition means that Cardano took into account only the
+ case where
+
+ (?)»(?)■
+
+ which is equivalent (up to a constant) to ask for A3 > 0, see Footnote 2.
+
+ 15 From the modem viewpoint, these are not real changes of variable since the maps m«2 and «h»·^
+
+ are not bijections. This is sometimes the case in Cardano's substitutions. Anyway, if we consider that Cardano
+
+ favored positive numbers, his substitutions are invertible. Indeed, in the examples that he provided, he used
+ the substitutions in both directions, see for instance Footnote 19.
+
+ 16 Note that despite the fact that the equation in χ has always A3 > 0, this is not a priori the case
+ for the transformed equation in y. However, if we go and check the discriminant of the transformed
+
+ Springer
+
+This content downloaded from 203.78.15.150 on Mon, 18 May 2020 09:19:05 UTC
+All use subject to https://about.jstor.org/terms
+
+ 266 S. Confalonieri
+
+ Fig. 1 Diagram from the proof
+ Fig. 1 Diagram from the proof
+ in Ars Magna, Chapter XII (also
+ in Ars Magna, Chapter XII (also
+ referred to in Chapter XIV).
+ referred to in Chapter XIV).
+ Kind courtesy of Biblioteca
+ Kind courtesy of Biblioteca
+ Virtual del Patrimonio
+ Virtual del Patrimonio
+
+ Bibliogrâfico and Universidad
+ Bibliogrâfico and Universidad
+ de Sevilla
+ de Sevilla
+
+ B C
+ Β
+
+ proof is as follows. Cardano transformed the algebraic setting of the problem (that is,
+ to solve the abstract family of equations χ3 = a2X2 + ao) into a specified geometrical
+ environment (see Fig. 1), and considered the equation
+
+ He implicitly assumed that BC = | = 2 and wanted to show that the above equation
+ can be changed into
+
+ AC3 = 6AC2 + 100.
+
+ AB3 = 12 AB + 116
+
+ through the substitution AC = A Β + BC. By the square of a binomial, Cardano knew
+ that AC2 = AB2 + 2AB BC + BC2, and therefore, AC2 = AB2 + 4AB +4, which
+
+ in turn implies that
+
+ AC3 = 6 (AB2 + 4AZJ + 4) + 100.
+
+ On the other hand, by the cube of a binomial, Cardano got
+
+ AC3 = (AB + BC)3 = AB3 + 3AB2 BC + 3AB BC2 + BC3.
+
+ Finally, by comparison and developing the calculations, he obtained the desired
+ equation
+
+ AB3 = \2AB + 116.
+
+ At this point, since Cardano knew how to solve the transformed equation in AS by
+ Chapter XII, the relation AC = AB + BC yields the solution of the equation in AC.
+
+ footnotel6 continued
+
+ equation, we get
+
+ Springer
+
+ which is always positive since we took ap, <22 positive.
+
+ 43 = T + ^aoaï,
+
+This content downloaded from 203.78.15.150 on Mon, 18 May 2020 09:19:05 UTC
+All use subject to https://about.jstor.org/terms
+
+ The casus irreducibilis in Cardano's Ars Magna 267
+
+ We remark that if we take AC = χ and A Β = y, Cardano is in truth performing the
+
+ substitution χ = y + ^ in a geometrical fashion. The proof consists essentially in
+ showing that by replacing the assumed value of χ in the equation χ3 = α2χ2 + ao,
+
+ one gets the equation y3 = a\y + αο· Afterwards, Cardano summed up the proof in
+ the following rule:
+
+ Add the cube of the third part of the number of the squares to the half of the
+
+ number of the equality and multiply the whole that is made from there to the
+
+ square. Take away the cube of the square of the third part of the number of the
+
+ squares, add or decrease the root of the remainder to or from the aggregate that
+
+ you had multiplied by itself. You will have the binomium and the apotome. Join
+
+ their cubic roots and add to them the third part of the number of the squares,
+
+ and the whole that is composed is the value of the thing ([a]dde cubum tertiae
+
+ partis numeri quadratorum dimidio numeri aequationis, et totum quod indefit in
+
+ se ducito a quadrato. Abice cubum quadrati tertiae partis numeri quadratorum,
+
+ residui radicem adde et minuo dimidio aggregati quod in se duxeras, habebis
+
+ binomium et apotomen, cuius R cubicam iunge et eis adde tertiam partem numeri
+
+ quadratorum, et totum quod conflatur est rei aestimatio),17
+
+ which is the formula
+
+ /«2\3 , ao ///û2\3 , ao\ /α2\6 , a2
+ It) +2'i{\j) +j) "It/ +t
+
+ Indeed, if we consider the equation x3 = a2x2 + ao and apply to it the substitution
+
+ χ = y + we get the transformed equation y3 = ^y + {γ^α\ + ao). Then, using
+ the cubic formula in Chapter XII, we immediately have the above formula. We remark
+
+ that, since ao and a2 are always positive, the number under the square root is always
+ positive.
+
+ It can happen that after having performed the substitution in the equation at
+
+ issue, the sign of the coefficients) of the transformed equation is not a priori deter
+ mined. More precisely, in Chapters XV, XIX, XXI, and XXII, the sign of ao is
+ not determined, and therefore, Cardano needed to discuss some cases. In Chapters
+ XVII and XVIII, the signs of neither ao nor a\ are determined, so Cardano also
+
+ needed to discuss some subcases. In Chapter XV, we exceptionally find two sub
+
+ stitutions for χ2 + α2χ2 = ao: the first one (which is χ = y - ^) leads to sev
+ eral cases, while the second one (which is χ = y2 — α2) leads to a unique case. In
+
+ Chapter XVI, as for Chapter ΧΠΙ, an additional proof for obtaining a second solu
+
+ tion of the considered equations is provided (when a real solution exists), given
+
+ " See [Cardano (1545, Chapter XIV, p. 33v). The second 'dimidio' in "residui radicem adde et minuo
+
+ dimidio aggregati quod in se duxeras" is a typo (emended in none of the editions).
+
+ £) Springer
+
+This content downloaded from 203.78.15.150 on Mon, 18 May 2020 09:19:05 UTC
+All use subject to https://about.jstor.org/terms
+
+ Table 1 Substitutions in the solution methods for cubic equations in Ars Magna, Chapters XI-XXI1I
+
+ 268 S. Confalonieri
+
+ Chapter
+ Chapter
+
+ Equation
+ Equation
+
+ Substitution
+ Substitution
+
+ XI
+ XI
+
+ XII
+ XII
+
+ XIII
+ XIII
+
+ XIV
+ XIV
+
+ XV
+ XV
+
+ XVI
+ XVI
+
+ XVII
+ XVII
+
+ XVIII
+ XVIII
+
+ XIX
+ XIX
+
+ XX
+ XX
+
+ XXI
+ XXI
+
+ XXII
+ XXII
+
+ XXIII
+ XXIII
+
+ x3 + a\x = ao
+ χ3 + a\x = ao
+
+ x3 =a\x +ao
+ χ3 =a\x +ao
+
+ x3 +ao = a\x
+ x3 +ao = a\x
+
+ x3 = a2X2 + ao
+ x3 = a2X2 + ao
+
+ x3 + a2X2 = ao
+ χ3 + 02X2 = ao
+
+ x3 + ao = a2X2
+ x3 + ao = a2X2
+
+ x3 +02X2 +a\x =ao
+ χ3 +02X2 +a\x =ao
+
+ x3 + a\x =a2X2 + ao
+ x3 + a\x =a2X2 + ao
+
+ x3 +a2X2 = a\x +ao
+ x3 +a2X2 = a\x +ao
+
+ x3 = 02X2 + a\x + ao
+ χ3 = 02X2 + a\x + ao
+
+ * + ao = 02* + a\x
+ x + ao = a2* + a\x
+
+ x3 + a\x +ao =a2*2
+ χ3 + a\x +ao =a2*2
+
+ x3 +02*2 +ao = a\x
+ χ3 +02*2 +ao = a\x
+
+ * = |±v/ai-3(^)2
+ * = |±v/ai~3(^)2
+ * = y+f
+ x = y+ai
+
+ x = y - ^ and x = y2+ a2
+ χ = y - ^· and χ = y2+ 02
+
+ ot
+ to
+
+ Η
+ *  II
+ II
+
+ I*
+ vtl
+ x=y-f
+ x = y-f
+ * = y+"i
+ x = y+"i
+ x = y-°i
+ x = y-°i
+ V:  +
+ x = y+"i
+ <4S
+ * = y+aj
+ x = y+ai
+ x = y+ai
+ x = y+ai
+ x = y-ai
+ x = y-ai
+
+ w  II
+
+ a first one. In Chapter XVIII, Cardano quoted a second rule by Ferrari with its
+ proof. We finally notice that as for the families of equations a3 + a\x = ao and
+ x3 = a2X2 + ao, two cases in Chapters XVII and XVIII never fall into the casus
+ irreducibilis.
+
+ Substitutions were, therefore, a fundamental tool for dealing with cubic equations
+
+ for Cardano. In Table 1, the substitutions in the solution methods in Ars Magna,
+ Chapters XI-XXIII are summarized. We note that the two most elaborate ones are
+
+ χ = y ± ψ. At that time, a few scholars seemed to be aware of these substitu
+ tions that (always) make the term of second degree vanish.18 In general, Cardano
+ employed substitutions widely to deal with equations—this is one of the most fre
+
+ quently used tools in his algebraic treatises. In particular, in the Ars Magna, we find
+
+ two other remarkable substitutions (at least, as regards our aim in this paper, as we
+
+ will see in the next section): they are in Chapter VII, which is entirely devoted to
+
+ substitutions and allow us to pass from x3 + a\x — ao to y3 = a'7y2 + a'() and vice
+ versa.
+
+ 19
+
+ 18 See Franci (1985).
+
+ 19 See Cardano(1545,Chapter VII,Paragraphs 3-4 and 8-9,pp. 18r-18vand 19v-20r). More precisely, the
+
+ substitutions are χ = and χ = y2 + a0. As said, Cardano's substitutions can be considered invertible
+
+ as long as he only considers the positive roots while taking the 2n-th roots. We remark that the substitution
+
+ χ — y2 -f- @o is also in Chapter XV, but is applied to a different family of equations. Concerning the first
+
+ substitution, Cardano provided two examples: x3 + 18ν = 8, which is transformed into χ3 = 36x + 8 (but
+
+ Cardano wrongly wrote χ 3 = 9x2 + 8), and χ3 = 6x2 +16, which is transformed into x3 = v'SdSôx +16.
+
+ Ô Springer
+
+This content downloaded from 203.78.15.150 on Mon, 18 May 2020 09:19:05 UTC
+All use subject to https://about.jstor.org/terms
+
+ The casus irreducibilis in Cardano's Ars Magna 269
+
+ AM XV.2
+
+ XVII.3.iii
+
+ χ3 + αι£ = α0 x3 = a\x + a0 .
+ ar 4- d\x = Oo
+ AM XI AM XII AM H1
+ AM XI
+
+ AM XXII.2
+
+ AM XVIII.3.iii
+ AM XVIII.3.iii
+
+ AM XIX.3
+
+ AM XX
+ AM XX
+
+ AM XVIII.3.U
+
+ AM XIX.2
+ AM XIX.2
+
+ Fig. 2 Interconnections between the solution methods in Ars Magna, Chapters XI-XXIII
+
+ 4 Interconnections of the solution methods and consequences
+
+ for the casus irreducibilis
+
+ We are now ready to take the stock of the situation. Considering the thirteen solution
+
+ methods for cubic equations that Cardano presented in the Ars Magna, we notice that
+
+ they are all interconnected, as clearly turns out from the diagram in Fig. 2. There I write
+
+ 'AM (chapter ) ' to refer to the solution method for the family of equations considered in
+ Ars Magna, Chapter (chapter). When there are also some cases and subcases, I write,
+ respectively, 'AM (chapter).(case)' and 'AM (chapter).(case).(subcase)'. These are
+ numbered according to their order of appearance in Cardano's text. Note that I left
+ out the cases and subcases where no cubic formula is necessary. More precisely, these
+ are AM XVII. 1 and AM XVIII. 1, in which the families of equations being considered
+ are reduced to χ3 = αο, and AM XV.3, AM XVII.3.i, AM XVIII.3.i, AM XIX.l, AM
+ XXI. 1, AM XXII. 1, in which the families of equations being considered are reduced
+ to χ3 = a\x. I have not represented the second substitution in Chapter XV (that is,
+ χ — y1 — ai for x3 + aox2 = αο) either, which—as noted above—leads to a unique
+ case linked to AM XII.
+
+ In the diagram, I use two kinds of arrows. The solid ones mean that the connection
+
+ between the two solution methods in the chapters named at its extremities is directly
+ expounded in one of the solution methods themselves (more precisely, in the later
+ chapter). The dotted arrow means that the connection is described elsewhere (more
+ precisely, in Chapter VII). As we have seen, the connections are performed by means
+ of some substitutions. Though potentially, all of Cardano's substitutions can be used
+ in both directions,20 I put the head of the arrow in the same direction as Cardano
+ effectively used the substitution in the Ars Magna.
+
+ Let us take a closer look at the diagram. We observe that ultimately, all the solution
+
+ methods are brought back to the solution methods either of the family of equations
+
+ 20  See Footnote 15.
+
+ Ô Springer
+
+This content downloaded from 203.78.15.150 on Mon, 18 May 2020 09:19:05 UTC
+All use subject to https://about.jstor.org/terms
+
+ 270 S. Confalonieri
+
+ χ3 + a\x = ao in Chapter XI or of χ3 = a\x + ao in Chapter XII. This happens
+ directly for AM XIII, AM XIV, AM XV.2, AM XVII.3.ii, AM XVIII.3.ii, XIX.2, XX,
+
+ XXI.2, and XXII.2, and indirectly (that is, through AM XIII) for AM XV. 1, AM XVI,
+ AM XVII.3.iii, AM XVin.3.iii, AM XIX.3, AM XXI.3, AM XXII.3, and AM ΧΧΠΙ.
+ Moreover, an additional loose connection between AM XI and AM XII is established,
+
+ thanks to the substitutions in Chapter VII and in AM XIV. In this way, we can best
+
+ appreciate the extent of the difficulty set by the casus irreducibilis in the Ars Magna.
+
+ We recall that this difficulty is only mentioned once in AM XII where Cardano, in
+
+ order to avoid the square roots of negative numbers, needed to limit the validity of the
+
+ rule. As we can now clearly see, this has a huge impact on the whole construction.
+
+ The condition that Cardano set in AM XII not only undermines the generality of the
+
+ solution method for this family of equations, but also many others are a priori affected
+
+ by this major drawback. Indeed, in most cases, Cardano was able to reduce a cubic
+
+ equation to one of the family x3 = a\x + ao, but then it can happen that he was not
+
+ able to solve this last equation.
+
+ However, there are few exceptions on the left side of the diagram, namely AM XI,
+
+ AM XIV, AM XVII.2, and AM XVIII.2. We have already seen that the families of
+ equations dealt with in AM XI and AM XIV can never fall into the casus irreducibilis.
+
+ As a consequence, this also holds for the two cases in AM XVII and AM XVIII that
+
+ refer to the first of these. We further note the outstanding situation of AM XIV. Even if
+
+ Cardano also had available two substitutions in Ars Magna, Chapter VII that enable the
+ connection with AM XI, its solution method is reduced to the one in AM XII, which
+
+ is sometimes problematic.21 Unfortunately, I cannot explain why Cardano favored the
+
+ first link over the second, especially considering that he used one of the substitutions
+
+ in Chapter VII also in AM XV.
+
+ 5 Cardano's first attempt to put a patch in Ars Magna, Chapter XXV
+
+ It seems to be very likely that Cardano understood that it was possible systematically
+
+ to make vanish the square roots of negative numbers that appear while solving the
+ family of equations x3 — a\x + ao in Ars Magna, Chapter XII. Possibly, he was
+ aware of some cases in which one or more natural solutions of a cubic equation were
+
+ known independently from the solution method in the Ars Magna, but in applying this
+
+ solution method, square roots of negative numbers were returned. If we trust Tartaglia's
+
+ account,22 Cardano asked him (unsuccessfully) for a general rule for taking the cubic
+ root in cases such as V108 +TÔ = \/3 + 1 and vVl08 -IÔ = V3 - 1. We
+
+ remark that those cubic roots are exactly the ones that the solution method in Ars
+
+ Magna, Chapter XI returns for the equation x3 + 6x = 20 (which, by the way, is
+
+ mentioned in Chapter XI). It is, therefore, reasonable that Cardano might also have
+
+ thought that a similar calculation holds when, for instance, -108 instead of 108 is
+
+ under the square root.
+
+ 21 Nevertheless, see Footnote 16.
+
+ 22 See Tartaglia (1959, Libro IX, Quesito XL, pp. 125-126).
+
+ Springer
+
+This content downloaded from 203.78.15.150 on Mon, 18 May 2020 09:19:05 UTC
+All use subject to https://about.jstor.org/terms
+
+ The casus irreducibilis in Cardano's Ars Magna 271
+
+ Speculations aside, Cardano had a few attempts at actively finding a patch for the
+
+ difficulty entailed by the casus irreducibilis. As we have seen,23 Cardano explicitly
+
+ acknowledged it in the 1545 Ars Magna saying that, when an equation of the family
+ χ3 = a\x + ao falls into the casus irreducibilis, one should better refer to the "aliza
+
+ question (quaestio aliza)" or to Ars Magna, Chapter XXV. Afterwards, in 1570 and
+
+ 1663 editions, only the De Régula Aliza, which appeared for the first time in 1570 as
+
+ a published book together with the Ars Magna, is mentioned.
+
+ Concerning the reference to the Ars Magna, in Chapter XXV, Cardano set out
+
+ 18 propositions dealing with the families of incomplete cubic equations that can fall
+
+ into the casus irreducibilis (this is not explicitly stated, but almost all the numerical
+
+ examples provided are in this case). In the main, he provided some ways to rewrite
+
+ the equation at issue in the form of a system using two or more auxiliary quantities, in
+
+ the hope that it will then be easier to find a solution. The first eight propositions deal
+
+ with the family of equations x3 = a\x + ao. For instance,24 in the first proposition
+ Cardano stated that, if
+
+ a\ = f + g
+
+ ao = /Vs>
+
+ 0 = -χι - xi - x3
+
+ -a\ = *1*2 + *2*3 + *1*3
+
+ _-O0 = -*i*2*3,
+
+ αϊ = F + G2
+
+ —αο = FG
+
+ F = αϊ - G2
+
+ G3 — αϊ G — αο = 0,
+
+ 23 See above Sect. 3.1.
+
+ 24 For a detailed account, see Confalonieri (2013, pp. 84-99). There I guess one possible origin of all these
+ propositions. Let us limit to the first two propositions concerning the family of equations *3 = a\x + oq
+ since the line of reasoning for the other cases is analogous. If Cardano was aware of Vieta's formulae
+
+ he could have rewritten them as
+
+ with G — χ ι and F = *1*2 + x\. Solving the above system is equivalent to solve
+
+ which in turn is equivalent to solve the equation *3 = αϊ* + oq. The solutions are *1 = G, together with
+
+ the solutions of *| + G*2 - F = 0. In the end, we get
+
+ G G2 G G2
+
+ Springer
+
+This content downloaded from 203.78.15.150 on Mon, 18 May 2020 09:19:05 UTC
+All use subject to https://about.jstor.org/terms
+
+ *l=G, *2 = -j+y—+ F, and *3 = ---^_ + F.
+
+ We remark that if we take F = / and G = -Jg (of course, from a modem viewpoint, these are not
+ invertible substitutions, see Footnote 15), we obtain the system and the solution in the first proposition
+
+ (where only *2 is considered since the other two solutions are always negative), and if we take F = —f and
+
+ G = g, we obtain the system and the solution in the second proposition (where only *1, which is always
+ positive, is considered).
+
+ then a solution is χ = ^f + § + ^. In the second proposition he stated that if
+
+ 272 S. Confalonieri
+
+ g = VôT+T
+
+ αο = fg.
+
+ then a solution is χ = v^l + /■ An earlier version of some of these propositions
+
+ can be also found in Ars Magna Arithmeticae, Chapters XXXI, XXXIII, XXXV, and
+ XXXVII.25
+
+ Even if in some cases, this strategy eventually enables one to avoid the use of the
+ cubic formulae, for instance for some well-chosen coefficients, this does not settle
+
+ the difficulty at all. Indeed, being systematically able to solve these systems is as
+
+ difficult as solving the cubic equations at issue, so that in the end, this cannot help
+
+ in finding a theoretical solution to the difficulty entailed by the casus irreducibilis.
+
+ However, even if the above-mentioned propositions are no step toward finding a cubic
+
+ formula that works every time, they make explicit Cardano's willing to bypass the
+
+ casus irreducibilis, at least by trying to put on a first temporary patch. Indeed, these
+
+ systems can help the reader's intuition, in that they possibly provide a way of writing
+
+ of the equation that is friendly enough to make it more easy to guess a solution. Of
+
+ course, what 'enough' is still depends on the numerical coefficients of the equation,
+
+ which is the reason why this is not a systematic solution.
+
+ 6 Getting acquainted with the De Régula Aliza
+
+ According to what Cardano stated in the Ars Magna, a more effective patch to the
+ casus irreducibilis should have been contained in the De Régula Aliza.26 This is a
+
+ quite unfamiliar treatise the contents of which deserve to be better known.27
+
+ 25 See Confalonieri (2013, pp. 215-220).
+
+ 26 We have two editions of the De Régula Aliza available. The first one, printed in 1570 in Basel, is
+ entitled Hieronymi Cardani mediolanensis, civisque bononiensis, medici ac mathematici praeclarissimi, de
+ aliza régula, libellus, hoc est operi perfecti sui sive algebraicae logisticae, numéros recondita numerandi
+
+ subtilitate, secundum geometricas quantitate inquirendis, necessaria coronis, nunc demum in lucem editœ.
+ As said, it is coupled with the De Proportionibus and the second edition of the Ars Magna. The second
+ edition of the Aliza, the title of which is simply De régula aliza libellus, is in the fourth volume of the
+
+ 1663 edition of Cardano's Opera Omnia, edited by Charles Spon almost a century after Cardano's death.
+
+ A few miscalculations and typos are emended, and the punctuation is here and there improved, but as a
+
+ whole, this contains no major changes compared to the first edition. As far as I know [see the website www.
+
+ cardano.unimi.it (last checked February 14,2015] associated to the project of the edition of Cardano's works
+
+ supported by Consiglio Nazionale delle Ricerche in Italy and by the university of Milan), no manuscript of
+ the Aliza is available.
+
+ 27 Over the centuries, the Aliza had a handful of readers. Among the generations of scholars contemporary
+ to Cardano, Commandino (1572, Book X, Proposition 34, Theorem III, p. 149), Stevin (1585, Book II, p.
+ 309), and Thomas Harriot [see Schemmel and Stedall (last checked February 14, 2015], Add. Ms. 6783,
+
+ folio 121) studied few of its pages. It is also possible (though unlikely) that Rafael Bombelli got in touch
+
+ with this treatise. During the nineteenth century and until the beginning of the twentieth century, Hutton
+
+ (1812, pp. 219-224), Cantor (1892, pp. 532-537), and Loria (1950, pp. 298-299) reported on the Aliza from
+ an historical viewpoint. More recently, Tanner (1980), Maracchia (2005, pp. 227, 331-335), and Stedall
+ (2011, p. 10) discussed (parts of) this book.
+
+ Ô Springer
+
+This content downloaded from 203.78.15.150 on Mon, 18 May 2020 09:19:05 UTC
+All use subject to https://about.jstor.org/terms
+
+ The casus irreducibilis in Cardano's Ars Magna 273
+
+ The reader who gets acquainted with this book of Cardano's is initially disappointed:
+
+ This is such a cryptic work, starting with the title. Indeed, the term 'aliza' is neither
+ a common Latin word at that time nor was it one of the brand new mathematical
+
+ terms that were word-by-word translations from the vernacular. Moreover, this term
+
+ does not seem to belong to Cardano's own mathematical terminology. He does not
+
+ even care to explain this rare word: In the whole collection of Cardano's mathematical
+
+ writings, there are only three other occurrences,28 in addition to the title page of the
+
+ Aliza, and they all refer to the title of the book itself. A few scholars have tried for
+
+ an interpretation,29 but none of them provided a precise etymology. Very recently,
+
+ Paolo D'Alessandro has confirmed Cossali's hypothesis.30 Likely, the term 'aliza', or
+
+ 'aluza', is a misspelling based on the Byzantine pronunciation alidya' of the Greek
+
+ word 'άλυύεΐα', composed by the negative particle 'a' and by the feminine singular
+
+ passive aorist participle of the verb 'λύω', which means 'to unbind', 'to unfasten',
+ 'to loosen', 'to dissolve', 'to break up', 'to undo', 'to solve'. Thus, 'aliza' means
+ 'non-solvable'. We remark that this etymology soundly agrees with Cardano's words
+
+ in Ars Magna, Chapter XII (see above Sect. 3.1).
+
+ Footnote27 continued
+
+ As far as I know, the one scholar who studied the Aliza in detail is the Italian mathematician and historian of
+
+ mathematics Pietro Cossali (Verona 1748, Padua 1815). He was priest in Milan, professor at the university
+
+ of Padua, member of the Società Italiana delle Scienze, and pensionnaire of the Reale Istituto Italiano di
+
+ Scienze, Lettere e Arti. Mostly the Aliza, as well as the Ars Magna Arithmeticae, were handled on the same
+
+ footing as the Ars Magna in the second volume of his history of algebra (see Cossali 1799a) and in the
+ Storia del Caso Irriducibile (see Cossali 1966, which is the commented transcription by Romano Gatto of
+
+ the unpublished manuscript). Nevertheless, it must be said that for the most of the time, Cossali's accuracy
+
+ as historian is not up to modem standards: He was doing mathematics from a historical starting point rather
+ than history of mathematics. Indeed, Cossali was a mathematician, and this could partially explain his
+ attitude.
+
+ In 1781, the Academy of Padua announced a competition to prove either that the cubic formula could be
+
+ freed from imaginary numbers or the contrary, but in the end, the prize was never assigned. However, this
+ renewed mathematicians' interest in the casus irreducibilis. Cossali was absorbed by this topic [his very
+ first work in 1799 is devoted to it, and in 1813, he came back to the same issue, see Cossali (1799b) and
+
+ Cossali (1813)]. He also wanted to take part in the 1781 competition, but he could not finish his contribution
+ on time; he subsequently published it in 1782 (see Cossali 1782).
+
+ 28 In chronological order, we have already seen the first reference in Ars Magna, Chapter XII in Sect. 3.1.
+
+ Unfortunately, the other occurrences step outside the context of cubic equations. The second reference is in
+
+ the 1554 De subtilitate (and following editions), where Cardano dealt with the "reflexive ratio (proponio
+
+ reflexa)", see Cardano (1554, Book XVI, p. 428). The last reference is in the Sermo de plus et minus, which
+
+ contains a specific mention of the Aliza, Chapter XXII, see Cardano (1663a, p. 435). Thereafter the term is
+ mentioned nowhere else.
+
+ 29 In 1799 Pietro Cossali hinted that the term 'aliza' means '(insolvable' : "De Régula Aliza, cioè De régula
+ Irresolubili", see Cossali (1799a, volume II, p. 441) or Cossali (1966, Chapter I, Paragraph 2, p. 26). In
+
+ 1892 Moritz Cantor related that Armin Wittstein suggests that this term comes from a wrong transcription
+ of the Arabic word 'a'izzâ' and means 'difficult to do', 'laborious', 'arduous': "Titel De régula Aliza,
+ der durch unrichtige Transkription aus dem arabischen Worte a'izzâ (schwierig anzustellen, miihselig,
+
+ beschwerlich) entstanden sein kann [Diese Vermutung riihrt von H. Armin Wittstein her.], und alsdann Regel
+
+ der schwierigen Fdlle bedeuten wiirde", see Cantor (1892, p. 532). Finally in 1929, Gino Loria advanced as
+ a common opinion that the term comes from a certain Arabic word that means 'difficult': "il titolo, sinora
+ inesplicato De Régula Aliza (seconde alcuni aliza deriverebbe da una parola araba significante difficile)",
+
+ see Loria (1950, p. 298).
+
+ 30 By personal communication.
+
+ Springe:
+
+This content downloaded from 203.78.15.150 on Mon, 18 May 2020 09:19:05 UTC
+All use subject to https://about.jstor.org/terms
+
+ 274 S. Confalonieri
+
+ The Aliza is composed of 60 highly sketchy chapters. In the 1570 edition, it fills up
+
+ 111 folia. The chapters vary considerably in length, from half a folio up to six or seven
+
+ folia. They all have their own heading and sometimes display an inner organization.
+
+ At least one diagram is present in each chapter and sometimes also a table where the
+
+ calculation at issue is displayed. In the margins and in the text, we find a good number
+
+ of references, pointing in most cases at the Aliza itself or at the two other treatises,
+
+ the Ars Magna and the De Proportionibus, that appeared in the same joined edition.
+
+ There are also many references to Euclid's Elements,31 one reference to the Conies by
+
+ Apollonius, and one reference to the On the sphere and cylinder by Archimedes. Even
+
+ though Cardano claims that none of his works were rewritten less than three times,32
+
+ the Aliza seems not to have enjoyed this benefit. Probably, Cardano barely proofread
+
+ the text or proofread it very quickly. However, common the typos and mistakes in
+
+ calculations were at the time; the book is particularly full of them. In addition to this,
+
+ we must recall that Cardano did not write a simple Latin. Even more noteworthy, it
+
+ is quite hard to detect an inner structure in the treatise—it would be better to say
+
+ that there is no global structure at all. A topic is usually scattered throughout the
+
+ book, with repetitions and logical gaps, so that in the end, the reader feels highly
+ disoriented. Under these conditions, the Aliza is more pragmatically to be regarded
+
+ not as a unitary treatise but as a miscellany of mathematical writings, notes, remarks,
+
+ and observations. Its raison d'être, as the author himself said in the Ars Magna, is
+
+ to overcome the difficulty entailed by the casus irreducibilis. This is fundamental in
+
+ order to understand how Cardano may have considered the Aliza, that is, a treatise to
+
+ amend the Ars Magna.
+
+ Dating the Aliza miscellany, even if approximately, is a thorny task. We cannot trust
+
+ the (supposedly) chronological order in which the treatises are displayed in the fourth
+ volume of the 1663 Opera Omnia. It Aliza comes immediately after the Ars Magna
+
+ Arithmeticae, which in turn follows the Ars Magna, but these last two treatises are
+
+ listed in the wrong order (see Gavagna 2012).33 In Cardano's mathematical treatises,
+ the Aliza is first mentioned—as we have seen—in the 1545 Ars Magna (see above
+
+ Sect. 3.1). This means that Cardano had in mind a certain "aliza problem" around
+
+ 1545—which makes sense since he already had to came across the casus irreducibilis
+
+ developing the cubic formulae in the Ars Magna Arithmeticae and in the Ars Magna.
+ Some other hints can be found in Cardano's nonmathematical treatises and more
+
+ precisely in the 1544, 1550, 1557, 1562, and 1576 versions of his autobiography.
+
+ There Cardano recalled his personal life, but also his career and his writings. He set
+
+ down in particular the titles, sizes, incipit, contents, and the main topics of all of his
+
+ treatises. The Aliza as a published book is, of course, mentioned only once, in 1576.34
+
+ 31 It is very likely that the edition that Cardano had at hand was the one by Jacques Lefèvre d'Étaples printed
+
+ in Paris in 1516. Indeed, it was explicitly mentioned by Cardano in the short preface to the manuscript
+ Commentantι in Euclidis Elementa (see Gavagna 2003, p. 134). An accurate study to determine whether
+
+ Cardano followed Campano or rather Zamberti's interpretation is still lacking.
+
+ 32 "[NJullus liber minus quam ter scriptum est", see Cardano (1557, p. 78).
+
+ 33 See also Footnote 1.
+
+ 34 See Cardano (1663b, p. 40).
+
+ <£) Springer
+
+This content downloaded from 203.78.15.150 on Mon, 18 May 2020 09:19:05 UTC
+All use subject to https://about.jstor.org/terms
+
+ The casus irreducibilis in Cardano's Ars Magna 275
+
+ For our purposes, it is however interesting to consider, among the listed writings, the
+
+ Opus Arithmeticae Perfectum. This should have been an encyclopedic work on math
+
+ ematics, composed of fourteen books, and was probably conceived between the 1530s
+
+ and the 1560s, but it was never realized. Today, all we have is Cardano's description
+
+ in his autobiography. In 1544, he wrote that "the tenth [book of the Opus Arithmeticae
+
+ Perfectum] has written Ars magna on it [and] contains 67 chapters (decimus inscribitur
+
+ Ars magna, continet sexaginta septem capitula)",35 whereas Books XIII and XIV "are
+
+ dedicated to the arithmetical and geometrical questions (quaestionibus arithmeticis et
+
+ geometricis destinantur)" 36 The Aliza is not explicitly mentioned, but according to
+
+ the quotation from the 1545 Ars Magna where the "aliza question" is coupled with
+
+ a certain "book on geometrical questions", it should be associated to a certain geo
+
+ metrical problem in the last book of the Opus Arithmeticae Perfectum. In 1550, Book
+
+ X came to be devoted to "all the chapters on the quadratic [equations] with the aliza
+
+ rule (omnia capitula supra quadratum cum régula aliza)",31 Book XIV still concerned
+
+ geometry, but was restricted "to what pertain the measure of figures that are called
+
+ geometrical (ad mensuram figurarum pertinentia, quae geometrica vocantur)",38 and
+
+ any reference to the Ars Magna disappeared. From 1557 on, the Aliza is no longer
+
+ mentioned, so the 1544 state of affairs is restored.39 Finally, in 1576, Cardano said
+
+ that in 1568, he had joined the Aliza and the De Proportionibus to the Ars Magna and
+
+ sent them to the printers.40 Therefore, a certain "aliza" was first mentioned in 1545
+
+ (but we can reasonably stretch this time limit up to 1544) and sank into oblivion after
+ 1557.
+
+ We can conjecture that the miscellany of writings that compose the Aliza (or their
+ original core) was first conceived at worst between 1544 and 1545 around the casus
+
+ irreducibilis and a certain "geometrical question". From that moment on, the topic at
+
+ issue grew more and more in importance and attained its culmination around 1550,
+
+ when the Aliza replaced the Ars Magna in the plan of the Opus Arithmeticae Perfectum.
+
+ Twenty years later, the Aliza surfaced again and was published. It is still an open
+ question why Cardano decided to publish it. The changes in the editorial project of
+
+ the Opus Arithmeticae Perfectum could, therefore, attest to Cardano's hope of finding
+
+ 35 See Cardano (1544, p. 426). This quotation raises the incidental question of how to know what that "Ars
+
+ magna" was of which Cardano is speaking because all the editions that we have with that title have only
+ forty chapters. Tamborini (2003, pp. 178-179), Ian Maclean in Cardano (2004, p. 65), and Gavagna (2012)
+ discuss this incongruity, and I refer to them for an accurate discussion.
+
+ 36 See Cardano (1544, p. 426).
+
+ 37 See Cardano (1998, p. 9v).
+
+ 38 See Cardano (1998, p. 9v).
+
+ 39 Indeed, "[djecimus de regulis magnis, atque ideo ars magna vacatur: atque hie solus ex omnibus editus
+
+ est" and "[tjertiusdecimus quaestiones arithmeticas, ut quartusdecimus geometricas", see Cardano (1557,
+ pp. 37-38) and Cardano (1562, p. 16).
+
+ 40 "Depwportionibus, etaliza régula addidi anno MDLXVIIIadlibrum artis magnae etedidi", see Cardano
+ (1663b, p. 41).
+
+ This agrees with what Ercole Bottrigari (1531-1612) wrote in his Ια mascara overo dellafabbrica de teatri
+
+ e dello apparato delle scene tragisatirocomiche: "two or three years" before 1570, Bottrigari questioned
+ Cardano about the Aliza and Cardano, avoiding answering, dropped that the Aliza was going to be printed
+ in Germany. The reference can be found in Betti (2009, p. 163), and I thank Veronica Gavagna for it.
+
+ Ώ Springer
+
+This content downloaded from 203.78.15.150 on Mon, 18 May 2020 09:19:05 UTC
+All use subject to https://about.jstor.org/terms
+
+ 276 S. Confalonieri
+
+ some new results relating to the casus irreducibilis. The lapse of time during which
+
+ only th e Aliza appeared as a part of the Opus Arithmeticae Perfectum could in particular
+
+ correspond to the lapse of time during which Cardano believed that he would have
+
+ eventually manage to avoid the casus irreducibilis, namely to the few years from 1550
+
+ to (at the latest) 1557. However, when the Aliza was printed in 1570, its inner title
+
+ page recalled its origins as a question since it contains the term dibellus', which means
+
+ 'pamphlet', 'booklet', 'small book': not substantial enough at that time to replace the
+
+ Ars Magna. Moreover, in the light of the quotation in Sect. 3.1, we remark that the
+
+ Aliza likely arose around a certain delimited problem and then grew bigger and bigger
+
+ until it became a book in 1570. This could (at least partially) explain the lack of order
+
+ in its structure. It would be extremely useful to be able to provide a relative chronology
+
+ of the pieces that compose the miscellany. Unluckily, this can only be achieved locally
+ here and there.41
+
+ 7 The method of splittings in Aliza, Chapter I
+
+ Having set the context for this unfamiliar treatise, we are now ready to deal with the
+
+ one widespread thread in it. The Aliza being a miscellany, it is not surprising that
+
+ the techniques that it contains are not systematically organized. We rather see how
+
+ Cardano groped his way forward and find some attempts in different directions, such
+
+ as, for instance, a proof in a geometrical style of the existence of a solution for the
+
+ family of equations x3 = a\x + ao or an alternative sign rule for multiplication by
+
+ means of which Cardano had hoped (unsuccessfully) eventually to avoid imaginary
+
+ numbers in the formulae. The importance of the Aliza also lies in the fact that it shows
+ how Cardano was accustomed to deal with equations, which does not appear in his
+
+ other algebraic treatises.
+
+ The pattern to which Cardano accorded the most credit which is widespread in
+
+ the Aliza42 is what I call splittings. This term is a word-by-word translation from the
+ Italian 'spezzamenti' that Cossali devised (see Cossali 1799a; Cossali 1966). As we
+ have seen in Sect. 4, all the solution methods for cubic equations in the Ars Magna
+
+ are reduced to the solution methods either for the family of equations χ3 + a\x = ao
+
+ or for x3 = a\x + ao. This correspond to Cardano's description in the first lines of the
+
+ De Régula Aliza, where he argued as follows.
+
+ Since I have already demonstrated in the Ars Magna that all the chapters are
+
+ transformed, provided that the two principal [chapters] had been discovered [to
+
+ be] general and not by transformation, it is plain that having discovered another
+
+ general chapter in addition to the chapter of the cube and some things equal to
+
+ a number and [to the chapter] of the cube equal to some squares and a num
+
+ ber, which is deduced by transformation from the preceding [one], even if [the
+
+ other general chapter] was general; all the chapters either of three or of four
+
+ terms would not only be known in general, but also demonstrated, provided that
+
+ 41 For more details, see Confalonieri (2013, p. 235).
+
+ 42 This pattern is dealt with directly in Chapters I, II, VII, Χ, XVIII, XLV, XLVI, XLVIII, LUI, LX, and
+
+ indirectly in many others.
+
+ <£} Springer
+
+This content downloaded from 203.78.15.150 on Mon, 18 May 2020 09:19:05 UTC
+All use subject to https://about.jstor.org/terms
+
+ The casus irreducibilis in Cardano's Ars Magna 277
+
+ this very same [chapter] is discovered by a demonstration. (Cum iam in arte
+
+ magna demonstraverimus omnia capitula converti, modo duo principalia nec
+
+ iam ex conversione inventa generaliafuerint, manifestum est, invento alio capit
+
+ ulo generali, praeter capitula cubi et rerum œqualium numéro et cubi aequalis
+
+ quadratis et numéro, quod ex priore per conversionem deducitur, et si generate
+
+ sit, omnia capita seu ex tribus seu ex quatuor nominibus generaliter non solum
+
+ cognita esse, sed et demonstrata, modo hoc ipsum demonstratione inventum sit),
+
+ see Cardano (1570b, Chapter I, p. 1). This is the sole declaration of intent that can be
+
+ found in the entire Aliza, and significantly, Cardano put it in the very first paragraph
+
+ of the book. It is an issue, though, to understand its meaning clearly. I interpret the
+
+ term 'chapter' as generously as possible: Everything that concerns the solution of a
+
+ certain family of equations, even in a loose way, so that the statement of the equation
+
+ itself, the numerical examples, the corollaries, and a fortiori the solution method are
+
+ addressed by this term. In the quotation, an overall recurrent strategy to deal with the
+
+ casus irreducibilis is explained. Since all the solution methods are linked, one should
+
+ look for a family of equations the solution method of which is generally proved, that
+
+ is, it works for every numerical equation that belongs to that family. According to our
+
+ analysis of the Ars Magna, the "two principal chapters" mentioned in the quotation
+
+ are χ3 + a\x = ao and *3 = a\x + a0- Cardano specified that the family of equation
+
+ sought for should not be x3+a\x = ao or x3 = α2Χ2+ao (this last family being linked
+
+ to the first one by substitution, see the above Fig. 2). Indeed, we have seen that, even
+
+ if these two families of equations can never fall into the casus irreducibilis, still the
+
+ difficulty entailed by it can be displayed in other families, primarily in χ3 = a\x +αο·
+
+ This is why Cardano devoted the rest of Chapter I (and many other passages) to it.
+ Let us consider the family of equations χ3 = αιχ + ao and substitute χ = y + z.
+
+ Developing the calculations, we come to the equality
+
+ y3 + 3y2z + 3 yz2 + z3 = ai(y + z) + ao
+
+ This is what Cardano implicitly did in the paragraphs of Aliza, Chapter I that follow the
+
+ quotation. Afterwards, his strategy is to arrange the left hand side y3+3y2z+3y z2+z3
+
+ of the equality as the sum of two parts both of which are going to be matched either
+
+ to ai(y + z) or to ao on the right hand side. We remark that choosing one of the
+
+ two assignments; for instance, the one for ao completely determines the choice for
+
+ the other. Whenever possible (that is, when the polynomial assigned to ai (y + ζ) can
+
+ be divided by y + ζ without remainder), Cardano also matched this term directly to
+
+ the given coefficient αι. The name 'splitting' is appropriate since the left side of the
+
+ equality is split in two parts. At first, Cardano considered extensively the splittings in
+
+ the following seven propositions.
+
+ All "[T]he number is assigned to the cubes [...], and the things themselves are
+
+ equal to the six parallelepipeds that remain (numerus tribuatur cubis [...] et res ipsce
+
+ cequantur parallelipedis sex)", that is,
+
+ a0 = y3 + z3
+
+ aix = 3y2z + 3yz2.
+
+ <£) Springer
+
+This content downloaded from 203.78.15.150 on Mon, 18 May 2020 09:19:05 UTC
+All use subject to https://about.jstor.org/terms
+
+ A 12 "[A]ll the parallelepipeds are given to the number and the cubes to the things
+
+ (parallelipeda omnia dentur numéro et cubi rebus)", that is,
+
+ 278 S. Confalonieri
+
+ ao = 3 y2z + 3 yz2
+
+ a\x = y3 + z3.
+
+ A13 "[F]our parallelepipeds are given to the number, the remaining two with the
+
+ cubes to the things. But in these bodies, this is particular that the ratio of those bodies
+
+ is as [the ratio] of the squares of the parts simultaneously joined to twice the product
+
+ (quatuor parallelipeda numéro dantur, reliqua duo cum cubis rebus. Est autem hoc
+
+ inter corpora ilia prcecipuum, quod proportio ipsorum corporum est ut quadratorum
+
+ partium simul iunctorum ad ambo producta)", that is,43
+
+ A14 "[T]he number is given only to the two mutual parallelepipeds (numerus datur
+
+ duobus tantum parallelipedis mutuis)" that is44
+
+ aq = ly2z + 2 yz2
+
+ aix = y3 + y2z + yz2 + ζ3.
+
+ ao = y2z + yz2
+
+ a\x = y3 + 2 y2z + 2 yz2 + Z3.
+
+ A15 "[W]e give the number to one cube, the remaining seven bodies to the things
+
+ (damus numerum uni cubo, reliqua septem corpora rebus)", that is,45
+
+ ao = y3
+
+ , , , or
+
+ ao = z3
+
+ a\x = 3y ζ + 3yz2 + z3
+
+ aix = y3 + 3y2z + 3yz2.
+
+ 43 The first sentence in the description identifies three possible splittings, namely
+
+ ao = 2 γ2 ζ + 2 yz2
+
+ ao = y2z + 3 yz2
+
+ ao = 3y2z + yz2
+
+ a\x = y3 + y2z + yz2 + z3
+
+ at* = y3 +2y2z + Z3
+
+ a\x = y3 + 2yz2 + z3
+
+ The second sentence definitely points at the first splitting since only the following proportion holds
+
+ (y3 + y2z + yz2 + z3) : (2y2z + 2yz2) = y2 + z2 : 2yz.
+
+ 44 The numerical example that follows this description enables to clarify what a "connected" parallelepiped
+
+ (to a cube) is. More generally (using the same formalism as above), in the Aliza, a parallelepiped y2z is
+
+ "connected (coherens, proximum)" to the cube y3, a parallelepiped yz2 is "opposite (adversum, alternum,
+ altrinsecum, remotum)" to the cube y3, and the two parallelepipeds y2z and yz2 are "mutual (mutua)".
+
+ 45 We remark that as long as one do not put any further condition on y, z, they are a priori interchangeable
+
+ in Cardano's phrasing. For example, the expression 'one cube' addresses both y3 and z3, or 'one cube and
+ one opposite parallelepiped' addresses both y3 + yz2 and z3 + y2z. A few splittings, namely the ones
+ where the assignation for ao (and for αιχ) are symmetrical in y, z, are defined in a univocal way. This is
+ the case for instance in A 11—A 14. For the sake of clarity, I choose in the other cases to explicitly write
+
+ all the combinations of y, z.
+
+ <£) Springer
+
+This content downloaded from 203.78.15.150 on Mon, 18 May 2020 09:19:05 UTC
+All use subject to https://about.jstor.org/terms
+
+ The casus irreducibilis in Cardano's Ars Magna 279
+
+ Fig. 3 Diagram from De
+ Fig. 3 Diagram from De J
+ I
+ Régula Aliza, Chapter I. Kind C. » 1 ι m ®
+ Régula Aliza, Chapter I. Kind
+ courtesy of Biblioteca Virtual
+ courtesy of Biblioteca Virtual
+ del Patrimonio Bibliogrâfico and
+ del Patrimonio Bibliogrâfico and
+ Universidad de Sevilla
+ Universidad de Seville
+
+ f
+
+ <
+ <
+
+ A 16 "[W]e give the number to one cube and three parallelepipeds that are made by
+ the side of that cube times the square of the side of the other cube and the remaining
+
+ four bodies, that is, the cube with three parallelepipeds, to the things (demus numerum
+ uni cubo et tribus parallelipedis quœ fiunt ex latere cubi illius in quadrata lateris
+ alterius cubi et reliqua quatuor corpora, scilicet cubum cum tribus parallelipedis,
+ rebus)", that is,
+
+ a0 = + 3yr
+
+ r. ο or
+
+ ao = 3 y2z + z3
+
+ a\x = y3 + 3yz2.
+ a\x = 3 yAz + z
+
+ A 17 "[W]e give the number to the aggregate from the cube and two connected
+ parallelepipeds with the opposite [one] and the things to the remaining four bodies
+ (numerum damus aggregate ex cubo et duobus cohcerentibus parallelipedis cum uno
+ adverso et res reliquis quatuor corporibus)", that is,
+
+ ao - y3 + 2y2z + yz2
+
+ ao = y2z + 2 yz2 + z3
+
+ or
+
+ a\x = y2z + 2yz2 + z3
+
+ a\x = y3 + ly2z + yz2.
+
+ 7.1 The splitting in A I 1
+
+ Let us consider more in details the splittings in the proposition All. Referring to
+ Fig. 3, Cardano stated the following condition:
+
+ since the cubes of Α β and BC can never be smaller than one-fourth of the whole
+
+ cube AD, and indeed, this does not happen except when AC will be divided in
+ equal [parts] by B\ therefore, being the number smaller than one-fourth of the
+
+ whole cube AD, it will not be able to be equal to the cubes of AB, ΒC (quoniam
+ cubi ab et be nunque possunt esse minores quarta parte totius cubi ad, et hoc
+
+ etiam non contingit nisi cumfuerit ac divisa per œqualia in b. Cum igitur numerus
+ fuerit minor quadrante cubi totius ad, non poterit cequari cubis ab, be)
+
+ and added that "the chapter is not general in this part (capitulum hac in parte non
+ fuit generale)". Let us call AB — y and BC = z. The condition implies that, if
+
+ *£) Springer
+
+This content downloaded from 203.78.15.150 on Mon, 18 May 2020 09:19:05 UTC
+All use subject to https://about.jstor.org/terms
+
+ 280 S. Confalonieri
+
+ y + ζ — x (where * is a solution of χ3 = a\x + αο), since y3 + ζ3 > ^χ3, then it
+ must be
+
+ 1 3
+ αο > -Χ
+ Α
+
+ Cardano's justification is rather vague.46 First of all, we remark that by the formula
+
+ for the cube of a binomial, we can immediately derive a condition on a\x, given the
+
+ condition on αο. More precisely, the inequality y3 + ζ3 > ^x3 implies a condition
+
+ on the sign of the discriminant47 We, moreover, remark that the second line of the
+
+ splitting can be rewritten as αϊ = 3 y ζ and therefore, that the splitting itself is basically
+
+ the system from Ars Magna, Chapter XII (see above). Not surprisingly, it turns out that
+
+ if one knows the splitting in A 11, it should also be able to derive the cubic formula
+
+ for x3 = αϊ jc + αο since there are no major conceptual gaps to be filled: A calculation
+
+ that involves a quadratic equation is enough. Given the resemblances with the Ars
+
+ Magna, it seems extremely unlikely that Cardano was not aware of the link with the
+
+ already expounded solution method for the family of equations under consideration.
+
+ This splitting can be seen in truth as a reformulation of Cardano's solution method for
+
+ jc3 = a\x + αο in the Ars Magna. From this point of view, the condition αο > |x3
+ is nothing other than a translation of the condition (on the discriminant) that Cardano
+
+ added there in Chapter XII.
+
+ 46 In the margin, Cardano made reference to "the 9th [Proposition] of the second [Book] of Euclid" and
+
+ to "some dialectic rules ([p]er 9 secundi Elementorum et régula Dialec.)". Note that both 1570 and 1663
+ editions have 'régula'. Since the preposition 'per' takes the accusative case, we would have expected to
+ find either 'regulam' or 'régulas', which is not the case. Therefore, I have chosen to translate this term in
+
+ the plural to leave the interpretation as loose as possible. The mention of the 'dialectic rules' seems to be a
+
+ blurry reference to some classical logical rules. Cardano also wrote a Dialectica, printed in 1566 in Basel [in
+
+ the second volume of Cardano (1566)], which is a logic treatise where the rules are sometimes expounded
+
+ through mathematical examples. Since Elements 11.9 (both in Campano's and Zamberti's versions) implies
+
+ that y2 + ζ2 > jx2, we are searching for one or more rules that enable to pass from the inequality with
+ the squares to the inequality with the cubes, but I could find none in the Dialectica. It is nevertheless not
+
+ hard to derive it by hand.
+
+ Note, moreover, that in order to verify the inequality ag > |x3, we must assume both y and ζ are positive.
+ Indeed, let us suppose for a contradiction that y > 0 and ζ < 0, for example, y = 1 and ζ = -2. Then,
+ -7 < which contradicts y3 +z3 > ^x3.
+
+ 47 The condition yields to the following system
+
+ which in turn entails that
+
+ ao > \*3
+ a\ < !*2,
+
+ ι .2 > l ( l T3\
+ ί ο - ? U j
+
+ a\ < (fx2)3
+
+ that is Yja\ < ^χ6 < \a^. Then, - γjaj > 0, or Ay > 0.
+
+ Ô Springer
+
+This content downloaded from 203.78.15.150 on Mon, 18 May 2020 09:19:05 UTC
+All use subject to https://about.jstor.org/terms
+
+ The casus irreducibilis in Cardano's Ars Magna 281
+
+ Cossali maintained—very reasonably—that this splitting came directly from
+ Tartaglia's poem (see above Footnote 11) and that, once discovered it, Cardano looked
+
+ for other similar splittings.48
+
+ 7.2 The splittings in A12-A17
+
+ 3 3 1 3 1 3
+ «0 < ~.x > ao < zx'. ao < τ* ·
+ 4 2 4
+
+ We now consider the remaining splittings. Cardano also stated analogous conditions
+
+ for A12-A 14. Namely, with regard to ao, the conditions, respectively, are
+
+ These conditions delimit, for each splitting, a range of validity complementary to the
+
+ one for A11. Concerning in particular A12, Cardano himself remarked that "since
+
+ neither the first [All] nor the second [A 12] of these chapters can be general by itself,
+
+ nevertheless, both of them joined constitute a general chapter ([c]um ergo neutrum
+
+ istorum capitulorum possit esse generate per se, ambo tamen iuncta constituit49 capit
+
+ ulum generate)". In my interpretation, especially considering the link between All
+
+ and the solution method in Ars Magna, Chapter XII, Cardano was eventually looking
+
+ for a complementary solution method, that is, for a solution method, for the same
+
+ equation that holds when one cannot apply the one in Ars Magna, Chapter XII. The
+
+ privileged way to discover this new solution method is passing by another splitting.
+
+ Hopefully, this could have also led to a complementary formula.
+
+ Let us now consider A I 5, AI 6, and A 17. Cardano gave no condition50 on the
+
+ splittings here, but he called the one in A15 "the worst of all (deterius omnibus)" and
+
+ the ones in A16 and A17 "misshaped (difformia)". These expressions are justified as
+
+ follows. With regard to A15, Cardano observed that "it falls back on a chapter of four
+
+ terms, thence from that to the principal [redit ad capitulum quatuor nominum, inde ex
+
+ eo ad primum]". Indeed, if we try to solve the system in y, z, we bump into a complete
+
+ equation that falls into the casus irreducibilis. Deleting the second degree term thanks
+
+ to one of the substitutions that Cardano knew, we recover again an equation of the
+ family x3 = a\x + ao- With regard to A I 6 (and this also holds for A I 7), Cardano
+
+ remarked that "similar [similia]" aggregates, as the cube and three parallelepipeds like
+
+ in y3 + 3 y ζ2 and 3 y2 ζ + ζ3, are made equal to "dissimilar [dissimilia]" ones, as the
+
+ number ao and the things a\x. According to Cardano's reasoning, since none of the
+ splittings in A I 5-A I 7 is subject to a condition, if one could conceive a solution
+
+ method starting from one of them, this would be general and could replace the one in
+ All.
+
+ 48 "Giusta il metodo di Tartaglia questa equazione (y 3 + 3y2z + 3y z2 + Z3 - p(y + z) - q = 0) si spezza
+ nelle due y3 + z3 = q, 3y2z + 3y z2 = p(y + z). È egli di natura sua generate questo spezzamento? È
+ egli l'unico? E qui stendendo Cadano lo sguardo su le varie combinazioni de' termini, moltissimi gli si
+
+ presentarono alla mente i suppostipossibili afarsi", see Cossali (1966, Chapter I, Paragraph 3, pp. 27-28).
+
+ 49 The 1663 edition has "constituunt".
+
+ 50 Obviously it is not true that—strictly speaking—no condition on oq is entailed. Indeed, there is at least
+
+ the trivial condition ao < x3 given by the equation *3 = a\x + «ο itself. Therefore, we better account for
+ Cardano's "no condition" as "no non-trivial condition".
+
+ Ô Springe
+
+This content downloaded from 203.78.15.150 on Mon, 18 May 2020 09:19:05 UTC
+All use subject to https://about.jstor.org/terms
+
+ 282 S. Confalonieri
+
+ Unfortunately, the difficulty with the splittings in A 1 2-A I 7 (and actually with
+
+ any other splitting) is exactly that one cannot conceive a solution method for the
+
+ considered equation starting from them. Indeed, they all lead to equations (namely, to
+
+ the equations in one unknown associated to the systems in the splittings) that are never
+
+ of a lower degree than three.51 Therefore, they cannot be used to derive a solution for
+
+ the family of equations χ3 = a\x + ao, as was instead the case for All.
+
+ 7.3 The other splittings
+
+ In the first seven splittings, which Cardano addressed as the "easiest (faciliora)", he
+
+ was possibly trying to derive, albeit unsuccessfully, either a solution method comple
+
+ mentary to A11 or an alternative one. It is natural then to wonder on the basis of what
+
+ criteria did Cardano choose to describe in details the splittings A12-A 17.
+
+ According to Cardano's requirements (that is, always considering positive coeffi
+
+ cients and writing no equality with zero), there are 62 possible splittings. To count
+
+ them all, we recall that splitting y3 + 3y2z + 3yz3 + z3 in two parts and assigning one
+
+ to ao, completely determines the choice for the part assigned to a\x. We consider then
+
+ all the possible combinations of the eight terms in y3 + 3y2ζ + 3yz3 + ζ3. We have
+
+ two choices for each term y3, z3 (since we can have one or none of them) and four
+
+ choices for each term y2z, yz2 (since we can have three, two, one, or none of them
+
+ and we cannot distinguish them three by three). Moreover, we have to exclude the two
+
+ limit cases, where all the terms or no term are assigned to ao· The most effective way
+
+ to classify the combinations is on the basis of how many terms are associated to ao as
+
+ in Table 2. Note that the dotted line points to the y, z-symmetry axis. For the sake of
+
+ brevity, in Table 21 omit the terms assigned to α ι χ. We remark anyway that one can also
+
+ directly read them in the table. For instance, when one term of y3 + 3y2z + 3yz3 -I- z3
+
+ is associated to ao, seven terms remain for a\x, and they are exactly the ones listed
+
+ in the seven-term column for ao. In the same way, the two-term column is associated
+ to the six-term column, the three-term column is associated to the five-term column,
+ and the four-term column is associated with itself.
+
+ At the very end of Aliza, Chapter I Cardano briefly listed (some of) the remaining
+
+ splittings.
+
+ The remaining compositions are anomalous, as if we had given the number to
+
+ one parallelepiped, to three [parallelepipeds], to five [parallelepipeds], to two
+
+ [parallelepipeds] non-mutual, to four [parallelepipeds] two of which are non
+
+ mutual, or again to one cube and one parallelepiped, [to one cube and] to two
+
+ [parallelepipeds] or [to one cube and] to three [parallelepipeds] not of the same
+
+ kind. The others are useless, as if we had given the number to the aggregate from
+
+ both cubes and two or four parallelepipeds in whatever way ("[r]eliquce autem
+
+ compositiones aut52 sunt anomale, velut si daremus numerum uni parallelipedo,
+
+ 51 See Confalonieri (2013, pp. 254-255).
+
+ 52 Its correlative 'aut' has been omitted and was—in my understanding—originally referred to "inutiles"
+
+ in the next sentence. Moreover, it was common at that time to mix up 'vel' and 'aut' especially in listing,
+
+ which should have happened in the two lists referred to the anomalous and useless splittings.
+
+ Springer
+
+This content downloaded from 203.78.15.150 on Mon, 18 May 2020 09:19:05 UTC
+All use subject to https://about.jstor.org/terms
+
+ The casus irreducibilis in Cardano's Ars Magna 283
+
+ Table 2 The sixty-two possible splittings in Aliza, Chapter I classified according to the number of terms
+
+ associated to oq
+
+ Number of terms associated to ao in the splittings
+ Number of terms associated to oq in the splittings
+
+ One-term
+ One-term
+
+ Two-term
+ Two-term
+
+ Three-term
+ Three-term  Four-term
+
+ Four-term
+
+ y3+z3 (All)
+ y3+z3 (All)
+
+ y2z + yz2 (A 14)
+ y2z + yz2 (A 14)
+
+ y3 + y2z + yz2 + z3
+ y3 + y2z + yz2 + z3
+
+ 2y2 + 2yz2 (A 13)
+ 2y2 + 2yz2 (A 13)
+
+ y3 + y2z + yz2
+ y3 + y2z + yz2
+
+ y3+2y2z + yz2(AI7)
+ y3 + 2y2z + yz2 (A I'
+
+ y3 (A 15)
+ y3 (A 15)
+ A
+ Λ
+
+ y<2
+
+ z3 (A 15)
+ ζ3 (A 15)
+
+ y3 + yz2
+ y3 + yz2
+
+ y3 + y2z
+ y3 + y2z
+
+ 1y2z
+ 1y2z
+
+ 2yz2
+ 2yz2
+
+ y2z + z3
+ y2z + z3
+
+ yz2 + z3
+ yz2 + z3
+
+ y3 + y2z + z3
+ y3 + y2z + z3
+
+ y3 + 2y2z + z3
+ y3 + 2y2z + z3
+
+ y3 + 2 y2z
+ y3 + 2 y2z
+
+ y3 + 2yz2
+ y3 + 2 yz2
+
+ y3 + 3y2z
+ y3 + 3y2z
+
+ y3 + y2z + 2yz2
+ y3 + y2z + 2yz2
+
+ y2z + 2yz2
+ y2z + 2yz2
+
+ y3 + 3yz2 (A 16)
+ y3 + 3yz2 (A 16)
+
+ 3y2z
+ 3 y2z
+
+ 3yz2
+ 3 yz2
+
+ y2z + 3yz2
+ y2z + 3yz2
+
+ 3y2z + yz2
+ 3y2z + yz2
+
+ 2y2z + yz2
+ 2 y2z + yz2
+
+ 3y2z + z3(AI6)
+ 3y2z + z3(AI6)
+
+ 2y2z + z3
+ 2y2z + z3
+
+ 2 yz2 + z3
+ 2 yz2 + z3
+
+ 2y2z + yz2 + z3
+ 2y2z + yz2 + z3
+
+ 3yz2 + z3
+ 3yz2 + z3
+
+ y3 + yz2 + z3
+ y3 + yz2 + z3
+
+ y3+2yz2+z3
+ y3+2yz2+z3
+
+ y2z + yz2 + z3
+ y2z + yz2 + z3
+
+ y2z + 2yz2 +z'(AIl
+ y2z + 2yz2+z3(AI7)
+
+ Number of terms associated to ao in the splittings
+ Number of terms associated to oq in the splittings
+
+ Five-term
+ Five-term
+
+ Six-term
+ Six-term
+
+ Seven-term
+ Seven-term
+
+ y3 + 2 y2z + 2 yz2 + z3
+ y3 + 2 y2z + 2 yz2 + z3
+
+ 3y2z + 3yz2 (A 12)
+ 3y2z + 3yz2 (A 12)
+
+ y2 + 3y2z + z3
+ y2 + 3y2z + z3
+
+ y3 + y2z + 2 yz1 + z3
+ y3 + y2z + 2 yz1 + z3
+
+ y3 + y2z + 3 yz2
+ y3 + y2z + 3 yz2
+
+ y3 + 3 y2z + yz2
+ y3 + 3 y2z + yz2
+
+ y3 + 3y2z + yz2 + z3
+ y3 + 3 y2z + yz2 + z3
+
+ 3y2z + 2 yz2
+ 3y2z + 2 yz2
+
+ y3 + 2 y2z + 3yz2
+ y3 + 2 y2z + 3 yz2
+
+ y3 + 3y2z + 2yz2  + z3
+ y3 + 3y2z + 2 yz2  + z3
+
+ yi + 2 y2z + 2 yz2
+ yi + 2 y2z + 2 yz2
+
+ y3 + 3y2z + 2yz2
+ y3 + 3 y2z + 2 yz2
+
+ 2y2z + 2 yz2 + z3
+ 2y2z + 2 yz2 + z3
+
+ 2y2z + 3yz2 + z3
+ 2 y2z + 3 yz2 + z3
+
+ y3 + 3y2z + 3yz2
+ y3 + 3y2z + 3yz2
+
+ 3 y2z + 3yz2 + z3
+ 3 y2z + 3yz2 + z3
+
+ 2 y2z + 3 yz2
+ 2 y2z + 3 yz2
+
+ 3y2z + 2yz2+z3
+ 3y2z + 2yz2 + z3
+
+ y3 + 2y2z + 2 yz2  + z3
+ y3 + 2y2z + 2 yz2  + z3
+
+ y2z + 3yz2 + z3
+ y2z + 3 yz2 + z3
+
+ y3 + y2z + 3yz2 + z3
+ y3 + y2z + 3yz2 + z3
+
+ 3 y2z + yz2 + z3
+ 3 y2z + yz2 + z3
+
+ y3 + 2 y2z + yz2 + z3
+ y3 + 2 y2z + yz2 + z3
+
+ y3 + 3 yz2 + z3
+ y3 + 3 yz2 + z3
+
+ vel tribus vel quinque vel duobus non mutuis, aut quatuor ex quibus duo mutua
+
+ non essent, aut uni cubo et uni parallelipedo, vel duobus vel tribus non eiusdem
+
+ generis. Alice sunt inutiles, velut si daremus numerum aggregato ex ambobus
+ cubis et duobus parallelipedis aut quatuor quomodocumque),
+
+ Springer
+
+This content downloaded from 203.78.15.150 on Mon, 18 May 2020 09:19:05 UTC
+All use subject to https://about.jstor.org/terms
+
+ 284 S. Confalonieri
+
+ see Cardano (1570b, Chapter I, p. 4). Among the "anomalous" splittings Cardano
+
+ mentioned, in this order, the splittings determined by the following assignations:
+
+ ao = y2z, ao = yz2,
+
+ a0 = 3 y2z, a0 = 3 yz2,
+
+ ao = y2z + 2 yz2, a0 = 2 y2z + yz2,
+
+ ao = 3y2z + 2yz2, ao = 2y2z + 3yz2,
+
+ ao = 2 y2z, ao = 2 yz2
+
+ ao = y2z + 3yz2, a0 = 3y2z + yz2,
+
+ ao = y3 + y2z, ao = yz2 + z3,
+
+ ao = y3 + yz2, a0 = y2z + z3
+
+ ao = y3 + y2z +yz2, ao = y2z + yz2 + z3,
+
+ ao = y3 + 2y2z, ao = 2yz2 + z3,
+
+ ao = y3 + 2 yz2, ao = 2 y2z + z3
+
+ ao = y3 + 2 y2z + yz2 (A 17), ao = y2z + 2 yz2 + ζ3 (A 17),
+
+ ao = y3 + y2z+ 2yz2, ao = 2y2z + yz2 + z3·
+
+ Note that I interpret "four [parallelepipeds] two of which are non-mutual" in the
+
+ previous quotation as pointing only to the splittings determined by ao = y2z + 3yz2
+ and ao = 3y2z + yz2, but not to the one in A13 determined by ao = 2y2z + 2yz2.
+ Indeed, taking into account four parallelepipeds, the expression 'two of which are non
+
+ mutual' is superfluous since Cardano had only six parallelepipeds available that are
+ three by three of the same kind. In my interpretation, Cardano added this expression
+
+ to distinguish these splittings from the one in A13. Moreover, in "[as if we had given
+
+ the number to one cube and] to two [parallelepipeds] or [to one cube and] to three
+
+ [parallelepipeds] not of the same kind" I loosely interpret "not of the same kind" to
+ refer only to "three [parallelepipeds]" but not to "two [parallelepipeds]". We finally
+
+ remark that, since the splittings in A I 7 also appear above, the labels 'misshaped'
+
+ and 'anomalous' are not exclusive. According to Cardano's description, the splittings
+ determined by the assignations ao = y3 + y2z + 2yz2 and ao = 2y2z + yz2 +
+ z3 are also misshaped. We have no hint as to why Cardano called these splittings
+
+ 'anomalous'. I would tend toward a literal interpretation of 'anomalus' as 'without
+
+ name', meaning that it was not worthwhile giving a name to those splittings. Of course,
+
+ this interpretation leaves open the question of why Cardano decided not to give a name
+
+ to these splittings.
+
+ Among the "useless" splittings Cardano mentioned, in this order, the splittings
+
+ determined by the following assignations:
+
+ ao = y3 + y2z + yz2 + z3,
+
+ ao = y3 + 2y2z + z3, ao = y3 + 2yz2 + z3,
+
+ â Springer
+
+This content downloaded from 203.78.15.150 on Mon, 18 May 2020 09:19:05 UTC
+All use subject to https://about.jstor.org/terms
+
+ The casus irreducibilis in Cardano's Ars Magna 285
+
+ ao = y3 + 3y2z + yz2 + ζ3, ao = y3 + y2z + ïyz2 + ζ3,
+
+ ao = y3 + ly2z + 2 y ζ2 + ζ3.
+
+ In the last sentence of Aliza, Chapter I, Cardano added a crucial observation. With
+
+ regard to the useless splittings, he argued that
+
+ if it [the number ao] is not enough for the aggregate of the cubes since the
+
+ number is small, in what way is it enough for the same if the parallelepipeds
+
+ are added? (nam si numerus cum parvus sit, non sufficit aggregato cuborum,
+
+ quomodo sufficit eidem si addantur parallelipeda),
+
+ see Cardano (1570b, Chapter I, p. 4). This is a key sentence for making sense of the
+
+ splittings. In the Ars Magna (and in A11), Cardano assumed that ao = y3 + z3, and
+
+ as a consequence, he needed to put the condition on y3 + z3-or, more precisely, on
+
+ ao—in which he asked that this number be large. In the Aliza, Cardano was trying
+
+ to fix this difficulty. As we have argued, it is very reasonable that he was looking for
+
+ some splittings where the condition was not satisfied, that is, where the number ao is
+
+ small, hoping that they could lead to another solution method (either to complement
+
+ or to replace the one in A11). This is the reason why Cardano called the above four
+
+ splittings useless: there, the number ao is greater than in A11 since it is equal to the
+
+ two cubes y3 and z3 plus some other parallelepipeds (and we recall that ao = y3 + z3
+
+ was already too large). In the list of the useless splittings, Cardano did not include the
+
+ ones determined by the following assignments:
+
+ «ο = y3+ y2z + z3, ao = y3 + yz2 + z3,
+
+ do = y3 + y2z + 2 yz2 + z3, ao = y3 + 2 y2z + yz2 + z3,
+
+ ao = y3 + 3y2z + z3, a0 = y3 + 3yz2 + z3,
+
+ do = y3 + 3y2z + 2 yz2 + z3, ao = y3 + 2 y2z + 3 yz2 + z3.
+
+ Actually there is no doubt that they should have been included because there also the
+
+ number is made equal to the two cubes y3 and z3 plus some other parallelepipeds, that
+
+ is, positive quantities.
+
+ According to the above interpretation, in Aliza, Chapter I forty-eight splittings are
+
+ mentioned in all. In almost all the remaining ones, ao is matched with five, six, or seven
+
+ terms among which there is always one (and only one) cube. The splitting determined
+ by the assignation ao = y3 + 3y2z and its symmetrical ao = 3yz2 4- z3 are the
+
+ exception since ao is matched with relatively few terms. We remark that indeed there
+
+ is a striking correspondence between them and the splittings in A I 6: the first ones
+
+ involve one cube and its "connected" parallelepipeds while the ones in A16 involve
+
+ one cube and its "opposite" parallelepipeds (see Footnote 44). They seem, therefore,
+
+ to be similar in a way to the splittings in53 A16. In the end, twelve splittings remained
+ unmentioned:
+
+ 53
+
+ By the way, according to Cardano's description, these are all misshaped splittings.
+
+ £) Springer
+
+This content downloaded from 203.78.15.150 on Mon, 18 May 2020 09:19:05 UTC
+All use subject to https://about.jstor.org/terms
+
+ 286 S. Confalonieri
+
+ ao = y3 + y2z + 3yz2, ao = 3y2z +yz2 + z3,
+
+ ao = y3 + 3y2z + yz2, ao = y2z + 3yz2 + z3,
+
+ ao = y3 + 2 y2 ζ + 2yz2, ao = ly2z + 2yz2 + z3,
+
+ ao = y3 + 2y2z + 3yz2, ao = 3y2z + 2yz2+ z3,
+
+ ao = y3 + 3 y2z + 2 yz2, ao = 2y2z + 3 yz2 + z3
+
+ ao = y3 + 3 y2z + 3 yz2, ao = 3 y2z + 3yz2 + z3.
+
+ My hypothesis is that these are not mentioned because Cardano believed that they
+
+ were in an obvious way uninteresting. Obvious' could mean that, as in the case of
+
+ the useless splittings, ao is matched with a quantity that is too large compared to
+ y3 + ζ3. Indeed, assuming y ζ, we can immediately discard half of the above
+ splittings, namely the ones with z3, as the quantity assigned to ao is too large. But the
+
+ six splittings where y3 appears are also too large since we are interested in a (very)
+
+ small ao and we choose ζ arbitrarily large (for instance such that 3y2z + 3yz2 > z3).
+
+ If this interpretation holds, it also sheds a posteriori a new light on the splittings in
+
+ A12-A17. Indeed, in the whole Aliza, Chapter I, Cardano could have been adopting
+
+ the criterion of "a small ao". This is explicit in the case of the useless splittings.
+
+ Moreover, we have already argued that, in A I 2-A I 4, Cardano was looking for a
+
+ solution method the condition of validity of which is complementary to the ones in
+
+ All. There, he found that the quantities matched with ao were relatively small (this is
+
+ what is stated in the conditions). It seems, therefore, very likely that Cardano continued
+
+ listing splittings in which ao complies with the above criterion, and A15-A17 fits it.
+
+ At best, Cardano could hope to find, thanks to a fortunate splitting, a solution method to
+
+ replace the one in A11, and this would have been the case if this hypothetical splitting
+
+ had no conditions; at worst, he could hope for a complementary solution method.
+
+ 8 Conclusions
+
+ In the Ars Magna, Cardano provided a highly systematic procedure for solving cubic
+
+ equations, but he did not succeed in strongly grounding the whole construction. The
+
+ overview that we have given of the connections between all the solution methods
+ lets us take the stock of the situation. First of all, we notice that the substitutions are
+
+ a privileged method for Cardano to deal with equations. Unfortunately, they do not
+
+ have a heuristic value, so that it is extremely difficult to say which kind of reasoning
+
+ they come from. The overview that we have given makes clear how the difficulty
+
+ entailed by the casus irreducibilis, which in Cardano's text seems to concern only
+
+ one family of equations, is in truth inherited by most of the families. As such, this
+ becomes a fundamental issue and must be overcome, if one wants to have general
+ solution methods.
+
+ Cardano planned to deal with this difficulty in two ways. On the one hand, in the
+
+ Ars Magna itself, he gave a handful of propositions for putting a temporary patch
+
+ in some particular cases. This is, however, no step toward finding a general solution
+
+ theoretically.
+
+ ^ Springer
+
+This content downloaded from 203.78.15.150 on Mon, 18 May 2020 09:19:05 UTC
+All use subject to https://about.jstor.org/terms
+
+ The casus irreducibilis in Cardano's Ars Magna 287
+
+ On the other hand, the De Régula Aliza is referred to as the treatise that should
+
+ have permanently corrected the problem. Due to its many inconsistencies, this is
+
+ a quite unfamiliar treatise. It comes from a project that gradually grew bigger and
+
+ bigger and likely attained its summit around 1550. Nevertheless the treatise was not
+
+ printed until 1570, by which time probably Cardano no longer hoped to overcome the
+
+ difficulty entailed by the casus irreducibilis. A peculiar topic in the Aliza is the so
+
+ called splittings for the family of equations χ3 = a\x + oq. These seem to be the way
+
+ that Cardano trusted most, and they are present all through the treatise. The idea is to
+
+ use the substitution χ = y+z in the family of equations at issue and to split the equality
+
+ thus obtained by different assignments of its terms to the given coefficients. It is likely
+
+ that Cardano was exploring all the possible assignments to oq. He first considered the
+
+ splitting that allows the cubic formula to be altered since it bears a condition on ao,
+
+ namely that ao must be large. Afterwards, Cardano displayed some splittings (with
+
+ or without conditions) where the number ao is small. Eventually he was hoping to
+
+ derive from one of these splittings another solution method for χ3 = αϊ* + αο· If the
+
+ splitting that possibly lead to the solution method had a condition, Cardano would have
+
+ obtained a technique that complemented the cubic formula since it would have been
+
+ valid where the cubic formula fails. If the splitting that possibly lead to the solution
+
+ method had no condition, Cardano would have obtained an alternative technique, and
+
+ if possible an alternative cubic formula. In both cases, the difficulty entailed by the
+ casus irreducibilis would have been solved.
+
+ Unluckily for him, this was impossible. Nowadays we know that when a cubic
+
+ equation has three real different solutions imaginary numbers cannot be avoided in
+ the formula. This also means that, in certain cases, Cardano could not have found a
+
+ way to express the solutions without square roots of negative numbers. Still, the Aliza
+
+ deserves to be better known inasmuch as it shows in what ways Cardano was used to
+
+ deal with equations. This is especially true when it was a matter of overcoming the
+
+ difficulty presented by the solution methods for cubic equations that he had found.
+
+ References
+
+ Bashmakova, I., and G. Smimova. 2000. The beginnings and evolution of algebra. Washington, DC: The
+
+ Mathematical Association of America.
+
+ Betti, G.L. 2009. Cardano a Bologna e la sua polemica con il Taitaglia nel ricordo di un contemporaneo.
+
+ Bruniana e campanelliana 15: 159-169.
+
+ Bortolotti, E. 1926.1 contributi del Tartaglia, del Cardano, del Ferrari e della scuola matematica bolognese
+
+ alla teoria algebrica delle equazioni cubiche. Studi e memorieper la storia dell'Università di Bologna
+ 10:55-108.
+
+ Boyer, C.B. 1991. A history of mathematics, 2nd ed. New York: Wiley.
+
+ Cantor, M. 1892. Vorlesungen ber die Geschichte der Mathematik, vol. 2. Leipzig: Teubner.
+ Cardano, G. 1544. De sapientia libri quinque. Eiusdem De consolatione libri très, alias aediti, sed nunc
+
+ ab eodem authore recogniti. Eiusdem De libris propriis, liber unus. Omnia locupleti indice decorata,
+
+ Johannes Petreius, Nuremberg, chap Libellus de libris propriis, cuius titulus est ephemeras, 419-431.
+
+ Cardano, G. 1545. Hieronymi Cardani, praestantissimi mathematici, philosophi, ac medici, Artis magnae
+
+ sive de regulis algebraicis, lib. unus. Qui et totius operis de arithmetica, quod Opus perfectum inscripsit,
+
+ est in ordine decimus. Iohannes Petrius, Nuremberg.
+
+ Cardano, G. 1554. Hieronymi Cardani mediolanensis medici De subtilitate libri XXI nunc demum recogniti
+
+ atque perfecti. Basel: Ludovicum Licium.
+
+ Springer
+
+This content downloaded from 203.78.15.150 on Mon, 18 May 2020 09:19:05 UTC
+All use subject to https://about.jstor.org/terms
+
+ 288 S. Confalonieri
+
+ Cardano, G. 1557. Liber De libris propriis, eorumque ordine et usu, ac de mirabilibus operibus in arte
+
+ medica per ipsumfactis. Lyon: Guillaume Rouill.
+
+ Cardano, G. 1562. Somniorum synestesiorum, omnis generis insomnia explicantes libri IIII. Quibus acce
+
+ dunt eiusdem hsc etiam: De libris propriis. De curationibus et prsdictionibus admirandis. Neronis
+
+ encomium. Geometriae encomium. De uno. Actio in Thessalicum medicum. De secretis. De gemmis
+ et coloribus. Dialogus de morte. [Dialogus] de humants consiliis, tetim inscriptus. Item ad somniorum
+ libres pertinentia: De minimis et propinquis. De summo bono, Heinrich Petri, Basel, chap De libris
+
+ propriis, eorumque usu, liber recognitus, 1-116.
+
+ Cardano, G. 1566. Heorinymi Cardani mediolanensis civisque bononiensis, Ars curandi parva, quae est
+
+ absolutiss. medend. methodus, et alia, nunc primum aedita, opera, in duos tomos diuisa, quae versa
+ pagina indicabit; omnia autem qualia sint autoris epistola vere praedicat. Basel: Officina Henricpet
+ rina.
+
+ Cardano, G. 1570a. Hieronymi Cardani mediolanensis, civisque bononiensis, philosophi, medici et
+ mathematici clarissimi, Opus novum de proportionibus numerorum, motuum, ponderum, sonorum,
+ aliarumque rerum mensurandarum, non solum geometrico more stabilitum, sed etiam varijs exper
+
+ imentis et observationibus rerum in natura, solerti demonstratione illustratum, ad multiphces usus
+
+ accommodatum, et in V libres digestum. Prstera Artis magns, sive de regulis algebraicis, liber unus,
+ abstrusissimus et inexhaustus plane totius arithmetics thesaurus, ab authore recens multis in locis
+
+ recognitus et auctus. Item De aliza régula liber, hoc est, algebraic® logistics sus, numéros recondita
+
+ numerandi subtilitate, secundum geometricas quantitates inquirentis, necessaria coronis, nunc demum
+
+ in lucem édita, Oficina Henricpetrina, Basel, chap Artis magnae sive de regulis algebraicis, lib. unus.
+
+ Qui et totius operis de arithmetica, quod Opus perfectum inscripsit, est in ordine decimus. Ars magna,
+ quam volgo cossam vocant, sive régulas algebraicas, per D. Hieronymum Cardanum in quadraginta
+
+ capitula redacta, et est liber decimus sus Arithmetics.
+
+ Cardano, G. 1570b. Hieronymi Cardani mediolanensis, civisque bononiensis, philosophi, medici et
+ mathematici clarissimi, Opus novum de proportionibus numerorum, motuum, ponderum, sonorum,
+
+ aliarumque rerum mensurandarum, non solum geometrico more stabilitum, sed etiam varijs exper
+
+ imentis et observationibus rerum in natuta, solerti demonstratione illustratum, ad multiplices usus
+
+ accommodatum, et in V libres digestum. Prstera Artis magns, sive de regulis algebraicis, liber unus,
+ abstrusissimus et inexhaustus plane totius arithmetics thesaurus, ab authore recens multis in locis
+ recognitus et auctus. Item De aliza régula liber, hoc est, algebraic® logistics sus, numéros recon
+ dita numerandi subtilitate, secundum geometricas quantitates inquirentis, necessaria coronis, nunc
+
+ demum in lucem édita, Oficina Henricpetrina, Basel, chap De aliza régula libellus, hoc est Operis per
+ fecti sui sive algebraics Logistics, numéros recondita numerandi subtilitate, secundum geometricas
+
+ quantitates inquirenti, necessaria coronis, nunc demum in lucem edits.
+
+ Cardano, G. 1663a. Hieronymi Cardani mediolanensis Opera omnia in decern tomos digesta, vol 4, Ioannis
+
+ Antonii Huguetan and Marci Antonii Ravaud, Lyon, chap Sermo de plus et minus. Edited by Charles
+ Spon.
+
+ Cardano, G. 1663b. Hieronymi Cardani mediolanensis Opera omnia in decern tomos digesta, vol 1, Ioannis
+
+ Antonii Huguetan and Marci Antonii Ravaud, Lyon, chap "Liber a me conscripti, quo tempore, cur,
+ quid acciderit", Hieronymi Cardani De propria vita, liber (1576), pp 1-54. Edited by Charles Spon.
+
+ Cardano, G. 1998. De libris propriis [MS 1550], edited by Baldi, Marialuisa and Canziani, Guido. Rivista di
+
+ storiadellafilosofia 4:767-98, with the foliation (1—12r) of the MS F 11.38 Nr 1, Ôffentliche Bibliothek
+ der Universitât Basel.
+
+ Cardano, G. 2004. De libris propriis. The editions of1544,1550,1557,1562, with supplementary material.
+
+ Milan: Franco Angeli. Edited by Ian Maclean.
+
+ Commandino, F. 1572. Euclidis Elementorum libri XV. Pisa: Jacobus Chriegber.
+
+ Confalonieri, S. 2013. The telling of the unattainable attempt to avoid the casus irreducibilis for cubic
+
+ equations: Cardano's De Régula Aliza. With a compared transcription of 1570 and 1663 editions and a
+
+ partial English translation. PhD thesis, Universit Diderot Paris 7, online at http://tel.archives-ouvertes.
+
+ fr/tel-00875863 and http://www2.math.uni-wuppertal.de/confalon/. To be published with Springer in
+ 2015.
+
+ Cossali, P. 1782. Sul quesito analitico proposto all'Accademia di Padova per il premio dell'anno 1781 di
+ una assoluta dimostrazione della irriducibilit del binomio cubico. per gli eredi di Marco Moroni.
+
+ Cossali, P. 1799a. Origine, trasporto in Italia, primi progressi in essa dell'Algebra. Reale Tipografia Par
+
+ mense, two volumes.
+
+ <£} Springer
+
+This content downloaded from 203.78.15.150 on Mon, 18 May 2020 09:19:05 UTC
+All use subject to https://about.jstor.org/terms
+
+ The casus irreducibilis in Cardano's Ars Magna 289
+
+ Cossali, P. 1799b. Particularis methodi de cubicarum aequationum solutione a Cardano luci traditae. Gen
+ eralis posteriorum analystarum usus ex cap. I De Régula Aliza ipsius Cardani vitio luculentissime
+
+ evictus. Atque mysterium casus irreducibilis post duo sœcula prorsus retecta causa sublatum speci
+ men analyticum primum. Caroli Palesii.
+
+ Cossali, P. 1813. Disquisizione sui varj metodi di eliminazione con il componimento di uno nuovo. Memorie
+
+ di matematica e di fisica délia Société italiana delle scienze XVI, first part:272-330.
+
+ Cossali, P. 1966. Storia del caso irriducibile. Istituto veneto di scienze, lettere ed arti, edited by Romano
+
+ Franci, R. 1985. Contributi alia risoluzione delle equazioni di terzo grado. In Mathemata: Festschrift fr
+
+ Helmuth Gericke, ed. M. Folkerts, and U. Lindgren, 221-228. Stuttgart: Steiner.
+
+ Gavagna, V. 2003. Cardano legge Euclide. I Commentaria in Euclidis Elementa. In Cardano e la tradizione
+
+ dei saperi. Atti del Convegno internazionale di studi, ed. M. Baldi, and G. Canziani, 125-144. Milano:
+
+ Gatto.
+
+ Franco Angeli.
+
+ Gavagna, V. 2010. Medieval heritage and new perspectives in Cardano's Practica arithmetics. Bollettino
+
+ di storia delle scienze matematiche 1: 61-80.
+
+ Gavagna, V. 2012. Dalla Practica arithmeticae all'Ars magna. Lo sviluppo dell'algebra nel pensiero di
+ Cardano. In: Pluralité de l'algèbre à la Renaissance, Champion, ed. by Maria-Rosa Massa-Esteve,
+ Sabine Rommevaux, and Maryvonne Spiesser, 237-268.
+
+ Hutton, C. 1812. Tracts on mathematical and philosophical subjects, F. C. and J. Rivington, chap Tract 33.
+
+ Lagny, T.F.d. 1697. Nouveaux lemens d'arithmtique et d'algbre ou introduction aux mathmatiques. Jean
+
+ History of algebra, 219-224.
+
+ Jombert.
+
+ Loria, G. 1950. Storia delle matematiche. Dall'alba délia civiltà al secolo XIX, 2nd ed. Milan: Hoepli.
+ Maracchia, S. 2005. Storia dell'algebra. Liguori: Liguori.
+
+ Panza, M. 2007. What is new and what is old in Viète's analysis restituta and algebra nova, and where do
+
+ they come from? Some reflections on the relations between algebra and analysis before Viète. Revue
+ d'histoire des mathématiques 13: 85-153.
+
+ Schemmel, M., and J. Stedall. 2015. Topics in the manuscripts of Thomas Harriot (1560-1621).
+
+ Online at http://echo.mpiwg-berlin.mpg.de/content/scientific_ievolution/harriot/harriot-bl/maps/2.4.
+ 14_cardano.pt
+
+ Stedall, J. 2011. From Cardano's great art to Lagrange's reflections. Filling a gap in the history of algebra.
+
+ EMS.
+
+ Stevin, S. 1585. L'arithmtique. Leiden: Christophle Plantin.
+
+ Tamborini, M. 2003. Per una storia dell'Opus Arithmeticae Perfectum. In Cardano e la tradizione dei saperi.
+
+ Atti del Convegno internazionale di studi, ed. Marialuisa Baldi, and Guido Canziani, 157-190. Milano:
+ Franco Angeli.
+
+ Tanner, R.C.H. 1980. The alien realm of the minus. Deviatory mathematics in Cardano's writings. Annals
+
+ Tartaglia, N. 1959. Quesiti et inventioni diverse. Ateneo di Brescia, facsimile reproduction of the 1554
+
+ of Science 37: 159-178.
+
+ second edition by Arnaldo Masotti.
+
+ www.cardano.unimi.it (last checked February 14, 2015) Sito Girolamo Cardano. Strumenti per storia del
+
+ Rinascimento nell'Italia settentrionale. Online at http://www.cardano.unimi.it/
+
+ <£] Springe
+
+This content downloaded from 203.78.15.150 on Mon, 18 May 2020 09:19:05 UTC
+All use subject to https://about.jstor.org/terms
+
+

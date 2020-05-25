@@ -1,0 +1,1330 @@
+ 
+
+ 
+
+ 
+
+ 
+
+Isaac Newton's 'Of Quadrature by Ordinates'
+Author(s): Naoki Osada
+Source: Archive for History of Exact Sciences, Vol. 67, No. 4 (July 2013), pp. 457-476
+Published by: Springer
+Stable URL: https://www.jstor.org/stable/23479271
+Accessed: 19-05-2020 11:58 UTC
+
+JSTOR is a not-for-profit service that helps scholars, researchers, and students discover, use, and build upon a wide
+
+range of content in a trusted digital archive. We use information technology and tools to increase productivity and
+
+facilitate new forms of scholarship. For more information about JSTOR, please contact support@jstor.org.
+
+Your use of the JSTOR archive indicates your acceptance of the Terms & Conditions of Use, available at
+
+https://about.jstor.org/terms
+
+Springer is collaborating with JSTOR to digitize, preserve and extend access to Archive for
+History of Exact Sciences
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 11:58:26 UTC
+All use subject to https://about.jstor.org/terms
+
+ Arch. Hist. Exact Sci. (2013) 67:457-476
+ DOI 10.1007/s00407-013-0117-1
+
+ Isaac Newton's Of Quadrature by Ordinates'
+
+ Naoki Osada
+
+ Received: 28 November 2012 / Published online: 6 April 2013
+ © Springer-Verlag Berlin Heidelberg 2013
+
+ Abstract In Of Quadrature by Ordinates (1695), Isaac Newton tried two methods
+ for obtaining the Newton-Cotes formulae. The first method is extrapolation and the
+
+ second one is the method of undetermined coefficients using the quadrature of mono
+ mials. The first method provides «-ordinate Newton-Cotes formulae only for cases
+ in which η — 3,4 and 5. However this method provides another important formulae
+
+ if the ratios of errors are corrected. It is proved that the second method is correct and
+
+ provides the Newton-Cotes formulae. Present significance of each of the methods is
+ given.
+
+ 1 Introduction
+
+ Isaac Newton proposed the principle of numerical integration by polynomial interpo
+ lation in Cor of Lemma V of Book III of his Principia (1687).
+
+ Hence the areas of all curves may be nearly found; for if some number of points
+
+ of the curve to be squared are found, and a parabola be supposed to be drawn
+ through those points, the area of this parabola will be nearly the same with the
+ area of the curvilinear figure proposed to be squared: but the parabola can be
+ always squared geometrically by methods generally known (Cajori 1947, p. 500)
+
+ Communicated by: Niccolô Guicciardini.
+
+ Ν. Osada (El)
+ Tokyo Woman's Christian University, 2-6-1, Zempukuji,
+ Suginami, Tokyo 167-8585, Japan
+ e-mail: osada@cis.twcu.ac.jp
+
+ £} Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 11:58:26 UTC
+All use subject to https://about.jstor.org/terms
+
+ Numerical integration formulae based on this idea of Newton's are called of inter
+
+ polatory type. As an example, Newton gave the formula for four equidistant ordinates
+ in Scholium of Prop VI of his Methodus Differentialis (1711) (Newton 1711).
+
+ If there are four ordinates at equal intervals, let A be the sum of the first and
+ fourth, Β the sum of the second and third, and R the interval between the first
+ and fourth, then the central ordinate will be , and the area between the first
+
+ and fourth ordinates will be A+gB R (Fraser 1927).
+
+ This formula is so-called Simpson 3/8 rule. Roger Cotes published similar rules for
+
+ the areas included between the curves of equidistant ordinates up to eleven ordinates
+ in his posthumous Harmonia Mensurarum (1722). Therefore, numerical integration
+ formulae by interpolation with equidistant ordinates are called the Newton-Cotes
+ formulae or the Newton-Cotes rules.
+
+ 458 Ν. Osada
+
+ The numerical integration formula of interpolatory type is usually applied not to
+
+ the whole interval of integration, but to m equal subintervals into which the inter
+ val is divided. The full integral is approximated by the sum of the approximations
+ to the integrals on the subintervals. This method is called the m-panel composite
+ formula.
+
+ In the manuscript Of Quadrature by Ordinates (1695), which is abbreviated here
+ to Of Quadrature, Newton tried two methods to obtain Newton-Cotes formulae. The
+
+ first method is extrapolation and the second is the method of undetermined coefficients
+
+ using the quadrature of monomials.
+
+ The first method provides «-ordinate Newton-Cotes formulae only for cases in
+ which η = 3, 4 and 5. In using the first method, it is necessary to know the ratio of
+ errors of the single Newton-Cotes formula to the corresponding composite formula,
+ but Newton's ratios of errors were incorrect. D.T. Whiteside called this first method a
+
+ "Newton's clever (but not wholly exact) approach to achieving the Cotesian formulas"
+ (Whiteside 1976, p. xliv).
+
+ The second method has been considered as mere check of the formula. White
+
+ side noted "If Newton had gone on similarly to check the accuracy of the area
+ approximation in his preceding 'Cas. 5', he would (see note (12) above) have had
+ a shock!" (Whiteside 1976, p. 698).
+
+ In this paper, we study Newton's two methods for obtaining the Newton-Cotes
+
+ formulae and re-evaluate the manuscript Of Quadrature.
+
+ Since Newton used the theorem of Huygens, i.e., the first step of the Richardson
+
+ extrapolation process, and the ratios of errors of the single to composite Newton-Cotes
+
+ formulae, we will survey the theorem of Huygens in Sect. 2 and the error terms of the
+ composite Newton-Cotes formulae in Sect. 3.
+
+ In Sects. 4 and 7, we will annotate Of Quadrature and will quote the full-text of the
+ Of Quadrature from Whiteside's translation (Whiteside 1976). We will also include
+
+ Newton's original Latin in footnotes. In Sect. 5, we will deal with Newton's incorrect
+
+ ratios of single to composite Newton-Cotes formulae. In Sect. 6, we will describe the
+
+ modern significance of Newton's numerical integration formulae by extrapolation. In
+
+ Sect. 7, we will prove that the Newton-Cotes formulae are determined by the second
+ method.
+
+ Ô Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 11:58:26 UTC
+All use subject to https://about.jstor.org/terms
+
+ where a is the length of any arc AB, s is the sine AM, and s' is the subtense(chord)
+ AB in Fig. 1.
+
+ Let Tn be the circumference of η-sided inscribed regular polygon in a circle with
+
+ diameter 1. The inequality (1) implies
+
+ 7i=„,i„i = »(l-|?ï + 7|^ + o(±)). (3)
+
+ Isaac Newton's Of Quadrature by Ordinates'
+
+ 459
+
+ 2 The theorem of Huygens
+
+ 2.1 De circuit magnitudine inventa by C. Huygens
+
+ In De circuit magnitudine inventa (Huygens 1654), Christiaan Huygens proved The
+ orem XVI:
+
+ Any arc less than a semicircle is greater than its subtense together with one
+ third of the difference, by which the subtense exceeds the sine, and less than
+
+ the subtense together with a quantity, which is to the said third, as four times
+ the subtense added to the sine is to twice the subtense with three times the sine
+
+ (Milne 1903)
+
+ Theorem XVI means (Rudio 1892, p. 40)
+
+ ί + -(s -s) < a < s + -(s -s)———, (1)
+
+ 3X 7 3 2s' + 3s
+
+ . 1 . 4î' + s
+ / ι ( J
+
+ 1 1 47? 4- Τ
+
+ Tin + τ(Γ2„ - Τη) <π <Τ2η + ~(Τ2η - Τ„) " ■ (2)
+
+ 3 3 δ Ύ2η ~l· 37,1
+
+ By the Taylor expansion, we have
+
+ It follows from (3) that
+
+ Fig. 1 Theorem XVI in De
+ circuli magnitudine inventa by
+ Christiaan Huygens
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 11:58:26 UTC
+All use subject to https://about.jstor.org/terms
+
+ T-· + l(Tl" - Τ-> - " (' - 4^ + ° (i)) '
+
+ 460 Ν. Osada
+
+ τ"+=■* ('+S5^+0 (ά))
+
+ The lower bounds of ( 1 ) and (2) are the first step of the Richardson extrapolation
+ which was called the theorem of Huygens by Newton. For details, see Osada (2012).
+
+ 2.2 Newton's application of the theorem of Huygens
+
+ Newton referred the theorem of Huygens in the letter to Michael Dary on 22 January
+ 1675 (Turnbull 1959, p. 333; Whiteside 1971, p. 662). In this letter, Newton applied
+ the theorem of Huygens to a construction of the length of the arc of an ellipse. Newton
+ wrote
+
+ This is derived from Hugenius' Quadrature of ye Circle, and I believe approaches
+ ye Ellipsis as near as his doth the Circle (Turnbull 1959)
+
+ Newton also mentioned the theorem of Huygens in the letter epistola prior to Henry
+ Oldenburg on 13 June 1676 (Turnbull 1960, pp. 39-^H); Whiteside 1971, p. 669). Let
+ A be the chord of an arc, Β the chord of half the arc. Let ζ be the length of the arc,
+ and r be the radius of the circle. Then Newton derived
+
+ ζ3 ζ5
+
+ Λ = 2 ~ 24^2 + 79207^ ~ &c'
+ D Ζ Ζ3 ZS 0
+ Β ~~ 2 ~ 192r2 + 61440r4 ~ &C'
+
+ Newton eliminated the terms z3/r2 in Λ, £, and obtained
+
+ 8 B-A z5
+ = 2 ■
+
+ 7680r4 + &C'
+
+ Newton stated:
+
+ that is, ^(8Β — A) = ζ, with an error of only z5/7680r4 in excess; which is the
+ theorem of Huygens (Turnbull 1960).
+
+ 3 Error terms in the Newton-Cotes formulae
+
+ 3.1 The trapezoidal rule of James Gregory
+
+ James Gregory discussed numerical integration in his Exercitationes geometricae
+ (1668) (Gregory 1668). As in Fig. 2, he divided the equally line segment AI into
+ minimum parts. If the second differences of ordinates BP, CO,...,/// are equal to Z,
+ Gregory stated:
+
+ Ô Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 11:58:26 UTC
+All use subject to https://about.jstor.org/terms
+
+ By adding the square GQIK to both sides of (4), we have
+
+ Isaac Newton's 'Of Quadrature by Ordinates'
+
+ 461
+
+ Fig. 2 Fig. 8 in Exercitationes
+ Geometricae by James Gregory
+
+ GHQ
+
+ HQ χ GQ ZxGQ
+
+ 2 12
+
+ GHIK =
+
+ (HI+GK) χ GQ Ζ χ GQ
+
+ 12
+
+ (4)
+
+ (5)
+
+ which is the special case of the error term of the trapezoidal rule.
+
+ Whiteside (1961, p. 249) pointed out that (5) implies the Simpson rule as follows:
+
+ FH1L = FGKL + GHIK
+
+ = }-(.FL + GK)FR + \(GK+HI)GQ - X-{FL-2GK+HI)GQ
+
+ 2 2 6
+
+ 3 6
+
+ 3.2 Composite Newton-Cotes formulae
+
+ (i) The trapezoidal rule.
+
+ b — a (b — a)3 „
+
+ / _f / _\ ι Ι Τ1 v ' -C"
+
+ Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 11:58:26 UTC
+All use subject to https://about.jstor.org/terms
+
+ = \ (FL + AG Κ +HI)GQ= I (FL + 4 G Κ + HI)L1.
+
+ In the remainder of this paper, we shall use the following notation and well-known
+ propositions and their corollaries. See, for example, Davis and Rabinowitz (1984).
+
+ Let f{x) be a continuous function on [a, b]. Put / = f(x)dx, and let η denote the
+ number of interpolation points or that of ordinates.
+
+ Proposition 1 (η = 2) Suppose f(x) is of class C2 on [a, b].
+
+ T\ — —-— (/(α) + /(£)), 7 = Γι ~ 12 /"(Ο, a<ï<b.
+
+ (ii) The m-panel composite trapezoidal rule. Let h = (b — a)/m,Xj = a + ih
+
+ 462 Ν. Osada
+
+ (i =0, m).
+
+ Tm = - ( fix o) + 2 Σ + f(Xm^
+
+ m— 1
+
+ i=l
+
+ )
+
+ I = Tm -
+
+ /"(£), α<ξ <b.
+
+ (b - a)3
+ 12m2
+
+ Corollary 1 Under the conditions of Proposition I, the ratio of errors is as follows:
+
+ T\ - I : Tm - I % m2 : 1.
+
+ Proposition 2 (n — 3) Suppose f{x) is of class C4 on [a, b].
+
+ (i) The Simpson rule.
+
+ 5, = b—^ {f{a) + 4f(a + (b - a)/2) + f{b)),
+
+ ' =S| - ^/,4Ι(«·
+
+ (ii) The m-panel composite Simpson rule. Let h = (b — a)/(2m), χ ι = a + ih
+
+ (i = 0,..., 2m).
+
+ hi m m~ 1 \
+
+ ' V / = 1 i=l /
+
+ (b-a)5 ,(4)... . ,
+ / = 5m r f (£)> a < ξ < b.
+ 2880m4 9
+
+ Corollary 2 Under the conditions of Proposition 2, the ratio of errors is as follows:
+
+ Si - / : Sm - / % m4 : 1.
+
+ Proposition 3 (n = 4) Suppose f (x ) is of class C4 on [a, b\.
+
+ (i) The Simpson 3/8 rule.
+
+ N\ = (/(a) + 3 f(a + (b - α)β) + 3 f(a + 2(b - a)/3) + f(b)),
+
+ I = jV, - a <ξ < b.
+
+ 6480 7
+
+ Ô Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 11:58:26 UTC
+All use subject to https://about.jstor.org/terms
+
+ Sm = ^ I fix θ) + 4 Σ f^X 2'-') + 2 Σ /(X2') + fix2m) V
+
+ Nm ~ γ /(^)+3Σ/^+3Σ,(«-ι)+2Σ/(^) + /(^) ,
+
+ V 1=1 ( = 1 ί = Ι /
+
+ Isaac Newton's Of Quadrature by Ordinates' 463
+
+ TPIP m -ηηη&1 nnmnnvitp SHmnvnrt rule I h  — (h — ηΛ /C\m\ y- — η 4- /h
+
+ 0=0,..., 3m).
+
+ 3, / m m m — 1 \
+
+ I = Nm- (b ~ a\ /(4)(g), a<i;<b.
+
+ m 6480m4 V5' 5
+
+ Corollary 3 Under the conditions of Proposition 3, the ratio of errors is as follows:
+
+ N\ - / : Nm - / % m4 : 1.
+
+ Proposition 4 (η — 5) Suppose f(x) is of class C6 on [a, b\.
+
+ (i) The Boole rule.
+
+ fil = b-^(lf{a) + 32/(a + (ft - a)/4) + 12/(« + (ft - a)/2)
+
+ +32/(a + 3(ft-a)/4) + 7/(fc))
+
+ ' = β,-£δ55δ'<β®·
+
+ (ii) 77ie m-panel composite Boole rule. Let h = (b — a)/(4m), x; = a + ih
+
+ (i = 0,..., 4m).
+
+ fi«
+
+ / m m m
+
+ V 1=1 1=1 1=1
+
+ m-1 \
+
+ ζ} Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 11:58:26 UTC
+All use subject to https://about.jstor.org/terms
+
+ = — I 7/(jto) + 32 ^ /(JC4i—3) + 12 X / (X4.--2) + 32^/(^4,-1)
+
+ + 14j]/(*4/) + 7/(jC4«)),
+
+ (=1 /
+
+ / = 19353^1»/""<S)· a<l<"'
+
+ Corollary 4 Under the conditions of Proposition 4, the ratio of errors is as follows:
+
+ B\ - I : Bm - / «s m6 : 1.
+
+ 4 The first method of obtaining the Newton-Cotes formulae
+
+ In the manuscript Of Quadrature by Ordinates, Newton gave two methods for obtaining
+ Newton-Cotes formulae. The first method is extrapolation and the second one is the
+
+ method of undetermined coefficients using the quadrature of monomials. We study
+
+ the former in this section and the latter in Sect. 7 (Fig. 3).
+
+ 464
+
+ Ν. Osada
+
+ Fig. 3 The figure in Of
+ Quadrature by Ordinales
+ (Whiteside (1976), p. 690)
+
+ If upon the base A at equal distances be erected ordinates to any Curve
+ AK, BL, CM &c the Curve may by ye Ordinates be squared quamproxime as
+ follows.'
+
+ Case I If there be given but two ordinates AK and BL, make the area (AKLB) =
+ \(AK + BL)AB.
+
+ Case 2 If there be given three AK, BL and CM, say that
+
+ \(AK + CM) AC = □ (AM) (6)
+
+ and again, by Case 1,
+
+ ^-(AK + BL) +X-(BL+ CM)^ AC — ^{AK + 2BL + CM)AC
+
+ = D(AM), (7)
+
+ and that the error in the former solution is to the error in the latter as AC2 to AB2
+
+ or 4 to 1, and hence, the difference \(AK — 2BL + CM)AC of the solutions is
+ to the error in the latter as 3 to 1, and the error in the latter will be
+
+ — (ΑΚ - 2BL + CM)AC. (8)
+
+ Take away this error and the latter solution will come to be
+
+ - (Α Κ + 4 BL + CM) AC = □ (AM), (9)
+ 6
+
+ the solution required.2
+
+ Newton did not translate the first sentence into Latin.
+
+ Cas. I. Si dentur dus tantû ordinate ΛΚ, BL fac aream
+
+ AKLB = AB
+
+ AK + BL
+
+ ζ} Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 11:58:26 UTC
+All use subject to https://about.jstor.org/terms
+
+ Isaac Newton's 'Of Quadrature by Ordinates' 465
+
+ Newton gave the single trapezoidal rule in Case 1. In Case 2, Newton applied
+ the single trapezoidal rule (6) and 2-panel composite trapezoidal rule (7) on
+ / = are-d(AKMC). Let Γι = \(AK+ CM)AC and T2 = \{AK + 2BL+CM)AC.
+
+ Newton used Corollary 1 which follows from Gregory's (5). Suppose Ζ = CM —
+
+ 2BL + AK = DN-2CM + BL = EO-2DN+CM, we have 4Z = EO- 2CM + AK.
+ Then
+
+ For m > 2, we can derive similarly that the error in the single trapezoidal rule is to
+
+ the error in the m-panel composite trapezoidal rule as m? to 1.
+
+ Newton derived T\ — T2 : T2 — I — 3 : 1 from (10). Since T\ — T2 — \(AK —
+
+ 2BL + CM)AC, Newton obtained
+
+ which is the Simpson rule.
+
+ Newton derived Si = + 4fiL + CM)AC from
+
+ T\-I — X-{AK+CM)AC - Π(ΑΜ) = ^(ΕΟ - 2CM + AK)AC=l-Z■ AC.
+
+ On the other hand,
+
+ Therefore,
+
+ T2 - / = -(AK+2BL + CM)AC - U(AM) = — Z(AB + BQ = —Ζ · AC.
+ 4 12 12
+
+ Γι - / : T2 - I =4 : 1. (10)
+
+ T2 - I = ^-(AK - 2BL + CM)AC.
+
+ Therefore,
+
+ Τι — —~{AK — 2 BL + CM)AC = \ (AK + 4SL + CM) AC,
+
+ 12 6
+
+ Si =T2- ^(7, - 72), (11)
+
+ Footnote 2 continued ^
+ Cas. 2. Si dentur très Α Λ", BL, CM, die AC = DAM, et rursus 1 in AC =
+
+ 2 4 4
+
+ posterions ut AC ad ABV seu4ad 1 adeoquesolutionumdifferentiam — ACesseaderrorem
+
+ AK - 2BL + CM
+
+ . . AK-2BL + CM „ , ...
+
+ evadet
+
+ AK + 4BL + CM
+
+ AC = UAM. Solutio quaesita.
+
+ â Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 11:58:26 UTC
+All use subject to https://about.jstor.org/terms
+
+ A^ + 2BL + CM in ^AC = DAM (per Cas. 1) et errorem solutionis prioris esse ad errorem solutionis
+
+ posterions ut 3 ad 1, et error postenons ent — AC. Aufer hunc errorem et solutio postenor
+
+ 466
+
+ Ν. Osada
+
+ which is the theorem of Huygens, i.e., the first step of the Richardson extrapolation
+
+ process.
+
+ Newton continued:
+
+ Case 3 If there be given for ordinates AK, BL, CM and DN, say that
+
+ X-(AK+DN)AD = D(AN)
+
+ (12)
+
+ likewise, that
+
+ that is,
+
+ l- Q(AK + BL) + {-(BL + CM) + i(CA/ + DN)j AD,
+
+ -(AK+2BL + 2CM + DN)AD = D(AN). (13)
+ 6
+
+ The errors in the solutions will be as AD1 to AB2 or 9 to 1, and hence the difference
+
+ in the errors—which is the difference ^(2AK — 2BL — 2CM + 2DN)AD in the
+ solutions—will be to the error in the latter as 8 to I. Take away this error and
+ the latter will remain as3
+
+ ^(ΛΑΤ + 3 BL + 3 CM + DN)AD = 0(ΑΛΟ·
+
+ Ο
+
+ (14)
+
+ Newton applied the 3-panel composite trapezoidal rule on / = nrcd(AKND). Let
+ T\ = \(AK + DN)AD and 7} = \{AK + 2BL + 2CM + DN)AD. By T\ - I :
+ Γ3 - / = 32 : 1, Newton derived T\ — 7} : Tj, — 1 = 8 : 1. Using T\ — Ττ, =
+
+ \{AK — BL — CM + DN)AD, Newton obtained
+
+ AK + MIL + 3CM + DN π
+
+ AD = DAN.
+
+ 8
+
+ Ô Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 11:58:26 UTC
+All use subject to https://about.jstor.org/terms
+
+ T3 - ' 3 = -(AK+ 3BL + ?>CM + DN)AD, (15)
+
+ Τ Τ j
+
+ 8 8
+
+ and he gave (15) in his Methodus Differentialis. Newton's derivation
+
+ 3 Cas. 3. Si dentur4 Ordinate ΛΛ·, 111·, CM, DN: die AK\DNAD = □ AN. Item + BL+CM + CMj-DN
+ in AD (id est AK+~BL+2CM-\-DNg, so|utionu errores erunt ut AW ad AW seu 9 ad 1 adeoque
+
+ errorum differentia (quae est solutionO differentia ~AK-^BL-2CM+2DN erjt aci errorem posterions ut 8
+ ad I. Aufer hune errorem et posterior manebit
+
+ 1/1 1 \
+ - I - (AK + ABL + CM)AC +- (CM + ADN + EO))AE = □ (AO),
+ 2 \6 6 /
+
+ and that the errors are as AE2 to AB2 or 16 to 1 ; then, since the difference in the
+
+ errors is \(AK — ABL + 6CM — ADN + EO)AE, the error in the lesser will be
+
+ ygjjiAA' — ABL + 6CM — ADN + EO)AE, and when this is taken away there will
+ remain4
+
+ Isaac Newton's Of Quadrature by Ordinates' 467
+
+ K, r Ά - 7à
+ Ni = 73 — (16)
+
+ is the theorem of Huygens.
+
+ Newton continued:
+
+ Case 4. If there be given five ordinates, say (by Case 2) that
+
+ \ (AK + ACM + EO)AE = □ (AO), (17)
+
+ 6
+
+ likewise that
+
+ (7AK + 32 BL + \2CM + 32 DN + 1ΕΟ)ΑΕ = □ (AO).
+
+ (18)
+
+ In Case 4, Newton applied the single and 2-panel Simpson rule on
+ I = area(AKOE). Let Si = \(AK + ACM + EO)AE and S2 = j$(AK + 4BL +
+ 2CM + 4DN + EO)AE. Newton wrote Sx - I : S2 - / = AE2 : AB2 = 16 : 1, which
+ is correct as good luck. The exact ratio is 5i — / : 52 — / = 24 : l4 = 16 : 1 by
+ Corollary 2. Similarly to Case 3, from 5i - 52 : ^2 — / = 15 : 1 and
+
+ 4 Cas. 4. Si dentur 5 Ordinate, die (per Cas.2)
+
+ AK+ACM + EO _
+ AE = □ AO.
+
+ 6
+
+ , AK + ABL + CM CM + ADN + EO. tr _ Λ ΛΓα Λ KDÛ J ,
+ Item — 1 — in AE = UAO et errores esse ut Aty ad Air seu 16 ad 1 r ι
+
+ 12 12
+
+ et cum errorum differentia sit
+
+ . . AK — ABL + 6CM — ADN + EO
+
+ error minons ent — — AE quem aufer et manebit
+
+ 7AK + 32BL + \2CM + 32£W +1EO π _
+ AE = U AO.
+
+ 90
+
+ Ô Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 11:58:26 UTC
+All use subject to https://about.jstor.org/terms
+
+ AK — ABL + 6CM — ADN + EO „
+
+ 12
+
+ AE
+
+ 468 Ν. Osada
+
+ 1
+
+ 5, — S2 = — (AK - 4BL + 6CM - 4DN + EO)AE,
+
+ Newton derived
+
+ ς r j
+
+ S2 = —OAK+ 32 BL + 12 CM + 32DN + ΊΕΟ)ΑΕ,
+
+ which is the Boole rule. Newton's derivation
+
+ By = Si - (19)
+
+ S\ - S2
+
+ is the theorem of Huygens.
+
+ Newton continued:
+
+ Case 5 In the same way, if there be seven ordinates there will come to be5
+
+ IΊΑΚ + 54 BL + 51 CM + 36 DN + 51EO + 54 FP + 11GQ)AG = U{AQ).
+
+ 2ou
+
+ (20)
+
+ Case 6. While if there be given nine there will come6
+
+ —l— (2\ΊΑΚ + 1024/iL + 352CA/ + 1024 D Ν + 436EO
+ 5670
+
+ + 1024FP + 352GÔ + 1024HR + 217 IS)A1 = D(AS). (21)
+
+ The formula (20) is derived by
+
+ N2 - j-(N| - n2), (22)
+
+ 5 Cas. 5. Eodem modo si dentur 7 Ordinatae, fiet
+
+ 17 AK + 54 BL + 51 CM + 36DN + 51EO + 54 FP +17 GQ „
+ ^ ~4G = DAe·
+
+ Can. 6. Et si dentur 9, fiet
+
+ 2\ΊΑΚ + 1024BL + 352CM + 1024DJV + 436EO
+
+ +1024FP + 352GÛ + 1024HR + 217 IS π
+
+ —— AI = DAS.
+ 5670
+
+ Ô Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 11:58:26 UTC
+All use subject to https://about.jstor.org/terms
+
+ but iVi — / : N2 — I = 36 : 1 is incorrect. Newton derived the incorrect formula (20)
+
+ from the mistaken ratio N2 — N\ ■ N2 — / = 35 : 1.
+
+ Isaac Newton's 'Of Quadrature by Ordinates' 469
+
+ By Corollary 3, the exact ratio is Ν] — I : N2 — I — 24 : 1 = 16 : 1. Corrected
+
+ extrapolation is
+
+ N2 - ^(/Vi - N2)
+
+ = Ç1Α Κ + 24 BL + 21 CM + 16DN + 21EO + 24 F Ρ + 1GQ)AG, (23)
+
+ which was pointed out by Whiteside (Whiteside (1976), p. 695). As Whiteside noted
+ the rule (23) is distinct from the seven ordinates Newton-Cotes formula.
+
+ By Corollary 4, B\ — I : B2 — I = 26 : l6 = 64 : 1. In this case Newton's ratio
+ is perhaps B\ — / : B2 — I = AI2 : AB2 = 64 : 1, which is correct but only by good
+ luck. From B2 — B\ : B2 — I = 63 : 1, Newton derived
+
+ Ri = B2- —(#i - B2)
+
+ = -^-(2\ΊΑΚ+ 1024AL + 352CA/+ 1024ÎW +436EO
+
+ 5670
+
+ + 1024FP + 352GQ + 1024HR + 2\US)Al, (24)
+
+ which will be mentioned in Sect. 6.
+
+ Newton concluded:
+
+ These are quadratures of the parabola which passes through the end-points of
+ all the ordinates.7
+
+ This sentence makes it apparent that Newton mistakenly thought that the numerical
+
+ integration formulae obtained by extrapolation coincide with Newton-Cotes formulae.
+
+ S Incorrect ratio of errors by Newton
+
+ Newton used incorrect ratios of errors in the single to composite Newton-Cotes
+ formulae in Of Quadrature as follows:
+
+ Case 2 Γι - Ώ(ΑΜ) : T2 - O(AM) = AC2 : AB2 =4:1.
+ Case 3 T\ - □(ΛΛ0 : T3 - Π(ΑΝ) = AD2 : AB2 =9:1.
+ Case 4 Si - D(AO) : S2 - D(AO) = AE2 : AB2 = 16 : 1.
+ Case 5 N\ — Π(Λβ) : N2 - □(Ag) = AG2 : AB2 = 36 : 1.
+ Case 6 Bi- D(A5) : B2 - D(AS) = AI2 : AB2 = 64 : 1.
+
+ Let Qm be m-panel composite Newton-Cotes formula of η ordinates for
+ / = f(x)dx. Newton seemed to believe the following incorrect ratio of error
+ in the single to composite Newton-Cotes formula:
+
+ Q\ — I '■ Qm — I ^ (η — 1 )2m2 : 1. (incorrect form)
+
+ ' Hae sunt quadrature Parabolae quae per terminos Ordinatarum omniu transit.
+
+ Ô Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 11:58:26 UTC
+All use subject to https://about.jstor.org/terms
+
+ 470 Ν. Osada
+
+ The exact ratio is
+
+ Q\ -/ : Qn
+
+ m
+
+ « + 1 . : 1. if η is odd,
+ m" : 1. if η is even.
+
+ See Davis and Rabinowitz (1984, p. 79) for the proof. For η > 2, the couples (n, m)
+ for which Newton's ratios are correct by good luck are (n, m) = (3, 2), (4, 3), and
+ (5, 2). The only incorrect case that Newton used is (n, m) = (4, 2), i.e. N\ — I :
+ N2 — / = 36 : 1.
+
+ Since "With Gregory's Exercitationes Newton was well familiar" (Whiteside
+ ( 1976), p. 693), Newton knew the ratio of errors in the single to composite trape
+ zoidal rule. Newton might generalize this case, i.e., η = 2. Whiteside noted "Newton
+ in sequel seems to adopt the argument per analogiam that, where η + 1 equidistant
+ ordinates are given, the corresponding ratio of the errors is η2 : 1, but this will fail
+ him in 'Cas. 5'" (Whiteside (1976), p. 692).
+
+ 6 Rediscovery of Newton's integration formulae by extrapolation
+
+ After 1900, Newton's numerical integration formulae by extrapolation have been redis
+ covered.
+
+ Sheppard ( 1900) gave
+
+ 4Tm — Tmn
+
+ Sm/2 = - , (25)
+
+ ,, — Tm/3
+ Νm β = · (26)
+
+ Romberg (1955) proposed the Romberg integration which is an application of
+
+ Richardson extrapolation process to T\, 7*2, Γ4, T&,, i.e.,
+
+ c 472m Tm , Λ Λ
+ Sm — ^ . m — 15 2,4,...,
+
+ 16S2m — Sm
+
+ B„, = — , m= 1,2,4,
+
+ 15
+
+ 64Z?2m ~^ m
+
+ Rm =
+
+ m = 1, 2,4,
+
+ 63 '
+
+ Ô Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 11:58:26 UTC
+All use subject to https://about.jstor.org/terms
+
+ for cases in which m is even. When m = 2, (25) coincides with Newton's (11). For
+
+ cases in which m is a multiple of 3, Sheppard also gave
+
+ When m — 3, (26) coincides with Newton's (16).
+
+ (Milne-Thomson, 1933, p. 199) gave an exercise "By eliminating the error term
+ in h4 between two Simpson formulae of 2ρ + 1 and Ap + I ordinates, obtain the
+ Newton-Cotes' formula for η = 5." This exercise for ρ = 1 coincides with Newton's
+ (19).
+
+ Isaac Newton's Of Quadrature by Ordinates' 471
+
+ This process is computed from top to bottom and from left to right in the following
+
+ triangular array:
+
+ Ά
+ 72 5,
+ Ta S2 B\
+ Τβ Sa B2 R\
+
+ Newton's 9-ordinate rule (24) is appeared in the fourth column. We remark that the
+ fourth, fifth,... columns are not composite Newton-Cotes formulae. See Ralston and
+ Rabinowitz (1978, p. 124).
+
+ 7 The second method of obtaining the Newton-Cotes formulae
+
+ Newton proposed a method of determining the values of coefficients in Newton-Cotes
+
+ formulae in the last part of Of Quadrature. Newton stated:
+
+ These quadratures may also be ascertained in this manner. Let a be the sum of
+ the first and last ordinates, b the sum of the second and next to the last ones,
+
+ c that of the third and next but one to last, d the sum of the fourth from the
+
+ beginning and the fourth from the end, e the sum of the fifth from the beginning
+ and the fifth from the end,..., m the middle ordinate and A the abscissa, and
+
+ let there be Zit+2y+2t+2v+2t+7 ^ = ^ reciu'recl' Then in place of the ordi
+ nates write first an equal number of the opening terms of this series of square
+ numbers 0, 1,4, 9, 16, 25,... ; next, as many first terms of this one of cubes
+ 0, 1, 8,27,64, 125,... ; thereafter the same number of this one of fourth powers
+ 0, 1, 16, 81, 256,..., so proceeding (if need be) to as many series, less one,
+ as there are unknown quantities z, y, x, v,..., and in place of the quadrature
+ required write the quadrature of the parabola to which these ordinates accord.
+
+ There will ensure equations from which, when they are collated, z, y, x, ■ ■ . will
+ be determined.8
+
+ For instance, if there be four ordinates, I set α = 0 + 9, b = 1+4, Λ = 3
+ and the quadrature = 9. In this way there comes to be x 3 = 9 and
+
+ 8 lnvestigantur etiam hae quadrature in hunc modum. Sit a summa Ordinate primae et ultimae, b summa
+
+ secundaeetpenultim$[ ] c tertia; & antepenultimas^ | d summa 4ta£ a principio et quarts a finej | [e] summa
+ quintae a principio et quintae a fine &cm m Ordinata media et Abscissa Λ et sit
+
+ za + yb + xc + vd + te + sm .
+
+ 2z+ 2y + 2x + 2v + 2t + s
+
+ A = Lrquaesitae,
+
+ et pro ordinatis primo scribantur termini totidem primi hujus seriei numerorû quadratorum 0.1.4, 9.16.25
+
+ &C[ | dein termini totidem primi hujus cubicorum 0.1.8.27.64.125 &C(j dein totidem hujus quadrato
+ quadraticorû 0.1.16.81.256.&C pergendo (si opus est) ad tot series una dempta quot sunt incognitas quanti
+ tates z.y.x, ν &c, et pro quadratura quaesita scribe quadraturam Parabolae cui hae ordinatae congruunt. Et
+ provenient aequationes ex quibus collatis determinabuntur z.y.x &c.
+
+ Ô Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 11:58:26 UTC
+All use subject to https://about.jstor.org/terms
+
+ 472 Ν. Osada
+
+ thence y = 3z. Therefore in place of y I write 3ζ and the equation |Λ = □
+
+ becomes g(a + 3b)/l = □, as in the third case.9
+ Again, if there be five ordinates, I set α = 0 + 16, b = 1 + 9, c = 4, Λ = 4 and
+
+ □ = y, and thus there comes to be '2^2°/+** χ 4 = y, that is, 8z = y + 2s.
+ Again I set α = 0 + 64, b — 1 + 27, c = 8, A —4 and □ = 64, and in this way
+
+ there comes 642^4f228vv^8,Î χ 4 = 64, or 8z = y + 2s as above. I therefore put [a =
+
+ 0 + 256, b = 1 +81, c = 16, A = 4 and the quadrature = -y^. And in this way
+
+ there comes to be 2562i^22^vi6,< x4 = or384z — 88s = 51>> = 408z— 102s,
+ that is, 14s = 24z or 7s'= 12z and hence 7y = 32z. Accordingly, in place of
+
+ s and y I write ψ ζ and ψζ respectively, and the equation yr+^ΓΓΓ ^ = ^
+
+ becomes ^(7a + 32b + \2m)[A] = □, as in the fourth case.] 10
+
+ Newton proposed the second method under two assumptions.
+
+ 1. The coefficients of the Newton-Cotes formula are symmetric about the coefficient
+
+ 2. The n-ordinate Newton-Cotes formula is exact for 1, x2,..., xn~l. When η is
+
+ of the the central ordinate.
+
+ odd, this is exact for 1, x2,..., x"
+
+ The first assumption is correct. See, Davis and Rabinowitz (1984, pp. 77-78) for
+ the proof. The second assumption follows from Proposition 2(i), 3(i), and 4(i), for
+ η = 3,4, and 5, respectively. For the cases in which η is greater than 5, see Davis and
+ Rabinowitz (1984, pp. 79).
+
+ Let η be a fixed odd number greater than 2. Let χ,· = xo + ih (i — 1)
+ be equidistant abscissae y; (/ = 0,— 1 ) the corresponding ordinates. By the
+
+ 9 Ut si Ordinatae sint quatuor, pono a = 0+9 &b = 1+4 .A = 3etquadraturam= 9. Sic fit 2z+2v χ3 = 9.
+
+ et inde y = 3z. Igiturpro y scribo 3 ζ et aequatio A = □ fit "+%h A = □. ut in casu tertio.
+
+ 10 Rursus si ordinatae sint quinque pono a = 0 + 16, b = I + 9. c = 4.<4 = 4, □ = Et sic fit
+
+ x4=y seu 8z = y + 2s. Rursus pono
+
+ a = 0 + 64, b = I + 27. c = 8. Λ = 4etD = 64.
+
+ et sic fit S χ4 = 64. seu8z = y+2s ut supra. Pono igitur [a = 0+256, b = 1+81, c = 16, A =4
+
+ 256z + 82y+16.ç 1024
+
+ χ 4 =
+
+ 2z + 2>· + .ç 5
+
+ za + yb + sm 7 a + 32 b +12 m
+
+ : A = Dfit Λ = □
+
+ 2z + 2y + s 90
+
+ ut in casu quarto ]
+
+ Ô Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 11:58:26 UTC
+All use subject to https://about.jstor.org/terms
+
+ seu 384? — 88s = 51 y = 408z — 102.v. hoc est 14.ç = 24z sive l.s = 12z adeoque 7y = 32z. Igitur pro s
+
+ et y scribo ^=z et y-z. respective et aquatio
+
+ Isaac Newton's 'Of Quadrature by Ordinates' 473
+
+ assumptions, Newton put the η ordinates Newton-Cotes formula
+
+ , Y!iJoc>(yj + yn-j-1) + ct y ι
+ ^ .JX/-1 . (27)
+
+ 2 ΣίΖο Ci + Cl y ι
+
+ where c; (i = 0,...,/) are constants and / = (η — l)/2. The second assumption
+ implies
+
+ l~\ r Λ. In — ; — _L^./k " r '
+
+ Z,-=qc/0 + (w -/ - ir) + c//
+ 2Zl=ôc' +c'
+
+ (n - 1) = / χΜλ
+
+ ο
+
+ (« - D'+1 , „
+ —-———, k—2,...,l + 2.
+
+ k + 1
+
+ (28)
+
+ We remark that / + 2 η if η ^ 3. By solving the simultaneous equations (28),
+ Newton represented c,· (i = 1,..., (n — l)/2) in co- By substituting c, , (i > 0) to
+ (27), Newton reduced the fraction and obtained the quadrature formula.
+
+ We now prove that the second method provides the n-ordinate Newton-Cotes
+
+ formula. Let
+
+ / 1 \
+ kn - l)2
+
+ *o =
+
+ e R", b =
+
+ (η - l)3
+
+ \<v
+
+ and
+
+ Xi =
+
+ € M", / = 1,..., η — 1.
+
+ "Λ
+
+ V"/
+
+ Since the matrix (jco, jc 1, - ,x„-\) is nonsingular, there is the unique solution
+
+ (do, ■ ■ ■, dn-1) of the equation
+
+ doxo Η \-dn-\Xn-\ = b
+
+ (29)
+
+ Ô Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 11:58:26 UTC
+All use subject to https://about.jstor.org/terms
+
+ The equation (29) is equivalent to
+
+ 474 Ν. Osada
+
+ Σ^ = 1'
+
+ η— ι
+
+ /= 0
+
+ Η-I
+
+ Σά'ί
+
+ ι=Ι
+
+ k + Î
+
+ (η -  1)*, k=2,...,n.
+
+ By Proposition 5 which we will cite in the end of this section,
+
+ η-1
+
+ R^diyi
+
+ i= ο
+
+ is the «-ordinate Newton-Cotes formula. By the uniqueness and the symmetry of the
+ coefficients, we have
+
+ Take any nonzero number co· Put
+
+ do Φ 0,
+
+ d, = dn—\—i, i = 01.
+
+ c°, . 1 ,
+ d = —di, ι — . ,n — 1.
+ do
+
+ Then for k = 2,..., n,
+
+ ς:=0' ci ς:=ο à, * + "
+
+ and c, = cn-i-\ (i = 0,— 1). By Proposition 5,
+
+ σ/=0' c,·
+
+ is the «-ordinate Newton-Cotes formula. Therefore, the second method provides the
+ «-ordinate Newton-Cotes formula.
+
+ When η is even, Newton did not explain in general, but he gave the four ordinates
+
+ rule, i.e., the Simpson 3/8 rule. In this example, we can see the second method. Starting
+ from
+
+ RT'Zoa(yi + y«-/-i)
+
+ with I = n/2 and solving
+
+ Ô Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 11:58:26 UTC
+All use subject to https://about.jstor.org/terms
+
+ (ii) Select the constants wo, ■ ■ ■, wn~\ so that
+
+ Isaac Newton's 'Of Quadrature by Ordinales' 475
+
+ Σί:ί«(/' + (1 - / - 1)*) (η - 1)'
+
+ k = 2,, I + 1.
+
+ 2ZlS<!
+
+ k+ 1
+
+ For the rest of these, the determination of the coefficients is similar to the odd case.
+
+ Although Newton wrote "These quadratures may also be ascertained in this
+
+ manner", the Newton-Cotes formulae can be determined by the second method.
+
+ In the twentieth century, Newton's idea has been formulated as the following Propo
+
+ sition 5 which is used for determining the integration formulae of interpolatory type,
+
+ such as Gaussian integration.
+
+ Proposition 5 Let xq, ..., xn~\ be fixed and distinct points lying between a and b
+ prescribed in advance. The two ways of determining wo, ■u>n-\, (i) and (ii) yield
+ the same numbers.
+
+ (i) Interpolate to the function fix) at the points xo, ■ ■·, xn-] by a polynomial of
+ degree at most η — I. Then integrate the interpolation polynomial, and express
+
+ the result in the form
+
+ [ f(x)dx « Σ «"/(*')·
+ a <=°
+
+ ^ n~\
+ / f(x)dx = ][>/(*,·),
+ a '=°
+
+ for f(x)= \,x,
+
+ Proof See Davis and Rabinowitz (1984, p. 74).
+
+ 8 Conclusion
+
+ In Of Quadrature by Ordinates, Newton tried two methods for obtaining the Newton
+ Cotes formulae. The first method is extrapolation and the second one is the method of
+
+ undetermined coefficients using the quadrature of monomials.
+
+ The first method provides n-ordinate Newton-Cotes formulae only for cases in
+ which η = 3,4 and 5. However, this method provides another important formulae
+ if the ratios of errors are corrected. Newton's numerical quadrature by extrapolation,
+
+ i.e., the first method, is not systematic but can be said to be a germ of the Romberg
+
+ integration.
+
+ The second method is proposed under two assumptions. We proved that two assump
+ tions are correct and that the second method provides the Newton-Cotes formulae. In
+
+ the twentieth century, the second method has been formulated and used for determining
+
+ the integration formulae of interpolatory type, such as Gaussian integration.
+
+ Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 11:58:26 UTC
+All use subject to https://about.jstor.org/terms
+
+ 476 Ν. Osada
+
+ References
+
+ Press.
+
+ Cajori, Florian. 1947. Sir Isaac Newton ν Mathematical Principles: Of Natural Philosophy and his system
+
+ of the world. Berkeley: University of California Press.
+
+ Davis, Philip, and Rabinowitz. Philip. 1984. Methods of numerical integration, 2nd ed. Orlando: Academic
+
+ Fraser, Duncan C. 1927. Newton's Interpolation Formulas. London: Reprinted in Bibliolife.
+ Gregory, James. 1668. Exercitationes geometricae. http://books.google.co.uk/.
+ Huygens, Christian. 1654. De Circuli Magnitudine Inventa. Lugd. Batavia, http://books.google.com/.
+ Milne, R.M. 1903. Extension of Huygens' approximation to a circle arc. Mathematical Gazette 2: 309-311.
+ Milne-Thomson, L.M. 1933. The calculus of finite differences. New York: Macmillan.
+ Newton, Isaac. 1744. Methodus Differentialis 1711. In Isaaci Newtoni, Equitis Aurati, Opuscula Math
+ emutica. philosophica et philologica, Co/legit partimque Latinè vertit ac recensuit Joh, Castillioneus
+ Jurisconsultus. Lausannae & Geneva: Apud Marcum-Michaelem Bousquet.
+
+ Osada, Naoki. 2012. The early history of convergence acceleration methods. Numerical Algorithms 60:
+
+ 205-221. doi: 10.1007/s 11075-012-9539-0.
+
+ Ralston, Anthony, and Rabinowitz, Philip. 1978. A first course in numerical analysis, 2nd ed. New York:
+
+ Romberg, Werner. 1955. Vereinfachte numerishe Integration. Det Kongelige Norske Videnskabers Selskabs
+
+ McGraw-Hill.
+
+ Forhandlinger. Bind 28: 30-36.
+
+ Rudio, Ferdinand. 1892. Archimedes. Huygens. Lambert. Legendre. Teubner: Vier Abhandlungen Ûber die
+
+ Sheppard, W.F. 1900. Some quadrature formulae. Ρ roc. London Math. Soc. 32: 258-277.
+ Turnbull, Herbert Westren. 1959. The correspondences of Isaac Newton, vol. 1. Cambridge: Cambridge
+
+ Turnbull, Herbert Westren I960. The correspondences of Isaac Newton, vol. 2. Cambridge: Cambridge
+
+ Whiteside. Derek T. 1961. Patterns of mathematical thought in the later seventeenth century. Archive Hist.
+
+ Whiteside, Derek T. 1971. The Mathematical Papers of Isaac Newton, vol. IV. Cambridge: Cambridge
+
+ Whiteside, Derek T. 1976. The Mathematical Papers of Isaac Newton, vol. VII. Cambridge: Cambridge
+
+ Kreismessung.
+
+ University Press.
+
+ University Press.
+
+ ExactSci. I: 179-388.
+
+ University Press.
+
+ University Press.
+
+ Ô Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 11:58:26 UTC
+All use subject to https://about.jstor.org/terms
+
+

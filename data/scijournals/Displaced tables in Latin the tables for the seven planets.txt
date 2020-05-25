@@ -1,0 +1,4335 @@
+ 
+
+ 
+
+ 
+
+ 
+
+Displaced tables in Latin: the Tables for the Seven Planets for 1340
+Author(s): José Chabás and  Bernard R. Goldstein
+Source: Archive for History of Exact Sciences, Vol. 67, No. 1 (January 2013), pp. 1-42
+Published by: Springer
+Stable URL: https://www.jstor.org/stable/23319407
+Accessed: 19-05-2020 12:05 UTC
+
+JSTOR is a not-for-profit service that helps scholars, researchers, and students discover, use, and build upon a wide
+
+range of content in a trusted digital archive. We use information technology and tools to increase productivity and
+
+facilitate new forms of scholarship. For more information about JSTOR, please contact support@jstor.org.
+
+Your use of the JSTOR archive indicates your acceptance of the Terms & Conditions of Use, available at
+
+https://about.jstor.org/terms
+
+Springer is collaborating with JSTOR to digitize, preserve and extend access to Archive for
+History of Exact Sciences
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:05:22 UTC
+All use subject to https://about.jstor.org/terms
+
+ Arch. Hist. Exact Sci. (2013) 67:1^12
+ DOI 10.1007/s00407-012-0106-9
+
+ Displaced tables in Latin: the Tables for the Seven
+ Planets for 1340
+
+ Jose Chabas • Bernard R. Goldstein
+
+ Received: 5 June 2012 / Published online: 10 August 2012
+
+ © Springer-Verlag 2012
+
+ Abstract The anonymous set of astronomical tables preserved in Paris, Bibliotheque
+ nationale de France, MS lat. 10262, is the first set of displaced tables to be found in
+ a medieval Latin text. These tables are a reworking of the standard Alfonsine tables
+
+ and yield the same results. However, the mean motions are defined differently, the
+ presentation of the tables is unprecedented, and some new functions are introduced
+ for computing true planetary longitudes. The absence of any instructions as well as
+ unusual technical terms in the headings make it difficult to appreciate the cleverness
+ that went into the construction of these tables that are extant in a unique copy. In this
+
+ article we provide a detailed analysis of these tables and their underlying parameters.
+
+ The displaced tables are typical of a pervasive tendency
+ in Islamic science to provide extensive and elegant
+ numerical tables for the convenience of practitioners.
+ The underlying astronomical theory is neither
+
+ questioned nor affected.'
+ Edward S. Kennedy
+
+ Communicated by George Saliba.
+
+ J. Chabas (E3)
+
+ Universitat Pompeu Fabra, Barcelona, Spain
+ e-mail: jose.chabas@upf.edu
+
+ B. R. Goldstein (El)
+ Arts and Sciences, University of Pittsburgh, Pittsburgh, PA 15260, USA
+ e-mail: brg@pitt.edu
+
+ 1 Kennedy (1977, p. 16).
+
+ <£l Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:05:22 UTC
+All use subject to https://about.jstor.org/terms
+
+ J. Chabas, B. R. Goldstein
+
+ 1 Introduction
+
+ In 2012 we published A Survey of European Astronomical Tables in the Late Middle
+
+ Ages in which we discussed a wide range of tables, many of which were previously
+
+ known. In this monograph we mentioned an unusual set of tables, whose significance
+
+ had not been appreciated hitherto, that depends on a principle of displacement to elim
+
+ inate subtractions in the course of computing planetary positions. This principle was
+ employed in some zijes in the Islamic world, but until now there was nothing compa
+
+ rable in the Latin West. As we will see, this set of tables is a most ingenious reworking
+
+ of the Parisian Alfonsine Tables, rather than a translation of an Arabic zij (where the
+
+ term zij is used in Arabic to refer to a set of astronomical tables with instructions for
+ their use). What makes this set of tables so unusual is that, for example, the mean
+ planetary motions are defined differently from those in the standard Alfonsine tables,
+
+ and some of the functions for computing true planetary longitudes from their mean
+
+ motions also differ noticeably from those in the standard Alfonsine tables; neverthe
+ less, computation with these displaced tables yield the same results as computation
+
+ with the standard Alfonsine tables. Moreover, the tables for first station are presented
+ in a completely different way from those we have seen in the Ptolemaic tradition,
+
+ although the underlying parameters are unchanged. Given the absence of instructions,
+ it was not an easy task to unravel the cleverness of the construction of these tables. We
+
+ had some helpful guidance from a paper by Kennedy (1977), but it was not sufficient
+
+ for uncovering various subtleties in these tables for which there are no counterparts in
+ the tables that Kennedy analyzed.
+
+ Paris, Bibliotheque nationale de France, MS lat. 10262, is a fifteenth-century
+ manuscript containing two sets of astronomical tables: an anonymous set for 1340
+ (ff. 2r-46v); and another set, called Tabule frequentine (ff. 47v-71r), composed by
+ Melchion de Friquento of Naples in 1438 (f. 46v: 1437 completus).2 Neither set has
+ previously been examined. In this paper we focus on the first set, entirely composed
+ of tables with no accompanying text. At the bottom of the last table (f. 46v), we read:
+ Expliciunt tabule de septem planetis et de veris locis eius (Here end the tables for
+ the seven planets and their true positions). Therefore, we shall refer to this set as the
+ Tables for the Seven Planets (where the Sun and the Moon are considered planets).
+ The yearly tables begin in March, and we are told that the tables are valid for 1340
+
+ completus, or 1340 (complete), meaning that the epoch is noon of February 28, 1341,
+
+ the last day of the year, counting from March 1, 1340.3
+
+ The name of the author of these tables is not given in the manuscript, and no local
+ ity is mentioned. However, on f. 9r, at the bottom of a table for the mean motion of
+
+ the Sun, we are told that the radix for the Sun, anno domini 1340 completo, is 8s
+ 16;41,49° (=256;41,49°). In contrast to the use of physical signs of 60° in the Parisian
+
+ 2 For a description of this manuscript, see Thorndike (1957), especially pp. 144-145. Richard L. Kremer
+
+ informs us that he is preparing a study of the Tabule frequentine, tentatively called "Melchion de Friquento's
+ eclipse tables of 1437, a revised Latin version of Immanuel Bonfils's Six Wings".
+
+ 3 The last day of February belongs to 1340 according to the convention of this text (in fact, it is the last day
+
+ of that year), but to 1341 according to our modern convention (it is the 59th day of this year). The same
+ convention applies to all subsequent years in this text. Note also that the common astronomical practice in
+ the Middle Ages was to take noon as the beginning of the day.
+
+ Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:05:22 UTC
+All use subject to https://about.jstor.org/terms
+
+ Displaced tables in Latin
+
+ Alfonsine Tables (PAT), we note the use here of zodiacal signs of 30°. If we compute
+
+ the mean motion of the Sun using the PAT for Toledo, we find its mean longitude to be
+ 346;20,53° and its mean argument of center, 256;43,54°.4 Therefore, the given radix
+ refers to the mean argument of center of the Sun. The difference in the mean argument
+
+ of center, 0;2,5°, is the amount traveled by the Sun in about 0;50h, which corresponds
+ to a difference in geographical longitude of about 12;40° east of Toledo. This figure
+
+ agrees, although not exactly, with the longitude of the meridian of Paris, taken as 12;0°
+
+ east of Toledo in many astronomical tables of the fourteenth and fifteenth centuries.5
+
+ The Tables for the Seven Planets give multiple examples of displaced tables. A
+ table is said to be displaced with respect to another when its entries are the same as
+
+ those in the standard table after adding a constant to its argument (horizontal displace
+
+ ment), or derive from the entries in the standard table by adding a constant (vertical
+ displacement). This can also be expressed in algebraic terms: if y = fix) is the func
+ tion underlying a given table, then the function embedded in the displaced table is
+ y = f (x + kh), for a displacement on the X-axis, or y = /'(x) + kv, for a displace
+ ment on the Y-axis. Of course, both displacements can occur at the same time, leading
+ to an equation such as
+
+ y = f(x + kh) + kv. (1)
+
+ The purpose of displaced tables is to avoid subtractions, that is, the use of complicated
+ rules for handling negative numbers before they were available to astronomers who
+ computed planetary positions by means of astronomical tables.6
+
+ This problem was already felt by astronomers in the ninth century, who called the
+ standard table asli and the displaced table wad0!.1 Displaced tables were clever com
+ putational devices, with implications for the method of computation of astronomical
+ quantities, but did not challenge either the parameters or the models on which the
+ original tables were based. Kennedy (1977) presented an explanation of displaced
+ planetary tables in the medieval Islamic world, and demonstrated the equivalence of
+ computations using one such set with computations using Ptolemy's tables. Kennedy
+ focused on the tables of Ibn al-Aclam (d. 985) and called attention to the fundamen
+ tal relation of three displacements for each planet (see Eq. 26, below).8 Byzantine
+ astronomers apparently depended on their Muslim predecessors for displaced tables:
+
+ 4 According to this computation, 89;36,59° is the longitude of the solar apogee, A a , which is the difference
+
+ between the solar longitude and the solar mean argument of center at a given time.
+
+ 5 See, e.g., Kremerand Dobrzycki (1998).
+
+ 6 It is important to distinguish between displaced tables and shifted tables. A shifted table contains the
+ same information as the standard table (the same columns and rows, and the same entries) but the first row
+
+ is not that for argument 0° or 1° but for some other convenient number, to stress the fact that the entry
+
+ reaches a specific value such as a maximum or a minimum for that particular value of the argument. Shifts
+
+ occur, for instance, for the planetary latitudes of certain planets in John of Murs's Tables of 1321 (Chabas
+ and Goldstein 2009, see esp. pp. 308-309).
+
+ 7 Salam and Kennedy (1967, p. 497). See also Debarnot (1987, p. 43 (Table 9)) and Jensen (1971).
+
+ 8 Displaced tables in Islamic astronomy are also discussed in Jensen (1971), Saliba (1976), Saliba (1977),
+ Mercier (1989), and Van Brummelen (1998). For displaced tables in the Maghrib, see Samso and Millas
+ (1998), and Samso (2003).
+
+ ■£) Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:05:22 UTC
+All use subject to https://about.jstor.org/terms
+
+ J. Chabas, B. R. Goldstein
+
+ seeTihon (1977-1981, espec. 68:76 and 110). As far as we can determine, none of the
+ displaced tables compiled by astronomers in the Islamic World and Byzantium were
+ known in the West. Two Jewish astronomers in Provence, Levi ben Gerson (d. 1344)
+
+ and Immanuel ben Jacob Bonfils of Tarascon (fl. 1350), composed zijes in Hebrew in
+
+ which they used the principle of displaced tables for the times and longitudes of syz
+
+ ygies (but not for the motion of the planets); however, there is no evidence to suggest
+
+ that they depended on Islamic or Byzantine sources.9 In astronomy written in Latin
+
+ the tables described here are the first to use displaced tables systematically, although
+ we know of an earlier use of this type of table by John Vimond around 1320, limited
+
+ to his table for trepidation (or "access and recess").10
+
+ As mentioned above, the Tables for the Seven Planets have no accompanying text;
+
+ therefore, the following comments are based entirely on the information provided by
+ the tables themselves. As will be seen, the terminology in these tables often differs
+
+ from that commonly used at the time, and many of the tables have a presentation that
+
+ diverges from other tables with the same parameters that are based on the same model.
+
+ There follows a table of contents, arranged by section number.
+
+ 4. Solar equation
+ 5. Length of daylight, diurnal seasonal hours, and the equation of time
+ 6. Mean motions of the Moon
+
+ 2. Multiplication table
+ 3. Mean motion of the Sun
+
+ 7. Lunar latitude
+
+ 8. Lunar equations
+ 9. Lunar node
+
+ 10. Precession/trepidation
+ 11. Planetary mean motions
+ 12. Planetary equations and stations
+
+ 12.1 Equation of center and equatio porcionis
+ 12.2 Equation of anomaly near greatest distance
+ 12.3 Equation of anomaly near least distance
+
+ 13. Latitudes of the superior planets
+
+ 14. Planetary visibility
+
+ 15. Possibility of an eclipse
+
+ 16. Eclipsed fraction of the solar and lunar disks
+
+ 17. Latitudes of Venus and Mercury.
+
+ Displacements are discussed in Sects. 4, 6, 8, 10, 11, and 12.
+
+ 9 For Levi ben Gerson, see Goldstein (1974, pp. 136-146,229-241); forBonfils, see Solon (1970, pp. 3-4,
+ 11) and Kremer (see n. 2). It is noteworthy that the Tabule frequentine in this very same manuscript contain
+
+ an adaptation of Bonfils's tables, where displaced tables occur.
+
+ On Vimond, see Chabas and Goldstein (2003, pp. 275-277) and Chabas and Goldstein (2004, pp. 265
+
+ 267).
+
+ <£) Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:05:22 UTC
+All use subject to https://about.jstor.org/terms
+
+ Displaced tables in Latin
+
+ 2 Multiplication table
+
+ The first table in this manuscript (ff. 2r-7v) is a multiplication table for base 60 arith
+ metic, with entries for each integer from 1 to 60. This table, presented as a 60 x 60
+ square matrix, is quite common in manuscripts containing sets of astronomical tables
+ (see, e. g., Chabas and Goldstein 2012, p. 227). The fact that f. 8r-v is blank makes
+ it uncertain if this multiplication table belongs to the set examined here, for it could
+
+ very well have been inserted by the copyist to facilitate computation.
+
+ 3 Mean motion of the Sun
+
+ Folio 9r contains five tables for the mean motion of the Sun. The first lists the Radices
+
+ ad 32 annos post annum 1340, i.e., the values of the mean motion of the Sun at the
+
+ beginning of each year for a period of 32 consecutive years. The entry for year 1 is 8s
+
+ 16;26,51°, and it corresponds to the mean argument of center of the Sun at noon of
+
+ February 28, 1342; the entry for year 32 is 8s 16;36,12°. It should be emphasized that
+
+ a period of 32 years for the motion of the Sun is very unusual; in any case, we have
+ not found it in the previous literature, where periods of 20, 24, and 28 abound (see
+ Chabas and Goldstein 2012, p. 54). We also note that the usual phrase anni expansi
+
+ (expanded years, that is, those within a cycle, in contrast to anni collecti for the years
+
+ at the interval of a cycle) does not appear here or in the headings of the other tables.
+
+ The other four tables for the Sun have a general title, beginning Tabula porcionis
+
+ solis ad annos radicum..., where porcio has to be understood here as "argument of cen
+
+ ter".1 1 The second table on this folio gives the mean motion of the Sun for accumulated
+
+ months; its first entry corresponds to March (Is 0;33,18°) and the last one to February
+
+ (lis 29:45,39°). These entries agree exactly with those given by John of Ligneres in
+ his Tabule magne for a year beginning in January (see Chabas and Goldstein 2012,
+ Table 5.1B, pp. 55-56), who also used zodiacal signs of 30°. The third table is headed
+ ad annos perpetuacionis, from 1372 to 1852, at 32-year intervals, and again we see
+
+ the use of non-standard terminology, for the phrase anni collecti is totally absent from
+
+ this set of tables. The fourth and fifth tables are, respectively, for the mean motion of
+ the Sun for days from 1 to 31, and for hours and fractions of an hour from 1 to 60.
+
+ The entry for argument Id is 0s 0;59,8°.
+
+ As mentioned above, at the bottom of the folio we are told that the Radix porcionis
+ solis ad anno domini 1340 completo is 8s 16;41,49°. From this value and the entry
+ for year 32 (8s 16;36,12°) we derive a mean motion in the argument of center of
+ 0;59,8,13,32,49°/d. As indicated previously, the entries in these tables represent the
+
+ '' We know of no prior usage of porcio for the argument of center of the Sun. There are, however, examples
+
+ where it means "anomaly" in the case of the planets. On porcio (or portio) in the sense of "anomaly", see
+ Goldstein et al. (1994, pp. 63-64) (see also Nallino 1903-1907, vol 2, p. 328), where a reference is given
+ to John of Ligneres's use of this word in the canons to his tables, whose incipit is Priores astrologi motus
+
+ corporum celestium(\?>22). The Arabic for anomaly \shissa, which means "portion" and one of the Hebrew
+
+ terms for anomaly, manah, also means "portion". Both the Latin and Hebrew terms apparently come from
+
+ Arabic. The fact that in our text the argument of center of the Sun is considered the "anomaly" indicates that
+
+ the author had in mind an epicyclic model for the Sun, which is equivalent to the eccentric model according
+ to Apollonius's theorem (see Almagest III.3; Toomer 1984, pp. 141-153).
+
+ 4?} Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:05:22 UTC
+All use subject to https://about.jstor.org/terms
+
+ J. Chabas, B. R. Goldstein
+
+ mean argument of center of the Sun, k, and this is another peculiar characteristic of
+ the Tables for the Seven Planets, because in other sets the mean solar motion, that is,
+
+ X, is usually tabulated. The two quantities are related by means of Xa , the longitude of
+ the solar apogee, for X = H + A small table, found later in the text (f. 17r), gives
+ the motion of the solar apogee. It is entitled Motus augium equatus and the entries are
+
+ yearly values, probably corrected for precession. The entry for 32 year is 0; 19,42,35°,
+ which implies a daily motion of 0;0,0,6,4°/d. By adding this value to the one derived
+
+ for the mean motion in the argument of center of the Sun, the result is 0;59,8,19,37°/d,
+
+ in good agreement both with the value used by Vimond (0;59,8,19,37,4°/d) and the
+ value in the PAT (0;59,8,19,37,19,13,56°/d) for the mean solar motion in longitude.12
+
+ It would thus seem that the Tables for the Seven Planets belong to this tradition. We
+
+ will show that the rest of the tables provide additional evidence of this relationship.
+
+ 4 Solar equation
+
+ The solar equation is given on ff. 9v-10r. The title of the corresponding table (Tabula
+ equacionum solis cum auge eius equata) indicates that the value for the solar apogee
+ has already been taken into consideration. The argument, which we call K, in parallel
+ with the standard usage of £,13 begins at 0°, not at 1° as was the common practice
+ at the time. The entry for 0° is 2s 29;37,9° (=89;37,9°), and corresponds to the lon
+ gitude of the solar apogee at epoch, 89;36,59° (see n. 4). The minimum 2s 27;27,9°
+ is reached at 92°-94°, and the maximum 3s 1;47,9° at 267°-269°. Subtracting alge
+
+ braically either of these two values from the entry for 0°, one gets 2;10,0°, which is
+
+ the standard Alfonsine parameter for the maximum solar equation.14 Therefore, all
+ entries for the solar equation, C(K), are displaced upwards by 89;37,9°, compared
+ to the entries in the standard tables in the Alfonsine corpus, c(ic), to make all entries
+
+ positive, thus allowing the user to avoid dealing with a set of complicated rules for
+ adding and subtracting various terms:
+
+ C(K) = c(k) + 89;37,9°. (2)
+
+ This is the first example of a displaced table in this set, where the argument is the
+
+ mean argument of center, K, and the entries represent C (K), which is the sum of the
+
+ Alfonsine solar equation (whether positive or negative), c(jc), and the longitude of the
+
+ solar apogee, A-a- In this case the displacement is vertical (see Fig. A).
+
+ The canons to this table, which are not extant, should have had an instruction indi
+
+ cating something like "to find the true position of the Sun, enter the table with the
+
+ 12 For Vimond, see Chabas and Goldstein (2004, p. 221); for the PAT, see Ratdolt (1483, f. d5r). For a
+ modern edition of these tables, based on Ratdolt (1483), see Poulle (1984).
+
+ 13 Throughout this paper capital letters are used to represent variables and functions in the Tables of the
+ Seven Planets.
+
+ 14 As in the tables of John Vimond (Chabas and Goldstein 2004, p. 223), the solar equation—with the
+ same maximum of 2; 10°—is not explicitly given. For the maximum solar equation, 2; 10°, in the PAT, see
+ Ratdolt (1483, f.e3r).
+
+ <£) Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:05:22 UTC
+All use subject to https://about.jstor.org/terms
+
+ Displaced tables in Latin
+
+ Solar equation
+
+ Fig. A The solar equation displaced vertically
+
+ mean argument and add what you find to it" or, in algebraic terms,
+
+ L = K + C(K). (3)
+
+ X — X + c(ic)
+
+ = (ic + XA) + c(ic)
+
+ = k + (XA+ c(ic))
+
+ = K + C(K) = L,
+
+ provided that K —k, which is the case here. The two terms in L are positive and both
+ are explicitly tabulated on ff. 9v-10r.
+
+ 5 Length of daylight, diurnal seasonal hours, and the equation of time
+
+ On ff. 10v-l 1 v there is a table with a column for the argument from 1° to 30°, and
+ three other columns for each of the twelve zodiacal signs, beginning with Aries. The
+ headings are Horn equalis, tempus horarum, and equatio dierum. The first entries for
+ Aries 1° are 12;3h, 15;4°, and 8;28 min, respectively. The entries in the first column,
+
+ ^ Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:05:22 UTC
+All use subject to https://about.jstor.org/terms
+
+ And, indeed, in Ptolemy's model for the equation of the Sun, A., the true longitude of
+
+ the Sun is obtained adding its mean longitude, X, to the solar equation: X = X + c(i<).
+
+ Now the solar equation is also the difference between the true argument of center of
+ the Sun, k, and its mean argument of center, ic: it is negative if 0° < i< < 180°, and
+ positive if 180° < k < 360°. The Tables of the Seven Planets yield the same result as
+ that deduced from Ptolemy, for
+
+ J. Chabas, B. R. Goldstein
+
+ under Horn equalis, display the length of daylight (i.e., the time interval from sunrise
+ to sunset) for a given locality; it reaches a maximum, 15;lOh, at Gem 28° — Cnc 2°,
+
+ and a minimum, 8;50h, at Sgr 28° — Cap 2°. If we consider the obliquity of the ecliptic,
+
+ s, to be 23;33°, the resulting geographical latitude, <p, for which the table is valid is
+ (p = 42;44°, which agrees fairly well with the parallel through Toulouse (rather than
+ with that of Paris, where the longest daylight is 16;0h). The geographical longitude
+ (see above) and latitude that we derive from the tables do not yield good agreement
+
+ with any place where astronomy was practiced in the fourteenth century, but a locality
+ approximately fitting both computed coordinates is Perpignan.
+
+ The entries in the second column, under tempus horarum, display the length of a
+
+ diurnal seasonal hour (i.e., a twelfth of the length of daylight); it reaches a maximum,
+ 18;57h, at Gem 21° — Cnc 3°, and a minimum, 11 ;3h, at Sgr 21° — Cap 3°. These
+ two columns are mutually consistent.
+
+ The third column displays the equation of time (i.e., the difference between appar
+
+ ent and mean time where apparent time is counted from true noon, that is, the moment
+ that the true Sun crosses the meridian, and mean time is counted from mean noon).
+
+ The argument is the solar longitude expressed in degrees and the entries are given
+ in minutes and seconds of an hour. The extremal values are 0;21,24h (at Tau 26°),
+ 0; 1 l,16h (at Leo 5°), 0;31,48h (at Sco 8°), and 0;0,0h (at Aqr 20°-23°). When con
+ verting these values into time-degrees, that is, multiplying each entry by 360°/24h, we
+ obtain 5;21°, 2;49°, 7;57°, and 0,0°, respectively, which are the characteristic values
+
+ found in the equation of time ascribed to Peter of Saint Omer and used by John of
+ Ligneres, among others (see, e. g„ Chabas and Goldstein 2012, pp. 37-40).
+
+ 6 Mean motions of the Moon
+
+ The mean motions of the Moon are addressed in five tables on ff. 12r-13r. In addition
+
+ to columns for the various arguments, each table has three columns headed centrum
+ lune (here meaning double elongation), porcio lune (argument of lunar anomaly), and
+ medius locus lune (mean longitude of the Moon). Again, for the first two quantities
+ this is not the standard terminology.
+
+ The first table lists the radices at the beginning of each consecutive year from 1342
+
+ for a period of 32 years. The entries for year 1 are 6s 3;36,2° (double elongation), 3s
+ 17;36,22° (anomaly), and 8s 10;16,38° (longitude). The second table gives the mean
+ motion of the Moon for the months; the first entries, for March, are 1 s 5;49,36° (double
+
+ elongation), Is 15;0,53° (anomaly), and Is 18;28,6° (longitude). The third and fourth
+ tables are, respectively, from 1372 to 1852, at 32-year intervals, and for hours and
+
+ parts of an hour, from 1 to 60. The fifth table is for days from 1 to 31, and the first
+
+ entries for argument Id for the three variables are 0s 24;22,54° (double elongation),
+ 0s 13;3,54° (anomaly), and 0s 13;10,35° (longitude), confirming that the first column
+ is indeed the double elongation, for 0s 24;22,54° = 2 • (0s 13;10,35° — 0s 0;59,8°).
+
+ As was the case for the Sun, at the bottom of f. 12v we are given the radices for
+
+ the three variables, anno Christi 1340 perfecto'. 9s 14;21,15,14° (double elongation),
+ 0s 18;53,8,0° (anomaly), and 4s 0;53,34,57° (longitude). We note that the values are
+
+ given here to thirds and that the last digit for the anomaly is "0", indicating that the
+
+ '£) Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:05:22 UTC
+All use subject to https://about.jstor.org/terms
+
+ Displaced tables in Latin
+
+ Table 1 Recomputation for the Moon at epoch: noon, February 28, 1341
+
+ Text
+
+ Computation
+
+ Text — comp.
+
+ Mean argument of center of the Sun
+
+ 8s 16;41,49°
+
+ 256;41,46°
+
+ 0; 0, 3°
+
+ Double elongation
+
+ 9s 14;21,15,14°
+
+ 284;20,13,41°
+
+ 0; 1, 1,33°
+
+ Mean argument of anomaly
+
+ Os 18;53, 8, 0°
+
+ 32; 1,34,53°
+
+ -13; 8,26,53°
+
+ Lunar mean longitude
+
+ 4s 0;53,34,57°
+
+ I28;29, 2, 0°
+
+ —7;35,27, 3°
+
+ Table 2 More detailed recomputation for the Moon at epoch: noon, February 28, 1341
+
+ Text
+
+ Computation
+
+ Text — comp.
+
+ Mean argument of center of the Sun
+
+ 8s 16;41,49°
+
+ 256;41,49°
+
+ 0; 0, 0°
+
+ Double elongation
+
+ 9s 14;21,15,14°
+
+ 284;21,14,39°
+
+ +0; 0, 0,35°
+
+ Mean argument of anomaly
+
+ Os 18;53, 8, 0°
+
+ 32; 2, 7,32°
+
+ -13; 8,59,32°
+
+ Lunar mean longitude
+
+ 4s 0;53,34,57°
+
+ 128;29,34,57°
+
+ —7;36, 0, 0°
+
+ author was sensitive to accuracy. From the values of the radices and those for year 32
+
+ in the first table for the mean motions of the Moon, we derive the following values for
+ the mean motions: 24;22,53,23,16°/d (double elongation),15 13;3,53,57,30°/d (anom
+ aly),16 and 13;10,35,l,15°/d (longitude).17 All of them are typical parameters of the
+ PAT (Ratdolt 1483, f. d5v-d7r).
+
+ We have recomputed the radices using the PAT for noon of February 28, 1341 for
+ the meridian of Paris, 12° east of Toledo, that is, at 0;2d before noon in Toledo. The
+
+ results are presented in Table 1.
+
+ The agreement is good for the double elongation and the mean argument of center
+
+ of the Sun, but much better results are obtained when recomputing the radices for
+ 0;l,57,30d before noon in Toledo, that is, for a locality 11 ;47,45° east of that Spanish
+ city. The results are presented in Table 2.
+
+ From Table 2 it follows that the mean argument of anomaly of the Moon tabulated
+ here is diminished by 13;9° from that obtained from the PAT for a locality near the
+ meridian of Paris, and that the mean lunar longitude is diminished by exactly 7;36°.
+ As will be seen in Sect. 8, the displacements applied to the two quantities correspond,
+
+ on the one hand, to the maximum value of the lunar equation of center in the PAT
+ (13;9°) and, on the other hand, to the sum (7;36°) of two parameters, the maximum
+
+ 15 The value for year 32 given in the text is 4s 15;17,11°, and the difference between this value and that of
+ the radix is 210;55,56°. Thus the amount of the double elongation in 32 years of 365; 15 days is 2I0;55,56°
+
+ and 791 complete revolutions, leading to a daily mean motion of 24;22,53,23,16°/d.
+
+ 16 The value for year 32 given in the text is 12s 22;28,24° (read 2s 22;28,24°), and the difference between
+ this value and that of the radix is 63;35,6°. Thus the amount traveled by the Moon in the argument of
+ anomaly in 32 years of 365; 15 days is 63;35,6° and 424 complete revolutions, leading to a daily mean
+ motion of 13;3,53,57,30°/d.
+
+ 17 The value for year 32 given in the text is Is 16;35,39°, and the difference between this value and that
+ of the radix is 2B5;42,4°. Thus the amount traveled by the Moon in longitude in 32 years of 365;15 days is
+ 285;42,4° and 427 complete revolutions, leading to a daily mean motion of 13; 10,35,1,15°/d.
+
+ <2} Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:05:22 UTC
+All use subject to https://about.jstor.org/terms
+
+ 10 J. Chabas, B. R. Goldstein
+
+ values for the equation of anomaly (4;56°) and for the increment (2;40°). So, if we
+ call A the mean argument of anomaly in the Tables of the Seven Planets, and a that
+ in the PAT, we have
+
+ Similarly, if L is the mean lunar longitude in the Tables of the Seven Planets, and
+
+ X that in the PAT, we have
+
+ A — a — 13;9°.
+
+ L - X -7;36°.
+
+ (4)
+
+ (5)
+
+ (6)
+
+ (7)
+
+ The table for the lunar latitude (f. 13r) has a maximum of 5;0,0° at 90°; it is the stan
+
+ dard table found in many zijes, including those used by Alfonsine astronomers (see
+ Chabas and Goldstein 2012, pp. 103-104).
+
+ 7 Lunar latitude
+
+ 8 Lunar equations
+
+ The lunar equations are presented in three separate tables. The author, well aware
+ of Ptolemy's second lunar model (see Fig. B), has split the treatment of the lunar
+ equations, C3 and c, according to the two independent variables involved: the double
+
+ elongation, 2rj, and the true argument of anomaly, a. The true longitude of the Moon is
+
+ the sum of four positive terms, all of which are tabulated (see Eq. 14, below), whereas
+ in the standard Alfonsine tables the true longitude of the Moon is the algebraic sum of
+ three terms (see Eq. 8, below). Despite the differences in these procedures, we show
+ that the results are the same.
+
+ The longitude of the Moon, X, is found by applying an equation, c, to its mean
+ longitude, X, which is a linear function of time: X = X + c. Moreover, the mean argu
+ ment of anomaly, a, is also a linear function of time. In Ptolemy's second lunar model
+ (.Almagest V.8), the lunar equation, c, depends on two independent variables: the true
+
+ argument of anomaly, a (angle AcCL), and the double elongation, 2rj (twice the angu
+
+ lar distance between the mean longitude of the Moon and the mean longitude of the
+ Sun). In this context the lunar equation is a combination of functions of one variable
+
+ represented by the 4th, 5th, and 6th columns of Ptolemy's table in Almagest V.8. The
+
+ vast majority of later sets of tables used Ptolemy's approach, although some of them
+
+ have slightly modified parameters or rearrangements of the order of the columns. In
+
+ PAT these three columns correspond respectively to the 6th, 5th, and 4th columns; in
+
+ the following, we will use the conventions of PAT to identify the columns <?,■:
+
+ c = c6(a) +c5(a) • C4(2t])
+
+ a = a + CT,(2rf).
+
+ where
+
+ <£) Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:05:22 UTC
+All use subject to https://about.jstor.org/terms
+
+ Displaced tables in Latin 11
+
+ Fig. B Ptolemy's second lunar
+ model. O is the observer, D is
+ the center of the deferent circle
+
+ s
+
+ whose radius is DC, C is the
+
+ center of the epicycle, S is the
+ direction to the mean Sun, L is
+
+ the true position of the Moon,
+ V is the direction to the vernal
+
+ point, and D' is 180° from D on
+ a circle about O with radius
+
+ 0 D. The angle ti is the
+
+ elongation of the mean longitude
+ of the Moon from the mean
+
+ longitude of the Sun, angle a is
+ the mean argument of anomaly
+
+ counted from the mean apogee
+
+ /\c, whose position is fixed by
+ the direction D'C, Ae is the true
+
+ lunar apogee, angles C3 and c are
+ the corrections to the mean lunar
+
+ longitude, and angle A is the true
+ longitude of the Moon
+
+ In Eqs. 6 and 7,03(2/7) is the equation of center, c^ilrj) represent the minutes of pro
+ portion, C5(a) is called the increment, and C(,(a) is the equation of anomaly. Thus, the
+
+ true longitude of the Moon is given by
+
+ X = X + c6(a) + 05(a) ■ c4(2ri). (8)
+
+ The first table (ff. 13v-14r) is for the equation of center; it has a column for the
+ argument, from 0° to 29°, and then columns for each sign, from Os to lis. For each
+ sign and each degree of the argument, we are given entries for the equation of center
+ and the minutes of proportion (C3 and C4, respectively, in PAT's arrangement, both
+ variables depending on the double elongation). For the tabulated equation of cen
+ ter, the entry for 0s 0° is 13;9°. It reaches a maximum of 26;18° (twice 13;9°) at
+ 114°-115°, and a minimum of 0;0° at 245°-246°. So the equation of center of the
+ Moon is tabulated with a vertical displacement, for its entries are displaced upwards
+
+ by 13;9° with respect to the standard Alfonsine table (see Chabas and Goldstein 2012,
+ Table 6.2A, p. 71). If we call 03(277) the equation of center in the corresponding
+
+ Alfonsine table, the tabulated entries, C^,(2rj), for the equation of center in the Tables
+
+ for the Seven Planets are given by
+
+ C3(2?7) = c3(2?7) + 13;9°. (9)
+
+ It is worth noting that Eq. 7 and the definition of A in Eq. 4 imply that A = a.18
+
+ 18 A = A + C&rj) = (a - 13;9°) + C3(2ij) = (a - 13;9°) + (c3(2;j) + 13;9°) = a + c3(2??) = a.
+
+ *£) Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:05:22 UTC
+All use subject to https://about.jstor.org/terms
+
+ For the minutes of proportion the entry for Os 0° is 0'. The entries increase mono
+
+ tonically to 60' at 173°-187°, and decrease to 0' at 349°-371°. Except for copyist's
+ errors, they agree with those in the PAT. Therefore,
+
+ 12 J. Chabas, B. R. Goldstein
+
+ C4(2?j) = c4(2f7).
+
+ (10)
+
+ Let us now turn to the third table (ff. 14v-l 5r), which is for the equation of anomaly;
+
+ it has a column for the argument, from 0° to 29°, and then columns for each zodiacal
+ sign, from 0s to lis. For each sign and each degree of the argument, we are given
+ entries for the equation of anomaly and the dyversitas dyametri proporcionalis19 (cor
+
+ responding to c'6 and C5, respectively, in PAT's arrangement, both variables depending
+ on the true argument of anomaly). For the equation of anomaly, the entry for 0s 0°
+ is 4;56,0°. It reaches a minimum of 0;0,0° at 91°-99° and a maximum of 9;52,0°
+
+ (twice 4;56,0°) at 264°, that is, the vertical displacement is 4;56°. This parameter was
+ systematically used by Parisian Alfonsine astronomers, but its origin goes back much
+ earlier (Chabas and Goldstein 2003, pp. 252-253). Thus, if we call C6(a) the equation
+ of anomaly in the corresponding PAT, the tabulated entries, Cg(A), for the equation
+ of anomaly in the Tables for the Seven Planets are given by
+
+ C6(A) = c6(a)+4-56°.
+
+ (ID
+
+ The first entry in the column for the dyversitas dyametri proporcionalis, usually called
+ "increment", is 2;40°; it reaches a minimum of 0;0° at 113°—119° and a maximum of
+
+ 5;20° (twice 2;40°) at 251°-257°. Except for copyist's errors, the entries agree with
+ those in the PAT, but for the vertical displacement of 2;40°. Again, if we call C5 (a) the
+
+ increment in the corresponding PAT, the tabulated entries, C5(A), for the increment
+ in the Tables for the Seven Planets are given by
+
+ C5(A) = c5(a) + 2;40°.
+
+ (12)
+
+ In the second table (f. 14v), headed dyversitas dyametri centralis, the argument is
+
+ given at intervals of 1', from 0' to 60', and the entries, D(M), decrease monotonically
+ from 2;40,0° (at 0') to 0;0,0° (at 60'). Moreover, the entries show a constant decrease
+
+ of 0;2,40° for each degree of the argument (see Table A); hence,
+
+ D(M) = 2;40 • (1 - C4(2rj)).
+
+ (13)
+
+ The tables described above yield the same results as those obtained from the PAT
+
+ for the true position of the Moon, and were computed with a similar expression (see
+
+ Eq. 8). If A. and L are the true lunar longitudes in the PAT and the Tables for the Seven
+
+ 19 The word dyversitas, used in the headings of the lunar and the planetary equations, is often spelled
+ diversitas.
+
+ Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:05:22 UTC
+All use subject to https://about.jstor.org/terms
+
+ Planets, respectively, then using Eqs. 5, 8, 10, 11, and 12, X can be written as
+
+ A. = X + Cf,(a) + cs(a) ■ C4(2r})
+
+ = (L + 7;36°) + (CfiCA) - 4;56°) + (C5(A) - 2;40°) ■ C4(2r?)
+
+ = (L + C6(A) + 2;40°) + C5(A) ■ C4(2t?) - 2;40° • C4(2r?)
+
+ = (L + C6(A) + C5(A) ■ C4(2rj)) + 2;40° - 2;40° • C4(2t)) = L.
+
+ The term, 2;40° • (1 — C4(2/y)) = D(M), is found in the table for the dyversitas
+ dyametri centralis, and therefore the expression to compute the true longitude of the
+ Moon is
+
+ Displaced tables in Latin 13
+
+ Table A dyversitas dyametri
+ centralis (excerpt)
+
+ Arg. (') Dyv. dyam. centralis (°)
+
+ 0 2;40, 0
+
+ 10 2; 13,20
+
+ 20 !;46,40
+
+ 30 1;20, 0
+
+ 40 0;53,20
+
+ 50 0;26,40
+
+ 60 0; 0, 0
+
+ L = l + C6(A) + C5(A) ■ C4(2r,) + D(M), (14)
+
+ where all the terms are tabulated and none of them is to be subtracted. Note that there
+
+ is no counterpart to the function D(M) in the standard Alfonsine tables.
+
+ The canons to this set of tables, which are not extant, should have had an instruction
+
+ more or less in the following terms: "To determine the true position of the Moon, find
+ the mean longitude of the Moon, and keep it; find the double elongation, and enter
+
+ with it in the table for the equation of center and the minutes of proportion, and keep
+
+ them. Find the mean argument of anomaly, and add to it the equation of center to
+
+ obtain the true argument of anomaly, and enter with it in the table for the equation of
+
+ anomaly and the increment, and keep them. Enter the table for the dyversitas dyametri
+
+ centralis with the minutes of proportion, and keep what you find there. Then add the
+
+ mean longitude to the true argument of anomaly, and add the result to what is obtained
+
+ from multiplying the increment by the minutes of proportion. To the value obtained
+
+ add what you found in the table for the dyversitas dyametri centralis."
+
+ To illustrate Eq. 14 consider the Moon at epoch (noon, February 28, 1341), when
+
+ the double elongation, 2rj, was 4,45;9,0° (=285;9,0°). The equation of center in the
+ standard Alfonsine tables is 03(2*7) = —10;26° and, because of Eq. 9, C^Clrj) =
+
+ Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:05:22 UTC
+All use subject to https://about.jstor.org/terms
+
+ 14 J. Chabas, B. R. Goldstein
+
+ 2;43°(=—10;26° +13;9°). The corresponding minutes of proportion are c^dr]) = 19
+ and C^{2r}) = 19, because of Eq. 10. In this case the term D(M) — 1;49,20°. Now,
+ the argument of anomaly, a, according to the standard Alfonsine tables, is 32;27,43°,
+ and thus a = 22; 1,43°(=32;27,43°-10;26°). From Eq. 4, A = 19; 18,43°, and thus
+ A = 22; 1,43° (=19; 18,43° +2;43°). The tabulated values for the equation of anomaly,
+ C6(A), and the dyversitas dyametri proporcionalis, C5(A), are 3;13,19° and 1;48°,
+
+ respectively, whereas the values for the equation of anomaly, C(,(a), and the increment,
+ cs(a), found in the standard Alfonsine tables are —1;42,41° and — 0;52°, respectively.
+ We note that Eqs. 11 and 12 hold. According to Eq. 6, using the standard Alfon
+ sine tables the correction to be applied is c = (—1:42,41°) + (—0;52°) • (19/60) =
+ —1;59,9°, whereas using the Tables of The Seven Planets C = 3;13,19° + 1;48° •
+ (19/60) = 3;47,31°.
+
+ With the standard Alfonsine tables the mean lunar longitude at epoch, X, is
+
+ computed to be 128;55,23°; thus, with Eq. 8, the true lunar longitude of the Moon at
+ epoch is
+
+ X = X + ce(a) + 05(a) ■ C4(2r7)
+
+ = 128;55,23° - 1;59,9° = 126;56,14°.
+
+ With the Tables for the Seven Planets we obtain L = 121; 19,23° (see Eq. 5); thus,
+ with Eq. 14, the true longitude of the Moon at epoch is
+
+ L = L + C6(A) + C5(A) • C4(277) + D(M)
+
+ = 121; 19,23° + 3;47,31° + 1;49,20° = 126;56,14°,
+
+ in agreement with X.
+
+ 9 Lunar node
+
+ Folio 16r contains five tables for the mean motion of the lunar node. The first lists
+
+ the values of the mean motion of the node at the beginning of each year, beginning
+
+ with 1342, for a period of 32 years. The entry for year 1, i.e., 1342, or more precisely,
+ February 28,1341, is 3s 22;3;17°. The second table gives the mean motion of the Sun
+
+ for the months; its first entry corresponds to March (0s 1;38,30°) and the last one to
+
+ February (0s 19;19,42°). The third table lists values from 1372 to 1852, at 32-year
+ intervals. The fourth and fifth tables are, respectively, for the mean motion of the lunar
+
+ node for days from 1 to 31, and for hours and parts of an hour from 1 to 60. The entry
+
+ for argument Id is 0s 0;0,3,11°. As was the case for other mean motions, at the bottom
+
+ of the folio we are told that the radix at anno Christi 1340perfecto is 3s 2;43,34,43°.
+ From this value and that for year 32 we derive —0;3,10,38,7°/d as the mean motion
+
+ of the lunar node,20 in full agreement with the corresponding parameter in the PAT.
+
+ 20 The value for year 32 given in the text is Us 21 ;39,20°, and the difference between this value and that
+ of the radix is 258;55,45,17°. Thus the amount traveled by the lunar node in 32 years of 365; 15 days is
+ 285;42,4° and one complete revolution, leading to a daily mean motion of —0;3,10,38,7°/d.
+
+ •£) Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:05:22 UTC
+All use subject to https://about.jstor.org/terms
+
+ Displaced tables in Latin 15
+
+ 10 Precession/trepidation
+
+ On folios 16v-17r there are various tables for precession/trepidation in the framework
+ of the PAT. In general, the approach found in the Alfonsine corpus is to treat two
+ terms separately: a linear term, usually called "motion of the apogees and the fixed
+ stars", based on a mean motion of 0;0,0,4,20,41,17,12°/d, and presented in a single
+ table; and a periodic term, usually called "motion of access and recess of the 8th
+ sphere", requiring the use of two tables (one for the "mean motion", based on a value
+ of 0;0,0,30,24,49,0°/d, and another for its "equation", found in a separate table with a
+ maximum of 9;0,0°): see Chabas and Goldstein (2012, pp. 48-52).
+
+ The author of the Tables for the Seven Planets follows the same approach, uses the
+
+ same parameters, but gives a different presentation. Folio 16v has four tables under
+
+ the general title Tabula motus augium et stellarum fixarum atque 8° spere, displaying
+
+ the two mean motions of the components of Alfonsine variable precession. Each table
+
+ has two columns, in addition to that for the argument: the mean motion of the apogees
+
+ and the fixed stars on the one hand, and the mean motion of the 8th sphere on the
+
+ other. The motion of trepidation is to be applied to the positions of the fixed stars as
+
+ well as to the positions of the planetary apogees.
+
+ The first table gives entries for both quantities at the beginning of each year for
+
+ a period of 32 consecutive years. The entries for year 1 are 0s 0;51,12° (apogees)
+ and 2s 8;10;51° (8th sphere), and those for year 32 are 0s 1;4,52° (apogees) and
+ 2s 9;46;31° (8th sphere). The second table gives the mean motion of both quanti
+ ties for accumulated months. The third table, headed ad annos perpetuacionis, has
+ entries for years 1372 to 1852, at 32-year intervals, of both quantities, whereas the
+ fourth table is for their mean motions for days from 1 to 31. As was the case for
+ other quantities, at the bottom of the folio we are given the radices for both quanti
+ ties, anno Christi 1340 perfecto: 0s 9;50,45,59,27° (apogees), and 2s 8;7,45,20,10°
+
+ (8th sphere).21 From these radices and the entries for year 32 we derive the following
+ mean motions: 0;0,26,28°/y (apogees) and 0;3,5,1 l°/y (8th sphere), which correspond
+ to about 0;0,0,4,20,51°/d (apogees) and 0;0,0,30,25,12°/d (8th sphere), that is, 1 revo
+ lution in 49,000 and 7,000 years, respectively. These are the standard values found in
+ Alfonsine astronomy for precession/trepidation. Combining the mean motion of the
+
+ 8th sphere and its radix, we find that the argument of the 8th sphere was 0° about
+ 1324 years and 9 months before the epoch of these tables (February 28, 1341), that is,
+ in May 16 AD. This date is explicitly given by Giovanni Bianchini (fifteenth century)
+
+ as the epoch of the Alfonsine model; see Chabas and Goldstein (2009, p. 32), and the
+
+ Tables for the Seven Planets offer a justification of it.
+
+ It remains to compute the periodic term of Alfonsine trepidation, that is, the equa
+
+ tion of the 8th sphere, which is tabulated on f. 17r. Indeed, the entries given in the
+
+ table are based on the standard Alfonsine equation of the 8th sphere which reaches
+ a maximum of 9;0,0° at 90°, a minimum of —9;0,0° at 270°, and vanishes at 0° and
+
+ 180° (see also Ratdolt 1483, f. d3v). The corresponding entries on f. 17r are 9;0,0° at
+ 0°, 18;0,0° (maximum) at 90°, 9;0,0° at 180°, 0;0,0° (minimum) at 270°, and 0;0,0°
+
+ 21 We note that the radix for the apogees has the wrong number of degrees (probably a copyist's error); to
+ be consistent with the 32 values in the table, it should be Os 0;50,45,59,27°.
+
+ <£) Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:05:22 UTC
+All use subject to https://about.jstor.org/terms
+
+ 16 J. Chabas, B. R. Goldstein
+
+ at 360°; thus, the entries are displaced upwards by 9° from the standard table, and can
+
+ be represented by the modern expression (where y is the entry and x is the argument):
+
+ y = 9° + arcsin(sin9° • sinx). (15)
+
+ This is another case of a vertically displaced table we find in this manuscript. Inter
+
+ estingly, the only example in Latin of a displaced table previously known to us is that
+
+ of John Vimond (see n. 10), whose table for the equation of the 8th sphere presents
+ both a vertical displacement (8;17°) and a horizontal displacement (113°). However,
+ Vimond's purpose was not to avoid "negative" numbers in his table (otherwise he
+ would have used a vertical displacement of at least 9;0°, as here); rather, he wished to
+
+ set the origin of the equation of the 8th sphere at the value (8; 17°) it had at the time he
+
+ composed his tables (1320). Apparently, the author of the Tables for the Seven Planets
+
+ did not have the same goal as Vimond, although he used the same principle.
+
+ As mentioned above, on folio 17r there is also a small table entitled Motus augiuni
+ equatus ad 32 annos post annum 1340, listing 32 values. The first entry is 0;0,37,11°
+
+ and the last entry, for 32 years, is 0; 19,42,35°. The entries show a steady increase but
+ the line-by-line differences do not reveal a clear pattern. A complement to this table
+
+ is found on f. 18r among the tables for the mean motions, where we find one headed
+ Motus augium equatus ad annos perpetuacionis, listing entries from 1372 to 1852 at
+ intervals of 32 years. The first entry is 0; 19,42,35° but, as in the previous case, the
+ line-by-line differences do not vary in a smooth way. With all these cautions, from
+
+ the entry for 32 years it is possible to derive a motion of the apogee of 0;0,36,57°/y,
+
+ or 0;0,0,6,4°/d, which is the amount to be added to the mean motion in solar anomaly
+ to obtain the mean motion in the argument of solar longitude (see Sect. 3). The value
+
+ we deduce from the table is certainly close to Ptolemy's value for precession of 1° in
+ 100 years, that is 0;0,36° in 1 Egyptian year of 365 days.
+
+ 11 Planetary mean motions
+
+ Next come tables for the mean motions, equations, and stations of the five planets,
+ on ff. 17v-22r (Saturn), ff. 22r-26v (Jupiter), ff. 27r-31r (Mars), ff. 31r-35v (Venus),
+
+ and ff. 35r-40r (Mercury). In this section we review the mean motions of the planets,
+
+ for each of which we are given five tables. As we will see, all the mean motions are
+
+ displaced with respect to those in the standard Alfonsine tables.
+
+ The first of these five tables lists the radices of two variables, centrum (argument of
+
+ center) and porcio (here meaning the displaced argument of anomaly, as will be seen
+
+ below), for the beginning of each year after 1340 for a period of 32 consecutive years.
+
+ The entries for both variables for year 32 are, respectively: ls6;7,52° and Is 14;30,11°
+ (Saturn); 8s 12;53,57° and 8s 18;7,43° (Jupiter); 2s 0;5,0° and 2s 19;44,28° (Mars); 6s
+ 25;36,12° and 7s 22;56,20° (Venus); and 3s 19;22,12° and2s4;36,10°(Mercury). The
+ second of these tables gives the mean motion of the planets for accumulated months,
+
+ beginning in March, for the two variables. The third of these tables is headed ad annos
+
+ perpetuacionis and displays entries for the two variables from 1372 to 1852, at 32-year
+
+ •£) Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:05:22 UTC
+All use subject to https://about.jstor.org/terms
+
+ Displaced tables in Latin 17
+
+ intervals. The fourth and fifth of these tables are, respectively, for the mean motion of
+
+ the planets for days from 1 to 31, and for hours and parts of an hour from 1 to 60.
+
+ From the values of the radices and those for year 32 in the first table for the mean
+
+ motions of the planets, we derive the following values for the daily mean motions:
+ 0;2,0,29,13°/d (Saturn, argument of center); 0;4,59,9,23°/d (Jupiter, argument of cen
+
+ ter); and 0;31,26,32,35°/d (Mars, argument of center). These three parameters differ by
+
+ 0;0,0,6,4°/d from the standard Alfonsine mean motions, as was the case for the argu
+
+ ment of solar anomaly, indicating that the precession of 1° in 100 years was applied to
+
+ the planets as well as to the Sun. We have also derived the daily mean motions of anom
+
+ aly for the inferior planets: 0;36,59,27,24°/d (Venus) and 3;6,24,7,43°/d (Mercury),
+ which agree exactly with the corresponding parameters in the PAT.
+
+ As was the case for the Sun and the Moon, we are also given the radices anno christi
+
+ 1340 completo, which we display in Table 3.
+
+ We have recomputed the mean positions of the planets using the PAT for noon
+
+ of February 28, 1341 for the meridian of Paris, 12° east of Toledo. The results are
+ presented in Table 4.
+
+ From Table 4 it follows that the arguments of center of the five planets given in
+ these tables are diminished, but for a few seconds, by 14°, 18°, 61°, 51°, and 28°
+ from those obtained from the PAT for a locality near the meridian of Paris. Table 4
+
+ also indicates that the entries for the argument of anomaly are diminished, but for a
+ few seconds, by 7°, 6°, 12°, 3°, and 4° from those derived from the PAT. As will be
+
+ shown in Sect. 12, all these integer values correspond to the horizontal and vertical
+ displacements (khi and kV3, respectively) used in the tables for the equations of the
+
+ Table 3 Radices for year 1340 (complete)
+
+ Saturn
+
+ Jupiter
+
+ Mars
+
+ Venus
+
+ Mercury
+
+ Centrum
+
+ Porcio
+
+ Os 4;56,59°
+
+ Os 1;38,17,48°
+
+ Is 25; 6,26, 4°
+
+ 6s 25;41,48,36°
+
+ 3s 19;27,49°
+
+ 2s 8;46,40°
+
+ 4s 29;28,59,11°
+
+ 2s 24;48,42,[..]°
+
+ 7s 17; 6,11°
+
+ 3s 23;27,56°
+
+ Table 4 Recomputation for the planets at epoch: noon, February 28, 1341
+
+ Argument
+ of center
+
+ Difference
+
+ Rounded
+
+ Argument
+
+ Difference
+
+ Rounded
+
+ text — comp.
+
+ value
+
+ of anomaly
+
+ text — comp.
+
+ value
+
+ Saturn
+
+ Jupiter
+
+ Mars
+
+ Venus
+
+ I8;56,58°
+
+ —13;59,59°
+
+ 75:46,38°
+
+ —6;59,58°
+
+ 19; 18,21 °
+
+ —17;40, 3oa
+
+ 155:28,57
+
+ -5;59,58°
+
+ 116: 6,24°
+
+ —60;59,58°
+
+ 96;48,44°
+
+ -12; 0, 2°
+
+ 256;41,56°
+
+ -51; 0, 7°
+
+ 230; 6, 9°
+
+ —2;59,58°
+
+ Mercury
+
+ 137;27,46°
+
+ —27;59,57°
+
+ 117;27,52°
+
+ -3;59,56°
+
+ 14
+
+ 18
+
+ 61
+
+ 51
+
+ 28
+
+ 12
+
+ 7
+
+ 6
+
+ 3
+
+ 4
+
+ a The difference is —18;0,3° if we take the radix for the argument of center in Table 3 to be 1;18,17,48°,
+ which is the result one would obtain from a set of standard Alfonsine tables
+
+ ® Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:05:22 UTC
+All use subject to https://about.jstor.org/terms
+
+ planets. If we call k and a the planetary arguments of center and anomaly in the PAT,
+ the corresponding quantities in the Tables for the Seven Planets are defined by:
+
+ 18 J. Chabas, B. R. Goldstein
+
+ and
+
+ K = k — kh,-}, (16)
+
+ A — a — kv$.
+
+ (17)
+
+ 12 Planetary equations and stations
+
+ In this section we review the equations and the stations of the five planets, for each
+ of which we are also given five tables, in which the equation of center (one table;
+ see Sect. 12.1) and the equation of anomaly (four tables; see Sects., 12.2 and 12.3)
+
+ are treated separately. Figure C displays the model for Mars. As we will see, the true
+
+ longitude of a planet is found by adding four positive terms, all of which are tabulated
+
+ (see Eqs. 43 and 45, below). These terms are all different from those in the standard
+
+ Fig. C Model for Mars, where O is the observer, D is the center of the deferent circle AC P, A is the
+ apogee, P is the perigee, E is the equant point, 0 V is the direction to the vernal point on the ecliptic, 5
+ is the direction to the mean Sun, Ae is the mean apogee on the epicycle whose center is C, Ae is the true
+
+ apogee on the epicycle, k and a are the mean arguments of center and anomaly, respectively, M is the mean
+ position of the planet, and M is its true position (where, for an outer planet, CM is parallel to OS)
+
+ <?J Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:05:22 UTC
+All use subject to https://about.jstor.org/terms
+
+ Table B equatio centri, equatio porcionis, and minutes of proportion for Saturn (excerpt)
+
+ Displaced tables in Latin 19
+
+ (°) Equatio centri (°) Equatio porcionis (°) Minutes of proportion (')
+
+ 0
+
+ !
+
+ 2
+
+ 60
+
+ 79
+
+ 80
+
+ 81
+
+ 82
+
+ 180
+
+ 254
+
+ 255
+
+ 264
+
+ 265
+
+ 266
+
+ 267
+
+ 359
+
+ 5;30
+
+ 5;24
+
+ 5; 17
+
+ 0;48
+
+ 0;29
+
+ 0;29
+
+ 0;30
+
+ 0;30
+
+ 8;39
+
+ 13;31
+
+ 13;31
+
+ 13;25
+
+ 13;23
+
+ 13;22
+
+ 13;21
+
+ 5;36
+
+ 8;30
+
+ 8;36
+
+ 8;43
+
+ 13; 12
+
+ 13;31
+
+ 13;31
+
+ 13;30
+
+ 13;30
+
+ 5;21
+
+ 0;29
+
+ 0;29
+
+ 0;35
+
+ 0;37
+
+ 0;38
+
+ 0;39
+
+ 8;24
+
+ 0
+
+ 0
+
+ 1
+
+ 37
+
+ 58
+
+ 59
+
+ 1
+
+ 2
+
+ 60
+
+ 0
+
+ 0
+
+ 2
+
+ 1
+
+ 59
+
+ 58
+
+ 0
+
+ Alfonsine tables, where the true longitude is found as the algebraic sum of four terms.
+ The author of these tables has considered two cases: (1) the epicyle is near the apogee
+
+ of the deferent, and (2) the epicycle is near the perigee of the deferent. In case 1 he has
+ the distance of the center of the epicycle vary from its maximum to its mean value,
+
+ whereas in case 2 he has the distance of the center of the epicycle vary from its mean
+ to its minimum value.
+
+ 12.1 Equation of center and equatio porcionis
+
+ In the first table the argument ranges from 0° to 29° for each zodiacal sign, and for
+
+ each degree we are given three entries: equatio centri, equatio porcionis, and minutes
+
+ of proportion. The first two are given in degrees and minutes, and the third entry is
+ given in minutes (see Table B).
+
+ Table 5 displays significant values of the equation of center for the five planets. To
+
+ determine the relation between the equation of center presented here and that in the
+
+ PAT, let us consider the case of Mars. The entry for 0° is 2;29°; the minimum (0;36°) is
+ reached at 31°-35° and the maximum (23;24°) at 203°-207°. The difference between
+
+ <£) Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:05:22 UTC
+All use subject to https://about.jstor.org/terms
+
+ 20 J. Chabas, B. R. Goldstein
+
+ the two extremal values is 22;48°, that is, twice 11;24°, the standard parameter used
+ for Mars in the PAT. The entries in the table are displaced exactly 12° upwards as com
+
+ pared with the corresponding entries in the PAT, and 12° is the minimum integer for a
+
+ vertical displacement ensuring that all entries for the equation of center are positive.
+
+ But the entries for the equation of center have a second displacement, a horizontal dis
+ placement, of 61° with respect to the table in the PAT. With the notation used above,
+
+ K = k — 61°. If we call c3(k) the equation of center in the corresponding PAT,22 the
+
+ tabulated entries, C3 (K), for the equation of center in the Tables for the Seven Planets
+ are given by C3(K) = c3(K + 61°) + 12°. This is the first example of a horizontal
+ displacement in these tables. For each planet the corresponding displacement applied
+
+ to k (see Table 5) accounts for the difference between the entries given in the Tables
+
+ for the Seven Planets and the PAT. Thus, the general rule for the equation of center of
+
+ the planets can be written as
+
+ C3(K) = c3(K + kh3) + kv3, (18)
+
+ where kh3 and kv3 are the horizontal and vertical displacements associated with c3 (k),
+
+ the equation of center in the PAT. Once C3(K) is known, the true argument of center,
+ K, is defined as:
+
+ on analogy with the expression for the true argument of center, k , used in the Alfonsine
+ tables,
+
+ K = K+C3(K), (19)
+
+ k = k +c3(ic), (20)
+
+ where c3(k) < 0° when 0° < k < 180°, as shown in Fig. D.
+
+ All the underlying parameters displayed in Table 5 are strictly in the tradition of
+
+ the Alfonsine corpus. Interestingly, the function for Venus is presented with displace
+ ments that differ from that for the Sun (see Sect. 4, above), although they share the
+ same maximum equation, 2;10°.
+
+ As for the column labeled equatio porcionis, note that for a given argument its
+
+ entries and those corresponding to them in the equation of center always add up to an
+
+ integer number of degrees: 14° (Saturn), 12° (Jupiter), 24° (Mars), 6° (Venus), and 8°
+
+ (Mercury). This is exactly twice the vertical displacement applied to each planet, that
+ is, 2 ■ kv3. Thus, if we call the equatio porcionis E(K), it follows that the author of
+ the Tables of the Seven Planets defined it as
+
+ E(K) + C3(K) = 2-kv3. (21)
+
+ This definition was intended to eliminate subtractions, as will be justified below: there
+ is no counterpart to the function E(K) in the standard Alfonsine tables. Figure D
+
+ 22 In the PAT the equation of center is displayed in the third column in the tables for planetary equations,
+ hence the notation used here.
+
+ Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:05:22 UTC
+All use subject to https://about.jstor.org/terms
+
+ Displaced tables in Latin 21
+
+ m
+
+ vo cm t-- —• on
+ in m o cm cn
+ cm cm cm cm cm
+
+ cm cm cm cm cm
+
+ co in cm —
+
+ — — cm
+
+ vo cm —
+
+ m m
+
+ cm ~
+
+ £ <u
+ b w cn
+ 3 '& a
+ 5 s
+ on
+
+ Table 5 Equation of center for all planets
+
+ Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:05:22 UTC
+All use subject to https://about.jstor.org/terms
+
+ 22 J. Chabas, B. R. Goldstein
+
+ Mars, equation of center and equatio
+
+ porcionis
+
+ MS 10262, eq. center
+
+ PAT, eq. center
+
+ — MS 10262, eq. porcionis
+
+ ® o o o o o o o/o ooooooooo
+
+ K- 2 «. « i? H M pj N S ® S S n jn
+
+ Fig. I) Mars, equation of center and equatio porcionis
+
+ shows the equation of center and the equatio porcionis in the case of Mars. The other
+
+ planets follow the same pattern (see Table 5).
+
+ When E(K) is known, the true anomaly, A, is defined as:
+
+ A = A + E(K) (22)
+
+ on analogy with the expression for the true argument of anomaly, a, used in the Al
+ fonsine tables,
+
+ a = a — C3 (it) (23)
+
+ where, again, ci(ic) < 0° when 0° < k < 180°.
+
+ In the third column of this table the entries for the minutes of proportion are also
+
+ dependent upon those in the PAT (see Fig. E for the case Mars) except for two features:
+
+ a horizontal displacement, different for each planet, and a vertical displacement of 60',
+
+ which is limited to the positions when the planet is near its apogee. Note that in the
+ PAT the minutes of proportion for these positions are subtractive, whereas they are
+ additive for the positions near perigee. Consequently, in order to avoid subtractions,
+ the author of the Tables for the Seven Planets only applied a vertical displacement of
+ 60' to half of the column, that is, where the center of the epicycle is near apogee, and
+ left unchanged the additive part (for details see Table 6). With this approach, if an
+ entry, c^k), gives the minutes of proportion in the PAT,23 the corresponding entry in
+ the Tables for the Seven Planets in the case of Mars is Ci(K) = C4(K + 49°) + 60',
+
+ near apogee, and C^(K) = c^(K + 49°), near perigee. Thus, the general rule for the
+ equation of center of the planets can be written as
+
+ 23 In the PAT the minutes of proportion are displayed in the fourth column in the tables for planetary equa
+ tions; hence the notation used here. Note, however, that in the corresponding table in Ptolemy's Almagest
+ they are found in the eighth column and depend on the mean argument of center, whereas in the PAT they
+
+ are a function of the true argument of center. For this function in the Almagest, see Neugebauer (1975, pp.
+ 185-186).
+
+ Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:05:22 UTC
+All use subject to https://about.jstor.org/terms
+
+ Displaced tables in Latin 23
+
+ Mars, minutes of proportion
+
+ 80
+
+ 60
+
+ 40
+
+ 20
+
+ 0
+
+ -20
+
+ -40
+
+ -60
+
+ -80
+
+ vi o vi o m**e inotnomoinomem d.in o m o vt o
+
+ -MS 10262
+
+ ■ PAT
+
+ Fig. E Mars, minutes of proportion
+
+ Table 6 Displacements for the minutes of proportion
+
+ Entry for 0° Vertical displacement (kv4) Horizontal displacement
+
+ Saturn
+
+ Jupiter
+
+ Mars
+
+ Venus
+
+ Mercury
+
+ 0
+
+ 0
+
+ 20
+
+ 19
+
+ 10
+
+ 60' (265°
+
+ -266° to 360°  and 0°
+
+ 0
+
+ O
+
+ O OO
+
+ OO 1
+
+ O
+
+ 60' (259°
+
+ -260° to 360°  and 0°  to 77°-78°)
+
+ 60' (223° -224° to 360°  and 0°  to 38°-39°)
+
+ 60' (223°
+
+ -224° to 360°  and 0°  to 40°^1°)
+
+ 60' (271° -272° to 360°  and 0°  to 41°^t-2°)
+
+ (kh4)
+
+ 7°
+
+ 12°
+
+ 49°
+
+ 48°
+
+ 24°
+
+ C<\(K) = C4(K + kh4) + k V4,
+
+ (24)
+
+ near apogee, and simply
+
+ C4(K) = c4(K +kh4), (25)
+
+ near perigee, where kh4 and kv4 (=60') are the horizontal and vertical displacements,
+ respectively, associated with c4(k), the minutes of proportion. Figure E displays the
+
+ minutes of proportion for Mars; the other planets follow the same pattern (see Table 6).
+ As in previous cases, the vertical displacements are intended to avoid cumbersome
+ rules for addition and subtraction corresponding to the simple rules we now give by
+ means of algebraic signs. The horizontal displacements are intended to counterbalance
+
+ another displacement in a different column or table. That this is indeed the case can be
+
+ seen from the fact that the horizontal displacements applied to the argument of center
+
+ (the column on the right side in Table 5) and to the minutes of proportion (the column
+ on the right side in Table 6) add up algebraically to the vertical displacement applied
+
+ Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:05:22 UTC
+All use subject to https://about.jstor.org/terms
+
+ 24 J. Chabas, B. R. Goldstein
+
+ to the equation of center (see Table 5):
+
+ kh3 — kh4 = k vj,.
+
+ (26)
+
+ From Eqs. 16, 18, 20, and 26 it follows that
+
+ K = k — kh\.
+
+ (27)
+
+ Therefore kh\ is the displacement to be applied to the Alfonsine true argument of
+
+ center to obtain the true argument of center in the Tables of the Seven Planets.24
+
+ 12.2 Equation of anomaly near greatest distance
+
+ For each planet the equation of anomaly is displayed in four tables: two, here called
+ (i) and (ii), associated with greatest distance (i.e., between greatest and mean dis
+ tance) and two, with exactly the same presentation, associated with least distance
+ (i.e., between mean and least distance: see Sect. 12.3). In the Almagest and sets of
+ tables related to it the equation of anomaly is treated separately when the center of
+ the epicycle is near apogee in contrast to the case when the center of the epicycle
+
+ near perigee. Ptolemy first assumed that the center of the epicycle is at mean distance
+ and computed the equation of anomaly under this condition (Ptolemy's column 6). He
+
+ then considered the case where the center of the epicycle lies between maximum dis
+ tance (apogee), where the equation of anomaly is least, and mean distance. Ptolemy's
+ column 5 gives the subtractive difference to be applied to the equation of anomaly
+ at mean distance. This is because at maximum distance the equation of anomaly is
+ least. To interpolate between mean distance and maximum distance Ptolemy applied
+ the minutes of proportion in his column 8 to the subtractive difference; thus, in this
+ case, the total equation is
+
+ c{a) = C(,(a) - c5(a) • c8(k)
+
+ (28)
+
+ where ic is near apogee. As Neugebauer (1975, pp. 185-186) demonstrated, Ptolemy
+
+ used different formulas for cs(i<) near apogee and near perigee, but put the values in a
+
+ single column. Between mean distance and perigee Ptolemy computed the entries in
+
+ his column 7 which is the amount to the added to the value for mean distance to get
+
+ the equation of anomaly at least distance (perigee) where the equation of anomaly is
+
+ greatest; thus, in this case, the total equation is
+
+ c(a) - c6(a) + c-j(a) ■ c8(at),
+
+ (29)
+
+ where k is near perigee. So in some cases one has to subtract and in other cases one has
+ to add. The author of the Tables for the Seven Planets wished to avoid subtractions and
+
+ he took a different approach without changing the model or the parameters. Instead of
+
+ 24 Indeed, K = K+C-}(K) = ic—kh2+c^(ic)+kv} = /c+C3(;e)—kh^+kws = K—^khi+kv^) = K—kh4.
+
+ Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:05:22 UTC
+All use subject to https://about.jstor.org/terms
+
+ Displaced tables in Latin 25
+
+ first tabulating the values for mean distance with a subtractive difference, he tabulated
+
+ the equation of anomaly at greatest distance, where the equation is least. Hence, all
+ corrections are positive, and the total equation is
+
+ C(A) = D(A) + C5(A)-C4(K), (30)
+
+ where D(A) is the equation of anomaly at apogee, Cs(A) corresponds to Ptolemy's
+ 05(0;), and c.4(K) (defined in Eq. 24) corresponds to Ptolemy's C8(k); all terms are
+ positive. For values of k near perigee, the author of the Tables for the Seven Planets
+
+ adhered more closely to Ptolemy's formula since it did not involve subtraction. Thus,
+ between mean distance and minimum distance, our author used
+
+ C(A) = C6(A) + C7(A).C4(/0, (31)
+
+ where C(,(A) corresponds to Ptolemy's 04(a), C-j(A) corresponds to Ptolemy's ci(A),
+ and C4(K) (defined in Eq. 25) corresponds to Ptolemy's c%(k). We will see that the
+ entry for mean distance is the same whether one uses the formula near apogee or the
+ formula near perigee.
+
+ (i) The argument is the minutes of proportion, as indicated in the heading, displayed
+ here as integers from 0 to 60. There are two other columns, one labeled diversitas dy
+
+ ametri centralis and another for the first station near greatest distance (see Table C).
+
+ The entries corresponding to 0 refer to greatest distance, and the entries corresponding
+ to 60 refer to mean distance.
+
+ This table is unprecedented in the astronomical literature and, in the absence of
+
+ canons explaining its use, it is difficult to interpret the meaning of the expression,
+ diversitas dyametri centralis. Table 7 shows the extremal values for all planets.
+
+ A close inspection of the entries for the diversitas dyametri centralis indicates that
+
+ they are strongly dependent on the apogees of the planets at epoch (noon, February
+ 28, 1341, Toledo). A comparison of our computation of the planetary apogees for the
+
+ city of Toledo at that time and the entries for 0 for each planet is displayed in Table 8.
+ From Table 8 it follows that the entries for 0 tabulated here for the diversitas dy
+ ametri centralis are obtained by adding a constant to the longitude of the apogee of
+
+ Table C Diversitas dyametri centralis and first station near greatest distance for Jupiter (excerpt)
+
+ Minutes of prop. (') Diversitas dyametri centralis (s, °) First station (s, °)
+
+ 0
+
+ 1
+
+ 15
+
+ 30
+
+ 45
+
+ 59
+
+ 60
+
+ 5
+
+ 5
+
+ 5
+
+ 5
+
+ 5
+
+ 5
+
+ 5
+
+ 22;37,40
+ 22;37,10
+
+ 22;30,10
+
+ 22;22,40
+
+ 22; 14,40
+
+ 22; 8,10
+ 22; 7,40
+
+ 4
+
+ 4
+
+ 4
+
+ 4
+
+ 4; 5
+ 4; 7
+
+ 4;30
+
+ 4;53
+
+ 4
+
+ 5:17
+
+ 4
+
+ 4
+
+ 5;38
+ 5;39
+
+ Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:05:22 UTC
+All use subject to https://about.jstor.org/terms
+
+ Table 7 Diversitas dyametri centralis and first station near greatest distance for all planets
+
+ 26 J. Chabas, B. R. Goldstein
+
+ Diversitas dyametri centralis
+
+ First station
+
+ Entry for 0
+
+ Entry for 60
+
+ Entry for 0
+
+ Entry for 60
+
+ Saturn
+
+ Jupiter
+
+ Mars
+
+ Venus
+
+ Mercury
+
+ 8s 12;42,18°
+
+ 5s 22;37,40°
+
+ 8s 12;21,36oa
+
+ 5s 22; 7,40°
+
+ 4s 25;38,49°
+
+ 4s 20; 0,49°
+
+ 3s 2;48, 9°
+
+ 7s 3;50, 9°
+
+ 3s 1; 6, 9°
+
+ 7s 0;38, 9°
+
+ 3s 22;44°
+
+ 4s 4; 5°
+
+ 5s 7;28°
+
+ 5s 15;51°
+
+ 4s 27;14°
+
+ 3s 24; 7°
+
+ 4s 5;39°
+
+ 5s 13;11°
+
+ 5s 17; 9°
+
+ 4s 25; 8°
+
+ a Probably an error for 8s 12;21,18°. For justification, see below. One should also note that the number of
+
+ seconds in the entries for 0 and 60 in columns 1 and 2 agree for each planet (but for Saturn here), both in
+ this table and in the equivalent, Table 12
+
+ Table 8 Planetary apogees near greatest distance
+
+ Computed
+
+ Entry for 0 — comp.
+
+ Rounded value3
+
+ Saturn
+
+ Jupiter
+
+ Mars
+
+ Venus
+
+ Mercury
+
+ 251;35,19°
+
+ ] 71 ;31,37°
+
+ 133;23,50°
+
+ 89;37, 0°
+
+ 208;51,10°
+
+ 1; 6,59°
+
+ 1; 6, 3°
+
+ 12; 14,59°
+
+ 3; 11, 9°
+
+ 4;58,59°
+
+ 1; 7 (= 7 — 5;53)
+
+ 1; 6 (=12 - 10;54)
+
+ 12; 15 (=49 — 36;45)
+
+ 3; 11 (=48 -44;49)
+
+ 4;59 (=24 — 19; 1)
+
+ a As will be seen below, the rounded value for each planet should result from subtracting the maximum
+ of C6 — C5 (see Table 10) from kv^ (see Table 5). In the case of Jupiter, this gives 1;26° (=12 — 10;34),
+ whereas we obtain 1 ;6° when using the entry for 0 in the table, 5s 22;37,40° (see Table 7), and a set of
+ standard Alfonsine tables. If the author had taken 5s 22;57,40° as the entry for 0, the rounded value would
+ have been fully consistent with those for the other planets
+
+ each planet at epoch, Xo- This constant is specific to each planet and results in turn
+ from the displacements applied to its variables, khu — max(c6 — C5): see Table 10.
+
+ Therefore, these entries play a crucial role in computing the true planetary longitudes
+
+ but have no direct astronomical meaning. On the other hand, for each planet the range
+ for the entries is 0;20,42° (=8s 12;42,18° — 8s 12;21,36°) or 0;21° (if we consider
+
+ 8s 12;21,18° as the intended entry for 60) for Saturn, 0;30° for Jupiter, 5;38° for
+
+ Mars, 1;42° for Venus, and 3; 12° for Mercury. It turns out that these values agree with
+ the vertical displacement applied to the difference at greatest distance, C5, associated
+
+ with the argument of anomaly. We have called this quantity kv5 (see Table 11). In the
+
+ case of Mars, its value is 5;38°, and the diversitas dyametri centralis near greatest
+ distance, £>5, which is a function of the minutes of proportion, M, can be written as
+
+ Ds(M) = £>5(0) — 5;38 • C\(K). Thus, the general rule for the diversitas dyametri
+ centralis near greatest distance is given by
+
+ D5(M) = £>5(0) - kv5 ■ C4(K),
+
+ Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:05:22 UTC
+All use subject to https://about.jstor.org/terms
+
+ Displaced tables in Latin 27
+
+ Mars, first station
+
+ 172
+
+ 170
+
+ 168
+
+ 166
+
+ 164
+
+ 162
+
+ 160
+
+ 158
+
+ 156
+
+ 154
+
+ 152
+
+ 150
+
+ 0 5 10 15 20 25 30 35 40 45 50 55 60
+
+ Fig. F First station of Mars
+
+ that is,
+
+ D$(M) = Ao + kh4 — max(c6—C5) — kV5 ■ C4(K). (32)
+
+ The third column in this table displays the first station as a function of the minutes
+
+ of proportion. The entries for the first station represent the true argument of anomaly
+ of the first stationary point, and those for 0 agree with the entries in the Almagest
+ (see, e.g., Toomer 1984, p. 588) and sets of tables related to it. They correspond to
+
+ the greatest distance of the center of the epicycle, when the mean argument of center,
+ k, is zero. It should be recalled that the table in Almagest XII.8 gives the positions
+
+ of the stationary points on the epicycle as a function of ic (see Neugebauer 1975, pp.
+ 202-205), not as a function of the minutes of proportion, as is the case here. The
+
+ entries increase (except for Mercury) monotonically and vary in a range different for
+ each planet: 1;23° (Saturn), 1;34° (Jupiter), 5;43° (Mars), 1; 18° (Venus), and —2;6°
+ (Mercury). Figure F displays the first station of Mars, both near apogee (see Table 7)
+ and near perigee (Table 12).
+
+ If we call 1S5 (M) the tabulated argument of anomaly of the first station near apo
+
+ gee, the entries can be computed by means of a linear function of M, the minutes of
+ proportion:
+
+ S5(M) = 55(0) + [S5(60) - S5(0)] • C4(K), (33)
+
+ which, in the case of Mars, turns into
+
+ S5(M) = 157;28° + 5;43° ■ C4(K).
+
+ (ii) In the second table the argument ranges from 0° to 29° for each zodiacal sign.
+ There are two columns, one for the equation of anomaly (the heading has argumen
+
+ tum for anomaly) and another for the diversitas dyametri. The title indicates that the
+
+ entries are given for greatest distance of the center of the epicycle (ad longitudinem
+
+ Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:05:22 UTC
+All use subject to https://about.jstor.org/terms
+
+ 28 J. Chabas, B. R. Goldstein
+
+ longiorem), that is, near apogee. The heading of the entries for the diversitas dyametri
+ is generally diversitas dyametri directus, and sometimes diversitas dyametri retro
+ gradus, a change which is indicated by the insertion of the words statio, prima, and
+ secunda, among the entries. See Table D.
+
+ The relevant information for the equation of anomaly is summarized in Table 9,
+
+ where the "underlying parameter" was derived by taking half the difference between
+
+ maximum and minimum equation of anomaly.
+
+ Tabic D Equation of anomaly and diversitas dyametri for Mars (excerpt)
+
+ 9;48
+
+ 9;52
+
+ 9;55
+
+ 9;59
+
+ 11;16
+
+ 11; 16
+
+ 11; 16
+
+ 11; 15
+
+ Statio
+
+ 11; 14
+
+ 9;42
+
+ Prima
+
+ Retro.
+
+ 9;26
+
+ (°)
+
+ 0
+
+ 1
+
+ 125
+
+ 126
+
+ 127
+
+ 128
+
+ 154
+
+ 155
+
+ 156
+
+ 157
+
+ 73;29
+
+ 73;30
+
+ 73;30
+
+ 73;29
+
+ 66;22
+
+ 65;42
+
+ 64;59
+
+ 64; 15
+
+ 158
+
+ 63;29
+
+ 169
+
+ 52; 11
+
+ 170
+
+ 50;55
+
+ Greatest
+
+ distance
+
+ Saturn
+
+ Jupiter
+
+ Mars
+
+ Venus
+
+ Mercury
+
+ Springer
+
+ Equation of
+ anomaly (°)
+
+ Diversitas dyametri
+ (directus or retrogradus) (°)
+
+ (°)
+
+ Equation
+ of anomaly (°)
+
+ Diversitas dyametri
+ (directus or retrogradus) (°)
+
+ 180
+
+ 36;45
+
+ 5;38
+
+ 36;45
+
+ 37; 7
+
+ 5;38
+
+ 5;40
+
+ 90
+
+ 67;40
+
+ 8; 5
+
+ 191
+
+ 21,19
+
+ 192
+
+ 20; 3
+
+ 203
+
+ 9; 15
+
+ 204
+
+ 205
+
+ 206
+
+ 232
+
+ 233
+
+ 234
+
+ 235
+
+ 8;31
+
+ 7;48
+
+ 7; 8
+
+ 0; 1
+
+ 0; 0
+
+ 0; 0
+
+ 0; 0
+
+ 270
+
+ 5;50
+
+ 358
+
+ 359
+
+ 36; 0
+
+ 36;23
+
+ 1;34
+
+ Statio
+
+ 1;20
+
+ 0; 1
+
+ Secunda
+
+ Directus
+
+ 0; 0
+
+ 0; 0
+
+ 0; 0
+
+ 1; 17
+
+ 1 ;21
+
+ 1 ;24
+
+ 1;28
+
+ 3; 11
+
+ 5;35
+
+ 5;36
+
+ Table 9 Equation of anomaly near greatest distance for all planets
+
+ Entry for
+ 0°
+
+ Minimum equation
+ of anomaly
+
+ Maximum equation
+ of anomaly
+
+ Underlying
+
+ parameter
+
+ 5;53°
+
+ 10;34°
+
+ 36;45°
+
+ 44;49°
+
+ 19; 1°
+
+ 0;0° (261°-266°)
+
+ 0;0° (258°-263°)
+
+ 0;0° (233°-234°)
+
+ 0;0° (225°)
+
+ 0;0° (250°-252°)
+
+ 11 ;46° (92°-97°)
+
+ 21; 8°(97°-102°)
+
+ 73;30° (126°-127°)
+
+ 89;38° (135°)
+
+ 38; 2° (108°)
+
+ 5;53°
+
+ 10;34°
+
+ 36;45°
+
+ 44;49°
+
+ 19; 1°
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:05:22 UTC
+All use subject to https://about.jstor.org/terms
+
+ Displaced tables in Latin 29
+
+ Table 10 Maximum values of C6, C5 and c6 — C5 in the PAT
+
+ Maximum of eg
+
+ Maximum of C5
+
+ Maximum of eg — C5
+
+ Saturn 6; 13°  (at 94°-99°)
+
+ 0;21°
+
+ -H
+
+ O
+
+ O O
+
+ -106°)
+
+ 5;53°  (at 94°-99°)
+
+ Jupiter
+
+ Mars
+
+ Venus
+
+ 11; 3°  (at 99°-102°)
+
+ 0;30°  (at 107°  -117°)
+
+ 10;34°  (at 97°-102°)
+
+ 41; 10°  (at I31°-132°)
+
+ 45;59°  (at 135°-136°)
+
+ 5;38°  (at 153°  -156°)
+
+ 36;45°  (at 126°-127°)
+
+ 1;42°  (at 161° -162°)
+
+ 44;49°  (at 135°)
+
+ Mercury
+
+ 22; 2°  (at 111°-112°)
+
+ 3; 12°  (at 129°  -131°)
+
+ 19; 1°  (at 108°)
+
+ Mars, equation of anomaly near greatest distance
+
+ Fig. G Equation of anomaly near greatest distance for Mars
+
+ The underlying parameters in this table are the maximum values of the difference
+ C6 — C5, that is, the maximum difference between the equation of anomaly at mean
+ distance and the subtractive difference in the PAT.25 All these values are shown in
+
+ Table 10.
+
+ Figure G displays the tabulated values of the equation of anomaly for Mars near
+ greatest distance, here called D(A) and the difference between C(, and C5 in the PAT.
+ It is readily seen that D(A) is displaced upwards with respect to cy, — C5. The other
+
+ planets follow the same pattern.
+
+ can be written as
+
+ In the case of Mars the expression for the equation of anomaly at greatest distance
+
+ D(A) = C(,(a) — C5(a) + 36;45°,
+
+ 25 In the PAT the fifth and sixth columns in the tables for planetary equations display, respectively, the
+ subtractive difference and the equation of anomaly at mean distance; hence the notation used here.
+
+ •£} Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:05:22 UTC
+All use subject to https://about.jstor.org/terms
+
+ 30 J. Chabas, B. R. Goldstein
+
+ Table 11 Difference near greatest distance
+
+ Greatest
+
+ distance
+
+ Entry for
+ 0°
+
+ Minimum difference
+
+ Maximum difference
+
+ at greatest distance
+
+ at greatest distance
+
+ Vertical displacement
+ (kvs)
+
+ Saturn
+
+ Jupiter
+
+ Mars
+
+ Venus
+
+ Mercury
+
+ 0;21°
+
+ 0;30°
+
+ 5;38°
+
+ 1;42°
+
+ 3;12°
+
+ 0;0° (253°-261°)
+
+ 0;42° (99°-104°)
+
+ 0;0° (242°-252°)
+
+ 1; 0° (108°-118°)
+
+ 0;0° (204°-207°)
+
+ 11; 16° (153°-156°)
+
+ 0;0° (198°-199°)
+
+ 3;24° (161°-162°)
+
+ 0;0° (229°-231°)
+
+ 6;24° (129°-131°)
+
+ O
+
+ O
+
+ <N
+
+ 0;30°
+
+ 5;38°
+
+ l;42°
+
+ 3; 12°
+
+ which, in the case general, corresponds to
+
+ D(A) = c6(a) - c5(a) + max(c6 - c5). (34)
+
+ The diversitas dyametri tabulated for each planet is the difference near greatest dis
+ tance. The entries in this column agree with those for the same quantity, cs(a), in the
+ PAT, but for a vertical displacement, which differs from one planet to another (see
+ Table 11).
+
+ In the case of Mars this displacement amounts to 5;38°. In general, if C5(a) is the
+
+ difference near greatest distance in the corresponding PAT, that in the Tables for the
+ Seven Planets is given by
+
+ C5(A) = c5(a) + kv5. (35)
+
+ We note that A = a, which is a consequence of equations 17, 18, 21, and 22.26 There
+ fore, the displacements applied by the author of the Tables for the Seven Planets to
+ the standard quantities used in Alfonsine planetary astronomy are such that they keep
+
+ invariant the argument of anomaly.
+
+ As in Eq. 28, the total correction when the planet is near apogee in Ptolemy's
+
+ notation is
+
+ which, in standard Alfonsine notation, is equivalent to
+
+ c(a) = C(,(a) - c5(a) • cg(^),
+
+ c(a) - c6(a) - c5(a) ■ c4(k).
+
+ In the Tables for the Seven Planets the corresponding expression near apogee is
+
+ C(A) = D(A) + C5(A) • C4(/0, (36)
+
+ an expression only involving positive terms and leading to the same true longitude of
+
+ the planets as the standard Alfonsine procedure.
+
+ Indeed, A = A + E(K) = (a — kv^) + (2-kv-} —C^(k)) = a+kv3 — [(03(^)4-kvy)] = a — c^iic) = a.
+
+ <£) Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:05:22 UTC
+All use subject to https://about.jstor.org/terms
+
+ Table E Diversitas dyametri centralis and first station near least distance for Venus (excerpt)
+
+ Displaced tables in Latin 31
+
+ Minutes of prop. (')
+
+ Diversitas dyametri
+ centralis (s, °)
+
+ First station (s, °)
+
+ 0
+
+ 1
+
+ 15
+
+ 30
+
+ 45
+
+ 59
+
+ 60
+
+ 3 1;38, 9
+
+ 3 1 ;36,17
+
+ 3 1; 10, 9
+
+ 3 0;42, 9
+
+ 3 0; 14, 9
+
+ 2 29;48, 1
+
+ 2 29;46, 9
+
+ 5 17; 9
+
+ 5 17;10
+
+ 5 17;25
+
+ 5 17;43
+
+ 5 18; 4
+
+ 5 18;20
+
+ 4 18;21
+
+ Table 12 Diversitas dyametri centralis and first station near least distance for all planets
+
+ Diversitas dyametri centralis
+
+ First station
+
+ Entry for 0
+
+ Entry for 60
+
+ Entry for 0
+
+ Entry for 60
+
+ Saturn
+
+ Jupiter
+
+ Mars
+
+ Venus
+
+ Mercury
+
+ 8s 12;22,18°
+
+ 5s 22; 8,40°
+
+ 8s 11 ;57,18°
+
+ 5s21;35,40°
+
+ 4s 21;13,49°
+
+ 4s 13; 10,49°
+
+ 3s 1;38, 9°
+
+ 7s 0;49, 9°
+
+ 2s 29;46, 9°
+
+ 6s28;48, 9°
+
+ 3s 24; 8°
+
+ 4s 5;40°
+
+ 5s 13; 6°
+
+ 5s 17; 9°
+
+ 4s 25; 8°
+
+ 3s 25;27°
+
+ 4s 7;11°
+
+ 5s 19;15°
+
+ 5s 18;21°
+
+ 4s 24;28°
+
+ 12.3 Equation of anomaly near least distance
+
+ The following two tables, for least distance (i.e., between mean and least distance),
+ have the same presentation as those for greatest distance (i.e., between greatest and
+ mean distance), reviewed in Sect. 12.2 (i) and (ii).
+
+ (i) As in Table C the argument is the minutes of proportion from 0' to 60', and
+
+ there are two other columns, one labeled diversitas dyametri centralis and another for
+
+ the first station near least distance (see Table E). Here the entries for 0' correspond to
+
+ mean distance, and the entries for 60' correspond to least distance.
+
+ The extremal values of the two columns (diversitas dyametri centralis and first
+
+ station) for all planets are listed in Table 12.
+
+ As was the case for greatest distance, the entries for 0' tabulated here for the div
+
+ ersitas dyametri centralis are obtained by adding a constant to the longitude of the
+
+ apogee of each planet at epoch, aq. This constant is specific to each planet and results
+
+ in turn from the displacements applied to its variables: kli4 — kv6 (see Table 13).
+
+ On the other hand, the range for the entries is: 0;25° for Saturn, 0;33° for Jupiter,
+
+ 8;3° for Mars, 1 ;52° for Venus, and 2; 10 for Mercury. The entries for least distance are
+
+ <£] Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:05:22 UTC
+All use subject to https://about.jstor.org/terms
+
+ 32 J. Chabas, B. R. Goldstein
+
+ Table 13 Planetary apogees at least distance
+
+ Computed
+
+ Entry for 0 — comp.
+
+ Rounded valuea
+
+ Saturn
+
+ Jupiter
+
+ Mars
+
+ Venus
+
+ Mercury
+
+ 251 ;35,19°
+
+ 171 ;31,37°
+
+ 133;23,50°
+
+ 89;37, 0°
+
+ 208;5I,10°
+
+ 0;46,59°
+
+ 0;37, 3°
+
+ 7;49,59°
+
+ 2; 1, 9°
+
+ 1;57,59°
+
+ 0;47 (= 7 - 6; 13)
+
+ 0;37 (=12 - 11 ;23)
+
+ 7;50 (=49 -41; 10)
+
+ 2; 1 (=48 - 45;59)
+
+ 1 ;58 (=24 — 22; 2)
+
+ a As will be seen below, the rounded value for each planet should result from subtracting kv(, (see Table 14)
+ from kv 3 (see Table 5). In the case of Jupiter, this gives 0;57° (=12 — 11 ;3), whereas we obtain 0;37° when
+ using the entry for 0 in the table, 5s 22;8,40° (see Table 12) and a set of standard Alfonsine tables. If the
+ author had taken 5s 22;28,40° as the entry for 0, the rounded value would have been fully consistent with
+ those for the other planets. (This is the same situation we noted in Table 8; thus, it would seem that the
+ author either miscopied an entry for Jupiter on which he built up his two tables for the diversitas dyametri
+
+ centralis, or that he had at his disposal a table for Jupiter generating a difference of 0;20°.)
+
+ not exactly a continuation of those for greatest distance (Table 7), because they were
+
+ computed by means of different expressions and different ranges were used. In the case
+ of Mars the vertical displacement applied here, kv-j, is 8;3° rather than kv$ = 5; 38°,
+ as was the case at greatest distance. Then the diversitas dyametri centralis near least
+ distance, D~j, can be written as D-j(M) = Di(0) — where M is a value for
+
+ the minutes of proportion. Thus, the general rule for the diversitas dyametri centralis
+ near least distance is given by
+
+ Dy(M) = Z>?(0) - kv7 ■ C4(K)
+
+ that is,
+
+ D-/(M) = Xq + kti4 — kv(, — kv-/ ■ C4(K). (37)
+
+ The third column in this table displays the argument of anomaly of the first station
+ near least distance as a function of the minutes of proportion (Table 12). The entries
+
+ follow the same pattern as those near greatest distance, but we note that the entries
+ for 60' at greatest distance (see Table 7) do not coincide with the entries for 0' near
+
+ least distance (see Table 12) in three cases: Saturn, Jupiter, and Mars. The entries for
+ 60' essentially agree with those in the Almagest and sets of tables related to it, corre
+
+ sponding to the least distance of the center of the epicycle, when the mean argument
+
+ of center, ic, is 180°. The entries, graphed in Fig. F, increase (except for Mercury)
+ monotonically and vary in a range which is different for each planet: 1 ;19° (Saturn),
+
+ 1;31° (Jupiter), 6;9° (Mars), 1;12° (Venus), and -0;40° (Mercury).
+
+ If we call S^ (M) the tabulated argument of anomaly of the first station near perigee,
+ the entries are can be computed by means of a linear function of M, the minutes of
+
+ S7(M) = St(60) + [S7(0) - S7(60)] • (1 - C4(K)), (38)
+
+ proportion,
+
+ Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:05:22 UTC
+All use subject to https://about.jstor.org/terms
+
+ Table F Equation of anomaly and diversitas dyametri for Mercury (excerpt)
+
+ Displaced tables in Latin 33
+
+ Equation of
+ anomaly (°)
+
+ Diversitas dyametri
+ (directus or retrogradus) (°)
+
+ (°)
+
+ Equation
+ of anomaly (°)
+
+ Diversitas dyametri
+ (directus or retrogradus) (°)
+
+ 180
+
+ 22; 2
+
+ 2; 1
+
+ o
+
+ 0
+
+ l
+
+ 22; 2
+
+ 22; 19
+
+ 2; 1
+
+ 2; 2
+
+ 90
+
+ 42;35
+
+ 3;30
+
+ 110
+
+ 111
+
+ 112
+
+ 113
+
+ 44; 3
+
+ 44; 4
+
+ 44; 4
+
+ 44; 3
+
+ 130
+
+ 42;46
+
+ 131
+
+ 42;37
+
+ 136
+
+ 137
+
+ 41 ;39
+
+ 41 ;26
+
+ 144
+
+ 39;34
+
+ 145
+
+ 146
+
+ 39;16
+
+ 38;57
+
+ 147
+
+ 38;37
+
+ 148
+
+ 38; 16
+
+ 9;48
+
+ 9;52
+
+ 9;55
+
+ 9;59
+
+ 4; 1
+
+ 4; 2
+
+ 4; 2
+
+ 4; 1
+
+ 3;59
+
+ Prima
+
+ 3;58
+
+ 3;56
+
+ 3;54
+
+ Statio
+
+ Retro.
+
+ 3;52
+
+ 213
+
+ 5;27
+
+ 214
+
+ 5; 7
+
+ 215
+
+ 4;48
+
+ 216
+
+ 4;30
+
+ 223
+
+ 224
+
+ 229
+
+ 230
+
+ 247
+
+ 248
+
+ 249
+
+ 250
+
+ 2;38
+
+ 2;25
+
+ 1;27
+
+ 1; 18
+
+ 0; 1
+
+ 0; 0
+
+ 0; 0
+
+ 0; 1
+
+ 358
+
+ 21 ;29
+
+ 359
+
+ 21 ;45
+
+ 0; 8
+
+ Secunda
+
+ 0; 6
+
+ 0; 4
+
+ Statio
+
+ Directus
+
+ 0; 3
+
+ 0; 1
+
+ 0; 0
+
+ 0; 0
+
+ 0; 1
+
+ 0; 9
+
+ 0; 10
+
+ 0; 11
+
+ 0; 12
+
+ 1 ;59
+
+ 2; 0
+
+ 270
+
+ 1;29
+
+ 0;32
+
+ which, in the case of Mars, turns into
+
+ Sj(M)= 159; 15° — 6;9° • (1 — C4(A')).
+
+ (ii) In the second table the argument ranges from 0° to 29° for each zodiacal sign.
+
+ There are two columns (equation of anomaly and diversitas dyametri). The title indi
+ cates that the entries are given for least distance of the center of the epicycle (ad
+ longitudinem propiorem), that is, near perigee (see Table F). As was the case for
+ Table D, the words statio, prima, and secunda are inserted among various entries.
+
+ The relevant information for the equation of anomaly is summarized in Table 14,
+
+ where the "underlying parameter" was derived by taking half the difference between
+
+ maximum and minimum equation of anomaly.
+
+ For each planet the underlying parameter agrees with that in the PAT for mean
+ distance, and so do the entries for the equation of anomaly, but for a vertical
+
+ *2} Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:05:22 UTC
+All use subject to https://about.jstor.org/terms
+
+ Table 14 Equation of anomaly near least distance
+
+ 34 J. Chabas, B. R. Goldstein
+
+ Least
+
+ distance
+
+ Entry for
+ 0°
+
+ Minimum equation
+ of anomaly
+
+ Maximum equation
+ of anomaly
+
+ Underlying
+ parameter
+
+ Vertical
+
+ displacement (kV(j)
+
+ Saturn
+
+ Jupiter
+
+ Mars
+
+ Venus
+
+ 6; 13°
+
+ 11; 3°
+
+ 0;0° (261°-266°)
+
+ 12;26° (94°-99°)
+
+ 6; 13°
+
+ 0;0° (258°-261°)
+
+ 22; 6° (99°-102°)
+
+ 11; 3°
+
+ 41;10°
+
+ 0;0° (229°)
+
+ 82;20° (131°)
+
+ 41;10°
+
+ 45;59°
+
+ 0;0° (224°-225°)
+
+ 91 ;58° (135°-136°)
+
+ 45;59°
+
+ Mercury
+
+ 22; 2°
+
+ 0;0° (248°-249°)
+
+ 44; 4° (111°-112°)
+
+ 22; 2°
+
+ 6; 13°
+
+ 11; 3°
+
+ 41;10°
+
+ 45;59°
+
+ 22; 2°
+
+ Venus, equation of anomaly
+
+ MS 10262, near least
+ distance
+
+ PAT
+
+ o o o o o o o o'c
+ o ri t « oo o ■<.
+ c J c»l c$ co r«*
+
+ T
+
+ V—'
+
+ Fig- H Venus, equation of anomaly as a function of the true argument of anomaly
+
+ displacement. If C(,{a) represents the equation of anomaly in the corresponding PAT,
+ that in the Tables for the Seven Planets is given by
+
+ C(,{A) = C(,{a) + kvs, (39)
+
+ where kv(, = 45;59° in the case of Venus.27 Figure H displays the tabulated values
+ of the equation of anomaly for Venus near least distance in the Tables for the Seven
+ Planets and at mean distance in the PAT. The terminology in the Tables of the Seven
+
+ Planets may be confusing, but the author sought to maintain a parallel structure in
+ his treatment of the equation of anomaly near apogee and near perigee. The entries
+ near apogee range from greatest distance to mean distance, and those near perigee
+ range from mean distance to least distance. Hence, what is here called "the equation
+ of anomaly near least distance" actually refers to the equation of anomaly at mean
+ distance, to be applied to distances between mean and least distance.
+
+ 27 This expression is equivalent to C(,(A) = C(,(A) + kv6, because A = a.
+
+ <£] Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:05:22 UTC
+All use subject to https://about.jstor.org/terms
+
+ Displaced tables in Latin 35
+
+ Table 15 Difference at least distance
+
+ Least
+
+ distance
+
+ Entry for
+ 0°
+
+ Minimum difference
+
+ Maximum difference
+
+ Vertical
+
+ at least distance
+
+ at least distance
+
+ displacement (kv-j)
+
+ Saturn
+
+ Jupiter
+
+ Mars
+
+ Venus
+
+ Mercury
+
+ 0;25°
+
+ 0;33°
+
+ 8; 3°
+
+ 1;52°
+
+ 2; 1°
+
+ 0;0° at 249°-258°
+
+ 0;50° at 102°-111°
+
+ 0;0° at 240°-253°
+
+ 1; 6° at 107°-120°
+
+ 0;0° at 201°
+
+ 16; 6° at 159°
+
+ 0;0° at 197°-199°
+
+ 3;44° at 161°-163°
+
+ 0;0° at 224°-229°
+
+ 4; 2° at 131°-136°
+
+ 0;25°
+
+ 0;33°
+
+ O
+
+ oo
+
+ CO
+
+ 1;52°
+
+ 2; 1°
+
+ The diversitas dvametri tabulated for each planet is the difference near least dis
+ tance to be added to the corresponding equation of anomaly at mean distance (see
+ the extremal values in Table 15). The entries in this column agree with those for the
+
+ same quantity, c-j(a), in the PAT, but for a displacement, which differs from one planet
+ to another. If cj (a) is the difference at least distance in the corresponding PAT, the
+
+ difference at least distance in the Tables for the Seven Planets is given by
+
+ C-j(A) = c-j(a) + kvj. (40)
+
+ anomaly is greatest.28
+
+ the planet is near perigee is
+
+ c(a) = c6(a) + c7(a) • c8(k),
+
+ which, in standard Alfonsine notation, is equivalent to
+
+ c(a) = C(,(a) + C7(a) • C4(ii).
+
+ In the Tables for the Seven Planets, the corresponding expression near perigee is
+
+ C(A) = C6(A) + C7(A)-C4(K). (41)
+
+ k = ko + k + c(a),
+
+ where c(a) = C(,(a) + c-j(a) ■ C4(k).
+
+ 28 These tables bear some similarity with the tables of John Vimond, who tabulated eg — c 5, but he did not
+
+ apply any displacements to the planets. Vimond also tabulated C5 + C7, which has no counterpart in these
+ tables (see Chabas and Goldstein 2004, pp. 248-256).
+
+ "£) Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:05:22 UTC
+All use subject to https://about.jstor.org/terms
+
+ Note that at least distance of the center of the epicycle, i.e., perigee, the equation of
+
+ As indicated previously in Eq. 29, in Ptolemy's notation the total correction when
+
+ This is an expression involving only positive terms and leads to the same true longitude
+
+ of the planets as the standard Alfonsine procedure.
+
+ To find the true longitude, k, of the planet at that time according to the PAT one has
+
+ to add the correction c(a) to its mean longitude, that is, to the sum of the longitude of
+
+ the apogee, A.o, and the true argument of center of the planet, k:
+
+ 36 J. Chabas, B. R. Goldstein
+
+ Now, the author of the Tables of the Seven Planets introduced an analogous expres
+
+ sion to find the true longitude of the planet:
+
+ L = D7(M) + K + C(A), (42)
+
+ where C(A) = C(,(A) + C7(A) ■ C4(K): see Eq. 41. The term D7(M) is tabulated
+ under diversitas dyametri centralis.
+
+ The general expression for the longitude of a planet near perigee is therefore
+
+ given as
+
+ which can be obtained from
+
+ To be sure,
+
+ L = D7(M) + K + C6(A) + C7(A) • C4(K), (43)
+
+ X — Xo + k + C(,(a) + cj(a) ■ C4(k). (44)
+
+ X = A.o + k + C(,(a) + c-j(a) ■ c4(k)
+
+ = Xo + (K + kh4) + (C(,(A) — kv(,) + (C7(A) — kv-j) • C4(K)
+
+ = Xq + kh4 - kv6 - kvj ■ C4(K) + K + C6(A) + Cy(A) • C4K) = L,
+
+ provided that D-j(M) = Xq + kh4 — kvf, — kv-j ■ C4(K), which is the case: see Eq. 37.
+ All terms appearing in Eq. 43 are positive and are found directly in the tables. Note
+ that £>5(M) and Dy(M) have no counterparts in the standard Alfonsine tables.
+
+ To illustrate Eq. 43 consider the position of Mars at epoch (noon. February 28,
+ 1341), when the planet is near perigee. The mean argument of center, K, and the mean
+ argument of anomaly, A, are given as 55;6,26° and 84;48,42°, respectively, rounded to
+ the seconds (see Table 3). From Eqs. 16 and 17 it follows that H and a in the standard
+ Alfonsine Tables are 116;6,26° and 96;48,42°, respectively (where kh3 = 61° and
+ kU3 = 12°: see Table 5). The corresponding values of the equation of center in both
+ sets of tables are Ci(K) — 1;23° and c^(i<) = —10; 37°, and Eq. 18 holds. Thus,
+ the true arguments of center are K = 56;29° and k = 105;29°, and Eq. 27 holds,
+ where kh4 = 49° (see Table 6). The tabulated equatio porcionis for K = 55;6,26°
+ is E(K) = 22;37°, and thus A = 84;48,42° + 22;37° = 107;26°. The argument of
+ anomaly, a, according to the PAT, is 107;26° (=96;48,42° + 10;37°), and we note that
+ A = a. The minutes of proportion corresponding to K = 56; 29° and k = 105;29° are
+ C4(K) = 17/60 and c4{k) = 17/60, and we note that C4(K) — c4(k), as indicated in
+
+ Eq. 25, valid near perigee. The tabulated values for the equation of anomaly, C(,{A),
+ and the diversitas, C7(A), are 79; 11° and 11 ;48°, respectively, whereas the values for
+
+ the equation of anomaly, c(,(a), and the additive difference, c7(c*'), found in the PAT
+
+ are 38; 1° and 3;45°, respectively. We note that Eqs. 39 and 40 hold, where kv(, =
+ 4I;10° and kvj = 8;3° (see Tables 14, 15). From Eq. 41, C(A) = 79;11°+ 11;48°
+ (17/60) = 82;32°, whereas the PAT yield c(a) = 38;1° + 3;45°- (17/60) = 39;5°.
+ Now, the true longitude derived with the standard Alfonsine Tables is
+ X = 133;23,50° + 105;29° + 39;5° = 277;57,50° (see Table 8). On the other hand.
+
+ "£) Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:05:22 UTC
+All use subject to https://about.jstor.org/terms
+
+ from Eq. 37, D?(17) = 141;13,49° - 8;3°- 17/60 = 138;56,58° (see Table 12). Thus,
+ L — 138;56,58° + 56;29° + 82;32° = 277;57,58°, in agreement with the previous
+ result.
+
+ Similarly, the general expression for the longitude of a planet near apogee is
+
+ Displaced tables in Latin 37
+
+ given as
+
+ L = D5(M) + K + D(A) + C5(A)-C4(K), (45)
+
+ and it can be obtained from the standard Alfonsine procedure
+
+ A. — ko + k + C(,(a) - 05(a) ■ C4(k). (46)
+
+ To be sure,
+
+ A. = Xq + k + C6(a) - 05(a) • c4(k)
+
+ = Xq + (K + kh4) + cfi(a) - c5(a) + c5(a) + 05(a) ■ c4(k)
+
+ = Xo + (K + khi0 + D(A) - max(c6 - C5) + cs(a) + 05(a) ■ c4(k)
+
+ = Xo + kh4 - max(c6 — C5) + K + D(A) + 05(a) ■ (1 + c4(k))
+
+ — Xq + kh4 — max(c6 — C5) + K + D(A) + (Cs(a) — kvs) ■ C4(K)
+
+ = A-o + kh4 — max(c6 — C5) + K + D(A) — kv5 ■ C4(K) + Cs(A) • C4(K)
+
+ — Xo + kh4 — max(c6 — C5) — kvs ■ C4(K) + K + D(A) + Cs(A) ■ C4(K) = L,
+
+ provided that Ds(M) = Xo + kh4 — max(c6 — C5) — kv5 ■ C4(K), which is the case:
+
+ see Table 7 and Eq. 32. All terms appearing in Eq. 44 are positive and are found in the
+ tables.
+
+ To illustrate Eq. 44, consider the position of Mars at noon, October 1, 1340, when
+
+ i< = 37; 31,6°, and thus the planet is near apogee. From Eq. 16 it follows that K =
+ 336;31,6° (where kh^ = 61°; see Table 5). In the PAT, the corresponding equation of
+ center is c^(ic) = — 6;26,40°, whereas the tabulated equatio centri and equatioporcio
+ nis for K = 336;31,6° are C3(K) = 5;33,20° and E(K) = 18;26,40°, respectively.
+ We note that Eq. 18 holds, where kv3 = 12° (see Table 5). We also note that Eq. 27
+ holds, where kh4 = 49° (see Table 6). Then, k = 31;4,26° because of Eq. 18, and
+ K = 342;4,26° because of Eq. 19. In the PAT, the corresponding minutes of pro
+ portion is c4(k) = —51/60, whereas the minutes of proportion tabulated here is
+ C4(K) = 9/60. Therefore Eq. 24 holds, where kv4 = 60'. The mean argument of
+ anomaly of Mars for that date is a = 27;35,24°, and thus the true argument of anom
+ aly is a = 34;2,4°, because of Eq. 23, and A = 15;35,24°, because of Eq. 17, where
+ kv3 = 12°. Therefore, A = 34;2,4°, because of Eq. 22. We note that A — a. In the
+
+ PAT, the corresponding entries for the equation of anomaly and the difference at great
+ est distance are c(,(a) — 13;26° and €5(0) — 0;48°, respectively. Thus, the total cor
+ rection is c(a) = 13;26°+0; 48°(—51/60) = 12;45,12°. On the other hand, the tabu
+ lated values for the diversitas dyametri and the equation of anomaly are C5 (A) = 6; 26°
+ (we note that Eq. 35 holds, where kv5 = 5;38°: see Table 11) and D(A) = 49;23°.
+ From Eq. 36 it follows that C(A) = 49;23° + 6;26° • 9/60 = 50;20,54°.
+
+ ^ Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:05:22 UTC
+All use subject to https://about.jstor.org/terms
+
+ Table 16 Displacements in the Tables for the Seven Planets
+
+ 38 J. Chabas, B. R. Goldstein
+
+ Sun
+
+ 89;37,9°
+
+ Moon
+
+ 13; 9°
+
+ 2;40°
+
+ 4;56°
+
+ Eq. 8th sphere
+
+ kv$
+
+ kv$
+
+ kv 6
+
+ kv
+
+ kv 3
+
+ 7°
+
+ 6°
+
+ 12°
+
+ 3°
+
+ 4°
+
+ Saturn
+
+ Jupiter
+
+ Mars
+
+ Venus
+
+ Mercury
+
+ kh3
+
+ 14°
+
+ 18°
+
+ 61°
+
+ 51°
+
+ 28°
+
+ kv 4
+
+ kh\
+
+ kv5
+
+ kv6
+
+ 60'
+
+ 60'
+
+ 60'
+
+ 60'
+
+ 60'
+
+ 1°
+
+ 12°
+
+ 49°
+
+ o
+
+ OO
+
+ 24°
+
+ O
+
+ ©
+
+ 0;30°
+
+ 5;38°
+
+ i;42°
+
+ 3:12°
+
+ 6;13°
+
+ 11; 3°
+
+ 41;10°
+
+ 45;59°
+
+ 22; 2°
+
+ kv
+
+ 9°
+
+ kv-j
+
+ 0;25°
+
+ 0;33°
+
+ 8; 3°
+
+ 1;52°
+
+ 2; 1°
+
+ Now, the true longitude derived with the standard Alfonsine Tables is
+ X = 133;23,50° + 31;4,26° + 12;45,12° = 177; 13,28° (see Table 8). On the other
+ hand, from Eq. 32, D5(9) = 145;38,49° - 5;38° ■ 9/60 = 144;48,7° (see Table 7).
+ Thus, L = 144;48,7° + 342;4,26° + 50;20,54° = 177; 13,27°, in agreement with
+ the previous result.
+
+ In Table 16 we present a summary of the values for the displacements, both vertical
+ and horizontal, applied by the anonymous author of the Tables of the Seven Planets
+
+ to the Sun, the Moon, the 8th sphere, and the planets.
+
+ 13 Latitudes of the superior planets
+
+ Folio 40r displays a table for the latitudes of the three superior planets (the inferior
+ planets are addressed in a very different way on ff. 4 lr-46v: see Sect. 17, below). This
+
+ table is in the Almagest tradition, and is found in many other sets of tables such as the
+ zij of al-Battanl and the Toledan Tables (see Chabas and Goldstein 2012, Table 9.2B,
+ p. 109). For the zij of al-Battanl, see Nallino (1903-1907); and for the Toledan Tables,
+ see Toomer (1968) and Pedersen (2002).
+
+ 14 Planetary visibility
+
+ On f. 40v there is a table entitled Tabula visionis et occultationis for the three superior
+
+ planets and the two inferior planets. It is a table for the visibility of the planets, also
+ called a table of planetary phases, which is already found in Almagest XIII. 10, as
+
+ well as in many other sets of astronomical tables, such as the Handy Tables, the zij
+ of al-Battanl, and the Toledan Tables (see Chabas and Goldstein 2012, Table 11.2,
+ p. 125).
+
+ On f. 40v there is a small table entitled Tabula latitudinis lune in principio medio etfine
+
+ eclipsis, an excerpt of which we reproduce below (see Table G). The argument, which
+
+ 15 Possibility of an eclipse
+
+ •£) Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:05:22 UTC
+All use subject to https://about.jstor.org/terms
+
+ Displaced tables in Latin 39
+
+ Table G Lunar latitude at
+
+ eclipse (excerpt)
+
+ Argument of latitude (s, °) Latitude (')
+
+ 0 0
+
+ 6 0
+
+ 12 0
+
+ 6 0
+
+ 0 1
+
+ 5 29  11 29  6 I
+
+ 0 12
+
+ 5 18
+
+ 11 18
+
+ 6 12
+
+ 0 13
+
+ 5 17
+
+ 11 17
+
+ 6 13
+
+ O
+
+ o
+
+ 5; 13
+
+ 62; 16
+
+ 67;23
+
+ is the argument of lunar latitude, is presented in four columns and, as indicated in the
+ title, it is restricted to the values for which an eclipse is possible, that is, ±13° from
+
+ the lunar nodes. The purpose of the table is to show the correspondence between the
+
+ argument of latitude and the latitude of the Moon, and the entries can be recomputed
+
+ by means of the modern formula
+
+ P = arcsin(sin/ • sinw),
+
+ where co is the argument of latitude, f) is the latitude, and the i is the inclination of
+
+ the lunar orb to the ecliptic, taken here as 5;0° (the same parameter as in the table for
+
+ lunar latitude on f. 13r).
+
+ 16 Eclipsed fraction of the solar and lunar disks
+
+ A table for the eclipsed fraction of the solar and lunar disks is also found on f. 40v. The
+
+ argument ranges from 1 to 12 linear digits (where the diameter of the eclipsed body
+ is 12 digits, and the entries are the corresponding areal digits (where the area of the
+
+ eclipsed body is 12). It is very common in sets of astronomical tables, such as the zij
+ of al-Battanl, the Toledan Tables, and it is already found in Almagest VI.8. However,
+ this was not one of the tables included in the editio princeps of the Alfonsine Tables
+ (see Chabas and Goldstein 2012, Table 15.4, p. 175).
+
+ 17 Latitudes of Venus and Mercury
+
+ The tables for the latitudes of Venus and Mercury are presented as six sub-tables for
+
+ each planet, on ff. 41r-43v and ff. 44r-46v, respectively. Both are double argument
+ tables. The vertical argument (center) is given in four columns at 6°-intervals and
+
+ altogether there are 30 columns for the horizontal argument (anomaly), also at 6°
+ intervals. Each of these columns contains entries for the inclination (latitudo prima)
+
+ and the slant (latitudo secunda). The deviation (latitudo tercia) is presented in another
+
+ column, which remains invariant in all sub-tables for each planet. Table H displays an
+
+ excerpt of the table for the latitude of Venus.
+
+ The maximum values for Venus and Mercury are, respectively, 7;22° and 4;5° for
+
+ the inclination, 2;30° and 2;30° for the slant, and +10' and -13' for the deviation.
+
+ This table differs, strongly in presentation and slightly in the basic parameters, from
+
+ <£) Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:05:22 UTC
+All use subject to https://about.jstor.org/terms
+
+ 40 J. Chabas, B. R. Goldstein
+
+ Table H Latitude of Venus (excerpt)
+
+ Center  Anomaly
+
+ (S,°)
+
+ (s,°)
+
+ (s,°)
+
+ (s,°)
+
+ 0s6°/lls24°
+
+ .. 3sO°/9sO°
+
+ . 5s24°/6s6°
+
+ 6s0°/6s0°
+
+ First
+
+ Second
+
+ First
+
+ Second
+
+ First
+
+ Second  First
+
+ Second  Third
+
+ (°)
+
+ o
+
+ (°)
+
+ O
+
+ (°)
+
+ (°)
+
+ (°)
+
+ (°)
+
+ (')
+
+ 0 6
+
+ 6 6
+
+ 5 24  11 24  0; 7
+
+ 0;1
+
+ .. 0;0
+
+ 0; 12
+
+ . 0;38  0; 5
+
+ 0;46
+
+ 0;0
+
+ 0 12
+
+ 6 12
+
+ 5 18
+
+ 11 18
+
+ 0; 13
+
+ 0;2
+
+ .. 0;0
+
+ 0;23
+
+ . 1; 15
+
+ 0; 10
+
+ 1;30
+
+ 0;0
+
+ 0 18
+
+ 6 18
+
+ 5 12
+
+ 11 12
+
+ 0; 19
+
+ 0;2
+
+ .. 0;0
+
+ 0;35
+
+ . 1;52  0;14
+
+ 2; 14
+
+ 0;0
+
+ 1 0
+
+ 7 0
+
+ 5 0
+
+ 11 0  0;3I
+
+ 0;4
+
+ .. 0;0
+
+ 0;59
+
+ . 3; 6  0;24
+
+ 3;41
+
+ 0;0
+
+ 2 0
+
+ 8 0
+
+ 4 0
+
+ 10 0  0;54
+
+ 0;7
+
+ .. 0;0
+
+ ] ;4 ]
+
+ . 5;26  0;42
+
+ 6;25
+
+ 0;0
+
+ 2 18
+
+ 8 18
+
+ 3 12
+
+ 9 12
+
+ 1; 0
+
+ .. 0;0
+
+ 1;53
+
+ . 6; 1
+
+ 0;47
+
+ 7; 10
+
+ 0;0
+
+ 2 24
+
+ 8 24
+
+ 3 6
+
+ 9 6  1; 1
+
+ .. 0;0
+
+ 1;55
+
+ . 6; 8  0;48
+
+ 7;16
+
+ 0:0
+
+ 0;8
+
+ 0;8
+
+ 3 0
+
+ 9 0
+
+ 3 0
+
+ 9 0  1; 2
+
+ 0;8
+
+ .. 0;0
+
+ 1;57
+
+ . 6; 12
+
+ 0;48
+
+ 7;22
+
+ 0;0
+
+ 1
+
+ 2
+
+ 3
+
+ 5
+
+ 9
+
+ 10
+
+ 10
+
+ 10
+
+ tables by Parisian astronomers who included the third component of latitude, John
+ Vimond and John of Murs.29 For the maximum values of deviation, Vimond had +10'
+
+ and —45' (Ptolemy's values in the Almagest), for Venus and Mercury, respectively,
+ whereas John of Murs had +10' and —23', in contrast to +10' and —13' in the tables
+
+ reviewed here. John of Ligneres was aware of the deviation, for he mentions it in the
+ chapters on the latitudes of Venus and Mercury in the canons of his Priores astrologi
+
+ motus corporum celestium,30 but we do not know of any tables by him similar to those
+
+ presented here. All in all, the tables for planetary latitudes in the Tables for the Seven
+
+ Planets, although certainly in the same tradition, are not simply related to those by
+ John Vimond and John of Murs, or by any other known table-maker.
+
+ 18 Conclusion
+
+ Throughout the time from the reception of the Alfonsine Tables in Paris (no later than
+ 1320) to the publication of the editio princeps in 1483 in Venice, an intense effort
+
+ was made to adapt tables in the Alfonsine framework to the needs of practitioners.
+ These adaptations focused on presentation rather than on the parameters underlying
+
+ the tables of the Alfonsine corpus of tables. The set of tables which we have called the
+
+ Tables for the Seven Planets for 1340 is an early example of this kind of work, with
+
+ zodiacal signs of 30° (rather than physical signs of 60°), vacillation in the beginning of
+
+ the year, and cyclical radices of 32 years, with special characteristics such as displace
+
+ ments, different parameter for the latitude of Mercury, and different terminology.
+
+ Chabas and Goldstein (2004, pp. 257-258) and Chabas and Goldstein (2009, p. 309).
+
+ 30 An edition of chapters 22 and 23 is found in Saby (1987, pp. 207-211).
+
+ Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:05:22 UTC
+All use subject to https://about.jstor.org/terms
+
+ Displaced tables in Latin 41
+
+ The use of double argument tables and the extensive use of displacements, both
+ vertical and horizontal, show a deep insight into planetary astronomy and great skill in
+
+ producing astronomical tables. This set of tables is also the first example that has been
+ discovered in the Latin world of a systematic use of displaced tables, of which only a
+ few examples were previously known in the medieval astronomical literature. Unfor
+
+ tunately, no name is associated with this set, but the author was an astronomer working
+
+ around 1340, probably in Southern France (judging by the geographical coordinates
+ underlying these tables), who deserves the highest praise for his skill in providing
+ clever and complex solutions to many problems, and for constructing a compact and
+ consistent set of tables for the planets, building upon the work done by the Parisian
+
+ group of astronomers in the early 1320s.
+
+ Chabas, J., and B.R. Goldstein. 2003. The Alfonsine Tables of Toledo. Archimedes: New studies in the
+
+ history and philosophy of science and technology, vol. 8. Dordrecht: Kluwer.
+
+ Chabas, J., and B.R. Goldstein. 2004. Early Alfonsine astronomy in Paris: The tables of John Vimond
+
+ Chabas, J., and B.R. Goldstein. 2009. John of Murs's tables of 1321. Journal for the History of Astronomy
+
+ Chabas, J., and B.R. Goldstein. 2012. A survey of European astronomical tables in the late middle ages.
+
+ References
+
+ (1320). Suhayl 4: 207-294.
+
+ 40: 297-320.
+
+ Boston.
+
+ and Saliba 1987, pp. 35-69.
+
+ Debarnot, M.-T. 1987. The ZJj of Habash al-Hasib: A survey of MS Istanbul Yeni Cami 784/2. In King
+
+ Goldstein, B.R. 1974. The astronomical tables of Levi ben Gerson. In Transactions of the Connecticut
+
+ Academy of Arts and Sciences, vol 45. New Haven.
+
+ Goldstein, B.R., J. Chabas, and J.L. Mancha. 1994. Planetary and Lunar velocities in the Castilian Alfonsine
+
+ Tables. Proceedings of the American Philosophical Society 138: 61-95.
+
+ Hogendijk, J., and A.I. Sabra. 2003. The Enterprise of Science in Islam. Cambridge, MA: MIT Press.
+ Jensen, C. 1971. The Lunar theory of al-BaghdadT. Archive for History of Exact Sciences 8: 321-328.
+ Kennedy, E.S. 1977. The astronomical tables of Ibn al-Aclam. Journal for the History of Arabic Science
+
+ 1: 13-23.
+
+ King, D.A., and M.H. Kennedy (eds.). 1983. Studies in the Islamic exact sciences by E. S. Kennedy,
+
+ Colleagues and Former Students. Beirut.
+
+ King, D.A., and G. Saliba (eds.). 1987. From deferent to equant: A volume of studies in the of history science
+ in the ancient and medieval Near East in honor of E. S. Kennedy. Annals of the New York Academy of
+ Sciences, vol 500. New York.
+
+ Kremer, R.L., and J. Dobrzycki. 1998. Alfonsine meridians: Tradition versus experience in astronomical
+
+ practice c. 1500. Journal for the History of Astronomy 29: 187-199.
+
+ Mercier, R. 1989. The parameters of the ZTj of Ibn al-Aclam. Archives Internationales d'Histoire des
+
+ Nallino, C.A. 1903-1907. Al-Battam sive Albatenii Opus Astronomicum, 2 vols. Milan.
+
+ Neugebauer, O. 1975. A History of Ancient Mathematical Astronomy. Berlin.
+ Pedersen, F.S. 2002. The Toledan Tables: A review of the manuscripts and textual versions with an edition.
+
+ Sciences 39: 22-50.
+
+ Copenhagen.
+
+ Poulle, E. 1984. Les tables alphonsines avec les canons de Jean de Saxe. Paris.
+ Ratdolt, E. (ed.). 1483. Tabule astronomice illustrissimi Alfontij regis castelle. Venice.
+ Saby, M.-M. 1987. Les canons de Jean de Ligneres sur les tables astronomiques de 1321. Unpublished
+ thesis: Ecole Nationale des Chartes. Paris. A summary appeared as: "Les canons de Jean de Ligneres
+ sur les tables astronomiques de 1321" Ecole Nationale des Chartes: Positions des theses, pp. 183-190.
+ Salam, H„ and E.S. Kennedy. 1967. Solar and Lunar tables in early Islamic astronomy. Journal of the
+
+ American Oriental Society 87: 493-497. (Reprinted in King and Kennedy 1983, pp. 108-113).
+
+ "£l Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:05:22 UTC
+All use subject to https://about.jstor.org/terms
+
+ Saliba, G. 1976. The Double-argument Lunar tables of Cyriacus. Journal for the History of Astronomy 7:
+
+ 42 J. Chabas, B. R. Goldstein
+
+ Saliba, G. 1977. Computational techniques in a set of late medieval astronomical tables. Journal for the
+
+ 41^6.
+
+ History of Arabic Science 1: 24-32.
+
+ Samso, J. 2003. On the Lunar tables in Sanjaq Dar's ZTj al-SharTf. In Hogendijk and Sabra 2003.
+ Samso, J., and E. Millas. 1998. The computation of planetary longitudes in the zTj of Ibn al-Banna. Arabic
+
+ Sciences and Philosophy 8: 259-286.
+
+ Solon, P. 1970. The six wings of Immanuel Bonfils and Michael Chrysokokkes. Centaurus 15: 1-20.
+ Thorndike, L. 1957. Notes on some astronomical, astrological and mathematical manuscripts of the Bibli
+
+ otheque Nationale, Paris. Journal of the Warburg and Courtauld Institutes 20: 112-172.
+
+ Tihon, A. 1977-1981. Un traite astronomique chypriote du XlVe siecle. Janus 64: 281-308; 66: 49-81; 68:
+
+ 65-127. (Reprinted in Tihon 1994, Essay VII).
+
+ Tihon, A. 1994. Etudes d'astronomie byzantine. Aldershot.
+ Toomer, G.J. 1968. A survey of the Toledan tables. Osiris 15: 5-174.
+ Toomer, G.J. 1984. Ptolemy's Almagest. New York.
+ Van Brummelen, G. 1998. Mathematical methods in the tables of planetary motion in Kushyar ibn
+
+ Labban's Jamf ZTj. Historia Mathematica 25: 265-280.
+
+ <£) Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:05:22 UTC
+All use subject to https://about.jstor.org/terms
+
+

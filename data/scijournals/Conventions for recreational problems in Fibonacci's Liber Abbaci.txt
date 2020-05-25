@@ -1,0 +1,1834 @@
+ 
+
+ 
+
+ 
+
+ 
+
+Conventions for recreational problems in Fibonacci's "Liber Abbaci"
+Author(s): John Hannah
+Source: Archive for History of Exact Sciences, Vol. 65, No. 2 (March 2011), pp. 155-180
+Published by: Springer
+Stable URL: https://www.jstor.org/stable/41134344
+Accessed: 19-05-2020 12:25 UTC
+
+JSTOR is a not-for-profit service that helps scholars, researchers, and students discover, use, and build upon a wide
+
+range of content in a trusted digital archive. We use information technology and tools to increase productivity and
+
+facilitate new forms of scholarship. For more information about JSTOR, please contact support@jstor.org.
+
+Your use of the JSTOR archive indicates your acceptance of the Terms & Conditions of Use, available at
+
+https://about.jstor.org/terms
+
+Springer is collaborating with JSTOR to digitize, preserve and extend access to Archive for
+History of Exact Sciences
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:25:48 UTC
+All use subject to https://about.jstor.org/terms
+
+ Arch. Hist. Exact Sci. (201 1) 65:155-180
+ DOI 10.1007/S00407-010-0074-X
+
+ Conventions for recreational problems in Fibonacci's
+ Liber Abbaci
+
+ John Hannah
+
+ Received: 29 January 2010 / Published online: 3 December 2010
+ © Springer- Verlag 2010
+
+ Abstract Fibonacci's treatment of so-called recreational problems in his Liber
+ Abbaci has been interpreted as an early episode both in the history of systems of
+
+ linear equations, and in the history of negative numbers. However, these problems are
+ also interesting in their own right. We discuss some of the conventions which seem
+
+ to have governed these problems. By considering certain pairs of problems, where
+ one problem is unsolvable and its partner is solvable, we show that Fibonacci went
+ to a significant effort to conform to these conventions. We also examine the methods
+
+ which he could have used to construct his problems.
+
+ 1 Introduction
+
+ Leonardo of Pisa, also known as Fibonacci, published his Liber Abbaci in 1202, and
+
+ again in revised form in 1228. For many people his fame rests on a minor problem in
+
+ Chap. 12 of Liber Abbaci which gives rise to the Fibonacci sequence.1 The twelfth and
+
+ longest chapter of Liber Abbaci has nine sections devoted mostly to various methods
+ of solving what some people call recreational problems (Singmaster 1988) and what
+
+ 1 See Vogel (1971) and Katz (1998, Chap. 8) for a general introduction to Leonardo. His Liber Abbaci was
+ published in the original Latin as Boncampogni (1857) and it has been translated into English as Sigler
+ (2002). Leonardo's treatment of various problems, his possible sources and his own influence on later devel-
+ opments are discussed, for example, in Bartolozzi and Franci (1990), Docampo Rey (2009), Franci and
+ Toti Rigatelli (1985), H0yrup (2005, 2007), Katz (1998), Rashed (1994), Sesiano (1985, 2009), Spiesser
+ (2000), Vogel (1940, 1971).
+
+ Communicated by Menso Folkerts.
+
+ J. Hannah (S)
+
+ Department of Mathematics and Statistics, University of Canterbury, Private bag 4800,
+ Christchurch 8 1 40, New Zealand
+
+ e-mail: john.hannah@canterbury.ac.nz
+
+ £l Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:25:48 UTC
+All use subject to https://about.jstor.org/terms
+
+ 156 J. Hannah
+
+ other people call mathematical riddles (H0yrup 2002, pp. 364-367). As many of the
+ problems can be interpreted as systems of linear equations, Leonardo has been seen
+ as a pioneer in the development of methods for solving such systems (Vogel 1940).
+ Because some of the problems involve amounts of money and are unsolvable unless
+ you allow negative solutions (interpreted as debts), Leonardo has also been seen as an
+ early advocate for negative numbers (Sesiano 1985). In this article, however, I want
+
+ to look at these problems in their own right, trying to see them as Leonardo saw them.
+
+ The most obvious effect of this change of viewpoint is that we will now be looking,
+
+ not at systems of linear equations, but at problems such as:2
+
+ Two men have some denari. The first says to the other:
+
+ If you give me one of your denari, I shall have the same as you.
+
+ The other man replies:
+
+ And if you give me one of your denari, I shall have ten times as much as you.
+ How many denari does each man have? (Boncompagni 1857, p. 190) or (Sigler
+ 2002, p. 289)
+
+ Thus the unknowns are not usually abstract numbers, but instead concrete quantities
+
+ such as "the first man's denari." The change of viewpoint also results in a change of
+ questions. Instead of looking for the antecedents of modern ideas, such as general
+
+ methods for solving systems of linear equations, or the existence of negative numbers,
+
+ we shall be looking at issues which concerned Leonardo himself. We shall focus in
+ particular on two questions: Which kinds of questions was Leonardo allowed to ask?
+ and How could he have constructed acceptable problems?
+
+ We shall concentrate on Leonardo's treatment of three groups of problems: men
+
+ giving and taking (as in the above example), men finding a purse, and men wishing to
+
+ buy a horse (see Sect. 2 for examples of such problems). All three groups of problems
+ have a long history before and after Leonardo's time (Singmaster 2004, Sect. 7.R).
+ Leonardo contributes to this history by offering a wide range of variations (for exam-
+
+ ple, increasing the number of men involved and allowing various groupings of men),
+
+ by offering a variety of solution methods (such as false position and regula recta) and,
+
+ most particularly, by exploring variations of the problems which, for one reason or
+ another, are unsolvable. In what follows, it is Leonardo's wealth of examples which
+ allows us to observe the conventions which seem to have applied to these families
+
+ of problems, and it is his interest in unsolvable and solvable problems conforming to
+ these conventions, which gives us the chance to see how he might have constructed
+
+ his problems.
+
+ In Sect. 2, we introduce the three families of problems mentioned above, and iden-
+
+ tify the conventions which seem to have applied to such problems, especially to the
+
+ more complex variations involving three or more unknowns. The most noticeable con-
+ vention is that values of parameters (such as amounts of money being exchanged, or
+ ratios of amounts of money) increase as you recite the problem, a convention which
+
+ may have made it easier to remember the data in an oral environment. This convention
+
+ 2 All translations are mine. Where paraphrases are given, the reader seeking more detailed translations is
+
+ referred to (Sigler 2002) which is more than adequate for that purpose.
+
+ Ö Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:25:48 UTC
+All use subject to https://about.jstor.org/terms
+
+ Conventions in Fibonacci's Liber Abbaci 1 57
+
+ is followed by many complex problems in many cultures, so it cannot be said to belong
+
+ particularly to Leonardo, even though he seems to adhere to it more closely than many
+
+ of his predecessors.
+
+ Section 3 looks at how the three families of problems fit into Leonardo's plan for
+
+ Chap. 12 of Liber Abbaci. We shall see that Leonardo's systematic exploration of
+ variations of these problems inevitably unearths some unsolvable problems. Earlier
+ authors do not seem to have been interested in such unsolvable problems, so this
+ material may actually be original to Leonardo. His main concern seems to be that his
+ readers learn how to recognize unsolvable problems, and for this purpose he offers
+
+ pairs of related problems, one unsolvable and the other solvable. To construct these
+ problems Leonardo seems to have gone to significant effort to conform to the con-
+
+ ventions found in Sect. 2. Although Leonardo tells his readers nothing about how to
+
+ construct these problems, we show that nothing extra was needed beyond the methods
+ taught in Liber Abbaci. Thus there is no need to postulate (as Sesiano (2009, p. 103)
+ seems to do) that he had formulas for solving these problems, or that he used such
+ formulas to choose parameter values which lead to unsolvable problems or negative
+ values for some of the unknowns.
+
+ 2 Conventions for complex problems
+
+ In this section we shall introduce three families of problems discussed by Leonardo,
+
+ and then look at the general conventions which seem to govern them. At this stage all
+
+ that is involved is a superficial inspection of the statements of the problems and their
+
+ solutions. We postpone a deeper analysis of Leonardo's actual methods until the next
+ section.
+
+ All the problems discussed here are variations on well-known classical puzzles.
+ The first family of problems, about "giving and taking", occurs in the third section
+ of Chap. 12 of Liber Abbaci, a section where Leonardo introduces the method of
+
+ (single) false position. This group of problems deals with men taking money from
+ one another and then making observations about the relative sizes of their holdings.
+
+ Such problems have a long history, with Diophantus (third century CE) showing how
+
+ to solve an abstract problem corresponding to the case of just two men; see Problem
+ I, 15 in Heath (1910, p. 134) or Ver Eecke (1959, p. 20). Somewhat later, Mahavira
+ (ninth century CE) offers two examples involving three men (Mahavira 1912, pp. 158-
+ 159). These problems still seem to have had some currency as challenge problems in
+
+ Leonardo's time since his third example is said to have been posed to him by a teacher
+ in Constantinople (Boncompagni 1857, p. 190) or (Sigler 2002, p. 290):
+
+ Two men have some denari.
+
+ If the first takes 7 denari from the second, he will have 5 times what that man
+ has left.
+
+ Similarly, if the second takes 5 from the first, he will have 7 times what the first
+ has left.
+
+ How many denari does each man have?
+
+ £l Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:25:48 UTC
+All use subject to https://about.jstor.org/terms
+
+ 158 J. Hannah
+
+ or, in algebraic form3
+
+ a + 7 = 5(b - 7)
+
+ * + 5 = 7(a-5).
+
+ We shall examine Leonardo's method of solution later, but for the moment the most
+
+ interesting feature is that the solution is quite messy. Indeed, the amounts held by the
+
+ two men at the start of the problem are found to be
+
+ This is typical of Leonardo's examples and those of his predecessors mentioned above.
+
+ Convention 1 Data in problems are usually small integers. A consequence of this is
+ that solutions are relatively messy (for example, non-integers).
+
+ This may seem too simple an observation to be worth making, but one important
+
+ consequence is that this means such problems were generally constructed first, and the
+ solution calculated afterwards. This contrasts, for example, with many problems in
+
+ Old Babylonian texts where not only were the solutions known beforehand, but some-
+ times these solutions were still found "correctly" despite arithmetical errors being
+
+ made during the solution process (H0yrup 2002, p. 72). Constructing problems first
+
+ and accepting the solution which then arises, is probably a sign that the author is con-
+ fident that his method of solution will work for any problem. Using round numbers
+
+ in the problem statement may also make it easier to remember the data during the
+
+ solution process, whilst the messy answer may have the advantage, in the context of
+ challenge problems, that an opponent would be unlikely to find the correct answer
+ simply by guessing.
+
+ Leonardo presents 16 problems on the theme of giving and taking, some involving
+ more complicated exchanges, and others involving larger groups of men.4 The prob-
+ lems involving more than two men seem to follow additional conventions, as we can
+ see by looking at the first such problem (Boncompagni 1857, p. 198) or (Sigler 2002,
+
+ 3 In this and succeeding examples, such equations should be viewed only as a short hand notation for the
+
+ problem statement. There is no intention of suggesting anything resembling an algebraic approach to the
+ problems. One significant difference between the rhetorical version and the algebraic version in this case
+ is that the amounts exchanged are mentioned only once in the rhetorical version, but appear twice in each
+
+ equation. Thus the equations make the enunciation appear more complicated from the point of view of an
+ oral delivery of the problem.
+
+ 4 To help the reader see the conventions discussed below, all 16 problems are listed in algebraic form in
+ Appendix A.
+
+ £i Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:25:48 UTC
+All use subject to https://about.jstor.org/terms
+
+ Conventions in Fibonacci's Liber Abbaci 1 59
+
+ p. 300).5
+
+ 0 + 7 = 5(¿ + c-7)
+
+ b + 9 = 6(c + a - 9)
+
+ c+11 =7(a + b- 11)
+
+ Once again, we see that all the numbers are integers, but this time there is also a
+
+ pattern amongst the parameters, or numbers playing the same role in each condition
+
+ (or equation) of the problem. Thus the takings (7, 9, 1 1) and the comparison ratios (5,
+
+ 6, 7) both increase as we read or recite the problem. On the other hand, the solution is
+
+ still messy:
+
+ 7 98 L r 206 ^ a 24
+
+ a = 7263' 7 98 * L = 5263' r 206 C ^ = 4263- a 24
+
+ This behaviour is common to all the more complex giving and taking problems in
+ Liber Abbaci (see Appendix A).
+
+ Convention 2 In complex problems, the various parameters increase as you read or
+ recite the problem.
+
+ Similar conventions can be found in Leonardo's treatment of purse problems in
+ Sect. 4 of Chap. 12 of Liber Abbaci. Again, these problems have a long history, with
+ early examples found in Iamblichus (fourth century CE) and Mahavira (Singmaster
+ 2004). Leonardo's first problem gives the basic scenario of purse problems (Boncom-
+ pagni 1857, p. 212) or (Sigler 2002, p. 317):
+
+ Two men with denari find a purse with denari in it.
+
+ The first says to the second, "If I were to have the denari from the purse along
+
+ with those I already have, I would have three times as much as you."
+
+ To which the other replies, "And if I were to have the denari from the purse along
+
+ with my denari, I would have four times as much as you."
+
+ How much does each man have, and how much is in the purse?
+
+ As with the giving and taking problems, I shall represent such problems in symbolic
+ form:
+
+ a + p = 3b
+
+ b + p = 4a
+
+ but these symbolic representations should, of course, be read as stories of the above
+
+ form. All 15 purse problems are given in symbolic form in Appendix B, and we can
+ see there that Conventions 1 and 2 also apply to all of Leonardo's purse problems.
+ This time, however, the problems are all indeterminate and so have infinitely many
+
+ 5 This example should be read as: the first man having 7 of the others' denari, will have 5 times as much as
+
+ them; and so on. Thus the algebraic form displays more detail, and may tend to make the problem statement
+ look more complicated, than the rhetorical form does.
+
+ £l Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:25:48 UTC
+All use subject to https://about.jstor.org/terms
+
+ solutions. Leonardo may not have a fully developed theory for systems of linear equa-
+
+ tions, but he is aware of the freedom which we associate with indeterminacy, and he
+
+ uses that freedom to find integer solutions to all his problems, usually the smallest
+
+ integer solutions. Thus in solving the above problem he finds that
+
+ 160 J. Hannah
+
+ 0=4, ¿? = 5, c=ll.
+
+ It is perhaps debatable whether this solution is relatively messy compared with the
+
+ initial data (as Convention 1 would suggest) but for problems involving more men the
+ distinction is much more clear cut. For example, Leonardo's solution to the second
+ purse problem (see Appendix B) is
+
+ a = 7, b = 17, c = 23, p = 73
+
+ compared with initial data of 2, 3 and 4.
+
+ However, Convention 2 needs a slight modification if we are to see it applying in
+
+ the group of problems considered by Leonardo in Sect. 5 of Chap. 12 of Liber Abbaci.
+
+ These problems are variations of yet another classical problem: men buying a horse,
+ where men (or groups of men) with money seek money from other men in order to
+
+ buy a horse.6 The second problem highlights the main features of most of these prob-
+ lems, (Boncompagni 1857, p. 229) or (Sigler 2002, p. 338). Symbolically, it could be
+
+ represented by the following system of equations:
+
+ a + 'b = h
+
+ b + 'c = h
+ c+±a = h
+
+ or, in words, the first man seeks one third of the denari of the second man in order
+ to be able to buy the horse, and so on. Notice that, because of the context of these
+
+ problems, we can expect the parameter (the fractions sought, that is, ', ' and ' in
+ the above problem) to take values between 0 and 1. At first sight, this parameter does
+
+ not appear to increase as we read through the problem. However, if we think in terms
+ of the oral delivery of the problem, the numbers being mentioned do still increase,
+ as in a third, a fourth, a fifth. Viewed in this light, these examples follow a natural
+ extension of Convention 2. Since the fractions sought are generally expressed in terms
+ of unit fractions, we can think of the denominators of these fractions as parameters
+
+ which, in line with Convention 2, ought to increase as we read through the prob-
+ lems. In the few cases where fractions sought are expressed as proper fractions rather
+ than unit fractions, Leonardo's numerators usually increase too. For example, this
+
+ 6 This group of problems has been studied in (Vogel 1940) and we refer the reader to Vogel's article for a
+ complete listing of these problems in algebraic form.
+
+ £i Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:25:48 UTC
+All use subject to https://about.jstor.org/terms
+
+ Conventions in Fibonacci 's Liber Abbaci 1 6 1
+
+ happens in Leonardo's third horse problem (Boncompagni 1857, p. 231) or (Sigler
+ 2002, p. 341):7
+
+ a + ' b = h
+ b+±c = h
+
+ c+'d = h
+
+ Summarizing our findings then, we have one more convention.
+
+ Convention 3 In complex problems, if parameters are expected to be fractions, then
+
+ they are usually expressed in terms of unit fractions, with denominators increasing
+
+ as you read or recite the problem. If the parameters are expressed in terms of proper
+ fractions, then numerators and denominators both increase as you read or recite the
+
+ problem.
+
+ Lest it be thought that this last example violates Convention 1, it should be noted
+
+ that Leonardo's solution to this indeterminate problem is indeed relatively messy:
+
+ a = 35435, ¿7 = 35313, c = 41412.
+
+ Of course, using parameters such as |, j and | may simply be an attempt to set a
+ hard problem but, as we shall see in the next section, it is also possible that the above
+ conventions sometimes forced Leonardo to use complicated parameters.
+
+ 2.1 Discussion
+
+ We have seen that Leonardo's problems dealing with giving and taking, men finding
+
+ purses, or men wishing to buy horses, almost all follow what I have called Conventions
+
+ 1, 2 and 3. A glance at other ancient or mediaeval collections of problems shows that
+
+ their authors usually follow the same conventions, although perhaps not as rigidly as
+
+ Leonardo does. For example, when Diophantos needs to choose three or more typical
+ values to illustrate his method for a general problem, he usually chooses according to
+ these conventions; see, for example, Problems 16 to 25 from Book I in Heath (1910)
+
+ or Ver Eecke (1959). Similarly, many of Mahavira's problems involving three or more
+ statements use increasing (or decreasing) parameter values, although there are also
+ several cases where the final values are out of sequence. Thus, for example, one purse
+ problem has successive ratios 8, 9, 10, 11, but another, where fractions are taken
+
+ from the purse, has the two sequences of parameter values 5,5*5*5» and 2, 3, 5, 4
+ (Mahavira 1912, p. 156). Again, problems from the Suan Shu Shu (second century
+
+ 7 Leonardo gives just two other examples involving proper fractions. Using the numbering in Vogel (1940)
+
+ they are Problem 7, which has the fractions sought 3, 7, -pp j$, ^, and Problem 19, which has the
+
+ fractions sought 5, |, ^-, ^. The only exception to these apparent conventions is Vogel's Problem 20,
+ an unusually complicated problem posed to Leonardo by "a most skilful master" from Constantinople. Its
+
+ fractions sought are expressed as sums of unit fractions which would be read as 3 + 5, ^ + ¿ + 337}, Ž +
+ 1,1 2,1,1 2,1,1,1
+ S + SSS'S + T + raí'S + TÜ + TT + STÜ-
+
+ £) Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:25:48 UTC
+All use subject to https://about.jstor.org/terms
+
+ BCE) which involve three quantities often follow these conventions; see Problems
+ 11, 13, 15 and 21 in Dauben (2008). And as one final example, most of Al-Karajfs
+
+ problems dealing with three or more unknowns follow the above conventions; see, for
+ example, Problems 24 to 35 in Sect. Ill of Woepcke (1853). Further examples can be
+ found in the comprehensive listing of so-called recreational problems in Singmaster
+ (2004).
+
+ 162 J. Hannah
+
+ However, it is still conceivable that what we have here are not really conven-
+ tions, in the sense of rules which should be followed when you construct a problem.
+ Perhaps what we have observed is simply a natural behaviour when you pose prob-
+ lems for people who are expected to have a general method of solution. In such
+ cases, you seem to have complete freedom to choose values for any parameters in
+ the problem, so why not choose the simplest numbers, such as 1, 2, 3, and so on?
+ Choosing increasing parameter values may originally have been a response to the
+ extra load on the hearer's memory when a complex problem is recited, as increas-
+ ing (or decreasing) sequences of numbers may be easier to remember. Certainly, as
+ Appendix A shows, this behaviour does not occur in the simpler problems dealing
+ with only two men giving and taking. If this is the reason for the observed behav-
+
+ iour, then choosing messier numbers could simply represent an attempt to pose harder
+
+ problems.
+
+ Although this is an appealing hypothesis, in the next section I shall argue that, at
+
+ least for Leonardo, these conventions had become rules which had to be followed
+
+ when you constructed a problem.
+
+ 3 Conventions under strain
+
+ In this section we examine Leonardo's overall plan in the parts of his Liber Abbaci
+
+ which deal with problems about giving and taking, or about men finding a purse,
+ or about men wanting to buy a horse. In the natural course of following this plan,
+ he comes across problems which, for him at least, are unsolvable. It seems that,
+ in each case, he then looks for a solvable counterpart for the unsolvable problem.
+ In at least one case, he goes to surprising lengths to produce a problem which
+ conforms to the conventions we discussed in the previous section. As we follow
+
+ Leonardo in this journey, we can see how he might have constructed some of these
+ problems.
+
+ Leonardo's 16 giving and taking problems, discussed earlier, form a single coherent
+
+ unit amongst the 100 or so problems which he solves in Sect. 3 of Chap. 12 of Liber
+ Abbaci. Although Leonardo introduces several different methods in Sect. 3, his main
+
+ thesis is that the method of (simple) false position can be used to solve many problems.
+
+ To support this thesis he offers a wide variety of problems and shows how to reduce
+ each of them to a false position calculation. For the 16 problems about giving and
+
+ taking (see Appendix A) Leonardo works systematically through variations on the
+ basic scenario, and shows that in each case the same reduction technique can be used.
+
+ Perhaps one reason that he deals with so many variations, all using the same reduction,
+ is that it turns out that some of his examples cannot be solved and so he decides to
+
+ £i Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:25:48 UTC
+All use subject to https://about.jstor.org/terms
+
+ devote some time to showing his readers how to distinguish solvable problems from
+ unsolvable ones.
+
+ Conventions in Fibonacci 's Liber Abbaci 1 63
+
+ To see why some problems might be unsolvable for Leonardo, let us look briefly
+ at Problems 5 and 7 from Appendix A.8 Problem 5 deals with two men giving and
+ taking, but with a surplus involved in the resulting comparison (Boncompagni 1857,
+ p. 193) or (Sigler 2002, p. 294):9
+
+ Leonardo works in terms of a lesser sum which we might represent as
+
+ and he shows that
+
+ 0 + 7 = 5(6-7) + 12
+
+ ¿> + 5 = 7(a-5) + 12.
+
+ s =a+b- 12
+
+ G+I)f-
+
+ which he says is impossible}® Leonardo does not say why this conclusion might be
+
+ impossible, but he is probably referring to the Euclidean principle that the lesser can-
+ not be equal to the greater. Indeed his turn of phrase {quod est impossibile) may be
+
+ a deliberate echo of a phrase which occurs frequently in reductio ad absurdum proofs
+
+ in the version of Euclid's Elements which was translated directly from the Greek, a
+
+ version which Leonardo seems to have known. 1 1 Many of these reductio ad absurdum
+
+ proofs reach the same kind of conclusion as Leonardo has just reached in our example:
+
+ such and such are equal; the lesser to the greater; which is impossible}2 By using the
+ final part of this rather formulaic construction, Leonardo could remind his audience
+
+ of the Euclidean principle encapsulated by the whole construction.13
+
+ From our modern viewpoint, we might say that for Leonardo all magnitudes (includ-
+ ing this lesser sum) have to be positive numbers. Thus s = 0 is not entertained as a
+ possibility here. The scenario corresponding to s = 0 could well have been excluded
+
+ 8 In modern terms, some problems are unsolvable because Leonardo is unwilling to countenance zero or
+ negative quantities. See Sesiano (1985) for a discussion of these problems and their role in the history of
+ negative numbers.
+
+ 9 These equations should be read as saying, If the first man takes 7 denari from the second, he will have
+ five times what that man has, and 12 more, and so on.
+
+ 10 In Latin: impossibile. In this article I have consistently translated this word as impossible.
+
+ Folkerts (2005, pp. 106-1 12) presents compelling evidence that Leonardo was at least familiar with this
+
+ version of the Elements. Busard (1987, pp. 17-20), in his critical edition of this version, even suggests that
+ Leonardo may have had a hand in compiling its Compendium of Books XIV and XV.
+
+ 12 For example, Proposition I, 14 says: ...est equalis. Minor maiori. Quod est impossibile (Busard 1987,
+ p. 35).
+
+ 13 See Netz (1999, Chaps. 4 and 5) for a discussion of formulaic phrases in Greek mathematics. A key idea
+ here is that formulas are naturally subject to ellipsis, and that the entire original formula can be conjured
+ up for the reader by the mention of just a part.
+
+ £} Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:25:48 UTC
+All use subject to https://about.jstor.org/terms
+
+ 164 J. Hannah
+
+ on other grounds too. This value leads to the first man having just 5 denari and the
+
+ second just 7. Thus, after the first exchange in the statement of the problem, the first
+
+ man (with all 12 denari in his hand) would be saying, 'I have 12 more than five times
+
+ what you have,' to a man who has nothing in his hand. Perhaps there is some discom-
+
+ fort, in this context of public challenge, with making arithmetical comparisons about
+
+ amounts of money when one party actually has no money.
+
+ Leonardo's treatment of Problem 7 from Appendix A shows another way in which
+
+ problems may be unsolvable. In algebraic terms the problem can be expressed as the
+ following system (Boncompagni 1857, p. 196) or (Sigler 2002, p. 297):
+
+ a+7 = 5(fc-7) + l
+
+ ¿ + 5 = 7(0-5) + 15.
+
+ S = a+b-l.
+
+ Leonardo shows that this problem is unsolvable by working in terms of a middle sum
+
+ He derives a condition which we might represent by the equation
+
+ and, after a false position calculation, he deduces that the first man must have 4 j|
+
+ denari. Leonardo says that this value is absurd14 because it is less than the 5 which
+
+ the first man is supposed to give the second.
+
+ If we are thinking in terms of solutions to systems of linear equations, then we
+
+ might say that the obstruction to solvability this time is that Leonardo is unwilling
+
+ to allow negative values (for the holdings of the first man after he has handed over 5
+ denari to the second man). However, if we think in terms of the original problem, the
+
+ obstruction is not being able to make sense of the proposed solution in terms of the
+
+ original story.15
+
+ Earlier writers do not seem to have been interested in unsolvable problems, so this
+
+ material may be original to Leonardo. In more general settings, however, unsolvable
+
+ problems must have arisen throughout the history of mathematics. Traces of some of
+
+ these problems can perhaps be found in the <$¿op¿a/zocr, or condition of solvability,
+
+ 14 In Latin: inconueniens. I have translated this word as absurd as this is consistent with the use of inconu-
+
+ eniens as a translation of aronocr in Books III to IX of the translation of the Elements made directly from
+
+ the Greek, a text with which Leonardo seems to have been familiar (Busard 1987, pp. 17-20) and (Folkerts
+
+ 2005). In Liber Abbaci the words inconueniens and impossibile are used as synonyms describing not only
+
+ the contradictions which we might associate with inconsistent problems, but also other contradictions of
+ Euclidean principles which we might now resolve by using negative numbers or zero. The same books
+ of the translation of the Elements made directly from the Greek consistently use impossibile to translate
+ aSvvaTOcr.
+
+ lJ Later on, Leonardo does allow negative solutions (viewed as debts) tor some purse or norse-ouying
+ problems (Sesiano 1985), perhaps thinking of these later problems as more advanced material. However,
+ none of his problems are allowed zero solutions.
+
+ Ô Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:25:48 UTC
+All use subject to https://about.jstor.org/terms
+
+ Conventions in Fibonacci 's Liber Abbaci 1 65
+
+ which Euclid supplies for some problems in his Elements (Heath 1926, pp. 129-131).
+
+ For example, unsolvable instances of the problem "to construct a triangle out of three
+
+ straight lines equal to three given lines" are eliminated by the condition that any two
+ of the lines taken together should be greater than the third {Elements, I, 22). Leo-
+ nardo was certainly familiar with the Elements (Folkerts 2005) and so, with such
+ Euclidean examples in mind, Leonardo may have aspired to eliminating unsolvable
+
+ problems by finding similar conditions of solvability. An example where this was pos-
+ sible occurred in Chap. 11 of Liber Abbaci where he discusses alloy problems. Here
+ he was able to offer rules for when certain problems were solvable. For example, to
+
+ form an alloy of a desired richness, the reader is told to start with two alloys, one richer
+
+ than the desired richness and one poorer (Boncompagni 1857, p. 151) or (Sigler 2002,
+
+ p. 238). By contrast, al-Karajï gives an unsolvable problem about alloys in his collec-
+ tion al-Fakhrî and he resolves the dilemma simply by changing the desired richness
+
+ to an appropriate value (Woepcke 1853, p. 79). As we shall see shortly, Leonardo was
+ also able to demarcate the solvable cases of two simpler variations of giving and taking
+
+ problems by supplying the critical cases beyond which all problems were unsolvable
+ (Problems 5 and 7 from Appendix A). It seems likely that Leonardo was not aware
+ of al-Karajfs work (Rashed 1994) but we shall see that Leonardo responds to other
+ unsolvable problems in the same way that al-Karajï does, giving a modification of an
+
+ unsolvable problem which renders it solvable.
+
+ The first of Leonardo's pair of four-man giving and taking problems is unsolvable
+
+ and can be represented symbolically as follows (Boncompagni 1857, p. 201) or (Sigler
+
+ 2002, p. 303): 16
+
+ a+b + l = 3(c + d-l)
+
+ b + c + 8 = 4(d + a - 8)
+ c + d + 9 = 5(a + b-9)
+
+ d + a + ll =6(¿ + c-ll)
+
+ To see why Leonardo thinks this problem is unsolvable, we shall follow a paraphrase
+
+ of his explanation. Not only does this show his general method for solving such prob-
+
+ lems, but it may also shed some light on his construction of a solvable version of the
+ same problem.
+
+ Leonardo works in terms of the whole amount of denari present, a quantity we
+
+ might represent as
+
+ S = a+b + c + d.
+
+ The first condition in the problem, says Leonardo, implies that the first and second
+
+ men, once they have the 7 denari handed over by the other two, must hold | of the total
+
+ amount S. Hence the third and fourth, initially, must have ' of S plus the 7 denari.
+
+ 16 This example should be read as: the first and second men having 7 of the others' denari, will have three
+ times as much as them; and so on. Once again, the rhetorical version is not as dense with details which need
+ to be remembered as the symbolic version is.
+
+ £} Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:25:48 UTC
+All use subject to https://about.jstor.org/terms
+
+ Similarly, using the third condition, the first and second men must initially hold ¿
+ of 5 plus the 9 denari. Combining these facts, Leonardo deduces that all four men
+
+ between them must have ' + ¿ of S plus 16 denari. Since he wants to use the method
+ of false position, he rephrases this conclusion in a form which we might represent by
+
+ 166 J. Hannah
+
+ the equation:
+
+ For this false position calculation Leonardo would normally guess that S = 24, the
+ least common multiple of the denominators 4 and 6. Evaluating the left-hand side of
+
+ the equation would then give 14 instead of the desired 16, and so he would scale his
+
+ guess to get the true value of 5:
+
+ In the text he simply states this solution (by this stage he has already done more than
+
+ fifty false position calculations in this section of Liber Abbaci). Proceeding in the same
+
+ way with the second and fourth conditions from the problem, he derives a condition
+
+ which we might represent by the equation:
+
+ *-(H)*"*
+
+ Once again Leonardo simply states the solution, but his normal guess for this false
+ position would be 5 = 35. This yields 23 instead of 19, so this time the true value of
+ S appears to be
+
+ , 35x19 21
+ S- , -ja" -2%- 21
+
+ He says this situation is absurd since the earlier calculation gave a different value for
+ S.
+
+ The question naturally arises: why did Leonardo give an unsolvable problem here,
+ and how did he find it? The situation can be clarified if, for a moment, we switch to
+
+ a completely anachronistic and modern viewpoint. Giving and taking problems like
+ this one can be written in matrix form:
+
+ 1 1 -a -a a *
+
+ -ß 1 1 -ß b _ *
+ -y - y 1 le""*
+ _ 1 -8 -8 1 J |_t/J |_*_
+
+ In our case, the parameter values (the ratios of what we will have to what you will
+ have) are
+
+ a = 3, 0=4, y=5, 8 = 6
+
+ Ô Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:25:48 UTC
+All use subject to https://about.jstor.org/terms
+
+ Conventions in Fibonacci 's Liber Abbaci 1 67
+
+ but, regardless of the parameter values, the coefficient matrix here has rank at most
+
+ 3, and so almost all such problems are inconsistent. A glance at the complete list
+
+ of giving and taking problems (Appendix A) shows that this form of problem arose
+ naturally during Leonardo's exploration of variations on the basic problem. Hence,
+ Leonardo did not need to search for this unsolvable problem. Once he had decided to
+
+ look at this form of problem (pairs of men from amongst four men, giving and taking,
+
+ with the pairs changing cyclically) it was almost inevitable that his example would be
+ unsolvable. In particular, there is no need to postulate in this case, as Sesiano seems
+ to do in Sesiano (2009, p. 103), that Leonardo had a general formula for solving all
+
+ such problems, and that he used this formula to deliberately choose parameter values
+
+ which would lead to, say, negative solutions. As we have just seen, Leonardo does have
+
+ an algorithm for solving such problems but, in the absence of algebraic symbolism,
+ it seems unlikely that he would have been able to express the solutions in terms of
+ arbitrary parameter values. (By way of contrast, we shall see later a situation where
+ it would have been entirely feasible for him to see the effect of choosing arbitrary
+ parameter values.)
+
+ Immediately after the above unsolvable problem, Leonardo says that if we want
+
+ to exhibit a solvable variation on this problem,17 then we can use the example which
+ can be expressed in symbolic form as follows (Boncompagni 1857, p. 201) or (Sigler
+ 2002, p. 303):
+
+ How could he have found this problem? After all, we have just seen that almost all
+ problems with this pattern of giving and taking are unsolvable.18 One easy way to
+
+ construct a solvable problem is to start with the solution. In this case the easiest way
+
+ would be to choose arbitrary amounts for the denari of each man (more than they are
+
+ required to give away, of course), and then to calculate the new proportions needed
+
+ to replace the proportions 3, 4, 5, 6 in the original problem. For example, keeping the
+ same amounts being exchanged and starting with the solution a = 5,b = l,c = 9
+ and d = 10 would lead to the problem:
+
+ a + b+l00 = 3(c + d- 100)
+
+ b + c+lO6 = 4(d + a- 106)
+
+ c + d + U5 = 5(a+b- 145)
+
+ d + a + 170 = 6(b + c - 170)
+
+ a + b + 1 = l|(c + d-7)
+ ¿ + c + 8= 3*(d + fl-8)
+
+ c + d + 9= f(a + b-9)
+ d + a + ll = %(b + c-U)
+
+ In Latin: nom si earn solubilem propone re uolumus ...
+
+ 1 O
+
+ ° Notice that one modern strategy for making the problem solvable will not work here: changing one entry
+
+ in the coefficient matrix destroys the structure of the story.
+
+ Ô Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:25:48 UTC
+All use subject to https://about.jstor.org/terms
+
+ 168 J. Hannah
+
+ Unfortunately, the new parameter values (the ratios of what we will have to what you
+ will have) no longer conform to the conventions we observed earlier. Indeed, in all
+ Leonardo's giving and taking problems, involving more than two men, the ratios are
+ integers which increase as you read through the problem. As we shall see shortly,
+ Leonardo does construct some problems by starting with the solution, but it seems
+ likely that in this case he was deterred by the resulting unsuitable values for the
+
+ ratio parameter. Instead, it appears that Leonardo decided to retain the original values
+
+ (3, 4, 5, 6) of the ratio parameter, and to look for suitable new exchange values. This is
+
+ a more intricate task, but there are several ways in which it could be done. For example,
+
+ if you start with a solution, then an algebraic approach to the first "equation" could be
+
+ used to show that the first taking needs to be |S - (a + b) where S is total amount of
+ money held by all four men, and there are similar expressions for the other takings.
+
+ The calculations involved in this approach are certainly within Leonardo's capability,
+
+ even if he lacked a symbolic algebra. However, the fact that Leonardo's first taking
+
+ is 100 suggests that he actually chose this number first, rather than deriving it from a
+ known solution.
+
+ Leonardo's attempt to solve the original problem may give us a hint as to how he
+
+ found the new exchange values and the corresponding solution. As we saw earlier, in
+
+ his investigation of the original problem, Leonardo found that the total amount S had
+
+ to satisfy the two conditions
+
+ 5 - (' + ¿) S = sum of first and third takings
+
+ 5 - (^ + j) S = sum of second and fourth takings.
+
+ Since he wanted both conditions to be true, his usual guess for a false position would
+
+ be S = 420, the least common multiple of 4, 5, 6, 7. Using this value of S in the above
+ two calculations shows that he needed to have
+
+ sum of first and third takings = 245
+
+ sum of second and fourth takings = 276.
+
+ From the many combinations which satisfy these two conditions, Leonardo chose
+ 245 = 100+145 and 276 = 106+170, and then his solution method yielded the
+ values
+
+ a = 100, ¿>=115, c=115, d = 90.
+
+ It seems reasonable to assume that the especially round numbers here (the first tak-
+
+ ing being 100, and the first man's initial holding being 100) represent free choices by
+ Leonardo. If he was guided by the proposed conventions, then the construction process
+
+ and
+
+ and
+
+ £} Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:25:48 UTC
+All use subject to https://about.jstor.org/terms
+
+ Conventions in Fibonacci 's Liber Abbaci 1 69
+
+ was reasonably straightforward, even if he was not guided by a formula for solving all
+
+ such problems. Once he had chosen the first taking to be 100, the third taking had to be
+
+ 145, and then the second taking had to lie between these by Convention 2. Choosing
+
+ 106 had the advantage of making the first and fourth men's share total to a relatively
+
+ round number (since then a + d = 'S + 106 = 190). Of course, since Leonardo
+ was constructing a problem, rather than solving an already given problem, the false
+ position guess S = 420 did not need to be scaled, but as a consequence some of the
+ parameters in the problem look unusually large.
+
+ Leonardo does not actually tell us how he constructed this problem, but he does
+
+ solve it, using false position calculations similar to those just mentioned. In the course
+
+ of doing this, he observes that there are many solutions. For example, in his solution,
+ there are 215 denari which can be divided at will between the first and second men
+
+ (Boncompagni 1857, p. 201) or (Sigler 2002, p. 303). In modern terms, this is what
+
+ we would expect: as the coefficient matrix of the system of linear equations has rank
+
+ at most 3, once we make the system consistent, there will be an infinite number of
+ solutions. Leonardo does not have the modern theory of linear equations at his dis-
+
+ posal, of course, but his methods are still powerful enough to reveal the indeterminacy
+
+ of his solvable problem.
+
+ To see a case where Leonardo probably did construct a problem by starting with a
+
+ solution, we look at another instance where he considers a pair of problems, one unsolv-
+ able and one solvable. This occurs when he discusses pairs of men (from amongst
+ four men) all wanting to buy a horse. He says that he offers these two examples so
+
+ that the reader will know better how to distinguish the solvable from the unsolvable
+ (Boncompagni 1857, p. 251) or (Sigler 2002, p. 365). 19 Once again the unsolvable
+ example comes first:20
+
+ a + b+'(c + d) = h
+
+ b + c+'{d + a) = h
+ c + d + '(a+b) = h
+
+ d + a + '(b + c) = h
+
+ Leonardo tries two different methods of solving this problem.21 The first method,
+ which has been used in several previous problems, works in terms of what Leonardo
+
+ calls the residue, the total amount of money left to the other men after a group has
+ acquired the price of the horse. When the calculations are done in full, this method uses
+
+ a false position calculation similar to the one above except that, because the problem
+ is undetermined, the guess is simply a convenient value for the main unknown and no
+
+ scaling step is needed. However, by this stage, Leonardo has reduced the method to a
+
+ recipe, so he simply tells the reader that using the earlier method gives the combined
+
+ 19 In Latin: quare ponamus unam questionem insolubilem et aliam solubilem de 1 1 1 Ior hominibus ut
+ habeas melius notitiam cognoscendi solubiles ab insoluti libus.
+
+ The first and the second men seek half the denari of the third and fourth in order to be able to buy the
+
+ horse, and so on.
+
+ 1 1
+
+ iX Vogel (1940, p. 233) mentions only the second method.
+
+ £} Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:25:48 UTC
+All use subject to https://about.jstor.org/terms
+
+ 170 J. Hannah
+
+ holdings of the four men as 73 bezants, and the residue as 24 bezants. Hence the price
+
+ of the horse is 73 - 24 = 49 bezants. Using the first condition in the problem, he then
+ shows that the first and second men must have 49 - 24 = 25 bezants, whilst the third
+
+ condition shows that the third and fourth must have 49 - ^24 = 41 bezants. But this is
+ impossible, he says, because they ought to have 73 - 25 = 48 bezants. In Leonardo's
+ second method, he considers the first and second men as one man, and the third and
+
+ fourth as another man. Using the first and third conditions from the problem, he shows
+
+ that the price of the horse must be -^ of the combined holdings of both new men (that
+ is, of all four original men). In a similar way, though, the second and fourth conditions
+
+ of the problem show that the price of the horse must be jj of the combined holdings of
+ all four original men. This, he says, is absurd and so the problem is unsolvable. This
+ could be taken as a refusal to allow zero solutions, but it is easy to understand how
+
+ an audience might disapprove of a solution to a horse-buying problem, if the solution
+
+ called for the horse to be free and for the combined holdings of all the men to be zero.
+
+ As with the unsolvable giving and taking problem, this problem was easy to find.
+
+ First, as can be seen from the problems listed in Appendix C, the form of the problem
+
+ arose naturally as Leonardo systematically explored variations on the classic prob-
+ lem of "men wishing to buy a horse". It is worth noting, however, that he presents a
+
+ solvable five-man problem first, before giving the unsolvable four-man problem. This
+ break from the natural sequence of increasing complication (see Appendices A and
+
+ B, for example) suggests that Leonardo wished to establish first that his methods did
+
+ still work for this variation of horse-buying problems. Secondly, if we take the modern
+
+ perspective once again, horse-buying problems involving pairs of men from amongst
+ four men can be written in matrix form:
+
+ I I a a a 1
+
+ ß ! 1 ß b =h 1
+ y y 1 1 e 1
+ 1 8 8 lj [d] L1-
+
+ In our case, the parameter values (the fractions that we need from what you hold) are
+
+ but, regardless of the parameter values, the coefficient matrix still has rank at most 3
+ and so, if h ^ 0, almost all such problems are inconsistent. Thus, once again, Leo-
+ nardo did not need to search for this unsolvable problem, or to use a formula to choose
+
+ suitable values for the parameters. In a sense, he probably stumbled on the problem.
+
+ As Leonardo promised, he immediately gives a solvable problem of the same type
+
+ (Boncompagni 1857, p. 252) or (Sigler 2002, p. 366):
+
+ a+b+ '(c + d) = h
+ b + c+^(d + a) = h
+
+ c + d + ^(a + b) = h
+
+ d + a + -^(b + c) = h
+
+ 51 Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:25:48 UTC
+All use subject to https://about.jstor.org/terms
+
+ Conventions in Fibonacci 's Liber Abbaci 1 7 1
+
+ In Leonardo's solution the four men have 5, 6, 7 and 9 bezants (and so the price of the
+
+ horse is 19 bezants). So it seems likely that he constructed this problem by starting
+
+ from his solution. This time substituting the values from a simple solution has resulted
+
+ in proper fractions which obey the earlier conventions for values of parameters which
+
+ are expected to take fractional values. Further evidence that Leonardo proceeded this
+
+ way lies in the fact that this is the "first" problem which satisfies these conventions.
+
+ More precisely, if you construct a four-man problem starting from a solution of the
+ form a = n, b = n + I, c = n + 2 and d = n + 4 (so that a + b + '{c + d) is a
+ whole number) then n = 5 is the first case which gives parameter values conforming
+ to the above conventions. In other words, in a systematic search for a solvable prob-
+ lem, this is the first suitable example which Leonardo would have found. Amongst
+ the smaller values of n, the cases n = 1, 2 lead to scenarios where two of the men
+
+ can already buy the horse, whilst the cases « = 3,4 gives sequences of parameter
+
+ values ', |, y, ^, and 2» -j^» g» yy> respectively, which do not conform to the above
+ conventions.
+
+ The fact that this problem is in some sense the smallest suitable example, raises
+
+ the issue of whether Leonardo consciously sought out what Thomaidis calls "first
+ admissible cases" (Thomaidis 2005, pp. 604-605). This certainly seems to be the
+ case for Problems 5 and 7 in Appendix A, for example. The parameter values 12
+ and 15 (respectively) are the first values which yield unsolvable problems for giv-
+ ing and taking problems with that structure, and Leonardo does comment on this
+ fact when discussing Problem 5.22 As Thomaidis makes clear, Diophantos showed
+
+ an implicit interest in this issue (in the sense that he sometimes uses the first admis-
+ sible case to illustrate how to solve a problem) and Leonardo's approximate con-
+ temporary, Maximus Planudes, showed an explicit interest when commenting on
+ Diophantos' work. In the present context, the question is whether Leonardo was
+ interested in demarcating the boundary between solvable and unsolvable problems.
+ Certainly his treatment of all these unsolvable problems suggests an interest, but
+ it may be that a full investigation was beyond his capability. For example, in his
+ treatment of Problem 9 in Appendix A (which involves both a surplus +6 and a
+ deficit -8) he mentions that, although his example is solvable, some such problems
+ are not solvable (Boncompagni 1857, p. 198) or (Sigler 2002, p. 300). However his
+ chosen example is not a critical example this time, which suggests that he did not
+ know the critical values. Of course, if he had a formula for the solution of such
+
+ problems, it should have been a straightforward matter to provide such a critical
+ example.
+
+ Finally we look at a situation where it appears that Leonardo was unable to find
+ a problem satisfying the expected conventions. As before, the problems concerned
+ focus on the solvability issue, this time dealing with four men, pairs of whom take a
+
+ 22 Boncompagni and Franci (1857, p. 193) or Sigler (2002, 294).
+
+ £) Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:25:48 UTC
+All use subject to https://about.jstor.org/terms
+
+ 172 J. Hannah
+
+ purse (Boncompagni 1857, p. 227) or (Sigler 2002, p. 336):23
+
+ a + b + p = 2(c + d)
+
+ b + c + p = 3(d + a)
+
+ c + d + p = 4(a + b)
+
+ d + a + p = 5(b + c)
+
+ S = a + b + c + d + p.
+
+ Once again it worth seeing why Leonardo thinks this problem is unsolvable. As before,
+
+ he works in terms of the whole amount of money present:
+
+ Using a similar argument to the one we have already seen, he uses the first and third
+
+ conditions to show that the combined holdings of the four men are
+
+ whilst the other two conditions show that the combined holdings are
+
+ (i + i)S. or §S
+
+ Ü + ¿)S, or gs.
+
+ He calls this situation absurd. Once again it is easy to understand how an audience
+
+ might disapprove of a solution to a money problem where the total amount of money
+
+ present is zero.
+
+ As with the earlier unsolvable examples, it seems likely that Leonardo stumbled
+
+ upon this example, as opposed to deliberately constructing it. Indeed, as Appendix B
+ shows, the form of the problem arose naturally during Leonardo's systematic explo-
+
+ ration of variations on the classic problem "men finding a purse". Furthermore, if we
+
+ once again take the modern viewpoint, purse problems like this one can be written in
+ matrix form:
+
+ 1 1 -a -a a 1
+
+ -ß I 1 -ß b 1
+ -y -y 1 1 c P 1
+ 1 -8-8 1 J L^J L1.
+
+ In our case, the parameter values (ratios comparing what we will have with what you
+ already have) are
+
+ a = 2, j8 = 3, y =4, 8 = 5.
+
+ But, regardless of the parameter values, the coefficient matrix still has rank at most 3
+ and so, if p ^ 0, almost all such problems are inconsistent.
+
+ 23 The first and the second men, with the purse, have twice the denari of the third and fourth, and so on.
+
+ & Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:25:48 UTC
+All use subject to https://about.jstor.org/terms
+
+ Conventions in Fibonacci 's Liber Abbaci 1 73
+
+ From what we have seen with the preceding problems, we might expect Leonardo
+
+ to follow this unsolvable problem with a solvable one having a similar structure. Once
+
+ again, this requires care since almost any other choice of proportions a, ß, y, 8 instead
+
+ of 2, 3, 4, 5 will produce the same absurdity which we have just seen. It is possible that
+
+ Leonardo tried to construct a solvable problem by starting with a solution. However,
+ his calculations above show that a solvable problem needs to have
+
+ -J- + -!- = J- + J- m
+ a + l y + 1 ß + 1 8 + 1'
+
+ Furthermore, in this case, the relationship between the original parameter values
+ a, ß, y, 8 and the condition which they need to satisfy is simple enough that even
+ someone without symbolic algebra could reasonably be expected to observe the pat-
+
+ tern. Indeed, Leonardo's habit of representing fractions as sums of unit fractions means
+
+ that he would see, on the calculating surface in front of him, a condition for solvability
+ quite similar to the above algebraic condition. Hence, it is entirely conceivable that
+ Leonardo realized that no solvable problem could satisfy the convention for purse
+
+ problems, namely that:
+
+ a < ß < y < 8.
+
+ In any case, Leonardo makes no comment this time about offering a solvable example
+
+ of the same type. As we might expect, his next problem is indeed a solvable one, but
+ this time it involves an extra man (Boncompagni 1857, p. 227) or (Sigler 2002, p.
+ 336):
+
+ a + b + p = 2(c + d + e)
+
+ b + c + p = 3(d + e + a)
+
+ c + d + p = 4(e + a+b)
+
+ d + e + p = 5(a + b + c)
+
+ e + a + p = 6(b + c + d)
+
+ As can be seen from a glance at the corresponding matrix formulations, from the
+ modern point of view the unsolvable purse problem is essentially the same as the
+ previous unsolvable horse-buying problem. However, from Leonardo's point of view,
+ there may have been a subtle difference. The unsolvable purse problem is followed by
+
+ a solvable problem involving an extra man, but the unsolvable horse-buying problem
+ is followed by a solvable problem with the same number of men. As we have seen,
+
+ Leonardo could not give a solvable purse problem for four men without abandoning
+ his apparent conventions for the wording of such problems. For purse problems, this
+
+ meant having increasing integer parameter values as you read through the statement
+
+ of the problem. However, in the case of the horse-buying problem, his conventions did
+
+ allow him to present a solvable four-man problem. Horse-buying problems involved
+ the transfer of some fraction of a man's (or a group's) money, and his convention for
+
+ fraction parameter values did allow him to satisfy condition (1).
+
+ Ö Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:25:48 UTC
+All use subject to https://about.jstor.org/terms
+
+ 174 J. Hannah
+
+ 4 Conclusions
+
+ We have seen that the so-called recreational problems in Leonardo's Liber Abbaci
+ seem to follow various conventions. Thus Leonardo shows a marked preference for
+
+ problems which have relatively simple data (small integers or unit fractions) and rela-
+
+ tively complicated solutions (non-integers or relatively large integers). Such problems
+
+ were almost certainly constructed first, with the solution calculated afterwards. This
+
+ probably means that the poser of the problem possessed, and expected any potential
+
+ solver to possess, a general method of solution. Simple data may also have been easier
+
+ to remember during the solution process, whilst a complicated answer may have dis-
+
+ couraged a potential solver from seeking the correct answer simply by guessing. All
+
+ these features would make such problems useful, not just in the classroom, but also in
+
+ the context of challenge problems posed for one another by professional mathemati-
+ cians (for want of a better title).
+
+ Another convention appears in complex problems (those involving three or more
+
+ unknowns). Here we see that the various parameters usually increase as you read
+
+ through the problem. In particular, if parameters were expected to be fractions, then
+ they were usually expressed in terms of unit fractions, with increasing denomina-
+
+ tors. Similarly, proper fractions usually had increasing numerators and denominators.
+
+ Increasing parameter values may originally have been a response to the extra load on
+ the hearer's memory when a complex problem was recited, as increasing (or decreas-
+
+ ing) sequences of numbers are probably easier to remember.
+
+ A glance at other ancient or mediaeval collections of problems shows that their
+ authors usually followed these same conventions, although perhaps not quite as rig-
+ idly as Leonardo did (see the extensive lists in Singmaster (2004), for example). We
+ have seen that Leonardo's own attachment to these conventions was tested when there
+
+ was a potential conflict between the conventions and his overall plan for Chap. 12
+ of Liber Abbaci. This plan involved showing that various solution methods (such as
+
+ false position and regula recta) could be used to solve many problems. As he worked
+ systematically through variations on some basic scenarios, such as men giving and
+
+ taking, or men finding a purse, or men wishing to buy a horse, he stumbled on exam-
+
+ ples which were not solvable. Problems 14 from Appendices A and B, and Problem 22
+ from Appendix C, could all arise in this way, since almost all problems with the same
+
+ structure are also unsolvable. In particular, there is no need to postulate, at least not for
+
+ these examples, that Leonardo had a general formula for solving all such problems, and
+ that he used this formula to deliberately choose parameter values which would lead,
+
+ say, to negative solutions. It has to be admitted that Problems 5 and 7 from Appendix
+ A do seem to have been sought out deliberately, as they represent critical cases on the
+ border between solvability and unsolvability. But these examples are small enough
+
+ that a patient incremental search could have unearthed them.
+
+ Euclidean practice suggests that the ideal response to unsolvable problems is to state
+
+ necessary and sufficient conditions which guarantee solvability, as in Elements, I, 22
+ and VIy 28. Leonardo's critical examples in Problems 5 and 7 from Appendix A serve
+
+ this purpose for those simple variations of giving and taking problems. Furthermore he
+
+ reaches towards this goal when he remarks, before Problem 22 from Appendix C, that
+
+ some problems may be unsolvable if the number of men is even and two or more men
+
+ £i Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:25:48 UTC
+All use subject to https://about.jstor.org/terms
+
+ Conventions in Fibonacci's Liber Abbaci 1 75
+
+ take from the others (Boncompagni 1857, p. 25 1) or (Sigler 2002, p. 365). But it seems
+
+ likely that Leonardo could not supply necessary and sufficient conditions for the solv-
+
+ ability of any of the complex variations on classical problems discussed in this article.
+
+ Indeed, even recognizing that a problem was unsolvable was a non-trivial calculation.
+
+ Perhaps because unsolvable problems could arise accidentally, just by exploring natu-
+ ral variations on standard problems, Leonardo instead devoted some time to showing
+
+ his readers how to distinguish between the solvable and unsolvable cases. To do this he
+
+ needed to construct solvable examples sufficiently like the unsolvable ones, as with the
+
+ pairs of Problems 14 and 15 from Appendix A and Problems 22 and 23 from Appen-
+
+ dix C. In the latter case, the solvable problem was relatively easy to construct from a
+
+ simple solution, although it seems that Leonardo ignored two "smaller" examples in
+
+ order to make sure that his example fitted the above conventions. But the construction
+
+ of Problem 15 from Appendix A was significantly more intricate. Here, if you start
+ from a solution and retain the most convenient parameter values (the amounts being
+
+ exchanged) a straightforward calculation gives the values for the other parameter (the
+
+ ratio between people's holdings after the exchanges) but unfortunately these values
+ typically violate the conventions. Instead, Leonardo decided to retain the values of
+ the ratio parameter, and seems to have used some careful juggling of information to
+
+ calculate both suitable values of the other parameter and a solution to go with them.
+
+ This suggests that Leonardo took considerable care to make sure his examples fitted
+
+ the conventions, as if the conventions were rules which had to be followed when you
+
+ constructed a problem.
+
+ Owing to the existence of unsolvable problems, Leonardo needed to add a sec-
+
+ ond focus to his basic plan. Not only did he need to show his readers how to solve
+ problems, but also how to recognize unsolvable problems. Where possible, he seems
+ to have sought out solvable variations of each unsolvable problem. But Leonardo
+ makes no mention of how one might deliberately construct an unsolvable problem,
+ and instead focuses on distinguishing between solvable and unsolvable problems. In
+ other words, these sections of Liber Abbaci could equip the reader to solve challenge
+ problems (using Leonardo's various methods of solution), and to set challenge prob-
+
+ lems (simply by choosing their own favourite parameter values in any of these typical
+ problems discussed by Leonardo) and finally to avoid setting unsolvable challenge
+ problems (because he has shown his readers how to recognize the unsolvable cases).
+
+ It seems that his readers did not need to know how to construct an unsolvable problem
+
+ (perhaps it was considered absurd or even unfair to set unsolvable problems). Indeed,
+ as we have seen, it is possible that Leonardo himself did not know how to construct
+ an unsolvable problem, unless it was by executing patient incremental searches or
+ by stumbling upon them in the course of a systematic examination of families of
+
+ problems. But Leonardo did know how to construct solvable problems under difficult
+
+ circumstances, and although he withheld this knowledge from his readers, we have
+
+ seen that he could have constructed these problems using just the techniques which
+ he taught in Liber Abbaci.
+
+ & Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:25:48 UTC
+All use subject to https://about.jstor.org/terms
+
+ 176 J.Hannah
+
+ Appendices
+
+ Appendix A: giving and taking problems from Liber Abbaci
+
+ Listed below are the 16 problems on giving and taking from Sect. 3 of Chap. 12 of
+ Liber Abbaci. Section 3 consists of almost 100 problems, and its main purpose is to
+
+ explain the method of (single) false position. To help the modern reader understand the
+
+ relationships between the various problems, I have presented the problems in symbolic
+
+ form. To see the problems as Leonardo would have seen them you would, of course,
+
+ need to read them as stories about men giving and taking denari. For examples of such
+
+ readings, see the footnotes earlier in the article. For Leonardo, Problems 5, 7 and 14
+ are unsolvable.
+
+ 1. fl + 1 =b- 1
+
+ 6 + 1 = 10(0 - 1)
+ l(a). a + 1 = b - 1
+ b + 1 = 12(0 - 1)
+
+ 2. a + 7 = 5(6 - 7)
+ b + 5 = 7(a - 5)
+ 3. 0 + 6 = 5±(6-6)
+ ¿ + 4 = 7f(0-4)
+ 4. 0 + 7 = 5(b - 7) + 1
+ ¿> + 5 = 7(0-5) + l
+ 5. 0 + 7 = 5(6-7) + 12
+ b + 5 = 7(0 - 5) + 12
+
+ 6. 0 + 7 = 5(6-7) + l
+ b + 5 = 7(0 - 5) + 2
+ 7. 0+7 = 5(6-7) + l
+
+ b + 5 = 7(0 - 5) + 15
+
+ 8. 0 + 7 = 5(6-7)-l
+ 6 + 5 = 7(0-5)-3
+ 9. 0 + 7 = 5(6-7) + 6
+ b + 5 = 7(0 - 5) - 8
+ 10. 0+7 = 5(6 + c-7)
+ b + 9 = 6(c + 0 - 9)
+ c+11 =7(0 + 6-11)
+
+ 11. 0+7 = 5(6 + c-7) + l
+ b + 9 = 6(c + 0 - 9) + 1
+ c+11 =7(0+6- 11) H- 1
+
+ 12. 0 + 7 = 5(6 + c- 7) + 1
+ 6 + 9 = 6(c + a - 9) + 2
+ c+11 =7(0 + 6- 11) H- 3
+
+ 13. 0 + 6 + 7 = 5(c- 7)
+ 6 + c + 9 = 6(0-9)
+ c + 0 + 11 =7(6-11)
+
+ £l Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:25:48 UTC
+All use subject to https://about.jstor.org/terms
+
+ Conventions in Fibonacci's Liber Abbaci 177
+
+ Appendix B: purse problems from Liber Abbaci
+
+ Listed below are the 15 problems about finding a purse from Sect. 4 of Chap. 12 of
+
+ Liber Abbaci. As with the giving and taking problems in Appendix A, these problems
+
+ should be read as stories. For examples of such readings, see the footnotes earlier in
+ the article. Some of the problems are followed by subproblems where, for example,
+ values for the contents of the purse (p) are specified. For Leonardo, Problem 14 is
+ unsolvable.
+
+ 14. a + b + 7 = 3(c + d - 7)
+ ¿> + c + 8 = 4(d + a-8)
+ c + ¿ + 9 = 5(a + * - 9)
+ d + fl + 11 =6(* + c- 11)
+ 15. a + è + 100 = 3(c + d - 100)
+ * + c + 106 = 4(d + a - 106)
+ c + d+145 = 5(a + fc- 145)
+ d + a + 170 = 6(fc + c-170)
+ 16. a + ¿7 + c + 7 = 2(d + e - 7)
+
+ b + c + d + S = 3(e + a-S)
+ c + d + é? + 9 = 4(a+¿?-9)
+ d + e + a + 10 = 5(* + c - 10)
+ ^ + a + Z?+ll =6(c + d-ll)
+
+ 1. a + p = 3b
+ b + p = 4a
+ 2. a + p = 2(b + c)
+ b + p = 3(c + a)
+ c + p = 4(fl + b)
+ 3. a + p = 3(b + c + d)
+ b + p = 4(c + d + a)
+ c + p = 5(d + a + b)
+ d + p = 6(a + b + c)
+
+ 4. a + p = 2'(b + c + d + e)
+ b + p = 3'(c + d + e + a)
+ c + p = 4'(d + e + a+b)
+ d + p = 5±(e + a + b + c)
+
+ e + p = 6'(a + b + c + d)
+
+ 5. a + p = 2b
+ b + p = 3c
+ c + p = 4a
+ 6. a + p = 2^b
+ b + p = 3'c
+ c + p = 4'a
+
+ 7. a + p = 2b
+ b + p = 3c
+
+ £) Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:25:48 UTC
+All use subject to https://about.jstor.org/terms
+
+ 178 J. Hannah
+
+ c + p = Ad
+ d + p = 5a
+
+ 8. a + p = 2b
+
+ b + (/? + 3) = 3c
+ c + (/? + 7) = 4d
+ oř + (/? + 13) = 5a
+
+ 9. a + /? = 2b
+
+ 6 + (/> + 13) = 3a
+
+ 10. a + p = 2(¿? + c)
+
+ ¿> + (/? + 10) = 3(c + a)
+ c + (/?+10+13)=4(a + ¿>)
+
+ 11. a + /? = 2(¿> + c + ¿)
+
+ b + (p + '0) = 3(c + d + a)
+ c + (/? + 10+13)=4(¿ + a+¿>)
+ úř + (p + 10 + 13 + 19) = 5(a + b + c)
+
+ 12. a + b + /? = 2c
+ b + c + /? = 3a
+ c + a + /? = 4&
+ 13. a + b + p = 2c
+ b + c + p = 3d
+ c + d + p = 4a
+ d + a + p = 5b
+
+ 14. a + ¿? + /? = 2(c + d)
+ b + c + p = 3(d + a)
+ c + d + p = 4(a + b)
+ d + a + p = 5(b + c)
+
+ 15. a+b + p = 2(c + d + e)
+
+ b + c + p = 3(d + e + a)
+ c + d + p = 4(e + a+b)
+ d + e + p = 5(a+b + c)
+ e + a + p = 6(b + c + d)
+
+ Appendix C: horse-buying problems from Liber Abbati
+
+ Listed below are five problems about men wishing to buy a horse from Sect. 5 of Chap.
+
+ 12 of Liber Abbaci. The numbering of the problems comes from Vogel (1940) and the
+
+ full collection of horse-buying problems is listed and analysed there. The five prob-
+ lems listed below make up Vogel's Group 6, dealing with situations where subgroups
+
+ of the men (for example, pairs) seek a fraction of what all the other men hold in order
+
+ to have enough money to buy the horse. The case involving pairs of men doing the
+
+ buying, from a group of three, was covered in an earlier group of problems (Vogel's
+ Group 4) under the guise of one man giving to the rest. As usual, these problems
+ should be read as stories. For examples of such readings, see the footnotes earlier in
+ the article. For Leonardo, Problem 22 is unsolvable.
+
+ £l Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:25:48 UTC
+All use subject to https://about.jstor.org/terms
+
+ Conventions in Fibonacci 's Liber Abbaci 1 79
+
+ 21. (a + b) + '(c + d + e) = h
+ (b + c) + '{d + e + a) = h
+ (c + d) + '(e + a + b) = h
+ (d + e) + '(a + b + c) = h
+ (e + a) + '(b + c + d) = h
+
+ 22. (a+Z?) + ±(c + ¿) = /i
+
+ {b + c) + '{d + à) = h
+ (c + d) + '(a+b) = h
+ (d + a) + '(b + c) = h
+ 23. {a+b) + '(c + d) = h
+ (b + c) + l(d + a) = h
+
+ (c + d) + ^(a + b) = h
+ (d + a) + ^(b + c) = h
+
+ 24. (a + b + c) + '(d + e + f + g) = h
+ (b + c + d) + '{e + f + g + à)=h
+ (c + d + e) + '(f + g + a + b) = h
+ (d + e + f) + '(g + a + b + c)=h
+ (e + f + g) + '(a + b + c + d) = h
+ (f + g + a) + '(b + c + d + e) = h
+ (g + a + b) + '{c + d + e + f)=h
+
+ 25. (a +b + c) + '(d + e + f + g) = h
+
+ (b + c + d) + '{e + f + g + à)=h
+ (c + d + e) + '(f + g+a + b) = h
+ (d + e + f) + '{g + a+b + c) = h
+ (e + f + g) + '(a + b + c + d)=h
+ (/ + g + a) + '(b + c + d + e) = h
+ (g + a + b) + '(c + d + e + f) = h
+
+ References
+
+ Bartolozzi, M., and R. Franci. 1990. La teoria delle proporzioni nella matematica dell'abaco da Leonardo
+
+ Pisano a Luca Pacioli. Bollettino di Storia della Scienze Matematiche 10: 3-28.
+
+ Boncompagni, B. 1857. Liber Abbaci. In: Scritti di Leonardo Pisano. Rome: Tipografia delle Scienze
+
+ Mathematiche e Fisiche.
+
+ Busard, H.L.L. 1987. The Mediaeval Latin translation of Euclid's "Elements": made directly from the
+
+ Dauben, J.W. 2008. Suan Shu Shu a book on numbers and computations. Archive for History of Exact
+
+ Greek. Stuttgart: Franz Steiner Verlag.
+
+ Sciences 62: 91-178.
+
+ Docampo Rey, J. 2009. A new source for medieval mathematics in the Iberian Peninsula: The commer-
+ cial arithmetic in Ms 10116 (Biblioteca Nacional, Madrid). Revue d'Histoire des Mathématiques 15:
+ 123-177.
+
+ Folkerts, M. 2005. Leonardo Fibonacci's knowledge of Euclid's Elements and of other mathematical texts.
+ Bollettino di Storia della Scienze Matematiche 24 (2004), no. 1, Leonardo Fibonacci. Matematica e
+ societa nel Mediterraneo nel secolo XIII. voi. II: 93-1 13.
+
+ £j Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:25:48 UTC
+All use subject to https://about.jstor.org/terms
+
+ Franci, R., and L. Toti Rigatelli. 1985. Towards a history of algebra from Leonardo of Pisa to Luca Pacioli.
+
+ 180 J.Hannah
+
+ Janus 72: 17-82.
+
+ University Press.
+
+ Heath, T.L. 1910. Diophantus of Alexandria: A study in the history of Greek algebra. Cambridge: Cambridge
+
+ Heath, T.L. 1 926. The thirteen books of Euclid" s Elements, 2nd ed. Cambridge: Cambridge University Press.
+
+ Reprint: Dover Publications, New York, 1956.
+
+ H0yrup, J. 2002. Lengths, widths, surfaces. A portrait of old Babylonian algebra and its kin. New York:
+
+ H0yrup, J., 2003. Leonardo ribonacci and Abbaco culture. A proposal to invert the roles. Revue a Histoire
+
+ Springer-Verlag.
+
+ des Mathématiques 11: 23-56.
+
+ H0yrup, J. 2007. Jacopo da Firenze' s Tractatus algorismi and early Italian abbacus culture. Science net-
+
+ works. Historical studies, vol. 34. Basel: Birkhäuser Verlag.
+
+ Katz, V. 1998. A history of mathematics, 2nd ed. Reading: Addison-Wesley.
+
+ Mahavira, 1912. Ganita Sara Sangraha (trans: Rangacarya, M.). Madras: Government Press.
+ Netz, R. 1999. The shaping of deduction in Greek mathematics. A study in cognitive history. Cambridge:
+
+ Rashed, R. 1994. Fibonacci et les mathématiques arabes. In Le scienze alla corte di Federico IL Micrologus
+
+ Cambridge University Press.
+
+ 2: 145-160.
+
+ Exact Sciences 32(2): 105-150.
+
+ American Mathematical Society.
+
+ Sesiano, J. 1985. The appearance of negative solutions in mediaeval mathematics. Archive for History of
+
+ Sesiano, J. 2009. An introduction to the history of algebra. Mathematical World, vol. 27. Providence:
+
+ Sigler, L.E. 2002. Fibonacci's Liber Abaci. New York: Springer.
+ Singmaster, D. 1988. Some early sources in recreational mathematics. In Mathematics from manuscript to
+
+ print, 1300-1600 (Oxford, 1984), ed. C. Hay, 195-208. Oxford: Oxford University Press.
+
+ Singmaster, D. 2004. Sources in recreational mathematics: An annotated bibliography. Source files avail-
+
+ able at http://www.g4g4.com/MyCD5/SOURCES/singmaterial.htm. Accessed 21 Jan 2010.
+
+ Spiesser, M. 2000. Problèmes linéaires dans le Compendy de la praticque des nombres de Barthélémy de
+
+ Romans et Mathieu Préhoude il 47 H. Historia Mathematica 27: 362-383.
+
+ Thomaidis, Y. 2005. A framework for defining the generality of Diophantos' methods in "Arithmetica".
+
+ Archive for History of Exact Sciences 59: 591-640.
+
+ Ver Eecke, P. 1959. Diophante d'Alexandrie: Les six livres arithmétiques et le livre des nombres polygones.
+
+ Paris: Albert Blanchard.
+
+ Vogel, K. 1940. Zur Geschichte der linearen Gleichungen mit mehreren Unbekannten. Deutsche Math-
+ ematik 5: 217-240. Available as a reprint in: Vogel, K. 1988. Kleinere Schriften zur Geschichte der
+ Mathematik. Boethius: Texte und Abhandlungen zur Geschichte der Exakten Wissenschaften, vol. 20,
+
+ 1-2. Stuttgart: Franz Steiner Verlag, pp. 281-304.
+
+ Vogel, K. 1971. Fibonacci. In Dictionary of scientific biography, vol. IV, ed. C.C. Gillespie, 604-613. New
+
+ York: Scribner's.
+
+ Woepcke, F. 1853. Extrait du Fakhrî, traité d'algèbre par Aboû Bekr Mohammed Ben Alhaçan Alkarkhî.
+
+ Reprint: Hildesheim: Georg Olms Verlag, 1982.
+
+ £l Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:25:48 UTC
+All use subject to https://about.jstor.org/terms
+
+

@@ -1,0 +1,4536 @@
+ 
+
+ 
+
+ 
+
+ 
+
+The early proofs of the theorem of Campbell, Baker, Hausdorff, and Dynkin
+Author(s): Rüdiger Achilles and  Andrea Bonfiglioli
+Source: Archive for History of Exact Sciences, Vol. 66, No. 3 (May 2012), pp. 295-358
+Published by: Springer
+Stable URL: https://www.jstor.org/stable/41472234
+Accessed: 19-05-2020 12:10 UTC
+
+ 
+REFERENCES 
+Linked references are available on JSTOR for this article:
+https://www.jstor.org/stable/41472234?seq=1&cid=pdf-reference#references_tab_contents 
+You may need to log in to JSTOR to access the linked references.
+
+JSTOR is a not-for-profit service that helps scholars, researchers, and students discover, use, and build upon a wide
+
+range of content in a trusted digital archive. We use information technology and tools to increase productivity and
+
+facilitate new forms of scholarship. For more information about JSTOR, please contact support@jstor.org.
+
+Your use of the JSTOR archive indicates your acceptance of the Terms & Conditions of Use, available at
+
+https://about.jstor.org/terms
+
+Springer is collaborating with JSTOR to digitize, preserve and extend access to Archive for
+History of Exact Sciences
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:10:43 UTC
+All use subject to https://about.jstor.org/terms
+
+ Arch. Hist. Exact Sei. (2012) 66:295-358
+ DOI 10.1007/s00407-012-0095-8
+
+ The early proofs of the theorem of Campbell, Baker,
+ Hausdorff, and Dynkin
+
+ Rüdiger Achilles • Andrea Bonfiglioli
+
+ Received: 30 December 201 1 / Published online: 3 April 2012
+ © Springer- Verlag 2012
+
+ Abstract The aim of this paper is to provide a comprehensive exposition of the early
+ contributions to the so-called Campbell, Baker, Hausdorff, Dynkin Theorem during
+ the years 1890-1950. Related works by Schur, Poincaré, Pascal, Campbell, Baker,
+ Hausdorff, and Dynkin will be investigated and compared. For a full recovery of the
+
+ original sources, many mathematical details will also be furnished. In particular, we
+ rediscover and comment on a series of five notable papers by Pascal (Lomb 1st Rend,
+ 1901-1902), which nowadays are almost forgotten.
+
+ 1 Introduction
+
+ The algebraic result named after (some or all of) the mathematicians Henry Frederick
+ Baker, John Edward Campbell, Eugene Borisovich Dynkin, and Felix Hausdorff is
+
+ one of the most versatile results originating from the early theory of groups of trans-
+ formations. This result states that, in the algebra of the formal power series in two
+ non-commuting indeterminates x and y, the series naturally associated to logO*^)
+
+ is a series of Lie polynomials in x and y' for instance, the first few terms are
+
+ log(eV) = x + y + j[x,y] + jï[x, [x, )>]] - [j, [x, )>]] H
+
+ Communicated by: Umberto Bottazzini.
+
+ R. Achilles (ISI) • A. Bonfiglioli
+ Dipartimento di Matematica, Université di Bologna, Piazza di Porta S. Donato 5, 40126 Bologna, Italy
+ e-mail: rudiger.achilles @ unibo.it
+
+ A. Bonfiglioli
+ e-mail: andrea.bonfiglioli6@unibo.it
+
+ Ô Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:10:43 UTC
+All use subject to https://about.jstor.org/terms
+
+ 296 R. Achilles, A. Bonfiglioli
+
+ During the whole twentieth century, this result (which, for convenience, we henceforth
+
+ refer to as "CBHD," after its major contributors, or genetically as "the Exponential
+ Theorem") has yielded the following applications:
+
+ - to Physics , especially with the consolidation of Quantum and Statistical Mechan-
+
+ ics - see the early applications from the 1960s and 1970s: Bialynicki-Birula et al.
+ (1969), Dragt and Finn (1976), Eriksen (1968), Friedrichs (1953), Gilmore (1974),
+ Kumar (1965), Mielnik and Plebanski (1970), Murray (1962), Suzuki (1977), Wei
+ (1963), Weiss and Maradudin (1962), Wichmann (1961), and Wilcox (1967); see
+ also the numerous recent papers in Physics journals related to CBHD: Blanes et
+ al. (1998), Blanes et al. (2009), Bose (1989), Casas (2007), Casas and Murua
+ (2009), Klarsfeld and Oteo (1989a), Klarsfeld and Oteo (1989b), Kobayashi et al.
+ (1998), Kolsrud (1993), Moan (1988), Moan and Noteo (2001), Oteo (1991), and
+ Reinsch (2000); and finally see the investigations concerning the relevant conver-
+ gence and optimization problems: Blanes and Casas (2004), Day et al. (1991), Moan
+ and Niesen (2008), Newman et al. (1989), Richtmyer and Greenspan (1965), and
+ Thompson (1982, 1989);
+
+ - to Group Theory : Magnus (1950), Magnus et al. (1966), and Michel (1976);
+ - to the Analysis of Linear PDEs : See the seminal works from the 1970s and 1980s
+ Folland (1975), Folland and Stein (1982), Hörmander (1967), Rothschild and Stein
+ (1976), and Nagel et al. (1985);
+
+ - to the structure theory of Lie Groups and Lie Algebras: Abbaspour and Moskowitz
+
+ (2007), Bourbaki (1972), Duistermaat and Kolk (2000), Godement (1982), Gor-
+ batsevich et al. (1997), Hall (2003), Hausner and Schwartz (1968), Hilgert and
+ Neeb (1991), Hochschild (1965), Hofmann and Morris (2006), Jacobson (1962),
+ Rossmann (2002), Sagle and Walde (1973), Sepanski (2007), Serre (1965), and
+ Varadarajan (1984);
+
+ - more recently, to Numerical Analysis (in geometric integration): Hairer et al. (2006),
+
+ Iserles et al. (2000), Iserles and N0rsett (1999), and McLachlan and Quispel (2002).
+
+ Furthermore, a special comment has to be made on the role played by the CBHD
+
+ Theorem also within the context of infinite dimensional Lie groups, nowadays inten-
+ sively studied; see Neeb (2006) for a detailed survey. For example, in this context, the
+ so-called Baker-Campbell-Hausdorff groups are particularly significant: for related
+ topics see Birkhoff (1936, 1938), Boseck et al. (1981), Czyz (1989, 1994), Dynkin
+ (1950), Glöckner (2002a, b,c), Glöckner and Neeb (2003), Gordina (2005), Hilgert
+ and Hofmann (1986), Hofmann (1972, 1975), Hofmann and Morris (2007), Hofmann
+ and Neeb (2009), Neeb (2006), Omori (1997), Robart (1997, 2004), Schmid (2010),
+ Van Est and Korthagen (1964), Vasilescu (1972), and Wojtynski (1998).
+
+ Finally, the interest in providing new and simpler proofs of the CBHD Theorem
+
+ seems to have been renewed throughout the century: see e.g., Yosida (1937), Cartier
+ (1956), Eichler (1968), Djokovic (1975), Veldkamp (1980), and Tu (2004).
+
+ As attention focussed more and more on the applications, and after the CBHD The-
+
+ orem had become the well-consolidated result of non-commutative Algebra, critique
+
+ of the early contributions lost its appeal. But this resulted, from the very beginning, in
+ a very confused and uncertain attribution of the "fatherhood" of the theorem, which
+
+ was named sometimes after Campbell, Baker, and Hausdorff, some other times after
+
+ â Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:10:43 UTC
+All use subject to https://about.jstor.org/terms
+
+ The early proofs of the theorem of Campbell, Baker, Hausdorff, and Dynkin 297
+
+ Campbell and Hausdorff, or also after Hausdorff solely. As we shall discuss in detail,
+
+ the last two choices are very questionable and seem dictated mainly by tradition.
+
+ Needless to say, the contributions given by the forerunners of the theorem, Ernesto
+
+ Pascal, Jules Henri Poincaré, and Friedrich Heinrich Schur, have to a great extent been
+
+ forgotten. This is definitely true of Pascal's and of Schur's contribution, whereas that
+
+ by Poincaré luckily has been brought to light by Schmid (1982) after many years of
+
+ oblivion (see also Ton-That and Tran 1999). We point out that the paper (Schmid 1982)
+
+ also contains some salient points on the whole history of the Exponential Theorem, of
+
+ which we took advantage in writing this paper. Yet, a full recovery of the prior results
+
+ (of Pascal, Poincaré, and Schur) and a comparison of the actual contributions by the
+ authors, whose names have been usually attached to the theorem (Baker, Campbell,
+
+ Hausdorff, and Dynkin) have not been provided in the literature.1
+
+ The aim of the present paper is to provide these missing investigations and com-
+
+ parisons of the early contributions to the Exponential Theorem furnished by all the
+
+ cited authors. In particular, we rediscover a long list of works by the Italian mathema-
+ tician Pascal (1901a, b, 1902a, b,c, 1903), which had been of decisive importance for
+
+ the history of this theorem.
+
+ Since the original sources are not all easily accessible,2 and since not only the
+ names of some contributors but also the contributions themselves have been lost, we
+
+ discuss the mathematical details. In doing this, we hope that our article will be helpful
+
+ to those who wish to rediscover the contents of the original papers (these papers being
+
+ written in many different languages: English, French, German, Italian, and Russian).
+
+ The paper is indeed intended for the specialists in the fields of applications mentioned
+
+ in the incipit, who may find use for these mathematical contents, as well as for experts
+
+ in the History of Mathematics. Even if this paper is based on the works of the early
+
+ contributors to the Exponential Theorem, the analysis and comparison of these con-
+ tributions are carried out here for the first time. Moreover, our intention is to ease the
+
+ access to these papers by explaining their contents in modern language.
+
+ The paper is organized as follows. Section 2 recalls the roots of the CBHD Theo-
+ rem, as a result originating implicitly in Sophus Lie's theory of continuous groups of
+ transformations. Subsequently, we analyze and compare the works of Schur, Camp-
+ bell, Poincaré, Pascal, Baker, Hausdorff, and Dynkin on the Exponential Theorem:
+ this is done from Sect. 3 to Sect. 9. Section 10 records the commentaries by Bourbaki
+
+ (1972) and by Hausdorff (1906) on the early contributions. As we shall see, the author-
+ itative influence of Bourbaki and Hausdorff affected to a great extent the subsequent
+
+ forgetting of the other authors' contributions.
+
+ Without being exhaustive in this Introduction, we furnish a précis of some (less-
+
+ known or maybe unknown) results presented in this paper.
+
+ 1 For example, Dieudonné (1982, Chapter BII, p. 189) quotes the names of Campbell, Dynkin, Hausdorff,
+ Poincaré, and Schur (omitting Baker and Pascal) in a list of those who "contributed substantially" to the
+
+ theory of Lie's groups. Curiously, the historically interested mathematicians, Borel (2001, Chapter I, p. 6)
+ and Dieudonné (1974, Chapter XIX, p. 222), refer to the Exponential Theorem as the "Campbell-Hausdorff
+
+ formula," still omitting any reference to Baker.
+
+ 1 This is particularly true for the Italian papers by Pascal (1901a,b, 1902a,b,c).
+
+ â Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:10:43 UTC
+All use subject to https://about.jstor.org/terms
+
+ 298 R. Achilles, A. Bonfiglioli
+
+ (i) As Engel reveals to us in the review3 of Pascal (1901b), Sophus Lie himself
+
+ embarked on the search for an explicit formula providing, for any pair of infin-
+ itesimal transformations X', X2, the infinitesimal transformation X3 such that
+ ex3 _ ex2 0 eXi ^ as Engel says> Lje abandoned the undertaking since he
+ saw no way of proving the convergence of the series representing X3 in terms of
+
+ X' , X2. It will be the contribution of Hausdorff (1906) to solve the convergence
+
+ problem in a convincing way.
+
+ (ii) In proving the Third Fundamental Theorem of Lie by a direct approach, Schur
+
+ (1890a,b) constructed explicit infinitesimal transformations with prescribed
+ structure constants with the use of some converging multivariate power
+
+ series depending only on the Cijk and the Bernoulli numbers.4 Quoting Schmid
+ (1982, p. 177), this is a version of the "Campbell-Hausdorff formula in dis-
+ guise." In fact, a few years later, Pascal (1902c) will show how Schur's explicit
+ formulas can be obtained by means of the Exponential Theorem, thus unveiling
+
+ in an incontrovertible way the deep link between Schur's formulas and the future
+ CBHD Theorem.
+
+ (iii) As will be seen in due course, the summands in the expansion of 'og(exey)
+
+ containing x precisely once are given by
+
+ Zi (X, y) := X ^ (AdyTO =: (x), (1)
+
+ n= 0
+
+ where the Bn are the Bernoulli numbers. This series will play central roles in
+ the proofs by Campbell, Pascal, Baker, and Hausdorff. The first one to intro-
+ duce z' was Campbell (1897a), who explicitly employed this series to construct,
+ recursively, a sequence approaching 'og(exey). Campbell's proof of the conver-
+ gence of this sequence unfortunately leaves much unsaid, and his successors
+ will acknowledge him only for having posed for the first time the problem of
+ the existence of a universal Lie-polynomial series z in x, y such that ez = exey:
+
+ the so-called Campbell's Problem. Campbell gives in nuce a contribution to the
+ later "ODE approach" to the proof of the Exponential Theorem, since he first
+ obtains the identity:
+
+ elxey =ey+Ul(x-y) + Û(t2), ast^O.
+
+ 3 Here and in the sequel, when we cite reviews, it is understood that we refer to "Jahrbuch über die
+
+ Fortschritte der Mathematik," at http://www.emis.de/projects/JFM.
+
+ 4 Each author uses his own notation and definition for the Bernoulli numbers, which we shall respect to
+ preserve the flavor of the original formulas. For clarity, we introduce our separate conventional notation
+
+ for the numbers Bn (which we call Bernoulli numbers ) defined unambiguously by the following generating
+ function:
+
+ _ 00 |>
+
+ n= 0
+
+ - ez - - 7 1 = X z-- ' ~T til (ze€: 'z' < 2tt).
+ ez - 1 z-- ' ~T til
+
+ â Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:10:43 UTC
+All use subject to https://about.jstor.org/terms
+
+ We shall explicitly write the relationship occurring between these Bn and the constants used by the other
+ authors.
+
+ The early proofs of the theorem of Campbell, Baker, Hausdorff, and Dynkin 299
+
+ (iv) The first author who really exploited the ODE technique in an efficient way
+
+ was Poincaré (1900), who characterized the solution z(t) of ez ^ = exety by the
+
+ (formal) ordinary differential equation:
+
+ z'(t> = ! Me-AäZ(t) (y>> *«>)=*•
+
+ Note the hidden presence of the Bernoulli numbers, for
+
+ oo D
+
+ Z _ 1 1 , Z Jin
+ _ = 1 1 + , 2+^^2nV.Z Jin ■
+
+ In the setting of a Lie group of transformations, this ODE has a genuine meaning
+ and is solved by Poincaré via the residue calculus, in such a way that the Lie-
+ series nature of z(l) = 'og(exey) is exhibited. What Poincaré actually failed
+ to point out was the existence of a universal Lie-series expansion for z(l) in
+ terms of x and y, independent of any group context. Hausdorff and Bourbaki
+
+ will later criticize Poincaré for his repeated reference to the group setting instead
+
+ of using a symbolic approach. Notwithstanding this, in solving what he calls "le
+
+ Problème de Campbell," Poincaré forged nothing less than the universal envel-
+
+ oping algebra of a Lie algebra, and at least implicitly in his technique, we can find
+ a constructive way to turn 'og(exey) into a Lie series. This is done in Poincaré
+ (1900) by a subtle "symmetrization process" of polynomials which we shall
+ analyze more in detail (see also Schmid 1982 and Ton-That and Tran 1999).
+ (v) It was Pascal (1901a,b) who carried forward this symmetrization process, likely
+
+ unaware that he was handling some computations that Poincaré properly in-
+
+ scribed a year before in the setting of enveloping algebras. The similarity between
+
+ the approaches of Poincaré and Pascal in attacking the Exponential Theorem is so
+
+ striking that we could name this approach the Poincaré-Pascal technique , which,
+ for its originality, would deserve to be rediscovered and formalized. Roughly
+ xm vn
+
+ speaking, Pascal de-constructs exey into Xm,n>0 7^1711 anc* ^en re-constructs
+ this double series (via a certain symmetrization of polynomials and a delicate
+
+ handling of constants) into X/*>o §T> f°r a suitable formal series z for which he
+ also describes an iterative formula in terms of Lie brackets of x, y and the Ber-
+
+ noulli numbers. Conscious of having thus provided a nodal contribution to the
+
+ understanding of the composition of two exponentials in transformation group
+
+ theory, Pascal deferred the convergence problem. For this omission, and for the
+ massive computations employed, Engel (in reviewing Pascal 1901b, 1902c) and
+ Hausdorff later criticized Pascal, while Bourbaki mentioned Pascal's name in
+
+ passing only. Regardless of this legitimate criticism, Pascal's contribution to the
+ CBHD Theorem is, without doubt, fundamental, and the present paper is an
+
+ occasion to popularize it after more than one hundred years of oblivion.
+
+ (vi) The main step toward a symbolic proof of the Exponential Theorem (this is the
+ very name used by Baker 1901, 1905, §3, p. 35, see also Exponentialformel , in
+ the title of Hausdorff 1906) comes with Baker's and Hausdorff 's proofs. Some
+
+ â Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:10:43 UTC
+All use subject to https://about.jstor.org/terms
+
+ 300 R. Achilles, A. Bonfiglioli
+
+ core computations and the main formulas obtained in the two papers Baker
+ (1905) and Hausdorff (1906) are so similar that it is not easy to realize that they
+
+ are independent of each other. Ipso facto, Hausdorff 's study (1906) was pub-
+ lished one year after (Baker 1905), but no mention of Baker (1905) is made in
+ Hausdorff (1906), though the analogies are several. Campbell's series z'(x, y )
+ in (1) reappears in a very "quantitative" way, and Baker and Hausdorff prove
+ that it generates log(exey) in the following form:
+
+ exey = ez, where z = V ^ - J ( z' (x, y) - 0 ) y. (2)
+
+ ^ J / 0 ' n
+
+ ~b! V dyj
+
+ Here z' ^ is a sort of "substitutional operation" (as Baker called it, later also
+ named polar derivative ), more precisely it is the derivation of the associative
+
+ algebra of the formal power series in jc , y which is defined by z' j^(x) = 0
+
+ and z' ^00 = zi. Owing to the puzzling notations used by Baker in proving
+ (2), when compared to the undoubted clarity of Hausdorff 's exposition, Bour-
+ baki will consecrate Hausdorff as the only reliable source. Despite this fact,
+ the appropriate naming for (2) seems to us to be the Baker-Hausdorjf Formula.
+ Hence, the designation "Campbell-Hausdorff Formula" (in use, in books at least,
+
+ seemingly after Jacobson 1962) is more an abused tradition (so entrenched that
+
+ one can do nothing but get along with it) than a reference to the actual history
+
+ of the theorem. Furthermore, if one looks for something that may be called a
+
+ "Formula," Hausdorff provided at least another two of them, whereas Campbell
+ provided none (so what is the "Campbell-Baker-Hausdorff Formula" after all?).
+ Among Hausdorff 's contributions, we include the successful recursion formula
+
+ which can be obtained by the identity:
+
+ ( d ' ( d ' r Adz
+ {" ( Tx ) ' z + V ( ' r z] + T=7^(" + y)~
+
+ and by decomposing z into homogenous summands with respect to x and y
+ jointly. This recursion formula will return in Djokovic (1975) and in Varadarajan
+ (1984).
+
+ (vii) Rather than speaking of a Formula of Campbell, Baker, and Hausdorff, the "great-
+
+ est common divisor" shared by the contributions of these three mathematicians is
+
+ the following statement (more a qualitative result than an actual formula): In the
+
+ associative algebra ( over a field of characteristic zero) of the formal power series
+
+ in two non-commuting indeterminate s x and y, the series related to 'og(exey)
+ is a series of Lie polynomials. This may be referred to as the Campbell-Baker-
+ Hausdorff Theorem.
+
+ (viii) Proceeding with the above (provocative) disquisition about "formulas," probably
+ the most important one is due to someone who is not even mentioned in the nam-
+ ing "Campbell-Baker-Hausdorff Formula." It is indeed Dynkin (1947) who (for
+
+ the very first time and more than 40 years after Hausdorff 's paper) furnished in
+
+ closed form the sought-for explicit presentation of'og(exey) in terms of iterated
+
+ Ö Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:10:43 UTC
+All use subject to https://about.jstor.org/terms
+
+ The early proofs of the theorem of Campbell, Baker, Hausdorff, and Dynkin 301
+
+ Table 1 Comprehensive
+ references for the early proofs of
+ the CBHD Theorem (range of
+ period 1890-1950)
+
+ Year Paper
+
+ 1890 Schur (1 890a, b)
+
+ 1891 Schur (1891)
+
+ 1893 Schur (1893)
+
+ 1897 Campbell (1897a, b)
+
+ 1898 Campbell (1898)
+
+ 1899 Poincaré (1899)
+
+ 1900 Poincaré (1900)
+
+ 1901 Baker (1901)
+
+ 1901 Pascal (1901a, b)
+
+ 1 90 1 Poincaré ( 1 90 1 )
+
+ 1902 Baker (1902)
+
+ 1902 Pascal ( 1902a, b,c)
+
+ 1903 Baker (1903)
+
+ 1903 Campbell (1903)
+
+ 1903 Pascal (1903)
+
+ 1905 Baker (1905)
+
+ 1906 Hausdorff (1906)
+
+ 1937 Yosida (1937)
+
+ 1947 Dynkin (1947)
+
+ 1949 Dynkin (1949)
+
+ 1950
+
+ Ô Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:10:43 UTC
+All use subject to https://about.jstor.org/terms
+
+ brackets, the so-called Dynkin' s Formula. Nowadays, it is customary to mention
+
+ Dynkin' s name within the contributions to the Exponential Theorem only when
+
+ his representation is involved. In fact, Dynkin's contribution is paramount for
+ other distinguished reasons which we shall discuss in detail in Sect. 9 (and which
+
+ have inspired our acronym CBHD); among these reasons is the merit of having
+
+ provided another proof of the Exponential Theorem (completely different from
+
+ the preceding ones, see Dynkin 1949) enlightening all the combinatorial aspects
+
+ behind the theorem, together with a proof of the convergence matter, far more
+
+ natural and simpler than Hausdorff's.
+
+ (ix) After 30 years after the mentioned paper (Hausdorff 1906), Yosida contributed
+
+ to clarify some passages in Hausdorff's main argument, dropping the symbolic
+ polar derivatives in favor of the usual differentiation with respect to real (or
+ complex) parameters.
+
+ To ease the reading, in Table 1 we furnished a chronological list of the original con-
+ tributions we shall be dealing with (in the range of period 1890-1950).
+
+ 2 The origin of the problem
+
+ The main theorem we are concerned with in this paper has its roots in Sophus Lie's
+ theory of the so-called finite continuous groups of transformations. As is well known,
+
+ 302 R. Achilles, A. Bonfiglioli
+
+ what we now call "Lie groups" are quite different from what Lie himself occasionally
+
+ referred to as "his groups" and what he studied during the second half of the nineteenth
+
+ century. Since we do not need Lie's original theory elsewhere in the paper, we confine
+
+ ourselves in recalling a (simplified) definition of continuous group of transformations
+ (for more details, see Hawkins 1989, 1991, 2000; see also Montgomery and Zippin
+ 1955 or Varadarajan 1984, §2.16).5
+
+ To this end, let Em denote (real or complex) m -dimensional Euclidean space and
+
+ let A ç Er be an open neighborhood of 0, and £2 ç En be some domain. Then a finite
+
+ continuous group of transformations is a family of maps indexed by a e A
+
+ /(•, a) : Q ^ Q, x xr = f(x , a ),
+
+ such that the following properties are satisfied (together with others omitted for brevity;
+
+ 0 is chosen as identity element for simplicity):
+
+ (i) the maps (x, a) h-> f(x, a) are analytic and /( jc, 0) = x for every x'
+ (ii) for every couple (a, b) e A x A there exists a unique cp(a,b) e A such that
+
+ /(/(*, tf ), b) = f(x, <p(a , b)), for every x e Q. (3)
+
+ It is not difficult to see that the map (a, b) !-► <p(a,b) then defines a (local) analytic
+
+ group, so that, in modern words, a transformation group is nothing but the germ of a
+ group action on a domain of Rn or Cn.
+
+ Throughout the paper, when we speak of a group of transformation (or of a trans-
+
+ formation group), we always refer to the above definition.
+
+ A key role is played by the so-called infinitesimal transformations of the transfor-
+ mation group, something very similar to what we would now call the relevant Lie
+ algebra. For every j = 1, . . . , r, every smooth function Fonß and every x e Q, let
+ us set
+
+ ¥W 3 = yMM.^). *-> (4) K '
+ ¥W 3 = *-> da; dxi (4) K '
+
+ l = ' J
+
+ The action on F of the differential operator Xy= l aj provides, as is easily seen,
+ the limit
+
+ r F(f(x,ea))-F(x)
+ r lim
+ £-►0 e
+
+ thus it furnishes a sort of "weight" of the infinitesimal transformation in the "direction"
+ of the parameter a = (a' , . . . , ar).
+
+ 5 It is also of interest to refer to some books on ODEs from the first decades of the twentieth century,
+ to see how groups of transformations (originally conceived by Lie for differential equation purposes) still
+ played a role in the ODE theory of those years: see, e.g., Campbell (1903), Cohen (1931), Ince (1927), and
+
+ Pascal (1903). A beautiful exposition of the ODE/PDE contents of the theory of transformation groups is
+ contained in Eisenhart (1933).
+
+ â Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:10:43 UTC
+All use subject to https://about.jstor.org/terms
+
+ a', ... ,ar being scalars and x e Q. If the parameters ai are small enough, the position
+
+ makes sense, and it defines the desired transformation group. The proof of the exis-
+
+ tence of the relevant group law (p{a,b) is not so direct: cp is the solution of suitable (first
+
+ order) PDE problems integrability of which derives from the existence of constants
+
+ Cijk satisfying (5).6
+
+ Despite the concealed nature of , the above facts contain the core of the CBHD
+
+ Theorem as we now describe. Indeed, the Maclaurin expansion of y is
+
+ The early proofs of the theorem of Campbell, Baker, Hausdorff, and Dynkin 303
+
+ The Second Fundamental Theorem of Lie ensures that the span of the X' , . . . , Xr
+
+ is closed under the usual bracket operation, i.e., there exist constants cijk (called the
+
+ structure constants of the transformation group) such that
+
+ [Xi,Xj] = ^CijkXk, for every/, j = (5)
+
+ r
+
+ k='
+
+ The converse of this fact (part of the Second Fundamental Theorem too) is less
+
+ trivial, stating that, if the independent analytic vector fields X' , . . . , Xr on the domain
+
+ ficR" span a finite-dimensional Lie algebra, then they are the infinitesimal trans-
+ formations of some group of transformations. The arguments to prove this fact make
+
+ use of the one parameter groups generated by the family of vector fields X', ... , Xr,
+
+ namely, the solutions to the ODE system
+
+ y( 0)=X
+
+ where A = a • X := a'X' H
+
+ f(x,a):=y( 1) (7)
+
+ 00 fk a k(r'
+
+ y(t) ~ X - - =: e'A(x)< (8)
+
+ k=0
+
+ justifying the exponential notation for y (t). From (7) and from the group property (3),
+
+ it follows that the composition of two exponentials must obey the following law (here
+
+ o is the composition of functions, see also the notation in (6)):
+
+ eA o eB = ec , where A=a-X,B=b-X,C = cp(a, b) • X. (9)
+
+ Baker (1905, p. 24) expresses very clearly a notable intuition about the product of
+
+ two exponentials: "it is an obvious suggestion of Lie's theory that the product eAeB is
+
+ of the form ec, where C is a series of alternants [i.e., of brackets] of A and B ," even
+
+ under the only assumption that A and B are any " two non-commutative quantities ."
+
+ 6 For a more exhaustive exposition of this approach to the Second Fundamental Theorem, having an his-
+ torical interest and tracing back to Lie himself, see, e.g., Schur (1890a), Pascal (1903), and Eisenhart
+ (1933).
+
+ â Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:10:43 UTC
+All use subject to https://about.jstor.org/terms
+
+ 304 R. Achilles, A. Bonfiglioli
+
+ In facing this question, Baker was preceded by Campbell (1898, see the incipit ), who,
+
+ for the first time, proposed to investigate the quantity eAeB from a purely symbolic
+ point of view. Later, this was to be called Campbell's Problem , see Poincaré (1900,
+ p. 232) and Hausdorff (1906, p. 20).
+
+ It is then clear that the study of the "product" of two exponentials, originating from
+ Lie's theory of transformation groups, deserved independent attention to be under-
+
+ stood in its generality. Lie did not pay much attention to this problem, for the equation
+
+ eAeB = ec was, roughly speaking, contained in the axiomatic identity (3) of his theory
+ (or, more precisely, in the proof of his Second Fundamental Theorem). What Lie did
+
+ not prove, however, was the fact that the law of formation of C as a series of brackets
+ of A, B is in fact "universal":
+
+ C = A + B + '[A, B] + £ [A[A, B}} - ^ [B[A, B]] + ± [A[B[B, A]]] + ■■■ ,
+
+ and that the structure constants cijk of the given group intervene only if one wants
+ to write C in the basis {X' , . . . , Xr } (this basis decomposition being immaterial for
+ the study of the "symbolic" identity eAeB = ec). The universal symbolic nature of C
+ is the topic that Campbell, Baker, Hausdorff, and Dynkin eventually addressed, thus
+
+ untying the Exponential Theorem from the original group context where it was born,
+
+ and lending it an interest in its own right.
+
+ Let us finally recall Lie's Third Fundamental Theorem, originally stated as follows:
+
+ Lie's Third Theorem. Given r3 real constants {cijk}i,j,k<r satisfying the conditions
+
+ cijk ^ ~cjiki ^ jiÇijsCskh ~f~ cjkscsih ~i" ckiscsjh) = 0, (10)
+
+ r
+
+ s= 1
+
+ for every i, j, h,k = 1, . . . , r, there exists a transformation group whose structure
+
+ constants are the Cijk, i.e., such that the infinitesimal transformations X' , . . . , Xr of
+ this group satisfy
+
+ [Xi,Xj] = YJCijkXk. (11)
+
+ r
+
+ k='
+
+ Throughout the sequel, when we speak of Lie's Third (Fundamental) Theorem, we
+
+ tacitly make reference to the above result, which is significantly different from what is
+
+ nowadays understood as the Third Fundamental Theorem of Lie. (Roughly speaking,
+ the original result is a local version of the modern one.7)
+
+ 7 The modern, global version of Lie's Third Theorem is the following one: For every finite dimensional
+ real Lie algebra q there exists a Lie group G such that g is isomorphic to the Lie algebra of G . Here the
+ notion of Lie group is, obviously, the modern one. The proof of this global form of the theorem is of a
+
+ different caliber, much more involved than the proof for the original version: some arguments require, e.g.,
+ Ado's Theorem asserting that every finite dimensional Lie algebra over a field of characteristic zero has a
+ faithful linear representation. For a very recent functorial version of Lie's Third Theorem, see Hofmann
+ and Morris (2005).
+
+ â Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:10:43 UTC
+All use subject to https://about.jstor.org/terms
+
+ The early proofs of the theorem of Campbell, Baker, Hausdorff, and Dynkin 305
+
+ Besides precursory studies by Schur, the link between Lie's Third Theorem and
+
+ the Exponential Theorem was first fully understood (as we shall explain) by Poincaré,
+ whose proof of the Third Theorem is more or less the modern one we would give
+ today starting from the CBHD Theorem (see also the end of Sect. 1.1.1 in Bonfiglioli
+ and Fulci 2012).
+
+ With the above recollections at hand, we are ready to analyze more closely the
+
+ contributions of Schur, Campbell, Poincaré, Pascal, Baker, Hausdorff, and Dynkin to
+ the Exponential Theorem.
+
+ 3 Schur's contribution
+
+ Schur's8 papers (Schur 1 890a, b, 1 89 1 , 1 893) are to a large extent devoted to providing
+ new derivations of Lie's Fundamental Theorems, using an insightful way of rewriting
+
+ the group condition (3) via suitable systems of PDEs. Schur (1890a) provides condi-
+ tions (involving the Jacobian matrix of the map b i->- <p(a, b) at the identity) which
+ turn out to be equivalent to some fundamental identities of Lie's theory. Actually, in
+ dealing with a new proof of Lie's Third Fundamental Theorem, Schur (1890a, §3)
+ constructs a transformation group (under a choice of canonical coordinates) only by
+
+ means of suitable multivariate power series depending on the structure constants. This
+
+ is clearly a forerunner of the Campbell-Baker-Hausdorjf Theorem.
+
+ Indeed, anticipating the modern use of logarithmic coordinates (see Schur 1891,
+
+ § 1 ), Schur proves that the composition law (a , b) h-> (p(a,b) related to the (canonically
+
+ parametrized) group (7) can be written down explicitly as a series depending (poly-
+
+ nomially) on the structure constants Cijk . Schur, like Lie, did not catch the universal
+ law of bracket-formation which underlies the analytic expression of (p(a, b): hence his
+ contribution to the form of the CBHD Formula as we now know it can be exaggerated.
+
+ However, he perfectly realized that an explicit formula for <p, depending only on the
+
+ Cijk s, was the right tool to prove Lie's Third Fundamental Theorem, a theorem which
+ is, as we now understand, deeply related to the CBHD Theorem.
+
+ Schur's methods are direct and as natural as one should expect: besides the cited
+
+ use of the canonical choice of parameters, they are mainly based on an integration of
+ the above mentioned differentiated versions of the group property by the method of
+
+ power series (the convergence of the resulting series being always carefully proved).
+ In Schur (1890b), he then turns to represent the infinitesimal transformations of a tran-
+
+ sitive group by means of quotients of power series and of some absolute constants,
+ structured on the Bernoulli numbers Bw .
+
+ As an example of Schur's plain computations with power series, we would like to
+ recall a remarkable formula (Schur 1 890b, Eq. (2), p. 2), which catches one's eyes for
+
+ itsexplicitness:If&> = (&>;j(w)) is the Jacobian matrix of v cp(u , ü)ati> = 0 (which
+ gives the infinitesimal transformations for the so-called first parameter group), then
+
+ ® Friedrich Heinrich Schur; Maciejewo, near Krotoschin, Prussia (now Krotoszyn, Poland), 1 856 - Breslau,
+ Prussia (now Wroclaw, Poland), 1932. Friedrich Schur should not be confused with the coeval mathemati-
+
+ cian, likely more famous, Issai Schur (Mogilev, 1875; Tel Aviv, 1941). While Friedrich Schur was a follower
+ of the school of Sophus Lie, Issai Schur was a student of Frobenius and Fuchs in Berlin. For a source on
+ Berlin mathematicians in the nineteenth century, see Biermann (1988).
+
+ â Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:10:43 UTC
+All use subject to https://about.jstor.org/terms
+
+ 306 R. Achilles, A. Bonfiglioli
+
+ (ou («) = hj + Uff («), (12)
+
+ oo
+
+ m='
+
+ where Sij is Kronecker' s symbol, the constants Xm are related to the Bernoulli num-
+
+ bers9 by the relation Xm = B m/m', and the functions are explicitly defined by
+
+ uijM= Z cj'Aih2--'ctzlj,m.l4m.t.hm»hluH2---uhm. (i3)
+
+ Here u = (u ' , . . . , ur ) is a point of some neighborhood of the origin of Rr and the c' y
+
+ are the structure constants of the transformation group (in Schur's notation, c' . stands
+ for cijs ; in the review to Schur (1 890a), Engel firmly criticizes Schur for not generally
+ following Lie's notations). Vice versa, given constants c? . satisfying (10), i.e., the
+ usual compatibility assumptions modeled on skew-symmetry and Jacobi identities,
+
+ the above matrix (a>ij) gives the component functions of the infinitesimal transfor-
+ mations of a transformation group having the c • • as structure constants (see Schur
+ 1891, Satz 2, p. 271).
+
+ Since a transformation group can be regained by exponentiating its infinitesimal
+
+ transformations, the above results give information on the group itself. Aware of the
+
+ impact of his results on the theory of transformation groups, Schur (1891) gives yet
+ another simplified version of the results of his former papers and, later Schur (1893),
+
+ the remarkable result that C2 assumptions on the functions / and (p actually guarantee
+
+ that they can be transformed (by a change of variables) into analytic functions. This
+
+ very notable fact (besides opening the way to Hilbert's famous fifth problem10) has
+ nowadays become a central topic of Lie group theory which is usually proved (by
+ sheer chance) by means of the CBHD formula itself, highlighting the deep link of
+ Schur's results with the Exponential Theorem.
+
+ While Schur will be mentioned by his successors mainly for the discovery of the
+ role of the Bernoulli numbers in the composition of infinitesimal transformations, we
+ explicitly remark that it will be Pascal who points out how the transformations in
+ (12) can be obtained by the Exponential Theorem; see Pascal (1902c, §2, p. 565).
+
+ 9 Schur introduces the constants Xm as satisfying a suitable recursion formula involving products of degree
+ two (Schur 1890a, Eq. (56), p. 178):
+
+ (m + 1 )Am = - (À2Àm_2 + À3À.W_ 3 H
+
+ •* = 1 - - + V (-pg-' ß2«-] x2y X
+ ex_x = 1 - - 2 + ~ (-pg-' (2 q)' X ■
+
+ q= 1
+
+ This means that, in our notation, B2q~' = (- 1)^-1B2 q.
+
+ In fact, Hilbert quotes Schur (1893), see Alexandrov et al. (1979).
+
+ â Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:10:43 UTC
+All use subject to https://about.jstor.org/terms
+
+ He then points out the relation of the kms with the Bernoulli numbers (Schur 1890b, Eq. (4), p. 2) which
+ he denotes as follows:
+
+ The early proofs of the theorem of Campbell, Baker, Hausdorff, and Dynkin 307
+
+ This is another confirmation of the intertwinement of Schur's studies with the CBHD
+
+ Theorem.
+
+ 4 Campbell's contribution
+
+ Campbell's1 1 1 897 paper (Campbell 1 897a) is the very first in the history of the Expo-
+ nential Theorem. It can be considered as by far one of the most readable works on
+ the subject: it is written in a concise style, yet its 10 pages contain a great variety of
+
+ remarkable formulas which will return in every subsequent paper on the subject. Let
+ us see what Campbell (1897a) proves.
+
+ To begin with, he establishes the following identity12:
+
+ ^4- = T , yv (AdxV(y) relU(O), (14)
+
+ where the constants aj are defined by the recursion formula
+
+ ao = 1, a' = 1/2
+
+ i ( ^ o (15)
+
+ yi = yx - xy, yr = yr-'x - xyr-' ( r > 2).
+
+ We preferred to reserve the square brackets for the commutator [y, x] = yx - xy, which Campbell instead
+ denotes by (y, jc), and to rewrite yr = [-- [[y, x],x]-- , x] in terms of left adjoints (- Ad x)r (y).
+
+ â Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:10:43 UTC
+All use subject to https://about.jstor.org/terms
+
+ aJ = 7+T i v ^~1 - aJ~i y J^2' ^ o
+
+ Campbell acknowledges Schur for the discovery of the constants aj (later in his second
+ paper - Campbell (1898), he establishes the link between the af s and the Bernoulli
+ numbers). Here jc, y are pictured by Campbell as "operators," but actually they can be
+
+ any elements of an associative non-commutative algebra.
+
+ Then, Campbell takes up an ingenious manipulation of certain formal power series,
+
+ though neglecting any matter of convergence. Even if his intention is to apply his
+ identities to the infinitesimal transformations of a group, his computations actually
+
+ apply only in the algebra of the formal power series in two indeterminates x, y .
+
+ Though Campbell will eventually be faulted by Bourbaki for a lack of clarity about
+
+ the context of his calculations (is it a transformation group, or the algebra of for-
+
+ mal series, or a finite-dimensional algebra of vector fields?), the importance of his
+
+ results on the Exponential Theorem is undoubted. For example, we feel compelled to
+ exhibit Campbell's computation on p. 384 of Campbell (1897a) (which will reappear
+ in modern proofs; see Cartier 1956 and Djokovic 1975): Let us set
+
+ 11 John Edward Campbell; Lisburn (Ireland), 1862 - Oxford (England), 1924.
+
+ 12 Here and in what follows, we use some different notations with respect to Campbell's, for those notations
+ conflicting with the usual ones. For instance, Campbell denotes the sum xlyxr~l by [yxr] and he
+ also introduces the sequence
+
+ 308 R. Achilles, A. Bonfiglioli
+
+ z = zO, y) := ^(-1 )Jaj (Adjc)-'(y) (16)
+
+ oo
+
+ ,/=0
+
+ (this will turn out to be the subseries of'og(eyex) containing y precisely once, a crucial
+ series in the CBHD Formula). Then we have
+
+ yex = ^ (use (14) and interchange sums)
+
+ 00 r
+
+ * 4 y !
+ r=0
+
+ oo oo (
+
+ OO OO ^ j ^ j s
+
+ = ^
+
+ j=Os= 0 (i + 1)! j- (=0
+
+ 00 1 s
+
+ Since one has in general (as /x 0)
+
+ (* + A6Z)5+1 = XS+1 + M ^Xl ZXS~l + üsiß2),
+
+ i= 0
+
+ = yy 7- - : - Try •*' (Ad (y) xr~J~l (rename s = r - j)
+
+ the above computation gives
+
+ (1 + M y) e* = ex + V 1 DîV ((* 4- MZ)S+1 - *s+1 + ^(ju2)) /
+ ^(, + DîV /
+
+ 00 1
+
+ = gX+IK +
+
+ Note that this is the crucial point where the "symmetrized" sums 2;=o JC'ZJC'S_' ap-
+ pear; analogous sums reappear in Poincaré (1900), Pascal (1901a), Baker (1905), and
+ Hausdorff (1906).
+
+ Campbell's argument on the convergence of &s(ß2) is quite unconvincing
+ (see Campbell 1 897a, pp. 384-385), and this exhibits once again that his computations
+ are to be considered only formally. However, Campbell obtains a fruitful formula:
+
+ [ (1 + ßy) ex = ex+ßz + ^(/z2),
+ 1 uv * ex+ßZ x+uz 2x where z = z(x, y) is as in (16), (18)
+ 1 [ eßy uv ex * = ex+ßZ x+uz + Ü(ß2), 2x
+
+ and the aj are explicitly given by (15).
+
+ A few years later, Poincaré will use similar formulas as a starting point for his ODE
+
+ techniques in attacking the Exponential Theorem.
+
+ ^ Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:10:43 UTC
+All use subject to https://about.jstor.org/terms
+
+ The early proofs of the theorem of Campbell, Baker, Hausdorff, and Dynkin 309
+
+ Now Campbell reveals to us his intent. He considers a set {X', . . . , Xr] of oper-
+
+ ators (i.e., linear analytic first-order differential operators on some domain of Rw),
+
+ such that [Xi, Xj] = X*=i cijk %k (where the ctjk are constants). Campbell aims
+ to give a direct proof of Lie's Second Theorem and prove that, if X, Y belong to
+ V := span{Xi, . . . , Xr }, then there exists Z e V such that ez = eY o ex , where, to
+ fix the notation, ex is the finite transformation:
+
+ x I- > ex (x) := ^1 + X + ^ X ^ + • • • ^ (x).
+
+ In order to prove the Second Fundamental Theorem, his only tools are (18) and the fol-
+
+ lowing interesting fact. [Here we disambiguate Campbell's results by using some mod-
+
+ ern notation, obviously not used in Campbell (1 897a).] Let us denote by x I-»- yx (t, x)
+ the flow at time t of the vector field X starting at x (see also (6), (7), and (8)). Then
+ one has (see Campbell 1897a, Eq. ( ß ), p. 386)
+
+ (etX o Y o e~,x ) (x) = Yyx(t,x) (Yxi~t, •)), (19)
+
+ where e±tX on the left-hand side are considered as a series of differential operators.
+ Now, the sides of (19) are as follows:
+
+ - after a simple computation, the left-hand side is
+
+ 00 r
+ et AdX(y) - (Ad X)r(Y);
+ /•= o r'
+
+ - the right-hand side is the operator Y'x , obtained by expressing
+
+ r,- = t,uU')£r 0
+ 7 = 1 0 j
+
+ in the new coordinates x defined by x = e~tX{x ') = yx(- t, xf).
+
+ With Campbell's compact notation, (19) becomes13
+
+ e'Adx(Y) = Y/, where a (20)
+
+ . v » d a
+
+ and
+
+ r = 94 •
+
+ 13 Here d/dxj must be properly interpreted as
+
+ i dxi , 3
+
+ where xO7) = yx(-t, xf)> and x'(jc) = yxiU x ).
+
+ â Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:10:43 UTC
+All use subject to https://about.jstor.org/terms
+
+ 310 R. Achilles, A. Bonfiglioli
+
+ Anticipating some ideas from the subsequent paper (Campbell 1898), Campbell's
+ proof of the Second Theorem could be described as follows14:
+
+ 1. In determining eY o ex , eY can be replaced by iterated applications of 1 + fi Y,
+
+ where fi is so small that 0{ii2) can be ignored. Indeed, as in ordinary algebra,
+
+ eY = lim (1 + Y/n)n. (21)
+
+ n~>oo
+
+ 2. Thus, in computing ( eY o ex)(x), it is enough to consider a recursion process, based
+
+ on iterated applications of 1 + /jl Y applied to a finite transformation x' = ex(x ),
+
+ where the infinitesimal transformation X will change at each step.
+
+ 3. Now, by taking care of the proper substitutions, we have
+
+ ((1 + fiY) o ex) (x) = (1 + fi
+
+ where Y' has the same meaning as in the far right-hand side of (20). By the identity
+ in the left-hand side of (20), we find that Y' is a Lie series in X, Y . Hence, Y'
+
+ belongs to V = span{Xi, . . . , Xr}, since X, Y e V, and V is a Lie algebra. Thus,
+ the Second Fundamental Theorem will follow if we can write (1 + (i Y')(x' ) as
+ ez(x), where Y' is any element of V .
+
+ 4. Given any X, Y in V , the first identity in (18) ensures that
+
+ (1+ fi Y) ex = ex+lxZ> + Û{fi2),
+
+ where, by (16), Z' = z(X, Y) is a series of brackets in X, Y . From the same
+ reasoning as above, we infer Z' e V. Setting X' := X 4- M Z', we have X' e V
+ too, and the above identity can be rewritten as
+
+ (1 +fiY)ex =ex< +0(fi2).
+
+ 5. By the same argument as in the previous step, we have
+
+ (1 + fi Y)2 ex = (1 + fi Y) eXl + û(fi2) (= e*2 + 2 0{fi2),
+
+ where X2 := X' + ß Z2 and Z2 = z(X 1, Y).
+
+ As a matter of fact, Campbell considers the above arguments sufficient to obtain a
+ proof of the Second Theorem and the paper (Campbell 1897a) simply ends with the
+
+ suggestion to take /z = 1 /n, with n large. Probably aware of the fact that his previous
+ argument is not convincing, Campbell writes a continuation paper (Campbell 1898).
+ [Meanwhile, he also had to write a paper (Campbell 1897b) in correction of a state-
+ ment made in Campbell (1897a) on a generalization which he sought to derive from
+ his arguments.]
+
+ 14 As a matter of fact, Campbell's argument is not very transparent from now on, and his proof should
+ be considered only as a sketch: nonetheless, we think it is interesting to see how he uses his previous
+ remarkable computations.
+
+ Ô Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:10:43 UTC
+All use subject to https://about.jstor.org/terms
+
+ + >x ■ Z S (-Vm+n-r am+n-r+x T J [(Ad*)m(>0, (Ad*)"(y)] (22)
+
+ The early proofs of the theorem of Campbell, Baker, Hausdorff, and Dynkin 3 1 1
+
+ Mainly, Campbell has to deal with the problems (evidently left open from the above
+ arguments) to manage the "convergence" of the sequence Xn to some Xqq and the
+ vanishing of n Ô'i/JL2) as n -» oo.
+
+ Let us briefly review the results of the second paper. First, Campbell recognizes the
+
+ relationship between his constants aj in (15) and the Bernoulli numbers.15 Next, by
+ means of more sophisticated computations on iterated bracket identities (valid in any
+
+ associative algebra), he derives the following formal-series result16:
+
+ (Ad (x + ßz))r (y) = (Adx)r
+
+ r- 1 oo y v
+
+ m-0 n~r-' -m
+
+ + &(ß2)-
+
+ This identity will help in dealing with a problem, contained implicitly in the previous
+ paper, which we now describe in detail. In the following exposition, our task is to
+ make precise Campbell's ideas in Campbell (1898, §13, p. 23), so where necessary
+ we introduce some concepts and notation not contained therein (signaling our inter-
+ vention in footnotes). To this aim, it is convenient to denote by 91 the associative
+ algebra of formal series in the letters x, y}1 Following (16), we introduce a func-
+ tion
+
+ z : -»■ 9t, z(u ) := ^(- l)y'a;- (AdM)y'(y),
+
+ oo
+
+ 7=0
+
+ 15 Campbell recognizes the relationship between his an and Schur's constants kn : it holds that «2n+ 1 = 0
+ for every n > 1 and
+
+ aZn ln = (-l)"_1 n > 1,
+ aZn ln = (2n)!
+
+ if, as in Schur, the Bernoulli numbers Z?2«-l arc defined by
+
+ 7 °° 72n
+
+ n= 1
+
+ o
+
+ With our compact notation, we have an = for n > 2.
+
+ 16 See Campbell (1898, Eq. (D), p. 20), which must be corrected putting (r - m)' in place of
+ (n-m)l.
+
+ 17 As always, Campbell pictures x, y as differential operators, but he manipulates series in x and y
+ with no care for convergence; hence, we preferred to introduce the algebra of formal power series in x
+ and y.
+
+ â Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:10:43 UTC
+All use subject to https://about.jstor.org/terms
+
+ where the aj are as in (15).18 Fixing a constant fi , let us consider the following se-
+ quence of maps Pn : 5t, defined inductively by
+
+ 312 R. Achilles, A. Bonfiglioli
+
+ P0(w) := m + ^z(w), PI(m) := z(P0(w)),
+ Prt(M):=Pw_i(P0(w)), «>2.
+
+ In other words, denoting by Pq the n-fold composition of Po with itself, we have
+
+ pnz= zo Pq , for every n > 1. (24)
+
+ Next, we have to introduce another sequence of maps xn : 5t -> 5t, namely
+
+ jtn(w) := Pq (m), for every n > 0. (25)
+
+ (Here it is understood that Pq (w) = u.) We shall soon be interested in xn(x): note
+ that, because of (25) and the form of z, every xn(x) is a Lie series inx,y universally
+
+ determined by the Bernoulli-type numbers aj.
+
+ Since Po(w) = u + ßz(u), we get
+
+ jcw+i(m) = x n(u) + /iz(xn(u )), for every n > 0. (26)
+
+ As a simple inductive proof shows, the functions xn can also be rewritten as follows:
+
+ *n = P 0 + M (^l + Pi + * • • + P n-i)> n > 2. (27)
+
+ Now Campbell (1897a) recalls one of the crucial identities, namely, the first one in
+
+ (18) above: treating the x as a pure symbol (allowing us to substitute for it any other
+
+ element of our algebra 51), one has
+
+ (1 + fiy) eu = 4. ß2 R(u ), for every u g 51. (28)
+
+ Here R(u) is some "remainder" term, to which Campbell does not pay too much
+ attention. As a consequence of (26) and (28), we obtain at once
+
+ (1 + fiy) eXn(<u) = eXn+l^ + ß2 R(xn(u )), for every n > 0. (29)
+
+ Applying (1 + jiy)r~n~x to both members of (29), summing up for n = 0, . . . , r - 1
+ and canceling out, Campbell provides the following important identity:
+
+ (1 + fiy)r ex = exr(x) + ß2 £(1 + ßy)r-n~l R(x„(x)), (30)
+
+ r- 1
+
+ n= 0
+
+ 18 Campbell never introduced z as a function, but, with long paraphrases, he repeatedly speaks of "substi-
+ tuting [some series] for x in z," when z "has been expressed explicitly in terms of x and _y." The functional
+ approach is evidently more convenient.
+
+ â Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:10:43 UTC
+All use subject to https://about.jstor.org/terms
+
+ The early proofs of the theorem of Campbell, Baker, Hausdorff, and Dynkin 313
+
+ holding true for every re IN U {0}. The idea is now to take (i = '/r and let r -> oo.
+
+ The above left-hand side then goes to eyex (see also (21)). Moreover, with a (maybe
+ too) rough estimate on the second summand in the right-hand side of (30), Camp-
+ bell states that this second summand can be ignored, for it has the same behavior as
+
+ r 0(1 /r2). He then concentrates on the existence (in a formal sense only) of
+
+ Xoo := lim xr(x),
+
+ r- >oo
+
+ and he attacks the problem of deriving some explicit formula for xœ. To this aim, the
+ decomposition (27) is employed, together with long and complicated estimates. For
+ example, as far as the summands Pq{x) + P'(x) are concerned, we have (note that
+ the previous algebraic computations in (22) are now employed)
+
+ Po(x) + ß P'(x) = x 4- ßz(x) 4- ßz(x 4- ßz(x))
+
+ = ix^(-iy a j (Ad (x + ßz(x)))J (y)
+
+ oo
+
+ 7=0
+
+ , x 2 f certain universal sums of the constants «/«/
+ = X+2ßz(x)+ß2 , x 2 ■ . , brackets , „ of -, sums the T- Lie elements 1 * (KA «/«/ W ^ + ^W).
+
+ times . , brackets , „ of -, the T- Lie elements 1 * (KA (Ad jc) W (y) ^
+
+ After several elaborate computations, Campbell derives a formula for xœ of the fol-
+
+ lowing form (note the ordering w.r.t. increasing powers of y rather than grouping
+
+ homogeneous terms in jc, y ):
+
+ eyex =ex°° where
+
+ 1 00
+
+ j= i
+
+ * p,q= o
+
+ 1 00
+
+ ' p,q,r= 0
+
+ + 2Î ' X! bP>4'r [[(Ad (Ad*)9^)] , (Ad*)r(;y)] H
+
+ where the constants bp,q , bp,q,r , • • • can be computed by a universal recursion formula,
+ involving the numbers aj in (15). For example,
+
+ bp,q = (- 1)^"^ ^ ' ar Qp+q+'- r ( 1*
+
+ p+q+' . V
+
+ r=p+ 1 ^P'
+
+ Identity (31) can be considered by rights (even despite Campbell's not-completely-
+
+ cogent derivation of it) as the first form of the CBHD Theorem in the literature.
+
+ We explicitly remark that, while in the first paper (Campbell 1897a) focussed on an
+ Exponential Theorem within the setting of transformation groups, the second paper
+
+ â Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:10:43 UTC
+All use subject to https://about.jstor.org/terms
+
+ *00 =X + y + - [y, x] + ^a2j (Ad x)2j(y)
+
+ + X bp%q [(Adx)/'(y), (Ad*)9(;y)] ^
+
+ 314 R. Achilles, A. Bonfiglioli
+
+ (Campbell 1 898) does not mention any underlying group structure: a remarkable break
+
+ with respect to Campbell ( 1 897a). Baker and Hausdorff will concentrate their attention
+
+ in this abstract direction. Finally, Campbell (1903) provides a comprehensive treatise
+
+ on transformation groups, much in the spirit of ODEs; in Chapter IV of his monograph
+
+ (Campbell 1903), the proof of the Exponential Theorem (as given in Campbell 1 897a)
+ is reproduced in detail.
+
+ As we shall see in Sect. 6, Campbell's and Pascal's contributions are compara-
+
+ ble from many points of view. Indeed, they share the following common features:
+ many results (a symbolic Exponential Theorem with a sketched recursion formula
+
+ for higher-order terms), some techniques, the laboriousness of the computations, the
+
+ intents (applications to transformation group theory), the presence of some lacunœ.
+ So the question is: why has Pascal's contribution been totally forgotten? The answer
+ to this question, supposing it may ever be given, is lost in the twists and turns of
+
+ mathematical history.
+
+ 5 Poincaré's contribution
+
+ It was Poincaré19 who first realized the link between Schur's proof of the Third Fun-
+
+ damental Theorem and what he defined "le Problème de Campbell" (this is the title
+ of §IV in Poincaré (1900)).
+
+ Indeed, given a transformation group with infinitesimal transformations X', . . . , Xr
+
+ as in (4), the one-parameter subgroups (see the exponential notation introduced in (8))
+
+ t^e,x (X6fl:=span{Xi,...,Xr})
+
+ generate the group of transformations. Hence, if Campbell's identity ev eT = ew has
+ a precise analytic meaning (defining W as a converging Lie series in V and T , hence
+
+ as an element of g), then it follows that the whole transformation group can be recon-
+
+ structed from g (or equivalently, by its structure constants). Poincaré anticipated the
+
+ modern way of thinking about the CBHD Theorem as the tool for reconstructing the
+
+ group law by means of the brackets in the Lie algebra. More precisely, as we shall
+ explain later, he showed how to derive from Campbell's identity eveT = ew a proof
+ of the Third Fundamental Theorem, much in the spirit of Schur, as Poincaré himself
+ declares: C'est au fond la démonstration de Schur (Poincaré 1900, p. 235).
+
+ The arguments sketched above show the necessity of giving a precise analytic solu-
+
+ tion to Campbell's problem, and Poincaré (1900) devotes the last five long paragraphs
+ to this problem. We refer the reader to Schmid (1982) for a comprehensive account on
+
+ Poincaré's contribution to the theory of Lie's transformation groups (and to Ton-That
+ and Tran 1999 for his contribution to the Poincaré-Birkhoff-Witt Theorem); here we
+
+ confine ourselves to pointing out his contribution to the development of the CBHD
+ Theorem.
+
+ The most impressive fact about Poincaré's contribution is that, in solving an impor-
+ tant problem, he creates an even more important tool: in fact, Sect. Ill of Poincaré
+
+ 19 Jules Henri Poicaré; Nancy (France), 1854 - Paris (France), 1912.
+
+ Ô Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:10:43 UTC
+All use subject to https://about.jstor.org/terms
+
+ The early proofs of the theorem of Campbell, Baker, Hausdorff, and Dynkin 315
+
+ (1900) gives birth to what we now call the universal enveloping algebra % (g) of a
+
+ Lie algebra g. Though Poincaré considers, ipso facto, only finite-dimensional Lie alge-
+
+ bras over a field of characteristic zero, his ingenious idea is exactly the same one later
+
+ rediscovered by Birkhoff and Witt in the general case. Suppose a finite-dimensional
+ Lie algebra20 is given, spanned by some "symbols" X',...,Xr (called generators)
+ and equipped with the bracket determined by the structure identities
+
+ [Xh Xj] = Xs, ij = r. (32)
+
+ r
+
+ S='
+
+ Poincaré then introduces an equivalence relation on the set of formal polynomials in
+
+ the generators, by calling equivalent any two polynomials difference between which
+
+ is a linear combination of two-sided products of the polynomials:
+
+ XiXj-XjXi-lXi^Xjl (33)
+
+ After investigation of Poincaré (1900, §111), we agree with Hausdorff-Bourbaki in
+ saying that Poincaré's exposition of the above construction is not free from some
+ ambiguity.21 Nonetheless, the cause for this ambiguity may be less trivial than it
+ seems: Poincaré wanted to describe the way to construct ^ (g) from g for potentially
+
+ arbitrary g's; but then, in performing computations with infinitesimal transformations,
+
+ he treats the formal product X Y - Y X as the difference of true compositions of vector
+ fields:
+
+ X oY -Y oX.
+
+ Since (as we now know) the enveloping algebra of a finite-dimensional Lie algebra of
+
+ vector fields X ' , . . . , Xr can be identified with the associative algebra of the operators
+
+ spanned by
+
+ X"1 o • • • o X"r , n',...,nr > 0,
+
+ equipped with the composition of linear differential operators, Poincaré's identity
+
+ 20 Lacking the general definition of a Lie algebra that was later introduced by Weyl in the 1930s, Poincaré
+ pictured his Lie algebras as spanned by analytic vector fields: typically, the infinitesimal transformations
+ of a group. However, in introducing the enveloping algebra, he never makes use of an underlying group of
+ transformations.
+
+ 21 For example, identity (1) on p. 224 writes XY - YX = [X, Y] whereas identity (2) contains the non-
+ trivial quantity XY - YX - [X, Y], with the statement (a few lines below) that XY - YX is of second
+ degree whereas [X, Y] is of first degree, whence they cannot be equal, contradicting the cited identity (1).
+ As a matter of fact, Poincaré seems to write identity ( 1 ) only to trace a parallel between what happens for
+
+ infinitesimal transformations of a group (where the bracketing has the alternant form X o Y - Y o X) and
+ what it is expected to happen in the set of his formal polynomials, modulo (33). In other words, consistent
+ with a later use of the symbol of equality in Poincaré (1900), the sign "=" in (1) should be interpreted as a
+
+ congruence modulo the two-sided ideal generated by (33).
+
+ â Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:10:43 UTC
+All use subject to https://about.jstor.org/terms
+
+ 316 R. Achilles, A. Bonfiglioli
+
+ can be applied with full justification in this vector field setting.
+
+ Next, Poincaré sketches the proof of the remarkable fact that any homogeneous for-
+
+ mal polynomial of degree p is equivalent to a certain uniquely determined polynomial
+ (called regular) which is a linear combination of polynomials of the form
+
+ [X, Y] = XY - YX
+
+ (ot'X' +a2X2 + --)p.
+
+ In practice, this is the (linear) isomorphism of°t/ (g) with the symmetric algebra of the
+
+ vector space g. We notice that he represents symmetric polynomials as powers of lin-
+
+ ear polynomials, a form particularly suited for the purpose of building up exponential
+ series. This construction is exhaustively described (together with the filling of some
+ omissis in Poincaré's arguments) in Ton-That and Tran (1999).
+
+ If V, T are linear combinations of X' , . . . , Xr , Poincaré considers a formal product
+
+ of type:
+
+ ever =
+
+ y ^ mini
+ m,n> 0
+
+ motivated by the theory of transformation groups.22 His aim is to prove by direct
+ methods what Lie's Second Fundamental Theorem ipso facto assures, namely, the
+ existence of W such that eveT = ew . (Note that here Poincaré seems to return to the
+
+ operator nature of these exponentials, rather than their being polynomial series.)
+
+ With his considerations on the universal enveloping algebra at hand , Poincaré then
+
+ introduces a momentous way of rewriting eveT , aiming directly at getting W , which
+
+ deserves to be carefully considered for its originality. Indeed, the monomial VmTn
+
+ can be made equivalent to a sum of regular polynomials, say
+
+ -TT mini = TW(p,m,n), ' (34)
+ -TT mini '
+
+ m+n
+
+ P= 0
+
+ 22 This is another delicate point: first Poincaré introduces etX as an operator, acting on functions in the
+ obvious way
+
+ e,X(f) = f + -X(f) t + - X2(f) + - t X3(/) + • • • ,
+
+ t t2 t 3
+
+ having further care to recall that this series converges for small t ( X is implicitly assumed to be analytic so
+ that the above one is actually the expansion of f(y (f)), where y is an integral curve of X ). But a few lines
+
+ after, he writes exeY = Xm,n Xm'n' ' ^ ^ considered as operators, then the correct expansion
+
+ has X and Y interchanged. Consequently, Poincaré now considers ex , eY only as purely symbolic series.
+ This mixture of operator/symbolic objects (Poincaré often specializes his symbolic formulas in identities
+ in the algebra of the operators) is the cause for some discrepancy.
+
+ â Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:10:43 UTC
+All use subject to https://about.jstor.org/terms
+
+ eveT _ ^ I ^ W(p,m,n)' -.^Wp. (35)
+
+ The early proofs of the theorem of Campbell, Baker, Hausdorff, and Dynkin 317
+
+ where W(p, m, n) (besides being symmetric) is homogeneous of degree p. Conse-
+
+ quently, we get
+
+ 00 / ' 00
+
+ p= o 'm+n>p f P=0
+
+ Note that Wp is a regular formal series , homogeneous of degree /?. Poincaré observes
+ that, if we seek for a W , homogenous of degree 1, such that
+ then is regular and homogeneous of degree p. Hence, by the uniqueness of the
+ regularization process, we must have
+
+ = ^ (36)
+
+ p'
+
+ Roughly speaking, W' is nothing but the CBHD series.
+
+ This fact deserves some clarification. In identity (34), we have
+
+ - V and T are elements of the Lie algebra g := span{Xi, . . . , Xr} (recall that the
+
+ Xf s satisfy (32));
+
+ - The "=" sign must be read as an identity in the enveloping algebra ^ (g), i.e., a
+ congruence modulo the ideal generated by (33). Thus, in computing the degree of
+
+ homogeneity, the brackets [X/, Xj] must be considered of degree 1.
+
+ Alternatively, if we temporarily disregard the Lie algebra span{Xi, . . . , Xr} and we
+ consider only Lie algebras of vector fields (whose enveloping algebra can be iden-
+ tified with the associative algebra of polynomials in basis elements), then (34) may
+ be considered as an authentic equality (not a congruence), obtainable by repeated
+
+ applications of the identity:
+
+ VT = TV + [V, T]. (37)
+
+ However, in this case, the concept of homogenous-degree is purely formal. This alter-
+ native use of V and T is not far-fetched, for two good reasons as follows:
+
+ - it reflects Poincaré's double use of the identity [V, T ] = VT - TV (later considered
+
+ ambiguous by his reviewers);
+
+ - most importantly, it allows the construction of the very important W' as a Lie series
+
+ in the symbols V and T only ; by means of a universal construction.
+
+ For example, consider the following computation (where (37) is used):
+
+ VT = ' VT + ' VT = ' (VT + TV) + ' [V, T]
+
+ = ' (V + T)2 - ' V2 - ' T2 + ' [V, T],
+
+ With the notation in (34), this gives
+
+ W(0, 1, 1)=0, W(l, 1, 1) = '[V, T], W(2, 1, 1) = ' ({V+T)2-V2-T2^.
+
+ â Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:10:43 UTC
+All use subject to https://about.jstor.org/terms
+
+ 318 R. Achilles, A. Bonfiglioli
+
+ Again, consider the identity (which we can derive by means of (37) only)
+
+ VT 2
+ - = 5 (VTT + TVT + TT V) + ± ([ V , T]T + T[V, T]) + ±[T, [T, V]],
+
+ so that W(1 , 1, 2) = j2.[T, [T, V]]. An analogous computation ensures that
+ W(l, 2, 1) = ±[V, [V, T]], whence
+
+ Wj = W(l, 1,0) + W(l, 0, 1) + W(l, 1, 1) + W( 1,2, 1) + W(l, 1, 2) + • • •
+
+ = V + T + ' [V, T] + £[V, [V, T]] + £[7' [T, V]] + ■ ■ ■
+
+ We recognize the first few terms of the CBHD series !
+
+ Since Poincaré is interested primarily in a new proof of the Third Fundamental
+
+ Theorem (for which it is sufficient that W' be a convergent Lie series in the Xj 's),
+ an explicit derivation of a formula for W' in terms of repeated brackets of V and
+ T is immaterial for the scope of Poincaré (1900), and is therefore omitted. But we
+
+ agree with Schmid (1982, p. 182) who writes that "the answer follows easily from
+ his methods." In the light of these facts, the original contribution by Poincaré to the
+ CBHD is unquestionable.
+
+ As anticipated, Poincaré derives from (36) a new demonstration of the Third Fun-
+
+ damental Theorem of Lie. He clearly states that to form a transformation group with
+ prescribed structure constants, the following chain of constructions suffices (Poincaré
+ 1900, p. 234):
+
+ 1 . Given the structure constants, the process of reducing any polynomial into a sym-
+
+ metric one follows;
+
+ 2. this allows for construction of the regular polynomials W(p , m, n)'
+ 3. from the latter, one obtains W' ;
+
+ 4. W' enables us to build up the functions Wk = (pic(v , t) such that W = X * wk Xk>
+ V = X* VkXk, T = ^ tkXk do satisfy eveT = ew , a consequence of (36);
+
+ 5. the map vr = <p(v, t) provides the desired group.
+
+ It is interesting to have an overview of Poincaré's analytic solution of Campbell's
+ Problem (36). A detailed description is beyond our scope here; we confine ourselves
+ to exhibiting some formulas, which will eventually return in the literature devoted to
+ the CBHD Formula.
+
+ Once again, Poincaré's ideas are destined to leave their marks: he is the first to
+ characterize the solution W of ew - ev eT as solving a suitable ODE, which he also
+
+ writes down explicitly. For instance, he proves that eve^T = ew ^ if and only if W(ß)
+ solves
+
+ Poincaré (1900, equation (7) on p. 248). If V, T are elements of the Lie algebra
+ span{Xi, . . . , Xr} sufficiently near the origin, then W := W(l) is the solution to
+
+ ^ Springer
+
+ (3,
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:10:43 UTC
+All use subject to https://about.jstor.org/terms
+
+ The early proofs of the theorem of Campbell, Baker, Hausdorff, and Dynkin 319
+
+ ew = eveT , an identity in the enveloping algebra of g. This identity translates into an
+
+ identity between the operators e v , eT , ew , which solves (at the same time) Campbell's
+ Problem and the Second and Third Fundamental Theorems of Lie.
+
+ In many later proofs of the CBHD Theorem, formal power series of adjoint maps
+
+ will frequently occur. But instead of analytically defining <p (Ad W ) by means of power
+
+ series,23 Poincaré prefers to invoke the residue calculus. This also gives him the pos-
+
+ sibility to make explicit that W(ß) is a linear combination of the Xf s. Indeed, by the
+ cited use of the residue calculus, Poincaré is able to show that the (unique) solution
+ W(ß) of (38) can be found in the form X/=i wi(ß) where
+
+ dwj(ß) = J_ f Hrj='tj Ï
+
+ dß = liïij det(Ad(W(j8))-Ç) 1 - e~$
+
+ and that these ODEs can be integrated. Here i is the imaginary unit, the constants tj
+
+ are the coefficients of T with respect to {Xi , . . . , Xr}, whereas (Pij) is the adjugate
+ matrix (i.e., transpose of the cofactor) of Ad (W(ß)) - §, so that
+
+ (Ad (W(ß)) - È)~] =
+
+ det(Ad(W(/3))-Ç)
+
+ The integral is taken over a contour around OeC which does not contain the poles of
+
+ 0 (z) , for example a circle about 0 of radius R < 2n . (Roughly speaking, the smallness
+ of V, T reflects in the smallness of the eigenvalues of Ad W(ß) up to ß - 1, which
+ in its turn ensures that the zeroes of det (Ad (W(ß)) - £)are surrounded by the cited
+ contour.)
+
+ Poincaré arrives at his ODE formulation (38) of Campbell's Problem by using a
+
+ mixture of different techniques: his process of symmetrization of polynomials in the
+
+ enveloping algebra, differential calculus, explicit computations of non-commutative
+ algebra, etc. For example, a key role is played by Eq. (7) in Poincaré (1900, p. 244),
+ stating (in symbolic notation)
+
+ i _p-Ad(aV)
+ gaV+ßW = gaVeßY > where y = J_f i _p-Ad(aV)
+
+ Ad (aV)
+
+ 23 Note that here we would have
+
+ <j>(Ad W) = y (-1), B" (Ad wo",
+
+ ~ n-
+
+ n> 0 ~
+
+ where the Bn are our Bernoulli numbers: Bn := (37) |q _ 1 •
+
+ Ô Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:10:43 UTC
+All use subject to https://about.jstor.org/terms
+
+ He derives this identity both with algebraic arguments and with a direct approach
+ based on a ^-expansion up to degree two:
+
+ eav+ßw = e*v + ß £ n' ( £ V"-1 -kWVk ) + ü{ß2)
+
+ = + ß 2 ?Lp "• I V*=0 5IC-l)*G"i) V)*(W) J + &(ß2)
+
+ 320 R. Achilles, A. Bonfiglioli
+
+ 00 /n- 1 '
+
+ n= 1 n' 'k= 0 /
+
+ 00 n- 1 /"-I '
+
+ n= 1 "• V*=0 / (40)
+ 00 00 J
+
+ = eaV+^TT (o vy (-«Ad V)*(W) + @(ß2)
+
+ toUjl(k + ï)l
+ „ / l_e-Ad(arV) '
+
+ = '' " „ (1 + '^d<STÖ-w)+^ l_e-Ad(arV)
+
+ As we shall see, similar computations will return in Pascal, in Hausdorff and in plenty
+ of modern proofs of the CBHD Theorem (see e.g., Djokovic 1975).
+
+ It seems that Poincaré's contribution to the Exponential Theorem has shared the
+ same fate as his contribution to the Birkhoff-Witt Theorem: both have been ignored
+
+ for several decades. A full recovery of his idea in obtaining an explicit formula for the
+
+ CBHD series from (34) would probably deserve a further investigation.
+
+ 6 Pascal's contribution
+
+ In a series of five papers dated during 1901-1902 (and in the monograph Pascal 1903),
+
+ Pascal24 undertook the study of the composition of two exponentials, motivated by the
+ search for new proofs of the Second and Third Fundamental Theorems of Lie. Here
+
+ we give a brief overview of these papers, planning to return to this subject (with more
+
+ mathematical content) in a forthcoming study.25
+
+ In Pascal (1901a), he announces a new proof of the Second Theorem of Lie: in
+ his opinion, Lie's original proofs are too indirect to be considered definitive, and he
+
+ expresses the aim to find the most direct proof as possible "at the cost of longer com-
+
+ putations' ' (he will be eventually faulted by Hausdorff (1906), and by Engel reviewing
+ Pascal 1902c, for these long calculations). Pascal understood from the beginning that
+ the crucial tool was the study of the product of two finite transformations, under the
+ canonical exponential form x etX(x).
+
+ With this aim in mind, Pascal (1901a) provides suitable identities occurring among
+
+ the symbols of the finite transformations. Actually, all his computations are indepen-
+
+ dent of any transformation group context and apply unaltered to indeterminates in any
+ associative, non-commutative algebra. By means of the sole relation
+
+ 24 Ernesto Pascal; Naples (Italy), 1865-1940.
+
+ 25 Bonfiglioli, A.: The contribution of Ernesto Pascal to the so-called Campbell-Hausdorff formula, pre-
+ print.
+
+ â Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:10:43 UTC
+All use subject to https://about.jstor.org/terms
+
+ The early proofs of the theorem of Campbell, Baker, Hausdorff, and Dynkin 321
+
+ [XuX2] = X1X2-X2Xl,
+
+ he proves the following identity (see Eq. (15) in Pascal 1901a, p. 1067):
+
+ kx2x'~x = Yj' Q yU) (Sx'f 1 (AdX,y'(X2)X?"-'"2^, (41)
+
+ where k e IN and the numbers y ^ are universal constants inductively defined by
+
+ ym = I, rw = _ ( I, yu-n + i, yu-» + . . + j, r< « + ^ y«)). (42,
+
+ These kinds of formulas involved in the Exponential Theorem were not new at the time.
+
+ The same formulas appeared, a few years before, in Campbell (1897a, p. 381), but the
+ scalar coefficients involved in this paper were defined by a very different recursion
+ formula, so that Campbell's and Pascal's arguments are indeed independent. More-
+
+ over, we explicitly remark that the sum in parentheses in (41 ) belongs to the symmetric
+ algebra of the vector space spanned by the brackets of X', X2, so that (41) is actu-
+ ally a decomposition analogous to those studied by Poincaré (one year before Pascal)
+ in defining the universal enveloping algebra.26 Furthermore, Pascal's constants
+
+ are strongly related to the Bernoulli numbers, previously used by Schur, but Pascal's
+ derivation of the role of the yW' s is clearly independent of Schur's.27
+
+ In his article (1901b), Pascal gives the application of his former symbolic identities
+ to the study of the Second Fundamental Theorem of Lie. Indeed, he undertakes the
+
+ study of an explicit formula for eXl oeXl , aiming to obtain the infinitesimal transforma-
+
+ tion X3 generating this product. Pascal's point of view is very clear and incisive: in the
+
+ opening of the paper, he says that a formula for X3 provides, " as a uniquely compre-
+ hensive source ," many applications to Lie group theory, such as the Second Theorem,
+
+ the study of the permutability of one-parameter groups and the problem of the iso-
+ morphism of transformation groups (these applications are given in the subsequent
+ paragraphs of Pascal 1901b).
+
+ 26 Pascal seemed to ignore, at the time, the paper by Poincaré (1900); it will be Engel, in his review of
+ Pascal's subsequent paper (1901b), who points out the analogy with Poincaré's study. Admittedly, Pascal's
+ technique is quite different from Poincare's, and his computations, though heavier, are more explicit.
+
+ 27 Schur's discovery of the role of Bernoulli numbers within the study of the Exponential Theorem will by
+ cited by Pascal only after his paper (Pascal 1902a). It holds that, as Pascal will point out in the same article,
+
+ y<°> r = l /!>=-! y y<2"+D=0 v(2">=(-l)«+> r ÜÜL,
+ r = l y 2 r (2 «)!
+
+ where the numbers #2« defined by the following generating function:
+
+ 00 D
+
+ - - 1 - - + Y(-n"+1 - x2n
+ ex _ ! - 2 (21.)! ■
+ n-'
+
+ With our notation for Bn, Pascal's constants are nothing but - the same constants that appeared
+ in Campbell but with a different recursion definition.
+
+ â Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:10:43 UTC
+All use subject to https://about.jstor.org/terms
+
+ 322 R. Achilles, A. Bonfiglioli
+
+ Some remarks are in order. Pascal's awareness of the reach of his result is enthusi-
+
+ astically affirmed, but he fails to refer to Campbell's earlier investigations and, mostly,
+ to those by Poincaré. The analogy with Poincaré's point of view (recognizing the
+
+ Exponential Theorem as a unifying tool) is evident, but there is no way of knowing if
+ Pascal knew Poincaré's paper (1900) at the time.
+
+ It will be Engel in his review of Pascal (1901b), who points out the analogy with
+
+ Poincaré (1900) and, most importantly, underlines a fault in Pascal's paper: the con-
+ vergence of the series expressing X3 in terms of Xj, X2 is lacking. This makes it
+ impossible to apply Pascal's result directly. Even if Engel's words sound quite hard,28
+ he acknowledges that Pascal's formula is very remarkable.
+
+ Therefore, let us consider Pascal's argument in detail. He decomposes the product
+
+ yr r
+
+ rl Tj~ (k - r)!
+
+ r" Tj~ (k - r)! Tï (0 < r < *, k e IN)
+
+ as a linear combination of certain symmetric sums (called elementary of order k,k -
+
+ 1 , k - 2, . . .) based on X' , X2 and scalar products of nested commutators of the form:
+
+ [XhXi2 • • • XisXiX2] := [Xh, [Xi2 • • • [Xis, [Xlt X2]] •••]], (43)
+
+ where i', . . . , is e {1,2}. The law of composition of the scalar coefficient of such
+
+ an elementary sum is described very closely, though an explicit formula is not given.
+
+ xr x^~r
+
+ Pascal states that the cited decomposition of ^ztjt can be obtained by an inductive
+ argument deriving from the identities in his former paper (1901a). (Actually, we think
+ that this point deserves more detail.)
+
+ With this decomposition at hand, he rewrites the product:
+
+ (t'X2 )j (tX')1 -y / ^ ,r k-r ^2 X' ' '
+ ào /! -y h'h ,r ^ (* -»■)'/•
+
+ For instance, his "semi-explicit" form of the coefficients of the elementary sums allows
+
+ him to illustrate that the above sums in parentheses reconstruct into a pure exponential:
+
+ 00 1 k
+
+ k= 0 '
+
+ 28 Engel says that Pascal's application to the Second Fundamental Theorem is "devoid of any foundation"
+
+ if the proof of the convergence is missing, and he faults Pascal for "surprisingly omitting to ask himself the
+
+ question." Engel also reveals that Lie himself had calculated the first six terms of this series, but then he gave
+ up the study of this series for "he did not foresee any means of answering the question of convergence."
+
+ Ô Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:10:43 UTC
+All use subject to https://about.jstor.org/terms
+
+ +t'X2 + Y0)tt'[X],X2] + ---) k ,
+
+ The early proofs of the theorem of Campbell, Baker, Hausdorff, and Dynkin 323
+
+ where the coefficients y ^ are as in (42). Note the similarity with Poincaré's decom-
+ position (resulting from (35) and (36)):
+
+ eveT = > - - , with W' = W(l, 1,0) + W(l, 0, 1) + W(l, 1, 1> H
+
+ ' y p'
+ p= 0 y p'
+
+ (44)
+
+ Exactly like Poincaré, when he stated that W' can be constructed by means of the
+ reduction of to a regular polynomial, Pascal writes that the determination of X3
+ follows by means of his universal decomposition (treated in Pascal 1901a and Pascal
+ 1901b, §1). Nonetheless, whereas Poincaré uses an a posteriori argument to prove
+ equality (44) (by showing that W' satisfies a suitable system of ODEs), Pascal's con-
+ struction is much more direct: as he announced, at the cost of onerous computations,
+
+ he provides a direct way to reconstruct the product e 1 X2etXl as an exponential ex 3,
+
+ this reconstruction being uniquely based on an unraveling of y ^ - jp- .
+
+ For instance, his method permits him to exhibit the following terms:
+
+ X3 = tX' + t'X2 + ymtt'[X UX2]
+
+ +Ymt2t'[XyX 1X2] - y(2V2 [X2XiX2] - y(2)y(1)rV2 [X]X2XiX2]
+ +y(3)fY[XiXiXiX2] - y(3)«'3[X2X2X1X2] + • • • (45)
+
+ Since y(l) = -1/2, y{2> = 1/12, and y (3' = 0, we recognize the first few terms
+ of the CBHD series. Besides this partial expansion, Pascal proves that X3 is a series
+ of terms as in (43). As we remarked, Poincaré did not manage to prove this result
+
+ explicitly. It was Campbell who stated a similar fact, but with a completely different
+ technique.
+
+ Finally, in Pascal (1901b, §2) Pascal gives the following proof of Lie's Second
+ Theorem. (As Engel pointed out, the convergence of the series for X3 is needed to
+ make the argument valid.) Let Z', . . . , Zr be infinitesimal transformations, and set
+ V := span{Zi , . . . , Zr }; he aims to find the necessary and sufficient conditions for
+ the above X3 to belong to V, whenever X', X2 do. Obviously, if [ Zh , Z^] e V for
+ every h, k , then X', X2 € V implies X3 g V, since the summands in X3 are all of
+ the form (43). Vice versa, if Xi, X2, X3 e V , then X3 - tX' - tX 2 e V for every
+
+ (small) t. By the expansion in (45) up to degree 2 in X' , X2 jointly, this gives
+
+ V 3YWt2 [Xi,X2] + ^o(î3).
+
+ If we divide by t2 and we let t -> 0, then we get [Xi , X2] G V. Since we can take any
+ Zh , Zk in place of Xi, X2, this gives [ Zh , Z&] G V , and Lie's Second Fundamental
+ Theorem follows.
+
+ The paper (Pascal 1902a) is completely devoted to some first and second degree
+ identities concerning the Bernoulli numbers. With a considerable amount of computa-
+ tions (showing his expertise in handling special functions), Pascal provides identities
+ involving the numbers and the products y^y^' These identities will be helpful
+
+ â Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:10:43 UTC
+All use subject to https://about.jstor.org/terms
+
+ 324 R. Achilles, A. Bonfiglioli
+
+ in his new concern: to prove Lie's Third Theorem with a direct approach, similar to
+ the one that he followed to prove the Second Theorem. At last, in the incipit of the
+ paper, Pascal cites Schur (1890a) (for the discovery of the roles of Bernoulli numbers
+
+ in the study of the infinitesimal transformations of the so-called parameter group) and
+ Campbell (1897a, 1898) for "certain formulas on the infinitesimal transformations,
+ derived with different methods." He seems not to attribute to Campbell any effective
+ discovery on the Exponential Theorem (this was the same attitude as Poincaré's and
+ Hausdorff's).
+
+ A certain reluctance in quoting other authors is manifestly shown in the way Pascal
+
+ mentions the contributions by Schur and by Poincaré to the Third Theorem: for exam-
+
+ ple, he simply says that Poincaré had "recently studied this problem," but no reference
+ of any work is provided. [It is evident that, even supposing that Pascal got to know
+ Poincaré's work only after the article (Pascal (1901b)), a comparison with (Poincaré
+ (1900)) was now obligatory.]
+
+ The study of Lie's Third Theorem is taken up in Pascal (1902b). This time the quo-
+ tation of previous works is more accurate: he mentions Schur's contributions (1890a;
+ 1890b; 1893) as "extended and important;" he also briefly quotes Poincaré's recent
+ studies (1899; 1900) as "starting from different points of view."
+
+ The paper is devoted to explicitly constructing the infinitesimal transformations of a
+
+ transformation group , provided constants Cijk are given, satisfying (10). He acknowl-
+ edges the similarity with Schur's papers, but he stresses that his own method "is based
+
+ to a large extent on some identities on Bernoulli numbers" as provided in the article
+ (Pascal 1902a), "without any notion of group theory other than the Second Funda-
+ mental Theorem." (We agree with Pascal in observing that, even if Schur's methods
+ could be considered direct as well, they require a more overt use of the theory of
+ transformation groups and ODEs.)
+
+ After two long sections of laborious computations of identities involving the con-
+
+ stants cijk and the proof of the Third Theorem is given as follows. Let u ' , . . . , ur
+ be coordinates on some neighborhood of 0. Consider the following vector field:
+
+ r j oo
+
+ h-' ^ t' n= 1 -
+
+ X ^ CtiksiCt2SiS2Ct3S2S3 ' ' ' Ct2nS2n-'h Ut' " ' ^t2n j ' (46)
+
+ Jl, 52,... '
+
+ the necessary identity
+
+ [Ui,Uj] = YJCijkUk (47)
+
+ r
+
+ k= 1
+
+ â Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:10:43 UTC
+All use subject to https://about.jstor.org/terms
+
+ Uk ■=^(Shk-YW^ctlkhuH +^y(2n)
+
+ where 8hk is Kronecker's symbol (the above is Eq. (16) in Pascal 1902b, p. 428). Then
+
+ Pascal proves (this time with a very accurate estimate) that the above power series con-
+ verges on some neighborhood of 0, so that U' , . . . , Ur are well defined. Furthermore,
+
+ The early proofs of the theorem of Campbell, Baker, Hausdorff, and Dynkin 325
+
+ holds true, so that (by Lie's Second Theorem) the infinitesimal transformations Uk
+
+ generate a group of transformations with structure constants Cijk. Identity (47) is
+ proved by means of the computations of the previous sections of the paper, together
+
+ with those in another (Pascal 1902a). We explicitly note the similarity with the results
+ obtained by Schur: see (12) and (13).
+
+ Pascal returns to the above argument in Pascal (1902c). Probably aware of the simi-
+
+ larity of his results if compared to Schur's, in Pascal (1902c) he seizes the opportunity
+
+ to show that the vector fields in (46) can be derived from his own previous purely
+ algebraic results. Accidentally, he also exhibits the fact that Schur's explicit formulas
+
+ can be derived by the Exponential Theorem, thus unveiling the precursory merits of
+ Schur's study for the later CBHD Theorem.
+
+ Indeed, the paper (Pascal 1902c) must be considered as the summa of Pascal's
+ works on the theory of transformation group (later collected in the monograph Pascal
+ 1903), because:
+
+ - he only uses his original algebraic identities in Pascal (1901a) (in neat difference
+
+ with Schur's methods);
+
+ - by means of these identities, he provides the explicit expression of suitable coeffi-
+ cients in the expansion (45), thus improving the results in Pascal (1901b) (as Haus-
+
+ dorff will later discover with different techniques, these crucial coefficients are those
+
+ appearing in Campbell's series (16), and Pascal gives the expression of precisely
+ these ones);
+
+ - he constructs, with a more natural method when compared to Pascal (1902b), the
+
+ infinitesimal transformations of the so-called parameter group (this time using some
+
+ group prerequisites).
+
+ The paper (Pascal 1902c) contains the most important of Pascal's contributions to the
+ CBHD Theorem, and (as we shall discuss below) many of his computations will return
+
+ as crucial tools in Baker and in Hausdorff (but without any acknowledgement of this
+
+ fact by these authors).
+
+ Therefore, let us briefly give an overview of the key results in Pascal (1902c). In
+ Sect. 1 Pascal corrects a mistake from his paper (1902b) (the same mistake occurred
+ also in Poincaré (1900); it will return again in Baker (1905)): If T, S are, respectively,
+ the finite transformations
+
+ then the composition S oT of S after T admits the correct expansion:
+
+ T: x' =e''xHx)
+ S: x"=etXi(x'),
+
+ etxloet'x2= y i.
+
+ « i!r!
+
+ r,.v>0 «
+
+ This shows that some care must be taken in passing from finite transformations of
+
+ exponential type to the symbolic exponential calculus.
+
+ â Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:10:43 UTC
+All use subject to https://about.jstor.org/terms
+
+ _ (AdX2)"-1([Xi, X2)) = ^y(n)t'nt (AdX2)n(X,). (49)
+
+ Let now Z', . . . , Zr be the infinitesimal transformations generating a transformation
+
+ group with r parameters. Let us set
+
+ He then shows that, in the expansion (45), all the summands containing tf with
+
+ degree 1 (and t with any degree > 1) are given by
+
+ 326 R. Achilles, A. Bonfiglioli
+
+ oo
+
+ n- 1
+
+ ^ yMt'tn (Ad Xi)"(X2), (48)
+
+ where the constants y ^ are as in (42). Analogously, the summands containing t with
+
+ degree 1 (and tf with any degree > 2) are given by
+
+ OO 00
+
+ n= 2 n= 2
+
+ X' = v'Z' + • • • + vrZr , X2 = u'Z' + • • • + urZr.
+
+ Then, by general transformation group theory, it is known that the composition eXl o
+
+ eXl is given by ex 3, where X3 is a linear combination of the Z' s, say
+
+ X3 = M I Z' -f- • • • -f- l^yZy.
+
+ The coefficients uft are functions of u and v (and of the structure constants), say
+
+ u'h=(ph(u,v), A = l,...,r. (50)
+
+ Again from transformation group theory, it is known that (50) defines a finite group
+
+ of transformations, called the parameter group.
+
+ Now, thanks to the formula for the product of two exponentials, one can find all of
+
+ the functions <ph. Pascal remarks that, if we know that (50) defines a transformation
+
+ group, it is sufficient to consider only the terms containing v with degree one (which
+
+ furnish, ipso facto, the infinitesimal transformations): these correspond to the sum-
+ mands in (45) with t having degree one. By formula (49) (plus a summand from (48))
+
+ we get29
+
+ â Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:10:43 UTC
+All use subject to https://about.jstor.org/terms
+
+ x3 = ^ viZi + y«,z, + y(i) vi Zj , y^ujZj
+
+ i i [_ i j
+
+ +Z'/(")(Ad ZM<z<) + ^(|v|2)'
+
+ 29 Once again, a discussion on the convergence of this series would be required, but Pascal omits it.
+
+ <Ph{u, v) = Uh + Vh + - ^Cjkh UjVk + ^ X Z Z
+
+ + 7 (2w) 2] Ct^ ' ' ' Ct2nS2n-'h Ut' * * * '
+
+ n=l ' h
+
+ which turns out to be exactly formula (46) of his previous work (Pascal 1902b) (and
+ the analogue of Schur's (12)). Finally, another group theoretic result guarantees that
+
+ the full expression of the finite transformation cp can be regained by exponentiation:
+
+ The early proofs of the theorem of Campbell, Baker, Hausdorff, and Dynkin 327
+
+ By Lie's Second Fundamental Theorem, it holds that [Z;, Zj' = ^ CijkZk, whence
+
+ k
+
+ (Ad X2) (X]) = ^ ^ ^ ' ct'ks'ct2S'S2 ' ' ' ctnsn-'h ut' ' ' ' utnvk Zh.
+
+ si,...,sn-i h,k
+
+ As a consequence we derive
+
+ I 00
+
+ jk n=' t' ,...,t2n ■si, - ,*2n-' k
+
+ xy(2n) chksi ■ ■ ■ ct2nS2n_lh ut2nvk + û('v'2).
+
+ Differentiating this with respect to the v's, Pascal derives at once
+
+ "> = Z 5^ = Z («« + ' Z.cm»i +
+
+ h= 1 /*=1 j
+
+ HVkUk ' 1 /xn V
+ <p(u, v) = ek (u) = u + ys j vkUk J (u) + - y} vkUk J (m) H
+
+ In view of the above explicit formula for the infinitesimal transformations £/*, this
+
+ identity contains a very "quantitative" version of the Third Fundamental Theorem,
+ in that it shows that an explicit transformation group can be constructed by the use
+
+ of the Bernoulli numbers y ^ and by a set of constants cijk satisfying the structure
+ relations (10). This fact was not new at the time, in view of Schur's former studies,
+
+ but the way it is derived is indeed new: this is done by the use of Pascal's version of
+ the Exponential Theorem.
+
+ Pascal's contribution to the development of the CBHD Theorem is paramount: in
+
+ modern parlance, we can say that he has shown for the first time how to construct an
+
+ explicit (transformation) group by using the CBHD series
+
+ X o Y = X + Y + i [X, Y] + [X, [X, Y]] - ± [Y, [X, /]] + •••
+
+ associated to X and Y , or, more precisely, by using the subseries extracted from X o Y
+
+ of the summands of degree one in one of the indeterminates X or Y . Analogous results
+ will be re-obtained by Baker and, mostly, by Hausdorff, and will reappear in more
+ modern proofs of the CBHD Theorem; see Reutenauer (1993, Sect. 3.4).
+
+ Ô Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:10:43 UTC
+All use subject to https://about.jstor.org/terms
+
+ 328 R. Achilles, A. Bonfiglioli
+
+ 7 Baker's contribution
+
+ Preceded by a series of papers (Baker 1901, 1902, 1903) mostly concerned with expo-
+
+ nential-type theorems in the context of transformation groups and groups of matrices,
+
+ Baker30 devoted an important paper (1905) to the Exponential Theorem for abstract
+ non-commutative indeterminates.
+
+ His words speak very clearly: "It is an obvious suggestion of Lie's theory of groups
+
+ that the product eAeB is of the form ec , where C is a series of alternants (i.e., brackets)
+ of A and /?." His aim is to prove this fact by a method "of the kind usually called
+ symbolical," in order to provide "a contribution to the calculus of alternants of any
+ non-commutative quantities."
+
+ As a connection, he cites Campbell's proof in Campbell (1898, 1903) as "an ele-
+
+ mentary proof" of the symbolic theorem, though he considers this proof as not fi-
+ nal. Later, he provides an application of his Exponential Theorem to Lie's Second
+ Theorem, Baker (1905, p. 44) saying that an analogous approach was "in view" in
+ Campbell's paper (1898). Nothing is said about Campbell's technique and no men-
+ tion at all is made of Poincaré's related results nor of Pascal's. Schur is luckier; he is
+
+ acknowledged for his study of the parameter group and (see Baker 1905, p. 26) for
+ his explicit formulas exhibiting a transformation group with given structure constants.
+ Baker states that by means of his own Exponential Theorem, he can recover Schur's
+
+ explicit group. Actually, this fact was already pointed out and proved in detail by
+
+ Pascal (but Baker gives no reference of this fact, probably being unaware of that paper
+ Pascal 1902c).
+
+ Baker's words celebrate the Exponential Theorem (incidentally, he is seemingly
+ the first one to use this expression; see the title of his paper (1901) and that of §3 in
+
+ his paper (1905)) as a universal tool in giving "the parameter group of every possible
+ continuous group." As a matter of fact, he was preceded in this intuition by all his
+ predecessors: Schur (implicitly), Poincaré, Pascal, and Campbell.
+
+ The first palpable novelty of Baker's approach is to allow consideration of symbol-
+
+ ical expressions of the form:
+
+ (eAeB - 1) - i ( eAeB - l)2 + 1 ( eAeB - l)3 - • • • (51)
+
+ This is the first time that a genuine logarithm , namely 'og(eAeB - 1), makes its explicit
+ appearance in the proof of the Exponential Theorem. This is possible because Baker
+ considers A and B as pure "non-commutative quantities," as he defines them. In the
+
+ second page of his paper, we also find the explicit expansion of the above series up to
+ the fourth order31 :
+
+ 30 Henry Frederick Baker; Cambridge (England), 1866-1956.
+
+ We henceforth denote Baker's alternants (A, B) with the usual [A, B]; also, although Baker never used
+
+ this notation, we also allow ourselves to use adjoint maps like Ad A, Ad B, . . . with the usual meaning.
+
+ Ô Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:10:43 UTC
+All use subject to https://about.jstor.org/terms
+
+ The early proofs of the theorem of Campbell, Baker, Hausdorff, and Dynkin 329
+
+ A + B+l-[A,B] + ^[A- B, [A, B]] - ± [A, [B, [A, B]]]. (52)
+
+ Then, Sect. 1 is devoted to introducing a certain formalism concerned with bracketing.
+
+ At a first reading this formalism looks puzzling and mystifying.32 Baker intends it to
+
+ simplify computations with brackets, in that it comprises many identities resulting
+
+ from skew-symmetry and Jacobi identities. Let us take a look at this formalism, which
+
+ Baker describes rather than rigorously defines.
+
+ If capitals A, B, C, . . . denote elements of some associative but non-commuta-
+ tive algebra,33 Baker associates to each of them a lower-case a,b,c, ... The pairing
+ A o a is injective and linearly extended, and a is called the base of A , whereas
+ A is called the derivative of a. He uses the notation e to mean the map defined
+
+ by
+
+ ea := A, where a is the base of A.
+
+ He then proposes to define the base of any element in the Lie algebra generated by cap-
+ itals. He begins with nested brackets (called "simple alternants"): the base of [A, B ]
+
+ is denoted by Ab , whence skew-symmetry imposes the identities
+
+ Ab + Ba = 0, Aa = 0. (53)
+
+ Moreover, if d = Be is the base of [ B , C], the base of [A, [ B , C]] has to be Ad, also
+
+ denoted by A Be. Accordingly,
+
+ A' A2 . . . Anb denotes the base of [A', [A2 • • • [A„, B] • • • ]].
+
+ This notation is not ambiguous because of the associativity of composing adjoint maps,
+
+ which Baker summarizes by saying that in the product A 1 A2 . . . Anb "the symbols are
+ associative." The next task is to define the base of a non-simple bracket (called "com-
+
+ pound alternant"), for example of D := [[A, B], C]. Since, by skew-symmetry, this
+ equals - [C, [A, 5]], we expect d to be -CAb. But the Jacobi identity also imposes
+ that D = [A, [ B , C]] + [ B , [C, A]], so that we must also have d = ABc + BCa. This
+
+ provides the identity, which substitutes for Jacobi 's,
+
+ ABc + BCa + CAb = 0. (54)
+
+ 32 In reviewing Baker (1905), Engel says that this formalism has the effect of making "a little heavier the
+
+ understanding" of the contents; then, with harder words, Engel says that Baker's use of bases and derivatives
+ is definitely a ziemlich überflüssige Einführung, a quite superfluous introduction.
+
+ 33 Apparently, Baker fixes some letters defining what we would call an algebra of words, which is associa-
+ tive but not commutative. He never clarifies which is the basis of this algebra, so that his further constructions
+
+ may be in contrast with possible linear dependence relations.
+
+ â Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:10:43 UTC
+All use subject to https://about.jstor.org/terms
+
+ 330 R. Achilles, A. Bonfiglioli
+
+ Baker goes on with other delicate identities concerning bases and derivatives, proving
+
+ that his symbols obey some natural associative and distributive laws.34 As he declares,
+
+ the use of bases and derivatives "furnishes a compendious way of expressing the rela-
+
+ tions among alternants." In fact, as (53)-(54) show, Baker's symbolic technicalities
+ summarize the basic relations existing in a Lie algebra and furnish new ones: for
+ example, from (53) with A = [ B , C], one gets [ B , C]Bc = 0; the associative and dis-
+ tributive laws then give BCBc - CB2c = 0; finally, by applying the map 6, we derive
+
+ [£, [C, [ B , C]]] - [C, [Ä, [ B , C]]] = 0.
+
+ Furthermore, Baker also allows the basic laws of algebra to continue to hold for
+
+ formal power series constructed with his symbols. For example, the derivative of
+
+ c = (Zi^oÀ<- A') b is
+
+ C = ^À,(AdA)'(B),
+
+ 00
+
+ *=0
+
+ 00
+
+ i=0
+
+ C = 2>,(AdA)''(ß).
+
+ and if Ào #0 and XSo ^ *s ^ f°rmal power series reciprocal to the series
+
+ xi > then b = (Z£o M/ A1) c so that
+
+ A more delicate topic is the so-called "substitutional operation" treated in Sect. 2.
+
+ This same operation will return in Hausdorff 's paper with no mention of Baker's prior
+
+ study (of which Hausdorff was probably unaware). Let us summarize it.
+
+ Given bases A, B with derivatives a , b , the symbol b ^ defines the operation
+
+ replacing a and A by b and B (respectively) one at a time. For example
+
+ (b ^ A2Ca = BACa + ABCa + A2Cb.
+
+ In practice, Baker is defining a sort of mixed algebra-derivation , operating both on
+ bases and derivatives.35 As a first main result on substitutions, he takes any B =
+
+ (2/2:0 A1 ) C, and he considers the formal power series in the real number t given by
+
+ 34 For example, he provides a "distributive law": Let A = [A i , • • • [An_i , An] • • • ] be expanded in the
+ form, A = J) ±K' ...Kn (where the K' s are permutations of the A 's). Then he proves that
+
+ [A, B] = [£ ±Ki . . . Kn, ß] = £ ±[K I , [K2 ■ ■ ■ IK„, B] ■ ■ ■ ]],
+
+ so that (X ± ATi . . . K„) b = X ±(K , . . . K„b).
+
+ 35 Since it is never made clear which capitals are generators of the whole algebra of capital letters, the
+ well-posedness of this derivation is not so obvious.
+
+ ^ Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:10:43 UTC
+All use subject to https://about.jstor.org/terms
+
+ G<*> = S tl m ( / b T r) V ) G<°)' with G(0) = Z V-i <56)
+
+ The early proofs of the theorem of Campbell, Baker, Hausdorff, and Dynkin 33 1
+
+ i=0 x /
+
+ Then, it is easily seen that one has
+
+ dim=H)F"y <55)
+
+ Now let us also put, when F is as above,
+
+ Then, by means of (55), it is not difficult to see that (setting 8 := b ^ for brevity)
+
+ G(t) :=^/xyF(07'.
+
+ oo
+
+ 7=0
+
+ d m c
+ - (0) = (rG)(0) = r(G(0)).
+
+ As a consequence, by expanding G in powers of t we get (see Baker 1905, p. 33)
+
+ 00 tl / r) V °°
+ toli m V T da) M>
+
+ i.e., more compactly,
+
+ where b is any base of the form b = (X^o ) c- Identity (57) can be interpreted, in
+
+ modern parlance, as follows: Since 8 = b ^ is a derivation , exp(J<5) := X/>o •
+ is an algebra morphism, and (57) follows by " continuity . "
+
+ Another very interesting identity is the following one (see Baker 1905, p. 34):
+
+ ( = , (58)
+
+ where 0(A) = vi and
+
+ 00
+
+ i-j
+
+ <P^HA) = ^Vi i(i - 1) • • • (' - j + 1) A'~j, j > 1.
+
+ â Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:10:43 UTC
+All use subject to https://about.jstor.org/terms
+
+ 332 R. Achilles, A. Bonfiglioli
+
+ We explicitly remark that Baker proves it when b = Ac, and then he asserts (without
+
+ proof) that the same holds true for any arbitrary b.
+
+ With these lemmas at hand, Baker (1905, §3) proves his "Exponential Theorem."
+
+ The proof is the following one. Let us apply (58) when 0 (A) = eA = XSo ^ 1 / 1 ••
+ this case, (/>V'A ) = eA for every j > 0 so that (58) gives
+
+ (b^jeA = f (Ad A)(B)eA, (59)
+
+ where / denotes the formal power series f(z ) := 2T/ii /jl = (ez - l)/z. This
+ is the very notable identity (analogous to the formula for the differential of the expo-
+ nential) given by
+
+ With this same /, Baker now makes the choice
+
+ Gathering (59) and (61), we infer ( b eA = A! eA , and inductively
+
+ (b ^ eA = (A')1 eA, V i > 0. (62)
+
+ *")'-( 7wh m
+
+ where a! is any base and the tuj are the Bernoulli numbers, according to Baker's nota-
+ tion.36 This implies a ' = f(A)b so that, by passing to the corresponding derivatives
+ (recall that the derivative of A^b is (Ad Ay (B) by the very notation for the bases),
+
+ A' = / (Ad A)(B). (61)
+
+ Next Baker puts
+
+ a" := ^ -Î- a and A!' ea" . (63)
+
+ Ui- V 9«/
+
+ 36 Baker's definition of the Bernoulli numbers is the following one:
+
+ _L- = 1 -Z- + Y
+ eZ-i 2 yt;(y)!
+
+ This agrees with our compact notation, so that ujj = By for every j.
+
+ â Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:10:43 UTC
+All use subject to https://about.jstor.org/terms
+
+ The early proofs of the theorem of Campbell, Baker, Hausdorff, and Dynkin 333
+
+ Since Baker formerly proved that 6 commutes with any power of b ^ (see Baker
+ 1905, p. 32), we derive from (63)
+
+ <64»
+
+ If we now apply (57) with t - 1 and il j = '/j ' (together with the latter representation
+ of A"), then we immediately get
+
+ eA" = ^ ^ (b eA eA eA, whence eA" = eA eA. (65)
+
+ i=0l- ' a)
+
+ Thus, the Exponential Theorem is proved once A " in (64) is known to be a Lie series
+
+ in A, A! . But this is true since A!' is the derivative of an infinite sum of bases, namely
+
+ a" , and the relation "base <+ derivative" has been defined only between Lie elements.
+ Gathering together (60), (64), and (65), Baker has proved the following remarkable
+ formula
+
+ 00 i / o ' i
+
+ eA eA = eA', where A " - - ( ' B - a/ J A,
+
+ i=0l- ' a/
+
+ 1 °° m
+ with B = A' - - 2 1 [ A , A'] + V - JL m (Ad Afj (A') ,
+ 2 , jz Ï
+
+ and where the m 3 ' are defined by J
+
+ 3 ' J ez- I 2 ~(2j)' /
+
+ OO ^
+
+ In confirmation of the computational power of his calculus on bases/derivatives, Baker
+
+ obtains (in a few lines) his fourth-order expansion (52), starting from the representa-
+ tion of a" in (63). [Later, but with more elaborate calculations, he will also compute
+
+ the sixth-order expansion; see Baker (1905, p. 42).] Finally, the last two sections of
+ the paper are devoted to an application of the Exponential Theorem to transformation
+ groups, and in particular to a proof of the Second Fundamental Theorem. Actually,
+ Baker does not add too much to what Pascal (and Campbell) had already proved,
+ nor does he consider in any case the problem of the convergence of the series he
+ obtained.
+
+ Though it is full of suggestions for the later history of the CBHD Theorem (indeed
+
+ Reutenauer 1993 has provided a proof of this theorem which fully formalizes Baker's
+
+ computations), in reading Baker's proof one inevitably has the feeling that the really
+ important ideas are lost somewhere in the tricky formalism. Hausdorff's argument,
+ which we now turn to analyze, will fill all the gaps.
+
+ Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:10:43 UTC
+All use subject to https://about.jstor.org/terms
+
+ 334 R. Achilles, A. Bonfiglioli
+
+ 8 Hausdorff's contribution
+
+ Hausdorff37 devoted a single paper (Hausdorff 1906) to what he defined, in the title
+
+ of the paper, "the symbolic Exponential Formula in group theory." Despite the men-
+ tion of the theory of transformation groups, his point of view is made clear from
+
+ the incipit of the paper: "a considerable part of the group theory is completely inde-
+
+ pendent of the actual meaning of the symbols involved" [those of the infinitesimal
+ transformations]. For instance, not even the Jacobi identity depends on the fact that
+
+ one is dealing with infinitesimal transformations, but only on the form of the bracket
+
+ [ X , Y ] = XY - Y X 38 Therefore, he proposes to study the function z = z(x, y) defined
+
+ by the formal identity exey = ez, a problem of "symbolic analysis," as he defines it.
+
+ In the foreword of his paper, Hausdorff provides a brief review of the work of his
+
+ predecessors. We already mentioned his point of view on Schur, Poincaré, and Pascal.
+ Let us examine what he says about Campbell and Baker. Campbell is acknowledged
+
+ as the first who "attempted" to give a proof of the Second Theorem of Lie with the
+
+ aid of a symbolic Exponential Theorem, providing the summands of degree one with
+
+ respect to y in the expansion of z(x, y) (in Hausdorff's subsequent notation, x ( y , x)).
+
+ Hausdorff's opinion is that Campbell's prolongation of the expansion of the whole z
+ (besides the summands in x(y, x)) "is based on a passage to the limit not completely
+ clear nor simple."
+
+ Even if more than one year elapsed between the two papers,39 Hausdorff does not
+
+ mention Baker's paper (1905), and the only reference is to Baker's paper (1901) as
+ containing "some stimulating ideas on the use of matrices in group theory." There is
+
+ evidence that Hausdorff actually did not know Baker's 1905 paper at the time he pub-
+
+ lished his 1 906 manuscript.40 We will point out every intersection of the two papers
+ in due course.
+
+ 37 Felix Hausdorff; Breslau (Prussia; now Wroclaw, Poland) 1868 - Bonn (Germany), 1942.
+
+ 38 Hausdorff used the notation ( X , Y) = XY - YX for alternants; consistent with the rest of the paper, we
+ use the usual notation [ X , Y].
+
+ 39 Baker's front page contains the dates "Received January 8, 1905 - Read January 12, 1905," whereas
+ Hausdorff's last page contains the wording "ready for printing February 25, 1906" (literally: Druckfertig
+ erklärt 25.11. 1906.).
+
+ 40 In reviewing Baker's paper (1905), Engel says that "Baker's work, which had escaped Hausdorff, con-
+ tains a very essential part" [literally, einen sehr wesentlichen Teil ] "of the results found by Hausdorff."
+ According to Scharlau (. Kommentar , in Hausdorff 2001, p. 464), it was Engel who informed Hausdorff of
+ Baker's paper. In a letter dated March 9, 1907, Hausdorff wrote back to him: "Following your creditable
+ advice, I have promptly looked at the work by H.F. Baker and sadly noticed that its content really overlaps
+ my work in large part. Evidently the problem has been hanging in the air, since in the last years it has
+ been picked up and solved, with more or less skillfulness, by Campbell, Pascal, Poincaré, Baker; but it is
+ especially Baker's last work - the only one that remained quite unknown to me - that has the most contact
+ with mine. By the way, if I had known it then, I would have published my work nonetheless, albeit with
+ somewhat muted joy, for if compared to all the others, including Baker, it was me who had found the sim-
+ plest and most transparent proof." [Engel Legacy, Mathematical Institute of Giessen University.] Scharlau
+
+ furthermore notes that, when Hausdorff was writing to Engel, he had already finished the investigation of
+
+ the Exponential Formula, for Hausdorff finishes the letter with the words: "Recently, I have been studying
+ set theory only, [...]."
+
+ ^ Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:10:43 UTC
+All use subject to https://about.jstor.org/terms
+
+ The early proofs of the theorem of Campbell, Baker, Hausdorff, and Dynkin 335
+
+ Sections 1 and 2 of Hausdorff (1906) are devoted to describing the necessary alge-
+
+ braic structures and the main operation involved u-^, the same as Baker used. If we
+
+ use modern parlance, Hausdorff in fact introduces the following structures41 :
+
+ Lo this is the associative algebra (over R or C) of the polynomials P in a finite set of
+
+ non-commuting symbols je, y, z, w, . . .; the "dimension" of P is the least of the
+ degrees of its monomials.
+
+ L this is the associative algebra of the formal power series associated to Lo; any infi-
+
+ nite sum is allowed, provided it involves summands with different (hence increas-
+ ing) dimensions.
+
+ Ko this is the Lie subalgebra of Lo of Lie polynomials in the basis symbols x9 y ,
+
+ z,u, ...
+
+ K this is the Lie subalgebra of L of Lie series associated to Ko.
+
+ Then Hausdorff considers the important operation on L acting as follows: if F g L is
+
+ momentarily thought of as a function of the basis symbol x , and m is a new symbol,
+ we have the "Taylor expansion":
+
+ F(x + u) = F(x) + F(x) + ^ F(x)+
+
+ (67)
+
+ where (u F (x) is the sum of the summands of F (x + u) containing u precisely
+ n times, or equivalently it denotes the action on F(x) of the n- fold composition of the
+
+ operator u ^ with itself, where u ^ is the derivation of L mapping x to u and leaving
+ all the other basis symbols unchanged. Even if Baker never wrote down Hausdorff 's
+
+ distinguished expansion (67), the operator u ^ is precisely Baker's "substitutional
+ operation" introduced (within the study of the symbolic Exponential Theorem) one
+ year before (see §2 of Baker 1905, p. 31).
+
+ For example, if F = Fq + F* + F£ H
+
+ one has
+
+ foe) F(x) = F' 2 F% + • • • + n F* + • • • . (68)
+
+ An expansion as in (67) holds true even if u is any element of L, provided that the
+ actual value of u (possibly depending on jc) is substituted in the right-hand side of (67)
+
+ after the symbolic operations (u are carried out. From (67) and the commutativity
+ of u and v one also obtains
+
+ F(x + u, y + v) = F(x, y) + V" - j [u - 0 + v - £ ) F(x,y). (69)
+
+ oo j / 0 £ 'n
+
+ n' ' dx dy J
+
+ n= 1
+
+ 41 Lacking of a notion of associative or Lie algebra, any of his structure is generically defined as "Körper."
+
+ Ô Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:10:43 UTC
+All use subject to https://about.jstor.org/terms
+
+ In order to preserve many of Hausdorff 's elegant formulas, we shall use the following
+
+ notation for left-nested iterated brackets:
+
+ 336 R. Achilles, A. Bonfiglioli
+
+ [xy] = [x,y], [xyz] = [[x,y],z], [xyzu] = [[[x,y], z],u], ... (70)
+
+ It is then proved in detail that left-nested brackets of basis elements span all Ko,
+ whereas series of such brackets span K. Also, if F (jc) is a Lie series in jc, y, z, . . .,
+
+ then ( u F(x ) is a Lie series in u , jc, y, z, . . . (in modern parlance, an algebra der-
+ ivation is also a Lie algebra derivation).
+
+ With only these few prerequisites, Sect. 3 is devoted to the proof of Hausdorff's
+
+ main result (Hausdorff 1906, Proposition B, p. 29), which is the announced symbolic
+ Exponential Theorem: The function z of x, y defined by exey = ez can be represented
+
+ as an infinite series whose summands are obtained from x and y by bracket operations,
+
+ times a numerical factor. Let us analyze Hausdorff's argument and compare it with
+ the proofs of his predecessors.
+
+ We are allowed to say that z = z(x, y) is a function of jc, y for in the algebra L the
+
+ logarithm makes sense (see also Baker's (51)), so that
+
+ z = t - ' t2 ~ '
+
+ We aim to prove that the above z actually belongs to K, not only to L.
+
+ Since ( u ex = X«Li h. 2^=o xluxn~l~l, the substitution u = [ w , jc] gener-
+
+ ates a telescopic sum, so that
+
+ jc] ex = wex - exw. (71)
+
+ [wxn] = ^(-')i(,;)xiwxn-i, (72)
+
+ e~xwex = y - [wxn], (73)
+
+ n
+
+ 1=0
+
+ oo l
+
+ n nl
+
+ n-0 n
+
+ where (73) follows easily from (72), by a computation similar to Campbell's (17). As
+ a consequence, we obtain
+
+ (r) [ u) , x] - d x) ' J ex ex(e~xwex - w) ex ^ OO
+ (r) [ u) , x] - J ex ex(e~xwex - w) ex ^ - [wxn].
+ d x) *-^n' n- 1
+
+ â Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:10:43 UTC
+All use subject to https://about.jstor.org/terms
+
+ Furthermore Hausdorff provides two other well-known formulas of non-commutative
+ algebra42 (see also the notation in (70)):
+
+ 42 The formulas (72) and (73) also appear in Campbell (1897a, pp. 387, 386) and in Baker (1905, pp. 34,
+ 38).
+
+ We explicitly remark that identity (75) was already discovered by Baker (see (59)).
+ Note that the above identities also hold true when u = x, for cp(x, x) = 'jr(x, x) = x
+
+ The early proofs of the theorem of Campbell, Baker, Hausdorff, and Dynkin 337
+
+ An analogous formula (together with the inner factor (- 1 )n~ 1 ) with ex as a right factor
+
+ holds true. This gives the following results:
+
+ Ifu is of the form [ w , x ]for some w e L, we have
+
+ (u ex = ex (p(u, x) where <p(u, x) = ^ - [uxn~l], (74)
+
+ 00 I
+
+ n= 1
+
+ 00
+
+ (u ex = x/r(u, x) ex where t/t(w, x) = ^
+ n= 1
+
+ and, by (68), (x£)ex =
+
+ If we introduce the functions
+
+ 1 -e~z 1
+
+ h(z) =
+
+ z , h(z )
+
+ then (p and can be rewritten as
+
+ (p(u, x) = h(Adx)(u), 'fr(u, x) = h(-Adx)(u). (76)
+
+ Furthermore, from (76), we get the inversion formulas:
+
+ p = <p(u,x ) & u = x(p,x),
+
+ q = i/r(w, x) u=a)(q,x ),
+
+ where
+
+ i /
+
+ X(p,x) := p - - 1 [px] + ]T -
+
+ 1 n= 1 n K x, '■
+
+ and we see how the Bernoulli numbers step in.43 Note that
+
+ X(/?, x) = g(Adx)(/?), co(q, x) = g(-Adx)(q).
+
+ 43 Indeed we have
+
+ /a z i ■ z . X"1 ^ 2 n
+ g(z) /a = r^ z = 1+2+^ i ■ z . n=l X"1 (2n)! Z 2 n '
+
+ n=l
+
+ where, according to Hausdorff 's notation, the following definition of Bernoulli numbers Bn holds: =
+
+ 1 - § + ^n)! ^ z2n- with °ur notation' is Bn = (-On_1B2w.
+
+ â Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:10:43 UTC
+All use subject to https://about.jstor.org/terms
+
+ 338 R. Achilles, A. Bonfiglioli
+
+ Now, identities (74) and (75) and the expansion (67) give the following important
+ formulas (observe that <p(-, x) and i/r(-, x) are linear)
+
+ For example, thanks to the inversion formulas (77), the choices
+
+ ex+au = a (p(u , x) + ^(a2)), (79)
+ x) + û(a2)) ex , (80)
+
+ holding true for every m of the form [wx] (the choice w = 1 is also allowed) and every
+ scalar a 44 We point out that a proof of (79) (with no hypothesis on u) is contained
+ in Poincaré (1900, pp. 244, 245) (see indeed the computation in (40)), but Hausdorff
+ does not mention it, though he knew Poincaré's paper very well.
+
+ At this point, Hausdorff's argument becomes less than completely transparent: he
+
+ states that it is possible to leave z unchanged in exey = ez by adding au to x and by
+ accordingly adding to y a certain quantity - av + & (a2), so that identity
+
+ ex+au ey-av+û(a2) _ ez
+
+ also holds true, with z unaltered. We prefer to modify Hausdorff's non-obvious argu-
+
+ ment in the following way (similar to what is done in Yosida's paper (1937)): let w, v
+
+ be any pair of elements of L satisfying
+
+ <p(u,x) = 1r(v,y), (81)
+
+ and let z(a) be defined by
+
+ £*(«) :z=ex+auey-av^ aeR
+
+ (u = x, v - œ (x, >')) or (v = y, u = x(y,*)) (82)
+
+ do satisfy (81). Suppose further that u and v are series of summands of type [wx], so
+
+ that (79) and (80) apply.45 (Note that the m's and v's in (82) are of this form.) We thus
+ have the following computation:
+
+ ez(a) = gx ^ + a + _ a^(v> y) + 0(a2)) ey
+
+ - ex ^1 + a(<p(u, x) - 'jr{v, y)) + ^(a2)) ey
+
+ (= ex(l + û(a2))ey = exey(l + &(a2)).
+
+ 44 Hausdorff never again mentions the restriction on u to be of the form u = [wx]. Ipso facto, he will
+ apply (79) and (80) when u is a series of summands of such form, so that this lack of mention is easily
+ understood. However, it is a singular analogy that a similar fact occurred in Baker (1905, p. 34), who proved
+ an analogue of (75) with a restrictive hypothesis similar to Hausdorff's u = [wx], and then Baker stated,
+ without proof, that this restriction could be removed.
+
+ 45 Hausdorff fails to mention this hypothesis: this leads us to suppose that he retains (79) and (80) proved
+ with no restriction on u.
+
+ â Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:10:43 UTC
+All use subject to https://about.jstor.org/terms
+
+ The early proofs of the theorem of Campbell, Baker, Hausdorff, and Dynkin 339
+
+ From the above expansion, it is easily derived that z(0) = 0. On the other hand, by
+ applying the expansion (69) to F(x , y) := 'og(exey ), we get
+
+ z(a) = F(x + a w, y - a v) = z(x, y)+a'u-
+
+ /a a ' Ä 2
+ ' dx dy )
+
+ Hence i:(0) = 0 ensures that, for any m, v satisfying (81), z(x, y) = exey satisfies the
+ following PDE (see Eq. (19) of Hausdorff 1906, p. 28):
+
+ ("è)z=("i^)z (s3)
+
+ We are thus allowed to make, for instance, the choices in (82) which, respectively,
+
+ give
+
+ (* à) z = y) è) (84)
+ {y^)z = (x(y,x)^)z, (85)
+
+ and each of these choices suffices to determine z. Indeed, by writing z = Zq + z* H
+ (where the summands in z have been ordered with the increasing powers of x) and by
+
+ using (68), Hausdorff derives from (84) the following remarkable formula (see Eqs.
+ (22) and (23) of Hausdorff 1906, p. 29):
+
+ zxn = ^ y) y, n > 0. (86)
+
+ Here we have used the fact that the application of the operator co (x , y) ^ increments
+ the degree in x by one unit. Analogously, from (85) one gets
+
+ Z" = ni *' n~°' ^
+
+ Since jc, y and co(x , y ), x(j, x) are all Lie series (see (78)), this proves that any of
+
+ zxn, Zn is a Lie polynomial, and the Exponential Theorem is proved.
+
+ From (86) and the definition of w(x, y), it follows that Hausdorff has proved the
+
+ following result (note that [x y 2n] = (Ad y)2n(x))'
+
+ with co(x, y) = x + ' Z [x, y] + y/ ^ B" (Ady)2n(x), (88)
+
+ Z «= i (Zn)'
+
+ exey - ez, where z = y - 1 I co(x, y) - ) y,
+
+ 00 1 / 0 'n
+ ~«!V By)
+
+ and where the Bn are defined by 3
+
+ z z °° (- l)n_1 Bn n
+
+ 3 ez-l 2 ^ (2n)' ^ xl
+
+ n= 1
+
+ Ô Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:10:43 UTC
+All use subject to https://about.jstor.org/terms
+
+ 340 R. Achilles, A. Bonfiglioli
+
+ We explicitly remark that this is exactly Baker's formula (66), proved one year earlier.
+
+ Despite the fact that Hausdorff was anticipated by Baker, his argument, free from
+
+ the intricate formalism in Baker (1905), can easily be considered as the first totally
+ transparent proof of the Exponential Theorem; furthermore, it has the merit of unit-
+ ing contributions from his predecessors (some algebraic computations from Pascal
+ and Campbell; Poincaré's technique of deriving ODEs for z(a); the use of Baker's
+ substitutional operator) in a most effective way.
+
+ In order to show the computational effectiveness of his recursion formulas (86) and
+
+ (87), Hausdorff provides, with a single page of computations, the expansion of z up
+ to order 5 (see the left-nested notation (70)):
+
+ z = x + y + - [xy] + - [xyy] + - [yxx] + - [yxxy]
+
+ 1111
+
+ "755 l'yyyy] - Sö l"""1 + 555 [xyyyx] + m [y'"n
+
+ ~l'yyy1--^lyxyx] + -
+
+ Furthermore, Hausdorff provides a new recursion formula, allowing one to obtain
+ the homogeneous summands of z, ordered with respect to the joint degree in x, y.
+ His argument is based on his previous techniques: this time, let z(ot) be defined by
+ ez( a) _ ex+axey ^ so z ._ _ ex ey gy Taylor expansion (67), one has
+ z(a) = z + öl (x z + Oia1). Hence, by (80),
+
+ ez(a) = + û(a2)j ez .
+
+ On the other hand, again by (80) applied to ex+ax, we infer
+
+ ez(ot ) = ex+axey = _|_a '/r(x,x) + 0(a2)^ exey = (l+ax + ez.
+
+ By comparing the above two expansions of ez , we derive x = x/s (jc ^ z, z) , so that,
+ by the inversion formula (77) for t/t, we get
+
+ Ix) z = (0^X, ^
+
+ A dual argument for exey+ay yields another "PDE"
+
+ (y-^>)z = x(y,z)- (90)
+
+ Ô Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:10:43 UTC
+All use subject to https://about.jstor.org/terms
+
+ The early proofs of the theorem of Campbell, Baker, Hausdorff, and Dynkin 341
+
+ Gathering together (89) and (90), we obtain
+
+ (* h) Z + ^y) Z = (°^X' Z ^ + X^'
+
+ 00 00
+
+ n=l n- 1
+
+ = x + y - ^[x + y, z] + ^ ( I 'nyB>l (Adz)2"(x + y)
+
+ n= 1
+
+ = [x,z] + x(x + y>z)-
+
+ This gives the remarkable formula (see Eq. (29) of Hausdorff 1906, p. 31):
+
+ (* £*) Z + Z = ^ + X(X + y' Z ^ ^
+
+ Inserting into (91) the expansion z = z',y + z^y + • • -, where z?ny has joint degree
+ n in x, y, we obtain a recursion formula for the summands Zny which exhibits in
+
+ a very limpid form their Lie-polynomial nature. This formula will return in modern
+ proofs of the Campbell-Baker-Hausdorff Theorem: (see Djokovic 1975; Varadarajan
+ 1984) and, as shown in Varadarajan (1984), it can be profitably used for convergence
+ matters.
+
+ From Sect. 4 onward, Hausdorff turns his attention to the applications of the sym-
+
+ bolic Exponential Theorem to groups of transformations. Since he blamed his prede-
+
+ cessors (in particular Pascal, who indeed got very close to proving a symbolic theorem)
+ for omitting convergence matters, Hausdorff's main concern is to prove the conver-
+ gence of at least one of his three series-expansions of z(x, y), for x and y near the
+
+ origin.
+
+ To this end, let t' , . . . , tr be a basis of a finite dimensional set of infinitesimal
+
+ transformations,46 with structure constants given by [ tp , ta] = XI=i cpoxt'- Let x =
+
+ Hp%PtP>y = Hp Vptp and suppose that the series z(x,y)= z" defined (87)
+
+ converges to z = Xp It: must remarked that, in its turn, any zyn (with n > 1) is
+ given by a series, convergence of which must be proved first. Hausdorff begins with
+ the study of z' = x(y> *)• Suppose this converges to u = &ptp. By definition
+ of u - x(y, x) and by inversion y = cp(u , x) (recalling (77)), we see that u depends
+ linearly on y and so y depends linearly on u. Passing to the associated coordinates
+
+ with respect to the basis {t' , . . . , tr], we infer the existence of two matrices:
+
+ A(f) = («pa«)), V(|) = A(Ç)-1 = (W(§))>
+
+ 46 As can be seen, Hausdorff's argument works very well for any finite dimensional Lie algebra.
+
+ Ô Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:10:43 UTC
+All use subject to https://about.jstor.org/terms
+
+ 342 R. Achilles, A. Bonfiglioli
+
+ such that ûa = Xp <*po(H) Vp and rjp = so that the identity u =
+ X(y>x) gives us the compact relation:
+
+ Hausdorff recognizes that this series had already been written by Schur (1890a,b), but
+
+ he adds that it can be "elegantly rewritten" as follows (see Eq. ( 1 1 ) of Hausdorff 1 906,
+ p. 34):
+
+ This allows Hausdorff to obtain an explicit series for the functions otpo(%) and, con-
+
+ sequently, for the functions ûp. To this end, let us introduce the structure matrix
+
+ ^Upo&tcj = P = lj
+
+ E(§) := (|p<r), where |pCT := ^cpxah-
+
+ r
+
+ k='
+
+ (This is nothing but the transpose matrix of the matrix representing the right-adjoint
+
+ map Y i-> [ Y , ^ x §aAL) By means of the matrix 3, we can write down explicitly the
+
+ left-nested brackets [tpxn]. This allows us to recognize that (92) is equivalent to
+
+ WpoiH) = $ pa ~ £ £ pa + ^ ^ ÇpX^Xcj ~ ^ 'HpX^Xß^ßvHvo + * * *
+
+ À kßV
+
+ A - I 2 2 - + 2, 2. " 4. >_i + • • • ,
+
+ 2 2 2, 2. 4. (93)
+
+ i.e., A(|) = /( 3(D), where f(z) =
+
+ ez - 1
+
+ It is now very simple to deduce from (93) a domain of convergence for the series
+
+ expressing the functions apa(t;): if M is an upper bound for all the functions 't=pa |, it
+ suffices to have r M < 2n, since the complex function f(z ) is holomorphic in the disk
+
+ about 0 of radius 2n . This produces a domain of convergence for ^ p apo (£) rjp
+ and hence of u = ^ p ûptp, which is the first summand x(j, x) in the expansion for
+ z(x,y).
+
+ Before passing to the convergence of the other summands and of the whole series
+
+ of these summands, Hausdorff compares his matrix-calculus to Baker's (1901). Let
+ us introduce the matrix
+
+ ®(£) := (° pa (£)) such that e~xtpex = ^6prjt„.
+
+ a
+
+ By means of (73), we derive the matrix identity
+
+ ©(f) = e3(Ç).
+
+ <0 Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:10:43 UTC
+All use subject to https://about.jstor.org/terms
+
+ By comparing the coefficients of the tx 's, we get the identities
+
+ The early proofs of the theorem of Campbell, Baker, Hausdorff, and Dynkin 343
+
+ Now, from the Exponential Theorem exey = ez, we see that the following chain of
+
+ equality holds
+
+ ^0pr(O*r = e~ztpez = e~y(e~xtpex)ey = e~y
+
+ - ^ Opo ($ ) ^ , Qgx(jj)tx - ^ ^ ßpcriHWcrx (??) j tT .
+ a r x ' a /
+
+ 0(f) = ©(§)©07), e2(?)eS(,?) = e3(f). (94)
+
+ According to Hausdorff, presumably unaware of Baker's paper (1905), this is "Baker's
+
+ Exponential Theorem," a corollary of his symbolic theorem.
+
+ Hausdorff returns to the convergence matter in Sect. 6. This is his argument. He
+
+ aims to prove the convergence (near the origin) of
+
+ z = x + x<j,*) + ^ ^x(>%*) x(y,x) + ^xCy-*) x(y>*) -' - .
+
+ (95)
+
+ Let us set m := x(y>x)> it suffices to discover what the operator u looks like in
+
+ coordinates with respect to t' , . . . , tr. Recalling the notation u = X p $ptp anc* setting
+ also F(x) = X! p fp(H) we have the usual Taylor expansion
+
+ F(x + u) = Y,fP(i;+û)tp = + +
+
+ which, compared to the expansion F(x + u) = F(x ) + u j^F(x) + û(u2) in (67),
+
+ shows that the operator u ^ has the same meaning as the infinitesimal transforma-
+
+ tion A = Y!g=' #<*(£' n) äfj- Recalling that ûa = Zp^afë) rjp, we obtain the
+ equivalent expression for A
+
+ A = npOipai^TZ-- (96)
+
+ r ß
+
+ p%' ^
+
+ Kp = Hp + Mp + 2j =: e^(%p)- (97)
+
+ Ô Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:10:43 UTC
+All use subject to https://about.jstor.org/terms
+
+ This proves that the expansion (95) becomes, using coordinates z - Xp £p *p»
+
+ 344 R. Achilles, A. Bonfiglioli
+
+ Now, the crucial insight is to observe that this is precisely the expansion of the solution
+ t Ç(t) to the ODE system
+
+ ta (0 = Xp *7 P apv (? (0) a = i r
+
+ ' k(0)=k
+
+ Hence, since it has already been proved that the maps apa are analytic in a neighbor-
+
+ hood of the origin, the convergence of the functions Çp in (97) is a consequence of the
+ general theory ofODEs. Note the similarity with Poincaré's convergence argument,
+ see (38), (39).
+
+ Furthermore, Hausdorff suggests an evocative way of interpreting his PDE-like
+
+ operators: for instance,
+
+ 9 , X . ^ 1 / , x 9 Y
+
+ y-^z = x(y,z) , X is . to z = 2^,^ [x(y<x)-j , x x as
+
+ = isto f = I I
+ P w=o ' 'P,<7 ^°7
+
+ 0°^ j /_ 0
+
+ Finally, the above convergence result furnishes the proof of the transformation- group
+ Exponential Theorem (Hausdorff 1906, Proposition C, p. 39): Given the structure
+ equations [tp, ta] = cpo't', by means of the Exponential Theorem
+
+ vp fp = Çp tp ^
+
+ the functions Çp = fp(£, rj) are well defined and analytic in a suitable neighborhood
+ of$ = r) = 0.
+
+ Section 7 is devoted to the derivation of the Second and Third Theorems of Lie by
+
+ means of the above Proposition C. As a matter of fact, Hausdorff 's argument does not
+ add too much to what his predecessors, from Poincaré to Baker, had said about the
+ same topic.
+
+ In closing this review about Hausdorff 's contribution to the Exponential Theorem,
+
+ we quote his words (see Hausdorff 1906, p. 44): the symbolic Exponential Theorem
+
+ "Proposition B is the nervus probandi of the fundamental theorems of group theory."
+ An opinion shared, with the same fervor, by Poincaré and Pascal.
+
+ 9 Dynkin's contribution
+
+ After Hausdorff 's 1906 paper, more than 40 years elapsed before the problem of pro-
+ viding an explicit representation of the series log(exey) was solved. This question was
+ first answered by Dynkin47 in his 1947 paper. In what follows, we will quote the 2000
+
+ 47 Eugene Borisovich Dynkin; Leningrad (Union of Soviet Socialist Republics), 1924.
+
+ â Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:10:43 UTC
+All use subject to https://about.jstor.org/terms
+
+ The early proofs of the theorem of Campbell, Baker, Hausdorff, and Dynkin 345
+
+ English translation of the Russian paper (Dynkin 1947), contained in Dynkin (2000,
+ pp. 31-34).
+
+ Starting from what Dynkin calls "the theorem of Campbell and Hausdorff," i.e.,
+
+ the result stating that log(exey) is a series of Lie polynomials in jc and y, formula (12)
+ of Dynkin (2000) provides the following explicit representation (notations will be
+ explained below), later known as Dynkin' s Formula (for the Campbell-Baker-Haus-
+ dorff series)
+
+ log(exey ) = V ' ^ k
+
+ ' k p''q''p2m^--- Pk'qk' j
+
+ (98)
+
+ where the sum runs over k e IN and the non-vanishing couples with i =
+ 1, . . . , k. Most importantly, the map P '-> P°, which we now describe, is introduced,
+
+ where P is any polynomial in a finite set of non-commuting indeterminates.
+
+ In order to define the map P P°, let âê denote the (free) algebra of the polyno-
+ mials in the non-commuting indeterminates x', . . . , xn over a field of characteristic
+ zero. For P,Q e M, let [P, Q] = PQ - QP denote the usual commutator,48 and
+ let be the least Lie subalgebra of M containing x' , . . . , xn. Finally, let us consider
+
+ the unique linear map from M to mapping P = XixXi2 • • • x ik to P°, where
+
+ P° = J [■ ■ ■ [[■*(, , Xi2', xh] ■ ■ ■ xk ].
+
+ Then (see Theorem on page 32 of Dynkin 2000) Dynkin proves that
+
+ Pef if and only if P = P°. (99)
+
+ This theorem, later also referred to as the Dynkin-Specht-Wever Theorem (see also
+ Specht 1948; Wever 1949), is one of the main characterizations of Lie polynomials.
+ Dynkin's proof of the above theorem reads as follows. We only have to prove that
+ P g implies P = P°, and it is non-restrictive to suppose that P is an ordered
+ Lie-monomial, say P = [• • • 'x' , X2] • • -xm]. By expanding the brackets, we obtain
+ uniquely determined scalars such that
+
+ P = [•••[* 1, *2] •••*«]= 21 ah -im xh ' ' 'X'm> (10°)
+
+ where I is any permutation of {1, ... , m}. Hence, by the very definition of P°,
+
+ P° = X ~~ a,'i ["•foi' *<2] •••*««]• (101)
+
+ 48 Dynkin used the notation P o Q := P Q - QP; also o xl2 o • • • o xlk denotes the left-nested com-
+ mutator (•••((* o Xi2) o Xi3 ) o • • • o xik ). We allowed ourselves to use the bracket notation, as in the rest
+ of the paper.
+
+ â Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:10:43 UTC
+All use subject to https://about.jstor.org/terms
+
+ 346 R. Achilles, A. Bonfiglioli
+
+ Now, by skew-symmetry and Jacobi identity [[ v , w], u ] = [[w, tu], v] - [[ u , v], tu],
+
+ for any fixed k e { 1 , . . . , m) one has
+
+ [• • • [*1 , X2] ■ • • xm] = ^ ckj2...jm [• • • Uk, Xh] ■ ■ ■ Xjm], (102)
+
+ where J is any permutation of {1 , . . . , m] ' {k}. If we expand the generic summand in
+ the right-hand side of (102), then we get (among all monomials) a unique monomial
+
+ which starts with xk, namely x kXj2 • • • xjm : thus, comparing (100) and (102), we derive
+
+ ckji"Jm = akj2-jm f°r every J as above, so that
+
+ [mm'[X',X2 ]'''Xm'- ^ , akj2~jm [' ' ' [Xki Xj2^ ' ' ' Xjm]' (103)
+
+ J=Ü2,-Jm)
+
+ Being k e {1 , . . . , m] arbitrary, summing up we obtain
+
+ mP=m[---[x ',X2'---Xm]- ^ aiii2_..im[---[xi1,xi2]---xim],
+ I=(iui2,~>Jm)
+
+ where I is as in (100). By comparing this identity to (101), we infer P = P°, and (99)
+
+ is proved.
+
+ With this result at hand, the derivation of the representation (98) is almost trivial.
+
+ Indeed, the very definitions of log and exp give
+
+ log(eV) = Z^ZT- ' k , , , '
+
+ ' k p''q''p2m' , , , ' ' PMk'
+
+ where the sum is as in (98). If we assume that the Exponential Theorem is satisfied
+
+ (i.e., that the above series is indeed a Lie series in x and y ), an application of the map
+ P h-> P° (naturally extended to series) leaves unchanged 'og(exey) so that (98) holds
+ true.
+
+ Other three fundamental results are contained in Dynkin's 1947 paper (see Dynkin
+
+ 2000, p. 34):
+
+ 1 . If K is R or C and g is any finite dimensional Lie algebra over K, then the series
+
+ in the right-hand side of (98), say O0(jc, j), converges for every x, y in a neigh-
+ borhood of 0 G g. Indeed, thanks to the very explicit expression of Dynkin's series ,
+
+ the following direct computation holds: if || • || is any norm on g compatible with
+ the Lie bracket,49 then
+
+ (x^y^x^y^2 ■ ■ -xPkyqkf < ||;c||pl+™+w • ||y||«1+-+9t.
+
+ 49 This means that || [x , y] || < || jc || • || y || for every jc , y e g. Note that such a norm always exists, thanks to
+ the continuity and bilinearity of (jc, y) h* [x, j] and the finite dimensionality of q.
+
+ Ö Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:10:43 UTC
+All use subject to https://about.jstor.org/terms
+
+ The early proofs of the theorem of Campbell, Baker, Hausdorff, and Dynkin 347
+
+ Consequently, as for the study of the absolute convergence of the series O0(jc, y),
+
+ an upper bound is given by
+
+ £ tltl (eMeM _ {jk = logCeMe'MI) = |W| + ||y|| < oo,
+
+ k
+
+ provided that ''x'' + ||y|| < log 2. As a matter of fact, this is the first argument in
+
+ the history of the CBHD Theorem for a direct proof of the convergence problem , an
+
+ argument much more natural and direct than those given by Poincaré, by Pascal, and
+
+ even by Hausdorff (whose convergence- study was the most satisfactory, up to that
+
+ time). Also, Dynkin's proof works for any finite dimensional Lie algebra , hence in
+
+ particular for the algebra of the infinitesimal transformations of a transformation
+
+ group, thus comprising all the related results obtained by his predecessors.
+
+ 2. The same arguments as above can be straightforwardly generalized to the so-called
+
+ Banach-Lie algebras ,50 thus anticipating a newer research field. Dynkin will exten-
+
+ sively return to this generalization in his paper (1950).
+
+ 3. Dynkin's series (98), together with the obvious (local) associativity of the (local)
+
+ operation x * y := O0(jc, _y), allows one to attack the original version of Lie's Third
+
+ Theorem (a concern for Schur, Poincaré, Pascal, and Hausdorff) in a very simple
+
+ way: indeed * defines a local group on a neighborhood of the origin of every finite
+
+ dimensional (real or complex) Lie algebra, with prescribed structure constants.
+
+ As observed above, Dynkin proves a commutator-formula for 'og(exey) yet assuming
+
+ its commutator-nature. Two years later, Dynkin (1949) will give another proof of the
+
+ fact that 'og(exey) is a Lie series, completely independent of the arguments of his pre-
+
+ decessors, and mainly based on his theorem (99) and on combinatorial computations.
+
+ Quoting the words of Bose (1989, p. 2035), with respect to the recursive formulas for
+
+ log(exey) proved by Baker and Hausdorff, "Dynkin radically simplified the problem,"
+ by deriving "an effective procedure" for determining the Campbell-Baker-Hausdorff
+
+ series. Let us overview his new proof.
+
+ Let K be a field of characteristic zero. We set <$>(x, y) = 'og(exey ), and we denote
+
+ by Pp,q (x, y) a sum analogous to that in the right-hand side of (98) extended over the
+
+ indices p' +
+
+ log(exey) - Pp,q{x,y), (104)
+
+ o
+
+ and Dynkin aims to prove that Pp,q ( x , y) is a Lie polynomial in x, y . More generally,
+ let us consider the algebra of the polynomials in the non-commuting indeterminates
+
+ xo, X' , . . . , xn. If to, . . . , tn e Q, let us set O(to*o, • • • , tnxn) := 'og(ek)X 0 • • • etnXn).
+
+ 50 A Banach-Lie algebra is a Banach space (over R or €) endowed with a Lie algebra structure such that
+ A x A s (x, y) (-> [jc, >>] e A is continuous. In this case, if || • || is the norm of A, there exists a positive
+ constant M such that ''[x, y]'' < M ||jc || • ''y'' for every x, y e A, so that the norm M|| • || is compatible
+ with the Lie bracket of A, and Dynkin's arguments (this time also appealing to the completeness of A) can
+
+ be directly generalized.
+
+ â Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:10:43 UTC
+All use subject to https://about.jstor.org/terms
+
+ x x V p! tio f'"-' V ql tip f'" f"
+ x x '0* ;n| . . . 1 ; . 1 • I 0 V-l Z- 1 ; I ' ... ln- ; ' P f'" f" •
+
+ .... '0* ;n| . . . 1 ^ p- . 1 • . . . . 1 ^ p ' ... ln-
+
+ '(H ....
+
+ By equating the summands with all the f 's of degree 1 from the above far right-hand
+ sum and from the right-hand side of (106), Dynkin obtains the equality (see Eq. (6)
+ ofDynkin 1949, p. 157):
+
+ 348 R. Achilles, A. Bonfiglioli
+
+ Then we have the series expansion
+
+ «>(*0*0, • • • » tnxn ) = ^ , *0 " ' t'n ^/C^O» • • • » */i)> (105)
+
+ /=(i0,.
+
+ where Pj(x o, . . . , jcn) is a polynomial of degree io in jto, i' in x' and so on. If jto =
+
+ • • = xp- 1 = x and xp = • • • = xn = y, then one obtains
+
+ log (e(t0+"+t'>-l)xe(t'>+-+'")y} = X 4° • • ' 'n pl x,...,x- y, . . . , Y (106)
+
+ 1 ' p times q times /
+
+ where p + q = n + 1. On the other hand, recalling (104), the left-hand side of (106)
+ equals
+
+ y.Oo H
+
+ p.<7 p,q
+
+ (p 77^~7x' y J , where P := Pa,...,!). (107)
+ (p 77^~7x' times q times y '
+
+ All the attention is now shifted to the polynomial P. By the definition of O, one rec-
+
+ ognizes that P can be obtained also as the sum of the coefficients of to, t', . . . , tn of
+
+ degree 1 in the expansion of
+
+ l°g ((1 + '0*0) • • • (1 + tnXn )) = - J J tjQ • • • tjk XjQ • • • Xjk I .
+
+ «=1 'jo<~'<jk )
+
+ (108)
+
+ The term to - -tn Xi0 • • • Xin appears in expanding the above series so many times as
+
+ one can subdivide (io, . . . , in) in a finite sequences, each monotone increasing, chosen
+
+ from {0, 1, . . . , n}. Then Dynkin introduces a useful definition: in the ( n + l)-tuple
+
+ / = (io, . . . , in) of pairwise distinct integers, a couple of consecutive indices iß, iß+ '
+ is called regular if iß < iß+' and irregular otherwise. (Now these are also called,
+ respectively, the rises and the falls.) He denotes by sj the number of regular couples
+ of I and by t' the number of irregular ones. He then shows that the coefficient of
+
+ to - -tn Xi0 - - • Xin in (108) is equal to
+
+ â Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:10:43 UTC
+All use subject to https://about.jstor.org/terms
+
+ The early proofs of the theorem of Campbell, Baker, Hausdorff, and Dynkin 349
+
+ cè+l « (n + D!
+
+ This gives the representation (see Eq. (8) in Dynkin 1949, p. 158)
+
+ P(x 0, •••*,„, with bi := (-1)'' siltjl, (109)
+
+ yft ~r L). j
+
+ where the sum runs over the permutations / of {0, 1 , . . . , n}. The main task is thus to
+
+ prove that the right-hand side of (109) is a Lie polynomial. This is accomplished in
+ Sect. 2.
+
+ To this end, Dynkin improves his former theorem (99). Indeed, he claims that with
+ the same arguments as in Dynkin (1947) the following result holds true: Let Q be a
+ polynomial in x o, ... ,xn of the following special form: Q = aj Xi0 • • • xin, the
+ sum ranging over the permutations of {0, . . . , n}. Then Q is a Lie polynomial if and
+
+ only if
+
+ Q = X °0J [■■■[[X0,Xh],Xj2]---Xjn],
+
+ J
+
+ where the sum ranges over the permutations J = (j' , . . . , jn) of {I, . . . , n).
+
+ Since P in (109) has the form of the above Q , this suggests to prove that
+
+ bj xio ■ ■ ■ xin = ^ boj [• • • [[*o, xh], xh] ■■■XjJ, (1 10)
+
+ i J
+
+ â Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:10:43 UTC
+All use subject to https://about.jstor.org/terms
+
+ where the coefficients b' , boj are as in (109), and where / = O'o, • • • , in) runs over the
+
+ permutations of {0, 1, . . . , n], whereas J = (j' , . . . , in) runs over the permutations
+ of {1, . . . , n}. Since the right-hand side of (1 10) is a Lie polynomial, this will prove,
+ because of (104) and (107), the theorem of Campbell-Baker-Hausdorff.
+
+ The proof of ( 1 1 0) is technical and quite laborious, and the reader is directly referred
+
+ to Dynkin (1949, pp. 159-161). However, some remarks on this proof are due, since
+ it contains the concept of "shuffling." Let us expand the right-hand side of (110) in
+
+ monomials, say X/ ci xb ' ' ' xin • We have to prove that c/ = &/ for all indices I as
+ above. Let us split I in two disjoint sequences
+
+ l' = (/j, . . . , i'p), I " - (/", . . . , iq) (p + q = n + 1),
+
+ where the i' and i" are written in the same order as they appear in /. In this case, we
+
+ say that I is a shuffle of /' and I" , and we write (in Dynkin's notation) I e lf U I" .
+ The crucial remark, allowing us to transform (110) into a problem of combinatorics,
+
+ is the following: let jco occur in xi0 • • • Xin in the position p + 1, and let us use the
+ notation:
+
+ 350 R. Achilles, A. Bonfiglioli
+
+ *i0 * " " %if j - 3Ci' Xo Xjff - . Xj'oj" ?
+
+ where /' = (/o, • • . , /p- i ) and I" = (/^+i , . . . , /n). It is easy to see that, by expanding
+
+ the higher order commutator [• • • [[jto, Xjx ], Xj2' • • • Xjn] in monomials, the summand
+
+ jt/>o/" occurs if and only if / = (j i , . . . , jn ) is a shuffle of /' := (/^-i , . . . , i' , /o)
+ (the reversed of /') and of l"' in this case, Jt/'o/" has coefficient 4-1 or -1 according
+ to whether p is even or odd.
+
+ This gives the formula
+
+ ci'Qi" = (~')p ^ bo j.
+
+ Jeï'ui "
+
+ The rest of the proof consists of showing that this last identity is satisfied when the c's
+
+ in its left-hand side are replaced by the b's introduced in (109).
+
+ Summing up all his identities, Dynkin is able to provide yet another Lie represen-
+
+ tation of 'og(exey), namely (gathering together (104), (107), (109), and (1 10)):
+
+ log(eV) = ^ - - P I x,...,x' y, . . . , y I , where
+
+ 00 i / I ' I
+
+ ' p times q times J
+
+ P(xo, ...,x„)= ^ ^ ^(-l)'07 SOJ ! toj ! [[*0, Xji] ■ ■ -Xjn],
+
+ or, in a more symmetric form,
+
+ P(xo, ...,xn) = (n+l)'(n+1)! [[•*(()' xh] • • •*(„]>
+
+ where J=(j' , . . . , in) runs over the permutations of {1, . . . , n], while /=(*'o , • • • . in)
+
+ runs over the permutations of {0, 1
+
+ Finally, in his paper (1950) Dynkin studies in great detail the applications of his
+
+ representation formula for 'og(exey) to normed Lie algebras and to analytic groups.
+ The incipit of the paper clearly states that the "one-to-one correspondence between
+ local Lie groups and Lie algebras is the foundation of Lie groups." He then high-
+ lights that the algorithms of Campbell and Hausdorff (and also of Baker, we may
+ add, though his papers are not mentioned) are not effective for solving the problem
+ of convergence, making it necessary "to turn to an indirect proof, using Lie's sys-
+ tem of differential equations" and making use of ODEs theory: an application of
+ his representation formulas from Dynkin (1947, 1949) "eliminates the need for any
+ complementary apparatus ."
+
+ Also the point of view of Dynkin (1950) is new: the starting points are not the
+ transformation groups, but the Lie algebras. The main result is thus the construc-
+
+ tion of a local topological group attached to every Banach-Lie algebra by means of
+ the explicit series of 'og(exey). The theory of groups and algebras was meanwhile
+ advanced sufficiently to allow it possible to use more general notions and provide
+
+ Ô Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:10:43 UTC
+All use subject to https://about.jstor.org/terms
+
+ The early proofs of the theorem of Campbell, Baker, Hausdorff, and Dynkin 351
+
+ broader generalizations (non- Archimedean fields are considered; normed spaces and
+ normed algebras are involved, together with local topological or analytic groups). As
+ for the history of the CBHD Theorem, this paper paved the way for the problem of
+
+ improved domains of convergence for the Dynkin series and, by happenstance, for the
+
+ study of other possible representations of 'og(exey).
+
+ To these topics, the modern literature on the CBHD Theorem has devoted a great
+
+ attention. We refer the reader to the references in Bonfiglioli andFulci (2012, Sect. 5.6).
+
+ In particular, for the intertwining of the CBHD Theorem and its "continuous version,"
+ the so-called Magnus Expansion, see Blanes et al. (2009) and the comprehensive list
+ of references therein.
+
+ 10 Hausdorff and Bourbaki's commentaries
+
+ Along with the fact that there is still no conventional agreement on the "fatherhood" of
+
+ the CBHD Theorem (Baker's name is frequently unfairly omitted), the most surprising
+
+ fact concerning the early investigations is that the contributions by Schur, Poincaré,
+
+ and Pascal have presently become almost forgotten.51 In our opinion, there are three
+
+ reasons for this fact. First, they focused on the setting of Lie's theory of groups of trans-
+
+ formations, instead of taking up a purely symbolic approach. Second, the very cold
+ judgement of the contributions of Schur, Poincaré, and Pascal (and also of Campbell
+
+ and Baker) given by Hausdorff himself and by Bourbaki has certainly played a major
+ rôle. Third, the fact that none of their original papers on the subject was written in
+ English has contributed to their becoming obsolete. (Hausdorff's paper did not share
+
+ this lot, though.)
+
+ First, we begin by considering Hausdorff's and Bourbaki's comments on the works
+
+ by Schur, Poincaré, and Pascal; then, we express our opinion on these comments. The
+ reader will certainly make his/her own opinion by rediscovering the contributions of
+ these three mathematicians contained in Sects. 3, 5, and 6.
+
+ In Hausdorff (1906, p. 20), we find the following comments:
+
+ - Poincaré, in handling "Campbell's problem," has not proved the Exponential The-
+
+ orem in its general and symbolic form, but instead in the form of the group theory.
+ Hausdorff underlines that Poincaré has insisted from the beginning on the struc-
+
+ ture equations among his symbols and their commutators.52 He then remarks that
+
+ his own symbolic proof yields the theorem in the group setting too, but not vice
+ versa - as he stresses again. Nonetheless (in the note at p. 20), Poincaré's 1901
+ paper is cited as a "beautiful" (literally "schöne") source having some weak rela-
+ tionship with Hausdorff's; later (in the note at p. 40), Poincaré's residue-calculus
+
+ 51 It is very hard to find quotations of the papers by Schur, Poincaré, and Pascal (concerning with the
+ product of exponentials) in modern books on Lie groups. To the best of our knowledge, exceptions are:
+ Czyz (1994) (quoting Pascal 1902c and Poincaré 1900) and Duistermaat and Kolk 2000 (quoting Poincaré
+ 1899 and Schur 1891, 1893).
+
+ 52 Namely, on identities of the type [X/, X j] = X k cijk xk- In practice, Poincaré is dealing with an
+ actual finite dimensional Lie algebra instead of a set of abstract non-commuting indeterminates, in which
+ Hausdorff was interested.
+
+ â Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:10:43 UTC
+All use subject to https://about.jstor.org/terms
+
+ technique is recalled, and a couple of formulas from Poincaré (1900) is compared
+ with Hausdorff's.
+
+ 352 R. Achilles, A. Bonfiglioli
+
+ - Hausdorff thinks that Pascal's works on the product of two exponentials have not
+ overcome the inconvenience of an abundance of computations. According to him,
+
+ these massive computations make it hard and difficult to check the validity of Pas-
+ cal's proof and the applicability to the group theory. He then faults Pascal for
+ omitting - in his last paper - the convergence question.
+
+ - A comment on Schur's contribution is missing in Hausdorff's foreword. Schur is
+
+ acknowledged only at p. 34, for having proved for the first time a certain series
+ expansion involving Bernoulli numbers.
+
+ In Bourbaki's book (1972, Chapter III, Historical Note), we find the following com-
+ ments:
+
+ - Poincaré studied the identity euev = ew as a possibly multiple valued function
+ for W. Besides briefly describing his general residue-calculus approach, the actual
+
+ results obtained by Poincaré are not mentioned, whereas he is faulted (together with
+
+ Campbell and Baker) for a lack of clarity about the question whether the commu-
+
+ tators are symbolic expressions or elements of some fixed Lie algebra.
+
+ - Pascal's name is listed -en passant- as some of those who returned to the question
+ of^ = ew , but nothing is said about his results, and his papers are not even
+ mentioned in the list of references. Hausdorff instead is acknowledged as the only
+ "perfectly precise" reliable source.
+
+ - Schur's results on the product of exponentials are not mentioned: he is recalled only
+
+ for his proof of the fact that C2 assumptions on transformation groups are (up to
+
+ isomorphism) sufficient to get analytic regularity.
+
+ We would like to express some opinions on the above comments by Hausdorff and
+
+ Bourbaki.
+
+ (i) Curiously, Hausdorff insists on reasserting over again that his own theorem
+ implies Poincaré's and not vice versa, but eventually his words become more
+
+ prudent53: this legitimately leads us to suppose that Hausdorff had foreseen that
+ Poincaré proved more than it seems. Indeed, in Poincaré (1900), he introduced
+
+ for the very first time the universal enveloping algebra of a Lie group, but the
+ relevance of this invention was not caught for several decades (see Ton-That and
+ Tran 1999 for related topics), and probably it passed unnoticed also to Haus-
+ dorff. Likely, Hausdorff did not consider the possibility that Poincaré's formula
+ euev = ew was more than a result in Lie groups of transformations. Indeed,
+
+ 53 Indeed Hausdorff (1906, p. 20) says that, even disregarding the fact that his theorem implies Poincaré's
+ and not vice versa, he believes that his own contribution offers such a novelty and simplification that it
+ cannot be considered a superfluous supplement with respect to Poincaré's paper. Then he feels the need to
+ return once more on this subject, and he stresses again (p. 40) that Poincaré proved only a group-theoretic
+
+ theorem which is not a full substitute for his own, as it seems to follow from a further argument (the words
+ are now more cautious). He further adds a quite long remark as a confirmation of his thesis. Moreover, he
+
+ says (p. 41) that he does not want to discuss the possibility that, from the validity of Poincaré's theorem on
+ an r -dimensional group for every arbitrary r, one could eventually get the symbolic theorem. Indeed, he
+
+ points out that for his scopes it was important only to observe that at least not immediately (another prudent
+ expression) Poincaré's theorem does not comprehend his general result.
+
+ Ô Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:10:43 UTC
+All use subject to https://about.jstor.org/terms
+
+ The early proofs of the theorem of Campbell, Baker, Hausdorff, and Dynkin 353
+
+ this formula is a formal identity in the universal enveloping algebra % (g) of any
+ finite dimensional Lie algebra g, which determines W as a Lie series in U, V,
+ and (when specialized to g) the formal series W converges near 0 e g. Further,
+ as Schmid (1982, p. 184) neatly pointed out, Poincaré's theorem makes no ref-
+ erence at all to g being the Lie algebra of the infinitesimal transformations of
+
+ a group.54 It then seems that Bourbaki's and Hausdorff's criticisms concerning
+ this fact should be mitigated.
+
+ (ii) Hausdorff complains about the abundance of computations in Pascal's papers
+ and he says (see Hausdorff 1906, p. 20, lines 21-22) that these massive calcu-
+ lations make it very difficult to check the correctness of Pascal's proof. In our
+
+ opinion, the presence of abundant computations should not be enough to despise
+
+ a proof. In this case, the main criticism may concern the fact that Pascal focused
+
+ on groups of transformations; however, we believe that the greatest part of Pas-
+ cal's arguments in his series of papers (Pascal 1901a, b, 1902a, b,c) are, though
+ long and laborious, more transparent than some of the proofs only sketched by
+ Campbell or Baker.
+
+ (iii) Even though Bourbaki's historical notes do not pay attention to their contribu-
+ tions, Pascal and Schur should be regarded as noteworthy precursors of what was
+
+ lately to be known only as the Campbell-(Baker-)Hausdorff Formula. Following
+ Schmid (1982, p. 177), this formula is already contained "in disguise" in Schur's
+
+ papers. Pascal contributed in disclosing this fact (see §2 in Pascal 1902c, p. 565)
+
+ by proving that the same formulas found by Schur may be obtained starting from
+ his own version of the Exponential Theorem, a completely undisguised result.
+
+ Acknowledgments The authors thank Professors Umberto Bottazzini and Jeremy Gray for their careful
+
+ reading of a previous version of the manuscript, and are especially grateful to the latter for having brought
+ to their attention Scharlau's commentary in Hausdorff (2001), from which they greatly benefited.
+
+ References
+
+ Abbaspour, H., and M. Moskowitz. 2007. Basic Lie theory. Hackensack, NJ: World Scientific.
+ Alexandrov, P.S., et al. 1979. Die Hilbertschen Probleme. Ostwalds Klassiker der exakten Wissenschaften.
+
+ Leipzig: Akademische Verlagsgesellschaft Geest & Portig K.-G.
+
+ Baker, H.F. 1901. On the exponential theorem for a simply transitive continuous group, and the calculation
+
+ of the finite equations from the constants of structure. Proceedings of the London Mathematical Society
+ 34: 91-127.
+
+ Baker, H.F. 1902. Further applications of matrix notation to integration problems. Proceedings of the London
+
+ Mathematical Society 34:347-360.
+
+ 54 Obviously, it is not possible not to recognize Hausdorff's merits in shifting all the attention to purely
+ symbolic arguments. Nonetheless, our opinion is that Poincaré's ingenious approach (take a finite dimen-
+ sional Lie algebra g, obtain the Exponential Theorem on W (g), go back to g and prove the convergence
+ with the residue calculus) is definitely more modern than a 1900 publication. Furthermore, we think that
+
+ the only obstacle in obtaining from Poincaré's results the general version of Hausdorff's theorem is the
+ finite-dimensionality of the algebra g (as Hausdorff had foreseen!). Indeed, nowadays, we know that, if 0 is
+ the free Lie algebra of a vector space V (note that g is infinite-dimensional whenever V ^ {0}), then % (g)
+ is isomorphic to the tensor algebra & ( V ): hence, a suitable Exponential Theorem on ûl/ (g) = & ( V ) may
+ provide the general statement of the CBHD Theorem, which is indeed an identity between formal power
+ series related to V).
+
+ Ô Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:10:43 UTC
+All use subject to https://about.jstor.org/terms
+
+ Baker, H.F. 1903. On the calculation of the finite equations of a continuous group. Proceedings of the
+
+ 354 R. Achilles, A. Bonfiglioli
+
+ Baker, H.F. 1905. Alternants and continuous groups. Proceedings of the London Mathematical Society (2)
+
+ London Mathematical Society 35: 332-333.
+
+ 3: 24-47.
+
+ Bialynicki-Birula, I., Mielnik, B., and J. Plebanski. 1969. Explicit solution of the continuous Baker-Camp-
+
+ bell-Hausdorff problem and a new expression for the phase operator. Annals of Physics 5 1 : 187-200.
+
+ Biermann, K.-R. 1 988. Die Mathematik und ihre Dozenten an der Berliner Universität 1810-1933. Stationen
+
+ auf dem Wege eines mathematischen Zentrums von Weltgeltung , 2nd improved edn. Berlin: Akademie-
+ Verlag.
+
+ Birkhoff, G. 1936. Continuous groups and linear spaces. Recueil Mathématique [Matematicheskii Sbornik]
+
+ N.S. 1(43)5: 635-642.
+
+ Birkhoff, G. 1938. Analytic groups. Transactions of the American Mathematical Society 43: 61-101.
+ Blanes, S., and F. Casas. 2004. On the convergence and optimization of the Baker-Campbell-Hausdorff
+
+ formula. Linear Algebra and its Applications 378: 135-158.
+
+ Blanes, S., F. Casas, J.A. Oteo, and J. Ros. 1998. Magnus and Fer expansions for matrix differential equa-
+ tions: The convergence problem. Journal of Physics A: Mathematical and General 31: 259-268.
+ Blanes, S., F. Casas, J.A. Oteo, and J. Ros. 2009. The Magnus expansion and some of its applications.
+
+ Physics Reports 470: 151 -238.
+
+ Bonfiglioli, A., and R. Fulci. 2012. Topics in noncommutative algebra . The theorem of Campbell, Baker,
+
+ Hausdorff and Dynkin. Lecture Notes in Mathematics 2034. Berlin: Springer- Verlag.
+
+ Borel, A. 2001. Essays in the history of Lie groups and algebraic groups. History of Mathematics 21.
+
+ Providence/Cambridge: American Mathematical Society/London Mathematical Society.
+
+ Bose, A. 1989. Dynkin's method of computing the terms of the Baker-Campbell-Hausdorff series. Journal
+
+ of Mathematical Physics 30: 2035-2037.
+
+ Boseck, H., G. Czichowski, and K.-P. Rudolph. 1981. Analysis on topological groups - general Lie theory.
+
+ Teubner-Texte zur Mathematik 37. Leipzig: BSB B. G. Teubner Verlagsgesellschaft.
+
+ Bourbaki, N. 1972. Éléments de Mathématique. Fase. XXXVII: Groupes et Algèbre s de Lie. Chap. II:
+
+ Algèbres de Lie libres. Chap. III: Groupes de Lie. Actualités scientifiques et industrielles, 1349. Paris:
+ Hermann.
+
+ Campbell, J.E. 1897a. On a law of combination of operators bearing on the theory of continuous transfor-
+
+ mation groups. Proceedings of the London Mathematical Society 28: 381-390.
+
+ Campbell, J.E. 1897b. Note on the theory of continuous groups. Bulletin of the American Mathematical
+
+ Campbell, J.E. 1898. On a law of combination of operators (second paper). Proceedings of the London
+
+ Campbell, J.E. 1903. Introductory treatise on Lie's theory of finite continuous transformation groups.
+
+ Society 4: 407-408.
+
+ Mathematical Society 29: 14-32.
+
+ Oxford: Clarendon Press.
+
+ de France 84: 241-249.
+
+ Cartier, P. 1956. Demonstration algébrique de la formule de Hausdorff. Bulletin de la Société Mathématique
+
+ Casas, F. 2007. Sufficient conditions for the convergence of the Magnus expansion. Journal of Physics A:
+
+ Mathematical and Theoretical 40: 15001-15017.
+
+ Casas, F., and A. Murua. 2009. An efficient algorithm for computing the Baker-Campbell-Hausdorff series
+
+ and some of its applications. Journal of Mathematical Physics 50: 033513-1-033513-23.
+
+ Cohen, A. 1931 .An introduction to the Lie theory of one -parameter groups. New York: G.E. Stechert &
+
+ Co.
+
+ Czyz, J. 1989. On Lie supergroups and superbundles defined via the Baker-Campbell-Hausdorff formula.
+
+ Journal of Geometry and Physics 6: 595-626.
+
+ Czyz, J. 1994. Paradoxes of measures and dimensions originating in Felix Hausdorjf's ideas. Singapore:
+
+ Day, J., W. So, and R.C. Thompson. 1991 . Some properties of the Campbell-Baker-Hausdorff series. Linear
+
+ Dieudonné, J.A. 1974. Treatise on analysis, Vol. IV. Pure and Applied Mathematics 10-IV. New York:
+
+ Dieudonné, J.A. 1982. A panorama of pure mathematics. As seen by N. Bourbaki. Pure and Applied Math-
+
+ Djokovic, D.Z. 1975. An elementary proof of the Baker-Campbell-Hausdorff-Dynkin formula. Mathe-
+
+ World Scientific Publishing Co. Inc.
+
+ and Multilinear Algebra 29: 207-224.
+
+ Academic Press.
+
+ ematics 97. New York: Academic Press.
+
+ matische Zeitschrift 143: 209-211.
+
+ Ö Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:10:43 UTC
+All use subject to https://about.jstor.org/terms
+
+ The early proofs of the theorem of Campbell, Baker, Hausdorff, and Dynkin 355
+
+ Dragt, A. J., and J.M. Finn. 1976. Lie series and invariant functions for analytic symplectic maps. Journal
+
+ of Mathematical Physics 17: 2215-2217.
+
+ Duistermaat, J.J., and J.A.C. Kolk. 2000. Lie groups. Universitext. Berlin: Springer.
+ Dynkin, E.B. 1947. Calculation of the coefficients in the Campbell-Hausdorff formula (Russian). Doklady
+
+ Akademii Nauk SSSR (TV. S.) 57: 323-326.
+
+ Dynkin, E.B. 1949. On the representation by means of commutators of the series 'og(exey) for noncom-
+
+ mutative x and y (Russian). Matematicheskii Sbornik (N.S.) 25(67)1: 155-162.
+
+ Dynkin, E.B. 1950. Normed Lie algebras and analytic groups. Uspekhi Matematicheskikh Nauk 5:1(35):
+
+ 135-186.
+
+ Dynkin, E.B. 2000. Selected papers ofE. B. Dynkin with commentary. Eds. A.A. Yushkevich, G.M. Seitz,
+
+ and A.L. Onishchik. Providence: American Mathematical Society.
+
+ Eichler, M. 1968. A new proof of the Baker-Campbell-Hausdorff formula. Journal of the Mathematical
+
+ Eisenhart, L.R 1933. Continuous groups of transformations. Princeton: University Press. (Reprinted 1961,
+
+ Eriksen, E. 1968. Properties of higher-order commutator products and the Baker-Hausdorff formula. Jour-
+
+ Society of Japan 20: 23-25.
+
+ New York: Dover Publications.)
+
+ nal of Mathematical Physics 9: 790-796.
+
+ 13: 161-207.
+
+ Folland, G.B. 1975. Subelliptic estimates and function spaces on nilpotent Lie groups. Arkiv for Matematik
+
+ Folland, G.B., and E.M. Stein. 1982. Hardy spaces on homogeneous groups. Mathematical Notes 28.
+
+ Princeton/Tokyo: Princeton University Press/University of Tokyo Press.
+
+ Friedrichs, K.O. 1953. Mathematical aspects of the quantum theory of fields. V. Fields modified by linear
+
+ homogeneous forces. Communications on Pure and Applied Mathematics 6: 1-72.
+
+ Gilmore, R. 1974. Baker-Campbell-Hausdorff formulas. Journal of Mathematical Physics 15: 2090-2092.
+ Glöckner, H. 2002a. Algebras whose groups of units are Lie groups. Studia Mathematica 153: 147-177.
+ Glöckner, H. 2002b. Infinite-dimensional Lie groups without completeness restrictions. In Ueometry and
+
+ analysis on finite and infinite-dimensional Lie Groups, vol. 55, ed. A. Strasburger, W. Wojtynski, J.
+ Hilgert, and K.-H. Neeb, 43-59. Warsaw: Banach Center Publications.
+
+ Glöckner, H. 2002c. Lie group structures on quotient groups and universal complexifications for infinite-
+
+ dimensional Lie groups. Journal of Functional Analysis 194: 347-409.
+
+ Glöckner, H., and K.-H. Neeb. 2003. Banach-Lie quotients, enlargibility, and universal complexifications.
+
+ Journal für die reine und angewandte Mathematik ( Crelle 's Journal ) 560: 1-28.
+
+ Godement, R. 1982. Introduction à la théorie des groupes de Lie. Tome 2. Publications Mathématiques de
+
+ l'Université Paris VII. Paris: Université de Paris VII, U.E.R. de Mathématiques.
+
+ Gorbatsevich, V.V., A.L. Onishchik, and E.B. Vinberg. 1997. Foundations of Lie theory and Lie transfor-
+
+ mation groups. New York: Springer.
+
+ Gordina, M. 2005. Hilbert-Schmidt groups as infinite-dimensional Lie groups and their Riemannian geom-
+
+ etry. Journal of Functional Analysis 221: 245-272.
+
+ Hairer, E., Ch. Lubich, and G. Wanner. 2006. Geometric numerical integration. Structure-preserving algo-
+
+ rithms for ordinary differential eauations. New York: Springer.
+
+ Hall, B.C. 2003. Lie groups, Lie algebras, and representations: an elementary introduction. Graduate texts
+
+ in mathematics. New York: Springer.
+
+ Hausdorff, F. 1906. Die symbolische Exponentialformel in der Gruppentheorie. Berichte der Königlich-
+ Sächsischen Gesellschaft der Wissenschaften zu Leipzig (Leipziger Berichte), Math. Phys. Cl. 58: 19-48.
+ Hausdorff, F. 2001. Gesammelte Werke. Band IV: Analysis, Algebra und Zahlentheorie. Herausgegeben
+ von S.D. Chatterji, R. Remmert und W. Scharlau. (Collected works. Vol. IV: Analysis, algebra, number
+ theory.). Eds. S.D. Chatterji, R. Remmert, and W. Scharlau. Berlin: Springer.
+
+ Hausner, M., and J.T. Schwartz. 1968. Lie Groups. Lie algebras. Notes on mathematics and its applications.
+
+ New York: Gordon and Breach.
+
+ Hawkins, Th. 1989. Line geometry, differential equations and the birth of Lie's theory of groups. In The
+
+ history of modern mathematics , vol. I, pp. 275-327. Boston: Academic Press.
+
+ Hawkins, Th. 1991. Jacobi and the birth of Lie's theory of groups. Archive for History of Exact Sciences
+
+ Hawkins, Th. 2000. Emergence of the Theory of Lie groups. An essay in the history of mathematics 1869-
+ 1926. Sources and studies in the history of mathematics and physical sciences. New York: Springer.
+
+ Hilgert, J., and K.H. Hofmann. 1986. On Sophus Lie's fundamental theorem. Journal of Functional Analysis
+
+ 42: 187-278.
+
+ 67: 239-319.
+
+ â Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:10:43 UTC
+All use subject to https://about.jstor.org/terms
+
+ 356 R. Achilles, A. Bonfiglioli
+
+ Hilgert, J., and K.-H. Neeb. 1991. Lie-Gruppen und Lie- Algebren. Braunschweig: Vieweg.
+ Hochschild, G.P. 1965. The structure of Lie groups. Francisco: San Holden-Day Inc.
+ Hofmann, K.H. 1972. Die Formel von Campbell, Hausdorff und Dynkin und die Definition Liescher Grup-
+ pen. In Theory of sets and topology, ed. W. Rinow, 251-264. Berlin: VEB Deutscher Verlag der Wis-
+ senschaften.
+
+ Hofmann, K.H. 1975. Théorie directe des groupes de Lie. I, II, III, IV. Séminaire Dubreil, Algèbre, tome 27,
+
+ n. 1 (1973/1974), Exp. 1 (1-24), Exp. 2 (1-16), Exp. 3 (1-39), Exp. 4 (1-15).
+
+ Hofmann, K.H., and S.A. Morris. 2005. Sophus Lie's third fundamental theorem and the adjoint functor
+
+ theorem. Journal of Group Theory 8: 115-133.
+
+ Hofmann, K.H., and S.A. Morris. 2006. The structure of compact groups. A primer for the student- A
+ handbook for the expert, 2nd revised edn., de Gruyter Studies in Mathematics 25. Berlin: Walter de
+
+ Gruyter.
+
+ Hofmann, K.H., and S.A. Morris. 2007. The Lie theory of connected pro-Lie goups. A structure theory for
+ pro-Lie algebras, pro-Lie groups, and connected locally compact groups. EMS tracts in mathematics 2.
+ Zürich: European Mathematical Society.
+
+ Hofmann, K.H., and K.-H. Neeb. 2009. Pro-Lie groups which are infinite-dimensional Lie groups. Mathe-
+
+ matical Proceedings of the Cambridge Philosophical Society 146: 351-378.
+
+ Hörmander, L. 1967. Hypoelliptic second order differential equations. Acta Mathematica 1 19: 147-171.
+ Ince, E.L. 1927. Ordinary differential equations. London: Longmans, Green & Co. (Reprinted 1956, New
+
+ Iserles, A., H.Z. Munthe-Kaas, S.P. N0rsett, and A. Zanna. 2000. Lie-group methods. Acta Numerica 9:
+
+ York: Dover Publications Inc.)
+
+ 215-365.
+
+ Iserles, A., and S.P. N0rsett. 1999. On the solution of linear differential equations in Lie groups. Philosoph-
+
+ ical Transactions of the Royal Society A 357: 983-1019.
+
+ Jacobson, N. 1962. Lie algebras. Interscience tracts in pure and applied mathematics 10. New York: Inter-
+
+ Klarsfeld, S., and J.A. Oteo. 1989a. Recursive generation of higher-order terms in the Magnus expansion.
+
+ science Publishers/Wiley.
+
+ Physical Review A 39: 3270-3273.
+
+ Klarsfeld, S., and J.A. Oteo. 1989b. The Baker-Campbell-Hausdorff formula and the convergence of Mag-
+
+ nus expansion. Journal of Physics A: Mathematical and General 22: 4565-4572.
+
+ Kobayashi, H., N. Hatano, and M. Suzuki. 1998. Goldberg's theorem and the Baker-Campbell-Hausdorff
+
+ Kolsrud, M. 1993. Maximal reductions in the Baker-Hausdorff formula. Journal of Mathematical Physics
+
+ formula. Physica A 250: 535-548.
+
+ 34: 270-286.
+
+ Kumar, K. 1965. On expanding the exponential. Journal of Mathematical Physics 6: 1928-1934.
+ Magnus, W. 1950. A connection between the Baker-Hausdorff formula and a problem of Burnside. Annals
+
+ of Mathematics 52: 111-126.
+
+ Magnus, W., A. Karrass, and D. Solitar. 1966. Combinatorial group theory. New York: Interscience.
+ McLachlan, R.I., and R. Quispel. 2002. Splitting methods. Acta Numerica 11: 341-434.
+ Michel, J. 1976. Calculs dans les algèbres de Lie libre: la série de Hausdorff et le problème de Burnside.
+
+ Astérisque 38: 139-148.
+
+ Mielnik, B., and J. Plebanski. 1970. Combinatorial approach to Baker-Campbell-Hausdorff exponents.
+
+ Annales de l'Institut Henri Poincaré 12: 215-254.
+
+ Moan, P.C. 1998. Efficient approximation of Sturm-Liouville problems using Lie-group methods. Techni-
+
+ cal Report 1998/NA11, Department of Applied Mathematics and Theoretical Physics, University of
+ Cambridge, England.
+
+ Moan, P.C., and J. Niesen. 2008. Convergence of the Magnus series. Foundations of Computational Math-
+
+ ematics 8: 291-301.
+
+ Physics 42: 501-508.
+
+ Moan, P.C., and J.A. Oteo. 2001. Convergence of the exponential Lie series. Journal of Mathematical
+
+ Montgomery, D., and L. Zippin. 1955. Topological transformation groups. New York: Interscience Pub-
+
+ Murray, F.J. 1962. Perturbation theory and Lie algebras. Journal of Mathematical Physics 3: 451-468.
+ Nagel, A., E.M. Stein, and S. Wainger. 1985. Balls and metrics defined by vector fields I, basic properties.
+
+ Acta Mathematica 155: 103-147.
+
+ Neeb, K.-H. 2006. Towards a Lie theory of locally convex groups. Japanese Journal of Mathematics (3) 1:
+
+ lishers.
+
+ 291-468.
+
+ Ô Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:10:43 UTC
+All use subject to https://about.jstor.org/terms
+
+ The early proofs of the theorem of Campbell, Baker, Hausdorff, and Dynkin 357
+
+ Newman, M., W. So, and R.C. Thompson. 1989. Convergence domains for the Campbell-Baker-Hausdorff
+
+ formula. Linear Multilinear Algebra 24: 301-310.
+
+ Omori, H. 1997. Infinite-dimensional Lie groups. Translations of Mathematical Monographs 158. Provi-
+
+ Oteo, J. A. 1991. The Baker-Campbell-Hausdorff formula and nested commutator identities. Journal of
+
+ dence: American Mathematical Society.
+
+ Mathematical Physics 32: 419-424.
+
+ Pascal, E. 1901a. Sopra alcune indentita fra i simboli operativi rappresentanti traslormaziom inhnitesime.
+
+ Rendiconti/Istituto Lombardo di Scienze e Lette re, Milano (2) 34: 1062-1079.
+
+ Pascal, E. 1901b. Sulla formola del prodotto di due trasformazioni finite e sulla dimostrazione del cosidetto
+ secondo teorema fondamentale di Lie nella teoria dei gruppl. Rendiconti/Istituto Lombardo di Scienze e
+ Lettere, Milano (2) 34: 1118-1130.
+
+ Pascal, E. 1902a. Sopra i numeri bernoulliani. Rendiconti/Istituto Lombardo di Scienze e Lettere, Milano
+
+ m 377-389.
+
+ Pascal, E. 1902b. Del terzo teorema di Lie sull'esistenza dei gruppi di data struttura. Rendiconti/Istituto
+
+ Lombardo di Scienze e Lettere, Milano (2) 35: 419-431.
+
+ Pascal, E. 1902c. Altre ricerche sulla formola del prodotto di due trasformazioni finite e sul gruppo para-
+
+ metrico di un dato. Rendiconti/Istituto Lombardo di Scienze e Lettere, Milano (2) 35: 555-567.
+
+ Pascal, E. 1903. 1 Gruppi Continui di Trasformazioni ( Parte generale della teoria). Manuali Hoepli, Nr.
+
+ 327 bis 328; Milano: Hoepli.
+
+ tique 128: 1065-1069.
+
+ Poincaré, H. 1 899. Sur les groupes continus. Comptes Rendus de l ' Académie des Sciences. Série I. Mathéma-
+
+ Poincaré, H. 1900. Sur les groupes continus. Transactions of the Cambridge Philosophical Society 18:
+
+ Poincaré, H. 1901. Quelques remarques sur les groupes continus. Rendiconti del Circolo Matematico di
+
+ 220-255.
+
+ Palermo 15: 321-368.
+
+ Clarendon Press.
+
+ Reinsch, M.W. 2000. A simple expression for the terms in the Baker-Campbell-Hausdorff series. Journal
+
+ of Mathematical Physics 41: 2434-2442.
+
+ Reutenauer, C. 1993. Free Lie algebras. London Mathematical Society Monographs (New Series) 7. Oxford:
+
+ Richtmyer, R.D., and S. Greenspan. 1965. Expansion of the Campbell-Baker-Hausdorff formula by com-
+
+ puter. Communications on Pure and Applied Mathematics 18: 107-108.
+
+ Robart, Th. 1997. Sur 1 ' intégrabilité des sous-algèbres de Lie en dimension infinie. Canadian Journal of
+
+ Mathematics 49: 820-839.
+
+ Robart, Th. 2004. On Milnor's regularity and the path-functor for the class of infinite dimensional Lie
+
+ algebras of CBH type. Algebras, Groups and Geometries 21: 367-386.
+
+ Rossmann, W. 2002. Lie Groups. An Introduction Through Linear Groups. Oxford graduate texts in math-
+
+ ematics 5. Oxford: Oxford University Press.
+
+ Rothschild, L.P., and E.M. Stein. 1976. Hypoelliptic differential operators and nilpotent groups. Acta Math-
+
+ Sagle, A.A., and R.E. Walde. 1973. Introduction to Lie groups and Lie algebras. Pure and applied mathe-
+
+ Schmid, W. 1982. Poincaré and Lie groups. Bulletin of the American Mathematical Society (New Series )
+
+ ematica 137: 247-320.
+
+ matics 5 1 . New York: Academic Press.
+
+ 6: 175-186.
+
+ Schmid, R. 2010. Infinite-dimensional Lie groups and algebras in Mathematical Physics. Advances in
+
+ Mathematical Physics : Article ID 280362. doi:l 0.1 155/2010/280362.
+
+ Schur, F. 1890a. Neue Begründung der Theorie der endlichen Transformationsgruppen. Mathematische
+
+ Annalen 35: 161-197.
+
+ Schur, F. 1890b. Beweis für die Darstellbarkeit der infinitesimalen Transformationen aller transitiven end-
+
+ lichen Gruppen durch Quotienten beständig convergenter Potenzreihen. Berichte der Königlich-Säch-
+ sischen Gesellschaft der Wissenschaften zu Leipzig (Leipziger Berichte), Math. phys. Cl. 42: 1-7.
+
+ Schur, F. 1891. Zur Theorie der endlichen Transformationsgruppen. Mathematische Annalen 38: 263-286.
+ Schur, F. 1893. Ueber den analytischen Charakter der eine endliche continuirliche Transformationsgruppe
+
+ darstellenden Functionen. Mathematische Annalen 41: 509-538.
+
+ Sepanski, M.R. 2007. Compact Lie groups. Graduate texts in mathematics 235. New York: Springer.
+ Serre, J.P. 1965. Lie algebras and Lie groups: 1964 lectures given at Harvard University , 1st edn. 1965,
+ New York: W. A. Benjamin, Inc., 2nd ed. 1992. Lecture notes in mathematics 1500. Berlin: Springer.
+
+ Ô Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:10:43 UTC
+All use subject to https://about.jstor.org/terms
+
+ Specht, W. 1948. Die linearen Beziehungen zwischen höheren Kommutatoren. Mathematische Zeitschrift
+
+ 358 R. Achilles, A. Bonfiglioli
+
+ 51: 367-376.
+
+ Suzuki, M. 1977. On the convergence of exponential operators-the Zassenhaus formula, BCH formula and
+
+ systematic approximants. Communications in Mathematical Physics 57: 193-200.
+
+ Thompson, R.C. 1982. Cyclic relations and the Goldberg coefficients in the Campbell-Baker-Hausdorff
+
+ formula. Proceedings of the American Mathematical Society 86: 12-14.
+
+ Thompson, R.C. 1989. Convergence proof for Goldberg's exponential series. Linear Algebra and its Appli-
+
+ Ton-That, T., and T.D. Tran. 1999. Poincaré's proof of the so-called Birkhoff- Witt theorem. Revue d' Histoire
+
+ Tu, L.W. 2004. Une courte démonstration de la formule de Campbell-Hausdorff. Journal of Lie Theory 14:
+
+ cations 121: 3-7.
+
+ des Mathématiques 5: 249-284.
+
+ 501-508.
+
+ Van Est W.T., and J. Korthagen 1964. Non-enlargible Lie algebras. Proceedings of the Koninklijke Neder-
+
+ landse Akademie van Wetenschannen. Series A 67 = Indaeationes Mathematicae 26: 15-31 .
+
+ Varadarajan, V.S. 1984. Lie groups, Lie algebras, and their representations. (Reprint of the 1974 edition.)
+
+ Graduate texts in mathematics 102. New York: Springer.
+
+ Vasilescu, F.-H. 1972. Normed Lie algebras. Canadian Journal of Mathematics 24: 580-591.
+ Veldkamp, F.D. 1980. A note on the Campbell-Hausdorff formula. Journal of Algebra 62: 477-478.
+ Wei, J. 1963. Note on the global validity of the Baker-Hausdorff and Magnus theorems. Journal of Math-
+
+ Weiss, G.H., and T.D. Maradudin. 1962. The Baker Hausdorff formula and a problem in Crystal Physics.
+
+ ematical Physics 4: 1 337-1341 .
+
+ Journal of Mathematical Phvsics 3: 771-777.
+
+ Journal) 187: 44-55.
+
+ Wever, F. 1949. Operatoren in Lieschen Ringen. Journal für die reine und angewandte Mathematik ( Crelle 's
+
+ Wichmann, E.H. 1961. Note on the algebraic aspect of the integration of a system of ordinary linear differ-
+
+ ential equations. Journal of Mathematical Physics 2: 876-880.
+
+ Wilcox, R.M. 1967. Exponential operators and parameter differentiation in quantum physics. Journal of
+
+ Mathematical Phvxics 8: 962-982.
+
+ Wojtynski, W. 1998. Quasinilpotent Banach-Lie algebras are Baker-Campbell-Hausdorff. Journal of Func-
+
+ tional Analysis 153: 405-413.
+
+ Yosida, K. 1937. On the exponential-formula in the metrical complete ring. Proceedings of the Imperial
+
+ Academy Tokyo 13: 301-304. doi:10.3792/pia/l 195579861.
+
+ â Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 12:10:43 UTC
+All use subject to https://about.jstor.org/terms
+
+

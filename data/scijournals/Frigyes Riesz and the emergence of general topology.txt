@@ -1,0 +1,4445 @@
+ 
+
+ 
+
+ 
+
+ 
+
+Frigyes Riesz and the emergence of general topology: The roots of 'topological space' in
+
+geometry
+Author(s): Laura Rodríguez
+Source: Archive for History of Exact Sciences, Vol. 69, No. 1 (January 2015), pp. 55-102
+Published by: Springer
+Stable URL: https://www.jstor.org/stable/24569650
+Accessed: 19-05-2020 09:53 UTC
+
+ 
+REFERENCES 
+Linked references are available on JSTOR for this article:
+https://www.jstor.org/stable/24569650?seq=1&cid=pdf-reference#references_tab_contents 
+You may need to log in to JSTOR to access the linked references.
+
+JSTOR is a not-for-profit service that helps scholars, researchers, and students discover, use, and build upon a wide
+
+range of content in a trusted digital archive. We use information technology and tools to increase productivity and
+
+facilitate new forms of scholarship. For more information about JSTOR, please contact support@jstor.org.
+
+Your use of the JSTOR archive indicates your acceptance of the Terms & Conditions of Use, available at
+
+https://about.jstor.org/terms
+
+Springer is collaborating with JSTOR to digitize, preserve and extend access to Archive for
+History of Exact Sciences
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 09:53:23 UTC
+All use subject to https://about.jstor.org/terms
+
+ Arch. Hist. Exact Sci. (2015) 69:55-102
+ DOI 10.1007/S00407-014-0144-6
+
+ Frigyes Riesz and the emergence of general topology
+
+ The roots of ‘topological space’ in geometry
+
+ Laura Rodriguez
+
+ Received:17 August 2013 / Published online:1 October 2014
+
+ © Springer-Verlag Berlin Heidelberg 2014
+
+ Abstract In 1906, Frigyes Riesz introduced a preliminary version of the notion of
+
+ a topological space. He called it a mathematical continuum. This development can
+
+ be traced back to the end of 1904 when, genuinely interested in taking up Hilbert's
+
+ foundations of geometry from 1902, Riesz aimed to extend Hilbert's notion of a
+
+ two-dimensional manifold to the three-dimensional case. Starting with the plane as
+
+ an abstract point-set, Hilbert had postulated the existence of a system of neighbour
+
+ hoods, thereby introducing the notion of an accumulation point for the point-sets of
+
+ the plane. Inspired by Hilbert's technical approach, as well as by recent developments
+
+ in analysis and point-set topology in France, Riesz defined the concept of a mathe
+
+ matical continuum as an abstract set provided with a notion of an accumulation point.
+
+ In addition, he developed further elementary concepts in abstract point-set topology.
+
+ Taking an abstract topological approach, he formulated â concept of three-dimensional
+ continuous space that resembles the modern concept of a three-dimensional topolog
+
+ ical manifold. In 1908, Riesz presented his concept of mathematical continuum at the
+
+ International Congress of Mathematicians in Rome. His lecture immediately won the
+
+ attention of people interested in carrying on his research. They promoted his ideas,
+
+ thus assuring their gradual reception by several future founders of general topology.
+
+ In this way, Riesz's work contributed significantly to the emergence of this discipline.
+
+ 1 Introduction
+
+ The problem of characterising the continuity of space is rooted in the study of the foun
+
+ dations of geometry. Although in the history of geometry space has been commonly
+
+ Communicated by: Jeremy Gray.
+
+ L. Rodriguez (区）
+
+ University of Applied Sciences Fulda, Marquardstr. 35, 36039 Fulda, Germany
+ e-mail: Laura.Rodriguez@verw.hs-fulda.de
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 09:53:23 UTC
+All use subject to https://about.jstor.org/terms
+
+ 必 Springer
+
+ 56 し Rodriguez
+
+ assumed to De continuous, continuity has been understood over the centuries in dif
+
+ ferent ways, depending on the methods at hand.
+
+ In the second half of the nineteenth century, the study of the foundations of geom
+
+ etry was challenged by the emergence of new geometries. An extensive discussion
+
+ arose that went hand in hand with a philosophical reflection on the relation between
+
+ the axioms of geometry and physical space. The discussion was motivated, in partic
+
+ ular, by Bernhard Riemann's notion of an «-dimensional manifold because it opened
+
+ diverse possibilities for a mathematical description of physical space. In the last decade
+
+ of the nineteenth century, the discussion reached a climax with the so-called Riemann
+
+ Helmholtz-Lie space problem, a problem that had implications for the postulates of
+
+ geometry and for the treatment of the continuity of space. Continuous space was
+
+ understood by Riemann and Hermann von Helmholtz as a differentiable manifold, by
+
+ Sophus Lie simply as a number manifold (Zahlenmannifaltigkeit), i.e. Rn or Cn. To
+
+ reduce continuous space to Riemann's notion of an n-dimensional manifold brought
+
+ into view another aspect of space: continuity as a local property. This aspect was
+
+ highlighted by Lie's treatment of the concept of motion as an infinitesimal continuous
+
+ transformation. The characterisations of the local continuity of space given by Rie
+
+ mann, Helmholtz and Lie all rested on analytical methods, which were the common
+ ones at that time.
+
+ Around 1900, new mathematical techniques were available that seemed likely to be
+
+ helpful in grasping the notion of the continuity of space. They arose from the devel
+
+ opment of analysis situs and from recent contributions to the foundations of analysis
+
+ that were closely related to the establishment of Georg Cantor's point-set topology.1
+ Hence, when Hilbert (1902b, 1903) reconsidered Lie's treatment of the foundations of
+
+ geometry, he used a point-set topological approach and resorted to concepts of analy
+ sis situs for the characterisation of continuity as a local property. Hilbert succeeded
+
+ in providing an axiomatic foundation for two-dimensional geometry that started with
+
+ only continuity assumptions. Part of his success was due to his definition of the plane
+
+ as a two-dimensional manifold because it allowed him to use the point-set topology
+
+ of R2. But Hilbert's achievements still left unanswered the question of how to char
+
+ acterise three-dimensional continuous space in a study of geometry that starts with
+
+ continuity assumptions only. It is precisely this question, the challenge of extending
+
+ Hilbert's concept of the plane to a three-dimensional manifold, that I will refer to as
+
+ Hilbert's continuity of space problem.
+
+ This challenge was taken up in 1904 by Frigyes Riesz, a young Hungarian mathe
+
+ matician, who later became best known for his work on functional analysis. First as a
+
+ student and then in the early years of his career, Riesz investigated questions related
+
+ to Hilbert's work on geometry. In fact, Riesz's early mathematical work (1904-1908)
+
+ was marked as much by nis involvement with Hilbert's work on geometry and analy
+
+ sis as by his interest in the developments of analysis in France. He was particularly
+
+ 1 I will use the name ‘(abstract) point-set topology' to designate the historical research area concerned
+
+ with the study of topological properties of sets of points such as closed, open, dense. In this way, I attempt
+
+ to present a compromise between the historical name ‘(abstract) point-set theory' and the modern name
+
+ 'general topology'. Thus, the terms ‘topology，and 'topological' will refer here to a research area rather
+
+ than to a system of neighbourhoods.
+
+ Ô Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 09:53:23 UTC
+All use subject to https://about.jstor.org/terms
+
+ Frigyes Riesz and the emergence of general topology 57
+
+ interested in the work carried out by Emile Borel, Henri Lebesgue, René Baire and
+
+ Maurice Fréchet. The fact that point-set topological methods had assumed a central
+
+ role in both Hilbert's work on geometry from 1902 and contemporary French analy
+
+ sis was the core of Riesz's motivation in approaching Hilbert's continuity of space
+
+ problem. Hilbert's technical approach motivated Riesz to search for a point-set topo
+
+ logical characterisation of continuous space that might be useful for both geometry
+ and (functional-) analysis.
+
+ The present essay traces back Riesz's early work on set theory and abstract point-set
+
+ topology to Hilbert's continuity of space problem through the following sequence of
+
+ events: in November 1904, Riesz wrote to Hilbert about his research on set theory
+
+ and its application to the concept of continuous space. In January 1905, he submitted
+
+ an article on the pure set-theoretical part of his investigations to the Mathematischen
+
+ Annalen, ajournai which was at that time co-edited by Hilbert. The paper appeared that
+
+ same year (1905c). In July 1905, he attended a meeting of the Gôttingen Mathematical
+
+ Society and presented the research he had communicated to Hilbert in his November
+
+ letter.2 However, his results concerning the space problem were never published in
+
+ Gottingen. They appeared instead in Hungary in 1906. Thus, it would seem that Riesz
+
+ failed to gain Hilbert's support for this aspect of his work. The original Hungarian
+
+ version of his article was entitled ‘The origin of the notion of space’ (Riesz 1907a).
+
+ Fortunately, its German version 'Die Genesis des Raumbegriffs' (the Genesis, for
+
+ short) appeared soon in an Hungarian international journal (Riesz 1906b). It is thanks
+
+ to the German version that I was able to understand that Riesz intended to approach
+
+ Hilbert's continuity of space problem. In order to do so, he had started to develop an
+
+ abstract point-set theory, a theory that today is known as general topology.
+
+ It is not a new discovery that the Genesis contains a pioneer contribution to the
+
+ development of an abstract point-set topology. Prior to this essay, other historians
+ have referred to the Genesis in this way.3 The first relevant reference to the Gen
+
+ esis was made by Taylor (1982) in a paper dedicated to Frechét's early work on
+ point-set theory.4 There Taylor not only summarises Riesz's rudimentary theory of
+ mathematical continua but also rightly points out that Riesz did not use the word
+
+ ’topology’，a term which together with today's notion of topological space was first
+
+ introduced by Felix Hausdorff (1914). Referring to the Genesis Taylor (1982, p. 268)
+ remarks:
+
+ This paper is not, in the main, about general point-set topology, either concrete
+
+ or abstract. It is a quasi-philosophical paper in which Riesz attempts to construct
+
+ a mathematical model for the geometry of space as needed or used in physics.
+
+ In so doing he formulated a notion of what he called a mathematical continuum.
+
+ This notion is, in fact, that of an abstract space with a rudimentary topology
+ defined axiomatically.
+
+ 2 See the report of the 12th meeting from 25 July 1905 in Jahresbericht der DMV 14(1905).
+
+ 3 E.g. Manheim (1964), Johnson (1981)，Taylor (1982)，Thron (1997) and more recently Purkert et al.
+ (2002).
+
+ 4 Manheim (1964) discusses the Genesis very shortly.
+
+ 自 Spring* :er
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 09:53:23 UTC
+All use subject to https://about.jstor.org/terms
+
+ Taylor's emphasis on the ‘quasi-philosophical’ character of Riesz's paper indicates
+ that he, and with him all other historians of mathematics who have discussed the
+
+ Genesis after him, overlooked Riesz's genuine interest in geometry. Because of its
+
+ complexity many sections of the Genesis were never read. Only its introduction and
+
+ two of 14 sections found attention. Historians have approached the Genesis only
+
+ from the viewpoint of history of general topology. Therefore, they have focused on
+
+ Riesz、rudimentary theory of mathematical continua, recognising it rightly (as well as
+
+ Fréchet's works from 1904 to 1906) as a pioneer's contributions to abstract point-set
+
+ 58 L. Rodriguez
+
+ topology.
+
+ Thus, it has been ignored until now that Riesz's contribution emerged in a broad
+
+ scientific context that included not only current philosophical and scientific discussions
+
+ about space but also research on the foundations of geometry at that time.5 In order
+
+ to understand Riesz's aims in the Genesis, it is worth going through the other twelve
+
+ sections, which are indeed difficult to read, and whose contents will appear weird to
+
+ the modern reader. In fact, Riesz's project is as brilliant and fascinating as Kepler's
+
+ ‘Mysterium cosmographicum’，but, just as the latter, it does not work. It is the project
+
+ of a mathematician attempting to find a mathematical model for the space of our
+ sensations.6
+
+ Unfortunately, most of the fascinating passages of the Genesis will be discussed
+
+ only superficially, if at all, because they fall beyond the scope of this essay. Here, I
+
+ investigate how Riesz's concept of a ‘mathematical continuum’ evolved from Hilbert's
+
+ work on the foundations of geometry, and especially from Hilbert's continuity of space
+
+ problem.7
+
+ We start in Sect. 2 with Hilbert's work on the foundations of geometry and its
+
+ relation to his fifth Paris mathematical problem. Then, I present Hilbert's notion of
+ a two-dimensional continuous space and the problem of generalising it to higher
+ dimensions (Hilbert's continuity of space problem). I then analyse Hilbert's use of
+
+ topological methods on an abstract set, which he presented at a time when the concept
+
+ of topology did not yet exist.8 This analysis plays a key role in my attempt to show
+
+ the relation of Riesz's concept of mathematical continuum with Hilbert's continuity
+
+ of space problem from a technical mathematical viewpoint.
+
+ In Sect. 3,1 summarise Riesz's early contributions to analysis situs, point-set topol
+
+ ogy and theory of multiple order types pointing to two important aspects of Riesz's
+
+ research:(1)his interest in applications of Cantor's point-set theory to the development
+
+ 5 The exceptions are Johnson (1981) who gives a brief but accurate summary of the Genesis, and a few
+
+ remarks in Gray's (2008) Plato's Ghost where the doctoral thesis of Rodriguez (2006) is acknowledged.
+
+ 6 For an extensive description of the Genesis, see my thesis (Rodriguez 2006, chap. 5-8).
+
+ 7 The present article extends certain results that I presented in my thesis (Rodriguez 2006). Besides, it
+ offers a focused discussion on both the relation of Riesz's early work to Hilbert's work on the foundations
+
+ of geometry and Riesz's treatment of Hilbert's continuity of space problem in the Genesis.
+
+ 8 Hilbert's concept of two-dimensional continuous space has repeatedly been object of study in the history
+ of mathematics, principally by Scholz (1999). In Purkert et al. (2002), Hilbert's concept is discussed in
+
+ connection with the history of the concept of manifold and the history of Hausdorff's concept of topological
+
+ space. However, as far as I know, such a technical analysis of Hilbert's way of doing point-set topology on
+
+ the plane has not yet been presented in published form.
+
+ 自 Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 09:53:23 UTC
+All use subject to https://about.jstor.org/terms
+
+ Frigyes Riesz and the emergence of general topology 59
+
+ of analysis in France and (2) his interest in problems related to Hilbert's foundations
+
+ of geometry.
+
+ Following the chronological flow of events, Sect. 3.4 provides an insight into two
+
+ letters addressed to Hilbert in which Riesz communicated his recent research. Finally,
+
+ in Sect. 41 discuss Riesz、concept of a ‘mathematical continuum’ and the rudimentary
+
+ abstract point-set topology he developed from it. There I explain how Riesz intended
+
+ to apply that framework to Hilbert's continuity of space problem. In Sect. 5, the
+
+ methods and concepts used by Hilbert and Riesz in their own attempts to characterise
+
+ continuous space are compared, as well as their notions of continuous space.
+
+ Section 6 is dedicated to the reception of Riesz's ideas in the context of general
+
+ topology. In preparation, I briefly discuss the lecture Riesz gave at the International
+ Congress of Mathematicians in Rome in 1908. This lecture was published in the
+
+ congress proceedings (Riesz 1909). That was the only occasion in which Riesz pre
+
+ sented the work he started in the Genesis. From now on, I will refer to this paper as
+ Riesz's Rome lecture.
+
+ 2 Hilbert's continuity of space problem
+
+ In 1900, David Hilbert emerged as a leading mathematician in Germany. At the sec
+
+ ond International Congress of Mathematicians in Paris, where he was invited to give
+
+ a plenary lecture, he presented his famous list of 23 mathematical problems. The
+
+ fifth focused on the foundations of geometry and specifically, the continuity of space
+
+ problem.
+
+ In response to this problem, Hilbert produced two papers (1902b; 1903). They
+ contain an approach to the foundations of geometry that was entirely different from
+
+ the one in his celebrated book ‘Grundlagen der Geometrie’ of 1899 (Hilbert 1956).
+
+ Both papers are called ‘On the Foundations of Geometry, (‘Ueber die Grundlagen der
+
+ Geometrie’). The first appeared in the GottingerNachrichten and consisted essentially
+ of a sketch of his second paper which was published in the Mathematischen Annalen.
+ I will refer to the former as memoir，to the latter as his Annalennote, and to his book
+
+ as Festschrift.9
+
+ 2.1 Hilbert's fifth mathematical Paris problem
+
+ Hilbert's fifth Paris problem was based on the so-called Riemann-Helmhohz-Lie
+
+ space problem. From the perspective of mechanics, Hermann von Helmholtz had
+
+ investigated the question of which of all the possible spaces opened to exploration by
+
+ Riemann's notion of three-dimensional manifold could best describe physical space.10
+
+ He was of the opinion that in those optimal spaces, measurement has to be possible, and
+
+ that only these spaces deserved the name of geometry. Helmholtz postulated that the
+
+ possibility of measurement rests upon the existence of rigid bodies that can be trans
+
+ 9 Hilbert let his Annalennote appear in the appendix of his Festschrift from its third edition (1903) on (e.g.
+ Hilbert 1956, pp. 178-230).
+
+ 10 It was Lie who called the task set forth by Helmholtz 'Riemann-Helmholtz space problem'.
+
+ 公 Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 09:53:23 UTC
+All use subject to https://about.jstor.org/terms
+
+ 60 L. Rodriguez
+
+ ported everywhere without suffering any deformations. This is known as Helmholtz's
+
+ postulate of the free mobility of rigid bodies. Starting from this postulate, Helmholtz
+
+ succeeded in limiting the class of geometries to the now so-called simply connected
+
+ three-dimensional manifolds with constant curvature, namely the Euclidean, the non
+
+ Euclidean Bolyai-Lobachevsky，the spherical and the elliptical geometries. Although
+
+ his ideas were essentially valid, his mathematics was rather deficient.11 Around 1890,
+
+ Sophus Lie managed to correct Helmholtz's ideas by formalising the notion of motion
+
+ using his concept of an infinitesimal transformation group that he had used in his
+
+ general theory of continuous groups. However, Lie's approach depended on certain
+
+ differentiability assumptions concerning the functions that defined the group. Hilbert
+
+ found these assumptions unsatisfactory.
+
+ In Paris, Hilbert discussed his fifth problem as follows:
+
+ It is well known that Lie, with the aid of the concept of continuous groups
+
+ of transformations, has set up a system of geometrical axioms and, from the
+
+ standpoint of his theory of groups, has proven that this system of axioms suffices
+
+ for geometry. But since Lie assumes, in the very foundation of his theory, that the
+
+ functions defining his group can be differentiated, it remains undecided in Lie's
+
+ development, whether the assumption of the differentiability in connection with
+
+ the question as to the axioms of geometry is actually unavoidable, or whether
+
+ it may not appear rather as a consequence of the group concept and the other
+
+ geometrical axioms.12
+
+ Thus, Hilbert was wondering whether the differentiability assumptions imposed by
+
+ Lie had to be included. He suspected that it was possible to find both a more suitable
+
+ system of axioms for geometry and a more appropriate characterisation of the con
+
+ tinuity of the group of transformations so that the differentiability properties would
+ follow as a necessary consequence and would not need to be included among the
+ assumptions. Hence, from the perspective of Hilbert's famous axiomatic approach in
+
+ his Festschrift of 1899, the task Hilbert was setting forth concerned the mutual inde
+
+ pendence of the elementary assumptions. This issue, typical in Hilbert's foundations
+
+ of geometry, can be summarised in the following question: how far can geometry be
+
+ established using a group-theoretical approach and starting merely from continuity
+
+ assumptions?
+
+ It is precisely in these terms that Hilbert explained his new approach to the foun
+
+ dations of geometry in his Annalennote:
+
+ There [in his Festschrift, LR] the axioms were arranged in such a way that
+
+ continuity is assumed after all the rest of the axioms as the last one, so that
+
+ naturally the question arises as to what extent are the known theorems and results
+
+ of elementary geometry dependent on any continuity assumptions. In the present
+
+ 11 This summary of Riemann-Helmholtz-Lie problem up to Lie's contribution is based on the one given
+
+ by Torretti (1978, pp. 155-178). In the discussion ofHilbert's contribution, I distance myself from Torretti's
+
+ following my own interpretation.
+
+ 12 Translated for the Bulletin of the AMS, with the author's permission, by Dr. Mary Winston Newson’，
+
+ Hilbert (1902a, p. 451); original German version in Hilbert (1900, p. 269).
+
+ â Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 09:53:23 UTC
+All use subject to https://about.jstor.org/terms
+
+ Frigyes Riesz and the emergence of general topology 61
+
+ paper, continuity is assumed on the contrary before any other axiom, from the
+
+ very beginning, via the definitions of plane and motion, so that the main task
+
+ consists of finding out the least possible number of assumptions from which
+
+ (and making extensive use of the continuity property) the elementary objects of
+
+ geometry (circle and line) can be obtained as well as those properties that are
+
+ necessary to establish geometry.13
+
+ Thus, in this new approach ‘continuity，is a fundamental concept and as such, Hilbert
+
+ intended to make extensive use of it as a property of both the plane and motion in a
+
+ plane, so as to find out the least possible number of further assumptions necessary to
+
+ establish geometry.
+
+ From a technical point of view, two questions need to be addressed: how is the
+
+ concept of a continuous space to be defined? and how is the concept of a continuous
+
+ group to be defined? This last question is not of further interest to us here. It is sufficient
+ to mention that its solution is known as the solution of Hilbert、fifth mathematical
+
+ problem. Its importance is associated with the emergence of a whole new branch of
+
+ mathematics: the theory of topological groups.14 The question I will deal with is: how
+
+ to define the notion of a continuous space?
+
+ 2.2 Hilbert's concept of continuous space
+
+ As a first approach to the concept of a continuous space, Hilbert chose Riemann's
+
+ notion of an n-dimensional manifold. Until the end of the nineteenth century, this
+
+ notion had not been clearly defined but was commonly understood as a ‘number
+ manifold', i.e. a subset of Rn or Cn. Hilbert did not resort to Lie's and Helmholtz's
+
+ concept of an «-dimensional differentiable manifold. Instead he formulated his own
+
+ definition of a two-dimensional manifold. His notion corresponds to today's concept
+
+ of a topological two-dimensional manifold.
+
+ Hilbert methodically explored a new approach to continuity by incorporating recent
+
+ point-set topological practices in analysis. As a result, Hilbert succeeded in formulating
+
+ the most accurate definition of the concept of two-dimensional manifold at the time.15
+
+ From Cantor's point-set theory, he took elementary concepts such as open, closed,
+
+ dense and perfect sets. Most importantly, he resorted to the characterisation of contin
+
+ uous functions by means of the notions of convergence of a sequence, limit point and
+
+ accumulation point. From analysis situs，Hilbert used the concept of a closed Jordan
+
+ curve, the Jordan curve theorem and a converse of the Jordan curve theorem (a charac
+
+ terisation of a closed Jordan curve using methods of both point-set topology and analy
+
+ sis situs). Analysis situs was a research area that primarily concerned with the study of
+
+ qualitative relations of space that are independent of any metric relation characteristic
+
+ of geometry, e.g. connectedness and the reciprocal position of bodies in space.
+
+ 13 Hilbert (1903)，422; reprint in Hilbert (1956), 230, my translation.
+
+ 14 For an overview, see Browder (1974), Aleksandrov (1998), Rowe (1995). On the history of topological
+ groups in conjunction with Hilbert's fifth problem, see Hawkins (1999).
+
+ 15 On the history of the concept of manifold, see Scholz (1999).
+
+ Ô Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 09:53:23 UTC
+All use subject to https://about.jstor.org/terms
+
+ 62 L. Rodriguez
+
+ 2.3 Neighbourhoods and Jordan domains
+
+ The fundamental concept in Hilbert's characterisation of continuous space was the
+
+ notion of a neighbourhood. He defined it in terms of Jordan domains in R2 and of
+
+ what today are called coordinate functions.
+
+ By a Jordan domain, Hilbert understood the interior of a closed Jordan curve in
+
+ R2, i.e. the interior of a plane, continuous curve without multiple points.16 Then, he
+
+ defined a system of neighbourhoods in the plane by means of a system of bijective
+
+ images of Jordan domains (under the coordinate functions) that satisfy certain axioms.
+
+ Clearly, Hilbert was relying on the Jordan curve theorem that asserts that every
+
+ closed Jordan curve separates the plane into two domains: the interior, a bounded
+
+ simply connected domain in Riemann's sense, and the exterior.17
+
+ 2.4 Axiomatising the system of neighbourhoods
+
+ In his memoir, Hilbert presented two definitions of the plane. The first one is rather
+
+ more general than the second, which is the only one that he actually used in his Annalen
+
+ note. According to Hilbert's memoir，the definition of the plane as two-dimensional
+ manifold reads in modern notation as follows:
+
+ The plane £ is a point-set in which to each point p there corresponds a family
+
+ of so-called neighbourhoods formed by sets U ç. E containing p. The system of
+ neighbourhoods fulfils six axioms.
+
+ 1• For every neighbourhood, there exists a one-to-one mapping onto a Jordan domain
+
+ [In line with modern terminology I call these mappings coordinate functions.].
+
+ 2. Let V be a Jordan domain such that ノー1(y) is a neighbourhood of p and let ひ ç V
+
+ be any other Jordan domain with j(p) e U, then the converse image j-1(U) is
+ also a neighbourhood of p.
+
+ 3. If a neighbourhood has two different images, then the corresponding coordinate
+
+ change is a continuous mapping，i.e. let (p : U V and 妒：ひ—W be two
+ coordinate functions of the same neighbourhood U onto the Jordan domains V
+ and W, then the coordinate change cp . 0"1:V W is a bijective continuous
+ mapping from V C H2 onto W C E2.
+
+ 16 Hilbert (1902b, p. 234). Toiretti (1978, p. 186) has rightly pointed out that Hilbert understood a closed
+ Jordan curve to be a continuous function f : [a, b] c R — R2, such that / is injective on (a, b) and
+ / ⑷=f(b).
+
+ 17 The Jordan curve theorem was established by Camille Jordan in his 'Cours d'analyse’ in 1893. Although
+
+ the theorem seems trivially true, the proof Jordan provided was not simple. Already at the beginning of the
+
+ twentieth century, there were several mathematicians who found Jordan's proof unsatisfactory and offered
+
+ their own proofs, Veblen (1905) and Brouwer (1910) among others. Following Hales (2007), however, who
+
+ recently verified Jordan's original proof, the credit for the first correct proof can go to Jordan. I thank Jeremy
+
+ Gray for pointing me to this paper of Hales. See Guggenheimer (1977) for a recount of further attempts to
+
+ prove the Jordan curve theorem prior to Brouwer's proof from 1910. Guggenheimer (1977) also reported
+
+ on a manuscript found in Max Dehn's Archives containing a proof of the Jordan curve theorem that Dehn
+
+ worked out around 1900. In that year, Dehn, who was a student ofHilbert's, finished his thesis on foundations
+
+ of geometry. Dehn never published his results. Guggenheimer seemed unaware of the importance of Dehn's
+
+ proof for Hilbert's memoir. Thus, their connection remains to be investigated.
+
+ â Springe
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 09:53:23 UTC
+All use subject to https://about.jstor.org/terms
+
+ Frigyes Riesz and the emergence of general topology 63
+
+ <t>~1
+
+ U
+ u
+
+ 、© „©
+
+ Fig.1 Axiom 3 states that the coordinate change (p ‘ 0~l : V — W is a bijective continuous mapping
+ from V c R2 onto W c R2
+
+ 4. A neighbourhood U of p containing the point q is also a neighbourhood of q.
+
+ 5. For every two neighbourhoods U and V of p, there exists a neighbourhood W of
+
+ p such that W c U DV.
+
+ 6. For any two points p，q of the plane, there exists a common neighbourhood.18
+
+ Clearly, these axioms do not include any differentiability assumptions. Besides,
+
+ as Scholz (1999) rightly pointed out, given that the system of Jordan domains deter
+
+ mines what today is called a neighbourhood basis for the standard topology of E2,
+
+ this system of axioms provides a sufficiently rich system of neighbourhoods so that, in
+
+ modern terms, the plane is topologised as a C°-manifold, i.e. the system of neigh
+
+ bourhoods defines a topology with respect to which all coordinate functions are
+ continuous.19
+
+ Hilbert's general concept of the plane comprises several aspects of the concept of
+
+ continuity. The first axiom states that locally (i.e. inside every neighbourhood) the
+
+ plane has as many points as any Jordan domain in E2. Hence, Hilbert regards car
+
+ dinality as one criterion for continuity. From today's perspective, it can be said that
+ axiom (2) together with axioms (4)-(6) stand for the characterisation of the local
+
+ topology, since they guarantee that each neighbourhood is provided with a sufficiently
+ rich system of neighbourhoods via the coordinate functions and the standard topol
+ ogy of E2. Axiom (3) combines the topological with the analytical aspect of con
+ tinuity, i.e. it combines the structure determined by the system of neighbourhoods
+
+ with the analytical notion of continuous function. This is expressed by the simple
+ fact that two images of a neighbourhood are topologically related to each other in
+ such a way that the coordinate change is â continuous function from R2 to R2 (see
+ Fig.1). ン
+
+ In his Annalennote, Hilbert's ‘less general' definition of the plane, as he called it,
+
+ does not include axiom (3) but assumes instead the existence of a global coordinate
+
+ function k : E — B c R2 (see Fig. 2) that maps the whole plane E onto a bounded
+
+ 18 Hilbert (1902b), 234-235. The condition (2) is stated following Scholz (1999) who rightly translated
+ Hilbert's unclear formulation.
+
+ 19 According to Scholz (1999), Hilbert's definition of the plane was the first attempt at an axiomatic
+
+ definition of the concept of manifold. In Purkert et al. (2002), Scholz discusses Hilbert's memoir focusing
+
+ on the historical relation between Hilbert's system of neighbourhoods and the concept of topological space. I
+
+ take a different approach and focus on Hilbert's notion of accumulation point for the plane and consequently
+ on the role played by his neighbourhoods axioms.
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 09:53:23 UTC
+All use subject to https://about.jstor.org/terms
+
+ â Springer
+
+ 64 し Rodriguez
+
+ R2
+
+ Fig. 2 In his Annalennote, Hilbert assumes the existence of a global coordinate function k that maps the
+ whole plane E onto a bounded open domain B cB?
+
+ E '
+
+ E'
+
+ Fig. 3 In Hilbert's Annalennote, a neighbourhood of a point p € £ is no longer a set in E but a Jordan
+ domain J c B containing the image under k of pin E2
+
+ open domain B c R2. This implies a restriction of the possible spaces on which he
+
+ intended to establish geometry. It excludes the possibility of elliptic geometry.
+
+ Furthermore, the Annalennote contains another very interesting redefinition of the
+
+ concept of neighbourhood that not only shows a change in Hilbert's epistemic concep
+
+ tion of this notion but is also an important clue for understanding of Hilbert's technical
+ approach. While in his memoir, a neighbourhood of is a set U C E containing p
+ that can be mapped one-to-one onto a Jordan domain in E2, in his Annalennote it is
+
+ any Jordan domain 7 in B C R2 containing the image under k of p (see Fig. 3 and
+
+ Hilbert (1903, p. 383)). That means that a neighbourhood of a point p € £ is no longer
+ a subset of E but of R2.
+
+ This identification of the system of neighbourhoods in the plane E with the system
+
+ of Jordan domains in R2 went hand in hand with the restriction to hyperbolic and
+
+ Euclidean geometry mentioned above. Technically, k is legitimated by the assumption
+
+ of a global chart in conjunction with the other axioms. With this identification, Hilbert
+
+ wanted to achieve a way of working only on B，the image under k of the plane E in
+
+ R2. Why? Because Cantor's point-set topology ofE2 works in B and so does classical
+
+ analysis.
+
+ 2.5 Motion and continuity
+
+ â Springer
+
+ That Hilbert wanted to reduce the analysis and the point-set topology of E to the
+
+ analysis and the point-set topology of R2 seems evident in his definition of motion as
+ a continuous function.
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 09:53:23 UTC
+All use subject to https://about.jstor.org/terms
+
+ Frigyes Riesz and the emergence of general topology 65
+
+ E2
+
+ B
+
+ B
+
+ k.g.k-1
+
+ ^ R2
+
+ Fig. 4 Hilbert defined motion as a bijective mapping g : E — E such that the corresponding mapping
+
+ k g'k"x :B B isa continuous mapping from B onto B, where B, the image under the global chart k，
+ is a Jordan domain in R2. The continuity of a plane transformation is to be checked in E2
+
+ A motion is a bijective continuous mapping from E onto itself preserving the
+
+ orientation of any Jordan curve.20 The challenge consisted of defining the notion of
+
+ 'continuous mapping，from E onto E，because there was no theoretical framework
+
+ available at that time that would enable one to define a 'continuous mapping’ on the
+
+ abstract set E; theories about abstract topological and metrical spaces did not yet
+
+ exist. Hilbert mastered this challenge by focusing on the combination of coordinate
+
+ functions as mappings from E2 onto R2.
+
+ In his memoir，a motion is as a bijective function from E onto E that maps neigh
+
+ bourhoods ‘continuously’，meaning that the corresponding mapping via the coordinate
+
+ functions is a continuous mapping from a Jordan domain onto another Jordan domain
+
+ in E2 (Hilbert 1902b, p. 236). In his Annalennote, once the existence of a global coor
+
+ dinate function k has been assumed, the concept of motion is defined as a bijective
+
+ mapping g : E — E such that the corresponding mapping k-g-k"1 : B — B，B C R2,
+ is a continuous mapping preserving the orientation of any Jordan curve (see Fig. 4
+
+ and Hilbert (1903, p. 383). This means, the continuity of a transformation is then to
+
+ be checked in E2~just as the continuity of the coordinate change (Fig.1).
+
+ Hilbert added then the following three axioms characterising the set of motions.
+
+ Axiom I The set of motions constitutes a group.
+ Axiom II A ‘true circle' through the point y centred at the point x is the set of all
+
+ rotations of y around x. A true circle is an infinite set. A rotation around
+
+ ^ is a motion g such that g(x) = jc.
+
+ Axiom HI The set of motions constitutes a closed system.
+
+ Incidentally, axiom III is one of the most important and original of Hilbert、con
+
+ tributions to the Riemann-Helmholtz-Lie space problem because this condition char
+
+ acterises the continuity of the group of motions. However, my concern is how Hilbert
+
+ handled this condition technically: he resorted to Cantor's point-set topological meth
+ ods on E2.
+
+ 20 Hilbert's general concept of motion appeared in both his memoir and his Annalennote. See Hilbert
+ (1902b, p. 236) and Hilbert (1903, p. 383).
+
+ 姿 Springe
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 09:53:23 UTC
+All use subject to https://about.jstor.org/terms
+
+ 66 L. Rodriguez
+
+ 2.6 Cantor's point-set topology on the plane
+
+ By taking full advantage of the coordinate functions, and more specifically of the
+
+ global chart k, Hilbert introduced point-set topological methods in the plane E. The
+
+ general idea is that a sequence is said to converge on E if its image under k converges
+
+ in R2 and a point p in £ is an accumulation point of F C £ if its image under k is an
+
+ accumulation point of the image under k of F in E2.
+
+ The central notion is again that of a Jordan domain in E2 because these domains
+
+ are the images under k of the neighbourhoods in E and because the metric topology
+
+ of R2 allows a notion of closeness as follows: let a be a point in E and let k{JJ) be
+
+ an arbitrarily small Jordan domain enclosing k{a), then all those points p such that
+
+ k(p) e k(U) are said to be arbitrarily close to a. This kind of topological identification
+
+ of E with E2 is emphasised by the fact that Hilbert opted for assigning the same
+
+ letter to both, the points and subsets of E and their respective images under k in E2
+
+ (Hilbert 1903, p. 384).
+
+ Using this idea of closeness, Hilbert explained axiom III as follows: Let
+
+ A, B, C, A\ B\ C be points of the plane. If there exist any motions that map
+ points arbitrarily close to A，B，C to points arbitrarily close to A’，fi’，C’，then
+ there exists a motion that maps the points A, B，C to A\ B\ C'. That means:21
+ If Vど > 0，there exists 5 > 0 and a motion ge such that V jc, y, z with
+ \ x — A\< S, \ y — B \< S and \ z — B \< S their images satisfy | gs(x) 一 A' \< s,
+ I g£(y) — Bf |< s and | ge(z) 一 C’ |< s, then there exists a motion g such that
+ g(A) = A\ g(B) = Bf andg(B) = B\
+
+ Once he had established this idea of closeness, he then easily introduced further
+
+ point-set topological concepts in E. His notation, however, makes it difficult for the
+
+ reader to perceive whether he is referring to point-sets of E or oi R2. Nowhere did
+
+ he explicitly define either the notion of convergence of a sequence of points in E or
+
+ the concept of accumulation point of a subset A c E. However, in his demonstrations
+
+ he assumed that a sequence of points in E is convergent if its image under k in R2 is
+
+ convergent. He regarded p as an accumulation point of a subset A C E, if k(p) is an
+
+ accumulation point of A:(A) C k(E) in E2, i.e. if every arbitrarily small neighbourhood
+
+ of p contains an infinity of points of A in the sense explained above.
+
+ He reduced the continuity of a mapping from £ to £ or from E to Rム to the
+
+ continuity of the corresponding mapping from E2 to This is already evident in the
+
+ introduction of his Annalennote. There he announced some of the main results, e.g.
+
+ (1)the true circle is a closed set that is dense in itself, i.e. a perfect set; (2) in order
+
+ to prove that the true circle is a Jordan curve, he shows the existence of a continuous
+
+ bijective mapping from the true circle to a standard circle and (3) he uses the notion
+
+ of accumulation point in his definition of the 'true straight line'.22
+
+ This implidt notion of an accumulation point in E implies that all topological
+ properties (open, close, dense) of subsets of E depend on the point-set topology of
+
+ 21 Following Hilbert, I formulate axiom III for motions as transformations from R2 to E2. The given
+ formulation in modern terms is my own and is equivalent to both the one given by Scholz (Purkert et al.
+
+ 2002, p. 709) and the one by Toretti (1978, p. 187).
+
+ 22 See (Hilbert, 1903, pp. 386-387).
+
+ Ô Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 09:53:23 UTC
+All use subject to https://about.jstor.org/terms
+
+ Frigyes Riesz and the emergence of general topology 67
+
+ R2. Hilbert's concept of an accumulation point works because he made sure that
+
+ the system of neighbourhoods is sufficiently rich.23 His system of neighbourhoods
+
+ generates what today is called a basis for the weak topology induced by the coordinate
+
+ functions. Convergence of a sequence, as understood by Hilbert, is nothing other than
+
+ the weak convergence of the sequence with respect to the coordinate functions. Hence,
+
+ the system of neighbourhoods and correspondingly the system of coordinate functions
+
+ made it possible to define the concept of an accumulation point in terms of Jordan
+
+ domains and, consequently, to ensure the applicability of Cantor's point-set topology
+
+ of R2 for topological investigations on the plane E.
+
+ And yet, the development of mathematics at that time allowed, as Riesz was to
+
+ show, a different, truly point-set topological approach to the notion of continuity of
+
+ space. Hilbert, however, was not interested in developing point-set theory. In fact, his
+
+ Annalennote and his memoir are the only works in which Hilbert actually applied
+
+ Cantor's point-set theory.
+
+ 3 Riesz's early works and point-set theory
+
+ In his early research career, i.e. before he focused on functional analysis, Frigyes
+
+ Riesz's worked on geometry, analysis situs, point-set topology and the theory of order
+
+ types.
+
+ In 1902, Riesz finished his doctorate in Budapest with a thesis on geometry after
+ spending one year in Gôttingen as a student, sometime between 1899 and 1902, the
+
+ precise date is unknown. During this period, Hilbert had been working on the foun
+
+ dations of geometry: he had lectured on geometry in the winter term of 1898/1899,
+
+ his Festschrift appeared in 1899, his memoir was submitted in November 1901, his
+
+ Annalennote in Mai 1902, and in the summer term of 1902, he lectured again on geom
+
+ etry. Judging by his early publications, Riesz probably attended one of these lectures.
+ In any case, he knew Hilbert's work on the foundations of geometry very well. If he
+
+ missed the lectures, he still had the chance to study them from notes that were freely
+
+ accessible to students in the library of the mathematical institute.24 Riesz came back
+
+ as a young researcher and a guest of the Gôttingen Mathematical Society in the winter
+ term of 1903.
+
+ At the end of 1904, Riesz was in scientific correspondence with Hilbert. In the
+ meantime, he published a paper on the converse of the Jordan curve theorem (1904c).
+
+ This was followed by a long paper on multiple order types (1905c) and two short
+
+ notes on topological questions, one concerning the theorem now known as the 'Heine
+
+ Borel，or ‘Borel -Lebesgue’ theorem (1905b) and the other on the concept of dimension
+
+ 23 Technically, if X and y are first countable spaces, then it is valid to reduce continuity to sequential
+ continuity as follows: f : X ^ Y is continuous iff whenever xn x in X，then f(xn) -> f(x) in Y
+ (Willard 1970, p. 71).
+
+ 24 The production of such lecture notes was one of those peculiarities ofHilbert's that was highly appreciated
+
+ by students. Hallett and Majer (2004) edited Hilbert's lectures and notes on foundations of geometry,
+ including the lecture of 1902. In the introduction, the editors explain how these Ausarbeitungen came about
+ under Hilbert's close supervision.
+
+ Ô Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 09:53:23 UTC
+All use subject to https://about.jstor.org/terms
+
+ 68 L. Rodriguez
+
+ (1905a). At a meeting of the Gôttingen Mathematical Society in July 1905, he reported
+
+ on ‘his set-theoretical research and its connection to the space problem’.25
+
+ Most of what he covered in these four papers was building up to a long article
+
+ published in 1906 entitled 'The Origin of the Concept of Space’. Its German version,
+ ‘Die Genesis des Raumbegriffs’ (1906b), was supposed to appear that same year
+ but the corresponding volume of the journal was actually printed in 1909. In the
+
+ Genesis, Riesz attempted to contribute to Hilbert's continuity of space problem by
+
+ extending Hilbert's concept of two-dimensional manifold to higher dimensions. Not
+
+ only did Riesz himself point to the connection between the Genesis and Hilbert's
+
+ foundation of geometry but he also discussed this connection in his correspondence
+
+ with Hilbert (see Sect. 3.4). This connection explains why, in the papers mentioned
+
+ above, Riesz investigated concepts and results that Hilbert had applied or established:
+
+ e.g. the concepts of neighbourhood, accumulation point, connectedness, the theorems
+
+ concerning Jordan curves, the Heine-Borel and Bolzano-Weierstrass theorems.
+
+ Riesz's early works show how intellectually close he was to both Hilbert、math
+
+ ematics and the French developments in analysis which were exploring the field of
+
+ point-set topology beyond Cantor's theory. Riesz's position allowed him to synthesise
+
+ these mathematical cultures in his research. The best known of his synthesising ideas
+
+ is undoubtedly his work, starting in 1906, on the space of functions L2, His first syn
+
+ thesis, however, occurred in the Genesis and k concerns his theory of mathematical
+
+ continua. This is the subject of the present article.
+
+ 3.1 On analysis situs
+
+ The paper ‘On a theorem from analysis situs' (1904c) shows that Riesz had developed a
+
+ deep insight into diverse aspects ofHilbert's work on the foundations of geometry. This
+
+ is apparent not only because of the multiple references to Hilbert's Annalennote but
+
+ also because Riesz approached the converse of the Jordan curve theorem by adapting
+
+ a method presented by Hilbert.26
+
+ In this paper, Riesz worked out an alternative proof for a theorem that had been
+
+ formulated and proven by Arthur Schoenflies in 1902.27 Sharpening Schoenflies's
+
+ theorem Riesz proved that if a perfect bounded subset P of the plane separates the
+
+ points of the plane that are not contained in P into two domains: an inside set I and
+
+ an outside set O such that (1)every arbitrary pair points of I resp. of O can be joined
+
+ by a Jordan curve containing only points of I resp. of O, (2) every point p of P can
+
+ be joined to every point of I resp. of O by a Jordan curve that apart from p contains
+
+ only points of I resp. of O and (3) every Jordan curve joining a point of I with a point
+
+ of O contains at least one point of P, then the set P can be mapped bijectively and
+
+ continuously to the points of a circle.
+
+ Riesz's proof is based on the method Hilbert used to prove that the ‘true circle’
+
+ is a closed Jordan curve一an assertion that Schoenflies himself saw as a particular
+
+ 25 See protocol in Jahresbericht der DMV 14 (1905)，458.
+
+ 26 Riesz refers to Hilbert (1903) and to its reprint in the Appendix of Hilbert's Festschrift.
+
+ 27 See Crilly and Johnson (1999, p.11)and Schoenflies (1902).
+
+ Ô Springe
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 09:53:23 UTC
+All use subject to https://about.jstor.org/terms
+
+ Frigyes Riesz and the emergence of general topology 69
+
+ case of the converse of the Jordan curve theorem for the 'true circle’.28 The method
+
+ consisted first in arranging the points of the set P periodically, then in mapping
+
+ the set P into the circle bijectively, and finally in showing that the mapping is
+ continuous.
+
+ Thus, already in 1904 Hilbert's work on foundations of geometry had become a
+
+ source of subjects and methods for Riesz's own research.
+
+ 3.2 On point-set topology
+
+ Riesz was not only very interested in potential applications of Cantor's point-set theory
+
+ but he also explored this theory as a scientific research area. Consequently, he closely
+
+ followed its further development, which was taking place primarily in France.
+
+ In January 1905, Riesz submitted the article ‘On a theorem by Borel’ to the
+ Comptes Rendus de la Académie de Sciences in Paris (1905b). In this short note,
+
+ he sketched a generalisation of Borel's theorem, which is the theorem now com
+ monly known as the ‘Heine-Borel’ or ‘Borel-Lebesgue’ theorem. Borel's version
+ states that for every countable open cover of a bounded and closed interval [a, b] C E,
+
+ there exists a finite subcover. Riesz rightly asserted that this also holds for uncount
+ able covers and for arbitrary, bounded closed subsets of Rw. However, Riesz lost
+
+ the priority of this generalisation to Lebesgue, who in 1904 had already proved
+ the same result.29 Riesz's interest in the Heine-Borel theorem persisted and in
+
+ the same year he succeeded in producing another generalisation to multiple order
+
+ types.
+
+ Later in October 1905, Riesz published a short note ‘On discontinuous sets’ (1905a).
+
+ There he briefly discussed the dimension problem and suggested an axiomatic defini
+
+ tion of dimension for subsets of Euclidean spaces. According to Johnson (1981), this
+
+ note represents ‘a novel approach to dimension at an early date’，even if Riesz、axioms
+
+ do not hold within the dimension theory initiated a few years later by Brouwer, Paul
+
+ Uryshon and Karl Menger.30 In this note, Riesz also presented a theorem asserting that
+
+ for every discontinuous set contained in an n-dimensional Euclidean space, n > 2,
+
+ there exists a Jordan curve containing it. The assertion is true but Riesz's sketch-proof
+
+ turned out to be wrong.
+
+ Still, the note includes two other interesting contributions. First, he called a set
+
+ discontinuous if it does not contain any connected subsets. Then, he proposed the
+
+ following point-set theoretical definition of the concept of connected set: a point
+ set A is said to be connected if it cannot be split into two subsets B and C such
+ that (B U fi’）fl C’ = 0 and fi’ fl(C U C') = 0, where B' and C' are the sets
+
+ of all accumulation points of B and C, respectively. Although Riesz did not say so
+
+ explicitly, this definition was meant for non-empty point-sets of Rn. It presents some
+
+ similarities to the definition introduced by Camille Jordan in his Course d'Analyse
+
+ 28 See Schoenflies (1904).
+
+ 29 A survey of the history of the concept of compactness is given by Pier (1980).
+
+ 30 Johnson (1981) discusses this note by Riesz within the realm of dimension theory.
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 09:53:23 UTC
+All use subject to https://about.jstor.org/terms
+
+ 姿 Springer
+
+ 70 L. Rodriguez
+
+ (1893) for perfect and bounded sets.31 However, what Riesz here called connected is
+
+ not necessarily connected in today's sense of the term.32 Nevertheless, it is remarkable
+
+ that Riesz did not resort to the notion of distance, as Cantor had done, but used only
+
+ the concept of an accumulation point.33
+
+ Later in 1904, Riesz formulated a more general concept of connectedness for mul
+
+ tiple order types and two years later he offered an absolutely accurate definition of
+
+ connectedness (absolute connected) for mathematical continua that corresponds to
+
+ today's notion for topological spaces.
+
+ 3.3 On multiple order types
+
+ Riesz's article ‘On multiple order types V (1905c) was an outstanding attempt to
+
+ develop a point-set topology for multiple order types, i.e. for sets provided with more
+
+ than one order relation. His aim was to transfer those concepts that are based on the
+
+ notion of an accumulation point from Cantor's point-set theory for linear order types
+
+ (e.g. R) to multiple ones (e.g. Rn). He was especially interested in perfect types and
+
+ perfect and connected order types, whose study he regarded as an extension of the
+
+ research area of analysis situs.
+
+ Riesz called M an n-fold ordered set if M was provided with n different orders.
+
+ The i-th order is denoted as <；, (/ =1,...,n). For instance, can be regarded as
+ an n-fold ordered set if for any pair a = (ai,...,an)9 b =(ル，..•，ル）e En, the
+ i-th order relation is defined as a <{ b whenever oti < Pi (i =1,...,n). Two sets
+ are called similarly ordered if there exists a bijective mapping preserving the rank
+
+ relations between the elements of the sets. An n-fold order type is the class of all
+ n-fold order sets that are similarly ordered.
+
+ He then introduced the concept of ‘neighbourhood’ of an element a of an n-fold
+
+ order type M. A neighbourhood of a is a set {m € M | bi くi u </ c/} determined
+ for n pairs of elements b\,c\, ...,bn9cn satisfying bi </ at <,• c, (/ =1,...,n). In
+ the example mentioned above, the «-dimensional intervals are the neighbourhoods of
+ elements of R".
+
+ Following Cantor and Hilbert, Riesz defined ‘accumulation point' in terms of neigh
+
+ bourhoods. However, Riesz's approach is more general because it uses only pure set
+ theoretical notions: let M be an n-fold order then, for a e M and N c a is an
+
+ accumulation point of N if every neighbourhood of a contains elements of N others
+
+ than a. In contrast, Hilbert insisted on ‘arbitrarily small neighbourhoods’，giving away
+ that he haa m mind the notions of distance and limit for R".
+
+ 31 Jordan's (but not Riesz's) concept is shortly discussed by Herrlich et al. (2002a). Johnson's observation
+
+ that ‘Riesz implicitly assumes that the sets under discussion are bounded' applies for Riesz's quotation of
+
+ Zoretti's theorem but not to his concept of a connected set, as wrongly assumed by Johnson (1981, p. 112).
+
+ 32 This was rightly pointed out by Taylor (1982, p. 269). Johnson (1981, p. 112) gives the following
+ examples of sets being connected in Riesz's but not in today's sense: the set (0,1)U (1,2) and the set of
+
+ rational points in the closed interval[0,1].
+
+ 33 Cantor considered the set T to be connected if for every two points of the set and for every ど > 0, there
+
+ exists a finite subset of T of points t\，…，tn, such that the distances d(t\，，2)，ゴ(り，り），etc., are all smaller
+ than e.
+
+ Ô Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 09:53:23 UTC
+All use subject to https://about.jstor.org/terms
+
+ Frigyes Riesz and the emergence of general topology 71
+
+ Riesz even succeeded in generalising Cantor's concept of fundamental sequence
+
+ as a well-ordered sequence with arbitrary cardinality.34 He called a ‘Cantor funda
+
+ mental sequence’ those fundamental sequences with ordinal number co of IN. For an
+ element a that is an accumulation point of some subset, Riesz considered all well
+
+ ordered sequences of nested neighbourhoods of a that happen to have a as the only
+ common element. He called the smallest cardinality of such a sequence the 'accessi
+
+ bility' (Zugànglichkeit) of a. If the accessibility of a is No, then a is said to be ‘simply
+ accessible’ (einfach zugânglich).
+
+ From Riesz's generalised notion of fundamental sequence, it is evident that in his
+
+ mind, he had envisaged very large sets, sets with large cardinality, larger than ド1，the
+
+ cardinality of E". However, admitting fundamental sequences with arbitrary cardi
+
+ nality implies that the n-fold order type in question has at least the same cardinality.
+
+ This degree of generality is an important prerequisite for the next section, because,
+
+ according to Riesz, Hilbert restricted the cardinality of space. This is one of the things
+
+ Riesz aimed to improve.
+
+ Coming back to his paper, there T designates the ‘derived set’ of a subset
+ 71,i.e the set of all accumulation points of T. Extending some elementary prop
+ erties of sets of an n-fold order type M, he defined:(1)T is dense in itself if
+ T c T’，(2) T is perfect if T is closed and dense in itself, and (3) T is closed
+ if C T and if every infinite subset of T has an accumulation point in T.
+ Riesz's concept of closed subset is more restrictive than Cantor's since the sec
+ ond condition in (3) is the Bolzano-Weierstrass property for closed bounded sub
+ sets of R. Therefore, Riesz's concept of closed set is related to the concept of
+ compactness.
+
+ Besides, Riesz defined connected set’，as already mentioned, generalising the con
+
+ cept presented in (1905a): T is connected if T is not the union U UV of two subsets
+ U and V satisfying (U U ひ’）n (V U V) = 0.35
+
+ For perfect and connected ‘simple order types', Riesz stated the Heine-Borel
+ theorem.36 He sketched an inductive proof which is similar to the one he provided
+ in (1905b). It is also based on the idea of Dedekind cuts. Furthermore, Riesz gen
+ eralised the notion of interval to n-fold order types calling it ‘elemental domain'
+ (Elementargebiet).
+
+ His correspondence with Hilbert provides valuable insight into the purposes behind
+
+ the research Riesz had accomplished in the articles discussed above.
+
+ 34 See Riesz (1905c, p. 410). Purkert (2002, pp. 688-689) has already pointed to the relevance of Riesz's
+ concept of fundamental sequence.
+
+ 35 Although the formulation in Riesz (1905c) is not identical with the one given in Riesz (1905a), the
+
+ contents are equivalent. Notice that neither here nor in Riesz (1905a) the subsets f/ and V are supposed
+
+ to be disjoint. That the two definitions are equivalent follows easily from the fact that for T connected
+ and T = UUVy if Uf)V #0，then at least one of the following inequalities holds true:ひ ’ fl V #0，
+ unv' ^0.
+
+ 36 ‘Simple order type' is my translation of ‘einfacher Ordnungstypus', where ‘einfach’ means n = I, i.e.
+ the set has only one order relation (see Riesz 1905c, p. 415).
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 09:53:23 UTC
+All use subject to https://about.jstor.org/terms
+
+ Ô Springe
+
+ 72 L. Rodriguez
+
+ 3.4 Letters from Hungary
+
+ On 18 November 1904, Riesz sent Hilbert a report (1904a) on his latest research asking
+
+ him to submit the enclosed note to the Gôttingen Mathematical Society in support of
+
+ its publication.37 He wished to present his results in a short note first before publishing
+
+ them in a longer and more detailed paper. The attached ‘short note' is not preserved
+
+ in Hilbert's Archive but from Riesz's description it is clear that k was an early version
+
+ of his article ‘On multiple order types F (1905c) containing some additional results
+
+ which were not included in the final version of this article but appeared later in the
+ Genesis (Riesz 1906b).
+
+ What were the findings that he communicated to Hilbert? Riesz's starting point was
+
+ Cantor's conviction that it is possible to generalise the so-called geometric properties
+
+ of point-sets to order types by using the concept of fundamental sequences. Such
+
+ investigations had been done for linear order types, but he, Riesz, now attempted to
+
+ do so for multiple order types. The lack of a notion of metric or of distance represents
+
+ a challenge, because the concept of a uniform continuous function cannot be defined
+
+ in the old way. Fortunately, the metric approach to the concept of uniform continuity
+
+ can be replaced by the Heine-Borel theorem. Riesz claimed to have generalised both
+
+ the Heine-Borel and the Bolzano-Weierstrass theorem to linear perfect and connected
+
+ order types.
+
+ As a generalisation of the geometric concept of ‘domain’ (Bereich), he consid
+
+ ered perfect and connected twofold order types that, after removing their boundary
+
+ elements, remain everywhere dense. He therefore focused on these order types, inves
+
+ tigating their connectedness and separation properties. He referred to this work as
+ investigations in the field of analysis situs. He was forced to give up the notion of
+
+ straight line. He defined only particular line segments and polygons. Nevertheless, he
+
+ managed to find a way to generalise certain results on Jordan curves to this specific
+
+ kind of order types so that k was possible both to define the two orientations of a
+
+ Jordan curve and to prove that a Jordan curve separates a domain into two regions.
+
+ Most of the details discussed above appear in the introduction to ‘On multiple order
+
+ types I’ except for the assertions concerning Jordan curves. In fact, in this article Riesz
+ does not mention either the notion of a Jordan curve or the Jordan curve theorem at
+
+ all.38 Bearing in mind the fundamental role that the notion of a Jordan curve played
+
+ in Hilbert's Annalennote, the letter gives the impression that Riesz wanted Hilbert
+
+ to know that he was also working on a generalisation of Hilbert's approach and that
+
+ 37 A transcription of this letter is included in Appendix A and (Rodriguez 2006).
+
+ 38 The generalisation of the Jordan curve theorem to dimension three was proven by James Alexander in
+
+ 1924 once the topology had been sufficiently developed. Two important properties of a closed Jordan curve
+
+ are (1)the curve separates the plane in two regions, the interior and the exterior, such that any continuous
+
+ curve joining the two regions intersects necessarily the Jordan curve; (2) the interior of a closed Jordan
+ curve is topologically equivalent to an open disc while the exterior is topologically equivalent to an open
+
+ disc from which the middle point has been removed. Similar properties of spheres in three-dimensional
+
+ space were much more difficult to prove. The continuous image of a sphere that does not intersect itself
+
+ happens indeed to separate the space into two regions, the interior and the exterior. But it is not true that
+
+ the one region is topologically equivalent to an open ball while the other one is topologically equivalent to
+
+ an open ball from which the middle point has been removed. Alexander showed that the horned sphere is
+ a counter example (see Gray 2000, p.112).
+
+ â Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 09:53:23 UTC
+All use subject to https://about.jstor.org/terms
+
+ Frigyes Riesz and the emergence of general topology 73
+
+ he had began to extend one of the main tools used by Hilbert: the notion of Jordan
+
+ domain. There are also other reasons to think that this was a likely scenario.
+
+ Coming back to his letter, Riesz discusses the application of his investigations on
+
+ multiple order types to the foundations of geometry and the space problem. He wrote:
+
+ Now my investigations come very close to the foundations of geometry. More
+
+ precisely, to those works that, regarding the continuity as the primary property of
+
+ space, base the notion of the «-dimensional manifold on the concept of number.
+
+ Thereby they put upper bounds to the power of space, bounds that actually appear
+ to be artificial.39
+
+ This passage bears some resemblance to the introduction of the Genesis. There, how
+
+ ever, Riesz refers explicitly to Lie's and Hilbert's notions of an n-dimensional man
+
+ ifold. In the Genesis, Riesz criticises that, by defining this concept in terms of the
+
+ Cartesian space Rn, Lie and Hilbert made this notion dependent on the set of real
+
+ numbers. Consequently, the power of an n-dimensional manifold cannot be bigger
+
+ than the power of R".
+
+ This remark is impressive because it indicates that Riesz was approaching the notion
+
+ of continuity of space from a quite general point of view: his idea of continuous space
+
+ was far beyond Rn. From the beginning, he did not want to exclude the possibility
+
+ that a continuous space could be defined that has a greater power than Rn.
+
+ What sets did Riesz definitely not want to exclude? For sure, multiple order types
+
+ with greater power than Ew. He may already also have had sets of functions in mind.
+
+ There are several reasons to think that this was likely: for one, Riesz was thoroughly
+
+ familiar with sets of functions. As shown by his earlier publications, he had studied
+
+ Baire's theory of real functions. There, the set of all real functions / : R -> R plays
+
+ a central role. This set has greater power than R. Besides, Riesz referred explicitly
+
+ to some sets of functions in the Genesis.^0 Furthermore, the research he started just
+
+ after concluding the Genesis shows that he was ready to envisage function spaces;
+ indeed, he was actually one of the first mathematicians to use the term ‘function
+ space’. He did so in a letter to Fréchet from 1907.41 Besides, that same year Riesz
+
+ (1907c) discussed the possibility of an analytic geometry on the function space L2,
+
+ the set of square-integrable real functions in Lebesgue's sense.
+
+ The rest of the letter contains remarks concerning multiple order types that appear
+
+ in the Genesis but not in ‘On multiple order types F. Riesz continued his letter as
+ follows:
+
+ In my opinion the only essential features of R" are: it has an n-fold ordering, it is
+
+ dense everywhere and it is continuous (i.e k is perfect and connected), as clearly
+
+ 39 My translation of Riesz (1904a). See the equivalent passage in Riesz (1906b, p. 310).
+
+ 40 The idea was not completely new. Already fifty years earlier in his habilitation lecture, Bernhard Riemann
+
+ had mentioned the idea of a spatial manifold whose elements were functions (see Scholz 1999, p. 27).
+
+ 41 A transcription of this letter (Riesz 1907b) is included in Appendix B and (Rodrfguez 2006). On the
+
+ development of function spaces, see Bernkopf (1966). Apparently, Bernkopf did not know of this letter
+
+ from Riesz. Taylor (1982) quotes the letter but, in contrast to Bernkopf, he does not discuss the priority of
+ the term ‘function spaces'.
+
+ Ô Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 09:53:23 UTC
+All use subject to https://about.jstor.org/terms
+
+ 74 L. Rodriguez
+
+ appears in your definition of the plane although with the mentioned limitation.
+
+ According to this, R" can be regarded as a set of n-fold order type (Riesz 1904a).
+
+ The ‘mentioned’ limitation consists in putting an upper bound to the cardinality of
+
+ space by basing the notion of two-dimensional manifold on the concept of number.
+
+ Thus, by regarding En as an «-fold order type Riesz was highlighting those prop
+
+ erties he considered relevant for a precise concept of continuous space. Remarkably,
+
+ he chose abstract point-set topological as well as order-theoretical properties. Follow
+
+ ing Cantor, he suggested that a set should regarded as continuous if it is perfect and
+
+ connected, but with these properties understood according to Riesz's own theory of
+
+ multiple order types.
+
+ Why was Riesz searching for such an abstract characterisation of Rn? Because, as
+
+ he announced in ‘On multiple order types F, once the so-called geometric properties
+
+ of sets can be expressed in terms of fundamental sequences for multiple order types,
+
+ then k suffices to have the structure of a multiple order type on a set to be able to study
+
+ its geometric properties—said more broadly: one can do topology on it.
+
+ In his letter, Riesz was suggesting to replace R2 with an abstract twofold order
+
+ type that is dense everywhere, perfect and connected. Thus, Riesz aimed at defining
+
+ a topology on the n-dimensional manifold using the topology of the «-fold order type
+
+ instead of the standard topology of Rn (as Hilbert did for the plane). The convenience
+
+ of Riesz's approach relied on achieving a concept of an n-dimensional manifold that
+
+ is independent of both the system of number coordinates Ert and the standard point
+
+ set topology of Rn. This procedure avoids the artificial limitation Riesz addressed
+ above.
+
+ That Riesz's true concern was indeed the topologisation of space independently of
+
+ R" follows from the last part of his letter.
+
+ I find your Annalennote in this respect well thought and if I am not mistaken
+
+ (that is possible because I have not worked that thing out), then my conception
+
+ of K/1 and respectively of the plane is enough to arrive at either to Euclidean
+ or to Bolyai-Lobachevsky geometry as a consequence of your motion axioms.
+
+ That means, no manifold with bigger power than that of the continuum allows a
+
+ motion in Lie's sense, respectively in yours (Riesz 1904a).
+
+ According to Riesz, if an abstract n-fold order type that is dense everywhere, per
+
+ fect and connected is used for the foundations of geometry, then it will follow from
+
+ Hilbert's axiomatic definition of motion that its power is not bigger than that of the
+
+ continuum. That means that the upper bound on the cardinality of space is a neces
+
+ sary consequence and not an artificial assumption. This consequence is what justifies
+
+ Riesz's abstract approach. It is an issue of mathematical formalism concerning the
+
+ mutual independence of the elementary assumptions.
+
+ Thus, Riesz's first attempt to extend Hilbert's concept of a two-dimensional man
+
+ ifold consisted in an application of his theory of multiply order types. But then he
+
+ got interested in a still more general approach, one based on purely abstract point-set
+
+ topological methods without any ordering assumptions.
+
+ Just before the end of the year, Riesz wrote â second letter to Hilbert asking
+
+ him to hold back the publication of his short note because he needed to make some
+
+ 必 Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 09:53:23 UTC
+All use subject to https://about.jstor.org/terms
+
+ Frigyes Riesz and the emergence of general topology 75
+
+ corrections.42 He announced a change of mind and explained that he had attempted
+
+ to generalise the analysis situs of the theory of functions by applying his theory of
+
+ multiple order types. During these investigations, he had realised that the use of fun
+
+ damental sequences, or at least of subsets with a unique accumulation point, leads to
+
+ a better end than the approach he had first tried.
+
+ What then happened? Riesz worked fast, and in January 1905, he replaced his note
+
+ from November 1904. The original short note became his long paper ‘On multiple
+
+ order types I’ (1905c) which appeared that same year in the Mathematischen Annalen.
+
+ Furthermore, he got the opportunity to present his results at the meeting of the Gôt
+
+ tingen Mathematical Society on 25 July 1905. According to the records of that day's
+
+ meeting, Riesz reported on ‘The connection between his soon-to-appear investigations
+
+ on set theory and questions related to the space problem'.43
+
+ ‘On multiple order types V appeared in December 1905 free from any connection to
+
+ the foundations of geometry and the space problem. The title carries an T indicating
+
+ that Riesz planed to publish a second part of this paper. He reconsidered the connection
+
+ to the space problem in the Genesis.
+
+ 4 'Die Genesis des Raumbegriffs'
+
+ A second part of ‘On multiple order types V did never appear as such. However, on 22
+
+ January 1906, Gustav Rados presented a paper by Riesz to the Hungarian Academy
+
+ of Sciences, that, judging by its contents, must be the second part of the paper Riesz
+ once offered to Hilbert, or at least what had become of it.44
+
+ The German version of this paper was to appear in 1906 as ‘Die Genesis des Raum
+
+ begriffs' (Riesz 1906b) in the journal Mathematische und Natunvissenschaftliche
+
+ Berichte aus Ungarn. The journal itself, although Hungarian, had a German name
+
+ and used to publish only articles written in German. It had been established in 1883 to
+
+ provide greatly improved chances for the diffusion of Hungarian works. The Hungar
+ ian original version of the Genesis was published in two parts (Riesz 1906a, 1907a)
+
+ in another Hungarian journal，。
+
+ ‘Die Genesis des Raumbegriffs' is an long article of 35 pages that deals with the
+
+ role of experience in the development of the concept of continuous space in geometry.
+
+ Here, Riesz approached Hilbert's continuity of space problem from a broad perspective
+
+ that included, apart from a modern mathematical treatment, current philosophical
+ and psychological views. Thematically k consists of two parts: the first one has an
+
+ introductory and theoretical (mathematical) character (pp. 309-322), and the second
+
+ one focuses on the construction of a concept of space starting from a specific empirical
+
+ notion of continuity in real space (pp. 323-345).
+
+ 42 The letter is undated (Riesz 1904b), but judging by its contents, it concerns the same note and it must
+
+ have been written shortly after the one from November 1904 because Riesz wishes Hilbert a happy New
+
+ Year's Eve. A transcription of this letter can be found in Appendix A and (Rodriguez 2006).
+
+ 43 See report of this meeting in Jahresbericht der DMV 14 (1905) p. 458.
+
+ 44 See report of the Academy meetings in Mathematische und Naturwissenschaftliche Berichte aus Ungarn
+ 24 (1906) p. 365. 一
+ 45 On these Hungarian journals, see Szénâssy (1992) p.221.
+
+ 自 Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 09:53:23 UTC
+All use subject to https://about.jstor.org/terms
+
+ 7b L. Rodriguez
+
+ In the Genesis, Riesz distinguished between geometry as an exact science and
+
+ geometry as a natural science, asking how continuous space could be characterised
+
+ best in each of them. In other words: what does it mean that the geometrical space is
+
+ continuous? What does it mean that the real space is empirically continuous? While
+
+ the first question strictly concerns a purely mathematical issue, the second unavoidably
+
+ involves views about the philosophy of geometry.
+
+ Hilbert's works on the foundations of geometry keenly motivated Riesz's interest
+
+ in the concept of continuous space in geometry. But Riesz's interest in the empirical
+
+ continuity of the real space arose from those contributions to philosophy of geometry
+
+ in which Poincaré discussed the relation of the axioms of geometry to real space. Riesz
+
+ explicitly refers to Poincaré's (1905) ‘La valeur de la science’.46
+
+ Riesz approached these two different notions of continuity by redefining the con
+
+ cepts of mathematical and physical continuum. These two concepts were discussed by
+
+ Poincaré in ‘La valeur de la science’ and taken up by Riesz. Poincaré's conception of
+
+ empirical continuity was contained within his notion of a physical continuum. Riesz
+
+ redefined this concept in a more general and abstract way by formulating it axiomati
+
+ cally and in terms of point-set theory. Furthermore, he developed a rudimentary theory
+
+ of physical continua that he then applied to construct a three-dimensional space as an
+
+ infinite numerable sequence of physical continua (pp. 323-335). From now on, I will
+
+ refer to this space as Riesz's space Tl. However, I will not enter into a more detailed
+
+ discussion on its construction because it would go far beyond the scope of this article.47
+
+ The purpose of this note is to draw attention to Riesz、characterisation of continuous
+
+ space in geometry.
+
+ This characterisation was accomplished in two steps: first Riesz provided the space
+
+ Tl with a specific concept of an accumulation point and then he showed that Tl defines
+
+ a mathematical continuum that satisfies certain additional properties.
+
+ What exactly these properties are, I discuss in Sect.4.7 where I summarise Riesz's
+
+ characterisation of continuous space in geometry. In preparation, I introduce Riesz's
+
+ concept of mathematical continuum in Sect.4.1.In Sect.4.2,1 discuss the epistemolog
+
+ ical meaning of Riesz's approach. Then, I proceed to present some important concepts
+
+ of Riesz's rudimentary theory of mathematical continua in Sects.4.3, 4.4 and 4.5.
+ In Sect.4.6,1 explain how Riesz approached the issue of dimension.
+
+ 4.1 Mathematical continuum and its epistemological meaning
+
+ Around 1900, the only known general concept of a continuum was due to Cantor who
+
+ had called a continuum of points (Punktkontinuum) any subset of Rn that happened
+
+ to be perfect and connected. That is the reason why the term mathematical continuum
+
+ was at that time commonly related to the set of all real numbers, so for instance by
+ Poincaré (1905).
+
+ 46 See Riesz (1906b, pp. 312-315). On the philosophy of geometry of that time, see Torretti (1978). On
+ the influence of Poincaré's work on Riesz, see my thesis (Rodriguez 2006).
+
+ 47 On Poincaré's idea of empirical continuity of space and Riesz's constructive notion of space,
+ see Rodriguez (2006).
+
+ Ô Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 09:53:23 UTC
+All use subject to https://about.jstor.org/terms
+
+ Frigyes Riesz and the emergence of general topology 77
+
+ Taking an abstract point-set theoretical approach, Riesz suggested a more general
+
+ concept of a mathematical continuum: an abstract set provided with a concept of accu
+
+ mulation point that satisfies four axioms.48 Let Mr denote the set of all accumulation
+
+ points of the set M. In modern terms, Riesz、definition reads as follow (Riesz 1906b,
+ p. 318):
+
+ Definition 1{Mathematical continuum) X is a mathematical continuum if for every
+
+ element x e X and for every subset M c X either x ^ Mr or x e M; and then the
+
+ following conditions hold true:
+
+ 1.M = {x\t • • •, jc”} (n € IN) =» M' = 0;
+ 2. M CN CN'\
+ 3. M = P U (2 => M' C P' U Ô7；
+ 4. x e Mf and ；ヨ PcAf such that x e Pr but y ^ P'.
+
+ It is odvious that Riesz's concept of mathematical continuum is not a continuum in
+
+ Cantor's sense as it does not need to be either perfect or connected.
+
+ Riesz did not just disengage the term ‘continuum’ from its traditional meaning;
+
+ he also assigned a broader epistemological meaning to the mathematical concept of
+
+ continuous space. For one, he called a mathematical continuum any arbitrary abstract
+
+ set that is provided with a concrete concept of accumulation point satisfying the four
+
+ axioms mentioned above. Consequently, he acknowledged that one and the same set
+
+ can be regarded as continuous in different ways, each way depending on the concrete
+
+ concept of accumulation point in consideration.
+
+ Given an arbitrary set provided with a concept of an accumulation point, the chal
+
+ lenging question is no longer whether it is continuous (because according to Riesz it
+
+ is) but to find out further continuity properties.
+
+ Mathematical continua in Riesz、sense are by definition provided with a continuity
+
+ structure that is determined by the specific concept of accumulation point in consider
+
+ ation. This continuity structure results from associating to each elements of the math
+
+ ematical continuum a family of subsets, namely the family consisting of exactly those
+
+ subsets for which the element x is an accumulation point. The structure of X as math
+
+ ematical continuum can be described as the system of pairs (jc, Ax) e X x V(V(X))
+
+ where jc is an element of the mathematical continuum X and Ax is the family of those
+
+ subsets of X of which ；c is an accumulation point, i.e. AX = {M c X\x e Mf}.
+
+ There may be elements of X that are not accumulation point of any subset of X.
+
+ Riesz called x e X ‘main element’ if there exists a subset M of X such that x is an
+
+ accumulation point of M. In his Rome lecture, he explained the fourth (separation)
+
+ axiom as a condition that guaranties that to each main element x, there corresponds a
+
+ unique family Ax.
+
+ Coming back to the Genesis, Riesz explained that he had anticipated interesting
+
+ applications of his rudimentary theory of mathematical continua to analysis and the
+
+ calculus of variations. As examples of mathematical continua, he cited the Cartesian
+
+ 48 Instead of accumulation point, Riesz (just as Hilbert) used the term ‘Verdichtungsstelle’ which literally
+
+ means 'condensation point'. However, as rightly pointed by Taylor (1982, p. 268), this term should not be
+
+ translated as 'condensation point' in the special sense given to it by Ernst Lindelôf in 1905.
+
+ 自 Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 09:53:23 UTC
+All use subject to https://about.jstor.org/terms
+
+ 78 L. Rodriguez
+
+ spaces R" with their standard concept of accumulation point, multiple order types with
+
+ the concept of accumulation point as defined in Sect. 3.3, as well as sets of functions
+
+ with the concept of accumulation point defined by a metric or by different kinds
+
+ of convergence principles: point-wise, uniform, weak and strong convergence. He
+
+ stressed the importance of the selected continuity structure by pointing to fundamental
+
+ differences between the concepts of strong and weak extreme values in the calculus
+
+ of variations (Riesz 1906b, p. 318).
+
+ Although it was already a common practice to distinguish between different kinds
+
+ of convergence (weak, point-wise, etc.), it still represents a major conceptual shift to
+
+ define different concepts of accumulation point on a set, thereby regarding the set as
+
+ continuous in different ways. That is what Riesz did.
+
+ Thus, the first condition that ought to be assumed of an abstract set, in order to be
+
+ able to investigate its continuity properties, is that it may be regarded as a mathematical
+
+ continuum. This applies in particular to the set upon which geometric space may be
+ defined.
+
+ From the viewpoint of geometry, it is not evident why Riesz thought it necessary to
+
+ tackle the continuity of space problem using such an abstract approach. The first reason
+
+ is one of the practical nature and goes back to those philosophical motivations that
+
+ had led him to work on a concept of space whose elements are ‘groups of sensations’.
+
+ To avoid any kind of philosophical and psychological controversy, he conceived those
+
+ ‘groups of sensations’ as elements of an abstract set that satisfy a certain system of
+ axioms.
+
+ Besides, this general approach certainly allowed him to overcome those limitations
+
+ he had criticised in his letter to Hilbert. In his Rome lecture, Riesz made the connection
+
+ to geometry acknowledging Hilbert's approach to the foundations of geometry from
+ 1902 as the main motivation behind his concept of mathematical continuum:
+
+ It is in Hilbert's work that for the first time it seems evident that the definition
+
+ of this concept [the concept of continuity, LR] concerns primarily a definition
+
+ of limit point, or more generally, a definition of accumulation point, whereas
+
+ the concept of accumulation point is determined by the postulate asserting that
+
+ the considered domains can be mapped on certain number manifolds and that
+
+ the mappings fulfil certain conditions. The concept of an accumulation point for
+
+ those number manifolds is, however, already determined.49
+
+ Riesz asserted that it is in Hilbert's memoir where it seems evident for the first time
+
+ that the issue of continuity is primarily about defining a concept of accumulation point.
+
+ However, Hilbert solved this by using mappings from the plane to a number manifold.
+
+ Not only did Hilbert assume that those mappings satisfy certain conditions but he also
+
+ took advantage of the fact that the number manifold is already provided with a concept
+
+ of accumulation point. In Riesz's approach, on the contrary, the space needs only to be
+
+ a mathematical continuum. What is more, the concept of accumulation point defined
+
+ on the mathematical continuum is independent of any number manifold.
+
+ 49 My translation of Riesz (1909, p. 18).
+
+ Ô Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 09:53:23 UTC
+All use subject to https://about.jstor.org/terms
+
+ Frigyes Riesz and the emergence of general topology 79
+
+ But most importantly, Riesz aimed to contribute a generalisation of Cantor's point
+
+ set theory to abstract sets in the sense suggested by Jacques Hadamard at the first
+
+ International Congress of Mathematicians in Zurich in 1897. Riesz explicitly said so
+
+ in his Rome lecture (1909). Eventually, he succeeded in his purpose as the reception
+ of his Rome lecture played a significant role in the emergence of general topology
+
+ (see Sect. 6). That is the reason why Riesz's concept of a mathematical continuum is
+
+ not just mathematically but also historically closely related to the modern concept of
+ topological space.
+
+ 4.2 Classifying mathematical continua
+
+ Riesz paid special attention to the issue of classifying mathematical continua. He
+
+ tackled this issue by defining a variety of continuity properties that a mathematical
+
+ continuum may possess or not. These properties were defined in terms of elementary
+
+ topological concepts.
+
+ Still, Riesz went a step further beyond Cantor's point-set topology. Having studied
+
+ Cantor's theory of order types and having contributed to the theory of multiple order
+
+ types, Riesz was familiar with the idea of classifying abstract sets by means of isomor
+
+ phisms, the technique used in Cantor's theory to define order types. Riesz adapted this
+
+ technique to classify mathematical continua according to isomorphisms that preserve
+
+ their continuity structure. He called the isomorphic continua ‘similarly condensed’
+
+ and he named the equivalence class consisting of all mathematical continua that are
+
+ similarly condensed to each other a ‘condensation type' (Verdichtungstypus). A 'con
+
+ densation type’ is a notion comparable to the concept of homeomorphism class which
+
+ is used in general topology to classify topologically equivalent spaces:
+
+ Definition 2 (similarly condensed—-ahnlich verdichtet) Let X and Y be two mathe
+
+ matical continua. X and Y are similarly condensed if there exists a bijective mapping
+ f : X — Y such that Vx e Z and VM c X it holds x e Mf if and only if
+ f(x) e f(MY (Riesz 1906b, p. 319). “
+
+ In Riesz's approach to Hilbert's continuity of space problem, the concept of sim
+
+ ilarly condensed played a key role because it provided a method for comparing the
+
+ continuity structure of the space as a mathematical continuum with the continuity
+ structure of E3.
+
+ 4.3 Neighbourhoods
+
+ Riesz proceeded to generalise the well-established elementary concepts of Cantor's
+
+ point-set topology in Rn to abstract sets, e.g. open set, connected, dense.50 He started
+
+ with the concept of neighbourhood:
+
+ 50 Some of Riesz's concepts and theorems have been already accurately described by Taylor (1982) but in
+
+ a different context. My description focuses on Riesz's topological approach to Hilbert's space problem.
+
+ 旬 Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 09:53:23 UTC
+All use subject to https://about.jstor.org/terms
+
+ Definition 3 (Neighbourhood) Let X bea mathematical continuum. A subset U C X
+ is a neighbourhood of an element x e X if x e U and x 丰(X\UY (Riesz 1906b,
+ p. 319).
+
+ 80 L. Rodriguez
+
+ This concept is much more general than the one used by Hilbert (1902b; 1903).
+
+ It does not depend either on Rn or on the notion of Jordan curve but only on the
+
+ continuity structure of the mathematical continuum.51
+
+ Furthermore, Riesz asserted that the concept of accumulation point can be charac
+
+ terised in terms of neighbourhoods: let X be a mathematical continuum. The element
+
+ x € X is an accumulation point of the subset M c X if and only if every neighbour
+
+ hood of x contains infinitely many elements of M.
+
+ Riesz proved only the proposition: if jc € M’ then every neighbourhood of x
+
+ contains infinitely many elements of M • He claimed that the converse proposition holds
+
+ true and he pointed to the fact that the intersection of a finite number of neighbourhoods
+
+ of x is also a neighbourhood of jc. Both assertions can be proven easily.52
+
+ The proof that the intersection of a finite number of neighbourhoods of ズ is a
+
+ neighbourhood of x follows, as Riesz pointed out, from axioms two and three and via
+
+ induction: let JJ\ and ひ2 be two neighbourhoods of x, then x e U ••= U\ D ひ2. Let
+
+ Uc denote the complement of U. Uc can be written as the union of two disjoint sets
+ Uc = (U\ D ひギ).By axiom three, if x is an accumulation point of Uc then x is
+
+ an accumulation point of i/f or U\ butjc is not an accumulation point of and
+
+ by axiom two it is neither of ひ1 fl ひダ C Since U =门レひ，=0""/ Ui fl Un，
+ then induction on n shows that ひ is a neighbourhood of jc.
+
+ Although this theorem reads just as today's definition of accumulation point in
+
+ a topological space, the fact is that they use different notions of 'neighbourhood’.
+ Therefore, they do not mean the same. The neighbourhoods of an element x in Riesz's
+
+ sense are in general different from the neighbourhoods of jc in a topological space,
+
+ since the former do not need to contain an open set containing x. This difference is
+
+ the reason why the concepts of mathematical continuum and topological space are not
+
+ equivalent.
+
+ With his characterisation of accumulation point in terms of neighbourhoods Riesz
+
+ found a way to define a given set as a mathematical continuum starting from neigh
+
+ bourhoods. This approach is not altogether surprising because up to that time it was
+
+ the traditional custom to define the notion of accumulation point or limit point in
+
+ terms of neighbourhoods: Karl Weierstrass had used ど-neighbourhoods to define uni
+
+ form convergence in classical analysis; Cantor developed his point-set topology for
+
+ R starting with ^-neighbourhoods (implicitly, for he did not define the concept of
+
+ neighbourhood at all), and Hilbert introduced a concept of limit point for the plane in
+
+ 51 As Taylor (1982, p. 268) rightly pointed out, Riesz ‘says nothing about the status of an empty set or of
+
+ the entire class'. This was typical at that time.
+
+ 52 Let x be an element of the mathematical continuum X such that every neighbourhood of x contains
+ infinitely many elements of M. As it happens, x e M or x 朱 M. Case one x 朱 M.iix ♦ then
+ Ux := X \ M is a neighbourhood of x that contains infinitely many elements of M. This is a contradiction
+
+ and so ズ € M’. Case two x e M: if x ^ M' then by axiom two of the definition of mathematical continuum
+
+ Ux ：= (X \ M) U [x] is a neighbourhood of x and so Ux contains infinitely many elements of M but
+ ひズ fi X = {jc}. This is a contradiction and so jc g M'.
+
+ 必 Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 09:53:23 UTC
+All use subject to https://about.jstor.org/terms
+
+ Frigyes Riesz and the emergence of general topology 81
+
+ terms of neighbourhoods (Sect. 2.6). Another important example was given by Baire
+
+ (1899a, b) who built up a rudimentary point-set topology for R that is different from
+ the standard one.
+
+ Baire's papers had a strong influence on Riesz for two reasons. First, because Riesz
+
+ attributed the notion of what he called a ‘sufficient system of special neighbourhoods'
+
+ to Baire (Riesz 1906b, p. 320). Actually, Baire did not define any concept of neigh
+
+ bourhood at all. What he did was to characterise the concept of an accumulation point
+
+ in terms of certain specific subsets which Riesz then identified as neighbourhoods.53
+
+ Riesz succeeded in synthesising the essential properties of both Baire's subsets and
+
+ Hilbert's neighbourhoods into what he called a ‘sufficient system of special neigh
+ bourhoods’ :let X be a mathematical continuum and let ^ e X be a main element; that
+
+ is, let ズ be an accumulation point of some subset M C X.A system of neighbourhoods
+
+ W at ズ is called sufficient if for every neighbourhood Vx of the arbitrary main element
+
+ x there exists a special neighbourhood Ux eU of x such that Ux c Vx.
+
+ In a topological space, such a system of special neighbourhoods is called a neigh
+
+ bourhood base. Clearly, the advantage of special neighbourhoods is that it suffices
+
+ to define accumulation point in terms of special neighbourhoods. That is what Baire
+
+ did. It is one of the technical issues that made Baire's papers so influential in Riesz's
+
+ Genesis. Not only did Riesz identify those subsets used by Baire to define accumulation
+
+ point as special neighbourhoods, but he also applied most of Baire's basic concepts
+
+ and procedures to the construction of his space 尺 as an infinite numerable sequence
+
+ of physical continua.54 Riesz also adapted Baire's notion of an accumulation point,
+
+ thereby achieving a characterisation of his space 7^ as a mathematical continuum.
+
+ 4.4 Elementary concepts of an abstract point-set topology
+
+ Riesz then generalised some elementary concepts of Cantor's point-set topology for
+ subsets of W to subsets of a mathematical continuum: let Z be a mathematical con
+ tinuum. An element x € X is to be called ‘internal element’ of A c X if A is a
+
+ neighbourhood for ズ.A subset A C X is to be regarded as ‘open’ if all its elements
+ are internal elements of A. The element x e A is à ‘boundary element’ of A if
+ x e (X\A)f. The ‘frontier’ of A consists of all the boundary elements of A and all the
+
+ boundary elements of X\A. Two subsets A and B are called ‘separated’ from each
+ other if A 门 = 0. Two subsets A and B are called ‘isolated’ from each other if
+
+ (A U A’）n (B U B') = 0, i.e. if A U A’ and S U are separated from each other
+ (Riesz 1906b, p. 320).
+
+ However, the concept of a ‘perfect set’ presented some difficulties. The problem is
+ that in Riesz's theoretical framework of mathematical continua, the relation A" c Af
+
+ does not hold in general, and consequently the set A U A' is not necessarily a closed
+
+ set, as it is in Cantor's theory. Riesz himself pointed out this flaw, regretting that the
+
+ relation A" c A’, so important for a true generalisation of Cantor's point-set topology
+
+ 53 See sections 3.2.4 and 7.1 of my thesis for a detailed account of the influence ofBaire's papers on Riesz's
+ Genesis (Rodriguez 2006, pp. 189-201).
+
+ 54 On the space TZ, see the beginning of Sect. 4.
+
+ 名 Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 09:53:23 UTC
+All use subject to https://about.jstor.org/terms
+
+ 82 L. Rodriguez
+
+ and ‘perfect set’.
+
+ for Rn, was missing in his rudimentary theory of mathematical continua (Riesz 1906b,
+
+ p. 320). He therefore restrained himself from giving any tentative definition of ‘closed’
+
+ Why did not Riesz change the axioms in his definition of mathematical continuum
+
+ so that the relation A" c A! would necessarily hold true? Probably, as has been already
+
+ suggested by Purkert et al. (2002)，he did not want his concept to become so narrow
+
+ that his theory would then fail to apply on Baire's classification of real functions.55
+ Baire's classification of real functions ア={/ : R — R} reads as follows: the
+
+ class C° is defined as the set consisting of all continuous functions, C1 is the set
+
+ of discontinuous functions that are the point-wise limit of a sequence of continuous
+
+ functions, and Ca is the set of functions f that are the point-wise limit of a sequence
+ of functions belonging to the classes but with f 朱for all卢 < a，with a, p
+ ordinal numbers of the second class (i.e. a and are the order type of a well-ordered
+ countable set).
+
+ Baire's classification first appeared in (1898) and very soon became a research object
+
+ in French analysis. In 1904, Henri Lebesgue showed that ^ 0 for a any countable
+
+ ordinal number.56 In 1905，Maurice Fréchet, who at that time was developing his theory
+ of ‘L-’，‘V-’，and ^-classes', discussed the Baire classes within the framework of his
+
+ theory of L-classes.57
+
+ Riesz definitely knew Fréchet's paper from 1905. He referred to it in the Genesis，
+
+ rightly acknowledging Fréchet as a pioneer of the research area to which his own
+
+ theory of mathematical continua belonged (Riesz 1906b, p. 322). Most interestingly,
+
+ not only had Fréchet (1905) pointed to the fact that the statement ‘every derived set
+
+ is closed’ does not hold for L-classes in general but he also argued against the option
+
+ of adding this statement as a further condition defining an ‘[-class’. He pointed to
+ Baire's classification as an example of a ‘classical’ concept of limit for which the
+ derived set of a set is not closed.
+
+ From Fréchet's perspective, T，provided with the limit concept of point-wise con
+
+ vergence, constitutes an L-class. From Riesz's perspective, T may be regarded as a
+ mathematical continuum by considering / e ア as an accumulation point of G c J7
+
+ whenever there exists an infinite sequence {fn} C G that converges point-wise to /.
+
+ In ア as a mathematical continuum, the Baire classes are examples of sets that do not
+
+ contain all their accumulation points. This is a consequence of Lebesgue's proof that
+
+ none of the classes Ca are empty, for a any countable ordinal number.
+
+ This suggests that, following Fréchet, Riesz did indeed decide against a modification
+
+ of his system of axioms because of the Baire classes.
+
+ 55 This explanation was suggested by Purkert et al. (2002)，but the author did not elaborate.
+
+ 56 See Dugac (1976, pp. 312-327).
+
+ 57 An ‘L-class’ in Fréchet's sense is an abstract set provided with a concept of limit point that satisfies
+
+ the following conditions:(1)if a is limit of the sequence {an(/i€lN' then it is unique; (2) if the elements of
+
+ the sequence {an}w€]N are all identical to the same element a, then the sequence has a as limit; (3) if the
+
+ sequence {an}ne^ has a as limit, then every subsequence of {a«}w€]N has a as limit. Fréchet summarised
+ his theory of し，V-, and £-classes in his PhD thesis in (1906). For an accurate discussion of Fréchet's PhD
+
+ thesis and his earlier works on abstract point-set theory, see Taylor (1982).
+
+ â Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 09:53:23 UTC
+All use subject to https://about.jstor.org/terms
+
+ Frigyes Riesz and the emergence of general topology 83
+
+ (X,d) » (X,r)
+ Fig. 5 If in the mathematical (X, d) > (X, r)
+ Fig. 5 If in the mathematical
+ continuum (X, d) the relation
+ continuum (X, d) the relation
+ d(d(A)) C d(A) does not hold
+ d(d(A)) C d(A) does not hold
+
+ true for every subset A of X,
+ true for every subset A of X,
+ then (X, dx) is not similarly ..
+ then (X, dT) is not similarly
+ (X,dT)
+ condensed to (X, d) dr'
+ condensed to (X，d)
+
+ From today's perspective, on the other hand, the lack of the absolute validity of the
+ relation A" c A' is crucial in order to understand how close Riesz came to today's
+
+ concept of topological space. In order to clarify the matter, let call d the derivative
+
+ operator that associates A c X its derived set A’ := d(A))andlet(X, d) be an arbitrary
+ mathematical continuum. Finally, let x be the system of open sets A c X in Riesz's
+
+ sense. It can easily be proven that (X, r) defines a topological space. Therefore, one
+ can associate with any mathematical continuum (X, d) a topological space (X, r).
+
+ Furthermore, using the standard definition of accumulation point in a topological
+
+ space, one can associate to every topological space (X, r) its ‘standard，mathematical
+ continuum (X，dx). However, the passage from the mathematical continuum (X，d)
+
+ to its associated topological space (X，て)，and then from there to the mathematical
+
+ continuum (X, dx), may not return us to (X, d), i.e. (X, d) and (X，dT) may not be
+
+ similarly condensed (see Fig. 5). This is certainly what happens whenever in the
+ mathematical continuum (X, d) the relation d(d(A)) C d(A) does not hold true for
+
+ every subset A of X.58
+
+ This is presumably what Hausdorff meant when he wrote in an unpublished note
+ from 1938: "The foundation of topology on A' (instead of on A) seems unlucky to
+
+ me because different functions Af can determine the same topological space’’.59 As
+
+ illustrated in Fig. 5, the topological space (X，t) can be determined by both (X，d)
+
+ and (Z, dて）.
+
+ 4.5 Connectednes
+
+ Riesz considered connectedness as an additional property of a mathematical contin
+
+ uum. As shown in Sects. 3.2 and 3.3, he had been working for years on sharpening this
+
+ notion both for point-sets ofRn and for multiple order types. Within the framework of
+
+ mathematical continua, he formulated three different concepts of connectedness: the
+
+ first one for the space itself as a mathematical continuum, the other two for its subsets.
+
+ 58 That means: \id(d(A)) c d(A) does not hold true for every subset A of X，then (X，d) and (X, dx) are
+
+ not similarly condensed. This can be demonstrates as follows: first, notice that (X,dT) is both a topological
+
+ space and a mathematical continuum. Therefore, dx (dx (A)) C dz (A) holds true for every subset A of X.
+
+ The assertion follows as consequence of this lemma: let (X, d\ ) and (X，ゴ2) be any two similarly condensed
+
+ mathematical continua and let i be the isomorphism between them, then d\ (d\ (A)) C d\ (A) if and only if
+ d2(d2(i(A))) C d2(i(A)) for every subset A of X.
+
+ 59 My translation of the quote appearing in Purkert et al. (2002, p. 728). Herrlich et al. (2002a, p. 753)
+
+ described Riesz's mathematical continuum as a pre-topological space with a separation axiom weaker than
+
+ T2 and stronger that r1.This characterisation is not helpful, because the concept of pre-topological space
+
+ is very specialised and rather difficult to find in a standard book on general topology.
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 09:53:23 UTC
+All use subject to https://about.jstor.org/terms
+
+ Ô Springer
+
+ 84 し Rodriguez
+
+ nis dennition of a connected matnematical continuum coincides with today's concept
+ of connected topological space and reads as follows:
+
+ Definition 4 (connected mathematical continuum) The mathematical continuum X
+
+ is said to be connected if it is not possible to split it into two complementary open sets
+ M, N such that X = M\JN (Riesz 1906b, p. 320).
+
+ For subsets, he defined ‘connectedness’ and ‘absolutely connectedness’. His
+
+ dennition of a connected subset is identical to the definition he gave in his paper
+ ‘On discontinuous sets' (1905a). But while Riesz's connected sets may be not con
+
+ nected in modern terms, his concept of absolutely connected is sharper and coincides
+ with today's notion of connectedness: the subset P c X of the mathematical contin
+
+ uum X is said to be absolutely connected if for every decomposition of P into two
+
+ subsets M, N there exists at least one element that belongs at the same time to one of
+
+ the subsets and to the derived set of the other, i.e. either M 门が # 0 or M’ fi 斤 # 0
+ (Riesz 1906b, p. 321).60
+
+ However, due to the poor reception of the Genesis (see Sect. 6), the modern notion
+
+ of connected set was not established by Riesz but by N.J. Lennes (1911) and Hausdorff
+
+ (1914), who developed it a few years later independently of each other and of Riesz.61
+
+ A simple example illustrates the difference between Riesz's notions of connected and
+
+ absolutely connected set: with respect to the standard topology in R, the set (—oc, 0)U
+
+ (0, oc) is connected but not absolutely connected, while the set (一oc，0) U [0, oc) is
+
+ indeed both connected and absolutely connected.
+
+ Riesz pointed out that an absolutely connected subset A, considered in itself as
+
+ a mathematical continuum, is a connected mathematical continuum. Furthermore,
+
+ he stated that a mathematical continuum is connected if and only if for every pair
+
+ of elements there exists an absolutely connected subset containing them. The proof
+
+ of this last statement consists of two parts. Riesz observed that if the mathematical
+
+ continuum is connected, then it can be regarded as an absolutely connected subset
+
+ of itself (Riesz 1906b, p. 321). Thus, it follows that for every pair of elements, there
+
+ exists an absolutely connected subset containing them. He omitted the second part of
+
+ the proof, namely that if for every pair of elements there exists an absolutely connected
+
+ subset containing them, then the mathematical continuum is connected. This can be
+
+ easily proven.62
+
+ In his Rome lecture, Riesz discussed some deficiencies in Cantor's concept of
+
+ connectedness. He presented the following two homeomorphic sets M = R\0 and
+ N = /?\[0,1]from which M is connected in Cantor's sense but N is not (neither
+
+ is absolutely connected in Riesz's sense). The fact that M and N are homeomorphic
+
+ demonstrates, as Riesz claimed, that the concept of connectedness is independent of
+
+ 60 Riesz again missed assuming that the sets are non-empty (Taylor 1982, p. 269).
+
+ 61 See Herrlich et al. (2002a). The authors do not refer to Riesz's early contributions from 1905.
+
+ 62 Let X = M U iV be an arbitrary splitting of the mathematical continuum X into the two disjoint sets
+ M and N and letjc g M and y e N be a pair of elements of X. By hypothesis, there exists an absolutely
+ connected set C c X such that x,y g C. Since COM and CDNarea splitting of C, then there exists
+ ^ € (C H Af) fl(C fl Ny (or z € (C H A/)’ fi (C n NY). The second axiom in the definition of mathematical
+
+ continuum implies that ミら M C\Nf (respectively, z ^ Mf C\ N), and therefore, M cannot be opened and X
+
+ cannot be splitted into two disjoint open sets.
+
+ 旬 Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 09:53:23 UTC
+All use subject to https://about.jstor.org/terms
+
+ Frigyes Riesz and the emergence of general topology 85
+
+ the structure determined by the notion of accumulation point. Since connectedness is
+
+ inherent to the notion of continuity, this means that continuity cannot be completely
+
+ characterised by the notion of accumulation point (Riesz 1909, p. 21).
+
+ 4.6 Ordering the space
+
+ Riesz resorted to his work on multiple order types in order to approach the issue of the
+
+ dimension of space. He intended to introduce an n-fold order relation for the space.
+
+ He incorporated some of the most important concepts and results of his theory of
+
+ multiple order types, pointing to the fact that the order relation provides a natural con
+
+ cept of neighbourhood. Using the characterisation of an accumulation point in terms
+
+ of neighbourhoods he concluded that any multiple order type defines a mathematical
+ continuum.
+
+ However, the ordering of the mathematical continuum X induces a second conden
+
+ sation type on X that is determined by the order relation. Therefore, Riesz defined: â
+
+ mathematical continuum X can be continuously ordered if its condensation type coin
+
+ cides with the condensation type of X as a multiple order type (Riesz 1906b, p. 345).
+
+ 4.7 Riesz's approach to Hilbert's continuity of space problem
+
+ Now that his theoretical framework had reached this stage Riesz felt ready for a
+
+ first approach to Hilbert's continuity of space problem. He started, as mentioned at
+
+ the beginning of Sect. 4, with a concept of space defined by a system of axioms.
+
+ These axioms determine the relationships between what he called groups of sensations,
+
+ physical points and physical continua. The space was first defined as a numerable
+
+ ordered sequence of physical continua (Riesz 1906b, pp. 323-330). This space, which
+
+ I refer to as the space TZ，constitutes the domain on which Riesz then formulated a
+
+ notion of continuous space for geometry.
+
+ According to Riesz, the notion of continuous space for geometry is to be founded
+
+ on the concept of mathematical continuum. Therefore, the first condition imposed
+ on TZ is that it can be regarded as â mathematical continuum. For this, he defined
+
+ ‘mathematical points’ on TZ in terms of physical points. Furthermore, he introduced
+
+ â rule determining when 狂 mathematical point is an accumulation point of a set of
+
+ mathematical points. Finally, he showed that K，as the space of mathematical points,
+
+ defines a mathematical continuum (Riesz 1906b, pp. 331-334).
+
+ Thus, TZ is provided with a double structure: it is defined as an infinite sequence of
+
+ physical continua and as a mathematical continuum. Riesz then proved the following
+
+ continuity properties of TZ which depend on this double structure:
+
+ 1.尺 has a non-denumerable infinity of mathematical points.
+ 2. 7?. is a mathematical continuum.
+
+ 3. The Bolzano-Weierstrass Theorem is valid on ‘bounded’ subsets of TZ.
+
+ 4. For every element of 7^ as mathematical continuum there exists a countable, suf
+
+ ficient system of special neighbourhoods (TZ is first countable).
+
+ 5. The Borel theorem is valid for ‘closed’ subsets of K.
+
+ Ô Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 09:53:23 UTC
+All use subject to https://about.jstor.org/terms
+
+ 86 L. Rodriguez
+
+ 6.冗 is connected.
+
+ to E3.
+
+ 7. TZ can be continuously threefold ordered so that it is locally ‘similarly condensed'
+
+ Riesz's versions of the Bolzano-Weierstrass and the Borel theorems do not apply
+
+ to subsets of any arbitrary abstract mathematical continuum but only to subsets of
+
+ TZ. The reason is that Riesz characterised both ‘bounded’ and ‘closed’ sets only in
+
+ terms of special properties of TZ. As already mentioned, Riesz did not give a general
+ definition of ‘closed’ subsets of a mathematical continuum.63
+
+ For the proof of the first six properties, no extra assumptions were needed. But in
+
+ the case of the property seven, which he needed to approach the issue of dimension,
+
+ he additionally assumed that for every mathematical point x of 尺，there exists a
+
+ neighbourhood U such that U can be continuously threefold ordered. The continuity
+
+ of the ordering means that the condensation type induced on U by the threefold order
+
+ does not differ from the original condensation type of U • Riesz then claimed, without
+
+ proper proof, that the space TZ is locally similarly condensed to Rへ i.e. for every
+
+ mathematical point x of TZ, there exists a neighbourhood U，such that U is similarly
+ condensed to R3.
+
+ Riesz general characterisation of continuous geometrical space reads as follows:
+
+ In this way, one achieves a characterisation of space as a connected mathematical
+
+ continuum such that every element has a neighbourhood that, considered as an
+
+ independent continuum, has the same condensation type as the three-dimensional
+
+ space of numbers. So, one arrives at Hilbert's more general conception of con
+
+ tinuous space.64
+
+ That means that continuous space, understood as the set upon which geometry can
+
+ be established, is a connected mathematical continuum locally similarly condensed to
+
+ R3. This notion of three-dimensional space resembles the modern notion of a three
+ dimensional topological manifold.
+
+ Riesz was well aware of the difference between the local and the global topology
+
+ of space. He pointed to the fact that such a local characterisation leaves the question
+
+ unanswered as to what the condensation type of the global space is. He therefore
+
+ concluded that the space TZ was still not ready for establishing geometry upon it
+ (Riesz 1906b, p. 350).
+
+ 5 Continuous space as a n-dimensional manifold
+
+ Both Hilbert's and Riesz's conception of continuous space was that of an
+ n-dimensional manifold (with n = 2 in Hilbert's case, n = 3 in Riesz's). How
+
+ ever, they approached the challenge of defining this concept with different degrees
+
+ 63 I translate as ‘bounded’ what Riesz called ‘im Endlich gelegen’，i.e. ‘located in a finite region' (Riesz
+
+ 1906b, pp. 335-336). Riesz's notion of 'bounded' is connected to the concept of compactness, see next
+ section.
+
+ 64 Riesz (1906b, p. 359), my translation.
+
+ Ô Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 09:53:23 UTC
+All use subject to https://about.jstor.org/terms
+
+ Frigyes Riesz and the emergence of general topology 87
+
+ of generality. This was due not only to their different motivations, but also to the
+
+ differences in their mathematical practices.
+
+ The continuity of space problem set by Hilbert involved the challenge not only
+
+ of finding an accurate definition of a continuous space but also of formulating an
+
+ adequate characterisation of the continuity of the group of motions, as specified in
+
+ Hilbert's fifth Paris problem.
+
+ Riesz experienced a broader spectrum of motivations which included Hilbert's
+
+ axiomatic foundation of geometry, recent contributions to the philosophical discussion
+
+ of space, Cantor's theory of order types, as well as recent developments of analysis and
+
+ point-set theory in France. Riesz was particularly interested in Fréchet's early works
+
+ on abstract point-set topology, because Fréchet's topological approach to the study of
+ functions whose domain are sets of functions generalised both the classic analysis as
+
+ well as Cantor's point-set theory.
+
+ The methods Hilbert used to define the plane as a two-dimensional manifold con
+
+ sisted in mapping Jordan domains in R2 onto neighbourhoods and in working with the
+
+ point-set topology of R2. Thus, his procedure was determined by those mathematical
+ methods common to the classical analysis ofWeierstrass, Cantor and Lie. These meth
+
+ ods used basic concepts such as the limit of sequences, the continuous function on E2
+
+ (continuous function as a mapping that preserves the convergence of sequences) and
+
+ the Cantor's point-set topology of R2.
+
+ One original aspect of Hilbert、approach that is important for the present discussion,
+
+ is that he induced a weak topology on the plane using the standard topology of E2. It
+
+ is precisely this technical solution that struck Riesz and eventually led him to develop
+
+ his theory of mathematical continuâ.
+
+ Riesz regarded the space primarily as a mathematical continuum, i.e. he demanded
+
+ that the space is a set provided with its own notion of an accumulation point and, con
+
+ sequently, with its own point-set topology. He additionally assumed that each element
+
+ of the space possesses a neighbourhood whose continuity structure as a mathemati
+ cal continuum happened to be similar to that of the three-dimensional space TR?. The
+ fundamental difference to Hilbert's definition is that the continuity structure did not
+
+ need to be induced but could be defined from the start independently of R3. It is the
+
+ difference between having a strong instead of a weak topology.
+
+ Riesz's general approach proves that the modern practices in the French analy
+ sis influenced him profoundly, above all Baire's exploration of other topologies for
+
+ R and Fréchet's attempts to develop an abstract point-set topology. Nevertheless, it
+
+ was definitely Hilbert's technical solution of inducing a topology on the plane that
+
+ gave Riesz the key idea to provide the space with its own concept of accumula
+
+ tion point, as Riesz explicitly acknowledged in his Rome lecture (see quotation in
+ Sect. 4.1).
+
+ Thus, the basic concepts that played an important role in Hilbert's and Riesz's
+
+ characterisations of continuous space were cardinality, neighbourhood, accumulation
+
+ point, condensation type, the Bolzano-Weierstrass theorem, the Borel theorem, con
+ nectedness, dimension, motion and continuous function. However, they may have
+
+ been understood and applied differently by both authors. These differences will be
+
+ discussed in the following paragraphs.
+
+ Ô Springe
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 09:53:23 UTC
+All use subject to https://about.jstor.org/terms
+
+ 88 し Rodriguez
+
+ 5.1 Cardinality
+
+ In Hilbert's work, the cardinality of the space was determined by the axioms defin
+
+ ing the plane as a two-dimensional manifold. From the perspective of an axiomatic
+
+ foundation of geometry, Riesz found this implication unsatisfactory because it means
+
+ that the definition of the space is unnecessarily restrictive (see Sect. 3.4). According
+
+ to him, a foundation of geometry based on Hilbert's notion of motion has the same
+
+ implication on the cardinality of the space. All the same, Riesz proceeded just as
+
+ Hilbert had done. The characterisation of the space TZ as locally similarly condensed
+
+ to R3 implies as well that the cardinality of Tl is 2K°.
+
+ The issue of the cardinality of space remained under scrutiny in the Genesis，because
+
+ Riesz was particularly interested in certain sets of functions. This is revealed in his
+
+ article ‘Sur une espèce de géométrie analytique des systèmes de fonctions sommables’
+
+ (1907c) in which he discussed the development of an analytical geometry on the set
+
+ of functions LL (the square-integrable functions in Lebesgue's sense).
+
+ 5.2 Neighbourhood
+
+ This was the basic concept in Hilbert's dennition of the plane. It also played an impor
+
+ tant role in Riesz's characterisation of the space. There is, however, a fundamental dif
+
+ ference between Hilbert's and Riesz、concepts of neighbourhood. Hilbert defined the
+
+ system of neighbourhoods using the images, under the coordinate functions, of Jordan
+
+ domains in R2. Instead, Riesz defined the system of neighbourhoods independently
+
+ of R3 and of any system of subsets of E3. Riesz's neighbourhoods are determined
+
+ only by the continuity structure of the space as a mathematical continuum.
+
+ 5.3 Accumulation point
+
+ Hilbert regarded a point x as an accumulation point of a subset M of the plane if
+ the images of x and M under the coordinate functions on E2 are related in the same
+
+ way. In contrast, Riesz defined the concept of accumulation point for an abstract set
+
+ axiomatically via his dennition of mathematical continuum.
+
+ 5.4 Condensation type
+
+ Riesz introduced this concept to classify mathematical continua according to their con
+
+ tinuity structures (condensation types). Hilbert did not have such a concept. Hilbert
+
+ regarded E2 as the prototype of the continuous two-dimensional space and, accord
+
+ ingly, as the only imaginable continuity type. However, using Riesz、theoretical frame
+
+ work to describe what Hilbert did, it is clear that Hilbert's plane has either locally or
+
+ globally (assuming the existence of a global coordinate function) the condensation
+
+ type of E2. Riesz noticed this. That is the reason why he generalised Hilbert's notion
+
+ of two-dimensional manifold by defining three-dimensional continuous space as a
+
+ mathematical continuum locally similarly condensed to R3.
+
+ Ô Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 09:53:23 UTC
+All use subject to https://about.jstor.org/terms
+
+ Frigyes Riesz and the emergence of general topology 89
+
+ 5.5 Bolzano-Weierstrass property
+
+ A set is said to satisfy the Bolzano-Weierstrass property if it holds true that any
+ infinite subset has at least one accumulation point. In 1894, when he was searching
+
+ for an adequate formulation of the continuity axiom in geometry, Hilbert resorted
+
+ to the property that every infinite, monotone increasing and bounded sequence has
+
+ a least upper bound.65 In the Genesis，Riesz characterised the sets that satisfy the
+
+ Bolzano-Weierstrass property only for the special case of the space TZ. In his Rome
+
+ lecture, Riesz discussed the importance of the Bolzano-Weierstrass property within
+
+ the framework of an abstract point-set topology.
+
+ 5.6 Borel theorem
+
+ This theorem, still used to characterise compact sets, belongs to the point-set topology
+
+ that, after Cantor, was chiefly developed by a group of young French mathematicians at
+
+ the beginning of the twentieth century, Borel among them. Hilbert never learnt to take
+
+ full advantage of this branch of modern mathematics~his work on integral equations
+
+ gives proof of that. His mathematical practices remained close to algebraic structural
+
+ methods and to the classical analysis ofWeierstrass. Even though he certainly valued
+
+ Cantor's work highly and never lost an opportunity to express his support for it, the fact
+
+ remains that theAnnalennote and the memoir were the only occasions in which Hilbert
+
+ came to apply Cantor's point-set topological methods. Therefore, it is not surprising
+
+ that Hilbert did not grasp the analytical significance of the Borel theorem.
+
+ Riesz managed to characterise those subsets of the space Tl for which the Borel
+
+ theorem is valid, i.e. for which each cover consisting of neighbourhoods has a finite
+
+ subcover. Furthermore, he suggested in his Rome lecture another three characterisa
+
+ tions of compactness which he discussed in connection with the Bolzano-Weierstrass
+
+ property.66 Within the framework of a general theory of mathematical continua, he
+
+ characterised E as compact if for every sequence {En} of nonempty, infinite subsets
+
+ of E such that En^.\ is a subset of En for each n, there is at least one element that
+
+ belongs to all the subsets En.67
+
+ 5.7 Connectedness
+
+ Hilbert did not discuss the concept of connectedness explicitly. Nevertheless, from
+
+ Riesz's point of view, it is clear that the last axiom in Hilbert's definition of the plane
+
+ 65 For a detailed account of Hilbert's lecture on the foundations of geometry in 1894, see Toepell (1986,
+
+ p. 74) and Hallett and Majer (2004, p. 68).
+
+ 66 One of them is acknowledged by Willard (1970, p. 318) as the first attempt to describe compactness
+
+ using the finite intersection property. Instead of ‘compact’ Riesz spoke of 'bounded set’.
+
+ 67 Fréchet also used nested sequences of subsets in 1904. Fréchet did assume that the subsets En are
+ closed. On Fréchet's the notion of ‘compactness’，see Taylor (1982), and on its further development, see
+ Pier (1980).
+
+ 包 Springe
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 09:53:23 UTC
+All use subject to https://about.jstor.org/terms
+
+ ensures that the plane is a connected mathematical continuum.68 Riesz, on the other
+
+ hand, had worked on sharpening the concept of connectedness for years. He considered
+
+ it of great importance for the characterisation of continuous space. At the same time,
+ he was well aware that this property is independent of the notion of ‘condensation
+
+ 90 L. Rodriguez
+
+ type’.
+
+ 5.8 Dimension
+
+ In Hilbert's work, the two-dimensionality of the plane was determined by the axioms
+
+ defining the coordinate functions as bijective mappings onto E2 with continuous coor
+
+ dinate changes. In Riesz's treatment, the three-dimensionality of space was determined
+
+ in a similar way, except that here the corresponding coordinate functions were sup
+
+ posed to be continuous (Riesz does not need coordinate changes). It is interesting how
+
+ Riesz approached the issue of dimension in the Genesis. He knew from his own earlier
+ work how difficult it was to determine the dimension of an arbitrary set, even for sub
+
+ sets of Euclidean spaces. Therefore, he gave up such a general approach and, resorting
+
+ instead to his own theory of multiple order types, he introduced the hypothesis that
+
+ the space TZ can be continuously threefold ordered.69
+
+ 5.9 Motion
+
+ Hilbert defined this concept as a bijective transformation of the space to itself whose
+
+ corresponding mapping from R2 onto R2 was continuous, preserved the orientation
+
+ of any closed Jordan curve and satisfied three further axioms. Riesz regarded a motion
+
+ as a bijective continuous transformation of space in itself, i.e. a transformation that
+
+ preserves the condensation type of the corresponding subsets.70 He discussed the
+ notion of motion only superficially because, as he said (1906b, p. 350), no geometry
+
+ could yet be established on his space TZ.
+
+ 5.10 Continuous function
+
+ Hilbert used extensively the concept of continuous function from R" toR", n =1,2.
+
+ Continuity played a fundamental role in his definition of the plane as a property of the
+
+ coordinate functions. He implicitly extended the concept of a continuous function to
+
+ mappings from the plane onto the plane via the coordinate functions; for instance, his
+
+ concept of motion is defined as a continuous mapping from the plane onto the plane in
+
+ 68 Hilbert's neighbourhoods are absolutely connected in Riesz's sense, and for every two points of the plane,
+
+ there exists a neighbourhood containing them, i.e. the plane fulfils Riesz's characterisation of connectedness
+ in terms of absolute connectedness; see Sect. 4.5.
+
+ 69 See Sect. 3.2. Referring to his own article (1905a), Riesz said, 'Die groBte Schwierigkeit liegt darin, daB
+
+ der Dimensionsbegriff fiir mathematische Kontinua schwer zu fassen ist’ (Riesz 1906b, p. 313).
+
+ 70 ‘Die Bewegungen sind eindeutig umkehrbare stetige Transformationen des Raumes, d.h. solche eindeutig
+
+ umkehrbare Abbildungen des Raumes auf sich selbst, fiir welche die einander entsprechenden Punktmengen
+ âhnlich verdichtet sind' (Riesz 1906b, p. 350).
+
+ 自 Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 09:53:23 UTC
+All use subject to https://about.jstor.org/terms
+
+ Frigyes Riesz and the emergence of general topology 91
+
+ the sense that the corresponding mapping from R2 to R2 is continuous. Riesz did not
+
+ explicitly define the concept of continuous function between different mathematical
+
+ continua. However, such a concept is suggested through his definition of a 'contin
+
+ uously ordered mathematical continuum' and his concept of motion. A function is
+
+ continuous if it preserves the condensation type of the corresponding subsets.71
+
+ 6 Reception
+
+ Riesz's participation in the International Congress of Mathematicians at Rome in 1908
+
+ was crucial for the reception of his concept of mathematical continuum. If he had not
+
+ attended it, then there would have been no reception at all. Not only because the Genesis
+
+ went largely unnoticed but also because his Rome lecture was the only occasion in
+
+ which Riesz summarised his theory of mathematical continua. Nevertheless, his lecture
+
+ was successful for it eventually reached and inspired several future founders of general
+
+ topology.
+
+ His contribution was entitled ‘Continuity and abstract point-set theory' (1909).
+
+ Continuity means the notion enclosed within the concept of space as a continuous
+
+ manifold. Riesz made the connection with abstract point-set theory when, reading
+
+ Hilbert's memoir，he understood that the issue of characterising continuity depends
+
+ mainly on the concept of an accumulation point. This realisation, combined with
+
+ the ideas he had learnt from Poincaré's philosophy about how basic geometric ideas
+
+ develop in our intuition, led him eventually to conceive the space as a mathematical
+ continuum. He did not enter this discussion but referred to Poincaré's ‘La Valeur de
+
+ la Science’ (1905) and to his own ‘Die Genesis des Raumbegriffs'.
+
+ He then presented his concept of a ‘mathematical continuum'. However, the def
+
+ inition included only the first three axioms used in the Genesis. The fourth axiom is
+
+ replaced by the assumption that each accumulation point jcofa given set M is uniquely
+
+ determined by the totality of those subsets of M of which x is an accumulation point.
+
+ Addressing the issue of how â theory of mathematical continua should be further devel
+
+ oped, he made some suggestions, mentioning the work of Fréchet as a starting point,
+
+ and presenting two theorems of his own related to the B olzano-Weierstrass property.
+
+ But not every continuity property can be reduced to the concept of an accumulation
+
+ point. That is the case of ‘connectedness’ as he illustrated with examples. Therefore,
+
+ he proposed the new concept of ‘chaining’ which defines a relation between two sets,
+
+ namely if they are near or far from each other (i.e. chained or not).
+
+ The rest of the lecture deals with the relation between the spatial structures of
+
+ ‘chaining type’ and ‘condensation type’. The first is determined by the sets being
+
+ chained with each other, and the second by the accumulation point relation between
+
+ the elements and the subsets of the space.72
+
+ 71 See Footnote 70 and Sect. 4.6. Since sequential convergence describes the topology of any first countable
+ space and since the space V, is first countable, then f :1Z —1Z is continuous if and only if whenever
+ xn x then f(xn) — f(x) in 1Z.
+
+ 72 In modern terminology, 'chaining type' is called a proximity structure, see Thron (1997). According to
+ Bognâr and Csâszâr (2006), the proximity spaces of modern topology (introduced by V.A. Efremovis in
+
+ 姿 Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 09:53:23 UTC
+All use subject to https://about.jstor.org/terms
+
+ Table 1 List of authors that referred to Riesz’ topological ideas. The references appear in works published
+
+ between 1907 and 1933. The authors are ordered according to their country and the year their paper or book
+
+ 92 L. Rodriguez
+
+ was published
+
+ Year
+ Year USA France Austria Poland Germany Switzerland
+
+ Germany Switzerland
+
+ Austria
+
+ France
+
+ Poland
+
+ USA
+
+ Schoenflies Fehr
+ 1908
+ 1908 Schoenflies Fehr
+
+ 1910  EH Moore
+ 1910 EH Moore Frechet
+
+ Fréchet
+
+ 1911
+ 1911 Root
+ Root
+
+ 1914
+ 1914 Root (2); Pitcher
+ Root (2); Pitcher
+
+ 1915
+ 1915 RL Moore; Chittenden
+ RL Moore; Chittenden
+
+ 1917
+ Fréchet
+ 1917 Frdchet
+
+ 1918
+ Fréchet
+ 1918 Frdchet
+
+ 1919 Chittenden
+ 1919
+ Chittenden
+
+ 1921
+ Vietoris
+ 1921 Frdchet Vietoris
+
+ Fréchet
+
+ 1922
+ Kuratowski
+ 1922 Kuratowski
+
+ 1923
+ Tietze
+ 1923 Tietze
+
+ 1927
+ 1927 Sierpinski
+ Sierpinski
+
+ 1928
+ 1928 Bouligand, Frdchet (2)
+
+ Bouligand, Fréchet ⑵
+
+ Baer
+ 1929
+ 1929 Putnam, Chittenden Baer
+
+ Putnam, Chittenden
+
+ 1926
+ Hildebrandt
+ 1926 Hildebrandt
+
+ 1930 Frink
+ 1930
+ Frink
+
+ 1932
+ 1932 Stephans
+
+ Stephans
+
+ 1933 Kuratowski
+ 1933
+
+ Kuratowski
+
+ In my opinion, the Rome lecture cannot be fairly regarded as a short description
+
+ of the ideas contained in the Genesis.13 In Rome, Riesz focused only on the concept
+
+ of mathematical continuum, leaving aside all the other important concepts he had
+
+ developed in Genesis，e.g. connectedness and neighbourhood, not to mention their
+
+ application to the space problem. Nevertheless, for the reception or Riesz's concept
+
+ of mathematical continuum, the print version of the Rome lecture is undoubtedly the
+
+ more important one of the two papers.
+
+ The reception of Riesz's topological ideas can be traced as follows: a systematic
+
+ research on publications appearing between 1907 and 1933 resulted in 24 articles in
+
+ 14 mathematical journals and four books containing references to Riesz. The search
+
+ covered a total of 26 journals of that period. The complete list of journals searched is
+
+ shown in Table 2. The references were made by 18 different authors from six countries
+
+ (see Table 1).Their works were published in the USA, France, Italy, Austria, Poland,
+
+ Germany and Switzerland. Among the authors, there are some of the most prominent
+
+ Footnote 72 continued
+
+ â Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 09:53:23 UTC
+All use subject to https://about.jstor.org/terms
+
+ 1951 independently ofRiesz) are in some respect similar to the chaining types ofRiesz. This similarity was
+
+ responsible for the late reception of Riesz's topological ideas, e.g. Thron (1973).
+
+ 73 That is how the Rome lecture is commonly referred to, e.g. by Taylor (1982) and Bognâr and Csâszâr
+ (2006).
+
+ Frigyes Riesz and the emergence of general topology 93
+
+ Table 2 Complete list of journals searched for references to Riesz’ Genesis and his Rome lecture. The
+ columns contain the country in which the journal was published, the volumes and years searched and the
+
+ number of references founded in the corresponding period
+
+ Journal
+ Journal
+
+ Country
+ Country
+
+ Searched
+ Searched
+
+ Réf.
+ Ref.
+
+ Abhand. Math. Sem. Hamburg.
+ Abhand. Math. Sem. Hamburg.
+
+ Germany
+ Germany
+
+ 1.1922-9.1933
+ 1.1922-9.1933
+
+ Universitat
+ Universitat
+
+ Acta Mathematica
+ Acta Mathematica
+
+ Acta Scientiarium Mathematicarum
+ Acta Scientiarium Mathematicarum
+
+ American Journal of Mathematics
+ American Journal of Mathematics
+
+ Ann. Mat. Pura appl. ser. iii and iv
+ Ann. Mat. Pura appl. ser. iii and iv
+
+ Ann. scientifiques de l'Ecole
+ Ann. scientifiques de l'École
+
+ normale supérieure
+ normale supdrieure
+
+ Annali délia Scuola Normale
+ Annali della Scuola Normale
+
+ Superiore di Pisa - Classe di
+ Superiore di Pisa - Classe di
+ Scienze
+ Scienze
+
+ Sweden
+ Sweden
+
+ 30.1906-62.1933
+ 30.1906-62.1933
+
+ Hungary
+ Hungary
+
+ 1.1922-6.1934
+ 1.1922-6.1934
+
+ 29.1907-55.1933
+ 29.1907-55.1933
+
+ 15.1907-31.1922; 1.1924-11.1933
+ 15.1907-31.1922; 1.1924-11.1933
+
+ 37.1920-47.1930
+ 37.1920-47.1930
+
+ 9.1907-16.1930; 1.1932-2.1933
+ 9.1907-16.1930; 1.1932-2.1933
+
+ Bull, de la Soc math de France
+ Bull, de la Soc math de France
+
+ France
+ France
+
+ 35.1907-61.1933
+ 35.1907-61.1933
+
+ USA
+ USA
+
+ Italy
+ Italy
+
+ France
+ France
+
+ Italy
+ Italy
+
+ USA
+ USA
+
+ USA
+ USA
+
+ France
+ France
+
+ France
+ France
+
+ Poland
+ Poland
+
+ Germany
+ Germany
+
+ Germany
+ Germany
+
+ Germany
+ Germany
+
+ Switzerland
+ Switzerland
+
+ Germany
+ Germany
+
+ Austria
+ Austria
+
+ France
+ France
+
+ 8.1907-34.1933
+ 8.1907-34.1933
+
+ 10.1904-39.1933
+ 10.1904-39.1933
+
+ 32.1908-57.1933
+ 32.1908-57.1933
+
+ 144,1907-151.1910
+ 144.1907-151.1910
+
+ 1.1920-21.1933
+ 1.1920-21.1933
+
+ 1907-1933
+ 1907-1933
+
+ 132.1907-169.1933
+ 132.1907-169.1933
+
+ 17.1908-29.1920
+ 17.1908-29.1920
+
+ 9.1907-32.1933
+ 9.1907-32.1933
+
+ 67.1909-108.1933
+ 67.1909-108.1933
+
+ 18.1907-40.1933
+ 18.1907-40.1933
+
+ 7.1907-20.1920;
+ 7.1907-20.1920;
+ 1.1922-3.1924;
+ 1.1922-3.1924;
+ 1.1925-2.1927
+ 1.1925-2.1927
+
+ Proceedings of the London Math.
+ Proceedings of the London Math.
+
+ UK
+ UK
+
+ 4.1907-35.1933
+ 4.1907-35.1933
+
+ Proceedings of the National Acad, of
+ Proceedings of the National Acad, of
+
+ USA
+ USA
+
+ 1.1915-19.1933
+ 1.1915 -19.1933
+
+ Rend. Accad. Lincei ser. 5
+ Rend. Accad. Lincei ser. 5
+
+ Rend. Circ. Mat. Palermo
+ Rend. Circ. Mat. Palermo
+
+ Italy
+ Italy
+
+ Italy
+ Italy
+
+ 16.1907-33.1924; 1.1925-18.1933
+ 16.1907-33.1924; 1.1925-18.1933
+
+ 23.1907-57.1933
+ 23.1907-57.1933
+
+ Germany
+ Germany
+
+ 15.1929
+ 15.1929
+
+ USA
+ USA
+
+ 9.1908-35.1933
+ 9.1908-35.1933
+
+ Annals of Math.
+ Annals of Math.
+
+ Bull. Am. Math. Soc.
+ Bull. Am. Math. Soc.
+
+ Bull, des sciences mathématiques
+ Bull, des sciences mathdmatiques
+
+ Comptes Rendu Ac. Sci. Paris
+ Comptes Rendu Ac. Sci. Paris
+
+ Fundamenta Mathematicae
+ Fundamenta Mathematicae
+
+ Gottinger Nachrichten
+ Gôttinger Nachrichten
+
+ Journal fôr reine und angewandte
+ Journal fur reine und angewandte
+
+ Math.
+ Math.
+
+ Jahresbericht der DMV
+ Jahresbericht der DMV
+
+ L'Enseignement mathématique
+ L'Enseignement mathdmatique
+
+ Math. Ann.
+ Math. Ann.
+
+ Monatshefte ftir Math, und Phys.
+ Monatshefte fiir Math, und Phys.
+
+ Nouvelles Annales de
+ Nouvelles Annales de
+
+ Mathématiques
+ Mathematiques
+
+ Society
+ Society
+
+ Sci.
+ Sci.
+
+ Sitzungsberichte der Heidelberger
+ Sitzungsberichte der Heidelberger
+ Akademie der Wissenschaften.
+ Akademie der Wissenschaften.
+
+ Math.-naturwis. Klasse
+ Math.-naturwis. Klasse
+
+ Transactions of the AMS
+ Transactions of the AMS
+
+ 0
+ 0
+
+ 0
+ 0
+
+ 0
+ 0
+
+ 4
+ 4
+
+ 0
+ 0
+
+ 1
+ 1
+
+ 0
+ 0
+
+ 1
+ 1
+
+ 6
+ 6
+
+ 1
+ 1
+
+ 1
+ 1
+
+ 1
+ 1
+
+ 1
+ 1
+
+ 0
+ 0
+
+ 0
+ 0
+
+ 0
+ 0
+
+ 1
+ 1
+
+ 2
+ 2
+
+ 1
+ 1
+
+ 0
+ 0
+
+ 0
+ 0
+
+ 0
+ 0
+
+ 0
+ 0
+
+ 1
+ 1
+
+ 1
+ 1
+
+ 3
+ 3
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 09:53:23 UTC
+All use subject to https://about.jstor.org/terms
+
+ 名 Springer
+
+ 94 L. Rodriguez
+
+ founders of general topology: Kuratowski, Sierpinski, Tietze, Vietoris, Fréchet, Robert
+
+ Lee Moore and Chittenden. All references, except the one by Schoenflies in 1908,
+ concern the Rome lecture.
+
+ The two references made in 1908 are not relevant. Schoenflies (1908) is the only
+
+ one in the list who actually referred to the Genesis in his report on the development
+
+ of point-set theory. That could have been a good start for Riesz but unfortunately
+
+ Schoenflies was apparently interested only in Riesz's theory of multiple order types
+
+ and missed all the other topological work contained in the Genesis completely. The
+
+ second reference was made by Fehr (1908) who wrote a report on the International
+
+ Congress of Mathematicians for ÛiQ]o\xïm\U Enseignement Mathématique. The report
+
+ includes a brief summary of Riesz's lecture.
+
+ Table 1 shows an accurate picture of how the reception of Riesz's topological
+
+ ideas proceeded chronologically and geographically. The relevant reception started in
+
+ France in 1910 and on the other side of the Atlantic, in the USA. Very slowly Riesz's
+
+ ideas move on towards Austria and Poland to arrive finally in Germany. The table also
+
+ shows clearly that Riesz's ideas achieved their widest reception in the USA.
+
+ For the reception in the USA, E.H. Moore played a key role. E.H. Moore actually
+
+ attended the International Congress of Mathematicians in Rome and was most prob
+
+ ably present at Riesz's talk. At that time, E.H. Moore was working in what he called
+
+ ‘general analysis'. He had therefore an open interest in the development of abstract
+
+ point-set theory.74 E.H. Moore knew by then Fréchet's pioneer work on abstract point
+
+ set topology and must have been very interested in what Riesz had to say. In any case,
+
+ two years after the congress, E.H. Moore's book on general analysis (1910) appeared.
+
+ The book contains references to Riesz's and Fréchet's topological work as examples
+
+ of different principles that can be applied in order to develop an abstract point-set
+
+ theory. In 1910, Fréchet referred to Riesz in that same way.
+
+ Furthermore E.H. Moore propagated Riesz's approach in Chicago among five of his
+
+ students successfully: Ralph E. Root, A. Pitcher, Robert Lee Moore, Edward Wilson
+ Chittenden and Theophil H. Hildebrandt.75 Apart from R.L. Moore, they were all
+
+ followers of E.H. Moore's general analysis.
+
+ In spite of dramatic events, the reception of Riesz's Rome lecture went on as fol
+
+ lows. First, came Root*s papers on iterated limits (1911，1914a, 1914b) and a paper
+
+ by Pitcher (1914) on general analysis. Then, came the First World War with the effect
+
+ that even the publication of Felix Hausdorffs book ‘Grundziige der Mengenlehre’ in
+
+ 1914 passed almost unnoticed.76 During the war, two papers appeared by Chittenden
+
+ (1915), Chittenden (1919)，one by Moore (1915) and two by Fréchet (1917，1918).
+
+ Until 1928, Fréchet remained in France quite isolated as receptor of Riesz's ideas.
+
+ 74 On Moore's general analysis, see Siegmund-Schultze (1998).
+
+ 75 On E.H. Moore's school and the beginning of Topology in the USA, see Jones (1997). The author
+
+ discusses the reception ofFréchet's work within E.H. Moore's school, but Riesz is not mentioned at all. The
+
+ reception of Riesz's ideas by Root and R.L. Moore is shortly mentioned by Purkert et al. (2002, p. 707). A
+ detailed discussion of the reception of Riesz's topological ideas by Fréchet gives Taylor (1985).
+
+ 76 Purkert (2002) gives a detailed account of the reception of Hausdorff's 'Grundziige der Mengenlehre'.
+
+ This reception suffered the effects of the war too.
+
+ 必 Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 09:53:23 UTC
+All use subject to https://about.jstor.org/terms
+
+ Frigyes Riesz and the emergence of general topology 95
+
+ After the war, Europe was ready to catch up. Vietoris (1921) and Fréchet (1921)
+
+ published papers on investigations they had started to pursue during their days at the
+
+ front. After a second reference in Austria by Tietze (1923)，Riesz's ideas managed
+
+ to infiltrate Poland and achieved in the hands of Kuratowski (1922) and Sierpinski
+
+ (1927)，their most important contribution to general topology.77
+
+ Before 1919, the authors who referred to Riesz seemed not to have noticed Haus
+
+ dorff's approach for he is not mentioned by any of them.78 This changed radically
+
+ after the war. Almost all of the papers listed in Table 1 deal with principles defining a
+
+ continuity structure in an abstract set, i.e. principles on which to develop an abstract
+
+ point-set topology. After the war, once Hausdorff's Grundziige began to be acknowl
+
+ edged, his neighbourhoods axioms provided a way to topologize a set that was different
+
+ to those of Riesz and Fréchet. Which approach is better? Or are they equivalent? That
+
+ is in general the issue of most post-war papers: to find out which concept (accumula
+
+ tion point, distance, neighbourhood, closure) is the most convenient one as the basic
+
+ concept for the foundation of abstract point-set topology. For instance, Tietze stated:
+
+ A ‘general topology’ is arising as a theory concerning the properties that, under
+
+ topological mappings, remain invariant between so-called topological spaces.
+
+ These investigations are related to the study of the different systems of axioms
+
+ defining the mentioned relations of limes, neighbourhoods or distance, their own
+
+ relevance and the connection between them. It is in this respect that the present
+
+ paper makes some contributions.79
+
+ Practically all post-war, authors discussed both Riesz、and Hausdorff's approach,
+
+ evaluating their axioms and choosing those that seemed best adapted for their purposes.
+
+ And although Hausdorff's axioms were eventually accepted as a satisfactory basis, this
+
+ happened only after several efforts to improve Riesz's system of axioms (by modifying
+
+ them or adding new axioms) so that k became a system equivalent or comparable to
+ Hausdorff's.
+
+ Most importantly, this procedure can be found in precisely those papers by Vietoris,
+ Tietze, Fréchet’ Kuratowski and Sierpinski that were so fundamental for the estab
+
+ lishment of general topology. Vietoris (1921), for instance, investigated the relation
+
+ between two systems of axioms defining the notions of neighbourhood and of accu
+
+ mulation point. The interesting point is that his second system consisted of the three
+
+ axioms of Riesz and a fourth axiom proposed by his teacher W. Gross.80
+
+ Another example is Sierpinski who said:
+
+ 77 The papers mentioned in Table 1 from 1926 on are Hildebrandt (1926)，Bouligand (1928)，Fréchet
+ (1928b), Fréchet (1928a), Chittenden (1929)，Baer (1929)，Frink (1930), Stephens (1932) and Kuratowski
+
+ (1933). Putnam's reference appeared in Dresden (1929), a report of a meeting of the American Mathematical
+ Society.
+
+ 78 Hausdorff is first mentioned along with Riesz by Chittenden (1919). Hausdorff was acquainted only
+
+ with Fréchet's work. In his GrundzUge，he therefore does not refer either to Riesz or to any member of the
+ Moore's school (see Purkert et al. 2002, pp. 699-713).
+
+ 79 Tietze (1923), my translation.
+
+ 80 Reitberger (1997) provides a brief discussion of Vietoris' contribution to the foundation of general
+ topology.
+
+ Ê Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 09:53:23 UTC
+All use subject to https://about.jstor.org/terms
+
+ 96 L. Rodriguez
+
+ Since Fréchet's thesis we have seen various attempts to base topology (analy
+
+ sis situs) on one or another primitive concept, e.g. on that of limit (Fréchet),
+
+ accumulation point (F. Riesz), distance or neighbourhood (Hausdorff, Fréchet),
+
+ and closure (Kuratowski). The purpose of this article is to show how topology
+
+ could be developed by taking as primitive the concept of derived set.81
+
+ This means that the accumulation point axioms of Riesz were at some point compet
+
+ ing with the neighbourhoods axioms of Hausdorff, the closure axioms of Kuratowski,
+
+ and the derived set axioms of Sierpinski. In fact, Riesz’ s axioms played a key role in
+
+ the formulation of the axiom systems of Kuratowski and Sierpienski. This was Riesz's
+
+ main contribution to the foundation of general topology.
+
+ As for the reception of Riesz's Genesis，apparently the only section that has been
+
+ studied until now, even by historians, is the one in which the notion of mathematical
+
+ continuum is introduced.82 The question posed by Riesz about the role of experience
+
+ in the emergence of the concept of space, and no mention his mathematical treatment
+ of the issue, made the text difficult to read. Riesz wrote the Genesis for mathemati
+
+ cians who, like Poincaré, were interested in both the foundations of geometry and
+
+ the philosophical discussion about space. Such mathematicians were rare. Besides,
+
+ the fact that Riesz's paper did not appear in an important German or French journal
+
+ reduced the chances of its reception significantly. Sadly, the efforts made by the jour
+
+ nal Mathematische und naturwissenschaftliche Berichte aus Ungarn to promote the
+
+ work of its authors by publishing in German were not enough to prevent this.
+
+ All the time historians of general topology have repeatedly overlooked Riesz's
+
+ genuine interest in shaping the concept of continuous space for geometry. Therefore,
+
+ they missed the chance of discovering that Riesz's topological work has indeed its
+ roots in geometry, especially in Hilbert's foundations of geometry.
+
+ Appendix A Letters to David Hilbert
+
+ A.l Letter by F. Riesz to David Hilbert from 18th November 190483
+
+ Lôcse, den 18. November 1904
+
+ Hochgeehrter Herr Professor!
+
+ 81 Sierpinski (1927) according to the translation by Moore (2008,233). Moore (2008,221) concludes, just
+ I did in my thesis (Rodriguez 2006, 240), that ‘HausdorfTs neighbourhood spaces did not immediately
+
+ succeed in displacing their competitors', Riesz's mathematical continuum among them, but that ‘there was
+
+ a period of evolution during which it was not clear what concept should be taken as primitive and what
+
+ axioms should be assumed for such a space.' As late as (1982), Appert, a direct pupil ofFréchet's, occupied
+
+ himself with this same question.
+
+ 82 An interesting exception is Willard (1970, p. 312), who refers to the Genesis acknowledging Riesz's
+ contribution to the notion of connectedness.
+
+ 83 Riesz (1904a)
+
+ â Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 09:53:23 UTC
+All use subject to https://about.jstor.org/terms
+
+ Frigyes Riesz and the emergence of general topology 97
+
+ Sie entschuldigen, wenn ich Sie store. Es handelt sich um meine letzten Unter
+
+ suchungen, iiber die ich vor ausfiihrlicher Publikation gerne eine kiirzere Note abgeben
+ môchte und ich wende mich Ihnen mit der Bitte, dieselbe der Gesellschaft der
+
+ Wissenschaften in Gôttingen giitigst vorzulegen. Die Untersuchungen kniipfen an die
+
+ Cantor'sche Idee an, dass die sogenannten geometrischen Eigenschaften der Punkt
+
+ mengen sich mit dem Begriffe der Fundamentalreihe auf Ordnungstypen iibertragen
+
+ lassen. Dies beziigliche Untersuchungen sind erst flir lineare Ordnungstypen durchge
+
+ fuhrt, ich unternahm es, dieselben fur mehrfach geordnete transfinite Mengen wei
+
+ terzufuhren. Die Schwierigkeiten, die zu uberwinden waren, bestanden darin, dass der
+
+ Massbegriff und damit die gleichmàssige Stetigkeit zu entbehren waren. Als Ersatz
+
+ dafiir diente die Ûbertragung des sogen. Heine-Borelschen Satzes 一 dass nàmlich
+
+ aus jeder unendlichen Intervallmenge, die aile Punkte eines Intervalles im Inneren
+ enthàlt, eine endliche Anzahl von Intervallen àhnlicher Eigenschaft sich auswàhlen
+
+ lâsst 一 auf lineare perfekte zusammenhângende Ordnungstypen. Damit liess sich auch
+
+ der Bolzano-Weierstrass'schen Satz iibertragen. Nach allgemeinen Definitionen gehe
+
+ ich auf zweifache Ordnungstypen von perfektem, zusammenhângendem Charakter
+
+ ein, speziell auf solche, die nach Ausscheidung von Randelementen in einen iiber
+
+ all dichten zusammenhàngenden Ordnungstypus 一Verallgemeinerung des Bereiches
+
+ der Geometrie 一 iibergehen, und beschàftige mich mit den Zusammenhangs-, resp.
+
+ Teilungseigenschaften derselben, d.h. mit der Analysis Situs der Ordnungstypen. Von
+
+ den gebrauchlichen Instrumenten der Mengenlehre muss ich hier teilweise die ge
+
+ rade Strecke entbehren, und kann nur spezielle Strecken und Poligone definieren, die
+
+ mir aber gentigen，um die Untersuchungen liber Jordan-Kurven zu iibertragen, die
+
+ Teilung des Bereiches durch dieselben nachzuweisen, wie auch die beiden Sinne fiir
+
+ die Jordan-Kurven zu definieren. Auf weitere Teilungsfragen môchte ich in der Note
+
+ nicht eingehen.
+
+ Nun treten aber auch meine Untersuchungen in innigste Fiihlung mit jenen iiber
+
+ die Grundlagen der Geometrie. Jene Untersuchungen nàmlich, die als primare Eigen
+ schaft des Raumes die Stetigkeit voraussetzen, bauen den Begriff der n-fach aus
+
+ gedehnten Mannigfaltigkeit auf den Zahlenbegriff und stellen somit der Màchtigkeit
+
+ des Raumes Schranken, die gewissermassen fur gekunstelt erscheinen. Meines Erach
+
+ tens nach sollten die einzigen wesentlichen Merkmale der En die n-fache Anord
+
+ nung, das Ûberalldichte und die Stetigkeit (Perfektheit u. Zusammenhang), wie diese
+ in Ihrem Ebenenbegriff, jedoch mit der obigen Beschrânkung, klar hervortreten,
+ bilden. Demgemâss ware der Rn als Bereich von n-fachem Ordnungstypus auf
+ zufassen. Nun halte ich Ihre Annalennote aus diesem Gesichtspunkte durchdacht
+ und wenn ich mich nicht geirrt habe 一 was môglich ist, da ich die Sache nicht
+
+ naher ausgearbeitet habe, so genligt schon meine Auffassung des Rn, resp. der
+ Ebene, um auf Grund Ihrer Bewegungsaxiome zur Euklidischen oder zur Bolyai
+ Lobatschewskyschen Geometrie zu gelangen. Also liesse keine Mannigfaltigkeit,
+
+ welche von hôherer Màchtigkeit als das Continuumm ist, eine Beweglichkeit im
+
+ Lie'schen, resp. Ihrem Sinne zu.
+
+ Wenn Ihnen eine Note iiber diese Untersuchungen willkommen ist, so bitte ich Sie,
+
+ mir mittels einer Postkarte die Erlaubnis zur Einsendung derselben zu ertheilen.
+
+ Zugleich erlaube ich mir, Ihnen einen Abzug meiner Annalennote mit innigstem
+ Dank fiir die Publikation einzusenden. Herr Schoenflies hatte mich brieflich auf einen
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 09:53:23 UTC
+All use subject to https://about.jstor.org/terms
+
+ 必 Springer
+
+ Irrtum in Anmmerkung S. 410 aufmerksam gemacht, das aber auf die Sache nicht von
+
+ 98 L. Rodriguez
+
+ Belang ist.
+
+ Hochachtungsvoll Ihr ganz ergebener
+ Riesz
+
+ Adresse: F. Riesz, Lôcse /:Ungarn:/
+
+ A.2 Letter by F. Riesz to David Hilbert, undated [probably December 1904, LR]84
+
+ Hochgeehrter Herr Professor!
+
+ Die eingehende Ausfiihrung meiner Untersuchungen iiber mehrfache Ordnungs
+
+ typen, namentlich jener, die die Verallgemeinerung der Analysis Situs des Bereiches
+
+ der Funktionentheorie zum Ziele haben, zeigte mir, dass eine Verwendung der Fun
+
+ damentalreihen oder wenigstens von Teilmengen mit einer einzigen Hàufungsstelle
+
+ eher zum Ziel fiihrt, als der eingeschlagene Weg. Demgemàss waren auch die ein
+
+ leitenden Untersuchungen in einigen Punkten abzuândern. Ich bitte Sie deshalb, von
+
+ der eingesandten Note vorlaufig nicht Gebrauch zu machen. Ich werde sie demnàchst
+ ersetzen.
+
+ Ich beniitze zugleich die Gelegenheit, Ihnen ein gliickliches Neujahr zu wiinschen.
+
+ Hochachtungsvoll Ihr ergebener
+ Riesz
+
+ Appendix B A letter to Maurice Frechet
+
+ B.l Letter by F. Riesz to M. Fréchet from 21 May 190785
+
+ Paris 21 mai 1907
+
+ Monsieur et cher Collègue!
+
+ En quelques jours je quitte la France pour aller à r Allemagne. Je serais été ravi
+ de faire votre connaissance; mais, étant en mission, ma route est déterminée, et je ne
+
+ peux pas passer à Besançon. Ce que je regrette bien.
+
+ Je vous remercie de votre aimable lettre. En ce qué concerne les applications de
+
+ mes résultats à la théorie des opérations fonctionelles, non seulement des opérations
+
+ ordonnant à chaque fonction un nombre, mais aussi aux transformations linéaires (ou
+
+ alors distributives) de l'espace des fonctions, moi je pensais bien que vot. résultats
+ et ceux de M. Hadamard peuvent être complétés et généralisés; en même temps,
+
+ M. Hadamard m'avaits communiqué le même espoir1. Paimerais bien de pouvoir lire
+ prochainement une publication sur ce sujets. Naturellement, pour pouvoir appliquer
+
+ la méthode, il faudra augmenter le domaine des fonctions et en meme temps, élargir
+
+ 84 Riesz (1904b)
+
+ 85 Riesz (1907b)
+
+ Ô Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 09:53:23 UTC
+All use subject to https://about.jstor.org/terms
+
+ Frigyes Riesz and the emergence of general topology 99
+
+ le sens de la notion de，，opération continue". Alors, les problèmes reviendront à la
+
+ résolution des systèmes d'équations linéaires d'une infinite d'inconnues.
+
+ Je veux vous communiquer un théorème qui siût inmédiatement de mes recherches
+
+ mais que je n'avais pas encore communiqué. Pour la classe des fonctions sommables,
+ de carré sommable et pour la notion de fonction limite que j'ai introduite dans ma
+
+ publication autérieure sur les ensembles de fonctions (à l'aide de la notion de distance),
+
+ pour qu'une série de fonctions fn converge (au sens donné) vers une fonction limite
+
+ il faut et il suffits que la distance de deux fonctions de rang assez elevé dévienne tel
+
+ petite que F on veux. Donc l'ensemble considéré rentrera dans votre classification de
+
+ Je vous remercie encore de votre observation grammatique. N'étant pas français,
+
+ votre belle langue me fait bien de difficultés.
+
+ ，，classe normale".
+
+ Votre tout dévoué
+
+ Riesz
+
+ 11.6. L'année dernière, Vous aviez la bonté de m’envoyer votre thèse. Je vous en
+
+ remercie. Mais possédât quelque chose, on souhaite toujours à augmenter la fortune.
+
+ Le qui vent dire que je serais heureux d'être en possession de vos autres travaux.
+ Pendant mon voyage je reçois mes lettres par l'adresse de mon frère: M. Marcel
+ Riesz, Gôttingen, Gorslerstr. 6.
+
+ References
+
+ Aleksandrov, P. (éd.). 1998. Die Hilbertschen Problème, volume 252 of Ostwalds Klassiker der exakten
+
+ Wissenschaften. Frankfurt am Main: Verlag Hani Deutsch.
+
+ Appert, A. 1982. Sur le meilleur terme primitif en topologie. Cahiers du séminaire d'histoire des mathé
+
+ matiques 3: 63-67.
+
+ Baer, R.1929. Beziehungen zwischen den Grundbegriffen der Topologie. Sitzungsberichte der Heidelberger
+
+ Akademie der Wissenschaften. Mathematisch-naturwissenschaftliche Klasse 15:1-23.
+
+ Baire, R. 1898. Sur les fonctions discontinues qui se rattachent aux fonctions continues. Comptes Rendus
+
+ de l'Académie des Sciences Paris 126: 1621-1623.
+
+ Baire, R. 1899a. Sur la théorie des ensembles. Comptes Rendus de l'Académie des Sciences Paris 129:
+
+ 946-949.
+
+ Paris 129: 1010-1013.
+
+ Baire, R. 1899b. Sur la théorie des fonctions discontinues. Comptes Rendus de l'Académie des Sciences
+
+ Bernkopf, M. 1966. The development of function spaces with particular reference to their origins in integral
+
+ equation theory. Archive for History of Exact Sciences 3:1-96.
+
+ Bognâr, M., and Â. Csâszâr. 2006. Topology, 9-25. In A panorama of Hungarian mathematics in the
+
+ twentieth century I，ed. Horvath, J. Berlin: Springer.
+
+ Bouligand, G.1928. Sur quelques points de topologie restreinte du premier ordre. Bulletin de la Société
+
+ Mathématique de France 56: 26-35.
+
+ Brouwer, L.1910. Beweis des jordanschen kurvensatzes. Mathemaîische Annalen 69(2): 169-175.
+
+ Browder, F.E., (éd.). 1974. Mathematical developments arising from Hilbert Problems，volume 28 of Pro
+
+ ceedings of symposia in pure mathematics. Providencem Rhode Island: AMS.
+
+ Chittenden, E.W. 1915. The converse of the Heine-Borel theorem in a Riesz domain. Bulletin of the American
+
+ Chittenden, E.W. 1919. On the Heine-Borel property in the theory of abstract sets. Bulletin of the American
+
+ Mathematical Society 21:179-183.
+
+ Mathematical Society 25: 60-66.
+
+ Chittenden, E.W. 1929. On general topology and the relation of the properties of the class of all continuous
+
+ functions to the properties of space. Transactions of the American Mathematical Society 31:290-321.
+
+ Crilly, T., D.M. Johnson. 1999. The emergence of topological dimension theory. In History of topology, ed.
+
+ James, I.M., 1-24. Amsterdam: Elsevier.
+
+ 自 Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 09:53:23 UTC
+All use subject to https://about.jstor.org/terms
+
+ Dresden, A. 1929. The march meeting in new york. Bulletin of the American Mathematical Society 35:
+
+ 100 し Rodriguez
+
+ 433-446. ^
+
+ Sciences 15: 297-383.
+
+ Dugac, P. 1976. Notes et documents sur la vie et l'œuvre de René Baire. Archive for History of Exact
+
+ Fehr, H. 1908. 4e congrès international des mathématiciens, Rome, 1908. H Enseignement Mathématique
+
+ Fréchet, M. 1905. Sur les fonctions limites et les opérations fonctionnelles. Comptes Rendus de l'Académie
+
+ 10: 226-265.
+
+ des Sciences Paris 140: 27-29.
+
+ Palermo (2) 30(1): 1-26.
+
+ Sciences Paris 165: 359-360.
+
+ 42:138-156.
+
+ 341-388.
+
+ Mathematics 50(1):49-72.
+
+ Paris: Gauthier-Villars.
+
+ Society 36: 281-283.
+
+ Fréchet, M. 1906. Sur quelques points du Calcul fonctionnel (thèse de doctorat, Paris, 1906). Rendiconti
+
+ del Circolo Matematico di Palermo (2) 22:1-74.
+
+ Fréchet, M. 1910. Les ensembles abstraits et le calcul fonctionnel. Rendiconti del Circolo Matematico di
+
+ Fréchet, M. 1917. Sur la notion de voisinage dans les espaces abstraits. Comptes Rendus de l'Académie des
+
+ Fréchet, M. 1918. Sur la notion de voisinage dans les espaces abstraits. Bulletin des Sciences Mathématiques
+
+ Fréchet, M. 1921. Sur les ensembles abstraits. Annales Scientifiques de l'École Normale Supérieure 38:
+
+ Fréchet, M. 1928a. Démonstration de quelques propriétés des ensembles abstraits. American Journal of
+
+ Fréchet, M.1928b. Les espaces abstraits et leur théorie considérée comme introduction à l'analyse générale.
+
+ Frink, OJ.1930. The fourth postulates of Riesz and Hausdorff. Bulletin of the American Mathematical
+
+ Gray, J.J. 2000. The Hilbert challenge. New York: Oxford University Press.
+
+ Gray, J.J. 2008. Plato's ghost. Princeton, NJ.: Princeton University Press.
+
+ Guggenheimer, H.1977. The Jordan curve theorem and an unpublished manuscript by Max Dehn. Archive
+
+ for History of Exact Sciences 17(2): 193-200.
+
+ Hales, T.C. 2007. Jordan's proof of the jordan curve theorem. Studies in Logic, Grammar and Rhetoric
+
+ 23(10): 45-^0.
+
+ Berlin: Springer.
+
+ Hallett, M” and U. Majer (eds.). 2004. David Hilbert's lectures on the foundations of geometry, 1891-1902.
+
+ Hausdorff, F.1914. Grundziige der Mengenlehre. Leipzig: Teubner.
+
+ Hawkins, T.1999. Weyl and the topology of continuous groups. In History of topology, ed. James, I.M.,
+
+ 169-198. Amsterdam: Elsevier.
+
+ Herrlich, H.，Hu§ek, M.，and G. PreuB. 2002a. Zusammenhang. In Felix Hausdorff Gesammelte Werke Band
+
+ II: Grundiizge der Mengenlehre, ed. Purkert,W., vol.2, 752-756. Berlin: Springer.
+ Hilbert, D.1900. Mathematische problème. Gdttinger Nachrichten 1900(3): 25S-297.
+ Hilbert, D.1902a. Mathematical problems. Bulletin of the American Mathematical Society 8: 437-479.
+ Hilbert, D.1902b. Ueber die Grundlagen der Geometrie. Gottinger Nachrichten 1902(4): 233-241.
+ Hilbert, D.1903. Ueber die Grundlagen der Geometrie. Mathematische Annalen 56: 381-422.
+
+ Hilbert, D.1956. Grundlagen der Geometrie, 8th ed. Stuttgart: Teubner.
+
+ Hildebrandt, T.H. 1926. The Borel theorem and its generalizations. Bulletin of the American Mathematical
+
+ Society 32:423-474.
+
+ Johnson, D.M. 1981. The problem of the invariance of dimension in the growth of modern topology part 2.
+
+ Archive for History of Exact Sciences 25: 85-267.
+
+ Jones, F.B. 1997. The beginning of topology in the United States and the Moore school. In Handbook of the
+
+ history of general topology, eds. Aull,C.，and R. Lowen, vol. 1,97-103. Dordrecht: Kluwer Academic
+ Publishers. —
+
+ Kuratowski, C.1922. Sur l'opération A de 1'analysis situs. Fundamenta Mathematicae 3:182-199.
+ Kuratowski, C.1933. Topologie，volume 1.Nakladem Polskiego Towarzystwa Matematycznego.
+ Lennes, N.J.1911.Curves in non-metrical analysis situs with an application in the calculus of variations.
+
+ American Journal of Mathematics 33: 287-326.
+
+ Manheim, J. 1964. The genesis of point set topology. Oxford: Pergamon Press.
+
+ Moore, E.H. 1910. Introduction to a form of general analysis. New Haven: Yale University Press.
+
+ Moore, G. 2008. The emergence of open sets, closed sets, and limit points in analysis and topology. Historia
+
+ Mathematica 35: 220-241.
+
+ 自 Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 09:53:23 UTC
+All use subject to https://about.jstor.org/terms
+
+ Frigyes Riesz and the emergence of general topology
+
+ Moore，R.L. 1915. The linear continuum in terms of point and limit. The Annals of Mathematics 16(2):
+
+ 123-133.
+
+ Pier, J.-P. 1980. Historique de la notion de compacité. Hisîoria Mathematica 7(4): 425-443.
+ Pitcher, A. 1914. On the connection of an abstract set, with applications to the theory of functions of a
+
+ general variable. American Journal of Mathematics 36(3): 261-266.
+
+ Poincaré, H. 1905. La valeur de la science. Paris: Flammarion.
+
+ Purkert, W. 2002. Grundztige der Mengenlehre. Historische EinfUhrung. In Felix Hausdorff Gesammelte
+
+ Werke Band II: Grundiizge der Mengenlehre, ed. Purkert, W., vol.2,1-89. Berlin: Springer.
+
+ Purkert, W. et al. 2002. Zum Begriff des topologischen Raumes. In Felix Hausdorff Gesammelte Werke
+
+ Band II: Grundiizge der Mengenlehre, ed. Purkert, W., vol.2,675-744. Berlin: Springer.
+
+ Reitberger, H. 1997. The contributions of し Vietoris and H. Hetze to the foundations of general topology.
+
+ In Handbook of the history of general topology，eds. Aull,C” and R. Lowen, vol.1,31-40. Dordrecht:
+ Kluwer Academic Publishers.
+
+ Riesz, F.1904a. Letter by Frigyes Riesz to David Hilbert from Nov.18,1904, Locse. Abteilung filr Hand
+
+ schriften und seltene Drucke der Niedersâchsischen Staats- und Universitatsbibliothek Gôttingen,
+ David Hilberts NachlaB, Cod. Ms. D. Hilbert 332,
+
+ Riesz, F.1904b. Letter by Frigyes Riesz to David Hilbert, undated (probably from December 1904, LR).
+
+ Abteilung fiir Handschriften und seltene Drucke der Niedersâchsischen Staats- und Universitatsbib
+ liothek Gôttingen, David Hilberts NachlaB, Cod. Ms. D. Hilbert 332.
+
+ Riesz, F.1904c. Uber einen Satz der Analysis situs. Mathematische Annalen 59:409-415.
+
+ Riesz, F. 1905a. Sur les ensembles discontinus. Comptes Rendus de l'Académie des Sciences, Paris 141:
+
+ Riesz, F. 1905b. Sur un théorème de M. Borel. Comptes Rendus de l'Académie des Sciences, Paris 140:
+
+ 650-653.
+
+ 224-226.
+
+ Riesz, F. 1905c. Uber mehrfache Ordnungstypen I. Mathematische Annalen 61:406-421.
+ Riesz, F. 1906a. A térfogalom genesise. Math, és Phys. Lapok 15: 97-122.
+ Riesz, F. 1906b. Die Genesis des Raumbegriffes. Mathematische und naturwissenschaftliche Berichte aus
+
+ Ungarn 24: 309-353.
+
+ Riesz, F. 1907a. A térfogalom genesise. Math, és Phys. Lapok 16:145-161.
+ Riesz, F.1907b. Letter by Frigyes Riesz to Maurice Fréchet from May 21,1907，Paris. Archive de l'Académie
+
+ des Sciences de Paris Fonds Maurice Fréchet F2:10.
+
+ Riesz, F. 1907c. Sur une espèce de géométrie analytique des systèmes de fonctions sommables. Comptes
+
+ Rendus de l'Académie des Sciences Paris 144:1409-1411.
+
+ Riesz, F. 1909. StetigkeitsbegrifF und abstrakte Mengenlehre. In Atti del IV Congress。Internazionale dei
+ Matematici (Roma, 6-11 Aprile 1908), ed. Castelnuovo, G., vol.2,18-24. Accademia dei Lincei:
+ Roma.
+
+ Rodriguez, L. 2006. Friedrich Riesz' Beitràge zur Herausbildung des modernen mathematischen Konzepts
+ abstrakter Ràume. Synthesen intellektueller Kulturen in Ungarn, Frankreich und Deutschland. PhD
+
+ thesis, Johannes Gutenberg-Universitat Mainz, http://nbn-resolving.de/urn/resolver.pl?urn=urn:nbn:
+ de:hebis:77-11793. Accessed 25 October 2006
+
+ Root, R.E. 1911. Iterated limits of functions on an abstract range. Bulletin of the American Mathematical
+
+ Society 17(10): 538-539.
+
+ Root, R.E. 1914a. Iterated limits in general analysis. American Journal of Mathematics 36: 79-104.
+
+ Root, R.E. 1914b. Limits in terms of order, with example of limiting element not approachable by â sequence.
+
+ Transactions of the American Mathematical Society 15: 51—71.
+
+ Rowe，D.E. 1995. The Hilbert problems and the mathematics of a new century, 1-39. Preprints-Reihe des
+
+ FB Mathematik: Johannes Gutenberg-Universitât Mainz.
+
+ Schoenflies，A. 1902. Ueber einen grundlegenden Satz der Analysis Situs. Gôtîinger Nachrichten 1902:
+
+ 185-192.
+
+ Schoenflies, A. 1904. Beitràge zur Theorie der Punktmengen. I. Mathematische Annalen 58:195-234.
+
+ Schoenflies, A. 1908. Die Entwicklung der Lehre von den Punktmannigfaltigkeiten II. Jahresbericht der
+
+ DMV (Ergànzungsband II): Teubner, Leipzig.
+
+ Scholz, E.1999. The concept of manifold,1850-1950. In History of topology，ed. James, I.M., 25-64.
+
+ Siegmund-Schultze, R.1998. Eliakim Hastings Moore's 'General Analysis'. Archive for History of Exact
+
+ Amsterdam: Elsevier.
+
+ Sciences 52: 51-89.
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 09:53:23 UTC
+All use subject to https://about.jstor.org/terms
+
+ 姿 Springer
+
+ 102 L. Rodriguez
+
+ Annalen 97(1): 321-337.
+
+ matical Society 34: 394-408.
+
+ Sierpinski, W.1927. La notion de dérivée comme base d' une théorie des ensembles abstraits. Mathematische
+
+ Stephens, R.1932. Continuous transformations of abstract spaces. Transactions of the American Mathe
+
+ Szénâssy, B.1992. History of mathematics in Hungary until the 20th century. Berlin: Springer.
+ Taylor, A.E. 1982. A study of Maurice Fréchet: I. His early work on point set theory and the theory of
+
+ functionals. Archive for History of Exact Sciences 27: 233-295.
+
+ Taylor, A.E. 1985. A study of Maurice Fréchet: II. Mainly about his work on general topology. Archive for
+
+ History of Exact Sciences 34: 279-380.
+
+ Thron, W.1997. Frederic Riesz' contributions to the foundations of general topology. In Handbook of the
+
+ history of general topology, eds. Aull,C., and R. Lowen, vol. 1,21-29. Dordrecht: Kluwer Academic
+ Publishers.
+
+ Thron, W.J. 1973. On a problem of F. Riesz concerning proximity structures. Proceedings of the American
+
+ Mathematical Society 40(1): 323-326.
+
+ Tietze, H.1923. Beitràge zur allgemeinen Topologie I. Axiome fiir verschiedene Fassungen des Umge
+
+ bungsbegriffs. Mathematische Annalen 88(3): 290-312.
+
+ Toepell, M.M. 1986. Uber die Entstehung von David Hilberts "Grundlagen der Geometrie Gôttingen:
+
+ Torretti, R.1978. Philosophy of Geometry from Riemann to Poincaré, volume 7 of Episteme. Dordrecht:
+
+ Vandenhoeck & Ruprecht.
+
+ Reidel.
+
+ Veblen, 0.1905. Theory on plane curves in non-metrical analysis situs. Transactions of the American
+
+ Mathematical Society 6(1): 83-98.
+
+ Vietoris, L.1921. Stetige Mengen. Monatshefte fiir Mathematik und Physik 31:173-204.
+ Willard, S.1970. General topology. Massachusetts: Addison-Wesley.
+
+ â Springer
+
+This content downloaded from 203.78.15.150 on Tue, 19 May 2020 09:53:23 UTC
+All use subject to https://about.jstor.org/terms
+
+
