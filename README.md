@@ -11,8 +11,7 @@ Can we instead help users to develop a habit of reading faster and more effectiv
 ### Inspiration for YORO
 The idea behind how we would get people to read faster and more effectively was simple: invoke better recall and master the famed "block reading" which many fast readers today employ to devour multiple tens of books a year. As such, our app would have to be able to identify segments in a large chunk of text and perform summarisation on these segments. An example of how this might occur is shown below.  
 
-![Figure 1: An illustration of Model 1 and 2 
-Excerpt taken from This is What Inequality Looks Like by Teo Yeo Yenn, Pg 31-32](relative/path/to/img.jpg?raw=true "Title")
+![Excerpt taken from This is What Inequality Looks Like by Teo Yeo Yenn, Pg 31-32](utils/imgs/example.jpg)
 Present NLP paradigms, unfortunately, are a square peg in our circular hole of a problem. Segmentation and further downstream tasks (in our case, summarisation) are often seen as 2 stage problems. 
 
 ### How to use this repository 
