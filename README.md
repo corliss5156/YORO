@@ -1,6 +1,6 @@
 # You Only Read Once 
 
-#### TLDR: We built upon an existing transformer based pretrained model that produces segmented summaries (i.e. it performs text segmentation and summarisation at one shot). If you're not interested in the background or motivations behind our project, feel free to skip straight to the code. 
+#### TLDR: We built upon an existing transformer based a pretrained model that produces segmented summaries (i.e. it performs text segmentation and summarisation at one shot). If you're not interested in the background or motivations behind our project, feel free to skip straight to the code. 
 
 ### Background to this project
 This project started of with the intention of wanting to build an application which can help people improve their reading abilities. 
@@ -14,7 +14,11 @@ The idea behind how we would get people to read faster and more effectively was 
   <p align="center"><img src="utils/imgs/example.jpg"></p>
   <p align="center">"Excerpt taken from This is What Inequality Looks Like by Teo Yeo Yenn, Pg 31-32"</p>
   
-Present NLP paradigms, unfortunately, are a square peg in our circular hole of a problem. Segmentation and further downstream tasks (in our case, summarisation) are often seen as 2 stage problems. 
+Present NLP paradigms, unfortunately, are a square peg in our circular hole of a problem. Segmentation and further downstream tasks (in our case, summarisation) are often seen as 2 stage problems. This has several disadvantages, including increasing the time of training and inference, likely poorer results especially if a full-on supervised approach is used for both the segmentation and summarisation tasks, all compounded by the lack of easily available datasets that suit our needs and wants. <br><br>
+YORO was thus an inspiration taken from single shot object detection models(e.g. YOLO), an is intended to perform both tasks at once. 
+
+### What's special about YORO?
+Will update this in due time.
 
 ### How to use this repository 
 We have mainly divided up the repo into 2 folders: one folder for data, and the other for developing the models. Will be further updated when we are done!
