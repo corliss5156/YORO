@@ -30,6 +30,7 @@ def bart_splitter(model):
 #Defines pretrained model
 class FastaiWrapper(nn.Module):
     def __init__(self):
+        super(FastaiWrapper, self).__init__()
         self.config = BartConfig(vocab_size=50264, output_past=True)
         self.bart = load_hf_model(config=self.config, pretrained=True)
 

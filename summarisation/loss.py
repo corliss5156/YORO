@@ -5,6 +5,7 @@ from torch.nn import F
 class SummarisationLoss(nn.Module):
     def __init__(self):
         #defines loss function to be used, which is cross entropy
+        super(SummarisationLoss, self).__init__()
         self.criterion = torch.nn.CrossEntropyLoss()
 
     def forward(self, output, target):
