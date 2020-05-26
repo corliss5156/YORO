@@ -15,7 +15,7 @@ The idea behind how we would get people to read faster and more effectively was 
   <p align="center">"Excerpt taken from This is What Inequality Looks Like by Teo Yeo Yenn, Pg 31-32"</p>
   
 Present NLP paradigms, unfortunately, are a square peg in our circular hole of a problem. Segmentation and further downstream tasks (in our case, summarisation) are often seen as 2 stage problems. This has several disadvantages, including increasing the time of training and inference, likely poorer results especially if a full-on supervised approach is used for both the segmentation and summarisation tasks, all compounded by the lack of easily available datasets that suit our needs and wants. <br><br>
-YORO was thus an inspiration taken from single shot object detection models(e.g. YOLO), an is intended to perform both tasks at once. 
+YORO was thus an inspiration derived from single shot object detection models(e.g. YOLO), and is intended to perform both tasks at once. 
 
 ### What's special about YORO?
 Will update this in due time.
